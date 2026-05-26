@@ -1,6 +1,7 @@
 import os
 import json
 import pandas as pd
+from pathlib import Path
 from dotenv import load_dotenv
 from google import genai
 
@@ -14,11 +15,72 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 
-prompt = """
+
+def load_recent_posts(path="data/content_log.csv", limit=10):
+    log_path = Path(path)
+
+    if not log_path.exists():
+        return []
+
+    df = pd.read_csv(log_path)
+
+    if df.empty:
+        return []
+
+    recent = df.tail(limit)
+
+    recent_items = []
+    for _, row in recent.iterrows():
+        date = row.get("date", "")
+        category = row.get("category", "")
+        topic = row.get("topic", "")
+        status = row.get("status", "")
+        post_text = str(row.get("post_text", "")).replace("\n", " ")
+
+        recent_items.append(
+            f"- {date} | {category} | {topic} | {status} | {post_text[:140]}"
+        )
+
+    return recent_items
+
+
+recent_posts = load_recent_posts()
+
+recent_posts_text = "No previous posts found."
+
+if recent_posts:
+    recent_posts_text = "\n".join(recent_posts)
+
+prompt = f"""
 Create 30 high-quality X/Twitter posts for an English travel affiliate account called Travel Now.
 
 Brand:
-Travel Now helps travelers prepare smoother trips with travel gear, EDC picks, eSIMs, packing tools, flight comfort items, travel insurance, VPNs, hotel tools, tours, and camera gear.
+Travel Now helps travelers prepare smoother trips with practical travel preparation checklists, travel gear, EDC picks, eSIMs, packing tools, flight comfort items, travel insurance, VPNs, hotel tools, tours, and camera gear.
+
+Positioning:
+Travel Now is not luxury travel, not backpacking, and not influencer travel.
+It is a practical travel preparation media brand for normal people who want smoother trips, fewer mistakes, and less stress before and after flights.
+
+Main content style:
+- Checklist-led
+- Before-you-fly preparation
+- Mistake avoidance
+- Simple travel systems
+- Practical, saveable posts
+
+Recently posted content to avoid repeating:
+{recent_posts_text}
+
+Important anti-repetition rule:
+Do NOT create posts that are too similar to the recently posted content above.
+Avoid repeating the same topic, same angle, same checklist, or same opening hook.
+You may use the same broad category only if the angle is clearly different.
+
+Better examples of different angles:
+- If eSIM was already posted, do not write another basic eSIM activation checklist.
+  Instead, you may write about saving hotel addresses offline, screenshotting QR codes, or checking roaming settings.
+- If EDC was already posted, do not write another generic everyday carry checklist.
+  Instead, you may write about airport-day pocket setup, day-trip bag setup, or small cash preparation.
 
 Goal:
 Attract English-speaking travelers and build trust first. A future travel setup checklist page may be used later, but most posts should be useful without asking for clicks.
@@ -27,7 +89,7 @@ Return only valid JSON. No markdown. No explanation.
 
 JSON format:
 [
-  {
+  {{
     "topic": "...",
     "category": "...",
     "hook": "...",
@@ -35,7 +97,7 @@ JSON format:
     "cta": "no CTA",
     "score": 8,
     "status": "draft"
-  }
+  }}
 ]
 
 Very important:
@@ -95,14 +157,17 @@ CTA examples:
 - Full setup checklist coming soon.
 """
 
-print("2. Sending request to Gemini...")
+print("2. Recent posts loaded:")
+print(recent_posts_text)
+
+print("3. Sending request to Gemini...")
 
 response = client.models.generate_content(
     model="gemini-2.5-flash",
     contents=prompt,
 )
 
-print("3. Response received.")
+print("4. Response received.")
 
 text = response.text.strip()
 
@@ -128,6 +193,6 @@ df.to_csv("posts.csv", index=False, encoding="utf-8-sig")
 top_df = df.head(3)
 top_df.to_csv("top_posts.csv", index=False, encoding="utf-8-sig")
 
-print("4. Done.")
+print("5. Done.")
 print("Generated posts.csv and top_posts.csv")
 print(top_df[["topic", "category", "score", "status", "cta"]])
