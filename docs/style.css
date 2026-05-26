@@ -249,3 +249,23 @@ footer a {
   line-height: 1.7;
   max-width: 760px;
 }
+
+/* Monetization path */
+.money-path {
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 32px;
+  border-radius: 24px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.money-path h2 {
+  margin: 8px 0 12px;
+}
+
+.money-path > p {
+  color: #475569;
+  line-height: 1.7;
+  max-width: 760px;
+}
