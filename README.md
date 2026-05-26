@@ -1,28 +1,46 @@
 # Travel Now Agent
 
-Travel Now Agent is an AI-assisted content workflow for building a travel-prep media project.
+Travel Now Agent is an AI-assisted workflow for building and operating a lightweight travel-prep media project.
 
-It helps generate practical English X/Twitter posts and will gradually support a lightweight travel hub website focused on packing, eSIMs, flight comfort, power, safety, and camera travel gear.
+Live site: https://kytriples.github.io/travel-now-agent/
 
-## Current features
+X account: https://x.com/TripWorldAdvice
 
-- Generates travel-prep post candidates using Gemini
+## What this project does
+
+- Generates English X/Twitter post candidates using Gemini
 - Exports post ideas to CSV
-- Separates post text from CTA ideas
-- Supports a future VS Code-managed travel hub site
+- Maintains a lightweight Travel Now hub site
+- Manages starter product ideas in CSV
+- Builds the website from product data
+- Supports a one-command daily workflow
+
+## Daily workflow
+
+Run:
+
+python daily_run.py
+
+This workflow generates post candidates, rebuilds the website, shows top posts, and displays git status.
 
 ## Tech stack
 
 - Python
 - Gemini API
 - CSV workflow
-- HTML/CSS planned
-- GitHub Pages planned
+- HTML/CSS
+- GitHub Pages
 
-## Goal
+## Monetization direction
 
-The goal is to build a small but useful AI-powered workflow for travel content creation, affiliate preparation, and lightweight web publishing.
+The project is designed to gradually support affiliate monetization through travel-prep categories such as packing, eSIM, flight comfort, charging, travel safety, and camera travel gear.
+
+Current product links are starter placeholder links and can be replaced with official affiliate links later.
+
+## Long-term goal
+
+The long-term goal is to turn Travel Now into an AI-assisted travel media operation that can generate content, manage product data, update a website, and support scalable publishing workflows.
 
 ## Disclaimer
 
-This project is experimental. It does not provide legal, medical, visa, insurance, or financial advice.
+This project is experimental. It does not provide legal, medical, visa, insurance, financial, or safety advice.
