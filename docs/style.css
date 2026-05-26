@@ -120,3 +120,31 @@ footer {
 footer a {
   color: white;
 }
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.product-card {
+  background: #f7f5ef;
+  border: 1px solid #e5e1d8;
+  border-radius: 18px;
+  padding: 16px;
+}
+
+.product-card h4 {
+  margin: 0 0 8px;
+}
+
+.product-card p {
+  margin: 0 0 12px;
+  color: #52616b;
+}
+
+.product-link {
+  font-weight: bold;
+  color: #4f6f52;
+}
