@@ -1,4 +1,5 @@
 import csv
+import re
 import subprocess
 from pathlib import Path
 
@@ -57,7 +58,7 @@ def show_today_candidate(path="top_posts.csv"):
         print(f"\n{path} not found. Skipping today's candidate display.")
         return
 
-    with top_posts.open(newline="", encoding="utf-8") as f:
+    with top_posts.open(newline="", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         rows = list(reader)
 
@@ -81,15 +82,124 @@ def show_today_candidate(path="top_posts.csv"):
     print("==============================")
 
 
+def slugify(text):
+    """Convert a topic string to a URL-friendly slug (mirrors generate_article.py)."""
+    text = text.lower()
+    text = re.sub(r"[^\w\s-]", "", text)
+    text = re.sub(r"\s+", "-", text.strip())
+    text = re.sub(r"-+", "-", text)
+    return text
+
+
+def show_revenue_actions(top_posts_path="top_posts.csv", content_log_path="data/content_log.csv"):
+    """Show revenue-focused next actions at the end of the daily workflow."""
+
+    print("\n" + "=" * 36)
+    print("=== REVENUE ACTIONS             ===")
+    print("=" * 36)
+
+    # ── 1. Today's top post and whether it is an article candidate ────────────
+    top_path = Path(top_posts_path)
+    top_post = None
+
+    if top_path.exists():
+        with top_path.open(newline="", encoding="utf-8-sig") as f:
+            rows = list(csv.DictReader(f))
+            if rows:
+                top_post = rows[0]
+
+    if top_post:
+        topic    = top_post.get("topic", "").strip()
+        category = top_post.get("category", "").strip()
+        score    = top_post.get("score", "?")
+        print(f"\nToday's top post:   {topic}")
+        print(f"Category / score:   {category}  |  score {score}")
+
+        # Check if this topic is already in content_log as article_candidate
+        log_path = Path(content_log_path)
+        match_status = None  # None = not found, True = yes, False = no
+        if log_path.exists():
+            with log_path.open(newline="", encoding="utf-8") as f:
+                for row in csv.DictReader(f):
+                    if row.get("topic", "").strip().lower() == topic.lower():
+                        match_status = row.get("article_candidate", "").strip().lower() == "yes"
+                        break
+
+        if match_status is True:
+            print("Article candidate:  YES — already marked in content_log.csv")
+        elif match_status is False:
+            print("Article candidate:  no — in content_log but not marked")
+        else:
+            print("Article candidate:  not in content_log.csv yet")
+            print("                    → after posting, add a row and set article_candidate=yes if useful")
+    else:
+        print("\nNo top post data found — run main.py first.")
+
+    # ── 2. All article candidates and which already have articles ─────────────
+    log_path = Path(content_log_path)
+
+    if not log_path.exists():
+        print("\nNo content_log.csv found.")
+        print("=" * 36)
+        return
+
+    with log_path.open(newline="", encoding="utf-8") as f:
+        all_rows = list(csv.DictReader(f))
+
+    # Deduplicate by slug, keeping the latest date (same logic as generate_article.py)
+    by_slug: dict = {}
+    for row in all_rows:
+        if row.get("article_candidate", "").strip().lower() == "yes":
+            slug = slugify(row["topic"])
+            existing = by_slug.get(slug)
+            if existing is None or row.get("date", "") >= existing.get("date", ""):
+                by_slug[slug] = row
+
+    print(f"\nArticle candidates in content_log.csv: {len(by_slug)}")
+
+    if not by_slug:
+        print("  (none — mark posts as article_candidate=yes to build this list)")
+        print("=" * 36)
+        return
+
+    pending_slugs = []
+    for slug, row in by_slug.items():
+        exists = (Path("site/articles") / f"{slug}.html").exists()
+        mark   = "✓" if exists else "○"
+        label  = "article exists" if exists else "no article yet"
+        print(f"  {mark}  {row['topic']:<42}  {label}")
+        if not exists:
+            pending_slugs.append(slug)
+
+    # ── 3. Command suggestion ─────────────────────────────────────────────────
+    print()
+    if pending_slugs:
+        print(f"  {len(pending_slugs)} candidate(s) still need articles.")
+        print("\n  Next revenue action:")
+        print("    python generate_article.py           # dry run — preview what would be created")
+        print("    python generate_article.py --write   # generate the missing article drafts")
+    else:
+        print("  All article candidates have articles. ✓")
+        print("\n  Next revenue action:")
+        print("    Review and polish article drafts in site/articles/")
+        print("    Then link them from your X posts and update content_log.csv")
+
+    print("=" * 36)
+
+
 def main():
     print("Starting Travel Now daily workflow...")
 
     # 1. Show recent posted content first to avoid repeating topics
     show_recent_content_log()
 
-    # 2. Generate X post candidates
+    # 2. Generate X post candidates (soft failure — workflow continues on error)
     if Path("main.py").exists():
-        run("python main.py")
+        print("\n> python main.py")
+        result = subprocess.run("python main.py", shell=True)
+        if result.returncode != 0:
+            print("  Warning: post generation failed. Check your GEMINI_API_KEY and dependencies.")
+            print("  Continuing with existing top_posts.csv if available.")
     else:
         print("main.py not found. Skipping post generation.")
 
@@ -108,8 +218,11 @@ def main():
     # 6. Show git status
     run("git status")
 
+    # 7. Revenue actions — article pipeline status and next step suggestion
+    show_revenue_actions()
+
     print("\nDaily workflow complete.")
-    print("Next: choose one non-repeated post, publish or save it, update content_log.csv, then commit changes if needed.")
+    print("Next: choose a post → publish → update content_log.csv → commit.")
 
 
 if __name__ == "__main__":
