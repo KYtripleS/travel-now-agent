@@ -60,11 +60,8 @@ def md5(path: Path) -> str:
 
 
 def html_files(root: Path) -> list[Path]:
-    """Return index.html + all articles/*.html under root, sorted."""
-    files = sorted((root / "articles").glob("*.html")) if (root / "articles").exists() else []
-    if (root / "index.html").exists():
-        files.append(root / "index.html")
-    return files
+    """Return all HTML files under root, recursively, sorted."""
+    return sorted(root.rglob("*.html"))
 
 
 def parse_local_hrefs(text: str) -> list[str]:
