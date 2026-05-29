@@ -13,6 +13,8 @@ X account: https://x.com/TripWorldAdvice
 - Maintains a lightweight Travel Now hub site
 - Manages starter product ideas in CSV
 - Builds the website from product data
+- Generates long-form English Markdown drafts (Medium, Substack, note, site)
+- Generates Japanese note drafts for the series「会社員、AIでメディアを作る。」
 - Supports a one-command daily workflow
 
 ## Daily workflow
@@ -37,9 +39,18 @@ The project is designed to gradually support affiliate monetization through trav
 
 Current product links are starter placeholder links and can be replaced with official affiliate links later.
 
+## Content pipelines
+
+| Script | Output | Platform |
+|---|---|---|
+| `main.py` | `posts.csv`, `top_posts.csv` | X/Twitter |
+| `generate_article.py` | `site/articles/*.html` | Travel Now site |
+| `generate_draft.py` | `content_drafts/*.md` | Medium / Substack / note |
+| `generate_note_draft.py` | `note_drafts/*.md` | note（日本語） |
+
 ## Long-term goal
 
-The long-term goal is to turn Travel Now into an AI-assisted travel media operation that can generate content, manage product data, update a website, and support scalable publishing workflows.
+The long-term goal is to turn Travel Now into an AI-assisted travel media operation that can generate content, manage product data, update a website, and support scalable publishing workflows across English and Japanese channels.
 
 ## Disclaimer
 
