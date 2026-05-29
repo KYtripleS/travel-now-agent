@@ -37,7 +37,31 @@ This workflow generates post candidates, rebuilds the website, shows top posts, 
 
 The project is designed to gradually support affiliate monetization through travel-prep categories such as packing, eSIM, flight comfort, charging, travel safety, and camera travel gear.
 
-Current product links are starter placeholder links and can be replaced with official affiliate links later.
+Current product links are Amazon search-page URLs with the affiliate tag `packlightpick-20`. They can be replaced with specific product ASINs once the best-performing products are identified.
+
+## Affiliate management
+
+| File | Purpose |
+|---|---|
+| `affiliate_links.csv` | Master list of all affiliate links — category, URL, placement, status |
+| `affiliate_click_log.csv` | Manual click / order / revenue log (update after each publish) |
+| `affiliate_tools.py` | CLI utilities: list links, check disclosures, check tags, weekly summary |
+
+```
+python affiliate_tools.py list                        # active links with tag check
+python affiliate_tools.py list --all                  # include inactive
+python affiliate_tools.py category "Flight Comfort"   # links for one category
+python affiliate_tools.py check-disclosures           # scan HTML for disclosure text
+python affiliate_tools.py check-placeholders          # scan products.csv for missing tags
+python affiliate_tools.py weekly-summary              # last 7 days from click log
+python affiliate_tools.py weekly-summary --weeks 4    # last 4 weeks
+```
+
+**Constraints (never change):**
+- No Amazon Product Advertising API
+- No Amazon scraping
+- No automatic fetching of prices, reviews, or images
+- All links are manually entered; `affiliate_tools.py` only reads — never writes to any product file
 
 ## Content pipelines
 
