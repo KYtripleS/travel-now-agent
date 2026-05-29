@@ -148,14 +148,157 @@
       margin-top: 28px;
     }
 
+    /* ── Save bar ─────────────────────────────────────────────────────── */
+    .save-bar {
+      margin: 16px 0 0;
+      padding: 18px 22px;
+      background: linear-gradient(135deg, rgba(47, 95, 143, 0.07), rgba(255, 255, 255, 0.9));
+      border: 1px solid rgba(47, 95, 143, 0.22);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .save-bar-text strong {
+      display: block;
+      font-size: 0.96rem;
+      color: var(--navy);
+    }
+
+    .save-bar-text p {
+      margin: 4px 0 0;
+      font-size: 0.84rem;
+      color: var(--muted);
+    }
+
+    .save-bar-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      flex-shrink: 0;
+    }
+
+    /* ── Style panel (travel-style-specific tips) ─────────────────────── */
+    .style-panel {
+      margin: 16px 0 0;
+      padding: 18px 22px;
+      background: linear-gradient(135deg, #f5ead8, #fbf7ef);
+      border: 1px solid rgba(184, 148, 95, 0.35);
+      border-radius: var(--radius-md);
+      color: #533f22;
+    }
+
+    .style-panel strong {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .style-panel ul {
+      margin: 0;
+      padding-left: 1.1rem;
+      font-size: 0.91rem;
+      line-height: 1.75;
+    }
+
+    .style-panel li + li {
+      margin-top: 3px;
+    }
+
+    .style-panel a {
+      color: #7a5a2c;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .style-panel a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── Next-step cards ──────────────────────────────────────────────── */
+    .next-steps {
+      margin-top: 26px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    .next-steps-heading {
+      font-size: 1.1rem;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 0 0 14px;
+    }
+
+    .next-step-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+      gap: 12px;
+    }
+
+    .next-step-card {
+      background: linear-gradient(135deg, rgba(239, 228, 209, 0.65), rgba(251, 250, 247, 0.85));
+      border: 1px solid rgba(184, 148, 95, 0.28);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .next-step-card:hover {
+      border-color: rgba(184, 148, 95, 0.55);
+      box-shadow: 0 6px 16px rgba(23, 32, 51, 0.07);
+    }
+
+    .next-step-card .ns-icon {
+      font-size: 1.2rem;
+      margin-bottom: 6px;
+    }
+
+    .next-step-card h4 {
+      margin: 0 0 5px;
+      font-size: 0.93rem;
+      color: var(--navy);
+      line-height: 1.3;
+    }
+
+    .next-step-card p {
+      margin: 0 0 12px;
+      font-size: 0.84rem;
+      color: var(--muted);
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    .next-step-card a {
+      font-size: 0.84rem;
+      font-weight: 800;
+      color: var(--blue);
+      text-decoration: none;
+      margin-top: auto;
+    }
+
+    .next-step-card a:hover {
+      text-decoration: underline;
+    }
+
     /* ── Print ────────────────────────────────────────────────────────── */
     @media print {
       .hero, #form-section, .disclosure, footer,
-      .cl-actions, .about, .tip-box { display: none !important; }
+      .cl-actions, .save-bar, .about, .tip-box { display: none !important; }
       body, body::before { background: white !important; }
       .list { box-shadow: none !important; border: 1px solid #ccc !important; }
       .cl-summary { box-shadow: none !important; }
-      .product-card { box-shadow: none !important; }
+      .product-card, .next-step-card { box-shadow: none !important; }
+      .style-panel { background: #f9f5ee !important; }
     }
   </style>
 </head>
@@ -304,6 +447,21 @@
       sdCase:        { name: 'SD card case',              desc: 'Helps keep memory cards organised and easy to find',         url: 'https://www.amazon.com/s?k=sd+card+case+travel&tag=packlightpick-20' },
     };
 
+    /* ── Internal link catalog ────────────────────────────────────────── */
+    /* All hrefs are relative to checklist-generator.html (site root).    */
+    var L = {
+      liquids:    { icon: '📋', title: 'Airport Security Liquids Checklist',   desc: 'A simple carry-on liquids guide before security.',                    url: 'articles/airport-security-liquids.html' },
+      packMom:    { icon: '✈️', title: 'Airport Security Packing Moments',     desc: 'How to pack carry-on items by airport checkpoint moment.',            url: 'articles/airport-security-packing-moments.html' },
+      esimGuide:  { icon: '📶', title: 'eSIM Activation & Prep Guide',         desc: 'Check eSIM support and choose a data plan before you fly.',           url: 'articles/esim-activation-and-preparation.html' },
+      edcGuide:   { icon: '🎒', title: 'Everyday Carry Essentials Guide',      desc: 'What to keep in your bag on travel days abroad.',                     url: 'articles/everyday-carry-essentials-for-travel.html' },
+      secEsim:    { icon: '📶', title: 'eSIM & Connectivity Picks',            desc: 'Travel SIM cards, hotspots, and phone prep options.',                 url: 'index.html#esim' },
+      secPacking: { icon: '🎒', title: 'Packing Essentials Picks',            desc: 'Packing cubes, toiletry bags, and cable pouches.',                    url: 'index.html#packing' },
+      secFlight:  { icon: '✈️', title: 'Flight Comfort Picks',                desc: 'Neck pillows, eye masks, and comfort items for flights.',             url: 'index.html#flight' },
+      secPower:   { icon: '🔋', title: 'Power & Charging Picks',              desc: 'Power banks, adapters, and cables to consider.',                      url: 'index.html#power' },
+      secSafety:  { icon: '🛡️', title: 'Travel Safety Picks',                desc: 'Passport holders, RFID wallets, and luggage tags.',                   url: 'index.html#safety' },
+      secCamera:  { icon: '📷', title: 'Camera Travel Gear Picks',            desc: 'Lightweight camera gear for outdoor and city travel days.',            url: 'index.html#camera' },
+    };
+
     /* ── Month to season ──────────────────────────────────────────────── */
     var SEASON = {
       jan:'winter', feb:'winter', dec:'winter',
@@ -347,6 +505,8 @@
       if (flightLen === 'long')
         s1.push('Charge all devices fully the night before — boarding passes and maps need battery');
 
+      var ns1 = ['packMom', 'liquids'];
+
       /* 2 ── Documents & Money */
       var s2 = [
         'Passport (check expiry date before packing)',
@@ -363,6 +523,8 @@
         s2.push('Bring a backup payment card stored separately from your main card');
       if (style === 'family')
         s2.push('Keep copies of travel documents for every family member travelling');
+
+      var ns2 = ['edcGuide', 'secSafety'];
 
       /* 3 ── Packing Smarter */
       var s3 = [
@@ -392,6 +554,10 @@
       if (longTrip)
         s3.push('Check the forecast before finalising packing — weather can vary across a longer trip');
 
+      var ns3 = ['liquids', 'secPacking'];
+      if (style === 'nature' || style === 'beach' || style === 'backpacking')
+        ns3 = ['liquids', 'packMom', 'secPacking'];
+
       /* 4 ── Stay Connected */
       var s4 = [
         'Check if your phone supports eSIM or research a local SIM option for ' + d,
@@ -406,8 +572,12 @@
       if (style === 'business')
         s4.push('Test your key work apps and VPN access on local networks — check before departure');
 
+      var ns4 = ['esimGuide', 'secEsim'];
+      if (longTrip || style === 'backpacking' || style === 'nature')
+        ns4 = ['esimGuide', 'secEsim', 'secPower'];
+
       /* 5 ── Flight Comfort */
-      var s5, p5;
+      var s5, p5, ns5;
       if (flightLen === 'short') {
         s5 = [
           'Keep essentials accessible in your personal item — overhead bins fill up fast',
@@ -415,7 +585,8 @@
           'A downloaded podcast, playlist, or episode makes short flights easier',
           'Fill a water bottle after security to stay hydrated',
         ];
-        p5 = ['waterBottle'];
+        p5  = ['waterBottle'];
+        ns5 = ['secFlight'];
       } else if (flightLen === 'medium') {
         s5 = [
           'A travel pillow can help on seats that do not recline much',
@@ -424,7 +595,8 @@
           'Fill a water bottle after security to stay hydrated during the flight',
           'Keep essentials (charger, earbuds, snacks) in the seat pocket during boarding',
         ];
-        p5 = ['pillow', 'waterBottle'];
+        p5  = ['pillow', 'waterBottle'];
+        ns5 = ['secFlight', 'secPower'];
       } else {
         s5 = [
           'Travel neck pillow — seat comfort varies widely on long-haul routes',
@@ -436,7 +608,8 @@
           'Fill a water bottle after security to avoid paying for cabin beverages',
           'Noise-cancelling headphones or earplugs can reduce fatigue noticeably on long routes',
         ];
-        p5 = ['pillow', 'eyeMask', 'waterBottle'];
+        p5  = ['pillow', 'eyeMask', 'waterBottle'];
+        ns5 = ['secFlight', 'packMom'];
       }
 
       /* 6 ── Safer Trip Prep */
@@ -458,14 +631,81 @@
       if (longTrip)
         s6.push('Consider registering your trip with your country’s foreign travel registration service');
 
+      var ns6 = ['secSafety', 'edcGuide'];
+      if (style === 'family')  ns6 = ['secSafety', 'liquids', 'edcGuide'];
+      if (style === 'nature')  ns6 = ['secSafety', 'secPower', 'edcGuide'];
+
       return [
-        { icon: '✈️', title: 'Before You Fly',    items: s1, products: ['luggageTag', 'passportHolder'] },
-        { icon: '📄', title: 'Documents & Money', items: s2, products: ['rfidWallet', 'passportHolder'] },
-        { icon: '🎒', title: 'Packing Smarter',   items: s3, products: ['packingCubes', 'toiletryBag', 'cablePouch'] },
-        { icon: '📶', title: 'Stay Connected',    items: s4, products: ['powerBank', 'adapter', 'esim'] },
-        { icon: '🛫', title: 'Flight Comfort',    items: s5, products: p5 },
-        { icon: '🛡️', title: 'Safer Trip Prep', items: s6, products: ['rfidWallet', 'luggageTag'] },
+        { icon: '✈️',  title: 'Before You Fly',    items: s1, products: ['luggageTag', 'passportHolder'], nextSteps: ns1 },
+        { icon: '📄',  title: 'Documents & Money', items: s2, products: ['rfidWallet', 'passportHolder'], nextSteps: ns2 },
+        { icon: '🎒',  title: 'Packing Smarter',   items: s3, products: ['packingCubes', 'toiletryBag', 'cablePouch'], nextSteps: ns3 },
+        { icon: '📶',  title: 'Stay Connected',    items: s4, products: ['powerBank', 'adapter', 'esim'], nextSteps: ns4 },
+        { icon: '🛫',  title: 'Flight Comfort',    items: s5, products: p5, nextSteps: ns5 },
+        { icon: '🛡️', title: 'Safer Trip Prep', items: s6, products: ['rfidWallet', 'luggageTag'], nextSteps: ns6 },
       ];
+    }
+
+    /* ── Style-specific panel ─────────────────────────────────────────── */
+    function getStylePanel(style) {
+      var panels = {
+        city: {
+          label: 'City trip — useful reading',
+          tips: [
+            'Everyday carry organisation matters on walking-heavy city days — <a href="articles/everyday-carry-essentials-for-travel.html">see the everyday carry guide</a>.',
+            'Packing by airport checkpoint reduces stress at security — <a href="articles/airport-security-packing-moments.html">see the airport packing guide</a>.',
+            'An RFID wallet may help in busy tourist areas — <a href="index.html#safety">see travel safety picks</a>.',
+          ]
+        },
+        nature: {
+          label: 'Nature / hiking trip — useful reading',
+          tips: [
+            'A higher-capacity power bank matters more on multi-day outdoor trips — <a href="index.html#power">see power &amp; charging picks</a>.',
+            'Camera gear for outdoor days: a lightweight strap and SD case are worth considering — <a href="index.html#camera">see camera picks</a>.',
+            'Pack carry-on liquids carefully before your outbound flight — <a href="articles/airport-security-liquids.html">see the carry-on liquids guide</a>.',
+          ]
+        },
+        beach: {
+          label: 'Beach / tropical trip — useful reading',
+          tips: [
+            'Beach trips often mean more liquids (sun cream, aftersun, moisturiser) — <a href="articles/airport-security-liquids.html">check the carry-on liquids guide</a> before packing.',
+            'Light packing is easier with packing cubes and a compact toiletry bag — <a href="index.html#packing">see packing essentials picks</a>.',
+            'Keeping valuables safe near water — a waterproof bag may help — <a href="index.html#safety">see travel safety picks</a>.',
+          ]
+        },
+        business: {
+          label: 'Business trip — useful reading',
+          tips: [
+            'Everyday carry for business travel days: power bank, wallet, and a cable pouch — <a href="articles/everyday-carry-essentials-for-travel.html">see the everyday carry guide</a>.',
+            'Power and charging setup matters when moving between meetings — <a href="index.html#power">see power picks</a>.',
+            'Smart carry-on packing by airport moment saves time at security — <a href="articles/airport-security-packing-moments.html">see the airport packing guide</a>.',
+          ]
+        },
+        backpacking: {
+          label: 'Backpacking — useful reading',
+          tips: [
+            'Everyday carry prep is especially useful when you move locations every day — <a href="articles/everyday-carry-essentials-for-travel.html">see the everyday carry guide</a>.',
+            'Airport packing by moment helps on multi-leg and budget routes — <a href="articles/airport-security-packing-moments.html">see the airport packing guide</a>.',
+            'eSIM or a local SIM saves hassle on long backpacking routes — <a href="articles/esim-activation-and-preparation.html">see the eSIM prep guide</a>.',
+          ]
+        },
+        family: {
+          label: 'Family travel — useful reading',
+          tips: [
+            'Carry-on liquids (including children’s items) need more thought at security — <a href="articles/airport-security-liquids.html">see the carry-on liquids guide</a>.',
+            'Packing by airport checkpoint can reduce stress when travelling with children — <a href="articles/airport-security-packing-moments.html">see the airport packing guide</a>.',
+            'Everyday carry essentials for family travel days — <a href="articles/everyday-carry-essentials-for-travel.html">see the everyday carry guide</a>.',
+          ]
+        },
+      };
+
+      var p = panels[style];
+      if (!p) return '';
+      return '<div class="style-panel">'
+        + '<strong>' + p.label + '</strong>'
+        + '<ul>'
+        + p.tips.map(function (t) { return '<li>' + t + '</li>'; }).join('')
+        + '</ul>'
+        + '</div>';
     }
 
     /* ── Rendering ────────────────────────────────────────────────────── */
@@ -479,6 +719,25 @@
         + '<p>' + p.desc + '</p>'
         + '<a href="' + p.url + '" class="product-link" target="_blank" rel="nofollow sponsored noopener">View options</a>'
         + '</article>';
+    }
+
+    function renderNextSteps(keys) {
+      if (!keys || !keys.length) return '';
+      var deduped = keys.filter(function (k, i, a) { return a.indexOf(k) === i && L[k]; });
+      if (!deduped.length) return '';
+      var cards = deduped.map(function (k) {
+        var l = L[k];
+        return '<div class="next-step-card">'
+          + '<div class="ns-icon">' + l.icon + '</div>'
+          + '<h4>' + l.title + '</h4>'
+          + '<p>' + l.desc + '</p>'
+          + '<a href="' + l.url + '">Read more →</a>'
+          + '</div>';
+      }).join('');
+      return '<div class="next-steps">'
+        + '<h3 class="next-steps-heading">Helpful next step</h3>'
+        + '<div class="next-step-grid">' + cards + '</div>'
+        + '</div>';
     }
 
     function renderSection(sec) {
@@ -498,10 +757,13 @@
           + '<div class="product-grid article-products">' + cards + '</div>';
       }
 
+      var nextHTML = renderNextSteps(sec.nextSteps);
+
       return '<section class="list">'
         + '<p class="label">' + sec.icon + ' ' + sec.title + '</p>'
         + '<div class="cl-items">' + itemsHTML + '</div>'
         + productsHTML
+        + nextHTML
         + '</section>';
     }
 
@@ -515,17 +777,32 @@
 
       var parts = [tripLabel, styleLabel, monthLabel, flightLabel];
       if (dest.trim()) parts.unshift(dest.trim());
+      var summaryText = parts.join(' · ');
 
       var summaryHTML = '<div class="cl-summary">'
         + '<p class="label">Your checklist</p>'
-        + '<p class="cl-summary-text">' + parts.join(' · ') + '</p>'
+        + '<p class="cl-summary-text" id="cl-summary-text">' + summaryText + '</p>'
         + '<p class="cl-progress-text"><span id="cl-done">0</span> of <span id="cl-total">0</span> items checked</p>'
         + '</div>';
+
+      var saveBarHTML = '<div class="save-bar">'
+        + '<div class="save-bar-text">'
+        + '<strong>Save this checklist before your trip</strong>'
+        + '<p>Print it, copy it to your notes, or bookmark this page to come back later.</p>'
+        + '</div>'
+        + '<div class="save-bar-actions">'
+        + '<button id="copy-btn" class="button secondary" type="button">📋 Copy checklist</button>'
+        + '<button class="button secondary" type="button" onclick="window.print()">🖨 Print</button>'
+        + '</div>'
+        + '</div>';
+
+      var stylePanel = getStylePanel(style);
 
       var sectionsHTML = sections.map(renderSection).join('');
 
       var actionsHTML = '<div class="cl-actions">'
-        + '<button class="button secondary" onclick="window.print()">🖨 Print checklist</button>'
+        + '<button class="button secondary" type="button" onclick="window.print()">🖨 Print checklist</button>'
+        + '<button class="button secondary" type="button" onclick="doCopy()">📋 Copy checklist</button>'
         + '<a href="#form-section" class="button secondary">Change trip details</a>'
         + '</div>';
 
@@ -537,8 +814,12 @@
         + '</div>';
 
       var out = document.getElementById('checklist-output');
-      out.innerHTML = summaryHTML + sectionsHTML + actionsHTML + noteHTML;
+      out.innerHTML = summaryHTML + saveBarHTML + stylePanel + sectionsHTML + actionsHTML + noteHTML;
       out.style.display = '';
+
+      /* wire up copy button */
+      var copyBtn = document.getElementById('copy-btn');
+      if (copyBtn) copyBtn.addEventListener('click', doCopy);
 
       /* wire up checkboxes + progress counter */
       var cbs = out.querySelectorAll('.cl-cb');
@@ -551,12 +832,73 @@
 
       cbs.forEach(function (cb) {
         cb.addEventListener('change', function () {
-          var lbl = document.getElementById(this.id.replace('cli-', 'cli-')) || null;
           var label = this.parentNode.querySelector('.cl-lbl');
           if (label) label.classList.toggle('done', this.checked);
           updateProgress();
         });
       });
+    }
+
+    /* ── Copy-checklist logic ─────────────────────────────────────────── */
+    function buildCopyText() {
+      var summaryEl = document.getElementById('cl-summary-text');
+      var header    = 'Travel Now — Trip Checklist\n';
+      if (summaryEl) header += summaryEl.textContent.trim() + '\n';
+      header += '\n';
+
+      var sections = document.querySelectorAll('#checklist-output .list');
+      var body = '';
+      sections.forEach(function (sec) {
+        var heading = sec.querySelector('.label');
+        if (heading) body += '== ' + heading.textContent.trim() + ' ==\n';
+        sec.querySelectorAll('.cl-lbl').forEach(function (lbl) {
+          var prefix = lbl.classList.contains('done') ? '☑ ' : '☐ ';
+          body += prefix + lbl.textContent.trim() + '\n';
+        });
+        body += '\n';
+      });
+
+      return header + body
+        + 'Generated by Travel Now\n'
+        + 'kytriples.github.io/travel-now-agent/checklist-generator.html';
+    }
+
+    function flashCopyBtn(msg) {
+      var btns = document.querySelectorAll('#copy-btn, #checklist-output .cl-actions button:nth-child(2)');
+      btns.forEach(function (b) {
+        var orig = b.textContent;
+        b.textContent = msg;
+        setTimeout(function () { b.textContent = orig; }, 2000);
+      });
+    }
+
+    function doCopy() {
+      var text = buildCopyText();
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text)
+          .then(function () { flashCopyBtn('✓ Copied!'); })
+          .catch(function () { fallbackCopy(text); });
+      } else {
+        fallbackCopy(text);
+      }
+    }
+    /* expose for any inline onclick that may be added later */
+    window._clDoCopy = doCopy;
+
+    function fallbackCopy(text) {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;pointer-events:none';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      try {
+        document.execCommand('copy');
+        flashCopyBtn('✓ Copied!');
+      } catch (e) {
+        flashCopyBtn('Copy failed');
+      }
+      document.body.removeChild(ta);
     }
 
     /* ── Form handler ─────────────────────────────────────────────────── */
