@@ -15,6 +15,7 @@ X account: https://x.com/TripWorldAdvice
 - Builds the website from product data
 - Generates long-form English Markdown drafts (Medium, Substack, note, site)
 - Generates Japanese note drafts for the series「会社員、AIでメディアを作る。」
+- Generates short-form video scripts for YouTube Shorts, Instagram Reels, and TikTok
 - Supports a one-command daily workflow
 
 ## Daily workflow
@@ -71,6 +72,7 @@ python affiliate_tools.py weekly-summary --weeks 4    # last 4 weeks
 | `generate_article.py` | `site/articles/*.html` | Travel Now site |
 | `generate_draft.py` | `content_drafts/*.md` | Medium / Substack / note |
 | `generate_note_draft.py` | `note_drafts/*.md` | note（日本語） |
+| `generate_video_scripts.py` | `video_scripts/YYYY-MM-DD-{slug}/` | YouTube Shorts / Reels / TikTok |
 
 ## Long-term goal
 
