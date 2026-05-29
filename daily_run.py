@@ -1,6 +1,7 @@
 import csv
 import re
 import subprocess
+from datetime import date
 from pathlib import Path
 
 
@@ -187,6 +188,53 @@ def show_revenue_actions(top_posts_path="top_posts.csv", content_log_path="data/
     print("=" * 36)
 
 
+def show_note_drafts():
+    """Generate today's Japanese note drafts if none exist; otherwise show existing paths."""
+    today      = date.today().isoformat()
+    drafts_dir = Path("note_drafts")
+
+    existing = sorted(drafts_dir.glob(f"{today}-*.md")) if drafts_dir.exists() else []
+    # Exclude README.md from the listing
+    existing = [p for p in existing if p.name != "README.md"]
+
+    print("\n" + "=" * 36)
+    print("=== NOTE DRAFTS (JP)             ===")
+    print("=" * 36)
+
+    if existing:
+        print(f"\n  Today's note drafts ({len(existing)} file(s)):\n")
+        for p in existing:
+            label = "FREE" if "-free-" in p.name else "PAID" if "-paid-" in p.name else "    "
+            print(f"    [{label}]  {p}")
+        print()
+        print("  To regenerate: python generate_note_draft.py --write --force")
+        print("=" * 36)
+        return
+
+    if not Path("generate_note_draft.py").exists():
+        print("\n  generate_note_draft.py not found. Skipping.")
+        print("=" * 36)
+        return
+
+    print("\n  No note drafts found for today. Generating now…")
+    print()
+    result = subprocess.run("python generate_note_draft.py --write", shell=True)
+
+    if result.returncode != 0:
+        print("\n  Warning: note draft generation failed.")
+        print("  Check GEMINI_API_KEY and try: python generate_note_draft.py --write")
+        print("=" * 36)
+        return
+
+    created = sorted(p for p in drafts_dir.glob(f"{today}-*.md") if p.name != "README.md")
+    if created:
+        print(f"\n  Note drafts saved ({len(created)} file(s)):\n")
+        for p in created:
+            label = "FREE" if "-free-" in p.name else "PAID" if "-paid-" in p.name else "    "
+            print(f"    [{label}]  {p}")
+    print("=" * 36)
+
+
 def main():
     print("Starting Travel Now daily workflow...")
 
@@ -220,6 +268,9 @@ def main():
 
     # 7. Revenue actions — article pipeline status and next step suggestion
     show_revenue_actions()
+
+    # 8. Japanese note drafts — generate today's pair if not yet created
+    show_note_drafts()
 
     print("\nDaily workflow complete.")
     print("Next: choose a post → publish → update content_log.csv → commit.")
