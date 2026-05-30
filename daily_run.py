@@ -4,6 +4,52 @@ import subprocess
 from datetime import date
 from pathlib import Path
 
+# ── Money-path constants ───────────────────────────────────────────────────
+
+CHECKLIST_URL = "https://kytriples.github.io/travel-now-agent/checklist-generator.html"
+SITE_BASE_URL = "https://kytriples.github.io/travel-now-agent"
+
+# Affiliate categories in monetization priority order
+_PRIORITY_CATS = [
+    "Packing Essentials",
+    "eSIM & Connectivity",
+    "Flight Comfort",
+    "Power & Charging",
+    "Travel Safety",
+    "Camera Travel Gear",
+]
+
+# Map top-post category/topic keywords → affiliate category
+_TOPIC_TO_CAT = {
+    "carry-on": "Packing Essentials",
+    "packing":  "Packing Essentials",
+    "liquids":  "Packing Essentials",
+    "edc":      "Packing Essentials",
+    "everyday": "Packing Essentials",
+    "esim":     "eSIM & Connectivity",
+    "sim":      "eSIM & Connectivity",
+    "data":     "eSIM & Connectivity",
+    "wifi":     "eSIM & Connectivity",
+    "flight":   "Flight Comfort",
+    "comfort":  "Flight Comfort",
+    "power":    "Power & Charging",
+    "charging": "Power & Charging",
+    "battery":  "Power & Charging",
+    "safety":   "Travel Safety",
+    "camera":   "Camera Travel Gear",
+    "photo":    "Camera Travel Gear",
+}
+
+# Affiliate category → best existing article slug (for URL)
+_CAT_TO_ARTICLE = {
+    "Packing Essentials":  "airport-security-liquids",
+    "eSIM & Connectivity": "esim-activation-and-preparation",
+    "Flight Comfort":      "airport-security-packing-moments",
+    "Travel Safety":       "everyday-carry-essentials-for-travel",
+    "Power & Charging":    "everyday-carry-essentials-for-travel",
+    "Camera Travel Gear":  "everyday-carry-essentials-for-travel",
+}
+
 
 def run(command):
     print(f"\n> {command}")
@@ -235,6 +281,195 @@ def show_note_drafts():
     print("=" * 36)
 
 
+def show_money_path():
+    """Print TODAY'S MONEY PATH — what to publish, where to send traffic,
+    which affiliate category to promote, and a manual action checklist."""
+
+    today_str = date.today().isoformat()
+    divider   = "=" * 64
+
+    print(f"\n{divider}")
+    print("=== TODAY'S MONEY PATH                                      ===")
+    print(divider)
+
+    # ── Read top post ──────────────────────────────────────────────────────
+    top_post: dict = {}
+    top_path = Path("top_posts.csv")
+    if top_path.exists():
+        with top_path.open(newline="", encoding="utf-8-sig") as f:
+            rows = list(csv.DictReader(f))
+            if rows:
+                top_post = rows[0]
+
+    top_topic    = top_post.get("topic",    "").strip()
+    top_category = top_post.get("category", "").strip()
+    top_score    = top_post.get("score",    "?")
+    top_text     = top_post.get("post_text","").strip()
+    top_cta      = top_post.get("cta",      "").strip()
+
+    # ── Pick affiliate category ────────────────────────────────────────────
+    aff_cat = None
+    needle  = (top_topic + " " + top_category).lower()
+    for kw, cat in _TOPIC_TO_CAT.items():
+        if kw in needle:
+            aff_cat = cat
+            break
+    if aff_cat is None:
+        # Rotate by weekday so each category gets a day
+        aff_cat = _PRIORITY_CATS[date.today().weekday() % len(_PRIORITY_CATS)]
+
+    # Count active links in chosen category
+    aff_links: list = []
+    aff_path = Path("affiliate_links.csv")
+    if aff_path.exists():
+        with aff_path.open(newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                if row.get("category", "") == aff_cat and row.get("status", "") == "active":
+                    aff_links.append(row)
+
+    article_slug = _CAT_TO_ARTICLE.get(aff_cat, "")
+    article_url  = f"{SITE_BASE_URL}/articles/{article_slug}.html" if article_slug else ""
+
+    # ── Scan note drafts ───────────────────────────────────────────────────
+    note_dir = Path("note_drafts")
+    note_free: Path | None = None
+    note_paid: Path | None = None
+    note_free_title = ""
+    note_paid_title = ""
+
+    if note_dir.exists():
+        _skip = {"README.md", "TODAY_POSTING_GUIDE.md"}
+        # Prefer today's drafts; fall back to most recent
+        for pattern in (f"{today_str}-*.md", "*.md"):
+            candidates = sorted(
+                (p for p in note_dir.glob(pattern) if p.name not in _skip),
+                reverse=True,
+            )
+            for p in candidates:
+                text = p.read_text(encoding="utf-8")
+                m    = re.search(r"<!--(.*?)-->", text, re.DOTALL)
+                ntype = ""
+                if m:
+                    for line in m.group(1).splitlines():
+                        if line.strip().startswith("type:"):
+                            ntype = line.split(":", 1)[1].strip().lower()
+                            break
+                title_line = next(
+                    (l[2:].strip() for l in text.splitlines() if l.strip().startswith("# ")),
+                    p.stem,
+                )
+                if ntype == "free"  and note_free is None:
+                    note_free, note_free_title = p, title_line
+                if ntype == "paid"  and note_paid is None:
+                    note_paid, note_paid_title = p, title_line
+            if note_free or note_paid:
+                break
+
+    # ── Scan rendered videos ───────────────────────────────────────────────
+    video_dir   = Path("rendered_videos")
+    latest_mp4: Path | None = None
+    posting_kit: Path | None = None
+
+    if video_dir.exists():
+        mp4s = sorted(video_dir.glob("*.mp4"), reverse=True)
+        if mp4s:
+            latest_mp4 = mp4s[0]
+            slug = re.sub(r"\.mp4$", "", latest_mp4.name)
+            slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", slug)
+            kits = sorted(Path("video_scripts").glob(f"*{slug}*/posting_kit.md"))
+            if kits:
+                posting_kit = kits[0]
+
+    # ── Section 1 : Primary destination ───────────────────────────────────
+    print("\n📍  PRIMARY DESTINATION")
+    print(f"    Checklist Generator  →  {CHECKLIST_URL}")
+    if article_url:
+        print(f"    Best article today   →  {article_url}")
+
+    # ── Section 2 : Traffic actions ───────────────────────────────────────
+    print("\n📣  TRAFFIC ACTIONS")
+
+    # X post
+    print("\n  [X / Twitter]")
+    if top_post:
+        print(f"    Topic:    {top_topic}  |  Category: {top_category}  |  Score: {top_score}")
+        # Show first 3 non-empty lines of post
+        lines = [l for l in top_text.splitlines() if l.strip()][:3]
+        for line in lines:
+            print(f"    {line}")
+        if top_cta and top_cta.lower() != "no cta":
+            print(f"    CTA:  {top_cta}")
+        print(f"    → Add: Build your free trip checklist → {CHECKLIST_URL}")
+    else:
+        print("    No top post found — run python main.py first.")
+
+    # note drafts
+    print("\n  [note（日本語）]")
+    if note_free:
+        print(f"    FREE  →  {note_free}")
+        print(f"             {note_free_title}")
+    if note_paid:
+        print(f"    PAID  →  {note_paid}  (¥300)")
+        print(f"             {note_paid_title}")
+    if not note_free and not note_paid:
+        print("    No note drafts found — run python generate_note_draft.py --write")
+    print(f"    CTA: noteの本文末に → チェックリストURL を入れる")
+    print(f"         {CHECKLIST_URL}")
+
+    # Video
+    print("\n  [Short video]")
+    if latest_mp4:
+        ready = "✓ READY" if latest_mp4.exists() else "—"
+        print(f"    {ready}  →  {latest_mp4}")
+        if posting_kit:
+            print(f"    Posting kit  →  {posting_kit}")
+        print(f"    Upload to: YouTube Shorts · Instagram Reels · TikTok")
+        print(f"    CTA: \"Build My Full Checklist → link in bio\"")
+        print(f"         {CHECKLIST_URL}")
+    else:
+        print("    No rendered video found.")
+        print("    → Run: python make_video.py")
+
+    # ── Section 3 : Monetization route ────────────────────────────────────
+    print("\n💰  MONETIZATION ROUTE")
+    print(f"    Category today:   {aff_cat}  ({len(aff_links)} active link(s))")
+    if aff_links:
+        for lnk in aff_links[:2]:
+            print(f"    Product:          {lnk['product_name']}")
+            print(f"                      {lnk['amazon_url']}")
+    if note_paid:
+        print(f"    Paid note (¥300): {note_paid.name}")
+        print( "    Strategy: post free note first → add paid CTA at the end")
+    print( "    Disclosure:       Required on all posts with Amazon links.")
+    print( "                      \"As an Amazon Associate I earn from qualifying purchases.\"")
+
+    # ── Section 4 : Suggested CTAs ────────────────────────────────────────
+    print("\n💬  SUGGESTED CTAs")
+    print(f"    X:      \"Build a free personalised trip checklist →\"")
+    print(f"            {CHECKLIST_URL}")
+    print( "    note:   「旅行の準備チェックリストを無料で作れます →」")
+    print(f"            {CHECKLIST_URL}")
+    print( "    video:  \"Build My Full Checklist → link in bio\"")
+    print(f"            {CHECKLIST_URL}")
+
+    # ── Section 5 : Manual checklist ──────────────────────────────────────
+    print("\n✅  MANUAL CHECKLIST — " + today_str)
+    print("    [ ]  Post X thread (copy from top_posts.csv)")
+    if note_free:
+        print(f"    [ ]  Post free note article to note.com")
+    if note_paid:
+        print(f"    [ ]  Post / promote paid note article (¥300)")
+    if latest_mp4:
+        print(f"    [ ]  Upload Short: {latest_mp4.name}")
+        print( "         → YouTube Shorts: youtube.com/upload")
+        print( "         → Instagram Reels: instagram.com → + → Reel")
+        print( "         → TikTok: tiktok.com/upload")
+    print( "    [ ]  Log clicks/orders manually → affiliate_click_log.csv")
+    print( "    [ ]  python update_content_log.py --write")
+
+    print(f"\n{divider}")
+
+
 def main():
     print("Starting Travel Now daily workflow...")
 
@@ -269,11 +504,14 @@ def main():
     # 7. Revenue actions — article pipeline status and next step suggestion
     show_revenue_actions()
 
-    # 8. Japanese note drafts — generate today's pair if not yet created
+    # 8. TODAY'S MONEY PATH — what to publish, where to send traffic, what to earn
+    show_money_path()
+
+    # 9. Japanese note drafts — generate today's pair if not yet created
     show_note_drafts()
 
     print("\nDaily workflow complete.")
-    print("Next: choose a post → publish → update content_log.csv → commit.")
+    print("Next: choose a post → publish → update monetization_log.csv → commit.")
 
 
 if __name__ == "__main__":
