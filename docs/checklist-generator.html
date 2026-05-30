@@ -6,317 +6,28 @@
   <title>Trip Checklist Generator | Travel Now</title>
   <meta name="description" content="Build a personalised travel preparation checklist. Tell us your destination, trip length, travel style, and flight time. Get a practical checklist ready to tick off." />
   <link rel="stylesheet" href="style-v2.css" />
-  <style>
-    /* ── Form ─────────────────────────────────────────────────────────── */
-    .form-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-      gap: 20px;
-      margin: 24px 0 28px;
-    }
-
-    .form-field {
-      display: flex;
-      flex-direction: column;
-      gap: 7px;
-    }
-
-    .form-field--full {
-      grid-column: 1 / -1;
-    }
-
-    .form-field label {
-      font-size: 0.78rem;
-      font-weight: 800;
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    .form-field input[type="text"],
-    .form-field select {
-      height: 48px;
-      padding: 0 16px;
-      border: 1.5px solid var(--line-dark);
-      border-radius: var(--radius-sm);
-      background: rgba(255, 255, 255, 0.92);
-      color: var(--ink);
-      font-family: inherit;
-      font-size: 1rem;
-      transition: border-color 0.15s ease, box-shadow 0.15s ease;
-      appearance: none;
-      -webkit-appearance: none;
-    }
-
-    .form-field input[type="text"]:focus,
-    .form-field select:focus {
-      outline: none;
-      border-color: var(--blue);
-      box-shadow: 0 0 0 3px rgba(47, 95, 143, 0.14);
-    }
-
-    .form-field input[type="text"]::placeholder {
-      color: var(--muted);
-      opacity: 0.65;
-    }
-
-    .form-field select {
-      cursor: pointer;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23647084' stroke-width='1.8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-      background-repeat: no-repeat;
-      background-position: right 14px center;
-      padding-right: 38px;
-    }
-
-    .form-actions {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      align-items: center;
-      margin-top: 4px;
-    }
-
-    /* ── Checklist output ─────────────────────────────────────────────── */
-    .cl-summary {
-      margin: 28px 0 0;
-      padding: 22px 28px;
-      background: rgba(255, 255, 255, 0.84);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-soft);
-      backdrop-filter: blur(12px);
-    }
-
-    .cl-summary-text {
-      font-size: 1.04rem;
-      font-weight: 700;
-      color: var(--navy);
-      margin: 6px 0 6px;
-    }
-
-    .cl-progress-text {
-      font-size: 0.9rem;
-      color: var(--muted);
-      margin: 0;
-    }
-
-    .cl-items {
-      display: flex;
-      flex-direction: column;
-      margin: 16px 0 4px;
-    }
-
-    .cl-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      padding: 9px 0;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .cl-item:last-child {
-      border-bottom: none;
-    }
-
-    .cl-cb {
-      flex-shrink: 0;
-      width: 17px;
-      height: 17px;
-      margin-top: 4px;
-      cursor: pointer;
-      accent-color: var(--navy);
-    }
-
-    .cl-lbl {
-      flex: 1;
-      font-size: 0.96rem;
-      color: #334155;
-      line-height: 1.55;
-      cursor: pointer;
-      transition: opacity 0.18s ease;
-    }
-
-    .cl-lbl.done {
-      opacity: 0.38;
-      text-decoration: line-through;
-    }
-
-    .cl-actions {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 28px;
-    }
-
-    /* ── Save bar ─────────────────────────────────────────────────────── */
-    .save-bar {
-      margin: 16px 0 0;
-      padding: 18px 22px;
-      background: linear-gradient(135deg, rgba(47, 95, 143, 0.07), rgba(255, 255, 255, 0.9));
-      border: 1px solid rgba(47, 95, 143, 0.22);
-      border-radius: var(--radius-md);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .save-bar-text strong {
-      display: block;
-      font-size: 0.96rem;
-      color: var(--navy);
-    }
-
-    .save-bar-text p {
-      margin: 4px 0 0;
-      font-size: 0.84rem;
-      color: var(--muted);
-    }
-
-    .save-bar-actions {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      flex-shrink: 0;
-    }
-
-    /* ── Style panel (travel-style-specific tips) ─────────────────────── */
-    .style-panel {
-      margin: 16px 0 0;
-      padding: 18px 22px;
-      background: linear-gradient(135deg, #f5ead8, #fbf7ef);
-      border: 1px solid rgba(184, 148, 95, 0.35);
-      border-radius: var(--radius-md);
-      color: #533f22;
-    }
-
-    .style-panel strong {
-      display: block;
-      font-size: 0.78rem;
-      font-weight: 800;
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 10px;
-    }
-
-    .style-panel ul {
-      margin: 0;
-      padding-left: 1.1rem;
-      font-size: 0.91rem;
-      line-height: 1.75;
-    }
-
-    .style-panel li + li {
-      margin-top: 3px;
-    }
-
-    .style-panel a {
-      color: #7a5a2c;
-      font-weight: 800;
-      text-decoration: none;
-    }
-
-    .style-panel a:hover {
-      text-decoration: underline;
-    }
-
-    /* ── Next-step cards ──────────────────────────────────────────────── */
-    .next-steps {
-      margin-top: 26px;
-      padding-top: 22px;
-      border-top: 1px solid var(--line);
-    }
-
-    .next-steps-heading {
-      font-size: 1.1rem;
-      color: var(--gold);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin: 0 0 14px;
-    }
-
-    .next-step-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
-      gap: 12px;
-    }
-
-    .next-step-card {
-      background: linear-gradient(135deg, rgba(239, 228, 209, 0.65), rgba(251, 250, 247, 0.85));
-      border: 1px solid rgba(184, 148, 95, 0.28);
-      border-radius: var(--radius-md);
-      padding: 16px 18px;
-      display: flex;
-      flex-direction: column;
-      transition: border-color 0.15s ease, box-shadow 0.15s ease;
-    }
-
-    .next-step-card:hover {
-      border-color: rgba(184, 148, 95, 0.55);
-      box-shadow: 0 6px 16px rgba(23, 32, 51, 0.07);
-    }
-
-    .next-step-card .ns-icon {
-      font-size: 1.2rem;
-      margin-bottom: 6px;
-    }
-
-    .next-step-card h4 {
-      margin: 0 0 5px;
-      font-size: 0.93rem;
-      color: var(--navy);
-      line-height: 1.3;
-    }
-
-    .next-step-card p {
-      margin: 0 0 12px;
-      font-size: 0.84rem;
-      color: var(--muted);
-      line-height: 1.5;
-      flex: 1;
-    }
-
-    .next-step-card a {
-      font-size: 0.84rem;
-      font-weight: 800;
-      color: var(--blue);
-      text-decoration: none;
-      margin-top: auto;
-    }
-
-    .next-step-card a:hover {
-      text-decoration: underline;
-    }
-
-    /* ── Print ────────────────────────────────────────────────────────── */
-    @media print {
-      .hero, #form-section, .disclosure, footer,
-      .cl-actions, .save-bar, .about, .tip-box { display: none !important; }
-      body, body::before { background: white !important; }
-      .list { box-shadow: none !important; border: 1px solid #ccc !important; }
-      .cl-summary { box-shadow: none !important; }
-      .product-card, .next-step-card { box-shadow: none !important; }
-      .style-panel { background: #f9f5ee !important; }
-    }
-  </style>
 </head>
 <body>
+
   <header class="hero">
-    <p class="label">Travel Now</p>
-    <h1>Trip Checklist Generator</h1>
-    <p class="subtitle">
-      Answer five quick questions. Get a personalised travel prep checklist
-      — ready to tick off, print, or use on your phone.
-    </p>
-    <div class="buttons">
-      <a href="#form-section" class="button">Build My Checklist</a>
-      <a href="index.html" class="button secondary">Back to Travel Now</a>
+    <div class="hero-inner" style="grid-template-columns:1fr;text-align:center;gap:0">
+      <div class="hero-left" style="align-items:center">
+        <p class="label">Travel Now</p>
+        <h1 style="max-width:760px;text-align:center">Trip Checklist Generator</h1>
+        <p class="subtitle" style="max-width:600px">
+          Answer five quick questions. Get a personalised travel prep checklist —
+          ready to tick off, print, or copy to your notes.
+        </p>
+        <div class="buttons">
+          <a href="#form-section" class="button primary-glow">Build My Checklist</a>
+          <a href="index.html" class="button secondary">← Travel Now</a>
+        </div>
+      </div>
     </div>
   </header>
 
   <main>
+
     <section class="disclosure">
       <p>
         Disclosure: Some links on this page are affiliate links.
@@ -325,22 +36,36 @@
       </p>
     </section>
 
+    <!-- Form section -->
     <section class="list" id="form-section">
-      <p class="label">Your Trip Details</p>
+
+      <!-- Trip progress indicator -->
+      <div class="trip-progress" id="trip-progress" aria-hidden="true">
+        <div class="tp-step active" id="tp-1">
+          <div class="tp-dot active">1</div>
+          <span class="tp-label">Trip details</span>
+        </div>
+        <div class="tp-step" id="tp-2">
+          <div class="tp-dot">2</div>
+          <span class="tp-label">Your checklist</span>
+        </div>
+      </div>
+
+      <p class="label">Step 1 — Trip Details</p>
       <h2>Tell us about your trip</h2>
-      <p style="color:var(--muted);margin-top:-4px">
-        Fill in what you know. The checklist adjusts to your destination,
-        season, travel style, and flight length.
+      <p style="color:var(--muted);margin-top:-4px;margin-bottom:24px">
+        Fill in what you know. The more detail you give, the more tailored your checklist.
       </p>
 
       <form id="checklist-form" novalidate>
         <div class="form-grid">
 
           <div class="form-field form-field--full">
-            <label for="cl-dest">Destination (optional)</label>
+            <label for="cl-dest">Destination <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted)">(optional)</span></label>
             <input type="text" id="cl-dest"
               placeholder="e.g. Tokyo, Bali, Lisbon, New York"
               autocomplete="off" />
+            <span class="field-hint">Used to personalise document and connectivity tips</span>
           </div>
 
           <div class="form-field">
@@ -371,35 +96,58 @@
             </select>
           </div>
 
-          <div class="form-field">
-            <label for="cl-style">Travel style</label>
-            <select id="cl-style">
-              <option value="city">City / Sightseeing</option>
-              <option value="nature">Nature / Hiking</option>
-              <option value="beach">Beach / Tropical</option>
-              <option value="business">Business</option>
-              <option value="backpacking">Backpacking</option>
-              <option value="family">Family travel</option>
-            </select>
+          <!-- Travel style as visual chips -->
+          <div class="form-field form-field--full">
+            <label>Travel style</label>
+            <div class="option-chips" id="style-chips" role="group" aria-label="Travel style">
+              <button type="button" class="option-chip active" data-val="city">
+                <span>🏙</span>City / Sightseeing
+              </button>
+              <button type="button" class="option-chip" data-val="nature">
+                <span>🏔</span>Nature / Hiking
+              </button>
+              <button type="button" class="option-chip" data-val="beach">
+                <span>🏖</span>Beach / Tropical
+              </button>
+              <button type="button" class="option-chip" data-val="business">
+                <span>💼</span>Business
+              </button>
+              <button type="button" class="option-chip" data-val="backpacking">
+                <span>🎒</span>Backpacking
+              </button>
+              <button type="button" class="option-chip" data-val="family">
+                <span>👨‍👩‍👧</span>Family
+              </button>
+            </div>
+            <input type="hidden" id="cl-style" value="city" />
           </div>
 
-          <div class="form-field">
-            <label for="cl-flight">Flight length</label>
-            <select id="cl-flight">
-              <option value="short">Short — under 2 hours</option>
-              <option value="medium" selected>Medium — 2 to 6 hours</option>
-              <option value="long">Long-haul — 6 + hours</option>
-            </select>
+          <!-- Flight length as visual chips -->
+          <div class="form-field form-field--full">
+            <label>Flight length</label>
+            <div class="option-chips" id="flight-chips" role="group" aria-label="Flight length">
+              <button type="button" class="option-chip" data-val="short">
+                <span>🛫</span>Short — under 2h
+              </button>
+              <button type="button" class="option-chip active" data-val="medium">
+                <span>✈️</span>Medium — 2 to 6h
+              </button>
+              <button type="button" class="option-chip" data-val="long">
+                <span>🌍</span>Long-haul — 6h+
+              </button>
+            </div>
+            <input type="hidden" id="cl-flight" value="medium" />
           </div>
 
         </div>
 
         <div class="form-actions">
-          <button type="submit" class="button">Generate My Checklist</button>
+          <button type="submit" class="button primary-glow">Generate My Checklist →</button>
         </div>
       </form>
     </section>
 
+    <!-- Output -->
     <div id="checklist-output" style="display:none" aria-live="polite"></div>
 
     <section class="about">
@@ -416,6 +164,7 @@
         small commission at no extra cost to you.
       </p>
     </section>
+
   </main>
 
   <footer>
@@ -426,6 +175,32 @@
   <script>
   (function () {
     'use strict';
+
+    /* ── Option chip handlers ──────────────────────────────────────────── */
+    function wireChips(groupId, hiddenInputId) {
+      var group  = document.getElementById(groupId);
+      var hidden = document.getElementById(hiddenInputId);
+      if (!group || !hidden) return;
+
+      group.querySelectorAll('.option-chip').forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          group.querySelectorAll('.option-chip').forEach(function (c) {
+            c.classList.remove('active');
+          });
+          this.classList.add('active');
+          hidden.value = this.dataset.val;
+        });
+      });
+    }
+    wireChips('style-chips',  'cl-style');
+    wireChips('flight-chips', 'cl-flight');
+
+    /* ── Set default month ─────────────────────────────────────────────── */
+    (function () {
+      var keys = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+      var sel  = document.getElementById('cl-month');
+      if (sel) sel.value = keys[new Date().getMonth()];
+    })();
 
     /* ── Product catalog (sourced from site/products.csv) ─────────────── */
     var P = {
@@ -448,7 +223,6 @@
     };
 
     /* ── Internal link catalog ────────────────────────────────────────── */
-    /* All hrefs are relative to checklist-generator.html (site root).    */
     var L = {
       liquids:    { icon: '📋', title: 'Airport Security Liquids Checklist',   desc: 'A simple carry-on liquids guide before security.',                    url: 'articles/airport-security-liquids.html' },
       packMom:    { icon: '✈️', title: 'Airport Security Packing Moments',     desc: 'How to pack carry-on items by airport checkpoint moment.',            url: 'articles/airport-security-packing-moments.html' },
@@ -470,95 +244,64 @@
       sep:'autumn', oct:'autumn', nov:'autumn'
     };
 
-    /* ── Set default month to current month ───────────────────────────── */
-    (function () {
-      var keys = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
-      var sel = document.getElementById('cl-month');
-      if (sel) sel.value = keys[new Date().getMonth()];
-    })();
-
-    /* ── Checklist builder ────────────────────────────────────────────── */
+    /* ── Checklist builder (unchanged logic) ──────────────────────────── */
     function build(dest, tripLen, month, style, flightLen) {
       var season    = SEASON[month] || 'spring';
       var d         = dest.trim() ? dest.trim() : 'your destination';
       var longTrip  = tripLen === 'week' || tripLen === 'long';
       var shortTrip = tripLen === 'short';
 
-      /* 1 ── Before You Fly */
       var s1 = [
         'Check your passport — it should be valid for at least 6 months past your return date',
         'Look up visa and entry requirements for ' + d + ' — rules can change, check official sources',
-        'Confirm your airline’s carry-on size and weight limits before packing',
+        'Confirm your airline\'s carry-on size and weight limits before packing',
         'Save your booking confirmation and itinerary somewhere accessible offline',
         'Consider travel insurance that fits your trip type — check the policy details carefully',
       ];
-      if (style === 'beach')
-        s1.push('Buy sun protection before leaving — may be cheaper or easier to find at home');
-      if (style === 'nature' || style === 'backpacking')
-        s1.push('Download offline maps for ' + d + ' before leaving home');
-      if (style === 'business')
-        s1.push('Confirm meeting locations, times, and dress expectations before departure');
-      if (style === 'family')
-        s1.push('Download entertainment for children on your device before boarding');
-      if (longTrip)
-        s1.push('Let your bank know your travel dates and destination country');
-      if (flightLen === 'long')
-        s1.push('Charge all devices fully the night before — boarding passes and maps need battery');
+      if (style === 'beach')        s1.push('Buy sun protection before leaving — may be cheaper or easier to find at home');
+      if (style === 'nature' || style === 'backpacking') s1.push('Download offline maps for ' + d + ' before leaving home');
+      if (style === 'business')     s1.push('Confirm meeting locations, times, and dress expectations before departure');
+      if (style === 'family')       s1.push('Download entertainment for children on your device before boarding');
+      if (longTrip)                 s1.push('Let your bank know your travel dates and destination country');
+      if (flightLen === 'long')     s1.push('Charge all devices fully the night before — boarding passes and maps need battery');
 
       var ns1 = ['packMom', 'liquids'];
 
-      /* 2 ── Documents & Money */
       var s2 = [
         'Passport (check expiry date before packing)',
         'Save a digital backup of your passport — email it to yourself or store in cloud storage',
         'Check whether local cash is useful in ' + d + ' or if cards are widely accepted',
-        'Know your card’s foreign transaction fees and daily limits before you travel',
+        'Know your card\'s foreign transaction fees and daily limits before you travel',
         'Carry a small amount of local currency for arrival (transport, tips, first purchases)',
       ];
-      if (style === 'backpacking' || style === 'city')
-        s2.push('Keep emergency cash separate from your main wallet');
-      if (style === 'business')
-        s2.push('Pack business cards and set up an expense-tracking method before leaving');
-      if (longTrip)
-        s2.push('Bring a backup payment card stored separately from your main card');
-      if (style === 'family')
-        s2.push('Keep copies of travel documents for every family member travelling');
+      if (style === 'backpacking' || style === 'city') s2.push('Keep emergency cash separate from your main wallet');
+      if (style === 'business')     s2.push('Pack business cards and set up an expense-tracking method before leaving');
+      if (longTrip)                 s2.push('Bring a backup payment card stored separately from your main card');
+      if (style === 'family')       s2.push('Keep copies of travel documents for every family member travelling');
 
       var ns2 = ['edcGuide', 'secSafety'];
 
-      /* 3 ── Packing Smarter */
       var s3 = [
         'Pack one change of clothes in your carry-on in case checked luggage is delayed',
         'Keep liquids (100 ml or under) in a clear bag near the top of your carry-on',
         'Use packing cubes or pouches to separate clothes and find things faster',
         'Keep all cables, adapters, and small tech in one dedicated pouch',
       ];
-      if (season === 'summer' || style === 'beach')
-        s3.push('Pack light, breathable fabrics — synthetics and linen dry faster than cotton');
-      if (season === 'winter')
-        s3.push('Thin base layers plus one warm mid-layer pack more efficiently than a single bulky item');
-      if (season === 'spring' || season === 'autumn')
-        s3.push('Pack a light rain layer — shoulder-season weather can change quickly');
-      if (style === 'beach')
-        s3.push('Swimwear, a quick-dry towel, and a light cover-up for sun and indoor spaces');
-      if (style === 'nature' || style === 'backpacking')
-        s3.push('Prioritise quick-dry, moisture-wicking fabrics for outdoor days');
-      if (style === 'backpacking')
-        s3.push('Aim for under 7 kg if travelling carry-on only — every kilogram matters on long days');
-      if (style === 'business')
-        s3.push('Roll formal items around a rigid packing board to minimise creases');
-      if (style === 'family')
-        s3.push('Pack a separate pouch of daily essentials for each child in your carry-on');
-      if (shortTrip)
-        s3.push('For a 1–3 day trip, a single carry-on bag is usually enough');
-      if (longTrip)
-        s3.push('Check the forecast before finalising packing — weather can vary across a longer trip');
+      if (season === 'summer' || style === 'beach')     s3.push('Pack light, breathable fabrics — synthetics and linen dry faster than cotton');
+      if (season === 'winter')                          s3.push('Thin base layers plus one warm mid-layer pack more efficiently than a single bulky item');
+      if (season === 'spring' || season === 'autumn')   s3.push('Pack a light rain layer — shoulder-season weather can change quickly');
+      if (style === 'beach')        s3.push('Swimwear, a quick-dry towel, and a light cover-up for sun and indoor spaces');
+      if (style === 'nature' || style === 'backpacking') s3.push('Prioritise quick-dry, moisture-wicking fabrics for outdoor days');
+      if (style === 'backpacking')  s3.push('Aim for under 7 kg if travelling carry-on only — every kilogram matters on long days');
+      if (style === 'business')     s3.push('Roll formal items around a rigid packing board to minimise creases');
+      if (style === 'family')       s3.push('Pack a separate pouch of daily essentials for each child in your carry-on');
+      if (shortTrip)                s3.push('For a 1–3 day trip, a single carry-on bag is usually enough');
+      if (longTrip)                 s3.push('Check the forecast before finalising packing — weather can vary across a longer trip');
 
       var ns3 = ['liquids', 'secPacking'];
       if (style === 'nature' || style === 'beach' || style === 'backpacking')
         ns3 = ['liquids', 'packMom', 'secPacking'];
 
-      /* 4 ── Stay Connected */
       var s4 = [
         'Check if your phone supports eSIM or research a local SIM option for ' + d,
         'Save your accommodation address and check-in details somewhere accessible offline',
@@ -567,16 +310,13 @@
         'Pack a spare charging cable in your carry-on or personal item',
         'Check whether your charger plug type works in ' + d + ' — an adapter may be needed',
       ];
-      if (style === 'backpacking' || style === 'nature')
-        s4.push('Consider a higher-capacity power bank for multi-day trips away from power sources');
-      if (style === 'business')
-        s4.push('Test your key work apps and VPN access on local networks — check before departure');
+      if (style === 'backpacking' || style === 'nature') s4.push('Consider a higher-capacity power bank for multi-day trips away from power sources');
+      if (style === 'business')     s4.push('Test your key work apps and VPN access on local networks — check before departure');
 
       var ns4 = ['esimGuide', 'secEsim'];
       if (longTrip || style === 'backpacking' || style === 'nature')
         ns4 = ['esimGuide', 'secEsim', 'secPower'];
 
-      /* 5 ── Flight Comfort */
       var s5, p5, ns5;
       if (flightLen === 'short') {
         s5 = [
@@ -612,24 +352,18 @@
         ns5 = ['secFlight', 'packMom'];
       }
 
-      /* 6 ── Safer Trip Prep */
       var s6 = [
         'Save your accommodation name, address, and check-in contact offline',
         'Look up the general emergency services number for ' + d + ' before you arrive',
-        'Check your country’s travel advisory page for ' + d + ' before departure',
+        'Check your country\'s travel advisory page for ' + d + ' before departure',
         'Let someone at home know your rough itinerary and a way to contact you',
         'Keep a written note of key contacts in case your phone runs out of battery',
       ];
-      if (style === 'city' || style === 'backpacking')
-        s6.push('Stay alert in busy tourist areas — keep valuables in a front pocket or secure bag');
-      if (style === 'backpacking')
-        s6.push('A money belt or hidden pouch may help in high-footfall areas');
-      if (style === 'beach')
-        s6.push('Use a waterproof case or dry bag for valuables near water');
-      if (style === 'family')
-        s6.push('Agree on a clear meeting point with your group in case anyone gets separated');
-      if (longTrip)
-        s6.push('Consider registering your trip with your country’s foreign travel registration service');
+      if (style === 'city' || style === 'backpacking') s6.push('Stay alert in busy tourist areas — keep valuables in a front pocket or secure bag');
+      if (style === 'backpacking')  s6.push('A money belt or hidden pouch may help in high-footfall areas');
+      if (style === 'beach')        s6.push('Use a waterproof case or dry bag for valuables near water');
+      if (style === 'family')       s6.push('Agree on a clear meeting point with your group in case anyone gets separated');
+      if (longTrip)                 s6.push('Consider registering your trip with your country\'s foreign travel registration service');
 
       var ns6 = ['secSafety', 'edcGuide'];
       if (style === 'family')  ns6 = ['secSafety', 'liquids', 'edcGuide'];
@@ -641,7 +375,7 @@
         { icon: '🎒',  title: 'Packing Smarter',   items: s3, products: ['packingCubes', 'toiletryBag', 'cablePouch'], nextSteps: ns3 },
         { icon: '📶',  title: 'Stay Connected',    items: s4, products: ['powerBank', 'adapter', 'esim'], nextSteps: ns4 },
         { icon: '🛫',  title: 'Flight Comfort',    items: s5, products: p5, nextSteps: ns5 },
-        { icon: '🛡️', title: 'Safer Trip Prep', items: s6, products: ['rfidWallet', 'luggageTag'], nextSteps: ns6 },
+        { icon: '🛡️', title: 'Safer Trip Prep',   items: s6, products: ['rfidWallet', 'luggageTag'], nextSteps: ns6 },
       ];
     }
 
@@ -691,7 +425,7 @@
         family: {
           label: 'Family travel — useful reading',
           tips: [
-            'Carry-on liquids (including children’s items) need more thought at security — <a href="articles/airport-security-liquids.html">see the carry-on liquids guide</a>.',
+            'Carry-on liquids (including children\'s items) need more thought at security — <a href="articles/airport-security-liquids.html">see the carry-on liquids guide</a>.',
             'Packing by airport checkpoint can reduce stress when travelling with children — <a href="articles/airport-security-packing-moments.html">see the airport packing guide</a>.',
             'Everyday carry essentials for family travel days — <a href="articles/everyday-carry-essentials-for-travel.html">see the everyday carry guide</a>.',
           ]
@@ -740,7 +474,7 @@
         + '</div>';
     }
 
-    function renderSection(sec) {
+    function renderSection(sec, idx) {
       var itemsHTML = sec.items.map(function (text) {
         var id = 'cli-' + (_id++);
         return '<div class="cl-item">'
@@ -752,14 +486,14 @@
       var productsHTML = '';
       if (sec.products && sec.products.length) {
         var deduped = sec.products.filter(function (k, i, a) { return a.indexOf(k) === i; });
-        var cards = deduped.map(renderProduct).join('');
+        var cards   = deduped.map(renderProduct).join('');
         productsHTML = '<h3>Useful items to consider</h3>'
           + '<div class="product-grid article-products">' + cards + '</div>';
       }
 
       var nextHTML = renderNextSteps(sec.nextSteps);
 
-      return '<section class="list">'
+      return '<section class="list cl-section-reveal" style="transition-delay:' + (idx * 80) + 'ms">'
         + '<p class="label">' + sec.icon + ' ' + sec.title + '</p>'
         + '<div class="cl-items">' + itemsHTML + '</div>'
         + productsHTML
@@ -780,24 +514,24 @@
       var summaryText = parts.join(' · ');
 
       var summaryHTML = '<div class="cl-summary">'
-        + '<p class="label">Your checklist</p>'
+        + '<p class="label">Your checklist — Step 2</p>'
         + '<p class="cl-summary-text" id="cl-summary-text">' + summaryText + '</p>'
+        + '<div class="cl-progress-bar"><div class="cl-progress-fill" id="cl-fill"></div></div>'
         + '<p class="cl-progress-text"><span id="cl-done">0</span> of <span id="cl-total">0</span> items checked</p>'
         + '</div>';
 
       var saveBarHTML = '<div class="save-bar">'
         + '<div class="save-bar-text">'
-        + '<strong>Save this checklist before your trip</strong>'
-        + '<p>Print it, copy it to your notes, or bookmark this page to come back later.</p>'
+        + '<strong>Save your checklist</strong>'
+        + '<p>Print it, copy it to your notes, or bookmark this page before you fly.</p>'
         + '</div>'
         + '<div class="save-bar-actions">'
-        + '<button id="copy-btn" class="button secondary" type="button">📋 Copy checklist</button>'
-        + '<button class="button secondary" type="button" onclick="window.print()">🖨 Print</button>'
+        + '<button id="copy-btn" class="button secondary sm" type="button">📋 Copy checklist</button>'
+        + '<button class="button secondary sm" type="button" onclick="window.print()">🖨 Print</button>'
         + '</div>'
         + '</div>';
 
-      var stylePanel = getStylePanel(style);
-
+      var stylePanel  = getStylePanel(style);
       var sectionsHTML = sections.map(renderSection).join('');
 
       var actionsHTML = '<div class="cl-actions">'
@@ -817,19 +551,31 @@
       out.innerHTML = summaryHTML + saveBarHTML + stylePanel + sectionsHTML + actionsHTML + noteHTML;
       out.style.display = '';
 
-      /* wire up copy button */
+      // Update trip progress to Step 2
+      var tp1 = document.getElementById('tp-1');
+      var tp2 = document.getElementById('tp-2');
+      if (tp1 && tp2) {
+        tp1.querySelector('.tp-dot').className = 'tp-dot done';
+        tp1.querySelector('.tp-dot').textContent = '✓';
+        tp2.classList.add('active');
+        tp2.querySelector('.tp-dot').className = 'tp-dot active';
+      }
+
+      // Wire copy button
       var copyBtn = document.getElementById('copy-btn');
       if (copyBtn) copyBtn.addEventListener('click', doCopy);
 
-      /* wire up checkboxes + progress counter */
-      var cbs = out.querySelectorAll('.cl-cb');
+      // Wire checkboxes + progress
+      var cbs    = out.querySelectorAll('.cl-cb');
+      var fillEl = document.getElementById('cl-fill');
       document.getElementById('cl-total').textContent = cbs.length;
 
       function updateProgress() {
-        var done = out.querySelectorAll('.cl-cb:checked').length;
+        var done  = out.querySelectorAll('.cl-cb:checked').length;
+        var total = cbs.length;
         document.getElementById('cl-done').textContent = done;
+        if (fillEl) fillEl.style.width = (total ? Math.round((done / total) * 100) : 0) + '%';
       }
-
       cbs.forEach(function (cb) {
         cb.addEventListener('change', function () {
           var label = this.parentNode.querySelector('.cl-lbl');
@@ -837,6 +583,29 @@
           updateProgress();
         });
       });
+
+      // Staggered reveal for sections
+      var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var reveals = out.querySelectorAll('.cl-section-reveal');
+      if (prefersReduced) {
+        reveals.forEach(function (el) { el.classList.add('visible'); });
+      } else if ('IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              e.target.classList.add('visible');
+              obs.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.05 });
+        reveals.forEach(function (el) { obs.observe(el); });
+        // Also trigger visible on all after a generous timeout fallback
+        setTimeout(function () {
+          reveals.forEach(function (el) { el.classList.add('visible'); });
+        }, 2000);
+      } else {
+        reveals.forEach(function (el) { el.classList.add('visible'); });
+      }
     }
 
     /* ── Copy-checklist logic ─────────────────────────────────────────── */
@@ -882,7 +651,6 @@
         fallbackCopy(text);
       }
     }
-    /* expose for any inline onclick that may be added later */
     window._clDoCopy = doCopy;
 
     function fallbackCopy(text) {
@@ -890,8 +658,7 @@
       ta.value = text;
       ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;pointer-events:none';
       document.body.appendChild(ta);
-      ta.focus();
-      ta.select();
+      ta.focus(); ta.select();
       try {
         document.execCommand('copy');
         flashCopyBtn('✓ Copied!');
@@ -901,20 +668,34 @@
       document.body.removeChild(ta);
     }
 
-    /* ── Form handler ─────────────────────────────────────────────────── */
+    /* ── Form handler with generating animation ───────────────────────── */
     document.getElementById('checklist-form').addEventListener('submit', function (e) {
       e.preventDefault();
+
       var dest      = document.getElementById('cl-dest').value;
       var tripLen   = document.getElementById('cl-triplen').value;
       var month     = document.getElementById('cl-month').value;
       var style     = document.getElementById('cl-style').value;
       var flightLen = document.getElementById('cl-flight').value;
 
-      var sections = build(dest, tripLen, month, style, flightLen);
-      renderAll(sections, dest, tripLen, month, style, flightLen);
+      // Show generating spinner briefly for perceived quality
+      var out = document.getElementById('checklist-output');
+      out.innerHTML = '<div class="generating">'
+        + '<div class="spinner"></div>'
+        + '<span>Building your checklist for ' + (dest.trim() || 'your trip') + '…</span>'
+        + '</div>';
+      out.style.display = '';
 
-      document.getElementById('checklist-output').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      out.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      setTimeout(function () {
+        var sections = build(dest, tripLen, month, style, flightLen);
+        renderAll(sections, dest, tripLen, month, style, flightLen);
+      }, 520);
     });
+
+    /* ── Print ────────────────────────────────────────────────────────── */
+    // (handled inline via window.print() in buttons)
 
   })();
   </script>

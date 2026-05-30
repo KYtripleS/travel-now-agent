@@ -3,28 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travel Now</title>
-  <meta name="description" content="Smarter travel prep, packing ideas, and useful gear for smoother trips." />
+  <title>Travel Now — Smarter Travel Prep</title>
+  <meta name="description" content="Personalised travel prep checklists, packing ideas, eSIM tips, flight comfort tools, and practical travel gear for smoother trips." />
   <link rel="stylesheet" href="style-v2.css" />
 </head>
 <body>
-  <header class="hero">
-    <p class="label">Travel Now</p>
-    <h1>Smarter travel prep for smoother trips.</h1>
-    <p class="subtitle">
-      Practical packing ideas, travel gear, eSIM tips, flight comfort tools,
-      and trip prep checklists.
-    </p>
 
-    <div class="buttons">
-      <a href="checklist-generator.html" class="button">Build My Checklist</a>
-      <a href="#lists" class="button secondary">See Travel Prep Lists</a>
-      <a href="https://x.com/TripWorldAdvice" class="button secondary">Follow on X</a>
+  <!-- ── Hero ─────────────────────────────────────────────────────────── -->
+  <header class="hero">
+    <div class="hero-inner">
+
+      <div class="hero-left">
+        <p class="label">Travel Now</p>
+        <h1>Smarter travel prep for smoother trips.</h1>
+        <p class="subtitle">
+          Personalised checklists, practical packing ideas, eSIM tips,
+          and flight comfort tools — all in one place.
+        </p>
+        <div class="buttons">
+          <a href="checklist-generator.html" class="button primary-glow">Build My Checklist</a>
+          <a href="#how-it-works" class="button secondary">How it works</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span>6</span>prep categories</div>
+          <div class="stat"><span>30+</span>checklist items</div>
+          <div class="stat"><span>Free</span>generator tool</div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-widget">
+          <div class="widget-chrome">
+            <span class="widget-dot"></span>
+            <span class="widget-dot"></span>
+            <span class="widget-dot"></span>
+            <span class="widget-title">Trip checklist preview</span>
+          </div>
+
+          <div class="chip-row" id="dest-chips">
+            <button class="chip active" data-group="dest" data-val="Tokyo">🗾 Tokyo</button>
+            <button class="chip"        data-group="dest" data-val="Bali">🌴 Bali</button>
+            <button class="chip"        data-group="dest" data-val="Lisbon">🏛 Lisbon</button>
+          </div>
+          <div class="chip-row" id="len-chips">
+            <button class="chip active" data-group="len" data-val="1 week">1 week</button>
+            <button class="chip"        data-group="len" data-val="Weekend">Weekend</button>
+            <button class="chip"        data-group="len" data-val="2+ weeks">2+ weeks</button>
+          </div>
+          <div class="chip-row" id="style-chips">
+            <button class="chip active" data-group="style" data-val="City">🏙 City</button>
+            <button class="chip"        data-group="style" data-val="Beach">🏖 Beach</button>
+            <button class="chip"        data-group="style" data-val="Hiking">🏔 Hiking</button>
+          </div>
+
+          <div class="mock-progress-wrap">
+            <div class="mock-progress-track">
+              <div class="mock-progress-fill" id="mock-fill"></div>
+            </div>
+            <p class="mock-progress-text">
+              <strong><span id="mock-done">0</span></strong> of <span id="mock-total">0</span> items checked
+            </p>
+          </div>
+
+          <div class="mock-items" id="mock-items"></div>
+
+          <a href="checklist-generator.html" class="button mock-cta">Build My Full Checklist →</a>
+        </div>
+      </div>
+
     </div>
   </header>
 
+  <!-- ── Main content ──────────────────────────────────────────────────── -->
   <main>
-    <section class="disclosure">
+
+    <section class="disclosure" data-reveal>
       <p>
         Disclosure: Some links on this site are affiliate links.
         As an Amazon Associate, I earn from qualifying purchases.
@@ -32,43 +85,127 @@
       </p>
     </section>
 
-    <section class="featured-guide">
-      <p class="label">Latest Travel Prep Guide</p>
-      <h2>Airport Security Liquids Checklist</h2>
-      <p>
-        A simple carry-on liquids checklist to help you prepare before airport security.
-      </p>
-      <a href="articles/airport-security-liquids.html" class="button">Read the guide</a>
+    <!-- How it works stepper -->
+    <section class="how-it-works" id="how-it-works" data-reveal>
+      <p class="label">How it works</p>
+      <h2>Trip prep in four steps</h2>
+
+      <div class="steps-nav" role="tablist">
+        <button class="step-btn active" data-step="1" role="tab" aria-selected="true">
+          <span class="step-num">1</span>
+          <div>
+            <span class="step-label">Tell us your trip</span>
+            <span class="step-desc">Destination, length, style</span>
+          </div>
+        </button>
+        <button class="step-btn" data-step="2" role="tab" aria-selected="false">
+          <span class="step-num">2</span>
+          <div>
+            <span class="step-label">Get your checklist</span>
+            <span class="step-desc">Tailored to your trip</span>
+          </div>
+        </button>
+        <button class="step-btn" data-step="3" role="tab" aria-selected="false">
+          <span class="step-num">3</span>
+          <div>
+            <span class="step-label">Tick it off</span>
+            <span class="step-desc">Save, print, or share</span>
+          </div>
+        </button>
+        <button class="step-btn" data-step="4" role="tab" aria-selected="false">
+          <span class="step-num">4</span>
+          <div>
+            <span class="step-label">Explore prep guides</span>
+            <span class="step-desc">Packing, eSIM, flight tips</span>
+          </div>
+        </button>
+      </div>
+
+      <div class="steps-content">
+        <div class="step-panel active" data-panel="1">
+          <div class="step-panel-text">
+            <h3>Tell us about your trip</h3>
+            <p>Choose your destination, how long you're away, what month you're travelling, your travel style, and your flight length. The more you share, the more tailored your checklist will be.</p>
+          </div>
+          <div class="step-panel-visual">🗺️ ✈️ 📅</div>
+        </div>
+        <div class="step-panel" data-panel="2">
+          <div class="step-panel-text">
+            <h3>Get a personalised checklist</h3>
+            <p>Your checklist is built on the spot — no sign-up needed. It covers documents, packing, connectivity, flight comfort, and safer trip prep, all adjusted for your specific trip details.</p>
+          </div>
+          <div class="step-panel-visual">📋 ✅ 🎒</div>
+        </div>
+        <div class="step-panel" data-panel="3">
+          <div class="step-panel-text">
+            <h3>Tick off items before you fly</h3>
+            <p>Work through your checklist at your own pace. Check off each item as you go. Use the copy button to paste it into your notes app, or print it for a physical copy.</p>
+          </div>
+          <div class="step-panel-visual">☑️ 🖨 📱</div>
+        </div>
+        <div class="step-panel" data-panel="4">
+          <div class="step-panel-text">
+            <h3>Explore helpful prep guides</h3>
+            <p>Each checklist section links to relevant guides — airport security liquids, eSIM setup, everyday carry, and more. Practical reading to fill in any gaps before departure.</p>
+          </div>
+          <div class="step-panel-visual">📖 🔍 🛫</div>
+        </div>
+      </div>
     </section>
 
-    <section class="money-path">
-      <p class="label">Start Here</p>
-      <h2>Build a simple travel prep setup</h2>
-      <p>
-        Not sure where to start? These three setup lists cover the most common
-        travel prep problems: packing, staying connected, and getting through long travel days.
-      </p>
+    <!-- Popular topics filter -->
+    <section class="topics-section" id="lists">
+      <div class="topics-header" data-reveal>
+        <h2>Popular travel prep topics</h2>
+      </div>
 
-      <div class="grid">
-        <article class="card">
-          <h3>🎒 Carry-on packing setup</h3>
-          <p>Organize clothes, liquids, cables, and important documents before you leave.</p>
-          <a href="#packing">See packing picks</a>
+      <div class="filter-bar" data-reveal data-delay="1" role="group" aria-label="Filter topics">
+        <button class="filter-chip active" data-filter="all">All</button>
+        <button class="filter-chip" data-filter="packing">🎒 Packing</button>
+        <button class="filter-chip" data-filter="connectivity">📶 Connectivity</button>
+        <button class="filter-chip" data-filter="flight">✈️ Flight</button>
+        <button class="filter-chip" data-filter="power">🔋 Power</button>
+        <button class="filter-chip" data-filter="safety">🛡️ Safer prep</button>
+      </div>
+
+      <div class="grid topics-grid">
+        <article class="card topic-card" data-category="connectivity" data-reveal data-delay="1">
+          <h3>📶 eSIM &amp; Connectivity</h3>
+          <p>Stay connected after landing with simple prep ideas and data options.</p>
+          <a href="#esim">View picks</a>
         </article>
 
-        <article class="card">
-          <h3>📶 Phone & connection setup</h3>
-          <p>Prepare eSIM, offline addresses, maps, and charging before landing.</p>
-          <a href="#esim">See connection picks</a>
+        <article class="card topic-card" data-category="packing" data-reveal data-delay="2">
+          <h3>🎒 Packing Essentials</h3>
+          <p>Carry-on organisation, packing mistakes to avoid, and useful travel tools.</p>
+          <a href="#packing">View picks</a>
         </article>
 
-        <article class="card">
-          <h3>✈️ Long-flight comfort setup</h3>
-          <p>Small items that may make long flights and airport waits easier.</p>
-          <a href="#flight">See comfort picks</a>
+        <article class="card topic-card" data-category="flight" data-reveal data-delay="2">
+          <h3>✈️ Flight Comfort</h3>
+          <p>Simple tools that may make long flights easier and less stressful.</p>
+          <a href="#flight">View picks</a>
         </article>
 
-        <article class="card">
+        <article class="card topic-card" data-category="power" data-reveal data-delay="3">
+          <h3>🔋 Power &amp; Charging</h3>
+          <p>Keep your phone, camera, and travel devices charged on the road.</p>
+          <a href="#power">View picks</a>
+        </article>
+
+        <article class="card topic-card" data-category="safety" data-reveal data-delay="3">
+          <h3>🛡️ Safer Trip Prep</h3>
+          <p>Small habits and tools that can reduce avoidable travel stress.</p>
+          <a href="#safety">View picks</a>
+        </article>
+
+        <article class="card topic-card" data-category="packing" data-reveal data-delay="4">
+          <h3>📷 Camera Travel Gear</h3>
+          <p>Lightweight gear ideas for better travel photos and videos.</p>
+          <a href="#camera">View picks</a>
+        </article>
+
+        <article class="card topic-card" data-category="all" data-reveal data-delay="4">
           <h3>📋 Trip checklist tool</h3>
           <p>Tell us your destination, trip length, and travel style. Get a personalised prep checklist.</p>
           <a href="checklist-generator.html">Build your checklist →</a>
@@ -76,46 +213,14 @@
       </div>
     </section>
 
-    <section class="categories" id="lists">
-      <h2>Travel Prep Lists</h2>
-
-      <div class="grid">
-        <article class="card">
-          <h3>📶 eSIM & Connectivity</h3>
-          <p>Stay connected after landing with simple prep ideas and useful data options.</p>
-          <a href="#esim">View picks</a>
-        </article>
-
-        <article class="card">
-          <h3>🎒 Packing Essentials</h3>
-          <p>Carry-on organization, packing mistakes to avoid, and useful travel tools.</p>
-          <a href="#packing">View picks</a>
-        </article>
-
-        <article class="card">
-          <h3>✈️ Flight Comfort</h3>
-          <p>Simple tools that may make long flights easier and less stressful.</p>
-          <a href="#flight">View picks</a>
-        </article>
-
-        <article class="card">
-          <h3>🔋 Power & Charging</h3>
-          <p>Keep your phone, camera, and travel devices charged on the road.</p>
-          <a href="#power">View picks</a>
-        </article>
-
-        <article class="card">
-          <h3>🛡️ Travel Safety</h3>
-          <p>Small habits and tools that can reduce avoidable travel stress.</p>
-          <a href="#safety">View picks</a>
-        </article>
-
-        <article class="card">
-          <h3>📷 Camera Travel Gear</h3>
-          <p>Lightweight gear ideas for better travel photos and videos.</p>
-          <a href="#camera">View picks</a>
-        </article>
-      </div>
+    <!-- Featured guide -->
+    <section class="featured-guide" data-reveal>
+      <p class="label">Latest Travel Prep Guide</p>
+      <h2>Airport Security Liquids Checklist</h2>
+      <p>
+        A simple carry-on liquids checklist to help you prepare before airport security.
+      </p>
+      <a href="articles/airport-security-liquids.html" class="button">Read the guide</a>
     </section>
 
     <!-- AUTO-GENERATED-SECTIONS-START -->
@@ -325,7 +430,7 @@
 
     <!-- AUTO-GENERATED-SECTIONS-END -->
 
-    <section class="about">
+    <section class="about" data-reveal>
       <h2>About Travel Now</h2>
       <p>
         Travel Now is a practical travel-prep hub for people who want smoother trips with less last-minute stress.
@@ -338,9 +443,186 @@
 
   </main>
 
+  <!-- ── Sticky mobile CTA ─────────────────────────────────────────────── -->
+  <div class="sticky-cta" id="sticky-cta" aria-hidden="true">
+    <a href="checklist-generator.html" class="button primary-glow" onclick="document.getElementById('sticky-cta').classList.add('hidden')">
+      Build My Checklist →
+    </a>
+  </div>
+
   <footer>
     <p>Follow Travel Now for practical travel prep ideas.</p>
     <a href="https://x.com/TripWorldAdvice">Follow on X</a>
   </footer>
+
+  <script>
+  (function () {
+    'use strict';
+
+    /* ── Scroll-reveal ─────────────────────────────────────────────────── */
+    var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!prefersReduced && 'IntersectionObserver' in window) {
+      var revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+      document.querySelectorAll('[data-reveal]').forEach(function (el) {
+        revealObserver.observe(el);
+      });
+    } else {
+      document.querySelectorAll('[data-reveal]').forEach(function (el) {
+        el.classList.add('revealed');
+      });
+    }
+
+    /* ── How-it-works stepper ─────────────────────────────────────────── */
+    var stepBtns   = document.querySelectorAll('.step-btn');
+    var stepPanels = document.querySelectorAll('.step-panel');
+
+    stepBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var target = this.dataset.step;
+        stepBtns.forEach(function (b) {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        });
+        stepPanels.forEach(function (p) { p.classList.remove('active'); });
+        this.classList.add('active');
+        this.setAttribute('aria-selected', 'true');
+        var panel = document.querySelector('.step-panel[data-panel="' + target + '"]');
+        if (panel) panel.classList.add('active');
+      });
+    });
+
+    /* ── Topic filter chips ────────────────────────────────────────────── */
+    var filterChips = document.querySelectorAll('.filter-chip');
+    var topicCards  = document.querySelectorAll('.topic-card');
+
+    filterChips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        var filter = this.dataset.filter;
+        filterChips.forEach(function (c) { c.classList.remove('active'); });
+        this.classList.add('active');
+
+        topicCards.forEach(function (card) {
+          if (filter === 'all' || card.dataset.category === filter || card.dataset.category === 'all') {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    /* ── Sticky CTA: hide when hero CTA is visible ─────────────────────── */
+    var stickyCta = document.getElementById('sticky-cta');
+    if (stickyCta && 'IntersectionObserver' in window) {
+      var heroCta = document.querySelector('.hero .button.primary-glow');
+      if (heroCta) {
+        var ctaObserver = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              stickyCta.classList.add('hidden');
+            } else {
+              stickyCta.classList.remove('hidden');
+            }
+          });
+        }, { threshold: 0.5 });
+        ctaObserver.observe(heroCta);
+      }
+    }
+
+    /* ── Hero mock widget ──────────────────────────────────────────────── */
+    var MOCK_ITEMS = {
+      Tokyo: {
+        City:   ['Check passport validity (6 months past return)', 'Look up Japan visa requirements', 'Download offline maps for Tokyo', 'Pack one change of clothes in carry-on'],
+        Beach:  ['Confirm passport validity', 'Pack light, breathable fabrics', 'Download offline maps before leaving', 'Keep boarding pass accessible'],
+        Hiking: ['Download offline maps before leaving', 'Pack moisture-wicking layers', 'Confirm passport validity', 'Bring a compact power bank'],
+      },
+      Bali: {
+        City:   ['Look up Indonesia entry requirements', 'Pack light breathable fabrics', 'Confirm eSIM or roaming plan', 'Save accommodation address offline'],
+        Beach:  ['Check carry-on liquids — sunscreen needs a bag', 'Pack quick-dry fabrics', 'Confirm eSIM or local SIM plan', 'Save hotel address offline'],
+        Hiking: ['Download offline maps for Bali', 'Pack moisture-wicking fabrics', 'Bring a higher-capacity power bank', 'Check visa requirements'],
+      },
+      Lisbon: {
+        City:   ['Check passport validity for EU travel', 'Pack one smart outfit + casual layers', 'Confirm card works abroad', 'Download offline city map'],
+        Beach:  ['Pack sunscreen (100ml carry-on rule)', 'Confirm card works in Portugal', 'Download offline map', 'Pack a light cover-up'],
+        Hiking: ['Download offline hiking maps', 'Pack sturdy walking shoes', 'Confirm card works abroad', 'Bring a compact power bank'],
+      },
+    };
+    var CHECKED = { Tokyo: { City: [0, 2], Beach: [0], Hiking: [1] },
+                    Bali:  { City: [0, 2], Beach: [2], Hiking: [0, 2] },
+                    Lisbon:{ City: [0, 3], Beach: [1], Hiking: [0] } };
+
+    var activeDest  = 'Tokyo';
+    var activeStyle = 'City';
+
+    function renderMockItems(dest, style) {
+      var items   = (MOCK_ITEMS[dest] && MOCK_ITEMS[dest][style]) || MOCK_ITEMS.Tokyo.City;
+      var checked = (CHECKED[dest] && CHECKED[dest][style]) || [];
+      var container = document.getElementById('mock-items');
+      var fill      = document.getElementById('mock-fill');
+      var doneEl    = document.getElementById('mock-done');
+      var totalEl   = document.getElementById('mock-total');
+
+      container.innerHTML = '';
+
+      var doneCount = checked.length;
+      totalEl.textContent = items.length;
+      doneEl.textContent  = doneCount;
+
+      var pct = Math.round((doneCount / items.length) * 100);
+      fill.style.width = '0%';
+
+      items.forEach(function (text, i) {
+        var isChecked = checked.indexOf(i) !== -1;
+        var div = document.createElement('div');
+        div.className = 'mock-item' + (isChecked ? ' checked' : '');
+        div.innerHTML = '<input type="checkbox"' + (isChecked ? ' checked' : '') + ' tabindex="-1">'
+          + '<span>' + text + '</span>';
+        container.appendChild(div);
+
+        // staggered reveal
+        if (!prefersReduced) {
+          var delay = i * 80;
+          setTimeout(function () { div.classList.add('visible'); }, delay);
+        } else {
+          div.classList.add('visible');
+        }
+      });
+
+      // animate progress bar
+      setTimeout(function () {
+        fill.style.width = pct + '%';
+      }, prefersReduced ? 0 : items.length * 80 + 100);
+    }
+
+    // Chip interaction
+    document.querySelectorAll('.chip').forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        var group = this.dataset.group;
+        document.querySelectorAll('.chip[data-group="' + group + '"]').forEach(function (c) {
+          c.classList.remove('active');
+        });
+        this.classList.add('active');
+
+        if (group === 'dest')  activeDest  = this.dataset.val;
+        if (group === 'style') activeStyle = this.dataset.val;
+
+        renderMockItems(activeDest, activeStyle);
+      });
+    });
+
+    // Initial render
+    renderMockItems(activeDest, activeStyle);
+
+  })();
+  </script>
 </body>
 </html>
