@@ -22,10 +22,11 @@ from pathlib import Path
 
 # ── Config ─────────────────────────────────────────────────────────────────
 
-MONO_LOG        = Path("data/monetization_log.csv")
-NOTE_DRAFTS_DIR = Path("note_drafts")
-VIDEO_DIR       = Path("rendered_videos")
-SCRIPTS_DIR     = Path("video_scripts")
+MONO_LOG          = Path("data/monetization_log.csv")
+NOTE_DRAFTS_DIR   = Path("note_drafts")
+VIDEO_DIR         = Path("rendered_videos")
+SCRIPTS_DIR       = Path("video_scripts")
+THREADS_DRAFTS_DIR = Path("threads_drafts")
 
 COLUMNS = [
     "date", "platform", "content_type", "title",
@@ -33,7 +34,8 @@ COLUMNS = [
     "clicks", "likes", "sales", "revenue_yen", "notes",
 ]
 
-_SKIP_FILES = {"README.md", "TODAY_POSTING_GUIDE.md"}
+_SKIP_FILES         = {"README.md", "TODAY_POSTING_GUIDE.md"}
+_SKIP_THREADS_FILES = {"README.md"}
 
 
 # ── Helpers ─────────────────────────────────────────────────────────────────
@@ -145,6 +147,52 @@ def scan_videos() -> list:
     return rows
 
 
+def scan_threads_drafts() -> list:
+    """Scan threads_drafts/ and return one log row per .md file."""
+    rows = []
+    if not THREADS_DRAFTS_DIR.exists():
+        return rows
+
+    for p in sorted(THREADS_DRAFTS_DIR.glob("*.md")):
+        if p.name in _SKIP_THREADS_FILES:
+            continue
+
+        row_date = _date_from_filename(p.name, date.today().isoformat())
+
+        # Infer mode from filename: YYYY-MM-DD-{mode}.md
+        stem_no_date = re.sub(r"^\d{4}-\d{2}-\d{2}-?", "", p.stem)
+        mode         = stem_no_date.replace("-", "_") or "unknown"
+
+        # Content type label
+        if mode == "japanese_ai_media":
+            content_label = "threads_jp"
+            platform_note = "会社員、AIでメディアを作る。"
+        elif mode == "travel_now":
+            content_label = "threads_en"
+            platform_note = "Travel Now"
+        else:
+            content_label = "threads_post"
+            platform_note = mode
+
+        rows.append({
+            "date":         row_date,
+            "platform":     "Threads",
+            "content_type": content_label,
+            "title":        f"Threads drafts — {mode} — {row_date}",
+            "file_path":    str(p),
+            "url":          "",
+            "status":       "draft",
+            "price":        "0",
+            "clicks":       "0",
+            "likes":        "0",
+            "sales":        "0",
+            "revenue_yen":  "0",
+            "notes":        platform_note,
+        })
+
+    return rows
+
+
 # ── Deduplication ────────────────────────────────────────────────────────────
 
 def load_existing_keys() -> set:
@@ -163,7 +211,7 @@ def load_existing_keys() -> set:
 def main() -> None:
     write_mode = "--write" in sys.argv
 
-    all_rows  = scan_note_drafts() + scan_videos()
+    all_rows  = scan_note_drafts() + scan_videos() + scan_threads_drafts()
     existing  = load_existing_keys()
     to_add    = [
         r for r in all_rows
