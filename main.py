@@ -96,9 +96,22 @@ JSON format:
     "post_text": "A complete X post with line breaks, ready to copy and paste. Do not include CTA here.",
     "cta": "no CTA",
     "score": 8,
-    "status": "draft"
+    "status": "draft",
+    "type": "checklist"
   }}
 ]
+
+Valid values for the "type" field:
+- "checklist"     — a saveable, list-style prep checklist (best for morning)
+- "packing"       — packing-specific checklist or tip (best for morning)
+- "safety"        — safety or document prep tip (best for morning)
+- "mistake"       — common mistake to avoid (best for afternoon)
+- "flight_comfort"— in-flight comfort or seating tip (best for afternoon)
+- "eSIM"          — eSIM, SIM card, or connectivity tip (best for afternoon)
+- "tool_cta"      — a useful tip that naturally invites checking a tool or resource (evening)
+
+Assign "type" based on the primary content of the post, not the category alone.
+Include a mix of types across the 30 posts so all 7 types appear at least once.
 
 Very important:
 - post_text must be a complete X/Twitter post.
@@ -185,6 +198,11 @@ except json.JSONDecodeError:
 
 df = pd.DataFrame(posts)
 
+# Ensure required columns exist; fill missing ones with sensible defaults
+for col, default in [("type", "checklist"), ("score", 5), ("status", "draft"), ("cta", "no CTA")]:
+    if col not in df.columns:
+        df[col] = default
+
 if "score" in df.columns:
     df = df.sort_values(by="score", ascending=False)
 
@@ -195,4 +213,5 @@ top_df.to_csv("top_posts.csv", index=False, encoding="utf-8-sig")
 
 print("5. Done.")
 print("Generated posts.csv and top_posts.csv")
-print(top_df[["topic", "category", "score", "status", "cta"]])
+print_cols = [c for c in ["topic", "category", "type", "score", "status", "cta"] if c in top_df.columns]
+print(top_df[print_cols])

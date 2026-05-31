@@ -98,7 +98,234 @@ def show_recent_content_log(path="data/content_log.csv", limit=5):
     print("=============================")
 
 
+# ── X post slot / type constants ──────────────────────────────────────────────
+
+_MORNING_TYPES   = {"checklist", "packing", "safety"}
+_AFTERNOON_TYPES = {"mistake", "flight_comfort", "eSIM"}
+_EVENING_TYPES   = {"tool_cta"}
+
+_SLOT_LABELS = {
+    "morning":   "Morning",
+    "afternoon": "Afternoon",
+    "evening":   "Evening",
+}
+
+_TYPE_LABELS = {
+    "checklist":     "Checklist",
+    "packing":       "Packing",
+    "safety":        "Safety",
+    "mistake":       "Mistake Avoidance",
+    "flight_comfort": "Flight Comfort",
+    "eSIM":          "eSIM / Connectivity",
+    "tool_cta":      "Tool CTA",
+}
+
+_SLOT_REASONS = {
+    "morning":   "Saveable prep checklist — performs well posted in the morning",
+    "afternoon": "Mistake-avoidance / practical tip — high engagement midday",
+    "evening":   "Soft CTA post — evening readers more likely to click through",
+}
+
+
+def _infer_type(row: dict) -> str:
+    """Infer post type from category/topic/cta when the 'type' field is absent."""
+    cat    = row.get("category", "").lower()
+    topic  = row.get("topic",    "").lower()
+    cta    = row.get("cta",      "").lower()
+    needle = cat + " " + topic
+    if any(k in needle for k in ("esim", "connectivity", "sim card", "data plan")):
+        return "eSIM"
+    if any(k in needle for k in ("flight", "comfort", "seat", "legroom", "in-flight")):
+        return "flight_comfort"
+    if any(k in needle for k in ("packing", "carry-on", "luggage", "bag", "suitcase")):
+        return "packing"
+    if any(k in needle for k in ("safety", "document", "passport", "insurance")):
+        return "safety"
+    if cta and cta != "no cta" and any(k in cta for k in ("checklist", "https://", "→", "link")):
+        return "tool_cta"
+    if any(k in needle for k in ("mistake", "avoid", "don't", "forgot", "common error")):
+        return "mistake"
+    return "checklist"
+
+
+def _char_count(text: str) -> int:
+    """Return character count matching Twitter's convention (newlines count as 1)."""
+    return len(text)
+
+
+def select_daily_posts(
+    posts_path:    str = "posts.csv",
+    top_path:      str = "top_posts.csv",
+    schedule_path: str = "data/x_post_schedule.csv",
+) -> list:
+    """
+    Read posts.csv, select the best post for each slot (morning / afternoon / evening),
+    overwrite top_posts.csv with the 3 selected rows (with slot/type/reason/char_count),
+    and append today's selection to data/x_post_schedule.csv.
+    Returns the 3 selected post dicts (or fewer if posts.csv is too thin).
+    """
+    today_str = date.today().isoformat()
+    p_path    = Path(posts_path)
+
+    if not p_path.exists():
+        print(f"\n  select_daily_posts: {posts_path} not found — skipping slot selection.")
+        return []
+
+    with p_path.open(newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+
+    if not rows:
+        print(f"\n  select_daily_posts: {posts_path} is empty — skipping slot selection.")
+        return []
+
+    # Normalise / infer type; compute char count
+    for r in rows:
+        if not r.get("type", "").strip():
+            r["type"] = _infer_type(r)
+        r["_chars"] = _char_count(r.get("post_text", ""))
+
+    # Sort by score descending (highest quality first)
+    def _score(r):
+        try:
+            return float(r.get("score", 0))
+        except (TypeError, ValueError):
+            return 0.0
+
+    rows.sort(key=_score, reverse=True)
+
+    # Slot order: morning → afternoon → evening
+    slot_defs = [
+        ("morning",   _MORNING_TYPES),
+        ("afternoon", _AFTERNOON_TYPES),
+        ("evening",   _EVENING_TYPES),
+    ]
+
+    used = set()
+    selected = []
+
+    for slot_name, type_set in slot_defs:
+        chosen_idx, chosen = None, None
+
+        # First pass: match type AND within 280 chars
+        for i, r in enumerate(rows):
+            if i in used:
+                continue
+            if r["type"] in type_set and r["_chars"] <= 280:
+                chosen_idx, chosen = i, r
+                break
+
+        # Second pass: any unused post within 280 chars
+        if chosen is None:
+            for i, r in enumerate(rows):
+                if i in used:
+                    continue
+                if r["_chars"] <= 280:
+                    chosen_idx, chosen = i, r
+                    break
+
+        if chosen is None:
+            continue  # should never happen with 30 candidates
+
+        used.add(chosen_idx)
+
+        # Evening slot always needs a CTA
+        cta = chosen.get("cta", "").strip()
+        if slot_name == "evening" and (not cta or cta.lower() == "no cta"):
+            cta = f"Build your free trip checklist → {CHECKLIST_URL}"
+
+        selected.append({
+            "slot":       slot_name,
+            "type":       chosen.get("type", "checklist"),
+            "topic":      chosen.get("topic",    ""),
+            "category":   chosen.get("category", ""),
+            "hook":       chosen.get("hook",      ""),
+            "post_text":  chosen.get("post_text", ""),
+            "cta":        cta,
+            "score":      chosen.get("score",    ""),
+            "status":     chosen.get("status",   "draft"),
+            "reason":     _SLOT_REASONS[slot_name],
+            "char_count": str(chosen["_chars"]),
+        })
+
+    # ── Write top_posts.csv ────────────────────────────────────────────────────
+    top_cols = [
+        "slot", "type", "topic", "category", "hook",
+        "post_text", "cta", "score", "status", "reason", "char_count",
+    ]
+    with Path(top_path).open("w", newline="", encoding="utf-8-sig") as f:
+        writer = csv.DictWriter(f, fieldnames=top_cols, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(selected)
+
+    # ── Append to data/x_post_schedule.csv ────────────────────────────────────
+    sched_path = Path(schedule_path)
+    sched_path.parent.mkdir(parents=True, exist_ok=True)
+    sched_cols = ["date", "slot", "type", "post_text", "char_count", "reason", "status"]
+    write_header = not sched_path.exists() or sched_path.stat().st_size == 0
+    with sched_path.open("a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=sched_cols, extrasaction="ignore")
+        if write_header:
+            writer.writeheader()
+        for s in selected:
+            writer.writerow({
+                "date":       today_str,
+                "slot":       s["slot"],
+                "type":       s["type"],
+                "post_text":  s["post_text"].replace("\n", "\\n"),
+                "char_count": s["char_count"],
+                "reason":     s["reason"],
+                "status":     "pending",
+            })
+
+    print(f"\n  select_daily_posts: {len(selected)} posts selected → top_posts.csv + {schedule_path}")
+    return selected
+
+
+def show_three_posts(path: str = "top_posts.csv"):
+    """Display the 3 daily X posts in a clean, copy-ready terminal format."""
+    top_path = Path(path)
+
+    if not top_path.exists():
+        print(f"\n{path} not found. Skipping post display.")
+        return
+
+    with top_path.open(newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+
+    if not rows:
+        print(f"\n{path} is empty.")
+        return
+
+    print("\n=== TODAY'S 3 X POSTS ===\n")
+
+    for row in rows:
+        slot       = row.get("slot",       "").strip()
+        ptype      = row.get("type",       "").strip()
+        post_text  = row.get("post_text",  "").strip()
+        cta        = row.get("cta",        "").strip()
+        reason     = row.get("reason",     "").strip()
+        char_count = row.get("char_count", "").strip()
+
+        slot_label = _SLOT_LABELS.get(slot, slot.capitalize() if slot else "—")
+        type_label = _TYPE_LABELS.get(ptype, ptype.capitalize() if ptype else "—")
+
+        print(f"[{slot_label}] {type_label}")
+        print("Post:")
+        print(post_text)
+        if cta and cta.lower() != "no cta":
+            print(f"\nCTA: {cta}")
+        if reason:
+            print(f"\nWhy selected: {reason}")
+        if char_count:
+            print(f"Character count: {char_count}")
+        print()
+
+    print("=========================")
+
+
+# ── Legacy single-post display (kept for backwards compat) ────────────────────
 def show_today_candidate(path="top_posts.csv"):
+    """Deprecated: show the first row from top_posts.csv. Use show_three_posts()."""
     top_posts = Path(path)
 
     if not top_posts.exists():
@@ -278,6 +505,45 @@ def show_note_drafts():
         for p in created:
             label = "FREE" if "-free-" in p.name else "PAID" if "-paid-" in p.name else "    "
             print(f"    [{label}]  {p}")
+    print("=" * 36)
+
+
+def show_threads_drafts():
+    """Show today's Threads drafts if they exist; prompt to generate if not."""
+    today      = date.today().isoformat()
+    drafts_dir = Path("threads_drafts")
+
+    existing = (
+        [p for p in sorted(drafts_dir.glob(f"{today}-*.md")) if p.name != "README.md"]
+        if drafts_dir.exists()
+        else []
+    )
+
+    print("\n" + "=" * 36)
+    print("=== THREADS DRAFTS               ===")
+    print("=" * 36)
+
+    if existing:
+        print(f"\n  Today's Threads drafts ({len(existing)} file(s)):\n")
+        for p in existing:
+            mode = p.stem.replace(f"{today}-", "")
+            print(f"    [{mode}]  {p}")
+        print()
+        print("  To regenerate: python generate_threads_posts.py --write --all --force")
+        print("=" * 36)
+        return
+
+    if not Path("generate_threads_posts.py").exists():
+        print("\n  generate_threads_posts.py not found. Skipping.")
+        print("=" * 36)
+        return
+
+    print("\n  No Threads drafts for today.")
+    print()
+    print("  Run one of these to generate:")
+    print("    python generate_threads_posts.py --write                 # japanese_ai_media")
+    print("    python generate_threads_posts.py --write --mode travel_now")
+    print("    python generate_threads_posts.py --write --all           # both modes")
     print("=" * 36)
 
 
@@ -492,23 +758,29 @@ def main():
     else:
         print("build_site.py not found. Skipping site build.")
 
-    # 4. Show raw top posts
+    # 4. Select the 3 daily posts and update top_posts.csv + x_post_schedule.csv
+    select_daily_posts()
+
+    # 5. Show raw top posts CSV
     show_file("top_posts.csv")
 
-    # 5. Show today's recommended post in a clean format
-    show_today_candidate()
+    # 6. Show the 3 daily posts in a clean, copy-ready format
+    show_three_posts()
 
-    # 6. Show git status
+    # 7. Show git status
     run("git status")
 
-    # 7. Revenue actions — article pipeline status and next step suggestion
+    # 8. Revenue actions — article pipeline status and next step suggestion
     show_revenue_actions()
 
-    # 8. TODAY'S MONEY PATH — what to publish, where to send traffic, what to earn
+    # 9. TODAY'S MONEY PATH — what to publish, where to send traffic, what to earn
     show_money_path()
 
-    # 9. Japanese note drafts — generate today's pair if not yet created
+    # 10. Japanese note drafts — generate today's pair if not yet created
     show_note_drafts()
+
+    # 11. Threads drafts — show today's drafts or prompt to generate
+    show_threads_drafts()
 
     print("\nDaily workflow complete.")
     print("Next: choose a post → publish → update monetization_log.csv → commit.")
