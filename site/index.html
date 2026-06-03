@@ -87,16 +87,21 @@
             <button class="chip active" data-group="dest" data-val="Tokyo">🗾 Tokyo</button>
             <button class="chip"        data-group="dest" data-val="Bali">🌴 Bali</button>
             <button class="chip"        data-group="dest" data-val="Lisbon">🏛 Lisbon</button>
+            <button class="chip"        data-group="dest" data-val="New York">🗽 New York</button>
+            <button class="chip"        data-group="dest" data-val="Paris">🗼 Paris</button>
+            <button class="chip"        data-group="dest" data-val="Bangkok">🛕 Bangkok</button>
           </div>
           <div class="chip-row" id="len-chips">
-            <button class="chip active" data-group="len" data-val="1 week">1 week</button>
             <button class="chip"        data-group="len" data-val="Weekend">Weekend</button>
+            <button class="chip active" data-group="len" data-val="1 week">1 week</button>
+            <button class="chip"        data-group="len" data-val="10 days">10 days</button>
             <button class="chip"        data-group="len" data-val="2+ weeks">2+ weeks</button>
           </div>
           <div class="chip-row" id="style-chips">
             <button class="chip active" data-group="style" data-val="City">🏙 City</button>
             <button class="chip"        data-group="style" data-val="Beach">🏖 Beach</button>
             <button class="chip"        data-group="style" data-val="Hiking">🏔 Hiking</button>
+            <button class="chip"        data-group="style" data-val="Foodie">🍜 Foodie</button>
           </div>
 
           <div class="mock-progress-wrap">
@@ -620,24 +625,194 @@
     /* ── Hero mock widget ──────────────────────────────────────────────── */
     var MOCK_ITEMS = {
       Tokyo: {
-        City:   ['Check passport validity (6 months past return)', 'Look up Japan visa requirements', 'Download offline maps for Tokyo', 'Pack one change of clothes in carry-on'],
-        Beach:  ['Confirm passport validity', 'Pack light, breathable fabrics', 'Download offline maps before leaving', 'Keep boarding pass accessible'],
-        Hiking: ['Download offline maps before leaving', 'Pack moisture-wicking layers', 'Confirm passport validity', 'Bring a compact power bank'],
+        City:   [
+          'Check passport validity (6 months past return)',
+          'Look up Japan visa requirements',
+          'Download offline maps for Tokyo',
+          'Pack one change of clothes in carry-on',
+          'Set up Suica or Apple Pay transit card',
+        ],
+        Beach: [
+          'Confirm passport validity',
+          'Pack light, breathable fabrics',
+          'Download offline maps before leaving',
+          'Pack reef-safe sunscreen for Okinawa',
+          'Keep boarding pass accessible',
+        ],
+        Hiking: [
+          'Download offline maps before leaving',
+          'Pack moisture-wicking layers',
+          'Look up Mt Fuji or Takao trail conditions',
+          'Bring a compact power bank',
+          'Confirm passport validity',
+        ],
+        Foodie: [
+          'Save Google Translate offline (Japanese)',
+          'Reserve 3–5 must-try restaurants',
+          'Pack stretchy clothes (seriously)',
+          'Get cash — many places are cash-only',
+          'List ramen and sushi spots in your area',
+        ],
       },
       Bali: {
-        City:   ['Look up Indonesia entry requirements', 'Pack light breathable fabrics', 'Confirm eSIM or roaming plan', 'Save accommodation address offline'],
-        Beach:  ['Check carry-on liquids — sunscreen needs a bag', 'Pack quick-dry fabrics', 'Confirm eSIM or local SIM plan', 'Save hotel address offline'],
-        Hiking: ['Download offline maps for Bali', 'Pack moisture-wicking fabrics', 'Bring a higher-capacity power bank', 'Check visa requirements'],
+        City: [
+          'Look up Indonesia entry requirements',
+          'Pack light, breathable fabrics',
+          'Confirm eSIM or roaming plan',
+          'Save accommodation address offline',
+          'Bring small Rupiah bills for taxis',
+        ],
+        Beach: [
+          'Check carry-on liquids — sunscreen needs a bag',
+          'Pack quick-dry fabrics',
+          'Confirm eSIM or local SIM plan',
+          'Pack reef-safe sunscreen + after-sun',
+          'Save hotel address offline',
+        ],
+        Hiking: [
+          'Download offline maps for Bali',
+          'Pack moisture-wicking fabrics',
+          'Bring a higher-capacity power bank',
+          'Look up Mt Batur sunrise trek conditions',
+          'Check visa requirements',
+        ],
+        Foodie: [
+          'Save Google Maps Bali area offline',
+          'List warungs and beach clubs to visit',
+          'Pack stomach-friendly meds just in case',
+          'Confirm eSIM works for booking apps',
+          'Bookmark nasi campur and babi guling spots',
+        ],
       },
       Lisbon: {
-        City:   ['Check passport validity for EU travel', 'Pack one smart outfit + casual layers', 'Confirm card works abroad', 'Download offline city map'],
-        Beach:  ['Pack sunscreen (100ml carry-on rule)', 'Confirm card works in Portugal', 'Download offline map', 'Pack a light cover-up'],
-        Hiking: ['Download offline hiking maps', 'Pack sturdy walking shoes', 'Confirm card works abroad', 'Bring a compact power bank'],
+        City: [
+          'Check passport validity for EU travel',
+          'Pack one smart outfit + casual layers',
+          'Confirm card works abroad',
+          'Download offline Lisbon map',
+          'Buy Viva Viagem transit card on arrival',
+        ],
+        Beach: [
+          'Pack sunscreen (100ml carry-on rule)',
+          'Confirm card works in Portugal',
+          'Download offline map',
+          'Pack a light cover-up',
+          'Look up Cascais or Costa da Caparica trains',
+        ],
+        Hiking: [
+          'Download offline hiking maps',
+          'Pack sturdy walking shoes',
+          'Confirm card works abroad',
+          'Bring a compact power bank',
+          'Look up Sintra or Arrábida trails',
+        ],
+        Foodie: [
+          'List pastéis de nata bakeries to try',
+          'Save Google Translate offline (Portuguese)',
+          'Pack stretchy clothes',
+          'Reserve petiscos or tasca restaurants ahead',
+          'Confirm card works at small cafés',
+        ],
+      },
+      'New York': {
+        City: [
+          'Check passport validity',
+          'Pack layers for variable weather',
+          'Confirm eSIM or roaming plan',
+          'Save offline NYC subway map',
+          'Set up OMNY-compatible tap-to-pay',
+        ],
+        Beach: [
+          'Pack lightweight beach attire for the Hamptons',
+          'Confirm passport validity',
+          'Download offline maps',
+          'Pack reef-safe sunscreen + sun hat',
+          'Confirm rental car insurance if driving',
+        ],
+        Hiking: [
+          'Download offline maps (Bear Mountain, Catskills)',
+          'Pack waterproof hiking boots',
+          'Bring extra hydration',
+          'Save trail emergency contacts',
+          'Pack layers for changing weather',
+        ],
+        Foodie: [
+          'Reserve restaurants 2–3 weeks ahead',
+          'Save NYC subway offline map',
+          'Pack walking-friendly shoes',
+          'Save Resy and OpenTable wishlist',
+          'Bring small bills for tip jars and street vendors',
+        ],
+      },
+      Paris: {
+        City: [
+          'Check passport validity',
+          'Pack one smart outfit + walking shoes',
+          'Confirm card works in Europe',
+          'Save offline Paris metro map',
+          'Download Citymapper or Bonjour RATP app',
+        ],
+        Beach: [
+          'Plan transfer between Paris and the coast',
+          'Pack lightweight beach attire',
+          'Save offline French phrasebook',
+          'Confirm card works abroad',
+          'Pack reef-safe sunscreen',
+        ],
+        Hiking: [
+          'Pack proper hiking boots',
+          'Save Fontainebleau or Vexin trails offline',
+          'Confirm card works abroad',
+          'Pack moisture-wicking layers',
+          'Bring a small first-aid kit',
+        ],
+        Foodie: [
+          'Reserve bistros 2–3 weeks ahead',
+          'Pack stretchy clothes',
+          'List bakeries and patisseries to visit',
+          'Save Google Translate offline (French)',
+          'Bring cash for small cafés',
+        ],
+      },
+      Bangkok: {
+        City: [
+          'Check Thailand visa or visa-exempt rules',
+          'Pack breathable lightweight fabrics',
+          'Confirm eSIM works in Thailand',
+          'Save offline BTS / MRT map',
+          'Bring small Baht bills for taxis and street food',
+        ],
+        Beach: [
+          'Check visa requirements for Thailand',
+          'Pack reef-safe sunscreen',
+          'Confirm eSIM for booking ferries',
+          'Pack quick-dry fabrics',
+          'Save Phuket or Koh Samui addresses offline',
+        ],
+        Hiking: [
+          'Download offline maps for Khao Yai',
+          'Pack moisture-wicking fabrics',
+          'Bring strong insect repellent',
+          'Confirm visa requirements',
+          'Pack sturdy walking shoes',
+        ],
+        Foodie: [
+          'List street food markets to visit',
+          'Pack stomach-friendly meds just in case',
+          'Confirm eSIM for Grab and food apps',
+          'Save Google Translate offline (Thai)',
+          'Bring cash — street food is cash only',
+        ],
       },
     };
-    var CHECKED = { Tokyo: { City: [0, 2], Beach: [0], Hiking: [1] },
-                    Bali:  { City: [0, 2], Beach: [2], Hiking: [0, 2] },
-                    Lisbon:{ City: [0, 3], Beach: [1], Hiking: [0] } };
+    var CHECKED = {
+      Tokyo:      { City: [0, 2],    Beach: [0, 4],    Hiking: [1, 3],    Foodie: [0, 2, 4] },
+      Bali:       { City: [0, 2],    Beach: [2, 4],    Hiking: [0, 2],    Foodie: [0, 1] },
+      Lisbon:     { City: [0, 3],    Beach: [1, 3],    Hiking: [0, 4],    Foodie: [1, 2] },
+      'New York': { City: [0, 3],    Beach: [1, 2],    Hiking: [0, 1, 3], Foodie: [0, 2] },
+      Paris:      { City: [0, 3],    Beach: [1, 4],    Hiking: [0, 2],    Foodie: [0, 1, 3] },
+      Bangkok:    { City: [0, 1, 4], Beach: [2, 3],    Hiking: [0, 1, 3], Foodie: [0, 3] },
+    };
 
     var activeDest  = 'Tokyo';
     var activeStyle = 'City';
