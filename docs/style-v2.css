@@ -56,6 +56,34 @@ body::before {
     var(--bg);
 }
 
+/* ── Animated mesh layer — slowly drifting soft gradient blobs ──────────── */
+body::after {
+  content: "";
+  position: fixed;
+  inset: -10%;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(40rem 30rem at 20% 80%, rgba(47, 95, 143, 0.10), transparent 70%),
+    radial-gradient(36rem 28rem at 80% 30%, rgba(184, 148, 95, 0.13), transparent 70%),
+    radial-gradient(28rem 22rem at 50% 50%, rgba(184, 148, 95, 0.06), transparent 70%);
+  filter: blur(20px);
+  animation: meshDrift 28s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes meshDrift {
+  0%   { transform: translate3d(0, 0, 0)        scale(1); }
+  25%  { transform: translate3d(-2%, 1.5%, 0)   scale(1.06); }
+  50%  { transform: translate3d(1.5%, -2%, 0)   scale(1.04); }
+  75%  { transform: translate3d(-1%, -1.5%, 0)  scale(1.08); }
+  100% { transform: translate3d(2%, 2%, 0)      scale(1.02); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::after { animation: none; }
+}
+
 /* ── Typography ─────────────────────────────────────────────────────────── */
 .label {
   display: inline-flex;
@@ -1390,4 +1418,47 @@ footer p { margin: 0; }
   }
   .faq summary::after { content: ""; }
   .faq details p { display: block; }
+}
+
+/* ── GSAP enhancements: hero word reveal ─────────────────────────────────── */
+.hero-headline .word {
+  display: inline-block;
+  will-change: transform, opacity, filter;
+}
+
+/* ── Vanilla-tilt: card containers need transform-style for proper 3D ───── */
+.topic-card[data-tilt],
+.guide-card[data-tilt] {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.topic-card[data-tilt] > *,
+.guide-card[data-tilt] > * {
+  transform: translateZ(0);  /* lift children slightly for depth */
+}
+
+/* The glare effect injected by vanilla-tilt needs containment */
+.topic-card[data-tilt],
+.guide-card[data-tilt] {
+  overflow: hidden;
+  position: relative;
+}
+
+/* ── Magnetic button setup ──────────────────────────────────────────────── */
+[data-magnetic] {
+  will-change: transform;
+  transition: box-shadow 0.3s ease;  /* keep shadow transition, GSAP handles position */
+}
+
+/* ── Numbers in stats: tabular nums so counting doesn't jitter ───────────── */
+.hero-stats .stat span {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* ── Reduce all motion if user prefers it ───────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .hero-headline .word { filter: none !important; }
+  [data-tilt] { transform: none !important; }
+  [data-magnetic] { transform: none !important; }
 }

@@ -27,6 +27,11 @@
 
   <link rel="stylesheet" href="style-v2.css" />
 
+  <!-- Animation libs (free, MIT) ─ defer = no render blocking ── -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
   <!-- JSON-LD: WebSite + Organization ─────────────────────────── -->
   <script type="application/ld+json">
   {
@@ -53,18 +58,18 @@
 
       <div class="hero-left">
         <p class="label">Travel Now</p>
-        <h1>Smarter travel prep for smoother trips.</h1>
+        <h1 class="hero-headline">Smarter travel prep for smoother trips.</h1>
         <p class="subtitle">
           Personalised checklists, practical packing ideas, eSIM tips,
           and flight comfort tools — all in one place.
         </p>
         <div class="buttons">
-          <a href="checklist-generator.html" class="button primary-glow">Build My Checklist</a>
+          <a href="checklist-generator.html" class="button primary-glow" data-magnetic>Build My Checklist</a>
           <a href="#how-it-works" class="button secondary">How it works</a>
         </div>
         <div class="hero-stats">
-          <div class="stat"><span>6</span>prep categories</div>
-          <div class="stat"><span>30+</span>checklist items</div>
+          <div class="stat"><span data-count-to="6">6</span>prep categories</div>
+          <div class="stat"><span data-count-to="30" data-suffix="+">30+</span>checklist items</div>
           <div class="stat"><span>Free</span>generator tool</div>
         </div>
       </div>
@@ -105,7 +110,7 @@
 
           <div class="mock-items" id="mock-items"></div>
 
-          <a href="checklist-generator.html" class="button mock-cta">Build My Full Checklist →</a>
+          <a href="checklist-generator.html" class="button mock-cta" data-magnetic>Build My Full Checklist →</a>
         </div>
       </div>
 
@@ -207,43 +212,43 @@
       </div>
 
       <div class="grid topics-grid">
-        <article class="card topic-card" data-category="connectivity" data-reveal data-delay="1">
+        <article class="card topic-card" data-category="connectivity" data-reveal data-delay="1" data-tilt data-tilt-max="6" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.15">
           <h3>📶 eSIM &amp; Connectivity</h3>
           <p>Stay connected after landing with simple prep ideas and data options.</p>
           <a href="#esim">View picks</a>
         </article>
 
-        <article class="card topic-card" data-category="packing" data-reveal data-delay="2">
+        <article class="card topic-card" data-category="packing" data-reveal data-delay="2" data-tilt data-tilt-max="6" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.15">
           <h3>🎒 Packing Essentials</h3>
           <p>Carry-on organisation, packing mistakes to avoid, and useful travel tools.</p>
           <a href="#packing">View picks</a>
         </article>
 
-        <article class="card topic-card" data-category="flight" data-reveal data-delay="2">
+        <article class="card topic-card" data-category="flight" data-reveal data-delay="2" data-tilt data-tilt-max="6" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.15">
           <h3>✈️ Flight Comfort</h3>
           <p>Simple tools that may make long flights easier and less stressful.</p>
           <a href="#flight">View picks</a>
         </article>
 
-        <article class="card topic-card" data-category="power" data-reveal data-delay="3">
+        <article class="card topic-card" data-category="power" data-reveal data-delay="3" data-tilt data-tilt-max="6" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.15">
           <h3>🔋 Power &amp; Charging</h3>
           <p>Keep your phone, camera, and travel devices charged on the road.</p>
           <a href="#power">View picks</a>
         </article>
 
-        <article class="card topic-card" data-category="safety" data-reveal data-delay="3">
+        <article class="card topic-card" data-category="safety" data-reveal data-delay="3" data-tilt data-tilt-max="6" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.15">
           <h3>🛡️ Safer Trip Prep</h3>
           <p>Small habits and tools that can reduce avoidable travel stress.</p>
           <a href="#safety">View picks</a>
         </article>
 
-        <article class="card topic-card" data-category="packing" data-reveal data-delay="4">
+        <article class="card topic-card" data-category="packing" data-reveal data-delay="4" data-tilt data-tilt-max="6" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.15">
           <h3>📷 Camera Travel Gear</h3>
           <p>Lightweight gear ideas for better travel photos and videos.</p>
           <a href="#camera">View picks</a>
         </article>
 
-        <article class="card topic-card" data-category="all" data-reveal data-delay="4">
+        <article class="card topic-card" data-category="all" data-reveal data-delay="4" data-tilt data-tilt-max="6" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.15">
           <h3>📋 Trip checklist tool</h3>
           <p>Tell us your destination, trip length, and travel style. Get a personalised prep checklist.</p>
           <a href="checklist-generator.html">Build your checklist →</a>
@@ -474,28 +479,28 @@
       <p class="intro">In-depth checklists for the moments that drive most trip-day stress.</p>
 
       <div class="guides-grid">
-        <a class="guide-card" href="articles/airport-security-liquids.html">
+        <a class="guide-card" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.12" href="articles/airport-security-liquids.html">
           <span class="guide-tag">Carry-on Prep</span>
           <h3>Airport Security Liquids Checklist</h3>
           <p>Travel-size containers, the clear bag, and common mistakes to avoid before the security line.</p>
           <span class="guide-cta">Read the guide →</span>
         </a>
 
-        <a class="guide-card" href="articles/airport-security-packing-moments.html">
+        <a class="guide-card" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.12" href="articles/airport-security-packing-moments.html">
           <span class="guide-tag">Carry-on Prep</span>
           <h3>Carry-On Packing for Airport Security</h3>
           <p>Pack your carry-on in the order security expects — liquids, laptop, passport, and chargers placed right.</p>
           <span class="guide-cta">Read the guide →</span>
         </a>
 
-        <a class="guide-card" href="articles/esim-activation-and-preparation.html">
+        <a class="guide-card" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.12" href="articles/esim-activation-and-preparation.html">
           <span class="guide-tag">Connectivity</span>
           <h3>eSIM Setup for International Travel</h3>
           <p>Phone compatibility, choosing a data plan, offline backup tips, and FAQ before your flight.</p>
           <span class="guide-cta">Read the guide →</span>
         </a>
 
-        <a class="guide-card" href="articles/everyday-carry-essentials-for-travel.html">
+        <a class="guide-card" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.12" href="articles/everyday-carry-essentials-for-travel.html">
           <span class="guide-tag">Everyday Carry</span>
           <h3>Travel EDC Checklist</h3>
           <p>The small set of items you actually keep on you each day of a trip — pocket and personal-item setup.</p>
@@ -519,7 +524,7 @@
 
   <!-- ── Sticky mobile CTA ─────────────────────────────────────────────── -->
   <div class="sticky-cta" id="sticky-cta" aria-hidden="true">
-    <a href="checklist-generator.html" class="button primary-glow" onclick="document.getElementById('sticky-cta').classList.add('hidden')">
+    <a href="checklist-generator.html" class="button primary-glow" data-magnetic onclick="document.getElementById('sticky-cta').classList.add('hidden')">
       Build My Checklist →
     </a>
   </div>
@@ -696,6 +701,143 @@
     // Initial render
     renderMockItems(activeDest, activeStyle);
 
+  })();
+  </script>
+
+  <!-- ── GSAP-powered premium enhancements ──────────────────────────────── -->
+  <script>
+  (function () {
+    'use strict';
+
+    var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Wait for deferred scripts to load
+    window.addEventListener('load', function () {
+      if (prefersReduced)         return;  // respect user preference
+      if (!window.gsap)           return;  // CDN failed — fall back to existing CSS animations
+      if (window.matchMedia('(max-width: 720px)').matches) {
+        // On small mobile, skip the heavy effects (tilt + magnetic). Keep word reveal + counters.
+        runMobile();
+        return;
+      }
+
+      gsap.registerPlugin(window.ScrollTrigger);
+
+      heroWordReveal();
+      heroSequence();
+      countersUp();
+      enhancedScrollReveals();
+      initTilt();
+      initMagnetic();
+    });
+
+    function runMobile() {
+      gsap.registerPlugin(window.ScrollTrigger);
+      heroWordReveal();
+      heroSequence();
+      countersUp();
+      enhancedScrollReveals();
+    }
+
+    // 1. Hero headline: each word fades + lifts + un-blurs in sequence
+    function heroWordReveal() {
+      var headline = document.querySelector('.hero-headline');
+      if (!headline) return;
+      var words = headline.textContent.trim().split(/\s+/);
+      headline.innerHTML = words.map(function (w) {
+        return '<span class="word">' + w + '</span>';
+      }).join(' ');
+      gsap.from('.hero-headline .word', {
+        opacity: 0,
+        y: 28,
+        filter: 'blur(8px)',
+        duration: 0.85,
+        stagger: 0.07,
+        ease: 'power3.out',
+      });
+    }
+
+    // 2. Subtitle, buttons, stats — staggered after the headline
+    function heroSequence() {
+      gsap.from('.hero-left .subtitle', { opacity: 0, y: 18, duration: 0.7, delay: 0.55, ease: 'power3.out' });
+      gsap.from('.hero-left .buttons .button', { opacity: 0, y: 14, duration: 0.7, stagger: 0.1, delay: 0.7, ease: 'power3.out' });
+      gsap.from('.hero-stats .stat', { opacity: 0, y: 14, duration: 0.7, stagger: 0.08, delay: 0.9, ease: 'power3.out' });
+      gsap.from('.hero-right .hero-widget', { opacity: 0, x: 24, duration: 1.0, delay: 0.4, ease: 'power3.out' });
+    }
+
+    // 3. Stats: count from 0 → final value
+    function countersUp() {
+      document.querySelectorAll('[data-count-to]').forEach(function (el) {
+        var to = parseInt(el.dataset.countTo, 10);
+        var suffix = el.dataset.suffix || '';
+        el.textContent = '0' + suffix;
+        var obj = { val: 0 };
+        gsap.to(obj, {
+          val: to,
+          duration: 1.6,
+          delay: 1.0,
+          ease: 'power2.out',
+          onUpdate: function () { el.textContent = Math.round(obj.val) + suffix; }
+        });
+      });
+    }
+
+    // 4. Enhanced scroll-reveal — replaces the IntersectionObserver flicker with a real animation
+    function enhancedScrollReveals() {
+      // Remove the basic .revealed class so we can animate fresh.
+      // For elements still in initial state, ScrollTrigger handles them.
+      document.querySelectorAll('[data-reveal]').forEach(function (el) {
+        // If element is already revealed (above the fold), skip ScrollTrigger
+        var rect = el.getBoundingClientRect();
+        var inView = rect.top < window.innerHeight && rect.bottom > 0;
+        if (inView) return;
+
+        el.classList.remove('revealed');
+        gsap.fromTo(el,
+          { opacity: 0, y: 36 },
+          {
+            opacity: 1, y: 0, duration: 0.9, ease: 'power3.out',
+            scrollTrigger: {
+              trigger: el,
+              start: 'top 88%',
+              toggleActions: 'play none none none',
+            },
+            onComplete: function () { el.classList.add('revealed'); }
+          });
+      });
+    }
+
+    // 5. Vanilla-tilt: subtle 3D card tilt on hover
+    function initTilt() {
+      if (!window.VanillaTilt) return;
+      var els = document.querySelectorAll('[data-tilt]');
+      if (!els.length) return;
+      VanillaTilt.init(els, {
+        max: 6,
+        speed: 400,
+        glare: true,
+        'max-glare': 0.15,
+        scale: 1.02,
+        gyroscope: false,
+      });
+    }
+
+    // 6. Magnetic buttons: subtle attraction toward cursor
+    function initMagnetic() {
+      document.querySelectorAll('[data-magnetic]').forEach(function (btn) {
+        var bounds = null;
+        btn.addEventListener('mousemove', function (e) {
+          if (!bounds) bounds = btn.getBoundingClientRect();
+          var x = (e.clientX - bounds.left - bounds.width / 2) * 0.22;
+          var y = (e.clientY - bounds.top - bounds.height / 2) * 0.22;
+          gsap.to(btn, { x: x, y: y, duration: 0.3, ease: 'power2.out' });
+        });
+        btn.addEventListener('mouseleave', function () {
+          gsap.to(btn, { x: 0, y: 0, duration: 0.6, ease: 'elastic.out(1, 0.4)' });
+          bounds = null;
+        });
+      });
+    }
   })();
   </script>
 </body>
