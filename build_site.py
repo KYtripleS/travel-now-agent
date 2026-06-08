@@ -15,6 +15,7 @@ CATEGORY_IDS = {
     "Camera Travel Gear": "camera",
     "Sun & Beach": "sunbeach",
     "Hotel Stay Comfort": "hotel",
+    "Travel Health & Insurance": "insurance",
 }
 
 CATEGORY_ICONS = {
@@ -26,6 +27,7 @@ CATEGORY_ICONS = {
     "Camera Travel Gear": "📷",
     "Sun & Beach": "🌞",
     "Hotel Stay Comfort": "🏨",
+    "Travel Health & Insurance": "🏥",
 }
 
 CHECKLISTS = {
@@ -77,6 +79,12 @@ CHECKLISTS = {
         "Bring a universal sink stopper for hand-washing",
         "Add a portable door alarm for extra peace of mind",
     ],
+    "Travel Health & Insurance": [
+        "Compare travel insurance plans before booking flights",
+        "Pack a compact first-aid kit in your carry-on",
+        "Carry medications in original packaging with prescriptions",
+        "Save your insurance provider's emergency number offline",
+    ],
 }
 
 INTRO_TEXT = {
@@ -88,6 +96,7 @@ INTRO_TEXT = {
     "Camera Travel Gear": "Useful ideas for lightweight travel shooting:",
     "Sun & Beach": "Small items that can make sunny destinations smoother:",
     "Hotel Stay Comfort": "Little extras that improve hotel stays:",
+    "Travel Health & Insurance": "Small habits that may reduce avoidable health stress:",
 }
 
 
