@@ -13,6 +13,8 @@ CATEGORY_IDS = {
     "Power & Charging": "power",
     "Travel Safety": "safety",
     "Camera Travel Gear": "camera",
+    "Sun & Beach": "sunbeach",
+    "Hotel Stay Comfort": "hotel",
 }
 
 CATEGORY_ICONS = {
@@ -22,6 +24,8 @@ CATEGORY_ICONS = {
     "Power & Charging": "🔋",
     "Travel Safety": "🛡️",
     "Camera Travel Gear": "📷",
+    "Sun & Beach": "🌞",
+    "Hotel Stay Comfort": "🏨",
 }
 
 CHECKLISTS = {
@@ -61,6 +65,18 @@ CHECKLISTS = {
         "Bring a lightweight strap for walking days",
         "Clean your lens before important photos",
     ],
+    "Sun & Beach": [
+        "Pack reef-safe sunscreen in travel-size bottles",
+        "Bring a packable sun hat and polarized sunglasses",
+        "Use a quick-dry microfiber towel for beach days",
+        "Keep after-sun gel in your carry-on for evening relief",
+    ],
+    "Hotel Stay Comfort": [
+        "Pack foldable slippers for the room",
+        "Use a mesh laundry bag to separate dirty clothes",
+        "Bring a universal sink stopper for hand-washing",
+        "Add a portable door alarm for extra peace of mind",
+    ],
 }
 
 INTRO_TEXT = {
@@ -70,6 +86,8 @@ INTRO_TEXT = {
     "Power & Charging": "Before your trip, check your charging setup:",
     "Travel Safety": "Simple prep that may reduce avoidable stress:",
     "Camera Travel Gear": "Useful ideas for lightweight travel shooting:",
+    "Sun & Beach": "Small items that can make sunny destinations smoother:",
+    "Hotel Stay Comfort": "Little extras that improve hotel stays:",
 }
 
 
