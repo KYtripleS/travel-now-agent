@@ -288,22 +288,51 @@
 
     <!-- 3D Globe section: world coverage visual -->
     <section class="globe-section" data-reveal>
+      <!-- Decorative starfield (CSS) -->
+      <div class="globe-stars" aria-hidden="true"></div>
+
       <div class="globe-inner">
         <div class="globe-text">
-          <p class="label">Worldwide travel prep</p>
-          <h2>Tools and guides for travelers everywhere.</h2>
+          <p class="globe-label">— Worldwide travel prep —</p>
+          <h2 class="globe-title">
+            Tools and guides<br/>
+            for travelers <em>everywhere</em>.
+          </h2>
           <p class="globe-desc">
             From Tokyo to Lisbon, New York to Bangkok — every Travel Now checklist adapts
-            to your destination, trip length, and travel style. Six featured cities on the
-            site, more being added each month.
+            to your destination, trip length, and travel style. Six featured cities today,
+            more being added each month.
           </p>
+
           <div class="globe-stats">
-            <div class="globe-stat"><span data-count-to="6">6</span>featured cities</div>
-            <div class="globe-stat"><span data-count-to="24" data-suffix="+">24+</span>trip scenarios</div>
-            <div class="globe-stat"><span data-count-to="33" data-suffix="+">33+</span>curated picks</div>
+            <div class="globe-stat">
+              <span class="globe-stat-num" data-count-to="6">6</span>
+              <span class="globe-stat-label">Featured cities</span>
+            </div>
+            <div class="globe-stat-divider" aria-hidden="true"></div>
+            <div class="globe-stat">
+              <span class="globe-stat-num" data-count-to="24" data-suffix="+">24+</span>
+              <span class="globe-stat-label">Trip scenarios</span>
+            </div>
+            <div class="globe-stat-divider" aria-hidden="true"></div>
+            <div class="globe-stat">
+              <span class="globe-stat-num" data-count-to="33" data-suffix="+">33+</span>
+              <span class="globe-stat-label">Curated picks</span>
+            </div>
+          </div>
+
+          <div class="globe-cities" aria-hidden="true">
+            <span class="globe-city">🗾 Tokyo</span>
+            <span class="globe-city">🌴 Bali</span>
+            <span class="globe-city">🏛 Lisbon</span>
+            <span class="globe-city">🗽 New York</span>
+            <span class="globe-city">🗼 Paris</span>
+            <span class="globe-city">🛕 Bangkok</span>
           </div>
         </div>
+
         <div class="globe-canvas-wrap">
+          <div class="globe-canvas-glow" aria-hidden="true"></div>
           <canvas id="globe-canvas" aria-hidden="true"></canvas>
         </div>
       </div>
@@ -1240,7 +1269,7 @@
   })();
   </script>
 
-  <!-- ── 3D rotating globe (Three.js, free, MIT) ─────────────────────────── -->
+  <!-- ── 3D rotating globe v2 (Three.js, premium look) ───────────────────── -->
   <script>
   (function () {
     'use strict';
@@ -1251,32 +1280,69 @@
       var canvas = document.getElementById('globe-canvas');
       if (!canvas) return;
 
-      var w = canvas.clientWidth || 420;
-      var h = canvas.clientHeight || 420;
+      var w = canvas.clientWidth || 460;
+      var h = canvas.clientHeight || 460;
 
       var renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: true });
       renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
       renderer.setSize(w, h, false);
 
       var scene = new THREE.Scene();
-      var camera = new THREE.PerspectiveCamera(45, w / h, 0.1, 100);
-      camera.position.z = 3.4;
+      var camera = new THREE.PerspectiveCamera(40, w / h, 0.1, 200);
+      camera.position.z = 3.8;
 
-      // Globe wireframe (gold)
-      var globe = new THREE.Mesh(
-        new THREE.SphereGeometry(1, 36, 36),
-        new THREE.MeshBasicMaterial({ color: 0xC9A84C, wireframe: true, transparent: true, opacity: 0.45 })
-      );
-      scene.add(globe);
+      var GOLD  = 0xC9A84C;
+      var BLUE  = 0x2F5F8F;
+      var NAVY  = 0x0E1729;
 
-      // Solid inner sphere (dark, gives depth)
+      // ── Globe group (everything rotates together) ──
+      var globeGroup = new THREE.Group();
+      globeGroup.rotation.x = -0.32;
+      scene.add(globeGroup);
+
+      // Solid inner sphere (deep navy core)
       var inner = new THREE.Mesh(
-        new THREE.SphereGeometry(0.985, 36, 36),
-        new THREE.MeshBasicMaterial({ color: 0x172033 })
+        new THREE.SphereGeometry(0.985, 64, 64),
+        new THREE.MeshBasicMaterial({ color: NAVY })
       );
-      scene.add(inner);
+      globeGroup.add(inner);
 
-      // Destination markers (6 cities)
+      // Wireframe (latitude/longitude lines, refined)
+      var wireframe = new THREE.Mesh(
+        new THREE.SphereGeometry(1.0, 28, 18),
+        new THREE.MeshBasicMaterial({
+          color: GOLD,
+          wireframe: true,
+          transparent: true,
+          opacity: 0.22
+        })
+      );
+      globeGroup.add(wireframe);
+
+      // Equator highlight
+      var equator = new THREE.Line(
+        new THREE.RingGeometry(1.001, 1.001, 64).attributes
+          ? new THREE.BufferGeometry().setFromPoints(
+              Array.from({length: 65}, function(_, i) {
+                var t = (i / 64) * Math.PI * 2;
+                return new THREE.Vector3(Math.cos(t) * 1.005, 0, Math.sin(t) * 1.005);
+              })
+            )
+          : new THREE.RingGeometry(1.001, 1.001, 64),
+        new THREE.LineBasicMaterial({ color: GOLD, transparent: true, opacity: 0.55 })
+      );
+      globeGroup.add(equator);
+
+      // Atmosphere (subtle blue glow)
+      var atmos = new THREE.Mesh(
+        new THREE.SphereGeometry(1.10, 64, 64),
+        new THREE.MeshBasicMaterial({
+          color: BLUE, transparent: true, opacity: 0.10, side: THREE.BackSide
+        })
+      );
+      scene.add(atmos);
+
+      // ── Destination markers ──
       var destinations = [
         { name: 'Tokyo',    lat: 35.68,  lng: 139.65 },
         { name: 'Bali',     lat: -8.34,  lng: 115.09 },
@@ -1286,48 +1352,95 @@
         { name: 'Bangkok',  lat: 13.76,  lng: 100.50 }
       ];
 
-      var pinGroup = new THREE.Group();
+      function latLngToVec3(lat, lng, r) {
+        var phi = (90 - lat) * (Math.PI / 180);
+        var theta = (lng + 180) * (Math.PI / 180);
+        return new THREE.Vector3(
+          -r * Math.sin(phi) * Math.cos(theta),
+           r * Math.cos(phi),
+           r * Math.sin(phi) * Math.sin(theta)
+        );
+      }
+
       destinations.forEach(function (d) {
-        var phi = (90 - d.lat) * (Math.PI / 180);
-        var theta = (d.lng + 180) * (Math.PI / 180);
-        var r = 1.02;
-        var x = -r * Math.sin(phi) * Math.cos(theta);
-        var y = r * Math.cos(phi);
-        var z = r * Math.sin(phi) * Math.sin(theta);
+        var pos = latLngToVec3(d.lat, d.lng, 1.015);
 
-        // Glowing dot
+        // Outer glow halo
+        var halo = new THREE.Mesh(
+          new THREE.SphereGeometry(0.045, 16, 16),
+          new THREE.MeshBasicMaterial({ color: GOLD, transparent: true, opacity: 0.25 })
+        );
+        halo.position.copy(pos);
+        globeGroup.add(halo);
+
+        // Core dot
         var dot = new THREE.Mesh(
-          new THREE.SphereGeometry(0.025, 16, 16),
-          new THREE.MeshBasicMaterial({ color: 0xC9A84C })
+          new THREE.SphereGeometry(0.02, 16, 16),
+          new THREE.MeshBasicMaterial({ color: GOLD })
         );
-        dot.position.set(x, y, z);
-        pinGroup.add(dot);
+        dot.position.copy(pos);
+        globeGroup.add(dot);
 
-        // Outer ring (subtle glow)
-        var ring = new THREE.Mesh(
-          new THREE.RingGeometry(0.035, 0.05, 24),
-          new THREE.MeshBasicMaterial({ color: 0xC9A84C, side: THREE.DoubleSide, transparent: true, opacity: 0.5 })
+        // Light beam from globe surface outward
+        var beamHeight = 0.12;
+        var beamGeom = new THREE.CylinderGeometry(0.004, 0.001, beamHeight, 8);
+        var beam = new THREE.Mesh(
+          beamGeom,
+          new THREE.MeshBasicMaterial({ color: GOLD, transparent: true, opacity: 0.6 })
         );
-        ring.position.set(x, y, z);
-        ring.lookAt(new THREE.Vector3(0, 0, 0));
-        pinGroup.add(ring);
+        var outwardPos = latLngToVec3(d.lat, d.lng, 1.015 + beamHeight / 2);
+        beam.position.copy(outwardPos);
+        beam.lookAt(new THREE.Vector3(0, 0, 0));
+        beam.rotateX(Math.PI / 2);
+        globeGroup.add(beam);
       });
-      scene.add(pinGroup);
 
-      // Subtle outer "atmosphere" sphere
-      var atmosphere = new THREE.Mesh(
-        new THREE.SphereGeometry(1.08, 36, 36),
-        new THREE.MeshBasicMaterial({ color: 0xC9A84C, transparent: true, opacity: 0.06, side: THREE.BackSide })
+      // ── Flight path arcs (curved lines between selected cities) ──
+      var arcPairs = [
+        [destinations[0], destinations[4]], // Tokyo - Paris
+        [destinations[3], destinations[2]], // NYC - Lisbon
+        [destinations[5], destinations[1]]  // Bangkok - Bali
+      ];
+
+      arcPairs.forEach(function (pair) {
+        var start = latLngToVec3(pair[0].lat, pair[0].lng, 1.005);
+        var end   = latLngToVec3(pair[1].lat, pair[1].lng, 1.005);
+
+        // Mid-control point lifted above the globe for curve
+        var mid = start.clone().add(end).multiplyScalar(0.5);
+        var midLen = mid.length();
+        mid.normalize().multiplyScalar(midLen + 0.45);
+
+        var curve = new THREE.QuadraticBezierCurve3(start, mid, end);
+        var points = curve.getPoints(64);
+        var arcGeom = new THREE.BufferGeometry().setFromPoints(points);
+        var arc = new THREE.Line(
+          arcGeom,
+          new THREE.LineBasicMaterial({ color: GOLD, transparent: true, opacity: 0.45 })
+        );
+        globeGroup.add(arc);
+      });
+
+      // ── Particle stars in 3D space (behind globe) ──
+      var starsGeom = new THREE.BufferGeometry();
+      var starCount = 220;
+      var positions = new Float32Array(starCount * 3);
+      for (var i = 0; i < starCount; i++) {
+        var r = 6 + Math.random() * 4;
+        var t = Math.random() * Math.PI * 2;
+        var p = Math.acos(2 * Math.random() - 1);
+        positions[i * 3]     = r * Math.sin(p) * Math.cos(t);
+        positions[i * 3 + 1] = r * Math.sin(p) * Math.sin(t);
+        positions[i * 3 + 2] = r * Math.cos(p);
+      }
+      starsGeom.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+      var stars = new THREE.Points(
+        starsGeom,
+        new THREE.PointsMaterial({ color: 0xFFFFFF, size: 0.05, transparent: true, opacity: 0.7, sizeAttenuation: true })
       );
-      scene.add(atmosphere);
+      scene.add(stars);
 
-      // Tilt the globe slightly for a more dynamic look
-      globe.rotation.x = -0.3;
-      inner.rotation.x = -0.3;
-      pinGroup.rotation.x = -0.3;
-      atmosphere.rotation.x = -0.3;
-
-      // Resize handler
+      // ── Resize handler ──
       function onResize() {
         var newW = canvas.clientWidth;
         var newH = canvas.clientHeight;
@@ -1339,13 +1452,12 @@
       }
       window.addEventListener('resize', onResize);
 
-      // Animation loop
-      var rotSpeed = prefersReduced ? 0 : 0.0028;
+      // ── Animation loop ──
+      var rotSpeed = prefersReduced ? 0 : 0.0025;
       function animate() {
         requestAnimationFrame(animate);
-        globe.rotation.y    += rotSpeed;
-        inner.rotation.y    += rotSpeed;
-        pinGroup.rotation.y += rotSpeed;
+        globeGroup.rotation.y += rotSpeed;
+        stars.rotation.y      += rotSpeed * 0.3;
         renderer.render(scene, camera);
       }
       animate();
