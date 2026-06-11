@@ -1300,21 +1300,36 @@
       globeGroup.rotation.x = -0.32;
       scene.add(globeGroup);
 
-      // Solid inner sphere (deep navy core)
+      // ── Earth surface (city lights texture for "real earth" feel) ──
+      var earthLoader = new THREE.TextureLoader();
+      earthLoader.setCrossOrigin('anonymous');
+
+      // Inner sphere starts as navy; texture loads progressively
+      var innerMaterial = new THREE.MeshBasicMaterial({ color: NAVY });
       var inner = new THREE.Mesh(
         new THREE.SphereGeometry(0.985, 64, 64),
-        new THREE.MeshBasicMaterial({ color: NAVY })
+        innerMaterial
       );
       globeGroup.add(inner);
 
-      // Wireframe (latitude/longitude lines, refined)
+      // Load Earth night texture (free, three-globe demo asset)
+      earthLoader.load(
+        'https://unpkg.com/three-globe/example/img/earth-night.jpg',
+        function (texture) {
+          innerMaterial.map = texture;
+          innerMaterial.color.setHex(0x6A85B0);  // Soft blue tint blends with theme
+          innerMaterial.needsUpdate = true;
+        }
+      );
+
+      // Wireframe overlay (latitude/longitude lines, refined gold)
       var wireframe = new THREE.Mesh(
-        new THREE.SphereGeometry(1.0, 28, 18),
+        new THREE.SphereGeometry(1.003, 30, 20),
         new THREE.MeshBasicMaterial({
           color: GOLD,
           wireframe: true,
           transparent: true,
-          opacity: 0.22
+          opacity: 0.18
         })
       );
       globeGroup.add(wireframe);
@@ -1395,30 +1410,64 @@
         globeGroup.add(beam);
       });
 
-      // ── Flight path arcs (curved lines between selected cities) ──
+      // ── Flight paths + airplanes ──
       var arcPairs = [
-        [destinations[0], destinations[4]], // Tokyo - Paris
-        [destinations[3], destinations[2]], // NYC - Lisbon
-        [destinations[5], destinations[1]]  // Bangkok - Bali
+        [destinations[0], destinations[4]], // Tokyo → Paris
+        [destinations[3], destinations[2]], // NYC → Lisbon
+        [destinations[5], destinations[1]], // Bangkok → Bali
+        [destinations[3], destinations[4]], // NYC → Paris
+        [destinations[0], destinations[5]]  // Tokyo → Bangkok
       ];
 
-      arcPairs.forEach(function (pair) {
+      // Track all flying planes for animation
+      var flyingPlanes = [];
+
+      arcPairs.forEach(function (pair, idx) {
         var start = latLngToVec3(pair[0].lat, pair[0].lng, 1.005);
         var end   = latLngToVec3(pair[1].lat, pair[1].lng, 1.005);
 
-        // Mid-control point lifted above the globe for curve
+        // Mid-control point lifted above globe for curve
         var mid = start.clone().add(end).multiplyScalar(0.5);
         var midLen = mid.length();
-        mid.normalize().multiplyScalar(midLen + 0.45);
+        mid.normalize().multiplyScalar(midLen + 0.42);
 
         var curve = new THREE.QuadraticBezierCurve3(start, mid, end);
+
+        // Static arc line (the route)
         var points = curve.getPoints(64);
         var arcGeom = new THREE.BufferGeometry().setFromPoints(points);
         var arc = new THREE.Line(
           arcGeom,
-          new THREE.LineBasicMaterial({ color: GOLD, transparent: true, opacity: 0.45 })
+          new THREE.LineBasicMaterial({ color: GOLD, transparent: true, opacity: 0.32 })
         );
         globeGroup.add(arc);
+
+        // ── Airplane mesh (small glowing dot with halo) ──
+        var planeGroup = new THREE.Group();
+
+        // Core: bright white sphere
+        var planeCore = new THREE.Mesh(
+          new THREE.SphereGeometry(0.018, 12, 12),
+          new THREE.MeshBasicMaterial({ color: 0xFFFFFF })
+        );
+        planeGroup.add(planeCore);
+
+        // Halo: subtle gold glow around the core
+        var planeHalo = new THREE.Mesh(
+          new THREE.SphereGeometry(0.038, 12, 12),
+          new THREE.MeshBasicMaterial({ color: GOLD, transparent: true, opacity: 0.28 })
+        );
+        planeGroup.add(planeHalo);
+
+        globeGroup.add(planeGroup);
+
+        // Random starting position so planes don't move in sync
+        flyingPlanes.push({
+          group: planeGroup,
+          curve: curve,
+          t: idx * 0.18,  // staggered start
+          speed: 0.0009 + Math.random() * 0.0006
+        });
       });
 
       // ── Particle stars in 3D space (behind globe) ──
@@ -1453,11 +1502,28 @@
       window.addEventListener('resize', onResize);
 
       // ── Animation loop ──
-      var rotSpeed = prefersReduced ? 0 : 0.0025;
+      var rotSpeed = prefersReduced ? 0 : 0.0022;
       function animate() {
         requestAnimationFrame(animate);
+
         globeGroup.rotation.y += rotSpeed;
         stars.rotation.y      += rotSpeed * 0.3;
+
+        // Move airplanes along their arcs
+        if (!prefersReduced) {
+          flyingPlanes.forEach(function (plane) {
+            plane.t += plane.speed;
+            if (plane.t > 1) plane.t = 0;
+            var pos = plane.curve.getPoint(plane.t);
+            plane.group.position.copy(pos);
+
+            // Orient plane toward direction of travel
+            var nextT = Math.min(plane.t + 0.01, 1);
+            var nextPos = plane.curve.getPoint(nextT);
+            plane.group.lookAt(nextPos);
+          });
+        }
+
         renderer.render(scene, camera);
       }
       animate();
