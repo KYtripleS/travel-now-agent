@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Travel Now Logo C: Passport Stamp -->
+  <!-- Iconic circular stamp - works as profile pic, favicon, anywhere -->
+
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="200" fill="#172033"/>
+
+  <!-- Outer stamp ring (thick) -->
+  <circle cx="512" cy="512" r="400" fill="none" stroke="#C9A84C" stroke-width="8"/>
+  <!-- Inner stamp ring (thin) -->
+  <circle cx="512" cy="512" r="378" fill="none" stroke="#C9A84C" stroke-width="2"/>
+  <!-- Innermost very thin ring -->
+  <circle cx="512" cy="512" r="280" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.4"/>
+
+  <!-- Arc paths for curved text -->
+  <defs>
+    <!-- Top arc (text reads left to right along the top) -->
+    <path id="topArc" d="M 162 512 A 350 350 0 0 1 862 512" fill="none"/>
+    <!-- Bottom arc (text reads left to right along the bottom) -->
+    <path id="bottomArc" d="M 192 568 A 320 320 0 0 0 832 568" fill="none"/>
+  </defs>
+
+  <!-- Top curved text: TRAVEL NOW -->
+  <text font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="74" fill="#C9A84C" letter-spacing="22">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">★  TRAVEL  NOW  ★</textPath>
+  </text>
+
+  <!-- Bottom curved text: SMARTER TRAVEL PREP -->
+  <text font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="38" fill="#C9A84C" letter-spacing="14">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">SMARTER TRAVEL PREP</textPath>
+  </text>
+
+  <!-- Side decorative stars -->
+  <g fill="#C9A84C" font-size="48" font-weight="900" text-anchor="middle">
+    <text x="170" y="540">★</text>
+    <text x="854" y="540">★</text>
+  </g>
+
+  <!-- Center mark: Stylized compass needle -->
+  <g transform="translate(512, 460)">
+    <!-- Top half (filled - pointing North) -->
+    <path d="M 0 -120 L 35 0 L 0 20 L -35 0 Z" fill="#C9A84C"/>
+    <!-- Bottom half (outlined) -->
+    <path d="M 0 20 L 35 0 L 0 120 L -35 0 Z" fill="none" stroke="#C9A84C" stroke-width="3"/>
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="8" fill="#172033" stroke="#C9A84C" stroke-width="3"/>
+
+    <!-- 4 cardinal direction markers -->
+    <g fill="#C9A84C" font-family="Helvetica, sans-serif" font-size="20" font-weight="800" text-anchor="middle">
+      <text x="0" y="-145">N</text>
+      <text x="75" y="6">E</text>
+      <text x="0" y="170">S</text>
+      <text x="-75" y="6">W</text>
+    </g>
+  </g>
+
+  <!-- EST 2026 -->
+  <text x="512" y="710" text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="700" font-size="28" fill="#C9A84C"
+        letter-spacing="10">
+    EST. 2026
+  </text>
+</svg>

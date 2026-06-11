@@ -1815,3 +1815,26 @@ section.globe-section #globe-canvas {
     animation: none;
   }
 }
+
+/* ── Editorial sources list ─────────────────────────────────────────────── */
+.article-sources {
+  list-style: none;
+  padding: 24px 28px;
+  margin: 28px 0;
+  background: var(--surface-soft);
+  border-left: 3px solid var(--gold);
+  border-radius: 8px;
+  font-size: 0.93rem;
+  line-height: 1.75;
+  color: #475569;
+}
+.article-sources li {
+  margin: 0 0 10px;
+  padding-left: 0;
+  position: relative;
+}
+.article-sources li:last-child { margin-bottom: 0; }
+.article-sources em {
+  color: var(--navy);
+  font-style: italic;
+}

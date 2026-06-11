@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Travel Now Logo B: Editorial Monogram -->
+  <!-- Premium magazine / publisher aesthetic -->
+
+  <!-- Background: warm cream -->
+  <rect width="1024" height="1024" rx="200" fill="#F6F2EA"/>
+
+  <!-- Outer frame (double line, editorial style) -->
+  <rect x="72" y="72" width="880" height="880" rx="180" fill="none" stroke="#172033" stroke-width="6"/>
+  <rect x="92" y="92" width="840" height="840" rx="160" fill="none" stroke="#172033" stroke-width="1.5"/>
+
+  <!-- Top decoration: VOL. badge -->
+  <g transform="translate(512, 200)">
+    <line x1="-80" y1="0" x2="-25" y2="0" stroke="#C9A84C" stroke-width="2"/>
+    <text x="0" y="8" text-anchor="middle"
+          font-family="Helvetica, Arial, sans-serif"
+          font-weight="800" font-size="22" fill="#C9A84C"
+          letter-spacing="8">SINCE 2026</text>
+    <line x1="25" y1="0" x2="80" y2="0" stroke="#C9A84C" stroke-width="2"/>
+  </g>
+
+  <!-- TN Monogram (large, serif, overlapping) -->
+  <g transform="translate(512, 540)">
+    <!-- T -->
+    <text x="-118" y="0" text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-weight="700" font-size="500" fill="#172033"
+          letter-spacing="-40">T</text>
+
+    <!-- N -->
+    <text x="138" y="0" text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-weight="700" font-size="500" fill="#172033"
+          letter-spacing="-40">N</text>
+
+    <!-- Gold dot connecting them (small but powerful) -->
+    <circle cx="10" cy="-80" r="14" fill="#C9A84C"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="512" y="800" text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="900" font-size="68" fill="#172033"
+        letter-spacing="28">
+    TRAVEL NOW
+  </text>
+
+  <!-- Bottom tagline -->
+  <text x="512" y="868" text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="600" font-size="22" fill="#C9A84C"
+        letter-spacing="14">
+    SMARTER · TRAVEL · PREP
+  </text>
+</svg>
