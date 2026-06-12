@@ -1,241 +1,271 @@
-﻿topic,category,hook,post_text,cta,score,status
-Airport Security Liquids,Carry-on,Avoid security delays at the airport.,"Before you fly with carry-on liquids:
+﻿topic,category,hook,post_text,cta,score,status,type
+Document backup strategy,Safety,Losing important documents abroad can complicate your trip.,"Losing important documents abroad can complicate your trip.
 
-1. Use containers 100ml (3.4 oz) or less.
-2. Place them in one transparent, quart-sized bag.
-3. One bag per passenger.
-4. Have it ready for inspection.
+Before you go:
+1. Keep digital copies on your phone & cloud
+2. Print a physical copy (passport, visa)
+3. Share copies with a trusted contact
+4. Note down emergency contacts
 
-Smooth through security.",no CTA,9,draft
-Public Wi-Fi Safety,"VPN, Safety",Browsing on public Wi-Fi? Consider basic privacy habits.,"To keep your data more secure:
+Simple steps for a smoother recovery.",no CTA,9,draft,safety
+Avoiding common tourist scams,Safety,Don't let common scams spoil your trip.,"Don't let common scams spoil your trip.
 
-1. Use a VPN for sensitive tasks.
-2. Avoid banking or shopping on public networks.
-3. Turn off auto-connect to Wi-Fi.
-4. Keep your software updated.
+Stay alert by:
+1. Researching local scams before you go
+2. Being wary of overly helpful strangers
+3. Keeping valuables secure & out of sight
+4. Trusting your gut feeling
 
-Safer connections on the go.",no CTA,9,draft
-Checking Roaming Settings,"Phone, eSIM",Using your phone abroad without an eSIM?,"Double-check roaming settings to avoid bill shock:
+Travel smarter, travel safer.",no CTA,9,draft,mistake
+Pre-flight phone roaming settings,eSIM,A huge phone bill after your trip is a painful surprise.,"A huge phone bill after your trip is a painful surprise.
 
-1. Confirm your carrier's international plans.
-2. Know data roaming charges.
-3. Turn off data roaming until needed.
-4. Use Wi-Fi whenever possible.
+Before you fly:
+1. Check your home plan's international roaming
+2. Turn off data roaming if using an eSIM/local SIM
+3. Disable auto-updates on apps
+4. Use Wi-Fi whenever possible
 
-Control your phone bill abroad.",no CTA,9,draft
-Screenshotting Travel Itinerary,Documents,What if your data drops or Wi-Fi is unavailable?,"Ensure offline access to your schedule:
+Control your data costs abroad.",no CTA,9,draft,eSIM
+Carry-on weight limits and fees,Carry-on,Avoid unexpected baggage fees at the airport.,"Avoid unexpected baggage fees at the airport.
 
-1. Screenshot flight/train tickets.
-2. Save hotel booking confirmations.
-3. Take photos of tour vouchers.
-4. Download offline maps of key areas.
+Before you fly, check:
+1. Your airline's specific carry-on weight limit
+2. Dimensions for both carry-on & personal item
+3. Potential costs for exceeding limits
+4. Invest in a portable luggage scale
 
-Always have your info at hand.",no CTA,9,draft
-Luggage Tag & Identification,"Packing, Safety",Lost luggage can happen. Make it easy to return.,"Clear identification for your bags:
+Pack smart, save money.",no CTA,9,draft,mistake
+Packing a 'first night' carry-on,Packing,Delayed luggage is less stressful with a 'first night' bag.,"Delayed luggage is less stressful with a 'first night' bag.
 
-1. Use durable luggage tags with contact info.
-2. Place a copy of your itinerary inside your bag.
-3. Choose a distinctive luggage strap or cover.
-4. Take a photo of your checked bag.
+In your carry-on, pack:
+1. Essential toiletries & small towel
+2. One change of clothes
+3. Any vital medications
+4. Chargers for phone/devices
 
-Help your bag find its way back.",Building a simple travel setup checklist.,9,draft
-Document Backup,"Documents, Safety",Losing travel documents is a major setback.,"Prepare digital and physical backups:
+Be ready for anything.",no CTA,9,draft,packing
+Offline map preparation,eSIM,Getting lost without data is a common travel mistake.,"Getting lost without data is a common travel mistake.
 
-1. Take photos of passport, visa, tickets.
-2. Email copies to yourself or a trusted contact.
-3. Keep printed copies separate from originals.
-4. Note emergency contact numbers.
+Before you land:
+1. Download offline maps for your destination
+2. Pin key locations (hotel, attractions)
+3. Screenshot walking/transit directions
+4. Have a physical map as backup
 
-Small effort, big peace of mind.",no CTA,9,draft
-Medication Preparation,"Health, Documents",Traveling with prescription medication?,"Essential steps for meds abroad:
+Navigate confidently, even offline.",no CTA,9,draft,eSIM
+Financial preparation for extended travel,Safety,Planning an extended trip? Don't forget financial prep.,"Planning an extended trip? Don't forget financial prep.
 
-1. Keep meds in original containers.
-2. Carry a copy of your prescription.
-3. Check destination country import rules.
-4. Pack them in your carry-on bag.
+Before you go:
+1. Notify your bank of travel dates
+2. Set up bill pay for recurring expenses
+3. Review your budget for the trip duration
+4. Have a backup payment method
 
-Travel healthy, travel prepared.",no CTA,9,draft
-Bank/Credit Card Travel Notice,Money,Avoid card issues while traveling abroad.,"Before you leave, notify your bank and credit card companies:
+Travel with financial peace of mind.",no CTA,9,draft,safety
+Understanding travel insurance policies,Insurance,Travel insurance offers a safety net for unexpected events.,"Travel insurance offers a safety net for unexpected events.
 
-1. Inform them of your travel dates.
-2. List your destination countries.
-3. Confirm international transaction fees.
-4. Ask about emergency contact numbers.
+Before you fly, check:
+1. What medical emergencies are covered
+2. Details on trip cancellation/interruption
+3. Baggage loss/delay clauses
+4. Any exclusions or excesses
 
-Uninterrupted access to your funds.",no CTA,9,draft
-Travel Insurance Review,Insurance,Understanding your travel insurance.,"Before your trip, review your policy details:
+Travel with greater confidence.",no CTA,9,draft,safety
+Public Wi-Fi safety habits,VPN,Using public Wi-Fi can expose your data.,"Using public Wi-Fi can expose your data.
 
-1. Check medical coverage and limits.
-2. Understand cancellation and delay clauses.
-3. Note emergency contact numbers.
-4. Know the claims process.
+Before you connect:
+1. Avoid banking/sensitive transactions
+2. Check for official network names
+3. Turn off auto-connect
+4. Use a VPN for safer browsing
 
-Travel with awareness.",no CTA,9,draft
-Pre-booking Airport Transport,Airport,Heading to the airport? Streamline your journey.,"Consider pre-booking your transport:
+Protect your privacy while traveling.",Consider a travel VPN for added security.,9,draft,tool_cta
+Compact travel camera gear,Camera Gear,Capture amazing memories without carrying a heavy camera bag.,"Capture amazing memories without carrying a heavy camera bag.
 
-1. Reserve airport parking in advance.
-2. Book a taxi or shuttle service.
-3. Check public transport schedules.
-4. Arrange a friend for a ride.
+For lighter travel:
+1. Consider a mirrorless camera or phone
+2. Pack one versatile lens
+3. Bring a compact tripod/selfie stick
+4. Use spare batteries & SD cards
 
-Start your trip relaxed.",Full setup checklist coming soon.,8,draft
-Small First Aid Kit,"Health, Packing",Small scrapes and headaches can happen anywhere.,"Pack a basic personal first aid kit:
+Memories, made easy.",Explore compact camera gear options for your next trip.,8,draft,tool_cta
+Smart packing for unpredictable weather,Packing,Packing for unpredictable weather can be a challenge.,"Packing for unpredictable weather can be a challenge.
 
-1. Pain relievers (e.g., ibuprofen).
-2. Band-aids and antiseptic wipes.
-3. Allergy medication (if applicable).
-4. Any personal necessary items.
+Consider these tips:
+1. Pack versatile layers (base, mid, outer)
+2. Bring quick-dry fabrics
+3. Include a compact umbrella/rain jacket
+4. Choose waterproof shoes
 
-Be prepared for minor issues.",no CTA,8,draft
-Small Local Cash,Money,Arriving with some local cash can be very useful.,"Benefits of having small bills on arrival:
+Be ready for any forecast.",no CTA,8,draft,packing
+Airport to hotel transportation research,Hotels,Your arrival at a new airport can be smooth or stressful.,"Your arrival at a new airport can be smooth or stressful.
 
-1. For immediate transport or snacks.
-2. Local markets or small vendors.
-3. Tips for service staff.
-4. Backup if cards aren't accepted.
+Research ground transport options:
+1. Pre-book reliable airport transfers
+2. Understand local taxi/rideshare apps
+3. Check public transport routes & times
+4. Confirm costs before you commit
 
-Smoother transitions from airport to destination.",no CTA,8,draft
-Jet Lag Mitigation,"Health, Flight Comfort",Reducing the impact of jet lag.,"Simple steps for adjusting to a new time zone:
+Seamless journey to your stay.",no CTA,8,draft,checklist
+Essential flight comfort packing,Packing,Transform a long flight into a comfortable journey.,"Transform a long flight into a comfortable journey.
 
-1. Adjust sleep schedule a few days prior.
-2. Stay hydrated during your flight.
-3. Try to sleep on the plane if it aligns.
-4. Get sunlight exposure on arrival.
+Pack these essentials:
+1. Noise-canceling headphones
+2. Travel pillow & eye mask
+3. Compression socks (may help circulation)
+4. Lip balm & hand cream
 
-Ease into your trip.",no CTA,8,draft
-Tour Booking Checks,Tours,Booking tours or excursions for your trip?,"Key details to confirm before booking:
+Arrive feeling more relaxed.",no CTA,8,draft,packing
+Hotel arrival checklist,Hotels,Make hotel check-in easy after a long journey.,"Make hotel check-in easy after a long journey.
 
-1. Read recent reviews.
-2. Check what's included and excluded.
-3. Confirm meeting point and time.
-4. Understand cancellation policy.
+Upon arrival:
+1. Have reservation details handy
+2. Keep your passport/ID ready
+3. Note down Wi-Fi password if provided
+4. Confirm payment method
 
-Enjoy worry-free experiences.",no CTA,8,draft
-Flight Status Monitoring,Airport,Stay updated on your flight for a less stressful airport day.,"Tools for monitoring flight changes:
+Smooth start to your stay.",no CTA,8,draft,checklist
+Booking tours and activities strategy,Tours,Finding the best tours can enhance your trip.,"Finding the best tours can enhance your trip.
 
-1. Check airline apps for real-time updates.
-2. Sign up for flight notification alerts.
-3. Monitor airport departure boards.
-4. Be aware of gate changes.
+When planning activities:
+1. Read recent reviews online
+2. Compare prices from different providers
+3. Check for cancellation policies
+4. Consider booking in advance for popular spots
 
-Stay informed, reduce stress.",Full setup checklist coming soon.,8,draft
-Transportation from Airport,Destination,Planning your airport exit for a smoother arrival.,"Consider your transport from the airport:
+Experience more, stress less.",Compare tour options for your destination.,8,draft,tool_cta
+Pre-adjusting for jet lag,Flight Comfort,Beat jet lag before your plane even takes off.,"Beat jet lag before your plane even takes off.
 
-1. Research reliable taxi services.
-2. Check ride-share app availability.
-3. Look up public transport routes.
-4. Pre-book private transfers if preferred.
+Gradually shift your schedule by:
+1. Adjusting sleep times a few days prior
+2. Staying hydrated on travel day
+3. Minimizing caffeine and alcohol
+4. Eating light, regular meals
 
-Seamless journey from flight to stay.",Full setup checklist coming soon.,8,draft
-Hotel Check-in Prep,"Hotels, Arrival","Arriving at your hotel smoothly, even without data.","Prepare your hotel info for arrival:
+Arrive feeling more refreshed.",no CTA,8,draft,flight_comfort
+Airport lounge access options,Flight Comfort,Relaxing at the airport can start before you fly.,"Relaxing at the airport can start before you fly.
 
-1. Screenshot your booking confirmation.
-2. Save the hotel address offline (map app).
-3. Note down the check-in time.
-4. Have a backup of the reservation number.
+Check for lounge access through:
+1. Your airline status
+2. Specific credit cards
+3. Independent lounge programs
+4. Day passes for purchase
 
-No data? No problem.",no CTA,8,draft
-Reviewing Hotel Area,"Hotels, Destination",Know your hotel surroundings before you arrive.,"Quick research for a smoother stay:
+Upgrade your wait time.",Find airport lounges available for your next flight.,8,draft,tool_cta
+Pre-trip accommodation confirmation,Hotels,Avoid arriving to unexpected hotel issues.,"Avoid arriving to unexpected hotel issues.
 
-1. Locate nearby transit options.
-2. Find local grocery stores or pharmacies.
-3. Identify safe walking routes.
-4. Check for restaurants or cafes.
+Before you depart:
+1. Reconfirm your reservation details
+2. Check for any recent policy changes
+3. Note down check-in/out times
+4. Confirm airport transfer details
 
-Feel more settled, faster.",no CTA,8,draft
-Airport Day Outfit,Flight Comfort,Dress for comfort and convenience on airport days.,"Consider these clothing choices:
+Smoother hotel arrival.",no CTA,8,draft,mistake
+Carry-on medication rules,Packing,Medications need special care in your carry-on.,"Medications need special care in your carry-on.
 
-1. Layers for temperature changes.
-2. Slip-on shoes for security checks.
-3. Comfortable, breathable fabrics.
-4. Pockets for easy access to essentials.
+Before you fly:
+1. Keep meds in original packaging
+2. Bring prescriptions/doctor's note
+3. Pack only what you need (plus extra)
+4. Check destination country's rules
 
-Smooth moves from check-in to gate.",Full setup checklist coming soon.,8,draft
-Pre-download Entertainment,Flight Comfort,Boredom on long journeys? Prepare ahead.,"Ensure you have offline entertainment:
+Stay prepared and healthy.",no CTA,8,draft,packing
+Local currency strategy,EDC,How much local currency should you carry?,"How much local currency should you carry?
 
-1. Download movies or shows to your device.
-2. Save podcasts or audiobooks.
-3. Download e-books or articles.
-4. Charge all devices fully.
+For day-to-day use:
+1. Keep small denominations for tips/taxis
+2. Use cards for larger purchases
+3. Withdraw from reputable ATMs
+4. Avoid carrying all your cash in one place
 
-Keep yourself entertained on the go.",no CTA,8,draft
-VPN for Privacy Habits,VPN,Browsing for travel information or booking deals?,"Consider a VPN for general privacy habits:
+Smart money, smoother travels.",no CTA,8,draft,checklist
+Universal power adapter selection,Power,Charging devices abroad requires the right adapter.,"Charging devices abroad requires the right adapter.
 
-1. Encrypts your internet connection.
-2. May help hide your IP address.
-3. Potentially offers safer browsing.
-4. Can be useful on unfamiliar networks.
+Before you pack:
+1. Check destination country's plug type
+2. Look for multi-port options
+3. Consider a compact, universal adapter
+4. Don't forget voltage converters if needed
 
-Safer digital steps for your trip.",no CTA,8,draft
-Flight Comfort Long Haul,Flight Comfort,Making long flights more bearable.,"For personal comfort on lengthy flights:
+Stay powered up, stress-free.",Find the best travel adapter for your trip.,8,draft,tool_cta
+Preparing for flight delays,Flight Comfort,"Flight delays can be frustrating, but you can be ready.","Flight delays can be frustrating, but you can be ready.
 
-1. Pack a comfortable neck pillow.
-2. Bring noise-reducing headphones.
-3. Wear compression socks.
-4. Keep a light scarf or blanket.
+Pack smart for the unexpected:
+1. Portable charger for devices
+2. Snacks & a reusable water bottle
+3. A good book or downloaded entertainment
+4. Important documents accessible
 
-Arrive feeling a bit more refreshed.",Building a simple travel setup checklist.,8,draft
-Power Adapter Prep,Power,Don't get caught without a way to charge abroad.,"Before you travel internationally:
+Turn waiting time into downtime.",no CTA,8,draft,mistake
+Pre-departure home security checks,Checklist,Leave home with peace of mind.,"Leave home with peace of mind.
 
-1. Check the plug type for your destination.
-2. Confirm voltage compatibility for your devices.
-3. Pack a universal adapter if needed.
-4. Bring a multi-port charger for convenience.
+Before you head to the airport:
+1. Lock all windows and doors
+2. Unplug non-essential electronics
+3. Set timers for lights if desired
+4. Check taps are off & no leaks
 
-Keep your devices powered up.",no CTA,8,draft
-Hydration During Travel,"Health, Flight Comfort",Staying hydrated while traveling can make a big difference.,"Simple tips for avoiding dehydration:
+Safe home, happy travels.",no CTA,8,draft,checklist
+International driving permit / car rental prep,Safety,Planning to drive on your trip? Prep is essential.,"Planning to drive on your trip? Prep is essential.
 
-1. Drink water before, during, and after flights.
-2. Avoid excessive caffeine and alcohol.
-3. Carry a reusable water bottle (empty through security).
-4. Sip regularly.
+Before you rent a car:
+1. Check if you need an International Driving Permit
+2. Understand local road rules & signs
+3. Review your insurance coverage
+4. Book reliable rental in advance
 
-Feel better, travel better.",Building a simple travel setup checklist.,7,draft
-Packing Cubes Benefits,Packing,Make packing and unpacking easier.,"How packing cubes can simplify your luggage:
+Drive confidently abroad.",no CTA,8,draft,safety
+Staying hydrated during flights,Flight Comfort,Combat dehydration and jet lag with simple hydration habits.,"Combat dehydration and jet lag with simple hydration habits.
 
-1. Organize clothes by type or outfit.
-2. Compress items, potentially saving space.
-3. Keep dirty laundry separate.
-4. Speed up finding what you need.
+Before, during, and after flight:
+1. Drink water, not just coffee/soda
+2. Carry a reusable water bottle
+3. Avoid excessive alcohol
+4. Moisturize your skin
 
-An organized suitcase is a happy suitcase.",no CTA,7,draft
-Food/Snack Prep Travel Day,"Flight Comfort, Packing",Stay energized on long travel days.,"Packing smart snacks for your journey:
+Feel better, travel stronger.",no CTA,7,draft,flight_comfort
+In-flight personal item essentials,Carry-on,Keep your flight essentials within arm's reach.,"Keep your flight essentials within arm's reach.
 
-1. Non-perishable items like nuts or granola bars.
-2. Fruit that travels well.
-3. Empty reusable water bottle.
-4. Avoid strong-smelling foods.
+In your personal item, include:
+1. Headphones & entertainment
+2. A charging cable
+3. Small snacks & a water bottle
+4. Travel pillow & eye mask
 
-Comfort food for the journey.",no CTA,7,draft
-Pre-Departure Home Checklist,Pre-trip preparation,Leaving home worries behind?,"A quick checklist before you lock the door:
+Comfort close by.",no CTA,7,draft,packing
+Pet travel preparation,Checklist,Traveling with your pet requires careful planning.,"Traveling with your pet requires careful planning.
 
-1. Unplug non-essential electronics.
-2. Adjust your thermostat.
-3. Empty trash cans.
-4. Arrange for mail or plant care.
+Before you book:
+1. Check airline pet policies
+2. Research destination entry requirements
+3. Get health certificates/vaccinations
+4. Ensure a comfortable carrier
 
-Home safe, mind at ease.",no CTA,7,draft
-Camera Gear Protection,Camera Gear,Protecting your camera gear while traveling.,"Simple methods to keep equipment safe:
+Safe travels for all family members.",no CTA,7,draft,checklist
+Comfortable flight clothing,Flight Comfort,What you wear on the plane impacts comfort.,"What you wear on the plane impacts comfort.
 
-1. Use padded inserts or bags.
-2. Keep camera body and lenses separated.
-3. Carry essentials in your personal item.
-4. Consider a waterproof cover.
+For a better flight:
+1. Choose loose, breathable fabrics
+2. Wear layers for temperature control
+3. Opt for comfortable shoes
+4. Bring a light scarf/shawl
 
-Keep your memories safe.",no CTA,7,draft
-Airport Lounge Access,Airport,Considering an airport lounge for your next trip?,"Check your options before you fly:
+Dress smart, fly easy.",no CTA,7,draft,flight_comfort
+Maximizing travel points and miles,Checklist,Don't let your hard-earned travel points expire.,"Don't let your hard-earned travel points expire.
 
-1. Review credit card benefits for lounge access.
-2. Look into memberships like Priority Pass.
-3. Check if your airline offers lounge access.
-4. Day passes may be an option.
+Before your next trip, check:
+1. Expiry dates for points/miles
+2. Any upcoming redemption promotions
+3. Best ways to maximize value
+4. Benefits of associated credit cards
 
-Relax before your flight.",no CTA,7,draft
-Basic Language Phrases,Destination,Basic phrases can go a long way in any destination.,"Learn a few local words before you go:
+Travel smarter with your rewards.",Track your travel points for better redemptions.,7,draft,tool_cta
+Benefits of shoulder season travel,Tours,Avoid peak season crowds and prices.,"Avoid peak season crowds and prices.
 
-1. ""Hello,"" ""Please,"" ""Thank you.""
-2. ""Excuse me,"" ""Sorry.""
-3. ""Yes,"" ""No.""
-4. ""Where is...?""
+Consider shoulder season travel for:
+1. Fewer tourists at attractions
+2. Often better accommodation rates
+3. More pleasant weather in many regions
+4. A more authentic local experience
 
-Shows respect, opens doors.",no CTA,7,draft
+Smoother, more enjoyable trips.",no CTA,7,draft,mistake

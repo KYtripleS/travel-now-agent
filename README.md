@@ -15,7 +15,7 @@ X account: https://x.com/TripWorldAdvice
 - Manages starter product ideas in CSV
 - Builds the website from product data
 - Generates long-form English Markdown drafts (Medium, Substack, note, site)
-- Generates Japanese note drafts for the series「会社員、AIでメディアを作る。」
+- Generates Japanese long-form drafts
 - Generates short-form video scripts for YouTube Shorts, Instagram Reels, and TikTok
 - Supports a one-command daily workflow
 
@@ -113,10 +113,10 @@ Each draft file (`threads_drafts/YYYY-MM-DD-{mode}.md`) contains:
 
 ### Modes
 
-| Mode | Language | Voice | CTA |
-|---|---|---|---|
-| `japanese_ai_media` | 日本語 | 20代会社員・夢追いチャレンジャー・軽い関西弁 | note記事・シリーズフォロー |
-| `travel_now` | English | Practical travel-prep friend | Checklist Generator |
+| Mode | Language | CTA |
+|---|---|---|
+| `mode_a` | 日本語 | long-form follow |
+| `travel_now` | English | Checklist Generator |
 
 ### Logging Threads activity
 

@@ -1,25 +1,28 @@
-﻿topic,category,hook,post_text,cta,score,status
-Airport Security Liquids,Carry-on,Avoid security delays at the airport.,"Before you fly with carry-on liquids:
+﻿slot,type,topic,category,hook,post_text,cta,score,status,reason,char_count
+morning,safety,Document backup strategy,Safety,Losing important documents abroad can complicate your trip.,"Losing important documents abroad can complicate your trip.
 
-1. Use containers 100ml (3.4 oz) or less.
-2. Place them in one transparent, quart-sized bag.
-3. One bag per passenger.
-4. Have it ready for inspection.
+Before you go:
+1. Keep digital copies on your phone & cloud
+2. Print a physical copy (passport, visa)
+3. Share copies with a trusted contact
+4. Note down emergency contacts
 
-Smooth through security.",no CTA,9,draft
-Public Wi-Fi Safety,"VPN, Safety",Browsing on public Wi-Fi? Consider basic privacy habits.,"To keep your data more secure:
+Simple steps for a smoother recovery.",no CTA,9,draft,Saveable prep checklist — performs well posted in the morning,272
+afternoon,mistake,Avoiding common tourist scams,Safety,Don't let common scams spoil your trip.,"Don't let common scams spoil your trip.
 
-1. Use a VPN for sensitive tasks.
-2. Avoid banking or shopping on public networks.
-3. Turn off auto-connect to Wi-Fi.
-4. Keep your software updated.
+Stay alert by:
+1. Researching local scams before you go
+2. Being wary of overly helpful strangers
+3. Keeping valuables secure & out of sight
+4. Trusting your gut feeling
 
-Safer connections on the go.",no CTA,9,draft
-Checking Roaming Settings,"Phone, eSIM",Using your phone abroad without an eSIM?,"Double-check roaming settings to avoid bill shock:
+Travel smarter, travel safer.",no CTA,9,draft,Mistake-avoidance / practical tip — high engagement midday,241
+evening,tool_cta,Public Wi-Fi safety habits,VPN,Using public Wi-Fi can expose your data.,"Using public Wi-Fi can expose your data.
 
-1. Confirm your carrier's international plans.
-2. Know data roaming charges.
-3. Turn off data roaming until needed.
-4. Use Wi-Fi whenever possible.
+Before you connect:
+1. Avoid banking/sensitive transactions
+2. Check for official network names
+3. Turn off auto-connect
+4. Use a VPN for safer browsing
 
-Control your phone bill abroad.",no CTA,9,draft
+Protect your privacy while traveling.",Consider a travel VPN for added security.,9,draft,Soft CTA post — evening readers more likely to click through,233

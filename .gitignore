@@ -3,3 +3,13 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# ── Private: persona / strategy / operational files (local only, not public) ──
+MOBILE_HANDOFF.md
+branding/ai-kaishain/
+branding/personal-account/
+note_drafts/
+threads_drafts/
+daily_status/
+affiliate_applications/
+data/monetization_log.csv
