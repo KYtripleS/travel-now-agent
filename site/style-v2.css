@@ -1839,6 +1839,44 @@ section.globe-section #globe-canvas {
   font-style: italic;
 }
 
+/* ── Article prep tables (Australia-style structured tables) ───────────── */
+.article .prep-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 22px 0;
+  font-size: 0.96rem;
+  background: var(--surface);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(23, 32, 51, 0.05);
+}
+.article .prep-table thead {
+  background: linear-gradient(135deg, var(--navy), var(--navy-2));
+  color: #fff;
+}
+.article .prep-table th {
+  text-align: left;
+  padding: 12px 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: 0.92rem;
+}
+.article .prep-table td {
+  padding: 12px 16px;
+  border-top: 1px solid var(--line);
+  color: #334155;
+  line-height: 1.6;
+  vertical-align: top;
+}
+.article .prep-table tbody tr:nth-child(even) {
+  background: var(--surface-soft);
+}
+@media (max-width: 720px) {
+  .article .prep-table { font-size: 0.88rem; }
+  .article .prep-table th,
+  .article .prep-table td { padding: 9px 11px; }
+}
+
 /* ── Country profile: 2-column layout with sticky professor companion ──── */
 .country-layout {
   display: grid;
