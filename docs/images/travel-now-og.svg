@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Travel Now Open Graph card · 1200x630 · v1 (regeneratable from this SVG) -->
+
+  <!-- Background: warm off-white -->
+  <rect width="1200" height="630" fill="#F6F2EA"/>
+
+  <!-- Subtle ambient gradient blobs -->
+  <circle cx="160" cy="120" r="220" fill="#C9A84C" opacity="0.06"/>
+  <circle cx="1080" cy="540" r="280" fill="#172033" opacity="0.04"/>
+  <circle cx="980" cy="120" r="160" fill="#C9A84C" opacity="0.05"/>
+
+  <!-- Decorative travel line crossing the card -->
+  <path d="M 60 460 Q 600 380 1140 460"
+        stroke="#C9A84C" stroke-width="2" fill="none"
+        stroke-dasharray="4 8" opacity="0.55"/>
+
+  <!-- Small plane silhouette on the line -->
+  <g transform="translate(840 410) rotate(-8)">
+    <path d="M 0 0 L 40 -3 L 50 -8 L 55 -3 L 50 2 L 40 -1 L 30 6 L 18 6 L 22 -1 L 8 -3 Z"
+          fill="#C9A84C" opacity="0.9"/>
+  </g>
+
+  <!-- Compass-checkmark mark in upper-left (echo of brand) -->
+  <g transform="translate(80 80)">
+    <circle cx="50" cy="50" r="48" fill="#172033"/>
+    <path d="M 24 52 L 42 70 L 76 32"
+          stroke="#C9A84C" stroke-width="9" fill="none"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Brand label -->
+  <text x="200" y="105"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="800" font-size="22"
+        letter-spacing="6"
+        fill="#C9A84C">TRAVEL NOW</text>
+  <text x="200" y="138"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="600" font-size="18"
+        letter-spacing="3"
+        fill="#647084">SMARTER TRAVEL PREP</text>
+
+  <!-- Main heading: large, dark navy, serif -->
+  <text x="80" y="290"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-weight="700" font-size="92"
+        fill="#172033">Travel Now</text>
+
+  <!-- Gold accent underline -->
+  <rect x="80" y="316" width="120" height="6" fill="#C9A84C"/>
+
+  <!-- Subtitle -->
+  <text x="80" y="400"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="500" font-size="36"
+        fill="#172033">Build your travel prep checklist</text>
+  <text x="80" y="448"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="500" font-size="36"
+        fill="#172033">before you fly.</text>
+
+  <!-- Visual elements row (bottom right cluster) -->
+  <g transform="translate(820 200)">
+    <!-- Passport -->
+    <g transform="translate(0 0)">
+      <rect x="0" y="0" width="120" height="160" rx="10" fill="#172033"/>
+      <rect x="10" y="10" width="100" height="140" rx="6" fill="none" stroke="#C9A84C" stroke-width="2" opacity="0.5"/>
+      <circle cx="60" cy="60" r="22" fill="none" stroke="#C9A84C" stroke-width="3"/>
+      <text x="60" y="115" text-anchor="middle"
+            font-family="Helvetica, Arial, sans-serif"
+            font-weight="800" font-size="12" letter-spacing="2"
+            fill="#C9A84C">PASSPORT</text>
+    </g>
+
+    <!-- Phone with eSIM -->
+    <g transform="translate(150 12)">
+      <rect x="0" y="0" width="80" height="140" rx="14" fill="#172033"/>
+      <rect x="6" y="14" width="68" height="100" rx="4" fill="#FBF7EF"/>
+      <text x="40" y="50" text-anchor="middle"
+            font-family="Helvetica, Arial, sans-serif"
+            font-weight="800" font-size="14"
+            fill="#C9A84C">eSIM</text>
+      <line x1="20" y1="68" x2="60" y2="68" stroke="#172033" stroke-width="2" opacity="0.4"/>
+      <line x1="20" y1="80" x2="50" y2="80" stroke="#172033" stroke-width="2" opacity="0.3"/>
+      <line x1="20" y1="92" x2="55" y2="92" stroke="#172033" stroke-width="2" opacity="0.3"/>
+      <circle cx="40" cy="125" r="4" fill="#FBF7EF"/>
+    </g>
+
+    <!-- Checklist -->
+    <g transform="translate(0 195)">
+      <rect x="0" y="0" width="230" height="150" rx="10" fill="#FFFFFF" stroke="#C9A84C" stroke-width="2" opacity="0.85"/>
+      <!-- Checklist rows -->
+      <g transform="translate(18 24)">
+        <rect x="0" y="0" width="16" height="16" rx="3" fill="#C9A84C"/>
+        <path d="M 3 8 L 7 12 L 13 4" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <line x1="28" y1="9" x2="170" y2="9" stroke="#172033" stroke-width="2" opacity="0.7"/>
+      </g>
+      <g transform="translate(18 54)">
+        <rect x="0" y="0" width="16" height="16" rx="3" fill="#C9A84C"/>
+        <path d="M 3 8 L 7 12 L 13 4" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <line x1="28" y1="9" x2="155" y2="9" stroke="#172033" stroke-width="2" opacity="0.7"/>
+      </g>
+      <g transform="translate(18 84)">
+        <rect x="0" y="0" width="16" height="16" rx="3" fill="none" stroke="#172033" stroke-width="2" opacity="0.4"/>
+        <line x1="28" y1="9" x2="180" y2="9" stroke="#172033" stroke-width="2" opacity="0.35"/>
+      </g>
+      <g transform="translate(18 114)">
+        <rect x="0" y="0" width="16" height="16" rx="3" fill="none" stroke="#172033" stroke-width="2" opacity="0.4"/>
+        <line x1="28" y1="9" x2="140" y2="9" stroke="#172033" stroke-width="2" opacity="0.35"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer URL strip -->
+  <rect x="0" y="600" width="1200" height="30" fill="#172033"/>
+  <text x="80" y="620"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="700" font-size="14" letter-spacing="3"
+        fill="#C9A84C">KYTRIPLES.GITHUB.IO/TRAVEL-NOW-AGENT</text>
+  <text x="1120" y="620" text-anchor="end"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="600" font-size="14" letter-spacing="2"
+        fill="#FBF7EF" opacity="0.7">@TripWorldAdvice</text>
+</svg>
