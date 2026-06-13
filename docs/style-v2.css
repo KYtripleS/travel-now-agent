@@ -1839,6 +1839,38 @@ section.globe-section #globe-canvas {
   font-style: italic;
 }
 
+/* ── Country profile: practical "Travel prep for X" section ────────────── */
+.country-prep {
+  margin: 48px 0;
+  padding: clamp(24px, 4vw, 36px);
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-soft) 100%);
+  border-radius: 18px;
+  border: 1px solid var(--line);
+}
+.country-prep h2 {
+  margin: 0 0 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.4rem, 2.6vw, 1.7rem);
+  color: var(--navy);
+}
+.country-prep > p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #334155;
+}
+.country-prep .article-products {
+  margin: 22px 0 6px;
+}
+.country-prep ul {
+  padding-left: 1.2rem;
+  margin: 8px 0 14px;
+}
+.country-prep ul li {
+  margin: 6px 0;
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
 /* ── Article prep tables (Australia-style structured tables) ───────────── */
 .article .prep-table {
   width: 100%;
