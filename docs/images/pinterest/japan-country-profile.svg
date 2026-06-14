@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#172033;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d1421;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E5C76B;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1500" fill="url(#bgGrad)"/>
+
+  <!-- decorative dots -->
+  <g opacity="0.18" fill="#C9A84C">
+    <circle cx="120" cy="180" r="2"/>
+    <circle cx="850" cy="220" r="3"/>
+    <circle cx="200" cy="350" r="2"/>
+    <circle cx="780" cy="420" r="2"/>
+    <circle cx="100" cy="1280" r="2"/>
+    <circle cx="900" cy="1320" r="3"/>
+    <circle cx="150" cy="700" r="2"/>
+    <circle cx="880" cy="900" r="2"/>
+  </g>
+
+  <!-- Header: TRAVEL NOW -->
+  <text x="500" y="120" font-family="Georgia, serif" font-size="28" fill="#C9A84C" text-anchor="middle" letter-spacing="8">TRAVEL NOW</text>
+  <line x1="430" y1="145" x2="570" y2="145" stroke="#C9A84C" stroke-width="2"/>
+
+  <!-- Japan flag in circle -->
+  <circle cx="500" cy="350" r="160" fill="#F8F4E9" stroke="url(#goldGrad)" stroke-width="6"/>
+  <circle cx="500" cy="350" r="90" fill="#BC002D"/>
+
+  <!-- Massive title -->
+  <text x="500" y="650" font-family="Georgia, serif" font-size="160" font-weight="700" fill="#F8F4E9" text-anchor="middle" letter-spacing="-2">JAPAN</text>
+
+  <!-- Tagline -->
+  <text x="500" y="720" font-family="Georgia, serif" font-size="36" font-style="italic" fill="#C9A84C" text-anchor="middle">A traveler's 8-section guide</text>
+
+  <!-- Gold divider -->
+  <line x1="380" y1="780" x2="620" y2="780" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <!-- Bullet list with gold diamond markers -->
+  <g font-family="Georgia, serif" font-size="38" fill="#F8F4E9">
+    <!-- Diamond marker 1 -->
+    <polygon points="280,855 295,870 280,885 265,870" fill="url(#goldGrad)"/>
+    <text x="320" y="880">History &amp; geography</text>
+
+    <!-- Diamond marker 2 -->
+    <polygon points="280,920 295,935 280,950 265,935" fill="url(#goldGrad)"/>
+    <text x="320" y="945">Politics &amp; economy</text>
+
+    <!-- Diamond marker 3 -->
+    <polygon points="280,985 295,1000 280,1015 265,1000" fill="url(#goldGrad)"/>
+    <text x="320" y="1010">Society &amp; culture</text>
+
+    <!-- Diamond marker 4 -->
+    <polygon points="280,1050 295,1065 280,1080 265,1065" fill="url(#goldGrad)"/>
+    <text x="320" y="1075">Travel prep checklist</text>
+  </g>
+
+  <!-- Bottom gold divider -->
+  <line x1="380" y1="1150" x2="620" y2="1150" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <!-- CTA pill button -->
+  <rect x="250" y="1200" width="500" height="100" rx="50" fill="url(#goldGrad)"/>
+  <text x="500" y="1262" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#172033" text-anchor="middle">Read the full profile →</text>
+
+  <!-- URL hint at bottom -->
+  <text x="500" y="1410" font-family="Georgia, serif" font-size="24" fill="#8a96aa" text-anchor="middle">travelnow • countries/japan</text>
+</svg>

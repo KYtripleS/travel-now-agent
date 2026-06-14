@@ -79,6 +79,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://kytriples.github.io/travel-now-agent/privacy.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://kytriples.github.io/travel-now-agent/countries/japan/</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
