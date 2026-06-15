@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#172033;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d1421;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E5C76B;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="lanternGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9A1A20;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7A0E14;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1500" fill="url(#bgGrad)"/>
+
+  <g opacity="0.18" fill="#C9A84C">
+    <circle cx="120" cy="180" r="2"/>
+    <circle cx="850" cy="220" r="3"/>
+    <circle cx="200" cy="350" r="2"/>
+    <circle cx="780" cy="420" r="2"/>
+    <circle cx="100" cy="1280" r="2"/>
+    <circle cx="900" cy="1320" r="3"/>
+    <circle cx="150" cy="700" r="2"/>
+    <circle cx="880" cy="900" r="2"/>
+  </g>
+
+  <text x="500" y="120" font-family="Georgia, serif" font-size="28" fill="#C9A84C" text-anchor="middle" letter-spacing="8">TRAVEL NOW</text>
+  <line x1="430" y1="145" x2="570" y2="145" stroke="#C9A84C" stroke-width="2"/>
+
+  <!-- Cream medallion -->
+  <circle cx="500" cy="350" r="160" fill="#F8F4E9" stroke="url(#goldGrad)" stroke-width="6"/>
+
+  <!-- Asakusa: iconic red lantern (Kaminarimon chochin) -->
+  <g>
+    <!-- Top hanger cord -->
+    <rect x="497" y="220" width="6" height="30" fill="#3a2a18"/>
+    <!-- Top cap (smaller ellipse) -->
+    <ellipse cx="500" cy="252" rx="42" ry="10" fill="#3a2a18"/>
+    <!-- Lantern main body (oval) -->
+    <ellipse cx="500" cy="345" rx="68" ry="78" fill="url(#lanternGrad)"/>
+    <!-- Horizontal rib bands -->
+    <line x1="438" y1="320" x2="562" y2="320" stroke="#3a2a18" stroke-width="2"/>
+    <line x1="436" y1="345" x2="564" y2="345" stroke="#3a2a18" stroke-width="2"/>
+    <line x1="438" y1="370" x2="562" y2="370" stroke="#3a2a18" stroke-width="2"/>
+    <!-- Vertical center band (where character would be) -->
+    <rect x="488" y="280" width="24" height="125" fill="#3a2a18" opacity="0.4"/>
+    <!-- Bottom cap -->
+    <ellipse cx="500" cy="438" rx="42" ry="10" fill="#3a2a18"/>
+    <!-- Bottom tassel -->
+    <rect x="497" y="438" width="6" height="22" fill="#3a2a18"/>
+    <polygon points="490,460 510,460 500,475" fill="#3a2a18"/>
+  </g>
+
+  <text x="500" y="650" font-family="Georgia, serif" font-size="140" font-weight="700" fill="#F8F4E9" text-anchor="middle" letter-spacing="-2">ASAKUSA</text>
+
+  <text x="500" y="720" font-family="Georgia, serif" font-size="36" font-style="italic" fill="#C9A84C" text-anchor="middle">Tokyo's oldest district</text>
+
+  <line x1="380" y1="780" x2="620" y2="780" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <g font-family="Georgia, serif" font-size="38" fill="#F8F4E9">
+    <polygon points="280,855 295,870 280,885 265,870" fill="url(#goldGrad)"/>
+    <text x="320" y="880">Sensoji Temple history</text>
+
+    <polygon points="280,920 295,935 280,950 265,935" fill="url(#goldGrad)"/>
+    <text x="320" y="945">Nakamise Street market</text>
+
+    <polygon points="280,985 295,1000 280,1015 265,1000" fill="url(#goldGrad)"/>
+    <text x="320" y="1010">Best time to visit</text>
+
+    <polygon points="280,1050 295,1065 280,1080 265,1065" fill="url(#goldGrad)"/>
+    <text x="320" y="1075">What to wear &amp; bring</text>
+  </g>
+
+  <line x1="380" y1="1150" x2="620" y2="1150" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <rect x="250" y="1200" width="500" height="100" rx="50" fill="url(#goldGrad)"/>
+  <text x="500" y="1262" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#172033" text-anchor="middle">Read the full guide →</text>
+
+  <text x="500" y="1410" font-family="Georgia, serif" font-size="24" fill="#8a96aa" text-anchor="middle">travelnow • cities/tokyo/asakusa</text>
+</svg>
