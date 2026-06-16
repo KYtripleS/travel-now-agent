@@ -736,96 +736,96 @@ main {
 .impact-banner {
   position: relative;
   width: 100%;
-  height: clamp(440px, 62vh, 620px);
-  overflow: hidden;
+  min-height: clamp(560px, 72vh, 760px);
   margin: 0;
-  background: #172033;
-}
-.impact-banner-img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
-.impact-banner-overlay {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(23, 32, 51, 0.62) 0%,
-      rgba(23, 32, 51, 0.28) 38%,
-      rgba(23, 32, 51, 0.78) 100%
-    );
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 80px 24px;
+  box-sizing: border-box;
+  background-color: #172033;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(23, 32, 51, 0.55) 0%,
+      rgba(23, 32, 51, 0.25) 40%,
+      rgba(23, 32, 51, 0.78) 100%
+    ),
+    url("https://images.unsplash.com/photo-1488085061387-422e29b40080?w=2400&q=85&auto=format");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .impact-banner-content {
+  position: relative;
+  z-index: 2;
   text-align: center;
-  color: #ffffff;
-  padding: 0 24px;
-  max-width: 940px;
+  max-width: 1080px;
+  color: #ffffff !important;
 }
+.impact-banner-content * { color: inherit; }
 .impact-banner-eyebrow {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.88rem;
-  letter-spacing: 0.32em;
+  font-size: 1rem;
+  letter-spacing: 0.4em;
   text-transform: uppercase;
-  color: #E5C76B;
-  margin: 0 0 16px;
-  text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  color: #E5C76B !important;
+  margin: 0 0 24px;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.55);
 }
 .impact-banner-title {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2rem, 5.2vw, 3.8rem);
+  font-size: clamp(2.6rem, 6.8vw, 5.2rem);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.08;
   letter-spacing: -0.02em;
-  margin: 0 0 22px;
-  color: #ffffff;
-  text-shadow: 0 2px 22px rgba(0,0,0,0.45);
+  margin: 0 0 32px;
+  color: #ffffff !important;
+  text-shadow: 0 4px 28px rgba(0,0,0,0.65), 0 2px 10px rgba(0,0,0,0.45);
 }
 .impact-banner-sub {
   font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
-  font-size: clamp(1.02rem, 1.6vw, 1.28rem);
+  font-size: clamp(1.15rem, 1.9vw, 1.55rem);
   line-height: 1.55;
-  margin: 0 auto 28px;
-  max-width: 640px;
-  color: #f5e9d6;
-  text-shadow: 0 1px 10px rgba(0,0,0,0.4);
+  margin: 0 auto 36px;
+  max-width: 720px;
+  color: #f5e9d6 !important;
+  text-shadow: 0 2px 14px rgba(0,0,0,0.55);
 }
 .impact-banner-stats {
   display: inline-flex;
   align-items: baseline;
-  gap: 10px;
+  gap: 14px;
   flex-wrap: wrap;
   justify-content: center;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.96rem;
-  color: rgba(255,255,255,0.92);
-  text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.95) !important;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.55);
 }
 .impact-stat strong {
   display: inline-block;
-  margin-right: 4px;
-  color: #E5C76B;
-  font-size: 1.18rem;
+  margin-right: 6px;
+  color: #E5C76B !important;
+  font-size: 1.35rem;
   font-weight: 700;
 }
 .impact-stat-sep {
-  opacity: 0.5;
-  font-size: 1.1rem;
+  opacity: 0.55;
+  font-size: 1.15rem;
 }
 @media (max-width: 640px) {
-  .impact-banner { height: 420px; }
-  .impact-banner-stats { font-size: 0.85rem; gap: 6px; }
+  .impact-banner {
+    min-height: 480px;
+    padding: 60px 20px;
+  }
+  .impact-banner-stats {
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.95rem;
+  }
   .impact-stat-sep { display: none; }
-  .impact-stat { display: block; margin: 2px 0; }
 }
 
 /* Article figures (inline photos) ─────────────────────────────────── */
