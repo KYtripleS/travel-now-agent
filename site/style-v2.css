@@ -734,21 +734,24 @@ main {
 
 /* Article figures (inline photos) ─────────────────────────────────── */
 .article-figure {
-  margin: 36px 0;
+  margin: 28px auto;
   padding: 0;
+  max-width: 560px;
 }
 .article-figure img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(23, 32, 51, 0.12), 0 2px 6px rgba(23, 32, 51, 0.06);
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(23, 32, 51, 0.10), 0 1px 3px rgba(23, 32, 51, 0.05);
 }
 .article-figure figcaption {
-  margin-top: 12px;
+  margin-top: 10px;
   font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   line-height: 1.55;
   color: #64748b;
   text-align: center;
@@ -757,9 +760,9 @@ main {
   display: inline-block;
   margin-left: 6px;
   font-style: normal;
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   color: #94a3b8;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 .article-figure .photo-credit a {
@@ -769,12 +772,18 @@ main {
 }
 .article-figure .photo-credit a:hover { color: #475569; }
 
-/* Wider hero figure that breaks the article column */
+/* Wide variant: slightly larger but still constrained */
 .article-figure.figure-wide {
-  margin: 44px -8% 44px -8%;
+  max-width: 640px;
 }
-@media (max-width: 720px) {
-  .article-figure.figure-wide { margin-left: 0; margin-right: 0; }
+.article-figure.figure-wide img {
+  max-height: 360px;
+}
+
+@media (max-width: 640px) {
+  .article-figure,
+  .article-figure.figure-wide { max-width: 100%; }
+  .article-figure img { max-height: 240px; }
 }
 
 .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
