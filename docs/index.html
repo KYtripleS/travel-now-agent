@@ -75,17 +75,16 @@
 </head>
 <body>
 
-  <!-- ── Hero (unified: dramatic photo + aspirational copy + live tool) ── -->
+  <!-- ── Hero (full-bleed cinematic: massive photo + centered copy) ───── -->
   <header class="hero hero-cinematic">
     <div class="hero-inner">
-
-      <div class="hero-left">
+      <div class="hero-center">
         <p class="label">Travel Now</p>
-        <h1 class="hero-headline">Wherever the world takes you, go prepared.</h1>
+        <h1 class="hero-headline">Wherever the world<br/>takes you, go prepared.</h1>
         <p class="subtitle">
           Long-form country profiles, city guides, and practical travel-prep
           checklists — eSIM setup, carry-on packing, flight comfort — for
-          travellers who want depth, not clichés.
+          travellers who want depth, not clich&eacute;s.
         </p>
         <div class="buttons">
           <a href="checklist-generator.html" class="button hero-cta-primary" data-magnetic>Build My Checklist</a>
@@ -97,54 +96,69 @@
           <div class="stat"><span>Free</span>checklist tool</div>
         </div>
       </div>
-
-      <div class="hero-right">
-        <div class="hero-widget">
-          <div class="widget-chrome">
-            <span class="widget-dot"></span>
-            <span class="widget-dot"></span>
-            <span class="widget-dot"></span>
-            <span class="widget-title">Trip checklist preview</span>
-          </div>
-
-          <div class="chip-row" id="dest-chips">
-            <button class="chip active" data-group="dest" data-val="Tokyo">🗾 Tokyo</button>
-            <button class="chip"        data-group="dest" data-val="Bali">🌴 Bali</button>
-            <button class="chip"        data-group="dest" data-val="Lisbon">🏛 Lisbon</button>
-            <button class="chip"        data-group="dest" data-val="New York">🗽 New York</button>
-            <button class="chip"        data-group="dest" data-val="Paris">🗼 Paris</button>
-            <button class="chip"        data-group="dest" data-val="Bangkok">🛕 Bangkok</button>
-          </div>
-          <div class="chip-row" id="len-chips">
-            <button class="chip"        data-group="len" data-val="Weekend">Weekend</button>
-            <button class="chip active" data-group="len" data-val="1 week">1 week</button>
-            <button class="chip"        data-group="len" data-val="10 days">10 days</button>
-            <button class="chip"        data-group="len" data-val="2+ weeks">2+ weeks</button>
-          </div>
-          <div class="chip-row" id="style-chips">
-            <button class="chip active" data-group="style" data-val="City">🏙 City</button>
-            <button class="chip"        data-group="style" data-val="Beach">🏖 Beach</button>
-            <button class="chip"        data-group="style" data-val="Hiking">🏔 Hiking</button>
-            <button class="chip"        data-group="style" data-val="Foodie">🍜 Foodie</button>
-          </div>
-
-          <div class="mock-progress-wrap">
-            <div class="mock-progress-track">
-              <div class="mock-progress-fill" id="mock-fill"></div>
-            </div>
-            <p class="mock-progress-text">
-              <strong><span id="mock-done">0</span></strong> of <span id="mock-total">0</span> items checked
-            </p>
-          </div>
-
-          <div class="mock-items" id="mock-items"></div>
-
-          <a href="checklist-generator.html" class="button mock-cta" data-magnetic>Build My Full Checklist →</a>
-        </div>
-      </div>
-
+    </div>
+    <div class="hero-scroll-cue" aria-hidden="true">
+      <span class="scroll-cue-line"></span>
+      <span class="scroll-cue-label">Scroll</span>
     </div>
   </header>
+
+  <!-- ── Live checklist preview (moved out of hero for breathing room) ── -->
+  <section class="checklist-preview-section" id="checklist-preview" data-reveal>
+    <div class="checklist-preview-inner">
+      <div class="checklist-preview-intro">
+        <p class="label">Try the tool</p>
+        <h2>See your trip&rsquo;s checklist in three taps.</h2>
+        <p class="checklist-preview-lead">
+          Pick a destination, a length, and a style. We&rsquo;ll build a tailored
+          travel-prep checklist instantly &mdash; or open the full version for
+          deeper personalisation.
+        </p>
+      </div>
+      <div class="hero-widget hero-widget--standalone">
+        <div class="widget-chrome">
+          <span class="widget-dot"></span>
+          <span class="widget-dot"></span>
+          <span class="widget-dot"></span>
+          <span class="widget-title">Trip checklist preview</span>
+        </div>
+
+        <div class="chip-row" id="dest-chips">
+          <button class="chip active" data-group="dest" data-val="Tokyo">🗾 Tokyo</button>
+          <button class="chip"        data-group="dest" data-val="Bali">🌴 Bali</button>
+          <button class="chip"        data-group="dest" data-val="Lisbon">🏛 Lisbon</button>
+          <button class="chip"        data-group="dest" data-val="New York">🗽 New York</button>
+          <button class="chip"        data-group="dest" data-val="Paris">🗼 Paris</button>
+          <button class="chip"        data-group="dest" data-val="Bangkok">🛕 Bangkok</button>
+        </div>
+        <div class="chip-row" id="len-chips">
+          <button class="chip"        data-group="len" data-val="Weekend">Weekend</button>
+          <button class="chip active" data-group="len" data-val="1 week">1 week</button>
+          <button class="chip"        data-group="len" data-val="10 days">10 days</button>
+          <button class="chip"        data-group="len" data-val="2+ weeks">2+ weeks</button>
+        </div>
+        <div class="chip-row" id="style-chips">
+          <button class="chip active" data-group="style" data-val="City">🏙 City</button>
+          <button class="chip"        data-group="style" data-val="Beach">🏖 Beach</button>
+          <button class="chip"        data-group="style" data-val="Hiking">🏔 Hiking</button>
+          <button class="chip"        data-group="style" data-val="Foodie">🍜 Foodie</button>
+        </div>
+
+        <div class="mock-progress-wrap">
+          <div class="mock-progress-track">
+            <div class="mock-progress-fill" id="mock-fill"></div>
+          </div>
+          <p class="mock-progress-text">
+            <strong><span id="mock-done">0</span></strong> of <span id="mock-total">0</span> items checked
+          </p>
+        </div>
+
+        <div class="mock-items" id="mock-items"></div>
+
+        <a href="checklist-generator.html" class="button mock-cta" data-magnetic>Build My Full Checklist &rarr;</a>
+      </div>
+    </div>
+  </section>
 
   <!-- ── Main content ──────────────────────────────────────────────────── -->
   <main>
