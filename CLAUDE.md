@@ -149,9 +149,16 @@ cp site/images/pinterest/<name>.png docs/images/pinterest/<name>.png
 
 ## 🔄 Git workflow
 
-- **Never auto-commit.** Always show the diff and the exact commit command to the user;
-  the user runs it.
-- **Never auto-push.** Same rule.
+- **Auto-commit / auto-push allowed with per-batch OK confirmation.**
+  Default flow:
+  1. AI proposes a commit (and push target if applicable): summary of changes
+     + the commit message it will use.
+  2. AI asks a single yes/no question, e.g. `Commit and push? OK / NG`
+  3. **User replies `OK`** → AI runs `git commit` and `git push` itself.
+  4. **User replies `NG`** (or anything ambiguous / silent) → AI does NOT
+     proceed. User adjusts or commits manually.
+- The `OK` authorizes that ONE batch only. Each new batch needs a new OK.
+- **Never proceed without explicit `OK`.** Ambiguous replies count as NG.
 - **Never `--no-verify` / `--no-gpg-sign`** unless the user explicitly asks.
 - **Commit message style:** imperative, descriptive, includes the *why* not just the *what*.
   Multiple changes can be one commit if they belong together (e.g. "Add GA4 + privacy +
