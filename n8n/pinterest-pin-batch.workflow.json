@@ -1,0 +1,80 @@
+{
+  "name": "Travel Now — Pinterest pin batch",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "f0a1b2c3-0000-0000-0000-000000000001",
+      "name": "When clicked",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "language": "javaScript",
+        "jsCode": "// One item per pin. Edit, add, or remove freely.\n// To run a subset, comment out items or filter the returned array.\n// Tune pexelsQuery — specific proper nouns beat generic terms (e.g.\n// 'Vietnam Halong Bay rice terraces' >> 'Vietnam').\nconst pins = [\n  {\n    slug: 'japan-photo',\n    title: 'JAPAN',\n    tagline: \"A traveler's 8-section guide\",\n    bullet1: 'History & geography',\n    bullet2: 'Politics & economy',\n    bullet3: 'Society & culture',\n    bullet4: 'Travel prep checklist',\n    cta: 'Read the full profile →',\n    urlHint: 'travelnow • countries/japan',\n    pexelsQuery: 'Japan Kyoto temple sunrise',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/countries/japan/'\n  },\n  {\n    slug: 'vietnam-photo',\n    title: 'VIETNAM',\n    tagline: \"A traveler's country profile\",\n    bullet1: 'Geography & climate',\n    bullet2: 'Modern economy',\n    bullet3: 'Food & street culture',\n    bullet4: 'Travel prep checklist',\n    cta: 'Read the full profile →',\n    urlHint: 'travelnow • countries/vietnam',\n    pexelsQuery: 'Vietnam Halong Bay rice terraces',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/countries/vietnam/'\n  },\n  {\n    slug: 'australia-photo',\n    title: 'AUSTRALIA',\n    tagline: \"A layered country profile\",\n    bullet1: 'History & geography',\n    bullet2: 'Politics & economy',\n    bullet3: 'Society & culture',\n    bullet4: 'Travel prep checklist',\n    cta: 'Read the full profile →',\n    urlHint: 'travelnow • countries/australia',\n    pexelsQuery: 'Sydney Opera House harbor sunset',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/countries/australia/'\n  },\n  {\n    slug: 'tokyo-photo',\n    title: 'TOKYO',\n    tagline: \"A layered guide to the city\",\n    bullet1: 'History & neighborhoods',\n    bullet2: 'Modern districts',\n    bullet3: 'Food & culture',\n    bullet4: 'Practical prep',\n    cta: 'Read the full guide →',\n    urlHint: 'travelnow • cities/tokyo',\n    pexelsQuery: 'Tokyo Shibuya crossing neon night',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/cities/tokyo/'\n  },\n  {\n    slug: 'asakusa-photo',\n    title: 'ASAKUSA',\n    tagline: \"A historic Tokyo neighborhood guide\",\n    bullet1: 'Sensoji temple history',\n    bullet2: 'Edo-era streets',\n    bullet3: 'Practical visit tips',\n    bullet4: 'Nearby districts',\n    cta: 'Read the neighborhood guide →',\n    urlHint: 'travelnow • cities/tokyo/asakusa',\n    pexelsQuery: 'Asakusa Sensoji temple lantern Tokyo',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/cities/tokyo/asakusa.html'\n  },\n  {\n    slug: 'airport-liquids-photo',\n    title: '100 ML',\n    tagline: 'Airport security liquids made simple',\n    bullet1: '100ml rule basics',\n    bullet2: 'Clear plastic bag tips',\n    bullet3: 'Common rejections',\n    bullet4: 'Quick FAQ',\n    cta: 'Read the checklist →',\n    urlHint: 'travelnow • airport-security-liquids',\n    pexelsQuery: 'airport security carry-on bag tray check',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/articles/airport-security-liquids.html'\n  },\n  {\n    slug: 'carry-on-photo',\n    title: 'CARRY-ON',\n    tagline: 'Pack in the order security expects',\n    bullet1: 'Liquids on top',\n    bullet2: 'Laptop accessible',\n    bullet3: 'Passport in pocket',\n    bullet4: 'Charger logic',\n    cta: 'Read the prep guide →',\n    urlHint: 'travelnow • airport-security-packing',\n    pexelsQuery: 'airport security checkpoint x-ray belt',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/articles/airport-security-packing-moments.html'\n  },\n  {\n    slug: 'beach-photo',\n    title: 'BEACH',\n    tagline: 'What to pack for tropical destinations',\n    bullet1: 'Reef-safe sunscreen',\n    bullet2: 'Packable sun hats',\n    bullet3: 'Quick-dry towels',\n    bullet4: 'Forgotten essentials',\n    cta: 'Read the checklist →',\n    urlHint: 'travelnow • beach-trip-packing',\n    pexelsQuery: 'tropical beach palm trees turquoise water',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/articles/beach-trip-packing-checklist.html'\n  },\n  {\n    slug: 'boat-day-photo',\n    title: 'BOAT DAY',\n    tagline: 'Rent a boat without a sailing license',\n    bullet1: 'UK, Italy, France rules',\n    bullet2: 'Spain, Croatia, Greece',\n    bullet3: 'Platforms & costs',\n    bullet4: 'What to bring',\n    cta: 'Read the full guide →',\n    urlHint: 'travelnow • charter-a-boat-for-a-day',\n    pexelsQuery: 'Mediterranean sailing boat coast turquoise',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/articles/charter-a-boat-for-a-day.html'\n  },\n  {\n    slug: 'esim-photo',\n    title: 'eSIM',\n    tagline: 'International data, no SIM tray',\n    bullet1: 'Phone compatibility',\n    bullet2: 'Choosing a data plan',\n    bullet3: 'Offline backup tips',\n    bullet4: 'Pre-flight checklist',\n    cta: 'Read the setup guide →',\n    urlHint: 'travelnow • esim-activation',\n    pexelsQuery: 'smartphone airplane window seat travel',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/articles/esim-activation-and-preparation.html'\n  },\n  {\n    slug: 'travel-edc-photo',\n    title: 'TRAVEL EDC',\n    tagline: 'Pocket essentials for trip days',\n    bullet1: 'Power bank',\n    bullet2: 'Water bottle',\n    bullet3: 'Hand sanitizer',\n    bullet4: 'Small cash',\n    cta: 'Read the checklist →',\n    urlHint: 'travelnow • everyday-carry-essentials',\n    pexelsQuery: 'travel essentials flat lay backpack items',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/articles/everyday-carry-essentials-for-travel.html'\n  },\n  {\n    slug: 'hotels-photo',\n    title: 'HOTELS',\n    tagline: 'Which booking site for your trip',\n    bullet1: 'Hotels.com vs Booking',\n    bullet2: 'Trip.com & Agoda',\n    bullet3: 'HotelsCombined logic',\n    bullet4: 'Common booking mistakes',\n    cta: 'Read the comparison →',\n    urlHint: 'travelnow • hotel-booking-sites',\n    pexelsQuery: 'hotel lobby modern interior architecture',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/articles/hotel-booking-sites-comparison.html'\n  },\n  {\n    slug: 'untranslatable-photo',\n    title: '14 WORDS',\n    tagline: 'Concepts that resist translation',\n    bullet1: 'Saudade, Hygge, Wabi-sabi',\n    bullet2: 'Why they resist English',\n    bullet3: 'What linguists say',\n    bullet4: 'What travelers take home',\n    cta: 'Read the full essay →',\n    urlHint: 'travelnow • untranslatable-words',\n    pexelsQuery: 'open old book library window light',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/articles/untranslatable-words.html'\n  },\n  {\n    slug: 'etiquette-photo',\n    title: 'ETIQUETTE',\n    tagline: 'Cultural rules across 12 countries',\n    bullet1: 'Face & politeness theory',\n    bullet2: 'Greeting conventions',\n    bullet3: 'Dining manners',\n    bullet4: 'Public space norms',\n    cta: 'Read the cultural guide →',\n    urlHint: 'travelnow • what-counts-as-rude',\n    pexelsQuery: 'Tokyo street pedestrians morning commute',\n    siteUrl: 'https://kytriples.github.io/travel-now-agent/articles/what-counts-as-rude.html'\n  }\n];\nreturn pins.map(json => ({ json }));"
+      },
+      "id": "f0a1b2c3-0000-0000-0000-000000000002",
+      "name": "Pin specs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8765/generate-pin",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json) }}",
+        "options": {
+          "timeout": 60000
+        }
+      },
+      "id": "f0a1b2c3-0000-0000-0000-000000000003",
+      "name": "Render pin",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [680, 300],
+      "notesInFlow": true,
+      "notes": "Calls local pin_server.py (started separately: `python3 pin_server.py`). Server invokes generate_pin.py, which uses PEXELS_API_KEY from .env."
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.pinterest.com/v5/pins",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"board_id\": \"YOUR_BOARD_ID_HERE\",\n  \"link\": \"{{ $json.siteUrl }}\",\n  \"title\": \"{{ $json.title }} — Travel Now\",\n  \"description\": \"{{ $json.tagline }}\",\n  \"media_source\": {\n    \"source_type\": \"image_url\",\n    \"url\": \"https://kytriples.github.io/travel-now-agent/images/pinterest/{{ $json.slug }}.png\"\n  }\n}",
+        "options": {}
+      },
+      "id": "f0a1b2c3-0000-0000-0000-000000000004",
+      "name": "Post to Pinterest (disabled)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [900, 300],
+      "disabled": true,
+      "notesInFlow": true,
+      "notes": "Enable after:\n1) Pinterest Developer app approved → Bearer token saved as Header Auth credential\n2) PNGs are committed + pushed (so GitHub Pages serves them publicly)\n3) Replace YOUR_BOARD_ID_HERE with your actual board id"
+    }
+  ],
+  "connections": {
+    "When clicked": {
+      "main": [[{ "node": "Pin specs", "type": "main", "index": 0 }]]
+    },
+    "Pin specs": {
+      "main": [[{ "node": "Render pin", "type": "main", "index": 0 }]]
+    },
+    "Render pin": {
+      "main": [[{ "node": "Post to Pinterest (disabled)", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": { "executionOrder": "v1" },
+  "active": false,
+  "pinData": {},
+  "versionId": "",
+  "id": "travel-now-pin-batch",
+  "tags": []
+}

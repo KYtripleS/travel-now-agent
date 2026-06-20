@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="overlayGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#172033;stop-opacity:0.88"/>
+      <stop offset="32%" style="stop-color:#172033;stop-opacity:0.40"/>
+      <stop offset="60%" style="stop-color:#172033;stop-opacity:0.55"/>
+      <stop offset="100%" style="stop-color:#0d1421;stop-opacity:0.94"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E5C76B;stop-opacity:1"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="1000" height="1500"/>
+    </clipPath>
+  </defs>
+
+  <!-- Photo background -->
+  <g clip-path="url(#frame)">
+    <image xlink:href="{{PHOTO_HREF}}" x="0" y="0" width="1000" height="1500" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+
+  <!-- Dark overlay for legibility -->
+  <rect width="1000" height="1500" fill="url(#overlayGrad)"/>
+
+  <!-- Decorative dots -->
+  <g opacity="0.22" fill="#C9A84C">
+    <circle cx="120" cy="180" r="2"/>
+    <circle cx="850" cy="220" r="3"/>
+    <circle cx="100" cy="1280" r="2"/>
+    <circle cx="900" cy="1320" r="3"/>
+  </g>
+
+  <!-- Header: TRAVEL NOW -->
+  <text x="500" y="105" font-family="Georgia, serif" font-size="28" fill="#C9A84C" text-anchor="middle" letter-spacing="8">TRAVEL NOW</text>
+  <line x1="430" y1="130" x2="570" y2="130" stroke="#C9A84C" stroke-width="2"/>
+
+  <!-- Massive title -->
+  <text x="500" y="690" font-family="Georgia, serif" font-size="{{TITLE_SIZE}}" font-weight="700" fill="#F8F4E9" text-anchor="middle" letter-spacing="-2">{{TITLE}}</text>
+
+  <!-- Tagline -->
+  <text x="500" y="760" font-family="Georgia, serif" font-size="36" font-style="italic" fill="#C9A84C" text-anchor="middle">{{TAGLINE}}</text>
+
+  <!-- Gold divider -->
+  <line x1="380" y1="820" x2="620" y2="820" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <!-- Bullets with diamond markers -->
+  <g font-family="Georgia, serif" font-size="38" fill="#F8F4E9">
+    <polygon points="280,895 295,910 280,925 265,910" fill="url(#goldGrad)"/>
+    <text x="320" y="920">{{BULLET1}}</text>
+
+    <polygon points="280,960 295,975 280,990 265,975" fill="url(#goldGrad)"/>
+    <text x="320" y="985">{{BULLET2}}</text>
+
+    <polygon points="280,1025 295,1040 280,1055 265,1040" fill="url(#goldGrad)"/>
+    <text x="320" y="1050">{{BULLET3}}</text>
+
+    <polygon points="280,1090 295,1105 280,1120 265,1105" fill="url(#goldGrad)"/>
+    <text x="320" y="1115">{{BULLET4}}</text>
+  </g>
+
+  <!-- Bottom gold divider -->
+  <line x1="380" y1="1180" x2="620" y2="1180" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <!-- CTA pill -->
+  <rect x="250" y="1230" width="500" height="100" rx="50" fill="url(#goldGrad)"/>
+  <text x="500" y="1292" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#172033" text-anchor="middle">{{CTA}}</text>
+
+  <!-- URL hint -->
+  <text x="500" y="1430" font-family="Georgia, serif" font-size="24" fill="#F8F4E9" text-anchor="middle" opacity="0.85">{{URL_HINT}}</text>
+</svg>
