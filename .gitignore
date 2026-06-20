@@ -3,6 +3,7 @@
 __pycache__/
 *.pyc
 .DS_Store
+.claude/
 
 # ── Private: persona / strategy / operational files (local only, not public) ──
 MOBILE_HANDOFF.md
