@@ -1632,32 +1632,23 @@ footer p { margin: 0; }
 /* ── Plan-your-trip hub (Booking.com-inspired interactive search) ─────── */
 .plan-hub {
   position: relative;
+  max-width: 1160px;
   margin: 56px auto 0;
-  padding: clamp(36px, 6vw, 64px) clamp(20px, 4vw, 48px);
+  padding: clamp(40px, 6vw, 72px) clamp(24px, 4vw, 56px);
   border-radius: var(--radius-lg);
-  overflow: hidden;
-  isolation: isolate;
-}
-.plan-hub::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -2;
-  background: linear-gradient(135deg, #FBF4E6 0%, #F8E8D4 50%, #F4DCC0 100%);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(201, 168, 76, 0.22), transparent 55%),
+    radial-gradient(circle at 0% 100%, rgba(23, 32, 51, 0.06), transparent 60%),
+    linear-gradient(135deg, #FBF4E6 0%, #F8E8D4 50%, #F4DCC0 100%);
   border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
+  box-shadow: 0 24px 48px -24px rgba(23, 32, 51, 0.18);
+  overflow: hidden;
 }
-.plan-hub::after {
-  content: "";
-  position: absolute;
-  top: -120px;
-  right: -120px;
-  width: 380px;
-  height: 380px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(201, 168, 76, 0.20), transparent 70%);
-  pointer-events: none;
-  z-index: -1;
+@media (max-width: 1208px) {
+  .plan-hub {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
 }
 
 .plan-hub-header {
@@ -1692,11 +1683,13 @@ footer p { margin: 0; }
 .plan-hub-widget {
   max-width: 880px;
   margin: 0 auto;
-  background: var(--surface);
+  background: #ffffff;
   border-radius: 22px;
-  padding: clamp(22px, 3vw, 36px);
-  box-shadow: 0 28px 70px -22px rgba(23, 32, 51, 0.22),
-              0 6px 18px rgba(23, 32, 51, 0.06);
+  padding: clamp(24px, 3vw, 40px);
+  box-shadow: 0 32px 80px -24px rgba(23, 32, 51, 0.28),
+              0 8px 22px rgba(23, 32, 51, 0.08),
+              inset 0 1px 0 rgba(255, 255, 255, 1);
+  border: 1px solid rgba(23, 32, 51, 0.06);
 }
 
 .plan-row {
