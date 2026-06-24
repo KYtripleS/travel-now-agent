@@ -1629,6 +1629,61 @@ footer p { margin: 0; }
   color: var(--navy);
 }
 
+/* ── Citation marks + researcher notes (Nikkei-style footnotes) ────────── */
+.citation-mark {
+  font-size: 0.65em;
+  font-weight: 700;
+  margin-left: 1px;
+  vertical-align: super;
+  line-height: 0;
+}
+.citation-mark a {
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: none;
+}
+.citation-mark a:hover {
+  color: var(--navy);
+}
+.researcher-notes {
+  margin: 48px 0 32px;
+  padding: 24px 28px;
+  background: var(--surface-soft);
+  border-left: 3px solid var(--gold);
+  border-radius: 6px;
+}
+.researcher-notes h2 {
+  margin: 0 0 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  color: var(--navy);
+}
+.researcher-notes-intro {
+  margin: 0 0 14px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-style: italic;
+}
+.researcher-notes-list {
+  margin: 0;
+  padding-left: 22px;
+  color: #475569;
+}
+.researcher-notes-list li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  scroll-margin-top: 80px;
+}
+.researcher-notes-list li:target {
+  background: rgba(201, 168, 76, 0.08);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.researcher-notes-list li em {
+  font-style: italic;
+}
+
 /* ── Article carousel (BOJ-style image slider) ─────────────────────────── */
 .article-carousel {
   margin-top: 56px;

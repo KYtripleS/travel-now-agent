@@ -181,7 +181,7 @@ def insert_photos(article_md: str) -> tuple[str, list[dict]]:
             return f"<!-- PHOTO MISSING (no Pexels result) for query: {query} -->"
         credits.append(photo)
         return (
-            f'\n<figure class="article-photo">\n'
+            f'\n<figure class="article-figure">\n'
             f'  <img src="{photo["url"]}" alt="{query}" loading="lazy" />\n'
             f'  <figcaption>Photo by '
             f'<a href="{photo["photographer_url"]}" rel="noopener nofollow">{photo["photographer"]}</a> '
