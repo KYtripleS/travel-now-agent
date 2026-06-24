@@ -225,26 +225,20 @@
       </div>
     </section>
 
-  <!-- ── Live checklist preview (moved out of hero for breathing room) ── -->
-  <section class="checklist-preview-section" id="checklist-preview" data-reveal>
-    <div class="checklist-preview-inner">
-      <div class="checklist-preview-intro">
-        <p class="label">Try the tool</p>
-        <h2>See your trip&rsquo;s checklist in three taps.</h2>
-        <p class="checklist-preview-lead">
-          Pick a destination, a length, and a style. We&rsquo;ll build a tailored
-          travel-prep checklist instantly &mdash; or open the full version for
-          deeper personalisation.
-        </p>
-      </div>
-      <div class="hero-widget hero-widget--standalone">
-        <div class="widget-chrome">
-          <span class="widget-dot"></span>
-          <span class="widget-dot"></span>
-          <span class="widget-dot"></span>
-          <span class="widget-title">Trip checklist preview</span>
-        </div>
+  <!-- ── Plan your trip — interactive checklist preview ──────────────── -->
+  <section class="plan-hub" id="plan" data-reveal>
+    <header class="plan-hub-header">
+      <p class="plan-hub-eyebrow">— Plan your next trip —</p>
+      <h2 class="plan-hub-title">Where to next?</h2>
+      <p class="plan-hub-lead">
+        Pick a destination, pick when, pick your vibe. Your prep checklist
+        updates live below &mdash; tap items to tick them off.
+      </p>
+    </header>
 
+    <div class="plan-hub-widget">
+      <div class="plan-row">
+        <span class="plan-row-label">📍 Destination</span>
         <div class="chip-row" id="dest-chips">
           <button class="chip active" data-group="dest" data-val="Tokyo">🗾 Tokyo</button>
           <button class="chip"        data-group="dest" data-val="Bali">🌴 Bali</button>
@@ -253,32 +247,52 @@
           <button class="chip"        data-group="dest" data-val="Paris">🗼 Paris</button>
           <button class="chip"        data-group="dest" data-val="Bangkok">🛕 Bangkok</button>
         </div>
+      </div>
+
+      <div class="plan-row">
+        <span class="plan-row-label">📅 Length</span>
         <div class="chip-row" id="len-chips">
           <button class="chip"        data-group="len" data-val="Weekend">Weekend</button>
           <button class="chip active" data-group="len" data-val="1 week">1 week</button>
           <button class="chip"        data-group="len" data-val="10 days">10 days</button>
           <button class="chip"        data-group="len" data-val="2+ weeks">2+ weeks</button>
         </div>
+      </div>
+
+      <div class="plan-row">
+        <span class="plan-row-label">🎒 Vibe</span>
         <div class="chip-row" id="style-chips">
           <button class="chip active" data-group="style" data-val="City">🏙 City</button>
           <button class="chip"        data-group="style" data-val="Beach">🏖 Beach</button>
           <button class="chip"        data-group="style" data-val="Hiking">🏔 Hiking</button>
           <button class="chip"        data-group="style" data-val="Foodie">🍜 Foodie</button>
         </div>
-
-        <div class="mock-progress-wrap">
-          <div class="mock-progress-track">
-            <div class="mock-progress-fill" id="mock-fill"></div>
-          </div>
-          <p class="mock-progress-text">
-            <strong><span id="mock-done">0</span></strong> of <span id="mock-total">0</span> items checked
-          </p>
-        </div>
-
-        <div class="mock-items" id="mock-items"></div>
-
-        <a href="checklist-generator.html" class="button mock-cta" data-magnetic>Build My Full Checklist &rarr;</a>
       </div>
+
+      <div class="plan-preview">
+        <div class="plan-preview-header">
+          <div class="plan-preview-meta">
+            Your <strong id="plan-summary">Tokyo &middot; 1 week &middot; City</strong> trip plan
+          </div>
+          <div class="plan-preview-progress">
+            <div class="mock-progress-track">
+              <div class="mock-progress-fill" id="mock-fill"></div>
+            </div>
+            <span><strong><span id="mock-done">0</span></strong> of <span id="mock-total">0</span> done</span>
+          </div>
+        </div>
+        <div class="mock-items" id="mock-items"></div>
+      </div>
+
+      <a href="checklist-generator.html" class="plan-hub-cta" data-magnetic>
+        <span>🛫</span>
+        <span>Build my full <span id="plan-cta-dest">Tokyo</span> checklist</span>
+        <span class="plan-hub-cta-arrow">→</span>
+      </a>
+
+      <p class="plan-hub-microcopy">
+        Free. No sign-up. Built instantly, with the prep guides linked inside.
+      </p>
     </div>
   </section>
 
@@ -293,73 +307,6 @@
       </p>
     </section>
 
-    <!-- How it works stepper -->
-    <section class="how-it-works" id="how-it-works" data-reveal>
-      <p class="label">How it works</p>
-      <h2>Trip prep in four steps</h2>
-
-      <div class="steps-nav" role="tablist">
-        <button class="step-btn active" data-step="1" role="tab" aria-selected="true">
-          <span class="step-num">1</span>
-          <div>
-            <span class="step-label">Tell us your trip</span>
-            <span class="step-desc">Destination, length, style</span>
-          </div>
-        </button>
-        <button class="step-btn" data-step="2" role="tab" aria-selected="false">
-          <span class="step-num">2</span>
-          <div>
-            <span class="step-label">Get your checklist</span>
-            <span class="step-desc">Tailored to your trip</span>
-          </div>
-        </button>
-        <button class="step-btn" data-step="3" role="tab" aria-selected="false">
-          <span class="step-num">3</span>
-          <div>
-            <span class="step-label">Tick it off</span>
-            <span class="step-desc">Save, print, or share</span>
-          </div>
-        </button>
-        <button class="step-btn" data-step="4" role="tab" aria-selected="false">
-          <span class="step-num">4</span>
-          <div>
-            <span class="step-label">Explore prep guides</span>
-            <span class="step-desc">Packing, eSIM, flight tips</span>
-          </div>
-        </button>
-      </div>
-
-      <div class="steps-content">
-        <div class="step-panel active" data-panel="1">
-          <div class="step-panel-text">
-            <h3>Tell us about your trip</h3>
-            <p>Choose your destination, how long you're away, what month you're travelling, your travel style, and your flight length. The more you share, the more tailored your checklist will be.</p>
-          </div>
-          <div class="step-panel-visual">🗺️ ✈️ 📅</div>
-        </div>
-        <div class="step-panel" data-panel="2">
-          <div class="step-panel-text">
-            <h3>Get a personalised checklist</h3>
-            <p>Your checklist is built on the spot — no sign-up needed. It covers documents, packing, connectivity, flight comfort, and safer trip prep, all adjusted for your specific trip details.</p>
-          </div>
-          <div class="step-panel-visual">📋 ✅ 🎒</div>
-        </div>
-        <div class="step-panel" data-panel="3">
-          <div class="step-panel-text">
-            <h3>Tick off items before you fly</h3>
-            <p>Work through your checklist at your own pace. Check off each item as you go. Use the copy button to paste it into your notes app, or print it for a physical copy.</p>
-          </div>
-          <div class="step-panel-visual">☑️ 🖨 📱</div>
-        </div>
-        <div class="step-panel" data-panel="4">
-          <div class="step-panel-text">
-            <h3>Explore helpful prep guides</h3>
-            <p>Each checklist section links to relevant guides — airport security liquids, eSIM setup, everyday carry, and more. Practical reading to fill in any gaps before departure.</p>
-          </div>
-          <div class="step-panel-visual">📖 🔍 🛫</div>
-        </div>
-      </div>
-    </section>
 
 
     <!-- AUTO-GENERATED-SECTIONS-START -->
@@ -836,6 +783,14 @@
 
     var activeDest  = 'Tokyo';
     var activeStyle = 'City';
+    var activeLen   = '1 week';
+
+    function updateSummary() {
+      var summaryEl = document.getElementById('plan-summary');
+      var ctaEl     = document.getElementById('plan-cta-dest');
+      if (summaryEl) summaryEl.innerHTML = activeDest + ' · ' + activeLen + ' · ' + activeStyle;
+      if (ctaEl)     ctaEl.textContent  = activeDest;
+    }
 
     function renderMockItems(dest, style) {
       var items   = (MOCK_ITEMS[dest] && MOCK_ITEMS[dest][style]) || MOCK_ITEMS.Tokyo.City;
@@ -888,13 +843,16 @@
 
         if (group === 'dest')  activeDest  = this.dataset.val;
         if (group === 'style') activeStyle = this.dataset.val;
+        if (group === 'len')   activeLen   = this.dataset.val;
 
         renderMockItems(activeDest, activeStyle);
+        updateSummary();
       });
     });
 
     // Initial render
     renderMockItems(activeDest, activeStyle);
+    updateSummary();
 
   })();
   </script>
