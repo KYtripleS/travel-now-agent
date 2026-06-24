@@ -111,37 +111,35 @@ def read_products():
     return products_by_category
 
 
-def build_product_cards(products):
-    cards = []
-
-    for product in products:
-        cards.append(f"""
-        <article class="product-card">
-          <h4>{product["item"]}</h4>
-          <p>{product["description"]}</p>
-          <a href="{product["url"]}" class="product-link" target="_blank" rel="nofollow sponsored noopener">View options</a>
-        </article>""")
-
-    return "\n".join(cards)
-
-
-def build_section(category, products):
+def build_directory_column(category, products):
+    """Emit one IMF-style column: heading + ul of product links."""
     icon = CATEGORY_ICONS[category]
     section_id = CATEGORY_IDS[category]
-    checklist_items = "\n".join([f"        <li>{item}</li>" for item in CHECKLISTS[category]])
-    product_cards = build_product_cards(products)
+    items = "\n".join(
+        f'            <li><a href="{p["url"]}" rel="nofollow sponsored noopener" target="_blank">{p["item"]}</a></li>'
+        for p in products
+    )
+    return f"""        <div class="directory-col" id="{section_id}">
+          <h3>{icon} {category}</h3>
+          <ul>
+{items}
+          </ul>
+        </div>"""
 
+
+def build_gear_directory(products_by_category):
+    cols = "\n\n".join(
+        build_directory_column(category, products_by_category[category])
+        for category in CATEGORY_IDS.keys()
+    )
     return f"""
-    <section class="list" id="{section_id}">
-      <h2>{icon} {category}</h2>
-      <p>{INTRO_TEXT[category]}</p>
-      <ul>
-{checklist_items}
-      </ul>
+    <!-- Travel gear directory — IMF-style grouped links ────────────────── -->
+    <section class="directory-section gear-directory" id="lists" data-reveal>
+      <h2>Travel gear directory</h2>
+      <p class="intro">Curated Amazon search picks by category. Affiliate links — see disclosure in the footer.</p>
 
-      <h3>Starter picks to consider</h3>
-      <div class="product-grid">
-{product_cards}
+      <div class="directory-grid">
+{cols}
       </div>
     </section>
 """
@@ -166,10 +164,7 @@ def replace_sections(html, generated_sections):
 def main():
     products_by_category = read_products()
 
-    generated_sections = "\n".join(
-        build_section(category, products_by_category[category])
-        for category in CATEGORY_IDS.keys()
-    )
+    generated_sections = build_gear_directory(products_by_category)
 
     html = SITE_INDEX.read_text(encoding="utf-8")
     updated_html = replace_sections(html, generated_sections)

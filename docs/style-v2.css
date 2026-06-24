@@ -1629,6 +1629,76 @@ footer p { margin: 0; }
   color: var(--navy);
 }
 
+/* ── IMF-style directory (grouped link lists) ──────────────────────────── */
+.directory-section {
+  margin-top: 56px;
+  padding: clamp(28px, 5vw, 48px);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+}
+.directory-section > h2 {
+  margin: 0 0 8px;
+  font-size: 1.7rem;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.directory-section > p.intro {
+  margin: 0 0 32px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+.directory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 28px 44px;
+}
+.directory-col h3 {
+  margin: 0 0 6px;
+  padding-bottom: 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--navy);
+  letter-spacing: 0.01em;
+  border-bottom: 2px solid var(--gold);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.directory-col ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.directory-col li {
+  border-bottom: 1px solid var(--line);
+}
+.directory-col li:last-child {
+  border-bottom: none;
+}
+.directory-col li a {
+  display: block;
+  padding: 10px 0;
+  color: var(--navy);
+  text-decoration: none;
+  font-size: 0.94rem;
+  line-height: 1.4;
+  transition: color 200ms ease, padding 200ms ease;
+}
+.directory-col li a:hover {
+  color: var(--gold);
+  padding-left: 4px;
+}
+.directory-col li a::after {
+  content: "  →";
+  color: rgba(23, 32, 51, 0.3);
+  font-size: 0.85em;
+  transition: color 200ms ease;
+}
+.directory-col li a:hover::after {
+  color: var(--gold);
+}
+
 /* ── Citation marks + researcher notes (Nikkei-style footnotes) ────────── */
 .citation-mark {
   font-size: 0.65em;
