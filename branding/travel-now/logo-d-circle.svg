@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Travel Now Logo D: Circular avatar -->
+  <!-- All focal elements within radius 420 of (512, 512) for safe circle crop -->
+
+  <!-- Full-bleed navy background (corners get cropped by platform's circle mask) -->
+  <rect width="1024" height="1024" fill="#172033"/>
+
+  <!-- Decorative compass ring (subtle) -->
+  <circle cx="512" cy="512" r="400" fill="none" stroke="#C9A84C" stroke-width="1.5" opacity="0.22"/>
+  <circle cx="512" cy="512" r="388" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.32"/>
+
+  <!-- Cardinal marks N E S W -->
+  <g fill="#C9A84C" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle" opacity="0.55" letter-spacing="2">
+    <text x="512" y="142">N</text>
+    <text x="882" y="522">E</text>
+    <text x="512" y="906">S</text>
+    <text x="142" y="522">W</text>
+  </g>
+
+  <!-- Tick marks aligned with cardinals -->
+  <g stroke="#C9A84C" stroke-width="2" opacity="0.35">
+    <line x1="512" y1="150" x2="512" y2="168"/>
+    <line x1="856" y1="512" x2="874" y2="512"/>
+    <line x1="512" y1="856" x2="512" y2="874"/>
+    <line x1="150" y1="512" x2="168" y2="512"/>
+  </g>
+
+  <!-- Main mark: checkmark / compass-needle hybrid, centered upper-mid -->
+  <g transform="translate(512, 440)">
+    <!-- Inner anchor circle behind needle -->
+    <circle cx="0" cy="0" r="160" fill="#172033" stroke="#C9A84C" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Checkmark / compass needle -->
+    <path d="M -110 -10 L -20 80 L 130 -130"
+          stroke="#C9A84C"
+          stroke-width="34"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- North marker dot at tip (white = north convention) -->
+    <circle cx="130" cy="-130" r="13" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Wordmark TRAVEL NOW (compact, sits within safe zone) -->
+  <text x="512" y="754" text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="900" font-size="68" fill="#FFFFFF"
+        letter-spacing="12">
+    TRAVEL NOW
+  </text>
+
+  <!-- Gold accent line under wordmark -->
+  <line x1="432" y1="788" x2="592" y2="788" stroke="#C9A84C" stroke-width="2"/>
+
+  <!-- Tagline (small) -->
+  <text x="512" y="828" text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-weight="600" font-size="18" fill="#C9A84C"
+        letter-spacing="7">
+    SMARTER TRAVEL PREP
+  </text>
+</svg>
