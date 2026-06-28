@@ -16,11 +16,12 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/airport-security-bag-rules.html
 - **Also pin to:** Packing Light & Capsule Wardrobe (wait a day, fresh pin)
 
-### 12:00 — Packing Light & Capsule Wardrobe
-- **Image:** `site/images/pinterest/capsule-photo.png`
-- **Title:** Capsule Wardrobe for 2-Week Trips: 10 Items, 3 Climates
-- **Description:** A practical packing guide on building a 10-item capsule wardrobe that works across hot tropical, temperate, and cool climates. Fabric choices, layering logic, color palette, and a laundry strategy abroad.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/capsule-wardrobe-2-week-trips.html
+### 12:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/asia-esim-photo.png`
+- **Title:** Best eSIM for Japan, South Korea & Vietnam (2026 Guide)
+- **Description:** Destination-by-destination eSIM picks for three popular Asian countries — coverage notes, data needs, rough pricing, and how to set it up before you fly.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/best-esim-japan-korea-vietnam.html
+- **Also pin to:** Asia Travel: Japan, Vietnam, Korea & More (wait a day, fresh pin)
 
 ### 15:00 — Travel Prep Checklists
 - **Image:** `site/images/pinterest/airport-liquids-photo.png`
@@ -30,11 +31,10 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Also pin to:** Packing Light & Capsule Wardrobe (wait a day, fresh pin)
 
 ### 18:00 — Packing Light & Capsule Wardrobe
-- **Image:** `site/images/pinterest/carry-on-photo.png`
-- **Title:** Carry-On Packing Order: Pack for Airport Security Like a Pro
-- **Description:** Pack your carry-on in the order airport security expects — liquids on top, laptop accessible, passport in pocket, charger logic. A small reorder saves real stress at the screening line.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/airport-security-packing-moments.html
-- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
+- **Image:** `site/images/pinterest/capsule-photo.png`
+- **Title:** Capsule Wardrobe for 2-Week Trips: 10 Items, 3 Climates
+- **Description:** A practical packing guide on building a 10-item capsule wardrobe that works across hot tropical, temperate, and cool climates. Fabric choices, layering logic, color palette, and a laundry strategy abroad.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/capsule-wardrobe-2-week-trips.html
 
 ### 21:00 — Travel Prep Checklists
 - **Image:** `site/images/pinterest/airport-security-checklist-photo.png`
@@ -46,18 +46,19 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 
 ## 2026-06-30 (Tue)
 
-### 09:00 — Travel Tech: eSIM, Insurance & Booking
-- **Image:** `site/images/pinterest/esim-photo.png`
-- **Title:** eSIM Setup for International Travel: Activation Checklist
-- **Description:** A practical eSIM activation checklist — phone compatibility, choosing a data plan, offline backup tips, and quick answers before your flight. Save the scramble for something else.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/esim-activation-and-preparation.html
+### 09:00 — Packing Light & Capsule Wardrobe
+- **Image:** `site/images/pinterest/carry-on-photo.png`
+- **Title:** Carry-On Packing Order: Pack for Airport Security Like a Pro
+- **Description:** Pack your carry-on in the order airport security expects — liquids on top, laptop accessible, passport in pocket, charger logic. A small reorder saves real stress at the screening line.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/airport-security-packing-moments.html
 - **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
-### 12:00 — Packing Light & Capsule Wardrobe
-- **Image:** `site/images/pinterest/capsule-photo-w2.png`
-- **Title:** 10-Item Capsule Wardrobe for 2-Week International Trips
-- **Description:** A practical 10-item capsule wardrobe for 2-week trips that works across hot tropical, temperate, and cool climates. Fabric choices, layering logic, color palette, and a laundry strategy abroad.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/capsule-wardrobe-2-week-trips.html
+### 12:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/esim-3way-photo.png`
+- **Title:** Airalo vs Holafly vs Saily: Which Travel eSIM Wins in 2026?
+- **Description:** A head-to-head comparison of the three biggest travel eSIM providers — Airalo for coverage breadth, Holafly for unlimited data, Saily for value. Plans, pricing, speed, and which one suits your trip.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/airalo-vs-holafly-vs-saily.html
+- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
 ### 15:00 — Travel Prep Checklists
 - **Image:** `site/images/pinterest/airport-liquids-photo-w2.png`
@@ -67,33 +68,33 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Also pin to:** Packing Light & Capsule Wardrobe (wait a day, fresh pin)
 
 ### 18:00 — Packing Light & Capsule Wardrobe
+- **Image:** `site/images/pinterest/capsule-photo-w2.png`
+- **Title:** 10-Item Capsule Wardrobe for 2-Week International Trips
+- **Description:** A practical 10-item capsule wardrobe for 2-week trips that works across hot tropical, temperate, and cool climates. Fabric choices, layering logic, color palette, and a laundry strategy abroad.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/capsule-wardrobe-2-week-trips.html
+
+### 21:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/esim-photo.png`
+- **Title:** eSIM Setup for International Travel: Activation Checklist
+- **Description:** A practical eSIM activation checklist — phone compatibility, choosing a data plan, offline backup tips, and quick answers before your flight. Save the scramble for something else.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/esim-activation-and-preparation.html
+- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
+
+
+## 2026-07-01 (Wed)
+
+### 09:00 — Packing Light & Capsule Wardrobe
 - **Image:** `site/images/pinterest/carry-on-photo-w2.png`
 - **Title:** Carry-On Packing: The 4-Step Order Airport Security Wants
 - **Description:** A 4-step carry-on packing order that matches what airport security actually expects — liquids on top, laptop accessible, passport in pocket, charger logic. A small reorder, real time saved.
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/airport-security-packing-moments.html
 - **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
-### 21:00 — Cultural Travel & Etiquette
+### 12:00 — Cultural Travel & Etiquette
 - **Image:** `site/images/pinterest/etiquette-photo.png`
 - **Title:** What Counts as Rude in 12 Cultures: A Travel Etiquette Guide
 - **Description:** A long-form, academically grounded guide to what counts as rude in 12 cultures — Goffman's face theory, Hofstede's dimensions, and 12 country case studies with field examples for international travelers.
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/what-counts-as-rude.html
-
-
-## 2026-07-01 (Wed)
-
-### 09:00 — Travel Tech: eSIM, Insurance & Booking
-- **Image:** `site/images/pinterest/esim-photo-w2.png`
-- **Title:** eSIM vs Roaming: A Simple Activation Guide for Travelers
-- **Description:** A simple eSIM activation guide for international travel — phone compatibility, choosing a data plan, offline backup tips, and quick answers before your flight. Saves the connectivity scramble after landing.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/esim-activation-and-preparation.html
-- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
-
-### 12:00 — Packing Light & Capsule Wardrobe
-- **Image:** `site/images/pinterest/capsule-photo-w3.png`
-- **Title:** Capsule Wardrobe: 10 Items, 3 Climates, 14 Days of Travel
-- **Description:** A 10-item travel capsule wardrobe that works across hot tropical, temperate, and cool climates for 14 days. Fabric choices, layering logic, color palette, and a laundry strategy abroad.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/capsule-wardrobe-2-week-trips.html
 
 ### 15:00 — Travel Prep Checklists
 - **Image:** `site/images/pinterest/airport-liquids-photo-w3.png`
@@ -103,34 +104,33 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Also pin to:** Packing Light & Capsule Wardrobe (wait a day, fresh pin)
 
 ### 18:00 — Packing Light & Capsule Wardrobe
+- **Image:** `site/images/pinterest/capsule-photo-w3.png`
+- **Title:** Capsule Wardrobe: 10 Items, 3 Climates, 14 Days of Travel
+- **Description:** A 10-item travel capsule wardrobe that works across hot tropical, temperate, and cool climates for 14 days. Fabric choices, layering logic, color palette, and a laundry strategy abroad.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/capsule-wardrobe-2-week-trips.html
+
+### 21:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/esim-photo-w2.png`
+- **Title:** eSIM vs Roaming: A Simple Activation Guide for Travelers
+- **Description:** A simple eSIM activation guide for international travel — phone compatibility, choosing a data plan, offline backup tips, and quick answers before your flight. Saves the connectivity scramble after landing.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/esim-activation-and-preparation.html
+- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
+
+
+## 2026-07-02 (Thu)
+
+### 09:00 — Packing Light & Capsule Wardrobe
 - **Image:** `site/images/pinterest/carry-on-photo-w3.png`
 - **Title:** Carry-On Packing: 5 Mistakes That Slow You Down at Security
 - **Description:** The 5 carry-on packing mistakes that slow you down at airport security — liquids buried, laptop deep in the bag, passport in checked luggage, charger logic, and how to pack to avoid each.
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/airport-security-packing-moments.html
 - **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
-### 21:00 — Cultural Travel & Etiquette
+### 12:00 — Cultural Travel & Etiquette
 - **Image:** `site/images/pinterest/etiquette-photo-w2.png`
 - **Title:** 12 Countries, 12 Etiquette Rules Worth Knowing Before You Fly
 - **Description:** A research-grounded etiquette guide for 12 cultures — Goffman's face theory, Hofstede's dimensions, and 12 country case studies with field examples. For travelers who want to land respectful, not awkward.
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/what-counts-as-rude.html
-
-
-## 2026-07-02 (Thu)
-
-### 09:00 — Travel Tech: eSIM, Insurance & Booking
-- **Image:** `site/images/pinterest/esim-photo-w3.png`
-- **Title:** eSIM Activation in 4 Steps: 10 Minutes Before Your Flight
-- **Description:** A 4-step eSIM activation checklist — phone compatibility, plan choice, offline backup, and pre-flight setup. 10 minutes the night before saves the connectivity scramble after landing.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/esim-activation-and-preparation.html
-- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
-
-### 12:00 — Asia Travel: Japan, Vietnam, Korea & More
-- **Image:** `site/images/pinterest/japan-photo.png`
-- **Title:** Japan Country Profile: History, Geography & Travel Prep Guide
-- **Description:** An eight-section country profile for travelers heading to Japan — contested history, modern politics, society and culture, and practical travel prep. Written for first-time visitors who want depth before booking, not the usual destination lists. Read the full profile.
-- **Link:** https://kytriples.github.io/travel-now-agent/countries/japan/
-- **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
 
 ### 15:00 — Travel Tech: eSIM, Insurance & Booking
 - **Image:** `site/images/pinterest/insurance-photo.png`
@@ -140,33 +140,34 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
 ### 18:00 — Asia Travel: Japan, Vietnam, Korea & More
+- **Image:** `site/images/pinterest/japan-photo.png`
+- **Title:** Japan Country Profile: History, Geography & Travel Prep Guide
+- **Description:** An eight-section country profile for travelers heading to Japan — contested history, modern politics, society and culture, and practical travel prep. Written for first-time visitors who want depth before booking, not the usual destination lists. Read the full profile.
+- **Link:** https://kytriples.github.io/travel-now-agent/countries/japan/
+- **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
+
+### 21:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/esim-photo-w3.png`
+- **Title:** eSIM Activation in 4 Steps: 10 Minutes Before Your Flight
+- **Description:** A 4-step eSIM activation checklist — phone compatibility, plan choice, offline backup, and pre-flight setup. 10 minutes the night before saves the connectivity scramble after landing.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/esim-activation-and-preparation.html
+- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
+
+
+## 2026-07-03 (Fri)
+
+### 09:00 — Asia Travel: Japan, Vietnam, Korea & More
 - **Image:** `site/images/pinterest/tokyo-book-ahead-photo.png`
 - **Title:** Tokyo: Five Experiences Worth Booking Ahead
 - **Description:** Five Tokyo experiences worth locking in before you fly — TeamLab Borderless, Tsukiji food tours, Asakusa kimono rentals, and Mt. Fuji day trips. Tickets that sell out and small-group tours that fill fast, sorted before you leave home.
 - **Link:** https://kytriples.github.io/travel-now-agent/cities/tokyo/
 - **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
 
-### 21:00 — Cultural Travel & Etiquette
+### 12:00 — Cultural Travel & Etiquette
 - **Image:** `site/images/pinterest/etiquette-photo-w3.png`
 - **Title:** What Counts as Rude: 12 Countries, 12 Etiquette Rules Compared
 - **Description:** A research-grounded etiquette comparison across 12 countries — Goffman's face theory, Hofstede's dimensions, and country case studies with field examples for international travelers.
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/what-counts-as-rude.html
-
-
-## 2026-07-03 (Fri)
-
-### 09:00 — Travel Tech: eSIM, Insurance & Booking
-- **Image:** `site/images/pinterest/safetywing-vs-world-nomads-photo.png`
-- **Title:** SafetyWing vs World Nomads: Which Travel Insurance Wins in 2026?
-- **Description:** A head-to-head travel insurance comparison: SafetyWing's subscription model versus World Nomads' adventure cover. Coverage scope, pricing for long-stay travelers, claims experience, and a decision framework for digital nomads in 2026.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/safetywing-vs-world-nomads.html
-- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
-
-### 12:00 — Country Profiles & City Guides
-- **Image:** `site/images/pinterest/australia-photo.png`
-- **Title:** Australia Country Profile: Indigenous History to Modern Travel
-- **Description:** An eight-section country profile for Australia covering Aboriginal continuity, modern federation, society, culture, and practical travel prep. For travelers who want layered context — history, politics, society, culture, and prep checklists.
-- **Link:** https://kytriples.github.io/travel-now-agent/countries/australia/
 
 ### 15:00 — Travel Tech: eSIM, Insurance & Booking
 - **Image:** `site/images/pinterest/insurance-photo-w2.png`
@@ -176,11 +177,48 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
 ### 18:00 — Asia Travel: Japan, Vietnam, Korea & More
+- **Image:** `site/images/pinterest/tours-3way-photo.png`
+- **Title:** Klook vs Viator vs GetYourGuide: Best Way to Book Tours in 2026
+- **Description:** Which tours-and-activities platform to use where — Klook for Asia, GetYourGuide for Europe, Viator for global long-tail. Inventory, cancellation, and price compared.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/klook-vs-viator-vs-getyourguide.html
+- **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
+
+### 21:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/nomad-insurance-photo.png`
+- **Title:** Best Travel Insurance for Digital Nomads in 2026: A Buyer's Guide
+- **Description:** What makes nomad insurance different — long durations, multiple countries, working abroad. Key decision factors and which policy type fits which kind of traveler.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/best-travel-insurance-digital-nomads-2026.html
+- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
+
+
+## 2026-07-04 (Sat)
+
+### 09:00 — Asia Travel: Japan, Vietnam, Korea & More
 - **Image:** `site/images/pinterest/tokyo-photo.png`
 - **Title:** Tokyo City Guide: A First-Time Visitor's Layered Introduction
 - **Description:** A long-form Tokyo city guide for first-time travelers — historic neighborhoods, modern districts, food culture, and practical preparation. Written for travelers who want to understand the city, not just see the highlights.
 - **Link:** https://kytriples.github.io/travel-now-agent/cities/tokyo/
 - **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
+
+### 12:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/safetywing-vs-world-nomads-photo.png`
+- **Title:** SafetyWing vs World Nomads: Which Travel Insurance Wins in 2026?
+- **Description:** A head-to-head travel insurance comparison: SafetyWing's subscription model versus World Nomads' adventure cover. Coverage scope, pricing for long-stay travelers, claims experience, and a decision framework for digital nomads in 2026.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/safetywing-vs-world-nomads.html
+- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
+
+### 15:00 — Country Profiles & City Guides
+- **Image:** `site/images/pinterest/australia-photo.png`
+- **Title:** Australia Country Profile: Indigenous History to Modern Travel
+- **Description:** An eight-section country profile for Australia covering Aboriginal continuity, modern federation, society, culture, and practical travel prep. For travelers who want layered context — history, politics, society, culture, and prep checklists.
+- **Link:** https://kytriples.github.io/travel-now-agent/countries/australia/
+
+### 18:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/insurance-photo-w3.png`
+- **Title:** Travel Insurance: How to Pick in 5 Minutes (SafetyWing vs World Nomads vs Genki)
+- **Description:** A 5-minute travel insurance decision framework comparing SafetyWing, World Nomads, and Genki. Who each provider suits, what is covered, exclusions, pricing, and the questions to ask.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/travel-insurance-compared.html
+- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
 ### 21:00 — Packing Light & Capsule Wardrobe
 - **Image:** `site/images/pinterest/beach-photo.png`
@@ -190,33 +228,33 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
 
-## 2026-07-04 (Sat)
+## 2026-07-05 (Sun)
 
 ### 09:00 — Travel Tech: eSIM, Insurance & Booking
-- **Image:** `site/images/pinterest/hotels-photo.png`
-- **Title:** Hotel Booking Sites Compared: Hotels.com, Booking.com, Agoda & More
-- **Description:** A practical comparison of hotel booking sites — Hotels.com, Booking.com, Trip.com, Agoda, HotelsCombined. What each is good for, common mistakes, and how to choose for your next trip.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/hotel-booking-sites-comparison.html
-
-### 12:00 — Country Profiles & City Guides
-- **Image:** `site/images/pinterest/australia-photo-w2.png`
-- **Title:** Australia for First-Time Visitors: A Layered Country Guide
-- **Description:** A first-look country profile for Australia covering Aboriginal continuity, modern federation, politics, society, culture, and travel prep. Long-form context for travelers planning their first trip down under.
-- **Link:** https://kytriples.github.io/travel-now-agent/countries/australia/
-
-### 15:00 — Travel Tech: eSIM, Insurance & Booking
-- **Image:** `site/images/pinterest/insurance-photo-w3.png`
-- **Title:** Travel Insurance: How to Pick in 5 Minutes (SafetyWing vs World Nomads vs Genki)
-- **Description:** A 5-minute travel insurance decision framework comparing SafetyWing, World Nomads, and Genki. Who each provider suits, what is covered, exclusions, pricing, and the questions to ask.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/travel-insurance-compared.html
+- **Image:** `site/images/pinterest/wifi-vs-esim-photo.png`
+- **Title:** Pocket WiFi vs eSIM: Which Is Better for International Travel?
+- **Description:** eSIM for solo and light travelers, pocket WiFi for families and groups — cost, battery, multi-device sharing, and setup compared, plus when to use both.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/pocket-wifi-vs-esim.html
 - **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
-### 18:00 — Asia Travel: Japan, Vietnam, Korea & More
+### 12:00 — Asia Travel: Japan, Vietnam, Korea & More
 - **Image:** `site/images/pinterest/japan-photo-w2.png`
 - **Title:** Going to Japan? Country Profile to Read Before You Book
 - **Description:** A first-look country profile for travelers planning a Japan trip — history, geography, politics, society, culture, and a practical prep checklist. Long-form context for travelers who want depth before booking flights.
 - **Link:** https://kytriples.github.io/travel-now-agent/countries/japan/
 - **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
+
+### 15:00 — Country Profiles & City Guides
+- **Image:** `site/images/pinterest/australia-photo-w2.png`
+- **Title:** Australia for First-Time Visitors: A Layered Country Guide
+- **Description:** A first-look country profile for Australia covering Aboriginal continuity, modern federation, politics, society, culture, and travel prep. Long-form context for travelers planning their first trip down under.
+- **Link:** https://kytriples.github.io/travel-now-agent/countries/australia/
+
+### 18:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/hotels-photo.png`
+- **Title:** Hotel Booking Sites Compared: Hotels.com, Booking.com, Agoda & More
+- **Description:** A practical comparison of hotel booking sites — Hotels.com, Booking.com, Trip.com, Agoda, HotelsCombined. What each is good for, common mistakes, and how to choose for your next trip.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/hotel-booking-sites-comparison.html
 
 ### 21:00 — Packing Light & Capsule Wardrobe
 - **Image:** `site/images/pinterest/beach-photo-w2.png`
@@ -226,56 +264,57 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
 
-## 2026-07-05 (Sun)
+## 2026-07-06 (Mon)
 
-### 09:00 — Travel Tech: eSIM, Insurance & Booking
-- **Image:** `site/images/pinterest/hotels-photo-w2.png`
-- **Title:** Booking.com vs Hotels.com vs Agoda: How to Decide Quickly
-- **Description:** A quick decision guide for booking hotels — Hotels.com, Booking.com, Trip.com, Agoda, HotelsCombined. What each is good for, common booking mistakes, and how to choose the right one for your trip.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/hotel-booking-sites-comparison.html
-
-### 12:00 — Country Profiles & City Guides
-- **Image:** `site/images/pinterest/australia-photo-w3.png`
-- **Title:** Australia in 8 Sections: A Layered Country Profile
-- **Description:** An eight-section Australia country profile — Aboriginal history, federation, politics, economy, society, culture, and travel prep. Layered context for first-time visitors who want more than highlights.
-- **Link:** https://kytriples.github.io/travel-now-agent/countries/australia/
-
-### 15:00 — Asia Travel: Japan, Vietnam, Korea & More
+### 09:00 — Asia Travel: Japan, Vietnam, Korea & More
 - **Image:** `site/images/pinterest/south-korea-photo.png`
 - **Title:** South Korea Country Profile: History, Society & Travel Prep
 - **Description:** A layered country profile for South Korea — contested history, modern economy and politics, society and culture, and practical preparation. For travelers heading to Seoul or beyond who want context first.
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/south-korea-country-profile.html
 - **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
 
-### 18:00 — Packing Light & Capsule Wardrobe
+### 12:00 — Packing Light & Capsule Wardrobe
 - **Image:** `site/images/pinterest/travel-edc-photo.png`
 - **Title:** Travel EDC Checklist: Everyday Carry for International Trips
 - **Description:** A simple travel EDC list — power bank, water bottle, hand sanitizer, small cash. Pocket and personal-item setup that keeps your daily travel moments smoother.
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/everyday-carry-essentials-for-travel.html
 - **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
-### 21:00 — Asia Travel: Japan, Vietnam, Korea & More
-- **Image:** `site/images/pinterest/japan-photo-w3.png`
-- **Title:** Japan in 8 Sections: A Layered Guide for Travelers
-- **Description:** An eight-section country profile for Japan — history, geography, politics, economy, society, culture, and travel prep. Long-form context organised the way thoughtful travelers actually want to read it.
-- **Link:** https://kytriples.github.io/travel-now-agent/countries/japan/
-- **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
+### 15:00 — Country Profiles & City Guides
+- **Image:** `site/images/pinterest/australia-photo-w3.png`
+- **Title:** Australia in 8 Sections: A Layered Country Profile
+- **Description:** An eight-section Australia country profile — Aboriginal history, federation, politics, economy, society, culture, and travel prep. Layered context for first-time visitors who want more than highlights.
+- **Link:** https://kytriples.github.io/travel-now-agent/countries/australia/
 
+### 18:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/hotels-photo-w2.png`
+- **Title:** Booking.com vs Hotels.com vs Agoda: How to Decide Quickly
+- **Description:** A quick decision guide for booking hotels — Hotels.com, Booking.com, Trip.com, Agoda, HotelsCombined. What each is good for, common booking mistakes, and how to choose the right one for your trip.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/hotel-booking-sites-comparison.html
 
-## 2026-07-06 (Mon)
-
-### 09:00 — Packing Light & Capsule Wardrobe
+### 21:00 — Packing Light & Capsule Wardrobe
 - **Image:** `site/images/pinterest/beach-photo-w3.png`
 - **Title:** Beach Trip Packing: 10 Items Most Travelers Forget
 - **Description:** The 10 beach trip items most travelers forget — reef-safe sunscreen, packable sun hats, quick-dry towels, and the small extras that make tropical destinations smoother.
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/beach-trip-packing-checklist.html
 - **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
-### 12:00 — Travel Tech: eSIM, Insurance & Booking
-- **Image:** `site/images/pinterest/hotels-photo-w3.png`
-- **Title:** Hotel Booking: 5 Mistakes That Cost You Real Money
-- **Description:** The 5 hotel booking mistakes that quietly cost real money — and how to avoid each. Comparison of Hotels.com, Booking.com, Trip.com, Agoda, and HotelsCombined for your next trip.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/hotel-booking-sites-comparison.html
+
+## 2026-07-07 (Tue)
+
+### 09:00 — Asia Travel: Japan, Vietnam, Korea & More
+- **Image:** `site/images/pinterest/japan-photo-w3.png`
+- **Title:** Japan in 8 Sections: A Layered Guide for Travelers
+- **Description:** An eight-section country profile for Japan — history, geography, politics, economy, society, culture, and travel prep. Long-form context organised the way thoughtful travelers actually want to read it.
+- **Link:** https://kytriples.github.io/travel-now-agent/countries/japan/
+- **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
+
+### 12:00 — Packing Light & Capsule Wardrobe
+- **Image:** `site/images/pinterest/travel-edc-photo-w2.png`
+- **Title:** Travel EDC: Pocket Essentials That Earn Their Space
+- **Description:** A short travel EDC list focused on essentials that earn their pocket space — power bank, water bottle, hand sanitizer, small cash. Pocket and personal-item setup that keeps travel days lighter.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/everyday-carry-essentials-for-travel.html
+- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
 
 ### 15:00 — Asia Travel: Japan, Vietnam, Korea & More
 - **Image:** `site/images/pinterest/south-korea-photo-w2.png`
@@ -284,12 +323,11 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/south-korea-country-profile.html
 - **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
 
-### 18:00 — Packing Light & Capsule Wardrobe
-- **Image:** `site/images/pinterest/travel-edc-photo-w2.png`
-- **Title:** Travel EDC: Pocket Essentials That Earn Their Space
-- **Description:** A short travel EDC list focused on essentials that earn their pocket space — power bank, water bottle, hand sanitizer, small cash. Pocket and personal-item setup that keeps travel days lighter.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/everyday-carry-essentials-for-travel.html
-- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
+### 18:00 — Travel Tech: eSIM, Insurance & Booking
+- **Image:** `site/images/pinterest/hotels-photo-w3.png`
+- **Title:** Hotel Booking: 5 Mistakes That Cost You Real Money
+- **Description:** The 5 hotel booking mistakes that quietly cost real money — and how to avoid each. Comparison of Hotels.com, Booking.com, Trip.com, Agoda, and HotelsCombined for your next trip.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/hotel-booking-sites-comparison.html
 
 ### 21:00 — Asia Travel: Japan, Vietnam, Korea & More
 - **Image:** `site/images/pinterest/tokyo-photo-w2.png`
@@ -299,12 +337,48 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
 
 
-## 2026-07-07 (Tue)
+## 2026-07-08 (Wed)
 
 ### 09:00 — Cultural Travel & Etiquette
 - **Image:** `site/images/pinterest/boat-day-photo.png`
 - **Title:** Charter a Boat in Europe: No Sailing License Required
 - **Description:** A research-grounded guide to renting a boat for a day in the UK, Italy, France, Spain, Croatia, and Greece — what licenses are actually required, what platforms to use, costs, and what to pack on board.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/charter-a-boat-for-a-day.html
+
+### 12:00 — Packing Light & Capsule Wardrobe
+- **Image:** `site/images/pinterest/travel-edc-photo-w3.png`
+- **Title:** Travel EDC: 6 Items That Earn Their Pocket Space
+- **Description:** The 6 travel everyday-carry items that earn their pocket space — power bank, water bottle, hand sanitizer, small cash, and the personal-item setup that keeps trip days lighter.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/everyday-carry-essentials-for-travel.html
+- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
+
+### 15:00 — Asia Travel: Japan, Vietnam, Korea & More
+- **Image:** `site/images/pinterest/south-korea-photo-w3.png`
+- **Title:** South Korea in 8 Sections: A Layered Country Profile
+- **Description:** An eight-section South Korea country profile — contested history, modern economy, politics, society and culture, and travel prep. Long-form context for travelers heading to Seoul or beyond.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/south-korea-country-profile.html
+- **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
+
+### 18:00 — Cultural Travel & Etiquette
+- **Image:** `site/images/pinterest/untranslatable-photo.png`
+- **Title:** 14 Untranslatable Words Across 12 Languages: A Cultural Essay
+- **Description:** Saudade, komorebi, sisu, han, ubuntu — a research-grounded essay on 14 famously untranslatable words, what linguists say about why they resist English, and what travelers take home.
+- **Link:** https://kytriples.github.io/travel-now-agent/articles/untranslatable-words.html
+
+### 21:00 — Asia Travel: Japan, Vietnam, Korea & More
+- **Image:** `site/images/pinterest/tokyo-photo-w3.png`
+- **Title:** Tokyo in 6 Districts: A First-Time Visitor's Layered Guide
+- **Description:** A layered Tokyo city guide organised by district — historic neighborhoods, modern areas, food culture, and practical preparation. For first-time travelers who want to understand the city's many layers.
+- **Link:** https://kytriples.github.io/travel-now-agent/cities/tokyo/
+- **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
+
+
+## 2026-07-09 (Thu)
+
+### 09:00 — Cultural Travel & Etiquette
+- **Image:** `site/images/pinterest/boat-day-photo-w2.png`
+- **Title:** Rent a Boat in Europe for a Day: No Sailing License
+- **Description:** A practical guide to chartering a boat for a day in Europe — UK, Italy, France, Spain, Croatia, and Greece. What licenses are actually required, what platforms to use, costs, and what to pack on board.
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/charter-a-boat-for-a-day.html
 
 ### 12:00 — Asia Travel: Japan, Vietnam, Korea & More
@@ -313,42 +387,6 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Description:** A layered Vietnam country profile to read before your trip — from Đông Sơn bronze drums to Đổi Mới reforms, food and street culture, and practical preparation. Context-first for thoughtful travelers.
 - **Link:** https://kytriples.github.io/travel-now-agent/countries/vietnam/
 - **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
-
-### 15:00 — Cultural Travel & Etiquette
-- **Image:** `site/images/pinterest/untranslatable-photo.png`
-- **Title:** 14 Untranslatable Words Across 12 Languages: A Cultural Essay
-- **Description:** Saudade, komorebi, sisu, han, ubuntu — a research-grounded essay on 14 famously untranslatable words, what linguists say about why they resist English, and what travelers take home.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/untranslatable-words.html
-
-### 18:00 — Asia Travel: Japan, Vietnam, Korea & More
-- **Image:** `site/images/pinterest/south-korea-photo-w3.png`
-- **Title:** South Korea in 8 Sections: A Layered Country Profile
-- **Description:** An eight-section South Korea country profile — contested history, modern economy, politics, society and culture, and travel prep. Long-form context for travelers heading to Seoul or beyond.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/south-korea-country-profile.html
-- **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
-
-### 21:00 — Packing Light & Capsule Wardrobe
-- **Image:** `site/images/pinterest/travel-edc-photo-w3.png`
-- **Title:** Travel EDC: 6 Items That Earn Their Pocket Space
-- **Description:** The 6 travel everyday-carry items that earn their pocket space — power bank, water bottle, hand sanitizer, small cash, and the personal-item setup that keeps trip days lighter.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/everyday-carry-essentials-for-travel.html
-- **Also pin to:** Travel Prep Checklists (wait a day, fresh pin)
-
-
-## 2026-07-08 (Wed)
-
-### 09:00 — Asia Travel: Japan, Vietnam, Korea & More
-- **Image:** `site/images/pinterest/tokyo-photo-w3.png`
-- **Title:** Tokyo in 6 Districts: A First-Time Visitor's Layered Guide
-- **Description:** A layered Tokyo city guide organised by district — historic neighborhoods, modern areas, food culture, and practical preparation. For first-time travelers who want to understand the city's many layers.
-- **Link:** https://kytriples.github.io/travel-now-agent/cities/tokyo/
-- **Also pin to:** Country Profiles & City Guides (wait a day, fresh pin)
-
-### 12:00 — Cultural Travel & Etiquette
-- **Image:** `site/images/pinterest/boat-day-photo-w2.png`
-- **Title:** Rent a Boat in Europe for a Day: No Sailing License
-- **Description:** A practical guide to chartering a boat for a day in Europe — UK, Italy, France, Spain, Croatia, and Greece. What licenses are actually required, what platforms to use, costs, and what to pack on board.
-- **Link:** https://kytriples.github.io/travel-now-agent/articles/charter-a-boat-for-a-day.html
 
 ### 15:00 — Asia Travel: Japan, Vietnam, Korea & More
 - **Image:** `site/images/pinterest/vietnam-photo-w3.png`
@@ -370,19 +408,19 @@ How to use: each day, post the listed pins at the given times. Upload the image 
 - **Link:** https://kytriples.github.io/travel-now-agent/cities/tokyo/asakusa.html
 
 
-## 2026-07-09 (Thu)
+## 2026-07-10 (Fri)
 
-### 09:00 — Asia Travel: Japan, Vietnam, Korea & More
-- **Image:** `site/images/pinterest/asakusa-photo-w2.png`
-- **Title:** Asakusa Walking Guide: A Half-Day in Old Tokyo
-- **Description:** A practical Asakusa walking guide — Sensoji temple history, Nakamise shopping street, Edo-era streets, and which nearby districts to combine for a smooth half-day visit.
-- **Link:** https://kytriples.github.io/travel-now-agent/cities/tokyo/asakusa.html
-
-### 12:00 — Cultural Travel & Etiquette
+### 09:00 — Cultural Travel & Etiquette
 - **Image:** `site/images/pinterest/boat-day-photo-w3.png`
 - **Title:** Charter a Boat in 6 European Countries: No License Required
 - **Description:** A research-grounded boat charter guide across 6 European countries — UK, Italy, France, Spain, Croatia, and Greece. License rules, platforms, costs, and what to pack on board for the day.
 - **Link:** https://kytriples.github.io/travel-now-agent/articles/charter-a-boat-for-a-day.html
+
+### 12:00 — Asia Travel: Japan, Vietnam, Korea & More
+- **Image:** `site/images/pinterest/asakusa-photo-w2.png`
+- **Title:** Asakusa Walking Guide: A Half-Day in Old Tokyo
+- **Description:** A practical Asakusa walking guide — Sensoji temple history, Nakamise shopping street, Edo-era streets, and which nearby districts to combine for a smooth half-day visit.
+- **Link:** https://kytriples.github.io/travel-now-agent/cities/tokyo/asakusa.html
 
 ### 15:00 — A layered country profile for Vietnam — from Đông Sơn bronze drums to Đổi Mới reforms, food and street culture, and practical travel preparation. Long-form, source-backed, for travelers who want context before their trip.
 - **Image:** `site/images/pinterest/vietnam-photo.png`

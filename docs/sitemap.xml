@@ -149,4 +149,29 @@
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://kytriples.github.io/travel-now-agent/articles/airalo-vs-holafly-vs-saily.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kytriples.github.io/travel-now-agent/articles/klook-vs-viator-vs-getyourguide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kytriples.github.io/travel-now-agent/articles/best-esim-japan-korea-vietnam.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kytriples.github.io/travel-now-agent/articles/pocket-wifi-vs-esim.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kytriples.github.io/travel-now-agent/articles/best-travel-insurance-digital-nomads-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
