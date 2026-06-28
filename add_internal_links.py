@@ -36,6 +36,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Airport Security Bag Rules",
         "What gets flagged at the X-ray belt and how to repack to avoid the bin.",
     ),
+    "articles/airport-security-checklist.html": (
+        "Airport Security Checklist (12-Point Pre-Flight)",
+        "A 12-point pre-flight verification covering documents, liquids, electronics, and prohibited items.",
+    ),
+    "articles/safetywing-vs-world-nomads.html": (
+        "SafetyWing vs World Nomads",
+        "A head-to-head insurance comparison — coverage, pricing, claims, and who each suits best.",
+    ),
     "articles/airport-security-liquids.html": (
         "Airport Security Liquids Checklist",
         "The 100ml rule made simple — containers, the clear bag, common rejections.",
@@ -109,14 +117,24 @@ ARTICLES: dict[str, tuple[str, str]] = {
 # each article → list of related-article paths (4-6 each)
 LINKS: dict[str, list[str]] = {
     "articles/airport-security-bag-rules.html": [
+        "articles/airport-security-checklist.html",
         "articles/airport-security-liquids.html",
         "articles/airport-security-packing-moments.html",
         "articles/everyday-carry-essentials-for-travel.html",
         "articles/capsule-wardrobe-2-week-trips.html",
-        "articles/beach-trip-packing-checklist.html",
+        "articles/esim-activation-and-preparation.html",
+    ],
+    "articles/airport-security-checklist.html": [
+        "articles/airport-security-bag-rules.html",
+        "articles/airport-security-liquids.html",
+        "articles/airport-security-packing-moments.html",
+        "articles/everyday-carry-essentials-for-travel.html",
+        "articles/capsule-wardrobe-2-week-trips.html",
+        "articles/travel-insurance-compared.html",
         "articles/esim-activation-and-preparation.html",
     ],
     "articles/airport-security-liquids.html": [
+        "articles/airport-security-checklist.html",
         "articles/airport-security-bag-rules.html",
         "articles/airport-security-packing-moments.html",
         "articles/everyday-carry-essentials-for-travel.html",
@@ -124,6 +142,7 @@ LINKS: dict[str, list[str]] = {
         "articles/esim-activation-and-preparation.html",
     ],
     "articles/airport-security-packing-moments.html": [
+        "articles/airport-security-checklist.html",
         "articles/airport-security-liquids.html",
         "articles/airport-security-bag-rules.html",
         "articles/everyday-carry-essentials-for-travel.html",
@@ -160,6 +179,7 @@ LINKS: dict[str, list[str]] = {
         "countries/vietnam/index.html",
     ],
     "articles/everyday-carry-essentials-for-travel.html": [
+        "articles/airport-security-checklist.html",
         "articles/airport-security-bag-rules.html",
         "articles/capsule-wardrobe-2-week-trips.html",
         "articles/beach-trip-packing-checklist.html",
@@ -183,11 +203,21 @@ LINKS: dict[str, list[str]] = {
         "articles/what-counts-as-rude.html",
     ],
     "articles/travel-insurance-compared.html": [
+        "articles/safetywing-vs-world-nomads.html",
         "articles/esim-activation-and-preparation.html",
         "articles/hotel-booking-sites-comparison.html",
         "articles/charter-a-boat-for-a-day.html",
         "articles/everyday-carry-essentials-for-travel.html",
         "countries/japan/index.html",
+    ],
+    "articles/safetywing-vs-world-nomads.html": [
+        "articles/travel-insurance-compared.html",
+        "articles/esim-activation-and-preparation.html",
+        "articles/charter-a-boat-for-a-day.html",
+        "articles/everyday-carry-essentials-for-travel.html",
+        "countries/japan/index.html",
+        "countries/vietnam/index.html",
+        "countries/australia/index.html",
     ],
     "articles/untranslatable-words.html": [
         "articles/what-counts-as-rude.html",
@@ -271,8 +301,15 @@ def render_section(from_file: str) -> str:
 
 
 def inject(html: str, section: str) -> tuple[str, bool]:
-    if MARK_BEGIN in html:
-        return html, False
+    # If an existing block is present, replace it (so adding new articles to
+    # the registry updates already-injected pages without manual cleanup).
+    if MARK_BEGIN in html and MARK_END in html:
+        b = html.find(MARK_BEGIN)
+        e = html.find(MARK_END, b) + len(MARK_END)
+        existing = html[b:e]
+        if existing.strip() == section.strip():
+            return html, False
+        return html[:b] + section + html[e:], True
     anchor = "</main>"
     idx = html.rfind(anchor)
     if idx == -1:
