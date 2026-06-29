@@ -64,6 +64,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Best Travel Insurance for Digital Nomads",
         "A 2026 buyer's guide — what nomad cover needs, by traveler archetype.",
     ),
+    "articles/carry-on-packing-list-10-day-japan.html": (
+        "Carry-On Packing List for a 10-Day Japan Trip",
+        "A 10-item capsule sized for Japan — plugs, cash, IC cards, and the right shoes.",
+    ),
+    "articles/luggage-storage-tokyo.html": (
+        "Where to Store Luggage in Tokyo",
+        "Coin lockers, cloakrooms, storage apps, and hotel holds — which to use where.",
+    ),
     "articles/airport-security-liquids.html": (
         "Airport Security Liquids Checklist",
         "The 100ml rule made simple — containers, the clear bag, common rejections.",
@@ -177,12 +185,12 @@ LINKS: dict[str, list[str]] = {
         "countries/australia/index.html",
     ],
     "articles/capsule-wardrobe-2-week-trips.html": [
+        "articles/carry-on-packing-list-10-day-japan.html",
         "articles/beach-trip-packing-checklist.html",
         "articles/everyday-carry-essentials-for-travel.html",
         "articles/airport-security-bag-rules.html",
         "countries/japan/index.html",
         "countries/vietnam/index.html",
-        "countries/australia/index.html",
     ],
     "articles/charter-a-boat-for-a-day.html": [
         "articles/travel-insurance-compared.html",
@@ -278,6 +286,22 @@ LINKS: dict[str, list[str]] = {
         "articles/everyday-carry-essentials-for-travel.html",
         "countries/japan/index.html",
     ],
+    "articles/carry-on-packing-list-10-day-japan.html": [
+        "articles/capsule-wardrobe-2-week-trips.html",
+        "articles/everyday-carry-essentials-for-travel.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "countries/japan/index.html",
+        "cities/tokyo/index.html",
+        "articles/luggage-storage-tokyo.html",
+    ],
+    "articles/luggage-storage-tokyo.html": [
+        "cities/tokyo/index.html",
+        "cities/tokyo/asakusa.html",
+        "countries/japan/index.html",
+        "articles/carry-on-packing-list-10-day-japan.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
     "articles/untranslatable-words.html": [
         "articles/what-counts-as-rude.html",
         "countries/japan/index.html",
@@ -303,10 +327,10 @@ LINKS: dict[str, list[str]] = {
     "cities/tokyo/index.html": [
         "countries/japan/index.html",
         "cities/tokyo/asakusa.html",
+        "articles/luggage-storage-tokyo.html",
+        "articles/carry-on-packing-list-10-day-japan.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
         "articles/best-esim-japan-korea-vietnam.html",
-        "articles/hotel-booking-sites-comparison.html",
-        "articles/what-counts-as-rude.html",
     ],
     "cities/tokyo/asakusa.html": [
         "cities/tokyo/index.html",

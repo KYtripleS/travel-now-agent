@@ -33,6 +33,22 @@ AFFILIATE_LINKS = {
     "searadar": "https://searadar.tpx.lu/YiWnGz1v",
 }
 
+# When no brand is named, fall back by category to the best brand we hold.
+# Order matters — first matching phrase wins.
+CATEGORY_FALLBACK = [
+    ("esim", "airalo"),
+    ("sim card", "airalo"),
+    ("data connectivity", "airalo"),
+    ("travel insurance", "ekta"),
+    ("insurance", "ekta"),
+    ("tours", "klook"),
+    ("activities", "klook"),
+    ("things to do", "klook"),
+    ("attraction", "klook"),
+    ("yacht", "searadar"),
+    ("boat charter", "searadar"),
+]
+
 # Optionally consume backticks the writer sometimes wraps the marker in,
 # so the resolved <a> tag renders as a link, not inline code.
 MARKER = re.compile(r"`?\[AFFILIATE:\s*([^\]]+)\]`?")
@@ -49,7 +65,13 @@ def resolve(text: str) -> tuple[str, list[str]]:
                 actions.append(f"{label!r} -> {brand}")
                 return (f'<a href="{url}" rel="nofollow sponsored noopener" '
                         f'target="_blank">{label}</a>')
-        # no known brand: unwrap to plain text
+        # no explicit brand: try category fallback to a brand we hold
+        for phrase, brand in CATEGORY_FALLBACK:
+            if phrase in low:
+                actions.append(f"{label!r} -> {brand} (category: {phrase})")
+                return (f'<a href="{AFFILIATE_LINKS[brand]}" rel="nofollow sponsored noopener" '
+                        f'target="_blank">{label}</a>')
+        # truly no match: unwrap to plain text
         actions.append(f"{label!r} -> plain text (no affiliate match)")
         return label
 
