@@ -2894,3 +2894,12 @@ section.globe-section #globe-canvas {
       url('https://images.unsplash.com/photo-1488085061387-422e29b40080?w=2400&q=82&fm=webp&auto=format');
   }
 }
+
+/* ── Author byline (pen-name editor persona: Nora Field) ──────────────── */
+.article-byline {
+  font-size: 0.92rem;
+  color: #647084;
+  margin: 10px 0 0;
+}
+.article-byline a { color: #8a6d2f; font-weight: 600; text-decoration: none; }
+.article-byline a:hover { text-decoration: underline; }
