@@ -1,4 +1,4 @@
-/* Travel Now — email-capture popup
+/* Gently Yonder — email-capture popup
  * Standard lead-gen pattern: fires once per visitor on scroll-depth >50%
  * OR after a time delay, whichever comes first. Dismissals are remembered
  * for 30 days (localStorage), so it never nags a returning reader. The CTA
@@ -88,7 +88,7 @@
     ov.id = "tn-pop-ov";
     ov.setAttribute("role", "dialog");
     ov.setAttribute("aria-modal", "true");
-    ov.setAttribute("aria-label", "Get the free Travel Now pre-flight checklist");
+    ov.setAttribute("aria-label", "Get the free Gently Yonder pre-flight checklist");
     ov.innerHTML =
       '<div id="tn-pop">'
       + '<button class="tn-x" aria-label="Close">&times;</button>'

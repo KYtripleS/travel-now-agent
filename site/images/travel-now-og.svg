@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
-  <!-- Travel Now Open Graph card · 1200x630 · v1 (regeneratable from this SVG) -->
+  <!-- Gently Yonder Open Graph card · 1200x630 · v1 (regeneratable from this SVG) -->
 
   <!-- Background: warm off-white -->
   <rect width="1200" height="630" fill="#F6F2EA"/>
@@ -34,7 +34,7 @@
         font-family="Helvetica, Arial, sans-serif"
         font-weight="800" font-size="22"
         letter-spacing="6"
-        fill="#C9A84C">TRAVEL NOW</text>
+        fill="#C9A84C">GENTLY YONDER</text>
   <text x="200" y="138"
         font-family="Helvetica, Arial, sans-serif"
         font-weight="600" font-size="18"
@@ -45,7 +45,7 @@
   <text x="80" y="290"
         font-family="Georgia, 'Times New Roman', serif"
         font-weight="700" font-size="92"
-        fill="#172033">Travel Now</text>
+        fill="#172033">Gently Yonder</text>
 
   <!-- Gold accent underline -->
   <rect x="80" y="316" width="120" height="6" fill="#C9A84C"/>
@@ -117,7 +117,7 @@
   <text x="80" y="620"
         font-family="Helvetica, Arial, sans-serif"
         font-weight="700" font-size="14" letter-spacing="3"
-        fill="#C9A84C">KYTRIPLES.GITHUB.IO/TRAVEL-NOW-AGENT</text>
+        fill="#C9A84C">GENTLYYONDER.COM</text>
   <text x="1120" y="620" text-anchor="end"
         font-family="Helvetica, Arial, sans-serif"
         font-weight="600" font-size="14" letter-spacing="2"
