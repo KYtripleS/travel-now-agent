@@ -6,10 +6,10 @@ Give every article and profile a visible human byline and a Person author
 in its structured data, pointing at our editor persona's bio page
 (editors.html). This is the E-E-A-T "who wrote this" signal Google looks
 for, and the human anchor the brand wants — using a disclosed pen name
-(Nora Field), never a real identity.
+(Casey), never a real identity.
 
 Two changes per page, both idempotent:
-  1. Inserts <p class="article-byline">By <a>Nora Field</a>, Travel Now
+  1. Inserts <p class="article-byline">By <a>Casey</a>, Travel Now
      editor</p> right after the first </h1>.
   2. Swaps the JSON-LD author from Organization to Person (publisher stays
      the Organization). Handles both single-line and multi-line author
@@ -34,7 +34,7 @@ REPO = Path(__file__).resolve().parent
 SITE = REPO / "site"
 DOCS = REPO / "docs"
 BASE_URL = "https://kytriples.github.io/travel-now-agent"
-EDITOR_NAME = "Nora Field"
+EDITOR_NAME = "Casey"
 EDITOR_URL = f"{BASE_URL}/editors.html"
 
 # author Organization object (flat, no nested braces) -> Person
@@ -75,7 +75,7 @@ def process(html: str, rel: str) -> tuple[str, list[str]]:
             actions.append("byline")
 
     # 2) author Organization -> Person (skip if already Person)
-    if '"author": { "@type": "Person"' not in html and '"@type": "Person", "name": "Nora' not in html:
+    if '"author": { "@type": "Person"' not in html and '"@type": "Person", "name": "Casey' not in html:
         new_html, n = AUTHOR_RE.subn(PERSON, html, count=1)
         if n:
             html = new_html
