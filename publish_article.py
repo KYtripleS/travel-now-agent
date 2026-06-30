@@ -36,7 +36,7 @@ DOCS_DIR      = REPO_ROOT / "docs"
 SITEMAP_SITE  = SITE_DIR / "sitemap.xml"
 SITEMAP_DOCS  = DOCS_DIR / "sitemap.xml"
 TEMPLATE_PATH = SITE_DIR / "articles" / "esim-activation-and-preparation.html"
-BASE_URL      = "https://kytriples.github.io/travel-now-agent"
+BASE_URL      = "https://gentlyyonder.com"
 
 
 # ─────────────────────────────────────────────────────────────────────

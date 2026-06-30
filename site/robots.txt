@@ -4,4 +4,4 @@ Allow: /
 # Block placeholder/dev preview files if any
 Disallow: /*.backup.css$
 
-Sitemap: https://kytriples.github.io/travel-now-agent/sitemap.xml
+Sitemap: https://gentlyyonder.com/sitemap.xml

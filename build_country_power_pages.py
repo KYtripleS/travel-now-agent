@@ -39,7 +39,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
 CSV_PATH = REPO / "programmatic" / "plugs.csv"
-BASE_URL = "https://kytriples.github.io/travel-now-agent"
+BASE_URL = "https://gentlyyonder.com"
 GA4_ID = "G-JRGK9CN3B1"
 
 # Country profiles we already publish — link to them when relevant.
