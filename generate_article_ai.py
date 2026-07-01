@@ -208,10 +208,14 @@ def critic_pass(article_md: str, *, model: str) -> str:
 # ──────────────────────────────────────────────────────────────────────
 
 FINAL_PROMPT = """\
-You are Travel Now's senior editor. Apply the critic's **Top 3 fixes** to
-the draft below. Preserve all <figure>...</figure> blocks exactly as-is
-(do not change image URLs, captions, or credits). Preserve all
-[AFFILIATE: ...] placeholders. Do not introduce any banned phrases.
+You are the Editorial Director of Gently Yonder, editing a draft by Casey.
+Do not merely apply the critic's **Top 3 rewrites** — genuinely raise the
+piece toward the standard "a reader should feel Gently Yonder is a trusted
+friend." Keep Casey's calm, warm, honest first-person voice. Never fabricate
+facts or invent specific experiences. Preserve all <figure>...</figure>
+blocks exactly as-is (do not change image URLs, captions, or credits).
+Preserve all [AFFILIATE: ...] placeholders. Never introduce a banned phrase
+("The BEST", "Ultimate", "must-see", "hidden gem", "life-changing", etc.).
 
 Output only the revised Markdown article — no commentary, no delimiters.
 
