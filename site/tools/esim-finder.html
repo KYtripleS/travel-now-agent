@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>eSIM Finder: Which Travel eSIM & How Much Data? (Free Tool) | Gently Yonder</title>
+<meta name="description" content="A free travel eSIM finder — pick your destination, trip length, and usage, and get a data-size and provider recommendation in seconds. No signup." />
+<link rel="canonical" href="https://gentlyyonder.com/tools/esim-finder.html" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="eSIM Finder: Which Travel eSIM & How Much Data?" />
+<meta property="og:description" content="Pick destination, days, and usage — get a data-size + provider recommendation in seconds. Free, no signup." />
+<meta property="og:url" content="https://gentlyyonder.com/tools/esim-finder.html" />
+<meta property="og:site_name" content="Gently Yonder" />
+<link rel="stylesheet" href="../style-v2.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Gently Yonder eSIM Finder",
+  "url": "https://gentlyyonder.com/tools/esim-finder.html",
+  "applicationCategory": "TravelApplication",
+  "operatingSystem": "Any",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "description": "A free tool that recommends how much travel eSIM data you need and which provider suits your trip."
+}
+</script>
+<!-- BEGIN GA4 (managed by add_ga4.py) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-JRGK9CN3B1', { anonymize_ip: true });
+</script>
+<!-- END GA4 -->
+<!-- BEGIN Travelpayouts Drive (managed by add_travelpayouts_drive.py) -->
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1">
+  (function () {
+    var script = document.createElement("script");
+    script.async = 1;
+    script.src = 'https://tpembars.com/NTQzNzE5.js?t=543719';
+    document.head.appendChild(script);
+  })();
+</script>
+<!-- END Travelpayouts Drive -->
+<style>
+  .esim-tool{max-width:720px;margin:28px auto;background:#fff;border:1px solid #e6dfd3;border-radius:16px;padding:26px 28px;box-shadow:0 10px 30px rgba(23,32,51,.06)}
+  .esim-tool .field{margin:0 0 20px}
+  .esim-tool label{display:block;font-weight:700;color:#172033;margin:0 0 8px}
+  .esim-tool select,.esim-tool input[type=number]{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid #cfd6e4;border-radius:10px;font-size:1rem;font-family:inherit;background:#fff}
+  .esim-seg{display:flex;gap:8px;flex-wrap:wrap}
+  .esim-seg button{flex:1;min-width:96px;padding:11px 10px;border:1px solid #cfd6e4;border-radius:10px;background:#f8f4e9;color:#172033;font-family:inherit;font-size:.95rem;cursor:pointer}
+  .esim-seg button.on{background:#172033;color:#f8f4e9;border-color:#172033}
+  .esim-go{width:100%;padding:15px;border:0;border-radius:40px;background:#C9A84C;color:#172033;font-weight:700;font-size:1.08rem;font-family:inherit;cursor:pointer}
+  .esim-go:hover{background:#d8ba61}
+  .esim-result{margin-top:24px;padding:22px;border-radius:14px;background:#172033;color:#f8f4e9;display:none}
+  .esim-result.show{display:block}
+  .esim-result h3{margin:0 0 6px;color:#fff;font-size:1.35rem}
+  .esim-result .big{font-size:2rem;font-weight:800;color:#C9A84C;margin:6px 0}
+  .esim-result p{color:#cfd6e4;margin:8px 0}
+  .esim-cta{display:inline-block;margin:8px 8px 0 0;padding:12px 20px;border-radius:40px;background:#C9A84C;color:#172033;font-weight:700;text-decoration:none}
+  .esim-cta.alt{background:transparent;border:2px solid #C9A84C;color:#f8f4e9}
+  .esim-note{font-size:.82rem;color:#647084;margin-top:14px}
+</style>
+</head>
+<body>
+<nav class="breadcrumb" aria-label="Breadcrumb">
+<ol>
+<li><a href="../index.html">Gently Yonder</a></li>
+<li><a href="../index.html#lists">Tools</a></li>
+<li aria-current="page">eSIM Finder</li>
+</ol>
+</nav>
+<header class="hero article-hero">
+<p class="label">Free tool</p>
+<h1>eSIM Finder</h1>
+<p class="article-byline">By <a href="../editors.html">Casey</a>, Gently Yonder editor</p>
+<p class="subtitle">Tell it your destination, trip length, and how you use data — get a
+data-size and provider recommendation in seconds. No signup.</p>
+</header>
+<main>
+<section class="article">
+<div class="esim-tool">
+  <div class="field">
+    <label for="dest">Where are you going?</label>
+    <select id="dest">
+      <option value="jp">Japan</option>
+      <option value="kr">South Korea</option>
+      <option value="vn">Vietnam</option>
+      <option value="th">Thailand</option>
+      <option value="sg">Singapore</option>
+      <option value="id">Indonesia / Bali</option>
+      <option value="eu">Europe (multiple countries)</option>
+      <option value="us">United States</option>
+      <option value="au">Australia</option>
+      <option value="global">Somewhere else / multi-region</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="days">How many days?</label>
+    <input type="number" id="days" min="1" max="120" value="10" />
+  </div>
+  <div class="field">
+    <label>How do you use data?</label>
+    <div class="esim-seg" id="usage">
+      <button type="button" data-u="light">Light<br><small>maps + messaging</small></button>
+      <button type="button" data-u="medium" class="on">Medium<br><small>+ browsing, social</small></button>
+      <button type="button" data-u="heavy">Heavy<br><small>+ video, hotspot</small></button>
+    </div>
+  </div>
+  <button class="esim-go" id="go">Find my eSIM →</button>
+
+  <div class="esim-result" id="result" aria-live="polite">
+    <h3 id="r-head">Your recommendation</h3>
+    <div class="big" id="r-data"></div>
+    <p id="r-why"></p>
+    <p id="r-prov"></p>
+    <div id="r-ctas"></div>
+    <p class="esim-note">These are estimates to guide your choice, not live prices — data
+      needs vary by person and app. Check the current plans on the provider's site.
+      Links to Airalo and Saily are affiliate links; Gently Yonder may earn a commission
+      at no extra cost to you.</p>
+  </div>
+</div>
+
+<h2>How the recommendation works</h2>
+<p>The finder estimates your total data from how you use your phone (roughly 0.3GB/day
+light, 0.6GB/day medium, 1.2GB/day heavy), rounds up to the nearest common plan size,
+and suggests a marketplace that fits your destination. It's a starting point — if you
+tether a laptop or stream a lot, size up. For the full reasoning and provider trade-offs,
+see our <a href="../articles/airalo-vs-holafly-vs-saily.html">Airalo vs Holafly vs Saily
+comparison</a> and our <a href="../articles/best-esim-japan-korea-vietnam.html">best eSIM
+for Japan, Korea &amp; Vietnam</a> guide.</p>
+
+<section class="related-articles">
+<h2>Keep reading</h2>
+<ul>
+<li><a href="../articles/esim-activation-and-preparation.html">eSIM Setup &amp; Activation</a> — install before you fly, land connected.</li>
+<li><a href="../articles/pocket-wifi-vs-esim.html">Pocket WiFi vs eSIM</a> — which is right for your trip.</li>
+<li><a href="../articles/best-esim-japan-korea-vietnam.html">Best eSIM for Japan, Korea &amp; Vietnam</a></li>
+</ul>
+</section>
+</section>
+</main>
+<footer>
+<p>
+Gently Yonder is an independent travel editorial project.
+<a href="../about.html">About</a> · <a href="../methodology.html">Methodology</a> ·
+<a href="../editors.html">Editors</a> · <a href="../privacy.html">Privacy</a> ·
+<a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a>
+</p>
+</footer>
+
+<script>
+(function(){
+  var AIRALO="https://airalo.tpx.lu/ctddHmQY", SAILY="https://saily.tpx.lu/1RHGIfQA";
+  var usage="medium";
+  var seg=document.getElementById("usage");
+  seg.addEventListener("click",function(e){
+    var b=e.target.closest("button"); if(!b) return;
+    [].forEach.call(seg.querySelectorAll("button"),function(x){x.classList.remove("on");});
+    b.classList.add("on"); usage=b.getAttribute("data-u");
+  });
+  var perDay={light:0.3,medium:0.6,heavy:1.2};
+  var plans=[1,2,3,5,10,20];
+  function planFor(gb){
+    for(var i=0;i<plans.length;i++){ if(gb<=plans[i]) return plans[i]+"GB"; }
+    return "Unlimited";
+  }
+  var destName={jp:"Japan",kr:"South Korea",vn:"Vietnam",th:"Thailand",sg:"Singapore",
+    id:"Indonesia/Bali",eu:"Europe",us:"the United States",au:"Australia",global:"your destination"};
+  function providerFor(dest){
+    // Airalo = widest coverage everywhere; Saily = value pick, strong in Asia/Europe.
+    if(dest==="eu"||dest==="jp"||dest==="kr"||dest==="vn"||dest==="th"||dest==="id"||dest==="sg")
+      return {primary:"Airalo",primaryUrl:AIRALO,alt:"Saily",altUrl:SAILY,
+        note:"Airalo has the widest country list and easy top-ups; Saily is often a little cheaper per GB in this region."};
+    return {primary:"Airalo",primaryUrl:AIRALO,alt:"Saily",altUrl:SAILY,
+      note:"Airalo covers the most destinations globally; Saily is worth a price check as a value alternative."};
+  }
+  document.getElementById("go").addEventListener("click",function(){
+    var dest=document.getElementById("dest").value;
+    var days=Math.max(1,Math.min(120,parseInt(document.getElementById("days").value||"1",10)));
+    var gb=perDay[usage]*days;
+    var plan=planFor(gb);
+    var prov=providerFor(dest);
+    document.getElementById("r-head").textContent="For "+days+" days in "+destName[dest]+" ("+usage+" use):";
+    document.getElementById("r-data").textContent="~"+plan+" of data";
+    document.getElementById("r-why").textContent="Estimated need: about "+gb.toFixed(1)+"GB. "+
+      (plan==="Unlimited"?"That's high enough that an unlimited plan is usually the better deal.":
+       "Round up if you'll tether a laptop or stream a lot.");
+    document.getElementById("r-prov").textContent="Suggested provider: "+prov.primary+". "+prov.note;
+    document.getElementById("r-ctas").innerHTML=
+      '<a class="esim-cta" href="'+prov.primaryUrl+'" rel="nofollow sponsored noopener" target="_blank">Check '+prov.primary+' plans →</a>'+
+      '<a class="esim-cta alt" href="'+prov.altUrl+'" rel="nofollow sponsored noopener" target="_blank">Compare '+prov.alt+'</a>';
+    document.getElementById("result").classList.add("show");
+    if(window.gtag) gtag('event','esim_finder_result',{dest:dest,days:days,usage:usage,plan:plan});
+  });
+})();
+</script>
+<!-- BEGIN email-popup (managed by add_email_popup.py) -->
+<script src="../js/email-popup.js" data-root="../" defer></script>
+<!-- END email-popup -->
+</body>
+</html>
