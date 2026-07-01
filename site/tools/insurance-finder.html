@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Travel Insurance Finder: Which Policy Type Fits Your Trip? (Free) | Gently Yonder</title>
+<meta name="description" content="A free travel insurance finder — answer three questions about your trip and get a policy-type and provider-style recommendation in seconds. No signup." />
+<link rel="canonical" href="https://gentlyyonder.com/tools/insurance-finder.html" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Travel Insurance Finder: Which Policy Type Fits Your Trip?" />
+<meta property="og:description" content="Answer three questions, get a policy-type recommendation in seconds. Free, no signup." />
+<meta property="og:url" content="https://gentlyyonder.com/tools/insurance-finder.html" />
+<meta property="og:site_name" content="Gently Yonder" />
+<link rel="stylesheet" href="../style-v2.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Gently Yonder Travel Insurance Finder",
+  "url": "https://gentlyyonder.com/tools/insurance-finder.html",
+  "applicationCategory": "TravelApplication",
+  "operatingSystem": "Any",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "description": "A free tool that recommends which type of travel insurance policy suits your trip."
+}
+</script>
+<!-- BEGIN GA4 (managed by add_ga4.py) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-JRGK9CN3B1', { anonymize_ip: true });
+</script>
+<!-- END GA4 -->
+<!-- BEGIN Travelpayouts Drive (managed by add_travelpayouts_drive.py) -->
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1">
+  (function () {
+    var script = document.createElement("script");
+    script.async = 1;
+    script.src = 'https://tpembars.com/NTQzNzE5.js?t=543719';
+    document.head.appendChild(script);
+  })();
+</script>
+<!-- END Travelpayouts Drive -->
+<style>
+  .fin-tool{max-width:720px;margin:28px auto;background:#fff;border:1px solid #e6dfd3;border-radius:16px;padding:26px 28px;box-shadow:0 10px 30px rgba(23,32,51,.06)}
+  .fin-tool .field{margin:0 0 20px}
+  .fin-tool label{display:block;font-weight:700;color:#172033;margin:0 0 8px}
+  .fin-tool select,.fin-tool input[type=number]{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid #cfd6e4;border-radius:10px;font-size:1rem;font-family:inherit;background:#fff}
+  .fin-seg{display:flex;gap:8px;flex-wrap:wrap}
+  .fin-seg button{flex:1;min-width:110px;padding:11px 10px;border:1px solid #cfd6e4;border-radius:10px;background:#f8f4e9;color:#172033;font-family:inherit;font-size:.95rem;cursor:pointer}
+  .fin-seg button.on{background:#172033;color:#f8f4e9;border-color:#172033}
+  .fin-go{width:100%;padding:15px;border:0;border-radius:40px;background:#C9A84C;color:#172033;font-weight:700;font-size:1.08rem;font-family:inherit;cursor:pointer}
+  .fin-go:hover{background:#d8ba61}
+  .fin-result{margin-top:24px;padding:22px;border-radius:14px;background:#172033;color:#f8f4e9;display:none}
+  .fin-result.show{display:block}
+  .fin-result h3{margin:0 0 6px;color:#fff;font-size:1.3rem}
+  .fin-result .big{font-size:1.6rem;font-weight:800;color:#C9A84C;margin:6px 0}
+  .fin-result p{color:#cfd6e4;margin:8px 0}
+  .fin-cta{display:inline-block;margin:8px 8px 0 0;padding:12px 20px;border-radius:40px;background:#C9A84C;color:#172033;font-weight:700;text-decoration:none}
+  .fin-cta.alt{background:transparent;border:2px solid #C9A84C;color:#f8f4e9}
+  .fin-note{font-size:.82rem;color:#647084;margin-top:14px}
+</style>
+</head>
+<body>
+<nav class="breadcrumb" aria-label="Breadcrumb">
+<ol>
+<li><a href="../index.html">Gently Yonder</a></li>
+<li><a href="../index.html#lists">Tools</a></li>
+<li aria-current="page">Insurance Finder</li>
+</ol>
+</nav>
+<header class="hero article-hero">
+<p class="label">Free tool</p>
+<h1>Travel Insurance Finder</h1>
+<p class="article-byline">By <a href="../editors.html">Casey</a>, Gently Yonder editor</p>
+<p class="subtitle">Three quick questions about your trip, and it points you to the type of
+policy that fits — and what to check before you buy. No signup.</p>
+</header>
+<main>
+<section class="article">
+<div class="fin-tool">
+  <div class="field">
+    <label>What kind of trip is it?</label>
+    <div class="fin-seg" id="kind">
+      <button type="button" data-k="short" class="on">Short trip<br><small>1–4 weeks</small></button>
+      <button type="button" data-k="long">Long / nomad<br><small>months, open-ended</small></button>
+      <button type="button" data-k="adventure">Adventure<br><small>sports, activities</small></button>
+    </div>
+  </div>
+  <div class="field">
+    <label>What matters most to you?</label>
+    <div class="fin-seg" id="prio">
+      <button type="button" data-p="cost" class="on">Lowest cost</button>
+      <button type="button" data-p="medical">Best medical</button>
+      <button type="button" data-p="cancel">Trip &amp; gear cover</button>
+    </div>
+  </div>
+  <div class="field">
+    <label for="age">Your age (affects pricing)</label>
+    <input type="number" id="age" min="1" max="99" value="30" />
+  </div>
+  <button class="fin-go" id="go">Find my policy type →</button>
+
+  <div class="fin-result" id="result" aria-live="polite">
+    <h3 id="r-head">Your recommendation</h3>
+    <div class="big" id="r-type"></div>
+    <p id="r-why"></p>
+    <div id="r-ctas"></div>
+    <p class="fin-note">This suggests a <em>type</em> of policy to guide your research — it is
+      not insurance advice or a quote. Always read the policy wording (especially exclusions
+      and pre-existing conditions) before buying. The EKTA link is an affiliate link; Gently
+      Yonder may earn a commission at no extra cost to you.</p>
+  </div>
+</div>
+
+<h2>How the recommendation works</h2>
+<p>The finder maps your trip shape to the policy style that usually fits: a rolling
+subscription for open-ended and nomad travel, a fixed-term adventure policy for
+activity-heavy trips, and a simple single-trip policy for short getaways. Whatever it
+suggests, the deciding detail is always the <strong>exclusions</strong> — pre-existing
+conditions and your specific activities. For the full head-to-head, see our
+<a href="../articles/safetywing-vs-world-nomads.html">SafetyWing vs World Nomads</a>
+comparison, our <a href="../articles/travel-insurance-compared.html">three-provider
+comparison</a>, and our <a href="../articles/best-travel-insurance-digital-nomads-2026.html">
+nomad insurance buyer's guide</a>.</p>
+
+<section class="related-articles">
+<h2>Keep reading</h2>
+<ul>
+<li><a href="../articles/best-travel-insurance-digital-nomads-2026.html">Best Travel Insurance for Digital Nomads (2026)</a></li>
+<li><a href="../articles/safetywing-vs-world-nomads.html">SafetyWing vs World Nomads</a></li>
+<li><a href="../articles/travel-insurance-compared.html">Travel Insurance Compared</a></li>
+</ul>
+</section>
+</section>
+</main>
+<footer>
+<p>
+Gently Yonder is an independent travel editorial project.
+<a href="../about.html">About</a> · <a href="../methodology.html">Methodology</a> ·
+<a href="../editors.html">Editors</a> · <a href="../privacy.html">Privacy</a> ·
+<a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a>
+</p>
+</footer>
+
+<script>
+(function(){
+  var EKTA="https://ektatraveling.tpx.lu/nDrStdXW";
+  var kind="short", prio="cost";
+  function seg(id,set){
+    var el=document.getElementById(id);
+    el.addEventListener("click",function(e){
+      var b=e.target.closest("button"); if(!b) return;
+      [].forEach.call(el.querySelectorAll("button"),function(x){x.classList.remove("on");});
+      b.classList.add("on"); set(b);
+    });
+  }
+  seg("kind",function(b){kind=b.getAttribute("data-k");});
+  seg("prio",function(b){prio=b.getAttribute("data-p");});
+  document.getElementById("go").addEventListener("click",function(){
+    var age=Math.max(1,Math.min(99,parseInt(document.getElementById("age").value||"30",10)));
+    var type,why;
+    if(kind==="long"){
+      type="A rolling subscription policy (nomad-style)";
+      why="For open-ended travel, a subscription that renews every 4 weeks (the SafetyWing model) means no fixed return date and a lower monthly cost. Trade-off: thinner trip-cancellation and baggage cover.";
+    } else if(kind==="adventure"){
+      type="A fixed-term adventure policy";
+      why="Activity-heavy trips need a policy that explicitly lists your sports (the World Nomads model). Check the covered-activities list carefully — this is where adventure claims get denied.";
+    } else {
+      type=(prio==="cancel")?"A single-trip policy with trip + baggage cover":"A simple single-trip policy";
+      why="For a short trip, a single-trip policy is usually cheapest and enough. "+(prio==="cancel"?"Since you care about trip and gear cover, check the cancellation reasons and per-item baggage limits.":"Prioritise the medical limit and confirm pre-existing conditions are handled.");
+    }
+    if(age>=65) why+=" Note: over ~65, premiums rise sharply and some plans cap age — compare a few.";
+    document.getElementById("r-head").textContent="Best fit for your trip:";
+    document.getElementById("r-type").textContent=type;
+    document.getElementById("r-why").textContent=why;
+    document.getElementById("r-ctas").innerHTML=
+      '<a class="fin-cta" href="'+EKTA+'" rel="nofollow sponsored noopener" target="_blank">Get a fast EKTA quote →</a>'+
+      '<a class="fin-cta alt" href="../articles/travel-insurance-compared.html">Compare providers</a>';
+    document.getElementById("result").classList.add("show");
+    if(window.gtag) gtag('event','insurance_finder_result',{kind:kind,prio:prio});
+  });
+})();
+</script>
+<!-- BEGIN email-popup (managed by add_email_popup.py) -->
+<script src="../js/email-popup.js" data-root="../" defer></script>
+<!-- END email-popup -->
+</body>
+</html>
