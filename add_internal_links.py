@@ -80,6 +80,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Best eSIM for Thailand (2026)",
         "Coverage across Bangkok, Chiang Mai, and the islands, and how much data you'll need.",
     ),
+    "articles/three-slow-days-in-kyoto.html": (
+        "Three Slow Days in Kyoto",
+        "A gentle, unhurried first-timer's itinerary — Fushimi Inari at dawn to Arashiyama's bamboo.",
+    ),
     "articles/airport-security-liquids.html": (
         "Airport Security Liquids Checklist",
         "The 100ml rule made simple — containers, the clear bag, common rejections.",
@@ -287,6 +291,14 @@ LINKS: dict[str, list[str]] = {
         "articles/esim-activation-and-preparation.html",
         "articles/carry-on-packing-list-10-day-japan.html",
     ],
+    "articles/three-slow-days-in-kyoto.html": [
+        "cities/tokyo/index.html",
+        "cities/tokyo/asakusa.html",
+        "countries/japan/index.html",
+        "articles/carry-on-packing-list-10-day-japan.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
     "articles/pocket-wifi-vs-esim.html": [
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/best-esim-japan-korea-vietnam.html",
@@ -342,19 +354,19 @@ LINKS: dict[str, list[str]] = {
     "countries/japan/index.html": [
         "cities/tokyo/index.html",
         "cities/tokyo/asakusa.html",
+        "articles/three-slow-days-in-kyoto.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
         "articles/best-esim-japan-korea-vietnam.html",
+        "articles/carry-on-packing-list-10-day-japan.html",
         "articles/south-korea-country-profile.html",
-        "countries/vietnam/index.html",
-        "articles/hotel-booking-sites-comparison.html",
     ],
     "cities/tokyo/index.html": [
         "countries/japan/index.html",
+        "articles/three-slow-days-in-kyoto.html",
         "cities/tokyo/asakusa.html",
         "articles/luggage-storage-tokyo.html",
         "articles/carry-on-packing-list-10-day-japan.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
-        "articles/best-esim-japan-korea-vietnam.html",
     ],
     "cities/tokyo/asakusa.html": [
         "cities/tokyo/index.html",
