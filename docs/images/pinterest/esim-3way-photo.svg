@@ -32,8 +32,8 @@
     <circle cx="900" cy="1320" r="3"/>
   </g>
 
-  <!-- Header: TRAVEL NOW -->
-  <text x="500" y="105" font-family="Georgia, serif" font-size="28" fill="#C9A84C" text-anchor="middle" letter-spacing="8">TRAVEL NOW</text>
+  <!-- Header: GENTLY YONDER -->
+  <text x="500" y="105" font-family="Georgia, serif" font-size="28" fill="#C9A84C" text-anchor="middle" letter-spacing="8">GENTLY YONDER</text>
   <line x1="430" y1="130" x2="570" y2="130" stroke="#C9A84C" stroke-width="2"/>
 
   <!-- Massive title -->
@@ -68,5 +68,5 @@
   <text x="500" y="1292" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#172033" text-anchor="middle">Compare all three →</text>
 
   <!-- URL hint -->
-  <text x="500" y="1430" font-family="Georgia, serif" font-size="24" fill="#F8F4E9" text-anchor="middle" opacity="0.85">travelnow • articles/airalo-vs-holafly-vs-saily</text>
+  <text x="500" y="1430" font-family="Georgia, serif" font-size="24" fill="#F8F4E9" text-anchor="middle" opacity="0.85">gentlyyonder • articles/airalo-vs-holafly-vs-saily</text>
 </svg>

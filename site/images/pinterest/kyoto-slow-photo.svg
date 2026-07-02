@@ -32,8 +32,8 @@
     <circle cx="900" cy="1320" r="3"/>
   </g>
 
-  <!-- Header: TRAVEL NOW -->
-  <text x="500" y="105" font-family="Georgia, serif" font-size="28" fill="#C9A84C" text-anchor="middle" letter-spacing="8">TRAVEL NOW</text>
+  <!-- Header: GENTLY YONDER -->
+  <text x="500" y="105" font-family="Georgia, serif" font-size="28" fill="#C9A84C" text-anchor="middle" letter-spacing="8">GENTLY YONDER</text>
   <line x1="430" y1="130" x2="570" y2="130" stroke="#C9A84C" stroke-width="2"/>
 
   <!-- Massive title -->

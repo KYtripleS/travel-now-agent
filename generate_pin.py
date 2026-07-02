@@ -149,7 +149,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--bullet3", required=True)
     p.add_argument("--bullet4", required=True)
     p.add_argument("--cta", default="Read the full profile →")
-    p.add_argument("--url-hint", required=True, help="e.g. 'travelnow • countries/japan'")
+    p.add_argument("--url-hint", required=True, help="e.g. 'gentlyyonder • countries/japan'")
     src = p.add_mutually_exclusive_group(required=True)
     src.add_argument("--photo", help="local image path (skip Pexels)")
     src.add_argument("--pexels-query", help="Pexels search query (uses PEXELS_API_KEY)")

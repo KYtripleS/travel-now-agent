@@ -28,7 +28,7 @@
     <circle cx="880" cy="900" r="2"/>
   </g>
 
-  <text x="500" y="120" font-family="Georgia, serif" font-size="28" fill="#C9A84C" text-anchor="middle" letter-spacing="8">TRAVEL NOW</text>
+  <text x="500" y="120" font-family="Georgia, serif" font-size="28" fill="#C9A84C" text-anchor="middle" letter-spacing="8">GENTLY YONDER</text>
   <line x1="430" y1="145" x2="570" y2="145" stroke="#C9A84C" stroke-width="2"/>
 
   <!-- Cream medallion -->
@@ -80,5 +80,5 @@
   <rect x="250" y="1200" width="500" height="100" rx="50" fill="url(#goldGrad)"/>
   <text x="500" y="1262" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#172033" text-anchor="middle">Read the full guide →</text>
 
-  <text x="500" y="1410" font-family="Georgia, serif" font-size="24" fill="#8a96aa" text-anchor="middle">travelnow • cities/tokyo/asakusa</text>
+  <text x="500" y="1410" font-family="Georgia, serif" font-size="24" fill="#8a96aa" text-anchor="middle">gentlyyonder • cities/tokyo/asakusa</text>
 </svg>
