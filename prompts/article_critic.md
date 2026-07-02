@@ -22,12 +22,15 @@ this query while staying faithful to the philosophy.
 - Does it teach something meaningful?
 - Does it leave the reader calmer, wiser, or more curious?
 
-### Honesty (non-negotiable)
-- Any fabricated fact, statistic, research, price, or objective claim.
-- Any invented specific personal experience (a named hotel stayed at, a dated
-  trip, an invented meal/event). First-person *reflection* is fine; invented
-  *fact* is not.
-- Time-sensitive rules that assert an outcome instead of pointing to the
+### Honesty (guard facts, not voice)
+- Flag any fabricated *checkable* claim: an invented price, statistic, research
+  finding, opening hour, or dated historical fact; any misrepresentation of a
+  real, named business or person.
+- Lived first-person is GOOD — Casey is a disclosed narrative persona. Do NOT
+  flag atmospheric or sensory "I" writing as dishonest. Only flag a first-person
+  line when it asserts a likely-invented checkable fact (a specific price paid,
+  a named real hotel reviewed as if stayed in).
+- Flag time-sensitive rules that assert an outcome instead of pointing to the
   official source.
 
 ### Banned phrases
