@@ -2,7 +2,7 @@
 """
 add_internal_links.py
 
-Inject a "Keep reading on Travel Now" section into every public article,
+Inject a "Keep reading on Gently Yonder" section into every public article,
 linking to 4-6 topically related siblings with a short hook each. The
 goal is to push link equity around the 18-article corpus so each piece
 benefits from the others' rankings, and to give readers an obvious next
@@ -410,7 +410,7 @@ def render_section(from_file: str) -> str:
     return (
         f'{MARK_BEGIN}\n'
         f'<section class="keep-reading" style="margin: 36px 0;">\n'
-        f'<h2>Keep reading on Travel Now</h2>\n'
+        f'<h2>Keep reading on Gently Yonder</h2>\n'
         f'<ul>\n'
         f'{items_html}\n'
         f'</ul>\n'

@@ -2,7 +2,7 @@
 """
 publish_article.py
 
-Convert a Travel Now article from content_drafts/{slug}.final.md and
+Convert a Gently Yonder article from content_drafts/{slug}.final.md and
 {slug}.meta.json into a publish-ready HTML page in site/articles/
 and docs/articles/, append the URL to sitemap.xml (both copies), and
 run audit_site.py.
@@ -98,7 +98,7 @@ def update_head(soup: BeautifulSoup, *, slug: str, meta: dict, label: str, body_
     url         = article_url(slug)
 
     if soup.title is not None:
-        soup.title.string = f"{title} | Travel Now"
+        soup.title.string = f"{title} | Gently Yonder"
     set_meta(soup, attr="name",     key="description", value=description)
     canonical = soup.find("link", attrs={"rel": "canonical"})
     if canonical is not None:
@@ -123,8 +123,8 @@ def update_head(soup: BeautifulSoup, *, slug: str, meta: dict, label: str, body_
         "url": url,
         "datePublished": today_iso(),
         "dateModified": today_iso(),
-        "author":    {"@type": "Organization", "name": "Travel Now", "url": f"{BASE_URL}/"},
-        "publisher": {"@type": "Organization", "name": "Travel Now", "url": f"{BASE_URL}/"},
+        "author":    {"@type": "Organization", "name": "Gently Yonder", "url": f"{BASE_URL}/"},
+        "publisher": {"@type": "Organization", "name": "Gently Yonder", "url": f"{BASE_URL}/"},
         "mainEntityOfPage": url,
         "articleSection": label,
         "inLanguage": "en",
@@ -146,7 +146,7 @@ def update_head(soup: BeautifulSoup, *, slug: str, meta: dict, label: str, body_
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Travel Now", "item": f"{BASE_URL}/"},
+            {"@type": "ListItem", "position": 1, "name": "Gently Yonder", "item": f"{BASE_URL}/"},
             {"@type": "ListItem", "position": 2, "name": "Guides",     "item": f"{BASE_URL}/#lists"},
             {"@type": "ListItem", "position": 3, "name": title},
         ],
@@ -219,7 +219,7 @@ def build_main_inner(*, meta: dict, body_md: str) -> str:
     newsletter_html = (
         '\n      <section class="newsletter-cta" data-reveal>\n'
         '        <div class="newsletter-inner">\n'
-        '          <span class="newsletter-label">Travel Now Weekly</span>\n'
+        '          <span class="newsletter-label">Gently Yonder Weekly</span>\n'
         '          <h2>Liked this guide? Get one like it, every week.</h2>\n'
         '          <p class="newsletter-desc">\n'
         '            Short, practical travel-prep emails. Country profiles, packing reminders, gear updates.\n'
@@ -237,7 +237,7 @@ def build_main_inner(*, meta: dict, body_md: str) -> str:
         '      </section>\n'
     )
 
-    back_link = '\n      <p class="back-link"><a href="../index.html">← Back to Travel Now</a></p>\n'
+    back_link = '\n      <p class="back-link"><a href="../index.html">← Back to Gently Yonder</a></p>\n'
 
     return (
         f'\n      <p class="article-lede">{lede_html}</p>\n\n'
@@ -299,7 +299,7 @@ def run_audit() -> int:
 # ─────────────────────────────────────────────────────────────────────
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Publish a Travel Now article from content_drafts/.")
+    p = argparse.ArgumentParser(description="Publish a Gently Yonder article from content_drafts/.")
     p.add_argument("--slug", required=True)
     p.add_argument("--category-label", help="override hero <p class='label'>")
     p.add_argument("--no-sitemap", action="store_true")

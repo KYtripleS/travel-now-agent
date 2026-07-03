@@ -205,20 +205,20 @@ def build_html(slug: str, row: dict, products: list[dict]) -> str:
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title} | Travel Now</title>
+  <title>{title} | Gently Yonder</title>
   <meta name="description" content="{meta_desc}" />
   <link rel="stylesheet" href="../style-v2.css" />
 </head>
 <body>
   <header class="hero article-hero">
-    <p class="label">Travel Now</p>
+    <p class="label">Gently Yonder</p>
     <h1>{title}</h1>
     <p class="subtitle">
-      A practical travel prep checklist from Travel Now.
+      A practical travel prep checklist from Gently Yonder.
     </p>
 
     <div class="buttons">
-      <a href="../index.html" class="button secondary">Back to Travel Now</a>
+      <a href="../index.html" class="button secondary">Back to Gently Yonder</a>
     </div>
   </header>
 
@@ -239,12 +239,12 @@ def build_html(slug: str, row: dict, products: list[dict]) -> str:
       </p>
 {products_block}
       <div class="tip-box">
-        <strong>Travel Now tip:</strong>
+        <strong>Gently Yonder tip:</strong>
         Run through this checklist the day before you leave, not the morning of your flight.
       </div>
 
       <p class="back-link">
-        <a href="../index.html">&#8592; Back to Travel Now</a>
+        <a href="../index.html">&#8592; Back to Gently Yonder</a>
       </p>
     </section>
   </main>
@@ -252,7 +252,7 @@ def build_html(slug: str, row: dict, products: list[dict]) -> str:
   <footer>
     <p>
       Disclosure: Some links on this page are affiliate links.
-      As an Amazon Associate, Travel Now may earn from qualifying purchases
+      As an Amazon Associate, Gently Yonder may earn from qualifying purchases
       at no extra cost to you.
     </p>
   </footer>

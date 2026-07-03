@@ -131,8 +131,8 @@ def country_page(row: dict) -> str:
         "url": url,
         "datePublished": date.today().isoformat(),
         "dateModified": date.today().isoformat(),
-        "author": {"@type": "Organization", "name": "Travel Now", "url": BASE_URL + "/"},
-        "publisher": {"@type": "Organization", "name": "Travel Now", "url": BASE_URL + "/"},
+        "author": {"@type": "Organization", "name": "Gently Yonder", "url": BASE_URL + "/"},
+        "publisher": {"@type": "Organization", "name": "Gently Yonder", "url": BASE_URL + "/"},
         "mainEntityOfPage": url,
         "inLanguage": "en",
     }
@@ -140,7 +140,7 @@ def country_page(row: dict) -> str:
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Travel Now", "item": BASE_URL + "/"},
+            {"@type": "ListItem", "position": 1, "name": "Gently Yonder", "item": BASE_URL + "/"},
             {"@type": "ListItem", "position": 2, "name": "Travel Power",
              "item": BASE_URL + "/travel-power/"},
             {"@type": "ListItem", "position": 3, "name": f"{country} adapter"},
@@ -161,7 +161,7 @@ def country_page(row: dict) -> str:
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>{e(title)} | Travel Now</title>
+<title>{e(title)} | Gently Yonder</title>
 <meta name="description" content="{e(desc)}" />
 <link rel="canonical" href="{url}" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
@@ -169,7 +169,7 @@ def country_page(row: dict) -> str:
 <meta property="og:title" content="{e(title)}" />
 <meta property="og:description" content="{e(desc)}" />
 <meta property="og:url" content="{url}" />
-<meta property="og:site_name" content="Travel Now" />
+<meta property="og:site_name" content="Gently Yonder" />
 <link rel="stylesheet" href="../style-v2.css" />
 <script type="application/ld+json">
 {json.dumps(article_schema, indent=2)}
@@ -186,7 +186,7 @@ def country_page(row: dict) -> str:
 <body>
 <nav class="breadcrumb" aria-label="Breadcrumb">
 <ol>
-<li><a href="../index.html">Travel Now</a></li>
+<li><a href="../index.html">Gently Yonder</a></li>
 <li><a href="index.html">Travel Power</a></li>
 <li aria-current="page">{e(country)}</li>
 </ol>
@@ -251,13 +251,13 @@ for international travel.</p>
 </div>
 
 <div class="tip-box">
-<strong>Travel Now tip:</strong> Reference data like plug types and voltage is stable, but
+<strong>Gently Yonder tip:</strong> Reference data like plug types and voltage is stable, but
 hotels and new builds vary. If a socket doesn't match, hotel reception almost always keeps
 spare adapters at the desk.
 </div>
 
 <section class="related-articles">
-<h2>Keep reading on Travel Now</h2>
+<h2>Keep reading on Gently Yonder</h2>
 <ul>
 <li><a href="../articles/everyday-carry-essentials-for-travel.html">Travel EDC Checklist</a> — the power bank, cables, and adapter that ride in your day bag.</li>
 <li><a href="../articles/esim-activation-and-preparation.html">eSIM Setup for International Travel</a> — land with data already working.</li>
@@ -267,7 +267,7 @@ spare adapters at the desk.
 </section>
 
 <p style="font-size:0.86rem;color:#647084;">
-Disclosure: this page contains affiliate links. As an Amazon Associate, Travel Now may earn
+Disclosure: this page contains affiliate links. As an Amazon Associate, Gently Yonder may earn
 from qualifying purchases at no extra cost to you. Plug and voltage data is provided as
 general preparation guidance — always check your device labels and confirm locally.
 </p>
@@ -275,7 +275,7 @@ general preparation guidance — always check your device labels and confirm loc
 </main>
 <footer>
 <p>
-Travel Now is an independent travel editorial project.
+Gently Yonder is an independent travel editorial project.
 <a href="../about.html">About</a> · <a href="../methodology.html">Methodology</a> ·
 <a href="../privacy.html">Privacy</a> ·
 <a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a>
@@ -307,7 +307,7 @@ def index_page(rows: list[dict]) -> str:
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Travel Now", "item": BASE_URL + "/"},
+            {"@type": "ListItem", "position": 1, "name": "Gently Yonder", "item": BASE_URL + "/"},
             {"@type": "ListItem", "position": 2, "name": "Travel Power"},
         ],
     }
@@ -319,7 +319,7 @@ def index_page(rows: list[dict]) -> str:
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>{e(title)} | Travel Now</title>
+<title>{e(title)} | Gently Yonder</title>
 <meta name="description" content="{e(desc)}" />
 <link rel="canonical" href="{url}" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
@@ -327,7 +327,7 @@ def index_page(rows: list[dict]) -> str:
 <meta property="og:title" content="{e(title)}" />
 <meta property="og:description" content="{e(desc)}" />
 <meta property="og:url" content="{url}" />
-<meta property="og:site_name" content="Travel Now" />
+<meta property="og:site_name" content="Gently Yonder" />
 <link rel="stylesheet" href="../style-v2.css" />
 <script type="application/ld+json">
 {json.dumps(breadcrumb_schema, indent=2)}
@@ -338,7 +338,7 @@ def index_page(rows: list[dict]) -> str:
 <body>
 <nav class="breadcrumb" aria-label="Breadcrumb">
 <ol>
-<li><a href="../index.html">Travel Now</a></li>
+<li><a href="../index.html">Gently Yonder</a></li>
 <li aria-current="page">Travel Power</li>
 </ol>
 </nav>
@@ -357,7 +357,7 @@ which, country by country.
 </p>
 {body}
 <div class="tip-box">
-<strong>Travel Now tip:</strong> One good universal adapter with USB-C covers almost everywhere
+<strong>Gently Yonder tip:</strong> One good universal adapter with USB-C covers almost everywhere
 in this list. See any country page for a current pick.
 </div>
 <section class="related-articles">
@@ -371,7 +371,7 @@ in this list. See any country page for a current pick.
 </main>
 <footer>
 <p>
-Travel Now is an independent travel editorial project.
+Gently Yonder is an independent travel editorial project.
 <a href="../about.html">About</a> · <a href="../methodology.html">Methodology</a> ·
 <a href="../privacy.html">Privacy</a> ·
 <a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a>

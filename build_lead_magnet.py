@@ -2,7 +2,7 @@
 """
 build_lead_magnet.py
 
-Render the Travel Now "Pre-Flight Checklist" lead magnet as a branded
+Render the Gently Yonder "Pre-Flight Checklist" lead magnet as a branded
 2-page A4 PDF. This is the incentive that turns a newsletter CTA into a
 signup: "Get the free printable checklist."
 
@@ -198,7 +198,7 @@ def page2_svg() -> str:
     body.append(f'<text x="{W/2}" y="1688" font-family="Georgia, serif" font-size="21" '
                 f'fill="{MUTED}" text-anchor="middle">always confirm current rules with your airline and departure airport.</text>')
     body.append(f'<text x="{W/2}" y="1726" font-family="Georgia, serif" font-size="20" '
-                f'fill="{MUTED}" text-anchor="middle">Page 2 of 2 • © Travel Now</text>')
+                f'fill="{MUTED}" text-anchor="middle">Page 2 of 2 • © Gently Yonder</text>')
 
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">\n' + "\n".join(body) + "\n</svg>"
 

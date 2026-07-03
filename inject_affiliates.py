@@ -132,7 +132,7 @@ def standalone_section(heading: str, intro: str, cards_html: list[str]) -> str:
         f'{cards}\n'
         f'</div>\n'
         f'<p style="font-size: 0.86rem; color: #647084; margin-top: 14px;">\n'
-        f'  Disclosure: links in this section are affiliate links. Travel Now may earn '
+        f'  Disclosure: links in this section are affiliate links. Gently Yonder may earn '
         f'  a commission if you book through them, at no extra cost to you.\n'
         f'</p>\n'
         f'</section>\n'
@@ -288,7 +288,7 @@ def process_file(rel_path: str, html: str) -> tuple[str, list[str]]:
             actions.append("inserted Klook into Travel-prep grid")
             html = new
         widget = widget_block(34, 2, "Hanoi & Ho Chi Minh City")
-        new, ok = insert_before(html, '<h2>Where to go next on Travel Now</h2>', widget)
+        new, ok = insert_before(html, '<h2>Where to go next on Gently Yonder</h2>', widget)
         if ok:
             actions.append("inserted Vietnam widget (city 34, cat 2)")
             html = new
@@ -302,7 +302,7 @@ def process_file(rel_path: str, html: str) -> tuple[str, list[str]]:
             actions.append("inserted Klook into Travel-prep grid")
             html = new
         widget = widget_block(68, 2, "Sydney & Melbourne")
-        new, ok = insert_before(html, '<h2>Where to go next on Travel Now</h2>', widget)
+        new, ok = insert_before(html, '<h2>Where to go next on Gently Yonder</h2>', widget)
         if ok:
             actions.append("inserted Australia widget (city 68, cat 2)")
             html = new
