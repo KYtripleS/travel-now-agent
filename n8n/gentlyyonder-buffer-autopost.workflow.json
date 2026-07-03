@@ -1,0 +1,73 @@
+{
+  "name": "Gently Yonder — Pinterest auto-post via Buffer",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            { "field": "cronExpression", "expression": "0 9,15,21 * * *" }
+          ]
+        }
+      },
+      "id": "schedule",
+      "name": "3x daily (09/15/21 JST)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [260, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://gentlyyonder.com/data/pins.json",
+        "options": {}
+      },
+      "id": "getpins",
+      "name": "Get pins.json",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Cycle through the pin list, one per run, no state file needed.\nconst data = $input.first().json;\nconst pins = (data && data.pins) || [];\nif (!pins.length) { throw new Error('pins.json empty'); }\nconst store = $getWorkflowStaticData('global');\nlet idx = typeof store.idx === 'number' ? store.idx : 0;\nif (idx >= pins.length) idx = 0;\nconst pin = pins[idx];\nstore.idx = idx + 1;\n// Pinterest description = title + description (kept under ~490 chars)\nconst text = (pin.title + '\\n\\n' + pin.description).slice(0, 490);\nreturn [{ json: { text, image: pin.image, link: pin.link, board: pin.board, slug: pin.slug } }];"
+      },
+      "id": "pick",
+      "name": "Pick next pin",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [700, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.bufferapp.com/1/updates/create.json",
+        "sendBody": true,
+        "contentType": "form-urlencoded",
+        "bodyParameters": {
+          "parameters": [
+            { "name": "access_token", "value": "={{ $env.BUFFER_ACCESS_TOKEN }}" },
+            { "name": "profile_ids[]", "value": "={{ $env.BUFFER_PROFILE_ID }}" },
+            { "name": "text", "value": "={{ $json.text }}" },
+            { "name": "media[link]", "value": "={{ $json.link }}" },
+            { "name": "media[photo]", "value": "={{ $json.image }}" },
+            { "name": "media[thumbnail]", "value": "={{ $json.image }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "buffer",
+      "name": "Queue in Buffer",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [920, 300]
+    }
+  ],
+  "connections": {
+    "3x daily (09/15/21 JST)": { "main": [[{ "node": "Get pins.json", "type": "main", "index": 0 }]] },
+    "Get pins.json": { "main": [[{ "node": "Pick next pin", "type": "main", "index": 0 }]] },
+    "Pick next pin": { "main": [[{ "node": "Queue in Buffer", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": {
+    "notes": "Set two env vars in n8n before running: BUFFER_ACCESS_TOKEN (your Buffer API token) and BUFFER_PROFILE_ID (the Gently Yonder Pinterest board profile id from GET https://api.bufferapp.com/1/profiles.json?access_token=...). Test with one manual run first; if Buffer's /1/updates/create returns an error, Buffer's public API access may be restricted — fall back to Buffer's own scheduler."
+  }
+}

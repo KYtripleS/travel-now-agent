@@ -1,0 +1,493 @@
+{
+  "count": 61,
+  "pins": [
+    {
+      "slug": "japan-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-photo.png",
+      "link": "https://gentlyyonder.com/countries/japan/",
+      "title": "Japan Country Profile: History, Geography & Travel Prep Guide",
+      "description": "An eight-section country profile for travelers heading to Japan — contested history, modern politics, society and culture, and practical travel prep. Written for first-time visitors who want depth before booking, not the usual destination lists. Read the full profile.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "vietnam-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/vietnam-photo.png",
+      "link": "https://gentlyyonder.com/countries/vietnam/",
+      "title": "Vietnam Country Profile: Geography",
+      "description": "History & Travel Prep",
+      "board": "A layered country profile for Vietnam — from Đông Sơn bronze drums to Đổi Mới reforms, food and street culture, and practical travel preparation. Long-form, source-backed, for travelers who want context before their trip."
+    },
+    {
+      "slug": "australia-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/australia-photo.png",
+      "link": "https://gentlyyonder.com/countries/australia/",
+      "title": "Australia Country Profile: Indigenous History to Modern Travel",
+      "description": "An eight-section country profile for Australia covering Aboriginal continuity, modern federation, society, culture, and practical travel prep. For travelers who want layered context — history, politics, society, culture, and prep checklists.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "tokyo-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/tokyo-photo.png",
+      "link": "https://gentlyyonder.com/cities/tokyo/",
+      "title": "Tokyo City Guide: A First-Time Visitor's Layered Introduction",
+      "description": "A long-form Tokyo city guide for first-time travelers — historic neighborhoods, modern districts, food culture, and practical preparation. Written for travelers who want to understand the city, not just see the highlights.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "asakusa-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/asakusa-photo.png",
+      "link": "https://gentlyyonder.com/cities/tokyo/asakusa.html",
+      "title": "Asakusa Tokyo Guide: Sensoji Temple, Edo Streets & Practical Tips",
+      "description": "A long-form guide to Asakusa, Tokyo's historic neighborhood — Sensoji temple history, Edo-era streets, practical visit tips, and nearby districts worth combining. For travelers exploring old Tokyo.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "airport-liquids-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/airport-liquids-photo.png",
+      "link": "https://gentlyyonder.com/articles/airport-security-liquids.html",
+      "title": "Airport Security Liquids Checklist: The 100ml Rule Made Simple",
+      "description": "A practical airport security liquids checklist — travel-size containers, the clear plastic bag rules, common rejections at security, and quick FAQ. Sort it before the line, not at the gate.",
+      "board": "Travel Prep Checklists"
+    },
+    {
+      "slug": "carry-on-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/carry-on-photo.png",
+      "link": "https://gentlyyonder.com/articles/airport-security-packing-moments.html",
+      "title": "Carry-On Packing Order: Pack for Airport Security Like a Pro",
+      "description": "Pack your carry-on in the order airport security expects — liquids on top, laptop accessible, passport in pocket, charger logic. A small reorder saves real stress at the screening line.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "beach-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/beach-photo.png",
+      "link": "https://gentlyyonder.com/articles/beach-trip-packing-checklist.html",
+      "title": "Beach Trip Packing Checklist: What to Pack for Tropical Destinations",
+      "description": "A practical packing list for beach and tropical trips — reef-safe sunscreen, packable sun hats, quick-dry towels, and the small items most travelers forget. Pack lighter, arrive ready.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "boat-day-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/boat-day-photo.png",
+      "link": "https://gentlyyonder.com/articles/charter-a-boat-for-a-day.html",
+      "title": "Charter a Boat in Europe: No Sailing License Required",
+      "description": "A research-grounded guide to renting a boat for a day in the UK, Italy, France, Spain, Croatia, and Greece — what licenses are actually required, what platforms to use, costs, and what to pack on board.",
+      "board": "Cultural Travel & Etiquette"
+    },
+    {
+      "slug": "esim-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/esim-photo.png",
+      "link": "https://gentlyyonder.com/articles/esim-activation-and-preparation.html",
+      "title": "eSIM Setup for International Travel: Activation Checklist",
+      "description": "A practical eSIM activation checklist — phone compatibility, choosing a data plan, offline backup tips, and quick answers before your flight. Save the scramble for something else.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "travel-edc-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/travel-edc-photo.png",
+      "link": "https://gentlyyonder.com/articles/everyday-carry-essentials-for-travel.html",
+      "title": "Travel EDC Checklist: Everyday Carry for International Trips",
+      "description": "A simple travel EDC list — power bank, water bottle, hand sanitizer, small cash. Pocket and personal-item setup that keeps your daily travel moments smoother.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "hotels-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/hotels-photo.png",
+      "link": "https://gentlyyonder.com/articles/hotel-booking-sites-comparison.html",
+      "title": "Hotel Booking Sites Compared: Hotels.com, Booking.com, Agoda & More",
+      "description": "A practical comparison of hotel booking sites — Hotels.com, Booking.com, Trip.com, Agoda, HotelsCombined. What each is good for, common mistakes, and how to choose for your next trip.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "untranslatable-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/untranslatable-photo.png",
+      "link": "https://gentlyyonder.com/articles/untranslatable-words.html",
+      "title": "14 Untranslatable Words Across 12 Languages: A Cultural Essay",
+      "description": "Saudade, komorebi, sisu, han, ubuntu — a research-grounded essay on 14 famously untranslatable words, what linguists say about why they resist English, and what travelers take home.",
+      "board": "Cultural Travel & Etiquette"
+    },
+    {
+      "slug": "etiquette-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/etiquette-photo.png",
+      "link": "https://gentlyyonder.com/articles/what-counts-as-rude.html",
+      "title": "What Counts as Rude in 12 Cultures: A Travel Etiquette Guide",
+      "description": "A long-form, academically grounded guide to what counts as rude in 12 cultures — Goffman's face theory, Hofstede's dimensions, and 12 country case studies with field examples for international travelers.",
+      "board": "Cultural Travel & Etiquette"
+    },
+    {
+      "slug": "south-korea-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/south-korea-photo.png",
+      "link": "https://gentlyyonder.com/articles/south-korea-country-profile.html",
+      "title": "South Korea Country Profile: History, Society & Travel Prep",
+      "description": "A layered country profile for South Korea — contested history, modern economy and politics, society and culture, and practical preparation. For travelers heading to Seoul or beyond who want context first.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "insurance-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/insurance-photo.png",
+      "link": "https://gentlyyonder.com/articles/travel-insurance-compared.html",
+      "title": "Travel Insurance Compared: SafetyWing vs World Nomads vs Genki",
+      "description": "A practical comparison of three popular travel insurance providers — who each suits, what is covered, notable exclusions, pricing, and a framework for choosing the right policy for your trip.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "capsule-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/capsule-photo.png",
+      "link": "https://gentlyyonder.com/articles/capsule-wardrobe-2-week-trips.html",
+      "title": "Capsule Wardrobe for 2-Week Trips: 10 Items, 3 Climates",
+      "description": "A practical packing guide on building a 10-item capsule wardrobe that works across hot tropical, temperate, and cool climates. Fabric choices, layering logic, color palette, and a laundry strategy abroad.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "japan-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-photo-w2.png",
+      "link": "https://gentlyyonder.com/countries/japan/",
+      "title": "Going to Japan? Country Profile to Read Before You Book",
+      "description": "A first-look country profile for travelers planning a Japan trip — history, geography, politics, society, culture, and a practical prep checklist. Long-form context for travelers who want depth before booking flights.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "vietnam-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/vietnam-photo-w2.png",
+      "link": "https://gentlyyonder.com/countries/vietnam/",
+      "title": "Planning a Vietnam Trip? Start With This Country Profile",
+      "description": "A layered Vietnam country profile to read before your trip — from Đông Sơn bronze drums to Đổi Mới reforms, food and street culture, and practical preparation. Context-first for thoughtful travelers.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "australia-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/australia-photo-w2.png",
+      "link": "https://gentlyyonder.com/countries/australia/",
+      "title": "Australia for First-Time Visitors: A Layered Country Guide",
+      "description": "A first-look country profile for Australia covering Aboriginal continuity, modern federation, politics, society, culture, and travel prep. Long-form context for travelers planning their first trip down under.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "tokyo-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/tokyo-photo-w2.png",
+      "link": "https://gentlyyonder.com/cities/tokyo/",
+      "title": "First Time in Tokyo? A Layered City Guide for Visitors",
+      "description": "A first-time Tokyo city guide — historic neighborhoods, modern districts, food culture, and practical preparation. Written for travelers who want to understand the city before they explore it.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "asakusa-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/asakusa-photo-w2.png",
+      "link": "https://gentlyyonder.com/cities/tokyo/asakusa.html",
+      "title": "Asakusa Walking Guide: A Half-Day in Old Tokyo",
+      "description": "A practical Asakusa walking guide — Sensoji temple history, Nakamise shopping street, Edo-era streets, and which nearby districts to combine for a smooth half-day visit.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "airport-liquids-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/airport-liquids-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/airport-security-liquids.html",
+      "title": "100ml Rule Cheat Sheet: Airport Liquids for Carry-On",
+      "description": "A quick-reference 100ml rule guide for carry-on liquids — travel-size containers, clear plastic bag basics, common rejections at security, and the FAQ that saves stress at the gate.",
+      "board": "Travel Prep Checklists"
+    },
+    {
+      "slug": "carry-on-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/carry-on-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/airport-security-packing-moments.html",
+      "title": "Carry-On Packing: The 4-Step Order Airport Security Wants",
+      "description": "A 4-step carry-on packing order that matches what airport security actually expects — liquids on top, laptop accessible, passport in pocket, charger logic. A small reorder, real time saved.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "beach-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/beach-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/beach-trip-packing-checklist.html",
+      "title": "Beach Trip Packing: What Travelers Actually Use",
+      "description": "A practical beach packing list focused on what travelers actually use — reef-safe sunscreen, packable sun hats, quick-dry towels, and the small items most travelers forget to bring.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "boat-day-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/boat-day-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/charter-a-boat-for-a-day.html",
+      "title": "Rent a Boat in Europe for a Day: No Sailing License",
+      "description": "A practical guide to chartering a boat for a day in Europe — UK, Italy, France, Spain, Croatia, and Greece. What licenses are actually required, what platforms to use, costs, and what to pack on board.",
+      "board": "Cultural Travel & Etiquette"
+    },
+    {
+      "slug": "esim-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/esim-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/esim-activation-and-preparation.html",
+      "title": "eSIM vs Roaming: A Simple Activation Guide for Travelers",
+      "description": "A simple eSIM activation guide for international travel — phone compatibility, choosing a data plan, offline backup tips, and quick answers before your flight. Saves the connectivity scramble after landing.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "travel-edc-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/travel-edc-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/everyday-carry-essentials-for-travel.html",
+      "title": "Travel EDC: Pocket Essentials That Earn Their Space",
+      "description": "A short travel EDC list focused on essentials that earn their pocket space — power bank, water bottle, hand sanitizer, small cash. Pocket and personal-item setup that keeps travel days lighter.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "hotels-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/hotels-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/hotel-booking-sites-comparison.html",
+      "title": "Booking.com vs Hotels.com vs Agoda: How to Decide Quickly",
+      "description": "A quick decision guide for booking hotels — Hotels.com, Booking.com, Trip.com, Agoda, HotelsCombined. What each is good for, common booking mistakes, and how to choose the right one for your trip.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "untranslatable-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/untranslatable-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/untranslatable-words.html",
+      "title": "Saudade, Komorebi, Hygge: What Travelers Take Home",
+      "description": "A reflective essay on 14 famously untranslatable words — saudade, komorebi, sisu, han, ubuntu, and more — what linguists say about why they resist English, and what travelers take home from each.",
+      "board": "Cultural Travel & Etiquette"
+    },
+    {
+      "slug": "etiquette-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/etiquette-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/what-counts-as-rude.html",
+      "title": "12 Countries, 12 Etiquette Rules Worth Knowing Before You Fly",
+      "description": "A research-grounded etiquette guide for 12 cultures — Goffman's face theory, Hofstede's dimensions, and 12 country case studies with field examples. For travelers who want to land respectful, not awkward.",
+      "board": "Cultural Travel & Etiquette"
+    },
+    {
+      "slug": "south-korea-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/south-korea-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/south-korea-country-profile.html",
+      "title": "Seoul and Beyond: A Layered South Korea Country Guide",
+      "description": "A layered South Korea country profile for travelers heading to Seoul or beyond — contested history, modern economy and politics, society and culture, and practical preparation in one place.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "insurance-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/insurance-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/travel-insurance-compared.html",
+      "title": "SafetyWing, World Nomads, Genki: Which Travel Insurance for You",
+      "description": "A practical travel insurance comparison — SafetyWing, World Nomads, Genki. Who each provider suits, what is covered, notable exclusions, pricing structure, and a framework for choosing the right policy.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "capsule-photo-w2",
+      "image": "https://gentlyyonder.com/images/pinterest/capsule-photo-w2.png",
+      "link": "https://gentlyyonder.com/articles/capsule-wardrobe-2-week-trips.html",
+      "title": "10-Item Capsule Wardrobe for 2-Week International Trips",
+      "description": "A practical 10-item capsule wardrobe for 2-week trips that works across hot tropical, temperate, and cool climates. Fabric choices, layering logic, color palette, and a laundry strategy abroad.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "japan-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-photo-w3.png",
+      "link": "https://gentlyyonder.com/countries/japan/",
+      "title": "Japan in 8 Sections: A Layered Guide for Travelers",
+      "description": "An eight-section country profile for Japan — history, geography, politics, economy, society, culture, and travel prep. Long-form context organised the way thoughtful travelers actually want to read it.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "vietnam-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/vietnam-photo-w3.png",
+      "link": "https://gentlyyonder.com/countries/vietnam/",
+      "title": "Vietnam in 8 Sections: A Layered Country Profile",
+      "description": "An eight-section country profile for Vietnam — Đông Sơn drums to Đổi Mới reforms, food culture, society, and practical preparation. Layered context for travelers who want depth before their trip.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "australia-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/australia-photo-w3.png",
+      "link": "https://gentlyyonder.com/countries/australia/",
+      "title": "Australia in 8 Sections: A Layered Country Profile",
+      "description": "An eight-section Australia country profile — Aboriginal history, federation, politics, economy, society, culture, and travel prep. Layered context for first-time visitors who want more than highlights.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "tokyo-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/tokyo-photo-w3.png",
+      "link": "https://gentlyyonder.com/cities/tokyo/",
+      "title": "Tokyo in 6 Districts: A First-Time Visitor's Layered Guide",
+      "description": "A layered Tokyo city guide organised by district — historic neighborhoods, modern areas, food culture, and practical preparation. For first-time travelers who want to understand the city's many layers.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "asakusa-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/asakusa-photo-w3.png",
+      "link": "https://gentlyyonder.com/cities/tokyo/asakusa.html",
+      "title": "Asakusa in 4 Stops: A Half-Day Walking Guide to Old Tokyo",
+      "description": "A 4-stop Asakusa walking guide — Sensoji temple, Nakamise shopping street, Edo-era streets, and the nearby districts worth pairing. Half a day, layered context, no rushing.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "airport-liquids-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/airport-liquids-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/airport-security-liquids.html",
+      "title": "Airport Security Liquids: 6 Common Rejections to Avoid",
+      "description": "The 6 mistakes most travelers make with carry-on liquids — and how to avoid each one before the security line. A practical 100ml-rule cheat sheet with common rejections and FAQ.",
+      "board": "Travel Prep Checklists"
+    },
+    {
+      "slug": "carry-on-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/carry-on-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/airport-security-packing-moments.html",
+      "title": "Carry-On Packing: 5 Mistakes That Slow You Down at Security",
+      "description": "The 5 carry-on packing mistakes that slow you down at airport security — liquids buried, laptop deep in the bag, passport in checked luggage, charger logic, and how to pack to avoid each.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "beach-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/beach-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/beach-trip-packing-checklist.html",
+      "title": "Beach Trip Packing: 10 Items Most Travelers Forget",
+      "description": "The 10 beach trip items most travelers forget — reef-safe sunscreen, packable sun hats, quick-dry towels, and the small extras that make tropical destinations smoother.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "boat-day-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/boat-day-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/charter-a-boat-for-a-day.html",
+      "title": "Charter a Boat in 6 European Countries: No License Required",
+      "description": "A research-grounded boat charter guide across 6 European countries — UK, Italy, France, Spain, Croatia, and Greece. License rules, platforms, costs, and what to pack on board for the day.",
+      "board": "Cultural Travel & Etiquette"
+    },
+    {
+      "slug": "esim-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/esim-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/esim-activation-and-preparation.html",
+      "title": "eSIM Activation in 4 Steps: 10 Minutes Before Your Flight",
+      "description": "A 4-step eSIM activation checklist — phone compatibility, plan choice, offline backup, and pre-flight setup. 10 minutes the night before saves the connectivity scramble after landing.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "travel-edc-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/travel-edc-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/everyday-carry-essentials-for-travel.html",
+      "title": "Travel EDC: 6 Items That Earn Their Pocket Space",
+      "description": "The 6 travel everyday-carry items that earn their pocket space — power bank, water bottle, hand sanitizer, small cash, and the personal-item setup that keeps trip days lighter.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "hotels-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/hotels-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/hotel-booking-sites-comparison.html",
+      "title": "Hotel Booking: 5 Mistakes That Cost You Real Money",
+      "description": "The 5 hotel booking mistakes that quietly cost real money — and how to avoid each. Comparison of Hotels.com, Booking.com, Trip.com, Agoda, and HotelsCombined for your next trip.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "untranslatable-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/untranslatable-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/untranslatable-words.html",
+      "title": "14 Untranslatable Words and Why They Resist English",
+      "description": "A research-grounded essay on 14 famously untranslatable words — saudade, komorebi, sisu, han, ubuntu — what linguists actually say about why they resist English, and what travelers take home.",
+      "board": "Cultural Travel & Etiquette"
+    },
+    {
+      "slug": "etiquette-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/etiquette-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/what-counts-as-rude.html",
+      "title": "What Counts as Rude: 12 Countries, 12 Etiquette Rules Compared",
+      "description": "A research-grounded etiquette comparison across 12 countries — Goffman's face theory, Hofstede's dimensions, and country case studies with field examples for international travelers.",
+      "board": "Cultural Travel & Etiquette"
+    },
+    {
+      "slug": "south-korea-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/south-korea-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/south-korea-country-profile.html",
+      "title": "South Korea in 8 Sections: A Layered Country Profile",
+      "description": "An eight-section South Korea country profile — contested history, modern economy, politics, society and culture, and travel prep. Long-form context for travelers heading to Seoul or beyond.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "insurance-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/insurance-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/travel-insurance-compared.html",
+      "title": "Travel Insurance: How to Pick in 5 Minutes (SafetyWing vs World Nomads vs Genki)",
+      "description": "A 5-minute travel insurance decision framework comparing SafetyWing, World Nomads, and Genki. Who each provider suits, what is covered, exclusions, pricing, and the questions to ask.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "capsule-photo-w3",
+      "image": "https://gentlyyonder.com/images/pinterest/capsule-photo-w3.png",
+      "link": "https://gentlyyonder.com/articles/capsule-wardrobe-2-week-trips.html",
+      "title": "Capsule Wardrobe: 10 Items, 3 Climates, 14 Days of Travel",
+      "description": "A 10-item travel capsule wardrobe that works across hot tropical, temperate, and cool climates for 14 days. Fabric choices, layering logic, color palette, and a laundry strategy abroad.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "airport-bags-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/airport-bags-photo.png",
+      "link": "https://gentlyyonder.com/articles/airport-security-bag-rules.html",
+      "title": "Airport Security Bags: Carry-On Size, Personal Item & What Actually Fits",
+      "description": "A practical guide to airport-compatible bags for international travel — carry-on size rules across major airlines, personal item dimensions, common rejections at the gate, and a decision framework for picking a bag that survives security and the overhead bin.",
+      "board": "Travel Prep Checklists"
+    },
+    {
+      "slug": "airport-security-checklist-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/airport-security-checklist-photo.png",
+      "link": "https://gentlyyonder.com/articles/airport-security-checklist.html",
+      "title": "Airport Security Checklist: A 12-Point Pre-Flight Verification (2026)",
+      "description": "A 12-point pre-flight airport security checklist for international travelers — TSA, EU, UK, Japan, and Australia rules compared. Liquids, electronics, documents, prohibited items, and the packing order that gets you through faster. Pre-flight, not at the gate.",
+      "board": "Travel Prep Checklists"
+    },
+    {
+      "slug": "safetywing-vs-world-nomads-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/safetywing-vs-world-nomads-photo.png",
+      "link": "https://gentlyyonder.com/articles/safetywing-vs-world-nomads.html",
+      "title": "SafetyWing vs World Nomads: Which Travel Insurance Wins in 2026?",
+      "description": "A head-to-head travel insurance comparison: SafetyWing's subscription model versus World Nomads' adventure cover. Coverage scope, pricing for long-stay travelers, claims experience, and a decision framework for digital nomads in 2026.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "tokyo-book-ahead-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/tokyo-book-ahead-photo.png",
+      "link": "https://gentlyyonder.com/cities/tokyo/",
+      "title": "Tokyo: Five Experiences Worth Booking Ahead",
+      "description": "Five Tokyo experiences worth locking in before you fly — TeamLab Borderless, Tsukiji food tours, Asakusa kimono rentals, and Mt. Fuji day trips. Tickets that sell out and small-group tours that fill fast, sorted before you leave home.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "esim-3way-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/esim-3way-photo.png",
+      "link": "https://gentlyyonder.com/articles/airalo-vs-holafly-vs-saily.html",
+      "title": "Airalo vs Holafly vs Saily: Which Travel eSIM Wins in 2026?",
+      "description": "A head-to-head comparison of the three biggest travel eSIM providers — Airalo for coverage breadth, Holafly for unlimited data, Saily for value. Plans, pricing, speed, and which one suits your trip.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "tours-3way-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/tours-3way-photo.png",
+      "link": "https://gentlyyonder.com/articles/klook-vs-viator-vs-getyourguide.html",
+      "title": "Klook vs Viator vs GetYourGuide: Best Way to Book Tours in 2026",
+      "description": "Which tours-and-activities platform to use where — Klook for Asia, GetYourGuide for Europe, Viator for global long-tail. Inventory, cancellation, and price compared.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "asia-esim-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/asia-esim-photo.png",
+      "link": "https://gentlyyonder.com/articles/best-esim-japan-korea-vietnam.html",
+      "title": "Best eSIM for Japan, South Korea & Vietnam (2026 Guide)",
+      "description": "Destination-by-destination eSIM picks for three popular Asian countries — coverage notes, data needs, rough pricing, and how to set it up before you fly.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "wifi-vs-esim-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/wifi-vs-esim-photo.png",
+      "link": "https://gentlyyonder.com/articles/pocket-wifi-vs-esim.html",
+      "title": "Pocket WiFi vs eSIM: Which Is Better for International Travel?",
+      "description": "eSIM for solo and light travelers, pocket WiFi for families and groups — cost, battery, multi-device sharing, and setup compared, plus when to use both.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "nomad-insurance-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/nomad-insurance-photo.png",
+      "link": "https://gentlyyonder.com/articles/best-travel-insurance-digital-nomads-2026.html",
+      "title": "Best Travel Insurance for Digital Nomads in 2026: A Buyer's Guide",
+      "description": "What makes nomad insurance different — long durations, multiple countries, working abroad. Key decision factors and which policy type fits which kind of traveler.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "kyoto-slow-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/kyoto-slow-photo.png",
+      "link": "https://gentlyyonder.com/articles/three-slow-days-in-kyoto.html",
+      "title": "Three Slow Days in Kyoto: A Gentle First-Timer's Itinerary",
+      "description": "An unhurried 3-day Kyoto itinerary for first-timers — Fushimi Inari at dawn, the Higashiyama lanes, the Philosopher's Path, and Arashiyama's bamboo. Slow mornings, trains, and tea over a rushed checklist.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    }
+  ]
+}
