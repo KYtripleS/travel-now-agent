@@ -28,7 +28,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// Cycle through the pin list one per run (no state file needed), then build\n// the Buffer GraphQL createPost body. Buffer's new API lives at\n// https://api.buffer.com and takes { query, variables }.\nconst data = $input.first().json;\nconst pins = (data && data.pins) || [];\nif (!pins.length) { throw new Error('pins.json empty'); }\n\nconst store = $getWorkflowStaticData('global');\nlet idx = typeof store.idx === 'number' ? store.idx : 0;\nif (idx >= pins.length) idx = 0;\nconst pin = pins[idx];\nstore.idx = idx + 1;\n\n// Pinterest description = title + description + link (kept under ~480 chars).\n// The article link goes in the text as a fallback destination; once the first\n// post succeeds we can move it to the Pinterest destination-URL field.\nconst text = (pin.title + '\\n\\n' + pin.description + '\\n\\n' + pin.link).slice(0, 480);\n\nconst query = 'mutation Create($input: CreatePostInput!) { createPost(input: $input) { __typename ... on PostActionSuccess { post { id } } ... on MutationError { message } } }';\n\nconst graphqlBody = {\n  query,\n  variables: {\n    input: {\n      text,\n      channelId: $env.BUFFER_CHANNEL_ID,\n      schedulingType: 'automatic',\n      mode: 'addToQueue',\n      assets: [ { image: { url: pin.image } } ]\n    }\n  }\n};\n\nreturn [{ json: { graphqlBody, slug: pin.slug } }];"
+        "jsCode": "// Cycle through the pin list one per run (no state file needed), then build\n// the Buffer GraphQL createPost body. Buffer's new API lives at\n// https://api.buffer.com and takes { query, variables }.\nconst data = $input.first().json;\nconst pins = (data && data.pins) || [];\nif (!pins.length) { throw new Error('pins.json empty'); }\n\nconst store = $getWorkflowStaticData('global');\nlet idx = typeof store.idx === 'number' ? store.idx : 0;\nif (idx >= pins.length) idx = 0;\nconst pin = pins[idx];\nstore.idx = idx + 1;\n\n// Pinterest description = title + description + link (kept under ~480 chars).\n// The article link goes in the text as a fallback destination; once the first\n// post succeeds we can move it to the Pinterest destination-URL field.\nconst text = (pin.title + '\\n\\n' + pin.description + '\\n\\n' + pin.link).slice(0, 480);\n\n// Paste your Pinterest channel id below (from buffer_get_channel.py). It is\n// not secret. Do NOT use $env here — many n8n instances block env access.\nconst CHANNEL_ID = 'PASTE_YOUR_PINTEREST_CHANNEL_ID';\n\nconst query = 'mutation Create($input: CreatePostInput!) { createPost(input: $input) { __typename ... on PostActionSuccess { post { id } } ... on MutationError { message } } }';\n\nconst graphqlBody = {\n  query,\n  variables: {\n    input: {\n      text,\n      channelId: CHANNEL_ID,\n      schedulingType: 'automatic',\n      mode: 'addToQueue',\n      assets: [ { image: { url: pin.image } } ]\n    }\n  }\n};\n\nreturn [{ json: { graphqlBody, slug: pin.slug } }];"
       },
       "id": "pick",
       "name": "Pick next pin + build query",
@@ -40,12 +40,8 @@
       "parameters": {
         "method": "POST",
         "url": "https://api.buffer.com",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            { "name": "Authorization", "value": "=Bearer {{ $env.BUFFER_ACCESS_TOKEN }}" }
-          ]
-        },
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify($json.graphqlBody) }}",
@@ -65,6 +61,6 @@
   },
   "settings": { "executionOrder": "v1" },
   "meta": {
-    "notes": "Buffer NEW GraphQL API (public beta). Endpoint: https://api.buffer.com, auth: 'Authorization: Bearer <personal key>', body: {query, variables}. Set TWO env vars in n8n: BUFFER_ACCESS_TOKEN (your personal key) and BUFFER_CHANNEL_ID (your Pinterest channel id). Get the channel id by POSTing to https://api.buffer.com with these two queries: (1) query { account { organizations { id name } } }  -> copy the organization id; (2) query { channels(input:{organizationId:\"ORG_ID\"}) { id name service } } -> copy the id where service is 'pinterest'. Test with one manual run before enabling the schedule. Pinterest destination URL: for now the article link is appended to the post text; if createPost returns a MutationError about a required destination/link, we add the Pinterest metadata field."
+    "notes": "Buffer NEW GraphQL API (public beta). Endpoint: https://api.buffer.com, body: {query, variables}. Setup for a local n8n (no env vars needed): (1) In the 'createPost (Buffer GraphQL)' node set Authentication = Generic Credential Type > Header Auth, create a credential with Name 'Authorization' and Value 'Bearer <your personal key>' (stored encrypted, never exported in this JSON). (2) In the 'Pick next pin + build query' node replace PASTE_YOUR_PINTEREST_CHANNEL_ID with your Pinterest channel id (get it via buffer_get_channel.py, or POST to https://api.buffer.com: query { account { organizations { id } } } then query { channels(input:{organizationId:\"ORG_ID\"}) { id name service } } and take the id where service is 'pinterest'). Test one manual run before enabling the schedule. The article link is appended to the post text; if createPost returns a MutationError about a required Pinterest destination URL, we add the metadata field."
   }
 }
