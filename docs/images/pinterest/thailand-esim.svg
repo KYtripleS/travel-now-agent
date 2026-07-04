@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#172033;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d1421;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E5C76B;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1500" fill="url(#bgGrad)"/>
+
+  <!-- decorative dots -->
+  <g opacity="0.18" fill="#C9A84C">
+    <circle cx="120" cy="180" r="2"/>
+    <circle cx="850" cy="220" r="3"/>
+    <circle cx="200" cy="350" r="2"/>
+    <circle cx="780" cy="420" r="2"/>
+    <circle cx="100" cy="1280" r="2"/>
+    <circle cx="900" cy="1320" r="3"/>
+    <circle cx="150" cy="700" r="2"/>
+    <circle cx="880" cy="900" r="2"/>
+  </g>
+
+  <!-- Header: GENTLY YONDER -->
+  <text x="500" y="120" font-family="Georgia, serif" font-size="28" fill="#C9A84C" text-anchor="middle" letter-spacing="8">GENTLY YONDER</text>
+  <line x1="430" y1="145" x2="570" y2="145" stroke="#C9A84C" stroke-width="2"/>
+
+  <!-- Medallion: SIM card with signal arcs (coverage theme) -->
+  <circle cx="500" cy="350" r="160" fill="#F8F4E9" stroke="url(#goldGrad)" stroke-width="6"/>
+  <!-- signal arcs -->
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="10" stroke-linecap="round">
+    <path d="M 455 300 A 64 64 0 0 1 545 300"/>
+    <path d="M 432 272 A 96 96 0 0 1 568 272"/>
+    <path d="M 409 244 A 128 128 0 0 1 591 244"/>
+  </g>
+  <!-- SIM card body with notched corner -->
+  <path d="M 448 322 L 532 322 L 560 350 L 560 438 L 448 438 Z" fill="#172033"/>
+  <!-- gold contact chip -->
+  <rect x="474" y="360" width="60" height="44" rx="8" fill="url(#goldGrad)"/>
+  <line x1="494" y1="360" x2="494" y2="404" stroke="#172033" stroke-width="3"/>
+  <line x1="514" y1="360" x2="514" y2="404" stroke="#172033" stroke-width="3"/>
+  <line x1="474" y1="382" x2="534" y2="382" stroke="#172033" stroke-width="3"/>
+
+  <!-- Massive title -->
+  <text x="500" y="650" font-family="Georgia, serif" font-size="130" font-weight="700" fill="#F8F4E9" text-anchor="middle" letter-spacing="-2">THAILAND</text>
+
+  <!-- Tagline -->
+  <text x="500" y="720" font-family="Georgia, serif" font-size="36" font-style="italic" fill="#C9A84C" text-anchor="middle">Your travel eSIM, island to island</text>
+
+  <!-- Gold divider -->
+  <line x1="380" y1="780" x2="620" y2="780" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <!-- Bullet list with gold diamond markers -->
+  <g font-family="Georgia, serif" font-size="38" fill="#F8F4E9">
+    <polygon points="280,855 295,870 280,885 265,870" fill="url(#goldGrad)"/>
+    <text x="320" y="880">eSIM vs local SIM</text>
+
+    <polygon points="280,920 295,935 280,950 265,935" fill="url(#goldGrad)"/>
+    <text x="320" y="945">Data for a Thai journey</text>
+
+    <polygon points="280,985 295,1000 280,1015 265,1000" fill="url(#goldGrad)"/>
+    <text x="320" y="1010">Airalo &amp; Saily options</text>
+
+    <polygon points="280,1050 295,1065 280,1080 265,1065" fill="url(#goldGrad)"/>
+    <text x="320" y="1075">Island &amp; remote coverage</text>
+  </g>
+
+  <!-- Bottom gold divider -->
+  <line x1="380" y1="1150" x2="620" y2="1150" stroke="url(#goldGrad)" stroke-width="3"/>
+
+  <!-- CTA pill button -->
+  <rect x="250" y="1200" width="500" height="100" rx="50" fill="url(#goldGrad)"/>
+  <text x="500" y="1262" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#172033" text-anchor="middle">Read the 2026 guide →</text>
+
+  <!-- URL hint at bottom -->
+  <text x="500" y="1410" font-family="Georgia, serif" font-size="24" fill="#8a96aa" text-anchor="middle">gentlyyonder • best-esim-thailand-2026</text>
+</svg>
