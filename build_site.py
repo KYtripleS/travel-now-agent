@@ -18,18 +18,6 @@ CATEGORY_IDS = {
     "Travel Health & Insurance": "insurance",
 }
 
-CATEGORY_ICONS = {
-    "eSIM & Connectivity": "📶",
-    "Packing Essentials": "🎒",
-    "Flight Comfort": "✈️",
-    "Power & Charging": "🔋",
-    "Travel Safety": "🛡️",
-    "Camera Travel Gear": "📷",
-    "Sun & Beach": "🌞",
-    "Hotel Stay Comfort": "🏨",
-    "Travel Health & Insurance": "🏥",
-}
-
 CHECKLISTS = {
     "eSIM & Connectivity": [
         "Check if your phone supports eSIM",
@@ -113,14 +101,13 @@ def read_products():
 
 def build_directory_column(category, products):
     """Emit one IMF-style column: heading + ul of product links."""
-    icon = CATEGORY_ICONS[category]
     section_id = CATEGORY_IDS[category]
     items = "\n".join(
         f'            <li><a href="{p["url"]}" rel="nofollow sponsored noopener" target="_blank">{p["item"]}</a></li>'
         for p in products
     )
     return f"""        <div class="directory-col" id="{section_id}">
-          <h3>{icon} {category}</h3>
+          <h3>{category}</h3>
           <ul>
 {items}
           </ul>
