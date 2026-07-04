@@ -80,6 +80,8 @@ SLIDES: list[dict[str, str]] = [
      "title": "Best eSIM for Europe (2026)", "img": "europe-esim"},
     {"href": "articles/best-esim-thailand-2026.html", "tag": "Connectivity",
      "title": "Best eSIM for Thailand (2026)", "img": "thailand-esim"},
+    {"href": "articles/best-esim-japan-2026.html", "tag": "Connectivity",
+     "title": "Best eSIM for Japan (2026)", "img": "japan-esim-photo"},
     {"href": "articles/pocket-wifi-vs-esim.html", "tag": "Connectivity",
      "title": "Pocket WiFi vs eSIM", "img": "wifi-vs-esim-photo"},
     # — insurance —
