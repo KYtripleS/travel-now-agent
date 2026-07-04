@@ -1,5 +1,5 @@
 {
-  "count": 61,
+  "count": 62,
   "pins": [
     {
       "slug": "japan-photo",
@@ -488,6 +488,14 @@
       "title": "Three Slow Days in Kyoto: A Gentle First-Timer's Itinerary",
       "description": "An unhurried 3-day Kyoto itinerary for first-timers — Fushimi Inari at dawn, the Higashiyama lanes, the Philosopher's Path, and Arashiyama's bamboo. Slow mornings, trains, and tea over a rushed checklist.",
       "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "japan-esim-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-esim-photo.png",
+      "link": "https://gentlyyonder.com/articles/best-esim-japan-2026.html",
+      "title": "Best eSIM for Japan (2026): How I'd Choose",
+      "description": "How much data a Japan trip really uses, Airalo vs Saily honestly compared, which local networks they run on, and how to set everything up before you land. Calm, practical guidance.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
     }
   ]
 }
