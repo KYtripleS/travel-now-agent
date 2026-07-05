@@ -46,6 +46,16 @@ def fit_title_size(title: str) -> int:
     return 95
 
 
+def fit_cta_size(cta: str) -> int:
+    # Keep the CTA inside the 500px gold pill (~460px usable at Georgia bold).
+    n = len(cta)
+    if n <= 27:
+        return 36
+    if n <= 30:
+        return 32
+    return 30
+
+
 def pexels_search(query: str, api_key: str) -> str:
     """Search Pexels and return the URL of the best portrait photo."""
     r = requests.get(
@@ -101,6 +111,7 @@ def fill_template(
         "{{BULLET2}}": xml_escape(bullets[1]),
         "{{BULLET3}}": xml_escape(bullets[2]),
         "{{BULLET4}}": xml_escape(bullets[3]),
+        "{{CTA_SIZE}}": str(fit_cta_size(cta)),
         "{{CTA}}": xml_escape(cta),
         "{{URL_HINT}}": xml_escape(url_hint),
     }
