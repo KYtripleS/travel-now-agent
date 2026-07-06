@@ -100,10 +100,32 @@ def country_page(row: dict) -> str:
             f"need a travel adapter or voltage converter, and what to pack.")
     amazon = amazon_link(country)
 
+    # Does this country's socket physically accept US-style Type A flat pins?
+    plug_list = [t.strip() for t in plug.replace(" and ", ",").split(",") if t.strip()]
+    takes_us_plug = "A" in plug_list
+    if takes_us_plug:
+        us_answer = (f"Physically, yes — {country}'s outlets accept Type A flat-pin plugs, the "
+                     f"same shape used in the US. But the supply is {volt}, not the US's 120 V, "
+                     f"so confirm each device is dual-voltage (marked 100–240 V) before plugging in.")
+    else:
+        us_answer = (f"Not directly — US Type A/B plugs do not fit {country}'s Type {plug} "
+                     f"outlets, so you will need a plug adapter. Most US phone and laptop "
+                     f"chargers are dual-voltage and handle {country}'s {volt} supply once the "
+                     f"pins fit; single-voltage appliances may also need a converter.")
+
     faq = [
         (f"What plug type does {country} use?",
          f"{country} uses Type {plug} plugs at {volt}, {freq}. If your devices use a "
          f"different plug type, you will need a travel plug adapter."),
+        (f"What do power outlets in {country} look like?",
+         f"Power outlets in {country} take Type {plug} plugs and supply {volt} at {freq}. "
+         f"Wall sockets are shaped for those electrical plug types only, so travelers whose "
+         f"chargers use a different pin shape need a plug adapter to use the outlets."),
+        (f"What voltage does {country} use?",
+         f"{country} runs on {volt} at {freq}. Dual-voltage electronics (marked 100–240 V) "
+         f"work there with just a plug adapter; single-voltage devices from countries on a "
+         f"different standard need a voltage converter."),
+        (f"Do US plugs work in {country}?", us_answer),
         (f"Do I need a voltage converter for {country}?",
          f"{country} runs at {volt}. Most modern phones, laptops and camera chargers are "
          f"dual-voltage (rated 100–240 V) and need only a plug adapter, not a converter. "
