@@ -1,5 +1,5 @@
 {
-  "count": 62,
+  "count": 71,
   "pins": [
     {
       "slug": "japan-photo",
@@ -495,6 +495,78 @@
       "link": "https://gentlyyonder.com/articles/best-esim-japan-2026.html",
       "title": "Best eSIM for Japan (2026): How I'd Choose",
       "description": "How much data a Japan trip really uses, Airalo vs Saily honestly compared, which local networks they run on, and how to set everything up before you land. Calm, practical guidance.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "insurance-genki-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/insurance-genki-photo.png",
+      "link": "https://gentlyyonder.com/articles/travel-insurance-compared.html",
+      "title": "Genki Travel Insurance, Honestly: Who It Fits and Where It's Weak",
+      "description": "Is Genki travel insurance right for your trip? An honest look at its long-stay, health-insurance-style coverage — who it fits, where it's weak, and how it compares to SafetyWing and World Nomads.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "insurance-claims-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/insurance-claims-photo.png",
+      "link": "https://gentlyyonder.com/articles/travel-insurance-compared.html",
+      "title": "Why Travel Insurance Claims Get Denied (Read Before You Buy)",
+      "description": "Why travel insurance claims get denied — pre-existing condition rules, activity exclusions, and the paperwork that actually pays. Read this before you buy a policy.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "insurance-3way-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/insurance-3way-photo.png",
+      "link": "https://gentlyyonder.com/articles/travel-insurance-compared.html",
+      "title": "SafetyWing vs World Nomads vs Genki: An Honest 3-Way Comparison",
+      "description": "SafetyWing vs World Nomads vs Genki, honestly compared: nomad subscriptions, adventure coverage, long-stay health plans, and which insurer fits which kind of trip.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "vnjp-esim-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/vnjp-esim-photo.png",
+      "link": "https://gentlyyonder.com/articles/best-esim-japan-korea-vietnam.html",
+      "title": "eSIM for Vietnam and Japan: One Plan or Two? The Honest Math",
+      "description": "Traveling Vietnam and Japan on one trip? The honest math on one regional eSIM vs two single-country plans — per-GB prices, top-ups, and setup before you fly.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "asia-esim-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/asia-esim-photo.png",
+      "link": "https://gentlyyonder.com/articles/best-esim-japan-korea-vietnam.html",
+      "title": "One eSIM for Japan, Korea & Vietnam: Regional Plans Compared",
+      "description": "One eSIM for Japan, Korea & Vietnam: regional Asia plans compared, fair-use fine print, and how to land in all three countries with data already working.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "esim-3country-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/esim-3country-photo.png",
+      "link": "https://gentlyyonder.com/articles/best-esim-japan-korea-vietnam.html",
+      "title": "The Multi-Stop Asia eSIM Playbook: Regional vs Single-Country",
+      "description": "The multi-stop Asia eSIM playbook — regional vs single-country plans, sizing data for each leg, activation timing, and keeping your home SIM alive.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "japan-data-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-data-photo.png",
+      "link": "https://gentlyyonder.com/articles/best-esim-japan-2026.html",
+      "title": "How Much Data Does a Week in Japan Take? (3-5 GB, Usually)",
+      "description": "How much data does a week in Japan actually take? 3-5 GB covers most trips — here's what eats data (maps, transit, hotspot) and when to size up.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "japan-esim-choice-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-esim-choice-photo.png",
+      "link": "https://gentlyyonder.com/articles/best-esim-japan-2026.html",
+      "title": "Airalo or Saily for Japan? A Calm, Honest Comparison",
+      "description": "Airalo or Saily for Japan? A calm comparison: per-GB prices, which local networks they run on (docomo, au, SoftBank), app experience, and top-up flexibility.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "japan-arrival-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-arrival-photo.png",
+      "link": "https://gentlyyonder.com/articles/best-esim-japan-2026.html",
+      "title": "Set Up Your Japan eSIM Before Boarding: Land Connected",
+      "description": "Set up your Japan eSIM before boarding: install on home WiFi, toggle on when you land, skip the airport SIM queues, and keep your home number active.",
       "board": "Travel Tech: eSIM, Insurance & Booking"
     }
   ]
