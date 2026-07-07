@@ -119,6 +119,10 @@ SLIDES: list[dict[str, str]] = [
      "title": "Best eSIM for South Korea (2026): How I'd Choose", "img": "asia-esim-photo"},
     {"href": "articles/jr-pass-worth-it-2026.html", "tag": "Japan Rail",
      "title": "Is the JR Pass Worth It in 2026? The Honest Math", "img": "japan-data-photo"},
+    {"href": "articles/best-time-to-visit-vietnam.html", "tag": "Seasonal",
+     "title": "Best Time to Visit Vietnam (2026): Region by Region", "img": "vnjp-esim-photo"},
+    {"href": "articles/first-international-trip-checklist.html", "tag": "Travel Prep",
+     "title": "Your First International Trip: A Calm Checklist", "img": "best-esim-ranking-photo"},
 ]
 
 
