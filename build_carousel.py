@@ -109,6 +109,12 @@ SLIDES: list[dict[str, str]] = [
      "title": "Best eSIM for the USA (2026): How I'd Choose", "img": "japan-arrival-photo"},
     {"href": "articles/is-travel-insurance-worth-it.html", "tag": "Travel Safety",
      "title": "Is Travel Insurance Actually Worth It?", "img": "insurance-claims-photo"},
+    {"href": "articles/japan-autumn-2026.html", "tag": "Seasonal",
+     "title": "Japan in Autumn 2026: Foliage, Crowds & Planning", "img": "kyoto-slow-photo"},
+    {"href": "articles/japan-book-in-advance-2026.html", "tag": "Tours & Activities",
+     "title": "Japan Tickets That Sell Out: Book Before You Fly", "img": "japan-photo-w2"},
+    {"href": "articles/travel-insurance-japan.html", "tag": "Travel Safety",
+     "title": "Do You Need Travel Insurance for Japan?", "img": "japan-arrival-photo"},
 ]
 
 
