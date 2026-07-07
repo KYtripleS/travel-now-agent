@@ -115,6 +115,10 @@ SLIDES: list[dict[str, str]] = [
      "title": "Japan Tickets That Sell Out: Book Before You Fly", "img": "japan-photo-w2"},
     {"href": "articles/travel-insurance-japan.html", "tag": "Travel Safety",
      "title": "Do You Need Travel Insurance for Japan?", "img": "japan-arrival-photo"},
+    {"href": "articles/best-esim-south-korea-2026.html", "tag": "Connectivity",
+     "title": "Best eSIM for South Korea (2026): How I'd Choose", "img": "asia-esim-photo"},
+    {"href": "articles/jr-pass-worth-it-2026.html", "tag": "Japan Rail",
+     "title": "Is the JR Pass Worth It in 2026? The Honest Math", "img": "japan-data-photo"},
 ]
 
 
