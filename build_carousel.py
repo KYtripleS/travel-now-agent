@@ -123,6 +123,14 @@ SLIDES: list[dict[str, str]] = [
      "title": "Best Time to Visit Vietnam (2026): Region by Region", "img": "vnjp-esim-photo"},
     {"href": "articles/first-international-trip-checklist.html", "tag": "Travel Prep",
      "title": "Your First International Trip: A Calm Checklist", "img": "best-esim-ranking-photo"},
+    {"href": "articles/best-time-to-visit-japan-2026.html", "tag": "Seasonal",
+     "title": "Best Time to Visit Japan (2026): A Season-Honest Guide", "img": "japan-autumn-photo"},
+    {"href": "articles/seoul-itinerary-3-days.html", "tag": "Itinerary",
+     "title": "Seoul in 3 Days: A First-Timer's Unhurried Itinerary", "img": "asia-esim-photo"},
+    {"href": "articles/jet-lag-what-actually-works.html", "tag": "Flight Comfort",
+     "title": "Jet Lag, Honestly: What Helps, What's Myth", "img": "japan-esim-choice-photo"},
+    {"href": "articles/best-time-to-visit-australia.html", "tag": "Seasonal",
+     "title": "Best Time to Visit Australia (2026): Region by Region", "img": "australia-photo"},
 ]
 
 
