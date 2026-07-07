@@ -105,6 +105,10 @@ SLIDES: list[dict[str, str]] = [
      "title": "Best Travel eSIM 2026: Ranked, Honestly", "img": "asia-esim-photo"},
     {"href": "articles/best-travel-insurance-2026.html", "tag": "Travel Safety",
      "title": "Best Travel Insurance 2026: Ranked by Traveler Type", "img": "insurance-3way-photo"},
+    {"href": "articles/best-esim-usa-2026.html", "tag": "Connectivity",
+     "title": "Best eSIM for the USA (2026): How I'd Choose", "img": "japan-arrival-photo"},
+    {"href": "articles/is-travel-insurance-worth-it.html", "tag": "Travel Safety",
+     "title": "Is Travel Insurance Actually Worth It?", "img": "insurance-claims-photo"},
 ]
 
 
