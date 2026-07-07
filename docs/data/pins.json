@@ -1,5 +1,5 @@
 {
-  "count": 73,
+  "count": 76,
   "pins": [
     {
       "slug": "japan-photo",
@@ -583,6 +583,30 @@
       "link": "https://gentlyyonder.com/articles/best-travel-insurance-2026.html",
       "title": "Best Travel Insurance 2026: Ranked by Traveler Type",
       "description": "The best travel insurance of 2026, ranked honestly by traveler type: SafetyWing for nomads, World Nomads for adventure, Genki for long stays, EKTA for short trips — plus the exclusions to check before you pay.",
+      "board": "Travel Tech: eSIM, Insurance & Booking"
+    },
+    {
+      "slug": "japan-autumn-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-autumn-photo.png",
+      "link": "https://gentlyyonder.com/articles/japan-autumn-2026.html",
+      "title": "Japan in Autumn 2026: Foliage Timing, Crowds, and How to Plan",
+      "description": "Planning Japan for autumn 2026? How the koyo foliage front moves north to south, when to book rooms (3-6 months out for Kyoto), dawn strategies for the crowds, and what to sort this summer.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "japan-tickets-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-tickets-photo.png",
+      "link": "https://gentlyyonder.com/articles/japan-book-in-advance-2026.html",
+      "title": "Japan Tickets That Sell Out: What to Book Before You Fly",
+      "description": "Ghibli Museum sells out in minutes — tickets go on sale the 10th of each month at 10am JST. teamLab, Shibuya Sky and more: the exact booking windows plus a simple calendar method so you never miss one.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "japan-insurance-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-insurance-photo.png",
+      "link": "https://gentlyyonder.com/articles/travel-insurance-japan.html",
+      "title": "Do You Need Travel Insurance for Japan? An Honest Answer",
+      "description": "Japan's healthcare is superb — and visitors without cover pay full price. What actually matters in a policy for Japan (medical, ski add-ons, typhoon delays), and when you can reasonably skip it.",
       "board": "Travel Tech: eSIM, Insurance & Booking"
     }
   ]
