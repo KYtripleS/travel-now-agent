@@ -101,6 +101,10 @@ SLIDES: list[dict[str, str]] = [
      "title": "Klook vs Viator vs GetYourGuide", "img": "tours-3way-photo"},
     {"href": "articles/airport-security-checklist.html", "tag": "Carry-on Prep",
      "title": "Airport Security Checklist: 12 Points Before You Fly", "img": "airport-security-checklist-photo"},
+    {"href": "articles/best-travel-esim-2026.html", "tag": "Connectivity",
+     "title": "Best Travel eSIM 2026: Ranked, Honestly", "img": "asia-esim-photo"},
+    {"href": "articles/best-travel-insurance-2026.html", "tag": "Travel Safety",
+     "title": "Best Travel Insurance 2026: Ranked by Traveler Type", "img": "insurance-3way-photo"},
 ]
 
 
