@@ -131,6 +131,12 @@ SLIDES: list[dict[str, str]] = [
      "title": "Jet Lag, Honestly: What Helps, What's Myth", "img": "japan-esim-choice-photo"},
     {"href": "articles/best-time-to-visit-australia.html", "tag": "Seasonal",
      "title": "Best Time to Visit Australia (2026): Region by Region", "img": "australia-photo"},
+    {"href": "articles/tokyo-itinerary-5-days.html", "tag": "Itinerary",
+     "title": "Tokyo in 5 Days: A First-Timer's Unhurried Itinerary", "img": "tokyo-photo"},
+    {"href": "articles/kyoto-autumn-2026.html", "tag": "Seasonal",
+     "title": "Kyoto in Autumn 2026: Where the Colors Peak, and When", "img": "japan-tickets-photo"},
+    {"href": "articles/osaka-3-day-guide.html", "tag": "Itinerary",
+     "title": "Osaka in 3 Days: Food, Neighborhoods, and Day-One Energy", "img": "japan-photo-w3"},
 ]
 
 
@@ -212,6 +218,7 @@ def main() -> None:
         src.write_text(new, encoding="utf-8")
         (DOCS / INDEX).write_text(new, encoding="utf-8")
         print(f"  ✓ wrote {len(SLIDES)} slides to site/{INDEX} + docs/{INDEX}")
+        import build_library; build_library.main()
     else:
         print(f"  → would rewrite carousel with {len(SLIDES)} slides (dry run — pass --write)")
 
