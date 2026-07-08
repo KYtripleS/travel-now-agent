@@ -2,21 +2,21 @@
 """
 build_library.py
 
-Regenerate the homepage "Latest guides & essays" library — a news-release
-style list (date · category · title · photo thumbnail) that always reflects
-what's actually published. Sources:
-  * the SLIDES registry in build_carousel.py (articles + their pin images)
-  * the PROFILES list below (country/city profile pages that aren't slides)
-Dates come from git (first commit that added each file), so the list stays
-correct without anyone maintaining it.
+(1) Regenerate the homepage "Latest guides & essays" strip (news-release style,
+    newest 12, with a "View all guides" button).
+(2) Regenerate a full archive page at /all-guides.html — every published guide,
+    grouped by category, self-updating.
 
-Runs automatically at the end of `build_carousel.py --write`; can also be
-run directly:  python build_library.py
+Sources: the SLIDES registry in build_carousel.py (+ PROFILES below). Dates come
+from git (first commit that added each file), so nothing needs hand-maintaining.
+
+Runs automatically at the end of `build_carousel.py --write`; or:  python build_library.py
 """
 
 from __future__ import annotations
 
 import subprocess
+from datetime import date
 from pathlib import Path
 
 from build_carousel import SLIDES
@@ -24,9 +24,9 @@ from build_carousel import SLIDES
 REPO = Path(__file__).resolve().parent
 MARK_BEGIN = "<!-- BEGIN library (managed by build_library.py) -->"
 MARK_END = "<!-- END library -->"
-SHOW = 12  # rows on the homepage
+HOME_SHOW = 12
+GA4_ID = "G-JRGK9CN3B1"
 
-# Profile pages that live outside articles/ (not carousel slides).
 PROFILES = [
     {"href": "countries/japan/index.html", "tag": "Country Profile",
      "title": "Japan: History, Society & Travel Prep", "img": "japan-photo"},
@@ -42,26 +42,78 @@ PROFILES = [
      "title": "Asakusa: Tokyo's Oldest District", "img": "asakusa-photo"},
 ]
 
+# Granular slide/profile tag -> broad archive category.
+CATEGORY_MAP = {
+    "Itinerary": "Destinations & Itineraries",
+    "Itineraries": "Destinations & Itineraries",
+    "City Logistics": "Destinations & Itineraries",
+    "Seasonal": "Destinations & Itineraries",
+    "City Guide": "Destinations & Itineraries",
+    "Country Profile": "Destinations & Itineraries",
+    "Connectivity": "Connectivity & eSIM",
+    "Travel Safety": "Insurance & Safety",
+    "Packing": "Packing, Airports & Gear",
+    "Carry-on Prep": "Packing, Airports & Gear",
+    "Everyday Carry": "Packing, Airports & Gear",
+    "Sun & Beach": "Packing, Airports & Gear",
+    "Hotel Stay Comfort": "Packing, Airports & Gear",
+    "Flight Comfort": "Packing, Airports & Gear",
+    "Travel Prep": "Packing, Airports & Gear",
+    "Tours & Activities": "Booking, Rail & Tours",
+    "Japan Rail": "Booking, Rail & Tours",
+    "Coastal Travel": "Booking, Rail & Tours",
+    "Cross-Cultural Etiquette": "Culture & Language",
+    "Language & Culture": "Culture & Language",
+}
+DEFAULT_CATEGORY = "More guides"
+CATEGORY_ORDER = [
+    "Destinations & Itineraries", "Connectivity & eSIM", "Insurance & Safety",
+    "Packing, Airports & Gear", "Booking, Rail & Tours", "Culture & Language",
+    DEFAULT_CATEGORY,
+]
+
+NAV = ('<nav class="gy-topnav" aria-label="Primary"><div class="gy-topnav-inner">'
+       '<a class="gy-topnav-brand" href="index.html">Gently Yonder</a>'
+       '<div class="gy-topnav-links"><a href="index.html#guides">Guides</a>'
+       '<a href="index.html#profiles">Destinations</a>'
+       '<a href="articles/esim-activation-and-preparation.html">eSIM &amp; Tech</a>'
+       '<a href="articles/travel-insurance-compared.html">Insurance</a>'
+       '<a href="tools/esim-finder.html">Tools</a><a href="about.html">About</a>'
+       '</div></div></nav>')
+
+GA4 = f"""<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', '{GA4_ID}', {{ anonymize_ip: true }});
+</script>"""
+
+DRIVE = """<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1">
+  (function () { var s=document.createElement("script"); s.async=1;
+    s.src='https://tpembars.com/NTQzNzE5.js?t=543719'; document.head.appendChild(s); })();
+</script>"""
+
+FOOTER = """<footer>
+  <p>Gently Yonder is an independent travel editorial project.
+    <a href="about.html">About</a> · <a href="methodology.html">Methodology</a> ·
+    <a href="editors.html">Editors</a> · <a href="privacy.html">Privacy</a> ·
+    <a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a></p>
+</footer>"""
+
 
 def added_date(rel_href: str) -> str:
-    """First-commit date (YYYY.MM.DD) of site/<href>; today if uncommitted."""
     out = subprocess.run(
         ["git", "log", "--diff-filter=A", "--format=%ad", "--date=format:%Y.%m.%d",
          "--", f"site/{rel_href}"],
         capture_output=True, text=True, cwd=REPO).stdout.strip().splitlines()
-    if out:
-        return out[-1]
-    from datetime import date
-    return date.today().strftime("%Y.%m.%d")
+    return out[-1] if out else date.today().strftime("%Y.%m.%d")
 
 
 def thumb(img: str) -> str:
-    webp = REPO / "site" / "images" / "pinterest" / f"{img}.webp"
-    png = REPO / "site" / "images" / "pinterest" / f"{img}.png"
-    if webp.exists():
-        return f"images/pinterest/{img}.webp"
-    if png.exists():
-        return f"images/pinterest/{img}.png"
+    for ext in ("webp", "png"):
+        if (REPO / "site" / "images" / "pinterest" / f"{img}.{ext}").exists():
+            return f"images/pinterest/{img}.{ext}"
     return ""
 
 
@@ -71,45 +123,121 @@ def build_rows() -> list[dict]:
         if e["href"] in seen:
             continue
         seen.add(e["href"])
-        rows.append({**e, "date": added_date(e["href"]), "thumb": thumb(e["img"])})
+        rows.append({**e, "date": added_date(e["href"]), "thumb": thumb(e["img"]),
+                     "cat": CATEGORY_MAP.get(e["tag"], DEFAULT_CATEGORY)})
     rows.sort(key=lambda r: r["date"], reverse=True)
     return rows
 
 
-def render(rows: list[dict]) -> str:
-    items = []
-    for r in rows[:SHOW]:
-        img = (f'<img class="gy-lib-thumb" src="{r["thumb"]}" alt="" '
-               f'loading="lazy" decoding="async" />') if r["thumb"] else ""
-        items.append(
-            f'<a class="gy-lib-row" href="{r["href"]}">'
+def row_html(r: dict) -> str:
+    img = (f'<img class="gy-lib-thumb" src="{r["thumb"]}" alt="" loading="lazy" '
+           f'decoding="async" />') if r["thumb"] else ""
+    return (f'<a class="gy-lib-row" href="{r["href"]}">'
             f'<span class="gy-lib-date">{r["date"]}</span>'
             f'<span class="gy-lib-body"><span class="gy-lib-tag">{r["tag"]}</span>'
-            f'<span class="gy-lib-title">{r["title"]}</span></span>'
-            f'{img}</a>')
-    body = "\n".join(items)
+            f'<span class="gy-lib-title">{r["title"]}</span></span>{img}</a>')
+
+
+def render_home(rows: list[dict]) -> str:
+    body = "\n".join(row_html(r) for r in rows[:HOME_SHOW])
     return (f"{MARK_BEGIN}\n"
             '<section class="gy-library" id="profiles" data-reveal>\n'
             "  <h2>Latest guides &amp; essays</h2>\n"
             '  <p class="intro">Everything we publish, newest first — '
             "the carousel below draws from the same pool.</p>\n"
             f'  <div class="gy-lib-list">\n{body}\n  </div>\n'
+            '  <a class="gy-lib-more" href="all-guides.html">View all guides by category &rarr;</a>\n'
             "</section>\n"
             f"{MARK_END}")
 
 
+def render_archive(rows: list[dict]) -> str:
+    by_cat: dict[str, list[dict]] = {}
+    for r in rows:
+        by_cat.setdefault(r["cat"], []).append(r)
+    sections = []
+    for cat in CATEGORY_ORDER:
+        items = by_cat.get(cat)
+        if not items:
+            continue
+        lis = "\n".join(row_html(r) for r in items)
+        sections.append(f'<section class="gy-arch-cat">\n'
+                        f'  <h2>{cat} <span class="gy-arch-count">{len(items)}</span></h2>\n'
+                        f'  <div class="gy-lib-list">\n{lis}\n  </div>\n</section>')
+    body = "\n".join(sections)
+    total = len(rows)
+    title = "All Guides & Essays — Gently Yonder"
+    desc = ("Every Gently Yonder travel-prep guide and essay, organised by category — "
+            "itineraries, eSIMs, insurance, packing, booking, and culture.")
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{title}</title>
+<meta name="description" content="{desc}" />
+<link rel="canonical" href="https://gentlyyonder.com/all-guides.html" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{title}" />
+<meta property="og:description" content="{desc}" />
+<meta property="og:url" content="https://gentlyyonder.com/all-guides.html" />
+<meta property="og:site_name" content="Gently Yonder" />
+<link rel="stylesheet" href="style-v2.css" />
+{GA4}
+{DRIVE}
+</head>
+<body>
+{NAV}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+<ol><li><a href="index.html">Gently Yonder</a></li><li aria-current="page">All guides</li></ol>
+</nav>
+<header class="gy-arch-head">
+<div class="gy-arch-head-inner">
+<p class="label">The library</p>
+<h1>All guides &amp; essays</h1>
+<p>Every guide we've published, by category — {total} and counting. Calm, careful
+travel preparation, from eSIMs to itineraries.</p>
+</div>
+</header>
+<main class="gy-archive">
+{body}
+<p class="back-link"><a href="index.html">&larr; Back to Gently Yonder</a></p>
+</main>
+{FOOTER}
+<script defer src="js/gy-reveal.js"></script>
+<script src="js/email-popup.js" data-root="" defer></script>
+</body>
+</html>
+"""
+
+
 def main() -> None:
-    html = render(build_rows())
+    rows = build_rows()
+    home = render_home(rows)
     for base in ("site", "docs"):
+        # homepage strip
         p = REPO / base / "index.html"
         t = p.read_text(encoding="utf-8")
-        if MARK_BEGIN not in t:
-            print(f"  !! markers missing in {base}/index.html — run the one-time insert first")
+        if MARK_BEGIN in t:
+            s = t.index(MARK_BEGIN); e = t.index(MARK_END) + len(MARK_END)
+            p.write_text(t[:s] + home + t[e:], encoding="utf-8")
+        # full archive page
+        (REPO / base / "all-guides.html").write_text(render_archive(rows), encoding="utf-8")
+    _add_to_sitemap()
+    print(f"  library refreshed — home strip ({min(HOME_SHOW, len(rows))}) + "
+          f"all-guides.html ({len(rows)} guides)")
+
+
+def _add_to_sitemap() -> None:
+    url = "https://gentlyyonder.com/all-guides.html"
+    for p in (REPO / "site" / "sitemap.xml", REPO / "docs" / "sitemap.xml"):
+        s = p.read_text(encoding="utf-8")
+        if url in s:
             continue
-        start = t.index(MARK_BEGIN)
-        end = t.index(MARK_END) + len(MARK_END)
-        p.write_text(t[:start] + html + t[end:], encoding="utf-8")
-    print(f"  library refreshed ({min(SHOW, len(build_rows()))} rows shown)")
+        block = (f"  <url>\n    <loc>{url}</loc>\n    <changefreq>weekly</changefreq>\n"
+                 f"    <priority>0.7</priority>\n  </url>\n")
+        p.write_text(s.replace("</urlset>", block + "</urlset>"), encoding="utf-8")
 
 
 if __name__ == "__main__":
