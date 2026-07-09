@@ -101,6 +101,31 @@ QUERIES: dict[str, list[str]] = {
         "traditional Japanese kimono street",
         "Tokyo Skytree from Asakusa river",
     ],
+    "where-to-stay-in-tokyo": [
+        "Shinjuku skyscrapers night Tokyo",
+        "Shibuya crossing Tokyo neon",
+        "Tokyo Station Marunouchi building",
+        "Ginza Tokyo shopping avenue",
+        "Asakusa Sensoji temple lantern Tokyo",
+    ],
+    "how-much-does-japan-cost": [
+        "airplane wing sky travel window",
+        "Japanese yen coins and notes",
+        "Japan convenience store konbini night",
+        "shinkansen train platform Japan",
+    ],
+    "shinjuku-neighbourhood-guide": [
+        "Shinjuku station crowd Tokyo",
+        "Tokyo Metropolitan Government Building skyscrapers Shinjuku",
+        "Golden Gai Shinjuku alley bars night",
+        "Shinjuku Gyoen garden Tokyo",
+    ],
+    "gion-kyoto-neighbourhood-guide": [
+        "Gion Kyoto traditional street dusk",
+        "Hanamikoji Gion Kyoto machiya houses",
+        "Shirakawa canal Kyoto willow bridge",
+        "Yasaka Shrine Kyoto lanterns night",
+    ],
 }
 
 
@@ -117,6 +142,10 @@ SLUG_TO_PATH: dict[str, Path] = {
     "charter-a-boat-for-a-day":             Path("articles/charter-a-boat-for-a-day.html"),
     "japan-country-profile":                Path("countries/japan/index.html"),
     "asakusa":                              Path("cities/tokyo/asakusa.html"),
+    "where-to-stay-in-tokyo":               Path("articles/where-to-stay-in-tokyo.html"),
+    "how-much-does-japan-cost":             Path("articles/how-much-does-japan-cost.html"),
+    "shinjuku-neighbourhood-guide":         Path("articles/shinjuku-neighbourhood-guide.html"),
+    "gion-kyoto-neighbourhood-guide":       Path("articles/gion-kyoto-neighbourhood-guide.html"),
 }
 
 
