@@ -3175,3 +3175,7 @@ section.globe-section #globe-canvas {
 .gy-inline{color:var(--dawn-amber);text-decoration:underline;
   text-decoration-thickness:1px;text-underline-offset:2px;font-weight:600}
 .gy-inline:hover{color:var(--navy)}
+/* Article pages load gy-reveal.js, which skips [data-reveal]; the homepage-only
+   reveal JS isn't here, so the newsletter would stay opacity:0 and leave a blank
+   gap. Force it visible everywhere (email capture must always render). */
+.newsletter-cta[data-reveal]{opacity:1 !important;transform:none !important}
