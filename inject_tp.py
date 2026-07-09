@@ -1,0 +1,168 @@
+#!/usr/bin/env python3
+"""
+inject_tp.py — place Travelpayouts affiliate CTAs / widgets into the right pages.
+
+Deliberate, per-page REGISTRY (not a spray). Idempotent: re-running replaces the
+block between the tp-inject markers. Inserts right before each page's <footer>,
+which sits after the article body — a natural, constitution-safe CTA spot on
+pages that already carry affiliate links.
+
+Light text CTAs (tpx.lu deep-links) are the default — calm and fast. The heavier
+WeGoTrip tours iframe is reserved for a couple of destination hubs.
+
+    python inject_tp.py            # inject + mirror site -> docs
+"""
+
+from __future__ import annotations
+
+from pathlib import Path
+
+from tp_widgets import wegotrip_tours  # verified-rendering tours widget
+
+REPO = Path(__file__).resolve().parent
+BEGIN = "<!-- BEGIN tp-inject (managed by inject_tp.py) -->"
+END = "<!-- END tp-inject -->"
+REL = 'rel="nofollow sponsored noopener" target="_blank"'
+
+# --- affiliate deep-links (tpx.lu) + default anchor labels -------------------
+TPX = {
+    "aviasales":      "https://aviasales.tpx.lu/dESAKheX",
+    "tiqets":         "https://tiqets.tpx.lu/7rZHQkfx",
+    "radicalstorage": "https://radicalstorage.tpx.lu/WpAnAq1c",
+    "klook":          "https://klook.tpx.lu/TgR5Suzs",
+    "welcomepickups": "https://tpx.lu/YtuAbaB1",
+    "saily":          "https://saily.tpx.lu/hk5XU6Sm",
+    "ekta":           "https://ektatraveling.tpx.lu/LXmPxVUQ",
+    "kkday":          "https://kkday.tpx.lu/99SKEU6d",
+}
+LABEL = {
+    "aviasales":      "Compare current flight fares on Aviasales &rarr;",
+    "tiqets":         "Skip-the-line attraction tickets via Tiqets &rarr;",
+    "radicalstorage": "Book day-luggage storage with Radical Storage &rarr;",
+    "klook":          "Tours, rail passes &amp; transfers on Klook &rarr;",
+    "welcomepickups": "Arrange a private airport pickup (Welcome Pickups) &rarr;",
+    "saily":          "Set up a travel eSIM with Saily &rarr;",
+    "ekta":           "Compare travel insurance with EKTA &rarr;",
+    "kkday":          "Book local experiences on KKday &rarr;",
+}
+NOTE = ("Affiliate links &mdash; Gently Yonder may earn a commission at no extra "
+        "cost to you. See our full disclosure below.")
+
+
+def _links_html(brands: list[str]) -> str:
+    return "\n".join(
+        f'    <li><a class="gy-cta-link" href="{TPX[b]}" {REL}>{LABEL[b]}</a></li>'
+        for b in brands)
+
+
+def cta(heading: str, brands: list[str]) -> str:
+    return (f'<aside class="gy-cta">\n'
+            f'  <p class="gy-cta-h">{heading}</p>\n'
+            f'  <ul class="gy-cta-list">\n{_links_html(brands)}\n  </ul>\n'
+            f'  <p class="gy-cta-note">{NOTE}</p>\n'
+            f'</aside>')
+
+
+def hub(heading: str, blurb: str, city_id: str, brands: list[str]) -> str:
+    """Destination-hub block: WeGoTrip tours iframe + a few text CTAs."""
+    return (f'<aside class="gy-widget">\n'
+            f'  <h4 class="gy-widget-h">{heading}</h4>\n'
+            f'  <p class="gy-widget-blurb">{blurb}</p>\n'
+            f'  <div class="gy-widget-frame">\n{wegotrip_tours(city_id)}\n  </div>\n'
+            f'  <ul class="gy-cta-list">\n{_links_html(brands)}\n  </ul>\n'
+            f'  <p class="gy-widget-note">{NOTE}</p>\n'
+            f'</aside>')
+
+
+# --- per-page registry -------------------------------------------------------
+# path (under site/ and docs/) -> block HTML
+REGISTRY: dict[str, str] = {
+    # ---- destination hubs (tours iframe + links) ----
+    "cities/tokyo/index.html": hub(
+        "Getting to Tokyo &amp; things to do",
+        "Self-guided tours you can start the moment you land, plus fares, tickets, "
+        "and an airport pickup for a smooth arrival.",
+        "1850147", ["aviasales", "tiqets", "welcomepickups"]),
+    "countries/australia/index.html": hub(
+        "Getting to Australia &amp; things to do",
+        "Sydney-based self-guided tours, plus current fares and local experiences "
+        "for the wider trip.",
+        "2147714", ["aviasales", "klook", "welcomepickups"]),
+
+    # ---- country / city guides (light CTAs) ----
+    "countries/vietnam/index.html": cta(
+        "Planning your Vietnam trip",
+        ["aviasales", "klook", "welcomepickups"]),
+    "articles/south-korea-country-profile.html": cta(
+        "Planning your South Korea trip",
+        ["aviasales", "klook", "welcomepickups"]),
+
+    # ---- itineraries & seasonal (high booking intent) ----
+    "articles/tokyo-itinerary-5-days.html": cta(
+        "Ready to book this Tokyo trip?",
+        ["aviasales", "tiqets", "welcomepickups"]),
+    "articles/osaka-3-day-guide.html": cta(
+        "Ready to book this Osaka trip?",
+        ["aviasales", "tiqets", "kkday"]),
+    "articles/three-slow-days-in-kyoto.html": cta(
+        "Planning your Kyoto days",
+        ["aviasales", "tiqets", "kkday"]),
+    "articles/kyoto-autumn-2026.html": cta(
+        "Planning your Kyoto autumn trip",
+        ["aviasales", "tiqets"]),
+    "articles/seoul-itinerary-3-days.html": cta(
+        "Ready to book this Seoul trip?",
+        ["aviasales", "tiqets", "klook"]),
+    "articles/japan-autumn-2026.html": cta(
+        "Planning your Japan autumn trip",
+        ["aviasales", "tiqets"]),
+    "articles/best-time-to-visit-japan-2026.html": cta(
+        "When you're ready to book Japan",
+        ["aviasales", "tiqets"]),
+    "articles/best-time-to-visit-vietnam.html": cta(
+        "When you're ready to book Vietnam",
+        ["aviasales", "klook"]),
+    "articles/best-time-to-visit-australia.html": cta(
+        "When you're ready to book Australia",
+        ["aviasales", "klook"]),
+    "articles/japan-book-in-advance-2026.html": cta(
+        "Book the big-ticket items early",
+        ["aviasales", "tiqets", "klook"]),
+
+    # ---- exact-fit logistics ----
+    "articles/luggage-storage-tokyo.html": cta(
+        "Sorting your Tokyo logistics",
+        ["radicalstorage", "welcomepickups", "tiqets"]),
+}
+
+
+def inject(rel: str, block: str) -> str:
+    wrapped = f"{BEGIN}\n{block}\n{END}"
+    changed = []
+    for base in ("site", "docs"):
+        p = REPO / base / rel
+        t = p.read_text(encoding="utf-8")
+        if BEGIN in t:
+            s = t.index(BEGIN); e = t.index(END) + len(END)
+            new = t[:s] + wrapped + t[e:]
+        elif "<footer" in t:
+            i = t.index("<footer")
+            new = t[:i] + wrapped + "\n" + t[i:]
+        else:
+            print(f"    !! no <footer> anchor in {base}/{rel} — skipped")
+            continue
+        if new != t:
+            p.write_text(new, encoding="utf-8")
+            changed.append(base)
+    return ",".join(changed) or "no-change"
+
+
+def main() -> None:
+    for rel, block in REGISTRY.items():
+        status = inject(rel, block)
+        print(f"  {rel:52s} {status}")
+    print(f"injected into {len(REGISTRY)} pages (site + docs)")
+
+
+if __name__ == "__main__":
+    main()

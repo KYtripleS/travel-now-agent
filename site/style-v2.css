@@ -3154,3 +3154,18 @@ section.globe-section #globe-canvas {
 .gy-widget-frame>*{max-width:100%}
 .gy-widget-note{color:var(--muted);font-size:.78rem;line-height:1.4;
   margin:12px 0 0;opacity:.85}
+
+/* ── Light affiliate CTA row (managed by inject_tp.py) ──────────────────── */
+.gy-cta{margin:34px 0;padding:20px 22px;border:1px solid var(--line);
+  border-radius:16px;background:var(--surface-soft);border-left:4px solid var(--gold)}
+.gy-cta-h{font-family:Georgia,"Times New Roman",serif;font-weight:700;
+  color:var(--navy);font-size:1.1rem;margin:0 0 10px;letter-spacing:-.01em}
+.gy-cta-list{list-style:none;margin:0;padding:0}
+.gy-cta-list li{margin:0}
+.gy-cta-link{display:block;padding:12px 4px;color:var(--navy);text-decoration:none;
+  font-weight:600;font-size:1rem;border-bottom:1px solid var(--line);
+  transition:color .25s,padding-left .25s}
+.gy-cta-list li:last-child .gy-cta-link{border-bottom:none}
+.gy-cta-link:hover{color:var(--dawn-amber);padding-left:12px}
+.gy-cta-note{color:var(--muted);font-size:.78rem;margin:12px 0 0;opacity:.85}
+.gy-widget .gy-cta-list{margin-top:14px}
