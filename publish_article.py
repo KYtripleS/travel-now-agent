@@ -354,6 +354,19 @@ def main() -> None:
     except Exception as exc:  # never block a publish on the counter
         print(f"  (hero count refresh skipped: {exc})")
 
+    # Every practical article auto-gets an affiliate CTA (registry entry or default);
+    # trust/cultural essays are safelisted out. Standing rule: monetise every guide.
+    try:
+        import inject_tp
+        blk = inject_tp.block_for(args.slug)
+        if blk:
+            inject_tp.inject(f"articles/{args.slug}.html", blk)
+            print("affiliate CTA injected")
+        else:
+            print("  (affiliate CTA skipped — trust/cultural article)")
+    except Exception as exc:
+        print(f"  (affiliate inject skipped: {exc})")
+
     if not args.no_audit:
         rc = run_audit()
         if rc != 0:

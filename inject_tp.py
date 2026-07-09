@@ -205,23 +205,52 @@ REGISTRY: dict[str, str] = {
 }
 
 
+# Every practical article gets an affiliate CTA — registry-specific if defined,
+# otherwise a sensible default. Trust/cultural essays are never monetised (constitution).
+BLOCKLIST = {
+    "untranslatable-words", "what-counts-as-rude", "jet-lag-what-actually-works",
+    "about", "privacy", "methodology", "editors", "editorial-guidelines",
+}
+DEFAULT_CTA_BRANDS = ["aviasales", "saily", "welcomepickups"]
+
+
+def block_for(slug: str) -> str | None:
+    """CTA HTML for an article slug: its registry entry, else a default.
+    Returns None for trust/cultural pages that must stay affiliate-free."""
+    rel = f"articles/{slug}.html"
+    if rel in REGISTRY:
+        return REGISTRY[rel]
+    if slug in BLOCKLIST:
+        return None
+    return cta("Planning your trip?", DEFAULT_CTA_BRANDS)
+
+
+# Insert the CTA before the first anchor found — keep it INSIDE the article
+# content (before the FAQ / back-link), never orphaned after </main>.
+ANCHORS = ('<h2 id="faq"', '<p class="back-link"', '</main>', '<footer')
+
+
 def inject(rel: str, block: str) -> str:
     wrapped = f"{BEGIN}\n{block}\n{END}"
     changed = []
     for base in ("site", "docs"):
         p = REPO / base / rel
-        t = p.read_text(encoding="utf-8")
-        if BEGIN in t:
+        t = orig = p.read_text(encoding="utf-8")
+        # 1) strip any existing managed block so it can be relocated
+        if BEGIN in t and END in t:
             s = t.index(BEGIN); e = t.index(END) + len(END)
-            new = t[:s] + wrapped + t[e:]
-        elif "<footer" in t:
-            i = t.index("<footer")
-            new = t[:i] + wrapped + "\n" + t[i:]
-        else:
-            print(f"    !! no <footer> anchor in {base}/{rel} — skipped")
+            if t[e:e + 1] == "\n":
+                e += 1
+            t = t[:s] + t[e:]
+        # 2) insert before the best in-content anchor
+        anchor = next((a for a in ANCHORS if a in t), None)
+        if anchor is None:
+            print(f"    !! no anchor in {base}/{rel} — skipped")
             continue
-        if new != t:
-            p.write_text(new, encoding="utf-8")
+        i = t.index(anchor)
+        t = t[:i] + wrapped + "\n" + t[i:]
+        if t != orig:
+            p.write_text(t, encoding="utf-8")
             changed.append(base)
     return ",".join(changed) or "no-change"
 
