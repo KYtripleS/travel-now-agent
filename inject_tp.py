@@ -226,6 +226,14 @@ REGISTRY: dict[str, str] = {
         "Booking your Melbourne trip", ["welcomepickups", "klook", "saily", "aviasales"]),
     "articles/things-to-do-in-melbourne.html": cta(
         "Tickets &amp; tours in Melbourne", ["klook", "tiqets", "kkday", "aviasales"]),
+
+    # ---- Australia — Perth (2026-07-10) ----
+    "articles/perth-first-timers-guide.html": cta(
+        "Planning your Perth trip", ["aviasales", "klook", "saily", "welcomepickups"]),
+    "articles/getting-around-perth.html": cta(
+        "Booking your Perth trip", ["welcomepickups", "klook", "saily", "aviasales"]),
+    "articles/things-to-do-in-perth.html": cta(
+        "Tickets &amp; tours in Perth", ["klook", "tiqets", "kkday", "aviasales"]),
 }
 
 
