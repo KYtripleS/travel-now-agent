@@ -344,6 +344,16 @@ def main() -> None:
         update_sitemap(args.slug)
         print(f"sitemap.xml updated with {article_url(args.slug)}")
 
+    # Self-updating homepage hero counts (travel guides / destinations / tools).
+    try:
+        import build_library
+        c = build_library.inventory()
+        build_library.update_hero(c)
+        print(f"hero counts refreshed — {c['guides']} guides, "
+              f"{c['destinations']} destinations, {c['tools']} tools")
+    except Exception as exc:  # never block a publish on the counter
+        print(f"  (hero count refresh skipped: {exc})")
+
     if not args.no_audit:
         rc = run_audit()
         if rc != 0:

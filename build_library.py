@@ -15,6 +15,7 @@ Runs automatically at the end of `build_carousel.py --write`; or:  python build_
 
 from __future__ import annotations
 
+import re
 import subprocess
 from datetime import date
 from pathlib import Path
@@ -26,6 +27,13 @@ MARK_BEGIN = "<!-- BEGIN library (managed by build_library.py) -->"
 MARK_END = "<!-- END library -->"
 HOME_SHOW = 12
 GA4_ID = "G-JRGK9CN3B1"
+
+# ── Live inventory (drives the homepage hero stats, self-updating) ──────────
+# Profiles that live under articles/ but count as destinations, not guides.
+PROFILES_IN_ARTICLES = {"south-korea-country-profile.html"}
+# Explicit tool set, so the count is intentional rather than accidental.
+TOOL_FILES = ["tools/esim-finder.html", "tools/insurance-finder.html",
+              "checklist-generator.html", "rehearsal.html"]
 
 PROFILES = [
     {"href": "countries/japan/index.html", "tag": "Country Profile",
@@ -212,6 +220,35 @@ travel preparation, from eSIMs to itineraries.</p>
 """
 
 
+def inventory() -> dict:
+    """Count what actually exists on disk — the single source of truth."""
+    arts = sorted((REPO / "site" / "articles").glob("*.html"))
+    guides = [p for p in arts if p.name not in PROFILES_IN_ARTICLES]
+    dests = (sorted((REPO / "site" / "countries").glob("*/index.html"))
+             + sorted((REPO / "site" / "cities").glob("*/*.html"))
+             + [REPO / "site" / "articles" / n for n in sorted(PROFILES_IN_ARTICLES)
+                if (REPO / "site" / "articles" / n).exists()])
+    tools = [f for f in TOOL_FILES if (REPO / "site" / f).exists()]
+    total = sum(1 for _ in (REPO / "site").rglob("*.html"))
+    return {"guides": len(guides), "destinations": len(dests),
+            "tools": len(tools), "total_pages": total}
+
+
+def update_hero(counts: dict) -> None:
+    """Write the live counts into the homepage hero stats (site + docs)."""
+    pairs = [("travel guides", counts["guides"]),
+             ("destination guides", counts["destinations"]),
+             ("free tools", counts["tools"])]
+    for base in ("site", "docs"):
+        p = REPO / base / "index.html"
+        t = orig = p.read_text(encoding="utf-8")
+        for label, n in pairs:
+            t = re.sub(r'data-count-to="\d+">\d+</span>' + re.escape(label),
+                       f'data-count-to="{n}">{n}</span>{label}', t)
+        if t != orig:
+            p.write_text(t, encoding="utf-8")
+
+
 def main() -> None:
     rows = build_rows()
     home = render_home(rows)
@@ -225,8 +262,13 @@ def main() -> None:
         # full archive page
         (REPO / base / "all-guides.html").write_text(render_archive(rows), encoding="utf-8")
     _add_to_sitemap()
+    counts = inventory()
+    update_hero(counts)
     print(f"  library refreshed — home strip ({min(HOME_SHOW, len(rows))}) + "
           f"all-guides.html ({len(rows)} guides)")
+    print(f"  inventory (live, from files) — {counts['guides']} travel guides, "
+          f"{counts['destinations']} destination guides, {counts['tools']} tools "
+          f"| {counts['total_pages']} total pages")
 
 
 def _add_to_sitemap() -> None:
