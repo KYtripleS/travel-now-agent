@@ -3171,3 +3171,7 @@ section.globe-section #globe-canvas {
 .gy-cta-link:hover{color:var(--dawn-amber);padding-left:12px}
 .gy-cta-note{color:var(--muted);font-size:.78rem;margin:12px 0 0;opacity:.85}
 .gy-widget .gy-cta-list{margin-top:14px}
+/* Inline contextual affiliate links woven into article prose */
+.gy-inline{color:var(--dawn-amber);text-decoration:underline;
+  text-decoration-thickness:1px;text-underline-offset:2px;font-weight:600}
+.gy-inline:hover{color:var(--navy)}
