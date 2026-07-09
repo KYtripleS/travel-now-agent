@@ -44,6 +44,16 @@ SKIP = {
 # Display order = slide order. img is the base name under images/pinterest/
 # (both .webp and .png must exist). alt defaults to title.
 SLIDES: list[dict[str, str]] = [
+    {"href": "articles/suica-pasmo-ic-cards-guide.html", "tag": "City Logistics",
+     "title": "Suica, Pasmo & IC Cards: The Complete 2026 Guide", "img": "japan-photo"},
+    {"href": "articles/where-to-stay-in-tokyo.html", "tag": "Itinerary",
+     "title": "Where to Stay in Tokyo: Neighbourhoods Compared", "img": "japan-photo-w2"},
+    {"href": "articles/how-much-does-japan-cost.html", "tag": "Itinerary",
+     "title": "How Much Does a Trip to Japan Cost in 2026?", "img": "japan-photo-w3"},
+    {"href": "articles/shinjuku-neighbourhood-guide.html", "tag": "City Guide",
+     "title": "Shinjuku, Tokyo: A Neighbourhood Guide", "img": "japan-arrival-photo"},
+    {"href": "articles/gion-kyoto-neighbourhood-guide.html", "tag": "City Guide",
+     "title": "Gion, Kyoto: A Neighbourhood Guide", "img": "japan-autumn-photo"},
     {"href": "articles/narita-haneda-to-central-tokyo.html", "tag": "City Logistics",
      "title": "Narita & Haneda to Central Tokyo", "img": "japan-arrival-photo"},
     {"href": "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html", "tag": "City Logistics",

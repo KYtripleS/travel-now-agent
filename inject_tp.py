@@ -190,6 +190,18 @@ REGISTRY: dict[str, str] = {
         "Compare passes &amp; tickets", ["tiqets", "klook", "kkday"]),
     "articles/first-day-in-tokyo-arrival-plan.html": cta(
         "Your arrival toolkit", ["saily", "welcomepickups", "radicalstorage"]),
+
+    # ---- batch 2026-07-09b (suica + hand-written five) ----
+    "articles/suica-pasmo-ic-cards-guide.html": cta(
+        "Sorting Japan transit & tickets", ["klook", "welcomepickups", "aviasales"]),
+    "articles/where-to-stay-in-tokyo.html": cta(
+        "Booking your Tokyo stay", ["welcomepickups", "klook", "tiqets", "aviasales"]),
+    "articles/how-much-does-japan-cost.html": cta(
+        "Building your Japan budget", ["aviasales", "saily", "ekta", "klook"]),
+    "articles/shinjuku-neighbourhood-guide.html": cta(
+        "Planning your Shinjuku visit", ["tiqets", "klook", "welcomepickups", "aviasales"]),
+    "articles/gion-kyoto-neighbourhood-guide.html": cta(
+        "Experiencing Gion respectfully", ["tiqets", "kkday", "klook", "aviasales"]),
 }
 
 
