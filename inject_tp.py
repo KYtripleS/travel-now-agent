@@ -133,6 +133,23 @@ REGISTRY: dict[str, str] = {
     "articles/luggage-storage-tokyo.html": cta(
         "Sorting your Tokyo logistics",
         ["radicalstorage", "welcomepickups", "tiqets"]),
+
+    # ---- second wave: rail / tours / first-trip ----
+    "articles/jr-pass-worth-it-2026.html": cta(
+        "Booking Japan rail &amp; flights",
+        ["klook", "aviasales"]),
+    "articles/klook-vs-viator-vs-getyourguide.html": cta(
+        "Book tours &amp; activities",
+        ["klook", "kkday"]),
+    "cities/tokyo/asakusa.html": cta(
+        "Planning your Tokyo visit",
+        ["aviasales", "tiqets", "welcomepickups"]),
+    "articles/carry-on-packing-list-10-day-japan.html": cta(
+        "Booking your Japan trip",
+        ["aviasales", "tiqets"]),
+    "articles/first-international-trip-checklist.html": cta(
+        "Booking your first trip",
+        ["aviasales", "welcomepickups"]),
 }
 
 
