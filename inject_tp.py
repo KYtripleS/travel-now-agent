@@ -202,6 +202,14 @@ REGISTRY: dict[str, str] = {
         "Planning your Shinjuku visit", ["tiqets", "klook", "welcomepickups", "aviasales"]),
     "articles/gion-kyoto-neighbourhood-guide.html": cta(
         "Experiencing Gion respectfully", ["tiqets", "kkday", "klook", "aviasales"]),
+
+    # ---- Taiwan (2026-07-10) ----
+    "articles/taipei-first-timers-guide.html": cta(
+        "Planning your Taipei trip", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/getting-around-taiwan.html": cta(
+        "Booking Taiwan transport &amp; tours", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-taipei.html": cta(
+        "Tickets &amp; tours in Taipei", ["klook", "kkday", "tiqets", "aviasales"]),
 }
 
 
