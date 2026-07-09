@@ -44,6 +44,16 @@ SKIP = {
 # Display order = slide order. img is the base name under images/pinterest/
 # (both .webp and .png must exist). alt defaults to title.
 SLIDES: list[dict[str, str]] = [
+    {"href": "articles/narita-haneda-to-central-tokyo.html", "tag": "City Logistics",
+     "title": "Narita & Haneda to Central Tokyo", "img": "japan-arrival-photo"},
+    {"href": "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html", "tag": "City Logistics",
+     "title": "Tokyo to Kyoto: Shinkansen, Flight, or Night Bus?", "img": "japan-photo"},
+    {"href": "articles/osaka-or-kyoto-where-to-base.html", "tag": "Itinerary",
+     "title": "Osaka or Kyoto: Which to Base Your Trip In", "img": "japan-photo-w2"},
+    {"href": "articles/japan-city-sightseeing-passes-worth-it.html", "tag": "Tours & Activities",
+     "title": "Are Japan's City Sightseeing Passes Worth It?", "img": "japan-photo-w3"},
+    {"href": "articles/first-day-in-tokyo-arrival-plan.html", "tag": "Itinerary",
+     "title": "Your First Day in Tokyo: A Calm Arrival Plan", "img": "japan-arrival-photo"},
     {"href": "articles/airport-security-liquids.html", "tag": "Carry-on Prep",
      "title": "Airport Security Liquids Checklist", "img": "airport-liquids-photo"},
     {"href": "articles/airport-security-packing-moments.html", "tag": "Carry-on Prep",

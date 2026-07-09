@@ -178,6 +178,18 @@ REGISTRY: dict[str, str] = {
     "articles/is-travel-insurance-worth-it.html": cta("Sort your cover before you go", ["ekta", "aviasales"]),
     "articles/travel-insurance-japan.html": cta("Sort your cover before you go", ["ekta", "aviasales"]),
     "articles/airport-security-checklist.html": cta("Before you fly", ["aviasales", "saily"]),
+
+    # ---- newly published 2026-07-09 (transit / itinerary / passes) ----
+    "articles/narita-haneda-to-central-tokyo.html": cta(
+        "Sorting your Tokyo arrival", ["welcomepickups", "klook", "aviasales"]),
+    "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html": cta(
+        "Booking Tokyo to Kyoto", ["aviasales", "klook"]),
+    "articles/osaka-or-kyoto-where-to-base.html": cta(
+        "Planning Osaka or Kyoto", ["aviasales", "tiqets", "kkday"]),
+    "articles/japan-city-sightseeing-passes-worth-it.html": cta(
+        "Compare passes &amp; tickets", ["tiqets", "klook", "kkday"]),
+    "articles/first-day-in-tokyo-arrival-plan.html": cta(
+        "Your arrival toolkit", ["saily", "welcomepickups", "radicalstorage"]),
 }
 
 
