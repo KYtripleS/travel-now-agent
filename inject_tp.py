@@ -89,30 +89,42 @@ REGISTRY: dict[str, str] = {
         "for the wider trip.",
         "2147714", ["aviasales", "klook", "welcomepickups"]),
 
-    # ---- country / city guides (light CTAs) ----
-    "countries/vietnam/index.html": cta(
-        "Planning your Vietnam trip",
-        ["aviasales", "klook", "welcomepickups"]),
-    "articles/south-korea-country-profile.html": cta(
-        "Planning your South Korea trip",
-        ["aviasales", "klook", "welcomepickups"]),
+    # ---- country / city guides (tours + CTAs) ----
+    "countries/vietnam/index.html": hub(
+        "Tours &amp; getting to Vietnam",
+        "Self-guided Hanoi tours, plus current fares, local experiences, and an "
+        "airport pickup for a smooth arrival.",
+        "1581130", ["aviasales", "klook", "welcomepickups"]),
+    "articles/south-korea-country-profile.html": hub(
+        "Tours &amp; getting to Seoul",
+        "Self-guided Seoul tours, plus current fares, local experiences, and an "
+        "airport pickup for a smooth arrival.",
+        "1835848", ["aviasales", "klook", "welcomepickups"]),
 
     # ---- itineraries & seasonal (high booking intent) ----
     "articles/tokyo-itinerary-5-days.html": cta(
         "Ready to book this Tokyo trip?",
         ["aviasales", "tiqets", "welcomepickups"]),
-    "articles/osaka-3-day-guide.html": cta(
-        "Ready to book this Osaka trip?",
-        ["aviasales", "tiqets", "kkday"]),
-    "articles/three-slow-days-in-kyoto.html": cta(
-        "Planning your Kyoto days",
-        ["aviasales", "tiqets", "kkday"]),
-    "articles/kyoto-autumn-2026.html": cta(
-        "Planning your Kyoto autumn trip",
-        ["aviasales", "tiqets"]),
-    "articles/seoul-itinerary-3-days.html": cta(
-        "Ready to book this Seoul trip?",
-        ["aviasales", "tiqets", "klook"]),
+    "articles/osaka-3-day-guide.html": hub(
+        "Tours &amp; getting to Osaka",
+        "Self-guided Osaka tours you can start the moment you land, plus fares, "
+        "tickets, and local experiences.",
+        "1853909", ["aviasales", "tiqets", "kkday"]),
+    "articles/three-slow-days-in-kyoto.html": hub(
+        "Tours &amp; getting to Kyoto",
+        "Self-guided Kyoto walks you can start on arrival, plus fares, tickets, and a "
+        "smooth airport pickup.",
+        "1857910", ["aviasales", "tiqets", "kkday"]),
+    "articles/kyoto-autumn-2026.html": hub(
+        "Tours &amp; getting to Kyoto",
+        "Self-guided Kyoto walks you can start on arrival, plus current fares and "
+        "skip-the-line tickets.",
+        "1857910", ["aviasales", "tiqets"]),
+    "articles/seoul-itinerary-3-days.html": hub(
+        "Tours &amp; getting to Seoul",
+        "Self-guided Seoul tours you can start on arrival, plus fares, tickets, and "
+        "local experiences.",
+        "1835848", ["aviasales", "tiqets", "klook"]),
     "articles/japan-autumn-2026.html": cta(
         "Planning your Japan autumn trip",
         ["aviasales", "tiqets"]),
@@ -150,6 +162,22 @@ REGISTRY: dict[str, str] = {
     "articles/first-international-trip-checklist.html": cta(
         "Booking your first trip",
         ["aviasales", "welcomepickups"]),
+
+    # ---- gap-fill: practical pages that had no CTA block (non-history, non-reflective) ----
+    "articles/airalo-vs-holafly-vs-saily.html": cta("Ready to get connected?", ["saily", "aviasales"]),
+    "articles/best-esim-japan-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
+    "articles/best-esim-europe-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
+    "articles/best-esim-usa-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
+    "articles/best-esim-south-korea-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
+    "articles/best-esim-thailand-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
+    "articles/best-esim-japan-korea-vietnam.html": cta("Get connected before you fly", ["saily", "aviasales"]),
+    "articles/best-travel-esim-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
+    "articles/pocket-wifi-vs-esim.html": cta("Get connected before you fly", ["saily", "aviasales"]),
+    "articles/best-travel-insurance-2026.html": cta("Sort your cover before you go", ["ekta", "aviasales"]),
+    "articles/best-travel-insurance-digital-nomads-2026.html": cta("Sort your cover before you go", ["ekta", "aviasales"]),
+    "articles/is-travel-insurance-worth-it.html": cta("Sort your cover before you go", ["ekta", "aviasales"]),
+    "articles/travel-insurance-japan.html": cta("Sort your cover before you go", ["ekta", "aviasales"]),
+    "articles/airport-security-checklist.html": cta("Before you fly", ["aviasales", "saily"]),
 }
 
 
