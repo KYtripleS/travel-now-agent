@@ -210,6 +210,14 @@ REGISTRY: dict[str, str] = {
         "Booking Taiwan transport &amp; tours", ["klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-taipei.html": cta(
         "Tickets &amp; tours in Taipei", ["klook", "kkday", "tiqets", "aviasales"]),
+
+    # ---- Australia — Sydney (2026-07-10) ----
+    "articles/sydney-first-timers-guide.html": cta(
+        "Planning your Sydney trip", ["aviasales", "klook", "saily", "welcomepickups"]),
+    "articles/getting-around-sydney.html": cta(
+        "Booking your Sydney trip", ["welcomepickups", "klook", "saily", "aviasales"]),
+    "articles/things-to-do-in-sydney.html": cta(
+        "Tickets &amp; tours in Sydney", ["klook", "tiqets", "aviasales", "welcomepickups"]),
 }
 
 
