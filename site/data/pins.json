@@ -1,5 +1,5 @@
 {
-  "count": 81,
+  "count": 86,
   "pins": [
     {
       "slug": "japan-photo",
@@ -647,6 +647,46 @@
       "link": "https://gentlyyonder.com/articles/first-day-in-tokyo-arrival-plan.html",
       "title": "Your First Day in Tokyo: A Calm Arrival Plan",
       "description": "A gentle hour-by-hour plan for landing in Tokyo — connectivity on arrival, getting into the city, dropping bags, easing through jet lag, and an easy first evening. Reassuring and practical.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "pin-suica",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-suica.png",
+      "link": "https://gentlyyonder.com/articles/suica-pasmo-ic-cards-guide.html",
+      "title": "Suica, Pasmo & IC Cards: The Complete 2026 Guide",
+      "description": "A clear, practical guide to Japan's transit IC cards — Suica, Pasmo and ICOCA. What they are, how to get and top up one, mobile Suica, and using them on trains, buses and at convenience stores, plus the 2026 card situation.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "pin-where-stay-tokyo",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-where-stay-tokyo.png",
+      "link": "https://gentlyyonder.com/articles/where-to-stay-in-tokyo.html",
+      "title": "Where to Stay in Tokyo: Neighbourhoods Compared",
+      "description": "An honest comparison of Tokyo's main neighbourhoods for a first stay — Shinjuku, Shibuya, Tokyo Station/Marunouchi, Ginza, Asakusa and Ueno — with the character, connectivity and trade-offs of each.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "pin-japan-cost",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-japan-cost.png",
+      "link": "https://gentlyyonder.com/articles/how-much-does-japan-cost.html",
+      "title": "How Much Does a Trip to Japan Cost in 2026?",
+      "description": "An honest way to budget a Japan trip in 2026 — the big fixed costs, three realistic daily spending tiers, the smaller lines that add up, and how to build your own reliable total instead of trusting one number.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "pin-shinjuku",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-shinjuku.png",
+      "link": "https://gentlyyonder.com/articles/shinjuku-neighbourhood-guide.html",
+      "title": "Shinjuku, Tokyo: A Neighbourhood Guide",
+      "description": "A layered guide to Shinjuku — the world's busiest station, the free observation decks at the Tokyo Metropolitan Government Building, Kabukichō and Golden Gai after dark, Omoide Yokocho, and the calm of Shinjuku Gyoen.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "pin-gion",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-gion.png",
+      "link": "https://gentlyyonder.com/articles/gion-kyoto-neighbourhood-guide.html",
+      "title": "Gion, Kyoto: A Neighbourhood Guide",
+      "description": "A respectful guide to Gion, Kyoto — Hanami-kōji's teahouses, the Shirakawa canal and Tatsumi Bridge, Yasaka Shrine and Maruyama Park, Kennin-ji temple and the Minami-za, plus the real etiquette around geiko and maiko.",
       "board": "Asia Travel: Japan, Vietnam, Korea & More"
     }
   ]
