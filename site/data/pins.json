@@ -1,5 +1,5 @@
 {
-  "count": 86,
+  "count": 98,
   "pins": [
     {
       "slug": "japan-photo",
@@ -688,6 +688,102 @@
       "title": "Gion, Kyoto: A Neighbourhood Guide",
       "description": "A respectful guide to Gion, Kyoto — Hanami-kōji's teahouses, the Shirakawa canal and Tatsumi Bridge, Yasaka Shrine and Maruyama Park, Kennin-ji temple and the Minami-za, plus the real etiquette around geiko and maiko.",
       "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "taipei-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/taipei-photo.png",
+      "link": "https://gentlyyonder.com/articles/taipei-first-timers-guide.html",
+      "title": "Taipei: A First-Timer's Guide",
+      "description": "A calm first-timer's orientation to Taipei — neighbourhoods to base in, the EasyCard and MRT, night-market food, when to visit, and a gentle first-trip plan.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "pin-taiwan-transport",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-taiwan-transport.png",
+      "link": "https://gentlyyonder.com/articles/getting-around-taiwan.html",
+      "title": "Getting Around Taiwan: EasyCard, MRT & High-Speed Rail",
+      "description": "How to travel Taiwan — the EasyCard, the Taipei MRT, the High-Speed Rail down the west coast, and the scenic TRA trains to the east.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "pin-taipei-places",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-taipei-places.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-taipei.html",
+      "title": "Taipei: The Places Worth Your Time",
+      "description": "A considered guide to Taipei — Taipei 101 and Elephant Mountain, Longshan Temple, the National Palace Museum, the night markets, Beitou hot springs, and a Jiufen day trip.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "sydney-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/sydney-photo.png",
+      "link": "https://gentlyyonder.com/articles/sydney-first-timers-guide.html",
+      "title": "Sydney: A First-Timer's Guide",
+      "description": "A calm first-timer's orientation to Sydney — the harbour, the neighbourhoods, getting around, when to go, and how to plan a relaxed first trip.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "pin-sydney-transport",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-sydney-transport.png",
+      "link": "https://gentlyyonder.com/articles/getting-around-sydney.html",
+      "title": "Getting Around Sydney: Opal Card, Trains, Ferries & Buses",
+      "description": "A practical guide to Sydney transport — the Opal card, trains, the harbour ferries, buses to the beaches, and the options from the airport.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "pin-sydney-places",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-sydney-places.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-sydney.html",
+      "title": "Sydney: The Places Worth Your Time",
+      "description": "A considered guide to Sydney — the Opera House and Harbour Bridge, The Rocks, the Bondi-to-Coogee coastal walk, Manly by ferry, and Darling Harbour.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "melbourne-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/melbourne-photo.png",
+      "link": "https://gentlyyonder.com/articles/melbourne-first-timers-guide.html",
+      "title": "Melbourne: A First-Timer's Guide",
+      "description": "A calm first-timer's orientation to Melbourne — the laneways, the neighbourhoods, the free city trams, coffee and food culture, and a gentle first-trip plan.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "pin-melbourne-transport",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-melbourne-transport.png",
+      "link": "https://gentlyyonder.com/articles/getting-around-melbourne.html",
+      "title": "Getting Around Melbourne: Trams, Myki & the Free Tram Zone",
+      "description": "A practical guide to Melbourne transport — the Free Tram Zone, the Myki card, trains and buses, and the SkyBus from the airport.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "pin-melbourne-places",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-melbourne-places.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-melbourne.html",
+      "title": "Melbourne: The Places Worth Your Time",
+      "description": "A considered guide to Melbourne — the laneways and street art, the NGV, Queen Victoria Market, St Kilda and its penguins, and the Great Ocean Road.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "perth-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/perth-photo.png",
+      "link": "https://gentlyyonder.com/articles/perth-first-timers-guide.html",
+      "title": "Perth: A First-Timer's Guide",
+      "description": "A calm first-timer's orientation to Perth — the Swan River and Kings Park, Fremantle, the sunset beaches, the airport train and free CAT buses, and Rottnest Island.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "pin-perth-transport",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-perth-transport.png",
+      "link": "https://gentlyyonder.com/articles/getting-around-perth.html",
+      "title": "Getting Around Perth: Transperth, Trains & the Free CAT Buses",
+      "description": "A practical guide to Perth transport — the free CAT buses, the SmartRider card, Transperth trains and ferries, the Airport Line, and getting to Rottnest Island.",
+      "board": "Country Profiles & City Guides"
+    },
+    {
+      "slug": "pin-perth-places",
+      "image": "https://gentlyyonder.com/images/pinterest/pin-perth-places.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-perth.html",
+      "title": "Perth: The Places Worth Your Time",
+      "description": "A considered guide to Perth — Kings Park, Elizabeth Quay and the Swan River, Cottesloe's sunset beaches, historic Fremantle, and a day trip to Rottnest Island.",
+      "board": "Country Profiles & City Guides"
     }
   ]
 }
