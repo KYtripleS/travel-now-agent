@@ -197,6 +197,30 @@ QUERIES: dict[str, list[str]] = {
         "Fremantle markets Western Australia",
         "Rottnest Island quokka beach Perth",
     ],
+    "manila-first-timers-guide": [
+        "Intramuros Manila Fort Santiago",
+        "Rizal Park Manila monument",
+        "Binondo Manila Chinatown street food",
+        "Manila Bay sunset skyline",
+    ],
+    "cebu-first-timers-guide": [
+        "Cebu City Basilica Santo Nino",
+        "Kawasan Falls Cebu turquoise",
+        "Moalboal Cebu diving reef",
+        "Cebu island hopping beach boat",
+    ],
+    "chiang-mai-first-timers-guide": [
+        "Chiang Mai temple Wat old city",
+        "Doi Suthep temple Chiang Mai golden",
+        "Chiang Mai night market lanterns",
+        "Chiang Mai elephant sanctuary jungle",
+    ],
+    "phuket-first-timers-guide": [
+        "Phuket beach turquoise Thailand",
+        "Phi Phi islands longtail boat",
+        "Old Phuket Town Sino-Portuguese street",
+        "Big Buddha Phuket viewpoint",
+    ],
 }
 
 
@@ -228,6 +252,10 @@ SLUG_TO_PATH: dict[str, Path] = {
     "perth-first-timers-guide":             Path("articles/perth-first-timers-guide.html"),
     "getting-around-perth":                 Path("articles/getting-around-perth.html"),
     "things-to-do-in-perth":                Path("articles/things-to-do-in-perth.html"),
+    "manila-first-timers-guide":            Path("articles/manila-first-timers-guide.html"),
+    "cebu-first-timers-guide":              Path("articles/cebu-first-timers-guide.html"),
+    "chiang-mai-first-timers-guide":        Path("articles/chiang-mai-first-timers-guide.html"),
+    "phuket-first-timers-guide":            Path("articles/phuket-first-timers-guide.html"),
 }
 
 

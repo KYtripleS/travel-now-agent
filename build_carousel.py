@@ -46,6 +46,10 @@ SKIP = {
 SLIDES: list[dict[str, str]] = [
     {"href": "articles/kuala-lumpur-first-timers-guide.html", "tag": "Itinerary",
      "title": "Kuala Lumpur: A First-Timer's Guide", "img": "kl-photo"},
+    {"href": "articles/manila-first-timers-guide.html", "tag": "Itinerary",
+     "title": "Manila: A First-Timer's Guide", "img": "manila-photo"},
+    {"href": "articles/cebu-first-timers-guide.html", "tag": "Itinerary",
+     "title": "Cebu: A First-Timer's Guide", "img": "cebu-photo"},
     {"href": "articles/hanoi-first-timers-guide.html", "tag": "Itinerary",
      "title": "Hanoi: A First-Timer's Guide", "img": "hanoi-photo"},
     {"href": "articles/ho-chi-minh-city-first-timers-guide.html", "tag": "Itinerary",
