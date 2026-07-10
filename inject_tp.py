@@ -272,6 +272,20 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Bali",
         "Self-guided Bali tours, temple tickets, an eSIM, and an airport transfer for arrival.",
         "1645528", ["klook", "kkday", "saily", "welcomepickups"]),
+
+    # ---- Vietnam expansion (2026-07-11) ----
+    "articles/hanoi-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Hanoi",
+        "Self-guided Hanoi tours, plus Ha Long Bay and Ninh Binh day trips, an eSIM, and an airport pickup.",
+        "1581130", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/ho-chi-minh-city-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Ho Chi Minh City",
+        "Self-guided Saigon tours, plus Cu Chi Tunnels and Mekong Delta day trips, an eSIM, and an airport pickup.",
+        "1566083", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/hoi-an-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Hoi An",
+        "Self-guided Hoi An tours, a My Son day trip, an eSIM, and an airport transfer from Da Nang.",
+        "1580240", ["klook", "kkday", "saily", "welcomepickups"]),
 }
 
 

@@ -44,6 +44,12 @@ SKIP = {
 # Display order = slide order. img is the base name under images/pinterest/
 # (both .webp and .png must exist). alt defaults to title.
 SLIDES: list[dict[str, str]] = [
+    {"href": "articles/hanoi-first-timers-guide.html", "tag": "Itinerary",
+     "title": "Hanoi: A First-Timer's Guide", "img": "hanoi-photo"},
+    {"href": "articles/ho-chi-minh-city-first-timers-guide.html", "tag": "Itinerary",
+     "title": "Ho Chi Minh City: A First-Timer's Guide", "img": "hcmc-photo"},
+    {"href": "articles/hoi-an-first-timers-guide.html", "tag": "Itinerary",
+     "title": "Hoi An: A First-Timer's Guide", "img": "hoi-an-photo"},
     {"href": "articles/singapore-first-timers-guide.html", "tag": "Itinerary",
      "title": "Singapore: A First-Timer's Guide", "img": "singapore-photo"},
     {"href": "articles/bangkok-first-timers-guide.html", "tag": "Itinerary",
