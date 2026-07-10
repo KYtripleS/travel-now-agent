@@ -90,10 +90,24 @@ def rows_to_dicts(rows: list[dict], keys: list[str]) -> list[dict]:
 
 # ── analyses ────────────────────────────────────────────────────────────────
 
-def striking_distance(queries: list[dict], min_impr=20, lo=4.5, hi=20.0) -> list[dict]:
+def striking_distance(queries: list[dict], min_impr=8, lo=4.5, hi=20.0) -> list[dict]:
     """Queries just off page 1 / just off the top — the fastest wins."""
     c = [q for q in queries if lo <= q["position"] <= hi and q["impressions"] >= min_impr]
     return sorted(c, key=lambda q: q["impressions"], reverse=True)[:25]
+
+
+SKIP_EXACT = ("https://gentlyyonder.com/",)
+SKIP_SUFFIX = ("/about.html", "/privacy.html", "/methodology.html",
+               "/editors.html", "/all-guides.html")
+
+
+def pages_near_page1(pages: list[dict], max_pos=25, min_impr=5) -> list[dict]:
+    """Content pages sitting just off page 1 — best on-page-SEO targets."""
+    c = [p for p in pages
+         if p["position"] <= max_pos and p["impressions"] >= min_impr
+         and p["page"] not in SKIP_EXACT
+         and not any(p["page"].endswith(s) for s in SKIP_SUFFIX)]
+    return sorted(c, key=lambda p: p["position"])[:20]
 
 
 def low_ctr(queries: list[dict], min_impr=80, max_ctr=0.02, max_pos=15) -> list[dict]:
@@ -142,10 +156,13 @@ def _tbl(rows: list[dict], cols: list[tuple[str, str]]) -> str:
 
 def build_report(site: str, start: str, end: str, queries: list[dict],
                  pages: list[dict], trend: list[dict], risers: list[dict]) -> str:
-    tot_c = sum(q["clicks"] for q in queries)
-    tot_i = sum(q["impressions"] for q in queries)
+    # Totals from the DATE dimension — query-level clicks are undercounted by
+    # Google's anonymisation, so summing queries understates real clicks.
+    tot_c = sum(t["clicks"] for t in trend) or sum(q["clicks"] for q in queries)
+    tot_i = sum(t["impressions"] for t in trend) or sum(q["impressions"] for q in queries)
+    q_i = sum(q["impressions"] for q in queries)
     ctr = (tot_c / tot_i) if tot_i else 0
-    avg_pos = (sum(q["position"] * q["impressions"] for q in queries) / tot_i) if tot_i else 0
+    avg_pos = (sum(q["position"] * q["impressions"] for q in queries) / q_i) if q_i else 0
     QCOLS = [("query", "Query"), ("clicks", "Clk"), ("impressions", "Impr"),
              ("ctr", "CTR"), ("position", "Pos")]
     PCOLS = [("page", "Page"), ("clicks", "Clk"), ("impressions", "Impr"),
@@ -153,6 +170,7 @@ def build_report(site: str, start: str, end: str, queries: list[dict],
     RCOLS = [("query", "Query"), ("d_impr", "ΔImpr"), ("d_clk", "ΔClk"),
              ("impressions", "Impr"), ("position", "Pos")]
     sd, lc = striking_distance(queries), low_ctr(queries)
+    pnp = pages_near_page1(pages)
     top_q = sorted(queries, key=lambda q: q["clicks"], reverse=True)[:20]
     top_p = sorted(pages, key=lambda q: q["clicks"], reverse=True)[:20]
 
@@ -166,6 +184,11 @@ Queries you already rank for that a small push could move onto page 1 / into the
 Add/expand a section, tighten the title, add an FAQ, or build an internal link.
 
 {_tbl(sd, QCOLS)}
+## 📍 Content pages closest to page 1 (best on-page-SEO targets)
+Article pages sitting just off page 1 — tighten the title, add an FAQ, and add
+internal links from stronger pages to nudge them up.
+
+{_tbl(pnp, PCOLS)}
 ## 📝 High impressions, low CTR (rewrite title & meta description)
 You rank but few click — usually a title/description problem.
 
