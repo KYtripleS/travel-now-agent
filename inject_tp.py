@@ -258,6 +258,20 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Perth",
         "Self-guided Perth tours and tickets, plus Rottnest Island ferry-and-tour packages.",
         "2063523", ["klook", "tiqets", "kkday", "aviasales"]),
+
+    # ---- SE Asia (2026-07-11) ----
+    "articles/singapore-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Singapore",
+        "Self-guided Singapore tours you can start on arrival, plus fares, tickets, and an airport pickup.",
+        "1880252", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/bangkok-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Bangkok",
+        "Self-guided Bangkok tours, temple and market tickets, an eSIM, and an airport pickup.",
+        "1609350", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/bali-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Bali",
+        "Self-guided Bali tours, temple tickets, an eSIM, and an airport transfer for arrival.",
+        "1645528", ["klook", "kkday", "saily", "welcomepickups"]),
 }
 
 
