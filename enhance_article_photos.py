@@ -126,6 +126,76 @@ QUERIES: dict[str, list[str]] = {
         "Shirakawa canal Kyoto willow bridge",
         "Yasaka Shrine Kyoto lanterns night",
     ],
+    # ---- Taiwan ----
+    "taipei-first-timers-guide": [
+        "Taipei 101 skyline cityscape Taiwan",
+        "Taipei MRT metro station interior",
+        "Taipei night market street food stall",
+        "Jiufen old street red lanterns Taiwan",
+    ],
+    "getting-around-taiwan": [
+        "Taipei metro turnstile commuters",
+        "Taipei MRT train carriage interior",
+        "Taiwan high speed rail bullet train",
+        "Taiwan railway coast scenic train",
+    ],
+    "things-to-do-in-taipei": [
+        "Taipei 101 tower observation view",
+        "Taipei skyline from Elephant Mountain dusk",
+        "Longshan Temple Taipei incense",
+        "Jiufen teahouse lanterns Taiwan night",
+    ],
+    # ---- Sydney (guide already has photos) ----
+    "getting-around-sydney": [
+        "Sydney train double decker platform",
+        "Sydney ferry Circular Quay harbour",
+        "Sydney bus street city",
+        "Sydney airport terminal train",
+    ],
+    "things-to-do-in-sydney": [
+        "Sydney Opera House harbour bridge",
+        "The Rocks Sydney historic laneway",
+        "Bondi Beach coastal walk Sydney",
+        "Manly ferry Sydney harbour view",
+    ],
+    # ---- Melbourne ----
+    "melbourne-first-timers-guide": [
+        "Melbourne city skyline Yarra river",
+        "Melbourne tram Flinders Street",
+        "Melbourne cafe laneway coffee",
+        "Melbourne Fitzroy street cafe",
+    ],
+    "getting-around-melbourne": [
+        "Melbourne tram city street",
+        "Melbourne Flinders Street Station",
+        "Melbourne train platform commuters",
+        "Melbourne city trams intersection",
+    ],
+    "things-to-do-in-melbourne": [
+        "Melbourne laneway street art Hosier",
+        "Federation Square Melbourne",
+        "Queen Victoria Market Melbourne",
+        "Great Ocean Road Twelve Apostles",
+    ],
+    # ---- Perth ----
+    "perth-first-timers-guide": [
+        "Perth city skyline Swan River",
+        "Kings Park Perth view city",
+        "Cottesloe Beach Perth sunset",
+        "Fremantle Western Australia harbour",
+    ],
+    "getting-around-perth": [
+        "Perth city bus street",
+        "Perth train station platform",
+        "Perth Swan River ferry",
+        "Rottnest Island ferry beach Perth",
+    ],
+    "things-to-do-in-perth": [
+        "Kings Park Perth botanic garden view",
+        "Elizabeth Quay Perth waterfront",
+        "Fremantle markets Western Australia",
+        "Rottnest Island quokka beach Perth",
+    ],
 }
 
 
@@ -146,6 +216,17 @@ SLUG_TO_PATH: dict[str, Path] = {
     "how-much-does-japan-cost":             Path("articles/how-much-does-japan-cost.html"),
     "shinjuku-neighbourhood-guide":         Path("articles/shinjuku-neighbourhood-guide.html"),
     "gion-kyoto-neighbourhood-guide":       Path("articles/gion-kyoto-neighbourhood-guide.html"),
+    "taipei-first-timers-guide":            Path("articles/taipei-first-timers-guide.html"),
+    "getting-around-taiwan":                Path("articles/getting-around-taiwan.html"),
+    "things-to-do-in-taipei":               Path("articles/things-to-do-in-taipei.html"),
+    "getting-around-sydney":                Path("articles/getting-around-sydney.html"),
+    "things-to-do-in-sydney":               Path("articles/things-to-do-in-sydney.html"),
+    "melbourne-first-timers-guide":         Path("articles/melbourne-first-timers-guide.html"),
+    "getting-around-melbourne":             Path("articles/getting-around-melbourne.html"),
+    "things-to-do-in-melbourne":            Path("articles/things-to-do-in-melbourne.html"),
+    "perth-first-timers-guide":             Path("articles/perth-first-timers-guide.html"),
+    "getting-around-perth":                 Path("articles/getting-around-perth.html"),
+    "things-to-do-in-perth":                Path("articles/things-to-do-in-perth.html"),
 }
 
 

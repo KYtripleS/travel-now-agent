@@ -203,37 +203,61 @@ REGISTRY: dict[str, str] = {
     "articles/gion-kyoto-neighbourhood-guide.html": cta(
         "Experiencing Gion respectfully", ["tiqets", "kkday", "klook", "aviasales"]),
 
-    # ---- Taiwan (2026-07-10) ----
-    "articles/taipei-first-timers-guide.html": cta(
-        "Planning your Taipei trip", ["klook", "kkday", "saily", "welcomepickups"]),
-    "articles/getting-around-taiwan.html": cta(
-        "Booking Taiwan transport &amp; tours", ["klook", "kkday", "saily", "welcomepickups"]),
-    "articles/things-to-do-in-taipei.html": cta(
-        "Tickets &amp; tours in Taipei", ["klook", "kkday", "tiqets", "aviasales"]),
+    # ---- Taiwan (2026-07-10) — Taipei city_id 1668341 ----
+    "articles/taipei-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Taipei",
+        "Self-guided Taipei tours you can start on arrival, plus tickets, an eSIM, and a smooth airport pickup.",
+        "1668341", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/getting-around-taiwan.html": hub(
+        "Tours &amp; tickets in Taiwan",
+        "Book the high-speed rail, day tours, and skip-the-line tickets in English before you go.",
+        "1668341", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-taipei.html": hub(
+        "Tours &amp; tickets in Taipei",
+        "Self-guided Taipei tours and skip-the-line tickets for Taipei 101, the temples, and the markets.",
+        "1668341", ["klook", "kkday", "tiqets", "aviasales"]),
 
-    # ---- Australia — Sydney (2026-07-10) ----
-    "articles/sydney-first-timers-guide.html": cta(
-        "Planning your Sydney trip", ["aviasales", "klook", "saily", "welcomepickups"]),
-    "articles/getting-around-sydney.html": cta(
-        "Booking your Sydney trip", ["welcomepickups", "klook", "saily", "aviasales"]),
-    "articles/things-to-do-in-sydney.html": cta(
-        "Tickets &amp; tours in Sydney", ["klook", "tiqets", "aviasales", "welcomepickups"]),
+    # ---- Australia — Sydney (2026-07-10) — city_id 2147714 ----
+    "articles/sydney-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Sydney",
+        "Self-guided Sydney tours you can start on arrival, plus current fares, tickets, and an airport pickup.",
+        "2147714", ["aviasales", "klook", "saily", "welcomepickups"]),
+    "articles/getting-around-sydney.html": hub(
+        "Tours &amp; getting around Sydney",
+        "Book harbour experiences and skip-the-line tickets, plus an easy airport pickup for arrival.",
+        "2147714", ["welcomepickups", "klook", "saily", "aviasales"]),
+    "articles/things-to-do-in-sydney.html": hub(
+        "Tours &amp; tickets in Sydney",
+        "Self-guided Sydney tours and tickets for the Opera House, the harbour, and the coast.",
+        "2147714", ["klook", "tiqets", "aviasales", "welcomepickups"]),
 
-    # ---- Australia — Melbourne (2026-07-10) ----
-    "articles/melbourne-first-timers-guide.html": cta(
-        "Planning your Melbourne trip", ["aviasales", "klook", "saily", "welcomepickups"]),
-    "articles/getting-around-melbourne.html": cta(
-        "Booking your Melbourne trip", ["welcomepickups", "klook", "saily", "aviasales"]),
-    "articles/things-to-do-in-melbourne.html": cta(
-        "Tickets &amp; tours in Melbourne", ["klook", "tiqets", "kkday", "aviasales"]),
+    # ---- Australia — Melbourne (2026-07-10) — city_id 2158177 ----
+    "articles/melbourne-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Melbourne",
+        "Self-guided Melbourne tours you can start on arrival, plus fares, tickets, and an airport pickup.",
+        "2158177", ["aviasales", "klook", "saily", "welcomepickups"]),
+    "articles/getting-around-melbourne.html": hub(
+        "Tours &amp; getting around Melbourne",
+        "Book day trips and skip-the-line tickets, plus an easy airport transfer for arrival.",
+        "2158177", ["welcomepickups", "klook", "saily", "aviasales"]),
+    "articles/things-to-do-in-melbourne.html": hub(
+        "Tours &amp; tickets in Melbourne",
+        "Self-guided Melbourne tours, gallery tickets, and Great Ocean Road day tours.",
+        "2158177", ["klook", "tiqets", "kkday", "aviasales"]),
 
-    # ---- Australia — Perth (2026-07-10) ----
-    "articles/perth-first-timers-guide.html": cta(
-        "Planning your Perth trip", ["aviasales", "klook", "saily", "welcomepickups"]),
-    "articles/getting-around-perth.html": cta(
-        "Booking your Perth trip", ["welcomepickups", "klook", "saily", "aviasales"]),
-    "articles/things-to-do-in-perth.html": cta(
-        "Tickets &amp; tours in Perth", ["klook", "tiqets", "kkday", "aviasales"]),
+    # ---- Australia — Perth (2026-07-10) — city_id 2063523 ----
+    "articles/perth-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Perth",
+        "Self-guided Perth tours you can start on arrival, plus fares, tickets, and an airport pickup.",
+        "2063523", ["aviasales", "klook", "saily", "welcomepickups"]),
+    "articles/getting-around-perth.html": hub(
+        "Tours &amp; getting around Perth",
+        "Book the Rottnest ferry, day tours, and tickets, plus an easy airport transfer for arrival.",
+        "2063523", ["welcomepickups", "klook", "saily", "aviasales"]),
+    "articles/things-to-do-in-perth.html": hub(
+        "Tours &amp; tickets in Perth",
+        "Self-guided Perth tours and tickets, plus Rottnest Island ferry-and-tour packages.",
+        "2063523", ["klook", "tiqets", "kkday", "aviasales"]),
 }
 
 
