@@ -15,3 +15,7 @@ daily_status/
 affiliate_applications/
 data/monetization_log.csv
 content_drafts/
+
+# GSC daily analysis
+gsc_service_account.json
+gsc_reports/
