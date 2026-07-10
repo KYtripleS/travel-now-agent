@@ -286,6 +286,28 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Hoi An",
         "Self-guided Hoi An tours, a My Son day trip, an eSIM, and an airport transfer from Da Nang.",
         "1580240", ["klook", "kkday", "saily", "welcomepickups"]),
+
+    # ---- Broad expansion (2026-07-11) ----
+    "articles/kuala-lumpur-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Kuala Lumpur",
+        "Self-guided KL tours, Batu Caves and Genting day trips, an eSIM, and an airport transfer.",
+        "1735161", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/manila-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Manila",
+        "Self-guided Manila tours, Corregidor and Tagaytay day trips, an eSIM, and an airport pickup.",
+        "1701668", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/cebu-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Cebu",
+        "Island-hopping, canyoneering and city tours in Cebu, plus an eSIM and an airport pickup.",
+        "1717512", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/chiang-mai-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Chiang Mai",
+        "Self-guided Chiang Mai tours, ethical elephant sanctuaries, a Doi Inthanon day trip, and an eSIM.",
+        "1153671", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/phuket-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Phuket",
+        "Phi Phi and Phang Nga boat trips, island tours, an eSIM, and an airport transfer in Phuket.",
+        "1151254", ["klook", "kkday", "saily", "welcomepickups"]),
 }
 
 
