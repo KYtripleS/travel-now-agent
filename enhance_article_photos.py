@@ -131,6 +131,7 @@ QUERIES: dict[str, list[str]] = {
         "Taipei 101 skyline cityscape Taiwan",
         "Taipei MRT metro station interior",
         "Taipei night market street food stall",
+        "Beitou hot spring Taipei steam",
         "Jiufen old street red lanterns Taiwan",
     ],
     "getting-around-taiwan": [
