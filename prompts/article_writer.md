@@ -41,6 +41,25 @@ outright.
 - If you don't know a checkable detail, write around it or point to the official
   source (especially security/visa/battery rules) — never invent it.
 
+## Named specifics — the delight rule (HIGH PRIORITY)
+Pack the article with **real, verifiable proper nouns** — this is what separates a
+world-class guide from generic filler, and it genuinely delights readers. In every
+section, name concrete things:
+- specific neighbourhoods and streets (not "the old quarter" but "Tiong Bahru",
+  "Haji Lane", "Yaowarat", "Jalan Legian");
+- iconic dishes and drinks by their real names (Hainanese chicken rice, kaya toast,
+  laksa, boat noodles, babi guling);
+- famous, established venues, markets, temples, and landmarks (Maxwell Food Centre,
+  Gardens by the Bay, Wat Pho, Chatuchak Weekend Market, Tanah Lot);
+- transit lines, cards, and passes by name (the MRT and EZ-Link card, the BTS
+  Skytrain, the Chao Phraya river boats).
+Aim for several concrete, named specifics per section — they are the texture readers love.
+**Hard limit — verifiable only.** Only use well-known, checkable names. NEVER invent a
+shop, restaurant, price, or detail to sound specific: a fabricated "Joe's Noodle Bar" is
+a constitution breach. If you are not certain a specific place is real and well known,
+describe the type generically instead ("a good hawker centre", "a rooftop bar"). The rule
+is *verifiable specificity, never invented specificity.*
+
 ## Banned phrases — never use
 "You NEED this", "This changes EVERYTHING", "The BEST", "Ultimate",
 "Life-changing", "hidden gem", "magical", "must-see", "bucket list",
