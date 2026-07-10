@@ -308,6 +308,26 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Phuket",
         "Phi Phi and Phang Nga boat trips, island tours, an eSIM, and an airport transfer in Phuket.",
         "1151254", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/hong-kong-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Hong Kong",
+        "The Peak Tram, Ngong Ping 360 and Big Buddha, self-guided city walks, an eSIM, and an airport transfer.",
+        "1819729", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/seoul-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Seoul",
+        "Palace and Gangnam audio walks, a DMZ day trip, T-money-friendly attractions, an eSIM, and an airport pickup.",
+        "1835848", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/osaka-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Osaka",
+        "Self-guided Osaka walks, Universal Studios and Kaiyukan tickets, a Nara day trip, an eSIM, and an airport transfer.",
+        "1853909", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/penang-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Penang",
+        "George Town heritage walks, Penang Hill and Kek Lok Si, a street-food crawl, an eSIM, and an airport pickup.",
+        "1735106", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/yogyakarta-first-timers-guide.html": hub(
+        "Tours &amp; tickets in Yogyakarta",
+        "Borobudur sunrise and Prambanan tours, a Merapi jeep trip, batik workshops, an eSIM, and an airport pickup.",
+        "1621177", ["klook", "kkday", "saily", "welcomepickups"]),
 }
 
 

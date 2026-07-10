@@ -221,6 +221,36 @@ QUERIES: dict[str, list[str]] = {
         "Old Phuket Town Sino-Portuguese street",
         "Big Buddha Phuket viewpoint",
     ],
+    "hong-kong-first-timers-guide": [
+        "Hong Kong Victoria Harbour skyline night",
+        "Hong Kong Peak Tram Victoria Peak view",
+        "Hong Kong Temple Street night market neon",
+        "Tian Tan Big Buddha Lantau Hong Kong",
+    ],
+    "seoul-first-timers-guide": [
+        "Gyeongbokgung Palace Seoul guards",
+        "Bukchon Hanok Village Seoul traditional houses",
+        "Myeongdong Seoul street food night",
+        "N Seoul Tower Namsan skyline",
+    ],
+    "osaka-first-timers-guide": [
+        "Osaka Castle cherry blossom Japan",
+        "Dotonbori Osaka Glico neon night",
+        "Osaka takoyaki street food",
+        "Umeda Sky Building Osaka skyline",
+    ],
+    "penang-first-timers-guide": [
+        "George Town Penang street art mural",
+        "Kek Lok Si temple Penang",
+        "Penang char kway teow hawker food",
+        "Penang Hill funicular railway view",
+    ],
+    "yogyakarta-first-timers-guide": [
+        "Borobudur temple sunrise Java Indonesia",
+        "Prambanan Hindu temple Yogyakarta",
+        "Malioboro street Yogyakarta Indonesia",
+        "Yogyakarta batik craft Indonesia",
+    ],
 }
 
 
@@ -256,6 +286,11 @@ SLUG_TO_PATH: dict[str, Path] = {
     "cebu-first-timers-guide":              Path("articles/cebu-first-timers-guide.html"),
     "chiang-mai-first-timers-guide":        Path("articles/chiang-mai-first-timers-guide.html"),
     "phuket-first-timers-guide":            Path("articles/phuket-first-timers-guide.html"),
+    "hong-kong-first-timers-guide":         Path("articles/hong-kong-first-timers-guide.html"),
+    "seoul-first-timers-guide":             Path("articles/seoul-first-timers-guide.html"),
+    "osaka-first-timers-guide":             Path("articles/osaka-first-timers-guide.html"),
+    "penang-first-timers-guide":            Path("articles/penang-first-timers-guide.html"),
+    "yogyakarta-first-timers-guide":        Path("articles/yogyakarta-first-timers-guide.html"),
 }
 
 
