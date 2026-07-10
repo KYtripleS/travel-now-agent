@@ -174,11 +174,37 @@ def build_report(site: str, start: str, end: str, queries: list[dict],
     top_q = sorted(queries, key=lambda q: q["clicks"], reverse=True)[:20]
     top_p = sorted(pages, key=lambda q: q["clicks"], reverse=True)[:20]
 
+    # ── auto insights & actions ──
+    tr = sorted(trend, key=lambda d: d["date"])
+    r7i = sum(d["impressions"] for d in tr[-7:]); p7i = sum(d["impressions"] for d in tr[-14:-7])
+    r7c = sum(d["clicks"] for d in tr[-7:]); p7c = sum(d["clicks"] for d in tr[-14:-7])
+    wow = f"{((r7i-p7i)/p7i*100):+.0f}%" if p7i else "n/a"
+    ins = [f"- **Traffic (last 7d vs prior 7d):** {int(r7i)} → impressions ({wow}), "
+           f"{int(r7c)} → {int(p7c)} clicks. Avg position {avg_pos:.0f}."]
+    if p7i and r7i > p7i:
+        ins.append("- **Momentum is up** — Google is surfacing more. Keep publishing; "
+                   "fresh content compounds trust on a young site.")
+    elif p7i and r7i < p7i:
+        ins.append("- **Impressions dipped WoW** — check for indexing issues or a lull "
+                   "in publishing; keep the cadence steady.")
+    if pnp:
+        t = pnp[0]
+        slug = t["page"].rstrip("/").split("/")[-1] or "homepage"
+        ins.append(f"- **Fastest SEO win:** {len(pnp)} content pages sit just off page 1. "
+                   f"Top target → `{slug}` (pos {t['position']:.1f}, {int(t['impressions'])} impr): "
+                   "tighten the title to the query, add an FAQ, and link to it from stronger pages.")
+    if sd:
+        ins.append(f"- **{len(sd)} striking-distance queries** (pos 4.5–20) — small on-page nudges.")
+    if lc:
+        ins.append(f"- **{len(lc)} title/meta rewrite targets** — ranking but barely clicked.")
+    insights_block = "## 📌 Insights & actions (auto)\n" + "\n".join(ins) + "\n"
+
     md = f"""# GSC report — {end}
 
 **Property:** {site}  ·  **Window:** {start} → {end}
 **Totals:** {int(tot_c)} clicks · {int(tot_i)} impressions · {ctr*100:.1f}% CTR · avg pos {avg_pos:.1f}
 
+{insights_block}
 ## 🎯 Striking distance (pos {4.5}–20, act on these first)
 Queries you already rank for that a small push could move onto page 1 / into the top.
 Add/expand a section, tighten the title, add an FAQ, or build an internal link.
