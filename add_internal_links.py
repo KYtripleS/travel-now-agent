@@ -113,6 +113,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Airalo vs Holafly vs Saily",
         "The three big travel eSIM providers compared — coverage, pricing, and who each suits.",
     ),
+    "articles/best-esim-japan-2026.html": (
+        "Best eSIM for Japan (2026)",
+        "How to choose a Japan travel eSIM — coverage, data plans, and the pick for most trips.",
+    ),
     "articles/best-esim-japan-korea-vietnam.html": (
         "Best eSIM for Japan, Korea & Vietnam",
         "Destination-by-destination eSIM picks for three popular Asian countries.",
@@ -315,7 +319,7 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/osaka-first-timers-guide.html": [
         "articles/untranslatable-words.html",
-        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/best-esim-japan-2026.html",
         "articles/luggage-storage-tokyo.html",
         "articles/carry-on-packing-list-10-day-japan.html",
         "articles/seoul-first-timers-guide.html",
@@ -389,6 +393,7 @@ LINKS: dict[str, list[str]] = {
         "articles/untranslatable-words.html",
     ],
     "articles/esim-activation-and-preparation.html": [
+        "articles/best-esim-japan-2026.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/pocket-wifi-vs-esim.html",
@@ -438,6 +443,7 @@ LINKS: dict[str, list[str]] = {
         "countries/australia/index.html",
     ],
     "articles/airalo-vs-holafly-vs-saily.html": [
+        "articles/best-esim-japan-2026.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/best-esim-europe-2026.html",
         "articles/best-esim-thailand-2026.html",
@@ -445,8 +451,15 @@ LINKS: dict[str, list[str]] = {
         "articles/esim-activation-and-preparation.html",
         "articles/travel-insurance-compared.html",
     ],
+    "articles/best-esim-japan-2026.html": [
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/pocket-wifi-vs-esim.html",
+        "articles/esim-activation-and-preparation.html",
+        "articles/travel-insurance-compared.html",
+    ],
     "articles/best-esim-japan-korea-vietnam.html": [
-        "articles/best-esim-europe-2026.html",
+        "articles/best-esim-japan-2026.html",
         "articles/best-esim-thailand-2026.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/pocket-wifi-vs-esim.html",
@@ -478,6 +491,7 @@ LINKS: dict[str, list[str]] = {
         "articles/klook-vs-viator-vs-getyourguide.html",
     ],
     "articles/pocket-wifi-vs-esim.html": [
+        "articles/best-esim-japan-2026.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/esim-activation-and-preparation.html",
@@ -503,7 +517,7 @@ LINKS: dict[str, list[str]] = {
     "articles/carry-on-packing-list-10-day-japan.html": [
         "articles/capsule-wardrobe-2-week-trips.html",
         "articles/everyday-carry-essentials-for-travel.html",
-        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/best-esim-japan-2026.html",
         "countries/japan/index.html",
         "cities/tokyo/index.html",
         "articles/luggage-storage-tokyo.html",
