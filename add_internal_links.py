@@ -97,6 +97,19 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Yogyakarta: A First-Timer's Guide",
         "Borobudur at sunrise, Prambanan, the Kraton, and a Mount Merapi jeep tour.",
     ),
+    # ---- 'The places worth your time' city guides (Pinterest-format) ----
+    "articles/things-to-do-in-tokyo.html": (
+        "Tokyo: The Places Worth Your Time",
+        "The best of Tokyo — Senso-ji, Shibuya, Harajuku, Shinjuku, teamLab, and easy day trips.",
+    ),
+    "articles/things-to-do-in-kyoto.html": (
+        "Kyoto: The Places Worth Your Time",
+        "Fushimi Inari, Arashiyama, Kiyomizu-dera, the Golden Pavilion, Gion, and a Nara day trip.",
+    ),
+    "articles/things-to-do-in-bangkok.html": (
+        "Bangkok: The Places Worth Your Time",
+        "The Grand Palace, Wat Pho and Wat Arun, the river and canals, markets, and Ayutthaya.",
+    ),
     "articles/airport-security-bag-rules.html": (
         "Airport Security Bag Rules",
         "What gets flagged at the X-ray belt and how to repack to avoid the bin.",
@@ -234,11 +247,11 @@ LINKS: dict[str, list[str]] = {
         "articles/bangkok-first-timers-guide.html",
     ],
     "articles/bangkok-first-timers-guide.html": [
+        "articles/things-to-do-in-bangkok.html",
         "articles/what-counts-as-rude.html",
         "articles/best-esim-thailand-2026.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
         "articles/chiang-mai-first-timers-guide.html",
-        "articles/phuket-first-timers-guide.html",
     ],
     "articles/bali-first-timers-guide.html": [
         "articles/untranslatable-words.html",
@@ -337,6 +350,27 @@ LINKS: dict[str, list[str]] = {
         "articles/klook-vs-viator-vs-getyourguide.html",
         "articles/bali-first-timers-guide.html",
         "articles/singapore-first-timers-guide.html",
+    ],
+    "articles/things-to-do-in-tokyo.html": [
+        "articles/best-esim-japan-2026.html",
+        "cities/tokyo/index.html",
+        "articles/luggage-storage-tokyo.html",
+        "articles/things-to-do-in-kyoto.html",
+        "articles/carry-on-packing-list-10-day-japan.html",
+    ],
+    "articles/things-to-do-in-kyoto.html": [
+        "articles/best-esim-japan-2026.html",
+        "articles/three-slow-days-in-kyoto.html",
+        "articles/things-to-do-in-tokyo.html",
+        "countries/japan/index.html",
+        "articles/untranslatable-words.html",
+    ],
+    "articles/things-to-do-in-bangkok.html": [
+        "articles/bangkok-first-timers-guide.html",
+        "articles/best-esim-thailand-2026.html",
+        "articles/what-counts-as-rude.html",
+        "articles/chiang-mai-first-timers-guide.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
     ],
     "articles/airport-security-bag-rules.html": [
         "articles/airport-security-checklist.html",

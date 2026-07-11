@@ -251,6 +251,24 @@ QUERIES: dict[str, list[str]] = {
         "Malioboro street Yogyakarta Indonesia",
         "Yogyakarta batik craft Indonesia",
     ],
+    "things-to-do-in-tokyo": [
+        "Senso-ji temple Asakusa Tokyo",
+        "Shibuya crossing Tokyo night",
+        "Meiji shrine torii Tokyo",
+        "Tokyo skyline Mount Fuji",
+    ],
+    "things-to-do-in-kyoto": [
+        "Fushimi Inari torii gates Kyoto",
+        "Arashiyama bamboo grove Kyoto",
+        "Kinkaku-ji golden pavilion Kyoto",
+        "Kiyomizu-dera temple Kyoto autumn",
+    ],
+    "things-to-do-in-bangkok": [
+        "Grand Palace Bangkok Thailand",
+        "Wat Arun temple Bangkok river sunset",
+        "Bangkok Chinatown street food night",
+        "Bangkok floating market boats",
+    ],
 }
 
 
@@ -291,6 +309,9 @@ SLUG_TO_PATH: dict[str, Path] = {
     "osaka-first-timers-guide":             Path("articles/osaka-first-timers-guide.html"),
     "penang-first-timers-guide":            Path("articles/penang-first-timers-guide.html"),
     "yogyakarta-first-timers-guide":        Path("articles/yogyakarta-first-timers-guide.html"),
+    "things-to-do-in-tokyo":                Path("articles/things-to-do-in-tokyo.html"),
+    "things-to-do-in-kyoto":                Path("articles/things-to-do-in-kyoto.html"),
+    "things-to-do-in-bangkok":              Path("articles/things-to-do-in-bangkok.html"),
 }
 
 

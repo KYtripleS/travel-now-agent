@@ -328,6 +328,18 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Yogyakarta",
         "Borobudur sunrise and Prambanan tours, a Merapi jeep trip, batik workshops, an eSIM, and an airport pickup.",
         "1621177", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-tokyo.html": hub(
+        "Tours &amp; tickets in Tokyo",
+        "teamLab and Skytree tickets, self-guided city walks, Kamakura and Mt Fuji day trips, an eSIM, and an airport transfer.",
+        "1850147", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-kyoto.html": hub(
+        "Tours &amp; tickets in Kyoto",
+        "Fushimi Inari and Arashiyama tours, tea ceremonies, kimono rental, a Nara day trip, an eSIM, and an airport transfer.",
+        "1857910", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-bangkok.html": hub(
+        "Tours &amp; tickets in Bangkok",
+        "Grand Palace and temple tours, canal longtail trips, floating-market and Ayutthaya day tours, an eSIM, and an airport transfer.",
+        "1609350", ["klook", "kkday", "saily", "welcomepickups"]),
 }
 
 

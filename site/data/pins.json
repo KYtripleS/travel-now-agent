@@ -1,5 +1,5 @@
 {
-  "count": 114,
+  "count": 117,
   "pins": [
     {
       "slug": "japan-photo",
@@ -911,6 +911,30 @@
       "link": "https://gentlyyonder.com/articles/yogyakarta-first-timers-guide.html",
       "title": "Yogyakarta: A First-Timer's Guide",
       "description": "A calm first-timer's orientation to Yogyakarta — the great temples of Borobudur and Prambanan, the Sultan's Kraton and Taman Sari water castle, Malioboro Street and Beringharjo market, gudeg and angkringan food, a Mount Merapi jeep tour, and getting around with Gojek and Grab.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-tokyo-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-tokyo-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-tokyo.html",
+      "title": "Tokyo: The Places Worth Your Time",
+      "description": "The best things to do in Tokyo for a first visit — Senso-ji and Asakusa, the Shibuya Scramble and Shibuya Sky, Harajuku and Meiji Jingu, Shinjuku's alleys, teamLab, Ueno and Akihabara, the food, and easy day trips to Kamakura, Nikko and Hakone.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-kyoto-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-kyoto-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-kyoto.html",
+      "title": "Kyoto: The Places Worth Your Time",
+      "description": "The best things to do in Kyoto — the thousand torii of Fushimi Inari, Arashiyama's bamboo grove, Kiyomizu-dera and the old lanes, the Golden Pavilion and the Zen gardens, Gion's geisha districts, Nishiki Market, and an easy day trip to Nara.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-bangkok-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-bangkok-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-bangkok.html",
+      "title": "Bangkok: The Places Worth Your Time",
+      "description": "The best things to do in Bangkok — the Grand Palace and the Emerald Buddha, Wat Pho and Wat Arun, the river and canals, Chatuchak and the night markets, Chinatown street food, the Jim Thompson House, rooftop bars, and day trips to Ayutthaya and the floating markets.",
       "board": "Asia Travel: Japan, Vietnam, Korea & More"
     }
   ]
