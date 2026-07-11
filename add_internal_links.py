@@ -32,6 +32,71 @@ MARK_END = "<!-- END internal-links -->"
 
 # title + hook (one-sentence "why this is worth reading next")
 ARTICLES: dict[str, tuple[str, str]] = {
+    # ---- city first-timer guides (SE/E-Asia expansion) ----
+    "articles/singapore-first-timers-guide.html": (
+        "Singapore: A First-Timer's Guide",
+        "Marina Bay, the hawker centres, Sentosa and the MRT — a calm first orientation to Singapore.",
+    ),
+    "articles/bangkok-first-timers-guide.html": (
+        "Bangkok: A First-Timer's Guide",
+        "The Grand Palace and Wat Arun, the markets, street food and the river — how to take on Bangkok.",
+    ),
+    "articles/bali-first-timers-guide.html": (
+        "Bali: A First-Timer's Guide",
+        "Ubud's rice terraces, clifftop temples, beaches and warungs — a gentle first orientation to Bali.",
+    ),
+    "articles/hanoi-first-timers-guide.html": (
+        "Hanoi: A First-Timer's Guide",
+        "The Old Quarter, Hoan Kiem Lake, egg coffee and pho, and Ha Long day trips.",
+    ),
+    "articles/ho-chi-minh-city-first-timers-guide.html": (
+        "Ho Chi Minh City: A First-Timer's Guide",
+        "Ben Thanh Market, the War Remnants Museum, coffee culture, and the Cu Chi Tunnels.",
+    ),
+    "articles/hoi-an-first-timers-guide.html": (
+        "Hoi An: A First-Timer's Guide",
+        "The lantern-lit Old Town, the Japanese Bridge, tailors and An Bang Beach.",
+    ),
+    "articles/kuala-lumpur-first-timers-guide.html": (
+        "Kuala Lumpur: A First-Timer's Guide",
+        "The Petronas Towers, Batu Caves, street food and easy day trips.",
+    ),
+    "articles/manila-first-timers-guide.html": (
+        "Manila: A First-Timer's Guide",
+        "Intramuros, Binondo Chinatown, the Manila Bay sunset, and getting around the traffic.",
+    ),
+    "articles/cebu-first-timers-guide.html": (
+        "Cebu: A First-Timer's Guide",
+        "Magellan's Cross, whale sharks (honestly), Kawasan Falls, and island hopping.",
+    ),
+    "articles/chiang-mai-first-timers-guide.html": (
+        "Chiang Mai: A First-Timer's Guide",
+        "Old City temples, Doi Suthep, ethical elephant sanctuaries, and khao soi.",
+    ),
+    "articles/phuket-first-timers-guide.html": (
+        "Phuket: A First-Timer's Guide",
+        "Choosing your beach, the Sino-Portuguese Old Town, and island-hopping to Phi Phi.",
+    ),
+    "articles/hong-kong-first-timers-guide.html": (
+        "Hong Kong: A First-Timer's Guide",
+        "Victoria Peak, the Star Ferry, Lantau's Big Buddha, and dim sum.",
+    ),
+    "articles/seoul-first-timers-guide.html": (
+        "Seoul: A First-Timer's Guide",
+        "The royal palaces, Bukchon Hanok Village, Gwangjang Market, and a DMZ day trip.",
+    ),
+    "articles/osaka-first-timers-guide.html": (
+        "Osaka: A First-Timer's Guide",
+        "Osaka Castle, Dotonbori, the street food, and an easy day trip to Nara.",
+    ),
+    "articles/penang-first-timers-guide.html": (
+        "Penang: A First-Timer's Guide",
+        "George Town's murals and clan jetties, Kek Lok Si, Penang Hill, and hawker food.",
+    ),
+    "articles/yogyakarta-first-timers-guide.html": (
+        "Yogyakarta: A First-Timer's Guide",
+        "Borobudur at sunrise, Prambanan, the Kraton, and a Mount Merapi jeep tour.",
+    ),
     "articles/airport-security-bag-rules.html": (
         "Airport Security Bag Rules",
         "What gets flagged at the X-ray belt and how to repack to avoid the bin.",
@@ -156,6 +221,119 @@ ARTICLES: dict[str, tuple[str, str]] = {
 
 # each article → list of related-article paths (4-6 each)
 LINKS: dict[str, list[str]] = {
+    # ---- city guides -> harvest targets (etiquette + eSIM + boat) + tours/insurance + sibling cities ----
+    "articles/singapore-first-timers-guide.html": [
+        "articles/what-counts-as-rude.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/kuala-lumpur-first-timers-guide.html",
+        "articles/bangkok-first-timers-guide.html",
+    ],
+    "articles/bangkok-first-timers-guide.html": [
+        "articles/what-counts-as-rude.html",
+        "articles/best-esim-thailand-2026.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/chiang-mai-first-timers-guide.html",
+        "articles/phuket-first-timers-guide.html",
+    ],
+    "articles/bali-first-timers-guide.html": [
+        "articles/untranslatable-words.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/travel-insurance-compared.html",
+        "articles/yogyakarta-first-timers-guide.html",
+        "articles/bangkok-first-timers-guide.html",
+    ],
+    "articles/hanoi-first-timers-guide.html": [
+        "articles/what-counts-as-rude.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/ho-chi-minh-city-first-timers-guide.html",
+        "articles/hoi-an-first-timers-guide.html",
+    ],
+    "articles/ho-chi-minh-city-first-timers-guide.html": [
+        "articles/what-counts-as-rude.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/hanoi-first-timers-guide.html",
+        "articles/hoi-an-first-timers-guide.html",
+    ],
+    "articles/hoi-an-first-timers-guide.html": [
+        "articles/untranslatable-words.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/charter-a-boat-for-a-day.html",
+        "articles/hanoi-first-timers-guide.html",
+        "articles/ho-chi-minh-city-first-timers-guide.html",
+    ],
+    "articles/kuala-lumpur-first-timers-guide.html": [
+        "articles/what-counts-as-rude.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/penang-first-timers-guide.html",
+        "articles/singapore-first-timers-guide.html",
+    ],
+    "articles/manila-first-timers-guide.html": [
+        "articles/what-counts-as-rude.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/travel-insurance-compared.html",
+        "articles/cebu-first-timers-guide.html",
+        "articles/kuala-lumpur-first-timers-guide.html",
+    ],
+    "articles/cebu-first-timers-guide.html": [
+        "articles/untranslatable-words.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/charter-a-boat-for-a-day.html",
+        "articles/manila-first-timers-guide.html",
+        "articles/phuket-first-timers-guide.html",
+    ],
+    "articles/chiang-mai-first-timers-guide.html": [
+        "articles/what-counts-as-rude.html",
+        "articles/best-esim-thailand-2026.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/bangkok-first-timers-guide.html",
+        "articles/phuket-first-timers-guide.html",
+    ],
+    "articles/phuket-first-timers-guide.html": [
+        "articles/untranslatable-words.html",
+        "articles/best-esim-thailand-2026.html",
+        "articles/charter-a-boat-for-a-day.html",
+        "articles/bangkok-first-timers-guide.html",
+        "articles/chiang-mai-first-timers-guide.html",
+    ],
+    "articles/hong-kong-first-timers-guide.html": [
+        "articles/what-counts-as-rude.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/osaka-first-timers-guide.html",
+        "articles/seoul-first-timers-guide.html",
+    ],
+    "articles/seoul-first-timers-guide.html": [
+        "articles/what-counts-as-rude.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/south-korea-country-profile.html",
+        "articles/osaka-first-timers-guide.html",
+        "articles/hong-kong-first-timers-guide.html",
+    ],
+    "articles/osaka-first-timers-guide.html": [
+        "articles/untranslatable-words.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/luggage-storage-tokyo.html",
+        "articles/carry-on-packing-list-10-day-japan.html",
+        "articles/seoul-first-timers-guide.html",
+    ],
+    "articles/penang-first-timers-guide.html": [
+        "articles/what-counts-as-rude.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/kuala-lumpur-first-timers-guide.html",
+        "articles/singapore-first-timers-guide.html",
+    ],
+    "articles/yogyakarta-first-timers-guide.html": [
+        "articles/untranslatable-words.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/bali-first-timers-guide.html",
+        "articles/singapore-first-timers-guide.html",
+    ],
     "articles/airport-security-bag-rules.html": [
         "articles/airport-security-checklist.html",
         "articles/airport-security-liquids.html",
