@@ -269,6 +269,36 @@ QUERIES: dict[str, list[str]] = {
         "Bangkok Chinatown street food night",
         "Bangkok floating market boats",
     ],
+    "things-to-do-in-seoul": [
+        "Gyeongbokgung Palace Seoul guard",
+        "Bukchon Hanok Village Seoul",
+        "N Seoul Tower Namsan night",
+        "Gwangjang Market Seoul food",
+    ],
+    "things-to-do-in-osaka": [
+        "Osaka Castle Japan",
+        "Dotonbori Osaka Glico neon",
+        "Shinsekai Tsutenkaku Osaka",
+        "Osaka takoyaki street food",
+    ],
+    "things-to-do-in-singapore": [
+        "Marina Bay Sands Singapore skyline",
+        "Gardens by the Bay Supertree Singapore",
+        "Singapore hawker centre food",
+        "Sentosa Singapore beach",
+    ],
+    "things-to-do-in-bali": [
+        "Tegallalang rice terrace Ubud Bali",
+        "Uluwatu temple Bali cliff sunset",
+        "Kelingking Beach Nusa Penida Bali",
+        "Bali beach surf Seminyak",
+    ],
+    "things-to-do-in-hong-kong": [
+        "Victoria Peak Hong Kong skyline",
+        "Star Ferry Victoria Harbour Hong Kong",
+        "Tian Tan Big Buddha Lantau Hong Kong",
+        "Temple Street night market Hong Kong",
+    ],
 }
 
 
@@ -312,6 +342,11 @@ SLUG_TO_PATH: dict[str, Path] = {
     "things-to-do-in-tokyo":                Path("articles/things-to-do-in-tokyo.html"),
     "things-to-do-in-kyoto":                Path("articles/things-to-do-in-kyoto.html"),
     "things-to-do-in-bangkok":              Path("articles/things-to-do-in-bangkok.html"),
+    "things-to-do-in-seoul":                Path("articles/things-to-do-in-seoul.html"),
+    "things-to-do-in-osaka":                Path("articles/things-to-do-in-osaka.html"),
+    "things-to-do-in-singapore":            Path("articles/things-to-do-in-singapore.html"),
+    "things-to-do-in-bali":                 Path("articles/things-to-do-in-bali.html"),
+    "things-to-do-in-hong-kong":            Path("articles/things-to-do-in-hong-kong.html"),
 }
 
 

@@ -340,6 +340,26 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Bangkok",
         "Grand Palace and temple tours, canal longtail trips, floating-market and Ayutthaya day tours, an eSIM, and an airport transfer.",
         "1609350", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-seoul.html": hub(
+        "Tours &amp; tickets in Seoul",
+        "Palace and Gangnam audio walks, a DMZ day trip, T-money-friendly attractions, an eSIM, and an airport pickup.",
+        "1835848", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-osaka.html": hub(
+        "Tours &amp; tickets in Osaka",
+        "Self-guided Osaka walks, Universal Studios and Kaiyukan tickets, a Nara day trip, an eSIM, and an airport transfer.",
+        "1853909", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-singapore.html": hub(
+        "Tours &amp; tickets in Singapore",
+        "Gardens by the Bay and observation-deck tickets, Sentosa passes, self-guided walks, an eSIM, and an airport transfer.",
+        "1880252", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-bali.html": hub(
+        "Tours &amp; tickets in Bali",
+        "Nusa Penida boat trips, a Mount Batur sunrise trek, temple and rice-terrace tours, an eSIM, and an airport pickup.",
+        "1645528", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-hong-kong.html": hub(
+        "Tours &amp; tickets in Hong Kong",
+        "The Peak Tram, Ngong Ping 360 and Big Buddha, self-guided walks, an eSIM, and an airport transfer.",
+        "1819729", ["klook", "kkday", "saily", "welcomepickups"]),
 }
 
 

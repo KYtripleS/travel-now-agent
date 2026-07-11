@@ -1,5 +1,5 @@
 {
-  "count": 117,
+  "count": 122,
   "pins": [
     {
       "slug": "japan-photo",
@@ -935,6 +935,46 @@
       "link": "https://gentlyyonder.com/articles/things-to-do-in-bangkok.html",
       "title": "Bangkok: The Places Worth Your Time",
       "description": "The best things to do in Bangkok — the Grand Palace and the Emerald Buddha, Wat Pho and Wat Arun, the river and canals, Chatuchak and the night markets, Chinatown street food, the Jim Thompson House, rooftop bars, and day trips to Ayutthaya and the floating markets.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-seoul-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-seoul-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-seoul.html",
+      "title": "Seoul: The Places Worth Your Time",
+      "description": "The best things to do in Seoul — Gyeongbokgung and the royal palaces, Bukchon Hanok Village, N Seoul Tower, Myeongdong and Insadong, Gangnam and the DDP, Gwangjang Market and Korean barbecue, a DMZ day trip, and the Han River.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-osaka-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-osaka-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-osaka.html",
+      "title": "Osaka: The Places Worth Your Time",
+      "description": "The best things to do in Osaka — Osaka Castle, Dotonbori and Namba, Shinsekai's kushikatsu, Kuromon Market and the street food, the Umeda Sky Building, Universal Studios Japan and the Kaiyukan aquarium, and easy day trips to Nara, Kyoto and Kobe.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-singapore-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-singapore-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-singapore.html",
+      "title": "Singapore: The Places Worth Your Time",
+      "description": "The best things to do in Singapore — Marina Bay Sands and Gardens by the Bay, Chinatown, Little India and Kampong Glam, the hawker centres and Hainanese chicken rice, Sentosa, Orchard Road and the river, and the zoos and Botanic Gardens.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-bali-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-bali-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-bali.html",
+      "title": "Bali: The Places Worth Your Time",
+      "description": "The best things to do in Bali — Ubud and the Tegallalang rice terraces, the great temples of Tanah Lot, Uluwatu and Tirta Empul, the surf beaches of the south, Nusa Penida and Kelingking Beach, a Mount Batur sunrise trek, and Balinese food.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-hongkong-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-hongkong-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-hong-kong.html",
+      "title": "Hong Kong: The Places Worth Your Time",
+      "description": "The best things to do in Hong Kong — Victoria Peak and the Peak Tram, the Star Ferry and Symphony of Lights, Kowloon's markets, the Big Buddha and Ngong Ping 360 on Lantau, temples and gardens, the outlying islands and theme parks, and dim sum.",
       "board": "Asia Travel: Japan, Vietnam, Korea & More"
     }
   ]

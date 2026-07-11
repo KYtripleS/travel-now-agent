@@ -110,6 +110,26 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Bangkok: The Places Worth Your Time",
         "The Grand Palace, Wat Pho and Wat Arun, the river and canals, markets, and Ayutthaya.",
     ),
+    "articles/things-to-do-in-seoul.html": (
+        "Seoul: The Places Worth Your Time",
+        "Gyeongbokgung, Bukchon, N Seoul Tower, Myeongdong, Gwangjang Market, and a DMZ day trip.",
+    ),
+    "articles/things-to-do-in-osaka.html": (
+        "Osaka: The Places Worth Your Time",
+        "Osaka Castle, Dotonbori, Shinsekai's kushikatsu, Universal Studios, and a Nara day trip.",
+    ),
+    "articles/things-to-do-in-singapore.html": (
+        "Singapore: The Places Worth Your Time",
+        "Marina Bay, Gardens by the Bay, the cultural quarters, the hawker centres, and Sentosa.",
+    ),
+    "articles/things-to-do-in-bali.html": (
+        "Bali: The Places Worth Your Time",
+        "Ubud and the rice terraces, the great temples, the surf south, Nusa Penida, and Mount Batur.",
+    ),
+    "articles/things-to-do-in-hong-kong.html": (
+        "Hong Kong: The Places Worth Your Time",
+        "Victoria Peak, the Star Ferry, Kowloon's markets, the Big Buddha, and dim sum.",
+    ),
     "articles/airport-security-bag-rules.html": (
         "Airport Security Bag Rules",
         "What gets flagged at the X-ray belt and how to repack to avoid the bin.",
@@ -370,6 +390,41 @@ LINKS: dict[str, list[str]] = {
         "articles/best-esim-thailand-2026.html",
         "articles/what-counts-as-rude.html",
         "articles/chiang-mai-first-timers-guide.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
+    "articles/things-to-do-in-seoul.html": [
+        "articles/seoul-first-timers-guide.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/what-counts-as-rude.html",
+        "articles/things-to-do-in-osaka.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
+    "articles/things-to-do-in-osaka.html": [
+        "articles/osaka-first-timers-guide.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/things-to-do-in-kyoto.html",
+        "articles/luggage-storage-tokyo.html",
+        "articles/things-to-do-in-seoul.html",
+    ],
+    "articles/things-to-do-in-singapore.html": [
+        "articles/singapore-first-timers-guide.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/what-counts-as-rude.html",
+        "articles/things-to-do-in-bangkok.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
+    "articles/things-to-do-in-bali.html": [
+        "articles/bali-first-timers-guide.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/things-to-do-in-singapore.html",
+        "articles/travel-insurance-compared.html",
+        "articles/what-counts-as-rude.html",
+    ],
+    "articles/things-to-do-in-hong-kong.html": [
+        "articles/hong-kong-first-timers-guide.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/what-counts-as-rude.html",
+        "articles/things-to-do-in-osaka.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
     ],
     "articles/airport-security-bag-rules.html": [
