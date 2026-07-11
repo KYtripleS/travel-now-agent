@@ -299,6 +299,42 @@ QUERIES: dict[str, list[str]] = {
         "Tian Tan Big Buddha Lantau Hong Kong",
         "Temple Street night market Hong Kong",
     ],
+    "things-to-do-in-hanoi": [
+        "Hanoi Old Quarter street Vietnam",
+        "Hoan Kiem Lake Huc Bridge Hanoi",
+        "Temple of Literature Hanoi",
+        "Ha Long Bay Vietnam karst",
+    ],
+    "things-to-do-in-ho-chi-minh-city": [
+        "Ho Chi Minh City Saigon skyline night",
+        "Notre Dame Cathedral Saigon Vietnam",
+        "Ben Thanh Market Saigon",
+        "Mekong Delta boat Vietnam",
+    ],
+    "things-to-do-in-kuala-lumpur": [
+        "Petronas Towers Kuala Lumpur night",
+        "Batu Caves Kuala Lumpur stairs",
+        "Kuala Lumpur Chinatown street",
+        "Jalan Alor food street KL",
+    ],
+    "things-to-do-in-manila": [
+        "Intramuros Manila Fort Santiago",
+        "San Agustin Church Manila",
+        "Manila Bay sunset skyline",
+        "Binondo Manila Chinatown",
+    ],
+    "things-to-do-in-chiang-mai": [
+        "Wat Phra Singh temple Chiang Mai",
+        "Doi Suthep temple Chiang Mai golden",
+        "Chiang Mai night market lanterns",
+        "Chiang Mai elephant sanctuary jungle",
+    ],
+    "things-to-do-in-phuket": [
+        "Phuket beach island Thailand aerial",
+        "Big Buddha Phuket viewpoint",
+        "Old Phuket Town Sino-Portuguese street",
+        "Phi Phi islands longtail boat Phuket",
+    ],
 }
 
 
@@ -347,6 +383,12 @@ SLUG_TO_PATH: dict[str, Path] = {
     "things-to-do-in-singapore":            Path("articles/things-to-do-in-singapore.html"),
     "things-to-do-in-bali":                 Path("articles/things-to-do-in-bali.html"),
     "things-to-do-in-hong-kong":            Path("articles/things-to-do-in-hong-kong.html"),
+    "things-to-do-in-hanoi":                Path("articles/things-to-do-in-hanoi.html"),
+    "things-to-do-in-ho-chi-minh-city":     Path("articles/things-to-do-in-ho-chi-minh-city.html"),
+    "things-to-do-in-kuala-lumpur":         Path("articles/things-to-do-in-kuala-lumpur.html"),
+    "things-to-do-in-manila":               Path("articles/things-to-do-in-manila.html"),
+    "things-to-do-in-chiang-mai":           Path("articles/things-to-do-in-chiang-mai.html"),
+    "things-to-do-in-phuket":               Path("articles/things-to-do-in-phuket.html"),
 }
 
 

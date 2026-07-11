@@ -130,6 +130,30 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Hong Kong: The Places Worth Your Time",
         "Victoria Peak, the Star Ferry, Kowloon's markets, the Big Buddha, and dim sum.",
     ),
+    "articles/things-to-do-in-hanoi.html": (
+        "Hanoi: The Places Worth Your Time",
+        "The Old Quarter and Hoan Kiem Lake, the Temple of Literature, Train Street, egg coffee, and Ha Long Bay.",
+    ),
+    "articles/things-to-do-in-ho-chi-minh-city.html": (
+        "Ho Chi Minh City: The Places Worth Your Time",
+        "The War Remnants Museum, the colonial core, Ben Thanh, Landmark 81, and the Mekong Delta.",
+    ),
+    "articles/things-to-do-in-kuala-lumpur.html": (
+        "Kuala Lumpur: The Places Worth Your Time",
+        "The Petronas Towers, Batu Caves, the colonial core, the Islamic Arts Museum, and Jalan Alor.",
+    ),
+    "articles/things-to-do-in-manila.html": (
+        "Manila: The Places Worth Your Time",
+        "Intramuros, Rizal Park and the National Museum, Binondo, the Manila Bay sunset, and Corregidor.",
+    ),
+    "articles/things-to-do-in-chiang-mai.html": (
+        "Chiang Mai: The Places Worth Your Time",
+        "The Old City temples, Doi Suthep, ethical elephants, the markets, khao soi, and Doi Inthanon.",
+    ),
+    "articles/things-to-do-in-phuket.html": (
+        "Phuket: The Places Worth Your Time",
+        "Choosing your beach, the Old Town, the Big Buddha, and island-hopping to Phi Phi and Phang Nga.",
+    ),
     "articles/airport-security-bag-rules.html": (
         "Airport Security Bag Rules",
         "What gets flagged at the X-ray belt and how to repack to avoid the bin.",
@@ -426,6 +450,48 @@ LINKS: dict[str, list[str]] = {
         "articles/what-counts-as-rude.html",
         "articles/things-to-do-in-osaka.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
+    "articles/things-to-do-in-hanoi.html": [
+        "articles/hanoi-first-timers-guide.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/things-to-do-in-ho-chi-minh-city.html",
+        "articles/what-counts-as-rude.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
+    "articles/things-to-do-in-ho-chi-minh-city.html": [
+        "articles/ho-chi-minh-city-first-timers-guide.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/things-to-do-in-hanoi.html",
+        "articles/what-counts-as-rude.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
+    "articles/things-to-do-in-kuala-lumpur.html": [
+        "articles/kuala-lumpur-first-timers-guide.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/things-to-do-in-singapore.html",
+        "articles/what-counts-as-rude.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
+    "articles/things-to-do-in-manila.html": [
+        "articles/manila-first-timers-guide.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/things-to-do-in-hong-kong.html",
+        "articles/travel-insurance-compared.html",
+        "articles/what-counts-as-rude.html",
+    ],
+    "articles/things-to-do-in-chiang-mai.html": [
+        "articles/chiang-mai-first-timers-guide.html",
+        "articles/best-esim-thailand-2026.html",
+        "articles/things-to-do-in-bangkok.html",
+        "articles/what-counts-as-rude.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
+    "articles/things-to-do-in-phuket.html": [
+        "articles/phuket-first-timers-guide.html",
+        "articles/best-esim-thailand-2026.html",
+        "articles/things-to-do-in-bangkok.html",
+        "articles/charter-a-boat-for-a-day.html",
+        "articles/what-counts-as-rude.html",
     ],
     "articles/airport-security-bag-rules.html": [
         "articles/airport-security-checklist.html",

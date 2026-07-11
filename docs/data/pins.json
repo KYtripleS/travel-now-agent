@@ -1,5 +1,5 @@
 {
-  "count": 122,
+  "count": 128,
   "pins": [
     {
       "slug": "japan-photo",
@@ -975,6 +975,54 @@
       "link": "https://gentlyyonder.com/articles/things-to-do-in-hong-kong.html",
       "title": "Hong Kong: The Places Worth Your Time",
       "description": "The best things to do in Hong Kong — Victoria Peak and the Peak Tram, the Star Ferry and Symphony of Lights, Kowloon's markets, the Big Buddha and Ngong Ping 360 on Lantau, temples and gardens, the outlying islands and theme parks, and dim sum.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-hanoi-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-hanoi-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-hanoi.html",
+      "title": "Hanoi: The Places Worth Your Time",
+      "description": "The best things to do in Hanoi — the Old Quarter and Hoan Kiem Lake, the Temple of Literature and the Ho Chi Minh Mausoleum, Train Street and the markets, the water puppets, egg coffee and bun cha, and day trips to Ha Long Bay and Ninh Binh.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-hcmc-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-hcmc-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-ho-chi-minh-city.html",
+      "title": "Ho Chi Minh City: The Places Worth Your Time",
+      "description": "The best things to do in Ho Chi Minh City (Saigon) — the War Remnants Museum and the Cu Chi Tunnels, the colonial Notre-Dame and Central Post Office, Reunification Palace, Ben Thanh Market and Cholon, Landmark 81, the coffee and street food, and the Mekong Delta.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-kl-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-kl-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-kuala-lumpur.html",
+      "title": "Kuala Lumpur: The Places Worth Your Time",
+      "description": "The best things to do in Kuala Lumpur — the Petronas Twin Towers and KLCC, Batu Caves, Merdeka Square and Chinatown, the Islamic Arts Museum, the KL Tower views, the food from nasi lemak to Jalan Alor, and day trips to Genting and Putrajaya.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-manila-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-manila-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-manila.html",
+      "title": "Manila: The Places Worth Your Time",
+      "description": "The best things to do in Manila — Intramuros and Fort Santiago, San Agustin Church, Rizal Park and the National Museum, Binondo's old Chinatown, the Manila Bay sunset, Makati and BGC, and day trips to Corregidor and Tagaytay's Taal volcano.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-chiangmai-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-chiangmai-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-chiang-mai.html",
+      "title": "Chiang Mai: The Places Worth Your Time",
+      "description": "The best things to do in Chiang Mai — the Old City temples of Wat Phra Singh and Wat Chedi Luang, the mountain temple of Doi Suthep, ethical elephant sanctuaries, the Sunday Walking Street, khao soi and a cooking class, and mountain trips to Doi Inthanon.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "things-phuket-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/things-phuket-photo.png",
+      "link": "https://gentlyyonder.com/articles/things-to-do-in-phuket.html",
+      "title": "Phuket: The Places Worth Your Time",
+      "description": "The best things to do in Phuket — choosing between Patong, Kata, Karon and the quieter beaches, the Sino-Portuguese Old Town, the Big Buddha and Wat Chalong, island-hopping to Phi Phi, the Similans and Phang Nga Bay, and Peranakan food.",
       "board": "Asia Travel: Japan, Vietnam, Korea & More"
     }
   ]

@@ -360,6 +360,30 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Hong Kong",
         "The Peak Tram, Ngong Ping 360 and Big Buddha, self-guided walks, an eSIM, and an airport transfer.",
         "1819729", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-hanoi.html": hub(
+        "Tours &amp; tickets in Hanoi",
+        "Ha Long Bay and Ninh Binh day trips, self-guided Old Quarter walks, an eSIM, and an airport pickup.",
+        "1581130", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-ho-chi-minh-city.html": hub(
+        "Tours &amp; tickets in Ho Chi Minh City",
+        "Cu Chi Tunnels and Mekong Delta day tours, city walks, an eSIM, and an airport pickup.",
+        "1566083", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-kuala-lumpur.html": hub(
+        "Tours &amp; tickets in Kuala Lumpur",
+        "Petronas skybridge, Batu Caves and Genting day trips, self-guided walks, an eSIM, and an airport transfer.",
+        "1735161", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-manila.html": hub(
+        "Tours &amp; tickets in Manila",
+        "Intramuros walking tours, Corregidor and Tagaytay day trips, an eSIM, and an airport pickup.",
+        "1701668", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-chiang-mai.html": hub(
+        "Tours &amp; tickets in Chiang Mai",
+        "Ethical elephant sanctuaries, a Doi Inthanon day trip, self-guided walks, an eSIM, and an airport pickup.",
+        "1153671", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-phuket.html": hub(
+        "Tours &amp; tickets in Phuket",
+        "Phi Phi and Phang Nga boat trips, island tours, an eSIM, and an airport transfer in Phuket.",
+        "1151254", ["klook", "kkday", "saily", "welcomepickups"]),
 }
 
 
