@@ -384,6 +384,27 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Phuket",
         "Phi Phi and Phang Nga boat trips, island tours, an eSIM, and an airport transfer in Phuket.",
         "1151254", ["klook", "kkday", "saily", "welcomepickups"]),
+    # ---- itineraries + packing (B wave) ----
+    "articles/japan-7-day-itinerary.html": hub(
+        "Tours &amp; tickets for your Japan trip",
+        "teamLab and Shinkansen bookings, self-guided city walks, day trips, an eSIM, and an airport transfer.",
+        "1850147", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/thailand-10-day-itinerary.html": hub(
+        "Tours &amp; tickets for your Thailand trip",
+        "Bangkok temple tours, Chiang Mai sanctuaries, island boats, internal flights, an eSIM, and an airport transfer.",
+        "1609350", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/bali-7-day-itinerary.html": hub(
+        "Tours &amp; tickets for your Bali trip",
+        "Nusa Penida boats, a Mount Batur trek, temple and rice-terrace tours, an eSIM, and an airport pickup.",
+        "1645528", ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/what-to-pack-for-southeast-asia.html": hub(
+        "Sort the essentials before you fly",
+        "A travel eSIM for arrival, airport transfers, and the tours worth booking ahead across Southeast Asia.",
+        "1609350", ["saily", "klook", "welcomepickups"]),
+    "articles/what-to-pack-for-japan.html": hub(
+        "Sort the essentials before you fly",
+        "A travel eSIM for arrival, self-guided tours, and the tickets worth booking ahead for Japan.",
+        "1850147", ["saily", "klook", "welcomepickups"]),
 }
 
 

@@ -154,6 +154,27 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Phuket: The Places Worth Your Time",
         "Choosing your beach, the Old Town, the Big Buddha, and island-hopping to Phi Phi and Phang Nga.",
     ),
+    # ---- itineraries + packing (B wave) ----
+    "articles/japan-7-day-itinerary.html": (
+        "Japan: A 7-Day First-Timer's Itinerary",
+        "Three days in Tokyo, a day trip, two days in Kyoto, and a day in Osaka — tied together by the Shinkansen.",
+    ),
+    "articles/thailand-10-day-itinerary.html": (
+        "Thailand: A 10-Day Itinerary",
+        "Bangkok, Chiang Mai, and the Andaman islands in ten days, linked by cheap internal flights.",
+    ),
+    "articles/bali-7-day-itinerary.html": (
+        "Bali: A 7-Day Itinerary",
+        "Ubud's hills, the great temples, the surf south, and a Nusa Penida boat trip in a week.",
+    ),
+    "articles/what-to-pack-for-southeast-asia.html": (
+        "What to Pack for Southeast Asia",
+        "A carry-on packing list for the tropics — light, temple-ready clothes, the right tech, and health essentials.",
+    ),
+    "articles/what-to-pack-for-japan.html": (
+        "What to Pack for Japan",
+        "A season-by-season Japan packing list — carry-on for the trains, slip-on shoes, plugs, and the Japanese extras.",
+    ),
     "articles/airport-security-bag-rules.html": (
         "Airport Security Bag Rules",
         "What gets flagged at the X-ray belt and how to repack to avoid the bin.",
@@ -492,6 +513,41 @@ LINKS: dict[str, list[str]] = {
         "articles/things-to-do-in-bangkok.html",
         "articles/charter-a-boat-for-a-day.html",
         "articles/what-counts-as-rude.html",
+    ],
+    "articles/japan-7-day-itinerary.html": [
+        "articles/things-to-do-in-tokyo.html",
+        "articles/things-to-do-in-kyoto.html",
+        "articles/things-to-do-in-osaka.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/what-to-pack-for-japan.html",
+    ],
+    "articles/thailand-10-day-itinerary.html": [
+        "articles/things-to-do-in-bangkok.html",
+        "articles/things-to-do-in-chiang-mai.html",
+        "articles/things-to-do-in-phuket.html",
+        "articles/best-esim-thailand-2026.html",
+        "articles/what-to-pack-for-southeast-asia.html",
+    ],
+    "articles/bali-7-day-itinerary.html": [
+        "articles/things-to-do-in-bali.html",
+        "articles/bali-first-timers-guide.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/what-to-pack-for-southeast-asia.html",
+        "articles/travel-insurance-compared.html",
+    ],
+    "articles/what-to-pack-for-southeast-asia.html": [
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/travel-insurance-compared.html",
+        "articles/airport-security-liquids.html",
+        "articles/thailand-10-day-itinerary.html",
+        "articles/bali-7-day-itinerary.html",
+    ],
+    "articles/what-to-pack-for-japan.html": [
+        "articles/best-esim-japan-2026.html",
+        "articles/luggage-storage-tokyo.html",
+        "articles/carry-on-packing-list-10-day-japan.html",
+        "articles/japan-7-day-itinerary.html",
+        "articles/airport-security-liquids.html",
     ],
     "articles/airport-security-bag-rules.html": [
         "articles/airport-security-checklist.html",

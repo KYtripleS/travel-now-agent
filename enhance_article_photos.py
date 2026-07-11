@@ -335,6 +335,36 @@ QUERIES: dict[str, list[str]] = {
         "Old Phuket Town Sino-Portuguese street",
         "Phi Phi islands longtail boat Phuket",
     ],
+    "japan-7-day-itinerary": [
+        "Tokyo Shibuya crossing night",
+        "Mount Fuji Hakone lake",
+        "Kyoto Fushimi Inari torii",
+        "Osaka Dotonbori night",
+    ],
+    "thailand-10-day-itinerary": [
+        "Bangkok Wat Arun temple river",
+        "Chiang Mai temple Thailand mountain",
+        "Thailand island longtail boat beach",
+        "Phi Phi islands Thailand aerial",
+    ],
+    "bali-7-day-itinerary": [
+        "Bali Tegallalang rice terrace Ubud",
+        "Uluwatu temple Bali cliff sunset",
+        "Nusa Penida Kelingking Beach Bali",
+        "Bali beach Seminyak surf",
+    ],
+    "what-to-pack-for-southeast-asia": [
+        "travel backpack packing flat lay",
+        "Southeast Asia temple traveller",
+        "tropical island beach Thailand",
+        "travel gear adapter power bank",
+    ],
+    "what-to-pack-for-japan": [
+        "Japan travel suitcase train station",
+        "Kyoto street kimono autumn",
+        "Tokyo train Shinkansen platform",
+        "Japan winter snow street",
+    ],
 }
 
 
@@ -389,6 +419,11 @@ SLUG_TO_PATH: dict[str, Path] = {
     "things-to-do-in-manila":               Path("articles/things-to-do-in-manila.html"),
     "things-to-do-in-chiang-mai":           Path("articles/things-to-do-in-chiang-mai.html"),
     "things-to-do-in-phuket":               Path("articles/things-to-do-in-phuket.html"),
+    "japan-7-day-itinerary":                Path("articles/japan-7-day-itinerary.html"),
+    "thailand-10-day-itinerary":            Path("articles/thailand-10-day-itinerary.html"),
+    "bali-7-day-itinerary":                 Path("articles/bali-7-day-itinerary.html"),
+    "what-to-pack-for-southeast-asia":      Path("articles/what-to-pack-for-southeast-asia.html"),
+    "what-to-pack-for-japan":               Path("articles/what-to-pack-for-japan.html"),
 }
 
 

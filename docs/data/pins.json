@@ -1,5 +1,5 @@
 {
-  "count": 128,
+  "count": 133,
   "pins": [
     {
       "slug": "japan-photo",
@@ -1024,6 +1024,46 @@
       "title": "Phuket: The Places Worth Your Time",
       "description": "The best things to do in Phuket — choosing between Patong, Kata, Karon and the quieter beaches, the Sino-Portuguese Old Town, the Big Buddha and Wat Chalong, island-hopping to Phi Phi, the Similans and Phang Nga Bay, and Peranakan food.",
       "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "japan-itin-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/japan-itin-photo.png",
+      "link": "https://gentlyyonder.com/articles/japan-7-day-itinerary.html",
+      "title": "Japan: A 7-Day First-Timer's Itinerary",
+      "description": "A practical 7-day Japan itinerary for first-timers — three days in Tokyo, a classic day trip to Kamakura, Nikko or Hakone, two days in Kyoto's temples and geisha districts, and a day in Osaka (with Nara), tied together by the Shinkansen.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "thailand-itin-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/thailand-itin-photo.png",
+      "link": "https://gentlyyonder.com/articles/thailand-10-day-itinerary.html",
+      "title": "Thailand: A 10-Day Itinerary",
+      "description": "A practical 10-day Thailand itinerary for first-timers — three days in Bangkok's temples and street food, three in Chiang Mai's Old City and ethical elephant sanctuaries, and four on the Andaman islands (Phuket, Krabi or Koh Lanta), linked by cheap internal flights.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "bali-itin-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/bali-itin-photo.png",
+      "link": "https://gentlyyonder.com/articles/bali-7-day-itinerary.html",
+      "title": "Bali: A 7-Day Itinerary",
+      "description": "A practical 7-day Bali itinerary for first-timers — three days in Ubud's rice terraces, temples and a Mount Batur sunrise, a temple day en route south, the surf-and-café south coast, and a boat trip to Nusa Penida's Kelingking Beach.",
+      "board": "Asia Travel: Japan, Vietnam, Korea & More"
+    },
+    {
+      "slug": "pack-sea-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/pack-sea-photo.png",
+      "link": "https://gentlyyonder.com/articles/what-to-pack-for-southeast-asia.html",
+      "title": "What to Pack for Southeast Asia",
+      "description": "A carry-on packing list for Southeast Asia — bags, light and temple-ready clothes, a universal adapter and power bank, the tropical health essentials (repellent, reef-safe sunscreen, a medical kit), and documents. Pack light for Thailand, Vietnam, Bali and beyond.",
+      "board": "Packing Light & Capsule Wardrobe"
+    },
+    {
+      "slug": "pack-japan-photo",
+      "image": "https://gentlyyonder.com/images/pinterest/pack-japan-photo.png",
+      "link": "https://gentlyyonder.com/articles/what-to-pack-for-japan.html",
+      "title": "What to Pack for Japan",
+      "description": "A practical packing list for Japan — carry-on bags for the trains, season-by-season clothing (spring, summer, autumn, winter), slip-on walking shoes, plugs and power, and the very Japanese extras (a hand towel, coins, an IC card) that make the trip smoother.",
+      "board": "Packing Light & Capsule Wardrobe"
     }
   ]
 }
