@@ -62,8 +62,13 @@ def aviasales_search() -> str:
 
 
 def wegotrip_tours(city_id: str) -> str:
-    """WeGoTrip self-guided tours for a city (campaign 150, promo 4489)."""
-    return _script(f"locale=en&city_id={city_id}&tours=3&powered_by=true"
+    """WeGoTrip self-guided tours for a city (campaign 150, promo 4489).
+
+    tours=2 (not 3): the widget lays cards out in a 2-column grid, so an odd
+    count leaves an orphan card in a second row that the iframe's fixed height
+    clips. Two cards fill exactly one row — no clipping.
+    """
+    return _script(f"locale=en&city_id={city_id}&tours=2&powered_by=true"
                    "&campaign_id=150&promo_id=4489")
 
 
