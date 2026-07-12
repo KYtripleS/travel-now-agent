@@ -52,3 +52,28 @@
     }
   }, 1500);
 })();
+
+/* Asia-Pacific map — hover/focus tooltip (progressive enhancement) */
+(function () {
+  var wrap = document.querySelector('.apac-map-wrap');
+  if (!wrap) return;
+  var tip = wrap.querySelector('.apac-tooltip');
+  if (!tip) return;
+  var nameEl = tip.querySelector('.apac-tt-name');
+  var metaEl = tip.querySelector('.apac-tt-meta');
+  function show(node) {
+    var r = node.getBoundingClientRect(), w = wrap.getBoundingClientRect();
+    nameEl.textContent = node.getAttribute('data-country');
+    metaEl.textContent = node.getAttribute('data-guides') + ' guides · ' + node.getAttribute('data-cities');
+    tip.style.left = (r.left - w.left + r.width / 2) + 'px';
+    tip.style.top  = (r.top - w.top) + 'px';
+    tip.hidden = false;
+  }
+  function hide() { tip.hidden = true; }
+  wrap.querySelectorAll('.apac-node').forEach(function (node) {
+    node.addEventListener('mouseenter', function () { show(node); });
+    node.addEventListener('mouseleave', hide);
+    node.addEventListener('focus', function () { show(node); });
+    node.addEventListener('blur', hide);
+  });
+})();
