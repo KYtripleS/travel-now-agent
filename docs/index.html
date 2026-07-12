@@ -42,7 +42,7 @@
   <meta name="twitter:image:alt" content="Gently Yonder — Build your travel prep checklist before you fly." />
   <meta name="twitter:site" content="@TripWorldAdvice" />
 
-  <link rel="stylesheet" href="style-v2.css" />
+  <link rel="stylesheet" href="style-v2.css?v=20260712" />
 
   <!-- Animation libs (free, MIT) ─ defer = no render blocking ── -->
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -1717,10 +1717,13 @@
     function heroWordReveal() {
       var headline = document.querySelector('.hero-headline');
       if (!headline) return;
-      var words = headline.textContent.trim().split(/\s+/);
-      headline.innerHTML = words.map(function (w) {
-        return '<span class="word">' + w + '</span>';
-      }).join(' ');
+      var lines = headline.innerHTML.split(/<br\s*\/?>/i);
+      headline.innerHTML = lines.map(function (line) {
+        var text = line.replace(/<[^>]+>/g, '').trim();
+        return text.split(/\s+/).map(function (w) {
+          return '<span class="word">' + w + '</span>';
+        }).join(' ');
+      }).join('<br/>');
       gsap.from('.hero-headline .word', {
         opacity: 0,
         y: 28,

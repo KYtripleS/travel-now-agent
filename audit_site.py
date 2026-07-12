@@ -84,7 +84,9 @@ def parse_local_hrefs(text: str) -> list[str]:
 
 def resolve(href: str, from_file: Path) -> Path | None:
     """Resolve a local href relative to the HTML file containing it."""
-    fragment_stripped = href.split("#")[0]
+    # Strip fragment (#…) and query (?…) — neither is part of the file path
+    # (e.g. a cache-buster like style-v2.css?v=20260712).
+    fragment_stripped = href.split("#")[0].split("?")[0]
     if not fragment_stripped:
         return None
     return (from_file.parent / fragment_stripped).resolve()
