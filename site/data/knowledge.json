@@ -1,0 +1,1133 @@
+{
+  "generated": "2026-07-12",
+  "totals": {
+    "countries": 11,
+    "cities": 22,
+    "guides": 101
+  },
+  "countries": [
+    {
+      "name": "Japan",
+      "slug": "japan",
+      "region": "East Asia",
+      "hub": "countries/japan/",
+      "cities": [
+        {
+          "name": "Tokyo",
+          "slug": "tokyo",
+          "hub": "cities/tokyo/",
+          "guides": [
+            {
+              "title": "Your First Day in Tokyo: A Calm Arrival Plan",
+              "url": "articles/first-day-in-tokyo-arrival-plan.html",
+              "slug": "first-day-in-tokyo-arrival-plan",
+              "type": "arrival",
+              "tags": []
+            },
+            {
+              "title": "Navigating Luggage Storage in Tokyo: Options and Practicalities for 2026",
+              "url": "articles/luggage-storage-tokyo.html",
+              "slug": "luggage-storage-tokyo",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Narita & Haneda to Central Tokyo: A Practical Guide to Every Route",
+              "url": "articles/narita-haneda-to-central-tokyo.html",
+              "slug": "narita-haneda-to-central-tokyo",
+              "type": "transport",
+              "tags": [
+                "Transport"
+              ]
+            },
+            {
+              "title": "Shinjuku, Tokyo: A Neighbourhood Guide",
+              "url": "articles/shinjuku-neighbourhood-guide.html",
+              "slug": "shinjuku-neighbourhood-guide",
+              "type": "neighbourhood",
+              "tags": [
+                "Transport"
+              ]
+            },
+            {
+              "title": "Tokyo: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-tokyo.html",
+              "slug": "things-to-do-in-tokyo",
+              "type": "places",
+              "tags": []
+            },
+            {
+              "title": "Tokyo in 5 Days: A First-Timer's Unhurried Itinerary",
+              "url": "articles/tokyo-itinerary-5-days.html",
+              "slug": "tokyo-itinerary-5-days",
+              "type": "itinerary",
+              "tags": []
+            },
+            {
+              "title": "Tokyo to Kyoto: A Practical Guide to Shinkansen, Flight, and Bus Travel",
+              "url": "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html",
+              "slug": "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus",
+              "type": "guide",
+              "tags": [
+                "Transport"
+              ]
+            },
+            {
+              "title": "Where to Stay in Tokyo: Neighbourhoods Compared",
+              "url": "articles/where-to-stay-in-tokyo.html",
+              "slug": "where-to-stay-in-tokyo",
+              "type": "stay",
+              "tags": [
+                "Hotels"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kyoto",
+          "slug": "kyoto",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Gion, Kyoto: A Neighbourhood Guide",
+              "url": "articles/gion-kyoto-neighbourhood-guide.html",
+              "slug": "gion-kyoto-neighbourhood-guide",
+              "type": "neighbourhood",
+              "tags": []
+            },
+            {
+              "title": "Kyoto in Autumn 2026: Where the Colors Peak, and When",
+              "url": "articles/kyoto-autumn-2026.html",
+              "slug": "kyoto-autumn-2026",
+              "type": "guide",
+              "tags": [
+                "Timing"
+              ]
+            },
+            {
+              "title": "Osaka or Kyoto: Choosing Your Home Base in Kansai",
+              "url": "articles/osaka-or-kyoto-where-to-base.html",
+              "slug": "osaka-or-kyoto-where-to-base",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Kyoto: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-kyoto.html",
+              "slug": "things-to-do-in-kyoto",
+              "type": "places",
+              "tags": []
+            },
+            {
+              "title": "Three Slow Days in Kyoto: A Gentle First-Timer's Itinerary",
+              "url": "articles/three-slow-days-in-kyoto.html",
+              "slug": "three-slow-days-in-kyoto",
+              "type": "itinerary",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "Osaka",
+          "slug": "osaka",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Osaka in 3 Days: Food, Neighborhoods, and Day-One Energy",
+              "url": "articles/osaka-3-day-guide.html",
+              "slug": "osaka-3-day-guide",
+              "type": "itinerary",
+              "tags": []
+            },
+            {
+              "title": "Osaka: A First-Timer's Guide",
+              "url": "articles/osaka-first-timers-guide.html",
+              "slug": "osaka-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Osaka: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-osaka.html",
+              "slug": "things-to-do-in-osaka",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "title": "Best Time to Visit Japan (2026): A Season-Honest Guide",
+          "url": "articles/best-time-to-visit-japan-2026.html",
+          "slug": "best-time-to-visit-japan-2026",
+          "type": "guide",
+          "tags": [
+            "Timing"
+          ]
+        },
+        {
+          "title": "How Much Does a Trip to Japan Cost in 2026?",
+          "url": "articles/how-much-does-japan-cost.html",
+          "slug": "how-much-does-japan-cost",
+          "type": "guide",
+          "tags": [
+            "Money"
+          ]
+        },
+        {
+          "title": "Japan: A 7-Day First-Timer's Itinerary",
+          "url": "articles/japan-7-day-itinerary.html",
+          "slug": "japan-7-day-itinerary",
+          "type": "itinerary",
+          "tags": []
+        },
+        {
+          "title": "Japan in Autumn 2026: Foliage Timing, Crowds, and How to Plan",
+          "url": "articles/japan-autumn-2026.html",
+          "slug": "japan-autumn-2026",
+          "type": "guide",
+          "tags": [
+            "Timing"
+          ]
+        },
+        {
+          "title": "Japan Tickets That Sell Out: What to Book Before You Fly (2026)",
+          "url": "articles/japan-book-in-advance-2026.html",
+          "slug": "japan-book-in-advance-2026",
+          "type": "guide",
+          "tags": [
+            "Timing"
+          ]
+        },
+        {
+          "title": "Are Japan's City Sightseeing Passes Worth It? A Practical Guide",
+          "url": "articles/japan-city-sightseeing-passes-worth-it.html",
+          "slug": "japan-city-sightseeing-passes-worth-it",
+          "type": "guide",
+          "tags": [
+            "Transport"
+          ]
+        },
+        {
+          "title": "Is the JR Pass Worth It in 2026? The Honest Math",
+          "url": "articles/jr-pass-worth-it-2026.html",
+          "slug": "jr-pass-worth-it-2026",
+          "type": "guide",
+          "tags": [
+            "Transport"
+          ]
+        },
+        {
+          "title": "Navigating Japan: A Gentle Guide to Suica, Pasmo, and IC Cards (2026)",
+          "url": "articles/suica-pasmo-ic-cards-guide.html",
+          "slug": "suica-pasmo-ic-cards-guide",
+          "type": "guide",
+          "tags": [
+            "Transport"
+          ]
+        }
+      ],
+      "guideCount": 24
+    },
+    {
+      "name": "Australia",
+      "slug": "australia",
+      "region": "Oceania",
+      "hub": "countries/australia/",
+      "cities": [
+        {
+          "name": "Melbourne",
+          "slug": "melbourne",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Getting Around Melbourne: Trams, Myki & the Free Tram Zone",
+              "url": "articles/getting-around-melbourne.html",
+              "slug": "getting-around-melbourne",
+              "type": "transport",
+              "tags": [
+                "Transport"
+              ]
+            },
+            {
+              "title": "Melbourne: A First-Timer's Guide",
+              "url": "articles/melbourne-first-timers-guide.html",
+              "slug": "melbourne-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Melbourne: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-melbourne.html",
+              "slug": "things-to-do-in-melbourne",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "Perth",
+          "slug": "perth",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Getting Around Perth: Transperth, Trains & the Free CAT Buses",
+              "url": "articles/getting-around-perth.html",
+              "slug": "getting-around-perth",
+              "type": "transport",
+              "tags": [
+                "Transport"
+              ]
+            },
+            {
+              "title": "Perth: A First-Timer's Guide",
+              "url": "articles/perth-first-timers-guide.html",
+              "slug": "perth-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Perth: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-perth.html",
+              "slug": "things-to-do-in-perth",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "Sydney",
+          "slug": "sydney",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Getting Around Sydney: Opal Card, Trains, Ferries & Buses",
+              "url": "articles/getting-around-sydney.html",
+              "slug": "getting-around-sydney",
+              "type": "transport",
+              "tags": [
+                "Transport"
+              ]
+            },
+            {
+              "title": "Your First Visit to Sydney: A Gentle Orientation",
+              "url": "articles/sydney-first-timers-guide.html",
+              "slug": "sydney-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Sydney: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-sydney.html",
+              "slug": "things-to-do-in-sydney",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "title": "Best Time to Visit Australia (2026): Region by Region, Honestly",
+          "url": "articles/best-time-to-visit-australia.html",
+          "slug": "best-time-to-visit-australia",
+          "type": "guide",
+          "tags": [
+            "Timing"
+          ]
+        }
+      ],
+      "guideCount": 10
+    },
+    {
+      "name": "Thailand",
+      "slug": "thailand",
+      "region": "Southeast Asia",
+      "hub": null,
+      "cities": [
+        {
+          "name": "Bangkok",
+          "slug": "bangkok",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Navigating Bangkok: A Gentle Introduction for First-Timers",
+              "url": "articles/bangkok-first-timers-guide.html",
+              "slug": "bangkok-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Bangkok: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-bangkok.html",
+              "slug": "things-to-do-in-bangkok",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "Chiang Mai",
+          "slug": "chiang-mai",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Chiang Mai: A First-Timer's Guide",
+              "url": "articles/chiang-mai-first-timers-guide.html",
+              "slug": "chiang-mai-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Chiang Mai: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-chiang-mai.html",
+              "slug": "things-to-do-in-chiang-mai",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "Phuket",
+          "slug": "phuket",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Phuket: A First-Timer's Guide",
+              "url": "articles/phuket-first-timers-guide.html",
+              "slug": "phuket-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Phuket: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-phuket.html",
+              "slug": "things-to-do-in-phuket",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "title": "Thailand: A 10-Day Itinerary",
+          "url": "articles/thailand-10-day-itinerary.html",
+          "slug": "thailand-10-day-itinerary",
+          "type": "itinerary",
+          "tags": []
+        }
+      ],
+      "guideCount": 7
+    },
+    {
+      "name": "Vietnam",
+      "slug": "vietnam",
+      "region": "Southeast Asia",
+      "hub": "countries/vietnam/",
+      "cities": [
+        {
+          "name": "Hanoi",
+          "slug": "hanoi",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Hanoi for First-Timers: A Gentle Orientation",
+              "url": "articles/hanoi-first-timers-guide.html",
+              "slug": "hanoi-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Hanoi: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-hanoi.html",
+              "slug": "things-to-do-in-hanoi",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "Ho Chi Minh City",
+          "slug": "ho-chi-minh-city",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Ho Chi Minh City: A First-Timer's Guide to Embracing Saigon's Energy",
+              "url": "articles/ho-chi-minh-city-first-timers-guide.html",
+              "slug": "ho-chi-minh-city-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Ho Chi Minh City: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-ho-chi-minh-city.html",
+              "slug": "things-to-do-in-ho-chi-minh-city",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "Hoi An",
+          "slug": "hoi-an",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Hoi An: A First-Timer's Guide",
+              "url": "articles/hoi-an-first-timers-guide.html",
+              "slug": "hoi-an-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "title": "Best Time to Visit Vietnam (2026): Region by Region, Honestly",
+          "url": "articles/best-time-to-visit-vietnam.html",
+          "slug": "best-time-to-visit-vietnam",
+          "type": "guide",
+          "tags": [
+            "Timing"
+          ]
+        }
+      ],
+      "guideCount": 6
+    },
+    {
+      "name": "Indonesia",
+      "slug": "indonesia",
+      "region": "Southeast Asia",
+      "hub": null,
+      "cities": [
+        {
+          "name": "Bali",
+          "slug": "bali",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Bali: A 7-Day Itinerary",
+              "url": "articles/bali-7-day-itinerary.html",
+              "slug": "bali-7-day-itinerary",
+              "type": "itinerary",
+              "tags": []
+            },
+            {
+              "title": "Getting Started in Bali: A First-Timer's Gentle Guide",
+              "url": "articles/bali-first-timers-guide.html",
+              "slug": "bali-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Bali: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-bali.html",
+              "slug": "things-to-do-in-bali",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "Yogyakarta",
+          "slug": "yogyakarta",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Yogyakarta: A First-Timer's Guide",
+              "url": "articles/yogyakarta-first-timers-guide.html",
+              "slug": "yogyakarta-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [],
+      "guideCount": 4
+    },
+    {
+      "name": "South Korea",
+      "slug": "south-korea",
+      "region": "East Asia",
+      "hub": null,
+      "cities": [
+        {
+          "name": "Seoul",
+          "slug": "seoul",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Seoul: A First-Timer's Guide",
+              "url": "articles/seoul-first-timers-guide.html",
+              "slug": "seoul-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Seoul in 3 Days: A First-Timer's Unhurried Itinerary",
+              "url": "articles/seoul-itinerary-3-days.html",
+              "slug": "seoul-itinerary-3-days",
+              "type": "itinerary",
+              "tags": []
+            },
+            {
+              "title": "Seoul: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-seoul.html",
+              "slug": "things-to-do-in-seoul",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "title": "South Korea: A Layered Profile for Thoughtful Travelers",
+          "url": "articles/south-korea-country-profile.html",
+          "slug": "south-korea-country-profile",
+          "type": "guide",
+          "tags": []
+        }
+      ],
+      "guideCount": 4
+    },
+    {
+      "name": "Philippines",
+      "slug": "philippines",
+      "region": "Southeast Asia",
+      "hub": null,
+      "cities": [
+        {
+          "name": "Manila",
+          "slug": "manila",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Manila: A First-Timer's Guide",
+              "url": "articles/manila-first-timers-guide.html",
+              "slug": "manila-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Manila: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-manila.html",
+              "slug": "things-to-do-in-manila",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "Cebu",
+          "slug": "cebu",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Cebu: A First-Timer's Guide",
+              "url": "articles/cebu-first-timers-guide.html",
+              "slug": "cebu-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [],
+      "guideCount": 3
+    },
+    {
+      "name": "Taiwan",
+      "slug": "taiwan",
+      "region": "East Asia",
+      "hub": null,
+      "cities": [
+        {
+          "name": "Taipei",
+          "slug": "taipei",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Taipei: A First-Timer's Guide",
+              "url": "articles/taipei-first-timers-guide.html",
+              "slug": "taipei-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Taipei: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-taipei.html",
+              "slug": "things-to-do-in-taipei",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "title": "Getting Around Taiwan: EasyCard, the Taipei MRT & High-Speed Rail",
+          "url": "articles/getting-around-taiwan.html",
+          "slug": "getting-around-taiwan",
+          "type": "transport",
+          "tags": [
+            "Transport"
+          ]
+        }
+      ],
+      "guideCount": 3
+    },
+    {
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "region": "Southeast Asia",
+      "hub": null,
+      "cities": [
+        {
+          "name": "Kuala Lumpur",
+          "slug": "kuala-lumpur",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Kuala Lumpur: A Gentle Introduction for First-Timers",
+              "url": "articles/kuala-lumpur-first-timers-guide.html",
+              "slug": "kuala-lumpur-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Kuala Lumpur: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-kuala-lumpur.html",
+              "slug": "things-to-do-in-kuala-lumpur",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "name": "Penang",
+          "slug": "penang",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Penang: A First-Timer's Guide",
+              "url": "articles/penang-first-timers-guide.html",
+              "slug": "penang-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [],
+      "guideCount": 3
+    },
+    {
+      "name": "Hong Kong",
+      "slug": "hong-kong",
+      "region": "East Asia",
+      "hub": null,
+      "cities": [
+        {
+          "name": "Hong Kong",
+          "slug": "hong-kong",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Hong Kong: A First-Timer's Guide",
+              "url": "articles/hong-kong-first-timers-guide.html",
+              "slug": "hong-kong-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Hong Kong: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-hong-kong.html",
+              "slug": "things-to-do-in-hong-kong",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [],
+      "guideCount": 2
+    },
+    {
+      "name": "Singapore",
+      "slug": "singapore",
+      "region": "Southeast Asia",
+      "hub": null,
+      "cities": [
+        {
+          "name": "Singapore",
+          "slug": "singapore",
+          "hub": null,
+          "guides": [
+            {
+              "title": "A Gentle Introduction to Singapore: Your First Visit",
+              "url": "articles/singapore-first-timers-guide.html",
+              "slug": "singapore-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Singapore: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-singapore.html",
+              "slug": "things-to-do-in-singapore",
+              "type": "places",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [],
+      "guideCount": 2
+    }
+  ],
+  "prep": [
+    {
+      "category": "eSIM",
+      "guides": [
+        {
+          "title": "Airalo vs. Holafly vs. Saily: Navigating Travel eSIM Options in 2026",
+          "url": "articles/airalo-vs-holafly-vs-saily.html",
+          "slug": "airalo-vs-holafly-vs-saily",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Choosing Your Europe eSIM for 2026: An In-Depth Guide",
+          "url": "articles/best-esim-europe-2026.html",
+          "slug": "best-esim-europe-2026",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Best eSIM for Japan (2026): How I'd Choose",
+          "url": "articles/best-esim-japan-2026.html",
+          "slug": "best-esim-japan-2026",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Best Travel eSIM for Japan, Korea & Vietnam (2026)",
+          "url": "articles/best-esim-japan-korea-vietnam.html",
+          "slug": "best-esim-japan-korea-vietnam",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Best eSIM for South Korea (2026): How I'd Choose",
+          "url": "articles/best-esim-south-korea-2026.html",
+          "slug": "best-esim-south-korea-2026",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Best eSIM for Thailand (2026): A Practical Guide",
+          "url": "articles/best-esim-thailand-2026.html",
+          "slug": "best-esim-thailand-2026",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Best eSIM for the USA (2026): How I'd Choose",
+          "url": "articles/best-esim-usa-2026.html",
+          "slug": "best-esim-usa-2026",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Best Travel eSIM 2026: Ranked, Honestly",
+          "url": "articles/best-travel-esim-2026.html",
+          "slug": "best-travel-esim-2026",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "eSIM Setup for International Travel: Activation Checklist",
+          "url": "articles/esim-activation-and-preparation.html",
+          "slug": "esim-activation-and-preparation",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Pocket WiFi vs eSIM: Navigating International Connectivity in 2026",
+          "url": "articles/pocket-wifi-vs-esim.html",
+          "slug": "pocket-wifi-vs-esim",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Packing",
+      "guides": [
+        {
+          "title": "Carry-On Packing for Airport Security: A Simple Prep Guide",
+          "url": "articles/airport-security-packing-moments.html",
+          "slug": "airport-security-packing-moments",
+          "type": "guide",
+          "tags": [
+            "Packing",
+            "Airport"
+          ]
+        },
+        {
+          "title": "Beach Trip Packing Checklist: What to Pack for Tropical Destinations",
+          "url": "articles/beach-trip-packing-checklist.html",
+          "slug": "beach-trip-packing-checklist",
+          "type": "guide",
+          "tags": [
+            "Packing"
+          ]
+        },
+        {
+          "title": "The Two-Week Capsule Wardrobe: 10 Items for Three Climates",
+          "url": "articles/capsule-wardrobe-2-week-trips.html",
+          "slug": "capsule-wardrobe-2-week-trips",
+          "type": "guide",
+          "tags": [
+            "Packing"
+          ]
+        },
+        {
+          "title": "Carry-On Packing for a 10-Day Journey Through Japan (2026)",
+          "url": "articles/carry-on-packing-list-10-day-japan.html",
+          "slug": "carry-on-packing-list-10-day-japan",
+          "type": "itinerary",
+          "tags": [
+            "Packing"
+          ]
+        },
+        {
+          "title": "Travel EDC Checklist: Everyday Carry Essentials for Trip Prep",
+          "url": "articles/everyday-carry-essentials-for-travel.html",
+          "slug": "everyday-carry-essentials-for-travel",
+          "type": "guide",
+          "tags": [
+            "Packing"
+          ]
+        },
+        {
+          "title": "What to Pack for Japan",
+          "url": "articles/what-to-pack-for-japan.html",
+          "slug": "what-to-pack-for-japan",
+          "type": "guide",
+          "tags": [
+            "Packing"
+          ]
+        },
+        {
+          "title": "What to Pack for Southeast Asia",
+          "url": "articles/what-to-pack-for-southeast-asia.html",
+          "slug": "what-to-pack-for-southeast-asia",
+          "type": "guide",
+          "tags": [
+            "Packing"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Insurance",
+      "guides": [
+        {
+          "title": "Best Travel Insurance 2026: Ranked by Traveler Type",
+          "url": "articles/best-travel-insurance-2026.html",
+          "slug": "best-travel-insurance-2026",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Navigating Travel Insurance for Digital Nomads in 2026: A Comprehensive Buyer's Guide",
+          "url": "articles/best-travel-insurance-digital-nomads-2026.html",
+          "slug": "best-travel-insurance-digital-nomads-2026",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Is Travel Insurance Actually Worth It? An Honest Look",
+          "url": "articles/is-travel-insurance-worth-it.html",
+          "slug": "is-travel-insurance-worth-it",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "SafetyWing vs. World Nomads: Navigating Travel Insurance in 2026",
+          "url": "articles/safetywing-vs-world-nomads.html",
+          "slug": "safetywing-vs-world-nomads",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Travel Insurance Compared: SafetyWing, World Nomads, and Genki",
+          "url": "articles/travel-insurance-compared.html",
+          "slug": "travel-insurance-compared",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Do You Need Travel Insurance for Japan? (2026)",
+          "url": "articles/travel-insurance-japan.html",
+          "slug": "travel-insurance-japan",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Airport",
+      "guides": [
+        {
+          "title": "Airport Security Bags: Navigating Carry-On and Personal Item Standards for International Travel",
+          "url": "articles/airport-security-bag-rules.html",
+          "slug": "airport-security-bag-rules",
+          "type": "guide",
+          "tags": [
+            "Airport"
+          ]
+        },
+        {
+          "title": "Airport Security Checklist: A 12-Point Pre-Flight Verification for International Travelers (2026)",
+          "url": "articles/airport-security-checklist.html",
+          "slug": "airport-security-checklist",
+          "type": "guide",
+          "tags": [
+            "Airport"
+          ]
+        },
+        {
+          "title": "Airport Security Liquids Checklist: Carry-On Travel Prep",
+          "url": "articles/airport-security-liquids.html",
+          "slug": "airport-security-liquids",
+          "type": "guide",
+          "tags": [
+            "Airport"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "General",
+      "guides": [
+        {
+          "title": "Rent a Boat for a Day Without a License: A Traveller's Guide",
+          "url": "articles/charter-a-boat-for-a-day.html",
+          "slug": "charter-a-boat-for-a-day",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Your First International Trip: A Calm Pre-Flight Checklist",
+          "url": "articles/first-international-trip-checklist.html",
+          "slug": "first-international-trip-checklist",
+          "type": "guide",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "category": "Culture",
+      "guides": [
+        {
+          "title": "Untranslatable Words: 14 Concepts in 12 Languages and Why They Resist Translation",
+          "url": "articles/untranslatable-words.html",
+          "slug": "untranslatable-words",
+          "type": "guide",
+          "tags": [
+            "Culture"
+          ]
+        },
+        {
+          "title": "What Counts as Rude: A Research Guide to Cultural Etiquette in 12 Countries",
+          "url": "articles/what-counts-as-rude.html",
+          "slug": "what-counts-as-rude",
+          "type": "guide",
+          "tags": [
+            "Culture"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Hotels",
+      "guides": [
+        {
+          "title": "Hotel Booking Sites Compared: How to Choose for Your Next Trip",
+          "url": "articles/hotel-booking-sites-comparison.html",
+          "slug": "hotel-booking-sites-comparison",
+          "type": "guide",
+          "tags": [
+            "Hotels"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Jet lag",
+      "guides": [
+        {
+          "title": "Jet Lag, Honestly: What Helps, What's Myth",
+          "url": "articles/jet-lag-what-actually-works.html",
+          "slug": "jet-lag-what-actually-works",
+          "type": "guide",
+          "tags": [
+            "Jet lag"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Tours",
+      "guides": [
+        {
+          "title": "Klook vs Viator vs GetYourGuide: Navigating Tour Bookings in 2026",
+          "url": "articles/klook-vs-viator-vs-getyourguide.html",
+          "slug": "klook-vs-viator-vs-getyourguide",
+          "type": "guide",
+          "tags": [
+            "Tours"
+          ]
+        }
+      ]
+    }
+  ]
+}
