@@ -27,18 +27,20 @@ MARK_BEGIN = "<!-- BEGIN apac-map (managed by build_map.py) -->"
 MARK_END = "<!-- END apac-map -->"
 
 # Hand-placed, roughly-geographic coordinates on a 0..960 x 0..620 field.
+# Spread to fill the canvas (map is navigation, not cartography) and spaced so
+# no node sits on a neighbour's label.
 COORDS: dict[str, tuple[int, int]] = {
-    "Japan":       (812, 172),
-    "South Korea": (735, 205),
-    "Taiwan":      (740, 312),
-    "Hong Kong":   (672, 322),
-    "Philippines": (802, 388),
-    "Vietnam":     (655, 356),
-    "Thailand":    (587, 350),
-    "Malaysia":    (612, 452),
-    "Singapore":   (628, 486),
-    "Indonesia":   (722, 512),
-    "Australia":   (828, 566),
+    "Thailand":    (150, 300),
+    "Vietnam":     (300, 262),
+    "Hong Kong":   (420, 300),
+    "Malaysia":    (168, 432),
+    "Singapore":   (250, 494),
+    "Indonesia":   (398, 508),
+    "Taiwan":      (556, 250),
+    "Philippines": (602, 388),
+    "South Korea": (668, 196),
+    "Japan":       (812, 176),
+    "Australia":   (836, 548),
 }
 
 
