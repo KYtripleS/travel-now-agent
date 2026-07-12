@@ -3262,3 +3262,57 @@ section.globe-section #globe-canvas {
 
 .apac-land path, .apac-land ellipse { fill:#33476b; fill-opacity:.28; stroke:none; }
 .apac-grid path { fill:none; stroke:#8b9bbd; stroke-width:1; stroke-opacity:.11; }
+
+/* ── Ready Score (the North Star) ────────────────────────────────────────── */
+.ready-score { max-width: 940px; margin: 0 auto; padding: clamp(40px,7vh,88px) clamp(20px,5vw,40px); text-align: center; }
+.rs-eyebrow { font-size:.8rem; letter-spacing:.14em; text-transform:uppercase; color:var(--gold); font-weight:700; margin:0 0 10px; }
+.rs-title { font-family:Georgia,"Times New Roman",serif; font-weight:700; font-size:clamp(1.8rem,4.6vw,2.8rem); color:var(--navy); letter-spacing:-.02em; margin:0 0 12px; }
+.rs-lead { color:var(--muted); font-size:1.02rem; max-width:34em; margin:0 auto 26px; line-height:1.6; }
+
+.rs-widget { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-lg);
+  box-shadow:0 24px 60px rgba(23,32,51,.10); padding:clamp(20px,3.5vw,34px); text-align:left; }
+
+.rs-chips { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin:0 0 24px; }
+.rs-chip { border:1px solid var(--line); background:var(--surface-soft); color:var(--navy);
+  border-radius:999px; padding:8px 16px; font-size:.9rem; font-weight:600; cursor:pointer;
+  transition:all .2s ease; }
+.rs-chip:hover { border-color:var(--gold); }
+.rs-chip.is-active { background:var(--navy); color:#fff; border-color:var(--navy); }
+
+.rs-body { display:flex; gap:clamp(20px,4vw,44px); align-items:center; }
+
+.rs-gauge { position:relative; flex:0 0 auto; width:168px; height:168px; display:grid; place-items:center; }
+.rs-ring { width:168px; height:168px; }
+.rs-ring-bg { fill:none; stroke:var(--gold-soft); stroke-width:9; }
+.rs-ring-fg { fill:none; stroke:var(--gold); stroke-width:9; stroke-linecap:round;
+  transition:stroke-dashoffset .7s cubic-bezier(.65,0,.35,1); }
+.rs-gauge-inner { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+.rs-gauge-num { font-family:Georgia,"Times New Roman",serif; font-weight:700; font-size:2.6rem; color:var(--navy); line-height:1; }
+.rs-gauge-cap { font-size:.72rem; color:var(--muted); margin-top:4px; letter-spacing:.02em; }
+
+.rs-list { list-style:none; margin:0; padding:0; flex:1 1 auto; min-width:0; }
+.rs-item { display:flex; align-items:center; gap:12px; padding:11px 0; border-bottom:1px solid var(--line); }
+.rs-item:last-child { border-bottom:none; }
+.rs-check { flex:0 0 auto; width:26px; height:26px; border-radius:50%; border:2px solid var(--line-dark);
+  background:var(--surface); cursor:pointer; display:grid; place-items:center; padding:0; transition:all .2s ease; }
+.rs-check svg { width:15px; height:15px; fill:none; stroke:#fff; stroke-width:2.4; stroke-linecap:round; stroke-linejoin:round;
+  opacity:0; transform:scale(.5); transition:all .2s ease; }
+.rs-item.is-done .rs-check { background:var(--gold); border-color:var(--gold); }
+.rs-item.is-done .rs-check svg { opacity:1; transform:scale(1); }
+.rs-item-label { flex:1 1 auto; color:var(--navy); font-size:1rem; }
+.rs-item.is-done .rs-item-label { color:var(--muted); text-decoration:line-through; text-decoration-color:var(--line-dark); }
+.rs-item-link { flex:0 0 auto; font-size:.82rem; font-weight:600; color:var(--gold); text-decoration:none; white-space:nowrap; }
+.rs-item-link:hover { text-decoration:underline; }
+
+.rs-next { margin:20px 0 0; text-align:center; color:var(--muted); font-size:.95rem; }
+.rs-next a { color:var(--navy); font-weight:700; text-decoration:none; border-bottom:2px solid var(--gold); }
+.rs-cta { display:block; text-align:center; margin:22px auto 0; max-width:420px; background:var(--navy); color:#fff;
+  padding:15px 26px; border-radius:999px; text-decoration:none; font-weight:700; transition:transform .2s ease, box-shadow .2s ease; }
+.rs-cta:hover { transform:translateY(-2px); box-shadow:0 12px 28px rgba(23,32,51,.22); }
+.rs-micro { text-align:center; color:var(--muted); font-size:.78rem; margin:12px 0 0; }
+
+@media (max-width:620px){
+  .rs-body { flex-direction:column; gap:22px; }
+  .rs-gauge, .rs-ring { width:150px; height:150px; }
+  .rs-item-label { font-size:.95rem; }
+}
