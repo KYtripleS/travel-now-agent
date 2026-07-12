@@ -44,6 +44,24 @@ COORDS: dict[str, tuple[int, int]] = {
 }
 
 
+# A subtle cartographic graticule (globe-style lat/long grid). Reads as a map
+# surface — clean and premium — without pretending to hand-draw coastlines.
+# Accurate country landmasses would need a real simplified SVG world-map asset.
+GRID = """    <g class="apac-grid" aria-hidden="true">
+      <path d="M40 132 Q480 106 920 132"/>
+      <path d="M40 240 Q480 214 920 240"/>
+      <path d="M40 348 Q480 324 920 348"/>
+      <path d="M40 456 Q480 434 920 456"/>
+      <path d="M40 552 Q480 534 920 552"/>
+      <path d="M188 60 Q158 312 188 560"/>
+      <path d="M352 50 Q326 312 352 572"/>
+      <path d="M516 46 Q516 312 516 576"/>
+      <path d="M680 50 Q706 312 680 572"/>
+      <path d="M828 60 Q858 312 828 560"/>
+    </g>
+"""
+
+
 def lead_url(country: dict) -> str:
     """Best click target when a country has no hub yet: its lead city guide."""
     if country.get("hub"):
@@ -116,7 +134,7 @@ def build_svg(data: dict) -> str:
       </filter>
     </defs>
     <rect class="apac-field" x="0" y="0" width="960" height="620" rx="26" fill="url(#apacField)"></rect>
-    <rect x="0" y="0" width="960" height="620" rx="26" fill="url(#apacDots)"></rect>
+{GRID}    <rect x="0" y="0" width="960" height="620" rx="26" fill="url(#apacDots)"></rect>
     <g class="apac-nodes">
 {nodes_svg}
     </g>

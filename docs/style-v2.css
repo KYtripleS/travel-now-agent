@@ -3259,3 +3259,6 @@ section.globe-section #globe-canvas {
   .apac-count { font-size:17px; }
   .apac-chip  { font-size:.82rem; padding:7px 12px; }
 }
+
+.apac-land path, .apac-land ellipse { fill:#33476b; fill-opacity:.28; stroke:none; }
+.apac-grid path { fill:none; stroke:#8b9bbd; stroke-width:1; stroke-opacity:.11; }
