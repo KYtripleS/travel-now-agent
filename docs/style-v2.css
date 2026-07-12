@@ -3316,3 +3316,14 @@ section.globe-section #globe-canvas {
   .rs-gauge, .rs-ring { width:150px; height:150px; }
   .rs-item-label { font-size:.95rem; }
 }
+
+/* Ready Score — trip controls (destination + trip style) */
+.rs-controls { display:flex; flex-direction:column; gap:15px; margin-bottom:26px; }
+.rs-field { display:flex; flex-direction:column; gap:9px; }
+.rs-field-label { font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:700; }
+.rs-field .rs-chips { justify-content:flex-start; margin:0; }
+.rs-chips-sm .rs-chip { padding:6px 14px; font-size:.85rem; }
+
+/* Ready Score — "your trip" identity line */
+.rs-trip { text-align:center; color:var(--muted); font-size:.92rem; margin:-6px 0 20px; }
+.rs-trip strong { color:var(--navy); font-weight:700; }

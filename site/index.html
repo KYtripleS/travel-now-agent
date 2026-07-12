@@ -42,7 +42,7 @@
   <meta name="twitter:image:alt" content="Gently Yonder — Build your travel prep checklist before you fly." />
   <meta name="twitter:site" content="@TripWorldAdvice" />
 
-  <link rel="stylesheet" href="style-v2.css?v=20260717" />
+  <link rel="stylesheet" href="style-v2.css?v=20260719" />
 
   <!-- Animation libs (free, MIT) ─ defer = no render blocking ── -->
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -1068,83 +1068,174 @@
     </section>
 
   <!-- ── Plan your trip — interactive checklist preview ──────────────── -->
-  <section class="plan-hub" id="plan" data-reveal>
-    <header class="plan-hub-header">
-      <p class="plan-hub-eyebrow">— The 30-second quick plan —</p>
-      <h2 class="plan-hub-title">Where to next?</h2>
-      <p class="plan-hub-lead">
-        Pick a destination, pick when, pick the shape of your trip. Your prep checklist
-        updates live below &mdash; tap items to tick them off.
-      </p>
+  <section class="ready-score" id="ready" data-reveal>
+    <header class="rs-header">
+      <p class="rs-eyebrow">&mdash; Your Ready Score &mdash;</p>
+      <h2 class="rs-title">How ready are you?</h2>
+      <p class="rs-lead">Pick your trip, tick off what's done, and watch your Ready Score climb. The list
+        rewrites itself for where you're going &mdash; every gap links to the guide that closes it, and it's
+        saved on this device. No sign-up.</p>
     </header>
 
-    <div class="plan-hub-widget">
-      <div class="plan-row">
-        <span class="plan-row-label">Destination</span>
-        <div class="chip-row" id="dest-chips">
-          <button class="chip active" data-group="dest" data-val="Tokyo">Tokyo</button>
-          <button class="chip"        data-group="dest" data-val="Bali">Bali</button>
-          <button class="chip"        data-group="dest" data-val="Lisbon">Lisbon</button>
-          <button class="chip"        data-group="dest" data-val="New York">New York</button>
-          <button class="chip"        data-group="dest" data-val="Paris">Paris</button>
-          <button class="chip"        data-group="dest" data-val="Bangkok">Bangkok</button>
-        </div>
-      </div>
-
-      <div class="plan-row">
-        <span class="plan-row-label">Length</span>
-        <div class="chip-row" id="len-chips">
-          <button class="chip"        data-group="len" data-val="Weekend">Weekend</button>
-          <button class="chip active" data-group="len" data-val="1 week">1 week</button>
-          <button class="chip"        data-group="len" data-val="10 days">10 days</button>
-          <button class="chip"        data-group="len" data-val="2+ weeks">2+ weeks</button>
-        </div>
-      </div>
-
-      <div class="plan-row">
-        <span class="plan-row-label">Trip style</span>
-        <div class="chip-row" id="style-chips">
-          <button class="chip active" data-group="style" data-val="City">City</button>
-          <button class="chip"        data-group="style" data-val="Beach">Beach</button>
-          <button class="chip"        data-group="style" data-val="Hiking">Hiking</button>
-          <button class="chip"        data-group="style" data-val="Foodie">Foodie</button>
-        </div>
-      </div>
-
-      <div class="plan-preview">
-        <div class="plan-preview-header">
-          <div class="plan-preview-meta">
-            Your <strong id="plan-summary">Tokyo &middot; 1 week &middot; City</strong> trip plan
-          </div>
-          <div class="plan-preview-progress">
-            <div class="mock-progress-track">
-              <div class="mock-progress-fill" id="mock-fill"></div>
-            </div>
-            <span><strong><span id="mock-done">0</span></strong> of <span id="mock-total">0</span> done</span>
+    <div class="rs-widget">
+      <div class="rs-controls">
+        <div class="rs-field">
+          <span class="rs-field-label">Destination</span>
+          <div class="rs-chips" id="rs-dest" role="tablist" aria-label="Choose a destination">
+            <button class="rs-chip is-active" data-dest="Japan" role="tab">Japan</button>
+            <button class="rs-chip" data-dest="Thailand" role="tab">Thailand</button>
+            <button class="rs-chip" data-dest="Vietnam" role="tab">Vietnam</button>
+            <button class="rs-chip" data-dest="Indonesia" role="tab">Bali</button>
+            <button class="rs-chip" data-dest="Singapore" role="tab">Singapore</button>
+            <button class="rs-chip" data-dest="South Korea" role="tab">Korea</button>
+            <button class="rs-chip" data-dest="Australia" role="tab">Australia</button>
           </div>
         </div>
-        <div class="mock-items" id="mock-items"></div>
+        <div class="rs-field">
+          <span class="rs-field-label">Trip style</span>
+          <div class="rs-chips rs-chips-sm" id="rs-style" role="tablist" aria-label="Choose a trip style">
+            <button class="rs-chip is-active" data-style="City" role="tab">City</button>
+            <button class="rs-chip" data-style="Beach" role="tab">Beach</button>
+            <button class="rs-chip" data-style="Nature" role="tab">Nature</button>
+            <button class="rs-chip" data-style="Food" role="tab">Food</button>
+          </div>
+        </div>
       </div>
 
-      <a href="checklist-generator.html" class="plan-hub-cta" data-magnetic>
-        <span>🛫</span>
-        <span>Build my full <span id="plan-cta-dest">Tokyo</span> checklist</span>
-        <span class="plan-hub-cta-arrow">→</span>
-      </a>
+      <p class="rs-trip" id="rs-trip"></p>
 
-      <p class="plan-hub-microcopy">
-        Free. No sign-up. Built instantly, with the prep guides linked inside.
-      </p>
+      <div class="rs-body">
+        <div class="rs-gauge">
+          <svg class="rs-ring" viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="rs-ring-bg" cx="60" cy="60" r="52"></circle>
+            <circle class="rs-ring-fg" cx="60" cy="60" r="52" id="rs-ring-fg"
+                    transform="rotate(-90 60 60)"></circle>
+          </svg>
+          <div class="rs-gauge-inner">
+            <span class="rs-gauge-num"><span id="rs-pct">0</span>%</span>
+            <span class="rs-gauge-cap">ready for <span id="rs-gauge-dest">Japan</span></span>
+          </div>
+        </div>
+        <ul class="rs-list" id="rs-list"></ul>
+      </div>
+
+      <p class="rs-next" id="rs-next" aria-live="polite"></p>
+
+      <a href="checklist-generator.html" class="rs-cta" data-magnetic>Build my full <span id="rs-cta-dest">Japan</span> checklist &rarr;</a>
+      <p class="rs-micro">Free &middot; no sign-up &middot; saved on this device</p>
 
       <a href="rehearsal.html" class="plan-hub-rehearse">
-        <span class="pr-tag">New</span>
-        <span class="pr-text"><strong>Want the full version? Rehearse your trip.</strong>
-          The Dry Run plays out your trip day and catches what a checklist can't &mdash;
+        <span class="pr-tag">Next level</span>
+        <span class="pr-text"><strong>Ticked everything and still uneasy? Rehearse your trip.</strong>
+          The Dry Run plays out your travel day and catches what a checklist can't &mdash;
           the things you didn't know you'd forget.</span>
         <span class="pr-arrow">&rarr;</span>
       </a>
     </div>
   </section>
+  <script>
+  (function () {
+    var wrap = document.getElementById('ready');
+    if (!wrap) return;
+    // per-destination: display name, a REAL transit label, and real guide targets
+    var DEST = {
+      'Japan':       { name:'Japan',     transit:'Suica / Pasmo IC card sorted',  pack:'articles/what-to-pack-for-japan.html',         trans:'articles/suica-pasmo-ic-cards-guide.html',   guide:'countries/japan/' },
+      'Thailand':    { name:'Thailand',  transit:'Grab + BTS / MRT plan',         pack:'articles/what-to-pack-for-southeast-asia.html', trans:'articles/bangkok-first-timers-guide.html',   guide:'articles/things-to-do-in-bangkok.html' },
+      'Vietnam':     { name:'Vietnam',   transit:'Grab + cash for taxis',         pack:'articles/what-to-pack-for-southeast-asia.html', trans:'articles/hanoi-first-timers-guide.html',     guide:'countries/vietnam/' },
+      'Indonesia':   { name:'Bali',      transit:'Grab / Gojek + scooter plan',   pack:'articles/what-to-pack-for-southeast-asia.html', trans:'articles/bali-first-timers-guide.html',      guide:'articles/things-to-do-in-bali.html' },
+      'Singapore':   { name:'Singapore', transit:'EZ-Link / SimplyGo sorted',     pack:'articles/what-to-pack-for-southeast-asia.html', trans:'articles/singapore-first-timers-guide.html', guide:'articles/things-to-do-in-singapore.html' },
+      'South Korea': { name:'Korea',     transit:'T-money card sorted',           pack:'articles/capsule-wardrobe-2-week-trips.html',   trans:'articles/seoul-first-timers-guide.html',     guide:'articles/south-korea-country-profile.html' },
+      'Australia':   { name:'Australia', transit:'Opal / Myki + driving plan',    pack:'articles/capsule-wardrobe-2-week-trips.html',   trans:'articles/getting-around-sydney.html',        guide:'countries/australia/' }
+    };
+    // core list — always shown. labelKey/labelFn make the wording destination-specific.
+    var CORE = [
+      { id:'esim',      label:'Travel eSIM sorted',        href:'tools/esim-finder.html' },
+      { id:'insurance', label:'Travel insurance chosen',   href:'tools/insurance-finder.html' },
+      { id:'pack',      label:'Packing list done',         destKey:'pack' },
+      { id:'docs',      label:'Passport valid 6+ months',  href:'articles/first-international-trip-checklist.html' },
+      { id:'airport',   label:'Airport & security prep',   href:'articles/airport-security-checklist.html' },
+      { id:'trans',     labelKey:'transit',                destKey:'trans' },
+      { id:'guide',     labelFn:function (d) { return 'Read the ' + d.name + ' guide'; }, destKey:'guide' }
+    ];
+    // trip style injects TWO specific, real items (all link to a real guide)
+    var STYLE_EXTRA = {
+      City:   [ { id:'city_tix',  label:'Key attraction tickets booked', destKey:'guide' }, { id:'city_pay',  label:'Contactless pay set up',        destKey:'trans' } ],
+      Beach:  [ { id:'beach_sun', label:'Reef-safe sunscreen packed',    destKey:'pack'  }, { id:'beach_bag', label:'Dry bag for phone & cash',      destKey:'pack'  } ],
+      Nature: [ { id:'nat_map',   label:'Offline trail maps saved',      destKey:'trans' }, { id:'nat_shoe',  label:'Broken-in walking shoes',       destKey:'pack'  } ],
+      Food:   [ { id:'food_cash', label:'Cash for cash-only spots',      destKey:'trans' }, { id:'food_diet', label:'Allergy / diet phrases saved',  destKey:'guide' } ]
+    };
+    var STORE = 'gy_ready_v1';
+    var dest = 'Japan', style = 'City', state = {};
+    try { state = JSON.parse(localStorage.getItem(STORE)) || {}; } catch (e) { state = {}; }
+    function save() { try { localStorage.setItem(STORE, JSON.stringify(state)); } catch (e) {} }
+
+    var listEl = document.getElementById('rs-list');
+    var pctEl  = document.getElementById('rs-pct');
+    var ringEl = document.getElementById('rs-ring-fg');
+    var nextEl = document.getElementById('rs-next');
+    var tripEl = document.getElementById('rs-trip');
+    var C = 2 * Math.PI * 52;
+    ringEl.style.strokeDasharray = C;
+
+    function items()     { return CORE.concat(STYLE_EXTRA[style]); }
+    function hrefFor(it) { return it.href || (DEST[dest] && DEST[dest][it.destKey]) || 'all-guides.html'; }
+    function labelFor(it) {
+      var d = DEST[dest];
+      if (it.labelFn)  return it.labelFn(d);
+      if (it.labelKey) return d[it.labelKey];
+      return it.label;
+    }
+
+    function render() {
+      var done = (state[dest] = state[dest] || {});
+      var list = items();
+      var checkedCount = list.reduce(function (n, it) { return n + (done[it.id] ? 1 : 0); }, 0);
+      var pct = Math.round(checkedCount / list.length * 100);
+
+      listEl.innerHTML = '';
+      list.forEach(function (it) {
+        var on = !!done[it.id];
+        var li = document.createElement('li');
+        li.className = 'rs-item' + (on ? ' is-done' : '');
+        li.innerHTML =
+          '<button class="rs-check" aria-pressed="' + on + '" aria-label="Toggle ' + labelFor(it) + '">' +
+            '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13 4L6 12 3 8.5"/></svg></button>' +
+          '<span class="rs-item-label">' + labelFor(it) + '</span>' +
+          '<a class="rs-item-link" href="' + hrefFor(it) + '">' + (on ? 'review' : 'sort it') + ' &rarr;</a>';
+        li.querySelector('.rs-check').addEventListener('click', function () {
+          done[it.id] = !done[it.id]; save(); render();
+        });
+        listEl.appendChild(li);
+      });
+
+      pctEl.textContent = pct;
+      ringEl.style.strokeDashoffset = C * (1 - pct / 100);
+      document.getElementById('rs-gauge-dest').textContent = DEST[dest].name;
+      document.getElementById('rs-cta-dest').textContent = DEST[dest].name;
+      tripEl.innerHTML = 'Tailored for your <strong>' + DEST[dest].name + ' &middot; ' + style + '</strong> trip &mdash; ' + list.length + ' things to check';
+
+      var gap = null;
+      for (var i = 0; i < list.length; i++) { if (!done[list[i].id]) { gap = list[i]; break; } }
+      nextEl.innerHTML = gap
+        ? 'Next up: <a href="' + hrefFor(gap) + '">' + labelFor(gap) + ' &rarr;</a>'
+        : "You're ready. Have a wonderful trip. ✈";
+    }
+
+    function bindChips(sel, attr, setter) {
+      wrap.querySelectorAll(sel + ' .rs-chip').forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          wrap.querySelectorAll(sel + ' .rs-chip').forEach(function (c) { c.classList.remove('is-active'); });
+          chip.classList.add('is-active');
+          setter(chip.getAttribute(attr));
+          render();
+        });
+      });
+    }
+    bindChips('#rs-dest',  'data-dest',  function (v) { dest = v; });
+    bindChips('#rs-style', 'data-style', function (v) { style = v; });
+    render();
+  })();
+  </script>
 
   <section class="apac-map-section" id="map" data-reveal>
     <header class="apac-map-header">
@@ -1274,127 +1365,6 @@
 <!-- END apac-map -->
   </section>
 
-  <section class="ready-score" id="ready" data-reveal>
-    <header class="rs-header">
-      <p class="rs-eyebrow">&mdash; Your Ready Score &mdash;</p>
-      <h2 class="rs-title">Know you're ready.</h2>
-      <p class="rs-lead">Pick your trip and tick off what's done. Your Ready Score updates live &mdash; and every gap links to the guide that closes it. Saved on this device, no sign-up.</p>
-    </header>
-    <div class="rs-widget">
-      <div class="rs-chips" id="rs-dest" role="tablist" aria-label="Choose a destination">
-        <button class="rs-chip is-active" data-dest="Japan" role="tab">Japan</button>
-        <button class="rs-chip" data-dest="Thailand" role="tab">Thailand</button>
-        <button class="rs-chip" data-dest="Vietnam" role="tab">Vietnam</button>
-        <button class="rs-chip" data-dest="Indonesia" role="tab">Bali</button>
-        <button class="rs-chip" data-dest="Singapore" role="tab">Singapore</button>
-        <button class="rs-chip" data-dest="South Korea" role="tab">Korea</button>
-        <button class="rs-chip" data-dest="Australia" role="tab">Australia</button>
-      </div>
-      <div class="rs-body">
-        <div class="rs-gauge">
-          <svg class="rs-ring" viewBox="0 0 120 120" aria-hidden="true">
-            <circle class="rs-ring-bg" cx="60" cy="60" r="52"></circle>
-            <circle class="rs-ring-fg" cx="60" cy="60" r="52" id="rs-ring-fg"
-                    transform="rotate(-90 60 60)"></circle>
-          </svg>
-          <div class="rs-gauge-inner">
-            <span class="rs-gauge-num"><span id="rs-pct">0</span>%</span>
-            <span class="rs-gauge-cap">ready for <span id="rs-gauge-dest">Japan</span></span>
-          </div>
-        </div>
-        <ul class="rs-list" id="rs-list"></ul>
-      </div>
-      <p class="rs-next" id="rs-next" aria-live="polite"></p>
-      <a href="checklist-generator.html" class="rs-cta">Build my full <span id="rs-cta-dest">Japan</span> checklist &rarr;</a>
-      <p class="rs-micro">Free &middot; no sign-up &middot; saved on this device</p>
-    </div>
-  </section>
-  <script>
-  (function () {
-    var wrap = document.getElementById('ready');
-    if (!wrap) return;
-    // destination-specific guide targets (all real pages)
-    var DEST = {
-      'Japan':       { pack:'articles/what-to-pack-for-japan.html',          trans:'articles/suica-pasmo-ic-cards-guide.html', guide:'countries/japan/' },
-      'Thailand':    { pack:'articles/what-to-pack-for-southeast-asia.html',  trans:'articles/bangkok-first-timers-guide.html', guide:'articles/things-to-do-in-bangkok.html' },
-      'Vietnam':     { pack:'articles/what-to-pack-for-southeast-asia.html',  trans:'articles/hanoi-first-timers-guide.html',   guide:'countries/vietnam/' },
-      'Indonesia':   { pack:'articles/what-to-pack-for-southeast-asia.html',  trans:'articles/bali-first-timers-guide.html',    guide:'articles/things-to-do-in-bali.html' },
-      'Singapore':   { pack:'articles/what-to-pack-for-southeast-asia.html',  trans:'articles/singapore-first-timers-guide.html', guide:'articles/things-to-do-in-singapore.html' },
-      'South Korea': { pack:'articles/capsule-wardrobe-2-week-trips.html',    trans:'articles/seoul-first-timers-guide.html',   guide:'articles/south-korea-country-profile.html' },
-      'Australia':   { pack:'articles/capsule-wardrobe-2-week-trips.html',    trans:'articles/getting-around-sydney.html',      guide:'countries/australia/' }
-    };
-    // the readiness checklist. destKey pulls a per-destination href from DEST.
-    var ITEMS = [
-      { id:'esim',      label:'Travel eSIM sorted',           href:'tools/esim-finder.html' },
-      { id:'insurance', label:'Travel insurance chosen',      href:'tools/insurance-finder.html' },
-      { id:'pack',      label:'Packing list done',            destKey:'pack' },
-      { id:'airport',   label:'Airport & security prep',      href:'articles/airport-security-checklist.html' },
-      { id:'docs',      label:'Passport valid 6+ months',     href:'articles/first-international-trip-checklist.html' },
-      { id:'trans',     label:'Getting-around plan',          destKey:'trans' },
-      { id:'guide',     label:'Read the destination guide',   destKey:'guide' }
-    ];
-    var STORE = 'gy_ready_v1';
-    var dest = 'Japan';
-    var state = {};
-    try { state = JSON.parse(localStorage.getItem(STORE)) || {}; } catch (e) { state = {}; }
-    function save() { try { localStorage.setItem(STORE, JSON.stringify(state)); } catch (e) {} }
-
-    var listEl = document.getElementById('rs-list');
-    var pctEl  = document.getElementById('rs-pct');
-    var ringEl = document.getElementById('rs-ring-fg');
-    var nextEl = document.getElementById('rs-next');
-    var C = 2 * Math.PI * 52;
-    ringEl.style.strokeDasharray = C;
-
-    function hrefFor(item) { return item.href || (DEST[dest] && DEST[dest][item.destKey]) || 'all-guides.html'; }
-
-    function render() {
-      var done = (state[dest] = state[dest] || {});
-      var checkedCount = ITEMS.reduce(function (n, it) { return n + (done[it.id] ? 1 : 0); }, 0);
-      var pct = Math.round(checkedCount / ITEMS.length * 100);
-
-      listEl.innerHTML = '';
-      ITEMS.forEach(function (it) {
-        var on = !!done[it.id];
-        var li = document.createElement('li');
-        li.className = 'rs-item' + (on ? ' is-done' : '');
-        li.innerHTML =
-          '<button class="rs-check" aria-pressed="' + on + '" aria-label="Toggle ' + it.label + '">' +
-            '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13 4L6 12 3 8.5"/></svg></button>' +
-          '<span class="rs-item-label">' + it.label + '</span>' +
-          '<a class="rs-item-link" href="' + hrefFor(it) + '">' + (on ? 'review' : 'sort it') + ' &rarr;</a>';
-        li.querySelector('.rs-check').addEventListener('click', function () {
-          done[it.id] = !done[it.id]; save(); render();
-        });
-        listEl.appendChild(li);
-      });
-
-      pctEl.textContent = pct;
-      ringEl.style.strokeDashoffset = C * (1 - pct / 100);
-      document.getElementById('rs-gauge-dest').textContent = (dest === 'Indonesia' ? 'Bali' : dest);
-      document.getElementById('rs-cta-dest').textContent = (dest === 'Indonesia' ? 'Bali' : dest);
-
-      var firstGap = null;
-      for (var i = 0; i < ITEMS.length; i++) { if (!done[ITEMS[i].id]) { firstGap = ITEMS[i]; break; } }
-      if (firstGap) {
-        nextEl.innerHTML = 'Next up: <a href="' + hrefFor(firstGap) + '">' + firstGap.label + ' &rarr;</a>';
-      } else {
-        nextEl.innerHTML = "You're ready. Have a wonderful trip. ✈";
-      }
-    }
-
-    wrap.querySelectorAll('.rs-chip').forEach(function (chip) {
-      chip.addEventListener('click', function () {
-        wrap.querySelectorAll('.rs-chip').forEach(function (c) { c.classList.remove('is-active'); });
-        chip.classList.add('is-active');
-        dest = chip.getAttribute('data-dest');
-        render();
-      });
-    });
-    render();
-  })();
-  </script>
-
   <!-- ── Main content ──────────────────────────────────────────────────── -->
   <main>
 
@@ -1405,8 +1375,6 @@
         always at no extra cost to you.
       </p>
     </section>
-
-
 
     <!-- AUTO-GENERATED-SECTIONS-START -->
 
@@ -1506,8 +1474,6 @@
     </section>
 
     <!-- AUTO-GENERATED-SECTIONS-END -->
-
-
 
     <!-- Newsletter CTA — Tally form ─────────────────────────────────── -->
     <section class="newsletter-cta" data-reveal>
@@ -1659,271 +1625,7 @@
       }
     }
 
-    /* ── Hero mock widget ──────────────────────────────────────────────── */
-    var MOCK_ITEMS = {
-      Tokyo: {
-        City:   [
-          'Check passport validity (6 months past return)',
-          'Look up Japan visa requirements',
-          'Download offline maps for Tokyo',
-          'Pack one change of clothes in carry-on',
-          'Set up Suica or Apple Pay transit card',
-        ],
-        Beach: [
-          'Confirm passport validity',
-          'Pack light, breathable fabrics',
-          'Download offline maps before leaving',
-          'Pack reef-safe sunscreen for Okinawa',
-          'Keep boarding pass accessible',
-        ],
-        Hiking: [
-          'Download offline maps before leaving',
-          'Pack moisture-wicking layers',
-          'Look up Mt Fuji or Takao trail conditions',
-          'Bring a compact power bank',
-          'Confirm passport validity',
-        ],
-        Foodie: [
-          'Save Google Translate offline (Japanese)',
-          'Reserve 3–5 must-try restaurants',
-          'Pack stretchy clothes (seriously)',
-          'Get cash — many places are cash-only',
-          'List ramen and sushi spots in your area',
-        ],
-      },
-      Bali: {
-        City: [
-          'Look up Indonesia entry requirements',
-          'Pack light, breathable fabrics',
-          'Confirm eSIM or roaming plan',
-          'Save accommodation address offline',
-          'Bring small Rupiah bills for taxis',
-        ],
-        Beach: [
-          'Check carry-on liquids — sunscreen needs a bag',
-          'Pack quick-dry fabrics',
-          'Confirm eSIM or local SIM plan',
-          'Pack reef-safe sunscreen + after-sun',
-          'Save hotel address offline',
-        ],
-        Hiking: [
-          'Download offline maps for Bali',
-          'Pack moisture-wicking fabrics',
-          'Bring a higher-capacity power bank',
-          'Look up Mt Batur sunrise trek conditions',
-          'Check visa requirements',
-        ],
-        Foodie: [
-          'Save Google Maps Bali area offline',
-          'List warungs and beach clubs to visit',
-          'Pack stomach-friendly meds just in case',
-          'Confirm eSIM works for booking apps',
-          'Bookmark nasi campur and babi guling spots',
-        ],
-      },
-      Lisbon: {
-        City: [
-          'Check passport validity for EU travel',
-          'Pack one smart outfit + casual layers',
-          'Confirm card works abroad',
-          'Download offline Lisbon map',
-          'Buy Viva Viagem transit card on arrival',
-        ],
-        Beach: [
-          'Pack sunscreen (100ml carry-on rule)',
-          'Confirm card works in Portugal',
-          'Download offline map',
-          'Pack a light cover-up',
-          'Look up Cascais or Costa da Caparica trains',
-        ],
-        Hiking: [
-          'Download offline hiking maps',
-          'Pack sturdy walking shoes',
-          'Confirm card works abroad',
-          'Bring a compact power bank',
-          'Look up Sintra or Arrábida trails',
-        ],
-        Foodie: [
-          'List pastéis de nata bakeries to try',
-          'Save Google Translate offline (Portuguese)',
-          'Pack stretchy clothes',
-          'Reserve petiscos or tasca restaurants ahead',
-          'Confirm card works at small cafés',
-        ],
-      },
-      'New York': {
-        City: [
-          'Check passport validity',
-          'Pack layers for variable weather',
-          'Confirm eSIM or roaming plan',
-          'Save offline NYC subway map',
-          'Set up OMNY-compatible tap-to-pay',
-        ],
-        Beach: [
-          'Pack lightweight beach attire for the Hamptons',
-          'Confirm passport validity',
-          'Download offline maps',
-          'Pack reef-safe sunscreen + sun hat',
-          'Confirm rental car insurance if driving',
-        ],
-        Hiking: [
-          'Download offline maps (Bear Mountain, Catskills)',
-          'Pack waterproof hiking boots',
-          'Bring extra hydration',
-          'Save trail emergency contacts',
-          'Pack layers for changing weather',
-        ],
-        Foodie: [
-          'Reserve restaurants 2–3 weeks ahead',
-          'Save NYC subway offline map',
-          'Pack walking-friendly shoes',
-          'Save Resy and OpenTable wishlist',
-          'Bring small bills for tip jars and street vendors',
-        ],
-      },
-      Paris: {
-        City: [
-          'Check passport validity',
-          'Pack one smart outfit + walking shoes',
-          'Confirm card works in Europe',
-          'Save offline Paris metro map',
-          'Download Citymapper or Bonjour RATP app',
-        ],
-        Beach: [
-          'Plan transfer between Paris and the coast',
-          'Pack lightweight beach attire',
-          'Save offline French phrasebook',
-          'Confirm card works abroad',
-          'Pack reef-safe sunscreen',
-        ],
-        Hiking: [
-          'Pack proper hiking boots',
-          'Save Fontainebleau or Vexin trails offline',
-          'Confirm card works abroad',
-          'Pack moisture-wicking layers',
-          'Bring a small first-aid kit',
-        ],
-        Foodie: [
-          'Reserve bistros 2–3 weeks ahead',
-          'Pack stretchy clothes',
-          'List bakeries and patisseries to visit',
-          'Save Google Translate offline (French)',
-          'Bring cash for small cafés',
-        ],
-      },
-      Bangkok: {
-        City: [
-          'Check Thailand visa or visa-exempt rules',
-          'Pack breathable lightweight fabrics',
-          'Confirm eSIM works in Thailand',
-          'Save offline BTS / MRT map',
-          'Bring small Baht bills for taxis and street food',
-        ],
-        Beach: [
-          'Check visa requirements for Thailand',
-          'Pack reef-safe sunscreen',
-          'Confirm eSIM for booking ferries',
-          'Pack quick-dry fabrics',
-          'Save Phuket or Koh Samui addresses offline',
-        ],
-        Hiking: [
-          'Download offline maps for Khao Yai',
-          'Pack moisture-wicking fabrics',
-          'Bring strong insect repellent',
-          'Confirm visa requirements',
-          'Pack sturdy walking shoes',
-        ],
-        Foodie: [
-          'List street food markets to visit',
-          'Pack stomach-friendly meds just in case',
-          'Confirm eSIM for Grab and food apps',
-          'Save Google Translate offline (Thai)',
-          'Bring cash — street food is cash only',
-        ],
-      },
-    };
-    var CHECKED = {
-      Tokyo:      { City: [0, 2],    Beach: [0, 4],    Hiking: [1, 3],    Foodie: [0, 2, 4] },
-      Bali:       { City: [0, 2],    Beach: [2, 4],    Hiking: [0, 2],    Foodie: [0, 1] },
-      Lisbon:     { City: [0, 3],    Beach: [1, 3],    Hiking: [0, 4],    Foodie: [1, 2] },
-      'New York': { City: [0, 3],    Beach: [1, 2],    Hiking: [0, 1, 3], Foodie: [0, 2] },
-      Paris:      { City: [0, 3],    Beach: [1, 4],    Hiking: [0, 2],    Foodie: [0, 1, 3] },
-      Bangkok:    { City: [0, 1, 4], Beach: [2, 3],    Hiking: [0, 1, 3], Foodie: [0, 3] },
-    };
-
-    var activeDest  = 'Tokyo';
-    var activeStyle = 'City';
-    var activeLen   = '1 week';
-
-    function updateSummary() {
-      var summaryEl = document.getElementById('plan-summary');
-      var ctaEl     = document.getElementById('plan-cta-dest');
-      if (summaryEl) summaryEl.innerHTML = activeDest + ' · ' + activeLen + ' · ' + activeStyle;
-      if (ctaEl)     ctaEl.textContent  = activeDest;
-    }
-
-    function renderMockItems(dest, style) {
-      var items   = (MOCK_ITEMS[dest] && MOCK_ITEMS[dest][style]) || MOCK_ITEMS.Tokyo.City;
-      var checked = (CHECKED[dest] && CHECKED[dest][style]) || [];
-      var container = document.getElementById('mock-items');
-      var fill      = document.getElementById('mock-fill');
-      var doneEl    = document.getElementById('mock-done');
-      var totalEl   = document.getElementById('mock-total');
-
-      container.innerHTML = '';
-
-      var doneCount = checked.length;
-      totalEl.textContent = items.length;
-      doneEl.textContent  = doneCount;
-
-      var pct = Math.round((doneCount / items.length) * 100);
-      fill.style.width = '0%';
-
-      items.forEach(function (text, i) {
-        var isChecked = checked.indexOf(i) !== -1;
-        var div = document.createElement('div');
-        div.className = 'mock-item' + (isChecked ? ' checked' : '');
-        div.innerHTML = '<input type="checkbox"' + (isChecked ? ' checked' : '') + ' tabindex="-1">'
-          + '<span>' + text + '</span>';
-        container.appendChild(div);
-
-        // staggered reveal
-        if (!prefersReduced) {
-          var delay = i * 80;
-          setTimeout(function () { div.classList.add('visible'); }, delay);
-        } else {
-          div.classList.add('visible');
-        }
-      });
-
-      // animate progress bar
-      setTimeout(function () {
-        fill.style.width = pct + '%';
-      }, prefersReduced ? 0 : items.length * 80 + 100);
-    }
-
-    // Chip interaction
-    document.querySelectorAll('.chip').forEach(function (chip) {
-      chip.addEventListener('click', function () {
-        var group = this.dataset.group;
-        document.querySelectorAll('.chip[data-group="' + group + '"]').forEach(function (c) {
-          c.classList.remove('active');
-        });
-        this.classList.add('active');
-
-        if (group === 'dest')  activeDest  = this.dataset.val;
-        if (group === 'style') activeStyle = this.dataset.val;
-        if (group === 'len')   activeLen   = this.dataset.val;
-
-        renderMockItems(activeDest, activeStyle);
-        updateSummary();
-      });
-    });
-
-    // Initial render
-    renderMockItems(activeDest, activeStyle);
-    updateSummary();
-
+    // (quick-plan mock widget removed — merged into the #ready Ready Score)
   })();
   </script>
 
@@ -2066,7 +1768,6 @@
     }
   })();
   </script>
-
 
   <!-- Article carousel (BOJ-style) ─────────────────────────────────── -->
   <script>
