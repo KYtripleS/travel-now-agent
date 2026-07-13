@@ -42,7 +42,7 @@
   <meta name="twitter:image:alt" content="Gently Yonder — Build your travel prep checklist before you fly." />
   <meta name="twitter:site" content="@TripWorldAdvice" />
 
-  <link rel="stylesheet" href="style-v2.css?v=20260720" />
+  <link rel="stylesheet" href="style-v2.css?v=20260722" />
 
   <!-- Animation libs (free, MIT) ─ defer = no render blocking ── -->
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -1173,6 +1173,8 @@
       <a href="checklist-generator.html" class="rs-cta" data-magnetic>Build my full <span id="rs-cta-dest">Japan</span> checklist &rarr;</a>
       <p class="rs-micro">Free &middot; no sign-up &middot; saved on this device</p>
 
+      <div class="rs-worry" id="rs-worry" aria-live="polite"></div>
+
       <a href="rehearsal.html" class="plan-hub-rehearse">
         <span class="pr-tag">Next level</span>
         <span class="pr-text"><strong>Ticked everything and still uneasy? Rehearse your trip.</strong>
@@ -1561,6 +1563,45 @@
         : "You're ready. Have a wonderful trip. ✈";
     }
 
+
+    // Before-you-fly demand poll: one tap, ids deliberately match Ready Score item ids
+    var WORRIES = [
+      { id:'esim',        label:'eSIM & data' },
+      { id:'airport',     label:'Airport' },
+      { id:'money',       label:'Cash & money' },
+      { id:'trans',       label:'Getting around' },
+      { id:'safety',      label:'Safety' },
+      { id:'weather',     label:'Weather' },
+      { id:'pack',        label:'Packing' },
+      { id:'docs',        label:'Immigration' },
+      { id:'food',        label:'Food' },
+      { id:'other',       label:'Something else' }
+    ];
+    var WSTORE = 'gy_worry_v1';
+    var worries = {};
+    try { worries = JSON.parse(localStorage.getItem(WSTORE)) || {}; } catch (e) { worries = {}; }
+    var worryEl = document.getElementById('rs-worry');
+    function renderWorry() {
+      if (!worryEl) return;
+      if (worries[dest]) {
+        worryEl.innerHTML = '<p class="rs-worry-thanks">Noted &mdash; thank you, Explorer. Our editors read these.</p>';
+        return;
+      }
+      var html = '<p class="rs-worry-q">Biggest worry before this trip?</p><div class="rs-chips rs-chips-sm">';
+      WORRIES.forEach(function (w) {
+        html += '<button class="rs-chip" data-worry="' + w.id + '">' + w.label + '</button>';
+      });
+      worryEl.innerHTML = html + '</div>';
+      worryEl.querySelectorAll('[data-worry]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          worries[dest] = btn.getAttribute('data-worry');
+          try { localStorage.setItem(WSTORE, JSON.stringify(worries)); } catch (e) {}
+          if (window.gtag) gtag('event', 'worry_pick', { dest: dest, worry: worries[dest] });
+          renderWorry();
+        });
+      });
+    }
+
     function bindChips(sel, attr, setter) {
       wrap.querySelectorAll(sel + ' .rs-chip').forEach(function (chip) {
         chip.addEventListener('click', function () {
@@ -1571,9 +1612,10 @@
         });
       });
     }
-    bindChips('#rs-dest',  'data-dest',  function (v) { dest = v; if (window.gtag) gtag('event', 'ready_dest', { dest: v }); });
+    bindChips('#rs-dest',  'data-dest',  function (v) { dest = v; renderWorry(); if (window.gtag) gtag('event', 'ready_dest', { dest: v }); });
     bindChips('#rs-style', 'data-style', function (v) { style = v; if (window.gtag) gtag('event', 'ready_style', { style: v }); });
     render();
+    renderWorry();
   })();
   </script>
 

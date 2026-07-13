@@ -3333,3 +3333,9 @@ section.globe-section #globe-canvas {
 .rs-region-label { display:block; font-size:.66rem; letter-spacing:.11em; text-transform:uppercase; color:var(--gold); font-weight:700; opacity:.9; margin:0 0 7px; }
 .rs-dest-wrap .rs-chips { justify-content:flex-start; margin:0; gap:7px; }
 .rs-dest-wrap .rs-chip { padding:6px 13px; font-size:.85rem; }
+
+/* Ready Score — before-you-fly one-tap demand poll */
+.rs-worry { margin-top:20px; padding-top:18px; border-top:1px dashed var(--line); text-align:center; }
+.rs-worry-q { font-size:.88rem; font-weight:600; color:var(--muted); margin:0 0 10px; }
+.rs-worry .rs-chips { justify-content:center; margin:0; }
+.rs-worry-thanks { font-size:.9rem; color:var(--navy); margin:0; }
