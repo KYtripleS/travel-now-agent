@@ -42,7 +42,7 @@
   <meta name="twitter:image:alt" content="Gently Yonder — Build your travel prep checklist before you fly." />
   <meta name="twitter:site" content="@TripWorldAdvice" />
 
-  <link rel="stylesheet" href="style-v2.css?v=20260719" />
+  <link rel="stylesheet" href="style-v2.css?v=20260720" />
 
   <!-- Animation libs (free, MIT) ─ defer = no render blocking ── -->
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -1081,14 +1081,63 @@
       <div class="rs-controls">
         <div class="rs-field">
           <span class="rs-field-label">Destination</span>
-          <div class="rs-chips" id="rs-dest" role="tablist" aria-label="Choose a destination">
+          <div class="rs-dest-wrap" id="rs-dest" role="tablist" aria-label="Choose a destination">
+          <div class="rs-region">
+            <span class="rs-region-label">Asia-Pacific</span>
+            <div class="rs-chips">
             <button class="rs-chip is-active" data-dest="Japan" role="tab">Japan</button>
+            <button class="rs-chip" data-dest="South Korea" role="tab">Korea</button>
+            <button class="rs-chip" data-dest="Taiwan" role="tab">Taiwan</button>
+            <button class="rs-chip" data-dest="Hong Kong" role="tab">Hong Kong</button>
             <button class="rs-chip" data-dest="Thailand" role="tab">Thailand</button>
             <button class="rs-chip" data-dest="Vietnam" role="tab">Vietnam</button>
-            <button class="rs-chip" data-dest="Indonesia" role="tab">Bali</button>
             <button class="rs-chip" data-dest="Singapore" role="tab">Singapore</button>
-            <button class="rs-chip" data-dest="South Korea" role="tab">Korea</button>
+            <button class="rs-chip" data-dest="Malaysia" role="tab">Malaysia</button>
+            <button class="rs-chip" data-dest="Indonesia" role="tab">Bali</button>
+            <button class="rs-chip" data-dest="Philippines" role="tab">Philippines</button>
             <button class="rs-chip" data-dest="Australia" role="tab">Australia</button>
+            <button class="rs-chip" data-dest="New Zealand" role="tab">New Zealand</button>
+            <button class="rs-chip" data-dest="China" role="tab">China</button>
+            <button class="rs-chip" data-dest="India" role="tab">India</button>
+            <button class="rs-chip" data-dest="Cambodia" role="tab">Cambodia</button>
+            <button class="rs-chip" data-dest="Sri Lanka" role="tab">Sri Lanka</button>
+            <button class="rs-chip" data-dest="Nepal" role="tab">Nepal</button>
+            <button class="rs-chip" data-dest="Maldives" role="tab">Maldives</button>
+            </div>
+          </div>
+          <div class="rs-region">
+            <span class="rs-region-label">Europe</span>
+            <div class="rs-chips">
+            <button class="rs-chip" data-dest="France" role="tab">France</button>
+            <button class="rs-chip" data-dest="Italy" role="tab">Italy</button>
+            <button class="rs-chip" data-dest="Spain" role="tab">Spain</button>
+            <button class="rs-chip" data-dest="United Kingdom" role="tab">UK</button>
+            <button class="rs-chip" data-dest="Germany" role="tab">Germany</button>
+            <button class="rs-chip" data-dest="Switzerland" role="tab">Switzerland</button>
+            <button class="rs-chip" data-dest="Greece" role="tab">Greece</button>
+            <button class="rs-chip" data-dest="Portugal" role="tab">Portugal</button>
+            <button class="rs-chip" data-dest="Netherlands" role="tab">Netherlands</button>
+            <button class="rs-chip" data-dest="Turkey" role="tab">Turkey</button>
+            </div>
+          </div>
+          <div class="rs-region">
+            <span class="rs-region-label">Americas</span>
+            <div class="rs-chips">
+            <button class="rs-chip" data-dest="USA" role="tab">USA</button>
+            <button class="rs-chip" data-dest="Canada" role="tab">Canada</button>
+            <button class="rs-chip" data-dest="Mexico" role="tab">Mexico</button>
+            <button class="rs-chip" data-dest="Brazil" role="tab">Brazil</button>
+            <button class="rs-chip" data-dest="Peru" role="tab">Peru</button>
+            </div>
+          </div>
+          <div class="rs-region">
+            <span class="rs-region-label">Middle East & Africa</span>
+            <div class="rs-chips">
+            <button class="rs-chip" data-dest="Dubai" role="tab">Dubai</button>
+            <button class="rs-chip" data-dest="Egypt" role="tab">Egypt</button>
+            <button class="rs-chip" data-dest="Morocco" role="tab">Morocco</button>
+            </div>
+          </div>
           </div>
         </div>
         <div class="rs-field">
@@ -1137,16 +1186,298 @@
   (function () {
     var wrap = document.getElementById('ready');
     if (!wrap) return;
-    // per-destination: display name, a REAL transit label, and real guide targets
+    // per-destination: display name, a REAL local transit label, coverage flag, and guide targets.
+    // covered destinations link to their own guides; the rest fall back to our guides index.
     var DEST = {
-      'Japan':       { name:'Japan',     transit:'Suica / Pasmo IC card sorted',  pack:'articles/what-to-pack-for-japan.html',         trans:'articles/suica-pasmo-ic-cards-guide.html',   guide:'countries/japan/' },
-      'Thailand':    { name:'Thailand',  transit:'Grab + BTS / MRT plan',         pack:'articles/what-to-pack-for-southeast-asia.html', trans:'articles/bangkok-first-timers-guide.html',   guide:'articles/things-to-do-in-bangkok.html' },
-      'Vietnam':     { name:'Vietnam',   transit:'Grab + cash for taxis',         pack:'articles/what-to-pack-for-southeast-asia.html', trans:'articles/hanoi-first-timers-guide.html',     guide:'countries/vietnam/' },
-      'Indonesia':   { name:'Bali',      transit:'Grab / Gojek + scooter plan',   pack:'articles/what-to-pack-for-southeast-asia.html', trans:'articles/bali-first-timers-guide.html',      guide:'articles/things-to-do-in-bali.html' },
-      'Singapore':   { name:'Singapore', transit:'EZ-Link / SimplyGo sorted',     pack:'articles/what-to-pack-for-southeast-asia.html', trans:'articles/singapore-first-timers-guide.html', guide:'articles/things-to-do-in-singapore.html' },
-      'South Korea': { name:'Korea',     transit:'T-money card sorted',           pack:'articles/capsule-wardrobe-2-week-trips.html',   trans:'articles/seoul-first-timers-guide.html',     guide:'articles/south-korea-country-profile.html' },
-      'Australia':   { name:'Australia', transit:'Opal / Myki + driving plan',    pack:'articles/capsule-wardrobe-2-week-trips.html',   trans:'articles/getting-around-sydney.html',        guide:'countries/australia/' }
-    };
+      "Japan": {
+            "name": "Japan",
+            "covered": true,
+            "transit": "Suica / Pasmo IC card sorted",
+            "pack": "articles/what-to-pack-for-japan.html",
+            "trans": "articles/suica-pasmo-ic-cards-guide.html",
+            "guide": "countries/japan/"
+      },
+      "South Korea": {
+            "name": "Korea",
+            "covered": true,
+            "transit": "T-money card sorted",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "articles/seoul-first-timers-guide.html",
+            "guide": "articles/south-korea-country-profile.html"
+      },
+      "Taiwan": {
+            "name": "Taiwan",
+            "covered": true,
+            "transit": "EasyCard sorted",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "articles/getting-around-taiwan.html",
+            "guide": "articles/things-to-do-in-taipei.html"
+      },
+      "Hong Kong": {
+            "name": "Hong Kong",
+            "covered": true,
+            "transit": "Octopus card sorted",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "articles/hong-kong-first-timers-guide.html",
+            "guide": "articles/things-to-do-in-hong-kong.html"
+      },
+      "Thailand": {
+            "name": "Thailand",
+            "covered": true,
+            "transit": "Grab + BTS / MRT plan",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "articles/bangkok-first-timers-guide.html",
+            "guide": "articles/things-to-do-in-bangkok.html"
+      },
+      "Vietnam": {
+            "name": "Vietnam",
+            "covered": true,
+            "transit": "Grab + cash for taxis",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "articles/hanoi-first-timers-guide.html",
+            "guide": "countries/vietnam/"
+      },
+      "Singapore": {
+            "name": "Singapore",
+            "covered": true,
+            "transit": "EZ-Link / SimplyGo sorted",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "articles/singapore-first-timers-guide.html",
+            "guide": "articles/things-to-do-in-singapore.html"
+      },
+      "Malaysia": {
+            "name": "Malaysia",
+            "covered": true,
+            "transit": "Touch 'n Go + Grab plan",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "articles/kuala-lumpur-first-timers-guide.html",
+            "guide": "articles/things-to-do-in-kuala-lumpur.html"
+      },
+      "Indonesia": {
+            "name": "Bali",
+            "covered": true,
+            "transit": "Grab / Gojek + scooter plan",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "articles/bali-first-timers-guide.html",
+            "guide": "articles/things-to-do-in-bali.html"
+      },
+      "Philippines": {
+            "name": "the Philippines",
+            "covered": true,
+            "transit": "Grab + jeepney cash plan",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "articles/manila-first-timers-guide.html",
+            "guide": "articles/things-to-do-in-manila.html"
+      },
+      "Australia": {
+            "name": "Australia",
+            "covered": true,
+            "transit": "Opal / Myki + driving plan",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "articles/getting-around-sydney.html",
+            "guide": "countries/australia/"
+      },
+      "New Zealand": {
+            "name": "New Zealand",
+            "covered": false,
+            "transit": "Rental car + AT HOP card",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "China": {
+            "name": "China",
+            "covered": false,
+            "transit": "Alipay / WeChat + Metro",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "India": {
+            "name": "India",
+            "covered": false,
+            "transit": "Rideshare + Metro + trains",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Cambodia": {
+            "name": "Cambodia",
+            "covered": false,
+            "transit": "Grab / PassApp + tuk-tuk",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Sri Lanka": {
+            "name": "Sri Lanka",
+            "covered": false,
+            "transit": "Rideshare + tuk-tuk + trains",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Nepal": {
+            "name": "Nepal",
+            "covered": false,
+            "transit": "Rideshare + private taxis",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Maldives": {
+            "name": "the Maldives",
+            "covered": false,
+            "transit": "Speedboat / seaplane transfers",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "France": {
+            "name": "France",
+            "covered": false,
+            "transit": "Navigo pass + Metro",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Italy": {
+            "name": "Italy",
+            "covered": false,
+            "transit": "Metro + regional trains",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Spain": {
+            "name": "Spain",
+            "covered": false,
+            "transit": "Metro + Renfe rail",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "United Kingdom": {
+            "name": "the UK",
+            "covered": false,
+            "transit": "Oyster / contactless",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Germany": {
+            "name": "Germany",
+            "covered": false,
+            "transit": "Deutschland-Ticket + U-Bahn",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Switzerland": {
+            "name": "Switzerland",
+            "covered": false,
+            "transit": "Swiss Travel Pass",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Greece": {
+            "name": "Greece",
+            "covered": false,
+            "transit": "Metro + island ferries",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Portugal": {
+            "name": "Portugal",
+            "covered": false,
+            "transit": "Viva Viagem card",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Netherlands": {
+            "name": "the Netherlands",
+            "covered": false,
+            "transit": "OV-chipkaart",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Turkey": {
+            "name": "Turkey",
+            "covered": false,
+            "transit": "Istanbulkart",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "USA": {
+            "name": "the USA",
+            "covered": false,
+            "transit": "Transit card + rideshare",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Canada": {
+            "name": "Canada",
+            "covered": false,
+            "transit": "Transit card + rideshare",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Mexico": {
+            "name": "Mexico",
+            "covered": false,
+            "transit": "Metro + rideshare",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Brazil": {
+            "name": "Brazil",
+            "covered": false,
+            "transit": "Metro + rideshare",
+            "pack": "articles/what-to-pack-for-southeast-asia.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Peru": {
+            "name": "Peru",
+            "covered": false,
+            "transit": "Rideshare + intercity buses",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Dubai": {
+            "name": "Dubai",
+            "covered": false,
+            "transit": "Nol card + Metro",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Egypt": {
+            "name": "Egypt",
+            "covered": false,
+            "transit": "Rideshare + Metro",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      },
+      "Morocco": {
+            "name": "Morocco",
+            "covered": false,
+            "transit": "Trains + petit taxi",
+            "pack": "articles/capsule-wardrobe-2-week-trips.html",
+            "trans": "all-guides.html",
+            "guide": "all-guides.html"
+      }
+};
     // core list — always shown. labelKey/labelFn make the wording destination-specific.
     var CORE = [
       { id:'esim',      label:'Travel eSIM sorted',        href:'tools/esim-finder.html' },
@@ -1155,7 +1486,7 @@
       { id:'docs',      label:'Passport valid 6+ months',  href:'articles/first-international-trip-checklist.html' },
       { id:'airport',   label:'Airport & security prep',   href:'articles/airport-security-checklist.html' },
       { id:'trans',     labelKey:'transit',                destKey:'trans' },
-      { id:'guide',     labelFn:function (d) { return 'Read the ' + d.name + ' guide'; }, destKey:'guide' }
+      { id:'guide',     labelFn:function (d) { return d.covered ? 'Read the ' + d.name + ' guide' : 'Browse our prep guides'; }, destKey:'guide' }
     ];
     // trip style injects TWO specific, real items (all link to a real guide)
     var STYLE_EXTRA = {

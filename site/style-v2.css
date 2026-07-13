@@ -3327,3 +3327,9 @@ section.globe-section #globe-canvas {
 /* Ready Score — "your trip" identity line */
 .rs-trip { text-align:center; color:var(--muted); font-size:.92rem; margin:-6px 0 20px; }
 .rs-trip strong { color:var(--navy); font-weight:700; }
+
+/* Ready Score — region-grouped destination chips */
+.rs-dest-wrap { display:flex; flex-direction:column; gap:13px; }
+.rs-region-label { display:block; font-size:.66rem; letter-spacing:.11em; text-transform:uppercase; color:var(--gold); font-weight:700; opacity:.9; margin:0 0 7px; }
+.rs-dest-wrap .rs-chips { justify-content:flex-start; margin:0; gap:7px; }
+.rs-dest-wrap .rs-chip { padding:6px 13px; font-size:.85rem; }
