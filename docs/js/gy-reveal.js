@@ -75,5 +75,14 @@
     node.addEventListener('mouseleave', hide);
     node.addEventListener('focus', function () { show(node); });
     node.addEventListener('blur', hide);
+    node.addEventListener('click', function () {
+      if (window.gtag) gtag('event', 'map_country_click', { country: node.getAttribute('data-country') || '' });
+    });
+  });
+  document.querySelectorAll('.apac-legend .apac-chip').forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      var n = chip.querySelector('.apac-chip-name');
+      if (window.gtag) gtag('event', 'map_country_click', { country: n ? n.textContent : '', via: 'legend' });
+    });
   });
 })();

@@ -1535,6 +1535,15 @@
           '<a class="rs-item-link" href="' + hrefFor(it) + '">' + (on ? 'review' : 'sort it') + ' &rarr;</a>';
         li.querySelector('.rs-check').addEventListener('click', function () {
           done[it.id] = !done[it.id]; save(); render();
+          if (window.gtag) {
+            var l2 = items(), n2 = l2.reduce(function (n, x) { return n + (done[x.id] ? 1 : 0); }, 0);
+            var p2 = Math.round(n2 / l2.length * 100);
+            gtag('event', 'ready_toggle', { dest: dest, item: it.id, on: done[it.id] ? 1 : 0, pct: p2 });
+            if (p2 === 100) gtag('event', 'ready_complete', { dest: dest, style: style });
+          }
+        });
+        li.querySelector('.rs-item-link').addEventListener('click', function () {
+          if (window.gtag) gtag('event', 'ready_link', { dest: dest, item: it.id });
         });
         listEl.appendChild(li);
       });
@@ -1562,8 +1571,8 @@
         });
       });
     }
-    bindChips('#rs-dest',  'data-dest',  function (v) { dest = v; });
-    bindChips('#rs-style', 'data-style', function (v) { style = v; });
+    bindChips('#rs-dest',  'data-dest',  function (v) { dest = v; if (window.gtag) gtag('event', 'ready_dest', { dest: v }); });
+    bindChips('#rs-style', 'data-style', function (v) { style = v; if (window.gtag) gtag('event', 'ready_style', { style: v }); });
     render();
   })();
   </script>
@@ -2220,7 +2229,7 @@
 <script src="js/email-popup.js" data-root="" defer></script>
 <!-- END email-popup -->
 <!-- BEGIN gy-reveal (managed by add_reveal_script.py) -->
-<script defer src="js/gy-reveal.js?v=20260714"></script>
+<script defer src="js/gy-reveal.js?v=20260721"></script>
 <!-- END gy-reveal -->
 </body>
 </html>
