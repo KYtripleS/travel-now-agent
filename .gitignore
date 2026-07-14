@@ -20,3 +20,6 @@ content_drafts/
 gsc_service_account.json
 gsc_reports/
 ga4_reports/
+
+# Knowledge Collection Engine raw Tally exports (never public)
+community_data/

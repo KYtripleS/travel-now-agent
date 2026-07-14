@@ -77,7 +77,7 @@
   });
 </script>
 <!-- END GA4 -->
-  <!-- BEGIN Travelpayouts Drive (managed by add_travelpayouts_drive.py) -->
+<!-- BEGIN Travelpayouts Drive (managed by add_travelpayouts_drive.py) -->
   <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1">
     (function () {
       var script = document.createElement("script");
@@ -1560,7 +1560,7 @@
       for (var i = 0; i < list.length; i++) { if (!done[list[i].id]) { gap = list[i]; break; } }
       nextEl.innerHTML = gap
         ? 'Next up: <a href="' + hrefFor(gap) + '">' + labelFor(gap) + ' &rarr;</a>'
-        : "You're ready. Have a wonderful trip. ✈";
+        : "You're ready. Have a wonderful trip. ✈ <a href=\"https://tally.so/r/ZjKJge?dest=" + encodeURIComponent(dest) + "&src=ready100&v=1\" target=\"_blank\" rel=\"noopener\" onclick=\"if(window.gtag)gtag('event','contribute_click',{form:'trip',src:'ready100'})\">When you're back, help the next traveler &rarr;</a>";
     }
 
 
@@ -1584,7 +1584,7 @@
     function renderWorry() {
       if (!worryEl) return;
       if (worries[dest]) {
-        worryEl.innerHTML = '<p class="rs-worry-thanks">Noted &mdash; thank you, Explorer. Our editors read these.</p>';
+        worryEl.innerHTML = '<p class="rs-worry-thanks">Noted &mdash; thank you, Explorer. Our editors read these. <a href="contribute.html">More ways to help &rarr;</a></p>';
         return;
       }
       var html = '<p class="rs-worry-q">Biggest worry before this trip?</p><div class="rs-chips rs-chips-sm">';
