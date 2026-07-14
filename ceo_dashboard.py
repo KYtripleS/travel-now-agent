@@ -94,6 +94,44 @@ def main() -> None:
     except SystemExit:
         worry_rows = []  # dimensions not registered/propagated yet
 
+    # ── Distribution: Reddit threads worth answering today (research only —
+    #    posting stays HUMAN; automated posting kills accounts and trust) ──
+    threads = []
+    try:
+        import requests, time as _time
+        import xml.etree.ElementTree as ET
+        from datetime import datetime, timezone
+        NS = {"a": "http://www.w3.org/2005/Atom"}
+        seen = set()
+        for kw in ("esim", "cash", "suica", "first time japan"):
+            try:
+                r = requests.get("https://www.reddit.com/r/JapanTravelTips/search.rss",
+                                 params={"q": kw, "restrict_sr": "on", "sort": "new", "t": "week"},
+                                 headers={"User-Agent": "gently-yonder-dashboard/1.0"}, timeout=15)
+                if r.status_code != 200 or not r.text.strip():
+                    _time.sleep(3); continue
+                for en in ET.fromstring(r.text).findall("a:entry", NS)[:4]:
+                    link = en.find("a:link", NS).attrib.get("href", "")
+                    if link in seen:
+                        continue
+                    seen.add(link)
+                    title = (en.find("a:title", NS).text or "")[:80]
+                    upd = en.find("a:updated", NS).text or ""
+                    try:
+                        dt = datetime.fromisoformat(upd.replace("Z", "+00:00"))
+                        age_h = (datetime.now(timezone.utc) - dt).total_seconds() / 3600
+                    except ValueError:
+                        age_h = 999
+                    if age_h <= 72:
+                        threads.append({"t": title, "url": link, "age": age_h, "kw": kw})
+            except Exception:
+                pass
+            _time.sleep(3)
+        threads.sort(key=lambda x: x["age"])
+        threads = threads[:5]
+    except Exception:
+        threads = []
+
     # ── Community + revenue (operator-maintained local files) ────────────
     contributions = 0
     cd = REPO / "community_data"
@@ -202,6 +240,13 @@ def main() -> None:
          "| Page | Sessions |", "|---|---|"]
     for r in pages:
         L.append(f"| {r['dims'][0][:70]} | {int(float(r['mets'][0]))} |")
+    L.append("\n## 🎯 Distribution: threads worth answering today (value-first, no links)")
+    if threads:
+        for th in threads:
+            L.append(f"- [{th['t']}]({th['url']}) — {th['age']:.0f}h old · matched “{th['kw']}”")
+    else:
+        L.append("_(no fresh matches today, or Reddit unreachable — check r/JapanTravelTips sorted by New)_")
+
     L.append("\n## 🧠 Demand signal: biggest worries by destination")
     if worry_rows:
         L.append("| Destination | Worry | Picks |\n|---|---|---|")
