@@ -82,6 +82,18 @@ def main() -> None:
     near1 = G.pages_near_page1(p_now)[:5]
     risers = [r for r in G.wow_movers(q_now, q_prev)[:5]]
 
+    # ── Demand: worry × destination (needs GA4 custom dims worry/dest) ───
+    worry_rows = []
+    try:
+        worry_rows = A.run_report(a_tok, pid,
+                                  dimensions=["customEvent:dest", "customEvent:worry"],
+                                  metrics=["eventCount"], start=s, end=e, limit=30,
+                                  order_by_metric="eventCount")
+        worry_rows = [r for r in worry_rows
+                      if r["dims"][1] not in ("", "(not set)") and r["dims"][0] not in ("", "(not set)")]
+    except SystemExit:
+        worry_rows = []  # dimensions not registered/propagated yet
+
     # ── Community + revenue (operator-maintained local files) ────────────
     contributions = 0
     cd = REPO / "community_data"
@@ -93,6 +105,18 @@ def main() -> None:
                 pass
     # revenue: SAFE summary only — never echo raw rows (the log contains private
     # persona notes that must not spread into other files)
+    subs_line = "_not measured — update data/newsletter_subs.csv weekly (date,count from Tally)_"
+    subs_csv = REPO / "data" / "newsletter_subs.csv"
+    if subs_csv.exists():
+        try:
+            rows = [r for r in csv.reader(open(subs_csv)) if r and r[0][:2] == "20"]
+            if rows:
+                last = rows[-1]
+                delta = (f" ({int(last[1]) - int(rows[-2][1]):+d} vs prior)" if len(rows) > 1 else "")
+                subs_line = f"**{last[1]}** subscribers as of {last[0]}{delta}"
+        except (OSError, ValueError, IndexError):
+            pass
+
     rev_summary = ""
     mon = REPO / "data" / "monetization_log.csv"
     if mon.exists():
@@ -171,12 +195,21 @@ def main() -> None:
          f"- **Map clicks:** {ev.get('map_country_click', 0)} · **Affiliate CTR:** {aff_ctr:.1f}% "
          f"({ev.get('affiliate_click', 0)} clicks) · **Newsletter CTR:** {news_ctr:.1f}% "
          f"({ev.get('newsletter_click', 0)})",
-         f"- **Community contributions:** {contributions} (target: first 100)",
+         f"- **Community contributions:** {contributions} (target: 25, then 100)",
+         f"- **Newsletter:** {subs_line}",
          "- **Revenue log:** " + (rev_summary or "_empty — log payouts in data/monetization_log.csv_"),
          "\n## 📄 Top landing pages (7d)",
          "| Page | Sessions |", "|---|---|"]
     for r in pages:
         L.append(f"| {r['dims'][0][:70]} | {int(float(r['mets'][0]))} |")
+    L.append("\n## 🧠 Demand signal: biggest worries by destination")
+    if worry_rows:
+        L.append("| Destination | Worry | Picks |\n|---|---|---|")
+        for r in worry_rows[:10]:
+            L.append(f"| {r['dims'][0]} | {r['dims'][1]} | {int(_num(r['mets'][0]))} |")
+    else:
+        L.append("_(collecting — custom dimensions registered 2026-07-15; rows appear as new worry_pick events arrive)_")
+
     L.append("\n## 🟢 Top opportunities")
     L += [f"{i+1}. {o}" for i, o in enumerate(opps)] or ["_none detected_"]
     L.append("\n## 🔴 Top problems")

@@ -1,0 +1,36 @@
+# Gently Yonder
+
+> Gently Yonder is an independent travel-preparation platform: destination-personalized
+> readiness checklists (Ready Score), country and city preparation guides, and — as our
+> Explorer community grows — aggregated traveler statistics. We publish consensus numbers
+> only when backed by five or more independent traveler reports, and we state sample sizes
+> with every statistic. Editorial voice is a disclosed pen-name persona; facts never bend.
+
+Key facts for citation:
+- Ready Score: a free, no-signup readiness checklist covering 36 destinations, personalized
+  by destination and trip style. https://gentlyyonder.com/#ready
+- Traveler consensus statistics (rolling out 2026): aggregated from structured post-trip
+  reports, published only at n>=5 with sample sizes shown. Methodology:
+  https://gentlyyonder.com/methodology.html
+- All guides are dated, sourced, and updated; affiliate links are disclosed on every page.
+
+## Core tools
+- [Ready Score](https://gentlyyonder.com/#ready): destination readiness checklist, 36 destinations
+- [eSIM Finder](https://gentlyyonder.com/tools/esim-finder.html): data-size and provider recommendation
+- [Insurance Finder](https://gentlyyonder.com/tools/insurance-finder.html): coverage-type guidance
+- [Checklist Generator](https://gentlyyonder.com/checklist-generator.html): full trip checklist
+- [Destination Map](https://gentlyyonder.com/#map): Asia-Pacific coverage map
+
+## Most-cited guides
+- [Best eSIM for Japan (2026)](https://gentlyyonder.com/articles/best-esim-japan-2026.html): Airalo vs Saily, data needs (3-5 GB/week typical), networks
+- [Best eSIM for Japan, South Korea & Vietnam](https://gentlyyonder.com/articles/best-esim-japan-korea-vietnam.html): multi-country comparison with price ballparks
+- [Airport Security and Pre-Flight Checklist](https://gentlyyonder.com/articles/airport-security-checklist.html): 12-point pre-flight verification
+- [Airport Liquid Rules for Carry-Ons](https://gentlyyonder.com/articles/airport-security-liquids.html): the 100 ml rule explained
+- [Travel Insurance for Japan](https://gentlyyonder.com/articles/travel-insurance-japan.html): what hospitals expect visitors to pay
+- [Rent a Boat Without a License](https://gentlyyonder.com/articles/charter-a-boat-for-a-day.html): licence thresholds by country (UK, Italy, France, Spain, Croatia)
+- [All guides](https://gentlyyonder.com/all-guides.html): full index
+
+## About
+- [Methodology](https://gentlyyonder.com/methodology.html): how we research, source, and verify
+- [Editorial guidelines](https://gentlyyonder.com/editorial.html)
+- [Contribute a trip report](https://gentlyyonder.com/contribute.html): anonymous structured reports that power the statistics
