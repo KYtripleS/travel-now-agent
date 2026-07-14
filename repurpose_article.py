@@ -46,6 +46,33 @@ def first_sentence(text: str) -> str:
     return m[0].strip() if m else text
 
 
+def topic_of(title: str) -> str:
+    """'How Much Cash Do You Need in Japan? A Guide for 2026' -> 'how much cash you need in japan'."""
+    s = re.sub(r"\((\d{4})\)", "", title)
+    s = re.split(r"[:?]", s)[0]
+    s = re.sub(r"\bA Guide for \d{4}\b|\b\d{4}\b", "", s, flags=re.I)
+    return re.sub(r"\s{2,}", " ", s).strip().rstrip(".").lower()
+
+
+def best_sentence(text: str) -> str:
+    """Prefer the sentence that carries a number/fact and fits a tweet."""
+    text = clean_social(re.sub(r"\s+", " ", text).strip())
+    sents = re.split(r"(?<=[.!?]) ", text)
+    if not sents:
+        return text
+    def score(s):
+        return (2 if re.search(r"[\d¥$%]", s) else 0) + (1 if len(s) <= 200 else -1)
+    return max(sents, key=score).strip()
+
+
+def clean_social(text: str) -> str:
+    """Strip academic artifacts that read as noise on social: superscript
+    footnote markers and parenthetical citations like (Wierzbicka, 1992)."""
+    text = re.sub(r"[¹²³⁰⁴-⁹]+", "", text)
+    text = re.sub(r"\s*\([A-Z][A-Za-zÀ-ſ]+(?:\s+(?:&|and|et al\.?)\s+[A-Z][A-Za-z]+)?,?\s+\d{4}[a-z]?(?:[;,]\s*[^)]*)?\)", "", text)
+    return re.sub(r"\s{2,}", " ", text).strip()
+
+
 def extract(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
     title = (soup.find("h1").get_text(strip=True) if soup.find("h1")
@@ -61,16 +88,13 @@ def extract(html: str) -> dict:
         htext = h2.get_text(strip=True)
         if htext.lower() in SKIP_HEADINGS or not htext:
             continue
-        para = ""
+        paras = []
         sib = h2.find_next_sibling()
-        hops = 0
-        while sib is not None and hops < 4:
+        while sib is not None and sib.name != "h2":
             if sib.name == "p":
-                para = first_sentence(sib.get_text(" ", strip=True))
-                break
+                paras.append(sib.get_text(" ", strip=True))
             sib = sib.find_next_sibling()
-            hops += 1
-        sections.append((htext, para))
+        sections.append((htext, " ".join(paras)))
 
     # FAQ pairs
     faqs: list[tuple[str, str]] = []
@@ -127,7 +151,7 @@ def build_bundle(d: dict) -> str:
     # ---- Pinterest ----
     L.append("\n## Pinterest — 3 fresh pin descriptions\n")
     angles = [
-        ("Straight value", desc or (secs[0][1] if secs else title)),
+        ("Straight value", desc or (best_sentence(secs[0][1]) if secs else title)),
         ("Listicle hook", "Save this before your next trip — "
             + (", ".join(p.rstrip('.').lower() for p, _ in secs[:3]) if secs else "the essentials")
             + ". Full guide linked."),
@@ -141,15 +165,38 @@ def build_bundle(d: dict) -> str:
         L.append(f"- Link: {url}")
         L.append("")
 
-    # ---- X thread ----
+    # ---- X thread (format researched 2026-07: links get a 30-50% reach penalty
+    # so the URL goes in the FIRST REPLY; replies weigh 27-150x a like so the
+    # closer is a question; each body tweet ends with a forward pull) ----
     L.append("\n## X / Twitter thread\n")
-    L.append(f"1/ {title_hook} — the version I wish someone had given me. 🧵")
+    body_pts = (secs or [(q, a) for q, a in faqs])[:6]
+    n_pts = len(body_pts)
+    num_match = re.search(r"(¥?[\d,]+(?:–|-)[\d,]+|\d+(?:\.\d+)?\s?(?:GB|ml|kg|%)|¥[\d,]+|\$\d+)", desc or "")
+    L.append("**Pick ONE hook (delete the others):**")
+    tpc = topic_of(title)
+    L.append(f"- Number hook: {num_match.group(1) + ' — that number settles most of ' if num_match else str(n_pts) + ' things that decide '}"
+             f"{tpc}. Thread: 🧵")
+    L.append(f"- Contrarian hook: Most advice about {tpc} is either outdated or copied. "
+             "Here's what actually holds up: 🧵")
+    L.append(f"- Open-loop hook: I read every guide on {tpc} so you don't have to. "
+             "The short version, in one thread: 🧵")
+    L.append("")
     n = 2
-    for h, p in (secs or [(q, a) for q, a in faqs])[:5]:
-        line = f"{h}." if not p else f"{h}: {p}"
-        L.append(f"{n}/ {line}")
+    for i, (h, p) in enumerate(body_pts):
+        point = best_sentence(p) if p else ""
+        line = f"{h}" if not point else f"{h}: {point}"
+        pull = ""
+        if i < n_pts - 1:
+            nxt = body_pts[i + 1][0]
+            pull = f"\n(next: {clean_social(nxt).lower().rstrip('.')})"
+        L.append(f"{n}/ {line}{pull}\n")
         n += 1
-    L.append(f"{n}/ Full breakdown (free, no fluff): {url}\n\n{tags}")
+    L.append(f"{n}/ That's the short version. Bookmark it for your next trip — "
+             "and tell me: what's the one thing you wish you'd known before yours?")
+    L.append(f"\n**REPLY 1 (post immediately after the thread — the link lives HERE, "
+             f"never in the thread):**\nFull guide, free, no signup: {url}\n{tags.split()[0] if tags else ''}")
+    L.append("\n*Ops: post 8–10am or 7–9pm EST. Stay 30 min and reply to every comment — "
+             "author replies are the single strongest ranking signal. Text only, no image needed.*")
 
     # ---- Short video ----
     L.append("\n## Short-form video script (~35s, Reels / TikTok / Shorts)\n")
@@ -161,7 +208,7 @@ def build_bundle(d: dict) -> str:
     t0 = 3
     for h, p in beats:
         t1 = t0 + 7
-        vo = p if p else h
+        vo = best_sentence(p) if p else h
         L.append(f"| {t0}–{t1}s | {h} | \"{vo}\" |")
         t0 = t1
     L.append(f"| {t0}–{t0+4}s | Full guide → link in bio | \"The full guide's linked — it's free.\" |")
