@@ -143,6 +143,14 @@ def main() -> None:
     pages = run_report(token, pid, dimensions=["landingPage"],
                        metrics=["sessions"], start=s, end=e, limit=20,
                        order_by_metric="sessions")
+    # 5) moat & funnel custom events
+    OUR_EVENTS = ["worry_pick", "ready_toggle", "ready_complete", "ready_dest",
+                  "ready_style", "ready_link", "map_country_click",
+                  "contribute_click", "affiliate_click", "newsletter_click",
+                  "esim_finder_result"]
+    events = run_report(token, pid, dimensions=["eventName"], metrics=["eventCount"],
+                        start=s, end=e, limit=200, order_by_metric="eventCount")
+    events = [r for r in events if r["dims"][0] in OUR_EVENTS]
 
     REPORT_DIR.mkdir(exist_ok=True)
     out = REPORT_DIR / f"ga4-{e}.md"
@@ -172,6 +180,16 @@ def main() -> None:
     L.append("| Landing page | Sessions |\n|---|---|")
     for r in pages:
         L.append(f"| {r['dims'][0]} | {int(_num(r['mets'][0])):,} |")
+
+    L.append("\n## 🧭 Moat & funnel events (custom)")
+    L.append("ready_complete = Ready Scores completed · worry_pick = demand signal · "
+             "affiliate_click = revenue funnel · newsletter_click = Google hedge.\n")
+    if events:
+        L.append("| Event | Count |\n|---|---|")
+        for r in events:
+            L.append(f"| {r['dims'][0]} | {int(_num(r['mets'][0])):,} |")
+    else:
+        L.append("_(no custom events in this window yet — instrumentation went live 2026-07-13)_")
 
     L.append("\n## 📈 Daily sessions")
     L.append("| Date | Sessions | Users |\n|---|---|---|")

@@ -86,3 +86,18 @@
     });
   });
 })();
+
+/* Revenue-funnel instrumentation: affiliate + newsletter clicks (aggregate only) */
+(function () {
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest) return;
+    var a = e.target.closest('a[rel~="sponsored"]');
+    if (a && window.gtag) {
+      var partner = '';
+      try { partner = new URL(a.href).hostname.replace(/^www\./, ''); } catch (err) {}
+      gtag('event', 'affiliate_click', { partner: partner, page: location.pathname });
+    }
+    var b = e.target.closest('.newsletter-btn, [data-tally-open]');
+    if (b && window.gtag) gtag('event', 'newsletter_click', { page: location.pathname });
+  }, true);
+})();
