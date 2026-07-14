@@ -23,3 +23,6 @@ ga4_reports/
 
 # Knowledge Collection Engine raw Tally exports (never public)
 community_data/
+
+# Daily CEO dashboard (internal)
+ceo_reports/
