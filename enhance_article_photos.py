@@ -359,6 +359,11 @@ QUERIES: dict[str, list[str]] = {
         "tropical island beach Thailand",
         "travel gear adapter power bank",
     ],
+    "klook-vs-kkday": [
+        "traveler booking phone app asia",
+        "taipei night market street",
+        "temple day tour asia tourists",
+    ],
     "what-to-pack-for-japan": [
         "Japan travel suitcase train station",
         "Kyoto street kimono autumn",
@@ -423,6 +428,7 @@ SLUG_TO_PATH: dict[str, Path] = {
     "thailand-10-day-itinerary":            Path("articles/thailand-10-day-itinerary.html"),
     "bali-7-day-itinerary":                 Path("articles/bali-7-day-itinerary.html"),
     "what-to-pack-for-southeast-asia":      Path("articles/what-to-pack-for-southeast-asia.html"),
+    "klook-vs-kkday":                        Path("articles/klook-vs-kkday.html"),
     "what-to-pack-for-japan":               Path("articles/what-to-pack-for-japan.html"),
 }
 
