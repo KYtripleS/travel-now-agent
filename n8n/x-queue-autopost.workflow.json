@@ -1,0 +1,113 @@
+{
+  "name": "Gently Yonder — X queue auto-post via Buffer",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 10,20 * * *"
+            }
+          ]
+        }
+      },
+      "id": "schedule",
+      "name": "2x daily (10/20)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        260,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://gentlyyonder.com/data/x_queue.json",
+        "options": {}
+      },
+      "id": "getpins",
+      "name": "Get x_queue.json",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        480,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Cycle the X queue one post per run. Text-only, link-free by design:\n// external links cost 30-50% reach on X (2026). Threads with links go out\n// manually from marketing/repurposed/ bundles with the URL in Reply 1.\nconst X_CHANNEL_ID = '6a47b8035ab6d2f1069def94';\nconst data = $input.first().json;\nconst posts = (data && data.posts) || [];\nif (!posts.length) { throw new Error('x_queue.json empty'); }\n\nconst store = $getWorkflowStaticData('global');\nlet idx = typeof store.xIdx === 'number' ? store.xIdx : 0;\nif (idx >= posts.length) idx = 0;\nconst post = posts[idx];\nstore.xIdx = idx + 1;\n\nconst query = 'mutation Create($input: CreatePostInput!) { createPost(input: $input) { __typename ... on PostActionSuccess { post { id } } ... on MutationError { message } } }';\nconst input = {\n  text: String(post.text).slice(0, 275),\n  channelId: X_CHANNEL_ID,\n  schedulingType: 'automatic',\n  mode: 'addToQueue',\n};\nreturn [{ json: { channel: 'x', postId: post.id, graphqlBody: { query, variables: { input } } } }];"
+      },
+      "id": "pick",
+      "name": "Pick next X post",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        700,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.buffer.com",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.graphqlBody) }}",
+        "options": {}
+      },
+      "id": "buffer",
+      "name": "createPost (Buffer GraphQL)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        940,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "2x daily (10/20)": {
+      "main": [
+        [
+          {
+            "node": "Get x_queue.json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get x_queue.json": {
+      "main": [
+        [
+          {
+            "node": "Pick next X post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pick next X post": {
+      "main": [
+        [
+          {
+            "node": "createPost (Buffer GraphQL)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "notes": "Buffer NEW GraphQL API (public beta). Endpoint: https://api.buffer.com, body: {query, variables}. Setup: (1) HTTP node auth = Header Auth credential, Name 'Authorization', Value 'Bearer <personal key>'. (2) Run buffer_get_channel.py to print channel ids AND Pinterest board ids (boardServiceId), then fill CHANNELS in the Code node: channel id, one board id per board name, defaultBoard, and the X channel id once X is connected in Buffer. Pinterest REQUIRES metadata.pinterest.boardServiceId - posts queued without it fail at publish time with 'no Pinterest board was selected'. The pin title and destination link now travel in metadata.pinterest (title/url); the post text is the description. X posts on all three daily runs, same pin as Pinterest. Channels left as PASTE_ are skipped. Test one manual run before re-enabling the schedule."
+  }
+}
