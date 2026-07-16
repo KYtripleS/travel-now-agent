@@ -84,3 +84,5 @@ Markdown, in this order. Quote real phrases; no vague gestures.
 # Draft to review
 
 [[DRAFT]]
+
+- Any bracketed placeholder in the draft (`[AFFILIATE: ...]`, `[LINK: ...]`, `[PHOTO:` outside its designated position) is an AUTOMATIC FAIL — the writer must emit real anchor-tagged links from the brief's URLs, or no link at all.

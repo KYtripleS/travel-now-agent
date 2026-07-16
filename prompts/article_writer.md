@@ -74,13 +74,24 @@ documented (link the official source; never promise an outcome).
 Put `[PHOTO: search query]` immediately after each H2. Describe the section's
 visual mood, not the heading text (e.g. "quiet Kyoto side street, early morning").
 
-## Affiliate placeholders — the Casey test
-Only recommend what passes *"Would Casey genuinely recommend this?"* Insert
-`[AFFILIATE: description]` where a real, useful product/service category belongs
-— **max 3 per article**, practical sections only (gear, eSIM, insurance,
-booking, tours). Never in reflective, historical, or sensitive sections.
-Explain *why* it helps and the realistic situation where it earns its place. No
-aggressive calls to action.
+## Affiliate links — the Casey test
+Only recommend what passes *"Would Casey genuinely recommend this?"* — **max 3
+per article**, practical sections only (gear, eSIM, insurance, booking, tours).
+Never in reflective, historical, or sensitive sections. Explain *why* it helps
+and the realistic situation where it earns its place. No aggressive CTAs.
+
+**Write REAL links, never placeholders.** Rules:
+- Use ONLY the URLs given in the brief. Format exactly:
+  `<a href="URL" rel="nofollow sponsored noopener" target="_blank">natural anchor text</a>`
+- The anchor must sit inside a complete, grammatical sentence — never a bare
+  fragment, never duplicating the product name it sits beside.
+- If the brief provides no URL for a category, write the sentence WITHOUT a
+  link. Never invent a URL; never write `[AFFILIATE: ...]`, `[LINK: ...]`, or
+  any bracketed placeholder — a bracketed placeholder is a publishing failure.
+- Internal links: only paths explicitly given in the brief (relative, e.g.
+  `best-esim-japan-2026.html`). Never guess or invent internal paths.
+- Never date-stamp currency with a past year ("as of late 2024"); if a claim
+  needs hedging, write "at the time of writing".
 
 ## SEO
 Priority order: reader satisfaction → accuracy → editorial quality → search.
