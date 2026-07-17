@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gentlyyonder.com/</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -136,6 +136,7 @@
   </url>
   <url>
     <loc>https://gentlyyonder.com/articles/airport-security-checklist.html</loc>
+    <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -716,6 +717,7 @@
   </url>
   <url>
     <loc>https://gentlyyonder.com/articles/pre-flight-checklist-48-hours.html</loc>
+    <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
