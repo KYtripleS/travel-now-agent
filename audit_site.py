@@ -89,6 +89,14 @@ def resolve(href: str, from_file: Path) -> Path | None:
     fragment_stripped = href.split("#")[0].split("?")[0]
     if not fragment_stripped:
         return None
+    if fragment_stripped.startswith("/"):
+        # Root-absolute (custom domain serves site/ at the root), e.g. /favicon.svg.
+        # Resolve against the tree (site/ or docs/) the HTML file lives in.
+        for part in from_file.resolve().parts:
+            if part in ("site", "docs"):
+                base = Path(*from_file.resolve().parts[:from_file.resolve().parts.index(part) + 1])
+                return (base / fragment_stripped.lstrip("/")).resolve()
+        return None
     return (from_file.parent / fragment_stripped).resolve()
 
 

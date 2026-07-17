@@ -235,6 +235,12 @@ def render_archive(rows: list[dict]) -> str:
 <meta property="og:site_name" content="Gently Yonder" />
 <link rel="stylesheet" href="style-v2.css" />
 {GA4}
+<!-- BEGIN favicon (managed by add_favicon.py) -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48"/>
+<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<!-- END favicon -->
 {DRIVE}
 </head>
 <body>
