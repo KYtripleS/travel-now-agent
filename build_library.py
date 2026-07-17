@@ -89,13 +89,15 @@ NAV = ('<nav class="gy-topnav" aria-label="Primary"><div class="gy-topnav-inner"
        '<a href="tools/esim-finder.html">Tools</a><a href="about.html">About</a>'
        '</div></div></nav>')
 
-GA4 = f"""<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
+GA4 = f"""<!-- BEGIN GA4 (managed by add_ga4.py) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){{dataLayer.push(arguments);}}
   gtag('js', new Date());
   gtag('config', '{GA4_ID}', {{ anonymize_ip: true }});
-</script>"""
+</script>
+<!-- END GA4 -->"""
 
 DRIVE = """<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1">
   (function () { var s=document.createElement("script"); s.async=1;
@@ -137,22 +139,62 @@ def build_rows() -> list[dict]:
     return rows
 
 
-def row_html(r: dict) -> str:
+def row_html(r: dict, rank: int | None = None) -> str:
     img = (f'<img class="gy-lib-thumb" src="{r["thumb"]}" alt="" loading="lazy" '
            f'decoding="async" />') if r["thumb"] else ""
-    return (f'<a class="gy-lib-row" href="{r["href"]}">'
-            f'<span class="gy-lib-date">{r["date"]}</span>'
+    lead = (f'<span class="gy-lib-date gy-lib-rank">{rank}</span>' if rank
+            else f'<span class="gy-lib-date">{r["date"]}</span>')
+    return (f'<a class="gy-lib-row" href="{r["href"]}">{lead}'
             f'<span class="gy-lib-body"><span class="gy-lib-tag">{r["tag"]}</span>'
             f'<span class="gy-lib-title">{r["title"]}</span></span>{img}</a>')
 
 
+HOME_POPULAR = 7
+POP_CSV = REPO / "data" / "popular_pages.csv"
+
+
+def popular_pick(rows: list[dict]) -> list[dict]:
+    """Top HOME_POPULAR registry pages by real 28-day traffic (rank_popular.py).
+
+    Only pages present in the SLIDES/PROFILES registry render (we need title,
+    tag and thumb); missing csv -> [] and the caller falls back to newest.
+    """
+    if not POP_CSV.exists():
+        return []
+    by_href = {r["href"]: r for r in rows}
+    import csv as _csv
+    picked = []
+    with POP_CSV.open() as f:
+        for line in _csv.DictReader(f):
+            r = by_href.get(line["path"])
+            if r:
+                picked.append(r)
+            if len(picked) == HOME_POPULAR:
+                break
+    return picked
+
+
+RANK_STYLE = ('  <style>.gy-lib-rank{font-family:Georgia,"Times New Roman",serif;'
+              'font-size:1.5rem;font-weight:700;color:#B8945F;font-variant-numeric:'
+              'tabular-nums}</style>')
+
+
 def render_home(rows: list[dict]) -> str:
-    body = "\n".join(row_html(r) for r in rows[:HOME_SHOW])
+    pop = popular_pick(rows)
+    if len(pop) >= 5:
+        body = "\n".join(row_html(r, rank=i + 1) for i, r in enumerate(pop))
+        head = "  <h2>Most read this month</h2>\n"
+        intro = ('  <p class="intro">What travelers are actually reading — ranked by '
+                 "combined search clicks and visits over the last 28 days. "
+                 f"Refreshed {date.today():%Y.%m.%d}.</p>\n" + RANK_STYLE + "\n")
+    else:
+        body = "\n".join(row_html(r) for r in rows[:HOME_SHOW])
+        head = "  <h2>Latest guides &amp; essays</h2>\n"
+        intro = ('  <p class="intro">Everything we publish, newest first — '
+                 "the carousel below draws from the same pool.</p>\n")
     return (f"{MARK_BEGIN}\n"
             '<section class="gy-library" id="profiles" data-reveal>\n'
-            "  <h2>Latest guides &amp; essays</h2>\n"
-            '  <p class="intro">Everything we publish, newest first — '
-            "the carousel below draws from the same pool.</p>\n"
+            + head + intro +
             f'  <div class="gy-lib-list">\n{body}\n  </div>\n'
             '  <a class="gy-lib-more" href="all-guides.html">View all guides by category &rarr;</a>\n'
             "</section>\n"
@@ -252,6 +294,9 @@ def update_hero(counts: dict) -> None:
 def main() -> None:
     rows = build_rows()
     home = render_home(rows)
+    n_pop = len(popular_pick(rows))
+    strip_desc = (f"most-read {min(n_pop, HOME_POPULAR)}" if n_pop >= 5
+                  else f"newest {min(HOME_SHOW, len(rows))}")
     for base in ("site", "docs"):
         # homepage strip
         p = REPO / base / "index.html"
@@ -264,7 +309,7 @@ def main() -> None:
     _add_to_sitemap()
     counts = inventory()
     update_hero(counts)
-    print(f"  library refreshed — home strip ({min(HOME_SHOW, len(rows))}) + "
+    print(f"  library refreshed — home strip ({strip_desc}) + "
           f"all-guides.html ({len(rows)} guides)")
     print(f"  inventory (live, from files) — {counts['guides']} travel guides, "
           f"{counts['destinations']} destination guides, {counts['tools']} tools "
