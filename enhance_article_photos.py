@@ -33,6 +33,24 @@ PEXELS_URL = "https://api.pexels.com/v1/search"
 # Curated Pexels queries per article. Order matters: the i-th query maps
 # to the i-th eligible H2 in the article body.
 QUERIES: dict[str, list[str]] = {
+    "best-esim-australia-2026": [
+        "smartphone map australia road trip",
+        "sydney opera house tourist phone",
+        "australian outback highway remote",
+        "melbourne city tram street",
+    ],
+    "melbourne-airport-to-city": [
+        "airport bus luggage terminal",
+        "melbourne southern cross station",
+        "melbourne city skyline yarra",
+        "airport arrivals hall travelers",
+    ],
+    "best-travel-insurance-australia-2026": [
+        "great ocean road cliffs australia",
+        "travel documents passport insurance",
+        "australian outback red dirt road",
+        "hiking trail blue mountains australia",
+    ],
     "airport-security-liquids": [
         "airport security tray laptop carry on",
         "travel size toiletry bottles flat lay",
@@ -375,6 +393,9 @@ QUERIES: dict[str, list[str]] = {
 
 # slug → path under site/
 SLUG_TO_PATH: dict[str, Path] = {
+    "best-esim-australia-2026":             Path("articles/best-esim-australia-2026.html"),
+    "melbourne-airport-to-city":            Path("articles/melbourne-airport-to-city.html"),
+    "best-travel-insurance-australia-2026": Path("articles/best-travel-insurance-australia-2026.html"),
     "airport-security-liquids":             Path("articles/airport-security-liquids.html"),
     "airport-security-packing-moments":     Path("articles/airport-security-packing-moments.html"),
     "beach-trip-packing-checklist":         Path("articles/beach-trip-packing-checklist.html"),
