@@ -879,7 +879,7 @@ main {
 .about { padding: 30px; margin-top: 32px; }
 
 /* ── Article pages ──────────────────────────────────────────────────────── */
-.article-hero { padding-bottom: 46px; }
+.article-hero { min-height: 0; padding-top: clamp(72px, 10vh, 110px); padding-bottom: 46px; }
 .article {
   max-width: 850px;
   margin: 42px auto;
