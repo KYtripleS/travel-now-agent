@@ -128,9 +128,11 @@ REGISTRY: dict[str, str] = {
     "articles/japan-autumn-2026.html": cta(
         "Planning your Japan autumn trip",
         ["aviasales", "tiqets"]),
-    "articles/best-time-to-visit-japan-2026.html": cta(
+    "articles/best-time-to-visit-japan-2026.html": hub(
         "When you're ready to book Japan",
-        ["aviasales", "tiqets"]),
+        "Once your season is chosen: self-guided Tokyo walks, teamLab and "
+        "Shinkansen bookings, plus current fares and skip-the-line tickets.",
+        "1850147", ["aviasales", "tiqets", "klook"]),
     "articles/best-time-to-visit-vietnam.html": cta(
         "When you're ready to book Vietnam",
         ["aviasales", "klook"]),
@@ -196,12 +198,18 @@ REGISTRY: dict[str, str] = {
         "Sorting Japan transit & tickets", ["klook", "welcomepickups", "aviasales"]),
     "articles/where-to-stay-in-tokyo.html": cta(
         "Booking your Tokyo stay", ["welcomepickups", "klook", "tiqets", "aviasales"]),
-    "articles/how-much-does-japan-cost.html": cta(
-        "Building your Japan budget", ["aviasales", "saily", "ekta", "klook"]),
+    "articles/how-much-does-japan-cost.html": hub(
+        "Building your Japan budget",
+        "Price the big lines against your plan — current fares, tours and rail "
+        "passes, plus the small fixed costs worth locking in early.",
+        "1850147", ["aviasales", "saily", "ekta", "klook"]),
     "articles/shinjuku-neighbourhood-guide.html": cta(
         "Planning your Shinjuku visit", ["tiqets", "klook", "welcomepickups", "aviasales"]),
-    "articles/gion-kyoto-neighbourhood-guide.html": cta(
-        "Experiencing Gion respectfully", ["tiqets", "kkday", "klook", "aviasales"]),
+    "articles/gion-kyoto-neighbourhood-guide.html": hub(
+        "Experiencing Gion respectfully",
+        "Hosted tea ceremonies, self-guided Kyoto walks, and properly arranged "
+        "cultural evenings — the welcome way into the district.",
+        "1857910", ["kkday", "klook", "tiqets", "aviasales"]),
 
     # ---- Taiwan (2026-07-10) — Taipei city_id 1668341 ----
     "articles/taipei-first-timers-guide.html": hub(
