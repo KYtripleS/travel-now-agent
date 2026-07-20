@@ -299,6 +299,83 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Asakusa, Tokyo",
         "Sensoji and Edo streets, with practical visit tips and nearby districts to combine.",
     ),
+    # ---- Japan cluster completion (2026-07-20 beachhead push) ----
+    "articles/best-time-to-visit-japan-2026.html": (
+        "Best Time to Visit Japan (2026)",
+        "A season-honest guide — blossom and foliage windows, the summer heat, typhoons, and crowds.",
+    ),
+    "articles/first-day-in-tokyo-arrival-plan.html": (
+        "Your First Day in Tokyo: A Calm Arrival Plan",
+        "From landing to your first evening — IC card, cash, connectivity, and a gentle first walk.",
+    ),
+    "articles/gion-kyoto-neighbourhood-guide.html": (
+        "Gion, Kyoto: A Neighbourhood Guide",
+        "The geisha district beyond the postcard — lanes, tea houses, etiquette, and timing.",
+    ),
+    "articles/how-much-cash-japan.html": (
+        "How Much Cash Do You Need in Japan?",
+        "Where cards work, where they don't, and how much yen to actually carry in 2026.",
+    ),
+    "articles/how-much-does-japan-cost.html": (
+        "How Much Does a Trip to Japan Cost?",
+        "A realistic 2026 budget — flights, hotels, rail, food, and where costs surprise people.",
+    ),
+    "articles/japan-autumn-2026.html": (
+        "Japan in Autumn 2026",
+        "Foliage timing city by city, crowd patterns, and how to plan around both.",
+    ),
+    "articles/japan-book-in-advance-2026.html": (
+        "Japan Tickets That Sell Out: What to Book Before You Fly",
+        "Ghibli, teamLab, Shibuya Sky and the rest — what actually sells out and when to book.",
+    ),
+    "articles/japan-city-sightseeing-passes-worth-it.html": (
+        "Are Japan's City Sightseeing Passes Worth It?",
+        "The Tokyo, Osaka and Kyoto passes run through the arithmetic — when they pay off.",
+    ),
+    "articles/jr-pass-worth-it-2026.html": (
+        "Is the JR Pass Worth It in 2026?",
+        "An honest calculation after the price rise — break-even itineraries and the alternatives.",
+    ),
+    "articles/kyoto-autumn-2026.html": (
+        "Kyoto in Autumn 2026",
+        "Where the colors peak and when — temples, timing, and quieter alternatives.",
+    ),
+    "articles/narita-haneda-to-central-tokyo.html": (
+        "Narita & Haneda to Central Tokyo",
+        "Every route compared — Narita Express, Skyliner, limousine bus, and late-night options.",
+    ),
+    "articles/osaka-3-day-guide.html": (
+        "Osaka in 3 Days",
+        "Food, neighborhoods, and day-one energy — a compact plan for Japan's kitchen.",
+    ),
+    "articles/osaka-or-kyoto-where-to-base.html": (
+        "Osaka or Kyoto: Choosing Your Kansai Base",
+        "Two very different home bases compared — cost, food, day trips, and atmosphere.",
+    ),
+    "articles/tokyo-itinerary-5-days.html": (
+        "Tokyo in 5 Days",
+        "An unhurried first-timer's itinerary — neighbourhoods grouped so you ride trains less.",
+    ),
+    "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html": (
+        "Tokyo to Kyoto: Shinkansen vs Flight vs Bus",
+        "Price, time and comfort compared honestly — and when the plane actually wins.",
+    ),
+    "articles/travel-insurance-japan.html": (
+        "Travel Insurance for Japan",
+        "Do you actually need it? Japanese healthcare costs, what policies cover, and honest picks.",
+    ),
+    "articles/where-to-stay-in-tokyo.html": (
+        "Where to Stay in Tokyo",
+        "Shinjuku, Shibuya, Asakusa and beyond — neighbourhoods compared for first-timers.",
+    ),
+    "tools/esim-finder.html": (
+        "eSIM Finder (Free Tool)",
+        "Answer three questions and get a data-size and provider recommendation for your trip.",
+    ),
+    "travel-power/japan.html": (
+        "Power Adapter for Japan",
+        "Type A plugs, the 100V quirk, and what actually needs an adapter.",
+    ),
 }
 
 # each article → list of related-article paths (4-6 each)
@@ -396,7 +473,8 @@ LINKS: dict[str, list[str]] = {
         "articles/hong-kong-first-timers-guide.html",
     ],
     "articles/osaka-first-timers-guide.html": [
-        "articles/untranslatable-words.html",
+        "articles/osaka-3-day-guide.html",
+        "articles/osaka-or-kyoto-where-to-base.html",
         "articles/best-esim-japan-2026.html",
         "articles/luggage-storage-tokyo.html",
         "articles/carry-on-packing-list-10-day-japan.html",
@@ -417,6 +495,7 @@ LINKS: dict[str, list[str]] = {
         "articles/singapore-first-timers-guide.html",
     ],
     "articles/things-to-do-in-tokyo.html": [
+        "articles/japan-book-in-advance-2026.html",
         "articles/best-esim-japan-2026.html",
         "cities/tokyo/index.html",
         "articles/luggage-storage-tokyo.html",
@@ -424,6 +503,7 @@ LINKS: dict[str, list[str]] = {
         "articles/carry-on-packing-list-10-day-japan.html",
     ],
     "articles/things-to-do-in-kyoto.html": [
+        "articles/gion-kyoto-neighbourhood-guide.html",
         "articles/best-esim-japan-2026.html",
         "articles/three-slow-days-in-kyoto.html",
         "articles/things-to-do-in-tokyo.html",
@@ -445,6 +525,7 @@ LINKS: dict[str, list[str]] = {
         "articles/klook-vs-viator-vs-getyourguide.html",
     ],
     "articles/things-to-do-in-osaka.html": [
+        "articles/osaka-3-day-guide.html",
         "articles/osaka-first-timers-guide.html",
         "articles/best-esim-japan-2026.html",
         "articles/things-to-do-in-kyoto.html",
@@ -518,6 +599,7 @@ LINKS: dict[str, list[str]] = {
         "articles/things-to-do-in-tokyo.html",
         "articles/things-to-do-in-kyoto.html",
         "articles/things-to-do-in-osaka.html",
+        "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html",
         "articles/best-esim-japan-2026.html",
         "articles/what-to-pack-for-japan.html",
     ],
@@ -543,9 +625,10 @@ LINKS: dict[str, list[str]] = {
         "articles/bali-7-day-itinerary.html",
     ],
     "articles/what-to-pack-for-japan.html": [
+        "articles/carry-on-packing-list-10-day-japan.html",
+        "travel-power/japan.html",
         "articles/best-esim-japan-2026.html",
         "articles/luggage-storage-tokyo.html",
-        "articles/carry-on-packing-list-10-day-japan.html",
         "articles/japan-7-day-itinerary.html",
         "articles/airport-security-liquids.html",
     ],
@@ -639,9 +722,9 @@ LINKS: dict[str, list[str]] = {
     "articles/travel-insurance-compared.html": [
         "articles/safetywing-vs-world-nomads.html",
         "articles/best-travel-insurance-digital-nomads-2026.html",
+        "articles/travel-insurance-japan.html",
         "articles/esim-activation-and-preparation.html",
         "articles/hotel-booking-sites-comparison.html",
-        "articles/charter-a-boat-for-a-day.html",
         "countries/japan/index.html",
     ],
     "articles/safetywing-vs-world-nomads.html": [
@@ -663,6 +746,7 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
     ],
     "articles/best-esim-japan-2026.html": [
+        "tools/esim-finder.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/pocket-wifi-vs-esim.html",
@@ -793,6 +877,142 @@ LINKS: dict[str, list[str]] = {
         "articles/capsule-wardrobe-2-week-trips.html",
         "articles/beach-trip-packing-checklist.html",
         "articles/everyday-carry-essentials-for-travel.html",
+    ],
+    # ---- Japan cluster completion (2026-07-20 beachhead push) ----
+    "articles/best-time-to-visit-japan-2026.html": [
+        "articles/japan-autumn-2026.html",
+        "articles/kyoto-autumn-2026.html",
+        "articles/japan-book-in-advance-2026.html",
+        "articles/japan-7-day-itinerary.html",
+        "countries/japan/index.html",
+    ],
+    "articles/first-day-in-tokyo-arrival-plan.html": [
+        "articles/narita-haneda-to-central-tokyo.html",
+        "articles/how-much-cash-japan.html",
+        "articles/best-esim-japan-2026.html",
+        "cities/tokyo/index.html",
+        "articles/luggage-storage-tokyo.html",
+    ],
+    "articles/gion-kyoto-neighbourhood-guide.html": [
+        "articles/things-to-do-in-kyoto.html",
+        "articles/three-slow-days-in-kyoto.html",
+        "articles/kyoto-autumn-2026.html",
+        "articles/what-counts-as-rude.html",
+        "articles/osaka-or-kyoto-where-to-base.html",
+    ],
+    "articles/how-much-cash-japan.html": [
+        "articles/how-much-does-japan-cost.html",
+        "articles/first-day-in-tokyo-arrival-plan.html",
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/japan-book-in-advance-2026.html",
+        "countries/japan/index.html",
+    ],
+    "articles/how-much-does-japan-cost.html": [
+        "articles/how-much-cash-japan.html",
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/travel-insurance-japan.html",
+        "articles/japan-7-day-itinerary.html",
+    ],
+    "articles/japan-autumn-2026.html": [
+        "articles/kyoto-autumn-2026.html",
+        "articles/best-time-to-visit-japan-2026.html",
+        "articles/what-to-pack-for-japan.html",
+        "articles/japan-book-in-advance-2026.html",
+        "countries/japan/index.html",
+    ],
+    "articles/japan-book-in-advance-2026.html": [
+        "articles/things-to-do-in-tokyo.html",
+        "articles/japan-city-sightseeing-passes-worth-it.html",
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/tokyo-itinerary-5-days.html",
+        "cities/tokyo/index.html",
+    ],
+    "articles/japan-city-sightseeing-passes-worth-it.html": [
+        "articles/japan-book-in-advance-2026.html",
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/things-to-do-in-tokyo.html",
+        "articles/things-to-do-in-osaka.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+    ],
+    "articles/jr-pass-worth-it-2026.html": [
+        "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html",
+        "articles/japan-city-sightseeing-passes-worth-it.html",
+        "articles/japan-7-day-itinerary.html",
+        "articles/how-much-does-japan-cost.html",
+        "countries/japan/index.html",
+    ],
+    "articles/kyoto-autumn-2026.html": [
+        "articles/japan-autumn-2026.html",
+        "articles/three-slow-days-in-kyoto.html",
+        "articles/things-to-do-in-kyoto.html",
+        "articles/gion-kyoto-neighbourhood-guide.html",
+        "articles/best-time-to-visit-japan-2026.html",
+    ],
+    "articles/narita-haneda-to-central-tokyo.html": [
+        "articles/first-day-in-tokyo-arrival-plan.html",
+        "cities/tokyo/index.html",
+        "articles/luggage-storage-tokyo.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/tokyo-itinerary-5-days.html",
+    ],
+    "articles/osaka-3-day-guide.html": [
+        "articles/things-to-do-in-osaka.html",
+        "articles/osaka-first-timers-guide.html",
+        "articles/osaka-or-kyoto-where-to-base.html",
+        "articles/japan-city-sightseeing-passes-worth-it.html",
+        "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html",
+    ],
+    "articles/osaka-or-kyoto-where-to-base.html": [
+        "articles/osaka-3-day-guide.html",
+        "articles/three-slow-days-in-kyoto.html",
+        "articles/gion-kyoto-neighbourhood-guide.html",
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/things-to-do-in-osaka.html",
+    ],
+    "articles/tokyo-itinerary-5-days.html": [
+        "articles/things-to-do-in-tokyo.html",
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/first-day-in-tokyo-arrival-plan.html",
+        "articles/japan-book-in-advance-2026.html",
+        "cities/tokyo/asakusa.html",
+        "cities/tokyo/index.html",
+    ],
+    "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html": [
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/three-slow-days-in-kyoto.html",
+        "articles/osaka-or-kyoto-where-to-base.html",
+        "articles/japan-7-day-itinerary.html",
+        "articles/luggage-storage-tokyo.html",
+    ],
+    "articles/travel-insurance-japan.html": [
+        "articles/travel-insurance-compared.html",
+        "articles/safetywing-vs-world-nomads.html",
+        "articles/how-much-does-japan-cost.html",
+        "countries/japan/index.html",
+        "articles/best-esim-japan-2026.html",
+    ],
+    "articles/where-to-stay-in-tokyo.html": [
+        "articles/tokyo-itinerary-5-days.html",
+        "cities/tokyo/index.html",
+        "cities/tokyo/asakusa.html",
+        "articles/narita-haneda-to-central-tokyo.html",
+        "articles/luggage-storage-tokyo.html",
+    ],
+    "tools/esim-finder.html": [
+        "articles/best-esim-japan-2026.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/pocket-wifi-vs-esim.html",
+        "articles/esim-activation-and-preparation.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+    ],
+    "travel-power/japan.html": [
+        "articles/what-to-pack-for-japan.html",
+        "articles/carry-on-packing-list-10-day-japan.html",
+        "articles/everyday-carry-essentials-for-travel.html",
+        "articles/first-day-in-tokyo-arrival-plan.html",
+        "countries/japan/index.html",
     ],
 }
 

@@ -109,14 +109,18 @@
   }
   </script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->

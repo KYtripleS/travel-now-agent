@@ -52,6 +52,8 @@ def main() -> None:
     ch_prev = _f(A.run_report(a_tok, pid, dimensions=["sessionDefaultChannelGroup"],
                               metrics=["sessions"], start=ps, end=pe))
     sess_now, sess_prev = sum(ch_now.values()), sum(ch_prev.values())
+    true_now, _ = A.true_reader_sessions(a_tok, pid, s, e)
+    true_prev, _ = A.true_reader_sessions(a_tok, pid, ps, pe)
     org_now = ch_now.get("Organic Search", 0)
     org_prev = ch_prev.get("Organic Search", 0)
     social_now = ch_now.get("Organic Social", 0)
@@ -226,6 +228,8 @@ def main() -> None:
          "## 📊 The numbers",
          f"- **Sessions:** {int(sess_now)} (prev {int(sess_prev)}) · **Organic:** {int(org_now)} "
          f"(prev {int(org_prev)}) · Social: {int(social_now)}",
+         f"- **True external readers:** {true_now} (prev {true_prev}) — noise-filtered; "
+         f"the honest growth number",
          f"- **GSC:** {clicks_now} clicks (prev {clicks_prev}) · {impr_now:,} impressions "
          f"(prev {impr_prev:,})",
          f"- **Ready Score:** {ready_starts} interactions · {ev.get('ready_complete', 0)} completed "
@@ -251,7 +255,7 @@ def main() -> None:
     if worry_rows:
         L.append("| Destination | Worry | Picks |\n|---|---|---|")
         for r in worry_rows[:10]:
-            L.append(f"| {r['dims'][0]} | {r['dims'][1]} | {int(_num(r['mets'][0]))} |")
+            L.append(f"| {r['dims'][0]} | {r['dims'][1]} | {int(float(r['mets'][0]))} |")
     else:
         L.append("_(collecting — custom dimensions registered 2026-07-15; rows appear as new worry_pick events arrive)_")
 
@@ -266,7 +270,7 @@ def main() -> None:
              "GA4 event-scoped custom dimensions (Admin → Custom definitions)._")
     out.write_text("\n".join(L) + "\n", encoding="utf-8")
     print(f"✓ wrote {out.relative_to(REPO)}")
-    print(f"  sessions {int(sess_now)} · organic {int(org_now)} · gsc {clicks_now}c/{impr_now:,}i · "
+    print(f"  sessions {int(sess_now)} (true {true_now}) · organic {int(org_now)} · gsc {clicks_now}c/{impr_now:,}i · "
           f"ready {ready_starts} · aff {ev.get('affiliate_click', 0)} · news {ev.get('newsletter_click', 0)}")
 
 

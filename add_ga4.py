@@ -25,15 +25,24 @@ BLOCK_RE = re.compile(re.escape(START) + r".*?" + re.escape(END) + r"\s*", re.DO
 
 
 def snippet(measurement_id: str) -> str:
+    # Internal-traffic tagging: opening any page once with #gy-internal marks
+    # that browser as the operator's (persisted in localStorage); #gy-public
+    # clears it. Tagged sessions send traffic_type=internal, which GA4 excludes
+    # once the default "Internal Traffic" data filter is set to Active
+    # (Admin -> Data collection and modification -> Data filters).
     return f"""{START}
 <script async src="https://www.googletagmanager.com/gtag/js?id={measurement_id}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){{dataLayer.push(arguments);}}
   gtag('js', new Date());
-  gtag('config', '{measurement_id}', {{
-    anonymize_ip: true
-  }});
+  var gyCfg = {{ anonymize_ip: true }};
+  try {{
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  }} catch (e) {{}}
+  gtag('config', '{measurement_id}', gyCfg);
 </script>
 {END}
 """

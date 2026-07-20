@@ -58,12 +58,16 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
-  <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
+<!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
 <meta property="article:published_time" content="2026-06-13T09:00:00+09:00" />
 <meta property="article:modified_time"  content="2026-06-13T09:00:00+09:00" />
 <meta property="article:author"         content="Gently Yonder" />

@@ -117,14 +117,18 @@
   ]
 }</script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
@@ -282,12 +286,11 @@
 <section class="keep-reading" style="margin: 36px 0;">
 <h2>Keep reading on Gently Yonder</h2>
 <ul>
-<li><a href="airalo-vs-holafly-vs-saily.html">Airalo vs Holafly vs Saily</a> — The three big travel eSIM providers compared — coverage, pricing, and who each suits.</li>
-<li><a href="best-esim-japan-korea-vietnam.html">Best eSIM for Japan, Korea &amp; Vietnam</a> — Destination-by-destination eSIM picks for three popular Asian countries.</li>
-<li><a href="pocket-wifi-vs-esim.html">Pocket WiFi vs eSIM</a> — Which connectivity option wins — solo vs group, cost, battery, and setup compared.</li>
-<li><a href="hotel-booking-sites-comparison.html">Hotel Booking Sites Compared</a> — Hotels.com, Booking.com, Trip.com, Agoda — what each is genuinely good for.</li>
-<li><a href="travel-insurance-compared.html">Travel Insurance Compared</a> — SafetyWing vs World Nomads vs Genki — coverage, exclusions, and how to choose.</li>
-<li><a href="../countries/japan/index.html">Japan Country Profile</a> — Eight-section country deep-dive: history, geography, society, and travel prep.</li>
+<li><a href="japan-autumn-2026.html">Japan in Autumn 2026</a> — Foliage timing city by city, crowd patterns, and how to plan around both.</li>
+<li><a href="three-slow-days-in-kyoto.html">Three Slow Days in Kyoto</a> — A gentle, unhurried first-timer's itinerary — Fushimi Inari at dawn to Arashiyama's bamboo.</li>
+<li><a href="things-to-do-in-kyoto.html">Kyoto: The Places Worth Your Time</a> — Fushimi Inari, Arashiyama, Kiyomizu-dera, the Golden Pavilion, Gion, and a Nara day trip.</li>
+<li><a href="gion-kyoto-neighbourhood-guide.html">Gion, Kyoto: A Neighbourhood Guide</a> — The geisha district beyond the postcard — lanes, tea houses, etiquette, and timing.</li>
+<li><a href="best-time-to-visit-japan-2026.html">Best Time to Visit Japan (2026)</a> — A season-honest guide — blossom and foliage windows, the summer heat, typhoons, and crowds.</li>
 </ul>
 </section>
 <!-- END internal-links -->

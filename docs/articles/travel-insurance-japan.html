@@ -117,14 +117,18 @@
   ]
 }</script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
@@ -306,12 +310,11 @@
 <section class="keep-reading" style="margin: 36px 0;">
 <h2>Keep reading on Gently Yonder</h2>
 <ul>
-<li><a href="airalo-vs-holafly-vs-saily.html">Airalo vs Holafly vs Saily</a> — The three big travel eSIM providers compared — coverage, pricing, and who each suits.</li>
-<li><a href="best-esim-japan-korea-vietnam.html">Best eSIM for Japan, Korea &amp; Vietnam</a> — Destination-by-destination eSIM picks for three popular Asian countries.</li>
-<li><a href="pocket-wifi-vs-esim.html">Pocket WiFi vs eSIM</a> — Which connectivity option wins — solo vs group, cost, battery, and setup compared.</li>
-<li><a href="hotel-booking-sites-comparison.html">Hotel Booking Sites Compared</a> — Hotels.com, Booking.com, Trip.com, Agoda — what each is genuinely good for.</li>
 <li><a href="travel-insurance-compared.html">Travel Insurance Compared</a> — SafetyWing vs World Nomads vs Genki — coverage, exclusions, and how to choose.</li>
+<li><a href="safetywing-vs-world-nomads.html">SafetyWing vs World Nomads</a> — A head-to-head insurance comparison — coverage, pricing, claims, and who each suits best.</li>
+<li><a href="how-much-does-japan-cost.html">How Much Does a Trip to Japan Cost?</a> — A realistic 2026 budget — flights, hotels, rail, food, and where costs surprise people.</li>
 <li><a href="../countries/japan/index.html">Japan Country Profile</a> — Eight-section country deep-dive: history, geography, society, and travel prep.</li>
+<li><a href="best-esim-japan-2026.html">Best eSIM for Japan (2026)</a> — How to choose a Japan travel eSIM — coverage, data plans, and the pick for most trips.</li>
 </ul>
 </section>
 <!-- END internal-links -->

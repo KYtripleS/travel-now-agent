@@ -123,14 +123,18 @@
   ]
 }</script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
@@ -316,9 +320,9 @@ your trip and points you to the right policy style in seconds.</aside>
 <ul>
 <li><a href="safetywing-vs-world-nomads.html">SafetyWing vs World Nomads</a> — A head-to-head insurance comparison — coverage, pricing, claims, and who each suits best.</li>
 <li><a href="best-travel-insurance-digital-nomads-2026.html">Best Travel Insurance for Digital Nomads</a> — A 2026 buyer's guide — what nomad cover needs, by traveler archetype.</li>
+<li><a href="travel-insurance-japan.html">Travel Insurance for Japan</a> — Do you actually need it? Japanese healthcare costs, what policies cover, and honest picks.</li>
 <li><a href="esim-activation-and-preparation.html">eSIM Setup for International Travel</a> — Phone compatibility, plan choice, and the activation order that avoids the airport scramble.</li>
 <li><a href="hotel-booking-sites-comparison.html">Hotel Booking Sites Compared</a> — Hotels.com, Booking.com, Trip.com, Agoda — what each is genuinely good for.</li>
-<li><a href="charter-a-boat-for-a-day.html">Charter a Boat for a Day</a> — Which licences you actually need country by country, and where to find boats.</li>
 <li><a href="../countries/japan/index.html">Japan Country Profile</a> — Eight-section country deep-dive: history, geography, society, and travel prep.</li>
 </ul>
 </section>

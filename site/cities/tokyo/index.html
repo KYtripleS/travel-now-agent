@@ -4,8 +4,47 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Tokyo: A Layered Guide for the Thoughtful Traveler | Gently Yonder</title>
+  <title>Tokyo City Guide for First-Time Visitors: Neighbourhoods &amp; Prep | Gently Yonder</title>
   <meta name="description" content="Tokyo for first-time visitors: how the city is layered, which neighborhoods to base in, Suica and transit basics, and a calm first-day plan — written for travelers who want to understand what they're seeing." />
+  <!-- JSON-LD: FAQPage ────────────────────────────────────────── -->
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How many days do you need in Tokyo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Enough to see a few distinct sides of the city without rushing between them — for most first visits that lands around five days. A good itinerary groups neighbourhoods so you spend the time in streets, not on trains."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where should a first-time visitor stay in Tokyo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on the trip you want: the west side puts you close to transit and evening energy, the east side closer to older Tokyo. Shinjuku, Shibuya, and Asakusa are the usual starting points, with quieter alternatives nearby."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do you get from Narita or Haneda into central Tokyo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Several routes run from each airport, and rail is usually the simplest. Limousine buses and late-night options exist too — worth comparing before a first arrival."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you still need cash in Tokyo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "More than in most large global cities. Cards and IC cards cover transit and chains, but smaller restaurants and older establishments often remain cash-based — withdrawing at an airport ATM on arrival is the calm way in."
+        }
+      }
+    ]
+  }</script>
   <link rel="canonical" href="https://gentlyyonder.com/cities/tokyo/" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
 
@@ -34,12 +73,16 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
-  <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
+<!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
 <meta property="article:published_time" content="2026-06-12T09:00:00+09:00" />
 <meta property="article:modified_time"  content="2026-06-12T09:00:00+09:00" />
 <meta property="article:author"         content="Gently Yonder" />
@@ -195,6 +238,67 @@
         <li><strong>Connectivity:</strong> See our <a href="../../articles/esim-activation-and-preparation.html">eSIM setup guide</a> for arrival-ready data.</li>
         <li><strong>Hotels:</strong> See our <a href="../../articles/hotel-booking-sites-comparison.html">hotel booking sites comparison</a> for choosing between platforms.</li>
       </ul>
+
+      <h2 id="tokyo-library">The Tokyo planning library</h2>
+      <p>
+        Our full set of Tokyo preparation guides, in the order the questions
+        usually come up.
+      </p>
+      <h3>Planning the days</h3>
+      <ul>
+        <li><a href="../../articles/tokyo-itinerary-5-days.html">Tokyo in 5 days</a> — an unhurried first-timer's itinerary, grouped so you ride trains less.</li>
+        <li><a href="../../articles/things-to-do-in-tokyo.html">Tokyo: the places worth your time</a> — Senso-ji, Shibuya, Harajuku, teamLab, and day trips.</li>
+        <li><a href="../../articles/where-to-stay-in-tokyo.html">Where to stay in Tokyo</a> — Shinjuku, Shibuya, Asakusa and beyond, compared.</li>
+        <li><a href="../../articles/japan-book-in-advance-2026.html">What to book before you fly</a> — the Tokyo tickets that genuinely sell out.</li>
+      </ul>
+      <h3>Arriving</h3>
+      <ul>
+        <li><a href="../../articles/narita-haneda-to-central-tokyo.html">Narita &amp; Haneda to central Tokyo</a> — every route compared, including late-night options.</li>
+        <li><a href="../../articles/first-day-in-tokyo-arrival-plan.html">Your first day in Tokyo</a> — IC card, cash, connectivity, and a gentle first walk.</li>
+        <li><a href="../../articles/luggage-storage-tokyo.html">Where to store luggage</a> — coin lockers, cloakrooms, and storage apps.</li>
+      </ul>
+      <h3>Money &amp; connectivity</h3>
+      <ul>
+        <li><a href="../../articles/how-much-cash-japan.html">How much cash do you need in Japan?</a> — where cards work and where they don't.</li>
+        <li><a href="../../articles/best-esim-japan-2026.html">Best eSIM for Japan (2026)</a> — coverage, plans, and the pick for most trips.</li>
+        <li><a href="../../tools/esim-finder.html">eSIM Finder</a> — answer three questions, get a recommendation (free tool).</li>
+        <li><a href="../../travel-power/japan.html">Power adapter for Japan</a> — Type A plugs and the 100V quirk.</li>
+      </ul>
+      <h3>Beyond Tokyo</h3>
+      <ul>
+        <li><a href="../../articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html">Tokyo to Kyoto</a> — Shinkansen, flight, and bus compared honestly.</li>
+        <li><a href="../../articles/jr-pass-worth-it-2026.html">Is the JR Pass worth it in 2026?</a> — an honest calculation.</li>
+        <li><a href="../../articles/three-slow-days-in-kyoto.html">Three slow days in Kyoto</a> — the gentle counterpart to Tokyo's pace.</li>
+        <li><a href="../../countries/japan/">Japan country profile</a> — the history and society underneath it all, plus the full preparation library.</li>
+      </ul>
+
+      <h2 id="faq">Common questions</h2>
+      <h3>How many days do you need in Tokyo?</h3>
+      <p>
+        Enough to see a few distinct sides of the city without rushing between them —
+        for most first visits that lands around five days. Our
+        <a href="../../articles/tokyo-itinerary-5-days.html">5-day itinerary</a> groups
+        neighbourhoods so you spend the time in streets, not on trains.
+      </p>
+      <h3>Where should a first-time visitor stay?</h3>
+      <p>
+        It depends on the trip you want: the west side puts you close to transit and
+        evening energy, the east side closer to older Tokyo. Our
+        <a href="../../articles/where-to-stay-in-tokyo.html">where-to-stay comparison</a>
+        walks through Shinjuku, Shibuya, Asakusa and the quieter alternatives.
+      </p>
+      <h3>How do you get from Narita or Haneda into central Tokyo?</h3>
+      <p>
+        Several routes run from each airport, and rail is usually the simplest. We
+        compare every option — including late-night arrivals — in our
+        <a href="../../articles/narita-haneda-to-central-tokyo.html">airport-to-city guide</a>.
+      </p>
+      <h3>Do you still need cash in Tokyo?</h3>
+      <p>
+        More than in most large global cities. Cards and IC cards cover transit and
+        chains, but smaller restaurants and older establishments often remain
+        cash-based — withdrawing at an airport ATM on arrival is the calm way in.
+      </p>
 
       <!-- BEGIN affiliate-inject (managed by inject_affiliates.py) -->
 <section class="travel-affiliates" style="margin: 36px 0;">

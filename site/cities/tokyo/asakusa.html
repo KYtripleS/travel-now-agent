@@ -5,7 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <!-- Primary tags ─────────────────────────────────────────────── -->
-<title>Asakusa, Tokyo: A Layered Guide for the Thoughtful Traveler | Gently Yonder</title>
+<title>Asakusa, Tokyo: Senso-ji, History &amp; How to Visit | Gently Yonder</title>
 <meta content="A layered guide to Asakusa, Tokyo — the Edo theatre district, the 1923 earthquake, the 1945 firebombing, and what survives today. Practical visitor information included." name="description"/>
 <link href="https://gentlyyonder.com/cities/tokyo/asakusa.html" rel="canonical"/>
 <meta content="index, follow, max-image-preview:large" name="robots"/>
@@ -102,14 +102,18 @@
   }
   </script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->

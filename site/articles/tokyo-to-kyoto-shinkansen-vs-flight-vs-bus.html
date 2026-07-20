@@ -5,7 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <!-- Primary tags ─────────────────────────────────────────────── -->
-<title>Tokyo to Kyoto: A Practical Guide to Shinkansen, Flight, and Bus Travel | Gently Yonder</title>
+<title>Tokyo to Kyoto (2026): Shinkansen vs Flight vs Bus — Time &amp; Cost | Gently Yonder</title>
 <meta content="Choosing how to travel between Tokyo and Kyoto? This guide compares the Shinkansen, flying, and overnight buses for time, cost, comfort, and luggage." name="description"/>
 <link href="https://gentlyyonder.com/articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html" rel="canonical"/>
 <meta content="index, follow, max-image-preview:large" name="robots"/>
@@ -117,14 +117,18 @@
   ]
 }</script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
@@ -285,12 +289,11 @@
 <section class="keep-reading" style="margin: 36px 0;">
 <h2>Keep reading on Gently Yonder</h2>
 <ul>
-<li><a href="airalo-vs-holafly-vs-saily.html">Airalo vs Holafly vs Saily</a> — The three big travel eSIM providers compared — coverage, pricing, and who each suits.</li>
-<li><a href="best-esim-japan-korea-vietnam.html">Best eSIM for Japan, Korea &amp; Vietnam</a> — Destination-by-destination eSIM picks for three popular Asian countries.</li>
-<li><a href="pocket-wifi-vs-esim.html">Pocket WiFi vs eSIM</a> — Which connectivity option wins — solo vs group, cost, battery, and setup compared.</li>
-<li><a href="hotel-booking-sites-comparison.html">Hotel Booking Sites Compared</a> — Hotels.com, Booking.com, Trip.com, Agoda — what each is genuinely good for.</li>
-<li><a href="travel-insurance-compared.html">Travel Insurance Compared</a> — SafetyWing vs World Nomads vs Genki — coverage, exclusions, and how to choose.</li>
-<li><a href="../countries/japan/index.html">Japan Country Profile</a> — Eight-section country deep-dive: history, geography, society, and travel prep.</li>
+<li><a href="jr-pass-worth-it-2026.html">Is the JR Pass Worth It in 2026?</a> — An honest calculation after the price rise — break-even itineraries and the alternatives.</li>
+<li><a href="three-slow-days-in-kyoto.html">Three Slow Days in Kyoto</a> — A gentle, unhurried first-timer's itinerary — Fushimi Inari at dawn to Arashiyama's bamboo.</li>
+<li><a href="osaka-or-kyoto-where-to-base.html">Osaka or Kyoto: Choosing Your Kansai Base</a> — Two very different home bases compared — cost, food, day trips, and atmosphere.</li>
+<li><a href="japan-7-day-itinerary.html">Japan: A 7-Day First-Timer's Itinerary</a> — Three days in Tokyo, a day trip, two days in Kyoto, and a day in Osaka — tied together by the Shinkansen.</li>
+<li><a href="luggage-storage-tokyo.html">Where to Store Luggage in Tokyo</a> — Coin lockers, cloakrooms, storage apps, and hotel holds — which to use where.</li>
 </ul>
 </section>
 <!-- END internal-links -->

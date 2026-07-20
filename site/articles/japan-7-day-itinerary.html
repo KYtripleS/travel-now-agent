@@ -109,14 +109,18 @@
   ]
 }</script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
@@ -243,6 +247,7 @@
 <li><a href="things-to-do-in-tokyo.html">Tokyo: The Places Worth Your Time</a> — The best of Tokyo — Senso-ji, Shibuya, Harajuku, Shinjuku, teamLab, and easy day trips.</li>
 <li><a href="things-to-do-in-kyoto.html">Kyoto: The Places Worth Your Time</a> — Fushimi Inari, Arashiyama, Kiyomizu-dera, the Golden Pavilion, Gion, and a Nara day trip.</li>
 <li><a href="things-to-do-in-osaka.html">Osaka: The Places Worth Your Time</a> — Osaka Castle, Dotonbori, Shinsekai's kushikatsu, Universal Studios, and a Nara day trip.</li>
+<li><a href="tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html">Tokyo to Kyoto: Shinkansen vs Flight vs Bus</a> — Price, time and comfort compared honestly — and when the plane actually wins.</li>
 <li><a href="best-esim-japan-2026.html">Best eSIM for Japan (2026)</a> — How to choose a Japan travel eSIM — coverage, data plans, and the pick for most trips.</li>
 <li><a href="what-to-pack-for-japan.html">What to Pack for Japan</a> — A season-by-season Japan packing list — carry-on for the trains, slip-on shoes, plugs, and the Japanese extras.</li>
 </ul>

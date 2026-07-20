@@ -109,14 +109,18 @@
   ]
 }</script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
@@ -244,6 +248,7 @@
 <section class="keep-reading" style="margin: 36px 0;">
 <h2>Keep reading on Gently Yonder</h2>
 <ul>
+<li><a href="osaka-3-day-guide.html">Osaka in 3 Days</a> — Food, neighborhoods, and day-one energy — a compact plan for Japan's kitchen.</li>
 <li><a href="osaka-first-timers-guide.html">Osaka: A First-Timer's Guide</a> — Osaka Castle, Dotonbori, the street food, and an easy day trip to Nara.</li>
 <li><a href="best-esim-japan-2026.html">Best eSIM for Japan (2026)</a> — How to choose a Japan travel eSIM — coverage, data plans, and the pick for most trips.</li>
 <li><a href="things-to-do-in-kyoto.html">Kyoto: The Places Worth Your Time</a> — Fushimi Inari, Arashiyama, Kiyomizu-dera, the Golden Pavilion, Gion, and a Nara day trip.</li>

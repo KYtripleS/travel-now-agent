@@ -43,14 +43,18 @@
   }
   </script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
@@ -427,6 +431,70 @@
             appear only in this practical section, not within historical, political, or
             cultural content.
           </p>
+</section>
+<section class="japan-library">
+<h2 id="japan-library">The Japan preparation library</h2>
+<p>
+            Everything we have written about preparing for Japan, in the order a trip
+            actually comes together — from picking dates to what goes in the bag.
+          </p>
+<h3>Plan the trip</h3>
+<ul>
+<li><a href="../../articles/best-time-to-visit-japan-2026.html">Best time to visit Japan (2026)</a> — a season-honest look at blossoms, foliage, heat, and crowds.</li>
+<li><a href="../../articles/japan-7-day-itinerary.html">Japan in 7 days</a> — Tokyo, Kyoto, and Osaka tied together by the Shinkansen.</li>
+<li><a href="../../articles/tokyo-itinerary-5-days.html">Tokyo in 5 days</a> — an unhurried first-timer's itinerary.</li>
+<li><a href="../../articles/three-slow-days-in-kyoto.html">Three slow days in Kyoto</a> — Fushimi Inari at dawn to Arashiyama's bamboo.</li>
+<li><a href="../../articles/osaka-3-day-guide.html">Osaka in 3 days</a> — food, neighborhoods, and day-one energy.</li>
+<li><a href="../../articles/osaka-or-kyoto-where-to-base.html">Osaka or Kyoto?</a> — choosing your Kansai home base.</li>
+<li><a href="../../articles/japan-autumn-2026.html">Japan in autumn 2026</a> — foliage timing city by city.</li>
+<li><a href="../../articles/kyoto-autumn-2026.html">Kyoto in autumn 2026</a> — where the colors peak, and when.</li>
+<li><a href="../../articles/japan-book-in-advance-2026.html">What to book before you fly</a> — Ghibli, teamLab, and the tickets that genuinely sell out.</li>
+</ul>
+<h3>Tokyo</h3>
+<ul>
+<li><a href="../../cities/tokyo/">Tokyo city guide</a> — the layered introduction, with neighborhood guides.</li>
+<li><a href="../../cities/tokyo/asakusa.html">Asakusa</a> — Sensoji and the Edo streets, read properly.</li>
+<li><a href="../../articles/things-to-do-in-tokyo.html">Tokyo: the places worth your time</a> — Senso-ji to teamLab.</li>
+<li><a href="../../articles/where-to-stay-in-tokyo.html">Where to stay in Tokyo</a> — neighbourhoods compared for first-timers.</li>
+<li><a href="../../articles/first-day-in-tokyo-arrival-plan.html">Your first day in Tokyo</a> — a calm arrival plan.</li>
+<li><a href="../../articles/narita-haneda-to-central-tokyo.html">Narita &amp; Haneda to central Tokyo</a> — every route compared.</li>
+<li><a href="../../articles/luggage-storage-tokyo.html">Where to store luggage in Tokyo</a> — lockers, cloakrooms, and apps.</li>
+</ul>
+<h3>Kyoto &amp; Osaka</h3>
+<ul>
+<li><a href="../../articles/things-to-do-in-kyoto.html">Kyoto: the places worth your time</a> — the essential city, without the rush.</li>
+<li><a href="../../articles/gion-kyoto-neighbourhood-guide.html">Gion</a> — the geisha district beyond the postcard.</li>
+<li><a href="../../articles/things-to-do-in-osaka.html">Osaka: the places worth your time</a> — the castle, Dotonbori, and Nara nearby.</li>
+<li><a href="../../articles/osaka-first-timers-guide.html">Osaka: a first-timer's guide</a> — orientation before the street food.</li>
+<li><a href="../../articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html">Tokyo to Kyoto</a> — Shinkansen, flight, and bus compared honestly.</li>
+</ul>
+<h3>Trains, passes &amp; tickets</h3>
+<ul>
+<li><a href="../../articles/jr-pass-worth-it-2026.html">Is the JR Pass worth it in 2026?</a> — the arithmetic after the price rise.</li>
+<li><a href="../../articles/japan-city-sightseeing-passes-worth-it.html">City sightseeing passes</a> — when Tokyo, Osaka, and Kyoto passes pay off.</li>
+<li><a href="../../articles/klook-vs-viator-vs-getyourguide.html">Klook vs Viator vs GetYourGuide</a> — which booking platform to use in Japan.</li>
+</ul>
+<h3>Money &amp; insurance</h3>
+<ul>
+<li><a href="../../articles/how-much-does-japan-cost.html">How much does a Japan trip cost?</a> — a realistic 2026 budget.</li>
+<li><a href="../../articles/how-much-cash-japan.html">How much cash do you need?</a> — where cards work and where they don't.</li>
+<li><a href="../../articles/travel-insurance-japan.html">Travel insurance for Japan</a> — whether you actually need it.</li>
+</ul>
+<h3>Connectivity &amp; packing</h3>
+<ul>
+<li><a href="../../articles/best-esim-japan-2026.html">Best eSIM for Japan (2026)</a> — coverage, plans, and the pick for most trips.</li>
+<li><a href="../../tools/esim-finder.html">eSIM Finder</a> — three questions, one recommendation (free tool).</li>
+<li><a href="../../articles/pocket-wifi-vs-esim.html">Pocket WiFi vs eSIM</a> — solo vs group, cost, and battery.</li>
+<li><a href="../../articles/esim-activation-and-preparation.html">eSIM setup</a> — the activation order that avoids the airport scramble.</li>
+<li><a href="../../articles/what-to-pack-for-japan.html">What to pack for Japan</a> — season by season.</li>
+<li><a href="../../articles/carry-on-packing-list-10-day-japan.html">Carry-on packing list, 10-day Japan trip</a> — the capsule that fits the trains.</li>
+<li><a href="../../travel-power/japan.html">Power adapter for Japan</a> — Type A plugs and the 100V quirk.</li>
+</ul>
+<h3>Culture, gently</h3>
+<ul>
+<li><a href="../../articles/what-counts-as-rude.html">What counts as rude in 12 cultures</a> — Japan in comparative context.</li>
+<li><a href="../../articles/untranslatable-words.html">14 untranslatable words</a> — komorebi and company.</li>
+</ul>
 </section>
 <h2>Where to go next on Gently Yonder</h2>
 <ul>

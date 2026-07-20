@@ -109,14 +109,18 @@
   ]
 }</script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
@@ -244,6 +248,7 @@
 <section class="keep-reading" style="margin: 36px 0;">
 <h2>Keep reading on Gently Yonder</h2>
 <ul>
+<li><a href="japan-book-in-advance-2026.html">Japan Tickets That Sell Out: What to Book Before You Fly</a> — Ghibli, teamLab, Shibuya Sky and the rest — what actually sells out and when to book.</li>
 <li><a href="best-esim-japan-2026.html">Best eSIM for Japan (2026)</a> — How to choose a Japan travel eSIM — coverage, data plans, and the pick for most trips.</li>
 <li><a href="../cities/tokyo/index.html">Tokyo City Guide</a> — First-time visitor's layered introduction — neighbourhoods, food, and prep.</li>
 <li><a href="luggage-storage-tokyo.html">Where to Store Luggage in Tokyo</a> — Coin lockers, cloakrooms, storage apps, and hotel holds — which to use where.</li>

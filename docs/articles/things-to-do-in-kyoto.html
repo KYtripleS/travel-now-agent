@@ -109,14 +109,18 @@
   ]
 }</script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-JRGK9CN3B1', {
-    anonymize_ip: true
-  });
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->
@@ -244,6 +248,7 @@
 <section class="keep-reading" style="margin: 36px 0;">
 <h2>Keep reading on Gently Yonder</h2>
 <ul>
+<li><a href="gion-kyoto-neighbourhood-guide.html">Gion, Kyoto: A Neighbourhood Guide</a> — The geisha district beyond the postcard — lanes, tea houses, etiquette, and timing.</li>
 <li><a href="best-esim-japan-2026.html">Best eSIM for Japan (2026)</a> — How to choose a Japan travel eSIM — coverage, data plans, and the pick for most trips.</li>
 <li><a href="three-slow-days-in-kyoto.html">Three Slow Days in Kyoto</a> — A gentle, unhurried first-timer's itinerary — Fushimi Inari at dawn to Arashiyama's bamboo.</li>
 <li><a href="things-to-do-in-tokyo.html">Tokyo: The Places Worth Your Time</a> — The best of Tokyo — Senso-ji, Shibuya, Harajuku, Shinjuku, teamLab, and easy day trips.</li>

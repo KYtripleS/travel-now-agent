@@ -101,6 +101,34 @@ def _num(s: str) -> float:
         return 0.0
 
 
+# Sources that are almost never a real reader at this site's scale: the
+# operator's own visits (direct), affiliate-dashboard referrals, and rows GA4
+# couldn't attribute. Legacy /travel-now-agent/ paths are the pre-migration
+# GitHub Pages URL — mostly old bookmarks/bots, not discovery.
+NOISE_SOURCES = {"(direct)", "(not set)", "ui.awin.com", "admin.travelpayouts.com"}
+LEGACY_PREFIX = "/travel-now-agent"
+
+
+def true_reader_sessions(token: str, pid: str, start: str, end: str) -> tuple[int, int]:
+    """Conservative 'true external readers': sessions minus known noise.
+
+    Filters client-side (source × landing page) so no API dimension-filter
+    plumbing is needed. Undercounts real dark-social/direct readers on purpose —
+    at <100 sessions/wk an honest floor beats a flattering blur.
+    """
+    rows = run_report(token, pid, dimensions=["sessionSource", "landingPage"],
+                      metrics=["sessions", "engagedSessions"],
+                      start=start, end=end, limit=10000)
+    t = eng = 0.0
+    for r in rows:
+        src, lp = r["dims"][0], r["dims"][1]
+        if src in NOISE_SOURCES or lp.startswith(LEGACY_PREFIX):
+            continue
+        t += _num(r["mets"][0])
+        eng += _num(r["mets"][1])
+    return int(t), int(eng)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="GA4 session analysis for Gently Yonder.")
     ap.add_argument("--days", type=int, default=28)
@@ -159,6 +187,15 @@ def main() -> None:
     L.append(f"**Property:** {pid}  ·  **Window:** {s} → {e} ({args.days}d)\n")
     L.append(f"**Sessions:** {int(total_sessions):,} · **Users:** {int(total_users):,} "
              f"· **Engaged:** {int(engaged):,} · **~{per_day:.0f}/day**\n")
+    true_now, true_eng = true_reader_sessions(token, pid, s, e)
+    share = 100 * true_now / total_sessions if total_sessions else 0.0
+    L.append("## 🔍 True external readers (noise-filtered)")
+    L.append(f"Excludes direct/(not set), affiliate dashboards (ui.awin.com, "
+             f"admin.travelpayouts.com) and legacy `{LEGACY_PREFIX}/` paths.\n")
+    L.append(f"**{true_now:,}** sessions (~{true_now / max(args.days, 1):.1f}/day) · "
+             f"{true_eng:,} engaged · **{share:.0f}%** of raw sessions — "
+             f"the number to grow; the rest is mostly us.\n")
+
     pct = 100 * run_rate / TARGET_SESSIONS
     bar = "█" * int(pct // 5) + "░" * (20 - int(pct // 5))
     L.append(f"## 🎯 Progress to 50k sessions/month")
