@@ -21,11 +21,11 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
 BASE = "https://gentlyyonder.com/"
-MAX_LEN = 280  # standard X limit; a URL counts as 23 regardless of length
-
-
-def weighted_len(text: str) -> int:
-    return len(re.sub(r"https?://\S+", "x" * 23, text))
+# The posting pipeline (Buffer/n8n) truncates on RAW characters — it does NOT
+# apply X's t.co URL weighting — so a long URL at the end gets cut mid-string.
+# We therefore budget by RAW length and only link a post when the COMPLETE URL
+# fits; otherwise the post stays link-free (a broken link is worse than none).
+MAX_LEN = 278  # raw chars, with a small safety margin under X's 280
 
 # id -> (path, lead-in). Omitted ids stay link-free on purpose.
 LINKS: dict[int, tuple[str, str]] = {
@@ -64,29 +64,39 @@ LINKS: dict[int, tuple[str, str]] = {
 }
 
 
-def linked_text(body: str, path: str, lead: str) -> tuple[str, bool]:
-    """Append the link, keeping the post within MAX_LEN. Falls back to a bare
-    URL (no lead-in) when the lead-in would push the post over the limit."""
+def linked_text(body: str, path: str, lead: str) -> tuple[str | None, str]:
+    """Return (new_text, mode). Only appends a link when the COMPLETE URL fits
+    within MAX_LEN raw chars — lead-in if it fits, else a bare URL. If even the
+    bare URL does not fit, returns (None, 'skip') and the post stays link-free."""
     url = f"{BASE}{path}"
     withlead = f"{body}\n\n{lead} {url}"
-    if weighted_len(withlead) <= MAX_LEN:
-        return withlead, True
-    return f"{body}\n\n{url}", False
+    if len(withlead) <= MAX_LEN:
+        return withlead, "lead"
+    bare = f"{body}\n\n{url}"
+    if len(bare) <= MAX_LEN:
+        return bare, "bare"
+    return None, "skip"
 
 
-def apply(posts: list[dict], verbose: bool = False) -> int:
+def apply(posts: list[dict], verbose: bool = False) -> tuple[int, list[int]]:
     n = 0
+    skipped: list[int] = []
     for p in posts:
         m = LINKS.get(p["id"])
         if not m or "gentlyyonder.com" in p["text"]:
             continue
         path, lead = m
-        new, kept = linked_text(p["text"], path, lead)
-        if verbose and not kept:
-            print(f'  #{p["id"]:>2} lead-in dropped (length) → bare URL')
+        new, mode = linked_text(p["text"], path, lead)
+        if mode == "skip":
+            skipped.append(p["id"])
+            if verbose:
+                print(f'  #{p["id"]:>2} SKIP (URL would not fit in {MAX_LEN} raw) → left link-free')
+            continue
+        if verbose and mode == "bare":
+            print(f'  #{p["id"]:>2} bare URL (lead-in dropped for length)')
         p["text"] = new
         n += 1
-    return n
+    return n, skipped
 
 
 def main() -> None:
@@ -98,25 +108,34 @@ def main() -> None:
     data = json.loads(src.read_text(encoding="utf-8"))
     posts = data["posts"]
 
-    linked = [pid for pid in LINKS if any(p["id"] == pid for p in posts)]
-    free = [p["id"] for p in posts if p["id"] not in LINKS]
-    print(f"posts: {len(posts)} · will link: {len(linked)} · stay link-free: {free}")
+    would_link, would_skip = 0, []
     for p in posts:
-        if p["id"] in LINKS and "gentlyyonder.com" not in p["text"]:
-            path, lead = LINKS[p["id"]]
-            print(f'  #{p["id"]:>2} += "{lead} {BASE}{path}"')
+        if p["id"] not in LINKS or "gentlyyonder.com" in p["text"]:
+            continue
+        path, lead = LINKS[p["id"]]
+        new, mode = linked_text(p["text"], path, lead)
+        if mode == "skip":
+            would_skip.append(p["id"])
+            print(f'  #{p["id"]:>2} SKIP — full URL exceeds {MAX_LEN} raw, stays link-free')
+        else:
+            would_link += 1
+            tail = new[len(p["text"]):].strip()
+            print(f'  #{p["id"]:>2} [{len(new)}] += {tail}')
+    print(f"\nwould link: {would_link} · would skip (link-free): {would_skip}")
 
     if not args.write:
         print("\n(dry run — pass --write to apply to site/ + docs/)")
         return
 
-    n = apply(posts, verbose=True)
-    longest = max(weighted_len(p["text"]) for p in posts)
-    over = [p["id"] for p in posts if weighted_len(p["text"]) > MAX_LEN]
+    n, skipped = apply(posts, verbose=True)
+    longest = max(len(p["text"]) for p in posts)
+    over = [p["id"] for p in posts if len(p["text"]) > 280]
+    assert not over, f"RAW length still over 280 for {over} — refusing to write"
     src.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     dst = REPO / "docs" / "data" / "x_queue.json"
     dst.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"\n✓ linked {n} posts · longest {longest} chars · over-limit {over or 'none'} · wrote site/ + docs/")
+    print(f"\n✓ linked {n} posts · left link-free (too long): {skipped or 'none'} · "
+          f"longest raw {longest} · wrote site/ + docs/")
 
 
 if __name__ == "__main__":
