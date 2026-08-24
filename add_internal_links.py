@@ -255,6 +255,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "eSIM Setup for International Travel",
         "Phone compatibility, plan choice, and the activation order that avoids the airport scramble.",
     ),
+    "articles/esim-vs-physical-sim-card.html": (
+        "eSIM vs Physical SIM Card for Travel",
+        "Which to buy — activation timing, cost, coverage, keeping your home number, and when a local SIM still wins.",
+    ),
     "articles/everyday-carry-essentials-for-travel.html": (
         "Travel EDC Checklist",
         "Power bank, water bottle, sanitiser — the pocket setup that keeps your day moving.",
@@ -687,12 +691,12 @@ LINKS: dict[str, list[str]] = {
         "articles/untranslatable-words.html",
     ],
     "articles/esim-activation-and-preparation.html": [
+        "articles/esim-vs-physical-sim-card.html",
         "articles/best-esim-japan-2026.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/pocket-wifi-vs-esim.html",
         "articles/hotel-booking-sites-comparison.html",
-        "articles/travel-insurance-compared.html",
         "countries/japan/index.html",
     ],
     "articles/everyday-carry-essentials-for-travel.html": [
@@ -786,12 +790,20 @@ LINKS: dict[str, list[str]] = {
         "articles/klook-vs-viator-vs-getyourguide.html",
     ],
     "articles/pocket-wifi-vs-esim.html": [
+        "articles/esim-vs-physical-sim-card.html",
         "articles/best-esim-japan-2026.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/esim-activation-and-preparation.html",
-        "articles/everyday-carry-essentials-for-travel.html",
         "countries/japan/index.html",
+    ],
+    "articles/esim-vs-physical-sim-card.html": [
+        "articles/pocket-wifi-vs-esim.html",
+        "articles/esim-activation-and-preparation.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "tools/esim-finder.html",
     ],
     "articles/klook-vs-viator-vs-getyourguide.html": [
         "cities/tokyo/index.html",
@@ -1002,6 +1014,7 @@ LINKS: dict[str, list[str]] = {
     ],
     "tools/esim-finder.html": [
         "articles/best-esim-japan-2026.html",
+        "articles/esim-vs-physical-sim-card.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/pocket-wifi-vs-esim.html",
         "articles/esim-activation-and-preparation.html",
