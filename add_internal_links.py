@@ -248,8 +248,12 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Ten items, three climates — fabrics, layering, and laundry on the road.",
     ),
     "articles/charter-a-boat-for-a-day.html": (
-        "Charter a Boat for a Day",
-        "Which licences you actually need country by country, and where to find boats.",
+        "Rent a Boat Without a License",
+        "Where you can legally rent a boat with no license, country by country, and how to find one.",
+    ),
+    "articles/pre-flight-checklist-48-hours.html": (
+        "Pre-Flight Checklist for Passengers",
+        "The 25-step check for the 48 hours before you fly — documents, connectivity, security, and the night-before list.",
     ),
     "articles/esim-activation-and-preparation.html": (
         "eSIM Setup for International Travel",
@@ -637,21 +641,29 @@ LINKS: dict[str, list[str]] = {
         "articles/airport-security-liquids.html",
     ],
     "articles/airport-security-bag-rules.html": [
+        "articles/pre-flight-checklist-48-hours.html",
         "articles/airport-security-checklist.html",
         "articles/airport-security-liquids.html",
         "articles/airport-security-packing-moments.html",
         "articles/everyday-carry-essentials-for-travel.html",
-        "articles/capsule-wardrobe-2-week-trips.html",
         "articles/esim-activation-and-preparation.html",
     ],
     "articles/airport-security-checklist.html": [
+        "articles/pre-flight-checklist-48-hours.html",
         "articles/airport-security-bag-rules.html",
         "articles/airport-security-liquids.html",
         "articles/airport-security-packing-moments.html",
         "articles/everyday-carry-essentials-for-travel.html",
-        "articles/capsule-wardrobe-2-week-trips.html",
         "articles/travel-insurance-compared.html",
         "articles/esim-activation-and-preparation.html",
+    ],
+    "articles/pre-flight-checklist-48-hours.html": [
+        "articles/airport-security-checklist.html",
+        "articles/airport-security-liquids.html",
+        "articles/first-international-trip-checklist.html",
+        "articles/everyday-carry-essentials-for-travel.html",
+        "articles/esim-activation-and-preparation.html",
+        "articles/travel-insurance-compared.html",
     ],
     "articles/airport-security-liquids.html": [
         "articles/airport-security-checklist.html",
@@ -700,12 +712,12 @@ LINKS: dict[str, list[str]] = {
         "countries/japan/index.html",
     ],
     "articles/everyday-carry-essentials-for-travel.html": [
+        "articles/pre-flight-checklist-48-hours.html",
         "articles/airport-security-checklist.html",
         "articles/airport-security-bag-rules.html",
         "articles/capsule-wardrobe-2-week-trips.html",
         "articles/beach-trip-packing-checklist.html",
         "articles/esim-activation-and-preparation.html",
-        "articles/travel-insurance-compared.html",
     ],
     "articles/hotel-booking-sites-comparison.html": [
         "articles/klook-vs-viator-vs-getyourguide.html",
