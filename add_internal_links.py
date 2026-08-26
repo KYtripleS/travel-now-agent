@@ -255,6 +255,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Pre-Flight Checklist for Passengers",
         "The 25-step check for the 48 hours before you fly — documents, connectivity, security, and the night-before list.",
     ),
+    "articles/first-international-trip-checklist.html": (
+        "Your First International Trip: A Calm Pre-Flight Checklist",
+        "The reassuring first-timer's checklist — passport, entry rules, money, connectivity, and packing, without the overwhelm.",
+    ),
     "articles/esim-activation-and-preparation.html": (
         "eSIM Setup for International Travel",
         "Phone compatibility, plan choice, and the activation order that avoids the airport scramble.",
@@ -315,6 +319,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
     "articles/first-day-in-tokyo-arrival-plan.html": (
         "Your First Day in Tokyo: A Calm Arrival Plan",
         "From landing to your first evening — IC card, cash, connectivity, and a gentle first walk.",
+    ),
+    "articles/visit-japan-web-guide.html": (
+        "Visit Japan Web: Register Before You Fly",
+        "How to pre-register immigration and customs for the QR codes that speed up arrival at Narita, Haneda, and Kansai.",
     ),
     "articles/gion-kyoto-neighbourhood-guide.html": (
         "Gion, Kyoto: A Neighbourhood Guide",
@@ -911,11 +919,20 @@ LINKS: dict[str, list[str]] = {
         "countries/japan/index.html",
     ],
     "articles/first-day-in-tokyo-arrival-plan.html": [
+        "articles/visit-japan-web-guide.html",
         "articles/narita-haneda-to-central-tokyo.html",
         "articles/how-much-cash-japan.html",
         "articles/best-esim-japan-2026.html",
         "cities/tokyo/index.html",
         "articles/luggage-storage-tokyo.html",
+    ],
+    "articles/visit-japan-web-guide.html": [
+        "articles/first-day-in-tokyo-arrival-plan.html",
+        "articles/narita-haneda-to-central-tokyo.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/how-much-cash-japan.html",
+        "articles/japan-book-in-advance-2026.html",
+        "countries/japan/index.html",
     ],
     "articles/gion-kyoto-neighbourhood-guide.html": [
         "articles/things-to-do-in-kyoto.html",
@@ -949,7 +966,7 @@ LINKS: dict[str, list[str]] = {
         "articles/things-to-do-in-tokyo.html",
         "articles/japan-city-sightseeing-passes-worth-it.html",
         "articles/jr-pass-worth-it-2026.html",
-        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/visit-japan-web-guide.html",
         "articles/tokyo-itinerary-5-days.html",
         "cities/tokyo/index.html",
     ],
@@ -975,6 +992,7 @@ LINKS: dict[str, list[str]] = {
         "articles/best-time-to-visit-japan-2026.html",
     ],
     "articles/narita-haneda-to-central-tokyo.html": [
+        "articles/visit-japan-web-guide.html",
         "articles/first-day-in-tokyo-arrival-plan.html",
         "cities/tokyo/index.html",
         "articles/luggage-storage-tokyo.html",
