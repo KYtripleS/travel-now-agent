@@ -271,6 +271,22 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "When to Activate a Travel eSIM",
         "Install early, activate on arrival — when the validity clock starts, and how to switch it on when you land.",
     ),
+    "articles/best-esim-south-korea-2026.html": (
+        "Best eSIM for South Korea (2026)",
+        "How to choose a Korea travel eSIM — coverage, data plans, and the pick for most trips.",
+    ),
+    "articles/travel-insurance-south-korea.html": (
+        "Travel Insurance for South Korea",
+        "Whether you need it, what Korean medical care costs a visitor, and honest picks by traveller type.",
+    ),
+    "articles/how-much-does-south-korea-cost.html": (
+        "How Much Does a South Korea Trip Cost?",
+        "A realistic 2026 budget — flights, stays, food, T-money, the KTX, and where costs surprise you.",
+    ),
+    "articles/staying-connected-south-korea.html": (
+        "Staying Connected in South Korea",
+        "eSIM vs local SIM vs pocket WiFi in Korea — which to choose, and how to get online on arrival.",
+    ),
     "articles/everyday-carry-essentials-for-travel.html": (
         "Travel EDC Checklist",
         "Power bank, water bottle, sanitiser — the pocket setup that keeps your day moving.",
@@ -486,11 +502,12 @@ LINKS: dict[str, list[str]] = {
         "articles/seoul-first-timers-guide.html",
     ],
     "articles/seoul-first-timers-guide.html": [
-        "articles/what-counts-as-rude.html",
-        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/staying-connected-south-korea.html",
+        "articles/how-much-does-south-korea-cost.html",
+        "articles/travel-insurance-south-korea.html",
+        "articles/best-esim-south-korea-2026.html",
         "articles/south-korea-country-profile.html",
-        "articles/osaka-first-timers-guide.html",
-        "articles/hong-kong-first-timers-guide.html",
+        "articles/what-counts-as-rude.html",
     ],
     "articles/osaka-first-timers-guide.html": [
         "articles/osaka-3-day-guide.html",
@@ -740,11 +757,11 @@ LINKS: dict[str, list[str]] = {
         "articles/south-korea-country-profile.html",
     ],
     "articles/south-korea-country-profile.html": [
-        "cities/tokyo/index.html",
-        "countries/japan/index.html",
-        "countries/vietnam/index.html",
-        "articles/esim-activation-and-preparation.html",
-        "articles/hotel-booking-sites-comparison.html",
+        "articles/staying-connected-south-korea.html",
+        "articles/travel-insurance-south-korea.html",
+        "articles/how-much-does-south-korea-cost.html",
+        "articles/seoul-first-timers-guide.html",
+        "articles/best-esim-south-korea-2026.html",
         "articles/what-counts-as-rude.html",
     ],
     "articles/travel-insurance-compared.html": [
@@ -835,6 +852,38 @@ LINKS: dict[str, list[str]] = {
         "articles/best-esim-japan-2026.html",
         "articles/pocket-wifi-vs-esim.html",
         "articles/best-esim-japan-korea-vietnam.html",
+        "tools/esim-finder.html",
+    ],
+    "articles/travel-insurance-south-korea.html": [
+        "articles/travel-insurance-compared.html",
+        "articles/travel-insurance-japan.html",
+        "articles/how-much-does-south-korea-cost.html",
+        "articles/best-esim-south-korea-2026.html",
+        "articles/safetywing-vs-world-nomads.html",
+        "articles/south-korea-country-profile.html",
+    ],
+    "articles/how-much-does-south-korea-cost.html": [
+        "articles/how-much-does-japan-cost.html",
+        "articles/travel-insurance-south-korea.html",
+        "articles/staying-connected-south-korea.html",
+        "articles/best-esim-south-korea-2026.html",
+        "articles/seoul-first-timers-guide.html",
+        "articles/things-to-do-in-seoul.html",
+    ],
+    "articles/staying-connected-south-korea.html": [
+        "articles/best-esim-south-korea-2026.html",
+        "articles/esim-vs-physical-sim-card.html",
+        "articles/when-to-activate-travel-esim.html",
+        "articles/pocket-wifi-vs-esim.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/travel-insurance-south-korea.html",
+    ],
+    "articles/best-esim-south-korea-2026.html": [
+        "articles/staying-connected-south-korea.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/esim-vs-physical-sim-card.html",
+        "articles/when-to-activate-travel-esim.html",
+        "articles/travel-insurance-south-korea.html",
         "tools/esim-finder.html",
     ],
     "articles/klook-vs-viator-vs-getyourguide.html": [
@@ -962,6 +1011,7 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/how-much-does-japan-cost.html": [
         "articles/how-much-cash-japan.html",
+        "articles/how-much-does-south-korea-cost.html",
         "articles/jr-pass-worth-it-2026.html",
         "articles/where-to-stay-in-tokyo.html",
         "articles/travel-insurance-japan.html",
@@ -1042,6 +1092,7 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/travel-insurance-japan.html": [
         "articles/travel-insurance-compared.html",
+        "articles/travel-insurance-south-korea.html",
         "articles/safetywing-vs-world-nomads.html",
         "articles/how-much-does-japan-cost.html",
         "countries/japan/index.html",
