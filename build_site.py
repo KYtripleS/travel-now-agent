@@ -115,19 +115,20 @@ def build_directory_column(category, products):
 
 
 def build_gear_directory(products_by_category):
-    cols = "\n\n".join(
-        build_directory_column(category, products_by_category[category])
+    total = sum(len(v) for v in products_by_category.values())
+    pills = "\n".join(
+        f'        <a class="gear-teaser-pill" href="gear.html">{category}</a>'
         for category in CATEGORY_IDS.keys()
     )
     return f"""
-    <!-- Travel gear directory — IMF-style grouped links ────────────────── -->
+    <!-- Travel gear directory teaser — full page at /gear.html ──────────── -->
     <section class="directory-section gear-directory" id="lists" data-reveal>
       <h2>Travel gear directory</h2>
-      <p class="intro">Curated Amazon search picks by category. Affiliate links — see disclosure in the footer.</p>
-
-      <div class="directory-grid">
-{cols}
+      <p class="intro">Our honest gear picks, grouped by category and sortable — {total} items. Filter to what you need, then check the current price on Amazon.</p>
+      <div class="gear-teaser-pills">
+{pills}
       </div>
+      <a class="gear-teaser-cta" href="gear.html">Browse the full gear directory &rarr;</a>
     </section>
 """
 

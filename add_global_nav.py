@@ -31,6 +31,7 @@ LINKS = [
     ("articles/esim-activation-and-preparation.html", "eSIM &amp; Tech"),
     ("articles/travel-insurance-compared.html", "Insurance"),
     ("tools/esim-finder.html", "Tools"),
+    ("gear.html", "Gear"),
     ("about.html", "About"),
 ]
 BODY_RE = re.compile(r"<body[^>]*>", re.IGNORECASE)
