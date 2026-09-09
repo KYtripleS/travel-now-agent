@@ -287,6 +287,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Staying Connected in South Korea",
         "eSIM vs local SIM vs pocket WiFi in Korea — which to choose, and how to get online on arrival.",
     ),
+    "articles/do-you-need-keta-south-korea.html": (
+        "Do You Need a K-ETA for South Korea? (2026)",
+        "22 countries are K-ETA-exempt through 31 Dec 2026 — but you still need an arrival card. What changed, and how to prepare.",
+    ),
     "articles/everyday-carry-essentials-for-travel.html": (
         "Travel EDC Checklist",
         "Power bank, water bottle, sanitiser — the pocket setup that keeps your day moving.",
@@ -502,12 +506,12 @@ LINKS: dict[str, list[str]] = {
         "articles/seoul-first-timers-guide.html",
     ],
     "articles/seoul-first-timers-guide.html": [
+        "articles/do-you-need-keta-south-korea.html",
         "articles/staying-connected-south-korea.html",
         "articles/how-much-does-south-korea-cost.html",
         "articles/travel-insurance-south-korea.html",
         "articles/best-esim-south-korea-2026.html",
         "articles/south-korea-country-profile.html",
-        "articles/what-counts-as-rude.html",
     ],
     "articles/osaka-first-timers-guide.html": [
         "articles/osaka-3-day-guide.html",
@@ -757,12 +761,12 @@ LINKS: dict[str, list[str]] = {
         "articles/south-korea-country-profile.html",
     ],
     "articles/south-korea-country-profile.html": [
+        "articles/do-you-need-keta-south-korea.html",
         "articles/staying-connected-south-korea.html",
         "articles/travel-insurance-south-korea.html",
         "articles/how-much-does-south-korea-cost.html",
         "articles/seoul-first-timers-guide.html",
         "articles/best-esim-south-korea-2026.html",
-        "articles/what-counts-as-rude.html",
     ],
     "articles/travel-insurance-compared.html": [
         "articles/safetywing-vs-world-nomads.html",
@@ -864,19 +868,27 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/how-much-does-south-korea-cost.html": [
         "articles/how-much-does-japan-cost.html",
+        "articles/do-you-need-keta-south-korea.html",
         "articles/travel-insurance-south-korea.html",
         "articles/staying-connected-south-korea.html",
         "articles/best-esim-south-korea-2026.html",
         "articles/seoul-first-timers-guide.html",
-        "articles/things-to-do-in-seoul.html",
     ],
     "articles/staying-connected-south-korea.html": [
         "articles/best-esim-south-korea-2026.html",
         "articles/esim-vs-physical-sim-card.html",
         "articles/when-to-activate-travel-esim.html",
         "articles/pocket-wifi-vs-esim.html",
-        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/do-you-need-keta-south-korea.html",
         "articles/travel-insurance-south-korea.html",
+    ],
+    "articles/do-you-need-keta-south-korea.html": [
+        "articles/staying-connected-south-korea.html",
+        "articles/travel-insurance-south-korea.html",
+        "articles/how-much-does-south-korea-cost.html",
+        "articles/best-esim-south-korea-2026.html",
+        "articles/seoul-first-timers-guide.html",
+        "articles/south-korea-country-profile.html",
     ],
     "articles/best-esim-south-korea-2026.html": [
         "articles/staying-connected-south-korea.html",
