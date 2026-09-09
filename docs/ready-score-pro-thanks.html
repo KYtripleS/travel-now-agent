@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Thank you — Ready Score Pro | Gently Yonder</title>
+<meta name="description" content="Thank you for buying Ready Score Pro." />
+<link rel="canonical" href="https://gentlyyonder.com/ready-score-pro-thanks.html" />
+<meta name="robots" content="noindex, follow" />
+<link rel="stylesheet" href="style-v2.css" />
+<!-- BEGIN GA4 (managed by add_ga4.py) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
+</script>
+<!-- END GA4 -->
+<!-- BEGIN favicon (managed by add_favicon.py) -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48"/>
+<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<!-- END favicon -->
+<style>
+  .ty{max-width:620px;margin:0 auto;padding:70px clamp(20px,5vw,40px);text-align:center}
+  .ty .eyebrow{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#B8945F;margin:0 0 10px}
+  .ty h1{font-size:clamp(1.6rem,4vw,2.3rem);color:var(--navy,#172033);margin:0 0 14px}
+  .ty p{color:#4a5163;font-size:1.05rem;line-height:1.6;margin:0 0 14px}
+  .ty a.btn{display:inline-block;margin-top:12px;background:#C9A84C;color:#172033;font-weight:700;padding:13px 26px;border-radius:999px;text-decoration:none}
+</style>
+</head>
+<body>
+<!-- BEGIN global-nav (managed by add_global_nav.py) -->
+<nav class="gy-topnav" aria-label="Primary"><div class="gy-topnav-inner"><a class="gy-topnav-brand" href="index.html">Gently Yonder</a><div class="gy-topnav-links"><a href="index.html#guides">Guides</a><a href="index.html#profiles">Destinations</a><a href="articles/esim-activation-and-preparation.html">eSIM &amp; Tech</a><a href="articles/travel-insurance-compared.html">Insurance</a><a href="tools/esim-finder.html">Tools</a><a href="gear.html">Gear</a><a href="about.html">About</a></div></div></nav>
+<!-- END global-nav -->
+<main class="ty">
+  <p class="eyebrow">Ready Score Pro</p>
+  <h1>Thank you — you're all set.</h1>
+  <p>Your download link is on your receipt (check your email) and on your checkout confirmation. Open the workbook in any browser, pick your destination, and start ticking things off.</p>
+  <p>Any trouble finding it? Reply to your receipt and we'll sort it out.</p>
+  <a class="btn" href="index.html">Back to Gently Yonder</a>
+</main>
+<script>
+/* Fire a GA4 purchase once per completed checkout. Gumroad redirects here only
+   after a successful purchase. A unique transaction_id per load avoids GA4
+   deduplication; a session flag avoids double-counting on refresh. Value can
+   be passed by the checkout as ?price= ; otherwise the list price is used. */
+(function(){
+  try{
+    if(sessionStorage.getItem('rsp_purchase_logged')==='1') return;
+    var params=new URLSearchParams(location.search);
+    var val=parseFloat(params.get('price'))||12;
+    var tid=params.get('sale_id')||('rsp-'+Date.now()+'-'+Math.floor(Math.random()*1e6));
+    gtag('event','purchase',{
+      transaction_id:tid, value:val, currency:'USD',
+      items:[{item_id:'ready-score-pro',item_name:'Ready Score Pro',price:val,quantity:1}]
+    });
+    sessionStorage.setItem('rsp_purchase_logged','1');
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
