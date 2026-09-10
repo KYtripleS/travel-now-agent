@@ -102,6 +102,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Tokyo: The Places Worth Your Time",
         "The best of Tokyo — Senso-ji, Shibuya, Harajuku, Shinjuku, teamLab, and easy day trips.",
     ),
+    "articles/day-trips-from-tokyo.html": (
+        "The Best Day Trips from Tokyo",
+        "Nikko, Hakone, Kamakura, Mount Fuji and more — where to go from Tokyo and how to book each.",
+    ),
     "articles/things-to-do-in-kyoto.html": (
         "Kyoto: The Places Worth Your Time",
         "Fushimi Inari, Arashiyama, Kiyomizu-dera, the Golden Pavilion, Gion, and a Nara day trip.",
@@ -540,12 +544,20 @@ LINKS: dict[str, list[str]] = {
         "articles/singapore-first-timers-guide.html",
     ],
     "articles/things-to-do-in-tokyo.html": [
+        "articles/day-trips-from-tokyo.html",
         "articles/japan-book-in-advance-2026.html",
         "articles/best-esim-japan-2026.html",
         "cities/tokyo/index.html",
-        "articles/luggage-storage-tokyo.html",
         "articles/things-to-do-in-kyoto.html",
         "articles/carry-on-packing-list-10-day-japan.html",
+    ],
+    "articles/day-trips-from-tokyo.html": [
+        "articles/things-to-do-in-tokyo.html",
+        "cities/tokyo/index.html",
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/tokyo-itinerary-5-days.html",
+        "articles/japan-7-day-itinerary.html",
     ],
     "articles/things-to-do-in-kyoto.html": [
         "articles/gion-kyoto-neighbourhood-guide.html",
@@ -1102,10 +1114,10 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/tokyo-itinerary-5-days.html": [
         "articles/things-to-do-in-tokyo.html",
+        "articles/day-trips-from-tokyo.html",
         "articles/where-to-stay-in-tokyo.html",
         "articles/first-day-in-tokyo-arrival-plan.html",
         "articles/japan-book-in-advance-2026.html",
-        "cities/tokyo/asakusa.html",
         "cities/tokyo/index.html",
     ],
     "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html": [
