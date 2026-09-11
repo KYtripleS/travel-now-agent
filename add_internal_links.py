@@ -364,6 +364,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Japan's Tourist Taxes in 2026",
         "Kyoto's lodging tax rises from March 2026 (up to ¥10,000/night), which cities charge it, and the ¥1,000 departure tax.",
     ),
+    "articles/is-accommodation-tax-double-taxation.html": (
+        "Is the Accommodation Tax Double Taxation?",
+        "Consumption tax plus a lodging tax on one stay — the academically grounded, balanced answer.",
+    ),
     "articles/gion-kyoto-neighbourhood-guide.html": (
         "Gion, Kyoto: A Neighbourhood Guide",
         "The geisha district beyond the postcard — lanes, tea houses, etiquette, and timing.",
@@ -1048,11 +1052,19 @@ LINKS: dict[str, list[str]] = {
         "countries/japan/index.html",
     ],
     "articles/japan-tourist-taxes-2026.html": [
+        "articles/is-accommodation-tax-double-taxation.html",
         "articles/how-much-does-japan-cost.html",
         "articles/japan-tax-free-shopping-2026-changes.html",
         "articles/where-to-stay-in-tokyo.html",
         "articles/hotel-booking-sites-comparison.html",
-        "articles/how-much-cash-japan.html",
+        "countries/japan/index.html",
+    ],
+    "articles/is-accommodation-tax-double-taxation.html": [
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/how-much-does-japan-cost.html",
+        "articles/japan-tax-free-shopping-2026-changes.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/where-to-stay-in-tokyo.html",
         "countries/japan/index.html",
     ],
     "articles/gion-kyoto-neighbourhood-guide.html": [
