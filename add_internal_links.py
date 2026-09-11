@@ -283,6 +283,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Travel Insurance for South Korea",
         "Whether you need it, what Korean medical care costs a visitor, and honest picks by traveller type.",
     ),
+    "articles/is-travel-insurance-worth-it.html": (
+        "Is Travel Insurance Worth It?",
+        "When cover genuinely pays off and when it doesn't — insure what would hurt, skip what wouldn't.",
+    ),
     "articles/how-much-does-south-korea-cost.html": (
         "How Much Does a South Korea Trip Cost?",
         "A realistic 2026 budget — flights, stays, food, T-money, the KTX, and where costs surprise you.",
@@ -785,12 +789,20 @@ LINKS: dict[str, list[str]] = {
         "articles/best-esim-south-korea-2026.html",
     ],
     "articles/travel-insurance-compared.html": [
+        "articles/is-travel-insurance-worth-it.html",
         "articles/safetywing-vs-world-nomads.html",
         "articles/best-travel-insurance-digital-nomads-2026.html",
         "articles/travel-insurance-japan.html",
-        "articles/esim-activation-and-preparation.html",
-        "articles/hotel-booking-sites-comparison.html",
+        "articles/travel-insurance-south-korea.html",
         "countries/japan/index.html",
+    ],
+    "articles/is-travel-insurance-worth-it.html": [
+        "articles/travel-insurance-compared.html",
+        "articles/safetywing-vs-world-nomads.html",
+        "articles/travel-insurance-japan.html",
+        "articles/travel-insurance-south-korea.html",
+        "articles/best-travel-insurance-digital-nomads-2026.html",
+        "articles/esim-activation-and-preparation.html",
     ],
     "articles/safetywing-vs-world-nomads.html": [
         "articles/best-travel-insurance-digital-nomads-2026.html",
@@ -1128,12 +1140,12 @@ LINKS: dict[str, list[str]] = {
         "articles/luggage-storage-tokyo.html",
     ],
     "articles/travel-insurance-japan.html": [
+        "articles/is-travel-insurance-worth-it.html",
         "articles/travel-insurance-compared.html",
         "articles/travel-insurance-south-korea.html",
         "articles/safetywing-vs-world-nomads.html",
         "articles/how-much-does-japan-cost.html",
         "countries/japan/index.html",
-        "articles/best-esim-japan-2026.html",
     ],
     "articles/where-to-stay-in-tokyo.html": [
         "articles/tokyo-itinerary-5-days.html",
