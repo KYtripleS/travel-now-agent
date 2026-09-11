@@ -962,11 +962,11 @@ LINKS: dict[str, list[str]] = {
     "countries/japan/index.html": [
         "cities/tokyo/index.html",
         "cities/tokyo/asakusa.html",
-        "articles/three-slow-days-in-kyoto.html",
+        "articles/travel-insurance-japan.html",
+        "articles/japan-tax-free-shopping-2026-changes.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/carry-on-packing-list-10-day-japan.html",
-        "articles/south-korea-country-profile.html",
     ],
     "cities/tokyo/index.html": [
         "countries/japan/index.html",
@@ -1012,8 +1012,8 @@ LINKS: dict[str, list[str]] = {
         "articles/narita-haneda-to-central-tokyo.html",
         "articles/how-much-cash-japan.html",
         "articles/best-esim-japan-2026.html",
+        "articles/travel-insurance-japan.html",
         "cities/tokyo/index.html",
-        "articles/luggage-storage-tokyo.html",
     ],
     "articles/visit-japan-web-guide.html": [
         "articles/japan-tax-free-shopping-2026-changes.html",
@@ -1066,7 +1066,7 @@ LINKS: dict[str, list[str]] = {
         "articles/japan-city-sightseeing-passes-worth-it.html",
         "articles/jr-pass-worth-it-2026.html",
         "articles/visit-japan-web-guide.html",
-        "articles/tokyo-itinerary-5-days.html",
+        "articles/travel-insurance-japan.html",
         "cities/tokyo/index.html",
     ],
     "articles/japan-city-sightseeing-passes-worth-it.html": [
