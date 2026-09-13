@@ -132,6 +132,27 @@ REGISTRY: dict[str, str] = {
         "Whale-watching, sunset and sightseeing departures from Circular Quay, "
         "Rose Bay and Manly, plus passes that bundle a cruise in.",
         "2147714", ["wegotrip", "gocity", "klook", "kkday"]),
+    # ---- Per-tour booking-platform series (2026-09-13) ----
+    # WeGoTrip inventory verified live 2026-09-13: Bangkok 1609350 and Sydney
+    # 2147714 both return tours; Taipei 1668341 returns "Ooops / no tours", and
+    # Jeju has no WeGoTrip city at all — so those two get text CTAs, not a hub.
+    "articles/where-to-book-bangkok-dinner-cruise.html": hub(
+        "Book a Chao Phraya cruise",
+        "Sunset and dinner departures from Asiatique, ICONSIAM and River City "
+        "&mdash; compare the same boat across platforms before you book.",
+        "1609350", ["wegotrip", "klook", "kkday", "tiqets"]),
+    "articles/where-to-book-sydney-harbour-cruise.html": hub(
+        "Book a Sydney harbour cruise",
+        "Whale-watching, sunset and dinner departures from Circular Quay, "
+        "plus passes that bundle a cruise in.",
+        "2147714", ["wegotrip", "gocity", "klook", "kkday"]),
+    "articles/where-to-book-taipei-day-tour.html": cta(
+        "Book a Taipei day tour",
+        ["kkday", "klook", "tiqets", "welcomepickups"]),
+    "articles/where-to-book-jeju-bus-tour.html": cta(
+        "Book a Jeju day tour",
+        ["klook", "kkday", "saily", "ekta"]),
+
     "articles/bangkok-river-cruises-guide.html": hub(
         "Book a Chao Phraya cruise",
         "Sunset and dinner departures from Asiatique, ICONSIAM and River City "

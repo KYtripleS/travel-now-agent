@@ -57,11 +57,26 @@ def estimated_read_min(markdown_body: str) -> int:
 
 
 def md_to_html(text: str) -> str:
-    return markdown.markdown(
+    html = markdown.markdown(
         text,
         extensions=["extra", "sane_lists", "smarty"],
         output_format="html5",
     )
+    return wrap_tables(html)
+
+
+def wrap_tables(html: str) -> str:
+    """Give every markdown table a horizontally scrollable parent.
+
+    Without it a wide comparison table is clipped at the container edge on a
+    phone — the page does not scroll sideways, so the final column is simply
+    lost. .table-scroll in style-v2.css carries the styling too.
+    """
+    if "<table>" not in html:
+        return html
+    return html.replace(
+        "<table>", '<div class="table-scroll"><table>').replace(
+        "</table>", "</table></div>")
 
 
 def strip_outer_p(html: str) -> str:

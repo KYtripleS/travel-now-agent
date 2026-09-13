@@ -2697,6 +2697,59 @@ section.globe-section #globe-canvas {
   .article .prep-table td { padding: 9px 11px; }
 }
 
+/* ── Markdown comparison tables ────────────────────────────────────────
+   Tables written in the article's markdown arrive without a class. They get
+   the prep-table look here, and .table-scroll gives them somewhere to go on
+   a phone: without it a 4-column table is CLIPPED at the container edge —
+   the page itself does not scroll, so the last column simply disappears. */
+.article .table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 22px 0;
+}
+.article .table-scroll > table {
+  width: 100%;
+  min-width: 460px;          /* below this, columns become unreadable slivers */
+  border-collapse: separate; /* separate, so the outer border keeps its radius */
+  border-spacing: 0;
+  font-size: 0.96rem;
+  background: var(--surface);
+  border: 1px solid var(--navy);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(23, 32, 51, 0.05);
+}
+.article .table-scroll thead {
+  background: linear-gradient(135deg, var(--navy), var(--navy-2));
+  color: #fff;
+}
+.article .table-scroll th {
+  text-align: left;
+  padding: 12px 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: 0.92rem;
+  border-right: 1px solid rgba(248, 244, 233, 0.28);
+}
+.article .table-scroll th:last-child { border-right: 0; }
+.article .table-scroll td {
+  padding: 12px 16px;
+  border-top: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  color: #334155;
+  line-height: 1.6;
+  vertical-align: top;
+}
+.article .table-scroll td:last-child { border-right: 0; }
+.article .table-scroll tbody tr:nth-child(even) {
+  background: var(--surface-soft);
+}
+@media (max-width: 720px) {
+  .article .table-scroll > table { font-size: 0.88rem; }
+  .article .table-scroll th,
+  .article .table-scroll td { padding: 9px 11px; }
+}
+
 /* ── Country profile: 2-column layout with sticky professor companion ──── */
 .country-layout {
   display: grid;
