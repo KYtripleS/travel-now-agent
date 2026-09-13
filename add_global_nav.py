@@ -44,12 +44,27 @@ def rel_root(path: Path, base: Path) -> str:
 
 def block(root: str) -> str:
     links = "".join(f'<a href="{root}{href}">{label}</a>' for href, label in LINKS)
+    # The form's action/name are real, so Enter still reaches search.html if the
+    # script fails; gy-search.js upgrades it to an instant dropdown. data-gy-root
+    # is how the script resolves the index and result links at any nesting depth.
+    search = (
+        f'<form class="gy-search-box" role="search" action="{root}search.html" method="get">'
+        f'<svg class="gy-search-icon" viewBox="0 0 24 24" aria-hidden="true">'
+        f'<circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>'
+        f'<input type="search" name="q" placeholder="Search guides&hellip;" '
+        f'aria-label="Search guides" autocomplete="off" />'
+        f'<div class="gy-search-panel" role="listbox" hidden></div>'
+        f'</form>'
+    )
     return (
         f'{MARK_BEGIN}\n'
-        f'<nav class="gy-topnav" aria-label="Primary"><div class="gy-topnav-inner">'
+        f'<nav class="gy-topnav" aria-label="Primary" data-gy-root="{root}">'
+        f'<div class="gy-topnav-inner">'
         f'<a class="gy-topnav-brand" href="{root}index.html">Gently Yonder</a>'
         f'<div class="gy-topnav-links">{links}</div>'
-        f'</div></nav>\n{MARK_END}'
+        f'{search}'
+        f'</div></nav>\n'
+        f'<script defer src="{root}js/gy-search.js"></script>\n{MARK_END}'
     )
 
 

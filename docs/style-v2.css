@@ -3339,3 +3339,95 @@ section.globe-section #globe-canvas {
 .rs-worry-q { font-size:.88rem; font-weight:600; color:var(--muted); margin:0 0 10px; }
 .rs-worry .rs-chips { justify-content:center; margin:0; }
 .rs-worry-thanks { font-size:.9rem; color:var(--navy); margin:0; }
+
+/* ── Site search (2026-09-13) ────────────────────────────────────────────
+   Static host, so search runs client-side off data/search-index.json.
+   Two surfaces: the nav pill + dropdown on every page, and search.html
+   (results column + destination booking rail). */
+
+/* nav search pill */
+.gy-search-box{position:relative;display:flex;align-items:center;gap:7px;flex:none;
+  margin-left:18px;padding:6px 12px;border:1px solid var(--line,#e6dfd3);border-radius:999px;
+  background:#fff;transition:border-color .25s,box-shadow .25s,width .25s}
+.gy-search-box:focus-within{border-color:#C9A84C;box-shadow:0 0 0 3px rgba(201,168,76,.16)}
+.gy-search-icon{width:15px;height:15px;flex:none;fill:none;stroke:#8b93a3;stroke-width:2;
+  stroke-linecap:round}
+.gy-search-box input{border:0;outline:0;background:transparent;width:132px;
+  font-family:Georgia,serif;font-size:.84rem;color:#172033;transition:width .25s}
+.gy-search-box input::placeholder{color:#9aa2b1}
+.gy-search-box:focus-within input{width:190px}
+.gy-search-box input::-webkit-search-cancel-button{-webkit-appearance:none}
+
+/* dropdown */
+.gy-search-panel{position:absolute;top:calc(100% + 9px);right:0;width:min(390px,86vw);
+  background:#fff;border:1px solid var(--line,#e6dfd3);border-radius:14px;
+  box-shadow:0 18px 46px rgba(23,32,51,.15);overflow:hidden;z-index:1200;max-height:70vh;
+  overflow-y:auto}
+.gy-search-hit{display:block;padding:10px 15px;text-decoration:none;
+  border-bottom:1px solid #f1ece2}
+.gy-search-hit:hover,.gy-search-hit.is-active{background:#faf7f0}
+.gy-search-hit-t{display:block;font-family:Georgia,serif;font-size:.92rem;color:#172033;
+  line-height:1.35}
+.gy-search-hit-c{display:block;font-size:.66rem;letter-spacing:.11em;text-transform:uppercase;
+  color:#C9A84C;margin-top:3px}
+.gy-search-all{display:block;padding:10px 15px;font-size:.78rem;letter-spacing:.06em;
+  text-transform:uppercase;color:#172033;text-decoration:none;background:#f8f4e9;font-weight:700}
+.gy-search-all:hover{color:#C9A84C}
+.gy-search-empty{margin:0;padding:14px 15px;font-size:.86rem;color:var(--muted,#647084)}
+
+/* search page */
+.gy-searchpage{max-width:1160px;margin:0 auto;padding:34px clamp(16px,4vw,34px) 60px}
+.gy-searchpage-eyebrow{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;
+  color:#C9A84C;margin:0 0 8px}
+.gy-searchpage-h1{font-family:Georgia,serif;font-size:clamp(1.7rem,3.6vw,2.4rem);
+  color:#172033;margin:0 0 10px;line-height:1.15}
+.gy-searchpage-sub{max-width:62ch;color:#4a5163;margin:0 0 20px;font-size:1rem}
+.gy-searchpage-form{display:flex;gap:10px;max-width:620px;flex-wrap:wrap}
+.gy-searchpage-input{flex:1 1 260px;padding:14px 18px;font-family:Georgia,serif;font-size:1.02rem;
+  color:#172033;background:#fff;border:1px solid var(--line-dark,#d7cbbb);border-radius:999px;outline:0}
+.gy-searchpage-input:focus{border-color:#C9A84C;box-shadow:0 0 0 3px rgba(201,168,76,.16)}
+.gy-searchpage-btn{padding:14px 26px;border:0;border-radius:999px;background:#172033;color:#F8F4E9;
+  font-family:Georgia,serif;font-size:.95rem;font-weight:700;cursor:pointer;transition:background .25s}
+.gy-searchpage-btn:hover{background:#C9A84C;color:#172033}
+.gy-searchpage-quick{margin:14px 0 0;font-size:.82rem;color:var(--muted,#647084)}
+.gy-searchpage-quick a{display:inline-block;margin:4px 4px 0 0;padding:4px 11px;border-radius:999px;
+  border:1px solid var(--line,#e6dfd3);color:#172033;text-decoration:none;background:#fff}
+.gy-searchpage-quick a:hover{border-color:#C9A84C;color:#C9A84C}
+
+.gy-searchpage-body{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:34px;
+  margin-top:30px;align-items:start}
+.gy-results-count{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted,#647084);margin:0 0 14px}
+.gy-results-hint{color:var(--muted,#647084);font-size:.96rem;margin:0;padding:18px 0}
+.gy-result{padding:16px 0;border-bottom:1px solid var(--line,#e6dfd3)}
+.gy-result-t{font-family:Georgia,serif;font-size:1.14rem;color:#172033;text-decoration:none;
+  line-height:1.3;display:inline-block}
+.gy-result-t:hover{color:#C9A84C}
+.gy-result-c{font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:#C9A84C;
+  margin:5px 0 6px}
+.gy-result-d{margin:0;color:#4a5163;font-size:.93rem;line-height:1.55}
+
+/* booking rail */
+.gy-rail{position:sticky;top:76px;display:flex;flex-direction:column;gap:16px}
+.gy-rail-card{border:1px solid var(--line,#e6dfd3);border-radius:16px;background:#fff;
+  padding:16px 17px;box-shadow:var(--shadow-soft,0 10px 30px rgba(23,32,51,.07))}
+.gy-rail-h{font-family:Georgia,serif;font-size:1rem;color:#172033;margin:0 0 11px}
+.gy-rail-frame{min-height:430px}
+.gy-rail-frame iframe{width:100%!important;border:0}
+.gy-rail-links{list-style:none;margin:0;padding:0}
+.gy-rail-links li{border-top:1px solid #f1ece2}
+.gy-rail-links li:first-child{border-top:0}
+.gy-rail-links a{display:block;padding:9px 0;font-size:.88rem;color:#172033;text-decoration:none;
+  line-height:1.4}
+.gy-rail-links a:hover{color:#C9A84C}
+.gy-rail-note{margin:11px 0 0;font-size:.68rem;color:var(--muted,#647084);line-height:1.45}
+
+@media (max-width:900px){
+  .gy-searchpage-body{grid-template-columns:1fr;gap:26px}
+  .gy-rail{position:static}
+}
+@media (max-width:680px){
+  .gy-search-box{margin:0;width:100%}
+  .gy-search-box input,.gy-search-box:focus-within input{width:100%}
+  .gy-search-panel{right:auto;left:0;width:100%}
+}

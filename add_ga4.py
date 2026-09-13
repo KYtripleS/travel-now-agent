@@ -58,6 +58,11 @@ def html_files():
                 continue
             if p.name.startswith("google") and len(p.name) > 15:  # googleXXXXX.html
                 continue
+            # /go/* are meta-refresh + location.replace stubs for X posts. They
+            # redirect before a pageview can reliably fire, so tagging them adds
+            # unreliable noise to GA4 rather than useful click data.
+            if "go" in p.parts[:-1]:
+                continue
             yield p
 
 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Search | Gently Yonder</title>
+<meta name="description" content="Search Gently Yonder's travel-preparation guides by destination or topic — eSIM and connectivity, insurance, packing, entry rules, budgets and city guides." />
+<link rel="canonical" href="https://gentlyyonder.com/search.html" />
+<!-- Internal search results are thin/duplicative by nature: keep them out of
+     the index but let the crawler follow through to the guides themselves. -->
+<meta name="robots" content="noindex, follow" />
+<link rel="stylesheet" href="style-v2.css" />
+  <!-- BEGIN GA4 (managed by add_ga4.py) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  gtag('config', 'G-JRGK9CN3B1', gyCfg);
+</script>
+<!-- END GA4 -->
+<!-- BEGIN favicon (managed by add_favicon.py) -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48"/>
+<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<!-- END favicon -->
+</head>
+<body>
+<!-- BEGIN global-nav (managed by add_global_nav.py) -->
+<nav class="gy-topnav" aria-label="Primary" data-gy-root=""><div class="gy-topnav-inner"><a class="gy-topnav-brand" href="index.html">Gently Yonder</a><div class="gy-topnav-links"><a href="index.html#guides">Guides</a><a href="index.html#profiles">Destinations</a><a href="articles/esim-activation-and-preparation.html">eSIM &amp; Tech</a><a href="articles/travel-insurance-compared.html">Insurance</a><a href="tools/esim-finder.html">Tools</a><a href="gear.html">Gear</a><a href="about.html">About</a></div><form class="gy-search-box" role="search" action="search.html" method="get"><svg class="gy-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><input type="search" name="q" placeholder="Search guides&hellip;" aria-label="Search guides" autocomplete="off" /><div class="gy-search-panel" role="listbox" hidden></div></form></div></nav>
+<script defer src="js/gy-search.js"></script>
+<!-- END global-nav -->
+<main class="gy-searchpage" data-gy-search-page>
+  <header class="gy-searchpage-head">
+    <p class="gy-searchpage-eyebrow">Gently Yonder</p>
+    <h1 class="gy-searchpage-h1">Search the guides</h1>
+    <p class="gy-searchpage-sub">169 travel-preparation guides. Search by destination
+      &mdash; Sydney, Tokyo, Bangkok &mdash; or by what you need to sort out: eSIM,
+      insurance, packing, entry rules, budget.</p>
+    <form class="gy-searchpage-form" role="search">
+      <input class="gy-searchpage-input" type="search" name="q"
+             placeholder="Where are you going?" aria-label="Search guides"
+             autocomplete="off" autofocus />
+      <button class="gy-searchpage-btn" type="submit">Search</button>
+    </form>
+    <p class="gy-searchpage-quick">
+      Popular:
+      <a href="search.html?q=tokyo">Tokyo</a>
+      <a href="search.html?q=sydney">Sydney</a>
+      <a href="search.html?q=seoul">Seoul</a>
+      <a href="search.html?q=bangkok">Bangkok</a>
+      <a href="search.html?q=esim">eSIM</a>
+      <a href="search.html?q=insurance">Insurance</a>
+      <a href="search.html?q=packing">Packing</a>
+    </p>
+  </header>
+
+  <div class="gy-searchpage-body">
+    <section class="gy-results-col" aria-label="Search results">
+      <p class="gy-results-count" aria-live="polite"></p>
+      <div class="gy-results">
+        <p class="gy-results-hint">Loading the index&hellip;</p>
+      </div>
+    </section>
+    <aside class="gy-rail" aria-label="Booking options"></aside>
+  </div>
+</main>
+
+<footer>
+  <p>Gently Yonder is an independent travel editorial project.
+    <a href="about.html">About</a> &middot; <a href="methodology.html">Methodology</a> &middot;
+    <a href="editors.html">Editors</a> &middot; <a href="privacy.html">Privacy</a> &middot;
+    <a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a></p>
+</footer>
+<script defer src="js/gy-reveal.js"></script>
+</body>
+</html>
