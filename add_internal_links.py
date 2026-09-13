@@ -279,6 +279,26 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Do \"Unlimited\" Travel eSIMs Really Give You Unlimited Data?",
         "Unlimited data, not unlimited speed — the daily high-speed cap, the throttle floor, and when \"unlimited\" is smart vs a rip-off.",
     ),
+    "articles/taipei-first-timers-guide.html": (
+        "Taipei for First-Timers",
+        "A calm orientation to Taipei \u2014 neighbourhoods, the MRT, night markets and a first-visit rhythm.",
+    ),
+    "articles/best-esim-taiwan-2026.html": (
+        "Best eSIM for Taiwan (2026)",
+        "Coverage across Taipei and the island, how much data you need, and the pick for a short trip.",
+    ),
+    "articles/getting-around-taiwan.html": (
+        "Getting Around Taiwan",
+        "The EasyCard, the Taipei MRT, buses and YouBike, and the airport run \u2014 how the island actually connects.",
+    ),
+    "articles/korail-pass-worth-it-2026.html": (
+        "Is the KORAIL Pass Worth It?",
+        "Passes went flexible in 2026, but a Seoul\u2013Busan round trip is cheaper on tickets \u2014 and the pass excludes SRT, the cheaper operator.",
+    ),
+    "articles/taiwan-high-speed-rail-pass-worth-it.html": (
+        "Taiwan High Speed Rail: Which Discount?",
+        "Three discounts that don't stack \u2014 and the 3-Day Pass usually loses to Early Bird fares and the buy-one-get-one pair.",
+    ),
     "articles/europe-rail-pass-worth-it-2026.html": (
         "Europe Rail Passes in 2026",
         "Eurail and Interrail merged in September 2026 \u2014 and compulsory reservations, not the pass price, decide whether it pays.",
@@ -1015,6 +1035,22 @@ LINKS: dict[str, list[str]] = {
         "articles/things-to-do-in-sydney.html",
         "articles/sydney-first-timers-guide.html",
         "countries/australia/index.html",
+    ],
+    "articles/korail-pass-worth-it-2026.html": [
+        "articles/how-much-does-south-korea-cost.html",
+        "articles/do-you-need-keta-south-korea.html",
+        "articles/best-esim-south-korea-2026.html",
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/europe-rail-pass-worth-it-2026.html",
+        "articles/seoul-first-timers-guide.html",
+    ],
+    "articles/taiwan-high-speed-rail-pass-worth-it.html": [
+        "articles/getting-around-taiwan.html",
+        "articles/taipei-first-timers-guide.html",
+        "articles/best-esim-taiwan-2026.html",
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/korail-pass-worth-it-2026.html",
+        "articles/europe-rail-pass-worth-it-2026.html",
     ],
     "articles/europe-rail-pass-worth-it-2026.html": [
         "articles/jr-pass-worth-it-2026.html",
