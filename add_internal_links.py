@@ -279,6 +279,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Do \"Unlimited\" Travel eSIMs Really Give You Unlimited Data?",
         "Unlimited data, not unlimited speed — the daily high-speed cap, the throttle floor, and when \"unlimited\" is smart vs a rip-off.",
     ),
+    "articles/europe-rail-pass-worth-it-2026.html": (
+        "Europe Rail Passes in 2026",
+        "Eurail and Interrail merged in September 2026 \u2014 and compulsory reservations, not the pass price, decide whether it pays.",
+    ),
     "articles/how-to-book-international-flights.html": (
         "Booking International Flights: What the Price Doesn't Tell You",
         "One ticket or two, where you actually clear immigration, airside transit vs entry, and why a companion's passport can set the timetable.",
@@ -1011,6 +1015,14 @@ LINKS: dict[str, list[str]] = {
         "articles/things-to-do-in-sydney.html",
         "articles/sydney-first-timers-guide.html",
         "countries/australia/index.html",
+    ],
+    "articles/europe-rail-pass-worth-it-2026.html": [
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/japan-city-sightseeing-passes-worth-it.html",
+        "articles/how-to-book-international-flights.html",
+        "articles/how-to-save-money-on-international-travel.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/is-travel-insurance-a-rip-off.html",
     ],
     "articles/how-to-book-international-flights.html": [
         "articles/how-to-save-money-on-international-travel.html",
