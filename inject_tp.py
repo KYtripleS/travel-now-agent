@@ -34,6 +34,9 @@ TPX = {
     "saily":          "https://saily.tpx.lu/hk5XU6Sm",
     "ekta":           "https://ektatraveling.tpx.lu/LXmPxVUQ",
     "kkday":          "https://kkday.tpx.lu/99SKEU6d",
+    # WeGoTrip self-guided audio tours — highest reward rate we carry
+    # (up to ~41.5% vs Klook 2-5%). Only use on cities with verified tours.
+    "wegotrip":       "https://wegotrip.tpx.lu/DCr0TOXx",
 }
 LABEL = {
     "aviasales":      "Compare current flight fares on Aviasales &rarr;",
@@ -44,6 +47,7 @@ LABEL = {
     "saily":          "Set up a travel eSIM with Saily &rarr;",
     "ekta":           "Compare travel insurance with EKTA &rarr;",
     "kkday":          "Book local experiences on KKday &rarr;",
+    "wegotrip":       "Browse self-guided audio tours on WeGoTrip &rarr;",
 }
 NOTE = ("Affiliate links &mdash; Gently Yonder may earn a commission at no extra "
         "cost to you. See our full disclosure below.")
@@ -82,49 +86,71 @@ REGISTRY: dict[str, str] = {
         "Getting to Tokyo &amp; things to do",
         "Self-guided tours you can start the moment you land, plus fares, tickets, "
         "and an airport pickup for a smooth arrival.",
-        "1850147", ["aviasales", "tiqets", "welcomepickups"]),
+        "1850147", ["wegotrip", "aviasales", "tiqets", "welcomepickups"]),
+
+    # ---- Tokyo widget gaps filled (2026-09-13). city_id 1850147 re-verified
+    # by test-render on localhost: renders real tours. ----
+    "articles/day-trips-from-tokyo.html": hub(
+        "Day trips out of Tokyo",
+        "Self-guided audio tours for the day-trip towns, plus rail fares and "
+        "tickets so a day out needs no planning of its own.",
+        "1850147", ["wegotrip", "klook", "tiqets"]),
+    "articles/tokyo-itinerary-5-days.html": hub(
+        "Fill the five days",
+        "Self-guided tours you can slot into any afternoon, plus attraction "
+        "tickets and an airport pickup for the arrival day.",
+        "1850147", ["wegotrip", "tiqets", "welcomepickups"]),
+    "articles/shinjuku-neighbourhood-guide.html": hub(
+        "Explore Shinjuku &amp; beyond",
+        "Self-guided walks through the district, plus tickets and day-luggage "
+        "storage for the hours before check-in.",
+        "1850147", ["wegotrip", "tiqets", "radicalstorage"]),
+    # ---- Okinawa: WeGoTrip has NO tours for Naha (1856035) or Okinawa-shi
+    # (1854345) — both test-rendered to the "Ooops, no tours" empty state on
+    # 2026-09-13, so NO hub() here. Text CTA on platforms that do cover it. ----
+    "articles/okinawa-first-timers-guide.html": cta(
+        "Planning Okinawa?", ["klook", "kkday", "saily"]),
+    "articles/things-to-do-in-okinawa.html": cta(
+        "Book the Okinawa highlights", ["klook", "kkday", "tiqets"]),
     "countries/australia/index.html": hub(
         "Getting to Australia &amp; things to do",
         "Sydney-based self-guided tours, plus current fares and local experiences "
         "for the wider trip.",
-        "2147714", ["aviasales", "klook", "welcomepickups"]),
+        "2147714", ["wegotrip", "aviasales", "klook", "welcomepickups"]),
 
     # ---- country / city guides (tours + CTAs) ----
     "countries/vietnam/index.html": hub(
         "Tours &amp; getting to Vietnam",
         "Self-guided Hanoi tours, plus current fares, local experiences, and an "
         "airport pickup for a smooth arrival.",
-        "1581130", ["aviasales", "klook", "welcomepickups"]),
+        "1581130", ["wegotrip", "aviasales", "klook", "welcomepickups"]),
     "articles/south-korea-country-profile.html": hub(
         "Tours &amp; getting to Seoul",
         "Self-guided Seoul tours, plus current fares, local experiences, and an "
         "airport pickup for a smooth arrival.",
-        "1835848", ["aviasales", "klook", "welcomepickups"]),
+        "1835848", ["wegotrip", "aviasales", "klook", "welcomepickups"]),
 
     # ---- itineraries & seasonal (high booking intent) ----
-    "articles/tokyo-itinerary-5-days.html": cta(
-        "Ready to book this Tokyo trip?",
-        ["aviasales", "tiqets", "welcomepickups"]),
     "articles/osaka-3-day-guide.html": hub(
         "Tours &amp; getting to Osaka",
         "Self-guided Osaka tours you can start the moment you land, plus fares, "
         "tickets, and local experiences.",
-        "1853909", ["aviasales", "tiqets", "kkday"]),
+        "1853909", ["wegotrip", "aviasales", "tiqets", "kkday"]),
     "articles/three-slow-days-in-kyoto.html": hub(
         "Tours &amp; getting to Kyoto",
         "Self-guided Kyoto walks you can start on arrival, plus fares, tickets, and a "
         "smooth airport pickup.",
-        "1857910", ["aviasales", "tiqets", "kkday"]),
+        "1857910", ["wegotrip", "aviasales", "tiqets", "kkday"]),
     "articles/kyoto-autumn-2026.html": hub(
         "Tours &amp; getting to Kyoto",
         "Self-guided Kyoto walks you can start on arrival, plus current fares and "
         "skip-the-line tickets.",
-        "1857910", ["aviasales", "tiqets"]),
+        "1857910", ["wegotrip", "aviasales", "tiqets"]),
     "articles/seoul-itinerary-3-days.html": hub(
         "Tours &amp; getting to Seoul",
         "Self-guided Seoul tours you can start on arrival, plus fares, tickets, and "
         "local experiences.",
-        "1835848", ["aviasales", "tiqets", "klook"]),
+        "1835848", ["wegotrip", "aviasales", "tiqets", "klook"]),
     "articles/japan-autumn-2026.html": cta(
         "Planning your Japan autumn trip",
         ["aviasales", "tiqets"]),
@@ -132,7 +158,7 @@ REGISTRY: dict[str, str] = {
         "When you're ready to book Japan",
         "Once your season is chosen: self-guided Tokyo walks, teamLab and "
         "Shinkansen bookings, plus current fares and skip-the-line tickets.",
-        "1850147", ["aviasales", "tiqets", "klook"]),
+        "1850147", ["wegotrip", "aviasales", "tiqets", "klook"]),
     "articles/best-time-to-visit-vietnam.html": cta(
         "When you're ready to book Vietnam",
         ["aviasales", "klook"]),
@@ -202,217 +228,215 @@ REGISTRY: dict[str, str] = {
         "Building your Japan budget",
         "Price the big lines against your plan — current fares, tours and rail "
         "passes, plus the small fixed costs worth locking in early.",
-        "1850147", ["aviasales", "saily", "ekta", "klook"]),
-    "articles/shinjuku-neighbourhood-guide.html": cta(
-        "Planning your Shinjuku visit", ["tiqets", "klook", "welcomepickups", "aviasales"]),
+        "1850147", ["wegotrip", "aviasales", "saily", "ekta", "klook"]),
     "articles/gion-kyoto-neighbourhood-guide.html": hub(
         "Experiencing Gion respectfully",
         "Hosted tea ceremonies, self-guided Kyoto walks, and properly arranged "
         "cultural evenings — the welcome way into the district.",
-        "1857910", ["kkday", "klook", "tiqets", "aviasales"]),
+        "1857910", ["wegotrip", "kkday", "klook", "tiqets", "aviasales"]),
 
     # ---- Taiwan (2026-07-10) — Taipei city_id 1668341 ----
     "articles/taipei-first-timers-guide.html": hub(
         "Tours &amp; tickets in Taipei",
         "Self-guided Taipei tours you can start on arrival, plus tickets, an eSIM, and a smooth airport pickup.",
-        "1668341", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1668341", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/getting-around-taiwan.html": hub(
         "Tours &amp; tickets in Taiwan",
         "Book the high-speed rail, day tours, and skip-the-line tickets in English before you go.",
-        "1668341", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1668341", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-taipei.html": hub(
         "Tours &amp; tickets in Taipei",
         "Self-guided Taipei tours and skip-the-line tickets for Taipei 101, the temples, and the markets.",
-        "1668341", ["klook", "kkday", "tiqets", "aviasales"]),
+        "1668341", ["wegotrip", "klook", "kkday", "tiqets", "aviasales"]),
 
     # ---- Australia — Sydney (2026-07-10) — city_id 2147714 ----
     "articles/sydney-first-timers-guide.html": hub(
         "Tours &amp; tickets in Sydney",
         "Self-guided Sydney tours you can start on arrival, plus current fares, tickets, and an airport pickup.",
-        "2147714", ["aviasales", "klook", "saily", "welcomepickups"]),
+        "2147714", ["wegotrip", "aviasales", "klook", "saily", "welcomepickups"]),
     "articles/getting-around-sydney.html": hub(
         "Tours &amp; getting around Sydney",
         "Book harbour experiences and skip-the-line tickets, plus an easy airport pickup for arrival.",
-        "2147714", ["welcomepickups", "klook", "saily", "aviasales"]),
+        "2147714", ["wegotrip", "welcomepickups", "klook", "saily", "aviasales"]),
     "articles/things-to-do-in-sydney.html": hub(
         "Tours &amp; tickets in Sydney",
         "Self-guided Sydney tours and tickets for the Opera House, the harbour, and the coast.",
-        "2147714", ["klook", "tiqets", "aviasales", "welcomepickups"]),
+        "2147714", ["wegotrip", "klook", "tiqets", "aviasales", "welcomepickups"]),
 
     # ---- Australia — Melbourne (2026-07-10) — city_id 2158177 ----
     "articles/melbourne-first-timers-guide.html": hub(
         "Tours &amp; tickets in Melbourne",
         "Self-guided Melbourne tours you can start on arrival, plus fares, tickets, and an airport pickup.",
-        "2158177", ["aviasales", "klook", "saily", "welcomepickups"]),
+        "2158177", ["wegotrip", "aviasales", "klook", "saily", "welcomepickups"]),
     "articles/getting-around-melbourne.html": hub(
         "Tours &amp; getting around Melbourne",
         "Book day trips and skip-the-line tickets, plus an easy airport transfer for arrival.",
-        "2158177", ["welcomepickups", "klook", "saily", "aviasales"]),
+        "2158177", ["wegotrip", "welcomepickups", "klook", "saily", "aviasales"]),
     "articles/things-to-do-in-melbourne.html": hub(
         "Tours &amp; tickets in Melbourne",
         "Self-guided Melbourne tours, gallery tickets, and Great Ocean Road day tours.",
-        "2158177", ["klook", "tiqets", "kkday", "aviasales"]),
+        "2158177", ["wegotrip", "klook", "tiqets", "kkday", "aviasales"]),
 
     # ---- Australia — Perth (2026-07-10) — city_id 2063523 ----
     "articles/perth-first-timers-guide.html": hub(
         "Tours &amp; tickets in Perth",
         "Self-guided Perth tours you can start on arrival, plus fares, tickets, and an airport pickup.",
-        "2063523", ["aviasales", "klook", "saily", "welcomepickups"]),
+        "2063523", ["wegotrip", "aviasales", "klook", "saily", "welcomepickups"]),
     "articles/getting-around-perth.html": hub(
         "Tours &amp; getting around Perth",
         "Book the Rottnest ferry, day tours, and tickets, plus an easy airport transfer for arrival.",
-        "2063523", ["welcomepickups", "klook", "saily", "aviasales"]),
+        "2063523", ["wegotrip", "welcomepickups", "klook", "saily", "aviasales"]),
     "articles/things-to-do-in-perth.html": hub(
         "Tours &amp; tickets in Perth",
         "Self-guided Perth tours and tickets, plus Rottnest Island ferry-and-tour packages.",
-        "2063523", ["klook", "tiqets", "kkday", "aviasales"]),
+        "2063523", ["wegotrip", "klook", "tiqets", "kkday", "aviasales"]),
 
     # ---- SE Asia (2026-07-11) ----
     "articles/singapore-first-timers-guide.html": hub(
         "Tours &amp; tickets in Singapore",
         "Self-guided Singapore tours you can start on arrival, plus fares, tickets, and an airport pickup.",
-        "1880252", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1880252", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/bangkok-first-timers-guide.html": hub(
         "Tours &amp; tickets in Bangkok",
         "Self-guided Bangkok tours, temple and market tickets, an eSIM, and an airport pickup.",
-        "1609350", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1609350", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/bali-first-timers-guide.html": hub(
         "Tours &amp; tickets in Bali",
         "Self-guided Bali tours, temple tickets, an eSIM, and an airport transfer for arrival.",
-        "1645528", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1645528", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
 
     # ---- Vietnam expansion (2026-07-11) ----
     "articles/hanoi-first-timers-guide.html": hub(
         "Tours &amp; tickets in Hanoi",
         "Self-guided Hanoi tours, plus Ha Long Bay and Ninh Binh day trips, an eSIM, and an airport pickup.",
-        "1581130", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1581130", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/ho-chi-minh-city-first-timers-guide.html": hub(
         "Tours &amp; tickets in Ho Chi Minh City",
         "Self-guided Saigon tours, plus Cu Chi Tunnels and Mekong Delta day trips, an eSIM, and an airport pickup.",
-        "1566083", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1566083", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/hoi-an-first-timers-guide.html": hub(
         "Tours &amp; tickets in Hoi An",
         "Self-guided Hoi An tours, a My Son day trip, an eSIM, and an airport transfer from Da Nang.",
-        "1580240", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1580240", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
 
     # ---- Broad expansion (2026-07-11) ----
     "articles/kuala-lumpur-first-timers-guide.html": hub(
         "Tours &amp; tickets in Kuala Lumpur",
         "Self-guided KL tours, Batu Caves and Genting day trips, an eSIM, and an airport transfer.",
-        "1735161", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1735161", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/manila-first-timers-guide.html": hub(
         "Tours &amp; tickets in Manila",
         "Self-guided Manila tours, Corregidor and Tagaytay day trips, an eSIM, and an airport pickup.",
-        "1701668", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1701668", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/cebu-first-timers-guide.html": hub(
         "Tours &amp; tickets in Cebu",
         "Island-hopping, canyoneering and city tours in Cebu, plus an eSIM and an airport pickup.",
-        "1717512", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1717512", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/chiang-mai-first-timers-guide.html": hub(
         "Tours &amp; tickets in Chiang Mai",
         "Self-guided Chiang Mai tours, ethical elephant sanctuaries, a Doi Inthanon day trip, and an eSIM.",
-        "1153671", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1153671", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/phuket-first-timers-guide.html": hub(
         "Tours &amp; tickets in Phuket",
         "Phi Phi and Phang Nga boat trips, island tours, an eSIM, and an airport transfer in Phuket.",
-        "1151254", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1151254", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/hong-kong-first-timers-guide.html": hub(
         "Tours &amp; tickets in Hong Kong",
         "The Peak Tram, Ngong Ping 360 and Big Buddha, self-guided city walks, an eSIM, and an airport transfer.",
-        "1819729", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1819729", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/seoul-first-timers-guide.html": hub(
         "Tours &amp; tickets in Seoul",
         "Palace and Gangnam audio walks, a DMZ day trip, T-money-friendly attractions, an eSIM, and an airport pickup.",
-        "1835848", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1835848", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/osaka-first-timers-guide.html": hub(
         "Tours &amp; tickets in Osaka",
         "Self-guided Osaka walks, Universal Studios and Kaiyukan tickets, a Nara day trip, an eSIM, and an airport transfer.",
-        "1853909", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1853909", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/penang-first-timers-guide.html": hub(
         "Tours &amp; tickets in Penang",
         "George Town heritage walks, Penang Hill and Kek Lok Si, a street-food crawl, an eSIM, and an airport pickup.",
-        "1735106", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1735106", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/yogyakarta-first-timers-guide.html": hub(
         "Tours &amp; tickets in Yogyakarta",
         "Borobudur sunrise and Prambanan tours, a Merapi jeep trip, batik workshops, an eSIM, and an airport pickup.",
-        "1621177", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1621177", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-tokyo.html": hub(
         "Tours &amp; tickets in Tokyo",
         "teamLab and Skytree tickets, self-guided city walks, Kamakura and Mt Fuji day trips, an eSIM, and an airport transfer.",
-        "1850147", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1850147", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-kyoto.html": hub(
         "Tours &amp; tickets in Kyoto",
         "Fushimi Inari and Arashiyama tours, tea ceremonies, kimono rental, a Nara day trip, an eSIM, and an airport transfer.",
-        "1857910", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1857910", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-bangkok.html": hub(
         "Tours &amp; tickets in Bangkok",
         "Grand Palace and temple tours, canal longtail trips, floating-market and Ayutthaya day tours, an eSIM, and an airport transfer.",
-        "1609350", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1609350", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-seoul.html": hub(
         "Tours &amp; tickets in Seoul",
         "Palace and Gangnam audio walks, a DMZ day trip, T-money-friendly attractions, an eSIM, and an airport pickup.",
-        "1835848", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1835848", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-osaka.html": hub(
         "Tours &amp; tickets in Osaka",
         "Self-guided Osaka walks, Universal Studios and Kaiyukan tickets, a Nara day trip, an eSIM, and an airport transfer.",
-        "1853909", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1853909", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-singapore.html": hub(
         "Tours &amp; tickets in Singapore",
         "Gardens by the Bay and observation-deck tickets, Sentosa passes, self-guided walks, an eSIM, and an airport transfer.",
-        "1880252", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1880252", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-bali.html": hub(
         "Tours &amp; tickets in Bali",
         "Nusa Penida boat trips, a Mount Batur sunrise trek, temple and rice-terrace tours, an eSIM, and an airport pickup.",
-        "1645528", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1645528", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-hong-kong.html": hub(
         "Tours &amp; tickets in Hong Kong",
         "The Peak Tram, Ngong Ping 360 and Big Buddha, self-guided walks, an eSIM, and an airport transfer.",
-        "1819729", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1819729", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-hanoi.html": hub(
         "Tours &amp; tickets in Hanoi",
         "Ha Long Bay and Ninh Binh day trips, self-guided Old Quarter walks, an eSIM, and an airport pickup.",
-        "1581130", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1581130", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-ho-chi-minh-city.html": hub(
         "Tours &amp; tickets in Ho Chi Minh City",
         "Cu Chi Tunnels and Mekong Delta day tours, city walks, an eSIM, and an airport pickup.",
-        "1566083", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1566083", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-kuala-lumpur.html": hub(
         "Tours &amp; tickets in Kuala Lumpur",
         "Petronas skybridge, Batu Caves and Genting day trips, self-guided walks, an eSIM, and an airport transfer.",
-        "1735161", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1735161", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-manila.html": hub(
         "Tours &amp; tickets in Manila",
         "Intramuros walking tours, Corregidor and Tagaytay day trips, an eSIM, and an airport pickup.",
-        "1701668", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1701668", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-chiang-mai.html": hub(
         "Tours &amp; tickets in Chiang Mai",
         "Ethical elephant sanctuaries, a Doi Inthanon day trip, self-guided walks, an eSIM, and an airport pickup.",
-        "1153671", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1153671", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-phuket.html": hub(
         "Tours &amp; tickets in Phuket",
         "Phi Phi and Phang Nga boat trips, island tours, an eSIM, and an airport transfer in Phuket.",
-        "1151254", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1151254", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     # ---- itineraries + packing (B wave) ----
     "articles/japan-7-day-itinerary.html": hub(
         "Tours &amp; tickets for your Japan trip",
         "teamLab and Shinkansen bookings, self-guided city walks, day trips, an eSIM, and an airport transfer.",
-        "1850147", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1850147", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/thailand-10-day-itinerary.html": hub(
         "Tours &amp; tickets for your Thailand trip",
         "Bangkok temple tours, Chiang Mai sanctuaries, island boats, internal flights, an eSIM, and an airport transfer.",
-        "1609350", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1609350", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/bali-7-day-itinerary.html": hub(
         "Tours &amp; tickets for your Bali trip",
         "Nusa Penida boats, a Mount Batur trek, temple and rice-terrace tours, an eSIM, and an airport pickup.",
-        "1645528", ["klook", "kkday", "saily", "welcomepickups"]),
+        "1645528", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
     "articles/what-to-pack-for-southeast-asia.html": hub(
         "Sort the essentials before you fly",
         "A travel eSIM for arrival, airport transfers, and the tours worth booking ahead across Southeast Asia.",
-        "1609350", ["saily", "klook", "welcomepickups"]),
+        "1609350", ["wegotrip", "saily", "klook", "welcomepickups"]),
     "articles/what-to-pack-for-japan.html": hub(
         "Sort the essentials before you fly",
         "A travel eSIM for arrival, self-guided tours, and the tickets worth booking ahead for Japan.",
-        "1850147", ["saily", "klook", "welcomepickups"]),
+        "1850147", ["wegotrip", "saily", "klook", "welcomepickups"]),
 }
 
 
