@@ -291,6 +291,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Getting Around Taiwan",
         "The EasyCard, the Taipei MRT, buses and YouBike, and the airport run \u2014 how the island actually connects.",
     ),
+    "articles/where-to-book-sydney-harbour-cruise.html": (
+        "Where to Book a Sydney Harbour Cruise",
+        "Klook, Viator or GetYourGuide \u2014 the answer changes by cruise type, with a verdict table for whale, dinner and sunset.",
+    ),
     "articles/korail-pass-worth-it-2026.html": (
         "Is the KORAIL Pass Worth It?",
         "Passes went flexible in 2026, but a Seoul\u2013Busan round trip is cheaper on tickets \u2014 and the pass excludes SRT, the cheaper operator.",
@@ -1035,6 +1039,14 @@ LINKS: dict[str, list[str]] = {
         "articles/things-to-do-in-sydney.html",
         "articles/sydney-first-timers-guide.html",
         "countries/australia/index.html",
+    ],
+    "articles/where-to-book-sydney-harbour-cruise.html": [
+        "articles/sydney-harbour-cruises-guide.html",
+        "articles/things-to-do-in-sydney.html",
+        "articles/getting-around-sydney.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/sydney-first-timers-guide.html",
+        "articles/how-to-save-money-on-international-travel.html",
     ],
     "articles/korail-pass-worth-it-2026.html": [
         "articles/how-much-does-south-korea-cost.html",
