@@ -291,6 +291,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Getting Around Taiwan",
         "The EasyCard, the Taipei MRT, buses and YouBike, and the airport run \u2014 how the island actually connects.",
     ),
+    "articles/where-to-book-jeju-bus-tour.html": (
+        "Where to Book a Jeju Bus Tour",
+        "Klook for small-group English-only tours with no shopping stops; KKday for the widest choice of routes.",
+    ),
     "articles/where-to-book-sydney-harbour-cruise.html": (
         "Where to Book a Sydney Harbour Cruise",
         "Klook, Viator or GetYourGuide \u2014 the answer changes by cruise type, with a verdict table for whale, dinner and sunset.",
@@ -1039,6 +1043,14 @@ LINKS: dict[str, list[str]] = {
         "articles/things-to-do-in-sydney.html",
         "articles/sydney-first-timers-guide.html",
         "countries/australia/index.html",
+    ],
+    "articles/where-to-book-jeju-bus-tour.html": [
+        "articles/how-much-does-south-korea-cost.html",
+        "articles/do-you-need-keta-south-korea.html",
+        "articles/best-esim-south-korea-2026.html",
+        "articles/korail-pass-worth-it-2026.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/where-to-book-sydney-harbour-cruise.html",
     ],
     "articles/where-to-book-sydney-harbour-cruise.html": [
         "articles/sydney-harbour-cruises-guide.html",
