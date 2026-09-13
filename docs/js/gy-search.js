@@ -119,6 +119,7 @@
     var leaf = segs[segs.length - 1];
     var parent = segs.length > 1 ? segs[segs.length - 2] : '';
     var isHub = leaf === 'index';
+    var matched = 0;
 
     for (var i = 0; i < tokens.length; i++) {
       var t = tokens[i];
@@ -132,9 +133,18 @@
       else if (keys.indexOf(t) !== -1) hit += 2;
       if (cat.indexOf(t) !== -1) hit += 1;
       if (desc.indexOf(t) !== -1) hit += 2;
-      if (!hit) return 0;          // every token must match somewhere
-      total += hit;
+      if (hit) { matched++; total += hit; }
     }
+
+    /* Rank by coverage instead of demanding every word match.
+     * Requiring all tokens meant "tokyo packing" returned nothing even though
+     * the Japan packing guide exists, and any query containing one word we
+     * don't cover ("sydney cruise") went blank. Partial matches now rank below
+     * complete ones rather than disappearing. */
+    if (!matched) return 0;
+    var coverage = matched / tokens.length;
+    total = total * coverage;
+    if (matched === tokens.length) total += 20;
 
     /* whole-query shape: an exact title is almost always what was wanted */
     var flatTitle = title.replace(/[^a-z0-9]+/g, ' ').trim();
@@ -287,6 +297,37 @@
     }
   }
 
+  /* Log the query to GA4 — but only the one the reader settled on.
+   *
+   * run() fires on every debounced keystroke, so logging there directly would
+   * fill the report with prefixes ("s", "sy", "syd") instead of "sydney".
+   * We wait for a real pause, and drop a term that the next one simply extends.
+   *
+   * Two events on purpose: `search` carries the term (needs `search_term`
+   * registered as a custom dimension in GA4 to be queryable), while
+   * `search_no_results` is a distinct event NAME, so zero-result searches —
+   * the most useful signal, since they are a list of guides we haven't written
+   * — can be counted from the built-in eventName dimension with no setup. */
+  var logTimer = null;
+  var lastLogged = '';
+
+  function logSearch(q, n, immediate) {
+    clearTimeout(logTimer);
+    if (!q) return;
+    var send = function () {
+      if (!window.gtag) return;
+      if (q === lastLogged) return;
+      if (lastLogged && q.indexOf(lastLogged) === 0) {
+        /* refinement of what we just logged — replace, don't double-count */
+      }
+      lastLogged = q;
+      window.gtag('event', 'search', { search_term: q, results: n });
+      if (n === 0) window.gtag('event', 'search_no_results', { search_term: q });
+    };
+    if (immediate) send();
+    else logTimer = setTimeout(send, 1200);
+  }
+
   function initPage() {
     var page = document.querySelector('[data-gy-search-page]');
     if (!page) return;
@@ -331,7 +372,7 @@
           var url = q ? '?q=' + encodeURIComponent(q) : location.pathname;
           history.replaceState(null, '', url);
         }
-        if (window.gtag) window.gtag('event', 'search', { search_term: q, results: res.length });
+        logSearch(q, res.length, !push);
       });
     }
 

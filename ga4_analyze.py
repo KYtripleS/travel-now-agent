@@ -129,6 +129,50 @@ def true_reader_sessions(token: str, pid: str, start: str, end: str) -> tuple[in
     return int(t), int(eng)
 
 
+def search_terms(token: str, pid: str, start: str, end: str,
+                 limit: int = 25) -> tuple[str, list[dict]]:
+    """What visitors typed into site search.
+
+    Two possible sources, tried in order:
+
+    1. `customEvent:search_term` — the parameter our own `search` event sends.
+       Richest source (it also covers zero-result queries), but GA4 only exposes
+       an event parameter once it is registered as a custom dimension in the
+       admin UI, and returns HTTP 400 until then.
+    2. `searchTerm` — the built-in dimension, filled by enhanced measurement
+       spotting `?q=` on /search.html. No setup, but it misses refinements typed
+       after the page loads, and carries no result count.
+
+    Returns (source_label, rows). run_report() exits the process on a 400, which
+    is wrong here — an unregistered dimension is an expected state, not a fatal
+    error — so this queries directly.
+    """
+    import requests
+    for dim, label in (("customEvent:search_term", "custom dimension"),
+                       ("searchTerm", "built-in (enhanced measurement)")):
+        body = {
+            "dateRanges": [{"startDate": start, "endDate": end}],
+            "dimensions": [{"name": dim}],
+            "metrics": [{"name": "eventCount"}],
+            "orderBys": [{"metric": {"metricName": "eventCount"}, "desc": True}],
+            "limit": limit,
+        }
+        r = requests.post(API.format(pid=pid),
+                          headers={"Authorization": f"Bearer {token}"},
+                          json=body, timeout=60)
+        if r.status_code == 400:
+            continue  # dimension not registered — try the next source
+        if r.status_code != 200:
+            break
+        rows = [{"dims": [d["value"] for d in row.get("dimensionValues", [])],
+                 "mets": [m["value"] for m in row.get("metricValues", [])]}
+                for row in r.json().get("rows", [])]
+        rows = [r_ for r_ in rows if r_["dims"][0] not in ("", "(not set)")]
+        if rows:
+            return label, rows
+    return "none yet", []
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="GA4 session analysis for Gently Yonder.")
     ap.add_argument("--days", type=int, default=28)
@@ -175,7 +219,7 @@ def main() -> None:
     OUR_EVENTS = ["worry_pick", "ready_toggle", "ready_complete", "ready_dest",
                   "ready_style", "ready_link", "map_country_click",
                   "contribute_click", "affiliate_click", "newsletter_click",
-                  "esim_finder_result"]
+                  "esim_finder_result", "search", "search_no_results"]
     events = run_report(token, pid, dimensions=["eventName"], metrics=["eventCount"],
                         start=s, end=e, limit=200, order_by_metric="eventCount")
     events = [r for r in events if r["dims"][0] in OUR_EVENTS]
@@ -227,6 +271,24 @@ def main() -> None:
             L.append(f"| {r['dims'][0]} | {int(_num(r['mets'][0])):,} |")
     else:
         L.append("_(no custom events in this window yet — instrumentation went live 2026-07-13)_")
+
+    src, terms = search_terms(token, pid, s, e)
+    L.append("\n## 🔎 What visitors searched for")
+    L.append("Site search went live 2026-09-13. Zero-result searches are the most "
+             "actionable line in this whole report: each one is a guide a real "
+             "reader wanted and we do not have.\n")
+    if terms:
+        L.append(f"_Source: {src}_\n")
+        L.append("| Search term | Searches |\n|---|---|")
+        for r in terms:
+            L.append(f"| {r['dims'][0]} | {int(_num(r['mets'][0])):,} |")
+    else:
+        L.append("_No search terms recorded yet._ If this stays empty once people "
+                 "are visibly using search, register **search_term** as a custom "
+                 "dimension in GA4 (Admin -> Custom definitions -> Create custom "
+                 "dimension, scope Event, parameter `search_term`). Until then only "
+                 "the built-in dimension is available, and it misses refinements "
+                 "typed after the page loads.")
 
     L.append("\n## 📈 Daily sessions")
     L.append("| Date | Sessions | Users |\n|---|---|---|")
