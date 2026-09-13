@@ -279,6 +279,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Do \"Unlimited\" Travel eSIMs Really Give You Unlimited Data?",
         "Unlimited data, not unlimited speed — the daily high-speed cap, the throttle floor, and when \"unlimited\" is smart vs a rip-off.",
     ),
+    "articles/how-to-save-money-on-international-travel.html": (
+        "How to Save Money on International Travel",
+        "The seven levers that actually move the number — paying in local currency, eSIM over roaming, flexible dates, and the pass arithmetic.",
+    ),
     "articles/best-esim-south-korea-2026.html": (
         "Best eSIM for South Korea (2026)",
         "How to choose a Korea travel eSIM — coverage, data plans, and the pick for most trips.",
@@ -797,12 +801,12 @@ LINKS: dict[str, list[str]] = {
         "articles/esim-activation-and-preparation.html",
     ],
     "articles/hotel-booking-sites-comparison.html": [
+        "articles/how-to-save-money-on-international-travel.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/travel-insurance-compared.html",
         "countries/japan/index.html",
         "cities/tokyo/index.html",
-        "articles/south-korea-country-profile.html",
     ],
     "articles/south-korea-country-profile.html": [
         "articles/do-you-need-keta-south-korea.html",
@@ -914,9 +918,17 @@ LINKS: dict[str, list[str]] = {
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/esim-vs-physical-sim-card.html",
         "articles/when-to-activate-travel-esim.html",
-        "articles/pocket-wifi-vs-esim.html",
+        "articles/how-to-save-money-on-international-travel.html",
         "articles/best-esim-japan-2026.html",
         "tools/esim-finder.html",
+    ],
+    "articles/how-to-save-money-on-international-travel.html": [
+        "articles/do-unlimited-travel-esims-give-unlimited-data.html",
+        "articles/is-travel-insurance-a-rip-off.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/how-much-does-japan-cost.html",
+        "articles/esim-vs-physical-sim-card.html",
+        "articles/travel-insurance-compared.html",
     ],
     "articles/travel-insurance-south-korea.html": [
         "articles/travel-insurance-compared.html",
@@ -928,9 +940,9 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/how-much-does-south-korea-cost.html": [
         "articles/how-much-does-japan-cost.html",
+        "articles/how-to-save-money-on-international-travel.html",
         "articles/do-you-need-keta-south-korea.html",
         "articles/travel-insurance-south-korea.html",
-        "articles/staying-connected-south-korea.html",
         "articles/best-esim-south-korea-2026.html",
         "articles/seoul-first-timers-guide.html",
     ],
@@ -1132,6 +1144,7 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/how-much-does-japan-cost.html": [
         "articles/how-much-cash-japan.html",
+        "articles/how-to-save-money-on-international-travel.html",
         "articles/is-the-weak-yen-a-bargain-or-trap.html",
         "articles/japan-tourist-taxes-2026.html",
         "articles/japan-tax-free-shopping-2026-changes.html",
