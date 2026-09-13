@@ -37,6 +37,12 @@ TPX = {
     # WeGoTrip self-guided audio tours — highest reward rate we carry
     # (up to ~41.5% vs Klook 2-5%). Only use on cities with verified tours.
     "wegotrip":       "https://wegotrip.tpx.lu/DCr0TOXx",
+    # Go City multi-attraction passes. 90-day cookie + high AOV ($100-300),
+    # but only 28 destinations. Of our cities ONLY Singapore, Hong Kong and
+    # Sydney are covered (verified on gocity.com 2026-09-13) — Japan, Seoul,
+    # Bangkok, Melbourne, Bali, Taipei, KL, Hanoi, Manila are NOT. Never put
+    # this on a city Go City does not serve.
+    "gocity":         "https://gocity.tpx.lu/z5uRRfo8",
 }
 LABEL = {
     "aviasales":      "Compare current flight fares on Aviasales &rarr;",
@@ -48,6 +54,7 @@ LABEL = {
     "ekta":           "Compare travel insurance with EKTA &rarr;",
     "kkday":          "Book local experiences on KKday &rarr;",
     "wegotrip":       "Browse self-guided audio tours on WeGoTrip &rarr;",
+    "gocity":         "Compare multi-attraction passes on Go City &rarr;",
 }
 NOTE = ("Affiliate links &mdash; Gently Yonder may earn a commission at no extra "
         "cost to you. See our full disclosure below.")
@@ -116,7 +123,7 @@ REGISTRY: dict[str, str] = {
         "Getting to Australia &amp; things to do",
         "Sydney-based self-guided tours, plus current fares and local experiences "
         "for the wider trip.",
-        "2147714", ["wegotrip", "aviasales", "klook", "welcomepickups"]),
+        "2147714", ["wegotrip", "aviasales", "klook", "welcomepickups", "gocity",]),
 
     # ---- country / city guides (tours + CTAs) ----
     "countries/vietnam/index.html": hub(
@@ -253,15 +260,15 @@ REGISTRY: dict[str, str] = {
     "articles/sydney-first-timers-guide.html": hub(
         "Tours &amp; tickets in Sydney",
         "Self-guided Sydney tours you can start on arrival, plus current fares, tickets, and an airport pickup.",
-        "2147714", ["wegotrip", "aviasales", "klook", "saily", "welcomepickups"]),
+        "2147714", ["wegotrip", "aviasales", "klook", "saily", "welcomepickups", "gocity",]),
     "articles/getting-around-sydney.html": hub(
         "Tours &amp; getting around Sydney",
         "Book harbour experiences and skip-the-line tickets, plus an easy airport pickup for arrival.",
-        "2147714", ["wegotrip", "welcomepickups", "klook", "saily", "aviasales"]),
+        "2147714", ["wegotrip", "welcomepickups", "klook", "saily", "aviasales", "gocity",]),
     "articles/things-to-do-in-sydney.html": hub(
         "Tours &amp; tickets in Sydney",
         "Self-guided Sydney tours and tickets for the Opera House, the harbour, and the coast.",
-        "2147714", ["wegotrip", "klook", "tiqets", "aviasales", "welcomepickups"]),
+        "2147714", ["wegotrip", "klook", "tiqets", "aviasales", "welcomepickups", "gocity",]),
 
     # ---- Australia — Melbourne (2026-07-10) — city_id 2158177 ----
     "articles/melbourne-first-timers-guide.html": hub(
@@ -295,7 +302,7 @@ REGISTRY: dict[str, str] = {
     "articles/singapore-first-timers-guide.html": hub(
         "Tours &amp; tickets in Singapore",
         "Self-guided Singapore tours you can start on arrival, plus fares, tickets, and an airport pickup.",
-        "1880252", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
+        "1880252", ["wegotrip", "klook", "kkday", "saily", "welcomepickups", "gocity",]),
     "articles/bangkok-first-timers-guide.html": hub(
         "Tours &amp; tickets in Bangkok",
         "Self-guided Bangkok tours, temple and market tickets, an eSIM, and an airport pickup.",
@@ -343,7 +350,7 @@ REGISTRY: dict[str, str] = {
     "articles/hong-kong-first-timers-guide.html": hub(
         "Tours &amp; tickets in Hong Kong",
         "The Peak Tram, Ngong Ping 360 and Big Buddha, self-guided city walks, an eSIM, and an airport transfer.",
-        "1819729", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
+        "1819729", ["wegotrip", "klook", "kkday", "saily", "welcomepickups", "gocity",]),
     "articles/seoul-first-timers-guide.html": hub(
         "Tours &amp; tickets in Seoul",
         "Palace and Gangnam audio walks, a DMZ day trip, T-money-friendly attractions, an eSIM, and an airport pickup.",
@@ -383,7 +390,7 @@ REGISTRY: dict[str, str] = {
     "articles/things-to-do-in-singapore.html": hub(
         "Tours &amp; tickets in Singapore",
         "Gardens by the Bay and observation-deck tickets, Sentosa passes, self-guided walks, an eSIM, and an airport transfer.",
-        "1880252", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
+        "1880252", ["wegotrip", "klook", "kkday", "saily", "welcomepickups", "gocity",]),
     "articles/things-to-do-in-bali.html": hub(
         "Tours &amp; tickets in Bali",
         "Nusa Penida boat trips, a Mount Batur sunrise trek, temple and rice-terrace tours, an eSIM, and an airport pickup.",
@@ -391,7 +398,7 @@ REGISTRY: dict[str, str] = {
     "articles/things-to-do-in-hong-kong.html": hub(
         "Tours &amp; tickets in Hong Kong",
         "The Peak Tram, Ngong Ping 360 and Big Buddha, self-guided walks, an eSIM, and an airport transfer.",
-        "1819729", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
+        "1819729", ["wegotrip", "klook", "kkday", "saily", "welcomepickups", "gocity",]),
     "articles/things-to-do-in-hanoi.html": hub(
         "Tours &amp; tickets in Hanoi",
         "Ha Long Bay and Ninh Binh day trips, self-guided Old Quarter walks, an eSIM, and an airport pickup.",
