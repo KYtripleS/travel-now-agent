@@ -279,6 +279,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Do \"Unlimited\" Travel eSIMs Really Give You Unlimited Data?",
         "Unlimited data, not unlimited speed — the daily high-speed cap, the throttle floor, and when \"unlimited\" is smart vs a rip-off.",
     ),
+    "articles/how-to-book-international-flights.html": (
+        "Booking International Flights: What the Price Doesn't Tell You",
+        "One ticket or two, where you actually clear immigration, airside transit vs entry, and why a companion's passport can set the timetable.",
+    ),
     "articles/how-to-save-money-on-international-travel.html": (
         "How to Save Money on International Travel",
         "The seven levers that actually move the number — paying in local currency, eSIM over roaming, flexible dates, and the pass arithmetic.",
@@ -1007,6 +1011,14 @@ LINKS: dict[str, list[str]] = {
         "articles/things-to-do-in-sydney.html",
         "articles/sydney-first-timers-guide.html",
         "countries/australia/index.html",
+    ],
+    "articles/how-to-book-international-flights.html": [
+        "articles/how-to-save-money-on-international-travel.html",
+        "articles/pre-flight-checklist-48-hours.html",
+        "articles/first-international-trip-checklist.html",
+        "articles/is-travel-insurance-a-rip-off.html",
+        "articles/airport-security-checklist.html",
+        "articles/esim-vs-physical-sim-card.html",
     ],
     "articles/how-to-save-money-on-international-travel.html": [
         "articles/do-unlimited-travel-esims-give-unlimited-data.html",
