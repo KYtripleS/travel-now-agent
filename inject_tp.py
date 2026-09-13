@@ -243,18 +243,15 @@ REGISTRY: dict[str, str] = {
         "1857910", ["wegotrip", "kkday", "klook", "tiqets", "aviasales"]),
 
     # ---- Taiwan (2026-07-10) — Taipei city_id 1668341 ----
-    "articles/taipei-first-timers-guide.html": hub(
+    "articles/taipei-first-timers-guide.html": cta(
         "Tours &amp; tickets in Taipei",
-        "Self-guided Taipei tours you can start on arrival, plus tickets, an eSIM, and a smooth airport pickup.",
-        "1668341", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
-    "articles/getting-around-taiwan.html": hub(
+        ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/getting-around-taiwan.html": cta(
         "Tours &amp; tickets in Taiwan",
-        "Book the high-speed rail, day tours, and skip-the-line tickets in English before you go.",
-        "1668341", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
-    "articles/things-to-do-in-taipei.html": hub(
+        ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-taipei.html": cta(
         "Tours &amp; tickets in Taipei",
-        "Self-guided Taipei tours and skip-the-line tickets for Taipei 101, the temples, and the markets.",
-        "1668341", ["wegotrip", "klook", "kkday", "tiqets", "aviasales"]),
+        ["klook", "kkday", "tiqets", "aviasales"]),
 
     # ---- Australia — Sydney (2026-07-10) — city_id 2147714 ----
     "articles/sydney-first-timers-guide.html": hub(
@@ -285,18 +282,15 @@ REGISTRY: dict[str, str] = {
         "2158177", ["wegotrip", "klook", "tiqets", "kkday", "aviasales"]),
 
     # ---- Australia — Perth (2026-07-10) — city_id 2063523 ----
-    "articles/perth-first-timers-guide.html": hub(
+    "articles/perth-first-timers-guide.html": cta(
         "Tours &amp; tickets in Perth",
-        "Self-guided Perth tours you can start on arrival, plus fares, tickets, and an airport pickup.",
-        "2063523", ["wegotrip", "aviasales", "klook", "saily", "welcomepickups"]),
-    "articles/getting-around-perth.html": hub(
+        ["aviasales", "klook", "saily", "welcomepickups"]),
+    "articles/getting-around-perth.html": cta(
         "Tours &amp; getting around Perth",
-        "Book the Rottnest ferry, day tours, and tickets, plus an easy airport transfer for arrival.",
-        "2063523", ["wegotrip", "welcomepickups", "klook", "saily", "aviasales"]),
-    "articles/things-to-do-in-perth.html": hub(
+        ["welcomepickups", "klook", "saily", "aviasales"]),
+    "articles/things-to-do-in-perth.html": cta(
         "Tours &amp; tickets in Perth",
-        "Self-guided Perth tours and tickets, plus Rottnest Island ferry-and-tour packages.",
-        "2063523", ["wegotrip", "klook", "tiqets", "kkday", "aviasales"]),
+        ["klook", "tiqets", "kkday", "aviasales"]),
 
     # ---- SE Asia (2026-07-11) ----
     "articles/singapore-first-timers-guide.html": hub(
@@ -321,28 +315,24 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Ho Chi Minh City",
         "Self-guided Saigon tours, plus Cu Chi Tunnels and Mekong Delta day trips, an eSIM, and an airport pickup.",
         "1566083", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
-    "articles/hoi-an-first-timers-guide.html": hub(
+    "articles/hoi-an-first-timers-guide.html": cta(
         "Tours &amp; tickets in Hoi An",
-        "Self-guided Hoi An tours, a My Son day trip, an eSIM, and an airport transfer from Da Nang.",
-        "1580240", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
+        ["klook", "kkday", "saily", "welcomepickups"]),
 
     # ---- Broad expansion (2026-07-11) ----
     "articles/kuala-lumpur-first-timers-guide.html": hub(
         "Tours &amp; tickets in Kuala Lumpur",
         "Self-guided KL tours, Batu Caves and Genting day trips, an eSIM, and an airport transfer.",
         "1735161", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
-    "articles/manila-first-timers-guide.html": hub(
+    "articles/manila-first-timers-guide.html": cta(
         "Tours &amp; tickets in Manila",
-        "Self-guided Manila tours, Corregidor and Tagaytay day trips, an eSIM, and an airport pickup.",
-        "1701668", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
-    "articles/cebu-first-timers-guide.html": hub(
+        ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/cebu-first-timers-guide.html": cta(
         "Tours &amp; tickets in Cebu",
-        "Island-hopping, canyoneering and city tours in Cebu, plus an eSIM and an airport pickup.",
-        "1717512", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
-    "articles/chiang-mai-first-timers-guide.html": hub(
+        ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/chiang-mai-first-timers-guide.html": cta(
         "Tours &amp; tickets in Chiang Mai",
-        "Self-guided Chiang Mai tours, ethical elephant sanctuaries, a Doi Inthanon day trip, and an eSIM.",
-        "1153671", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
+        ["klook", "kkday", "saily", "welcomepickups"]),
     "articles/phuket-first-timers-guide.html": hub(
         "Tours &amp; tickets in Phuket",
         "Phi Phi and Phang Nga boat trips, island tours, an eSIM, and an airport transfer in Phuket.",
@@ -363,10 +353,9 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Penang",
         "George Town heritage walks, Penang Hill and Kek Lok Si, a street-food crawl, an eSIM, and an airport pickup.",
         "1735106", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
-    "articles/yogyakarta-first-timers-guide.html": hub(
+    "articles/yogyakarta-first-timers-guide.html": cta(
         "Tours &amp; tickets in Yogyakarta",
-        "Borobudur sunrise and Prambanan tours, a Merapi jeep trip, batik workshops, an eSIM, and an airport pickup.",
-        "1621177", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
+        ["klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-tokyo.html": hub(
         "Tours &amp; tickets in Tokyo",
         "teamLab and Skytree tickets, self-guided city walks, Kamakura and Mt Fuji day trips, an eSIM, and an airport transfer.",
@@ -411,14 +400,12 @@ REGISTRY: dict[str, str] = {
         "Tours &amp; tickets in Kuala Lumpur",
         "Petronas skybridge, Batu Caves and Genting day trips, self-guided walks, an eSIM, and an airport transfer.",
         "1735161", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
-    "articles/things-to-do-in-manila.html": hub(
+    "articles/things-to-do-in-manila.html": cta(
         "Tours &amp; tickets in Manila",
-        "Intramuros walking tours, Corregidor and Tagaytay day trips, an eSIM, and an airport pickup.",
-        "1701668", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
-    "articles/things-to-do-in-chiang-mai.html": hub(
+        ["klook", "kkday", "saily", "welcomepickups"]),
+    "articles/things-to-do-in-chiang-mai.html": cta(
         "Tours &amp; tickets in Chiang Mai",
-        "Ethical elephant sanctuaries, a Doi Inthanon day trip, self-guided walks, an eSIM, and an airport pickup.",
-        "1153671", ["wegotrip", "klook", "kkday", "saily", "welcomepickups"]),
+        ["klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-phuket.html": hub(
         "Tours &amp; tickets in Phuket",
         "Phi Phi and Phang Nga boat trips, island tours, an eSIM, and an airport transfer in Phuket.",

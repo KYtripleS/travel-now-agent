@@ -49,7 +49,12 @@ def block(root: str) -> str:
     # is how the script resolves the index and result links at any nesting depth.
     search = (
         f'<form class="gy-search-box" role="search" action="{root}search.html" method="get">'
-        f'<svg class="gy-search-icon" viewBox="0 0 24 24" aria-hidden="true">'
+        # Size/stroke are set as attributes, not only in CSS: if the stylesheet
+        # is momentarily stale in a browser cache, an unstyled <svg><circle> is
+        # a huge black disc. Attributes make it degrade to a small outline icon.
+        f'<svg class="gy-search-icon" width="15" height="15" viewBox="0 0 24 24" '
+        f'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" '
+        f'aria-hidden="true">'
         f'<circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>'
         f'<input type="search" name="q" placeholder="Search guides&hellip;" '
         f'aria-label="Search guides" autocomplete="off" />'

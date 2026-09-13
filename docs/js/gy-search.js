@@ -20,30 +20,44 @@
   var INDEX_PATH = 'data/search-index.json';
   var MAX_DROPDOWN = 7;
 
-  /* destination -> verified widget config (see header note) */
+  /* destination -> widget config.
+   *
+   * `wegotrip` is set ONLY where the city currently has tours, and `two` says
+   * whether it has enough for a 2-up widget. A city with no tours renders
+   * "Ooops — no tours presented here yet", which is worse than showing nothing,
+   * so those keep their entry (the booking links still say "Book Manila") but
+   * get no widget.
+   *
+   * Inventory drifts — Chiang Mai, Perth, Taipei, Hoi An, Manila, Cebu and
+   * Yogyakarta all had tours in July 2026 and had none by 2026-09-13. RE-CHECK
+   * PERIODICALLY, and never by eye: fetch
+   *   https://wegotrip.com/widgets/?perPage=2&showMore=true&random=true&cityId=<id>
+   * and read "count" out of the embedded __NEXT_DATA__ JSON. 0 = drop it.
+   * Counts below were measured that way on 2026-09-13. */
   var DESTINATIONS = {
-    'tokyo':      { label: 'Tokyo',      wegotrip: '1850147' },
-    'kyoto':      { label: 'Kyoto',      wegotrip: '1857910' },
-    'osaka':      { label: 'Osaka',      wegotrip: '1853909' },
+    'sydney':     { label: 'Sydney',     wegotrip: '2147714', two: true, gocity: true }, // 32
+    'singapore':  { label: 'Singapore',  wegotrip: '1880252', two: true, gocity: true }, // 14
+    'melbourne':  { label: 'Melbourne',  wegotrip: '2158177', two: true },               // 14
+    'tokyo':      { label: 'Tokyo',      wegotrip: '1850147', two: true },               // 9
+    'phuket':     { label: 'Phuket',     wegotrip: '1151254', two: true },               // 8
+    'seoul':      { label: 'Seoul',      wegotrip: '1835848', two: true },               // 6
+    'kuala lumpur': { label: 'Kuala Lumpur', wegotrip: '1735161', two: true },           // 6
+    'bali':       { label: 'Bali',       wegotrip: '1645528', two: true },               // 5
+    'kyoto':      { label: 'Kyoto',      wegotrip: '1857910', two: true },               // 4
+    'bangkok':    { label: 'Bangkok',    wegotrip: '1609350', two: true },               // 4
+    'hong kong':  { label: 'Hong Kong',  wegotrip: '1819729', two: true, gocity: true }, // 3
+    'osaka':      { label: 'Osaka',      wegotrip: '1853909' },                          // 1
+    'hanoi':      { label: 'Hanoi',      wegotrip: '1581130' },                          // 1
+    'penang':     { label: 'Penang',     wegotrip: '1735106' },                          // 1
+    /* no tours as of 2026-09-13 — links only, no widget */
     'okinawa':    { label: 'Okinawa' },
-    'seoul':      { label: 'Seoul',      wegotrip: '1835848' },
-    'bangkok':    { label: 'Bangkok',    wegotrip: '1609350' },
-    'chiang mai': { label: 'Chiang Mai', wegotrip: '1153671' },
-    'phuket':     { label: 'Phuket',     wegotrip: '1151254' },
-    'singapore':  { label: 'Singapore',  wegotrip: '1880252', gocity: true },
-    'hong kong':  { label: 'Hong Kong',  wegotrip: '1819729', gocity: true },
-    'sydney':     { label: 'Sydney',     wegotrip: '2147714', gocity: true },
-    'melbourne':  { label: 'Melbourne',  wegotrip: '2158177' },
-    'perth':      { label: 'Perth',      wegotrip: '2063523' },
-    'taipei':     { label: 'Taipei',     wegotrip: '1668341' },
-    'hanoi':      { label: 'Hanoi',      wegotrip: '1581130' },
-    'hoi an':     { label: 'Hoi An',     wegotrip: '1580240' },
-    'bali':       { label: 'Bali',       wegotrip: '1645528' },
-    'kuala lumpur': { label: 'Kuala Lumpur', wegotrip: '1735161' },
-    'penang':     { label: 'Penang',     wegotrip: '1735106' },
-    'manila':     { label: 'Manila',     wegotrip: '1701668' },
-    'cebu':       { label: 'Cebu',       wegotrip: '1717512' },
-    'yogyakarta': { label: 'Yogyakarta', wegotrip: '1621177' }
+    'chiang mai': { label: 'Chiang Mai' },
+    'perth':      { label: 'Perth' },
+    'taipei':     { label: 'Taipei' },
+    'hoi an':     { label: 'Hoi An' },
+    'manila':     { label: 'Manila' },
+    'cebu':       { label: 'Cebu' },
+    'yogyakarta': { label: 'Yogyakarta' }
   };
 
   var AFFILIATE = {
@@ -221,12 +235,18 @@
     var parts = [];
 
     if (cfg && cfg.wegotrip) {
+      /* In this ~294px rail the tours stack vertically, so the embed's own
+       * 480px height only fits one. Ask for as many as the city actually has
+       * and size the frame to match, rather than clipping the second card. */
+      var n = cfg.two ? 2 : 1;
       parts.push(
         '<div class="gy-rail-card">' +
         '<h3 class="gy-rail-h">Self-guided tours in ' + esc(name) + '</h3>' +
-        '<div class="gy-rail-frame"><script async src="https://tpemb.com/content' +
+        '<div class="gy-rail-frame ' + (cfg.two ? 'is-tall' : 'is-short') + '">' +
+        '<script async src="https://tpemb.com/content' +
         '?trs=547982&shmarker=743846&locale=en&city_id=' + cfg.wegotrip +
-        '&tours=2&powered_by=true&campaign_id=150&promo_id=4489" charset="utf-8"><\/script></div>' +
+        '&tours=' + n + '&powered_by=true&campaign_id=150&promo_id=4489" ' +
+        'charset="utf-8"><\/script></div>' +
         '</div>');
     }
 

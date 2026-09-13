@@ -3407,12 +3407,24 @@ section.globe-section #globe-canvas {
   margin:5px 0 6px}
 .gy-result-d{margin:0;color:#4a5163;font-size:.93rem;line-height:1.55}
 
-/* booking rail */
-.gy-rail{position:sticky;top:76px;display:flex;flex-direction:column;gap:16px}
+/* booking rail.
+   NOT sticky: the tours widget is ~940px tall (see .gy-rail-frame), so a
+   stuck rail would be taller than most viewports and its lower half would be
+   unreachable. It scrolls with the results instead. */
+.gy-rail{display:flex;flex-direction:column;gap:16px}
 .gy-rail-card{border:1px solid var(--line,#e6dfd3);border-radius:16px;background:#fff;
   padding:16px 17px;box-shadow:var(--shadow-soft,0 10px 30px rgba(23,32,51,.07))}
 .gy-rail-h{font-family:Georgia,serif;font-size:1rem;color:#172033;margin:0 0 11px}
-.gy-rail-frame{min-height:430px}
+/* The WeGoTrip embed hard-codes height="480px" and scrolling="no". That suits
+   its wide 2-across layout on article pages, but in this ~294px rail the two
+   tours stack vertically and the second one gets clipped inside the iframe.
+   Measured on the live widget: 2 stacked tours + the "Show more" button need
+   ~860px, so 940 leaves room for two-line tour titles. !important is needed to
+   beat both the height attribute and any inline size iframe-resizer sets. */
+.gy-rail-frame.is-tall{min-height:940px}
+.gy-rail-frame.is-tall iframe{height:940px!important}
+.gy-rail-frame.is-short{min-height:470px}
+.gy-rail-frame.is-short iframe{height:470px!important}
 .gy-rail-frame iframe{width:100%!important;border:0}
 .gy-rail-links{list-style:none;margin:0;padding:0}
 .gy-rail-links li{border-top:1px solid #f1ece2}
@@ -3424,7 +3436,6 @@ section.globe-section #globe-canvas {
 
 @media (max-width:900px){
   .gy-searchpage-body{grid-template-columns:1fr;gap:26px}
-  .gy-rail{position:static}
 }
 @media (max-width:680px){
   .gy-search-box{margin:0;width:100%}
