@@ -283,6 +283,40 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "How to Save Money on International Travel",
         "The seven levers that actually move the number — paying in local currency, eSIM over roaming, flexible dates, and the pass arithmetic.",
     ),
+    # ---- Sydney (added to the mesh 2026-09-13; previously absent) ----
+    "articles/things-to-do-in-sydney.html": (
+        "Sydney: The Places Worth Your Time",
+        "The Opera House and Harbour Bridge, The Rocks, Bondi and the coastal walk, Manly by ferry — what's genuinely worth the hours.",
+    ),
+    "articles/sydney-first-timers-guide.html": (
+        "Your First Visit to Sydney",
+        "A calm orientation to the harbour, the neighbourhoods, and a first-timer's rhythm that doesn't exhaust you.",
+    ),
+    "articles/getting-around-sydney.html": (
+        "Getting Around Sydney",
+        "The Opal card and contactless fares, trains as the backbone, the harbour ferries, and the honest airport options.",
+    ),
+    "articles/best-esim-australia-2026.html": (
+        "Best eSIM for Australia (2026)",
+        "How to choose an Australia travel eSIM — coverage beyond the cities, data sizing, and the honest pick for a short trip.",
+    ),
+    # ---- cruise round-ups (2026-09-13) ----
+    "articles/sydney-harbour-cruises-guide.html": (
+        "Sydney Harbour Cruises: Which One Is Worth Booking",
+        "Five different products share one word — whale season, the dinner tiers, the Clark Island cultural cruise, and the ferry that costs an Opal fare.",
+    ),
+    "articles/bangkok-river-cruises-guide.html": (
+        "Bangkok Dinner Cruises on the Chao Phraya",
+        "How to choose among 28 boats — and why the sunset round is often the same buffet for 30-50% less.",
+    ),
+    "articles/hong-kong-harbour-cruises-guide.html": (
+        "Hong Kong Harbour Cruises",
+        "What a paid cruise adds when the Symphony of Lights is free from shore and the Star Ferry costs a few dollars.",
+    ),
+    "articles/halong-bay-cruises-from-hanoi.html": (
+        "Halong Bay Cruises From Hanoi",
+        "Day trip or overnight, honestly — 200km each way, what one night actually buys, and why Lan Ha is often the better bay.",
+    ),
     "articles/best-esim-south-korea-2026.html": (
         "Best eSIM for South Korea (2026)",
         "How to choose a Korea travel eSIM — coverage, data plans, and the pick for most trips.",
@@ -921,6 +955,58 @@ LINKS: dict[str, list[str]] = {
         "articles/how-to-save-money-on-international-travel.html",
         "articles/best-esim-japan-2026.html",
         "tools/esim-finder.html",
+    ],
+    "articles/sydney-harbour-cruises-guide.html": [
+        "articles/things-to-do-in-sydney.html",
+        "articles/getting-around-sydney.html",
+        "articles/sydney-first-timers-guide.html",
+        "articles/hong-kong-harbour-cruises-guide.html",
+        "articles/how-to-save-money-on-international-travel.html",
+        "articles/best-esim-australia-2026.html",
+    ],
+    "articles/bangkok-river-cruises-guide.html": [
+        "articles/things-to-do-in-bangkok.html",
+        "articles/bangkok-first-timers-guide.html",
+        "articles/halong-bay-cruises-from-hanoi.html",
+        "articles/best-esim-thailand-2026.html",
+        "articles/how-to-save-money-on-international-travel.html",
+        "articles/travel-insurance-compared.html",
+    ],
+    "articles/hong-kong-harbour-cruises-guide.html": [
+        "articles/things-to-do-in-hong-kong.html",
+        "articles/hong-kong-first-timers-guide.html",
+        "articles/sydney-harbour-cruises-guide.html",
+        "articles/bangkok-river-cruises-guide.html",
+        "articles/how-to-save-money-on-international-travel.html",
+        "articles/is-travel-insurance-a-rip-off.html",
+    ],
+    "articles/halong-bay-cruises-from-hanoi.html": [
+        "articles/things-to-do-in-hanoi.html",
+        "articles/hanoi-first-timers-guide.html",
+        "articles/bangkok-river-cruises-guide.html",
+        "articles/best-esim-japan-korea-vietnam.html",
+        "articles/is-travel-insurance-a-rip-off.html",
+        "articles/how-to-save-money-on-international-travel.html",
+    ],
+    "articles/things-to-do-in-sydney.html": [
+        "articles/sydney-harbour-cruises-guide.html",
+        "articles/getting-around-sydney.html",
+        "articles/sydney-first-timers-guide.html",
+        "articles/best-esim-australia-2026.html",
+        "countries/australia/index.html",
+    ],
+    "articles/sydney-first-timers-guide.html": [
+        "articles/things-to-do-in-sydney.html",
+        "articles/sydney-harbour-cruises-guide.html",
+        "articles/getting-around-sydney.html",
+        "articles/best-esim-australia-2026.html",
+        "countries/australia/index.html",
+    ],
+    "articles/getting-around-sydney.html": [
+        "articles/sydney-harbour-cruises-guide.html",
+        "articles/things-to-do-in-sydney.html",
+        "articles/sydney-first-timers-guide.html",
+        "countries/australia/index.html",
     ],
     "articles/how-to-save-money-on-international-travel.html": [
         "articles/do-unlimited-travel-esims-give-unlimited-data.html",

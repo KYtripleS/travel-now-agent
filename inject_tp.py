@@ -125,6 +125,29 @@ REGISTRY: dict[str, str] = {
         "for the wider trip.",
         "2147714", ["wegotrip", "aviasales", "klook", "welcomepickups", "gocity",]),
 
+    # ---- cruise round-ups (2026-09-13). city_ids re-verified same day via the
+    # widget __NEXT_DATA__ count: Sydney 32, Bangkok 4, Hong Kong 3 tours. ----
+    "articles/sydney-harbour-cruises-guide.html": hub(
+        "Book a Sydney harbour cruise",
+        "Whale-watching, sunset and sightseeing departures from Circular Quay, "
+        "Rose Bay and Manly, plus passes that bundle a cruise in.",
+        "2147714", ["wegotrip", "gocity", "klook", "kkday"]),
+    "articles/bangkok-river-cruises-guide.html": hub(
+        "Book a Chao Phraya cruise",
+        "Sunset and dinner departures from Asiatique, ICONSIAM and River City "
+        "— compare the same boat across platforms before you book.",
+        "1609350", ["wegotrip", "klook", "kkday", "aviasales"]),
+    "articles/hong-kong-harbour-cruises-guide.html": hub(
+        "Book a Victoria Harbour cruise",
+        "Sunset, blue-hour and Symphony of Lights departures from Central and "
+        "Tsim Sha Tsui, plus multi-attraction passes.",
+        "1819729", ["wegotrip", "gocity", "klook", "kkday"]),
+    # Halong Bay: the WeGoTrip city here is Hanoi (1 tour) and its audio tours
+    # are city walks, not bay cruises — text CTA is the honest fit.
+    "articles/halong-bay-cruises-from-hanoi.html": cta(
+        "Book a Halong or Lan Ha Bay cruise",
+        ["klook", "kkday", "ekta", "aviasales"]),
+
     # ---- country / city guides (tours + CTAs) ----
     "countries/vietnam/index.html": hub(
         "Tours &amp; getting to Vietnam",

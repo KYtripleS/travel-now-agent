@@ -338,7 +338,11 @@
 
     function run(q, push) {
       q = (q || '').trim();
-      if (input && input.value !== q) input.value = q;
+      /* Only sync the box from the query on the initial ?q=… load.
+       * Writing the trimmed value back WHILE the reader types deleted the
+       * space the moment the debounce fired, so multi-word queries were
+       * impossible to type here (the nav box was fine — it never writes back). */
+      if (!push && input && input.value !== q) input.value = q;
       document.title = q ? 'Search: ' + q + ' | Gently Yonder' : 'Search | Gently Yonder';
 
       if (!q) {
