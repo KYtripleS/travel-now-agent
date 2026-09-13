@@ -275,6 +275,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "When to Activate a Travel eSIM",
         "Install early, activate on arrival — when the validity clock starts, and how to switch it on when you land.",
     ),
+    "articles/do-unlimited-travel-esims-give-unlimited-data.html": (
+        "Do \"Unlimited\" Travel eSIMs Really Give You Unlimited Data?",
+        "Unlimited data, not unlimited speed — the daily high-speed cap, the throttle floor, and when \"unlimited\" is smart vs a rip-off.",
+    ),
     "articles/best-esim-south-korea-2026.html": (
         "Best eSIM for South Korea (2026)",
         "How to choose a Korea travel eSIM — coverage, data plans, and the pick for most trips.",
@@ -362,7 +366,7 @@ ARTICLES: dict[str, tuple[str, str]] = {
     ),
     "articles/japan-tourist-taxes-2026.html": (
         "Japan's Tourist Taxes in 2026",
-        "Kyoto's lodging tax rises from March 2026 (up to ¥10,000/night), which cities charge it, and the ¥1,000 departure tax.",
+        "Kyoto's lodging tax rises from March 2026 (up to ¥10,000/night), which cities charge it, and the ¥3,000 departure tax.",
     ),
     "articles/is-accommodation-tax-double-taxation.html": (
         "Is the Accommodation Tax Double Taxation?",
@@ -834,10 +838,10 @@ LINKS: dict[str, list[str]] = {
         "countries/australia/index.html",
     ],
     "articles/airalo-vs-holafly-vs-saily.html": [
+        "articles/do-unlimited-travel-esims-give-unlimited-data.html",
         "articles/best-esim-japan-2026.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/best-esim-europe-2026.html",
-        "articles/best-esim-thailand-2026.html",
         "articles/pocket-wifi-vs-esim.html",
         "articles/esim-activation-and-preparation.html",
         "articles/travel-insurance-compared.html",
@@ -884,26 +888,34 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/pocket-wifi-vs-esim.html": [
         "articles/esim-vs-physical-sim-card.html",
+        "articles/do-unlimited-travel-esims-give-unlimited-data.html",
         "articles/best-esim-japan-2026.html",
         "articles/airalo-vs-holafly-vs-saily.html",
-        "articles/best-esim-japan-korea-vietnam.html",
         "articles/esim-activation-and-preparation.html",
         "countries/japan/index.html",
     ],
     "articles/esim-vs-physical-sim-card.html": [
         "articles/when-to-activate-travel-esim.html",
+        "articles/do-unlimited-travel-esims-give-unlimited-data.html",
         "articles/pocket-wifi-vs-esim.html",
         "articles/esim-activation-and-preparation.html",
         "articles/best-esim-japan-2026.html",
         "articles/airalo-vs-holafly-vs-saily.html",
-        "articles/best-esim-japan-korea-vietnam.html",
     ],
     "articles/when-to-activate-travel-esim.html": [
         "articles/esim-activation-and-preparation.html",
         "articles/esim-vs-physical-sim-card.html",
+        "articles/do-unlimited-travel-esims-give-unlimited-data.html",
         "articles/best-esim-japan-2026.html",
         "articles/pocket-wifi-vs-esim.html",
-        "articles/best-esim-japan-korea-vietnam.html",
+        "tools/esim-finder.html",
+    ],
+    "articles/do-unlimited-travel-esims-give-unlimited-data.html": [
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/esim-vs-physical-sim-card.html",
+        "articles/when-to-activate-travel-esim.html",
+        "articles/pocket-wifi-vs-esim.html",
+        "articles/best-esim-japan-2026.html",
         "tools/esim-finder.html",
     ],
     "articles/travel-insurance-south-korea.html": [
