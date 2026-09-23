@@ -311,6 +311,22 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Taipei: The Places Worth Your Time",
         "Taipei 101 and Elephant Mountain, Longshan Temple, the night markets, Beitou hot springs and a Jiufen day trip.",
     ),
+    "articles/where-to-book-seoul-dmz-tour.html": (
+        "Where to Book a Seoul DMZ Tour",
+        "The JSA has been shut to civilian tours since 2023, and the cheap tours sell you an hour of ginseng shopping.",
+    ),
+    "articles/where-to-book-halong-bay-cruise.html": (
+        "Where to Book a Halong Bay Cruise",
+        "Booking direct with the boat is often cheaper \u2014 and here is when the platform's commission is still worth paying.",
+    ),
+    "articles/where-to-book-mount-fuji-day-tour.html": (
+        "Where to Book a Mount Fuji Day Tour",
+        "Klook and KKday both sit at about \u00a57,800, so price is not the decision \u2014 the month, the departure time and the cancellation line are.",
+    ),
+    "articles/best-esim-vietnam-2026.html": (
+        "The Best eSIM for Vietnam in 2026",
+        "Which plans actually work on Viettel and Vinaphone, what they cost, and when a local SIM still wins.",
+    ),
     "articles/korail-pass-worth-it-2026.html": (
         "Is the KORAIL Pass Worth It?",
         "Passes went flexible in 2026, but a Seoul\u2013Busan round trip is cheaper on tickets \u2014 and the pass excludes SRT, the cheaper operator.",
@@ -666,8 +682,8 @@ LINKS: dict[str, list[str]] = {
         "articles/carry-on-packing-list-10-day-japan.html",
     ],
     "articles/day-trips-from-tokyo.html": [
+        "articles/where-to-book-mount-fuji-day-tour.html",
         "articles/things-to-do-in-tokyo.html",
-        "cities/tokyo/index.html",
         "articles/jr-pass-worth-it-2026.html",
         "articles/best-esim-japan-2026.html",
         "articles/tokyo-itinerary-5-days.html",
@@ -690,9 +706,9 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/things-to-do-in-seoul.html": [
         "articles/seoul-first-timers-guide.html",
+        "articles/where-to-book-seoul-dmz-tour.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/what-counts-as-rude.html",
-        "articles/things-to-do-in-osaka.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
     ],
     "articles/things-to-do-in-osaka.html": [
@@ -726,10 +742,10 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/things-to-do-in-hanoi.html": [
         "articles/hanoi-first-timers-guide.html",
+        "articles/where-to-book-halong-bay-cruise.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/things-to-do-in-ho-chi-minh-city.html",
         "articles/what-counts-as-rude.html",
-        "articles/klook-vs-viator-vs-getyourguide.html",
     ],
     "articles/things-to-do-in-ho-chi-minh-city.html": [
         "articles/ho-chi-minh-city-first-timers-guide.html",
@@ -1029,6 +1045,7 @@ LINKS: dict[str, list[str]] = {
         "articles/is-travel-insurance-a-rip-off.html",
     ],
     "articles/halong-bay-cruises-from-hanoi.html": [
+        "articles/where-to-book-halong-bay-cruise.html",
         "articles/things-to-do-in-hanoi.html",
         "articles/hanoi-first-timers-guide.html",
         "articles/bangkok-river-cruises-guide.html",
@@ -1101,6 +1118,30 @@ LINKS: dict[str, list[str]] = {
         "articles/taipei-first-timers-guide.html",
         "articles/things-to-do-in-taipei.html",
         "articles/best-esim-taiwan-2026.html",
+    ],
+    "articles/where-to-book-seoul-dmz-tour.html": [
+        "articles/do-you-need-keta-south-korea.html",
+        "articles/seoul-first-timers-guide.html",
+        "articles/things-to-do-in-seoul.html",
+        "articles/best-esim-south-korea-2026.html",
+        "articles/how-much-does-south-korea-cost.html",
+        "articles/where-to-book-jeju-bus-tour.html",
+    ],
+    "articles/where-to-book-halong-bay-cruise.html": [
+        "articles/halong-bay-cruises-from-hanoi.html",
+        "articles/things-to-do-in-hanoi.html",
+        "articles/hanoi-first-timers-guide.html",
+        "articles/best-esim-vietnam-2026.html",
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/how-to-save-money-on-international-travel.html",
+    ],
+    "articles/where-to-book-mount-fuji-day-tour.html": [
+        "articles/day-trips-from-tokyo.html",
+        "articles/jr-pass-worth-it-2026.html",
+        "articles/tokyo-itinerary-5-days.html",
+        "articles/visit-japan-web-guide.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/how-much-does-japan-cost.html",
     ],
     "articles/korail-pass-worth-it-2026.html": [
         "articles/how-much-does-south-korea-cost.html",
@@ -1183,12 +1224,12 @@ LINKS: dict[str, list[str]] = {
         "tools/esim-finder.html",
     ],
     "articles/klook-vs-viator-vs-getyourguide.html": [
+        "articles/where-to-book-mount-fuji-day-tour.html",
+        "articles/where-to-book-seoul-dmz-tour.html",
+        "articles/where-to-book-halong-bay-cruise.html",
         "articles/where-to-book-sydney-harbour-cruise.html",
-        "articles/where-to-book-jeju-bus-tour.html",
         "articles/where-to-book-taipei-day-tour.html",
         "articles/where-to-book-bangkok-dinner-cruise.html",
-        "articles/esim-activation-and-preparation.html",
-        "countries/japan/index.html",
     ],
     "articles/best-travel-insurance-digital-nomads-2026.html": [
         "articles/safetywing-vs-world-nomads.html",

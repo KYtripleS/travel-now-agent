@@ -152,6 +152,21 @@ REGISTRY: dict[str, str] = {
     "articles/where-to-book-jeju-bus-tour.html": cta(
         "Book a Jeju day tour",
         ["klook", "kkday", "saily", "ekta"]),
+    "articles/where-to-book-seoul-dmz-tour.html": hub(
+        "Book a Seoul day tour",
+        "DMZ departures, palace walks and Seoul audio tours \u2014 plus the eSIM "
+        "you will want for the pickup point.",
+        "1835848", ["wegotrip", "klook", "kkday", "saily"]),
+    "articles/where-to-book-halong-bay-cruise.html": hub(
+        "Book a Halong Bay cruise",
+        "Day trips and overnight cabins out of Hanoi \u2014 compare the same boat "
+        "here and on the operator's own site before you book.",
+        "1581130", ["wegotrip", "klook", "kkday", "ekta"]),
+    "articles/where-to-book-mount-fuji-day-tour.html": hub(
+        "Book a Mount Fuji day tour",
+        "Kawaguchiko circuits out of Shinjuku, plus Tokyo audio tours for the "
+        "days either side and an eSIM for the forecast.",
+        "1850147", ["wegotrip", "klook", "kkday", "saily"]),
 
     "articles/bangkok-river-cruises-guide.html": hub(
         "Book a Chao Phraya cruise",
