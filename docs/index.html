@@ -1,56 +1,44 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Primary tags ─────────────────────────────────────────────── -->
-  <title>Gently Yonder | Smarter Travel Prep</title>
-  <meta name="description" content="Build smarter travel prep habits with checklists, packing tips, eSIM guidance, and safer pre-flight planning." />
-  <link rel="canonical" href="https://gentlyyonder.com/" />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
-  <meta name="theme-color" content="#172033" />
-
-  <!-- Hero LCP optimisation: preload mobile WebP first -->
-  <link rel="preload" as="image" fetchpriority="high"
-        href="images/hero/golden-field-800.webp"
-        imagesrcset="images/hero/golden-field-800.webp 800w, images/hero/golden-field-1600.webp 1600w" />
-
-  <!-- Site verification tags ──────────────────────────────────── -->
-  <meta name='impact-site-verification' value='e7c45dc4-a3ad-48e4-b7ae-62165f847e5e'>
-  <meta name="p:domain_verify" content="bf73e45bc819822642b503358e6cc701"/>
-
-  <!-- Open Graph ──────────────────────────────────────────────── -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Gently Yonder | Smarter Travel Prep" />
-  <meta property="og:description" content="Build smarter travel prep habits with checklists, packing tips, eSIM guidance, and safer pre-flight planning." />
-  <meta property="og:url" content="https://gentlyyonder.com/" />
-  <meta property="og:site_name" content="Gently Yonder" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:image" content="https://gentlyyonder.com/images/travel-now-og.png" />
-  <meta property="og:image:secure_url" content="https://gentlyyonder.com/images/travel-now-og.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Gently Yonder — Build your travel prep checklist before you fly." />
-
-  <!-- Twitter Card ────────────────────────────────────────────── -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Gently Yonder | Smarter Travel Prep" />
-  <meta name="twitter:description" content="Build smarter travel prep habits with checklists, packing tips, eSIM guidance, and safer pre-flight planning." />
-  <meta name="twitter:image" content="https://gentlyyonder.com/images/travel-now-og.png" />
-  <meta name="twitter:image:alt" content="Gently Yonder — Build your travel prep checklist before you fly." />
-  <meta name="twitter:site" content="@TripWorldAdvice" />
-
-  <link rel="stylesheet" href="style-v2.css?v=f0e96d76" />
-
-  <!-- Animation libs (free, MIT) ─ defer = no render blocking ── -->
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
-
-  <!-- JSON-LD: WebSite + Organization ─────────────────────────── -->
-  <script type="application/ld+json">{
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- Primary tags ─────────────────────────────────────────────── -->
+<title>Gently Yonder | Smarter Travel Prep</title>
+<meta content="Build smarter travel prep habits with checklists, packing tips, eSIM guidance, and safer pre-flight planning." name="description"/>
+<link href="https://gentlyyonder.com/" rel="canonical"/>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<meta content="#172033" name="theme-color"/>
+<!-- Hero LCP optimisation: preload mobile WebP first -->
+<link as="image" fetchpriority="high" href="images/hero/golden-field-800.webp" imagesrcset="images/hero/golden-field-800.webp 800w, images/hero/golden-field-1600.webp 1600w" rel="preload"/>
+<!-- Site verification tags ──────────────────────────────────── -->
+<meta name="impact-site-verification" value="e7c45dc4-a3ad-48e4-b7ae-62165f847e5e"/>
+<meta content="bf73e45bc819822642b503358e6cc701" name="p:domain_verify"/>
+<!-- Open Graph ──────────────────────────────────────────────── -->
+<meta content="website" property="og:type"/>
+<meta content="Gently Yonder | Smarter Travel Prep" property="og:title"/>
+<meta content="Build smarter travel prep habits with checklists, packing tips, eSIM guidance, and safer pre-flight planning." property="og:description"/>
+<meta content="https://gentlyyonder.com/" property="og:url"/>
+<meta content="Gently Yonder" property="og:site_name"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="https://gentlyyonder.com/images/travel-now-og.png" property="og:image"/>
+<meta content="https://gentlyyonder.com/images/travel-now-og.png" property="og:image:secure_url"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Gently Yonder — Build your travel prep checklist before you fly." property="og:image:alt"/>
+<!-- Twitter Card ────────────────────────────────────────────── -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Gently Yonder | Smarter Travel Prep" name="twitter:title"/>
+<meta content="Build smarter travel prep habits with checklists, packing tips, eSIM guidance, and safer pre-flight planning." name="twitter:description"/>
+<meta content="https://gentlyyonder.com/images/travel-now-og.png" name="twitter:image"/>
+<meta content="Gently Yonder — Build your travel prep checklist before you fly." name="twitter:image:alt"/>
+<meta content="@TripWorldAdvice" name="twitter:site"/>
+<link href="style-v2.css?v=4440fbc0" rel="stylesheet"/>
+<!-- Animation libs (free, MIT) ─ defer = no render blocking ── -->
+<!-- JSON-LD: WebSite + Organization ─────────────────────────── -->
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Gently Yonder",
@@ -60,7 +48,7 @@
   "sameAs": ["https://x.com/TripWorldAdvice"],
   "knowsAbout": ["travel preparation", "travel eSIM", "travel insurance", "packing", "airport security", "Japan travel", "Southeast Asia travel"]
 }</script>
-  <script type="application/ld+json">
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -76,8 +64,8 @@
     }
   }
   </script>
-  <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<!-- BEGIN GA4 (managed by add_ga4.py) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -92,7 +80,7 @@
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Travelpayouts Drive (managed by add_travelpayouts_drive.py) -->
-  <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1">
+<script data-cfasync="false" data-no-defer="1" data-noptimize="1" data-wpfc-render="false" nowprocket="" seraph-accel-crit="1">
     (function () {
       var script = document.createElement("script");
       script.async = 1;
@@ -100,1162 +88,209 @@
       document.head.appendChild(script);
     })();
   </script>
-  <!-- END Travelpayouts Drive -->
+<!-- END Travelpayouts Drive -->
 <!-- BEGIN favicon (managed by add_favicon.py) -->
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
-<link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48"/>
-<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192"/>
-<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/favicon-48.png" rel="icon" sizes="48x48" type="image/png"/>
+<link href="/favicon-192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
 <!-- END favicon -->
 </head>
 <body>
 <!-- BEGIN global-nav (managed by add_global_nav.py) -->
-<nav class="gy-topnav" aria-label="Primary" data-gy-root=""><div class="gy-topnav-inner"><a class="gy-topnav-brand" href="index.html">Gently Yonder</a><div class="gy-topnav-links"><a href="index.html#guides">Guides</a><a href="index.html#profiles">Destinations</a><a href="articles/esim-activation-and-preparation.html">eSIM &amp; Tech</a><a href="articles/travel-insurance-compared.html">Insurance</a><a href="tools/esim-finder.html">Tools</a><a href="gear.html">Gear</a><a href="about.html">About</a></div><form class="gy-search-box" role="search" action="search.html" method="get"><svg class="gy-search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><input type="search" name="q" placeholder="Search guides&hellip;" aria-label="Search guides" autocomplete="off" /><div class="gy-search-panel" role="listbox" hidden></div></form></div></nav>
-<script defer src="js/gy-search.js?v=77c3a4b7"></script>
+<nav aria-label="Primary" class="gy-topnav" data-gy-root=""><div class="gy-topnav-inner"><a class="gy-topnav-brand" href="index.html">Gently Yonder</a><div class="gy-topnav-links"><a href="all-guides.html">Guides</a><a href="index.html#map">Destinations</a><a href="articles/klook-vs-viator-vs-getyourguide.html">Booking</a><a href="articles/best-travel-esim-2026.html">eSIM</a><a href="articles/best-travel-insurance-2026.html">Insurance</a><a href="tools/index.html">Tools</a><a href="about.html">About</a></div><form action="search.html" class="gy-search-box" method="get" role="search"><svg aria-hidden="true" class="gy-search-icon" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="15"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><input aria-label="Search guides" autocomplete="off" name="q" placeholder="Search guides…" type="search"/><div class="gy-search-panel" hidden="" role="listbox"></div></form></div></nav>
+<script defer="" src="js/gy-search.js?v=77c3a4b7"></script>
 <!-- END global-nav -->
-
-  <!-- ── Hero (full-bleed cinematic: massive photo + centered copy) ───── -->
-  <header class="hero hero-cinematic">
-    <div class="hero-inner">
-      <div class="hero-center">
-        <p class="label">Gently Yonder</p>
-        <h1 class="hero-headline">Go gently.<br/>Go prepared.</h1>
-        <p class="subtitle">
-          Calm, careful travel prep — eSIMs, packing, the airport, the fine print —
-          handled once, gently, so the unglamorous half of a trip is already done
-          and you can just go.
+<!-- ── Hero (full-bleed cinematic: massive photo + centered copy) ───── -->
+<header class="hero hero-cinematic">
+<div class="hero-inner">
+<div class="hero-center">
+<p class="label">Gently Yonder</p>
+<h1 class="hero-headline">Go gently.<br/>Go prepared.</h1>
+<p class="subtitle">
+          Calm, careful travel prep — eSIMs, insurance, booking, the airport and the fine print —
+          checked at the source, so the unglamorous half of a trip is already done and you can just go.
         </p>
-        <div class="buttons">
-          <a href="rehearsal.html" class="button hero-cta-primary" data-magnetic>Rehearse your trip →</a>
-          <a href="checklist-generator.html" class="button hero-cta-ghost">Build My Checklist</a>
-        </div>
-        <div class="hero-stats">
-          <div class="stat"><span data-count-to="144">144</span>travel guides</div>
-          <div class="stat"><span data-count-to="6">6</span>destination guides</div>
-          <div class="stat"><span data-count-to="4">4</span>free tools</div>
-        </div>
-      </div>
-    </div>
-    <div class="hero-scroll-cue" aria-hidden="true">
-      <span class="scroll-cue-line"></span>
-      <span class="scroll-cue-label">Scroll</span>
-    </div>
-  </header>
-
-  <!-- Task-first quick actions + trust strip (hand-maintained) -->
-  <style>
-    .gy-tasks{max-width:1100px;margin:30px auto 0;padding:0 clamp(20px,4vw,40px)}
-    .gy-tasks-h{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#6a7080;margin:0 0 10px}
-    .gy-tasks-row{display:flex;flex-wrap:wrap;gap:10px}
-    .gy-tasks-row a{font-size:.92rem;padding:10px 16px;border:1px solid rgba(23,32,51,.18);border-radius:999px;background:rgba(255,255,255,.55);color:var(--navy,#172033);text-decoration:none;transition:border-color .15s,background .15s}
-    .gy-tasks-row a:hover{border-color:#B8945F;background:rgba(184,148,95,.1)}
-    .gy-trust{max-width:1100px;margin:20px auto 0;padding:12px clamp(20px,4vw,40px);display:flex;flex-wrap:wrap;gap:8px 26px;font-size:.85rem;color:#4a5163;border-top:1px solid rgba(23,32,51,.08);border-bottom:1px solid rgba(23,32,51,.08)}
-    .gy-trust a{color:inherit;text-decoration:underline;text-underline-offset:3px}
-    .gy-trust a:hover{color:var(--navy,#172033)}
-    .gy-start-japan{max-width:1100px;margin:34px auto 0;padding:0 clamp(20px,4vw,40px)}
-    .gy-start-japan .gy-tasks-h{color:#B8945F}
-    .gy-start-japan .intro{color:#4a5163;font-size:.98rem;line-height:1.55;margin:0 0 14px;max-width:60ch}
-    .gear-teaser-pills{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 18px}
-    .gear-teaser-pill{font-size:.9rem;padding:8px 15px;border:1px solid rgba(23,32,51,.18);border-radius:999px;background:rgba(255,255,255,.55);color:var(--navy,#172033);text-decoration:none;transition:border-color .15s,background .15s}
-    .gear-teaser-pill:hover{border-color:#B8945F;background:rgba(184,148,95,.1)}
-    .gear-teaser-cta{display:inline-block;font-size:1rem;font-weight:700;padding:12px 22px;border-radius:999px;background:#C9A84C;color:#172033;text-decoration:none}
-    .gear-teaser-cta:hover{background:#d8ba61}
-  </style>
-  <section class="gy-tasks" aria-label="Quick preparation actions">
-    <p class="gy-tasks-h">Sort one thing right now</p>
-    <div class="gy-tasks-row">
-      <a href="tools/esim-finder.html" onclick="if(window.gtag)gtag('event','task_click',{task:'esim'})">Find your travel eSIM &rarr;</a>
-      <a href="tools/insurance-finder.html" onclick="if(window.gtag)gtag('event','task_click',{task:'insurance'})">Choose insurance &rarr;</a>
-      <a href="articles/pre-flight-checklist-48-hours.html" onclick="if(window.gtag)gtag('event','task_click',{task:'preflight'})">Run the 25-step pre-flight checklist &rarr;</a>
-      <a href="#ready" onclick="if(window.gtag)gtag('event','task_click',{task:'entry'})">Check your entry pass (ESTA, NZeTA&hellip;) &rarr;</a>
-      <a href="checklist-generator.html" onclick="if(window.gtag)gtag('event','task_click',{task:'packing'})">Build a packing checklist &rarr;</a>
-      <a href="travel-power/" onclick="if(window.gtag)gtag('event','task_click',{task:'power'})">Plugs &amp; voltage by country &rarr;</a>
-      <a href="gear.html" onclick="if(window.gtag)gtag('event','task_click',{task:'gear'})">Browse the travel gear directory &rarr;</a>
-    </div>
-  </section>
-  <div class="gy-trust" role="note" aria-label="Why trust Gently Yonder">
-    <span>Independent and reader-supported &mdash; rankings are never sold.</span>
-    <a href="methodology.html">How we verify what we publish</a>
-    <a href="contribute.html">Built with traveler reports &mdash; add yours in 90 seconds</a>
-  </div>
-
-  <!-- Japan beachhead — the cluster we've gone deepest on. Curated links from
-       the homepage (our strongest page) into the near-page-1 Japan guides. -->
-  <section class="gy-start-japan" id="japan" data-reveal aria-labelledby="start-japan-h">
-    <p class="gy-tasks-h" id="start-japan-h">Planning a trip to Japan? Start here</p>
-    <p class="intro">The corner of the site we've built out most thoroughly — from the first day off the plane to the plug in the wall.</p>
-    <div class="gy-tasks-row">
-      <a href="cities/tokyo/">Tokyo city guide &amp; planning library &rarr;</a>
-      <a href="countries/japan/">Japan: the full preparation library &rarr;</a>
-      <a href="articles/japan-book-in-advance-2026.html">What to book before you fly &rarr;</a>
-      <a href="articles/jr-pass-worth-it-2026.html">Is the JR Pass worth it in 2026? &rarr;</a>
-      <a href="tools/esim-finder.html">Find your Japan eSIM &rarr;</a>
-      <a href="articles/carry-on-packing-list-10-day-japan.html">Carry-on packing for 10 days &rarr;</a>
-      <a href="articles/what-counts-as-rude.html">What counts as rude in Japan &rarr;</a>
-    </div>
-  </section>
-
-    <!-- BEGIN library (managed by build_library.py) -->
+<div class="buttons">
+<a class="button hero-cta-primary" href="#ready">Check your Ready Score →</a>
+<a class="button hero-cta-ghost" href="all-guides.html">Browse all guides</a>
+</div>
+<div class="hero-stats">
+<div class="stat"><span data-count-to="144">144</span>travel guides</div>
+<div class="stat"><span data-count-to="6">6</span>destination guides</div>
+<div class="stat"><span data-count-to="4">4</span>free tools</div>
+</div>
+</div>
+</div>
+</header>
+<section aria-labelledby="gy-start-h" class="gy-start">
+<div class="gy-section-head"><h2 id="gy-start-h">Start with the task in front of you</h2></div>
+<div class="gy-task-grid">
+<a class="gy-task" href="tools/esim-finder.html" onclick="if(window.gtag)gtag('event','task_click',{task:'esim'})"><span class="gy-task-title">Get connected</span><span class="gy-task-desc">Which eSIM, and how much data, for where you're going.</span></a>
+<a class="gy-task" href="tools/insurance-finder.html" onclick="if(window.gtag)gtag('event','task_click',{task:'insurance'})"><span class="gy-task-title">Get insured</span><span class="gy-task-desc">The cover that matters for your trip, and what to skip.</span></a>
+<a class="gy-task" href="articles/klook-vs-viator-vs-getyourguide.html" onclick="if(window.gtag)gtag('event','task_click',{task:'booking'})"><span class="gy-task-title">Book tours for less</span><span class="gy-task-desc">Which platform wins for the tour you actually want.</span></a>
+<a class="gy-task" href="#ready" onclick="if(window.gtag)gtag('event','task_click',{task:'entry'})"><span class="gy-task-title">Check your entry</span><span class="gy-task-desc">ESTA, NZeTA, K-ETA and the other forms to sort before you fly.</span></a>
+<a class="gy-task" href="checklist-generator.html" onclick="if(window.gtag)gtag('event','task_click',{task:'packing'})"><span class="gy-task-title">Pack once</span><span class="gy-task-desc">A packing list built for your trip, not a generic one.</span></a>
+<a class="gy-task" href="travel-power/index.html" onclick="if(window.gtag)gtag('event','task_click',{task:'power'})"><span class="gy-task-title">Plugs &amp; power</span><span class="gy-task-desc">Which adapter you need, and whether you need a converter.</span></a>
+</div>
+</section>
+<!-- BEGIN library (managed by build_library.py) -->
 <section class="gy-library" id="profiles" data-reveal>
   <h2>Most read this month</h2>
-  <p class="intro">What travelers are actually reading — ranked by combined search clicks and visits over the last 28 days. Refreshed 2026.09.23.</p>
+  <p class="intro">What readers are actually opening — ranked by search clicks and visits from search, AI assistants and links, excluding our own traffic. Data: 26 Aug – 22 Sep 2026.</p>
   <style>.gy-lib-rank{font-family:Georgia,"Times New Roman",serif;font-size:1.5rem;font-weight:700;color:#B8945F;font-variant-numeric:tabular-nums}</style>
   <div class="gy-lib-list">
-<a class="gy-lib-row" href="articles/melbourne-first-timers-guide.html"><span class="gy-lib-date gy-lib-rank">1</span><span class="gy-lib-body"><span class="gy-lib-tag">Itinerary</span><span class="gy-lib-title">Melbourne: A First-Timer's Guide</span></span><img class="gy-lib-thumb" src="images/pinterest/melbourne-photo.webp" alt="" loading="lazy" decoding="async" /></a>
-<a class="gy-lib-row" href="articles/untranslatable-words.html"><span class="gy-lib-date gy-lib-rank">2</span><span class="gy-lib-body"><span class="gy-lib-tag">Language & Culture</span><span class="gy-lib-title">Untranslatable Words: 14 Concepts in 12 Languages</span></span><img class="gy-lib-thumb" src="images/pinterest/untranslatable-photo.webp" alt="" loading="lazy" decoding="async" /></a>
-<a class="gy-lib-row" href="articles/getting-around-melbourne.html"><span class="gy-lib-date gy-lib-rank">3</span><span class="gy-lib-body"><span class="gy-lib-tag">City Logistics</span><span class="gy-lib-title">Getting Around Melbourne: Trams, Myki & Free Zone</span></span><img class="gy-lib-thumb" src="images/pinterest/melbourne-photo.webp" alt="" loading="lazy" decoding="async" /></a>
-<a class="gy-lib-row" href="articles/things-to-do-in-melbourne.html"><span class="gy-lib-date gy-lib-rank">4</span><span class="gy-lib-body"><span class="gy-lib-tag">City Guide</span><span class="gy-lib-title">Melbourne: The Places Worth Your Time</span></span><img class="gy-lib-thumb" src="images/pinterest/melbourne-photo.webp" alt="" loading="lazy" decoding="async" /></a>
-<a class="gy-lib-row" href="articles/best-esim-japan-2026.html"><span class="gy-lib-date gy-lib-rank">5</span><span class="gy-lib-body"><span class="gy-lib-tag">Connectivity</span><span class="gy-lib-title">Best eSIM for Japan (2026)</span></span><img class="gy-lib-thumb" src="images/pinterest/japan-esim-photo.webp" alt="" loading="lazy" decoding="async" /></a>
-<a class="gy-lib-row" href="articles/everyday-carry-essentials-for-travel.html"><span class="gy-lib-date gy-lib-rank">6</span><span class="gy-lib-body"><span class="gy-lib-tag">Everyday Carry</span><span class="gy-lib-title">Travel EDC Checklist</span></span><img class="gy-lib-thumb" src="images/pinterest/travel-edc-photo.webp" alt="" loading="lazy" decoding="async" /></a>
-<a class="gy-lib-row" href="articles/airport-security-checklist.html"><span class="gy-lib-date gy-lib-rank">7</span><span class="gy-lib-body"><span class="gy-lib-tag">Carry-on Prep</span><span class="gy-lib-title">Airport Security Checklist: 12 Points Before You Fly</span></span><img class="gy-lib-thumb" src="images/pinterest/airport-security-checklist-photo.webp" alt="" loading="lazy" decoding="async" /></a>
+<a class="gy-lib-row" href="articles/capsule-wardrobe-2-week-trips.html"><span class="gy-lib-date gy-lib-rank">1</span><span class="gy-lib-body"><span class="gy-lib-tag">Packing</span><span class="gy-lib-title">The Two-Week Capsule Wardrobe: 10 Items for Three Climates</span></span><img class="gy-lib-thumb" src="https://images.pexels.com/photos/7368219/pexels-photo-7368219.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop&dpr=2" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /></a>
+<a class="gy-lib-row" href="articles/carry-on-packing-list-10-day-japan.html"><span class="gy-lib-date gy-lib-rank">2</span><span class="gy-lib-body"><span class="gy-lib-tag">Packing</span><span class="gy-lib-title">Carry-On Packing List for 10 Days in Japan (2026)</span></span><img class="gy-lib-thumb" src="https://images.pexels.com/photos/27934991/pexels-photo-27934991.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop&dpr=2" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /></a>
+<a class="gy-lib-row" href="articles/untranslatable-words.html"><span class="gy-lib-date gy-lib-rank">3</span><span class="gy-lib-body"><span class="gy-lib-tag">Culture</span><span class="gy-lib-title">Untranslatable Words: 14 Concepts in 12 Languages and Why They Resist Translation</span></span><img class="gy-lib-thumb" src="https://images.pexels.com/photos/15833106/pexels-photo-15833106.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop&dpr=2" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /></a>
+<a class="gy-lib-row" href="articles/klook-vs-viator-vs-getyourguide.html"><span class="gy-lib-date gy-lib-rank">4</span><span class="gy-lib-body"><span class="gy-lib-tag">Booking & tours</span><span class="gy-lib-title">Klook vs Viator vs GetYourGuide (2026): Which Is Cheaper, and Which Has More?</span></span><img class="gy-lib-thumb" src="https://images.pexels.com/photos/29284339/pexels-photo-29284339.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop&dpr=2" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /></a>
+<a class="gy-lib-row" href="articles/hotel-booking-sites-comparison.html"><span class="gy-lib-date gy-lib-rank">5</span><span class="gy-lib-body"><span class="gy-lib-tag">Flights & hotels</span><span class="gy-lib-title">Hotel Booking Sites Compared</span></span><img class="gy-lib-thumb" src="https://images.pexels.com/photos/26729563/pexels-photo-26729563.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop&dpr=2" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /></a>
+<a class="gy-lib-row" href="countries/japan/index.html"><span class="gy-lib-date gy-lib-rank">6</span><span class="gy-lib-body"><span class="gy-lib-tag">Country profile</span><span class="gy-lib-title">Japan</span></span><img class="gy-lib-thumb" src="https://images.pexels.com/photos/33368124/pexels-photo-33368124.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop&dpr=2" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /></a>
+<a class="gy-lib-row" href="articles/japan-book-in-advance-2026.html"><span class="gy-lib-date gy-lib-rank">7</span><span class="gy-lib-body"><span class="gy-lib-tag">Booking & tours</span><span class="gy-lib-title">Japan Tickets That Sell Out: What to Book Before You Fly (2026)</span></span><img class="gy-lib-thumb" src="https://images.pexels.com/photos/36688908/pexels-photo-36688908.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop&dpr=2" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /></a>
   </div>
   <a class="gy-lib-more" href="all-guides.html">View all guides by category &rarr;</a>
 </section>
 <!-- END library -->
-
-    <!-- All travel prep guides — image carousel ────────────────────── -->
-    <section class="article-carousel" id="guides" data-reveal>
-      <h2>All travel prep guides</h2>
-      <p class="intro">In-depth checklists for the moments that drive most trip-day stress.</p>
-
-      <div class="carousel" data-autoplay="true" data-interval="4500">
-        <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous slide">‹</button>
-
-        <div class="carousel-viewport">
-          <ul class="carousel-track" role="list">
-            <!-- BEGIN guides-carousel (managed by build_carousel.py) -->
-            <li class="carousel-slide">
-              <a href="articles/japan-7-day-itinerary.html">
-                <picture><source srcset="images/pinterest/japan-itin-photo.webp" type="image/webp"><img src="images/pinterest/japan-itin-photo.png" alt="Japan: A 7-Day First-Timer&#x27;s Itinerary" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Japan: A 7-Day First-Timer&#x27;s Itinerary</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/thailand-10-day-itinerary.html">
-                <picture><source srcset="images/pinterest/thailand-itin-photo.webp" type="image/webp"><img src="images/pinterest/thailand-itin-photo.png" alt="Thailand: A 10-Day Itinerary" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Thailand: A 10-Day Itinerary</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/bali-7-day-itinerary.html">
-                <picture><source srcset="images/pinterest/bali-itin-photo.webp" type="image/webp"><img src="images/pinterest/bali-itin-photo.png" alt="Bali: A 7-Day Itinerary" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Bali: A 7-Day Itinerary</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/what-to-pack-for-southeast-asia.html">
-                <picture><source srcset="images/pinterest/pack-sea-photo.webp" type="image/webp"><img src="images/pinterest/pack-sea-photo.png" alt="What to Pack for Southeast Asia" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Packing</span>
-                  <h3>What to Pack for Southeast Asia</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/what-to-pack-for-japan.html">
-                <picture><source srcset="images/pinterest/pack-japan-photo.webp" type="image/webp"><img src="images/pinterest/pack-japan-photo.png" alt="What to Pack for Japan" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Packing</span>
-                  <h3>What to Pack for Japan</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-tokyo.html">
-                <picture><source srcset="images/pinterest/things-tokyo-photo.webp" type="image/webp"><img src="images/pinterest/things-tokyo-photo.png" alt="Tokyo: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Tokyo: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-kyoto.html">
-                <picture><source srcset="images/pinterest/things-kyoto-photo.webp" type="image/webp"><img src="images/pinterest/things-kyoto-photo.png" alt="Kyoto: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Kyoto: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-bangkok.html">
-                <picture><source srcset="images/pinterest/things-bangkok-photo.webp" type="image/webp"><img src="images/pinterest/things-bangkok-photo.png" alt="Bangkok: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Bangkok: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-seoul.html">
-                <picture><source srcset="images/pinterest/things-seoul-photo.webp" type="image/webp"><img src="images/pinterest/things-seoul-photo.png" alt="Seoul: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Seoul: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-osaka.html">
-                <picture><source srcset="images/pinterest/things-osaka-photo.webp" type="image/webp"><img src="images/pinterest/things-osaka-photo.png" alt="Osaka: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Osaka: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-singapore.html">
-                <picture><source srcset="images/pinterest/things-singapore-photo.webp" type="image/webp"><img src="images/pinterest/things-singapore-photo.png" alt="Singapore: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Singapore: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-bali.html">
-                <picture><source srcset="images/pinterest/things-bali-photo.webp" type="image/webp"><img src="images/pinterest/things-bali-photo.png" alt="Bali: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Bali: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-hong-kong.html">
-                <picture><source srcset="images/pinterest/things-hongkong-photo.webp" type="image/webp"><img src="images/pinterest/things-hongkong-photo.png" alt="Hong Kong: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Hong Kong: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-hanoi.html">
-                <picture><source srcset="images/pinterest/things-hanoi-photo.webp" type="image/webp"><img src="images/pinterest/things-hanoi-photo.png" alt="Hanoi: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Hanoi: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-ho-chi-minh-city.html">
-                <picture><source srcset="images/pinterest/things-hcmc-photo.webp" type="image/webp"><img src="images/pinterest/things-hcmc-photo.png" alt="Ho Chi Minh City: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Ho Chi Minh City: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-kuala-lumpur.html">
-                <picture><source srcset="images/pinterest/things-kl-photo.webp" type="image/webp"><img src="images/pinterest/things-kl-photo.png" alt="Kuala Lumpur: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Kuala Lumpur: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-manila.html">
-                <picture><source srcset="images/pinterest/things-manila-photo.webp" type="image/webp"><img src="images/pinterest/things-manila-photo.png" alt="Manila: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Manila: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-chiang-mai.html">
-                <picture><source srcset="images/pinterest/things-chiangmai-photo.webp" type="image/webp"><img src="images/pinterest/things-chiangmai-photo.png" alt="Chiang Mai: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Chiang Mai: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-phuket.html">
-                <picture><source srcset="images/pinterest/things-phuket-photo.webp" type="image/webp"><img src="images/pinterest/things-phuket-photo.png" alt="Phuket: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Phuket: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/hong-kong-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/hong-kong-photo.webp" type="image/webp"><img src="images/pinterest/hong-kong-photo.png" alt="Hong Kong: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Hong Kong: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/seoul-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/seoul-photo.webp" type="image/webp"><img src="images/pinterest/seoul-photo.png" alt="Seoul: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Seoul: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/osaka-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/osaka-photo.webp" type="image/webp"><img src="images/pinterest/osaka-photo.png" alt="Osaka: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Osaka: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/penang-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/penang-photo.webp" type="image/webp"><img src="images/pinterest/penang-photo.png" alt="Penang: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Penang: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/yogyakarta-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/yogyakarta-photo.webp" type="image/webp"><img src="images/pinterest/yogyakarta-photo.png" alt="Yogyakarta: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Yogyakarta: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/kuala-lumpur-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/kl-photo.webp" type="image/webp"><img src="images/pinterest/kl-photo.png" alt="Kuala Lumpur: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Kuala Lumpur: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/manila-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/manila-photo.webp" type="image/webp"><img src="images/pinterest/manila-photo.png" alt="Manila: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Manila: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/cebu-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/cebu-photo.webp" type="image/webp"><img src="images/pinterest/cebu-photo.png" alt="Cebu: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Cebu: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/chiang-mai-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/chiang-mai-photo.webp" type="image/webp"><img src="images/pinterest/chiang-mai-photo.png" alt="Chiang Mai: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Chiang Mai: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/phuket-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/phuket-photo.webp" type="image/webp"><img src="images/pinterest/phuket-photo.png" alt="Phuket: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Phuket: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/hanoi-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/hanoi-photo.webp" type="image/webp"><img src="images/pinterest/hanoi-photo.png" alt="Hanoi: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Hanoi: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/ho-chi-minh-city-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/hcmc-photo.webp" type="image/webp"><img src="images/pinterest/hcmc-photo.png" alt="Ho Chi Minh City: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Ho Chi Minh City: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/hoi-an-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/hoi-an-photo.webp" type="image/webp"><img src="images/pinterest/hoi-an-photo.png" alt="Hoi An: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Hoi An: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/singapore-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/singapore-photo.webp" type="image/webp"><img src="images/pinterest/singapore-photo.png" alt="Singapore: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Singapore: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/bangkok-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/bangkok-photo.webp" type="image/webp"><img src="images/pinterest/bangkok-photo.png" alt="Bangkok: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Bangkok: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/bali-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/bali-photo.webp" type="image/webp"><img src="images/pinterest/bali-photo.png" alt="Bali: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Bali: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/taipei-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/taipei-photo.webp" type="image/webp"><img src="images/pinterest/taipei-photo.png" alt="Taipei: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Taipei: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/getting-around-taiwan.html">
-                <picture><source srcset="images/pinterest/taipei-photo.webp" type="image/webp"><img src="images/pinterest/taipei-photo.png" alt="Getting Around Taiwan: EasyCard, MRT &amp; High-Speed Rail" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Logistics</span>
-                  <h3>Getting Around Taiwan: EasyCard, MRT &amp; High-Speed Rail</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-taipei.html">
-                <picture><source srcset="images/pinterest/taipei-photo.webp" type="image/webp"><img src="images/pinterest/taipei-photo.png" alt="Taipei: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Taipei: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/sydney-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/sydney-photo.webp" type="image/webp"><img src="images/pinterest/sydney-photo.png" alt="Sydney: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Sydney: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/getting-around-sydney.html">
-                <picture><source srcset="images/pinterest/sydney-photo.webp" type="image/webp"><img src="images/pinterest/sydney-photo.png" alt="Getting Around Sydney: Opal, Trains &amp; Ferries" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Logistics</span>
-                  <h3>Getting Around Sydney: Opal, Trains &amp; Ferries</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-sydney.html">
-                <picture><source srcset="images/pinterest/sydney-photo.webp" type="image/webp"><img src="images/pinterest/sydney-photo.png" alt="Sydney: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Sydney: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/melbourne-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/melbourne-photo.webp" type="image/webp"><img src="images/pinterest/melbourne-photo.png" alt="Melbourne: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Melbourne: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/getting-around-melbourne.html">
-                <picture><source srcset="images/pinterest/melbourne-photo.webp" type="image/webp"><img src="images/pinterest/melbourne-photo.png" alt="Getting Around Melbourne: Trams, Myki &amp; Free Zone" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Logistics</span>
-                  <h3>Getting Around Melbourne: Trams, Myki &amp; Free Zone</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-melbourne.html">
-                <picture><source srcset="images/pinterest/melbourne-photo.webp" type="image/webp"><img src="images/pinterest/melbourne-photo.png" alt="Melbourne: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Melbourne: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/perth-first-timers-guide.html">
-                <picture><source srcset="images/pinterest/perth-photo.webp" type="image/webp"><img src="images/pinterest/perth-photo.png" alt="Perth: A First-Timer&#x27;s Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Perth: A First-Timer&#x27;s Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/getting-around-perth.html">
-                <picture><source srcset="images/pinterest/perth-photo.webp" type="image/webp"><img src="images/pinterest/perth-photo.png" alt="Getting Around Perth: Transperth &amp; Free CAT Buses" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Logistics</span>
-                  <h3>Getting Around Perth: Transperth &amp; Free CAT Buses</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/things-to-do-in-perth.html">
-                <picture><source srcset="images/pinterest/perth-photo.webp" type="image/webp"><img src="images/pinterest/perth-photo.png" alt="Perth: The Places Worth Your Time" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Perth: The Places Worth Your Time</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/suica-pasmo-ic-cards-guide.html">
-                <picture><source srcset="images/pinterest/japan-photo.webp" type="image/webp"><img src="images/pinterest/japan-photo.png" alt="Suica, Pasmo &amp; IC Cards: The Complete 2026 Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Logistics</span>
-                  <h3>Suica, Pasmo &amp; IC Cards: The Complete 2026 Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/where-to-stay-in-tokyo.html">
-                <picture><source srcset="images/pinterest/japan-photo-w2.webp" type="image/webp"><img src="images/pinterest/japan-photo-w2.png" alt="Where to Stay in Tokyo: Neighbourhoods Compared" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Where to Stay in Tokyo: Neighbourhoods Compared</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/how-much-does-japan-cost.html">
-                <picture><source srcset="images/pinterest/japan-photo-w3.webp" type="image/webp"><img src="images/pinterest/japan-photo-w3.png" alt="How Much Does a Trip to Japan Cost in 2026?" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>How Much Does a Trip to Japan Cost in 2026?</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/shinjuku-neighbourhood-guide.html">
-                <picture><source srcset="images/pinterest/japan-arrival-photo.webp" type="image/webp"><img src="images/pinterest/japan-arrival-photo.png" alt="Shinjuku, Tokyo: A Neighbourhood Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Shinjuku, Tokyo: A Neighbourhood Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/gion-kyoto-neighbourhood-guide.html">
-                <picture><source srcset="images/pinterest/japan-autumn-photo.webp" type="image/webp"><img src="images/pinterest/japan-autumn-photo.png" alt="Gion, Kyoto: A Neighbourhood Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Guide</span>
-                  <h3>Gion, Kyoto: A Neighbourhood Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/narita-haneda-to-central-tokyo.html">
-                <picture><source srcset="images/pinterest/japan-arrival-photo.webp" type="image/webp"><img src="images/pinterest/japan-arrival-photo.png" alt="Narita &amp; Haneda to Central Tokyo" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Logistics</span>
-                  <h3>Narita &amp; Haneda to Central Tokyo</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html">
-                <picture><source srcset="images/pinterest/japan-photo.webp" type="image/webp"><img src="images/pinterest/japan-photo.png" alt="Tokyo to Kyoto: Shinkansen, Flight, or Night Bus?" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Logistics</span>
-                  <h3>Tokyo to Kyoto: Shinkansen, Flight, or Night Bus?</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/osaka-or-kyoto-where-to-base.html">
-                <picture><source srcset="images/pinterest/japan-photo-w2.webp" type="image/webp"><img src="images/pinterest/japan-photo-w2.png" alt="Osaka or Kyoto: Which to Base Your Trip In" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Osaka or Kyoto: Which to Base Your Trip In</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/japan-city-sightseeing-passes-worth-it.html">
-                <picture><source srcset="images/pinterest/japan-photo-w3.webp" type="image/webp"><img src="images/pinterest/japan-photo-w3.png" alt="Are Japan&#x27;s City Sightseeing Passes Worth It?" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Tours &amp; Activities</span>
-                  <h3>Are Japan&#x27;s City Sightseeing Passes Worth It?</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/first-day-in-tokyo-arrival-plan.html">
-                <picture><source srcset="images/pinterest/japan-arrival-photo.webp" type="image/webp"><img src="images/pinterest/japan-arrival-photo.png" alt="Your First Day in Tokyo: A Calm Arrival Plan" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Your First Day in Tokyo: A Calm Arrival Plan</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/airport-security-liquids.html">
-                <picture><source srcset="images/pinterest/airport-liquids-photo.webp" type="image/webp"><img src="images/pinterest/airport-liquids-photo.png" alt="Airport Security Liquids Checklist" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Carry-on Prep</span>
-                  <h3>Airport Security Liquids Checklist</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/airport-security-packing-moments.html">
-                <picture><source srcset="images/pinterest/carry-on-photo.webp" type="image/webp"><img src="images/pinterest/carry-on-photo.png" alt="Carry-On Packing for Airport Security" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Carry-on Prep</span>
-                  <h3>Carry-On Packing for Airport Security</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/esim-activation-and-preparation.html">
-                <picture><source srcset="images/pinterest/esim-photo.webp" type="image/webp"><img src="images/pinterest/esim-photo.png" alt="eSIM Setup for International Travel" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Connectivity</span>
-                  <h3>eSIM Setup for International Travel</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/everyday-carry-essentials-for-travel.html">
-                <picture><source srcset="images/pinterest/travel-edc-photo.webp" type="image/webp"><img src="images/pinterest/travel-edc-photo.png" alt="Travel EDC Checklist" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Everyday Carry</span>
-                  <h3>Travel EDC Checklist</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/beach-trip-packing-checklist.html">
-                <picture><source srcset="images/pinterest/beach-photo.webp" type="image/webp"><img src="images/pinterest/beach-photo.png" alt="Beach Trip Packing Checklist" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Sun &amp; Beach</span>
-                  <h3>Beach Trip Packing Checklist</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/hotel-booking-sites-comparison.html">
-                <picture><source srcset="images/pinterest/hotels-photo.webp" type="image/webp"><img src="images/pinterest/hotels-photo.png" alt="Hotel Booking Sites Compared" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Hotel Stay Comfort</span>
-                  <h3>Hotel Booking Sites Compared</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/what-counts-as-rude.html">
-                <picture><source srcset="images/pinterest/etiquette-photo.webp" type="image/webp"><img src="images/pinterest/etiquette-photo.png" alt="What Counts as Rude in 12 Cultures" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Cross-Cultural Etiquette</span>
-                  <h3>What Counts as Rude in 12 Cultures</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/untranslatable-words.html">
-                <picture><source srcset="images/pinterest/untranslatable-photo.webp" type="image/webp"><img src="images/pinterest/untranslatable-photo.png" alt="Untranslatable Words" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Language &amp; Culture</span>
-                  <h3>Untranslatable Words: 14 Concepts in 12 Languages</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/charter-a-boat-for-a-day.html">
-                <picture><source srcset="images/pinterest/boat-day-photo.webp" type="image/webp"><img src="images/pinterest/boat-day-photo.png" alt="Charter a Boat for a Day" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Coastal Travel</span>
-                  <h3>Charter a Boat for a Day (No License Required)</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/travel-insurance-compared.html">
-                <picture><source srcset="images/pinterest/insurance-photo.webp" type="image/webp"><img src="images/pinterest/insurance-photo.png" alt="Travel Insurance Compared" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Travel Safety</span>
-                  <h3>Travel Insurance Compared: SafetyWing vs World Nomads vs Genki</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/airport-security-bag-rules.html">
-                <picture><source srcset="images/pinterest/airport-bags-photo.webp" type="image/webp"><img src="images/pinterest/airport-bags-photo.png" alt="Airport Security Bags: Carry-On and Personal Item Rules" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Carry-on Prep</span>
-                  <h3>Airport Security Bags: Carry-On and Personal Item Rules</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/capsule-wardrobe-2-week-trips.html">
-                <picture><source srcset="images/pinterest/capsule-photo.webp" type="image/webp"><img src="images/pinterest/capsule-photo.png" alt="Capsule Wardrobe for 2-Week Trips" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Packing</span>
-                  <h3>Capsule Wardrobe for 2-Week Trips</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/airalo-vs-holafly-vs-saily.html">
-                <picture><source srcset="images/pinterest/esim-3way-photo.webp" type="image/webp"><img src="images/pinterest/esim-3way-photo.png" alt="Airalo vs Holafly vs Saily" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Connectivity</span>
-                  <h3>Airalo vs Holafly vs Saily</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-esim-japan-korea-vietnam.html">
-                <picture><source srcset="images/pinterest/asia-esim-photo.webp" type="image/webp"><img src="images/pinterest/asia-esim-photo.png" alt="Best eSIM for Japan, Korea &amp; Vietnam" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Connectivity</span>
-                  <h3>Best eSIM for Japan, Korea &amp; Vietnam</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-esim-europe-2026.html">
-                <picture><source srcset="images/pinterest/europe-esim.webp" type="image/webp"><img src="images/pinterest/europe-esim.png" alt="Best eSIM for Europe (2026)" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Connectivity</span>
-                  <h3>Best eSIM for Europe (2026)</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-esim-thailand-2026.html">
-                <picture><source srcset="images/pinterest/thailand-esim.webp" type="image/webp"><img src="images/pinterest/thailand-esim.png" alt="Best eSIM for Thailand (2026)" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Connectivity</span>
-                  <h3>Best eSIM for Thailand (2026)</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-esim-japan-2026.html">
-                <picture><source srcset="images/pinterest/japan-esim-photo.webp" type="image/webp"><img src="images/pinterest/japan-esim-photo.png" alt="Best eSIM for Japan (2026)" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Connectivity</span>
-                  <h3>Best eSIM for Japan (2026)</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/pocket-wifi-vs-esim.html">
-                <picture><source srcset="images/pinterest/wifi-vs-esim-photo.webp" type="image/webp"><img src="images/pinterest/wifi-vs-esim-photo.png" alt="Pocket WiFi vs eSIM" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Connectivity</span>
-                  <h3>Pocket WiFi vs eSIM</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/safetywing-vs-world-nomads.html">
-                <picture><source srcset="images/pinterest/safetywing-vs-world-nomads-photo.webp" type="image/webp"><img src="images/pinterest/safetywing-vs-world-nomads-photo.png" alt="SafetyWing vs World Nomads" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Travel Safety</span>
-                  <h3>SafetyWing vs World Nomads</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-travel-insurance-digital-nomads-2026.html">
-                <picture><source srcset="images/pinterest/nomad-insurance-photo.webp" type="image/webp"><img src="images/pinterest/nomad-insurance-photo.png" alt="Best Travel Insurance for Digital Nomads (2026)" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Travel Safety</span>
-                  <h3>Best Travel Insurance for Digital Nomads (2026)</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/three-slow-days-in-kyoto.html">
-                <picture><source srcset="images/pinterest/kyoto-slow-photo.webp" type="image/webp"><img src="images/pinterest/kyoto-slow-photo.png" alt="Three Slow Days in Kyoto" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itineraries</span>
-                  <h3>Three Slow Days in Kyoto</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/luggage-storage-tokyo.html">
-                <picture><source srcset="images/pinterest/tokyo-luggage.webp" type="image/webp"><img src="images/pinterest/tokyo-luggage.png" alt="Where to Store Luggage in Tokyo" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">City Logistics</span>
-                  <h3>Where to Store Luggage in Tokyo</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/carry-on-packing-list-10-day-japan.html">
-                <picture><source srcset="images/pinterest/japan-carry-on.webp" type="image/webp"><img src="images/pinterest/japan-carry-on.png" alt="Carry-On Packing List for 10 Days in Japan" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Packing</span>
-                  <h3>Carry-On Packing List for 10 Days in Japan</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/klook-vs-viator-vs-getyourguide.html">
-                <picture><source srcset="images/pinterest/tours-3way-photo.webp" type="image/webp"><img src="images/pinterest/tours-3way-photo.png" alt="Klook vs Viator vs GetYourGuide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Tours &amp; Activities</span>
-                  <h3>Klook vs Viator vs GetYourGuide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/airport-security-checklist.html">
-                <picture><source srcset="images/pinterest/airport-security-checklist-photo.webp" type="image/webp"><img src="images/pinterest/airport-security-checklist-photo.png" alt="Airport Security Checklist: 12 Points Before You Fly" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Carry-on Prep</span>
-                  <h3>Airport Security Checklist: 12 Points Before You Fly</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-travel-esim-2026.html">
-                <picture><source srcset="images/pinterest/asia-esim-photo.webp" type="image/webp"><img src="images/pinterest/asia-esim-photo.png" alt="Best Travel eSIM 2026: Ranked, Honestly" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Connectivity</span>
-                  <h3>Best Travel eSIM 2026: Ranked, Honestly</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-travel-insurance-2026.html">
-                <picture><source srcset="images/pinterest/insurance-3way-photo.webp" type="image/webp"><img src="images/pinterest/insurance-3way-photo.png" alt="Best Travel Insurance 2026: Ranked by Traveler Type" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Travel Safety</span>
-                  <h3>Best Travel Insurance 2026: Ranked by Traveler Type</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-esim-usa-2026.html">
-                <picture><source srcset="images/pinterest/japan-arrival-photo.webp" type="image/webp"><img src="images/pinterest/japan-arrival-photo.png" alt="Best eSIM for the USA (2026): How I&#x27;d Choose" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Connectivity</span>
-                  <h3>Best eSIM for the USA (2026): How I&#x27;d Choose</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/is-travel-insurance-worth-it.html">
-                <picture><source srcset="images/pinterest/insurance-claims-photo.webp" type="image/webp"><img src="images/pinterest/insurance-claims-photo.png" alt="Is Travel Insurance Actually Worth It?" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Travel Safety</span>
-                  <h3>Is Travel Insurance Actually Worth It?</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/japan-autumn-2026.html">
-                <picture><source srcset="images/pinterest/kyoto-slow-photo.webp" type="image/webp"><img src="images/pinterest/kyoto-slow-photo.png" alt="Japan in Autumn 2026: Foliage, Crowds &amp; Planning" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Seasonal</span>
-                  <h3>Japan in Autumn 2026: Foliage, Crowds &amp; Planning</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/japan-book-in-advance-2026.html">
-                <picture><source srcset="images/pinterest/japan-photo-w2.webp" type="image/webp"><img src="images/pinterest/japan-photo-w2.png" alt="Japan Tickets That Sell Out: Book Before You Fly" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Tours &amp; Activities</span>
-                  <h3>Japan Tickets That Sell Out: Book Before You Fly</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/travel-insurance-japan.html">
-                <picture><source srcset="images/pinterest/japan-arrival-photo.webp" type="image/webp"><img src="images/pinterest/japan-arrival-photo.png" alt="Do You Need Travel Insurance for Japan?" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Travel Safety</span>
-                  <h3>Do You Need Travel Insurance for Japan?</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-esim-south-korea-2026.html">
-                <picture><source srcset="images/pinterest/asia-esim-photo.webp" type="image/webp"><img src="images/pinterest/asia-esim-photo.png" alt="Best eSIM for South Korea (2026): How I&#x27;d Choose" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Connectivity</span>
-                  <h3>Best eSIM for South Korea (2026): How I&#x27;d Choose</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/jr-pass-worth-it-2026.html">
-                <picture><source srcset="images/pinterest/japan-data-photo.webp" type="image/webp"><img src="images/pinterest/japan-data-photo.png" alt="Is the JR Pass Worth It in 2026? The Honest Math" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Japan Rail</span>
-                  <h3>Is the JR Pass Worth It in 2026? The Honest Math</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-time-to-visit-vietnam.html">
-                <picture><source srcset="images/pinterest/vnjp-esim-photo.webp" type="image/webp"><img src="images/pinterest/vnjp-esim-photo.png" alt="Best Time to Visit Vietnam (2026): Region by Region" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Seasonal</span>
-                  <h3>Best Time to Visit Vietnam (2026): Region by Region</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/first-international-trip-checklist.html">
-                <picture><source srcset="images/pinterest/best-esim-ranking-photo.webp" type="image/webp"><img src="images/pinterest/best-esim-ranking-photo.png" alt="Your First International Trip: A Calm Checklist" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Travel Prep</span>
-                  <h3>Your First International Trip: A Calm Checklist</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-time-to-visit-japan-2026.html">
-                <picture><source srcset="images/pinterest/japan-autumn-photo.webp" type="image/webp"><img src="images/pinterest/japan-autumn-photo.png" alt="Best Time to Visit Japan (2026): A Season-Honest Guide" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Seasonal</span>
-                  <h3>Best Time to Visit Japan (2026): A Season-Honest Guide</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/seoul-itinerary-3-days.html">
-                <picture><source srcset="images/pinterest/asia-esim-photo.webp" type="image/webp"><img src="images/pinterest/asia-esim-photo.png" alt="Seoul in 3 Days: A First-Timer&#x27;s Unhurried Itinerary" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Seoul in 3 Days: A First-Timer&#x27;s Unhurried Itinerary</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/jet-lag-what-actually-works.html">
-                <picture><source srcset="images/pinterest/japan-esim-choice-photo.webp" type="image/webp"><img src="images/pinterest/japan-esim-choice-photo.png" alt="Jet Lag, Honestly: What Helps, What&#x27;s Myth" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Flight Comfort</span>
-                  <h3>Jet Lag, Honestly: What Helps, What&#x27;s Myth</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/best-time-to-visit-australia.html">
-                <picture><source srcset="images/pinterest/australia-photo.webp" type="image/webp"><img src="images/pinterest/australia-photo.png" alt="Best Time to Visit Australia (2026): Region by Region" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Seasonal</span>
-                  <h3>Best Time to Visit Australia (2026): Region by Region</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/tokyo-itinerary-5-days.html">
-                <picture><source srcset="images/pinterest/tokyo-photo.webp" type="image/webp"><img src="images/pinterest/tokyo-photo.png" alt="Tokyo in 5 Days: A First-Timer&#x27;s Unhurried Itinerary" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Tokyo in 5 Days: A First-Timer&#x27;s Unhurried Itinerary</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/kyoto-autumn-2026.html">
-                <picture><source srcset="images/pinterest/japan-tickets-photo.webp" type="image/webp"><img src="images/pinterest/japan-tickets-photo.png" alt="Kyoto in Autumn 2026: Where the Colors Peak, and When" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Seasonal</span>
-                  <h3>Kyoto in Autumn 2026: Where the Colors Peak, and When</h3>
-                </div>
-              </a>
-            </li>
-            <li class="carousel-slide">
-              <a href="articles/osaka-3-day-guide.html">
-                <picture><source srcset="images/pinterest/japan-photo-w3.webp" type="image/webp"><img src="images/pinterest/japan-photo-w3.png" alt="Osaka in 3 Days: Food, Neighborhoods, and Day-One Energy" loading="lazy" decoding="async" /></picture>
-                <div class="carousel-caption">
-                  <span class="carousel-tag">Itinerary</span>
-                  <h3>Osaka in 3 Days: Food, Neighborhoods, and Day-One Energy</h3>
-                </div>
-              </a>
-            </li>
-            <!-- END guides-carousel -->
-          </ul>
-        </div>
-
-        <button class="carousel-arrow carousel-next" type="button" aria-label="Next slide">›</button>
-
-        <div class="carousel-controls">
-          <div class="carousel-dots" role="tablist" aria-label="Slide selector"></div>
-          <button class="carousel-toggle" type="button" aria-label="Pause autoplay">⏸</button>
-        </div>
-      </div>
-    </section>
-
-  <!-- ── Plan your trip — interactive checklist preview ──────────────── -->
-  <section class="ready-score" id="ready" data-reveal>
-    <header class="rs-header">
-      <p class="rs-eyebrow">&mdash; Your Ready Score &mdash;</p>
-      <h2 class="rs-title">How ready are you?</h2>
-      <p class="rs-lead">Pick your trip, tick off what's done, and watch your Ready Score climb. The list
-        rewrites itself for where you're going &mdash; every gap links to the guide that closes it, and it's
+<!-- BEGIN latest (managed by build_library.py) -->
+<section class="gy-latest" id="guides">
+  <div class="gy-section-head"><h2>New on Gently Yonder</h2><a class="gy-section-more" href="all-guides.html">All 144 guides &rarr;</a></div>
+  <div class="gy-card-grid">
+    <a class="gy-card" href="articles/where-to-book-halong-bay-cruise.html"><img class="gy-card-img" src="images/photos/things-hanoi-photo.webp" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /><span class="gy-card-tag">Booking & tours</span><span class="gy-card-title">Where to Book a Halong Bay Cruise: Klook, Viator, or Direct?</span></a>
+    <a class="gy-card" href="articles/where-to-book-mount-fuji-day-tour.html"><img class="gy-card-img" src="images/photos/japan-photo-w2.webp" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /><span class="gy-card-tag">Booking & tours</span><span class="gy-card-title">Where to Book a Mount Fuji Day Tour: Klook, KKday or Viator?</span></a>
+    <a class="gy-card" href="articles/where-to-book-seoul-dmz-tour.html"><img class="gy-card-img" src="images/photos/things-seoul-photo.webp" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /><span class="gy-card-tag">Booking & tours</span><span class="gy-card-title">Where to Book a Seoul DMZ Tour: Klook, KKday or Viator?</span></a>
+    <a class="gy-card" href="articles/bangkok-river-cruises-guide.html"><img class="gy-card-img" src="images/photos/bangkok-photo.webp" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /><span class="gy-card-tag">Booking & tours</span><span class="gy-card-title">Bangkok Dinner Cruises: How to Choose From 28 Boats on the Chao Phraya</span></a>
+    <a class="gy-card" href="articles/do-unlimited-travel-esims-give-unlimited-data.html"><img class="gy-card-img" src="images/photos/esim-photo.webp" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /><span class="gy-card-tag">Connectivity</span><span class="gy-card-title">Do "Unlimited" Travel eSIMs Really Give You Unlimited Data?</span></a>
+    <a class="gy-card" href="articles/europe-rail-pass-worth-it-2026.html"><img class="gy-card-img" src="images/photos/tours-3way-photo.webp" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /><span class="gy-card-tag">Rail</span><span class="gy-card-title">Europe Rail Passes in 2026: What Just Changed, and When a Pass Actually Wins</span></a>
+  </div>
+</section>
+<!-- END latest -->
+<section aria-labelledby="gy-japan-h" class="gy-japan" id="japan">
+<div class="gy-japan-copy">
+<p class="gy-eyebrow">Planning Japan?</p>
+<h2 id="gy-japan-h">The corner of the site we've built out most thoroughly</h2>
+<p>From the first hour off the plane to the plug in the wall. Or take the 60-second Dry Run and find out what you'd have forgotten.</p>
+<a class="button" href="rehearsal.html">Rehearse your Japan trip →</a>
+</div>
+<ul class="gy-japan-links">
+<li><a href="cities/tokyo/index.html">Tokyo city guide</a></li>
+<li><a href="countries/japan/index.html">Japan: the full preparation library</a></li>
+<li><a href="articles/japan-book-in-advance-2026.html">What to book before you fly</a></li>
+<li><a href="articles/jr-pass-worth-it-2026.html">Is the JR Pass worth it in 2026?</a></li>
+<li><a href="articles/carry-on-packing-list-10-day-japan.html">Carry-on packing for 10 days</a></li>
+<li><a href="articles/what-counts-as-rude.html">What counts as rude in Japan</a></li>
+</ul>
+</section>
+<!-- ── Plan your trip — interactive checklist preview ──────────────── -->
+<section class="ready-score" data-reveal="" id="ready">
+<header class="rs-header">
+<p class="rs-eyebrow">— Your Ready Score —</p>
+<h2 class="rs-title">How ready are you?</h2>
+<p class="rs-lead">Pick your trip, tick off what's done, and watch your Ready Score climb. The list
+        rewrites itself for where you're going — every gap links to the guide that closes it, and it's
         saved on this device. No sign-up.</p>
-      <p class="rs-upgrade" style="margin-top:10px;font-size:.95rem;color:#4a5163;">Travelling more than once? <a href="ready-score-pro.html" style="color:#B8945F;font-weight:700;text-decoration:none;">Get Ready Score Pro &rarr;</a> — the savable, printable workbook with current 2026 entry notes.</p>
-    </header>
-
-    <div class="rs-widget">
-      <div class="rs-controls">
-        <div class="rs-field">
-          <span class="rs-field-label">Destination</span>
-          <div class="rs-dest-wrap" id="rs-dest" role="tablist" aria-label="Choose a destination">
-          <div class="rs-region">
-            <span class="rs-region-label">Asia-Pacific</span>
-            <div class="rs-chips">
-            <button class="rs-chip is-active" data-dest="Japan" role="tab">Japan</button>
-            <button class="rs-chip" data-dest="South Korea" role="tab">Korea</button>
-            <button class="rs-chip" data-dest="Taiwan" role="tab">Taiwan</button>
-            <button class="rs-chip" data-dest="Hong Kong" role="tab">Hong Kong</button>
-            <button class="rs-chip" data-dest="Thailand" role="tab">Thailand</button>
-            <button class="rs-chip" data-dest="Vietnam" role="tab">Vietnam</button>
-            <button class="rs-chip" data-dest="Singapore" role="tab">Singapore</button>
-            <button class="rs-chip" data-dest="Malaysia" role="tab">Malaysia</button>
-            <button class="rs-chip" data-dest="Indonesia" role="tab">Bali</button>
-            <button class="rs-chip" data-dest="Philippines" role="tab">Philippines</button>
-            <button class="rs-chip" data-dest="Australia" role="tab">Australia</button>
-            <button class="rs-chip" data-dest="New Zealand" role="tab">New Zealand</button>
-            <button class="rs-chip" data-dest="China" role="tab">China</button>
-            <button class="rs-chip" data-dest="India" role="tab">India</button>
-            <button class="rs-chip" data-dest="Cambodia" role="tab">Cambodia</button>
-            <button class="rs-chip" data-dest="Sri Lanka" role="tab">Sri Lanka</button>
-            <button class="rs-chip" data-dest="Nepal" role="tab">Nepal</button>
-            <button class="rs-chip" data-dest="Maldives" role="tab">Maldives</button>
-            </div>
-          </div>
-          <div class="rs-region">
-            <span class="rs-region-label">Europe</span>
-            <div class="rs-chips">
-            <button class="rs-chip" data-dest="France" role="tab">France</button>
-            <button class="rs-chip" data-dest="Italy" role="tab">Italy</button>
-            <button class="rs-chip" data-dest="Spain" role="tab">Spain</button>
-            <button class="rs-chip" data-dest="United Kingdom" role="tab">UK</button>
-            <button class="rs-chip" data-dest="Germany" role="tab">Germany</button>
-            <button class="rs-chip" data-dest="Switzerland" role="tab">Switzerland</button>
-            <button class="rs-chip" data-dest="Greece" role="tab">Greece</button>
-            <button class="rs-chip" data-dest="Portugal" role="tab">Portugal</button>
-            <button class="rs-chip" data-dest="Netherlands" role="tab">Netherlands</button>
-            <button class="rs-chip" data-dest="Turkey" role="tab">Turkey</button>
-            </div>
-          </div>
-          <div class="rs-region">
-            <span class="rs-region-label">Americas</span>
-            <div class="rs-chips">
-            <button class="rs-chip" data-dest="USA" role="tab">USA</button>
-            <button class="rs-chip" data-dest="Canada" role="tab">Canada</button>
-            <button class="rs-chip" data-dest="Mexico" role="tab">Mexico</button>
-            <button class="rs-chip" data-dest="Brazil" role="tab">Brazil</button>
-            <button class="rs-chip" data-dest="Peru" role="tab">Peru</button>
-            </div>
-          </div>
-          <div class="rs-region">
-            <span class="rs-region-label">Middle East & Africa</span>
-            <div class="rs-chips">
-            <button class="rs-chip" data-dest="Dubai" role="tab">Dubai</button>
-            <button class="rs-chip" data-dest="Egypt" role="tab">Egypt</button>
-            <button class="rs-chip" data-dest="Morocco" role="tab">Morocco</button>
-            </div>
-          </div>
-          </div>
-        </div>
-        <div class="rs-field">
-          <span class="rs-field-label">Trip style</span>
-          <div class="rs-chips rs-chips-sm" id="rs-style" role="tablist" aria-label="Choose a trip style">
-            <button class="rs-chip is-active" data-style="City" role="tab">City</button>
-            <button class="rs-chip" data-style="Beach" role="tab">Beach</button>
-            <button class="rs-chip" data-style="Nature" role="tab">Nature</button>
-            <button class="rs-chip" data-style="Food" role="tab">Food</button>
-          </div>
-        </div>
-      </div>
-
-      <p class="rs-trip" id="rs-trip"></p>
-
-      <div class="rs-body">
-        <div class="rs-gauge">
-          <svg class="rs-ring" viewBox="0 0 120 120" aria-hidden="true">
-            <circle class="rs-ring-bg" cx="60" cy="60" r="52"></circle>
-            <circle class="rs-ring-fg" cx="60" cy="60" r="52" id="rs-ring-fg"
-                    transform="rotate(-90 60 60)"></circle>
-          </svg>
-          <div class="rs-gauge-inner">
-            <span class="rs-gauge-num"><span id="rs-pct">0</span>%</span>
-            <span class="rs-gauge-cap">ready for <span id="rs-gauge-dest">Japan</span></span>
-          </div>
-        </div>
-        <ul class="rs-list" id="rs-list"></ul>
-      </div>
-
-      <p class="rs-next" id="rs-next" aria-live="polite"></p>
-
-      <a href="checklist-generator.html" class="rs-cta" data-magnetic>Build my full <span id="rs-cta-dest">Japan</span> checklist &rarr;</a>
-      <p class="rs-micro">Free &middot; no sign-up &middot; saved on this device</p>
-
-      <div class="rs-worry" id="rs-worry" aria-live="polite"></div>
-
-      <a href="rehearsal.html" class="plan-hub-rehearse">
-        <span class="pr-tag">Next level</span>
-        <span class="pr-text"><strong>Ticked everything and still uneasy? Rehearse your trip.</strong>
-          The Dry Run plays out your travel day and catches what a checklist can't &mdash;
+<p class="rs-upgrade" style="margin-top:10px;font-size:.95rem;color:#4a5163;">Travelling more than once? <a href="ready-score-pro.html" style="color:#B8945F;font-weight:700;text-decoration:none;">Get Ready Score Pro →</a> — the savable, printable workbook with current 2026 entry notes.</p>
+</header>
+<div class="rs-widget">
+<div class="rs-controls">
+<div class="rs-field">
+<span class="rs-field-label">Destination</span>
+<div aria-label="Choose a destination" class="rs-dest-wrap" id="rs-dest" role="tablist">
+<div class="rs-region">
+<span class="rs-region-label">Asia-Pacific</span>
+<div class="rs-chips">
+<button class="rs-chip is-active" data-dest="Japan" role="tab">Japan</button>
+<button class="rs-chip" data-dest="South Korea" role="tab">Korea</button>
+<button class="rs-chip" data-dest="Taiwan" role="tab">Taiwan</button>
+<button class="rs-chip" data-dest="Hong Kong" role="tab">Hong Kong</button>
+<button class="rs-chip" data-dest="Thailand" role="tab">Thailand</button>
+<button class="rs-chip" data-dest="Vietnam" role="tab">Vietnam</button>
+<button class="rs-chip" data-dest="Singapore" role="tab">Singapore</button>
+<button class="rs-chip" data-dest="Malaysia" role="tab">Malaysia</button>
+<button class="rs-chip" data-dest="Indonesia" role="tab">Bali</button>
+<button class="rs-chip" data-dest="Philippines" role="tab">Philippines</button>
+<button class="rs-chip" data-dest="Australia" role="tab">Australia</button>
+<button class="rs-chip" data-dest="New Zealand" role="tab">New Zealand</button>
+<button class="rs-chip" data-dest="China" role="tab">China</button>
+<button class="rs-chip" data-dest="India" role="tab">India</button>
+<button class="rs-chip" data-dest="Cambodia" role="tab">Cambodia</button>
+<button class="rs-chip" data-dest="Sri Lanka" role="tab">Sri Lanka</button>
+<button class="rs-chip" data-dest="Nepal" role="tab">Nepal</button>
+<button class="rs-chip" data-dest="Maldives" role="tab">Maldives</button>
+</div>
+</div>
+<div class="rs-region">
+<span class="rs-region-label">Europe</span>
+<div class="rs-chips">
+<button class="rs-chip" data-dest="France" role="tab">France</button>
+<button class="rs-chip" data-dest="Italy" role="tab">Italy</button>
+<button class="rs-chip" data-dest="Spain" role="tab">Spain</button>
+<button class="rs-chip" data-dest="United Kingdom" role="tab">UK</button>
+<button class="rs-chip" data-dest="Germany" role="tab">Germany</button>
+<button class="rs-chip" data-dest="Switzerland" role="tab">Switzerland</button>
+<button class="rs-chip" data-dest="Greece" role="tab">Greece</button>
+<button class="rs-chip" data-dest="Portugal" role="tab">Portugal</button>
+<button class="rs-chip" data-dest="Netherlands" role="tab">Netherlands</button>
+<button class="rs-chip" data-dest="Turkey" role="tab">Turkey</button>
+</div>
+</div>
+<div class="rs-region">
+<span class="rs-region-label">Americas</span>
+<div class="rs-chips">
+<button class="rs-chip" data-dest="USA" role="tab">USA</button>
+<button class="rs-chip" data-dest="Canada" role="tab">Canada</button>
+<button class="rs-chip" data-dest="Mexico" role="tab">Mexico</button>
+<button class="rs-chip" data-dest="Brazil" role="tab">Brazil</button>
+<button class="rs-chip" data-dest="Peru" role="tab">Peru</button>
+</div>
+</div>
+<div class="rs-region">
+<span class="rs-region-label">Middle East &amp; Africa</span>
+<div class="rs-chips">
+<button class="rs-chip" data-dest="Dubai" role="tab">Dubai</button>
+<button class="rs-chip" data-dest="Egypt" role="tab">Egypt</button>
+<button class="rs-chip" data-dest="Morocco" role="tab">Morocco</button>
+</div>
+</div>
+</div>
+</div>
+<div class="rs-field">
+<span class="rs-field-label">Trip style</span>
+<div aria-label="Choose a trip style" class="rs-chips rs-chips-sm" id="rs-style" role="tablist">
+<button class="rs-chip is-active" data-style="City" role="tab">City</button>
+<button class="rs-chip" data-style="Beach" role="tab">Beach</button>
+<button class="rs-chip" data-style="Nature" role="tab">Nature</button>
+<button class="rs-chip" data-style="Food" role="tab">Food</button>
+</div>
+</div>
+</div>
+<p class="rs-trip" id="rs-trip"></p>
+<div class="rs-body">
+<div class="rs-gauge">
+<svg aria-hidden="true" class="rs-ring" viewbox="0 0 120 120">
+<circle class="rs-ring-bg" cx="60" cy="60" r="52"></circle>
+<circle class="rs-ring-fg" cx="60" cy="60" id="rs-ring-fg" r="52" transform="rotate(-90 60 60)"></circle>
+</svg>
+<div class="rs-gauge-inner">
+<span class="rs-gauge-num"><span id="rs-pct">0</span>%</span>
+<span class="rs-gauge-cap">ready for <span id="rs-gauge-dest">Japan</span></span>
+</div>
+</div>
+<ul class="rs-list" id="rs-list"></ul>
+</div>
+<p aria-live="polite" class="rs-next" id="rs-next"></p>
+<a class="rs-cta" href="checklist-generator.html">Build my full <span id="rs-cta-dest">Japan</span> checklist →</a>
+<p class="rs-micro">Free · no sign-up · saved on this device</p>
+<div aria-live="polite" class="rs-worry" id="rs-worry"></div>
+<a class="plan-hub-rehearse" href="rehearsal.html">
+<span class="pr-tag">Next level</span>
+<span class="pr-text"><strong>Ticked everything and still uneasy? Rehearse your trip.</strong>
+          The Dry Run plays out your travel day and catches what a checklist can't —
           the things you didn't know you'd forget.</span>
-        <span class="pr-arrow">&rarr;</span>
-      </a>
-    </div>
-  </section>
-  <script>
+<span class="pr-arrow">→</span>
+</a>
+</div>
+</section>
+<script>
   (function () {
     var wrap = document.getElementById('ready');
     if (!wrap) return;
@@ -1752,236 +787,193 @@
     renderWorry();
   })();
   </script>
-
-  <section class="apac-map-section" id="map" data-reveal>
-    <header class="apac-map-header">
-      <p class="apac-map-eyebrow">— Where are you going? —</p>
-      <h2 class="apac-map-title">Start with the map.</h2>
-      <p class="apac-map-lead">Tap a country to open its guides. We cover 11 across Asia-Pacific &mdash; and counting.</p>
-    </header>
-    <!-- BEGIN apac-map (managed by build_map.py) -->
+<section class="apac-map-section" data-reveal="" id="map">
+<header class="apac-map-header">
+<p class="apac-map-eyebrow">— Where are you going? —</p>
+<h2 class="apac-map-title">Start with the map.</h2>
+<p class="apac-map-lead">Tap a country to open its guides. We cover 11 across Asia-Pacific — and counting.</p>
+</header>
+<!-- BEGIN apac-map (managed by build_map.py) -->
 <div class="apac-map-wrap">
-  <svg class="apac-map-svg" viewBox="0 0 960 620" role="list"
-       aria-label="Destinations we cover across Asia-Pacific — tap a country">
-    <defs>
-      <radialGradient id="apacField" cx="52%" cy="42%" r="75%">
-        <stop offset="0%" stop-color="#20304c"></stop>
-        <stop offset="60%" stop-color="#182338"></stop>
-        <stop offset="100%" stop-color="#111a2b"></stop>
-      </radialGradient>
-      <pattern id="apacDots" width="26" height="26" patternUnits="userSpaceOnUse">
-        <circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" opacity="0.05"></circle>
-      </pattern>
-      <filter id="apacGlow" x="-60%" y="-60%" width="220%" height="220%">
-        <feGaussianBlur stdDeviation="7" result="b"></feGaussianBlur>
-        <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
-      </filter>
-    </defs>
-    <rect class="apac-field" x="0" y="0" width="960" height="620" rx="26" fill="url(#apacField)"></rect>
-    <g class="apac-grid" aria-hidden="true">
-      <path d="M40 132 Q480 106 920 132"/>
-      <path d="M40 240 Q480 214 920 240"/>
-      <path d="M40 348 Q480 324 920 348"/>
-      <path d="M40 456 Q480 434 920 456"/>
-      <path d="M40 552 Q480 534 920 552"/>
-      <path d="M188 60 Q158 312 188 560"/>
-      <path d="M352 50 Q326 312 352 572"/>
-      <path d="M516 46 Q516 312 516 576"/>
-      <path d="M680 50 Q706 312 680 572"/>
-      <path d="M828 60 Q858 312 828 560"/>
-    </g>
-    <rect x="0" y="0" width="960" height="620" rx="26" fill="url(#apacDots)"></rect>
-    <g class="apac-nodes">
-      <a class="apac-node" href="articles/bangkok-first-timers-guide.html" role="listitem" aria-label="Thailand: 7 guides" data-country="Thailand" data-guides="7" data-cities="Bangkok · Chiang Mai · Phuket">
-        <circle class="apac-halo" cx="150" cy="300" r="27.3"></circle>
-        <circle class="apac-dot" cx="150" cy="300" r="17.3"></circle>
-        <text class="apac-count" x="150" y="304.5">7</text>
-        <text class="apac-name" x="150" y="333.3">Thailand</text>
-      </a>
-      <a class="apac-node" href="countries/vietnam/" role="listitem" aria-label="Vietnam: 6 guides" data-country="Vietnam" data-guides="6" data-cities="Hanoi · Ho Chi Minh City · Hoi An">
-        <circle class="apac-halo" cx="300" cy="262" r="26.9"></circle>
-        <circle class="apac-dot" cx="300" cy="262" r="16.9"></circle>
-        <text class="apac-count" x="300" y="266.5">6</text>
-        <text class="apac-name" x="300" y="294.9">Vietnam</text>
-      </a>
-      <a class="apac-node" href="articles/hong-kong-first-timers-guide.html" role="listitem" aria-label="Hong Kong: 2 guides" data-country="Hong Kong" data-guides="2" data-cities="Hong Kong">
-        <circle class="apac-halo" cx="420" cy="300" r="24.4"></circle>
-        <circle class="apac-dot" cx="420" cy="300" r="14.4"></circle>
-        <text class="apac-count" x="420" y="304.5">2</text>
-        <text class="apac-name" x="420" y="330.4">Hong Kong</text>
-      </a>
-      <a class="apac-node" href="articles/kuala-lumpur-first-timers-guide.html" role="listitem" aria-label="Malaysia: 3 guides" data-country="Malaysia" data-guides="3" data-cities="Kuala Lumpur · Penang">
-        <circle class="apac-halo" cx="168" cy="432" r="25.2"></circle>
-        <circle class="apac-dot" cx="168" cy="432" r="15.2"></circle>
-        <text class="apac-count" x="168" y="436.5">3</text>
-        <text class="apac-name" x="168" y="463.2">Malaysia</text>
-      </a>
-      <a class="apac-node" href="articles/singapore-first-timers-guide.html" role="listitem" aria-label="Singapore: 2 guides" data-country="Singapore" data-guides="2" data-cities="Singapore">
-        <circle class="apac-halo" cx="250" cy="494" r="24.4"></circle>
-        <circle class="apac-dot" cx="250" cy="494" r="14.4"></circle>
-        <text class="apac-count" x="250" y="498.5">2</text>
-        <text class="apac-name" x="250" y="524.4">Singapore</text>
-      </a>
-      <a class="apac-node" href="articles/bali-first-timers-guide.html" role="listitem" aria-label="Indonesia: 4 guides" data-country="Indonesia" data-guides="4" data-cities="Bali · Yogyakarta">
-        <circle class="apac-halo" cx="398" cy="508" r="25.8"></circle>
-        <circle class="apac-dot" cx="398" cy="508" r="15.8"></circle>
-        <text class="apac-count" x="398" y="512.5">4</text>
-        <text class="apac-name" x="398" y="539.8">Indonesia</text>
-      </a>
-      <a class="apac-node" href="articles/taipei-first-timers-guide.html" role="listitem" aria-label="Taiwan: 3 guides" data-country="Taiwan" data-guides="3" data-cities="Taipei">
-        <circle class="apac-halo" cx="556" cy="250" r="25.2"></circle>
-        <circle class="apac-dot" cx="556" cy="250" r="15.2"></circle>
-        <text class="apac-count" x="556" y="254.5">3</text>
-        <text class="apac-name" x="556" y="281.2">Taiwan</text>
-      </a>
-      <a class="apac-node" href="articles/manila-first-timers-guide.html" role="listitem" aria-label="Philippines: 3 guides" data-country="Philippines" data-guides="3" data-cities="Manila · Cebu">
-        <circle class="apac-halo" cx="602" cy="388" r="25.2"></circle>
-        <circle class="apac-dot" cx="602" cy="388" r="15.2"></circle>
-        <text class="apac-count" x="602" y="392.5">3</text>
-        <text class="apac-name" x="602" y="419.2">Philippines</text>
-      </a>
-      <a class="apac-node" href="articles/seoul-first-timers-guide.html" role="listitem" aria-label="South Korea: 4 guides" data-country="South Korea" data-guides="4" data-cities="Seoul">
-        <circle class="apac-halo" cx="668" cy="196" r="25.8"></circle>
-        <circle class="apac-dot" cx="668" cy="196" r="15.8"></circle>
-        <text class="apac-count" x="668" y="200.5">4</text>
-        <text class="apac-name" x="668" y="227.8">South Korea</text>
-      </a>
-      <a class="apac-node" href="countries/japan/" role="listitem" aria-label="Japan: 24 guides" data-country="Japan" data-guides="24" data-cities="Tokyo · Kyoto · Osaka">
-        <circle class="apac-halo" cx="812" cy="176" r="32.8"></circle>
-        <circle class="apac-dot" cx="812" cy="176" r="22.8"></circle>
-        <text class="apac-count" x="812" y="180.5">24</text>
-        <text class="apac-name" x="812" y="214.8">Japan</text>
-      </a>
-      <a class="apac-node" href="countries/australia/" role="listitem" aria-label="Australia: 10 guides" data-country="Australia" data-guides="10" data-cities="Melbourne · Perth · Sydney">
-        <circle class="apac-halo" cx="836" cy="548" r="28.6"></circle>
-        <circle class="apac-dot" cx="836" cy="548" r="18.6"></circle>
-        <text class="apac-count" x="836" y="552.5">10</text>
-        <text class="apac-name" x="836" y="582.6">Australia</text>
-      </a>
-    </g>
-  </svg>
-  <div class="apac-tooltip" role="status" aria-live="polite" hidden>
-    <span class="apac-tt-name"></span>
-    <span class="apac-tt-meta"></span>
-  </div>
+<svg aria-label="Destinations we cover across Asia-Pacific — tap a country" class="apac-map-svg" role="list" viewbox="0 0 960 620">
+<defs>
+<radialgradient cx="52%" cy="42%" id="apacField" r="75%">
+<stop offset="0%" stop-color="#20304c"></stop>
+<stop offset="60%" stop-color="#182338"></stop>
+<stop offset="100%" stop-color="#111a2b"></stop>
+</radialgradient>
+<pattern height="26" id="apacDots" patternunits="userSpaceOnUse" width="26">
+<circle cx="1.5" cy="1.5" fill="#ffffff" opacity="0.05" r="1.5"></circle>
+</pattern>
+<filter height="220%" id="apacGlow" width="220%" x="-60%" y="-60%">
+<fegaussianblur result="b" stddeviation="7"></fegaussianblur>
+<femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge>
+</filter>
+</defs>
+<rect class="apac-field" fill="url(#apacField)" height="620" rx="26" width="960" x="0" y="0"></rect>
+<g aria-hidden="true" class="apac-grid">
+<path d="M40 132 Q480 106 920 132"></path>
+<path d="M40 240 Q480 214 920 240"></path>
+<path d="M40 348 Q480 324 920 348"></path>
+<path d="M40 456 Q480 434 920 456"></path>
+<path d="M40 552 Q480 534 920 552"></path>
+<path d="M188 60 Q158 312 188 560"></path>
+<path d="M352 50 Q326 312 352 572"></path>
+<path d="M516 46 Q516 312 516 576"></path>
+<path d="M680 50 Q706 312 680 572"></path>
+<path d="M828 60 Q858 312 828 560"></path>
+</g>
+<rect fill="url(#apacDots)" height="620" rx="26" width="960" x="0" y="0"></rect>
+<g class="apac-nodes">
+<a aria-label="Thailand: 7 guides" class="apac-node" data-cities="Bangkok · Chiang Mai · Phuket" data-country="Thailand" data-guides="7" href="articles/bangkok-first-timers-guide.html" role="listitem">
+<circle class="apac-halo" cx="150" cy="300" r="27.3"></circle>
+<circle class="apac-dot" cx="150" cy="300" r="17.3"></circle>
+<text class="apac-count" x="150" y="304.5">7</text>
+<text class="apac-name" x="150" y="333.3">Thailand</text>
+</a>
+<a aria-label="Vietnam: 6 guides" class="apac-node" data-cities="Hanoi · Ho Chi Minh City · Hoi An" data-country="Vietnam" data-guides="6" href="countries/vietnam/" role="listitem">
+<circle class="apac-halo" cx="300" cy="262" r="26.9"></circle>
+<circle class="apac-dot" cx="300" cy="262" r="16.9"></circle>
+<text class="apac-count" x="300" y="266.5">6</text>
+<text class="apac-name" x="300" y="294.9">Vietnam</text>
+</a>
+<a aria-label="Hong Kong: 2 guides" class="apac-node" data-cities="Hong Kong" data-country="Hong Kong" data-guides="2" href="articles/hong-kong-first-timers-guide.html" role="listitem">
+<circle class="apac-halo" cx="420" cy="300" r="24.4"></circle>
+<circle class="apac-dot" cx="420" cy="300" r="14.4"></circle>
+<text class="apac-count" x="420" y="304.5">2</text>
+<text class="apac-name" x="420" y="330.4">Hong Kong</text>
+</a>
+<a aria-label="Malaysia: 3 guides" class="apac-node" data-cities="Kuala Lumpur · Penang" data-country="Malaysia" data-guides="3" href="articles/kuala-lumpur-first-timers-guide.html" role="listitem">
+<circle class="apac-halo" cx="168" cy="432" r="25.2"></circle>
+<circle class="apac-dot" cx="168" cy="432" r="15.2"></circle>
+<text class="apac-count" x="168" y="436.5">3</text>
+<text class="apac-name" x="168" y="463.2">Malaysia</text>
+</a>
+<a aria-label="Singapore: 2 guides" class="apac-node" data-cities="Singapore" data-country="Singapore" data-guides="2" href="articles/singapore-first-timers-guide.html" role="listitem">
+<circle class="apac-halo" cx="250" cy="494" r="24.4"></circle>
+<circle class="apac-dot" cx="250" cy="494" r="14.4"></circle>
+<text class="apac-count" x="250" y="498.5">2</text>
+<text class="apac-name" x="250" y="524.4">Singapore</text>
+</a>
+<a aria-label="Indonesia: 4 guides" class="apac-node" data-cities="Bali · Yogyakarta" data-country="Indonesia" data-guides="4" href="articles/bali-first-timers-guide.html" role="listitem">
+<circle class="apac-halo" cx="398" cy="508" r="25.8"></circle>
+<circle class="apac-dot" cx="398" cy="508" r="15.8"></circle>
+<text class="apac-count" x="398" y="512.5">4</text>
+<text class="apac-name" x="398" y="539.8">Indonesia</text>
+</a>
+<a aria-label="Taiwan: 3 guides" class="apac-node" data-cities="Taipei" data-country="Taiwan" data-guides="3" href="articles/taipei-first-timers-guide.html" role="listitem">
+<circle class="apac-halo" cx="556" cy="250" r="25.2"></circle>
+<circle class="apac-dot" cx="556" cy="250" r="15.2"></circle>
+<text class="apac-count" x="556" y="254.5">3</text>
+<text class="apac-name" x="556" y="281.2">Taiwan</text>
+</a>
+<a aria-label="Philippines: 3 guides" class="apac-node" data-cities="Manila · Cebu" data-country="Philippines" data-guides="3" href="articles/manila-first-timers-guide.html" role="listitem">
+<circle class="apac-halo" cx="602" cy="388" r="25.2"></circle>
+<circle class="apac-dot" cx="602" cy="388" r="15.2"></circle>
+<text class="apac-count" x="602" y="392.5">3</text>
+<text class="apac-name" x="602" y="419.2">Philippines</text>
+</a>
+<a aria-label="South Korea: 4 guides" class="apac-node" data-cities="Seoul" data-country="South Korea" data-guides="4" href="articles/seoul-first-timers-guide.html" role="listitem">
+<circle class="apac-halo" cx="668" cy="196" r="25.8"></circle>
+<circle class="apac-dot" cx="668" cy="196" r="15.8"></circle>
+<text class="apac-count" x="668" y="200.5">4</text>
+<text class="apac-name" x="668" y="227.8">South Korea</text>
+</a>
+<a aria-label="Japan: 24 guides" class="apac-node" data-cities="Tokyo · Kyoto · Osaka" data-country="Japan" data-guides="24" href="countries/japan/" role="listitem">
+<circle class="apac-halo" cx="812" cy="176" r="32.8"></circle>
+<circle class="apac-dot" cx="812" cy="176" r="22.8"></circle>
+<text class="apac-count" x="812" y="180.5">24</text>
+<text class="apac-name" x="812" y="214.8">Japan</text>
+</a>
+<a aria-label="Australia: 10 guides" class="apac-node" data-cities="Melbourne · Perth · Sydney" data-country="Australia" data-guides="10" href="countries/australia/" role="listitem">
+<circle class="apac-halo" cx="836" cy="548" r="28.6"></circle>
+<circle class="apac-dot" cx="836" cy="548" r="18.6"></circle>
+<text class="apac-count" x="836" y="552.5">10</text>
+<text class="apac-name" x="836" y="582.6">Australia</text>
+</a>
+</g>
+</svg>
+<div aria-live="polite" class="apac-tooltip" hidden="" role="status">
+<span class="apac-tt-name"></span>
+<span class="apac-tt-meta"></span>
 </div>
-<ul class="apac-legend" aria-label="All countries we cover">
-      <li><a class="apac-chip" href="countries/japan/"><span class="apac-chip-name">Japan</span><span class="apac-chip-count">24</span></a></li>
-      <li><a class="apac-chip" href="countries/australia/"><span class="apac-chip-name">Australia</span><span class="apac-chip-count">10</span></a></li>
-      <li><a class="apac-chip" href="articles/bangkok-first-timers-guide.html"><span class="apac-chip-name">Thailand</span><span class="apac-chip-count">7</span></a></li>
-      <li><a class="apac-chip" href="countries/vietnam/"><span class="apac-chip-name">Vietnam</span><span class="apac-chip-count">6</span></a></li>
-      <li><a class="apac-chip" href="articles/bali-first-timers-guide.html"><span class="apac-chip-name">Indonesia</span><span class="apac-chip-count">4</span></a></li>
-      <li><a class="apac-chip" href="articles/seoul-first-timers-guide.html"><span class="apac-chip-name">South Korea</span><span class="apac-chip-count">4</span></a></li>
-      <li><a class="apac-chip" href="articles/kuala-lumpur-first-timers-guide.html"><span class="apac-chip-name">Malaysia</span><span class="apac-chip-count">3</span></a></li>
-      <li><a class="apac-chip" href="articles/taipei-first-timers-guide.html"><span class="apac-chip-name">Taiwan</span><span class="apac-chip-count">3</span></a></li>
-      <li><a class="apac-chip" href="articles/manila-first-timers-guide.html"><span class="apac-chip-name">Philippines</span><span class="apac-chip-count">3</span></a></li>
-      <li><a class="apac-chip" href="articles/hong-kong-first-timers-guide.html"><span class="apac-chip-name">Hong Kong</span><span class="apac-chip-count">2</span></a></li>
-      <li><a class="apac-chip" href="articles/singapore-first-timers-guide.html"><span class="apac-chip-name">Singapore</span><span class="apac-chip-count">2</span></a></li>
+</div>
+<ul aria-label="All countries we cover" class="apac-legend">
+<li><a class="apac-chip" href="countries/japan/"><span class="apac-chip-name">Japan</span><span class="apac-chip-count">24</span></a></li>
+<li><a class="apac-chip" href="countries/australia/"><span class="apac-chip-name">Australia</span><span class="apac-chip-count">10</span></a></li>
+<li><a class="apac-chip" href="articles/bangkok-first-timers-guide.html"><span class="apac-chip-name">Thailand</span><span class="apac-chip-count">7</span></a></li>
+<li><a class="apac-chip" href="countries/vietnam/"><span class="apac-chip-name">Vietnam</span><span class="apac-chip-count">6</span></a></li>
+<li><a class="apac-chip" href="articles/bali-first-timers-guide.html"><span class="apac-chip-name">Indonesia</span><span class="apac-chip-count">4</span></a></li>
+<li><a class="apac-chip" href="articles/seoul-first-timers-guide.html"><span class="apac-chip-name">South Korea</span><span class="apac-chip-count">4</span></a></li>
+<li><a class="apac-chip" href="articles/kuala-lumpur-first-timers-guide.html"><span class="apac-chip-name">Malaysia</span><span class="apac-chip-count">3</span></a></li>
+<li><a class="apac-chip" href="articles/taipei-first-timers-guide.html"><span class="apac-chip-name">Taiwan</span><span class="apac-chip-count">3</span></a></li>
+<li><a class="apac-chip" href="articles/manila-first-timers-guide.html"><span class="apac-chip-name">Philippines</span><span class="apac-chip-count">3</span></a></li>
+<li><a class="apac-chip" href="articles/hong-kong-first-timers-guide.html"><span class="apac-chip-name">Hong Kong</span><span class="apac-chip-count">2</span></a></li>
+<li><a class="apac-chip" href="articles/singapore-first-timers-guide.html"><span class="apac-chip-name">Singapore</span><span class="apac-chip-count">2</span></a></li>
 </ul>
 <!-- END apac-map -->
-  </section>
-
-  <!-- ── Main content ──────────────────────────────────────────────────── -->
-  <main>
-
-    <section class="disclosure" data-reveal>
-      <p>
-        Disclosure: Some links on this site are affiliate links.
-        As an Amazon Associate, Gently Yonder earns from qualifying purchases —
-        always at no extra cost to you.
-      </p>
-    </section>
-
-    <!-- AUTO-GENERATED-SECTIONS-START -->
-
-    <!-- Travel gear directory teaser — full page at /gear.html ──────────── -->
-    <section class="directory-section gear-directory" id="lists" data-reveal>
-      <h2>Travel gear directory</h2>
-      <p class="intro">Our honest gear picks, grouped by category and sortable — 33 items. Filter to what you need, then check the current price on Amazon.</p>
-      <div class="gear-teaser-pills">
-        <a class="gear-teaser-pill" href="gear.html">eSIM & Connectivity</a>
-        <a class="gear-teaser-pill" href="gear.html">Packing Essentials</a>
-        <a class="gear-teaser-pill" href="gear.html">Flight Comfort</a>
-        <a class="gear-teaser-pill" href="gear.html">Power & Charging</a>
-        <a class="gear-teaser-pill" href="gear.html">Travel Safety</a>
-        <a class="gear-teaser-pill" href="gear.html">Camera Travel Gear</a>
-        <a class="gear-teaser-pill" href="gear.html">Sun & Beach</a>
-        <a class="gear-teaser-pill" href="gear.html">Hotel Stay Comfort</a>
-        <a class="gear-teaser-pill" href="gear.html">Travel Health & Insurance</a>
-      </div>
-      <a class="gear-teaser-cta" href="gear.html">Browse the full gear directory &rarr;</a>
-    </section>
-
-    <!-- AUTO-GENERATED-SECTIONS-END -->
-
-    <!-- Newsletter CTA — Tally form ─────────────────────────────────── -->
-    <section class="newsletter-cta" data-reveal>
-      <div class="newsletter-inner">
-        <span class="newsletter-label">The Weekly Travel Prep Brief</span>
-        <h2>One quiet, useful travel-prep email a week.</h2>
-        <p class="newsletter-desc">
+</section>
+<!-- ── Main content ──────────────────────────────────────────────────── -->
+<main>
+<section aria-labelledby="gy-how-h" class="gy-how">
+<div class="gy-section-head"><h2 id="gy-how-h">How Gently Yonder works</h2></div>
+<div class="gy-how-grid">
+<div><h3>Independent</h3><p>Reader-supported. Some links earn us a commission, but rankings are never sold — and when a platform we don't earn from is the better answer, we name it.</p></div>
+<div><h3>Checked at the source</h3><p>Prices, rules and dates come from the operator, the regulator or the listing itself, and every guide shows the date it last changed.</p><a href="methodology.html">How we verify →</a></div>
+<div><h3>Built with travellers</h3><p>Reports from readers decide what we check and cover next.</p><a href="contribute.html">Add yours in 90 seconds →</a></div>
+</div>
+<p class="gy-how-links"><a href="about.html">About</a> · <a href="editors.html">Editors</a> · <a href="editorial.html">Editorial guidelines</a></p>
+</section>
+<!-- AUTO-GENERATED-SECTIONS-START -->
+<!-- Travel gear directory teaser — full page at /gear.html ──────────── -->
+<section class="directory-section gear-directory" data-reveal="" id="lists">
+<h2>Travel gear directory</h2>
+<p class="intro">Our honest gear picks, grouped by category and sortable — 33 items. Filter to what you need, then check the current price on Amazon.</p>
+<div class="gear-teaser-pills">
+<a class="gear-teaser-pill" href="gear.html">eSIM &amp; Connectivity</a>
+<a class="gear-teaser-pill" href="gear.html">Packing Essentials</a>
+<a class="gear-teaser-pill" href="gear.html">Flight Comfort</a>
+<a class="gear-teaser-pill" href="gear.html">Power &amp; Charging</a>
+<a class="gear-teaser-pill" href="gear.html">Travel Safety</a>
+<a class="gear-teaser-pill" href="gear.html">Camera Travel Gear</a>
+<a class="gear-teaser-pill" href="gear.html">Sun &amp; Beach</a>
+<a class="gear-teaser-pill" href="gear.html">Hotel Stay Comfort</a>
+<a class="gear-teaser-pill" href="gear.html">Travel Health &amp; Insurance</a>
+</div>
+<a class="gear-teaser-cta" href="gear.html">Browse the full gear directory →</a>
+</section>
+<!-- AUTO-GENERATED-SECTIONS-END -->
+<!-- Newsletter CTA — Tally form ─────────────────────────────────── -->
+<section class="newsletter-cta" data-reveal="">
+<div class="newsletter-inner">
+<span class="newsletter-label">The Weekly Travel Prep Brief</span>
+<h2>One quiet, useful travel-prep email a week.</h2>
+<p class="newsletter-desc">
           The same calm, practical prep this site is built on — country notes, packing
           reminders, connectivity and gear — distilled into one short email. Subscribe and
           we'll send our printable Pre-Flight Checklist (documents, money, eSIM, carry-on,
           and the liquid/battery rules travelers trip over) as your welcome.
         </p>
-        <button
-          data-tally-open="2EoDRA"
-          data-tally-emoji-text="✈️"
-          data-tally-emoji-animation="wave"
-          class="newsletter-btn">
+<button class="newsletter-btn" data-tally-emoji-animation="wave" data-tally-emoji-text="✈️" data-tally-open="2EoDRA">
           Subscribe free →
         </button>
-        <a href="downloads/travel-now-preflight-checklist.pdf"
-           class="newsletter-btn" target="_blank" rel="noopener"
-           style="display:inline-block;text-decoration:none;margin-left:10px;background:transparent;border:2px solid #C9A84C;">
+<a class="newsletter-btn" href="downloads/travel-now-preflight-checklist.pdf" rel="noopener" style="display:inline-block;text-decoration:none;margin-left:10px;background:transparent;border:2px solid #C9A84C;" target="_blank">
           Or just grab the checklist (PDF) →
         </a>
-        <p class="newsletter-note">Free, and no signup wall — the checklist downloads either way. Unsubscribe in one click, anytime.</p>
-      </div>
-    </section>
-
-    <section class="about" data-reveal>
-      <h2>About Gently Yonder</h2>
-      <p>
-        Gently Yonder is a practical travel-prep hub for people who want smoother trips with less last-minute stress.
-        The site focuses on simple checklists, packing ideas, connectivity prep, flight comfort, safety basics, and useful travel tools.
-      </p>
-      <p>
-        Product links are selected around common travel-prep needs. Always check product details, current prices, airline rules, visa rules, insurance terms, and official travel guidance before making decisions.
-      </p>
-    </section>
-
-  </main>
-
-  <!-- ── Sticky mobile CTA ─────────────────────────────────────────────── -->
-  <div class="sticky-cta" id="sticky-cta" aria-hidden="true">
-    <a href="checklist-generator.html" class="button primary-glow" data-magnetic onclick="document.getElementById('sticky-cta').classList.add('hidden')">
-      Build My Checklist →
-    </a>
-  </div>
-
-  <footer>
-    <p>Gently Yonder is an independent travel editorial project. Follow us for thoughtful travel writing.</p>
-    <p style="margin-top: 10px;">
-      <a href="about.html">About</a> ·
-      <a href="editorial.html">Editorial Guidelines</a> ·
-      <a href="methodology.html">Methodology</a> ·
-      <a href="editors.html">Editors</a> ·
-      <a href="travel-power/index.html">Travel Power</a> ·
-      <a href="tools/esim-finder.html">eSIM Finder</a> ·
-      <a href="tools/insurance-finder.html">Insurance Finder</a> ·
-      <a href="checklist-generator.html">Checklist Generator</a> ·
-      <a href="privacy.html">Privacy</a> ·
-      <a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a>
-    </p>
-    <!-- Impact affiliate network verification — visible to scrapers -->
-    <p class="impact-verification" style="font-size:0.72rem; color:#9aa0a6; margin-top:18px; font-family:monospace;">
-      Impact-Site-Verification: e7c45dc4-a3ad-48e4-b7ae-62165f847e5e
-    </p>
-  </footer>
-
-  <script>
+<p class="newsletter-note">Free, and no signup wall — the checklist downloads either way. Unsubscribe in one click, anytime.</p>
+</div>
+</section>
+</main>
+<!-- BEGIN site-footer (managed by add_footer.py) -->
+<footer class="gy-footer">
+<div class="gy-footer-inner">
+<div class="gy-footer-brand"><a class="gy-footer-logo" href="index.html">Gently Yonder</a><p>An independent travel-preparation publication. We check what we publish against primary sources, and date every guide when it changes.</p></div>
+<nav aria-label="Footer" class="gy-footer-cols"><div class="gy-footer-col"><h2>Guides</h2><a href="all-guides.html">All guides</a><a href="articles/klook-vs-viator-vs-getyourguide.html">Booking tours</a><a href="articles/best-travel-esim-2026.html">Travel eSIMs</a><a href="articles/best-travel-insurance-2026.html">Travel insurance</a><a href="index.html#map">Destinations</a></div><div class="gy-footer-col"><h2>Tools</h2><a href="tools/index.html">All tools</a><a href="index.html#ready">Ready Score</a><a href="checklist-generator.html">Checklist generator</a><a href="tools/esim-finder.html">eSIM finder</a><a href="gear.html">Gear directory</a></div><div class="gy-footer-col"><h2>About</h2><a href="about.html">About Gently Yonder</a><a href="editors.html">Editors</a><a href="editorial.html">Editorial guidelines</a><a href="methodology.html">How we verify</a><a href="privacy.html">Privacy</a></div></nav>
+</div>
+<div class="gy-footer-legal"><p>Disclosure: some links on this site are affiliate links. If you book or buy through them we may earn a commission, at no extra cost to you; it never decides what we recommend. As an Amazon Associate, Gently Yonder earns from qualifying purchases.</p><p>© 2026 Gently Yonder · <a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a></p></div>
+</footer>
+<!-- END site-footer -->
+<script>
   (function () {
     'use strict';
 
@@ -2046,289 +1038,19 @@
       });
     });
 
-    /* ── Sticky CTA: hide when hero CTA is visible ─────────────────────── */
-    var stickyCta = document.getElementById('sticky-cta');
-    if (stickyCta && 'IntersectionObserver' in window) {
-      var heroCta = document.querySelector('.hero .button.primary-glow');
-      if (heroCta) {
-        var ctaObserver = new IntersectionObserver(function (entries) {
-          entries.forEach(function (entry) {
-            if (entry.isIntersecting) {
-              stickyCta.classList.add('hidden');
-            } else {
-              stickyCta.classList.remove('hidden');
-            }
-          });
-        }, { threshold: 0.5 });
-        ctaObserver.observe(heroCta);
-      }
-    }
-
     // (quick-plan mock widget removed — merged into the #ready Ready Score)
   })();
   </script>
-
-  <!-- ── GSAP-powered premium enhancements ──────────────────────────────── -->
-  <script>
-  (function () {
-    'use strict';
-
-    var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-    // Wait for deferred scripts to load
-    window.addEventListener('load', function () {
-      if (prefersReduced)         return;  // respect user preference
-      if (!window.gsap)           return;  // CDN failed — fall back to existing CSS animations
-      if (window.matchMedia('(max-width: 720px)').matches) {
-        // On small mobile, skip the heavy effects (tilt + magnetic). Keep word reveal + counters.
-        runMobile();
-        return;
-      }
-
-      gsap.registerPlugin(window.ScrollTrigger);
-
-      heroWordReveal();
-      heroSequence();
-      countersUp();
-      enhancedScrollReveals();
-      initTilt();
-      initMagnetic();
-    });
-
-    function runMobile() {
-      gsap.registerPlugin(window.ScrollTrigger);
-      heroWordReveal();
-      heroSequence();
-      countersUp();
-      enhancedScrollReveals();
-    }
-
-    // 1. Hero headline: each word fades + lifts + un-blurs in sequence
-    function heroWordReveal() {
-      var headline = document.querySelector('.hero-headline');
-      if (!headline) return;
-      var lines = headline.innerHTML.split(/<br\s*\/?>/i);
-      headline.innerHTML = lines.map(function (line) {
-        var text = line.replace(/<[^>]+>/g, '').trim();
-        return text.split(/\s+/).map(function (w) {
-          return '<span class="word">' + w + '</span>';
-        }).join(' ');
-      }).join('<br/>');
-      gsap.from('.hero-headline .word', {
-        opacity: 0,
-        y: 28,
-        filter: 'blur(8px)',
-        duration: 0.85,
-        stagger: 0.07,
-        ease: 'power3.out',
-      });
-    }
-
-    // 2. Subtitle, buttons, stats — staggered after the headline
-    function heroSequence() {
-      gsap.from('.hero-left .subtitle', { opacity: 0, y: 18, duration: 0.7, delay: 0.55, ease: 'power3.out' });
-      gsap.from('.hero-left .buttons .button', { opacity: 0, y: 14, duration: 0.7, stagger: 0.1, delay: 0.7, ease: 'power3.out' });
-      gsap.from('.hero-stats .stat', { opacity: 0, y: 14, duration: 0.7, stagger: 0.08, delay: 0.9, ease: 'power3.out' });
-      gsap.from('.hero-right .hero-widget', { opacity: 0, x: 24, duration: 1.0, delay: 0.4, ease: 'power3.out' });
-    }
-
-    // 3. Stats: count from 0 → final value
-    function countersUp() {
-      document.querySelectorAll('[data-count-to]').forEach(function (el) {
-        var to = parseInt(el.dataset.countTo, 10);
-        var suffix = el.dataset.suffix || '';
-        el.textContent = '0' + suffix;
-        var obj = { val: 0 };
-        gsap.to(obj, {
-          val: to,
-          duration: 1.6,
-          delay: 1.0,
-          ease: 'power2.out',
-          onUpdate: function () { el.textContent = Math.round(obj.val) + suffix; }
-        });
-      });
-    }
-
-    // 4. Enhanced scroll-reveal — replaces the IntersectionObserver flicker with a real animation
-    function enhancedScrollReveals() {
-      // Remove the basic .revealed class so we can animate fresh.
-      // For elements still in initial state, ScrollTrigger handles them.
-      document.querySelectorAll('[data-reveal]').forEach(function (el) {
-        // If element is already revealed (above the fold), skip ScrollTrigger
-        var rect = el.getBoundingClientRect();
-        var inView = rect.top < window.innerHeight && rect.bottom > 0;
-        if (inView) return;
-
-        el.classList.remove('revealed');
-        gsap.fromTo(el,
-          { opacity: 0, y: 36 },
-          {
-            opacity: 1, y: 0, duration: 0.9, ease: 'power3.out',
-            scrollTrigger: {
-              trigger: el,
-              start: 'top 88%',
-              toggleActions: 'play none none none',
-            },
-            onComplete: function () { el.classList.add('revealed'); }
-          });
-      });
-    }
-
-    // 5. Vanilla-tilt: subtle 3D card tilt on hover
-    function initTilt() {
-      if (!window.VanillaTilt) return;
-      var els = document.querySelectorAll('[data-tilt]');
-      if (!els.length) return;
-      VanillaTilt.init(els, {
-        max: 6,
-        speed: 400,
-        glare: true,
-        'max-glare': 0.15,
-        scale: 1.02,
-        gyroscope: false,
-      });
-    }
-
-    // 6. Magnetic buttons: subtle attraction toward cursor
-    function initMagnetic() {
-      document.querySelectorAll('[data-magnetic]').forEach(function (btn) {
-        var bounds = null;
-        btn.addEventListener('mousemove', function (e) {
-          if (!bounds) bounds = btn.getBoundingClientRect();
-          var x = (e.clientX - bounds.left - bounds.width / 2) * 0.22;
-          var y = (e.clientY - bounds.top - bounds.height / 2) * 0.22;
-          gsap.to(btn, { x: x, y: y, duration: 0.3, ease: 'power2.out' });
-        });
-        btn.addEventListener('mouseleave', function () {
-          gsap.to(btn, { x: 0, y: 0, duration: 0.6, ease: 'elastic.out(1, 0.4)' });
-          bounds = null;
-        });
-      });
-    }
-  })();
-  </script>
-
-  <!-- Article carousel (BOJ-style) ─────────────────────────────────── -->
-  <script>
-  (function () {
-    'use strict';
-    var carousels = document.querySelectorAll('.article-carousel .carousel');
-    carousels.forEach(initCarousel);
-
-    function initCarousel(root) {
-      var viewport = root.querySelector('.carousel-viewport');
-      var track = root.querySelector('.carousel-track');
-      var slides = Array.prototype.slice.call(track.children);
-      var prevBtn = root.querySelector('.carousel-prev');
-      var nextBtn = root.querySelector('.carousel-next');
-      var dotsContainer = root.querySelector('.carousel-dots');
-      var toggleBtn = root.querySelector('.carousel-toggle');
-      var interval = parseInt(root.getAttribute('data-interval') || '4500', 10);
-      var autoplay = root.getAttribute('data-autoplay') !== 'false';
-      var current = 0;
-      var timer = null;
-      var total = slides.length;
-      if (!total) return;
-
-      slides.forEach(function (_, i) {
-        var dot = document.createElement('button');
-        dot.type = 'button';
-        dot.className = 'carousel-dot';
-        dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
-        dot.addEventListener('click', function () { goTo(i); });
-        dotsContainer.appendChild(dot);
-      });
-
-      function goTo(index) {
-        current = ((index % total) + total) % total;
-        update();
-        restartTimer();
-      }
-
-      function update() {
-        var slide = slides[current];
-        var slideCenter = slide.offsetLeft + slide.offsetWidth / 2;
-        var target = slideCenter - viewport.clientWidth / 2;
-        // Clamp so we don't scroll past the edges
-        var maxScroll = track.scrollWidth - viewport.clientWidth;
-        target = Math.max(0, Math.min(target, maxScroll));
-        track.style.transform = 'translateX(' + (-target) + 'px)';
-
-        slides.forEach(function (s, i) {
-          s.classList.toggle('is-active', i === current);
-        });
-        dotsContainer.querySelectorAll('.carousel-dot').forEach(function (d, i) {
-          d.classList.toggle('is-active', i === current);
-        });
-      }
-
-      function startTimer() {
-        if (!autoplay) return;
-        stopTimer();
-        timer = setTimeout(function () { goTo(current + 1); }, interval);
-      }
-      function stopTimer() {
-        if (timer) { clearTimeout(timer); timer = null; }
-      }
-      function restartTimer() { stopTimer(); startTimer(); }
-
-      prevBtn.addEventListener('click', function () { goTo(current - 1); });
-      nextBtn.addEventListener('click', function () { goTo(current + 1); });
-      toggleBtn.addEventListener('click', function () {
-        autoplay = !autoplay;
-        toggleBtn.textContent = autoplay ? '⏸' : '▶';
-        toggleBtn.setAttribute('aria-label', autoplay ? 'Pause autoplay' : 'Resume autoplay');
-        if (autoplay) startTimer(); else stopTimer();
-      });
-
-      root.addEventListener('mouseenter', stopTimer);
-      root.addEventListener('mouseleave', function () { if (autoplay) startTimer(); });
-
-      // Touch swipe
-      var touchStartX = 0;
-      var touchDeltaX = 0;
-      viewport.addEventListener('touchstart', function (e) {
-        touchStartX = e.touches[0].clientX;
-        touchDeltaX = 0;
-        stopTimer();
-      }, { passive: true });
-      viewport.addEventListener('touchmove', function (e) {
-        touchDeltaX = e.touches[0].clientX - touchStartX;
-      }, { passive: true });
-      viewport.addEventListener('touchend', function () {
-        if (Math.abs(touchDeltaX) > 40) {
-          goTo(current + (touchDeltaX < 0 ? 1 : -1));
-        } else if (autoplay) {
-          startTimer();
-        }
-      });
-
-      var resizeT;
-      window.addEventListener('resize', function () {
-        clearTimeout(resizeT);
-        resizeT = setTimeout(update, 120);
-      });
-
-      // Initial centering after layout
-      if (document.readyState === 'complete') {
-        update(); startTimer();
-      } else {
-        window.addEventListener('load', function () { update(); startTimer(); });
-      }
-    }
-  })();
-  </script>
-
-  <!-- Tally form embed (popup mode) ───────────────────────────────────── -->
-  <script async src="https://tally.so/widgets/embed.js"></script>
-  <!-- BEGIN Pinterest hover-Save SDK -->
-  <script async defer src="https://assets.pinterest.com/js/pinit.js" data-pin-hover="true"></script>
-  <!-- END Pinterest hover-Save SDK -->
+<!-- Tally form embed (popup mode) ───────────────────────────────────── -->
+<script async="" src="https://tally.so/widgets/embed.js"></script>
+<!-- BEGIN Pinterest hover-Save SDK -->
+<script async="" data-pin-hover="true" defer="" src="https://assets.pinterest.com/js/pinit.js"></script>
+<!-- END Pinterest hover-Save SDK -->
 <!-- BEGIN email-popup (managed by add_email_popup.py) -->
-<script src="js/email-popup.js?v=b86722a2" data-root="" defer></script>
+<script data-root="" defer="" src="js/email-popup.js?v=232b8a0a"></script>
 <!-- END email-popup -->
 <!-- BEGIN gy-reveal (managed by add_reveal_script.py) -->
-<script defer src="js/gy-reveal.js?v=e1efab1d"></script>
+<script defer="" src="js/gy-reveal.js?v=e1efab1d"></script>
 <!-- END gy-reveal -->
 </body>
 </html>

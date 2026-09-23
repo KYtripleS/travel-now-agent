@@ -515,7 +515,10 @@ def block_for(slug: str) -> str | None:
 
 # Insert the CTA before the first anchor found — keep it INSIDE the article
 # content (before the FAQ / back-link), never orphaned after </main>.
-ANCHORS = ('<h2 id="faq"', '<p class="back-link"', '</main>', '<footer')
+# First match wins. The articles' FAQ heading has no id, so the block used to
+# fall through to the back-link and land after the FAQ and the sources.
+ANCHORS = ('<h2 id="faq"', '<h2>Frequently asked questions</h2>',
+           '<h2>Frequently Asked Questions</h2>', '<p class="back-link"', '</main>', '<footer')
 
 
 def inject(rel: str, block: str) -> str:

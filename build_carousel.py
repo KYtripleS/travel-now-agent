@@ -318,6 +318,16 @@ def rebuild(page: str) -> str:
 
 
 def main() -> None:
+    # Retired 2026-09: the homepage no longer has a carousel. Its autoplaying
+    # posters were Pinterest pins with the title baked in; build_library.py now
+    # renders a "New on Gently Yonder" grid from every article's own photo, and
+    # owns the hero guide count (this script used to overwrite it with the
+    # number of slides, so the homepage showed 103 or 144 depending on which
+    # script ran last). Kept only so old commands exit cleanly.
+    if MARK_BEGIN not in (SITE / INDEX).read_text(encoding="utf-8"):
+        print("  build_carousel.py is retired — the homepage grid is built by build_library.py")
+        import build_library; build_library.main()
+        return
     parser = argparse.ArgumentParser()
     parser.add_argument("--write", action="store_true", help="apply (otherwise dry run)")
     args = parser.parse_args()

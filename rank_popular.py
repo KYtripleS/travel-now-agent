@@ -22,6 +22,7 @@ import ga4_analyze as A
 REPO = Path(__file__).resolve().parent
 OUT = REPO / "data" / "popular_pages.csv"
 DAYS = 28
+EXCLUDED_CHANNELS = {"Direct", "Unassigned", "(other)"}
 EXCLUDE = {"", "index.html", "about.html", "privacy.html", "editors.html",
            "methodology.html", "editorial.html", "contribute.html",
            "all-guides.html", "404.html"}
@@ -55,11 +56,15 @@ def main() -> None:
 
     pid = os.getenv("GA4_PROPERTY_ID", "541637640")
     a_tok = A._session_token(REPO / os.getenv("GSC_SA_JSON", "gsc_service_account.json"))
+    # Direct and Unassigned are almost entirely us and bots (engagement ~5% vs
+    # ~70% for search), and counting them put the editor's own trip-planning
+    # visits at the top of "Most read". Only channels real readers arrive by.
     ga = {}
-    for row in A.run_report(a_tok, pid, dimensions=["landingPage"], metrics=["sessions"],
-                            start=start, end=end, limit=250, order_by_metric="sessions"):
-        p = norm(row["dims"][0])
-        if p == "(not set)":
+    for row in A.run_report(a_tok, pid, dimensions=["landingPage", "sessionDefaultChannelGroup"],
+                            metrics=["sessions"], start=start, end=end, limit=1000,
+                            order_by_metric="sessions"):
+        p, channel = norm(row["dims"][0]), row["dims"][1]
+        if p == "(not set)" or channel in EXCLUDED_CHANNELS:
             continue
         ga[p] = ga.get(p, 0) + int(float(row["mets"][0]))
 

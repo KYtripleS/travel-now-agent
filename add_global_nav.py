@@ -26,12 +26,14 @@ MARK_END = "<!-- END global-nav -->"
 
 # (href relative to site root, label)
 LINKS = [
-    ("index.html#guides", "Guides"),
-    ("index.html#profiles", "Destinations"),
-    ("articles/esim-activation-and-preparation.html", "eSIM &amp; Tech"),
-    ("articles/travel-insurance-compared.html", "Insurance"),
-    ("tools/esim-finder.html", "Tools"),
-    ("gear.html", "Gear"),
+    # Hub pages, not homepage anchors: "Destinations" used to land on the
+    # homepage's most-read list, and eSIM/Insurance on single articles.
+    ("all-guides.html", "Guides"),
+    ("index.html#map", "Destinations"),
+    ("articles/klook-vs-viator-vs-getyourguide.html", "Booking"),
+    ("articles/best-travel-esim-2026.html", "eSIM"),
+    ("articles/best-travel-insurance-2026.html", "Insurance"),
+    ("tools/index.html", "Tools"),
     ("about.html", "About"),
 ]
 BODY_RE = re.compile(r"<body[^>]*>", re.IGNORECASE)
@@ -43,6 +45,13 @@ def rel_root(path: Path, base: Path) -> str:
 
 
 def block(root: str) -> str:
+    # Parser-canonical, like add_footer.block: other tools re-serialise pages
+    # through BeautifulSoup, which sorts attributes and converts entities.
+    from bs4 import BeautifulSoup
+    return str(BeautifulSoup(_raw_block(root), "html.parser"))
+
+
+def _raw_block(root: str) -> str:
     links = "".join(f'<a href="{root}{href}">{label}</a>' for href, label in LINKS)
     # The form's action/name are real, so Enter still reaches search.html if the
     # script fails; gy-search.js upgrades it to an instant dropdown. data-gy-root
@@ -77,7 +86,9 @@ def inject(html: str, snippet: str) -> tuple[str, bool]:
     if MARK_BEGIN in html and MARK_END in html:
         b = html.find(MARK_BEGIN)
         e = html.find(MARK_END, b) + len(MARK_END)
-        if html[b:e] == snippet:
+        # bust_assets.py stamps ?v=<hash> onto the script src after we write it;
+        # a difference in that stamp alone is not a change.
+        if re.sub(r"\?v=[0-9a-f]+", "", html[b:e]) == re.sub(r"\?v=[0-9a-f]+", "", snippet):
             return html, False
         return html[:b] + snippet + html[e:], True
     m = BODY_RE.search(html)

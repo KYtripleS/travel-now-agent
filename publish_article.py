@@ -210,10 +210,26 @@ def split_lede_and_body(body_md: str) -> tuple[str, str]:
     return para.group(1).strip(), body[para.end():].lstrip()
 
 
+def _split_section(md: str, heading: str) -> tuple[str, str]:
+    """Split md at a '## <heading…>' line: (before, the section onward)."""
+    m = re.search(rf"^## {heading}.*$", md, re.M | re.I)
+    return (md[:m.start()], md[m.start():]) if m else (md, "")
+
+
 def build_main_inner(*, meta: dict, body_md: str) -> str:
     lede, rest = split_lede_and_body(body_md)
     lede_html = strip_outer_p(md_to_html(lede))
+    # Page order: content, then the FAQ accordion (built from meta, and matching
+    # the FAQPage schema), then sources. Drafts carry their own FAQ and sources
+    # sections, so lift sources out to go after the accordion, and drop the
+    # draft's FAQ when the accordion exists — 26 pages had rendered it twice.
+    rest, sources_md = _split_section(rest, "Sources")
+    if meta.get("faq"):
+        before, faq_and_after = _split_section(rest, "Frequently asked questions")
+        nxt = re.search(r"^## ", faq_and_after[3:], re.M)
+        rest = before + (faq_and_after[3 + nxt.start():] if nxt else "")
     body_html = md_to_html(rest)
+    sources_html = md_to_html(sources_md) if sources_md else ""
 
     faq_blocks = []
     for item in meta.get("faq") or []:
@@ -258,6 +274,7 @@ def build_main_inner(*, meta: dict, body_md: str) -> str:
         f'\n      <p class="article-lede">{lede_html}</p>\n\n'
         f"      {body_html}\n"
         f"{faq_html}"
+        f"      {sources_html}\n"
         f"{newsletter_html}"
         f"{back_link}"
     )
@@ -332,7 +349,10 @@ def main() -> None:
 
     body_md = md_path.read_text(encoding="utf-8")
     meta    = json.loads(meta_path.read_text(encoding="utf-8"))
-    label   = args.category_label or meta.get("category", "Travel")
+    # One vocabulary for labels (site_taxonomy): an unknown label stops the
+    # publish rather than adding a 45th variant to the hero eyebrows.
+    import site_taxonomy
+    label   = site_taxonomy.label_for(args.slug, args.category_label or meta.get("category", ""))
     title   = meta["title"]
     desc    = meta["description"]
 

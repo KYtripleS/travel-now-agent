@@ -3533,3 +3533,410 @@ section.globe-section #globe-canvas {
   .gy-search-box input,.gy-search-box:focus-within input{width:100%}
   .gy-search-panel{right:auto;left:0;width:100%}
 }
+
+/* ══ Editorial system (2026-09) ══════════════════════════════════════════
+   One design language over the layers above. Each earlier layer borrowed a
+   different reference — a Booking.com search, a BOJ slider, a Vogue nav, a
+   dawn gradient, drifting blobs, pulsing and "magnetic" buttons — and the
+   result read as a template, not a publication. This layer wins the cascade
+   and holds the rules:
+     · paper, ink, and gold used only as an accent
+     · one card, one button family, one eyebrow style
+     · no perpetual or on-scroll animation; content is simply there
+     · text at a readable measure (~70 characters)
+   ═══════════════════════════════════════════════════════════════════════ */
+:root {
+  --paper: #f6f2ea;
+  --ink: #172033;
+  --ink-soft: #2b3445;
+  --muted: #5b6576;
+  --rule: #e4dccd;
+  --gold: #b8945f;
+  --gold-ink: #8a6a3a;          /* gold that passes contrast on paper */
+  --gold-lit: #e5c76b;          /* gold on navy */
+  --card: #ffffff;
+  --card-radius: 12px;
+  --column: 700px;               /* ~74 characters of body text */
+}
+
+/* 1. Quiet paper: no hatching, no drifting blobs */
+body::before { background: var(--paper); }
+body::after { display: none; animation: none; }
+
+/* 2. Nothing waits for a scroll or a script to become visible */
+[data-reveal], .gy-reveal, .gy-reveal.gy-in,
+.hero .label, .hero h1, .hero .subtitle, .hero .buttons,
+.hero .article-byline, .hero .hero-stats {
+  opacity: 1 !important; transform: none !important; animation: none !important;
+}
+.hero-scroll-cue { display: none; }
+
+/* 3. Buttons: one family. No glow pulse, no jump on hover */
+.button, .button.primary-glow {
+  animation: none;
+  background: var(--ink);
+  color: #fff;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  box-shadow: none;
+  font-weight: 700;
+  min-height: 44px;
+  padding: 11px 22px;
+  backdrop-filter: none;
+}
+.button:hover, .button.primary-glow:hover {
+  transform: none; filter: none; box-shadow: none; background: #26324a;
+}
+.button.secondary {
+  background: transparent; color: var(--ink); border: 1px solid rgba(23,32,51,.28);
+}
+.button.secondary:hover { background: rgba(23,32,51,.05); }
+.button.hero-cta-primary {
+  background: var(--gold-lit); color: var(--ink); border: 1px solid var(--gold-lit);
+  box-shadow: none; min-height: 50px; padding: 14px 28px;
+}
+.button.hero-cta-primary:hover { background: #efd58a; transform: none; box-shadow: none; }
+.button.hero-cta-ghost {
+  background: transparent; color: #fff; border: 1px solid rgba(255,255,255,.6);
+  min-height: 50px; padding: 14px 28px; backdrop-filter: none; -webkit-backdrop-filter: none;
+}
+.button.hero-cta-ghost:hover { background: rgba(255,255,255,.12); border-color: #fff; transform: none; }
+
+/* 4. Eyebrows: one style */
+.label::before, .label::after { display: none; }
+.hero-cinematic .label::before, .hero-cinematic .label::after { display: block; }
+.label { font-size: .74rem; font-weight: 700; letter-spacing: .16em; }
+
+/* 5. Navigation */
+.gy-topnav { background: rgba(246,242,234,.96); border-bottom: 1px solid var(--rule); }
+.gy-topnav-inner { max-width: 1160px; padding: 12px clamp(16px, 3vw, 28px); }
+.gy-topnav-brand { font-size: 1.22rem; letter-spacing: .01em; }
+.gy-topnav-links { gap: 24px; }
+.gy-topnav-links a { font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: .8rem; font-weight: 600; letter-spacing: .06em; color: #3f4a5e; }
+.gy-topnav-links a:hover { color: var(--ink); }
+.gy-topnav-links a::after { background: var(--gold); height: 2px; bottom: -6px; }
+@media (max-width: 680px) {
+  /* one row for brand + search, one scrolling row of sections — was three rows */
+  .gy-topnav-inner {
+    display: grid; grid-template-columns: auto 1fr; grid-template-areas: "brand search" "links links";
+    align-items: center; gap: 8px 12px; padding: 10px 14px 8px;
+  }
+  .gy-topnav-brand { grid-area: brand; text-align: left; font-size: 1.08rem; }
+  .gy-topnav .gy-search-box { grid-area: search; min-width: 0; }
+  .gy-topnav-links { grid-area: links; gap: 18px; }
+  .gy-topnav-links a { font-size: .76rem; }
+}
+
+/* 6. Article pages: a reading column on paper, not a floating card */
+.article-hero { min-height: 0; padding: clamp(48px, 7vw, 84px) clamp(20px, 4vw, 40px) clamp(36px, 5vw, 56px); }
+.article-hero > * { max-width: var(--column); margin-left: auto; margin-right: auto; }
+.article-hero h1 {
+  font-family: Georgia, "Times New Roman", serif; font-weight: 700;
+  font-size: clamp(2.1rem, 4.4vw, 3.3rem); line-height: 1.1; letter-spacing: -.02em;
+}
+.article-hero .subtitle { font-size: clamp(1.05rem, 1.4vw, 1.22rem); line-height: 1.6; max-width: var(--column); }
+.article-hero .article-meta { margin-bottom: 0; }
+.article-hero .buttons { display: none; }     /* generic CTAs on every article: noise */
+.breadcrumb ol { max-width: var(--column); margin-left: auto; margin-right: auto; }
+
+section.article {
+  max-width: var(--column);
+  margin: clamp(36px, 5vw, 56px) auto 0;
+  padding: 0 clamp(20px, 4vw, 24px);
+  background: transparent; border: 0; border-radius: 0; box-shadow: none;
+  backdrop-filter: none; -webkit-backdrop-filter: none;
+}
+.article p, .article li { color: var(--ink-soft); font-size: 1.0625rem; line-height: 1.75; }
+.article .article-lede {
+  font-family: Georgia, "Times New Roman", serif; font-size: 1.24rem; line-height: 1.6;
+  color: var(--ink); border: 0; padding: 0; margin: 0 0 1.4em;
+}
+.article h2 {
+  font-size: 1.62rem; line-height: 1.25; margin: 2.2em 0 .6em; padding-bottom: 0;
+}
+.article h2::after { display: none; }
+.article h3 { font-family: Georgia, "Times New Roman", serif; font-size: 1.2rem; line-height: 1.35; margin: 1.8em 0 .5em; }
+.article a:not(.button):not(.gy-cta-link):not([class^="gy-"]) {
+  color: var(--ink); text-decoration: underline; text-decoration-color: var(--gold);
+  text-decoration-thickness: 1px; text-underline-offset: 3px;
+}
+.article a:not(.button):not(.gy-cta-link):not([class^="gy-"]):hover { color: var(--gold-ink); }
+.article blockquote { border-left: 2px solid var(--gold); margin: 1.6em 0; padding: 0 0 0 1.2em; }
+
+.article-figure, .article-figure.figure-wide { max-width: 100%; margin: 2em 0; }
+.article-figure img {
+  max-height: 440px; border-radius: 4px; box-shadow: none;
+}
+.article-figure figcaption {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif; font-style: normal;
+  font-size: .86rem; text-align: left; color: var(--muted); margin-top: 8px;
+}
+@media (max-width: 640px) { .article-figure img { max-height: 260px; } }
+
+/* commerce blocks read as part of the page, not as ads dropped onto it */
+.gy-widget, .gy-cta {
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--card-radius);
+  box-shadow: none;
+}
+
+/* "Keep reading" — was an unstyled bullet list outside the article */
+.keep-reading {
+  max-width: var(--column); margin: 64px auto 0 !important;
+  padding: 32px clamp(20px, 4vw, 24px) 0; border-top: 1px solid var(--rule);
+}
+.keep-reading h2 {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: .76rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--gold-ink); margin: 0 0 18px;
+}
+.keep-reading ul {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0 32px;
+}
+.keep-reading li {
+  padding: 14px 0; border-bottom: 1px solid var(--rule); color: var(--muted);
+  font-size: .92rem; line-height: 1.5;
+}
+.keep-reading li a {
+  display: block; margin-bottom: 3px; color: var(--ink); text-decoration: none;
+  font-family: Georgia, "Times New Roman", serif; font-size: 1.05rem; font-weight: 700; line-height: 1.35;
+}
+.keep-reading li a:hover { color: var(--gold-ink); }
+.back-link { max-width: var(--column); margin: 36px auto 0; padding: 0 clamp(20px, 4vw, 24px); }
+.back-link a { color: var(--muted); font-weight: 600; text-decoration: none; }
+.back-link a:hover { color: var(--ink); }
+
+/* 7. Footer: the same on every page */
+footer.gy-footer {
+  text-align: left; background: var(--ink); color: rgba(247,242,233,.72);
+  padding: 60px clamp(20px, 4vw, 40px) 28px; margin-top: 88px;
+}
+.gy-footer-inner {
+  max-width: 1100px; margin: 0 auto; display: grid;
+  grid-template-columns: minmax(220px, 1.3fr) 3fr; gap: 48px;
+}
+.gy-footer-logo { font-family: Georgia, "Times New Roman", serif; font-size: 1.3rem; font-weight: 700;
+  color: #f7f2e9 !important; text-decoration: none; }
+.gy-footer-brand p { margin: 12px 0 0; font-size: .9rem; line-height: 1.6; max-width: 34ch; }
+.gy-footer-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.gy-footer-col h2 { margin: 0 0 12px; font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: .72rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--gold-lit); }
+.gy-footer a { display: block; padding: 4px 0; font-size: .92rem; font-weight: 400;
+  color: rgba(247,242,233,.84); text-decoration: none; }
+.gy-footer a:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.gy-footer-legal { max-width: 1100px; margin: 44px auto 0; padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,.12); }
+.gy-footer-legal p { margin: 0 0 8px; font-size: .78rem; line-height: 1.6; color: rgba(247,242,233,.56); }
+.gy-footer-legal a { display: inline; padding: 0; font-size: inherit; color: inherit; text-decoration: underline; }
+@media (max-width: 780px) {
+  .gy-footer-inner { grid-template-columns: 1fr; gap: 32px; }
+  .gy-footer-cols { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* 8. Homepage sections: one width, one rhythm, one card */
+.gy-start, .gy-library, .gy-latest, .gy-japan, .gy-how {
+  max-width: 1100px; margin: 80px auto 0; padding: 0 clamp(20px, 4vw, 40px);
+}
+.gy-start { margin-top: 56px; }
+.gy-section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+  flex-wrap: wrap; margin-bottom: 22px; }
+.gy-section-head h2, .gy-library h2 {
+  margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+  line-height: 1.15; letter-spacing: -.015em; color: var(--ink);
+}
+.gy-section-more { font-weight: 700; font-size: .92rem; color: var(--ink); text-decoration: underline;
+  text-decoration-color: var(--gold); text-underline-offset: 4px; }
+.gy-section-more:hover { color: var(--gold-ink); }
+.gy-eyebrow { margin: 0 0 10px; font-size: .74rem; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--gold-ink); }
+
+.gy-task-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 14px; }
+.gy-task {
+  display: flex; flex-direction: column; gap: 6px; padding: 20px 22px;
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--card-radius);
+  text-decoration: none; transition: border-color .2s;
+}
+.gy-task:hover { border-color: var(--gold); }
+.gy-task-title { font-family: Georgia, "Times New Roman", serif; font-size: 1.14rem; font-weight: 700; color: var(--ink); }
+.gy-task-title::after { content: " \2192"; color: var(--gold); }
+.gy-task-desc { font-size: .92rem; line-height: 1.5; color: var(--muted); }
+
+.gy-library .intro { font-size: .92rem; margin: 8px 0 18px; }
+.gy-lib-row:hover { transform: none; background: rgba(255,255,255,.5); }
+.gy-lib-row:hover .gy-lib-title { color: var(--gold-ink); }
+.gy-lib-tag { color: var(--gold-ink); font-size: .7rem; letter-spacing: .14em; }
+.gy-lib-thumb { width: 150px; height: 100px; border-radius: 6px; }
+.gy-lib-more { font-weight: 700; color: var(--ink); text-decoration: underline; text-decoration-color: var(--gold);
+  text-underline-offset: 4px; }
+@media (max-width: 640px) {
+  .gy-lib-row { grid-template-columns: 32px 1fr 84px; gap: 12px; padding: 16px 0; }
+  .gy-lib-thumb { width: 84px; height: 60px; }
+}
+
+.gy-card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px 28px; }
+.gy-card { display: flex; flex-direction: column; gap: 8px; text-decoration: none; }
+.gy-card-img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 6px; background: var(--rule); margin-bottom: 6px; }
+.gy-card-tag { font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--gold-ink); }
+.gy-card-title { font-family: Georgia, "Times New Roman", serif; font-size: 1.12rem; font-weight: 700;
+  line-height: 1.3; color: var(--ink); }
+.gy-card:hover .gy-card-title { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 4px; }
+@media (max-width: 900px) { .gy-card-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .gy-card-grid { grid-template-columns: 1fr; } }
+
+.gy-japan {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;
+  padding-top: 40px; padding-bottom: 40px; background: var(--card);
+  border: 1px solid var(--rule); border-radius: var(--card-radius);
+}
+.gy-japan { padding-left: clamp(24px, 4vw, 48px); padding-right: clamp(24px, 4vw, 48px); }
+.gy-japan h2 { margin: 0 0 12px; font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.4rem, 2.2vw, 1.8rem); line-height: 1.2; color: var(--ink); }
+.gy-japan-copy p { color: var(--muted); line-height: 1.6; margin: 0 0 20px; }
+.gy-japan-links { list-style: none; margin: 0; padding: 0; }
+.gy-japan-links li { border-bottom: 1px solid var(--rule); }
+.gy-japan-links li:first-child { border-top: 1px solid var(--rule); }
+.gy-japan-links a { display: block; padding: 13px 0; color: var(--ink); text-decoration: none; font-weight: 600; }
+.gy-japan-links a::after { content: " \2192"; color: var(--gold); }
+.gy-japan-links a:hover { color: var(--gold-ink); }
+@media (max-width: 760px) { .gy-japan { grid-template-columns: 1fr; gap: 24px; } }
+
+.gy-how-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px;
+  border-top: 1px solid var(--rule); padding-top: 28px; }
+.gy-how h3 { margin: 0 0 8px; font-family: Georgia, "Times New Roman", serif; font-size: 1.15rem; color: var(--ink); }
+.gy-how p { margin: 0 0 10px; color: var(--muted); font-size: .94rem; line-height: 1.6; }
+.gy-how a { font-weight: 700; font-size: .9rem; color: var(--ink); text-decoration: underline;
+  text-decoration-color: var(--gold); text-underline-offset: 3px; }
+.gy-how-links { margin-top: 24px !important; font-size: .9rem; }
+@media (max-width: 760px) { .gy-how-grid { grid-template-columns: 1fr; gap: 20px; } }
+
+/* gear teaser (generated by build_site.py) — its styles lived in a removed block */
+.gear-directory { max-width: 1100px; margin: 80px auto 0; padding: 32px clamp(24px, 4vw, 48px);
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--card-radius); box-shadow: none; }
+.gear-directory h2 { margin: 0 0 8px; font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.4rem, 2.2vw, 1.8rem); color: var(--ink); }
+.gear-directory .intro { color: var(--muted); margin: 0 0 16px; }
+.gear-teaser-pills { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 20px; }
+.gear-teaser-pill { font-size: .88rem; padding: 6px 13px; border: 1px solid var(--rule); border-radius: 999px;
+  color: var(--ink-soft); text-decoration: none; background: var(--paper); }
+.gear-teaser-pill:hover { border-color: var(--gold); }
+.gear-teaser-cta { display: inline-block; font-weight: 700; padding: 11px 22px; border-radius: 999px;
+  background: var(--ink); color: #fff; text-decoration: none; }
+.gear-teaser-cta:hover { background: #26324a; }
+.newsletter-cta { max-width: 1100px; margin-left: auto; margin-right: auto; border-radius: var(--card-radius); }
+main { padding-bottom: 0; }
+
+/* 9. Tools hub */
+.gy-tools-grid { max-width: 1100px; margin: 48px auto 0; padding: 0 clamp(20px, 4vw, 40px);
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.gy-tool-card { display: flex; flex-direction: column; gap: 8px; padding: 24px;
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--card-radius);
+  text-decoration: none; transition: border-color .2s; }
+.gy-tool-card:hover { border-color: var(--gold); }
+.gy-tool-card h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.25rem; color: var(--ink); }
+.gy-tool-card p { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.55; flex: 1; }
+.gy-tool-go { font-weight: 700; font-size: .9rem; color: var(--gold-ink); }
+/* newsletter: the outlined PDF button inherited navy text on a navy card */
+.newsletter-cta a.newsletter-btn { color: var(--gold-lit) !important; }
+.newsletter-cta a.newsletter-btn:hover { background: rgba(229,199,107,.12) !important; }
+/* The load animation used to give every hero child a transform — and with it a
+   stacking context above the hero's ::before gradient. With the animation gone,
+   put the content above the gradient explicitly. */
+.hero > *, .article-hero > *, .gy-arch-head > * { position: relative; z-index: 1; }
+/* Align hero and breadcrumb with the reading column's text edge (column is
+   centred; its text is inset by the section's 24px padding). Padding the
+   container beats re-centring each child against older, more specific rules. */
+.article-hero, nav.breadcrumb {
+  padding-left: max(20px, calc((100% - var(--column)) / 2 + 24px));
+  padding-right: max(20px, calc((100% - var(--column)) / 2 + 24px));
+}
+.article-hero > * { max-width: 100%; }
+nav.breadcrumb ol { max-width: none; margin: 0; }
+/* breadcrumb: the current page's full title wrapped onto a second line */
+nav.breadcrumb ol { display: flex; flex-wrap: nowrap; min-width: 0; }
+nav.breadcrumb li[aria-current="page"] {
+  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+/* ── Alignment by layout ──────────────────────────────────────────────────
+   Every hero aligns with the content under it: articles with the 700px
+   reading column, hubs (archive, gear, tools) with their 1100px grids,
+   country profiles with their 1280px two-column layout. */
+.gy-arch-head { text-align: left; padding-left: clamp(20px, 4vw, 40px); padding-right: clamp(20px, 4vw, 40px); }
+.gy-arch-head-inner { max-width: 1100px; margin: 0 auto; }
+.gy-arch-head p { max-width: 62ch; }
+.gy-arch-head .label::before, .gy-arch-head .label::after { display: none; }
+.gy-arch-cat h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 700; letter-spacing: -.01em; }
+
+header.article-hero:has(+ main > .gy-tools-grid),
+nav.breadcrumb:has(~ main > .gy-tools-grid) {
+  padding-left: max(20px, calc((100% - 1100px) / 2 + clamp(20px, 4vw, 40px)));
+  padding-right: max(20px, calc((100% - 1100px) / 2 + clamp(20px, 4vw, 40px)));
+}
+header.article-hero:has(+ main > .country-layout),
+nav.breadcrumb:has(~ main > .country-layout) {
+  padding-left: max(20px, calc((100% - 1280px) / 2 + clamp(20px, 4vw, 32px)));
+  padding-right: max(20px, calc((100% - 1280px) / 2 + clamp(20px, 4vw, 32px)));
+}
+.country-content > p, .country-content li, .country-section > p { max-width: 72ch; }
+.country-content p, .country-content li { font-size: 1.0625rem; line-height: 1.75; color: var(--ink-soft); }
+
+/* ── Phone layout (the homepage had grown to 14,000px on a phone) ───────── */
+@media (max-width: 640px) {
+  /* ranked rows: rank | title | photo on one line (an older rule put the
+     rank on its own full-width row and squeezed titles into 32px) */
+  .gy-lib-row:has(.gy-lib-rank) { grid-template-columns: 26px minmax(0, 1fr) 84px; gap: 12px; }
+  .gy-lib-row:has(.gy-lib-rank) > .gy-lib-date { grid-column: 1; grid-row: 1; }
+  .gy-lib-row:has(.gy-lib-rank) > .gy-lib-body { grid-column: 2; grid-row: 1; }
+  .gy-lib-row:has(.gy-lib-rank) > .gy-lib-thumb { grid-column: 3; grid-row: 1; }
+  /* dated archive rows: date above the title, photo on the right */
+  .gy-lib-row:not(:has(.gy-lib-rank)) { grid-template-columns: minmax(0, 1fr) 84px; gap: 4px 12px; }
+  .gy-lib-row:not(:has(.gy-lib-rank)) > .gy-lib-date { grid-column: 1; grid-row: 1; font-size: .76rem; }
+  .gy-lib-row:not(:has(.gy-lib-rank)) > .gy-lib-body { grid-column: 1; grid-row: 2; }
+  .gy-lib-row:not(:has(.gy-lib-rank)) > .gy-lib-thumb { grid-column: 2; grid-row: 1 / span 2; }
+  .gy-lib-title { font-size: 1rem; line-height: 1.35; }
+  .gy-lib-rank { font-size: 1.2rem !important; }
+
+  /* tasks: one compact list instead of six tall cards */
+  .gy-task-grid { gap: 0; background: var(--card); border: 1px solid var(--rule);
+    border-radius: var(--card-radius); overflow: hidden; }
+  .gy-task { border: 0; border-bottom: 1px solid var(--rule); border-radius: 0; padding: 14px 16px; }
+  .gy-task:last-child { border-bottom: 0; }
+  .gy-task-title { font-size: 1.02rem; }
+  .gy-task-desc { font-size: .86rem; }
+
+  /* new guides: four, two across */
+  .gy-card-grid { grid-template-columns: 1fr 1fr; gap: 22px 14px; }
+  .gy-card:nth-child(n+5) { display: none; }
+  .gy-card-title { font-size: .98rem; }
+
+  /* section rhythm */
+  .gy-start, .gy-library, .gy-latest, .gy-japan, .gy-how, .gear-directory { margin-top: 56px; }
+  .gy-start { margin-top: 36px; }
+
+  /* Ready Score: each chip group is one swipeable row, not a wall of pills */
+  .ready-score .rs-chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none;
+    -webkit-overflow-scrolling: touch; padding-bottom: 4px; }
+  .ready-score .rs-chips::-webkit-scrollbar { display: none; }
+  .ready-score .rs-chips > * { flex: 0 0 auto; }
+
+  /* footer: tighter */
+  footer.gy-footer { padding-top: 44px; margin-top: 64px; }
+  .gy-footer-cols { gap: 24px 16px; }
+}
+/* The Dry Run now has its own place in the Japan band; inside the Ready Score
+   it repeated the same offer a second time on the homepage. */
+.ready-score .plan-hub-rehearse { display: none; }
+/* The plain photo hero (checklist generator, finders) sits on a dark photo;
+   its heading was navy on near-black — unreadable before this redesign too. */
+header.hero:not(.article-hero):not(.hero-cinematic) h1 { color: #f7f2e9; text-shadow: 0 2px 16px rgba(0,0,0,.45); }
+header.hero:not(.article-hero):not(.hero-cinematic) .subtitle { color: #e7edf5; }
+header.hero:not(.article-hero):not(.hero-cinematic) .label { color: var(--gold-lit); }
+header.hero:not(.article-hero):not(.hero-cinematic) .button:not(.secondary) {
+  background: var(--gold-lit); color: var(--ink); border-color: var(--gold-lit); }
+@media (max-width: 640px) {
+  /* main already pads 16px on phones; with the column's own 20px the text sat
+     16px inside the hero's left edge */
+  section.article, .keep-reading, .back-link { padding-left: 4px; padding-right: 4px; }
+}
+nav.breadcrumb li:not([aria-current="page"]) { white-space: nowrap; flex: 0 0 auto; }

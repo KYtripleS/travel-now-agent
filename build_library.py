@@ -20,7 +20,9 @@ import subprocess
 from datetime import date
 from pathlib import Path
 
-from build_carousel import SLIDES
+from bs4 import BeautifulSoup
+
+import site_taxonomy as T
 
 REPO = Path(__file__).resolve().parent
 MARK_BEGIN = "<!-- BEGIN library (managed by build_library.py) -->"
@@ -80,14 +82,10 @@ CATEGORY_ORDER = [
     DEFAULT_CATEGORY,
 ]
 
-NAV = ('<nav class="gy-topnav" aria-label="Primary"><div class="gy-topnav-inner">'
-       '<a class="gy-topnav-brand" href="index.html">Gently Yonder</a>'
-       '<div class="gy-topnav-links"><a href="index.html#guides">Guides</a>'
-       '<a href="index.html#profiles">Destinations</a>'
-       '<a href="articles/esim-activation-and-preparation.html">eSIM &amp; Tech</a>'
-       '<a href="articles/travel-insurance-compared.html">Insurance</a>'
-       '<a href="tools/esim-finder.html">Tools</a><a href="about.html">About</a>'
-       '</div></div></nav>')
+# The shared blocks, so the archive never carries a second, stale nav or footer.
+from add_global_nav import block as _nav_block
+from add_footer import block as _footer_block
+NAV = _nav_block("")
 
 GA4 = f"""<!-- BEGIN GA4 (managed by add_ga4.py) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
@@ -104,12 +102,7 @@ DRIVE = """<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-
     s.src='https://tpembars.com/NTQzNzE5.js?t=543719'; document.head.appendChild(s); })();
 </script>"""
 
-FOOTER = """<footer>
-  <p>Gently Yonder is an independent travel editorial project.
-    <a href="about.html">About</a> · <a href="methodology.html">Methodology</a> ·
-    <a href="editors.html">Editors</a> · <a href="privacy.html">Privacy</a> ·
-    <a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a></p>
-</footer>"""
+FOOTER = _footer_block("")
 
 
 def added_date(rel_href: str) -> str:
@@ -120,28 +113,73 @@ def added_date(rel_href: str) -> str:
     return out[-1] if out else date.today().strftime("%Y.%m.%d")
 
 
-def thumb(img: str) -> str:
-    for ext in ("webp", "png"):
-        if (REPO / "site" / "images" / "pinterest" / f"{img}.{ext}").exists():
-            return f"images/pinterest/{img}.{ext}"
-    return ""
+def first_photo(soup: BeautifulSoup) -> str:
+    """The page's own first photograph, as a root-relative src (or "").
+
+    Thumbnails used to be the Pinterest pins — posters with the title and a
+    "Read the guide" button baked in. Every article now carries real photos,
+    so the thumbnail is simply the first of them.
+    """
+    photos = all_photos(soup)
+    return photos[0] if photos else ""
+
+
+def all_photos(soup: BeautifulSoup) -> list[str]:
+    out = []
+    for img in soup.select("section.article figure img, main figure img"):
+        src = img.get("src") or ""
+        if not src:
+            continue
+        if "images.pexels.com" in src:
+            src = src.split("?")[0] + "?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop&dpr=2"
+        else:
+            src = src.replace("../", "")
+        if src not in out:
+            out.append(src)
+    return out
+
+
+def distinct_thumbs(rows: list[dict]) -> list[dict]:
+    """Rows with thumbnails re-picked so no picture appears twice in one list
+    (two packing guides open with the same stock photo)."""
+    used, out = set(), []
+    for r in rows:
+        pick = next((ph for ph in r.get("photos", []) if ph not in used), r["thumb"])
+        used.add(pick)
+        out.append({**r, "thumb": pick})
+    return out
+
+
+def page_row(rel: str) -> dict:
+    soup = BeautifulSoup((REPO / "site" / rel).read_text(encoding="utf-8"), "html.parser")
+    h1 = soup.select_one("header h1") or soup.find("h1")
+    title = " ".join(h1.get_text(" ", strip=True).split()) if h1 else Path(rel).stem
+    if rel in T.PAGE_LABEL:
+        tag = T.PAGE_LABEL[rel]
+    else:
+        lab = soup.select_one("header .label")
+        tag = T.label_for(Path(rel).stem, lab.get_text(" ", strip=True) if lab else "")
+    return {"href": rel, "title": title, "tag": tag, "thumb": first_photo(soup),
+            "photos": all_photos(soup),
+            "date": added_date(rel), "cat": T.section_for(tag)}
 
 
 def build_rows() -> list[dict]:
-    seen, rows = set(), []
-    for e in list(SLIDES) + PROFILES:
-        if e["href"] in seen:
-            continue
-        seen.add(e["href"])
-        rows.append({**e, "date": added_date(e["href"]), "thumb": thumb(e["img"]),
-                     "cat": CATEGORY_MAP.get(e["tag"], DEFAULT_CATEGORY)})
+    """Every article on disk plus the destination hubs — nothing hand-kept.
+
+    The old registry had drifted 41 guides behind the files, so the archive
+    silently left out the whole where-to-book series among others.
+    """
+    rels = [f"articles/{p.name}" for p in sorted((REPO / "site" / "articles").glob("*.html"))]
+    rels += [r for r in T.PAGE_LABEL if (REPO / "site" / r).exists()]
+    rows = [page_row(r) for r in rels]
     rows.sort(key=lambda r: r["date"], reverse=True)
     return rows
 
 
 def row_html(r: dict, rank: int | None = None) -> str:
     img = (f'<img class="gy-lib-thumb" src="{r["thumb"]}" alt="" loading="lazy" '
-           f'decoding="async" />') if r["thumb"] else ""
+           f'decoding="async" data-pin-nopin="true" />') if r["thumb"] else ""
     lead = (f'<span class="gy-lib-date gy-lib-rank">{rank}</span>' if rank
             else f'<span class="gy-lib-date">{r["date"]}</span>')
     return (f'<a class="gy-lib-row" href="{r["href"]}">{lead}'
@@ -174,19 +212,54 @@ def popular_pick(rows: list[dict]) -> list[dict]:
     return picked
 
 
+def pop_window() -> str:
+    """'Data: 26 Aug – 22 Sep 2026.' from the csv header, or '' if unknown."""
+    if not POP_CSV.exists():
+        return ""
+    head = POP_CSV.read_text(encoding="utf-8").splitlines()[0]
+    m = re.search(r"# (\d{4}-\d{2}-\d{2})\.\.(\d{4}-\d{2}-\d{2})", head)
+    if not m:
+        return ""
+    a, b = (date.fromisoformat(x) for x in m.groups())
+    return f"Data: {a.day} {a:%b} \u2013 {b.day} {b:%b %Y}."
+
+
+LATEST_BEGIN = "<!-- BEGIN latest (managed by build_library.py) -->"
+LATEST_END = "<!-- END latest -->"
+LATEST_SHOW = 6
+
+
+def render_latest(rows: list[dict], total: int) -> str:
+    """Newest guides that have a real photo, as an even grid of cards."""
+    picks = distinct_thumbs([r for r in rows if r["thumb"] and r["href"].startswith("articles/")][:LATEST_SHOW])
+    cards = "\n".join(
+        f'    <a class="gy-card" href="{r["href"]}">'
+        f'<img class="gy-card-img" src="{r["thumb"]}" alt="" loading="lazy" decoding="async" data-pin-nopin="true" />'
+        f'<span class="gy-card-tag">{r["tag"]}</span>'
+        f'<span class="gy-card-title">{r["title"]}</span></a>'
+        for r in picks)
+    return (f"{LATEST_BEGIN}\n"
+            '<section class="gy-latest" id="guides">\n'
+            '  <div class="gy-section-head"><h2>New on Gently Yonder</h2>'
+            f'<a class="gy-section-more" href="all-guides.html">All {total} guides &rarr;</a></div>\n'
+            f'  <div class="gy-card-grid">\n{cards}\n  </div>\n'
+            "</section>\n"
+            f"{LATEST_END}")
+
+
 RANK_STYLE = ('  <style>.gy-lib-rank{font-family:Georgia,"Times New Roman",serif;'
               'font-size:1.5rem;font-weight:700;color:#B8945F;font-variant-numeric:'
               'tabular-nums}</style>')
 
 
 def render_home(rows: list[dict]) -> str:
-    pop = popular_pick(rows)
+    pop = distinct_thumbs(popular_pick(rows))
     if len(pop) >= 5:
         body = "\n".join(row_html(r, rank=i + 1) for i, r in enumerate(pop))
         head = "  <h2>Most read this month</h2>\n"
-        intro = ('  <p class="intro">What travelers are actually reading — ranked by '
-                 "combined search clicks and visits over the last 28 days. "
-                 f"Refreshed {date.today():%Y.%m.%d}.</p>\n" + RANK_STYLE + "\n")
+        intro = ('  <p class="intro">What readers are actually opening — ranked by search '
+                 "clicks and visits from search, AI assistants and links, excluding our own "
+                 f"traffic. {pop_window()}</p>\n" + RANK_STYLE + "\n")
     else:
         body = "\n".join(row_html(r) for r in rows[:HOME_SHOW])
         head = "  <h2>Latest guides &amp; essays</h2>\n"
@@ -206,12 +279,13 @@ def render_archive(rows: list[dict]) -> str:
     for r in rows:
         by_cat.setdefault(r["cat"], []).append(r)
     sections = []
-    for cat in CATEGORY_ORDER:
+    for cat in T.SECTION_ORDER:
         items = by_cat.get(cat)
         if not items:
             continue
         lis = "\n".join(row_html(r) for r in items)
-        sections.append(f'<section class="gy-arch-cat">\n'
+        anchor = re.sub(r"[^a-z]+", "-", cat.lower()).strip("-")
+        sections.append(f'<section class="gy-arch-cat" id="{anchor}">\n'
                         f'  <h2>{cat} <span class="gy-arch-count">{len(items)}</span></h2>\n'
                         f'  <div class="gy-lib-list">\n{lis}\n  </div>\n</section>')
     body = "\n".join(sections)
@@ -309,7 +383,11 @@ def main() -> None:
         t = p.read_text(encoding="utf-8")
         if MARK_BEGIN in t:
             s = t.index(MARK_BEGIN); e = t.index(MARK_END) + len(MARK_END)
-            p.write_text(t[:s] + home + t[e:], encoding="utf-8")
+            t = t[:s] + home + t[e:]
+        if LATEST_BEGIN in t:
+            s = t.index(LATEST_BEGIN); e = t.index(LATEST_END) + len(LATEST_END)
+            t = t[:s] + render_latest(rows, inventory()["guides"]) + t[e:]
+        p.write_text(t, encoding="utf-8")
         # full archive page
         (REPO / base / "all-guides.html").write_text(render_archive(rows), encoding="utf-8")
     _add_to_sitemap()

@@ -1525,8 +1525,8 @@ def render_section(from_file: str) -> str:
         # escaped, because every other tool that touches these pages re-serialises
         # through an HTML parser: a raw "&" came back as "&amp;", this script then
         # "restored" it, and the two rewrote each other's output on every run
-        items.append(f'<li><a href="{href}">{html.escape(title, quote=False)}</a> — '
-                     f'{html.escape(hook, quote=False)}</li>')
+        items.append(f'<li><a href="{href}">{html.escape(title, quote=False)}</a> '
+                     f'<span class="kr-hook">{html.escape(hook, quote=False)}</span></li>')
     items_html = "\n".join(items)
     return (
         f'{MARK_BEGIN}\n'

@@ -100,15 +100,11 @@ def render_section(cat: str, rows: list[dict]) -> str:
     )
 
 
-NAV = ('<nav class="gy-topnav" aria-label="Primary"><div class="gy-topnav-inner">'
-       '<a class="gy-topnav-brand" href="index.html">Gently Yonder</a>'
-       '<div class="gy-topnav-links"><a href="index.html#guides">Guides</a>'
-       '<a href="index.html#profiles">Destinations</a>'
-       '<a href="articles/esim-activation-and-preparation.html">eSIM &amp; Tech</a>'
-       '<a href="articles/travel-insurance-compared.html">Insurance</a>'
-       '<a href="tools/esim-finder.html">Tools</a>'
-       '<a href="gear.html">Gear</a>'
-       '<a href="about.html">About</a></div></div></nav>')
+# The shared blocks, so this page never carries a second, stale nav or footer.
+from add_global_nav import block as _nav_block
+from add_footer import block as _footer_block
+NAV = _nav_block("")
+FOOTER = _footer_block("")
 
 GA4_BLOCK = f"""<!-- BEGIN GA4 (managed by add_ga4.py) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={GA4}"></script>
@@ -237,12 +233,7 @@ def build_page(by_cat: dict[str, list[dict]]) -> str:
 </div>
 {sections}
 </main>
-<footer>
-  <p>Gently Yonder is an independent travel editorial project.
-    <a href="about.html">About</a> · <a href="methodology.html">Methodology</a> ·
-    <a href="editors.html">Editors</a> · <a href="privacy.html">Privacy</a> ·
-    <a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a></p>
-</footer>
+{FOOTER}
 <script defer src="js/gy-reveal.js"></script>
 <script src="js/email-popup.js" data-root="" defer></script>
 <script>{JS}</script>
