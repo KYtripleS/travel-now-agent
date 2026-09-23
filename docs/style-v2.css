@@ -2697,6 +2697,44 @@ section.globe-section #globe-canvas {
   .article .prep-table td { padding: 9px 11px; }
 }
 
+/* ── AEO verdict box (managed by add_aeo.py) ─────────────────────────────
+   The first thing inside an article, so it is the sentence an AI assistant
+   quotes and the answer a reader landing from one sees before scrolling. */
+.article .gy-verdict {
+  margin: 0 0 26px;
+  padding: 18px 22px;
+  background: var(--gold-soft);
+  border: 1px solid var(--line-dark);
+  border-left: 4px solid var(--gold);
+  border-radius: 0 12px 12px 0;
+}
+.article .gy-verdict p { margin: 0; }
+.article .gy-verdict-text {
+  color: var(--navy);
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+.article .gy-verdict-label { color: var(--navy); }
+.article .gy-verdict-cta { margin-top: 10px !important; }
+.article .gy-verdict-cta a,
+.article .gy-section-link a {
+  color: var(--navy);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 3px;
+}
+.article .gy-verdict-note {
+  margin-top: 10px !important;
+  color: #475569;
+  font-size: 0.9rem;
+}
+/* one-line partner link directly under a heading that names that partner */
+.article .gy-section-link {
+  margin: -4px 0 14px;
+  font-size: 0.95rem;
+}
+
 /* ── Markdown comparison tables ────────────────────────────────────────
    Tables written in the article's markdown arrive without a class. They get
    the prep-table look here, and .table-scroll gives them somewhere to go on

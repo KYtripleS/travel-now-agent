@@ -519,6 +519,11 @@ ANCHORS = ('<h2 id="faq"', '<p class="back-link"', '</main>', '<footer')
 
 
 def inject(rel: str, block: str) -> str:
+    # Written in the parser's canonical form (&rarr; -> the character itself, and
+    # so on). Other tools re-serialise these pages through an HTML parser; a raw
+    # block made this script and those tools rewrite each other on every run.
+    from bs4 import BeautifulSoup
+    block = str(BeautifulSoup(block, "html.parser"))
     wrapped = f"{BEGIN}\n{block}\n{END}"
     changed = []
     for base in ("site", "docs"):

@@ -20,6 +20,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import html
 import os
 from pathlib import Path
 
@@ -1521,7 +1522,11 @@ def render_section(from_file: str) -> str:
     for t in targets:
         title, hook = ARTICLES[t]
         href = rel_link(from_file, t)
-        items.append(f'<li><a href="{href}">{title}</a> — {hook}</li>')
+        # escaped, because every other tool that touches these pages re-serialises
+        # through an HTML parser: a raw "&" came back as "&amp;", this script then
+        # "restored" it, and the two rewrote each other's output on every run
+        items.append(f'<li><a href="{href}">{html.escape(title, quote=False)}</a> — '
+                     f'{html.escape(hook, quote=False)}</li>')
     items_html = "\n".join(items)
     return (
         f'{MARK_BEGIN}\n'

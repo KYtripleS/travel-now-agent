@@ -345,6 +345,15 @@ def main() -> None:
                 read_min=estimated_read_min(body_md))
     update_main(soup, meta=meta, body_md=body_md)
 
+    # Answer-engine layer: a dated "Last updated" line, datePublished restored to
+    # the first-publish date (the template stamps today on every republish), and
+    # for decision articles a branded verdict plus partner links where the
+    # decision is read. The verdict text lives in add_aeo.V.
+    import add_aeo
+    aeo = add_aeo.apply(soup, f"articles/{args.slug}.html")
+    if aeo["verdict"]:
+        print(f"verdict added, {aeo['links']} partner links placed")
+
     html_out = str(soup)
     site_out = SITE_DIR / "articles" / f"{args.slug}.html"
     docs_out = DOCS_DIR / "articles" / f"{args.slug}.html"

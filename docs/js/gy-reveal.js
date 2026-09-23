@@ -95,7 +95,16 @@
     if (a && window.gtag) {
       var partner = '';
       try { partner = new URL(a.href).hostname.replace(/^www\./, ''); } catch (err) {}
-      gtag('event', 'affiliate_click', { partner: partner, page: location.pathname });
+      /* Which placement earned the click: the verdict box, a table, the link
+       * under a partner heading, a widget, or ordinary prose. Tells us whether
+       * the answer-first layout (add_aeo.py) converts better than the old
+       * end-of-article links. */
+      var placement = a.closest('.gy-verdict') ? 'verdict'
+        : a.closest('table') ? 'table'
+        : a.closest('.gy-section-link') ? 'section'
+        : a.closest('.gy-widget, .gy-cta') ? 'widget'
+        : 'prose';
+      gtag('event', 'affiliate_click', { partner: partner, page: location.pathname, placement: placement });
     }
     var b = e.target.closest('.newsletter-btn, [data-tally-open]');
     if (b && window.gtag) gtag('event', 'newsletter_click', { page: location.pathname });
