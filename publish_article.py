@@ -348,6 +348,10 @@ def main() -> None:
         sys.exit(f"missing draft for {args.slug}: need {md_path} and {meta_path}")
 
     body_md = md_path.read_text(encoding="utf-8")
+    # Never publish a raw "[AFFILIATE: X]" marker: partners become links, anything
+    # else plain text. (travel-insurance-south-korea showed three to readers.)
+    from resolve_affiliate_placeholders import resolve as _resolve_markers
+    body_md, _ = _resolve_markers(body_md)
     meta    = json.loads(meta_path.read_text(encoding="utf-8"))
     # One vocabulary for labels (site_taxonomy): an unknown label stops the
     # publish rather than adding a 45th variant to the hero eyebrows.

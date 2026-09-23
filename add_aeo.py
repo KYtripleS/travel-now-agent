@@ -213,10 +213,9 @@ V = {
              "its seat reservation. Eurail and Interrail merged into one range on 9 September 2026.",
         cta=("klook", "Check rail passes on Klook")),
     "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": dict(
-        text="Take the Shinkansen: the Nozomi runs Tokyo to Kyoto in about 2 hours 15 minutes for roughly "
-             "¥14,000, centre to centre. Flying rarely saves time once airport transfers are added, and "
-             "the overnight bus — 7 to 9 hours for about ¥5,000–10,000 — is the budget option that "
-             "also saves a night’s hotel.",
+        text="Take the Shinkansen: about 2 hours 15 minutes and about \u00a514,170 on the Nozomi, city "
+             "centre to city centre. Flying via Osaka takes about twice as long door to door, and the "
+             "overnight bus is the budget option.",
         cta=("klook", "Check Shinkansen tickets on Klook")),
     "japan-city-sightseeing-passes-worth-it": dict(
         text="A city pass pays off only if you’ll visit several of its included, higher-priced attractions "
@@ -386,7 +385,7 @@ V = {
 # just re-laid-out). Only these get a fresh dateModified; a verdict box that
 # restates an article's own conclusion is not a reason to claim it was updated.
 REVISED = {
-    "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": "2026-09-23",  # Nozomi 2h15, not "2.5-3 hours"
+    "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": "2026-09-24",  # no-airport answer, table, verified fares
     "charter-a-boat-for-a-day": "2026-09-23",                    # Spain 1 Oct 2026, Greece, Croatia
 }
 
