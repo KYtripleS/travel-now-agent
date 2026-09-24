@@ -21,6 +21,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
 SKIP = {"googlee46af4b13b14f75e.html"}
+SKIP_DIRS = {"go"}          # short-link stubs redirect at once; no nav there
 MARK_BEGIN = "<!-- BEGIN global-nav (managed by add_global_nav.py) -->"
 MARK_END = "<!-- END global-nav -->"
 
@@ -39,9 +40,16 @@ LINKS = [
 BODY_RE = re.compile(r"<body[^>]*>", re.IGNORECASE)
 
 
+# GitHub Pages serves 404.html at whatever address was missing
+# (/articles/old/thing.html), so its links must not be relative.
+ROOT_ABSOLUTE = {"404.html"}
+
+
 def rel_root(path: Path, base: Path) -> str:
-    depth = len(path.relative_to(base).parts) - 1
-    return "../" * depth
+    rel = path.relative_to(base)
+    if rel.as_posix() in ROOT_ABSOLUTE:
+        return "/"
+    return "../" * (len(rel.parts) - 1)
 
 
 def block(root: str) -> str:
@@ -72,6 +80,9 @@ def _raw_block(root: str) -> str:
     )
     return (
         f'{MARK_BEGIN}\n'
+        # First focusable element: keyboard and screen-reader users can jump
+        # past the navigation straight to the page's <main id="main">.
+        f'<a class="gy-skip" href="#main">Skip to content</a>'
         f'<nav class="gy-topnav" aria-label="Primary" data-gy-root="{root}">'
         f'<div class="gy-topnav-inner">'
         f'<a class="gy-topnav-brand" href="{root}index.html">Gently Yonder</a>'
@@ -80,6 +91,39 @@ def _raw_block(root: str) -> str:
         f'</div></nav>\n'
         f'<script defer src="{root}js/gy-search.js"></script>\n{MARK_END}'
     )
+
+
+MAIN_RE = re.compile(r"<main(\s[^>]*)?>", re.IGNORECASE)
+
+
+FIRST_BLOCK_RE = re.compile(r"<(section|div|header|article)(\s[^>]*)?>", re.IGNORECASE)
+
+
+def ensure_main_id(html: str) -> str:
+    """The skip link's target: id="main" on the first <main>, or on a page
+    without one (the Ready Score Pro sales page), on its first content block."""
+    if re.search(r'\bid="main"', html):
+        return html
+    m = MAIN_RE.search(html)
+    if m is None:
+        end = html.find(MARK_END)
+        if end == -1:
+            return html
+        m = FIRST_BLOCK_RE.search(html, end)
+        if m is None:
+            return html
+    if re.search(r"\bid=", m.group(0)):
+        return html
+    tag = m.group(0)
+    return html[:m.start()] + tag[:-1].rstrip() + ' id="main">' + html[m.end():]
+
+
+def remove(html: str) -> tuple[str, bool]:
+    if MARK_BEGIN not in html:
+        return html, False
+    b = html.find(MARK_BEGIN)
+    e = html.find(MARK_END, b) + len(MARK_END)
+    return html[:b] + html[e:].lstrip("\n"), True
 
 
 def inject(html: str, snippet: str) -> tuple[str, bool]:
@@ -112,7 +156,13 @@ def main() -> None:
                 counts["skip"] += 1
                 continue
             text = path.read_text(encoding="utf-8")
-            new, changed = inject(text, block(rel_root(path, base)))
+            if path.relative_to(base).parts[0] in SKIP_DIRS:
+                new, changed = remove(text)
+            else:
+                new, changed = inject(text, block(rel_root(path, base)))
+                with_id = ensure_main_id(new)
+                changed = changed or with_id != new
+                new = with_id
             if not changed:
                 counts["noop"] += 1
                 continue

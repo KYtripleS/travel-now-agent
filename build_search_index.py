@@ -6,9 +6,11 @@ GitHub Pages is static, so site search has to run in the browser. This walks
 site/*.html, pulls a title / summary / category / destination tags out of each
 page, and writes a compact JSON index that site/js/gy-search.js loads once.
 
-Only 39 of ~190 pages carry a meta description, so the summary falls back to
-the first real body paragraph (nav, CTA asides and the footer are stripped
-first, or every page would summarise as "Gently Yonder is an independent...").
+The summary is the page's meta description, else the first real body
+paragraph (nav, CTA asides and the footer are stripped first, or every page
+would summarise as "Gently Yonder is an independent..."). Categories use the
+site's one label vocabulary (site_taxonomy.py). The guide count printed on
+search.html is rewritten from the same index, so it can't go stale.
 
 Keys are short (u/t/d/c/k) purely to keep the payload small.
 
@@ -21,6 +23,8 @@ import html as htmllib
 import json
 import re
 from pathlib import Path
+
+import site_taxonomy as T
 
 REPO = Path(__file__).resolve().parent
 SITE = REPO / "site"
@@ -40,6 +44,11 @@ SKIP_DIRS = {"go"}  # /go/* are noindex short-redirects
 STRIP_BLOCKS = re.compile(
     r"<(script|style|nav|footer|aside|figure|form)\b[^>]*>.*?</\1>", re.S | re.I)
 TAG = re.compile(r"<[^>]+>")
+# attribute order varies: BeautifulSoup writes content= before name=
+META_DESC = re.compile(r'<meta(?=[^>]*\bname="description")[^>]*\bcontent="([^"]+)"', re.I)
+NOINDEX = re.compile(r'<meta(?=[^>]*\bname="robots")[^>]*\bcontent="noindex', re.I)
+COUNT_LINE = re.compile(r"\d+ travel-preparation guides")
+NOT_GUIDES = {"Page", "Tool", "Reference"}
 WS = re.compile(r"\s+")
 
 # Destination aliases -> extra searchable keywords, so "oz" or "nihon" still
@@ -84,7 +93,7 @@ def clean(text: str) -> str:
 
 def summary_of(html: str) -> str:
     """Meta description if present, else the first real body paragraph."""
-    m = re.search(r'<meta name="description" content="([^"]+)"', html, re.I)
+    m = META_DESC.search(html)
     if m:
         return clean(m.group(1))[:200]
     body = STRIP_BLOCKS.sub(" ", html)
@@ -108,14 +117,19 @@ def title_of(html: str) -> str:
 
 
 def category_of(html: str, rel: str) -> str:
+    if rel in T.PAGE_LABEL:
+        return T.PAGE_LABEL[rel]
     m = re.search(r'"articleSection"\s*:\s*"([^"]+)"', html)
     if m:
-        return m.group(1)
+        label = m.group(1).split("·")[0].strip()
+        label = T.FROM_OLD.get(label, label)
+        if label in T.SECTION:
+            return label
     head = rel.split("/")[0]
     return {
         "articles": "Guide",
-        "cities": "City Guide",
-        "countries": "Country Profile",
+        "cities": "City guide",
+        "countries": "Country profile",
         "tools": "Tool",
         "travel-power": "Reference",
     }.get(head, "Page")
@@ -141,7 +155,7 @@ def main() -> None:
         if rel.split("/")[0] in SKIP_DIRS:
             continue
         html = path.read_text(encoding="utf-8", errors="ignore")
-        if 'name="robots" content="noindex' in html:
+        if NOINDEX.search(html):
             continue
         title = title_of(html)
         if not title:
@@ -162,6 +176,15 @@ def main() -> None:
         out.write_text(payload, encoding="utf-8")
     kb = len(payload.encode("utf-8")) / 1024
     print(f"  search index: {len(entries)} pages, {kb:.1f} KB -> site/ + docs/{OUT_REL}")
+
+    guides = sum(1 for e in entries if e["c"] not in NOT_GUIDES)
+    for base in (SITE, DOCS):
+        page = base / "search.html"
+        text = page.read_text(encoding="utf-8")
+        new = COUNT_LINE.sub(f"{guides} travel-preparation guides", text, count=1)
+        if new != text:
+            page.write_text(new, encoding="utf-8")
+    print(f"  search.html: {guides} travel-preparation guides")
 
 
 if __name__ == "__main__":

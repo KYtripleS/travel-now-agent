@@ -219,7 +219,7 @@ def country_page(row: dict) -> str:
 <p class="subtitle">What plug and voltage {e(country)} uses, whether you need an adapter or
 a converter, and exactly what to pack.</p>
 </header>
-<main>
+<main id="main">
 <section class="article">
 <p class="article-lede">
 {e(country)} uses <strong>Type {e(plug)}</strong> plugs at <strong>{e(volt)}</strong> ({e(freq)}).
@@ -370,7 +370,7 @@ def index_page(rows: list[dict]) -> str:
 <p class="subtitle">Which plug and voltage each destination uses, whether you need an adapter
 or a converter, and what to pack. Pick a country to get the details.</p>
 </header>
-<main>
+<main id="main">
 <section class="article">
 <p class="article-lede">
 Most travel electronics are dual-voltage, so for the majority of trips you need only the right
@@ -417,6 +417,8 @@ def main() -> None:
     docs_dir = REPO / "docs" / "travel-power"
     pages = {f"{r['slug']}.html": country_page(r) for r in rows}
     pages["index.html"] = index_page(rows)
+    from add_social_meta import apply_text as apply_social
+    pages = {name: apply_social(page) for name, page in pages.items()}
 
     if args.write:
         site_dir.mkdir(parents=True, exist_ok=True)

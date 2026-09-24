@@ -110,3 +110,54 @@
     if (b && window.gtag) gtag('event', 'newsletter_click', { page: location.pathname });
   }, true);
 })();
+
+/* "In this guide" (add_aeo.py): open beside the text on wide screens, where it
+   sits in the empty margin; one line on phones. Marks the section being read,
+   and on phones folds itself away after a jump so it doesn't cover the text. */
+(function () {
+  var toc = document.querySelector('.gy-toc');
+  if (!toc) return;
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  function isWide() { return !!(wide && wide.matches); }
+  function sync() { toc.open = isWide(); }
+  sync();
+  if (wide) {
+    if (wide.addEventListener) wide.addEventListener('change', sync);
+    else if (wide.addListener) wide.addListener(sync);
+  }
+
+  var links = Array.prototype.slice.call(toc.querySelectorAll('a.gy-toc-link'));
+  var heads = links.map(function (a) {
+    return document.getElementById(decodeURIComponent(a.getAttribute('href').slice(1)));
+  });
+
+  toc.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a.gy-toc-link') : null;
+    if (!a) return;
+    var target = heads[links.indexOf(a)];
+    if (window.gtag) gtag('event', 'toc_click', { page: location.pathname, section: a.getAttribute('href') });
+    if (!target || isWide()) return;               /* wide: an ordinary anchor jump */
+    e.preventDefault();                            /* phone: fold first, then jump, */
+    toc.open = false;                              /* so the landing spot is right  */
+    target.scrollIntoView();
+    if (history.pushState) history.pushState(null, '', a.getAttribute('href'));
+  });
+
+  var current = -1, queued = false;
+  function mark() {
+    queued = false;
+    if (!isWide()) return;
+    var idx = -1;
+    for (var i = 0; i < heads.length; i++) {
+      if (heads[i] && heads[i].getBoundingClientRect().top < 140) idx = i; else if (heads[i]) break;
+    }
+    if (idx === current) return;
+    if (current >= 0) { links[current].classList.remove('is-current'); links[current].removeAttribute('aria-current'); }
+    if (idx >= 0) { links[idx].classList.add('is-current'); links[idx].setAttribute('aria-current', 'location'); }
+    current = idx;
+  }
+  window.addEventListener('scroll', function () {
+    if (!queued) { queued = true; requestAnimationFrame(mark); }
+  }, { passive: true });
+  mark();
+})();

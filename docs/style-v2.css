@@ -3940,3 +3940,101 @@ header.hero:not(.article-hero):not(.hero-cinematic) .button:not(.secondary) {
   section.article, .keep-reading, .back-link { padding-left: 4px; padding-right: 4px; }
 }
 nav.breadcrumb li:not([aria-current="page"]) { white-space: nowrap; flex: 0 0 auto; }
+
+/* ── Keyboard and assistive-tech basics (2026-09-24) ─────────────────────── */
+/* Skip link (add_global_nav.py): the first stop for a keyboard or screen-reader
+   user, out of sight for everyone else until it has focus. */
+.gy-skip {
+  position: absolute; left: 12px; top: -80px; z-index: 2000;
+  padding: 10px 16px; border-radius: 6px; background: var(--ink); color: #fff;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: .9rem; font-weight: 600; text-decoration: none;
+}
+.gy-skip:focus { top: 12px; }
+/* A visible focus ring on everything that can take focus. Several earlier
+   layers removed outlines without putting anything back. */
+:where(a, button, summary, select, textarea, input, [tabindex]):focus-visible {
+  outline: 2px solid var(--gold-ink); outline-offset: 3px;
+}
+.apac-node:focus-visible { outline: none; }        /* has its own halo */
+/* Jumps to a heading land below the sticky navigation, not under it */
+[id] { scroll-margin-top: 88px; }
+@media (max-width: 680px) { [id] { scroll-margin-top: 112px; } }
+
+/* ── Photos hold their space while they load ─────────────────────────────── */
+/* None of the ~870 article images declare a size, so the text jumped down as
+   each one arrived. Every figure is shown at 3:2 anyway (object-fit: cover). */
+.article-figure img { aspect-ratio: 3 / 2; height: auto; object-fit: cover; background: #ebe4d6; }
+
+/* ── Phone navigation: show that the section row scrolls ─────────────────── */
+@media (max-width: 680px) {
+  .gy-topnav-links {
+    padding-right: 28px;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+            mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+  }
+}
+
+/* ── "In this guide" (add_aeo.py) ─────────────────────────────────────────── */
+/* One line under the verdict on phones and tablets; on wide screens a contents
+   column in the empty left margin that follows the reader (js/gy-reveal.js
+   opens it there and marks the section being read). */
+.gy-toc {
+  margin: 0 0 2.2em; background: var(--card); border: 1px solid var(--rule);
+  border-radius: var(--card-radius);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+.gy-toc summary {
+  display: flex; align-items: baseline; gap: 10px; padding: 14px 18px;
+  cursor: pointer; list-style: none; color: var(--ink);
+  font-size: .76rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+}
+.gy-toc summary::-webkit-details-marker { display: none; }
+.gy-toc summary::after {
+  content: ""; align-self: center; margin-left: auto; width: 7px; height: 7px;
+  border-right: 2px solid var(--gold-ink); border-bottom: 2px solid var(--gold-ink);
+  transform: translateY(-2px) rotate(45deg);
+}
+.gy-toc[open] summary::after { transform: translateY(2px) rotate(-135deg); }
+.gy-toc-count { font-weight: 500; letter-spacing: .02em; text-transform: none; color: var(--muted); }
+.article .gy-toc ol { list-style: none; margin: 0; padding: 0 18px 12px; counter-reset: toc; }
+.article .gy-toc li { margin: 0; padding: 0; counter-increment: toc; font-size: inherit; line-height: inherit; }
+.article .gy-toc li + li { margin-top: 0; }
+.gy-toc-link {
+  display: grid; grid-template-columns: 2em minmax(0, 1fr); padding: 9px 0;
+  border-top: 1px solid var(--rule); color: var(--ink-soft); text-decoration: none;
+  font-size: .94rem; line-height: 1.4;
+}
+.gy-toc-link::before { content: counter(toc, decimal-leading-zero); color: var(--gold-ink); font-size: .78rem; font-weight: 600; padding-top: .15em; }
+.gy-toc-link:hover { color: var(--gold-ink); }
+@media (min-width: 1240px) {
+  .gy-toc {
+    float: left; width: 216px; margin: 0 0 0 -262px;
+    position: sticky; top: 92px; max-height: calc(100vh - 120px); overflow-y: auto;
+    background: transparent; border: 0; border-radius: 0;
+  }
+  .gy-toc summary { padding: 0 0 12px; }
+  .gy-toc[open] summary { pointer-events: none; }
+  .gy-toc summary::after, .gy-toc-count { display: none; }
+  .article .gy-toc ol { padding: 0; }
+  .gy-toc-link {
+    grid-template-columns: minmax(0, 1fr); padding: 6px 0 6px 14px;
+    border-top: 0; border-left: 2px solid var(--rule); font-size: .84rem; color: var(--muted);
+  }
+  .gy-toc-link::before { display: none; }
+  .gy-toc-link.is-current { border-left-color: var(--gold); color: var(--ink); font-weight: 600; }
+}
+@media print { .gy-toc, .gy-skip { display: none; } }
+
+/* ── 404 page ────────────────────────────────────────────────────────────── */
+.gy-404 .gy-searchpage-h1 { font-family: Georgia, "Times New Roman", serif; }
+.gy-404-guess {
+  margin: 0 0 18px; padding: 14px 18px; max-width: 620px; background: var(--card);
+  border: 1px solid var(--rule); border-left: 3px solid var(--gold); border-radius: 8px;
+  font-size: 1.02rem; color: var(--ink-soft);
+}
+.gy-404-guess a { color: var(--ink); font-weight: 600; text-decoration: underline;
+  text-decoration-color: var(--gold); text-underline-offset: 3px; }
+.gy-404 .gy-start { margin-top: 56px; padding-left: 0; padding-right: 0; }
+.gy-404-more { margin: 20px 0 0; color: var(--muted); }
+.gy-404-more a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px; }

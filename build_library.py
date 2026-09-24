@@ -23,6 +23,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 import site_taxonomy as T
+from add_social_meta import apply_text as apply_social
 
 REPO = Path(__file__).resolve().parent
 MARK_BEGIN = "<!-- BEGIN library (managed by build_library.py) -->"
@@ -330,7 +331,7 @@ def render_archive(rows: list[dict]) -> str:
 travel preparation, from eSIMs to itineraries.</p>
 </div>
 </header>
-<main class="gy-archive">
+<main class="gy-archive" id="main">
 {body}
 <p class="back-link"><a href="index.html">&larr; Back to Gently Yonder</a></p>
 </main>
@@ -389,7 +390,7 @@ def main() -> None:
             t = t[:s] + render_latest(rows, inventory()["guides"]) + t[e:]
         p.write_text(t, encoding="utf-8")
         # full archive page
-        (REPO / base / "all-guides.html").write_text(render_archive(rows), encoding="utf-8")
+        (REPO / base / "all-guides.html").write_text(apply_social(render_archive(rows)), encoding="utf-8")
     _add_to_sitemap()
     counts = inventory()
     update_hero(counts)

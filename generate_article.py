@@ -222,7 +222,7 @@ def build_html(slug: str, row: dict, products: list[dict]) -> str:
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <section class="article">
       <p class="label">{category}</p>
 

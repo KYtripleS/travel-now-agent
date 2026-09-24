@@ -103,6 +103,7 @@ def render_section(cat: str, rows: list[dict]) -> str:
 # The shared blocks, so this page never carries a second, stale nav or footer.
 from add_global_nav import block as _nav_block
 from add_footer import block as _footer_block
+from add_social_meta import apply_text as apply_social
 NAV = _nav_block("")
 FOOTER = _footer_block("")
 
@@ -218,7 +219,7 @@ def build_page(by_cat: dict[str, list[dict]]) -> str:
 <p>Our honest gear picks, grouped by category and sortable — {total} items across {len(cats)} categories. Filter to what you need, then check the current price on Amazon.</p>
 </div>
 </header>
-<main>
+<main id="main">
 <div class="gear-intro">
 <p class="gear-disclosure">Disclosure: some links are affiliate links. As an Amazon Associate, Gently Yonder may earn from qualifying purchases at no extra cost to you. Prices and availability are shown on the retailer's site, not here — always confirm the current price before buying.</p>
 </div>
@@ -244,7 +245,7 @@ def build_page(by_cat: dict[str, list[dict]]) -> str:
 
 def main() -> None:
     by_cat = read_products()
-    page = build_page(by_cat)
+    page = apply_social(build_page(by_cat))
     for base in ("site", "docs"):
         (REPO / base / "gear.html").write_text(page, encoding="utf-8")
     print(f"Built site/gear.html and docs/gear.html ({sum(len(v) for v in by_cat.values())} products, {len(by_cat)} categories)")

@@ -20,6 +20,11 @@ that reader:
    they never reach. Linked: partner names in comparison tables, paragraphs that
    open with a bold partner name, and a one-line link under a heading that names
    a single partner ("1. Airalo — …").
+4. "In this guide": a contents list under the verdict on articles with five or
+   more sections, with a stable id on every section heading. Readers who land
+   mid-decision jump straight to prices or the FAQ, and the anchors give search
+   and answer engines addressable sections to cite.
+5. A social card from the article's own photo (add_social_meta.py).
 
 Only brands we have an affiliate relationship with are ever linked. Viator,
 GetYourGuide, Holafly, SafetyWing and the rest stay plain text.
@@ -37,11 +42,14 @@ import argparse
 import json
 import re
 import subprocess
+import unicodedata
 from datetime import date
 from functools import lru_cache
 from pathlib import Path
 
 from bs4 import BeautifulSoup, NavigableString, Tag
+
+import add_social_meta
 
 REPO = Path(__file__).resolve().parent
 SITE = REPO / "site"
@@ -605,6 +613,64 @@ def render_verdict(soup: BeautifulSoup, spec: dict) -> Tag:
     return box
 
 
+# --- "In this guide" ---------------------------------------------------------
+TOC_MIN = 5                      # content sections before a page gets a contents list
+TOC_SKIP = re.compile(r"^sources|references|liked this guide|keep reading|related reading", re.I)
+FAQ_HEADING = re.compile(r"frequently asked", re.I)
+
+
+def _slug(text: str) -> str:
+    ascii_ = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
+    s = re.sub(r"[^a-z0-9]+", "-", ascii_.lower()).strip("-")
+    if len(s) > 60:
+        s = s[:60].rsplit("-", 1)[0]
+    return s or "section"
+
+
+def add_toc(soup: BeautifulSoup, article: Tag) -> int:
+    """Contents list for long articles; gives every listed heading an id."""
+    heads = [h for h in article.find_all("h2")
+             if (h.parent is article and not TOC_SKIP.search(h.get_text(" ", strip=True)))
+             or FAQ_HEADING.search(h.get_text(" ", strip=True))]
+    if sum(1 for h in heads if not FAQ_HEADING.search(h.get_text(" ", strip=True))) < TOC_MIN:
+        return 0
+    taken = {t["id"] for t in soup.find_all(id=True)}
+    box = soup.new_tag("details", attrs={"class": "gy-toc", "data-aeo": "1"})
+    summary = soup.new_tag("summary")
+    summary.append("In this guide")
+    count = soup.new_tag("span", attrs={"class": "gy-toc-count"})
+    count.string = f"{len(heads)} sections"
+    summary.append(count)
+    box.append(summary)
+    ol = soup.new_tag("ol")
+    for h in heads:
+        if not h.get("id"):
+            base = _slug(h.get_text(" ", strip=True))
+            cand, n = base, 2
+            while cand in taken:
+                cand, n = f"{base}-{n}", n + 1
+            h["id"] = cand
+            taken.add(cand)
+        li = soup.new_tag("li")
+        a = soup.new_tag("a", attrs={"class": "gy-toc-link", "href": f"#{h['id']}"})
+        a.string = " ".join(h.get_text(" ", strip=True).split())
+        li.append(a)
+        ol.append(li)
+    box.append(ol)
+    # under the verdict; otherwise under the opening paragraph
+    kids = [c for c in article.children if isinstance(c, Tag)]
+    anchor = next((c for c in kids if "gy-verdict" in (c.get("class") or [])), None)
+    if anchor is None and kids and "article-lede" in (kids[0].get("class") or []):
+        anchor = kids[0]
+    if anchor is not None:
+        anchor.insert_after(box)
+    elif kids:
+        kids[0].insert_before(box)
+    else:
+        article.append(box)
+    return len(heads)
+
+
 def strip_managed(soup: BeautifulSoup) -> None:
     for el in soup.select("[data-aeo]"):
         if el.name == "a":
@@ -618,7 +684,7 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
     slug = Path(rel).stem
     strip_managed(soup)
     apply_dates(soup, rel, modified=modified or REVISED.get(slug))
-    out = {"verdict": False, "links": 0}
+    out = {"verdict": False, "links": 0, "toc": 0}
     spec = V.get(slug)
     article = soup.select_one("section.article")
     if spec and article is not None:
@@ -636,6 +702,9 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
             article.append(box)
         out["verdict"] = True
         out["links"] = link_brands(soup)
+    if article is not None:
+        out["toc"] = add_toc(soup, article)
+    add_social_meta.apply(soup)
     return out
 
 
@@ -643,7 +712,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--write", action="store_true")
     args = ap.parse_args()
-    changed = verdicts = links = 0
+    changed = verdicts = links = tocs = 0
     for src in sorted((SITE / "articles").glob("*.html")):
         rel = f"articles/{src.name}"
         html = src.read_text(encoding="utf-8")
@@ -652,13 +721,14 @@ def main() -> None:
         new = str(soup)
         verdicts += res["verdict"]
         links += res["links"]
+        tocs += bool(res["toc"])
         if new != html:
             changed += 1
             if args.write:
                 src.write_text(new, encoding="utf-8")
                 (DOCS / rel).write_text(new, encoding="utf-8")
     missing = sorted(s for s in V if not (SITE / "articles" / f"{s}.html").exists())
-    print(f"pages changed: {changed}   verdicts: {verdicts}   partner links placed: {links}")
+    print(f"pages changed: {changed}   verdicts: {verdicts}   partner links placed: {links}   contents lists: {tocs}")
     if missing:
         print("  registry slugs with no page:", ", ".join(missing))
     if not args.write:
