@@ -179,6 +179,41 @@ V = {
              "cheaper. Pay the platform premium when you want card protection and clear cancellation terms: "
              "Klook for day trips from Hanoi, Viator for the widest range of overnights.",
         cta=("klook", "Check Halong Bay cruises on Klook")),
+    "where-to-stay-in-tokyo": dict(
+        text="Choose the station first, then the hotel (Klook lists several of the hotels below if you want "
+             "to compare prices). For a first trip, stay on the south or west side of Shinjuku, or in Shibuya; "
+             "for the Shinkansen or quiet evenings, the Marunouchi side of Tokyo Station; for old-Tokyo "
+             "character and better value, Asakusa or Ueno. Then book within five minutes of the exit you will use.",
+        cta=("klook", "Compare Tokyo hotels on Klook")),
+    "where-to-stay-in-sydney": dict(
+        text="For a first trip, stay in the city centre by Hyde Park; our pick there is the Sheraton Grand "
+             "Sydney Hyde Park, where one of us stayed in September 2026 (Klook lists it if you want to "
+             "compare prices). Choose Circular Quay and The Rocks for the harbour, Surry Hills for food, and "
+             "Bondi or Manly for the beach.",
+        cta=("klook", "Compare Sydney hotels on Klook")),
+    "where-to-stay-in-melbourne": dict(
+        text="Stay in the CBD, inside the Free Tram Zone, for a first trip; the SkyBus from the airport, "
+             "bookable on Klook, stops at Southern Cross on its edge. Choose Southbank for the river, Fitzroy "
+             "for bars and vintage shops, St Kilda for the bay and South Yarra for Chapel Street.",
+        cta=("klook", "Book the SkyBus on Klook")),
+    "where-to-stay-in-kyoto": dict(
+        text="Stay downtown near a subway station for the best all-round base, or by Kyoto Station if you "
+             "are arriving by Shinkansen or from Kansai Airport (Klook lists some of the station hotels if "
+             "you want to compare prices). Choose Gion and Higashiyama for the old city at dawn and dusk, "
+             "and budget for the accommodation tax that rose on 1 March 2026.",
+        cta=("klook", "Compare Kyoto hotels on Klook")),
+    "where-to-stay-in-osaka": dict(
+        text="Stay in Namba or Shinsaibashi for food and nightlife, or around Umeda and Osaka Station for "
+             "trains to Kyoto, Kobe and Kansai Airport (the Haruka stops there, and Klook sells tickets). "
+             "Tennoji and Shinsekai are the value pick, and the bay only makes sense if Universal Studios "
+             "Japan is the point of the trip.",
+        cta=("klook", "Book the Haruka on Klook")),
+    "where-to-book-tokyo-food-tour": dict(
+        text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
+             "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
+             "Skip KKday for Tokyo food. Decide by neighbourhood and time first: Shinjuku izakaya at night, "
+             "Tsukiji in the morning, Asakusa for old-town snacks.",
+        cta=("klook", "Check Tokyo food tours on Klook")),
     "where-to-book-mount-fuji-day-tour": dict(
         text="Klook and KKday both list the standard tour at about ¥7,800, so choose the month and the "
              "earliest departure instead: the whole mountain is visible about 7% of the time in June and "
@@ -362,16 +397,12 @@ V = {
              "least: the north at its best and the south dry, with some rain risk on the central coast in "
              "autumn. May to September is noticeably cheaper and greener if you can live with afternoon rain.",
         cta=("klook", "Browse Vietnam experiences on Klook")),
-    "where-to-stay-in-tokyo": dict(
-        text="For a first trip where you want everything easy, stay in Shinjuku or Shibuya; city-hopping and "
-             "want calm plus Shinkansen access, Tokyo Station and Marunouchi; for character and value, "
-             "Asakusa. Wherever you pick, stay within a few minutes’ walk of the station.",
-        cta=("klook", "Browse Tokyo experiences on Klook")),
     "charter-a-boat-for-a-day": dict(
-        text="You can hire a small motorboat without a licence in Italy (up to 40 HP, within 6 nautical "
-             "miles), Greece (up to 30 HP, within 3), Croatia (up to 5 m and 5 kW, within 500 m of shore) and "
-             "on UK canals — but not in Spain from 1 October 2026, when renters will need at least a "
-             "one-day licence. With no licence at all, a skippered charter is the simple answer.",
+        text="With no boating licence, the simple answer is a skippered charter; SamBoat lists both skippered "
+             "and licence-free boats. You can still hire a small motorboat without a licence in Italy (up to "
+             "40 HP, within 6 nautical miles), Greece (up to 30 HP, within 3), Croatia (up to 5 m and 5 kW, "
+             "within 500 m of shore) and on UK canals — but not in Spain from 1 October 2026, when renters "
+             "will need at least a one-day licence.",
         cta=("samboat", "Browse licence-free and skippered boats on SamBoat"),
         note_html='<strong>Who this guide is for:</strong> first-time charterers with no boating history, '
                   'planning a single day on the water. Ticking the day off a bigger trip? '
@@ -395,6 +426,7 @@ V = {
 REVISED = {
     "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": "2026-09-24",  # no-airport answer, table, verified fares
     "charter-a-boat-for-a-day": "2026-09-23",                    # Spain 1 Oct 2026, Greece, Croatia
+    "where-to-stay-in-tokyo": "2026-09-25",                      # rewrite: 17 verified hotels, tax, tables
 }
 
 STOP_HEADINGS = re.compile(r"frequently asked|^sources|references|liked this guide|keep reading|related reading",
@@ -593,14 +625,28 @@ def render_verdict(soup: BeautifulSoup, spec: dict) -> Tag:
     label = soup.new_tag("strong", attrs={"class": "gy-verdict-label"})
     label.string = BRAND_LABEL
     p.append(label)
-    p.append(" " + spec["text"])
-    box.append(p)
     cta = spec.get("cta")
     href = None
     if cta and cta[0] == "amazon":
         href, text = _amazon_href(soup, cta[1]), cta[2]
     elif cta:
         href, text = _page_href(soup, cta[0]), cta[1]
+    # Link the partner where the verdict first names it, not only in the line
+    # after the text: on a phone a long verdict pushed that last line below the
+    # first screen on every decision article (the link must show unscrolled).
+    names = [n for n, k in BRANDS.items() if cta and k == cta[0]]
+    m = None
+    if href and names:
+        m = re.search(r"\b(" + "|".join(re.escape(n) for n in names) + r")\b", spec["text"])
+    if m:
+        p.append(" " + spec["text"][:m.start()])
+        inline = _anchor(soup, href, managed=False)
+        inline.string = m.group(0)
+        p.append(inline)
+        p.append(spec["text"][m.end():])
+    else:
+        p.append(" " + spec["text"])
+    box.append(p)
     if href:
         c = soup.new_tag("p", attrs={"class": "gy-verdict-cta"})
         a = _anchor(soup, href, managed=False)

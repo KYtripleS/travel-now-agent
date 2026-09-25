@@ -102,6 +102,7 @@
       var placement = a.closest('.gy-verdict') ? 'verdict'
         : a.closest('table') ? 'table'
         : a.closest('.gy-section-link') ? 'section'
+        : a.closest('.gy-pick') ? 'pick'
         : a.closest('.gy-widget, .gy-cta') ? 'widget'
         : 'prose';
       gtag('event', 'affiliate_click', { partner: partner, page: location.pathname, placement: placement });

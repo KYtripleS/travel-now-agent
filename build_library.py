@@ -88,15 +88,10 @@ from add_global_nav import block as _nav_block
 from add_footer import block as _footer_block
 NAV = _nav_block("")
 
-GA4 = f"""<!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', '{GA4_ID}', {{ anonymize_ip: true }});
-</script>
-<!-- END GA4 -->"""
+# The managed GA4 block, identical to every other page (it carries the
+# internal-traffic filter the archive page used to be missing).
+from add_ga4 import snippet as _ga4_snippet
+GA4 = _ga4_snippet(GA4_ID).strip()
 
 DRIVE = """<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1">
   (function () { var s=document.createElement("script"); s.async=1;
@@ -343,6 +338,114 @@ travel preparation, from eSIMs to itineraries.</p>
 """
 
 
+
+# --- pillar hubs (2026-09-24) --------------------------------------------------
+# Section fronts for the stay and food pillars. Like all-guides.html these pages
+# are generated whole, so a new guide appears on its hub the moment it is
+# published with the right label (site_taxonomy).
+HUBS = {
+    "stay/index.html": dict(
+        title="Where to Stay: Neighbourhoods and Hotels, City by City | Gently Yonder",
+        h1="Where to stay",
+        eyebrow="Stay",
+        desc=("Where to stay, decided in the right order: the neighbourhood first, then the hotel. "
+              "Area-by-area guides with named hotels at every budget and the trade-offs of each."),
+        intro=("Choosing where to sleep is two decisions, in this order: the neighbourhood, then the "
+               "hotel. Our stay guides start every city with the first, what each area is like early and "
+               "late and how far it is from the trains you will actually use, then name specific hotels "
+               "at every budget, with the reason we would pick each."),
+        note=("Hotels in these guides are researched picks, chosen for location, what each property "
+              "publishes and consistent guest feedback, and checked as open when the guide was last "
+              "updated. When we review a stay first-hand, the guide says so at the top. No hotel pays "
+              "to be included."),
+        groups=[("Stay guides", {"Stay"})],
+    ),
+    "food/index.html": dict(
+        title="Food & Drink: Cafés, Food Tours and Eating Well | Gently Yonder",
+        h1="Food &amp; drink",
+        eyebrow="Food &amp; drink",
+        desc=("Where and how to eat well on the road: old coffee houses worth a detour, food tours "
+              "compared, and what to know before you sit down."),
+        intro=("Where and how to eat well on the road: the old coffee houses worth a detour, the food "
+               "tours worth an evening, and the small customs that make both easier."),
+        note=("We name only places we could confirm are open, with the date we checked. Cafés and "
+              "restaurants change hands, hours and menus; if you find one that has, "
+              '<a href="../contribute.html">tell us</a>.'),
+        groups=[("Cafés &amp; coffee", {"Cafés"}), ("Food", {"Food"})],
+    ),
+}
+
+
+def _hub_row(r: dict) -> str:
+    thumb = r["thumb"]
+    if thumb and not thumb.startswith("http"):
+        thumb = "../" + thumb
+    return row_html({**r, "href": "../" + r["href"], "thumb": thumb})
+
+
+def render_hub(rel: str, rows: list[dict]) -> str:
+    h = HUBS[rel]
+    url = f"https://gentlyyonder.com/{rel}"
+    sections = []
+    for name, labels in h["groups"]:
+        items = distinct_thumbs([r for r in rows if r["tag"] in labels])
+        if not items:
+            continue
+        anchor = re.sub(r"[^a-z]+", "-", name.lower().replace("&amp;", "and")).strip("-")
+        lis = "\n".join(_hub_row(r) for r in items)
+        sections.append(f'<section class="gy-arch-cat" id="{anchor}">\n'
+                        f'  <h2>{name} <span class="gy-arch-count">{len(items)}</span></h2>\n'
+                        f'  <div class="gy-lib-list">\n{lis}\n  </div>\n</section>')
+    body = "\n".join(sections)
+    nav = _nav_block("../")
+    footer = _footer_block("../")
+    ld = ('{"@context": "https://schema.org", "@type": "CollectionPage", '
+          f'"url": "{url}", "name": "{h["h1"].replace("&amp;", "&")}", '
+          '"isPartOf": {"@type": "WebSite", "name": "Gently Yonder", "url": "https://gentlyyonder.com/"}}')
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{h["title"]}</title>
+<meta name="description" content="{h["desc"]}" />
+<link rel="canonical" href="{url}" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<link rel="stylesheet" href="../style-v2.css" />
+<script type="application/ld+json">{ld}</script>
+{GA4}
+<!-- BEGIN favicon (managed by add_favicon.py) -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48"/>
+<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<!-- END favicon -->
+{DRIVE}
+</head>
+<body>
+{nav}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+<ol><li><a href="../index.html">Gently Yonder</a></li><li aria-current="page">{h["eyebrow"]}</li></ol>
+</nav>
+<header class="gy-arch-head">
+<div class="gy-arch-head-inner">
+<p class="label">{h["eyebrow"]}</p>
+<h1>{h["h1"]}</h1>
+<p>{h["intro"]}</p>
+</div>
+</header>
+<main class="gy-archive" id="main">
+<aside class="gy-hub-note"><p>{h["note"]}</p></aside>
+{body}
+<p class="back-link"><a href="../all-guides.html">&larr; All guides</a></p>
+</main>
+{footer}
+<script defer src="../js/gy-reveal.js"></script>
+<script src="../js/email-popup.js" data-root="../" defer></script>
+</body>
+</html>
+"""
+
 def inventory() -> dict:
     """Count what actually exists on disk — the single source of truth."""
     arts = sorted((REPO / "site" / "articles").glob("*.html"))
@@ -391,6 +494,10 @@ def main() -> None:
         p.write_text(t, encoding="utf-8")
         # full archive page
         (REPO / base / "all-guides.html").write_text(apply_social(render_archive(rows)), encoding="utf-8")
+        for rel in HUBS:
+            out = REPO / base / rel
+            out.parent.mkdir(parents=True, exist_ok=True)
+            out.write_text(apply_social(render_hub(rel, rows)), encoding="utf-8")
     _add_to_sitemap()
     counts = inventory()
     update_hero(counts)
@@ -402,14 +509,17 @@ def main() -> None:
 
 
 def _add_to_sitemap() -> None:
-    url = "https://gentlyyonder.com/all-guides.html"
+    urls = ["https://gentlyyonder.com/all-guides.html"] + [
+        f"https://gentlyyonder.com/{rel}" for rel in HUBS]
     for p in (REPO / "site" / "sitemap.xml", REPO / "docs" / "sitemap.xml"):
         s = p.read_text(encoding="utf-8")
-        if url in s:
-            continue
-        block = (f"  <url>\n    <loc>{url}</loc>\n    <changefreq>weekly</changefreq>\n"
-                 f"    <priority>0.7</priority>\n  </url>\n")
-        p.write_text(s.replace("</urlset>", block + "</urlset>"), encoding="utf-8")
+        for url in urls:
+            if f"<loc>{url}</loc>" in s:
+                continue
+            block = (f"  <url>\n    <loc>{url}</loc>\n    <changefreq>weekly</changefreq>\n"
+                     f"    <priority>0.7</priority>\n  </url>\n")
+            s = s.replace("</urlset>", block + "</urlset>")
+        p.write_text(s, encoding="utf-8")
 
 
 if __name__ == "__main__":

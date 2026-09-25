@@ -32,6 +32,7 @@ TPX = {
     "klook":          "https://klook.tpx.lu/TgR5Suzs",
     "welcomepickups": "https://tpx.lu/YtuAbaB1",
     "saily":          "https://saily.tpx.lu/hk5XU6Sm",
+    "airalo":         "https://airalo.tpx.lu/ctddHmQY",   # our Japan eSIM default
     "ekta":           "https://ektatraveling.tpx.lu/LXmPxVUQ",
     "kkday":          "https://kkday.tpx.lu/99SKEU6d",
     # WeGoTrip self-guided audio tours — highest reward rate we carry
@@ -51,6 +52,7 @@ LABEL = {
     "klook":          "Tours, rail passes &amp; transfers on Klook &rarr;",
     "welcomepickups": "Arrange a private airport pickup (Welcome Pickups) &rarr;",
     "saily":          "Set up a travel eSIM with Saily &rarr;",
+    "airalo":         "Get a travel eSIM with Airalo &rarr;",
     "ekta":           "Compare travel insurance with EKTA &rarr;",
     "kkday":          "Book local experiences on KKday &rarr;",
     "wegotrip":       "Browse self-guided audio tours on WeGoTrip &rarr;",
@@ -288,8 +290,41 @@ REGISTRY: dict[str, str] = {
     # ---- batch 2026-07-09b (suica + hand-written five) ----
     "articles/suica-pasmo-ic-cards-guide.html": cta(
         "Sorting Japan transit & tickets", ["klook", "welcomepickups", "aviasales"]),
-    "articles/where-to-stay-in-tokyo.html": cta(
-        "Booking your Tokyo stay", ["welcomepickups", "klook", "tiqets", "aviasales"]),
+    "articles/where-to-stay-in-tokyo.html": hub(
+        "Settling into Tokyo",
+        "An airport pickup for a late arrival, somewhere to leave bags before check-in, and "
+        "self-guided walks for your first afternoon.",
+        "1850147", ["welcomepickups", "radicalstorage", "klook", "wegotrip"]),
+    "articles/where-to-stay-in-sydney.html": hub(
+        "Settling into Sydney",
+        "An airport pickup to your hotel door, tickets for the first afternoon, and an eSIM that "
+        "works from the moment you land.",
+        "2147714", ["welcomepickups", "klook", "wegotrip", "airalo"]),
+    "articles/where-to-stay-in-melbourne.html": hub(
+        "Settling into Melbourne",
+        "An airport pickup to your hotel door, tickets for the city's museums and gardens, and an "
+        "eSIM for the trams and maps.",
+        "2158177", ["welcomepickups", "klook", "wegotrip", "airalo"]),
+    "articles/where-to-stay-in-kyoto.html": hub(
+        "Settling into Kyoto",
+        "Self-guided audio walks for the quiet hours in Arashiyama and Fushimi Inari, plus tickets "
+        "and an eSIM for the buses and maps.",
+        "1857910", ["wegotrip", "klook", "kkday", "airalo"]),
+    "articles/where-to-stay-in-osaka.html": hub(
+        "Settling into Osaka",
+        "Airport trains and pickups, self-guided audio walks through the old city, and an eSIM for "
+        "the subway and the maps.",
+        "1853909", ["klook", "welcomepickups", "wegotrip", "airalo"]),
+    "articles/tokyo-kissaten-guide.html": hub(
+        "Between coffees",
+        "Self-guided audio walks around Tokyo for the hours between kissaten, and tickets for the "
+        "rest of the day.",
+        "1850147", ["wegotrip", "klook", "tiqets"]),
+    "articles/where-to-book-tokyo-food-tour.html": hub(
+        "Book a Tokyo food tour",
+        "Shinjuku izakaya evenings, Tsukiji mornings and Asakusa snacks \u2014 compare the same "
+        "tour on each platform before you book.",
+        "1850147", ["klook", "kkday", "wegotrip", "airalo"]),
     "articles/how-much-does-japan-cost.html": hub(
         "Building your Japan budget",
         "Price the big lines against your plan — current fares, tours and rail "

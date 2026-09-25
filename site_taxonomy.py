@@ -15,6 +15,9 @@ SECTION = {
     "Getting around": "Destinations & itineraries",
     "When to go": "Destinations & itineraries",
     "Country profile": "Destinations & itineraries",
+    "Stay": "Where to stay",
+    "Cafés": "Food & drink",
+    "Food": "Food & drink",
     "Booking & tours": "Booking, rail & flights",
     "Flights & hotels": "Booking, rail & flights",
     "Rail": "Booking, rail & flights",
@@ -29,7 +32,7 @@ SECTION = {
     "Trip planning": "Culture & trip planning",
 }
 SECTION_ORDER = [
-    "Destinations & itineraries", "Booking, rail & flights", "Connectivity",
+    "Destinations & itineraries", "Where to stay", "Food & drink", "Booking, rail & flights", "Connectivity",
     "Insurance", "Packing, gear & airports", "Entry, money & rules",
     "Culture & trip planning",
 ]
@@ -56,6 +59,9 @@ FROM_OLD = {
     "Airport prep": "Airport",
     "Travel economics": "Money & costs", "Travel money": "Money & costs",
     "Cross-Cultural Etiquette": "Culture", "Language & Culture": "Culture",
+    "Where to stay": "Stay", "Hotels": "Stay", "Accommodation": "Stay",
+    "Café": "Cafés", "Cafe": "Cafés", "Coffee": "Cafés",
+    "Food & drink": "Food", "Food tours": "Food",
 }
 
 # per-article decisions where the old label was a catch-all
@@ -71,7 +77,10 @@ BY_SLUG = {
     "travel-insurance-japan": "Insurance",
     "day-trips-from-tokyo": "Itinerary",
     "klook-vs-kkday": "Booking & tours",
-    "hotel-booking-sites-comparison": "Flights & hotels",
+    # where-to-stay pillar (2026-09-24): hotel choice is its own decision
+    "hotel-booking-sites-comparison": "Stay",
+    "where-to-stay-in-tokyo": "Stay",
+    "osaka-or-kyoto-where-to-base": "Stay",
     "jr-pass-worth-it-2026": "Rail",
     "do-you-need-keta-south-korea": "Entry & arrival",
     "visit-japan-web-guide": "Entry & arrival",

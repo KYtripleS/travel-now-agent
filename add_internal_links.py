@@ -545,7 +545,51 @@ ARTICLES: dict[str, tuple[str, str]] = {
     ),
     "articles/where-to-stay-in-tokyo.html": (
         "Where to Stay in Tokyo",
-        "Shinjuku, Shibuya, Asakusa and beyond — neighbourhoods compared for first-timers.",
+        "Six neighbourhoods and 17 named hotels, from Park Hyatt to a 70-year-old family ryokan.",
+    ),
+    "articles/getting-around-melbourne.html": (
+        "Getting Around Melbourne",
+        "Trams, Myki and the Free Tram Zone, and the SkyBus from the airport.",
+    ),
+    "articles/melbourne-airport-to-city.html": (
+        "Melbourne Airport to the City",
+        "SkyBus, rideshare or the budget way: time, cost and luggage compared.",
+    ),
+    "articles/melbourne-first-timers-guide.html": (
+        "Melbourne: A First-Timer's Guide",
+        "The laneways, the neighbourhoods, the free trams and the coffee, in one calm orientation.",
+    ),
+    "articles/things-to-do-in-melbourne.html": (
+        "Melbourne: The Places Worth Your Time",
+        "Laneways, the Yarra, the free NGV and the Botanic Gardens, market days and St Kilda.",
+    ),
+    "articles/where-to-stay-in-osaka.html": (
+        "Where to Stay in Osaka",
+        "Namba or Umeda? Five areas and 10 hotels, from Dotonbori to the park gates of USJ.",
+    ),
+    "articles/where-to-stay-in-sydney.html": (
+        "Where to Stay in Sydney",
+        "Six areas and 13 hotels, including the Sheraton Grand on Hyde Park, where we stayed.",
+    ),
+    "articles/where-to-stay-in-melbourne.html": (
+        "Where to Stay in Melbourne",
+        "Five areas and 12 hotels, and why the Free Tram Zone should decide your base.",
+    ),
+    "articles/where-to-stay-in-kyoto.html": (
+        "Where to Stay in Kyoto",
+        "Five areas, 14 hotels and ryokan, and the accommodation tax that changed in March 2026.",
+    ),
+    "articles/klook-vs-kkday.html": (
+        "Klook vs KKday",
+        "Where each platform's inventory wins in Asia, and the five-minute routine for choosing.",
+    ),
+    "articles/tokyo-kissaten-guide.html": (
+        "Kissaten in Tokyo",
+        "Nine old coffee houses still going in 2026, and how to behave in one.",
+    ),
+    "articles/where-to-book-tokyo-food-tour.html": (
+        "Where to Book a Tokyo Food Tour",
+        "Viator has the choice, Klook often the price: Shinjuku nights, Tsukiji mornings and Asakusa snacks compared.",
     ),
     "tools/esim-finder.html": (
         "eSIM Finder (Free Tool)",
@@ -696,7 +740,7 @@ LINKS: dict[str, list[str]] = {
         "articles/three-slow-days-in-kyoto.html",
         "articles/things-to-do-in-tokyo.html",
         "countries/japan/index.html",
-        "articles/untranslatable-words.html",
+        "articles/where-to-stay-in-kyoto.html",
     ],
     "articles/things-to-do-in-bangkok.html": [
         "articles/bangkok-first-timers-guide.html",
@@ -717,7 +761,7 @@ LINKS: dict[str, list[str]] = {
         "articles/osaka-first-timers-guide.html",
         "articles/best-esim-japan-2026.html",
         "articles/things-to-do-in-kyoto.html",
-        "articles/luggage-storage-tokyo.html",
+        "articles/where-to-stay-in-osaka.html",
         "articles/things-to-do-in-seoul.html",
     ],
     "articles/things-to-do-in-singapore.html": [
@@ -1060,6 +1104,7 @@ LINKS: dict[str, list[str]] = {
         "articles/sydney-first-timers-guide.html",
         "articles/best-esim-australia-2026.html",
         "countries/australia/index.html",
+        "articles/where-to-stay-in-sydney.html",
     ],
     "articles/sydney-first-timers-guide.html": [
         "articles/things-to-do-in-sydney.html",
@@ -1067,12 +1112,14 @@ LINKS: dict[str, list[str]] = {
         "articles/getting-around-sydney.html",
         "articles/best-esim-australia-2026.html",
         "countries/australia/index.html",
+        "articles/where-to-stay-in-sydney.html",
     ],
     "articles/getting-around-sydney.html": [
         "articles/sydney-harbour-cruises-guide.html",
         "articles/things-to-do-in-sydney.html",
         "articles/sydney-first-timers-guide.html",
         "countries/australia/index.html",
+        "articles/where-to-stay-in-sydney.html",
     ],
     "articles/where-to-book-jeju-bus-tour.html": [
         "articles/how-much-does-south-korea-cost.html",
@@ -1230,7 +1277,7 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-book-halong-bay-cruise.html",
         "articles/where-to-book-sydney-harbour-cruise.html",
         "articles/where-to-book-taipei-day-tour.html",
-        "articles/where-to-book-bangkok-dinner-cruise.html",
+        "articles/where-to-book-tokyo-food-tour.html",
     ],
     "articles/best-travel-insurance-digital-nomads-2026.html": [
         "articles/safetywing-vs-world-nomads.html",
@@ -1283,8 +1330,8 @@ LINKS: dict[str, list[str]] = {
         "articles/three-slow-days-in-kyoto.html",
         "cities/tokyo/asakusa.html",
         "articles/luggage-storage-tokyo.html",
-        "articles/carry-on-packing-list-10-day-japan.html",
-        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-book-tokyo-food-tour.html",
     ],
     "cities/tokyo/asakusa.html": [
         "cities/tokyo/index.html",
@@ -1292,6 +1339,7 @@ LINKS: dict[str, list[str]] = {
         "articles/esim-activation-and-preparation.html",
         "articles/what-counts-as-rude.html",
         "articles/untranslatable-words.html",
+        "articles/tokyo-kissaten-guide.html",
     ],
     "countries/vietnam/index.html": [
         "countries/japan/index.html",
@@ -1455,6 +1503,7 @@ LINKS: dict[str, list[str]] = {
         "articles/osaka-or-kyoto-where-to-base.html",
         "articles/japan-city-sightseeing-passes-worth-it.html",
         "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html",
+        "articles/where-to-stay-in-osaka.html",
     ],
     "articles/osaka-or-kyoto-where-to-base.html": [
         "articles/osaka-3-day-guide.html",
@@ -1462,6 +1511,7 @@ LINKS: dict[str, list[str]] = {
         "articles/gion-kyoto-neighbourhood-guide.html",
         "articles/jr-pass-worth-it-2026.html",
         "articles/things-to-do-in-osaka.html",
+        "articles/where-to-stay-in-kyoto.html",
     ],
     "articles/tokyo-itinerary-5-days.html": [
         "articles/things-to-do-in-tokyo.html",
@@ -1487,11 +1537,88 @@ LINKS: dict[str, list[str]] = {
         "countries/japan/index.html",
     ],
     "articles/where-to-stay-in-tokyo.html": [
-        "articles/tokyo-itinerary-5-days.html",
-        "cities/tokyo/index.html",
-        "cities/tokyo/asakusa.html",
         "articles/narita-haneda-to-central-tokyo.html",
         "articles/luggage-storage-tokyo.html",
+        "cities/tokyo/asakusa.html",
+        "articles/tokyo-itinerary-5-days.html",
+        "articles/tokyo-kissaten-guide.html",
+        "articles/where-to-book-tokyo-food-tour.html",
+    ],
+    "articles/melbourne-first-timers-guide.html": [
+        "articles/where-to-stay-in-melbourne.html",
+        "articles/things-to-do-in-melbourne.html",
+        "articles/getting-around-melbourne.html",
+        "articles/melbourne-airport-to-city.html",
+        "articles/best-esim-australia-2026.html",
+    ],
+    "articles/things-to-do-in-melbourne.html": [
+        "articles/where-to-stay-in-melbourne.html",
+        "articles/melbourne-first-timers-guide.html",
+        "articles/getting-around-melbourne.html",
+        "articles/best-esim-australia-2026.html",
+        "articles/things-to-do-in-sydney.html",
+    ],
+    "articles/getting-around-melbourne.html": [
+        "articles/melbourne-airport-to-city.html",
+        "articles/where-to-stay-in-melbourne.html",
+        "articles/things-to-do-in-melbourne.html",
+        "articles/melbourne-first-timers-guide.html",
+        "articles/getting-around-sydney.html",
+    ],
+    "articles/where-to-stay-in-osaka.html": [
+        "articles/osaka-or-kyoto-where-to-base.html",
+        "articles/osaka-3-day-guide.html",
+        "articles/things-to-do-in-osaka.html",
+        "articles/where-to-stay-in-kyoto.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/where-to-stay-in-tokyo.html",
+    ],
+    "articles/where-to-stay-in-sydney.html": [
+        "articles/sydney-first-timers-guide.html",
+        "articles/things-to-do-in-sydney.html",
+        "articles/getting-around-sydney.html",
+        "articles/where-to-book-sydney-harbour-cruise.html",
+        "articles/best-esim-australia-2026.html",
+        "articles/where-to-stay-in-melbourne.html",
+    ],
+    "articles/where-to-stay-in-melbourne.html": [
+        "articles/melbourne-first-timers-guide.html",
+        "articles/things-to-do-in-melbourne.html",
+        "articles/getting-around-melbourne.html",
+        "articles/melbourne-airport-to-city.html",
+        "articles/best-esim-australia-2026.html",
+        "articles/where-to-stay-in-sydney.html",
+    ],
+    "articles/where-to-stay-in-kyoto.html": [
+        "articles/osaka-or-kyoto-where-to-base.html",
+        "articles/things-to-do-in-kyoto.html",
+        "articles/gion-kyoto-neighbourhood-guide.html",
+        "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html",
+        "articles/kyoto-autumn-2026.html",
+        "articles/where-to-stay-in-osaka.html",
+    ],
+    "articles/tokyo-kissaten-guide.html": [
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-book-tokyo-food-tour.html",
+        "cities/tokyo/asakusa.html",
+        "articles/things-to-do-in-tokyo.html",
+        "articles/how-much-cash-japan.html",
+        "articles/what-counts-as-rude.html",
+    ],
+    "articles/where-to-book-tokyo-food-tour.html": [
+        "articles/klook-vs-viator-vs-getyourguide.html",
+        "articles/klook-vs-kkday.html",
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/tokyo-kissaten-guide.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/things-to-do-in-tokyo.html",
+    ],
+    "articles/shinjuku-neighbourhood-guide.html": [
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-book-tokyo-food-tour.html",
+        "articles/tokyo-kissaten-guide.html",
+        "articles/things-to-do-in-tokyo.html",
+        "cities/tokyo/index.html",
     ],
     "tools/esim-finder.html": [
         "articles/best-esim-japan-2026.html",

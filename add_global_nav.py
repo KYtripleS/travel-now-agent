@@ -31,11 +31,14 @@ LINKS = [
     # homepage's most-read list, and eSIM/Insurance on single articles.
     ("all-guides.html", "Guides"),
     ("index.html#map", "Destinations"),
+    ("stay/index.html", "Stay"),                 # pillar hubs (2026-09-24)
+    ("food/index.html", "Food & drink"),
     ("articles/klook-vs-viator-vs-getyourguide.html", "Booking"),
     ("articles/best-travel-esim-2026.html", "eSIM"),
     ("articles/best-travel-insurance-2026.html", "Insurance"),
     ("tools/index.html", "Tools"),
-    ("about.html", "About"),
+    # "About" lives in the footer (with Editors, Editorial and How we verify);
+    # with the two pillar hubs the top row no longer fits it on a laptop.
 ]
 BODY_RE = re.compile(r"<body[^>]*>", re.IGNORECASE)
 

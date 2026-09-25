@@ -30,6 +30,8 @@ MARK_END = "<!-- END site-footer -->"
 COLUMNS = [
     ("Guides", [
         ("all-guides.html", "All guides"),
+        ("stay/index.html", "Where to stay"),
+        ("food/index.html", "Food &amp; drink"),
         ("articles/klook-vs-viator-vs-getyourguide.html", "Booking tours"),
         ("articles/best-travel-esim-2026.html", "Travel eSIMs"),
         ("articles/best-travel-insurance-2026.html", "Travel insurance"),
