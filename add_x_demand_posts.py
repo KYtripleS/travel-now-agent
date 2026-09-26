@@ -20,6 +20,9 @@ import json
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
+RETIRED = ("Retired 2026-09-26: these posts were sent (several times) and now live in "
+           "data/x_posted_archive.json. Write new posts into site/data/x_queue.json "
+           "with ids above 1000, then run x_queue_check.py.")
 BASE = "https://gentlyyonder.com/"
 MAX_LEN = 278
 
@@ -69,6 +72,7 @@ def linked(body: str, path: str) -> str:
 
 
 def main() -> None:
+    raise SystemExit(RETIRED)
     ap = argparse.ArgumentParser()
     ap.add_argument("--write", action="store_true")
     args = ap.parse_args()

@@ -17,7 +17,7 @@ links from real publications — exactly what Google rewards.
 > **Casey — Editor, Gently Yonder** (https://gentlyyonder.com)
 > Gently Yonder is an independent travel-preparation publication covering eSIMs,
 > packing, airport security, and travel insurance.
-> Contact: @TripWorldAdvice on X.
+> Contact: @GentlyYonder on X.
 
 (Pen name + brand only — never a real name. This is standard for publications.)
 

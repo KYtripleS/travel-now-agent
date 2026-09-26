@@ -20,6 +20,9 @@ import re
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
+RETIRED = ("Retired 2026-09-26: the posts this linked were sent and now live in "
+           "data/x_posted_archive.json. New posts link /go/ keys from x_go_links.py; "
+           "check them with x_queue_check.py.")
 BASE = "https://gentlyyonder.com/"
 # The posting pipeline (Buffer/n8n) truncates on RAW characters — it does NOT
 # apply X's t.co URL weighting — so a long URL at the end gets cut mid-string.
@@ -100,6 +103,7 @@ def apply(posts: list[dict], verbose: bool = False) -> tuple[int, list[int]]:
 
 
 def main() -> None:
+    raise SystemExit(RETIRED)
     ap = argparse.ArgumentParser()
     ap.add_argument("--write", action="store_true")
     args = ap.parse_args()

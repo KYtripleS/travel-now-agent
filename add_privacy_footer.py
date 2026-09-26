@@ -15,12 +15,12 @@ SCAN_DIRS = [ROOT / "site", ROOT / "docs"]
 # Handle 3 relative-path variants: root, /articles or /cities (1-up), /countries/X (2-up)
 PATTERNS = [
     # (relative prefix, search needle, replacement needle)
-    ("", '<a href="editorial.html">Editorial Guidelines</a> ·\n      <a href="https://x.com/TripWorldAdvice">',
-         '<a href="editorial.html">Editorial Guidelines</a> ·\n      <a href="privacy.html">Privacy</a> ·\n      <a href="https://x.com/TripWorldAdvice">'),
-    ("../", '<a href="../editorial.html">Editorial Guidelines</a> ·\n      <a href="https://x.com/TripWorldAdvice">',
-            '<a href="../editorial.html">Editorial Guidelines</a> ·\n      <a href="../privacy.html">Privacy</a> ·\n      <a href="https://x.com/TripWorldAdvice">'),
-    ("../../", '<a href="../../editorial.html">Editorial Guidelines</a> ·\n      <a href="https://x.com/TripWorldAdvice">',
-               '<a href="../../editorial.html">Editorial Guidelines</a> ·\n      <a href="../../privacy.html">Privacy</a> ·\n      <a href="https://x.com/TripWorldAdvice">'),
+    ("", '<a href="editorial.html">Editorial Guidelines</a> ·\n      <a href="https://x.com/GentlyYonder">',
+         '<a href="editorial.html">Editorial Guidelines</a> ·\n      <a href="privacy.html">Privacy</a> ·\n      <a href="https://x.com/GentlyYonder">'),
+    ("../", '<a href="../editorial.html">Editorial Guidelines</a> ·\n      <a href="https://x.com/GentlyYonder">',
+            '<a href="../editorial.html">Editorial Guidelines</a> ·\n      <a href="../privacy.html">Privacy</a> ·\n      <a href="https://x.com/GentlyYonder">'),
+    ("../../", '<a href="../../editorial.html">Editorial Guidelines</a> ·\n      <a href="https://x.com/GentlyYonder">',
+               '<a href="../../editorial.html">Editorial Guidelines</a> ·\n      <a href="../../privacy.html">Privacy</a> ·\n      <a href="https://x.com/GentlyYonder">'),
 ]
 
 

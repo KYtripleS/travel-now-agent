@@ -65,7 +65,7 @@ def main() -> None:
         print("  (dry run — add --write to apply)")
     else:
         print("  done. Next: migrate_domain.py, then audit + commit + push.")
-        print("  NOTE: the @TripWorldAdvice X handle and the logo image files are")
+        print("  NOTE: the X handle (@GentlyYonder) and the logo image files are")
         print("        not text — rename those separately if you want them changed.")
 
 

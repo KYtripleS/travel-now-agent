@@ -4,7 +4,7 @@ Travel Now Agent is an AI-assisted workflow for building and operating a lightwe
 
 Live site: https://kytriples.github.io/travel-now-agent/
 
-X account: https://x.com/TripWorldAdvice
+X account: https://x.com/GentlyYonder
 
 ## What this project does
 

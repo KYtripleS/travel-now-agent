@@ -83,7 +83,7 @@ def _raw_block(root: str) -> str:
         f"what we recommend. As an Amazon Associate, Gently Yonder earns from qualifying "
         f"purchases.</p>"
         f'<p>&copy; 2026 Gently Yonder &middot; '
-        f'<a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a></p>'
+        f'<a href="https://x.com/GentlyYonder">@GentlyYonder</a></p>'
         f"</div>\n"
         f"</footer>\n"
         f"{MARK_END}"

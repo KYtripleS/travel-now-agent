@@ -14,6 +14,9 @@ import json
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
+RETIRED = ("Retired 2026-09-26: these posts were sent and now live in "
+           "data/x_posted_archive.json, and x_go_links.py owns the /go/ pages. "
+           "Write new posts into site/data/x_queue.json and run x_queue_check.py.")
 DOMAIN = "gentlyyonder.com"
 MAX_LEN = 278
 
@@ -66,6 +69,7 @@ REDIRECT_HTML = """<!doctype html>
 
 
 def main() -> None:
+    raise SystemExit(RETIRED)
     # sanity: targets exist
     for k, t in NEW_REDIRECTS.items():
         assert (REPO / "site" / t).exists(), f"missing target for /go/{k}: {t}"

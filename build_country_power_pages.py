@@ -300,7 +300,7 @@ general preparation guidance — always check your device labels and confirm loc
 Gently Yonder is an independent travel editorial project.
 <a href="../about.html">About</a> · <a href="../methodology.html">Methodology</a> ·
 <a href="../privacy.html">Privacy</a> ·
-<a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a>
+<a href="https://x.com/GentlyYonder">@GentlyYonder</a>
 </p>
 </footer>
 {FOOT_SCRIPTS}
@@ -396,7 +396,7 @@ in this list. See any country page for a current pick.
 Gently Yonder is an independent travel editorial project.
 <a href="../about.html">About</a> · <a href="../methodology.html">Methodology</a> ·
 <a href="../privacy.html">Privacy</a> ·
-<a href="https://x.com/TripWorldAdvice">@TripWorldAdvice</a>
+<a href="https://x.com/GentlyYonder">@GentlyYonder</a>
 </p>
 </footer>
 {FOOT_SCRIPTS}

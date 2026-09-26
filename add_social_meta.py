@@ -37,6 +37,7 @@ DEFAULT = (f"{BASE}/images/travel-now-og.png", 1200, 630)
 OG_DIR = "images/og"
 RATIO = 1200 / 630
 VERTICAL_BIAS = 0.42          # same as extract_photo.py: skylines sit high
+X_HANDLE = "@GentlyYonder"     # renamed from @TripWorldAdvice (the old handle 404s)
 SITE_SUFFIX = re.compile(r"\s*[|—–-]\s*Gently Yonder\s*$")
 
 
@@ -109,7 +110,7 @@ def plan(soup: BeautifulSoup) -> tuple[list[tuple[str, str, str, bool]], list[st
         ("property", "og:site_name", "Gently Yonder", False),
         ("name", "twitter:title", title, False),
         ("name", "twitter:description", desc, False),
-        ("name", "twitter:site", "@TripWorldAdvice", False),
+        ("name", "twitter:site", X_HANDLE, True),
         ("property", "og:image", img, True),
         ("property", "og:image:width", str(w), True),
         ("property", "og:image:height", str(h), True),
