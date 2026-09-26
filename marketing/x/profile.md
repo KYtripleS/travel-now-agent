@@ -1,29 +1,27 @@
 # X profile kit — @GentlyYonder (2026-09-26)
 
 Paste-ready. Everything below was length-checked against X's limits
-(name ≤ 50, bio ≤ 160, post ≤ 280 weighted).
+(name ≤ 50, bio ≤ 160, post ≤ 280). Gently Yonder covers travel worldwide:
+Japan is the deepest cluster, not the whole brand.
 
-## Name (31)
+## Name (35)
 
-    Gently Yonder · Japan trip prep
+    Gently Yonder · Smarter travel prep
 
-Why: X search matches the display name, and "Japan trip prep" says in three words
-what the account is for. The old bio led with packing and chargers, which every
-travel account covers.
+The site's own tagline. X search matches the display name, and "travel prep"
+says what the account is for.
 
-## Bio (156)
+## Bio (142)
 
-    What changed for travellers to Japan, where to stay, and what's worth booking. Every fact checked and dated. Tokyo, Kyoto, Osaka, plus Sydney and Melbourne.
+    What just changed for travellers (entry rules, taxes, prices), where to stay, and what's worth booking. Every fact checked and dated. No hype.
 
-Shorter alternative (138):
+Alternative that names places (144):
 
-    Japan trip prep, checked and dated: what just changed (taxes, rules, prices), where to stay by station, and what's worth booking. No hype.
+    Smarter travel prep: what changed this month, where to stay, and what's worth booking. From Tokyo and Seoul to Bangkok, Bali, Sydney and beyond.
 
 ## Location
 
-    Tokyo · Kyoto · Osaka
-
-(The cities we cover, not where anyone lives.)
+    Worldwide
 
 ## Website
 
@@ -31,48 +29,64 @@ Shorter alternative (138):
 
 ## Header
 
-Upload `marketing/x/header.png` (1500 × 500). The source is `header.svg`; the
-avatar covers the bottom-left corner, so all text sits to the right of it.
+`marketing/x/header.png` (1500 × 500). The source is `header.svg`. Everything is
+centred; the avatar covers the bottom-left corner, so the step line starts to
+the right of it. The five dots are the steps of any trip (Plan, Book, Pack, Fly,
+Arrive), not places.
 Re-render after edits:
 
     rsvg-convert -w 1500 -h 500 marketing/x/header.svg -o marketing/x/header.png
+
+`header-preview.png` shows roughly how the profile will look with it.
+
+### ヘッダー画像の見方
+
+- Finder でプロジェクトフォルダ（travel-now-agent）→ `marketing` → `x` → `header.png`
+  を選び、スペースキーを押すとプレビューが開きます。ダブルクリックすると「プレビュー」アプリで開きます。
+
+### X での設定方法
+
+- **パソコン：** x.com でプロフィールを開く → 「プロフィールを編集」→ 上の横長の画像枠
+  にあるカメラのアイコンをクリック → `header.png` を選ぶ → 位置はそのままで「適用」→「保存」。
+- **スマホ：** 先に header.png をスマホに送る（AirDrop など）→ X アプリでプロフィール →
+  「プロフィールを編集」→ ヘッダー部分をタップ → 写真を選ぶ →「適用」→「保存」。
 
 ## Avatar
 
 Keep the current GY mark: it matches the site favicon, and people recognise an
 avatar by its shape.
 
-## Pinned post (276, no link)
+## Pinned post (275, no link)
 
 Delete the May pin ("Travel Now helps you…", the old brand name), post this,
 and pin it:
 
-    Japan trip prep, checked and dated.
+    Three travel changes worth knowing now:
 
-    Three things worth knowing right now:
+    Japan: from 1 November, tax-free shoppers pay the 10% and claim it back at the airport.
+    Europe: Eurail is now Interrail.
+    South Korea: the K-ETA waiver ends 31 December unless extended.
 
-    1. Tax-free shopping changes on 1 November: pay in full, claim the 10% back at the airport.
-    2. Japan's departure tax is now ¥3,000.
-    3. Kyoto's hotel tax rose on 1 March.
-
-    Follow for what changes next.
+    Checked and dated. Follow for what changes next.
 
 No link on purpose. X's published spam rule `PinnedLowQualityOrBadUrl` labels an
 account for a week when its pinned post links a domain X rates low-quality, and
-a young domain has no rating yet. The bio already carries the link. After
-1 November, replace point 1 and re-pin.
+a young domain has no rating yet. The bio already carries the link. Refresh the
+three lines whenever one of them is out of date (the Japan line after
+1 November, the Korea line in January).
 
 ## The daily 15 minutes (manual, and the part automation cannot do)
 
-1. Reply to two or three posts from larger Japan travel accounts, when you have
+1. Reply to two or three posts from larger travel accounts when you have
    something to add: a date, a price, a correction. No links in replies.
-   Accounts with the audience: @JapanTravel (31.6K), @LIVEJAPANGuide (22.9K),
-   @TokyoCheapo (17K).
+   For Japan: @JapanTravel (31.6K), @LIVEJAPANGuide (22.9K), @TokyoCheapo (17K).
+   For other destinations, the tourism boards and travel-news accounts you
+   already read.
 2. Answer every reply to our own posts the same day. In X's published ranking
    weights a reply counts 10× a like (5.0 against 0.5), and 40× when the viewer
    and the author follow each other (5.0 + a 15.0 mutual-follow boost).
 3. Once a week, post one photo you took yourself of something a traveller will
-   need (a ticket machine, a konbini ATM, a coin locker), with no faces and no
-   location that points to where anyone lives.
+   need (a ticket machine, an airport ATM, a transit card reader), with no faces
+   and no location that points to where anyone lives.
 
 Automated replies are against X's automation rules; this part stays human.

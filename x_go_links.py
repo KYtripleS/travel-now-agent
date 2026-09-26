@@ -35,12 +35,18 @@ X_HANDLE = "@GentlyYonder"
 REDIRECTS: dict[str, str] = {
     "arr":         "articles/first-day-in-tokyo-arrival-plan.html",
     "au":          "articles/best-esim-australia-2026.html",
+    "bkk-river":   "articles/bangkok-river-cruises-guide.html",
     "boat":        "articles/charter-a-boat-for-a-day.html",
     "cash":        "articles/how-much-cash-japan.html",
+    "dmz":         "articles/where-to-book-seoul-dmz-tour.html",
     "dtax":        "articles/is-accommodation-tax-double-taxation.html",
+    "esim-eu":     "articles/best-esim-europe-2026.html",
+    "eurail":      "articles/europe-rail-pass-worth-it-2026.html",
     "foodtour":    "articles/where-to-book-tokyo-food-tour.html",
     "ft":          "articles/first-international-trip-checklist.html",
     "gion":        "articles/gion-kyoto-neighbourhood-guide.html",
+    "halong":      "articles/halong-bay-cruises-from-hanoi.html",
+    "hk":          "articles/hong-kong-first-timers-guide.html",
     "ins":         "articles/travel-insurance-compared.html",
     "jc":          "articles/how-much-does-japan-cost.html",
     "jr":          "articles/jr-pass-worth-it-2026.html",
@@ -57,9 +63,12 @@ REDIRECTS: dict[str, str] = {
     "stay-osaka":  "articles/where-to-stay-in-osaka.html",
     "stay-sydney": "articles/where-to-stay-in-sydney.html",
     "stay-tokyo":  "articles/where-to-stay-in-tokyo.html",
+    "taipei-tours": "articles/where-to-book-taipei-day-tour.html",
     "tax":         "articles/japan-tax-free-shopping-2026-changes.html",
+    "thsr":        "articles/taiwan-high-speed-rail-pass-worth-it.html",
     "tokyo-kyoto": "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html",
     "vn":          "articles/best-esim-vietnam-2026.html",
+    "vn-when":     "articles/best-time-to-visit-vietnam.html",
 }
 
 # the card tags copied from the target page, in this order
