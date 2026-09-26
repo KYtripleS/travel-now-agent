@@ -28,7 +28,8 @@ want personal identity associated with the site or this repo.
 - Internal monetisation notes or affiliate application drafts.
 
 ### OK to use publicly
-- The anonymous brand X handle `@TripWorldAdvice` (already referenced in footers / JSON-LD).
+- The anonymous brand X handle `@GentlyYonder` (renamed from `@TripWorldAdvice`, which now 404s;
+  referenced in footers / JSON-LD / twitter:site).
 - The brand name "Travel Now".
 - Editorial "we" — never "I" tied to a real identity.
 
