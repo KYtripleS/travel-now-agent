@@ -37,6 +37,8 @@ from collections import OrderedDict
 from datetime import date
 from pathlib import Path
 
+from add_ga4 import snippet as _ga4_snippet
+
 REPO = Path(__file__).resolve().parent
 CSV_PATH = REPO / "programmatic" / "plugs.csv"
 BASE_URL = "https://gentlyyonder.com"
@@ -50,15 +52,9 @@ PROFILE_LINKS = {
     "south-korea": "../articles/south-korea-country-profile.html",
 }
 
-GA4 = f"""  <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', '{GA4_ID}', {{ anonymize_ip: true }});
-</script>
-<!-- END GA4 -->"""
+# the one GA4 snippet, owned by add_ga4.py (this page used to carry an older
+# copy without the internal-traffic tag)
+GA4 = "  " + _ga4_snippet(GA4_ID).rstrip("\n")
 
 DRIVE = """  <!-- BEGIN Travelpayouts Drive (managed by add_travelpayouts_drive.py) -->
   <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1">

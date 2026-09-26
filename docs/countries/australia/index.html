@@ -58,7 +58,7 @@
     if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
     if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
   } catch (e) {}
-  gtag('config', 'G-JRGK9CN3B1', gyCfg);
+  if (!navigator.webdriver) gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -->

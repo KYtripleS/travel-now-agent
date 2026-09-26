@@ -173,6 +173,45 @@ def search_terms(token: str, pid: str, start: str, end: str,
     return "none yet", []
 
 
+# Where the "Direct" sessions come from (checked 2026-09-26): 73% of all
+# sessions were Direct visits from Singapore and cloud data-centre cities,
+# with 0 seconds on the page and nothing engaged. Those are bots. Direct visits
+# from Japan averaged 8 minutes: the operator, until the Internal Traffic data
+# filter is Active. Cities are matched here but never written to the report.
+DATA_CENTRE_CITIES = {"Singapore", "Ashburn", "Boardman", "Council Bluffs", "The Dalles",
+                      "Moncks Corner", "San Jose", "Santa Clara", "Quincy"}
+OPERATOR_COUNTRY = "Japan"
+
+
+def noise_breakdown(token: str, pid: str, start: str, end: str) -> dict:
+    """Split Direct traffic into bots, the operator's own visits and the rest,
+    and measure how much of the event count the bots produce."""
+    rows = run_report(token, pid,
+                      dimensions=["sessionDefaultChannelGroup", "country", "city"],
+                      metrics=["sessions", "engagedSessions", "averageSessionDuration",
+                               "eventCount"],
+                      start=start, end=end, limit=10000)
+    out = {k: [0, 0] for k in ("bots", "operator", "other_direct")}
+    bot_events = all_events = 0.0
+    for r in rows:
+        channel, country, city = r["dims"]
+        sess, eng, dur, ev = (_num(m) for m in r["mets"])
+        all_events += ev
+        if channel != "Direct":
+            continue
+        if city in DATA_CENTRE_CITIES or (eng == 0 and dur < 1):
+            key = "bots"
+            bot_events += ev
+        elif country == OPERATOR_COUNTRY:
+            key = "operator"
+        else:
+            key = "other_direct"
+        out[key][0] += int(sess)
+        out[key][1] += int(eng)
+    out["bot_event_share"] = bot_events / all_events if all_events else 0.0
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="GA4 session analysis for Gently Yonder.")
     ap.add_argument("--days", type=int, default=28)
@@ -229,22 +268,49 @@ def main() -> None:
     L = []
     L.append(f"# GA4 sessions report — {e}\n")
     L.append(f"**Property:** {pid}  ·  **Window:** {s} → {e} ({args.days}d)\n")
-    L.append(f"**Sessions:** {int(total_sessions):,} · **Users:** {int(total_users):,} "
-             f"· **Engaged:** {int(engaged):,} · **~{per_day:.0f}/day**\n")
+    # The headline is real readers. Raw GA4 totals are mostly bots (see below).
     true_now, true_eng = true_reader_sessions(token, pid, s, e)
-    share = 100 * true_now / total_sessions if total_sessions else 0.0
-    L.append("## 🔍 True external readers (noise-filtered)")
-    L.append(f"Excludes direct/(not set), affiliate dashboards (ui.awin.com, "
-             f"admin.travelpayouts.com) and legacy `{LEGACY_PREFIX}/` paths.\n")
+    prev_end = start - timedelta(days=1)
+    prev_start = prev_end - timedelta(days=args.days - 1)
+    true_prev, true_prev_eng = true_reader_sessions(token, pid, prev_start.isoformat(),
+                                                    prev_end.isoformat())
+    rate = 100 * true_eng / true_now if true_now else 0.0
+    change = (f"×{true_now / true_prev:.1f}" if true_prev else "new")
+    L.append("## 🔍 Real readers (the number to grow)")
     L.append(f"**{true_now:,}** sessions (~{true_now / max(args.days, 1):.1f}/day) · "
-             f"{true_eng:,} engaged · **{share:.0f}%** of raw sessions — "
-             f"the number to grow; the rest is mostly us.\n")
+             f"{true_eng:,} engaged (**{rate:.0f}%**) · previous {args.days}d: "
+             f"{true_prev:,} ({true_prev_eng:,} engaged) → **{change}**\n")
+    L.append(f"Everything with a real source: search, AI assistants, social, referrals. "
+             f"Excludes Direct/(not set), affiliate dashboards and legacy "
+             f"`{LEGACY_PREFIX}/` paths. X and Pinterest links carry utm tags from "
+             f"2026-09-26, so their clicks count here instead of hiding in Direct.\n")
 
-    pct = 100 * run_rate / TARGET_SESSIONS
+    noise = noise_breakdown(token, pid, s, e)
+    bots, operator, other = noise["bots"], noise["operator"], noise["other_direct"]
+    raw_share = 100 * bots[0] / total_sessions if total_sessions else 0.0
+    L.append("## 🤖 What the raw totals are made of")
+    L.append(f"Raw GA4: {int(total_sessions):,} sessions · {int(total_users):,} users · "
+             f"{int(engaged):,} engaged. Of the sessions:\n")
+    L.append("| Part | Sessions | Engaged |\n|---|---|---|")
+    L.append(f"| Bots (Direct from data-centre cities, or 0 s with nothing engaged) | "
+             f"{bots[0]:,} ({raw_share:.0f}%) | {bots[1]:,} |")
+    L.append(f"| Direct from {OPERATOR_COUNTRY}, most likely the operator | {operator[0]:,} | "
+             f"{operator[1]:,} |")
+    L.append(f"| Other Direct (could be real readers without a referrer) | {other[0]:,} | "
+             f"{other[1]:,} |")
+    L.append(f"\nBots produce **{100 * noise['bot_event_share']:.0f}%** of all events, so the "
+             f"event count says little about readers. Automated browsers stop being "
+             f"counted from 2026-09-26 (the GA4 snippet skips navigator.webdriver). The "
+             f"operator's visits disappear once the Internal Traffic data filter is "
+             f"Active and each device has opened the site with #gy-internal.\n")
+
+    real_rate = true_now / max(args.days, 1) * 30
+    pct = 100 * real_rate / TARGET_SESSIONS
     bar = "█" * int(pct // 5) + "░" * (20 - int(pct // 5))
     L.append(f"## 🎯 Progress to 50k sessions/month")
-    L.append(f"Run-rate (last {args.days}d × 30): **{int(run_rate):,} / 50,000**  ({pct:.1f}%)")
-    L.append(f"`{bar}`  — {'on the board, keep stacking channels' if run_rate < 50000 else 'TARGET HIT 🎉'}\n")
+    L.append(f"Real-reader run-rate (last {args.days}d × 30): **{int(real_rate):,} / 50,000**  "
+             f"({pct:.1f}%). Raw run-rate, bots included: {int(run_rate):,}.")
+    L.append(f"`{bar}`  — {'on the board, keep stacking channels' if real_rate < 50000 else 'TARGET HIT 🎉'}\n")
 
     L.append("## 📡 Channel mix (where sessions come from)")
     L.append("Watch **Organic Social** (Pinterest) — that's the 50k engine.\n")
@@ -299,8 +365,8 @@ def main() -> None:
 
     L.append("\n---\n_Generated by ga4_analyze.py. GA4 data is usually complete within ~24–48h._")
     out.write_text("\n".join(L) + "\n", encoding="utf-8")
-    print(f"✓ wrote {out.relative_to(REPO)}  ({int(total_sessions):,} sessions, "
-          f"run-rate {int(run_rate):,}/mo = {pct:.1f}% of 50k)")
+    print(f"✓ wrote {out.relative_to(REPO)}  ({true_now:,} real-reader sessions of "
+          f"{int(total_sessions):,} raw; real run-rate {int(real_rate):,}/mo = {pct:.1f}% of 50k)")
 
 
 if __name__ == "__main__":

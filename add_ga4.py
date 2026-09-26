@@ -30,8 +30,14 @@ def snippet(measurement_id: str) -> str:
     # clears it. Tagged sessions send traffic_type=internal, which GA4 excludes
     # once the default "Internal Traffic" data filter is set to Active
     # (Admin -> Data collection and modification -> Data filters).
+    # Automated browsers announce themselves with navigator.webdriver; they are
+    # never readers (in Sept 2026, 73% of sessions were bots), so no config is
+    # sent for them and nothing reaches GA4.
+    # async="" is how BeautifulSoup writes the attribute; the page tools
+    # (add_aeo and friends) re-serialise pages that way, so matching it keeps
+    # this block from flipping back and forth between the tools.
     return f"""{START}
-<script async src="https://www.googletagmanager.com/gtag/js?id={measurement_id}"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id={measurement_id}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){{dataLayer.push(arguments);}}
@@ -42,7 +48,7 @@ def snippet(measurement_id: str) -> str:
     if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
     if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
   }} catch (e) {{}}
-  gtag('config', '{measurement_id}', gyCfg);
+  if (!navigator.webdriver) gtag('config', '{measurement_id}', gyCfg);
 </script>
 {END}
 """

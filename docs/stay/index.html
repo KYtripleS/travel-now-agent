@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="../style-v2.css?v=05683c32" />
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "url": "https://gentlyyonder.com/stay/index.html", "name": "Where to stay", "isPartOf": {"@type": "WebSite", "name": "Gently Yonder", "url": "https://gentlyyonder.com/"}}</script>
 <!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -21,7 +21,7 @@
     if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
     if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
   } catch (e) {}
-  gtag('config', 'G-JRGK9CN3B1', gyCfg);
+  if (!navigator.webdriver) gtag('config', 'G-JRGK9CN3B1', gyCfg);
 </script>
 <!-- END GA4 -->
 <!-- BEGIN favicon (managed by add_favicon.py) -->

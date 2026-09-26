@@ -30,6 +30,10 @@ from bs4 import BeautifulSoup
 REPO = Path(__file__).resolve().parent
 DOMAIN = "gentlyyonder.com"
 X_HANDLE = "@GentlyYonder"
+# The hop through /go/ leaves our own domain as the referrer, so GA4 filed X
+# clicks under "Direct", among the bots. Tagging the redirect credits them to X
+# (Organic Social). Only the redirect carries the tag; canonical and og:url stay clean.
+UTM = "utm_source=x&utm_medium=social&utm_campaign=autopost"
 
 # short key -> target page (relative to the site root)
 REDIRECTS: dict[str, str] = {
@@ -93,6 +97,7 @@ def render(target: str, stamp: str) -> str:
     soup = BeautifulSoup((REPO / "site" / target).read_text(encoding="utf-8"), "html.parser")
     title = soup.title.get_text(strip=True) if soup.title else "Gently Yonder"
     url = f"https://{DOMAIN}/{target}"
+    dest = f"/{target}?{UTM}"
     esc = lambda s: html.escape(s, quote=True)  # noqa: E731
 
     meta = []
@@ -114,12 +119,12 @@ def render(target: str, stamp: str) -> str:
         f'<link rel="canonical" href="{url}"/>',
         '<meta name="robots" content="noindex, follow"/>',
         *meta,
-        f'<meta http-equiv="refresh" content="0; url=/{target}"/>',
+        f'<meta http-equiv="refresh" content="0; url={esc(dest)}"/>',
         f'<link rel="stylesheet" href="/style-v2.css?v={stamp}"/>',
-        f'<script>location.replace("/{target}");</script>',
+        f'<script>location.replace("{dest}");</script>',
         "</head>",
         "<body>",
-        f'<p>Redirecting to <a href="/{target}">{esc(title)}</a>…</p>',
+        f'<p>Redirecting to <a href="{esc(dest)}">{esc(title)}</a>…</p>',
         "</body>",
         "</html>",
         "",

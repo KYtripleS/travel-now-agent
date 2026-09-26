@@ -104,24 +104,11 @@ def render_section(cat: str, rows: list[dict]) -> str:
 from add_global_nav import block as _nav_block
 from add_footer import block as _footer_block
 from add_social_meta import apply_text as apply_social
+from add_ga4 import snippet as _ga4_snippet
 NAV = _nav_block("")
 FOOTER = _footer_block("")
 
-GA4_BLOCK = f"""<!-- BEGIN GA4 (managed by add_ga4.py) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA4}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  var gyCfg = {{ anonymize_ip: true }};
-  try {{
-    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
-    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
-    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
-  }} catch (e) {{}}
-  gtag('config', '{GA4}', gyCfg);
-</script>
-<!-- END GA4 -->"""
+GA4_BLOCK = _ga4_snippet(GA4).rstrip("\n")  # the one GA4 snippet, owned by add_ga4.py
 
 CSS = """
 .gear-intro{max-width:1100px;margin:0 auto;padding:0 clamp(20px,4vw,40px)}
