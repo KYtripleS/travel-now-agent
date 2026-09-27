@@ -4083,3 +4083,79 @@ nav.breadcrumb li:not([aria-current="page"]) { white-space: nowrap; flex: 0 0 au
   font-size: .9rem; line-height: 1.55; color: var(--muted);
 }
 .article .gy-promise a { color: var(--gold-ink); white-space: nowrap; }
+
+/* ── Homepage masthead (2026-09): paper, ink and gold instead of a stock photo.
+   The laurels frame promises the site keeps (promise.html), never awards it
+   hasn't won. ────────────────────────────────────────────────────────────── */
+.gy-masthead {
+  background: linear-gradient(180deg, #fbf8f1 0%, var(--paper) 100%);
+  border-bottom: 1px solid var(--rule);
+  padding: clamp(44px, 7vw, 92px) 20px clamp(36px, 5vw, 64px);
+  text-align: center;
+}
+.gy-masthead-inner { max-width: 980px; margin: 0 auto; }
+.gy-masthead-eyebrow {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: .74rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--gold-ink); margin: 0 0 18px;
+}
+.gy-masthead-title {
+  font-family: Georgia, "Times New Roman", serif; font-weight: 700;
+  font-size: clamp(2.7rem, 6.6vw, 5.4rem); line-height: 1.02; letter-spacing: -.025em;
+  color: var(--ink); margin: 0 auto 22px; max-width: none;   /* h1 is capped at 700px site-wide */
+}
+.gy-masthead-lede {
+  font-size: clamp(1.02rem, 1.45vw, 1.2rem); line-height: 1.6; color: var(--ink-soft);
+  max-width: 620px; margin: 0 auto 30px;
+}
+.gy-masthead-search { display: flex; gap: 8px; max-width: 560px; margin: 0 auto 16px; }
+.gy-masthead-search input {
+  flex: 1; min-width: 0; min-height: 52px; padding: 0 22px;
+  border: 1px solid var(--line-dark); border-radius: 999px; background: #fff;
+  font: inherit; font-size: 1rem; color: var(--ink);
+}
+.gy-masthead-search input:focus-visible { outline: 2px solid var(--gold-ink); outline-offset: 2px; }
+.gy-masthead-search .button { min-height: 52px; padding: 0 26px; }
+.gy-masthead-places {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+  max-width: 940px; margin: 0 auto 44px;
+}
+.gy-masthead-places a {
+  font-size: .88rem; padding: 7px 14px; border: 1px solid var(--rule); border-radius: 999px;
+  background: rgba(255, 255, 255, .6); color: var(--ink); text-decoration: none;
+}
+.gy-masthead-places a:hover { border-color: var(--gold); background: #fff; }
+.gy-laurels {
+  list-style: none; margin: 0 auto; padding: 0; max-width: 720px;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(6px, 3vw, 36px);
+}
+.gy-laurels a {
+  position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  aspect-ratio: 160 / 110; color: var(--ink); text-decoration: none;
+}
+.gy-laurel { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--gold); }
+.gy-laurel-small, .gy-laurel-big { position: relative; max-width: 60%; }
+.gy-laurel-small {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: clamp(.52rem, 1.3vw, .66rem); font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--gold-ink);
+}
+.gy-laurel-big {
+  font-family: Georgia, "Times New Roman", serif; font-weight: 700;
+  font-size: clamp(.8rem, 2.1vw, 1.08rem); line-height: 1.2; margin-top: 3px;
+}
+.gy-laurels a:hover .gy-laurel-big { text-decoration: underline; text-decoration-color: var(--gold); }
+.gy-masthead-more { margin: 32px 0 0; font-size: .95rem; color: var(--muted); }
+.gy-masthead-more a { color: var(--ink); font-weight: 700; }
+.gy-svg-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+@media (max-width: 560px) {
+  .gy-masthead-eyebrow { font-size: .66rem; letter-spacing: .12em; }
+  .gy-masthead-search .button { padding: 0 18px; }
+  .gy-masthead-places { margin-bottom: 30px; }
+  /* three wreaths still fit a phone once the eyebrow goes; the phrase says it all */
+  .gy-laurels { gap: 4px; }
+  .gy-laurels a { aspect-ratio: 160 / 118; }
+  .gy-laurel-small { display: none; }
+  .gy-laurel-big { max-width: 64%; font-size: .74rem; line-height: 1.22; margin-top: 0; }
+  .gy-masthead-more a { display: inline-block; margin: 2px 0; }
+}
