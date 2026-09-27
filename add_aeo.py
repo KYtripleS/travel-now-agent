@@ -434,7 +434,8 @@ V = {
 # just re-laid-out). Only these get a fresh dateModified; a verdict box that
 # restates an article's own conclusion is not a reason to claim it was updated.
 REVISED = {
-    "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": "2026-09-24",  # no-airport answer, table, verified fares
+    "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": "2026-09-27",  # bus fares re-checked on Willer (from ¥2,100)
+    "narita-haneda-to-central-tokyo": "2026-09-27",              # added Narita <-> Haneda, official fares
     "charter-a-boat-for-a-day": "2026-09-23",                    # Spain 1 Oct 2026, Greece, Croatia
     "where-to-stay-in-tokyo": "2026-09-25",                      # rewrite: 17 verified hotels, tax, tables
     "japan-tourist-taxes-2026": "2026-09-27",                    # corrected: Tokyo taxes minpaku from Apr 2027
