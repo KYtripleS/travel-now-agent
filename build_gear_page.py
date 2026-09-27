@@ -187,10 +187,10 @@ def build_page(by_cat: dict[str, list[dict]]) -> str:
 <link rel="stylesheet" href="style-v2.css" />
 {GA4_BLOCK}
 <!-- BEGIN favicon (managed by add_favicon.py) -->
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
-<link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48"/>
-<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192"/>
-<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/favicon-48.png" rel="icon" sizes="48x48" type="image/png"/>
+<link href="/favicon-192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
 <!-- END favicon -->
 <style>{CSS}</style>
 </head>

@@ -16,11 +16,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 START = "<!-- BEGIN favicon (managed by add_favicon.py) -->"
 END = "<!-- END favicon -->"
+# Attributes in alphabetical order, the way BeautifulSoup writes them: the page
+# tools (add_aeo and friends) re-serialise pages like that, and any other order
+# makes this block flip back and forth between them on every run.
 BLOCK = f"""{START}
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
-<link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48"/>
-<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192"/>
-<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/favicon-48.png" rel="icon" sizes="48x48" type="image/png"/>
+<link href="/favicon-192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
 {END}
 """
 

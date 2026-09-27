@@ -437,6 +437,7 @@ REVISED = {
     "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": "2026-09-24",  # no-airport answer, table, verified fares
     "charter-a-boat-for-a-day": "2026-09-23",                    # Spain 1 Oct 2026, Greece, Croatia
     "where-to-stay-in-tokyo": "2026-09-25",                      # rewrite: 17 verified hotels, tax, tables
+    "japan-tourist-taxes-2026": "2026-09-27",                    # corrected: Tokyo taxes minpaku from Apr 2027
 }
 
 STOP_HEADINGS = re.compile(r"frequently asked|^sources|references|liked this guide|keep reading|related reading",
@@ -734,6 +735,32 @@ def add_toc(soup: BeautifulSoup, article: Tag) -> int:
     return len(heads)
 
 
+# --- the promise, where the reader decides ---------------------------------------
+# One line under the verdict (or the opening paragraph), linking the promise page.
+# Both claims must stay literally true: no brand pays to be included or ranked, and
+# the guides say so when a free or cheaper option beats a partner.
+PROMISE_TEXT = "No one pays to be recommended here, and we say when a free or cheaper option wins. "
+PROMISE_HREF = "/promise.html"
+
+
+def add_promise(soup: BeautifulSoup, article: Tag) -> None:
+    p = soup.new_tag("p", attrs={"class": "gy-promise", "data-aeo": "1"})
+    p.append(PROMISE_TEXT)
+    a = soup.new_tag("a", attrs={"href": PROMISE_HREF})
+    a.string = "Our promise →"
+    p.append(a)
+    kids = [c for c in article.children if isinstance(c, Tag)]
+    anchor = next((c for c in kids if "gy-verdict" in (c.get("class") or [])), None)
+    if anchor is None and kids and "article-lede" in (kids[0].get("class") or []):
+        anchor = kids[0]
+    if anchor is not None:
+        anchor.insert_after(p)          # after add_toc, so it lands above the contents list
+    elif kids:
+        kids[0].insert_before(p)
+    else:
+        article.append(p)
+
+
 def strip_managed(soup: BeautifulSoup) -> None:
     for el in soup.select("[data-aeo]"):
         if el.name == "a":
@@ -767,6 +794,7 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
         out["links"] = link_brands(soup)
     if article is not None:
         out["toc"] = add_toc(soup, article)
+        add_promise(soup, article)
     add_social_meta.apply(soup)
     return out
 

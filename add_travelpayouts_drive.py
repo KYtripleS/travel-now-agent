@@ -22,7 +22,10 @@ import argparse
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent
-SKIP_NAMES = {"googlee46af4b13b14f75e.html"}  # GSC verification stub
+SKIP_NAMES = {"googlee46af4b13b14f75e.html",   # GSC verification stub
+              # the promise and corrections pages carry no commission links, and
+              # Drive can turn brand names into them
+              "promise.html", "corrections.html"}
 
 MARKER_BEGIN = "<!-- BEGIN Travelpayouts Drive (managed by add_travelpayouts_drive.py) -->"
 MARKER_END = "<!-- END Travelpayouts Drive -->"

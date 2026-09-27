@@ -11,9 +11,13 @@ Japan is the deepest cluster, not the whole brand.
 The site's own tagline. X search matches the display name, and "travel prep"
 says what the account is for.
 
-## Bio (142)
+## Bio (148)
 
-    What just changed for travellers (entry rules, taxes, prices), where to stay, and what's worth booking. Every fact checked and dated. No hype.
+    What just changed for travellers (entry rules, taxes, prices), where to stay, and what's worth booking. No paid picks. Mistakes corrected in public.
+
+(Replaced 2026-09-27. The first version said "Every fact checked and dated", which
+overclaimed: a guide still carried a wrong tax claim at the time. Both lines above
+are promises the site keeps; see promise.html and corrections.html.)
 
 Alternative that names places (144):
 

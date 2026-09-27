@@ -45,6 +45,8 @@ COLUMNS = [
         ("gear.html", "Gear directory"),
     ]),
     ("About", [
+        ("promise.html", "Our promise"),
+        ("corrections.html", "Corrections"),
         ("about.html", "About Gently Yonder"),
         ("editors.html", "Editors"),
         ("editorial.html", "Editorial guidelines"),

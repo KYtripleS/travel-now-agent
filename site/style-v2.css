@@ -4075,3 +4075,11 @@ nav.breadcrumb li:not([aria-current="page"]) { white-space: nowrap; flex: 0 0 au
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
   font-size: .74rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-ink);
 }
+
+/* The promise line under a verdict or the opening paragraph (add_aeo.add_promise),
+   quiet enough not to compete with the verdict, present on every guide */
+.article .gy-promise {
+  margin: 12px 0 22px; padding-left: 12px; border-left: 2px solid var(--gold);
+  font-size: .9rem; line-height: 1.55; color: var(--muted);
+}
+.article .gy-promise a { color: var(--gold-ink); white-space: nowrap; }
