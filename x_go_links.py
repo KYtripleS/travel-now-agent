@@ -44,6 +44,7 @@ REDIRECTS: dict[str, str] = {
     "cash":        "articles/how-much-cash-japan.html",
     "dmz":         "articles/where-to-book-seoul-dmz-tour.html",
     "dtax":        "articles/is-accommodation-tax-double-taxation.html",
+    "esim":        "articles/best-travel-esim-2026.html",
     "esim-eu":     "articles/best-esim-europe-2026.html",
     "eurail":      "articles/europe-rail-pass-worth-it-2026.html",
     "foodtour":    "articles/where-to-book-tokyo-food-tour.html",

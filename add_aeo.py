@@ -74,6 +74,7 @@ BRANDS = {
     "Klook": "klook",
     "Saily": "saily",
     "EKTA": "ekta",
+    "Holafly": "holafly",
 }
 # how to recognise a partner's link already on the page (reused, so each page
 # keeps the tracking link it was built with) …
@@ -91,6 +92,7 @@ HREF_MATCH = {
     "radicalstorage": r"radicalstorage\.tpx\.lu/",
     "veltra": r"awinmid=89081",
     "samboat": r"awinmid=(?:32677|32681)",
+    "holafly": r"holafly\.sjv\.io/",
 }
 # … and the default when the page has none yet.
 DEFAULT_HREF = {
@@ -107,6 +109,8 @@ DEFAULT_HREF = {
     "radicalstorage": "https://radicalstorage.tpx.lu/WpAnAq1c",
     "veltra": "https://www.awin1.com/cread.php?awinmid=89081&awinaffid=2926361&ued=https%3A%2F%2Fwww.veltra.com%2Fen%2F",
     "samboat": "https://www.awin1.com/cread.php?awinmid=32677&awinaffid=2926361&ued=https%3A%2F%2Fwww.samboat.co.uk%2F",
+    # Impact; the link applies our coupon YONDER by itself (approved 2026-09)
+    "holafly": "https://holafly.sjv.io/c/7394095/3920147/24764",
 }
 SECTION_LABEL = {
     "klook": "Check current prices on Klook",
@@ -122,6 +126,12 @@ SECTION_LABEL = {
     "radicalstorage": "Book luggage storage with Radical Storage",
     "veltra": "Browse VELTRA tours",
     "samboat": "Browse boats on SamBoat",
+    "holafly": "See Holafly’s unlimited plans",
+}
+# A reader-facing note after the section link, said plainly. Holafly asks for the
+# code to sit beside the link (it still applies if the reader buys later).
+SECTION_NOTE = {
+    "holafly": ("Code ", "YONDER", " takes 5% off, and we earn a commission if you use it."),
 }
 
 # --- verdicts -----------------------------------------------------------------
@@ -613,6 +623,13 @@ def link_brands(soup: BeautifulSoup) -> int:
         a = _anchor(soup, _page_href(soup, key), managed=False)
         a.string = f"{SECTION_LABEL[key]} →"
         p.append(a)
+        if key in SECTION_NOTE:
+            before, code, after = SECTION_NOTE[key]
+            p.append(" " + before)
+            strong = soup.new_tag("strong")
+            strong.string = code
+            p.append(strong)
+            p.append(after)
         h.insert_after(p)
         added += 1
     return added

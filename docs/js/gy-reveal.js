@@ -112,9 +112,14 @@
        * follows arrives without one, and untagged clicks are the bots. */
       try {
         var u = new URL(a.href);
+        var page = location.pathname.replace(/^\/(articles\/)?/, '').replace(/(\/index)?\.html$|\/$/, '') || 'home';
         if (/(^|\.)(tpx\.lu|tp\.st|tp\.media)$/.test(u.hostname) && !u.searchParams.has('sub_id')) {
-          var page = location.pathname.replace(/^\/(articles\/)?/, '').replace(/(\/index)?\.html$|\/$/, '') || 'home';
           u.searchParams.set('sub_id', (page + '__' + placement).replace(/[^A-Za-z0-9]+/g, '_'));
+          a.href = u.toString();
+        } else if (/(^|\.)sjv\.io$/.test(u.hostname) && !u.searchParams.has('subId1')) {
+          /* Impact (Holafly) reports subId1-3; it wants letters and digits only */
+          u.searchParams.set('subId1', page.replace(/[^A-Za-z0-9]+/g, ''));
+          u.searchParams.set('subId2', placement);
           a.href = u.toString();
         }
       } catch (err) {}
