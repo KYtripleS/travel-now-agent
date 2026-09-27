@@ -89,10 +89,11 @@
 
 /* Revenue-funnel instrumentation: affiliate + newsletter clicks (aggregate only) */
 (function () {
-  document.addEventListener('click', function (e) {
+  function onClick(e) {
     if (!e.target.closest) return;
+    if (e.type === 'auxclick' && e.button !== 1) return;   /* middle click opens a tab too */
     var a = e.target.closest('a[rel~="sponsored"]');
-    if (a && window.gtag) {
+    if (a) {
       var partner = '';
       try { partner = new URL(a.href).hostname.replace(/^www\./, ''); } catch (err) {}
       /* Which placement earned the click: the verdict box, a table, the link
@@ -105,11 +106,25 @@
         : a.closest('.gy-pick') ? 'pick'
         : a.closest('.gy-widget, .gy-cta') ? 'widget'
         : 'prose';
-      gtag('event', 'affiliate_click', { partner: partner, page: location.pathname, placement: placement });
+      /* Travelpayouts short links take ?sub_id= (letters, digits, _), and its
+       * dashboard then splits clicks and bookings by it: which page and which
+       * placement. It is added only on a real click, so a link a crawler
+       * follows arrives without one, and untagged clicks are the bots. */
+      try {
+        var u = new URL(a.href);
+        if (/(^|\.)(tpx\.lu|tp\.st|tp\.media)$/.test(u.hostname) && !u.searchParams.has('sub_id')) {
+          var page = location.pathname.replace(/^\/(articles\/)?/, '').replace(/(\/index)?\.html$|\/$/, '') || 'home';
+          u.searchParams.set('sub_id', (page + '__' + placement).replace(/[^A-Za-z0-9]+/g, '_'));
+          a.href = u.toString();
+        }
+      } catch (err) {}
+      if (window.gtag) gtag('event', 'affiliate_click', { partner: partner, page: location.pathname, placement: placement });
     }
     var b = e.target.closest('.newsletter-btn, [data-tally-open]');
     if (b && window.gtag) gtag('event', 'newsletter_click', { page: location.pathname });
-  }, true);
+  }
+  document.addEventListener('click', onClick, true);
+  document.addEventListener('auxclick', onClick, true);
 })();
 
 /* "In this guide" (add_aeo.py): open beside the text on wide screens, where it

@@ -46,6 +46,9 @@ def public_image(pin_filename: str) -> str:
 
 
 def main() -> None:
+    raise SystemExit("Retired 2026-09-27: site/data/pins.json is now the fresh-pin queue written by "
+                     "generate_fresh_pins.py (ids from 1001, never recycled). The pins this script "
+                     "built were all posted and live in data/pins_posted_archive.json.")
     rows = []
     with CSV.open(encoding="utf-8") as f:
         for r in csv.DictReader(f):
