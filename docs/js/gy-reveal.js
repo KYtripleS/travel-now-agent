@@ -132,6 +132,10 @@
     }
     var b = e.target.closest('.newsletter-btn, [data-tally-open]');
     if (b && window.gtag) gtag('event', 'newsletter_click', { page: location.pathname });
+    /* a related guide sending its reader on to a stay guide (add_aeo.STAY_POINTERS):
+       tells us which pages feed the hotel pages */
+    var sp = e.target.closest('.gy-stay-pointer a');
+    if (sp && window.gtag) gtag('event', 'stay_pointer_click', { page: location.pathname, target: sp.getAttribute('href') });
   }
   document.addEventListener('click', onClick, true);
   document.addEventListener('auxclick', onClick, true);

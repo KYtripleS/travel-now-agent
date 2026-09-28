@@ -265,6 +265,12 @@ V = {
              "Japan is the point of the trip.",
         link_text="Namba or Shinsaibashi", also=("klook",),
         cta=_stay_cta("where-to-stay-in-osaka", "See hotels around Namba and Shinsaibashi")),
+    "where-to-stay-in-japan": dict(
+        text="For a first trip of seven to ten days, sleep in two places: Shinjuku or Shibuya in Tokyo, then "
+             "Kyoto or Osaka, moving once by Shinkansen. Kyoto suits temples at dawn and dusk; Osaka suits food and "
+             "a smaller lodging tax. Give each base at least two nights, and add a third only with ten days or more.",
+        link_text="Shinjuku or Shibuya",
+        cta=_stay_cta("where-to-stay-in-tokyo", "See hotels around Shinjuku Station")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -481,6 +487,7 @@ V = {
 # just re-laid-out). Only these get a fresh dateModified; a verdict box that
 # restates an article's own conclusion is not a reason to claim it was updated.
 REVISED = {
+    "where-to-stay-in-osaka": "2026-09-28",                     # corrected: not the only hotel on a direct airport line
     "hotel-booking-sites-comparison": "2026-09-28",             # corrected: Hotels.com One Key/Rewards, Genius levels
     "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": "2026-09-27",  # bus fares re-checked on Willer (from ¥2,100)
     "narita-haneda-to-central-tokyo": "2026-09-27",              # added Narita <-> Haneda, official fares
@@ -905,6 +912,167 @@ def add_stay_links(soup: BeautifulSoup, slug: str, article: Tag) -> tuple[int, l
     return placed, unknown
 
 
+# --- "where to stay" pointers ------------------------------------------------------
+# A reader on a related guide, sent to the part of a stay guide that answers their
+# next question: the Shinjuku walk to where to sleep in Shinjuku, the SkyBus to why
+# the CBD. slug -> (where, html). where is "intro" (after the opening matter) or a
+# regex for the heading whose first paragraph the line follows. Every clause must
+# be true of the guide it points to: only the Tokyo guide gives each hotel a catch.
+_T, _K, _O = "where-to-stay-in-tokyo.html", "where-to-stay-in-kyoto.html", "where-to-stay-in-osaka.html"
+_S, _M = "where-to-stay-in-sydney.html", "where-to-stay-in-melbourne.html"
+_JP3 = (f'<a href="{_T}">Tokyo</a>, <a href="{_K}">Kyoto</a> and <a href="{_O}">Osaka</a>')
+_JP = "where-to-stay-in-japan.html"
+STAY_POINTERS = {
+    # Tokyo
+    "shinjuku-neighbourhood-guide": ("The station at the centre",
+        f'Sleeping in Shinjuku? <a href="{_T}#shinjuku-the-all-hours-hub">Where to stay in Shinjuku</a> '
+        'compares the quieter south and west sides of the station with Kabukichō and names three hotels, '
+        'with the catch for each.'),
+    "first-day-in-tokyo-arrival-plan": ("Settling In",
+        f'Still choosing where to sleep? <a href="{_T}">Where to stay in Tokyo</a> starts with the station, '
+        'then names 17 hotels in six areas, from Park Hyatt Tokyo to a family-run ryokan.'),
+    "narita-haneda-to-central-tokyo": ("Choosing Your Route",
+        f'The station your hotel is on decides which airport route is easiest. <a href="{_T}">Where to stay '
+        'in Tokyo</a> compares six areas by the stations they sit on and names 17 hotels.'),
+    "day-trips-from-tokyo": ("How to choose",
+        'For Hakone and Mount Fuji, a base in Shinjuku helps: the Romancecar to Hakone and the highway buses '
+        f'to the Fuji Five Lakes leave from there. <a href="{_T}#shinjuku-the-all-hours-hub">Where to stay in '
+        'Shinjuku</a> names three hotels around the station.'),
+    "things-to-do-in-tokyo": ("intro",
+        f'Where you sleep shapes these days as much as what you book. <a href="{_T}">Where to stay in Tokyo</a> '
+        'compares six areas, from Shinjuku to Asakusa, and names 17 hotels.'),
+    "tokyo-itinerary-5-days": ("Getting Settled",
+        f'Choosing a base for these five days? <a href="{_T}">Where to stay in Tokyo</a> compares six areas, '
+        'including Asakusa, Ueno and Shinjuku, and names 17 hotels.'),
+    "luggage-storage-tokyo": ("Hotel Front Desks",
+        f'Still choosing a hotel? <a href="{_T}">Where to stay in Tokyo</a> names 17 by area and price, with '
+        'the catch for each.'),
+    "how-much-does-japan-cost": ("Where money actually changes",
+        f'Pricing the beds? <a href="{_T}#all-17-at-a-glance">Where to stay in Tokyo</a> ranks 17 hotels by '
+        f'price tier, and <a href="{_K}">our Kyoto guide</a> includes the ryokan Tawaraya and Hiiragiya.'),
+    # Japan, all three cities
+    "japan-7-day-itinerary": ("Before you land",
+        f'Where to sleep on this route: <a href="{_JP}">how to split the nights</a>, then our guides to {_JP3}, '
+        'which compare the areas and name the hotels.'),
+    "carry-on-packing-list-10-day-japan": ("The Carry-On and Personal Item",
+        f'Carrying everything between cities? Our where-to-stay guides for {_JP3} start with the station, so '
+        'the walk with your bag stays short.'),
+    "best-time-to-visit-japan-2026": ("The dates to plan around",
+        f'Travelling in a peak week? Book the room first: <a href="{_JP}">where to stay in Japan on a first trip</a> '
+        f'splits the nights, and our guides to {_JP3} name the hotels.'),
+    "japan-autumn-2026": ("Flights and Stays",
+        f'For where to sleep, <a href="{_JP}">where to stay in Japan on a first trip</a> splits the nights between '
+        f'cities, and our guides to {_JP3} name the hotels.'),
+    "japan-book-in-advance-2026": ("Authentic Stays",
+        f'For named ryokan in Kyoto, including Tawaraya and Hiiragiya, see <a href="{_K}">Where to stay in '
+        'Kyoto</a>.'),
+    "japan-tourist-taxes-2026": ("Kyoto’s new lodging tax",
+        f'Choosing where to stay in Kyoto? <a href="{_K}">Our Kyoto guide</a> compares five areas and names '
+        '14 hotels and ryokan.'),
+    # the three Japan city guides, back to the trip-level question
+    "where-to-stay-in-tokyo": ("intro",
+        f'Splitting the trip between cities? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers '
+        'how many nights to give Tokyo, Kyoto and Osaka, and moving day in between.'),
+    "where-to-stay-in-kyoto": ("intro",
+        f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
+        'give each city, and how to move your bags between them.'),
+    "where-to-stay-in-osaka": ("intro",
+        f'Kyoto, Osaka, or both? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many '
+        'nights to give each, and moving day from Tokyo.'),
+    # Kyoto
+    "gion-kyoto-neighbourhood-guide": ("Getting there, and fitting it in",
+        f'Staying close by? <a href="{_K}#gion-and-higashiyama-the-old-city-early-and-late">Where to stay in '
+        'Gion and Higashiyama</a> names three hotels in this part of Kyoto.'),
+    "three-slow-days-in-kyoto": ("Moving Gently",
+        f'Where to base yourself for these three days: <a href="{_K}">Where to stay in Kyoto</a> compares '
+        'downtown, Kyoto Station, Gion, Arashiyama and the northern hills.'),
+    "kyoto-autumn-2026": ("Accommodation and Mobility",
+        f'<a href="{_K}">Where to stay in Kyoto</a> compares five areas and names 14 hotels and ryokan.'),
+    "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": ("What This Means",
+        f'Arriving by Shinkansen? <a href="{_K}#kyoto-station-the-transport-base">Where to stay in Kyoto</a> '
+        'explains when a hotel at the station beats one downtown.'),
+    "things-to-do-in-kyoto": ("intro",
+        f'Where you stay decides which of these you can walk to early, before the crowds. <a href="{_K}">Where '
+        'to stay in Kyoto</a> compares five areas, from downtown to Arashiyama.'),
+    # Osaka
+    "osaka-first-timers-guide": ("intro",
+        f'Minami or Kita? <a href="{_O}">Where to stay in Osaka</a> compares Namba and Umeda with three other '
+        'areas and names 10 hotels.'),
+    "osaka-3-day-guide": ("intro",
+        f'Choosing a base for these three days? <a href="{_O}">Where to stay in Osaka</a> compares Namba, '
+        'Umeda, Nakanoshima, Tennoji and the bay, and names 10 hotels.'),
+    "things-to-do-in-osaka": ("intro",
+        f'<a href="{_O}">Where to stay in Osaka</a> compares five areas, from Namba’s food streets to the bay '
+        'by Universal Studios Japan, and names 10 hotels.'),
+    "osaka-or-kyoto-where-to-base": ("Accommodation and Pace",
+        f'Once you’ve chosen: <a href="{_O}">Where to stay in Osaka</a> and <a href="{_K}">Where to stay in '
+        'Kyoto</a> compare the areas and name the hotels.'),
+    # Melbourne
+    "melbourne-airport-to-city": ("The SkyBus",
+        f'Southern Cross sits on the edge of the CBD. <a href="{_M}#the-cbd-the-grid-the-'
+        'laneways-and-free-trams">Where to stay in Melbourne</a> explains why the CBD, inside the Free Tram '
+        'Zone, suits a first trip.'),
+    "melbourne-first-timers-guide": ("The shape of the city",
+        f'<a href="{_M}">Where to stay in Melbourne</a> compares the CBD, Southbank, Fitzroy, St Kilda and '
+        'South Yarra and names 12 hotels.'),
+    "getting-around-melbourne": ("The Free Tram Zone",
+        f'<a href="{_M}">Where to stay in Melbourne</a> names hotels inside the Free Tram Zone and beyond it.'),
+    "things-to-do-in-melbourne": ("intro",
+        f'<a href="{_M}">Where to stay in Melbourne</a> compares five areas, from the CBD to St Kilda, and '
+        'names 12 hotels.'),
+    # Sydney
+    "sydney-first-timers-guide": ("intro",
+        f'<a href="{_S}">Where to stay in Sydney</a> compares six areas and names 13 hotels, including the '
+        'Sheraton Grand Sydney Hyde Park, where one of us stayed in September 2026.'),
+    "getting-around-sydney": ("A simple mental model",
+        f'<a href="{_S}">Where to stay in Sydney</a> compares six areas, with how you get around from each.'),
+    "things-to-do-in-sydney": ("intro",
+        f'<a href="{_S}">Where to stay in Sydney</a> compares six areas, from Circular Quay to Bondi and '
+        'Manly, and names 13 hotels.'),
+    "sydney-harbour-cruises-guide": ("Practical notes",
+        f'Staying near a departure point? <a href="{_S}">Where to stay in Sydney</a> compares Circular Quay '
+        'and Darling Harbour as bases.'),
+    # both
+    "best-time-to-visit-australia": ("The south: Sydney",
+        f'Once you have dates: <a href="{_S}">where to stay in Sydney</a> and <a href="{_M}">in Melbourne</a>, '
+        'area by area.'),
+}
+
+
+def add_stay_pointer(soup: BeautifulSoup, slug: str, article: Tag) -> bool:
+    """Place the slug's one-line pointer. False when its anchor is missing, so a
+    renamed heading shows up in the report instead of the line silently vanishing."""
+    if slug not in STAY_POINTERS:
+        return False
+    where, body = STAY_POINTERS[slug]
+    line = BeautifulSoup(f'<p class="gy-stay-pointer" data-aeo="1">{body}</p>', "html.parser").p
+    if where == "intro":
+        kids = [c for c in article.children if isinstance(c, Tag)]
+        first = next((c for c in kids if c.name == "p" and not c.has_attr("data-aeo")
+                      and len(c.get_text(strip=True)) > 60), None)
+        if first is None:
+            return False
+        anchor = first
+        for sib in first.find_next_siblings():      # past the promise line and contents list
+            if not sib.has_attr("data-aeo"):
+                break
+            anchor = sib
+    else:
+        head = next((h for h in article.find_all(["h2", "h3"])
+                     if re.search(where, h.get_text(" ", strip=True), re.I)), None)
+        if head is None:
+            return False
+        anchor = head
+        for sib in head.find_next_siblings():
+            if sib.name in ("h2", "h3"):
+                break
+            if sib.name == "p" and not sib.has_attr("data-aeo") and len(sib.get_text(strip=True)) > 40:
+                anchor = sib
+                break
+    anchor.insert_after(line)
+    return True
+
+
 def strip_managed(soup: BeautifulSoup) -> None:
     for el in soup.select("[data-aeo]"):
         if el.name == "a":
@@ -941,6 +1109,8 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
     if article is not None:
         out["toc"] = add_toc(soup, article)
         add_promise(soup, article)
+        if slug in STAY_POINTERS:
+            out["pointer"] = add_stay_pointer(soup, slug, article)
     add_social_meta.apply(soup)
     return out
 
@@ -949,8 +1119,9 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--write", action="store_true")
     args = ap.parse_args()
-    changed = verdicts = links = tocs = rates = 0
+    changed = verdicts = links = tocs = rates = pointers = 0
     unknown: list[str] = []
+    no_anchor: list[str] = []
     for src in sorted((SITE / "articles").glob("*.html")):
         rel = f"articles/{src.name}"
         html = src.read_text(encoding="utf-8")
@@ -962,6 +1133,11 @@ def main() -> None:
         tocs += bool(res["toc"])
         rates += res["rates"]
         unknown += [f"{src.stem}: {n}" for n in res["unknown_hotels"]]
+        if src.stem in STAY_POINTERS:
+            if res.get("pointer"):
+                pointers += 1
+            else:
+                no_anchor.append(src.stem)
         if new != html:
             changed += 1
             if args.write:
@@ -969,9 +1145,11 @@ def main() -> None:
                 (DOCS / rel).write_text(new, encoding="utf-8")
     missing = sorted(s for s in V if not (SITE / "articles" / f"{s}.html").exists())
     print(f"pages changed: {changed}   verdicts: {verdicts}   partner links placed: {links}   "
-          f"contents lists: {tocs}   hotel rates links: {rates}")
+          f"contents lists: {tocs}   hotel rates links: {rates}   stay pointers: {pointers}/{len(STAY_POINTERS)}")
     if missing:
         print("  registry slugs with no page:", ", ".join(missing))
+    if no_anchor:                                # a heading was renamed, or the page is gone
+        print("  stay pointers with no anchor:", ", ".join(no_anchor))
     if unknown:                                  # look each one up on Booking.com first
         print("  hotels missing from stay22.HOTELS (no rates link yet):")
         for u in unknown:

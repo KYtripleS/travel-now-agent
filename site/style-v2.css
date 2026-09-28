@@ -4176,3 +4176,14 @@ nav.breadcrumb li:not([aria-current="page"]) { white-space: nowrap; flex: 0 0 au
 }
 .gy-stay-map .gy-widget-frame iframe { height: 440px; }
 @media (max-width: 640px) { .gy-stay-map .gy-widget-frame iframe { height: 380px; } }
+/* one line on a related guide pointing at the stay guide that answers the next
+   question (add_aeo.STAY_POINTERS): quieter than the text, easy to find */
+.article .gy-stay-pointer {
+  margin: 0 0 1.2em; padding: 10px 14px; border-left: 3px solid var(--gold);
+  background: rgba(201, 168, 76, .08); border-radius: 0 8px 8px 0;
+  font-size: .94rem; line-height: 1.55; color: var(--ink-soft, #334155);
+}
+.article .gy-stay-pointer a {
+  color: var(--navy); font-weight: 700;
+  text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;
+}

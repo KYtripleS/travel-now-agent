@@ -318,6 +318,25 @@ SPECS = [
          description="In many of Tokyo's old kissaten, the morning set brings toast, an egg and coffee for "
                      "little more than the coffee alone, served until late morning. Bring cash, order one "
                      "item each, and keep your voice low. Nine kissaten still open in September 2026."),
+    # batch 2 (2026-09-28): the trip-level stay guide, for readers still deciding where to base
+    dict(id=1029, slug="where-to-stay-japan-f1", article="articles/where-to-stay-in-japan.html",
+         board=JP, photo=34297452, title="JAPAN STAYS", tagline="two bases beat four",
+         bullets=["7 days: Tokyo 4, Kyoto 3", "10 days: add Osaka 2", "One ryokan night, not three",
+                  "Bags sent ahead: next day"], cta="Plan your nights →",
+         pin_title="Where to Stay in Japan on a First Trip: How Many Nights in Tokyo, Kyoto and Osaka",
+         description="Two bases beat four on a first trip to Japan. For seven or eight days, sleep four nights "
+                     "in Tokyo and three in Kyoto, moving once by Shinkansen; with ten days, add two nights in "
+                     "Osaka and fly home from Kansai Airport. Give one night, not three, to a ryokan, and send "
+                     "the big suitcase ahead: Yamato delivers next day to almost anywhere in Japan."),
+    dict(id=1030, slug="shinkansen-luggage-f1", article="articles/where-to-stay-in-japan.html",
+         board=JP, photo=10475813, title="BIG BAGS", tagline="on the Shinkansen",
+         bullets=["Over 160 cm: reserve a seat", "Up to 250 cm allowed", "The reservation is free",
+                  "No booking: ¥1,000 fee"], cta="Moving day, planned →",
+         pin_title="Shinkansen Luggage Rules: The 160 cm Limit, Free Seat Reservations and the ¥1,000 Fee",
+         description="On the Tokaido Shinkansen, a bag whose length, width and height add up to more than 160 "
+                     "cm, and no more than 250 cm, needs a seat with an oversized-baggage area. Reserving it costs "
+                     "nothing; without a reservation you pay ¥1,000. Or skip the lifting: Yamato's TA-Q-BIN sends "
+                     "a suitcase to your next hotel, next day. Part of our guide to where to stay in Japan."),
 ]
 
 

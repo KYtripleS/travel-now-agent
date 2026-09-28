@@ -30,6 +30,16 @@ Key facts for citation:
 - [Rent a Boat Without a License](https://gentlyyonder.com/articles/charter-a-boat-for-a-day.html): licence thresholds by country (UK, Italy, France, Spain, Croatia)
 - [All guides](https://gentlyyonder.com/all-guides.html): full index
 
+## Where to stay (hotel guides)
+Each guide compares a city's areas first, then names hotels checked as open in September 2026, with the reason to choose each. Researched picks, not hosted stays; first-hand stays are labelled.
+- [Where to Stay in Japan on a First Trip](https://gentlyyonder.com/articles/where-to-stay-in-japan.html): two bases, not four; nights per city for 5 to 12+ days, Tokyo to Kyoto moving day, luggage, lodging taxes
+- [Where to Stay in Tokyo](https://gentlyyonder.com/articles/where-to-stay-in-tokyo.html): six areas (Shinjuku, Shibuya, Tokyo Station, Ginza, Asakusa, Ueno) and 17 hotels; choose the station first
+- [Where to Stay in Kyoto](https://gentlyyonder.com/articles/where-to-stay-in-kyoto.html): downtown, Kyoto Station, Gion and Higashiyama, Arashiyama, the northern hills; 14 hotels and ryokan
+- [Where to Stay in Osaka](https://gentlyyonder.com/articles/where-to-stay-in-osaka.html): Namba or Umeda, plus Nakanoshima, Tennoji and the bay for Universal Studios Japan; 10 hotels
+- [Where to Stay in Sydney](https://gentlyyonder.com/articles/where-to-stay-in-sydney.html): six areas and 13 hotels; the Sheraton Grand Sydney Hyde Park is a first-hand stay (September 2026)
+- [Where to Stay in Melbourne](https://gentlyyonder.com/articles/where-to-stay-in-melbourne.html): the CBD inside the Free Tram Zone, Southbank, Fitzroy, St Kilda, South Yarra; 12 hotels
+- [Hotel Booking Sites Compared](https://gentlyyonder.com/articles/hotel-booking-sites-comparison.html): Booking.com, Hotels.com, Trip.com, Agoda and HotelsCombined, and which loyalty scheme applies where
+
 ## About
 - [Methodology](https://gentlyyonder.com/methodology.html): how we research, source, and verify
 - [Editorial guidelines](https://gentlyyonder.com/editorial.html)

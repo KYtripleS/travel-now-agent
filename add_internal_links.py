@@ -543,6 +543,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Travel Insurance for Japan",
         "Do you actually need it? Japanese healthcare costs, what policies cover, and honest picks.",
     ),
+    "articles/where-to-stay-in-japan.html": (
+        "Where to Stay in Japan on a First Trip",
+        "Two bases beat four: how many nights in Tokyo, Kyoto and Osaka, and moving day in between.",
+    ),
     "articles/where-to-stay-in-tokyo.html": (
         "Where to Stay in Tokyo",
         "Six neighbourhoods and 17 named hotels, from Park Hyatt to a 70-year-old family ryokan.",
@@ -1536,7 +1540,16 @@ LINKS: dict[str, list[str]] = {
         "articles/how-much-does-japan-cost.html",
         "countries/japan/index.html",
     ],
+    "articles/where-to-stay-in-japan.html": [
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-stay-in-kyoto.html",
+        "articles/where-to-stay-in-osaka.html",
+        "articles/japan-7-day-itinerary.html",
+        "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html",
+        "articles/osaka-or-kyoto-where-to-base.html",
+    ],
     "articles/where-to-stay-in-tokyo.html": [
+        "articles/where-to-stay-in-japan.html",
         "articles/narita-haneda-to-central-tokyo.html",
         "articles/luggage-storage-tokyo.html",
         "cities/tokyo/asakusa.html",
@@ -1566,6 +1579,7 @@ LINKS: dict[str, list[str]] = {
         "articles/getting-around-sydney.html",
     ],
     "articles/where-to-stay-in-osaka.html": [
+        "articles/where-to-stay-in-japan.html",
         "articles/osaka-or-kyoto-where-to-base.html",
         "articles/osaka-3-day-guide.html",
         "articles/things-to-do-in-osaka.html",
@@ -1590,6 +1604,7 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-stay-in-sydney.html",
     ],
     "articles/where-to-stay-in-kyoto.html": [
+        "articles/where-to-stay-in-japan.html",
         "articles/osaka-or-kyoto-where-to-base.html",
         "articles/things-to-do-in-kyoto.html",
         "articles/gion-kyoto-neighbourhood-guide.html",

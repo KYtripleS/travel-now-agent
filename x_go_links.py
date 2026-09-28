@@ -27,6 +27,8 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
+import add_favicon
+
 REPO = Path(__file__).resolve().parent
 DOMAIN = "gentlyyonder.com"
 X_HANDLE = "@GentlyYonder"
@@ -63,6 +65,7 @@ REDIRECTS: dict[str, str] = {
     "pb":          "articles/best-power-bank-travel-2026.html",
     "pf":          "articles/pre-flight-checklist-48-hours.html",
     "sec":         "articles/airport-security-checklist.html",
+    "stay-japan":  "articles/where-to-stay-in-japan.html",
     "stay-kyoto":  "articles/where-to-stay-in-kyoto.html",
     "stay-mel":    "articles/where-to-stay-in-melbourne.html",
     "stay-osaka":  "articles/where-to-stay-in-osaka.html",
@@ -123,6 +126,9 @@ def render(target: str, stamp: str) -> str:
         f'<meta http-equiv="refresh" content="0; url={esc(dest)}"/>',
         f'<link rel="stylesheet" href="/style-v2.css?v={stamp}"/>',
         f'<script>location.replace("{dest}");</script>',
+        # add_favicon's block, verbatim: without it the two tools rewrote each
+        # other's output on every run (this one dropped it, that one put it back)
+        add_favicon.BLOCK.rstrip("\n"),
         "</head>",
         "<body>",
         f'<p>Redirecting to <a href="{esc(dest)}">{esc(title)}</a>…</p>',

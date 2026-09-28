@@ -315,6 +315,11 @@ REGISTRY: dict[str, str] = {
         "Airport trains and pickups, self-guided audio walks through the old city, and an eSIM for "
         "the subway and the maps.",
         "1853909", ["klook", "welcomepickups", "wegotrip", "airalo"]),
+    "articles/where-to-stay-in-japan.html": hub(
+        "Settling into Japan",
+        "An airport pickup for a late arrival, rail and day-trip tickets, and an eSIM that works from "
+        "the first station.",
+        "1850147", ["welcomepickups", "klook", "wegotrip", "airalo"]),
     "articles/tokyo-kissaten-guide.html": hub(
         "Between coffees",
         "Self-guided audio walks around Tokyo for the hours between kissaten, and tickets for the "

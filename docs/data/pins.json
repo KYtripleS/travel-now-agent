@@ -1,5 +1,5 @@
 {
- "count": 28,
+ "count": 30,
  "pins": [
   {
    "id": 1001,
@@ -251,6 +251,24 @@
    "link": "https://gentlyyonder.com/articles/tokyo-kissaten-guide.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
    "title": "Kissaten Morning Sets in Tokyo: Toast, Egg and Coffee in an Old Coffee House",
    "description": "In many of Tokyo's old kissaten, the morning set brings toast, an egg and coffee for little more than the coffee alone, served until late morning. Bring cash, order one item each, and keep your voice low. Nine kissaten still open in September 2026.",
+   "board": "Japan Travel Guides"
+  },
+  {
+   "id": 1029,
+   "slug": "where-to-stay-japan-f1",
+   "image": "https://gentlyyonder.com/images/pinterest/fresh/where-to-stay-japan-f1.jpg",
+   "link": "https://gentlyyonder.com/articles/where-to-stay-in-japan.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
+   "title": "Where to Stay in Japan on a First Trip: How Many Nights in Tokyo, Kyoto and Osaka",
+   "description": "Two bases beat four on a first trip to Japan. For seven or eight days, sleep four nights in Tokyo and three in Kyoto, moving once by Shinkansen; with ten days, add two nights in Osaka and fly home from Kansai Airport. Give one night, not three, to a ryokan, and send the big suitcase ahead: Yamato delivers next day to almost anywhere in Japan.",
+   "board": "Japan Travel Guides"
+  },
+  {
+   "id": 1030,
+   "slug": "shinkansen-luggage-f1",
+   "image": "https://gentlyyonder.com/images/pinterest/fresh/shinkansen-luggage-f1.jpg",
+   "link": "https://gentlyyonder.com/articles/where-to-stay-in-japan.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
+   "title": "Shinkansen Luggage Rules: The 160 cm Limit, Free Seat Reservations and the ¥1,000 Fee",
+   "description": "On the Tokaido Shinkansen, a bag whose length, width and height add up to more than 160 cm, and no more than 250 cm, needs a seat with an oversized-baggage area. Reserving it costs nothing; without a reservation you pay ¥1,000. Or skip the lifting: Yamato's TA-Q-BIN sends a suitcase to your next hotel, next day. Part of our guide to where to stay in Japan.",
    "board": "Japan Travel Guides"
   }
  ]
