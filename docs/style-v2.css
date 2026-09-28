@@ -4159,3 +4159,20 @@ nav.breadcrumb li:not([aria-current="page"]) { white-space: nowrap; flex: 0 0 au
   .gy-laurel-big { max-width: 64%; font-size: .74rem; line-height: 1.22; margin-top: 0; }
   .gy-masthead-more a { display: inline-block; margin: 2px 0; }
 }
+
+/* ── Hotel links and map in where-to-stay guides (add_aeo + stay22.py) ──────
+   "Check rates" closes each hotel's entry, quiet but easy to find; one note says
+   how those links work; the map is a card like the other partner boxes. */
+.article .gy-rates a {
+  color: var(--navy); font-weight: 700; white-space: nowrap;
+  text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;
+}
+.article .gy-rates-note {
+  margin: 0 0 12px; padding-left: 12px; border-left: 2px solid var(--gold);
+  font-size: .88rem; line-height: 1.55; color: var(--muted);
+}
+.gy-stay-map .gy-widget-frame {
+  min-height: 0; overflow: hidden; border: 1px solid var(--rule); border-radius: 10px;
+}
+.gy-stay-map .gy-widget-frame iframe { height: 440px; }
+@media (max-width: 640px) { .gy-stay-map .gy-widget-frame iframe { height: 380px; } }

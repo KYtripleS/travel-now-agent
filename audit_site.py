@@ -23,6 +23,7 @@ PRODUCTS_CSV = Path("site/products.csv")
 CONTENT_LOG  = Path("data/content_log.csv")
 
 AFFILIATE_TAG       = "tag=packlightpick-20"
+STAY22_AID          = "aid=gentlyyonder"
 REQUIRED_STYLESHEET = "style-v2.css"
 
 REQUIRED_PRODUCTS_COLS = {
@@ -172,7 +173,8 @@ def check_stylesheet() -> None:
 
 
 def check_affiliate_tags() -> None:
-    """Every amazon.com link must contain the affiliate tag."""
+    """Every amazon.com link must contain the affiliate tag, and every Stay22 link
+    or map our AID (without it the click or booking is nobody's)."""
     missing: list[str] = []
     for f in html_files(SITE_DIR):
         text  = f.read_text(encoding="utf-8")
@@ -182,10 +184,14 @@ def check_affiliate_tags() -> None:
                 # Shorten for display
                 short = link.replace("https://www.amazon.com/", "").replace("http://www.amazon.com/", "")
                 missing.append(f"{f.relative_to(Path('.'))}  →  {short}")
+        for link in re.findall(r'https?://www\.stay22\.com/(?:allez|embed)/[^\s"\'<>]*', text):
+            if STAY22_AID not in link:
+                missing.append(f"{f.relative_to(Path('.'))}  →  {link[:90]}")
+    label = f"All Amazon links include {AFFILIATE_TAG}, all Stay22 links {STAY22_AID}"
     if not missing:
-        result(f"All Amazon links include {AFFILIATE_TAG}", "PASS")
+        result(label, "PASS")
     else:
-        result(f"All Amazon links include {AFFILIATE_TAG}", "FAIL", missing)
+        result(label, "FAIL", missing)
 
 
 def check_local_links() -> None:

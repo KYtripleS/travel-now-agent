@@ -25,9 +25,13 @@ that reader:
    mid-decision jump straight to prices or the FAQ, and the anchors give search
    and answer engines addressable sections to cite.
 5. A social card from the article's own photo (add_social_meta.py).
+6. Where-to-stay guides (stay22.PAGES): a "Check rates" link after every hotel
+   Booking.com lists, one line saying how those links work, and a hotel map under
+   the "at a glance" table.
 
-Only brands we have an affiliate relationship with are ever linked. Viator,
-GetYourGuide, Holafly, SafetyWing and the rest stay plain text.
+Only brands we have an affiliate relationship with are ever linked; the hotel
+sites and GetYourGuide come through Stay22 (stay22.py). Viator, Trip.com,
+HotelsCombined, SafetyWing and the rest stay plain text.
 
 Everything this module adds carries data-aeo, so a re-run strips and rebuilds it
 (idempotent). publish_article.py calls apply() so new articles are born with it.
@@ -50,6 +54,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 import add_social_meta
+import stay22
 
 REPO = Path(__file__).resolve().parent
 SITE = REPO / "site"
@@ -63,6 +68,9 @@ BRAND_LABEL = "Gently Yonder’s verdict:"
 BRANDS = {
     "Welcome Pickups": "welcomepickups",
     "Radical Storage": "radicalstorage",
+    "GetYourGuide": "getyourguide",
+    "Booking.com": "booking",
+    "Hotels.com": "hotelscom",
     "Go City": "gocity",
     "WeGoTrip": "wegotrip",
     "Aviasales": "aviasales",
@@ -75,7 +83,13 @@ BRANDS = {
     "Saily": "saily",
     "EKTA": "ekta",
     "Holafly": "holafly",
+    "Expedia": "expedia",
+    "Agoda": "agoda",
+    "Vrbo": "vrbo",
 }
+# Stay22 partners. Only a bare link is ever reused from a page: a link to one hotel
+# must not become the link for the whole brand.
+_STAY22_KEYS = ("getyourguide", "booking", "hotelscom", "expedia", "agoda", "vrbo")
 # how to recognise a partner's link already on the page (reused, so each page
 # keeps the tracking link it was built with) …
 HREF_MATCH = {
@@ -93,6 +107,7 @@ HREF_MATCH = {
     "veltra": r"awinmid=89081",
     "samboat": r"awinmid=(?:32677|32681)",
     "holafly": r"holafly\.sjv\.io/",
+    **{k: rf"stay22\.com/allez/{k}\?aid={stay22.AID}$" for k in _STAY22_KEYS},
 }
 # … and the default when the page has none yet.
 DEFAULT_HREF = {
@@ -111,6 +126,15 @@ DEFAULT_HREF = {
     "samboat": "https://www.awin1.com/cread.php?awinmid=32677&awinaffid=2926361&ued=https%3A%2F%2Fwww.samboat.co.uk%2F",
     # Impact; the link applies our coupon YONDER by itself (approved 2026-09)
     "holafly": "https://holafly.sjv.io/c/7394095/3920147/24764",
+    **{k: stay22.allez(k) for k in _STAY22_KEYS},
+}
+# A page's own destination where the partner can search by place: a reader comparing
+# Sydney cruises should land on GetYourGuide's Sydney results, not its home page.
+PAGE_HREF = {
+    "where-to-book-sydney-harbour-cruise": {"getyourguide": stay22.allez("getyourguide", address="Sydney, Australia")},
+    "where-to-book-jeju-bus-tour": {"getyourguide": stay22.allez("getyourguide", address="Jeju, South Korea")},
+    "where-to-book-halong-bay-cruise": {"getyourguide": stay22.allez("getyourguide", address="Ha Long Bay, Vietnam")},
+    "where-to-book-tokyo-food-tour": {"getyourguide": stay22.allez("getyourguide", address="Tokyo, Japan")},
 }
 SECTION_LABEL = {
     "klook": "Check current prices on Klook",
@@ -127,6 +151,12 @@ SECTION_LABEL = {
     "veltra": "Browse VELTRA tours",
     "samboat": "Browse boats on SamBoat",
     "holafly": "See Holafly’s unlimited plans",
+    "getyourguide": "Browse tours on GetYourGuide",
+    "booking": "Search hotels on Booking.com",
+    "hotelscom": "Search hotels on Hotels.com",
+    "expedia": "Search hotels on Expedia",
+    "agoda": "Search hotels on Agoda",
+    "vrbo": "Search holiday rentals on Vrbo",
 }
 # A reader-facing note after the section link, said plainly. Holafly asks for the
 # code to sit beside the link (it still applies if the reader buys later).
@@ -136,10 +166,22 @@ SECTION_NOTE = {
 
 # --- verdicts -----------------------------------------------------------------
 # slug -> text, cta, and optionally which legacy summary box it replaces.
-# cta: (brand key, label) | ("amazon", asin, label) | None. None where the pick
-# is not a partner of ours — a link to a different brand under a verdict that
-# names someone else would be a bait-and-switch.
+# cta: (brand key, label) | ("amazon", asin, label) | ("href", label, url) | None.
+# None where the pick is not a partner of ours — a link to a different brand under
+# a verdict that names someone else would be a bait-and-switch.
+# The verdict links the CTA where its text first names the partner, or at
+# `link_text` when the words that should carry it are not a partner's name
+# ("the CBD"); `also` links further partners at their first mention.
 LEGACY_BOX = "aside.verdict"
+
+
+def _stay_cta(slug: str, label: str) -> tuple:
+    """A where-to-stay verdict's call to action: hotels around the area it
+    recommends, on whichever booking site Stay22 picks, since the text names none."""
+    p = stay22.PAGES[slug]
+    return ("href", label, stay22.area_rates(p["lat"], p["lng"]))
+
+
 V = {
     # booking platforms --------------------------------------------------------
     "klook-vs-viator-vs-getyourguide": dict(
@@ -158,7 +200,7 @@ V = {
         text="There is no single best hotel site: start with HotelsCombined or Booking.com for the broadest "
              "coverage, check Agoda or Trip.com for Asia, and verify the hotel’s own site if you have "
              "loyalty status.",
-        cta=None),
+        cta=("booking", "Search hotels on Booking.com"), also=("agoda",)),
     "where-to-book-sydney-harbour-cruise": dict(
         text="Book whale-watching and sunset cruises on Klook, usually the cheapest for Sydney; dinner "
              "cruises on GetYourGuide, which lays out menu tiers clearly and applies free cancellation most "
@@ -189,35 +231,40 @@ V = {
              "cheaper. Pay the platform premium when you want card protection and clear cancellation terms: "
              "Klook for day trips from Hanoi, Viator for the widest range of overnights.",
         cta=("klook", "Check Halong Bay cruises on Klook")),
+    # where to stay: hotel links through Stay22 (stay22.py) --------------------
     "where-to-stay-in-tokyo": dict(
-        text="Choose the station first, then the hotel (Klook lists several of the hotels below if you want "
-             "to compare prices). For a first trip, stay on the south or west side of Shinjuku, or in Shibuya; "
-             "for the Shinkansen or quiet evenings, the Marunouchi side of Tokyo Station; for old-Tokyo "
-             "character and better value, Asakusa or Ueno. Then book within five minutes of the exit you will use.",
-        cta=("klook", "Compare Tokyo hotels on Klook")),
+        text="Choose the station first, then the hotel: for a first trip, the south or west side of Shinjuku, "
+             "or Shibuya; for the Shinkansen or quiet evenings, the Marunouchi side of Tokyo Station; for "
+             "old-Tokyo character and better value, Asakusa or Ueno. Then book within five minutes of the "
+             "exit you will use.",
+        link_text="the south or west side of Shinjuku",
+        cta=_stay_cta("where-to-stay-in-tokyo", "See hotels around Shinjuku Station")),
     "where-to-stay-in-sydney": dict(
         text="For a first trip, stay in the city centre by Hyde Park; our pick there is the Sheraton Grand "
-             "Sydney Hyde Park, where one of us stayed in September 2026 (Klook lists it if you want to "
-             "compare prices). Choose Circular Quay and The Rocks for the harbour, Surry Hills for food, and "
-             "Bondi or Manly for the beach.",
-        cta=("klook", "Compare Sydney hotels on Klook")),
+             "Sydney Hyde Park, where one of us stayed in September 2026. Choose Circular Quay and The Rocks "
+             "for the harbour, Surry Hills for food, and Bondi or Manly for the beach.",
+        link_text="Sheraton Grand Sydney Hyde Park",
+        cta=("href", "See the Sheraton Grand’s rates on Booking.com",
+             stay22.hotel_rates(stay22.HOTELS["Sheraton Grand Sydney Hyde Park"]))),
     "where-to-stay-in-melbourne": dict(
         text="Stay in the CBD, inside the Free Tram Zone, for a first trip; the SkyBus from the airport, "
              "bookable on Klook, stops at Southern Cross on its edge. Choose Southbank for the river, Fitzroy "
              "for bars and vintage shops, St Kilda for the bay and South Yarra for Chapel Street.",
-        cta=("klook", "Book the SkyBus on Klook")),
+        link_text="the CBD", also=("klook",),
+        cta=_stay_cta("where-to-stay-in-melbourne", "See hotels in the Melbourne CBD")),
     "where-to-stay-in-kyoto": dict(
         text="Stay downtown near a subway station for the best all-round base, or by Kyoto Station if you "
-             "are arriving by Shinkansen or from Kansai Airport (Klook lists some of the station hotels if "
-             "you want to compare prices). Choose Gion and Higashiyama for the old city at dawn and dusk, "
-             "and budget for the accommodation tax that rose on 1 March 2026.",
-        cta=("klook", "Compare Kyoto hotels on Klook")),
+             "are arriving by Shinkansen or from Kansai Airport. Choose Gion and Higashiyama for the old city "
+             "at dawn and dusk, and budget for the accommodation tax that rose on 1 March 2026.",
+        link_text="downtown near a subway station",
+        cta=_stay_cta("where-to-stay-in-kyoto", "See hotels in downtown Kyoto")),
     "where-to-stay-in-osaka": dict(
         text="Stay in Namba or Shinsaibashi for food and nightlife, or around Umeda and Osaka Station for "
              "trains to Kyoto, Kobe and Kansai Airport (the Haruka stops there, and Klook sells tickets). "
              "Tennoji and Shinsekai are the value pick, and the bay only makes sense if Universal Studios "
              "Japan is the point of the trip.",
-        cta=("klook", "Book the Haruka on Klook")),
+        link_text="Namba or Shinsaibashi", also=("klook",),
+        cta=_stay_cta("where-to-stay-in-osaka", "See hotels around Namba and Shinsaibashi")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -434,6 +481,7 @@ V = {
 # just re-laid-out). Only these get a fresh dateModified; a verdict box that
 # restates an article's own conclusion is not a reason to claim it was updated.
 REVISED = {
+    "hotel-booking-sites-comparison": "2026-09-28",             # corrected: Hotels.com One Key/Rewards, Genius levels
     "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": "2026-09-27",  # bus fares re-checked on Willer (from ¥2,100)
     "narita-haneda-to-central-tokyo": "2026-09-27",              # added Narita <-> Haneda, official fares
     "charter-a-boat-for-a-day": "2026-09-23",                    # Spain 1 Oct 2026, Greece, Croatia
@@ -512,7 +560,9 @@ def apply_dates(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -
 
 
 # --- links --------------------------------------------------------------------
-def _page_href(soup: BeautifulSoup, key: str) -> str:
+def _page_href(soup: BeautifulSoup, key: str, slug: str | None = None) -> str:
+    if slug and key in PAGE_HREF.get(slug, {}):
+        return PAGE_HREF[slug][key]
     pat = re.compile(HREF_MATCH[key])
     for a in soup.select(".article a[href]"):
         if pat.search(a["href"]) and not a.has_attr("data-aeo"):
@@ -557,7 +607,7 @@ def _brand_of(text: str) -> str | None:
     return BRANDS.get(text.strip().rstrip("*").strip())
 
 
-def link_brands(soup: BeautifulSoup) -> int:
+def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
     article = soup.select_one("section.article")
     if article is None:
         return 0
@@ -585,7 +635,7 @@ def link_brands(soup: BeautifulSoup) -> int:
                 continue
             if not key or key in done:
                 continue
-            a = _anchor(soup, _page_href(soup, key))
+            a = _anchor(soup, _page_href(soup, key, slug))
             target.wrap(a)
             done.add(key)
             added += 1
@@ -603,7 +653,7 @@ def link_brands(soup: BeautifulSoup) -> int:
         key = _brand_of(first.get_text())
         if not key or key in seen:
             continue
-        first.wrap(_anchor(soup, _page_href(soup, key)))
+        first.wrap(_anchor(soup, _page_href(soup, key, slug)))
         seen.add(key)
         added += 1
 
@@ -622,7 +672,7 @@ def link_brands(soup: BeautifulSoup) -> int:
             continue
         key = BRANDS[m.group(1)]
         p = soup.new_tag("p", attrs={"class": "gy-section-link", "data-aeo": "1"})
-        a = _anchor(soup, _page_href(soup, key), managed=False)
+        a = _anchor(soup, _page_href(soup, key, slug), managed=False)
         a.string = f"{SECTION_LABEL[key]} →"
         p.append(a)
         if key in SECTION_NOTE:
@@ -638,7 +688,12 @@ def link_brands(soup: BeautifulSoup) -> int:
 
 
 # --- verdict ------------------------------------------------------------------
-def render_verdict(soup: BeautifulSoup, spec: dict) -> Tag:
+def _names_re(key: str) -> str | None:
+    names = [n for n, k in BRANDS.items() if k == key]
+    return r"\b(?:" + "|".join(re.escape(n) for n in names) + r")\b" if names else None
+
+
+def render_verdict(soup: BeautifulSoup, spec: dict, slug: str | None = None) -> Tag:
     box = soup.new_tag("aside", attrs={"class": "gy-verdict", "data-aeo": "1"})
     p = soup.new_tag("p", attrs={"class": "gy-verdict-text"})
     label = soup.new_tag("strong", attrs={"class": "gy-verdict-label"})
@@ -648,23 +703,34 @@ def render_verdict(soup: BeautifulSoup, spec: dict) -> Tag:
     href = None
     if cta and cta[0] == "amazon":
         href, text = _amazon_href(soup, cta[1]), cta[2]
+    elif cta and cta[0] == "href":
+        href, text = cta[2], cta[1]
     elif cta:
-        href, text = _page_href(soup, cta[0]), cta[1]
+        href, text = _page_href(soup, cta[0], slug), cta[1]
     # Link the partner where the verdict first names it, not only in the line
     # after the text: on a phone a long verdict pushed that last line below the
     # first screen on every decision article (the link must show unscrolled).
-    names = [n for n, k in BRANDS.items() if cta and k == cta[0]]
-    m = None
-    if href and names:
-        m = re.search(r"\b(" + "|".join(re.escape(n) for n in names) + r")\b", spec["text"])
-    if m:
-        p.append(" " + spec["text"][:m.start()])
-        inline = _anchor(soup, href, managed=False)
-        inline.string = m.group(0)
+    wanted: list[tuple[str, str]] = []
+    if href and spec.get("link_text"):
+        wanted.append((re.escape(spec["link_text"]), href))
+    elif href and cta[0] not in ("amazon", "href") and _names_re(cta[0]):
+        wanted.append((_names_re(cta[0]), href))
+    for key in spec.get("also", ()):
+        if _names_re(key):
+            wanted.append((_names_re(key), _page_href(soup, key, slug)))
+    spans: list[tuple[int, int, str]] = []
+    for pat, h in wanted:
+        m = re.search(pat, spec["text"])
+        if m and not any(m.start() < e and s < m.end() for s, e, _ in spans):
+            spans.append((m.start(), m.end(), h))
+    pos = 0
+    for s, e, h in sorted(spans):
+        p.append((" " if pos == 0 else "") + spec["text"][pos:s])
+        inline = _anchor(soup, h, managed=False)
+        inline.string = spec["text"][s:e]
         p.append(inline)
-        p.append(spec["text"][m.end():])
-    else:
-        p.append(" " + spec["text"])
+        pos = e
+    p.append((" " if pos == 0 else "") + spec["text"][pos:])
     box.append(p)
     if href:
         c = soup.new_tag("p", attrs={"class": "gy-verdict-cta"})
@@ -762,6 +828,83 @@ def add_promise(soup: BeautifulSoup, article: Tag) -> None:
         article.append(p)
 
 
+# --- where to stay: hotel rates and a hotel map (Stay22) --------------------------
+def _hotel_items(article: Tag, after_stop: set[int]):
+    """(li, name) for each list item that opens with a bold, linked hotel name:
+    the guides' "Where to stay in …" lists, where the name links the hotel's site."""
+    for li in article.find_all("li"):
+        if id(li) in after_stop:
+            continue
+        first = next((c for c in li.children
+                      if not (isinstance(c, NavigableString) and not c.strip())), None)
+        if isinstance(first, Tag) and first.name == "strong" and first.find("a", href=True):
+            yield li, first.find("a").get_text(" ", strip=True)
+
+
+def add_stay_links(soup: BeautifulSoup, slug: str, article: Tag) -> tuple[int, list[str]]:
+    """"Check rates on Booking.com" after each hotel Booking.com lists — never a near
+    match, so stay22.HOTELS was checked by hand — one line before the first list
+    saying how those links work, and a hotel map under the "at a glance" table.
+    Returns (rates links placed, hotel names stay22.HOTELS doesn't know yet)."""
+    page = stay22.PAGES.get(slug)
+    if page is None:
+        return 0, []
+    stop = _stop_heading(article)
+    after_stop = {id(stop)} | {id(x) for x in stop.find_all_next()} if stop else set()
+    def rates(url: str) -> Tag:
+        span = soup.new_tag("span", attrs={"class": "gy-rates", "data-aeo": "1"})
+        span.append(" ")
+        a = _anchor(soup, stay22.hotel_rates(url), managed=False)
+        a.string = f"{stay22.RATES_LABEL} →"
+        span.append(a)
+        return span
+
+    placed, unknown, first_list = 0, [], None
+    for pick in article.select(".gy-pick"):      # "Our pick": <strong>name</strong>: why
+        strong = pick.find("strong")
+        url = stay22.HOTELS.get(strong.get_text(" ", strip=True)) if strong else None
+        if url:
+            strong.parent.append(rates(url))
+            placed += 1
+    for li, name in _hotel_items(article, after_stop):
+        if name not in stay22.HOTELS:
+            unknown.append(name)
+            continue
+        if stay22.HOTELS[name] is None:          # not on Booking.com: its own site it is
+            continue
+        li.append(rates(stay22.HOTELS[name]))
+        placed += 1
+        if first_list is None:
+            first_list = li.parent
+    if first_list is not None:
+        note = soup.new_tag("p", attrs={"class": "gy-rates-note", "data-aeo": "1"})
+        note.string = stay22.RATES_NOTE
+        first_list.insert_before(note)
+
+    glance = next((h for h in article.find_all("h2")
+                   if "at a glance" in h.get_text(" ", strip=True).lower()), None)
+    if glance is not None:
+        last = glance                            # the end of that section
+        for sib in glance.find_next_siblings():
+            if sib.name == "h2" or sib.find("h2") is not None:
+                break
+            last = sib
+        heading, blurb = stay22.map_copy(page["area"])
+        box = soup.new_tag("aside", attrs={"class": "gy-widget gy-stay-map", "data-aeo": "1"})
+        h = soup.new_tag("h4", attrs={"class": "gy-widget-h"})
+        h.string = heading
+        b = soup.new_tag("p", attrs={"class": "gy-widget-blurb"})
+        b.string = blurb
+        frame = soup.new_tag("div", attrs={"class": "gy-widget-frame"})
+        frame.append(soup.new_tag("iframe", attrs={
+            "loading": "lazy",
+            "src": stay22.map_src(page["address"], page["zoom"], f"{slug}_map"),
+            "title": f"Map of hotels around {page['area']} with prices, from Stay22"}))
+        box.extend([h, b, frame])
+        last.insert_after(box)
+    return placed, unknown
+
+
 def strip_managed(soup: BeautifulSoup) -> None:
     for el in soup.select("[data-aeo]"):
         if el.name == "a":
@@ -775,7 +918,7 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
     slug = Path(rel).stem
     strip_managed(soup)
     apply_dates(soup, rel, modified=modified or REVISED.get(slug))
-    out = {"verdict": False, "links": 0, "toc": 0}
+    out = {"verdict": False, "links": 0, "toc": 0, "rates": 0, "unknown_hotels": []}
     spec = V.get(slug)
     article = soup.select_one("section.article")
     if spec and article is not None:
@@ -786,13 +929,15 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
                     nxt.extract()
                 old.decompose()
         first = next((c for c in article.children if isinstance(c, Tag)), None)
-        box = render_verdict(soup, spec)
+        box = render_verdict(soup, spec, slug)
         if first is not None:
             first.insert_before(box)
         else:
             article.append(box)
         out["verdict"] = True
-        out["links"] = link_brands(soup)
+        out["links"] = link_brands(soup, slug)
+    if article is not None and slug in stay22.PAGES:
+        out["rates"], out["unknown_hotels"] = add_stay_links(soup, slug, article)
     if article is not None:
         out["toc"] = add_toc(soup, article)
         add_promise(soup, article)
@@ -804,7 +949,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--write", action="store_true")
     args = ap.parse_args()
-    changed = verdicts = links = tocs = 0
+    changed = verdicts = links = tocs = rates = 0
+    unknown: list[str] = []
     for src in sorted((SITE / "articles").glob("*.html")):
         rel = f"articles/{src.name}"
         html = src.read_text(encoding="utf-8")
@@ -814,15 +960,22 @@ def main() -> None:
         verdicts += res["verdict"]
         links += res["links"]
         tocs += bool(res["toc"])
+        rates += res["rates"]
+        unknown += [f"{src.stem}: {n}" for n in res["unknown_hotels"]]
         if new != html:
             changed += 1
             if args.write:
                 src.write_text(new, encoding="utf-8")
                 (DOCS / rel).write_text(new, encoding="utf-8")
     missing = sorted(s for s in V if not (SITE / "articles" / f"{s}.html").exists())
-    print(f"pages changed: {changed}   verdicts: {verdicts}   partner links placed: {links}   contents lists: {tocs}")
+    print(f"pages changed: {changed}   verdicts: {verdicts}   partner links placed: {links}   "
+          f"contents lists: {tocs}   hotel rates links: {rates}")
     if missing:
         print("  registry slugs with no page:", ", ".join(missing))
+    if unknown:                                  # look each one up on Booking.com first
+        print("  hotels missing from stay22.HOTELS (no rates link yet):")
+        for u in unknown:
+            print("   ", u)
     if not args.write:
         print("  (dry run — pass --write to apply)")
 
