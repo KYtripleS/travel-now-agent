@@ -73,6 +73,8 @@ PAGES = {
                                     address="Hyde Park, Sydney NSW, Australia"),
     "where-to-stay-in-melbourne": dict(area="the CBD", lat=-37.8136, lng=144.9631, zoom=15,
                                        address="Bourke Street Mall, Melbourne VIC, Australia"),
+    "where-to-stay-in-hakone": dict(area="Gora", lat=35.2494, lng=139.0489, zoom=14,
+                                    address="Gora Station, Hakone, Japan"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -148,6 +150,19 @@ HOTELS = {
     "The Prince": _B + "au/the-prince.html",
     "The Como Melbourne – MGallery": _B + "au/como-melbourne.html",
     "The Olsen Melbourne – Art Series": _B + "au/art-series-the-olsen.html",
+    # Hakone (Booking.com pages confirmed by title, 2026-09-29)
+    "Yumoto Fujiya Hotel": _B + "jp/yumoto-fujiya.html",
+    "Fujiya Hotel": _B + "jp/fujiya.html",
+    "Hakone Ginyu": None,
+    "Hakone Kowakien Ten-yu": _B + "jp/hakone-kowakien-tenyu.html",
+    "Gora Kadan": _B + "jp/gora-kadan.html",
+    "Hyatt Regency Hakone Resort and Spa": _B + "jp/hyatt-regency-hakone-resort-and-spa.html",
+    "Hotel Indigo Hakone Gora": _B + "jp/indigo-hakone-gora.html",
+    "Hakone Tent": _B + "jp/hakone-tent.html",
+    "Kinnotake Sengokuhara": _B + "jp/kinnotake.html",
+    "Fuji-Hakone Guest House": _B + "jp/fuji-hakone-guest-house.html",
+    "Odakyu Hotel de Yama": _B + "jp/odakyu-de-yama.html",
+    "The Prince Hakone Lake Ashinoko": _B + "jp/the-prince-hakone.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

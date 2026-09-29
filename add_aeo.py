@@ -271,6 +271,13 @@ V = {
              "a smaller lodging tax. Give each base at least two nights, and add a third only with ten days or more.",
         link_text="Shinjuku or Shibuya",
         cta=_stay_cta("where-to-stay-in-tokyo", "See hotels around Shinjuku Station")),
+    "where-to-stay-in-hakone": dict(
+        text="For one night on a first trip, stay in Gora, where the mountain railway meets the cable car, so "
+             "the whole loop to Owakudani and Lake Ashi starts at your door; choose Hakone-Yumoto instead if you "
+             "want to step off the Romancecar into your hotel. Miyanoshita has the Fujiya Hotel and ryokan over "
+             "the gorge, Lake Ashi the water and, on clear days, Mount Fuji, and Sengokuhara the quiet.",
+        link_text="stay in Gora",
+        cta=_stay_cta("where-to-stay-in-hakone", "See ryokan and hotels around Gora")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -923,6 +930,7 @@ _T, _K, _O = "where-to-stay-in-tokyo.html", "where-to-stay-in-kyoto.html", "wher
 _S, _M = "where-to-stay-in-sydney.html", "where-to-stay-in-melbourne.html"
 _JP3 = (f'<a href="{_T}">Tokyo</a>, <a href="{_K}">Kyoto</a> and <a href="{_O}">Osaka</a>')
 _JP = "where-to-stay-in-japan.html"
+_H = "where-to-stay-in-hakone.html"
 STAY_POINTERS = {
     # Tokyo
     "shinjuku-neighbourhood-guide": ("The station at the centre",
@@ -935,10 +943,10 @@ STAY_POINTERS = {
     "narita-haneda-to-central-tokyo": ("Choosing Your Route",
         f'The station your hotel is on decides which airport route is easiest. <a href="{_T}">Where to stay '
         'in Tokyo</a> compares six areas by the stations they sit on and names 17 hotels.'),
-    "day-trips-from-tokyo": ("How to choose",
-        'For Hakone and Mount Fuji, a base in Shinjuku helps: the Romancecar to Hakone and the highway buses '
-        f'to the Fuji Five Lakes leave from there. <a href="{_T}#shinjuku-the-all-hours-hub">Where to stay in '
-        'Shinjuku</a> names three hotels around the station.'),
+    "day-trips-from-tokyo": ("Hakone",
+        f'Staying the night instead? <a href="{_H}">Where to stay in Hakone</a> compares five areas and names '
+        '12 ryokan and hotels, from a hostel by Gora Station to the Fujiya Hotel, with which have a private '
+        'open-air bath.'),
     "things-to-do-in-tokyo": ("intro",
         f'Where you sleep shapes these days as much as what you book. <a href="{_T}">Where to stay in Tokyo</a> '
         'compares six areas, from Shinjuku to Asakusa, and names 17 hotels.'),

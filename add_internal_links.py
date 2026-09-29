@@ -543,6 +543,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Travel Insurance for Japan",
         "Do you actually need it? Japanese healthcare costs, what policies cover, and honest picks.",
     ),
+    "articles/where-to-stay-in-hakone.html": (
+        "Where to Stay in Hakone",
+        "Five areas and 12 ryokan and hotels, and which have a private open-air bath.",
+    ),
     "articles/where-to-stay-in-japan.html": (
         "Where to Stay in Japan on a First Trip",
         "Two bases beat four: how many nights in Tokyo, Kyoto and Osaka, and moving day in between.",
@@ -1540,10 +1544,19 @@ LINKS: dict[str, list[str]] = {
         "articles/how-much-does-japan-cost.html",
         "countries/japan/index.html",
     ],
+    "articles/where-to-stay-in-hakone.html": [
+        "articles/day-trips-from-tokyo.html",
+        "articles/where-to-stay-in-japan.html",
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-book-mount-fuji-day-tour.html",
+        "articles/how-much-does-japan-cost.html",
+        "articles/best-time-to-visit-japan-2026.html",
+    ],
     "articles/where-to-stay-in-japan.html": [
         "articles/where-to-stay-in-tokyo.html",
         "articles/where-to-stay-in-kyoto.html",
         "articles/where-to-stay-in-osaka.html",
+        "articles/where-to-stay-in-hakone.html",
         "articles/japan-7-day-itinerary.html",
         "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html",
         "articles/osaka-or-kyoto-where-to-base.html",

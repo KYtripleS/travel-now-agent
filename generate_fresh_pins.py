@@ -337,6 +337,24 @@ SPECS = [
                      "cm, and no more than 250 cm, needs a seat with an oversized-baggage area. Reserving it costs "
                      "nothing; without a reservation you pay ¥1,000. Or skip the lifting: Yamato's TA-Q-BIN sends "
                      "a suitcase to your next hotel, next day. Part of our guide to where to stay in Japan."),
+    dict(id=1031, slug="where-to-stay-hakone-f1", article="articles/where-to-stay-in-hakone.html",
+         board=JP, photo=31133221, title="HAKONE", tagline="where to stay, area by area",
+         bullets=["One night: Gora or Yumoto", "Old Hakone: Miyanoshita", "Quiet: Sengokuhara",
+                  "Lake Ashi: Fuji on clear days"], cta="Where to stay in Hakone →",
+         pin_title="Where to Stay in Hakone (2026): 5 Areas and 12 Ryokan and Hotels Compared",
+         description="Stay in Gora for the whole loop of mountain railway, cable car, ropeway and lake cruise at "
+                     "your door, or Hakone-Yumoto to step off the Romancecar from Shinjuku into your hotel. "
+                     "Miyanoshita has the Fujiya Hotel, open since 1878, Sengokuhara the quiet, and Lake Ashi the "
+                     "water and Mount Fuji on a clear day. Five areas and 12 ryokan and hotels compared."),
+    dict(id=1032, slug="hakone-private-onsen-f1", article="articles/where-to-stay-in-hakone.html",
+         board=JP, photo=31418958, title="PRIVATE ONSEN", tagline="in every room, in Hakone",
+         bullets=["Hakone Ginyu: 20 rooms", "Kowakien Ten-yu: 150 rooms", "Hotel Indigo Gora: 100",
+                  "Kinnotake: 9, adults only"], cta="See all 12 →",
+         pin_title="Hakone Ryokan and Hotels With a Private Open-Air Bath in Every Room (2026)",
+         description="In Hakone, a room with its own open-air bath means a private soak whenever you like. Every "
+                     "room has one at Hakone Ginyu (20 rooms over the Hayakawa valley), Hakone Kowakien Ten-yu "
+                     "(150), Hotel Indigo Hakone Gora (100, on the balcony) and Kinnotake Sengokuhara (9, adults "
+                     "only). Part of our guide to where to stay in Hakone."),
 ]
 
 
