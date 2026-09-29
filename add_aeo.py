@@ -487,6 +487,7 @@ V = {
 # just re-laid-out). Only these get a fresh dateModified; a verdict box that
 # restates an article's own conclusion is not a reason to claim it was updated.
 REVISED = {
+    "where-to-book-bangkok-dinner-cruise": "2026-09-29",        # corrected: Wat Arun photo caption said "from the water"
     "where-to-stay-in-osaka": "2026-09-28",                     # corrected: not the only hotel on a direct airport line
     "hotel-booking-sites-comparison": "2026-09-28",             # corrected: Hotels.com One Key/Rewards, Genius levels
     "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": "2026-09-27",  # bus fares re-checked on Willer (from ¥2,100)
