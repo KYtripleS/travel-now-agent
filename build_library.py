@@ -243,8 +243,8 @@ def render_latest(rows: list[dict], total: int) -> str:
             f"{LATEST_END}")
 
 
-RANK_STYLE = ('  <style>.gy-lib-rank{font-family:Georgia,"Times New Roman",serif;'
-              'font-size:1.5rem;font-weight:700;color:#B8945F;font-variant-numeric:'
+RANK_STYLE = ('  <style>.gy-lib-rank{font-family:var(--serif);font-style:italic;'
+              'font-size:1.7rem;font-weight:500;color:#8A6A3A;font-variant-numeric:'
               'tabular-nums}</style>')
 
 

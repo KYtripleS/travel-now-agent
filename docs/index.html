@@ -33,7 +33,7 @@
 <meta content="https://gentlyyonder.com/images/travel-now-og.png" name="twitter:image"/>
 <meta content="Go gently. Go prepared." name="twitter:image:alt"/>
 <meta content="@GentlyYonder" name="twitter:site"/>
-<link href="style-v2.css?v=c676bc1e" rel="stylesheet"/>
+<link href="style-v2.css?v=841a0b05" rel="stylesheet"/>
 <!-- Animation libs (free, MIT) ─ defer = no render blocking ── -->
 <!-- JSON-LD: WebSite + Organization ─────────────────────────── -->
 <script type="application/ld+json">{
@@ -134,7 +134,7 @@
 <section class="gy-library" id="profiles" data-reveal>
   <h2>Most read this month</h2>
   <p class="intro">What readers are actually opening — ranked by search clicks and visits from search, AI assistants and links, excluding our own traffic. Data: 26 Aug – 22 Sep 2026.</p>
-  <style>.gy-lib-rank{font-family:Georgia,"Times New Roman",serif;font-size:1.5rem;font-weight:700;color:#B8945F;font-variant-numeric:tabular-nums}</style>
+  <style>.gy-lib-rank{font-family:var(--serif);font-style:italic;font-size:1.7rem;font-weight:500;color:#8A6A3A;font-variant-numeric:tabular-nums}</style>
   <div class="gy-lib-list">
 <a class="gy-lib-row" href="articles/capsule-wardrobe-2-week-trips.html"><span class="gy-lib-date gy-lib-rank">1</span><span class="gy-lib-body"><span class="gy-lib-tag">Packing</span><span class="gy-lib-title">2-Week Travel Capsule Wardrobe: 10 Items for Three Climates</span></span><img class="gy-lib-thumb" src="https://images.pexels.com/photos/7368219/pexels-photo-7368219.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop&dpr=2" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /></a>
 <a class="gy-lib-row" href="articles/carry-on-packing-list-10-day-japan.html"><span class="gy-lib-date gy-lib-rank">2</span><span class="gy-lib-body"><span class="gy-lib-tag">Packing</span><span class="gy-lib-title">Carry-On Packing List for 10 Days in Japan (2026)</span></span><img class="gy-lib-thumb" src="https://images.pexels.com/photos/27934991/pexels-photo-27934991.jpeg?auto=compress&cs=tinysrgb&w=480&h=320&fit=crop&dpr=2" alt="" loading="lazy" decoding="async" data-pin-nopin="true" /></a>
@@ -179,7 +179,7 @@
 <!-- ── Plan your trip — interactive checklist preview ──────────────── -->
 <section class="ready-score" data-reveal="" id="ready">
 <header class="rs-header">
-<p class="rs-eyebrow">— Your Ready Score —</p>
+<p class="rs-eyebrow">Your Ready Score</p>
 <h2 class="rs-title">How ready are you?</h2>
 <p class="rs-lead">Pick your trip, tick off what's done, and watch your Ready Score climb. The list
         rewrites itself for where you're going — every gap links to the guide that closes it, and it's
@@ -785,127 +785,128 @@
   </script>
 <section class="apac-map-section" data-reveal="" id="map">
 <header class="apac-map-header">
-<p class="apac-map-eyebrow">— Where are you going? —</p>
+<p class="apac-map-eyebrow">Where are you going?</p>
 <h2 class="apac-map-title">Start with the map.</h2>
 <p class="apac-map-lead">Tap a country to open its guides. We cover 11 across Asia-Pacific — and counting.</p>
 </header>
 <!-- BEGIN apac-map (managed by build_map.py) -->
 <div class="apac-map-wrap">
-<svg aria-label="Destinations we cover across Asia-Pacific — tap a country" class="apac-map-svg" role="list" viewbox="0 0 960 620">
-<defs>
-<radialgradient cx="52%" cy="42%" id="apacField" r="75%">
-<stop offset="0%" stop-color="#20304c"></stop>
-<stop offset="60%" stop-color="#182338"></stop>
-<stop offset="100%" stop-color="#111a2b"></stop>
-</radialgradient>
-<pattern height="26" id="apacDots" patternunits="userSpaceOnUse" width="26">
-<circle cx="1.5" cy="1.5" fill="#ffffff" opacity="0.05" r="1.5"></circle>
-</pattern>
-<filter height="220%" id="apacGlow" width="220%" x="-60%" y="-60%">
-<fegaussianblur result="b" stddeviation="7"></fegaussianblur>
-<femerge><femergenode in="b"></femergenode><femergenode in="SourceGraphic"></femergenode></femerge>
-</filter>
-</defs>
-<rect class="apac-field" fill="url(#apacField)" height="620" rx="26" width="960" x="0" y="0"></rect>
-<g aria-hidden="true" class="apac-grid">
-<path d="M40 132 Q480 106 920 132"></path>
-<path d="M40 240 Q480 214 920 240"></path>
-<path d="M40 348 Q480 324 920 348"></path>
-<path d="M40 456 Q480 434 920 456"></path>
-<path d="M40 552 Q480 534 920 552"></path>
-<path d="M188 60 Q158 312 188 560"></path>
-<path d="M352 50 Q326 312 352 572"></path>
-<path d="M516 46 Q516 312 516 576"></path>
-<path d="M680 50 Q706 312 680 572"></path>
-<path d="M828 60 Q858 312 828 560"></path>
-</g>
-<rect fill="url(#apacDots)" height="620" rx="26" width="960" x="0" y="0"></rect>
-<g class="apac-nodes">
-<a aria-label="Thailand: 7 guides" class="apac-node" data-cities="Bangkok · Chiang Mai · Phuket" data-country="Thailand" data-guides="7" href="articles/bangkok-first-timers-guide.html" role="listitem">
-<circle class="apac-halo" cx="150" cy="300" r="27.3"></circle>
-<circle class="apac-dot" cx="150" cy="300" r="17.3"></circle>
-<text class="apac-count" x="150" y="304.5">7</text>
-<text class="apac-name" x="150" y="333.3">Thailand</text>
-</a>
-<a aria-label="Vietnam: 6 guides" class="apac-node" data-cities="Hanoi · Ho Chi Minh City · Hoi An" data-country="Vietnam" data-guides="6" href="countries/vietnam/" role="listitem">
-<circle class="apac-halo" cx="300" cy="262" r="26.9"></circle>
-<circle class="apac-dot" cx="300" cy="262" r="16.9"></circle>
-<text class="apac-count" x="300" y="266.5">6</text>
-<text class="apac-name" x="300" y="294.9">Vietnam</text>
-</a>
-<a aria-label="Hong Kong: 2 guides" class="apac-node" data-cities="Hong Kong" data-country="Hong Kong" data-guides="2" href="articles/hong-kong-first-timers-guide.html" role="listitem">
-<circle class="apac-halo" cx="420" cy="300" r="24.4"></circle>
-<circle class="apac-dot" cx="420" cy="300" r="14.4"></circle>
-<text class="apac-count" x="420" y="304.5">2</text>
-<text class="apac-name" x="420" y="330.4">Hong Kong</text>
-</a>
-<a aria-label="Malaysia: 3 guides" class="apac-node" data-cities="Kuala Lumpur · Penang" data-country="Malaysia" data-guides="3" href="articles/kuala-lumpur-first-timers-guide.html" role="listitem">
-<circle class="apac-halo" cx="168" cy="432" r="25.2"></circle>
-<circle class="apac-dot" cx="168" cy="432" r="15.2"></circle>
-<text class="apac-count" x="168" y="436.5">3</text>
-<text class="apac-name" x="168" y="463.2">Malaysia</text>
-</a>
-<a aria-label="Singapore: 2 guides" class="apac-node" data-cities="Singapore" data-country="Singapore" data-guides="2" href="articles/singapore-first-timers-guide.html" role="listitem">
-<circle class="apac-halo" cx="250" cy="494" r="24.4"></circle>
-<circle class="apac-dot" cx="250" cy="494" r="14.4"></circle>
-<text class="apac-count" x="250" y="498.5">2</text>
-<text class="apac-name" x="250" y="524.4">Singapore</text>
-</a>
-<a aria-label="Indonesia: 4 guides" class="apac-node" data-cities="Bali · Yogyakarta" data-country="Indonesia" data-guides="4" href="articles/bali-first-timers-guide.html" role="listitem">
-<circle class="apac-halo" cx="398" cy="508" r="25.8"></circle>
-<circle class="apac-dot" cx="398" cy="508" r="15.8"></circle>
-<text class="apac-count" x="398" y="512.5">4</text>
-<text class="apac-name" x="398" y="539.8">Indonesia</text>
-</a>
-<a aria-label="Taiwan: 3 guides" class="apac-node" data-cities="Taipei" data-country="Taiwan" data-guides="3" href="articles/taipei-first-timers-guide.html" role="listitem">
-<circle class="apac-halo" cx="556" cy="250" r="25.2"></circle>
-<circle class="apac-dot" cx="556" cy="250" r="15.2"></circle>
-<text class="apac-count" x="556" y="254.5">3</text>
-<text class="apac-name" x="556" y="281.2">Taiwan</text>
-</a>
-<a aria-label="Philippines: 3 guides" class="apac-node" data-cities="Manila · Cebu" data-country="Philippines" data-guides="3" href="articles/manila-first-timers-guide.html" role="listitem">
-<circle class="apac-halo" cx="602" cy="388" r="25.2"></circle>
-<circle class="apac-dot" cx="602" cy="388" r="15.2"></circle>
-<text class="apac-count" x="602" y="392.5">3</text>
-<text class="apac-name" x="602" y="419.2">Philippines</text>
-</a>
-<a aria-label="South Korea: 4 guides" class="apac-node" data-cities="Seoul" data-country="South Korea" data-guides="4" href="articles/seoul-first-timers-guide.html" role="listitem">
-<circle class="apac-halo" cx="668" cy="196" r="25.8"></circle>
-<circle class="apac-dot" cx="668" cy="196" r="15.8"></circle>
-<text class="apac-count" x="668" y="200.5">4</text>
-<text class="apac-name" x="668" y="227.8">South Korea</text>
-</a>
-<a aria-label="Japan: 24 guides" class="apac-node" data-cities="Tokyo · Kyoto · Osaka" data-country="Japan" data-guides="24" href="countries/japan/" role="listitem">
-<circle class="apac-halo" cx="812" cy="176" r="32.8"></circle>
-<circle class="apac-dot" cx="812" cy="176" r="22.8"></circle>
-<text class="apac-count" x="812" y="180.5">24</text>
-<text class="apac-name" x="812" y="214.8">Japan</text>
-</a>
-<a aria-label="Australia: 10 guides" class="apac-node" data-cities="Melbourne · Perth · Sydney" data-country="Australia" data-guides="10" href="countries/australia/" role="listitem">
-<circle class="apac-halo" cx="836" cy="548" r="28.6"></circle>
-<circle class="apac-dot" cx="836" cy="548" r="18.6"></circle>
-<text class="apac-count" x="836" y="552.5">10</text>
-<text class="apac-name" x="836" y="582.6">Australia</text>
-</a>
-</g>
-</svg>
-<div aria-live="polite" class="apac-tooltip" hidden="" role="status">
-<span class="apac-tt-name"></span>
-<span class="apac-tt-meta"></span>
+  <svg class="apac-map-svg" viewBox="0 0 960 620" role="list"
+       aria-label="Destinations we cover across Asia-Pacific — tap a country">
+    <defs>
+      <radialGradient id="apacField" cx="52%" cy="42%" r="75%">
+        <stop offset="0%" stop-color="#20304c"></stop>
+        <stop offset="60%" stop-color="#182338"></stop>
+        <stop offset="100%" stop-color="#111a2b"></stop>
+      </radialGradient>
+      <pattern id="apacDots" width="26" height="26" patternUnits="userSpaceOnUse">
+        <circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" opacity="0.05"></circle>
+      </pattern>
+      <filter id="apacGlow" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="7" result="b"></feGaussianBlur>
+        <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+      </filter>
+    </defs>
+    <rect class="apac-field" x="0" y="0" width="960" height="620" rx="4" fill="url(#apacField)"></rect>
+    <g class="apac-grid" aria-hidden="true">
+      <path d="M40 132 Q480 106 920 132"/>
+      <path d="M40 240 Q480 214 920 240"/>
+      <path d="M40 348 Q480 324 920 348"/>
+      <path d="M40 456 Q480 434 920 456"/>
+      <path d="M40 552 Q480 534 920 552"/>
+      <path d="M188 60 Q158 312 188 560"/>
+      <path d="M352 50 Q326 312 352 572"/>
+      <path d="M516 46 Q516 312 516 576"/>
+      <path d="M680 50 Q706 312 680 572"/>
+      <path d="M828 60 Q858 312 828 560"/>
+    </g>
+    <rect x="0" y="0" width="960" height="620" rx="4" fill="url(#apacDots)"></rect>
+    <g class="apac-nodes">
+      <a class="apac-node" href="articles/bangkok-first-timers-guide.html" role="listitem" aria-label="Thailand: 7 guides" data-country="Thailand" data-guides="7" data-cities="Bangkok · Chiang Mai · Phuket">
+        <circle class="apac-halo" cx="150" cy="300" r="27.3"></circle>
+        <circle class="apac-dot" cx="150" cy="300" r="17.3"></circle>
+        <text class="apac-count" x="150" y="304.5">7</text>
+        <text class="apac-name" x="150" y="333.3">Thailand</text>
+      </a>
+      <a class="apac-node" href="countries/vietnam/" role="listitem" aria-label="Vietnam: 6 guides" data-country="Vietnam" data-guides="6" data-cities="Hanoi · Ho Chi Minh City · Hoi An">
+        <circle class="apac-halo" cx="300" cy="262" r="26.9"></circle>
+        <circle class="apac-dot" cx="300" cy="262" r="16.9"></circle>
+        <text class="apac-count" x="300" y="266.5">6</text>
+        <text class="apac-name" x="300" y="294.9">Vietnam</text>
+      </a>
+      <a class="apac-node" href="articles/hong-kong-first-timers-guide.html" role="listitem" aria-label="Hong Kong: 2 guides" data-country="Hong Kong" data-guides="2" data-cities="Hong Kong">
+        <circle class="apac-halo" cx="420" cy="300" r="24.4"></circle>
+        <circle class="apac-dot" cx="420" cy="300" r="14.4"></circle>
+        <text class="apac-count" x="420" y="304.5">2</text>
+        <text class="apac-name" x="420" y="330.4">Hong Kong</text>
+      </a>
+      <a class="apac-node" href="articles/kuala-lumpur-first-timers-guide.html" role="listitem" aria-label="Malaysia: 3 guides" data-country="Malaysia" data-guides="3" data-cities="Kuala Lumpur · Penang">
+        <circle class="apac-halo" cx="168" cy="432" r="25.2"></circle>
+        <circle class="apac-dot" cx="168" cy="432" r="15.2"></circle>
+        <text class="apac-count" x="168" y="436.5">3</text>
+        <text class="apac-name" x="168" y="463.2">Malaysia</text>
+      </a>
+      <a class="apac-node" href="articles/singapore-first-timers-guide.html" role="listitem" aria-label="Singapore: 2 guides" data-country="Singapore" data-guides="2" data-cities="Singapore">
+        <circle class="apac-halo" cx="250" cy="494" r="24.4"></circle>
+        <circle class="apac-dot" cx="250" cy="494" r="14.4"></circle>
+        <text class="apac-count" x="250" y="498.5">2</text>
+        <text class="apac-name" x="250" y="524.4">Singapore</text>
+      </a>
+      <a class="apac-node" href="articles/bali-first-timers-guide.html" role="listitem" aria-label="Indonesia: 4 guides" data-country="Indonesia" data-guides="4" data-cities="Bali · Yogyakarta">
+        <circle class="apac-halo" cx="398" cy="508" r="25.8"></circle>
+        <circle class="apac-dot" cx="398" cy="508" r="15.8"></circle>
+        <text class="apac-count" x="398" y="512.5">4</text>
+        <text class="apac-name" x="398" y="539.8">Indonesia</text>
+      </a>
+      <a class="apac-node" href="articles/taipei-first-timers-guide.html" role="listitem" aria-label="Taiwan: 3 guides" data-country="Taiwan" data-guides="3" data-cities="Taipei">
+        <circle class="apac-halo" cx="556" cy="250" r="25.2"></circle>
+        <circle class="apac-dot" cx="556" cy="250" r="15.2"></circle>
+        <text class="apac-count" x="556" y="254.5">3</text>
+        <text class="apac-name" x="556" y="281.2">Taiwan</text>
+      </a>
+      <a class="apac-node" href="articles/manila-first-timers-guide.html" role="listitem" aria-label="Philippines: 3 guides" data-country="Philippines" data-guides="3" data-cities="Manila · Cebu">
+        <circle class="apac-halo" cx="602" cy="388" r="25.2"></circle>
+        <circle class="apac-dot" cx="602" cy="388" r="15.2"></circle>
+        <text class="apac-count" x="602" y="392.5">3</text>
+        <text class="apac-name" x="602" y="419.2">Philippines</text>
+      </a>
+      <a class="apac-node" href="articles/seoul-first-timers-guide.html" role="listitem" aria-label="South Korea: 4 guides" data-country="South Korea" data-guides="4" data-cities="Seoul">
+        <circle class="apac-halo" cx="668" cy="196" r="25.8"></circle>
+        <circle class="apac-dot" cx="668" cy="196" r="15.8"></circle>
+        <text class="apac-count" x="668" y="200.5">4</text>
+        <text class="apac-name" x="668" y="227.8">South Korea</text>
+      </a>
+      <a class="apac-node" href="countries/japan/" role="listitem" aria-label="Japan: 24 guides" data-country="Japan" data-guides="24" data-cities="Tokyo · Kyoto · Osaka">
+        <circle class="apac-halo" cx="812" cy="176" r="32.8"></circle>
+        <circle class="apac-dot" cx="812" cy="176" r="22.8"></circle>
+        <text class="apac-count" x="812" y="180.5">24</text>
+        <text class="apac-name" x="812" y="214.8">Japan</text>
+      </a>
+      <a class="apac-node" href="countries/australia/" role="listitem" aria-label="Australia: 10 guides" data-country="Australia" data-guides="10" data-cities="Melbourne · Perth · Sydney">
+        <circle class="apac-halo" cx="836" cy="548" r="28.6"></circle>
+        <circle class="apac-dot" cx="836" cy="548" r="18.6"></circle>
+        <text class="apac-count" x="836" y="552.5">10</text>
+        <text class="apac-name" x="836" y="582.6">Australia</text>
+      </a>
+    </g>
+  </svg>
+  <div class="apac-tooltip" role="status" aria-live="polite" hidden>
+    <span class="apac-tt-name"></span>
+    <span class="apac-tt-meta"></span>
+  </div>
 </div>
-</div>
-<ul aria-label="All countries we cover" class="apac-legend">
-<li><a class="apac-chip" href="countries/japan/"><span class="apac-chip-name">Japan</span><span class="apac-chip-count">24</span></a></li>
-<li><a class="apac-chip" href="countries/australia/"><span class="apac-chip-name">Australia</span><span class="apac-chip-count">10</span></a></li>
-<li><a class="apac-chip" href="articles/bangkok-first-timers-guide.html"><span class="apac-chip-name">Thailand</span><span class="apac-chip-count">7</span></a></li>
-<li><a class="apac-chip" href="countries/vietnam/"><span class="apac-chip-name">Vietnam</span><span class="apac-chip-count">6</span></a></li>
-<li><a class="apac-chip" href="articles/bali-first-timers-guide.html"><span class="apac-chip-name">Indonesia</span><span class="apac-chip-count">4</span></a></li>
-<li><a class="apac-chip" href="articles/seoul-first-timers-guide.html"><span class="apac-chip-name">South Korea</span><span class="apac-chip-count">4</span></a></li>
-<li><a class="apac-chip" href="articles/kuala-lumpur-first-timers-guide.html"><span class="apac-chip-name">Malaysia</span><span class="apac-chip-count">3</span></a></li>
-<li><a class="apac-chip" href="articles/taipei-first-timers-guide.html"><span class="apac-chip-name">Taiwan</span><span class="apac-chip-count">3</span></a></li>
-<li><a class="apac-chip" href="articles/manila-first-timers-guide.html"><span class="apac-chip-name">Philippines</span><span class="apac-chip-count">3</span></a></li>
-<li><a class="apac-chip" href="articles/hong-kong-first-timers-guide.html"><span class="apac-chip-name">Hong Kong</span><span class="apac-chip-count">2</span></a></li>
-<li><a class="apac-chip" href="articles/singapore-first-timers-guide.html"><span class="apac-chip-name">Singapore</span><span class="apac-chip-count">2</span></a></li>
+<ul class="apac-legend" aria-label="All countries we cover">
+      <li><a class="apac-chip" href="countries/japan/"><span class="apac-chip-name">Japan</span><span class="apac-chip-count">24</span></a></li>
+      <li><a class="apac-chip" href="countries/australia/"><span class="apac-chip-name">Australia</span><span class="apac-chip-count">10</span></a></li>
+      <li><a class="apac-chip" href="articles/bangkok-first-timers-guide.html"><span class="apac-chip-name">Thailand</span><span class="apac-chip-count">7</span></a></li>
+      <li><a class="apac-chip" href="countries/vietnam/"><span class="apac-chip-name">Vietnam</span><span class="apac-chip-count">6</span></a></li>
+      <li><a class="apac-chip" href="articles/bali-first-timers-guide.html"><span class="apac-chip-name">Indonesia</span><span class="apac-chip-count">4</span></a></li>
+      <li><a class="apac-chip" href="articles/seoul-first-timers-guide.html"><span class="apac-chip-name">South Korea</span><span class="apac-chip-count">4</span></a></li>
+      <li><a class="apac-chip" href="articles/kuala-lumpur-first-timers-guide.html"><span class="apac-chip-name">Malaysia</span><span class="apac-chip-count">3</span></a></li>
+      <li><a class="apac-chip" href="articles/taipei-first-timers-guide.html"><span class="apac-chip-name">Taiwan</span><span class="apac-chip-count">3</span></a></li>
+      <li><a class="apac-chip" href="articles/manila-first-timers-guide.html"><span class="apac-chip-name">Philippines</span><span class="apac-chip-count">3</span></a></li>
+      <li><a class="apac-chip" href="articles/hong-kong-first-timers-guide.html"><span class="apac-chip-name">Hong Kong</span><span class="apac-chip-count">2</span></a></li>
+      <li><a class="apac-chip" href="articles/singapore-first-timers-guide.html"><span class="apac-chip-name">Singapore</span><span class="apac-chip-count">2</span></a></li>
 </ul>
 <!-- END apac-map -->
 </section>
@@ -1043,7 +1044,7 @@
 <script async="" data-pin-hover="true" defer="" src="https://assets.pinterest.com/js/pinit.js"></script>
 <!-- END Pinterest hover-Save SDK -->
 <!-- BEGIN email-popup (managed by add_email_popup.py) -->
-<script data-root="" defer="" src="js/email-popup.js?v=232b8a0a"></script>
+<script data-root="" defer="" src="js/email-popup.js?v=a363e7ce"></script>
 <!-- END email-popup -->
 <!-- BEGIN gy-reveal (managed by add_reveal_script.py) -->
 <script defer="" src="js/gy-reveal.js?v=465ec826"></script>

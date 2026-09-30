@@ -133,8 +133,8 @@ def build_svg(data: dict) -> str:
         <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
       </filter>
     </defs>
-    <rect class="apac-field" x="0" y="0" width="960" height="620" rx="26" fill="url(#apacField)"></rect>
-{GRID}    <rect x="0" y="0" width="960" height="620" rx="26" fill="url(#apacDots)"></rect>
+    <rect class="apac-field" x="0" y="0" width="960" height="620" rx="4" fill="url(#apacField)"></rect>
+{GRID}    <rect x="0" y="0" width="960" height="620" rx="4" fill="url(#apacDots)"></rect>
     <g class="apac-nodes">
 {nodes_svg}
     </g>

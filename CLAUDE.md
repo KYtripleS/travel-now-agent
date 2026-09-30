@@ -97,9 +97,17 @@ cp site/images/pinterest/<name>.png docs/images/pinterest/<name>.png
 | `--navy` | `#172033` (primary surface) |
 | `--gold` | `#C9A84C` (accent, CTAs) |
 | `--surface` | `#F8F4E9` (cream, light surfaces) |
-| Body font | Georgia, "Times New Roman", serif |
-| Display font | Georgia (700 weight, tight letter-spacing) |
+| Reading font | Newsreader, self-hosted in `/fonts/` (OFL), token `--serif`, Georgia fallback |
+| Label / UI font | Libre Franklin, self-hosted (OFL), token `--sans` |
+| Display font | Newsreader 600, tight letter-spacing |
 | Logo / wordmark | "Travel Now" — never reduce to an initial |
+
+### Design rules (Editorial v2, 2026-09-30: avoid the "made by AI" look)
+- Page headers sit on paper, left-aligned and ruled. No gradient heroes.
+- Callouts are rules and margin notes, not stacked, bordered boxes.
+- Corners are square (3–4px). No pill buttons or chips.
+- Content hangs on one left edge per layout.
+- All of this lives in the "Editorial v2" layer at the end of `style-v2.css`. Change it there.
 
 ### Editorial voice
 - Neutral, layered, "explain what was lost and what survives" tone.
