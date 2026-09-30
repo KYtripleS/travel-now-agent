@@ -355,6 +355,24 @@ SPECS = [
                      "room has one at Hakone Ginyu (20 rooms over the Hayakawa valley), Hakone Kowakien Ten-yu "
                      "(150), Hotel Indigo Hakone Gora (100, on the balcony) and Kinnotake Sengokuhara (9, adults "
                      "only). Part of our guide to where to stay in Hakone."),
+    dict(id=1033, slug="where-to-stay-seoul-f1", article="articles/where-to-stay-in-seoul.html",
+         board=ASIA, photo=19271578, title="SEOUL", tagline="where to stay, area by area",
+         bullets=["First trip: Myeongdong", "Palaces: Jongno, Insadong", "Nightlife: Hongdae",
+                  "A hanok night in Bukchon"], cta="Where to stay in Seoul →",
+         pin_title="Where to Stay in Seoul (2026): 5 Areas and 12 Hotels Compared",
+         description="Myeongdong or around City Hall for a first trip, Jongno and Insadong for the palaces and "
+                     "Bukchon's hanok lanes, Hongdae for nightlife and the airport train, Seoul Station for the "
+                     "AREX and the KTX, and Gangnam only if your plans are south of the Han River. Five areas and "
+                     "12 hotels, including a hanok hotel in Bukchon."),
+    dict(id=1034, slug="seoul-myeongdong-f1", article="articles/where-to-stay-in-seoul.html",
+         board=ASIA, photo=33019190, title="MYEONGDONG", tagline="Seoul's first-trip base",
+         bullets=["Street food in the evenings", "Namsan Tower just south", "The Grand Lotte, renamed 2026",
+                  "Three hotels, with the catch"], cta="Where to stay in Seoul →",
+         pin_title="Staying in Myeongdong, Seoul: Three Hotels and What Changed in 2026",
+         description="Myeongdong puts Seoul's shopping streets, evening street food and several subway lines at "
+                     "your door, with Namsan and N Seoul Tower just to the south. The Lotte Hotel Seoul reopened "
+                     "as The Grand Lotte Seoul in August 2026, with 868 rooms instead of 1,015. Three Myeongdong "
+                     "hotels, with the catch for each, in our guide to where to stay in Seoul."),
 ]
 
 

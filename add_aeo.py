@@ -278,6 +278,13 @@ V = {
              "the gorge, Lake Ashi the water and, on clear days, Mount Fuji, and Sengokuhara the quiet.",
         link_text="stay in Gora",
         cta=_stay_cta("where-to-stay-in-hakone", "See ryokan and hotels around Gora")),
+    "where-to-stay-in-seoul": dict(
+        text="For a first trip, stay in Myeongdong or around City Hall: central, with the shopping streets and "
+             "several subway lines on foot. Choose Jongno and Insadong for the palaces and Bukchon's hanok lanes, "
+             "Hongdae for nightlife and the airport train, Seoul Station for the AREX and the KTX, and Gangnam only "
+             "if your plans are south of the river.",
+        link_text="Myeongdong or around City Hall",
+        cta=_stay_cta("where-to-stay-in-seoul", "See hotels around Myeongdong")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -931,6 +938,7 @@ _S, _M = "where-to-stay-in-sydney.html", "where-to-stay-in-melbourne.html"
 _JP3 = (f'<a href="{_T}">Tokyo</a>, <a href="{_K}">Kyoto</a> and <a href="{_O}">Osaka</a>')
 _JP = "where-to-stay-in-japan.html"
 _H = "where-to-stay-in-hakone.html"
+_SE = "where-to-stay-in-seoul.html"
 STAY_POINTERS = {
     # Tokyo
     "shinjuku-neighbourhood-guide": ("The station at the centre",
@@ -1016,6 +1024,22 @@ STAY_POINTERS = {
     "osaka-or-kyoto-where-to-base": ("Accommodation and Pace",
         f'Once you’ve chosen: <a href="{_O}">Where to stay in Osaka</a> and <a href="{_K}">Where to stay in '
         'Kyoto</a> compare the areas and name the hotels.'),
+    # Seoul
+    "seoul-first-timers-guide": ("Neighbourhoods, each with a mood",
+        f'Choosing where to sleep? <a href="{_SE}">Where to stay in Seoul</a> compares five areas, from Myeongdong '
+        'to Gangnam, and names 12 hotels.'),
+    "things-to-do-in-seoul": ("Myeongdong, Insadong",
+        f'Staying in one of these? <a href="{_SE}">Where to stay in Seoul</a> compares them as bases and names 12 '
+        'hotels, including a hanok in Bukchon.'),
+    "seoul-itinerary-3-days": ("The practical spine",
+        f'For a base that suits these three days, <a href="{_SE}">where to stay in Seoul</a> compares five areas and '
+        'names 12 hotels.'),
+    "how-much-does-south-korea-cost": ("Accommodation",
+        f'Pricing the beds in Seoul? <a href="{_SE}">Where to stay in Seoul</a> names 12 hotels by area, from a '
+        'mid-range base in Myeongdong to Signiel on the 76th floor and up.'),
+    "korail-pass-worth-it-2026": ("How to decide",
+        f'Catching an early KTX? <a href="{_SE}#seoul-station-and-itaewon-trains-then-dinner">Where to stay in '
+        'Seoul</a> names a hotel linked to Seoul Station by an underground passage.'),
     # Melbourne
     "melbourne-airport-to-city": ("The SkyBus",
         f'Southern Cross sits on the edge of the CBD. <a href="{_M}#the-cbd-the-grid-the-'

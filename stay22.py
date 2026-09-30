@@ -75,6 +75,8 @@ PAGES = {
                                        address="Bourke Street Mall, Melbourne VIC, Australia"),
     "where-to-stay-in-hakone": dict(area="Gora", lat=35.2494, lng=139.0489, zoom=14,
                                     address="Gora Station, Hakone, Japan"),
+    "where-to-stay-in-seoul": dict(area="Myeongdong", lat=37.5609, lng=126.9863, zoom=15,
+                                   address="Myeongdong Station, Seoul, South Korea"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -163,6 +165,19 @@ HOTELS = {
     "Fuji-Hakone Guest House": _B + "jp/fuji-hakone-guest-house.html",
     "Odakyu Hotel de Yama": _B + "jp/odakyu-de-yama.html",
     "The Prince Hakone Lake Ashinoko": _B + "jp/the-prince-hakone.html",
+    # Seoul (Booking.com pages confirmed by title, 2026-09-30; two listed under old names)
+    "The Grand Lotte Seoul": _B + "kr/lotte-seoul-seoul.html",
+    "The Westin Josun Seoul": _B + "kr/westin-chosun-seoul.html",
+    "L7 Myeongdong by Lotte": _B + "kr/l7-myeongdong-by-lotte.html",
+    "Four Seasons Hotel Seoul": _B + "kr/four-seasons-seoul.html",
+    "Nine Tree by Parnas Seoul Insadong": _B + "kr/nine-tree-premier-insadong.html",
+    "Rakkojae Seoul": _B + "kr/raggojae.html",
+    "RYSE, Autograph Collection": _B + "kr/ryse-autograph-collection-korea.html",
+    "L7 Hongdae by Lotte": _B + "kr/l7-hongdae.html",
+    "Four Points by Sheraton Josun, Seoul Station": _B + "kr/four-points-by-sheraton-seoul-namsan.html",
+    "Mondrian Seoul Itaewon": _B + "kr/mondrian-seoul-itaewon.html",
+    "Josun Palace, a Luxury Collection Hotel, Seoul Gangnam": _B + "kr/josun-palace-a-luxury-collection-seoul-gangnam.html",
+    "Signiel Seoul": _B + "kr/signiel-seoul.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

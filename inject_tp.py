@@ -322,6 +322,8 @@ REGISTRY: dict[str, str] = {
         "1850147", ["welcomepickups", "klook", "wegotrip", "airalo"]),
     "articles/where-to-stay-in-hakone.html": cta(
         "Getting to and around Hakone", ["klook", "kkday", "airalo"]),
+    "articles/where-to-stay-in-seoul.html": cta(
+        "Before you land in Seoul", ["klook", "kkday", "airalo"]),
     "articles/tokyo-kissaten-guide.html": hub(
         "Between coffees",
         "Self-guided audio walks around Tokyo for the hours between kissaten, and tickets for the "

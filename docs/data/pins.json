@@ -1,5 +1,5 @@
 {
- "count": 32,
+ "count": 34,
  "pins": [
   {
    "id": 1001,
@@ -288,6 +288,24 @@
    "title": "Hakone Ryokan and Hotels With a Private Open-Air Bath in Every Room (2026)",
    "description": "In Hakone, a room with its own open-air bath means a private soak whenever you like. Every room has one at Hakone Ginyu (20 rooms over the Hayakawa valley), Hakone Kowakien Ten-yu (150), Hotel Indigo Hakone Gora (100, on the balcony) and Kinnotake Sengokuhara (9, adults only). Part of our guide to where to stay in Hakone.",
    "board": "Japan Travel Guides"
+  },
+  {
+   "id": 1033,
+   "slug": "where-to-stay-seoul-f1",
+   "image": "https://gentlyyonder.com/images/pinterest/fresh/where-to-stay-seoul-f1.jpg",
+   "link": "https://gentlyyonder.com/articles/where-to-stay-in-seoul.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
+   "title": "Where to Stay in Seoul (2026): 5 Areas and 12 Hotels Compared",
+   "description": "Myeongdong or around City Hall for a first trip, Jongno and Insadong for the palaces and Bukchon's hanok lanes, Hongdae for nightlife and the airport train, Seoul Station for the AREX and the KTX, and Gangnam only if your plans are south of the Han River. Five areas and 12 hotels, including a hanok hotel in Bukchon.",
+   "board": "Asia Travel"
+  },
+  {
+   "id": 1034,
+   "slug": "seoul-myeongdong-f1",
+   "image": "https://gentlyyonder.com/images/pinterest/fresh/seoul-myeongdong-f1.jpg",
+   "link": "https://gentlyyonder.com/articles/where-to-stay-in-seoul.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
+   "title": "Staying in Myeongdong, Seoul: Three Hotels and What Changed in 2026",
+   "description": "Myeongdong puts Seoul's shopping streets, evening street food and several subway lines at your door, with Namsan and N Seoul Tower just to the south. The Lotte Hotel Seoul reopened as The Grand Lotte Seoul in August 2026, with 868 rooms instead of 1,015. Three Myeongdong hotels, with the catch for each, in our guide to where to stay in Seoul.",
+   "board": "Asia Travel"
   }
  ]
 }

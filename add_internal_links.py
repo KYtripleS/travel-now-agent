@@ -543,6 +543,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Travel Insurance for Japan",
         "Do you actually need it? Japanese healthcare costs, what policies cover, and honest picks.",
     ),
+    "articles/where-to-stay-in-seoul.html": (
+        "Where to Stay in Seoul",
+        "Five areas and 12 hotels, from Myeongdong to a hanok in Bukchon, including two recently renamed.",
+    ),
     "articles/where-to-stay-in-hakone.html": (
         "Where to Stay in Hakone",
         "Five areas and 12 ryokan and hotels, and which have a private open-air bath.",
@@ -1543,6 +1547,14 @@ LINKS: dict[str, list[str]] = {
         "articles/safetywing-vs-world-nomads.html",
         "articles/how-much-does-japan-cost.html",
         "countries/japan/index.html",
+    ],
+    "articles/where-to-stay-in-seoul.html": [
+        "articles/seoul-first-timers-guide.html",
+        "articles/things-to-do-in-seoul.html",
+        "articles/how-much-does-south-korea-cost.html",
+        "articles/where-to-book-seoul-dmz-tour.html",
+        "articles/best-esim-south-korea-2026.html",
+        "articles/do-you-need-keta-south-korea.html",
     ],
     "articles/where-to-stay-in-hakone.html": [
         "articles/day-trips-from-tokyo.html",
