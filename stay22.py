@@ -189,6 +189,6 @@ RATES_NOTE = ("How the hotel links work: a hotel’s name goes to its own websit
 def map_copy(area: str) -> tuple[str, str]:
     """Heading and blurb for the map box. Every clause must stay literally true."""
     return (f"Hotels around {area}, with prices",
-            f"Our picks are above. The map shows the hotels and apartments around {area} that "
-            f"booking sites such as Booking.com and Expedia list, with nightly prices. It comes "
-            f"from our partner Stay22, which pays us a commission if you book through it.")
+            f"The map shows the hotels and apartments around {area} that booking sites such as "
+            f"Booking.com and Expedia list, with nightly prices; our own picks follow further down. "
+            f"It comes from our partner Stay22, which pays us a commission if you book through it.")

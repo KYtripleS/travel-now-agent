@@ -564,6 +564,31 @@ def block_for(slug: str) -> str | None:
 ANCHORS = ('<h2 id="faq"', '<h2>Frequently asked questions</h2>',
            '<h2>Frequently Asked Questions</h2>', '<p class="back-link"', '</main>', '<footer')
 
+# Decision pages (the ones with a verdict) take the block before their first
+# heading instead: GA4, September 2026, readers of these pages stayed 2–8 seconds
+# and under one in eight reached the end, so a block before the FAQ went unseen.
+# Stay guides are left where they were: the hotel map holds that slot there.
+# Essays and city guides keep the end too — their first sections are history.
+EARLY: set[str] = set()
+
+
+def _early_slugs() -> set[str]:
+    import add_aeo
+    return {s for s in add_aeo.V if not s.startswith("where-to-stay-")}
+
+
+def _early_index(t: str, rel: str) -> int | None:
+    if not EARLY:                        # also when another script calls inject()
+        EARLY.update(_early_slugs())
+    if not rel.startswith("articles/") or Path(rel).stem not in EARLY:
+        return None
+    art = t.find('<section class="article')
+    if art < 0:
+        return None
+    h2 = t.find("<h2", art)
+    end = next((t.index(a) for a in ANCHORS if a in t), len(t))
+    return h2 if 0 <= h2 < end else None
+
 
 def inject(rel: str, block: str) -> str:
     # Written in the parser's canonical form (&rarr; -> the character itself, and
@@ -582,12 +607,15 @@ def inject(rel: str, block: str) -> str:
             if t[e:e + 1] == "\n":
                 e += 1
             t = t[:s] + t[e:]
-        # 2) insert before the best in-content anchor
-        anchor = next((a for a in ANCHORS if a in t), None)
-        if anchor is None:
-            print(f"    !! no anchor in {base}/{rel} — skipped")
-            continue
-        i = t.index(anchor)
+        # 2) insert before the first heading on a decision page, else before the
+        #    best in-content anchor
+        i = _early_index(t, rel)
+        if i is None:
+            anchor = next((a for a in ANCHORS if a in t), None)
+            if anchor is None:
+                print(f"    !! no anchor in {base}/{rel} — skipped")
+                continue
+            i = t.index(anchor)
         t = t[:i] + wrapped + "\n" + t[i:]
         if t != orig:
             p.write_text(t, encoding="utf-8")

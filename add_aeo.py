@@ -501,6 +501,11 @@ V = {
 # just re-laid-out). Only these get a fresh dateModified; a verdict box that
 # restates an article's own conclusion is not a reason to claim it was updated.
 REVISED = {
+    "klook-vs-viator-vs-getyourguide": "2026-10-01",            # corrected: GetYourGuide links go through Stay22
+    "where-to-book-halong-bay-cruise": "2026-10-01",            # corrected: same
+    "where-to-book-jeju-bus-tour": "2026-10-01",                # corrected: same
+    "where-to-book-sydney-harbour-cruise": "2026-10-01",        # corrected: same
+    "where-to-book-tokyo-food-tour": "2026-10-01",              # corrected: same
     "where-to-book-bangkok-dinner-cruise": "2026-09-29",        # corrected: Wat Arun photo caption said "from the water"
     "where-to-stay-in-osaka": "2026-09-28",                     # corrected: not the only hotel on a direct airport line
     "hotel-booking-sites-comparison": "2026-09-28",             # corrected: Hotels.com One Key/Rewards, Genius levels
@@ -662,7 +667,26 @@ def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
             done.add(key)
             added += 1
 
-    # 2. paragraphs that open with a bold partner name — the top of that
+    # 2. lists whose items open with a bold partner name ("Booking.com — largest
+    #    inventory…"): the at-a-glance rundowns readers reach on the second screen.
+    #    First mention of each partner per list, as with tables.
+    for lst in article.find_all(["ul", "ol"]):
+        if not _eligible(lst, after_stop):
+            continue
+        done: set[str] = set()
+        for li in lst.find_all("li", recursive=False):
+            first = next((c for c in li.children
+                          if not (isinstance(c, NavigableString) and not c.strip())), None)
+            if not (isinstance(first, Tag) and first.name == "strong") or first.find("a"):
+                continue
+            key = _brand_of(first.get_text())
+            if not key or key in done:
+                continue
+            first.wrap(_anchor(soup, _page_href(soup, key, slug)))
+            done.add(key)
+            added += 1
+
+    # 3. paragraphs that open with a bold partner name — the top of that
     #    platform's discussion; first per partner per article
     seen: set[str] = set()
     for p in article.find_all("p"):
@@ -679,7 +703,7 @@ def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
         seen.add(key)
         added += 1
 
-    # 3. headings that name exactly one partner ("1. Airalo — Best Overall …")
+    # 4. headings that name exactly one partner ("1. Airalo — Best Overall …")
     head_re = re.compile(r"^\s*(?:\d+(?:\s*&\s*\d+)?\.\s*)?(" + "|".join(map(re.escape, BRANDS)) +
                          r")\s*(?:[—–:\-]|$)")
     for h in article.find_all(["h2", "h3"]):
@@ -757,6 +781,7 @@ def render_verdict(soup: BeautifulSoup, spec: dict, slug: str | None = None) -> 
     if href:
         c = soup.new_tag("p", attrs={"class": "gy-verdict-cta"})
         a = _anchor(soup, href, managed=False)
+        a["class"] = "gy-verdict-btn"            # styled as the page's main button
         a.string = f"{text} →"
         c.append(a)
         box.append(c)
@@ -925,6 +950,22 @@ def add_stay_links(soup: BeautifulSoup, slug: str, article: Tag) -> tuple[int, l
         box.extend([h, b, frame])
         last.insert_after(box)
     return placed, unknown
+
+
+def move_map_up(article: Tag) -> None:
+    """Put the hotel map straight under the verdict (and its contents list).
+
+    GA4, September 2026: readers of the money pages stayed 2–8 seconds and under
+    one in eight reached the end, while the map sat 13–17 phone screens down,
+    after the hotel list. Under the verdict it is the second thing they see."""
+    box = article.select_one("aside.gy-stay-map")
+    if box is None:
+        return
+    for sel in ("details.gy-toc", "p.gy-promise", "aside.gy-verdict"):
+        anchor = article.select_one(sel)
+        if anchor is not None and anchor.parent is article:
+            anchor.insert_after(box.extract())
+            return
 
 
 # --- "where to stay" pointers ------------------------------------------------------
@@ -1142,6 +1183,8 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
     if article is not None:
         out["toc"] = add_toc(soup, article)
         add_promise(soup, article)
+        if slug in stay22.PAGES:
+            move_map_up(article)
         if slug in STAY_POINTERS:
             out["pointer"] = add_stay_pointer(soup, slug, article)
     add_social_meta.apply(soup)
