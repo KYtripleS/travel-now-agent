@@ -59,7 +59,14 @@
       + "#tn-pop .tn-note{margin:10px 0 0;color:#8a93a3;font-size:.74rem}"
       + "#tn-pop .tn-ok{display:none}"
       + "#tn-pop .tn-ok a{color:#8a6a3a;font-weight:700}"
-      + "@media (max-width:560px){#tn-pop-ov{right:12px;left:12px;bottom:12px;width:auto;max-width:none}}";
+      + "@media (max-width:560px){#tn-pop-ov{right:8px;left:8px;bottom:8px;width:auto;max-width:none}"
+      // phones: same words, tighter type, so the card stays a strip rather than a panel
+      + "#tn-pop{padding:12px 14px 10px}#tn-pop h2{margin:0 26px 3px 0;font-size:1rem}"
+      + "#tn-pop p{margin:0 0 8px;font-size:.8rem;line-height:1.4}"
+      + "#tn-pop .tn-mail{padding:8px 10px;font-size:.88rem}#tn-pop .tn-cta{padding:8px 12px;font-size:.86rem}"
+      + "#tn-pop .tn-note{margin:6px 0 0;font-size:.7rem}#tn-pop .tn-x{top:6px;right:6px}"
+      // the weekly note stays in view; only the list of contents goes
+      + "#tn-pop .tn-long{display:none}}";
     var s = document.createElement("style");
     s.id = "tn-pop-style";
     s.textContent = css;
@@ -91,8 +98,8 @@
       '<div id="tn-pop">'
       + '<button class="tn-x" aria-label="Close">&times;</button>'
       + '<h2>The pre-flight checklist, free</h2>'
-      + '<p>Documents, eSIM, carry-on and the security rules people trip over &mdash; '
-      + 'as a printable PDF, plus one useful travel-prep note a week.</p>'
+      + '<p><span class="tn-long">Documents, eSIM, carry-on and the security rules people trip over. </span>'
+      + 'A printable PDF, plus one useful travel-prep note a week.</p>'
       + '<iframe name="tn-ml-sink" style="display:none" title="hidden"></iframe>'
       + '<form id="tn-pop-form" action="' + ML_ACTION + '" method="post" target="tn-ml-sink">'
       + '<input class="tn-mail" type="email" name="fields[email]" required '
