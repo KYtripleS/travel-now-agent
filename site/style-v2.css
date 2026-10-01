@@ -4317,6 +4317,39 @@ nav.breadcrumb { max-width: none; margin-left: 0; margin-right: 0; }
 .article .table-scroll > table { border-radius: 3px; box-shadow: none; }
 .article .table-scroll thead { background: var(--navy); }
 
+/* Three picks under a stay guide's verdict: name, tier · area, best for, the catch, rates */
+.article .gy-quick-picks { border-top: 2px solid var(--gold); border-bottom: 1px solid var(--rule); padding: 14px 0 4px; margin: 0 0 24px; }
+.article .gy-quick-picks-h {
+  margin: 0 0 6px; font-family: var(--sans); font-size: .7rem; font-weight: 700; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--gold-ink);
+}
+.article .gy-quick-picks ol { list-style: none; margin: 0; padding: 0; }
+.article .gy-quick-picks li {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 18px; align-items: center;
+  margin: 0; padding: 12px 0; border-top: 1px solid var(--rule); font-family: var(--sans); font-size: .88rem; line-height: 1.45;
+}
+.article .gy-quick-picks li:first-child { border-top: 0; }
+.article .gy-quick-picks li > * { grid-column: 1; }
+.article .gy-quick-picks strong { font-family: var(--serif); font-size: 1.1rem; font-weight: 600; }
+.article .gy-qp-meta { display: block; color: var(--gold-ink); font-weight: 600; font-size: .8rem; }
+.article .gy-qp-tag {
+  margin-left: 6px; font-size: .64rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--gold-ink); white-space: nowrap;
+}
+.article .gy-qp-why { display: block; font-family: var(--serif); font-style: italic; font-size: 1rem; color: var(--ink); }
+.article .gy-qp-watch { display: block; color: var(--muted); font-size: .82rem; }
+.article .gy-qp-watch b { font-weight: 700; font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; margin-right: 4px; }
+.article .gy-quick-picks a.gy-qp-rates {
+  grid-column: 2; grid-row: 1 / span 5; align-self: center; padding: 9px 14px; border: 1px solid var(--navy);
+  border-radius: 3px; color: var(--navy); font-weight: 600; font-size: .85rem; text-decoration: none; white-space: nowrap;
+}
+.article .gy-quick-picks a.gy-qp-rates:hover { background: var(--navy); color: #f8f4e9; }
+.article .gy-quick-picks-note { margin: 4px 0 10px; font-family: var(--sans); font-size: .76rem; line-height: 1.45; color: var(--muted); }
+@media (max-width: 640px) {
+  .article .gy-quick-picks li { grid-template-columns: 1fr; }
+  .article .gy-quick-picks a.gy-qp-rates { grid-column: 1; grid-row: auto; justify-self: start; margin-top: 8px; }
+}
+
 /* Hotels by city, under the verdict of the booking-site comparison */
 .article .gy-city-rates { border-top: 2px solid var(--ink); padding: 20px 0 8px; margin: 0 0 28px; }
 .article .gy-city-rates-blurb { font-size: 1rem; line-height: 1.55; color: var(--ink-soft); margin: 0 0 12px; }

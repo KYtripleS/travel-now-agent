@@ -968,6 +968,87 @@ def move_map_up(article: Tag) -> None:
             return
 
 
+# --- three picks under the verdict (stay guides) -----------------------------------
+# GA4, Sep 2026: readers of the money pages left within seconds. Three named hotels
+# inside the area the verdict recommends, one per budget where the guide has one.
+# Every word shown comes from the guide's own at-a-glance table (tier, area, best
+# for, and the catch), so the box claims nothing the guide does not.
+QUICK_PICKS = {
+    "where-to-stay-in-tokyo": ["Park Hyatt Tokyo", "JR Kyushu Hotel Blossom Shinjuku", "sequence MIYASHITA PARK"],
+    "where-to-stay-in-kyoto": ["HOTEL THE MITSUI KYOTO", "Mitsui Garden Hotel Kyoto Sanjo PREMIER", "Len Kyoto Kawaramachi"],
+    "where-to-stay-in-osaka": ["W Osaka", "Swissôtel Nankai Osaka", "Hotel Hankyu RESPIRE OSAKA"],
+    "where-to-stay-in-sydney": ["Sheraton Grand Sydney Hyde Park", "Park Hyatt Sydney", "YHA Sydney Harbour"],
+    "where-to-stay-in-melbourne": ["Park Hyatt Melbourne", "QT Melbourne", "The Victoria Hotel"],
+    "where-to-stay-in-hakone": ["Gora Kadan", "Hotel Indigo Hakone Gora", "Hakone Tent"],
+    "where-to-stay-in-seoul": ["The Westin Josun Seoul", "L7 Myeongdong by Lotte", "Four Points by Sheraton Josun, Seoul Station"],
+}
+QUICK_PICKS_H = "Three to start with"
+QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
+                    "if you book, at no extra cost to you. The full list, with every area, is below.")
+
+
+def add_quick_picks(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    glance = next((h for h in article.find_all("h2")
+                   if "at a glance" in h.get_text(" ", strip=True).lower()), None)
+    table = glance.find_next("table") if glance is not None else None
+    if table is None:
+        return 0
+    heads = [th.get_text(" ", strip=True).lower() for th in table.find_all("th")]
+    col = {k: heads.index(k) for k in ("area", "tier", "best for", "watch out for") if k in heads}
+    rows = {}
+    for tr in table.find_all("tr")[1:]:
+        cells = tr.find_all(["td", "th"])
+        if cells:
+            rows[cells[0].get_text(" ", strip=True)] = [c.get_text(" ", strip=True) for c in cells]
+    box = soup.new_tag("aside", attrs={"class": "gy-quick-picks", "data-aeo": "1"})
+    h = soup.new_tag("p", attrs={"class": "gy-quick-picks-h"})
+    h.string = QUICK_PICKS_H
+    ol = soup.new_tag("ol")
+    for name in QUICK_PICKS[slug]:
+        url = stay22.HOTELS.get(name)
+        cells = next((v for k, v in rows.items() if k.startswith(name)), None)
+        if not url or cells is None:
+            continue
+        li = soup.new_tag("li")
+        n = soup.new_tag("strong")
+        n.string = name
+        li.append(n)
+        extra = cells[0][len(name):].strip(" ()")     # e.g. "our pick, stayed"
+        if extra:
+            tag = soup.new_tag("span", attrs={"class": "gy-qp-tag"})
+            tag.string = extra
+            li.extend([" ", tag])
+        meta = soup.new_tag("span", attrs={"class": "gy-qp-meta"})
+        meta.string = " · ".join(cells[col[k]] for k in ("tier", "area") if k in col)
+        li.append(meta)
+        if "best for" in col:
+            why = soup.new_tag("span", attrs={"class": "gy-qp-why"})
+            why.string = cells[col["best for"]]
+            li.append(why)
+        if "watch out for" in col:
+            w = soup.new_tag("span", attrs={"class": "gy-qp-watch"})
+            label = soup.new_tag("b")
+            label.string = "Watch out for"
+            w.extend([label, " " + cells[col["watch out for"]]])
+            li.append(w)
+        a = _anchor(soup, stay22.hotel_rates(url), managed=False)
+        a["class"] = "gy-qp-rates"
+        a.string = "Check rates →"
+        li.append(a)
+        ol.append(li)
+    if not ol.find("li"):
+        return 0
+    note = soup.new_tag("p", attrs={"class": "gy-quick-picks-note"})
+    note.string = QUICK_PICKS_NOTE
+    box.extend([h, ol, note])
+    for sel in ("p.gy-promise", "aside.gy-verdict"):
+        anchor = article.select_one(sel)
+        if anchor is not None and anchor.parent is article:
+            anchor.insert_after(box)
+            return len(ol.find_all("li"))
+    return 0
+
+
 # --- hotels by city (the booking-site comparison) ---------------------------------
 # Readers reach the comparison from ChatGPT with a trip in mind; most never scroll.
 # Under the verdict, one line per city: hotels around a central spot (Stay22 picks
@@ -1243,6 +1324,8 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
         add_promise(soup, article)
         if slug in stay22.PAGES:
             move_map_up(article)
+        if slug in QUICK_PICKS:
+            out["quick_picks"] = add_quick_picks(soup, slug, article)
         if slug in CITY_RATES:
             out["city_rates"] = add_city_rates(soup, slug, article)
         if slug in STAY_POINTERS:
