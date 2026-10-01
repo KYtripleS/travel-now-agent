@@ -4341,7 +4341,7 @@ nav.breadcrumb { max-width: none; margin-left: 0; margin-right: 0; }
   text-decoration: underline; text-decoration-color: var(--rule); text-decoration-thickness: 1px; text-underline-offset: 5px;
 }
 .gy-masthead-places a:hover { background: none; text-decoration-color: var(--gold-ink); }
-.gy-laurels { grid-column: 1 / -1; margin: 44px 0 0; max-width: 700px; }
+.gy-laurels { grid-column: 1 / -1; margin: 44px 0 0; max-width: 700px; text-align: center; } /* the masthead is left-aligned; the words inside a laurel are not */
 .gy-masthead-more { grid-column: 1 / -1; text-align: left; margin-top: 22px; }
 @media (max-width: 820px) {
   .gy-masthead-inner { display: block; }
