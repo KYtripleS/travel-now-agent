@@ -968,6 +968,64 @@ def move_map_up(article: Tag) -> None:
             return
 
 
+# --- hotels by city (the booking-site comparison) ---------------------------------
+# Readers reach the comparison from ChatGPT with a trip in mind; most never scroll.
+# Under the verdict, one line per city: hotels around a central spot (Stay22 picks
+# the booking site) and, where we have one, our guide to the city's areas.
+# (city, stay22.PAGES slug or None, area label, address when there is no guide)
+CITY_RATES = {
+    "hotel-booking-sites-comparison": [
+        ("Tokyo", "where-to-stay-in-tokyo", None, None),
+        ("Kyoto", "where-to-stay-in-kyoto", None, None),
+        ("Osaka", "where-to-stay-in-osaka", None, None),
+        ("Hakone", "where-to-stay-in-hakone", None, None),
+        ("Seoul", "where-to-stay-in-seoul", None, None),
+        ("Bangkok", None, "Siam", "Siam Station, Bangkok, Thailand"),
+        ("Taipei", None, "Taipei Main Station", "Taipei Main Station, Taipei, Taiwan"),
+        ("Singapore", None, "Raffles Place", "Raffles Place, Singapore"),
+        ("Sydney", "where-to-stay-in-sydney", None, None),
+        ("Melbourne", "where-to-stay-in-melbourne", None, None),
+    ],
+}
+CITY_RATES_H = "Looking for a hotel now?"
+CITY_RATES_BLURB = ("Pick the city. The first link opens the hotels around a central spot on a booking "
+                    "site chosen by our partner Stay22, which pays us a commission if you book through "
+                    "it. Where we have a guide to the city’s areas, the second link opens it.")
+
+
+def add_city_rates(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    box = soup.new_tag("aside", attrs={"class": "gy-city-rates", "data-aeo": "1"})
+    h = soup.new_tag("h4", attrs={"class": "gy-widget-h"})
+    h.string = CITY_RATES_H
+    b = soup.new_tag("p", attrs={"class": "gy-city-rates-blurb"})
+    b.string = CITY_RATES_BLURB
+    ul = soup.new_tag("ul", attrs={"class": "gy-city-rates-list"})
+    for city, guide, area, address in CITY_RATES[slug]:
+        if guide:
+            page = stay22.PAGES[guide]
+            href, area = stay22.area_rates(page["lat"], page["lng"]), page["area"]
+        else:
+            href = stay22.allez("roam", address=address)
+        li = soup.new_tag("li")
+        name = soup.new_tag("strong")
+        name.string = city
+        a = _anchor(soup, href, managed=False)
+        a.string = f"Hotels around {area} →"
+        li.extend([name, " ", a])
+        if guide:
+            g = soup.new_tag("a", attrs={"href": f"{guide}.html"})
+            g.string = "our area guide"
+            li.extend([" · ", g])
+        ul.append(li)
+    box.extend([h, b, ul])
+    for sel in ("details.gy-toc", "p.gy-promise", "aside.gy-verdict"):
+        anchor = article.select_one(sel)
+        if anchor is not None and anchor.parent is article:
+            anchor.insert_after(box)
+            return len(CITY_RATES[slug])
+    return 0
+
+
 # --- "where to stay" pointers ------------------------------------------------------
 # A reader on a related guide, sent to the part of a stay guide that answers their
 # next question: the Shinjuku walk to where to sleep in Shinjuku, the SkyBus to why
@@ -1185,6 +1243,8 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
         add_promise(soup, article)
         if slug in stay22.PAGES:
             move_map_up(article)
+        if slug in CITY_RATES:
+            out["city_rates"] = add_city_rates(soup, slug, article)
         if slug in STAY_POINTERS:
             out["pointer"] = add_stay_pointer(soup, slug, article)
     add_social_meta.apply(soup)

@@ -4317,6 +4317,17 @@ nav.breadcrumb { max-width: none; margin-left: 0; margin-right: 0; }
 .article .table-scroll > table { border-radius: 3px; box-shadow: none; }
 .article .table-scroll thead { background: var(--navy); }
 
+/* Hotels by city, under the verdict of the booking-site comparison */
+.article .gy-city-rates { border-top: 2px solid var(--ink); padding: 20px 0 8px; margin: 0 0 28px; }
+.article .gy-city-rates-blurb { font-size: 1rem; line-height: 1.55; color: var(--ink-soft); margin: 0 0 12px; }
+.article .gy-city-rates-list { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 32px; }
+.article .gy-city-rates-list li {
+  break-inside: avoid; margin: 0; padding: 9px 0; border-bottom: 1px solid var(--rule);
+  font-family: var(--sans); font-size: .9rem; line-height: 1.45;
+}
+.article .gy-city-rates-list strong { display: block; font-family: var(--serif); font-size: 1.08rem; font-weight: 600; }
+@media (max-width: 640px) { .article .gy-city-rates-list { columns: 1; } }
+
 /* 4. Phones: the verdict and its link stay on the first screen */
 @media (max-width: 640px) {
   nav.breadcrumb { margin-top: 12px; }
