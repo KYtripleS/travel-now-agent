@@ -53,7 +53,7 @@
   }, 1500);
 })();
 
-/* Asia-Pacific map — hover/focus tooltip (progressive enhancement) */
+/* World map — hover/focus tooltip and the close-up toggle (progressive enhancement) */
 (function () {
   var wrap = document.querySelector('.apac-map-wrap');
   if (!wrap) return;
@@ -64,13 +64,34 @@
   function show(node) {
     var r = node.getBoundingClientRect(), w = wrap.getBoundingClientRect();
     nameEl.textContent = node.getAttribute('data-country');
-    metaEl.textContent = node.getAttribute('data-guides') + ' guides · ' + node.getAttribute('data-cities');
+    metaEl.textContent = node.getAttribute('data-meta') ||
+      (node.getAttribute('data-guides') + ' guides · ' + node.getAttribute('data-cities'));
     tip.style.left = (r.left - w.left + r.width / 2) + 'px';
     tip.style.top  = (r.top - w.top) + 'px';
     tip.hidden = false;
   }
   function hide() { tip.hidden = true; }
-  wrap.querySelectorAll('.apac-node').forEach(function (node) {
+  /* World / close-up: the same drawing, re-framed (no animation) */
+  var svg = wrap.querySelector('svg');
+  wrap.querySelectorAll('.wmap-view').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var view = btn.getAttribute('data-view');
+      var narrow = view === 'apac' && window.matchMedia('(max-width: 640px)').matches &&
+                   wrap.hasAttribute('data-apac-narrow');
+      svg.setAttribute('viewBox', wrap.getAttribute(view !== 'apac' ? 'data-world'
+                                                     : narrow ? 'data-apac-narrow' : 'data-apac'));
+      wrap.classList.toggle('is-apac', view === 'apac');
+      wrap.classList.toggle('is-narrow', narrow);
+      wrap.querySelectorAll('.wmap-view').forEach(function (b) {
+        var on = b === btn;
+        b.classList.toggle('is-on', on);
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      hide();
+      if (window.gtag) gtag('event', 'map_view', { view: view });
+    });
+  });
+  wrap.querySelectorAll('.apac-node, .wmap-c').forEach(function (node) {
     node.addEventListener('mouseenter', function () { show(node); });
     node.addEventListener('mouseleave', hide);
     node.addEventListener('focus', function () { show(node); });

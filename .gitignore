@@ -27,3 +27,6 @@ community_data/
 # Daily CEO dashboard (internal)
 ceo_reports/
 data/newsletter_subs.csv
+
+# build-time map geometry (world-atlas 2.0.2, Natural Earth); the generated SVG is what ships
+data/geo/
