@@ -391,6 +391,24 @@ SPECS = [
                      "Tien for Wat Pho and Tha Chang for the Grand Palace. The Mandarin Oriental opened as The "
                      "Oriental in 1876, Capella Bangkok has 101 rooms that all face the river, and Avani+ "
                      "Riverside runs a free boat to Sathorn Pier. Part of our guide to where to stay in Bangkok."),
+    dict(id=1037, slug="where-to-stay-hong-kong-f1", article="articles/where-to-stay-in-hong-kong.html",
+         board=ASIA, photo=27228788, title="HONG KONG", tagline="where to stay, area by area",
+         bullets=["First trip: Tsim Sha Tsui", "Airport Express: Central", "Shopping: Causeway Bay",
+                  "Markets: Mong Kok"], cta="See all 12 hotels →",
+         pin_title="Where to Stay in Hong Kong (2026): 5 Areas and 12 Hotels Compared",
+         description="Tsim Sha Tsui by the Star Ferry for a first trip, Central and Admiralty for the Airport "
+                     "Express and the Peak Tram, Wan Chai and Causeway Bay for shopping and the trams, Sheung Wan "
+                     "for old streets, and Jordan and Mong Kok for markets and lower prices. Five areas and 12 "
+                     "hotels, from The Peninsula of 1928 to a no-frills hotel in Sheung Wan."),
+    dict(id=1038, slug="hong-kong-tst-f1", article="articles/where-to-stay-in-hong-kong.html",
+         board=ASIA, photo=20901557, title="TSIM SHA TSUI", tagline="Hong Kong's first-trip base",
+         bullets=["The Peninsula, since 1928", "Hotel ICON: a teaching hotel", "The YMCA's Salisbury",
+                  "The Star Ferry to Central"], cta="Where to stay →",
+         pin_title="Staying in Tsim Sha Tsui, Hong Kong: Three Hotels for a First Trip",
+         description="The Star Ferry crosses from Tsim Sha Tsui to Central, and the MTR runs under Nathan Road. "
+                     "The Peninsula opened on Salisbury Road in 1928, Hotel ICON is the Hong Kong Polytechnic "
+                     "University's teaching hotel, and the YMCA's Salisbury sits on the same road for far less. "
+                     "Part of our guide to where to stay in Hong Kong."),
 ]
 
 

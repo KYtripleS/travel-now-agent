@@ -543,6 +543,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Travel Insurance for Japan",
         "Do you actually need it? Japanese healthcare costs, what policies cover, and honest picks.",
     ),
+    "articles/where-to-stay-in-hong-kong.html": (
+        "Where to Stay in Hong Kong",
+        "Five areas and 12 hotels on both sides of the harbour, from The Peninsula of 1928 to a no-frills hotel in Sheung Wan.",
+    ),
     "articles/where-to-stay-in-bangkok.html": (
         "Where to Stay in Bangkok",
         "Five areas and 12 hotels, from Sukhumvit to the Old Town, starting with the Mandarin Oriental of 1876.",
@@ -699,6 +703,7 @@ LINKS: dict[str, list[str]] = {
         "articles/chiang-mai-first-timers-guide.html",
     ],
     "articles/hong-kong-first-timers-guide.html": [
+        "articles/where-to-stay-in-hong-kong.html",
         "articles/what-counts-as-rude.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
@@ -797,6 +802,7 @@ LINKS: dict[str, list[str]] = {
         "articles/what-counts-as-rude.html",
     ],
     "articles/things-to-do-in-hong-kong.html": [
+        "articles/where-to-stay-in-hong-kong.html",
         "articles/hong-kong-first-timers-guide.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/what-counts-as-rude.html",
@@ -1101,6 +1107,7 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
     ],
     "articles/hong-kong-harbour-cruises-guide.html": [
+        "articles/where-to-stay-in-hong-kong.html",
         "articles/things-to-do-in-hong-kong.html",
         "articles/hong-kong-first-timers-guide.html",
         "articles/sydney-harbour-cruises-guide.html",
@@ -1555,6 +1562,14 @@ LINKS: dict[str, list[str]] = {
         "articles/safetywing-vs-world-nomads.html",
         "articles/how-much-does-japan-cost.html",
         "countries/japan/index.html",
+    ],
+    "articles/where-to-stay-in-hong-kong.html": [
+        "articles/hong-kong-first-timers-guide.html",
+        "articles/things-to-do-in-hong-kong.html",
+        "articles/hong-kong-harbour-cruises-guide.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/where-to-stay-in-bangkok.html",
     ],
     "articles/where-to-stay-in-bangkok.html": [
         "articles/bangkok-first-timers-guide.html",

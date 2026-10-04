@@ -293,6 +293,14 @@ V = {
              "Town for the Grand Palace on foot.",
         link_text="Sukhumvit between Nana and Phrom Phong",
         cta=_stay_cta("where-to-stay-in-bangkok", "See hotels around Asok")),
+    "where-to-stay-in-hong-kong": dict(
+        text="For a first trip, stay in Tsim Sha Tsui, near the Star Ferry: the harbour is at the end of the "
+             "street, the MTR runs under Nathan Road, and the ferry crosses to Central. Choose Central and "
+             "Admiralty for the Airport Express and the Peak Tram, Wan Chai and Causeway Bay for shopping and "
+             "the trams, Sheung Wan for old streets and smaller hotels, and Jordan or Mong Kok for markets and "
+             "lower prices.",
+        link_text="Tsim Sha Tsui, near the Star Ferry",
+        cta=_stay_cta("where-to-stay-in-hong-kong", "See hotels around Tsim Sha Tsui")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -992,6 +1000,7 @@ QUICK_PICKS = {
     "where-to-stay-in-seoul": ["The Westin Josun Seoul", "L7 Myeongdong by Lotte", "Four Points by Sheraton Josun, Seoul Station"],
     "where-to-stay-in-bangkok": ["Hyatt Regency Bangkok Sukhumvit", "Bangkok Marriott Marquis Queen’s Park",
                                  "Holiday Inn Express Bangkok Sukhumvit 11"],
+    "where-to-stay-in-hong-kong": ["The Peninsula Hong Kong", "Hotel ICON", "The Salisbury – YMCA of Hong Kong"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1073,6 +1082,7 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Seoul", "where-to-stay-in-seoul", None, None),
         ("Bangkok", "where-to-stay-in-bangkok", None, None),
+        ("Hong Kong", "where-to-stay-in-hong-kong", None, None),
         ("Taipei", None, "Taipei Main Station", "Taipei Main Station, Taipei, Taiwan"),
         ("Singapore", None, "Raffles Place", "Raffles Place, Singapore"),
         ("Sydney", "where-to-stay-in-sydney", None, None),
@@ -1131,7 +1141,19 @@ _JP = "where-to-stay-in-japan.html"
 _H = "where-to-stay-in-hakone.html"
 _SE = "where-to-stay-in-seoul.html"
 _BK = "where-to-stay-in-bangkok.html"
+_HK = "where-to-stay-in-hong-kong.html"
 STAY_POINTERS = {
+    # Hong Kong
+    "hong-kong-first-timers-guide": ("The lie of the land",
+        f'Choosing a side? <a href="{_HK}">Where to stay in Hong Kong</a> compares five areas on both sides '
+        'of the harbour and names 12 hotels, with the catch for each.'),
+    "things-to-do-in-hong-kong": ("The harbour and the Star Ferry",
+        f'To have the Star Ferry at the end of your street, <a href="{_HK}#tsim-sha-tsui-the-first-trip-base">'
+        'stay in Tsim Sha Tsui</a>: our guide names three hotels there, from The Peninsula of 1928 to the '
+        'YMCA’s Salisbury on the same road.'),
+    "hong-kong-harbour-cruises-guide": ("Practical notes",
+        f'Staying near the piers? <a href="{_HK}#tsim-sha-tsui-the-first-trip-base">Where to stay in Tsim Sha '
+        'Tsui</a> names three hotels there, two of them on Salisbury Road, a short walk from the Star Ferry.'),
     # Bangkok
     "bangkok-first-timers-guide": ("Finding Your Pace",
         f'Choosing a base? <a href="{_BK}">Where to stay in Bangkok</a> compares five areas, from Sukhumvit to '

@@ -17,7 +17,12 @@
           "title": "Euromonitor: Top 100 City Destinations Index 2025"
         }
       ],
-      "checked": "2026-10-04"
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "23.2 million"
+        ]
+      }
     },
     {
       "id": "hk.airport-express.fare-hong-kong",
@@ -35,7 +40,13 @@
         }
       ],
       "checked": "2026-10-04",
-      "watch": "Airport Express[^.]{0,160}HK\\$"
+      "watch": "Airport Express[^.]{0,160}HK\\$",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "HK$120 to Hong Kong station",
+          "HK$130"
+        ]
+      }
     },
     {
       "id": "hk.airport-express.fare-kowloon",
@@ -52,7 +63,13 @@
           "title": "MTR: Airport Express tickets and fares"
         }
       ],
-      "checked": "2026-10-04"
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "HK$105 to Kowloon station",
+          "HK$115"
+        ]
+      }
     },
     {
       "id": "hk.airport-express.journey",
@@ -70,7 +87,12 @@
         }
       ],
       "checked": "2026-10-04",
-      "note": "Frequency (every 10 minutes) and first/last trains (05:54 and 00:48 from the airport) came from secondary sources; confirm on the MTR timetable before stating them."
+      "note": "Frequency (every 10 minutes) and first/last trains (05:54 and 00:48 from the airport) came from secondary sources; confirm on the MTR timetable before stating them.",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "as little as 24 minutes"
+        ]
+      }
     },
     {
       "id": "hk.airport-express.hotel-shuttles",
@@ -103,7 +125,12 @@
         }
       ],
       "checked": "2026-10-04",
-      "watch": "Airport Express[^.]{0,200}shuttle|shuttle[^.]{0,200}Airport Express"
+      "watch": "Airport Express[^.]{0,200}shuttle|shuttle[^.]{0,200}Airport Express",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "shuttles that a few hotels run themselves"
+        ]
+      }
     },
     {
       "id": "hk.airport-express.in-town-check-in",
@@ -119,7 +146,12 @@
           "title": "MTR: In-town check-in"
         }
       ],
-      "checked": "2026-10-04"
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "Cathay Pacific, China Airlines, Hong Kong Airlines, Mandarin Airlines, Qantas and Singapore Airlines"
+        ]
+      }
     },
     {
       "id": "hk.hotel-tax",
@@ -139,7 +171,13 @@
       ],
       "checked": "2026-10-04",
       "watch": "(?i)hotel accommodation tax",
-      "note": "Exempt: stays of 28 or more consecutive nights, places with fewer than 10 rooms, non-profit accommodation."
+      "note": "Exempt: stays of 28 or more consecutive nights, places with fewer than 10 rooms, non-profit accommodation.",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "since 1 January 2025 a 3% Hotel Accommodation Tax",
+          "about 13%"
+        ]
+      }
     },
     {
       "id": "hk.tram.fare",
@@ -160,6 +198,9 @@
       "checked": "2026-10-04",
       "used_in": {
         "articles/hong-kong-first-timers-guide.html": [
+          "HK$3.30"
+        ],
+        "articles/where-to-stay-in-hong-kong.html": [
           "HK$3.30"
         ]
       },
@@ -186,7 +227,14 @@
           "title": "The Peninsula Hong Kong"
         }
       ],
-      "checked": "2026-10-04"
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "December 1928",
+          "300 rooms",
+          "1994"
+        ]
+      }
     },
     {
       "id": "hk.hotel.hotel-icon",
@@ -208,7 +256,13 @@
           "title": "PolyU School of Hotel and Tourism Management: Hotel ICON"
         }
       ],
-      "checked": "2026-10-04"
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "262 rooms",
+          "opened in 2011"
+        ]
+      }
     },
     {
       "id": "hk.hotel.the-murray",
@@ -226,7 +280,14 @@
           "title": "Wikipedia: The Murray, Hong Kong"
         }
       ],
-      "checked": "2026-10-04"
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "January 2018",
+          "336 rooms",
+          "1969"
+        ]
+      }
     },
     {
       "id": "hk.hotel.the-salisbury",
@@ -244,7 +305,12 @@
           "title": "Booking.com: The Salisbury - YMCA of Hong Kong"
         }
       ],
-      "checked": "2026-10-04"
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "The Salisbury – YMCA of Hong Kong"
+        ]
+      }
     },
     {
       "id": "hk.hotel.eaton-hk",
@@ -266,7 +332,176 @@
           "title": "Wikipedia: Eaton Hotel Hong Kong"
         }
       ],
-      "checked": "2026-10-04"
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "465 rooms and five suites",
+          "380 Nathan Road"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.the-park-lane",
+      "topic": "hotel",
+      "claim": "The Park Lane Hong Kong, on Gloucester Road facing Victoria Park, has 820 rooms and suites; it ran as a Pullman hotel from 2015 and joined Marriott's Autograph Collection in January 2025.",
+      "value": {
+        "rooms": 820,
+        "brand": "Autograph Collection",
+        "since": "2025-01",
+        "previous": "Pullman (2015-2024)"
+      },
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/hkgak-the-park-lane-hong-kong-autograph-collection/overview/",
+          "kind": "operator",
+          "title": "Marriott: The Park Lane Hong Kong, Autograph Collection"
+        },
+        {
+          "url": "https://news.marriott.com/news/2024/03/07/marriott-international-signs-agreement-with-victoria-park-hotels-to-debut-autograph-collection-hotels-in-hong-kong",
+          "kind": "operator",
+          "title": "Marriott News: agreement with Victoria Park Hotels"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "820-room hotel",
+          "January 2025",
+          "from 2015"
+        ]
+      },
+      "note": "Some Booking.com locales still title it 'a Pullman Hotel'; same page (hotel/hk/the-park-lane-hong-kong)."
+    },
+    {
+      "id": "hk.hotel.hotel-indigo",
+      "topic": "hotel",
+      "claim": "Hotel Indigo Hong Kong Island, on Queen's Road East in Wan Chai, was completed in 2013 with 138 rooms and a glass-bottomed, cantilevered rooftop pool.",
+      "value": {
+        "completed": 2013,
+        "rooms": 138
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hotel_Indigo_Hong_Kong_Island",
+          "kind": "reference",
+          "title": "Wikipedia: Hotel Indigo Hong Kong Island"
+        },
+        {
+          "url": "https://www.ihg.com/hotelindigo/hotels/us/en/hong-kong/hkgin/hoteldetail",
+          "kind": "operator",
+          "title": "IHG: Hotel Indigo Hong Kong Island"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "138 rooms",
+          "completed in 2013",
+          "glass-bottomed rooftop pool"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.cordis",
+      "topic": "hotel",
+      "claim": "Cordis, Hong Kong, at 555 Shanghai Street in Mong Kok, opened on 4 August 2004 as the Langham Place Hotel, took its present name in 2015, has 664 rooms and is linked directly to Mong Kok station.",
+      "value": {
+        "opened": "2004-08-04",
+        "renamed": 2015,
+        "rooms": 664
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cordis_Hong_Kong",
+          "kind": "reference",
+          "title": "Wikipedia: Cordis Hong Kong"
+        },
+        {
+          "url": "https://www.cordishotels.com/en/hong-kong/",
+          "kind": "operator",
+          "title": "Cordis, Hong Kong"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "664 rooms",
+          "opened in 2004",
+          "in 2015"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.mandarin-oriental",
+      "topic": "history",
+      "claim": "The Mandarin Oriental, Hong Kong opened in 1963 at 5 Connaught Road Central.",
+      "value": {
+        "opened": 1963
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mandarin_Oriental,_Hong_Kong",
+          "kind": "reference",
+          "title": "Wikipedia: Mandarin Oriental, Hong Kong"
+        },
+        {
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+          "kind": "operator",
+          "title": "Mandarin Oriental, Hong Kong"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "opened in 1963 on Connaught Road Central"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.iclub-sheung-wan",
+      "topic": "hotel",
+      "claim": "iclub Sheung Wan Hotel, a select-service hotel from Regal Hotels International, has 248 rooms and suites at 138 Bonham Strand, five minutes' walk from Sheung Wan station.",
+      "value": {
+        "rooms": 248
+      },
+      "sources": [
+        {
+          "url": "https://www.iclub-hotels.com/en/iclub-sheung-wan-hotel/about",
+          "kind": "operator",
+          "title": "iclub Sheung Wan Hotel: about"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "248 rooms and suites",
+          "138 Bonham Strand"
+        ]
+      },
+      "note": "Booking.com also lists iclub AMTD Sheung Wan (iclub-sheung-wan-ii), a different hotel."
+    },
+    {
+      "id": "hk.hotel.99-bonham",
+      "topic": "hotel",
+      "claim": "99 Bonham is an all-suite hotel on Bonham Strand, about three minutes' walk from Sheung Wan station, with self-service laundry.",
+      "sources": [
+        {
+          "url": "https://www.99bonham.com/",
+          "kind": "operator",
+          "title": "99 Bonham"
+        },
+        {
+          "url": "https://www.booking.com/hotel/hk/bonham.html",
+          "kind": "secondary",
+          "title": "Booking.com: 99 Bonham"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong.html": [
+          "all-suite hotel on Bonham Strand"
+        ]
+      }
     }
   ]
 }

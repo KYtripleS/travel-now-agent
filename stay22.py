@@ -79,6 +79,8 @@ PAGES = {
                                    address="Myeongdong Station, Seoul, South Korea"),
     "where-to-stay-in-bangkok": dict(area="Asok", lat=13.7370, lng=100.5604, zoom=15,
                                      address="Terminal 21, Bangkok, Thailand"),
+    "where-to-stay-in-hong-kong": dict(area="Tsim Sha Tsui", lat=22.2966, lng=114.1722, zoom=15,
+                                       address="1881 Heritage, Hong Kong"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -194,6 +196,21 @@ HOTELS = {
     "Dusit Thani Bangkok": _B + "th/dusit-thani-bangkok-bangkok1.html",
     "Riva Surya Bangkok": _B + "th/riva-surya-bangkok.html",
     "Lamphu Tree House": _B + "th/lamphu-tree-house-boutique.html",
+    # Hong Kong (each Booking.com page checked by hand, October 2026)
+    "The Peninsula Hong Kong": _B + "hk/the-peninsula-hong-kong.html",
+    "Hotel ICON": _B + "hk/icon-hong-kong.html",
+    "The Salisbury – YMCA of Hong Kong": _B + "hk/salisbury.html",
+    "Mandarin Oriental, Hong Kong": _B + "hk/mandarin-oriental-hong-kong.html",
+    "The Murray, Hong Kong": _B + "hk/the-murray-hong-kong-a-niccolo.html",
+    # a Pullman until it joined Marriott's Autograph Collection in Jan 2025; same Booking.com page
+    "The Park Lane Hong Kong, Autograph Collection": _B + "hk/the-park-lane-hong-kong.html",
+    "Hotel Indigo Hong Kong Island": _B + "hk/indigo.html",
+    "99 Bonham": _B + "hk/bonham.html",
+    "Lan Kwai Fong Hotel @ Kau U Fong": _B + "hk/lan-kwai-fong.html",
+    # not iclub-sheung-wan-ii, which is iclub AMTD Sheung Wan, a different hotel
+    "iclub Sheung Wan Hotel": _B + "hk/iclub-sheung-wan.html",
+    "Cordis, Hong Kong": _B + "hk/langhamplace.html",
+    "Eaton HK": _B + "hk/eaton.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -1028,4 +1028,9 @@
   <url>
     <loc>https://gentlyyonder.com/globe.html</loc>
   </url>
+  <url>
+    <loc>https://gentlyyonder.com/articles/where-to-stay-in-hong-kong.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
