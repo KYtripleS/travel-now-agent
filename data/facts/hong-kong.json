@@ -1,0 +1,272 @@
+{
+  "place": "Hong Kong",
+  "facts": [
+    {
+      "id": "hk.arrivals-2025",
+      "topic": "stat",
+      "claim": "Hong Kong was second in Euromonitor International's 2025 city ranking, with 23.2 million international arrivals.",
+      "value": {
+        "rank": 2,
+        "arrivals_millions": 23.2,
+        "year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://www.euromonitor.com/article/top-100-city-destinations-index-2025-driving-growth-and-innovation",
+          "kind": "publisher",
+          "title": "Euromonitor: Top 100 City Destinations Index 2025"
+        }
+      ],
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "hk.airport-express.fare-hong-kong",
+      "topic": "fare",
+      "claim": "The Airport Express adult single to Hong Kong station costs HK$120 with Octopus or a contactless card, or HK$130 with a ticket.",
+      "value": {
+        "octopus_hkd": 120,
+        "ticket_hkd": 130
+      },
+      "sources": [
+        {
+          "url": "https://www.mtr.com.hk/en/customer/tickets/tf_index.html",
+          "kind": "official",
+          "title": "MTR: Airport Express tickets and fares"
+        }
+      ],
+      "checked": "2026-10-04",
+      "watch": "Airport Express[^.]{0,160}HK\\$"
+    },
+    {
+      "id": "hk.airport-express.fare-kowloon",
+      "topic": "fare",
+      "claim": "The Airport Express adult single to Kowloon station costs HK$105 with Octopus or a contactless card, or HK$115 with a ticket.",
+      "value": {
+        "octopus_hkd": 105,
+        "ticket_hkd": 115
+      },
+      "sources": [
+        {
+          "url": "https://www.mtr.com.hk/en/customer/tickets/tf_index.html",
+          "kind": "official",
+          "title": "MTR: Airport Express tickets and fares"
+        }
+      ],
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "hk.airport-express.journey",
+      "topic": "transport",
+      "claim": "The Airport Express covers the 35.3 km from the airport to the city in as little as 24 minutes.",
+      "value": {
+        "km": 35.3,
+        "minutes": 24
+      },
+      "sources": [
+        {
+          "url": "https://www.mtr.com.hk/en/customer/services/airport_express_index.html",
+          "kind": "official",
+          "title": "MTR: Airport Express services"
+        }
+      ],
+      "checked": "2026-10-04",
+      "note": "Frequency (every 10 minutes) and first/last trains (05:54 and 00:48 from the airport) came from secondary sources; confirm on the MTR timetable before stating them."
+    },
+    {
+      "id": "hk.airport-express.hotel-shuttles",
+      "topic": "transport",
+      "claim": "The Airport Express no longer runs its own free shuttle buses to most hotels; MTR lists shuttles run by a few hotels, from Hong Kong, Kowloon and Tsing Yi stations.",
+      "value": {
+        "hong_kong_station": [
+          "Bishop Lei International House",
+          "Cosmo Hotel",
+          "Courtyard by Marriott Hong Kong",
+          "Dorsett Wanchai",
+          "Four Seasons Hotel Hong Kong",
+          "Le Meridien Hong Kong, Cyberport"
+        ],
+        "kowloon_station": [
+          "ALVA HOTEL BY ROYAL",
+          "Dorsett Mongkok Hong Kong",
+          "Kerry Hotel Hong Kong",
+          "The Royal Garden Kowloon East"
+        ],
+        "tsing_yi_station": [
+          "Panda Hotel"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.mtr.com.hk/en/customer/services/hotel-shuttle-service.html",
+          "kind": "official",
+          "title": "MTR: Hotel shuttle service"
+        }
+      ],
+      "checked": "2026-10-04",
+      "watch": "Airport Express[^.]{0,200}shuttle|shuttle[^.]{0,200}Airport Express"
+    },
+    {
+      "id": "hk.airport-express.in-town-check-in",
+      "topic": "transport",
+      "claim": "At Hong Kong station you can check in bags for Cathay Pacific, China Airlines, Hong Kong Airlines, Mandarin Airlines, Qantas and Singapore Airlines flights; fewer airlines offer it at Kowloon station.",
+      "value": {
+        "cathay_pacific_hours": "06:00-23:00"
+      },
+      "sources": [
+        {
+          "url": "https://www.mtr.com.hk/en/customer/services/complom_checkin.html",
+          "kind": "official",
+          "title": "MTR: In-town check-in"
+        }
+      ],
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "hk.hotel-tax",
+      "topic": "tax",
+      "claim": "Hong Kong's Hotel Accommodation Tax has been charged again since 1 January 2025, at 3% of the room charge; the service charge, normally 10%, is not taxed, so a bill runs about 13% over the room rate.",
+      "value": {
+        "rate": 0.03,
+        "since": "2025-01-01",
+        "service_charge_typical": 0.1
+      },
+      "sources": [
+        {
+          "url": "https://www.ird.gov.hk/eng/faq/hatq.htm",
+          "kind": "official",
+          "title": "Inland Revenue Department: FAQ on Hotel Accommodation Tax"
+        }
+      ],
+      "checked": "2026-10-04",
+      "watch": "(?i)hotel accommodation tax",
+      "note": "Exempt: stays of 28 or more consecutive nights, places with fewer than 10 rooms, non-profit accommodation."
+    },
+    {
+      "id": "hk.tram.fare",
+      "topic": "fare",
+      "claim": "The adult fare on the Hong Kong Island trams is HK$3.30.",
+      "value": {
+        "adult_hkd": 3.3,
+        "child_hkd": 1.6,
+        "senior_hkd": 1.5
+      },
+      "sources": [
+        {
+          "url": "https://www.hktramways.com/en/schedules-fares/",
+          "kind": "official",
+          "title": "Hong Kong Tramways: schedules and fares"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/hong-kong-first-timers-guide.html": [
+          "HK$3.30"
+        ]
+      },
+      "watch": "(?i)ding dings?\\b[^.]{0,120}HK\\$|tram fare",
+      "note": "Corrected on 4 October 2026: the first-timers guide had said HK$3 (corrections.html)."
+    },
+    {
+      "id": "hk.hotel.the-peninsula",
+      "topic": "history",
+      "claim": "The Peninsula Hong Kong opened on 11 December 1928 at 22 Salisbury Road, Tsim Sha Tsui; a 30-storey tower was added in 1994, and it has 300 rooms.",
+      "value": {
+        "opened": "1928-12-11",
+        "rooms": 300
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Peninsula_Hong_Kong",
+          "kind": "reference",
+          "title": "Wikipedia: The Peninsula Hong Kong"
+        },
+        {
+          "url": "https://www.peninsula.com/en/hong-kong/5-star-luxury-hotel-kowloon",
+          "kind": "operator",
+          "title": "The Peninsula Hong Kong"
+        }
+      ],
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "hk.hotel.hotel-icon",
+      "topic": "hotel",
+      "claim": "Hotel ICON, at 17 Science Museum Road in Tsim Sha Tsui East, is the teaching and research hotel of the Hong Kong Polytechnic University; it opened on 21 September 2011 and has 262 rooms.",
+      "value": {
+        "opened": "2011-09-21",
+        "rooms": 262
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hotel_Icon_(Hong_Kong)",
+          "kind": "reference",
+          "title": "Wikipedia: Hotel ICON"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/shtm/about-shtm/hotel-icon",
+          "kind": "operator",
+          "title": "PolyU School of Hotel and Tourism Management: Hotel ICON"
+        }
+      ],
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "hk.hotel.the-murray",
+      "topic": "hotel",
+      "claim": "The Murray opened on 15 January 2018 at 22 Cotton Tree Drive, in the former Murray Building, a government office tower completed in 1969, converted by Foster + Partners; it has 336 rooms.",
+      "value": {
+        "opened": "2018-01-15",
+        "rooms": 336,
+        "building_completed": 1969
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Murray,_Hong_Kong",
+          "kind": "reference",
+          "title": "Wikipedia: The Murray, Hong Kong"
+        }
+      ],
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "hk.hotel.the-salisbury",
+      "topic": "hotel",
+      "claim": "The Salisbury - YMCA of Hong Kong is on Salisbury Road in Tsim Sha Tsui, with harbour-view rooms and suites.",
+      "sources": [
+        {
+          "url": "https://www.ymcahk.org.hk/thesalisbury/en/accommodation/index.html",
+          "kind": "operator",
+          "title": "The Salisbury: accommodation"
+        },
+        {
+          "url": "https://www.booking.com/hotel/hk/salisbury.html",
+          "kind": "secondary",
+          "title": "Booking.com: The Salisbury - YMCA of Hong Kong"
+        }
+      ],
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "hk.hotel.eaton-hk",
+      "topic": "hotel",
+      "claim": "Eaton HK is at 380 Nathan Road, Jordan, a few minutes' walk from Jordan station, with 465 rooms and 5 suites and a rooftop pool.",
+      "value": {
+        "rooms": 465,
+        "suites": 5
+      },
+      "sources": [
+        {
+          "url": "https://www.discoverhongkong.com/eng/travel-guide/accommodation/results/details.id9.eaton-hk.html",
+          "kind": "official",
+          "title": "Hong Kong Tourism Board: Eaton HK"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Eaton_Hotel_Hong_Kong",
+          "kind": "reference",
+          "title": "Wikipedia: Eaton Hotel Hong Kong"
+        }
+      ],
+      "checked": "2026-10-04"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "place": "Bangkok",
+  "facts": [
+    {
+      "id": "bkk.arrivals-2025",
+      "topic": "stat",
+      "claim": "Bangkok was the world's most visited city in 2025, with 30.3 million international arrivals by Euromonitor International's count.",
+      "value": {
+        "rank": 1,
+        "arrivals_millions": 30.3,
+        "year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://www.tatnews.org/2025/12/bangkok-tops-euromonitor-global-city-rankings-for-international-arrivals-in-2025/",
+          "kind": "official",
+          "title": "TAT Newsroom"
+        },
+        {
+          "url": "https://www.euromonitor.com/article/top-100-city-destinations-index-2025-driving-growth-and-innovation",
+          "kind": "publisher",
+          "title": "Euromonitor: Top 100 City Destinations Index 2025"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "30.3 million"
+        ]
+      }
+    },
+    {
+      "id": "bkk.airport-rail-link",
+      "topic": "fare",
+      "claim": "The Airport Rail Link's City Line runs from Suvarnabhumi Airport to Phaya Thai in about 27 minutes, for 15 to 45 baht, from 05:30 to midnight.",
+      "value": {
+        "minutes": 27,
+        "fare_thb": [
+          15,
+          45
+        ],
+        "hours": "05:30-24:00"
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Airport_Rail_Link_(Bangkok)",
+          "kind": "reference",
+          "title": "Wikipedia: Airport Rail Link (Bangkok)"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "about 27 minutes",
+          "15 to 45 baht",
+          "05:30 to midnight"
+        ]
+      },
+      "watch": "Airport Rail Link[^.]{0,160}(baht|minute)",
+      "note": "Only a Wikipedia source so far; find the operator's own fare page."
+    },
+    {
+      "id": "bkk.srt-red-line.fare",
+      "topic": "fare",
+      "claim": "The SRT Dark Red Line runs from Don Mueang to Krung Thep Aphiwat Central Terminal for 33 baht.",
+      "value": {
+        "fare_thb": 33
+      },
+      "sources": [
+        {
+          "url": "https://www.srtet.co.th/en/fare-information",
+          "kind": "official",
+          "title": "SRT Electrified Train: fare information"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "33 baht"
+        ]
+      }
+    },
+    {
+      "id": "th.tdac",
+      "topic": "entry",
+      "claim": "The Thailand Digital Arrival Card is free and is filed online in the 72 hours before you arrive.",
+      "value": {
+        "fee": 0,
+        "window_hours": 72
+      },
+      "sources": [
+        {
+          "url": "https://tdac.immigration.go.th/",
+          "kind": "official",
+          "title": "Thailand Digital Arrival Card"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "72 hours"
+        ]
+      },
+      "watch": "Digital Arrival Card|TDAC"
+    },
+    {
+      "id": "th.plus-plus",
+      "topic": "tax",
+      "claim": "Prices marked \"++\" in Thailand add a 10% service charge and then 7% VAT, about 17.7% in all.",
+      "value": {
+        "service": 0.1,
+        "vat": 0.07,
+        "total": 0.177
+      },
+      "sources": [
+        {
+          "url": "https://www.thefinestthai.com/2026/05/31/thailand-plus-plus-pricing-vat-service-charge-guide/",
+          "kind": "secondary",
+          "title": "The Finest Thai: plus-plus pricing"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "17.7%"
+        ]
+      },
+      "note": "Find the Revenue Department's VAT page for the 7%."
+    },
+    {
+      "id": "bkk.express-boat.piers",
+      "topic": "transport",
+      "claim": "The Chao Phraya Express Boat runs from Sathorn Pier (CEN) upriver to Tha Tien (N8), Tha Chang (N9) and Phra Arthit (N13).",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Chao_Phraya_Express_Boat",
+          "kind": "reference",
+          "title": "Wikipedia: Chao Phraya Express Boat"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "Sathorn Pier (CEN)",
+          "Tha Tien (N8)",
+          "Tha Chang (N9)",
+          "Phra Arthit (N13)"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.dusit-thani",
+      "topic": "hotel",
+      "claim": "The original Dusit Thani Bangkok opened in 1970 and closed in January 2019; the rebuilt hotel opened on the same site on 27 September 2024, with 257 rooms.",
+      "value": {
+        "reopened": "2024-09-27",
+        "rooms": 257
+      },
+      "sources": [
+        {
+          "url": "https://www.dusit-international.com/en/newsroom/news-releases/606/iconic-dusit-thani-bangkok-hotel-confirms-reopening-on-27-september-2024-with-a-stunning-new-look-and-elevated-guest-experience",
+          "kind": "operator",
+          "title": "Dusit International: reopening on 27 September 2024"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Dusit_Thani_Bangkok",
+          "kind": "reference",
+          "title": "Wikipedia: Dusit Thani Bangkok"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "27 September 2024",
+          "257 rooms"
+        ]
+      },
+      "note": "Booking.com keeps the old hotel's page; link dusit-thani-bangkok-bangkok1."
+    },
+    {
+      "id": "bkk.hotel.mandarin-oriental",
+      "topic": "history",
+      "claim": "The Mandarin Oriental, Bangkok opened as The Oriental in 1876, the first hotel built in Thailand.",
+      "value": {
+        "opened": 1876
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mandarin_Oriental,_Bangkok",
+          "kind": "reference",
+          "title": "Wikipedia: Mandarin Oriental, Bangkok"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "in 1876"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.capella",
+      "topic": "hotel",
+      "claim": "Capella Bangkok opened in October 2020 on Charoen Krung Road, with 101 rooms, all facing the river.",
+      "value": {
+        "opened": "2020-10",
+        "rooms": 101
+      },
+      "sources": [
+        {
+          "url": "https://www.the50.com/discovery/Establishments/Thailand/Bangkok/Capella-Bangkok.html",
+          "kind": "news",
+          "title": "The World's 50 Best Hotels: Capella Bangkok"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "October 2020",
+          "101 rooms"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.avani-riverside",
+      "topic": "hotel",
+      "claim": "All 250 rooms at the Avani+ Riverside Bangkok look over the river, and its free shuttle boat runs to Sathorn Pier from 08:00 to 23:15.",
+      "value": {
+        "rooms": 250,
+        "boat_hours": "08:00-23:15"
+      },
+      "sources": [
+        {
+          "url": "https://www.avanihotels.com/uploads/minor/avani/documents/vriv/hotel/2025-hotel-information/shuttle-boat/avani_plus_riverside_bangkok_hotel_shuttle_boat_190225.pdf",
+          "kind": "operator",
+          "title": "Avani+ Riverside Bangkok: shuttle boat timetable"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "250 rooms",
+          "08:00 to 23:15"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.the-sukhothai",
+      "topic": "history",
+      "claim": "The Sukhothai Bangkok was completed in 1991 on South Sathorn Road, to a design by Kerry Hill and Ed Tuttle, on about six acres.",
+      "value": {
+        "completed": 1991
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Sukhothai_Bangkok",
+          "kind": "reference",
+          "title": "Wikipedia: The Sukhothai Bangkok"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "in 1991",
+          "six acres"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.marriott-marquis-queens-park",
+      "topic": "hotel",
+      "claim": "The Bangkok Marriott Marquis Queen's Park has 1,388 rooms and suites, on Sukhumvit Soi 22.",
+      "value": {
+        "rooms": 1388
+      },
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/bkkqp-bangkok-marriott-marquis-queens-park/overview/",
+          "kind": "operator",
+          "title": "Marriott: Bangkok Marriott Marquis Queen's Park"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "1,388 rooms"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.holiday-inn-express-sukhumvit-11",
+      "topic": "hotel",
+      "claim": "The Holiday Inn Express Bangkok Sukhumvit 11 has 160 rooms, with breakfast included.",
+      "value": {
+        "rooms": 160
+      },
+      "sources": [
+        {
+          "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bangkok/bkkex/hoteldetail",
+          "kind": "operator",
+          "title": "IHG: Holiday Inn Express Bangkok Sukhumvit 11"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "160 rooms"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.pathumwan-princess",
+      "topic": "hotel",
+      "claim": "The Pathumwan Princess Hotel has 451 rooms and suites and is connected to the MBK Center.",
+      "value": {
+        "rooms": 451
+      },
+      "sources": [
+        {
+          "url": "https://www.pprincess.com/",
+          "kind": "operator",
+          "title": "Pathumwan Princess Hotel"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/where-to-stay-in-bangkok.html": [
+          "451 rooms"
+        ]
+      }
+    }
+  ]
+}

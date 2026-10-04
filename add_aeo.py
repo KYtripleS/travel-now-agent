@@ -521,7 +521,8 @@ REVISED = {
     "narita-haneda-to-central-tokyo": "2026-09-27",              # added Narita <-> Haneda, official fares
     "charter-a-boat-for-a-day": "2026-09-23",                    # Spain 1 Oct 2026, Greece, Croatia
     "where-to-stay-in-tokyo": "2026-09-25",                      # rewrite: 17 verified hotels, tax, tables
-    "japan-tourist-taxes-2026": "2026-09-27",                    # corrected: Tokyo taxes minpaku from Apr 2027
+    "japan-tourist-taxes-2026": "2026-10-04",                    # corrected: summary still said ¥1,000 departure tax
+    "hong-kong-first-timers-guide": "2026-10-04",                # corrected: tram fare HK$3.30, not HK$3
 }
 
 STOP_HEADINGS = re.compile(r"frequently asked|^sources|references|liked this guide|keep reading|related reading",

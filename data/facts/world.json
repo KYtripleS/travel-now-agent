@@ -1,0 +1,14 @@
+{
+  "place": "World",
+  "facts": [
+    {
+      "id": "world.survey.greetwell-ai-2026",
+      "topic": "stat",
+      "claim": "In an online survey of 1,000 U.S. adults commissioned by Greetwell, a travel concierge company, in August 2026, 55% of the 485 who had used AI for travel got at least one bad recommendation, and 1 in 6 (16%) were recommended a place, tour or activity that wasn't real.",
+      "value": {"respondents": 1000, "ai_users": 485, "any_bad": 0.55, "not_real": 0.16, "wrong_details": 0.27, "closed": 0.10, "fielded": "2026-08"},
+      "sources": [{"url": "https://kesq.com/stacker-travel/2026/09/16/survey-ai-hallucinated-travel-destinations-for-1-in-6-users/", "kind": "news", "title": "Stacker: Survey: AI hallucinated travel destinations for 1 in 6 users"}],
+      "checked": "2026-10-04",
+      "note": "Commissioned by a company that sells travel help, so say who ran it whenever we quote it. Find Greetwell's own release."
+    }
+  ]
+}

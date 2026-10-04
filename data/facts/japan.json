@@ -1,0 +1,65 @@
+{
+  "place": "Japan",
+  "facts": [
+    {
+      "id": "jp.departure-tax",
+      "topic": "tax",
+      "claim": "Japan's International Tourist Tax, the departure tax, is ¥3,000 per person from 1 July 2026, collected in the price of your ticket.",
+      "value": {
+        "jpy": 3000,
+        "since": "2026-07-01"
+      },
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/ca/news/japans-international-tourist-tax-is-increasing/",
+          "kind": "official",
+          "title": "JNTO: Japan's International Tourist Tax is increasing"
+        }
+      ],
+      "checked": "2026-10-04",
+      "used_in": {
+        "articles/japan-tourist-taxes-2026.html": [
+          "¥3,000 from 1 July 2026",
+          "raised to ¥3,000 per person in 2026"
+        ],
+        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+          "from ¥1,000 to ¥3,000 per person in 2026"
+        ],
+        "articles/is-accommodation-tax-double-taxation.html": [
+          "¥3,000 departure tax"
+        ],
+        "articles/does-tourist-tax-reduce-overtourism.html": [
+          "¥3,000 departure tax"
+        ],
+        "articles/how-much-does-japan-cost.html": [
+          "¥3,000 departure tax"
+        ],
+        "articles/japan-tax-free-shopping-2026-changes.html": [
+          "¥3,000 departure tax"
+        ]
+      },
+      "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
+      "note": "Secondary sources say tickets issued by 30 June 2026 keep the old rate; confirm with the National Tax Agency before stating it. The three related-reading cards take their text from add_internal_links.ARTICLES."
+    },
+    {
+      "id": "jp.departure-tax.2019",
+      "topic": "tax",
+      "claim": "Japan's International Tourist Tax was ¥1,000 per person from its introduction in January 2019 until 30 June 2026.",
+      "value": {
+        "jpy": 1000
+      },
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/ca/news/japans-international-tourist-tax-is-increasing/",
+          "kind": "official",
+          "title": "JNTO: Japan's International Tourist Tax is increasing"
+        }
+      ],
+      "checked": "2026-10-04",
+      "status": "superseded",
+      "superseded_by": "jp.departure-tax",
+      "changed": "2026-07-01",
+      "note": "Our guide's summary line kept this figure until 4 October 2026 (corrections.html)."
+    }
+  ]
+}
