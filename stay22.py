@@ -77,6 +77,8 @@ PAGES = {
                                     address="Gora Station, Hakone, Japan"),
     "where-to-stay-in-seoul": dict(area="Myeongdong", lat=37.5609, lng=126.9863, zoom=15,
                                    address="Myeongdong Station, Seoul, South Korea"),
+    "where-to-stay-in-bangkok": dict(area="Asok", lat=13.7370, lng=100.5604, zoom=15,
+                                     address="Terminal 21, Bangkok, Thailand"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -178,6 +180,20 @@ HOTELS = {
     "Mondrian Seoul Itaewon": _B + "kr/mondrian-seoul-itaewon.html",
     "Josun Palace, a Luxury Collection Hotel, Seoul Gangnam": _B + "kr/josun-palace-a-luxury-collection-seoul-gangnam.html",
     "Signiel Seoul": _B + "kr/signiel-seoul.html",
+    # Bangkok (each Booking.com page checked by hand, October 2026)
+    "Hyatt Regency Bangkok Sukhumvit": _B + "th/hyatt-regency-bangkok-sukhumvit.html",
+    "Bangkok Marriott Marquis Queen’s Park": _B + "th/bangkok-marriott-marquis-queens-park.html",
+    "Holiday Inn Express Bangkok Sukhumvit 11": _B + "th/holiday-inn-express-bangkok-sukhumvit-11.html",
+    "Siam Kempinski Hotel Bangkok": _B + "th/siam-kempinski-bangkok.html",
+    "Pathumwan Princess Hotel": _B + "th/pathumwan-princess.html",
+    "Mandarin Oriental, Bangkok": _B + "th/mandarin-oriental-bangkok.html",
+    "Capella Bangkok": _B + "th/capella-bangkok.html",
+    "Avani+ Riverside Bangkok Hotel": _B + "th/avani-riverside-bangkok-bangkok.html",
+    "The Sukhothai Bangkok": _B + "th/the-sukhothai.html",
+    # the rebuilt hotel (opened 27 Sep 2024); Booking.com also keeps the old hotel's page
+    "Dusit Thani Bangkok": _B + "th/dusit-thani-bangkok-bangkok1.html",
+    "Riva Surya Bangkok": _B + "th/riva-surya-bangkok.html",
+    "Lamphu Tree House": _B + "th/lamphu-tree-house-boutique.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

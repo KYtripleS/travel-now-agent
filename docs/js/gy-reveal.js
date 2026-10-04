@@ -128,6 +128,7 @@
         : a.closest('.gy-rates') ? 'hotel'
         : a.closest('.gy-city-rates') ? 'city'
         : a.closest('.gy-quick-picks') ? 'quickpick'
+        : a.closest('.gy-globe') ? 'globe'
         : a.closest('.gy-widget, .gy-cta') ? 'widget'
         : 'prose';
       /* Travelpayouts short links take ?sub_id= (letters, digits, _), and its

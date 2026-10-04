@@ -373,6 +373,24 @@ SPECS = [
                      "your door, with Namsan and N Seoul Tower just to the south. The Lotte Hotel Seoul reopened "
                      "as The Grand Lotte Seoul in August 2026, with 868 rooms instead of 1,015. Three Myeongdong "
                      "hotels, with the catch for each, in our guide to where to stay in Seoul."),
+    dict(id=1035, slug="where-to-stay-bangkok-f1", article="articles/where-to-stay-in-bangkok.html",
+         board=ASIA, photo=35981279, title="BANGKOK", tagline="where to stay, area by area",
+         bullets=["First trip: Sukhumvit", "Shopping: Siam", "Grand hotels: Riverside",
+                  "Grand Palace: Old Town"], cta="See all 12 hotels →",
+         pin_title="Where to Stay in Bangkok (2026): 5 Areas and 12 Hotels Compared",
+         description="Sukhumvit between Nana and Phrom Phong for a first trip, Siam for shopping at the centre "
+                     "of the Skytrain, the Riverside for the grand hotels and boats to the temples, Silom and "
+                     "Sathorn for Lumphini Park, and the Old Town for the Grand Palace on foot. Five areas and 12 "
+                     "hotels, from the Mandarin Oriental of 1876 to a small hotel on the Bang Lamphu canal."),
+    dict(id=1036, slug="bangkok-riverside-f1", article="articles/where-to-stay-in-bangkok.html",
+         board=ASIA, photo=37391280, title="RIVERSIDE", tagline="Bangkok's grand hotels",
+         bullets=["Mandarin Oriental, since 1876", "Capella: 101 river rooms", "Avani+: a free boat to BTS",
+                  "Boats up to Wat Pho"], cta="Where to stay →",
+         pin_title="Staying on Bangkok's Riverside: Three Hotels and the Boats to the Temples",
+         description="From Sathorn Pier, beside Saphan Taksin station, the Chao Phraya Express Boat runs to Tha "
+                     "Tien for Wat Pho and Tha Chang for the Grand Palace. The Mandarin Oriental opened as The "
+                     "Oriental in 1876, Capella Bangkok has 101 rooms that all face the river, and Avani+ "
+                     "Riverside runs a free boat to Sathorn Pier. Part of our guide to where to stay in Bangkok."),
 ]
 
 

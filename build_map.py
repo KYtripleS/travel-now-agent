@@ -154,6 +154,127 @@ def _graticule() -> str:
     return "".join(parts)
 
 
+# --- the globe: land as dots, the cities we cover, the places readers fly from ------
+# Each city with guides: (lat, lng, the airport code to search flights to, a note when
+# that airport is not in the city). Centres are approximate; distances are shown
+# rounded to 100 km, which is well inside that error.
+CITY_INFO = {
+    "Tokyo": (35.68, 139.76, "TYO", None), "Kyoto": (35.01, 135.77, "OSA", "Osaka's airports are the nearest"),
+    "Osaka": (34.69, 135.50, "OSA", None), "Seoul": (37.57, 126.98, "SEL", None),
+    "Taipei": (25.03, 121.57, "TPE", None), "Hong Kong": (22.32, 114.17, "HKG", None),
+    "Bangkok": (13.76, 100.50, "BKK", None), "Chiang Mai": (18.79, 98.98, "CNX", None),
+    "Phuket": (7.88, 98.39, "HKT", None), "Hanoi": (21.03, 105.85, "HAN", None),
+    "Ho Chi Minh City": (10.78, 106.70, "SGN", None),
+    "Hoi An": (15.88, 108.33, "DAD", "Da Nang is the nearest airport"),
+    "Singapore": (1.35, 103.82, "SIN", None), "Kuala Lumpur": (3.14, 101.69, "KUL", None),
+    "Penang": (5.41, 100.33, "PEN", None), "Bali": (-8.65, 115.22, "DPS", None),
+    "Yogyakarta": (-7.80, 110.36, "YIA", None), "Manila": (14.60, 120.98, "MNL", None),
+    "Cebu": (10.32, 123.89, "CEB", None), "Sydney": (-33.87, 151.21, "SYD", None),
+    "Melbourne": (-37.81, 144.96, "MEL", None), "Perth": (-31.95, 115.86, "PER", None),
+}
+# Where readers fly from: (code, name, lat, lng, time zones that suggest it)
+ORIGINS = [
+    ("LON", "London", 51.51, -0.13, ["Europe/London", "Europe/Dublin"]),
+    ("PAR", "Paris", 48.86, 2.35, ["Europe/Paris", "Europe/Brussels", "Europe/Madrid"]),
+    ("FRA", "Frankfurt", 50.11, 8.68, ["Europe/Berlin", "Europe/Vienna", "Europe/Zurich"]),
+    ("AMS", "Amsterdam", 52.37, 4.90, ["Europe/Amsterdam"]),
+    ("DXB", "Dubai", 25.20, 55.27, ["Asia/Dubai"]),
+    ("DEL", "Delhi", 28.61, 77.21, ["Asia/Kolkata", "Asia/Calcutta"]),
+    ("NYC", "New York", 40.71, -74.01, ["America/New_York", "America/Detroit"]),
+    ("CHI", "Chicago", 41.88, -87.63, ["America/Chicago"]),
+    ("LAX", "Los Angeles", 34.05, -118.24, ["America/Los_Angeles"]),
+    ("SFO", "San Francisco", 37.77, -122.42, []),
+    ("YTO", "Toronto", 43.65, -79.38, ["America/Toronto"]),
+    ("YVR", "Vancouver", 49.28, -123.12, ["America/Vancouver"]),
+    ("TYO", "Tokyo", 35.68, 139.76, ["Asia/Tokyo"]),
+    ("OSA", "Osaka", 34.69, 135.50, []),
+    ("SEL", "Seoul", 37.57, 126.98, ["Asia/Seoul"]),
+    ("HKG", "Hong Kong", 22.32, 114.17, ["Asia/Hong_Kong"]),
+    ("SIN", "Singapore", 1.35, 103.82, ["Asia/Singapore"]),
+    ("BKK", "Bangkok", 13.76, 100.50, ["Asia/Bangkok"]),
+    ("SYD", "Sydney", -33.87, 151.21, ["Australia/Sydney", "Australia/Brisbane"]),
+    ("MEL", "Melbourne", -37.81, 144.96, ["Australia/Melbourne"]),
+    ("AKL", "Auckland", -36.85, 174.76, ["Pacific/Auckland"]),
+]
+ESIM = {"Japan": "best-esim-japan-2026", "South Korea": "best-esim-south-korea-2026",
+        "Thailand": "best-esim-thailand-2026", "Vietnam": "best-esim-vietnam-2026",
+        "Taiwan": "best-esim-taiwan-2026", "Australia": "best-esim-australia-2026"}
+DOT_STEP = 1.6                              # degrees between land dots, evenly spread on the sphere
+
+
+def _inside(lon: float, lat: float, ring: list[tuple[float, float]]) -> bool:
+    hit = False
+    j = len(ring) - 1
+    for i in range(len(ring)):
+        xi, yi = ring[i]
+        xj, yj = ring[j]
+        if (yi > lat) != (yj > lat) and lon < (xj - xi) * (lat - yi) / (yj - yi) + xi:
+            hit = not hit
+        j = i
+    return hit
+
+
+def globe_data(data: dict, topo: dict) -> dict:
+    """Land dots coloured by what we cover, plus cities, origins and their links."""
+    import stay22
+    rings = _rings(topo)
+    guides = {ATLAS_NAME.get(c["name"], c["name"]) for c in data["countries"]}
+    prep = {atlas for slug, atlas in POWER.items() if atlas not in guides
+            and (SITE / "travel-power" / f"{slug}.html").exists()}
+    shapes = []                                  # (cls, bbox, rings) with the 180th meridian unwrapped
+    for name, rs in rings.items():
+        if name == "Antarctica":
+            continue
+        cls = 1 if name in guides else 2 if name in prep else 0
+        for r in rs:
+            lons = [p[0] for p in r]
+            if max(lons) - min(lons) > 180:     # crosses the 180th meridian
+                r = [(lo + 360 if lo < 0 else lo, la) for lo, la in r]
+            lo0, lo1 = min(p[0] for p in r), max(p[0] for p in r)
+            la0, la1 = min(p[1] for p in r), max(p[1] for p in r)
+            shapes.append((cls, (lo0, lo1, la0, la1), r))
+    dots = []
+    lat = -56.0
+    while lat <= 83.0:
+        step = DOT_STEP / max(math.cos(math.radians(lat)), 0.05)
+        lon = -180.0 + step / 2
+        while lon < 180.0:
+            for cls, (lo0, lo1, la0, la1), r in shapes:
+                if not (la0 <= lat <= la1):
+                    continue
+                for L in (lon, lon + 360):
+                    if lo0 <= L <= lo1 and _inside(L, lat, r):
+                        dots += [round(lon * 10), round(lat * 10), cls]
+                        break
+                else:
+                    continue
+                break
+            lon += step
+        lat += DOT_STEP
+    cities = []
+    for c in data["countries"]:
+        for ct in c.get("cities") or []:
+            if ct["name"] not in CITY_INFO:
+                continue
+            la, lo, code, note = CITY_INFO[ct["name"]]
+            slugs = {g["slug"]: g["url"] for g in ct["guides"]}
+            pick = lambda key: next((u for sl, u in slugs.items() if key in sl), None)
+            stay = f"where-to-stay-in-{ct['slug']}"
+            links = {
+                "stay": f"articles/{stay}.html" if stay in stay22.PAGES else None,
+                "first": pick("first-timers-guide"), "todo": pick("things-to-do"),
+                "hub": ct.get("hub"),
+                "esim": f"articles/{ESIM.get(c['name'], 'best-travel-esim-2026')}.html",
+                "hotels": None if stay in stay22.PAGES else stay22.area_rates(la, lo),
+            }
+            cities.append({"name": ct["name"], "country": c["name"], "lat": la, "lng": lo,
+                           "guides": len(ct["guides"]), "iata": code, "note": note,
+                           "links": {k: v for k, v in links.items() if v}})
+    return {"dots": dots, "cities": cities,
+            "origins": [{"code": o[0], "name": o[1], "lat": o[2], "lng": o[3], "tz": o[4]} for o in ORIGINS],
+            "marker": "743846"}
+
+
 def lead_url(country: dict) -> str:
     """Best click target when a country has no hub yet: its lead city guide."""
     if country.get("hub"):
@@ -235,8 +356,26 @@ def build_svg(data: dict, topo: dict) -> str:
     return f"""{MARK_BEGIN}
 <div class="apac-map-wrap wmap" data-world="0 0 {W} {H}" data-apac="{apac}" data-apac-narrow="{narrow}">
   <div class="wmap-views" role="group" aria-label="Map view">
-    <button type="button" class="wmap-view is-on" data-view="world" aria-pressed="true">World</button>
+    <button type="button" class="wmap-view" data-view="globe" aria-pressed="false" hidden>Globe</button>
+    <button type="button" class="wmap-view is-on" data-view="world" aria-pressed="true">Flat map</button>
     <button type="button" class="wmap-view" data-view="apac" aria-pressed="false">East &amp; Southeast Asia, close up</button>
+  </div>
+  <div class="gy-globe" data-src="data/globe.json" hidden>
+    <div class="gy-globe-stage">
+      <canvas role="img" aria-label="A globe of the places we cover. Drag to turn it; the list beside it does the same job."></canvas>
+      <div class="gy-globe-zoom"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button></div>
+      <p class="gy-globe-hint">Drag to turn the globe. Tap a gold dot for that city.</p>
+    </div>
+    <div class="gy-globe-panel">
+      <div class="gy-globe-fields">
+        <label class="gy-globe-field"><span>Flying from</span><select class="gy-globe-from"></select></label>
+        <label class="gy-globe-field"><span>Around</span><input class="gy-globe-date" type="date"></label>
+      </div>
+      <div class="gy-globe-card" hidden></div>
+      <p class="gy-globe-list-h">Where our guides go, nearest first</p>
+      <ol class="gy-globe-list"></ol>
+      <p class="gy-globe-note">Distances are great-circle, between city centres, rounded to 100 km. Flight links open Aviasales, and hotel links Stay22, both our partners; we may earn a commission if you book, at no extra cost to you.</p>
+    </div>
   </div>
   <svg class="apac-map-svg wmap-svg" viewBox="0 0 {W} {H}" role="list"
        aria-label="Places we cover around the world — tap a country">
@@ -254,6 +393,7 @@ def build_svg(data: dict, topo: dict) -> str:
     <span class="apac-tt-meta"></span>
   </div>
 </div>
+<script defer src="js/globe.js"></script>
 <div class="wmap-key">
   <p class="wmap-key-h"><span class="wmap-swatch is-guides"></span>Destination guides · {n_g} places</p>
   <ul class="apac-legend" aria-label="Places with destination guides">
@@ -269,6 +409,9 @@ def build_svg(data: dict, topo: dict) -> str:
 
 def inject(html: str, block: str) -> str:
     pat = re.compile(re.escape(MARK_BEGIN) + r".*?" + re.escape(MARK_END), re.S)
+    stamp = re.search(r'js/globe\.js\?v=[0-9a-f]+', html)      # keep bust_assets' version stamp
+    if stamp:
+        block = block.replace('src="js/globe.js"', f'src="{stamp.group(0)}"')
     if pat.search(html):
         return pat.sub(lambda _: block, html)
     raise SystemExit("apac-map markers not found in index.html — add the section shell first.")
@@ -279,7 +422,13 @@ def main() -> None:
     if not GEO.exists():
         print(f"world map: {GEO.relative_to(REPO)} missing — map left as it is")
         return
-    block = build_svg(data, json.loads(GEO.read_text(encoding="utf-8")))
+    topo = json.loads(GEO.read_text(encoding="utf-8"))
+    block = build_svg(data, topo)
+    globe = json.dumps(globe_data(data, topo), ensure_ascii=False, separators=(",", ":"))
+    for base in (SITE, DOCS):
+        out = base / "data" / "globe.json"
+        if not out.exists() or out.read_text(encoding="utf-8") != globe:
+            out.write_text(globe, encoding="utf-8")
     n = 0
     for base in (SITE, DOCS):
         idx = base / "index.html"

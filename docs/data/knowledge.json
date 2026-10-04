@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-12",
+  "generated": "2026-10-02",
   "totals": {
     "countries": 11,
     "cities": 22,
-    "guides": 101
+    "guides": 155
   },
   "countries": [
     {
@@ -17,6 +17,13 @@
           "slug": "tokyo",
           "hub": "cities/tokyo/",
           "guides": [
+            {
+              "title": "The Best Day Trips from Tokyo (2026): Where to Go & How to Book",
+              "url": "articles/day-trips-from-tokyo.html",
+              "slug": "day-trips-from-tokyo",
+              "type": "guide",
+              "tags": []
+            },
             {
               "title": "Your First Day in Tokyo: A Calm Arrival Plan",
               "url": "articles/first-day-in-tokyo-arrival-plan.html",
@@ -64,7 +71,14 @@
               "tags": []
             },
             {
-              "title": "Tokyo to Kyoto: A Practical Guide to Shinkansen, Flight, and Bus Travel",
+              "title": "Kissaten in Tokyo: Nine Old Coffee Houses Worth the Detour (2026)",
+              "url": "articles/tokyo-kissaten-guide.html",
+              "slug": "tokyo-kissaten-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Tokyo to Kyoto: Flight, Shinkansen or Bus? (2026 Prices)",
               "url": "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html",
               "slug": "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus",
               "type": "guide",
@@ -73,7 +87,14 @@
               ]
             },
             {
-              "title": "Where to Stay in Tokyo: Neighbourhoods Compared",
+              "title": "Where to Book a Tokyo Food Tour: Viator, Klook or KKday? (2026)",
+              "url": "articles/where-to-book-tokyo-food-tour.html",
+              "slug": "where-to-book-tokyo-food-tour",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Where to Stay in Tokyo (2026): Six Neighbourhoods and 17 Hotels, Compared",
               "url": "articles/where-to-stay-in-tokyo.html",
               "slug": "where-to-stay-in-tokyo",
               "type": "stay",
@@ -124,6 +145,15 @@
               "slug": "three-slow-days-in-kyoto",
               "type": "itinerary",
               "tags": []
+            },
+            {
+              "title": "Where to Stay in Kyoto (2026): Five Areas and 14 Hotels and Ryokan, Compared",
+              "url": "articles/where-to-stay-in-kyoto.html",
+              "slug": "where-to-stay-in-kyoto",
+              "type": "stay",
+              "tags": [
+                "Hotels"
+              ]
             }
           ]
         },
@@ -152,6 +182,15 @@
               "slug": "things-to-do-in-osaka",
               "type": "places",
               "tags": []
+            },
+            {
+              "title": "Where to Stay in Osaka (2026): Five Areas and 10 Hotels, Compared",
+              "url": "articles/where-to-stay-in-osaka.html",
+              "slug": "where-to-stay-in-osaka",
+              "type": "stay",
+              "tags": [
+                "Hotels"
+              ]
             }
           ]
         }
@@ -164,6 +203,15 @@
           "type": "guide",
           "tags": [
             "Timing"
+          ]
+        },
+        {
+          "title": "How Much Cash Do You Need in Japan? A Guide for 2026",
+          "url": "articles/how-much-cash-japan.html",
+          "slug": "how-much-cash-japan",
+          "type": "guide",
+          "tags": [
+            "Money"
           ]
         },
         {
@@ -192,7 +240,7 @@
           ]
         },
         {
-          "title": "Japan Tickets That Sell Out: What to Book Before You Fly (2026)",
+          "title": "Japan Tickets That Sell Out (2026): What to Book",
           "url": "articles/japan-book-in-advance-2026.html",
           "slug": "japan-book-in-advance-2026",
           "type": "guide",
@@ -210,7 +258,21 @@
           ]
         },
         {
-          "title": "Is the JR Pass Worth It in 2026? The Honest Math",
+          "title": "Japan Tax-Free Shopping Changes 1 Nov 2026: What Tourists Need to Know",
+          "url": "articles/japan-tax-free-shopping-2026-changes.html",
+          "slug": "japan-tax-free-shopping-2026-changes",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Japan's Tourist Taxes in 2026: Kyoto's Hotel-Tax Rise & What to Budget",
+          "url": "articles/japan-tourist-taxes-2026.html",
+          "slug": "japan-tourist-taxes-2026",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Is the JR Pass Worth It in 2026? An Honest Calculation",
           "url": "articles/jr-pass-worth-it-2026.html",
           "slug": "jr-pass-worth-it-2026",
           "type": "guide",
@@ -226,9 +288,16 @@
           "tags": [
             "Transport"
           ]
+        },
+        {
+          "title": "Visit Japan Web: How to Register Before You Fly (2026)",
+          "url": "articles/visit-japan-web-guide.html",
+          "slug": "visit-japan-web-guide",
+          "type": "guide",
+          "tags": []
         }
       ],
-      "guideCount": 24
+      "guideCount": 33
     },
     {
       "name": "Australia",
@@ -236,6 +305,59 @@
       "region": "Oceania",
       "hub": "countries/australia/",
       "cities": [
+        {
+          "name": "Sydney",
+          "slug": "sydney",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Getting Around Sydney: Opal Card, Trains, Ferries & Buses",
+              "url": "articles/getting-around-sydney.html",
+              "slug": "getting-around-sydney",
+              "type": "transport",
+              "tags": [
+                "Transport"
+              ]
+            },
+            {
+              "title": "Your First Visit to Sydney: A Gentle Orientation",
+              "url": "articles/sydney-first-timers-guide.html",
+              "slug": "sydney-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Sydney Harbour Cruises: Which One Is Actually Worth Booking",
+              "url": "articles/sydney-harbour-cruises-guide.html",
+              "slug": "sydney-harbour-cruises-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Sydney: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-sydney.html",
+              "slug": "things-to-do-in-sydney",
+              "type": "places",
+              "tags": []
+            },
+            {
+              "title": "Where to Book a Sydney Harbour Cruise: Klook, Viator or GetYourGuide?",
+              "url": "articles/where-to-book-sydney-harbour-cruise.html",
+              "slug": "where-to-book-sydney-harbour-cruise",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Where to Stay in Sydney (2026): Six Areas and 13 Hotels, Compared",
+              "url": "articles/where-to-stay-in-sydney.html",
+              "slug": "where-to-stay-in-sydney",
+              "type": "stay",
+              "tags": [
+                "Hotels"
+              ]
+            }
+          ]
+        },
         {
           "name": "Melbourne",
           "slug": "melbourne",
@@ -251,6 +373,15 @@
               ]
             },
             {
+              "title": "Melbourne Airport to the City: SkyBus, Rideshare, or the Budget Way",
+              "url": "articles/melbourne-airport-to-city.html",
+              "slug": "melbourne-airport-to-city",
+              "type": "guide",
+              "tags": [
+                "Airport"
+              ]
+            },
+            {
               "title": "Melbourne: A First-Timer's Guide",
               "url": "articles/melbourne-first-timers-guide.html",
               "slug": "melbourne-first-timers-guide",
@@ -263,6 +394,15 @@
               "slug": "things-to-do-in-melbourne",
               "type": "places",
               "tags": []
+            },
+            {
+              "title": "Where to Stay in Melbourne (2026): Five Areas and 12 Hotels, Compared",
+              "url": "articles/where-to-stay-in-melbourne.html",
+              "slug": "where-to-stay-in-melbourne",
+              "type": "stay",
+              "tags": [
+                "Hotels"
+              ]
             }
           ]
         },
@@ -295,36 +435,6 @@
               "tags": []
             }
           ]
-        },
-        {
-          "name": "Sydney",
-          "slug": "sydney",
-          "hub": null,
-          "guides": [
-            {
-              "title": "Getting Around Sydney: Opal Card, Trains, Ferries & Buses",
-              "url": "articles/getting-around-sydney.html",
-              "slug": "getting-around-sydney",
-              "type": "transport",
-              "tags": [
-                "Transport"
-              ]
-            },
-            {
-              "title": "Your First Visit to Sydney: A Gentle Orientation",
-              "url": "articles/sydney-first-timers-guide.html",
-              "slug": "sydney-first-timers-guide",
-              "type": "guide",
-              "tags": []
-            },
-            {
-              "title": "Sydney: The Places Worth Your Time",
-              "url": "articles/things-to-do-in-sydney.html",
-              "slug": "things-to-do-in-sydney",
-              "type": "places",
-              "tags": []
-            }
-          ]
         }
       ],
       "guides": [
@@ -338,7 +448,7 @@
           ]
         }
       ],
-      "guideCount": 10
+      "guideCount": 15
     },
     {
       "name": "Thailand",
@@ -359,11 +469,34 @@
               "tags": []
             },
             {
+              "title": "Bangkok Dinner Cruises: How to Choose From 28 Boats on the Chao Phraya",
+              "url": "articles/bangkok-river-cruises-guide.html",
+              "slug": "bangkok-river-cruises-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
               "title": "Bangkok: The Places Worth Your Time",
               "url": "articles/things-to-do-in-bangkok.html",
               "slug": "things-to-do-in-bangkok",
               "type": "places",
               "tags": []
+            },
+            {
+              "title": "Where to Book a Bangkok Dinner Cruise: Klook, KKday or Viator?",
+              "url": "articles/where-to-book-bangkok-dinner-cruise.html",
+              "slug": "where-to-book-bangkok-dinner-cruise",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Where to Stay in Bangkok (2026): Five Areas and 12 Hotels, Compared",
+              "url": "articles/where-to-stay-in-bangkok.html",
+              "slug": "where-to-stay-in-bangkok",
+              "type": "stay",
+              "tags": [
+                "Hotels"
+              ]
             }
           ]
         },
@@ -419,7 +552,92 @@
           "tags": []
         }
       ],
-      "guideCount": 7
+      "guideCount": 10
+    },
+    {
+      "name": "South Korea",
+      "slug": "south-korea",
+      "region": "East Asia",
+      "hub": null,
+      "cities": [
+        {
+          "name": "Seoul",
+          "slug": "seoul",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Seoul: A First-Timer's Guide",
+              "url": "articles/seoul-first-timers-guide.html",
+              "slug": "seoul-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Seoul in 3 Days: A First-Timer's Unhurried Itinerary",
+              "url": "articles/seoul-itinerary-3-days.html",
+              "slug": "seoul-itinerary-3-days",
+              "type": "itinerary",
+              "tags": []
+            },
+            {
+              "title": "Seoul: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-seoul.html",
+              "slug": "things-to-do-in-seoul",
+              "type": "places",
+              "tags": []
+            },
+            {
+              "title": "Where to Book a Seoul DMZ Tour: Klook, KKday or Viator?",
+              "url": "articles/where-to-book-seoul-dmz-tour.html",
+              "slug": "where-to-book-seoul-dmz-tour",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Where to Stay in Seoul (2026): Five Areas and 12 Hotels, Compared",
+              "url": "articles/where-to-stay-in-seoul.html",
+              "slug": "where-to-stay-in-seoul",
+              "type": "stay",
+              "tags": [
+                "Hotels"
+              ]
+            }
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "title": "Do You Need a K-ETA for South Korea? (2026 Update)",
+          "url": "articles/do-you-need-keta-south-korea.html",
+          "slug": "do-you-need-keta-south-korea",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "How Much Does a Trip to South Korea Cost? Your 2026 Budget Guide",
+          "url": "articles/how-much-does-south-korea-cost.html",
+          "slug": "how-much-does-south-korea-cost",
+          "type": "guide",
+          "tags": [
+            "Money"
+          ]
+        },
+        {
+          "title": "South Korea: A Layered Profile for Thoughtful Travelers",
+          "url": "articles/south-korea-country-profile.html",
+          "slug": "south-korea-country-profile",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Staying Connected in South Korea: eSIM, Local SIM, or Pocket WiFi?",
+          "url": "articles/staying-connected-south-korea.html",
+          "slug": "staying-connected-south-korea",
+          "type": "guide",
+          "tags": []
+        }
+      ],
+      "guideCount": 9
     },
     {
       "name": "Vietnam",
@@ -432,6 +650,13 @@
           "slug": "hanoi",
           "hub": null,
           "guides": [
+            {
+              "title": "Halong Bay Cruises From Hanoi: Day Trip or Overnight, Honestly",
+              "url": "articles/halong-bay-cruises-from-hanoi.html",
+              "slug": "halong-bay-cruises-from-hanoi",
+              "type": "guide",
+              "tags": []
+            },
             {
               "title": "Hanoi for First-Timers: A Gentle Orientation",
               "url": "articles/hanoi-first-timers-guide.html",
@@ -495,7 +720,62 @@
           ]
         }
       ],
-      "guideCount": 6
+      "guideCount": 7
+    },
+    {
+      "name": "Taiwan",
+      "slug": "taiwan",
+      "region": "East Asia",
+      "hub": null,
+      "cities": [
+        {
+          "name": "Taipei",
+          "slug": "taipei",
+          "hub": null,
+          "guides": [
+            {
+              "title": "Taipei: A First-Timer's Guide",
+              "url": "articles/taipei-first-timers-guide.html",
+              "slug": "taipei-first-timers-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Taipei: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-taipei.html",
+              "slug": "things-to-do-in-taipei",
+              "type": "places",
+              "tags": []
+            },
+            {
+              "title": "Where to Book a Taipei Day Tour: KKday or Klook?",
+              "url": "articles/where-to-book-taipei-day-tour.html",
+              "slug": "where-to-book-taipei-day-tour",
+              "type": "guide",
+              "tags": []
+            }
+          ]
+        }
+      ],
+      "guides": [
+        {
+          "title": "Getting Around Taiwan: EasyCard, the Taipei MRT & High-Speed Rail",
+          "url": "articles/getting-around-taiwan.html",
+          "slug": "getting-around-taiwan",
+          "type": "transport",
+          "tags": [
+            "Transport"
+          ]
+        },
+        {
+          "title": "Taiwan High Speed Rail: Pass, Early Bird, or the Tourist Discount?",
+          "url": "articles/taiwan-high-speed-rail-pass-worth-it.html",
+          "slug": "taiwan-high-speed-rail-pass-worth-it",
+          "type": "guide",
+          "tags": []
+        }
+      ],
+      "guideCount": 5
     },
     {
       "name": "Indonesia",
@@ -550,52 +830,6 @@
       "guideCount": 4
     },
     {
-      "name": "South Korea",
-      "slug": "south-korea",
-      "region": "East Asia",
-      "hub": null,
-      "cities": [
-        {
-          "name": "Seoul",
-          "slug": "seoul",
-          "hub": null,
-          "guides": [
-            {
-              "title": "Seoul: A First-Timer's Guide",
-              "url": "articles/seoul-first-timers-guide.html",
-              "slug": "seoul-first-timers-guide",
-              "type": "guide",
-              "tags": []
-            },
-            {
-              "title": "Seoul in 3 Days: A First-Timer's Unhurried Itinerary",
-              "url": "articles/seoul-itinerary-3-days.html",
-              "slug": "seoul-itinerary-3-days",
-              "type": "itinerary",
-              "tags": []
-            },
-            {
-              "title": "Seoul: The Places Worth Your Time",
-              "url": "articles/things-to-do-in-seoul.html",
-              "slug": "things-to-do-in-seoul",
-              "type": "places",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "guides": [
-        {
-          "title": "South Korea: A Layered Profile for Thoughtful Travelers",
-          "url": "articles/south-korea-country-profile.html",
-          "slug": "south-korea-country-profile",
-          "type": "guide",
-          "tags": []
-        }
-      ],
-      "guideCount": 4
-    },
-    {
       "name": "Philippines",
       "slug": "philippines",
       "region": "Southeast Asia",
@@ -641,44 +875,41 @@
       "guideCount": 3
     },
     {
-      "name": "Taiwan",
-      "slug": "taiwan",
+      "name": "Hong Kong",
+      "slug": "hong-kong",
       "region": "East Asia",
       "hub": null,
       "cities": [
         {
-          "name": "Taipei",
-          "slug": "taipei",
+          "name": "Hong Kong",
+          "slug": "hong-kong",
           "hub": null,
           "guides": [
             {
-              "title": "Taipei: A First-Timer's Guide",
-              "url": "articles/taipei-first-timers-guide.html",
-              "slug": "taipei-first-timers-guide",
+              "title": "Hong Kong: A First-Timer's Guide",
+              "url": "articles/hong-kong-first-timers-guide.html",
+              "slug": "hong-kong-first-timers-guide",
               "type": "guide",
               "tags": []
             },
             {
-              "title": "Taipei: The Places Worth Your Time",
-              "url": "articles/things-to-do-in-taipei.html",
-              "slug": "things-to-do-in-taipei",
+              "title": "Hong Kong Harbour Cruises: What's Worth Paying For on Victoria Harbour",
+              "url": "articles/hong-kong-harbour-cruises-guide.html",
+              "slug": "hong-kong-harbour-cruises-guide",
+              "type": "guide",
+              "tags": []
+            },
+            {
+              "title": "Hong Kong: The Places Worth Your Time",
+              "url": "articles/things-to-do-in-hong-kong.html",
+              "slug": "things-to-do-in-hong-kong",
               "type": "places",
               "tags": []
             }
           ]
         }
       ],
-      "guides": [
-        {
-          "title": "Getting Around Taiwan: EasyCard, the Taipei MRT & High-Speed Rail",
-          "url": "articles/getting-around-taiwan.html",
-          "slug": "getting-around-taiwan",
-          "type": "transport",
-          "tags": [
-            "Transport"
-          ]
-        }
-      ],
+      "guides": [],
       "guideCount": 3
     },
     {
@@ -727,37 +958,6 @@
       "guideCount": 3
     },
     {
-      "name": "Hong Kong",
-      "slug": "hong-kong",
-      "region": "East Asia",
-      "hub": null,
-      "cities": [
-        {
-          "name": "Hong Kong",
-          "slug": "hong-kong",
-          "hub": null,
-          "guides": [
-            {
-              "title": "Hong Kong: A First-Timer's Guide",
-              "url": "articles/hong-kong-first-timers-guide.html",
-              "slug": "hong-kong-first-timers-guide",
-              "type": "guide",
-              "tags": []
-            },
-            {
-              "title": "Hong Kong: The Places Worth Your Time",
-              "url": "articles/things-to-do-in-hong-kong.html",
-              "slug": "things-to-do-in-hong-kong",
-              "type": "places",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "guides": [],
-      "guideCount": 2
-    },
-    {
       "name": "Singapore",
       "slug": "singapore",
       "region": "Southeast Asia",
@@ -791,12 +991,145 @@
   ],
   "prep": [
     {
+      "category": "General",
+      "guides": [
+        {
+          "title": "Choosing a Power Bank for Travel (2026): Understanding Airline Rules and Practical Picks",
+          "url": "articles/best-power-bank-travel-2026.html",
+          "slug": "best-power-bank-travel-2026",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Gently Navigating Asia's Power: A Guide to the Best Travel Adapter for Your Trip (2026)",
+          "url": "articles/best-travel-adapter-asia-2026.html",
+          "slug": "best-travel-adapter-asia-2026",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Rent a Boat for a Day Without a License",
+          "url": "articles/charter-a-boat-for-a-day.html",
+          "slug": "charter-a-boat-for-a-day",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Does a Tourist Tax Actually Reduce Overtourism?",
+          "url": "articles/does-tourist-tax-reduce-overtourism.html",
+          "slug": "does-tourist-tax-reduce-overtourism",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Europe Rail Passes in 2026: What Just Changed, and When a Pass Actually Wins",
+          "url": "articles/europe-rail-pass-worth-it-2026.html",
+          "slug": "europe-rail-pass-worth-it-2026",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Your First International Trip: A Calm Pre-Flight Checklist",
+          "url": "articles/first-international-trip-checklist.html",
+          "slug": "first-international-trip-checklist",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Booking International Flights: Seven Things the Price Doesn't Tell You",
+          "url": "articles/how-to-book-international-flights.html",
+          "slug": "how-to-book-international-flights",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "How to Save Money on International Travel: 7 Levers That Actually Move the Number",
+          "url": "articles/how-to-save-money-on-international-travel.html",
+          "slug": "how-to-save-money-on-international-travel",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Is Japan's Accommodation Tax Double Taxation? The Honest Answer",
+          "url": "articles/is-accommodation-tax-double-taxation.html",
+          "slug": "is-accommodation-tax-double-taxation",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Is the Weak Yen Really a Bargain for Travellers",
+          "url": "articles/is-the-weak-yen-a-bargain-or-trap.html",
+          "slug": "is-the-weak-yen-a-bargain-or-trap",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Is the KORAIL Pass Worth It in 2026? The Honest Arithmetic",
+          "url": "articles/korail-pass-worth-it-2026.html",
+          "slug": "korail-pass-worth-it-2026",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Okinawa for First-Timers: Navigating Naha, the Monorail, and Island Roads",
+          "url": "articles/okinawa-first-timers-guide.html",
+          "slug": "okinawa-first-timers-guide",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Pre-Flight Checklist for Passengers: 25 Steps Before You Fly",
+          "url": "articles/pre-flight-checklist-48-hours.html",
+          "slug": "pre-flight-checklist-48-hours",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Things to Do in Okinawa (2026): Beaches, Memory, and the Slow North",
+          "url": "articles/things-to-do-in-okinawa.html",
+          "slug": "things-to-do-in-okinawa",
+          "type": "places",
+          "tags": []
+        },
+        {
+          "title": "Where to Book a Halong Bay Cruise: Klook, Viator, or Direct?",
+          "url": "articles/where-to-book-halong-bay-cruise.html",
+          "slug": "where-to-book-halong-bay-cruise",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Where to Book a Jeju Bus Tour: Klook, KKday, or Somewhere Else?",
+          "url": "articles/where-to-book-jeju-bus-tour.html",
+          "slug": "where-to-book-jeju-bus-tour",
+          "type": "guide",
+          "tags": []
+        },
+        {
+          "title": "Where to Book a Mount Fuji Day Tour: Klook, KKday or Viator?",
+          "url": "articles/where-to-book-mount-fuji-day-tour.html",
+          "slug": "where-to-book-mount-fuji-day-tour",
+          "type": "guide",
+          "tags": []
+        }
+      ]
+    },
+    {
       "category": "eSIM",
       "guides": [
         {
           "title": "Airalo vs. Holafly vs. Saily: Navigating Travel eSIM Options in 2026",
           "url": "articles/airalo-vs-holafly-vs-saily.html",
           "slug": "airalo-vs-holafly-vs-saily",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Best eSIM for Australia (2026): The Honest Pick for Your Trip",
+          "url": "articles/best-esim-australia-2026.html",
+          "slug": "best-esim-australia-2026",
           "type": "guide",
           "tags": [
             "eSIM"
@@ -812,7 +1145,7 @@
           ]
         },
         {
-          "title": "Best eSIM for Japan (2026): How I'd Choose",
+          "title": "Best eSIM for Japan (2026): Airalo vs Saily Compared",
           "url": "articles/best-esim-japan-2026.html",
           "slug": "best-esim-japan-2026",
           "type": "guide",
@@ -821,7 +1154,7 @@
           ]
         },
         {
-          "title": "Best Travel eSIM for Japan, Korea & Vietnam (2026)",
+          "title": "Best eSIM for Japan, South Korea & Vietnam (2026)",
           "url": "articles/best-esim-japan-korea-vietnam.html",
           "slug": "best-esim-japan-korea-vietnam",
           "type": "guide",
@@ -833,6 +1166,15 @@
           "title": "Best eSIM for South Korea (2026): How I'd Choose",
           "url": "articles/best-esim-south-korea-2026.html",
           "slug": "best-esim-south-korea-2026",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Best eSIM for Taiwan (2026): A Practical Guide to Staying Connected",
+          "url": "articles/best-esim-taiwan-2026.html",
+          "slug": "best-esim-taiwan-2026",
           "type": "guide",
           "tags": [
             "eSIM"
@@ -857,9 +1199,27 @@
           ]
         },
         {
+          "title": "An Honest Look at eSIMs for Vietnam (2026): Practical Picks and Real Data Needs",
+          "url": "articles/best-esim-vietnam-2026.html",
+          "slug": "best-esim-vietnam-2026",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
           "title": "Best Travel eSIM 2026: Ranked, Honestly",
           "url": "articles/best-travel-esim-2026.html",
           "slug": "best-travel-esim-2026",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
+          "title": "Do \"Unlimited\" Travel eSIMs Really Give You Unlimited Data?",
+          "url": "articles/do-unlimited-travel-esims-give-unlimited-data.html",
+          "slug": "do-unlimited-travel-esims-give-unlimited-data",
           "type": "guide",
           "tags": [
             "eSIM"
@@ -875,12 +1235,116 @@
           ]
         },
         {
+          "title": "eSIM vs Physical SIM Card for Travel (2026): Which Should You Buy?",
+          "url": "articles/esim-vs-physical-sim-card.html",
+          "slug": "esim-vs-physical-sim-card",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        },
+        {
           "title": "Pocket WiFi vs eSIM: Navigating International Connectivity in 2026",
           "url": "articles/pocket-wifi-vs-esim.html",
           "slug": "pocket-wifi-vs-esim",
           "type": "guide",
           "tags": [
             "eSIM"
+          ]
+        },
+        {
+          "title": "When Should You Activate Your Travel eSIM? Before You Fly or When You Land",
+          "url": "articles/when-to-activate-travel-esim.html",
+          "slug": "when-to-activate-travel-esim",
+          "type": "guide",
+          "tags": [
+            "eSIM"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Insurance",
+      "guides": [
+        {
+          "title": "Best Travel Insurance 2026: Ranked by Traveler Type",
+          "url": "articles/best-travel-insurance-2026.html",
+          "slug": "best-travel-insurance-2026",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Travel Insurance for Australia (2026): What Actually Matters",
+          "url": "articles/best-travel-insurance-australia-2026.html",
+          "slug": "best-travel-insurance-australia-2026",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Navigating Travel Insurance for Digital Nomads in 2026: A Comprehensive Buyer's Guide",
+          "url": "articles/best-travel-insurance-digital-nomads-2026.html",
+          "slug": "best-travel-insurance-digital-nomads-2026",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Is Travel Insurance a Rip-Off? What the Economics Actually Says",
+          "url": "articles/is-travel-insurance-a-rip-off.html",
+          "slug": "is-travel-insurance-a-rip-off",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Is Travel Insurance Actually Worth It? An Honest Look",
+          "url": "articles/is-travel-insurance-worth-it.html",
+          "slug": "is-travel-insurance-worth-it",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "SafetyWing vs. World Nomads: Navigating Travel Insurance in 2026",
+          "url": "articles/safetywing-vs-world-nomads.html",
+          "slug": "safetywing-vs-world-nomads",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Travel Insurance Compared: SafetyWing, World Nomads, and Genki",
+          "url": "articles/travel-insurance-compared.html",
+          "slug": "travel-insurance-compared",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Travel Insurance for Japan (2026): Do You Actually Need It?",
+          "url": "articles/travel-insurance-japan.html",
+          "slug": "travel-insurance-japan",
+          "type": "guide",
+          "tags": [
+            "Insurance"
+          ]
+        },
+        {
+          "title": "Travel Insurance for South Korea (2026): A Practical Guide",
+          "url": "articles/travel-insurance-south-korea.html",
+          "slug": "travel-insurance-south-korea",
+          "type": "guide",
+          "tags": [
+            "Insurance"
           ]
         }
       ]
@@ -917,7 +1381,7 @@
           ]
         },
         {
-          "title": "Carry-On Packing for a 10-Day Journey Through Japan (2026)",
+          "title": "Carry-On Packing List for 10 Days in Japan (2026)",
           "url": "articles/carry-on-packing-list-10-day-japan.html",
           "slug": "carry-on-packing-list-10-day-japan",
           "type": "itinerary",
@@ -944,6 +1408,15 @@
           ]
         },
         {
+          "title": "What to Pack for Okinawa (2026): Embracing Beach, Humidity, and Typhoon Season",
+          "url": "articles/what-to-pack-for-okinawa.html",
+          "slug": "what-to-pack-for-okinawa",
+          "type": "guide",
+          "tags": [
+            "Packing"
+          ]
+        },
+        {
           "title": "What to Pack for Southeast Asia",
           "url": "articles/what-to-pack-for-southeast-asia.html",
           "slug": "what-to-pack-for-southeast-asia",
@@ -955,69 +1428,10 @@
       ]
     },
     {
-      "category": "Insurance",
-      "guides": [
-        {
-          "title": "Best Travel Insurance 2026: Ranked by Traveler Type",
-          "url": "articles/best-travel-insurance-2026.html",
-          "slug": "best-travel-insurance-2026",
-          "type": "guide",
-          "tags": [
-            "Insurance"
-          ]
-        },
-        {
-          "title": "Navigating Travel Insurance for Digital Nomads in 2026: A Comprehensive Buyer's Guide",
-          "url": "articles/best-travel-insurance-digital-nomads-2026.html",
-          "slug": "best-travel-insurance-digital-nomads-2026",
-          "type": "guide",
-          "tags": [
-            "Insurance"
-          ]
-        },
-        {
-          "title": "Is Travel Insurance Actually Worth It? An Honest Look",
-          "url": "articles/is-travel-insurance-worth-it.html",
-          "slug": "is-travel-insurance-worth-it",
-          "type": "guide",
-          "tags": [
-            "Insurance"
-          ]
-        },
-        {
-          "title": "SafetyWing vs. World Nomads: Navigating Travel Insurance in 2026",
-          "url": "articles/safetywing-vs-world-nomads.html",
-          "slug": "safetywing-vs-world-nomads",
-          "type": "guide",
-          "tags": [
-            "Insurance"
-          ]
-        },
-        {
-          "title": "Travel Insurance Compared: SafetyWing, World Nomads, and Genki",
-          "url": "articles/travel-insurance-compared.html",
-          "slug": "travel-insurance-compared",
-          "type": "guide",
-          "tags": [
-            "Insurance"
-          ]
-        },
-        {
-          "title": "Do You Need Travel Insurance for Japan? (2026)",
-          "url": "articles/travel-insurance-japan.html",
-          "slug": "travel-insurance-japan",
-          "type": "guide",
-          "tags": [
-            "Insurance"
-          ]
-        }
-      ]
-    },
-    {
       "category": "Airport",
       "guides": [
         {
-          "title": "Airport Security Bags: Navigating Carry-On and Personal Item Standards for International Travel",
+          "title": "Airport Security Bag Rules (2026): Carry-On and Personal Item Sizes",
           "url": "articles/airport-security-bag-rules.html",
           "slug": "airport-security-bag-rules",
           "type": "guide",
@@ -1026,7 +1440,7 @@
           ]
         },
         {
-          "title": "Airport Security Checklist: A 12-Point Pre-Flight Verification for International Travelers (2026)",
+          "title": "Airport Security and Pre-Flight Checklist: 12 Checks Before You Fly (2026)",
           "url": "articles/airport-security-checklist.html",
           "slug": "airport-security-checklist",
           "type": "guide",
@@ -1035,7 +1449,7 @@
           ]
         },
         {
-          "title": "Airport Security Liquids Checklist: Carry-On Travel Prep",
+          "title": "Airport Liquid Rules for Carry-Ons: Limits and Checklist (2026)",
           "url": "articles/airport-security-liquids.html",
           "slug": "airport-security-liquids",
           "type": "guide",
@@ -1046,21 +1460,57 @@
       ]
     },
     {
-      "category": "General",
+      "category": "Hotels",
       "guides": [
         {
-          "title": "Rent a Boat for a Day Without a License: A Traveller's Guide",
-          "url": "articles/charter-a-boat-for-a-day.html",
-          "slug": "charter-a-boat-for-a-day",
+          "title": "Hotel Booking Sites Compared: How to Choose for Your Next Trip",
+          "url": "articles/hotel-booking-sites-comparison.html",
+          "slug": "hotel-booking-sites-comparison",
           "type": "guide",
-          "tags": []
+          "tags": [
+            "Hotels"
+          ]
         },
         {
-          "title": "Your First International Trip: A Calm Pre-Flight Checklist",
-          "url": "articles/first-international-trip-checklist.html",
-          "slug": "first-international-trip-checklist",
+          "title": "Where to Stay in Hakone (2026): Five Areas and 12 Ryokan and Hotels, Compared",
+          "url": "articles/where-to-stay-in-hakone.html",
+          "slug": "where-to-stay-in-hakone",
+          "type": "stay",
+          "tags": [
+            "Hotels"
+          ]
+        },
+        {
+          "title": "Where to Stay in Japan on a First Trip (2026): Cities, Nights and Areas",
+          "url": "articles/where-to-stay-in-japan.html",
+          "slug": "where-to-stay-in-japan",
+          "type": "stay",
+          "tags": [
+            "Hotels"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Tours",
+      "guides": [
+        {
+          "title": "Klook vs KKday (2026): Which Booking Platform for Asia?",
+          "url": "articles/klook-vs-kkday.html",
+          "slug": "klook-vs-kkday",
           "type": "guide",
-          "tags": []
+          "tags": [
+            "Tours"
+          ]
+        },
+        {
+          "title": "Klook vs Viator vs GetYourGuide (2026): Which Is Cheaper, and Which Has More?",
+          "url": "articles/klook-vs-viator-vs-getyourguide.html",
+          "slug": "klook-vs-viator-vs-getyourguide",
+          "type": "guide",
+          "tags": [
+            "Tours"
+          ]
         }
       ]
     },
@@ -1077,26 +1527,12 @@
           ]
         },
         {
-          "title": "What Counts as Rude: A Research Guide to Cultural Etiquette in 12 Countries",
+          "title": "What Counts as Rude in 12 Cultures",
           "url": "articles/what-counts-as-rude.html",
           "slug": "what-counts-as-rude",
           "type": "guide",
           "tags": [
             "Culture"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Hotels",
-      "guides": [
-        {
-          "title": "Hotel Booking Sites Compared: How to Choose for Your Next Trip",
-          "url": "articles/hotel-booking-sites-comparison.html",
-          "slug": "hotel-booking-sites-comparison",
-          "type": "guide",
-          "tags": [
-            "Hotels"
           ]
         }
       ]
@@ -1111,20 +1547,6 @@
           "type": "guide",
           "tags": [
             "Jet lag"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Tours",
-      "guides": [
-        {
-          "title": "Klook vs Viator vs GetYourGuide: Navigating Tour Bookings in 2026",
-          "url": "articles/klook-vs-viator-vs-getyourguide.html",
-          "slug": "klook-vs-viator-vs-getyourguide",
-          "type": "guide",
-          "tags": [
-            "Tours"
           ]
         }
       ]

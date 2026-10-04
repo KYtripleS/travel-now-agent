@@ -285,6 +285,14 @@ V = {
              "if your plans are south of the river.",
         link_text="Myeongdong or around City Hall",
         cta=_stay_cta("where-to-stay-in-seoul", "See hotels around Myeongdong")),
+    "where-to-stay-in-bangkok": dict(
+        text="For a first trip, stay on Sukhumvit between Nana and Phrom Phong, a few minutes' walk from a "
+             "Skytrain station: the trains reach Siam and the river, the MRT meets them at Asok, and there is a "
+             "wide choice of hotels and food. Choose Siam for shopping at the centre of the network, the Riverside "
+             "for the grand hotels and the boats to the temples, Silom and Sathorn for Lumphini Park, and the Old "
+             "Town for the Grand Palace on foot.",
+        link_text="Sukhumvit between Nana and Phrom Phong",
+        cta=_stay_cta("where-to-stay-in-bangkok", "See hotels around Asok")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -981,6 +989,8 @@ QUICK_PICKS = {
     "where-to-stay-in-melbourne": ["Park Hyatt Melbourne", "QT Melbourne", "The Victoria Hotel"],
     "where-to-stay-in-hakone": ["Gora Kadan", "Hotel Indigo Hakone Gora", "Hakone Tent"],
     "where-to-stay-in-seoul": ["The Westin Josun Seoul", "L7 Myeongdong by Lotte", "Four Points by Sheraton Josun, Seoul Station"],
+    "where-to-stay-in-bangkok": ["Hyatt Regency Bangkok Sukhumvit", "Bangkok Marriott Marquis Queen’s Park",
+                                 "Holiday Inn Express Bangkok Sukhumvit 11"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1061,7 +1071,7 @@ CITY_RATES = {
         ("Osaka", "where-to-stay-in-osaka", None, None),
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Seoul", "where-to-stay-in-seoul", None, None),
-        ("Bangkok", None, "Siam", "Siam Station, Bangkok, Thailand"),
+        ("Bangkok", "where-to-stay-in-bangkok", None, None),
         ("Taipei", None, "Taipei Main Station", "Taipei Main Station, Taipei, Taiwan"),
         ("Singapore", None, "Raffles Place", "Raffles Place, Singapore"),
         ("Sydney", "where-to-stay-in-sydney", None, None),
@@ -1119,7 +1129,23 @@ _JP3 = (f'<a href="{_T}">Tokyo</a>, <a href="{_K}">Kyoto</a> and <a href="{_O}">
 _JP = "where-to-stay-in-japan.html"
 _H = "where-to-stay-in-hakone.html"
 _SE = "where-to-stay-in-seoul.html"
+_BK = "where-to-stay-in-bangkok.html"
 STAY_POINTERS = {
+    # Bangkok
+    "bangkok-first-timers-guide": ("Finding Your Pace",
+        f'Choosing a base? <a href="{_BK}">Where to stay in Bangkok</a> compares five areas, from Sukhumvit to '
+        'the Old Town, and names 12 hotels, with the catch for each.'),
+    "things-to-do-in-bangkok": ("The Grand Palace and Wat Phra Kaew",
+        f'To be at the gates when they open, <a href="{_BK}#the-old-town-the-grand-palace-on-foot">stay in the '
+        'Old Town</a>: our guide names two hotels there, each within a short walk of Khao San Road.'),
+    "bangkok-river-cruises-guide": ("Where you board",
+        f'Staying by the river? <a href="{_BK}#the-riverside-grand-hotels-and-boats-to-the-temples">Where to stay '
+        'on the Riverside</a> names three hotels there, two of them with their own boats to Sathorn Pier, beside '
+        'Saphan Taksin station.'),
+    "where-to-book-bangkok-dinner-cruise": ("intro",
+        f'Still choosing where to sleep? <a href="{_BK}">Where to stay in Bangkok</a> compares five areas and '
+        'names 12 hotels, from the Mandarin Oriental, which opened in 1876, to a small hotel on the Bang Lamphu '
+        'canal.'),
     # Tokyo
     "shinjuku-neighbourhood-guide": ("The station at the centre",
         f'Sleeping in Shinjuku? <a href="{_T}#shinjuku-the-all-hours-hub">Where to stay in Shinjuku</a> '
