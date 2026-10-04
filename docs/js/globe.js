@@ -58,12 +58,24 @@
   }
 
   /* ---------- drawing ---------- */
-  var COL = { sea: '#ebe4d6', rim: '#d6cbb6', grat: 'rgba(255,255,255,.6)',
-              land: ['#ab9f88', '#a8721f', '#d3ad66'], ink: '#172033', gold: '#a8721f' };
+  var THEMES = {
+    paper: { sea: '#ebe4d6', rim: '#d6cbb6', grat: 'rgba(255,255,255,.6)', land: ['#ab9f88', '#a8721f', '#d3ad66'],
+             ink: '#172033', gold: '#a8721f', halo: '#fbf8f2', arc: 'rgba(23,32,51,.38)', dotRim: '#fbf8f2',
+             originFill: '#fbf8f2' },
+    night: { sea: '#1d2a43', rim: '#2e3d5c', grat: 'rgba(248,244,233,.08)', land: ['#53607c', '#e5c76b', '#a8915c'],
+             ink: '#f8f4e9', gold: '#e5c76b', halo: '#172033', arc: 'rgba(248,244,233,.30)', dotRim: '#172033',
+             originFill: '#172033' }
+  };
+  var COL = THEMES[root.getAttribute('data-theme')] || THEMES.paper;
+  var FILL = root.getAttribute('data-fit') === 'fill';
+  function below() {                          // the hint under the canvas, inside a filled stage
+    var hint = root.querySelector('.gy-globe-hint');
+    return hint ? hint.offsetHeight + (parseFloat(getComputedStyle(hint).marginTop) || 0) : 0;
+  }
   function size() {
     var box = canvas.parentNode.getBoundingClientRect();
     dpr = Math.min(window.devicePixelRatio || 1, 2);
-    W = Math.round(box.width); H = Math.round(Math.min(box.width, 620));
+    W = Math.round(box.width); H = Math.round(FILL ? box.height - below() : Math.min(box.width, 620));
     canvas.width = W * dpr; canvas.height = H * dpr;
     canvas.style.width = W + 'px'; canvas.style.height = H + 'px';
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -114,7 +126,7 @@
       data.cities.filter(away).forEach(function (ct) {
         var on = chosen === ct;
         ctx.beginPath(); line(arc(origin, ct, 48));
-        ctx.strokeStyle = on ? COL.gold : 'rgba(23,32,51,.38)';
+        ctx.strokeStyle = on ? COL.gold : COL.arc;
         ctx.lineWidth = on ? 2.4 : 1.1; ctx.stroke();
       });
     }
@@ -126,7 +138,7 @@
       var s = screen(v), on = chosen === ct || hover === ct;
       ctx.beginPath(); ctx.arc(s[0], s[1], on ? 6 : 4, 0, 2 * Math.PI);
       ctx.fillStyle = on ? COL.ink : COL.gold; ctx.fill();
-      ctx.lineWidth = 1.5; ctx.strokeStyle = '#fbf8f2'; ctx.stroke();
+      ctx.lineWidth = 1.5; ctx.strokeStyle = COL.dotRim; ctx.stroke();
       if (on || zoom >= 2) labels.push([ct.name, s, on]);
     });
     if (origin) {
@@ -134,7 +146,7 @@
       if (v[2] > 0) {
         var s = screen(v);
         ctx.beginPath(); ctx.arc(s[0], s[1], 7, 0, 2 * Math.PI);
-        ctx.fillStyle = '#fbf8f2'; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = COL.ink; ctx.stroke();
+        ctx.fillStyle = COL.originFill; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = COL.ink; ctx.stroke();
         labels.push([origin.name, s, true]);
       }
     }
@@ -142,7 +154,7 @@
   }
   function label(text, s, strong) {
     ctx.font = (strong ? '700 ' : '600 ') + '12px "Libre Franklin", Helvetica, Arial, sans-serif';
-    ctx.lineWidth = 4; ctx.strokeStyle = '#fbf8f2'; ctx.lineJoin = 'round';
+    ctx.lineWidth = 4; ctx.strokeStyle = COL.halo; ctx.lineJoin = 'round';
     ctx.strokeText(text, s[0] + 9, s[1] - 7);
     ctx.fillStyle = COL.ink; ctx.fillText(text, s[0] + 9, s[1] - 7);
   }
@@ -259,7 +271,7 @@
   });
   canvas.addEventListener('pointermove', function (e) {
     var p = pos(e);
-    if (drag) {
+    if (drag && !(typeof pinch !== 'undefined' && pinch)) {
       var dx = p[0] - drag.p[0], dy = p[1] - drag.p[1];
       if (Math.abs(dx) + Math.abs(dy) > 4) drag.moved = true;
       var k = 180 / (Math.PI * R);
@@ -276,10 +288,36 @@
     drag = null;
   });
   canvas.addEventListener('pointercancel', function () { drag = null; });
+  function zoomTo(z) { zoom = Math.max(1, Math.min(3, z)); size(); redraw(); }
+  if (root.getAttribute('data-gestures') === 'on') {
+    canvas.addEventListener('wheel', function (e) {
+      e.preventDefault(); zoomTo(zoom * (e.deltaY < 0 ? 1.1 : 1 / 1.1));
+    }, { passive: false });
+    var touches = {}, pinch = null;
+    canvas.addEventListener('pointerdown', function (e) {
+      touches[e.pointerId] = pos(e);
+      var ids = Object.keys(touches);
+      if (ids.length === 2) {
+        var a = touches[ids[0]], b = touches[ids[1]];
+        pinch = { d: Math.hypot(a[0] - b[0], a[1] - b[1]), z: zoom }; drag = null;
+      }
+    });
+    canvas.addEventListener('pointermove', function (e) {
+      if (!(e.pointerId in touches)) return;
+      touches[e.pointerId] = pos(e);
+      var ids = Object.keys(touches);
+      if (pinch && ids.length === 2) {
+        var a = touches[ids[0]], b = touches[ids[1]];
+        zoomTo(pinch.z * Math.hypot(a[0] - b[0], a[1] - b[1]) / pinch.d);
+      }
+    });
+    ['pointerup', 'pointercancel'].forEach(function (t) {
+      canvas.addEventListener(t, function (e) { delete touches[e.pointerId]; if (Object.keys(touches).length < 2) pinch = null; });
+    });
+  }
   root.querySelectorAll('.gy-globe-zoom button').forEach(function (b) {
     b.addEventListener('click', function () {
-      zoom = Math.max(1, Math.min(3, zoom * (b.getAttribute('data-zoom') === 'in' ? 1.4 : 1 / 1.4)));
-      size(); redraw();
+      zoomTo(zoom * (b.getAttribute('data-zoom') === 'in' ? 1.4 : 1 / 1.4));
     });
   });
   fromSel.addEventListener('change', function () {

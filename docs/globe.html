@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Globe: Where Our Guides Go, From Where You Fly | Gently Yonder</title>
+<meta content="Spin the globe, pick where you fly from and see the 22 cities we cover, nearest first, each with hotels, an eSIM, a flight search and our guides." name="description"/>
+<link href="https://gentlyyonder.com/globe.html" rel="canonical"/>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<meta content="website" property="og:type"/>
+<meta content="The Gently Yonder Globe" property="og:title"/>
+<meta content="Pick where you fly from and see where our guides can take you, nearest first." property="og:description"/>
+<meta content="https://gentlyyonder.com/globe.html" property="og:url"/>
+<meta content="Gently Yonder" property="og:site_name"/>
+<link href="style-v2.css?v=d6ece0fd" rel="stylesheet"/>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://gentlyyonder.com/globe.html",
+    "name": "The Gently Yonder Globe",
+    "description": "Pick where you fly from and see the cities Gently Yonder covers, nearest first, with hotels, an eSIM and flights for each.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Gently Yonder",
+      "url": "https://gentlyyonder.com/"
+    }
+  }
+  </script>
+<!-- BEGIN favicon (managed by add_favicon.py) -->
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/favicon-48.png" rel="icon" sizes="48x48" type="image/png"/>
+<link href="/favicon-192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<!-- END favicon -->
+  <!-- BEGIN GA4 (managed by add_ga4.py) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JRGK9CN3B1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  var gyCfg = { anonymize_ip: true };
+  try {
+    if (location.hash === '#gy-internal') localStorage.setItem('gy_internal', '1');
+    if (location.hash === '#gy-public') localStorage.removeItem('gy_internal');
+    if (localStorage.getItem('gy_internal') === '1') gyCfg.traffic_type = 'internal';
+  } catch (e) {}
+  if (!navigator.webdriver) gtag('config', 'G-JRGK9CN3B1', gyCfg);
+</script>
+<!-- END GA4 -->
+<meta content="The Globe: Where Our Guides Go, From Where You Fly" name="twitter:title"/><meta content="Spin the globe, pick where you fly from and see the 22 cities we cover, nearest first, each with hotels, an eSIM, a flight search and our guides." name="twitter:description"/><meta content="@GentlyYonder" name="twitter:site"/><meta content="https://gentlyyonder.com/images/travel-now-og.png" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="Where will you fly?" property="og:image:alt"/><meta content="summary_large_image" name="twitter:card"/><meta content="https://gentlyyonder.com/images/travel-now-og.png" name="twitter:image"/><meta content="Where will you fly?" name="twitter:image:alt"/></head>
+<body class="gy-globe-page">
+<!-- BEGIN global-nav (managed by add_global_nav.py) -->
+<a class="gy-skip" href="#main">Skip to content</a><nav aria-label="Primary" class="gy-topnav" data-gy-root=""><div class="gy-topnav-inner"><a class="gy-topnav-brand" href="index.html">Gently Yonder</a><div class="gy-topnav-links"><a href="all-guides.html">Guides</a><a href="globe.html">Destinations</a><a href="stay/index.html">Stay</a><a href="food/index.html">Food &amp; drink</a><a href="articles/klook-vs-viator-vs-getyourguide.html">Booking</a><a href="articles/best-travel-esim-2026.html">eSIM</a><a href="articles/best-travel-insurance-2026.html">Insurance</a><a href="tools/index.html">Tools</a></div><form action="search.html" class="gy-search-box" method="get" role="search"><svg aria-hidden="true" class="gy-search-icon" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="15"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><input aria-label="Search guides" autocomplete="off" name="q" placeholder="Search guides…" type="search"/><div class="gy-search-panel" hidden="" role="listbox"></div></form></div></nav>
+<script defer="" src="js/gy-search.js?v=77c3a4b7"></script>
+<!-- END global-nav -->
+<main id="main">
+<section aria-labelledby="globe-h" class="gy-globe-hero">
+<div class="gy-globe-intro">
+<p class="label">The globe</p>
+<h1 id="globe-h">Where will you fly?</h1>
+<p class="gy-globe-dek">Pick where you fly from and turn the globe. Bright gold marks the places we have full guides for; muted gold, the countries with prep notes. Tap a city for its guides, hotels and flights.</p>
+</div>
+<!-- BEGIN globe-app (managed by build_map.py) -->
+  <div class="gy-globe" data-src="data/globe.json" data-theme="night" data-fit="fill" data-gestures="on" hidden>
+    <div class="gy-globe-stage">
+      <canvas role="img" aria-label="A globe of the places we cover. Drag to turn it; the list beside it does the same job."></canvas>
+      <div class="gy-globe-zoom"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button></div>
+      <p class="gy-globe-hint">Drag to turn the globe. Tap a gold dot for that city.</p>
+    </div>
+    <div class="gy-globe-panel">
+      <div class="gy-globe-fields">
+        <label class="gy-globe-field"><span>Flying from</span><select class="gy-globe-from"></select></label>
+        <label class="gy-globe-field"><span>Around</span><input class="gy-globe-date" type="date"></label>
+      </div>
+      <div class="gy-globe-card" hidden></div>
+      <p class="gy-globe-list-h">Where our guides go, nearest first</p>
+      <ol class="gy-globe-list"></ol>
+      <p class="gy-globe-note">Distances are great-circle, between city centres, rounded to 100 km. Flight links open Aviasales, and hotel links Stay22, both our partners; we may earn a commission if you book, at no extra cost to you.</p>
+    </div>
+  </div>
+<!-- END globe-app -->
+<noscript><p class="gy-globe-noscript">The globe needs JavaScript. Every place on it is listed below.</p></noscript>
+</section>
+<section aria-labelledby="places-h" class="gy-globe-places">
+<h2 id="places-h">Every place on the globe</h2>
+<!-- BEGIN globe-index (managed by build_map.py) -->
+<div class="gy-globe-index">
+  <div class="gy-gi-region"><h3>East Asia</h3>
+    <ul>
+      <li><a class="gy-gi-country" href="countries/japan/">Japan</a> <span class="gy-gi-n">33 guides</span><span class="gy-gi-cities"><a href="articles/where-to-stay-in-tokyo.html">Tokyo</a>, <a href="articles/where-to-stay-in-kyoto.html">Kyoto</a>, <a href="articles/where-to-stay-in-osaka.html">Osaka</a></span></li>
+      <li><a class="gy-gi-country" href="articles/seoul-first-timers-guide.html">South Korea</a> <span class="gy-gi-n">9 guides</span><span class="gy-gi-cities"><a href="articles/where-to-stay-in-seoul.html">Seoul</a></span></li>
+      <li><a class="gy-gi-country" href="articles/taipei-first-timers-guide.html">Taiwan</a> <span class="gy-gi-n">5 guides</span><span class="gy-gi-cities"><a href="articles/taipei-first-timers-guide.html">Taipei</a></span></li>
+      <li><a class="gy-gi-country" href="articles/hong-kong-first-timers-guide.html">Hong Kong</a> <span class="gy-gi-n">3 guides</span><span class="gy-gi-cities"><a href="articles/hong-kong-first-timers-guide.html">Hong Kong</a></span></li>
+    </ul>
+  </div>
+  <div class="gy-gi-region"><h3>Oceania</h3>
+    <ul>
+      <li><a class="gy-gi-country" href="countries/australia/">Australia</a> <span class="gy-gi-n">15 guides</span><span class="gy-gi-cities"><a href="articles/where-to-stay-in-sydney.html">Sydney</a>, <a href="articles/where-to-stay-in-melbourne.html">Melbourne</a>, <a href="articles/getting-around-perth.html">Perth</a></span></li>
+    </ul>
+  </div>
+  <div class="gy-gi-region"><h3>Southeast Asia</h3>
+    <ul>
+      <li><a class="gy-gi-country" href="articles/bangkok-first-timers-guide.html">Thailand</a> <span class="gy-gi-n">10 guides</span><span class="gy-gi-cities"><a href="articles/where-to-stay-in-bangkok.html">Bangkok</a>, <a href="articles/chiang-mai-first-timers-guide.html">Chiang Mai</a>, <a href="articles/phuket-first-timers-guide.html">Phuket</a></span></li>
+      <li><a class="gy-gi-country" href="countries/vietnam/">Vietnam</a> <span class="gy-gi-n">7 guides</span><span class="gy-gi-cities"><a href="articles/halong-bay-cruises-from-hanoi.html">Hanoi</a>, <a href="articles/ho-chi-minh-city-first-timers-guide.html">Ho Chi Minh City</a>, <a href="articles/hoi-an-first-timers-guide.html">Hoi An</a></span></li>
+      <li><a class="gy-gi-country" href="articles/bali-first-timers-guide.html">Indonesia</a> <span class="gy-gi-n">4 guides</span><span class="gy-gi-cities"><a href="articles/bali-7-day-itinerary.html">Bali</a>, <a href="articles/yogyakarta-first-timers-guide.html">Yogyakarta</a></span></li>
+      <li><a class="gy-gi-country" href="articles/manila-first-timers-guide.html">Philippines</a> <span class="gy-gi-n">3 guides</span><span class="gy-gi-cities"><a href="articles/manila-first-timers-guide.html">Manila</a>, <a href="articles/cebu-first-timers-guide.html">Cebu</a></span></li>
+      <li><a class="gy-gi-country" href="articles/kuala-lumpur-first-timers-guide.html">Malaysia</a> <span class="gy-gi-n">3 guides</span><span class="gy-gi-cities"><a href="articles/kuala-lumpur-first-timers-guide.html">Kuala Lumpur</a>, <a href="articles/penang-first-timers-guide.html">Penang</a></span></li>
+      <li><a class="gy-gi-country" href="articles/singapore-first-timers-guide.html">Singapore</a> <span class="gy-gi-n">2 guides</span><span class="gy-gi-cities"><a href="articles/singapore-first-timers-guide.html">Singapore</a></span></li>
+    </ul>
+  </div>
+  <div class="gy-gi-region"><h3>Prep notes</h3>
+    <ul>
+      <li><a class="gy-gi-country" href="travel-power/brazil.html">Brazil</a><span class="gy-gi-cities"><a href="travel-power/brazil.html">Plugs and voltage</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/canada.html">Canada</a><span class="gy-gi-cities"><a href="travel-power/canada.html">Plugs and voltage</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/china.html">China</a><span class="gy-gi-cities"><a href="travel-power/china.html">Plugs and voltage</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/france.html">France</a><span class="gy-gi-cities"><a href="travel-power/france.html">Plugs and voltage</a>, <a href="articles/best-esim-europe-2026.html">Europe eSIM</a>, <a href="articles/europe-rail-pass-worth-it-2026.html">Rail pass</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/germany.html">Germany</a><span class="gy-gi-cities"><a href="travel-power/germany.html">Plugs and voltage</a>, <a href="articles/best-esim-europe-2026.html">Europe eSIM</a>, <a href="articles/europe-rail-pass-worth-it-2026.html">Rail pass</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/india.html">India</a><span class="gy-gi-cities"><a href="travel-power/india.html">Plugs and voltage</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/italy.html">Italy</a><span class="gy-gi-cities"><a href="travel-power/italy.html">Plugs and voltage</a>, <a href="articles/best-esim-europe-2026.html">Europe eSIM</a>, <a href="articles/europe-rail-pass-worth-it-2026.html">Rail pass</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/new-zealand.html">New Zealand</a><span class="gy-gi-cities"><a href="travel-power/new-zealand.html">Plugs and voltage</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/south-africa.html">South Africa</a><span class="gy-gi-cities"><a href="travel-power/south-africa.html">Plugs and voltage</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/spain.html">Spain</a><span class="gy-gi-cities"><a href="travel-power/spain.html">Plugs and voltage</a>, <a href="articles/best-esim-europe-2026.html">Europe eSIM</a>, <a href="articles/europe-rail-pass-worth-it-2026.html">Rail pass</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/switzerland.html">Switzerland</a><span class="gy-gi-cities"><a href="travel-power/switzerland.html">Plugs and voltage</a>, <a href="articles/best-esim-europe-2026.html">Europe eSIM</a>, <a href="articles/europe-rail-pass-worth-it-2026.html">Rail pass</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/united-arab-emirates.html">United Arab Emirates</a><span class="gy-gi-cities"><a href="travel-power/united-arab-emirates.html">Plugs and voltage</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/united-kingdom.html">United Kingdom</a><span class="gy-gi-cities"><a href="travel-power/united-kingdom.html">Plugs and voltage</a>, <a href="articles/best-esim-europe-2026.html">Europe eSIM</a>, <a href="articles/europe-rail-pass-worth-it-2026.html">Rail pass</a></span></li>
+      <li><a class="gy-gi-country" href="travel-power/united-states.html">United States</a><span class="gy-gi-cities"><a href="travel-power/united-states.html">Plugs and voltage</a>, <a href="articles/best-esim-usa-2026.html">eSIM</a></span></li>
+    </ul>
+  </div>
+</div>
+<!-- END globe-index -->
+</section>
+<section aria-labelledby="how-h" class="gy-globe-how">
+<h2 id="how-h">How the globe works</h2>
+<p>Distances are great-circle distances between city centres, rounded to 100 km. The distance an aircraft actually flies is usually longer, and we do not show flight times, which vary by airline and route.</p>
+<p>The land is drawn from Natural Earth's public-domain country shapes. The globe never spins on its own: it turns when you drag it or pick a city. The city it first suggests you fly from is worked out in your browser from your device's time zone, and our code does not send the time zone anywhere. When you pick a city, Google Analytics counts which one, and the city you were flying from, as part of the aggregate traffic our <a href="privacy.html">privacy page</a> describes.</p>
+<p>Flight links open Aviasales, and hotel links Stay22. Both are our partners, and we may earn a commission if you book, at no extra cost to you. <a href="promise.html">Our promise</a> explains why that never decides what we recommend.</p>
+</section>
+</main>
+<!-- BEGIN site-footer (managed by add_footer.py) -->
+<footer class="gy-footer">
+<div class="gy-footer-inner">
+<div class="gy-footer-brand"><a class="gy-footer-logo" href="index.html">Gently Yonder</a><p>An independent travel-preparation publication. We check what we publish against primary sources, and date every guide when it changes.</p></div>
+<nav aria-label="Footer" class="gy-footer-cols"><div class="gy-footer-col"><h2>Guides</h2><a href="all-guides.html">All guides</a><a href="stay/index.html">Where to stay</a><a href="food/index.html">Food &amp; drink</a><a href="articles/klook-vs-viator-vs-getyourguide.html">Booking tours</a><a href="articles/best-travel-esim-2026.html">Travel eSIMs</a><a href="articles/best-travel-insurance-2026.html">Travel insurance</a><a href="index.html#map">Destinations</a></div><div class="gy-footer-col"><h2>Tools</h2><a href="tools/index.html">All tools</a><a href="index.html#ready">Ready Score</a><a href="checklist-generator.html">Checklist generator</a><a href="tools/esim-finder.html">eSIM finder</a><a href="gear.html">Gear directory</a></div><div class="gy-footer-col"><h2>About</h2><a href="promise.html">Our promise</a><a href="corrections.html">Corrections</a><a href="about.html">About Gently Yonder</a><a href="editors.html">Editors</a><a href="editorial.html">Editorial guidelines</a><a href="methodology.html">How we verify</a><a href="privacy.html">Privacy</a></div></nav>
+</div>
+<div class="gy-footer-legal"><p>Disclosure: some links on this site are affiliate links. If you book or buy through them we may earn a commission, at no extra cost to you; it never decides what we recommend. As an Amazon Associate, Gently Yonder earns from qualifying purchases.</p><p>© 2026 Gently Yonder · <a href="https://x.com/GentlyYonder">@GentlyYonder</a></p></div>
+</footer>
+<!-- END site-footer -->
+<script defer="" src="js/globe.js?v=8b351ec5"></script>
+</body>
+</html>

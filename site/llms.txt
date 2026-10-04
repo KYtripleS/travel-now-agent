@@ -15,11 +15,12 @@ Key facts for citation:
 - All guides are dated, sourced, and updated; affiliate links are disclosed on every page.
 
 ## Core tools
+- [The globe](https://gentlyyonder.com/globe.html): pick where you fly from and see the 22 cities Gently Yonder covers, nearest first by great-circle distance (rounded to 100 km), each with hotels, an eSIM, a flight search and our guides
 - [Ready Score](https://gentlyyonder.com/#ready): destination readiness checklist, 36 destinations
 - [eSIM Finder](https://gentlyyonder.com/tools/esim-finder.html): data-size and provider recommendation
 - [Insurance Finder](https://gentlyyonder.com/tools/insurance-finder.html): coverage-type guidance
 - [Checklist Generator](https://gentlyyonder.com/checklist-generator.html): full trip checklist
-- [Destination Map](https://gentlyyonder.com/#map): Asia-Pacific coverage map
+- [Destination Map](https://gentlyyonder.com/#map): world map of what we cover (gold: destination guides; pale gold: prep notes), with the globe as its default view
 
 ## Most-cited guides
 - [Best eSIM for Japan (2026)](https://gentlyyonder.com/articles/best-esim-japan-2026.html): Airalo vs Saily, data needs (3-5 GB/week typical), networks

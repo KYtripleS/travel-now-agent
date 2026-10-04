@@ -30,7 +30,7 @@ LINKS = [
     # Hub pages, not homepage anchors: "Destinations" used to land on the
     # homepage's most-read list, and eSIM/Insurance on single articles.
     ("all-guides.html", "Guides"),
-    ("index.html#map", "Destinations"),
+    ("globe.html", "Destinations"),             # the full-page globe (2026-10-04)
     ("stay/index.html", "Stay"),                 # pillar hubs (2026-09-24)
     ("food/index.html", "Food & drink"),
     ("articles/klook-vs-viator-vs-getyourguide.html", "Booking"),

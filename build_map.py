@@ -275,6 +275,68 @@ def globe_data(data: dict, topo: dict) -> dict:
             "marker": "743846"}
 
 
+GLOBE_PAGES = [SITE / "globe.html", DOCS / "globe.html"]
+GLOBE_APP = ("<!-- BEGIN globe-app (managed by build_map.py) -->", "<!-- END globe-app -->")
+GLOBE_INDEX = ("<!-- BEGIN globe-index (managed by build_map.py) -->", "<!-- END globe-index -->")
+
+
+def _globe_markup(attrs: str = "") -> str:
+    """The globe and its panel; js/globe.js brings it to life (the homepage and globe.html share it)."""
+    return f"""  <div class="gy-globe" data-src="data/globe.json"{attrs} hidden>
+    <div class="gy-globe-stage">
+      <canvas role="img" aria-label="A globe of the places we cover. Drag to turn it; the list beside it does the same job."></canvas>
+      <div class="gy-globe-zoom"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button></div>
+      <p class="gy-globe-hint">Drag to turn the globe. Tap a gold dot for that city.</p>
+    </div>
+    <div class="gy-globe-panel">
+      <div class="gy-globe-fields">
+        <label class="gy-globe-field"><span>Flying from</span><select class="gy-globe-from"></select></label>
+        <label class="gy-globe-field"><span>Around</span><input class="gy-globe-date" type="date"></label>
+      </div>
+      <div class="gy-globe-card" hidden></div>
+      <p class="gy-globe-list-h">Where our guides go, nearest first</p>
+      <ol class="gy-globe-list"></ol>
+      <p class="gy-globe-note">Distances are great-circle, between city centres, rounded to 100 km. Flight links open Aviasales, and hotel links Stay22, both our partners; we may earn a commission if you book, at no extra cost to you.</p>
+    </div>
+  </div>
+"""
+
+
+def _globe_index(data: dict) -> str:
+    """Every place on the globe as plain links: for search engines, and for readers without JavaScript."""
+    import stay22
+    regions: dict[str, list[str]] = {}
+    for c in sorted(data["countries"], key=lambda c: -c["guideCount"]):
+        cities = []
+        for ct in c.get("cities") or []:
+            stay = f"where-to-stay-in-{ct['slug']}"
+            href = (f"articles/{stay}.html" if stay in stay22.PAGES else ct.get("hub")
+                    or (ct["guides"][0]["url"] if ct["guides"] else None))
+            cities.append(f'<a href="{escape(href)}">{escape(ct["name"])}</a>' if href else escape(ct["name"]))
+        regions.setdefault(c.get("region") or "Asia-Pacific", []).append(
+            f'      <li><a class="gy-gi-country" href="{escape(lead_url(c))}">{escape(c["name"])}</a> '
+            f'<span class="gy-gi-n">{c["guideCount"]} guides</span>'
+            + (f'<span class="gy-gi-cities">{", ".join(cities)}</span>' if cities else "") + "</li>")
+    guides = {ATLAS_NAME.get(c["name"], c["name"]) for c in data["countries"]}
+    prep = [(DISPLAY.get(a, a), slug, a) for slug, a in POWER.items() if a not in guides
+            and (SITE / "travel-power" / f"{slug}.html").exists()]
+    out = ['<div class="gy-globe-index">']
+    for region, items in regions.items():
+        out += [f'  <div class="gy-gi-region"><h3>{escape(region)}</h3>', '    <ul>'] + items + ['    </ul>', '  </div>']
+    out += ['  <div class="gy-gi-region"><h3>Prep notes</h3>', '    <ul>']
+    for n, slug, atlas in sorted(prep):
+        notes = ", ".join(f'<a href="{href}">{label}</a>' for label, href in _prep_links(atlas, slug))
+        out.append(f'      <li><a class="gy-gi-country" href="travel-power/{slug}.html">{escape(n)}</a>'
+                   f'<span class="gy-gi-cities">{notes}</span></li>')
+    out += ['    </ul>', '  </div>', '</div>']
+    return "\n".join(out)
+
+
+def _swap(html: str, marks: tuple[str, str], block: str) -> str:
+    pat = re.compile(re.escape(marks[0]) + r".*?" + re.escape(marks[1]), re.S)
+    return pat.sub(lambda _: f"{marks[0]}\n{block}\n{marks[1]}", html) if pat.search(html) else html
+
+
 def lead_url(country: dict) -> str:
     """Best click target when a country has no hub yet: its lead city guide."""
     if country.get("hub"):
@@ -290,6 +352,17 @@ def lead_url(country: dict) -> str:
     if country.get("guides"):
         return country["guides"][0]["url"]
     return "all-guides.html"
+
+
+def _prep_links(atlas: str, slug: str) -> list[tuple[str, str]]:
+    """The notes a prep-only country has, as (label, href) from the site root; only pages that exist."""
+    links = [("Plugs and voltage", f"travel-power/{slug}.html")]
+    if atlas == "United States of America":
+        links.append(("eSIM", "articles/best-esim-usa-2026.html"))
+    if atlas in EUROPE:
+        links += [("Europe eSIM", "articles/best-esim-europe-2026.html"),
+                  ("Rail pass", "articles/europe-rail-pass-worth-it-2026.html")]
+    return [(label, href) for label, href in links if (SITE / href).exists()]
 
 
 def _prep_meta(atlas: str) -> str:
@@ -359,25 +432,9 @@ def build_svg(data: dict, topo: dict) -> str:
     <button type="button" class="wmap-view" data-view="globe" aria-pressed="false" hidden>Globe</button>
     <button type="button" class="wmap-view is-on" data-view="world" aria-pressed="true">Flat map</button>
     <button type="button" class="wmap-view" data-view="apac" aria-pressed="false">East &amp; Southeast Asia, close up</button>
+    <a class="wmap-full" href="globe.html">Open the globe full screen &rarr;</a>
   </div>
-  <div class="gy-globe" data-src="data/globe.json" hidden>
-    <div class="gy-globe-stage">
-      <canvas role="img" aria-label="A globe of the places we cover. Drag to turn it; the list beside it does the same job."></canvas>
-      <div class="gy-globe-zoom"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button></div>
-      <p class="gy-globe-hint">Drag to turn the globe. Tap a gold dot for that city.</p>
-    </div>
-    <div class="gy-globe-panel">
-      <div class="gy-globe-fields">
-        <label class="gy-globe-field"><span>Flying from</span><select class="gy-globe-from"></select></label>
-        <label class="gy-globe-field"><span>Around</span><input class="gy-globe-date" type="date"></label>
-      </div>
-      <div class="gy-globe-card" hidden></div>
-      <p class="gy-globe-list-h">Where our guides go, nearest first</p>
-      <ol class="gy-globe-list"></ol>
-      <p class="gy-globe-note">Distances are great-circle, between city centres, rounded to 100 km. Flight links open Aviasales, and hotel links Stay22, both our partners; we may earn a commission if you book, at no extra cost to you.</p>
-    </div>
-  </div>
-  <svg class="apac-map-svg wmap-svg" viewBox="0 0 {W} {H}" role="list"
+{_globe_markup()}  <svg class="apac-map-svg wmap-svg" viewBox="0 0 {W} {H}" role="list"
        aria-label="Places we cover around the world — tap a country">
     <path class="wmap-grat" d="{_graticule()}"></path>
     <path class="wmap-land" d="{base}"></path>
@@ -425,6 +482,13 @@ def main() -> None:
     topo = json.loads(GEO.read_text(encoding="utf-8"))
     block = build_svg(data, topo)
     globe = json.dumps(globe_data(data, topo), ensure_ascii=False, separators=(",", ":"))
+    for page in GLOBE_PAGES:                     # the full-page globe
+        if page.exists():
+            html = page.read_text(encoding="utf-8")
+            new = _swap(html, GLOBE_APP, _globe_markup(' data-theme="night" data-fit="fill" data-gestures="on"').rstrip("\n"))
+            new = _swap(new, GLOBE_INDEX, _globe_index(data))
+            if new != html:
+                page.write_text(new, encoding="utf-8")
     for base in (SITE, DOCS):
         out = base / "data" / "globe.json"
         if not out.exists() or out.read_text(encoding="utf-8") != globe:
