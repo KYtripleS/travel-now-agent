@@ -1,5 +1,5 @@
 {
- "count": 40,
+ "count": 42,
  "pins": [
   {
    "id": 1001,
@@ -360,6 +360,24 @@
    "title": "Staying in Okazaki, Kyoto: The Cherry Blossom Walks on Your Doorstep",
    "description": "The Philosopher's Path runs for about 2 km beside a canal under some 400 cherry trees, and the 582-metre Keage Incline has about 90 more. Stay in Okazaki, near Nanzen-ji, and both are a walk away, with the Tozai subway line downtown. Part of our guide to where to stay in Kyoto for cherry blossom.",
    "board": "Japan Travel Guides"
+  },
+  {
+   "id": 1041,
+   "slug": "where-to-stay-singapore-f1",
+   "image": "https://gentlyyonder.com/images/pinterest/fresh/where-to-stay-singapore-f1.jpg",
+   "link": "https://gentlyyonder.com/articles/where-to-stay-in-singapore.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
+   "title": "Where to Stay in Singapore (2026): 5 Areas and 12 Hotels Compared",
+   "description": "Marina Bay and the Civic District for a first trip, the river for evenings by the water, Orchard Road for shopping, Chinatown for hawker food and Sentosa for families. Five areas and 12 hotels, from Raffles, open since 1887, to a compact room on Orchard Road, and what \"++\" adds to the bill.",
+   "board": "Asia Travel"
+  },
+  {
+   "id": 1042,
+   "slug": "singapore-marina-bay-f1",
+   "image": "https://gentlyyonder.com/images/pinterest/fresh/singapore-marina-bay-f1.jpg",
+   "link": "https://gentlyyonder.com/articles/where-to-stay-in-singapore.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
+   "title": "Staying at Marina Bay, Singapore: Three Hotels for a First Trip",
+   "description": "Gardens by the Bay, the museums and the Padang are on foot, and four MRT lines meet at City Hall and Bayfront. Raffles reopened in 2019 with 115 suites, the Marina Bay Sands SkyPark pool is for hotel guests only, and Pan Pacific Singapore has the Bay for less. Part of our guide to where to stay in Singapore.",
+   "board": "Asia Travel"
   }
  ]
 }

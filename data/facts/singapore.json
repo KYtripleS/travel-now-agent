@@ -1,0 +1,397 @@
+{
+  "place": "Singapore",
+  "facts": [
+    {
+      "id": "sg.euromonitor-2025",
+      "topic": "stat",
+      "claim": "Singapore placed ninth in Euromonitor International's Top 100 City Destinations Index for 2025.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20251203124810/en/Euromonitor-International-Unveils-Worlds-Top-100-City-Destinations-for-2025",
+          "kind": "publisher",
+          "title": "Euromonitor: Top 100 City Destinations 2025"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "ninth in Euromonitor International's Top 100 City Destinations Index for 2025"
+        ]
+      },
+      "note": "This is the overall index, not the arrivals ranking."
+    },
+    {
+      "id": "sg.gst-service-charge",
+      "topic": "tax",
+      "claim": "Singapore's GST has been 9% since 1 January 2024 and is charged on the price including the usual 10% service charge, about 19.9% over the headline price in all.",
+      "value": {
+        "gst": 0.09,
+        "since": "2024-01-01",
+        "service_charge": 0.1,
+        "total": 0.199
+      },
+      "sources": [
+        {
+          "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/specific-business-sectors/hotel-and-food-beverage",
+          "kind": "official",
+          "title": "IRAS: GST for hotels and F&B"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "9% GST",
+          "1 January 2024",
+          "19.9%"
+        ]
+      }
+    },
+    {
+      "id": "sg.arrival-card",
+      "topic": "entry",
+      "claim": "The SG Arrival Card is free and is submitted online in the three days before arrival, through ICA's e-service or the MyICA app.",
+      "sources": [
+        {
+          "url": "https://www.ica.gov.sg/public-education/visiting-singapore",
+          "kind": "official",
+          "title": "ICA: visiting Singapore"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "SG Arrival Card",
+          "three days before you arrive"
+        ]
+      },
+      "watch": "SG Arrival Card|SGAC"
+    },
+    {
+      "id": "sg.changi-mrt",
+      "topic": "transport",
+      "claim": "From Changi Airport the MRT reaches the city with a change at Tanah Merah onto the East-West line.",
+      "sources": [
+        {
+          "url": "https://www.changiairport.com/en/at-changi/transport-and-directions/leaving-the-airport.html",
+          "kind": "official",
+          "title": "Changi Airport: leaving the airport"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "Tanah Merah"
+        ]
+      }
+    },
+    {
+      "id": "sg.contactless-transit",
+      "topic": "transport",
+      "claim": "Contactless Visa, Mastercard and American Express cards and phone wallets can be tapped at MRT gates and on buses (SimplyGo).",
+      "sources": [
+        {
+          "url": "https://www.visa.com.sg/about-visa/newsroom/press-releases/visa-contactless-payments-now-live-for-singapore-transit.html",
+          "kind": "operator",
+          "title": "Visa: contactless on Singapore transit"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "contactless Visa, Mastercard or American Express"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.marina-bay-sands",
+      "topic": "hotel",
+      "claim": "Marina Bay Sands opened in 2010; its SkyPark infinity pool, 150 m long and 200 m up, is for hotel guests only; a US$1.75 billion renovation is rebuilding its rooms into about 1,850, some 770 of them suites.",
+      "value": {
+        "opened": 2010,
+        "rooms": 1850,
+        "suites": 770
+      },
+      "sources": [
+        {
+          "url": "https://www.sands.com/news/marina-bay-sands-receives-750-million-next-phase-transformation/",
+          "kind": "operator",
+          "title": "Sands: renovation"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "Opened in 2010",
+          "150-metre infinity pool",
+          "about 1,850",
+          "770"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.raffles",
+      "topic": "hotel",
+      "claim": "Raffles Singapore opened in 1887 and reopened on 1 August 2019 after a restoration begun in 2017, as an all-suite hotel with 115 suites.",
+      "value": {
+        "opened": 1887,
+        "reopened": "2019-08-01",
+        "suites": 115
+      },
+      "sources": [
+        {
+          "url": "https://press.accor.com/strongnbspthe-return-of-a-legend-strongbr-strongraffles-singapore-officially-reopens-strongbr-nbsp",
+          "kind": "operator",
+          "title": "Accor: Raffles Singapore reopens"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "1887",
+          "1 August 2019",
+          "115 suites"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.pan-pacific-singapore",
+      "topic": "hotel",
+      "claim": "Pan Pacific Singapore has 790 rooms at Marina Square, linked to the Marina Square mall and the Suntec convention centre.",
+      "value": {
+        "rooms": 790
+      },
+      "sources": [
+        {
+          "url": "https://www.panpacific.com/en/hotels-and-resorts/pp-marina.html",
+          "kind": "operator",
+          "title": "Pan Pacific Singapore"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "790 rooms"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.fullerton",
+      "topic": "history",
+      "claim": "The Fullerton Building was completed in 1928 as the General Post Office, opened as The Fullerton Hotel Singapore (400 rooms) in 2001, and became a National Monument in 2015.",
+      "value": {
+        "built": 1928,
+        "hotel": 2001,
+        "monument": 2015,
+        "rooms": 400
+      },
+      "sources": [
+        {
+          "url": "https://www.roots.gov.sg/places/places-landing/Places/national-monuments/former-fullerton-building",
+          "kind": "official",
+          "title": "Roots.sg: former Fullerton Building"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "400 rooms",
+          "completed in 1928",
+          "in 2001",
+          "in 2015"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.warehouse",
+      "topic": "hotel",
+      "claim": "The Warehouse Hotel has 37 rooms in an 1895 godown at Robertson Quay and opened in January 2017.",
+      "value": {
+        "rooms": 37,
+        "built": 1895,
+        "opened": "2017-01"
+      },
+      "sources": [
+        {
+          "url": "https://www.thewarehousehotel.com/about/",
+          "kind": "operator",
+          "title": "The Warehouse Hotel: our story"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "37 rooms",
+          "1895",
+          "January 2017"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.pan-pacific-orchard",
+      "topic": "hotel",
+      "claim": "Pan Pacific Orchard, a 23-storey garden hotel by WOHA, opened in June 2023 with four open-air terraces (forest, beach, garden, cloud).",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Pan_Pacific_Orchard",
+          "kind": "reference",
+          "title": "Wikipedia: Pan Pacific Orchard"
+        },
+        {
+          "url": "https://www.panpacific.com/en/hotels-and-resorts/pp-orchard-sg.html",
+          "kind": "operator",
+          "title": "Pan Pacific Orchard"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "23-storey",
+          "June 2023"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.hilton-orchard",
+      "topic": "hotel",
+      "claim": "Hilton Singapore Orchard, the former Mandarin Orchard at 333 Orchard Road, reopened on 24 February 2022 after a S$150 million renovation, with 1,080 rooms, Hilton's largest hotel in Asia Pacific.",
+      "value": {
+        "rooms": 1080,
+        "reopened": "2022-02-24"
+      },
+      "sources": [
+        {
+          "url": "https://stories.hilton.com/apac/releases/hilton-debuts-flagshipbranded-hotel-in-singapore",
+          "kind": "operator",
+          "title": "Hilton: Hilton Singapore Orchard opens"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "1,080 rooms",
+          "24 February 2022",
+          "S$150 million"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.yotel-orchard",
+      "topic": "hotel",
+      "claim": "YOTEL Singapore Orchard Road has 610 compact rooms ('cabins') over 30 floors at 366 Orchard Road and opened in 2017.",
+      "value": {
+        "rooms": 610
+      },
+      "sources": [
+        {
+          "url": "https://www.yotel.com/en/hotels/yotel-singapore",
+          "kind": "operator",
+          "title": "YOTEL Singapore"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "610 compact rooms",
+          "366 Orchard Road"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.parkroyal-pickering",
+      "topic": "hotel",
+      "claim": "PARKROYAL COLLECTION Pickering opened in January 2013: 367 rooms in a WOHA tower with some 15,000 square metres of planted sky terraces, about twice the area of its site.",
+      "value": {
+        "rooms": 367,
+        "opened": "2013-01"
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Parkroyal_Collection_Pickering",
+          "kind": "reference",
+          "title": "Wikipedia: Parkroyal Collection Pickering"
+        },
+        {
+          "url": "https://www.panpacific.com/en/hotels-and-resorts/pr-collection-pickering.html",
+          "kind": "operator",
+          "title": "PARKROYAL COLLECTION Pickering"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "367 rooms",
+          "January 2013",
+          "15,000 square metres"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.the-clan",
+      "topic": "hotel",
+      "claim": "The Clan Hotel Singapore has 324 rooms at 10 Cross Street, opened on 1 March 2021, with direct access to Telok Ayer station.",
+      "value": {
+        "rooms": 324,
+        "opened": "2021-03-01"
+      },
+      "sources": [
+        {
+          "url": "https://www.tfehotels.com/en/hotels/far-east-collection/the-clan-hotel/",
+          "kind": "operator",
+          "title": "The Clan Hotel Singapore"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "324 rooms",
+          "1 March 2021"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.shangri-la-rasa-sentosa",
+      "topic": "hotel",
+      "claim": "Shangri-La Rasa Sentosa has 454 rooms with balconies on the beach at Siloso Road.",
+      "value": {
+        "rooms": 454
+      },
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/singapore/rasasentosaresort/about/",
+          "kind": "operator",
+          "title": "Shangri-La Rasa Sentosa: about"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "454 rooms"
+        ]
+      }
+    },
+    {
+      "id": "sg.hotel.capella",
+      "topic": "hotel",
+      "claim": "Capella Singapore, by Foster + Partners around two 1880s military buildings on Sentosa, opened in March 2009 with 112 rooms.",
+      "value": {
+        "rooms": 112,
+        "opened": "2009-03-30"
+      },
+      "sources": [
+        {
+          "url": "https://capellahotels.com/assets/docs/singapore/Media_Release_-_Capella_Singapore_celebrates_15th_anniversary.pdf",
+          "kind": "operator",
+          "title": "Capella Singapore: 15th anniversary release"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-singapore.html": [
+          "112 rooms",
+          "March 2009",
+          "1880s"
+        ]
+      }
+    }
+  ]
+}

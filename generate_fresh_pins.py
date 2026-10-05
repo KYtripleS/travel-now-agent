@@ -427,6 +427,24 @@ SPECS = [
                      "the 582-metre Keage Incline has about 90 more. Stay in Okazaki, near Nanzen-ji, and both are "
                      "a walk away, with the Tozai subway line downtown. Part of our guide to where to stay in "
                      "Kyoto for cherry blossom."),
+    dict(id=1041, slug="where-to-stay-singapore-f1", article="articles/where-to-stay-in-singapore.html",
+         board=ASIA, photo=15480509, title="SINGAPORE", tagline="where to stay, area by area",
+         bullets=["First trip: Marina Bay", "Evenings: the river", "Shopping: Orchard Road",
+                  "Families: Sentosa"], cta="See all 12 hotels →",
+         pin_title="Where to Stay in Singapore (2026): 5 Areas and 12 Hotels Compared",
+         description="Marina Bay and the Civic District for a first trip, the river for evenings by the water, "
+                     "Orchard Road for shopping, Chinatown for hawker food and Sentosa for families. Five areas "
+                     "and 12 hotels, from Raffles, open since 1887, to a compact room on Orchard Road, and what "
+                     "\"++\" adds to the bill."),
+    dict(id=1042, slug="singapore-marina-bay-f1", article="articles/where-to-stay-in-singapore.html",
+         board=ASIA, photo=8176859, title="MARINA BAY", tagline="Singapore's first-trip base",
+         bullets=["Raffles, since 1887", "The SkyPark pool", "Gardens by the Bay", "Four MRT lines"],
+         cta="Where to stay →",
+         pin_title="Staying at Marina Bay, Singapore: Three Hotels for a First Trip",
+         description="Gardens by the Bay, the museums and the Padang are on foot, and four MRT lines meet at "
+                     "City Hall and Bayfront. Raffles reopened in 2019 with 115 suites, the Marina Bay Sands "
+                     "SkyPark pool is for hotel guests only, and Pan Pacific Singapore has the Bay for less. Part "
+                     "of our guide to where to stay in Singapore."),
 ]
 
 

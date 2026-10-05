@@ -308,6 +308,13 @@ V = {
              "for the hills. Book a refundable rate now.",
         link_text="Okazaki, near Nanzen-ji",
         cta=_stay_cta("where-to-stay-in-kyoto-cherry-blossom", "See hotels around Okazaki")),
+    "where-to-stay-in-singapore": dict(
+        text="For a first trip, stay around Marina Bay and the Civic District: Gardens by the Bay, the museums and "
+             "the Padang are on foot, and four MRT lines meet at City Hall and Bayfront. Choose the river for "
+             "evenings by the water, Orchard Road for shopping, Chinatown for hawker food, and Sentosa for "
+             "beaches and theme parks with children.",
+        link_text="Marina Bay and the Civic District",
+        cta=_stay_cta("where-to-stay-in-singapore", "See hotels around Marina Bay")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1010,6 +1017,7 @@ QUICK_PICKS = {
     "where-to-stay-in-hong-kong": ["The Peninsula Hong Kong", "Hotel ICON", "The Salisbury – YMCA of Hong Kong"],
     "where-to-stay-in-kyoto-cherry-blossom": ["The Westin Miyako Kyoto", "Hotel Okura Kyoto Okazaki Bettei",
                                               "Cross Hotel Kyoto"],
+    "where-to-stay-in-singapore": ["Marina Bay Sands", "Raffles Singapore", "Pan Pacific Singapore"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1093,7 +1101,7 @@ CITY_RATES = {
         ("Bangkok", "where-to-stay-in-bangkok", None, None),
         ("Hong Kong", "where-to-stay-in-hong-kong", None, None),
         ("Taipei", None, "Taipei Main Station", "Taipei Main Station, Taipei, Taiwan"),
-        ("Singapore", None, "Raffles Place", "Raffles Place, Singapore"),
+        ("Singapore", "where-to-stay-in-singapore", None, None),
         ("Sydney", "where-to-stay-in-sydney", None, None),
         ("Melbourne", "where-to-stay-in-melbourne", None, None),
     ],
@@ -1151,7 +1159,16 @@ _H = "where-to-stay-in-hakone.html"
 _SE = "where-to-stay-in-seoul.html"
 _BK = "where-to-stay-in-bangkok.html"
 _HK = "where-to-stay-in-hong-kong.html"
+_SG = "where-to-stay-in-singapore.html"
 STAY_POINTERS = {
+    # Singapore
+    "singapore-first-timers-guide": ("Thoughtful Stays",
+        f'Choosing a base? <a href="{_SG}">Where to stay in Singapore</a> compares five areas, from Marina Bay '
+        'to Sentosa, and names 12 hotels, with the catch for each.'),
+    "things-to-do-in-singapore": ("Marina Bay and Gardens by the Bay",
+        f'To have the Bay on foot, <a href="{_SG}#marina-bay-and-the-civic-district-the-first-trip-base">stay '
+        'around Marina Bay and the Civic District</a>: our guide names three hotels there, from Raffles, open '
+        'since 1887, to Pan Pacific Singapore at Marina Square.'),
     # Hong Kong
     "hong-kong-first-timers-guide": ("The lie of the land",
         f'Choosing a side? <a href="{_HK}">Where to stay in Hong Kong</a> compares five areas on both sides '

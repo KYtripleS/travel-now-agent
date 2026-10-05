@@ -83,6 +83,8 @@ PAGES = {
                                        address="1881 Heritage, Hong Kong"),
     "where-to-stay-in-kyoto-cherry-blossom": dict(area="Okazaki", lat=35.0128, lng=135.7838, zoom=15,
                                                   address="Heian Shrine, Kyoto, Japan"),
+    "where-to-stay-in-singapore": dict(area="Marina Bay", lat=1.2898, lng=103.8555, zoom=15,
+                                       address="Esplanade - Theatres on the Bay, Singapore"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -217,6 +219,20 @@ HOTELS = {
     "The Westin Miyako Kyoto": _B + "jp/the-westin-miyako-kyoto.html",
     "Hotel Okura Kyoto Okazaki Bettei": _B + "jp/hoteruokurajing-du-gang-qi-bie-di.html",
     "Suiran, a Luxury Collection Hotel, Kyoto": _B + "jp/suiran-luxury-collection-kyoto.html",
+    # Singapore (each Booking.com page checked by hand, October 2026)
+    "Marina Bay Sands": _B + "sg/marina-bay-sands.html",
+    "Raffles Singapore": _B + "sg/raffles.html",
+    "Pan Pacific Singapore": _B + "sg/panpacificsingapore.html",
+    "The Fullerton Hotel Singapore": _B + "sg/the-fullerton-singapore.html",
+    "The Warehouse Hotel": _B + "sg/the-warehouse.html",
+    "Pan Pacific Orchard": _B + "sg/pan-pacific-orchard.html",
+    # the former Mandarin Orchard; Booking.com's review pages still use the old "mandarin" slug
+    "Hilton Singapore Orchard": _B + "sg/hilton-singapore-orchard.html",
+    "YOTEL Singapore Orchard Road": _B + "sg/yotel-singapore-orchard-road.html",
+    "PARKROYAL COLLECTION Pickering": _B + "sg/parkroyal-on-pickering.html",
+    "The Clan Hotel Singapore": _B + "sg/the-clan-singapore.html",
+    "Shangri-La Rasa Sentosa": _B + "sg/rasa-sentosa-resort-by-the-shangri-la.html",
+    "Capella Singapore": _B + "sg/capella-singapore.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

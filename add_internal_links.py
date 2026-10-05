@@ -543,6 +543,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Travel Insurance for Japan",
         "Do you actually need it? Japanese healthcare costs, what policies cover, and honest picks.",
     ),
+    "articles/where-to-stay-in-singapore.html": (
+        "Where to Stay in Singapore",
+        "Five areas and 12 hotels, from Raffles of 1887 to a compact room on Orchard Road, and what \"++\" adds to the bill.",
+    ),
     "articles/where-to-stay-in-kyoto-cherry-blossom.html": (
         "Where to Stay in Kyoto for Cherry Blossom",
         "The dates to aim for, five areas matched to the blossom walks, 12 hotels, and how to book now for 2027.",
@@ -629,6 +633,7 @@ ARTICLES: dict[str, tuple[str, str]] = {
 LINKS: dict[str, list[str]] = {
     # ---- city guides -> harvest targets (etiquette + eSIM + boat) + tours/insurance + sibling cities ----
     "articles/singapore-first-timers-guide.html": [
+        "articles/where-to-stay-in-singapore.html",
         "articles/what-counts-as-rude.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
@@ -793,6 +798,7 @@ LINKS: dict[str, list[str]] = {
         "articles/things-to-do-in-seoul.html",
     ],
     "articles/things-to-do-in-singapore.html": [
+        "articles/where-to-stay-in-singapore.html",
         "articles/singapore-first-timers-guide.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/what-counts-as-rude.html",
@@ -1568,6 +1574,14 @@ LINKS: dict[str, list[str]] = {
         "articles/safetywing-vs-world-nomads.html",
         "articles/how-much-does-japan-cost.html",
         "countries/japan/index.html",
+    ],
+    "articles/where-to-stay-in-singapore.html": [
+        "articles/singapore-first-timers-guide.html",
+        "articles/things-to-do-in-singapore.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/where-to-stay-in-hong-kong.html",
+        "articles/where-to-stay-in-bangkok.html",
     ],
     "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
         "articles/where-to-stay-in-kyoto.html",
