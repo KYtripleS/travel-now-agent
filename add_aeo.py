@@ -322,6 +322,12 @@ V = {
              "streets, and Beitou for a night in a hot-spring room.",
         link_text="Taipei Main Station or Zhongshan",
         cta=_stay_cta("where-to-stay-in-taipei", "See hotels around Taipei Main Station")),
+    "where-to-stay-in-kuala-lumpur": dict(
+        text="For a first trip, stay in KLCC: the Petronas Twin Towers, KLCC Park and the Suria KLCC mall are at "
+             "your door, and a covered walkway runs to Bukit Bintang. Choose Bukit Bintang for food and shopping, "
+             "the old city and Chinatown for history, and KL Sentral for the 28-minute train to the airport.",
+        link_text="KLCC",
+        cta=_stay_cta("where-to-stay-in-kuala-lumpur", "See hotels around KLCC")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1026,6 +1032,8 @@ QUICK_PICKS = {
                                               "Cross Hotel Kyoto"],
     "where-to-stay-in-singapore": ["Marina Bay Sands", "Raffles Singapore", "Pan Pacific Singapore"],
     "where-to-stay-in-taipei": ["Regent Taipei", "Palais de Chine Hotel", "citizenM Taipei North Gate"],
+    "where-to-stay-in-kuala-lumpur": ["Mandarin Oriental, Kuala Lumpur", "Traders Hotel, Kuala Lumpur",
+                                      "Holiday Inn Express Kuala Lumpur City Centre"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1110,6 +1118,7 @@ CITY_RATES = {
         ("Hong Kong", "where-to-stay-in-hong-kong", None, None),
         ("Taipei", "where-to-stay-in-taipei", None, None),
         ("Singapore", "where-to-stay-in-singapore", None, None),
+        ("Kuala Lumpur", "where-to-stay-in-kuala-lumpur", None, None),
         ("Sydney", "where-to-stay-in-sydney", None, None),
         ("Melbourne", "where-to-stay-in-melbourne", None, None),
     ],
@@ -1169,7 +1178,15 @@ _BK = "where-to-stay-in-bangkok.html"
 _HK = "where-to-stay-in-hong-kong.html"
 _SG = "where-to-stay-in-singapore.html"
 _TP = "where-to-stay-in-taipei.html"
+_KL = "where-to-stay-in-kuala-lumpur.html"
 STAY_POINTERS = {
+    # Kuala Lumpur
+    "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
+        f'Choosing a base? <a href="{_KL}">Where to stay in Kuala Lumpur</a> compares four areas, from KLCC to '
+        'KL Sentral, and names 12 hotels, with the catch for each.'),
+    "things-to-do-in-kuala-lumpur": ("The Petronas Towers",
+        f'To have the towers at your door, <a href="{_KL}#klcc-the-first-trip-base">stay in KLCC</a>: our guide '
+        'names four hotels there, from the Mandarin Oriental beside the towers to Traders on KLCC Park.'),
     # Taipei
     "taipei-first-timers-guide": ("where to base yourself",
         f'For the hotels, <a href="{_TP}">where to stay in Taipei</a> compares five areas, from Taipei Main '

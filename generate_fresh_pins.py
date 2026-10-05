@@ -462,6 +462,23 @@ SPECS = [
                      "century; its 1913 bathhouse is now a free museum. Take the Red Line to Beitou and the "
                      "branch to Xinbeitou. Two hotels with a hot-spring bath in every room, from our guide to "
                      "where to stay in Taipei."),
+    dict(id=1045, slug="where-to-stay-kuala-lumpur-f1", article="articles/where-to-stay-in-kuala-lumpur.html",
+         board=ASIA, photo=9133095, title="KL STAYS", tagline="Kuala Lumpur, area by area",
+         bullets=["First trip: KLCC", "Food: Bukit Bintang", "History: the old city", "Airport train: KL Sentral"],
+         cta="See all 12 hotels →",
+         pin_title="Where to Stay in Kuala Lumpur (2026): 4 Areas and 12 Hotels Compared",
+         description="KLCC for a first trip, Bukit Bintang for food and shopping, the old city and Chinatown for "
+                     "history, and KL Sentral for the 28-minute train to the airport. Four areas and 12 hotels, from "
+                     "the Mandarin Oriental beside the Petronas Towers to the new Park Hyatt in Merdeka 118."),
+    dict(id=1046, slug="kuala-lumpur-merdeka-118-f1", article="articles/where-to-stay-in-kuala-lumpur.html",
+         board=ASIA, photo=32644037, title="MERDEKA 118", tagline="a hotel 75 floors up",
+         bullets=["Park Hyatt, open since 2025", "Levels 75 to 114", "A spa on floor 99", "Merdeka Square nearby"],
+         cta="Where to stay →",
+         pin_title="Park Hyatt Kuala Lumpur in Merdeka 118: Where to Stay in Old KL",
+         description="Park Hyatt Kuala Lumpur opened on 7 August 2025 on levels 75 to 114 of Merdeka 118, "
+                     "Malaysia's tallest building, with 252 rooms and a spa on the 99th floor. Merdeka Square, "
+                     "Central Market and Petaling Street are close by. Part of our guide to where to stay in "
+                     "Kuala Lumpur."),
 ]
 
 

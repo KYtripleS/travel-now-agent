@@ -87,6 +87,8 @@ PAGES = {
                                        address="Esplanade - Theatres on the Bay, Singapore"),
     "where-to-stay-in-taipei": dict(area="Taipei Main Station", lat=25.0478, lng=121.5170, zoom=15,
                                     address="Taipei Main Station, Taipei, Taiwan"),
+    "where-to-stay-in-kuala-lumpur": dict(area="KLCC", lat=3.1555, lng=101.7140, zoom=15,
+                                          address="KLCC Park, Kuala Lumpur, Malaysia"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -249,6 +251,20 @@ HOTELS = {
     "Hotel Proverbs Taipei": _B + "tw/hotel-proverbs-taipei.html",
     "Grand View Resort Beitou": _B + "tw/grand-view-resort-beitou.html",
     "Hotel Royal Beitou": _B + "tw/royal-hotel-beitou.html",
+    # Kuala Lumpur (each Booking.com page checked by hand, October 2026)
+    "Mandarin Oriental, Kuala Lumpur": _B + "my/mandarin-oriental-kuala-lumpur.html",
+    "Four Seasons Hotel Kuala Lumpur": _B + "my/four-seasons-kuala-lumpur.html",
+    "Traders Hotel, Kuala Lumpur": _B + "my/traders-kuala-lumpur.html",
+    "EQ Kuala Lumpur": _B + "my/eq.html",
+    "Pavilion Hotel Kuala Lumpur Managed by Banyan Tree": _B + "my/pavilion-kuala-lumpur-managed-by-banyan-tree.html",
+    "JW Marriott Hotel Kuala Lumpur": _B + "my/jw-marriott-kuala-lumpur.html",
+    "Holiday Inn Express Kuala Lumpur City Centre": _B + "my/holiday-inn-express-kuala-lumpur-city-centre.html",
+    "The Majestic Hotel Kuala Lumpur, Autograph Collection": _B + "my/the-majestic-kuala-lumpur.html",
+    # opened 7 Aug 2025 in Merdeka 118
+    "Park Hyatt Kuala Lumpur": _B + "my/park-hyatt-kuala-lumpur.html",
+    "AnCasa Hotel Kuala Lumpur, Chinatown": _B + "my/ancasa-spa-kuala-lumpur.html",
+    "Hilton Kuala Lumpur": _B + "my/hilton-kuala-lumpur.html",
+    "Aloft Kuala Lumpur Sentral": _B + "my/aloft-kuala-lumpur-sentral.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

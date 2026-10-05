@@ -543,6 +543,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Travel Insurance for Japan",
         "Do you actually need it? Japanese healthcare costs, what policies cover, and honest picks.",
     ),
+    "articles/where-to-stay-in-kuala-lumpur.html": (
+        "Where to Stay in Kuala Lumpur",
+        "Four areas and 12 hotels, from the Petronas Towers to the new Park Hyatt in Merdeka 118.",
+    ),
     "articles/where-to-stay-in-taipei.html": (
         "Where to Stay in Taipei",
         "Five areas and 12 hotels, from Taipei Main Station to a hot-spring room in Beitou.",
@@ -681,6 +685,7 @@ LINKS: dict[str, list[str]] = {
         "articles/ho-chi-minh-city-first-timers-guide.html",
     ],
     "articles/kuala-lumpur-first-timers-guide.html": [
+        "articles/where-to-stay-in-kuala-lumpur.html",
         "articles/what-counts-as-rude.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/klook-vs-viator-vs-getyourguide.html",
@@ -839,6 +844,7 @@ LINKS: dict[str, list[str]] = {
         "articles/klook-vs-viator-vs-getyourguide.html",
     ],
     "articles/things-to-do-in-kuala-lumpur.html": [
+        "articles/where-to-stay-in-kuala-lumpur.html",
         "articles/kuala-lumpur-first-timers-guide.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/things-to-do-in-singapore.html",
@@ -1580,6 +1586,14 @@ LINKS: dict[str, list[str]] = {
         "articles/safetywing-vs-world-nomads.html",
         "articles/how-much-does-japan-cost.html",
         "countries/japan/index.html",
+    ],
+    "articles/where-to-stay-in-kuala-lumpur.html": [
+        "articles/kuala-lumpur-first-timers-guide.html",
+        "articles/things-to-do-in-kuala-lumpur.html",
+        "articles/penang-first-timers-guide.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/where-to-stay-in-singapore.html",
     ],
     "articles/where-to-stay-in-taipei.html": [
         "articles/taipei-first-timers-guide.html",

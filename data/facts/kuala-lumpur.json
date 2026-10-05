@@ -1,0 +1,254 @@
+{
+  "place": "Kuala Lumpur",
+  "facts": [
+    {
+      "id": "my.klia-ekspres",
+      "topic": "transport",
+      "claim": "The KLIA Ekspres runs the 57 km from KL Sentral to KLIA Terminal 1 in 28 minutes, and to Terminal 2 in 33.",
+      "value": {
+        "km": 57,
+        "t1_min": 28,
+        "t2_min": 33
+      },
+      "sources": [
+        {
+          "url": "https://www.kliaekspres.com/plan-your-trip/plan/faq-on-airport-transfer-by-train-to-kuala-lumpur-city/",
+          "kind": "official",
+          "title": "KLIA Ekspres: FAQ"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "28 minutes",
+          "33"
+        ]
+      },
+      "note": "Fare (RM55 per secondary sources) not yet confirmed at the operator; not stated."
+    },
+    {
+      "id": "my.tourism-tax",
+      "topic": "tax",
+      "claim": "Foreign guests in Malaysia pay a tourism tax of RM10 per room per night, collected by the accommodation operator; booking platforms have had to collect it since their grace period ended on 31 December 2025.",
+      "value": {
+        "myr_per_room_night": 10
+      },
+      "sources": [
+        {
+          "url": "https://www.myttx.customs.gov.my/about-myttx/",
+          "kind": "official",
+          "title": "Royal Malaysian Customs: MyTTx"
+        },
+        {
+          "url": "https://www.myttx.customs.gov.my/wp-content/uploads/2022/05/APPENDIX-A-General-Guide.pdf",
+          "kind": "official",
+          "title": "Customs: general guide on tourism tax"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "RM10 per room per night"
+        ]
+      }
+    },
+    {
+      "id": "my.service-tax",
+      "topic": "tax",
+      "claim": "Malaysia's service tax on accommodation has been 8% since 1 March 2024 (6% before).",
+      "value": {
+        "rate": 0.08,
+        "since": "2024-03-01"
+      },
+      "sources": [
+        {
+          "url": "https://mysst.customs.gov.my/faq-services-tax/",
+          "kind": "official",
+          "title": "MySST: service tax FAQ"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "8% service tax"
+        ]
+      }
+    },
+    {
+      "id": "my.mdac",
+      "topic": "entry",
+      "claim": "The Malaysia Digital Arrival Card is free and is submitted on the Immigration Department's site in the three days before arrival.",
+      "sources": [
+        {
+          "url": "https://imigresen-online.imi.gov.my/mdac/main",
+          "kind": "official",
+          "title": "Immigration Department of Malaysia: MDAC"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "Malaysia Digital Arrival Card",
+          "three days before you arrive"
+        ]
+      },
+      "watch": "Malaysia Digital Arrival Card|MDAC"
+    },
+    {
+      "id": "my.hotel.park-hyatt-kl",
+      "topic": "hotel",
+      "claim": "Park Hyatt Kuala Lumpur opened on 7 August 2025 on levels 75 to 114 of Merdeka 118, with 252 rooms and a spa on the 99th floor.",
+      "value": {
+        "opened": "2025-08-07",
+        "rooms": 252
+      },
+      "sources": [
+        {
+          "url": "https://newsroom.hyatt.com/080725-Park-Hyatt-Kuala-Lumpur-Opens-In-Malaysia",
+          "kind": "operator",
+          "title": "Hyatt: Park Hyatt Kuala Lumpur opens"
+        },
+        {
+          "url": "https://www.hyatt.com/park-hyatt/en-US/kulph-park-hyatt-kuala-lumpur",
+          "kind": "operator",
+          "title": "Park Hyatt Kuala Lumpur"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "7 August 2025",
+          "levels 75 to 114",
+          "252 rooms",
+          "99th floor"
+        ]
+      }
+    },
+    {
+      "id": "my.hotel.majestic",
+      "topic": "hotel",
+      "claim": "The Majestic Hotel Kuala Lumpur was built in 1932 and reopened in December 2012 with 47 rooms in the restored wing and 253 in a new tower.",
+      "value": {
+        "built": 1932,
+        "reopened": "2012-12",
+        "rooms": 300
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Hotel_Majestic_(Kuala_Lumpur)",
+          "kind": "reference",
+          "title": "Wikipedia: Hotel Majestic"
+        },
+        {
+          "url": "https://www.marriott.com/en-us/hotels/kulak-the-majestic-hotel-kuala-lumpur-autograph-collection/overview/",
+          "kind": "operator",
+          "title": "Marriott: The Majestic"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "Built in 1932",
+          "December 2012",
+          "47 rooms",
+          "253"
+        ]
+      }
+    },
+    {
+      "id": "my.hotel.four-seasons-kl",
+      "topic": "hotel",
+      "claim": "Four Seasons Hotel Kuala Lumpur opened in November 2018 with 209 rooms on Jalan Ampang.",
+      "value": {
+        "opened": "2018-11",
+        "rooms": 209
+      },
+      "sources": [
+        {
+          "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+          "kind": "operator",
+          "title": "Four Seasons: hotel facts"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "November 2018",
+          "209 rooms"
+        ]
+      }
+    },
+    {
+      "id": "my.hotel.mandarin-oriental-kl",
+      "topic": "hotel",
+      "claim": "Mandarin Oriental, Kuala Lumpur has 570 rooms, 20 suites and 39 executive apartments and is directly connected to the Petronas Twin Towers, the convention centre and Suria KLCC.",
+      "sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/kuala-lumpur/petronas-towers",
+          "kind": "operator",
+          "title": "Mandarin Oriental, Kuala Lumpur"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "570 rooms, 20 suites and 39 executive apartments"
+        ]
+      }
+    },
+    {
+      "id": "my.hotel.pavilion-banyan-tree",
+      "topic": "hotel",
+      "claim": "Pavilion Hotel Kuala Lumpur Managed by Banyan Tree has 325 rooms and suites at 170 Jalan Bukit Bintang.",
+      "sources": [
+        {
+          "url": "https://www.banyantree.com/malaysia/pavilion-hotel",
+          "kind": "operator",
+          "title": "Pavilion Hotel Kuala Lumpur"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "325 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "my.hotel.hiex-kl-city-centre",
+      "topic": "hotel",
+      "claim": "Holiday Inn Express Kuala Lumpur City Centre has 383 rooms on Jalan Raja Chulan, three minutes' walk from Raja Chulan monorail station, with breakfast included.",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/kuala-lumpur/kulcc/hoteldetail",
+          "kind": "operator",
+          "title": "IHG: Holiday Inn Express KL City Centre"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "383 rooms"
+        ]
+      }
+    },
+    {
+      "id": "my.hotel.ancasa-chinatown",
+      "topic": "hotel",
+      "claim": "AnCasa Hotel Kuala Lumpur, Chinatown has 294 rooms on Jalan Tun Tan Cheng Lock, near Plaza Rakyat LRT station.",
+      "sources": [
+        {
+          "url": "https://www.ancasahotels.com.my/ancasa-hotel-kuala-lumpur-chinatown",
+          "kind": "operator",
+          "title": "AnCasa Hotel Kuala Lumpur, Chinatown"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kuala-lumpur.html": [
+          "294 rooms"
+        ]
+      }
+    }
+  ]
+}
