@@ -85,6 +85,8 @@ PAGES = {
                                                   address="Heian Shrine, Kyoto, Japan"),
     "where-to-stay-in-singapore": dict(area="Marina Bay", lat=1.2898, lng=103.8555, zoom=15,
                                        address="Esplanade - Theatres on the Bay, Singapore"),
+    "where-to-stay-in-taipei": dict(area="Taipei Main Station", lat=25.0478, lng=121.5170, zoom=15,
+                                    address="Taipei Main Station, Taipei, Taiwan"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -233,6 +235,20 @@ HOTELS = {
     "The Clan Hotel Singapore": _B + "sg/the-clan-singapore.html",
     "Shangri-La Rasa Sentosa": _B + "sg/rasa-sentosa-resort-by-the-shangri-la.html",
     "Capella Singapore": _B + "sg/capella-singapore.html",
+    # Taipei (each Booking.com page checked by hand, October 2026)
+    "Regent Taipei": _B + "tw/the-regent-taipei.html",
+    "The Okura Prestige Taipei": _B + "tw/the-okura-prestige-taipei.html",
+    "Palais de Chine Hotel": _B + "tw/palais-de-chine.html",
+    "citizenM Taipei North Gate": _B + "tw/citizenm-taipei-north-gate.html",
+    "amba Taipei Ximending": _B + "tw/taipei-amba-ximending.html",
+    # Booking.com titles it "Just Sleep - Ximending"
+    "Just Sleep Taipei Ximending": _B + "tw/just-sleep-ximending.html",
+    "Grand Hyatt Taipei": _B + "tw/grand-hyatt-taipei-taipei50.html",
+    "W Taipei": _B + "tw/w-taipei.html",
+    "Shangri-La Far Eastern, Taipei": _B + "tw/shangri-la-s-far-eastern-plaza-taipei.html",
+    "Hotel Proverbs Taipei": _B + "tw/hotel-proverbs-taipei.html",
+    "Grand View Resort Beitou": _B + "tw/grand-view-resort-beitou.html",
+    "Hotel Royal Beitou": _B + "tw/royal-hotel-beitou.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

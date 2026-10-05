@@ -445,6 +445,23 @@ SPECS = [
                      "City Hall and Bayfront. Raffles reopened in 2019 with 115 suites, the Marina Bay Sands "
                      "SkyPark pool is for hotel guests only, and Pan Pacific Singapore has the Bay for less. Part "
                      "of our guide to where to stay in Singapore."),
+    dict(id=1043, slug="where-to-stay-taipei-f1", article="articles/where-to-stay-in-taipei.html",
+         board=ASIA, photo=28617722, title="TAIPEI", tagline="where to stay, area by area",
+         bullets=["First trip: Main Station", "Food and value: Ximending", "Taipei 101: Xinyi",
+                  "Hot springs: Beitou"], cta="See all 12 hotels →",
+         pin_title="Where to Stay in Taipei (2026): 5 Areas and 12 Hotels Compared",
+         description="Taipei Main Station and Zhongshan for a first trip, Ximending for food and value, Xinyi "
+                     "for Taipei 101, Da'an for cafés and quieter streets, and Beitou for a night in a "
+                     "hot-spring room. Five areas and 12 hotels, with the catch for each."),
+    dict(id=1044, slug="taipei-beitou-f1", article="articles/where-to-stay-in-taipei.html",
+         board=ASIA, photo=15289946, title="BEITOU", tagline="Taipei's hot-spring night",
+         bullets=["In-room hot-spring baths", "The 1913 bathhouse, free", "Thermal Valley on foot",
+                  "On a branch of the Red Line"], cta="Where to stay →",
+         pin_title="A Hot-Spring Night in Beitou, Taipei: Two Hotels and How to Get There",
+         description="Beitou, on Taipei's northern edge, has been a hot-spring resort since the early twentieth "
+                     "century; its 1913 bathhouse is now a free museum. Take the Red Line to Beitou and the "
+                     "branch to Xinbeitou. Two hotels with a hot-spring bath in every room, from our guide to "
+                     "where to stay in Taipei."),
 ]
 
 

@@ -1,0 +1,268 @@
+{
+  "place": "Taipei",
+  "facts": [
+    {
+      "id": "tw.arrival-card",
+      "topic": "entry",
+      "claim": "Since 1 October 2025 Taiwan's paper arrival card has been replaced by the online Taiwan Arrival Card (TWAC), which is free and is submitted in the week before arrival.",
+      "sources": [
+        {
+          "url": "https://www.immigration.gov.tw/5475/5478/141457/142068/404193/",
+          "kind": "official",
+          "title": "National Immigration Agency: TWAC"
+        },
+        {
+          "url": "https://www.taiwanembassy.org/ussea_en/post/10010.html",
+          "kind": "official",
+          "title": "Taipei Economic and Cultural Office: TWAC 7 days before entry"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "1 October 2025",
+          "Taiwan Arrival Card"
+        ]
+      },
+      "watch": "Taiwan Arrival Card|TWAC"
+    },
+    {
+      "id": "tw.service-charge",
+      "topic": "tax",
+      "claim": "Many Taiwanese hotels and restaurants add a 10% service charge, and tipping is not customary.",
+      "sources": [
+        {
+          "url": "https://eng.taiwan.net.tw/m1.aspx?sNo=0002064",
+          "kind": "official",
+          "title": "Taiwan Tourism Administration: useful tips"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "10% service charge",
+          "tipping is not customary"
+        ]
+      }
+    },
+    {
+      "id": "tw.airport-mrt.express",
+      "topic": "transport",
+      "claim": "Taoyuan Airport MRT express trains from Taipei Main Station (A1) stop only at A3 and A8 before Airport Terminal 1 (A12); in-town check-in is offered at A1 and A3 for some airlines.",
+      "sources": [
+        {
+          "url": "https://www.tymetro.com.tw/tymetro-new/en/_pages/travel-guide/timetable.php",
+          "kind": "official",
+          "title": "Taoyuan Metro: Taipei Main Station"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "only two stops on the way"
+        ]
+      },
+      "note": "Fare (NT$160 per secondary sources) and journey time (about 35 minutes) not yet confirmed at Taoyuan Metro; not stated."
+    },
+    {
+      "id": "tw.beitou-museum",
+      "topic": "place",
+      "claim": "Beitou's public bathhouse of 1913 is now the Beitou Hot Spring Museum (since 1998), free to enter, a short walk from Xinbeitou station.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Beitou_Hot_Spring_Museum",
+          "kind": "reference",
+          "title": "Wikipedia: Beitou Hot Spring Museum"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "1913",
+          "free to enter"
+        ]
+      }
+    },
+    {
+      "id": "tw.hotel.regent-taipei",
+      "topic": "hotel",
+      "claim": "Regent Taipei opened in 1990 and has 538 rooms and suites, about five minutes' walk from Zhongshan station, with a heated rooftop pool.",
+      "value": {
+        "opened": 1990,
+        "rooms": 538
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Regent_Taipei",
+          "kind": "reference",
+          "title": "Wikipedia: Regent Taipei"
+        },
+        {
+          "url": "https://www.regenttaiwan.com/",
+          "kind": "operator",
+          "title": "Regent Taipei"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "538 rooms",
+          "since 1990"
+        ]
+      }
+    },
+    {
+      "id": "tw.hotel.okura-prestige",
+      "topic": "hotel",
+      "claim": "The Okura Prestige Taipei opened in August 2012 with 208 rooms on Nanjing East Road.",
+      "value": {
+        "opened": "2012-08-03",
+        "rooms": 208
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Okura_Prestige_Taipei",
+          "kind": "reference",
+          "title": "Wikipedia: The Okura Prestige Taipei"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "August 2012",
+          "208 rooms"
+        ]
+      }
+    },
+    {
+      "id": "tw.hotel.palais-de-chine",
+      "topic": "hotel",
+      "claim": "Palais de Chine Hotel, built in 2010 beside the Taipei bus terminal, has 286 rooms; its restaurant Le Palais holds three Michelin stars.",
+      "value": {
+        "rooms": 286,
+        "built": 2010
+      },
+      "sources": [
+        {
+          "url": "https://www.booking.com/hotel/tw/palais-de-chine.html",
+          "kind": "secondary",
+          "title": "Booking.com: Palais de Chine"
+        },
+        {
+          "url": "https://guide.michelin.com/en/hotels-stays/taipei/palais-de-chine-7560",
+          "kind": "news",
+          "title": "Michelin Guide: Palais de Chine"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "286 rooms",
+          "three Michelin stars"
+        ]
+      },
+      "note": "Recheck Le Palais's stars when the 2027 Taipei Michelin list is out."
+    },
+    {
+      "id": "tw.hotel.citizenm-north-gate",
+      "topic": "hotel",
+      "claim": "citizenM Taipei North Gate opened in 2017 with some 265 compact rooms opposite the North Gate, near Taipei Main Station.",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/tpecm-citizenm-taipei-north-gate/overview/",
+          "kind": "operator",
+          "title": "citizenM Taipei North Gate"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "265 compact rooms",
+          "opened in 2017"
+        ]
+      },
+      "note": "citizenM's own site now redirects to Marriott's brand pages."
+    },
+    {
+      "id": "tw.hotel.grand-hyatt",
+      "topic": "hotel",
+      "claim": "Grand Hyatt Taipei opened in September 1990 beside Taipei 101 and has about 850 rooms.",
+      "value": {
+        "opened": "1990-09",
+        "rooms": 850
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Grand_Hyatt_Taipei",
+          "kind": "reference",
+          "title": "Wikipedia: Grand Hyatt Taipei"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "about 850 rooms"
+        ]
+      }
+    },
+    {
+      "id": "tw.hotel.w-taipei",
+      "topic": "hotel",
+      "claim": "W Taipei opened in 2011 with 405 rooms on the 8th to 31st floors of the building above Taipei City Hall station.",
+      "value": {
+        "opened": 2011,
+        "rooms": 405
+      },
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/W_Taipei",
+          "kind": "reference",
+          "title": "Wikipedia: W Taipei"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "405 rooms",
+          "8th to 31st floors"
+        ]
+      }
+    },
+    {
+      "id": "tw.hotel.royal-beitou",
+      "topic": "hotel",
+      "claim": "Hotel Royal Beitou, opposite Xinbeitou station, has Beitou's white-sulphur spring water, about 45 to 50°C, piped to every room.",
+      "sources": [
+        {
+          "url": "https://www.hotelroyal.com.tw/en-us/beitou/about",
+          "kind": "operator",
+          "title": "Hotel Royal Beitou: about"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "45 to 50°C"
+        ]
+      }
+    },
+    {
+      "id": "tw.hotel.grand-view-beitou",
+      "topic": "hotel",
+      "claim": "Every room at Grand View Resort Beitou has its own hot- and cold-spring baths; children under 12 are not allowed in its public hot spring.",
+      "sources": [
+        {
+          "url": "https://www.booking.com/hotel/tw/grand-view-resort-beitou.html",
+          "kind": "secondary",
+          "title": "Booking.com: Grand View Resort Beitou"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-taipei.html": [
+          "children under 12"
+        ]
+      }
+    }
+  ]
+}

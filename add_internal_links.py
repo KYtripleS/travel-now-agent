@@ -543,6 +543,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Travel Insurance for Japan",
         "Do you actually need it? Japanese healthcare costs, what policies cover, and honest picks.",
     ),
+    "articles/where-to-stay-in-taipei.html": (
+        "Where to Stay in Taipei",
+        "Five areas and 12 hotels, from Taipei Main Station to a hot-spring room in Beitou.",
+    ),
     "articles/where-to-stay-in-singapore.html": (
         "Where to Stay in Singapore",
         "Five areas and 12 hotels, from Raffles of 1887 to a compact room on Orchard Road, and what \"++\" adds to the bill.",
@@ -1175,6 +1179,7 @@ LINKS: dict[str, list[str]] = {
         "articles/how-to-save-money-on-international-travel.html",
     ],
     "articles/where-to-book-taipei-day-tour.html": [
+        "articles/where-to-stay-in-taipei.html",
         "articles/getting-around-taiwan.html",
         "articles/taiwan-high-speed-rail-pass-worth-it.html",
         "articles/taipei-first-timers-guide.html",
@@ -1192,6 +1197,7 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-book-sydney-harbour-cruise.html",
     ],
     "articles/taipei-first-timers-guide.html": [
+        "articles/where-to-stay-in-taipei.html",
         "articles/getting-around-taiwan.html",
         "articles/things-to-do-in-taipei.html",
         "articles/where-to-book-taipei-day-tour.html",
@@ -1574,6 +1580,20 @@ LINKS: dict[str, list[str]] = {
         "articles/safetywing-vs-world-nomads.html",
         "articles/how-much-does-japan-cost.html",
         "countries/japan/index.html",
+    ],
+    "articles/where-to-stay-in-taipei.html": [
+        "articles/taipei-first-timers-guide.html",
+        "articles/things-to-do-in-taipei.html",
+        "articles/where-to-book-taipei-day-tour.html",
+        "articles/best-esim-taiwan-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/where-to-stay-in-hong-kong.html",
+    ],
+    "articles/things-to-do-in-taipei.html": [
+        "articles/where-to-stay-in-taipei.html",
+        "articles/taipei-first-timers-guide.html",
+        "articles/where-to-book-taipei-day-tour.html",
+        "articles/best-esim-taiwan-2026.html",
     ],
     "articles/where-to-stay-in-singapore.html": [
         "articles/singapore-first-timers-guide.html",

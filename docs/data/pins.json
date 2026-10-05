@@ -1,5 +1,5 @@
 {
- "count": 42,
+ "count": 44,
  "pins": [
   {
    "id": 1001,
@@ -377,6 +377,24 @@
    "link": "https://gentlyyonder.com/articles/where-to-stay-in-singapore.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
    "title": "Staying at Marina Bay, Singapore: Three Hotels for a First Trip",
    "description": "Gardens by the Bay, the museums and the Padang are on foot, and four MRT lines meet at City Hall and Bayfront. Raffles reopened in 2019 with 115 suites, the Marina Bay Sands SkyPark pool is for hotel guests only, and Pan Pacific Singapore has the Bay for less. Part of our guide to where to stay in Singapore.",
+   "board": "Asia Travel"
+  },
+  {
+   "id": 1043,
+   "slug": "where-to-stay-taipei-f1",
+   "image": "https://gentlyyonder.com/images/pinterest/fresh/where-to-stay-taipei-f1.jpg",
+   "link": "https://gentlyyonder.com/articles/where-to-stay-in-taipei.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
+   "title": "Where to Stay in Taipei (2026): 5 Areas and 12 Hotels Compared",
+   "description": "Taipei Main Station and Zhongshan for a first trip, Ximending for food and value, Xinyi for Taipei 101, Da'an for cafés and quieter streets, and Beitou for a night in a hot-spring room. Five areas and 12 hotels, with the catch for each.",
+   "board": "Asia Travel"
+  },
+  {
+   "id": 1044,
+   "slug": "taipei-beitou-f1",
+   "image": "https://gentlyyonder.com/images/pinterest/fresh/taipei-beitou-f1.jpg",
+   "link": "https://gentlyyonder.com/articles/where-to-stay-in-taipei.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
+   "title": "A Hot-Spring Night in Beitou, Taipei: Two Hotels and How to Get There",
+   "description": "Beitou, on Taipei's northern edge, has been a hot-spring resort since the early twentieth century; its 1913 bathhouse is now a free museum. Take the Red Line to Beitou and the branch to Xinbeitou. Two hotels with a hot-spring bath in every room, from our guide to where to stay in Taipei.",
    "board": "Asia Travel"
   }
  ]
