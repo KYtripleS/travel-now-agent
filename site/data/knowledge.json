@@ -3,7 +3,7 @@
   "totals": {
     "countries": 11,
     "cities": 22,
-    "guides": 160
+    "guides": 161
   },
   "countries": [
     {
@@ -92,6 +92,15 @@
               "slug": "where-to-book-tokyo-food-tour",
               "type": "guide",
               "tags": []
+            },
+            {
+              "title": "Where to Stay in Tokyo for Cherry Blossom (2027): Areas, Dates and When to Book",
+              "url": "articles/where-to-stay-in-tokyo-cherry-blossom.html",
+              "slug": "where-to-stay-in-tokyo-cherry-blossom",
+              "type": "stay",
+              "tags": [
+                "Hotels"
+              ]
             },
             {
               "title": "Where to Stay in Tokyo (2026): Six Neighbourhoods and 17 Hotels, Compared",
@@ -306,7 +315,7 @@
           "tags": []
         }
       ],
-      "guideCount": 34
+      "guideCount": 35
     },
     {
       "name": "Australia",

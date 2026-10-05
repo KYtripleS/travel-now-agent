@@ -479,6 +479,25 @@ SPECS = [
                      "Malaysia's tallest building, with 252 rooms and a spa on the 99th floor. Merdeka Square, "
                      "Central Market and Petaling Street are close by. Part of our guide to where to stay in "
                      "Kuala Lumpur."),
+    dict(id=1047, slug="tokyo-sakura-stay-f1", article="articles/where-to-stay-in-tokyo-cherry-blossom.html",
+         board=JP, photo=12045313, title="TOKYO SAKURA", tagline="where to stay in blossom season",
+         bullets=["Usual peak: 31 March", "2026: full by 28 March", "Tax change: 1 April 2027",
+                  "Book refundable, now"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Tokyo for Cherry Blossom (2027): Areas, Dates, Hotels",
+         description="Tokyo's cherry trees usually flower on 24 March and reach full bloom on 31 March, but in "
+                     "2026 they were full by 28 March. Asakusa puts Sumida Park on foot, Ueno has the park "
+                     "picnic, and Shinjuku Gyoen's 70 or so varieties stretch the season. Five areas, 14 hotels, "
+                     "and the hotel-tax change on 1 April 2027."),
+    dict(id=1048, slug="tokyo-sakura-asakusa-f1", article="articles/where-to-stay-in-tokyo-cherry-blossom.html",
+         board=JP, photo=34644895, title="ASAKUSA", tagline="Tokyo's blossom by the river",
+         bullets=["Sumida Park: both banks", "Skytree across the water", "Ueno: 3 stops away",
+                  "Senso-ji on foot"], cta="Where to stay →",
+         pin_title="Asakusa for Tokyo's Cherry Blossom: Sumida Park, Senso-ji and Where to Stay",
+         description="Sumida Park's cherry trees line both banks of the Sumida River for about a kilometre "
+                     "between Azuma Bridge and Sakura Bridge, with Tokyo Skytree across the water, and Ueno Park "
+                     "is three stops away on the Ginza line. Three places to stay, from a hotel with a rooftop "
+                     "terrace over Senso-ji to a hostel by the river. Part of our guide to where to stay in Tokyo "
+                     "for cherry blossom."),
 ]
 
 

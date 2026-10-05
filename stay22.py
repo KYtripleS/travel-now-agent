@@ -89,6 +89,8 @@ PAGES = {
                                     address="Taipei Main Station, Taipei, Taiwan"),
     "where-to-stay-in-kuala-lumpur": dict(area="KLCC", lat=3.1555, lng=101.7140, zoom=15,
                                           address="KLCC Park, Kuala Lumpur, Malaysia"),
+    "where-to-stay-in-tokyo-cherry-blossom": dict(area="Asakusa", lat=35.7118, lng=139.7967, zoom=15,
+                                                  address="Kaminarimon, Tokyo, Japan"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by

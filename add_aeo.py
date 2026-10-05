@@ -328,6 +328,13 @@ V = {
              "the old city and Chinatown for history, and KL Sentral for the 28-minute train to the airport.",
         link_text="KLCC",
         cta=_stay_cta("where-to-stay-in-kuala-lumpur", "See hotels around KLCC")),
+    "where-to-stay-in-tokyo-cherry-blossom": dict(
+        text="For cherry blossom, stay in Asakusa or Ueno: Sumida Park's riverside cherries and Senso-ji are on "
+             "foot from Asakusa, Ueno Park's 800 trees are three stops away on the Ginza line, and the Skyliner "
+             "runs from Ueno to Narita. Choose Marunouchi for the Chidorigafuchi moat, Shibuya for the Meguro "
+             "River and Shinjuku for Shinjuku Gyoen. Book a refundable rate now.",
+        link_text="Asakusa or Ueno",
+        cta=_stay_cta("where-to-stay-in-tokyo-cherry-blossom", "See hotels around Asakusa")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1034,6 +1041,8 @@ QUICK_PICKS = {
     "where-to-stay-in-taipei": ["Regent Taipei", "Palais de Chine Hotel", "citizenM Taipei North Gate"],
     "where-to-stay-in-kuala-lumpur": ["Mandarin Oriental, Kuala Lumpur", "Traders Hotel, Kuala Lumpur",
                                       "Holiday Inn Express Kuala Lumpur City Centre"],
+    "where-to-stay-in-tokyo-cherry-blossom": ["The Gate Hotel Kaminarimon by Hulic", "OMO3 Asakusa by Hoshino Resorts",
+                                              "NOHGA HOTEL UENO TOKYO"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1179,6 +1188,7 @@ _HK = "where-to-stay-in-hong-kong.html"
 _SG = "where-to-stay-in-singapore.html"
 _TP = "where-to-stay-in-taipei.html"
 _KL = "where-to-stay-in-kuala-lumpur.html"
+_TS = "where-to-stay-in-tokyo-cherry-blossom.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1248,7 +1258,8 @@ STAY_POINTERS = {
         'open-air bath.'),
     "things-to-do-in-tokyo": ("intro",
         f'Where you sleep shapes these days as much as what you book. <a href="{_T}">Where to stay in Tokyo</a> '
-        'compares six areas, from Shinjuku to Asakusa, and names 17 hotels.'),
+        'compares six areas, from Shinjuku to Asakusa, and names 17 hotels; in cherry season, <a '
+        f'href="{_TS}">our cherry-blossom guide</a> matches five areas to the parks and rivers.'),
     "tokyo-itinerary-5-days": ("Getting Settled",
         f'Choosing a base for these five days? <a href="{_T}">Where to stay in Tokyo</a> compares six areas, '
         'including Asakusa, Ueno and Shinjuku, and names 17 hotels.'),
@@ -1267,9 +1278,9 @@ STAY_POINTERS = {
         'the walk with your bag stays short.'),
     "best-time-to-visit-japan-2026": ("The dates to plan around",
         f'Travelling in a peak week? Book the room first: <a href="{_JP}">where to stay in Japan on a first trip</a> '
-        f'splits the nights, our guides to {_JP3} name the hotels, and <a '
-        'href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto in cherry-blossom season</a> has the dates and '
-        'the areas by blossom walk.'),
+        f'splits the nights, our guides to {_JP3} name the hotels, and our cherry-blossom guides to <a '
+        f'href="{_TS}">Tokyo</a> and <a href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto</a> have the '
+        'dates and the areas by blossom.'),
     "japan-autumn-2026": ("Flights and Stays",
         f'For where to sleep, <a href="{_JP}">where to stay in Japan on a first trip</a> splits the nights between '
         f'cities, and our guides to {_JP3} name the hotels.'),
@@ -1282,7 +1293,8 @@ STAY_POINTERS = {
     # the three Japan city guides, back to the trip-level question
     "where-to-stay-in-tokyo": ("intro",
         f'Splitting the trip between cities? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers '
-        'how many nights to give Tokyo, Kyoto and Osaka, and moving day in between.'),
+        'how many nights to give Tokyo, Kyoto and Osaka, and moving day in between. Coming for the cherry '
+        f'blossom? <a href="{_TS}">Our cherry-blossom guide</a> has the dates and the tax change on 1 April 2027.'),
     "where-to-stay-in-kyoto": ("intro",
         f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
         'give each city, and how to move your bags between them.'),

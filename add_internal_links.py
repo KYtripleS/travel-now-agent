@@ -555,6 +555,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in Singapore",
         "Five areas and 12 hotels, from Raffles of 1887 to a compact room on Orchard Road, and what \"++\" adds to the bill.",
     ),
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": (
+        "Where to Stay in Tokyo for Cherry Blossom",
+        "The dates to aim for, five areas matched to the parks and rivers, 14 hotels, and the tax change on 1 April 2027.",
+    ),
     "articles/where-to-stay-in-kyoto-cherry-blossom.html": (
         "Where to Stay in Kyoto for Cherry Blossom",
         "The dates to aim for, five areas matched to the blossom walks, 12 hotels, and how to book now for 2027.",
@@ -759,6 +763,7 @@ LINKS: dict[str, list[str]] = {
         "articles/singapore-first-timers-guide.html",
     ],
     "articles/things-to-do-in-tokyo.html": [
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html",
         "articles/day-trips-from-tokyo.html",
         "articles/japan-book-in-advance-2026.html",
         "articles/best-esim-japan-2026.html",
@@ -1409,6 +1414,7 @@ LINKS: dict[str, list[str]] = {
     ],
     # ---- Japan cluster completion (2026-07-20 beachhead push) ----
     "articles/best-time-to-visit-japan-2026.html": [
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html",
         "articles/where-to-stay-in-kyoto-cherry-blossom.html",
         "articles/japan-autumn-2026.html",
         "articles/kyoto-autumn-2026.html",
@@ -1617,7 +1623,17 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-stay-in-hong-kong.html",
         "articles/where-to-stay-in-bangkok.html",
     ],
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html",
+        "articles/things-to-do-in-tokyo.html",
+        "articles/best-time-to-visit-japan-2026.html",
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/narita-haneda-to-central-tokyo.html",
+        "articles/best-esim-japan-2026.html",
+    ],
     "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html",
         "articles/where-to-stay-in-kyoto.html",
         "articles/things-to-do-in-kyoto.html",
         "articles/best-time-to-visit-japan-2026.html",
@@ -1667,6 +1683,7 @@ LINKS: dict[str, list[str]] = {
         "articles/osaka-or-kyoto-where-to-base.html",
     ],
     "articles/where-to-stay-in-tokyo.html": [
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html",
         "articles/where-to-stay-in-japan.html",
         "articles/narita-haneda-to-central-tokyo.html",
         "articles/luggage-storage-tokyo.html",

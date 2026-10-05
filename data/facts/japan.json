@@ -39,6 +39,9 @@
         ],
         "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
           "¥3,000 departure tax"
+        ],
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "¥3,000 departure tax"
         ]
       },
       "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
@@ -147,6 +150,11 @@
           "18 December 2025",
           "8 January",
           "29 January"
+        ],
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "18 December 2025",
+          "8 January",
+          "29 January"
         ]
       }
     },
@@ -208,6 +216,9 @@
           "up to ¥10,000/night"
         ],
         "articles/japan-tax-free-shopping-2026-changes.html": [
+          "up to ¥10,000/night"
+        ],
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
           "up to ¥10,000/night"
         ]
       },
@@ -355,6 +366,349 @@
           "17 of them"
         ]
       }
+    },
+    {
+      "id": "jp.tokyo.sakura.normals",
+      "topic": "history",
+      "claim": "By the Japan Meteorological Agency's 1991-2020 normals, Tokyo's cherry trees first flower on 24 March and reach full bloom on 31 March.",
+      "value": {
+        "flowering": "03-24",
+        "full_bloom": "03-31"
+      },
+      "sources": [
+        {
+          "url": "https://www.data.jma.go.jp/sakura/data/sakura_kaika.html",
+          "kind": "official",
+          "title": "Japan Meteorological Agency: cherry flowering dates, with normals"
+        },
+        {
+          "url": "https://www.data.jma.go.jp/sakura/data/sakura_mankai.html",
+          "kind": "official",
+          "title": "Japan Meteorological Agency: cherry full-bloom dates, with normals"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "24 March",
+          "31 March"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.sakura.2026",
+      "topic": "stat",
+      "claim": "In 2026 Tokyo's cherry trees first flowered on 19 March and reached full bloom on 28 March; in 2025 the dates were 24 March and 30 March.",
+      "value": {
+        "2026": {
+          "flowering": "03-19",
+          "full_bloom": "03-28"
+        },
+        "2025": {
+          "flowering": "03-24",
+          "full_bloom": "03-30"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.data.jma.go.jp/sakura/data/sakura_kaika.html",
+          "kind": "official",
+          "title": "Japan Meteorological Agency: cherry flowering dates"
+        },
+        {
+          "url": "https://www.data.jma.go.jp/sakura/data/sakura_mankai.html",
+          "kind": "official",
+          "title": "Japan Meteorological Agency: cherry full-bloom dates"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "19 March",
+          "28 March",
+          "30 March"
+        ]
+      },
+      "note": "Recheck in spring 2027 and add that year's dates."
+    },
+    {
+      "id": "jp.tokyo.sakura.sample-tree",
+      "topic": "history",
+      "claim": "Since 1966 the Japan Meteorological Agency has observed Tokyo's cherry sample tree at Yasukuni Shrine; it records flowering when five or six flowers are open and full bloom when about 80% are open.",
+      "sources": [
+        {
+          "url": "https://www.data.jma.go.jp/tokyo/shosai/kanyoho/sakura/sakura.html",
+          "kind": "official",
+          "title": "Japan Meteorological Agency, Tokyo: cherry observation notes"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "Yasukuni Shrine",
+          "five or six flowers",
+          "about 80%"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.accommodation-tax",
+      "topic": "tax",
+      "claim": "Until 31 March 2027 Tokyo's accommodation tax is ¥100 per person per night on rooms of ¥10,000 to ¥14,999 per person and ¥200 from ¥15,000; rooms under ¥10,000 are exempt.",
+      "value": {
+        "bands": [
+          [
+            10000,
+            14999,
+            100
+          ],
+          [
+            15000,
+            null,
+            200
+          ]
+        ],
+        "exempt_below": 10000,
+        "until": "2027-03-31"
+      },
+      "sources": [
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/shitsumon/leisure/general_01",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government Bureau of Taxation: accommodation tax"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "¥100 a person a night on rooms of ¥10,000 to ¥14,999",
+          "¥200 from ¥15,000"
+        ],
+        "articles/where-to-stay-in-tokyo.html": [
+          "¥100 per person per night to rooms from ¥10,000 to ¥14,999",
+          "¥200 from ¥15,000"
+        ],
+        "articles/where-to-stay-in-japan.html": [
+          "¥100 on rooms from ¥10,000 to ¥14,999",
+          "¥200 from ¥15,000"
+        ]
+      },
+      "watch": "Tokyo[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
+    },
+    {
+      "id": "jp.tokyo.accommodation-tax-2027",
+      "topic": "tax",
+      "claim": "From 1 April 2027 Tokyo's accommodation tax becomes 3% of the room charge on stays of ¥13,000 or more per person per night, with cheaper stays exempt and licensed private lodging (minpaku) included.",
+      "value": {
+        "from": "2027-04-01",
+        "rate_pct": 3,
+        "exempt_below": 13000
+      },
+      "sources": [
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/shuk_minaoshi",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government Bureau of Taxation: the accommodation tax from 1 April 2027"
+        },
+        {
+          "url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026063004",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government: start date confirmed (30 June 2026)"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "From 1 April 2027 it becomes 3% of the room charge on rooms of ¥13,000 or more a person a night"
+        ],
+        "articles/where-to-stay-in-tokyo.html": [
+          "From stays on 1 April 2027 it becomes 3% of the rate, with rooms under ¥13,000 exempt"
+        ],
+        "articles/where-to-stay-in-japan.html": [
+          "From April 2027, 3% of the rate on stays of ¥13,000 or more per person"
+        ],
+        "articles/japan-tourist-taxes-2026.html": [
+          "from 1 April 2027, when it also becomes 3% of the room rate on stays of ¥13,000 or more per person per night"
+        ]
+      },
+      "watch": "(?:2027|accommodation tax|lodging tax)[^.]{0,80}(?:3%|13,000)"
+    },
+    {
+      "id": "jp.tokyo.ueno-park",
+      "topic": "place",
+      "claim": "Ueno Park, one of the five places designated as Japan's first public parks in 1873, has about 800 cherry trees, a blossom spot since the priest Tenkai brought cherries from Mount Yoshino in the 17th century; the 77th Ueno cherry festival ran from 14 March to 5 April 2026.",
+      "sources": [
+        {
+          "url": "https://www.nippon.com/ja/guide-to-japan/sakura00113067/",
+          "kind": "publisher",
+          "title": "nippon.com: Ueno Park"
+        },
+        {
+          "url": "https://www.ueno.or.jp/post/uenosakuramatsuri",
+          "kind": "operator",
+          "title": "Ueno Tourism Federation: the 77th Ueno cherry festival"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "in 1873",
+          "some 800 cherry trees",
+          "Mount Yoshino",
+          "14 March to 5 April"
+        ]
+      },
+      "note": "Festival dates change every year; recheck in spring 2027."
+    },
+    {
+      "id": "jp.tokyo.sumida-park",
+      "topic": "place",
+      "claim": "Sumida Park's cherry trees line both banks of the Sumida River for about 1 km between Azuma Bridge and Sakura Bridge; the avenue is said to date from the eighth shogun, Tokugawa Yoshimune.",
+      "sources": [
+        {
+          "url": "https://www.nippon.com/ja/guide-to-japan/sakura00113068/",
+          "kind": "publisher",
+          "title": "nippon.com: Sumida Park"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "about a kilometre between Azuma Bridge and Sakura Bridge",
+          "Tokugawa Yoshimune"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.chidorigafuchi",
+      "topic": "place",
+      "claim": "Chidorigafuchi has about 260 cherry trees along a green path of about 700 m, and Chiyoda City runs the boat pier on the moat, with rowing boats, pedal (cycle) boats and swan boats.",
+      "sources": [
+        {
+          "url": "https://visit-chiyoda.tokyo/app/feature/detail/151",
+          "kind": "official",
+          "title": "Visit Chiyoda: Chidorigafuchi"
+        },
+        {
+          "url": "https://www.city.chiyoda.lg.jp/shisetsu/koen/chidorigafuchi-boat.html",
+          "kind": "official",
+          "title": "Chiyoda City: Chidorigafuchi boat pier"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "about 260 cherry trees along a 700-metre path",
+          "Chiyoda City runs a boat pier",
+          "rowing boats, pedal boats and swan boats"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.meguro-river",
+      "topic": "place",
+      "claim": "The Meguro River has about 800 cherry trees along about 3.8 km of both banks, with night lighting in season.",
+      "sources": [
+        {
+          "url": "https://tenki.jp/sakura/3/16/54616.html",
+          "kind": "publisher",
+          "title": "Japan Weather Association (tenki.jp): the Meguro River"
+        },
+        {
+          "url": "https://meguro-kanko.com/spot/detail.php?no=70",
+          "kind": "official",
+          "title": "Meguro tourism association: the Meguro River (about 800 trees over about 4 km in Meguro City)"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "some 800 cherry trees along about 3.8 kilometres"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.shinjuku-gyoen",
+      "topic": "place",
+      "claim": "Shinjuku Gyoen has about 900 cherry trees of about 70 varieties, flowering from February to mid-April; adult entry is ¥500, alcohol is not allowed, and the Shinjuku Gate is a 10-minute walk from Shinjuku Station's South Exit.",
+      "sources": [
+        {
+          "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/highlights/sakura/",
+          "kind": "official",
+          "title": "Ministry of the Environment: Shinjuku Gyoen's cherry trees"
+        },
+        {
+          "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/information/",
+          "kind": "official",
+          "title": "Ministry of the Environment: Shinjuku Gyoen admission"
+        },
+        {
+          "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/rule/",
+          "kind": "official",
+          "title": "Ministry of the Environment: Shinjuku Gyoen rules"
+        },
+        {
+          "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/access/",
+          "kind": "official",
+          "title": "Ministry of the Environment: Shinjuku Gyoen access"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "some 900 cherry trees of about 70 varieties",
+          "Entry for adults is ¥500",
+          "alcohol is not allowed",
+          "ten-minute walk from the South Exit"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.hotel.park-hyatt",
+      "topic": "hotel",
+      "claim": "Park Hyatt Tokyo occupies the top fourteen floors of the 52-storey Shinjuku Park Tower and reopened on 9 December 2025 after a 19-month renovation.",
+      "sources": [
+        {
+          "url": "https://newsroom.hyatt.com/120925-Park-Hyatt-Tokyo-Reopens-Following-19-Month-Renovation",
+          "kind": "operator",
+          "title": "Hyatt Newsroom: Park Hyatt Tokyo reopens"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "reopened on 9 December 2025"
+        ],
+        "articles/where-to-stay-in-tokyo.html": [
+          "reopened on 9 December 2025"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.chidorigafuchi.boat-fee",
+      "topic": "price",
+      "claim": "From 1 March 2026 a boat at the Chidorigafuchi pier costs ¥1,500 for 30 minutes (¥3,000 for 60) in cherry-viewing season and ¥1,000 for 30 minutes otherwise; the pier closes from December to February.",
+      "value": {
+        "since": "2026-03-01",
+        "sakura_30min": 1500,
+        "sakura_60min": 3000,
+        "normal_30min": 1000,
+        "normal_60min": 2000
+      },
+      "sources": [
+        {
+          "url": "https://www.city.chiyoda.lg.jp/shisetsu/koen/chidorigafuchi-boat.html",
+          "kind": "official",
+          "title": "Chiyoda City: Chidorigafuchi boat pier"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "¥1,500 for 30 minutes"
+        ]
+      },
+      "note": "Recheck before the 2027 season; the city revised fees on 1 March 2026."
     }
   ]
 }
