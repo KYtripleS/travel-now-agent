@@ -70,6 +70,7 @@ REDIRECTS: dict[str, str] = {
     "stay-seoul":  "articles/where-to-stay-in-seoul.html",
     "stay-bangkok": "articles/where-to-stay-in-bangkok.html",
     "stay-hong-kong": "articles/where-to-stay-in-hong-kong.html",
+    "stay-kyoto-sakura": "articles/where-to-stay-in-kyoto-cherry-blossom.html",
     "stay-kyoto":  "articles/where-to-stay-in-kyoto.html",
     "stay-mel":    "articles/where-to-stay-in-melbourne.html",
     "stay-osaka":  "articles/where-to-stay-in-osaka.html",

@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-04",
+  "generated": "2026-10-05",
   "totals": {
     "countries": 11,
     "cities": 22,
-    "guides": 156
+    "guides": 157
   },
   "countries": [
     {
@@ -145,6 +145,15 @@
               "slug": "three-slow-days-in-kyoto",
               "type": "itinerary",
               "tags": []
+            },
+            {
+              "title": "Where to Stay in Kyoto for Cherry Blossom (2027): Areas, Dates and When to Book",
+              "url": "articles/where-to-stay-in-kyoto-cherry-blossom.html",
+              "slug": "where-to-stay-in-kyoto-cherry-blossom",
+              "type": "stay",
+              "tags": [
+                "Hotels"
+              ]
             },
             {
               "title": "Where to Stay in Kyoto (2026): Five Areas and 14 Hotels and Ryokan, Compared",
@@ -297,7 +306,7 @@
           "tags": []
         }
       ],
-      "guideCount": 33
+      "guideCount": 34
     },
     {
       "name": "Australia",

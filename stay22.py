@@ -81,6 +81,8 @@ PAGES = {
                                      address="Terminal 21, Bangkok, Thailand"),
     "where-to-stay-in-hong-kong": dict(area="Tsim Sha Tsui", lat=22.2966, lng=114.1722, zoom=15,
                                        address="1881 Heritage, Hong Kong"),
+    "where-to-stay-in-kyoto-cherry-blossom": dict(area="Okazaki", lat=35.0128, lng=135.7838, zoom=15,
+                                                  address="Heian Shrine, Kyoto, Japan"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -211,6 +213,10 @@ HOTELS = {
     "iclub Sheung Wan Hotel": _B + "hk/iclub-sheung-wan.html",
     "Cordis, Hong Kong": _B + "hk/langhamplace.html",
     "Eaton HK": _B + "hk/eaton.html",
+    # Kyoto in cherry-blossom season (each Booking.com page checked by hand, October 2026)
+    "The Westin Miyako Kyoto": _B + "jp/the-westin-miyako-kyoto.html",
+    "Hotel Okura Kyoto Okazaki Bettei": _B + "jp/hoteruokurajing-du-gang-qi-bie-di.html",
+    "Suiran, a Luxury Collection Hotel, Kyoto": _B + "jp/suiran-luxury-collection-kyoto.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -409,6 +409,24 @@ SPECS = [
                      "The Peninsula opened on Salisbury Road in 1928, Hotel ICON is the Hong Kong Polytechnic "
                      "University's teaching hotel, and the YMCA's Salisbury sits on the same road for far less. "
                      "Part of our guide to where to stay in Hong Kong."),
+    dict(id=1039, slug="kyoto-sakura-stay-f1", article="articles/where-to-stay-in-kyoto-cherry-blossom.html",
+         board=JP, photo=16153999, title="KYOTO SAKURA", tagline="where to stay in blossom season",
+         bullets=["Usual peak: 4 April", "2026: full by 30 March", "Walks on foot: Okazaki",
+                  "Book refundable, now"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Kyoto for Cherry Blossom (2027): Areas, Dates, Hotels",
+         description="Kyoto's cherry trees usually flower on 26 March and reach full bloom on 4 April, but in "
+                     "2026 they were full by 30 March. Okazaki puts the Philosopher's Path and the Keage Incline "
+                     "on foot; Gion and Higashiyama suit dawn walks; Kyoto Station has the trains. Five areas, "
+                     "12 hotels and how to book now for 2027."),
+    dict(id=1040, slug="kyoto-sakura-okazaki-f1", article="articles/where-to-stay-in-kyoto-cherry-blossom.html",
+         board=JP, photo=16154009, title="OKAZAKI", tagline="Kyoto's blossom walks, on foot",
+         bullets=["Philosopher's Path: ~2 km", "Keage Incline: 582 m", "About 400 + 90 trees",
+                  "The subway to downtown"], cta="Where to stay →",
+         pin_title="Staying in Okazaki, Kyoto: The Cherry Blossom Walks on Your Doorstep",
+         description="The Philosopher's Path runs for about 2 km beside a canal under some 400 cherry trees, and "
+                     "the 582-metre Keage Incline has about 90 more. Stay in Okazaki, near Nanzen-ji, and both are "
+                     "a walk away, with the Tozai subway line downtown. Part of our guide to where to stay in "
+                     "Kyoto for cherry blossom."),
 ]
 
 

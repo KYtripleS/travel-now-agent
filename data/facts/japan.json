@@ -36,6 +36,9 @@
         ],
         "articles/japan-tax-free-shopping-2026-changes.html": [
           "¥3,000 departure tax"
+        ],
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "¥3,000 departure tax"
         ]
       },
       "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
@@ -60,6 +63,298 @@
       "superseded_by": "jp.departure-tax",
       "changed": "2026-07-01",
       "note": "Our guide's summary line kept this figure until 4 October 2026 (corrections.html)."
+    },
+    {
+      "id": "jp.kyoto.sakura.normals",
+      "topic": "history",
+      "claim": "By the Kyoto Local Meteorological Office's 1991-2020 normals, Kyoto's cherry trees first flower on 26 March and reach full bloom on 4 April.",
+      "value": {
+        "flowering": "03-26",
+        "full_bloom": "04-04",
+        "period": "1991-2020"
+      },
+      "sources": [
+        {
+          "url": "https://www.data.jma.go.jp/kyoto/2_data/seibutsu/index.html",
+          "kind": "official",
+          "title": "Kyoto Local Meteorological Office: plant phenology"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "26 March",
+          "4 April"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.sakura.2026",
+      "topic": "stat",
+      "claim": "In 2026 Kyoto's cherry trees first flowered on 23 March and reached full bloom on 30 March; in 2025 the dates were 27 March and 5 April.",
+      "value": {
+        "2026": {
+          "flowering": "03-23",
+          "full_bloom": "03-30"
+        },
+        "2025": {
+          "flowering": "03-27",
+          "full_bloom": "04-05"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.data.jma.go.jp/kyoto/2_data/seibutsu/index.html",
+          "kind": "official",
+          "title": "Kyoto Local Meteorological Office: plant phenology"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "23 March",
+          "30 March",
+          "27 March",
+          "5 April"
+        ]
+      },
+      "note": "Recheck in spring 2027 and add that year's dates."
+    },
+    {
+      "id": "jp.sakura.forecast-timing-2026",
+      "topic": "stat",
+      "claim": "For the 2026 season, the first cherry forecasts came from the Japan Meteorological Corporation on 18 December 2025, Weathernews on 8 January 2026 and the Japan Weather Association on 29 January 2026.",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000013.000135496.html",
+          "kind": "publisher",
+          "title": "Japan Meteorological Corporation: first 2026 forecast"
+        },
+        {
+          "url": "https://weathernews.jp/news/202601/080056/",
+          "kind": "publisher",
+          "title": "Weathernews: first 2026 forecast"
+        },
+        {
+          "url": "https://www.jwa.or.jp/news/2026/01/32859/",
+          "kind": "publisher",
+          "title": "Japan Weather Association: first 2026 forecast"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "18 December 2025",
+          "8 January",
+          "29 January"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.accommodation-tax",
+      "topic": "tax",
+      "claim": "Since 1 March 2026 Kyoto City charges an accommodation tax per person per night by room rate: ¥200 under ¥6,000, ¥400 from ¥6,000, ¥1,000 from ¥20,000, ¥4,000 from ¥50,000 and ¥10,000 from ¥100,000.",
+      "value": {
+        "since": "2026-03-01",
+        "bands_jpy": [
+          [
+            0,
+            200
+          ],
+          [
+            6000,
+            400
+          ],
+          [
+            20000,
+            1000
+          ],
+          [
+            50000,
+            4000
+          ],
+          [
+            100000,
+            10000
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000345893.html",
+          "kind": "official",
+          "title": "Kyoto City: accommodation tax from 1 March 2026"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "Since 1 March 2026",
+          "¥10,000"
+        ],
+        "articles/japan-tourist-taxes-2026.html": [
+          "¥10,000/night"
+        ],
+        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+          "¥10,000 a night"
+        ],
+        "articles/is-accommodation-tax-double-taxation.html": [
+          "¥10,000 a night"
+        ],
+        "articles/does-tourist-tax-reduce-overtourism.html": [
+          "up to ¥10,000/night"
+        ],
+        "articles/how-much-does-japan-cost.html": [
+          "up to ¥10,000/night"
+        ],
+        "articles/japan-tax-free-shopping-2026-changes.html": [
+          "up to ¥10,000/night"
+        ]
+      },
+      "watch": "(?i)kyoto[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥",
+      "note": "Related-reading cards take their text from add_internal_links.ARTICLES."
+    },
+    {
+      "id": "jp.kyoto.philosophers-path",
+      "topic": "place",
+      "claim": "The Philosopher's Path runs for about 2 km beside a canal from Ginkaku-ji to Nyakuoji Shrine, under some 400 cherry trees.",
+      "value": {
+        "km": 2,
+        "cherry_trees": 400
+      },
+      "sources": [
+        {
+          "url": "https://kanko.city.kyoto.lg.jp/detail.php?InforKindCode=1&ManageCode=3000069",
+          "kind": "official",
+          "title": "Kyoto City tourism: the Philosopher's Path"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "about 2 kilometres",
+          "some 400 cherry trees"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.keage-incline",
+      "topic": "place",
+      "claim": "The Keage Incline is a 582-metre former inclined railway for canal boats, with about 90 cherry trees along its tracks.",
+      "value": {
+        "m": 582,
+        "cherry_trees": 90
+      },
+      "sources": [
+        {
+          "url": "https://hanami.walkerplus.com/detail/ar0726e382390/",
+          "kind": "secondary",
+          "title": "Walkerplus: the Keage Incline"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "582-metre",
+          "about 90 more"
+        ]
+      },
+      "note": "Find the Kyoto City Waterworks Bureau's own page for the length and tree count."
+    },
+    {
+      "id": "jp.kyoto.nijo-sakura-2026",
+      "topic": "place",
+      "claim": "Nijo Castle has about 300 cherry trees of some 50 varieties; its 2026 cherry festival ran from 19 March to 19 April with evening openings.",
+      "sources": [
+        {
+          "url": "https://ja.kyoto.travel/event/single.php?event_id=4676",
+          "kind": "official",
+          "title": "Kyoto City tourism: Nijo Castle cherry festival 2026"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "about 300 cherry trees of some 50 varieties",
+          "19 March to 19 April"
+        ]
+      },
+      "note": "Replace with the 2027 dates once announced."
+    },
+    {
+      "id": "jp.kyoto.hotel.westin-miyako",
+      "topic": "hotel",
+      "claim": "The Westin Miyako Kyoto traces its history to 1890, sits beside the Keage Incline three minutes' walk from Keage station, and completed a renovation in 2020 that halved the number of rooms and added a spa on a hot spring under the grounds.",
+      "sources": [
+        {
+          "url": "https://en.miyakohotels.ne.jp/westinkyoto/banquet/concept/",
+          "kind": "operator",
+          "title": "The Westin Miyako Kyoto: concept"
+        },
+        {
+          "url": "https://www.booking.com/hotel/jp/the-westin-miyako-kyoto.html",
+          "kind": "secondary",
+          "title": "Booking.com: The Westin Miyako Kyoto"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "goes back to 1890",
+          "completed in 2020"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.hotel.okura-okazaki-bettei",
+      "topic": "hotel",
+      "claim": "Hotel Okura Kyoto Okazaki Bettei opened on 20 January 2022 with 60 rooms on four floors, on the grounds of the Okazaki Betsuin temple.",
+      "value": {
+        "opened": "2022-01-20",
+        "rooms": 60
+      },
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20211125006311/en/Hotel-Okura-Kyoto-Okazaki-Bettei-to-Open-January-20th",
+          "kind": "news",
+          "title": "Business Wire: opening"
+        },
+        {
+          "url": "https://okazakibettei.hotelokurakyoto.com/en/concept/",
+          "kind": "operator",
+          "title": "Hotel Okura Kyoto Okazaki Bettei: concept"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "60 rooms on four floors",
+          "January 2022"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.hotel.suiran",
+      "topic": "hotel",
+      "claim": "Suiran, a Luxury Collection Hotel, Kyoto has 39 rooms around a Meiji-era summer residence in Arashiyama, 17 with their own hot-spring bath.",
+      "value": {
+        "rooms": 39,
+        "onsen_rooms": 17
+      },
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/ukylc-suiran-a-luxury-collection-hotel-kyoto/overview/",
+          "kind": "operator",
+          "title": "Marriott: Suiran"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+          "39 rooms",
+          "17 of them"
+        ]
+      }
     }
   ]
 }

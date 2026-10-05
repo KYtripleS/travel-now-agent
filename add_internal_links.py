@@ -543,6 +543,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Travel Insurance for Japan",
         "Do you actually need it? Japanese healthcare costs, what policies cover, and honest picks.",
     ),
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": (
+        "Where to Stay in Kyoto for Cherry Blossom",
+        "The dates to aim for, five areas matched to the blossom walks, 12 hotels, and how to book now for 2027.",
+    ),
     "articles/where-to-stay-in-hong-kong.html": (
         "Where to Stay in Hong Kong",
         "Five areas and 12 hotels on both sides of the harbour, from The Peninsula of 1928 to a no-frills hotel in Sheung Wan.",
@@ -757,6 +761,7 @@ LINKS: dict[str, list[str]] = {
         "articles/japan-7-day-itinerary.html",
     ],
     "articles/things-to-do-in-kyoto.html": [
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html",
         "articles/gion-kyoto-neighbourhood-guide.html",
         "articles/best-esim-japan-2026.html",
         "articles/three-slow-days-in-kyoto.html",
@@ -1386,6 +1391,7 @@ LINKS: dict[str, list[str]] = {
     ],
     # ---- Japan cluster completion (2026-07-20 beachhead push) ----
     "articles/best-time-to-visit-japan-2026.html": [
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html",
         "articles/japan-autumn-2026.html",
         "articles/kyoto-autumn-2026.html",
         "articles/japan-book-in-advance-2026.html",
@@ -1563,6 +1569,14 @@ LINKS: dict[str, list[str]] = {
         "articles/how-much-does-japan-cost.html",
         "countries/japan/index.html",
     ],
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+        "articles/where-to-stay-in-kyoto.html",
+        "articles/things-to-do-in-kyoto.html",
+        "articles/best-time-to-visit-japan-2026.html",
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/where-to-stay-in-osaka.html",
+    ],
     "articles/where-to-stay-in-hong-kong.html": [
         "articles/hong-kong-first-timers-guide.html",
         "articles/things-to-do-in-hong-kong.html",
@@ -1660,6 +1674,7 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-stay-in-sydney.html",
     ],
     "articles/where-to-stay-in-kyoto.html": [
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html",
         "articles/where-to-stay-in-japan.html",
         "articles/osaka-or-kyoto-where-to-base.html",
         "articles/things-to-do-in-kyoto.html",

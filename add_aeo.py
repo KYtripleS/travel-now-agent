@@ -301,6 +301,13 @@ V = {
              "lower prices.",
         link_text="Tsim Sha Tsui, near the Star Ferry",
         cta=_stay_cta("where-to-stay-in-hong-kong", "See hotels around Tsim Sha Tsui")),
+    "where-to-stay-in-kyoto-cherry-blossom": dict(
+        text="For cherry blossom, stay in Okazaki, near Nanzen-ji: the Philosopher's Path and the Keage Incline "
+             "are on foot, and the subway takes you downtown in minutes. Choose Gion and Higashiyama for "
+             "Maruyama Park at dawn, downtown for the Kamo River, Kyoto Station for the trains, and Arashiyama "
+             "for the hills. Book a refundable rate now.",
+        link_text="Okazaki, near Nanzen-ji",
+        cta=_stay_cta("where-to-stay-in-kyoto-cherry-blossom", "See hotels around Okazaki")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1001,6 +1008,8 @@ QUICK_PICKS = {
     "where-to-stay-in-bangkok": ["Hyatt Regency Bangkok Sukhumvit", "Bangkok Marriott Marquis Queen’s Park",
                                  "Holiday Inn Express Bangkok Sukhumvit 11"],
     "where-to-stay-in-hong-kong": ["The Peninsula Hong Kong", "Hotel ICON", "The Salisbury – YMCA of Hong Kong"],
+    "where-to-stay-in-kyoto-cherry-blossom": ["The Westin Miyako Kyoto", "Hotel Okura Kyoto Okazaki Bettei",
+                                              "Cross Hotel Kyoto"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1205,7 +1214,9 @@ STAY_POINTERS = {
         'the walk with your bag stays short.'),
     "best-time-to-visit-japan-2026": ("The dates to plan around",
         f'Travelling in a peak week? Book the room first: <a href="{_JP}">where to stay in Japan on a first trip</a> '
-        f'splits the nights, and our guides to {_JP3} name the hotels.'),
+        f'splits the nights, our guides to {_JP3} name the hotels, and <a '
+        'href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto in cherry-blossom season</a> has the dates and '
+        'the areas by blossom walk.'),
     "japan-autumn-2026": ("Flights and Stays",
         f'For where to sleep, <a href="{_JP}">where to stay in Japan on a first trip</a> splits the nights between '
         f'cities, and our guides to {_JP3} name the hotels.'),
@@ -1239,7 +1250,9 @@ STAY_POINTERS = {
         'explains when a hotel at the station beats one downtown.'),
     "things-to-do-in-kyoto": ("intro",
         f'Where you stay decides which of these you can walk to early, before the crowds. <a href="{_K}">Where '
-        'to stay in Kyoto</a> compares five areas, from downtown to Arashiyama.'),
+        'to stay in Kyoto</a> compares five areas, from downtown to Arashiyama, and <a '
+        'href="where-to-stay-in-kyoto-cherry-blossom.html">our cherry-blossom guide</a> matches them to the '
+        'blossom walks.'),
     # Osaka
     "osaka-first-timers-guide": ("intro",
         f'Minami or Kita? <a href="{_O}">Where to stay in Osaka</a> compares Namba and Umeda with three other '
