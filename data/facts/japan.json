@@ -709,6 +709,161 @@
         ]
       },
       "note": "Recheck before the 2027 season; the city revised fees on 1 March 2026."
+    },
+    {
+      "id": "jp.himeji.castle-admission",
+      "topic": "price",
+      "claim": "Since 1 March 2026 Himeji Castle has charged ¥2,500 to everyone aged 18 or over who does not live in Himeji City, Japanese or foreign, and ¥1,000 to Himeji residents aged 18 or over; under-18s enter free.",
+      "value": {
+        "since": "2026-03-01",
+        "non_resident_18_plus": 2500,
+        "resident_18_plus": 1000,
+        "under_18": 0,
+        "group_30_non_resident": 2000,
+        "group_30_resident": 800,
+        "adult_before": 1000
+      },
+      "sources": [
+        {
+          "url": "https://www.city.himeji.lg.jp/castle/0000030746.html",
+          "kind": "official",
+          "title": "Himeji City: Himeji Castle admission from 1 March 2026, and who counts as a resident (Japanese)"
+        },
+        {
+          "url": "https://www.himejicastle.jp/en/",
+          "kind": "official",
+          "title": "Himeji Castle official site (Himeji City): admission fees"
+        },
+        {
+          "url": "https://www.city.himeji.lg.jp/shisei/0000032640.html",
+          "kind": "official",
+          "title": "Himeji City, 9 February 2026: new admission fees and digital tickets (Japanese)"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+          "Himeji Castle has charged ¥2,500 to everyone aged 18 or over who does not live in Himeji City, Japanese or foreign",
+          "Himeji residents pay ¥1,000, and under-18s enter free",
+          "and ¥1,000 to residents"
+        ]
+      },
+      "watch": "Himeji[^.]{0,120}¥\\s?[\\d,]+|¥\\s?[\\d,]+[^.]{0,60}Himeji",
+      "note": "The fee is by residence, not nationality: a resident is anyone with an address in Himeji City, shown with a My Number card, a driving licence or another official photo ID with name and address, and the city lists the residence card among them, so foreign residents pay ¥1,000 too. Before 1 March 2026 every adult paid ¥1,000 and children ¥300. Group rates (30 or more): ¥2,000 and ¥800."
+    },
+    {
+      "id": "jp.himeji.castle-admission-basis",
+      "topic": "history",
+      "claim": "Himeji City says it set the March 2026 admission fee from what the castle's upkeep, operation and conservation will cost over the next ten years.",
+      "sources": [
+        {
+          "url": "https://www.city.himeji.lg.jp/castle/0000030746.html",
+          "kind": "official",
+          "title": "Himeji City: Himeji Castle admission from 1 March 2026, and who counts as a resident (Japanese)"
+        },
+        {
+          "url": "https://www.city.himeji.lg.jp/shisei/0000032640.html",
+          "kind": "official",
+          "title": "Himeji City, 9 February 2026: new admission fees and digital tickets (Japanese)"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+          "Himeji says it based the new fee on what the castle's upkeep and conservation will cost over the next ten years"
+        ]
+      },
+      "note": "The city also says the money will go to restoring the castle's historic appearance and to inbound and digital services."
+    },
+    {
+      "id": "jp.niseko.all-mountain-pass",
+      "topic": "price",
+      "claim": "Niseko United's 2026/27 price list puts an adult 1-day All Mountain Pass, which covers Annupuri, Niseko Village, Grand Hirafu and HANAZONO, at ¥12,600 in the regular season (12-23 December 2026 and 1-22 March 2027) and ¥13,500 in the peak season (24 December 2026 to 28 February 2027); none of the four resorts lists a foreigner price.",
+      "value": {
+        "season": "2026/27",
+        "adult_1day_regular": 12600,
+        "adult_1day_peak": 13500,
+        "adult_1day_early_spring": 8800,
+        "adult_1day_final": 6300
+      },
+      "sources": [
+        {
+          "url": "https://www.niseko.ne.jp/en/lift/",
+          "kind": "operator",
+          "title": "Niseko United: 2026-27 All Mountain Pass prices"
+        },
+        {
+          "url": "https://en.grand-hirafu.jp/snow/tickets/",
+          "kind": "operator",
+          "title": "Niseko Tokyu Grand HIRAFU: lift tickets, 2026-27"
+        },
+        {
+          "url": "https://hanazononiseko.com/en/winter/resort/lift-tickets",
+          "kind": "operator",
+          "title": "Niseko HANAZONO Resort: lift tickets, 2026-27"
+        },
+        {
+          "url": "https://annupuri.info/en/lift-tickets/",
+          "kind": "operator",
+          "title": "Niseko Annupuri: tickets and passes, 2026-27"
+        },
+        {
+          "url": "https://www.niseko-village.com/wp-content/uploads/2025/08/NV-Lift-Pass.pdf",
+          "kind": "operator",
+          "title": "Niseko Village: lift pass prices, 2025-26 (PDF)"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+          "None of the four Niseko United ski resorts lists a foreigner price",
+          "is ¥12,600 in the 2026/27 regular season and ¥13,500 at peak"
+        ]
+      },
+      "watch": "(?i)lift[- ]?(ticket|pass)[^.]{0,100}¥\\s?[\\d,]+|All Mountain Pass[^.]{0,100}¥",
+      "note": "These are the listed prices; online they are lower (¥11,900 regular, ¥12,800 peak, on the HANAZONO page). No price by nationality or residency on the Niseko United, Grand Hirafu, HANAZONO or Annupuri price pages (English and Japanese) or in Niseko Village's 2025-26 price list; the one resident price found is jp.niseko.kutchan-local-pass. Niseko Moiwa is not in Niseko United and was not checked."
+    },
+    {
+      "id": "jp.niseko.kutchan-local-pass",
+      "topic": "price",
+      "claim": "For 2025/26, Grand Hirafu and HANAZONO sold people registered as living in Kutchan a Hirafu-HANAZONO day pass for ¥3,000, marked down from ¥11,000, and a season pass for ¥86,500, marked down from ¥173,000, online only, after proving residence with a My Number Card through Kutchan ID+.",
+      "value": {
+        "season": "2025/26",
+        "day_local": 3000,
+        "day_listed": 11000,
+        "season_local": 86500,
+        "season_listed": 173000
+      },
+      "sources": [
+        {
+          "url": "https://locals.hirafu-hanazono.com/public/landing/en/shop.html",
+          "kind": "operator",
+          "title": "Hirafu-Hanazono Online Shop: 2025-26 Kutchan Local Benefit lift passes"
+        },
+        {
+          "url": "https://kutchanid.machi-wai.jp/",
+          "kind": "operator",
+          "title": "Kutchan ID+: resident-discount lift passes for the 2025-26 winter (Japanese)"
+        },
+        {
+          "url": "https://www.tokyu-fudosan-hd.co.jp/news/companies/pdf/ecc35726dd97f2a0c3554db1f3ad8cb285b0dc34.pdf",
+          "kind": "operator",
+          "title": "TFHD digital, 29 November 2024: Kutchan ID+ and the Hirafu-HANAZONO resident lift passes (Japanese, PDF)"
+        },
+        {
+          "url": "https://www.town.kutchan.hokkaido.jp/file/contents/4995/64776/8-11.pdf",
+          "kind": "official",
+          "title": "Kutchan Town newsletter, December 2023: the Kutchan local discount begins (Japanese, PDF)"
+        }
+      ],
+      "checked": "2026-10-06",
+      "recheck_days": 45,
+      "used_in": {
+        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+          "¥3,000 a day in 2025/26, marked down from ¥11,000"
+        ]
+      },
+      "note": "The shop still showed 2025-26 prices on 6 October 2026; when the 2026-27 local prices appear, update the guide and this fact. The pass covers Hirafu and HANAZONO only, not the All Mountain Pass or the shuttle. The discount began in 2023/24 at ¥4,700 against ¥7,800 for a common day pass (Kutchan newsletter)."
     }
   ]
 }
