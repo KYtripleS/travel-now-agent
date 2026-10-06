@@ -498,6 +498,24 @@ SPECS = [
                      "is three stops away on the Ginza line. Three places to stay, from a hotel with a rooftop "
                      "terrace over Senso-ji to a hostel by the river. Part of our guide to where to stay in Tokyo "
                      "for cherry blossom."),
+    dict(id=1049, slug="sydney-nye-stay-f1", article="articles/where-to-stay-in-sydney-new-years-eve.html",
+         board=AU, photo=30440450, title="SYDNEY NYE", tagline="where to stay for the fireworks",
+         bullets=["Shows at 9pm and midnight", "Harbour rooms: The Rocks", "Darling Harbour: own show",
+                  "Check minimum stays"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Sydney for New Year's Eve 2026: Views, Areas, Hotels",
+         description="Sydney's fireworks go off at 9pm and midnight on 31 December 2026, and Circular Quay "
+                     "Station closes from 3pm. Harbour rooms in The Rocks face the Bridge or the Opera House, and "
+                     "Darling Harbour has its own fireworks. Four areas, 12 hotels, the vantage points, their "
+                     "ticket dates and the minimum stays to watch for."),
+    dict(id=1050, slug="sydney-nye-tickets-f1", article="articles/where-to-stay-in-sydney-new-years-eve.html",
+         board=AU, photo=35650730, title="NYE 2026", tagline="Sydney's fireworks: what to know",
+         bullets=["48 vantage points", "Opera House: free, 26 Dec", "Most spots: alcohol-free",
+                  "Quay station closed 3pm"], cta="Where to stay →",
+         pin_title="Sydney New Year's Eve 2026: Ticket Dates, Rules and Where to Stay",
+         description="The City of Sydney lists 48 vantage points for New Year's Eve 2026. Free tickets for the "
+                     "Opera House Forecourt are released at 10am on 26 December, most free vantage points are "
+                     "alcohol-free, and Circular Quay Station closes from 3pm to midnight. Part of our guide to "
+                     "where to stay in Sydney for New Year's Eve."),
 ]
 
 

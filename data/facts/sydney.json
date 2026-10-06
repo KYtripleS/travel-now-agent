@@ -1,0 +1,303 @@
+{
+  "place": "Sydney",
+  "facts": [
+    {
+      "id": "syd.nye.programme-2026",
+      "topic": "stat",
+      "recheck_days": 30,
+      "claim": "On 31 December 2026 the City of Sydney's programme runs a smoking ceremony at 7.30pm, the Calling Country fireworks at 9pm, curated by We Are Warriors, and the midnight fireworks, launched from the Harbour Bridge, the Opera House and other landmarks.",
+      "sources": [
+        {
+          "url": "https://www.sydneynewyearseve.com/fireworks",
+          "kind": "official",
+          "title": "City of Sydney: Sydney New Year's Eve schedule"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "Smoking ceremony on the ships Tribal Warrior, Mari Nawi and Wirawi",
+          "Calling Country fireworks, curated by We Are Warriors",
+          "launched from the Harbour Bridge, the Opera House and other landmarks"
+        ]
+      },
+      "note": "The City updates the event pages through November and December; recheck before 31 December."
+    },
+    {
+      "id": "syd.nye.crowd",
+      "topic": "stat",
+      "claim": "The City of Sydney says Sydney New Year's Eve attracts more than one million people to Sydney Harbour and surrounding areas.",
+      "sources": [
+        {
+          "url": "https://www.sydneynewyearseve.com/visiting-sydney",
+          "kind": "official",
+          "title": "City of Sydney: visiting Sydney for New Year's Eve"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "more than one million people"
+        ]
+      }
+    },
+    {
+      "id": "syd.nye.vantage-points-2026",
+      "topic": "stat",
+      "recheck_days": 30,
+      "claim": "The City lists 48 vantage points for 2026; Lower Bradfield Park's paid tickets go on sale at 9am on 7 October, the Opera House Forecourt's free tickets at 10am on 26 December, and Clark, Goat and Shark islands, Bradleys Head and Strickland Estate were sold out by 5 October.",
+      "sources": [
+        {
+          "url": "https://www.sydneynewyearseve.com/vantage-points",
+          "kind": "official",
+          "title": "City of Sydney: vantage points"
+        },
+        {
+          "url": "https://www.sydneynewyearseve.com/ticketed-vantage-points",
+          "kind": "official",
+          "title": "City of Sydney: ticketed vantage points"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "48 vantage points",
+          "from 9am on 7 October",
+          "from 10am on 26 December",
+          "Clark Island, Goat Island and Shark Island"
+        ]
+      }
+    },
+    {
+      "id": "syd.nye.darling-harbour",
+      "topic": "place",
+      "claim": "Darling Harbour is a free New Year's Eve vantage point with its own fireworks at 9pm and midnight over Cockle Bay; alcohol is prohibited there.",
+      "sources": [
+        {
+          "url": "https://www.sydneynewyearseve.com/vantage-points",
+          "kind": "official",
+          "title": "City of Sydney: vantage points"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "its own fireworks at 9pm and midnight"
+        ]
+      }
+    },
+    {
+      "id": "syd.nye.rules-2026",
+      "topic": "stat",
+      "recheck_days": 30,
+      "claim": "For New Year's Eve 2026 most free vantage points are alcohol-free zones, most don't allow re-entry, and Circular Quay Station closes from 3pm to midnight; the City suggests Wynyard, Martin Place or St James, and Victoria Cross for North Sydney.",
+      "sources": [
+        {
+          "url": "https://www.sydneynewyearseve.com/guide",
+          "kind": "official",
+          "title": "City of Sydney: fireworks viewing guide"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "alcohol-free zones in 2026",
+          "closes from 3pm to midnight",
+          "Victoria Cross"
+        ]
+      },
+      "watch": "Circular Quay (Station|station)[^.]{0,80}(clos|shut)"
+    },
+    {
+      "id": "syd.nye.boating-exclusion",
+      "topic": "transport",
+      "claim": "On New Year's Eve no unauthorised vessels may enter the harbour exclusion zones from 8pm to 12:45am on New Year's Day.",
+      "sources": [
+        {
+          "url": "https://www.sydneynewyearseve.com/boating",
+          "kind": "official",
+          "title": "City of Sydney: boating on New Year's Eve"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "from 8pm to 12:45am"
+        ]
+      }
+    },
+    {
+      "id": "syd.nye.cockatoo-island",
+      "topic": "place",
+      "claim": "On New Year's Eve 2026 access to Cockatoo Island / Wareamah is limited to guests booked to stay there; houses and apartments went to a ballot from 3 September and campground bookings opened on 22 September 2026.",
+      "sources": [
+        {
+          "url": "https://www.sydneynewyearseve.com/ticketed-vantage-points",
+          "kind": "official",
+          "title": "City of Sydney: ticketed vantage points"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "only to guests booked to stay there"
+        ]
+      }
+    },
+    {
+      "id": "syd.airport-train-time",
+      "topic": "transport",
+      "claim": "Sydney Airport is around 20 minutes from the city centre by train, according to the City of Sydney.",
+      "sources": [
+        {
+          "url": "https://www.sydneynewyearseve.com/visiting-sydney",
+          "kind": "official",
+          "title": "City of Sydney: visiting Sydney for New Year's Eve"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "around 20 minutes"
+        ]
+      }
+    },
+    {
+      "id": "syd.hotel.yha-harbour-nye-2026",
+      "topic": "hotel",
+      "claim": "YHA Sydney Harbour requires a minimum 7-night stay for all New Year's Eve 2026 bookings, and from 4pm on 31 December 2026 to 7am on 1 January 2027 its rooftop is limited to guests on its NYE package, who must be 18 or over.",
+      "sources": [
+        {
+          "url": "https://www.yha.com.au/promotions/campaigns/sydney-harbour-nye/",
+          "kind": "operator",
+          "title": "YHA: New Year's Eve 2026 at YHA Sydney Harbour"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "seven nights or more",
+          "from 4pm on 31 December to 7am on 1 January"
+        ]
+      }
+    },
+    {
+      "id": "syd.hotel.shangri-la-nye-2026",
+      "topic": "price",
+      "claim": "On 5 October 2026 Shangri-La Sydney's New Year's Eve offer was listed from USD 1,738 a night on average, and its terms say a minimum length of stay applies.",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/en/sydney/shangrila/offer-detail/rooms-suites/new-years-eve-2026/",
+          "kind": "operator",
+          "title": "Shangri-La Sydney: New Year's Eve 2026 offer"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "USD 1,738",
+          "minimum length of stay applies"
+        ]
+      },
+      "note": "The site converts prices by visitor currency; we quote the USD figure shown when we checked."
+    },
+    {
+      "id": "syd.hotel.shangri-la",
+      "topic": "hotel",
+      "claim": "Shangri-La Sydney has 565 rooms and suites over 36 levels at 176 Cumberland Street, The Rocks, with a restaurant and bar on level 36.",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/sydney/shangrila/",
+          "kind": "operator",
+          "title": "Shangri-La Sydney"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "565 rooms and suites over 36 levels"
+        ]
+      }
+    },
+    {
+      "id": "syd.hotel.four-seasons",
+      "topic": "hotel",
+      "claim": "Four Seasons Hotel Sydney rises 34 storeys with 531 rooms and suites at 199 George Street; its full-harbour rooms look at the Harbour Bridge and the Opera House.",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/sydney/accommodations/guest_rooms/deluxe_full_harbour_room/",
+          "kind": "operator",
+          "title": "Four Seasons Hotel Sydney: deluxe full harbour room"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "34 storeys and 531 rooms"
+        ]
+      },
+      "note": "fourseasons.com refuses automated fetches; confirmed through search results from the hotel's own pages."
+    },
+    {
+      "id": "syd.hotel.sofitel-darling-harbour",
+      "topic": "hotel",
+      "claim": "Sofitel Sydney Darling Harbour has 590 rooms and suites at 12 Darling Drive, a minute's walk from Darling Harbour, sold as harbour, city or bay view.",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/9729/index.en.shtml",
+          "kind": "operator",
+          "title": "Accor: Sofitel Sydney Darling Harbour"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "590 rooms and suites at 12 Darling Drive"
+        ]
+      }
+    },
+    {
+      "id": "syd.hotel.hyatt-regency",
+      "topic": "hotel",
+      "claim": "Hyatt Regency Sydney, at 161 Sussex Street, opened under the Hyatt Regency brand on 1 December 2016 with 892 rooms.",
+      "sources": [
+        {
+          "url": "https://newsroom.hyatt.com/120116-Hyatt-Regency-Brand-Returns-to-Sydney-Australia",
+          "kind": "operator",
+          "title": "Hyatt Newsroom: Hyatt Regency brand returns to Sydney"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "892 rooms at 161 Sussex Street",
+          "1 December 2016"
+        ]
+      }
+    },
+    {
+      "id": "syd.hotel.great-southern-works",
+      "topic": "hotel",
+      "recheck_days": 60,
+      "claim": "The Great Southern Hotel Sydney has noisy works from 10am to 4pm between 31 August 2026 and 31 January 2027, and no on-site parking from 28 September 2026 until about 31 January 2027.",
+      "sources": [
+        {
+          "url": "https://greatsouthernhotel.com.au/great-southern-hotel-sydney/",
+          "kind": "operator",
+          "title": "Great Southern Hotel Sydney: notices"
+        }
+      ],
+      "checked": "2026-10-05",
+      "used_in": {
+        "articles/where-to-stay-in-sydney.html": [
+          "between 31 August 2026 and 31 January 2027"
+        ],
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "until 31 January 2027"
+        ]
+      },
+      "watch": "Great Southern[^.]{0,200}(works|parking)",
+      "note": "The hotel extended the works from 30 November 2026; corrected publicly on 5 October 2026."
+    }
+  ]
+}

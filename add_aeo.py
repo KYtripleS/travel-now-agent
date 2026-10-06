@@ -335,6 +335,13 @@ V = {
              "River and Shinjuku for Shinjuku Gyoen. Book a refundable rate now.",
         link_text="Asakusa or Ueno",
         cta=_stay_cta("where-to-stay-in-tokyo-cherry-blossom", "See hotels around Asakusa")),
+    "where-to-stay-in-sydney-new-years-eve": dict(
+        text="For the fireworks from your room, stay at Circular Quay or in The Rocks: harbour rooms at the "
+             "Shangri-La, Four Seasons and Park Hyatt face the Bridge or the Opera House. For less, stay in the "
+             "city and walk to the Botanic Garden's free lawns, or at Darling Harbour, which has its own "
+             "fireworks at 9pm and midnight. Check the minimum stay first.",
+        link_text="Circular Quay or in The Rocks",
+        cta=_stay_cta("where-to-stay-in-sydney-new-years-eve", "See hotels around Circular Quay")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -565,6 +572,7 @@ REVISED = {
     "where-to-stay-in-tokyo": "2026-09-25",                      # rewrite: 17 verified hotels, tax, tables
     "japan-tourist-taxes-2026": "2026-10-04",                    # corrected: summary still said ¥1,000 departure tax
     "hong-kong-first-timers-guide": "2026-10-04",                # corrected: tram fare HK$3.30, not HK$3
+    "where-to-stay-in-sydney": "2026-10-05",                     # corrected: Great Southern works now run to 31 Jan 2027
 }
 
 STOP_HEADINGS = re.compile(r"frequently asked|^sources|references|liked this guide|keep reading|related reading",
@@ -1043,6 +1051,8 @@ QUICK_PICKS = {
                                       "Holiday Inn Express Kuala Lumpur City Centre"],
     "where-to-stay-in-tokyo-cherry-blossom": ["The Gate Hotel Kaminarimon by Hulic", "OMO3 Asakusa by Hoshino Resorts",
                                               "NOHGA HOTEL UENO TOKYO"],
+    "where-to-stay-in-sydney-new-years-eve": ["Shangri-La Sydney", "Pullman Quay Grand Sydney Harbour",
+                                              "Sheraton Grand Sydney Hyde Park"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1189,6 +1199,7 @@ _SG = "where-to-stay-in-singapore.html"
 _TP = "where-to-stay-in-taipei.html"
 _KL = "where-to-stay-in-kuala-lumpur.html"
 _TS = "where-to-stay-in-tokyo-cherry-blossom.html"
+_NY = "where-to-stay-in-sydney-new-years-eve.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1368,14 +1379,22 @@ STAY_POINTERS = {
         f'<a href="{_S}">Where to stay in Sydney</a> compares six areas, with how you get around from each.'),
     "things-to-do-in-sydney": ("intro",
         f'<a href="{_S}">Where to stay in Sydney</a> compares six areas, from Circular Quay to Bondi and '
-        'Manly, and names 13 hotels.'),
+        f'Manly, and names 13 hotels. Here for New Year\'s Eve? <a href="{_NY}">Our New Year\'s Eve guide</a> '
+        'matches four areas to the fireworks.'),
+    "where-to-stay-in-sydney": ("intro",
+        f'Coming for New Year\'s Eve? <a href="{_NY}">Where to stay in Sydney for New Year\'s Eve</a> has the '
+        'vantage points, their ticket dates and the hotels with harbour rooms.'),
+    "where-to-book-sydney-harbour-cruise": ("intro",
+        f'Here for New Year\'s Eve? <a href="{_NY}">Where to stay in Sydney for New Year\'s Eve</a> has the '
+        'vantage points, their ticket dates and the hotels that face the Bridge.'),
     "sydney-harbour-cruises-guide": ("Practical notes",
         f'Staying near a departure point? <a href="{_S}">Where to stay in Sydney</a> compares Circular Quay '
-        'and Darling Harbour as bases.'),
+        f'and Darling Harbour as bases, and <a href="{_NY}">our New Year\'s Eve guide</a> names the hotels '
+        'with harbour rooms facing the Bridge.'),
     # both
     "best-time-to-visit-australia": ("The south: Sydney",
         f'Once you have dates: <a href="{_S}">where to stay in Sydney</a> and <a href="{_M}">in Melbourne</a>, '
-        'area by area.'),
+        f'area by area, and <a href="{_NY}">Sydney on New Year\'s Eve</a>, with the minimum stays to watch for.'),
 }
 
 

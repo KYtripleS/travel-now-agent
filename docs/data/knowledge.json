@@ -3,7 +3,7 @@
   "totals": {
     "countries": 11,
     "cities": 22,
-    "guides": 161
+    "guides": 162
   },
   "countries": [
     {
@@ -366,6 +366,15 @@
               "tags": []
             },
             {
+              "title": "Where to Stay in Sydney for New Year's Eve 2026: Views, Areas and When to Book",
+              "url": "articles/where-to-stay-in-sydney-new-years-eve.html",
+              "slug": "where-to-stay-in-sydney-new-years-eve",
+              "type": "stay",
+              "tags": [
+                "Hotels"
+              ]
+            },
+            {
               "title": "Where to Stay in Sydney (2026): Six Areas and 13 Hotels, Compared",
               "url": "articles/where-to-stay-in-sydney.html",
               "slug": "where-to-stay-in-sydney",
@@ -466,7 +475,7 @@
           ]
         }
       ],
-      "guideCount": 15
+      "guideCount": 16
     },
     {
       "name": "Thailand",

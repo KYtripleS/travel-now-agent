@@ -555,6 +555,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in Singapore",
         "Five areas and 12 hotels, from Raffles of 1887 to a compact room on Orchard Road, and what \"++\" adds to the bill.",
     ),
+    "articles/where-to-stay-in-sydney-new-years-eve.html": (
+        "Where to Stay in Sydney for New Year's Eve",
+        "The 2026 timetable, the vantage points and their ticket dates, four areas and 12 hotels, and the minimum stays to watch for.",
+    ),
     "articles/where-to-stay-in-tokyo-cherry-blossom.html": (
         "Where to Stay in Tokyo for Cherry Blossom",
         "The dates to aim for, five areas matched to the parks and rivers, 14 hotels, and the tax change on 1 April 2027.",
@@ -1116,6 +1120,7 @@ LINKS: dict[str, list[str]] = {
         "tools/esim-finder.html",
     ],
     "articles/sydney-harbour-cruises-guide.html": [
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
         "articles/things-to-do-in-sydney.html",
         "articles/getting-around-sydney.html",
         "articles/sydney-first-timers-guide.html",
@@ -1151,6 +1156,7 @@ LINKS: dict[str, list[str]] = {
         "articles/how-to-save-money-on-international-travel.html",
     ],
     "articles/things-to-do-in-sydney.html": [
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
         "articles/sydney-harbour-cruises-guide.html",
         "articles/getting-around-sydney.html",
         "articles/sydney-first-timers-guide.html",
@@ -1159,6 +1165,7 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-stay-in-sydney.html",
     ],
     "articles/sydney-first-timers-guide.html": [
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
         "articles/things-to-do-in-sydney.html",
         "articles/sydney-harbour-cruises-guide.html",
         "articles/getting-around-sydney.html",
@@ -1182,6 +1189,7 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-book-taipei-day-tour.html",
     ],
     "articles/where-to-book-sydney-harbour-cruise.html": [
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
         "articles/sydney-harbour-cruises-guide.html",
         "articles/things-to-do-in-sydney.html",
         "articles/getting-around-sydney.html",
@@ -1722,7 +1730,16 @@ LINKS: dict[str, list[str]] = {
         "articles/best-esim-japan-2026.html",
         "articles/where-to-stay-in-tokyo.html",
     ],
+    "articles/where-to-stay-in-sydney-new-years-eve.html": [
+        "articles/where-to-stay-in-sydney.html",
+        "articles/where-to-book-sydney-harbour-cruise.html",
+        "articles/things-to-do-in-sydney.html",
+        "articles/getting-around-sydney.html",
+        "articles/best-esim-australia-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
     "articles/where-to-stay-in-sydney.html": [
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
         "articles/sydney-first-timers-guide.html",
         "articles/things-to-do-in-sydney.html",
         "articles/getting-around-sydney.html",

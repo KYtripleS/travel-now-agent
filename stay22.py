@@ -91,6 +91,8 @@ PAGES = {
                                           address="KLCC Park, Kuala Lumpur, Malaysia"),
     "where-to-stay-in-tokyo-cherry-blossom": dict(area="Asakusa", lat=35.7118, lng=139.7967, zoom=15,
                                                   address="Kaminarimon, Tokyo, Japan"),
+    "where-to-stay-in-sydney-new-years-eve": dict(area="Circular Quay", lat=-33.8611, lng=151.2108, zoom=15,
+                                                  address="Circular Quay, Sydney NSW, Australia"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -153,6 +155,11 @@ HOTELS = {
     "Ovolo Sydney, Woolloomooloo": _B + "au/blue-sydney-sydney.html",
     "Hotel Ravesis": _B + "au/ravesis.html",
     "Q Station": _B + "au/q-station-retreat.html",
+    # Sydney on New Year's Eve (Booking.com pages confirmed by search, 2026-10-05)
+    "Shangri-La Sydney": _B + "au/shangrila-sydney.html",
+    "Four Seasons Hotel Sydney": _B + "au/four-seasons-sydney.html",
+    "Sofitel Sydney Darling Harbour": _B + "au/sofitel-sydney-darling-harbour.html",
+    "Hyatt Regency Sydney": _B + "au/hyatt-regency-sydney.html",
     # Melbourne
     "Park Hyatt Melbourne": _B + "au/park-hyatt-melbourne.html",
     "The Ritz-Carlton, Melbourne": _B + "au/the-ritz-carlton-melbourne.html",
