@@ -99,6 +99,8 @@ PAGES = {
                                     address="Kutchan, Hokkaido, Japan"),
     "where-to-stay-in-fukuoka": dict(area="Hakata Station", lat=33.5902, lng=130.4207, zoom=15,
                                      address="Hakata Station, Fukuoka, Japan"),
+    "where-to-stay-in-kyoto-autumn-leaves": dict(area="Okazaki", lat=35.0128, lng=135.7838, zoom=15,
+                                                 address="Heian Shrine, Kyoto, Japan"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by

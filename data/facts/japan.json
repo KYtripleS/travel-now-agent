@@ -51,6 +51,9 @@
     ],
     "articles/where-to-stay-in-fukuoka.html": [
      "¥3,000 departure tax"
+    ],
+    "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
+     "¥3,000 departure tax"
     ]
    },
    "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
@@ -238,6 +241,10 @@
     ],
     "articles/where-to-stay-in-fukuoka.html": [
      "up to ¥10,000/night"
+    ],
+    "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
+     "Since 1 March 2026",
+     "¥10,000"
     ]
    },
    "watch": "(?i)kyoto[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥",
@@ -1746,6 +1753,130 @@
     "articles/where-to-stay-in-fukuoka.html": [
      "1,052 rooms beside the dome",
      "Nishitetsu bus 306 stops outside"
+    ]
+   }
+  },
+  {
+   "id": "jp.kyoto.maple-phenology",
+   "topic": "stat",
+   "claim": "At the Kyoto Local Meteorological Office, the sample maple's colouring date (leaves mostly red, almost no green) has a 1991–2020 normal of 5 December; it was 10 December in 2025, and the latest on record is 20 December 2024 (earliest 10 November 1976). The sample ginkgo's yellowing normal is 24 November (25 November in 2025; latest 7 December 1982).",
+   "sources": [
+    {
+     "url": "https://www.data.jma.go.jp/kyoto/2_data/seibutsu/index.html",
+     "kind": "official",
+     "title": "Kyoto Local Meteorological Office: plant phenology 2026, with normals and records"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
+     "fully red on 5 December in a normal year",
+     "in 2025 it turned on 10 December",
+     "20 December, the latest on record"
+    ]
+   },
+   "note": "Add the 2026 colouring date when the office posts it (December 2026)."
+  },
+  {
+   "id": "jp.kyoto.autumn-forecast-2026",
+   "topic": "stat",
+   "recheck_days": 21,
+   "claim": "The Japan Weather Association's first 2026 autumn-leaf forecast (1 October 2026) expects Arashiyama at its best from about 13 November and gives its usual best as mid-November to early December; Weathernews' first forecast (3 September 2026) put Arashiyama's peak around 24 November. Weathernews expects later than normal across Japan, the JWA normal or later.",
+   "sources": [
+    {
+     "url": "https://tenki.jp/kouyou/expectation.html",
+     "kind": "publisher",
+     "title": "Japan Weather Association: 2026 autumn-leaf forecast, first edition (1 October 2026)"
+    },
+    {
+     "url": "https://tenki.jp/kouyou/6/29/36562.html",
+     "kind": "publisher",
+     "title": "tenki.jp: Arashiyama"
+    },
+    {
+     "url": "https://www.travelvoice.jp/20260904-160458",
+     "kind": "news",
+     "title": "Travel Voice: Weathernews' first 2026 forecast"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
+     "at its best from about 13 November",
+     "around 24 November"
+    ]
+   },
+   "note": "Forecasts are updated through October and November; update the figures or say which edition."
+  },
+  {
+   "id": "jp.kyoto.eikando-autumn-2026",
+   "topic": "price",
+   "claim": "Eikan-do's 2026 autumn treasures exhibition runs 11 November to 6 December (tickets 9:00–16:00, gate closes 17:00), adult ¥1,500 under its revised prices; the light-up runs 20 November to 6 December (tickets 17:30–20:30, gate closes 21:00), ¥1,000. Day and night are separate admissions, no advance tickets are sold, and private cars and tour buses are barred during the period.",
+   "sources": [
+    {
+     "url": "https://www.eikando.or.jp/osirase.html",
+     "kind": "operator",
+     "title": "Eikan-do: 2026 autumn treasures exhibition and light-up"
+    },
+    {
+     "url": "https://www.eikando.or.jp/haikan.html",
+     "kind": "operator",
+     "title": "Eikan-do: visiting during the exhibition"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
+     "11 November to 6 December",
+     "¥1,500",
+     "20 November to 6 December",
+     "sold only on the day"
+    ]
+   }
+  },
+  {
+   "id": "jp.kyoto.tofukuji-autumn-2026",
+   "topic": "price",
+   "claim": "Tofuku-ji's autumn period runs 14 November to 6 December: the Tsuten-kyo bridge and Kaisan-do open 8:30–16:00 and cost ¥1,000 for an adult (¥600 at other times), with no combined ticket in the period; the Hojo garden rises from ¥500 to ¥600 on 1 November 2026.",
+   "sources": [
+    {
+     "url": "https://tofukuji.jp/guide/",
+     "kind": "operator",
+     "title": "Tofuku-ji: hours and fees"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
+     "14 November to 6 December",
+     "charges ¥600 for the bridge at other times",
+     "from ¥500 to ¥600 on 1 November 2026"
+    ]
+   },
+   "note": "The temple says its autumn dates change every year."
+  },
+  {
+   "id": "jp.kyoto.kodaiji-autumn-2026",
+   "topic": "price",
+   "claim": "Kodai-ji's 2026 autumn night opening runs 23 October to 13 December, open 9:00 to 22:00 (last entry 21:30), lit from 17:00; adult admission is ¥800, one ticket for day and evening (no re-entry once you leave).",
+   "sources": [
+    {
+     "url": "https://www.kodaiji.com/saiji.html",
+     "kind": "operator",
+     "title": "Kodai-ji: 2026 autumn night opening"
+    },
+    {
+     "url": "https://www.kodaiji.com/haikan.html",
+     "kind": "operator",
+     "title": "Kodai-ji: admission"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
+     "23 October to 13 December",
+     "last entry 9.30pm",
+     "¥800"
     ]
    }
   }

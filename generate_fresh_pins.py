@@ -569,6 +569,24 @@ SPECS = [
                      "Nakasu, Hotel Il Palazzo, Aldo Rossi's first building in Japan, puts the stalls a minute's "
                      "walk away, Hotel Okura Fukuoka sits on the airport subway line, and the Grand Hyatt is "
                      "inside Canal City. Part of our Fukuoka guide."),
+    dict(id=1057, slug="kyoto-autumn-stay-f1", article="articles/where-to-stay-in-kyoto-autumn-leaves.html",
+         board=JP, photo=14613111, title="KYOTO", tagline="where to stay for autumn",
+         bullets=["Peak: late November", "Okazaki: Eikan-do on foot", "Tofuku-ji: one stop by JR",
+                  "12 hotels in five areas"], cta="Areas and dates →",
+         pin_title="Where to Stay in Kyoto for the Autumn Leaves: Areas, Dates and Hotels",
+         description="Kyoto's maples turn late: the observatory's sample tree turns fully red on 5 December in a "
+                     "normal year, so aim for the last ten days of November. Stay in Okazaki for Eikan-do and "
+                     "Nanzen-ji on foot, Higashiyama for Kodai-ji at night, Kyoto Station for Tofuku-ji, or "
+                     "Arashiyama for the river. Twelve hotels, with the temples' autumn hours and fees."),
+    dict(id=1058, slug="kyoto-tofukuji-f1", article="articles/where-to-stay-in-kyoto-autumn-leaves.html",
+         board=JP, photo=6249542, title="TOFUKU-JI", tagline="one stop from Kyoto Station",
+         bullets=["Bridge: ¥1,000 in autumn", "Opens 8.30am in autumn", "Stay at Kyoto Station",
+                  "Or downtown, on the Keihan"], cta="Where to stay →",
+         pin_title="Tofuku-ji in Autumn: Fees, Hours and Where to Stay in Kyoto",
+         description="Tofuku-ji's Tsuten-kyo bridge costs ¥1,000 in its autumn period, against ¥600 the rest of "
+                     "the year, and opens half an hour early, at 8.30am. The temple is one stop from Kyoto Station "
+                     "on the JR Nara line, so the station hotels are the closest base. Part of our guide to where "
+                     "to stay in Kyoto for the autumn leaves."),
 ]
 
 

@@ -363,6 +363,13 @@ V = {
              "not on Booking.com.",
         link_text="Hakata Station",
         cta=_stay_cta("where-to-stay-in-fukuoka", "See hotels around Hakata Station")),
+    "where-to-stay-in-kyoto-autumn-leaves": dict(
+        text="For the autumn leaves, stay in Okazaki, near Nanzen-ji: Eikan-do and the Philosopher's Path are on "
+             "foot, and Eikan-do's light-up runs from 20 November to 6 December. Choose Higashiyama for Kodai-ji's "
+             "night opening, Kyoto Station for Tofuku-ji, one stop away, and Arashiyama for the river. Aim for the "
+             "last ten days of November, on a refundable rate.",
+        link_text="Okazaki, near Nanzen-ji",
+        cta=_stay_cta("where-to-stay-in-kyoto-autumn-leaves", "See hotels around Okazaki")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1079,6 +1086,8 @@ QUICK_PICKS = {
                                                "JR Inn Sapporo-eki Minamiguchi"],
     "where-to-stay-in-niseko": ["Skye Niseko", "Nikko Style Niseko HANAZONO", "Mercure Niseko Resort"],
     "where-to-stay-in-fukuoka": ["Miyako Hotel Hakata", "Hotel Nikko Fukuoka", "JR Kyushu Hotel Blossom Hakata Central"],
+    "where-to-stay-in-kyoto-autumn-leaves": ["The Westin Miyako Kyoto", "Hotel Okura Kyoto Okazaki Bettei",
+                                             "Cross Hotel Kyoto"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1230,6 +1239,7 @@ _NY = "where-to-stay-in-sydney-new-years-eve.html"
 _SP = "where-to-stay-in-sapporo-snow-festival.html"
 _NS = "where-to-stay-in-niseko.html"
 _FK = "where-to-stay-in-fukuoka.html"
+_KA = "where-to-stay-in-kyoto-autumn-leaves.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1325,7 +1335,8 @@ STAY_POINTERS = {
         f'and <a href="{_NS}">our Niseko guide</a> does for the ski season.'),
     "japan-autumn-2026": ("Flights and Stays",
         f'For where to sleep, <a href="{_JP}">where to stay in Japan on a first trip</a> splits the nights between '
-        f'cities, and our guides to {_JP3} name the hotels.'),
+        f'cities, and our guides to {_JP3} name the hotels. For Kyoto in late November, <a href="{_KA}">our '
+        'autumn-leaves guide</a> has the 2026 temple openings and fees.'),
     "japan-book-in-advance-2026": ("Authentic Stays",
         f'For named ryokan in Kyoto, including Tawaraya and Hiiragiya, see <a href="{_K}">Where to stay in '
         'Kyoto</a>.'),
@@ -1343,7 +1354,8 @@ STAY_POINTERS = {
         f'blossom? <a href="{_TS}">Our cherry-blossom guide</a> has the dates and the tax change on 1 April 2027.'),
     "where-to-stay-in-kyoto": ("intro",
         f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
-        'give each city, and how to move your bags between them.'),
+        'give each city, and how to move your bags between them. Here for the autumn leaves? <a '
+        f'href="{_KA}">Our autumn-leaves guide</a> has the 2026 temple openings and the weeks to aim for.'),
     "where-to-stay-in-osaka": ("intro",
         f'Kyoto, Osaka, or both? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many '
         'nights to give each, and moving day from Tokyo.'),
@@ -1355,15 +1367,17 @@ STAY_POINTERS = {
         f'Where to base yourself for these three days: <a href="{_K}">Where to stay in Kyoto</a> compares '
         'downtown, Kyoto Station, Gion, Arashiyama and the northern hills.'),
     "kyoto-autumn-2026": ("Accommodation and Mobility",
-        f'<a href="{_K}">Where to stay in Kyoto</a> compares five areas and names 14 hotels and ryokan.'),
+        f'For the leaf season itself, <a href="{_KA}">where to stay in Kyoto for the autumn leaves</a> has the 2026 '
+        f'openings and fees at Eikan-do, Tofuku-ji and Kodai-ji, and names 12 hotels by area; <a href="{_K}">where to '
+        'stay in Kyoto</a> compares five areas the year round.'),
     "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": ("What This Means",
         f'Arriving by Shinkansen? <a href="{_K}#kyoto-station-the-transport-base">Where to stay in Kyoto</a> '
         'explains when a hotel at the station beats one downtown.'),
     "things-to-do-in-kyoto": ("intro",
         f'Where you stay decides which of these you can walk to early, before the crowds. <a href="{_K}">Where '
-        'to stay in Kyoto</a> compares five areas, from downtown to Arashiyama, and <a '
-        'href="where-to-stay-in-kyoto-cherry-blossom.html">our cherry-blossom guide</a> matches them to the '
-        'blossom walks.'),
+        'to stay in Kyoto</a> compares five areas, from downtown to Arashiyama, and our guides to <a '
+        'href="where-to-stay-in-kyoto-cherry-blossom.html">the cherry blossom</a> and <a '
+        f'href="{_KA}">the autumn leaves</a> match them to the seasons.'),
     # Osaka
     "osaka-first-timers-guide": ("intro",
         f'Minami or Kita? <a href="{_O}">Where to stay in Osaka</a> compares Namba and Umeda with three other '
