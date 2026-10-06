@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "totals": {
     "countries": 11,
     "cities": 22,
-    "guides": 162
+    "guides": 163
   },
   "countries": [
     {
@@ -1491,38 +1491,6 @@
       ]
     },
     {
-      "category": "Airport",
-      "guides": [
-        {
-          "title": "Airport Security Bag Rules (2026): Carry-On and Personal Item Sizes",
-          "url": "articles/airport-security-bag-rules.html",
-          "slug": "airport-security-bag-rules",
-          "type": "guide",
-          "tags": [
-            "Airport"
-          ]
-        },
-        {
-          "title": "Airport Security and Pre-Flight Checklist: 12 Checks Before You Fly (2026)",
-          "url": "articles/airport-security-checklist.html",
-          "slug": "airport-security-checklist",
-          "type": "guide",
-          "tags": [
-            "Airport"
-          ]
-        },
-        {
-          "title": "Airport Liquid Rules for Carry-Ons: Limits and Checklist (2026)",
-          "url": "articles/airport-security-liquids.html",
-          "slug": "airport-security-liquids",
-          "type": "guide",
-          "tags": [
-            "Airport"
-          ]
-        }
-      ]
-    },
-    {
       "category": "Hotels",
       "guides": [
         {
@@ -1550,6 +1518,47 @@
           "type": "stay",
           "tags": [
             "Hotels"
+          ]
+        },
+        {
+          "title": "Where to Stay in Sapporo for the Snow Festival 2027: Areas, Dates and When to Book",
+          "url": "articles/where-to-stay-in-sapporo-snow-festival.html",
+          "slug": "where-to-stay-in-sapporo-snow-festival",
+          "type": "stay",
+          "tags": [
+            "Hotels"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Airport",
+      "guides": [
+        {
+          "title": "Airport Security Bag Rules (2026): Carry-On and Personal Item Sizes",
+          "url": "articles/airport-security-bag-rules.html",
+          "slug": "airport-security-bag-rules",
+          "type": "guide",
+          "tags": [
+            "Airport"
+          ]
+        },
+        {
+          "title": "Airport Security and Pre-Flight Checklist: 12 Checks Before You Fly (2026)",
+          "url": "articles/airport-security-checklist.html",
+          "slug": "airport-security-checklist",
+          "type": "guide",
+          "tags": [
+            "Airport"
+          ]
+        },
+        {
+          "title": "Airport Liquid Rules for Carry-Ons: Limits and Checklist (2026)",
+          "url": "articles/airport-security-liquids.html",
+          "slug": "airport-security-liquids",
+          "type": "guide",
+          "tags": [
+            "Airport"
           ]
         }
       ]

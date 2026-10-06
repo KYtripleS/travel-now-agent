@@ -342,6 +342,13 @@ V = {
              "fireworks at 9pm and midnight. Check the minimum stay first.",
         link_text="Circular Quay or in The Rocks",
         cta=_stay_cta("where-to-stay-in-sydney-new-years-eve", "See hotels around Circular Quay")),
+    "where-to-stay-in-sapporo-snow-festival": dict(
+        text="For the Snow Festival, stay at Odori: the sculptures run along Odori Park from West 1 to West 11, "
+             "all three subway lines meet at Odori Station, and a walkway under the street leads to Sapporo "
+             "Station. Choose Sapporo Station for the airport train, Susukino for the ice sculptures and late "
+             "nights, and Nakajima Park for quiet. The dates are fixed: book now.",
+        link_text="Odori",
+        cta=_stay_cta("where-to-stay-in-sapporo-snow-festival", "See hotels around Odori Park")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -570,7 +577,7 @@ REVISED = {
     "narita-haneda-to-central-tokyo": "2026-09-27",              # added Narita <-> Haneda, official fares
     "charter-a-boat-for-a-day": "2026-09-23",                    # Spain 1 Oct 2026, Greece, Croatia
     "where-to-stay-in-tokyo": "2026-09-25",                      # rewrite: 17 verified hotels, tax, tables
-    "japan-tourist-taxes-2026": "2026-10-04",                    # corrected: summary still said ¥1,000 departure tax
+    "japan-tourist-taxes-2026": "2026-10-06",                    # corrected: Niseko is tiered, not a ¥2,000 flat rate; added Hokkaido/Sapporo
     "hong-kong-first-timers-guide": "2026-10-04",                # corrected: tram fare HK$3.30, not HK$3
     "where-to-stay-in-sydney": "2026-10-05",                     # corrected: Great Southern works now run to 31 Jan 2027
     "is-the-weak-yen-a-bargain-or-trap": "2026-10-06",           # corrected: Himeji's ¥2,500 is for all non-residents; no Niseko foreigner price
@@ -1054,6 +1061,8 @@ QUICK_PICKS = {
                                               "NOHGA HOTEL UENO TOKYO"],
     "where-to-stay-in-sydney-new-years-eve": ["Shangri-La Sydney", "Pullman Quay Grand Sydney Harbour",
                                               "Sheraton Grand Sydney Hyde Park"],
+    "where-to-stay-in-sapporo-snow-festival": ["The Royal Park Canvas Sapporo Odori Park", "Sapporo Grand Hotel",
+                                               "JR Inn Sapporo-eki Minamiguchi"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1201,6 +1210,7 @@ _TP = "where-to-stay-in-taipei.html"
 _KL = "where-to-stay-in-kuala-lumpur.html"
 _TS = "where-to-stay-in-tokyo-cherry-blossom.html"
 _NY = "where-to-stay-in-sydney-new-years-eve.html"
+_SP = "where-to-stay-in-sapporo-snow-festival.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1292,7 +1302,7 @@ STAY_POINTERS = {
         f'Travelling in a peak week? Book the room first: <a href="{_JP}">where to stay in Japan on a first trip</a> '
         f'splits the nights, our guides to {_JP3} name the hotels, and our cherry-blossom guides to <a '
         f'href="{_TS}">Tokyo</a> and <a href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto</a> have the '
-        'dates and the areas by blossom.'),
+        f'dates and the areas by blossom, as <a href="{_SP}">our Sapporo Snow Festival guide</a> does for February.'),
     "japan-autumn-2026": ("Flights and Stays",
         f'For where to sleep, <a href="{_JP}">where to stay in Japan on a first trip</a> splits the nights between '
         f'cities, and our guides to {_JP3} name the hotels.'),
@@ -1301,7 +1311,7 @@ STAY_POINTERS = {
         'Kyoto</a>.'),
     "japan-tourist-taxes-2026": ("Kyoto’s new lodging tax",
         f'Choosing where to stay in Kyoto? <a href="{_K}">Our Kyoto guide</a> compares five areas and names '
-        '14 hotels and ryokan.'),
+        f'14 hotels and ryokan. Going to Sapporo? <a href="{_SP}">Our Snow Festival guide</a> covers its new tax.'),
     # the three Japan city guides, back to the trip-level question
     "where-to-stay-in-tokyo": ("intro",
         f'Splitting the trip between cities? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers '

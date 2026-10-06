@@ -42,6 +42,9 @@
         ],
         "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
           "¥3,000 departure tax"
+        ],
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "¥3,000 departure tax"
         ]
       },
       "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
@@ -219,6 +222,9 @@
           "up to ¥10,000/night"
         ],
         "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+          "up to ¥10,000/night"
+        ],
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
           "up to ¥10,000/night"
         ]
       },
@@ -864,6 +870,305 @@
         ]
       },
       "note": "The shop still showed 2025-26 prices on 6 October 2026; when the 2026-27 local prices appear, update the guide and this fact. The pass covers Hirafu and HANAZONO only, not the All Mountain Pass or the shuttle. The discount began in 2023/24 at ¥4,700 against ¥7,800 for a common day pass (Kutchan newsletter)."
+    },
+    {
+      "id": "jp.sapporo.snowfes-2027",
+      "topic": "stat",
+      "recheck_days": 60,
+      "claim": "The 77th Sapporo Snow Festival runs from 4 to 11 February 2027 at the Odori site (Odori Park, West 1 to West 11), the Tsudome site and the Susukino site (Ekimae-dori, South 4 to South 6); the Odori site has five large snow sculptures, at West 4, 5, 7, 8 and 10, and the International Snow Sculpture Contest at West 11.",
+      "sources": [
+        {
+          "url": "https://www.snowfes.com/news/948.html",
+          "kind": "official",
+          "title": "Sapporo Snow Festival: 2027 overview (13 July 2026)"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "from 4 to 11 February 2027",
+          "West 4, 5, 7, 8 and 10",
+          "International Snow Sculpture Contest at West 11"
+        ]
+      },
+      "note": "The organisers post the full 2027 programme from mid-December 2026; recheck then."
+    },
+    {
+      "id": "jp.sapporo.snowfes-sites",
+      "topic": "place",
+      "claim": "The Odori site is lit until 10pm and the Susukino site until 11pm; the Tsudome site is open 10am to 4pm, 15 minutes' walk or a shuttle bus from Sakaemachi Station on the Toho line, with no public parking.",
+      "sources": [
+        {
+          "url": "https://www.snowfes.com/sites/odori/",
+          "kind": "official",
+          "title": "Sapporo Snow Festival: Odori site"
+        },
+        {
+          "url": "https://www.snowfes.com/sites/susukino/",
+          "kind": "official",
+          "title": "Sapporo Snow Festival: Susukino site"
+        },
+        {
+          "url": "https://www.snowfes.com/sites/tsudome/",
+          "kind": "official",
+          "title": "Sapporo Snow Festival: Tsudome site"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "Lit until 10pm",
+          "Lit until 11pm",
+          "10am to 4pm",
+          "15-minute walk or the shuttle bus"
+        ]
+      }
+    },
+    {
+      "id": "jp.sapporo.snowfes-2026-visitors",
+      "topic": "stat",
+      "claim": "The 2026 Sapporo Snow Festival drew 2,539,000 visits to the Odori and Tsudome sites, 212,000 more than in 2025 and the most since the pandemic began in 2020.",
+      "sources": [
+        {
+          "url": "https://www.hokkaido-np.co.jp/article/1274091/",
+          "kind": "news",
+          "title": "Hokkaido Shimbun: festival closes with 2.53 million visits"
+        },
+        {
+          "url": "https://www.snowfes.com/uploads/99454ecc4d95be8863357bc1be7814262bc19877.pdf",
+          "kind": "official",
+          "title": "Sapporo Snow Festival: 2026 results (PDF)"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "2.539 million visits",
+          "212,000 more"
+        ]
+      }
+    },
+    {
+      "id": "jp.sapporo.climate-feb",
+      "topic": "history",
+      "claim": "By the Japan Meteorological Agency's 1991-2020 normals, Sapporo in February has a mean daily high of 0.4°C, a mean daily low of -6.2°C and 116 cm of snowfall.",
+      "sources": [
+        {
+          "url": "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=14&block_no=47412&year=&month=&day=&view=",
+          "kind": "official",
+          "title": "Japan Meteorological Agency: Sapporo normals"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "0.4°C",
+          "6.2°C",
+          "116 cm"
+        ]
+      }
+    },
+    {
+      "id": "jp.sapporo.accommodation-tax",
+      "topic": "tax",
+      "claim": "Since 1 April 2026 Sapporo City and Hokkaido each charge an accommodation tax; in Sapporo the two together are ¥300 per person per night under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000, including stays booked before that date.",
+      "value": {
+        "since": "2026-04-01",
+        "bands": [
+          [
+            0,
+            19999,
+            300
+          ],
+          [
+            20000,
+            49999,
+            400
+          ],
+          [
+            50000,
+            null,
+            1000
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.city.sapporo.jp/citytax/shukuhakuzei/index.html",
+          "kind": "official",
+          "title": "Sapporo City: accommodation tax"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "together ¥300 a person a night on rooms under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000"
+        ],
+        "articles/japan-tourist-taxes-2026.html": [
+          "In Sapporo the two together come to ¥300 a person a night on rooms under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000"
+        ]
+      },
+      "watch": "Sapporo[^.]{0,120}(tax|Tax)[^.]{0,120}¥"
+    },
+    {
+      "id": "jp.niseko.accommodation-tax",
+      "topic": "tax",
+      "recheck_days": 30,
+      "claim": "Niseko Town's accommodation tax, in force since 1 November 2024, is a tiered fixed amount from ¥100 to ¥2,000 per person per night by room price; it changes to a percentage of the room price for stays from 1 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.town.niseko.lg.jp/information/11706",
+          "kind": "official",
+          "title": "Niseko Town: the accommodation tax changes to a rate"
+        },
+        {
+          "url": "https://www.town.niseko.lg.jp/resources/output/contents/file/release/10654/49470/gaiyou-syukuhakuzei.pdf",
+          "kind": "official",
+          "title": "Niseko Town: accommodation tax guide (PDF)"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/japan-tourist-taxes-2026.html": [
+          "Niseko Town charges ¥100 to ¥2,000 a night",
+          "from 1 November 2026"
+        ]
+      },
+      "watch": "Niseko[^.]{0,120}(tax|a night)",
+      "note": "News reports give the new rate as 3%; confirm on the town's page and update the guide once it applies on 1 November 2026."
+    },
+    {
+      "id": "jp.kutchan.accommodation-tax",
+      "topic": "tax",
+      "claim": "Since 1 April 2026 Kutchan charges 3% of the room price in total: Hokkaido's tiered tax plus the town's tax for the rest, collected by the town; it was 2% until 31 March 2026.",
+      "sources": [
+        {
+          "url": "https://www.town.kutchan.hokkaido.jp/town_administration/AccommodationTax/3108/",
+          "kind": "official",
+          "title": "Kutchan Town: accommodation tax"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/japan-tourist-taxes-2026.html": [
+          "Kutchan has charged 3% of the room price in total"
+        ]
+      }
+    },
+    {
+      "id": "jp.sapporo.airport-train",
+      "topic": "transport",
+      "claim": "JR trains from New Chitose Airport reach Sapporo Station in 33 minutes at the fastest (Special Rapid), with six Airport trains an hour between 9:00 and 16:00.",
+      "sources": [
+        {
+          "url": "https://www.jrhokkaido.co.jp/global/english/travel/airport.html",
+          "kind": "operator",
+          "title": "JR Hokkaido: New Chitose Airport to Sapporo"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "33 minutes"
+        ]
+      }
+    },
+    {
+      "id": "jp.sapporo.hotel.park-hotel-closing",
+      "topic": "hotel",
+      "claim": "Sapporo Park Hotel, opened on 10 July 1964 with 216 rooms by Nakajima Park, closes on 28 February 2027 for rebuilding.",
+      "sources": [
+        {
+          "url": "https://park1964.com/",
+          "kind": "operator",
+          "title": "Sapporo Park Hotel: closure notice"
+        },
+        {
+          "url": "https://www.granvista.co.jp/company/facilities/detail/2",
+          "kind": "operator",
+          "title": "Granvista: Sapporo Park Hotel"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "closes on 28 February 2027",
+          "10 July 1964",
+          "216 rooms"
+        ]
+      }
+    },
+    {
+      "id": "jp.sapporo.hotel.jr-tower-works",
+      "topic": "hotel",
+      "claim": "JR Tower Hotel Nikko Sapporo warns that Sapporo Station redevelopment works may be heard and felt in rooms, and the road at its main entrance is closed until around the end of March 2031.",
+      "sources": [
+        {
+          "url": "https://www.jrhotels.co.jp/tower/",
+          "kind": "operator",
+          "title": "JR Tower Hotel Nikko Sapporo: works notice"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "until around the end of March 2031"
+        ]
+      }
+    },
+    {
+      "id": "jp.sapporo.hotel.omo3-susukino",
+      "topic": "hotel",
+      "claim": "OMO3 Sapporo Susukino by Hoshino Resorts opened on 28 January 2022 with 226 rooms, about five minutes from Susukino Station.",
+      "sources": [
+        {
+          "url": "https://www.hoshinoresorts.com/information/release/2022/01/181933.html",
+          "kind": "operator",
+          "title": "Hoshino Resorts: OMO3 Sapporo Susukino opens"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "opened on 28 January 2022"
+        ]
+      }
+    },
+    {
+      "id": "jp.sapporo.hotel.jr-inn-minamiguchi",
+      "topic": "hotel",
+      "claim": "JR Inn Sapporo-eki Minamiguchi opened on 6 October 2016 with 204 rooms (96 singles, 90 twins, 9 doubles, 8 premier twins, 1 universal), seven minutes' walk from Sapporo Station.",
+      "sources": [
+        {
+          "url": "https://www.jr-inn.jp/sapporominami/",
+          "kind": "operator",
+          "title": "JR Inn Sapporo-eki Minamiguchi"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "204 rooms, opened in October 2016"
+        ]
+      }
+    },
+    {
+      "id": "jp.sapporo.hotel.sapporo-grand",
+      "topic": "history",
+      "claim": "Sapporo Grand Hotel opened in December 1934 as Hokkaido's first full Western-style hotel.",
+      "sources": [
+        {
+          "url": "https://grand1934.com/",
+          "kind": "operator",
+          "title": "Sapporo Grand Hotel"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "December 1934"
+        ]
+      }
     }
   ]
 }

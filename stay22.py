@@ -93,6 +93,8 @@ PAGES = {
                                                   address="Kaminarimon, Tokyo, Japan"),
     "where-to-stay-in-sydney-new-years-eve": dict(area="Circular Quay", lat=-33.8611, lng=151.2108, zoom=15,
                                                   address="Circular Quay, Sydney NSW, Australia"),
+    "where-to-stay-in-sapporo-snow-festival": dict(area="Odori Park", lat=43.0598, lng=141.3480, zoom=15,
+                                                   address="Odori Park, Sapporo, Japan"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -160,6 +162,17 @@ HOTELS = {
     "Four Seasons Hotel Sydney": _B + "au/four-seasons-sydney.html",
     "Sofitel Sydney Darling Harbour": _B + "au/sofitel-sydney-darling-harbour.html",
     "Hyatt Regency Sydney": _B + "au/hyatt-regency-sydney.html",
+    # Sapporo (Booking.com pages confirmed by search, 2026-10-06; OMO3's listing was not taking bookings)
+    "The Royal Park Canvas Sapporo Odori Park": _B + "jp/the-royal-park-canvas-sapporo-odori-park.html",
+    "Sapporo Grand Hotel": _B + "jp/sapporo-grand.html",
+    "JR Inn Sapporo-eki Minamiguchi": _B + "jp/jr-inn-sapporo-eki-minami-guchi.html",
+    "JR Tower Hotel Nikko Sapporo": _B + "jp/jr-tower-nikko-sapporo.html",
+    "Hotel Gracery Sapporo": _B + "jp/gracery-sapporo.html",
+    "Keio Plaza Hotel Sapporo": _B + "jp/keio-plaza-sapporo.html",
+    "Cross Hotel Sapporo": _B + "jp/cross-sapporo.html",
+    "Mercure Sapporo": _B + "jp/mercure-sapporo.html",
+    "OMO3 Sapporo Susukino by Hoshino Resorts": None,
+    "Sapporo Park Hotel": _B + "jp/sapporo-park-hokkaido.html",
     # Melbourne
     "Park Hyatt Melbourne": _B + "au/park-hyatt-melbourne.html",
     "The Ritz-Carlton, Melbourne": _B + "au/the-ritz-carlton-melbourne.html",

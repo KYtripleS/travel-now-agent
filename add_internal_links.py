@@ -555,6 +555,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in Singapore",
         "Five areas and 12 hotels, from Raffles of 1887 to a compact room on Orchard Road, and what \"++\" adds to the bill.",
     ),
+    "articles/where-to-stay-in-sapporo-snow-festival.html": (
+        "Where to Stay in Sapporo for the Snow Festival",
+        "The 2027 dates and sites, four areas and 10 hotels, the new hotel tax, and one hotel that closes after the festival.",
+    ),
     "articles/where-to-stay-in-sydney-new-years-eve.html": (
         "Where to Stay in Sydney for New Year's Eve",
         "The 2026 timetable, the vantage points and their ticket dates, four areas and 12 hotels, and the minimum stays to watch for.",
@@ -1422,6 +1426,7 @@ LINKS: dict[str, list[str]] = {
     ],
     # ---- Japan cluster completion (2026-07-20 beachhead push) ----
     "articles/best-time-to-visit-japan-2026.html": [
+        "articles/where-to-stay-in-sapporo-snow-festival.html",
         "articles/where-to-stay-in-tokyo-cherry-blossom.html",
         "articles/where-to-stay-in-kyoto-cherry-blossom.html",
         "articles/japan-autumn-2026.html",
@@ -1455,6 +1460,7 @@ LINKS: dict[str, list[str]] = {
         "countries/japan/index.html",
     ],
     "articles/japan-tourist-taxes-2026.html": [
+        "articles/where-to-stay-in-sapporo-snow-festival.html",
         "articles/is-accommodation-tax-double-taxation.html",
         "articles/does-tourist-tax-reduce-overtourism.html",
         "articles/how-much-does-japan-cost.html",
@@ -1682,6 +1688,7 @@ LINKS: dict[str, list[str]] = {
         "articles/best-time-to-visit-japan-2026.html",
     ],
     "articles/where-to-stay-in-japan.html": [
+        "articles/where-to-stay-in-sapporo-snow-festival.html",
         "articles/where-to-stay-in-tokyo.html",
         "articles/where-to-stay-in-kyoto.html",
         "articles/where-to-stay-in-osaka.html",
@@ -1729,6 +1736,14 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-stay-in-kyoto.html",
         "articles/best-esim-japan-2026.html",
         "articles/where-to-stay-in-tokyo.html",
+    ],
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+        "articles/best-time-to-visit-japan-2026.html",
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-stay-in-japan.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-sydney-new-years-eve.html": [
         "articles/where-to-stay-in-sydney.html",

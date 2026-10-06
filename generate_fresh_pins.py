@@ -516,6 +516,24 @@ SPECS = [
                      "Opera House Forecourt are released at 10am on 26 December, most free vantage points are "
                      "alcohol-free, and Circular Quay Station closes from 3pm to midnight. Part of our guide to "
                      "where to stay in Sydney for New Year's Eve."),
+    dict(id=1051, slug="sapporo-snow-stay-f1", article="articles/where-to-stay-in-sapporo-snow-festival.html",
+         board=JP, photo=36053234, title="SAPPORO", tagline="Snow Festival stays, by site",
+         bullets=["4 to 11 February 2027", "Snow sculptures: Odori", "Ice and late nights: Susukino",
+                  "Hotel tax: from ¥300"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Sapporo for the Snow Festival 2027: Areas, Dates, Hotels",
+         description="The 2027 Sapporo Snow Festival runs from 4 to 11 February at Odori, Susukino and Tsudome. "
+                     "Odori puts the snow sculptures outside the door, Sapporo Station has the airport train, and "
+                     "Susukino has the ice sculptures, lit until 11pm. Four areas, 10 hotels and Sapporo's new "
+                     "hotel tax."),
+    dict(id=1052, slug="sapporo-susukino-ice-f1", article="articles/where-to-stay-in-sapporo-snow-festival.html",
+         board=JP, photo=37437791, title="SUSUKINO", tagline="festival ice and late nights",
+         bullets=["Ice sculptures lit to 11pm", "Ekimae-dori, South 4 to 6", "One stop from Odori",
+                  "Mercure: a block away"], cta="Where to stay →",
+         pin_title="Susukino for the Sapporo Snow Festival: The Ice Sculptures and Where to Stay",
+         description="The Snow Festival's ice sculptures line Ekimae-dori in Susukino, from South 4 to South 6, "
+                     "lit until 11pm, one subway stop from Odori. Mercure Sapporo is a block away and OMO3 "
+                     "Sapporo Susukino a few blocks west. Part of our guide to where to stay in Sapporo for the "
+                     "Snow Festival 2027."),
 ]
 
 
