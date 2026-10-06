@@ -551,6 +551,24 @@ SPECS = [
                      "skis out to the King Gondola, Ki Niseko sits by the gondola, and the Mercure, the former "
                      "Midtown Niseko, runs a free winter ski shuttle. Taxis can be scarce in winter, so stay "
                      "close. Part of our Niseko guide."),
+    dict(id=1055, slug="fukuoka-stay-f1", article="articles/where-to-stay-in-fukuoka.html",
+         board=JP, photo=39396660, title="FUKUOKA", tagline="where to stay",
+         bullets=["Airport: 5 min to Hakata", "Yatai in Nakasu and Tenjin", "11 hotels, four areas",
+                  "Hotel tax: ¥200 or ¥500"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Fukuoka: Hakata, Tenjin or Nakasu, and 11 Hotels",
+         description="Fukuoka Airport is 5 minutes from Hakata Station by subway, so the choice of base is about "
+                     "what you came for: Hakata for the trains, Nakasu for the yatai food stalls, Tenjin for "
+                     "shopping and Momochi for the sea. Eleven hotels, from a rooftop hot-spring spa to a "
+                     "business hotel with its own baths, and the city's ¥200 or ¥500 hotel tax."),
+    dict(id=1056, slug="fukuoka-nakasu-f1", article="articles/where-to-stay-in-fukuoka.html",
+         board=JP, photo=3014631, title="NAKASU", tagline="Fukuoka's yatai base",
+         bullets=["Yatai by the Naka River", "Il Palazzo: Aldo Rossi, 1989", "Canal City on foot",
+                  "Okura: on the airport line"], cta="Where to stay →",
+         pin_title="Staying Near Fukuoka's Yatai: Nakasu and Canal City Hotels",
+         description="Fukuoka's yatai, the open-air food stalls, gather in Nakasu, Tenjin and Nagahama. In "
+                     "Nakasu, Hotel Il Palazzo, Aldo Rossi's first building in Japan, puts the stalls a minute's "
+                     "walk away, Hotel Okura Fukuoka sits on the airport subway line, and the Grand Hyatt is "
+                     "inside Canal City. Part of our Fukuoka guide."),
 ]
 
 

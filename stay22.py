@@ -97,6 +97,8 @@ PAGES = {
                                                    address="Odori Park, Sapporo, Japan"),
     "where-to-stay-in-niseko": dict(area="Grand Hirafu", lat=42.8605, lng=140.6966, zoom=12,
                                     address="Kutchan, Hokkaido, Japan"),
+    "where-to-stay-in-fukuoka": dict(area="Hakata Station", lat=33.5902, lng=130.4207, zoom=15,
+                                     address="Hakata Station, Fukuoka, Japan"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -186,6 +188,18 @@ HOTELS = {
     "The Green Leaf Niseko Village, Tapestry Collection by Hilton": _B + "jp/green-leaf-niseko-village.html",
     "Niseko Northern Resort Annupuri": _B + "jp/niseko-northern-resort-an-nupuri.html",
     "Torifito Hotel & Pod Niseko": _B + "jp/torihuitohoteru-kiyabinnisekoponnotang.html",
+    # Fukuoka (each page fetched from a booking.com tab, 2026-10-06; addresses match the hotels' own sites)
+    "Miyako Hotel Hakata": _B + "jp/hakata-miyako.html",
+    "Hotel Nikko Fukuoka": _B + "jp/nikko-fukuoka.html",
+    "JR Kyushu Hotel Blossom Hakata Central": _B + "jp/jr-kyushu-blossom-hakata-central.html",
+    "Grand Hyatt Fukuoka": _B + "jp/grand-hyatt-fukuoka.html",
+    "Hotel Okura Fukuoka": _B + "jp/okura-fukuoka.html",
+    "Hotel Il Palazzo": _B + "jp/il-palazzo.html",
+    "Dormy Inn Premium Hakata Canal City Mae": _B + "jp/dormy-inn-premium-hakata-canal-city-mae.html",
+    "The Ritz-Carlton, Fukuoka": _B + "jp/the-ritz-carlton-fukuoka.html",
+    "ONE FUKUOKA HOTEL": _B + "jp/one-fukuoka.html",
+    "Candeo Hotels Fukuoka Tenjin": _B + "jp/candeo-hotels-fukuoka-tenjin.html",
+    "Hilton Fukuoka Sea Hawk": _B + "jp/hilton-fukuoka-sea-hawk.html",
     # Melbourne
     "Park Hyatt Melbourne": _B + "au/park-hyatt-melbourne.html",
     "The Ritz-Carlton, Melbourne": _B + "au/the-ritz-carlton-melbourne.html",

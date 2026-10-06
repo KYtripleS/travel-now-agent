@@ -555,6 +555,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in Singapore",
         "Five areas and 12 hotels, from Raffles of 1887 to a compact room on Orchard Road, and what \"++\" adds to the bill.",
     ),
+    "articles/where-to-stay-in-fukuoka.html": (
+        "Where to Stay in Fukuoka",
+        "Four areas from Hakata Station to Momochi, 11 hotels, the ¥200/¥500 tax, and the Kyushu discount overseas visitors can use.",
+    ),
     "articles/where-to-stay-in-niseko.html": (
         "Where to Stay in Niseko",
         "The 2026/27 season and lift prices, five areas from Grand Hirafu to Kutchan town, 10 hotels, and the 3% tax.",
@@ -1430,6 +1434,7 @@ LINKS: dict[str, list[str]] = {
     ],
     # ---- Japan cluster completion (2026-07-20 beachhead push) ----
     "articles/best-time-to-visit-japan-2026.html": [
+        "articles/where-to-stay-in-fukuoka.html",
         "articles/where-to-stay-in-niseko.html",
         "articles/where-to-stay-in-sapporo-snow-festival.html",
         "articles/where-to-stay-in-tokyo-cherry-blossom.html",
@@ -1465,6 +1470,7 @@ LINKS: dict[str, list[str]] = {
         "countries/japan/index.html",
     ],
     "articles/japan-tourist-taxes-2026.html": [
+        "articles/where-to-stay-in-fukuoka.html",
         "articles/where-to-stay-in-niseko.html",
         "articles/where-to-stay-in-sapporo-snow-festival.html",
         "articles/is-accommodation-tax-double-taxation.html",
@@ -1694,6 +1700,7 @@ LINKS: dict[str, list[str]] = {
         "articles/best-time-to-visit-japan-2026.html",
     ],
     "articles/where-to-stay-in-japan.html": [
+        "articles/where-to-stay-in-fukuoka.html",
         "articles/where-to-stay-in-niseko.html",
         "articles/where-to-stay-in-sapporo-snow-festival.html",
         "articles/where-to-stay-in-tokyo.html",
@@ -1743,6 +1750,14 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-stay-in-kyoto.html",
         "articles/best-esim-japan-2026.html",
         "articles/where-to-stay-in-tokyo.html",
+    ],
+    "articles/where-to-stay-in-fukuoka.html": [
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/where-to-stay-in-japan.html",
+        "articles/best-time-to-visit-japan-2026.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/where-to-stay-in-osaka.html",
     ],
     "articles/where-to-stay-in-niseko.html": [
         "articles/where-to-stay-in-sapporo-snow-festival.html",

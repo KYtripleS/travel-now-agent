@@ -1,1320 +1,1753 @@
 {
-  "place": "Japan",
-  "facts": [
+ "place": "Japan",
+ "facts": [
+  {
+   "id": "jp.departure-tax",
+   "topic": "tax",
+   "claim": "Japan's International Tourist Tax, the departure tax, is ¥3,000 per person from 1 July 2026, collected in the price of your ticket.",
+   "value": {
+    "jpy": 3000,
+    "since": "2026-07-01"
+   },
+   "sources": [
     {
-      "id": "jp.departure-tax",
-      "topic": "tax",
-      "claim": "Japan's International Tourist Tax, the departure tax, is ¥3,000 per person from 1 July 2026, collected in the price of your ticket.",
-      "value": {
-        "jpy": 3000,
-        "since": "2026-07-01"
-      },
-      "sources": [
-        {
-          "url": "https://www.japan.travel/en/ca/news/japans-international-tourist-tax-is-increasing/",
-          "kind": "official",
-          "title": "JNTO: Japan's International Tourist Tax is increasing"
-        }
-      ],
-      "checked": "2026-10-04",
-      "used_in": {
-        "articles/japan-tourist-taxes-2026.html": [
-          "¥3,000 from 1 July 2026",
-          "raised to ¥3,000 per person in 2026"
-        ],
-        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
-          "from ¥1,000 to ¥3,000 per person in 2026"
-        ],
-        "articles/is-accommodation-tax-double-taxation.html": [
-          "¥3,000 departure tax"
-        ],
-        "articles/does-tourist-tax-reduce-overtourism.html": [
-          "¥3,000 departure tax"
-        ],
-        "articles/how-much-does-japan-cost.html": [
-          "¥3,000 departure tax"
-        ],
-        "articles/japan-tax-free-shopping-2026-changes.html": [
-          "¥3,000 departure tax"
-        ],
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "¥3,000 departure tax"
-        ],
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "¥3,000 departure tax"
-        ],
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "¥3,000 departure tax"
-        ],
-        "articles/where-to-stay-in-niseko.html": [
-          "¥3,000 departure tax"
-        ]
-      },
-      "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
-      "note": "Secondary sources say tickets issued by 30 June 2026 keep the old rate; confirm with the National Tax Agency before stating it. The three related-reading cards take their text from add_internal_links.ARTICLES."
-    },
-    {
-      "id": "jp.departure-tax.2019",
-      "topic": "tax",
-      "claim": "Japan's International Tourist Tax was ¥1,000 per person from its introduction in January 2019 until 30 June 2026.",
-      "value": {
-        "jpy": 1000
-      },
-      "sources": [
-        {
-          "url": "https://www.japan.travel/en/ca/news/japans-international-tourist-tax-is-increasing/",
-          "kind": "official",
-          "title": "JNTO: Japan's International Tourist Tax is increasing"
-        }
-      ],
-      "checked": "2026-10-04",
-      "status": "superseded",
-      "superseded_by": "jp.departure-tax",
-      "changed": "2026-07-01",
-      "note": "Our guide's summary line kept this figure until 4 October 2026 (corrections.html)."
-    },
-    {
-      "id": "jp.kyoto.sakura.normals",
-      "topic": "history",
-      "claim": "By the Kyoto Local Meteorological Office's 1991-2020 normals, Kyoto's cherry trees first flower on 26 March and reach full bloom on 4 April.",
-      "value": {
-        "flowering": "03-26",
-        "full_bloom": "04-04",
-        "period": "1991-2020"
-      },
-      "sources": [
-        {
-          "url": "https://www.data.jma.go.jp/kyoto/2_data/seibutsu/index.html",
-          "kind": "official",
-          "title": "Kyoto Local Meteorological Office: plant phenology"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "26 March",
-          "4 April"
-        ]
-      }
-    },
-    {
-      "id": "jp.kyoto.sakura.2026",
-      "topic": "stat",
-      "claim": "In 2026 Kyoto's cherry trees first flowered on 23 March and reached full bloom on 30 March; in 2025 the dates were 27 March and 5 April.",
-      "value": {
-        "2026": {
-          "flowering": "03-23",
-          "full_bloom": "03-30"
-        },
-        "2025": {
-          "flowering": "03-27",
-          "full_bloom": "04-05"
-        }
-      },
-      "sources": [
-        {
-          "url": "https://www.data.jma.go.jp/kyoto/2_data/seibutsu/index.html",
-          "kind": "official",
-          "title": "Kyoto Local Meteorological Office: plant phenology"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "23 March",
-          "30 March",
-          "27 March",
-          "5 April"
-        ]
-      },
-      "note": "Recheck in spring 2027 and add that year's dates."
-    },
-    {
-      "id": "jp.sakura.forecast-timing-2026",
-      "topic": "stat",
-      "claim": "For the 2026 season, the first cherry forecasts came from the Japan Meteorological Corporation on 18 December 2025, Weathernews on 8 January 2026 and the Japan Weather Association on 29 January 2026.",
-      "sources": [
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000000013.000135496.html",
-          "kind": "publisher",
-          "title": "Japan Meteorological Corporation: first 2026 forecast"
-        },
-        {
-          "url": "https://weathernews.jp/news/202601/080056/",
-          "kind": "publisher",
-          "title": "Weathernews: first 2026 forecast"
-        },
-        {
-          "url": "https://www.jwa.or.jp/news/2026/01/32859/",
-          "kind": "publisher",
-          "title": "Japan Weather Association: first 2026 forecast"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "18 December 2025",
-          "8 January",
-          "29 January"
-        ],
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "18 December 2025",
-          "8 January",
-          "29 January"
-        ]
-      }
-    },
-    {
-      "id": "jp.kyoto.accommodation-tax",
-      "topic": "tax",
-      "claim": "Since 1 March 2026 Kyoto City charges an accommodation tax per person per night by room rate: ¥200 under ¥6,000, ¥400 from ¥6,000, ¥1,000 from ¥20,000, ¥4,000 from ¥50,000 and ¥10,000 from ¥100,000.",
-      "value": {
-        "since": "2026-03-01",
-        "bands_jpy": [
-          [
-            0,
-            200
-          ],
-          [
-            6000,
-            400
-          ],
-          [
-            20000,
-            1000
-          ],
-          [
-            50000,
-            4000
-          ],
-          [
-            100000,
-            10000
-          ]
-        ]
-      },
-      "sources": [
-        {
-          "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000345893.html",
-          "kind": "official",
-          "title": "Kyoto City: accommodation tax from 1 March 2026"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "Since 1 March 2026",
-          "¥10,000"
-        ],
-        "articles/japan-tourist-taxes-2026.html": [
-          "¥10,000/night"
-        ],
-        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
-          "¥10,000 a night"
-        ],
-        "articles/is-accommodation-tax-double-taxation.html": [
-          "¥10,000 a night"
-        ],
-        "articles/does-tourist-tax-reduce-overtourism.html": [
-          "up to ¥10,000/night"
-        ],
-        "articles/how-much-does-japan-cost.html": [
-          "up to ¥10,000/night"
-        ],
-        "articles/japan-tax-free-shopping-2026-changes.html": [
-          "up to ¥10,000/night"
-        ],
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "up to ¥10,000/night"
-        ],
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "up to ¥10,000/night"
-        ],
-        "articles/where-to-stay-in-niseko.html": [
-          "up to ¥10,000/night"
-        ]
-      },
-      "watch": "(?i)kyoto[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥",
-      "note": "Related-reading cards take their text from add_internal_links.ARTICLES."
-    },
-    {
-      "id": "jp.kyoto.philosophers-path",
-      "topic": "place",
-      "claim": "The Philosopher's Path runs for about 2 km beside a canal from Ginkaku-ji to Nyakuoji Shrine, under some 400 cherry trees.",
-      "value": {
-        "km": 2,
-        "cherry_trees": 400
-      },
-      "sources": [
-        {
-          "url": "https://kanko.city.kyoto.lg.jp/detail.php?InforKindCode=1&ManageCode=3000069",
-          "kind": "official",
-          "title": "Kyoto City tourism: the Philosopher's Path"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "about 2 kilometres",
-          "some 400 cherry trees"
-        ]
-      }
-    },
-    {
-      "id": "jp.kyoto.keage-incline",
-      "topic": "place",
-      "claim": "The Keage Incline is a 582-metre former inclined railway for canal boats, with about 90 cherry trees along its tracks.",
-      "value": {
-        "m": 582,
-        "cherry_trees": 90
-      },
-      "sources": [
-        {
-          "url": "https://hanami.walkerplus.com/detail/ar0726e382390/",
-          "kind": "secondary",
-          "title": "Walkerplus: the Keage Incline"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "582-metre",
-          "about 90 more"
-        ]
-      },
-      "note": "Find the Kyoto City Waterworks Bureau's own page for the length and tree count."
-    },
-    {
-      "id": "jp.kyoto.nijo-sakura-2026",
-      "topic": "place",
-      "claim": "Nijo Castle has about 300 cherry trees of some 50 varieties; its 2026 cherry festival ran from 19 March to 19 April with evening openings.",
-      "sources": [
-        {
-          "url": "https://ja.kyoto.travel/event/single.php?event_id=4676",
-          "kind": "official",
-          "title": "Kyoto City tourism: Nijo Castle cherry festival 2026"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "about 300 cherry trees of some 50 varieties",
-          "19 March to 19 April"
-        ]
-      },
-      "note": "Replace with the 2027 dates once announced."
-    },
-    {
-      "id": "jp.kyoto.hotel.westin-miyako",
-      "topic": "hotel",
-      "claim": "The Westin Miyako Kyoto traces its history to 1890, sits beside the Keage Incline three minutes' walk from Keage station, and completed a renovation in 2020 that halved the number of rooms and added a spa on a hot spring under the grounds.",
-      "sources": [
-        {
-          "url": "https://en.miyakohotels.ne.jp/westinkyoto/banquet/concept/",
-          "kind": "operator",
-          "title": "The Westin Miyako Kyoto: concept"
-        },
-        {
-          "url": "https://www.booking.com/hotel/jp/the-westin-miyako-kyoto.html",
-          "kind": "secondary",
-          "title": "Booking.com: The Westin Miyako Kyoto"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "goes back to 1890",
-          "completed in 2020"
-        ]
-      }
-    },
-    {
-      "id": "jp.kyoto.hotel.okura-okazaki-bettei",
-      "topic": "hotel",
-      "claim": "Hotel Okura Kyoto Okazaki Bettei opened on 20 January 2022 with 60 rooms on four floors, on the grounds of the Okazaki Betsuin temple.",
-      "value": {
-        "opened": "2022-01-20",
-        "rooms": 60
-      },
-      "sources": [
-        {
-          "url": "https://www.businesswire.com/news/home/20211125006311/en/Hotel-Okura-Kyoto-Okazaki-Bettei-to-Open-January-20th",
-          "kind": "news",
-          "title": "Business Wire: opening"
-        },
-        {
-          "url": "https://okazakibettei.hotelokurakyoto.com/en/concept/",
-          "kind": "operator",
-          "title": "Hotel Okura Kyoto Okazaki Bettei: concept"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "60 rooms on four floors",
-          "January 2022"
-        ]
-      }
-    },
-    {
-      "id": "jp.kyoto.hotel.suiran",
-      "topic": "hotel",
-      "claim": "Suiran, a Luxury Collection Hotel, Kyoto has 39 rooms around a Meiji-era summer residence in Arashiyama, 17 with their own hot-spring bath.",
-      "value": {
-        "rooms": 39,
-        "onsen_rooms": 17
-      },
-      "sources": [
-        {
-          "url": "https://www.marriott.com/en-us/hotels/ukylc-suiran-a-luxury-collection-hotel-kyoto/overview/",
-          "kind": "operator",
-          "title": "Marriott: Suiran"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
-          "39 rooms",
-          "17 of them"
-        ]
-      }
-    },
-    {
-      "id": "jp.tokyo.sakura.normals",
-      "topic": "history",
-      "claim": "By the Japan Meteorological Agency's 1991-2020 normals, Tokyo's cherry trees first flower on 24 March and reach full bloom on 31 March.",
-      "value": {
-        "flowering": "03-24",
-        "full_bloom": "03-31"
-      },
-      "sources": [
-        {
-          "url": "https://www.data.jma.go.jp/sakura/data/sakura_kaika.html",
-          "kind": "official",
-          "title": "Japan Meteorological Agency: cherry flowering dates, with normals"
-        },
-        {
-          "url": "https://www.data.jma.go.jp/sakura/data/sakura_mankai.html",
-          "kind": "official",
-          "title": "Japan Meteorological Agency: cherry full-bloom dates, with normals"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "24 March",
-          "31 March"
-        ]
-      }
-    },
-    {
-      "id": "jp.tokyo.sakura.2026",
-      "topic": "stat",
-      "claim": "In 2026 Tokyo's cherry trees first flowered on 19 March and reached full bloom on 28 March; in 2025 the dates were 24 March and 30 March.",
-      "value": {
-        "2026": {
-          "flowering": "03-19",
-          "full_bloom": "03-28"
-        },
-        "2025": {
-          "flowering": "03-24",
-          "full_bloom": "03-30"
-        }
-      },
-      "sources": [
-        {
-          "url": "https://www.data.jma.go.jp/sakura/data/sakura_kaika.html",
-          "kind": "official",
-          "title": "Japan Meteorological Agency: cherry flowering dates"
-        },
-        {
-          "url": "https://www.data.jma.go.jp/sakura/data/sakura_mankai.html",
-          "kind": "official",
-          "title": "Japan Meteorological Agency: cherry full-bloom dates"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "19 March",
-          "28 March",
-          "30 March"
-        ]
-      },
-      "note": "Recheck in spring 2027 and add that year's dates."
-    },
-    {
-      "id": "jp.tokyo.sakura.sample-tree",
-      "topic": "history",
-      "claim": "Since 1966 the Japan Meteorological Agency has observed Tokyo's cherry sample tree at Yasukuni Shrine; it records flowering when five or six flowers are open and full bloom when about 80% are open.",
-      "sources": [
-        {
-          "url": "https://www.data.jma.go.jp/tokyo/shosai/kanyoho/sakura/sakura.html",
-          "kind": "official",
-          "title": "Japan Meteorological Agency, Tokyo: cherry observation notes"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "Yasukuni Shrine",
-          "five or six flowers",
-          "about 80%"
-        ]
-      }
-    },
-    {
-      "id": "jp.tokyo.accommodation-tax",
-      "topic": "tax",
-      "claim": "Until 31 March 2027 Tokyo's accommodation tax is ¥100 per person per night on rooms of ¥10,000 to ¥14,999 per person and ¥200 from ¥15,000; rooms under ¥10,000 are exempt.",
-      "value": {
-        "bands": [
-          [
-            10000,
-            14999,
-            100
-          ],
-          [
-            15000,
-            null,
-            200
-          ]
-        ],
-        "exempt_below": 10000,
-        "until": "2027-03-31"
-      },
-      "sources": [
-        {
-          "url": "https://www.tax.metro.tokyo.lg.jp/shitsumon/leisure/general_01",
-          "kind": "official",
-          "title": "Tokyo Metropolitan Government Bureau of Taxation: accommodation tax"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "¥100 a person a night on rooms of ¥10,000 to ¥14,999",
-          "¥200 from ¥15,000"
-        ],
-        "articles/where-to-stay-in-tokyo.html": [
-          "¥100 per person per night to rooms from ¥10,000 to ¥14,999",
-          "¥200 from ¥15,000"
-        ],
-        "articles/where-to-stay-in-japan.html": [
-          "¥100 on rooms from ¥10,000 to ¥14,999",
-          "¥200 from ¥15,000"
-        ]
-      },
-      "watch": "Tokyo[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
-    },
-    {
-      "id": "jp.tokyo.accommodation-tax-2027",
-      "topic": "tax",
-      "claim": "From 1 April 2027 Tokyo's accommodation tax becomes 3% of the room charge on stays of ¥13,000 or more per person per night, with cheaper stays exempt and licensed private lodging (minpaku) included.",
-      "value": {
-        "from": "2027-04-01",
-        "rate_pct": 3,
-        "exempt_below": 13000
-      },
-      "sources": [
-        {
-          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/shuk_minaoshi",
-          "kind": "official",
-          "title": "Tokyo Metropolitan Government Bureau of Taxation: the accommodation tax from 1 April 2027"
-        },
-        {
-          "url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026063004",
-          "kind": "official",
-          "title": "Tokyo Metropolitan Government: start date confirmed (30 June 2026)"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "From 1 April 2027 it becomes 3% of the room charge on rooms of ¥13,000 or more a person a night"
-        ],
-        "articles/where-to-stay-in-tokyo.html": [
-          "From stays on 1 April 2027 it becomes 3% of the rate, with rooms under ¥13,000 exempt"
-        ],
-        "articles/where-to-stay-in-japan.html": [
-          "From April 2027, 3% of the rate on stays of ¥13,000 or more per person"
-        ],
-        "articles/japan-tourist-taxes-2026.html": [
-          "from 1 April 2027, when it also becomes 3% of the room rate on stays of ¥13,000 or more per person per night"
-        ]
-      },
-      "watch": "(?:2027|accommodation tax|lodging tax)[^.]{0,80}(?:3%|13,000)"
-    },
-    {
-      "id": "jp.tokyo.ueno-park",
-      "topic": "place",
-      "claim": "Ueno Park, one of the five places designated as Japan's first public parks in 1873, has about 800 cherry trees, a blossom spot since the priest Tenkai brought cherries from Mount Yoshino in the 17th century; the 77th Ueno cherry festival ran from 14 March to 5 April 2026.",
-      "sources": [
-        {
-          "url": "https://www.nippon.com/ja/guide-to-japan/sakura00113067/",
-          "kind": "publisher",
-          "title": "nippon.com: Ueno Park"
-        },
-        {
-          "url": "https://www.ueno.or.jp/post/uenosakuramatsuri",
-          "kind": "operator",
-          "title": "Ueno Tourism Federation: the 77th Ueno cherry festival"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "in 1873",
-          "some 800 cherry trees",
-          "Mount Yoshino",
-          "14 March to 5 April"
-        ]
-      },
-      "note": "Festival dates change every year; recheck in spring 2027."
-    },
-    {
-      "id": "jp.tokyo.sumida-park",
-      "topic": "place",
-      "claim": "Sumida Park's cherry trees line both banks of the Sumida River for about 1 km between Azuma Bridge and Sakura Bridge; the avenue is said to date from the eighth shogun, Tokugawa Yoshimune.",
-      "sources": [
-        {
-          "url": "https://www.nippon.com/ja/guide-to-japan/sakura00113068/",
-          "kind": "publisher",
-          "title": "nippon.com: Sumida Park"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "about a kilometre between Azuma Bridge and Sakura Bridge",
-          "Tokugawa Yoshimune"
-        ]
-      }
-    },
-    {
-      "id": "jp.tokyo.chidorigafuchi",
-      "topic": "place",
-      "claim": "Chidorigafuchi has about 260 cherry trees along a green path of about 700 m, and Chiyoda City runs the boat pier on the moat, with rowing boats, pedal (cycle) boats and swan boats.",
-      "sources": [
-        {
-          "url": "https://visit-chiyoda.tokyo/app/feature/detail/151",
-          "kind": "official",
-          "title": "Visit Chiyoda: Chidorigafuchi"
-        },
-        {
-          "url": "https://www.city.chiyoda.lg.jp/shisetsu/koen/chidorigafuchi-boat.html",
-          "kind": "official",
-          "title": "Chiyoda City: Chidorigafuchi boat pier"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "about 260 cherry trees along a 700-metre path",
-          "Chiyoda City runs a boat pier",
-          "rowing boats, pedal boats and swan boats"
-        ]
-      }
-    },
-    {
-      "id": "jp.tokyo.meguro-river",
-      "topic": "place",
-      "claim": "The Meguro River has about 800 cherry trees along about 3.8 km of both banks, with night lighting in season.",
-      "sources": [
-        {
-          "url": "https://tenki.jp/sakura/3/16/54616.html",
-          "kind": "publisher",
-          "title": "Japan Weather Association (tenki.jp): the Meguro River"
-        },
-        {
-          "url": "https://meguro-kanko.com/spot/detail.php?no=70",
-          "kind": "official",
-          "title": "Meguro tourism association: the Meguro River (about 800 trees over about 4 km in Meguro City)"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "some 800 cherry trees along about 3.8 kilometres"
-        ]
-      }
-    },
-    {
-      "id": "jp.tokyo.shinjuku-gyoen",
-      "topic": "place",
-      "claim": "Shinjuku Gyoen has about 900 cherry trees of about 70 varieties, flowering from February to mid-April; adult entry is ¥500, alcohol is not allowed, and the Shinjuku Gate is a 10-minute walk from Shinjuku Station's South Exit.",
-      "sources": [
-        {
-          "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/highlights/sakura/",
-          "kind": "official",
-          "title": "Ministry of the Environment: Shinjuku Gyoen's cherry trees"
-        },
-        {
-          "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/information/",
-          "kind": "official",
-          "title": "Ministry of the Environment: Shinjuku Gyoen admission"
-        },
-        {
-          "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/rule/",
-          "kind": "official",
-          "title": "Ministry of the Environment: Shinjuku Gyoen rules"
-        },
-        {
-          "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/access/",
-          "kind": "official",
-          "title": "Ministry of the Environment: Shinjuku Gyoen access"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "some 900 cherry trees of about 70 varieties",
-          "Entry for adults is ¥500",
-          "alcohol is not allowed",
-          "ten-minute walk from the South Exit"
-        ]
-      }
-    },
-    {
-      "id": "jp.tokyo.hotel.park-hyatt",
-      "topic": "hotel",
-      "claim": "Park Hyatt Tokyo occupies the top fourteen floors of the 52-storey Shinjuku Park Tower and reopened on 9 December 2025 after a 19-month renovation.",
-      "sources": [
-        {
-          "url": "https://newsroom.hyatt.com/120925-Park-Hyatt-Tokyo-Reopens-Following-19-Month-Renovation",
-          "kind": "operator",
-          "title": "Hyatt Newsroom: Park Hyatt Tokyo reopens"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "reopened on 9 December 2025"
-        ],
-        "articles/where-to-stay-in-tokyo.html": [
-          "reopened on 9 December 2025"
-        ]
-      }
-    },
-    {
-      "id": "jp.tokyo.chidorigafuchi.boat-fee",
-      "topic": "price",
-      "claim": "From 1 March 2026 a boat at the Chidorigafuchi pier costs ¥1,500 for 30 minutes (¥3,000 for 60) in cherry-viewing season and ¥1,000 for 30 minutes otherwise; the pier closes from December to February.",
-      "value": {
-        "since": "2026-03-01",
-        "sakura_30min": 1500,
-        "sakura_60min": 3000,
-        "normal_30min": 1000,
-        "normal_60min": 2000
-      },
-      "sources": [
-        {
-          "url": "https://www.city.chiyoda.lg.jp/shisetsu/koen/chidorigafuchi-boat.html",
-          "kind": "official",
-          "title": "Chiyoda City: Chidorigafuchi boat pier"
-        }
-      ],
-      "checked": "2026-10-05",
-      "used_in": {
-        "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
-          "¥1,500 for 30 minutes"
-        ]
-      },
-      "note": "Recheck before the 2027 season; the city revised fees on 1 March 2026."
-    },
-    {
-      "id": "jp.himeji.castle-admission",
-      "topic": "price",
-      "claim": "Since 1 March 2026 Himeji Castle has charged ¥2,500 to everyone aged 18 or over who does not live in Himeji City, Japanese or foreign, and ¥1,000 to Himeji residents aged 18 or over; under-18s enter free.",
-      "value": {
-        "since": "2026-03-01",
-        "non_resident_18_plus": 2500,
-        "resident_18_plus": 1000,
-        "under_18": 0,
-        "group_30_non_resident": 2000,
-        "group_30_resident": 800,
-        "adult_before": 1000
-      },
-      "sources": [
-        {
-          "url": "https://www.city.himeji.lg.jp/castle/0000030746.html",
-          "kind": "official",
-          "title": "Himeji City: Himeji Castle admission from 1 March 2026, and who counts as a resident (Japanese)"
-        },
-        {
-          "url": "https://www.himejicastle.jp/en/",
-          "kind": "official",
-          "title": "Himeji Castle official site (Himeji City): admission fees"
-        },
-        {
-          "url": "https://www.city.himeji.lg.jp/shisei/0000032640.html",
-          "kind": "official",
-          "title": "Himeji City, 9 February 2026: new admission fees and digital tickets (Japanese)"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
-          "Himeji Castle has charged ¥2,500 to everyone aged 18 or over who does not live in Himeji City, Japanese or foreign",
-          "Himeji residents pay ¥1,000, and under-18s enter free",
-          "and ¥1,000 to residents"
-        ]
-      },
-      "watch": "Himeji[^.]{0,120}¥\\s?[\\d,]+|¥\\s?[\\d,]+[^.]{0,60}Himeji",
-      "note": "The fee is by residence, not nationality: a resident is anyone with an address in Himeji City, shown with a My Number card, a driving licence or another official photo ID with name and address, and the city lists the residence card among them, so foreign residents pay ¥1,000 too. Before 1 March 2026 every adult paid ¥1,000 and children ¥300. Group rates (30 or more): ¥2,000 and ¥800."
-    },
-    {
-      "id": "jp.himeji.castle-admission-basis",
-      "topic": "history",
-      "claim": "Himeji City says it set the March 2026 admission fee from what the castle's upkeep, operation and conservation will cost over the next ten years.",
-      "sources": [
-        {
-          "url": "https://www.city.himeji.lg.jp/castle/0000030746.html",
-          "kind": "official",
-          "title": "Himeji City: Himeji Castle admission from 1 March 2026, and who counts as a resident (Japanese)"
-        },
-        {
-          "url": "https://www.city.himeji.lg.jp/shisei/0000032640.html",
-          "kind": "official",
-          "title": "Himeji City, 9 February 2026: new admission fees and digital tickets (Japanese)"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
-          "Himeji says it based the new fee on what the castle's upkeep and conservation will cost over the next ten years"
-        ]
-      },
-      "note": "The city also says the money will go to restoring the castle's historic appearance and to inbound and digital services."
-    },
-    {
-      "id": "jp.niseko.all-mountain-pass",
-      "topic": "price",
-      "claim": "Niseko United's 2026/27 price list puts an adult 1-day All Mountain Pass, which covers Annupuri, Niseko Village, Grand Hirafu and HANAZONO, at ¥12,600 in the regular season (12-23 December 2026 and 1-22 March 2027) and ¥13,500 in the peak season (24 December 2026 to 28 February 2027); none of the four resorts lists a foreigner price.",
-      "value": {
-        "season": "2026/27",
-        "adult_1day_regular": 12600,
-        "adult_1day_peak": 13500,
-        "adult_1day_early_spring": 8800,
-        "adult_1day_final": 6300
-      },
-      "sources": [
-        {
-          "url": "https://www.niseko.ne.jp/en/lift/",
-          "kind": "operator",
-          "title": "Niseko United: 2026-27 All Mountain Pass prices"
-        },
-        {
-          "url": "https://en.grand-hirafu.jp/snow/tickets/",
-          "kind": "operator",
-          "title": "Niseko Tokyu Grand HIRAFU: lift tickets, 2026-27"
-        },
-        {
-          "url": "https://hanazononiseko.com/en/winter/resort/lift-tickets",
-          "kind": "operator",
-          "title": "Niseko HANAZONO Resort: lift tickets, 2026-27"
-        },
-        {
-          "url": "https://annupuri.info/en/lift-tickets/",
-          "kind": "operator",
-          "title": "Niseko Annupuri: tickets and passes, 2026-27"
-        },
-        {
-          "url": "https://www.niseko-village.com/wp-content/uploads/2025/08/NV-Lift-Pass.pdf",
-          "kind": "operator",
-          "title": "Niseko Village: lift pass prices, 2025-26 (PDF)"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
-          "None of the four Niseko United ski resorts lists a foreigner price",
-          "is ¥12,600 in the 2026/27 regular season and ¥13,500 at peak"
-        ],
-        "articles/where-to-stay-in-niseko.html": [
-          "¥13,500",
-          "¥12,600"
-        ]
-      },
-      "watch": "(?i)lift[- ]?(ticket|pass)[^.]{0,100}¥\\s?[\\d,]+|All Mountain Pass[^.]{0,100}¥",
-      "note": "These are the listed prices; online they are lower (¥11,900 regular, ¥12,800 peak, on the HANAZONO page). No price by nationality or residency on the Niseko United, Grand Hirafu, HANAZONO or Annupuri price pages (English and Japanese) or in Niseko Village's 2025-26 price list; the one resident price found is jp.niseko.kutchan-local-pass. Niseko Moiwa is not in Niseko United and was not checked."
-    },
-    {
-      "id": "jp.niseko.kutchan-local-pass",
-      "topic": "price",
-      "claim": "For 2025/26, Grand Hirafu and HANAZONO sold people registered as living in Kutchan a Hirafu-HANAZONO day pass for ¥3,000, marked down from ¥11,000, and a season pass for ¥86,500, marked down from ¥173,000, online only, after proving residence with a My Number Card through Kutchan ID+.",
-      "value": {
-        "season": "2025/26",
-        "day_local": 3000,
-        "day_listed": 11000,
-        "season_local": 86500,
-        "season_listed": 173000
-      },
-      "sources": [
-        {
-          "url": "https://locals.hirafu-hanazono.com/public/landing/en/shop.html",
-          "kind": "operator",
-          "title": "Hirafu-Hanazono Online Shop: 2025-26 Kutchan Local Benefit lift passes"
-        },
-        {
-          "url": "https://kutchanid.machi-wai.jp/",
-          "kind": "operator",
-          "title": "Kutchan ID+: resident-discount lift passes for the 2025-26 winter (Japanese)"
-        },
-        {
-          "url": "https://www.tokyu-fudosan-hd.co.jp/news/companies/pdf/ecc35726dd97f2a0c3554db1f3ad8cb285b0dc34.pdf",
-          "kind": "operator",
-          "title": "TFHD digital, 29 November 2024: Kutchan ID+ and the Hirafu-HANAZONO resident lift passes (Japanese, PDF)"
-        },
-        {
-          "url": "https://www.town.kutchan.hokkaido.jp/file/contents/4995/64776/8-11.pdf",
-          "kind": "official",
-          "title": "Kutchan Town newsletter, December 2023: the Kutchan local discount begins (Japanese, PDF)"
-        }
-      ],
-      "checked": "2026-10-06",
-      "recheck_days": 45,
-      "used_in": {
-        "articles/is-the-weak-yen-a-bargain-or-trap.html": [
-          "¥3,000 a day in 2025/26, marked down from ¥11,000"
-        ]
-      },
-      "note": "The shop still showed 2025-26 prices on 6 October 2026; when the 2026-27 local prices appear, update the guide and this fact. The pass covers Hirafu and HANAZONO only, not the All Mountain Pass or the shuttle. The discount began in 2023/24 at ¥4,700 against ¥7,800 for a common day pass (Kutchan newsletter)."
-    },
-    {
-      "id": "jp.sapporo.snowfes-2027",
-      "topic": "stat",
-      "recheck_days": 60,
-      "claim": "The 77th Sapporo Snow Festival runs from 4 to 11 February 2027 at the Odori site (Odori Park, West 1 to West 11), the Tsudome site and the Susukino site (Ekimae-dori, South 4 to South 6); the Odori site has five large snow sculptures, at West 4, 5, 7, 8 and 10, and the International Snow Sculpture Contest at West 11.",
-      "sources": [
-        {
-          "url": "https://www.snowfes.com/news/948.html",
-          "kind": "official",
-          "title": "Sapporo Snow Festival: 2027 overview (13 July 2026)"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "from 4 to 11 February 2027",
-          "West 4, 5, 7, 8 and 10",
-          "International Snow Sculpture Contest at West 11"
-        ]
-      },
-      "note": "The organisers post the full 2027 programme from mid-December 2026; recheck then."
-    },
-    {
-      "id": "jp.sapporo.snowfes-sites",
-      "topic": "place",
-      "claim": "The Odori site is lit until 10pm and the Susukino site until 11pm; the Tsudome site is open 10am to 4pm, 15 minutes' walk or a shuttle bus from Sakaemachi Station on the Toho line, with no public parking.",
-      "sources": [
-        {
-          "url": "https://www.snowfes.com/sites/odori/",
-          "kind": "official",
-          "title": "Sapporo Snow Festival: Odori site"
-        },
-        {
-          "url": "https://www.snowfes.com/sites/susukino/",
-          "kind": "official",
-          "title": "Sapporo Snow Festival: Susukino site"
-        },
-        {
-          "url": "https://www.snowfes.com/sites/tsudome/",
-          "kind": "official",
-          "title": "Sapporo Snow Festival: Tsudome site"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "Lit until 10pm",
-          "Lit until 11pm",
-          "10am to 4pm",
-          "15-minute walk or the shuttle bus"
-        ]
-      }
-    },
-    {
-      "id": "jp.sapporo.snowfes-2026-visitors",
-      "topic": "stat",
-      "claim": "The 2026 Sapporo Snow Festival drew 2,539,000 visits to the Odori and Tsudome sites, 212,000 more than in 2025 and the most since the pandemic began in 2020.",
-      "sources": [
-        {
-          "url": "https://www.hokkaido-np.co.jp/article/1274091/",
-          "kind": "news",
-          "title": "Hokkaido Shimbun: festival closes with 2.53 million visits"
-        },
-        {
-          "url": "https://www.snowfes.com/uploads/99454ecc4d95be8863357bc1be7814262bc19877.pdf",
-          "kind": "official",
-          "title": "Sapporo Snow Festival: 2026 results (PDF)"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "2.539 million visits",
-          "212,000 more"
-        ]
-      }
-    },
-    {
-      "id": "jp.sapporo.climate-feb",
-      "topic": "history",
-      "claim": "By the Japan Meteorological Agency's 1991-2020 normals, Sapporo in February has a mean daily high of 0.4°C, a mean daily low of -6.2°C and 116 cm of snowfall.",
-      "sources": [
-        {
-          "url": "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=14&block_no=47412&year=&month=&day=&view=",
-          "kind": "official",
-          "title": "Japan Meteorological Agency: Sapporo normals"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "0.4°C",
-          "6.2°C",
-          "116 cm"
-        ]
-      }
-    },
-    {
-      "id": "jp.sapporo.accommodation-tax",
-      "topic": "tax",
-      "claim": "Since 1 April 2026 Sapporo City and Hokkaido each charge an accommodation tax; in Sapporo the two together are ¥300 per person per night under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000, including stays booked before that date.",
-      "value": {
-        "since": "2026-04-01",
-        "bands": [
-          [
-            0,
-            19999,
-            300
-          ],
-          [
-            20000,
-            49999,
-            400
-          ],
-          [
-            50000,
-            null,
-            1000
-          ]
-        ]
-      },
-      "sources": [
-        {
-          "url": "https://www.city.sapporo.jp/citytax/shukuhakuzei/index.html",
-          "kind": "official",
-          "title": "Sapporo City: accommodation tax"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "together ¥300 a person a night on rooms under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000"
-        ],
-        "articles/japan-tourist-taxes-2026.html": [
-          "In Sapporo the two together come to ¥300 a person a night on rooms under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000"
-        ]
-      },
-      "watch": "Sapporo[^.]{0,120}(tax|Tax)[^.]{0,120}¥"
-    },
-    {
-      "id": "jp.niseko.accommodation-tax",
-      "topic": "tax",
-      "recheck_days": 60,
-      "claim": "Niseko Town's accommodation tax, in force since 1 November 2024, is a tiered fixed amount from ¥100 to ¥2,000 per person per night by room price; for stays from 1 November 2026 it becomes 3% of the room price in total, the town collecting Hokkaido's share within it (ministerial consent 27 March 2026).",
-      "sources": [
-        {
-          "url": "https://www.town.niseko.lg.jp/information/11706",
-          "kind": "official",
-          "title": "Niseko Town: the accommodation tax changes to a rate"
-        },
-        {
-          "url": "https://www.soumu.go.jp/main_content/001063500.pdf",
-          "kind": "official",
-          "title": "Ministry of Internal Affairs and Communications: consent to Niseko Town's change (PDF)"
-        },
-        {
-          "url": "https://www.town.niseko.lg.jp/resources/output/contents/file/release/11706/61613/press_accomTAX.pdf",
-          "kind": "official",
-          "title": "Niseko Town: press release on the change (PDF)"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/japan-tourist-taxes-2026.html": [
-          "Niseko Town charges ¥100 to ¥2,000 a night",
-          "from 1 November 2026"
-        ],
-        "articles/where-to-stay-in-niseko.html": [
-          "for stays from 1 November 2026",
-          "¥100 to ¥2,000 a person a night"
-        ]
-      },
-      "watch": "Niseko[^.]{0,80}(¥[\\d,]+|\\d+%)[^.]{0,40}(night|room price)|Niseko[^.]{0,60}flat rate",
-      "note": "Confirm on 1 November 2026 that the 3% rate applies as announced."
-    },
-    {
-      "id": "jp.kutchan.accommodation-tax",
-      "topic": "tax",
-      "claim": "Since 1 April 2026 Kutchan charges 3% of the room price in total: Hokkaido's tiered tax plus the town's tax for the rest, collected by the town; it was 2% until 31 March 2026.",
-      "sources": [
-        {
-          "url": "https://www.town.kutchan.hokkaido.jp/town_administration/AccommodationTax/3108/",
-          "kind": "official",
-          "title": "Kutchan Town: accommodation tax"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/japan-tourist-taxes-2026.html": [
-          "Kutchan has charged 3% of the room price in total"
-        ],
-        "articles/where-to-stay-in-niseko.html": [
-          "since 1 April 2026"
-        ]
-      }
-    },
-    {
-      "id": "jp.sapporo.airport-train",
-      "topic": "transport",
-      "claim": "JR trains from New Chitose Airport reach Sapporo Station in 33 minutes at the fastest (Special Rapid), with six Airport trains an hour between 9:00 and 16:00.",
-      "sources": [
-        {
-          "url": "https://www.jrhokkaido.co.jp/global/english/travel/airport.html",
-          "kind": "operator",
-          "title": "JR Hokkaido: New Chitose Airport to Sapporo"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "33 minutes"
-        ]
-      }
-    },
-    {
-      "id": "jp.sapporo.hotel.park-hotel-closing",
-      "topic": "hotel",
-      "claim": "Sapporo Park Hotel, opened on 10 July 1964 with 216 rooms by Nakajima Park, closes on 28 February 2027 for rebuilding.",
-      "sources": [
-        {
-          "url": "https://park1964.com/",
-          "kind": "operator",
-          "title": "Sapporo Park Hotel: closure notice"
-        },
-        {
-          "url": "https://www.granvista.co.jp/company/facilities/detail/2",
-          "kind": "operator",
-          "title": "Granvista: Sapporo Park Hotel"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "closes on 28 February 2027",
-          "10 July 1964",
-          "216 rooms"
-        ]
-      }
-    },
-    {
-      "id": "jp.sapporo.hotel.jr-tower-works",
-      "topic": "hotel",
-      "claim": "JR Tower Hotel Nikko Sapporo warns that Sapporo Station redevelopment works may be heard and felt in rooms, and the road at its main entrance is closed until around the end of March 2031.",
-      "sources": [
-        {
-          "url": "https://www.jrhotels.co.jp/tower/",
-          "kind": "operator",
-          "title": "JR Tower Hotel Nikko Sapporo: works notice"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "until around the end of March 2031"
-        ]
-      }
-    },
-    {
-      "id": "jp.sapporo.hotel.omo3-susukino",
-      "topic": "hotel",
-      "claim": "OMO3 Sapporo Susukino by Hoshino Resorts opened on 28 January 2022 with 226 rooms, about five minutes from Susukino Station.",
-      "sources": [
-        {
-          "url": "https://www.hoshinoresorts.com/information/release/2022/01/181933.html",
-          "kind": "operator",
-          "title": "Hoshino Resorts: OMO3 Sapporo Susukino opens"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "opened on 28 January 2022"
-        ]
-      }
-    },
-    {
-      "id": "jp.sapporo.hotel.jr-inn-minamiguchi",
-      "topic": "hotel",
-      "claim": "JR Inn Sapporo-eki Minamiguchi opened on 6 October 2016 with 204 rooms (96 singles, 90 twins, 9 doubles, 8 premier twins, 1 universal), seven minutes' walk from Sapporo Station.",
-      "sources": [
-        {
-          "url": "https://www.jr-inn.jp/sapporominami/",
-          "kind": "operator",
-          "title": "JR Inn Sapporo-eki Minamiguchi"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "204 rooms, opened in October 2016"
-        ]
-      }
-    },
-    {
-      "id": "jp.sapporo.hotel.sapporo-grand",
-      "topic": "history",
-      "claim": "Sapporo Grand Hotel opened in December 1934 as Hokkaido's first full Western-style hotel.",
-      "sources": [
-        {
-          "url": "https://grand1934.com/",
-          "kind": "operator",
-          "title": "Sapporo Grand Hotel"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-sapporo-snow-festival.html": [
-          "December 1934"
-        ]
-      }
-    },
-    {
-      "id": "jp.niseko.season-2026-27",
-      "topic": "stat",
-      "recheck_days": 60,
-      "claim": "Niseko United lists its 2026/27 season from 28 November 2026 at all four resorts, to 5 May 2027 at Grand Hirafu and Annupuri, 11 April 2027 at HANAZONO and 4 April 2027 at Niseko Village; the adult 1-day All Mountain Pass is ¥8,800 outside the regular and peak periods.",
-      "sources": [
-        {
-          "url": "https://www.niseko.ne.jp/en/lift/",
-          "kind": "operator",
-          "title": "Niseko United: lift tickets 2026/27"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-niseko.html": [
-          "28 November 2026",
-          "5 May 2027",
-          "¥8,800"
-        ]
-      }
-    },
-    {
-      "id": "jp.niseko.hotel.skye",
-      "topic": "hotel",
-      "claim": "Skye Niseko's ski valet gives direct ski-out access to the King Gondola and King Holiday Pair Lift, with the Ace Gondola a short walk away; its shared and private onsen are for hotel guests only, and only its one-bedroom suites take extra bedding.",
-      "sources": [
-        {
-          "url": "https://www.skyeniseko.com/faq",
-          "kind": "operator",
-          "title": "Skye Niseko: FAQ"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-niseko.html": [
-          "King Holiday Pair Lift"
-        ]
-      }
-    },
-    {
-      "id": "jp.niseko.hotel.ritz-reserve",
-      "topic": "hotel",
-      "claim": "Higashiyama Niseko Village, a Ritz-Carlton Reserve, opened on 15 December 2020 with 50 rooms and suites and ski-in, ski-out access.",
-      "sources": [
-        {
-          "url": "https://news.marriott.com/news/2020/12/17/higashiyama-niseko-village-a-ritz-carlton-reserve-opens-in-japans-legendary-winter-wonderland",
-          "kind": "operator",
-          "title": "Marriott News: opening"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-niseko.html": [
-          "50 rooms and suites, opened on 15 December 2020"
-        ]
-      }
-    },
-    {
-      "id": "jp.niseko.hotel.nikko-style-hanazono",
-      "topic": "hotel",
-      "claim": "Nikko Style Niseko HANAZONO opened on 15 December 2024 with 234 rooms and a natural hot spring; hot-spring water reaches the guest bathrooms on the 7th and 8th floors, and the hotel puts the drive from New Chitose Airport at about 2.5 hours in winter.",
-      "sources": [
-        {
-          "url": "https://document-tc.galaxy.tf/wdpdf-bn54sbbnpofjdb6qsqjgw3rgx/en-fact-sheet-nikko-style-niseko-hanazono.pdf",
-          "kind": "operator",
-          "title": "Nikko Style Niseko HANAZONO: fact sheet"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-niseko.html": [
-          "234 rooms, opened on 15 December 2024",
-          "two and a half hours"
-        ]
-      }
-    },
-    {
-      "id": "jp.niseko.hotel.mercure-midtown",
-      "topic": "hotel",
-      "recheck_days": 60,
-      "claim": "Midtown Niseko, in East Hirafu, rebrands as Mercure Niseko Resort in November 2026; the hotel says existing reservations remain valid, and Accor lists a complimentary winter ski shuttle to Hirafu.",
-      "sources": [
-        {
-          "url": "https://midtownniseko.com/exciting-news-midtown-niseko-is-rebranding-to-mercure-niseko-resort/",
-          "kind": "operator",
-          "title": "Midtown Niseko: rebranding notice"
-        },
-        {
-          "url": "https://all.accor.com/hotel/C6U9/index.en.shtml",
-          "kind": "operator",
-          "title": "Accor: Mercure Niseko Resort"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-niseko.html": [
-          "The former Midtown Niseko"
-        ]
-      },
-      "note": "Recheck in November 2026 that the hotel has reopened under the Mercure name."
-    },
-    {
-      "id": "jp.niseko.hotel.northern-annupuri",
-      "topic": "hotel",
-      "claim": "Niseko Northern Resort Annupuri has 151 rooms at the foot of the Annupuri slopes, about 360 m from the Annupuri gondola, with a natural hot spring and an open-air bath.",
-      "sources": [
-        {
-          "url": "https://www.niseko-northern.com/",
-          "kind": "operator",
-          "title": "Niseko Northern Resort Annupuri"
-        },
-        {
-          "url": "https://www.jalan.net/yad333020/",
-          "kind": "secondary",
-          "title": "Jalan: Niseko Northern Resort Annupuri"
-        }
-      ],
-      "checked": "2026-10-06",
-      "used_in": {
-        "articles/where-to-stay-in-niseko.html": [
-          "151 rooms at the foot of the Annupuri slopes"
-        ]
-      }
+     "url": "https://www.japan.travel/en/ca/news/japans-international-tourist-tax-is-increasing/",
+     "kind": "official",
+     "title": "JNTO: Japan's International Tourist Tax is increasing"
     }
-  ]
+   ],
+   "checked": "2026-10-04",
+   "used_in": {
+    "articles/japan-tourist-taxes-2026.html": [
+     "¥3,000 from 1 July 2026",
+     "raised to ¥3,000 per person in 2026"
+    ],
+    "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+     "from ¥1,000 to ¥3,000 per person in 2026"
+    ],
+    "articles/is-accommodation-tax-double-taxation.html": [
+     "¥3,000 departure tax"
+    ],
+    "articles/does-tourist-tax-reduce-overtourism.html": [
+     "¥3,000 departure tax"
+    ],
+    "articles/how-much-does-japan-cost.html": [
+     "¥3,000 departure tax"
+    ],
+    "articles/japan-tax-free-shopping-2026-changes.html": [
+     "¥3,000 departure tax"
+    ],
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "¥3,000 departure tax"
+    ],
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "¥3,000 departure tax"
+    ],
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "¥3,000 departure tax"
+    ],
+    "articles/where-to-stay-in-niseko.html": [
+     "¥3,000 departure tax"
+    ],
+    "articles/where-to-stay-in-fukuoka.html": [
+     "¥3,000 departure tax"
+    ]
+   },
+   "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
+   "note": "Secondary sources say tickets issued by 30 June 2026 keep the old rate; confirm with the National Tax Agency before stating it. The three related-reading cards take their text from add_internal_links.ARTICLES."
+  },
+  {
+   "id": "jp.departure-tax.2019",
+   "topic": "tax",
+   "claim": "Japan's International Tourist Tax was ¥1,000 per person from its introduction in January 2019 until 30 June 2026.",
+   "value": {
+    "jpy": 1000
+   },
+   "sources": [
+    {
+     "url": "https://www.japan.travel/en/ca/news/japans-international-tourist-tax-is-increasing/",
+     "kind": "official",
+     "title": "JNTO: Japan's International Tourist Tax is increasing"
+    }
+   ],
+   "checked": "2026-10-04",
+   "status": "superseded",
+   "superseded_by": "jp.departure-tax",
+   "changed": "2026-07-01",
+   "note": "Our guide's summary line kept this figure until 4 October 2026 (corrections.html)."
+  },
+  {
+   "id": "jp.kyoto.sakura.normals",
+   "topic": "history",
+   "claim": "By the Kyoto Local Meteorological Office's 1991-2020 normals, Kyoto's cherry trees first flower on 26 March and reach full bloom on 4 April.",
+   "value": {
+    "flowering": "03-26",
+    "full_bloom": "04-04",
+    "period": "1991-2020"
+   },
+   "sources": [
+    {
+     "url": "https://www.data.jma.go.jp/kyoto/2_data/seibutsu/index.html",
+     "kind": "official",
+     "title": "Kyoto Local Meteorological Office: plant phenology"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "26 March",
+     "4 April"
+    ]
+   }
+  },
+  {
+   "id": "jp.kyoto.sakura.2026",
+   "topic": "stat",
+   "claim": "In 2026 Kyoto's cherry trees first flowered on 23 March and reached full bloom on 30 March; in 2025 the dates were 27 March and 5 April.",
+   "value": {
+    "2026": {
+     "flowering": "03-23",
+     "full_bloom": "03-30"
+    },
+    "2025": {
+     "flowering": "03-27",
+     "full_bloom": "04-05"
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.data.jma.go.jp/kyoto/2_data/seibutsu/index.html",
+     "kind": "official",
+     "title": "Kyoto Local Meteorological Office: plant phenology"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "23 March",
+     "30 March",
+     "27 March",
+     "5 April"
+    ]
+   },
+   "note": "Recheck in spring 2027 and add that year's dates."
+  },
+  {
+   "id": "jp.sakura.forecast-timing-2026",
+   "topic": "stat",
+   "claim": "For the 2026 season, the first cherry forecasts came from the Japan Meteorological Corporation on 18 December 2025, Weathernews on 8 January 2026 and the Japan Weather Association on 29 January 2026.",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000013.000135496.html",
+     "kind": "publisher",
+     "title": "Japan Meteorological Corporation: first 2026 forecast"
+    },
+    {
+     "url": "https://weathernews.jp/news/202601/080056/",
+     "kind": "publisher",
+     "title": "Weathernews: first 2026 forecast"
+    },
+    {
+     "url": "https://www.jwa.or.jp/news/2026/01/32859/",
+     "kind": "publisher",
+     "title": "Japan Weather Association: first 2026 forecast"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "18 December 2025",
+     "8 January",
+     "29 January"
+    ],
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "18 December 2025",
+     "8 January",
+     "29 January"
+    ]
+   }
+  },
+  {
+   "id": "jp.kyoto.accommodation-tax",
+   "topic": "tax",
+   "claim": "Since 1 March 2026 Kyoto City charges an accommodation tax per person per night by room rate: ¥200 under ¥6,000, ¥400 from ¥6,000, ¥1,000 from ¥20,000, ¥4,000 from ¥50,000 and ¥10,000 from ¥100,000.",
+   "value": {
+    "since": "2026-03-01",
+    "bands_jpy": [
+     [
+      0,
+      200
+     ],
+     [
+      6000,
+      400
+     ],
+     [
+      20000,
+      1000
+     ],
+     [
+      50000,
+      4000
+     ],
+     [
+      100000,
+      10000
+     ]
+    ]
+   },
+   "sources": [
+    {
+     "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000345893.html",
+     "kind": "official",
+     "title": "Kyoto City: accommodation tax from 1 March 2026"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "Since 1 March 2026",
+     "¥10,000"
+    ],
+    "articles/japan-tourist-taxes-2026.html": [
+     "¥10,000/night"
+    ],
+    "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+     "¥10,000 a night"
+    ],
+    "articles/is-accommodation-tax-double-taxation.html": [
+     "¥10,000 a night"
+    ],
+    "articles/does-tourist-tax-reduce-overtourism.html": [
+     "up to ¥10,000/night"
+    ],
+    "articles/how-much-does-japan-cost.html": [
+     "up to ¥10,000/night"
+    ],
+    "articles/japan-tax-free-shopping-2026-changes.html": [
+     "up to ¥10,000/night"
+    ],
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "up to ¥10,000/night"
+    ],
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "up to ¥10,000/night"
+    ],
+    "articles/where-to-stay-in-niseko.html": [
+     "up to ¥10,000/night"
+    ],
+    "articles/where-to-stay-in-fukuoka.html": [
+     "up to ¥10,000/night"
+    ]
+   },
+   "watch": "(?i)kyoto[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥",
+   "note": "Related-reading cards take their text from add_internal_links.ARTICLES."
+  },
+  {
+   "id": "jp.kyoto.philosophers-path",
+   "topic": "place",
+   "claim": "The Philosopher's Path runs for about 2 km beside a canal from Ginkaku-ji to Nyakuoji Shrine, under some 400 cherry trees.",
+   "value": {
+    "km": 2,
+    "cherry_trees": 400
+   },
+   "sources": [
+    {
+     "url": "https://kanko.city.kyoto.lg.jp/detail.php?InforKindCode=1&ManageCode=3000069",
+     "kind": "official",
+     "title": "Kyoto City tourism: the Philosopher's Path"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "about 2 kilometres",
+     "some 400 cherry trees"
+    ]
+   }
+  },
+  {
+   "id": "jp.kyoto.keage-incline",
+   "topic": "place",
+   "claim": "The Keage Incline is a 582-metre former inclined railway for canal boats, with about 90 cherry trees along its tracks.",
+   "value": {
+    "m": 582,
+    "cherry_trees": 90
+   },
+   "sources": [
+    {
+     "url": "https://hanami.walkerplus.com/detail/ar0726e382390/",
+     "kind": "secondary",
+     "title": "Walkerplus: the Keage Incline"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "582-metre",
+     "about 90 more"
+    ]
+   },
+   "note": "Find the Kyoto City Waterworks Bureau's own page for the length and tree count."
+  },
+  {
+   "id": "jp.kyoto.nijo-sakura-2026",
+   "topic": "place",
+   "claim": "Nijo Castle has about 300 cherry trees of some 50 varieties; its 2026 cherry festival ran from 19 March to 19 April with evening openings.",
+   "sources": [
+    {
+     "url": "https://ja.kyoto.travel/event/single.php?event_id=4676",
+     "kind": "official",
+     "title": "Kyoto City tourism: Nijo Castle cherry festival 2026"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "about 300 cherry trees of some 50 varieties",
+     "19 March to 19 April"
+    ]
+   },
+   "note": "Replace with the 2027 dates once announced."
+  },
+  {
+   "id": "jp.kyoto.hotel.westin-miyako",
+   "topic": "hotel",
+   "claim": "The Westin Miyako Kyoto traces its history to 1890, sits beside the Keage Incline three minutes' walk from Keage station, and completed a renovation in 2020 that halved the number of rooms and added a spa on a hot spring under the grounds.",
+   "sources": [
+    {
+     "url": "https://en.miyakohotels.ne.jp/westinkyoto/banquet/concept/",
+     "kind": "operator",
+     "title": "The Westin Miyako Kyoto: concept"
+    },
+    {
+     "url": "https://www.booking.com/hotel/jp/the-westin-miyako-kyoto.html",
+     "kind": "secondary",
+     "title": "Booking.com: The Westin Miyako Kyoto"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "goes back to 1890",
+     "completed in 2020"
+    ]
+   }
+  },
+  {
+   "id": "jp.kyoto.hotel.okura-okazaki-bettei",
+   "topic": "hotel",
+   "claim": "Hotel Okura Kyoto Okazaki Bettei opened on 20 January 2022 with 60 rooms on four floors, on the grounds of the Okazaki Betsuin temple.",
+   "value": {
+    "opened": "2022-01-20",
+    "rooms": 60
+   },
+   "sources": [
+    {
+     "url": "https://www.businesswire.com/news/home/20211125006311/en/Hotel-Okura-Kyoto-Okazaki-Bettei-to-Open-January-20th",
+     "kind": "news",
+     "title": "Business Wire: opening"
+    },
+    {
+     "url": "https://okazakibettei.hotelokurakyoto.com/en/concept/",
+     "kind": "operator",
+     "title": "Hotel Okura Kyoto Okazaki Bettei: concept"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "60 rooms on four floors",
+     "January 2022"
+    ]
+   }
+  },
+  {
+   "id": "jp.kyoto.hotel.suiran",
+   "topic": "hotel",
+   "claim": "Suiran, a Luxury Collection Hotel, Kyoto has 39 rooms around a Meiji-era summer residence in Arashiyama, 17 with their own hot-spring bath.",
+   "value": {
+    "rooms": 39,
+    "onsen_rooms": 17
+   },
+   "sources": [
+    {
+     "url": "https://www.marriott.com/en-us/hotels/ukylc-suiran-a-luxury-collection-hotel-kyoto/overview/",
+     "kind": "operator",
+     "title": "Marriott: Suiran"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
+     "39 rooms",
+     "17 of them"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.sakura.normals",
+   "topic": "history",
+   "claim": "By the Japan Meteorological Agency's 1991-2020 normals, Tokyo's cherry trees first flower on 24 March and reach full bloom on 31 March.",
+   "value": {
+    "flowering": "03-24",
+    "full_bloom": "03-31"
+   },
+   "sources": [
+    {
+     "url": "https://www.data.jma.go.jp/sakura/data/sakura_kaika.html",
+     "kind": "official",
+     "title": "Japan Meteorological Agency: cherry flowering dates, with normals"
+    },
+    {
+     "url": "https://www.data.jma.go.jp/sakura/data/sakura_mankai.html",
+     "kind": "official",
+     "title": "Japan Meteorological Agency: cherry full-bloom dates, with normals"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "24 March",
+     "31 March"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.sakura.2026",
+   "topic": "stat",
+   "claim": "In 2026 Tokyo's cherry trees first flowered on 19 March and reached full bloom on 28 March; in 2025 the dates were 24 March and 30 March.",
+   "value": {
+    "2026": {
+     "flowering": "03-19",
+     "full_bloom": "03-28"
+    },
+    "2025": {
+     "flowering": "03-24",
+     "full_bloom": "03-30"
+    }
+   },
+   "sources": [
+    {
+     "url": "https://www.data.jma.go.jp/sakura/data/sakura_kaika.html",
+     "kind": "official",
+     "title": "Japan Meteorological Agency: cherry flowering dates"
+    },
+    {
+     "url": "https://www.data.jma.go.jp/sakura/data/sakura_mankai.html",
+     "kind": "official",
+     "title": "Japan Meteorological Agency: cherry full-bloom dates"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "19 March",
+     "28 March",
+     "30 March"
+    ]
+   },
+   "note": "Recheck in spring 2027 and add that year's dates."
+  },
+  {
+   "id": "jp.tokyo.sakura.sample-tree",
+   "topic": "history",
+   "claim": "Since 1966 the Japan Meteorological Agency has observed Tokyo's cherry sample tree at Yasukuni Shrine; it records flowering when five or six flowers are open and full bloom when about 80% are open.",
+   "sources": [
+    {
+     "url": "https://www.data.jma.go.jp/tokyo/shosai/kanyoho/sakura/sakura.html",
+     "kind": "official",
+     "title": "Japan Meteorological Agency, Tokyo: cherry observation notes"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "Yasukuni Shrine",
+     "five or six flowers",
+     "about 80%"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.accommodation-tax",
+   "topic": "tax",
+   "claim": "Until 31 March 2027 Tokyo's accommodation tax is ¥100 per person per night on rooms of ¥10,000 to ¥14,999 per person and ¥200 from ¥15,000; rooms under ¥10,000 are exempt.",
+   "value": {
+    "bands": [
+     [
+      10000,
+      14999,
+      100
+     ],
+     [
+      15000,
+      null,
+      200
+     ]
+    ],
+    "exempt_below": 10000,
+    "until": "2027-03-31"
+   },
+   "sources": [
+    {
+     "url": "https://www.tax.metro.tokyo.lg.jp/shitsumon/leisure/general_01",
+     "kind": "official",
+     "title": "Tokyo Metropolitan Government Bureau of Taxation: accommodation tax"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "¥100 a person a night on rooms of ¥10,000 to ¥14,999",
+     "¥200 from ¥15,000"
+    ],
+    "articles/where-to-stay-in-tokyo.html": [
+     "¥100 per person per night to rooms from ¥10,000 to ¥14,999",
+     "¥200 from ¥15,000"
+    ],
+    "articles/where-to-stay-in-japan.html": [
+     "¥100 on rooms from ¥10,000 to ¥14,999",
+     "¥200 from ¥15,000"
+    ]
+   },
+   "watch": "Tokyo[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
+  },
+  {
+   "id": "jp.tokyo.accommodation-tax-2027",
+   "topic": "tax",
+   "claim": "From 1 April 2027 Tokyo's accommodation tax becomes 3% of the room charge on stays of ¥13,000 or more per person per night, with cheaper stays exempt and licensed private lodging (minpaku) included.",
+   "value": {
+    "from": "2027-04-01",
+    "rate_pct": 3,
+    "exempt_below": 13000
+   },
+   "sources": [
+    {
+     "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/shuk_minaoshi",
+     "kind": "official",
+     "title": "Tokyo Metropolitan Government Bureau of Taxation: the accommodation tax from 1 April 2027"
+    },
+    {
+     "url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026063004",
+     "kind": "official",
+     "title": "Tokyo Metropolitan Government: start date confirmed (30 June 2026)"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "From 1 April 2027 it becomes 3% of the room charge on rooms of ¥13,000 or more a person a night"
+    ],
+    "articles/where-to-stay-in-tokyo.html": [
+     "From stays on 1 April 2027 it becomes 3% of the rate, with rooms under ¥13,000 exempt"
+    ],
+    "articles/where-to-stay-in-japan.html": [
+     "From April 2027, 3% of the rate on stays of ¥13,000 or more per person"
+    ],
+    "articles/japan-tourist-taxes-2026.html": [
+     "from 1 April 2027, when it also becomes 3% of the room rate on stays of ¥13,000 or more per person per night"
+    ]
+   },
+   "watch": "(?:2027|accommodation tax|lodging tax)[^.]{0,80}(?:3%|13,000)"
+  },
+  {
+   "id": "jp.tokyo.ueno-park",
+   "topic": "place",
+   "claim": "Ueno Park, one of the five places designated as Japan's first public parks in 1873, has about 800 cherry trees, a blossom spot since the priest Tenkai brought cherries from Mount Yoshino in the 17th century; the 77th Ueno cherry festival ran from 14 March to 5 April 2026.",
+   "sources": [
+    {
+     "url": "https://www.nippon.com/ja/guide-to-japan/sakura00113067/",
+     "kind": "publisher",
+     "title": "nippon.com: Ueno Park"
+    },
+    {
+     "url": "https://www.ueno.or.jp/post/uenosakuramatsuri",
+     "kind": "operator",
+     "title": "Ueno Tourism Federation: the 77th Ueno cherry festival"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "in 1873",
+     "some 800 cherry trees",
+     "Mount Yoshino",
+     "14 March to 5 April"
+    ]
+   },
+   "note": "Festival dates change every year; recheck in spring 2027."
+  },
+  {
+   "id": "jp.tokyo.sumida-park",
+   "topic": "place",
+   "claim": "Sumida Park's cherry trees line both banks of the Sumida River for about 1 km between Azuma Bridge and Sakura Bridge; the avenue is said to date from the eighth shogun, Tokugawa Yoshimune.",
+   "sources": [
+    {
+     "url": "https://www.nippon.com/ja/guide-to-japan/sakura00113068/",
+     "kind": "publisher",
+     "title": "nippon.com: Sumida Park"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "about a kilometre between Azuma Bridge and Sakura Bridge",
+     "Tokugawa Yoshimune"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.chidorigafuchi",
+   "topic": "place",
+   "claim": "Chidorigafuchi has about 260 cherry trees along a green path of about 700 m, and Chiyoda City runs the boat pier on the moat, with rowing boats, pedal (cycle) boats and swan boats.",
+   "sources": [
+    {
+     "url": "https://visit-chiyoda.tokyo/app/feature/detail/151",
+     "kind": "official",
+     "title": "Visit Chiyoda: Chidorigafuchi"
+    },
+    {
+     "url": "https://www.city.chiyoda.lg.jp/shisetsu/koen/chidorigafuchi-boat.html",
+     "kind": "official",
+     "title": "Chiyoda City: Chidorigafuchi boat pier"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "about 260 cherry trees along a 700-metre path",
+     "Chiyoda City runs a boat pier",
+     "rowing boats, pedal boats and swan boats"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.meguro-river",
+   "topic": "place",
+   "claim": "The Meguro River has about 800 cherry trees along about 3.8 km of both banks, with night lighting in season.",
+   "sources": [
+    {
+     "url": "https://tenki.jp/sakura/3/16/54616.html",
+     "kind": "publisher",
+     "title": "Japan Weather Association (tenki.jp): the Meguro River"
+    },
+    {
+     "url": "https://meguro-kanko.com/spot/detail.php?no=70",
+     "kind": "official",
+     "title": "Meguro tourism association: the Meguro River (about 800 trees over about 4 km in Meguro City)"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "some 800 cherry trees along about 3.8 kilometres"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.shinjuku-gyoen",
+   "topic": "place",
+   "claim": "Shinjuku Gyoen has about 900 cherry trees of about 70 varieties, flowering from February to mid-April; adult entry is ¥500, alcohol is not allowed, and the Shinjuku Gate is a 10-minute walk from Shinjuku Station's South Exit.",
+   "sources": [
+    {
+     "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/highlights/sakura/",
+     "kind": "official",
+     "title": "Ministry of the Environment: Shinjuku Gyoen's cherry trees"
+    },
+    {
+     "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/information/",
+     "kind": "official",
+     "title": "Ministry of the Environment: Shinjuku Gyoen admission"
+    },
+    {
+     "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/rule/",
+     "kind": "official",
+     "title": "Ministry of the Environment: Shinjuku Gyoen rules"
+    },
+    {
+     "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/access/",
+     "kind": "official",
+     "title": "Ministry of the Environment: Shinjuku Gyoen access"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "some 900 cherry trees of about 70 varieties",
+     "Entry for adults is ¥500",
+     "alcohol is not allowed",
+     "ten-minute walk from the South Exit"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.hotel.park-hyatt",
+   "topic": "hotel",
+   "claim": "Park Hyatt Tokyo occupies the top fourteen floors of the 52-storey Shinjuku Park Tower and reopened on 9 December 2025 after a 19-month renovation.",
+   "sources": [
+    {
+     "url": "https://newsroom.hyatt.com/120925-Park-Hyatt-Tokyo-Reopens-Following-19-Month-Renovation",
+     "kind": "operator",
+     "title": "Hyatt Newsroom: Park Hyatt Tokyo reopens"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "reopened on 9 December 2025"
+    ],
+    "articles/where-to-stay-in-tokyo.html": [
+     "reopened on 9 December 2025"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.chidorigafuchi.boat-fee",
+   "topic": "price",
+   "claim": "From 1 March 2026 a boat at the Chidorigafuchi pier costs ¥1,500 for 30 minutes (¥3,000 for 60) in cherry-viewing season and ¥1,000 for 30 minutes otherwise; the pier closes from December to February.",
+   "value": {
+    "since": "2026-03-01",
+    "sakura_30min": 1500,
+    "sakura_60min": 3000,
+    "normal_30min": 1000,
+    "normal_60min": 2000
+   },
+   "sources": [
+    {
+     "url": "https://www.city.chiyoda.lg.jp/shisetsu/koen/chidorigafuchi-boat.html",
+     "kind": "official",
+     "title": "Chiyoda City: Chidorigafuchi boat pier"
+    }
+   ],
+   "checked": "2026-10-05",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-cherry-blossom.html": [
+     "¥1,500 for 30 minutes"
+    ]
+   },
+   "note": "Recheck before the 2027 season; the city revised fees on 1 March 2026."
+  },
+  {
+   "id": "jp.himeji.castle-admission",
+   "topic": "price",
+   "claim": "Since 1 March 2026 Himeji Castle has charged ¥2,500 to everyone aged 18 or over who does not live in Himeji City, Japanese or foreign, and ¥1,000 to Himeji residents aged 18 or over; under-18s enter free.",
+   "value": {
+    "since": "2026-03-01",
+    "non_resident_18_plus": 2500,
+    "resident_18_plus": 1000,
+    "under_18": 0,
+    "group_30_non_resident": 2000,
+    "group_30_resident": 800,
+    "adult_before": 1000
+   },
+   "sources": [
+    {
+     "url": "https://www.city.himeji.lg.jp/castle/0000030746.html",
+     "kind": "official",
+     "title": "Himeji City: Himeji Castle admission from 1 March 2026, and who counts as a resident (Japanese)"
+    },
+    {
+     "url": "https://www.himejicastle.jp/en/",
+     "kind": "official",
+     "title": "Himeji Castle official site (Himeji City): admission fees"
+    },
+    {
+     "url": "https://www.city.himeji.lg.jp/shisei/0000032640.html",
+     "kind": "official",
+     "title": "Himeji City, 9 February 2026: new admission fees and digital tickets (Japanese)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+     "Himeji Castle has charged ¥2,500 to everyone aged 18 or over who does not live in Himeji City, Japanese or foreign",
+     "Himeji residents pay ¥1,000, and under-18s enter free",
+     "and ¥1,000 to residents"
+    ]
+   },
+   "watch": "Himeji[^.]{0,120}¥\\s?[\\d,]+|¥\\s?[\\d,]+[^.]{0,60}Himeji",
+   "note": "The fee is by residence, not nationality: a resident is anyone with an address in Himeji City, shown with a My Number card, a driving licence or another official photo ID with name and address, and the city lists the residence card among them, so foreign residents pay ¥1,000 too. Before 1 March 2026 every adult paid ¥1,000 and children ¥300. Group rates (30 or more): ¥2,000 and ¥800."
+  },
+  {
+   "id": "jp.himeji.castle-admission-basis",
+   "topic": "history",
+   "claim": "Himeji City says it set the March 2026 admission fee from what the castle's upkeep, operation and conservation will cost over the next ten years.",
+   "sources": [
+    {
+     "url": "https://www.city.himeji.lg.jp/castle/0000030746.html",
+     "kind": "official",
+     "title": "Himeji City: Himeji Castle admission from 1 March 2026, and who counts as a resident (Japanese)"
+    },
+    {
+     "url": "https://www.city.himeji.lg.jp/shisei/0000032640.html",
+     "kind": "official",
+     "title": "Himeji City, 9 February 2026: new admission fees and digital tickets (Japanese)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+     "Himeji says it based the new fee on what the castle's upkeep and conservation will cost over the next ten years"
+    ]
+   },
+   "note": "The city also says the money will go to restoring the castle's historic appearance and to inbound and digital services."
+  },
+  {
+   "id": "jp.niseko.all-mountain-pass",
+   "topic": "price",
+   "claim": "Niseko United's 2026/27 price list puts an adult 1-day All Mountain Pass, which covers Annupuri, Niseko Village, Grand Hirafu and HANAZONO, at ¥12,600 in the regular season (12-23 December 2026 and 1-22 March 2027) and ¥13,500 in the peak season (24 December 2026 to 28 February 2027); none of the four resorts lists a foreigner price.",
+   "value": {
+    "season": "2026/27",
+    "adult_1day_regular": 12600,
+    "adult_1day_peak": 13500,
+    "adult_1day_early_spring": 8800,
+    "adult_1day_final": 6300
+   },
+   "sources": [
+    {
+     "url": "https://www.niseko.ne.jp/en/lift/",
+     "kind": "operator",
+     "title": "Niseko United: 2026-27 All Mountain Pass prices"
+    },
+    {
+     "url": "https://en.grand-hirafu.jp/snow/tickets/",
+     "kind": "operator",
+     "title": "Niseko Tokyu Grand HIRAFU: lift tickets, 2026-27"
+    },
+    {
+     "url": "https://hanazononiseko.com/en/winter/resort/lift-tickets",
+     "kind": "operator",
+     "title": "Niseko HANAZONO Resort: lift tickets, 2026-27"
+    },
+    {
+     "url": "https://annupuri.info/en/lift-tickets/",
+     "kind": "operator",
+     "title": "Niseko Annupuri: tickets and passes, 2026-27"
+    },
+    {
+     "url": "https://www.niseko-village.com/wp-content/uploads/2025/08/NV-Lift-Pass.pdf",
+     "kind": "operator",
+     "title": "Niseko Village: lift pass prices, 2025-26 (PDF)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+     "None of the four Niseko United ski resorts lists a foreigner price",
+     "is ¥12,600 in the 2026/27 regular season and ¥13,500 at peak"
+    ],
+    "articles/where-to-stay-in-niseko.html": [
+     "¥13,500",
+     "¥12,600"
+    ]
+   },
+   "watch": "(?i)lift[- ]?(ticket|pass)[^.]{0,100}¥\\s?[\\d,]+|All Mountain Pass[^.]{0,100}¥",
+   "note": "These are the listed prices; online they are lower (¥11,900 regular, ¥12,800 peak, on the HANAZONO page). No price by nationality or residency on the Niseko United, Grand Hirafu, HANAZONO or Annupuri price pages (English and Japanese) or in Niseko Village's 2025-26 price list; the one resident price found is jp.niseko.kutchan-local-pass. Niseko Moiwa is not in Niseko United and was not checked."
+  },
+  {
+   "id": "jp.niseko.kutchan-local-pass",
+   "topic": "price",
+   "claim": "For 2025/26, Grand Hirafu and HANAZONO sold people registered as living in Kutchan a Hirafu-HANAZONO day pass for ¥3,000, marked down from ¥11,000, and a season pass for ¥86,500, marked down from ¥173,000, online only, after proving residence with a My Number Card through Kutchan ID+.",
+   "value": {
+    "season": "2025/26",
+    "day_local": 3000,
+    "day_listed": 11000,
+    "season_local": 86500,
+    "season_listed": 173000
+   },
+   "sources": [
+    {
+     "url": "https://locals.hirafu-hanazono.com/public/landing/en/shop.html",
+     "kind": "operator",
+     "title": "Hirafu-Hanazono Online Shop: 2025-26 Kutchan Local Benefit lift passes"
+    },
+    {
+     "url": "https://kutchanid.machi-wai.jp/",
+     "kind": "operator",
+     "title": "Kutchan ID+: resident-discount lift passes for the 2025-26 winter (Japanese)"
+    },
+    {
+     "url": "https://www.tokyu-fudosan-hd.co.jp/news/companies/pdf/ecc35726dd97f2a0c3554db1f3ad8cb285b0dc34.pdf",
+     "kind": "operator",
+     "title": "TFHD digital, 29 November 2024: Kutchan ID+ and the Hirafu-HANAZONO resident lift passes (Japanese, PDF)"
+    },
+    {
+     "url": "https://www.town.kutchan.hokkaido.jp/file/contents/4995/64776/8-11.pdf",
+     "kind": "official",
+     "title": "Kutchan Town newsletter, December 2023: the Kutchan local discount begins (Japanese, PDF)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "recheck_days": 45,
+   "used_in": {
+    "articles/is-the-weak-yen-a-bargain-or-trap.html": [
+     "¥3,000 a day in 2025/26, marked down from ¥11,000"
+    ]
+   },
+   "note": "The shop still showed 2025-26 prices on 6 October 2026; when the 2026-27 local prices appear, update the guide and this fact. The pass covers Hirafu and HANAZONO only, not the All Mountain Pass or the shuttle. The discount began in 2023/24 at ¥4,700 against ¥7,800 for a common day pass (Kutchan newsletter)."
+  },
+  {
+   "id": "jp.sapporo.snowfes-2027",
+   "topic": "stat",
+   "recheck_days": 60,
+   "claim": "The 77th Sapporo Snow Festival runs from 4 to 11 February 2027 at the Odori site (Odori Park, West 1 to West 11), the Tsudome site and the Susukino site (Ekimae-dori, South 4 to South 6); the Odori site has five large snow sculptures, at West 4, 5, 7, 8 and 10, and the International Snow Sculpture Contest at West 11.",
+   "sources": [
+    {
+     "url": "https://www.snowfes.com/news/948.html",
+     "kind": "official",
+     "title": "Sapporo Snow Festival: 2027 overview (13 July 2026)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "from 4 to 11 February 2027",
+     "West 4, 5, 7, 8 and 10",
+     "International Snow Sculpture Contest at West 11"
+    ]
+   },
+   "note": "The organisers post the full 2027 programme from mid-December 2026; recheck then."
+  },
+  {
+   "id": "jp.sapporo.snowfes-sites",
+   "topic": "place",
+   "claim": "The Odori site is lit until 10pm and the Susukino site until 11pm; the Tsudome site is open 10am to 4pm, 15 minutes' walk or a shuttle bus from Sakaemachi Station on the Toho line, with no public parking.",
+   "sources": [
+    {
+     "url": "https://www.snowfes.com/sites/odori/",
+     "kind": "official",
+     "title": "Sapporo Snow Festival: Odori site"
+    },
+    {
+     "url": "https://www.snowfes.com/sites/susukino/",
+     "kind": "official",
+     "title": "Sapporo Snow Festival: Susukino site"
+    },
+    {
+     "url": "https://www.snowfes.com/sites/tsudome/",
+     "kind": "official",
+     "title": "Sapporo Snow Festival: Tsudome site"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "Lit until 10pm",
+     "Lit until 11pm",
+     "10am to 4pm",
+     "15-minute walk or the shuttle bus"
+    ]
+   }
+  },
+  {
+   "id": "jp.sapporo.snowfes-2026-visitors",
+   "topic": "stat",
+   "claim": "The 2026 Sapporo Snow Festival drew 2,539,000 visits to the Odori and Tsudome sites, 212,000 more than in 2025 and the most since the pandemic began in 2020.",
+   "sources": [
+    {
+     "url": "https://www.hokkaido-np.co.jp/article/1274091/",
+     "kind": "news",
+     "title": "Hokkaido Shimbun: festival closes with 2.53 million visits"
+    },
+    {
+     "url": "https://www.snowfes.com/uploads/99454ecc4d95be8863357bc1be7814262bc19877.pdf",
+     "kind": "official",
+     "title": "Sapporo Snow Festival: 2026 results (PDF)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "2.539 million visits",
+     "212,000 more"
+    ]
+   }
+  },
+  {
+   "id": "jp.sapporo.climate-feb",
+   "topic": "history",
+   "claim": "By the Japan Meteorological Agency's 1991-2020 normals, Sapporo in February has a mean daily high of 0.4°C, a mean daily low of -6.2°C and 116 cm of snowfall.",
+   "sources": [
+    {
+     "url": "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=14&block_no=47412&year=&month=&day=&view=",
+     "kind": "official",
+     "title": "Japan Meteorological Agency: Sapporo normals"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "0.4°C",
+     "6.2°C",
+     "116 cm"
+    ]
+   }
+  },
+  {
+   "id": "jp.sapporo.accommodation-tax",
+   "topic": "tax",
+   "claim": "Since 1 April 2026 Sapporo City and Hokkaido each charge an accommodation tax; in Sapporo the two together are ¥300 per person per night under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000, including stays booked before that date.",
+   "value": {
+    "since": "2026-04-01",
+    "bands": [
+     [
+      0,
+      19999,
+      300
+     ],
+     [
+      20000,
+      49999,
+      400
+     ],
+     [
+      50000,
+      null,
+      1000
+     ]
+    ]
+   },
+   "sources": [
+    {
+     "url": "https://www.city.sapporo.jp/citytax/shukuhakuzei/index.html",
+     "kind": "official",
+     "title": "Sapporo City: accommodation tax"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "together ¥300 a person a night on rooms under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000"
+    ],
+    "articles/japan-tourist-taxes-2026.html": [
+     "In Sapporo the two together come to ¥300 a person a night on rooms under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000"
+    ]
+   },
+   "watch": "Sapporo[^.]{0,120}(tax|Tax)[^.]{0,120}¥"
+  },
+  {
+   "id": "jp.niseko.accommodation-tax",
+   "topic": "tax",
+   "recheck_days": 60,
+   "claim": "Niseko Town's accommodation tax, in force since 1 November 2024, is a tiered fixed amount from ¥100 to ¥2,000 per person per night by room price; for stays from 1 November 2026 it becomes 3% of the room price in total, the town collecting Hokkaido's share within it (ministerial consent 27 March 2026).",
+   "sources": [
+    {
+     "url": "https://www.town.niseko.lg.jp/information/11706",
+     "kind": "official",
+     "title": "Niseko Town: the accommodation tax changes to a rate"
+    },
+    {
+     "url": "https://www.soumu.go.jp/main_content/001063500.pdf",
+     "kind": "official",
+     "title": "Ministry of Internal Affairs and Communications: consent to Niseko Town's change (PDF)"
+    },
+    {
+     "url": "https://www.town.niseko.lg.jp/resources/output/contents/file/release/11706/61613/press_accomTAX.pdf",
+     "kind": "official",
+     "title": "Niseko Town: press release on the change (PDF)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/japan-tourist-taxes-2026.html": [
+     "Niseko Town charges ¥100 to ¥2,000 a night",
+     "from 1 November 2026"
+    ],
+    "articles/where-to-stay-in-niseko.html": [
+     "for stays from 1 November 2026",
+     "¥100 to ¥2,000 a person a night"
+    ]
+   },
+   "watch": "Niseko[^.]{0,80}(¥[\\d,]+|\\d+%)[^.]{0,40}(night|room price)|Niseko[^.]{0,60}flat rate",
+   "note": "Confirm on 1 November 2026 that the 3% rate applies as announced."
+  },
+  {
+   "id": "jp.kutchan.accommodation-tax",
+   "topic": "tax",
+   "claim": "Since 1 April 2026 Kutchan charges 3% of the room price in total: Hokkaido's tiered tax plus the town's tax for the rest, collected by the town; it was 2% until 31 March 2026.",
+   "sources": [
+    {
+     "url": "https://www.town.kutchan.hokkaido.jp/town_administration/AccommodationTax/3108/",
+     "kind": "official",
+     "title": "Kutchan Town: accommodation tax"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/japan-tourist-taxes-2026.html": [
+     "Kutchan has charged 3% of the room price in total"
+    ],
+    "articles/where-to-stay-in-niseko.html": [
+     "since 1 April 2026"
+    ]
+   }
+  },
+  {
+   "id": "jp.sapporo.airport-train",
+   "topic": "transport",
+   "claim": "JR trains from New Chitose Airport reach Sapporo Station in 33 minutes at the fastest (Special Rapid), with six Airport trains an hour between 9:00 and 16:00.",
+   "sources": [
+    {
+     "url": "https://www.jrhokkaido.co.jp/global/english/travel/airport.html",
+     "kind": "operator",
+     "title": "JR Hokkaido: New Chitose Airport to Sapporo"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "33 minutes"
+    ]
+   }
+  },
+  {
+   "id": "jp.sapporo.hotel.park-hotel-closing",
+   "topic": "hotel",
+   "claim": "Sapporo Park Hotel, opened on 10 July 1964 with 216 rooms by Nakajima Park, closes on 28 February 2027 for rebuilding.",
+   "sources": [
+    {
+     "url": "https://park1964.com/",
+     "kind": "operator",
+     "title": "Sapporo Park Hotel: closure notice"
+    },
+    {
+     "url": "https://www.granvista.co.jp/company/facilities/detail/2",
+     "kind": "operator",
+     "title": "Granvista: Sapporo Park Hotel"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "closes on 28 February 2027",
+     "10 July 1964",
+     "216 rooms"
+    ]
+   }
+  },
+  {
+   "id": "jp.sapporo.hotel.jr-tower-works",
+   "topic": "hotel",
+   "claim": "JR Tower Hotel Nikko Sapporo warns that Sapporo Station redevelopment works may be heard and felt in rooms, and the road at its main entrance is closed until around the end of March 2031.",
+   "sources": [
+    {
+     "url": "https://www.jrhotels.co.jp/tower/",
+     "kind": "operator",
+     "title": "JR Tower Hotel Nikko Sapporo: works notice"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "until around the end of March 2031"
+    ]
+   }
+  },
+  {
+   "id": "jp.sapporo.hotel.omo3-susukino",
+   "topic": "hotel",
+   "claim": "OMO3 Sapporo Susukino by Hoshino Resorts opened on 28 January 2022 with 226 rooms, about five minutes from Susukino Station.",
+   "sources": [
+    {
+     "url": "https://www.hoshinoresorts.com/information/release/2022/01/181933.html",
+     "kind": "operator",
+     "title": "Hoshino Resorts: OMO3 Sapporo Susukino opens"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "opened on 28 January 2022"
+    ]
+   }
+  },
+  {
+   "id": "jp.sapporo.hotel.jr-inn-minamiguchi",
+   "topic": "hotel",
+   "claim": "JR Inn Sapporo-eki Minamiguchi opened on 6 October 2016 with 204 rooms (96 singles, 90 twins, 9 doubles, 8 premier twins, 1 universal), seven minutes' walk from Sapporo Station.",
+   "sources": [
+    {
+     "url": "https://www.jr-inn.jp/sapporominami/",
+     "kind": "operator",
+     "title": "JR Inn Sapporo-eki Minamiguchi"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "204 rooms, opened in October 2016"
+    ]
+   }
+  },
+  {
+   "id": "jp.sapporo.hotel.sapporo-grand",
+   "topic": "history",
+   "claim": "Sapporo Grand Hotel opened in December 1934 as Hokkaido's first full Western-style hotel.",
+   "sources": [
+    {
+     "url": "https://grand1934.com/",
+     "kind": "operator",
+     "title": "Sapporo Grand Hotel"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-sapporo-snow-festival.html": [
+     "December 1934"
+    ]
+   }
+  },
+  {
+   "id": "jp.niseko.season-2026-27",
+   "topic": "stat",
+   "recheck_days": 60,
+   "claim": "Niseko United lists its 2026/27 season from 28 November 2026 at all four resorts, to 5 May 2027 at Grand Hirafu and Annupuri, 11 April 2027 at HANAZONO and 4 April 2027 at Niseko Village; the adult 1-day All Mountain Pass is ¥8,800 outside the regular and peak periods.",
+   "sources": [
+    {
+     "url": "https://www.niseko.ne.jp/en/lift/",
+     "kind": "operator",
+     "title": "Niseko United: lift tickets 2026/27"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-niseko.html": [
+     "28 November 2026",
+     "5 May 2027",
+     "¥8,800"
+    ]
+   }
+  },
+  {
+   "id": "jp.niseko.hotel.skye",
+   "topic": "hotel",
+   "claim": "Skye Niseko's ski valet gives direct ski-out access to the King Gondola and King Holiday Pair Lift, with the Ace Gondola a short walk away; its shared and private onsen are for hotel guests only, and only its one-bedroom suites take extra bedding.",
+   "sources": [
+    {
+     "url": "https://www.skyeniseko.com/faq",
+     "kind": "operator",
+     "title": "Skye Niseko: FAQ"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-niseko.html": [
+     "King Holiday Pair Lift"
+    ]
+   }
+  },
+  {
+   "id": "jp.niseko.hotel.ritz-reserve",
+   "topic": "hotel",
+   "claim": "Higashiyama Niseko Village, a Ritz-Carlton Reserve, opened on 15 December 2020 with 50 rooms and suites and ski-in, ski-out access.",
+   "sources": [
+    {
+     "url": "https://news.marriott.com/news/2020/12/17/higashiyama-niseko-village-a-ritz-carlton-reserve-opens-in-japans-legendary-winter-wonderland",
+     "kind": "operator",
+     "title": "Marriott News: opening"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-niseko.html": [
+     "50 rooms and suites, opened on 15 December 2020"
+    ]
+   }
+  },
+  {
+   "id": "jp.niseko.hotel.nikko-style-hanazono",
+   "topic": "hotel",
+   "claim": "Nikko Style Niseko HANAZONO opened on 15 December 2024 with 234 rooms and a natural hot spring; hot-spring water reaches the guest bathrooms on the 7th and 8th floors, and the hotel puts the drive from New Chitose Airport at about 2.5 hours in winter.",
+   "sources": [
+    {
+     "url": "https://document-tc.galaxy.tf/wdpdf-bn54sbbnpofjdb6qsqjgw3rgx/en-fact-sheet-nikko-style-niseko-hanazono.pdf",
+     "kind": "operator",
+     "title": "Nikko Style Niseko HANAZONO: fact sheet"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-niseko.html": [
+     "234 rooms, opened on 15 December 2024",
+     "two and a half hours"
+    ]
+   }
+  },
+  {
+   "id": "jp.niseko.hotel.mercure-midtown",
+   "topic": "hotel",
+   "recheck_days": 60,
+   "claim": "Midtown Niseko, in East Hirafu, rebrands as Mercure Niseko Resort in November 2026; the hotel says existing reservations remain valid, and Accor lists a complimentary winter ski shuttle to Hirafu.",
+   "sources": [
+    {
+     "url": "https://midtownniseko.com/exciting-news-midtown-niseko-is-rebranding-to-mercure-niseko-resort/",
+     "kind": "operator",
+     "title": "Midtown Niseko: rebranding notice"
+    },
+    {
+     "url": "https://all.accor.com/hotel/C6U9/index.en.shtml",
+     "kind": "operator",
+     "title": "Accor: Mercure Niseko Resort"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-niseko.html": [
+     "The former Midtown Niseko"
+    ]
+   },
+   "note": "Recheck in November 2026 that the hotel has reopened under the Mercure name."
+  },
+  {
+   "id": "jp.niseko.hotel.northern-annupuri",
+   "topic": "hotel",
+   "claim": "Niseko Northern Resort Annupuri has 151 rooms at the foot of the Annupuri slopes, about 360 m from the Annupuri gondola, with a natural hot spring and an open-air bath.",
+   "sources": [
+    {
+     "url": "https://www.niseko-northern.com/",
+     "kind": "operator",
+     "title": "Niseko Northern Resort Annupuri"
+    },
+    {
+     "url": "https://www.jalan.net/yad333020/",
+     "kind": "secondary",
+     "title": "Jalan: Niseko Northern Resort Annupuri"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-niseko.html": [
+     "151 rooms at the foot of the Annupuri slopes"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.accommodation-tax",
+   "topic": "tax",
+   "claim": "Fukuoka City and Fukuoka Prefecture together charge an accommodation tax of ¥200 per person per night on a room charge under ¥20,000 and ¥500 from ¥20,000 (the prefecture's share ¥50 in both bands), since 1 April 2020.",
+   "sources": [
+    {
+     "url": "https://www.pref.fukuoka.lg.jp/contents/syukuhakuzei.html",
+     "kind": "official",
+     "title": "Fukuoka Prefecture: accommodation tax (updated 1 April 2026)"
+    },
+    {
+     "url": "https://yokanavi.com/accommodation-tax",
+     "kind": "official",
+     "title": "Yokanavi (Fukuoka City): accommodation tax"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "¥200 a person a night",
+     "since 1 April 2020",
+     "¥50 is the prefecture's"
+    ],
+    "articles/japan-tourist-taxes-2026.html": [
+     "Fukuoka City and Fukuoka Prefecture have charged a tax together since 1 April 2020"
+    ]
+   },
+   "watch": "Fukuoka[^.]{0,80}¥(200|500|150|450)[^.]{0,40}night"
+  },
+  {
+   "id": "jp.fukuoka.fukko-wari-2026",
+   "topic": "price",
+   "recheck_days": 14,
+   "claim": "Fukuoka Prefecture's Kyushu Fukko Ouen-wari Fukuoka Campaign subsidises 50% of stays in the prefecture from 1 October to 15 December 2026 (checkout by 16 December), on bookings made from 24 September 2026; caps are ¥20,000 per person per trip for a room alone or a one-night package with transport, ¥30,000 for two nights or more with transport, ¥35,000 for multi-prefecture packages (60% when they include a stay in Kumamoto or Kagoshima). Overseas visitors are eligible; business trips, day use and (as a rule) the accommodation tax are excluded; the lead guest signs a usage certificate on the day. It runs through registered hotels (direct web or phone), registered Fukuoka travel agencies and listed OTAs (Rakuten Travel, Ikyu.com, Yahoo! Travel, Jalan, JAL, ANA and others; not Booking.com), and ends when the budget runs out. Direct bookings were paused outside Kitakyushu from 28 September and reopen from noon on 9 October.",
+   "sources": [
+    {
+     "url": "https://www.pref.fukuoka.lg.jp/press-release/fukuoka-fukkou-wari1001.html",
+     "kind": "official",
+     "title": "Fukuoka Prefecture: campaign announcement (18 September 2026)"
+    },
+    {
+     "url": "https://www.pref.fukuoka.lg.jp/press-release/fukuoka-fukkou-wari-2-1001.html",
+     "kind": "official",
+     "title": "Fukuoka Prefecture: second notice (30 September 2026)"
+    },
+    {
+     "url": "https://fukuoka-fukkou-wari.jp/",
+     "kind": "official",
+     "title": "Campaign site: rules, OTA list, notices"
+    },
+    {
+     "url": "https://fukuoka-fukkou-wari.jp/data/fukuoka_faq.pdf",
+     "kind": "official",
+     "title": "Campaign FAQ (PDF), Q4, Q7, Q11, Q13, Q14, Q16, Q22, Q23"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "1 October to 15 December 2026",
+     "¥20,000 a person a trip, not a night",
+     "Booking.com is not on it",
+     "from noon on 9 October"
+    ],
+    "articles/japan-tourist-taxes-2026.html": [
+     "Until 15 December 2026 a Kyushu recovery discount takes half off stays in the prefecture"
+    ]
+   },
+   "note": "Ends 15 December 2026 or earlier if the budget runs out. After that, remove the discount section, the verdict's last sentence, the title's 'and the Kyushu Discount', the FAQ item, the where-to-stay-in-japan pointer and the tax-page sentence."
+  },
+  {
+   "id": "jp.kumamoto.earthquake-2026",
+   "topic": "history",
+   "claim": "A magnitude 7.1 (provisional) earthquake struck the Kumamoto region at 16:27 on 28 July 2026; the Japan Meteorological Agency named it the 2026 Kumamoto Earthquake (令和8年熊本地震).",
+   "sources": [
+    {
+     "url": "https://www.jma.go.jp/jma/press/2607/28d/202607282030.html",
+     "kind": "official",
+     "title": "JMA: the 2026 Kumamoto earthquake, third report (28 July 2026)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "the magnitude 7.1 earthquake in Kumamoto on 28 July 2026"
+    ]
+   }
+  },
+  {
+   "id": "jp.kyushu-shinkansen.restart-2026",
+   "topic": "transport",
+   "claim": "The Kyushu Shinkansen, suspended between Kumamoto and Shin-Minamata after the 28 July 2026 earthquake, has run its full length again since the first trains on 18 September 2026.",
+   "sources": [
+    {
+     "url": "https://www.jrkyushu.co.jp/news/__icsFiles/afieldfile/2026/09/04/20260831_Kyushu_Shinkansen_Timetable_Effective_September_18.pdf",
+     "kind": "operator",
+     "title": "JR Kyushu: timetable from the restart on 18 September 2026 (PDF)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "has run its full length again since 18 September"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.airport-subway",
+   "topic": "fare",
+   "claim": "By Fukuoka City Subway from Fukuoka Airport (domestic terminal) it is 5 minutes to Hakata and 11 to Tenjin; adult fares are ¥260 to either (3.3 km and 5.8 km, zone 2), and ¥210 between Hakata and Tenjin (2.5 km). From the international terminal a free shuttle bus runs to the domestic terminal.",
+   "sources": [
+    {
+     "url": "https://subway.city.fukuoka.lg.jp/fare/futuken/",
+     "kind": "official",
+     "title": "Fukuoka City Subway: fares by zone"
+    },
+    {
+     "url": "https://subway.city.fukuoka.lg.jp/fare/pdf/subwayA4Side.pdf",
+     "kind": "official",
+     "title": "Fukuoka City Subway: distances between stations (PDF)"
+    },
+    {
+     "url": "https://gofukuoka.jp/plan/detail02.html",
+     "kind": "official",
+     "title": "Go Fukuoka (Fukuoka City): getting around"
+    },
+    {
+     "url": "https://www.fukuoka-airport.jp/en/access/subway.html",
+     "kind": "operator",
+     "title": "Fukuoka Airport: the subway"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "reaches Hakata Station in 5 minutes and Tenjin in 11, for ¥260 either way",
+     "the subway fare is ¥210"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.yatai",
+   "topic": "place",
+   "claim": "Fukuoka's yatai are in three areas, Nakasu, Tenjin and Nagahama; the city's permitted hours, setting up and packing away included, are 17:00 to 04:00.",
+   "sources": [
+    {
+     "url": "https://www.city.fukuoka.lg.jp/keizai/yatai/shisei/yataikoubo.html",
+     "kind": "official",
+     "title": "Fukuoka City: call for yatai operators (areas and hours)"
+    },
+    {
+     "url": "https://yokanavi.com/features/274220",
+     "kind": "official",
+     "title": "Yokanavi (Fukuoka City): yatai for beginners"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "Nakasu, Tenjin and Nagahama",
+     "run from 5pm to 4am"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.sumo-nov-2026",
+   "topic": "stat",
+   "recheck_days": 30,
+   "claim": "The November Grand Sumo Tournament runs from 8 to 22 November 2026 at Fukuoka Kokusai Center; advance tickets went on sale on 19 September 2026.",
+   "sources": [
+    {
+     "url": "https://www.sumo.or.jp/EnTicket/year_schedule/",
+     "kind": "official",
+     "title": "Japan Sumo Association: tournament schedule"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "from 8 to 22 November 2026 at Fukuoka Kokusai Center"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.miyako-hakata",
+   "topic": "hotel",
+   "claim": "Miyako Hotel Hakata opened on 22 September 2019 at Hakata Station's Chikushi exit, connected to the station, with 208 rooms of 30 m² or more and a rooftop spa (hot-spring baths, sauna, outdoor pool); the outdoor spa closes for maintenance from 14:00 on 12 January to 12:00 on 16 January 2027, the indoor baths and sauna staying open.",
+   "sources": [
+    {
+     "url": "https://www.miyakohotels.ne.jp/hakata/",
+     "kind": "operator",
+     "title": "Miyako Hotel Hakata"
+    },
+    {
+     "url": "https://www.miyakohotels.ne.jp/hakata/topic/information/3974/",
+     "kind": "operator",
+     "title": "Miyako Hotel Hakata: 2027 spa maintenance"
+    },
+    {
+     "url": "https://hotelbank.jp/miyakohotel-hakata-open/",
+     "kind": "secondary",
+     "title": "Hotel Bank: opening on 22 September 2019"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "Opened on 22 September 2019",
+     "208 rooms of 30 m² or more",
+     "from 12 to 16 January 2027"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.nikko",
+   "topic": "hotel",
+   "claim": "Hotel Nikko Fukuoka is three minutes' walk from Hakata Station, linked to it by an underground passage.",
+   "sources": [
+    {
+     "url": "https://www.hotelnikko-fukuoka.com/",
+     "kind": "operator",
+     "title": "Hotel Nikko Fukuoka"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "linked to it by an underground passage"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.blossom-hakata-central",
+   "topic": "hotel",
+   "claim": "JR Kyushu Hotel Blossom Hakata Central has 247 rooms, two minutes' walk from Hakata Station's Hakata exit.",
+   "sources": [
+    {
+     "url": "https://www.jrk-hotels.co.jp/Hakatachuo/",
+     "kind": "operator",
+     "title": "JR Kyushu Hotel Blossom Hakata Central"
+    },
+    {
+     "url": "https://www.jrhotelgroup.com/sp/hotel/168.htm",
+     "kind": "operator",
+     "title": "JR Hotel Group: Blossom Hakata Central (247 rooms)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "247 rooms, two minutes' walk from the station's Hakata exit"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.grand-hyatt",
+   "topic": "hotel",
+   "claim": "Grand Hyatt Fukuoka opened on 26 April 1996 in Canal City Hakata, with 378 rooms, an indoor pool, a gym and a sauna.",
+   "sources": [
+    {
+     "url": "https://www.grandhyattfukuoka.com/company/",
+     "kind": "operator",
+     "title": "Grand Hyatt Fukuoka: company profile"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "since it opened in 1996, with 378 rooms"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.okura",
+   "topic": "hotel",
+   "claim": "Hotel Okura Fukuoka is in Hakata Riverain, directly connected to Nakasu-Kawabata subway station.",
+   "sources": [
+    {
+     "url": "https://www.fuk.hotelokura.co.jp/",
+     "kind": "operator",
+     "title": "Hotel Okura Fukuoka"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "connected to Nakasu-Kawabata Station"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.il-palazzo",
+   "topic": "hotel",
+   "claim": "Hotel Il Palazzo opened in 1989, designed by Aldo Rossi (his first building in Japan) with Shigeru Uchida; the hotel calls it Japan's first design hotel and gives the Nakasu yatai street as a 1-minute walk, Nakasu-Kawabata exit 1 as 7 minutes and Tenjin-Minami exit 6 as 6 minutes.",
+   "sources": [
+    {
+     "url": "https://ilpalazzo.jp/",
+     "kind": "operator",
+     "title": "Hotel Il Palazzo"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "Aldo Rossi's first building in Japan, opened in 1989",
+     "are six and seven minutes' walk"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.dormy-canal",
+   "topic": "hotel",
+   "claim": "Dormy Inn PREMIUM Hakata Canal City-mae is about 10 minutes' walk from JR Hakata Station, with separate men's and women's hot-spring baths on the 2nd floor (water brought from Hakata Gion) and a sauna; on 22 May 2026 it warned Booking.com guests of suspicious contact through messaging apps.",
+   "sources": [
+    {
+     "url": "https://dormy-hotels.com/dormyinn/hotels/hakatacanal/",
+     "kind": "operator",
+     "title": "Dormy Inn Premium Hakata Canal City Mae"
+    },
+    {
+     "url": "https://dormy-hotels.com/dormyinn/hotels/hakatacanal/news/article/1386",
+     "kind": "operator",
+     "title": "Notice on messages to Booking.com guests (22 May 2026)"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "the water brought in from Hakata Gion",
+     "suspicious contact through messaging apps"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.ritz-carlton",
+   "topic": "hotel",
+   "claim": "The Ritz-Carlton, Fukuoka opened in June 2023 in the main tower of Fukuoka Daimyo Garden City, with 147 rooms and 20 suites on the 19th to 23rd floors, from 50 m², five minutes' walk from Tenjin Station.",
+   "sources": [
+    {
+     "url": "https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/rooms/",
+     "kind": "operator",
+     "title": "The Ritz-Carlton, Fukuoka: rooms"
+    },
+    {
+     "url": "https://www.ritzcarlton.com/en/hotels/fukrz-the-ritz-carlton-fukuoka/overview/",
+     "kind": "operator",
+     "title": "The Ritz-Carlton, Fukuoka: overview"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "147 rooms and 20 suites on the 19th to 23rd floors"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.one-fukuoka",
+   "topic": "hotel",
+   "claim": "ONE FUKUOKA HOTEL opened on 24 April 2025 with 41 rooms on the 18th and 19th floors of the ONE FUKUOKA BLDG., connected to Tenjin subway station, with a large bath and a sauna.",
+   "sources": [
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000090.000051750.html",
+     "kind": "operator",
+     "title": "Plan・Do・See: ONE FUKUOKA HOTEL opens on 24 April 2025"
+    },
+    {
+     "url": "https://onefukuokahotel.jp/",
+     "kind": "operator",
+     "title": "ONE FUKUOKA HOTEL"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "41 rooms on the 18th and 19th floors",
+     "opened on 24 April 2025"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.candeo-tenjin",
+   "topic": "hotel",
+   "claim": "Candeo Hotels Fukuoka Tenjin is at Watanabe-dori 5-14-5, about 9 minutes' walk from Tenjin subway station (exit East 12C), with the Sky Spa, open-air baths on the roof.",
+   "sources": [
+    {
+     "url": "https://www.candeohotels.com/ja/fukuoka-tenjin/",
+     "kind": "operator",
+     "title": "Candeo Hotels Fukuoka Tenjin"
+    },
+    {
+     "url": "https://www.candeohotels.com/ja/fukuoka-tenjin/skyspa/",
+     "kind": "operator",
+     "title": "Candeo Hotels Fukuoka Tenjin: Sky Spa"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "Tenjin Station is about nine minutes' walk"
+    ]
+   }
+  },
+  {
+   "id": "jp.fukuoka.hotel.hilton-sea-hawk",
+   "topic": "hotel",
+   "claim": "Hilton Fukuoka Sea Hawk has 1,052 rooms beside Mizuho PayPay Dome; Nishitetsu bus 306 from Hakata Bus Terminal stops outside, and from Tojinmachi or Nishijin subway stations the hotel gives about 6 minutes by bus or taxi (its own shuttle is suspended).",
+   "sources": [
+    {
+     "url": "https://fukuokaseahawk.hiltonjapan.co.jp/rooms/",
+     "kind": "operator",
+     "title": "Hilton Fukuoka Sea Hawk: rooms (1,052)"
+    },
+    {
+     "url": "https://fukuokaseahawk.hiltonjapan.co.jp/access/",
+     "kind": "operator",
+     "title": "Hilton Fukuoka Sea Hawk: access"
+    }
+   ],
+   "checked": "2026-10-06",
+   "used_in": {
+    "articles/where-to-stay-in-fukuoka.html": [
+     "1,052 rooms beside the dome",
+     "Nishitetsu bus 306 stops outside"
+    ]
+   }
+  }
+ ]
 }

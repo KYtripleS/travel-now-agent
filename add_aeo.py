@@ -356,6 +356,13 @@ V = {
              "for quiet and Kutchan town for price. Both towns now charge 3% tax.",
         link_text="Grand Hirafu",
         cta=_stay_cta("where-to-stay-in-niseko", "See hotels around Grand Hirafu")),
+    "where-to-stay-in-fukuoka": dict(
+        text="For a first trip, stay near Hakata Station: the subway reaches the airport in 5 minutes for ¥260, "
+             "and the shinkansen and the bus terminal are at the door. Choose Nakasu for the yatai, Tenjin for "
+             "shopping and Momochi for the sea. Staying by 15 December? Check the Kyushu discount first; it is "
+             "not on Booking.com.",
+        link_text="Hakata Station",
+        cta=_stay_cta("where-to-stay-in-fukuoka", "See hotels around Hakata Station")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -584,7 +591,7 @@ REVISED = {
     "narita-haneda-to-central-tokyo": "2026-09-27",              # added Narita <-> Haneda, official fares
     "charter-a-boat-for-a-day": "2026-09-23",                    # Spain 1 Oct 2026, Greece, Croatia
     "where-to-stay-in-tokyo": "2026-09-25",                      # rewrite: 17 verified hotels, tax, tables
-    "japan-tourist-taxes-2026": "2026-10-06",                    # corrected: Niseko is tiered, not a ¥2,000 flat rate; added Hokkaido/Sapporo
+    "japan-tourist-taxes-2026": "2026-10-06",                    # corrected: Niseko is tiered, not a ¥2,000 flat rate; added Hokkaido/Sapporo; added Fukuoka
     "hong-kong-first-timers-guide": "2026-10-04",                # corrected: tram fare HK$3.30, not HK$3
     "where-to-stay-in-sydney": "2026-10-05",                     # corrected: Great Southern works now run to 31 Jan 2027
     "is-the-weak-yen-a-bargain-or-trap": "2026-10-06",           # corrected: Himeji's ¥2,500 is for all non-residents; no Niseko foreigner price
@@ -1071,6 +1078,7 @@ QUICK_PICKS = {
     "where-to-stay-in-sapporo-snow-festival": ["The Royal Park Canvas Sapporo Odori Park", "Sapporo Grand Hotel",
                                                "JR Inn Sapporo-eki Minamiguchi"],
     "where-to-stay-in-niseko": ["Skye Niseko", "Nikko Style Niseko HANAZONO", "Mercure Niseko Resort"],
+    "where-to-stay-in-fukuoka": ["Miyako Hotel Hakata", "Hotel Nikko Fukuoka", "JR Kyushu Hotel Blossom Hakata Central"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1150,6 +1158,7 @@ CITY_RATES = {
         ("Kyoto", "where-to-stay-in-kyoto", None, None),
         ("Osaka", "where-to-stay-in-osaka", None, None),
         ("Hakone", "where-to-stay-in-hakone", None, None),
+        ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Seoul", "where-to-stay-in-seoul", None, None),
         ("Bangkok", "where-to-stay-in-bangkok", None, None),
         ("Hong Kong", "where-to-stay-in-hong-kong", None, None),
@@ -1220,6 +1229,7 @@ _TS = "where-to-stay-in-tokyo-cherry-blossom.html"
 _NY = "where-to-stay-in-sydney-new-years-eve.html"
 _SP = "where-to-stay-in-sapporo-snow-festival.html"
 _NS = "where-to-stay-in-niseko.html"
+_FK = "where-to-stay-in-fukuoka.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1319,6 +1329,10 @@ STAY_POINTERS = {
     "japan-book-in-advance-2026": ("Authentic Stays",
         f'For named ryokan in Kyoto, including Tawaraya and Hiiragiya, see <a href="{_K}">Where to stay in '
         'Kyoto</a>.'),
+    "where-to-stay-in-japan": ("When to book",
+        f'Booking Fukuoka for a stay by 15 December? <a href="{_FK}#the-kyushu-recovery-discount-to-15-december-2026">'
+        'Our Fukuoka guide</a> explains the Kyushu recovery discount, half off on the Japanese booking sites in '
+        'the campaign, and names 11 hotels.'),
     "japan-tourist-taxes-2026": ("Kyoto’s new lodging tax",
         f'Choosing where to stay in Kyoto? <a href="{_K}">Our Kyoto guide</a> compares five areas and names '
         f'14 hotels and ryokan. Going to Sapporo? <a href="{_SP}">Our Snow Festival guide</a> covers its new tax.'),
