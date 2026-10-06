@@ -95,6 +95,8 @@ PAGES = {
                                                   address="Circular Quay, Sydney NSW, Australia"),
     "where-to-stay-in-sapporo-snow-festival": dict(area="Odori Park", lat=43.0598, lng=141.3480, zoom=15,
                                                    address="Odori Park, Sapporo, Japan"),
+    "where-to-stay-in-niseko": dict(area="Grand Hirafu", lat=42.8605, lng=140.6966, zoom=12,
+                                    address="Kutchan, Hokkaido, Japan"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -173,6 +175,17 @@ HOTELS = {
     "Mercure Sapporo": _B + "jp/mercure-sapporo.html",
     "OMO3 Sapporo Susukino by Hoshino Resorts": None,
     "Sapporo Park Hotel": _B + "jp/sapporo-park-hokkaido.html",
+    # Niseko (Booking.com pages confirmed by search, 2026-10-06; the Mercure is still listed as Midtown Niseko)
+    "Skye Niseko": _B + "jp/skye-niseko.html",
+    "Ki Niseko": _B + "jp/kiniseko.html",
+    "Mercure Niseko Resort": _B + "jp/midtown-niseko.html",
+    "Park Hyatt Niseko Hanazono": _B + "jp/park-hyatt-niseko-hanazono.html",
+    "Nikko Style Niseko HANAZONO": _B + "jp/nitukosutairunisekohanazono.html",
+    "Higashiyama Niseko Village, a Ritz-Carlton Reserve": _B + "jp/the-ritz-carlton-reserve-niseko.html",
+    "Hilton Niseko Village": _B + "jp/hilton-niseko-village.html",
+    "The Green Leaf Niseko Village, Tapestry Collection by Hilton": _B + "jp/green-leaf-niseko-village.html",
+    "Niseko Northern Resort Annupuri": _B + "jp/niseko-northern-resort-an-nupuri.html",
+    "Torifito Hotel & Pod Niseko": _B + "jp/torihuitohoteru-kiyabinnisekoponnotang.html",
     # Melbourne
     "Park Hyatt Melbourne": _B + "au/park-hyatt-melbourne.html",
     "The Ritz-Carlton, Melbourne": _B + "au/the-ritz-carlton-melbourne.html",

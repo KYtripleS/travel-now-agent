@@ -3,7 +3,7 @@
   "totals": {
     "countries": 11,
     "cities": 22,
-    "guides": 163
+    "guides": 164
   },
   "countries": [
     {
@@ -1515,6 +1515,15 @@
           "title": "Where to Stay in Japan on a First Trip (2026): Cities, Nights and Areas",
           "url": "articles/where-to-stay-in-japan.html",
           "slug": "where-to-stay-in-japan",
+          "type": "stay",
+          "tags": [
+            "Hotels"
+          ]
+        },
+        {
+          "title": "Where to Stay in Niseko for the 2026/27 Ski Season: Areas, Ski-In Hotels and the 3% Tax",
+          "url": "articles/where-to-stay-in-niseko.html",
+          "slug": "where-to-stay-in-niseko",
           "type": "stay",
           "tags": [
             "Hotels"

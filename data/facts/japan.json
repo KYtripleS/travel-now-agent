@@ -45,6 +45,9 @@
         ],
         "articles/where-to-stay-in-sapporo-snow-festival.html": [
           "¥3,000 departure tax"
+        ],
+        "articles/where-to-stay-in-niseko.html": [
+          "¥3,000 departure tax"
         ]
       },
       "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
@@ -225,6 +228,9 @@
           "up to ¥10,000/night"
         ],
         "articles/where-to-stay-in-sapporo-snow-festival.html": [
+          "up to ¥10,000/night"
+        ],
+        "articles/where-to-stay-in-niseko.html": [
           "up to ¥10,000/night"
         ]
       },
@@ -824,6 +830,10 @@
         "articles/is-the-weak-yen-a-bargain-or-trap.html": [
           "None of the four Niseko United ski resorts lists a foreigner price",
           "is ¥12,600 in the 2026/27 regular season and ¥13,500 at peak"
+        ],
+        "articles/where-to-stay-in-niseko.html": [
+          "¥13,500",
+          "¥12,600"
         ]
       },
       "watch": "(?i)lift[- ]?(ticket|pass)[^.]{0,100}¥\\s?[\\d,]+|All Mountain Pass[^.]{0,100}¥",
@@ -1013,8 +1023,8 @@
     {
       "id": "jp.niseko.accommodation-tax",
       "topic": "tax",
-      "recheck_days": 30,
-      "claim": "Niseko Town's accommodation tax, in force since 1 November 2024, is a tiered fixed amount from ¥100 to ¥2,000 per person per night by room price; it changes to a percentage of the room price for stays from 1 November 2026.",
+      "recheck_days": 60,
+      "claim": "Niseko Town's accommodation tax, in force since 1 November 2024, is a tiered fixed amount from ¥100 to ¥2,000 per person per night by room price; for stays from 1 November 2026 it becomes 3% of the room price in total, the town collecting Hokkaido's share within it (ministerial consent 27 March 2026).",
       "sources": [
         {
           "url": "https://www.town.niseko.lg.jp/information/11706",
@@ -1022,9 +1032,14 @@
           "title": "Niseko Town: the accommodation tax changes to a rate"
         },
         {
-          "url": "https://www.town.niseko.lg.jp/resources/output/contents/file/release/10654/49470/gaiyou-syukuhakuzei.pdf",
+          "url": "https://www.soumu.go.jp/main_content/001063500.pdf",
           "kind": "official",
-          "title": "Niseko Town: accommodation tax guide (PDF)"
+          "title": "Ministry of Internal Affairs and Communications: consent to Niseko Town's change (PDF)"
+        },
+        {
+          "url": "https://www.town.niseko.lg.jp/resources/output/contents/file/release/11706/61613/press_accomTAX.pdf",
+          "kind": "official",
+          "title": "Niseko Town: press release on the change (PDF)"
         }
       ],
       "checked": "2026-10-06",
@@ -1032,10 +1047,14 @@
         "articles/japan-tourist-taxes-2026.html": [
           "Niseko Town charges ¥100 to ¥2,000 a night",
           "from 1 November 2026"
+        ],
+        "articles/where-to-stay-in-niseko.html": [
+          "for stays from 1 November 2026",
+          "¥100 to ¥2,000 a person a night"
         ]
       },
-      "watch": "Niseko[^.]{0,120}(tax|a night)",
-      "note": "News reports give the new rate as 3%; confirm on the town's page and update the guide once it applies on 1 November 2026."
+      "watch": "Niseko[^.]{0,80}(¥[\\d,]+|\\d+%)[^.]{0,40}(night|room price)|Niseko[^.]{0,60}flat rate",
+      "note": "Confirm on 1 November 2026 that the 3% rate applies as announced."
     },
     {
       "id": "jp.kutchan.accommodation-tax",
@@ -1052,6 +1071,9 @@
       "used_in": {
         "articles/japan-tourist-taxes-2026.html": [
           "Kutchan has charged 3% of the room price in total"
+        ],
+        "articles/where-to-stay-in-niseko.html": [
+          "since 1 April 2026"
         ]
       }
     },
@@ -1167,6 +1189,130 @@
       "used_in": {
         "articles/where-to-stay-in-sapporo-snow-festival.html": [
           "December 1934"
+        ]
+      }
+    },
+    {
+      "id": "jp.niseko.season-2026-27",
+      "topic": "stat",
+      "recheck_days": 60,
+      "claim": "Niseko United lists its 2026/27 season from 28 November 2026 at all four resorts, to 5 May 2027 at Grand Hirafu and Annupuri, 11 April 2027 at HANAZONO and 4 April 2027 at Niseko Village; the adult 1-day All Mountain Pass is ¥8,800 outside the regular and peak periods.",
+      "sources": [
+        {
+          "url": "https://www.niseko.ne.jp/en/lift/",
+          "kind": "operator",
+          "title": "Niseko United: lift tickets 2026/27"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-niseko.html": [
+          "28 November 2026",
+          "5 May 2027",
+          "¥8,800"
+        ]
+      }
+    },
+    {
+      "id": "jp.niseko.hotel.skye",
+      "topic": "hotel",
+      "claim": "Skye Niseko's ski valet gives direct ski-out access to the King Gondola and King Holiday Pair Lift, with the Ace Gondola a short walk away; its shared and private onsen are for hotel guests only, and only its one-bedroom suites take extra bedding.",
+      "sources": [
+        {
+          "url": "https://www.skyeniseko.com/faq",
+          "kind": "operator",
+          "title": "Skye Niseko: FAQ"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-niseko.html": [
+          "King Holiday Pair Lift"
+        ]
+      }
+    },
+    {
+      "id": "jp.niseko.hotel.ritz-reserve",
+      "topic": "hotel",
+      "claim": "Higashiyama Niseko Village, a Ritz-Carlton Reserve, opened on 15 December 2020 with 50 rooms and suites and ski-in, ski-out access.",
+      "sources": [
+        {
+          "url": "https://news.marriott.com/news/2020/12/17/higashiyama-niseko-village-a-ritz-carlton-reserve-opens-in-japans-legendary-winter-wonderland",
+          "kind": "operator",
+          "title": "Marriott News: opening"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-niseko.html": [
+          "50 rooms and suites, opened on 15 December 2020"
+        ]
+      }
+    },
+    {
+      "id": "jp.niseko.hotel.nikko-style-hanazono",
+      "topic": "hotel",
+      "claim": "Nikko Style Niseko HANAZONO opened on 15 December 2024 with 234 rooms and a natural hot spring; hot-spring water reaches the guest bathrooms on the 7th and 8th floors, and the hotel puts the drive from New Chitose Airport at about 2.5 hours in winter.",
+      "sources": [
+        {
+          "url": "https://document-tc.galaxy.tf/wdpdf-bn54sbbnpofjdb6qsqjgw3rgx/en-fact-sheet-nikko-style-niseko-hanazono.pdf",
+          "kind": "operator",
+          "title": "Nikko Style Niseko HANAZONO: fact sheet"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-niseko.html": [
+          "234 rooms, opened on 15 December 2024",
+          "two and a half hours"
+        ]
+      }
+    },
+    {
+      "id": "jp.niseko.hotel.mercure-midtown",
+      "topic": "hotel",
+      "recheck_days": 60,
+      "claim": "Midtown Niseko, in East Hirafu, rebrands as Mercure Niseko Resort in November 2026; the hotel says existing reservations remain valid, and Accor lists a complimentary winter ski shuttle to Hirafu.",
+      "sources": [
+        {
+          "url": "https://midtownniseko.com/exciting-news-midtown-niseko-is-rebranding-to-mercure-niseko-resort/",
+          "kind": "operator",
+          "title": "Midtown Niseko: rebranding notice"
+        },
+        {
+          "url": "https://all.accor.com/hotel/C6U9/index.en.shtml",
+          "kind": "operator",
+          "title": "Accor: Mercure Niseko Resort"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-niseko.html": [
+          "The former Midtown Niseko"
+        ]
+      },
+      "note": "Recheck in November 2026 that the hotel has reopened under the Mercure name."
+    },
+    {
+      "id": "jp.niseko.hotel.northern-annupuri",
+      "topic": "hotel",
+      "claim": "Niseko Northern Resort Annupuri has 151 rooms at the foot of the Annupuri slopes, about 360 m from the Annupuri gondola, with a natural hot spring and an open-air bath.",
+      "sources": [
+        {
+          "url": "https://www.niseko-northern.com/",
+          "kind": "operator",
+          "title": "Niseko Northern Resort Annupuri"
+        },
+        {
+          "url": "https://www.jalan.net/yad333020/",
+          "kind": "secondary",
+          "title": "Jalan: Niseko Northern Resort Annupuri"
+        }
+      ],
+      "checked": "2026-10-06",
+      "used_in": {
+        "articles/where-to-stay-in-niseko.html": [
+          "151 rooms at the foot of the Annupuri slopes"
         ]
       }
     }

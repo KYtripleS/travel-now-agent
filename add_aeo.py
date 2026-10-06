@@ -349,6 +349,13 @@ V = {
              "nights, and Nakajima Park for quiet. The dates are fixed: book now.",
         link_text="Odori",
         cta=_stay_cta("where-to-stay-in-sapporo-snow-festival", "See hotels around Odori Park")),
+    "where-to-stay-in-niseko": dict(
+        text="For a first ski trip, stay in Grand Hirafu, near the King and Ace gondolas: the village has the "
+             "restaurants and bars, and a hotel close to the lifts saves waiting for winter taxis. Choose HANAZONO "
+             "for ski-in, ski-out away from the crowds, Niseko Village for hot springs at the gondola, Annupuri "
+             "for quiet and Kutchan town for price. Both towns now charge 3% tax.",
+        link_text="Grand Hirafu",
+        cta=_stay_cta("where-to-stay-in-niseko", "See hotels around Grand Hirafu")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1063,6 +1070,7 @@ QUICK_PICKS = {
                                               "Sheraton Grand Sydney Hyde Park"],
     "where-to-stay-in-sapporo-snow-festival": ["The Royal Park Canvas Sapporo Odori Park", "Sapporo Grand Hotel",
                                                "JR Inn Sapporo-eki Minamiguchi"],
+    "where-to-stay-in-niseko": ["Skye Niseko", "Nikko Style Niseko HANAZONO", "Mercure Niseko Resort"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1211,6 +1219,7 @@ _KL = "where-to-stay-in-kuala-lumpur.html"
 _TS = "where-to-stay-in-tokyo-cherry-blossom.html"
 _NY = "where-to-stay-in-sydney-new-years-eve.html"
 _SP = "where-to-stay-in-sapporo-snow-festival.html"
+_NS = "where-to-stay-in-niseko.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1302,7 +1311,8 @@ STAY_POINTERS = {
         f'Travelling in a peak week? Book the room first: <a href="{_JP}">where to stay in Japan on a first trip</a> '
         f'splits the nights, our guides to {_JP3} name the hotels, and our cherry-blossom guides to <a '
         f'href="{_TS}">Tokyo</a> and <a href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto</a> have the '
-        f'dates and the areas by blossom, as <a href="{_SP}">our Sapporo Snow Festival guide</a> does for February.'),
+        f'dates and the areas by blossom, as <a href="{_SP}">our Sapporo Snow Festival guide</a> does for February '
+        f'and <a href="{_NS}">our Niseko guide</a> does for the ski season.'),
     "japan-autumn-2026": ("Flights and Stays",
         f'For where to sleep, <a href="{_JP}">where to stay in Japan on a first trip</a> splits the nights between '
         f'cities, and our guides to {_JP3} name the hotels.'),
@@ -1392,6 +1402,9 @@ STAY_POINTERS = {
         f'<a href="{_S}">Where to stay in Sydney</a> compares six areas, from Circular Quay to Bondi and '
         f'Manly, and names 13 hotels. Here for New Year\'s Eve? <a href="{_NY}">Our New Year\'s Eve guide</a> '
         'matches four areas to the fireworks.'),
+    "where-to-stay-in-sapporo-snow-festival": ("intro",
+        f'Skiing too? <a href="{_NS}">Where to stay in Niseko</a> compares the four resorts and Kutchan town, '
+        'with the 2026/27 season and lift prices.'),
     "where-to-stay-in-sydney": ("intro",
         f'Coming for New Year\'s Eve? <a href="{_NY}">Where to stay in Sydney for New Year\'s Eve</a> has the '
         'vantage points, their ticket dates and the hotels with harbour rooms.'),

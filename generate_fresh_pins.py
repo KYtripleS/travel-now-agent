@@ -534,6 +534,23 @@ SPECS = [
                      "lit until 11pm, one subway stop from Odori. Mercure Sapporo is a block away and OMO3 "
                      "Sapporo Susukino a few blocks west. Part of our guide to where to stay in Sapporo for the "
                      "Snow Festival 2027."),
+    dict(id=1053, slug="niseko-stay-f1", article="articles/where-to-stay-in-niseko.html",
+         board=JP, photo=16122915, title="NISEKO", tagline="where to stay, 2026/27",
+         bullets=["Season from 28 November", "Ski-in: Hirafu, HANAZONO", "Pass: ¥13,500 at peak",
+                  "3% hotel tax in both towns"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Niseko for the 2026/27 Ski Season: Areas and Hotels",
+         description="Niseko United's four resorts open from 28 November 2026. Grand Hirafu has the village and "
+                     "the gondolas, HANAZONO and Niseko Village have ski-in, ski-out hotels, Annupuri is quieter "
+                     "and Kutchan town is cheapest. Lift pass prices, 10 hotels and the 3% hotel tax."),
+    dict(id=1054, slug="niseko-hirafu-f1", article="articles/where-to-stay-in-niseko.html",
+         board=JP, photo=31112561, title="HIRAFU", tagline="Niseko's village base",
+         bullets=["King and Ace gondolas", "Skye: ski-out at the door", "Mercure: free ski shuttle",
+                  "Taxis scarce in winter"], cta="Where to stay →",
+         pin_title="Staying in Grand Hirafu, Niseko: Ski-In Hotels, Gondolas and Shuttles",
+         description="Grand Hirafu is Niseko's village, with the King and Ace gondolas at its top. Skye Niseko "
+                     "skis out to the King Gondola, Ki Niseko sits by the gondola, and the Mercure, the former "
+                     "Midtown Niseko, runs a free winter ski shuttle. Taxis can be scarce in winter, so stay "
+                     "close. Part of our Niseko guide."),
 ]
 
 
