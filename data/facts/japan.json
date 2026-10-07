@@ -57,6 +57,9 @@
     ],
     "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
      "¥3,000 departure tax"
+    ],
+    "articles/where-to-stay-for-universal-studios-japan.html": [
+     "¥3,000 departure tax"
     ]
    },
    "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
@@ -250,6 +253,9 @@
      "¥10,000"
     ],
     "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
+     "up to ¥10,000/night"
+    ],
+    "articles/where-to-stay-for-universal-studios-japan.html": [
      "up to ¥10,000/night"
     ]
    },
@@ -2029,6 +2035,180 @@
     ]
    },
    "note": "Add the festival dates if the Gaien announces them."
+  },
+  {
+   "id": "jp.usj.anniversary-2026",
+   "topic": "stat",
+   "claim": "Universal Studios Japan reached its 25th anniversary on 31 March 2026; its anniversary programme, 'Discover U!!!', runs until 30 March 2027.",
+   "sources": [
+    {
+     "url": "https://www.usj.co.jp/company/news/2026/0121/",
+     "kind": "operator",
+     "title": "USJ news: Discover U!!! (21 January 2026)"
+    },
+    {
+     "url": "https://www.usj.co.jp/company/news/2026/0303/",
+     "kind": "operator",
+     "title": "USJ news: the 25th anniversary begins (3 March 2026)"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-for-universal-studios-japan.html": [
+     "turned 25 on 31 March 2026",
+     "until 30 March 2027"
+    ]
+   }
+  },
+  {
+   "id": "jp.usj.cool-japan-2027",
+   "topic": "stat",
+   "recheck_days": 45,
+   "claim": "Universal Cool Japan 2027 opens in stages from 2 December 2026, the first with Sailor Moon.",
+   "sources": [
+    {
+     "url": "https://www.usj.co.jp/company/news/2026/0930/",
+     "kind": "operator",
+     "title": "USJ news: Universal Cool Japan 2027 (30 September 2026)"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-for-universal-studios-japan.html": [
+     "from 2 December 2026"
+    ]
+   }
+  },
+  {
+   "id": "jp.usj.countdown-2027",
+   "topic": "price",
+   "recheck_days": 30,
+   "claim": "NO LIMIT! Countdown 2027 runs from 19:00 on 31 December 2026 to 21:00 on 1 January 2027; a Party Pass (¥16,900 incl. tax) is required, with re-entry during the event; the Countdown Moment, with about 5,000 fireworks, runs 23:50–00:05 over the Lagoon; Super Nintendo World closes for maintenance for a time and each guest gets only one area timed-entry or standby ticket, via the official app. General sale opens around 21:00 on 4 November 2026 on the Web Ticket Store, Lawson Ticket and at official hotels (some excluded; for staying guests only), if stock remains.",
+   "sources": [
+    {
+     "url": "https://www.usj.co.jp/web/en/us/events/countdown-2027/no-limit-countdown-2027",
+     "kind": "operator",
+     "title": "USJ: NO LIMIT! Countdown 2027"
+    },
+    {
+     "url": "https://www.usj.co.jp/web/ja/jp/events/countdown-2027/no-limit-countdown-2027/tickets",
+     "kind": "operator",
+     "title": "USJ: countdown tickets and sales schedule (Japanese)"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-for-universal-studios-japan.html": [
+     "¥16,900",
+     "from 11.50pm to 12.05am",
+     "about 9pm on 4 November 2026"
+    ]
+   }
+  },
+  {
+   "id": "jp.usj.access-times",
+   "topic": "transport",
+   "claim": "By the park's estimates, Universal City Station is about 11 minutes from Osaka Station (Umeda) via the direct passage or Nishikujo, about 15 minutes from JR-Namba and about 16 minutes from Shin-Osaka.",
+   "sources": [
+    {
+     "url": "https://www.usj.co.jp/web/en/us/access/train",
+     "kind": "operator",
+     "title": "USJ: transportation access by train"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-for-universal-studios-japan.html": [
+     "About 11 minutes",
+     "About 15 minutes",
+     "About 16 minutes"
+    ]
+   }
+  },
+  {
+   "id": "jp.usj.official-hotels",
+   "topic": "hotel",
+   "claim": "USJ lists seven official hotels: Oriental Hotel Universal City (signature breakfast), The Singulari Hotel & Skyspa (directly connected to the station; outdoor bath and sauna), The Park Front Hotel (right outside the main gate, closest to the park), Hotel Kintetsu Universal City (Sesame Street-themed floors; in-hotel Universal Studios Store), Hotel Keihan Universal Tower (natural hot spring with views from the 31st floor; sky restaurant and bar), Hotel Universal Port (Minions in lobby and rooms; in-hotel store) and Hotel Universal Port Vita (opened July 2018; sun and nature designs). OMO7 Osaka and RIHGA Royal Hotel Osaka are listed as partner hotels with a direct shuttle bus.",
+   "sources": [
+    {
+     "url": "https://www.usj.co.jp/web/en/us/tour-hotel/partner-hotel",
+     "kind": "operator",
+     "title": "USJ: Universal partner hotels"
+    },
+    {
+     "url": "https://www.usj.co.jp/web/en/us/tour-hotel/partner-hotel/benefit",
+     "kind": "operator",
+     "title": "USJ: compare hotel benefits"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-for-universal-studios-japan.html": [
+     "Right outside the main gate",
+     "Connected directly to the station",
+     "on the 31st floor",
+     "Opened in July 2018"
+    ]
+   }
+  },
+  {
+   "id": "jp.osaka.rihga-usj-bus",
+   "topic": "hotel",
+   "claim": "RIHGA Royal Hotel Osaka runs a free bus for staying guests to Universal Studios Japan: one a day, booked by the previous day, 45 seats, about 25 minutes, departing one hour before the park opens.",
+   "sources": [
+    {
+     "url": "https://www.rihga.co.jp/osaka/access/usj/",
+     "kind": "operator",
+     "title": "RIHGA Royal Hotel Osaka: access to Universal Studios Japan"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-for-universal-studios-japan.html": [
+     "leaving an hour before the park opens and taking about 25 minutes"
+    ]
+   },
+   "note": "A suspension notice on the page is commented out in the HTML (checked 7 October 2026); recheck the live page."
+  },
+  {
+   "id": "jp.osaka.omo7-usj-shuttle",
+   "topic": "hotel",
+   "claim": "OMO7 Osaka runs a free shuttle bus for guests to Universal Studios Japan, about 30 minutes, departing 8:00 and 9:20 and returning from the park at 17:30 and 18:50, bookable until boarding.",
+   "sources": [
+    {
+     "url": "https://hoshinoresorts.com/en/hotels/omo7osaka/activities/14197/",
+     "kind": "operator",
+     "title": "OMO7 Osaka: Universal Studios Japan shuttle bus"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-for-universal-studios-japan.html": [
+     "leaving the hotel at 8am and 9.20am"
+    ]
+   }
+  },
+  {
+   "id": "jp.osaka.accommodation-tax",
+   "topic": "tax",
+   "claim": "Since 1 September 2025 Osaka Prefecture's accommodation tax is ¥200 per person per night on rooms of ¥5,000 to ¥14,999, ¥400 from ¥15,000 to ¥19,999 and ¥500 from ¥20,000; rooms under ¥5,000 are exempt (previously ¥100/¥200/¥300 from ¥7,000).",
+   "sources": [
+    {
+     "url": "https://www.pref.osaka.lg.jp/o050040/zei/alacarte/shukuhakuzei-kaisei.html",
+     "kind": "official",
+     "title": "Osaka Prefecture: changes to the accommodation tax"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-for-universal-studios-japan.html": [
+     "Since 1 September 2025 Osaka Prefecture's accommodation tax is ¥200"
+    ],
+    "articles/where-to-stay-in-osaka.html": [
+     "since 1 September 2025, Osaka Prefecture's accommodation tax is ¥200"
+    ]
+   },
+   "watch": "Osaka[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
   }
  ]
 }

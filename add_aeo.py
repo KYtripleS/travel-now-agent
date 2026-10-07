@@ -384,6 +384,13 @@ V = {
              "November, on a refundable rate.",
         link_text="Shinjuku",
         cta=_stay_cta("where-to-stay-in-tokyo-autumn-leaves", "See hotels around Shinjuku Station")),
+    "where-to-stay-for-universal-studios-japan": dict(
+        text="If the park is the point, stay at Universal City: seven official hotels sit a few minutes' walk "
+             "from the gates, and most sell countdown Party Passes to their guests. If you are seeing Osaka too, "
+             "stay in Umeda, 11 minutes by JR, or at the RIHGA Royal or OMO7 Osaka, which run a free bus to the "
+             "park.",
+        link_text="stay at Universal City",
+        cta=_stay_cta("where-to-stay-for-universal-studios-japan", "See hotels at Universal City")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1105,6 +1112,9 @@ QUICK_PICKS = {
     "where-to-stay-in-busan": ["Signiel Busan", "Grand Josun Busan", "Shilla Stay Haeundae"],
     "where-to-stay-in-tokyo-autumn-leaves": ["Park Hyatt Tokyo", "JR Kyushu Hotel Blossom Shinjuku",
                                              "Hotel Gracery Shinjuku"],
+    "where-to-stay-for-universal-studios-japan": ["The Singulari Hotel & Skyspa at Universal Studios Japan",
+                                                  "The Park Front Hotel at Universal Studios Japan",
+                                                  "Hotel Universal Port"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1260,6 +1270,7 @@ _FK = "where-to-stay-in-fukuoka.html"
 _KA = "where-to-stay-in-kyoto-autumn-leaves.html"
 _BS = "where-to-stay-in-busan.html"
 _TA = "where-to-stay-in-tokyo-autumn-leaves.html"
+_US = "where-to-stay-for-universal-studios-japan.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1384,8 +1395,9 @@ STAY_POINTERS = {
         'give each city, and how to move your bags between them. Here for the autumn leaves? <a '
         f'href="{_KA}">Our autumn-leaves guide</a> has the 2026 temple openings and the weeks to aim for.'),
     "where-to-stay-in-osaka": ("intro",
-        f'Kyoto, Osaka, or both? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many '
-        'nights to give each, and moving day from Tokyo.'),
+        f'Kyoto, Osaka, or both? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights '
+        f'to give each, and moving day from Tokyo. Here for Universal Studios Japan? <a href="{_US}">Our park '
+        'guide</a> compares the seven official hotels with bases in town, and has the New Year countdown.'),
     # Kyoto
     "gion-kyoto-neighbourhood-guide": ("Getting there, and fitting it in",
         f'Staying close by? <a href="{_K}#gion-and-higashiyama-the-old-city-early-and-late">Where to stay in '
@@ -1413,8 +1425,9 @@ STAY_POINTERS = {
         f'Choosing a base for these three days? <a href="{_O}">Where to stay in Osaka</a> compares Namba, '
         'Umeda, Nakanoshima, Tennoji and the bay, and names 10 hotels.'),
     "things-to-do-in-osaka": ("intro",
-        f'<a href="{_O}">Where to stay in Osaka</a> compares five areas, from Namba’s food streets to the bay '
-        'by Universal Studios Japan, and names 10 hotels.'),
+        f'<a href="{_O}">Where to stay in Osaka</a> compares five areas, from Namba’s food streets to the bay by '
+        f'Universal Studios Japan, and names 10 hotels; for the park itself, <a href="{_US}">where to stay for '
+        'Universal Studios Japan</a> names the seven official hotels.'),
     "osaka-or-kyoto-where-to-base": ("Accommodation and Pace",
         f'Once you’ve chosen: <a href="{_O}">Where to stay in Osaka</a> and <a href="{_K}">Where to stay in '
         'Kyoto</a> compare the areas and name the hotels.'),

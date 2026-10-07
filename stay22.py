@@ -105,6 +105,8 @@ PAGES = {
                                    address="Haeundae Beach, Busan, South Korea"),
     "where-to-stay-in-tokyo-autumn-leaves": dict(area="Shinjuku Station", lat=35.6896, lng=139.7006, zoom=15,
                                                  address="Shinjuku Station, Tokyo, Japan"),
+    "where-to-stay-for-universal-studios-japan": dict(area="Universal City", lat=34.6654, lng=135.4323, zoom=15,
+                                                      address="Universal Studios Japan, Osaka, Japan"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -216,6 +218,14 @@ HOTELS = {
     "Lotte Hotel Busan": _B + "kr/lotte-busan.html",
     "Toyoko Inn Busan Seomyeon": _B + "kr/toyoko-inn-seomyeon.html",
     "Toyoko Inn Busan Station No.1": _B + "kr/toyoko-inn-busan-no-1.html",
+    # Universal Studios Japan (each page fetched from a booking.com tab, 2026-10-07; addresses at Universal City)
+    "The Singulari Hotel & Skyspa at Universal Studios Japan": _B + "jp/singulari-hotel-skyspa-at-universal-studios-japan.html",
+    "Hotel Keihan Universal Tower": _B + "jp/hotel-keihan-universal-tower.html",
+    "Hotel Kintetsu Universal City": _B + "jp/kintetsu-universal-city.html",
+    "Hotel Universal Port": _B + "jp/universal-port.html",
+    "Hotel Universal Port Vita": _B + "jp/hotel-universal-port-vita.html",
+    "Oriental Hotel Universal City": _B + "jp/oriental-universal-city.html",
+    "RIHGA Royal Hotel Osaka, Vignette Collection": _B + "jp/rihga-royal-osaka.html",
     # Melbourne
     "Park Hyatt Melbourne": _B + "au/park-hyatt-melbourne.html",
     "The Ritz-Carlton, Melbourne": _B + "au/the-ritz-carlton-melbourne.html",

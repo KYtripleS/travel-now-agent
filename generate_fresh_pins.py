@@ -623,6 +623,24 @@ SPECS = [
                      "the Meiji Memorial Picture Gallery, and it is free to walk. Gaienmae Station is two stops "
                      "from Shibuya on the Ginza line, so a Shibuya base lets you be there at first light. Part "
                      "of our guide to where to stay in Tokyo for the autumn leaves."),
+    dict(id=1063, slug="usj-stay-f1", article="articles/where-to-stay-for-universal-studios-japan.html",
+         board=JP, photo=31288143, title="UNIVERSAL", tagline="where to stay for USJ",
+         bullets=["Seven official hotels", "Osaka Station: 11 min by JR", "Two hotels with a free bus",
+                  "Hot springs and themed rooms"], cta="Hotels and routes →",
+         pin_title="Where to Stay for Universal Studios Japan: Official Hotels and Osaka Bases",
+         description="Universal Studios Japan lists seven official hotels at Universal City, a few minutes' walk "
+                     "from the gates, from the Park Front at the main gate to a hot spring on the 31st floor and "
+                     "Minion rooms. Or stay in Umeda, about 11 minutes by JR, or at one of two Osaka hotels that "
+                     "run a free bus to the park."),
+    dict(id=1064, slug="usj-osaka-bus-f1", article="articles/where-to-stay-for-universal-studios-japan.html",
+         board=JP, photo=37044748, title="OSAKA", tagline="a free bus to Universal",
+         bullets=["OMO7: a bus there and back", "RIHGA Royal: a morning bus", "Umeda: 11 min by JR",
+                  "Shin-Osaka: 16 min by JR"], cta="Where to stay →",
+         pin_title="Osaka Hotels With a Free Bus to Universal Studios Japan",
+         description="Two Osaka partner hotels run their own free bus to Universal Studios Japan for guests: OMO7 "
+                     "Osaka, next to Shinsekai, with a 30-minute shuttle there and back, and the RIHGA Royal in "
+                     "Nakanoshima, with one morning bus booked the day before. Or ride the JR: about 11 minutes "
+                     "from Osaka Station. Part of our Universal Studios Japan guide."),
 ]
 
 

@@ -555,6 +555,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in Singapore",
         "Five areas and 12 hotels, from Raffles of 1887 to a compact room on Orchard Road, and what \"++\" adds to the bill.",
     ),
+    "articles/where-to-stay-for-universal-studios-japan.html": (
+        "Where to Stay for Universal Studios Japan",
+        "The seven official hotels, Umeda bases 11 minutes away, two hotels with a free bus, and the 2027 countdown.",
+    ),
     "articles/where-to-stay-in-tokyo-autumn-leaves.html": (
         "Where to Stay in Tokyo for Autumn Leaves",
         "The weeks to aim for, Rikugien's 2026 evening opening, Shinjuku Gyoen's hours, the ginkgo avenue, four areas and 11 hotels.",
@@ -769,6 +773,7 @@ LINKS: dict[str, list[str]] = {
         "articles/south-korea-country-profile.html",
     ],
     "articles/osaka-first-timers-guide.html": [
+        "articles/where-to-stay-for-universal-studios-japan.html",
         "articles/osaka-3-day-guide.html",
         "articles/osaka-or-kyoto-where-to-base.html",
         "articles/best-esim-japan-2026.html",
@@ -833,6 +838,7 @@ LINKS: dict[str, list[str]] = {
         "articles/klook-vs-viator-vs-getyourguide.html",
     ],
     "articles/things-to-do-in-osaka.html": [
+        "articles/where-to-stay-for-universal-studios-japan.html",
         "articles/osaka-3-day-guide.html",
         "articles/osaka-first-timers-guide.html",
         "articles/best-esim-japan-2026.html",
@@ -1603,6 +1609,7 @@ LINKS: dict[str, list[str]] = {
         "articles/tokyo-itinerary-5-days.html",
     ],
     "articles/osaka-3-day-guide.html": [
+        "articles/where-to-stay-for-universal-studios-japan.html",
         "articles/things-to-do-in-osaka.html",
         "articles/osaka-first-timers-guide.html",
         "articles/osaka-or-kyoto-where-to-base.html",
@@ -1768,6 +1775,7 @@ LINKS: dict[str, list[str]] = {
         "articles/getting-around-sydney.html",
     ],
     "articles/where-to-stay-in-osaka.html": [
+        "articles/where-to-stay-for-universal-studios-japan.html",
         "articles/where-to-stay-in-japan.html",
         "articles/osaka-or-kyoto-where-to-base.html",
         "articles/osaka-3-day-guide.html",
@@ -1775,6 +1783,14 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-stay-in-kyoto.html",
         "articles/best-esim-japan-2026.html",
         "articles/where-to-stay-in-tokyo.html",
+    ],
+    "articles/where-to-stay-for-universal-studios-japan.html": [
+        "articles/where-to-stay-in-osaka.html",
+        "articles/things-to-do-in-osaka.html",
+        "articles/osaka-3-day-guide.html",
+        "articles/osaka-or-kyoto-where-to-base.html",
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
         "articles/where-to-stay-in-tokyo.html",
