@@ -1,0 +1,303 @@
+{
+ "place": "South Korea",
+ "facts": [
+  {
+   "id": "kr.keta.exemption-2026",
+   "topic": "entry",
+   "claim": "Korea's Ministry of Justice has extended the temporary K-ETA exemption for 22 countries and regions (including the United States, Canada, the United Kingdom, Australia, New Zealand and Japan) to 31 December 2026; travellers without a K-ETA complete an arrival card instead.",
+   "sources": [
+    {
+     "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707",
+     "kind": "official",
+     "title": "K-ETA: temporary exemption extended to 31 December 2026"
+    },
+    {
+     "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=177&vcontsId=251923",
+     "kind": "official",
+     "title": "VisitKorea: K-ETA exemption period extended until 2026"
+    }
+   ],
+   "checked": "2026-10-07",
+   "recheck_days": 60,
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "to 31 December 2026"
+    ],
+    "articles/do-you-need-keta-south-korea.html": [
+     "through 31 December 2026"
+    ]
+   },
+   "note": "Watch for a decision on 2027 in Q4 2026."
+  },
+  {
+   "id": "kr.vat-refund.accommodation",
+   "topic": "tax",
+   "recheck_days": 90,
+   "claim": "Korea refunds the VAT on room charges for up to 30 nights (breakfast included only if in the room rate; not service charges) to foreign individual tourists (not package groups) staying under 6 months and leaving within 3 months, at accommodation designated under the special provision; the culture ministry designates hotels quarterly.",
+   "sources": [
+    {
+     "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=489&vcontsId=248765",
+     "kind": "official",
+     "title": "VisitKorea: comprehensive tax refund guide (accommodation)"
+    },
+    {
+     "url": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pSeq=1636&pDataCD=0417000000&pType=05",
+     "kind": "official",
+     "title": "MCST: quarterly designation of hotels for the accommodation VAT refund"
+    },
+    {
+     "url": "https://www.newspim.com/news/view/20260807000669",
+     "kind": "news",
+     "title": "Newspim: 2026 tax reform proposal would end the scheme on 30 June 2027 (7 August 2026)"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "for up to 30 nights",
+     "Designations change each quarter"
+    ]
+   },
+   "note": "The government's 2026 tax reform proposal moves the end date from 31 December 2028 to 30 June 2027; recheck when the National Assembly passes the bill."
+  },
+  {
+   "id": "kr.busan.gimhae-limousine",
+   "topic": "fare",
+   "claim": "Gimhae Airport limousine buses leave from platform 3, first floor, of both terminals and take credit cards only: to Haeundae/Gijang ₩9,500, first 07:10, last 21:40, about every 60 minutes, stopping at Park Hyatt Busan, Dongbaekseom entrance and Haeundae Beach; to Seomyeon/Bujeon ₩6,000, first 07:20, last 21:30, about every 70 minutes, stopping at Seomyeon Station (Lotte Hotel).",
+   "sources": [
+    {
+     "url": "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?MENU_ID=110",
+     "kind": "official",
+     "title": "Gimhae International Airport: public transport"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "₩9,500",
+     "₩6,000",
+     "first 7.10am, last 9.40pm"
+    ]
+   }
+  },
+  {
+   "id": "kr.busan.bgl-transfers",
+   "topic": "transport",
+   "claim": "The Busan-Gimhae Light Rail Transit serves Gimhae Airport and connects with Busan Metro line 2 at Sasang and line 3 at Daejeo.",
+   "sources": [
+    {
+     "url": "https://www.bglrt.com/00214/00289.web",
+     "kind": "operator",
+     "title": "Busan-Gimhae Light Rail Transit: directions with transfers"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "meets the subway at Sasang, on line 2, and Daejeo, on line 3"
+    ]
+   }
+  },
+  {
+   "id": "kr.busan.fireworks-2026",
+   "topic": "stat",
+   "recheck_days": 30,
+   "claim": "The 21st Busan Fireworks Festival is on Saturday 7 November 2026 at Gwangalli Beach, Igidae and Dongbaekseom; paid seats are sold through NOL Ticket from 4 September 14:00 to 6 November 17:00.",
+   "sources": [
+    {
+     "url": "https://busanfireworks.com/content/overview_en",
+     "kind": "official",
+     "title": "Busan Fireworks Festival: overview"
+    },
+    {
+     "url": "https://busanfireworks.com/reservation_en",
+     "kind": "official",
+     "title": "Busan Fireworks Festival: tickets"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "Saturday 7 November 2026",
+     "until 5pm on 6 November"
+    ]
+   },
+   "note": "Programme times and road closures were not posted on 7 October 2026; add them if they appear."
+  },
+  {
+   "id": "kr.busan.drone-show",
+   "topic": "stat",
+   "recheck_days": 120,
+   "claim": "Suyeong-gu runs the Gwangalli M Drone Light Show every Saturday evening over Gwangalli Beach with about 1,100 drones, at 19:00 and 21:00 from October to February.",
+   "sources": [
+    {
+     "url": "https://www.gwangallimdrone.co.kr/",
+     "kind": "official",
+     "title": "Gwangalli M Drone Light Show"
+    },
+    {
+     "url": "https://www.busan.com/view/busan/view.php?code=2026092817364959114",
+     "kind": "news",
+     "title": "Busan Ilbo: the October 2026 shows (28 September 2026)"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "every Saturday evening",
+     "at 7pm and 9pm from October to February"
+    ]
+   },
+   "note": "Summer times (March to September) are later; recheck in March 2027."
+  },
+  {
+   "id": "kr.busan.hotel.signiel",
+   "topic": "hotel",
+   "claim": "Signiel Busan is in the LCT tower at the eastern end of Haeundae Beach (30 Dalmaji-gil) and opened in June 2020.",
+   "sources": [
+    {
+     "url": "https://www.lottehotel.com/busan-signiel/en/hotel-offers/packages/2020-03/grand-opening.html",
+     "kind": "operator",
+     "title": "Signiel Busan: grand opening package, June–July 2020"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "opened in June 2020"
+    ]
+   }
+  },
+  {
+   "id": "kr.busan.hotel.westin-josun",
+   "topic": "hotel",
+   "claim": "The Westin Josun Busan stands between Haeundae Beach and Dongbaek Island (67 Dongbaek-ro).",
+   "sources": [
+    {
+     "url": "https://josunhotel.com/hotel/westinBusan.do",
+     "kind": "operator",
+     "title": "The Westin Josun Busan"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "Between the western end of the beach and Dongbaek Island"
+    ]
+   }
+  },
+  {
+   "id": "kr.busan.hotel.park-hyatt",
+   "topic": "hotel",
+   "claim": "Park Hyatt Busan is in Marine City (51 Marine City 1-ro), within walking distance of Haeundae Beach, and is a stop on the Gimhae Airport limousine to Haeundae.",
+   "sources": [
+    {
+     "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+     "kind": "operator",
+     "title": "Park Hyatt Busan"
+    },
+    {
+     "url": "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?MENU_ID=110",
+     "kind": "official",
+     "title": "Gimhae International Airport: limousine stops"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "In Marine City, west of Dongbaek Island"
+    ]
+   }
+  },
+  {
+   "id": "kr.busan.hotel.grand-josun",
+   "topic": "hotel",
+   "claim": "Grand Josun Busan is on Haeundaehaebyeon-ro, ten minutes' walk from Haeundae Station exits 3 and 5.",
+   "sources": [
+    {
+     "url": "https://gjb.josunhotel.com/about/aboutUs.do",
+     "kind": "operator",
+     "title": "Grand Josun Busan: location"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "ten minutes' walk from exits 3 and 5 of Haeundae Station"
+    ]
+   }
+  },
+  {
+   "id": "kr.busan.hotel.shilla-stay-haeundae",
+   "topic": "hotel",
+   "claim": "Shilla Stay Haeundae's standard rooms are 28 m², on the 3rd to 8th floors, with city or ocean views; parking is free during the stay.",
+   "sources": [
+    {
+     "url": "https://m.shillastay.com/haeundae/accommodation/viewAccLng.do?contId=ST",
+     "kind": "operator",
+     "title": "Shilla Stay Haeundae: standard rooms"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "Standard rooms of 28 m² on the third to eighth floors"
+    ]
+   }
+  },
+  {
+   "id": "kr.busan.hotel.kent-gwangalli",
+   "topic": "hotel",
+   "claim": "Kent Hotel Gwangalli by Kensington is on Gwanganhaebyeon-ro, with ocean-view rooms facing Gwangan Bridge and a top-floor lounge with views of the bridge.",
+   "sources": [
+    {
+     "url": "https://www.kensington.co.kr/hga",
+     "kind": "operator",
+     "title": "Kent Hotel Gwangalli by Kensington (rooms, top-floor front lounge facing Gwangan Bridge, 2026 fireworks package)"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "ocean-view rooms facing Gwangan Bridge"
+    ]
+   }
+  },
+  {
+   "id": "kr.busan.hotel.toyoko-seomyeon",
+   "topic": "hotel",
+   "claim": "Toyoko Inn Busan Seomyeon is about seven minutes' walk from Seomyeon Station (exit 10, then exit 8).",
+   "sources": [
+    {
+     "url": "https://www.toyoko-inn.com/eng/search/detail/00221/access/",
+     "kind": "operator",
+     "title": "Toyoko Inn Busan Seomyeon: directions"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "About seven minutes' walk from Seomyeon Station"
+    ]
+   }
+  },
+  {
+   "id": "kr.busan.hotel.toyoko-busan-station",
+   "topic": "hotel",
+   "claim": "Toyoko Inn Busan Station No.1 is a 1-minute walk from KTX Busan Station and 2 minutes from Busan Station on subway line 1.",
+   "sources": [
+    {
+     "url": "https://www.toyoko-inn.com/eng/search/detail/00194/",
+     "kind": "operator",
+     "title": "Toyoko Inn Busan Station No.1"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-busan.html": [
+     "A minute's walk from the KTX station and two from Busan Station on line 1"
+    ]
+   }
+  }
+ ]
+}

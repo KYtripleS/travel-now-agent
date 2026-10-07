@@ -1,5 +1,5 @@
 {
- "count": 58,
+ "count": 60,
  "pins": [
   {
    "id": 1001,
@@ -522,6 +522,24 @@
    "title": "Tofuku-ji in Autumn: Fees, Hours and Where to Stay in Kyoto",
    "description": "Tofuku-ji's Tsuten-kyo bridge costs ¥1,000 in its autumn period, against ¥600 the rest of the year, and opens half an hour early, at 8.30am. The temple is one stop from Kyoto Station on the JR Nara line, so the station hotels are the closest base. Part of our guide to where to stay in Kyoto for the autumn leaves.",
    "board": "Japan Travel Guides"
+  },
+  {
+   "id": 1059,
+   "slug": "busan-stay-f1",
+   "image": "https://gentlyyonder.com/images/pinterest/fresh/busan-stay-f1.jpg",
+   "link": "https://gentlyyonder.com/articles/where-to-stay-in-busan.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
+   "title": "Where to Stay in Busan: Haeundae, Gwangalli or Seomyeon, and 9 Hotels",
+   "description": "Haeundae puts the beach at the door and the airport limousine along it; Gwangalli faces Gwangan Bridge, with a drone show over the water on Saturday nights; Seomyeon is where subway lines 1 and 2 cross; and Busan Station has the KTX. Nine hotels by area, with the airport transfers and the VAT refund on rooms at designated hotels.",
+   "board": "Asia Travel"
+  },
+  {
+   "id": 1060,
+   "slug": "busan-gwangalli-f1",
+   "image": "https://gentlyyonder.com/images/pinterest/fresh/busan-gwangalli-f1.jpg",
+   "link": "https://gentlyyonder.com/articles/where-to-stay-in-busan.html?utm_source=pinterest&utm_medium=pin&utm_campaign=fresh",
+   "title": "Staying in Gwangalli, Busan: Bridge Views and the Saturday Drone Show",
+   "description": "Gwangalli Beach faces Gwangan Bridge across the bay, and Suyeong district runs a drone show over the water every Saturday evening. Line 2 runs east to Haeundae and west to Seomyeon. Only the sea-facing rooms look at the bridge, so check the view when you book. Part of our Busan guide.",
+   "board": "Asia Travel"
   }
  ]
 }

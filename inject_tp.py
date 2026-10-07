@@ -344,6 +344,8 @@ REGISTRY: dict[str, str] = {
         "Before you land in Fukuoka", ["klook", "kkday", "airalo"]),
     "articles/where-to-stay-in-kyoto-autumn-leaves.html": cta(
         "Before you land in Kyoto", ["klook", "kkday", "airalo"]),
+    "articles/where-to-stay-in-busan.html": cta(
+        "Before you land in Busan", ["klook", "kkday", "airalo"]),
     "articles/where-to-stay-in-sapporo-snow-festival.html": cta(
         "Before you land in Sapporo", ["klook", "kkday", "airalo"]),
     "articles/where-to-stay-in-sydney-new-years-eve.html": hub(

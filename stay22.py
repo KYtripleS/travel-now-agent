@@ -101,6 +101,8 @@ PAGES = {
                                      address="Hakata Station, Fukuoka, Japan"),
     "where-to-stay-in-kyoto-autumn-leaves": dict(area="Okazaki", lat=35.0128, lng=135.7838, zoom=15,
                                                  address="Heian Shrine, Kyoto, Japan"),
+    "where-to-stay-in-busan": dict(area="Haeundae", lat=35.1587, lng=129.1604, zoom=14,
+                                   address="Haeundae Beach, Busan, South Korea"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -202,6 +204,16 @@ HOTELS = {
     "ONE FUKUOKA HOTEL": _B + "jp/one-fukuoka.html",
     "Candeo Hotels Fukuoka Tenjin": _B + "jp/candeo-hotels-fukuoka-tenjin.html",
     "Hilton Fukuoka Sea Hawk": _B + "jp/hilton-fukuoka-sea-hawk.html",
+    # Busan (each page fetched from a booking.com tab, 2026-10-07; addresses match the hotels' own sites)
+    "Signiel Busan": _B + "kr/signiel-busan.html",
+    "The Westin Josun Busan": _B + "kr/the-westin-chosun-busan.html",
+    "Park Hyatt Busan": _B + "kr/park-hyatt-busan.html",
+    "Grand Josun Busan": _B + "kr/grand-josun-busan.html",
+    "Shilla Stay Haeundae": _B + "kr/shilla-stay-haeundae.html",
+    "Kent Hotel Gwangalli by Kensington": _B + "kr/kent-gwangalli.html",
+    "Lotte Hotel Busan": _B + "kr/lotte-busan.html",
+    "Toyoko Inn Busan Seomyeon": _B + "kr/toyoko-inn-seomyeon.html",
+    "Toyoko Inn Busan Station No.1": _B + "kr/toyoko-inn-busan-no-1.html",
     # Melbourne
     "Park Hyatt Melbourne": _B + "au/park-hyatt-melbourne.html",
     "The Ritz-Carlton, Melbourne": _B + "au/the-ritz-carlton-melbourne.html",

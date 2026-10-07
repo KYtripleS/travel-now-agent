@@ -370,6 +370,13 @@ V = {
              "last ten days of November, on a refundable rate.",
         link_text="Okazaki, near Nanzen-ji",
         cta=_stay_cta("where-to-stay-in-kyoto-autumn-leaves", "See hotels around Okazaki")),
+    "where-to-stay-in-busan": dict(
+        text="For a first trip, stay in Haeundae: the beach is at the door, the airport limousine runs along it, "
+             "and subway line 2 runs west to Gwangalli and Seomyeon. Choose Gwangalli for Gwangan Bridge, the "
+             "Saturday drone show and the fireworks on 7 November 2026, Seomyeon for the subway hub, and Busan "
+             "Station for the KTX.",
+        link_text="Haeundae",
+        cta=_stay_cta("where-to-stay-in-busan", "See hotels around Haeundae")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1088,6 +1095,7 @@ QUICK_PICKS = {
     "where-to-stay-in-fukuoka": ["Miyako Hotel Hakata", "Hotel Nikko Fukuoka", "JR Kyushu Hotel Blossom Hakata Central"],
     "where-to-stay-in-kyoto-autumn-leaves": ["The Westin Miyako Kyoto", "Hotel Okura Kyoto Okazaki Bettei",
                                              "Cross Hotel Kyoto"],
+    "where-to-stay-in-busan": ["Signiel Busan", "Grand Josun Busan", "Shilla Stay Haeundae"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1169,6 +1177,7 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Seoul", "where-to-stay-in-seoul", None, None),
+        ("Busan", "where-to-stay-in-busan", None, None),
         ("Bangkok", "where-to-stay-in-bangkok", None, None),
         ("Hong Kong", "where-to-stay-in-hong-kong", None, None),
         ("Taipei", "where-to-stay-in-taipei", None, None),
@@ -1240,6 +1249,7 @@ _SP = "where-to-stay-in-sapporo-snow-festival.html"
 _NS = "where-to-stay-in-niseko.html"
 _FK = "where-to-stay-in-fukuoka.html"
 _KA = "where-to-stay-in-kyoto-autumn-leaves.html"
+_BS = "where-to-stay-in-busan.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1340,6 +1350,9 @@ STAY_POINTERS = {
     "japan-book-in-advance-2026": ("Authentic Stays",
         f'For named ryokan in Kyoto, including Tawaraya and Hiiragiya, see <a href="{_K}">Where to stay in '
         'Kyoto</a>.'),
+    "where-to-stay-in-seoul": ("intro",
+        f'Going on to Busan? <a href="{_BS}">Where to stay in Busan</a> compares Haeundae, Gwangalli, Seomyeon '
+        'and Busan Station, and names nine hotels.'),
     "where-to-stay-in-japan": ("When to book",
         f'Booking Fukuoka for a stay by 15 December? <a href="{_FK}#the-kyushu-recovery-discount-to-15-december-2026">'
         'Our Fukuoka guide</a> explains the Kyushu recovery discount, half off on the Japanese booking sites in '
@@ -1403,10 +1416,12 @@ STAY_POINTERS = {
         'names 12 hotels.'),
     "how-much-does-south-korea-cost": ("Accommodation",
         f'Pricing the beds in Seoul? <a href="{_SE}">Where to stay in Seoul</a> names 12 hotels by area, from a '
-        'mid-range base in Myeongdong to Signiel on the 76th floor and up.'),
+        'mid-range base in Myeongdong to Signiel on the 76th floor and up. For Busan, <a '
+        f'href="{_BS}">where to stay in Busan</a> names nine, from Haeundae to Busan Station.'),
     "korail-pass-worth-it-2026": ("How to decide",
         f'Catching an early KTX? <a href="{_SE}#seoul-station-and-itaewon-trains-then-dinner">Where to stay in '
-        'Seoul</a> names a hotel linked to Seoul Station by an underground passage.'),
+        'Seoul</a> names a hotel linked to Seoul Station by an underground passage. Arriving in Busan? <a '
+        f'href="{_BS}#busan-station-the-ktx-and-the-old-port">Where to stay in Busan</a> names a hotel a minute from the KTX.'),
     # Melbourne
     "melbourne-airport-to-city": ("The SkyBus",
         f'Southern Cross sits on the edge of the CBD. <a href="{_M}#the-cbd-the-grid-the-'

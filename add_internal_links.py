@@ -555,6 +555,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in Singapore",
         "Five areas and 12 hotels, from Raffles of 1887 to a compact room on Orchard Road, and what \"++\" adds to the bill.",
     ),
+    "articles/where-to-stay-in-busan.html": (
+        "Where to Stay in Busan",
+        "Haeundae, Gwangalli, Seomyeon or Busan Station: nine hotels, the airport limousines, the drone show and the 2026 fireworks.",
+    ),
     "articles/where-to-stay-in-kyoto-autumn-leaves.html": (
         "Where to Stay in Kyoto for Autumn Leaves",
         "The weeks to aim for, the 2026 openings and fees at Eikan-do, Tofuku-ji and Kodai-ji, five areas and 12 hotels.",
@@ -1022,6 +1026,7 @@ LINKS: dict[str, list[str]] = {
         "cities/tokyo/index.html",
     ],
     "articles/south-korea-country-profile.html": [
+        "articles/where-to-stay-in-busan.html",
         "articles/do-you-need-keta-south-korea.html",
         "articles/staying-connected-south-korea.html",
         "articles/travel-insurance-south-korea.html",
@@ -1271,6 +1276,7 @@ LINKS: dict[str, list[str]] = {
         "articles/how-much-does-japan-cost.html",
     ],
     "articles/korail-pass-worth-it-2026.html": [
+        "articles/where-to-stay-in-busan.html",
         "articles/how-much-does-south-korea-cost.html",
         "articles/do-you-need-keta-south-korea.html",
         "articles/best-esim-south-korea-2026.html",
@@ -1319,6 +1325,7 @@ LINKS: dict[str, list[str]] = {
         "articles/south-korea-country-profile.html",
     ],
     "articles/how-much-does-south-korea-cost.html": [
+        "articles/where-to-stay-in-busan.html",
         "articles/how-much-does-japan-cost.html",
         "articles/how-to-save-money-on-international-travel.html",
         "articles/do-you-need-keta-south-korea.html",
@@ -1335,6 +1342,7 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-south-korea.html",
     ],
     "articles/do-you-need-keta-south-korea.html": [
+        "articles/where-to-stay-in-busan.html",
         "articles/staying-connected-south-korea.html",
         "articles/travel-insurance-south-korea.html",
         "articles/how-much-does-south-korea-cost.html",
@@ -1692,6 +1700,7 @@ LINKS: dict[str, list[str]] = {
         "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-seoul.html": [
+        "articles/where-to-stay-in-busan.html",
         "articles/seoul-first-timers-guide.html",
         "articles/things-to-do-in-seoul.html",
         "articles/how-much-does-south-korea-cost.html",
@@ -1758,6 +1767,15 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-stay-in-kyoto.html",
         "articles/best-esim-japan-2026.html",
         "articles/where-to-stay-in-tokyo.html",
+    ],
+    "articles/where-to-stay-in-busan.html": [
+        "articles/where-to-stay-in-seoul.html",
+        "articles/korail-pass-worth-it-2026.html",
+        "articles/do-you-need-keta-south-korea.html",
+        "articles/best-esim-south-korea-2026.html",
+        "articles/how-much-does-south-korea-cost.html",
+        "articles/where-to-stay-in-fukuoka.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
         "articles/kyoto-autumn-2026.html",

@@ -587,6 +587,24 @@ SPECS = [
                      "the year, and opens half an hour early, at 8.30am. The temple is one stop from Kyoto Station "
                      "on the JR Nara line, so the station hotels are the closest base. Part of our guide to where "
                      "to stay in Kyoto for the autumn leaves."),
+    dict(id=1059, slug="busan-stay-f1", article="articles/where-to-stay-in-busan.html",
+         board=ASIA, photo=17967670, title="BUSAN", tagline="where to stay",
+         bullets=["Haeundae: the beach", "Gwangalli: the bridge", "Seomyeon: the subway hub",
+                  "9 hotels in four areas"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Busan: Haeundae, Gwangalli or Seomyeon, and 9 Hotels",
+         description="Haeundae puts the beach at the door and the airport limousine along it; Gwangalli faces "
+                     "Gwangan Bridge, with a drone show over the water on Saturday nights; Seomyeon is where "
+                     "subway lines 1 and 2 cross; and Busan Station has the KTX. Nine hotels by area, with the "
+                     "airport transfers and the VAT refund on rooms at designated hotels."),
+    dict(id=1060, slug="busan-gwangalli-f1", article="articles/where-to-stay-in-busan.html",
+         board=ASIA, photo=27260714, title="GWANGALLI", tagline="Busan's bridge-view beach",
+         bullets=["Faces Gwangan Bridge", "Drone show on Saturdays", "Line 2 to Haeundae",
+                  "Ask for an ocean-view room"], cta="Where to stay →",
+         pin_title="Staying in Gwangalli, Busan: Bridge Views and the Saturday Drone Show",
+         description="Gwangalli Beach faces Gwangan Bridge across the bay, and Suyeong district runs a drone "
+                     "show over the water every Saturday evening. Line 2 runs east to Haeundae and west to "
+                     "Seomyeon. Only the sea-facing rooms look at the bridge, so check the view when you book. "
+                     "Part of our Busan guide."),
 ]
 
 
