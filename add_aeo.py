@@ -377,6 +377,13 @@ V = {
              "Station for the KTX.",
         link_text="Haeundae",
         cta=_stay_cta("where-to-stay-in-busan", "See hotels around Haeundae")),
+    "where-to-stay-in-tokyo-autumn-leaves": dict(
+        text="For the autumn leaves, stay in Shinjuku: Shinjuku Gyoen is ten minutes from the South Exit, and the "
+             "Jingu Gaien ginkgo avenue is a short ride. Choose Shibuya for the ginkgo avenue, Ueno for Rikugien's "
+             "evening opening from 25 November, and Marunouchi for the ginkgo outside Tokyo Station. Aim for late "
+             "November, on a refundable rate.",
+        link_text="Shinjuku",
+        cta=_stay_cta("where-to-stay-in-tokyo-autumn-leaves", "See hotels around Shinjuku Station")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1096,6 +1103,8 @@ QUICK_PICKS = {
     "where-to-stay-in-kyoto-autumn-leaves": ["The Westin Miyako Kyoto", "Hotel Okura Kyoto Okazaki Bettei",
                                              "Cross Hotel Kyoto"],
     "where-to-stay-in-busan": ["Signiel Busan", "Grand Josun Busan", "Shilla Stay Haeundae"],
+    "where-to-stay-in-tokyo-autumn-leaves": ["Park Hyatt Tokyo", "JR Kyushu Hotel Blossom Shinjuku",
+                                             "Hotel Gracery Shinjuku"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1250,6 +1259,7 @@ _NS = "where-to-stay-in-niseko.html"
 _FK = "where-to-stay-in-fukuoka.html"
 _KA = "where-to-stay-in-kyoto-autumn-leaves.html"
 _BS = "where-to-stay-in-busan.html"
+_TA = "where-to-stay-in-tokyo-autumn-leaves.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1319,8 +1329,8 @@ STAY_POINTERS = {
         'open-air bath.'),
     "things-to-do-in-tokyo": ("intro",
         f'Where you sleep shapes these days as much as what you book. <a href="{_T}">Where to stay in Tokyo</a> '
-        'compares six areas, from Shinjuku to Asakusa, and names 17 hotels; in cherry season, <a '
-        f'href="{_TS}">our cherry-blossom guide</a> matches five areas to the parks and rivers.'),
+        f'compares six areas, from Shinjuku to Asakusa, and names 17 hotels; our guides to <a href="{_TS}">the '
+        f'cherry blossom</a> and <a href="{_TA}">the autumn leaves</a> match the areas to the seasons.'),
     "tokyo-itinerary-5-days": ("Getting Settled",
         f'Choosing a base for these five days? <a href="{_T}">Where to stay in Tokyo</a> compares six areas, '
         'including Asakusa, Ueno and Shinjuku, and names 17 hotels.'),
@@ -1345,11 +1355,14 @@ STAY_POINTERS = {
         f'and <a href="{_NS}">our Niseko guide</a> does for the ski season.'),
     "japan-autumn-2026": ("Flights and Stays",
         f'For where to sleep, <a href="{_JP}">where to stay in Japan on a first trip</a> splits the nights between '
-        f'cities, and our guides to {_JP3} name the hotels. For Kyoto in late November, <a href="{_KA}">our '
-        'autumn-leaves guide</a> has the 2026 temple openings and fees.'),
+        f'cities, and our guides to {_JP3} name the hotels. For late November, our autumn-leaves guides to <a '
+        f'href="{_KA}">Kyoto</a> and <a href="{_TA}">Tokyo</a> have the 2026 openings and fees.'),
     "japan-book-in-advance-2026": ("Authentic Stays",
         f'For named ryokan in Kyoto, including Tawaraya and Hiiragiya, see <a href="{_K}">Where to stay in '
         'Kyoto</a>.'),
+    "where-to-stay-in-kyoto-autumn-leaves": ("intro",
+        f'Starting in Tokyo? <a href="{_TA}">Where to stay in Tokyo for the autumn leaves</a> matches four areas '
+        "to the ginkgo avenue and the gardens, with Rikugien's 2026 evening opening."),
     "where-to-stay-in-seoul": ("intro",
         f'Going on to Busan? <a href="{_BS}">Where to stay in Busan</a> compares Haeundae, Gwangalli, Seomyeon '
         'and Busan Station, and names nine hotels.'),
@@ -1364,7 +1377,8 @@ STAY_POINTERS = {
     "where-to-stay-in-tokyo": ("intro",
         f'Splitting the trip between cities? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers '
         'how many nights to give Tokyo, Kyoto and Osaka, and moving day in between. Coming for the cherry '
-        f'blossom? <a href="{_TS}">Our cherry-blossom guide</a> has the dates and the tax change on 1 April 2027.'),
+        f'blossom? <a href="{_TS}">Our cherry-blossom guide</a> has the dates and the tax change on 1 April 2027; '
+        f'for late November, <a href="{_TA}">our autumn-leaves guide</a> has the 2026 garden openings.'),
     "where-to-stay-in-kyoto": ("intro",
         f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
         'give each city, and how to move your bags between them. Here for the autumn leaves? <a '

@@ -54,6 +54,9 @@
     ],
     "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
      "¥3,000 departure tax"
+    ],
+    "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
+     "¥3,000 departure tax"
     ]
    },
    "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
@@ -245,6 +248,9 @@
     "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
      "Since 1 March 2026",
      "¥10,000"
+    ],
+    "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
+     "up to ¥10,000/night"
     ]
    },
    "watch": "(?i)kyoto[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥",
@@ -516,6 +522,9 @@
     "articles/where-to-stay-in-japan.html": [
      "¥100 on rooms from ¥10,000 to ¥14,999",
      "¥200 from ¥15,000"
+    ],
+    "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
+     "¥100 a person a night on rooms of ¥10,000 to ¥14,999"
     ]
    },
    "watch": "Tokyo[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
@@ -685,6 +694,9 @@
      "Entry for adults is ¥500",
      "alcohol is not allowed",
      "ten-minute walk from the South Exit"
+    ],
+    "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
+     "ten-minute walk from the South Exit"
     ]
    }
   },
@@ -705,6 +717,9 @@
      "reopened on 9 December 2025"
     ],
     "articles/where-to-stay-in-tokyo.html": [
+     "reopened on 9 December 2025"
+    ],
+    "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
      "reopened on 9 December 2025"
     ]
    }
@@ -1879,6 +1894,141 @@
      "¥800"
     ]
    }
+  },
+  {
+   "id": "jp.tokyo.autumn-phenology",
+   "topic": "stat",
+   "claim": "Tokyo's sample ginkgo yellowed on 22 November 2025 (1 day before its 1991–2020 normal, so normal 23 November; 11 days earlier than 2024, i.e. 3 December 2024) and its sample maple coloured on 23 November 2025 (5 days before normal, so normal 28 November; 10 days earlier than 2024, i.e. 3 December 2024).",
+   "sources": [
+    {
+     "url": "https://www.data.jma.go.jp/sakura/data/phn_012.html",
+     "kind": "official",
+     "title": "JMA: ginkgo yellowing dates 2025–2026"
+    },
+    {
+     "url": "https://www.data.jma.go.jp/sakura/data/phn_014.html",
+     "kind": "official",
+     "title": "JMA: maple colouring dates 2025–2026"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
+     "turns yellow on 23 November",
+     "turns red on 28 November",
+     "both waited until 3 December"
+    ]
+   },
+   "note": "Normals and 2024 dates are derived from the 2025 dates and the published differences. Add the 2026 dates when JMA posts them."
+  },
+  {
+   "id": "jp.tokyo.autumn-forecast-2026",
+   "topic": "stat",
+   "recheck_days": 21,
+   "claim": "The Japan Weather Association's first 2026 autumn-leaf forecast (1 October 2026) gives the Jingu Gaien ginkgo avenue late November to early December (usual: mid-November to early December), Rikugien early to mid-December (usual: late November to mid-December) and Koishikawa Korakuen early December (usual: late November to early December); Ueno Park's usual best is mid-November to early December.",
+   "sources": [
+    {
+     "url": "https://tenki.jp/kouyou/expectation.html",
+     "kind": "publisher",
+     "title": "Japan Weather Association: 2026 forecast, first edition"
+    },
+    {
+     "url": "https://tenki.jp/kouyou/3/16/30688.html",
+     "kind": "publisher",
+     "title": "tenki.jp: Meiji Jingu Gaien"
+    },
+    {
+     "url": "https://tenki.jp/kouyou/3/16/30125.html",
+     "kind": "publisher",
+     "title": "tenki.jp: Rikugien"
+    },
+    {
+     "url": "https://tenki.jp/kouyou/3/16/30119.html",
+     "kind": "publisher",
+     "title": "tenki.jp: Koishikawa Korakuen"
+    },
+    {
+     "url": "https://tenki.jp/kouyou/3/16/32201.html",
+     "kind": "publisher",
+     "title": "tenki.jp: Ueno Park"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
+     "Late November to early December",
+     "Early to mid-December"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.rikugien-autumn-2026",
+   "topic": "price",
+   "claim": "Rikugien's 2026 autumn evening opening runs 25 November to 6 December, 18:00–20:30 (last entry 19:30); advance tickets ¥1,000 (online only), same-day ¥1,200 (online and at the gate); daily numbers are limited.",
+   "sources": [
+    {
+     "url": "https://www.tokyo-park.or.jp/park/rikugien/news/2026/rikugiengardens.html",
+     "kind": "official",
+     "title": "Tokyo Metropolitan Park Association: Rikugien autumn evening opening 2026 (3 September 2026)"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
+     "25 November to 6 December",
+     "¥1,000 in advance online, ¥1,200 on the day"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.shinjuku-gyoen.autumn",
+   "topic": "price",
+   "claim": "From 1 October to 14 March Shinjuku Gyoen opens 9:00–16:30 (last entry 16:00); it closes on Mondays (the next weekday when Monday is a holiday) and 29 December–3 January, except that it opens every day from 1 to 15 November (chrysanthemum exhibition); adult admission is ¥500, payable by transport IC card at the gates.",
+   "sources": [
+    {
+     "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/information/",
+     "kind": "official",
+     "title": "Ministry of the Environment: Shinjuku Gyoen visitor information"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
+     "closed Mondays except 1 to 15 November",
+     "9am to 4.30pm, last entry 4pm"
+    ]
+   }
+  },
+  {
+   "id": "jp.tokyo.jingu-gaien-ginkgo",
+   "topic": "place",
+   "recheck_days": 30,
+   "claim": "The Jingu Gaien ginkgo avenue is about 300 m of four rows of ginkgo towards the Meiji Memorial Picture Gallery; Tokyo's government has asked the redevelopment's developers in writing to take every care to preserve the four rows. At the start of October 2026 the Gaien had not announced a 2026 ginkgo festival.",
+   "sources": [
+    {
+     "url": "https://www.toshiseibi.metro.tokyo.lg.jp/machizukuri/machi_project/toshi_saisei/saisei07/qa",
+     "kind": "official",
+     "title": "Tokyo Metropolitan Government: Jingu Gaien redevelopment Q&A (question 10)"
+    },
+    {
+     "url": "https://tenki.jp/kouyou/3/16/30688.html",
+     "kind": "publisher",
+     "title": "tenki.jp: Meiji Jingu Gaien (about 300 m)"
+    },
+    {
+     "url": "https://www.meijijingugaien.jp/event/",
+     "kind": "operator",
+     "title": "Meiji Jingu Gaien: events"
+    }
+   ],
+   "checked": "2026-10-07",
+   "used_in": {
+    "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
+     "about 300 metres, four rows of trees deep",
+     "had not announced a 2026 ginkgo festival"
+    ]
+   },
+   "note": "Add the festival dates if the Gaien announces them."
   }
  ]
 }

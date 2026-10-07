@@ -605,6 +605,24 @@ SPECS = [
                      "show over the water every Saturday evening. Line 2 runs east to Haeundae and west to "
                      "Seomyeon. Only the sea-facing rooms look at the bridge, so check the view when you book. "
                      "Part of our Busan guide."),
+    dict(id=1061, slug="tokyo-autumn-stay-f1", article="articles/where-to-stay-in-tokyo-autumn-leaves.html",
+         board=JP, photo=19321377, title="TOKYO", tagline="where to stay for autumn",
+         bullets=["Ginkgo: around 23 Nov", "Maples: around 28 Nov", "Shinjuku Gyoen by the station",
+                  "11 hotels in four areas"], cta="Areas and dates →",
+         pin_title="Where to Stay in Tokyo for the Autumn Leaves: Areas, Dates and Hotels",
+         description="Tokyo's sample ginkgo turns yellow around 23 November and its maple red around 28 November "
+                     "in a normal year. Stay in Shinjuku for Shinjuku Gyoen by the station, Shibuya for the Jingu "
+                     "Gaien ginkgo avenue, Ueno for Rikugien's evening opening, or Marunouchi for the ginkgo "
+                     "outside Tokyo Station. Eleven hotels, with the gardens' hours and fees."),
+    dict(id=1062, slug="tokyo-ginkgo-avenue-f1", article="articles/where-to-stay-in-tokyo-autumn-leaves.html",
+         board=JP, photo=5364879, title="GINKGO", tagline="Tokyo's golden avenue",
+         bullets=["Four rows, about 300 m", "Free to walk", "Two stops from Shibuya",
+                  "Go at first light"], cta="Where to stay →",
+         pin_title="The Jingu Gaien Ginkgo Avenue: When to Go and Where to Stay in Tokyo",
+         description="The Jingu Gaien ginkgo avenue runs for about 300 metres, four rows of trees deep, towards "
+                     "the Meiji Memorial Picture Gallery, and it is free to walk. Gaienmae Station is two stops "
+                     "from Shibuya on the Ginza line, so a Shibuya base lets you be there at first light. Part "
+                     "of our guide to where to stay in Tokyo for the autumn leaves."),
 ]
 
 
