@@ -555,6 +555,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in Singapore",
         "Five areas and 12 hotels, from Raffles of 1887 to a compact room on Orchard Road, and what \"++\" adds to the bill.",
     ),
+    "articles/where-to-stay-in-hakuba.html": (
+        "Where to Stay in Hakuba",
+        "The 2026/27 season and lift prices, six areas from Happo to Cortina, 10 hotels, and the hotel tax since June 2026.",
+    ),
     "articles/where-to-stay-for-universal-studios-japan.html": (
         "Where to Stay for Universal Studios Japan",
         "The seven official hotels, Umeda bases 11 minutes away, two hotels with a free bus, and the 2027 countdown.",
@@ -1461,6 +1465,7 @@ LINKS: dict[str, list[str]] = {
         "articles/where-to-stay-in-kyoto-autumn-leaves.html",
         "articles/where-to-stay-in-fukuoka.html",
         "articles/where-to-stay-in-niseko.html",
+        "articles/where-to-stay-in-hakuba.html",
         "articles/where-to-stay-in-sapporo-snow-festival.html",
         "articles/where-to-stay-in-tokyo-cherry-blossom.html",
         "articles/where-to-stay-in-kyoto-cherry-blossom.html",
@@ -1497,6 +1502,7 @@ LINKS: dict[str, list[str]] = {
     "articles/japan-tourist-taxes-2026.html": [
         "articles/where-to-stay-in-fukuoka.html",
         "articles/where-to-stay-in-niseko.html",
+        "articles/where-to-stay-in-hakuba.html",
         "articles/where-to-stay-in-sapporo-snow-festival.html",
         "articles/is-accommodation-tax-double-taxation.html",
         "articles/does-tourist-tax-reduce-overtourism.html",
@@ -1828,7 +1834,17 @@ LINKS: dict[str, list[str]] = {
         "articles/hotel-booking-sites-comparison.html",
         "articles/where-to-stay-in-osaka.html",
     ],
+    "articles/where-to-stay-in-hakuba.html": [
+        "articles/where-to-stay-in-niseko.html",
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/best-time-to-visit-japan-2026.html",
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-stay-in-japan.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
     "articles/where-to-stay-in-niseko.html": [
+        "articles/where-to-stay-in-hakuba.html",
         "articles/where-to-stay-in-sapporo-snow-festival.html",
         "articles/japan-tourist-taxes-2026.html",
         "articles/best-time-to-visit-japan-2026.html",
@@ -1838,6 +1854,7 @@ LINKS: dict[str, list[str]] = {
     ],
     "articles/where-to-stay-in-sapporo-snow-festival.html": [
         "articles/where-to-stay-in-niseko.html",
+        "articles/where-to-stay-in-hakuba.html",
         "articles/best-time-to-visit-japan-2026.html",
         "articles/japan-tourist-taxes-2026.html",
         "articles/where-to-stay-in-tokyo.html",

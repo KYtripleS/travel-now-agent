@@ -391,6 +391,13 @@ V = {
              "park.",
         link_text="stay at Universal City",
         cta=_stay_cta("where-to-stay-for-universal-studios-japan", "See hotels at Universal City")),
+    "where-to-stay-in-hakuba": dict(
+        text="For a first ski trip, stay in Happo: the hotels and lodges of Wadano are a short walk from the "
+             "Happo-one gondola and the village. Choose Echoland for restaurants, Goryu for beginner slopes and "
+             "night skiing from 21 November, and Norikura or Cortina for ski-in, ski-out. Hakuba Village now taxes "
+             "stays, up to ¥1,900 a person a night.",
+        link_text="Happo",
+        cta=_stay_cta("where-to-stay-in-hakuba", "See hotels around Happo")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -619,7 +626,7 @@ REVISED = {
     "narita-haneda-to-central-tokyo": "2026-09-27",              # added Narita <-> Haneda, official fares
     "charter-a-boat-for-a-day": "2026-09-23",                    # Spain 1 Oct 2026, Greece, Croatia
     "where-to-stay-in-tokyo": "2026-09-25",                      # rewrite: 17 verified hotels, tax, tables
-    "japan-tourist-taxes-2026": "2026-10-06",                    # corrected: Niseko is tiered, not a ¥2,000 flat rate; added Hokkaido/Sapporo; added Fukuoka
+    "japan-tourist-taxes-2026": "2026-10-08",                    # corrected: Niseko tiered; Hokkaido/Sapporo; Fukuoka; Nagano's tax began 1 Jun 2026 (Hakuba)
     "hong-kong-first-timers-guide": "2026-10-04",                # corrected: tram fare HK$3.30, not HK$3
     "where-to-stay-in-sydney": "2026-10-05",                     # corrected: Great Southern works now run to 31 Jan 2027
     "is-the-weak-yen-a-bargain-or-trap": "2026-10-06",           # corrected: Himeji's ¥2,500 is for all non-residents; no Niseko foreigner price
@@ -1115,6 +1122,7 @@ QUICK_PICKS = {
     "where-to-stay-for-universal-studios-japan": ["The Singulari Hotel & Skyspa at Universal Studios Japan",
                                                   "The Park Front Hotel at Universal Studios Japan",
                                                   "Hotel Universal Port"],
+    "where-to-stay-in-hakuba": ["Hakuba Tokyu Hotel", "Hotel Stelle Belle", "Hotel Green Plaza Hakuba"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1271,6 +1279,7 @@ _KA = "where-to-stay-in-kyoto-autumn-leaves.html"
 _BS = "where-to-stay-in-busan.html"
 _TA = "where-to-stay-in-tokyo-autumn-leaves.html"
 _US = "where-to-stay-for-universal-studios-japan.html"
+_HB = "where-to-stay-in-hakuba.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1363,7 +1372,7 @@ STAY_POINTERS = {
         f'splits the nights, our guides to {_JP3} name the hotels, and our cherry-blossom guides to <a '
         f'href="{_TS}">Tokyo</a> and <a href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto</a> have the '
         f'dates and the areas by blossom, as <a href="{_SP}">our Sapporo Snow Festival guide</a> does for February '
-        f'and <a href="{_NS}">our Niseko guide</a> does for the ski season.'),
+        f'and our guides to <a href="{_NS}">Niseko</a> and <a href="{_HB}">Hakuba</a> do for the ski season.'),
     "japan-autumn-2026": ("Flights and Stays",
         f'For where to sleep, <a href="{_JP}">where to stay in Japan on a first trip</a> splits the nights between '
         f'cities, and our guides to {_JP3} name the hotels. For late November, our autumn-leaves guides to <a '
@@ -1474,7 +1483,10 @@ STAY_POINTERS = {
         'matches four areas to the fireworks.'),
     "where-to-stay-in-sapporo-snow-festival": ("intro",
         f'Skiing too? <a href="{_NS}">Where to stay in Niseko</a> compares the four resorts and Kutchan town, '
-        'with the 2026/27 season and lift prices.'),
+        f'with the 2026/27 season and lift prices; for Nagano, <a href="{_HB}">our Hakuba guide</a> does the same.'),
+    "where-to-stay-in-niseko": ("intro",
+        f'Skiing in Nagano instead? <a href="{_HB}">Where to stay in Hakuba</a> compares six areas, from Happo to '
+        'Cortina, with the 2026/27 season, the lift pass and the hotel tax that began in June 2026.'),
     "where-to-stay-in-sydney": ("intro",
         f'Coming for New Year\'s Eve? <a href="{_NY}">Where to stay in Sydney for New Year\'s Eve</a> has the '
         'vantage points, their ticket dates and the hotels with harbour rooms.'),

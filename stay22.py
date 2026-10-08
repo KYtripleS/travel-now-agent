@@ -107,6 +107,8 @@ PAGES = {
                                                  address="Shinjuku Station, Tokyo, Japan"),
     "where-to-stay-for-universal-studios-japan": dict(area="Universal City", lat=34.6654, lng=135.4323, zoom=15,
                                                       address="Universal Studios Japan, Osaka, Japan"),
+    "where-to-stay-in-hakuba": dict(area="Happo", lat=36.7015, lng=137.8457, zoom=12,
+                                    address="Hakuba, Nagano, Japan"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -226,6 +228,17 @@ HOTELS = {
     "Hotel Universal Port Vita": _B + "jp/hotel-universal-port-vita.html",
     "Oriental Hotel Universal City": _B + "jp/oriental-universal-city.html",
     "RIHGA Royal Hotel Osaka, Vignette Collection": _B + "jp/rihga-royal-osaka.html",
+    # Hakuba
+    "Hakuba Tokyu Hotel": _B + "jp/hakuba-tokyu.html",
+    "Phoenix Hotel": _B + "jp/the-phoenix-hotel.html",
+    "Morino Lodge Hakuba": None,  # on Booking.com, but no winter rooms there (checked Oct 2026)
+    "Courtyard by Marriott Hakuba": _B + "jp/laforet-club-hakuba-happo.html",
+    "Hotel La Vigne Hakuba by Onko Chishin": _B + "jp/la-vigne-hakuba-by-onko-chishin.html",
+    "Hotel Stelle Belle": _B + "jp/hotel-stelle-belle.html",
+    "B&D HAKUBA IWATAKE": _B + "jp/b-and-d-hakuba-iwatake.html",
+    "Hotel Hakuba Berghaus": _B + "jp/hakuba-berghaus.html",
+    "The Alps Hotel Hakuba": _B + "jp/ziarupusuhoteruhakuba.html",
+    "Hotel Green Plaza Hakuba": _B + "jp/green-plaza-hakuba.html",
     # Melbourne
     "Park Hyatt Melbourne": _B + "au/park-hyatt-melbourne.html",
     "The Ritz-Carlton, Melbourne": _B + "au/the-ritz-carlton-melbourne.html",

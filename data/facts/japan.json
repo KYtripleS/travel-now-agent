@@ -60,6 +60,9 @@
     ],
     "articles/where-to-stay-for-universal-studios-japan.html": [
      "¥3,000 departure tax"
+    ],
+    "articles/where-to-stay-in-hakuba.html": [
+     "the ¥3,000 departure tax"
     ]
    },
    "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
@@ -256,6 +259,9 @@
      "up to ¥10,000/night"
     ],
     "articles/where-to-stay-for-universal-studios-japan.html": [
+     "up to ¥10,000/night"
+    ],
+    "articles/where-to-stay-in-hakuba.html": [
      "up to ¥10,000/night"
     ]
    },
@@ -870,8 +876,8 @@
      "¥12,600"
     ]
    },
-   "watch": "(?i)lift[- ]?(ticket|pass)[^.]{0,100}¥\\s?[\\d,]+|All Mountain Pass[^.]{0,100}¥",
-   "note": "These are the listed prices; online they are lower (¥11,900 regular, ¥12,800 peak, on the HANAZONO page). No price by nationality or residency on the Niseko United, Grand Hirafu, HANAZONO or Annupuri price pages (English and Japanese) or in Niseko Village's 2025-26 price list; the one resident price found is jp.niseko.kutchan-local-pass. Niseko Moiwa is not in Niseko United and was not checked."
+   "watch": "(?i)Niseko[^.]{0,100}lift[- ]?(ticket|pass)[^.]{0,100}¥\\s?[\\d,]+|All Mountain Pass[^.]{0,100}¥",
+   "note": "These are the listed prices; online they are lower (¥11,900 regular, ¥12,800 peak, on the HANAZONO page). No price by nationality or residency on the Niseko United, Grand Hirafu, HANAZONO or Annupuri price pages (English and Japanese) or in Niseko Village's 2025-26 price list; the one resident price found is jp.niseko.kutchan-local-pass. Niseko Moiwa is not in Niseko United and was not checked. Watch narrowed on 2026-10-08 to Niseko sentences, so other ski areas' lift prices (Hakuba) are not flagged."
   },
   {
    "id": "jp.niseko.kutchan-local-pass",
@@ -2209,6 +2215,236 @@
     ]
    },
    "watch": "Osaka[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
+  },
+  {
+   "id": "jp.nagano.accommodation-tax",
+   "topic": "tax",
+   "claim": "Since 1 June 2026 Nagano Prefecture charges an accommodation tax of ¥200 per person per night (¥300 from 1 June 2029) on stays of ¥6,000 or more, room only and before consumption tax; Matsumoto, Karuizawa, Achi, Hakuba and Nozawa Onsen levy their own taxes as well, and the amount there may differ.",
+   "value": {
+    "start": "2026-06-01",
+    "rate_first_3_years": 200,
+    "rate_from_2029_06_01": 300,
+    "exempt_below": 6000
+   },
+   "sources": [
+    {
+     "url": "https://www.pref.nagano.lg.jp/kankoki/syukuhakuzei/zei_gaiyou.html",
+     "kind": "official",
+     "title": "Nagano Prefecture: accommodation tax (updated 21 July 2026)"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-hakuba.html": [
+     "Nagano Prefecture has taxed hotel stays since 1 June 2026",
+     "Otari Village, which has no tax of its own"
+    ],
+    "articles/japan-tourist-taxes-2026.html": [
+     "has charged a prefecture-wide tax since 1 June 2026",
+     "Matsumoto, Karuizawa, Achi, Hakuba and Nozawa Onsen charge their own as well"
+    ]
+   },
+   "watch": "Nagano[^.]{0,80}(accommodation|lodging|hotel) tax[^.]{0,80}¥",
+   "note": "Otari Village (Tsugaike, Norikura, Cortina) is not in the prefecture's list of municipalities with their own tax, so only the prefecture's ¥200 applies there."
+  },
+  {
+   "id": "jp.hakuba.accommodation-tax",
+   "topic": "tax",
+   "claim": "Since 1 June 2026 Hakuba Village charges an accommodation tax, collected together with Nagano Prefecture's ¥100 share, of ¥200 per person per night on room-only prices (before consumption tax) of ¥6,000-19,999, ¥400 from ¥20,000, ¥900 from ¥50,000 and ¥1,900 from ¥100,000, until 31 May 2029; from 1 June 2029 it is ¥300, ¥500, ¥1,000 and ¥2,000, the prefecture's share ¥150.",
+   "value": {
+    "start": "2026-06-01",
+    "bands_to_2029": [
+     200,
+     400,
+     900,
+     1900
+    ],
+    "bands_from_2029": [
+     300,
+     500,
+     1000,
+     2000
+    ],
+    "exempt_below": 6000
+   },
+   "sources": [
+    {
+     "url": "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/zeimuka/kazeigakari/2/syukuhakuzei/13525.html",
+     "kind": "official",
+     "title": "Hakuba Village: accommodation tax"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-hakuba.html": [
+     "Up to ¥1,900 a person a night in Hakuba Village",
+     "From 1 June 2029 Hakuba's become ¥300 to ¥2,000"
+    ],
+    "articles/japan-tourist-taxes-2026.html": [
+     "In Hakuba the two together come to ¥200 to ¥1,900 a night"
+    ]
+   },
+   "watch": "Hakuba[^.]{0,80}¥(1,900|900|400)[^.]{0,40}night"
+  },
+  {
+   "id": "jp.hakuba.valley-pass-2026-27",
+   "topic": "price",
+   "claim": "The Hakuba Valley All-Mountain Day Pass for 2026-27, valid at all ten Hakuba Valley resorts, is ¥11,100 for an adult (13+) and ¥6,400 for a child (6-12) for one day, ¥32,200 for an adult for three days (used within six) and ¥53,400 for five (used within ten); it goes on sale around November on the official webshop, includes the valley shuttle on ski days and is not valid for night skiing.",
+   "value": {
+    "season": "2026-27",
+    "adult_1day": 11100,
+    "child_1day": 6400,
+    "adult_3day": 32200,
+    "adult_5day": 53400
+   },
+   "sources": [
+    {
+     "url": "https://www.hakubavalley.com/en/ticket_en/",
+     "kind": "operator",
+     "title": "Hakuba Valley: lift ticket info, 2026-27"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-hakuba.html": [
+     "¥11,100 for an adult and ¥6,400 for a child for one day",
+     "goes on sale around November"
+    ]
+   },
+   "watch": "Hakuba Valley[^.]{0,80}¥\\s?[\\d,]+"
+  },
+  {
+   "id": "jp.hakuba.happo-one-2026-27",
+   "topic": "price",
+   "claim": "Hakuba Happo-one plans winter operations from 1 December 2026 to 5 May 2027; its adult 1-day ticket is ¥9,800 in the peak season (19 December 2026 to 22 March 2027) and ¥6,400 in the early (1-18 December) and spring (from 23 March) seasons; its autumn early-bird tickets need a My Number card.",
+   "value": {
+    "season": "2026-27",
+    "open": "2026-12-01",
+    "close": "2027-05-05",
+    "adult_1day_peak": 9800,
+    "adult_1day_early_spring": 6400
+   },
+   "sources": [
+    {
+     "url": "https://www.happo-one.jp/en/ticket/",
+     "kind": "operator",
+     "title": "Hakuba Happo-one: tickets and passes, 2026-27"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000022.000150565.html",
+     "kind": "operator",
+     "title": "Happo-one: 2026-27 season and early tickets (PR TIMES, 4 September 2026)"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-hakuba.html": [
+     "plans to run from 1 December 2026 to 5 May 2027",
+     "Peak prices from 19 December to 22 March"
+    ]
+   }
+  },
+  {
+   "id": "jp.hakuba.goryu-opening-2026",
+   "topic": "stat",
+   "recheck_days": 30,
+   "claim": "ABLE Hakuba GORYU opens its 2026-27 season on 21 November 2026, with the Toomi No. 1 lift area; it is the first time Goryu has fixed its opening date in advance, made possible by a new ice snowmaking system.",
+   "sources": [
+    {
+     "url": "https://www.hakubaescal.com/winter-en/information/2026/10/01/opening-date-announced-for-the-2026-27-season/",
+     "kind": "operator",
+     "title": "ABLE Hakuba GORYU: opening date announced for the 2026-27 season (1 October 2026)"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-hakuba.html": [
+     "21 November 2026, on the strength of a new snowmaking system"
+    ]
+   }
+  },
+  {
+   "id": "jp.hakuba.happo-new-gondola-2027",
+   "topic": "stat",
+   "recheck_days": 120,
+   "claim": "Happo-one plans to open a new gondola in December 2027, replacing the Adam gondola (running since 1983): from the Nakiyama area to Usagidaira, 2,180 m long with 652 m of vertical, 6 m/s instead of 4, and 2,400 people an hour instead of 1,350, in 10-person cabins.",
+   "sources": [
+    {
+     "url": "https://www.happo-one.jp/news/36257/",
+     "kind": "operator",
+     "title": "Happo-one: the new gondola for December 2027"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-hakuba.html": [
+     "carry 2,400 people an hour instead of 1,350"
+    ]
+   }
+  },
+  {
+   "id": "jp.hakuba.alps-hotel-reopening",
+   "topic": "hotel",
+   "recheck_days": 30,
+   "claim": "The Hakuba Alps Hotel (opened 1971) at Hakuba Norikura, in Otari Village, reopens as THE ALPS HOTEL HAKUBA on 15 December 2026 after renovation by Plan·Do·See: 159 rooms of 27-100 m², ski-in, ski-out, with hot-spring baths and sauna, a creche, ski rental and a ski school.",
+   "sources": [
+    {
+     "url": "https://thealpshotelhakuba.com/en/",
+     "kind": "operator",
+     "title": "THE ALPS HOTEL HAKUBA: grand opening on 15 December 2026"
+    },
+    {
+     "url": "https://prtimes.jp/main/html/rd/p/000000140.000051750.html",
+     "kind": "operator",
+     "title": "Plan·Do·See: THE ALPS HOTEL HAKUBA to open December 2026 (PR TIMES, 1 April 2026)"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-hakuba.html": [
+     "reopens on 15 December 2026"
+    ]
+   }
+  },
+  {
+   "id": "jp.hakuba.alpico-nagano-bus",
+   "topic": "fare",
+   "recheck_days": 45,
+   "claim": "Alpico's express bus from Nagano Station to Hakuba (Happo bus terminal, Goryu, Hakuba Station) is ¥3,500 one way for an adult in winter (¥2,500 in the green season); some departures are reservation-only and others non-reserved; the 2026-27 winter timetable was not yet published at the start of October 2026.",
+   "sources": [
+    {
+     "url": "https://visit-nagano.alpico.co.jp/timetable/hakuba-nagano-winter",
+     "kind": "operator",
+     "title": "Alpico: Nagano-Hakuba express bus, winter"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-hakuba.html": [
+     "The bus is ¥3,500 one way in winter"
+    ]
+   },
+   "note": "Recheck in mid-November for the 2026-27 timetable; the page still showed the 2025-26 period."
+  },
+  {
+   "id": "jp.hakuba.valley-shuttle",
+   "topic": "fare",
+   "recheck_days": 45,
+   "claim": "In 2025-26 the Hakuba Valley shuttle bus (Line V, all resorts) cost ¥800 for an adult and ¥400 for a child, online tickets only, and was free with a Hakuba Valley season or day pass on ski days; the resorts' own shuttles to their slopes are free.",
+   "sources": [
+    {
+     "url": "https://www.hakubavalley.com/en/access_en/shuttlebus_en/",
+     "kind": "operator",
+     "title": "Hakuba Valley: shuttle bus"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-hakuba.html": [
+     "¥800 for adults without one"
+    ]
+   },
+   "note": "Recheck when the 2026-27 timetable and fares are posted."
   }
  ]
 }

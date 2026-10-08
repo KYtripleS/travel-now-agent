@@ -641,6 +641,24 @@ SPECS = [
                      "Osaka, next to Shinsekai, with a 30-minute shuttle there and back, and the RIHGA Royal in "
                      "Nakanoshima, with one morning bus booked the day before. Or ride the JR: about 11 minutes "
                      "from Osaka Station. Part of our Universal Studios Japan guide."),
+    dict(id=1065, slug="hakuba-stay-f1", article="articles/where-to-stay-in-hakuba.html",
+         board=JP, photo=36472728, title="HAKUBA", tagline="where to stay for the ski season",
+         bullets=["Happo: the big mountain", "Goryu: beginners, night ski", "Cortina: ski-in, ski-out",
+                  "Ten resorts, one lift pass"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Hakuba for the 2026/27 Ski Season",
+         description="Hakuba Valley's ten ski resorts share one lift pass, ¥11,100 a day for an adult in 2026/27. "
+                     "Stay in Happo for the big mountain and the village, Echoland for restaurants, Goryu for "
+                     "beginner slopes and night skiing, Iwatake for a gondola at the door, Tsugaike for families, "
+                     "and Norikura or Cortina for ski-in, ski-out. Ten hotels, checked at the source."),
+    dict(id=1066, slug="hakuba-tax-pass-f1", article="articles/where-to-stay-in-hakuba.html",
+         board=JP, photo=31676523, title="HAKUBA", tagline="the pass, the tax, the bus",
+         bullets=["Valley pass: ¥11,100 a day", "Happo-one only: ¥9,800 peak", "Hotel tax: up to ¥1,900",
+                  "Tokyo: 2 h 50 min at best"], cta="Plan the trip →",
+         pin_title="Hakuba Ski Trip 2026/27: Lift Pass, Hotel Tax and Getting There",
+         description="The Hakuba Valley pass covers all ten resorts and the valley shuttle on ski days; skiing "
+                     "only Happo-one, its own ¥9,800 ticket is cheaper. Since June 2026 Hakuba Village and "
+                     "Nagano Prefecture tax hotel stays, up to ¥1,900 a person a night. From Tokyo, the "
+                     "Shinkansen to Nagano and an express bus take as little as 2 hours 50 minutes."),
 ]
 
 
