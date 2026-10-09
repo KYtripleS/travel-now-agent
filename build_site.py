@@ -134,8 +134,8 @@ def build_gear_directory(products_by_category):
 
 
 def replace_sections(html, generated_sections):
-    start_marker = "    <!-- AUTO-GENERATED-SECTIONS-START -->"
-    end_marker = "    <!-- AUTO-GENERATED-SECTIONS-END -->"
+    start_marker = "<!-- AUTO-GENERATED-SECTIONS-START -->"
+    end_marker = "<!-- AUTO-GENERATED-SECTIONS-END -->"
 
     start = html.find(start_marker)
     end = html.find(end_marker)

@@ -1,0 +1,216 @@
+{
+ "place": "France",
+ "facts": [
+  {
+   "id": "fr.paris.tourist-tax-2026",
+   "topic": "tax",
+   "claim": "From 1 January 2026 Paris's taxe de séjour, all shares included, is per person per night: €15.93 at palaces, €11.70 at five-star, €8.45 at four-star, €5.53 at three-star, €3.25 at two-star and €2.60 at one-star hotels, B&Bs and hostels; unclassified lodging pays 5% of the per-person price, capped at €15.93; minors are exempt.",
+   "value": {
+    "from": "2026-01-01",
+    "palace": 15.93,
+    "5star": 11.7,
+    "4star": 8.45,
+    "3star": 5.53,
+    "2star": 3.25,
+    "1star": 2.6
+   },
+   "sources": [
+    {
+     "url": "https://files.parisjetaime.com/pro/taxe-de-sejour-paris-2026.pdf",
+     "kind": "official",
+     "title": "City of Paris: tourist tax rates from 1 January 2026 (PDF)"
+    },
+    {
+     "url": "https://taxedesejour.paris.fr/",
+     "kind": "official",
+     "title": "City of Paris: taxe de séjour, exemptions"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-paris.html": [
+     "€8.45 a night at a four-star, €5.53 at a three-star",
+     "A couple spending four nights in a four-star hotel pays €67.60"
+    ]
+   },
+   "watch": "(taxe de séjour|Paris[^.]{0,60}(tourist|hotel) tax)[^.]{0,80}€\\s?\\d"
+  },
+  {
+   "id": "fr.louvre.admission-2026",
+   "topic": "price",
+   "claim": "The Louvre charges €32 to visitors who are neither residents nor citizens of the European Economic Area and €22 to EEA visitors; under-18s are free; it is closed on Tuesdays and opens until 9pm on Wednesdays and Fridays, and recommends booking a time slot.",
+   "value": {
+    "non_eea": 32,
+    "eea": 22
+   },
+   "sources": [
+    {
+     "url": "https://www.louvre.fr/en/visit/hours-admission",
+     "kind": "official",
+     "title": "Musée du Louvre: hours and admission"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-paris.html": [
+     "charges €32 to visitors who neither live in nor are citizens of the European Economic Area"
+    ]
+   },
+   "watch": "Louvre[^.]{0,80}€\\s?\\d+",
+   "note": "The new non-EEA price was widely reported as starting on 14 January 2026; the official page shows the prices but not the date, so the guide gives no date."
+  },
+  {
+   "id": "fr.cdg-express.opening",
+   "topic": "transport",
+   "recheck_days": 30,
+   "claim": "The CDG Express is set to open on 28 March 2027, running between Paris Gare de l'Est and Paris-Charles de Gaulle Airport in 20 minutes, every 15 minutes, with one-way tickets from €25.",
+   "value": {
+    "opens": "2027-03-28",
+    "minutes": 20,
+    "headway_min": 15,
+    "fare_from_eur": 25
+   },
+   "sources": [
+    {
+     "url": "https://cdgexpress.com/en",
+     "kind": "operator",
+     "title": "CDG Express: set to open on 28 March 2027"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-paris.html": [
+     "is set to open on 28 March 2027",
+     "in 20 minutes, every 15 minutes, from €25 one way"
+    ],
+    "articles/best-esim-europe-2026.html": [
+     "the CDG Express from March 2027"
+    ],
+    "articles/europe-rail-pass-worth-it-2026.html": [
+     "where the CDG Express starts in March 2027"
+    ]
+   },
+   "watch": "CDG Express"
+  },
+  {
+   "id": "fr.idfm.fares-2026",
+   "topic": "fare",
+   "claim": "From 1 January 2026 in Île-de-France a Metro-Train-RER ticket is €2.55, the Paris Region–Airports single ticket €14.00, and a Navigo day pass for all zones €12.30, valid everywhere except the airports.",
+   "value": {
+    "metro_train_rer": 2.55,
+    "airport_ticket": 14.0,
+    "navigo_day_all_zones": 12.3
+   },
+   "sources": [
+    {
+     "url": "https://www.iledefrance-mobilites.fr/en/tarifs-titre-de-transport-en-commun-2026",
+     "kind": "official",
+     "title": "Île-de-France Mobilités: 2026 fares"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-paris.html": [
+     "a single metro ticket is €2.55",
+     "a Navigo day pass, €12.30, covers every zone but the airports",
+     "on the €14 airport ticket"
+    ]
+   },
+   "watch": "(metro|RER|airport) ticket[^.]{0,40}€\\s?\\d"
+  },
+  {
+   "id": "fr.rer-b.cdg-time",
+   "topic": "transport",
+   "claim": "The RER B links central Paris, including Gare du Nord and Châtelet-les-Halles, with Charles de Gaulle airport in about 30 minutes, per RATP.",
+   "sources": [
+    {
+     "url": "https://www.bonjour-ratp.fr/aeroports/roissy-charles-de-gaulle/acces/rer/",
+     "kind": "official",
+     "title": "RATP: the RER B to Roissy-Charles de Gaulle"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-paris.html": [
+     "the RER B reaches central Paris, including the Gare du Nord and Châtelet, in about 30 minutes"
+    ]
+   },
+   "note": "The RATP page still shows an older €11.45 fare; the 2026 airport ticket is €14 (fr.idfm.fares-2026)."
+  },
+  {
+   "id": "fr.metro-14.orly-time",
+   "topic": "transport",
+   "claim": "Metro line 14 reaches Orly airport from central Paris in about 25 minutes, per RATP.",
+   "sources": [
+    {
+     "url": "https://www.bonjour-ratp.fr/aeroports/orly/acces/metro/",
+     "kind": "official",
+     "title": "RATP: metro line 14 to Orly"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-paris.html": [
+     "metro line 14 reaches the centre in about 25 minutes"
+    ]
+   }
+  },
+  {
+   "id": "eu.etias.status",
+   "topic": "entry",
+   "recheck_days": 30,
+   "claim": "At the start of October 2026 ETIAS was not in operation and no travel-authorisation applications were being collected; the EU says it will announce the start date several months before launch, and the application fee will be €20.",
+   "sources": [
+    {
+     "url": "https://travel-europe.europa.eu/en/etias",
+     "kind": "official",
+     "title": "European Union: ETIAS"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-paris.html": [
+     "ETIAS is not running yet."
+    ]
+   },
+   "watch": "ETIAS"
+  },
+  {
+   "id": "eu.ees.registration",
+   "topic": "entry",
+   "claim": "The EU Entry/Exit System registers the entries and exits of non-EU short-stay visitors electronically, with fingerprint and face data, and is gradually replacing passport stamps (Cyprus and Ireland still stamp passports).",
+   "sources": [
+    {
+     "url": "https://travel-europe.europa.eu/ees/what-is-the-ees",
+     "kind": "official",
+     "title": "European Union: what is the EES?"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-paris.html": [
+     "The EU's Entry/Exit System registers visitors from outside the EU at the border"
+    ]
+   }
+  },
+  {
+   "id": "fr.centre-pompidou.closed",
+   "topic": "place",
+   "recheck_days": 365,
+   "claim": "The Centre Pompidou in Paris is closed for renovation and says it will be found in other venues from 2025 to 2030.",
+   "sources": [
+    {
+     "url": "https://www.centrepompidou.fr/en/",
+     "kind": "official",
+     "title": "Centre Pompidou: 'From 2025 to 2030, find us here'"
+    }
+   ],
+   "checked": "2026-10-08",
+   "used_in": {
+    "articles/where-to-stay-in-paris.html": [
+     "the museum says it will be in other venues from 2025 to 2030"
+    ]
+   }
+  }
+ ]
+}

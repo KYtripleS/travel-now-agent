@@ -37,10 +37,10 @@ CATEGORY_PRODUCT_MAP = {
     "Power":          ["Power & Charging"],
     "Safety":         ["Travel Safety"],
     "Camera":         ["Camera Travel Gear"],
-    "Hotels":         [],
+    "Hotels":         ["Hotel Stay Comfort"],
     "Brand":          [],
     "VPN":            [],
-    "Insurance":      [],
+    "Insurance":      ["Travel Health & Insurance"],
 }
 
 MAX_PRODUCTS = 3

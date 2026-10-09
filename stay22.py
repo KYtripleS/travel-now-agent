@@ -109,6 +109,8 @@ PAGES = {
                                                       address="Universal Studios Japan, Osaka, Japan"),
     "where-to-stay-in-hakuba": dict(area="Happo", lat=36.7015, lng=137.8457, zoom=12,
                                     address="Hakuba, Nagano, Japan"),
+    "where-to-stay-in-paris": dict(area="Le Marais", lat=48.8580, lng=2.3600, zoom=14,
+                                   address="Le Marais, Paris, France"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -239,6 +241,22 @@ HOTELS = {
     "Hotel Hakuba Berghaus": _B + "jp/hakuba-berghaus.html",
     "The Alps Hotel Hakuba": _B + "jp/ziarupusuhoteruhakuba.html",
     "Hotel Green Plaza Hakuba": _B + "jp/green-plaza-hakuba.html",
+    # Paris
+    "Le Pavillon de la Reine & Spa": _B + "fr/le-pavillon-de-la-reine.html",
+    "Hôtel National des Arts et Métiers": _B + "fr/national-arts-et-metiers.html",
+    "Hôtel Caron de Beaumarchais": _B + "fr/caron-de-beaumarchais.html",
+    "Hôtel Récamier": _B + "fr/recamier.html",
+    "Hôtel des Grands Hommes": _B + "fr/dupantheon.html",
+    "Hôtel Le Petit Paris": _B + "fr/le-petit-paris.html",
+    "Hôtel Regina Louvre": _B + "fr/regina-paris.html",
+    "Hôtel Bachaumont": _B + "fr/bachaumont.html",
+    "Shangri-La Paris": _B + "fr/shangri-la-paris.html",
+    "Pullman Paris Tour Eiffel": _B + "fr/tour-eiffel.html",
+    "Hôtel du Cadran": _B + "fr/du-cadran.html",
+    "Terrass” Hotel": _B + "fr/terrass-paris.html",  # the guide prints a curly closing quote
+    "Hôtel des Arts Montmartre": _B + "fr/hoteldesarts.html",
+    "Hôtel Paradis": _B + "fr/hotel-paradis.html",
+    "Generator Paris": _B + "fr/generator-paris.html",
     # Melbourne
     "Park Hyatt Melbourne": _B + "au/park-hyatt-melbourne.html",
     "The Ritz-Carlton, Melbourne": _B + "au/the-ritz-carlton-melbourne.html",

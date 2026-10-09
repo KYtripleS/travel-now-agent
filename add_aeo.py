@@ -398,6 +398,13 @@ V = {
              "stays, up to ¥1,900 a person a night.",
         link_text="Happo",
         cta=_stay_cta("where-to-stay-in-hakuba", "See hotels around Happo")),
+    "where-to-stay-in-paris": dict(
+        text="For a first trip, stay in Le Marais: Place des Vosges is there, Notre-Dame is a bridge away, and "
+             "metro line 1 runs to the Louvre. Choose Saint-Germain for the Left Bank, the Latin Quarter for a "
+             "little less, and the Eiffel Tower area for a room facing the tower. The 2026 hotel tax is €8.45 a "
+             "person a night at a four-star.",
+        link_text="Le Marais",
+        cta=_stay_cta("where-to-stay-in-paris", "See hotels around Le Marais")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1123,6 +1130,8 @@ QUICK_PICKS = {
                                                   "The Park Front Hotel at Universal Studios Japan",
                                                   "Hotel Universal Port"],
     "where-to-stay-in-hakuba": ["Hakuba Tokyu Hotel", "Hotel Stelle Belle", "Hotel Green Plaza Hakuba"],
+    "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
+                               "Pullman Paris Tour Eiffel"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1280,6 +1289,7 @@ _BS = "where-to-stay-in-busan.html"
 _TA = "where-to-stay-in-tokyo-autumn-leaves.html"
 _US = "where-to-stay-for-universal-studios-japan.html"
 _HB = "where-to-stay-in-hakuba.html"
+_PA = "where-to-stay-in-paris.html"
 STAY_POINTERS = {
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
@@ -1487,6 +1497,12 @@ STAY_POINTERS = {
     "where-to-stay-in-niseko": ("intro",
         f'Skiing in Nagano instead? <a href="{_HB}">Where to stay in Hakuba</a> compares six areas, from Happo to '
         'Cortina, with the 2026/27 season, the lift pass and the hotel tax that began in June 2026.'),
+    "best-esim-europe-2026": ("intro",
+        f'Starting in Paris? <a href="{_PA}">Where to stay in Paris</a> compares seven areas, from the Marais to '
+        'Montmartre, with the 2026 hotel tax and the airport train that opens in March 2027.'),
+    "europe-rail-pass-worth-it-2026": ("intro",
+        f'Beginning or ending in Paris? <a href="{_PA}">Where to stay in Paris</a> compares seven areas and names '
+        '15 hotels, from the Gare de l\'Est, where the CDG Express starts in March 2027, to the Latin Quarter.'),
     "where-to-stay-in-sydney": ("intro",
         f'Coming for New Year\'s Eve? <a href="{_NY}">Where to stay in Sydney for New Year\'s Eve</a> has the '
         'vantage points, their ticket dates and the hotels with harbour rooms.'),

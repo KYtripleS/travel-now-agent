@@ -555,6 +555,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in Singapore",
         "Five areas and 12 hotels, from Raffles of 1887 to a compact room on Orchard Road, and what \"++\" adds to the bill.",
     ),
+    "articles/where-to-stay-in-paris.html": (
+        "Where to Stay in Paris",
+        "Seven areas from the Marais to Montmartre, 15 hotels, the 2026 hotel tax and the CDG Express from March 2027.",
+    ),
     "articles/where-to-stay-in-hakuba.html": (
         "Where to Stay in Hakuba",
         "The 2026/27 season and lift prices, six areas from Happo to Cortina, 10 hotels, and the hotel tax since June 2026.",
@@ -1100,6 +1104,7 @@ LINKS: dict[str, list[str]] = {
         "countries/japan/index.html",
     ],
     "articles/best-esim-europe-2026.html": [
+        "articles/where-to-stay-in-paris.html",
         "articles/best-esim-japan-korea-vietnam.html",
         "articles/best-esim-thailand-2026.html",
         "articles/airalo-vs-holafly-vs-saily.html",
@@ -1308,6 +1313,7 @@ LINKS: dict[str, list[str]] = {
         "articles/europe-rail-pass-worth-it-2026.html",
     ],
     "articles/europe-rail-pass-worth-it-2026.html": [
+        "articles/where-to-stay-in-paris.html",
         "articles/jr-pass-worth-it-2026.html",
         "articles/japan-city-sightseeing-passes-worth-it.html",
         "articles/how-to-book-international-flights.html",
@@ -1833,6 +1839,13 @@ LINKS: dict[str, list[str]] = {
         "articles/best-esim-japan-2026.html",
         "articles/hotel-booking-sites-comparison.html",
         "articles/where-to-stay-in-osaka.html",
+    ],
+    "articles/where-to-stay-in-paris.html": [
+        "articles/best-esim-europe-2026.html",
+        "articles/europe-rail-pass-worth-it-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/travel-insurance-compared.html",
     ],
     "articles/where-to-stay-in-hakuba.html": [
         "articles/where-to-stay-in-niseko.html",
