@@ -114,6 +114,7 @@ BY_SLUG = {
     "travel-insurance-selection-and-what-is-covered": "Insurance",
     "fatigue-management-on-long-haul-flights": "Trip planning",
     "luggage-weight-management-before-you-fly": "Packing",
+    "direct-booking-vs-otas-hotel-guide": "Stay",
 }
 
 PAGE_LABEL = {                       # non-article pages that appear in the archive
