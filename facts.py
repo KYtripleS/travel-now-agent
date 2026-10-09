@@ -69,6 +69,7 @@ KINDS = {
     "news": "a news report",
     "reference": "an encyclopaedia (Wikipedia)",
     "secondary": "a blog, aggregator or booking site",
+    "comparison": "a comparison site that compares prices or policies",
 }
 STRONG = {"official", "operator", "publisher"}
 NEEDS_STRONG = {"entry", "fare", "tax", "price", "partner"}
