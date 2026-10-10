@@ -82,6 +82,7 @@ BY_SLUG = {
     # where-to-stay pillar (2026-09-24): hotel choice is its own decision
     "hotel-booking-sites-comparison": "Stay",
     "where-to-stay-in-tokyo": "Stay",
+    "where-to-stay-in-london": "Stay",
     "osaka-or-kyoto-where-to-base": "Stay",
     "jr-pass-worth-it-2026": "Rail",
     "do-you-need-keta-south-korea": "Entry & arrival",
@@ -115,6 +116,16 @@ BY_SLUG = {
     "fatigue-management-on-long-haul-flights": "Trip planning",
     "luggage-weight-management-before-you-fly": "Packing",
     "direct-booking-vs-otas-hotel-guide": "Stay",
+    # 2026-10-11 demand articles
+    "where-to-stay-in-rome": "Stay",
+    "where-to-stay-in-florence": "Stay",
+    "where-to-stay-in-venice": "Stay",
+    "where-to-stay-in-amsterdam": "Stay",
+    "where-to-stay-in-barcelona": "Stay",
+    "where-to-stay-in-madrid": "Stay",
+    "where-to-stay-in-berlin": "Stay",
+    "where-to-stay-in-vienna": "Stay",
+    "where-to-stay-in-prague": "Stay",
 }
 
 PAGE_LABEL = {                       # non-article pages that appear in the archive
