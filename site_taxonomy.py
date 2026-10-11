@@ -137,6 +137,13 @@ BY_SLUG = {
     "where-to-stay-in-stockholm": "Stay",
     "where-to-stay-in-new-york": "Stay",
     "where-to-stay-in-reykjavik": "Stay",
+    # 2026-10-19 demand articles
+    "best-travel-backpacks-2026-carry-on-size-limits-ergonomics-compared": "Gear",
+    "how-to-avoid-international-roaming-fees-esim-vs-local-sim-vs-pocket-wifi": "Connectivity",
+    "credit-card-foreign-transaction-fees-explained-best-cards-for-travel": "Money & costs",
+    "how-to-recover-cancelled-or-delayed-flights-passenger-rights-compensation": "Flight",
+    "jet-lag-protocol-science-backed-strategies-for-fast-adjustment": "Trip planning",
+}
 }
 
 PAGE_LABEL = {                       # non-article pages that appear in the archive
