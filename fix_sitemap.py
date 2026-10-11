@@ -239,6 +239,16 @@ original_urls = [
     ("/articles/where-to-stay-in-berlin.html", "2026-10-16", "monthly", "0.7"),
     ("/articles/where-to-stay-in-vienna.html", "2026-10-17", "monthly", "0.7"),
     ("/articles/where-to-stay-in-prague.html", "2026-10-18", "monthly", "0.7"),
+    ("/articles/where-to-stay-in-lisbon.html", "2026-10-19", "monthly", "0.7"),
+    ("/articles/where-to-stay-in-zurich.html", "2026-10-20", "monthly", "0.7"),
+    ("/articles/where-to-stay-in-edinburgh.html", "2026-10-21", "monthly", "0.7"),
+    ("/articles/where-to-stay-in-dublin.html", "2026-10-22", "monthly", "0.7"),
+    ("/articles/where-to-stay-in-vancouver.html", "2026-10-23", "monthly", "0.7"),
+    ("/articles/where-to-stay-in-montreal.html", "2026-10-24", "monthly", "0.7"),
+    ("/articles/where-to-stay-in-copenhagen.html", "2026-10-25", "monthly", "0.7"),
+    ("/articles/where-to-stay-in-stockholm.html", "2026-10-26", "monthly", "0.7"),
+    ("/articles/where-to-stay-in-new-york.html", "2026-10-27", "monthly", "0.7"),
+    ("/articles/where-to-stay-in-reykjavik.html", "2026-10-28", "monthly", "0.7"),
 ]
 
 base_url = "https://gentlyyonder.com"
@@ -258,4 +268,3 @@ xml_content += '</urlset>\n'
 
 with open("site/sitemap.xml", "w") as f:
     f.write(xml_content)
-EOF

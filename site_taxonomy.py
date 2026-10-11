@@ -126,6 +126,17 @@ BY_SLUG = {
     "where-to-stay-in-berlin": "Stay",
     "where-to-stay-in-vienna": "Stay",
     "where-to-stay-in-prague": "Stay",
+    # 2026-10-12 city guides
+    "where-to-stay-in-lisbon": "Stay",
+    "where-to-stay-in-zurich": "Stay",
+    "where-to-stay-in-edinburgh": "Stay",
+    "where-to-stay-in-dublin": "Stay",
+    "where-to-stay-in-vancouver": "Stay",
+    "where-to-stay-in-montreal": "Stay",
+    "where-to-stay-in-copenhagen": "Stay",
+    "where-to-stay-in-stockholm": "Stay",
+    "where-to-stay-in-new-york": "Stay",
+    "where-to-stay-in-reykjavik": "Stay",
 }
 
 PAGE_LABEL = {                       # non-article pages that appear in the archive
