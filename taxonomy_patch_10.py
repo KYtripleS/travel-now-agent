@@ -1,0 +1,11 @@
+    # 2026-10-19 additional high-demand articles (anti-cannibalization)
+    "solo-travel-safety-rules-10-practical-habits-for-safer-trips": "Insurance",
+    "how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags": "Packing",
+    "digital-nomad-tax-visa-basics-90-day-schengen-and-nomad-permits": "Entry & arrival",
+    "train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price": "Rail",
+    "how-to-keep-valuables-safe-in-hostels-and-dorm-rooms": "Stay",
+    "travel-medical-kit-essentials-what-actually-belongs-in-your-pouch": "Insurance",
+    "how-to-choose-the-right-travel-shoes-walking-20000-steps-daily": "Gear",
+    "airport-layover-survival-guide-making-long-transit-hours-bearable": "Airport",
+    "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
+    "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Culture",
