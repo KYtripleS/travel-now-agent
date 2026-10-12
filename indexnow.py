@@ -4,7 +4,9 @@
 About a third of the site's real readers arrive from ChatGPT, whose search leans on
 Bing's index. Bing finds a new or rewritten page on its own schedule, sometimes
 weeks later; IndexNow tells it the same day. One POST reaches every participating
-engine (Bing, Yandex, Seznam, Naver). Google does not take part.
+engine (Bing, Yandex, Seznam, Naver). Google does not take part, so the same run
+resubmits the sitemap to Search Console, which makes Google re-read it sooner
+(Search Console has no API for "Request indexing" on ordinary pages).
 
 The key file site/<KEY>.txt proves we own the domain. It must be live before a
 ping counts, so run this after the push has deployed, never before.
@@ -29,6 +31,7 @@ SITE = REPO / "site"
 HOST = "gentlyyonder.com"
 KEY = "5e1417ad44e95d06205517a30c7ac6a2"
 ENDPOINT = "https://api.indexnow.org/indexnow"
+GSC_SA = REPO / "gsc_service_account.json"      # gitignored; the key gsc_analyze.py reads
 
 
 def url_for(rel: str) -> str:
@@ -71,6 +74,32 @@ def key_is_live() -> bool:
         return False
 
 
+def resubmit_sitemap() -> None:
+    """Search Console sitemaps.submit: Google fetches the list again soon. Soft-fails."""
+    try:
+        from urllib.parse import quote
+        from google.auth.transport.requests import Request
+        from google.oauth2 import service_account
+    except ImportError:
+        print("Search Console: skipped (pip install google-auth)")
+        return
+    if not GSC_SA.exists():
+        print(f"Search Console: skipped ({GSC_SA.name} not found)")
+        return
+    creds = service_account.Credentials.from_service_account_file(
+        str(GSC_SA), scopes=["https://www.googleapis.com/auth/webmasters"])
+    creds.refresh(Request())
+    url = (f"https://www.googleapis.com/webmasters/v3/sites/{quote(f'https://{HOST}/', safe='')}"
+           f"/sitemaps/{quote(f'https://{HOST}/sitemap.xml', safe='')}")
+    req = urllib.request.Request(url, data=b"", method="PUT",
+                                 headers={"Authorization": f"Bearer {creds.token}"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            print("Search Console sitemap:", r.status, "(204 = resubmitted)")
+    except urllib.error.HTTPError as e:
+        print(f"Search Console refused: {e.code} {e.read().decode()[:200]}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("pages", nargs="*", help="site-relative paths, e.g. articles/x.html")
@@ -100,6 +129,7 @@ def main() -> None:
             print("IndexNow:", r.status, "(200/202 = accepted)")
     except urllib.error.HTTPError as e:
         sys.exit(f"IndexNow refused: {e.code} {e.read().decode()[:200]}")
+    resubmit_sitemap()
 
 
 if __name__ == "__main__":
