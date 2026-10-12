@@ -1,0 +1,109 @@
+{
+  "place": "Melbourne",
+  "facts": [
+    {
+      "id": "mel.half-price-fares-2026",
+      "topic": "fare",
+      "recheck_days": 30,
+      "claim": "Public transport across Victoria is half price for everyone from 1 June 2026 until 1 January 2027: the full-fare daily cap falls from $11.40 to $5.70. The discount covers trains, trams and buses but excludes SkyBus.",
+      "sources": [
+        {
+          "url": "https://www.vic.gov.au/half-price-travel",
+          "kind": "official",
+          "title": "vic.gov.au: Public transport now half price for everyone"
+        }
+      ],
+      "checked": "2026-10-12",
+      "used_in": {
+        "articles/getting-around-melbourne.html": [
+          "Half-price fares until 1 January 2027.",
+          "The full-fare daily cap falls from $11.40 to $5.70",
+          "but not SkyBus"
+        ],
+        "articles/melbourne-airport-to-city.html": [
+          "half-price fares that run until 1 January 2027",
+          "The discount does not apply to SkyBus."
+        ]
+      },
+      "note": "Recheck in December 2026 for the fares that apply from 1 January 2027."
+    },
+    {
+      "id": "mel.metro-fares-2026",
+      "topic": "fare",
+      "recheck_days": 30,
+      "claim": "Transport Victoria's metropolitan myki Money full fares (half-price period): Free Tram Zone free; two hours Zone 1+2 $2.85; daily Zone 1+2 $5.70; weekend and public holiday daily cap $4.00.",
+      "sources": [
+        {
+          "url": "https://transport.vic.gov.au/tickets-and-payments/fares/metropolitan-train-tram-and-bus-fares",
+          "kind": "official",
+          "title": "Transport Victoria: Metropolitan train, tram and bus fares"
+        }
+      ],
+      "checked": "2026-10-12",
+      "used_in": {
+        "articles/getting-around-melbourne.html": [
+          "Two hours, Zone 1+2",
+          "Weekend and public holiday daily cap"
+        ],
+        "articles/melbourne-airport-to-city.html": [
+          "a two-hour Zone 1+2 fare of AU$2.85"
+        ]
+      }
+    },
+    {
+      "id": "mel.contactless-full-fare",
+      "topic": "fare",
+      "claim": "Contactless payments (Visa or Mastercard credit or debit cards, phones and smartwatches) work for full-fare travel on all myki-enabled trains, trams and buses, at the same fares as myki; concession card holders keep using myki. Tap off with the same card or device.",
+      "sources": [
+        {
+          "url": "https://transport.vic.gov.au/tickets-and-payments/contactless",
+          "kind": "official",
+          "title": "Transport Victoria: Contactless payments"
+        },
+        {
+          "url": "https://transport.vic.gov.au/tickets-and-payments/contactless/contactless-payment-frequently-asked-questions",
+          "kind": "official",
+          "title": "Transport Victoria: Contactless payment FAQs"
+        }
+      ],
+      "checked": "2026-10-12",
+      "used_in": {
+        "articles/getting-around-melbourne.html": [
+          "contactless fares are the same as myki fares",
+          "contactless is full fare only for now",
+          "tap off with the same card or device"
+        ],
+        "articles/melbourne-airport-to-city.html": [
+          "Concession card holders still need a myki."
+        ],
+        "articles/melbourne-first-timers-guide.html": [
+          "tap a contactless Visa or Mastercard, phone or watch instead"
+        ]
+      }
+    },
+    {
+      "id": "mel.metro-tunnel",
+      "topic": "history",
+      "claim": "The Metro Tunnel's five underground stations (Arden, Parkville, State Library, Town Hall and Anzac) opened to passengers on 30 November 2025. Underground concourses link State Library to Melbourne Central and Town Hall to Flinders Street, about a four-minute walk each.",
+      "sources": [
+        {
+          "url": "https://www.premier.vic.gov.au/metro-tunnel-delivered",
+          "kind": "official",
+          "title": "Premier of Victoria: Metro Tunnel delivered"
+        },
+        {
+          "url": "https://transport.vic.gov.au/help-and-support/other-public-transport-help/city-loop-and-metro-tunnel-stations",
+          "kind": "official",
+          "title": "Transport Victoria: City Loop and Metro Tunnel stations"
+        }
+      ],
+      "checked": "2026-10-12",
+      "used_in": {
+        "articles/getting-around-melbourne.html": [
+          "Five new underground stations opened on 30 November 2025",
+          "each about a four-minute walk"
+        ]
+      }
+    }
+  ]
+}

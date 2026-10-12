@@ -547,12 +547,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-taipei.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://gentlyyonder.com/articles/sydney-first-timers-guide.html</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -560,12 +554,6 @@
   </url>
   <url>
     <loc>https://gentlyyonder.com/articles/getting-around-sydney.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-sydney.html</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -583,12 +571,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-melbourne.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://gentlyyonder.com/articles/perth-first-timers-guide.html</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -596,12 +578,6 @@
   </url>
   <url>
     <loc>https://gentlyyonder.com/articles/getting-around-perth.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-perth.html</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -685,12 +661,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gentlyyonder.com/articles/osaka-first-timers-guide.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://gentlyyonder.com/articles/penang-first-timers-guide.html</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -710,78 +680,6 @@
   </url>
   <url>
     <loc>https://gentlyyonder.com/articles/things-to-do-in-kyoto.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-bangkok.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-seoul.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-osaka.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-singapore.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-bali.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-hong-kong.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-hanoi.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-ho-chi-minh-city.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-kuala-lumpur.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-manila.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-chiang-mai.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/articles/things-to-do-in-phuket.html</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

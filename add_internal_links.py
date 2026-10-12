@@ -31,6 +31,30 @@ DOCS = REPO / "docs"
 MARK_BEGIN = "<!-- BEGIN internal-links (managed by add_internal_links.py) -->"
 MARK_END = "<!-- END internal-links -->"
 
+# Pages folded into a stronger guide now redirect there. Links to them are
+# rewritten to the guide they were folded into, and they get no block of
+# their own. Keep this in step with the redirect pages in site/articles/.
+FOLDED: dict[str, str] = {
+    "articles/things-to-do-in-taipei.html": "articles/taipei-first-timers-guide.html",
+    "articles/things-to-do-in-sydney.html": "articles/sydney-first-timers-guide.html",
+    "articles/things-to-do-in-singapore.html": "articles/singapore-first-timers-guide.html",
+    "articles/things-to-do-in-seoul.html": "articles/seoul-first-timers-guide.html",
+    "articles/things-to-do-in-phuket.html": "articles/phuket-first-timers-guide.html",
+    "articles/things-to-do-in-perth.html": "articles/perth-first-timers-guide.html",
+    "articles/things-to-do-in-osaka.html": "articles/osaka-3-day-guide.html",
+    "articles/things-to-do-in-melbourne.html": "articles/melbourne-first-timers-guide.html",
+    "articles/things-to-do-in-manila.html": "articles/manila-first-timers-guide.html",
+    "articles/things-to-do-in-kuala-lumpur.html": "articles/kuala-lumpur-first-timers-guide.html",
+    "articles/things-to-do-in-hong-kong.html": "articles/hong-kong-first-timers-guide.html",
+    "articles/things-to-do-in-ho-chi-minh-city.html": "articles/ho-chi-minh-city-first-timers-guide.html",
+    "articles/things-to-do-in-hanoi.html": "articles/hanoi-first-timers-guide.html",
+    "articles/things-to-do-in-chiang-mai.html": "articles/chiang-mai-first-timers-guide.html",
+    "articles/things-to-do-in-bangkok.html": "articles/bangkok-first-timers-guide.html",
+    "articles/things-to-do-in-bali.html": "articles/bali-first-timers-guide.html",
+    "articles/osaka-first-timers-guide.html": "articles/osaka-3-day-guide.html",
+    "articles/seoul-itinerary-3-days.html": "articles/seoul-first-timers-guide.html",
+}
+
 # title + hook (one-sentence "why this is worth reading next")
 ARTICLES: dict[str, tuple[str, str]] = {
     # ---- city first-timer guides (SE/E-Asia expansion) ----
@@ -1992,7 +2016,11 @@ def rel_link(from_file: str, to_file: str) -> str:
 
 
 def render_section(from_file: str) -> str:
-    targets = LINKS[from_file]
+    targets: list[str] = []
+    for t in LINKS[from_file]:
+        t = FOLDED.get(t, t)
+        if t != from_file and t not in targets:
+            targets.append(t)
     items: list[str] = []
     for t in targets:
         title, hook = ARTICLES[t]
@@ -2039,6 +2067,8 @@ def main() -> None:
 
     changed = 0
     for rel in ARTICLES:
+        if rel in FOLDED:
+            continue
         if rel not in LINKS:
             print(f"  ⚠ no link plan for {rel}")
             continue
