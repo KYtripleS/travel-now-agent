@@ -1,0 +1,153 @@
+{
+ "place": "United States",
+ "facts": [
+  {
+   "id": "us.nyc.hotel-tax",
+   "topic": "tax",
+   "claim": "A hotel room in New York City carries 8.875% New York State and City sales tax, the city's 5.875% hotel room occupancy tax, a city charge of $2 a room a night on rooms of $40 or more, and New York State's hotel unit fee of $1.50 a room a night: 14.75% plus $3.50 a room a night.",
+   "value": {
+    "sales_tax_pct": 8.875,
+    "hotel_occupancy_tax_pct": 5.875,
+    "city_room_charge_usd": 2.0,
+    "state_unit_fee_usd": 1.5
+   },
+   "sources": [
+    {
+     "url": "https://www.nyc.gov/site/finance/business/business-hotel-room-occupancy-tax.page",
+     "kind": "official",
+     "title": "NYC Department of Finance: hotel room occupancy tax"
+    },
+    {
+     "url": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/hotel_and_motel_occupancy.htm",
+     "kind": "official",
+     "title": "New York State: hotel and motel occupancy, including the New York City unit fee"
+    },
+    {
+     "url": "https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf",
+     "kind": "official",
+     "title": "New York State: sales and use tax rates, Publication 718 (PDF)"
+    }
+   ],
+   "checked": "2026-10-12",
+   "used_in": {
+    "articles/where-to-stay-in-new-york.html": [
+     "14.75% in tax on the room, plus $3.50 a room a night",
+     "Together that is 14.75% of the room rate plus $3.50 a room a night"
+    ]
+   },
+   "watch": "New York[^.]{0,80}(hotel|occupancy) tax[^.]{0,80}\\d+(\\.\\d+)?%",
+   "note": "The city's 5.875% was waived only from 1 June to 31 August 2021; the DOF page still mentions that order."
+  },
+  {
+   "id": "us.mta.fare-2026",
+   "topic": "fare",
+   "claim": "In 2026 a New York City subway or local bus ride costs $3, paid by tapping a contactless card or phone (OMNY); an express bus ride costs $7.25.",
+   "value": {
+    "subway_local_bus_usd": 3.0,
+    "express_bus_usd": 7.25
+   },
+   "sources": [
+    {
+     "url": "https://www.mta.info/fares-tolls",
+     "kind": "official",
+     "title": "MTA: fares and tolls"
+    }
+   ],
+   "checked": "2026-10-12",
+   "used_in": {
+    "articles/where-to-stay-in-new-york.html": [
+     "a subway or local bus ride is $3"
+    ]
+   },
+   "watch": "(subway|local bus) (ride|fare)[^.]{0,30}\\$\\d",
+   "note": "mta.info answers scripted requests with 403; check it in a browser."
+  },
+  {
+   "id": "us.mta.congestion-charge-hail",
+   "topic": "fare",
+   "claim": "Taxi and app-based rides to, from, within or through Manhattan's Congestion Relief Zone, south of and including 60th Street, carry a per-trip charge of $0.75 in a taxi, green cab or black car and $1.50 in a high-volume for-hire vehicle such as Uber or Lyft.",
+   "value": {
+    "taxi_usd": 0.75,
+    "app_usd": 1.5
+   },
+   "sources": [
+    {
+     "url": "https://www.mta.info/fares-tolls/tolls/congestion-relief-zone/about",
+     "kind": "official",
+     "title": "MTA: about the Congestion Relief Zone toll"
+    }
+   ],
+   "checked": "2026-10-12",
+   "used_in": {
+    "articles/where-to-stay-in-new-york.html": [
+     "$0.75 in a yellow or green taxi and $1.50 in an app-based car"
+    ]
+   },
+   "watch": "Congestion Relief Zone[^.]{0,120}\\$\\d",
+   "note": "mta.info answers scripted requests with 403; check it in a browser."
+  },
+  {
+   "id": "us.jfk.airtrain-fare",
+   "topic": "fare",
+   "claim": "The AirTrain between JFK and Jamaica or Howard Beach station costs $8.75 one way; travel between terminals is free.",
+   "value": {
+    "one_way_usd": 8.75
+   },
+   "sources": [
+    {
+     "url": "https://www.jfkairport.com/to-from-airport/air-train",
+     "kind": "official",
+     "title": "JFK Airport: AirTrain"
+    }
+   ],
+   "checked": "2026-10-12",
+   "used_in": {
+    "articles/where-to-stay-in-new-york.html": [
+     "the AirTrain runs to Jamaica or Howard Beach stations for $8.75"
+    ]
+   },
+   "watch": "AirTrain[^.]{0,80}\\$\\d"
+  },
+  {
+   "id": "us.lga.q70-free",
+   "topic": "fare",
+   "claim": "The Q70 LaGuardia Link bus is free between LaGuardia's Terminals B and C and the Jackson Heights–Roosevelt Av and 74 St–Broadway subway hubs.",
+   "sources": [
+    {
+     "url": "https://www.laguardiaairport.com/to-from-airport/public-transportation",
+     "kind": "official",
+     "title": "LaGuardia Airport: public transportation"
+    }
+   ],
+   "checked": "2026-10-12",
+   "used_in": {
+    "articles/where-to-stay-in-new-york.html": [
+     "the Q70 LaGuardia Link bus is free from Terminals B and C"
+    ]
+   },
+   "watch": "Q70[^.]{0,80}(free|\\$\\d)"
+  },
+  {
+   "id": "us.ewr.airtrain-fee",
+   "topic": "fare",
+   "claim": "The AirTrain at Newark costs $8.75 to or from the airport's rail station unless you already hold an NJ Transit or Amtrak ticket; travel between terminals is free.",
+   "value": {
+    "one_way_usd": 8.75
+   },
+   "sources": [
+    {
+     "url": "https://www.newarkairport.com/to-from-airport/air-train",
+     "kind": "official",
+     "title": "Newark Airport: AirTrain"
+    }
+   ],
+   "checked": "2026-10-12",
+   "used_in": {
+    "articles/where-to-stay-in-new-york.html": [
+     "costs $8.75 unless you already hold an NJ Transit or Amtrak ticket"
+    ]
+   },
+   "watch": "Newark[^.]{0,80}AirTrain[^.]{0,80}\\$\\d"
+  }
+ ]
+}

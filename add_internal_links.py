@@ -224,6 +224,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Store Luggage in Tokyo",
         "Coin lockers, cloakrooms, storage apps, and hotel holds — which to use where.",
     ),
+    "articles/best-esim-usa-2026.html": (
+        "Best eSIM for the USA (2026)",
+        "Airalo vs Saily, how much data a US trip really uses, and AT&T, T-Mobile and Verizon coverage.",
+    ),
     "articles/best-esim-europe-2026.html": (
         "Best eSIM for Europe (2026)",
         "Why a regional Europe plan usually beats country-by-country, and how much data to get.",
@@ -558,6 +562,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
     "articles/where-to-stay-in-paris.html": (
         "Where to Stay in Paris",
         "Seven areas from the Marais to Montmartre, 15 hotels, the 2026 hotel tax and the CDG Express from March 2027.",
+    ),
+    "articles/where-to-stay-in-new-york.html": (
+        "Where to Stay in New York",
+        "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
     "articles/where-to-stay-in-hakuba.html": (
         "Where to Stay in Hakuba",
@@ -1845,6 +1853,21 @@ LINKS: dict[str, list[str]] = {
         "articles/europe-rail-pass-worth-it-2026.html",
         "articles/hotel-booking-sites-comparison.html",
         "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/travel-insurance-compared.html",
+    ],
+    "articles/where-to-stay-in-new-york.html": [
+        "articles/best-esim-usa-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/travel-insurance-compared.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/best-esim-usa-2026.html": [
+        "articles/where-to-stay-in-new-york.html",
+        "articles/airalo-vs-holafly-vs-saily.html",
+        "articles/esim-activation-and-preparation.html",
+        "articles/pocket-wifi-vs-esim.html",
+        "articles/best-esim-europe-2026.html",
         "articles/travel-insurance-compared.html",
     ],
     "articles/where-to-stay-in-hakuba.html": [

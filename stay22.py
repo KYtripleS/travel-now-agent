@@ -111,6 +111,8 @@ PAGES = {
                                     address="Hakuba, Nagano, Japan"),
     "where-to-stay-in-paris": dict(area="Le Marais", lat=48.8580, lng=2.3600, zoom=14,
                                    address="Le Marais, Paris, France"),
+    "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
+                                      address="Times Square, New York, NY, USA"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -257,6 +259,19 @@ HOTELS = {
     "Hôtel des Arts Montmartre": _B + "fr/hoteldesarts.html",
     "Hôtel Paradis": _B + "fr/hotel-paradis.html",
     "Generator Paris": _B + "fr/generator-paris.html",
+    # New York (Booking.com pages confirmed by title and street address, 2026-10-11)
+    "The Knickerbocker": _B + "us/the-knickerbocker.html",
+    "Arlo Midtown": _B + "us/arlo-midtown.html",
+    "Pod Times Square": _B + "us/pod-times-square.html",
+    "The Beekman, a Thompson Hotel": _B + "us/the-beekman-a-thompson-hotel.html",
+    "Soho Grand Hotel": _B + "us/soho-grand.html",
+    "The Marlton": _B + "us/the-marlton.html",
+    "Washington Square Hotel": _B + "us/washington-square.html",
+    "The High Line Hotel": _B + "us/the-high-line.html",
+    "Hotel Belleclaire": _B + "us/belleclaire.html",
+    "The William Vale": _B + "us/the-william-vale.html",
+    "1 Hotel Brooklyn Bridge": _B + "us/1-brooklyn-bridge.html",
+    "Ace Hotel Brooklyn": _B + "us/ace-brooklyn.html",
     # Melbourne
     "Park Hyatt Melbourne": _B + "au/park-hyatt-melbourne.html",
     "The Ritz-Carlton, Melbourne": _B + "au/the-ritz-carlton-melbourne.html",
