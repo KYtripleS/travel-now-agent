@@ -33,6 +33,11 @@
     "articles/where-to-stay-in-new-york.html": [
      "14.75% in tax on the room, plus $3.50 a room a night",
      "Together that is 14.75% of the room rate plus $3.50 a room a night"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "14.75% plus $3.50 a room a night, so a $300 room costs $347.75 a night",
+     "8.875% of the room rate",
+     "5.875% of the room rate"
     ]
    },
    "watch": "New York[^.]{0,80}(hotel|occupancy) tax[^.]{0,80}\\d+(\\.\\d+)?%",

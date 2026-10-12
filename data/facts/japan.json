@@ -63,6 +63,9 @@
     ],
     "articles/where-to-stay-in-hakuba.html": [
      "the ¥3,000 departure tax"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "the International Tourist Tax, is ¥3,000 per person from 1 July 2026"
     ]
    },
    "watch": "(?i)departure tax[^.]{0,60}¥\\s?[\\d,]+|¥\\s?[\\d,]+\\s?(departure|sayonara) tax|sayonara tax[^.]{0,80}¥",
@@ -263,6 +266,9 @@
     ],
     "articles/where-to-stay-in-hakuba.html": [
      "up to ¥10,000/night"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "The top band is ¥10,000 a person a night from a room rate of ¥100,000"
     ]
    },
    "watch": "(?i)kyoto[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥",
@@ -537,6 +543,9 @@
     ],
     "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
      "¥100 a person a night on rooms of ¥10,000 to ¥14,999"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "Until 31 March 2027 Tokyo charges ¥100 a person a night on rooms of ¥10,000 to ¥14,999 per person, and ¥200 a person a night from ¥15,000"
     ]
    },
    "watch": "Tokyo[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
@@ -575,6 +584,9 @@
     ],
     "articles/japan-tourist-taxes-2026.html": [
      "from 1 April 2027, when it also becomes 3% of the room rate on stays of ¥13,000 or more per person per night"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "From 1 April 2027 Tokyo's tax becomes 3% of the room charge on stays of ¥13,000 or more per person per night"
     ]
    },
    "watch": "(?:2027|accommodation tax|lodging tax)[^.]{0,80}(?:3%|13,000)"
@@ -1056,6 +1068,9 @@
     ],
     "articles/japan-tourist-taxes-2026.html": [
      "In Sapporo the two together come to ¥300 a person a night on rooms under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "In Sapporo the two together come to ¥300 a person a night under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000"
     ]
    },
    "watch": "Sapporo[^.]{0,120}(tax|Tax)[^.]{0,120}¥"
@@ -1091,6 +1106,10 @@
     "articles/where-to-stay-in-niseko.html": [
      "for stays from 1 November 2026",
      "¥100 to ¥2,000 a person a night"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "Niseko Town charges ¥100 to ¥2,000 a person a night",
+     "For stays from 1 November 2026 it becomes 3% of the room price in total"
     ]
    },
    "watch": "Niseko[^.]{0,80}(¥[\\d,]+|\\d+%)[^.]{0,40}(night|room price)|Niseko[^.]{0,60}flat rate",
@@ -1114,6 +1133,9 @@
     ],
     "articles/where-to-stay-in-niseko.html": [
      "since 1 April 2026"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "Neighbouring Kutchan has charged 3% of the room price in total since 1 April 2026"
     ]
    }
   },
@@ -1381,6 +1403,9 @@
     ],
     "articles/japan-tourist-taxes-2026.html": [
      "Fukuoka City and Fukuoka Prefecture have charged a tax together since 1 April 2020"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "¥200 a person a night on a room charge under ¥20,000 and ¥500 from ¥20,000"
     ]
    },
    "watch": "Fukuoka[^.]{0,80}¥(200|500|150|450)[^.]{0,40}night"
@@ -2212,6 +2237,9 @@
     ],
     "articles/where-to-stay-in-osaka.html": [
      "since 1 September 2025, Osaka Prefecture's accommodation tax is ¥200"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "Since 1 September 2025 Osaka Prefecture has charged ¥200 a person a night on rooms of ¥5,000 to ¥14,999, ¥400 from ¥15,000 to ¥19,999 and ¥500 from ¥20,000"
     ]
    },
    "watch": "Osaka[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
@@ -2242,6 +2270,10 @@
     "articles/japan-tourist-taxes-2026.html": [
      "has charged a prefecture-wide tax since 1 June 2026",
      "Matsumoto, Karuizawa, Achi, Hakuba and Nozawa Onsen charge their own as well"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "Since 1 June 2026 Nagano Prefecture has charged ¥200 a person a night on stays of ¥6,000 or more",
+     "Nagano Prefecture's tax rises from ¥200 to ¥300 a person a night"
     ]
    },
    "watch": "Nagano[^.]{0,80}(accommodation|lodging|hotel) tax[^.]{0,80}¥",
@@ -2282,6 +2314,10 @@
     ],
     "articles/japan-tourist-taxes-2026.html": [
      "In Hakuba the two together come to ¥200 to ¥1,900 a night"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "Those amounts include Nagano Prefecture's ¥100 share",
+     "Hakuba's bands become ¥300, ¥500, ¥1,000 and ¥2,000"
     ]
    },
    "watch": "Hakuba[^.]{0,80}¥(1,900|900|400)[^.]{0,40}night"

@@ -31,6 +31,10 @@
     "articles/where-to-stay-in-paris.html": [
      "€8.45 a night at a four-star, €5.53 at a three-star",
      "A couple spending four nights in a four-star hotel pays €67.60"
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+     "€8.45 a person a night at a four-star hotel",
+     "Unclassified lodging pays 5% of the per-person price, capped at €15.93"
     ]
    },
    "watch": "(taxe de séjour|Paris[^.]{0,60}(tourist|hotel) tax)[^.]{0,80}€\\s?\\d"

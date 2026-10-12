@@ -567,6 +567,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/hotel-taxes-around-the-world-2026.html": (
+        "Hotel Taxes Around the World (2026)",
+        "What Paris, New York, Tokyo, Kyoto, Hong Kong and more add to a hotel room, checked at official sources.",
+    ),
     "articles/where-to-stay-in-hakuba.html": (
         "Where to Stay in Hakuba",
         "The 2026/27 season and lift prices, six areas from Happo to Cortina, 10 hotels, and the hotel tax since June 2026.",
@@ -1861,6 +1865,13 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/hotel-taxes-around-the-world-2026.html": [
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-new-york.html",
+        "articles/where-to-stay-in-tokyo.html",
     ],
     "articles/best-esim-usa-2026.html": [
         "articles/where-to-stay-in-new-york.html",
