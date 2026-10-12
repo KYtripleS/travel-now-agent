@@ -1214,23 +1214,29 @@ def add_quick_picks(soup: BeautifulSoup, slug: str, article: Tag) -> int:
 # the booking site) and, where we have one, our guide to the city's areas.
 # (city, stay22.PAGES slug or None, area label, address when there is no guide)
 CITY_RATES = {
+    # Ordered by worldwide demand, not by our Japan depth: the site's ChatGPT readers
+    # come mostly from the US, Australia, India and Europe (GA4, Sep-Oct 2026).
     "hotel-booking-sites-comparison": [
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
+        ("Paris", "where-to-stay-in-paris", None, None),
+        ("New York", "where-to-stay-in-new-york", None, None),
+        ("Bangkok", "where-to-stay-in-bangkok", None, None),
+        ("Seoul", "where-to-stay-in-seoul", None, None),
+        ("Singapore", "where-to-stay-in-singapore", None, None),
+        ("Hong Kong", "where-to-stay-in-hong-kong", None, None),
         ("Kyoto", "where-to-stay-in-kyoto", None, None),
         ("Osaka", "where-to-stay-in-osaka", None, None),
+        ("Sydney", "where-to-stay-in-sydney", None, None),
+        ("Taipei", "where-to-stay-in-taipei", None, None),
+        ("Kuala Lumpur", "where-to-stay-in-kuala-lumpur", None, None),
+        ("Melbourne", "where-to-stay-in-melbourne", None, None),
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
-        ("Seoul", "where-to-stay-in-seoul", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
-        ("Bangkok", "where-to-stay-in-bangkok", None, None),
-        ("Hong Kong", "where-to-stay-in-hong-kong", None, None),
-        ("Taipei", "where-to-stay-in-taipei", None, None),
-        ("Singapore", "where-to-stay-in-singapore", None, None),
-        ("Kuala Lumpur", "where-to-stay-in-kuala-lumpur", None, None),
-        ("Sydney", "where-to-stay-in-sydney", None, None),
-        ("Melbourne", "where-to-stay-in-melbourne", None, None),
     ],
 }
+CITY_RATES_FULL = 8          # cities with a rates line; the rest share one line of guide links
+CITY_RATES_MORE = "More city guides:"
 CITY_RATES_H = "Looking for a hotel now?"
 CITY_RATES_BLURB = ("Pick the city. The first link opens the hotels around a central spot on a booking "
                     "site chosen by our partner Stay22, which pays us a commission if you book through "
@@ -1244,7 +1250,10 @@ def add_city_rates(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     b = soup.new_tag("p", attrs={"class": "gy-city-rates-blurb"})
     b.string = CITY_RATES_BLURB
     ul = soup.new_tag("ul", attrs={"class": "gy-city-rates-list"})
-    for city, guide, area, address in CITY_RATES[slug]:
+    rows = CITY_RATES[slug]
+    # On a phone each city takes two lines; past the first eight the list pushed the
+    # article down by over a thousand pixels, so the rest share one line of guide links.
+    for city, guide, area, address in rows[:CITY_RATES_FULL]:
         if guide:
             page = stay22.PAGES[guide]
             href, area = stay22.area_rates(page["lat"], page["lng"]), page["area"]
@@ -1262,12 +1271,70 @@ def add_city_rates(soup: BeautifulSoup, slug: str, article: Tag) -> int:
             li.extend([" · ", g])
         ul.append(li)
     box.extend([h, b, ul])
-    for sel in ("details.gy-toc", "p.gy-promise", "aside.gy-verdict"):
+    more = [(city, guide) for city, guide, _, _ in rows[CITY_RATES_FULL:] if guide]
+    if more:
+        line = soup.new_tag("p", attrs={"class": "gy-city-rates-blurb"})
+        line.append(CITY_RATES_MORE + " ")
+        for i, (city, guide) in enumerate(more):
+            if i:
+                line.append(" · ")
+            g = soup.new_tag("a", attrs={"href": f"{guide}.html"})
+            g.string = city
+            line.append(g)
+        box.append(line)
+    for sel in ("p.gy-promise", "aside.gy-verdict"):     # above the contents list: in the first screen
         anchor = article.select_one(sel)
         if anchor is not None and anchor.parent is article:
             anchor.insert_after(box)
-            return len(CITY_RATES[slug])
+            return len(rows)
     return 0
+
+
+# --- "for your trip" pickers --------------------------------------------------------
+# The broad comparisons ChatGPT sends readers to answer "which platform", not "for my
+# trip", and those readers leave within seconds (GA4, Sep-Oct 2026: 6-15 s, almost no
+# clicks). One line under the verdict sends each to the page for their own trip.
+# slug -> (label, lead, [(link text, href)])
+PICKERS = {
+    "klook-vs-viator-vs-getyourguide": ("For your trip", "Booking one tour? We compared the platforms for each:", [
+        ("Tokyo food tours", "where-to-book-tokyo-food-tour.html"),
+        ("Mount Fuji day tours", "where-to-book-mount-fuji-day-tour.html"),
+        ("Seoul DMZ tours", "where-to-book-seoul-dmz-tour.html"),
+        ("Jeju bus tours", "where-to-book-jeju-bus-tour.html"),
+        ("Taipei day tours", "where-to-book-taipei-day-tour.html"),
+        ("Bangkok dinner cruises", "where-to-book-bangkok-dinner-cruise.html"),
+        ("Halong Bay cruises", "where-to-book-halong-bay-cruise.html"),
+        ("Sydney harbour cruises", "where-to-book-sydney-harbour-cruise.html"),
+    ]),
+    "best-travel-esim-2026": ("For your trip", "Going to one country? Our pick for each:", [
+        ("Japan", "best-esim-japan-2026.html"),
+        ("South Korea", "best-esim-south-korea-2026.html"),
+        ("Taiwan", "best-esim-taiwan-2026.html"),
+        ("Thailand", "best-esim-thailand-2026.html"),
+        ("Vietnam", "best-esim-vietnam-2026.html"),
+        ("Australia", "best-esim-australia-2026.html"),
+        ("Europe", "best-esim-europe-2026.html"),
+        ("the USA", "best-esim-usa-2026.html"),
+    ]),
+}
+
+
+def add_picker(soup: BeautifulSoup, slug: str, article: Tag) -> bool:
+    label, lead, links = PICKERS[slug]
+    line = soup.new_tag("p", attrs={"class": "gy-picker", "data-aeo": "1", "data-label": label})
+    line.append(lead + " ")
+    for i, (text, href) in enumerate(links):
+        if i:
+            line.append(" · ")
+        a = soup.new_tag("a", attrs={"href": href})
+        a.string = text
+        line.append(a)
+    for sel in ("p.gy-promise", "aside.gy-verdict"):
+        anchor = article.select_one(sel)
+        if anchor is not None and anchor.parent is article:
+            anchor.insert_after(line)
+            return True
+    return False
 
 
 # --- "where to stay" pointers ------------------------------------------------------
@@ -1509,6 +1576,22 @@ STAY_POINTERS = {
     "best-esim-europe-2026": ("intro",
         f'Starting in Paris? <a href="{_PA}">Where to stay in Paris</a> compares seven areas, from the Marais to '
         'Montmartre, with the 2026 hotel tax and the airport train that opens in March 2027.'),
+    # Pages Google already indexes and shows (GSC, Oct 2026) pointing to stay guides it has not indexed yet
+    "travel-insurance-japan": ("intro",
+        f'Planning where to sleep, too? <a href="{_JP}">Where to stay in Japan</a> splits a first trip of seven to '
+        'ten days between Tokyo and Kyoto or Osaka, with the lodging tax each city adds and when to book.'),
+    "best-esim-japan-2026": ("intro",
+        f'Still choosing a base? <a href="{_T}">Where to stay in Tokyo</a> starts with the station, then compares '
+        'six neighbourhoods, from Shinjuku to Asakusa, and 17 hotels.'),
+    "suica-pasmo-ic-cards-guide": ("intro",
+        f'Tapping in every day? <a href="{_T}">Where to stay in Tokyo</a> picks the station before the hotel, '
+        'then compares six neighbourhoods, from Shinjuku to Ueno, and 17 hotels.'),
+    "best-esim-south-korea-2026": ("intro",
+        f'Choosing a base in Seoul? <a href="{_SE}">Where to stay in Seoul</a> compares five areas, from Myeongdong '
+        'to Gangnam, and 12 hotels, with the airport train from Hongdae and Seoul Station.'),
+    "best-esim-thailand-2026": ("intro",
+        f'Landing in Bangkok? <a href="{_BK}">Where to stay in Bangkok</a> compares five areas, from Sukhumvit to '
+        'the Riverside and the Old Town, and names 12 hotels.'),
     "best-esim-usa-2026": ("intro",
         f'Flying into New York? <a href="{_NYC}">Where to stay in New York</a> compares six areas, from Midtown '
         'to Brooklyn, with the 14.75% hotel tax and the free bus from LaGuardia.'),
@@ -1608,6 +1691,8 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
             out["quick_picks"] = add_quick_picks(soup, slug, article)
         if slug in CITY_RATES:
             out["city_rates"] = add_city_rates(soup, slug, article)
+        if slug in PICKERS:
+            out["picker"] = add_picker(soup, slug, article)
         if slug in STAY_POINTERS:
             out["pointer"] = add_stay_pointer(soup, slug, article)
     add_social_meta.apply(soup)

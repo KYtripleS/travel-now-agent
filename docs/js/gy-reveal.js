@@ -160,6 +160,10 @@
        tells us which pages feed the hotel pages */
     var sp = e.target.closest('.gy-stay-pointer a');
     if (sp && window.gtag) gtag('event', 'stay_pointer_click', { page: location.pathname, target: sp.getAttribute('href') });
+    /* a broad comparison sending its reader to the page for their own trip
+       (add_aeo.PICKERS, and the city list's "our area guide" links) */
+    var pk = e.target.closest('.gy-picker a, .gy-city-rates-list a[href$=".html"]');
+    if (pk && window.gtag) gtag('event', 'picker_click', { page: location.pathname, target: pk.getAttribute('href') });
   }
   document.addEventListener('click', onClick, true);
   document.addEventListener('auxclick', onClick, true);

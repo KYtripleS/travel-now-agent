@@ -4709,3 +4709,16 @@ body .dr-emailbox input, body .dr-emailbox button, body .dr-endctas a { border-r
 body .rsp-buy, body .rsp-tag { border-radius: 3px; }
 body .rsp-feat { border-radius: 4px; }
 .gy-topnav-brand { font-family: var(--serif); font-weight: 600; letter-spacing: -.01em; }
+
+/* 7. "For your trip" pickers (add_aeo.PICKERS): one line under a broad comparison's
+   verdict, in the stay pointer's voice, sending each reader to the page for their own trip */
+.article .gy-picker {
+  margin: 0 0 1.4em; font-family: var(--serif); font-style: italic; font-size: 1.04rem;
+  line-height: 1.55; color: var(--ink-soft);
+}
+.article .gy-picker::before {
+  content: attr(data-label); display: block; margin-bottom: 4px; font-family: var(--sans);
+  font-style: normal; font-size: .66rem; font-weight: 700; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--gold-ink);
+}
+.article .gy-picker a { font-style: normal; }
