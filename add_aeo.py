@@ -1533,9 +1533,6 @@ STAY_POINTERS = {
     "things-to-do-in-seoul": ("Myeongdong, Insadong",
         f'Staying in one of these? <a href="{_SE}">Where to stay in Seoul</a> compares them as bases and names 12 '
         'hotels, including a hanok in Bukchon.'),
-    "seoul-itinerary-3-days": ("The practical spine",
-        f'For a base that suits these three days, <a href="{_SE}">where to stay in Seoul</a> compares five areas and '
-        'names 12 hotels.'),
     "how-much-does-south-korea-cost": ("Accommodation",
         f'Pricing the beds in Seoul? <a href="{_SE}">Where to stay in Seoul</a> names 12 hotels by area, from a '
         'mid-range base in Myeongdong to Signiel on the 76th floor and up. For Busan, <a '

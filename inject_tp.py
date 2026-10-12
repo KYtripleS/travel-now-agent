@@ -214,11 +214,6 @@ REGISTRY: dict[str, str] = {
         "Self-guided Kyoto walks you can start on arrival, plus current fares and "
         "skip-the-line tickets.",
         "1857910", ["wegotrip", "aviasales", "tiqets"]),
-    "articles/seoul-itinerary-3-days.html": hub(
-        "Tours &amp; getting to Seoul",
-        "Self-guided Seoul tours you can start on arrival, plus fares, tickets, and "
-        "local experiences.",
-        "1835848", ["wegotrip", "aviasales", "tiqets", "klook"]),
     "articles/japan-autumn-2026.html": cta(
         "Planning your Japan autumn trip",
         ["aviasales", "tiqets"]),

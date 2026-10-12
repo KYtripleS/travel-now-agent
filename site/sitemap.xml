@@ -439,12 +439,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gentlyyonder.com/articles/seoul-itinerary-3-days.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://gentlyyonder.com/articles/jet-lag-what-actually-works.html</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -479,12 +473,6 @@
     <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/rehearsal.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gentlyyonder.com/articles/narita-haneda-to-central-tokyo.html</loc>
@@ -829,12 +817,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gentlyyonder.com/contribute.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://gentlyyonder.com/articles/pre-flight-checklist-48-hours.html</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -1130,12 +1112,6 @@
   </url>
   <url>
     <loc>https://gentlyyonder.com/stay/index.html</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gentlyyonder.com/food/index.html</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

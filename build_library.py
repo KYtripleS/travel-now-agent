@@ -352,6 +352,8 @@ travel preparation, from eSIMs to itineraries.</p>
 # Section fronts for the stay and food pillars. Like all-guides.html these pages
 # are generated whole, so a new guide appears on its hub the moment it is
 # published with the right label (site_taxonomy).
+HUB_MIN_GUIDES = 4
+
 HUBS = {
     "stay/index.html": dict(
         title="Where to Stay: Neighbourhoods and Hotels, City by City | Gently Yonder",
@@ -406,6 +408,10 @@ def render_hub(rel: str, rows: list[dict]) -> str:
                         f'  <h2>{name} <span class="gy-arch-count">{len(items)}</span></h2>\n'
                         f'  <div class="gy-lib-list">\n{lis}\n  </div>\n</section>')
     body = "\n".join(sections)
+    # A hub with only a couple of guides is a thin page: keep it out of search
+    # (and out of the sitemap) until the pillar has at least HUB_MIN_GUIDES.
+    total = sum(len([r for r in rows if r["tag"] in labels]) for _, labels in h["groups"])
+    robots = "index, follow, max-image-preview:large" if total >= HUB_MIN_GUIDES else "noindex, follow"
     nav = _nav_block("../")
     footer = _footer_block("../")
     ld = ('{"@context": "https://schema.org", "@type": "CollectionPage", '
@@ -419,7 +425,7 @@ def render_hub(rel: str, rows: list[dict]) -> str:
 <title>{h["title"]}</title>
 <meta name="description" content="{h["desc"]}" />
 <link rel="canonical" href="{url}" />
-<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="robots" content="{robots}" />
 <link rel="stylesheet" href="../style-v2.css" />
 <script type="application/ld+json">{ld}</script>
 {GA4}
@@ -519,9 +525,13 @@ def main() -> None:
 
 def _add_to_sitemap() -> None:
     urls = ["https://gentlyyonder.com/all-guides.html"] + [
-        f"https://gentlyyonder.com/{rel}" for rel in HUBS]
+        f"https://gentlyyonder.com/{rel}" for rel in HUBS
+        if not _noindex(REPO / "site" / rel)]
+    held = [f"https://gentlyyonder.com/{rel}" for rel in HUBS if _noindex(REPO / "site" / rel)]
     for p in (REPO / "site" / "sitemap.xml", REPO / "docs" / "sitemap.xml"):
         s = p.read_text(encoding="utf-8")
+        for url in held:
+            s = re.sub(r"\s*<url>\s*<loc>" + re.escape(url) + r"</loc>.*?</url>", "", s, flags=re.S)
         for url in urls:
             if f"<loc>{url}</loc>" in s:
                 continue
