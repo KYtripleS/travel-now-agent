@@ -141,7 +141,7 @@ BY_SLUG = {
     "best-travel-backpacks-2026-carry-on-size-limits-ergonomics-compared": "Gear",
     "how-to-avoid-international-roaming-fees-esim-vs-local-sim-vs-pocket-wifi": "Connectivity",
     "credit-card-foreign-transaction-fees-explained-best-cards-for-travel": "Money & costs",
-    "how-to-recover-cancelled-or-delayed-flights-passenger-rights-compensation": "Flight",
+    "how-to-recover-cancelled-or-delayed-flights-passenger-rights-compensation": "Flights & hotels",
     "jet-lag-protocol-science-backed-strategies-for-fast-adjustment": "Trip planning",
     # 2026-10-19 additional high-demand articles (anti-cannibalization)
     "solo-travel-safety-rules-10-practical-habits-for-safer-trips": "Insurance",
@@ -154,7 +154,6 @@ BY_SLUG = {
     "airport-layover-survival-guide-making-long-transit-hours-bearable": "Airport",
     "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
     "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Food",
-}
 }
 
 PAGE_LABEL = {                       # non-article pages that appear in the archive

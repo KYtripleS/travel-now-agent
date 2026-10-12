@@ -160,14 +160,23 @@ def page_row(rel: str) -> dict:
             "date": added_date(rel), "cat": T.section_for(tag)}
 
 
+_NOINDEX = re.compile(r'<meta(?=[^>]*\bname="robots")[^>]*\bcontent="noindex', re.I)
+
+
+def _noindex(path: Path) -> bool:
+    """Pages kept out of search (merged guides that now redirect) stay out of the library too."""
+    return bool(_NOINDEX.search(path.read_text(encoding="utf-8", errors="ignore")))
+
+
 def build_rows() -> list[dict]:
     """Every article on disk plus the destination hubs — nothing hand-kept.
 
     The old registry had drifted 41 guides behind the files, so the archive
     silently left out the whole where-to-book series among others.
     """
-    rels = [f"articles/{p.name}" for p in sorted((REPO / "site" / "articles").glob("*.html"))]
-    rels += [r for r in T.PAGE_LABEL if (REPO / "site" / r).exists()]
+    rels = [f"articles/{p.name}" for p in sorted((REPO / "site" / "articles").glob("*.html"))
+            if not _noindex(p)]
+    rels += [r for r in T.PAGE_LABEL if (REPO / "site" / r).exists() and not _noindex(REPO / "site" / r)]
     rows = [page_row(r) for r in rels]
     rows.sort(key=lambda r: r["date"], reverse=True)
     return rows
@@ -448,7 +457,7 @@ def render_hub(rel: str, rows: list[dict]) -> str:
 
 def inventory() -> dict:
     """Count what actually exists on disk — the single source of truth."""
-    arts = sorted((REPO / "site" / "articles").glob("*.html"))
+    arts = [p for p in sorted((REPO / "site" / "articles").glob("*.html")) if not _noindex(p)]
     guides = [p for p in arts if p.name not in PROFILES_IN_ARTICLES]
     dests = (sorted((REPO / "site" / "countries").glob("*/index.html"))
              + sorted((REPO / "site" / "cities").glob("*/*.html"))

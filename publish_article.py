@@ -111,10 +111,15 @@ def update_head(soup: BeautifulSoup, *, slug: str, meta: dict, label: str, body_
     title       = meta["title"]
     description = meta["description"]
     url         = article_url(slug)
+    # Optional search-result overrides, for pages whose <title> and meta description
+    # were rewritten for click-through: the H1, social cards and JSON-LD keep the
+    # editorial title and description.
+    seo_title   = meta.get("seo_title") or title
+    seo_desc    = meta.get("seo_description") or description
 
     if soup.title is not None:
-        soup.title.string = f"{title} | Gently Yonder"
-    set_meta(soup, attr="name",     key="description", value=description)
+        soup.title.string = f"{seo_title} | Gently Yonder"
+    set_meta(soup, attr="name",     key="description", value=seo_desc)
     canonical = soup.find("link", attrs={"rel": "canonical"})
     if canonical is not None:
         canonical["href"] = url

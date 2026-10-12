@@ -15,7 +15,7 @@ REWRITES = {
     ),
     "carry-on-packing-list-10-day-japan.html": (
         "10-Day Japan Carry-On Packing List (2026): Capsule Wardrobe & Tech",
-        "Tested carry-on packing list for 10 days in Japan. Complete spring/autumn/winter clothes checklist, shoe rules, train luggage limits, and tech gear."
+        "Pack 10 days in Japan into one carry-on: a capsule wardrobe by season, walking shoes, a Type A adapter and power bank, laundry and cabin bag limits."
     ),
     "airport-security-checklist.html": (
         "Airport Security Checklist 2026: 12 Pre-Flight Liquid & Tech Rules",
@@ -34,16 +34,16 @@ REWRITES = {
         "Honest guide to Tokyo's 6 best areas to stay: Shinjuku, Shibuya, Ginza, Asakusa, Ueno, and Tokyo Station compared with budget, boutique & luxury hotels."
     ),
     "pocket-wifi-vs-esim.html": (
-        "Pocket WiFi vs eSIM for Japan (2026): Speed, Cost & Data Compared",
-        "Pocket WiFi or eSIM for Japan? Detailed breakdown of speed, daily data limits, battery life, multiple device sharing, and total rental vs plan cost."
+        "Pocket WiFi vs eSIM (2026): Speed, Cost & Data Compared",
+        "Pocket WiFi or eSIM? Speed, data limits, battery life, sharing between devices and total cost compared, with simple rules for choosing on your trip."
     ),
     "japan-book-in-advance-2026.html": (
         "Japan Tickets to Book in Advance (2026): Timelines & Selling-Fast Sights",
-        "Don't miss out on Ghibli Park, TeamLab, Shibuya Sky, Shinkansen seats, and USJ Express Passes. Exact booking window timelines and release dates."
+        "Don't miss out in Japan: when to book the Ghibli Museum, teamLab, Shibuya Sky, popular parks, workshops, restaurants and ryokans, with a booking calendar."
     ),
     "what-counts-as-rude.html": (
         "Cultural Etiquette Guide: What Counts as Rude in 12 Destinations",
-        "Avoid accidental offense abroad. Tipping, shoe etiquette, public behavior, noise level, and dining manners in Japan, Europe, Southeast Asia, and USA."
+        "Avoid accidental offence abroad: tipping, shoes, gestures, noise and table manners in 12 countries, from Japan and Thailand to France, Brazil and the US."
     )
 }
 
@@ -59,6 +59,9 @@ for filename, (new_title, new_desc) in REWRITES.items():
     content = re.sub(r'<title>[^<]+</title>', f'<title>{new_title} | Gently Yonder</title>', content)
     
     # Replace or add <meta name="description">
+    # A page may already carry its description in either attribute order
+    # (<meta content=".." name="description"/> from the publisher); replace that one, never add a second.
+    content = re.sub(r'<meta content="[^"]*" name="description"/>\n?', '', content)
     if '<meta name="description"' in content:
         content = re.sub(r'<meta name="description" content="[^"]*" />', f'<meta name="description" content="{new_desc}" />', content)
     else:

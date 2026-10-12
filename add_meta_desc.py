@@ -38,7 +38,10 @@ def main():
     fixed = 0
     for f in sorted(ARTICLES.glob("*.html")):
         content = f.read_text(encoding="utf-8")
-        if '<meta name="description"' in content:
+        # Skip any page that already has a description, whatever the attribute order:
+        # the publisher writes <meta content=".." name="description"/>, and missing it
+        # here once gave 177 pages a second, truncated description.
+        if re.search(r'<meta\b(?=[^>]*\bname=["\']description["\'])', content):
             continue
         title = extract_title(content)
         if not title:
