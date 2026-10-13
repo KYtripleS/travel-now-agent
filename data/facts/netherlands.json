@@ -1,0 +1,529 @@
+{
+  "place": "Netherlands",
+  "facts": [
+    {
+      "id": "nl.amsterdam.tourist-tax",
+      "topic": "tax",
+      "claim": "Amsterdam's tourist tax (toeristenbelasting) is 12.5% of the overnight price excluding VAT, charged at hotels, hostels, guesthouses, B&Bs, apartments, short-stay rentals and campsites.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.amsterdam.nl/en/municipal-taxes/tourist-tax/",
+          "kind": "official",
+          "title": "City of Amsterdam: Tourist tax (toeristenbelasting)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "12.5% of the room price, excluding VAT",
+          "a third on top of the base rate"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.day-tourist-tax",
+      "topic": "tax",
+      "claim": "Amsterdam charges cruise operators a day tourist tax of €15 per passenger for day visits.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.amsterdam.nl/en/municipal-taxes/tourist-tax/",
+          "kind": "official",
+          "title": "City of Amsterdam: Tourist tax (toeristenbelasting)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "a day tourist tax of €15 per passenger"
+        ]
+      }
+    },
+    {
+      "id": "nl.vat.accommodation-2026",
+      "topic": "tax",
+      "claim": "From 1 January 2026 the Dutch VAT rate on short-stay accommodation in hotels, guesthouses and holiday businesses is 21% (previously 9%).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/btw-logies",
+          "kind": "official",
+          "title": "Belastingdienst: Btw-tarief logies"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "21% of the room price (it was 9%)",
+          "VAT on a hotel room rose from 9% to 21%"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.tax-worked-example",
+      "topic": "tax",
+      "claim": "Worked example (our arithmetic): a €200 room before VAT plus 21% VAT (€42) and 12.5% tourist tax (€25) costs €267 a night; three nights €801, of which €201 is tax.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.amsterdam.nl/en/municipal-taxes/tourist-tax/",
+          "kind": "official",
+          "title": "City of Amsterdam: Tourist tax (toeristenbelasting)"
+        },
+        {
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/btw-logies",
+          "kind": "official",
+          "title": "Belastingdienst: Btw-tarief logies"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "so the night costs €267",
+          "Three nights cost €801, of which €201 is tax"
+        ]
+      }
+    },
+    {
+      "id": "nl.schiphol.train-frequency",
+      "topic": "transport",
+      "claim": "Trains run eight times an hour between Schiphol and Amsterdam Centraal, taking about 17 minutes; the station is directly below the terminal.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.schiphol.nl/en/from-to-schiphol/by-public-transport/train/",
+          "kind": "official",
+          "title": "Schiphol: Travelling from or to Amsterdam Schiphol airport by train"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "trains run eight times an hour to Amsterdam Centraal, in about 17 minutes"
+        ]
+      }
+    },
+    {
+      "id": "nl.ns.schiphol-centraal-fare",
+      "topic": "fare",
+      "claim": "An NS single from Schiphol Airport to Amsterdam Centraal, second class, full fare, is €5.50 (NS journey planner, October 2026); single-use chip cards carry a €1.60 surcharge in 2026.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.ns.nl/en/journeyplanner/",
+          "kind": "operator",
+          "title": "NS journey planner (Schiphol Airport to Amsterdam Centraal, single, 2nd class, full fare: 550 cents)"
+        },
+        {
+          "url": "https://www.ns.nl/binaries/_ht_1762337703133/content/assets/ns-nl/tarieven/2026/ns-prijslijst-2026-nl.pdf",
+          "kind": "operator",
+          "title": "NS Tarieven Consumenten 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "gives €5.50 for a single in second class",
+          "adds a €1.60 surcharge"
+        ]
+      }
+    },
+    {
+      "id": "nl.connexxion.397-fare",
+      "topic": "fare",
+      "claim": "The Amsterdam Airport Express (line 397, Niteliner N97 at night) costs from €6.50 single and from €11.75 return; it departs every 10 minutes from stop B17 and stops at Museumplein, the Rijksmuseum and Leidseplein; drivers take debit or credit cards, not cash; OVpay accepted.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.connexxion.nl/en/our-routes/special-routes/amsterdam-airport-express",
+          "kind": "operator",
+          "title": "Connexxion: Amsterdam Airport Express"
+        },
+        {
+          "url": "https://www.schiphol.nl/en/from-to-schiphol/by-public-transport/bus/",
+          "kind": "official",
+          "title": "Schiphol: Travelling to Schiphol airport by bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "A single costs from €6.50 and a return from €11.75",
+          "leaves every 10 minutes from stop B17"
+        ]
+      }
+    },
+    {
+      "id": "nl.schiphol.bus-station-renovation",
+      "topic": "transport",
+      "claim": "Schiphol's bus station is being renovated and some buses temporarily depart from and arrive at different locations.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.schiphol.nl/en/from-to-schiphol/by-public-transport/bus/",
+          "kind": "official",
+          "title": "Schiphol: Travelling to Schiphol airport by bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "Schiphol's bus station is being renovated"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.travel-ticket-2026",
+      "topic": "fare",
+      "claim": "The Amsterdam Travel Ticket costs €20 (1 day), €27 (2 days) and €34 (3 days) in 2026, with unlimited travel to and from Schiphol and throughout Amsterdam.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gvb.nl/en/travel-products/tourists/amsterdam-travel-ticket",
+          "kind": "operator",
+          "title": "GVB: Amsterdam Travel Ticket"
+        },
+        {
+          "url": "https://www.ns.nl/binaries/_ht_1762337703133/content/assets/ns-nl/tarieven/2026/ns-prijslijst-2026-nl.pdf",
+          "kind": "operator",
+          "title": "NS Tarieven Consumenten 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "€20 for one day, €27 for two and €34 for three in 2026"
+        ]
+      }
+    },
+    {
+      "id": "nl.gvb.1-hour-ticket-2026",
+      "topic": "fare",
+      "claim": "A GVB 1 hour ticket costs €3.40 in 2026.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gvb.nl/en/travel-products/hour-and-day-tickets/gvb-1-hour-ticket",
+          "kind": "operator",
+          "title": "GVB 1 hour ticket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "A GVB 1-hour ticket is €3.40"
+        ]
+      }
+    },
+    {
+      "id": "nl.gvb.max-cap",
+      "topic": "fare",
+      "claim": "With OVpay (contactless debit/credit card, phone or OV-pas) GVB charges at most €10.50 per day for GVB trips; not valid on night buses or with the OV-chipkaart.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gvb.nl/en/max-en",
+          "kind": "operator",
+          "title": "GVB Max"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "at €10.50 (night buses excluded)"
+        ]
+      }
+    },
+    {
+      "id": "nl.gvb.ovpay-cards",
+      "topic": "transport",
+      "claim": "OVpay accepts contactless Maestro, V PAY, Mastercard and Visa cards and payment apps; check in and out with the same card; tickets cannot be bought on buses or on trams without a conductor.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gvb.nl/en/visit-amsterdam/tourist-guide-en",
+          "kind": "operator",
+          "title": "GVB: tourist information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "Pay by tapping a Maestro, V PAY, Mastercard or Visa card"
+        ]
+      }
+    },
+    {
+      "id": "nl.gvb.ferries-free",
+      "topic": "transport",
+      "claim": "A crossing with most GVB ferries is free for pedestrians and cyclists.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gvb.nl/en/visit-amsterdam/gvb-public-transport-company-amsterdam",
+          "kind": "operator",
+          "title": "GVB: the public transport company of Amsterdam"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "most GVB ferries are free for people on foot and on bikes"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.canal-ring-unesco",
+      "topic": "history",
+      "claim": "The Seventeenth-Century Canal Ring Area of Amsterdam inside the Singelgracht was inscribed as a UNESCO World Heritage Site in 2010; it was built at the end of the 16th and beginning of the 17th centuries on drained swampland in concentric arcs.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1349/",
+          "kind": "official",
+          "title": "UNESCO: Seventeenth-Century Canal Ring Area of Amsterdam inside the Singelgracht"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "UNESCO inscribed it as a World Heritage Site in 2010"
+        ]
+      }
+    },
+    {
+      "id": "eu.etias.status-2026-10",
+      "topic": "place",
+      "claim": "ETIAS is not in operation and no applications are collected; the EU will announce the start date several months ahead; the fee will be EUR 20.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://travel-europe.europa.eu/en/etias",
+          "kind": "official",
+          "title": "European Union: ETIAS"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "ETIAS is not running yet",
+          "the fee will be €20"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.pulitzer",
+      "topic": "hotel",
+      "claim": "Pulitzer Amsterdam is a 5-star hotel in 25 restored 17th- and 18th-century canal houses at Prinsengracht 323; Cosy Rooms are its smallest.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.pulitzeramsterdam.com/",
+          "kind": "official",
+          "title": "Pulitzer Amsterdam"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "A five-star in 25 restored canal houses"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.ambassade",
+      "topic": "hotel",
+      "claim": "Ambassade Hotel (Herengracht 341), open since 1953, has 56 rooms and suites across sixteen canal houses, and a Library Bar of more than 5,000 signed books.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://ambassade-hotel.nl/",
+          "kind": "official",
+          "title": "Ambassade Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "56 rooms and suites across sixteen canal houses",
+          "more than 5,000 books"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.mr-jordaan",
+      "topic": "hotel",
+      "claim": "Mr. Jordaan (Bloemgracht 102) has single rooms of 11 m², doubles from 13 m² and twins of 15 m².",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://mrjordaan.nl/rooms/",
+          "kind": "official",
+          "title": "Mr. Jordaan: Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "single rooms of 11 m², doubles from 13 m²"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.linden",
+      "topic": "hotel",
+      "claim": "Linden Hotel (Lindengracht 251) is in a flatiron building; its doubles and twins are 11 to 14 m²; it takes no extra beds, groups over eight or more than three rooms.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://lindenhotel.nl/rooms/",
+          "kind": "official",
+          "title": "Linden Hotel: Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "doubles and twins of 11 to 14 m²"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.conservatorium",
+      "topic": "hotel",
+      "claim": "Mandarin Oriental Conservatorium (Paulus Potterstraat 50) is in a late-19th-century former national savings bank and music conservatory; Stedelijk 1 min, Van Gogh Museum 2 min, Rijksmuseum 6 min on foot by the hotel's count.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/amsterdam/conservatorium",
+          "kind": "official",
+          "title": "Mandarin Oriental Conservatorium, Amsterdam"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "the Stedelijk is a minute away on foot, the Van Gogh Museum two and the Rijksmuseum six"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.fita",
+      "topic": "hotel",
+      "claim": "Hotel Fita (Jan Luijkenstraat 37) has 21 rooms; twins 20 m², Superior Doubles 27 m²; breakfast €17.50 per person if not included; air conditioning only in some rooms.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://fita.nl/",
+          "kind": "official",
+          "title": "Hotel Fita"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "twins of 20 m² and Superior Doubles of 27 m²",
+          "breakfast is €17.50 a person"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.okura",
+      "topic": "hotel",
+      "claim": "Hotel Okura Amsterdam occupies a 23-storey building on the outskirts of De Pijp, with four restaurants holding three Michelin stars between them.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.okura.nl/",
+          "kind": "official",
+          "title": "Hotel Okura Amsterdam"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "four restaurants holding three Michelin stars between them"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.sir-albert",
+      "topic": "hotel",
+      "claim": "Sir Albert (Albert Cuypstraat 2-6) is a former diamond factory; its gym is at Albert Cuypstraat 44.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.sirhotels.com/en/albert/",
+          "kind": "official",
+          "title": "Sir Albert"
+        },
+        {
+          "url": "https://sirclecollection.com/our-collections/hotels/sir-albert/",
+          "kind": "official",
+          "title": "Sircle Collection: Sir Albert"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "A former diamond factory on the Albert Cuypstraat"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.barbizon",
+      "topic": "hotel",
+      "claim": "NH Collection Amsterdam Barbizon Palace (Prins Hendrikkade 59-72), opposite Centraal, has 268 rooms across 17th-century houses; all rooms include stairs.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.nh-hotels.com/en/hotel/nh-collection-amsterdam-barbizon-palace",
+          "kind": "official",
+          "title": "NH Collection Amsterdam Barbizon Palace"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "268 rooms across a row of 17th-century houses"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.sint-nicolaas",
+      "topic": "hotel",
+      "claim": "Hotel Sint Nicolaas (Spuistraat 1a) has a lift and 24-hour reception; doubles 21 m², twins 19 m²; no facilities for disabled guests; online check-in, rooms from 14:00.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.hotelnicolaas.nl/en/",
+          "kind": "official",
+          "title": "Hotel Sint Nicolaas"
+        },
+        {
+          "url": "https://www.hotelnicolaas.nl/en/faq",
+          "kind": "official",
+          "title": "Hotel Sint Nicolaas: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "doubles of 21 m², twins of 19 m²"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.sir-adam",
+      "topic": "hotel",
+      "claim": "Sir Adam (Overhoeksplein 7) is in the 22-storey A'DAM Tower, a free three-minute ferry ride from Centraal.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.sirhotels.com/en/adam/",
+          "kind": "official",
+          "title": "Sir Adam"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "In the 22-storey A'DAM Tower"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.hotel.clinknoord",
+      "topic": "hotel",
+      "claim": "ClinkNOORD (Badhuiskade 3) is in a 1920s Art Deco laboratory; private en-suite rooms for 1 to 6, dorms of up to 14 beds; check-out by 10am.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.clinkhostels.com/amsterdam/clinknoord/",
+          "kind": "official",
+          "title": "ClinkNOORD"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam.html": [
+          "dorms sleep up to 14, and check-out is by 10am"
+        ]
+      }
+    }
+  ]
+}

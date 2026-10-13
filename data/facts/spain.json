@@ -1,0 +1,348 @@
+{
+  "place": "Spain",
+  "facts": [
+    {
+      "id": "es.barcelona.tourist-tax-2026",
+      "topic": "tax",
+      "claim": "From 1 April 2026 to 31 March 2027 Barcelona's tourist tax (Catalan rate + €5 city surcharge) is €12 a person a night at five-star and grand luxe hotels, €8.40 at four-star, €9.50 in tourist flats, €6 in youth hostels and €7 in other establishments, including three-star hotels.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+          "kind": "official",
+          "title": "Agència Tributària de Catalunya: quota tributària, tarifes i recàrrecs municipals"
+        },
+        {
+          "url": "https://atc.gencat.cat/web/.content/atc_tributs/ieet/documents/IEET-info-rates-en.pdf",
+          "kind": "official",
+          "title": "Agència Tributària de Catalunya: Tax on stays in tourism establishments in Catalonia (rates, PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "the two come to €8.40 a person a night at a four-star hotel and €12 at a five-star",
+          "From 1 April 2026 to 31 March 2027"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.tourist-tax-surcharge-schedule",
+      "topic": "tax",
+      "claim": "Barcelona's ordinance 2.2 (approved 30 January 2026) phases the city surcharge in: €5 from 1 April 2026, €6 from 1 April 2027, €7 from 1 April 2028, reaching the €8 maximum from 1 April 2029.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://ajuntament.barcelona.cat/hisenda/sites/default/files/normativa/2026-02/2.2-ordenanca-recarrec-turistic.pdf",
+          "kind": "official",
+          "title": "Ajuntament de Barcelona: Ordenança fiscal 2.2, recàrrec sobre l'impost sobre les estades en establiments turístics (PDF)"
+        },
+        {
+          "url": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+          "kind": "official",
+          "title": "Agència Tributària de Catalunya: quota tributària, tarifes i recàrrecs municipals"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "sets it at €6 from 1 April 2027, €7 from 1 April 2028 and €8 from 1 April 2029",
+          "the city's part rises by €1 every April until 2029"
+        ]
+      }
+    },
+    {
+      "id": "es.catalonia.tourist-tax-rules",
+      "topic": "tax",
+      "claim": "Catalonia's tax on stays exempts under-17s, is charged for at most 7 nights per person per continuous stay in one establishment, applies the rate in force at booking if the booking and tax are paid then, and forms part of the VAT base.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://atc.gencat.cat/ca/tributs/ieet/",
+          "kind": "official",
+          "title": "Agència Tributària de Catalunya: Impost sobre les estades en establiments turístics"
+        },
+        {
+          "url": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+          "kind": "official",
+          "title": "Agència Tributària de Catalunya: quota tributària, tarifes i recàrrecs municipals"
+        },
+        {
+          "url": "https://atc.gencat.cat/web/.content/atc_tributs/ieet/documents/IEET-info-rates-en.pdf",
+          "kind": "official",
+          "title": "Agència Tributària de Catalunya: Tax on stays in tourism establishments in Catalonia (rates, PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "Under-17s pay nothing.",
+          "The tax stops after seven nights per person in the same place over a continuous stay",
+          "if you pay the booking and the tax when you book"
+        ]
+      }
+    },
+    {
+      "id": "es.catalonia.municipal-surcharges-2026-10",
+      "topic": "tax",
+      "claim": "From 1 October 2026 El Prat de Llobregat and L'Hospitalet de Llobregat (among others) add municipal surcharges; a four-star there pays €1.80 + €1.80 = €3.60 a person a night.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+          "kind": "official",
+          "title": "Agència Tributària de Catalunya: quota tributària, tarifes i recàrrecs municipals"
+        },
+        {
+          "url": "https://atc.gencat.cat/web/.content/atc_tributs/ieet/documents/IEET-info-rates-en.pdf",
+          "kind": "official",
+          "title": "Agència Tributària de Catalunya: Tax on stays in tourism establishments in Catalonia (rates, PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "a four-star there costs €3.60 a person a night in all"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.tourist-tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: a couple, four nights, four-star = 2 × 4 × €8.40 = €67.20; five-star = 2 × 4 × €12 = €96.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+          "kind": "official",
+          "title": "Agència Tributària de Catalunya: quota tributària, tarifes i recàrrecs municipals"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "pays €67.20 on top of the room",
+          "The same four nights in a five-star cost €96"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.aerobus",
+      "topic": "fare",
+      "claim": "The Aerobús (A1 to T1, A2 to T2) runs 24 hours a day all year; a single is €7.75 and a return €13.30, under-4s free; into town it stops at Plaça d'Espanya, Gran Via–Borrell, Plaça Universitat and Plaça de Catalunya.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://aerobusbarcelona.es/en/rates/",
+          "kind": "operator",
+          "title": "Aerobús: rates"
+        },
+        {
+          "url": "https://aerobusbarcelona.es/en/lines-stops-and-schedules/",
+          "kind": "operator",
+          "title": "Aerobús: lines, stops and schedules"
+        },
+        {
+          "url": "https://aerobusbarcelona.es/en/faqs/",
+          "kind": "operator",
+          "title": "Aerobús: FAQs"
+        },
+        {
+          "url": "https://www.aena.es/en/josep-tarradellas-barcelona-el-prat/getting-there/bus.html",
+          "kind": "official",
+          "title": "Aena: buses at Josep Tarradellas Barcelona-El Prat"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "A single costs €7.75 and a return €13.30",
+          "24 hours a day, every day of the year"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.r2-nord-airport",
+      "topic": "transport",
+      "claim": "The R2 Nord train leaves from T2 roughly every 30 minutes from 6am to midnight, stopping at Sants, Passeig de Gràcia and El Clot-Aragó; all integrated travel cards are valid on Rodalies to and from the airport; free T1–T2 shuttle.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.atm.cat/en/com-arribar-a-barcelona-des-de-l-aeroport",
+          "kind": "official",
+          "title": "ATM: getting from Barcelona Airport to the city centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "roughly every 30 minutes from 6am to midnight",
+          "Every integrated travel card, the T-casual included, is valid on it"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.l9-sud-airport",
+      "topic": "transport",
+      "claim": "Metro L9 Sud serves T1 and T2 every 7 minutes; TMB gives 32 minutes to the centre; the Airport ticket is €5.90; single tickets and the T-casual are not valid at the airport stations.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.tmb.cat/en/visit-barcelona/public-transport/metro-airport",
+          "kind": "operator",
+          "title": "TMB: from the airport by metro, L9 Sud"
+        },
+        {
+          "url": "https://www.tmb.cat/en/barcelona-fares-metro-bus",
+          "kind": "operator",
+          "title": "TMB: tickets and fares"
+        },
+        {
+          "url": "https://www.atm.cat/en/com-arribar-a-barcelona-des-de-l-aeroport",
+          "kind": "official",
+          "title": "ATM: getting from Barcelona Airport to the city centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "The airport stations need the Airport ticket, €5.90",
+          "puts the trip to the centre at 32 minutes"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.single-ticket",
+      "topic": "fare",
+      "claim": "A TMB single ticket (metro, bus, Montjuïc funicular) costs €2.90 in 2026.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.tmb.cat/en/barcelona-fares-metro-bus",
+          "kind": "operator",
+          "title": "TMB: tickets and fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "a single metro or bus ticket is €2.90"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.t-casual",
+      "topic": "fare",
+      "claim": "The one-zone T-casual costs €13 for 10 integrated journeys, with up to 3 transfers within 75 minutes.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.atm.cat/en/titols-tarifes/titols-i-tarifes/t-casual",
+          "kind": "official",
+          "title": "ATM: T-casual"
+        },
+        {
+          "url": "https://www.tmb.cat/en/barcelona-fares-metro-bus",
+          "kind": "operator",
+          "title": "TMB: tickets and fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "The T-casual, €13 for one zone, gives 10 journeys"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.hola-barcelona",
+      "topic": "fare",
+      "claim": "The Hola Barcelona Travel Card gives unlimited travel for 1–5 days from €12.50 (24 h), 10% off online, and includes one metro trip from and one to the airport.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.holabarcelona.com/tickets/hola-bcn-barcelona-travel-card",
+          "kind": "operator",
+          "title": "Hola Barcelona Travel Card"
+        },
+        {
+          "url": "https://www.tmb.cat/en/barcelona-fares-metro-bus",
+          "kind": "operator",
+          "title": "TMB: tickets and fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "from €12.50 for 24 hours (10% less online)"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.metro-hours",
+      "topic": "transport",
+      "claim": "Barcelona's metro runs 5am–midnight Monday to Thursday, until 2am on Fridays and eves of holidays, and non-stop on Saturday nights.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.atm.cat/en/com-arribar-a-barcelona-des-de-l-aeroport",
+          "kind": "official",
+          "title": "ATM: getting from Barcelona Airport to the city centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "runs from 5am to midnight Monday to Thursday"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.hotel-neri",
+      "topic": "hotel",
+      "claim": "Hotel Neri: 22 rooms and suites in two historic buildings, one a 12th-century palace, on Plaça Sant Felip Neri (Carrer de Sant Sever 5); only the Deluxe Balcony room has a balcony on the square; the hotel's 'Momento Neri' package (one night Deluxe with breakfast) is €530.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.hotelneri.com/",
+          "kind": "official",
+          "title": "Hotel Neri"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "Twenty-two rooms and suites in two historic buildings on Plaça Sant Felip Neri",
+          "one night in a Deluxe room with breakfast costs €530"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.hotel-room-sizes",
+      "topic": "hotel",
+      "claim": "Room sizes from the hotels' own sites: Majestic entry rooms 20–25 m²; Casa Bonay Passage Mini 172 sq ft; Hotel Gótico doubles 18 m², singles 13 m², triples 24 m²; Hotel REC Quiet REC about 15 m²; Hotel Brummell 12–20 m².",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://majestichotelgroup.com/en/barcelona/hotel-majestic",
+          "kind": "official",
+          "title": "Majestic Hotel & Spa Barcelona"
+        },
+        {
+          "url": "https://casabonay.com/rooms/passage-tiny/",
+          "kind": "official",
+          "title": "Casa Bonay: Passage Mini"
+        },
+        {
+          "url": "https://www.gargallo-hotels.com/en/barcelona/hotel-gotico",
+          "kind": "official",
+          "title": "Hotel Gótico"
+        },
+        {
+          "url": "https://www.hotelrecbarcelona.com/en/quiet-rec",
+          "kind": "official",
+          "title": "Hotel REC: Quiet REC"
+        },
+        {
+          "url": "https://hotelbrummell.brummellprojects.com/rooms/",
+          "kind": "official",
+          "title": "Hotel Brummell: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-barcelona.html": [
+          "the entry rooms measure 20 to 25 m²",
+          "the Passage Mini rooms are 172 sq ft (16 m²)",
+          "the double and twin rooms are 18 m²"
+        ]
+      }
+    }
+  ]
+}

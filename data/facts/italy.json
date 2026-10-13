@@ -1,0 +1,158 @@
+{
+  "place": "Italy",
+  "facts": [
+    {
+      "id": "it.rome.tourist-tax",
+      "topic": "tax",
+      "claim": "Rome's contributo di soggiorno is charged per person per night by hotel class: €10 at five-star, €7.50 at four-star, €6 at three-star, €5 at two-star and €4 at one-star hotels, €3.50 at hostels, and €5 to €7 at guest houses, B&Bs, holiday homes and short-term rentals; these rates apply from 1 October 2023 (Giunta Capitolina deliberation 255 of 17 July 2023) and are still the current ones listed by Roma Capitale in October 2026.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.comune.roma.it/web-resources/cms/documents/Nuove_tariffe_contributo_di_soggiorno_dal_01.10.2023_logo.pdf",
+          "kind": "official",
+          "title": "Roma Capitale: Nuove tariffe contributo di soggiorno dal 01.10.2023"
+        },
+        {
+          "url": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF41430",
+          "kind": "official",
+          "title": "Roma Capitale: Contributo di soggiorno"
+        },
+        {
+          "url": "https://www.turismoroma.it/it/accoglienza/contributo-di-soggiorno-nella-citt%C3%A0-di-roma-capitale",
+          "kind": "official",
+          "title": "Turismo Roma: Contributo di soggiorno nella città di Roma Capitale"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome.html": [
+          "from €4 at a one-star to €10 at a five-star",
+          "€7.50 a night at a four-star, €6 at a three-star",
+          "pays €60 on top of the room"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.tourist-tax-cap",
+      "topic": "tax",
+      "claim": "Rome's city tax applies for at most 10 consecutive nights in the same property in a calendar year (5 at campsites), and children are exempt until their 10th birthday.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.comune.roma.it/web-resources/cms/documents/Nuove_tariffe_contributo_di_soggiorno_dal_01.10.2023_logo.pdf",
+          "kind": "official",
+          "title": "Roma Capitale: tariff table with maximum nights"
+        },
+        {
+          "url": "https://www.comune.roma.it/web-resources/cms/documents/Deliberazione_Assemblea_Capitolina_n._342024.pdf",
+          "kind": "official",
+          "title": "Roma Capitale: Regolamento sul contributo di soggiorno, Deliberazione A.C. 34/2024, art. 5"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome.html": [
+          "Children under 10 pay nothing",
+          "The tax stops after 10 consecutive nights in the same property",
+          "costs the couple €150, not €210"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.leonardo-express",
+      "topic": "fare",
+      "claim": "The Leonardo Express runs non-stop between Fiumicino Airport and Roma Termini in 32 minutes, every 15 minutes, for €14 (Mini-groups ticket for four: €40); from Fiumicino it runs 05:38 to 23:27.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.trenitalia.com/en/connections/leonardo-express.html",
+          "kind": "operator",
+          "title": "Trenitalia: Leonardo express"
+        },
+        {
+          "url": "https://www.adr.it/web/aeroporti-di-roma-en/pax-fco-train",
+          "kind": "official",
+          "title": "Aeroporti di Roma: Fiumicino Airport train"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome.html": [
+          "runs non-stop to Termini in 32 minutes, every 15 minutes, for €14",
+          "Mini-groups ticket for €40",
+          "The first train leaves the airport at 05:38 and the last at 23:27"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.fl1",
+      "topic": "fare",
+      "claim": "An FL1 regional ticket between Fiumicino Aeroporto and any station inside Rome's Zona Anello costs €8 (Trenitalia Tariff 1/Ter, valid from 28 October 2024); FL1 reaches Roma Tiburtina in 48 minutes and runs every 15 minutes on working days and every 30 minutes on Sundays and public holidays.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.trenitalia.com/content/dam/trenitalia/allegati/info/condizioni-generali-di-trasporto/parte-iii-trasporto-regionale/19-TARIFFA_1TER_Fiumicino_Aeroporto.pdf",
+          "kind": "operator",
+          "title": "Trenitalia: Tariffa 1/Ter Fiumicino Aeroporto"
+        },
+        {
+          "url": "https://www.trenitalia.com/en/services/connections-to-and-from-rome-fiumicino-airport.html",
+          "kind": "operator",
+          "title": "Trenitalia: Connections to and from Rome Fiumicino Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome.html": [
+          "costs €8 from Fiumicino to any station inside the city's rail ring",
+          "reaches Roma Tiburtina in 48 minutes",
+          "every 30 minutes on Sundays and public holidays"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.ciampino-airlink",
+      "topic": "fare",
+      "claim": "Ciampino Airlink combines a 10-minute bus from Ciampino airport to Ciampino station with a train to Roma Termini for €2.70.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.trenitalia.com/en/connections/ciampino-airlink.html",
+          "kind": "operator",
+          "title": "Trenitalia: Ciampino Airlink"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome.html": [
+          "combines a 10-minute bus to Ciampino station with a train to Termini, €2.70 for both"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.metrebus-fares",
+      "topic": "fare",
+      "claim": "In Rome a Metrebus BIT ticket costs €1.50 and is valid for 100 minutes from validation; the Roma 24H, 48H and 72H tickets cost €8.50, €15 and €22; ATAC accepts contactless cards (tap&go) on surface vehicles and at metro turnstiles.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.trenitalia.com/it/regionale/lazio/integrazioni-tariffarielazio.html",
+          "kind": "operator",
+          "title": "Trenitalia: Integrazioni tariffarie Lazio (Metrebus Roma)"
+        },
+        {
+          "url": "https://romaflex.atac.roma.it/default.aspx?lng=ENG",
+          "kind": "operator",
+          "title": "ATAC: Roma Tourist Tickets"
+        },
+        {
+          "url": "https://www.atac.roma.it/en/tickets-and-passes/tickets",
+          "kind": "operator",
+          "title": "ATAC: Tickets and passes (tap&go)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome.html": [
+          "a BIT ticket costs €1.50 and lasts 100 minutes from validation",
+          "passes cost €8.50 for 24 hours, €15 for 48 and €22 for 72",
+          "tap a contactless card at the metro gates and on buses"
+        ]
+      }
+    }
+  ]
+}

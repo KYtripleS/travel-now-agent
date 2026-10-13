@@ -591,6 +591,18 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-barcelona.html": (
+        "Where to Stay in Barcelona",
+        "Six areas, 12 hotels and Barcelona's two-part tourist tax: €8.40 a person a night at a four-star.",
+    ),
+    "articles/where-to-stay-in-rome.html": (
+        "Where to Stay in Rome",
+        "Six areas, 12 hotels, and Rome's city tax of €4 to €10 a person a night, by star rating.",
+    ),
+    "articles/where-to-stay-in-amsterdam.html": (
+        "Where to Stay in Amsterdam",
+        "Six areas, 12 hotels, and the 12.5% tourist tax that now sits on top of 21% VAT.",
+    ),
     "articles/hotel-taxes-around-the-world-2026.html": (
         "Hotel Taxes Around the World (2026)",
         "What Paris, New York, Tokyo, Kyoto, Hong Kong and more add to a hotel room, checked at official sources.",
@@ -1889,6 +1901,24 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-barcelona.html": [
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/where-to-stay-in-paris.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-rome.html": [
+        "articles/where-to-stay-in-paris.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-amsterdam.html": [
+        "articles/where-to-stay-in-paris.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/hotel-taxes-around-the-world-2026.html": [
         "articles/japan-tourist-taxes-2026.html",

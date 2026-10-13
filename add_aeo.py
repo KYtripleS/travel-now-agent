@@ -412,6 +412,18 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-barcelona": dict(
+        text="For a first trip, stay in the Eixample: Passeig de Gràcia, Gaudí's Casa Batlló and La Pedrera, and the airport bus at Plaça de Catalunya. Choose the Gothic Quarter for medieval streets and Barceloneta for the beach. The tax is €8.40 a person a night at a four-star and €12 at a five-star.",
+        link_text="Eixample",
+        cta=_stay_cta("where-to-stay-in-barcelona", "See hotels around the Eixample")),
+    "where-to-stay-in-rome": dict(
+        text="For a first trip, stay in the Centro Storico: the Pantheon, Piazza Navona and the Trevi Fountain, all on foot. Choose Monti for the Colosseum, Trastevere for evenings out and Prati for the Vatican. The city tax is €7.50 a person a night at a four-star, for up to 10 nights.",
+        link_text="the Centro Storico",
+        cta=_stay_cta("where-to-stay-in-rome", "See hotels around the Centro Storico")),
+    "where-to-stay-in-amsterdam": dict(
+        text="For a first trip, stay in the Canal Ring: the 17th-century canals, with most sights on foot. Choose the Jordaan for village streets and markets, the Museum Quarter for the Rijksmuseum and Van Gogh, and Centraal for the train. The tourist tax is 12.5% of the room price, on top of 21% VAT.",
+        link_text="the Canal Ring",
+        cta=_stay_cta("where-to-stay-in-amsterdam", "See hotels around the Canal Ring")),
     "where-to-book-tokyo-food-tour": dict(
         text="Choose the tour on Viator, which has the most Tokyo food tours (300+) and the most reviews, then "
              "check the same title on Klook: during its sales it is often cheaper for the same Shinjuku tour. "
@@ -1140,6 +1152,9 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-barcelona": ["Majestic Hotel & Spa Barcelona", "Casa Bonay", "Hotel Praktik Bakery"],
+    "where-to-stay-in-rome": ["Albergo del Senato", "Albergo Santa Chiara", "Hotel Raphaël"],
+    "where-to-stay-in-amsterdam": ["Ambassade Hotel", "Pulitzer Amsterdam", "Mr. Jordaan"],
 }
 QUICK_PICKS_H = "Three to start with"
 QUICK_PICKS_NOTE = ("Rates open on Booking.com through our partner Stay22, which pays us a commission "
@@ -1220,6 +1235,9 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Barcelona", "where-to-stay-in-barcelona", None, None),
+        ("Rome", "where-to-stay-in-rome", None, None),
+        ("Amsterdam", "where-to-stay-in-amsterdam", None, None),
         ("Bangkok", "where-to-stay-in-bangkok", None, None),
         ("Seoul", "where-to-stay-in-seoul", None, None),
         ("Singapore", "where-to-stay-in-singapore", None, None),

@@ -113,6 +113,12 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-barcelona": dict(area="Eixample", lat=41.3925, lng=2.1645, zoom=15,
+                                          address="Passeig de Gràcia, Barcelona, Spain"),
+    "where-to-stay-in-rome": dict(area="Centro Storico", lat=41.8986, lng=12.4769, zoom=15,
+                                     address="Piazza della Rotonda, Rome, Italy"),
+    "where-to-stay-in-amsterdam": dict(area="Canal Ring", lat=52.3702, lng=4.8875, zoom=15,
+                                          address="Herengracht, Amsterdam, Netherlands"),
 }
 
 # Hotel name exactly as the guide prints it -> its Booking.com page (checked by
@@ -386,6 +392,45 @@ HOTELS = {
     "AnCasa Hotel Kuala Lumpur, Chinatown": _B + "my/ancasa-spa-kuala-lumpur.html",
     "Hilton Kuala Lumpur": _B + "my/hilton-kuala-lumpur.html",
     "Aloft Kuala Lumpur Sentral": _B + "my/aloft-kuala-lumpur-sentral.html",
+    # Amsterdam (Booking.com pages confirmed by hotel name and city, 2026-10-13)
+    "Pulitzer Amsterdam": _B + "nl/pulitzer.html",
+    "Ambassade Hotel": _B + "nl/ambassadehotelam.html",
+    "Mr. Jordaan": _B + "nl/mr-jordaan.html",
+    "Linden Hotel": _B + "nl/acacia-amsterdam.html",
+    "Mandarin Oriental Conservatorium": _B + "nl/conservatorium-amsterdam.html",
+    "Hotel Fita": _B + "nl/fita-amsterdam.html",
+    "Hotel Okura Amsterdam": _B + "nl/okura.html",
+    "Sir Albert": _B + "nl/sir-albert.html",
+    "NH Collection Amsterdam Barbizon Palace": _B + "nl/nhbarbizon.html",
+    "Hotel Sint Nicolaas": _B + "nl/sint-nicolaas.html",
+    "Sir Adam": _B + "nl/sir-adam.html",
+    "ClinkNOORD": _B + "nl/clinknoord.html",
+    # Rome (Booking.com pages confirmed by hotel name and city, 2026-10-13)
+    "Hotel Raphaël": _B + "it/raphael.html",
+    "Albergo del Senato": _B + "it/albergo.html",
+    "Albergo Santa Chiara": _B + "it/albergo-santa-chiara.html",
+    "Hassler Roma": _B + "it/hassler-roma.html",
+    "Hotel Panda": _B + "it/panda.html",
+    "Hotel Forum": _B + "it/forum.html",
+    "The Fifteen Keys Hotel": _B + "it/the-fifteen-keys.html",
+    "Hotel Santa Maria": _B + "it/santa-maria-roma.html",
+    "Donna Camilla Savelli": _B + "it/donna-camilla-savelli.html",
+    "Hotel dei Mellini": _B + "it/dei-mellini.html",
+    "Palazzo Montemartini": _B + "it/palazzo-montemartini.html",
+    "The RomeHello": _B + "it/the-romehello.html",
+    # Barcelona (Booking.com pages confirmed by hotel name and city, 2026-10-13)
+    "Majestic Hotel & Spa Barcelona": _B + "es/majestic.html",
+    "Casa Bonay": _B + "es/casa-bonay.html",
+    "Hotel Praktik Bakery": _B + "es/praktik-bakery.html",
+    "Hotel Neri": _B + "es/nerihr.html",
+    "Hotel Gótico": _B + "es/gotico.html",
+    "Grand Hotel Central": _B + "es/grandhotelcentral.html",
+    "Hotel REC Barcelona": _B + "es/rec-barcelona.html",
+    "Hotel Casa Fuster": _B + "es/hotelescenterfuster.html",
+    "Generator Barcelona": _B + "es/generator-hostel-barcelona.html",
+    "Hotel Duquesa de Cardona": _B + "es/duquesadecardona.html",
+    "Hotel 54 Barceloneta": _B + "es/54-barceloneta.html",
+    "Hotel Brummell": _B + "es/brummell.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
