@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-bali.html": (
+        "Where to Stay in Bali",
+        "Six areas, 12 hotels, the IDR 150,000 tourist levy, the e-VOA fee and Badung's 10% hotel tax.",
+    ),
+    "articles/where-to-stay-in-london.html": (
+        "Where to Stay in London",
+        "Five areas, 12 hotels, and London's 20% VAT on rooms, with no city tax yet.",
+    ),
     "articles/where-to-stay-in-prague.html": (
         "Where to Stay in Prague",
         "Six areas, 12 hotels, the 50 CZK a night city fee, and the 46 CZK way in from the airport.",
@@ -1913,6 +1921,20 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-bali.html": [
+        "articles/bali-first-timers-guide.html",
+        "articles/bali-7-day-itinerary.html",
+        "articles/where-to-stay-in-singapore.html",
+        "articles/where-to-stay-in-bangkok.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-london.html": [
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-amsterdam.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-prague.html": [
         "articles/where-to-stay-in-amsterdam.html",

@@ -1,0 +1,519 @@
+{
+  "place": "Indonesia",
+  "facts": [
+    {
+      "id": "id.bali.tourist-levy",
+      "topic": "tax",
+      "claim": "Bali charges each foreign tourist a levy of IDR 150,000, paid once while travelling in Bali, before leaving Indonesia.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://lovebali.baliprov.go.id/faq",
+          "kind": "official",
+          "title": "Love Bali (Bali Provincial Government): FAQ"
+        },
+        {
+          "url": "https://lovebali.baliprov.go.id/",
+          "kind": "official",
+          "title": "Love Bali (Bali Provincial Government): Tourist levy"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "Every foreign visitor owes Bali's tourist levy of IDR 150,000, once a trip",
+          "IDR 150,000 a person, once a trip",
+          "paid once while you are in Bali, before you leave Indonesia"
+        ]
+      }
+    },
+    {
+      "id": "id.bali.tourist-levy.payment",
+      "topic": "tax",
+      "claim": "The levy is paid cashless via the Love Bali website or app (encouraged before departure), at payment counters at Bali's airport and port, or via registered endpoints (hotels, travel agents, attractions); accepted: Visa, Mastercard, American Express, JCB, bank transfer, virtual account, UnionPay, QRIS; the voucher is emailed with a QR code.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://lovebali.baliprov.go.id/faq",
+          "kind": "official",
+          "title": "Love Bali (Bali Provincial Government): FAQ"
+        },
+        {
+          "url": "https://lovebali.baliprov.go.id/about_us",
+          "kind": "official",
+          "title": "Love Bali: About us and regulations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "Pay it on the official Love Bali website or in the Love Bali app",
+          "Payment is cashless, by Visa, Mastercard, American Express or JCB card, bank transfer, virtual account, UnionPay or QRIS",
+          "the voucher arrives by email with a QR code"
+        ]
+      }
+    },
+    {
+      "id": "id.bali.tourist-levy.exemptions",
+      "topic": "tax",
+      "claim": "Exempt from the levy: diplomatic and official visa holders, transport crew, KITAS/KITAP holders, family-unification, student and golden visa holders (and other visas on application); cruise passengers pay.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://lovebali.baliprov.go.id/faq",
+          "kind": "official",
+          "title": "Love Bali (Bali Provincial Government): FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "Cruise passengers pay too",
+          "family-unification, student and golden visa holders are exempt"
+        ]
+      }
+    },
+    {
+      "id": "id.bali.tourist-levy.regulation",
+      "topic": "tax",
+      "claim": "The levy is governed by Bali Provincial Regulation 6 of 2023 as amended by Regulation 2 of 2025, and Governor Regulation 25 of 2025.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://lovebali.baliprov.go.id/about_us",
+          "kind": "official",
+          "title": "Love Bali: About us and regulations"
+        },
+        {
+          "url": "https://lovebali.baliprov.go.id/faq",
+          "kind": "official",
+          "title": "Love Bali (Bali Provincial Government): FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "The Bali provincial government charges IDR 150,000 to each foreign tourist"
+        ]
+      }
+    },
+    {
+      "id": "id.e-voa.fee",
+      "topic": "price",
+      "claim": "Indonesia's Visitor Visa (e-VOA) costs IDR 500,000; single entry, 30-day stay, for tourism, government visits, business meetings, goods purchasing or transit; each traveller including children needs one; passport valid 6 months from arrival.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://evisa.imigrasi.go.id/front/info/evoa",
+          "kind": "official",
+          "title": "Directorate General of Immigration: Information about Visitor Visa (e-VOA)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "costs IDR 500,000 for a single entry and a stay of 30 days",
+          "Every traveller needs their own, children included",
+          "valid for at least six months from arrival"
+        ]
+      }
+    },
+    {
+      "id": "id.e-voa.ports",
+      "topic": "transport",
+      "claim": "The e-VOA is available at Ngurah Rai airport (and Benoa seaport); visa on arrival can also be obtained at the port of entry.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://evisa.imigrasi.go.id/front/info/evoa",
+          "kind": "official",
+          "title": "Directorate General of Immigration: Information about Visitor Visa (e-VOA)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "sold on the official site, evisa.imigrasi.go.id, and at the port of entry, including Ngurah Rai airport"
+        ]
+      }
+    },
+    {
+      "id": "id.voa.extension",
+      "topic": "transport",
+      "claim": "A visa on arrival can be extended at the immigration office covering where the visitor stays (Ngurah Rai Immigration Office lists the steps).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://ngurahrai.imigrasi.go.id/layanan-wna/",
+          "kind": "official",
+          "title": "Kantor Imigrasi Ngurah Rai: Layanan WNA (VOA extension)"
+        },
+        {
+          "url": "https://evisa.imigrasi.go.id/front/info/evoa",
+          "kind": "official",
+          "title": "Directorate General of Immigration: Information about Visitor Visa (e-VOA)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "A visa on arrival can be extended at an immigration office in Bali"
+        ]
+      }
+    },
+    {
+      "id": "id.arrival-card",
+      "topic": "transport",
+      "claim": "All travellers must submit an arrival card within 3 days before arriving in Indonesia (All Indonesia).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://evisa.imigrasi.go.id/",
+          "kind": "official",
+          "title": "Directorate General of Immigration: official e-Visa site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "submit an arrival card within three days before arriving"
+        ]
+      }
+    },
+    {
+      "id": "id.badung.hotel-tax",
+      "topic": "tax",
+      "claim": "Badung regency's PBJT on hotel services (jasa perhotelan) is 10%, and on food and drink 10%, under Perda Kabupaten Badung 7/2023, in force from 1 January 2024; the 2025 amendment (Perda 8/2025) did not change these rates.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://bapenda.badungkab.go.id/pengumuman/54593-SE-Pelaksanaan-Tarif-Pajak-Daerah-PerdaNo-7-2023",
+          "kind": "official",
+          "title": "Bapenda Badung: Surat Edaran 973/14315/Bapenda, tax rates under Perda 7/2023"
+        },
+        {
+          "url": "https://peraturan.bpk.go.id/Details/344913/perda-kab-badung-no-8-tahun-2025",
+          "kind": "official",
+          "title": "JDIH BPK: Perda Kab. Badung No. 8 Tahun 2025 (amends Perda 7/2023; does not amend the PBJT rates)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "charges a 10% regional tax on hotel services and 10% on food and drink",
+          "in force since 1 January 2024",
+          "10% of the hotel bill"
+        ]
+      }
+    },
+    {
+      "id": "id.bali.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: two people, four nights at IDR 3,000,000 = IDR 1,200,000 hotel tax (10%), IDR 300,000 levy, IDR 1,000,000 for two e-VOAs; IDR 2,500,000 total extras before any service charge.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://bapenda.badungkab.go.id/pengumuman/54593-SE-Pelaksanaan-Tarif-Pajak-Daerah-PerdaNo-7-2023",
+          "kind": "official",
+          "title": "Bapenda Badung: Surat Edaran 973/14315/Bapenda, tax rates under Perda 7/2023"
+        },
+        {
+          "url": "https://lovebali.baliprov.go.id/faq",
+          "kind": "official",
+          "title": "Love Bali (Bali Provincial Government): FAQ"
+        },
+        {
+          "url": "https://evisa.imigrasi.go.id/front/info/evoa",
+          "kind": "official",
+          "title": "Directorate General of Immigration: Information about Visitor Visa (e-VOA)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "IDR 2,500,000 on top of the room, before any service charge",
+          "That is our arithmetic, not an official figure"
+        ]
+      }
+    },
+    {
+      "id": "id.dps.airport-ground-transport",
+      "topic": "transport",
+      "claim": "At Ngurah Rai airport taxis operate in the arrival area on meter or fixed rates per provider; Grab and Gojek can be booked in-app or at designated airport counters/lounges; Trans Metro Dewata buses link the airport with Mengwi Terminal, Kuta and Nusa Dua.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://ngurahrai.injourneyairports.id/information/transportation-parking",
+          "kind": "operator",
+          "title": "I Gusti Ngurah Rai International Airport (InJourney Airports): Transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "taxis wait in the arrivals area and charge by the meter or a fixed rate",
+          "Grab and Gojek rides can be booked in their apps or at their own counters and lounges",
+          "Trans Metro Dewata runs from the airport to Mengwi bus terminal, Kuta and Nusa Dua"
+        ]
+      }
+    },
+    {
+      "id": "hotel.oberoi-bali",
+      "topic": "hotel",
+      "claim": "The Oberoi, Bali: on Seminyak Beach in 16 acres (60,702 m2) of gardens with direct access to 500 m of beach; airport 9 km, 45 minutes; pavilion-style accommodation; villas 'with Pool' have private pools, Lanai rooms have terraces.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.oberoihotels.com/hotels-in-bali/",
+          "kind": "operator",
+          "title": "The Oberoi, Bali"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "in 16 acres of gardens with direct access to 500 metres of sand",
+          "By the hotel's count the airport is 9 kilometres away",
+          "The Oberoi in Seminyak 9 kilometres and 45 minutes"
+        ]
+      }
+    },
+    {
+      "id": "hotel.lloyds-inn-bali",
+      "topic": "hotel",
+      "claim": "Lloyd's Inn Bali: Jalan Arjuna (Double Six), 300 m from Double Six Beach; airport pick-up IDR 500,000 nett per car (up to 4); minimum check-in age 18; no parking.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.lloydsinn.com/bali/faq",
+          "kind": "operator",
+          "title": "Lloyd's Inn Bali: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "300 metres from Double Six Beach",
+          "Airport pick-up is IDR 500,000 nett a car for up to four",
+          "guests must be 18 or over, and there is no parking at the hotel"
+        ]
+      }
+    },
+    {
+      "id": "hotel.como-canggu",
+      "topic": "hotel",
+      "claim": "COMO Canggu (formerly COMO Uma Canggu): Jalan Pantai Batu Mejan, Echo Beach; 119 rooms and suites plus 12 three-bedroom penthouses with rooftop pools; 90-minute drive from the airport; Play by COMO for ages 4-12.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.comohotels.com/bali/como-uma-canggu",
+          "kind": "operator",
+          "title": "COMO Canggu"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "with 119 rooms and suites looking over a lagoon pool or the coast",
+          "12 three-bedroom penthouses with rooftop pools",
+          "it is a 90-minute drive from the airport"
+        ]
+      }
+    },
+    {
+      "id": "hotel.kos-one-hostel",
+      "topic": "hotel",
+      "claim": "Kos One Hostel: Jalan Pantai Batu Bolong, Canggu; 4- and 8-bed mixed and female dorms; free yoga Mon-Fri for in-house guests; strictly 17+.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.kosonehostel.com/rooms/",
+          "kind": "operator",
+          "title": "Kos One Hostel: Rooms"
+        },
+        {
+          "url": "https://www.kosonehostel.com/",
+          "kind": "operator",
+          "title": "Kos One Hostel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "mixed dorms of four and eight beds",
+          "the venue is strictly 17 and over"
+        ]
+      }
+    },
+    {
+      "id": "hotel.capella-ubud",
+      "topic": "hotel",
+      "claim": "Capella Ubud, Bali: tented camp by Bill Bensley in Keliki, Tegallalang; 22 one-bedroom tents and one two-bedroom lodge, each with private pool; Valley Tents on terraced ground with steps.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://capellahotels.com/en/capella-ubud",
+          "kind": "operator",
+          "title": "Capella Ubud, Bali"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "with 22 one-bedroom tents and a two-bedroom lodge, each with its own pool",
+          "the Valley Tents sit on terraced ground reached by steps"
+        ]
+      }
+    },
+    {
+      "id": "hotel.alaya-resort-ubud",
+      "topic": "hotel",
+      "claim": "Alaya Resort Ubud: Jl. Hanoman; 106 rooms; 800 m from Ubud Monkey Forest, 2.6 km from Campuhan Ridge Walk, 35 km from Ngurah Rai airport; rates quoted '++'.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://alayahotels.com/alaya-resort-ubud/",
+          "kind": "operator",
+          "title": "Alaya Resort Ubud"
+        },
+        {
+          "url": "https://alayahotels.com/alaya-resort-ubud/offers/",
+          "kind": "operator",
+          "title": "Alaya Resort Ubud: Offers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "with 106 rooms",
+          "the Monkey Forest is 800 metres away and the Campuhan Ridge Walk 2.6 kilometres",
+          "Alaya Resort Ubud 35 kilometres"
+        ]
+      }
+    },
+    {
+      "id": "hotel.uluwatu-surf-villas",
+      "topic": "hotel",
+      "claim": "Uluwatu Surf Villas: clifftop above the Uluwatu break with private staircase to the wave; reclaimed teak villas with saltwater pools of 2 to 5 bedrooms; Mana restaurant; yoga studio; skate bowl; staff from Pecatu.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://uluwatusurfvillas.com/",
+          "kind": "operator",
+          "title": "Uluwatu Surf Villas"
+        },
+        {
+          "url": "https://uluwatusurfvillas.com/villas/",
+          "kind": "operator",
+          "title": "Uluwatu Surf Villas: Villas"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "with a private staircase down to the wave",
+          "the villas have two to five bedrooms"
+        ]
+      }
+    },
+    {
+      "id": "hotel.four-seasons-jimbaran",
+      "topic": "hotel",
+      "claim": "Four Seasons Resort Bali at Jimbaran Bay: private pool villas on Jimbaran's 3-mile (4.8 km) crescent; 20 minutes from Ngurah Rai airport and 45 minutes from Seminyak.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/jimbaranbay/getting-here/",
+          "kind": "operator",
+          "title": "Four Seasons Bali at Jimbaran Bay: Getting here"
+        },
+        {
+          "url": "https://www.fourseasons.com/jimbaranbay/",
+          "kind": "operator",
+          "title": "Four Seasons Resort Bali at Jimbaran Bay"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "Jimbaran's 4.8-kilometre crescent of sand",
+          "By the resort's count the airport is 20 minutes away and Seminyak's nightlife 45",
+          "Four Seasons at Jimbaran Bay counts 20 minutes from the airport"
+        ]
+      }
+    },
+    {
+      "id": "hotel.tandjung-sari",
+      "topic": "hotel",
+      "claim": "Tandjung Sari, Sanur: by 1962 had four small bungalows; 16 Village Bungalows of 45 m2 with thatched roofs, air conditioning and outdoor shower; sea views in Beachfront and Garden Seaview Bungalows.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.tandjungsarihotel.com/",
+          "kind": "operator",
+          "title": "Tandjung Sari: Our story"
+        },
+        {
+          "url": "https://www.tandjungsarihotel.com/bungalow/village-bungalow",
+          "kind": "operator",
+          "title": "Tandjung Sari: Village Bungalow"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "by 1962 had four small bungalows for visiting friends",
+          "Its 16 Village Bungalows of 45 m² have thatched roofs"
+        ]
+      }
+    },
+    {
+      "id": "hotel.puri-santrian",
+      "topic": "hotel",
+      "claim": "Puri Santrian: beachfront at the southern end of Sanur; Santrian Deluxe 49 sqm garden view; Beach Wing rooms adults only, no children under 15; packages quoted nett.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.santrian.com/puri-santrian/",
+          "kind": "operator",
+          "title": "Puri Santrian Beach Resort & Spa"
+        },
+        {
+          "url": "https://santrian.com/puri-santrian/rooms/santrian-deluxe.html",
+          "kind": "operator",
+          "title": "Puri Santrian: Santrian Deluxe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "the Santrian Deluxe rooms are 49 m² with a garden view",
+          "the Beach Wing rooms are for adults only, with no children under 15"
+        ]
+      }
+    },
+    {
+      "id": "hotel.the-mulia",
+      "topic": "hotel",
+      "claim": "The Mulia: all-suite beachfront resort on Geger Beach, Sawangan, Nusa Dua, sharing a compound with Mulia Resort and Mulia Villas.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.themulia.com/bali/",
+          "kind": "operator",
+          "title": "Mulia Bali"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "An all-suite beachfront resort on Geger Beach",
+          "it shares a compound with Mulia Resort and Mulia Villas"
+        ]
+      }
+    },
+    {
+      "id": "hotel.ayodya-resort-bali",
+      "topic": "hotel",
+      "claim": "Ayodya Resort Bali: Jalan Pantai Mengiat, Nusa Dua; lagoon; beach club on a 300 m stretch of Mengiat beach; Classic Deluxe 48 sqm garden view; 7+ night stays get a discount and return airport transfer.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.ayodyaresortbali.com/",
+          "kind": "operator",
+          "title": "Ayodya Resort Bali"
+        },
+        {
+          "url": "https://www.ayodyaresortbali.com/rooms",
+          "kind": "operator",
+          "title": "Ayodya Resort Bali: Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bali.html": [
+          "a 300-metre stretch of Mengiat beach",
+          "Classic Deluxe rooms of 48 m²",
+          "Stays of seven nights or more come with a discount and airport transfers both ways"
+        ]
+      }
+    }
+  ]
+}

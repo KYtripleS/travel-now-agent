@@ -412,6 +412,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-bali": dict(
+        text="For a first trip, stay in Seminyak: the beach, sunsets and restaurants on foot, close to the airport. Choose Ubud for temples and rice terraces, Sanur for calm water, and Uluwatu for cliffs and surf. The tourist levy is IDR 150,000 a person, once a trip.",
+        link_text="Seminyak",
+        cta=_stay_cta("where-to-stay-in-bali", "See hotels around Seminyak")),
+    "where-to-stay-in-london": dict(
+        text="For a first trip, stay in Covent Garden: the theatres and the market on foot, and the Piccadilly line straight from Heathrow. Choose the South Bank for the river, South Kensington for the museums and King's Cross for the Eurostar. London has no city tax; rooms carry 20% VAT, normally included in the price.",
+        link_text="Covent Garden",
+        cta=_stay_cta("where-to-stay-in-london", "See hotels around Covent Garden")),
     "where-to-stay-in-prague": dict(
         text="For a first trip, stay in the Old Town: Old Town Square, the Jewish Quarter and Charles Bridge on foot. Choose Malá Strana for the castle side, the New Town for the metro and the airport bus, and Vinohrady for cafés and parks. The city fee is 50 CZK a person a night.",
         link_text="the Old Town",
@@ -1164,6 +1172,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-bali": ["Lloyd's Inn Bali", "Alaya Resort Ubud", "The Oberoi, Bali"],
+    "where-to-stay-in-london": ["Radisson Blu Hotel, London Mercer Street", "hub by Premier Inn London Covent Garden", "The Savoy"],
     "where-to-stay-in-prague": ["Hotel Josef", "Four Seasons Hotel Prague", "Motel One Prague-Florentinum"],
     "where-to-stay-in-venice": ["Hotel Flora", "Londra Palace Venezia", "Hotel La Residenza"],
     "where-to-stay-in-florence": ["Hotel Brunelleschi", "Hotel Pendini", "Portrait Firenze"],
@@ -1250,6 +1260,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Bali", "where-to-stay-in-bali", None, None),
+        ("London", "where-to-stay-in-london", None, None),
         ("Prague", "where-to-stay-in-prague", None, None),
         ("Venice", "where-to-stay-in-venice", None, None),
         ("Florence", "where-to-stay-in-florence", None, None),

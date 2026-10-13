@@ -136,6 +136,7 @@ BY_SLUG = {
     "where-to-stay-in-copenhagen": "Stay",
     "where-to-stay-in-stockholm": "Stay",
     "where-to-stay-in-new-york": "Stay",
+    "where-to-stay-in-bali": "Stay",
     "where-to-stay-in-reykjavik": "Stay",
     # 2026-10-19 demand articles
     "best-travel-backpacks-2026-carry-on-size-limits-ergonomics-compared": "Gear",

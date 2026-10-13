@@ -1,0 +1,546 @@
+{
+  "place": "United Kingdom",
+  "facts": [
+    {
+      "id": "gb.vat.hotel-rooms",
+      "topic": "tax",
+      "claim": "UK VAT on hotel accommodation is charged at the standard rate of 20% (the temporary 5% and 12.5% hospitality rates ended on 31 March 2022); for stays of more than 28 consecutive days in a hotel, the reduced value rule relieves the accommodation element from VAT after the 28th day.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/vat-rates",
+          "kind": "official",
+          "title": "GOV.UK: VAT rates"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/hotels-holiday-accommodation-and-vat-notice-7093",
+          "kind": "official",
+          "title": "HMRC: Hotels, holiday accommodation and VAT (VAT Notice 709/3)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "VAT at 20%, the standard UK rate",
+          "20%, the UK's standard rate",
+          "VAT is charged on a reduced value of the room after the 28th day"
+        ]
+      }
+    },
+    {
+      "id": "gb.vat.fraction-example",
+      "topic": "tax",
+      "claim": "For a VAT-inclusive price at 20%, the VAT element is one-sixth of the price (HMRC's VAT fraction); on £250 that is £41.67, and £83.33 over two nights (editorial arithmetic).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/vat-guide-notice-700",
+          "kind": "official",
+          "title": "HMRC: VAT guide (VAT Notice 700), 7.3.1 VAT fractions"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "take one-sixth of it",
+          "On a £250 room that is £41.67 a night, or £83.33 over two nights"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.visitor-levy-status",
+      "topic": "tax",
+      "claim": "No overnight visitor levy applies in London in 2026. On 10 September 2026 the government published its response to the Visitor Levy in England consultation (26 Nov 2025 to 18 Feb 2026): mayors of strategic authorities will be able to choose to charge a levy set as a percentage of the accommodation cost, not a flat fee; the government intends to legislate in the current Parliamentary session and, subject to Parliament, expects local leaders to set out revenue plans by March 2028.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/government/news/local-leaders-handed-powers-to-drive-investment-in-communities",
+          "kind": "official",
+          "title": "MHCLG press release, 10 September 2026"
+        },
+        {
+          "url": "https://www.gov.uk/government/consultations/overnight-visitor-levy-in-england",
+          "kind": "official",
+          "title": "GOV.UK: Visitor levy in England, consultation outcome"
+        },
+        {
+          "url": "https://assets.publishing.service.gov.uk/media/6aa2980c5f6e942efe37f0c9/Visitor_Levy_in_England_-_government_response.pdf",
+          "kind": "official",
+          "title": "Visitor Levy in England: government response (PDF), section 1.5"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "none is in force yet",
+          "It will be a percentage of the cost of the accommodation, not a flat fee",
+          "by March 2028",
+          "No levy has been set for London"
+        ]
+      }
+    },
+    {
+      "id": "gb.eta",
+      "topic": "price",
+      "claim": "A UK ETA costs £20, lasts 2 years or until the passport expires, decisions usually come within a day but can take up to 3 working days; each traveller including children needs one; British and Irish passport holders do not; visitors from Europe, the USA, Australia, Canada and certain other countries usually need an ETA rather than a visa; an ETA does not guarantee entry.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta",
+          "kind": "official",
+          "title": "GOV.UK: Get an electronic travel authorisation (ETA)"
+        },
+        {
+          "url": "https://www.gov.uk/eta/apply",
+          "kind": "official",
+          "title": "GOV.UK: Apply for an ETA"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "It costs £20 on GOV.UK or the UK ETA app",
+          "lasts two years or until the passport expires",
+          "it can take up to 3 working days",
+          "An ETA does not guarantee entry"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.heathrow-elizabeth-line",
+      "topic": "fare",
+      "claim": "Elizabeth line pay-as-you-go fares from Heathrow (T2&3) are £14.60 to Paddington and £15.50 to Tottenham Court Road (anytime, adult); TfL's journey planner gives about 27 minutes to Paddington and 33 minutes to Tottenham Court Road.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://tfl.gov.uk/fares/find-fares/single-fare-finder",
+          "kind": "operator",
+          "title": "TfL single fare finder (via TfL Unified API StopPoint/910GHTRWAPT/FareTo)"
+        },
+        {
+          "url": "https://tfl.gov.uk/plan-a-journey/",
+          "kind": "operator",
+          "title": "TfL journey planner (via TfL Unified API)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "costs £14.60 to Paddington and £15.50 to Tottenham Court Road",
+          "about 27 and 33 minutes on TfL's journey planner"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.heathrow-express",
+      "topic": "fare",
+      "claim": "Heathrow Express: 15 minutes Heathrow T2&3 to Paddington, trains every 15 minutes; Standard single £26; Advance Discounted Singles from £10 when bought 30 days or more ahead; not included in TfL caps and Travelcards.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.heathrowexpress.com/",
+          "kind": "operator",
+          "title": "Heathrow Express"
+        },
+        {
+          "url": "https://tfl.gov.uk/cdn/static/cms/documents/adult-fares.pdf",
+          "kind": "operator",
+          "title": "TfL: Adult rate prices 2026 (caps exclude Heathrow Express)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "reaches Paddington in 15 minutes, every 15 minutes",
+          "A standard single is £26",
+          "start at £10",
+          "It is not covered by TfL's fare caps"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.heathrow-piccadilly",
+      "topic": "fare",
+      "claim": "Piccadilly line Heathrow to Zone 1 (e.g. Covent Garden) costs £5.90 pay as you go (anytime); Heathrow Airport says the journey to central London takes about 50 minutes (TfL planner: 51 minutes to Covent Garden).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://tfl.gov.uk/fares/find-fares/single-fare-finder",
+          "kind": "operator",
+          "title": "TfL single fare finder (StopPoint/940GZZLUHRC/FareTo/940GZZLUCGN)"
+        },
+        {
+          "url": "https://www.heathrow.com/transport-and-directions/by-rail-or-train/london-underground",
+          "kind": "operator",
+          "title": "Heathrow Airport: London Underground"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "£5.90 into Zone 1, about 50 minutes"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.gatwick-rail",
+      "topic": "fare",
+      "claim": "Gatwick Airport to Victoria by Gatwick Express costs £24.00 pay as you go (not included in caps), as little as 31 minutes; Southern/Thameslink pay-as-you-go fares to Victoria, London Bridge and St Pancras are £10.70 off-peak and £19.20 peak; TfL planner gives about 44 minutes by Thameslink to St Pancras.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://tfl.gov.uk/fares/find-fares/single-fare-finder",
+          "kind": "operator",
+          "title": "TfL single fare finder (StopPoint/910GGTWK/FareTo/...)"
+        },
+        {
+          "url": "https://www.gatwickexpress.com/",
+          "kind": "operator",
+          "title": "Gatwick Express"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "in as little as 31 minutes for £24 with contactless",
+          "£10.70 off-peak and £19.20 at peak times",
+          "about 44 minutes to St Pancras"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.stansted-express",
+      "topic": "fare",
+      "claim": "Stansted Express: about 50 minutes from Stansted Airport to London Liverpool Street; fares to Liverpool Street from £9.90 (London Stansted Airport).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.stanstedairport.com/getting-to-and-from/by-stansted-express/",
+          "kind": "operator",
+          "title": "London Stansted Airport: Travel by Stansted Express"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "takes about 50 minutes to Liverpool Street, with fares from £9.90"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.tfl-fares-caps",
+      "topic": "fare",
+      "claim": "TfL 2026 adult pay-as-you-go: Zone 1 Tube single £3.10 peak / £3.00 off-peak (cash single £7.00); Zones 1-2 daily cap £8.90 and Monday-to-Sunday cap £44.70; bus fare £1.75 with the Hopper fare (unlimited bus and tram journeys within one hour of touching in), bus daily cap £5.25.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://tfl.gov.uk/cdn/static/cms/documents/adult-fares.pdf",
+          "kind": "operator",
+          "title": "TfL: Adult rate prices 2026 (PDF)"
+        },
+        {
+          "url": "https://tfl.gov.uk/fares/find-fares/bus-and-tram-fares",
+          "kind": "operator",
+          "title": "TfL: Bus and tram fares"
+        },
+        {
+          "url": "https://tfl.gov.uk/fares/find-fares/single-fare-finder",
+          "kind": "operator",
+          "title": "TfL single fare finder"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "£3.10 at peak times and £3.00 off-peak, against £7 for a paper single",
+          "capped at £8.90 a day and £44.70 from Monday to Sunday",
+          "A bus ride is £1.75"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.stations",
+      "topic": "transport",
+      "claim": "King's Cross St Pancras Underground station serves six lines (Circle, Hammersmith & City, Metropolitan, Northern, Piccadilly, Victoria); South Kensington serves the District, Circle and Piccadilly lines; Old Street is on the Northern line; Shoreditch High Street is on the London Overground Windrush line; TfL planner gives 16 minutes Old Street to Leicester Square.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUKSX",
+          "kind": "operator",
+          "title": "TfL Unified API: King's Cross St Pancras"
+        },
+        {
+          "url": "https://api.tfl.gov.uk/StopPoint/940GZZLUSKS",
+          "kind": "operator",
+          "title": "TfL Unified API: South Kensington"
+        },
+        {
+          "url": "https://api.tfl.gov.uk/StopPoint/910GSHRDHST",
+          "kind": "operator",
+          "title": "TfL Unified API: Shoreditch High Street"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "serves six lines",
+          "South Kensington station is on the District, Circle and Piccadilly lines",
+          "Old Street to Leicester Square takes about 16 minutes by Tube"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel-price-check",
+      "topic": "price",
+      "claim": "Booking.com, checked 13 October 2026, 2 adults, two nights: 18-20 November 2026 - no availability at The Savoy or The Hoxton, Shoreditch; citizenM London Bankside £508 (incl. taxes and fees). 17-19 February 2027 - citizenM £321, The Hoxton, Shoreditch £488, The Savoy £1,482 (lowest rates shown, incl. taxes and fees).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.booking.com/hotel/gb/citizenm-london-bankside.html",
+          "kind": "operator",
+          "title": "Booking.com: citizenM London Bankside"
+        },
+        {
+          "url": "https://www.booking.com/hotel/gb/the-savoy.html",
+          "kind": "operator",
+          "title": "Booking.com: The Savoy"
+        },
+        {
+          "url": "https://www.booking.com/hotel/gb/hoxton.html",
+          "kind": "operator",
+          "title": "Booking.com: The Hoxton, Shoreditch"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "citizenM London Bankside cost £508",
+          "£321 at citizenM, £488 at The Hoxton, Shoreditch and £1,482 at The Savoy"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.the-savoy",
+      "topic": "hotel",
+      "claim": "The Savoy (est. 1889) on Savoy Court off the Strand beside the Thames: 263 rooms and suites, 162 Edwardian (some with Thames views) and Art Deco rooms on the Strand with marble bathrooms; American Bar, afternoon tea in the Gallery, pool.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.thesavoylondon.com/",
+          "kind": "official",
+          "title": "The Savoy"
+        },
+        {
+          "url": "https://www.thesavoylondon.com/rooms/",
+          "kind": "official",
+          "title": "The Savoy: rooms and suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "263 rooms and suites in two styles",
+          "only some rooms face the river"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.radisson-mercer-street",
+      "topic": "hotel",
+      "claim": "Radisson Blu Hotel, London Mercer Street: four-star, Seven Dials, Covent Garden; Cosy Double 14 m², Superior Queen 17 m², Deluxe King 18 m²; Monmouth Kitchen (Peruvian and Italian); 24/7 fitness centre.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-london-mercer-street",
+          "kind": "official",
+          "title": "Radisson Hotels: Radisson Blu Hotel, London Mercer Street"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "the Cosy Double is 14 m²",
+          "the Deluxe King, at 18 m², suits two better"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.hub-covent-garden",
+      "topic": "hotel",
+      "claim": "hub by Premier Inn London Covent Garden: in Theatreland, a few minutes from the piazza; Standard rooms 11 sqm with double bed; hub rooms have 'about half the space' of a Premier Inn room; no car park; not found on Booking.com.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/greater-london/london/hub-london-covent-garden.html",
+          "kind": "official",
+          "title": "Premier Inn: hub London Covent Garden"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "the Standard rooms are 11 m², tight for two"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.sea-containers",
+      "topic": "hotel",
+      "claim": "Sea Containers London: South Bank on the Thames; 354 guest rooms; Thames Suites incl. Riverview Balcony Suites; Gordon Ramsay at Sea Containers, 12th Knot rooftop, Lyaness; agua Spa; Curzon Sea Containers cinema; 1920s liner-inspired design.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.seacontainerslondon.com/",
+          "kind": "official",
+          "title": "Sea Containers London"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "with 354 rooms, Thames Suites that include Riverview Balcony Suites"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.citizenm-bankside",
+      "topic": "hotel",
+      "claim": "citizenM London Bankside, 20 Lavington Street SE1 0NZ (booked via Marriott): rooms for two adults with XL king bed, rainfall shower, tablet controls; canteenM 24/7; check-in 2pm, check-out 11am.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/lonbs-citizenm-london-bankside/overview/",
+          "kind": "official",
+          "title": "Marriott: citizenM London Bankside"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "rooms with an XL king bed, a rainfall shower and a tablet"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.the-kensington",
+      "topic": "hotel",
+      "claim": "The Kensington (Doyle Collection), 109-113 Queen's Gate: five-star; drawing rooms with open fires; afternoon tea; K Bar; 24-hour gym; nearest stations South Kensington and Gloucester Road; Cosy and Classic rooms; rollaway for guests 13+ £70 a night.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.doylecollection.com/hotels/the-kensington-hotel",
+          "kind": "official",
+          "title": "The Kensington"
+        },
+        {
+          "url": "https://www.doylecollection.com/hotels/the-kensington-hotel/contact-us/frequently-asked-questions",
+          "kind": "official",
+          "title": "The Kensington: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "a rollaway bed for a third guest aged 13 or over costs £70 a night"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.ampersand",
+      "topic": "hotel",
+      "claim": "The Ampersand Hotel, 10 Harrington Road SW7: a minute's walk from South Kensington station; themed rooms (astronomy Singles and Small Doubles, music Superior, birds Deluxe); Science Afternoon Tea; Apero under Victorian cellar arches; no parking.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://ampersandhotel.com/",
+          "kind": "official",
+          "title": "The Ampersand Hotel"
+        },
+        {
+          "url": "https://ampersandhotel.com/frequently-asked-questions/",
+          "kind": "official",
+          "title": "The Ampersand Hotel: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "a minute's walk from South Kensington station"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.hoxton-shoreditch",
+      "topic": "hotel",
+      "claim": "The Hoxton, Shoreditch, 81 Great Eastern Street: rooms refurbished in 2025; Shoebox 12 sq m (high floor), Cosy 18 sq m, Roomy 25 sq m; Flexy Time (check in and out any time free) and free cancellation until 2pm the day before when booked on thehoxton.com.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://thehoxton.com/london/shoreditch/rooms/",
+          "kind": "official",
+          "title": "The Hoxton, Shoreditch: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "from the Shoebox, 12 m² on a high floor, to the Cosy at 18 m² and the Roomy at 25 m²"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.one-hundred-shoreditch",
+      "topic": "hotel",
+      "claim": "One Hundred Shoreditch, Shoreditch High Street: independent hotel with 258 bedrooms and suites; rooftop bar, kitchen and terrace; Seed Library by Mr Lyan; lobby bar with DJs Thursday and Friday.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.onehundredshoreditch.com/",
+          "kind": "official",
+          "title": "One Hundred Shoreditch"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "with 258 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.st-pancras-london",
+      "topic": "hotel",
+      "claim": "St. Pancras London (St Pancras Renaissance Hotel, Marriott Autograph Collection): five-star, Grade I listed Gothic Revival building above St Pancras International, opened 1873 as the Midland Grand Hotel; 207 renovated bedrooms and 36 Signature Suites; Booking Office 1869 in the original ticket hall; spa; Eurostar suite-to-seat transfer for Chambers Suite guests, 8am-7pm, 72 hours' notice.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://stpancraslondon.com/",
+          "kind": "official",
+          "title": "St. Pancras London"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "with 207 renovated bedrooms and 36 Signature Suites",
+          "requested 72 hours ahead"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.the-standard",
+      "topic": "hotel",
+      "claim": "The Standard, London, 10 Argyle Street WC1H: former Brutalist building steps from St Pancras International; 266 rooms and suites; Double Standard, Decimo (10th floor), Sweeties; the Rooftop is closed for the season and returns in April 2027.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.standardhotels.com/london/properties/london",
+          "kind": "official",
+          "title": "The Standard, London"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "with 266 rooms and suites",
+          "reopens in April 2027"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hotel.hub-kings-cross",
+      "topic": "hotel",
+      "claim": "hub by Premier Inn London King's Cross: next to King's Cross and St Pancras stations and Regent's Canal; Standard rooms 11 sqm with double bed; Bigger rooms 14 sqm with king-size bed; not found on Booking.com.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/greater-london/london/hub-london-kings-cross.html",
+          "kind": "official",
+          "title": "Premier Inn: hub London King's Cross"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london.html": [
+          "Standard rooms of 11 m² with a double bed and Bigger rooms of 14 m² with a king-size bed"
+        ]
+      }
+    }
+  ]
+}
