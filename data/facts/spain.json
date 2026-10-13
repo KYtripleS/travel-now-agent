@@ -343,6 +343,469 @@
           "the double and twin rooms are 18 m²"
         ]
       }
+    },
+    {
+      "id": "es.madrid.no-tourist-tax",
+      "topic": "tax",
+      "claim": "No tourist tax applies in Madrid in 2026: Spain has no national tourist tax and the Comunidad de Madrid has no taxes or surcharges of its own in force in 2026 (Ministry of Finance).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hacienda.gob.es/ca-ES/Areas%20Tematicas/Financiacion%20Autonomica/Paginas/tributiosPropiosMadrid.aspx",
+          "kind": "official",
+          "title": "Ministerio de Hacienda: normativa autonómica en materia de tributos propios, Comunidad de Madrid"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "Madrid adds no tourist tax to the hotel bill",
+          "the Comunidad de Madrid levies no taxes of its own",
+          "the region has no taxes or surcharges of its own in force in 2026"
+        ]
+      }
+    },
+    {
+      "id": "es.vat.hospitality-10",
+      "topic": "tax",
+      "claim": "Spain applies its reduced 10% VAT rate to hospitality services (hotels and restaurants); the standard rate is 21% (Ley 37/1992, arts. 90 and 91).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/educacion-civico-tributaria/programa-educacion-civico-tributaria/que-impuestos/contenidos/impuesto-sobre-valor-anadido/exenciones-tipos.html",
+          "kind": "official",
+          "title": "Agencia Tributaria: IVA, exenciones y tipos"
+        },
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2025/capitulo-04-sujetos-pasivos-repercusion-impositivo/tipo-impositivo/tipo-impositivo-reducido-10-ciento.html",
+          "kind": "official",
+          "title": "Agencia Tributaria: Manual práctico de IVA, tipo impositivo reducido del 10 por ciento"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "the only tax on your room is Spain's 10% VAT",
+          "which the Agencia Tributaria applies to hospitality services, restaurants included",
+          "Spain's standard VAT rate, for comparison"
+        ]
+      }
+    },
+    {
+      "id": "es.barcelona.tourist-tax-2026-four-star",
+      "topic": "tax",
+      "claim": "From 1 April 2026 Barcelona's tourist tax at a four-star hotel is €8.40 a person a night (Catalan rate €3.40 + city surcharge €5).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+          "kind": "official",
+          "title": "Agència Tributària de Catalunya: quota tributària, tarifes i recàrrecs municipals"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "cost a couple €67.20 in tourist tax at a four-star",
+          "2 people × 4 nights × €8.40"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.airport.expres-bus",
+      "topic": "fare",
+      "claim": "EMT's Exprés Aeropuerto (line 203) runs 24 hours between T1, T2, T4 and Cibeles/Atocha; single fare €5 paid on board (cash, card or mobile); passes not valid; Atocha 6:00-23:30 every 15-20 min, Cibeles 0:00-5:40 every 35 min; Atocha to T1 30 min.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.emtmadrid.es/Aeropuerto",
+          "kind": "operator",
+          "title": "EMT Madrid: Aeropuerto (Exprés 203)"
+        },
+        {
+          "url": "https://www.crtm.es/billetes-transporte-publico-aeropuerto-madrid",
+          "kind": "official",
+          "title": "Consorcio Regional de Transportes de Madrid: billetes para tu viaje al aeropuerto"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "The fare is €5, paid on board in cash or by card or phone",
+          "every 15 to 20 minutes, and EMT puts Atocha to T1 at 30 minutes",
+          "through the night it ends at Cibeles and runs every 35 minutes"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.metro.airport-supplement",
+      "topic": "fare",
+      "claim": "Metro de Madrid single zone A ticket costs €1.50 for up to 5 stations, +€0.10 per extra station, max €2.00; the airport supplement for Aeropuerto T1-T2-T3 and T4 stations is €3; Multi card costs €2.50.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.metromadrid.es/en/viaja-en-metro/titulos-y-tarifas/tarifas",
+          "kind": "operator",
+          "title": "Metro de Madrid: Fares"
+        },
+        {
+          "url": "https://www.metromadrid.es/en/viaja-en-metro/titulos-y-tarifas/aeropuerto",
+          "kind": "operator",
+          "title": "Metro de Madrid: Airport"
+        },
+        {
+          "url": "https://www.aena.es/en/adolfo-suarez-madrid-barajas/getting-there/underground.html",
+          "kind": "official",
+          "title": "Aena, Adolfo Suárez Madrid-Barajas: getting there by underground"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "A single in zone A costs €1.50 for up to five stations",
+          "the airport stations add a €3 supplement: €4.50 to €5 in all",
+          "the Multi card, €2.50 from the machines"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.metro.line8-hours",
+      "topic": "transport",
+      "claim": "Metro line 8 runs Nuevos Ministerios - Airport T4, 06:05 to 02:00.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.aena.es/en/adolfo-suarez-madrid-barajas/getting-there/underground.html",
+          "kind": "official",
+          "title": "Aena, Adolfo Suárez Madrid-Barajas: getting there by underground"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "runs to Nuevos Ministerios, where you change, from 6.05am to 2am"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.cercanias.c1-airport",
+      "topic": "fare",
+      "claim": "Cercanías line C1 (Príncipe Pío - Atocha - Chamartín - Airport T4) leaves from T4 floor -1; Aena lists singles at €1.70 (1-2 zones), €1.85 (3 zones), €2.60 (4 zones); free for passengers with AVE tickets connecting with a flight.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.aena.es/en/adolfo-suarez-madrid-barajas/getting-there/trains.html",
+          "kind": "official",
+          "title": "Aena, Adolfo Suárez Madrid-Barajas: getting there by train"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "leaves from Terminal T4 only (floor -1)",
+          "lists singles from €1.70 to €2.60 by zone"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.taxi.airport-fixed-fare",
+      "topic": "fare",
+      "claim": "Madrid taxis charge a fixed €33 (Tarifa 4), 24 hours, between the airport and the area inside the M-30, with no supplements; the city kept the price unchanged for 2026.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.aena.es/en/adolfo-suarez-madrid-barajas/getting-there/taxi.html",
+          "kind": "official",
+          "title": "Aena, Adolfo Suárez Madrid-Barajas: getting there by taxi"
+        },
+        {
+          "url": "https://www.esmadrid.com/en/getting-around-madrid-taxi",
+          "kind": "official",
+          "title": "esMadrid (Madrid City Council tourist office): Getting around Madrid by taxi"
+        },
+        {
+          "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Actualidad/Noticias/Madrid-actualiza-las-tarifas-para-el-taxi-con-una-subida-de-2-36-para-2026/?vgnextfmt=default&vgnextoid=793c06373b2fa910VgnVCM200000f921e388RCRD&vgnextchannel=a12149fa40ec9410VgnVCM100000171f5a0aRCRD",
+          "kind": "official",
+          "title": "Ayuntamiento de Madrid: Madrid actualiza las tarifas para el taxi con una subida de 2,36% para 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "a fixed fare of €33 applies, day and night",
+          "No supplements can be added to it"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.tourist-pass-2026",
+      "topic": "fare",
+      "claim": "Madrid's tourist travel pass (Título/Abono Turístico) zone A costs €10.30 (1 day), €17.50 (2), €23.10 (3), €27.80 (4), €33.40 (5), €43.20 (7); valid calendar days from first use; under-11s 50% off; no airport supplement needed on Metro; not valid on the Exprés Aeropuerto bus.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.crtm.es/billetes-y-tarifas/buscador/billete-turistico/",
+          "kind": "official",
+          "title": "Consorcio Regional de Transportes de Madrid: Billete turístico"
+        },
+        {
+          "url": "https://www.crtm.es/billetes-transporte-publico-aeropuerto-madrid",
+          "kind": "official",
+          "title": "Consorcio Regional de Transportes de Madrid: billetes para tu viaje al aeropuerto"
+        },
+        {
+          "url": "https://www.metromadrid.es/en/viaja-en-metro/titulos-y-tarifas/tarifas",
+          "kind": "operator",
+          "title": "Metro de Madrid: Fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "It costs €10.30 for one day",
+          "€43.20 for seven, counted in calendar days from first use",
+          "under-11s pay half",
+          "It covers the metro's airport stations with no supplement, but not the Exprés Aeropuerto bus"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.paseo-prado-unesco",
+      "topic": "history",
+      "claim": "Paseo del Prado and Buen Retiro, a landscape of Arts and Sciences, was declared UNESCO World Heritage in July 2021; it includes the Paseo del Prado from Cibeles to Atocha and the 120-hectare Retiro gardens; the Prado, Thyssen and Reina Sofía lie within two kilometres.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1618/",
+          "kind": "official",
+          "title": "UNESCO World Heritage Centre: Paseo del Prado and Buen Retiro, a landscape of Arts and Sciences"
+        },
+        {
+          "url": "https://www.esmadrid.com/en/madrid-neighbourhoods/paseo-arte",
+          "kind": "official",
+          "title": "esMadrid: Paseo del Arte"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "Since July 2021 the Paseo del Prado, from Cibeles to Atocha, and the 120-hectare Retiro gardens have been a UNESCO World Heritage site",
+          "three of the world's great galleries within two kilometres"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.malasana-history",
+      "topic": "history",
+      "claim": "Malasaña is bounded by Gran Vía, Calle Fuencarral, Calle Carranza and Calle de San Bernardo; it is named after Manuela Malasaña, a heroine of the 2 May 1808 uprising, and was the birthplace of the movida madrileña in the 1980s.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.esmadrid.com/en/madrid-neighbourhoods/malasana",
+          "kind": "official",
+          "title": "esMadrid: Malasaña"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "bounded by Gran Vía, Calle Fuencarral, Calle Carranza and Calle de San Bernardo",
+          "a heroine of the uprising of 2 May 1808 against Napoleon's troops"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.gran-via-1910",
+      "topic": "history",
+      "claim": "Construction of Gran Vía began in 1910.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.esmadrid.com/en/madrid-neighbourhoods/sol-gran",
+          "kind": "official",
+          "title": "esMadrid: Sol-Gran Vía"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "Gran Vía, begun in 1910"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.letras-cervantes-lope",
+      "topic": "place",
+      "claim": "Cervantes lies in the church of San Ildefonso (convent of the Trinitarias Descalzas) on Calle Lope de Vega; Lope de Vega's house museum is on Calle Cervantes; Calle de las Huertas has quotations from Spanish writers carved in its cobbles.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.esmadrid.com/en/tourist-information/barrio-de-las-letras",
+          "kind": "official",
+          "title": "esMadrid: Barrio de las Letras"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "Cervantes is buried in the convent of the Trinitarias on Calle de Lope de Vega",
+          "Lope de Vega's house museum is, by a neat reversal, on Calle de Cervantes"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.salamanca-history",
+      "topic": "history",
+      "claim": "Barrio de Salamanca was planned in the second half of the 19th century by José de Salamanca, Marquis of Salamanca, on a grid; Calle Ortega y Gasset is the Golden Mile of fashion.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.esmadrid.com/en/madrid-neighbourhoods/barrio-salamanca",
+          "kind": "official",
+          "title": "esMadrid: Barrio de Salamanca"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "planned in the second half of the 19th century by the Marquis of Salamanca",
+          "Calle Ortega y Gasset is the Golden Mile of fashion"
+        ]
+      }
+    },
+    {
+      "id": "es.madrid.pride-2026",
+      "topic": "place",
+      "claim": "Madrid Pride (MADO) 2026 ran from 25 June to 5 July, centred on Chueca, with stages at Plaza de Pedro Zerolo, Plaza del Rey, Puerta del Sol and Plaza de España.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.esmadrid.com/en/whats-on/madrid-pride",
+          "kind": "official",
+          "title": "esMadrid: Madrid Pride"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "MADO 2026 ran from 25 June to 5 July",
+          "Plaza de Pedro Zerolo is one of Madrid Pride's stages"
+        ]
+      }
+    },
+    {
+      "id": "hotel.madrid.room-mate-alicia.single-size",
+      "topic": "hotel",
+      "claim": "Room Mate Alicia (Plaza de Santa Ana) lists its Single rooms at 10 m² and its Double Suite with Terrace at 50 m².",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://room-matehotels.com/gb/hotel-alicia-madrid/",
+          "kind": "operator",
+          "title": "Room Mate Alicia: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "the single rooms measure 10 m²",
+          "rooms up to a 50 m² suite with terrace"
+        ]
+      }
+    },
+    {
+      "id": "hotel.madrid.room-mate-oscar",
+      "topic": "hotel",
+      "claim": "Room Mate Óscar is on Plaza de Pedro Zerolo, with a terrace with pool, breakfast until 12, dog friendly, Standard rooms 21-26 m².",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://room-matehotels.com/gb/hotel-oscar-madrid/",
+          "kind": "operator",
+          "title": "Room Mate Óscar: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "Standard rooms of 21 to 26 m²",
+          "breakfast until noon"
+        ]
+      }
+    },
+    {
+      "id": "hotel.madrid.only-you-atocha",
+      "topic": "hotel",
+      "claim": "Only YOU Hotel Atocha occupies a restored 1886 building on Paseo de la Infanta Isabel with 204 rooms around a central courtyard.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.onlyyouhotels.com/en/hotels/only-you-hotel-atocha/",
+          "kind": "operator",
+          "title": "Only YOU Hotel Atocha: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "in a restored building of 1886, with 204 rooms set around a central courtyard"
+        ]
+      }
+    },
+    {
+      "id": "hotel.madrid.wellington",
+      "topic": "hotel",
+      "claim": "Wellington Hotel & Spa Madrid, Calle Velázquez 8, has 237 rooms and suites and the Le Max Wellness Club with pool, Jacuzzi, sauna and steam bath.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hotel-wellington.com/en/",
+          "kind": "operator",
+          "title": "Wellington Hotel & Spa Madrid: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "with 237 rooms and suites and the Le Max Wellness Club"
+        ]
+      }
+    },
+    {
+      "id": "hotel.madrid.four-seasons",
+      "topic": "hotel",
+      "claim": "Four Seasons Hotel Madrid, in Centro Canalejas, unites seven historic buildings; Superior rooms face an open-air inner courtyard.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/madrid/",
+          "kind": "operator",
+          "title": "Four Seasons Hotel Madrid: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "which joins seven historic buildings",
+          "the Superior rooms face an inner courtyard"
+        ]
+      }
+    },
+    {
+      "id": "hotel.madrid.casa-de-las-artes",
+      "topic": "hotel",
+      "claim": "Casa de las Artes Meliá Collection is a four-star at Calle de Atocha 83 in the Barrio de las Letras, with terrace junior suites (one room with a 35 m² terrace) and dogs accepted on request at extra charge.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.melia.com/en/hotels/spain/madrid/casa-de-las-artes-melia-collection",
+          "kind": "operator",
+          "title": "Casa de las Artes Meliá Collection: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "one room with a terrace of 35 m²"
+        ]
+      }
+    },
+    {
+      "id": "hotel.madrid.generator",
+      "topic": "hotel",
+      "claim": "Generator Madrid, Calle San Bernardo 2, is a five-storey building that was once a car park and petrol station, with private en-suite rooms, shared and female-only dorms and the Broken Shaker rooftop bar.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://staygenerator.com/hostels/madrid",
+          "kind": "operator",
+          "title": "Generator Madrid: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-madrid.html": [
+          "a five-storey building that was once a car park and petrol station"
+        ]
+      }
     }
   ]
 }

@@ -412,6 +412,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-madrid": dict(
+        text="For a first trip, stay around Sol and the Centro: the Puerta del Sol, the Plaza Mayor and Gran Vía on foot. Choose the Barrio de las Letras for tapas squares and the Paseo del Arte for the Prado and the Retiro. Madrid has no tourist tax; rooms carry 10% VAT.",
+        link_text="Sol and the Centro",
+        cta=_stay_cta("where-to-stay-in-madrid", "See hotels around Sol")),
     "where-to-stay-in-bali": dict(
         text="For a first trip, stay in Seminyak: the beach, sunsets and restaurants on foot, close to the airport. Choose Ubud for temples and rice terraces, Sanur for calm water, and Uluwatu for cliffs and surf. The tourist levy is IDR 150,000 a person, once a trip.",
         link_text="Seminyak",
@@ -1172,6 +1176,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-madrid": ["Pestana Collection Plaza Mayor", "Room Mate Alicia", "Four Seasons Hotel Madrid"],
     "where-to-stay-in-bali": ["Lloyd's Inn Bali", "Alaya Resort Ubud", "The Oberoi, Bali"],
     "where-to-stay-in-london": ["Radisson Blu Hotel, London Mercer Street", "hub by Premier Inn London Covent Garden", "The Savoy"],
     "where-to-stay-in-prague": ["Hotel Josef", "Four Seasons Hotel Prague", "Motel One Prague-Florentinum"],
@@ -1260,6 +1265,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Madrid", "where-to-stay-in-madrid", None, None),
         ("Bali", "where-to-stay-in-bali", None, None),
         ("London", "where-to-stay-in-london", None, None),
         ("Prague", "where-to-stay-in-prague", None, None),

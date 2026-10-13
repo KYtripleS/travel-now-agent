@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-madrid": dict(area="Sol", lat=40.4169, lng=-3.7035, zoom=15,
+                                       address="Puerta del Sol, Madrid, Spain"),
     "where-to-stay-in-bali": dict(area="Seminyak", lat=-8.6913, lng=115.1612, zoom=14,
                                      address="Jalan Kayu Aya, Seminyak, Bali, Indonesia"),
     "where-to-stay-in-london": dict(area="Covent Garden", lat=51.5117, lng=-0.124, zoom=15,
@@ -506,6 +508,19 @@ HOTELS = {
     "Puri Santrian": _B + "id/puri-santrian.html",
     "The Mulia": _B + "id/the-mulia.html",
     "Ayodya Resort Bali": _B + "id/ayodya-resort-bali.html",
+    # Madrid (Booking.com pages confirmed by hotel name and city, 2026-10-13)
+    "Four Seasons Hotel Madrid": _B + "es/four-seasons-madrid.html",
+    "Pestana Collection Plaza Mayor": _B + "es/pestana-plaza-mayor.html",
+    "The Hat Madrid": _B + "es/the-hat.html",
+    "Casa de las Artes Meliá Collection": _B + "es/casa-de-las-artes-member-of-melia-collection.html",
+    "Room Mate Alicia": _B + "es/alicia-room-mate.html",
+    "Mandarin Oriental Ritz, Madrid": _B + "es/ritz-madrid.html",
+    "Only YOU Hotel Atocha": _B + "es/only-you-atocha.html",
+    "Generator Madrid": _B + "es/generator-madrid.html",
+    "Only YOU Boutique Hotel Madrid": _B + "es/only-you-amp-lounge.html",
+    "Room Mate Óscar": _B + "es/room-mate-oscar.html",
+    "Rosewood Villa Magna": _B + "es/villa-magna.html",
+    "Wellington Hotel & Spa Madrid": _B + "es/wellington-madrid.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
