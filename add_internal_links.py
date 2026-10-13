@@ -591,6 +591,18 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-prague.html": (
+        "Where to Stay in Prague",
+        "Six areas, 12 hotels, the 50 CZK a night city fee, and the 46 CZK way in from the airport.",
+    ),
+    "articles/where-to-stay-in-venice.html": (
+        "Where to Stay in Venice",
+        "Six areas, 12 hotels, a tourist tax of up to €5 a night, and what the day-tripper fee means for guests.",
+    ),
+    "articles/where-to-stay-in-florence.html": (
+        "Where to Stay in Florence",
+        "Six areas, 12 hotels, and Florence's city tax of €3.50 to €8 a person a night, for up to seven nights.",
+    ),
     "articles/where-to-stay-in-barcelona.html": (
         "Where to Stay in Barcelona",
         "Six areas, 12 hotels and Barcelona's two-part tourist tax: €8.40 a person a night at a four-star.",
@@ -1901,6 +1913,26 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-prague.html": [
+        "articles/where-to-stay-in-amsterdam.html",
+        "articles/where-to-stay-in-rome.html",
+        "articles/where-to-stay-in-barcelona.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-in-venice.html": [
+        "articles/where-to-stay-in-rome.html",
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-barcelona.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-in-florence.html": [
+        "articles/where-to-stay-in-rome.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-barcelona.html": [
         "articles/hotel-taxes-around-the-world-2026.html",

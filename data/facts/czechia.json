@@ -1,0 +1,605 @@
+{
+  "place": "Czechia",
+  "facts": [
+    {
+      "id": "cz.prague.accommodation-fee",
+      "topic": "tax",
+      "claim": "Prague's local fee for a stay (poplatek z pobytu) is 50 CZK per person for every started day of a paid stay except the day of arrival (in practice per night), for stays of up to 60 consecutive days with one provider.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.praha1.cz/potrebuji-si-vyridit/odbory/poplatek-z-pobytu/",
+          "kind": "official",
+          "title": "Prague 1 municipal district: Poplatek z pobytu"
+        },
+        {
+          "url": "https://www.praha5.cz/potrebuji-zaridit/mistni-poplatky/poplatek-z-pobytu/",
+          "kind": "official",
+          "title": "Prague 5 municipal district: Poplatek z pobytu"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "50 CZK a person, for every day of the stay except the day you arrive",
+          "Guests on a paid stay of up to 60 nights in a row with one provider",
+          "It is 50 CZK a person a night"
+        ]
+      }
+    },
+    {
+      "id": "cz.accommodation-fee.cap",
+      "topic": "tax",
+      "claim": "Czech law caps the local fee for a stay at 50 CZK per person per day; Prague charges the maximum.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://portal.gov.cz/formulare/mistni-poplatek-z-pobytu/online",
+          "kind": "official",
+          "title": "Portál občana (gov.cz): Místní poplatek z pobytu, model ordinance"
+        },
+        {
+          "url": "https://www.praha1.cz/potrebuji-si-vyridit/odbory/poplatek-z-pobytu/",
+          "kind": "official",
+          "title": "Prague 1 municipal district: Poplatek z pobytu"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "the most Czech law allows"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.accommodation-fee.exemptions",
+      "topic": "tax",
+      "claim": "Exempt from Prague's fee: people under 18, blind people, holders of the ZTP/P card and their companion, and other groups listed in the Act on Local Fees.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.praha1.cz/potrebuji-si-vyridit/odbory/poplatek-z-pobytu/",
+          "kind": "official",
+          "title": "Prague 1 municipal district: Poplatek z pobytu"
+        },
+        {
+          "url": "https://www.praha5.cz/potrebuji-zaridit/mistni-poplatky/poplatek-z-pobytu/",
+          "kind": "official",
+          "title": "Prague 5 municipal district: Poplatek z pobytu"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "Under-18s, and a few other groups listed by law, such as blind people and holders of the Czech ZTP/P disability card with a companion"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.fee-worked-example",
+      "topic": "tax",
+      "claim": "Worked example (our arithmetic): a couple staying four nights pays 2 x 4 x 50 CZK = 400 CZK (roughly €16 at an approximate exchange rate).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.praha1.cz/potrebuji-si-vyridit/odbory/poplatek-z-pobytu/",
+          "kind": "official",
+          "title": "Prague 1 municipal district: Poplatek z pobytu"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "a couple staying four nights pays 400 CZK",
+          "a couple's four nights adds 400 CZK"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.airport-line-59",
+      "topic": "transport",
+      "claim": "PID/DPP line 59 runs between the airport terminals and Nádraží Veleslavín (metro A) every 3 to 10 minutes with a 17-minute journey; PID estimates about 35 minutes to the centre.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.dpp.cz/en/travelling/transport-to-airport/daytime-operation",
+          "kind": "operator",
+          "title": "DPP: Transport to airport, daytime operation"
+        },
+        {
+          "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+          "kind": "operator",
+          "title": "PID: Travel to Airport and Stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "every 3 to 10 minutes and in 17 minutes",
+          "puts the whole trip to the centre at about 35 minutes"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.airport-line-100",
+      "topic": "transport",
+      "claim": "Line 100 runs between the airport and Zličín (metro B) every 10 to 20 minutes; PID estimates about 45 minutes to the centre.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.dpp.cz/en/travelling/transport-to-airport/daytime-operation",
+          "kind": "operator",
+          "title": "DPP: Transport to airport, daytime operation"
+        },
+        {
+          "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+          "kind": "operator",
+          "title": "PID: Travel to Airport and Stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "every 10 to 20 minutes, about 45 minutes to the centre in all"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.airport-express-fare",
+      "topic": "fare",
+      "claim": "The Airport Express (AE) between Terminal 1 and Prague main station (Hlavní nádraží) has a special PID fare of 200 CZK (100 CZK for children 6-15), sold by the driver; ordinary PID single tickets and Prague time passes are not valid. PID estimates about 45 minutes to the centre.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.cd.cz/airportexpress",
+          "kind": "operator",
+          "title": "České dráhy: Airport Express"
+        },
+        {
+          "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+          "kind": "operator",
+          "title": "PID: Travel to Airport and Stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "It has its own fare: 200 CZK, or 100 CZK for children aged 6 to 15",
+          "Ordinary PID tickets and the 24- and 72-hour passes are not valid on it"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.airport-terminal-stops",
+      "topic": "transport",
+      "claim": "PID's airport page says that since 3 March 2025, because of road repairs, the city transport boarding stop at Terminal 1 is temporarily closed and boarding is at the Terminal 2 stop; the AE boards at Terminal 1 (its Terminal 2 stop is alighting only).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+          "kind": "operator",
+          "title": "PID: Travel to Airport and Stations"
+        },
+        {
+          "url": "https://www.cd.cz/airportexpress",
+          "kind": "operator",
+          "title": "České dráhy: Airport Express"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "City buses have been boarding at the Terminal 2 stop during road repairs"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.pid-fares-2026",
+      "topic": "fare",
+      "claim": "PID Prague fares (full fare, ages 15-60): 30 min 36 CZK app / 39 CZK paper; 90 min 46 / 50 CZK; 24 h 140 / 150 CZK; 72 h 340 / 350 CZK.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://pid.cz/en/tickets/",
+          "kind": "operator",
+          "title": "PID: Tickets and fares"
+        },
+        {
+          "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+          "kind": "operator",
+          "title": "PID: Travel to Airport and Stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "A 30-minute ticket is 36 CZK in the app or 39 CZK on paper, 90 minutes 46 or 50 CZK, 24 hours 140 or 150 CZK, and 72 hours 340 or 350 CZK",
+          "46 CZK in the PID Lítačka app, 50 CZK on paper"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.pid-payment",
+      "topic": "transport",
+      "claim": "PID tickets can be bought in the PID Lítačka app, at machines, or on contactless payment terminals in all city transport vehicles; app and contactless tickets are valid after a 60-second protective period; paper tickets are validated once in a yellow validator.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+          "kind": "operator",
+          "title": "PID: Travel to Airport and Stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "with a contactless bank card on the payment terminals in every vehicle",
+          "App and contactless tickets start automatically after 60 seconds"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.pid-free-travel",
+      "topic": "fare",
+      "claim": "In Prague, children under 10 travel free without a document and seniors from 65 travel free with an identity document showing date of birth (also for foreign passengers).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+          "kind": "operator",
+          "title": "PID: Travel to Airport and Stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "Children under 10 and passengers over 65 ride free in Prague"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.72h-worked-example",
+      "topic": "fare",
+      "claim": "Worked example (our arithmetic): seven 90-minute app tickets cost 322 CZK and eight cost 368 CZK, against 340 CZK for the 72-hour app ticket.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://pid.cz/en/tickets/",
+          "kind": "operator",
+          "title": "PID: Tickets and fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "seven 90-minute app tickets cost 322 CZK and eight cost 368 CZK, against 340 CZK for the pass"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.night-lines-airport",
+      "topic": "transport",
+      "claim": "Night lines 907 and 910 serve Terminal 2 at the standard PID fare (50 CZK paper / 46 CZK app).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+          "kind": "operator",
+          "title": "PID: Travel to Airport and Stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "lines 907 and 910 leave from Terminal 2"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.airport-terminals",
+      "topic": "place",
+      "claim": "Prague airport Terminal 1 serves non-Schengen flights (e.g. UK, USA, Japan); Terminal 2 serves Schengen flights.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+          "kind": "operator",
+          "title": "PID: Travel to Airport and Stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "Terminal 1 for flights from outside the Schengen area, such as the UK, the US and Japan"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.unesco-historic-centre",
+      "topic": "history",
+      "claim": "UNESCO's Historic Centre of Prague comprises the Old Town, the Lesser Town and the New Town; the New Town was built by Emperor Charles IV and keeps its medieval town plan.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/616/",
+          "kind": "official",
+          "title": "UNESCO: Historic Centre of Prague"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "was laid out by Emperor Charles IV, and its medieval street plan survives under later buildings"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.jewish-museum",
+      "topic": "place",
+      "claim": "One Jewish Museum in Prague ticket covers the Old-New, Spanish, Pinkas and Maisel synagogues and the Old Jewish Cemetery; the Pinkas Synagogue houses the memorial to the Shoah victims from the Czech lands.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.jewishmuseum.cz/en/info/visit/",
+          "kind": "official",
+          "title": "Jewish Museum in Prague: Visit"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "can be visited on one Jewish Museum ticket",
+          "the Pinkas Synagogue holds the memorial to the Shoah victims from the Czech lands"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.four-seasons",
+      "topic": "hotel",
+      "claim": "Four Seasons Hotel Prague: 157 accommodations (138 rooms, 19 suites) across four buildings by the Vltava near Charles Bridge; CottoCrudo Italian restaurant; AVA Spa with vitality pool overlooking Prague Castle; Modern Room 33 m2 (smallest category); rooms face the river or the streets.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/prague/accommodations/",
+          "kind": "official",
+          "title": "Four Seasons Hotel Prague: Accommodations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "with 138 rooms and 19 suites",
+          "the Modern Room, is 33 m²"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.hotel-paris",
+      "topic": "hotel",
+      "claim": "Hotel Paris Prague: 5-star Art Nouveau hotel built 1904, Brandejs family for three generations, 86 rooms, U Obecního domu 1; Deluxe rooms 19-24 m2, some with balcony; direct booking upgrade offer.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.hotel-paris.cz/en/",
+          "kind": "official",
+          "title": "Hotel Paris Prague"
+        },
+        {
+          "url": "https://www.hotel-paris.cz/en/luxury-rooms-prague/",
+          "kind": "official",
+          "title": "Hotel Paris Prague: Deluxe Room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "A five-star Art Nouveau hotel from 1904",
+          "the Deluxe rooms are 19 to 24 m²"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.josef",
+      "topic": "hotel",
+      "claim": "Hotel Josef, Rybná 20, Prague 1: designed by Eva Jiřičná, opened 2002; spiral staircase, garden, bakery, balcony rooms on the top floor, Mini rooms described as compact, Castle View rooms.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.hoteljosef.com/",
+          "kind": "official",
+          "title": "Hotel Josef"
+        },
+        {
+          "url": "https://www.hoteljosef.com/rooms-overview/",
+          "kind": "official",
+          "title": "Hotel Josef: Rooms overview"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "designed by the architect Eva Jiřičná and opened in 2002"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.mandarin-oriental",
+      "topic": "hotel",
+      "claim": "Mandarin Oriental, Prague: Nebovidská 459/1, opened 12 September 2006 in former Malá Strana monastery buildings; spa in a former Renaissance chapel; Monastiq restaurant; Charles Bridge, Kampa, Prague Castle 5-minute walk; Old Town Square 20-25 minutes.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/prague/mala-strana/about",
+          "kind": "official",
+          "title": "Mandarin Oriental, Prague: About"
+        },
+        {
+          "url": "https://www.mandarinoriental.com/en/prague/mala-strana/wellness/the-spa",
+          "kind": "official",
+          "title": "Mandarin Oriental, Prague: The Spa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "Old Town Square is a 20- to 25-minute walk",
+          "opened in 2006"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.aria",
+      "topic": "hotel",
+      "claim": "Aria Hotel Prague: 51 rooms and suites on four music-themed floors (contemporary, classical, opera, jazz), next to the Vrtba Garden; breakfast included; Deluxe rooms 30 m2 with a view of the Winter Garden atrium or the Vrtba Garden.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.ariahotel.net/",
+          "kind": "official",
+          "title": "Aria Hotel Prague"
+        },
+        {
+          "url": "https://www.ariahotel.net/rooms-and-suites/rooms/deluxe-rooms",
+          "kind": "official",
+          "title": "Aria Hotel Prague: Deluxe Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "A hotel of 51 rooms and suites",
+          "the 30 m² Deluxe rooms look over either the Vrtba Garden or the hotel's Winter Garden atrium"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.lokal-inn",
+      "topic": "hotel",
+      "claim": "Lokál Inn, Míšeňská 66/12: house U Bílé kuželky by Kryštof Dientzenhofer, built 1708-1714; Lokál restaurant with tank Pilsner below; breakfast included, served 8-10am; promo code DIRECT for 10% off.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.lokalinn.cz/location",
+          "kind": "official",
+          "title": "Lokál Inn: Location"
+        },
+        {
+          "url": "https://www.lokalinn.cz/services",
+          "kind": "official",
+          "title": "Lokál Inn: Services"
+        },
+        {
+          "url": "https://www.lokalinn.cz/",
+          "kind": "official",
+          "title": "Lokál Inn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "built between 1708 and 1714",
+          "breakfast is served only from 8 to 10am"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.jalta",
+      "topic": "hotel",
+      "claim": "Jalta Boutique Hotel, Václavské náměstí 45: post-war socialist-realist building, 1950s-style rooms, original marble floors, spiral staircase to a terrace over Wenceslas Square and the National Museum.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.hoteljalta.com/en/",
+          "kind": "official",
+          "title": "Jalta Boutique Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "On Wenceslas Square at number 45"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.motel-one-florentinum",
+      "topic": "hotel",
+      "claim": "Motel One Prague-Florentinum: a few minutes' walk from Republic Square; marionette-themed lobby; One Lounge with Bohemian crystal chandeliers; room sizes 16 m2 and 20 m2; refurbishment notice: bar closed 5-19 October (breakfast paused 14 Sep-4 Oct).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.motel-one.com/en/hotels/prague/hotel-prague-florentinum/",
+          "kind": "official",
+          "title": "Motel One Prague-Florentinum"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "the smaller rooms are 16 m²"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.le-palais",
+      "topic": "hotel",
+      "claim": "Le Palais Art Hotel Prague, U Zvonařky 1, Prague 2 (Vinohrady): Belle Époque, ceilings by Luděk Marold who lived and worked there; 72 rooms and suites; Artista restaurant; Pure Spa; Economy rooms are 'old standard' attic rooms with skylights; Deluxe on floors 1-3.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.lepalaishotel.eu/",
+          "kind": "official",
+          "title": "Le Palais Art Hotel Prague"
+        },
+        {
+          "url": "https://www.lepalaishotel.eu/accommodation/standard-room/",
+          "kind": "official",
+          "title": "Le Palais: Economy room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "72 rooms and suites",
+          "the Economy rooms are attic rooms of the hotel's \"old standard\", with skylights"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.czech-inn",
+      "topic": "hotel",
+      "claim": "Czech Inn, Francouzská 76, Prague 10: design hostel in a restored 19th-century building; dorms with curtained beds and shared bathrooms, ensuite and premium dorms, private rooms, apartments; breakfast, bar, guest kitchen.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://czechinn.com/",
+          "kind": "official",
+          "title": "Czech Inn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "A design hostel in a restored 19th-century building on Francouzská"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.botanique",
+      "topic": "hotel",
+      "claim": "Botanique Hotel Prague, Sokolovská 11, 186 00 Prague (Karlín): next to Florenc metro, bus and tram; 15-minute walk from the heart of Old Town; renovated rooms; Green Key certified; free breakfast when booking direct.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.hotelbotanique.com/",
+          "kind": "official",
+          "title": "Botanique Hotel Prague"
+        },
+        {
+          "url": "https://www.hotelbotanique.com/location/",
+          "kind": "official",
+          "title": "Botanique Hotel Prague: Location"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "a 15-minute walk from the heart of the Old Town",
+          "free breakfast comes with direct-booking rates"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.mama-shelter",
+      "topic": "hotel",
+      "claim": "Mama Shelter Prague, Veletržní 1502/20, Prague 7-Holešovice: 238 rooms, ten floors, designed by Jalil Amor, 8th-floor restaurant and rooftop (no rooftop reservations), five-minute tram ride to the Old Town.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://mamashelter.com/prague/",
+          "kind": "official",
+          "title": "Mama Shelter Prague"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "A hotel of 238 rooms over ten floors on Veletržní",
+          "the rooftop takes no reservations"
+        ]
+      }
+    }
+  ]
+}

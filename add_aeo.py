@@ -412,6 +412,18 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-prague": dict(
+        text="For a first trip, stay in the Old Town: Old Town Square, the Jewish Quarter and Charles Bridge on foot. Choose Malá Strana for the castle side, the New Town for the metro and the airport bus, and Vinohrady for cafés and parks. The city fee is 50 CZK a person a night.",
+        link_text="the Old Town",
+        cta=_stay_cta("where-to-stay-in-prague", "See hotels around the Old Town")),
+    "where-to-stay-in-venice": dict(
+        text="For a first trip, stay in San Marco: St Mark's Square, the Doge's Palace and the Grand Canal water buses at the door. Choose Castello for the waterfront for less, Dorsoduro for the galleries, and Mestre for the lowest tax. The tourist tax is up to €5 a person a night, €4.50 at a four-star.",
+        link_text="San Marco",
+        cta=_stay_cta("where-to-stay-in-venice", "See hotels around San Marco")),
+    "where-to-stay-in-florence": dict(
+        text="For a first trip, stay around the Duomo: the cathedral, the Uffizi and the Ponte Vecchio, all on foot. Choose Santo Spirito for evenings out, San Lorenzo for the David and Santa Maria Novella for the trains. The city tax is €7 a person a night at a four-star, for up to seven nights.",
+        link_text="the Duomo",
+        cta=_stay_cta("where-to-stay-in-florence", "See hotels around the Duomo")),
     "where-to-stay-in-barcelona": dict(
         text="For a first trip, stay in the Eixample: Passeig de Gràcia, Gaudí's Casa Batlló and La Pedrera, and the airport bus at Plaça de Catalunya. Choose the Gothic Quarter for medieval streets and Barceloneta for the beach. The tax is €8.40 a person a night at a four-star and €12 at a five-star.",
         link_text="Eixample",
@@ -1152,6 +1164,9 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-prague": ["Hotel Josef", "Four Seasons Hotel Prague", "Motel One Prague-Florentinum"],
+    "where-to-stay-in-venice": ["Hotel Flora", "Londra Palace Venezia", "Hotel La Residenza"],
+    "where-to-stay-in-florence": ["Hotel Brunelleschi", "Hotel Pendini", "Portrait Firenze"],
     "where-to-stay-in-barcelona": ["Majestic Hotel & Spa Barcelona", "Casa Bonay", "Hotel Praktik Bakery"],
     "where-to-stay-in-rome": ["Albergo del Senato", "Albergo Santa Chiara", "Hotel Raphaël"],
     "where-to-stay-in-amsterdam": ["Ambassade Hotel", "Pulitzer Amsterdam", "Mr. Jordaan"],
@@ -1235,6 +1250,9 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Prague", "where-to-stay-in-prague", None, None),
+        ("Venice", "where-to-stay-in-venice", None, None),
+        ("Florence", "where-to-stay-in-florence", None, None),
         ("Barcelona", "where-to-stay-in-barcelona", None, None),
         ("Rome", "where-to-stay-in-rome", None, None),
         ("Amsterdam", "where-to-stay-in-amsterdam", None, None),
@@ -1595,6 +1613,9 @@ STAY_POINTERS = {
     "travel-insurance-japan": ("intro",
         f'Planning where to sleep, too? <a href="{_JP}">Where to stay in Japan</a> splits a first trip of seven to '
         'ten days between Tokyo and Kyoto or Osaka, with the lodging tax each city adds and when to book.'),
+    "carry-on-packing-list-10-day-japan": ("intro",
+        f'Packing for ten days usually means two bases. <a href="{_JP}">Where to stay in Japan</a> splits the '
+        'trip between Tokyo and Kyoto or Osaka, with the lodging tax each city adds and when to book.'),
     "best-esim-japan-2026": ("intro",
         f'Still choosing a base? <a href="{_T}">Where to stay in Tokyo</a> starts with the station, then compares '
         'six neighbourhoods, from Shinjuku to Asakusa, and 17 hotels.'),

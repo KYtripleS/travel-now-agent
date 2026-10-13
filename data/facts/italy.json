@@ -153,6 +153,551 @@
           "tap a contactless card at the metro gates and on buses"
         ]
       }
+    },
+    {
+      "id": "it.florence.tourist-tax",
+      "topic": "tax",
+      "claim": "Florence's imposta di soggiorno is charged per person per night: €8 at five-star, €7 at four-star, €6 at three-star, €4.50 at two-star and €3.50 at one-star hotels, €7 at residenze d'epoca, €6 at B&Bs, affittacamere, holiday flats (CAV) and short-term tourist rentals, and €4 at youth hostels and case per ferie; these rates were approved by Giunta deliberation 535 of 10 December 2024, apply from 1 February 2025, and are still the current ones listed by the Comune di Firenze in October 2026.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://servizi.comune.fi.it/servizi/imposta-di-soggiorno-informati",
+          "kind": "official",
+          "title": "Comune di Firenze: Imposta di Soggiorno - Informati"
+        },
+        {
+          "url": "https://servizi.comune.fi.it/sites/www.comune.fi.it/files/deliberazione_di_giunta_completa-dg_2024_00599_00535-1.pdf",
+          "kind": "official",
+          "title": "Comune di Firenze: Deliberazione di Giunta DG/2024/00535, Imposta di soggiorno - approvazione nuove tariffe 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "from €3.50 at a one-star to €8 at a five-star",
+          "pays €56 on top of the room",
+          "€7 a night at a four-star, €6 at a three-star"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.tourist-tax-cap",
+      "topic": "tax",
+      "claim": "Florence's city tax applies to non-residents for at most 7 consecutive nights, and minors are exempt until their 12th birthday.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://servizi.comune.fi.it/servizi/imposta-di-soggiorno-informati",
+          "kind": "official",
+          "title": "Comune di Firenze: Imposta di Soggiorno - Informati"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "The tax stops after seven nights",
+          "Children pay nothing until their 12th birthday",
+          "Ten nights in one four-star hotel cost the couple €98, not €140"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.short-term-rentals",
+      "topic": "place",
+      "claim": "Since 30 July 2024 (Council deliberation 57/2024, safeguard measures) Florence has barred new short-term tourist rentals in the UNESCO historic core (Zone A1); from 21 June 2026 (DCC 28 of 4 June 2026) no new short-term rental activity may start in Zone A subzones A1, A3 and A4; every short-term rental needs a five-year municipal authorisation under the regulation in force since 31 May 2025, with units already let in 2024 exempt for three years.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.comune.firenze.it/turismo/locazioni-turistiche-brevi",
+          "kind": "official",
+          "title": "Comune di Firenze: Locazioni Turistiche Brevi"
+        },
+        {
+          "url": "https://servizi.comune.fi.it/servizi/imposta-di-soggiorno-informati",
+          "kind": "official",
+          "title": "Comune di Firenze: Imposta di Soggiorno - Informati"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "since 30 July 2024 the city has barred new short-term rentals in the UNESCO historic core",
+          "since 21 June 2026 no new short-term rentals may open in further parts of the central Zone A"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.t2-tram-airport",
+      "topic": "transport",
+      "claim": "Tram line T2 links Florence's Peretola airport with the city centre in about 20 minutes; the Peretola Aeroporto stop is a 2-minute walk from arrivals; first tram from the airport 05:00, last 23:58 Sunday to Thursday and 01:15 Friday and Saturday. The line opened on 11 February 2019 from Peretola to Piazza Unità, beside Santa Maria Novella station.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gestramvia.it/airport/?lang=en",
+          "kind": "operator",
+          "title": "GEST: Airport"
+        },
+        {
+          "url": "https://www.firenzetramvia.it",
+          "kind": "official",
+          "title": "Firenze Tramvia: le linee"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "reaches the centre in about 20 minutes, stopping at Unità beside Santa Maria Novella station",
+          "The first tram leaves the airport at 05:00, the last at 23:58 (01:15 on Friday and Saturday)"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.tram-fare",
+      "topic": "fare",
+      "claim": "A Florence urban ticket for trams and city buses costs €2.00 and is valid for 90 minutes (SMS ticket €2.40); it can be bought at stop machines or by tapping a contactless card, phone or wearable on the reader on board.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gestramvia.it/tickets/?lang=en",
+          "kind": "operator",
+          "title": "GEST: Tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "A ticket costs €2 and lasts 90 minutes",
+          "the same €2 ticket covers trams and city buses"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.tram-luggage",
+      "topic": "transport",
+      "claim": "On Florence's trams one bag up to 10 kg and 55x40x20 cm is free; larger bags up to 80x45x25 cm and 20 kg need one extra ticket each (maximum 2 per person); luggage over 80x45x25 cm or 20 kg is not allowed.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.gestramvia.it/airport/?lang=en",
+          "kind": "operator",
+          "title": "GEST: Airport, baggage transport rules"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "One bag of up to 10 kg and 55 × 40 × 20 cm travels free",
+          "anything bigger is not allowed on board"
+        ]
+      }
+    },
+    {
+      "id": "it.pisa.pisamover",
+      "topic": "fare",
+      "claim": "The PisaMover shuttle between Pisa airport and Pisa Centrale costs €6.50 single and €13.00 return, takes about 5 minutes including the intermediate stop, and runs daily from 06:00 to midnight (to 01:00 from 1 June to 30 September).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://pisa-mover.com/en/services/tickets-and-fares/",
+          "kind": "operator",
+          "title": "Pisamover: Tickets and Fares (fare table image)"
+        },
+        {
+          "url": "https://pisa-mover.com/en/shuttle-service/",
+          "kind": "operator",
+          "title": "Pisamover: Shuttle service"
+        },
+        {
+          "url": "https://www.trenitalia.com/en/connections/pisa-airport.html",
+          "kind": "operator",
+          "title": "Trenitalia: Pisa Airport (confirms €6.50 and 5 minutes)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "for €6.50 single or €13 return",
+          "every day from 06:00 to midnight (to 01:00 from June to September)"
+        ]
+      }
+    },
+    {
+      "id": "it.pisa-florence.regional-train",
+      "topic": "fare",
+      "claim": "On Trenitalia's own journey planner (searched 13 October 2026 for Tuesday 10 November 2026), direct regional trains from Pisa Centrale to Firenze S. M. Novella cost €9.80 in second class and took 52 minutes (Regionale Veloce) to 1 hour 22 minutes (Regionale).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.trenitalia.com/en.html",
+          "kind": "operator",
+          "title": "Trenitalia: journey planner and fares (lefrecce.it booking engine)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "€9.80 and 52 to 82 minutes on a November weekday"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.smn-high-speed",
+      "topic": "transport",
+      "claim": "On Trenitalia's journey planner for a November 2026 weekday, direct Frecciarossa trains from Firenze S. M. Novella reach Roma Termini in 1 h 35 to 1 h 42 and Venezia Santa Lucia in 2 h 14 to 2 h 16.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.trenitalia.com/en.html",
+          "kind": "operator",
+          "title": "Trenitalia: journey planner (lefrecce.it booking engine)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "Roma Termini in about 1 hour 35 minutes",
+          "Venezia Santa Lucia in about 2 hours 15 minutes"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.hotel-pendini-parking",
+      "topic": "hotel",
+      "claim": "Hotel Pendini's car collection service costs €28 per 24 hours for small cars and €37 for other categories, including registering the plate with the Polizia Locale for the ZTL; the hotel lists the city tax at €6 per person per night, under-12s exempt.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.hotelpendini.it/faq",
+          "kind": "official",
+          "title": "Hotel Pendini: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "The hotel parks your car for €28 a day (€37 for larger cars)"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.hotel-orto-de-medici-rooms",
+      "topic": "hotel",
+      "claim": "Hotel Orto de' Medici (4-star, Via San Gallo 30) lists Basic rooms of 140 sq ft, Classic 194 sq ft and Deluxe 215 sq ft opening onto the garden; free cancellation until 18:00 the day before arrival (promotional rates may differ); no pets.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.ortodeimedici.it/faq",
+          "kind": "official",
+          "title": "Hotel Orto de' Medici: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "the Basic rooms are 140 sq ft (13 m²)",
+          "Deluxe rooms, 215 sq ft (20 m²), open onto the garden"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.hotel-portrait-firenze",
+      "topic": "hotel",
+      "claim": "Portrait Firenze (Lungarno Collection), steps from the Ponte Vecchio, has 37 rooms and suites and is pet friendly; its booking form says children aged 4 and over are entered as adults.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.lungarnocollection.com/florence/portrait-firenze/",
+          "kind": "official",
+          "title": "Lungarno Collection: Portrait Firenze"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "with 37 rooms and suites, many facing the river",
+          "children aged four and over are booked as adults"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.hotel-four-seasons",
+      "topic": "hotel",
+      "claim": "Four Seasons Hotel Firenze, Borgo Pinti 99, occupies two Renaissance palaces: Palazzo della Gherardesca (built 1473; Il Palagio, spa, pool, garden) and Palazzo del Nero (36 rooms with Duomo views).",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/florence/",
+          "kind": "official",
+          "title": "Four Seasons Hotel Firenze"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "Palazzo della Gherardesca, built in 1473",
+          "Palazzo del Nero adds 36 rooms with views of the Duomo"
+        ]
+      }
+    },
+    {
+      "id": "it.florence.hotel-orologio",
+      "topic": "hotel",
+      "claim": "Hotel L'Orologio Florence (4-star, Piazza Santa Maria Novella) says SMN station is within 300 metres; its Deluxe room with Santa Maria Novella square view measures 28 m².",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.whythebesthotels.com/en/firenze-hotel-orologio/hotel-near-station-florence",
+          "kind": "official",
+          "title": "Hotel L'Orologio: location"
+        },
+        {
+          "url": "https://www.whythebesthotels.com/en/firenze-hotel-orologio/hotel-rooms-florence-city-centre/deluxe/deluxe-with-santa-maria-novella-square-view",
+          "kind": "official",
+          "title": "Hotel L'Orologio: Deluxe with Santa Maria Novella square view"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-florence.html": [
+          "within 300 metres of the station by the hotel's measure",
+          "the Deluxe rooms are 28 m²"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.tourist-tax",
+      "topic": "tax",
+      "claim": "Venice's imposta di soggiorno for hotels in high season (1 Feb-31 Dec), per person per night, in the historic centre and Giudecca: 1 star €1.00, 2 stars €2.00, 3 stars €3.50, 4 stars €4.50, 5 stars €5.00; Lido and lagoon islands €0.80/€1.60/€2.80/€3.60/€4.50; mainland €0.70/€1.40/€2.40/€3.10/€3.50. Rates valid from 1 April 2025 and still the city's current schedule in 2026.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Tributi/ids/TARIFFE%20IDS%20-%20STRUTTURE%20con%20classificazione%20L.R.%2011_2013_valide%20dal%2001.04.2025.pdf",
+          "kind": "official",
+          "title": "Comune di Venezia: Tariffe IDS, strutture classificate, valide dal 01.04.2025 (PDF)"
+        },
+        {
+          "url": "https://www.comune.venezia.it/it/content/tariffe-ids-dal-19052020",
+          "kind": "official",
+          "title": "Comune di Venezia: Tariffe IDS"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "€4.50 at a four-star in the historic centre, €3.10 at a four-star on the mainland",
+          "high season runs from 1 February to 31 December"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.tourist-tax-low-season",
+      "topic": "tax",
+      "claim": "In Venice's low season (1-31 January) the hotel tourist tax in the historic centre is €3.10 at four stars and €2.40 at three stars; B&Bs and guest houses graded 2-5 lions pay €2-€5 in high season in the historic centre.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Tributi/ids/TARIFFE%20IDS%20-%20STRUTTURE%20con%20classificazione%20L.R.%2011_2013_valide%20dal%2001.04.2025.pdf",
+          "kind": "official",
+          "title": "Comune di Venezia: Tariffe IDS, strutture classificate, valide dal 01.04.2025 (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "In January, the low season, the rates drop",
+          "pay from €2 to €5 a night in the historic centre"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.tourist-tax-rules",
+      "topic": "tax",
+      "claim": "Venice's tourist tax is due only for the first five nights of a stay; children under 10 are exempt and children aged 10 to 16 get a reduction; a receipt from a previous accommodation counts towards the five nights.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/it/content/tourist-tax-information-guests",
+          "kind": "official",
+          "title": "Comune di Venezia: Tourist Tax information for guests"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "the tax stops after five consecutive nights",
+          "children under 10 pay nothing and those aged 10 to 16 pay a reduced rate"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.access-fee-2026",
+      "topic": "tax",
+      "claim": "Venice's 2026 access fee trial applied on 60 days from 3 April to 26 July 2026, between 8:30am and 4pm, to the historic city only (not the minor islands such as Lido, Murano, Burano); €5 if paid by the fourth day before access, €10 after; it ended and has not applied since 27 July 2026, and the city has not set any 2027 dates.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://cda.veneziaunica.it/en/access-fee",
+          "kind": "official",
+          "title": "Venezia Unica: About the Access Fee"
+        },
+        {
+          "url": "https://www.veneziaunica.it/en/things-to-do-in-venice/events/contributo-di-accesso-2026",
+          "kind": "official",
+          "title": "Venezia Unica: Contributo di Accesso 2026 (calendar)"
+        },
+        {
+          "url": "https://cda.veneziaunica.it/en/faq/general-questions",
+          "kind": "official",
+          "title": "Venezia Unica: Access Fee FAQ, general questions"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "60 days from 3 April to 26 July, mostly weekends and holidays, between 8.30am and 4pm",
+          "It cost €5 if paid by the fourth day before the visit and €10 after that",
+          "since 27 July 2026 no payment or exemption is needed"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.access-fee-exemption",
+      "topic": "tax",
+      "claim": "Guests staying in accommodation in the Municipality of Venice (who pay the tourist tax) are exempt from the access fee from arrival to departure day, but must obtain a free exemption voucher with a QR code or complete a substitute declaration; the city tells guests to ask the accommodation staff for instructions.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://cda.veneziaunica.it/en/exemptions",
+          "kind": "official",
+          "title": "Venezia Unica: Exemptions on Venice Access Fee"
+        },
+        {
+          "url": "https://cda.veneziaunica.it/en/faq/general-questions",
+          "kind": "official",
+          "title": "Venezia Unica: Access Fee FAQ, general questions"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "they had to obtain a free exemption voucher with a QR code for the days of their stay",
+          "the city told guests to ask their hotel how"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.alilaguna-fare",
+      "topic": "fare",
+      "claim": "Alilaguna's airport-Venice water bus costs €18 one way and €32 return, including one heavy bag and one hand luggage; the Blue Line serves Murano, Lido, Arsenale, San Zaccaria, San Marco, Zattere and the railway station, the Orange Line Madonna dell'Orto, Guglie, San Stae, Rialto, Sant'Angelo, Ca' Rezzonico and Santa Maria del Giglio.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.alilaguna.it/en/biglietti/tariffe",
+          "kind": "operator",
+          "title": "Alilaguna: Fares and Tickets"
+        },
+        {
+          "url": "https://www.alilaguna.it/en/linee",
+          "kind": "operator",
+          "title": "Alilaguna: Our lines"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "for €18 one way or €32 return",
+          "with one large bag and one piece of hand luggage included"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.aerobus-fare",
+      "topic": "fare",
+      "claim": "ACTV Aerobus (routes 5, 15, 45) to/from Venice Marco Polo Airport: €10 for a 75-minute ticket, €18 return; Aerobus + 90-minute Rete Unica (including water buses) €18.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://avm.avmspa.it/en/content/venice-urban-services-0",
+          "kind": "operator",
+          "title": "AVM/ACTV: Venice urban services fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "runs to Piazzale Roma, at the edge of the historic city, for €10, or €18 return",
+          "an €18 combined ticket adds 90 minutes on the water buses"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.atvo-airport-bus",
+      "topic": "transport",
+      "claim": "ATVO's Venice Airport Bus Express runs directly from Marco Polo Airport to Piazzale Roma and Mestre, about 20 minutes by ATVO's description.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.atvo.it/en/services-provided/airport-services/venice-airport-bus-express",
+          "kind": "operator",
+          "title": "ATVO: Venice Airport Bus Express"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "ATVO's Venice Airport Bus Express also runs to Piazzale Roma and to Mestre station, which it times at about 20 minutes"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.vaporetto-fares",
+      "topic": "fare",
+      "claim": "ACTV standard 75-minute Rete Unica ticket (water buses) €9.50; passes €25 (1 day), €35 (2 days), €45 (3 days), €65 (7 days), excluding airport buses unless a €7 one-way or €13 return supplement is bought with the pass; the 1-day Venezia Daily Pass includes Trenitalia regional trains within the municipality (Mestre-Santa Lucia); Rolling Venice card €6 (ages 6-29) gives a 3-day ticket for €27.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://avm.avmspa.it/en/content/venice-urban-services-0",
+          "kind": "operator",
+          "title": "AVM/ACTV: Venice urban services fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "a single ACTV ticket costs €9.50 and lasts 75 minutes",
+          "Passes cost €25 for a day, €35 for two, €45 for three and €65 for seven",
+          "the ACTV one-day pass, €25, covers those trains as well as the water buses"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.biennale-arte-2026",
+      "topic": "place",
+      "claim": "The Biennale Arte 2026 runs from 9 May to 22 November 2026.",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/en",
+          "kind": "official",
+          "title": "Venezia Unica: upcoming events"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "the Biennale Arte runs until 22 November 2026"
+        ]
+      }
+    },
+    {
+      "id": "it.venice.hotel-room-sizes",
+      "topic": "hotel",
+      "claim": "Smallest room categories among the guide's hotels, per the hotels' own sites: Pensione Accademia Basic Double 12 m² (building has no lift); Ca' Pisani Superior 14 m²; Londra Palace Classic City View 18-24 m²; Monaco & Grand Canal Golden Leaf 22 m².",
+      "checked": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.pensioneaccademia.it/en/rooms/",
+          "kind": "official",
+          "title": "Hotel Pensione Accademia: Rooms"
+        },
+        {
+          "url": "https://www.capisanihotel.it/en/rooms-and-suites/",
+          "kind": "official",
+          "title": "Ca' Pisani: Rooms and Suites"
+        },
+        {
+          "url": "https://www.londrapalace.com/en/rooms.html",
+          "kind": "official",
+          "title": "Londra Palace Venezia: Rooms & Suites"
+        },
+        {
+          "url": "https://www.hotelmonaco.it/en/rooms-suites-hotel-monaco-venice/",
+          "kind": "official",
+          "title": "Hotel Monaco & Grand Canal: Rooms and Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice.html": [
+          "12 m² at the Pensione Accademia and 14 m² at Ca' Pisani to 22 m² at the Monaco & Grand Canal",
+          "the Classic rooms, 18 to 24 m², look over the city's rooftops and lanes, not the lagoon"
+        ]
+      }
     }
   ]
 }
