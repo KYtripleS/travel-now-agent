@@ -1,0 +1,545 @@
+{
+  "place": "Austria",
+  "facts": [
+    {
+      "id": "at.vienna.ortstaxe",
+      "topic": "tax",
+      "claim": "Vienna's Ortstaxe is 5% of the charge for the stay (excluding VAT and breakfast) from 1 July 2026 to 30 June 2027; until 30 June 2026 it was 3.2% after a flat 11% deduction.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/amtswege/ortstaxe",
+          "kind": "official",
+          "title": "City of Vienna: Ortstaxe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "Since 1 July 2026 the city tax, the Ortstaxe, is 5% of the price of the stay, up from 3.2% of a reduced price",
+          "3.2% of the price of the stay, after a flat 11% deduction",
+          "not counting VAT and breakfast"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.ortstaxe-2027",
+      "topic": "tax",
+      "claim": "From 1 July 2027 Vienna's Ortstaxe is 8% of the charge for the stay, excluding VAT and breakfast.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/amtswege/ortstaxe",
+          "kind": "official",
+          "title": "City of Vienna: Ortstaxe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "on 1 July 2027 it rises again, to 8%",
+          "For stays from 1 July 2027 it is 8%"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.ortstaxe-scope",
+      "topic": "tax",
+      "claim": "The Ortstaxe applies to temporary lettings (up to 3 months) of any accommodation in Vienna, from hotels and holiday flats to campsites, and is collected by the accommodation provider; exemptions include minors staying for school, training or in youth hostels, students at Viennese universities and colleges, and stays over 3 months.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/amtswege/ortstaxe",
+          "kind": "official",
+          "title": "City of Vienna: Ortstaxe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "collects the Ortstaxe and passes it to the city",
+          "students at Vienna's universities and colleges, and stays of more than three months"
+        ]
+      }
+    },
+    {
+      "id": "at.accommodation-vat",
+      "topic": "tax",
+      "claim": "VAT on accommodation in Austria is 10% (since 1 January 2022).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/amtswege/ortstaxe",
+          "kind": "official",
+          "title": "City of Vienna: Ortstaxe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "VAT on accommodation in Austria is 10%"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.ortstaxe-example",
+      "topic": "tax",
+      "claim": "Worked example (editorial arithmetic): €220 a night incl. 10% VAT, room only = €200 net; 5% Ortstaxe = €10 a night, €30 for three nights; at 8% = €16 a night.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/amtswege/ortstaxe",
+          "kind": "official",
+          "title": "City of Vienna: Ortstaxe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "the tax is €10 a night, or €30 for three nights",
+          "the tax is €16 a night"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.sbahn-closure",
+      "topic": "transport",
+      "claim": "The S-Bahn trunk line between Wien Praterstern and Wien Hauptbahnhof is closed from 7 September 2026 until the end of October 2027; trains do not stop at Rennweg or Wien Mitte/Landstraße.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
+          "kind": "official",
+          "title": "Vienna Tourist Board: important information for airport travellers 2026-2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "closed for modernisation until the end of October 2027",
+          "trains do not stop at Rennweg or Wien Mitte/Landstraße"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.cat-bus",
+      "topic": "transport",
+      "claim": "During the closure the City Airport Train runs as a non-stop premium bus between Vienna Airport and Wien Mitte/Landstraße in 21 minutes, every 12 minutes from 7 am to 7 pm and every 15 minutes otherwise; the city stop is Marxergasse 1b.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.cityairporttrain.com/en",
+          "kind": "operator",
+          "title": "City Airport Train: CAT by bus"
+        },
+        {
+          "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
+          "kind": "official",
+          "title": "Vienna Tourist Board: important information for airport travellers 2026-2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "21 minutes, every 12 minutes between 7 am and 7 pm and every 15 minutes at other times",
+          "In town the stop is at Marxergasse 1b"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.cat-fare",
+      "topic": "fare",
+      "claim": "CAT full-price single €14.90, return €24.90; tickets bought online are valid for six months.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.cityairporttrain.com/en/tickets-offers/information-about-cat-tickets/",
+          "kind": "operator",
+          "title": "City Airport Train: tariffs and prices"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "A single costs €14.90 and a return €24.90",
+          "CAT tickets bought online are valid for six months"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.railjet-airport",
+      "topic": "transport",
+      "claim": "ÖBB Railjet and InterCity trains run twice an hour non-stop from Vienna Airport to Wien Hauptbahnhof in about 15 minutes, and to Wien Meidling in just under 30 minutes.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/intercityexpress-349074",
+          "kind": "official",
+          "title": "Vienna Tourist Board: ÖBB Railjet"
+        },
+        {
+          "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
+          "kind": "official",
+          "title": "Vienna Tourist Board: important information for airport travellers 2026-2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "Twice an hour, non-stop from the airport to Wien Hauptbahnhof in about 15 minutes, or to Wien Meidling in just under 30"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.rex7-s7",
+      "topic": "transport",
+      "claim": "During the closure the REX 7 runs from the airport to Wien Hauptbahnhof in around 20 minutes; the S7 runs only as far as St. Marx, with connections to trams 18 and 71 and bus 74A.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/express-train-s7-345644",
+          "kind": "official",
+          "title": "Vienna Tourist Board: S7 and REX7"
+        },
+        {
+          "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
+          "kind": "official",
+          "title": "Vienna Tourist Board: important information for airport travellers 2026-2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "The REX 7 runs to Wien Hauptbahnhof in around 20 minutes",
+          "The S7 now stops short at St. Marx"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.airport-rail-fare",
+      "topic": "fare",
+      "claim": "Adult fare from Vienna Airport by Railjet, REX7 or S7 is €5.50 (€2.30 airport to city boundary + €3.20 within Vienna); with a Vienna City Card or multi-day ticket only the €2.30 ticket is needed.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/intercityexpress-349074",
+          "kind": "official",
+          "title": "Vienna Tourist Board: ÖBB Railjet"
+        },
+        {
+          "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/express-train-s7-345644",
+          "kind": "official",
+          "title": "Vienna Tourist Board: S7 and REX7"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "is €5.50: €2.30 from the airport to the city boundary plus €3.20 within Vienna",
+          "you need only the €2.30 ticket"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.wl-fares",
+      "topic": "fare",
+      "claim": "Wiener Linien single ticket €3.20, valid 80 minutes from validation with changes; 24-hour ticket €10.20; 7-day ticket €25.20 digital, €28.90 paper.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/travel-info/transport/tickets-361360",
+          "kind": "official",
+          "title": "Vienna Tourist Board: public transport tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "a single ticket is €3.20 and is valid for 80 minutes from validation",
+          "a 24-hour ticket is €10.20, and a 7-day ticket €25.20 digital or €28.90 on paper"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.city-card",
+      "topic": "fare",
+      "claim": "The Vienna City Card, which includes public transport, costs €19 (24 h), €31 (48 h digital), €37 (72 h digital) and €39 (7 days).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/travel-info/vienna-city-card",
+          "kind": "official",
+          "title": "Vienna Tourist Board: Vienna City Card"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "the Vienna City Card includes public transport, at €31 and €37"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.sacher",
+      "topic": "hotel",
+      "claim": "Hotel Sacher Vienna: 5-star superior, opened 1876, 152 rooms and suites; Deluxe rooms 27–39 m²; Deluxe Room with View is a separate category.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.sacher.com/en/vienna/",
+          "kind": "official",
+          "title": "Hotel Sacher Vienna"
+        },
+        {
+          "url": "https://www.sacher.com/en/vienna/room/deluxe-room/",
+          "kind": "official",
+          "title": "Hotel Sacher: Deluxe Room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "open since 1876, with 152 individually designed rooms and suites",
+          "Rooms start with the Deluxe category, 27 to 39 m²"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.kaerntnerhof",
+      "topic": "price",
+      "claim": "Hotel Kärntnerhof: 41 rooms and 3 suites, six minutes' walk from St Stephen's; doubles 15–25 m², from €135 a night including breakfast (hotel's published rate).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.karntnerhof.com/",
+          "kind": "official",
+          "title": "Hotel Kärntnerhof"
+        },
+        {
+          "url": "https://www.karntnerhof.com/zimmer-preise/doppelzimmer/",
+          "kind": "official",
+          "title": "Hotel Kärntnerhof: double rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "with 41 rooms and 3 suites",
+          "Doubles start at €135 a night with breakfast",
+          "doubles run from 15 to 25 m²"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.so-vienna",
+      "topic": "hotel",
+      "claim": "SO/ Vienna (Praterstrasse 1, by Jean Nouvel): 182 rooms and suites on floors 6 to 17; Classic room 29 m² with Ferris wheel view; St Stephen's view from Deluxe category.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/6599/index.en.shtml",
+          "kind": "official",
+          "title": "Accor: SO/ Vienna"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "with 182 rooms and suites on floors 6 to 17",
+          "the entry Classic room, 29 m², faces the Ferris wheel"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.stefanie",
+      "topic": "hotel",
+      "claim": "Hotel Stefanie (Taborstraße 12): Vienna's oldest hotel (1600), 111 rooms and suites; Schwedenplatz U1 about 300 m; St Stephen's 10–12 min walk; garage €31 a night.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hotelstefanie.wien/en/index.html",
+          "kind": "official",
+          "title": "Hotel Stefanie"
+        },
+        {
+          "url": "https://www.hotelstefanie.wien/en/location-arrival/arrival-parking-vienna.html",
+          "kind": "official",
+          "title": "Hotel Stefanie: arrival and parking"
+        },
+        {
+          "url": "https://hotelstefanie.wien/en/central-hotel-vienna.html",
+          "kind": "official",
+          "title": "Hotel Stefanie: location"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "with 111 renovated rooms and suites",
+          "Schwedenplatz is about 300 metres away",
+          "parking in the hotel garage is €31 a night"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.meininger",
+      "topic": "hotel",
+      "claim": "MEININGER Hotel Vienna Downtown Franz (Rembrandtstraße 21): 131 rooms and 487 beds; St Stephen's and the Hofburg about 20 minutes on foot.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.meininger-hotels.com/en/hotels/vienna/hotel-vienna-downtown-franz/",
+          "kind": "official",
+          "title": "MEININGER Vienna Downtown Franz"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "with 131 rooms and 487 beds",
+          "are about 20 minutes on foot"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.savoyen",
+      "topic": "hotel",
+      "claim": "Austria Trend Hotel Savoyen Vienna (Rennweg 16): former imperial state and court print works; six-floor atrium; Superior rooms 32–37 m²; 1,056 m² ballroom.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.austria-trend.at/en/hotels/savoyen",
+          "kind": "official",
+          "title": "Austria Trend Hotel Savoyen Vienna"
+        },
+        {
+          "url": "https://www.austria-trend.at/en/hotels/savoyen/rooms-suites",
+          "kind": "official",
+          "title": "Hotel Savoyen: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "Superior rooms are 32 to 37 m²",
+          "the largest hotel ballroom in Vienna, 1,056 m²"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.daniel",
+      "topic": "price",
+      "claim": "Hotel Daniel Vienna (Landstraßer Gürtel 5): 116 rooms; Hauptbahnhof 10-minute walk; Smart room from €114 a night, city tax excluded; Belvedere room 40 m² from €260.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://hoteldaniel.com/en/vienna/",
+          "kind": "official",
+          "title": "Hotel Daniel Vienna"
+        },
+        {
+          "url": "https://hoteldaniel.com/en/vienna/rooms/smart/",
+          "kind": "official",
+          "title": "Hotel Daniel: Smart room"
+        },
+        {
+          "url": "https://hoteldaniel.com/en/vienna/rooms/belvedere/",
+          "kind": "official",
+          "title": "Hotel Daniel: Belvedere room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "Smart rooms, with a 160 cm bed, start at €114 a night, city tax excluded",
+          "the Belvedere room, 40 m² with the palace view, starts at €260"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.beethoven",
+      "topic": "hotel",
+      "claim": "Hotel Beethoven Wien (Papagenogasse 6): 47 rooms in four categories; Salon about 30 m², Papageno about 12 m²; pastries 2–5 pm.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hotel-beethoven.at/en/",
+          "kind": "official",
+          "title": "Hotel Beethoven"
+        },
+        {
+          "url": "https://www.hotel-beethoven.at/en/rooms",
+          "kind": "official",
+          "title": "Hotel Beethoven: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "with 47 rooms in four categories",
+          "the smallest category, Papageno, is about 12 m²"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.wombats",
+      "topic": "hotel",
+      "claim": "Wombat's City Hostel Vienna: Rechte Wienzeile 35 by the Naschmarkt and U4 Kettenbrückengasse; minimum age 18; breakfast for a fee.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.wombats-hostels.com/vienna",
+          "kind": "official",
+          "title": "Wombat's City Hostel Vienna"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "the minimum age is 18 unless a guardian books a private room"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.25hours",
+      "topic": "hotel",
+      "claim": "25hours Hotel Vienna at MuseumsQuartier: 250 m² sauna and fitness area; Medium rooms 17–22 sqm facing courtyard or Lerchenfelder Straße; balcony bathtubs not in operation in winter.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://25hours-hotels.com/vienna/at-museumsquartier/",
+          "kind": "official",
+          "title": "25hours Hotel at MuseumsQuartier"
+        },
+        {
+          "url": "https://25hours-hotels.com/vienna/at-museumsquartier/rooms/",
+          "kind": "official",
+          "title": "25hours MQ: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "a 250 m² sauna and fitness area",
+          "Medium rooms are 17 to 22 m²"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.altstadt",
+      "topic": "hotel",
+      "claim": "Altstadt Vienna (Kirchengasse 41, Spittelberg): opened 1991 by Otto E. Wiesenthal; 62 rooms and suites, all different.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.altstadt.at/",
+          "kind": "official",
+          "title": "Altstadt Vienna"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "opened in 1991 by Otto E. Wiesenthal",
+          "with 62 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel.brillantengrund",
+      "topic": "price",
+      "claim": "Hotel am Brillantengrund: 34 rooms; MuseumsQuartier 5 minutes' walk; doubles from €109 with à la carte breakfast; compact rooms about 14–16 m².",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.brillantengrund.com/boutique-hotel-wien",
+          "kind": "official",
+          "title": "Hotel am Brillantengrund"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "A family hotel with 34 rooms",
+          "Doubles start at €109 with an à la carte breakfast",
+          "the compact rooms are about 14 to 16 m²"
+        ]
+      }
+    }
+  ]
+}

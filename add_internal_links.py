@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-vienna.html": (
+        "Where to Stay in Vienna",
+        "Five areas, 12 hotels, the 5% city tax that rises to 8% in 2027, and the airport while the CAT runs as a bus.",
+    ),
+    "articles/where-to-stay-in-berlin.html": (
+        "Where to Stay in Berlin",
+        "Six areas, 12 hotels, the 7.5% City Tax, and the €5 ABC ticket in from BER.",
+    ),
     "articles/where-to-stay-in-madrid.html": (
         "Where to Stay in Madrid",
         "Six areas, 12 hotels and a hotel bill with no tourist tax: only Spain's 10% VAT on the room.",
@@ -1925,6 +1933,20 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-vienna.html": [
+        "articles/where-to-stay-in-prague.html",
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-rome.html",
+        "articles/where-to-stay-in-amsterdam.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-berlin.html": [
+        "articles/where-to-stay-in-prague.html",
+        "articles/where-to-stay-in-amsterdam.html",
+        "articles/where-to-stay-in-paris.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-in-madrid.html": [
         "articles/where-to-stay-in-barcelona.html",

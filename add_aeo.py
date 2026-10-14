@@ -412,6 +412,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-vienna": dict(
+        text="For a first trip, stay in the Innere Stadt: St Stephen's, the Opera and the Hofburg on foot. Choose Leopoldstadt for a calmer base across the canal, Landstraße for the Belvedere and the airport train, and Neubau for the museums and bars. The city tax is 5% of the room price.",
+        link_text="the Innere Stadt",
+        cta=_stay_cta("where-to-stay-in-vienna", "See hotels around the Innere Stadt")),
+    "where-to-stay-in-berlin": dict(
+        text="For a first trip, stay in Mitte: the Brandenburg Gate, Museum Island and Hackescher Markt on foot, and the FEX to the airport. Choose Prenzlauer Berg for cafés and quiet streets, Kreuzberg or Friedrichshain for nightlife, and Charlottenburg for the Ku'damm. The City Tax is 7.5% of the room price.",
+        link_text="Mitte",
+        cta=_stay_cta("where-to-stay-in-berlin", "See hotels around Mitte")),
     "where-to-stay-in-madrid": dict(
         text="For a first trip, stay around Sol and the Centro: the Puerta del Sol, the Plaza Mayor and Gran Vía on foot. Choose the Barrio de las Letras for tapas squares and the Paseo del Arte for the Prado and the Retiro. Madrid has no tourist tax; rooms carry 10% VAT.",
         link_text="Sol and the Centro",
@@ -1176,6 +1184,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-vienna": ["Hotel Kärntnerhof", "Hotel Stefanie", "Hotel Sacher Vienna"],
+    "where-to-stay-in-berlin": ["The Circus Hotel", "Hotel Adlon Kempinski Berlin", "Motel One Berlin-Hackescher Markt"],
     "where-to-stay-in-madrid": ["Pestana Collection Plaza Mayor", "Room Mate Alicia", "Four Seasons Hotel Madrid"],
     "where-to-stay-in-bali": ["Lloyd's Inn Bali", "Alaya Resort Ubud", "The Oberoi, Bali"],
     "where-to-stay-in-london": ["Radisson Blu Hotel, London Mercer Street", "hub by Premier Inn London Covent Garden", "The Savoy"],
@@ -1265,6 +1275,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Vienna", "where-to-stay-in-vienna", None, None),
+        ("Berlin", "where-to-stay-in-berlin", None, None),
         ("Madrid", "where-to-stay-in-madrid", None, None),
         ("Bali", "where-to-stay-in-bali", None, None),
         ("London", "where-to-stay-in-london", None, None),

@@ -1,0 +1,542 @@
+{
+  "place": "Germany",
+  "facts": [
+    {
+      "id": "de.berlin.city-tax.rate",
+      "topic": "tax",
+      "claim": "Berlin's Übernachtungsteuer (City Tax) is 7.5% of the net price of the overnight stay, excluding VAT and extras such as breakfast; the rate rose to 7.5% on 1 January 2025.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://service.berlin.de/dienstleistung/326105/",
+          "kind": "official",
+          "title": "Berlin service portal: Übernachtungsteuer"
+        },
+        {
+          "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+          "kind": "official",
+          "title": "Berlin Senate Department for Finance: FAQ Übernachtungsteuer (City Tax)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "7.5% of the price of the room, before VAT and without breakfast",
+          "The price of the room, without VAT and without extras such as breakfast",
+          "Add 7.5% of the room price before VAT"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.city-tax.business",
+      "topic": "tax",
+      "claim": "Since 1 April 2024, business (berufliche) overnight stays in Berlin are subject to the City Tax.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://service.berlin.de/dienstleistung/326105/",
+          "kind": "official",
+          "title": "Berlin service portal: Übernachtungsteuer"
+        },
+        {
+          "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+          "kind": "official",
+          "title": "Berlin Senate Department for Finance: FAQ Übernachtungsteuer (City Tax)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "since April 2024 business trips pay it too",
+          "Taxed since 1 April 2024"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.city-tax.21-day",
+      "topic": "tax",
+      "claim": "From 1 January 2025 the former City Tax exemption for stays of more than 21 days no longer applies.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+          "kind": "official",
+          "title": "Berlin Senate Department for Finance: FAQ Übernachtungsteuer (City Tax)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "Taxed since 1 January 2025, when the old exemption for stays of more than 21 days ended"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.city-tax.per-room",
+      "topic": "tax",
+      "claim": "The City Tax is levied on the amount paid for the overnight stay (per room price), not per person; the law (ÜnStG §4-5) sets the base as the price for the stay without VAT and other services, and the rate at 7.5%.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://service.berlin.de/dienstleistung/326105/",
+          "kind": "official",
+          "title": "Berlin service portal: Übernachtungsteuer"
+        },
+        {
+          "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+          "kind": "official",
+          "title": "Berlin Senate Department for Finance: FAQ Übernachtungsteuer (City Tax)"
+        },
+        {
+          "url": "https://dehoga-berlin.de/wp-content/uploads/2025/11/Fassung-gueltig-ab-01.01.2026.pdf",
+          "kind": "secondary",
+          "title": "Übernachtungsteuergesetz Berlin, version valid from 1 January 2026 (text published by DEHOGA Berlin)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "It is charged on the room, not per person",
+          "The tax follows the room price, so two people sharing a room pay the same as one"
+        ]
+      }
+    },
+    {
+      "id": "de.vat.accommodation",
+      "topic": "tax",
+      "claim": "German VAT on short-term accommodation is the reduced 7% rate (UStG §12(2) no. 11); services not directly part of the room, such as breakfast, fall under the standard 19% rate (§12(1)).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.gesetze-im-internet.de/ustg_1980/__12.html",
+          "kind": "official",
+          "title": "Umsatzsteuergesetz §12 Steuersätze"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "Hotel rooms in Germany also carry VAT at the reduced rate of 7%",
+          "taxed at the standard 19%"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.ber.abc-ticket",
+      "topic": "fare",
+      "claim": "Travel between central Berlin and BER Airport requires a single ABC ticket, €5.00 from 1 January 2026, at the regular VBB fare with no surcharge.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.vbb.de/en/driving-information/ber-airport/",
+          "kind": "operator",
+          "title": "VBB: BER Airport"
+        },
+        {
+          "url": "https://www.bvg.de/en/subscriptions-and-tickets/all-tickets/single-tickets/single-ticket",
+          "kind": "operator",
+          "title": "BVG: Single ticket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "you need a single ABC ticket, €5.00 in 2026",
+          "with no airport surcharge"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.bvg.single",
+      "topic": "fare",
+      "claim": "BVG single ticket 2026: AB €4.00, ABC €5.00 (reduced €2.50/€3.50); one journey in one direction, changes permitted, valid 120 minutes.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.bvg.de/en/subscriptions-and-tickets/all-tickets/single-tickets/single-ticket",
+          "kind": "operator",
+          "title": "BVG: Single ticket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "A single ticket is valid for 120 minutes in one direction, with changes",
+          "a single AB ticket covers the city and costs €4.00"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.bvg.24h",
+      "topic": "fare",
+      "claim": "BVG 24-hour ticket 2026: AB €11.20, ABC €12.90; valid 24 hours from validation.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.bvg.de/en/subscriptions-and-tickets/all-tickets/24h-tickets/24h-ticket",
+          "kind": "operator",
+          "title": "BVG: 24-hour ticket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "a 24-hour ticket costs €11.20 for zones AB and €12.90 for ABC"
+        ]
+      }
+    },
+    {
+      "id": "de.deutschlandticket.price",
+      "topic": "fare",
+      "claim": "The Deutschlandticket costs €63.00 a month as a subscription and is valid on all local and regional public transport in Germany, not on IC, EC or ICE trains.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.bvg.de/en/subscriptions-and-tickets/subscriptions/deutschland-ticket",
+          "kind": "operator",
+          "title": "BVG: Deutschland Ticket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "The Deutschlandticket costs €63 a month as a subscription",
+          "but not IC, EC or ICE trains"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.ber.fex",
+      "topic": "transport",
+      "claim": "The FEX Airport Express runs Hauptbahnhof-Potsdamer Platz-Südkreuz-BER: about 23, 19 and 14 minutes to BER; until December 2026 FEX and RE20 jointly run four trains an hour. BER station is under Terminal 1 on level U2.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://ber.berlin-airport.de/en/orientation/getting-here/public-transport.html",
+          "kind": "operator",
+          "title": "BER Airport: arrival and departure by public transport"
+        },
+        {
+          "url": "https://ber.berlin-airport.de/en/news/2026-09-22-anreise-september.html",
+          "kind": "operator",
+          "title": "BER Airport: travel disruptions (updated 2 October 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "Südkreuz in about 14 minutes, Potsdamer Platz in about 19 and the Hauptbahnhof, the central station, in about 23",
+          "Until December 2026, the FEX and the hourly RE20 together run four trains an hour on that route",
+          "Its station is under Terminal 1, on level U2"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.ber.s-bahn",
+      "topic": "transport",
+      "claim": "BER is served by S-Bahn lines S9 (via Treptower Park, Warschauer Straße, Ostbahnhof, Alexanderplatz, Friedrichstraße, Hauptbahnhof, Zoologischer Garten to Spandau) and S85 (to Ostkreuz and Frohnau), each every 20 minutes; RB24 and RB32 run hourly via Ostkreuz.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://ber.berlin-airport.de/en/orientation/getting-here/public-transport.html",
+          "kind": "operator",
+          "title": "BER Airport: arrival and departure by public transport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "The S-Bahn S9 runs every 20 minutes from BER",
+          "The S85 also runs every 20 minutes, to Ostkreuz",
+          "each run hourly from BER to Ostkreuz"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.stadtbahn-closure-2026",
+      "topic": "transport",
+      "claim": "The Berlin Stadtbahn between Charlottenburg and Ostbahnhof is closed to regional and long-distance trains for maintenance from 14 June to 12 December 2026.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://ber.berlin-airport.de/en/news/2026-09-22-anreise-september.html",
+          "kind": "operator",
+          "title": "BER Airport: travel disruptions (updated 2 October 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "Until 12 December 2026, the Stadtbahn, the east-west line between Charlottenburg and Ostbahnhof, is closed to regional and long-distance trains for maintenance"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.events.berlinale-2027",
+      "topic": "place",
+      "claim": "The 77th Berlinale runs from 10 to 21 February 2027.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.berlinale.de/en/2027/news-press-releases/278428.html",
+          "kind": "official",
+          "title": "Berlinale: New Festival Dates for 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "the Berlinale film festival runs from 10 to 21 February 2027"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.events.itb-2027",
+      "topic": "place",
+      "claim": "ITB Berlin 2027 takes place from 16 to 18 March 2027.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.itb.com/en/besuchen",
+          "kind": "operator",
+          "title": "ITB Berlin: visit / dates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "the ITB travel trade fair from 16 to 18 March 2027"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.adlon",
+      "topic": "hotel",
+      "claim": "Hotel Adlon Kempinski Berlin faces the Brandenburg Gate and has 385 rooms and suites, two restaurants including the Michelin-starred Lorenz Adlon Esszimmer, and a spa over three levels.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.kempinski.com/en/hotel-adlon",
+          "kind": "operator",
+          "title": "Hotel Adlon Kempinski Berlin"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "with 385 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.circus",
+      "topic": "hotel",
+      "claim": "The Circus Hotel, Rosenthaler Straße 1, is in a landmark-protected 19th-century building on Rosenthaler Platz; its Small Room is approx. 14 m².",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://circus-berlin.de/hotel/rooms/",
+          "kind": "operator",
+          "title": "The Circus Hotel: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "the Small Room is about 14 m²"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.motel-one-hackescher-markt",
+      "topic": "hotel",
+      "claim": "Motel One Berlin-Hackescher Markt (Dircksenstraße 36) lists a room size of 16 m² and underground parking at €25 per 24 h, reservable only by email or phone.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.motel-one.com/en/hotels/berlin/hotel-berlin-hackescher-markt/",
+          "kind": "operator",
+          "title": "Motel One Berlin-Hackescher Markt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "rooms are 16 m²",
+          "(€25 a day) can be reserved only by email or phone"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.oderberger",
+      "topic": "hotel",
+      "claim": "Hotel Oderberger is in the listed former Stadtbad Oderberger (opened 1902), reopened as a hotel in February 2016 with 70 rooms, two apartments and five tower suites; pool and sauna close on event days; the pool closes 12 July-1 August 2027 for maintenance.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hotel-oderberger.berlin/",
+          "kind": "operator",
+          "title": "Hotel Oderberger"
+        },
+        {
+          "url": "https://www.hotel-oderberger.berlin/pool-fitness/",
+          "kind": "operator",
+          "title": "Hotel Oderberger: Pool & Fitness"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "with 70 rooms, two apartments and five tower suites",
+          "the pool will close for maintenance from 12 July to 1 August 2027"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.myers",
+      "topic": "hotel",
+      "claim": "Myer's Hotel Berlin (Metzer Str. 26) is in an 1877 neoclassical town house; rooms from €194 (Komfort Small) on its own site, October 2026.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.myershotel.de/",
+          "kind": "operator",
+          "title": "Myer's Hotel Berlin"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "A town house built in 1877",
+          "rooms started at €194 on the hotel's own site when we checked"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.orania",
+      "topic": "hotel",
+      "claim": "Orania.Berlin, Oranienstraße 40 at Oranienplatz, has 41 rooms and suites; the smallest are 17 sqm with a 150x210 cm bed and courtyard view; live concerts five days a week.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://orania.berlin/roomsandsuites",
+          "kind": "operator",
+          "title": "Orania.Berlin: Rooms & Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "with 41 rooms and suites",
+          "the smallest rooms are 17 m²"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.huettenpalast",
+      "topic": "hotel",
+      "claim": "Hüttenpalast, Hobrechtstraße 66 in Neukölln, offers caravans and cabins in two halls with gender-separated communal bathrooms, plus six loft-style rooms with en-suite bathrooms.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://huettenpalast.de/en/",
+          "kind": "operator",
+          "title": "Hüttenpalast"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "or in six loft-style hotel rooms"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.michelberger",
+      "topic": "hotel",
+      "claim": "Michelberger Hotel, Warschauer Straße 39-40: the Cosy room is 12 m² with a 160 cm bed; guests get barrel sauna access in the cold months and free entry to the in-house cinema.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.michelbergerhotel.com/en/rooms/cosy/",
+          "kind": "operator",
+          "title": "Michelberger Hotel: Cosy room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "the Cosy room is 12 m² with no desk"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.meininger-esg",
+      "topic": "hotel",
+      "claim": "MEININGER Hotel Berlin East Side Gallery, Am Postbahnhof 4, is across from the East Side Gallery, the longest remaining stretch of the Berlin Wall, with Ostbahnhof next door.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.meininger-hotels.com/en/hotels/berlin/hotel-berlin-east-side-gallery/",
+          "kind": "operator",
+          "title": "MEININGER Hotel Berlin East Side Gallery"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "the longest remaining stretch of the Wall"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.zoo",
+      "topic": "hotel",
+      "claim": "Hotel Zoo Berlin, Kurfürstendamm 25, has 127 rooms from the Petit Room (16-22 sqm) to the 40 sqm Grand Deluxe.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hotelzoo.de/en/rooms/",
+          "kind": "operator",
+          "title": "Hotel Zoo Berlin: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "with 127 rooms from the Petit Room to the 40 m² Grand Deluxe",
+          "the Petit Rooms are 16 to 22 m²"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.hotel.sachsenhof",
+      "topic": "hotel",
+      "claim": "Hotel Sachsenhof, near Nollendorfplatz, says the KaDeWe and Ku'damm are about 10 minutes on foot; breakfast buffet until 12 noon.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.sachsenhof-hotel.de/about",
+          "kind": "operator",
+          "title": "Hotel Sachsenhof: Über uns"
+        },
+        {
+          "url": "https://www.sachsenhof-hotel.de/rooms",
+          "kind": "operator",
+          "title": "Hotel Sachsenhof: Zimmer"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "the breakfast buffet runs until noon",
+          "about 10 minutes on foot"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.city-tax.example",
+      "topic": "price",
+      "claim": "Worked example (our arithmetic): a €160 room including 7% VAT is €149.53 net; 7.5% City Tax = €11.21 a night; three nights €33.64.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://service.berlin.de/dienstleistung/326105/",
+          "kind": "official",
+          "title": "Berlin service portal: Übernachtungsteuer"
+        },
+        {
+          "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+          "kind": "official",
+          "title": "Berlin Senate Department for Finance: FAQ Übernachtungsteuer (City Tax)"
+        },
+        {
+          "url": "https://www.gesetze-im-internet.de/ustg_1980/__12.html",
+          "kind": "official",
+          "title": "Umsatzsteuergesetz §12 Steuersätze"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin.html": [
+          "A room advertised at €160 a night including VAT costs €149.53 before VAT",
+          "€11.21 a night, so three nights add €33.64"
+        ]
+      }
+    }
+  ]
+}
