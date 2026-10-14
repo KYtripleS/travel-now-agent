@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-copenhagen.html": (
+        "Where to Stay in Copenhagen",
+        "Five areas, 12 hotels, no tourist tax (25% VAT is in the price), and the DKK 30 metro ride from the airport.",
+    ),
+    "articles/where-to-stay-in-stockholm.html": (
+        "Where to Stay in Stockholm",
+        "Five areas, 12 hotels and a bill with no tourist tax: Sweden's 12% VAT is already in the room price.",
+    ),
     "articles/where-to-stay-in-dublin.html": (
         "Where to Stay in Dublin",
         "Six areas, 12 hotels, and Dublin's 13.5% VAT on rooms, with no tourist tax and no airport train.",
@@ -1941,6 +1949,21 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-copenhagen.html": [
+        "articles/where-to-stay-in-stockholm.html",
+        "articles/where-to-stay-in-amsterdam.html",
+        "articles/where-to-stay-in-berlin.html",
+        "articles/where-to-stay-in-edinburgh.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-stockholm.html": [
+        "articles/where-to-stay-in-amsterdam.html",
+        "articles/where-to-stay-in-berlin.html",
+        "articles/where-to-stay-in-london.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/where-to-stay-in-copenhagen.html",
     ],
     "articles/where-to-stay-in-dublin.html": [
         "articles/where-to-stay-in-edinburgh.html",

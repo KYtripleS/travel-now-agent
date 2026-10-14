@@ -1,0 +1,491 @@
+{
+  "place": "Sweden",
+  "facts": [
+    {
+      "id": "se.stockholm.no-tourist-tax",
+      "topic": "tax",
+      "claim": "Sweden has no tourist tax, national or municipal, in 2026; a 2025/26 Riksdag motion (2025/26:2817, V) asks the government to investigate letting municipalities introduce local bed fees (bäddavgifter).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/en-aktiv-industri-och-landsbygdspolitik_hd022817/html/",
+          "kind": "official",
+          "title": "Sveriges riksdag: Motion 2025/26:2817, En aktiv industri- och landsbygdspolitik"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "Stockholm adds no tourist tax to the hotel bill",
+          "Sweden has no tourist tax, national or local",
+          "a 2025/26 motion still asks the government to look into letting municipalities charge a local bed fee"
+        ]
+      }
+    },
+    {
+      "id": "se.vat.accommodation-12",
+      "topic": "tax",
+      "claim": "Swedish VAT on room rental in hotels, guesthouses and hostels is 12%, as are closely linked services such as breakfast, parking, phone, sauna and laundry; the standard rate is 25%.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.skatteverket.se/foretag/moms/saljavarorochtjanster/momssatspavarorochtjanster.4.58d555751259e4d66168000409.html",
+          "kind": "official",
+          "title": "Skatteverket: Momssatser och undantag från moms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "the only tax on your room is Sweden's 12% VAT",
+          "Skatteverket, the Swedish Tax Agency, sets the 12% for room rental in hotels, guesthouses and hostels"
+        ]
+      }
+    },
+    {
+      "id": "se.vat.food-6-from-2026-04",
+      "topic": "tax",
+      "claim": "From 1 April 2026 Swedish VAT on food (livsmedel) is 6%; restaurant services stay at 12%.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.skatteverket.se/foretag/moms/saljavarorochtjanster/momssatspavarorochtjanster.4.58d555751259e4d66168000409.html",
+          "kind": "official",
+          "title": "Skatteverket: Momssatser och undantag från moms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "The cut in VAT on food to 6% from 1 April 2026"
+        ]
+      }
+    },
+    {
+      "id": "se.consumer.prices-incl-vat",
+      "topic": "price",
+      "claim": "Konsumentverket: a private consumer should be able to count on a company quoting prices including VAT unless clearly stated otherwise.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.konsumentverket.se/fragor-och-svar/2868495/kan-foretaget-lagga-pa-moms-i-efterhand/",
+          "kind": "official",
+          "title": "Konsumentverket: Kan företaget lägga på moms i efterhand?"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "as a private person you should be able to count on prices being quoted with VAT included"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.vat-worked-example",
+      "topic": "price",
+      "claim": "Worked example (our arithmetic): a 2,000 SEK room includes 214.29 SEK VAT (2,000 × 12/112); four nights cost 8,000 SEK including 857.14 SEK VAT, with nothing added.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.skatteverket.se/foretag/moms/saljavarorochtjanster/momssatspavarorochtjanster.4.58d555751259e4d66168000409.html",
+          "kind": "official",
+          "title": "Skatteverket: Momssatser och undantag från moms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "a room at 2,000 SEK a night costs 8,000 SEK for four nights",
+          "857.14 SEK of VAT"
+        ]
+      }
+    },
+    {
+      "id": "se.arlanda-express.fares-2026",
+      "topic": "fare",
+      "claim": "Arlanda Express one-way fares: 1 adult 340 SEK (return 640), 2 adults 460, 3 adults 580, 4 people 700; up to seven extra passengers 120 SEK each; youth 18-25 160 SEK with ID; pensioner 65+ 210 SEK; under-18s free with an adult or pensioner ticket holder; SL tickets not valid.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.arlandaexpress.com/tickets-prices",
+          "kind": "operator",
+          "title": "Arlanda Express: tickets and prices"
+        },
+        {
+          "url": "https://www.arlandaexpress.com/help-and-support/faq/ticket-purchases",
+          "kind": "operator",
+          "title": "Arlanda Express: FAQ, ticket purchases"
+        },
+        {
+          "url": "https://sl.se/en/fares-and-tickets/visitor-tickets/travel-to-and-from-arlanda-airport",
+          "kind": "operator",
+          "title": "SL: Travel to and from Arlanda Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "One adult pays 340 SEK one way or 640 SEK return",
+          "460 SEK for two, 580 SEK for three and 700 SEK for four",
+          "Travellers aged 18 to 25 pay 160 SEK with ID, pensioners over 65 pay 210 SEK"
+        ]
+      }
+    },
+    {
+      "id": "se.arlanda-express.time-frequency",
+      "topic": "transport",
+      "claim": "Arlanda Express runs non-stop to Stockholm Central Station in 18 minutes with departures every 12-15 minutes; it serves Arlanda South (Terminals 2 and 4) and Arlanda North (Terminal 5).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.arlandaexpress.com/",
+          "kind": "operator",
+          "title": "Arlanda Express: home page"
+        },
+        {
+          "url": "https://www.swedavia.com/arlanda/trains/",
+          "kind": "official",
+          "title": "Swedavia: Trains, Stockholm Arlanda Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "takes 18 minutes and leaves every 12 to 15 minutes",
+          "Arlanda South for Terminals 2 and 4 and at Arlanda North for Terminal 5"
+        ]
+      }
+    },
+    {
+      "id": "se.sl.arlanda-passage-fee",
+      "topic": "fare",
+      "claim": "SL single ticket including the Arlanda passage fee: 200 SEK adult, 183 SEK discounted; passage fee alone 157 SEK for everyone over 18 with a valid SL ticket.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://sl.se/en/fares-and-tickets/visitor-tickets/travel-to-and-from-arlanda-airport",
+          "kind": "operator",
+          "title": "SL: Travel to and from Arlanda Airport"
+        },
+        {
+          "url": "https://www.swedavia.com/arlanda/trains/",
+          "kind": "official",
+          "title": "Swedavia: Trains, Stockholm Arlanda Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "an SL single ticket including the passage fee costs 200 SEK for an adult and 183 SEK at the discounted fare",
+          "you pay only the 157 SEK passage fee"
+        ]
+      }
+    },
+    {
+      "id": "se.sl.commuter-arlanda-time",
+      "topic": "transport",
+      "claim": "SL commuter trains stop at Arlanda Central Station in SkyCity between Terminals 4 and 5; the trip to Stockholm Central Station takes 38 minutes.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.swedavia.com/arlanda/trains/",
+          "kind": "official",
+          "title": "Swedavia: Trains, Stockholm Arlanda Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "in SkyCity between Terminals 4 and 5, and take 38 minutes to Stockholm Central Station"
+        ]
+      }
+    },
+    {
+      "id": "se.flygbussarna.arlanda-fares",
+      "topic": "fare",
+      "claim": "Vy Flygbussarna Arlanda T5/T2 to Stockholm C (Cityterminalen): adult 129 SEK, young 8-25 99 SEK, children 0-7 free (up to 4 per adult); about 40 minutes; departures every 20 minutes on the route timetable.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.flygbussarna.se/en/arlanda",
+          "kind": "operator",
+          "title": "Vy Flygbussarna: bus to/from Arlanda Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "Tickets online cost 129 SEK for adults and 99 SEK for travellers aged 8 to 25",
+          "advertised at about 40 minutes"
+        ]
+      }
+    },
+    {
+      "id": "se.arlanda.transfer-arithmetic",
+      "topic": "price",
+      "claim": "Our arithmetic, one way: two adults pay 460 SEK (Arlanda Express), 400 SEK (SL incl. passage fee) or 258 SEK (Flygbussarna); four adults 700 SEK vs 800 SEK on the SL commuter train.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.arlandaexpress.com/tickets-prices",
+          "kind": "operator",
+          "title": "Arlanda Express: tickets and prices"
+        },
+        {
+          "url": "https://sl.se/en/fares-and-tickets/visitor-tickets/travel-to-and-from-arlanda-airport",
+          "kind": "operator",
+          "title": "SL: Travel to and from Arlanda Airport"
+        },
+        {
+          "url": "https://www.flygbussarna.se/en/arlanda",
+          "kind": "operator",
+          "title": "Vy Flygbussarna: bus to/from Arlanda Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "two adults pay 460 SEK on the Arlanda Express, 400 SEK on the commuter train and 258 SEK on the coach"
+        ]
+      }
+    },
+    {
+      "id": "se.arlanda.taxi",
+      "topic": "transport",
+      "claim": "Swedavia advises asking whether a fixed taxi price applies; all taxi companies must show a comparison price in black digits on a yellow label.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.swedavia.com/arlanda/taxi/",
+          "kind": "official",
+          "title": "Swedavia: Taxi, Stockholm Arlanda Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "check the yellow comparison-price label on the window"
+        ]
+      }
+    },
+    {
+      "id": "se.sl.contactless",
+      "topic": "fare",
+      "claim": "SL contactless pay-as-you-go (Visa, Mastercard, American Express; physical or digital wallets): single journey 43 SEK default fare, valid 75 minutes; no touch-out; a card pays only for its owner; physical and digital versions count as separate cards.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://sl.se/en/fares-and-tickets/contactless-pay-as-you-go/how-to-pay-as-you-go",
+          "kind": "operator",
+          "title": "SL: How to pay as you go"
+        },
+        {
+          "url": "https://sl.se/en/fares-and-tickets/contactless-pay-as-you-go",
+          "kind": "operator",
+          "title": "SL: Contactless pay as you go"
+        },
+        {
+          "url": "https://sl.se/en/fares-and-tickets",
+          "kind": "operator",
+          "title": "SL: Fares & tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "a single journey is 43 SEK and is valid for 75 minutes of transfers",
+          "Each card can pay only for its owner"
+        ]
+      }
+    },
+    {
+      "id": "se.sl.travelcards-2026",
+      "topic": "fare",
+      "claim": "SL travelcards (adult): 24 hours 180 SEK, 72 hours 360 SEK, 7 days 470 SEK; the SL smart card costs 50 SEK; travelcards are valid on Djurgården ferry 82 (Slussen-Djurgården).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://sl.se/en/fares-and-tickets/visitor-tickets/travelcards",
+          "kind": "operator",
+          "title": "SL: Travelcards"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "Travelcards cost 180 SEK for 24 hours, 360 SEK for 72 hours and 470 SEK for 7 days",
+          "they cover the ferry between Slussen and Djurgården"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.hotel.lord-nelson",
+      "topic": "hotel",
+      "claim": "Lord Nelson Hotel: Västerlånggatan 22, Gamla Stan; 17th-century building just under six metres wide, called by the hotel Sweden's narrowest hotel; guests since 1974; windowless room types (Captain's Family Room, Captain's Small Double).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.thecollectorshotels.se/lord-nelson/",
+          "kind": "official",
+          "title": "Lord Nelson Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "less than six metres wide",
+          "taking guests since 1974"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.hotel.hobo",
+      "topic": "hotel",
+      "claim": "Hobo: Brunkebergstorg 4; 201 rooms; Standard and Superior 18-22 m²; Sleeper windowless 12 m²; breakfast almost always included when booked on the hotel website.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://hobo.se/en/rooms",
+          "kind": "official",
+          "title": "Hobo"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "A 201-room hotel on Brunkebergstorg",
+          "the Sleeper rooms are windowless and 12 m²"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.hotel.grand",
+      "topic": "hotel",
+      "claim": "Grand Hôtel Stockholm: Södra Blasieholmshamnen 8; overlooks the Royal Palace and Gamla Stan; guests since 1874; five restaurants, Cadier Bar, spa with saunas and pools.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.grandhotel.se/en",
+          "kind": "official",
+          "title": "Grand Hôtel Stockholm"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "receiving guests since 1874"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.hotel.diplomat",
+      "topic": "hotel",
+      "claim": "Hotel Diplomat: Strandvägen 7C; Art Nouveau; since 1911; first hotel of the family-owned Diplomat Collection.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.diplomathotel.com/en/",
+          "kind": "official",
+          "title": "Hotel Diplomat"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "a hotel since 1911"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.hotel.ett-hem",
+      "topic": "hotel",
+      "claim": "Ett Hem: Sköldungagatan 2, Lärkstaden; private residence built 1910; interiors by Ilse Crawford.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.etthem.se/about/",
+          "kind": "official",
+          "title": "Ett Hem"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "A private townhouse built in 1910 in Lärkstaden"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.hotel.rival",
+      "topic": "hotel",
+      "claim": "The Rival: Mariatorget 3; privately owned; 99 rooms; theatre for 735; breakfast buffet always included.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.rival.se/en/hotellet/allt-om-vara-rum/",
+          "kind": "official",
+          "title": "The Rival"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "A privately owned hotel on Mariatorget with 99 rooms, a theatre seating 735"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.hotel.nofo",
+      "topic": "hotel",
+      "claim": "NOFO Hotel: Tjärhovsgatan 11; family owned; 109 rooms; heritage-listed building; Tiny Double up to 14 m² with 140 cm bed; breakfast included when booking direct.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://nofohotel.se/hotel/",
+          "kind": "official",
+          "title": "NOFO Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "A family-owned hotel of 109 rooms",
+          "the Tiny Double is up to 14 m² with a 140 cm bed"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.hotel.scandic-malmen",
+      "topic": "hotel",
+      "claim": "Scandic Malmen: Götgatan 49-51; newly renovated; Standard rooms 15-17 m²; cash-free.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.scandichotels.com/en/hotels/scandic-malmen",
+          "kind": "official",
+          "title": "Scandic Malmen"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "Standard rooms measure 15 to 17 m²"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.hotel.skeppsholmen",
+      "topic": "hotel",
+      "claim": "Hotel Skeppsholmen: Gröna gången 1; two buildings from 1699; tennis court built by King Oscar II in 1882, described as Sweden's first outdoor court.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hotelskeppsholmen.se/en/",
+          "kind": "official",
+          "title": "Hotel Skeppsholmen"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "Two buildings from 1699 on Skeppsholmen"
+        ]
+      }
+    },
+    {
+      "id": "se.stockholm.hotel.villa-kallhagen",
+      "topic": "hotel",
+      "claim": "Villa Källhagen: Djurgårdsbrunnsvägen 10, by the Djurgårdsbrunn canal; reception open 24 hours; dinner Mon-Thu 17:00-21:00; bar closes 23:00.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.villakallhagen.se/",
+          "kind": "official",
+          "title": "Villa Källhagen"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-stockholm.html": [
+          "dinner ends at 21:00 from Monday to Thursday and the bar closes at 23:00"
+        ]
+      }
+    }
+  ]
+}

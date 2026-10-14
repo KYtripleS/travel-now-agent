@@ -1,0 +1,355 @@
+{
+  "place": "Denmark",
+  "facts": [
+    {
+      "id": "dk.copenhagen.tourist-tax.none",
+      "topic": "tax",
+      "claim": "Copenhagen charges no tourist tax in 2026: a municipal tourism levy requires legal authority from Parliament, which the City Council requested in June 2024 but has not been granted; a reported 2027 hotel tax for Copenhagen and Aarhus was left out of the government's 2027 finance bill (October 2026).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.kk.dk/dagsordener-og-referater/Borgerrepr%C3%A6sentationen/m%C3%B8de-20062024/referat/punkt-6",
+          "kind": "official",
+          "title": "City of Copenhagen: City Council minutes, 20 June 2024, item 6 (tourism levy)"
+        },
+        {
+          "url": "https://www.danskerhverv.dk/presse-og-nyheder/nyheder/2026/oktober/sund-fornuft-at-turismeskat-er-taget-af-bordet/",
+          "kind": "secondary",
+          "title": "Dansk Erhverv: tourism tax left out of the 2027 finance bill (9 Oct 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "There is no tourist tax",
+          "its own papers set out the obstacle: a tourism levy requires legal authority",
+          "For 2026, there is no tourist tax."
+        ]
+      }
+    },
+    {
+      "id": "dk.vat.standard-rate",
+      "topic": "tax",
+      "claim": "Denmark's VAT rate is generally 25% of the value of goods and services; in retail prices VAT is included and amounts to 20% of the price.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://skat.dk/en-us/businesses/vat/get-started-on-vat",
+          "kind": "official",
+          "title": "Danish Tax Agency: Get started on VAT"
+        },
+        {
+          "url": "https://skat.dk/en-us/businesses/vat/vat-on-international-trade/vat-on-sales-to-businesses/refund-of-danish-vat-to-foreign-businesses-domiciled-outside-eu",
+          "kind": "official",
+          "title": "Danish Tax Agency: Danish VAT refund (VAT is 20% of retail prices)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "Danish VAT at 25%",
+          "VAT as a share of the price you see",
+          "VAT is 20% of a retail price"
+        ]
+      }
+    },
+    {
+      "id": "dk.krone.central-rate",
+      "topic": "price",
+      "claim": "Denmark participates in ERM II at a central rate of 746.038 kroner per 100 euro (DKK 7.46038 per euro), with a ±2.25% band.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.nationalbanken.dk/en/frequently-asked-questions/questions-regarding-fixed-exchange-rate-policy",
+          "kind": "official",
+          "title": "Danmarks Nationalbank: questions on the fixed exchange rate policy"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "the krone's fixed central rate of DKK 7.46 to the euro (approximate)"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.metro.m2-airport",
+      "topic": "transport",
+      "claim": "The M2 metro runs from Copenhagen Airport (Terminal 3) via Christianshavn, Kongens Nytorv and Nørreport; the Metro puts the airport-to-centre ride at 14 minutes, with trains about every 2 minutes in rush hour, every 3 off-peak, and from 01-07 about every 8 minutes after Fri/Sat and every 20 minutes other nights.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://m.dk/en/routes-and-timetables/vanloese-koebenhavns-lufthavn/",
+          "kind": "operator",
+          "title": "The Copenhagen Metro: M2 Vanløse–Copenhagen Airport timetable"
+        },
+        {
+          "url": "https://m.dk/en/plan-your-trip/koebenhavns-lufthavn/",
+          "kind": "operator",
+          "title": "The Copenhagen Metro: Copenhagen Airport station"
+        },
+        {
+          "url": "https://www.cph.dk/en/parking-transport/bus-train-metro-taxi/metro",
+          "kind": "official",
+          "title": "Copenhagen Airport: metro"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "The Metro puts the ride to the centre at 14 minutes",
+          "about every 8 minutes after Friday and Saturday and about every 20 minutes on other nights"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.fare.zones",
+      "topic": "fare",
+      "claim": "DOT/Metro adult single tickets: 2 zones DKK 24 (1h15), 3 zones DKK 30 (1h30); the 3-zone ticket covers city centre to airport; two children under 12 free per adult, ages 12-15 half price.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://dinoffentligetransport.dk/en/find-tickets/single-tickets/single-tickets-2-8-zones",
+          "kind": "operator",
+          "title": "Din Offentlige Transport: single tickets 2-8 zones"
+        },
+        {
+          "url": "https://m.dk/en/travel-with-the-metro/tickets/",
+          "kind": "operator",
+          "title": "The Copenhagen Metro: tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "a 3-zone ticket, DKK 30, valid for 1 hour 30 minutes",
+          "A 2-zone ticket is DKK 24"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.citypass",
+      "topic": "fare",
+      "claim": "City Pass Small (zones 1-4, incl. the airport) costs DKK 100/160/220/280/340 for 24/48/72/96/120 hours; City Pass Large (zones 1-99) DKK 200-680; sold in the Rejsebillet app, at the airport, DSB machines and metro stations.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://dinoffentligetransport.dk/en/find-tickets/day-tickets/city-pass",
+          "kind": "operator",
+          "title": "Din Offentlige Transport: City Pass"
+        },
+        {
+          "url": "https://m.dk/en/travel-with-the-metro/tickets/",
+          "kind": "operator",
+          "title": "The Copenhagen Metro: tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "DKK 100 for 24 hours, DKK 160 for 48, DKK 220 for 72, DKK 280 for 96 and DKK 340 for 120"
+        ]
+      }
+    },
+    {
+      "id": "dk.tickets.apps",
+      "topic": "transport",
+      "claim": "The Rejsebillet app sells single tickets and the City Pass and replaces the DOT Tickets (DOT Billetter) app; the Rejsekort app works by check-in/check-out with a 20% discount for journeys starting outside rush hour.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://m.dk/en/travel-with-the-metro/tickets/",
+          "kind": "operator",
+          "title": "The Copenhagen Metro: tickets"
+        },
+        {
+          "url": "https://dinoffentligetransport.dk/en/find-tickets/day-tickets/city-pass",
+          "kind": "operator",
+          "title": "Din Offentlige Transport: City Pass"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "has replaced the old DOT Tickets app",
+          "takes 20% off journeys that begin outside rush hour"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.airport.train",
+      "topic": "transport",
+      "claim": "InterCity trains run from Copenhagen Airport Terminal 3, tracks 1 and 2, to Copenhagen city centre; tickets cannot be bought on board; airport metro ticket machines take coins and cards, not notes.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.cph.dk/en/parking-transport/bus-train-metro-taxi/train",
+          "kind": "official",
+          "title": "Copenhagen Airport: train"
+        },
+        {
+          "url": "https://www.cph.dk/en/parking-transport/bus-train-metro-taxi/metro",
+          "kind": "official",
+          "title": "Copenhagen Airport: metro"
+        },
+        {
+          "url": "https://www.dsb.dk/trafikinformation/stationer/kobenhavns-lufthavn-kastrup/",
+          "kind": "operator",
+          "title": "DSB: Københavns Lufthavn station"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "Terminal 3, tracks 1 and 2, to Copenhagen Central Station",
+          "take coins and cards but not notes"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.card.prices",
+      "topic": "price",
+      "claim": "Copenhagen Card DISCOVER (adult): DKK 589/859/1,039/1,219/1,419 for 24/48/72/96/120 hours; 80+ attractions, transport in zones 1-99 including the airport.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://copenhagencard.com/view/prices",
+          "kind": "official",
+          "title": "Copenhagen Card: prices"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "DKK 589 for 24 hours, DKK 859 for 48, DKK 1,039 for 72, DKK 1,219 for 96 and DKK 1,419 for 120"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.places.neighbourhoods",
+      "topic": "place",
+      "claim": "Visit Copenhagen: Christianshavn was established in the early 17th century (canals, houseboats, Church of Our Saviour, Rampart); Kødbyen is the former meatpacking district; Assistens Cemetery holds H.C. Andersen and Kierkegaard; Strøget is the main pedestrian shopping street; Tivoli is next to Central Station; Vesterbro was once the red-light district; Østerbro 'elegant'.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.visitcopenhagen.com/copenhagen/planning/3-day-copenhagen-itinerary",
+          "kind": "official",
+          "title": "Visit Copenhagen: 3-day itinerary"
+        },
+        {
+          "url": "https://www.visitcopenhagen.com/copenhagen/areas/neighborhoods/the-copenhagen-neighbourhood-guide",
+          "kind": "official",
+          "title": "Visit Copenhagen: neighbourhood guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "was established in the early 17th century",
+          "Kødbyen, the former meatpacking district",
+          "Copenhagen's main pedestrian shopping street"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.andersen",
+      "topic": "hotel",
+      "claim": "Andersen Boutique Hotel (Helgolandsgade 12): 69 rooms; Cool rooms 11-13 m² from DKK 1,650 a night; complimentary glass of wine 17:00-18:00 (hotel site, Oct 2026).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.andersen-hotel.dk/en/",
+          "kind": "official",
+          "title": "Andersen Boutique Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "Andersen Boutique Hotel lists its Cool rooms from DKK 1,650 a night",
+          "the Cool rooms are 11 to 13 m²"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.villa",
+      "topic": "hotel",
+      "claim": "Villa Copenhagen: former Central Post & Telegraph Head Office (1912), Tietgensgade 35-39; 25 m heated rooftop pool at 28-30°C for staying guests; children 7am-7pm; rooms from 17 m².",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://villacopenhagen.com/pool-wellness",
+          "kind": "official",
+          "title": "Villa Copenhagen: pool"
+        },
+        {
+          "url": "https://villacopenhagen.com/rooms",
+          "kind": "official",
+          "title": "Villa Copenhagen: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "a 25-metre heated rooftop pool kept at 28 to 30°C all year"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.dangleterre",
+      "topic": "hotel",
+      "claim": "Hotel d'Angleterre, Kongens Nytorv 34: 92 rooms and suites, Michelin-starred Marchal, Balthazar Champagne bar, spa; 'over 270 years' on the square.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.dangleterre.com/en/rooms-and-suites",
+          "kind": "official",
+          "title": "d'Angleterre: rooms and FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "with 92 rooms and suites, the Michelin-starred restaurant Marchal"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.room-sizes",
+      "topic": "hotel",
+      "claim": "Room sizes from hotel sites: Ibsens Hotel Tiny 10-12 m²; Hotel Sanders Double Room 12-13 m² facing a green atrium; Hotel Kong Arthur Double Economy 14-19 m² with semi-double bed; 71 Nyhavn Hotel 130 rooms, warehouse completed 1805; NH Collection Copenhagen 394 rooms; CPH Living 12 double rooms, opened 2009; Rye115 20 rooms, no elevator.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://arthurhotels.com/ibsens-hotel/rooms/tiny/",
+          "kind": "official",
+          "title": "Ibsens Hotel: Tiny"
+        },
+        {
+          "url": "https://hotelsanders.com/rooms-suites/double-room/",
+          "kind": "official",
+          "title": "Hotel Sanders: Double Room"
+        },
+        {
+          "url": "https://arthurhotels.com/hotel-kong-arthur/rooms/double-economy/",
+          "kind": "official",
+          "title": "Hotel Kong Arthur: Double economy"
+        },
+        {
+          "url": "https://www.71nyhavnhotel.com/",
+          "kind": "official",
+          "title": "71 Nyhavn Hotel"
+        },
+        {
+          "url": "https://www.nh-collection.com/en/hotel/nh-collection-copenhagen",
+          "kind": "official",
+          "title": "NH Collection Copenhagen"
+        },
+        {
+          "url": "https://www.cphliving.com/",
+          "kind": "official",
+          "title": "CPH Living"
+        },
+        {
+          "url": "https://rye115.com/",
+          "kind": "official",
+          "title": "Rye115"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen.html": [
+          "the Tiny rooms are 10 to 12 m² and meant for one",
+          "the Double Economy rooms are 14 to 19 m² with a semi-double bed",
+          "there is no lift"
+        ]
+      }
+    }
+  ]
+}

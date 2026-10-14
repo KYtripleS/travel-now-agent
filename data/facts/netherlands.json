@@ -17,6 +17,9 @@
         "articles/where-to-stay-in-amsterdam.html": [
           "12.5% of the room price, excluding VAT",
           "a third on top of the base rate"
+        ],
+        "articles/where-to-stay-in-stockholm.html": [
+          "a 12.5% tourist tax comes on top of 21% VAT"
         ]
       }
     },
@@ -54,6 +57,9 @@
         "articles/where-to-stay-in-amsterdam.html": [
           "21% of the room price (it was 9%)",
           "VAT on a hotel room rose from 9% to 21%"
+        ],
+        "articles/where-to-stay-in-stockholm.html": [
+          "a 12.5% tourist tax comes on top of 21% VAT"
         ]
       }
     },

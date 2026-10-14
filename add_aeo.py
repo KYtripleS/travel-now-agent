@@ -412,6 +412,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-copenhagen": dict(
+        text="For a first trip, stay in Indre By: Strøget, Kongens Nytorv and Nyhavn on foot, and the M2 metro to the airport. Choose Christianshavn for canals, Vesterbro for Kødbyen's nightlife, and Nørrebro or Østerbro for local streets by the Lakes. There is no tourist tax; the 25% VAT is already in the price.",
+        link_text="Indre By",
+        cta=_stay_cta("where-to-stay-in-copenhagen", "See hotels around Indre By")),
+    "where-to-stay-in-stockholm": dict(
+        text="For a first trip, stay in Gamla Stan: the Royal Palace, Stortorget and the old lanes on foot, with the metro on the island. Choose Södermalm for bars and SoFo's shops, Östermalm for Strandvägen. Stockholm has no tourist tax; the 12% VAT is already in the price.",
+        link_text="Gamla Stan",
+        cta=_stay_cta("where-to-stay-in-stockholm", "See hotels around Gamla Stan")),
     "where-to-stay-in-dublin": dict(
         text="For a first trip, stay in Temple Bar: Trinity College, Dublin Castle and Grafton Street on foot, and airport coaches to its quays. Choose St Stephen's Green for a quieter classic base, Smithfield for lower prices. Dublin has no tourist tax; rooms carry 13.5% VAT, normally included in the price.",
         link_text="Temple Bar",
@@ -1192,6 +1200,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-copenhagen": ["Ibsens Hotel", "Hotel Sanders", "Generator Copenhagen"],
+    "where-to-stay-in-stockholm": ["Victory Hotel", "Lord Nelson Hotel", "Grand Hôtel Stockholm"],
     "where-to-stay-in-dublin": ["The Morgan Hotel", "Temple Bar Inn", "The Shelbourne"],
     "where-to-stay-in-edinburgh": ["Motel One Edinburgh-Royal", "Radisson Blu Hotel, Edinburgh City Centre", "The Balmoral"],
     "where-to-stay-in-vienna": ["Hotel Kärntnerhof", "Hotel Stefanie", "Hotel Sacher Vienna"],
@@ -1285,6 +1295,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Copenhagen", "where-to-stay-in-copenhagen", None, None),
+        ("Stockholm", "where-to-stay-in-stockholm", None, None),
         ("Dublin", "where-to-stay-in-dublin", None, None),
         ("Edinburgh", "where-to-stay-in-edinburgh", None, None),
         ("Vienna", "where-to-stay-in-vienna", None, None),
