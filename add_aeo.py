@@ -412,6 +412,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-dublin": dict(
+        text="For a first trip, stay in Temple Bar: Trinity College, Dublin Castle and Grafton Street on foot, and airport coaches to its quays. Choose St Stephen's Green for a quieter classic base, Smithfield for lower prices. Dublin has no tourist tax; rooms carry 13.5% VAT, normally included in the price.",
+        link_text="Temple Bar",
+        cta=_stay_cta("where-to-stay-in-dublin", "See hotels around Temple Bar")),
+    "where-to-stay-in-edinburgh": dict(
+        text="For a first trip, stay in the Old Town: the Royal Mile, the castle and Waverley station on foot. Choose the New Town for Georgian squares, Leith for the waterfront and the West End for the airport tram. Since 24 July 2026 rooms carry a 5% Visitor Levy for up to five nights.",
+        link_text="the Old Town",
+        cta=_stay_cta("where-to-stay-in-edinburgh", "See hotels around the Old Town")),
     "where-to-stay-in-vienna": dict(
         text="For a first trip, stay in the Innere Stadt: St Stephen's, the Opera and the Hofburg on foot. Choose Leopoldstadt for a calmer base across the canal, Landstraße for the Belvedere and the airport train, and Neubau for the museums and bars. The city tax is 5% of the room price.",
         link_text="the Innere Stadt",
@@ -1184,6 +1192,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-dublin": ["The Morgan Hotel", "Temple Bar Inn", "The Shelbourne"],
+    "where-to-stay-in-edinburgh": ["Motel One Edinburgh-Royal", "Radisson Blu Hotel, Edinburgh City Centre", "The Balmoral"],
     "where-to-stay-in-vienna": ["Hotel Kärntnerhof", "Hotel Stefanie", "Hotel Sacher Vienna"],
     "where-to-stay-in-berlin": ["The Circus Hotel", "Hotel Adlon Kempinski Berlin", "Motel One Berlin-Hackescher Markt"],
     "where-to-stay-in-madrid": ["Pestana Collection Plaza Mayor", "Room Mate Alicia", "Four Seasons Hotel Madrid"],
@@ -1275,6 +1285,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Dublin", "where-to-stay-in-dublin", None, None),
+        ("Edinburgh", "where-to-stay-in-edinburgh", None, None),
         ("Vienna", "where-to-stay-in-vienna", None, None),
         ("Berlin", "where-to-stay-in-berlin", None, None),
         ("Madrid", "where-to-stay-in-madrid", None, None),

@@ -1,0 +1,505 @@
+{
+  "place": "Ireland",
+  "facts": [
+    {
+      "id": "ie.vat.hotel-accommodation",
+      "topic": "tax",
+      "claim": "In Ireland, guest and holiday accommodation (hotels, guesthouses, B&Bs) is taxed at the reduced VAT rate of 13.5% (rates in force from 1 January 2026: standard 23%, reduced 13.5%, second reduced 9%); from 1 November 2020 to 31 August 2023 it was taxed at the second reduced rate, 9%.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.revenue.ie/en/vat/vat-rates/search-vat-rates/current-vat-rates.aspx",
+          "kind": "official",
+          "title": "Revenue: Current VAT rates"
+        },
+        {
+          "url": "https://www.revenue.ie/en/vat/vat-on-services/accommodation/guest-and-holiday/index.aspx",
+          "kind": "official",
+          "title": "Revenue: Guest and holiday accommodation"
+        },
+        {
+          "url": "https://www.revenue.ie/en/tax-professionals/tdm/value-added-tax/part03-taxable-transactions-goods-ica-services/Services/services-guest-and-holiday-accommodation.pdf",
+          "kind": "official",
+          "title": "Revenue Tax and Duty Manual: VAT treatment of Guest and Holiday Accommodation (last updated April 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "hotel rooms in Ireland carry 13.5%, the reduced rate",
+          "Rooms were taxed at 9% from 1 November 2020 to 31 August 2023"
+        ]
+      }
+    },
+    {
+      "id": "ie.vat.catering-9pct-2026",
+      "topic": "tax",
+      "claim": "From 1 July 2026 restaurant and catering services, including meals served in hotels, guesthouses and B&Bs, are taxed at the 9% second reduced rate; alcohol, bottled water and soft drinks stay at the 23% standard rate; a single room-and-breakfast price must be apportioned between the two rates.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.revenue.ie/en/tax-professionals/tdm/value-added-tax/part03-taxable-transactions-goods-ica-services/Services/services-guest-and-holiday-accommodation.pdf",
+          "kind": "official",
+          "title": "Revenue Tax and Duty Manual: VAT treatment of Guest and Holiday Accommodation (last updated April 2026)"
+        },
+        {
+          "url": "https://www.revenue.ie/en/vat/vat-rates/search-vat-rates/current-vat-rates.aspx",
+          "kind": "official",
+          "title": "Revenue: Current VAT rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "since 1 July 2026 the breakfast in a room-and-breakfast rate is taxed at 9%",
+          "Alcohol, bottled water and soft drinks"
+        ]
+      }
+    },
+    {
+      "id": "ie.vat.revenue-bnb-example",
+      "topic": "tax",
+      "claim": "Revenue's Example 1: a B&B charging €150 for one night with breakfast (breakfast valued at €20) accounts for €15.46 VAT on the €130 accommodation at 13.5% and €1.65 VAT on the €20 breakfast at 9%, total €17.11.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.revenue.ie/en/tax-professionals/tdm/value-added-tax/part03-taxable-transactions-goods-ica-services/Services/services-guest-and-holiday-accommodation.pdf",
+          "kind": "official",
+          "title": "Revenue Tax and Duty Manual: VAT treatment of Guest and Holiday Accommodation (last updated April 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "which carries €15.46 of VAT on the room and €1.65 on the breakfast"
+        ]
+      }
+    },
+    {
+      "id": "ie.vat.worked-example",
+      "topic": "tax",
+      "claim": "At 13.5% VAT included in the price, the VAT in a €200 room is €200 × 13.5 ÷ 113.5 = €23.79, or €71.37 over three nights (editorial arithmetic on Revenue's rate).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.revenue.ie/en/vat/vat-rates/search-vat-rates/current-vat-rates.aspx",
+          "kind": "official",
+          "title": "Revenue: Current VAT rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "On a €200 room, €23.79 of it is VAT",
+          "Over three nights that is €71.37"
+        ]
+      }
+    },
+    {
+      "id": "ie.tourist-tax.none",
+      "topic": "tax",
+      "claim": "Ireland has no tourist, city or bed tax on hotel stays: Revenue's accommodation guidance lists only VAT; Dublin City Council has stated it lacks the legal capacity to introduce a bed tax without new national legislation (Dublin's four councils asked the Government for powers); the Budget 2027 tax policy changes, announced 6 October 2026, include no visitor levy or accommodation VAT change.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.revenue.ie/en/vat/vat-on-services/accommodation/guest-and-holiday/index.aspx",
+          "kind": "official",
+          "title": "Revenue: Guest and holiday accommodation"
+        },
+        {
+          "url": "https://assets.gov.ie/static/documents/3aa2894e/Budget_2027_-_Tax_Policy_Changes_Summary_-_Eng.pdf",
+          "kind": "official",
+          "title": "Department of Finance: Budget 2027 Tax Policy Changes summary"
+        },
+        {
+          "url": "https://www.gov.ie/en/department-of-finance/campaigns/budget-2027/",
+          "kind": "official",
+          "title": "gov.ie: Budget 2027 (announced Tuesday 6 October 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "Ireland has no tourist or city tax on hotel stays",
+          "a levy would need new national legislation"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.airport.no-rail-metrolink",
+      "topic": "transport",
+      "claim": "Dublin Airport has no rail link; MetroLink, a planned metro from Swords via Dublin Airport to the city centre and Charlemont, was approved by the Government in 2026 to proceed to detailed tender stage and has no confirmed opening date.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.metrolink.ie/en/about/about-metrolink",
+          "kind": "official",
+          "title": "MetroLink (TII): About MetroLink"
+        },
+        {
+          "url": "https://www.metrolink.ie/en/news/latest-news/government-approves-metrolink-to-proceed-to-detailed-tender-stage/",
+          "kind": "official",
+          "title": "MetroLink: Government approves MetroLink to proceed to detailed tender stage (2026)"
+        },
+        {
+          "url": "https://www.dublinairport.com/to-from-the-airport/by-bus/dublin-buses",
+          "kind": "operator",
+          "title": "Dublin Airport: Dublin buses"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "There is no train to Dublin Airport",
+          "has been approved by the Government to proceed to detailed tender stage"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.airport.dublin-express",
+      "topic": "fare",
+      "claim": "Dublin Express coaches run between Dublin Airport and Dublin City every 7½ minutes, in as little as 14 minutes on the fastest service, from €9 one way online; city stops include Aston Quay, Wellington Quay, Trinity College, Heuston Station and North Wall Quay; drivers accept cards only (no cash) and Leap cards are not accepted.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.dublinexpress.ie/dublin-city/dublin-airport-to-dublin-city",
+          "kind": "operator",
+          "title": "Dublin Express: Dublin Airport to Dublin City"
+        },
+        {
+          "url": "https://www.dublinexpress.ie/",
+          "kind": "operator",
+          "title": "Dublin Express: home page (every 7 1/2 minutes; as little as 14 minutes)"
+        },
+        {
+          "url": "https://www.dublinexpress.ie/faq",
+          "kind": "operator",
+          "title": "Dublin Express: FAQ (card only on board; no Leap cards)"
+        },
+        {
+          "url": "https://www.dublinairport.com/to-from-the-airport/by-bus/dublin-buses",
+          "kind": "operator",
+          "title": "Dublin Airport: Dublin buses"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "every 7½ minutes, in as little as 14 minutes on the fastest service, from €9 one way when you book online",
+          "Drivers take cards only, not cash, and the coaches do not take Leap cards"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.airport.aircoach",
+      "topic": "transport",
+      "claim": "Aircoach 700/700X run Dublin Airport to O'Connell Street 24/7, up to every 15 minutes; the 700 continues via Kildare Street and Leeson Street Lower; the 702 runs via the 3Arena, Grand Canal Dock and Ballsbridge, hourly at peak; the trip takes 20 to 40 minutes depending on traffic; the O'Connell Street stop is opposite the RIU Gresham Hotel.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.aircoach.ie/dublin",
+          "kind": "operator",
+          "title": "Aircoach: Dublin Airport to Dublin City routes"
+        },
+        {
+          "url": "https://www.aircoach.ie/timetables",
+          "kind": "operator",
+          "title": "Aircoach: Routes & timetables"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "to O'Connell Street 24 hours a day, up to every 15 minutes",
+          "The trip takes between 20 and 40 minutes, depending on traffic"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.airport.dublin-bus-16-41",
+      "topic": "fare",
+      "claim": "Dublin Bus 41 runs around the clock between Swords, Dublin Airport and Lower Abbey Street; the 16 runs from the airport to Ballinteer about every 10–15 minutes; the cash fare is €2.60 in coins only (no notes, bank cards or tap-to-pay), and the Leap TFI 90 Minute Fare is €2.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.dublinbus.ie/journey-information/dublin-airport-hub",
+          "kind": "operator",
+          "title": "Dublin Bus: Dublin Airport hub (read via Wayback snapshot 2025-12-29; live site geo-blocked)"
+        },
+        {
+          "url": "https://www.transportforireland.ie/fares/leap-card/tfi-90-minute-fare/",
+          "kind": "official",
+          "title": "Transport for Ireland: TFI 90 Minute Fare (read via Wayback snapshot 2026-09-25; live site blocked)"
+        },
+        {
+          "url": "https://www.dublinairport.com/to-from-the-airport/by-bus/dublin-buses",
+          "kind": "operator",
+          "title": "Dublin Airport: Dublin buses"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "The fare is €2 with a Leap card or €2.60 in coins",
+          "drivers take no notes, no bank cards and no phone payments"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.tfi-90-minute-fare",
+      "topic": "fare",
+      "claim": "The TFI 90 Minute Fare in Dublin is €2.00 adult on Leap, covering Dublin Bus (excluding Express and Nitelink), Go-Ahead Ireland Dublin City Bus, Luas and DART/Commuter Rail within Zone 1; Express and Nitelink cost €2.40; adult Leap caps are €6.00 a day and €24.00 a week.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.transportforireland.ie/fares/leap-card/tfi-90-minute-fare/",
+          "kind": "official",
+          "title": "Transport for Ireland: TFI 90 Minute Fare (read via Wayback snapshot 2026-09-25; live site blocked)"
+        },
+        {
+          "url": "https://www.transportforireland.ie/fares/bus-fares/",
+          "kind": "official",
+          "title": "Transport for Ireland: Bus fares (read via Wayback snapshot 2026-09-07)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "the TFI 90 Minute Fare is €2 for an adult on a Leap card",
+          "capped at €6 a day and €24 a week",
+          "Express and Nitelink buses cost €2.40"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.leap-visitor-card",
+      "topic": "fare",
+      "claim": "The TFI Leap Visitor Card costs €8 for 1 day (24 hours), €18 for 3 days (72 hours) and €24 for 7 days, valid on Dublin Bus and Go-Ahead Ireland city buses, Luas, DART and Commuter Rail in Dublin, not on Bus Éireann; it is sold at Dublin Airport at the T1 Convenience Store and WHSmith in Terminal 1 Arrivals and SPAR in Terminal 2 Arrivals.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://about.leapcard.ie/leap-visitor-card",
+          "kind": "official",
+          "title": "TFI Leap Card: Leap Visitor Card (read via Wayback snapshot 2026-09-10)"
+        },
+        {
+          "url": "https://www.dublinairport.com/to-from-the-airport/by-bus",
+          "kind": "operator",
+          "title": "Dublin Airport: To & from by bus (Leap Visitor Card sales points)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "€8 for 24 hours, €18 for 72 hours, €24 for seven days"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.contactless",
+      "topic": "transport",
+      "claim": "Dublin Bus does not accept bank cards or phone tap-to-pay on board (Leap or coins); the NTA's Next Generation Ticketing programme will introduce account-based ticketing across bus, rail and Luas, with initial focus on the Greater Dublin Area.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.dublinbus.ie/journey-information/dublin-airport-hub",
+          "kind": "operator",
+          "title": "Dublin Bus: Dublin Airport hub (read via Wayback snapshot 2025-12-29; live site geo-blocked)"
+        },
+        {
+          "url": "https://www.transportforireland.ie/news/nta-begin-rollout-of-contactless-payments-on-tfi-local-link-services/",
+          "kind": "official",
+          "title": "Transport for Ireland: NTA begin rollout of contactless payments on TFI Local Link services (Next Generation Ticketing)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "You cannot yet pay on Dublin's buses by tapping a bank card or phone"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.hotel.the-morgan",
+      "topic": "hotel",
+      "claim": "The Morgan Hotel, 10 Fleet Street, Temple Bar: four-star, air-conditioned rooms with Nespresso machines and monsoon rain showers, 10 Fleet Street Restaurant & Bar; the Solo Room is approximately 14 m² for one guest.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.themorgan.com/en/",
+          "kind": "official",
+          "title": "The Morgan Hotel"
+        },
+        {
+          "url": "https://www.themorgan.com/en/solo-rooms-dublin/",
+          "kind": "official",
+          "title": "The Morgan Hotel: Solo Room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "the Solo Room, about 14 m², sleeps one"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.hotel.temple-bar-inn",
+      "topic": "hotel",
+      "claim": "Temple Bar Inn, 40–47 Fleet Street: 101 en-suite rooms, lifts throughout, bar and restaurant with pool table and live sports, complimentary buffet breakfast with direct bookings; the Cosy Double Room is 12 m² and reached by a short set of stairs.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://templebarinn.com/",
+          "kind": "official",
+          "title": "Temple Bar Inn"
+        },
+        {
+          "url": "https://templebarinn.com/rooms/cosy-double-room/",
+          "kind": "official",
+          "title": "Temple Bar Inn: Cosy Double Room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "101 en-suite rooms at 40–47 Fleet Street",
+          "the Cosy Double is 12 m²"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.hotel.the-shelbourne",
+      "topic": "history",
+      "claim": "The Shelbourne, 27 St Stephen's Green, has operated since 1824; in 1922 a committee chaired by Michael Collins drafted the first Irish Constitution in Room 112, now the Constitution Room; the King Deluxe room is 25 m².",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://theshelbourne.com/our-history/",
+          "kind": "official",
+          "title": "The Shelbourne: Our history"
+        },
+        {
+          "url": "https://theshelbourne.com/rooms/",
+          "kind": "official",
+          "title": "The Shelbourne: Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "On St Stephen's Green since 1824",
+          "drafted the first Irish Constitution in its Room 112",
+          "the King Deluxe rooms are 25 m²"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.hotel.the-merrion",
+      "topic": "hotel",
+      "claim": "The Merrion, Upper Merrion Street: a restoration of four Georgian townhouses opposite Government Buildings, 142 bedrooms and suites, an 18m pool, spa and gym, and the two-Michelin-star Restaurant Patrick Guilbaud.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.merrionhotel.com/",
+          "kind": "official",
+          "title": "The Merrion Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "142 rooms and suites, an 18-metre pool"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.hotel.number-31",
+      "topic": "hotel",
+      "claim": "Number 31, 31 Leeson Close: 22 individually designed rooms; former stable block turned into Sam Stephenson's home at the end of the 1950s; no lift, rooms over four floors; not suitable for children (adult-only); best available rate cancellable free up to 48 hours before check-in, advance purchase non-refundable.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.number31.ie/",
+          "kind": "official",
+          "title": "Number 31"
+        },
+        {
+          "url": "https://www.number31.ie/faq/",
+          "kind": "official",
+          "title": "Number 31: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "A townhouse of 22 individually designed rooms",
+          "can be cancelled free up to 48 hours before check-in"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.hotel.maldron-smithfield",
+      "topic": "hotel",
+      "claim": "Maldron Hotel Smithfield: four-star, 92 guest bedrooms including triple, quad, family and interconnecting rooms; Grain & Grill bar and restaurant; the Luas moments away.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.maldronhotels.com/smithfield/",
+          "kind": "official",
+          "title": "Maldron Hotel Smithfield"
+        },
+        {
+          "url": "https://www.maldronhotels.com/smithfield/rooms/",
+          "kind": "official",
+          "title": "Maldron Hotel Smithfield: Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "A four-star hotel with 92 rooms"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.hotel.latroupe-jacobs-inn",
+      "topic": "hotel",
+      "claim": "Latroupe Jacobs Inn, 21–28 Talbot Place, Dublin 1: private rooms with private bathroom, family rooms, dorms of 4/6, 8 and 10/12 beds, bar with daily events and live music, terrace, 24-hour reception.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.latroupe.com/en/latroupe-jacobs-inn/hostel/",
+          "kind": "official",
+          "title": "Latroupe Jacobs Inn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "dorms of four to 12 beds",
+          "the large dorms sleep 10 or 12"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.hotel.anantara-the-marker",
+      "topic": "hotel",
+      "claim": "Anantara The Marker Dublin Hotel, Grand Canal Square: 187 rooms and suites; rooms 30–35 m² with floor-to-ceiling windows; spa with 23-metre infinity pool; Rooftop Bar & Terrace.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.anantara.com/en/the-marker-dublin",
+          "kind": "official",
+          "title": "Anantara The Marker Dublin Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "187 rooms of 30 to 35 m²",
+          "a 23-metre infinity pool"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin.hotel.herbert-park",
+      "topic": "hotel",
+      "claim": "Herbert Park Hotel & Park Residence, Ballsbridge: four-star with views of the 48-acre Herbert Park, self-catering studio apartments, underground parking, a 10-minute walk from Lansdowne Road DART station.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.herbertparkhotel.ie/",
+          "kind": "official",
+          "title": "Herbert Park Hotel & Park Residence"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin.html": [
+          "the 48-acre Herbert Park",
+          "a 10-minute walk from Lansdowne Road DART station"
+        ]
+      }
+    }
+  ]
+}

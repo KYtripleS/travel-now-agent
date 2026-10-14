@@ -541,6 +541,514 @@
           "Standard rooms of 11 m² with a double bed and Bigger rooms of 14 m² with a king-size bed"
         ]
       }
+    },
+    {
+      "id": "gb.edinburgh.visitor-levy",
+      "topic": "tax",
+      "claim": "Edinburgh Visitor Levy: 5% of the cost of paid overnight accommodation (accommodation-only portion, net of VAT), charged on the first 5 consecutive nights only, for stays from 24 July 2026, at the same rate every day of the year; applies to hotels, B&Bs, guest houses, hostels, aparthotels, self-catering and short-term lets, caravan/camp sites; not charged on extras like parking, meals, drinks or transport; the council called it Scotland's first visitor levy.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh",
+          "kind": "official",
+          "title": "City of Edinburgh Council: about the Edinburgh Visitor Levy"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers",
+          "kind": "official",
+          "title": "City of Edinburgh Council: Edinburgh Visitor Levy Scheme, information for accommodation providers, v2.1 Sept 2026 (PDF)"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/business/information-businesses",
+          "kind": "official",
+          "title": "City of Edinburgh Council: Visitor Levy information for businesses"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/visitorlevy",
+          "kind": "official",
+          "title": "City of Edinburgh Council: Edinburgh Visitor Levy"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/news/article/14141/edinburgh-declares-scotland-s-first-visitor-levy",
+          "kind": "official",
+          "title": "City of Edinburgh Council: Edinburgh declares Scotland's first visitor levy"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "Edinburgh is the first place in Scotland to charge a visitor levy",
+          "5% of the accommodation-only price, before VAT",
+          "The first 5 consecutive nights of a stay; nights 6 onwards are free of the levy",
+          "Extras such as parking, meals, drinks or transport"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.visitor-levy-vat",
+      "topic": "tax",
+      "claim": "The council's provider guide (v2.1, Sept 2026) quotes the 2026 VisitScotland Guidance: the levy should be included as turnover and, if the provider is VAT-registered, is liable for VAT; the levy applies to providers below the VAT threshold too. So at a VAT-registered hotel the levy plus its VAT equals 5% of the VAT-inclusive room price (editorial arithmetic: £180 incl. VAT -> £150 net -> £7.50 levy + £1.50 VAT = £9/night; £27 for 3 nights; £45 for a 7-night stay).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers",
+          "kind": "official",
+          "title": "City of Edinburgh Council: Edinburgh Visitor Levy Scheme, information for accommodation providers, v2.1 Sept 2026 (PDF)"
+        },
+        {
+          "url": "https://www.gov.uk/vat-rates",
+          "kind": "official",
+          "title": "GOV.UK: VAT rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "so a hotel registered for VAT adds 20% VAT to it as well",
+          "so £9 a night and £27 for the stay",
+          "On a seven-night stay you pay the levy for five nights only, £45"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.visitor-levy-transition",
+      "topic": "tax",
+      "claim": "Stays on/after 24 July 2026 booked and paid for (in part or full) before 1 October 2025 are not subject to the levy; such bookings must specify specific dates, a precise number of rooms and a stated room price per night, and the payment must be tangible, attributable to a room and non-refundable (not refundable deposits). Stays that commenced before 24 July 2026 are not liable even if they finish after it.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh",
+          "kind": "official",
+          "title": "City of Edinburgh Council: about the Edinburgh Visitor Levy"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers",
+          "kind": "official",
+          "title": "City of Edinburgh Council: Edinburgh Visitor Levy Scheme, information for accommodation providers, v2.1 Sept 2026 (PDF)"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/business/information-businesses",
+          "kind": "official",
+          "title": "City of Edinburgh Council: Visitor Levy information for businesses"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "before 1 October 2025 is exempt",
+          "A refundable deposit does not count",
+          "A stay that began before 24 July 2026 is not charged"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.visitor-levy-refund",
+      "topic": "tax",
+      "claim": "Recipients of listed disability benefits (e.g. PIP, DLA, Attendance Allowance, Child DLA) pay the levy and claim reimbursement from the council after the stay has ended, with the award letter, an invoice in their name and proof of payment; the council refunds only the levy itself, not associated costs, charges or taxes.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1",
+          "kind": "official",
+          "title": "City of Edinburgh Council: information for visitors, exemptions"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "The council refunds the levy, not the VAT on it",
+          "You claim after the stay"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.tram-airport",
+      "topic": "fare",
+      "claim": "Edinburgh Trams: Adult Airport Single £7.90, Adult Airport Open Return £9.50 (airport fares frozen in the 22 Feb 2026 fare change); city-zone Adult Single £2.40, Adult City Day £6.00 (not valid to the Airport), Adult DAY cap £5.70, Network Day/cap £14.00 (incl. airport, trams and Lothian buses), weekly cap £26.50 (Mon-Sun); trams every 7 minutes; Edinburgh Airport says airport to city centre takes 30 minutes and to Newhaven 54 minutes, trams every 7 minutes 6:30am-7pm.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://edinburghtrams.com/tickets/ticket-options",
+          "kind": "operator",
+          "title": "Edinburgh Trams: ticket options"
+        },
+        {
+          "url": "https://edinburghtrams.com/news/changes-tram-fares-2026",
+          "kind": "operator",
+          "title": "Edinburgh Trams: changes to tram fares in 2026"
+        },
+        {
+          "url": "https://edinburghtrams.com/stop/edinburgh-airport-airport-fare-zone",
+          "kind": "operator",
+          "title": "Edinburgh Trams: Edinburgh Airport stop"
+        },
+        {
+          "url": "https://www.edinburghairport.com/transport-links/trams",
+          "kind": "official",
+          "title": "Edinburgh Airport: by tram"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "£7.90 single or £9.50 open return to the city centre",
+          "The airport puts the journey into the city centre at 30 minutes",
+          "the fares cap at £5.70 a day in the city zone and £26.50 a week"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.airlink-100",
+      "topic": "fare",
+      "claim": "Lothian Airlink 100: 24/7 express between Edinburgh Airport and Waverley Bridge; Airport Single adult £6.00 (child £3.00), Airport Open Return adult £8.50; from the airport up to every 10 minutes 04:12-01:00 and up to every 20 minutes 01:15-04:00. Lothian single £2.40; City DAY £6.00 (not valid on Airlink); weekly TapTapCap £26.50.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.lothianbuses.com/airport/",
+          "kind": "operator",
+          "title": "Lothian Buses: Airlink 100"
+        },
+        {
+          "url": "https://www.lothianbuses.com/tickets/",
+          "kind": "operator",
+          "title": "Lothian Buses: tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "£6 single or £8.50 open return",
+          "Lothian's 24-hour express to Waverley Bridge",
+          "a single on Lothian buses or the city-zone tram costs £2.40"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.tram-stops",
+      "topic": "transport",
+      "claim": "Edinburgh Trams stops include Edinburgh Airport, Haymarket, West End, Princes Street, St Andrew Square, The Shore, Port of Leith, Ocean Terminal and Newhaven.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://edinburghtrams.com/",
+          "kind": "operator",
+          "title": "Edinburgh Trams: route and stops"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "with stops at The Shore, Port of Leith and Ocean Terminal",
+          "It has two tram stops, West End and Haymarket"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.fringe-2027",
+      "topic": "place",
+      "claim": "The Edinburgh Festival Fringe's 80th edition takes place 6-30 August 2027.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.edfringe.com/",
+          "kind": "official",
+          "title": "Edinburgh Festival Fringe Society"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "The Edinburgh Festival Fringe runs from 6 to 30 August 2027"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.unesco",
+      "topic": "history",
+      "claim": "UNESCO inscribed the Old and New Towns of Edinburgh in 1995: the Old Town dominated by a medieval fortress, and the neoclassical New Town whose development from the 18th century onwards had a far-reaching influence on European urban planning.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/728/",
+          "kind": "official",
+          "title": "UNESCO World Heritage Centre: Old and New Towns of Edinburgh"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "dominated by a medieval fortress",
+          "The two towns were listed together as a World Heritage Site in 1995"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel-price-check",
+      "topic": "price",
+      "claim": "Booking.com, checked 14 October 2026, 2 adults, two nights, prices incl. taxes and fees: 18-20 Nov 2026 - Motel One Edinburgh-Royal £299, Hampton by Hilton Edinburgh West End £355 (breakfast incl.), The Balmoral £1,213 (Executive Double), The Caledonian £547 (Deluxe Queen 20 m², breakfast £35 extra). 11-13 Aug 2027 - Motel One £732 (10% promo), Hampton £671; Balmoral no rates shown.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.booking.com/hotel/gb/motel-one-edinburgh-royal.html",
+          "kind": "operator",
+          "title": "Booking.com: Motel One Edinburgh-Royal"
+        },
+        {
+          "url": "https://www.booking.com/hotel/gb/hampton-by-hilton-edinburgh-west-end.html",
+          "kind": "operator",
+          "title": "Booking.com: Hampton by Hilton Edinburgh West End"
+        },
+        {
+          "url": "https://www.booking.com/hotel/gb/the-balmoral-edinburgh.html",
+          "kind": "operator",
+          "title": "Booking.com: The Balmoral"
+        },
+        {
+          "url": "https://www.booking.com/hotel/gb/caledonian-hilton.html",
+          "kind": "operator",
+          "title": "Booking.com: The Caledonian Edinburgh"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "Motel One Edinburgh-Royal £732 against £299",
+          "two November weeknights in an Executive Double cost £1,213",
+          "the entry Deluxe Queen rooms were 20 m² and breakfast cost extra"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.the-witchery",
+      "topic": "hotel",
+      "claim": "The Witchery, 352 Castlehill, Royal Mile EH1 2NF, steps from the gates to Edinburgh Castle: 9 suites (incl. The Library with book-filled bathroom; largest suite with 7 windows over the Royal Mile); suites designed for two adults sharing a UK king-size bed; book direct for a complimentary bottle of Champagne each night.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.thewitchery.com/",
+          "kind": "official",
+          "title": "The Witchery"
+        },
+        {
+          "url": "https://www.thewitchery.com/stay/",
+          "kind": "official",
+          "title": "The Witchery: stay"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "with nine suites",
+          "the suites are designed for two adults sharing a king-size bed"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.radisson-blu",
+      "topic": "hotel",
+      "claim": "Radisson Blu Hotel, Edinburgh City Centre, on the Royal Mile: 238 rooms; Standard Room 27 m², Royal Suite 78 m²; Sleeping Beauty Spa with indoor heated pool; Itchycoo Bar & Kitchen; check-in 15:00, check-out 12:00.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-edinburgh",
+          "kind": "official",
+          "title": "Radisson Hotels: Radisson Blu Hotel, Edinburgh City Centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "with 238 rooms, from Standard rooms of 27 m² to a Royal Suite"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.motel-one-royal",
+      "topic": "hotel",
+      "claim": "Motel One Edinburgh-Royal, 18-21 Market Street EH1 1BL: standard room 'The One' 16 m²; Edinburgh Waverley station listed 0.1 km from the hotel; bar/lounge; guest reviews on the hotel's page mention some windowless rooms.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.motel-one.com/en/hotels/edinburgh/hotel-edinburgh-royal/",
+          "kind": "official",
+          "title": "Motel One Edinburgh-Royal"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "about 100 metres from Waverley station by the hotel's count",
+          "compact 16 m² rooms"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.the-balmoral",
+      "topic": "hotel",
+      "claim": "The Balmoral (Rocco Forte), 1 Princes Street EH2 2EQ: 'where Old Town meets New', landmark clock tower; Castle View rooms; Glamis Suite.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/the-balmoral-hotel/accommodation/",
+          "kind": "official",
+          "title": "Rocco Forte Hotels: The Balmoral, accommodation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "At 1 Princes Street, under the landmark clock tower"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.kimpton-charlotte-square",
+      "topic": "hotel",
+      "claim": "Kimpton Charlotte Square, 38 Charlotte Square EH2 4HQ: seven interconnected Georgian townhouses, glass-topped central courtyard, Spa at Charlotte Square, BABA restaurant, No.33 private townhouse.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.kimptoncharlottesquare.com/",
+          "kind": "official",
+          "title": "Kimpton Charlotte Square"
+        },
+        {
+          "url": "https://www.kimptoncharlottesquare.com/edinburgh-accommodations/",
+          "kind": "official",
+          "title": "Kimpton Charlotte Square: accommodations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "Seven interconnected Georgian townhouses"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.the-raeburn",
+      "topic": "hotel",
+      "claim": "The Raeburn, 112 Raeburn Place, Stockbridge EH4 1HG: built in 1832 as a Georgian family home; ten bedrooms, bar, dining, library, private dining, outdoor terraces.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.theraeburn.com/",
+          "kind": "official",
+          "title": "The Raeburn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "A Georgian family home built in 1832 on Raeburn Place"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.malmaison",
+      "topic": "hotel",
+      "claim": "Malmaison Edinburgh, 1 Tower Place EH6 7BZ, on the Leith waterfront; Chez Mal Brasserie & Bar; 'only 10 minutes by taxi away from the city centre'.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.malmaison.com/locations/edinburgh/",
+          "kind": "official",
+          "title": "Malmaison Edinburgh"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "At 1 Tower Place on the Leith waterfront",
+          "the hotel itself puts the city centre 10 minutes away by taxi"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.fingal",
+      "topic": "hotel",
+      "claim": "Fingal, Alexandra Dock, Leith EH6 7DX: former Northern Lighthouse Board ship, open since 2019, 23 cabins, AA five-star, Lighthouse Restaurant & Bar; 2 miles from the city centre; Port of Leith tram stop about a 2-minute walk.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.fingal.co.uk/",
+          "kind": "official",
+          "title": "Fingal"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "with 23 cabins",
+          "The Port of Leith tram stop is about two minutes' walk away"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.the-caledonian",
+      "topic": "hotel",
+      "claim": "The Caledonian Edinburgh, Curio Collection by Hilton, Princes Street EH1 2AB: '120 years of The Caledonian', views of Edinburgh Castle; rooms inspired by coats of arms on the Victorian stained-glass windows on the grand staircase; spa; The Court; check-in 3pm, check-out 12pm.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/ednchqq-the-caledonian-edinburgh/",
+          "kind": "official",
+          "title": "Hilton: The Caledonian Edinburgh, Curio Collection by Hilton"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "On Princes Street for more than 120 years"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.hampton-west-end",
+      "topic": "hotel",
+      "claim": "Hampton by Hilton Edinburgh West End, 166 Fountainbridge EH3 9RX: 10-minute walk from the EICC, one mile to Edinburgh Castle; free hot breakfast; pets not allowed; states the 5% Visitor Levy is included in the total price shown for stays on/after 24 July 2026, charged on the room rate before VAT, up to five nights.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/edifbhx-hampton-edinburgh-west-end/",
+          "kind": "official",
+          "title": "Hilton: Hampton by Hilton Edinburgh West End"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "At 166 Fountainbridge",
+          "the 5% Visitor Levy is included in the total price shown"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.prestonfield",
+      "topic": "hotel",
+      "claim": "Prestonfield House, Priestfield Road EH16 5UT: 5-star, 'just five minutes from Edinburgh's Old Town', 20 acres of gardens and parkland in the shadow of Arthur's Seat, 23 bedrooms and suites, Rhubarb restaurant.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.prestonfield.com/",
+          "kind": "official",
+          "title": "Prestonfield"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "A five-star house in 20 acres of gardens and parkland",
+          "with 23 bedrooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hotel.ten-hill-place",
+      "topic": "hotel",
+      "claim": "Ten Hill Place, 10 Hill Place EH8 9DS: 129 bedrooms in Classic, Superior and accessible categories; operated by the Royal College of Surgeons of Edinburgh (Surgeons Quarter); discounted tickets to Surgeons' Hall Museums; Superior-room robes, slippers and chocolates only when booked direct.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.tenhillplace.com/",
+          "kind": "official",
+          "title": "Ten Hill Place"
+        },
+        {
+          "url": "https://www.tenhillplace.com/rooms/",
+          "kind": "official",
+          "title": "Ten Hill Place: rooms"
+        },
+        {
+          "url": "https://www.surgeonsquarter.com/",
+          "kind": "official",
+          "title": "Surgeons Quarter"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh.html": [
+          "A 129-bedroom hotel at 10 Hill Place"
+        ]
+      }
     }
   ]
 }
