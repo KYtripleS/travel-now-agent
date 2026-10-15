@@ -129,6 +129,8 @@
         : a.closest('.gy-city-rates') ? 'city'
         : a.closest('.gy-quick-picks') ? 'quickpick'
         : a.closest('.gy-globe') ? 'globe'
+        : a.closest('.gy-promo') ? 'promo'
+        : a.closest('.gy-finder') ? 'finder'
         : a.closest('.gy-widget, .gy-cta') ? 'widget'
         : 'prose';
       /* Travelpayouts short links take ?sub_id= (letters, digits, _), and its
@@ -218,4 +220,85 @@
     if (!queued) { queued = true; requestAnimationFrame(mark); }
   }, { passive: true });
   mark();
+})();
+
+/* Time-limited offers (promotions.py). The deadline is the fixed data-ends in
+   the markup, never computed in the browser, so a reload cannot reset it. An
+   offer past its deadline is replaced by a plain "ended" line; one not yet
+   started says when it starts. Impressions are counted once per offer per
+   page view, when half of the box is on screen. */
+(function () {
+  var boxes = document.querySelectorAll('.gy-promo[data-ends]');
+  if (!boxes.length) return;
+  function ev(name, box, extra) {
+    if (!window.gtag) return;
+    var p = { promo_id: box.getAttribute('data-promo') || '', page: location.pathname };
+    for (var k in extra) p[k] = extra[k];
+    gtag('event', name, p);
+  }
+  function left(ms, precise) {
+    var m = Math.floor(ms / 60000), d = Math.floor(m / 1440), h = Math.floor(m % 1440 / 60);
+    if (!precise) return d >= 2 ? d + ' days left' : (d * 24 + h) + ' hours left';
+    var s = Math.floor(ms / 1000) % 60;
+    return (d ? d + 'd ' : '') + h + 'h ' + (m % 60) + 'm ' + s + 's left';
+  }
+  function tick() {
+    var now = Date.now(), live = false;
+    for (var i = 0; i < boxes.length; i++) {
+      var b = boxes[i], end = Date.parse(b.getAttribute('data-ends')),
+          start = Date.parse(b.getAttribute('data-starts') || '');
+      if (isNaN(end) || now >= end) {                 /* no valid deadline, or past it */
+        if (!b.classList.contains('is-ended')) {
+          b.classList.add('is-ended');
+          var t = b.querySelector('.gy-promo-title strong');
+          b.innerHTML = '<p class="gy-promo-label">Ended</p><p class="gy-promo-title">'
+            + (t ? t.textContent : 'This offer') + ': this offer has ended.</p>';
+        }
+        continue;
+      }
+      var out = b.querySelector('.gy-promo-left');
+      if (!isNaN(start) && now < start) {
+        if (out) { out.hidden = false; out.textContent = ' Not started yet.'; }
+        b.classList.add('is-upcoming');
+        live = true; continue;
+      }
+      b.classList.remove('is-upcoming');
+      if (out && b.getAttribute('data-countdown') === '1') {
+        out.hidden = false;
+        out.textContent = ' ' + left(end - now, b.getAttribute('data-precision') === 'time');
+        live = true;
+      } else if (now + 6e4 > end) live = true;
+    }
+    return live;
+  }
+  if (tick()) var timer = setInterval(function () { if (!tick()) clearInterval(timer); }, 1000);
+  for (var k = 0; k < boxes.length; k++) {         /* a tab left open past a deadline */
+    var ms = Date.parse(boxes[k].getAttribute('data-ends')) - Date.now();
+    if (ms > 0 && ms < 2147483000) setTimeout(tick, ms + 50);
+  }
+  var seen = {};
+  function shown(b) {
+    var id = b.getAttribute('data-promo');
+    if (seen[id] || b.classList.contains('is-ended')) return;
+    seen[id] = 1; ev('promo_impression', b, {});
+  }
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { shown(e.target); io.unobserve(e.target); } });
+    }, { threshold: 0.5 });
+    for (var j = 0; j < boxes.length; j++) io.observe(boxes[j]);
+  }
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest) return;
+    var b = e.target.closest('.gy-promo');
+    if (!b || b.classList.contains('is-ended')) return;
+    var copy = e.target.closest('.gy-promo-copy');
+    if (copy) {
+      var code = copy.getAttribute('data-code') || '';
+      try { navigator.clipboard.writeText(code); copy.textContent = 'Copied'; } catch (err) {}
+      ev('coupon_copy', b, {});
+      return;
+    }
+    if (e.target.closest('.gy-promo-cta')) ev('promo_click', b, {});
+  }, true);
 })();

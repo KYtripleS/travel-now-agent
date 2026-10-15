@@ -35,7 +35,7 @@ GA4_ID = "G-JRGK9CN3B1"
 # Profiles that live under articles/ but count as destinations, not guides.
 PROFILES_IN_ARTICLES = {"south-korea-country-profile.html"}
 # Explicit tool set, so the count is intentional rather than accidental.
-TOOL_FILES = ["tools/esim-finder.html", "tools/insurance-finder.html",
+TOOL_FILES = ["tools/stay-finder.html", "tools/esim-finder.html", "tools/insurance-finder.html",
               "checklist-generator.html", "rehearsal.html"]
 
 PROFILES = [
@@ -369,6 +369,8 @@ HUBS = {
               "publishes and consistent guest feedback, and checked as open when the guide was last "
               "updated. When we review a stay first-hand, the guide says so at the top. No hotel pays "
               "to be included."),
+        tool=('\n<p class="gy-hub-tool">Not sure which area? The <a href="../tools/stay-finder.html">Stay Finder</a> '
+              'ranks a city\'s areas for your budget and priorities, from these guides, with the reasons shown.</p>'),
         groups=[("Stay guides", {"Stay"})],
     ),
     "food/index.html": dict(
@@ -446,7 +448,7 @@ def render_hub(rel: str, rows: list[dict]) -> str:
 <div class="gy-arch-head-inner">
 <p class="label">{h["eyebrow"]}</p>
 <h1>{h["h1"]}</h1>
-<p>{h["intro"]}</p>
+<p>{h["intro"]}</p>{h.get("tool", "")}
 </div>
 </header>
 <main class="gy-archive" id="main">

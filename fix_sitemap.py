@@ -56,6 +56,7 @@ original_urls = [
     ("/editors.html", "2026-10-10", "monthly", "0.6"),
     ("/articles/carry-on-packing-list-10-day-japan.html", "2026-07-18", "monthly", "0.7"),
     ("/articles/luggage-storage-tokyo.html", "2026-10-10", "monthly", "0.7"),
+    ("/tools/stay-finder.html", "2026-10-15", "weekly", "0.8"),
     ("/tools/esim-finder.html", "2026-10-10", "monthly", "0.7"),
     ("/tools/insurance-finder.html", "2026-10-10", "monthly", "0.7"),
     ("/articles/best-esim-europe-2026.html", "2026-10-10", "monthly", "0.7"),

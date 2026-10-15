@@ -41,6 +41,7 @@ COLUMNS = [
         ("tools/index.html", "All tools"),
         ("index.html#ready", "Ready Score"),
         ("checklist-generator.html", "Checklist generator"),
+        ("tools/stay-finder.html", "Stay finder"),
         ("tools/esim-finder.html", "eSIM finder"),
         ("gear.html", "Gear directory"),
     ]),

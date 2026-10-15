@@ -783,6 +783,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Book a Tokyo Food Tour",
         "Viator has the choice, Klook often the price: Shinjuku nights, Tsukiji mornings and Asakusa snacks compared.",
     ),
+    "tools/stay-finder.html": (
+        "Stay Finder (Free Tool)",
+        "Pick a city, a budget and what matters; see its areas ranked from our stay guides, with the reasons.",
+    ),
     "tools/esim-finder.html": (
         "eSIM Finder (Free Tool)",
         "Answer three questions and get a data-size and provider recommendation for your trip.",
@@ -2195,6 +2199,13 @@ LINKS: dict[str, list[str]] = {
         "articles/tokyo-kissaten-guide.html",
         "articles/things-to-do-in-tokyo.html",
         "cities/tokyo/index.html",
+    ],
+    "tools/stay-finder.html": [
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-stay-in-new-york.html",
     ],
     "tools/esim-finder.html": [
         "articles/best-esim-japan-2026.html",

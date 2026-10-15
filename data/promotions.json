@@ -1,0 +1,84 @@
+{
+ "_doc": "Time-limited offers shown by promotions.py. Only add an offer you have checked at its source. A coupon_code is shown only when code_verified is true. ends_at is the first moment the offer no longer applies, with its UTC offset; precision 'day' means the source gives a date, not a time. An offer whose verification is older than recheck_days, or whose ends_at has passed, is taken off every page at the next build, and gy-reveal.js hides it in the reader's browser the moment it ends.",
+ "promotions": [
+  {
+   "id": "fukuoka-fukko-wari-2026",
+   "kind": "public_scheme",
+   "partner": null,
+   "title": "Half off Fukuoka stays until 15 December",
+   "benefit": "Fukuoka Prefecture pays 50% of a stay in the prefecture, up to ¥20,000 a person a trip for a room alone, ¥30,000 for two nights or more with transport.",
+   "eligibility": [
+    "Overseas visitors are eligible; business trips and day use are not",
+    "Book through a registered hotel directly, a registered Fukuoka travel agency or a listed site such as Rakuten Travel, Jalan or Ikyu.com",
+    "Booking.com is not on the list"
+   ],
+   "how_to_claim": "Book through a participating channel; the lead guest signs a usage certificate on the day.",
+   "starts_at": "2026-10-01T00:00:00+09:00",
+   "ends_at": "2026-12-16T00:00:00+09:00",
+   "precision": "day",
+   "timezone_label": "Japan time",
+   "end_text": "Stays to 15 December 2026, checkout by 16 December",
+   "ends_early_if": "the budget runs out",
+   "countdown": false,
+   "coupon_code": null,
+   "code_verified": false,
+   "cta_label": "Check This Offer",
+   "url": "https://fukuoka-fukkou-wari.jp/",
+   "affiliate": null,
+   "pages": [
+    "articles/where-to-stay-in-fukuoka.html",
+    "articles/japan-tourist-taxes-2026.html"
+   ],
+   "verification": {
+    "status": "verified",
+    "checked": "2026-10-15",
+    "recheck_days": 7,
+    "evidence": "Campaign site on 15 October 2026: stay period 1 October to 15 December 2026, checkout by 16 December; the 'campaign has ended' banner is not switched on; it ends early once the budget is reached.",
+    "fact_id": "jp.fukuoka.fukko-wari-2026",
+    "sources": [
+     "https://fukuoka-fukkou-wari.jp/",
+     "https://www.pref.fukuoka.lg.jp/press-release/fukuoka-fukkou-wari1001.html"
+    ]
+   }
+  },
+  {
+   "id": "victoria-half-price-fares-2026",
+   "kind": "public_scheme",
+   "partner": null,
+   "title": "Half-price public transport in Victoria",
+   "benefit": "Trains, trams and buses across Victoria are half price for everyone: the full-fare daily cap is $5.70 instead of $11.40.",
+   "eligibility": [
+    "Everyone, visitors included, paying by myki or a contactless bank card",
+    "Not SkyBus, ferries or non-subsidised regional buses"
+   ],
+   "how_to_claim": "Nothing to do: the lower fare is charged automatically.",
+   "starts_at": "2026-06-01T00:00:00+10:00",
+   "ends_at": "2027-01-01T00:00:00+11:00",
+   "precision": "day",
+   "timezone_label": "Melbourne time",
+   "end_text": "Until 1 January 2027",
+   "ends_early_if": null,
+   "countdown": true,
+   "coupon_code": null,
+   "code_verified": false,
+   "cta_label": "See the Official Details",
+   "url": "https://www.vic.gov.au/half-price-travel",
+   "affiliate": null,
+   "pages": [
+    "articles/getting-around-melbourne.html",
+    "articles/melbourne-airport-to-city.html",
+    "articles/where-to-stay-in-melbourne.html"
+   ],
+   "verification": {
+    "status": "verified",
+    "checked": "2026-10-15",
+    "recheck_days": 30,
+    "evidence": "vic.gov.au on 15 October 2026: half price from 1 June 2026 until 1 January 2027; excludes SkyBus, ferries and non-subsidised regional buses. It does not say whether 1 January is included, so the countdown ends at its start.",
+    "fact_id": "mel.half-price-fares-2026",
+    "sources": [
+     "https://www.vic.gov.au/half-price-travel"
+    ]
+   }
+  }
+ ]
+}

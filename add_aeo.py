@@ -724,7 +724,7 @@ REVISED = {
 
 STOP_HEADINGS = re.compile(r"frequently asked|^sources|references|liked this guide|keep reading|related reading",
                            re.I)
-SKIP_SELECTOR = ".gy-verdict, .gy-widget, .gy-cta, .gy-section-link, figure, .faq, .newsletter, script, style"
+SKIP_SELECTOR = ".gy-verdict, .gy-promo, .gy-finder-pointer, .gy-widget, .gy-cta, .gy-section-link, figure, .faq, .newsletter, script, style"
 
 
 # --- dates --------------------------------------------------------------------
@@ -823,7 +823,7 @@ def _eligible(el: Tag, after_stop: set[int]) -> bool:
     if el.find_parent("a") or el.find_parent("figure"):
         return False
     if el.find_parent(lambda t: isinstance(t, Tag) and t.get("class") and any(
-            c in ("gy-verdict", "gy-widget", "gy-cta", "gy-section-link", "faq", "newsletter")
+            c in ("gy-verdict", "gy-promo", "gy-finder-pointer", "gy-widget", "gy-cta", "gy-section-link", "faq", "newsletter")
             for c in t.get("class"))):
         return False
     return True
