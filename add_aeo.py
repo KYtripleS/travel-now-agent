@@ -175,6 +175,13 @@ SECTION_NOTE = {
 LEGACY_BOX = "aside.verdict"
 
 
+# Under every hotel verdict: why to act now, in words that are true on any date.
+# Prices can fall as well as rise, so it never says they will go up.
+PRICE_NOTE = ("Hotel prices change daily with demand, and on busy dates they tend to climb as rooms fill. "
+              "A rate with free cancellation, where the hotel offers one, locks in today’s price while you "
+              "keep comparing.")
+
+
 def _stay_cta(slug: str, label: str) -> tuple:
     """A where-to-stay verdict's call to action: hotels around the area it
     recommends, on whichever booking site Stay22 picks, since the text names none."""
@@ -993,6 +1000,10 @@ def render_verdict(soup: BeautifulSoup, spec: dict, slug: str | None = None) -> 
         box.append(c)
     if spec.get("note_html"):
         n = BeautifulSoup(f'<p class="gy-verdict-note">{spec["note_html"]}</p>', "html.parser").p
+        box.append(n)
+    if href and "stay22.com" in href:                # a hotel verdict
+        n = soup.new_tag("p", attrs={"class": "gy-verdict-price"})
+        n.string = PRICE_NOTE
         box.append(n)
     return box
 

@@ -1,5 +1,5 @@
 {
- "_doc": "Time-limited offers shown by promotions.py. Only add an offer you have checked at its source. A coupon_code is shown only when code_verified is true. ends_at is the first moment the offer no longer applies, with its UTC offset; precision 'day' means the source gives a date, not a time. An offer whose verification is older than recheck_days, or whose ends_at has passed, is taken off every page at the next build, and gy-reveal.js hides it in the reader's browser the moment it ends.",
+ "_doc": "Time-limited offers shown by promotions.py. Only add an offer you have checked at its source. A coupon_code is shown only when code_verified is true. countdown_prefix (e.g. At most) goes before the time left when the offer can end early. ends_at is the first moment the offer no longer applies, with its UTC offset; precision 'day' means the source gives a date, not a time. An offer whose verification is older than recheck_days, or whose ends_at has passed, is taken off every page at the next build, and gy-reveal.js hides it in the reader's browser the moment it ends.",
  "promotions": [
   {
    "id": "fukuoka-fukko-wari-2026",
@@ -19,7 +19,8 @@
    "timezone_label": "Japan time",
    "end_text": "Stays to 15 December 2026, checkout by 16 December",
    "ends_early_if": "the budget runs out",
-   "countdown": false,
+   "countdown": true,
+   "countdown_prefix": "At most",
    "coupon_code": null,
    "code_verified": false,
    "cta_label": "Check This Offer",

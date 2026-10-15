@@ -4795,3 +4795,20 @@ body .rsp-feat { border-radius: 4px; }
 .gy-finder .gf-rates { white-space: nowrap; font-family: var(--sans); font-size: .86rem; font-weight: 600; }
 .gy-finder .gf-more { margin: 0; font: .86rem var(--sans); }
 .article .gy-finder-pointer { margin: -4px 0 1.4em; font: .9rem var(--sans); color: var(--ink-soft); }
+/* the last week of an offer, and the phones' bar for its last 14 days (gy-reveal.js) */
+.article .gy-promo.is-soon { border-top: 3px solid #a23b2a; }
+.article .gy-promo.is-soon .gy-promo-left { color: #a23b2a; }
+.gy-promo-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; display: flex; align-items: center;
+  gap: 8px; padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px)) 16px;
+  background: var(--navy); color: #f8f4e9; font: 600 .88rem var(--sans); border-top: 2px solid var(--gold);
+}
+.gy-promo-bar[hidden] { display: none; }
+.gy-promo-bar a { flex: 1; color: #f8f4e9; text-decoration: none; }
+.gy-promo-bar button {
+  flex: none; width: 32px; height: 32px; border: 0; background: transparent; color: #f8f4e9;
+  font-size: 1.3rem; line-height: 1; cursor: pointer;
+}
+.article .gy-verdict p.gy-verdict-price, .gy-finder .gf-price {
+  margin: 12px 0 0; font-family: var(--sans); font-size: .82rem; line-height: 1.5; color: var(--ink-soft);
+}

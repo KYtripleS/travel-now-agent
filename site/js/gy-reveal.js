@@ -238,7 +238,7 @@
   }
   function left(ms, precise) {
     var m = Math.floor(ms / 60000), d = Math.floor(m / 1440), h = Math.floor(m % 1440 / 60);
-    if (!precise) return d >= 2 ? d + ' days left' : (d * 24 + h) + ' hours left';
+    if (!precise) return d >= 2 ? d + ' days left' : (d * 24 + h) + 'h ' + (m % 60) + 'm left';
     var s = Math.floor(ms / 1000) % 60;
     return (d ? d + 'd ' : '') + h + 'h ' + (m % 60) + 'm ' + s + 's left';
   }
@@ -263,15 +263,54 @@
         live = true; continue;
       }
       b.classList.remove('is-upcoming');
+      b.classList.toggle('is-soon', end - now <= 7 * 864e5);   /* the last week: stronger rule */
       if (out && b.getAttribute('data-countdown') === '1') {
         out.hidden = false;
-        out.textContent = ' ' + left(end - now, b.getAttribute('data-precision') === 'time');
+        out.textContent = ' ' + (b.getAttribute('data-left-prefix') || '')
+          + left(end - now, b.getAttribute('data-precision') === 'time');
         live = true;
       } else if (now + 6e4 > end) live = true;
     }
+    bar(now);
     return live;
   }
+  /* Phones: in an offer's last 14 days, a bar at the foot of the screen keeps
+     the real deadline in view while the box itself is scrolled away. */
+  var barEl = null, barBox = null, boxInView = false, hidden = false;
+  try { hidden = sessionStorage.getItem('gy_promo_bar') === '0'; } catch (e) {}
+  function bar(now) {
+    if (hidden || !window.matchMedia || !matchMedia('(max-width: 640px)').matches) return;
+    if (!barBox) {
+      for (var i = 0; i < boxes.length; i++) {
+        var e = Date.parse(boxes[i].getAttribute('data-ends'));
+        if (!boxes[i].classList.contains('is-ended') && !boxes[i].classList.contains('is-upcoming')
+            && e - now <= 14 * 864e5) { barBox = boxes[i]; break; }
+      }
+      if (!barBox) return;
+      if (!barBox.id) barBox.id = 'offer-' + barBox.getAttribute('data-promo');
+      barEl = document.createElement('div');
+      barEl.className = 'gy-promo-bar';
+      barEl.setAttribute('role', 'region');
+      barEl.setAttribute('aria-label', 'Time-limited offer');
+      barEl.innerHTML = '<a href="#' + barBox.id + '"></a><button type="button" aria-label="Hide this bar">\u00d7</button>';
+      barEl.querySelector('button').addEventListener('click', function () {
+        hidden = true; barEl.hidden = true;
+        try { sessionStorage.setItem('gy_promo_bar', '0'); } catch (e) {}
+      });
+      barEl.querySelector('a').addEventListener('click', function () { ev('promo_bar_click', barBox, {}); });
+      document.body.appendChild(barEl);
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (es) { boxInView = es[0].isIntersecting; bar(Date.now()); }).observe(barBox);
+      }
+    }
+    var end = Date.parse(barBox.getAttribute('data-ends')), t = barBox.querySelector('.gy-promo-title strong');
+    if (barBox.classList.contains('is-ended') || now >= end) { barEl.hidden = true; return; }
+    barEl.querySelector('a').textContent = (t ? t.textContent : 'Offer') + ' \u00b7 '
+      + (barBox.getAttribute('data-left-prefix') || '') + left(end - now, false) + ' \u2192';
+    barEl.hidden = boxInView;
+  }
   if (tick()) var timer = setInterval(function () { if (!tick()) clearInterval(timer); }, 1000);
+  else setInterval(tick, 60000);                    /* keep the phone bar's count current */
   for (var k = 0; k < boxes.length; k++) {         /* a tab left open past a deadline */
     var ms = Date.parse(boxes[k].getAttribute('data-ends')) - Date.now();
     if (ms > 0 && ms < 2147483000) setTimeout(tick, ms + 50);

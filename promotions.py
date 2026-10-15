@@ -101,6 +101,7 @@ def render(p: dict) -> str:
     attrs = (f'class="gy-promo" data-promo="{e(p["id"])}" data-ends="{e(p["ends_at"])}"'
              + (f' data-starts="{e(p["starts_at"])}"' if start else "")
              + (' data-countdown="1"' if p.get("countdown") else "")
+             + (f' data-left-prefix="{e(p["countdown_prefix"])} "' if p.get("countdown_prefix") else "")
              + f' data-precision="{e(p.get("precision", "day"))}"')
     when = p.get("end_text") or f"Ends {_fmt_day(end)}"
     when += f" ({e(p.get('timezone_label', ''))})" if p.get("timezone_label") else ""

@@ -59,7 +59,9 @@
     var rows = rank(city, c.budget, c.ps), guide = '../' + city.url;
     var html = '<p class="gf-meta">' + rows.length + ' areas from our guide, <a href="' + esc(guide) + '">'
       + esc('Where to Stay in ' + city.city) + '</a>, updated ' + esc(city.checked)
-      + '. Scores come only from the guide’s own words; they know nothing about prices or rooms on your dates.</p><ol class="gf-list">';
+      + '. Scores come only from the guide’s own words; they know nothing about prices or rooms on your dates.</p>'
+      + '<p class="gf-price">Hotel prices change daily with demand, and on busy dates they tend to climb as rooms fill. '
+      + 'A rate with free cancellation, where the hotel offers one, locks in today’s price while you keep comparing.</p><ol class="gf-list">';
     rows.forEach(function (r, n) {
       var a = r.a;
       html += '<li class="gf-area"><h3><span class="gf-rank">' + (n + 1) + '</span> ' + esc(a.name)
