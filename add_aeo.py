@@ -412,6 +412,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-vancouver": dict(
+        text="For a first trip, stay Downtown or in Coal Harbour: the seawall, Gastown and the Canada Line to the airport on foot. Choose the West End for Stanley Park and English Bay, Yaletown or Granville Island for False Creek. Taxes add about 19.2% to the room rate.",
+        link_text="Coal Harbour",
+        cta=_stay_cta("where-to-stay-in-vancouver", "See hotels around Coal Harbour")),
+    "where-to-stay-in-montreal": dict(
+        text="For a first trip, stay in Old Montreal: Notre-Dame Basilica, Place Jacques-Cartier and the Old Port on foot. Choose downtown for shops and the airport bus, the Plateau for local streets, and Griffintown for the canal. The 3.5% lodging tax, then GST and QST, add about 19%.",
+        link_text="Old Montreal",
+        cta=_stay_cta("where-to-stay-in-montreal", "See hotels around Old Montreal")),
     "where-to-stay-in-zurich": dict(
         text="For a first trip, stay in the Old Town: the Limmat, the Niederdorf and the Bahnhofstrasse on foot. Choose Zürich HB for the trains, Seefeld for the lake, Enge for value and Langstrasse for nightlife. The City Tax is CHF 3.50 per guest per night.",
         link_text="the Old Town",
@@ -1208,6 +1216,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-vancouver": ["Fairmont Pacific Rim", "Blue Horizon Hotel", "The Burrard"],
+    "where-to-stay-in-montreal": ["Hotel Saint-Sulpice", "Hotel William Gray", "M Montreal"],
     "where-to-stay-in-zurich": ["Hotel Adler Zürich", "Sorell Hotel Seefeld", "Storchen Zürich"],
     "where-to-stay-in-reykjavik": ["Sand Hotel", "Hotel Leifur Eiríksson", "Hotel Borg"],
     "where-to-stay-in-copenhagen": ["Ibsens Hotel", "Hotel Sanders", "Generator Copenhagen"],
@@ -1305,6 +1315,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Vancouver", "where-to-stay-in-vancouver", None, None),
+        ("Montreal", "where-to-stay-in-montreal", None, None),
         ("Zurich", "where-to-stay-in-zurich", None, None),
         ("Reykjavik", "where-to-stay-in-reykjavik", None, None),
         ("Copenhagen", "where-to-stay-in-copenhagen", None, None),

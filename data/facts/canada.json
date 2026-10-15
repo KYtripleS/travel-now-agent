@@ -1,0 +1,618 @@
+{
+  "place": "Canada",
+  "facts": [
+    {
+      "id": "ca.quebec.tax-on-lodging",
+      "topic": "tax",
+      "claim": "Quebec's tax on lodging is usually 3.5% of the price of an overnight stay, calculated on the night only (breakfast, parking and other supplies excluded); it is a flat $3.50 per night when a unit is rented to an intermediary such as a tour operator.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.revenuquebec.ca/en/businesses/consumption-taxes/tax-on-lodging/calculating-and-collecting/",
+          "kind": "official",
+          "title": "Revenu Québec: calculating and collecting the tax on lodging"
+        },
+        {
+          "url": "https://www.revenuquebec.ca/en/businesses/consumption-taxes/tax-on-lodging/calculating-and-collecting/billing-the-3-5-tax-on-lodging/",
+          "kind": "official",
+          "title": "Revenu Québec: billing the 3.5% tax on lodging"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "Quebec's tax on lodging adds 3.5% of the price of the night",
+          "the lodging tax is a flat $3.50 a night instead"
+        ]
+      }
+    },
+    {
+      "id": "ca.quebec.gst-qst-on-lodging",
+      "topic": "tax",
+      "claim": "GST (5%) and QST (9.975%) are calculated on the total of the overnight price, the tax on lodging and anything supplied with the room.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.revenuquebec.ca/en/businesses/consumption-taxes/tax-on-lodging/calculating-and-collecting/billing-the-3-5-tax-on-lodging/",
+          "kind": "official",
+          "title": "Revenu Québec: billing the 3.5% tax on lodging"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+          "kind": "official",
+          "title": "Canada Revenue Agency: GST/HST rates by province (Quebec: GST 5%, QST 9.975%)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "the 5% federal GST and the 9.975% Quebec sales tax, the QST, are charged on the room and the lodging tax together"
+        ]
+      }
+    },
+    {
+      "id": "ca.quebec.tax-on-lodging.exemptions",
+      "topic": "tax",
+      "claim": "The tax on lodging does not apply to campsites, units in youth tourist accommodation establishments, rentals of six hours or less or of more than 31 consecutive days, or occasional rentals.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.revenuquebec.ca/en/businesses/consumption-taxes/tax-on-lodging/establishments-subject-to-the-tax-on-lodging/",
+          "kind": "official",
+          "title": "Revenu Québec: establishments subject to the tax on lodging"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "campsites, rooms in youth tourist accommodation establishments, stays of six hours or less and stays of more than 31 consecutive days"
+        ]
+      }
+    },
+    {
+      "id": "ca.montreal.hotel-tax.example",
+      "topic": "price",
+      "claim": "Our arithmetic: a $250 room carries $8.75 lodging tax (3.5%), then GST $12.94 and QST $25.81 on $258.75, for $297.50 a night (about 19% more).",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.revenuquebec.ca/en/businesses/consumption-taxes/tax-on-lodging/calculating-and-collecting/billing-the-3-5-tax-on-lodging/",
+          "kind": "official",
+          "title": "Revenu Québec: billing the 3.5% tax on lodging"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+          "kind": "official",
+          "title": "Canada Revenue Agency: GST/HST rates by province (Quebec: GST 5%, QST 9.975%)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "the lodging tax is $8.75, which makes $258.75",
+          "for a total of $297.50 a night"
+        ]
+      }
+    },
+    {
+      "id": "ca.montreal.stm-747.fare",
+      "topic": "fare",
+      "claim": "The STM 747 airport bus fare is $11.25 per person and gives a 24-hour pass for bus, métro, exo train and REM in Zone A; on board it must be paid in coins with exact change (no paper bills); also sold at door-28 machines (cash, debit, Visa/Mastercard) and in the Chrono app.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown",
+          "kind": "operator",
+          "title": "STM: 747 YUL Montréal-Trudeau Airport bus"
+        },
+        {
+          "url": "https://www.stm.info/en/info/networks/bus/local/line-747-east/60997",
+          "kind": "operator",
+          "title": "STM: 747 timetable, airport stop 60997"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "The 747 fare is $11.25",
+          "you must pay in coins with exact change"
+        ]
+      }
+    },
+    {
+      "id": "ca.montreal.stm-747.route",
+      "topic": "transport",
+      "claim": "The 747 leaves YUL from door 28; route 1 serves Lionel-Groulx métro and René-Lévesque Boulevard to the René-Lévesque/Berri terminus (stop 52905, since 26 Jan 2026); route 2 runs only to Lionel-Groulx; departures generally every 10-20 minutes all day, with overnight departures roughly hourly.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown",
+          "kind": "operator",
+          "title": "STM: 747 YUL Montréal-Trudeau Airport bus"
+        },
+        {
+          "url": "https://www.stm.info/en/info/networks/bus/local/line-747-east/60997",
+          "kind": "operator",
+          "title": "STM: 747 timetable, airport stop 60997"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "leaves from door 28 at Montréal-Trudeau (YUL)",
+          "Departures are generally every 10 to 20 minutes in the day"
+        ]
+      }
+    },
+    {
+      "id": "ca.montreal.rem-airport.status",
+      "topic": "transport",
+      "claim": "The REM's YUL-Aéroport-Montréal-Trudeau station is still under construction by Aéroports de Montréal; dynamic testing on the branch began 8-9 Aug 2026 and commissioning of the branch's two stations is planned by the end of 2027.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://rem.info/en/news/road-commissioning-dynamic-testing-begins-yul-aeroport-montreal-trudeau-branch",
+          "kind": "operator",
+          "title": "REM: dynamic testing begins on the YUL-Aéroport-Montréal-Trudeau branch (12 Aug 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "The REM does not reach the airport yet",
+          "planned to open by the end of 2027"
+        ]
+      }
+    },
+    {
+      "id": "ca.montreal.stm.fares",
+      "topic": "fare",
+      "claim": "STM Zone A fares: 1-trip $3.75 (not valid on the 747), 24-hr $11.25, 3-day $21.75, weekly (Mon-Sun) $33.25; the 24-hr, 3-day and weekly passes are valid on the 747.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.stm.info/en/info/fares/transit-fares/1-trip-all-modes",
+          "kind": "operator",
+          "title": "STM: 1-trip, All modes A"
+        },
+        {
+          "url": "https://www.stm.info/en/info/fares/transit-fares/24-hr-all-modes",
+          "kind": "operator",
+          "title": "STM: 24-hr, All modes A"
+        },
+        {
+          "url": "https://www.stm.info/en/info/fares/transit-fares/3-day-all-modes",
+          "kind": "operator",
+          "title": "STM: 3-day, All modes A"
+        },
+        {
+          "url": "https://www.stm.info/en/info/fares/transit-fares/weekly-all-modes",
+          "kind": "operator",
+          "title": "STM: Weekly, All modes A"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "a single ride is $3.75",
+          "a 3-day pass $21.75"
+        ]
+      }
+    },
+    {
+      "id": "ca.eta",
+      "topic": "place",
+      "claim": "Visa-exempt foreign nationals flying to or transiting through Canada need an eTA: CAN$7, most approved within minutes, valid up to 5 years or until the passport expires; US nationals and US permanent residents need neither a visa nor an eTA.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html",
+          "kind": "official",
+          "title": "Government of Canada: apply for an eTA"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/about.html",
+          "kind": "official",
+          "title": "Government of Canada: eTA, about the process"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
+          "kind": "official",
+          "title": "Government of Canada: entry requirements by country"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "It costs CAN$7 on the Government of Canada's official site",
+          "US nationals and US permanent residents do not need one"
+        ]
+      }
+    },
+    {
+      "id": "ca.montreal.hotel.saint-sulpice",
+      "topic": "hotel",
+      "claim": "Hotel Saint-Sulpice (414 rue Saint-Sulpice) is an all-suite hotel whose lofts start at 500 sq ft with a king bed and kitchenette.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://hotelsaintsulpice.com/en",
+          "kind": "official",
+          "title": "Hotel Saint-Sulpice"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "lofts start at 500 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "ca.montreal.hotel.zero1",
+      "topic": "hotel",
+      "claim": "Hotel Zero1 (1 René-Lévesque Blvd East) has 165 rooms and suites, each with a kitchenette.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.zero1-mtl.com/",
+          "kind": "official",
+          "title": "Hotel ZERO1"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "with 165 rooms and suites that all have a kitchenette"
+        ]
+      }
+    },
+    {
+      "id": "ca.montreal.hotel.maison-grinder",
+      "topic": "hotel",
+      "claim": "Maison Grinder (1730 rue Notre-Dame Ouest) has 15 rooms; its Chambre Salon rooms are 200-265 sq ft, on the lobby floor facing rue Notre-Dame.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://maisongrinder.com/",
+          "kind": "official",
+          "title": "Maison Grinder"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "a 15-room boutique hotel from the Grinder restaurant group",
+          "Chambre Salon rooms are 200 to 265 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "ca.montreal.hotel.auberge-de-la-fontaine",
+      "topic": "hotel",
+      "claim": "Auberge de La Fontaine (1301 rue Rachel Est) has 21 rooms overlooking Parc La Fontaine and no elevator.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.aubergedelafontaine.com/en/about",
+          "kind": "official",
+          "title": "Auberge de La Fontaine: about us"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-montreal.html": [
+          "a 21-room inn overlooking Parc La Fontaine",
+          "there is no lift"
+        ]
+      }
+    },
+    {
+      "id": "ca.bc.vancouver.hotel-tax",
+      "topic": "tax",
+      "claim": "In the City of Vancouver short-term accommodation carries 8% PST, 3% MRDT and a 2.5% Major Events MRDT (1 Feb 2023 to 31 Jan 2030); because the provincial taxes exceed 12%, 5% GST applies to the room price plus those taxes, about 19.2% in all ($200 room = $238.35 in the province's example).",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/accommodation",
+          "kind": "official",
+          "title": "Government of British Columbia: Accommodation (PST and MRDT)"
+        },
+        {
+          "url": "https://www2.gov.bc.ca/assets/gov/taxes/sales-taxes/publications/notice-2023-001-notice-to-vancouver-accommodation-providers.pdf",
+          "kind": "official",
+          "title": "Government of British Columbia: Notice 2023-001, Notice to Vancouver Accommodation Providers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "a 3% municipal and regional district tax and a 2.5% Major Events tax",
+          "a $200 room becomes $238.35",
+          "On a $300 room that is $57.53 a night"
+        ]
+      }
+    },
+    {
+      "id": "ca.bc.vancouver.hotel-tax.fees",
+      "topic": "tax",
+      "claim": "BC's PST, MRDT and Major Events MRDT on Vancouver accommodation are charged on the whole purchase price, including added fees such as resort, cleaning and destination marketing fees.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www2.gov.bc.ca/assets/gov/taxes/sales-taxes/publications/notice-2023-001-notice-to-vancouver-accommodation-providers.pdf",
+          "kind": "official",
+          "title": "Government of British Columbia: Notice 2023-001, Notice to Vancouver Accommodation Providers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "The taxes also apply to any fees the hotel adds"
+        ]
+      }
+    },
+    {
+      "id": "ca.bc.accommodation-tax.27-days",
+      "topic": "tax",
+      "claim": "PST and MRDT do not apply to accommodation once the same guest's continuous stay has exceeded 26 days (27 days or more).",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/accommodation",
+          "kind": "official",
+          "title": "Government of British Columbia: Accommodation (PST and MRDT)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "PST and MRDT stop once the same guest has stayed continuously for more than 26 days"
+        ]
+      }
+    },
+    {
+      "id": "ca.bc.richmond.mrdt",
+      "topic": "tax",
+      "claim": "The City of Richmond levies a 3% MRDT on accommodation, renewed for five years through to 2027; outside the City of Vancouver GST is not charged on PST or MRDT.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.richmond.ca/city-hall/news/city2022/taxboosttourism2022Mar16.htm",
+          "kind": "official",
+          "title": "City of Richmond: Tax renewal boosts local tourism"
+        },
+        {
+          "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/accommodation",
+          "kind": "official",
+          "title": "Government of British Columbia: Accommodation (PST and MRDT)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "Richmond also charges 3%",
+          "the same $300 night costs $348 rather than $357.53"
+        ]
+      }
+    },
+    {
+      "id": "ca.gst.bc-rate",
+      "topic": "tax",
+      "claim": "The GST rate in British Columbia is 5% (BC does not use HST).",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+          "kind": "official",
+          "title": "Canada Revenue Agency: GST/HST rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "Goods and services tax (GST)"
+        ]
+      }
+    },
+    {
+      "id": "ca.translink.canada-line.yvr-time",
+      "topic": "transport",
+      "claim": "The Canada Line connects YVR airport and Waterfront Station in Downtown Vancouver in approximately 25 minutes.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.translink.ca/rider-guide/visiting-vancouver",
+          "kind": "operator",
+          "title": "TransLink: Visiting Vancouver"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "to Waterfront station downtown in about 25 minutes"
+        ]
+      }
+    },
+    {
+      "id": "ca.translink.yvr-addfare",
+      "topic": "fare",
+      "claim": "An additional $6.50 YVR AddFare applies to trips starting at YVR-Airport, Sea Island Centre or Templeton stations (to Bridgeport onward); there is no AddFare for journeys to the airport.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.translink.ca/transit-fares/transferring-and-addfare",
+          "kind": "operator",
+          "title": "TransLink: Transferring and AddFare"
+        },
+        {
+          "url": "https://www.translink.ca/rider-guide/visiting-vancouver",
+          "kind": "operator",
+          "title": "TransLink: Visiting Vancouver"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "add a $6.50 YVR AddFare",
+          "There is no AddFare on the way to the airport"
+        ]
+      }
+    },
+    {
+      "id": "ca.translink.fares-2026",
+      "topic": "fare",
+      "claim": "TransLink adult fares: contactless/cash $3.50 (1 zone), $5.10 (2 zones), $6.70 (3 zones); Compass stored value $2.85/$4.20/$5.40; DayPass $12.55; 1-zone fares on all buses at all times, weekends, holidays and weekdays after 6:30pm.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.translink.ca/transit-fares/pricing-and-fare-zones",
+          "kind": "operator",
+          "title": "TransLink: Pricing and fare zones"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "a two-zone fare of $5.10 plus the $6.50 AddFare, so $11.60",
+          "every trip is one zone, $3.50, so $10",
+          "an adult DayPass for all zones is $12.55"
+        ]
+      }
+    },
+    {
+      "id": "ca.translink.fare-zones",
+      "topic": "transport",
+      "claim": "In TransLink's tariff the City of Vancouver is fare Zone 1 and the City of Richmond (which includes YVR on Sea Island) is Zone 2.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.translink.ca/-/media/translink/documents/about-translink/governance-and-board/bylaws/unofficial-consolidated-tariff-bylaw.pdf",
+          "kind": "operator",
+          "title": "TransLink Transit Tariff, Appendix 1: Fare Zones"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "The airport is in Richmond, fare zone 2, and downtown is in zone 1"
+        ]
+      }
+    },
+    {
+      "id": "ca.translink.compass-tap",
+      "topic": "transport",
+      "claim": "TransLink accepts contactless Amex, Mastercard and Visa cards and mobile wallets at the adult cash fare, tapping in and out at SkyTrain stations; a Compass Card requires a $6 refundable deposit.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.translink.ca/rider-guide/visiting-vancouver",
+          "kind": "operator",
+          "title": "TransLink: Visiting Vancouver"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "A Compass Card costs a $6 refundable deposit"
+        ]
+      }
+    },
+    {
+      "id": "ca.ircc.eta",
+      "topic": "place",
+      "claim": "Visa-exempt foreign nationals need an eTA to fly to or transit through a Canadian airport; it costs CAD $7, most applications are approved within minutes, it is valid up to five years or until the passport expires; U.S. citizens are exempt and arrivals by car, bus, train or boat do not need one.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html",
+          "kind": "official",
+          "title": "Government of Canada: Find out about the eTA"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html",
+          "kind": "official",
+          "title": "Government of Canada: Apply for an eTA"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "It costs CAD $7 and most applications are approved within minutes",
+          "U.S. citizens are exempt"
+        ]
+      }
+    },
+    {
+      "id": "ca.vancouver.unceded-acknowledgement",
+      "topic": "history",
+      "claim": "The City of Vancouver acknowledges that it is on the unceded traditional territories of the Musqueam, Squamish and Tsleil-Waututh Nations.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://vancouver.ca/people-programs/city-of-reconciliation.aspx",
+          "kind": "official",
+          "title": "City of Vancouver: City of Reconciliation"
+        },
+        {
+          "url": "https://council.vancouver.ca/20140624/documents/motionb3.pdf",
+          "kind": "official",
+          "title": "City of Vancouver Council motion: First Nations Unceded Territory Acknowledgement (2014)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "unceded traditional territories of the Musqueam, Squamish and Tsleil-Waututh Nations"
+        ]
+      }
+    },
+    {
+      "id": "ca.vancouver.hotel.fairmont-pacific-rim",
+      "topic": "hotel",
+      "claim": "Fairmont Pacific Rim, 1038 Canada Place, has 367 rooms and suites, a rooftop pool, a fifth-floor spa and the Botanist restaurant and bar.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/pacific-rim-vancouver/",
+          "kind": "official",
+          "title": "Fairmont Pacific Rim"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "with 367 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "ca.vancouver.hotel.sylvia",
+      "topic": "hotel",
+      "claim": "The Sylvia Hotel, 1154 Gilford Street on English Bay, is a designated heritage building from 1912 with 120 rooms and suites.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.sylviahotel.com/",
+          "kind": "official",
+          "title": "Sylvia Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "a designated heritage building from 1912 with 120 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "ca.vancouver.hotel.skwachays",
+      "topic": "hotel",
+      "claim": "Skwachàys Lodge, 31 West Pender Street, opened in 2012, is an Indigenous boutique hotel and social enterprise with 18 rooms and housing and studio space for 24 Indigenous artists; no parking on site.",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://skwachays.com/",
+          "kind": "official",
+          "title": "Skwachàys Lodge"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "with 18 individually designed rooms, opened in 2012"
+        ]
+      }
+    },
+    {
+      "id": "ca.vancouver.hotel.victorian-room-sizes",
+      "topic": "hotel",
+      "claim": "The Victorian Hotel (514 Homer St, 1898 building) lists rooms from 247 sq ft (Legacy King) to 450 sq ft (Rockwell Suite).",
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.victorianhotel.ca/rooms",
+          "kind": "official",
+          "title": "Victorian Hotel: Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vancouver.html": [
+          "from 247 sq ft for a Legacy King to 450 sq ft for the Rockwell Suite"
+        ]
+      }
+    }
+  ]
+}
