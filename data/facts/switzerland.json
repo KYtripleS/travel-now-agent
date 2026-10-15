@@ -1,0 +1,420 @@
+{
+  "place": "Switzerland",
+  "facts": [
+    {
+      "id": "ch.zurich.city-tax",
+      "topic": "tax",
+      "claim": "Zurich's City Tax, collected per overnight stay by hotels and Airbnb hosts for Zürich Tourismus, is CHF 3.50 per guest per night since May 2023, up from CHF 2.50.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2024/11/der-tourismus-bleibt-der-stadt-zuerich-wichtig.html",
+          "kind": "official",
+          "title": "City of Zurich: press release, November 2024 (City Tax)"
+        },
+        {
+          "url": "https://www.zuerich.com/de/business/ueber-zuerich-tourismus/organisation/nachhaltigkeitsberichte/nachhaltigkeitsbericht-2024/finanzen",
+          "kind": "official",
+          "title": "Zürich Tourismus: sustainability report 2024, finances"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "it is a flat CHF 3.50 per guest per night",
+          "CHF 3.50 per guest per night",
+          "CHF 2.50 per guest per night"
+        ]
+      }
+    },
+    {
+      "id": "ch.zurich.city-tax-funding",
+      "topic": "tax",
+      "claim": "Zürich Tourismus is financed 65% by the City Tax; hotels in Zurich and the region collect it, under a voluntary agreement with the Zurich hoteliers' association (2023 report), and Airbnb takes part.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2024/11/der-tourismus-bleibt-der-stadt-zuerich-wichtig.html",
+          "kind": "official",
+          "title": "City of Zurich: press release, November 2024 (City Tax)"
+        },
+        {
+          "url": "https://www.zuerich.com/de/business/ueber-zuerich-tourismus/organisation/nachhaltigkeitsberichte/nachhaltigkeitsbericht-2023/finanzen",
+          "kind": "official",
+          "title": "Zürich Tourismus: sustainability report 2023, finances"
+        },
+        {
+          "url": "https://www.zuerich.com/de/business/ueber-zuerich-tourismus/organisation/nachhaltigkeitsberichte/nachhaltigkeitsbericht-2024/finanzen",
+          "kind": "official",
+          "title": "Zürich Tourismus: sustainability report 2024, finances"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "the City Tax pays for 65% of Zürich Tourismus",
+          "under an agreement with the Zurich hoteliers' association",
+          "Airbnb hosts take part in the same system"
+        ]
+      }
+    },
+    {
+      "id": "ch.vat.accommodation",
+      "topic": "tax",
+      "claim": "Swiss VAT on accommodation (overnight stay with breakfast) is the special rate of 3.8%; the normal rate is 8.1%.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.estv.admin.ch/en/vat-rates-switzerland",
+          "kind": "official",
+          "title": "ESTV: Swiss VAT rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "a special rate of 3.8% against the normal 8.1%",
+          "3.8%, the special rate"
+        ]
+      }
+    },
+    {
+      "id": "ch.zurich.airport-train",
+      "topic": "transport",
+      "claim": "Trains run from Zurich Airport to Zürich HB every 5-10 minutes between 5 am and midnight, taking 10-15 minutes; single CHF 7 (children CHF 3.50), 24-hour pass CHF 14; tram 10 takes about 35 minutes.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center",
+          "kind": "official",
+          "title": "Zürich Tourismus: from Zurich Airport to the city centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "every 5 to 10 minutes between 5 am and midnight and take 10 to 15 minutes",
+          "Line 10 runs from the airport to the main station in about 35 minutes"
+        ]
+      }
+    },
+    {
+      "id": "ch.zvv.fares",
+      "topic": "fare",
+      "claim": "ZVV fares (adult, 2nd class, valid from 15 Dec 2024): 1-2 zones single CHF 4.60 (1 hour), 24h CHF 9.20; 3 zones single CHF 7.00 (1 hour), 24h CHF 14.00.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.zvv.ch/content/dam/markt/tarif-und-fahrausweiskontrolle/verbundtarif/2025/zvv-verbundtarif-651-8-kapitel4.pdf",
+          "kind": "operator",
+          "title": "ZVV tariff 651.8, chapter 4, prices (valid from 15.12.2024)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "a single ticket for zone 110 is CHF 4.60 and valid for an hour",
+          "a 24-hour ticket for the city is CHF 9.20",
+          "A single costs CHF 7, valid for an hour, and a 24-hour pass CHF 14"
+        ]
+      }
+    },
+    {
+      "id": "ch.zvv.zone-110-double",
+      "topic": "transport",
+      "claim": "ZVV zones 110 (City of Zurich) and 120 (Winterthur) count double; Zurich Airport is zone 121, so airport-city trips are three zones.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.zvv.ch/de/service/kundendienst/haeufige-fragen.html",
+          "kind": "operator",
+          "title": "ZVV: frequently asked questions"
+        },
+        {
+          "url": "https://www.zuerich.com/en/zurich-card-city-guide-app/zurich-card/questions-and-answers-about-the-zc",
+          "kind": "official",
+          "title": "Zürich Tourismus: Zürich Card questions and answers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "the airport is zone 121, and the city of Zurich, zone 110, counts double"
+        ]
+      }
+    },
+    {
+      "id": "ch.zurich.zurich-card",
+      "topic": "price",
+      "claim": "Zürich Card: CHF 29 for 24 hours and CHF 56 for 72 hours (children CHF 19/37); includes public transport in zones 110, 111, 121, 140, 150, 154, 155 incl. airport-HB, free entry to many museums, short lake and Limmat cruises; new prices from 13 December 2026; self-financing, not subsidised by the city.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.zuerich.com/en/zurich-card-city-guide-app/zurich-card",
+          "kind": "official",
+          "title": "Zürich Tourismus: Zürich Card"
+        },
+        {
+          "url": "https://www.zuerich.com/en/zurich-card-city-guide-app/zurich-card/questions-and-answers-about-the-zc",
+          "kind": "official",
+          "title": "Zürich Tourismus: Zürich Card questions and answers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "costs CHF 29 for 24 hours and CHF 56 for 72 hours",
+          "New prices apply from 13 December 2026",
+          "the Zürich Card is a separate, paid product of Zürich Tourismus"
+        ]
+      }
+    },
+    {
+      "id": "ch.zurich.districts",
+      "topic": "place",
+      "claim": "Zürich Tourismus describes District 1 (Old Town, both banks of the Limmat), District 2 (left shore: Enge station of Ticino granite, Museum Rietberg, Seebad Enge, Rote Fabrik), District 4 (Langstrasse, long regarded as a den of iniquity, now restaurants and nightlife), District 5 (Zürich-West around the Prime Tower, Viadukt, Freitag Tower) and District 8 (from behind the Opera House to Seebad Tiefenbrunnen; Chinawiese, Seebad Utoquai).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.zuerich.com/en/inform-plan/useful-information-and-services/facts-figures/the-12-districts-of-zurich",
+          "kind": "official",
+          "title": "Zürich Tourismus: the 12 districts of Zurich"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "District 1 is the Old Town on both banks of the Limmat",
+          "Enge station, built of Ticino granite",
+          "District 8 starts behind the Opera House"
+        ]
+      }
+    },
+    {
+      "id": "ch.zurich.hb-busiest",
+      "topic": "place",
+      "claim": "Zürich HB is the busiest and largest train station in Switzerland.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location",
+          "kind": "official",
+          "title": "Zürich Tourismus: getting there and mobility"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "Zürich HB is the largest and busiest station in Switzerland"
+        ]
+      }
+    },
+    {
+      "id": "hotel.zurich.storchen",
+      "topic": "hotel",
+      "claim": "Storchen Zürich: Weinplatz 2, first mention of the house 1357, 64 rooms and suites, Limmat terrace open May-October; Old Town View Double 18 m², River View Double 18-25 m².",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://storchen.ch/en/our-hotel/",
+          "kind": "operator",
+          "title": "Storchen Zürich: our hotel"
+        },
+        {
+          "url": "https://storchen.ch/en/rooms-suites/",
+          "kind": "operator",
+          "title": "Storchen Zürich: rooms and suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "in a house first mentioned in 1357, with 64 rooms and suites",
+          "the Old Town View Double is 18 m²"
+        ]
+      }
+    },
+    {
+      "id": "hotel.zurich.adler",
+      "topic": "hotel",
+      "claim": "Hotel Adler Zürich: 3-star superior at Rosengasse 10, all rooms air-conditioned; Small Double 18 m² with 140 cm bed; Standard Double 21 m² king bed; 7 minutes' walk from the main station.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://hotel-adler.ch/en/",
+          "kind": "operator",
+          "title": "Hotel Adler Zürich"
+        },
+        {
+          "url": "https://hotel-adler.ch/en/rooms-suites/small-double-room/",
+          "kind": "operator",
+          "title": "Hotel Adler: Small Double Room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "the Small Double is 18 m² with a 140 cm bed"
+        ]
+      }
+    },
+    {
+      "id": "hotel.zurich.schweizerhof",
+      "topic": "hotel",
+      "claim": "Hotel Schweizerhof Zürich: 5-star, Bahnhofplatz 7 opposite the main station, since 1877, 92 rooms and suites, triple-glazed windows, standard doubles 20-25 m², complimentary City Ticket for direct bookings.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hotelschweizerhof.com/en/",
+          "kind": "operator",
+          "title": "Hotel Schweizerhof Zürich"
+        },
+        {
+          "url": "https://www.hotelschweizerhof.com/en/rooms-and-suites/standard-double-rooms",
+          "kind": "operator",
+          "title": "Hotel Schweizerhof: standard double rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "open since 1877, with 92 rooms and suites",
+          "Booking direct includes a complimentary City Ticket for public transport"
+        ]
+      }
+    },
+    {
+      "id": "hotel.zurich.montana",
+      "topic": "hotel",
+      "claim": "Hotel Montana Zürich: Konradstrasse 39, 300 m / 3 minutes' walk from the main station, 74 rooms; Comfort Double Queen 18 m², 140 x 200 cm bed; Deluxe 22-26 m².",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://hotelmontana-zurich.com/en/",
+          "kind": "operator",
+          "title": "Hotel Montana Zürich"
+        },
+        {
+          "url": "https://hotelmontana-zurich.com/zimmer/",
+          "kind": "operator",
+          "title": "Hotel Montana: rooms (in German)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "300 metres behind the main station",
+          "the Comfort Double Queen is 18 m² with a bed of 140 by 200 cm"
+        ]
+      }
+    },
+    {
+      "id": "hotel.zurich.lareserve",
+      "topic": "hotel",
+      "claim": "La Réserve Eden au Lac Zurich: Utoquai 45, redesigned by Philippe Starck, 40 rooms and suites, rooftop bar; Lake View Rooms with king bed, mostly south-facing; entry category Standard Courtyard Room.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.lareserve-zurich.com/",
+          "kind": "operator",
+          "title": "La Réserve Eden au Lac Zurich"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "now with 40 rooms and suites",
+          "the entry category is the Standard Courtyard Room"
+        ]
+      }
+    },
+    {
+      "id": "hotel.zurich.sorell-seefeld",
+      "topic": "hotel",
+      "claim": "Sorell Hotel Seefeld: Seefeldstrasse 63, 65 rooms; Standard Single min. 14 m², Grand Standard Double min. 24 m².",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.sorellhotels.com/en/hotels/seefeld/rooms",
+          "kind": "operator",
+          "title": "Sorell Hotel Seefeld: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "the Standard Single is at least 14 m²"
+        ]
+      }
+    },
+    {
+      "id": "hotel.zurich.b2",
+      "topic": "hotel",
+      "claim": "B2 Boutique Hotel Zürich: 4-star in the former Hürlimann brewery, 60 rooms and suites, library of 33,000 books, Giesshübel stop 3 minutes by train from the main station and 300 m away; Boutique Double 24-28 m² with open-plan bathroom; Hürlimannbad is a separate public spa.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.b2hotel.ch/en/",
+          "kind": "operator",
+          "title": "B2 Hotel"
+        },
+        {
+          "url": "https://www.b2hotel.ch/en/service/faq/",
+          "kind": "operator",
+          "title": "B2 Hotel: FAQ"
+        },
+        {
+          "url": "https://www.b2hotel.ch/en/b2sleep/rooms-suites/",
+          "kind": "operator",
+          "title": "B2 Hotel: rooms and suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "a library of 33,000 books where breakfast is served",
+          "the Boutique Double, 24 to 28 m², has an open-plan bathroom"
+        ]
+      }
+    },
+    {
+      "id": "hotel.zurich.youth-hostel",
+      "topic": "hotel",
+      "claim": "Zurich Youth Hostel: Mutschellenstrasse 114, open all year, 76 rooms and 280 beds, restaurant, bar, 24-hour reception; tram 7 to Morgental.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.youthhostel.ch/en/hostels/zurich-youth-hostel",
+          "kind": "operator",
+          "title": "Swiss Youth Hostels: Zurich Youth Hostel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "with 76 rooms and 280 beds"
+        ]
+      }
+    },
+    {
+      "id": "hotel.zurich.greulich",
+      "topic": "hotel",
+      "claim": "Greulich Design & Boutique Hotel: 18 rooms (10 Design Rooms with 160 cm bed, 8 Design Double Rooms on two levels with 180 cm bed); extra bed CHF 60 a night.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://greulich.ch/en/rooms",
+          "kind": "operator",
+          "title": "Greulich: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "an extra bed in a Design Double costs CHF 60 a night"
+        ]
+      }
+    },
+    {
+      "id": "hotel.zurich.25hours-west",
+      "topic": "hotel",
+      "claim": "25hours Hotel Zürich West: designed by Alfredo Häberli, 123 rooms and suites, heated 25 m outdoor pool open daily in summer and closed in the colder months; tram 17 to Fischerweg.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://25hours-hotels.com/zurich/zurich-west/",
+          "kind": "operator",
+          "title": "25hours Hotel Zürich West"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zurich.html": [
+          "a heated 25-metre outdoor pool, open daily in summer",
+          "the pool closes in the colder months"
+        ]
+      }
+    }
+  ]
+}

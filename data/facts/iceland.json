@@ -1,0 +1,352 @@
+{
+  "place": "Iceland",
+  "facts": [
+    {
+      "id": "is.accommodation-tax",
+      "topic": "tax",
+      "claim": "Iceland's accommodation tax (gistináttaskattur) is 800 ISK per sold accommodation unit (a let of up to one day and night) at hotels, guesthouses and other lodgings with category II–IV operating licences, and 400 ISK at campsites and pitches for campervans, caravans and similar.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.skatturinn.is/atvinnurekstur/skattar-og-gjold/gistinattaskattur/",
+          "kind": "official",
+          "title": "Skatturinn: Gistináttaskattur"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "800 ISK for every room, apartment or separately rented bed, every night",
+          "800 ISK per room, apartment or separately let bed, per night",
+          "400 ISK per unit, per night"
+        ]
+      }
+    },
+    {
+      "id": "is.accommodation-tax.unit",
+      "topic": "tax",
+      "claim": "Skatturinn's rules: a hotel room is one accommodation unit, each apartment a hotel lets is one unit, and where each bed or sleeping-bag place is let separately each counts as one unit.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.skatturinn.is/atvinnurekstur/skattar-og-gjold/gistinattaskattur/",
+          "kind": "official",
+          "title": "Skatturinn: Gistináttaskattur"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "a hotel room is one unit, each apartment a hotel lets is one unit",
+          "each bed is one unit",
+          "a dorm bed pays it too"
+        ]
+      }
+    },
+    {
+      "id": "is.vat.accommodation-11",
+      "topic": "tax",
+      "claim": "Hotel and guest-room rental in Iceland is always subject to VAT at the 11% rate regardless of length of stay, and the accommodation tax does not form part of the VAT taxable amount.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://island.is/en/manuals/guidelines-on-vat-in-tourism/1-sale-of-accomodation-services",
+          "kind": "official",
+          "title": "Ísland.is: Guidelines on VAT in tourism, 1. Sale of accommodation services"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "11% VAT on the room itself",
+          "hotel and guest-room rental is always charged at the 11% rate",
+          "the accommodation tax is not part of the amount VAT is charged on"
+        ]
+      }
+    },
+    {
+      "id": "is.kef.distance",
+      "topic": "place",
+      "claim": "Keflavík Airport is about 50 km (31 miles) from Reykjavík (Visit Reykjavík; Flybus gives roughly 50 km too).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://visitreykjavik.is/kef-reykjavik",
+          "kind": "official",
+          "title": "Visit Reykjavík (City of Reykjavík): KEF to Reykjavík"
+        },
+        {
+          "url": "https://flybus.is/about-flybus/",
+          "kind": "operator",
+          "title": "Flybus: About Flybus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "Keflavík Airport is about 50 km from Reykjavík",
+          "the 50 km from Keflavík Airport"
+        ]
+      }
+    },
+    {
+      "id": "is.flybus.fares",
+      "topic": "fare",
+      "claim": "Flybus Keflavík–BSÍ: adult 3,999 ISK, youth 6–15 1,999 ISK, children 1–5 free; Flybus to hotel adult 5,299 ISK, youth 2,649 ISK; return bookings and groups of four or more get an automatic discount.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://flybus.is/plan-your-trip/prices/",
+          "kind": "operator",
+          "title": "Flybus: Price list"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "One way costs 3,999 ISK for adults and 1,999 ISK for ages 6 to 15",
+          "at 5,299 ISK for adults and 2,649 ISK for ages 6 to 15",
+          "Flybus discounts return bookings and groups of four or more automatically"
+        ]
+      }
+    },
+    {
+      "id": "is.flybus.service",
+      "topic": "transport",
+      "claim": "Flybus takes about 45 minutes Keflavík–BSÍ; departures from the airport are timed to every arriving flight and a ticket stays valid for the next coach if a flight is late; from BSÍ, departures every 30–60 minutes between 04:00 and 22:30.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://flybus.is/about-flybus/",
+          "kind": "operator",
+          "title": "Flybus: About Flybus"
+        },
+        {
+          "url": "https://flybus.is/faq/",
+          "kind": "operator",
+          "title": "Flybus: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "takes about 45 minutes",
+          "Departures from the airport are timed to every arriving flight",
+          "coaches leave BSÍ every 30 to 60 minutes between 04:00 and 22:30"
+        ]
+      }
+    },
+    {
+      "id": "is.airport-direct.redirect",
+      "topic": "transport",
+      "claim": "airportdirect.is returns a 301 redirect to flybus.is (checked 14 October 2026); Flybus is operated by Icelandia.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://airportdirect.is/",
+          "kind": "operator",
+          "title": "Airport Direct (redirects to flybus.is)"
+        },
+        {
+          "url": "https://flybus.is/about-flybus/",
+          "kind": "operator",
+          "title": "Flybus: About Flybus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "The Airport Direct website now forwards to Flybus's own site"
+        ]
+      }
+    },
+    {
+      "id": "is.straeto.55.fares",
+      "topic": "fare",
+      "claim": "Strætó route 55 KEF–capital area: adults 1,800 ISK to Fjörður (Hafnarfjörður) or 2,400 ISK to Garðabær and Reykjavík; ages 12–17, 67+ and disability 900/1,200 ISK; children 11 and under free; pay by debit/credit card, cash or countryside bus card.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.straeto.is/en/route-planner/bus-kefairport/",
+          "kind": "operator",
+          "title": "Strætó: Bus to/from KEF-Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "An adult pays 2,400 ISK to Reykjavík or 1,800 ISK to Fjörður in Hafnarfjörður",
+          "Pay on board by debit or credit card or in cash"
+        ]
+      }
+    },
+    {
+      "id": "is.straeto.55.stop",
+      "topic": "transport",
+      "claim": "From 1 October 2026 route 55 drives directly to the KEF terminal, with a new KEF Arrivals stop (Bus B pick-up area); twelve daily departures, timetable unchanged; trips run to BSÍ and/or Fjörður.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.straeto.is/en/user-information/news/improved-access-and-facilities-for-regional-buses-at-keflavik-airport",
+          "kind": "operator",
+          "title": "Strætó: Improved access and facilities for regional buses at Keflavík Airport (30 Sep 2026)"
+        },
+        {
+          "url": "https://www.straeto.is/en/route-planner/bus-kefairport/",
+          "kind": "operator",
+          "title": "Strætó: Bus to/from KEF-Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "with twelve daily departures",
+          "Since 1 October 2026 the bus stops at the terminal itself",
+          "Not every trip runs to BSÍ"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.taxi",
+      "topic": "price",
+      "claim": "Isavia (June 2024) gave a typical taxi fare from KEF to the capital area of about 20,000 ISK for a standard car; Visit Reykjavík lists Hreyfill (meters, optional fixed price) and Hopp (app).",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://kefairport.com/news/various-routes-to-and-from-kef-airport",
+          "kind": "operator",
+          "title": "Isavia, KEF Airport: Various routes to and from KEF Airport (27 Jun 2024)"
+        },
+        {
+          "url": "https://visitreykjavik.is/kef-reykjavik",
+          "kind": "official",
+          "title": "Visit Reykjavík (City of Reykjavík): KEF to Reykjavík"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "put a typical fare to the capital area at about 20,000 ISK for a standard car in 2024"
+        ]
+      }
+    },
+    {
+      "id": "is.straeto.city-fares",
+      "topic": "fare",
+      "claim": "Strætó capital-area single fare 2026: adult 690 ISK (also by contactless), ages 12–17 and 67+ 345 ISK, children 11 and under free; fare capping means an adult never pays more than 3 rides a day or 9 a week.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.straeto.is/en/store/pricing/",
+          "kind": "operator",
+          "title": "Strætó: Pricing, capital area"
+        },
+        {
+          "url": "https://www.straeto.is/en/user-information/news/changes-in-price-list-at-straeto-5",
+          "kind": "operator",
+          "title": "Strætó: Changes in price list (from 6 January 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "a Strætó city bus ride costs 690 ISK for an adult and 345 ISK for ages 12 to 17 and over-67s",
+          "never pays for more than three rides a day or nine a week"
+        ]
+      }
+    },
+    {
+      "id": "is.klappid.app",
+      "topic": "transport",
+      "claim": "Klappið is Strætó's ticketing system; tickets can be bought in the Klappið app and scanned on board, or paid by contactless Visa/Mastercard on the bus.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://klappid.is/en",
+          "kind": "operator",
+          "title": "Klappið: Strætó ticketing system"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "buy tickets in the Klappið app"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.hotel-borg",
+      "topic": "hotel",
+      "claim": "Hotel Borg (Keahotels), Pósthússtræti 11, completed 1930, 'Iceland's first luxury hotel', Art Deco interiors, 99 rooms, Borg Spa with access included with every direct booking.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.keahotels.is/hotel-borg",
+          "kind": "official",
+          "title": "Keahotels: Hotel Borg"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "Completed in 1930",
+          "99 rooms from singles to the Tower Suite",
+          "the hotel promises spa access with every direct booking"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.leifur-no-lift",
+      "topic": "hotel",
+      "claim": "Hotel Leifur Eiríksson, Skólavörðustígur 45: family-run since 1999, 47 rooms, and 'we don't have an elevator'.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.hotelleifur.is/",
+          "kind": "official",
+          "title": "Hotel Leifur Eiríksson"
+        },
+        {
+          "url": "https://www.hotelleifur.is/perks-and-spaces",
+          "kind": "official",
+          "title": "Hotel Leifur Eiríksson: Perks and spaces"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "run by the same family since 1999, with 47 rooms",
+          "there is no lift"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.fosshotel",
+      "topic": "hotel",
+      "claim": "Fosshotel Reykjavík is Iceland's largest hotel, with 320 rooms over 16 floors in Reykjavík's business district.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.islandshotel.is/hotels-in-iceland/fosshotel-reykjavik/",
+          "kind": "official",
+          "title": "Íslandshótel: Fosshotel Reykjavík"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "Iceland's largest hotel, with 320 rooms over 16 floors"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.kex-breakfast",
+      "topic": "price",
+      "claim": "KEX Hostel (Skúlagata 28): breakfast buffet 2,700 ISK, 7:00–10:00; bar open until 23:00; hostel doubles/twins and family rooms share hallway bathrooms.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.kexrvk.is/services-amenities",
+          "kind": "official",
+          "title": "KEX: Services & amenities"
+        },
+        {
+          "url": "https://www.kexrvk.is/hostel",
+          "kind": "official",
+          "title": "KEX: Hostel rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik.html": [
+          "a breakfast buffet at 2,700 ISK",
+          "the hostel doubles and family rooms share hallway bathrooms"
+        ]
+      }
+    }
+  ]
+}

@@ -412,6 +412,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-zurich": dict(
+        text="For a first trip, stay in the Old Town: the Limmat, the Niederdorf and the Bahnhofstrasse on foot. Choose Zürich HB for the trains, Seefeld for the lake, Enge for value and Langstrasse for nightlife. The City Tax is CHF 3.50 per guest per night.",
+        link_text="the Old Town",
+        cta=_stay_cta("where-to-stay-in-zurich", "See hotels around the Old Town")),
+    "where-to-stay-in-reykjavik": dict(
+        text="For a first trip, stay downtown around Laugavegur: the shopping street, Austurvöllur and the pond are all on foot. Choose Hallgrímskirkja's hill for quieter streets, the Old Harbour for Harpa. Iceland's accommodation tax is 800 ISK a room a night; the 11% VAT is in the price.",
+        link_text="Laugavegur",
+        cta=_stay_cta("where-to-stay-in-reykjavik", "See hotels around Laugavegur")),
     "where-to-stay-in-copenhagen": dict(
         text="For a first trip, stay in Indre By: Strøget, Kongens Nytorv and Nyhavn on foot, and the M2 metro to the airport. Choose Christianshavn for canals, Vesterbro for Kødbyen's nightlife, and Nørrebro or Østerbro for local streets by the Lakes. There is no tourist tax; the 25% VAT is already in the price.",
         link_text="Indre By",
@@ -1200,6 +1208,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-zurich": ["Hotel Adler Zürich", "Sorell Hotel Seefeld", "Storchen Zürich"],
+    "where-to-stay-in-reykjavik": ["Sand Hotel", "Hotel Leifur Eiríksson", "Hotel Borg"],
     "where-to-stay-in-copenhagen": ["Ibsens Hotel", "Hotel Sanders", "Generator Copenhagen"],
     "where-to-stay-in-stockholm": ["Victory Hotel", "Lord Nelson Hotel", "Grand Hôtel Stockholm"],
     "where-to-stay-in-dublin": ["The Morgan Hotel", "Temple Bar Inn", "The Shelbourne"],
@@ -1295,6 +1305,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Zurich", "where-to-stay-in-zurich", None, None),
+        ("Reykjavik", "where-to-stay-in-reykjavik", None, None),
         ("Copenhagen", "where-to-stay-in-copenhagen", None, None),
         ("Stockholm", "where-to-stay-in-stockholm", None, None),
         ("Dublin", "where-to-stay-in-dublin", None, None),

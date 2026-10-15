@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-zurich.html": (
+        "Where to Stay in Zurich",
+        "Five areas, 12 hotels, the flat CHF 3.50 City Tax, 3.8% VAT and the CHF 7 train from the airport.",
+    ),
+    "articles/where-to-stay-in-reykjavik.html": (
+        "Where to Stay in Reykjavik",
+        "Five areas, 12 hotels and Iceland's flat 800 ISK a night room tax, plus Flybus and bus 55 from Keflavík.",
+    ),
     "articles/where-to-stay-in-copenhagen.html": (
         "Where to Stay in Copenhagen",
         "Five areas, 12 hotels, no tourist tax (25% VAT is in the price), and the DKK 30 metro ride from the airport.",
@@ -1949,6 +1957,20 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-zurich.html": [
+        "articles/where-to-stay-in-vienna.html",
+        "articles/where-to-stay-in-berlin.html",
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-amsterdam.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-reykjavik.html": [
+        "articles/where-to-stay-in-copenhagen.html",
+        "articles/where-to-stay-in-stockholm.html",
+        "articles/where-to-stay-in-london.html",
+        "articles/where-to-stay-in-edinburgh.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-in-copenhagen.html": [
         "articles/where-to-stay-in-stockholm.html",
