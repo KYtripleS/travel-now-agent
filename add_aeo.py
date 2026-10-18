@@ -419,6 +419,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-budapest": dict(
+        text="For a first trip, stay in Belváros-Lipótváros: central Pest on foot, with Deák Ferenc tér where the 100E airport bus ends. Choose the Jewish Quarter for nightlife, Terézváros for Andrássy Avenue and Castle Hill for the river view. The tourist tax is 4% of the room price.",
+        link_text="Belváros-Lipótváros",
+        cta=_stay_cta("where-to-stay-in-budapest", "See hotels around Belváros-Lipótváros")),
+    "where-to-stay-in-istanbul": dict(
+        text="For a first trip, stay in Sultanahmet: the Blue Mosque and Hagia Sophia are steps away. Choose Karaköy and Galata for the tower, Beyoğlu for İstiklal Avenue and Kadıköy for the Asian side. The accommodation tax is 1% until 31 December 2026, plus VAT.",
+        link_text="Sultanahmet",
+        cta=_stay_cta("where-to-stay-in-istanbul", "See hotels around Sultanahmet")),
     "where-to-stay-in-ho-chi-minh-city": dict(
         text="For a first trip, stay in Dong Khoi: the Opera House, Nguyen Hue and the river on foot, with Line 1's Opera House station nearby. Choose Ben Thanh for the market and metro, District 3 for quiet, Thao Dien for the river. Rates are often quoted \"++\": add service charge and tax.",
         link_text="Dong Khoi",
@@ -1235,6 +1243,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-budapest": ["Gerlóczy Boutique Hotel", "Four Seasons Hotel Gresham Palace Budapest", "Hotel Moments Budapest"],
+    "where-to-stay-in-istanbul": ["Four Seasons Hotel Istanbul at Sultanahmet", "Sirkeci Mansion", "Cheers Hostel"],
     "where-to-stay-in-ho-chi-minh-city": ["Caravelle Saigon", "Silverland Ben Thanh Hotel", "Liberty Central Saigon Citypoint"],
     "where-to-stay-in-hanoi": ["La Siesta Classic Ma May", "Sofitel Legend Metropole Hanoi", "Hanoi Backpackers Hostel & Rooftop Bar"],
     "where-to-stay-in-vancouver": ["Fairmont Pacific Rim", "Blue Horizon Hotel", "The Burrard"],
@@ -1336,6 +1346,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Budapest", "where-to-stay-in-budapest", None, None),
+        ("Istanbul", "where-to-stay-in-istanbul", None, None),
         ("Ho Chi Minh City", "where-to-stay-in-ho-chi-minh-city", None, None),
         ("Hanoi", "where-to-stay-in-hanoi", None, None),
         ("Vancouver", "where-to-stay-in-vancouver", None, None),

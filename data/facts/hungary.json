@@ -1,0 +1,627 @@
+{
+  "place": "Hungary",
+  "facts": [
+    {
+      "id": "hu.budapest.tourist-tax.rate",
+      "topic": "tax",
+      "claim": "Budapest's tourist tax (idegenforgalmi adó) is set by each district; Districts I, V, VI, VII and VIII each charge 4% of the room price per guest night, collected by the hotel.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.belvaros-lipotvaros.hu/egovernment_affairs/details/182",
+          "kind": "official",
+          "title": "District V Belváros-Lipótváros: idegenforgalmi adó"
+        },
+        {
+          "url": "https://net.jogtar.hu/rendelet?council=lipotvaros&dbnum=565&docid=A1000038.05R",
+          "kind": "official",
+          "title": "District V decree 38/2010 (XII. 1.), section 5"
+        },
+        {
+          "url": "https://net.jogtar.hu/rendelet?council=erzsebetvaros&docid=A1000032.07R",
+          "kind": "official",
+          "title": "District VII decree 32/2010 (XII. 31.), section 5"
+        },
+        {
+          "url": "https://terezvaros.hu/uploads/images/Honlapra%20jav%C3%ADtott%20IFA%20T%C3%81J%C3%89KOZTAT%C3%93%202020.05.08.pdf",
+          "kind": "official",
+          "title": "District VI notice for hotel operators on the tourist tax (2020)"
+        },
+        {
+          "url": "https://jozsefvaros.hu/ugyintezes/ugy/idegenforgalmi-ado/",
+          "kind": "official",
+          "title": "District VIII Józsefváros: idegenforgalmi adó"
+        },
+        {
+          "url": "https://budavar.hu/adozasi-ugyek/",
+          "kind": "official",
+          "title": "District I Budavár: adózási ügyek, idegenforgalmi adó"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "districts sets its own tourist tax",
+          "it is 4% of the room price per guest night",
+          "In Budapest the districts, not the city, set it"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.tourist-tax.base",
+      "topic": "tax",
+      "claim": "District V's and VII's decrees define the tourist-tax base as the price of the guest night less VAT, without compulsory breakfast and other services (District VI's notice says the same); the district websites for I and V describe it as the gross room price.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://net.jogtar.hu/rendelet?council=lipotvaros&dbnum=565&docid=A1000038.05R",
+          "kind": "official",
+          "title": "District V decree 38/2010, section 4"
+        },
+        {
+          "url": "https://net.jogtar.hu/rendelet?council=erzsebetvaros&docid=A1000032.07R",
+          "kind": "official",
+          "title": "District VII decree 32/2010, section 4"
+        },
+        {
+          "url": "https://www.belvaros-lipotvaros.hu/egovernment_affairs/details/182",
+          "kind": "official",
+          "title": "District V: idegenforgalmi adó (says bruttó szállásdíj)"
+        },
+        {
+          "url": "https://budavar.hu/adozasi-ugyek/",
+          "kind": "official",
+          "title": "District I: idegenforgalmi adó (says bruttó szállásdíj)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "define it as the room price less VAT, without compulsory breakfast and other services",
+          "The difference is the VAT, so ask the hotel which it uses"
+        ]
+      }
+    },
+    {
+      "id": "hu.tourist-tax.exemption-under-18",
+      "topic": "tax",
+      "claim": "Under Act C of 1990 on local taxes, section 31, people under 18 are exempt from the tourist tax; the act lists other exempt groups, including inpatients and people staying for study or for work at a business based in the municipality.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://net.jogtar.hu/jogszabaly?docid=99000100.tv",
+          "kind": "official",
+          "title": "Act C of 1990 on local taxes (Htv.), sections 30-34"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "Under-18s are exempt under the national local taxes act",
+          "such as inpatients and people staying for study or for work at a business based in the district"
+        ]
+      }
+    },
+    {
+      "id": "hu.tourist-tax.ceiling",
+      "topic": "tax",
+      "claim": "Under Act C of 1990, section 33, a municipality's tourist tax is capped at 4% of the base where it uses a percentage (the act's alternative is a fixed per-person, per-night amount, with a base figure of 300 HUF).",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://net.jogtar.hu/jogszabaly?docid=99000100.tv",
+          "kind": "official",
+          "title": "Act C of 1990 on local taxes (Htv.), section 33"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "with a ceiling of 4% of the room price where it uses a percentage"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.tourist-tax.example",
+      "topic": "tax",
+      "claim": "Our arithmetic: two adults sharing one room at 60,000 HUF a night before VAT and without breakfast, four nights: base 240,000 HUF, tax at 4% is 9,600 HUF (2,400 HUF a night).",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.belvaros-lipotvaros.hu/egovernment_affairs/details/182",
+          "kind": "official",
+          "title": "District V: 4% rate"
+        },
+        {
+          "url": "https://net.jogtar.hu/rendelet?council=lipotvaros&dbnum=565&docid=A1000038.05R",
+          "kind": "official",
+          "title": "District V decree 38/2010"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "The base is 240,000 forints and the tax at 4% is 9,600 forints, or 2,400 a night, on top of the room",
+          "a night priced at 60,000 forints before VAT adds 2,400 forints of tax"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.margaret-island.tax-included",
+      "topic": "tax",
+      "claim": "Grand Margaret Island Ensana Health Spa Hotel's FAQ states its prices include VAT and the local city tax, and its site quotes room prices per person per night (from EUR 113 for a Deluxe Double). Margaret Island is, per Wikipedia, directly under city control rather than a district; we found no published island rate.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://ensanahotels.com/en/hotels/grand-margaret-island/faq",
+          "kind": "official",
+          "title": "Ensana Grand Margaret Island: FAQ (local taxes)"
+        },
+        {
+          "url": "https://ensanahotels.com/en/hotels/grand-margaret-island",
+          "kind": "official",
+          "title": "Ensana Grand Margaret Island"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "says on its own FAQ that its published prices already include VAT and the local city tax",
+          "Ensana quotes its rates from €113 per person per night"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.100e.route-frequency",
+      "topic": "transport",
+      "claim": "Bus 100E runs around the clock between Liszt Ferenc Airport and Deák Ferenc tér (drop-offs Kálvin tér, Astoria, Deák Ferenc tér): every 5-10 minutes by day, 10-15 in the morning and evening, 20-40 at night on average, per the airport.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.bud.hu/en/parking-transport/transportation/public-transportation/public-transportation-by-bus",
+          "kind": "official",
+          "title": "Budapest Airport: public transportation by bus (100E, 200E)"
+        },
+        {
+          "url": "https://bkk.hu/en/visiting-budapest/247-connection-between-the-airport-and-the-city-centre/",
+          "kind": "operator",
+          "title": "BKK: 24/7 connection between the airport and the city centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "It runs around the clock: every 5 to 10 minutes by day, every 10 to 15 minutes in the morning and evening, and every 20 to 40 minutes on average at night, according to the airport",
+          "with drop-offs at Kálvin tér, Astoria and Deák Ferenc tér"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.100e.frequency-2026-04",
+      "topic": "transport",
+      "claim": "From 1 April 2026 BKK runs the 100E every 5-6 minutes in the morning and afternoon on Monday, Friday and Sunday, and every 6 minutes on Tuesday, Wednesday, Thursday and Saturday.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://bkk.hu/hirek/2026/03/aprilis-1-jetol-surubben-indul-a-100e-repuloteri-expressz.16278/",
+          "kind": "operator",
+          "title": "BKK: Április 1-jétől sűrűbben indul a 100E Repülőtéri Expressz (31 March 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "Since 1 April 2026 BKK, the city's transport authority, has run it every 5 to 6 minutes in the morning and afternoon on the airport's busiest days, Monday, Friday and Sunday, and every 6 minutes on Tuesday, Wednesday, Thursday and Saturday"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.100e.fare",
+      "topic": "fare",
+      "claim": "The 100E needs the airport shuttle bus single ticket, 2,500 HUF (up from 2,200 HUF on 1 Oct 2025); holders of a Budapest pass (not the 15-day pass), Pest County Pass or Hungary Pass can buy a 1,000 HUF add-on ticket; payable by bank card on board (Pay&GO) or in the BudapestGO app.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://bkk.hu/en/tickets-and-passes/prices/airport-shuttle-bus-single-ticket/",
+          "kind": "operator",
+          "title": "BKK: airport shuttle bus single ticket"
+        },
+        {
+          "url": "https://bkk.hu/en/news/2025/09/from-october-2025-pass-holders-can-enjoy-discounted-fares-on-the-100e-airport-express.15356/",
+          "kind": "operator",
+          "title": "BKK: from October 2025, pass holders can enjoy discounted fares on the 100E"
+        },
+        {
+          "url": "https://bkk.hu/en/visiting-budapest/247-connection-between-the-airport-and-the-city-centre/",
+          "kind": "operator",
+          "title": "BKK: 24/7 connection between the airport and the city centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "2,500 forints without a pass, up from 2,200 on 1 October 2025",
+          "can buy a 1,000-forint add-on instead",
+          "You can pay with a bank card on the bus, with Pay&GO, or in the BudapestGO app"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.200e-m3",
+      "topic": "transport",
+      "claim": "Bus 200E runs day and night between Terminal 2 and Kőbánya-Kispest metro station (transfer to metro M3); regular BKK tickets and passes are required and the airport shuttle ticket is not accepted.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.bud.hu/en/parking-transport/transportation/public-transportation/public-transportation-by-bus",
+          "kind": "official",
+          "title": "Budapest Airport: 200E"
+        },
+        {
+          "url": "https://bkk.hu/en/visiting-budapest/247-connection-between-the-airport-and-the-city-centre/",
+          "kind": "operator",
+          "title": "BKK: 24/7 connection between the airport and the city centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "The 200E runs day and night from Terminal 2 to Kőbánya-Kispest, where you change to metro line M3",
+          "The 100E ticket is not accepted on it"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.single-ticket",
+      "topic": "fare",
+      "claim": "BKK single ticket 500 HUF (700 HUF bought on the spot); valid for one ride on one vehicle, transfers only between metro lines; not valid on the 100E. Price from 1 June 2025.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://bkk.hu/en/tickets-and-passes/prices/",
+          "kind": "operator",
+          "title": "BKK: types and prices"
+        },
+        {
+          "url": "https://bkk.hu/en/tickets-and-passes/prices/single-ticket/",
+          "kind": "operator",
+          "title": "BKK: single ticket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "BKK's single ticket, 500 forints, covers one ride on one vehicle and allows changes only between metro lines",
+          "a single ticket costs 500 forints, or 700 if bought on the spot"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.90-minute-ticket",
+      "topic": "fare",
+      "claim": "BKK 90-minute ticket 850 HUF, phone-only, unlimited transfers within 90 minutes (valid on the 200E and metro; not the 100E).",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://bkk.hu/en/tickets-and-passes/prices/",
+          "kind": "operator",
+          "title": "BKK: types and prices"
+        },
+        {
+          "url": "https://bkk.hu/en/tickets-and-passes/prices/90-minute-ticket/",
+          "kind": "operator",
+          "title": "BKK: 90-minute ticket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "one 90-minute ticket, 850 forints, sold on a phone only"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.travelcards",
+      "topic": "fare",
+      "claim": "BKK 24-hour Budapest travelcard 2,750 HUF; 72-hour 5,750 HUF.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://bkk.hu/en/tickets-and-passes/prices/",
+          "kind": "operator",
+          "title": "BKK: types and prices"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "a 24-hour travelcard is 2,750 forints and a 72-hour card is 5,750"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.airport-taxi",
+      "topic": "fare",
+      "claim": "The airport's taxi operator is Főtaxi, booked at the stands at Terminals 2A and 2B; Hungarian regulation sets the airport-transfer fare at a base of 2,100 HUF plus 520 HUF/km and 130 HUF/minute, with a fare calculation from the destination address before the trip.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.bud.hu/en/parking-transport/transportation/taxi-uber/taxi",
+          "kind": "official",
+          "title": "Budapest Airport: taxi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "The airport's contracted operator is Főtaxi, booked at the stands at Terminals 2A and 2B",
+          "a base of 2,100 forints plus 520 forints a kilometre and 130 forints a minute"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.deak-ferenc-ter-hub",
+      "topic": "place",
+      "claim": "BKK describes Deák Ferenc tér as one of Budapest's major transport hubs, the city-centre end of the 100E.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://bkk.hu/en/visiting-budapest/247-connection-between-the-airport-and-the-city-centre/",
+          "kind": "operator",
+          "title": "BKK: 24/7 connection between the airport and the city centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "which BKK calls one of the city's major transport hubs and where the 100E ends"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.four-seasons-gresham",
+      "topic": "hotel",
+      "claim": "Four Seasons Hotel Gresham Palace Budapest: Art Nouveau palace on the Danube; Danube river-view rooms, spa and lobby bar MÚZSA; calls itself the only Forbes Five-Star hotel in Hungary; offers include 15% off for two or more nights.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/budapest/",
+          "kind": "official",
+          "title": "Four Seasons Hotel Gresham Palace Budapest"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "An Art Nouveau palace on the Danube, with Danube river-view rooms, a spa and a lobby bar, MÚZSA",
+          "the hotel calls itself the only Forbes Five-Star hotel in Hungary",
+          "lists offers such as 15% off for two or more nights"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.gerloczy",
+      "topic": "hotel",
+      "claim": "Gerlóczy Boutique Hotel: Gerlóczy utca 1, building from 1882, same address as the Parisian-style Gerlóczy Kávéház (breakfast from 7:30, open 7:30-23:00 daily); hotel says main sights are a short walk away.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://gerloczy.hu/gerloczy-boutique-hotel",
+          "kind": "official",
+          "title": "Gerlóczy Boutique Hotel"
+        },
+        {
+          "url": "https://gerloczy.hu/",
+          "kind": "official",
+          "title": "Gerlóczy Café & Restaurant"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "A boutique hotel on Gerlóczy utca in a building from 1882",
+          "which serves breakfast from 7:30 every day",
+          "the café and restaurant at the address are open every day until 23:00"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.anantara-new-york-palace",
+      "topic": "hotel",
+      "claim": "Anantara New York Palace Budapest: Belle Époque building on Erzsébet krt 9; 185 suites and guestrooms; rooms 30-50 sqm; Anantara Spa and indoor pool; New York Café; short walk from the Madách Theatre and the State Opera House.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.anantara.com/en/new-york-palace-budapest",
+          "kind": "official",
+          "title": "Anantara New York Palace Budapest"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "A Belle Époque building on Erzsébet körút with 185 suites and guestrooms of 30 to 50 sq m, a spa with an indoor pool, and the New York Café inside"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.continental",
+      "topic": "hotel",
+      "claim": "Continental Hotel Budapest: 4-star superior on Dohány Street near the Dohány Street Synagogue and Blaha Lujza tér; 270 rooms with Art Deco features; Standard room 18-20 sqm; rooftop wellness, indoor and seasonal outdoor pools.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://continentalhotelbudapest.com/en",
+          "kind": "official",
+          "title": "Continental Hotel Budapest"
+        },
+        {
+          "url": "https://continentalhotelbudapest.com/en/rooms",
+          "kind": "official",
+          "title": "Continental Hotel Budapest: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "with 270 rooms with Art Deco features, rooftop wellness and indoor and seasonal outdoor pools",
+          "the Standard rooms measure 18 to 20 sq m"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.moments",
+      "topic": "hotel",
+      "claim": "Hotel Moments Budapest: four-star at Andrássy út 8, 99 rooms in three categories, few steps from the State Opera House and St Stephen's Basilica; 24-hour free coffee, tea and mineral water in the lounge bar; sauna and fitness room; Superior rooms 21-26 sqm, street view.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://hotelmomentsbudapest.hu/",
+          "kind": "official",
+          "title": "Hotel Moments Budapest"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "A four-star hotel at Andrássy út 8 with 99 rooms in three categories",
+          "the Superior rooms measure 21 to 26 sq m and face the street"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.wombats",
+      "topic": "hotel",
+      "claim": "Wombat's City Hostel Budapest: building from 1840 on Király utca, former 4-star hotel turned hostel; each room has its own bathroom and air conditioning; WomBAR and WomCAFÉ, free in-house events; Király utca billed as 'the alley of party'; minimum age varies by season and city.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.wombats-hostels.com/budapest/",
+          "kind": "official",
+          "title": "Wombat's City Hostel Budapest"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "In a building from 1840 on Király utca, a former four-star hotel turned hostel",
+          "where each room has its own bathroom and air conditioning",
+          "the minimum age depends on the season"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.carlton",
+      "topic": "hotel",
+      "claim": "Carlton Hotel Buda Castle: 4-star on a quiet historic street at the foot of Castle Hill, a few steps from the Chain Bridge; breakfast 07-11; lift access; Economy Single 14 sqm and Economy Double 17 sqm.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://carltonhotel.hu/en/",
+          "kind": "official",
+          "title": "Carlton Hotel Buda Castle"
+        },
+        {
+          "url": "https://carltonhotel.hu/en/szobaink/",
+          "kind": "official",
+          "title": "Carlton Hotel Buda Castle: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "a few steps from the Chain Bridge, with breakfast from 7 to 11 and lift access",
+          "the Economy rooms are 14 sq m for a single and 17 sq m for a double"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.victoria",
+      "topic": "hotel",
+      "claim": "Boutique Hotel Victoria: 4-star at Bem rakpart 11 directly on the Danube on the Buda side; 27 Superior rooms of 22-28 sqm facing the Danube; Budget rooms 18 sqm in a separate building, stairway access only, no Danube view.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.victoria.hu/",
+          "kind": "official",
+          "title": "Boutique Hotel Victoria"
+        },
+        {
+          "url": "https://www.victoria.hu/rooms-and-services",
+          "kind": "official",
+          "title": "Boutique Hotel Victoria: rooms and services"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "with 27 Superior rooms of 22 to 28 sq m facing the Danube",
+          "the cheaper Budget rooms, 18 sq m, are in a separate building, reached by stairs only, and have no Danube view"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.castle-garden",
+      "topic": "hotel",
+      "claim": "Hotel Castle Garden: 4-star boutique hotel at Lovas út 41 at the entrance of the Castle District; Széll Kálmán tér a few minutes' walk away; Riso Ristorante & Terrace; Basic rooms are in the basement (-1st floor) overlooking the garden.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://hotelcastlegarden.com/en/home/",
+          "kind": "official",
+          "title": "Hotel Castle Garden"
+        },
+        {
+          "url": "https://hotelcastlegarden.com/en/budget-room/",
+          "kind": "official",
+          "title": "Hotel Castle Garden: Basic room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "on Lovas út at the entrance of the Castle District",
+          "the Basic rooms are in the basement, overlooking the garden"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.nemzeti",
+      "topic": "hotel",
+      "claim": "Nemzeti Hotel Budapest (MGallery): 4-star at József krt. 4, near the M2 metro station and a 24-hour tram; 19th-century building; Classic room with 1 double bed 15 sqm.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/1686/index.en.shtml",
+          "kind": "official",
+          "title": "Nemzeti Hotel Budapest - MGallery Collection (Accor)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "A four-star hotel in the MGallery collection at József körút 4, in a 19th-century building near the M2 metro station and the 24-hour tram",
+          "the Classic room with a double bed is 15 sq m"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.brody-house",
+      "topic": "hotel",
+      "claim": "Brody House: heritage building with 8 unique rooms decorated with art, double bed, en-suite bathroom and air conditioning; bistro with courtyard garden; email the hotel if no availability.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.brody.house/accommodation",
+          "kind": "official",
+          "title": "Brody House: accommodation"
+        },
+        {
+          "url": "https://www.brody.house/",
+          "kind": "official",
+          "title": "Brody House"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "A heritage building on Bródy Sándor utca with eight rooms",
+          "the hotel asks you to email if you see no availability"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.hotel.grand-margaret-island",
+      "topic": "hotel",
+      "claim": "Grand Margaret Island Ensana Health Spa Hotel: turn-of-the-century hotel, 164 rooms, views of the Danube and old trees, covered walkway to the medical spa at Ensana Thermal Margaret Island; Deluxe Double 20 sqm; prices per person per night from EUR 113.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://ensanahotels.com/en/hotels/grand-margaret-island",
+          "kind": "official",
+          "title": "Ensana Grand Margaret Island"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest.html": [
+          "A turn-of-the-century hotel with 164 rooms",
+          "the Deluxe Double is 20 sq m, the hotel's rates are quoted per person per night"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "place": "Türkiye",
+  "facts": [
+    {
+      "id": "tr.accommodation-tax-rate",
+      "topic": "tax",
+      "claim": "Türkiye's accommodation tax (konaklama vergisi) is set at 1% until 31 December 2026 inclusive by Presidential Decision 11263, published in Official Gazette no. 33240 on 1 May 2026; GİB's guide describes it as a cut from 2% valid 1 May-31 December 2026.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.resmigazete.gov.tr/eskiler/2026/05/20260501-6.pdf",
+          "kind": "official",
+          "title": "Official Gazette 1 May 2026, Presidential Decision 11263"
+        },
+        {
+          "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU%2FUNIVERSAL%2F2026%2FCK11263_not.pdf",
+          "kind": "official",
+          "title": "GİB explanatory note on Decision 11263"
+        },
+        {
+          "url": "https://www.alomaliye.com/wp-content/uploads/2026/06/konaklama-vergisi-rehberi-2026.pdf",
+          "kind": "official",
+          "title": "GİB Accommodation Tax Guide, June 2026 (copy hosted by Alomaliye)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "sets the accommodation tax at 1% until 31 December 2026, inclusive",
+          "describes this as a cut from 2%",
+          "which was halved from 2% to 1% for stays from 1 May to 31 December 2026"
+        ]
+      }
+    },
+    {
+      "id": "tr.accommodation-tax-base",
+      "topic": "tax",
+      "claim": "The tax base is the price of the taxable services excluding VAT, it covers other services sold with the room (food and drink, pool use), and the tax must be shown separately on the invoice.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.alomaliye.com/wp-content/uploads/2026/06/konaklama-vergisi-rehberi-2026.pdf",
+          "kind": "official",
+          "title": "GİB Accommodation Tax Guide, June 2026 (copy hosted by Alomaliye)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "The tax is worked out on the price before VAT",
+          "such as meals and the use of a pool",
+          "The hotel must show it separately on the invoice"
+        ]
+      }
+    },
+    {
+      "id": "tr.vat-accommodation-example",
+      "topic": "tax",
+      "claim": "In the GİB guide's invoice examples a hotel stay carries 10% VAT charged on the price before the accommodation tax (example: 80,000 TL + 800 TL tax + 8,000 TL VAT = 88,800 TL). This is an example in the guide, not a statement of the statutory rate.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.alomaliye.com/wp-content/uploads/2026/06/konaklama-vergisi-rehberi-2026.pdf",
+          "kind": "official",
+          "title": "GİB Accommodation Tax Guide, June 2026 (examples 11-13)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "10% in the Revenue Administration's own hotel invoice examples",
+          "pays 100 lira in accommodation tax (1%) and 1,000 lira in VAT (10%), 11,100 lira in all"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.m11-route",
+      "topic": "transport",
+      "claim": "The M11 metro runs between Gayrettepe and Istanbul Airport (Gayrettepe link opened 29 January 2024; extended to Halkalı on 20 June 2026); Gayrettepe is also a station on the M2 line, whose stations include Taksim, Şişhane, Haliç and Vezneciler-İstanbul Ü.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.istairport.com/en/airport/airport-transportation/urban-transportation/public-transportation",
+          "kind": "official",
+          "title": "Istanbul Airport: Public Transportation (Metro)"
+        },
+        {
+          "url": "https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M2",
+          "kind": "operator",
+          "title": "Metro Istanbul: M2 line"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "the M11 line runs to Gayrettepe, where it meets the M2 line",
+          "The M2 serves Taksim, Şişhane, Haliç and Vezneciler"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.metro-fare",
+      "topic": "fare",
+      "claim": "Metro Istanbul's published tariff page lists, on 18 Oct 2026, a full fare of 46.20 TL (anonymous Istanbulkart) and a single-journey electronic ticket (bir geçişlik) at 65 TL; it does not list fares per line.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.metro.istanbul/SeferDurumlari/BiletUcretleri",
+          "kind": "operator",
+          "title": "Metro Istanbul: Ücret Tarifeleri"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "a full fare of 46.20 lira on an anonymous Istanbulkart and 65 lira for a single-journey electronic ticket",
+          "it does not break fares down by line"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.havaist-fares",
+      "topic": "fare",
+      "claim": "Havaist's booking page showed, on 18 Oct 2026, 470 TL from Istanbul Airport to Taksim and to Beşiktaş Meydan and 515 TL to Kadıköy, for one passenger.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.hava.ist/",
+          "kind": "operator",
+          "title": "Havaist: official site, fare calculator"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "the fare to Taksim or Beşiktaş is 470 lira and to Kadıköy 515 lira",
+          "the Havaist coach from Istanbul Airport costs 515 lira"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.havaist-sultanahmet",
+      "topic": "fare",
+      "claim": "Havaist's Sultanahmet line costs 8 euros and runs Çatladıkapı (Sultanahmet) - Eminönü Pier - Şişhane 6 - Türabi Baba Park - Hasköy Park - Miniatürk - Istanbul Airport (Havaist blog, 20 July 2026).",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://blog.hava.ist/havaist-sultanahmet-line-updated-route-stops-istanbul-airport-transfer-guide-2026/",
+          "kind": "operator",
+          "title": "Havaist: Sultanahmet line, updated route and fare"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "The Sultanahmet line costs 8 euros and stops at Çatladıkapı (Sultanahmet), the Eminönü pier and Şişhane",
+          "Havaist's Sultanahmet line from the airport stops at the Eminönü pier"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.m4-saw",
+      "topic": "transport",
+      "claim": "The M4 metro runs Kadıköy-Sabiha Gökçen Airport: 33.5 km, 23 stations, entirely underground; the airport section opened on 2 October 2022.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M4",
+          "kind": "operator",
+          "title": "Metro Istanbul: M4 line"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "the M4 line is 33.5 km and 23 stations long, entirely underground, and runs to Kadıköy",
+          "The M4 metro runs from Kadıköy to Sabiha Gökçen Airport"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.havabus-taksim",
+      "topic": "fare",
+      "claim": "Havabus Taksim-Sabiha Gökçen costs 485 TL and takes about 1.5 hours depending on traffic (Taksim stop at the Gezi Park metro exit); Sabiha Gökçen Airport's own page confirms Havabus serves Kadıköy and Taksim.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.havabus.com/yolcuservisi/taksim-sabihagokcenhavalimani.aspx",
+          "kind": "operator",
+          "title": "Havabus: Taksim - Sabiha Gökçen Airport"
+        },
+        {
+          "url": "https://www.sabihagokcen.aero/yolcu-ve-ziyaretciler/ulasim-ve-otopark/ulasim/havabus",
+          "kind": "official",
+          "title": "Sabiha Gökçen Airport: Havabus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "the coach to Taksim costs 485 lira and takes about 1.5 hours, depending on traffic",
+          "Havabus also serves Kadıköy"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.hotel-distances",
+      "topic": "hotel",
+      "claim": "Sirkeci Mansion's site puts Istanbul Airport 54 km away, about an hour's drive; Witt Istanbul's site says about 45 minutes by taxi from the airport, longer at rush hour.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.sirkecimansion.com/about-us",
+          "kind": "operator",
+          "title": "Sirkeci Mansion: About us"
+        },
+        {
+          "url": "https://www.wittistanbul.com/location/",
+          "kind": "operator",
+          "title": "Witt Istanbul Hotel: Location"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "Sirkeci Mansion puts Istanbul Airport at 54 km, about an hour's drive",
+          "Witt Istanbul Hotel at about 45 minutes by taxi, longer at rush hour"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.four-seasons",
+      "topic": "hotel",
+      "claim": "Four Seasons Hotel Istanbul at Sultanahmet describes a neoclassical residence with a courtyard, steps from the Blue Mosque and Hagia Sophia, with rooms viewing courtyard, garden or streets.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/istanbul/",
+          "kind": "operator",
+          "title": "Four Seasons Hotel Istanbul at Sultanahmet"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "A neoclassical residence with a courtyard, steps from the Blue Mosque and Hagia Sophia",
+          "the hotel describes the views as the courtyard, the garden or the streets"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.cheers",
+      "topic": "hotel",
+      "claim": "Cheers Hostel: one minute from Hagia Sophia and the Blue Mosque; dorms of 6, 8 or 10 beds; private rooms; reservation pending until an approval email is received.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.cheershostel.com/",
+          "kind": "operator",
+          "title": "Cheers Hostel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "dorms of 6, 8 or 10 beds",
+          "the site says a reservation is pending until the hostel sends an approval email"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.legacy-ottoman",
+      "topic": "hotel",
+      "claim": "Legacy Ottoman Hotel: building designed in 1911 for offices, used as barracks by the French Allied forces 1920-1923; room types Guest, Superior, Deluxe City View, Deluxe Bosphorus; Galata Tower 10 minutes away.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.legacyottomanhotel.com/",
+          "kind": "operator",
+          "title": "Legacy Ottoman Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "A building put up in 1911 as offices, used as barracks by the French Allied forces from 1920 to 1923",
+          "The hotel says Galata Tower is 10 minutes away"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.georges",
+      "topic": "hotel",
+      "claim": "Georges Hotel Galata: building from 1882, a few metres from Galata Tower; butler service; rooftop restaurant Le Fumoir; Deluxe Double rooms 22-25 m2.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.georges.com/",
+          "kind": "operator",
+          "title": "Georges Hotel Galata"
+        },
+        {
+          "url": "https://www.georges.com/roomsandsuites/",
+          "kind": "operator",
+          "title": "Georges Hotel Galata: Rooms & Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "a building from 1882, a few metres from Galata Tower",
+          "the Deluxe Double rooms are 22 to 25 m²"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.galata-antique",
+      "topic": "hotel",
+      "claim": "Galata Antique Hotel: 19th-century Neo-Renaissance mansion by Alexandre Vallaury in Tünel, 22 rooms, roof-terrace breakfast; not suitable for disabled guests due to the stairway entrance.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.galataantiquehotel.com/en/hotel.html",
+          "kind": "operator",
+          "title": "Galata Antique Hotel: The Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "A 19th-century Neo-Renaissance mansion by the architect Alexandre Vallaury in the Tünel quarter",
+          "not suitable for disabled guests because of the stairway entrance"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.pera-palace",
+      "topic": "hotel",
+      "claim": "Pera Palace Hotel: built from 1892, opened 1895 for Orient Express passengers; architect Alexander Vallaury; first modern hotel in Istanbul with electricity and first with an electric lift; Agatha Christie Room; Room 101 a museum to Atatürk.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://perapalace.com/en/about-us",
+          "kind": "operator",
+          "title": "Pera Palace Hotel: About us"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "built to host Orient Express passengers and open since 1895",
+          "it keeps the Agatha Christie Room and, as a museum, Atatürk's Room 101"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.witt",
+      "topic": "hotel",
+      "claim": "Witt Istanbul Hotel (Defterdar Yokuşu 26, Cihangir): former Ogilvy & Mather headquarters reshaped into a boutique hotel in spring 2008; Autoban furniture; steep hill; Taksim Square, İstiklal and Istanbul Modern within walking distance.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.wittistanbul.com/about/",
+          "kind": "operator",
+          "title": "Witt Istanbul Hotel: About"
+        },
+        {
+          "url": "https://www.wittistanbul.com/location/",
+          "kind": "operator",
+          "title": "Witt Istanbul Hotel: Location"
+        },
+        {
+          "url": "https://www.wittistanbul.com/contact/",
+          "kind": "operator",
+          "title": "Witt Istanbul Hotel: Contact"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "in a former advertising-agency headquarters turned boutique hotel in 2008",
+          "the hotel says it sits on a steep hill"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.ciragan",
+      "topic": "hotel",
+      "claim": "Çırağan Palace Kempinski Istanbul describes itself as the only Ottoman imperial palace and luxury 5-star hotel on the Bosphorus, with 317 rooms, an outdoor infinity pool and Sanitas spa.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.kempinski.com/en/ciragan-palace",
+          "kind": "operator",
+          "title": "Çırağan Palace Kempinski Istanbul"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "with 317 rooms, an outdoor infinity pool, the Sanitas spa"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.stay-nisantasi",
+      "topic": "hotel",
+      "claim": "The Stay Nişantaşı sits on Abdi İpekçi Street above the Prada flagship store, with free access to NuSpa a 3-minute walk away; the group lists The Stay Boulevard Nişantaşı as a separate hotel.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://nisantasi.thestay.com.tr/en",
+          "kind": "operator",
+          "title": "The Stay Nişantaşı"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "above the Prada flagship store",
+          "the same group runs a separate The Stay Boulevard Nişantaşı"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.kuzen",
+      "topic": "hotel",
+      "claim": "Kuzen Otel (Caferağa, Dumlupınar Sokak 11, Kadıköy): opened 2016, 12 rooms and 20 beds; air conditioning, desk and minibar in all rooms; Kuzen Beer Cafe live music (extra charge) and meyhane; no pets.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.kuzenotel.com.tr/hakkimizda",
+          "kind": "operator",
+          "title": "Kuzen Otel: Hakkımızda"
+        },
+        {
+          "url": "https://www.kuzenotel.com.tr/hizmetlerimiz",
+          "kind": "operator",
+          "title": "Kuzen Otel: Hizmetlerimiz"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "A small hotel opened in 2016, with 12 rooms and 20 beds",
+          "a beer café with live music in the evenings, at extra cost"
+        ]
+      }
+    },
+    {
+      "id": "tr.istanbul.istanbul-life",
+      "topic": "hotel",
+      "claim": "Istanbul Life Hotel (Rıhtım Caddesi, Reşit Efendi Sokak 11, Kadıköy): orthopaedic mattresses, non-smoking rooms; says ferry piers, metro and bus stops are within fifty steps; rooms page showed no room details on 18 Oct 2026.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://istanbullifehotel.com/",
+          "kind": "operator",
+          "title": "Istanbul Life Hotel"
+        },
+        {
+          "url": "https://istanbullifehotel.com/page/rooms",
+          "kind": "operator",
+          "title": "Istanbul Life Hotel: Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "The hotel says the ferry piers, the metro and the bus stops are within fifty steps",
+          "the hotel's rooms page gave no room details"
+        ]
+      }
+    },
+    {
+      "id": "tr.evisa",
+      "topic": "transport",
+      "claim": "Türkiye's official e-Visa site is evisa.gov.tr.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.evisa.gov.tr/en/",
+          "kind": "official",
+          "title": "Türkiye e-Visa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-istanbul.html": [
+          "check the official"
+        ]
+      }
+    }
+  ]
+}
