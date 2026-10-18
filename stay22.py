@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-seville": dict(area="Santa Cruz", lat=37.3862, lng=-5.9899, zoom=15,
+                                        address="Plaza de Santa Cruz, Seville, Spain"),
     "where-to-stay-in-los-angeles": dict(area="Santa Monica", lat=34.0092, lng=-118.4973, zoom=15,
                                             address="Santa Monica Pier, Santa Monica, CA, USA"),
     "where-to-stay-in-athens": dict(area="Plaka", lat=37.9728, lng=23.7312, zoom=15,
@@ -776,6 +778,19 @@ HOTELS = {
     "Hotel Figueroa": _B + "us/figueroa.html",
     "The Hoxton, Downtown LA": _B + "us/the-hoxton-downtown-los-angeles.html",
     "Hampton Inn & Suites LAX-El Segundo": _B + "us/hampton-inn-suites-lax-el-segundo-ca.html",
+    # Seville (Booking.com pages confirmed by hotel name and city)
+    "EME Catedral Mercer": _B + "es/eme-fusion.html",
+    "Hotel Casa 1800 Sevilla": _B + "es/casa-1800.html",
+    "Hotel Murillo": _B + "es/murillo.html",
+    "Hotel Inglaterra": _B + "es/inglaterra-sevilla.html",
+    "Hotel Bécquer": _B + "es/hotelbecquer.html",
+    "Hotel Simón": _B + "es/simon.html",
+    "Triana House": _B + "es/triana-house.html",
+    "Albergue Triana": _B + "es/albergue-triana-backpackers.html",
+    "Hotel Patio de la Alameda": _B + "es/patio-de-la-alameda.html",
+    "The Corner House": _B + "es/the-corner-house-sevilla.html",
+    "Catalonia Santa Justa": _B + "es/cataloniaemperador.html",
+    "ibis Styles Sevilla City Santa Justa": _B + "es/ibis-styles-sevilla-santa-justa.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

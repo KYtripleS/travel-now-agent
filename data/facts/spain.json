@@ -806,6 +806,608 @@
           "a five-storey building that was once a car park and petrol station"
         ]
       }
+    },
+    {
+      "id": "es.seville.no-tourist-tax",
+      "topic": "tax",
+      "claim": "No tourist tax is in force in Seville or elsewhere in Andalusia in October 2026: the Junta de Andalucía's list of the region's own taxes (ecological taxes, the customer-deposit tax, the single-use plastic bag tax and the improvement levy) includes none on tourist stays, and no decree or bulletin creating one was found.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/impuestos-propios.html",
+          "kind": "official",
+          "title": "Junta de Andalucía: impuestos propios (own taxes of Andalusia)"
+        },
+        {
+          "url": "https://www.eldiario.es/sevilla/alcalde-sevilla-pp-llamara-puerta-vox-junta-reclamarle-tasa-turistica-ciudad-necesita_1_13429113.html",
+          "kind": "news",
+          "title": "elDiario.es: Seville's mayor will ask the Junta for a tourist tax (5 August 2026)"
+        },
+        {
+          "url": "https://www.elespanol.com/sevilla/20260918/alcalde-sevilla-reune-nuevo-consejero-turismo-pedir-tasa-turistica/1003744388454_0.html",
+          "kind": "news",
+          "title": "El Español: the mayor meets the new tourism councillor (18 September 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "No tourist tax is in force in Seville or anywhere in Andalusia as we write",
+          "none of them is a tax on tourist stays",
+          "We found no decree or official bulletin that creates one"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.tourist-tax-proposal",
+      "topic": "tax",
+      "claim": "On 5 August 2026 Seville's mayor, José Luis Sanz, said he would ask the Junta's tourism councillor, Manuel Gavira, for a tourist tax or similar extra funding; the press reported on 18 September 2026 that he raised it again at a meeting; the Junta maintains its refusal and business groups oppose the tax. It is a proposal, not law.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.eldiario.es/sevilla/alcalde-sevilla-pp-llamara-puerta-vox-junta-reclamarle-tasa-turistica-ciudad-necesita_1_13429113.html",
+          "kind": "news",
+          "title": "elDiario.es: Seville's mayor will ask the Junta for a tourist tax (5 August 2026)"
+        },
+        {
+          "url": "https://www.elespanol.com/sevilla/20260918/alcalde-sevilla-reune-nuevo-consejero-turismo-pedir-tasa-turistica/1003744388454_0.html",
+          "kind": "news",
+          "title": "El Español: the mayor meets the new tourism councillor (18 September 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "On 5 August 2026 the mayor, José Luis Sanz, said he would ask the Junta's tourism councillor, Manuel Gavira",
+          "maintains its refusal, and business groups oppose the tax",
+          "A proposal is not a law"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.vat-10",
+      "topic": "tax",
+      "claim": "Spain applies its reduced 10% VAT rate to hospitality services including hotels; the standard rate is 21%.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/educacion-civico-tributaria/programa-educacion-civico-tributaria/que-impuestos/contenidos/impuesto-sobre-valor-anadido/exenciones-tipos.html",
+          "kind": "official",
+          "title": "Agencia Tributaria: IVA, exenciones y tipos"
+        },
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2025/capitulo-04-sujetos-pasivos-repercusion-impositivo/tipo-impositivo/tipo-impositivo-reducido-10-ciento.html",
+          "kind": "official",
+          "title": "Agencia Tributaria: Manual práctico de IVA, tipo impositivo reducido del 10 por ciento"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "10%, Spain's reduced rate for hospitality services",
+          "Spain's standard VAT rate, for comparison"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: a double at €120 before VAT for three nights = 3 × €120 × 1.10 = €396; a €120 room costs €132 with 10% VAT.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2025/capitulo-04-sujetos-pasivos-repercusion-impositivo/tipo-impositivo/tipo-impositivo-reducido-10-ciento.html",
+          "kind": "official",
+          "title": "Agencia Tributaria: Manual práctico de IVA, tipo impositivo reducido del 10 por ciento"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "costs 3 × €120 × 1.10 = €396",
+          "a €120 room costs €132"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.ea-bus-fares",
+      "topic": "fare",
+      "claim": "TUSSAM's airport line EA costs €6 single and €8 return; tickets are bought on board, from the sales clerk at the airport stop or by bank card on the bus (Aena's bus page, which lists the same fares as TUSSAM).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.aena.es/en/sevilla/getting-there/bus.html",
+          "kind": "official",
+          "title": "Aena: Seville airport by bus (line EA, TUSSAM)"
+        },
+        {
+          "url": "https://www.tussam.es/en/descubre-sevilla/how-get-here",
+          "kind": "operator",
+          "title": "TUSSAM: How to get here (read through a search tool; the site blocks direct fetches)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "A single ticket is €6 and a return €8",
+          "bought on board, from the sales clerk at the airport stop or by bank card on the bus"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.ea-bus-hours",
+      "topic": "transport",
+      "claim": "Aena's page for line EA lists the schedule 'To Sevilla from 4:30 to 00:05' and 'To the Airport from 5:22 to 1:00'; because the direction labels look uncertain the article gives first buses 04:30 and 05:22 and last buses 00:05 and 01:00 'depending on direction'.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.aena.es/en/sevilla/getting-there/bus.html",
+          "kind": "official",
+          "title": "Aena: Seville airport by bus (line EA, TUSSAM)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "Aena lists first buses at 04:30 and 05:22 and last buses at 00:05 and 01:00, depending on direction"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.ea-bus-route",
+      "topic": "transport",
+      "claim": "TUSSAM's visitor page lists line EA among the lines serving Santa Justa station, the Prado de San Sebastián and Plaza de Armas, and gives departures roughly every 12 to 20 minutes from 04:30 to 01:00.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.tussam.es/en/descubre-sevilla/how-get-here",
+          "kind": "operator",
+          "title": "TUSSAM: How to get here (read through a search tool; the site blocks direct fetches)"
+        },
+        {
+          "url": "https://all.accor.com/hotel/B7H3/index.en.shtml",
+          "kind": "official",
+          "title": "ibis Styles Sevilla City Santa Justa: '2 min from the EA bus to the airport'"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "with stops that include Santa Justa station, the Prado de San Sebastián and Plaza de Armas",
+          "TUSSAM's visitor page gives a bus roughly every 12 to 20 minutes"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.taxi-airport-fixed-fare",
+      "topic": "fare",
+      "claim": "Seville airport taxi fixed fares: tariff 4 €26 (Monday to Friday working days 07:00-21:00); tariff 5 €29 (weekdays 00:00-07:00 and 21:00-24:00, Saturdays, Sundays and public holidays, 24 and 31 December, Holy Week 07:00-21:00, Feria de Abril 07:00-20:00); €0.57 for each bag over 10 kg, up to four. Source is Aena's page; the Instituto del Taxi page on sevilla.org was unreachable.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.aena.es/en/sevilla/getting-there/taxi.html",
+          "kind": "official",
+          "title": "Aena: Seville airport by taxi (fixed fares)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "Tariff 4 is €26, Monday to Friday from 07:00 to 21:00",
+          "tariff 5 is €29, at night, on weekends and public holidays, on 24 and 31 December, in Holy Week and during the April Fair",
+          "Each bag over 10 kg adds €0.57, up to four"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.santa-justa-station",
+      "topic": "transport",
+      "claim": "Seville-Santa Justa station opened on 2 May 1991 with the Madrid-Seville high-speed line and is Spain's third busiest station after Madrid-Atocha and Barcelona-Sants, with more than 12.7 million passengers in 2024.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/en/estacion-de-santa-justa/",
+          "kind": "official",
+          "title": "Visita Sevilla (Consorcio de Turismo de Sevilla): Santa Justa station"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "opened on 2 May 1991 with the Madrid–Seville high-speed line",
+          "Spain's third busiest after Madrid-Atocha and Barcelona-Sants, with more than 12.7 million passengers in 2024"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.renfe-first-trains",
+      "topic": "transport",
+      "claim": "Renfe's route pages give 06:50 as the first departure from Seville Santa Justa to Córdoba and to Málaga María Zambrano.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.renfe.com/es/es/inspirate/rutas/sevilla-cordoba",
+          "kind": "operator",
+          "title": "Renfe: trains Sevilla-Córdoba"
+        },
+        {
+          "url": "https://www.renfe.com/es/es/experiencias/rutas/sevilla-malaga",
+          "kind": "operator",
+          "title": "Renfe: trains Sevilla-Málaga"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "Renfe's route pages give 06:50 as the first departure to both Córdoba and Málaga"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.aemet-summer-heat",
+      "topic": "place",
+      "claim": "AEMET 1981-2010 normals for Sevilla Aeropuerto (5783): mean of daily maxima 36.0 °C in July and 35.5 °C in August; mean rainfall 2 mm in July and 5 mm in August.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?l=5783",
+          "kind": "official",
+          "title": "AEMET: valores climatológicos normales, Sevilla Aeropuerto"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "the average daytime high at Seville airport is 36.0 °C in July",
+          "give July a daytime high of 36.0 °C and August 35.5 °C at Seville airport, with almost no rain"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.santa-cruz",
+      "topic": "place",
+      "claim": "Santa Cruz was Seville's Jewish quarter until the expulsion of 1492; the tourist office calls it a high-traffic tourist area and asks visitors to respect residents; the Cathedral, Giralda and Real Alcázar are listed among its sights.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/en/barrio-de-santa-cruz/",
+          "kind": "official",
+          "title": "Visita Sevilla (Consorcio de Turismo de Sevilla): Santa Cruz"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "Santa Cruz was Seville's Jewish quarter until the expulsion of 1492",
+          "calls it a high-traffic tourist area and asks visitors to respect its residents"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.arenal-plaza-nueva",
+      "topic": "place",
+      "claim": "Plaza Nueva has been the centre of civil power for centuries and is home to the City Hall; Sierpes and Tetuán are among the city's busiest shopping areas; the Plaza de Armas bus station is listed in the same district; El Arenal was Seville's main port in the Middle Ages and has the Torre del Oro, Hospital de la Caridad and the Maestranza bullring and theatre.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/en/barrio-del-museo-y-plaza-nueva/",
+          "kind": "official",
+          "title": "Visita Sevilla (Consorcio de Turismo de Sevilla): Museo and Plaza Nueva"
+        },
+        {
+          "url": "https://visitasevilla.es/en/barrio-de-el-arenal/",
+          "kind": "official",
+          "title": "Visita Sevilla (Consorcio de Turismo de Sevilla): El Arenal"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "Plaza Nueva has been the seat of civil power for centuries and is home to the City Hall",
+          "the city's busiest shopping area",
+          "El Arenal was the city's main port in the Middle Ages"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.triana",
+      "topic": "place",
+      "claim": "Triana began as a suburb outside the city walls and is the birthplace of potters, bullfighters, sailors and flamenco artists; Calle Betis has river views, the Triana ceramics centre and flamenco peñas and tablaos are listed; the 19th-century Triana Bridge connects it to the centre.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/en/barrio-de-triana-y-los-remedios/",
+          "kind": "official",
+          "title": "Visita Sevilla (Consorcio de Turismo de Sevilla): Triana and Los Remedios"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "began as a suburb outside the walls",
+          "The 19th-century Triana Bridge connects it to the centre"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.alameda-macarena",
+      "topic": "place",
+      "claim": "The Alameda de Hércules, inaugurated in 1574, is considered the oldest public promenade in Europe; two Roman columns at its southern end carry statues of Hercules and Julius Caesar; renovated in 2008; part of the city's alternative scene; the tourist office advises going in the late afternoon or at sunset. It lies in La Macarena, with the Macarena basilica and one of the best-preserved sections of the 12th-century Almohad walls.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/en/alameda-de-hercules/",
+          "kind": "official",
+          "title": "Visita Sevilla (Consorcio de Turismo de Sevilla): Alameda de Hércules"
+        },
+        {
+          "url": "https://visitasevilla.es/en/barrio-de-la-macarena/",
+          "kind": "official",
+          "title": "Visita Sevilla (Consorcio de Turismo de Sevilla): La Macarena"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "The Alameda de Hércules, opened in 1574, is considered the oldest public promenade in Europe",
+          "renovated in 2008",
+          "one of the best-preserved stretches of the 12th-century Almohad city walls"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.nervion",
+      "topic": "place",
+      "claim": "Nervión lies east of the historic centre and includes Santa Justa station; ibis Styles counts a 20-minute walk to Santa Cruz and the Giralda; Catalonia Santa Justa counts 15 minutes on foot to the historic centre.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/en/barrio-de-nervion/",
+          "kind": "official",
+          "title": "Visita Sevilla (Consorcio de Turismo de Sevilla): Nervión"
+        },
+        {
+          "url": "https://all.accor.com/hotel/B7H3/index.en.shtml",
+          "kind": "official",
+          "title": "ibis Styles Sevilla City Santa Justa"
+        },
+        {
+          "url": "https://www.cataloniahotels.com/en/hotel/catalonia-santa-justa",
+          "kind": "official",
+          "title": "Catalonia Santa Justa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "Santa Justa is in Nervión, east of the historic centre",
+          "one counts a 15-minute walk to the historic centre, another 20 minutes to Santa Cruz and the Giralda"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-eme-catedral",
+      "topic": "hotel",
+      "claim": "EME Catedral Mercer, Calle Alemanes 27: 5-star, 16th-century Andalusian building, 'in the picturesque Santa Cruz District, in front of the impressive Seville Cathedral'; rooftop pool and solarium (hours 11:00-20:00); Superior 22-29 m², Deluxe 25-27 m²; M SPA Thermal Circuit by prior reservation, maximum 6 people.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.emecatedralmercer.com/",
+          "kind": "official",
+          "title": "EME Catedral Mercer official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "in a 16th-century Andalusian building that the hotel places in the Santa Cruz district",
+          "Superior rooms of 22 to 29 m² or Deluxe rooms of 25 to 27 m²",
+          "the pool is open from 11:00 to 20:00 only, and the spa's thermal circuit is by prior reservation, for up to six people"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-casa-1800",
+      "topic": "hotel",
+      "claim": "Hotel Casa 1800 Sevilla, Calle Rodrigo Caro 6: two minutes' walk from the Cathedral and Giralda; house-palace whose structure dates from an 1864 refurbishment; 33 rooms in six categories; rooftop pool open 365 days a year 10:00-20:00 with day passes for non-guests in summer; no private parking; top categories have a private terrace and jacuzzi.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelcasa1800sevilla.com/",
+          "kind": "official",
+          "title": "Hotel Casa 1800 Sevilla official site (home, history, rooms, location and rooftop pool pages)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "two minutes' walk from the Cathedral and the Giralda, in a house-palace refurbished in 1864",
+          "33 rooms in six categories",
+          "a rooftop pool open from 10:00 to 20:00 every day of the year",
+          "the hotel has no private parking, and in summer it sells day passes for the pool to non-guests"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-murillo",
+      "topic": "hotel",
+      "claim": "Hotel Murillo, Calle Lope de Rueda 7-9, Barrio de Santa Cruz: '2 star hotel'; Superior doubles on the upper floors with private terrace, kettle with coffee and infusion set; the group's site lists Hotel Murillo Reinoso, Suites Murillo Alcázar, Suites Murillo Catedral and Suites Murillo Plaza Sta. Cruz.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelmurillo.com/",
+          "kind": "official",
+          "title": "Hotel Murillo official site (home and rooms pages)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "A two-star hotel on Calle Lope de Rueda",
+          "Superior rooms on the upper floors that have a private terrace and a kettle with a coffee set",
+          "the Murillo group runs several properties in Santa Cruz, among them Hotel Murillo Reinoso"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-inglaterra",
+      "topic": "hotel",
+      "claim": "Hotel Inglaterra, Plaza Nueva 7: the Fonda Inglaterra opened in 1857 opposite the Town Hall and the hotel calls itself the oldest hotel in the city; Classic rooms 20-30 m², Deluxe Double 34-44 m²; Coffee Corner with complimentary tea, coffee and water; La Terraza rooftop bar, 'one of the most popular night spots in Seville'.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelinglaterra.es/en/",
+          "kind": "official",
+          "title": "Hotel Inglaterra official site (history, rooms and La Terraza pages)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "where the hotel says the Fonda Inglaterra opened in 1857 opposite the Town Hall and calls itself the oldest hotel in the city",
+          "Classic rooms of 20 to 30 m²",
+          "the hotel calls La Terraza one of the most popular night spots in Seville"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-becquer",
+      "topic": "hotel",
+      "claim": "Hotel Bécquer, Calle Reyes Católicos 4: four stars, family tradition over fifty years, free minibar, Sevillian courtyard; free flamenco performances for guests on Fridays (25 Sept; 16, 23, 30 Oct; 6, 13 Nov 2026); Cathedral 900 m on foot, Real Alcázar 950 m, Triana 400 m via the Isabel II bridge; Holy Week processions pass the entrance.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelbecquer.com/en/location/",
+          "kind": "official",
+          "title": "Hotel Bécquer official site (home, rooms, location and home pages)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "run by one family for more than fifty years",
+          "free flamenco performances for guests on Fridays in October and November, the last on 13 November 2026",
+          "the hotel counts the Cathedral at 900 m on foot",
+          "Hotel Bécquer says Holy Week processions pass its entrance"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-simon",
+      "topic": "hotel",
+      "claim": "Hotel Simón, Calle García de Vinuesa 19: 18th-century Andalusian building, 50 m from the Cathedral, 'uno de los hoteles más antiguos de Sevilla'; patio with fountain; 24-hour reception; continental buffet breakfast; footer 'Categoría: 1 Estrella'; some rooms with traditional Andalusian decoration, tiles and dark wood furniture.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelsimonsevilla.com/",
+          "kind": "official",
+          "title": "Hotel Simón official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "50 m from the Cathedral, in an 18th-century Andalusian house",
+          "the hotel's own footer lists one star",
+          "some rooms are traditional, with tiles and dark wood"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-triana-house",
+      "topic": "hotel",
+      "claim": "Triana House, Calle Rodrigo de Triana 94: boutique hotel and bed and breakfast with seven rooms, each paying tribute to an Andalusian province; 'the first Passivhaus-certified hotel in Andalusia'; no room sizes published.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.trianahouse.com/",
+          "kind": "official",
+          "title": "Triana House official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "with seven rooms, each paying tribute to one of Andalusia's provinces",
+          "the first Passivhaus-certified hotel in Andalusia",
+          "with seven rooms it is small, and its website gives no room sizes"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-albergue-triana",
+      "topic": "hotel",
+      "claim": "Albergue Triana, Calle Rodrigo de Triana 69: hostel in a traditional Triana house, shared room or double, breakfast included, jacuzzi in summer; Cathedral and Real Alcázar 15 minutes' walk, Calle Betis 5 minutes, Triana Market 8 minutes; Booking.com lists it as Hostel Triana Backpackers.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.trianahostel.com/en",
+          "kind": "official",
+          "title": "Albergue Triana official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "breakfast included and a jacuzzi in summer",
+          "the hostel counts the Cathedral at 15 minutes on foot and Calle Betis at 5",
+          "booking sites list the hostel as Triana Backpackers"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-patio-alameda",
+      "topic": "hotel",
+      "claim": "Hotel Patio de la Alameda (***), Plaza Alameda de Hércules: palace of the nineteenth century, 39 rooms, three Andalusian courtyards, chill-out terrace, 24h reception. Hotel site prints street number 31; Booking.com prints 56.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.patiodelaalameda.com/en/",
+          "kind": "official",
+          "title": "Hotel Patio de la Alameda official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "A three-star hotel in a 19th-century palace on the Plaza Alameda de Hércules",
+          "39 rooms around three Andalusian courtyards, a chill-out terrace and 24-hour reception"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-corner-house",
+      "topic": "hotel",
+      "claim": "The Corner House, Alameda de Hércules 11: urban hotel with a rooftop overlooking the square, restaurant El Disparate ('recomendado en la Guía Michelín', per the hotel), reception 8:00-16:00, late check-in by arrangement.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://thecornerhousesevilla.com/",
+          "kind": "official",
+          "title": "The Corner House official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "An urban hotel at Alameda de Hércules 11",
+          "which the hotel says is recommended by the Michelin Guide",
+          "reception is staffed from 08:00 to 16:00 only"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-catalonia-santa-justa",
+      "topic": "hotel",
+      "claim": "Catalonia Santa Justa, José Laguillo 8: close to the AVE station, 15 minutes on foot to the historic centre; rooftop pool, jacuzzi and spa; single 10 m², double 16 m²; pool closed 31/10 to 31/03 (dates subject to change).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.cataloniahotels.com/en/hotel/catalonia-santa-justa",
+          "kind": "official",
+          "title": "Catalonia Santa Justa official page"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "the pool is closed from 31 October to 31 March (dates subject to change)",
+          "single rooms of 10 m² and doubles of 16 m²"
+        ]
+      }
+    },
+    {
+      "id": "es.seville.hotel-ibis-styles-santa-justa",
+      "topic": "hotel",
+      "claim": "ibis Styles Sevilla City Santa Justa, Avenida de la Buhaira 2: Santa Justa railway station 500 m / 5 min walk; '2 min from the EA bus to the airport'; rooms 21 m²; unheated outdoor rooftop pool closed 6 January to 12 February 2027 for maintenance; La Azotea de La Mariflores rooftop bar.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/B7H3/index.en.shtml",
+          "kind": "official",
+          "title": "ibis Styles Sevilla City Santa Justa official page (Accor)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville.html": [
+          "500 m and a 5-minute walk from Santa Justa station and 2 minutes from the EA airport bus",
+          "an unheated outdoor pool on the roof",
+          "the pool is closed for maintenance from 6 January to 12 February 2027"
+        ]
+      }
     }
   ]
 }
