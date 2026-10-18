@@ -1,0 +1,549 @@
+{
+  "place": "Greece",
+  "facts": [
+    {
+      "id": "gr.climate-fee-rates",
+      "topic": "tax",
+      "claim": "Greek hotels charge the climate crisis resilience fee per room per night under Law 5177/2025 article 44: from April to October €2 (1-2 stars), €5 (3 stars), €10 (4 stars), €15 (5 stars); from November to March €0.50, €1.50, €3 and €4.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.nomotelia.gr/photos/File/21a-25.pdf",
+          "kind": "official",
+          "title": "Government Gazette A' 21/14.02.2025: Law 5177/2025, article 44 (copy hosted by nomotelia.gr)"
+        },
+        {
+          "url": "https://www.aade.gr/sites/default/files/2026-02/FAQs_en_telos_anthektikotitas_stin_klimatiki_krisi_02_02_2026.pdf",
+          "kind": "official",
+          "title": "AADE: FAQ for the Climate Resilience Fee Declaration, January 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "are set in article 44 of Law 5177/2025",
+          "The fee is charged per room per night, and the amount depends on the hotel's stars and on the month",
+          "four nights in a four-star hotel in July cost 4 × €10 = €40"
+        ]
+      }
+    },
+    {
+      "id": "gr.climate-fee-collection",
+      "topic": "tax",
+      "claim": "The hotel collects the fee from the guest after the stay and before departure with a special receipt; for stays across months one receipt is issued per month; the receipt carries no VAT and the fee is not charged for free stays.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.nomotelia.gr/photos/File/21a-25.pdf",
+          "kind": "official",
+          "title": "Government Gazette A' 21/14.02.2025: Law 5177/2025, article 44 (copy hosted by nomotelia.gr)"
+        },
+        {
+          "url": "https://www.aade.gr/sites/default/files/2026-02/FAQs_en_telos_anthektikotitas_stin_klimatiki_krisi_02_02_2026.pdf",
+          "kind": "official",
+          "title": "AADE: FAQ for the Climate Resilience Fee Declaration, January 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "The hotel collects the fee from the guest after the stay and before departure",
+          "one receipt is issued for each month",
+          "The fee carries no VAT"
+        ]
+      }
+    },
+    {
+      "id": "gr.climate-fee-replaced-tax",
+      "topic": "tax",
+      "claim": "AADE states that the climate resilience fee replaces the accommodation tax and applies to tax periods from 1 January 2024.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.aade.gr/sites/default/files/2026-02/FAQs_en_telos_anthektikotitas_stin_klimatiki_krisi_02_02_2026.pdf",
+          "kind": "official",
+          "title": "AADE: FAQ for the Climate Resilience Fee Declaration, January 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "replaced the old accommodation tax on 1 January 2024"
+        ]
+      }
+    },
+    {
+      "id": "gr.climate-fee-aade-2026",
+      "topic": "tax",
+      "claim": "AADE's FAQ, last updated January 2026, cites article 44 of Law 5177/2025 as the basis of the fee; no later amendment to the hotel rates was found.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.aade.gr/sites/default/files/2026-02/FAQs_en_telos_anthektikotitas_stin_klimatiki_krisi_02_02_2026.pdf",
+          "kind": "official",
+          "title": "AADE: FAQ for the Climate Resilience Fee Declaration, January 2026"
+        },
+        {
+          "url": "https://www.aade.gr/en/climate-crisis-resilience-fee-issuance-statement",
+          "kind": "official",
+          "title": "AADE: Climate Crisis Resilience Fee Issuance Statement"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "still cites that article in its guidance of January 2026"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.metro-airport-ticket",
+      "topic": "fare",
+      "claim": "OASA's metro airport ticket costs €9 (€4.50 discounted), a two-way ticket €16 valid for 30 days; it is valid 90 minutes on all OASA means except the airport express and X80 buses, and on the suburban railway; contactless payment is accepted for the €9 fare.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.oasa.gr/en/tickets/prices-of-products/",
+          "kind": "operator",
+          "title": "OASA: prices of products"
+        },
+        {
+          "url": "https://www.oasa.gr/en/visit-athens/metro-line-3-to-airport/",
+          "kind": "operator",
+          "title": "OASA: metro line 3 to the airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "The airport ticket costs €9 one way, or €16 for a return valid for 30 days",
+          "valid for 90 minutes on all OASA transport except the airport express buses and the X80 bus",
+          "tap a contactless card or phone for the €9 fare"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.x95",
+      "topic": "transport",
+      "claim": "The airport express bus (X95 to Syntagma) runs 24 hours and costs €5.50 one way; OASA estimates about 60 minutes depending on traffic; contactless payment is accepted once on boarding.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.oasa.gr/en/visit-athens/airport-express-bus-lines/",
+          "kind": "operator",
+          "title": "OASA: airport express bus lines"
+        },
+        {
+          "url": "https://www.oasa.gr/en/tickets/prices-of-products/",
+          "kind": "operator",
+          "title": "OASA: prices of products"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "the X95 express runs 24 hours to Syntagma and costs €5.50",
+          "OASA estimates the journey at about 60 minutes, depending on traffic",
+          "Tap a contactless card or phone once, on boarding"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.suburban-railway",
+      "topic": "transport",
+      "claim": "Hellenic Train runs a line between Athens International Airport, Athens Railway Station and the Port of Piraeus; OASA says the metro airport ticket is valid on the suburban railway route Magoula-Piraeus-Airport.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hellenictrain.gr/en/athens-suburban-railway/",
+          "kind": "operator",
+          "title": "Hellenic Train: Athens suburban and regional rail lines"
+        },
+        {
+          "url": "https://www.oasa.gr/en/tickets/prices-of-products/",
+          "kind": "operator",
+          "title": "OASA: prices of products"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "Hellenic Train runs between the airport, Athens Railway Station and Piraeus",
+          "The metro airport ticket is valid on it between Piraeus and the airport"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.taxi-airport-fixed-fare",
+      "topic": "fare",
+      "claim": "Greek press reports a Ministry of Infrastructure and Transport decision (Government Gazette B' 5674, 18 September 2026) raising the fixed taxi fare from Athens airport to the centre from EUR 40 to EUR 50, and the night (00:00-05:00) fare from EUR 55 to EUR 65; the gazette text itself was not opened.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.keeptalkinggreece.com/2026/09/17/new-taxi-fares-from-airports-in-athens-and-thessaloniki/",
+          "kind": "news",
+          "title": "Keep Talking Greece: new taxi fares from the airports, 17 September 2026"
+        },
+        {
+          "url": "https://www.fortunegreece.com/article/allazoun-oi-xreoseis-sta-taxi-sta-50-evro-to-aerodromio-kentro-athinas/",
+          "kind": "news",
+          "title": "Fortune Greece: new taxi tariffs, 22 September 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "raised the fixed fare from the airport to central Athens",
+          "from €40 to €50, and from €55 to €65 between midnight and 5am"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.city-tickets",
+      "topic": "fare",
+      "claim": "OASA fares: 90-minute ticket EUR 1.20, 24-hour ticket EUR 4.10, 3-day tourist ticket EUR 20 including one trip each way to and from the airport by metro or express bus.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.oasa.gr/en/tickets/prices-of-products/",
+          "kind": "operator",
+          "title": "OASA: prices of products"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "a 90-minute ticket is €1.20 and a 24-hour ticket €4.10",
+          "The 3-day tourist ticket costs €20 and includes one trip each way",
+          "comes to €28.30, against €20 for the tourist ticket"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.piraeus-transport",
+      "topic": "transport",
+      "claim": "OASA lists the Port of Piraeus 450 m from Piraeus metro station; the X96 airport bus takes about 90 minutes; the X80 (Piraeus-Acropolis-Syntagma) runs May to October 07:00-21:30 every 30 minutes, daily or tourist ticket only.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.oasa.gr/en/visit-athens/access-to-points-of-interest-in-athens/",
+          "kind": "operator",
+          "title": "OASA: access to points of interest in Athens"
+        },
+        {
+          "url": "https://www.oasa.gr/en/visit-athens/airport-express-bus-lines/",
+          "kind": "operator",
+          "title": "OASA: airport express bus lines"
+        },
+        {
+          "url": "https://www.oasa.gr/en/routes/special-bus-lines/express-bus-lines/",
+          "kind": "operator",
+          "title": "OASA: express bus lines"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "OASA lists the port 450 m from Piraeus metro station",
+          "The X96 airport express runs to Piraeus in about 90 minutes",
+          "the X80 bus runs between Piraeus, the Acropolis and Syntagma from 07:00 to 21:30 every 30 minutes"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.acropolis-station-distances",
+      "topic": "place",
+      "claim": "OASA lists the Acropolis Museum 130 m and Plaka 450 m from Acropolis metro station, and Plaka 650 m from Monastiraki station.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.oasa.gr/en/visit-athens/access-to-points-of-interest-in-athens/",
+          "kind": "operator",
+          "title": "OASA: access to points of interest in Athens"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "OASA puts it 450 m from Acropolis metro station and 650 m from Monastiraki",
+          "OASA lists the museum 130 m from Acropolis metro station"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.monastiraki-distances",
+      "topic": "place",
+      "claim": "OASA lists the Ancient Agora 220 m, Psyrri 230 m and Plaka 650 m from Monastiraki metro station.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.oasa.gr/en/visit-athens/access-to-points-of-interest-in-athens/",
+          "kind": "operator",
+          "title": "OASA: access to points of interest in Athens"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "OASA lists the Ancient Agora 220 m from the station, Psyrri 230 m and Plaka 650 m"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.syntagma-distances",
+      "topic": "place",
+      "claim": "OASA lists the Hellenic Parliament 300 m, the Tomb of the Unknown Soldier 130 m and the Benaki Museum 650 m from Syntagma metro station.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.oasa.gr/en/visit-athens/access-to-points-of-interest-in-athens/",
+          "kind": "operator",
+          "title": "OASA: access to points of interest in Athens"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "OASA lists the Hellenic Parliament 300 m from the station, the Tomb of the Unknown Soldier 130 m and the Benaki Museum 650 m"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.evangelismos-distances",
+      "topic": "place",
+      "claim": "OASA lists the War Museum 250 m, the Byzantine and Christian Museum 300 m and the Museum of Cycladic Art 550 m from Evangelismos metro station.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.oasa.gr/en/visit-athens/access-to-points-of-interest-in-athens/",
+          "kind": "operator",
+          "title": "OASA: access to points of interest in Athens"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "OASA lists the War Museum 250 m from Evangelismos metro station, the Byzantine and Christian Museum 300 m and the Museum of Cycladic Art 550 m"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.electra-palace",
+      "topic": "hotel",
+      "claim": "Electra Palace Athens, a five-star hotel in Plaka, has a tenth-floor roof garden with a view of the floodlit Acropolis; the Herod Atticus theatre is ten minutes' walk away.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.electrahotels.gr/hotels/electra-palace-athens",
+          "kind": "official",
+          "title": "Electra Palace Athens: hotel and location pages"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "with a roof garden on the tenth floor that looks at the floodlit Acropolis",
+          "the Herod Atticus theatre ten minutes' walk away"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.acropolis-house",
+      "topic": "hotel",
+      "claim": "Hotel Acropolis House, a preserved 19th-century mansion at 6-8 Kodrou Street, family-run since 1965, has 19 rooms, three minutes on foot from Syntagma Square and the metro; some rooms have an external private bathroom.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://acropolishouse.gr/",
+          "kind": "official",
+          "title": "Hotel Acropolis House"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "run by the same family since 1965",
+          "with 19 rooms",
+          "some rooms have an external private bathroom"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.grande-bretagne",
+      "topic": "hotel",
+      "claim": "Hotel Grande Bretagne has been open since 1874, was restored in 2003 and has a Royal Suite of over 400 m2.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/overview/",
+          "kind": "official",
+          "title": "Hotel Grande Bretagne (Marriott)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "A landmark open since 1874",
+          "it was restored in 2003 and has a 400 m² Royal Suite"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.njv-athens-plaza",
+      "topic": "hotel",
+      "claim": "NJV Athens Plaza has 159 rooms and 21 suites at the edge of Syntagma Square and meeting spaces for up to 260 guests.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.njvathensplaza.gr/",
+          "kind": "official",
+          "title": "NJV Athens Plaza"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "with 159 rooms and 21 suites",
+          "meeting spaces for up to 260 guests"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.a-for-athens",
+      "topic": "hotel",
+      "claim": "A for Athens is next to Monastiraki metro station, has a rooftop bar open until the early morning hours, and a 25 m2 Standard Double room.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://aforathens.com/",
+          "kind": "official",
+          "title": "A for Athens"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "Next to Monastiraki metro station",
+          "rooms from a 25 m² Standard Double to suites of up to 50 m²",
+          "the rooftop bar is open until the early morning hours"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.attalos",
+      "topic": "hotel",
+      "claim": "Hotel Attalos is a three-star of 78 rooms on Athinas Street with a roof garden bar; the Economy Double is an interior room with a window.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.attaloshotel.com/",
+          "kind": "official",
+          "title": "Hotel Attalos"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "A three-star of 78 rooms on Athinas Street",
+          "the Economy Double is an interior room"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.herodion",
+      "topic": "hotel",
+      "claim": "Herodion Hotel is a four-star of 90 guest rooms, 100 m from the Acropolis Museum and 200 m from Acropolis metro station; its rooms are 16-21 m2 and Syntagma Square is a 20-minute walk.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.herodion.gr/en/",
+          "kind": "official",
+          "title": "Herodion Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "A four-star of 90 guest rooms, 100 m from the Acropolis Museum and 200 m from Acropolis metro station",
+          "the rooms measure only 16 to 21 m²",
+          "Syntagma Square is a 20-minute walk"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.marble-house",
+      "topic": "hotel",
+      "claim": "Marble House Pension is a family-run pension on a quiet dead-end street in Koukaki, ten minutes' walk from the Acropolis, Plaka and the Acropolis Museum; its Budget Double with shared bath is 12 m2.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://marblehouse.gr/",
+          "kind": "official",
+          "title": "Marble House Pension"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "on a quiet dead-end street in Koukaki",
+          "the Budget Double with shared bath is 12 m²"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.athens-backpackers",
+      "topic": "hotel",
+      "claim": "Athens Backpackers has been open since 2003 as Greece's first hostel, offers capsule beds, studios and apartments and a roof bar, and says it is three minutes' walk from the Acropolis and the new museum.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://backpackers.gr/",
+          "kind": "official",
+          "title": "Athens Backpackers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "Greece's first hostel, open since 2003",
+          "three minutes' walk from the Acropolis and the new museum"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.st-george-lycabettus",
+      "topic": "hotel",
+      "claim": "St. George Lycabettus Lifestyle Hotel in Kolonaki is family-owned since 1974, has 154 rooms and 15 suites, and says Syntagma Square is a 15-minute walk; Premium and Signature rooms are about 15-20 m2.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.sgl.gr/",
+          "kind": "official",
+          "title": "St. George Lycabettus Lifestyle Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "Family-owned since 1974, with 154 rooms and 15 suites",
+          "Syntagma Square is a 15-minute walk",
+          "are about 15 to 20 m²"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.periscope",
+      "topic": "hotel",
+      "claim": "Periscope is a design hotel of 22 rooms in a 1950s-era concrete building on Haritos Street, Kolonaki.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.designhotels.com/hotels/greece/athens/periscope/",
+          "kind": "official",
+          "title": "Periscope (Design Hotels)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "A design hotel of 22 rooms in a 1950s concrete building on Haritos Street",
+          "with only 22 rooms there is little choice"
+        ]
+      }
+    },
+    {
+      "id": "gr.athens.hotel.piraeus-theoxenia",
+      "topic": "hotel",
+      "claim": "Piraeus Theoxenia is a boutique five-star in the centre of Piraeus, close to the main port, with 30 m2 Guest Rooms.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://theoxeniapalace.com/piraeus-theoxenia/",
+          "kind": "official",
+          "title": "Piraeus Theoxenia Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-athens.html": [
+          "A boutique five-star in the centre of Piraeus, close to the main port",
+          "Guest Rooms of 30 m²"
+        ]
+      }
+    }
+  ]
+}

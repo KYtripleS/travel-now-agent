@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-athens.html": (
+        "Where to Stay in Athens",
+        "Six areas, 12 hotels, and how Greece's €2 to €15 climate resilience fee builds an Athens hotel bill.",
+    ),
+    "articles/where-to-stay-in-honolulu.html": (
+        "Where to Stay in Honolulu",
+        "Five areas, 12 hotels, taxes of up to 18.7% on a Honolulu room, and the W Line bus from the airport.",
+    ),
     "articles/where-to-stay-in-budapest.html": (
         "Where to Stay in Budapest",
         "Six areas, 12 hotels, the 4% tourist tax, and the 2,500-forint 100E ticket in from the airport.",
@@ -1985,6 +1993,17 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-athens.html": [
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-in-honolulu.html": [
+        "articles/where-to-stay-in-new-york.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-usa-2026.html",
     ],
     "articles/where-to-stay-in-budapest.html": [
         "articles/where-to-stay-in-vienna.html",

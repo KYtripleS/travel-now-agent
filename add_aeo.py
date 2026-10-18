@@ -419,6 +419,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-athens": dict(
+        text="For a first trip, stay in Plaka: the old streets under the Acropolis, between Acropolis and Monastiraki metro stations. Choose Syntagma for the airport bus, Koukaki for the Acropolis Museum and Piraeus for an early ferry. The climate resilience fee is €2 to €15 a room a night, April to October.",
+        link_text="Plaka",
+        cta=_stay_cta("where-to-stay-in-athens", "See hotels around Plaka")),
+    "where-to-stay-in-honolulu": dict(
+        text="For a first trip, stay in central Waikiki: Kalakaua Avenue's shops and the beach are on foot, and the airport bus stops there. Choose Diamond Head for a quieter end, Kalia Road for big resorts, Ala Moana for the mall. Taxes add up to 18.712%.",
+        link_text="central Waikiki",
+        cta=_stay_cta("where-to-stay-in-honolulu", "See hotels around central Waikiki")),
     "where-to-stay-in-budapest": dict(
         text="For a first trip, stay in Belváros-Lipótváros: central Pest on foot, with Deák Ferenc tér where the 100E airport bus ends. Choose the Jewish Quarter for nightlife, Terézváros for Andrássy Avenue and Castle Hill for the river view. The tourist tax is 4% of the room price.",
         link_text="Belváros-Lipótváros",
@@ -1243,6 +1251,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-athens": ["Electra Palace Athens", "Hotel Acropolis House", "Marble House Pension"],
+    "where-to-stay-in-honolulu": ["Halekulani", "Surfjack Hotel & Swim Club", "Ohia Waikiki Studio Suites"],
     "where-to-stay-in-budapest": ["Gerlóczy Boutique Hotel", "Four Seasons Hotel Gresham Palace Budapest", "Hotel Moments Budapest"],
     "where-to-stay-in-istanbul": ["Four Seasons Hotel Istanbul at Sultanahmet", "Sirkeci Mansion", "Cheers Hostel"],
     "where-to-stay-in-ho-chi-minh-city": ["Caravelle Saigon", "Silverland Ben Thanh Hotel", "Liberty Central Saigon Citypoint"],
@@ -1346,6 +1356,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Athens", "where-to-stay-in-athens", None, None),
+        ("Honolulu", "where-to-stay-in-honolulu", None, None),
         ("Budapest", "where-to-stay-in-budapest", None, None),
         ("Istanbul", "where-to-stay-in-istanbul", None, None),
         ("Ho Chi Minh City", "where-to-stay-in-ho-chi-minh-city", None, None),

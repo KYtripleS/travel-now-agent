@@ -1,158 +1,725 @@
 {
- "place": "United States",
- "facts": [
-  {
-   "id": "us.nyc.hotel-tax",
-   "topic": "tax",
-   "claim": "A hotel room in New York City carries 8.875% New York State and City sales tax, the city's 5.875% hotel room occupancy tax, a city charge of $2 a room a night on rooms of $40 or more, and New York State's hotel unit fee of $1.50 a room a night: 14.75% plus $3.50 a room a night.",
-   "value": {
-    "sales_tax_pct": 8.875,
-    "hotel_occupancy_tax_pct": 5.875,
-    "city_room_charge_usd": 2.0,
-    "state_unit_fee_usd": 1.5
-   },
-   "sources": [
+  "place": "United States",
+  "facts": [
     {
-     "url": "https://www.nyc.gov/site/finance/business/business-hotel-room-occupancy-tax.page",
-     "kind": "official",
-     "title": "NYC Department of Finance: hotel room occupancy tax"
+      "id": "us.nyc.hotel-tax",
+      "topic": "tax",
+      "claim": "A hotel room in New York City carries 8.875% New York State and City sales tax, the city's 5.875% hotel room occupancy tax, a city charge of $2 a room a night on rooms of $40 or more, and New York State's hotel unit fee of $1.50 a room a night: 14.75% plus $3.50 a room a night.",
+      "value": {
+        "sales_tax_pct": 8.875,
+        "hotel_occupancy_tax_pct": 5.875,
+        "city_room_charge_usd": 2.0,
+        "state_unit_fee_usd": 1.5
+      },
+      "sources": [
+        {
+          "url": "https://www.nyc.gov/site/finance/business/business-hotel-room-occupancy-tax.page",
+          "kind": "official",
+          "title": "NYC Department of Finance: hotel room occupancy tax"
+        },
+        {
+          "url": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/hotel_and_motel_occupancy.htm",
+          "kind": "official",
+          "title": "New York State: hotel and motel occupancy, including the New York City unit fee"
+        },
+        {
+          "url": "https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf",
+          "kind": "official",
+          "title": "New York State: sales and use tax rates, Publication 718 (PDF)"
+        }
+      ],
+      "checked": "2026-10-12",
+      "used_in": {
+        "articles/where-to-stay-in-new-york.html": [
+          "14.75% in tax on the room, plus $3.50 a room a night",
+          "Together that is 14.75% of the room rate plus $3.50 a room a night"
+        ],
+        "articles/hotel-taxes-around-the-world-2026.html": [
+          "14.75% plus $3.50 a room a night, so a $300 room costs $347.75 a night",
+          "8.875% of the room rate",
+          "5.875% of the room rate"
+        ]
+      },
+      "watch": "New York[^.]{0,80}(hotel|occupancy) tax[^.]{0,80}\\d+(\\.\\d+)?%",
+      "note": "The city's 5.875% was waived only from 1 June to 31 August 2021; the DOF page still mentions that order."
     },
     {
-     "url": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/hotel_and_motel_occupancy.htm",
-     "kind": "official",
-     "title": "New York State: hotel and motel occupancy, including the New York City unit fee"
+      "id": "us.mta.fare-2026",
+      "topic": "fare",
+      "claim": "In 2026 a New York City subway or local bus ride costs $3, paid by tapping a contactless card or phone (OMNY); an express bus ride costs $7.25.",
+      "value": {
+        "subway_local_bus_usd": 3.0,
+        "express_bus_usd": 7.25
+      },
+      "sources": [
+        {
+          "url": "https://www.mta.info/fares-tolls",
+          "kind": "official",
+          "title": "MTA: fares and tolls"
+        }
+      ],
+      "checked": "2026-10-12",
+      "used_in": {
+        "articles/where-to-stay-in-new-york.html": [
+          "a subway or local bus ride is $3"
+        ]
+      },
+      "watch": "(subway|local bus) (ride|fare)[^.]{0,30}\\$\\d",
+      "note": "mta.info answers scripted requests with 403; check it in a browser."
     },
     {
-     "url": "https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf",
-     "kind": "official",
-     "title": "New York State: sales and use tax rates, Publication 718 (PDF)"
-    }
-   ],
-   "checked": "2026-10-12",
-   "used_in": {
-    "articles/where-to-stay-in-new-york.html": [
-     "14.75% in tax on the room, plus $3.50 a room a night",
-     "Together that is 14.75% of the room rate plus $3.50 a room a night"
-    ],
-    "articles/hotel-taxes-around-the-world-2026.html": [
-     "14.75% plus $3.50 a room a night, so a $300 room costs $347.75 a night",
-     "8.875% of the room rate",
-     "5.875% of the room rate"
-    ]
-   },
-   "watch": "New York[^.]{0,80}(hotel|occupancy) tax[^.]{0,80}\\d+(\\.\\d+)?%",
-   "note": "The city's 5.875% was waived only from 1 June to 31 August 2021; the DOF page still mentions that order."
-  },
-  {
-   "id": "us.mta.fare-2026",
-   "topic": "fare",
-   "claim": "In 2026 a New York City subway or local bus ride costs $3, paid by tapping a contactless card or phone (OMNY); an express bus ride costs $7.25.",
-   "value": {
-    "subway_local_bus_usd": 3.0,
-    "express_bus_usd": 7.25
-   },
-   "sources": [
+      "id": "us.mta.congestion-charge-hail",
+      "topic": "fare",
+      "claim": "Taxi and app-based rides to, from, within or through Manhattan's Congestion Relief Zone, south of and including 60th Street, carry a per-trip charge of $0.75 in a taxi, green cab or black car and $1.50 in a high-volume for-hire vehicle such as Uber or Lyft.",
+      "value": {
+        "taxi_usd": 0.75,
+        "app_usd": 1.5
+      },
+      "sources": [
+        {
+          "url": "https://www.mta.info/fares-tolls/tolls/congestion-relief-zone/about",
+          "kind": "official",
+          "title": "MTA: about the Congestion Relief Zone toll"
+        }
+      ],
+      "checked": "2026-10-12",
+      "used_in": {
+        "articles/where-to-stay-in-new-york.html": [
+          "$0.75 in a yellow or green taxi and $1.50 in an app-based car"
+        ]
+      },
+      "watch": "Congestion Relief Zone[^.]{0,120}\\$\\d",
+      "note": "mta.info answers scripted requests with 403; check it in a browser."
+    },
     {
-     "url": "https://www.mta.info/fares-tolls",
-     "kind": "official",
-     "title": "MTA: fares and tolls"
-    }
-   ],
-   "checked": "2026-10-12",
-   "used_in": {
-    "articles/where-to-stay-in-new-york.html": [
-     "a subway or local bus ride is $3"
-    ]
-   },
-   "watch": "(subway|local bus) (ride|fare)[^.]{0,30}\\$\\d",
-   "note": "mta.info answers scripted requests with 403; check it in a browser."
-  },
-  {
-   "id": "us.mta.congestion-charge-hail",
-   "topic": "fare",
-   "claim": "Taxi and app-based rides to, from, within or through Manhattan's Congestion Relief Zone, south of and including 60th Street, carry a per-trip charge of $0.75 in a taxi, green cab or black car and $1.50 in a high-volume for-hire vehicle such as Uber or Lyft.",
-   "value": {
-    "taxi_usd": 0.75,
-    "app_usd": 1.5
-   },
-   "sources": [
+      "id": "us.jfk.airtrain-fare",
+      "topic": "fare",
+      "claim": "The AirTrain between JFK and Jamaica or Howard Beach station costs $8.75 one way; travel between terminals is free.",
+      "value": {
+        "one_way_usd": 8.75
+      },
+      "sources": [
+        {
+          "url": "https://www.jfkairport.com/to-from-airport/air-train",
+          "kind": "official",
+          "title": "JFK Airport: AirTrain"
+        }
+      ],
+      "checked": "2026-10-12",
+      "used_in": {
+        "articles/where-to-stay-in-new-york.html": [
+          "the AirTrain runs to Jamaica or Howard Beach stations for $8.75"
+        ]
+      },
+      "watch": "AirTrain[^.]{0,80}\\$\\d"
+    },
     {
-     "url": "https://www.mta.info/fares-tolls/tolls/congestion-relief-zone/about",
-     "kind": "official",
-     "title": "MTA: about the Congestion Relief Zone toll"
-    }
-   ],
-   "checked": "2026-10-12",
-   "used_in": {
-    "articles/where-to-stay-in-new-york.html": [
-     "$0.75 in a yellow or green taxi and $1.50 in an app-based car"
-    ]
-   },
-   "watch": "Congestion Relief Zone[^.]{0,120}\\$\\d",
-   "note": "mta.info answers scripted requests with 403; check it in a browser."
-  },
-  {
-   "id": "us.jfk.airtrain-fare",
-   "topic": "fare",
-   "claim": "The AirTrain between JFK and Jamaica or Howard Beach station costs $8.75 one way; travel between terminals is free.",
-   "value": {
-    "one_way_usd": 8.75
-   },
-   "sources": [
+      "id": "us.lga.q70-free",
+      "topic": "fare",
+      "claim": "The Q70 LaGuardia Link bus is free between LaGuardia's Terminals B and C and the Jackson Heights–Roosevelt Av and 74 St–Broadway subway hubs.",
+      "sources": [
+        {
+          "url": "https://www.laguardiaairport.com/to-from-airport/public-transportation",
+          "kind": "official",
+          "title": "LaGuardia Airport: public transportation"
+        }
+      ],
+      "checked": "2026-10-12",
+      "used_in": {
+        "articles/where-to-stay-in-new-york.html": [
+          "the Q70 LaGuardia Link bus is free from Terminals B and C"
+        ]
+      },
+      "watch": "Q70[^.]{0,80}(free|\\$\\d)"
+    },
     {
-     "url": "https://www.jfkairport.com/to-from-airport/air-train",
-     "kind": "official",
-     "title": "JFK Airport: AirTrain"
-    }
-   ],
-   "checked": "2026-10-12",
-   "used_in": {
-    "articles/where-to-stay-in-new-york.html": [
-     "the AirTrain runs to Jamaica or Howard Beach stations for $8.75"
-    ]
-   },
-   "watch": "AirTrain[^.]{0,80}\\$\\d"
-  },
-  {
-   "id": "us.lga.q70-free",
-   "topic": "fare",
-   "claim": "The Q70 LaGuardia Link bus is free between LaGuardia's Terminals B and C and the Jackson Heights–Roosevelt Av and 74 St–Broadway subway hubs.",
-   "sources": [
+      "id": "us.ewr.airtrain-fee",
+      "topic": "fare",
+      "claim": "The AirTrain at Newark costs $8.75 to or from the airport's rail station unless you already hold an NJ Transit or Amtrak ticket; travel between terminals is free.",
+      "value": {
+        "one_way_usd": 8.75
+      },
+      "sources": [
+        {
+          "url": "https://www.newarkairport.com/to-from-airport/air-train",
+          "kind": "official",
+          "title": "Newark Airport: AirTrain"
+        }
+      ],
+      "checked": "2026-10-12",
+      "used_in": {
+        "articles/where-to-stay-in-new-york.html": [
+          "costs $8.75 unless you already hold an NJ Transit or Amtrak ticket"
+        ]
+      },
+      "watch": "Newark[^.]{0,80}AirTrain[^.]{0,80}\\$\\d"
+    },
     {
-     "url": "https://www.laguardiaairport.com/to-from-airport/public-transportation",
-     "kind": "official",
-     "title": "LaGuardia Airport: public transportation"
-    }
-   ],
-   "checked": "2026-10-12",
-   "used_in": {
-    "articles/where-to-stay-in-new-york.html": [
-     "the Q70 LaGuardia Link bus is free from Terminals B and C"
-    ]
-   },
-   "watch": "Q70[^.]{0,80}(free|\\$\\d)"
-  },
-  {
-   "id": "us.ewr.airtrain-fee",
-   "topic": "fare",
-   "claim": "The AirTrain at Newark costs $8.75 to or from the airport's rail station unless you already hold an NJ Transit or Amtrak ticket; travel between terminals is free.",
-   "value": {
-    "one_way_usd": 8.75
-   },
-   "sources": [
+      "id": "us.hawaii.tat-2026",
+      "topic": "tax",
+      "claim": "Hawaii's state transient accommodations tax (TAT) is 11% from 1 January 2026 to 31 December 2030 under Act 96 (2025), up from 10.25%.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://files.hawaii.gov/tax/news/announce/ann26-01.pdf",
+          "kind": "official",
+          "title": "Hawaii Department of Taxation: Announcement 2026-01"
+        },
+        {
+          "url": "https://files.hawaii.gov/tax/news/pubs/25outline.pdf",
+          "kind": "official",
+          "title": "Hawaii Department of Taxation: Outline of the Hawaii Tax System (as of 1 July 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "Hawaii's state hotel tax rose to 11% on 1 January 2026",
+          "11% of the room rate, from 1 January 2026 to 31 December 2030",
+          "The state rate was 10.25% until the end of 2025"
+        ]
+      }
+    },
     {
-     "url": "https://www.newarkairport.com/to-from-airport/air-train",
-     "kind": "official",
-     "title": "Newark Airport: AirTrain"
+      "id": "us.honolulu.oahu-tat",
+      "topic": "tax",
+      "claim": "The Oahu transient accommodations tax (City and County of Honolulu) is 3% of gross rental, effective 14 December 2021 (Ordinance 21-33), and may be passed on to the visitor.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.honolulu.gov/bfs/wp-content/uploads/sites/62/2026/01/FAQ-Revise-01-2026-v2.pdf",
+          "kind": "official",
+          "title": "City and County of Honolulu: Oahu Transient Accommodations Tax FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "the City and County of Honolulu adds 3%",
+          "3% of the room rate",
+          "The Oahu tax is a county add-on, set by ordinance, and may be passed on to the guest"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.get-passon",
+      "topic": "tax",
+      "claim": "Oahu's general excise tax on lodging is 4% plus a 0.5% county surcharge (4.5% owed); the most a business may visibly pass on is 4.712%, and a hotel that passes it on visibly may exclude it from gross rental subject to TAT.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://files.hawaii.gov/tax/legal/taxfacts/tf2025-37-1.pdf",
+          "kind": "official",
+          "title": "Hawaii Department of Taxation: Tax Facts 37-1, General Excise Tax"
+        },
+        {
+          "url": "https://files.hawaii.gov/tax/geninfo/info/table-of-maximum-ge-pass-on-rates_sep2023.pdf",
+          "kind": "official",
+          "title": "Hawaii Department of Taxation: County surcharge and maximum GE tax pass-on rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "hotels may add the general excise tax, up to 4.712%",
+          "4.5% a hotel owes; at most 4.712% may be added to your bill",
+          "the 4.712% is the most a hotel may show on your bill",
+          "may leave it out of the amount the accommodations tax is charged on"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel-tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic, not an official figure: on a $300 room with 11% state TAT, 3% Oahu TAT and 4.712% GET all passed on, tax is $33.00 + $9.00 + $14.14 = $56.14 (18.712%), a total of $356.14 a night.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://files.hawaii.gov/tax/news/announce/ann26-01.pdf",
+          "kind": "official",
+          "title": "Hawaii Department of Taxation: Announcement 2026-01"
+        },
+        {
+          "url": "https://files.hawaii.gov/tax/legal/taxfacts/tf2025-37-1.pdf",
+          "kind": "official",
+          "title": "Hawaii Department of Taxation: Tax Facts 37-1"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "up to 18.712% in all",
+          "On a $300 room that is $56.14 a night",
+          "$33.00 state tax, $9.00 Oahu tax and $14.14 general excise tax, $56.14 in all, so $356.14 a night",
+          "a $300 room costs up to $356.14"
+        ]
+      },
+      "note": "Derived arithmetic; assumes the hotel passes on all three. Not checked: how a hotel's resort charge is taxed."
+    },
+    {
+      "id": "us.honolulu.resort-charge-hhv",
+      "topic": "price",
+      "claim": "Hilton Hawaiian Village's own rooms page lists a $55.00 resort charge per night, included in the 'from' price and before taxes (read 19 Oct 2026).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/hnlhvhh-hilton-hawaiian-village-waikiki-beach-resort/rooms/",
+          "kind": "official",
+          "title": "Hilton Hawaiian Village: rooms and suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "Hilton Hawaiian Village's rooms page lists $55 a night",
+          "its rooms page lists a $55 resort charge a night",
+          "A $55 charge a night over a five-night stay is $275 before tax"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.resort-charge-embassy",
+      "topic": "price",
+      "claim": "Embassy Suites by Hilton Waikiki Beach Walk's own page lists a $45.00 resort charge per night, included in the 'from' price and before taxes (read 19 Oct 2026).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/hnleses-embassy-suites-waikiki-beach-walk/",
+          "kind": "official",
+          "title": "Embassy Suites by Hilton Waikiki Beach Walk"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "the Embassy Suites by Hilton Waikiki Beach Walk lists $45",
+          "its page lists a $45 resort charge a night"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.resort-fee-claims",
+      "topic": "price",
+      "claim": "Halekulani's site says guests face 'no resort fee surprises'; Surfjack's site advertises no amenity fees when booking direct; Lotus Honolulu and Hotel Renew pages mention an amenity fee waived on a direct-booking offer.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.halekulani.com/",
+          "kind": "official",
+          "title": "Halekulani"
+        },
+        {
+          "url": "https://surfjack.com/",
+          "kind": "official",
+          "title": "Surfjack Hotel & Swim Club"
+        },
+        {
+          "url": "https://www.lotushonoluluhotel.com/",
+          "kind": "official",
+          "title": "Lotus Honolulu"
+        },
+        {
+          "url": "https://www.hotelrenew.com/",
+          "kind": "official",
+          "title": "Hotel Renew"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "Halekulani's site says its guests face no resort fee surprises",
+          "Surfjack's says no amenity fees when you book direct",
+          "the hotel's page mentions an amenity fee, waived on one direct-booking offer"
+        ]
+      }
+    },
+    {
+      "id": "us.hawaii.lala-hotels",
+      "topic": "place",
+      "claim": "Hurricane Lala passed Hawaii in mid-August 2026; the Star-Advertiser (19 Aug 2026) reported hotel damage was mostly debris and fallen palm fronds, with power outages affecting about half of all hotel properties.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.staradvertiser.com/2026/08/19/hawaii-news/lala-spares-hawaii-tourism-major-damage/",
+          "kind": "news",
+          "title": "Honolulu Star-Advertiser: Lala spares Hawaii tourism major damage"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "Hurricane Lala passed Hawaii in mid-August 2026",
+          "damage to hotels was mostly debris and fallen palm fronds",
+          "power cuts affected about half of all hotel properties"
+        ]
+      }
+    },
+    {
+      "id": "us.hnl.w-line",
+      "topic": "transport",
+      "claim": "The W Line runs from Lelepaua airport Skyline station via Nimitz Highway, Kakaako and Ala Moana Center to Waikiki (Kalakaua and Kuhio Avenues, to Kapahulu Avenue); weekdays every 10 min at peak, 15 off-peak, 30 after 7pm; Sat/Sun/holiday every 15 min, 30 after 7pm; stop east of the lei stands on Ala Onaona Street.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://airports.hawaii.gov/hnl/the-bus-and-skyline/",
+          "kind": "official",
+          "title": "Daniel K. Inouye International Airport: The Bus and Skyline"
+        },
+        {
+          "url": "https://www.thebus.org/Route/RouteDescription/W%20LINE%202025-10-16.htm",
+          "kind": "operator",
+          "title": "TheBus: W Line route description (16 Oct 2025)"
+        },
+        {
+          "url": "https://www.thebus.org/Route/Routes.asp",
+          "kind": "operator",
+          "title": "TheBus: routes and schedules"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "the W Line runs from the Lelepaua airport Skyline station to Waikiki",
+          "Weekdays it runs every 10 minutes at peak, every 15 minutes off-peak and every 30 minutes after 7pm",
+          "The stop is east of the lei stands on Ala Onaona Street",
+          "The W Line runs along Kalakaua Avenue"
+        ]
+      }
+    },
+    {
+      "id": "us.thebus.fare-2026",
+      "topic": "fare",
+      "claim": "TheBus adult fares (thebus.org, 19 Oct 2026): $3.25 cash, no transfers; HOLO card fee $2.00; 2-hour pass $3.00; 24-hour pass $7.50.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.thebus.org/Fare/FareAndPasses.asp",
+          "kind": "operator",
+          "title": "TheBus: fares and passes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "is $3.25 in cash, with no transfers",
+          "A HOLO card costs $2 to buy; a 2-hour pass on it, which covers transfers, is $3.00, and a 24-hour pass is $7.50"
+        ]
+      }
+    },
+    {
+      "id": "us.thebus.luggage",
+      "topic": "transport",
+      "claim": "TheBus baggage rule: each passenger may bring one standard medium suitcase and one smaller carry-on, or a carry-on sized backpack, stowed under or in front of the seat, between the feet or on the lap, not blocking aisles.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.thebus.org/howtoride/BusRegulations.asp",
+          "kind": "operator",
+          "title": "TheBus: rules and regulations, baggage and luggage"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "one standard medium suitcase and one smaller carry-on, or a carry-on backpack, per passenger",
+          "Everything must fit under or in front of your seat, between your feet or on your lap, and must not block the aisle"
+        ]
+      }
+    },
+    {
+      "id": "us.hnl.skyline",
+      "topic": "transport",
+      "claim": "Skyline's Lelepaua station is at HNL between the International Parking Garage and the Terminal 2 Parking Garage; a HOLO card is required to ride; Segment 3 (Middle Street to Civic Center, Kakaako) is under construction, so rail does not reach Waikiki.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://airports.hawaii.gov/hnl/the-bus-and-skyline/",
+          "kind": "official",
+          "title": "Daniel K. Inouye International Airport: The Bus and Skyline"
+        },
+        {
+          "url": "https://honolulutransit.org/?p=32941",
+          "kind": "official",
+          "title": "HART: first guideway column of Segment 3"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "Lelepaua station sits between the International Parking Garage and the Terminal 2 Parking Garage",
+          "A HOLO card is required to ride",
+          "Segment 3, from Middle Street to Civic Center in Kakaako, is still under construction"
+        ]
+      }
+    },
+    {
+      "id": "us.hnl.route42",
+      "topic": "transport",
+      "claim": "Route 42 serves HNL only after 10:30pm; one eastbound trip a day goes from the airport to Waikiki.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://airports.hawaii.gov/hnl/the-bus-and-skyline/",
+          "kind": "official",
+          "title": "Daniel K. Inouye International Airport: The Bus and Skyline"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "only after 10:30pm, with a single eastbound trip to Waikiki"
+        ]
+      }
+    },
+    {
+      "id": "us.hnl.taxi",
+      "topic": "transport",
+      "claim": "At HNL, taxi service is on the centre median in front of the terminal baggage claim areas; the airport lists designated ride-app pickup zones.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://airports.hawaii.gov/hnl/getting-to-from/ground-transportation/taxicab/",
+          "kind": "official",
+          "title": "Daniel K. Inouye International Airport: taxicabs"
+        },
+        {
+          "url": "https://airports.hawaii.gov/hnl/the-bus-and-skyline/",
+          "kind": "official",
+          "title": "Daniel K. Inouye International Airport: ground transportation menu"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "taxis queue on the median in front of baggage claim, and app rides use their own pick-up zones"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.diamond-head-entry",
+      "topic": "place",
+      "claim": "Diamond Head State Monument: entry and parking reservations required for non-residents; non-Hawaii residents pay $5 to enter (credit card only); open daily 6:00 am to 6:00 pm.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/",
+          "kind": "official",
+          "title": "Hawaii State Parks: Diamond Head State Monument"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "requires non-residents to reserve entry and parking; entry is $5 and the park is open from 6am to 6pm"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.surfjack",
+      "topic": "hotel",
+      "claim": "Surfjack Hotel & Swim Club: 412 Lewers Street; restaurants Mahina & Sun's and Arvo; no amenity fees when booking direct; any dog, any size, stays free.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://surfjack.com/",
+          "kind": "official",
+          "title": "Surfjack Hotel & Swim Club"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "A boutique hotel at 412 Lewers Street, with the restaurants Mahina & Sun's and Arvo, a swim club, and any dog, of any size, staying free"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.beachcomber",
+      "topic": "hotel",
+      "claim": "OUTRIGGER Waikiki Beachcomber Hotel: 2300 Kalakaua Avenue; craft hotel; Maui Brewing Co. and Hawaiian Aroma Caffé; outdoor pool and hot tub; Cirque du Soleil's 'Auana; valet parking listed; hotel puts the drive from HNL at about 25 minutes and says an app ride can take 25 minutes to an hour.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.outrigger.com/hawaii/oahu/outrigger-waikiki-beachcomber-hotel",
+          "kind": "official",
+          "title": "OUTRIGGER Waikiki Beachcomber Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "At 2300 Kalakaua Avenue, a self-styled craft hotel with local art, Maui Brewing Co. and Hawaiian Aroma Caffé on site, an outdoor pool and hot tub, and Cirque du Soleil's show 'Auana",
+          "puts the drive to Waikiki at about 25 minutes, and warns an app ride can take 25 minutes to an hour"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.ohia",
+      "topic": "hotel",
+      "claim": "Ohia Waikiki Studio Suites: 2280 Kuhio Avenue; next to International Market Place, two blocks from the beach; apartment-style rooms for 1 to 6 guests, most with kitchens, all with mini-fridge, coffeemaker and private lanai; improvement work in select areas during daytime hours.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.ohiawaikiki.com/",
+          "kind": "official",
+          "title": "Ohia Waikiki Studio Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "next to the International Market Place and two blocks from the beach, with apartment-style rooms for one to six guests, kitchens in most, and a private lanai, mini-fridge and coffeemaker in all",
+          "the hotel says improvement work is under way in some areas during the day"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.lotus",
+      "topic": "hotel",
+      "claim": "Lotus Honolulu: 2885 Kalakaua Avenue, at the quiet edge of Waikiki; Park View and Ocean View rooms 380 sq ft, Penthouse Suite 1,701 sq ft; restaurant Arden's.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.lotushonoluluhotel.com/",
+          "kind": "official",
+          "title": "Lotus Honolulu"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "with rooms of about 380 sq ft, a restaurant, Arden's, and a penthouse suite of 1,701 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.renew",
+      "topic": "hotel",
+      "claim": "Hotel Renew: 129 Paoakalani Avenue; locally owned and operated by MacNaughton Hospitality; standard rooms 240-321 sq ft; lobby cooler of locally crafted drinks; As You Like Waikiki serving matcha and musubi.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelrenew.com/",
+          "kind": "official",
+          "title": "Hotel Renew"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "locally owned, with a lobby cooler of locally crafted drinks and As You Like Waikīkī serving matcha and musubi",
+          "standard rooms are 240 to 321 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.beachside-hostel",
+      "topic": "hotel",
+      "claim": "Waikiki Beachside Hostel: 2556 Lemon Road, one block from Waikiki Beach; co-ed and female-only dorms, semi-private and private rooms; community kitchen; free pancakes 8 to 10 AM; nightly events and social lounges.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://waikikibeachsidehostel.com/",
+          "kind": "official",
+          "title": "Waikiki Beachside Hostel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "one block from the beach, with co-ed and female-only dorms, semi-private and private rooms, a community kitchen and free pancakes from 8 to 10am"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.halekulani",
+      "topic": "hotel",
+      "claim": "Halekulani: 2199 Kalia Road; dining at House Without A Key, La Mer and Orchids; newly reopened HalekulaniSpa; site says 'no resort fee surprises'.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.halekulani.com/",
+          "kind": "official",
+          "title": "Halekulani"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "At 2199 Kalia Road, with the dining of House Without A Key, La Mer and Orchids, and the newly reopened HalekulaniSpa"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.hilton-hawaiian-village",
+      "topic": "hotel",
+      "claim": "Hilton Hawaiian Village Waikiki Beach Resort: 2005 Kalia Road; 22-acre resort, five towers, pools and waterslides; Waikiki Starlight Luau.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/hnlhvhh-hilton-hawaiian-village-waikiki-beach-resort/",
+          "kind": "official",
+          "title": "Hilton Hawaiian Village Waikiki Beach Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "a 22-acre resort with five towers, pools and waterslides, and the Waikiki Starlight Luau"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.embassy-suites",
+      "topic": "hotel",
+      "claim": "Embassy Suites by Hilton Waikiki Beach Walk: 201 Beachwalk Street; all-suite, one block from the beach; free made-to-order breakfast and complimentary evening social on the Grand Lanai.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/hnleses-embassy-suites-waikiki-beach-walk/",
+          "kind": "official",
+          "title": "Embassy Suites by Hilton Waikiki Beach Walk"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "An all-suite hotel at 201 Beachwalk Street, one block from the beach, with free made-to-order breakfast and an evening reception on the Grand Lanai"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.ala-moana",
+      "topic": "hotel",
+      "claim": "Ala Moana Hotel by Mantra: 410 Atkinson Drive; 1,176 refurbished rooms in two towers; beside Ala Moana Center; 5-minute walk from the Hawaii Convention Center; hotel says 1.5 miles from Waikiki Beach and 8 miles from HNL.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.alamoanahotelhonolulu.com/",
+          "kind": "official",
+          "title": "Ala Moana Hotel by Mantra"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "a landmark with 1,176 refurbished rooms in two towers, beside Ala Moana Center and a five-minute walk from the Hawaii Convention Center",
+          "by the hotel's count it is 1.5 miles from Waikiki Beach"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.prince-waikiki",
+      "topic": "hotel",
+      "claim": "Prince Waikiki: 100 Holomoana Street; says all rooms and suites are ocean view or oceanfront; three pools (adults-only infinity pool, saltwater retreat, hot tub); spa.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.princewaikiki.com/",
+          "kind": "official",
+          "title": "Prince Waikiki"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "where the hotel says all its rooms and suites have ocean views or are oceanfront, with three pools, an adults-only infinity pool, a saltwater retreat and a hot tub, and a spa"
+        ]
+      }
+    },
+    {
+      "id": "us.honolulu.hotel.four-seasons-ko-olina",
+      "topic": "hotel",
+      "claim": "Four Seasons Resort Oahu at Ko Olina: 92-1001 Olani Street, Kapolei; 35 minutes from downtown Honolulu; HNL 20 miles, 30 minutes by car; four pools; Naupaka Spa & Wellness Centre; overnight valet parking USD 55 a night.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/oahu/",
+          "kind": "official",
+          "title": "Four Seasons Resort Oahu at Ko Olina"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-honolulu.html": [
+          "At 92-1001 Olani Street, Kapolei, a beachfront resort with a tower, four pools and the Naupaka Spa & Wellness Centre",
+          "it is 20 miles from the airport, 30 minutes by car by the hotel's count, and overnight valet parking is $55 a night",
+          "The Four Seasons puts it 35 minutes from downtown Honolulu"
+        ]
+      }
     }
-   ],
-   "checked": "2026-10-12",
-   "used_in": {
-    "articles/where-to-stay-in-new-york.html": [
-     "costs $8.75 unless you already hold an NJ Transit or Amtrak ticket"
-    ]
-   },
-   "watch": "Newark[^.]{0,80}AirTrain[^.]{0,80}\\$\\d"
-  }
- ]
+  ]
 }

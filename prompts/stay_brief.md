@@ -4,14 +4,14 @@ Repo: /Users/ky/travel-now-agent (static site; site/ is source, docs/ is publish
 You write a draft and a registration file. You do NOT edit anything in site/, docs/ or any .py file,
 you do NOT run publish_article.py or the pipeline, and you do NOT commit. The lead editor integrates.
 
-SCRATCH = the lead session's scratchpad directory, given in your task. The registration file goes in
-SCRATCH/stay/<city>.json (create the stay/ folder if it is missing).
+The registration file goes in content_drafts/stay/<city>.json (gitignored, and safe from the
+temporary-folder cleanup); photo downloads go in any scratch folder you like.
 
 ## Your outputs
 1. `content_drafts/where-to-stay-in-<city>.final.md` (Markdown with inline HTML figures)
 2. `content_drafts/where-to-stay-in-<city>.meta.json`
-3. `SCRATCH/stay/<city>.json`, the registration file (schema below)
-4. Optional: downloaded photo files in `SCRATCH/stay/<city>/` (to look at them)
+3. `content_drafts/stay/<city>.json`, the registration file (schema below)
+4. Optional: downloaded photo files in a scratch folder (to look at them)
 
 ## Copy the model exactly
 Read `content_drafts/where-to-stay-in-new-york.final.md` and `.meta.json` and
@@ -51,7 +51,7 @@ from dotenv import load_dotenv; load_dotenv('/Users/ky/travel-now-agent/.env')
 import enhance_article_photos as e, json; print(json.dumps(e.pexels_photo('Rome Trastevere street'), indent=1))"
 ```
 (If that helper's return shape differs, read its source; you may call the Pexels search API the same
-way it does, with per_page up to 15.) Download each candidate at w=940 into SCRATCH/stay/<city>/ and
+way it does, with per_page up to 15.) Download each candidate at w=940 into a scratch folder and
 LOOK at it with the Read tool before using it. The alt text must describe only what is visibly in the
 frame (never the heading's claim); reject photos that show a different city or are unidentifiable.
 Figure markup, exactly:
@@ -88,7 +88,7 @@ Place one under the intro or the short answer, and one in most area sections.
   site/articles/ (check with ls). Link the city's existing guides if they exist (first-timers guide,
   things to do, eSIM).
 
-## Registration file schema (SCRATCH/stay/<city>.json)
+## Registration file schema (content_drafts/stay/<city>.json)
 ```json
 {
   "slug": "where-to-stay-in-rome",
