@@ -354,6 +354,30 @@ travel preparation, from eSIMs to itineraries.</p>
 # published with the right label (site_taxonomy).
 HUB_MIN_GUIDES = 4
 
+# Stay hub: trips whose dates fill hotels early, soonest first. Each line says
+# only what its guide states; a line drops off the hub the day after `until`.
+BOOK_EARLY = [
+    ("2026-11-30", "where-to-stay-in-kyoto-autumn-leaves", "Kyoto’s maples", "peak in the last ten days of November"),
+    ("2026-12-06", "where-to-stay-in-tokyo-autumn-leaves", "Tokyo’s autumn leaves", "ginkgo around 23 November, maples around 28 November"),
+    ("2026-11-28", "where-to-stay-in-niseko", "Niseko", "the 2026/27 season opens on 28 November"),
+    ("2026-12-01", "where-to-stay-in-hakuba", "Hakuba", "Goryu opens on 21 November, Happo-one on 1 December"),
+    ("2026-12-31", "where-to-stay-in-sydney-new-years-eve", "Sydney on New Year’s Eve", "fireworks at 9pm and midnight on 31 December, with minimum stays"),
+    ("2027-02-11", "where-to-stay-in-sapporo-snow-festival", "The Sapporo Snow Festival", "4 to 11 February 2027"),
+    ("2027-04-05", "where-to-stay-in-tokyo-cherry-blossom", "Tokyo’s cherry blossom", "usually opens around 24 March and peaks around 31 March"),
+    ("2027-04-10", "where-to-stay-in-kyoto-cherry-blossom", "Kyoto’s cherry blossom", "usually opens around 26 March and peaks around 4 April"),
+]
+
+
+def _book_early() -> str:
+    today = date.today().isoformat()
+    rows = sorted(r for r in BOOK_EARLY if r[0] >= today and (REPO / "site" / "articles" / f"{r[1]}.html").exists())
+    if not rows:
+        return ""
+    lis = "".join(f'<li><a href="../articles/{slug}.html">{name}</a>: {when}</li>' for _, slug, name, when in rows)
+    return ('\n<div class="gy-book-early"><p class="gy-book-early-h">Book early: dates when hotels fill up</p>'
+            f"<ul>{lis}</ul></div>")
+
+
 HUBS = {
     "stay/index.html": dict(
         title="Where to Stay: Neighbourhoods and Hotels, City by City | Gently Yonder",
@@ -448,7 +472,7 @@ def render_hub(rel: str, rows: list[dict]) -> str:
 <div class="gy-arch-head-inner">
 <p class="label">{h["eyebrow"]}</p>
 <h1>{h["h1"]}</h1>
-<p>{h["intro"]}</p>{h.get("tool", "")}
+<p>{h["intro"]}</p>{h.get("tool", "")}{_book_early() if rel == "stay/index.html" else ""}
 </div>
 </header>
 <main class="gy-archive" id="main">

@@ -4812,3 +4812,12 @@ body .rsp-feat { border-radius: 4px; }
 .article .gy-verdict p.gy-verdict-price, .gy-finder .gf-price {
   margin: 12px 0 0; font-family: var(--sans); font-size: .82rem; line-height: 1.5; color: var(--ink-soft);
 }
+
+/* 10. Stay hub: trips whose dates fill hotels early (build_library.BOOK_EARLY) */
+.gy-book-early { margin: 18px 0 0; padding: 12px 0 4px; border-top: 2px solid var(--gold); max-width: 640px; }
+.gy-book-early-h {
+  margin: 0 0 6px !important; font-family: var(--sans) !important; font-size: .7rem !important; font-weight: 700;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--gold-ink) !important;
+}
+.gy-book-early ul { margin: 0; padding-left: 1.1em; font-family: var(--sans); font-size: .92rem; line-height: 1.55; color: var(--ink-soft); }
+.gy-book-early li { margin: 0 0 4px; }

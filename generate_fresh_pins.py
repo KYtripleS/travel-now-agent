@@ -659,6 +659,33 @@ SPECS = [
                      "only Happo-one, its own ¥9,800 ticket is cheaper. Since June 2026 Hakuba Village and "
                      "Nagano Prefecture tax hotel stays, up to ¥1,900 a person a night. From Tokyo, the "
                      "Shinkansen to Nagano and an express bus take as little as 2 hours 50 minutes."),
+    dict(id=1067, slug="hanoi-stay-f1", article="articles/where-to-stay-in-hanoi.html",
+         board=VN, photo=38782292, title="HANOI", tagline="where to stay, area by area",
+         bullets=["Old Quarter: first trip", "Hoan Kiem: the lake", "French Quarter: grand hotels",
+                  "West Lake: a quieter stay"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Hanoi (2026): The Best Areas and 12 Hotels",
+         description="For a first trip to Hanoi, stay in the Old Quarter, with the lake a short walk away. "
+                     "Choose Hoan Kiem Lake for calmer mornings, the French Quarter for the old grand hotels by "
+                     "the Opera House, Ba Dinh for the Mausoleum and West Lake for views. VAT is 8% until "
+                     "31 December 2026. Twelve hotels, checked at the source."),
+    dict(id=1068, slug="saigon-stay-f1", article="articles/where-to-stay-in-ho-chi-minh-city.html",
+         board=VN, photo=10146765, title="SAIGON", tagline="where to stay, area by area",
+         bullets=["Dong Khoi: first trip", "Ben Thanh: metro, market", "District 3: quieter",
+                  "Thao Dien: river cafés"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Ho Chi Minh City (2026): Best Areas and 12 Hotels",
+         description="For a first trip to Ho Chi Minh City, stay in Dong Khoi, with the Opera House, Nguyen "
+                     "Hue and the river on foot. Choose Ben Thanh for the market and Metro Line 1, District 3 "
+                     "for quiet and Thao Dien for the river. Rates are often quoted ++, so add service charge "
+                     "and tax. Twelve hotels, checked at the source."),
+    dict(id=1069, slug="bali-stay-f1", article="articles/where-to-stay-in-bali.html",
+         board=ASIA, photo=38868370, title="BALI", tagline="where to stay, area by area",
+         bullets=["Seminyak: first trip", "Canggu: surf and cafés", "Ubud: rice terraces",
+                  "Levy: IDR 150,000"], cta="Areas and hotels →",
+         pin_title="Where to Stay in Bali (2026): The Best Areas, 12 Hotels and the Levy",
+         description="For a first trip to Bali, stay in Seminyak, with the beach and restaurants on foot. "
+                     "Choose Canggu for surf and cafés, Ubud for temples and rice terraces, Uluwatu for cliffs, "
+                     "Sanur for calm water and Nusa Dua for a resort. Every foreign visitor pays the IDR "
+                     "150,000 tourist levy once a trip. Twelve hotels, checked at the source."),
 ]
 
 
