@@ -1,0 +1,830 @@
+{
+  "place": "Vietnam",
+  "facts": [
+    {
+      "id": "vn.vat-accommodation",
+      "topic": "tax",
+      "claim": "Vietnam's VAT is normally 10%; under Resolution 204/2025/QH15 it is reduced to 8% for goods and services otherwise taxed at 10%, from 1 July 2025 to 31 December 2026, excluding telecommunications, finance, banking, securities, insurance, real estate, metal products, mining products other than coal and excise goods; accommodation is not named among the exclusions in these reports, but the decree's appendices were not readable.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://en.vietnamplus.vn/2-vat-reduction-extends-to-end-of-2026-post321798.vnp",
+          "kind": "official",
+          "title": "VietnamPlus (Vietnam News Agency): 2% VAT reduction extends to end of 2026"
+        },
+        {
+          "url": "https://english.luatvietnam.vn/thue/decree-174-2025-nd-cp-vat-reduction-404331-d1.html",
+          "kind": "official",
+          "title": "Decree 174/2025/ND-CP on the VAT reduction (English text, Luat Viet Nam)"
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-204-2025-qh15-ve-giam-thue-gia-tri-gia-tang-119250628082120511.htm",
+          "kind": "official",
+          "title": "Government of Vietnam policy portal: Resolution 204/2025/QH15 on VAT reduction"
+        },
+        {
+          "url": "https://en.vietnamplus.vn/na-adopts-resolution-on-vat-reduction-revised-law-on-enterprises-post321109.vnp",
+          "kind": "news",
+          "title": "Vietnam News Agency: NA adopts resolution on VAT reduction"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "the National Assembly cut it by two points, to 8%",
+          "from 1 July 2025 to 31 December 2026",
+          "Accommodation is not among the exclusions in those reports"
+        ],
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "VAT is 8% rather than 10% on many goods and services until 31 December 2026",
+          "8% until 31 December 2026 on many goods and services normally taxed at 10%",
+          "It does not name hotel rooms either way"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.airport-bus-86",
+      "topic": "fare",
+      "claim": "Noi Bai airport bus route 86 to Hanoi Railway Station costs 50,000 VND a trip, departing 7:00 to 22:15.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://noibaiairport.vn/en/public-transportations-nid1.html",
+          "kind": "official",
+          "title": "Noi Bai International Airport: transport to/from the airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "Route 86 runs to Hanoi Railway Station for 50,000 VND a trip",
+          "with departures from 7:00 to 22:15"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.airport-bus-17-90",
+      "topic": "fare",
+      "claim": "Noi Bai airport route 17 (to Long Bien, 5:10-22:00) and route 90 (to Kim Ma, 5:00-22:30) each cost 15,000 VND a trip.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://noibaiairport.vn/en/public-transportations-nid1.html",
+          "kind": "official",
+          "title": "Noi Bai International Airport: transport to/from the airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "Route 17 runs to Long Bien and route 90 to Kim Ma",
+          "each costs 15,000 VND a trip"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.airport-taxi",
+      "topic": "transport",
+      "claim": "The airport says taxis serving passengers must have working, calibrated meters, and publishes a taxi fare table applying from 1 March 2025 (the table itself is an image that was not read).",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://noibaiairport.vn/en/public-transportations-nid1.html",
+          "kind": "official",
+          "title": "Noi Bai International Airport: transport to/from the airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "working, calibrated meters",
+          "a fare table that applies from 1 March 2025"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.airport-code",
+      "topic": "transport",
+      "claim": "Noi Bai International Airport has IATA code HAN and is in Noi Bai Commune, Hanoi.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://noibaiairport.vn/en/noibai-interntional-airport-overview-pid3.html",
+          "kind": "official",
+          "title": "Noi Bai International Airport overview"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "Hanoi's airport is Noi Bai International, code HAN"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.net-rates",
+      "topic": "price",
+      "claim": "La Siesta's offers pages quote packages 'Net' rates 'including tax and service charge'.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://lasiestahotels.com/mamay/",
+          "kind": "operator",
+          "title": "La Siesta Classic Ma May"
+        },
+        {
+          "url": "https://lasiestahotels.com/lakeside/",
+          "kind": "operator",
+          "title": "La Siesta Premium Lakeside"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "which means the price is all-in",
+          "including tax and service charge"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.place-old-quarter",
+      "topic": "place",
+      "claim": "Church Boutique Hotel's page describes Hang Gai as Hanoi's 'Silk Street' and Dong Xuan Market as the largest traditional market in Hanoi, within walking distance of the hotel.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.churchhotel.com.vn/church-boutique-hotel-95-hang-gai/",
+          "kind": "operator",
+          "title": "Church Boutique Hotel 95 Hang Gai"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "Hang Gai is known as Silk Street",
+          "Hanoi's largest traditional market by one hotel's account"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.place-hoan-kiem",
+      "topic": "place",
+      "claim": "Hanoi Pearl Hotel's site places Ngoc Son Temple, the Thang Long Water Puppet Theatre and St Joseph's Cathedral within a few minutes' walk of Hoan Kiem Lake.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://hanoipearlhotel.com/",
+          "kind": "operator",
+          "title": "Hanoi Pearl Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "Ngoc Son Temple on its shore",
+          "the Thang Long Water Puppet Theatre nearby"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.place-ba-dinh-west-lake",
+      "topic": "place",
+      "claim": "Fraser Suites' Hanoi guide lists the Ho Chi Minh complex (mausoleum and presidential palace), Tran Quoc Pagoda (oldest Buddhist pagoda in Hanoi, on a small peninsula in West Lake) and the Xuan Dieu-Quang An dining strip (7-minute walk from the hotel).",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.frasershospitality.com/en/vietnam/hanoi/fraser-suites-hanoi/city-guide/",
+          "kind": "operator",
+          "title": "Fraser Suites Hanoi: city guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "Ba Dinh holds the Ho Chi Minh complex",
+          "which Fraser calls the oldest Buddhist pagoda in Hanoi",
+          "stands on a small peninsula in the lake"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.la-siesta-classic-ma-may",
+      "topic": "hotel",
+      "claim": "La Siesta Classic Ma May (formerly Hanoi La Siesta Hotel & Spa) opened in November 2014 with 65 rooms and suites, Moonlight Sky Bar, La Spa and gym, Red Bean Restaurant; the La Siesta site lists four Hanoi properties.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://lasiestahotels.com/mamay/",
+          "kind": "operator",
+          "title": "La Siesta Classic Ma May"
+        },
+        {
+          "url": "https://lasiestahotels.com/our-properties",
+          "kind": "operator",
+          "title": "La Siesta Hotels: our properties"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "it opened in November 2014 with 65 rooms and suites",
+          "La Siesta runs four Hanoi hotels"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.church-boutique-95-hang-gai",
+      "topic": "hotel",
+      "claim": "Church Boutique Hotel 95 Hang Gai is a 35-room boutique hotel on Hang Gai; the Church group lists 58 Hang Gai, Hang Trong and Nha Tho hotels.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.churchhotel.com.vn/church-boutique-hotel-95-hang-gai/",
+          "kind": "operator",
+          "title": "Church Boutique Hotel 95 Hang Gai"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "A boutique hotel of 35 rooms on Hang Gai",
+          "the Church group runs several hotels"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.hanoi-backpackers",
+      "topic": "hotel",
+      "claim": "Hanoi Backpackers Hostel & Rooftop Bar, 1 Hai Tuong lane / Ta Hien Street, offers 6-, 8- and 12-bed dorms, a 25 m2 Deluxe Double and a 30 m2 Family Room, and sells tours at its front desk.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://hanoibackpackershostels.com/rooms.html",
+          "kind": "operator",
+          "title": "Hanoi Backpackers Hostel: rooms"
+        },
+        {
+          "url": "https://hanoibackpackershostels.com/",
+          "kind": "operator",
+          "title": "Hanoi Backpackers Hostel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "a 25 m² Deluxe Double and a 30 m² Family Room",
+          "its front desk also sells tours"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.apricot",
+      "topic": "hotel",
+      "claim": "Apricot Hotel, 136 Hang Trong, has 123 rooms (Sketch 25-30 m2, Canvas 30-32 m2, Gallery 50 m2, Masterpiece 80 m2), rooftop bar One36, and a press release warning of fake websites impersonating the hotel.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://apricothotels.com/apricot-rooms/",
+          "kind": "operator",
+          "title": "Apricot Hotel: rooms"
+        },
+        {
+          "url": "https://apricothotels.com/",
+          "kind": "operator",
+          "title": "Apricot Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "with 123 rooms hung with original paintings",
+          "warns of fake websites and accounts that impersonate it"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.hanoi-pearl",
+      "topic": "hotel",
+      "claim": "Hanoi Pearl Hotel, 6 Bao Khanh Lane, calls itself a 4-star boutique hotel a minute's walk from Hoan Kiem Lake, with Pearl Lounge on the roof, The Candles Restaurant and P-spa; it calls Bao Khanh Lane 'famous animated'.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://hanoipearlhotel.com/",
+          "kind": "operator",
+          "title": "Hanoi Pearl Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "which the hotel calls \"famous animated\"",
+          "The hotel puts the lake a minute's walk away"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.la-siesta-premium-lakeside",
+      "topic": "hotel",
+      "claim": "La Siesta Premium Lakeside is on the banks of Hoan Kiem Lake with an outdoor pool overlooking the lake; its lake-facing rooms are the Suites.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://lasiestahotels.com/lakeside/",
+          "kind": "operator",
+          "title": "La Siesta Premium Lakeside"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "an outdoor pool that looks over the lake",
+          "the hotel's lake-facing rooms are its Suites"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.metropole",
+      "topic": "hotel",
+      "claim": "Sofitel Legend Metropole Hanoi, 15 Ngo Quyen Street, steps from the Opera House, open since 1901, has 358 rooms and suites and a historic Heritage Wing, and says it won two MICHELIN Keys in 2026.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.sofitel-legend-metropole-hanoi.com/",
+          "kind": "operator",
+          "title": "Sofitel Legend Metropole Hanoi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "open since 1901, with 358 rooms and suites",
+          "two MICHELIN Keys in 2026"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.de-l-opera",
+      "topic": "hotel",
+      "claim": "Hotel de l'Opera Hanoi - MGallery, 29 Trang Tien Street, is adjacent to the Hanoi Opera House; Junior Suite, L'Opera Suite and Executive Suite are listed as Opera House View.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://hoteldelopera.com/",
+          "kind": "operator",
+          "title": "Hotel de l'Opera Hanoi - MGallery"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "next to the Opera House",
+          "the Opera House views belong to the Junior Suite and above"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.pan-pacific",
+      "topic": "hotel",
+      "claim": "Pan Pacific Hanoi, 1 Thanh Nien Road, Ba Dinh Ward, has twin views of West Lake and Truc Bach Lake and describes itself as on the fringe of the city centre.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.panpacific.com/en/hotels-and-resorts/pp-hanoi.html",
+          "kind": "operator",
+          "title": "Pan Pacific Hanoi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "with twin views of West Lake and Truc Bach Lake",
+          "on the fringe of the city centre"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.fte-ba-dinh",
+      "topic": "hotel",
+      "claim": "FTE Ba Dinh Hotel, 268 Buoi Street, says rooms include a private bath, wi-fi, cable TV and full breakfast, with a pool and gym on the top floor and the Tequila rooftop bar.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://ftebadinhhotel.com/contact",
+          "kind": "operator",
+          "title": "FTE Ba Dinh Hotel: contact"
+        },
+        {
+          "url": "https://ftebadinhhotel.com/",
+          "kind": "operator",
+          "title": "FTE Ba Dinh Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "rooms that include a private bath, wi-fi, cable television and full breakfast",
+          "the Tequila rooftop bar"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.hanoi-club",
+      "topic": "hotel",
+      "claim": "The Hanoi Club Hotel & Residences, 76 Yen Phu Street, on the shore of West Lake, has 88 hotel rooms and says hotel guests have access to club facilities; one lake-view room measures 35-40 m2.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.thehanoiclub.com/hotel/",
+          "kind": "operator",
+          "title": "The Hanoi Club: hotel"
+        },
+        {
+          "url": "https://www.thehanoiclub.com/",
+          "kind": "operator",
+          "title": "The Hanoi Club"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "with 88 hotel rooms, an outdoor pool and The Cove restaurant",
+          "One of its lake-view rooms measures 35 to 40 m²"
+        ]
+      }
+    },
+    {
+      "id": "vn.hanoi.hotel.fraser-suites",
+      "topic": "hotel",
+      "claim": "Fraser Suites Hanoi, 51 Xuan Dieu Street in Syrena Tower, has 280 serviced residences, a rooftop pool and Mizumi on level 13; a coffee machine is only in Executive categories; it describes the Old Quarter as a 10-minute drive.",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.frasershospitality.com/en/vietnam/hanoi/fraser-suites-hanoi/",
+          "kind": "operator",
+          "title": "Fraser Suites Hanoi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hanoi.html": [
+          "with 280 serviced residences from studios to duplexes",
+          "a coffee machine comes only in the Executive categories"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.service-charge-plus-plus",
+      "topic": "price",
+      "claim": "The Caravelle Saigon's offer terms state that rates are subject to a 5% service charge and current government tax, and the hotel quotes a deluxe room at VND 3,800,000++ per night in a Tet 2026 offer (stay 9-23 February 2026); other hotels set their own service charge.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.caravellehotel.com/2025/06/07/room-offers/",
+          "kind": "official",
+          "title": "Caravelle Saigon: Tet exclusive offer and terms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "states that its rates are subject to a 5% service charge and current government tax",
+          "VND 3,800,000++ a night"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.tourist-tax",
+      "topic": "tax",
+      "claim": "In 2017 Ho Chi Minh City's tourism department proposed a charge of VND 23,000 a night on visitors in city accommodation and the city's vice chairman rejected it; no current city tourist tax was found.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://e.vnexpress.net/news/travel-life/travel/ho-chi-minh-city-rejects-plan-to-tax-tourists-for-overnight-stays-3655002.html",
+          "kind": "secondary",
+          "title": "VnExpress International: Saigon rejects plan to tax tourists for overnight stays (12 Oct 2017)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "The city rejected a proposed VND 23,000 a night in 2017",
+          "has no tourist tax that we could find"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.metro-fares",
+      "topic": "fare",
+      "claim": "Metro Line 1 single-trip fares are by distance, VND 7,000 to 20,000 in cash and VND 1,000 less cashless (VND 6,000 to 19,000); from Ben Thanh it is VND 7,000 to Thao Dien and VND 20,000 to Suoi Tien Terminal; a one-day pass is VND 40,000 and a three-day pass VND 90,000.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://en.vneconomy.vn/hcmc-sets-metro-ticket-prices.htm",
+          "kind": "secondary",
+          "title": "VnEconomy: HCMC sets metro ticket prices (reports the People's Committee decision, 23 Nov 2024)"
+        },
+        {
+          "url": "https://hochiminhcitymetro.com/tickets",
+          "kind": "secondary",
+          "title": "Ho Chi Minh City Metro Guide (independent, not the operator): Line 1 tickets, fares from Ben Thanh"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "VND 7,000 to 20,000 in cash and VND 1,000 less cashless",
+          "VND 7,000 to Thao Dien and VND 20,000 to the end",
+          "A one-day pass costs VND 40,000 and a three-day pass VND 90,000"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.metro-line1",
+      "topic": "transport",
+      "claim": "Metro Line 1 opened on 22 December 2024 and has 14 stations from Ben Thanh via Opera House, Ba Son, Van Thanh Park, Tan Cang, Thao Dien and An Phu to Suoi Tien Terminal; it does not serve Tan Son Nhat Airport.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://hochiminhcitymetro.com/about/",
+          "kind": "secondary",
+          "title": "Ho Chi Minh City Metro Guide (independent): about"
+        },
+        {
+          "url": "https://hochiminhcitymetro.com/tickets",
+          "kind": "secondary",
+          "title": "Ho Chi Minh City Metro Guide: station list and fares"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_Metro_Line_1",
+          "kind": "secondary",
+          "title": "Wikipedia: Ho Chi Minh City Metro Line 1 (station order)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "opened on 22 December 2024",
+          "Line 1 does not reach the airport. It runs 14 stations from Ben Thanh"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.bus-109",
+      "topic": "transport",
+      "claim": "Route 109 runs between the Sai Gon bus station (Pham Ngu Lao) and Terminal 3 of Tan Son Nhat Airport; the city's Public Transport Management Centre announced on 28 April 2025 hours of 5:30-22:40 at T3 and 5:45-22:30 at the bus station, every 15-25 minutes, about 9.3 km and about 45 minutes on average; no current adult fare could be confirmed from the operator.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.sggp.org.vn/tuyen-xe-buyt-109-ket-noi-truc-tiep-nha-ga-t3-san-bay-tan-son-nhat-post792893.html",
+          "kind": "secondary",
+          "title": "Saigon Giai Phong: route 109 connects directly to Terminal 3 (reports the Centre's announcement, 28 Apr 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "from 5:30 to 22:40 at the airport end and from 5:45 to 22:30 at the bus station, every 15 to 25 minutes",
+          "over about 9.3 km in around 45 minutes"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.airport-drive-times",
+      "topic": "transport",
+      "claim": "Hotels publish drive times from Tan Son Nhat Airport: Hotel des Arts Saigon 20 minutes, Novotel Saigon Centre a 20-minute drive, Hotel Nikko Saigon 25 minutes; the Majestic, Nikko and Windsor Plaza offer airport transfers.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.hoteldesartssaigon.com/",
+          "kind": "official",
+          "title": "Hotel des Arts Saigon"
+        },
+        {
+          "url": "https://all.accor.com/hotel/7965/index.en.shtml",
+          "kind": "official",
+          "title": "Novotel Saigon Centre (Accor)"
+        },
+        {
+          "url": "https://hotelnikkosaigon.com.vn/",
+          "kind": "official",
+          "title": "Hotel Nikko Saigon"
+        },
+        {
+          "url": "https://www.majesticsaigon.com/",
+          "kind": "official",
+          "title": "Hotel Majestic Saigon"
+        },
+        {
+          "url": "https://windsorplazahotel.com/",
+          "kind": "official",
+          "title": "Windsor Plaza Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "give 20 to 25 minutes",
+          "as the Majestic, the Nikko and the Windsor Plaza all offer one"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.majestic",
+      "topic": "hotel",
+      "claim": "Hotel Majestic Saigon is at 1 Dong Khoi Street on the Saigon River; a five-star heritage hotel since 1925 with 175 rooms and suites, a pool and the M Bar rooftop bar; its Century Deluxe page says some rooms have limited views and rooms are assigned on check-in.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.majesticsaigon.com/",
+          "kind": "official",
+          "title": "Hotel Majestic Saigon (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "a five-star heritage hotel since 1925, with 175 rooms and suites, a pool and the M Bar rooftop bar",
+          "some Century Deluxe rooms have limited views and that rooms are assigned on check-in"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.caravelle",
+      "topic": "hotel",
+      "claim": "Caravelle Saigon is at 19-23 Lam Son Square facing the Opera House; the hotel cites 66 years of legacy; Deluxe rooms are about 34 sqm and Opera rooms have large soundproofed windows.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.caravellehotel.com/rooms-suites/",
+          "kind": "official",
+          "title": "Caravelle Saigon (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "with 66 years of history by the hotel's count; the Deluxe rooms are about 34 m² and the Opera rooms have large soundproofed windows"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.rex",
+      "topic": "hotel",
+      "claim": "Rex Hotel Saigon is at 141 Nguyen Hue with 286 rooms and suites; Deluxe rooms in the East Wing are 28 sqm; it began as a French garage in the early 20th century; the hotel says rooms vary in standard, style and size.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.rexhotelsaigon.com/accommodation/",
+          "kind": "official",
+          "title": "Rex Hotel Saigon (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "a five-star of 286 rooms and suites that began as a French garage in the early 20th century",
+          "the Deluxe rooms in the East Wing are 28 m²",
+          "the hotel says its rooms vary in standard, style and size"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.silverland-ben-thanh",
+      "topic": "hotel",
+      "claim": "Silverland Ben Thanh Hotel is at 14-16 Le Lai; the hotel describes itself as steps from Ben Thanh Market and directly opposite Metro Line 1; rooms listed at 26-38 sqm; rooftop swimming pool; Smith's Kitchen & Bar on the 12th floor; connecting rooms.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://silverlandhotels.com/silverland-ben-thanh-hotel",
+          "kind": "official",
+          "title": "Silverland Ben Thanh Hotel (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "steps from the market and directly opposite Metro Line 1",
+          "the rooms on its site measure 26 to 38 m²"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.liberty-central",
+      "topic": "hotel",
+      "claim": "Liberty Central Saigon Citypoint is at 59 Pasteur on the corner of Le Loi, with 171 rooms and suites, an infinity rooftop pool, Above Sky Bar and an in-house cinema; its site offers 25% off the best available rate for bookings at least 14 days ahead; no room sizes published.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.libertycentralsaigoncitypoint.com/en/",
+          "kind": "official",
+          "title": "Liberty Central Saigon Citypoint (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "with 171 rooms and suites, an infinity rooftop pool, the Above Sky Bar and an in-house cinema",
+          "25% off the best available rate for bookings made at least 14 days ahead"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.common-room",
+      "topic": "hotel",
+      "claim": "The Common Room Project is a hostel at 250 Bui Vien with a 14-bed mixed dorm with a full-length balcony onto the walking street, an 8-bed female-only dorm, a private ensuite room and a nightly family-style dinner.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.thecommonroomproject.com/",
+          "kind": "official",
+          "title": "The Common Room Project (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "with a 14-bed mixed dorm whose full-length balcony looks onto the walking street, an 8-bed female-only dorm, a private ensuite room and a family-style dinner every night"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.hotel-des-arts",
+      "topic": "hotel",
+      "claim": "Hotel des Arts Saigon (MGallery) is at 76-78 Nguyen Thi Minh Khai, officially opened October 2015; Deluxe rooms are 30 sqm; The Albion by Kirk Westaway on the 23rd floor and Social Club Rooftop Bar on the 24th; the owner's art collection is displayed in the corridors; Booking.com lists it in District 3.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.hoteldesartssaigon.com/",
+          "kind": "official",
+          "title": "Hotel des Arts Saigon (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "open since October 2015, with an art collection in the corridors, 30 m² Deluxe rooms, The Albion by Kirk Westaway on the 23rd floor and the Social Club Rooftop Bar on the 24th"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.novotel-saigon-centre",
+      "topic": "hotel",
+      "claim": "Novotel Saigon Centre is a four-star at 167 Hai Ba Trung with 247 rooms, a pool, Food Exchange restaurant and the 20th-floor OnTop bar; Superior rooms are 27 sqm; Accor lists Notre-Dame Basilica 700 m and Ben Thanh Market 1.8 km (22 minutes' walk).",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/7965/index.en.shtml",
+          "kind": "official",
+          "title": "Novotel Saigon Centre (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "a four-star of 247 rooms, with a pool, the Food Exchange restaurant and the OnTop bar on the 20th floor; the Superior rooms are 27 m²",
+          "Accor puts Ben Thanh Market 1.8 km and 22 minutes' walk away, and the Notre-Dame Basilica 700 m"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.villa-song",
+      "topic": "hotel",
+      "claim": "Villa Song Saigon is at 197/2 Nguyen Van Huong in Thao Dien, a French colonial boutique hotel on the Saigon River; Villa Rooms are 26-41 sqm with a la carte breakfast 6:30-10:30am, pool and gym access.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.villasong.com/",
+          "kind": "official",
+          "title": "Villa Song Saigon (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "a French colonial boutique hotel on the Saigon River, with Villa Rooms of 26 to 41 m², a pool and a gym",
+          "breakfast is à la carte, served from 6:30am to 10:30am"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.landmark-81",
+      "topic": "hotel",
+      "claim": "Vinpearl Landmark 81, Autograph Collection is at 720A Dien Bien Phu in Landmark 81, Vietnam's tallest building, with 223 rooms with floor-to-ceiling windows, an infinity pool on the 47th floor, Oriental Pearl on the 66th; the hotel says Tan Cang Metro Station is under 10 minutes away by electric bus.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/sgnak-vinpearl-landmark-81-autograph-collection/overview/",
+          "kind": "official",
+          "title": "Vinpearl Landmark 81, Autograph Collection (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "with 223 rooms with floor-to-ceiling windows, an infinity pool on the 47th floor and the Oriental Pearl restaurant on the 66th",
+          "puts Tan Cang metro station under 10 minutes away by electric bus"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.windsor-plaza",
+      "topic": "hotel",
+      "claim": "Windsor Plaza Hotel is in District 5 (hotel entrance 1 Su Van Hanh; Booking.com lists 18 An Duong Vuong), with a pool and fitness centre on the 24th floor, an executive lounge on the 25th and a complimentary city shuttle; Deluxe Twin and King rooms are 32 sqm.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://windsorplazahotel.com/",
+          "kind": "official",
+          "title": "Windsor Plaza Hotel (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "with a pool and fitness centre on the 24th floor, an executive lounge on the 25th, the Top of the Town restaurant and a complimentary city shuttle; the Deluxe Twin and King rooms are 32 m²"
+        ]
+      }
+    },
+    {
+      "id": "vn.hcmc.hotel.nikko",
+      "topic": "hotel",
+      "claim": "Hotel Nikko Saigon is at 235 Nguyen Van Cu, a 23-storey hotel with 334 rooms and 53 service apartments, 40 sqm Deluxe rooms, a garden pool on the fourth floor, Ming Court; the hotel lists driving times of 10 minutes to Ben Thanh Market, 12 to the Notre-Dame Basilica and Saigon Opera House and 25 to the airport.",
+      "checked": "2026-10-18",
+      "sources": [
+        {
+          "url": "https://hotelnikkosaigon.com.vn/",
+          "kind": "official",
+          "title": "Hotel Nikko Saigon (official website)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-ho-chi-minh-city.html": [
+          "a 23-storey hotel of 334 rooms and 53 service apartments with 40 m² Deluxe rooms, a garden pool on the fourth floor and the Ming Court restaurant",
+          "10 minutes to Ben Thanh Market and 12 to the Opera House"
+        ]
+      }
+    }
+  ]
+}

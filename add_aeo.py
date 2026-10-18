@@ -419,6 +419,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-ho-chi-minh-city": dict(
+        text="For a first trip, stay in Dong Khoi: the Opera House, Nguyen Hue and the river on foot, with Line 1's Opera House station nearby. Choose Ben Thanh for the market and metro, District 3 for quiet, Thao Dien for the river. Rates are often quoted \"++\": add service charge and tax.",
+        link_text="Dong Khoi",
+        cta=_stay_cta("where-to-stay-in-ho-chi-minh-city", "See hotels around Dong Khoi")),
+    "where-to-stay-in-hanoi": dict(
+        text="For a first trip, stay in the Old Quarter: narrow trading streets, with the lake a short walk away. Choose the French Quarter for grand hotels, Ba Dinh for the Mausoleum and West Lake for views. VAT is 8% until 31 December 2026, then 10% unless extended.",
+        link_text="the Old Quarter",
+        cta=_stay_cta("where-to-stay-in-hanoi", "See hotels around the Old Quarter")),
     "where-to-stay-in-vancouver": dict(
         text="For a first trip, stay Downtown or in Coal Harbour: the seawall, Gastown and the Canada Line to the airport on foot. Choose the West End for Stanley Park and English Bay, Yaletown or Granville Island for False Creek. Taxes add about 19.2% to the room rate.",
         link_text="Coal Harbour",
@@ -1227,6 +1235,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-ho-chi-minh-city": ["Caravelle Saigon", "Silverland Ben Thanh Hotel", "Liberty Central Saigon Citypoint"],
+    "where-to-stay-in-hanoi": ["La Siesta Classic Ma May", "Sofitel Legend Metropole Hanoi", "Hanoi Backpackers Hostel & Rooftop Bar"],
     "where-to-stay-in-vancouver": ["Fairmont Pacific Rim", "Blue Horizon Hotel", "The Burrard"],
     "where-to-stay-in-montreal": ["Hotel Saint-Sulpice", "Hotel William Gray", "M Montreal"],
     "where-to-stay-in-zurich": ["Hotel Adler Zürich", "Sorell Hotel Seefeld", "Storchen Zürich"],
@@ -1326,6 +1336,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Ho Chi Minh City", "where-to-stay-in-ho-chi-minh-city", None, None),
+        ("Hanoi", "where-to-stay-in-hanoi", None, None),
         ("Vancouver", "where-to-stay-in-vancouver", None, None),
         ("Montreal", "where-to-stay-in-montreal", None, None),
         ("Zurich", "where-to-stay-in-zurich", None, None),

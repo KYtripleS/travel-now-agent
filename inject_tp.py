@@ -351,6 +351,10 @@ REGISTRY: dict[str, str] = {
         "Before you land in Paris", ["tiqets", "welcomepickups", "airalo"]),
     "articles/where-to-stay-in-new-york.html": cta(
         "Before you land in New York", ["tiqets", "airalo", "aviasales"]),
+    "articles/where-to-stay-in-ho-chi-minh-city.html": cta(
+        "Before you land in Ho Chi Minh City", ["tiqets", "welcomepickups", "airalo"]),
+    "articles/where-to-stay-in-hanoi.html": cta(
+        "Before you land in Hanoi", ["tiqets", "welcomepickups", "airalo"]),
     "articles/where-to-stay-in-vancouver.html": cta(
         "Before you land in Vancouver", ["tiqets", "welcomepickups", "airalo"]),
     "articles/where-to-stay-in-montreal.html": cta(

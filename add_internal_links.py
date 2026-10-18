@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-ho-chi-minh-city.html": (
+        "Where to Stay in Ho Chi Minh City",
+        "Five areas, 12 hotels, what \"++\" adds to a Vietnamese hotel bill, the 8% VAT cut and the airport and metro links.",
+    ),
+    "articles/where-to-stay-in-hanoi.html": (
+        "Where to Stay in Hanoi",
+        "Five areas, 12 hotels, and how Vietnam's 8% VAT (10% from 2027) shows up on a Hanoi hotel bill.",
+    ),
     "articles/where-to-stay-in-vancouver.html": (
         "Where to Stay in Vancouver",
         "Five areas, 12 hotels, why taxes add about 19% to a room, and the Canada Line from YVR with its $6.50 AddFare.",
@@ -1969,6 +1977,18 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-ho-chi-minh-city.html": [
+        "articles/ho-chi-minh-city-first-timers-guide.html",
+        "articles/things-to-do-in-ho-chi-minh-city.html",
+        "articles/best-esim-vietnam-2026.html",
+        "articles/where-to-stay-in-bangkok.html",
+    ],
+    "articles/where-to-stay-in-hanoi.html": [
+        "articles/hanoi-first-timers-guide.html",
+        "articles/things-to-do-in-hanoi.html",
+        "articles/halong-bay-cruises-from-hanoi.html",
+        "articles/best-esim-vietnam-2026.html",
     ],
     "articles/where-to-stay-in-vancouver.html": [
         "articles/where-to-stay-in-new-york.html",
