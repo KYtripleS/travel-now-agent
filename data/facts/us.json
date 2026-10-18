@@ -720,6 +720,660 @@
           "The Four Seasons puts it 35 minutes from downtown Honolulu"
         ]
       }
+    },
+    {
+      "id": "us.la.tot-14",
+      "topic": "tax",
+      "claim": "The City of Los Angeles transient occupancy tax is 14%, applicable to all properties rented to transients (stays of 30 days or less).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://finance.lacity.gov/transient-occupancy-tax-requirements",
+          "kind": "official",
+          "title": "City of Los Angeles Office of Finance: Transient Occupancy Tax Requirements"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "charges 14%",
+          "The Office of Finance states the 14% rate",
+          "14% of the room rate"
+        ]
+      }
+    },
+    {
+      "id": "us.la.latmd-2pct",
+      "topic": "tax",
+      "claim": "The Los Angeles Tourism Marketing District (LATMD) 2025-2034 plan sets an initial assessment of 2% of gross short-term room revenue for hotels of 50 or more rooms, which the district may raise to a 3% maximum; an assessment passed on to guests must be disclosed separately.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://cityclerk.lacity.org/onlinedocs/2014/14-0943-S3_misc_2_%202-12-25.pdf",
+          "kind": "official",
+          "title": "Los Angeles City Clerk, council file 14-0943: LATMD management plan 2025-2034 (dated 14 February 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "2% under the district's 2025–2034 plan",
+          "sets an initial rate of 2% for hotels of 50 or more rooms, lets the district raise it to 3%",
+          "says an assessment passed on to guests must be shown separately"
+        ]
+      },
+      "note": "Plan text (Feb 2025) read; the Office of Finance TOT page does not mention the LATMD, and I did not find the adopting ordinance. 2% is also the rate on discoverlosangeles.com (operator, since 1 May 2022). Editor: soften if the plan was not adopted as written."
+    },
+    {
+      "id": "us.la.prop-tt-2026",
+      "topic": "tax",
+      "claim": "On 2 June 2026 Los Angeles voters rejected Proposition TT (raise the city hotel tax from 14% to 16% through 2028, then 15%): 364,855 yes, 409,260 no. Proposition TC (online travel companies) passed 451,741 to 331,644.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1100_misc_clk_certification_6-29-26.pdf",
+          "kind": "official",
+          "title": "Los Angeles City Clerk: certification of the 2 June 2026 Primary Nominating Election results"
+        },
+        {
+          "url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1100-S3_misc_06-30-26.pdf",
+          "kind": "official",
+          "title": "Los Angeles City Council resolution on Proposition TT (declared rejected; text mislabels it TC)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "which would have raised the city rate from 14% to 16% through 2028",
+          "the certified count was 364,855 yes and 409,260 no, so 14% stands",
+          "passed 451,741 to 331,644"
+        ]
+      },
+      "note": "The signed resolution's operative paragraph says 'Proposition TC ... rejected' but its measure text is TT (typo in the city document); the certified vote table is unambiguous: TT 364,855/409,260 (fails), TC 451,741/331,644 (passes). Effect of TC on guest bills not verified."
+    },
+    {
+      "id": "us.santamonica.tot-15",
+      "topic": "tax",
+      "claim": "Santa Monica levies a 15% tax on hotel and motel rooms (from 1 March 2023); the 2026 Tourism Marketing District assessment is $2.30 a room night for hotels with an average daily rate of $100-$199.99, $6.25 for $200-$299.99 and $7.25 above $300.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.santamonica.gov/transient-occupancy-tax",
+          "kind": "official",
+          "title": "City of Santa Monica: Transient Occupancy Tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "Santa Monica charges 15%",
+          "Santa Monica's 2026 rates are $2.30 a room night for hotels averaging $100 to $199.99, $6.25 for $200 to $299.99, and $7.25 above $300"
+        ]
+      }
+    },
+    {
+      "id": "us.weho.tot-12-5",
+      "topic": "tax",
+      "claim": "West Hollywood's transient occupancy tax is 12.5% of hotel rent; hotels in the West Hollywood Tourism Improvement District also pay a 3% assessment that may be passed on to the guest.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.weho.org/city-government/city-departments/finance-and-technology-services/revenue-management/transient-occupancy-tax",
+          "kind": "official",
+          "title": "City of West Hollywood: Transient Occupancy Tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "West Hollywood 12.5%",
+          "12.5% plus a 3% district assessment",
+          "3% Tourism Improvement District assessment, which may be passed on"
+        ]
+      }
+    },
+    {
+      "id": "us.elsegundo.tot-12",
+      "topic": "tax",
+      "claim": "El Segundo's transient occupancy tax is 12%, applicable to all properties rented to transients.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.elsegundo.gov/government/departments/finance/business-services/transient-occupancy-tax-tot",
+          "kind": "official",
+          "title": "City of El Segundo: Transient Occupancy Tax (TOT)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "El Segundo 12%",
+          "with the lowest base tax here, 12%"
+        ]
+      }
+    },
+    {
+      "id": "us.la.hotel-tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic, not an official figure: on a $300 room with everything passed on, tax and assessment come to $42.00 + $6.00 = $48.00 ($348.00) in the City of Los Angeles for a 50+ room hotel, $45.00 + up to $7.25 = $52.25 ($352.25) in Santa Monica, $37.50 + $9.00 = $46.50 ($346.50) in West Hollywood and $36.00 ($336.00) in El Segundo.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://finance.lacity.gov/transient-occupancy-tax-requirements",
+          "kind": "official",
+          "title": "City of Los Angeles Office of Finance"
+        },
+        {
+          "url": "https://www.santamonica.gov/transient-occupancy-tax",
+          "kind": "official",
+          "title": "City of Santa Monica"
+        },
+        {
+          "url": "https://www.weho.org/city-government/city-departments/finance-and-technology-services/revenue-management/transient-occupancy-tax",
+          "kind": "official",
+          "title": "City of West Hollywood"
+        },
+        {
+          "url": "https://www.elsegundo.gov/government/departments/finance/business-services/transient-occupancy-tax-tot",
+          "kind": "official",
+          "title": "City of El Segundo"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "between $336 and $352.25 a night",
+          "$42.00 plus $6.00, so $348.00 a night",
+          "$45.00 plus up to $7.25, so $352.25",
+          "$37.50 plus $9.00, so $346.50",
+          "$36.00, so $336.00"
+        ]
+      },
+      "note": "Derived arithmetic. Santa Monica's TMD fee depends on the hotel's average daily rate, so $7.25 applies only to hotels averaging over $300 and hotels may list extra charges (Casa del Mar lists $1.75 and $2.00 more)."
+    },
+    {
+      "id": "us.lax.lax-it",
+      "topic": "transport",
+      "claim": "Taxis and ride apps (Uber, Lyft) pick up at LAX-it, beside Terminal 1; Terminals 1 and 7 are a 3-8 minute walk, Terminals 4 and 5 about 19; a free LAX-it shuttle runs from the green LAX-it sign on the lower/arrivals level.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.flylax.com/lax-traffic-and-ground-transportation",
+          "kind": "official",
+          "title": "LAX: Getting To, From, and Around LAX (LAX-it & Shuttle)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "pick up at LAX-it, beside Terminal 1",
+          "a 3 to 8 minute walk from Terminals 1 and 7 and about 19 from Terminals 4 and 5",
+          "or take the free LAX-it shuttle from the green sign on the arrivals level"
+        ]
+      },
+      "note": "The LAX page still carries some pandemic-era wording; the LAX-it facts used are the walking times and shuttle location."
+    },
+    {
+      "id": "us.lax.flyaway-fare",
+      "topic": "fare",
+      "claim": "The LAX FlyAway bus runs between each LAX terminal and Union Station and Van Nuys; the one-way fare is $12.75; buses board on the Lower/Arrivals Level at the blue FlyAway columns; Union Station is served from Bus Stop 1 at Patsaouras Transit Plaza.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.flylax.com/flyaway-bus/fares-tickets",
+          "kind": "official",
+          "title": "LAX FlyAway: Fares & Tickets"
+        },
+        {
+          "url": "https://www.flylax.com/flyaway-bus",
+          "kind": "official",
+          "title": "LAX FlyAway Bus"
+        },
+        {
+          "url": "https://www.flylax.com/flyaway-bus/union-station",
+          "kind": "official",
+          "title": "LAX FlyAway: Union Station"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "nonstop between LAX and Union Station, and Van Nuys, for $12.75 one way",
+          "from the blue FlyAway columns on the arrivals level"
+        ]
+      }
+    },
+    {
+      "id": "us.lax.metro-transit-center",
+      "topic": "transport",
+      "claim": "The LAX/Metro Transit Center opened on 6 June 2025 on the C Line and K Line; a free LAX shuttle runs every 10 minutes between its Bus Bays 1 and 2 and all LAX terminals, a temporary arrangement until the LAX people mover opens.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.metro.net/destinations/lax/",
+          "kind": "official",
+          "title": "LA Metro: Go Metro to LAX"
+        },
+        {
+          "url": "https://thesource.metro.net/how-to-use-the-lax-metro-transit-center-with-new-bus-and-rail-connections/",
+          "kind": "official",
+          "title": "LA Metro, The Source: How to use the LAX/Metro Transit Center (4 June 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "the LAX/Metro Transit Center opened on 6 June 2025, on the C Line and the K Line",
+          "A free shuttle runs every 10 minutes between its Bus Bays 1 and 2 and every terminal",
+          "Metro's blog calls it temporary until the LAX people mover opens"
+        ]
+      },
+      "note": "Shuttle frequency 'every 10 minutes' comes from Metro's The Source and LAX/Moovit coverage; the metro.net page says 'frequent'."
+    },
+    {
+      "id": "us.lax.skylink-delay",
+      "topic": "transport",
+      "claim": "NBC Los Angeles reported on 24 September 2026 that the LAX Automated People Mover (SkyLink) opening had moved to 6 January 2027.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://nbclosangeles.com/news/local/lax-automated-people-mover-opening-2027/3947154/",
+          "kind": "news",
+          "title": "NBC Los Angeles: LAX people mover opening moved to January 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "which NBC Los Angeles reported on 24 September 2026 had slipped to 6 January 2027"
+        ]
+      },
+      "note": "News report, via a WebFetch summary (article dated 24 Sept, updated 25 Sept 2026). Date may move again."
+    },
+    {
+      "id": "us.metro.fare-2026",
+      "topic": "fare",
+      "claim": "LA Metro's regular fare is $1.75 a ride with free transfers within two hours; fare capping stops at $5 a day and $18 over seven days when you tap.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.metro.net/fares/",
+          "kind": "official",
+          "title": "LA Metro: Fares"
+        },
+        {
+          "url": "https://www.metro.net/destinations/lax/",
+          "kind": "official",
+          "title": "LA Metro: Go Metro to LAX"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "Metro's fare is $1.75 a ride, with free transfers for two hours and caps of $5 a day and $18 a week when you tap"
+        ]
+      }
+    },
+    {
+      "id": "us.metro.lax-times",
+      "topic": "transport",
+      "claim": "Metro's The Source gives about 45-55 minutes from 7th St/Metro Center (E Line to Expo/Crenshaw, then K Line) and about 55-60 minutes from Downtown Santa Monica Station to the LAX/Metro Transit Center.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://thesource.metro.net/how-to-use-the-lax-metro-transit-center-with-new-bus-and-rail-connections/",
+          "kind": "official",
+          "title": "LA Metro, The Source: How to use the LAX/Metro Transit Center (4 June 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "Downtown to the airport's Metro station is about 45 to 55 minutes by rail, and Downtown Santa Monica 55 to 60",
+          "about 45 to 55 minutes to 7th St/Metro Center and 55 to 60 to Downtown Santa Monica, by Metro's count",
+          "take the K Line to Expo/Crenshaw and change to the E Line"
+        ]
+      },
+      "note": "Metro's times were published June 2025 and are approximate; the article describes the route from the E Line side to the K Line, reversed here."
+    },
+    {
+      "id": "us.metro.lines",
+      "topic": "transport",
+      "claim": "Metro's schedules page lists the E Line (East Los Angeles-Santa Monica), the B Line (Union Station-North Hollywood), Line 33 (Santa Monica-Downtown LA via Venice Bl), Line 10 (West Hollywood-Downtown LA via Temple St, Melrose Av) and Line 16 (West Hollywood-Downtown LA via West 3rd St).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.metro.net/riding/schedules/",
+          "kind": "official",
+          "title": "LA Metro: Line Schedules and Maps"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "the E Line runs from East Los Angeles to Santa Monica and the B Line from Union Station to North Hollywood",
+          "Line 33 links Santa Monica and Downtown by way of Venice Boulevard",
+          "Lines 10 and 16 West Hollywood and Downtown"
+        ]
+      },
+      "note": "'Hollywood is on the B Line' and 'no rail in Venice/WeHo' are general knowledge, not from the schedules page; Magic Castle Hotel's own site says Universal Studios is one Metro stop away."
+    },
+    {
+      "id": "us.la.santamonica-distance",
+      "topic": "place",
+      "claim": "Santa Monica Proper Hotel's FAQ says its location is about nine minutes' walk from Santa Monica Pier and six from Third Street Promenade; Hotel Erwin's page puts LAX about 7 miles away; Hilton's page puts Santa Monica Pier 9.5 miles from the Hampton Inn & Suites LAX-El Segundo.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.properhotel.com/santa-monica/faq/",
+          "kind": "official",
+          "title": "Santa Monica Proper Hotel: FAQ"
+        },
+        {
+          "url": "https://www.hotelerwin.com/",
+          "kind": "official",
+          "title": "Hotel Erwin"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/laxelhx-hampton-suites-lax-el-segundo/",
+          "kind": "official",
+          "title": "Hampton Inn & Suites LAX-El Segundo (Hilton)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "by the hotel's count the Promenade is about six minutes away on foot and the pier nine",
+          "Hotel Erwin puts LAX about 7 miles away",
+          "Hilton puts the Santa Monica Pier 9.5 miles from its hotel here"
+        ]
+      }
+    },
+    {
+      "id": "us.la.hotel-fees",
+      "topic": "price",
+      "claim": "Hotels' own pages list: Hotel Casa del Mar a $60 resort fee plus 15% tax, overnight parking $90, nightly charges of $7.25 (TMD), $1.75 and $2.00; The Hollywood Roosevelt a $37 daily destination fee inclusive of tax and $79 valet; Hotel Figueroa a $35 nightly amenity fee plus tax and $62 plus tax valet; Chamberlain West Hollywood a $40 amenity fee plus taxes, a $10 city worker protection fee and $70 valet; Hotel Erwin $60 valet; The Hoxton $66 valet; Sea Blue Hotel $33 parking; Santa Monica Proper Hotel $90 valet; Hampton Inn & Suites LAX-El Segundo $30 self-parking.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelcasadelmar.com/santa-monica-hotel-guide/",
+          "kind": "official",
+          "title": "Hotel Casa del Mar: Santa Monica Hotel Guide"
+        },
+        {
+          "url": "https://www.thehollywoodroosevelt.com/faq",
+          "kind": "official",
+          "title": "The Hollywood Roosevelt: FAQ"
+        },
+        {
+          "url": "https://www.hotelfigueroa.com/faq/",
+          "kind": "official",
+          "title": "Hotel Figueroa: FAQ"
+        },
+        {
+          "url": "https://www.chamberlainwesthollywood.com/",
+          "kind": "official",
+          "title": "Chamberlain West Hollywood"
+        },
+        {
+          "url": "https://www.hotelerwin.com/about/faqs/",
+          "kind": "official",
+          "title": "Hotel Erwin: FAQs"
+        },
+        {
+          "url": "https://thehoxton.com/downtown-la/faqs/",
+          "kind": "official",
+          "title": "The Hoxton, Downtown LA: FAQs"
+        },
+        {
+          "url": "https://www.seabluehotel.com/",
+          "kind": "official",
+          "title": "Sea Blue Hotel"
+        },
+        {
+          "url": "https://www.properhotel.com/santa-monica/faq/",
+          "kind": "official",
+          "title": "Santa Monica Proper Hotel: FAQ"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/laxelhx-hampton-suites-lax-el-segundo/",
+          "kind": "official",
+          "title": "Hampton Inn & Suites LAX-El Segundo (Hilton)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "Hotel Casa del Mar's guide lists a $60 resort fee plus 15% tax, on top of nightly district charges of $7.25, $1.75 and $2.00",
+          "The Hollywood Roosevelt lists a $37 destination fee inclusive of tax",
+          "Hotel Figueroa a $35 amenity fee plus tax",
+          "Chamberlain West Hollywood $40 plus taxes and a separate $10 city worker protection fee",
+          "from $30 a night at the Hampton Inn and $33 at Sea Blue Hotel to $79 at The Hollywood Roosevelt and $90 at Hotel Casa del Mar and Santa Monica Proper Hotel"
+        ]
+      },
+      "note": "Figures are the hotels' own, read 19 Oct 2026; fees change. Hotel pages for Erwin, Sea Blue and Magic Castle list no resort fee, but I read only the home/FAQ pages. Sunset Tower's pages showed no fee table."
+    },
+    {
+      "id": "us.la.hotel.casa-del-mar",
+      "topic": "hotel",
+      "claim": "Hotel Casa del Mar: oceanfront hotel at 1910 Ocean Way, Santa Monica, with eight room categories and ten suites, the restaurant Terrazza and the Sea Wellness Spa; its guide lists a $60 resort fee plus 15% tax and $90 overnight parking.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelcasadelmar.com/",
+          "kind": "official",
+          "title": "Hotel Casa del Mar"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 1910 Ocean Way, an oceanfront hotel with eight room categories, ten suites, the restaurant Terrazza and the Sea Wellness Spa",
+          "overnight parking at $90"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: hotelcasadelmar.com/accommodations/ and /santa-monica-hotel-guide/"
+    },
+    {
+      "id": "us.la.hotel.sm-proper",
+      "topic": "hotel",
+      "claim": "Santa Monica Proper Hotel: 700 Wilshire Boulevard, 262 rooms and suites designed by Kelly Wearstler, a rooftop pool and the restaurant Calabra; its FAQ says valet parking is $90.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.properhotel.com/santa-monica/",
+          "kind": "official",
+          "title": "Santa Monica Proper Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 700 Wilshire Boulevard, with 262 rooms and suites designed by Kelly Wearstler, a rooftop pool and the restaurant Calabra",
+          "valet parking is $90"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: properhotel.com/santa-monica/ and /faq/"
+    },
+    {
+      "id": "us.la.hotel.sea-blue",
+      "topic": "hotel",
+      "claim": "Sea Blue Hotel: 1670 Ocean Avenue, a two-minute walk from Santa Monica Pier by its FAQ, free Wi-Fi, California Classic Queen rooms of 350 sq ft, limited first-come parking at $33 a vehicle a night.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.seabluehotel.com/",
+          "kind": "official",
+          "title": "Sea Blue Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 1670 Ocean Avenue, a two-minute walk from the pier by the hotel's FAQ, with free Wi-Fi and California Classic Queen rooms of 350 sq ft",
+          "parking is limited, first come, first served, at $33 a vehicle a night"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: seabluehotel.com (home, rooms, FAQ via WebFetch summary)"
+    },
+    {
+      "id": "us.la.hotel.erwin",
+      "topic": "hotel",
+      "claim": "Hotel Erwin: 1697 Pacific Avenue, Venice, 86 rooms and 33 suites, many with balconies, the Kassi Venice Beach Rooftop bar; valet parking $60 a vehicle a night.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelerwin.com/",
+          "kind": "official",
+          "title": "Hotel Erwin"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 1697 Pacific Avenue, steps from the Boardwalk, with 86 rooms, 33 suites, many with balconies, and the Kassi rooftop bar",
+          "valet parking is $60 a vehicle a night"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: hotelerwin.com and /about/faqs/"
+    },
+    {
+      "id": "us.la.hotel.samesun-venice",
+      "topic": "hotel",
+      "claim": "Samesun Venice Beach: hostel at 25 Windward Avenue, Venice, with dorms, private rooms, female-only dorms, free breakfast and a 24/7 reception.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://samesun.com/venice-beach-hostel/",
+          "kind": "official",
+          "title": "Samesun Venice Beach"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "A hostel at 25 Windward Avenue, with the Boardwalk at its door, dorms, private rooms, female-only dorms, free breakfast and a 24-hour reception"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: samesun.com/venice-beach-hostel/"
+    },
+    {
+      "id": "us.la.hotel.hollywood-roosevelt",
+      "topic": "hotel",
+      "claim": "The Hollywood Roosevelt: 7000 Hollywood Boulevard, built in 1927 and host of the first Academy Awards by its own account, with the Tropicana Pool, Gable and The Spare Room; $37 daily destination fee inclusive of tax, $79 valet.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.thehollywoodroosevelt.com/",
+          "kind": "official",
+          "title": "The Hollywood Roosevelt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 7000 Hollywood Boulevard, built in 1927 and host of the first Academy Awards by its own account",
+          "a $37 daily destination fee, inclusive of tax, and valet parking at $79 a night"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: thehollywoodroosevelt.com and /faq"
+    },
+    {
+      "id": "us.la.hotel.magic-castle",
+      "topic": "hotel",
+      "claim": "Magic Castle Hotel: 7025 Franklin Avenue, a former apartment building with an 88°F heated pool, free snacks, free laundry and a Popsicle Hotline; club access comes with direct bookings and a two-night minimum.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://magiccastlehotel.com/",
+          "kind": "official",
+          "title": "Magic Castle Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 7025 Franklin Avenue, in a former apartment building, with a heated pool at 88°F, free snacks, free laundry and a Popsicle Hotline",
+          "access to the private Magic Castle club comes with direct bookings and a two-night minimum"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: magiccastlehotel.com (home, /faq/)"
+    },
+    {
+      "id": "us.la.hotel.sunset-tower",
+      "topic": "hotel",
+      "claim": "Sunset Tower Hotel: 8358 Sunset Boulevard, with floor-to-ceiling windows, the Tower Bar, a guests-only pool, 24-hour room service and Superior Queen rooms of about 350 sq ft.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.sunsettowerhotel.com/",
+          "kind": "official",
+          "title": "Sunset Tower Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 8358 Sunset Boulevard, with floor-to-ceiling windows, the Tower Bar, a guests-only pool and 24-hour room service; Superior Queen rooms are about 350 sq ft"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: sunsettowerhotel.com, /rooms-suites, /amenities"
+    },
+    {
+      "id": "us.la.hotel.chamberlain",
+      "topic": "hotel",
+      "claim": "Chamberlain West Hollywood: 1000 Westmount Drive, 115 all-suite rooms with private balconies and fireplaces, a rooftop pool, Deluxe Suites of 350 sq ft; $40 amenity fee plus taxes, $10 city worker protection fee, $70 valet.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.chamberlainwesthollywood.com/",
+          "kind": "official",
+          "title": "Chamberlain West Hollywood"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 1000 Westmount Drive, one block off Sunset, with 115 all-suite rooms, private balconies and fireplaces, a rooftop pool and Deluxe Suites of 350 sq ft",
+          "a $40 amenity fee plus taxes, a $10 city worker protection fee, and valet parking at $70 a night"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: chamberlainwesthollywood.com (WebFetch summary)"
+    },
+    {
+      "id": "us.la.hotel.figueroa",
+      "topic": "hotel",
+      "claim": "Hotel Figueroa: 939 S. Figueroa Street, restored in the style of its 1926 original, steps from Crypto.com Arena and the Convention Center, with Cafe Fig and Bar Magnolia; $35 plus tax nightly amenity fee, $62 plus tax valet.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelfigueroa.com/",
+          "kind": "official",
+          "title": "Hotel Figueroa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 939 S. Figueroa Street, restored in the style of its 1926 original, steps from Crypto.com Arena and the Convention Center",
+          "every booking carries a $35 amenity fee plus tax a night, and valet parking is $62 plus tax"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: hotelfigueroa.com and /faq/"
+    },
+    {
+      "id": "us.la.hotel.hoxton-dtla",
+      "topic": "hotel",
+      "claim": "The Hoxton, Downtown LA: 1060 S. Broadway, 174 rooms and a rooftop pool over Broadway with Inanna Bar; valet parking $66 a night.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://thehoxton.com/downtown-la/",
+          "kind": "official",
+          "title": "The Hoxton, Downtown LA"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 1060 S. Broadway, with 174 rooms and a rooftop pool over Broadway with Inanna Bar",
+          "valet parking is $66 a night"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: thehoxton.com/downtown-la/ and /faqs/"
+    },
+    {
+      "id": "us.la.hotel.hampton-lax-el-segundo",
+      "topic": "hotel",
+      "claim": "Hampton Inn & Suites LAX-El Segundo: 888 N. Pacific Coast Highway, one mile from LAX and under five miles from SoFi Stadium and Manhattan Beach, free hot breakfast, free Wi-Fi, indoor pool, self-parking $30 a day.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/laxelhx-hampton-suites-lax-el-segundo/",
+          "kind": "official",
+          "title": "Hampton Inn & Suites LAX-El Segundo"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles.html": [
+          "At 888 N. Pacific Coast Highway, one mile from LAX and under five miles from SoFi Stadium and Manhattan Beach, with free hot breakfast, free Wi-Fi and an indoor pool",
+          "self-parking is $30 a day"
+        ]
+      },
+      "note": "Read from the hotel's own pages on 19 Oct 2026: hilton.com hotel page"
     }
   ]
 }

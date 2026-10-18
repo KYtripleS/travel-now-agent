@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-los-angeles": dict(area="Santa Monica", lat=34.0092, lng=-118.4973, zoom=15,
+                                            address="Santa Monica Pier, Santa Monica, CA, USA"),
     "where-to-stay-in-athens": dict(area="Plaka", lat=37.9728, lng=23.7312, zoom=15,
                                        address="Plaka, Athens, Greece"),
     "where-to-stay-in-honolulu": dict(area="Waikiki", lat=21.2807, lng=-157.8301, zoom=15,
@@ -761,6 +763,19 @@ HOTELS = {
     "St. George Lycabettus Lifestyle Hotel": _B + "gr/st-george-lycabettus.html",
     "Periscope": _B + "gr/periscope.html",
     "Piraeus Theoxenia Hotel": _B + "gr/piraeus-theoxenia.html",
+    # Los Angeles (Booking.com pages confirmed by hotel name and city)
+    "Hotel Casa del Mar": _B + "us/casa-del-mar-santa-monica.html",
+    "Santa Monica Proper Hotel": _B + "us/santa-monica-proper-hotel-a-member-of-design-hotels.html",
+    "Sea Blue Hotel": _B + "us/the-california.html",
+    "Hotel Erwin": _B + "us/erwin-venice.html",
+    "Samesun Venice Beach": _B + "us/venice-beach-cotel-los-angeles.html",
+    "The Hollywood Roosevelt": _B + "us/h-roosevelt-hollywood-california.html",
+    "Magic Castle Hotel": _B + "us/magic-castle.html",
+    "Sunset Tower Hotel": _B + "us/sunset-tower.html",
+    "Chamberlain West Hollywood": _B + "us/chamberlain-west-hollywood.html",
+    "Hotel Figueroa": _B + "us/figueroa.html",
+    "The Hoxton, Downtown LA": _B + "us/the-hoxton-downtown-los-angeles.html",
+    "Hampton Inn & Suites LAX-El Segundo": _B + "us/hampton-inn-suites-lax-el-segundo-ca.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

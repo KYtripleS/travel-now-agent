@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-los-angeles": dict(
+        text="For a first trip, stay in Santa Monica: the pier, Third Street Promenade and the beach are on foot, and Metro's E Line runs to Downtown. Choose Hollywood for the Walk of Fame, West Hollywood for nights out, Downtown for the trains. Hotel tax is 15% plus a district assessment.",
+        link_text="Santa Monica",
+        cta=_stay_cta("where-to-stay-in-los-angeles", "See hotels around Santa Monica")),
     "where-to-stay-in-athens": dict(
         text="For a first trip, stay in Plaka: the old streets under the Acropolis, between Acropolis and Monastiraki metro stations. Choose Syntagma for the airport bus, Koukaki for the Acropolis Museum and Piraeus for an early ferry. The climate resilience fee is €2 to €15 a room a night, April to October.",
         link_text="Plaka",
@@ -1251,6 +1255,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-los-angeles": ["Hotel Casa del Mar", "Santa Monica Proper Hotel", "Sea Blue Hotel"],
     "where-to-stay-in-athens": ["Electra Palace Athens", "Hotel Acropolis House", "Marble House Pension"],
     "where-to-stay-in-honolulu": ["Halekulani", "Surfjack Hotel & Swim Club", "Ohia Waikiki Studio Suites"],
     "where-to-stay-in-budapest": ["Gerlóczy Boutique Hotel", "Four Seasons Hotel Gresham Palace Budapest", "Hotel Moments Budapest"],
@@ -1356,6 +1361,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Los Angeles", "where-to-stay-in-los-angeles", None, None),
         ("Athens", "where-to-stay-in-athens", None, None),
         ("Honolulu", "where-to-stay-in-honolulu", None, None),
         ("Budapest", "where-to-stay-in-budapest", None, None),
