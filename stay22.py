@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-da-nang": dict(area="My Khe", lat=16.0615, lng=108.248, zoom=14,
+                                        address="My Khe Beach, Da Nang, Vietnam"),
     "where-to-stay-in-phuket": dict(area="Kata Beach", lat=7.8205, lng=98.2975, zoom=15,
                                        address="Kata Beach, Karon, Phuket, Thailand"),
     "where-to-stay-in-porto": dict(area="Ribeira", lat=41.1405, lng=-8.613, zoom=15,
@@ -866,6 +868,19 @@ HOTELS = {
     "Sino House Phuket": _B + "th/sino-house-phuket.html",
     "The Nai Harn": _B + "th/the-nai-harn.html",
     "Sunsuri Phuket": _B + "th/sunsuri-phuket.html",
+    # Da Nang (Booking.com pages confirmed by hotel name and city)
+    "HAIAN Beach Hotel & Spa": _B + "vn/hai-an-beach-amp-spa.html",
+    "Diamond Sea Hotel": _B + "vn/diamond-sea.html",
+    "Novotel Danang Premier Han River": _B + "vn/novotel-danang-premier-han-river.html",
+    "Brilliant Hotel": _B + "vn/brilliant.html",
+    "InterContinental Danang Sun Peninsula Resort": _B + "vn/intercontinental-danang-sun-peninsula-resort.html",
+    "Furama Resort Danang": _B + "vn/furama-resort-danang.html",
+    "Pullman Danang Beach Resort": _B + "vn/danang-beach-resort.html",
+    "Hoi An Historic Hotel": _B + "vn/hoi-an-historic.html",
+    "Little Riverside": _B + "vn/ancient-town-little-luxury-and-spa.html",
+    "Little Hoi An": _B + "vn/little-hoi-an-boutique-resort-spa.html",
+    "Sol An Bang Beach Resort & Spa": _B + "vn/sol-an-bang-homestay-resort.html",
+    "Victoria Hoi An Beach Resort & Spa": _B + "vn/victoria-hoi-an-beach-resort-and-spa.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

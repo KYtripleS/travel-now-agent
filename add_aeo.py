@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-da-nang": dict(
+        text="For a first trip, stay in My Khe: beach hotels on Vo Nguyen Giap Street, with the airport 4 km away by Haian's count. Choose the Han River for the city, Hoi An for the Ancient Town and An Bang for a quieter beach. VAT is 8% until 31 December 2026, then 10% unless extended.",
+        link_text="My Khe",
+        cta=_stay_cta("where-to-stay-in-da-nang", "See hotels around My Khe")),
     "where-to-stay-in-phuket": dict(
         text="For a first trip, stay in Kata: a bay beach on the Smart Bus line, with Karon beside it. Choose Patong for nightlife, Kamala or Bang Tao for resorts, the Old Town for streets and food. Prices marked ++ add 17.7%: a 10% service charge, then 7% VAT.",
         link_text="Kata",
@@ -1279,6 +1283,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-da-nang": ["HAIAN Beach Hotel & Spa", "Diamond Sea Hotel", "Furama Resort Danang"],
     "where-to-stay-in-phuket": ["Kata Rocks", "Katathani Phuket Beach Resort", "Lub d Phuket Patong"],
     "where-to-stay-in-porto": ["Pestana Vintage Porto", "Grande Hotel do Porto", "Infante Sagres"],
     "where-to-stay-in-san-francisco": ["Fairmont San Francisco", "The Clift Royal Sonesta San Francisco", "Hotel Zeppelin"],
@@ -1391,6 +1396,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Da Nang", "where-to-stay-in-da-nang", None, None),
         ("Phuket", "where-to-stay-in-phuket", None, None),
         ("Porto", "where-to-stay-in-porto", None, None),
         ("San Francisco", "where-to-stay-in-san-francisco", None, None),

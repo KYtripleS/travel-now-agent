@@ -38,6 +38,11 @@
           "VAT is 8% rather than 10% on many goods and services until 31 December 2026",
           "8% until 31 December 2026 on many goods and services normally taxed at 10%",
           "It does not name hotel rooms either way"
+        ],
+        "articles/where-to-stay-in-da-nang.html": [
+          "the National Assembly cut it by two points, to 8%",
+          "from 1 July 2025 to 31 December 2026",
+          "Accommodation is not among the exclusions in those reports"
         ]
       }
     },
@@ -823,6 +828,641 @@
         "articles/where-to-stay-in-ho-chi-minh-city.html": [
           "a 23-storey hotel of 334 rooms and 53 service apartments with 40 m² Deluxe rooms, a garden pool on the fourth floor and the Ming Court restaurant",
           "10 minutes to Ben Thanh Market and 12 to the Opera House"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.merger",
+      "topic": "history",
+      "claim": "Under a decision taking effect on 1 July 2025, Quang Nam province was merged into Da Nang city, and the new Da Nang includes Hoi An Ancient Town.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://vietnamnews.vn/society/1720769/new-da-nang-designated-a-key-economic-power.html",
+          "kind": "news",
+          "title": "Vietnam News: New Da Nang designated a key economic power"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "since 1 July 2025 all of it sits inside one enlarged Da Nang",
+          "after Quang Nam province was merged into the city"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.airport-code",
+      "topic": "transport",
+      "claim": "Da Nang International Airport has IATA code DAD.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://danangairport.vn/airport-guide-transport-to-the-airport",
+          "kind": "operator",
+          "title": "Da Nang International Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "Da Nang's airport is Da Nang International, code DAD"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.airport-bus-12",
+      "topic": "fare",
+      "claim": "Danabus route 12 (city route) serves Da Nang International Airport, costs 8,000 VND a trip, and runs daily 5:30-19:00.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://danangairport.vn/airport-guide-transport-to-the-airport",
+          "kind": "operator",
+          "title": "Da Nang International Airport: getting to and from the airport"
+        },
+        {
+          "url": "https://danangairport.vn/airport-guide-arrival-guide",
+          "kind": "operator",
+          "title": "Da Nang International Airport: arrival guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "is a city route that serves the airport for 8,000 VND a trip"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.airport-bus-06",
+      "topic": "fare",
+      "claim": "Danabus route 06 runs between the airport and the Vietnam-Korea University of Information and Communication Technology via the Dragon Bridge; 15,000 VND up to half the route, 22,000 VND full route, daily 5:30-19:00.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://danangairport.vn/airport-guide-transport-to-the-airport",
+          "kind": "operator",
+          "title": "Da Nang International Airport: getting to and from the airport"
+        },
+        {
+          "url": "https://danangairport.vn/airport-guide-arrival-guide",
+          "kind": "operator",
+          "title": "Da Nang International Airport: arrival guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "via the Dragon Bridge: 15,000 VND for up to half the route, 22,000 VND for the full route"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.airport-bus-hoian",
+      "topic": "fare",
+      "claim": "Hai Van Bus (suburban route) runs from Da Nang airport to Hoi An (Cua Dai parking lot) for 120,000 VND a trip, daily 7:30-16:00.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://danangairport.vn/airport-guide-transport-to-the-airport",
+          "kind": "operator",
+          "title": "Da Nang International Airport: getting to and from the airport"
+        },
+        {
+          "url": "https://danangairport.vn/airport-guide-arrival-guide",
+          "kind": "operator",
+          "title": "Da Nang International Airport: arrival guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "ending at the Cua Dai parking lot",
+          "It costs 120,000 VND a trip and runs daily from 7:30 to 16:00"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.airport-taxi",
+      "topic": "transport",
+      "claim": "The airport lists six taxi companies plus Xanh SM and a fare chart; an airport access fee of 10,000-30,000 VND may apply, and only a limited number of taxi companies accept Visa/Mastercard.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://danangairport.vn/airport-guide-transport-to-the-airport",
+          "kind": "operator",
+          "title": "Da Nang International Airport: getting to and from the airport"
+        },
+        {
+          "url": "https://danangairport.vn/airport-guide-arrival-guide",
+          "kind": "operator",
+          "title": "Da Nang International Airport: arrival guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "an access fee of 10,000 to 30,000 VND may apply",
+          "only some companies take cards"
+        ]
+      }
+    },
+    {
+      "id": "vn.hoian.ticket",
+      "topic": "price",
+      "claim": "Hoi An Ancient Town ticket: 80,000 VND (general landscape, one monument of Japanese Covered Bridge or Quan Cong Temple, two self-selected monuments) or 120,000 VND (same one monument, one museum-system site and three self-selected monuments); valid up to 3 days; children under 16 exempt; the notice, dated 29 January 2026, lists a 50% discount for certain Vietnamese groups only and no nationality-based rate.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://hoianheritage.danang.gov.vn/en/news/news-events/announcement-of-the-visiting-in-hoi-an-ancient-town-125.html",
+          "kind": "official",
+          "title": "Hoi An World Cultural Heritage Conservation Center: Announcement of the visiting in Hoi An Ancient Town"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "80,000 VND, or 120,000 VND for a wider choice of sites; valid for up to three days",
+          "dated 29 January 2026",
+          "Children under 16 are exempt",
+          "the notice gives no separate rate by nationality",
+          "one museum-system site and three more"
+        ]
+      }
+    },
+    {
+      "id": "vn.hoian.walking-hours",
+      "topic": "place",
+      "claim": "The heritage centre notice sets 'Walking and Cycling town' hours in the Ancient Town of 9:00-21:30 in summer and 9:00-21:00 in winter.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://hoianheritage.danang.gov.vn/en/news/news-events/announcement-of-the-visiting-in-hoi-an-ancient-town-125.html",
+          "kind": "official",
+          "title": "Hoi An World Cultural Heritage Conservation Center: Announcement of the visiting in Hoi An Ancient Town"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "hours in the Ancient Town of 9:00 to 21:30 in summer and 9:00 to 21:00 in winter"
+        ]
+      }
+    },
+    {
+      "id": "vn.hoian.address-danang",
+      "topic": "place",
+      "claim": "Hoi An hotel sites print 'Danang' in their addresses (Little Oasis: 215 Le Thanh Tong Street, Hoi An, Danang; Allegro: 86/2 Tran Hung Dao Street, Hoi An, Danang), and Hoi An Historic Hotel describes the Ancient Town's streets as lantern-lit.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://lhaghotels.com/hotels/littleoasis/",
+          "kind": "operator",
+          "title": "Little Oasis"
+        },
+        {
+          "url": "https://lhaghotels.com/hotels/allegrohoian/",
+          "kind": "operator",
+          "title": "Allegro Hoi An"
+        },
+        {
+          "url": "https://www.hoianhistorichotel.com.vn/",
+          "kind": "operator",
+          "title": "Hoi An Historic Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "the Little Oasis and Allegro sites read “Hoi An, Danang”",
+          "describes the Ancient Town's streets as lantern-lit"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.plus-plus-lhag",
+      "topic": "price",
+      "claim": "Little Hoi An Group hotel sites (Little Riverside, Allegro) list room rates in USD with '++' after the price.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://lhaghotels.com/hotels/littleriverside/",
+          "kind": "operator",
+          "title": "Little Riverside"
+        },
+        {
+          "url": "https://lhaghotels.com/hotels/allegrohoian/",
+          "kind": "operator",
+          "title": "Allegro Hoi An"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "lists its rooms on its own sites with “USD++” after the price"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.nchmf",
+      "topic": "transport",
+      "claim": "The National Center for Hydro-Meteorological Forecasting's English-language Da Nang page carries a 10-day weather forecast, and its site has a Tropical cyclone section.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://nchmf.gov.vn/KttvSiteE/en-US/2/hai-chau-tp-da-nang-w55.html",
+          "kind": "official",
+          "title": "National Center for Hydro-Meteorological Forecasting: Da Nang weather"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "a 10-day forecast and a tropical cyclone section"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.distances-hotels",
+      "topic": "transport",
+      "claim": "Hotels' own distance claims: Haian Beach puts the airport 4 km away; Pullman 15 minutes from the airport and city centre; InterContinental 30 minutes (20 km) by car from the airport and 13 km from Da Nang city; Novotel's page gives Hoi An Ancient Town at 29.6 km, 46 minutes' drive.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://haianbeachhotelspa.com/choosing-between-haian-riverfront-hotel-and-haian-beach-hotel-spa-for-your-da-nang-vacation/",
+          "kind": "operator",
+          "title": "HAIAN Beach Hotel & Spa"
+        },
+        {
+          "url": "https://www.pullman-danang.com/",
+          "kind": "operator",
+          "title": "Pullman Danang Beach Resort"
+        },
+        {
+          "url": "https://www.danang.intercontinental.com/about/",
+          "kind": "operator",
+          "title": "InterContinental Danang Sun Peninsula Resort: about"
+        },
+        {
+          "url": "https://all.accor.com/hotel/8287/index.en.shtml",
+          "kind": "operator",
+          "title": "Novotel Danang Premier Han River on ALL.com"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "Haian Beach puts the airport at 4 km, Pullman at 15 minutes, and InterContinental at 30 minutes (20 km) by car",
+          "The Novotel's page gives the drive from the Han River to Hoi An as 29.6 km, 46 minutes"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.place-han-river",
+      "topic": "place",
+      "claim": "Novotel Danang Premier Han River's ALL.com page gives Han Market 1 km, Cham Museum 2 km, the Han River 20 m (3-minute walk), and Da Nang beach 4.4 km (11-minute drive); it describes itself as on the west bank of the Han River.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/8287/index.en.shtml",
+          "kind": "operator",
+          "title": "Novotel Danang Premier Han River on ALL.com"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "The Novotel describes itself as on the west bank of the Han River",
+          "The Novotel gives Han Market as 1 km away, the Cham Museum as 2 km and the river as a three-minute walk",
+          "4.4 km and 11 minutes"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.place-my-khe",
+      "topic": "place",
+      "claim": "Diamond Sea Hotel's site calls it 'the iconic My Khe Beach' in its Ocean Premier room description.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.diamondseahotel.com/",
+          "kind": "operator",
+          "title": "Diamond Sea Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "Diamond Sea's site calls it the “iconic My Khe Beach”"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.place-son-tra",
+      "topic": "place",
+      "claim": "InterContinental says its resort lies in the Son Tra Peninsula Nature Reserve on 39 hectares, overlooking Bai Bac Bay with a 700-metre secluded beach.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.danang.intercontinental.com/about/",
+          "kind": "operator",
+          "title": "InterContinental Danang Sun Peninsula Resort: about"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "its 39 hectares lie in the Son Tra Peninsula Nature Reserve",
+          "overlooking Bai Bac Bay and a 700-metre beach"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.place-marble-mountains",
+      "topic": "place",
+      "claim": "Hoiana's guide says the Marble Mountains are five limestone and marble hills in Ngu Hanh Son District, about 9 km south of Da Nang city centre and 20 km north of Hoi An, near Non Nuoc Beach.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hoiana.com/blog/marble-mountains-in-da-nang",
+          "kind": "operator",
+          "title": "Hoiana: Marble Mountains in Da Nang"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "Ngu Hanh Son is also the district that holds the Marble Mountains",
+          "The five limestone and marble hills lie about 9 km south of the city centre and 20 km north of Hoi An"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.hotel.haian-beach",
+      "topic": "hotel",
+      "claim": "HAIAN Beach Hotel & Spa, 278 Vo Nguyen Giap, is a 4-star hotel with 214 rooms (Oasis rooms 28-30 m2), an infinity pool and Manarola Sky Lounge on the 22nd floor, and a sister HaiAn Riverfront Hotel.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://haianbeachhotelspa.com/",
+          "kind": "operator",
+          "title": "HAIAN Beach Hotel & Spa"
+        },
+        {
+          "url": "https://haianbeachhotelspa.com/rooms/",
+          "kind": "operator",
+          "title": "HAIAN Beach Hotel & Spa: rooms"
+        },
+        {
+          "url": "https://haianbeachhotelspa.com/choosing-between-haian-riverfront-hotel-and-haian-beach-hotel-spa-for-your-da-nang-vacation/",
+          "kind": "operator",
+          "title": "HAIAN: Riverfront vs Beach"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "A 4-star hotel at 278 Vo Nguyen Giap with 214 rooms",
+          "from 28 m² City View Oasis rooms to 30 m² Beachfront rooms",
+          "an infinity pool and sky lounge on the 22nd floor",
+          "the group also runs a Haian Riverfront hotel"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.hotel.diamond-sea",
+      "topic": "hotel",
+      "claim": "Diamond Sea Hotel, 232 Vo Nguyen Giap, An Hai Ward, is a 4-star hotel with a pool, Mauna Kea Skybar and Lomi Lomi Spa; Ocean Premier rooms are about 36 m2 with a balcony and My Khe Beach views, Superior Double about 28 m2, Junior Double about 26 m2.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.diamondseahotel.com/",
+          "kind": "operator",
+          "title": "Diamond Sea Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "A 4-star hotel at 232 Vo Nguyen Giap with a pool, the Mauna Kea Skybar and the Lomi Lomi Spa",
+          "Its Ocean Premier rooms are about 36 m², with balconies and My Khe views",
+          "the 28 m² Superior and 26 m² Junior rooms are described without them"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.hotel.novotel-han-river",
+      "topic": "hotel",
+      "claim": "Novotel Danang Premier Han River, 36 Bach Dang Street, has 328 rooms and suites and 90 serviced apartments; Superior rooms are 28 m2 in City View and Balcony Han River View versions.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/8287/index.en.shtml",
+          "kind": "operator",
+          "title": "Novotel Danang Premier Han River on ALL.com"
+        },
+        {
+          "url": "https://www.novotel-danang-premier.com/",
+          "kind": "operator",
+          "title": "Novotel Danang Premier Han River"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "At 36 Bach Dang Street, with 328 rooms and suites, 90 serviced apartments and balcony rooms facing the Han River and the city",
+          "Superior rooms are 28 m²",
+          "Superior rooms come in City View and Balcony, Han River View versions"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.hotel.brilliant",
+      "topic": "hotel",
+      "claim": "Brilliant Hotel, 162 Bach Dang, has operated since 2012 with the Senses restaurant, Brilliant Top Bar, pool, spa and gym; Superior River View rooms are 22-24 m2 facing the Han River and Han Bridge.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://brillianthotel.vn/en/",
+          "kind": "operator",
+          "title": "Brilliant Hotel Da Nang"
+        },
+        {
+          "url": "https://brillianthotel.vn/en/rooms/superior-river-view/",
+          "kind": "operator",
+          "title": "Brilliant Hotel: Superior River View"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "At 162 Bach Dang Street, open since 2012",
+          "A Superior River View room is 22 to 24 m² and faces the Han River and the Han Bridge"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.hotel.intercontinental",
+      "topic": "hotel",
+      "claim": "InterContinental Danang Sun Peninsula Resort opened in June 2012 with 189 rooms, was designed by Bill Bensley, hosts La Maison 1888 (called the only Michelin-starred restaurant in Central Vietnam by the resort), and is 13 km from Da Nang city.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.danang.intercontinental.com/about/",
+          "kind": "operator",
+          "title": "InterContinental Danang Sun Peninsula Resort: about"
+        },
+        {
+          "url": "https://www.danang.intercontinental.com/",
+          "kind": "operator",
+          "title": "InterContinental Danang Sun Peninsula Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "Opened in June 2012 with 189 rooms, designed by Bill Bensley",
+          "which the resort calls the only Michelin-starred restaurant in Central Vietnam",
+          "it is 13 km from Da Nang city by the resort's count"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.hotel.furama",
+      "topic": "hotel",
+      "claim": "Furama Resort Danang, 103-105 Vo Nguyen Giap Street, Ngu Hanh Son Ward, has 198 rooms and suites and 68 private pool villas, and lists a scheduled shuttle bus to Hoi An Ancient Town in its Heritage Journey package.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://furamavietnam.com/",
+          "kind": "operator",
+          "title": "Furama Resort Danang"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "with 198 rooms and suites and 68 private pool villas in an Indochine style",
+          "a scheduled shuttle bus to Hoi An Ancient Town in its Heritage Journey family package",
+          "only the villas have private pools"
+        ]
+      }
+    },
+    {
+      "id": "vn.danang.hotel.pullman",
+      "topic": "hotel",
+      "claim": "Pullman Danang Beach Resort, 101 Vo Nguyen Giap Street, Ngu Hanh Son Ward, has 186 guest rooms and cottages with private balconies overlooking the beach, infinity pool or gardens, and lists a Hoi An shuttle bus.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.pullman-danang.com/",
+          "kind": "operator",
+          "title": "Pullman Danang Beach Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "At 101 Vo Nguyen Giap Street, with 186 rooms and cottages",
+          "each with a balcony over the beach, the infinity pool or the gardens"
+        ]
+      }
+    },
+    {
+      "id": "vn.hoian.hotel.historic",
+      "topic": "hotel",
+      "claim": "Hoi An Historic Hotel, 10 Tran Hung Dao Street, has welcomed guests since 1991, with 150 rooms and suites in low-rise buildings in tropical gardens and an outdoor pool; it says it is just steps from the Ancient Town's lantern-lit streets.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hoianhistorichotel.com.vn/",
+          "kind": "operator",
+          "title": "Hoi An Historic Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "At 10 Tran Hung Dao Street, open since 1991",
+          "with 150 rooms and suites in low-rise buildings among tropical gardens and an outdoor swimming pool",
+          "the hotel says it is “just steps from” the Ancient Town's streets"
+        ]
+      }
+    },
+    {
+      "id": "vn.hoian.hotel.little-riverside",
+      "topic": "hotel",
+      "claim": "Little Riverside, 09 Phan Boi Chau Street, along the Thu Bon River, lists 46 m2 Little Suites (Town, River, Garden), Ozone Spa, a fitness centre and a pool, with rates shown in USD++ and the River suite above the Town suite.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://lhaghotels.com/hotels/littleriverside/",
+          "kind": "operator",
+          "title": "Little Riverside"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "At 09 Phan Boi Chau Street on the Thu Bon River",
+          "with 46 m² Little Suites in Town, River and Garden categories",
+          "the hotel prices in USD++"
+        ]
+      }
+    },
+    {
+      "id": "vn.hoian.hotel.little-hoi-an",
+      "topic": "hotel",
+      "claim": "Little Hoi An, 02 Thoai Ngoc Hau Street, beside the Hoai River, lists a 32 m2 Little Deluxe and a 36 m2 Little Suite; the Little Hoi An Group site lists five Hoi An hotels (Allegro, Little Hoi An, Little Oasis, Little Residence, Little Riverside).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://lhaghotels.com/hotels/littlehoian/",
+          "kind": "operator",
+          "title": "Little Hoi An"
+        },
+        {
+          "url": "https://lhaghotels.com/",
+          "kind": "operator",
+          "title": "Little Hoi An Group"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "At 02 Thoai Ngoc Hau Street beside the Hoai River",
+          "with a 32 m² Little Deluxe and a 36 m² Little Suite",
+          "runs five Hoi An hotels"
+        ]
+      }
+    },
+    {
+      "id": "vn.hoian.hotel.sol-an-bang",
+      "topic": "hotel",
+      "claim": "Sol An Bang Beach Resort & Spa on An Bang Beach has 50 rooms in four room types as villas under casuarina trees facing the sea, an outdoor pool and a beach bar, is 4 km from Hoi An Ancient Town, and has Superior rooms of 25 m2 and Deluxe Forest View rooms of 35 m2.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://solanbang.com/",
+          "kind": "operator",
+          "title": "Sol An Bang Beach Resort & Spa"
+        },
+        {
+          "url": "https://solanbang.com/our-resort/",
+          "kind": "operator",
+          "title": "Sol An Bang: our resort"
+        },
+        {
+          "url": "https://solanbang.com/accommodation/superior-rooms/",
+          "kind": "operator",
+          "title": "Sol An Bang: Superior"
+        },
+        {
+          "url": "https://solanbang.com/accommodation/deluxe-forest-view/",
+          "kind": "operator",
+          "title": "Sol An Bang: Deluxe Forest View"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "A resort of 50 rooms in four room types",
+          "A Superior room is 25 m² and a Deluxe Forest View is 35 m²",
+          "the hotel puts the Ancient Town 4 km away"
+        ]
+      }
+    },
+    {
+      "id": "vn.hoian.hotel.victoria",
+      "topic": "hotel",
+      "claim": "Victoria Hoi An Beach Resort & Spa, set between Cua Dai Beach and the De Vong River, has 109 rooms and suites in Indochine-inspired architecture, 34 m2 Superior River View and Garden View rooms, Ocean Front suites, and bicycle and shuttle services; the site gives no travel time to the Ancient Town.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.victoriahotels.asia/en/victoria-hoi-an-beach-resort/",
+          "kind": "operator",
+          "title": "Victoria Hoi An Beach Resort & Spa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-da-nang.html": [
+          "A resort of 109 rooms and suites in Indochine-inspired buildings",
+          "34 m² Superior rooms facing the river or the garden",
+          "the hotel's site gives no travel time to the Ancient Town"
         ]
       }
     }
