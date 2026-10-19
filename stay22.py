@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-milan": dict(area="Duomo", lat=45.4642, lng=9.19, zoom=15,
+                                      address="Piazza del Duomo, Milan, Italy"),
     "where-to-stay-in-seville": dict(area="Santa Cruz", lat=37.3862, lng=-5.9899, zoom=15,
                                         address="Plaza de Santa Cruz, Seville, Spain"),
     "where-to-stay-in-los-angeles": dict(area="Santa Monica", lat=34.0092, lng=-118.4973, zoom=15,
@@ -791,6 +793,19 @@ HOTELS = {
     "The Corner House": _B + "es/the-corner-house-sevilla.html",
     "Catalonia Santa Justa": _B + "es/cataloniaemperador.html",
     "ibis Styles Sevilla City Santa Justa": _B + "es/ibis-styles-sevilla-santa-justa.html",
+    # Milan (Booking.com pages confirmed by hotel name and city)
+    "Sina The Gray": _B + "it/sina-the-gray.html",
+    "Hotel Spadari al Duomo": _B + "it/spadari-al-duomo.html",
+    "Gran Duca di York": _B + "it/gran-duca-di-york.html",
+    "Mandarin Oriental, Milan": _B + "it/mandarin-oriental-milan.html",
+    "Urban Hive Milano": _B + "it/carlyle.html",
+    "Maison Borella": _B + "it/maison-borella.html",
+    "Art Hotel Navigli": _B + "it/art-hotel-navigli.html",
+    "Hotel Principe di Savoia": _B + "it/principe-di-savoia.html",
+    "NH Collection Milano Porta Nuova": _B + "it/nh-milano-grand-hotel-verdi.html",
+    "Starhotels Anderson": _B + "it/andersonhotel.html",
+    "Ostello Bello Grande Milan Central Station": _B + "it/ostello-bello-grande.html",
+    "Hotel Manin": _B + "it/gthotelmanin.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

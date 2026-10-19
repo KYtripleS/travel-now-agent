@@ -32,9 +32,9 @@
    ],
    "verification": {
     "status": "verified",
-    "checked": "2026-10-15",
+    "checked": "2026-10-19",
     "recheck_days": 7,
-    "evidence": "Campaign site on 15 October 2026: stay period 1 October to 15 December 2026, checkout by 16 December; the 'campaign has ended' banner is not switched on; it ends early once the budget is reached.",
+    "evidence": "Campaign site on 19 October 2026: stay period 1 October to 15 December 2026, checkout by 16 December; the 'campaign has ended' banner is not switched on (checked outside HTML comments); it ends early once the budget is reached.",
     "fact_id": "jp.fukuoka.fukko-wari-2026",
     "sources": [
      "https://fukuoka-fukkou-wari.jp/",

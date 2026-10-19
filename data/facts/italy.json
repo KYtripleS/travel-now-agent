@@ -698,6 +698,423 @@
           "the Classic rooms, 18 to 24 m², look over the city's rooftops and lanes, not the lagoon"
         ]
       }
+    },
+    {
+      "id": "it.milan.tourist-tax",
+      "topic": "tax",
+      "claim": "Milan's imposta di soggiorno is charged per person per night by category from 1 April 2026: €12 at five-star hotels, €10 at four-star hotels and four-star tourist residences, €7 at three-star hotels and residences, €4 at two-star, €3 at one-star hotels, €7 at holiday houses (case per ferie), €3 at youth hostels and campsites, and €9.50 at B&Bs, guest rooms, holiday homes and short-term lets.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.comune.milano.it/documents/20118/1016509/Tariffe%2B2026%2Bdecorrenza%2B1%C2%B0aprile%2B2026.pdf/d101078f-26b0-4446-d16b-787845b76bca",
+          "kind": "official",
+          "title": "Comune di Milano: Imposta di soggiorno, tariffe 2026 dall'1/4/2026"
+        },
+        {
+          "url": "https://www.confcommerciomilano.it/export/sites/unione/res-casa/doc/2025/Imposta-dal-1_4_26.pdf",
+          "kind": "news",
+          "title": "Copy of the Comune's albo pretorio document 'Ridefinizione delle tariffe per l'anno 2026' (Confcommercio Milano)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "€12 a person a night at a five-star, €10 at a four-star, €7 at a three-star",
+          "these are the rates in force for stays in October 2026",
+          "pays €80 on top of the room"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.tourist-tax-jan-mar",
+      "topic": "tax",
+      "claim": "From 1 January to 31 March 2026 Milan's tourist tax was €10 at four- and five-star hotels, €7.40 at three-star, €5 at two-star and €4 at one-star, with €9.50 for B&Bs and short-term lets, valid only for 2026 under decree-law 156 of 29 October 2025 (Milano Cortina Winter Olympics); the Comune redefined the 2026 rates from 1 April.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www2.comune.milano.it/-/turismo.-approvate-tariffe-imposta-di-soggiorno-in-vigore-dal-1-gennaio-2026",
+          "kind": "official",
+          "title": "Comune di Milano: Turismo. Approvate tariffe imposta di soggiorno in vigore dal 1° gennaio 2026 (13 Nov 2025)"
+        },
+        {
+          "url": "https://www.comune.milano.it/documents/20118/89692/Imposta+di+soggiorno+-+Tariffe+2026.pdf",
+          "kind": "official",
+          "title": "Comune di Milano: Imposta di soggiorno, tariffe 2026 (rates from 1 January 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "From 1 January to 31 March the Comune's rates were different",
+          "€10 at four- and five-star hotels, €7.40 at three-star, €5 at two-star and €4 at one-star",
+          "this adjustment was valid only for 2026, under decree-law 156 of 29 October 2025"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.tourist-tax-rules",
+      "topic": "tax",
+      "claim": "Milan's tourist tax is charged on non-residents per person and per night; minors up to 18, people with disabilities and their companions, and university students of 26 or under enrolled at Milan universities who stay in student residences are exempt; for hotels the tax applies for the whole stay, and the 14-consecutive-night limit applies only to residences, non-profit holiday houses and holiday apartments (regulation as last amended by Council deliberation 2 of 26 January 2026).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://fareimpresa.comune.milano.it/documents/20126/200621333/Regolamento+Imposta+di+Soggiorno+2026.pdf",
+          "kind": "official",
+          "title": "Comune di Milano: Regolamento dell'imposta comunale di soggiorno, arts. 4 and 5"
+        },
+        {
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02205/Imposta-di-soggiorno-chi-deve-pagare",
+          "kind": "official",
+          "title": "Comune di Milano: Chi deve pagare l'imposta di soggiorno?"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "The tax is charged on non-residents",
+          "Children and teenagers under 18 pay nothing",
+          "At a hotel there is no limit on the number of nights",
+          "the 14-night limit in the Comune's regulation applies only to residences, non-profit holiday houses and holiday apartments"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.malpensa-express",
+      "topic": "transport",
+      "claim": "The Malpensa Express runs from Malpensa (Terminals 1 and 2) to Milano Centrale (stopping at Porta Garibaldi) in 51 minutes and to Milano Cadorna in 37 minutes, with departures every 30 minutes from each station; a one-way ticket is €15 and a return €25, children aged 4 to 13 pay €7.50 and under-4s travel free with a paying parent.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.trenord.it/en/linee-e-orari/il-nostro-servizio/malpensa-express/",
+          "kind": "operator",
+          "title": "Trenord: Malpensa Express"
+        },
+        {
+          "url": "https://www.malpensaexpress.it/en/tickets/travel-documents/prices/",
+          "kind": "operator",
+          "title": "Malpensa Express: ticket prices"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "the Malpensa Express runs to Milano Centrale in 51 minutes, calling at Porta Garibaldi, and to Milano Cadorna in 37 minutes",
+          "Trains leave every 30 minutes from each station",
+          "A one-way ticket costs €15 and a return €25",
+          "children aged 4 to 13 pay €7.50"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.malpensa-taxi",
+      "topic": "fare",
+      "claim": "The Comune di Milano's taxi tariff sheet (updated July 2024, still the sheet published on the Comune's taxi page) sets a fixed fare of €114 between Malpensa airport and any address in Milan, including tolls and with no supplements; Malpensa to Fiera Milano Rho is €94, Linate to Fiera Milano Rho €68 and Orio al Serio to Milan €128.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.comune.milano.it/en/documents/20118/68224/Tariffario+Taxi+%28agg.+luglio+2024%29.pdf/a0372f46-b96d-11f6-3e03-9420e4f0cfd7",
+          "kind": "official",
+          "title": "Comune di Milano: Tariffario taxi (agg. luglio 2024)"
+        },
+        {
+          "url": "https://www.comune.milano.it/servizi/mobilita/utilizzare-il-servizio-taxi",
+          "kind": "official",
+          "title": "Comune di Milano: Utilizzare il servizio taxi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "the Comune's tariff sheet sets a fixed fare of €114 to any address in Milan, with no supplements",
+          "A taxi between Orio al Serio and Milan is a fixed €128"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.linate-taxi",
+      "topic": "fare",
+      "claim": "Taxis from Linate to the centre are metered: the Comune's tariff sheet lists no fixed fare for it and sets a minimum fare of €16 for trips that start at Malpensa, Linate or Orio al Serio.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.comune.milano.it/en/documents/20118/68224/Tariffario+Taxi+%28agg.+luglio+2024%29.pdf/a0372f46-b96d-11f6-3e03-9420e4f0cfd7",
+          "kind": "official",
+          "title": "Comune di Milano: Tariffario taxi (agg. luglio 2024)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "Taxis from Linate are metered, with a minimum fare of €16 for trips that start at the airport",
+          "the Comune's list of fixed fares has no Linate-to-centre fare"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.linate-m4",
+      "topic": "transport",
+      "claim": "Line M4 takes 12 minutes between Milan's centre and Linate airport, and the ATM urban ticket (zones Mi1-Mi3) costs €2.20.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.atm.it/it/AtmNews/AtmInforma/Pagine/M4informazionisulserviziopasseggeribis.aspx",
+          "kind": "operator",
+          "title": "ATM Milano: Linea M4, San Cristoforo-Linate"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "the M4 metro line (blue) takes 12 minutes between the airport and the centre, on an ordinary ATM ticket at €2.20"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.atm-fares",
+      "topic": "fare",
+      "claim": "In January 2026 the ATM ticket for zones Mi1-Mi3 costs €2.20 for 90 minutes, €7.60 for 24 hours and €15.50 for 3 days; children up to 14 travel free; card payment works at metro turnstiles (M1-M5, tap in and out) and on ATM vehicles but not on the S lines or trains.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.atm.it/it/ViaggiaConNoi/Documents/TARIFFE%20ATM.pdf",
+          "kind": "operator",
+          "title": "ATM Milano: Tariffe, gennaio 2026"
+        },
+        {
+          "url": "https://www.atm.it/it/AtmNews/AtmInforma/Pagine/M4informazionisulserviziopasseggeribis.aspx",
+          "kind": "operator",
+          "title": "ATM Milano: Linea M4 (card payment rules)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "an ATM ticket costs €2.20 and lasts 90 minutes on metro, bus and tram; a day ticket is €7.60 and a three-day ticket €15.50",
+          "Children under 14 travel free",
+          "tap a contactless card or phone at the metro gates, in and out, and on ATM vehicles, but not on the S lines or regional trains"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.bergamo-bus",
+      "topic": "transport",
+      "claim": "Milan Bergamo Airport lists bus services to Milano Centrale from Autostradale, Flibco, Orioshuttle and Terravision; Autostradale runs every 30 minutes, takes 50 to 60 minutes and shows fares from €9 (labelled a limited-period promotion).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.milanbergamoairport.it/en/bus/",
+          "kind": "official",
+          "title": "Milan Bergamo Airport (SACBO): Bus"
+        },
+        {
+          "url": "https://autostradale.it/en/i-nostri-servizi/transfer-aeroportuali/milano-stazione-centrale-bergamo-orio-al-serio/",
+          "kind": "operator",
+          "title": "Autostradale: Milano Stazione Centrale to Bergamo Orio al Serio"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "the airport lists Autostradale, Flibco, Orioshuttle and Terravision",
+          "Autostradale runs every 30 minutes, takes 50 to 60 minutes and shows fares from €9, labelled a limited-period promotion"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.last-supper",
+      "topic": "place",
+      "claim": "The Last Supper museum says reservation is mandatory for all tickets, it is open Tuesday to Sunday 8.15 to 19.00, and admissions for September to December 2026 went on sale on 23 June 2026.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://cenacolovinciano.org/en/",
+          "kind": "official",
+          "title": "Cenacolo Vinciano: official website (news of 22 June and 11 May 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "reservation is mandatory for every ticket",
+          "the September to December 2026 tickets went on sale on 23 June"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.brera-citterio",
+      "topic": "place",
+      "claim": "The Pinacoteca di Brera is at Via Brera 28; Palazzo Citterio opened in December 2024 as an expansion of the Pinacoteca (the Grande Brera).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://pinacotecabrera.org/en/",
+          "kind": "official",
+          "title": "Pinacoteca di Brera"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "the Pinacoteca di Brera, the art gallery at Via Brera 28, which expanded into Palazzo Citterio in December 2024"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.hotel-the-gray",
+      "topic": "hotel",
+      "claim": "Sina The Gray, Via San Raffaele 6, is a five-star design hotel with 21 rooms and suites, 100 metres from the cathedral by its own account; the Aria terrace lounge opens in the warm season from 5pm to 11pm.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelthegray.com/",
+          "kind": "official",
+          "title": "Sina The Gray: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "with 21 rooms and suites, floating beds",
+          "the Aria terrace lounge is a warm-season venue, open from 5pm to 11pm"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.hotel-gran-duca-di-york",
+      "topic": "hotel",
+      "claim": "Gran Duca di York, Via Moneta 1, is a three-star in a late 19th-century palazzo, three minutes on foot from the Duomo, with 33 recently remodelled rooms in three categories (Classic, Superior, Superior with terrace); the hotel says buffet breakfast, Wi-Fi, minibar soft drinks and taxes are included in its prices.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.ducadiyork.com/en/",
+          "kind": "official",
+          "title": "Gran Duca di York: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "with 33 recently remodelled rooms, some with balconies",
+          "it has three room categories, Classic, Superior and Superior with terrace",
+          "The hotel says its rates include a buffet breakfast, Wi-Fi, the soft drinks in the minibar and taxes"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.hotel-urban-hive",
+      "topic": "hotel",
+      "claim": "Urban Hive Milano, Corso Garibaldi 84, is a four-star with 97 rooms; its room page describes La Mini as for solo travellers or short stays and La Cosy as for sharing.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.urbanhivehotels.com/en/milano",
+          "kind": "official",
+          "title": "Urban Hive Milano: official website"
+        },
+        {
+          "url": "https://www.urbanhivehotels.com/milano/camere",
+          "kind": "official",
+          "title": "Urban Hive Milano: Camere & Suite"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "with 97 rooms, each inspired by a traditional Milanese parlour",
+          "the hotel sells its smallest room, La Mini, for solo travellers and short stays; for two people it points to La Cosy"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.hotel-maison-borella",
+      "topic": "hotel",
+      "claim": "Maison Borella, Alzaia Naviglio Grande 8, is a four-star on the Naviglio Grande in a pedestrian area, about 300 m and a five-minute walk from Porta Genova (M2) by the hotel's directions; its Maison Privée rooms are in an old railing house 20 metres from the main building.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelmaisonborella.com/location/",
+          "kind": "official",
+          "title": "Maison Borella: location"
+        },
+        {
+          "url": "https://www.hotelmaisonborella.com/rooms-suites/",
+          "kind": "official",
+          "title": "Maison Borella: rooms and suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "300 metres from Porta Genova on M2 and a five-minute walk from it",
+          "the Maison Privée rooms are in a separate old railing house 20 metres from the main building"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.hotel-nh-porta-nuova",
+      "topic": "hotel",
+      "claim": "NH Collection Milano Porta Nuova, Via Melchiorre Gioia 6, has 100 rooms renovated in 2018, the smallest 27 m²; it is 600 m from Porta Garibaldi station, and on-site indoor parking costs €40 a day.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.nh-hotels.com/en/hotel/nh-collection-milano-porta-nuova",
+          "kind": "official",
+          "title": "NH Collection Milano Porta Nuova: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "with 100 rooms renovated in 2018, the smallest 27 m²",
+          "on-site parking costs €40 a day"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.hotel-principe-di-savoia",
+      "topic": "hotel",
+      "claim": "Hotel Principe di Savoia (Dorchester Collection), Piazza della Repubblica 17, describes itself as in the centre of Porta Nuova, two minutes from Repubblica metro station and 10 minutes from Milano Centrale; its Classic Room is 27 m² for up to two guests.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.dorchestercollection.com/milan/hotel-principe-di-savoia",
+          "kind": "official",
+          "title": "Hotel Principe di Savoia: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "The Classic Room is 27 m² for up to two guests",
+          "two minutes from Repubblica metro station and 10 minutes from Milano Centrale"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.hotel-ostello-bello",
+      "topic": "hotel",
+      "claim": "Ostello Bello Grande Milan Central Station, Via Roberto Lepetit 33, is 100 metres from Milano Centrale, with free 24-hour luggage storage before check-in, self-service lockers after check-out and a bar open 24 hours with live music and DJ sets.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://ostellobello.com/en/hostel/milan-central-station/",
+          "kind": "official",
+          "title": "Ostello Bello: Milan Central Station"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "100 metres from the station",
+          "the bar is open 24 hours and runs live music and DJ sets"
+        ]
+      }
+    },
+    {
+      "id": "it.milan.hotel-manin",
+      "topic": "hotel",
+      "claim": "Hotel Manin, Via Daniele Manin 7, is a four-star facing the Giardini Indro Montanelli, owned by the Colombo family since 1904, with 124 rooms, Turati (M3) 100 m away, a free gym, and an affiliated garage from €42 a night; the restaurant is closed at lunch on Saturdays and Sundays.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hotelmanin.it/hotel-4-stelle-milano-centro",
+          "kind": "official",
+          "title": "Hotel Manin: Hotel (in Italian)"
+        },
+        {
+          "url": "https://www.hotelmanin.it/hotel-4-stelle-milano-centro/faq",
+          "kind": "official",
+          "title": "Hotel Manin: FAQ (in Italian)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-milan.html": [
+          "owned by the Colombo family since 1904, with 124 rooms",
+          "the restaurant is closed at lunchtime on Saturdays and Sundays, and the nearby garage starts at €42 a night"
+        ]
+      }
     }
   ]
 }
