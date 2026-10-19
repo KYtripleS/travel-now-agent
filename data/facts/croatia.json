@@ -1,0 +1,471 @@
+{
+  "place": "Croatia",
+  "facts": [
+    {
+      "id": "hr.dubrovnik.tourist-tax-2026",
+      "topic": "tax",
+      "claim": "For 2026 the tourist tax in the City of Dubrovnik is EUR 2.65 per person per night from 1 April to 30 September and EUR 1.85 in the rest of the year at accommodation where catering is provided (campsites EUR 1.95 and EUR 1.30), set by the Dubrovnik-Neretva County Assembly under article 15 of the Tourist Tax Act.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.dnz.hr/wp-content/uploads/2024/10/Odluka-o-visini-turisticke-pristojbe-za-2026.pdf",
+          "kind": "official",
+          "title": "Dubrovnik-Neretva County Assembly: decision on the amount of the tourist tax for 2026 (adopted 13 December 2024)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "set each year by the county assembly of Dubrovnik-Neretva",
+          "€2.65 per person a night from April to September and €1.85 the rest of the year",
+          "2 × 5 × €2.65 = €26.50"
+        ]
+      }
+    },
+    {
+      "id": "hr.tourist-tax-exemptions",
+      "topic": "tax",
+      "claim": "Under the Tourist Tax Act (NN 52/19) children under 12 do not pay the tourist tax (article 5) and persons aged 12 to 18 pay it reduced by 50% (article 6); the tax is per person and night.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html",
+          "kind": "official",
+          "title": "Narodne novine: Zakon o turističkoj pristojbi (NN 52/19), articles 5 and 6"
+        },
+        {
+          "url": "https://gov.hr/hr/turisticka-pristojba/1520",
+          "kind": "official",
+          "title": "gov.hr: Turistička pristojba"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "children under 12 do not pay, and people aged 12 to 18 pay half",
+          "The tax is charged per person, not per room"
+        ]
+      }
+    },
+    {
+      "id": "hr.vat-accommodation-13",
+      "topic": "tax",
+      "claim": "Croatian VAT on accommodation services in hotels and similar establishments is 13%; the general rate is 25% (Tax Administration; Act on VAT article 38(3)(a)).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://porezna-uprava.gov.hr/hr/porezni-rashodi/4008",
+          "kind": "official",
+          "title": "Porezna uprava: Porezni rashodi (reduced VAT rate of 13% for accommodation services in hotels and similar facilities)"
+        },
+        {
+          "url": "https://porezna-uprava.gov.hr/hr/pdv-3938/3938",
+          "kind": "official",
+          "title": "Porezna uprava: PDV (rates 0%, 5%, 13% and 25%; Act amended up to NN 32/26)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "Croatian VAT on hotel accommodation is 13%, against 25% for most goods and services, according to the Tax Administration"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.airport-shuttle-fare",
+      "topic": "fare",
+      "claim": "Platanus, the licensed airport shuttle operator, charges EUR 10 one way and EUR 15 return (return valid 15 days); the bus leaves outside Arrivals about 30 minutes after each flight arrival; children under 6 travel free.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://platanus.hr/dubrovnik-airport-shuttle/",
+          "kind": "operator",
+          "title": "Platanus: Dubrovnik Airport shuttle, airport to Old Town and Gruž"
+        },
+        {
+          "url": "https://platanus.hr/faq/",
+          "kind": "operator",
+          "title": "Platanus: FAQ (EUR 10 one-way, children under 6 free)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "a one-way ticket costs €10 and a return €15, valid for 15 days",
+          "about 30 minutes after each flight lands",
+          "Children under 6 travel free"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.airport-shuttle-stops",
+      "topic": "transport",
+      "claim": "The Platanus shuttle from the airport stops at the Old Town (Ploče Gate), about 30 minutes, then the main bus station in Gruž, about 35 minutes (final stop), 500 m from the ferry port; it lists no stop at Pile.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://platanus.hr/dubrovnik-airport-shuttle/",
+          "kind": "operator",
+          "title": "Platanus: Dubrovnik Airport shuttle, airport to Old Town and Gruž"
+        },
+        {
+          "url": "https://platanus.hr/faq/",
+          "kind": "operator",
+          "title": "Platanus: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "the Old Town at the Ploče Gate, about 30 minutes from the airport, then the main bus station at Gruž, about 35 minutes",
+          "Platanus lists those two stops, not Pile",
+          "The bus station is 500 m from the ferry port for the islands"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.shuttle-to-airport",
+      "topic": "transport",
+      "claim": "From the city, the Platanus shuttle leaves the main bus station (Gruž, platform 8), then stops at Grawe station (5 minutes) and the cable car stop near the Old Town (10 minutes); about 35 minutes from the bus station, about 25 minutes from the cable car stop.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://platanus.hr/dubrovnik-to-airport-shuttle-bus/",
+          "kind": "operator",
+          "title": "Platanus: shuttle bus from Dubrovnik to the airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "stops at Grawe and at the cable car near the Old Town",
+          "From the cable car stop the airport is about 25 minutes away"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.airport-libertas-taxi",
+      "topic": "transport",
+      "claim": "Dubrovnik Airport says Libertas lines 11, 27 and 38 travel daily to and from the airport; the drive averages 30-35 minutes and up to an hour in summer; no taxi fare is published, a price list is at the taxi information window in the arrivals building (terminal B) or on +385 20 640 100.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.dbv.hr/en/getting-to-dbv/54",
+          "kind": "official",
+          "title": "Dubrovnik Airport: getting to DBV"
+        },
+        {
+          "url": "https://www.dbv.hr/en/taxi-and-rent-a-car/58",
+          "kind": "official",
+          "title": "Dubrovnik Airport: taxi and rent-a-car"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "lists city-operator lines 11, 27 and 38 as running daily to and from it",
+          "the drive takes 30 to 35 minutes on average and up to an hour in summer",
+          "a price list is at the taxi information window in the arrivals building"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.libertas-fares",
+      "topic": "fare",
+      "claim": "Libertas price list (Dubrovnik): ticket bought on the bus EUR 2.50, 1-hour ticket EUR 1.73, daily (24-hour) ticket EUR 5.31, three-day ticket EUR 11.95; the page still shows a kuna conversion note.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://libertasdubrovnik.hr/en/price-list",
+          "kind": "operator",
+          "title": "Libertas Dubrovnik: price list"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "a single ticket bought on the bus is €2.50, a 24-hour ticket €5.31 and a three-day ticket €11.95"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.libertas-city-lines",
+      "topic": "transport",
+      "claim": "Libertas's city timetable lists 14 lines (1A, 1B, 2A, 3, 3A, 3B, 4, 5, 6, 7, 8, 8A, 9, 17); nine (1A, 1B, 2A, 3, 3B, 4, 6, 9, 17) have Pile in their name; line 6 is Babin Kuk-Pile and line 4 Hotel Palace-Pile.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://libertasdubrovnik.hr/en/timetable/1/city-timetable",
+          "kind": "operator",
+          "title": "Libertas Dubrovnik: city timetable"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "Nine of the 14 lines on its city timetable, such as lines 4 and 6, have Pile in their name"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.traffic-zone",
+      "topic": "place",
+      "claim": "The City of Dubrovnik's decision on vehicle access to the traffic zone in the protected historic ensemble applies the system from 1 March to 30 November (extendable by the mayor in congestion); vehicle access is by pass; the lower cable car station is at Ploče; Adriatic Luxury Hotels' notice dated 30 July 2026 says vehicle access around the Old Town is restricted to permit holders only.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.dubrovnik.hr/uploads/pages/351/1-DECISION-on-the-conditions-for-vehicle-access-to-circulation-within-and-exit-from-the-traffic.pdf",
+          "kind": "official",
+          "title": "City of Dubrovnik: decision on the conditions for vehicle access to the traffic zone (English text, approval fields blank)"
+        },
+        {
+          "url": "https://www.dubrovnik.hr/zona-posebnog-prometnog-rezima",
+          "kind": "official",
+          "title": "City of Dubrovnik: special traffic regime zone"
+        },
+        {
+          "url": "https://www.adriaticluxuryhotels.com/notice-special-traffic-regulation-around-dubrovnik-old-town-area/",
+          "kind": "operator",
+          "title": "Adriatic Luxury Hotels: notice on the special traffic regulation around the Old Town, 30.07.2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "applies from 1 March to 30 November, by the city's published decision, and vehicle access is by permit",
+          "A notice dated 30 July 2026 from Adriatic Luxury Hotels, which runs three hotels here, says the same",
+          "the airport shuttle's Old Town stop, the lower cable car station"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.stari-grad",
+      "topic": "hotel",
+      "claim": "Hotel Stari Grad, Od Sigurate 4, Old Town: 11 rooms and three suites; Above 5 rooftop restaurant recognised by the Michelin Guide since 2018; Standard rooms 18 m2, Deluxe 21 m2, every room for max 2 people.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://hotelstarigrad.com/",
+          "kind": "official",
+          "title": "Hotel Stari Grad: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "with 11 individually designed rooms and three suites",
+          "which the hotel says the Michelin Guide has recognised since 2018",
+          "every room is for two guests at most, and the Standard rooms are 18 m²"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.prijeko-palace",
+      "topic": "hotel",
+      "claim": "Prijeko Palace, Prijeko 22: 15th-century noble residence, nine individually designed double rooms each dedicated to an artist, rooftop restaurant Stara Loza in the Michelin Guide; Trnski room 12 m2, Kramaric 20 m2 overlooking lively Prijeko Street.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://prijekopalace.com/",
+          "kind": "official",
+          "title": "Prijeko Palace: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "Inside a 15th-century noble residence at Prijeko 22",
+          "nine individually designed double rooms, each dedicated to an artist",
+          "the Trnski room is 12 m²"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.excelsior",
+      "topic": "hotel",
+      "claim": "Hotel Excelsior Dubrovnik, Frana Supila 12: 158 rooms and suites (139 rooms, 19 suites) across Villa Odak (1913) and The Tower; 0.6 km to the Old Town; indoor pool, spa, beach, three restaurants; The Tower Classic room has a city view.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.adriaticluxuryhotels.com/hotel-excelsior-dubrovnik/",
+          "kind": "official",
+          "title": "Hotel Excelsior Dubrovnik: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "A five-star at Frana Supila 12 with 158 rooms and suites",
+          "by the hotel's count 0.6 km from the Old Town",
+          "only the Classic rooms in The Tower are listed with a city view instead of sea views"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.villa-dubrovnik",
+      "topic": "hotel",
+      "claim": "Villa Dubrovnik, Vlaha Bukovca 6: designed 1961, a small hotel of about thirty rooms by 1970, perched on a cliff with views of Lokrum and the Old Town, rooms by Studio Arthur Casas; the hotel says Sveti Jakov Beach, Orsula Park and the city walls are a short walk away.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.villa-dubrovnik.hr/",
+          "kind": "official",
+          "title": "Villa Dubrovnik: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "designed in 1961 and a small hotel since 1970",
+          "with rooms by Studio Arthur Casas",
+          "the Sveti Jakov Beach, Orsula Park and the city walls are a short walk away"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.bellevue",
+      "topic": "hotel",
+      "claim": "Hotel Bellevue Dubrovnik, Pera Cingrije 7: five-star boutique hotel carved into a 30 m cliff on Miramare Bay, pebble beach at its base, beach services for all guests from summer 2026; 1.4 km and a 10-minute walk to the Old Town.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.adriaticluxuryhotels.com/hotel-bellevue-dubrovnik/",
+          "kind": "official",
+          "title": "Hotel Bellevue Dubrovnik: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "carved into a cliff over Miramare Bay",
+          "beach services are available for all hotel guests from the summer of 2026",
+          "it sits on a 30 m cliff, so the walk back from the Old Town climbs"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.lero",
+      "topic": "hotel",
+      "claim": "Hotel Lero, Iva Vojnovica 14: open since 1972, 15 minutes' walk to the walls and 5 to Miramare Beach, garage; Classic rooms 20 sqm, Superior wing built 2015 with 23-30 sqm rooms; pool open 1 May to 1 October.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://hotel-lero.hr/",
+          "kind": "official",
+          "title": "Hotel Lero: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "Open since 1972",
+          "15 minutes' walk from the walls and 5 from Miramare Beach",
+          "the pool is open from 1 May to 1 October"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.lapad",
+      "topic": "hotel",
+      "claim": "Hotel Lapad, Lapadska obala 37: family-owned, construction started 1912 and opened March 1914 with a Victorian facade, Classic wing built 1987, 3 km from the Old Town; Superior rooms in the historic wing have no balcony.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotel-lapad.hr/",
+          "kind": "official",
+          "title": "Hotel Lapad: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "A family-owned hotel at Lapadska obala 37, begun in 1912 and opened in March 1914",
+          "a Classic wing from 1987, 3 km from the Old Town by the hotel's count",
+          "the Superior rooms in the historic wing have no balcony"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.kompas",
+      "topic": "hotel",
+      "claim": "Hotel Kompas Dubrovnik, Ul. kardinala Stepinca 21: 4+ star hotel overlooking Lapad beach with a spa, Zenith Bar and the Sphere and Suton restaurants; Classic rooms with balcony; 4.1 km to the Old Town.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.adriaticluxuryhotels.com/hotel-kompas-dubrovnik/",
+          "kind": "official",
+          "title": "Hotel Kompas Dubrovnik: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "A four-plus-star hotel at kardinala Stepinca 21, facing Lapad beach",
+          "a spa, a bar, two restaurants and rooms with balconies",
+          "the hotel puts it 4.1 km from the Old Town"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.ivka",
+      "topic": "hotel",
+      "claim": "Hotel Ivka, Ulica od Sv. Mihajla 21, Lapad: small family-owned hotel with a closed garage and free Wi-Fi, bus station close, Old Town 2 km, beach 10 minutes' walk; single room 17 m2, double/twin 20 m2.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotel-ivka.com/",
+          "kind": "official",
+          "title": "Hotel Ivka: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "A small family-owned hotel at Ulica od Sv. Mihajla 21",
+          "with a closed garage, free Wi-Fi and a bus station nearby",
+          "17 m² for a single and 20 m² for a double or twin"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.lacroma",
+      "topic": "hotel",
+      "claim": "Valamar Lacroma Dubrovnik Hotel, Iva Dulcica 34, Babin Kuk: 4-star, 940 m2 Balance Mediterranean Spa, Maro World 1,800 m2 family entertainment centre; hotel lists town centre 6,000 m and bus terminal 3,000 m; autumn offer travel dates 1 Nov-29 Dec 2026.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.valamar.com/en/hotels-dubrovnik/valamar-lacroma-dubrovnik-hotel",
+          "kind": "official",
+          "title": "Valamar Lacroma Dubrovnik Hotel: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "the 940 m² Balance Mediterranean Spa and Maro World, a 1,800 m² play and entertainment centre",
+          "The hotels list the town centre as 6,000 m away and a bus terminal 3,000 m",
+          "against 29 December at the Lacroma"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.tirena",
+      "topic": "hotel",
+      "claim": "Valamar Tirena Hotel, Iva Dulcica 36, Babin Kuk: 4-star, 200 m from the sea, outdoor pool with water slides and swim-up Splash Pool Bar; autumn offer travel dates 16-22 Oct 2026.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.valamar.com/en/hotels-dubrovnik/tirena-hotel",
+          "kind": "official",
+          "title": "Valamar Tirena Hotel: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "200 m from the sea, with an outdoor pool with water slides and a swim-up bar",
+          "its autumn offer runs only to 22 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "hr.dubrovnik.hotel.argosy",
+      "topic": "hotel",
+      "claim": "Valamar Argosy Hotel, Iva Dulcica 140, Babin Kuk: designed for adults, outdoor and indoor pools including an infinity pool, wellness centre; autumn offer travel dates 14-24 Oct 2026.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.valamar.com/en/hotels-dubrovnik/argosy-hotel",
+          "kind": "official",
+          "title": "Valamar Argosy Hotel: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubrovnik.html": [
+          "A hotel designed for adults at Iva Dulčića 140",
+          "with outdoor and indoor pools, including an infinity pool, and a wellness centre",
+          "its autumn offer ends on 24 October 2026"
+        ]
+      }
+    }
+  ]
+}

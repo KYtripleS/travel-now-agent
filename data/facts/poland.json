@@ -1,0 +1,511 @@
+{
+  "place": "Poland",
+  "facts": [
+    {
+      "id": "pl.krakow.tourist-fee.2026",
+      "topic": "tax",
+      "claim": "In 2026 Kraków charges no local fee (opłata miejscowa) or tourist tax: Polish law allows the local fee only where climate, scenic value and tourism conditions are all met, and the City of Kraków's tourism office says most municipalities, Kraków included, do not meet them.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://convention.krakow.pl/english/news_from_krakow/322353,251,komunikat,actions_taken_by_krakow_to_introduce_a_tourist_tax.html",
+          "kind": "official",
+          "title": "City of Kraków convention bureau, 26 May 2026: Actions taken by Kraków to introduce a tourist tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "Not charged in Kraków",
+          "So a visitor staying in 2026 pays no city fee",
+          "most municipalities, Kraków included, do not meet those conditions"
+        ]
+      }
+    },
+    {
+      "id": "pl.tourist-fee.law-2027",
+      "topic": "tax",
+      "claim": "A Polish amendment to the local taxes act, passed by the Sejm on 18 Sep 2026 (Senate: no amendments, 24 Sep; President's signature recorded 15 Oct 2026), applies from 1 Jan 2027: a council may introduce a local fee in places with landscape value of up to 5.00 zloty a person a night (5.50 in spa-protection areas), set by council resolution and collected by the accommodation provider; the Council of Ministers is to set minimum landscape qualities by regulation. No Kraków council resolution was found.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/processes/3099",
+          "kind": "official",
+          "title": "Sejm legislative record, government print 3099 (with prints 2033, 2127, 2872)"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/processes/2033/attachment/2033_u3.pdf",
+          "kind": "official",
+          "title": "Text of the amendment as passed by the Sejm (Art. 17, Art. 11)"
+        },
+        {
+          "url": "https://oko.press/na-zywo/na-zywo-relacja/oplata-turystyczna-wejdzie-w-zycie-jest-podpis-prezydenta",
+          "kind": "news",
+          "title": "OKO.press, 16 Oct 2026: the tourist fee will take effect, the President has signed"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "up to 5 zloty a person a night from 1 January 2027",
+          "the legislative record shows the President signing it on 15 October",
+          "the Council of Ministers still has to set the minimum landscape qualities by regulation",
+          "we found no Kraków council resolution"
+        ]
+      }
+    },
+    {
+      "id": "pl.vat.accommodation",
+      "topic": "tax",
+      "claim": "VAT on accommodation services (PKWiU 55, Annex 3 item 47) is 8% in 2026 (the 8% rate applies under Art. 146aa of the VAT act, consolidated text Dz.U. 2026 poz. 1263).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/1263/text.pdf",
+          "kind": "official",
+          "title": "Ustawa o podatku od towarów i usług, consolidated text, Dz.U. 2026 poz. 1263 (Art. 41, Art. 146aa, Annex 3 item 47)"
+        },
+        {
+          "url": "https://podatki.gov.pl/podatki-firmowe/vat/stawki-i-limity",
+          "kind": "official",
+          "title": "Ministry of Finance: VAT rates and limits (23%, 8%, 5%, 0%)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "VAT on accommodation is 8%, under Poland's VAT act",
+          "Poland's 8% VAT on accommodation",
+          "The 8% VAT inside it is 800 × 8 ÷ 108 = 59.26 zloty"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.airport-train",
+      "topic": "transport",
+      "claim": "Koleje Małopolskie line SKA1 links the Kraków Airport station (beside the terminal, covered footbridge) with Kraków Główny: 17 minutes on the timetable valid 25 Oct to 12 Dec 2026 (e.g. 06:17 to 06:34), departures about every 30 minutes from 06:17 to 22:17 and hourly earlier and later; fare Airport to Kraków Główny PLN 20 per Kraków Airport (Airport to Wieliczka PLN 24, matching the operator's page); luggage free.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://krakowairport.pl/en/passenger/transport-en/directions/from-to-krakow-airport/train-en",
+          "kind": "official",
+          "title": "Kraków Airport: Train (stations, fares, where to buy)"
+        },
+        {
+          "url": "https://www.kolejemalopolskie.com.pl/pl/rozklad-jazdy/rozklady-kolejowe/wieliczka-rynek-kopalnia-krakow-glowny-krakow-lotniskoairport",
+          "kind": "operator",
+          "title": "Koleje Małopolskie: SKA1 Wieliczka - Kraków Główny - Kraków Lotnisko/Airport"
+        },
+        {
+          "url": "https://www.kolejemalopolskie.com.pl/brepo/panel_repo/2026/10/16/r0udb2/ska1-zrj-25-x-12-xii-26.pdf",
+          "kind": "operator",
+          "title": "Koleje Małopolskie: SKA1 timetable 25 Oct - 12 Dec 2026"
+        },
+        {
+          "url": "https://www.kolejemalopolskie.com.pl/brepo/panel_repo/2026/08/20/bmbekn/ska1-zrj-30-viii-24-x-26.pdf",
+          "kind": "operator",
+          "title": "Koleje Małopolskie: SKA1 timetable 30 Aug - 24 Oct 2026 (same 17-minute run)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "runs to Kraków Główny in 17 minutes on the operator's timetable",
+          "Trains leave about every 30 minutes from 06:17 to 22:17",
+          "The fare is 20 zloty from the airport to Kraków Główny, according to Kraków Airport"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.airport-buses",
+      "topic": "transport",
+      "claim": "Kraków Airport lists city/agglomeration bus lines 209 and 300 and night line 902; ZTP Kraków's line list shows 300 running Os. Podwawelskie to Kraków Airport and 902 running Dworzec Główny Wschód to Kraków Airport via Balice (209 is listed as Salwator to Mników via Balice). Lines 208 and 252 do not appear on either list.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://krakowairport.pl/en/passenger/transport-en/directions/from-to-krakow-airport/public-buses-en",
+          "kind": "official",
+          "title": "Kraków Airport: Public buses"
+        },
+        {
+          "url": "https://ztp.krakow.pl/kmk/linie-kmk",
+          "kind": "official",
+          "title": "ZTP Kraków: list of lines"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "Kraków Airport lists lines 209 and 300 and the night line 902",
+          "the 300 running from Os. Podwawelskie to the airport and the 902 from Dworzec Główny Wschód"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.transit-tickets",
+      "topic": "fare",
+      "claim": "ZTP Kraków price list for tickets valid in zones I+II+III: 15-minute PLN 4, 30-minute or single-ride PLN 6, 60-minute PLN 8, 90-minute PLN 9, 24-hour PLN 25; joint 70-minute KMK+KMŁ ticket PLN 10, valid on Kraków vehicles and trains between stations named Kraków, excluding Kraków Lotnisko (Kraków Airport).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://ztp.krakow.pl/kmk/przewodnik-po-biletach-kmk",
+          "kind": "official",
+          "title": "ZTP Kraków: ticket guide and price list"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "6 zloty for a 30-minute or single-ride ticket, 8 zloty for 60 minutes, 9 zloty for 90 minutes and 25 zloty for 24 hours",
+          "but not Kraków Lotnisko, the airport station"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.wieliczka-train",
+      "topic": "fare",
+      "claim": "SKA1 runs Kraków Główny to Wieliczka Rynek-Kopalnia in about 25 minutes; single ticket PLN 7.50.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.kolejemalopolskie.com.pl/pl/rozklad-jazdy/rozklady-kolejowe/wieliczka-rynek-kopalnia-krakow-glowny-krakow-lotniskoairport",
+          "kind": "operator",
+          "title": "Koleje Małopolskie: SKA1 fares and journey times"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "Wieliczka Rynek-Kopalnia, about 25 minutes, 7.50 zloty one way"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.auschwitz-booking",
+      "topic": "place",
+      "claim": "Auschwitz-Birkenau Memorial: admission to the grounds is free; entry requires a personalised entry card reserved online only at visit.auschwitz.org; no cards at the entrance; the Memorial advises booking in advance and arriving at least 30 minutes before the tour; visitors are asked to behave with due solemnity and respect.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.auschwitz.org/en/visiting/",
+          "kind": "official",
+          "title": "Auschwitz-Birkenau Memorial and Museum: Visiting"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "entry needs a personalised entry card reserved online at visit.auschwitz.org",
+          "No cards are available at the entrance",
+          "arriving at least 30 minutes before the tour starts",
+          "asks visitors to behave with due solemnity and respect"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.wieliczka-booking",
+      "topic": "place",
+      "claim": "Wieliczka Salt Mine tourist route: tours at designated hours depending on online ticket availability; online, at a ticket machine and at the ticket office (which sells only places not already bought online); 2-3 hours, about 3.5 km, maximum depth 135 m.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.kopalnia.pl/turysta-indywidualny/informacje-praktyczne/wazne-informacje/trasa-turystyczna",
+          "kind": "official",
+          "title": "Wieliczka Salt Mine: Tourist route, important information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "Tours run at designated hours depending on online ticket availability",
+          "takes 2 to 3 hours, runs about 3.5 km and goes down to a maximum of 135 m"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.schindler-factory",
+      "topic": "place",
+      "claim": "Oskar Schindler's Enamel Factory, a branch of the Museum of Krakow, is at Lipowa 4; online tickets go on sale 90 days before a visit.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://muzeumkrakowa.pl/en/branches/oskar-schindlers-enamel-factory",
+          "kind": "official",
+          "title": "Museum of Krakow: Oskar Schindler's Enamel Factory"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "is at Lipowa 4; its tickets go on sale online 90 days ahead"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.stary",
+      "topic": "hotel",
+      "claim": "Hotel Stary: Szczepańska 5, steps from the Main Market Square; two restaurants and a wellness and spa area with sauna and pool; rooms on floors I-VI, some with balconies over the Main Market Square; room categories listed without sizes.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://stary.hotel.com.pl/hotel-stary/pokoje",
+          "kind": "official",
+          "title": "Hotel Stary: rooms"
+        },
+        {
+          "url": "https://stary.hotel.com.pl/hotel-stary/hotel",
+          "kind": "official",
+          "title": "Hotel Stary"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "At Szczepańska 5, a few steps from the Main Market Square",
+          "two restaurants and a wellness and spa area with a sauna and a pool",
+          "the hotel lists room categories but not room sizes"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.francuski",
+      "topic": "hotel",
+      "claim": "H15 Hotel Francuski: Pijarska 13; the hotel calls it the first building in Kraków built as a hotel; Brasserie L'Olympique; pet-friendly; Michelin Guide recommended for 2026; Comfort double 20 sqm, Premium double 26 sqm.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://hotelfrancuski.pl/",
+          "kind": "official",
+          "title": "H15 Hotel Francuski"
+        },
+        {
+          "url": "https://hotelfrancuski.pl/pokoje",
+          "kind": "official",
+          "title": "H15 Hotel Francuski: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "At Pijarska 13, in what the hotel calls the first building in Kraków built as a hotel",
+          "The Michelin Guide recommends it for 2026",
+          "the Comfort double is 20 sq m; for more space the Premium double is 26 sq m"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.pod-roza",
+      "topic": "hotel",
+      "claim": "Hotel Pod Różą: Floriańska 14, former Renaissance palace, five-star, restaurant under a glass roof, wellness and spa in medieval cellars, renovated 2020; some rooms face Floriańska/Royal Route, others St Tomasz Street.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://podroza.hotel.com.pl/hotel-pod-roza",
+          "kind": "official",
+          "title": "Hotel Pod Różą"
+        },
+        {
+          "url": "https://podroza.hotel.com.pl/hotel-pod-roza/pokoje",
+          "kind": "official",
+          "title": "Hotel Pod Różą: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "in a former Renaissance palace",
+          "it was renovated in 2020",
+          "some rooms face Floriańska Street and the Royal Route, the others the quieter St Tomasz Street"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.rubinstein",
+      "topic": "hotel",
+      "claim": "Hotel Rubinstein: Szeroka 12, historic tenement house with boutique character, restaurant, Sky Bar; breakfast included in several packages; Single 14 sqm, Economy Standard 18 sqm.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.rubinstein.pl/",
+          "kind": "official",
+          "title": "Hotel Rubinstein"
+        },
+        {
+          "url": "https://www.rubinstein.pl/pl/pokoje",
+          "kind": "official",
+          "title": "Hotel Rubinstein: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "At Szeroka 12, in a historic tenement house with a boutique character",
+          "the Single is 14 sq m and the Economy Standard 18 sq m"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.metropolitan",
+      "topic": "hotel",
+      "claim": "Metropolitan Boutique Hotel: Berka Joselewicza 19, between the Old Town Square and Kazimierz; 59 air-conditioned rooms; 24-hour gym; Fab Fusion restaurant; four stars; Classic 21-24 sqm, Superior 24-29 sqm.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://metropolitanboutiquehotel.pl/",
+          "kind": "official",
+          "title": "Metropolitan Boutique Hotel"
+        },
+        {
+          "url": "https://metropolitanboutiquehotel.pl/pokoje-en",
+          "kind": "official",
+          "title": "Metropolitan Boutique Hotel: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "with 59 air-conditioned rooms, a 24-hour gym",
+          "The Classic rooms are 21 to 24 sq m and the Superior 24 to 29 sq m"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.kazimierz",
+      "topic": "hotel",
+      "claim": "Hotel Kazimierz (Hotel Kazimierz I): Miodowa 16, restored historic building, 38 rooms, air conditioning, breakfast buffet 07:00-10:30, no parking on site, no room sizes listed.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hk.com.pl/en/kazimierz-hotel-1/",
+          "kind": "official",
+          "title": "Hotel Kazimierz"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "in a restored historic building with 38 rooms",
+          "a breakfast buffet from 07:00 to 10:30",
+          "there is no parking on site"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.copernicus",
+      "topic": "hotel",
+      "claim": "Hotel Copernicus: Kanonicza 16, Gothic building below the Royal Castle, Restaurant Copernicus, Copernicus Spa by L'Occitane in the Gothic cellars, first hotel in Poland in Relais & Châteaux per the hotel; room categories without sizes.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://copernicus.hotel.com.pl/hotel-copernicus",
+          "kind": "official",
+          "title": "Hotel Copernicus"
+        },
+        {
+          "url": "https://copernicus.hotel.com.pl/hotel-copernicus/pokoje",
+          "kind": "official",
+          "title": "Hotel Copernicus: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "At Kanonicza 16, in a Gothic building below the Royal Castle",
+          "The hotel says it was the first in Poland to join Relais & Châteaux"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.senacki",
+      "topic": "hotel",
+      "claim": "Hotel Senacki: Grodzka 51; by the hotel's count 450 m to the Main Market Square, 600 m to Wawel, 1.3 km to Kraków Główny; breakfast served daily; historic cellars.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotelsenacki.pl/",
+          "kind": "official",
+          "title": "Hotel Senacki"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "450 m from the Main Market Square and 600 m from Wawel by the hotel's own count",
+          "the hotel puts Kraków Główny 1.3 km away"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.qubus",
+      "topic": "hotel",
+      "claim": "Qubus Hotel Kraków: Nadwiślańska 6 (Podgórze per Booking.com), on the Vistula bank next to Kazimierz; about 196 rooms by sum of listed room types; top-floor glass-walled indoor pool 4 x 8 m, gym, jacuzzi, dry and steam saunas open 07:00-22:00, free for guests; Wawel about 20 minutes on foot per the hotel; pool and sauna closed Mondays 10:00-14:00 for maintenance.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.qubushotel.com/pl/hotel-krakow/",
+          "kind": "official",
+          "title": "Qubus Hotel Kraków"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "with about 196 rooms, a glass-walled indoor pool on the top floor",
+          "The hotel puts Wawel about 20 minutes away on foot",
+          "the pool and sauna close every Monday from 10:00 to 14:00 for maintenance"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.europejski",
+      "topic": "hotel",
+      "claim": "Hotel Europejski: Lubicz 5, three stars; completed 1884; 41 rooms and 87 beds; five minutes from the station by the hotel's count; reception reached from Radziwiłłowska Street; Single 12 sqm, 2-person Plus 16 sqm; double size not stated.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.he.pl/",
+          "kind": "official",
+          "title": "Hotel Europejski"
+        },
+        {
+          "url": "https://www.he.pl/o-hotelu/historia",
+          "kind": "official",
+          "title": "Hotel Europejski: history"
+        },
+        {
+          "url": "https://www.he.pl/pokoje",
+          "kind": "official",
+          "title": "Hotel Europejski: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "completed in 1884, with 41 rooms and 87 beds",
+          "Reception is reached from Radziwiłłowska Street",
+          "the Single is 12 sq m"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.ibis-stare-miasto",
+      "topic": "hotel",
+      "claim": "ibis Krakow Stare Miasto: Pawia 15, 320 m / 5 min walk to Kraków Główny per Accor; hotel text says Old Town is a 15-minute walk; IBIS Kitchen restaurant; double/twin 14 sqm, premium/family 16 sqm.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/7161/index.en.shtml",
+          "kind": "official",
+          "title": "ibis Krakow Stare Miasto (Accor)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "At Pawia 15, 320 m from Kraków Główny by the hotel's own count",
+          "rooms of 14 sq m for a double or twin and 16 sq m for a premium or family room",
+          "the hotel itself says the Old Town is a 15-minute walk"
+        ]
+      }
+    },
+    {
+      "id": "pl.krakow.hotel.ibis-budget-stare-miasto",
+      "topic": "hotel",
+      "claim": "ibis budget Krakow Stare Miasto: Pawia 11, 200 m / 3 min walk to Kraków Główny per Accor; hot buffet breakfast; car park; shuttle at additional charge; Standard single/double 12 sqm.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/7165/index.en.shtml",
+          "kind": "official",
+          "title": "ibis budget Krakow Stare Miasto (Accor)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-krakow.html": [
+          "At Pawia 11, 200 m from Kraków Główny by the hotel's own count",
+          "rooms of 12 sq m for a standard single or double",
+          "the shuttle costs extra"
+        ]
+      }
+    }
+  ]
+}

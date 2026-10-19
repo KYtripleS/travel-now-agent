@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-dubrovnik.html": (
+        "Where to Stay in Dubrovnik",
+        "Five areas, 12 hotels and Dubrovnik's tourist tax: €2.65 a night in summer, €1.85 in winter.",
+    ),
+    "articles/where-to-stay-in-krakow.html": (
+        "Where to Stay in Kraków",
+        "Five areas, 12 hotels, no tourist tax in 2026, and a 17-minute airport train for 20 zloty.",
+    ),
     "articles/where-to-stay-in-nice.html": (
         "Where to Stay in Nice",
         "Five areas, 12 hotels and Nice's tax: €3.48 a night at a four-star, a quarter of it a rail surcharge.",
@@ -2041,6 +2049,18 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-dubrovnik.html": [
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-in-krakow.html": [
+        "articles/where-to-stay-in-prague.html",
+        "articles/where-to-stay-in-budapest.html",
+        "articles/where-to-stay-in-vienna.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-in-nice.html": [
         "articles/where-to-stay-in-paris.html",
