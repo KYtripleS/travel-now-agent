@@ -1,0 +1,536 @@
+{
+  "place": "Portugal",
+  "facts": [
+    {
+      "id": "pt.porto.tourist-tax",
+      "topic": "tax",
+      "claim": "Porto's municipal tourist tax is EUR 3 per person per night, up to a maximum of seven consecutive nights (EUR 21), in force since 1 December 2024; guests aged 13 and over pay and children aged 12 and under are exempt, with proof.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://atividadeseconomicas.cm-porto.pt/alojamento-local/taxa-municipal-turistica-do-porto",
+          "kind": "official",
+          "title": "Porto City Council: Taxa Municipal Turística do Porto"
+        },
+        {
+          "url": "https://taxaturistica.cm-porto.pt/Content/documents/tmt_folhetos_EN.pdf",
+          "kind": "official",
+          "title": "Porto City Council: MTT leaflet (English)"
+        },
+        {
+          "url": "https://files.diariodarepublica.pt/2s/2024/11/232000000/0035300355.pdf",
+          "kind": "official",
+          "title": "Diário da República: Regulamento n.º 1387/2024"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "€3 a person a night",
+          "7 consecutive nights, a maximum of €21",
+          "Guests aged 13 and over",
+          "€3 since 1 December 2024"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.tax-exemptions",
+      "topic": "tax",
+      "claim": "Porto exempts children aged 12 and under, stays motivated by medical treatment (plus two companions), guests with a disability or incapacity of 60% or more (plus two companions), displaced people, the first night in pilgrim hostels, people housed by public social bodies and asylum seekers; exemptions need supporting evidence.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://taxaturistica.cm-porto.pt/Content/documents/tmt_folhetos_EN.pdf",
+          "kind": "official",
+          "title": "Porto City Council: MTT leaflet (English)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "Children aged 12 and under",
+          "guests with a disability of 60% or more, and two companions",
+          "Exemptions need proof"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.tax-revision",
+      "topic": "tax",
+      "claim": "On 25 September 2026 Lusa reported that Porto council would vote the following Tuesday on starting the administrative procedure to amend the tourist tax regulation; the proposal named no value, and in July the mayor had admitted raising the tax from three to four euros. No decision was found.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://observador.pt/2026/09/25/camara-do-porto-vota-na-terca-feira-inicio-do-processo-de-revisao-da-taxa-turistica/",
+          "kind": "news",
+          "title": "Observador / Lusa: Câmara do Porto vota início do processo de revisão da taxa turística (25 Sep 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "the proposal named no figure",
+          "the tax could rise from three to four euros",
+          "We found no decision"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.gaia-city-tax",
+      "topic": "tax",
+      "claim": "Vila Nova de Gaia's city tax (taxa de cidade) is EUR 3 per night for guests aged 16 and over, up to seven consecutive nights per person per stay; Regulamento n.º 970/2026 was published on 22 July 2026 and enters into force 30 days after publication; it was EUR 2.50 before. Medical stays (one companion) and disability of 60%+ are exempt; groups travelling for work, study, sport or culture pay 50%.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/970-2026-1150611448",
+          "kind": "official",
+          "title": "Diário da República: Regulamento n.º 970/2026, de 22 de julho (Gaia)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "Guests aged 16 and over",
+          "€3 from 30 days after its publication on 22 July 2026; it was €2.50 before",
+          "groups travelling for work, study or sport pay half"
+        ]
+      }
+    },
+    {
+      "id": "pt.vat-hotel-6",
+      "topic": "tax",
+      "claim": "Hotel-type accommodation falls under the reduced 6% VAT rate (item 2.17 of List I of the CIVA), which applies only to the accommodation price, including breakfast if not invoiced separately, according to a binding ruling published by Portal das Finanças (PIV 24650, 2023). The ruling does not itself say mainland.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/informacoes_vinculativas/despesa/civa/Documents/PIV_24650.pdf",
+          "kind": "official",
+          "title": "Portal das Finanças: ficha doutrinária, processo 24650"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "VAT at the reduced rate of 6%",
+          "item 2.17 of the VAT code's List I"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: two adults for four nights pay 2 x 4 x EUR 3 = EUR 24 in Porto or Gaia; with a 14-year-old the Porto total is EUR 36 and Gaia's stays EUR 24; nine nights are capped at seven, so EUR 42 for two adults.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://taxaturistica.cm-porto.pt/Content/documents/tmt_folhetos_EN.pdf",
+          "kind": "official",
+          "title": "Porto City Council: MTT leaflet (English)"
+        },
+        {
+          "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/970-2026-1150611448",
+          "kind": "official",
+          "title": "Diário da República: Regulamento n.º 970/2026 (Gaia)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "Here is our arithmetic, not an official figure",
+          "2 × 4 × €3 = €24",
+          "2 × 7 × €3 = €42, not €54"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.metro-e-airport",
+      "topic": "transport",
+      "claim": "Metro do Porto line E (violet) serves the airport and, per the airport's own page, runs every 20 or 30 minutes depending on the time and day; the airport-Trindade trip is a Z4 fare. No journey time was confirmed because metrodoporto.pt is closed to automated access.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.portoairport.pt/en/opo/access-parking/getting-to-and-from-the-airport/public-transportation",
+          "kind": "official",
+          "title": "Porto Airport: public transportation (read via archived copy of 20 Aug 2026)"
+        },
+        {
+          "url": "https://andante.pt/en/purchase/visa-mastercard/",
+          "kind": "operator",
+          "title": "Andante: Visa & Mastercard"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "runs to Trindade station in the city centre",
+          "every 20 or 30 minutes, depending on the time and day",
+          "The fare is a Z4"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.andante-contactless-z4",
+      "topic": "fare",
+      "claim": "Andante lists the Z4 trip at EUR 2.30 with a contactless bank card validated at stations including Aeroporto and Trindade, valid for 1h15m on Metro do Porto and STCP; from four journeys in a day the charge is capped at EUR 7.75 (the daily ticket).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://andante.pt/en/purchase/visa-mastercard/",
+          "kind": "operator",
+          "title": "Andante: Visa & Mastercard (Transportes Metropolitanos do Porto)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "a Z4 trip at €2.30",
+          "valid for 1 hour 15 minutes on the metro and on STCP buses",
+          "capped at €7.75"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.airport-bus-taxi",
+      "topic": "transport",
+      "claim": "The airport's page lists STCP and Resende (and other operators) for buses and says taxis circulate 24/7 and wait at ranks; it gives no taxi fare.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.portoairport.pt/en/opo/access-parking/getting-to-and-from-the-airport/public-transportation",
+          "kind": "official",
+          "title": "Porto Airport: public transportation (archived copy 20 Aug 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "lists STCP and other operators for buses",
+          "taxis circulate 24 hours a day and wait at ranks"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.funicular-guindais",
+      "topic": "transport",
+      "claim": "The Guindais funicular links the lower Ribeira station with the upper Batalha station, with track slopes reaching a maximum of 36.1% (Visit Porto); STCP Serviços suspended it from Saturday 18 July 2026 for a certification renewal and no reopening date was found as of 19 October 2026.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitporto.travel/en-GB/funicular-dos-guindais",
+          "kind": "official",
+          "title": "Visit Porto: Funicular dos Guindais"
+        },
+        {
+          "url": "https://rr.pt/noticia/pais/2026/07/23/funicular-dos-guindais-suspenso-por-prudencia-e-por-tempo-indeterminado/479308/",
+          "kind": "news",
+          "title": "Renascença / Lusa: Funicular dos Guindais suspenso (23 Jul 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "track gradients of up to 36.1%",
+          "STCP suspended it in July 2026 for a certification renewal",
+          "we found no reopening date"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.historic-district",
+      "topic": "place",
+      "claim": "Visit Porto's Historic District (Porto and Gaia) lists Ponte Luís I, Palácio da Bolsa, São Bento station, Ribeira, the Sé, the Clérigos Tower, the Alfândega and Port wine caves, and calls the historic centres of Porto and Gaia the ideal choice for UNESCO World Cultural Heritage.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitporto.travel/en-GB/districts/historic",
+          "kind": "official",
+          "title": "Visit Porto: Historic District"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "Visit Porto groups the Historic District around Ribeira",
+          "describes the historic centres of Porto and Gaia as the choice for UNESCO World Heritage"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.downtown-district",
+      "topic": "place",
+      "claim": "Visit Porto's Downtown (Baixa) district covers Avenida dos Aliados, the Bolhão market, Rua de Santa Catarina, the Coliseu, Igreja do Carmo, Jardim da Cordoaria, Bombarda, Batalha and Rua de Cedofeita, and says it truly comes alive at night.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitporto.travel/en-GB/districts/downtown",
+          "kind": "official",
+          "title": "Visit Porto: Downtown District"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "Visit Porto's Downtown district covers Avenida dos Aliados, the Bolhão market, Rua de Santa Catarina",
+          "Visit Porto lists Bombarda and Rua de Cedofeita within its Downtown district"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.boavista-district",
+      "topic": "place",
+      "claim": "Visit Porto's Boavista district lists Casa da Música, the Palácio de Cristal, the Botanical Garden, the Bom Sucesso market and the Faculty of Architecture, and describes a mix of modern and traditional architecture and many international companies.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitporto.travel/en-GB/districts/boavista",
+          "kind": "official",
+          "title": "Visit Porto: Boavista District"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "Visit Porto's Boavista district brings together Casa da Música, the Palácio de Cristal",
+          "a mix of modern and traditional architecture and many international companies"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.atlantic-district",
+      "topic": "place",
+      "claim": "Visit Porto's Atlantic district covers Foz, beaches, seafront promenades, the Pérgola da Foz and the Parque da Cidade, described as the largest urban park in the country at over 85 hectares and the only European park beside the sea.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://visitporto.travel/en-GB/districts/atlantic",
+          "kind": "official",
+          "title": "Visit Porto: Atlantic District"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "Visit Porto's Atlantic district takes in Foz, the beaches, the seafront promenades, the Pérgola da Foz and the Parque da Cidade",
+          "at over 85 hectares and beside the sea"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-pestana-vintage",
+      "topic": "hotel",
+      "claim": "Pestana Vintage Porto: Praça da Ribeira 1, built by combining 18 buildings, views of the Douro, the Gaia cellars and the Dom Luís I bridge; Rib restaurant, Vinology Wine Bar, Heritage Bar, gym; room types include Front View, Bridge View and River View.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.pestana.com/en/hotel/pestana-porto",
+          "kind": "official",
+          "title": "Pestana Vintage Porto (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "built by joining 18 buildings",
+          "the hotel sells Front View, Bridge View and River View rooms as separate types"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-as-1829",
+      "topic": "hotel",
+      "claim": "Porto A.S. 1829 Hotel: between Rua das Flores and Largo de São Domingos, in the Araújo & Sobrinho stationery shop building; 41 rooms in eight types; restaurant Galeria do Largo; Double Small 14 m2, Double 15 m2, Superior City View 20 m2.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.artsoulgroup.com/portoas1829hotel/en/",
+          "kind": "official",
+          "title": "Porto A.S. 1829 Hotel (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "Between Rua das Flores and Largo de São Domingos",
+          "41 rooms in eight types",
+          "the smallest rooms are 14 m² and the standard double is 15 m²"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-infante-sagres",
+      "topic": "hotel",
+      "claim": "Infante Sagres: Praça D. Filipa de Lencastre 62; 85 rooms and suites; full renovation completed in 2024; summer terrace and plunge pool with seasonal closure from 6 October.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.infantesagres.com/",
+          "kind": "official",
+          "title": "Infante Sagres (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "with 85 rooms and suites, fully renovated in 2024",
+          "the hotel's terrace and pool close for the season from 6 October"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-grande-do-porto",
+      "topic": "hotel",
+      "claim": "Grande Hotel do Porto: Rua de Santa Catarina 197, pedestrian street with restricted car access; classical style from 1880; 94 rooms; standard rooms 14-17 m2; five minutes from São Bento station by the hotel's count; gym and terrace.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.grandehotelporto.com/EN/home.html",
+          "kind": "official",
+          "title": "Grande Hotel do Porto (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "A hotel of 1880 on the pedestrian Rua de Santa Catarina, with 94 rooms",
+          "the standard rooms are 14 to 17 m²"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-gallery-hostel",
+      "topic": "hotel",
+      "claim": "Gallery Hostel: Rua Miguel Bombarda 222; opened 2011 in a restored 19th-century building; rooms named after local artists; art gallery and games room; seven dorms and two private rooms in the hostel building; garden-wing doubles of 18 m2; complimentary bike rental and daily walking tours.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.gallery-hostel.com/en/gallery-hostel-en",
+          "kind": "official",
+          "title": "Gallery Hostel (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "opened as a hostel in 2011",
+          "the main building has seven dorms and only two private rooms"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-rosa-et-al",
+      "topic": "hotel",
+      "claim": "ROSA ET AL Townhouse: Rua do Rosário 233, Cedofeita; seven suites in an 18th-century building; Queen Deluxe City Heritage 33 m2 with original plasterwork ceiling; Queen Deluxe suites face Rua do Rosário street life.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.rosaetal.com/EN/stay/queen/",
+          "kind": "official",
+          "title": "ROSA ET AL Townhouse (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "with seven suites and a brunch room",
+          "The Queen Deluxe City Heritage suite is 33 m²"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-yeatman",
+      "topic": "hotel",
+      "claim": "The Yeatman: Rua do Choupelo, Vila Nova de Gaia; Relais & Châteaux; on a hill amid the Port wine lodges; every room and suite has a terrace or balcony with views over Porto; indoor and outdoor infinity pools, Wine Spa, restaurant with two Michelin stars.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.the-yeatman-hotel.com/en/",
+          "kind": "official",
+          "title": "The Yeatman (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "A Relais & Châteaux wine hotel on a hill amid the Port lodges",
+          "a restaurant with two Michelin stars"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-river-soul",
+      "topic": "hotel",
+      "claim": "Porto River Soul Hotel: Gaia; 65 rooms in six types; near the Port wine cellars, the Dom Luís I bridge and Ribeira; Rabelo restaurant, Azure wellness; Superior River View 22 m2, Interior View 26 m2.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.artsoulgroup.com/portoriversoulhotel/en/",
+          "kind": "official",
+          "title": "Porto River Soul Hotel (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "A boutique hotel with 65 rooms in six types",
+          "only some rooms face the river"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-da-musica",
+      "topic": "hotel",
+      "claim": "Hotel da Música: Mercado do Bom Sucesso, Largo Ferreira Lapa; 85 rooms; no swimming pool; gym; car park EUR 12/day; Standard Room from EUR 85 on the hotel's own page; Crystal Palace Gardens 1 km, Luís I Bridge 3.5 km, airport 17 km by the hotel's count; autumn sale up to 15%.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.hoteldamusica.com/en/rooms-suites/",
+          "kind": "official",
+          "title": "Hotel da Música (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "Inside the Mercado do Bom Sucesso, with 85 rooms",
+          "its own site listed standard rooms from €85",
+          "it has no pool, and it puts the Dom Luís I bridge 3.5 km away",
+          "an autumn offer of up to 15% off"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-porto-palacio",
+      "topic": "hotel",
+      "claim": "Porto Palácio Hotel by The Editory: Avenida da Boavista 1269; Auge restaurant on the 19th floor with panoramic views; spa of 1,500 sqm with indoor pool; Executive Rooms 29 m2; the hotel describes the avenue as the heart of Porto's business and financial centre.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.editoryhotels.com/en/porto-palacio/overview/",
+          "kind": "official",
+          "title": "Porto Palácio Hotel by The Editory (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "On Avenida da Boavista, with the Auge restaurant",
+          "describes the avenue as Porto's business and financial centre"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-vila-foz",
+      "topic": "hotel",
+      "claim": "Vila Foz Hotel & Spa: Avenida de Montevideu 236, Foz do Douro; restored 19th-century manor plus a contemporary building; 66 rooms and suites; spa; Vila Foz restaurant (one Michelin star, 2022 guide, by the hotel's text) and Flor de Lis.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.vilafozhotel.pt/",
+          "kind": "official",
+          "title": "Vila Foz Hotel & Spa (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "A restored 19th-century manor house with a modern building beside it, 66 rooms and suites",
+          "Vila Foz won a Michelin star in the 2022 guide"
+        ]
+      }
+    },
+    {
+      "id": "pt.porto.hotel-duas-portas",
+      "topic": "hotel",
+      "claim": "Duas Portas: Rua das Sobreiras 516, Foz; eight rooms, four facing river and sea and four facing the garden; in front of the mouth of the Douro, ten minutes from the centre by its own count; wine bar, bicycles; airport transfer and tours at extra cost.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.duasportas.com/",
+          "kind": "official",
+          "title": "Duas Portas (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-porto.html": [
+          "A family-run house of eight rooms",
+          "four of the eight rooms face the river and sea and the rest face the garden"
+        ]
+      }
+    }
+  ]
+}

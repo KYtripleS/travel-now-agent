@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-porto": dict(
+        text="For a first trip, stay in Ribeira and the Historic Centre: the river quay, São Bento station and the Dom Luís I bridge are on foot. Choose Baixa for shops, Cedofeita for galleries, Gaia for the Port lodges and Foz for the sea. Porto's tax is €3 a person a night, up to seven nights.",
+        link_text="Ribeira and the Historic Centre",
+        cta=_stay_cta("where-to-stay-in-porto", "See hotels around Ribeira")),
     "where-to-stay-in-san-francisco": dict(
         text="For a first trip, stay in Union Square: the Powell Street BART and Muni station and the cable cars are close. Choose The Clift for an old-school hotel, Hotel Zeppelin for value, the Fairmont on Nob Hill for a splurge. Tax is 14% plus up to 3.5% in district assessments.",
         link_text="Union Square",
@@ -1271,6 +1275,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-porto": ["Pestana Vintage Porto", "Grande Hotel do Porto", "Infante Sagres"],
     "where-to-stay-in-san-francisco": ["Fairmont San Francisco", "The Clift Royal Sonesta San Francisco", "Hotel Zeppelin"],
     "where-to-stay-in-las-vegas": ["Bellagio", "The Cosmopolitan of Las Vegas", "SAHARA Las Vegas"],
     "where-to-stay-in-milan": ["Sina The Gray", "Hotel Spadari al Duomo", "Gran Duca di York"],
@@ -1381,6 +1386,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Porto", "where-to-stay-in-porto", None, None),
         ("San Francisco", "where-to-stay-in-san-francisco", None, None),
         ("Las Vegas", "where-to-stay-in-las-vegas", None, None),
         ("Milan", "where-to-stay-in-milan", None, None),

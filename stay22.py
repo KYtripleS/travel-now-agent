@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-porto": dict(area="Ribeira", lat=41.1405, lng=-8.613, zoom=15,
+                                      address="Praça da Ribeira, Porto, Portugal"),
     "where-to-stay-in-san-francisco": dict(area="Union Square", lat=37.788, lng=-122.4075, zoom=15,
                                               address="Union Square, San Francisco, CA, USA"),
     "where-to-stay-in-las-vegas": dict(area="Center Strip", lat=36.1126, lng=-115.1767, zoom=14,
@@ -836,6 +838,19 @@ HOTELS = {
     "The Mosser Hotel": _B + "us/the-mosser-san-francisco.html",
     "Inn at the Presidio": None,
     "Lodge at the Presidio": None,
+    # Porto (Booking.com pages confirmed by hotel name and city)
+    "Pestana Vintage Porto": _B + "pt/pestanaportohotel.html",
+    "Porto A.S. 1829 Hotel": _B + "pt/porto-as-1829.html",
+    "Infante Sagres": _B + "pt/infante-de-sagres.html",
+    "Grande Hotel do Porto": _B + "pt/grande-do-porto.html",
+    "Gallery Hostel": _B + "pt/gallery-hostel.html",
+    "Rosa et Al Townhouse": _B + "pt/rosa-et-al.html",
+    "The Yeatman": _B + "pt/the-yeatman.html",
+    "Porto River Soul Hotel": _B + "pt/porto-river-soul.html",
+    "Hotel da Música": _B + "pt/da-musica.html",
+    "Porto Palácio Hotel by The Editory": _B + "pt/porto-palacio.html",
+    "Vila Foz Hotel & Spa": _B + "pt/vila-foz-amp-spa.html",
+    "Duas Portas": _B + "pt/duas-portas.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
