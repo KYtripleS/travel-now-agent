@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-chiang-mai": dict(area="Old City", lat=18.787, lng=98.9869, zoom=15,
+                                           address="Wat Chedi Luang, Phra Pokklao Road, Chiang Mai, Thailand"),
     "where-to-stay-in-cancun": dict(area="Hotel Zone", lat=21.1358, lng=-86.7469, zoom=14,
                                        address="Boulevard Kukulcán, Zona Hotelera, Cancún, Quintana Roo, Mexico"),
     "where-to-stay-in-da-nang": dict(area="My Khe", lat=16.0615, lng=108.248, zoom=14,
@@ -896,6 +898,19 @@ HOTELS = {
     "Secrets Riviera Cancun Resort & Spa": _B + "mx/secrets-riviera-cancun-resort-amp-spa.html",
     "The Carmen Hotel - Ocean Front": _B + "mx/the-carmen-beachfront-adults-only.html",
     "Hyatt Centric Playa del Carmen": _B + "mx/thompson-playa-del-carmen.html",
+    # Chiang Mai (Booking.com pages confirmed by hotel name and city)
+    "Rachamankha": _B + "th/rachamankha.html",
+    "Tamarind Village": _B + "th/tamarind-village.html",
+    "Stamps Backpackers": _B + "th/stamps-backpackers.html",
+    "U Nimman Chiang Mai": _B + "th/u-nimman-chiang-mai.html",
+    "Art Mai Gallery Hotel": _B + "th/art-mai-gallery-nimman-chiang-mai.html",
+    "Kantary Hills Hotel": _B + "th/kantary-hills-chiang-mai.html",
+    "137 Pillars House": _B + "th/one-three-seven-pillars-house.html",
+    "Anantara Chiang Mai Resort": _B + "th/anantara-chiang-mai-resort-and-spa.html",
+    "Dusit Princess Chiang Mai": _B + "th/royal-princess-chiang-mai.html",
+    "Night Bazaar Inn": _B + "th/night-bazaar-inn.html",
+    "B2 Santitham Boutique & Budget Hotel": _B + "th/po-b2-santitham-boutique-budget-hotel.html",
+    "Four Seasons Resort Chiang Mai": _B + "th/four-seasons-resort-chiang-mai.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -22,6 +22,10 @@
         "articles/where-to-stay-in-phuket.html": [
           "extending the 7% VAT rate",
           "30 September 2027"
+        ],
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "extending the 7% VAT rate",
+          "30 September 2027"
         ]
       },
       "note": "KPMG reports the decree itself as Royal Decree No. 807, issued 20 August 2026; the Royal Gazette text was not opened."
@@ -40,6 +44,9 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-phuket.html": [
+          "the total value received for a service, fees included"
+        ],
+        "articles/where-to-stay-in-chiang-mai.html": [
           "the total value received for a service, fees included"
         ]
       }
@@ -71,6 +78,11 @@
           "about 17.7% in all",
           "3,531",
           "10,593 baht"
+        ],
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "about 17.7% in all",
+          "3,531",
+          "10,593 baht"
         ]
       },
       "note": "The 10% service charge is the hotel's own and not fixed by law; only a secondary source (and bangkok.json th.plus-plus) gives the usual 10%. Consider upgrading th.plus-plus with the Revenue Department source."
@@ -89,6 +101,11 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-phuket.html": [
+          "a flat 450 baht a person",
+          "180 days after the announcement appears in the Royal Gazette",
+          "about 360 days after that"
+        ],
+        "articles/where-to-stay-in-chiang-mai.html": [
           "a flat 450 baht a person",
           "180 days after the announcement appears in the Royal Gazette",
           "about 360 days after that"
@@ -527,6 +544,467 @@
         "articles/where-to-stay-in-phuket.html": [
           "500 metres from Nai Harn Beach",
           "through 2027"
+        ]
+      }
+    },
+    {
+      "id": "th.chiangmai.airport.rtc-bus",
+      "topic": "fare",
+      "claim": "Airports of Thailand lists the RTC Chiang Mai City Bus at 30 baht a trip for short or long distances; the R3 Red Line stops at the airport, Wualai Road, Chiang Mai Gate, Pantip Plaza (Night Bazaar), Tha Pae Gate, Chang Phuak Gate and Nimmanhaemin, and the Yellow Line at Nimmanhaemin, Chang Phuak Gate, Three Kings Monument, Tha Pae Gate, Warorot Market and the Night Bazaar; the airport lists it from outside the terminal, 7:00 am to midnight daily.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://chiangmai.airportthai.co.th/service/transportation/detail/139",
+          "kind": "official",
+          "title": "Airports of Thailand, Chiang Mai: RTC Chiang Mai City Bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "the fare is 30 baht a trip",
+          "Wualai Road, Chiang Mai Gate, Pantip Plaza (Night Bazaar), Tha Pae Gate, Chang Phuak Gate and Nimmanhaemin",
+          "Nimmanhaemin, Chang Phuak Gate, Warorot Market and the Night Bazaar",
+          "running from 7:00 am to midnight"
+        ]
+      },
+      "note": "AOT's closing time is stored as 00:00:59. The page itself says to verify fares and routes before travel."
+    },
+    {
+      "id": "th.chiangmai.airport.shuttle",
+      "topic": "fare",
+      "claim": "Airports of Thailand lists an Airport Shuttle Bus with route A1 (Nimmanhaemin Road, Huay Kaew Road, City Moat) at 40 baht, A2 (Mahidol Road, Night Bazaar, hotels in the Chang Klan Road area) at 40 baht and A3 (Second Ring Road, 700th Anniversary Stadium) at 60 baht, from the international arrivals area on floor 1, listed 7:00 am to midnight daily; it asks passengers to verify fares and routes before travel.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://chiangmai.airportthai.co.th/service/transportation/detail/145",
+          "kind": "official",
+          "title": "Airports of Thailand, Chiang Mai: Airport Shuttle Bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "cost 40 baht each",
+          "route A3 (Second Ring Road and the 700th Anniversary Stadium) costs 60 baht",
+          "Mahidol Road, the Night Bazaar and hotels on Chang Klan Road",
+          "Nimmanhaemin Road, Huay Kaew Road and the city moat"
+        ]
+      }
+    },
+    {
+      "id": "th.chiangmai.airport.taxi",
+      "topic": "transport",
+      "claim": "Airports of Thailand lists a Taxi Meter service at Entrance 1 of the main terminal (7:00 am to 11:00 pm) with an additional 50-baht gratuity collected under a Ministry of Transport announcement, and a flat-rate Airport Taxi counter at Entrance 1 (7:00 am to midnight); the pages give no fares.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://chiangmai.airportthai.co.th/service/transportation/detail/126",
+          "kind": "official",
+          "title": "Airports of Thailand, Chiang Mai: Taxi Meter"
+        },
+        {
+          "url": "https://chiangmai.airportthai.co.th/service/transportation/detail/125",
+          "kind": "official",
+          "title": "Airports of Thailand, Chiang Mai: Airport Taxi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "a 50-baht gratuity added",
+          "Entrance 1 of the main terminal",
+          "7:00 am to 11:00 pm",
+          "the airport's page gives no fares"
+        ]
+      }
+    },
+    {
+      "id": "th.chiangmai.airport.grab",
+      "topic": "transport",
+      "claim": "Airports of Thailand lists Grab Taxi, Grab Car and Just Grab at Chiang Mai airport, which must use designated pick-up and drop-off points, with the service shown as open 24 hours.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://chiangmai.airportthai.co.th/service/transportation/detail/138",
+          "kind": "official",
+          "title": "Airports of Thailand, Chiang Mai: Grab Taxi (pick-up and drop-off points)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "Grab Taxi, Grab Car and Just Grab",
+          "designated pick-up and drop-off points",
+          "open around the clock"
+        ]
+      }
+    },
+    {
+      "id": "th.chiangmai.air-quality",
+      "topic": "place",
+      "claim": "The Pollution Control Department's Environmental and Pollution Control Office 1 (Chiang Mai) summary for 31 March 2026 gave 24-hour PM2.5 of 66.9-330.2 micrograms per cubic metre across Chiang Mai, Chiang Rai, Lamphun and Mae Hong Son against a 24-hour standard of 37.5, including 70.1 at Si Phum, 104.6 at Chang Phueak and 78.1 at Suthep in Mueang Chiang Mai district, and points to Air4Thai for daily northern readings.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://epo01.pcd.go.th/th/news/detail/189434",
+          "kind": "official",
+          "title": "PCD Environmental and Pollution Control Office 1 (Chiang Mai): PM2.5 summary, 31 March 2026 (Thai)"
+        },
+        {
+          "url": "https://air4thai.pcd.go.th/webV3/#/Home",
+          "kind": "official",
+          "title": "Air4Thai, Pollution Control Department"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "66.9 to 330.2 micrograms per cubic metre",
+          "a 24-hour standard of 37.5",
+          "70.1 at Si Phum",
+          "104.6 at Chang Phueak",
+          "78.1 at Suthep"
+        ]
+      },
+      "note": "A single day's reading, not a season average. Sub-district names are the PCD's (Thai); the hotel sub-districts come from each hotel's Booking.com or own address."
+    },
+    {
+      "id": "th.chiangmai.hotel.rachamankha",
+      "topic": "hotel",
+      "claim": "Rachamankha, 9 Phra Singh, says its 25 rooms and suites sit in pavilions around colonnaded courtyards next to Wat Phra Singh, that the walled city has 33 functioning temples with four of notable interest within easy walking distance, that it has a 20-metre pool and a library of over 2,000 books, and that it is 8 minutes from the international airport; its site lists no room sizes.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.rachamankha.com/?page=about_rachamankha_the_hotel",
+          "kind": "official",
+          "title": "Rachamankha: the hotel"
+        },
+        {
+          "url": "https://www.rachamankha.com/?page=rooms_and_suites",
+          "kind": "official",
+          "title": "Rachamankha: rooms and suites"
+        },
+        {
+          "url": "https://www.rachamankha.com/",
+          "kind": "official",
+          "title": "Rachamankha: home (airport time)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "25 rooms and suites in pavilions around colonnaded courtyards",
+          "a 20-metre pool",
+          "more than 2,000 books",
+          "33 functioning temples",
+          "four of notable interest are within easy walking distance of its door",
+          "Rachamankha says 8 minutes",
+          "its site lists no room sizes, so ask before you book"
+        ]
+      },
+      "note": "Site has no dated content; operating status rests on the live Booking.com listing (rachamankha) as well."
+    },
+    {
+      "id": "th.chiangmai.hotel.tamarind-village",
+      "topic": "hotel",
+      "claim": "Tamarind Village, 50/1 Rajdamnoen Road, has 41 guest rooms and 5 suites around flower-filled courtyards, is 15 minutes from the airport and 10 minutes from the Night Bazaar by its own account, and accepts children aged 6 and over.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.tamarindvillage.com/en/",
+          "kind": "official",
+          "title": "Tamarind Village"
+        },
+        {
+          "url": "https://www.tamarindvillage.com/en/contact.php",
+          "kind": "official",
+          "title": "Tamarind Village: contact"
+        },
+        {
+          "url": "https://www.tamarindvillage.com/en/accommodation.php",
+          "kind": "official",
+          "title": "Tamarind Village: accommodation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "50/1 Rajdamnoen Road",
+          "41 guest rooms and 5 suites",
+          "Tamarind Village and Anantara 15",
+          "10 minutes from the Night Bazaar",
+          "aged six and over only"
+        ]
+      },
+      "note": "The site still carries an expired September 2025 pool-maintenance notice; ignore. Live Booking.com listing confirms operating."
+    },
+    {
+      "id": "th.chiangmai.hotel.stamps-backpackers",
+      "topic": "hotel",
+      "claim": "Stamps Backpackers, 1/11 Chaiyapoom Road, offers semi-private pod dorms (5-bed and 6-bed air-conditioned, 8-bed fan) with a female dorm option, a locker, outlet and reading light per bed, says it is just outside the Old City's northeast corner, an 8-minute walk from Phae Gate, runs air-conditioning from 6pm to 11am in the air-con dorms, charges 200-baht key and towel deposits, lists the Yi Peng Lantern Festival as 24-25 November 2026 and excludes festivals from its SOCIALIZE direct-booking discount.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://stamps-backpackers.com/",
+          "kind": "official",
+          "title": "Stamps Backpackers"
+        },
+        {
+          "url": "https://stamps-backpackers.com/rooms/",
+          "kind": "official",
+          "title": "Stamps Backpackers: rooms"
+        },
+        {
+          "url": "https://stamps-backpackers.com/about/",
+          "kind": "official",
+          "title": "Stamps Backpackers: about"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "1/11 Chaiyapoom Road",
+          "from a five-bed air-conditioned dorm to an eight-bed fan dorm",
+          "just outside the Old City's northeast corner, an 8-minute walk from Phae Gate",
+          "from 6 pm to 11 am",
+          "200-baht deposit",
+          "24 to 25 November 2026",
+          "not valid at festivals"
+        ]
+      }
+    },
+    {
+      "id": "th.chiangmai.hotel.u-nimman",
+      "topic": "hotel",
+      "claim": "U Nimman Chiang Mai, 1 Nimmanhaemin Road, has 147 rooms, a rooftop pool, a gym and free bikes; the Deluxe Room is 32 sq m with a balcony, and a third adult is charged an extra THB 1,000 net; its listing describes direct access to One Nimman.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.uhotelsresorts.com/unimmanchiangmai",
+          "kind": "official",
+          "title": "U Nimman Chiang Mai"
+        },
+        {
+          "url": "https://www.uhotelsresorts.com/unimmanchiangmai/accommodation/deluxe",
+          "kind": "official",
+          "title": "U Nimman: Deluxe room"
+        },
+        {
+          "url": "https://www.uhotelsresorts.com/unimmanchiangmai/facilities",
+          "kind": "official",
+          "title": "U Nimman: facilities"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "1 Nimmanhaemin Road",
+          "147 rooms",
+          "32 sq m with a balcony",
+          "an extra 1,000 baht net",
+          "its listing gives direct access to One Nimman"
+        ]
+      },
+      "note": "'Direct access to One Nimman' is from the site's structured-data description, not visible body copy."
+    },
+    {
+      "id": "th.chiangmai.hotel.art-mai-gallery",
+      "topic": "hotel",
+      "claim": "Art Mai Gallery Hotel, 21 Soi 3 Nimmanhaemin Road, is dedicated to Thai artists with art on themed floors (including Nude Art, Op Art, Pop Art and Lanna Romantic), a rooftop pool, gym, underground parking and the Jarid restaurant.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.artmaigalleryhotel.com/",
+          "kind": "official",
+          "title": "Art Mai Gallery Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "21 Soi 3 Nimmanhaemin Road",
+          "from Op Art and Pop Art to Lanna Romantic",
+          "underground parking",
+          "one themed floor is nude art"
+        ]
+      }
+    },
+    {
+      "id": "th.chiangmai.hotel.kantary-hills",
+      "topic": "hotel",
+      "claim": "Kantary Hills Hotel, 44 Nimmanhaemin Road, Soi 12, lists studio suites of 46-54 sq m, one-bedroom suites of 61-76 sq m with a washing machine and two-bedroom suites of 103-115 sq m, and a pool.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.kantaryhills-chiangmai.com/",
+          "kind": "official",
+          "title": "Kantary Hills Hotel"
+        },
+        {
+          "url": "https://www.kantaryhills-chiangmai.com/location/",
+          "kind": "official",
+          "title": "Kantary Hills: location"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "44 Nimmanhaemin Road, Soi 12",
+          "46 to 54 sq m",
+          "61 to 76 sq m with a washing machine",
+          "suites and apartments only"
+        ]
+      }
+    },
+    {
+      "id": "th.chiangmai.hotel.137-pillars",
+      "topic": "hotel",
+      "claim": "137 Pillars House, 2 Soi 1, Nawatgate Road, is a 30-suite hotel in a restored teakwood residence built in the late 1800s as part of the Borneo Company headquarters; suites are 70-135 sq m, the Louis Leonowens Suite has a private pool, and its non-refundable direct rate must be booked at least 10 days in advance.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://137pillarshotels.com/en/chiangmai/",
+          "kind": "official",
+          "title": "137 Pillars House"
+        },
+        {
+          "url": "https://137pillarshotels.com/en/chiangmai/about/",
+          "kind": "official",
+          "title": "137 Pillars House: about us"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "2 Soi 1, Nawatgate Road",
+          "a 30-suite hotel",
+          "late 1800s",
+          "from 70 sq m to 135 sq m",
+          "Louis Leonowens Suite",
+          "at least 10 days ahead"
+        ]
+      }
+    },
+    {
+      "id": "th.chiangmai.hotel.anantara",
+      "topic": "hotel",
+      "claim": "Anantara Chiang Mai Resort is on the banks of the Mae Ping River with 52 rooms, 34 suites and 25 serviced suites, a 50 sq m Deluxe Room with balcony or terrace, the 1921 House (formerly the British consulate), daily river cruises from its private pier, and is 15 minutes from the airport by its own account.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.anantara.com/en/chiang-mai",
+          "kind": "official",
+          "title": "Anantara Chiang Mai Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "On the banks of the Mae Ping River",
+          "52 rooms, 34 suites and 25 serviced suites",
+          "50 sq m with a balcony or terrace",
+          "1921 House, formerly the British consulate",
+          "river cruises leave from its private pier",
+          "Tamarind Village and Anantara 15"
+        ]
+      }
+    },
+    {
+      "id": "th.chiangmai.hotel.dusit-princess",
+      "topic": "hotel",
+      "claim": "Dusit Princess Chiang Mai, 112 Chang Klan Road, has an outdoor pool, a gym and the Jasmine restaurant (Chinese and Cantonese); its Deluxe Room is 32 sq m, Premier 46 sq m and One Bedroom Suite 60 sq m; its Superior Room page gives 26 and 28 sq m; it quotes a dinner at THB 655++ per person and rooms as 'Start from 2,500 THB'.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.dusit.com/dusitprincess-chiangmai/",
+          "kind": "official",
+          "title": "Dusit Princess Chiang Mai"
+        },
+        {
+          "url": "https://www.dusit.com/dusitprincess-chiangmai/accommodation/deluxe-room/",
+          "kind": "official",
+          "title": "Dusit Princess: Deluxe"
+        },
+        {
+          "url": "https://www.dusit.com/dusitprincess-chiangmai/accommodation/superior-room/",
+          "kind": "official",
+          "title": "Dusit Princess: Superior"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "112 Chang Klan Road",
+          "the Jasmine restaurant for Chinese and Cantonese food",
+          "Deluxe Room is 32 sq m, the Premier 46 sq m and the One Bedroom Suite 60 sq m",
+          "both 26 and 28 sq m",
+          "THB 655++",
+          "Start from 2,500 THB"
+        ]
+      },
+      "note": "Booking.com lists this hotel under its former name slug (royal-princess-chiang-mai); title and Chang Klan Road address match."
+    },
+    {
+      "id": "th.chiangmai.hotel.night-bazaar-inn",
+      "topic": "hotel",
+      "claim": "Night Bazaar Inn, 9 Charoenprathet Road, Soi 6, is a 50-room hotel in modern Lanna style with a rooftop bar, pool, restaurant and library, 20 minutes from the international airport by its own account; its site lists no room sizes.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.nightbazaarinnchiangmai.com/",
+          "kind": "official",
+          "title": "Night Bazaar Inn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "9 Charoenprathet Road, Soi 6",
+          "a 50-room hotel",
+          "Night Bazaar Inn 20",
+          "its site lists no room sizes, and it is on a side lane"
+        ]
+      },
+      "note": "Site has no dated content; operating status rests on the live Booking.com listing as well."
+    },
+    {
+      "id": "th.chiangmai.hotel.b2-santitham",
+      "topic": "hotel",
+      "claim": "B2 Santitham Boutique & Budget Hotel, 43 Taeparak Road, lists four room types of 21 sq m for two, a 24-hour front desk and a car park, distances of 1.5 km to Nimmanhaemin, 3.2 km to Chiang Mai Zoo and 4.1 km to the Sunday Walking Street, and a score card on which Food & Beverage (6) is the lowest of ten category scores.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.b2hotel.com/chiang-mai/b2-santitham-boutique-budget-hotel/",
+          "kind": "official",
+          "title": "B2 Santitham Boutique & Budget Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "43 Taeparak Road",
+          "21 sq m rooms for two in four types",
+          "24-hour front desk",
+          "Nimmanhaemin 1.5 km away, Chiang Mai Zoo 3.2 km and the Sunday Walking Street 4.1 km",
+          "the lowest of its ten category scores"
+        ]
+      },
+      "note": "Address (43 Taeparak Road) matches the hotel's structured data and Booking.com; the score card is B2's own, shown as 'Rated in October 2026'."
+    },
+    {
+      "id": "th.chiangmai.hotel.four-seasons",
+      "topic": "hotel",
+      "claim": "Four Seasons Resort Chiang Mai, 502 Moo 1, Mae Rim-Samoeng Old Road, has pavilions and private pool villas among rice paddies; the Pool Villa is 403 sq m for two adults; it says the resort is 30 minutes from downtown and the airport is 35 km, 30-45 minutes by car; airport transfer pricing is by concierge enquiry.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/chiangmai/",
+          "kind": "official",
+          "title": "Four Seasons Resort Chiang Mai"
+        },
+        {
+          "url": "https://www.fourseasons.com/chiangmai/getting-here/",
+          "kind": "official",
+          "title": "Four Seasons: getting here"
+        },
+        {
+          "url": "https://www.fourseasons.com/chiangmai/accommodations/villas/pool_villa/",
+          "kind": "official",
+          "title": "Four Seasons: Pool Villa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chiang-mai.html": [
+          "502 Moo 1, Mae Rim-Samoeng Old Road",
+          "30 minutes from downtown Chiang Mai",
+          "35 km and 30 to 45 minutes by car",
+          "The Pool Villa is 403 sq m",
+          "quotes on request"
         ]
       }
     }
