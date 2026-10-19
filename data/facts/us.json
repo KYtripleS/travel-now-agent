@@ -1859,6 +1859,488 @@
           "its booking page requires guests to be 21 or older"
         ]
       }
+    },
+    {
+      "id": "us.sf.tot-14",
+      "topic": "tax",
+      "claim": "San Francisco imposes a 14% transient occupancy tax (the hotel tax) on the rental of accommodations for stays of less than 30 days.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://sftreasurer.org/tot",
+          "kind": "official",
+          "title": "San Francisco Treasurer & Tax Collector: Transient Occupancy Tax (TOT)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "The 14% tax applies to stays of less than 30 days",
+          "14% of the room rate",
+          "The city's hotel tax is 14%"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.tid-rates",
+      "topic": "tax",
+      "claim": "The Tourism Improvement District (TID) assessment is 2.25% of gross room revenue in Zone 1 and 2.00% in Zone 2; the Treasurer says these assessments may be passed on to customers as a separate item on hotel folios.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://sftreasurer.org/tot",
+          "kind": "official",
+          "title": "San Francisco Treasurer & Tax Collector: Transient Occupancy Tax, TID and MED section"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "Tourism Improvement District assessment",
+          "which may pass them on to guests as a separate item on the bill"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.med-rates",
+      "topic": "tax",
+      "claim": "The Moscone Expansion District (MED) assessment is 1.25% of gross room revenue in Zone 1 and 0.3125% in Zone 2; the Treasurer's 2013 notice says neither the TID nor the MED assessment may be included in the Transient Occupancy Tax billed to the guest.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://sftreasurer.org/media/836/download",
+          "kind": "official",
+          "title": "Treasurer & Tax Collector: TOT, TID, MED annual statement for 2023 (rate lines 1.25% Zone 1, 0.3125% Zone 2)"
+        },
+        {
+          "url": "https://sftreasurer.org/media/16/download",
+          "kind": "official",
+          "title": "Treasurer & Tax Collector: Moscone Expansion District notice, 5 June 2013"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "Moscone Expansion District assessment",
+          "says neither may be included in the tax billed to the guest"
+        ]
+      },
+      "note": "MED rates read from the 2023 annual statement form and the 2013 notice; the Treasurer's current TOT page names the MED but lists no MED rate. Editor: soften if you want a 2026 rate source."
+    },
+    {
+      "id": "us.sf.tid-zones",
+      "topic": "tax",
+      "claim": "Under the Tourism Improvement District's 2022 renewal plan, Zone 1 is addresses on or east of Van Ness Avenue (and South Van Ness, and on or north of 16th Street), and Zone 2 is addresses west of Van Ness Avenue and South Van Ness Avenue and south of 16th Street.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://sfelections.sfgov.org/sites/default/files/Documents/ElectionsArchives/2022TIDRenewalManagementPlan.pdf",
+          "kind": "official",
+          "title": "San Francisco Tourism Improvement District: 2022 renewal management plan (Assessed Businesses; Zones; Boundaries)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "Zone 1 covers addresses on or east of Van Ness Avenue, and Zone 2 those west of it",
+          "west of Van Ness, so Zone 2 is the one to ask about"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.hotels-zone1",
+      "topic": "tax",
+      "claim": "The 2022 TID plan's list of assessed hotels shows The Clift Royal Sonesta Hotel, Hotel Zeppelin, Fairmont San Francisco, Stanford Court Hotel, Hotel Zephyr, Hotel Boheme, Palace Hotel, Hotel Zetta and The Mosser Hotel in Zone 1; the Inn at the Presidio, Lodge at the Presidio and HI Fisherman's Wharf hostel were not found in the list.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://sfelections.sfgov.org/sites/default/files/Documents/ElectionsArchives/2022TIDRenewalManagementPlan.pdf",
+          "kind": "official",
+          "title": "San Francisco Tourism Improvement District: 2022 renewal management plan (list of tourist hotels)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "puts nine of the 12 here"
+        ]
+      },
+      "note": "The list is a 2022 snapshot. The plan also lists short-term rental hosts by name; none of that is used."
+    },
+    {
+      "id": "us.sf.sfo-bart-fare",
+      "topic": "fare",
+      "claim": "SF Travel lists a round-trip fare from SFO to downtown San Francisco of $22.30 ($11.15 one way); contactless cards and Apple/Google wallets can be tapped on entering and exiting the system.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.sftravel.com/info/transportation-basics-how-to-get-around-san-francisco",
+          "kind": "official",
+          "title": "SF Travel: Transportation basics, how to get around San Francisco"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "lists the fare to downtown as $11.15 one way, $22.30 round trip"
+        ]
+      },
+      "note": "SF Travel is the city's tourism board, not the operator; the page places the fare in its AirTrain/BART section without naming BART. bart.gov blocked automated access (Cloudflare), so the BART fare calculator was not read. Editor: confirm $11.15 at bart.gov/planner/fares with SFIA to POWL/MONT."
+    },
+    {
+      "id": "us.sf.sfo-bart-time",
+      "topic": "transport",
+      "claim": "BART's airport page says BART trains depart from the SFO International Terminal and it is 30 minutes to downtown San Francisco.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.bart.gov/guide/airport/sfo",
+          "kind": "operator",
+          "title": "BART: Airport Connections (SFO & OAK)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "puts the ride at 30 minutes",
+          "the airport station is in the International Terminal"
+        ]
+      },
+      "note": "Text read from the page's search-engine snippet (DuckDuckGo) because bart.gov blocks automated fetching; editor should open the page once to confirm."
+    },
+    {
+      "id": "us.sf.bart-powell-montgomery",
+      "topic": "transport",
+      "claim": "BART runs from SFO to the Powell Street and Montgomery Street stations in downtown San Francisco (stated in Stanford Court's FAQ); Hotel Zetta's FAQ gives about 45 minutes by BART from SFO to its door, about 13.5 miles and 20 to 30 minutes by car.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.stanfordcourt.com/faq",
+          "kind": "official",
+          "title": "Stanford Court Hotel: FAQs"
+        },
+        {
+          "url": "https://www.zhotelssf.com/hotels/zetta/faq",
+          "kind": "official",
+          "title": "Hotel Zetta: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "trains run to Powell Street and Montgomery Street",
+          "allows about 45 minutes by BART to its door and 20 to 30 minutes by car",
+          "puts SFO about 13.5 miles away"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.clipper-contactless",
+      "topic": "fare",
+      "claim": "Clipper says to tap a Clipper card or contactless bank card when entering BART and tap off when leaving; SF.gov says transit fares can be paid with a credit or debit card or a phone wallet such as Apple Pay or Google Pay.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.clippercard.com/ClipperWeb/bart.html",
+          "kind": "official",
+          "title": "Clipper: BART (Ways to Pay)"
+        },
+        {
+          "url": "https://www.sf.gov/visitor-safety-information-for-san-francisco",
+          "kind": "official",
+          "title": "SF.gov: Visitor Safety Information for San Francisco"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "tap a Clipper card or a contactless bank card when you enter and when you leave the BART gates",
+          "buses, subways, trains and ferries all take a credit or debit card, or a phone wallet"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.samtrans-sfo",
+      "topic": "transport",
+      "claim": "SamTrans routes 292 and 397 and the late-night ECR OWL serve the SFO terminals; the adult local/express fare is $2.05 with Clipper and $2.25 by cash or mobile; the airport page does not list downtown stops.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.samtrans.com/samtrans-airport-service",
+          "kind": "operator",
+          "title": "SamTrans: Airport service"
+        },
+        {
+          "url": "https://www.samtrans.com/fares/",
+          "kind": "operator",
+          "title": "SamTrans: Fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "routes 292 and 397 and the late-night ECR OWL stop at the terminals",
+          "$2.05 with Clipper and $2.25 by cash or mobile ticket"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.muni-fares",
+      "topic": "fare",
+      "claim": "SFMTA lists an adult single Muni ride at $2.85 (good for 120 minutes), a cable car ride at $9, a 1-Day Visitor Passport at $15 and a 3-Day Visitor Passport at $35 (Muni, Muni Metro, historic streetcars and cable cars).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.sfmta.com/getting-around/muni/fares",
+          "kind": "operator",
+          "title": "SFMTA: Muni fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "an adult ride is $2.85, good for 120 minutes",
+          "A cable car ride is $9",
+          "The 1-Day Visitor Passport costs $15",
+          "the 3-Day Passport $35"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.visitor-safety",
+      "topic": "place",
+      "claim": "SF.gov's visitor safety page advises keeping belongings secure in crowded areas and transit, planning routes, saving the hotel address and the nearest intersection, calling 311 for non-emergencies or asking a uniformed City employee or ambassador, and says weather varies by neighbourhood (microclimates) so visitors should bring layers including a warm jacket.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.sf.gov/visitor-safety-information-for-san-francisco",
+          "kind": "official",
+          "title": "SF.gov: Visitor Safety Information for San Francisco"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "keep belongings secure in crowded areas and on transit",
+          "call 311 for non-emergency help or ask a uniformed City employee or ambassador",
+          "weather varies by neighbourhood"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.hotel-daily-fees",
+      "topic": "price",
+      "claim": "Daily fees on each hotel's own site: The Clift $39 destination fee inclusive of tax; Hotel Zeppelin, Hotel Zetta and Hotel Zephyr $35 plus tax a room a night; Stanford Court $38 plus tax a night, subject to San Francisco occupancy tax; The Mosser's homepage says no amenity fees.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.sonesta.com/clift",
+          "kind": "official",
+          "title": "The Clift Royal Sonesta San Francisco: official site (Destination Fee)"
+        },
+        {
+          "url": "https://www.zhotelssf.com/hotels/zeppelin/faq",
+          "kind": "official",
+          "title": "Hotel Zeppelin: FAQ (Guest Amenities Fee)"
+        },
+        {
+          "url": "https://www.zhotelssf.com/hotels/zetta/faq",
+          "kind": "official",
+          "title": "Hotel Zetta: FAQ (Guest Amenities Fee)"
+        },
+        {
+          "url": "https://www.hotelzephyrsf.com/faq/",
+          "kind": "official",
+          "title": "Hotel Zephyr: FAQ (Guest amenities fee)"
+        },
+        {
+          "url": "https://www.stanfordcourt.com/faq",
+          "kind": "official",
+          "title": "Stanford Court Hotel: FAQs (Nob Hill Destination Fee)"
+        },
+        {
+          "url": "https://www.themosser.com/",
+          "kind": "official",
+          "title": "The Mosser Hotel: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "The Clift lists a $39 destination fee, inclusive of tax",
+          "Stanford Court lists $38 plus tax, and says the fee is itself subject to the city's occupancy tax",
+          "a mandatory $35 plus tax amenity fee",
+          "Five hotels here list a daily fee of $35 to $39"
+        ]
+      },
+      "note": "The $39.90 and $392.40 figures in the text are our arithmetic (35 x 1.14; 352.50 + 39.90), assuming 14% applies to a fee quoted 'plus tax'."
+    },
+    {
+      "id": "us.sf.hotel-parking",
+      "topic": "price",
+      "claim": "Parking per the hotels' own pages: Hotel Zeppelin valet $65 plus tax; Hotel Zetta valet $65 plus tax; Hotel Zephyr overnight self-parking $65 plus tax; Stanford Court valet $75 plus tax; Presidio Lodging overnight parking $13; HI Fisherman's Wharf lists free parking.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.zhotelssf.com/hotels/zeppelin/faq",
+          "kind": "official",
+          "title": "Hotel Zeppelin: FAQ"
+        },
+        {
+          "url": "https://www.zhotelssf.com/hotels/zetta/faq",
+          "kind": "official",
+          "title": "Hotel Zetta: FAQ"
+        },
+        {
+          "url": "https://www.hotelzephyrsf.com/faq/",
+          "kind": "official",
+          "title": "Hotel Zephyr: FAQ"
+        },
+        {
+          "url": "https://www.stanfordcourt.com/faq",
+          "kind": "official",
+          "title": "Stanford Court Hotel: FAQs"
+        },
+        {
+          "url": "https://presidiolodging.com/",
+          "kind": "official",
+          "title": "Presidio Lodging: FAQ"
+        },
+        {
+          "url": "https://www.hiusa.org/hostels/california/san-francisco/fishermans-wharf",
+          "kind": "official",
+          "title": "HI San Francisco Fisherman's Wharf Hostel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "overnight self-parking $65 plus tax",
+          "valet parking is $65 plus tax at Hotel Zeppelin and Hotel Zetta and $75 plus tax at Stanford Court",
+          "The Presidio hotels charge $13 a night and the hostel parks free",
+          "overnight parking is $13 a night"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.hotel-rooms",
+      "topic": "hotel",
+      "claim": "Room facts from the hotels: Stanford Court Standard rooms are interior-facing, about 205-220 sq ft; the Fairmont's Moderate rooms (Main Building, interior views, one Double bed) are 'best suited for single occupancy'; the Palace's rooms start at 300 sq ft with 11-foot ceilings; The Mosser lists a Shared Bathroom Queen room type.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.stanfordcourt.com/rooms",
+          "kind": "official",
+          "title": "Stanford Court Hotel: Rooms"
+        },
+        {
+          "url": "https://www.fairmont.com/san-francisco/",
+          "kind": "official",
+          "title": "Fairmont San Francisco: official site"
+        },
+        {
+          "url": "https://www.sfpalace.com/rooms/",
+          "kind": "official",
+          "title": "Palace Hotel: Rooms & Suites"
+        },
+        {
+          "url": "https://www.themosser.com/rooms-amenities/",
+          "kind": "official",
+          "title": "The Mosser Hotel: Rooms & Amenities"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "Standard rooms are interior-facing and about 205 to 220 sq ft",
+          "which the hotel calls best suited to single occupancy",
+          "rooms from 300 sq ft with 11-foot ceilings",
+          "the room list includes a Shared Bathroom Queen"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.hotel-fairmont",
+      "topic": "hotel",
+      "claim": "Fairmont San Francisco, 950 Mason Street, Nob Hill: 606 guestrooms and suites in the historic Main Building and the Tower; Tonga Room & Hurricane Bar; afternoon tea in Laurel Court since 1907.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/san-francisco/",
+          "kind": "official",
+          "title": "Fairmont San Francisco: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "606 guestrooms and suites in the historic Main Building and the Tower",
+          "afternoon tea has been served since 1907"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.hotel-palace",
+      "topic": "hotel",
+      "claim": "Palace Hotel, 2 New Montgomery Street: first opened in 1875 and reopened in 1909; Garden Court, Pied Piper bar and a heated indoor pool; the hotel describes itself as near the Financial District, Union Square and the Moscone Center.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.sfpalace.com/",
+          "kind": "official",
+          "title": "Palace Hotel: official site"
+        },
+        {
+          "url": "https://www.sfpalace.com/history/",
+          "kind": "official",
+          "title": "Palace Hotel: History"
+        },
+        {
+          "url": "https://www.sfpalace.com/amenities/",
+          "kind": "official",
+          "title": "Palace Hotel: Amenities"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "a hotel since 1875 that reopened in 1909 after the earthquake",
+          "the hotel itself places it in the Financial District, near Moscone and Union Square"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.hotel-zetta-walks",
+      "topic": "hotel",
+      "claim": "Hotel Zetta, 55 Fifth Street: 5-minute walk to SFMOMA and Yerba Buena Gardens, 7 minutes to the Moscone Center and to Union Square; Powell Street BART and Muni station 2 minutes' walk; $100 refundable incidental hold per night.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.zhotelssf.com/hotels/zetta/faq",
+          "kind": "official",
+          "title": "Hotel Zetta: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "a 5-minute walk from SFMOMA and Yerba Buena Gardens and 7 from the Moscone Center",
+          "with the Powell Street BART and Muni station 2 minutes away",
+          "a refundable $100 hold a night at check-in"
+        ]
+      }
+    },
+    {
+      "id": "us.sf.hotel-presidio",
+      "topic": "hotel",
+      "claim": "Presidio Lodging: the Inn at the Presidio has 22 rooms, mostly suites with fireplaces, in a Georgian Revival former officers' quarters; the Lodge at the Presidio is in the Montgomery Street Barracks built 1895-1897 on the Main Post; both include breakfast and wine and cheese; reservations cancelled within 72 hours of arrival are charged the first night; the FAQ points guests to the Presidio Transit Center, Muni and the Presidio GO Shuttle.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://presidiolodging.com/",
+          "kind": "official",
+          "title": "Presidio Lodging: FAQ and hotel descriptions"
+        },
+        {
+          "url": "https://presidiolodging.com/lodge-at-the-presidio/",
+          "kind": "official",
+          "title": "Lodge at the Presidio"
+        },
+        {
+          "url": "https://www.innatthepresidio.com/",
+          "kind": "official",
+          "title": "Inn at the Presidio"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-francisco.html": [
+          "with 22 rooms, most of them suites with fireplaces",
+          "built in 1895 to 1897, on the Presidio's Main Post",
+          "both hotels charge the first night if you cancel within 72 hours of arrival"
+        ]
+      }
     }
   ]
 }

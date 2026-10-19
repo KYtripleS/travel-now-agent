@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-san-francisco": dict(area="Union Square", lat=37.788, lng=-122.4075, zoom=15,
+                                              address="Union Square, San Francisco, CA, USA"),
     "where-to-stay-in-las-vegas": dict(area="Center Strip", lat=36.1126, lng=-115.1767, zoom=14,
                                           address="Bellagio, 3600 Las Vegas Blvd S, Las Vegas, NV, USA"),
     "where-to-stay-in-milan": dict(area="Duomo", lat=45.4642, lng=9.19, zoom=15,
@@ -821,6 +823,19 @@ HOTELS = {
     "Circa Resort & Casino": _B + "us/circa-resort-amp-casino.html",
     "Alexis Park All Suite Resort": _B + "us/alexis-park-resort-las-vegas.html",
     "Red Rock Casino Resort Spa": _B + "us/red-rock-casino-resort-amp-spa.html",
+    # San Francisco (Booking.com pages confirmed by hotel name and city)
+    "The Clift Royal Sonesta San Francisco": _B + "us/the-clift-royal-sonesta-san-francisco.html",
+    "Hotel Zeppelin": _B + "us/hotel-zeppelin-san-francisco.html",
+    "Fairmont San Francisco": _B + "us/the-fairmont-san-francisco-san-francisco-california.html",
+    "Stanford Court Hotel": _B + "us/stanford-court-san-francisco.html",
+    "Hotel Zephyr": _B + "us/zephyr-san-francisco.html",
+    "Hotel Bohème": _B + "us/boheme.html",
+    "HI San Francisco Fisherman's Wharf Hostel": _B + "us/hi-sf-fisherman-s-wharf.html",
+    "Palace Hotel": _B + "us/palace-sf.html",
+    "Hotel Zetta": _B + "us/zetta.html",
+    "The Mosser Hotel": _B + "us/the-mosser-san-francisco.html",
+    "Inn at the Presidio": None,
+    "Lodge at the Presidio": None,
 }
 
 RATES_LABEL = "Check rates on Booking.com"

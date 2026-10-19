@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-san-francisco.html": (
+        "Where to Stay in San Francisco",
+        "Five areas, 12 hotels, a 14% hotel tax with up to 3.5% in district assessments, and BART from SFO.",
+    ),
     "articles/where-to-stay-in-las-vegas.html": (
         "Where to Stay in Las Vegas",
         "Six areas, 12 hotels, a 13.38% room tax plus resort fees of $37 to $55 a night, and the airport links.",
@@ -2009,6 +2013,13 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-san-francisco.html": [
+        "articles/where-to-stay-in-los-angeles.html",
+        "articles/where-to-stay-in-new-york.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-usa-2026.html",
     ],
     "articles/where-to-stay-in-las-vegas.html": [
         "articles/where-to-stay-in-los-angeles.html",
