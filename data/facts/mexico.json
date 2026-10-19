@@ -1,0 +1,322 @@
+{
+  "place": "Mexico",
+  "facts": [
+    {
+      "id": "mx.cancun.lodging-tax",
+      "topic": "tax",
+      "claim": "Quintana Roo's lodging tax (Ley del Impuesto al Hospedaje, art. 8) is 5% of the invoiced value of lodging at hotels and similar establishments, and 6% for apartments, houses and private villas; the guest who pays for the lodging is the taxpayer (art. 7).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://documentos.congresoqroo.gob.mx/leyes/L187-XVII-20221223-L1720221223030.pdf",
+          "kind": "official",
+          "title": "Quintana Roo Congress: Ley del Impuesto al Hospedaje (consolidated text, last reform 23 Dec 2022)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "Quintana Roo's 5% lodging tax",
+          "5% of the room invoice at hotels; 6% for apartments, houses and private villas",
+          "The state law makes the guest the taxpayer"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.lodging-tax-rules",
+      "topic": "tax",
+      "claim": "The law requires the provider to determine, withhold and pay the lodging tax expressly and separately (art. 11); the tax is never part of the value of the lodging (art. 12); on packages that include food and other services, the base is the lodging element, and at least 60% of the invoice total if the invoice does not itemise (art. 10).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://documentos.congresoqroo.gob.mx/leyes/L187-XVII-20221223-L1720221223030.pdf",
+          "kind": "official",
+          "title": "Quintana Roo Congress: Ley del Impuesto al Hospedaje (consolidated text, last reform 23 Dec 2022)"
+        },
+        {
+          "url": "https://documentos.congresoqroo.gob.mx/diariodedebates/DD-XVIII-2025-12-15-1242-sesion-no-34.pdf",
+          "kind": "official",
+          "title": "Quintana Roo Congress: Diario de los Debates, session 34, 15 Dec 2025 (reform of the lodging-tax law, described as aimed at digital platforms)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "expressly and separately",
+          "never part of the value of the room",
+          "no less than 60% of the invoice total when the hotel does not itemise"
+        ]
+      }
+    },
+    {
+      "id": "mx.iva-rate",
+      "topic": "tax",
+      "claim": "Mexico's general IVA rate is 16% (Ley del IVA, art. 1), applied to the values the law sets, and the IVA is never part of those values.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf_mov/Ley_del_Impuesto_al_Valor_Agregado.pdf",
+          "kind": "official",
+          "title": "Cámara de Diputados: Ley del Impuesto al Valor Agregado"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "16% IVA",
+          "IVA at 16%: 1,920 pesos"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.visitax",
+      "topic": "tax",
+      "claim": "Visitax is a Quintana Roo fee mandatory for all foreign tourists, with no adult or child rate, paid at visitax.gob.mx or through companies authorised by the state tax authority (SATQ); the state government said in December 2025 that it stays at 285 pesos in 2026 (receipts on the portal in January 2026 reportedly showed 283 pesos).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.visitax.gob.mx/sitio/",
+          "kind": "official",
+          "title": "Visitax: official portal and FAQ"
+        },
+        {
+          "url": "https://cgc.qroo.gob.mx/visitax-en-quintana-roo-de-la-mano-de-empresarios-busca-mantener-la-competitividad-del-caribe-mexicano/",
+          "kind": "official",
+          "title": "Quintana Roo government communication: Visitax, no increase in 2026 (read through a search summary; the page itself did not load from our network)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "About 285 pesos per foreign visitor, children included",
+          "there is no adult or child rate",
+          "stays at 285 pesos",
+          "Visitax: 2 × 285 = 570 pesos, paid separately"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.airport-ground",
+      "topic": "transport",
+      "claim": "ASUR's Cancún airport transfers page lists ADO (shuttle and transport to the city, Terminals 2, 3 and 4), taxis (Terminals 2 and 3) and Hertz car rental in front of Terminal 2.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.asur.com.mx/contenido/cancun/transporte-terrestre/traslados",
+          "kind": "official",
+          "title": "ASUR: Cancún airport transfers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "ADO, whose shuttle and city transport serves Terminals 2, 3 and 4",
+          "taxis, at Terminals 2 and 3",
+          "Hertz in front of Terminal 2"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.tren-maya-airport",
+      "topic": "transport",
+      "claim": "The Tren Maya's official site lists a Cancún Aeropuerto station, plus Puerto Morelos and Playa del Carmen, and links to online ticket sales; it shows no fares or timetable on that page.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.trenmaya.gob.mx/",
+          "kind": "official",
+          "title": "Tren Maya: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "lists a Cancún Aeropuerto station",
+          "sells tickets online"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.isla-mujeres-ferry",
+      "topic": "fare",
+      "claim": "Ultramar's Isla Mujeres ferry: adult Premium Plus fare 290 pesos one way plus a 36.56-peso environmental sanitation fee; first Puerto Juárez departure 5:30 a.m.; seven sailings a day from Playa Tortugas (Boulevard Kukulcán km 6.5).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://ultramarsales.ultramarferry.com/en/ferry-isla-mujeres.php",
+          "kind": "operator",
+          "title": "Ultramar: Isla Mujeres ferry fares and schedules (viewed 20 Oct 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "with the first boat at 5:30 a.m.",
+          "The adult fare in the listed Premium Plus class is 290 pesos one way",
+          "36.56 pesos",
+          "seven sailings a day",
+          "Boulevard Kukulcán km 6.5"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.sargassum-satsum",
+      "topic": "place",
+      "claim": "CONABIO's SIMAR runs SATsum, a satellite early-warning system for pelagic sargassum in the Greater Caribbean, with alerts and a 10-day drift forecast.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://simar.conabio.gob.mx/satsum/",
+          "kind": "official",
+          "title": "CONABIO SIMAR: SATsum"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "publishes satellite alerts and a 10-day drift forecast for the coast"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.hotel.kempinski",
+      "topic": "hotel",
+      "claim": "Kempinski Hotel Cancún describes itself as a five-star hotel; rooms and suites start at 41 m²; Seaside rooms have sea and pool views and Seafront rooms seafront views.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.kempinski.com/en/hotel-cancun/rooms-suites",
+          "kind": "official",
+          "title": "Kempinski Hotel Cancún: rooms and suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "rooms and suites that start at 41 m²"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.hotel.hyatt-ziva",
+      "topic": "hotel",
+      "claim": "Hyatt Ziva Cancun is an all-inclusive beachfront resort on Punta Cancún with 547 suites.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hyatt.com/ziva/en-US/canif-hyatt-ziva-cancun",
+          "kind": "official",
+          "title": "Hyatt Ziva Cancun"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "547 suites"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.hotel.plaza-caribe",
+      "topic": "hotel",
+      "claim": "Hotel Plaza Caribe's Standard room with two double beds is on the third floor with no elevator.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://hotelplazacaribe.com/en",
+          "kind": "official",
+          "title": "Hotel Plaza Caribe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "the hotel's site notes there is no lift"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.hotel.hacienda",
+      "topic": "hotel",
+      "claim": "Hotel Hacienda Cancún is a five-minute walk from Palapas Park and ten from Mercado 28, and does not allow alcoholic drinks to be brought in or consumed.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotelhaciendacancun.com/en",
+          "kind": "official",
+          "title": "Hotel Hacienda Cancún"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "ten from Mercado 28",
+          "does not allow guests to bring in or drink alcohol on the premises"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.hotel.dreams-playa-mujeres",
+      "topic": "hotel",
+      "claim": "Dreams Playa Mujeres is an all-suite resort in a private coastal community just north of Cancún, with 10 dining options and 13 bars.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hyatt.com/dreams/en-US/drepm-dreams-playa-mujeres",
+          "kind": "official",
+          "title": "Dreams Playa Mujeres Golf & Spa Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "10 dining options, 13 bars",
+          "private coastal community just north of Cancún"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.hotel.secreto",
+      "topic": "hotel",
+      "claim": "Hotel Secreto's ocean-view rooms measure 446 to 550 sq ft; its Standard Room has no balcony, ocean view or living area.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://hotelsecreto.com/",
+          "kind": "official",
+          "title": "Hotel Secreto"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "446 to 550 sq ft",
+          "no balcony, no ocean view and no living area"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.hotel.ojo-de-agua",
+      "topic": "hotel",
+      "claim": "Hotel Ojo de Agua's Standard room with one double bed is 14 m² and the Superior sea-view room 15 m².",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotelojodeagua.com/en",
+          "kind": "official",
+          "title": "Hotel Ojo de Agua"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "14 m² and the Superior room with a sea view is 15 m²"
+        ]
+      }
+    },
+    {
+      "id": "mx.cancun.hotel.hyatt-centric-playa",
+      "topic": "hotel",
+      "claim": "Hyatt lists Hyatt Centric Playa del Carmen at 33 miles from Cancún airport, La Quinta Avenida 0.32 km away, and valet parking from $20.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hyatt.com/hyatt-centric/en-US/canth-hyatt-centric-playa-del-carmen/hotel-info",
+          "kind": "official",
+          "title": "Hyatt Centric Playa del Carmen: hotel info"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cancun.html": [
+          "33 miles",
+          "valet parking from $20"
+        ]
+      }
+    }
+  ]
+}

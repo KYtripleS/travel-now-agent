@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-cancun": dict(
+        text="For a first trip, stay in the Hotel Zone: the beach and the resorts are at your door. Choose Downtown for a lower bill, Isla Mujeres for the island and Playa del Carmen for a town base. A room carries 5% lodging tax plus 16% IVA, and foreign visitors pay the Visitax, about 285 pesos.",
+        link_text="Hotel Zone",
+        cta=_stay_cta("where-to-stay-in-cancun", "See hotels around the Hotel Zone")),
     "where-to-stay-in-da-nang": dict(
         text="For a first trip, stay in My Khe: beach hotels on Vo Nguyen Giap Street, with the airport 4 km away by Haian's count. Choose the Han River for the city, Hoi An for the Ancient Town and An Bang for a quieter beach. VAT is 8% until 31 December 2026, then 10% unless extended.",
         link_text="My Khe",
@@ -1283,6 +1287,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-cancun": ["Kempinski Hotel Cancún", "Hyatt Ziva Cancun", "Hotel Plaza Caribe"],
     "where-to-stay-in-da-nang": ["HAIAN Beach Hotel & Spa", "Diamond Sea Hotel", "Furama Resort Danang"],
     "where-to-stay-in-phuket": ["Kata Rocks", "Katathani Phuket Beach Resort", "Lub d Phuket Patong"],
     "where-to-stay-in-porto": ["Pestana Vintage Porto", "Grande Hotel do Porto", "Infante Sagres"],
@@ -1396,6 +1401,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Cancún", "where-to-stay-in-cancun", None, None),
         ("Da Nang", "where-to-stay-in-da-nang", None, None),
         ("Phuket", "where-to-stay-in-phuket", None, None),
         ("Porto", "where-to-stay-in-porto", None, None),

@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-cancun": dict(area="Hotel Zone", lat=21.1358, lng=-86.7469, zoom=14,
+                                       address="Boulevard Kukulcán, Zona Hotelera, Cancún, Quintana Roo, Mexico"),
     "where-to-stay-in-da-nang": dict(area="My Khe", lat=16.0615, lng=108.248, zoom=14,
                                         address="My Khe Beach, Da Nang, Vietnam"),
     "where-to-stay-in-phuket": dict(area="Kata Beach", lat=7.8205, lng=98.2975, zoom=15,
@@ -881,6 +883,19 @@ HOTELS = {
     "Little Hoi An": _B + "vn/little-hoi-an-boutique-resort-spa.html",
     "Sol An Bang Beach Resort & Spa": _B + "vn/sol-an-bang-homestay-resort.html",
     "Victoria Hoi An Beach Resort & Spa": _B + "vn/victoria-hoi-an-beach-resort-and-spa.html",
+    # Cancún (Booking.com pages confirmed by hotel name and city)
+    "Kempinski Hotel Cancún": _B + "mx/the-grand-hotel-cancun-managed-by-kempinski.html",
+    "Hyatt Ziva Cancun": _B + "mx/hyatt-ziva-cancun.html",
+    "Hotel Plaza Caribe": _B + "mx/plaza-caribe.html",
+    "Hotel Hacienda Cancún": _B + "mx/hacienda-cancun.html",
+    "Dreams Playa Mujeres Golf & Spa Resort": _B + "mx/dreams-playa-mujeres-golf-amp-spa-resort.html",
+    "Hotel Secreto": _B + "mx/secreto.html",
+    "Na Balam Hotel": _B + "mx/na-balam-isla-mujeres.html",
+    "Selina Isla Mujeres": _B + "mx/pocna.html",
+    "Hotel Ojo de Agua": _B + "mx/amp-beach-club-ojo-de-agua.html",
+    "Secrets Riviera Cancun Resort & Spa": _B + "mx/secrets-riviera-cancun-resort-amp-spa.html",
+    "The Carmen Hotel - Ocean Front": _B + "mx/the-carmen-beachfront-adults-only.html",
+    "Hyatt Centric Playa del Carmen": _B + "mx/thompson-playa-del-carmen.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
