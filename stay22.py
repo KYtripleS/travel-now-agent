@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-nice": dict(area="Vieux Nice", lat=43.6954, lng=7.2751, zoom=15,
+                                     address="Cours Saleya, Nice, France"),
     "where-to-stay-in-mexico-city": dict(area="Roma Norte", lat=19.4194, lng=-99.1627, zoom=14,
                                             address="Roma Norte, Mexico City, Mexico"),
     "where-to-stay-in-chiang-mai": dict(area="Old City", lat=18.787, lng=98.9869, zoom=15,
@@ -926,6 +928,19 @@ HOTELS = {
     "Hotel Geneve": _B + "mx/geneve-cd-de-mexico.html",
     "Marquis Reforma Hotel & Spa": _B + "mx/marquis-reforma.html",
     "NH Collection Mexico City Reforma": _B + "mx/nh-mexico-city.html",
+    # Nice (Booking.com pages confirmed by hotel name and city)
+    "Le Negresco": _B + "fr/negresco.html",
+    "Hôtel Palais de la Méditerranée": _B + "fr/palais-de-la-mediterrannee.html",
+    "Westminster Hôtel & Spa": _B + "fr/hotel-westminster.html",
+    "Hôtel Palais Saleya": _B + "fr/palais-saleya.html",
+    "Hôtel Aston La Scala": _B + "fr/grand-aston.html",
+    "Villa Saint Exupéry Beach": _B + "fr/villa-saint-exupery-beach-plage.html",
+    "Hôtel Villa Rivoli": _B + "fr/villa-rivoli.html",
+    "Hôtel Victor Hugo": _B + "fr/victor-hugo-nice.html",
+    "Splendid Hôtel & Spa": _B + "fr/hotelsplendidnice.html",
+    "Maison Durante": _B + "fr/durante-nice.html",
+    "Hôtel La Pérouse": _B + "fr/la-perouse.html",
+    "Hôtel Suisse": _B + "fr/hotelsuissenice.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

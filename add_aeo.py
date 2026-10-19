@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-nice": dict(
+        text="For a first trip, stay in Vieux Nice: the lanes, the Cours Saleya market and the beach are on foot. Choose the Promenade for the sea, the Carré d'Or for shops, the station for trains and Port Lympia for the harbour. The tax is €1.07 to €6.43 a person a night, by stars.",
+        link_text="Vieux Nice",
+        cta=_stay_cta("where-to-stay-in-nice", "See hotels around Vieux Nice")),
     "where-to-stay-in-mexico-city": dict(
         text="For a first trip, stay in Roma Norte: cafés, galleries and mansions on foot. Choose Condesa for leafy streets, Polanco for Masaryk and the park, the Centro Histórico for the Zócalo. A hotel room carries 3.5% lodging tax plus 16% IVA, 19.5% in all.",
         link_text="Roma Norte",
@@ -1295,6 +1299,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-nice": ["Le Negresco", "Hôtel Palais Saleya", "Hôtel Villa Rivoli"],
     "where-to-stay-in-mexico-city": ["Brick Hotel", "INNSiDE Mexico Roma Norte", "Hotel Gillow"],
     "where-to-stay-in-chiang-mai": ["Rachamankha", "Tamarind Village", "Stamps Backpackers"],
     "where-to-stay-in-cancun": ["Kempinski Hotel Cancún", "Hyatt Ziva Cancun", "Hotel Plaza Caribe"],
@@ -1411,6 +1416,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Nice", "where-to-stay-in-nice", None, None),
         ("Mexico City", "where-to-stay-in-mexico-city", None, None),
         ("Chiang Mai", "where-to-stay-in-chiang-mai", None, None),
         ("Cancún", "where-to-stay-in-cancun", None, None),

@@ -1,232 +1,760 @@
 {
- "place": "France",
- "facts": [
-  {
-   "id": "fr.paris.tourist-tax-2026",
-   "topic": "tax",
-   "claim": "From 1 January 2026 Paris's taxe de séjour, all shares included, is per person per night: €15.93 at palaces, €11.70 at five-star, €8.45 at four-star, €5.53 at three-star, €3.25 at two-star and €2.60 at one-star hotels, B&Bs and hostels; unclassified lodging pays 5% of the per-person price, capped at €15.93; minors are exempt.",
-   "value": {
-    "from": "2026-01-01",
-    "palace": 15.93,
-    "5star": 11.7,
-    "4star": 8.45,
-    "3star": 5.53,
-    "2star": 3.25,
-    "1star": 2.6
-   },
-   "sources": [
+  "place": "France",
+  "facts": [
     {
-     "url": "https://files.parisjetaime.com/pro/taxe-de-sejour-paris-2026.pdf",
-     "kind": "official",
-     "title": "City of Paris: tourist tax rates from 1 January 2026 (PDF)"
+      "id": "fr.paris.tourist-tax-2026",
+      "topic": "tax",
+      "claim": "From 1 January 2026 Paris's taxe de séjour, all shares included, is per person per night: €15.93 at palaces, €11.70 at five-star, €8.45 at four-star, €5.53 at three-star, €3.25 at two-star and €2.60 at one-star hotels, B&Bs and hostels; unclassified lodging pays 5% of the per-person price, capped at €15.93; minors are exempt.",
+      "value": {
+        "from": "2026-01-01",
+        "palace": 15.93,
+        "5star": 11.7,
+        "4star": 8.45,
+        "3star": 5.53,
+        "2star": 3.25,
+        "1star": 2.6
+      },
+      "sources": [
+        {
+          "url": "https://files.parisjetaime.com/pro/taxe-de-sejour-paris-2026.pdf",
+          "kind": "official",
+          "title": "City of Paris: tourist tax rates from 1 January 2026 (PDF)"
+        },
+        {
+          "url": "https://taxedesejour.paris.fr/",
+          "kind": "official",
+          "title": "City of Paris: taxe de séjour, exemptions"
+        }
+      ],
+      "checked": "2026-10-08",
+      "used_in": {
+        "articles/where-to-stay-in-paris.html": [
+          "€8.45 a night at a four-star, €5.53 at a three-star",
+          "A couple spending four nights in a four-star hotel pays €67.60"
+        ],
+        "articles/hotel-taxes-around-the-world-2026.html": [
+          "€8.45 a person a night at a four-star hotel",
+          "Unclassified lodging pays 5% of the per-person price, capped at €15.93"
+        ]
+      },
+      "watch": "(taxe de séjour|Paris[^.]{0,60}(tourist|hotel) tax)[^.]{0,80}€\\s?\\d"
     },
     {
-     "url": "https://taxedesejour.paris.fr/",
-     "kind": "official",
-     "title": "City of Paris: taxe de séjour, exemptions"
-    }
-   ],
-   "checked": "2026-10-08",
-   "used_in": {
-    "articles/where-to-stay-in-paris.html": [
-     "€8.45 a night at a four-star, €5.53 at a three-star",
-     "A couple spending four nights in a four-star hotel pays €67.60"
-    ],
-    "articles/hotel-taxes-around-the-world-2026.html": [
-     "€8.45 a person a night at a four-star hotel",
-     "Unclassified lodging pays 5% of the per-person price, capped at €15.93"
-    ]
-   },
-   "watch": "(taxe de séjour|Paris[^.]{0,60}(tourist|hotel) tax)[^.]{0,80}€\\s?\\d"
-  },
-  {
-   "id": "fr.louvre.admission-2026",
-   "topic": "price",
-   "claim": "The Louvre charges €32 to visitors who are neither residents nor citizens of the European Economic Area and €22 to EEA visitors; under-18s are free; it is closed on Tuesdays and opens until 9pm on Wednesdays and Fridays, and recommends booking a time slot.",
-   "value": {
-    "non_eea": 32,
-    "eea": 22
-   },
-   "sources": [
+      "id": "fr.louvre.admission-2026",
+      "topic": "price",
+      "claim": "The Louvre charges €32 to visitors who are neither residents nor citizens of the European Economic Area and €22 to EEA visitors; under-18s are free; it is closed on Tuesdays and opens until 9pm on Wednesdays and Fridays, and recommends booking a time slot.",
+      "value": {
+        "non_eea": 32,
+        "eea": 22
+      },
+      "sources": [
+        {
+          "url": "https://www.louvre.fr/en/visit/hours-admission",
+          "kind": "official",
+          "title": "Musée du Louvre: hours and admission"
+        }
+      ],
+      "checked": "2026-10-08",
+      "used_in": {
+        "articles/where-to-stay-in-paris.html": [
+          "charges €32 to visitors who neither live in nor are citizens of the European Economic Area"
+        ]
+      },
+      "watch": "Louvre[^.]{0,80}€\\s?\\d+",
+      "note": "The new non-EEA price was widely reported as starting on 14 January 2026; the official page shows the prices but not the date, so the guide gives no date."
+    },
     {
-     "url": "https://www.louvre.fr/en/visit/hours-admission",
-     "kind": "official",
-     "title": "Musée du Louvre: hours and admission"
-    }
-   ],
-   "checked": "2026-10-08",
-   "used_in": {
-    "articles/where-to-stay-in-paris.html": [
-     "charges €32 to visitors who neither live in nor are citizens of the European Economic Area"
-    ]
-   },
-   "watch": "Louvre[^.]{0,80}€\\s?\\d+",
-   "note": "The new non-EEA price was widely reported as starting on 14 January 2026; the official page shows the prices but not the date, so the guide gives no date."
-  },
-  {
-   "id": "fr.cdg-express.opening",
-   "topic": "transport",
-   "recheck_days": 30,
-   "claim": "The CDG Express is set to open on 28 March 2027, running between Paris Gare de l'Est and Paris-Charles de Gaulle Airport in 20 minutes, every 15 minutes, with one-way tickets from €25.",
-   "value": {
-    "opens": "2027-03-28",
-    "minutes": 20,
-    "headway_min": 15,
-    "fare_from_eur": 25
-   },
-   "sources": [
+      "id": "fr.cdg-express.opening",
+      "topic": "transport",
+      "recheck_days": 30,
+      "claim": "The CDG Express is set to open on 28 March 2027, running between Paris Gare de l'Est and Paris-Charles de Gaulle Airport in 20 minutes, every 15 minutes, with one-way tickets from €25.",
+      "value": {
+        "opens": "2027-03-28",
+        "minutes": 20,
+        "headway_min": 15,
+        "fare_from_eur": 25
+      },
+      "sources": [
+        {
+          "url": "https://cdgexpress.com/en",
+          "kind": "operator",
+          "title": "CDG Express: set to open on 28 March 2027"
+        }
+      ],
+      "checked": "2026-10-08",
+      "used_in": {
+        "articles/where-to-stay-in-paris.html": [
+          "is set to open on 28 March 2027",
+          "in 20 minutes, every 15 minutes, from €25 one way"
+        ],
+        "articles/best-esim-europe-2026.html": [
+          "the CDG Express from March 2027"
+        ],
+        "articles/europe-rail-pass-worth-it-2026.html": [
+          "where the CDG Express starts in March 2027"
+        ]
+      },
+      "watch": "CDG Express"
+    },
     {
-     "url": "https://cdgexpress.com/en",
-     "kind": "operator",
-     "title": "CDG Express: set to open on 28 March 2027"
-    }
-   ],
-   "checked": "2026-10-08",
-   "used_in": {
-    "articles/where-to-stay-in-paris.html": [
-     "is set to open on 28 March 2027",
-     "in 20 minutes, every 15 minutes, from €25 one way"
-    ],
-    "articles/best-esim-europe-2026.html": [
-     "the CDG Express from March 2027"
-    ],
-    "articles/europe-rail-pass-worth-it-2026.html": [
-     "where the CDG Express starts in March 2027"
-    ]
-   },
-   "watch": "CDG Express"
-  },
-  {
-   "id": "fr.idfm.fares-2026",
-   "topic": "fare",
-   "claim": "From 1 January 2026 in Île-de-France a Metro-Train-RER ticket is €2.55, the Paris Region–Airports single ticket €14.00, and a Navigo day pass for all zones €12.30, valid everywhere except the airports.",
-   "value": {
-    "metro_train_rer": 2.55,
-    "airport_ticket": 14.0,
-    "navigo_day_all_zones": 12.3
-   },
-   "sources": [
+      "id": "fr.idfm.fares-2026",
+      "topic": "fare",
+      "claim": "From 1 January 2026 in Île-de-France a Metro-Train-RER ticket is €2.55, the Paris Region–Airports single ticket €14.00, and a Navigo day pass for all zones €12.30, valid everywhere except the airports.",
+      "value": {
+        "metro_train_rer": 2.55,
+        "airport_ticket": 14.0,
+        "navigo_day_all_zones": 12.3
+      },
+      "sources": [
+        {
+          "url": "https://www.iledefrance-mobilites.fr/en/tarifs-titre-de-transport-en-commun-2026",
+          "kind": "official",
+          "title": "Île-de-France Mobilités: 2026 fares"
+        }
+      ],
+      "checked": "2026-10-08",
+      "used_in": {
+        "articles/where-to-stay-in-paris.html": [
+          "a single metro ticket is €2.55",
+          "a Navigo day pass, €12.30, covers every zone but the airports",
+          "on the €14 airport ticket"
+        ]
+      },
+      "watch": "(metro|RER|airport) ticket[^.]{0,40}€\\s?\\d"
+    },
     {
-     "url": "https://www.iledefrance-mobilites.fr/en/tarifs-titre-de-transport-en-commun-2026",
-     "kind": "official",
-     "title": "Île-de-France Mobilités: 2026 fares"
-    }
-   ],
-   "checked": "2026-10-08",
-   "used_in": {
-    "articles/where-to-stay-in-paris.html": [
-     "a single metro ticket is €2.55",
-     "a Navigo day pass, €12.30, covers every zone but the airports",
-     "on the €14 airport ticket"
-    ]
-   },
-   "watch": "(metro|RER|airport) ticket[^.]{0,40}€\\s?\\d"
-  },
-  {
-   "id": "fr.rer-b.cdg-time",
-   "topic": "transport",
-   "claim": "The RER B links central Paris, including Gare du Nord and Châtelet-les-Halles, with Charles de Gaulle airport in about 30 minutes, per RATP.",
-   "sources": [
+      "id": "fr.rer-b.cdg-time",
+      "topic": "transport",
+      "claim": "The RER B links central Paris, including Gare du Nord and Châtelet-les-Halles, with Charles de Gaulle airport in about 30 minutes, per RATP.",
+      "sources": [
+        {
+          "url": "https://www.bonjour-ratp.fr/aeroports/roissy-charles-de-gaulle/acces/rer/",
+          "kind": "official",
+          "title": "RATP: the RER B to Roissy-Charles de Gaulle"
+        }
+      ],
+      "checked": "2026-10-08",
+      "used_in": {
+        "articles/where-to-stay-in-paris.html": [
+          "the RER B reaches central Paris, including the Gare du Nord and Châtelet, in about 30 minutes"
+        ]
+      },
+      "note": "The RATP page still shows an older €11.45 fare; the 2026 airport ticket is €14 (fr.idfm.fares-2026)."
+    },
     {
-     "url": "https://www.bonjour-ratp.fr/aeroports/roissy-charles-de-gaulle/acces/rer/",
-     "kind": "official",
-     "title": "RATP: the RER B to Roissy-Charles de Gaulle"
-    }
-   ],
-   "checked": "2026-10-08",
-   "used_in": {
-    "articles/where-to-stay-in-paris.html": [
-     "the RER B reaches central Paris, including the Gare du Nord and Châtelet, in about 30 minutes"
-    ]
-   },
-   "note": "The RATP page still shows an older €11.45 fare; the 2026 airport ticket is €14 (fr.idfm.fares-2026)."
-  },
-  {
-   "id": "fr.metro-14.orly-time",
-   "topic": "transport",
-   "claim": "Metro line 14 reaches Orly airport from central Paris in about 25 minutes, per RATP.",
-   "sources": [
+      "id": "fr.metro-14.orly-time",
+      "topic": "transport",
+      "claim": "Metro line 14 reaches Orly airport from central Paris in about 25 minutes, per RATP.",
+      "sources": [
+        {
+          "url": "https://www.bonjour-ratp.fr/aeroports/orly/acces/metro/",
+          "kind": "official",
+          "title": "RATP: metro line 14 to Orly"
+        }
+      ],
+      "checked": "2026-10-08",
+      "used_in": {
+        "articles/where-to-stay-in-paris.html": [
+          "metro line 14 reaches the centre in about 25 minutes"
+        ]
+      }
+    },
     {
-     "url": "https://www.bonjour-ratp.fr/aeroports/orly/acces/metro/",
-     "kind": "official",
-     "title": "RATP: metro line 14 to Orly"
-    }
-   ],
-   "checked": "2026-10-08",
-   "used_in": {
-    "articles/where-to-stay-in-paris.html": [
-     "metro line 14 reaches the centre in about 25 minutes"
-    ]
-   }
-  },
-  {
-   "id": "eu.etias.status",
-   "topic": "entry",
-   "recheck_days": 30,
-   "claim": "At the start of October 2026 ETIAS was not in operation and no travel-authorisation applications were being collected; the EU says it will announce the start date several months before launch, and the application fee will be €20.",
-   "sources": [
+      "id": "eu.etias.status",
+      "topic": "entry",
+      "recheck_days": 30,
+      "claim": "At the start of October 2026 ETIAS was not in operation and no travel-authorisation applications were being collected; the EU says it will announce the start date several months before launch, and the application fee will be €20.",
+      "sources": [
+        {
+          "url": "https://travel-europe.europa.eu/en/etias",
+          "kind": "official",
+          "title": "European Union: ETIAS"
+        }
+      ],
+      "checked": "2026-10-08",
+      "used_in": {
+        "articles/where-to-stay-in-paris.html": [
+          "ETIAS is not running yet."
+        ],
+        "articles/where-to-stay-in-prague.html": [
+          "ETIAS is not running yet",
+          "the fee will be €20"
+        ],
+        "articles/where-to-stay-in-berlin.html": [
+          "ETIAS is not running yet",
+          "the fee will be €20"
+        ],
+        "articles/where-to-stay-in-stockholm.html": [
+          "ETIAS is not running yet",
+          "the fee will be €20"
+        ]
+      },
+      "watch": "ETIAS"
+    },
     {
-     "url": "https://travel-europe.europa.eu/en/etias",
-     "kind": "official",
-     "title": "European Union: ETIAS"
-    }
-   ],
-   "checked": "2026-10-08",
-   "used_in": {
-    "articles/where-to-stay-in-paris.html": [
-     "ETIAS is not running yet."
-    ],
-    "articles/where-to-stay-in-prague.html": [
-     "ETIAS is not running yet",
-     "the fee will be €20"
-    ],
-    "articles/where-to-stay-in-berlin.html": [
-     "ETIAS is not running yet",
-     "the fee will be €20"
-    ],
-    "articles/where-to-stay-in-stockholm.html": [
-     "ETIAS is not running yet",
-     "the fee will be €20"
-    ]
-   },
-   "watch": "ETIAS"
-  },
-  {
-   "id": "eu.ees.registration",
-   "topic": "entry",
-   "claim": "The EU Entry/Exit System registers the entries and exits of non-EU short-stay visitors electronically, with fingerprint and face data, and is gradually replacing passport stamps (Cyprus and Ireland still stamp passports).",
-   "sources": [
+      "id": "eu.ees.registration",
+      "topic": "entry",
+      "claim": "The EU Entry/Exit System registers the entries and exits of non-EU short-stay visitors electronically, with fingerprint and face data, and is gradually replacing passport stamps (Cyprus and Ireland still stamp passports).",
+      "sources": [
+        {
+          "url": "https://travel-europe.europa.eu/ees/what-is-the-ees",
+          "kind": "official",
+          "title": "European Union: what is the EES?"
+        }
+      ],
+      "checked": "2026-10-08",
+      "used_in": {
+        "articles/where-to-stay-in-paris.html": [
+          "The EU's Entry/Exit System registers visitors from outside the EU at the border"
+        ]
+      }
+    },
     {
-     "url": "https://travel-europe.europa.eu/ees/what-is-the-ees",
-     "kind": "official",
-     "title": "European Union: what is the EES?"
-    }
-   ],
-   "checked": "2026-10-08",
-   "used_in": {
-    "articles/where-to-stay-in-paris.html": [
-     "The EU's Entry/Exit System registers visitors from outside the EU at the border"
-    ]
-   }
-  },
-  {
-   "id": "fr.centre-pompidou.closed",
-   "topic": "place",
-   "recheck_days": 365,
-   "claim": "The Centre Pompidou in Paris is closed for renovation and says it will be found in other venues from 2025 to 2030.",
-   "sources": [
+      "id": "fr.centre-pompidou.closed",
+      "topic": "place",
+      "recheck_days": 365,
+      "claim": "The Centre Pompidou in Paris is closed for renovation and says it will be found in other venues from 2025 to 2030.",
+      "sources": [
+        {
+          "url": "https://www.centrepompidou.fr/en/",
+          "kind": "official",
+          "title": "Centre Pompidou: 'From 2025 to 2030, find us here'"
+        }
+      ],
+      "checked": "2026-10-08",
+      "used_in": {
+        "articles/where-to-stay-in-paris.html": [
+          "the museum says it will be in other venues from 2025 to 2030"
+        ]
+      }
+    },
     {
-     "url": "https://www.centrepompidou.fr/en/",
-     "kind": "official",
-     "title": "Centre Pompidou: 'From 2025 to 2030, find us here'"
+      "id": "fr.nice.tourist-tax-2026",
+      "topic": "tax",
+      "claim": "From 1 January 2026 the Métropole Nice Côte d'Azur's taxe de séjour per person per night is, metropolitan tax plus 34% additional tax, total: palace EUR 4.80+1.63=6.43; 5-star 3.50+1.19=4.69; 4-star 2.60+0.88=3.48; 3-star 1.70+0.58=2.28; 2-star (and 4-5 star holiday resorts) 1.00+0.34=1.34; 1-star hotels, B&Bs, youth hostels 0.80+0.27=1.07; minors are exempt.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/Content/configuration/metropole-nca/ImprimesDeclaratif/2026%20Tourist%20Tax%20Rates%20-%20METROPOLE%20NICE%20COTE%20D'AZUR.pdf",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: Tourist tax rates from 1 January 2026 (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "€3.48 at a four-star, €4.69 at a five-star and €6.43 at a palace",
+          "Under-18s pay nothing",
+          "€3.48 a night at a four-star, €2.28 at a three-star, €1.07 at a hostel"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.tourist-tax-surcharge-34",
+      "topic": "tax",
+      "claim": "The 2026 rate sheet splits the tax into the metropolitan tax and a 34% additional tax for the Ligne Nouvelle Provence Côte d'Azur; the portal says the finance law no. 2022-1726 of 30 December 2022 introduced a 34% additional tax in the Alpes-Maritimes, Var and Bouches-du-Rhône. The sheet lists no other surcharge (no departmental or regional line). The portal says 2027 rates stay identical to 2026, and the metropolitan tax applies in all 51 member communes, Èze included.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/Content/configuration/metropole-nca/ImprimesDeclaratif/2026%20Tourist%20Tax%20Rates%20-%20METROPOLE%20NICE%20COTE%20D'AZUR.pdf",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: Tourist tax rates 2026 (PDF)"
+        },
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/ts/metropole-nca",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: taxe de séjour portal"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "an additional tax of 34% for the Ligne Nouvelle Provence Côte d'Azur, a rail project",
+          "A national finance law of 2022 introduced that surcharge in the Alpes-Maritimes, Var and Bouches-du-Rhône",
+          "The sheet lists no other surcharge",
+          "The portal says the 2027 rates stay the same as 2026",
+          "the same grid applies across the Métropole's 51 communes, Èze included"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.tourist-tax-unclassified",
+      "topic": "tax",
+      "claim": "Accommodation without classification or awaiting classification pays 6.70% (5% + 1.70%) of the pre-tax price per person per night, capped at EUR 6.43; the Métropole's own example: two people in a EUR 80 room pay EUR 40 x 6.70% = EUR 2.68 each, EUR 5.36 a night. The tax is displayed and invoiced but not always included in the price.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/Content/configuration/metropole-nca/ImprimesDeclaratif/2026%20Tourist%20Tax%20Rates%20-%20METROPOLE%20NICE%20COTE%20D'AZUR.pdf",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: Tourist tax rates 2026 (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "two people in a €80 room pay €2.68 each, €5.36 a night",
+          "The tax is not always in the room rate, so a hotel may ask for it at the desk"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.tourist-tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: a couple for four nights at a four-star pays 2 x 4 x EUR 3.48 = EUR 27.84 (EUR 20.80 metropolitan + EUR 7.04 surcharge); at a five-star 2 x 4 x EUR 4.69 = EUR 37.52.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/Content/configuration/metropole-nca/ImprimesDeclaratif/2026%20Tourist%20Tax%20Rates%20-%20METROPOLE%20NICE%20COTE%20D'AZUR.pdf",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: Tourist tax rates 2026 (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "Here is our arithmetic, not an official figure",
+          "2 × 4 × €3.48 = €27.84",
+          "At a five-star the same stay is €37.52"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.tram-2-airport",
+      "topic": "transport",
+      "claim": "Per the airport, tram line 2 (Port Lympia / Centre ville) links Terminals 1 and 2 to the city centre at the Jean Médecin station in less than 30 minutes and to the port at Port Lympia; a tram runs about every 7 to 8 minutes on weekdays; the link Terminal 2 / Terminal 1 / Grand Arénas is free.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.nice.aeroport.fr/acces/transports-en-commun",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Airport: transports en commun"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "from Terminals 1 and 2 to the Jean Médecin station in the city centre in less than 30 minutes",
+          "A tram runs about every 7 to 8 minutes on weekdays",
+          "The link between Terminal 1, Terminal 2 and Grand Arénas is free"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.lignesdazur-fares",
+      "topic": "fare",
+      "claim": "Lignes d'Azur: Solo (one journey, transfers 74 minutes, return trips forbidden) EUR 1.70; Pass 1 jour EUR 7; 1 aller/retour Aéroport EUR 10 (transfers 74 minutes after first validation, sold at agencies, the app and ticket machines); an anonymous reloadable card needs a refundable EUR 2 deposit. The airport page lists SOLO, MULTI and PASS among tickets sold at the terminals' tram stops and 'AERO aller-retour: 10 EUR' with a EUR 2 card. No Lignes d'Azur page found stating which ticket the airport section requires.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.lignesdazur.com/titres-et-tarifs/quel-titre-pour-mon-deplacement/titres-au-voyage/",
+          "kind": "operator",
+          "title": "Lignes d'Azur: titres au voyage"
+        },
+        {
+          "url": "https://www.lignesdazur.com/titres-et-tarifs/quel-titre-pour-mon-deplacement/titres-a-la-journee/",
+          "kind": "operator",
+          "title": "Lignes d'Azur: titres à la journée"
+        },
+        {
+          "url": "https://www.nice.aeroport.fr/acces/transports-en-commun",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Airport: transports en commun"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "A Solo ticket for one journey, with transfers for 74 minutes, is €1.70",
+          "a Pass 1 jour is €7",
+          "a one-day airport return for €10",
+          "an anonymous reloadable card costs an extra €2, a refundable deposit"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.bus-12",
+      "topic": "transport",
+      "claim": "Per the airport, bus 12+ (Hôpital Pasteur) stops at 'Aéroport / Promenade', 150 m on foot from Terminal 1 (Promenade des Anglais), serving the Promenade des Anglais, Place Masséna ('Albert 1er'), the old town ('Opéra' or 'Cathédrale'), Place Garibaldi and the Palais des Expositions; no ticket sales on board.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.nice.aeroport.fr/acces/transports-en-commun",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Airport: transports en commun"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "150 metres on foot from Terminal 1",
+          "Tickets are not sold on board"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.airport-taxi-fare",
+      "topic": "fare",
+      "claim": "The airport's page lists indicative 2026 flat taxi fares (TTC) from the airport; Nice-Centre EUR 32.00. Taxis show a roof sign TAXI ville de Nice and a meter; a receipt is mandatory from EUR 25; card payment is accepted in the vehicle. The fares are fixed by prefectoral order (not opened).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.nice.aeroport.fr/acces/taxis",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Airport: taxis"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "a flat fare from the airport to the city centre of €32, tax included",
+          "a receipt is compulsory from €25, and you can pay by card"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.ter-trains",
+      "topic": "transport",
+      "claim": "The Nice tourist office's guide says TER trains link Nice quickly with the main towns of the Côte d'Azur; the airport page describes the Pass Sud Azur Explore as unlimited train, tram and bus in the Alpes-Maritimes and Monaco for 3, 7 or 14 days. Maison Durante's site mentions trains to Monaco, Villefranche and Èze.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/app/uploads/2026/01/brochure-a5-nice-guide-touristique-2026-v9-page-a-page-1.pdf",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Tourist Office: Nice tourist guide 2026"
+        },
+        {
+          "url": "https://www.nice.aeroport.fr/acces/transports-en-commun",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Airport: transports en commun"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "the TER trains link Nice with the main towns of the Côte d'Azur",
+          "The Pass Sud Azur Explore covers train, tram and bus in the Alpes-Maritimes and Monaco for three, seven or 14 days"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.area-vieux-nice",
+      "topic": "place",
+      "claim": "The tourist office's guide describes Vieux-Nice as a maze of coloured lanes, baroque churches and façades, authentic markets and restaurants with the Niçois-cuisine label; the Cours Saleya flower and produce market; every Monday the Cours Saleya becomes an antiques market of more than 200 exhibitors.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/app/uploads/2026/01/brochure-a5-nice-guide-touristique-2026-v9-page-a-page-1.pdf",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Tourist Office: Nice tourist guide 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "a maze of coloured lanes, baroque churches and façades, markets and restaurants serving Niçois cuisine",
+          "on Mondays the Cours turns into an antiques market of more than 200 exhibitors"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.area-promenade",
+      "topic": "place",
+      "claim": "The tourist office's guide calls the Promenade des Anglais the seaside avenue of seven kilometres on the Baie des Anges with luxury hotels and Belle Époque villas; European aristocrats took winter quarters in its Belle Époque hotels.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/app/uploads/2026/01/brochure-a5-nice-guide-touristique-2026-v9-page-a-page-1.pdf",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Tourist Office: Nice tourist guide 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "the seaside avenue of seven kilometres on the Baie des Anges",
+          "European aristocrats once took their winter quarters in its Belle Époque hotels"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.area-centre",
+      "topic": "place",
+      "claim": "The tourist office's guide calls Place Masséna the heart of the city and the link between the old town and the modern districts; its one-day route sends visitors shopping in the Carré d'Or boutiques and on avenue Jean-Médecin.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/app/uploads/2026/01/brochure-a5-nice-guide-touristique-2026-v9-page-a-page-1.pdf",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Tourist Office: Nice tourist guide 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "the heart of the city, the link between the old town and the modern districts",
+          "sends shoppers to the boutiques of the Carré d'Or and to the avenue Jean-Médecin"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.area-port",
+      "topic": "place",
+      "claim": "The tourist office's guide describes Port Lympia as nestled between the castle hill and Mont Boron, a mix of tradition (the painted wooden pointus) and modernity (large yachts), surrounded by bars and restaurants.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/app/uploads/2026/01/brochure-a5-nice-guide-touristique-2026-v9-page-a-page-1.pdf",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Tourist Office: Nice tourist guide 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "between the castle hill and Mont Boron, a mix of tradition, with the painted wooden pointus, and modernity, with large yachts"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.area-cimiez",
+      "topic": "place",
+      "claim": "The tourist office's guide places the Matisse museum in the gardens of the Cimiez arenas, the Roman remains of Cemenelum, and the Cimiez monastery and gardens in its second-day itinerary.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/app/uploads/2026/01/brochure-a5-nice-guide-touristique-2026-v9-page-a-page-1.pdf",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Tourist Office: Nice tourist guide 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "holds the Matisse museum among the gardens of the arenas, the Roman remains of Cemenelum and a monastery with its gardens"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-negresco",
+      "topic": "hotel",
+      "claim": "Le Negresco: 37 Promenade des Anglais; 102 rooms and 26 suites each telling an era of French art; Michelin-starred Le Chantecler (chef Virginie Basselot), La Rotonde brasserie, Le Versailles champagne bar, Le 1913 bar, beach restaurant from May to September. The site gives no room sizes or prices.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.lenegresco.com/en",
+          "kind": "official",
+          "title": "Le Negresco (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "102 rooms and 26 suites",
+          "a restaurant with a Michelin star, Le Chantecler",
+          "from May to September a beach restaurant"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-palais-mediterranee",
+      "topic": "hotel",
+      "claim": "Hôtel Palais de la Méditerranée (Unbound Collection by Hyatt): 13 Promenade des Anglais; five-star; façade a landmark since 1929; 145 rooms and 28 suites; heated indoor-outdoor pool the hotel calls the only year-round heated pool of its kind in Nice; Zouzou Riviera restaurant and terrace.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hyatt.com/unbound-collection/en-US/ncehr-hotel-palais-de-la-mediterranee",
+          "kind": "official",
+          "title": "Hôtel Palais de la Méditerranée (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "with 145 rooms and 28 suites, in the Unbound Collection by Hyatt",
+          "the only year-round heated pool of its kind in Nice",
+          "at 173 rooms and suites it is large"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-westminster",
+      "topic": "hotel",
+      "claim": "Westminster Hôtel & Spa: 27 Promenade des Anglais; four-star; inaugurated 1881; owned by the Schmitz-Grinda family; 99 suites, junior suites and rooms; Le Duc restaurant, W bar with terraces; Escale rooms 17 to 19 m2; Spa 27 of 400 m2 with access extra and children under 16 not admitted.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.westminster-nice.com/en/",
+          "kind": "official",
+          "title": "Westminster Hôtel & Spa (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "opened in 1881 and still owned by the same family",
+          "with 99 rooms, junior suites and suites",
+          "the entry-level Escale rooms are 17 to 19 m²",
+          "the 400 m² spa costs extra and is closed to children under 16"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-palais-saleya",
+      "topic": "hotel",
+      "claim": "Hôtel Palais Saleya: 21 rue du Marché; built in the 18th century; 26 suites and apartments; at the Place du Palais de Justice at the entrance to the Old Town; less than a 5-minute walk to the Cours Saleya, the castle and the beach (hotel's count); Junior Suite 25 m2; 24/7 reception; breakfast served in the room (French breakfast EUR 18, express EUR 11).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.palaissaleya.com/",
+          "kind": "official",
+          "title": "Hôtel Palais Saleya (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "with 26 suites and apartments",
+          "the smallest a 25 m² Junior Suite",
+          "the French breakfast is €18 extra"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-aston-la-scala",
+      "topic": "hotel",
+      "claim": "Hôtel Aston La Scala: 12 avenue Félix Faure; four-star; Opéra-Vieille Ville tram stop in front; Premium rooms 18 to 23 m2 with a view of Old Nice and the Promenade du Paillon; Comfort rooms 17 to 23 m2 over the courtyard or hill; fitness area, restaurant and bar; live music nights.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotel-aston.com/",
+          "kind": "official",
+          "title": "Hôtel Aston La Scala (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "with the Opéra-Vieille Ville tram stop in front of the hotel",
+          "The Premium rooms, of 18 to 23 m²",
+          "the Comfort rooms, of 17 to 23 m², face the courtyard or the hill, and the hotel runs live music nights"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-villa-saint-exupery",
+      "topic": "hotel",
+      "claim": "Villa Saint Exupéry Beach (villahostels.com): 6 rue Sacha Guitry; private double, twin and triple rooms and 4-10 bed dorms, all en-suite and air-conditioned; 50 m from the Old Town and beach 2 minutes' walk (hostel's count); bar with happy hour, gym, free luggage storage, pub crawl.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://villahostels.com/",
+          "kind": "official",
+          "title": "Villa Saint Exupéry Beach (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "private double, twin and triple rooms and dorms of four to ten beds",
+          "50 metres from the Old Town and two minutes from the beach",
+          "a lively bar and a pub crawl"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-villa-rivoli",
+      "topic": "hotel",
+      "claim": "Hôtel Villa Rivoli: 10 rue de Rivoli; three-star; 24 rooms; Belle Époque townhouse built in 1890; 100 m from the beaches and the Promenade (hotel's count); Superior rooms with small balcony; most rooms view the garden; Lower Ground Floor rooms have small windows.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://villa-rivoli.com/",
+          "kind": "official",
+          "title": "Hôtel Villa Rivoli (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "A three-star of 24 rooms in a Belle Époque townhouse built in 1890",
+          "100 metres from the beaches and the Promenade",
+          "the Lower Ground Floor rooms have small windows"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-victor-hugo",
+      "topic": "hotel",
+      "claim": "Hôtel Victor Hugo: 59 boulevard Victor Hugo; two-star; 7 rooms on the ground floor of a 1905 building; rooms themed on Victor Hugo works, each with a kitchenette; Promenade 5 minutes and Old Nice 10 (hotel's count); breakfast buffet; Cabin room 13 m2; reception 8.30am-7pm and no arrivals after 7pm.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://hotel-victor-hugo-nice.com/",
+          "kind": "official",
+          "title": "Hôtel Victor Hugo (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "A two-star of seven rooms on the ground floor of a building of 1905",
+          "the Cabin room is 13 m², and reception closes at 7pm, with no arrivals accepted after that hour"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-splendid",
+      "topic": "hotel",
+      "claim": "Splendid Hôtel & Spa: 50 boulevard Victor Hugo; four-star; 400 m from the train station (hotel's count); 130 rooms and suites; rooftop bar, restaurant and terraces; spa; family business for four generations; room sizes not published.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.splendid-nice.com/en/",
+          "kind": "official",
+          "title": "Splendid Hôtel & Spa (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "400 metres from the station by the hotel's count, with 130 rooms and suites",
+          "run by one family for four generations"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-maison-durante",
+      "topic": "hotel",
+      "claim": "Maison Durante: 16 avenue Durante; two minutes' walk from the station (hotel's count); garden with orange trees and palms; Classic rooms 14 m2 from EUR 88 a night on its own page (20 Oct 2026), Superior 16.5-18 m2; shower rooms.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://maisondurante.fr/",
+          "kind": "official",
+          "title": "Maison Durante (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "two minutes' walk from the station by the hotel's count",
+          "The Classic rooms are 14 m² and, on the hotel's own page, start at €88 a night"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-la-perouse",
+      "topic": "hotel",
+      "claim": "Hôtel La Pérouse: 11 quai Rauba Capeu; four-star boutique hotel; 53 rooms and suites; on the Colline du Château; pool carved into the rock; rooftop; garden restaurant under lemon trees; rooms from EUR 280 on its own site.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://hotel-la-perouse.com/en/",
+          "kind": "official",
+          "title": "Hôtel La Pérouse (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "of 53 rooms and suites on the castle hill",
+          "rooms start at €280 on the hotel's own site"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-suisse",
+      "topic": "hotel",
+      "claim": "Hôtel Suisse: 15 quai Rauba Capeu (address from regional tourist-board listing and Booking.com); four-star; Italian style; 38 rooms, most with sea view; one suite with private terrace; three standard rooms on the castle-hill side without view and with windows that cannot be opened.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotel-nice-suisse.com/en/",
+          "kind": "official",
+          "title": "Hôtel Suisse (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice.html": [
+          "with 38 rooms, most of them looking at the sea",
+          "three standard rooms on the castle-hill side have no view, and their windows do not open"
+        ]
+      }
     }
-   ],
-   "checked": "2026-10-08",
-   "used_in": {
-    "articles/where-to-stay-in-paris.html": [
-     "the museum says it will be in other venues from 2025 to 2030"
-    ]
-   }
-  }
- ]
+  ]
 }

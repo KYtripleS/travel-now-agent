@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-nice.html": (
+        "Where to Stay in Nice",
+        "Five areas, 12 hotels and Nice's tax: €3.48 a night at a four-star, a quarter of it a rail surcharge.",
+    ),
     "articles/where-to-stay-in-mexico-city.html": (
         "Where to Stay in Mexico City",
         "Five areas, 12 hotels, Mexico City's 3.5% lodging tax plus 16% IVA, and the airport links.",
@@ -2037,6 +2041,13 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-nice.html": [
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-barcelona.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-in-mexico-city.html": [
         "articles/where-to-stay-in-cancun.html",
