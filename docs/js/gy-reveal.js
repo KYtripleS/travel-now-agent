@@ -148,8 +148,11 @@
           u.searchParams.set('subId1', page.replace(/[^A-Za-z0-9]+/g, ''));
           u.searchParams.set('subId2', placement);
           a.href = u.toString();
-        } else if (/(^|\.)stay22\.com$/.test(u.hostname) && /^\/allez\//.test(u.pathname) && !u.searchParams.has('campaign')) {
-          /* Stay22 (hotels, GetYourGuide) splits its stats by campaign; it wants _ not - */
+        } else if (/(^|\.)stay22\.com$/.test(u.hostname) && /^\/allez\//.test(u.pathname)
+                   && (!u.searchParams.has('campaign') || /^gentlyyonder-/.test(u.searchParams.get('campaign')))) {
+          /* Stay22 (hotels, GetYourGuide) splits its stats by campaign; it wants _ not -.
+             Its LetMeAllez script stamps "gentlyyonder-<page>" on our links when the page
+             loads, which hides the placement, so that stamp is replaced at click time. */
           u.searchParams.set('campaign', (page + '__' + placement).replace(/[^A-Za-z0-9]+/g, '_'));
           a.href = u.toString();
         }
