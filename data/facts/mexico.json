@@ -62,6 +62,11 @@
         "articles/where-to-stay-in-cancun.html": [
           "16% IVA",
           "IVA at 16%: 1,920 pesos"
+        ],
+        "articles/where-to-stay-in-mexico-city.html": [
+          "Mexico's 16% IVA",
+          "IVA at 16%: 1,920 pesos",
+          "19.5% in all on the room rate"
         ]
       }
     },
@@ -315,6 +320,459 @@
         "articles/where-to-stay-in-cancun.html": [
           "33 miles",
           "valet parking from $20"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.lodging-tax",
+      "topic": "tax",
+      "claim": "Mexico City's Código Fiscal (arts. 162 to 164) taxes lodging: hotels, hostels and motels apply 3.5% to the total value of the lodging consideration (art. 164); where an intermediary collects payment for flats and houses the rate is 5%; the provider is the taxpayer but must pass the tax on to the guest (art. 162).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://transparencia.finanzas.cdmx.gob.mx/repositorio/public/upload/repositorio/Tesoreria/123/b/Criterio_9/123_XV_Impuesto_por_la_prestacion_de_servicios_de_hospedaje_2024.pdf",
+          "kind": "official",
+          "title": "Secretaría de Administración y Finanzas CDMX: Código Fiscal, Del Impuesto por la Prestación de Servicios de Hospedaje (transparency copy, created April 2024)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "the city's 3.5% lodging tax",
+          "3.5% of the value of the lodging at hotels, hostels and motels",
+          "where an intermediary collects the payment, the same article sets the rate at 5%",
+          "requires it to pass the tax on to the guest"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.lodging-tax-base",
+      "topic": "tax",
+      "claim": "Article 163: the tax arises when payment is received and the base includes deposits, advances and other concepts; if lodging is bundled with accessory services (transport, food, use of facilities) that the provider does not itemise and prove, the whole value is treated as lodging. The December 2025 decree reforming the Código Fiscal for 2026 changed the audit (dictamen) threshold for lodging-tax payers to 14,913,178 pesos but did not amend arts. 162 to 164. We could not load a consolidated 2026 text.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://transparencia.finanzas.cdmx.gob.mx/repositorio/public/upload/repositorio/Tesoreria/123/b/Criterio_9/123_XV_Impuesto_por_la_prestacion_de_servicios_de_hospedaje_2024.pdf",
+          "kind": "official",
+          "title": "Secretaría de Administración y Finanzas CDMX: Código Fiscal, arts. 162 to 164"
+        },
+        {
+          "url": "https://data.consejeria.cdmx.gob.mx/portal_old/uploads/gacetas/bbd22f0b2fab730aa4dc56e3e207b4c1.pdf",
+          "kind": "official",
+          "title": "Gaceta Oficial de la Ciudad de México, 19 Dec 2025, Tomo II: decree reforming the Código Fiscal"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "the whole value is treated as lodging",
+          "did not amend articles 162 to 164",
+          "changed the audit threshold for lodging-tax payers"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.airport-metrobus",
+      "topic": "fare",
+      "claim": "Metrobús Line 4 runs an airport service to AICM Terminals 1 and 2 from Amajac station on Paseo de la Reforma; fare 30 pesos; no cash (Integrated Mobility Card, contactless bank card or digital wallet); AICM lists boarding at Terminal 1 door 7 and Terminal 2 door 2, and a 24 Feb 2026 AICM notice names door 7 (T1) and door 4 (T2) as temporary points; hours Mon-Sat 4:30-24:00, Sun 05:00-24:00; the city's tourism site says it reaches the Centro Histórico and Bellas Artes and has a heavy-luggage area. Metrobús's own site (metrobus.cdmx.gob.mx) did not load from our network.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.aicm.com.mx/pasajeros/servicios/prestadores-de-servicios/transportes/metrobus",
+          "kind": "official",
+          "title": "AICM: Metrobús"
+        },
+        {
+          "url": "https://www.aicm.com.mx/pasajeros-del-aibjcm-pueden-llegar-a-su-vuelo-en-metrobus/24-02-2026",
+          "kind": "official",
+          "title": "AICM: notice of 24 Feb 2026 on Metrobús Line 4 to the airport"
+        },
+        {
+          "url": "https://mexicocity.cdmx.gob.mx/aeropuerto/",
+          "kind": "official",
+          "title": "Mexico City tourism: the airport"
+        },
+        {
+          "url": "https://mexicocity.cdmx.gob.mx/e/getting-around/metrobus/?lang=en",
+          "kind": "official",
+          "title": "Mexico City tourism: Metrobús"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "The fare is 30 pesos",
+          "starting from Amajac station on Paseo de la Reforma",
+          "the Integrated Mobility Card, a contactless bank card or a digital wallet",
+          "Terminal 1, door 7",
+          "door 4 as a temporary point during works",
+          "Monday to Saturday from 4:30 a.m. to midnight",
+          "an area for heavy luggage"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.airport-metro",
+      "topic": "fare",
+      "claim": "AICM's Metro page places Terminal Aérea station at Terminal 1; the city's tourism site says it is on Line 5, costs 5 pesos a trip (Integrated Mobility Card at 15 pesos, or contactless card or wallet), and does not recommend it with heavy luggage.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.aicm.com.mx/pasajeros/servicios/prestadores-de-servicios/transportes/metro",
+          "kind": "official",
+          "title": "AICM: Metro"
+        },
+        {
+          "url": "https://mexicocity.cdmx.gob.mx/e/getting-around/using-the-metro/?lang=en",
+          "kind": "official",
+          "title": "Mexico City tourism: using the Metro"
+        },
+        {
+          "url": "https://mexicocity.cdmx.gob.mx/aeropuerto/",
+          "kind": "official",
+          "title": "Mexico City tourism: the airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "Terminal Aérea station on Line 5 is at Terminal 1",
+          "The fare is 5 pesos a trip",
+          "does not recommend it with heavy luggage"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.airport-taxi",
+      "topic": "transport",
+      "claim": "AICM publishes a list of authorised taxi companies (TaxiRide, Yellow Cab, Sitio 300 and others); the city's tourism site says official airport taxis are bought in advance at authorised booths inside the terminals, with fixed fares by zone, and advises ignoring offers in the arrivals corridor. Neither page gives fares.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.aicm.com.mx/pasajeros/servicios/prestadores-de-servicios/transportes/taxis",
+          "kind": "official",
+          "title": "AICM: Taxis autorizados"
+        },
+        {
+          "url": "https://mexicocity.cdmx.gob.mx/aeropuerto/",
+          "kind": "official",
+          "title": "Mexico City tourism: the airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "a list of authorised taxi companies",
+          "bought in advance at the authorised booths inside the terminals",
+          "fixed fares by zone"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.airport-modes",
+      "topic": "transport",
+      "claim": "AICM's mobility pages list public transport (buses, Metro, Metrobús), car rental, authorised taxis, parking and the Aerotrén between Terminals 1 and 2.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.aicm.com.mx/pasajeros/servicios/prestadores-de-servicios/transporte-publico",
+          "kind": "official",
+          "title": "AICM: Transporte público"
+        },
+        {
+          "url": "https://www.aicm.com.mx/pasajeros/servicios/prestadores-de-servicios/transportes",
+          "kind": "official",
+          "title": "AICM: Transportes (Movilidad)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "the Aerotrén between Terminals 1 and 2"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.altitude",
+      "topic": "place",
+      "claim": "The city's tourism site gives Mexico City's altitude as 2,240 m, says many visitors have no symptoms, and advises rest, extra water and avoiding alcohol and strenuous activity if you feel the effects.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://mexicocity.cdmx.gob.mx/e/basics-for-mexico-city-travel/altitude-sickness/?lang=en",
+          "kind": "official",
+          "title": "Mexico City tourism: altitude sickness"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "Mexico City sits at 2,240 metres",
+          "drinking extra water and avoiding alcohol and strenuous activity"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.areas",
+      "topic": "place",
+      "claim": "The city's tourism site describes Colonia Roma as an architectural treasure and centre of bohemian culture, Colonia Condesa as the centre of design, youth and cosmopolitan life (art deco, elliptical layout), and Avenida Presidente Masaryk (Polanco) as the most exclusive and elegant street, lined with luxury boutiques and restaurants and pedestrianised; UNESCO lists the Historic Centre of Mexico City and Xochimilco, noting the largest cathedral on the continent and the Palacio de las Bellas Artes.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://mexicocity.cdmx.gob.mx/category/barrios-imperdibles/?lang=en",
+          "kind": "official",
+          "title": "Mexico City tourism: modern neighbourhoods"
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/412/",
+          "kind": "official",
+          "title": "UNESCO World Heritage Centre: Historic Centre of Mexico City and Xochimilco"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "an architectural showpiece and a centre of the capital's bohemian culture",
+          "the centre of design, youth and cosmopolitan life",
+          "the most exclusive and elegant street in the capital",
+          "the largest on the continent"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.brick",
+      "topic": "hotel",
+      "claim": "Brick Hotel (Roma Norte) offers 17 rooms and suites in seven categories (Superior: queen bed and work area; Deluxe categories: private balcony; Rooftop Suite: two levels with private rooftop space); lobby bar, Cerrajería restaurant, Terraza Orizaba, Hela Spa.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.brickhotel.mx/rooms.html",
+          "kind": "official",
+          "title": "Brick Hotel: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "17 rooms and suites in seven categories",
+          "the two-level Rooftop Suite with a private rooftop space",
+          "Hela Spa"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.innside",
+      "topic": "hotel",
+      "claim": "INNSiDE Mexico Roma Norte: Av. Insurgentes Sur 253; rooms of 39 to 45 m² (INNSiDE Room doubles 39, king 40, Studio con Terraza 45) with kitchen and mini fridge; Open Living Lounge; pet-friendly; page flagged 'Nueva apertura'.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.melia.com/es/hoteles/mexico/ciudad-de-mexico/hotel-mexico-roma-norte-5938",
+          "kind": "official",
+          "title": "Meliá: INNSiDE Mexico Roma Norte"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "Avenida Insurgentes Sur 253",
+          "39 to 45 m²",
+          "Open Living Lounge",
+          "Meliá marks it as a new opening"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.condesa-df",
+      "topic": "hotel",
+      "claim": "Condesa df (Grupo Habita): 40 rooms and suites; furniture by Paris designer India Mahdavi; Patio Room 21 m², Corner Suite 44 m²; Terraza rooftop (sushi bar, views of Parque España) open until 1:00 a.m. Thursday to Saturday; El Patio courtyard restaurant.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://condesadf.com/",
+          "kind": "official",
+          "title": "Condesa df: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "40 rooms and suites",
+          "India Mahdavi",
+          "the entry Patio Room is 21 m²",
+          "open until 1 a.m. Thursday to Saturday"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.andaz",
+      "topic": "hotel",
+      "claim": "Andaz Mexico City Condesa: in the I421 Live District, a 1961 building by José Luis Benlliure Galán recognised by INBAL as an artistic heritage site; rooftop pool, Cabuya rooftop, Pasana Spa & Wellness, Wooftop beer garden and canine club.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hyatt.com/andaz/en-US/mexaz-andaz-mexico-city-condesa",
+          "kind": "official",
+          "title": "Hyatt: Andaz Mexico City Condesa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "the I421 Live District",
+          "a rooftop pool, the Cabuya rooftop restaurant, the Pasana Spa and a beer garden for dogs"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.camino-real",
+      "topic": "hotel",
+      "claim": "Camino Real Polanco México: open since 1968, designed by Ricardo Legorreta and built for the Olympic Games; Luxe Plus King 42 m², Junior Suite Superior King 110 m²; Perpetual Motion Fountain; street address Calzada General Mariano Escobedo 700.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.grupocaminoreal.com/camino-real-polanco-mexico",
+          "kind": "official",
+          "title": "Grupo Camino Real: Camino Real Polanco"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "Open since 1968",
+          "the 42 m² Luxe Plus King",
+          "the 110 m² Junior Suite Superior King",
+          "Calzada General Mariano Escobedo 700"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.hyatt-regency",
+      "topic": "hotel",
+      "claim": "Hyatt Regency Mexico City: Campos Eliseos 204, Polanco; newly renovated rooms; heated indoor pool and sundeck with Chapultepec Park views (the page also says heated outdoor pool); Teppan Grill; Presidential Suite on the 43rd floor.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hyatt.com/hyatt-regency/en-US/mexhr-hyatt-regency-mexico-city",
+          "kind": "official",
+          "title": "Hyatt: Hyatt Regency Mexico City"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "Campos Eliseos 204",
+          "a Presidential Suite on the 43rd floor",
+          "calls the pool indoor in one place and outdoor in another"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.gran-hotel",
+      "topic": "hotel",
+      "claim": "Gran Hotel Ciudad de México: 16 de Septiembre 82, Centro Histórico; Art Nouveau architecture; stained glass the hotel calls one of the largest in the world; terrace restaurant with a view of the Plaza Mayor; Junior Suite Zócalo view 26 m², Master Suite 45 m²; reservations only through its website or phone.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.granhoteldelaciudaddemexico.com.mx/",
+          "kind": "official",
+          "title": "Gran Hotel Ciudad de México: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "Avenida 16 de Septiembre 82",
+          "the 26 m² Junior Suite with a Zócalo view to the 45 m² Master Suite",
+          "takes reservations only through its own website or by phone"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.gillow",
+      "topic": "hotel",
+      "claim": "Hotel Gillow (Centro Histórico): describes itself as the oldest hotel in the Centro Histórico, steps from the Zócalo; restaurant-bar La Capilla; room service at extra cost; free Wi-Fi and bottled water; breakfast with the bed-and-breakfast rate; no room sizes published.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotelgillow.com.mx/",
+          "kind": "official",
+          "title": "Hotel Gillow: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "the oldest hotel in the Centro Histórico",
+          "the restaurant-bar La Capilla",
+          "room service costs extra"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.catedral",
+      "topic": "hotel",
+      "claim": "Hotel Catedral: Guatemala 16, Centro Histórico; 13 room types across two towers, about 185 keys; free valet parking subject to availability; preserved pre-Hispanic Ehécatl-Quetzalcoatl temple beneath the lobby; no static nightly prices (live Cloudbeds rates).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotelcatedral.com/",
+          "kind": "official",
+          "title": "Hotel Catedral: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "13 room types across two towers and about 185 rooms",
+          "a pre-Hispanic temple preserved beneath the lobby",
+          "no fixed nightly prices"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.geneve",
+      "topic": "hotel",
+      "claim": "Hotel Geneve: Londres 130, Colonia Juárez; 226 rooms in a classic European style with carved wood furniture; Master Suite 51 m²; free parking for guests arriving by car; warns about fraudulent sites and callers.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotelgeneve.com.mx/",
+          "kind": "official",
+          "title": "Hotel Geneve: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "Londres 130 in Colonia Juárez",
+          "226 rooms",
+          "a Master Suite of 51 m²",
+          "warns about fraudulent sites and callers"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.marquis",
+      "topic": "hotel",
+      "claim": "Marquis Reforma Hotel & Spa: Art Deco hotel on Paseo de la Reforma with 124 rooms and 80 suites, steps from Chapultepec forest and castle, surrounded by business towers; Spa Marquis of more than 1,500 m² with more than 60 treatments.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.marquisreforma.com/",
+          "kind": "official",
+          "title": "Marquis Reforma: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "124 rooms and 80 suites",
+          "more than 1,500 m² with more than 60 treatments",
+          "surrounded by business towers"
+        ]
+      }
+    },
+    {
+      "id": "mx.cdmx.hotel.nh-reforma",
+      "topic": "hotel",
+      "claim": "NH Collection Mexico City Reforma: Liverpool 155, Zona Rosa; 306 recently renovated rooms with 48-inch TVs; heated outdoor pool; gym; Zona Rosa described as the city's LGBTQ+ district, 2-minute walk to the financial district and 15-minute subway ride to the historic centre; indoor parking 14 USD a day; pets 630 MXN per night per pet.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.nh-hotels.com/en/hotel/nh-collection-mexico-city-reforma",
+          "kind": "official",
+          "title": "NH Hotels: NH Collection Mexico City Reforma"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mexico-city.html": [
+          "Liverpool 155 in the Zona Rosa",
+          "306 recently renovated rooms",
+          "14 US dollars a day",
+          "630 pesos a night each",
+          "15 minutes from the historic centre by subway"
         ]
       }
     }

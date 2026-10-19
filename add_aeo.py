@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-mexico-city": dict(
+        text="For a first trip, stay in Roma Norte: cafés, galleries and mansions on foot. Choose Condesa for leafy streets, Polanco for Masaryk and the park, the Centro Histórico for the Zócalo. A hotel room carries 3.5% lodging tax plus 16% IVA, 19.5% in all.",
+        link_text="Roma Norte",
+        cta=_stay_cta("where-to-stay-in-mexico-city", "See hotels around Roma Norte")),
     "where-to-stay-in-chiang-mai": dict(
         text="For a first trip, stay in the Old City: temples are on foot, and Rachamankha, Tamarind Village and Stamps cover three budgets. Choose Nimman for cafés, the river for a historic house, Mae Rim for a resort. Prices marked ++ add 17.7%: a 10% service charge, then 7% VAT.",
         link_text="Old City",
@@ -1291,6 +1295,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-mexico-city": ["Brick Hotel", "INNSiDE Mexico Roma Norte", "Hotel Gillow"],
     "where-to-stay-in-chiang-mai": ["Rachamankha", "Tamarind Village", "Stamps Backpackers"],
     "where-to-stay-in-cancun": ["Kempinski Hotel Cancún", "Hyatt Ziva Cancun", "Hotel Plaza Caribe"],
     "where-to-stay-in-da-nang": ["HAIAN Beach Hotel & Spa", "Diamond Sea Hotel", "Furama Resort Danang"],
@@ -1406,6 +1411,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Mexico City", "where-to-stay-in-mexico-city", None, None),
         ("Chiang Mai", "where-to-stay-in-chiang-mai", None, None),
         ("Cancún", "where-to-stay-in-cancun", None, None),
         ("Da Nang", "where-to-stay-in-da-nang", None, None),

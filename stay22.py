@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-mexico-city": dict(area="Roma Norte", lat=19.4194, lng=-99.1627, zoom=14,
+                                            address="Roma Norte, Mexico City, Mexico"),
     "where-to-stay-in-chiang-mai": dict(area="Old City", lat=18.787, lng=98.9869, zoom=15,
                                            address="Wat Chedi Luang, Phra Pokklao Road, Chiang Mai, Thailand"),
     "where-to-stay-in-cancun": dict(area="Hotel Zone", lat=21.1358, lng=-86.7469, zoom=14,
@@ -911,6 +913,19 @@ HOTELS = {
     "Night Bazaar Inn": _B + "th/night-bazaar-inn.html",
     "B2 Santitham Boutique & Budget Hotel": _B + "th/po-b2-santitham-boutique-budget-hotel.html",
     "Four Seasons Resort Chiang Mai": _B + "th/four-seasons-resort-chiang-mai.html",
+    # Mexico City (Booking.com pages confirmed by hotel name and city)
+    "Brick Hotel": _B + "mx/brick.html",
+    "INNSiDE Mexico Roma Norte": _B + "mx/innside-melia-mexico-roma-norte.html",
+    "Condesa df": _B + "mx/condesa-df.html",
+    "Andaz Mexico City Condesa": _B + "mx/andaz-mexico-city-condesa.html",
+    "Camino Real Polanco México": _B + "mx/camino-real-mexico.html",
+    "Hyatt Regency Mexico City": _B + "mx/hyatt-regency-mexico-city.html",
+    "Gran Hotel Ciudad de México": _B + "mx/gran-ciudad-de-mexico.html",
+    "Hotel Gillow": _B + "mx/gillow.html",
+    "Hotel Catedral": _B + "mx/catedral-ciudad-de-mexico.html",
+    "Hotel Geneve": _B + "mx/geneve-cd-de-mexico.html",
+    "Marquis Reforma Hotel & Spa": _B + "mx/marquis-reforma.html",
+    "NH Collection Mexico City Reforma": _B + "mx/nh-mexico-city.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
