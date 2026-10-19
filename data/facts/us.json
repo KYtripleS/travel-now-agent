@@ -1374,6 +1374,491 @@
         ]
       },
       "note": "Read from the hotel's own pages on 19 Oct 2026: hilton.com hotel page"
+    },
+    {
+      "id": "us.lv.room-tax",
+      "topic": "tax",
+      "claim": "The City of Las Vegas states a combined transient lodging (room) tax of 13.38% for properties inside the Primary Gaming Corridor and 13% for properties outside it (schedule effective 1 March 2017, guide revised March 2026); the same totals apply to hotels of 75 or more rooms and to smaller ones.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://files.lasvegasnevada.gov/business-licensing/RoomTaxPacket.pdf",
+          "kind": "official",
+          "title": "City of Las Vegas Business License Division: Transient Lodging Establishment Room Tax Instructions & Guidelines (rev. March 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "Inside the Primary Gaming Corridor, the zone around the Strip",
+          "The City of Las Vegas's room tax guidance, revised March 2026, sets two combined rates"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.room-tax-stadium",
+      "topic": "tax",
+      "claim": "The stadium share of the room tax is 0.88% inside the Primary Gaming Corridor and 0.5% outside it; the other components (LVCVA 6.12%, Nevada Department of Taxation 0.38%, City 1%, Clark County transportation 1% and education 1%, State 3%, for hotels of 75 or more rooms) are the same in both, giving 13.38% versus 13%.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://files.lasvegasnevada.gov/business-licensing/RoomTaxPacket.pdf",
+          "kind": "official",
+          "title": "City of Las Vegas Business License Division: Transient Lodging Establishment Room Tax Instructions & Guidelines (rev. March 2026)"
+        },
+        {
+          "url": "https://www.clarkcountynv.gov/business/doing_business_with_clark_county/transient-lodging-tax-rate-increases",
+          "kind": "official",
+          "title": "Clark County: Transient Lodging Tax Rate Increases"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "The two rates differ by the stadium share: 0.88% inside the corridor and 0.5% outside"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.room-tax-separate",
+      "topic": "tax",
+      "claim": "The City's guide says a property close to the Strip may be in the Primary Gaming Corridor (13.38%) and that room tax should be collected from the guest and shown as a separate charge, not included in the room price.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://files.lasvegasnevada.gov/business-licensing/RoomTaxPacket.pdf",
+          "kind": "official",
+          "title": "City of Las Vegas Business License Division: Transient Lodging Establishment Room Tax Instructions & Guidelines (rev. March 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "The guide says a property close to the Strip may be inside the corridor",
+          "should be shown as a separate charge, not folded into the room price"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.ftc-fees-rule",
+      "topic": "tax",
+      "claim": "The FTC's Rule on Unfair or Deceptive Fees (16 CFR Part 464), effective 12 May 2025, covers short-term lodging including hotels; its FAQ uses a mandatory resort fee as an example that must be included in the total price, displayed more prominently than other pricing information, while taxes and other government charges may be excluded from the upfront total.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+          "kind": "official",
+          "title": "FTC: The Rule on Unfair or Deceptive Fees, Frequently Asked Questions"
+        },
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/05/ftc-rule-unfair-or-deceptive-fees-take-effect-may-12-2025",
+          "kind": "official",
+          "title": "FTC: Rule on Unfair or Deceptive Fees to take effect on May 12, 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "Since 12 May 2025 a federal rule has covered this",
+          "it must be included in the total price, and the total must be displayed more prominently than other pricing information",
+          "Taxes and other government charges are the exception and may be left out of the upfront total"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.fee-venetian",
+      "topic": "price",
+      "claim": "The Venetian's resort fee page states a daily Resort Fee of $55 plus tax per night, payable at check-in, including fitness access for two at Canyon Ranch, in-suite internet, boarding-pass printing, local and toll-free calls and PressReader.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.venetianlasvegas.com/resort/resort-fee.html",
+          "kind": "operator",
+          "title": "The Venetian Resort Las Vegas: Resort Fee"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "the hotel's fee page states $55 plus tax a night, payable at check-in"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.fee-wynn",
+      "topic": "price",
+      "claim": "Wynn Las Vegas states a daily resort fee of $55 plus tax, including self-parking for up to two vehicles, Wi-Fi, bottled water, calls and fitness access for up to two people; it says smoking is allowed on the casino floor, patios, pool areas and designated hotel floors.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.wynnlasvegas.com/about-us/resort-information",
+          "kind": "operator",
+          "title": "Wynn Las Vegas: Resort Policies & Information"
+        },
+        {
+          "url": "https://www.wynnlasvegas.com/rooms-and-suites",
+          "kind": "operator",
+          "title": "Wynn Las Vegas: Rooms & Suites FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "the $55 daily fee plus tax; the hotel says smoking is allowed on the casino floor and on designated hotel floors"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.fee-sahara",
+      "topic": "price",
+      "claim": "SAHARA Las Vegas states a $54.95 daily resort fee plus 13.38% Clark County tax, including free valet and self-parking, in-room Wi-Fi, fitness and in-season pool access, two bottles of water and local and toll-free calls; it has an official monorail station; check-in is 4:00 p.m.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.saharalasvegas.com/frequently-asked-questions",
+          "kind": "operator",
+          "title": "SAHARA Las Vegas: Frequently Asked Questions"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "the fee is $54.95 plus 13.38% tax",
+          "with free valet and self-parking, and check-in at 4 p.m."
+        ]
+      }
+    },
+    {
+      "id": "us.lv.fee-plaza",
+      "topic": "price",
+      "claim": "Plaza Hotel & Casino states a mandatory resort fee of $39.00 per room per day, taxable by 13%, including covered parking, early check-in subject to availability, baggage storage, local/800 calls, fitness centre, bottled water and boarding-pass printing; average room size is 325 sq ft; it is at 1 Main Street at the beginning of the Fremont Street Experience.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.plazahotelcasino.com/hotel/",
+          "kind": "operator",
+          "title": "Plaza Hotel & Casino: Hotel"
+        },
+        {
+          "url": "https://www.plazahotelcasino.com/faq/",
+          "kind": "operator",
+          "title": "Plaza Hotel & Casino: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "a $39 fee that includes covered parking",
+          "with rooms averaging 325 sq ft",
+          "$39 a room, taxable at 13%"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.fee-alexis",
+      "topic": "price",
+      "claim": "Alexis Park All Suite Resort's FAQ states a mandatory resort fee of $37.42 per night and a lodging tax of 13.38%; it describes itself as the largest off-Strip, non-gaming resort in Las Vegas, runs no shuttle to the airport or Strip, and offers complimentary parking.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.alexispark.com/faq",
+          "kind": "operator",
+          "title": "Alexis Park Resort: FAQ"
+        },
+        {
+          "url": "https://www.alexispark.com/",
+          "kind": "operator",
+          "title": "Alexis Park Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "the fee is $37.42 a night plus 13.38% tax",
+          "describes itself as the largest off-Strip, non-gaming resort in Las Vegas"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.worked-example",
+      "topic": "price",
+      "claim": "Our arithmetic: a $150 room with a $55 daily fee and 13.38% tax on both costs $232.43 a night ($82.43, or 55%, above the room rate; $697.29 for three nights); on the Plaza's terms ($39 fee, 13% tax) it is $213.57. This assumes the tax applies to room and fee, as the Plaza states for its fee.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://files.lasvegasnevada.gov/business-licensing/RoomTaxPacket.pdf",
+          "kind": "official",
+          "title": "City of Las Vegas Business License Division: Transient Lodging Establishment Room Tax Instructions & Guidelines (rev. March 2026)"
+        },
+        {
+          "url": "https://www.plazahotelcasino.com/hotel/",
+          "kind": "operator",
+          "title": "Plaza Hotel & Casino: Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "The room and fee come to $205; tax is $27.43; the total is $232.43 a night",
+          "a $150 room, $39 fee and 13% tax comes to $213.57 a night"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.airport-taxi",
+      "topic": "fare",
+      "claim": "Harry Reid International Airport says taxis are regulated by the Nevada Taxicab Authority and run flat-rate zone fares to the Strip; the Authority lists $22.25 (Zone 1, Sunset north to Tropicana), $26.25 (Zone 2, Tropicana north to Flamingo) and $30.25 (Zone 3, Flamingo north to Stratosphere), a $3 credit/debit card fee, and a 3% excise tax added to all rates and fees (page footer: last updated 04 Sep 2026).",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.harryreidairport.com/taxi-and-ride-share/taxis",
+          "kind": "official",
+          "title": "Harry Reid International Airport: Taxis"
+        },
+        {
+          "url": "https://www.taxi.nv.gov/passenger-info/approximate-fare-information/",
+          "kind": "official",
+          "title": "Nevada Taxicab Authority: Approximate Fare Information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "fares are regulated by the Nevada Taxicab Authority",
+          "$22.25 for Zone 1, Sunset north to Tropicana",
+          "$30.25 for Zone 3, Flamingo north to the Stratosphere"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.airport-rideshare",
+      "topic": "transport",
+      "claim": "Rideshare pickup at Harry Reid is on Level 2 of the parking garage at Terminal 1 and the Valet Level of the garage at Terminal 3; the airport warns of lane closures in the connector tunnels through December 2026.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.harryreidairport.com/taxi-and-ride-share/ride-share",
+          "kind": "official",
+          "title": "Harry Reid International Airport: Ride Share"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "pickup is in the parking garage: Level 2 at T1 and the Valet Level at T3",
+          "lane closures in the connector tunnels through December 2026"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.airport-bus",
+      "topic": "transport",
+      "claim": "The airport's public bus page lists Route 108 (Paradise) and the Red Line (formerly Route 109, Maryland Parkway) at Terminal 1, Level Zero.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.harryreidairport.com/busses-shuttles/public-bus",
+          "kind": "official",
+          "title": "Harry Reid International Airport: Public Bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "Route 108 and the Red Line, formerly Route 109, stop at T1"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.rtc-fares",
+      "topic": "fare",
+      "claim": "RTC's mobile fare page lists the Strip/Downtown services (SDX and Deuce) at $6 for 2 hours, $8 for 24 hours and $20 for 3 days, and residential routes at $2 a single ride, $3 for 2 hours and $5 for 24 hours.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://rtcws.rtcsnv.com/mobile/geoFares.html",
+          "kind": "operator",
+          "title": "RTC of Southern Nevada: Transit Mobile, Fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "the Deuce and SDX buses cost $6 for two hours, $8 for 24 hours and $20 for three days",
+          "local, residential routes at $2 a ride or $3 for two hours"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.monorail",
+      "topic": "fare",
+      "claim": "The Las Vegas Monorail lists a single ride at $6.25 full fare and $5.75 as an eTicket, and a 1-day pass at $15.50 full fare and $13.95 as an eTicket; seven stations run from MGM Grand to SAHARA.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.lvmonorail.com/ticket-information/",
+          "kind": "operator",
+          "title": "Las Vegas Monorail: Ticket Information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "A single ride is $5.75 as an eTicket, or $6.25 full fare",
+          "a one-day pass is $13.95 as an eTicket, or $15.50"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-bellagio",
+      "topic": "hotel",
+      "claim": "Bellagio lists Fountain View King and other rooms of 510 sq ft, overlooks a lake with fountains, hosts \"O\" by Cirque du Soleil, and states rooms are non-smoking except certain accommodations on the 19th floor of the Bellagio Tower, with designated smoking areas in the casino.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://bellagio.mgmresorts.com/en.html",
+          "kind": "operator",
+          "title": "Bellagio"
+        },
+        {
+          "url": "https://bellagio.mgmresorts.com/en/hotel.html",
+          "kind": "operator",
+          "title": "Bellagio: Rooms & Suites"
+        },
+        {
+          "url": "https://bellagio.mgmresorts.com/en/faq.html",
+          "kind": "operator",
+          "title": "Bellagio: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "rooms of 510 sq ft in categories such as the Fountain View King",
+          "non-smoking except certain accommodations on the 19th floor of the Bellagio Tower"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-venetian",
+      "topic": "hotel",
+      "claim": "The Venetian's suite page lists a Luxury King Suite of 650 sq ft with a living room, and the Palazzo's Luxury King Suite at 720 sq ft.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.venetianlasvegas.com/hotel/suites.html",
+          "kind": "operator",
+          "title": "The Venetian Resort Las Vegas: Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "the Luxury King Suite is 650 sq ft with a living room",
+          "the Palazzo's Luxury King Suite is 720 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-cosmopolitan",
+      "topic": "hotel",
+      "claim": "The Cosmopolitan lists a City Room Queen of 460 sq ft and Terrace Studio rooms of 730 sq ft with private terraces.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://cosmopolitanlasvegas.mgmresorts.com/en/hotel.html",
+          "kind": "operator",
+          "title": "The Cosmopolitan of Las Vegas: Rooms & Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "a 460 sq ft City Room Queen to Terrace Studios of 730 sq ft with private terraces"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-w",
+      "topic": "hotel",
+      "claim": "W Las Vegas lists all-suite accommodation with 725 sq ft Premier King and Premier Two Queen Suites, access to the BATHHOUSE Spa, WET Deck and Mandalay Bay venues, and states its suites do not include pullout couch beds.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://wlasvegas.mgmresorts.com/en/hotel.html",
+          "kind": "operator",
+          "title": "W Las Vegas: Hotel Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "with 725 sq ft Premier King and Two Queen Suites",
+          "the hotel says its suites do not include pullout couch beds"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-luxor",
+      "topic": "hotel",
+      "claim": "Luxor lists Pyramid rooms of 420 sq ft with slanted windows and Tower rooms such as the Tower Premier King at 449 sq ft.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://luxor.mgmresorts.com/en/hotel.html",
+          "kind": "operator",
+          "title": "Luxor: Hotel Rooms & Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "Pyramid rooms of 420 sq ft with slanted windows",
+          "the 449 sq ft Tower Premier King"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-circus",
+      "topic": "hotel",
+      "claim": "Circus Circus's pages list Hotel, West Tower and Suite rooms, the Adventuredome's indoor rides under the pink dome, \"Free Parking Always\" and a \"No Resort Fee Room Special\", with no standard resort fee amount stated.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.circuscircus.com/",
+          "kind": "operator",
+          "title": "Circus Circus Hotel & Casino"
+        },
+        {
+          "url": "https://www.circuscircus.com/stay/",
+          "kind": "operator",
+          "title": "Circus Circus: Stay"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "the Adventuredome's indoor rides under the pink dome",
+          "state no standard fee"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-circa",
+      "topic": "hotel",
+      "claim": "Circa's guest guide states it is a 21+ property including hotel guests, at 8 Fremont Street, with two complimentary Stadium Swim passes per room per night, self-parking at $25.00 a day and valet at $20.00 a day.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.circalasvegas.com/welcome-to-circa/",
+          "kind": "operator",
+          "title": "Circa Resort & Casino: Guest Guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "Circa is 21+, hotel guests included, and self-parking is $25 a day",
+          "each room gets two complimentary passes a night"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-redrock",
+      "topic": "hotel",
+      "claim": "Red Rock Casino Resort Spa (11011 W Charleston) lists a 515 sq ft Luxury King with a choice of Strip or Red Rock Canyon views; its booking offer states guests must be 21 or older.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://redrockresort.com/stay/rooms/luxury-king/",
+          "kind": "operator",
+          "title": "Red Rock Resort: Luxury King"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas.html": [
+          "515 sq ft Luxury King rooms with a choice of Strip or Red Rock Canyon views",
+          "its booking page requires guests to be 21 or older"
+        ]
+      }
     }
   ]
 }

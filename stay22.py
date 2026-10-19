@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-las-vegas": dict(area="Center Strip", lat=36.1126, lng=-115.1767, zoom=14,
+                                          address="Bellagio, 3600 Las Vegas Blvd S, Las Vegas, NV, USA"),
     "where-to-stay-in-milan": dict(area="Duomo", lat=45.4642, lng=9.19, zoom=15,
                                       address="Piazza del Duomo, Milan, Italy"),
     "where-to-stay-in-seville": dict(area="Santa Cruz", lat=37.3862, lng=-5.9899, zoom=15,
@@ -806,6 +808,19 @@ HOTELS = {
     "Starhotels Anderson": _B + "it/andersonhotel.html",
     "Ostello Bello Grande Milan Central Station": _B + "it/ostello-bello-grande.html",
     "Hotel Manin": _B + "it/gthotelmanin.html",
+    # Las Vegas (Booking.com pages confirmed by hotel name and city)
+    "Bellagio": _B + "us/bellagio.html",
+    "The Venetian Resort Las Vegas": _B + "us/the-venetian-resort-casino.html",
+    "The Cosmopolitan of Las Vegas": _B + "us/the-cosmopolitan-of-las-vegas-las-vegas2.html",
+    "W Las Vegas": _B + "us/thehotel-at-mandalay-bay.html",
+    "Luxor": _B + "us/luxor.html",
+    "Wynn Las Vegas": _B + "us/wynn-las-vegas-boulevard.html",
+    "SAHARA Las Vegas": _B + "us/sahara-lasvegas-hotel-casino.html",
+    "Circus Circus Hotel & Casino": _B + "us/circus-circus.html",
+    "Plaza Hotel & Casino": _B + "us/plaza-amp-casino.html",
+    "Circa Resort & Casino": _B + "us/circa-resort-amp-casino.html",
+    "Alexis Park All Suite Resort": _B + "us/alexis-park-resort-las-vegas.html",
+    "Red Rock Casino Resort Spa": _B + "us/red-rock-casino-resort-amp-spa.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
