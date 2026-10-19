@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-phuket": dict(area="Kata Beach", lat=7.8205, lng=98.2975, zoom=15,
+                                       address="Kata Beach, Karon, Phuket, Thailand"),
     "where-to-stay-in-porto": dict(area="Ribeira", lat=41.1405, lng=-8.613, zoom=15,
                                       address="Praça da Ribeira, Porto, Portugal"),
     "where-to-stay-in-san-francisco": dict(area="Union Square", lat=37.788, lng=-122.4075, zoom=15,
@@ -851,6 +853,19 @@ HOTELS = {
     "Porto Palácio Hotel by The Editory": _B + "pt/porto-palacio.html",
     "Vila Foz Hotel & Spa": _B + "pt/vila-foz-amp-spa.html",
     "Duas Portas": _B + "pt/duas-portas.html",
+    # Phuket (Booking.com pages confirmed by hotel name and city)
+    "Kata Rocks": _B + "th/kata-rocks.html",
+    "Katathani Phuket Beach Resort": _B + "th/katathani-phuket-beach-resort.html",
+    "Amari Phuket": _B + "th/amari-coral-beach-resort-spa.html",
+    "Lub d Phuket Patong": _B + "th/lub-d-phuket-patong.html",
+    "Cape Sienna Phuket Gourmet Hotel & Villas": _B + "th/cape-sienna-villas.html",
+    "Keemala": _B + "th/keemala.html",
+    "Banyan Tree Phuket": _B + "th/banyan-tree-phuket.html",
+    "Cassia Phuket": _B + "th/cassia-phuket.html",
+    "The Memory at On On Hotel": _B + "th/the-memory-at-on-on.html",
+    "Sino House Phuket": _B + "th/sino-house-phuket.html",
+    "The Nai Harn": _B + "th/the-nai-harn.html",
+    "Sunsuri Phuket": _B + "th/sunsuri-phuket.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

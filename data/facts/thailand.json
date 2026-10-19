@@ -1,0 +1,534 @@
+{
+  "place": "Thailand",
+  "facts": [
+    {
+      "id": "th.vat-rate",
+      "topic": "tax",
+      "claim": "Thailand's cabinet approved on 27 July 2026 extending the reduced 7% VAT rate (local tax included) for a year, from 1 October 2026 to 30 September 2027; the Revenue Department's VAT guide gives the general rate as 7%.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.rd.go.th/fileadmin/user_upload/news/2569thai/news18_2569.pdf",
+          "kind": "official",
+          "title": "Revenue Department press release 18/2569, 27 July 2026 (Thai)"
+        },
+        {
+          "url": "https://www.rd.go.th/english/6043.html",
+          "kind": "official",
+          "title": "Revenue Department: Value Added Tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "extending the 7% VAT rate",
+          "30 September 2027"
+        ]
+      },
+      "note": "KPMG reports the decree itself as Royal Decree No. 807, issued 20 August 2026; the Royal Gazette text was not opened."
+    },
+    {
+      "id": "th.vat-base-service-charge",
+      "topic": "tax",
+      "claim": "The Revenue Department defines the VAT tax base as the total value received or receivable from the supply of goods or services, including service fees, so VAT is charged on the room rate plus a service charge.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.rd.go.th/english/6043.html",
+          "kind": "official",
+          "title": "Revenue Department: Value Added Tax, section 3.1 Tax Base"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "the total value received for a service, fees included"
+        ]
+      }
+    },
+    {
+      "id": "th.hotel-bill-plusplus",
+      "topic": "tax",
+      "claim": "A Thai hotel price quoted with '++' adds a service charge (usually 10%, set by the hotel) and then 7% VAT on the room rate plus the service charge, about 17.7% in all; a room quoted at 3,000++ costs 3,531 baht a night, 10,593 for three nights. This is our arithmetic.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.rd.go.th/english/6043.html",
+          "kind": "official",
+          "title": "Revenue Department: Value Added Tax (7% rate; tax base includes service fees)"
+        },
+        {
+          "url": "https://www.amari.com/phuket",
+          "kind": "official",
+          "title": "Amari Phuket (quotes rooms as THB 4,160+++)"
+        },
+        {
+          "url": "https://www.thefinestthai.com/2026/05/31/thailand-plus-plus-pricing-vat-service-charge-guide/",
+          "kind": "secondary",
+          "title": "The Finest Thai: plus-plus pricing"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "about 17.7% in all",
+          "3,531",
+          "10,593 baht"
+        ]
+      },
+      "note": "The 10% service charge is the hotel's own and not fixed by law; only a secondary source (and bangkok.json th.plus-plus) gives the usual 10%. Consider upgrading th.plus-plus with the Revenue Department source."
+    },
+    {
+      "id": "th.entry-fee-status",
+      "topic": "entry",
+      "claim": "Thailand's tourist entry fee is not in force: an earlier plan for 300 baht on air arrivals and 150 baht by land and sea was replaced by a proposal for a flat 450 baht a person for foreign visitors; air arrivals would pay from 180 days after Royal Gazette publication and land and sea about 360 days after that; as of 17 August 2026 the Ministry of Tourism and Sports was preparing a public hearing. No Gazette announcement was found by 19 October 2026.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/532128",
+          "kind": "official",
+          "title": "Royal Thai Government PR Department: Thailand proposes new THB450 tourism fee, 17 August 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "a flat 450 baht a person",
+          "180 days after the announcement appears in the Royal Gazette",
+          "about 360 days after that"
+        ]
+      },
+      "watch": "entry fee|tourist fee|450 baht",
+      "note": "Check mots.go.th / Royal Gazette before publishing; press reports say consultation ran to 28 September and early 2027 for air arrivals, but only the PRD notice was read as an official source."
+    },
+    {
+      "id": "th.aot-departure-charge",
+      "topic": "tax",
+      "claim": "Airports of Thailand's international passenger service charge for departing passengers rose from 730 to 1,120 baht on 20 June 2026 and is included in the airfare; it applies at Phuket among six airports.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.tatnews.org/2026/05/airports-of-thailand-to-raise-international-passenger-service-charge-from-20-june-2026/",
+          "kind": "official",
+          "title": "TAT Newsroom: AOT to raise international passenger service charge from 20 June 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "1,120 baht since 20 June 2026"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.smart-bus.fare",
+      "topic": "fare",
+      "claim": "The Phuket Smart Bus airport line costs a flat 100 baht (Airport, Patong, Rawai), payable by contactless Visa, Mastercard or JCB, QR/PromptPay or cash; children under 6 ride free with a paying adult; there is no separate tourist fare.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.phuketsmartbus.com/payment",
+          "kind": "operator",
+          "title": "Phuket Smart Bus: payment and fares"
+        },
+        {
+          "url": "https://phuket.airportthai.co.th/service/transportation/detail/1175",
+          "kind": "official",
+          "title": "Airports of Thailand, Phuket: Smart Bus (100 baht)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "costs a flat 100 baht",
+          "children under six ride free with a paying adult"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.smart-bus.stops",
+      "topic": "transport",
+      "claim": "Airports of Thailand lists the Smart Bus route as Airport, Bann Khian, Cherngtalay, Surin Beach, Kamala, Patong, Karon, Kata and Rawai; its airport stop is at Entrance 3, domestic terminal, floor 3, listed as closing at 11:30 pm.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://phuket.airportthai.co.th/service/transportation/detail/1175",
+          "kind": "official",
+          "title": "Airports of Thailand, Phuket: Smart Bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "Bann Khian, Cherngtalay, Surin Beach, Kamala, Patong, Karon, Kata and Rawai",
+          "listed as open until 11:30 pm"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.smart-bus.other-lines",
+      "topic": "fare",
+      "claim": "The Smart Bus Bus Terminal 2 to Patong line is a flat 50 baht, and the free Dragon Line city shuttle connects Central Festival, the Old Town and the OTOP Market.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.phuketsmartbus.com/timetable",
+          "kind": "operator",
+          "title": "Phuket Smart Bus: timetable and routes"
+        },
+        {
+          "url": "https://www.phuketsmartbus.com/payment",
+          "kind": "operator",
+          "title": "Phuket Smart Bus: payment and fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "a flat 50 baht",
+          "a free Dragon Line shuttle circles Central Festival, the Old Town and the OTOP Market"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.airport-bus-8411",
+      "topic": "transport",
+      "claim": "Airports of Thailand lists the orange Airport Bus route 8411 to Phuket Town: board in the public transport parking area (Exit 3, turn left), fares are calculated on the distance, tickets are sold on the bus or online (QR or cash), operating 8:00 am to 9:00 pm every day.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://phuket.airportthai.co.th/service/transportation/detail/1176",
+          "kind": "official",
+          "title": "Airports of Thailand, Phuket: Airport Bus 8411"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "orange 8411 airport bus",
+          "take Exit 3 and turn left",
+          "calculated on the distance",
+          "from 8:00 am to 9:00 pm"
+        ]
+      },
+      "note": "airportbusphuket.com (the operator's site) was serving unrelated gambling content when checked, so it is not cited; no fixed 8411 fare is published by AOT."
+    },
+    {
+      "id": "th.phuket.airport-limousine",
+      "topic": "transport",
+      "claim": "Airports of Thailand lists the Phuket Airport Limousine with counters at Entrance 1 in arrivals; the page gives no fares.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://phuket.airportthai.co.th/service/transportation/detail/164",
+          "kind": "official",
+          "title": "Airports of Thailand, Phuket: Phuket Airport Limousine"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "Entrance 1 in arrivals"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.tmd-waves",
+      "topic": "place",
+      "claim": "The Thai Meteorological Department's advisory of 17 May 2026 forecast waves of about 2-3 metres in the upper Andaman Sea, above 3 metres in thundershowers, and told small boats in the upper Andaman Sea to stay ashore.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.tmd.go.th/en/warning-and-events/warning-storm/heavy-to-very-heavy-rains-in-thailand-strong-wind-waves-in-the-upper-andaman-sea-no-10-70-2026",
+          "kind": "official",
+          "title": "TMD weather advisory no. 10 (70/2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "waves of 2 to 3 metres in the upper Andaman Sea"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.wet-season-length",
+      "topic": "place",
+      "claim": "The Tourism Authority of Thailand says Thailand's weather has six months of rain in the wet season, three months of dry cooling breezes and three months of heat.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.tourismthailand.org/Plan-Your-Trip/Weather",
+          "kind": "official",
+          "title": "TAT: Thailand climate & weather"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "The wet season lasts about six months of the year"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.laguna-hotels",
+      "topic": "place",
+      "claim": "Laguna Phuket's own site lists Angsana Laguna Phuket, Banyan Tree Phuket, Cassia Phuket, Dusit Thani Laguna Phuket, Homm Suites Laguna and SAii Laguna Phuket among its hotels.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.lagunaphuket.com/",
+          "kind": "official",
+          "title": "Laguna Phuket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "Angsana, Banyan Tree, Cassia, Dusit Thani and SAii"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.kata-rocks",
+      "topic": "hotel",
+      "claim": "Kata Rocks has 34 villas with 90 rooms, all with private pools and sea views; the one-bedroom Sky Pool Villa is 175 sq m with a seven-metre infinity pool, west-facing, overlooking Kata Beach and the Andaman Sea.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.katarocks.com/pdf/kata-rocks-factsheet.pdf",
+          "kind": "official",
+          "title": "Kata Rocks factsheet"
+        },
+        {
+          "url": "https://www.katarocks.com/luxury/1-bedroom-sky-villa/",
+          "kind": "official",
+          "title": "Kata Rocks: One-bedroom Sky Pool Villa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "All 34 villas have a private pool and sea views",
+          "175 sq m with a seven-metre infinity pool"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.katathani",
+      "topic": "hotel",
+      "claim": "Katathani Phuket Beach Resort sits on an 850-metre stretch of sand on Kata Noi Beach, has Thani, Bhuri and Vhari wings (Vhari with a new water park) and says it is less than an hour from Phuket International Airport.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.katathani.com/",
+          "kind": "official",
+          "title": "Katathani Phuket Beach Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "an 850-metre stretch of sand",
+          "Thani, Bhuri and Vhari",
+          "less than an hour from Phuket International Airport"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.amari",
+      "topic": "hotel",
+      "claim": "Amari Phuket is at 2 Meun Ngern Road, Patong Beach, with 380 rooms; its site puts Bangla Road's nightlife close by and Jungceylon nearby, and quotes a stay-longer rate as THB 4,160+++ per room per night.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.amari.com/phuket",
+          "kind": "official",
+          "title": "Amari Phuket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "380 rooms and suites",
+          "Meun Ngern Road",
+          "“THB 4,160+++”"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.lub-d",
+      "topic": "hotel",
+      "claim": "Lub d Phuket Patong, at 5/5 Sawatdirak Road, lists Patong Beach 150 m, Bangla Walking Street 500 m and Phuket Old Town 15 km away, has ladies' dorms, a co-working space and a restaurant and bar, and lists a Patong Night Run on 7 November.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://lubd.com/destination/phuket-patong/",
+          "kind": "official",
+          "title": "Lub d Phuket Patong"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "Patong Beach 150 metres away",
+          "Phuket Old Town 15 kilometres away",
+          "a night run in November"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.cape-sienna",
+      "topic": "hotel",
+      "claim": "Cape Sienna Phuket Gourmet Hotel & Villas has 58 Studio rooms, 40 Deluxe, 22 Jacuzzi junior suites, 22 Honeymoon suites, 2 Grand suites and 2 Executive pool penthouses (146), a 40 sq m Sea View Studio, and describes itself as on a west-coast headland on Kamala Beach; its offers page lists non-refundable rates.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.capesienna.com/rooms/",
+          "kind": "official",
+          "title": "Cape Sienna: rooms"
+        },
+        {
+          "url": "https://www.capesienna.com/offers/",
+          "kind": "official",
+          "title": "Cape Sienna: offers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "146 rooms and suites",
+          "the Sea View Studio is 40 sq m",
+          "non-refundable rates"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.keemala",
+      "topic": "hotel",
+      "claim": "Keemala has 38 pool villas (16 Clay Pool Cottages, 7 Tent Pool Villas, 7 Tree Pool Houses, 8 Bird's Nest Pool Villas), no private beach, and a complimentary shuttle to Kamala Beach from 11:00 am to 4:00 pm.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.keemala.com/faq/",
+          "kind": "official",
+          "title": "Keemala: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "38 pool villas",
+          "from 11:00 am to 4:00 pm"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.banyan-tree",
+      "topic": "hotel",
+      "claim": "Banyan Tree Phuket has 217 villas, each with its own pool, around a lagoon on an 89-acre estate in Cherngtalay; the hotel gives the airport distance as about 16 km, 25 to 30 minutes, and mentions a dedicated beach exit to Bang Tao Beach and RAVA Beach Club.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.banyantree.com/thailand/phuket",
+          "kind": "official",
+          "title": "Banyan Tree Phuket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "All 217 villas have their own pool",
+          "about 16 kilometres and 25 to 30 minutes from the airport"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.cassia",
+      "topic": "hotel",
+      "claim": "Cassia Phuket's one-bedroom suites and lofts are 40-52 sq m with a balcony, full kitchen and separate living area, and a shuttle boat crosses the lagoon to its private area of Bang Tao Beach; it calls itself the first and only pet-friendly hotel in Phuket.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.cassia.com/thailand/cassia-phuket",
+          "kind": "official",
+          "title": "Cassia Phuket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "40 to 52 sq m",
+          "a shuttle boat across the lagoon"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.memory-at-on-on",
+      "topic": "hotel",
+      "claim": "The Memory at On On Hotel, 19 Phang-Nga Road, is a Sino-Portuguese building opened in 1927 as the first hotel in Phuket Town; rooms run from Superior to the Memory Suite with free Wi-Fi and a complimentary minibar; its site lists no room sizes.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.thememoryhotel.com/en/about",
+          "kind": "official",
+          "title": "The Memory at On On Hotel: about"
+        },
+        {
+          "url": "https://www.thememoryhotel.com/en/all-room",
+          "kind": "official",
+          "title": "The Memory at On On Hotel: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "opened in 1927 as the first hotel in Phuket Town",
+          "lists no room sizes"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.sino-house",
+      "topic": "hotel",
+      "claim": "Sino House Phuket, 1 Montree Road, has 57 rooms, free parking and a spa, is described as a few minutes' walk from Phuket Old Town, and its Superior Room is 31 sq m.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.sinohousephuket.com/en",
+          "kind": "official",
+          "title": "Sino House Phuket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "57 rooms",
+          "the Superior Room is 31 sq m"
+        ]
+      },
+      "note": "The site shows no dated content, so operating status rests on a live Booking.com listing with a Reserve button as well as the site."
+    },
+    {
+      "id": "th.phuket.hotel.nai-harn",
+      "topic": "hotel",
+      "claim": "The Nai Harn, 23/3 Moo 1 Vises Road, Rawai, lists a 47 sq m Deluxe Ocean View Room on floors 8-9 with daily breakfast included; its guest lift serves up to the 6th floor, with floors 7-9 a short scenic stroll; its site shows One MICHELIN Key in 2026.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.thenaiharn.com/accommodation/deluxe-ocean-view-room/",
+          "kind": "official",
+          "title": "The Nai Harn: Deluxe Ocean View Room"
+        },
+        {
+          "url": "https://www.thenaiharn.com/",
+          "kind": "official",
+          "title": "The Nai Harn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "the Deluxe Ocean View Room is 47 sq m",
+          "runs only to the sixth floor",
+          "MICHELIN Key in 2026"
+        ]
+      }
+    },
+    {
+      "id": "th.phuket.hotel.sunsuri",
+      "topic": "hotel",
+      "claim": "SUNSURI PHUKET, 11/5 Moo 1, Rawai, is 500 m from Nai Harn Beach and its site warns of an independent external construction project nearby expected to continue through the remainder of 2027.",
+      "checked": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.sunsuri-phuket.com/",
+          "kind": "official",
+          "title": "Sunsuri Phuket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-phuket.html": [
+          "500 metres from Nai Harn Beach",
+          "through 2027"
+        ]
+      }
+    }
+  ]
+}

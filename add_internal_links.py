@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-phuket.html": (
+        "Where to Stay in Phuket",
+        "Six areas, 12 hotels, and how the 10% service charge and 7% VAT build a Phuket hotel bill.",
+    ),
     "articles/where-to-stay-in-porto.html": (
         "Where to Stay in Porto",
         "Six areas, 12 hotels, Porto's €3-a-night tourist tax and Gaia's separate €3 city tax across the river.",
@@ -2017,6 +2021,12 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-phuket.html": [
+        "articles/phuket-first-timers-guide.html",
+        "articles/things-to-do-in-phuket.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-thailand-2026.html",
     ],
     "articles/where-to-stay-in-porto.html": [
         "articles/where-to-stay-in-madrid.html",

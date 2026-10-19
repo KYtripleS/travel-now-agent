@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-phuket": dict(
+        text="For a first trip, stay in Kata: a bay beach on the Smart Bus line, with Karon beside it. Choose Patong for nightlife, Kamala or Bang Tao for resorts, the Old Town for streets and food. Prices marked ++ add 17.7%: a 10% service charge, then 7% VAT.",
+        link_text="Kata",
+        cta=_stay_cta("where-to-stay-in-phuket", "See hotels around Kata Beach")),
     "where-to-stay-in-porto": dict(
         text="For a first trip, stay in Ribeira and the Historic Centre: the river quay, São Bento station and the Dom Luís I bridge are on foot. Choose Baixa for shops, Cedofeita for galleries, Gaia for the Port lodges and Foz for the sea. Porto's tax is €3 a person a night, up to seven nights.",
         link_text="Ribeira and the Historic Centre",
@@ -1275,6 +1279,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-phuket": ["Kata Rocks", "Katathani Phuket Beach Resort", "Lub d Phuket Patong"],
     "where-to-stay-in-porto": ["Pestana Vintage Porto", "Grande Hotel do Porto", "Infante Sagres"],
     "where-to-stay-in-san-francisco": ["Fairmont San Francisco", "The Clift Royal Sonesta San Francisco", "Hotel Zeppelin"],
     "where-to-stay-in-las-vegas": ["Bellagio", "The Cosmopolitan of Las Vegas", "SAHARA Las Vegas"],
@@ -1386,6 +1391,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Phuket", "where-to-stay-in-phuket", None, None),
         ("Porto", "where-to-stay-in-porto", None, None),
         ("San Francisco", "where-to-stay-in-san-francisco", None, None),
         ("Las Vegas", "where-to-stay-in-las-vegas", None, None),
