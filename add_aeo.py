@@ -1273,6 +1273,64 @@ def add_stay_links(soup: BeautifulSoup, slug: str, article: Tag) -> tuple[int, l
     return placed, unknown
 
 
+# City pages (first-timers guides, things to do, itineraries, getting around) get
+# the same Stay22 hotel map as their city's stay guide. The first booking
+# (Florence, 20 Oct 2026) came from a stay guide's map, not from a named hotel:
+# readers browse the map and pick their own, so the map earns where hotels
+# are on the reader's mind, not only on the stay guide itself.
+CITY_MAP_PATTERNS = (r"^(.+)-first-timers-guide$", r"^things-to-do-in-(.+)$", r"^getting-around-(.+)$",
+                     r"^(.+)-airport-to-city$", r"^(.+)-itinerary-\d+-days$", r"^(.+)-\d+-day-itinerary$",
+                     r"^day-trips-from-(.+)$", r"^first-day-in-(.+)-arrival-plan$")
+CITY_MAP_ALIASES = {"hoi-an": "da-nang"}
+
+
+def city_map_guide(slug: str) -> str | None:
+    """The stay guide whose map a city page borrows, or None."""
+    for pat in CITY_MAP_PATTERNS:
+        m = re.match(pat, slug)
+        if m:
+            guide = f"where-to-stay-in-{CITY_MAP_ALIASES.get(m.group(1), m.group(1))}"
+            return guide if guide in stay22.PAGES and guide != slug else None
+    return None
+
+
+def add_city_map(soup: BeautifulSoup, slug: str, article: Tag, guide: str) -> bool:
+    """The hotel map, with a line pointing to the city's stay guide, placed where
+    the page talks about where to stay; failing that, at the end of its first
+    section. Nothing is added to a page with no h2."""
+    page = stay22.PAGES[guide]
+    city = guide.removeprefix("where-to-stay-in-").replace("-", " ").title()
+    heads = article.find_all("h2")
+    if not heads:
+        return False
+    stay_h = next((h for h in heads if re.search(r"\b(stay|sleep|hotel|base)\b", h.get_text(" ", strip=True), re.I)), None)
+    box = soup.new_tag("aside", attrs={"class": "gy-widget gy-stay-map gy-city-map", "data-aeo": "1"})
+    h = soup.new_tag("h4", attrs={"class": "gy-widget-h"})
+    h.string = f"Hotels around {page['area']}, with prices"
+    b = soup.new_tag("p", attrs={"class": "gy-widget-blurb"})
+    b.append(f"The map shows the hotels and apartments around {page['area']} that booking sites such as "
+             f"Booking.com and Expedia list, with nightly prices. Our guide to ")
+    a = soup.new_tag("a", attrs={"href": f"{guide}.html"})
+    a.string = f"where to stay in {city}"
+    b.append(a)
+    b.append(" compares the areas and the hotels we checked. The map comes from our partner Stay22, "
+             "which pays us a commission if you book through it.")
+    frame = soup.new_tag("div", attrs={"class": "gy-widget-frame"})
+    frame.append(soup.new_tag("iframe", attrs={
+        "loading": "lazy",
+        "src": stay22.map_src(page["address"], page["zoom"], f"{slug}_map"),
+        "title": f"Map of hotels around {page['area']} with prices, from Stay22"}))
+    box.extend([h, b, frame])
+    if stay_h is not None:
+        nxt = stay_h.find_next_sibling()
+        (nxt if nxt is not None and nxt.name == "p" else stay_h).insert_after(box)
+    elif len(heads) > 1:
+        heads[1].insert_before(box)
+    else:
+        article.append(box)
+    return True
+
+
 def move_map_up(article: Tag) -> None:
     """Put the hotel map straight under the verdict (and its contents list).
 
@@ -1963,6 +2021,8 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
         out["links"] = link_brands(soup, slug)
     if article is not None and slug in stay22.PAGES:
         out["rates"], out["unknown_hotels"] = add_stay_links(soup, slug, article)
+    elif article is not None and city_map_guide(slug):
+        out["city_map"] = add_city_map(soup, slug, article, city_map_guide(slug))
     if article is not None:
         out["toc"] = add_toc(soup, article)
         add_promise(soup, article)
