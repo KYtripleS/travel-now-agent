@@ -2579,6 +2579,9 @@
       "used_in": {
         "articles/where-to-stay-in-okinawa.html": [
           "Japan's standard consumption tax rate is 10%"
+        ],
+        "articles/where-to-stay-in-kanazawa.html": [
+          "Japan's standard consumption tax rate is 10%"
         ]
       },
       "note": "EDITOR: 'hotel rates are normally quoted with it included' is general practice, taken from the brief, not a sentence on the NTA page; the prefecture's base definition (payment minus consumption tax) and the hotels' own 'tax-exclusive' notices are consistent with it."
@@ -3083,6 +3086,449 @@
           "By its own account the hotel nearest the aquarium",
           "The Standard Twin is 28.5 square metres and sleeps up to four",
           "the garden pool is open from 1 April to 31 October only"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.accommodation-tax",
+      "topic": "tax",
+      "claim": "Kanazawa City's accommodation tax is ¥200 per person per night for a room charge of ¥5,000 to under ¥20,000 and ¥500 from ¥20,000, measured before consumption tax; stays under ¥5,000 per person per night are exempt (exemption in force since 1 October 2024; tax introduced April 2019). The ordinance and city page show no later change as of 2026-10-20.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminzeika/gyomuannai/1/4/28700.html",
+          "kind": "official",
+          "title": "Kanazawa City: the accommodation tax"
+        },
+        {
+          "url": "https://www.city.kanazawa.ishikawa.jp/reiki/reiki_honbun/a400RG00001719.html",
+          "kind": "official",
+          "title": "Kanazawa City: the accommodation tax ordinance"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "Since 1 October 2024 stays under ¥5,000 per person per night are exempt",
+          "¥5,000 to under ¥20,000",
+          "the city's tax page and ordinance show no later change"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.accommodation-tax.base",
+      "topic": "tax",
+      "claim": "The taxable room charge is the room-only price with service charge, excluding meals, consumption tax and the bathing tax; the tax applies to all guests regardless of age and to hotels, ryokan, simple lodgings and registered home-share (minpaku) rentals; it is paid to the property with the room charge, which remits it to the city.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminzeika/gyomuannai/1/4/4327.html",
+          "kind": "official",
+          "title": "Kanazawa City: accommodation tax Q&A for guests"
+        },
+        {
+          "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminzeika/gyomuannai/1/4/28700.html",
+          "kind": "official",
+          "title": "Kanazawa City: the accommodation tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "without meals, consumption tax or the bathing tax",
+          "whatever their age",
+          "the property passes it to the city"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.shinkansen-time",
+      "topic": "transport",
+      "claim": "JR West gives the Hokuriku Shinkansen journey from Kanazawa to Tokyo as 2 hours 28 minutes.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.westjr.co.jp/global/en/train/shinkansen/hokuriku-shinkansen/",
+          "kind": "operator",
+          "title": "JR West: Hokuriku Shinkansen"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "JR West gives the journey from Tokyo as 2 hours 28 minutes"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.limousine-bus",
+      "topic": "fare",
+      "claim": "Hokutetsu's Komatsu Airport limousine bus costs ¥1,400 for adults (¥700 child) to Kanazawa Station west exit, Korinbo, Musashigatsuji/Omicho Market and the west-side government building stop; about 40 to 55 minutes; not reservation-based, pay on exit or buy tickets at the airport, the Hokutetsu Ticket Center or the Musashi M'za service centre; ICa, contactless and digital tickets are listed; bus change only for ¥1,000 notes; timetable PDF changes from 25 October 2026.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hokutetsu.co.jp/airport-bus/",
+          "kind": "operator",
+          "title": "Hokutetsu: Komatsu Airport limousine bus"
+        },
+        {
+          "url": "https://www.hokutetsu.co.jp/airport-bus/guide/",
+          "kind": "operator",
+          "title": "Hokutetsu: limousine bus fares and boarding"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "The adult fare is ¥1,400 (¥700 for a child)",
+          "about 40 to 55 minutes",
+          "bus change is only available for ¥1,000 notes",
+          "Its timetable changes on 25 October 2026"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.loop-bus",
+      "topic": "fare",
+      "claim": "The Kanazawa Loop Bus costs ¥220 for adults (¥110 child) per ride and ¥800 for a one-day pass (¥400 child; not sold on board); IC and contactless cards accepted; stops include Kanazawa Station east exit bay 7, Hashiba-cho (Higashi Chaya), Kenrokuen-shita/Kanazawa Castle, Korinbo and Musashigatsuji/Omicho Market; right-hand route 08:30 to 18:00 about every 15 minutes, left-hand route 08:38 to 17:58 about every 20 minutes.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hokutetsu.co.jp/tourism-bus/castle-town/",
+          "kind": "operator",
+          "title": "Hokutetsu: Kanazawa Loop Bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "An adult single costs ¥220 and a one-day pass ¥800",
+          "about every 15 minutes from 08:30 to 18:00",
+          "about every 20 minutes from 08:38 to 17:58"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel-bus-links",
+      "topic": "transport",
+      "claim": "Hotels' own pages give about ten minutes by regular bus from Kanazawa Station to Korinbo (Tokyu: to Korinbo Atrio-mae then 2 minutes' walk; OMO5: 4 minutes' walk from Korinbo stop) and 6 minutes by taxi (Tokyu); KKR gives 10 minutes by bus then 5 minutes' walk from Kenrokuen-shita; Mitsui Garden Hotel gives 17 minutes on foot or about 8 minutes by taxi, or a bus to Minamicho/Oyama Shrine then 2 minutes' walk.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.tokyuhotels.co.jp/en/kanazawa-h/access/index.html",
+          "kind": "operator",
+          "title": "Kanazawa Tokyu Hotel: access"
+        },
+        {
+          "url": "https://hoshinoresorts.com/en/hotels/omo5kanazawakatamachi/",
+          "kind": "operator",
+          "title": "OMO5 Kanazawa Katamachi"
+        },
+        {
+          "url": "https://kanazawa.kkr.or.jp/access/",
+          "kind": "operator",
+          "title": "KKR Hotel Kanazawa: access"
+        },
+        {
+          "url": "https://www.gardenhotels.co.jp/kanazawa/eng/access/",
+          "kind": "operator",
+          "title": "Mitsui Garden Hotel Kanazawa: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "Buses from the station take about ten minutes, by the hotels' own pages",
+          "or six minutes by taxi",
+          "17 minutes on foot from the station"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.nikko",
+      "topic": "hotel",
+      "claim": "Hotel Nikko Kanazawa is a 30-storey hotel three minutes on foot from the east exit of JR Kanazawa Station, with guest rooms above the 17th floor and floor types Stylish, Comfort, Luxe and Nikko; its site lists planned power outages in guest rooms on several dates through January 2027.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hnkanazawa.jp/en/",
+          "kind": "operator",
+          "title": "Hotel Nikko Kanazawa"
+        },
+        {
+          "url": "https://www.hnkanazawa.jp/en/access/",
+          "kind": "operator",
+          "title": "Hotel Nikko Kanazawa: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "three minutes on foot from the station's east exit",
+          "planned two-hour power outages in the guest rooms"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.hotel-kanazawa",
+      "topic": "hotel",
+      "claim": "Hotel Kanazawa is about a one-minute walk from JR Kanazawa Station, with 163 guest rooms on floors 6 to 15 of 22 to 70 square metres.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.hotelkanazawa.co.jp/access/",
+          "kind": "operator",
+          "title": "Hotel Kanazawa: access"
+        },
+        {
+          "url": "https://www.hotelkanazawa.co.jp/facilities/",
+          "kind": "operator",
+          "title": "Hotel Kanazawa: facilities"
+        },
+        {
+          "url": "https://www.hotelkanazawa.co.jp/stay/room/",
+          "kind": "operator",
+          "title": "Hotel Kanazawa: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "About a one-minute walk from the station",
+          "163 guest rooms on floors 6 to 15",
+          "22 square metres to a 70 square metre suite"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.tokyu",
+      "topic": "hotel",
+      "claim": "Kanazawa Tokyu Hotel is at Korinbo 2-1-1, ten minutes by regular bus from the station plus two minutes on foot, or six minutes by taxi; luxury floors have Kutani-ware mugs and the restaurant serves a breakfast buffet with local ingredients.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.tokyuhotels.co.jp/en/kanazawa-h/",
+          "kind": "operator",
+          "title": "Kanazawa Tokyu Hotel"
+        },
+        {
+          "url": "https://www.tokyuhotels.co.jp/en/kanazawa-h/access/index.html",
+          "kind": "operator",
+          "title": "Kanazawa Tokyu Hotel: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "ten minutes by regular bus from the station to the Korinbo Atrio-mae stop",
+          "Kutani-ware mugs"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.omo5",
+      "topic": "hotel",
+      "claim": "OMO5 Kanazawa Katamachi by Hoshino Resorts has 100 rooms at Katamachi 1-4-23, about 10 minutes by bus from the station and 4 minutes on foot from the Korinbo stop, 10 minutes' walk from Kenrokuen and 6 from the 21st Century Museum; partner parking is paid, first-come and cannot be reserved.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://hoshinoresorts.com/en/hotels/omo5kanazawakatamachi/",
+          "kind": "operator",
+          "title": "OMO5 Kanazawa Katamachi by Hoshino Resorts"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "A 100-room hotel at Katamachi 1-4-23",
+          "cannot be reserved"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.murataya",
+      "topic": "hotel",
+      "claim": "Murataya Ryokan, Katamachi 1-5-2, has 11 tatami rooms without private baths, a Japanese public bath and coin laundry, is 3 minutes on foot from the Katamachi bus stop, takes reservations by phone, fax or email, and its rates page describes the 2019 city tax as paid in cash.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://murataya-ryokan.com/eng/rooms.html",
+          "kind": "operator",
+          "title": "Murataya Ryokan: rooms"
+        },
+        {
+          "url": "https://murataya-ryokan.com/eng/access.html",
+          "kind": "operator",
+          "title": "Murataya Ryokan: access"
+        },
+        {
+          "url": "https://murataya-ryokan.com/eng/rates.html",
+          "kind": "operator",
+          "title": "Murataya Ryokan: rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "11 tatami rooms, none with a private bath",
+          "by phone, fax or email on its own site"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.utaimachi",
+      "topic": "hotel",
+      "claim": "UTAIMACHI is a machiya inn at Higashiyama 1-16-6-1 in the Higashi Chaya district with three rooms (Sen and Happyaku up to 4 guests, Niju up to 3); reservations line 10:00 to 18:00 Monday to Friday and 11:00 to 17:00 weekends and holidays; the Right Loop bus from stand 7 stops at Hashiba-cho (RL4).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.machiya-inn-japan.com/kanazawa/utaimachi/",
+          "kind": "operator",
+          "title": "UTAIMACHI"
+        },
+        {
+          "url": "https://www.machiya-inn-japan.com/kanazawa/utaimachi/rooms",
+          "kind": "operator",
+          "title": "UTAIMACHI: rooms"
+        },
+        {
+          "url": "https://www.machiya-inn-japan.com/kanazawa/utaimachi/access",
+          "kind": "operator",
+          "title": "UTAIMACHI: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "Sen and Happyaku for up to four guests and Niju for up to three",
+          "10:00 to 18:00 on weekdays and 11:00 to 17:00 at weekends"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.hakuchoro",
+      "topic": "hotel",
+      "claim": "Kanazawa Hakuchoro Hotel Sanraku, Marunouchi 6-3, has a natural hot spring and a Taisho-period theme, Basic Twin rooms of 30 m2 and Executive Luxury rooms of 40 m2; its page gives 3 minutes' walk to the castle park, 5 to Kenrokuen and 10 to Omicho Market; nearest bus stop is 5 minutes' walk and a free shuttle runs from the station west exit.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://sanraku.kenhotels.com/hakuchoro/en/",
+          "kind": "operator",
+          "title": "Kanazawa Hakuchoro Hotel Sanraku"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "the castle park is three minutes on foot, Kenrokuen five and Omicho Market ten",
+          "a free shuttle from the station's west exit"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.kkr",
+      "topic": "hotel",
+      "claim": "KKR Hotel Kanazawa, Otemachi 2-32, adjoins the castle park and puts Kenrokuen, Omicho Market, Higashi Chaya and the 21st Century Museum within 15 minutes' walk; a large public bath opened 15 August 2026; it is run for the national public servants' mutual-aid association with member and general booking routes; its site lists Kanazawa Marathon traffic restrictions and a shuttle bus on 25 October 2026.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://kanazawa.kkr.or.jp/",
+          "kind": "operator",
+          "title": "KKR Hotel Kanazawa"
+        },
+        {
+          "url": "https://kanazawa.kkr.or.jp/access/",
+          "kind": "operator",
+          "title": "KKR Hotel Kanazawa: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "all within 15 minutes' walk by its own count",
+          "A large public bath opened on 15 August 2026"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.mitsui-garden",
+      "topic": "hotel",
+      "claim": "Mitsui Garden Hotel Kanazawa, Kamitsutsumicho 1-22, describes itself as a four-star hotel near Kenrokuen and Omicho Market with a public bath on the 13th floor, free to guests, 15:00 to 09:00; 17 minutes on foot from the station.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.gardenhotels.co.jp/kanazawa/eng/",
+          "kind": "operator",
+          "title": "Mitsui Garden Hotel Kanazawa"
+        },
+        {
+          "url": "https://www.gardenhotels.co.jp/kanazawa/eng/bath/",
+          "kind": "operator",
+          "title": "Mitsui Garden Hotel Kanazawa: bath"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "a public bath on the 13th floor free to guests from 15:00 to 09:00"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.sanraku-kanazawa",
+      "topic": "hotel",
+      "claim": "The Hotel Sanraku Kanazawa, Owaricho 1-1-1, has 215 rooms (superior rooms 32 to 35 m2); its page gives Omicho Market 1 minute, castle park 3, Kenrokuen 10 and Higashi Chaya 12 minutes on foot; it introduced a new online booking system on 27 May 2026.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://sanraku.kenhotels.com/kanazawa/en/",
+          "kind": "operator",
+          "title": "The Hotel Sanraku Kanazawa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "with 215 rooms",
+          "the market a one-minute walk away",
+          "changed its online booking system on 27 May 2026"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.intergate",
+      "topic": "hotel",
+      "claim": "Hotel Intergate Kanazawa, Takaokamachi 2-5, has 166 rooms, a communal bath (no towels supplied in the baths), a lounge with a gallery of Kanazawa crafts, no parking, and the Minamicho/Oyama Shrine bus stop at its door from the station east exit.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.intergatehotels.jp/kanazawa/en/",
+          "kind": "operator",
+          "title": "Hotel Intergate Kanazawa"
+        },
+        {
+          "url": "https://www.intergatehotels.jp/kanazawa/en/facility/",
+          "kind": "operator",
+          "title": "Hotel Intergate Kanazawa: facility"
+        },
+        {
+          "url": "https://www.intergatehotels.jp/kanazawa/en/bath/",
+          "kind": "operator",
+          "title": "Hotel Intergate Kanazawa: bath"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "A 166-room hotel at Takaokamachi 2-5",
+          "it has no parking"
+        ]
+      }
+    },
+    {
+      "id": "jp.kanazawa.hotel.sumiyoshiya",
+      "topic": "hotel",
+      "claim": "Sumiyoshiya Ryokan, Jukken-machi 54, says it has the longest history, 300 years, of the city's ryokan; about 300 m from the Omicho corner; two common baths, free bicycles, washer and dryer at ¥200 each use; dinner service suspended; closed 27 to 29 October 2026 and 24 to 26 November 2026.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.sumiyoshiya-ryokan.com/",
+          "kind": "operator",
+          "title": "Sumiyoshiya Ryokan"
+        },
+        {
+          "url": "https://www.sumiyoshiya-ryokan.com/access/",
+          "kind": "operator",
+          "title": "Sumiyoshiya Ryokan: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kanazawa.html": [
+          "dinner service is suspended",
+          "27 to 29 October 2026 and 24 to 26 November 2026"
         ]
       }
     }

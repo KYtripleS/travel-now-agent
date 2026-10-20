@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-kanazawa.html": (
+        "Where to Stay in Kanazawa",
+        "Five areas, 12 hotels and the tax: Kanazawa charges ¥200 or ¥500 a person a night, nothing under ¥5,000.",
+    ),
     "articles/where-to-stay-in-jeju.html": (
         "Where to Stay in Jeju",
         "Five areas, 12 hotels, the 10% VAT and the airport bus: ₩1,300 to Jeju City, ₩4,500 to Jungmun.",
@@ -2065,6 +2069,13 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-kanazawa.html": [
+        "articles/where-to-stay-in-japan.html",
+        "articles/where-to-stay-in-kyoto.html",
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/japan-tourist-taxes-2026.html",
     ],
     "articles/where-to-stay-in-jeju.html": [
         "articles/where-to-book-jeju-bus-tour.html",

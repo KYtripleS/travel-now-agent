@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-kanazawa": dict(area="Omicho", lat=36.5715, lng=136.6578, zoom=15,
+                                         address="Omicho Market, Kanazawa, Ishikawa, Japan"),
     "where-to-stay-in-jeju": dict(area="Nohyeong", lat=33.4875, lng=126.4885, zoom=15,
                                      address="Noyeon-ro, Jeju City, South Korea"),
     "where-to-stay-in-okinawa": dict(area="Kokusai-dori", lat=26.2155, lng=127.6867, zoom=14,
@@ -1031,6 +1033,19 @@ HOTELS = {
     "Benikea Hotel Jeju": _B + "kr/benikea-jeju.html",
     "Phoenix Island": _B + "kr/phoenix-island.html",
     "Haevichi Hotel & Resort Jeju": _B + "kr/haevichi.html",
+    # Kanazawa (Booking.com pages confirmed by hotel name and city)
+    "Hotel Nikko Kanazawa": _B + "jp/nikko-kanazawa.html",
+    "Hotel Kanazawa": _B + "jp/hotel-kanazawa.html",
+    "Kanazawa Tokyu Hotel": _B + "jp/kanazawa-tokyo.html",
+    "OMO5 Kanazawa Katamachi by Hoshino Resorts": _B + "jp/omo5-kanazawa-katamachi-by-hoshino-resorts.html",
+    "Murataya Ryokan": _B + "jp/ryokan-murataya.html",
+    "UTAIMACHI": _B + "jp/utaimachi.html",
+    "Kanazawa Hakuchoro Hotel Sanraku": _B + "jp/kanazaw-hakuchoro.html",
+    "KKR Hotel Kanazawa": _B + "jp/kkr-kanazawa.html",
+    "Mitsui Garden Hotel Kanazawa": _B + "jp/mitsui-garden-kanazawa-dong-jing.html",
+    "The Hotel Sanraku Kanazawa": _B + "jp/the-sanraku-kanazawa.html",
+    "Hotel Intergate Kanazawa": _B + "jp/intergate-kanazawa.html",
+    "Sumiyoshiya Ryokan": _B + "jp/sumiyoshiya.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
