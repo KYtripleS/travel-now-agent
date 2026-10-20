@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-hiroshima": dict(area="Peace Memorial Park", lat=34.3955, lng=132.4536, zoom=14,
+                                          address="Peace Memorial Park, Hiroshima, Japan"),
     "where-to-stay-in-kanazawa": dict(area="Omicho", lat=36.5715, lng=136.6578, zoom=15,
                                          address="Omicho Market, Kanazawa, Ishikawa, Japan"),
     "where-to-stay-in-jeju": dict(area="Nohyeong", lat=33.4875, lng=126.4885, zoom=15,
@@ -1046,6 +1048,19 @@ HOTELS = {
     "The Hotel Sanraku Kanazawa": _B + "jp/the-sanraku-kanazawa.html",
     "Hotel Intergate Kanazawa": _B + "jp/intergate-kanazawa.html",
     "Sumiyoshiya Ryokan": _B + "jp/sumiyoshiya.html",
+    # Hiroshima (Booking.com pages confirmed by hotel name and city)
+    "Hotel Granvia Hiroshima": _B + "jp/granvia-hiroshima.html",
+    "Toyoko Inn Hiroshima-eki Shinkansen-guchi No.1": _B + "jp/toyoko-inn-hiroshima-eki-shinkansen-guchi-no-1.html",
+    "Dormy Inn Hiroshima": _B + "jp/dormy-inn-hiroshima.html",
+    "Rihga Royal Hotel Hiroshima": _B + "jp/rihga-royal-hiroshima.html",
+    "Mitsui Garden Hotel Hiroshima": _B + "jp/mitsui-garden-hiroshima.html",
+    "Candeo Hotels Hiroshima Hatchobori": _B + "jp/candeo-hotels-hiroshima-hatchobori.html",
+    "Nest Hotel Hiroshima Hatchobori": _B + "jp/nest-hotel-hiroshima-hatchobori.html",
+    "Iwaso": _B + "jp/iwaso.html",
+    "Hotel Miyajima Villa": _B + "jp/hotel-miyajima-besso.html",
+    "Miyajima Guest House Mikuniya": _B + "jp/miyajima-guest-house-mikuniya.html",
+    "Miyajima Coral Hotel": _B + "jp/miyajima-coral.html",
+    "Grandvrio Hotel Miyajima Wakura": _B + "jp/grandvrio-miyajima-wakura.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-hiroshima": dict(
+        text="For a first trip, stay near the Peace Memorial Park: the park is a short walk and streetcars reach the station. Choose Hiroshima Station for the Shinkansen and Miyajima for a night on the island. The prefecture's ¥200 tax applies from rooms of ¥6,000 a night.",
+        link_text="Peace Memorial Park",
+        cta=_stay_cta("where-to-stay-in-hiroshima", "See hotels around the Peace Memorial Park")),
     "where-to-stay-in-kanazawa": dict(
         text="For a first trip, stay in Omicho: from The Hotel Sanraku Kanazawa the market is a minute on foot, the castle park three and Kenrokuen ten. Choose Kanazawa Station for the Shinkansen and Korinbo for dinners. The city tax is ¥200 or ¥500 per person per night.",
         link_text="Omicho",
@@ -1327,6 +1331,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-hiroshima": ["Dormy Inn Hiroshima", "Nest Hotel Hiroshima Hatchobori", "Toyoko Inn Hiroshima-eki Shinkansen-guchi No.1"],
     "where-to-stay-in-kanazawa": ["The Hotel Sanraku Kanazawa", "Hotel Intergate Kanazawa", "Hotel Nikko Kanazawa"],
     "where-to-stay-in-jeju": ["Lotte City Hotel Jeju", "Shilla Stay Jeju", "The Shilla Jeju"],
     "where-to-stay-in-okinawa": ["Hotel JAL City Naha", "Hotel Torifito Naha Asahibashi", "The Kitchen Hostel Ao"],
@@ -1451,6 +1456,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Hiroshima", "where-to-stay-in-hiroshima", None, None),
         ("Kanazawa", "where-to-stay-in-kanazawa", None, None),
         ("Jeju", "where-to-stay-in-jeju", None, None),
         ("Okinawa", "where-to-stay-in-okinawa", None, None),

@@ -3531,6 +3531,628 @@
           "27 to 29 October 2026 and 24 to 26 November 2026"
         ]
       }
+    },
+    {
+      "id": "jp.hiroshima.accommodation-tax",
+      "topic": "tax",
+      "claim": "Hiroshima Prefecture has charged an accommodation tax since 1 April 2026: ¥200 per person per night when the room-only price (including service charge, excluding meals and consumption tax) is ¥6,000 or more, nothing below ¥6,000; school trips and their leaders are exempt; the guest pays the hotel, which collects and remits it.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.pref.hiroshima.lg.jp/site/zei/hiroshima-syukuhakuzei01.html",
+          "kind": "official",
+          "title": "Hiroshima Prefecture: accommodation tax overview (posted 24 July 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "Since 1 April 2026 Hiroshima Prefecture charges an accommodation tax of ¥200 per person per night",
+          "on rooms of ¥6,000 or more before consumption tax",
+          "below that line nothing is charged",
+          "The guest pays the hotel, and the hotel passes it on",
+          "The room-only price includes the service charge but not meals or consumption tax",
+          "The tax is a flat ¥200 however high the rate goes"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.accommodation-tax.no-city-tax",
+      "topic": "tax",
+      "claim": "The prefecture's overview page describes only the prefectural accommodation tax; no separate Hiroshima City or Hatsukaichi accommodation tax was found on the official pages read (absence of evidence, not a statement by the city), and the hotels checked (Iwaso, Hotel Miyajima Villa, Toyoko Inn, Candeo) quote only the prefecture's ¥200 from 1 April 2026.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.pref.hiroshima.lg.jp/site/zei/hiroshima-syukuhakuzei01.html",
+          "kind": "official",
+          "title": "Hiroshima Prefecture: accommodation tax overview"
+        },
+        {
+          "url": "https://miyajima-villa.jp/",
+          "kind": "official",
+          "title": "Hotel Miyajima Villa: accommodation tax notice"
+        },
+        {
+          "url": "https://reserve.489ban.net/client/iwaso/0/plan",
+          "kind": "official",
+          "title": "Iwaso booking page: accommodation tax notice"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "we found no separate city or Hatsukaichi accommodation tax on the official pages we read"
+        ]
+      }
+    },
+    {
+      "id": "jp.miyajima.visitor-tax",
+      "topic": "tax",
+      "claim": "Hatsukaichi City's Miyajima Visitor Tax has applied since 1 October 2023 to people entering Miyajima by boat: ¥100 per person per visit, or ¥500 per person for a year; ferry operators add it to the fare; residents, commuters to the island, pre-school children, school-trip participants and holders of disability handbooks are exempt.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/110/59551.html",
+          "kind": "official",
+          "title": "Hatsukaichi City: outline of the Miyajima Visitor Tax (updated 28 January 2026)"
+        },
+        {
+          "url": "https://jr-miyajimaferry.co.jp/en/fare/",
+          "kind": "operator",
+          "title": "JR West Miyajima Ferry: fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "has applied since 1 October 2023 to people who enter the island by boat",
+          "It is ¥100 per person per visit, or ¥500 for a year's worth of visits",
+          "the ferry operator adds it to the fare",
+          "Residents, commuters, pre-school children, school trips and holders of disability handbooks are exempt"
+        ]
+      }
+    },
+    {
+      "id": "jp.miyajima.ferry-fare",
+      "topic": "fare",
+      "claim": "The JR West Miyajima Ferry adult fare is ¥200 one way (child ¥100; ¥400 and ¥200 return), about 10 minutes, with the ¥100 visitor tax charged separately on entering the island; IC cards and the Japan Rail Pass and JR-West Rail Pass are accepted; Great Torii route sails from Miyajimaguchi 9:10 to 16:10; a restoration project is under way for the Great Torii.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://jr-miyajimaferry.co.jp/en/fare/",
+          "kind": "operator",
+          "title": "JR West Miyajima Ferry: fares (fare shown in the page's image: adult 200 yen one way)"
+        },
+        {
+          "url": "https://jr-miyajimaferry.co.jp/en/route/",
+          "kind": "operator",
+          "title": "JR West Miyajima Ferry: route"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "costs ¥200 for adults and ¥100 for children one way",
+          "with the ¥100 visitor tax on top",
+          "IC cards work, and the JR ferry accepts the Japan Rail Pass",
+          "a restoration project is under way for the Great Torii"
+        ]
+      }
+    },
+    {
+      "id": "jp.miyajima.jr-train",
+      "topic": "transport",
+      "claim": "The JR West Miyajima Ferry's access page says the JR Sanyo Main Line from Hiroshima Station to Miyajimaguchi station takes about 28 minutes, and from Miyajimaguchi station you go through an underpass to the terminal.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://jr-miyajimaferry.co.jp/en/access/",
+          "kind": "operator",
+          "title": "JR West Miyajima Ferry: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "takes about 28 minutes",
+          "walk through an underpass to the terminal"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.airport-bus",
+      "topic": "fare",
+      "claim": "Hiroden's airport limousine bus costs ¥1,500 for adults and ¥750 for children one way (IC cards accepted); Hiroshima City's tourism FAQ (updated 8 April 2026) gives about 50 minutes to Hiroshima Station and about 55 to the Hiroshima Bus Center, which sits near the Prefectural Office and the Peace Memorial Park.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hij.airport.jp/en/access/timetable/2.html",
+          "kind": "official",
+          "title": "Hiroshima Airport: Hiroshima Station Shinkansen Gate bus timetable and fares"
+        },
+        {
+          "url": "https://www.hij.airport.jp/en/access/timetable/1.html",
+          "kind": "official",
+          "title": "Hiroshima Airport: Hiroshima Bus Center bus timetable and fares"
+        },
+        {
+          "url": "https://www.city.hiroshima.lg.jp/faq/tourism-culture/1001621/1028190/1006400.html",
+          "kind": "official",
+          "title": "Hiroshima City: airport to city centre access (FAQ, 8 April 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "The adult fare is ¥1,500 (children ¥750), and transit IC cards are accepted",
+          "about 50 minutes to the station and about 55 to the Bus Center",
+          "is near the Prefectural Office and the park"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.airport-bus-train",
+      "topic": "transport",
+      "claim": "Hiroshima City's FAQ lists a local bus from the airport to JR Shiraichi station (¥490, about 15 minutes) then the Sanyo Line to Hiroshima Station in about 45 minutes.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.city.hiroshima.lg.jp/faq/tourism-culture/1001621/1028190/1006400.html",
+          "kind": "official",
+          "title": "Hiroshima City: airport to city centre access (FAQ, 8 April 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "a ¥490 local bus to JR Shiraichi station (about 15 minutes)"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.streetcar-fare",
+      "topic": "fare",
+      "claim": "Hiroden's streetcar page gives a flat adult fare of ¥240 and child fare of ¥120, paid on getting off, and lists Genbaku Dome-mae to Hiroden-miyajima-guchi at ¥240.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hiroden.co.jp/en/s-fares.html",
+          "kind": "operator",
+          "title": "Hiroden: streetcar fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "a flat adult fare of ¥240 (children ¥120), paid as you get off"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.streetcar-times",
+      "topic": "transport",
+      "claim": "Hiroden's recommended sightseeing route gives 13 minutes by streetcar from Hiroshima Station to Genbaku Dome-mae (Atomic Bomb Dome, Peace Memorial Park, Peace Memorial Museum) and 49 minutes on line 2 from there to Miyajima-guchi, then a 10-minute ferry.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hiroden.co.jp/en/sightseeing.html",
+          "kind": "operator",
+          "title": "Hiroden: recommended sightseeing route"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "13 minutes from Hiroshima Station",
+          "49 minutes beyond that stop"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.streetcar-passes",
+      "topic": "price",
+      "claim": "Hiroden's 1-Day Streetcar Pass is ¥700 (child ¥350) and its 1-Day Streetcar and Ferry Pass ¥1,000 (child ¥550) including the Miyajima visitor tax; the ferry part covers the Miyajima Matsudai Kisen boats and is not valid on the JR Miyajima Ferry.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hiroden.co.jp/en/e-1day.html",
+          "kind": "operator",
+          "title": "Hiroden: economical tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "A 1-Day Streetcar Pass costs ¥700",
+          "a 1-Day Streetcar and Ferry Pass ¥1,000 including the Miyajima visitor tax"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.peace-museum",
+      "topic": "place",
+      "claim": "The Hiroshima Peace Memorial Museum is open 7:30-19:00 (March-July, September-November), 7:30-20:00 in August and 7:30-18:00 December-February, last entry 30 minutes before closing; admission is ¥200 for adults, ¥100 for high school students and free for junior high school students and younger; closed 30-31 December and mid-February (15-20 February 2027 for an exhibition change).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://hpmmuseum.jp/?lang=eng",
+          "kind": "official",
+          "title": "Hiroshima Peace Memorial Museum (home page)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "with the last entry 30 minutes before closing",
+          "Admission is ¥200 for adults and ¥100 for high school students",
+          "the next closure is 15 to 20 February 2027, for an exhibition change"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.peace-museum.visiting",
+      "topic": "place",
+      "claim": "The museum says it is very crowded in the daytime and recommends early morning or evening; online reservation is needed for the extended early and late slots; web tickets can sell out; free guided tours by Hiroshima Peace Volunteers and daily talks by A-bomb legacy successors are listed; it describes using victims' belongings, A-bombed artifacts and survivors' testimonies to convey the horrors and inhumane nature of nuclear weapons.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://hpmmuseum.jp/?lang=eng",
+          "kind": "official",
+          "title": "Hiroshima Peace Memorial Museum (home page)"
+        },
+        {
+          "url": "https://hpmmuseum.jp/modules/news/index.php?action=PageView&page_id=601&lang=eng",
+          "kind": "official",
+          "title": "Hiroshima Peace Memorial Museum: opening hours extension and online tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "In the extended early and late slots, online reservation is needed",
+          "recommends early morning or evening",
+          "free guided tours by Hiroshima Peace Volunteers and daily talks by A-bomb legacy successors"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.hotel.granvia",
+      "topic": "hotel",
+      "claim": "Hotel Granvia Hiroshima is directly connected to JR Hiroshima Station, has the Granvia Floor on the 20th floor and a fitness room for guests, Standard Single rooms of 17-18 m2 and Standard Twin rooms of 26 m2; its official site says JR Hotel Members services and official-site booking pause from 02:00 on 8 November to 06:00 on 10 November 2026.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://jrwest-hotels.jp/en/granvia-hiroshima/",
+          "kind": "official",
+          "title": "Hotel Granvia Hiroshima [Official]"
+        },
+        {
+          "url": "https://jrwest-hotels.jp/en/granvia-hiroshima/stay/standard-floor/",
+          "kind": "official",
+          "title": "Hotel Granvia Hiroshima: Standard Floor rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "Directly connected to JR Hiroshima Station",
+          "a Standard Single is 17 to 18 square metres and a Standard Twin 26",
+          "official-site bookings and members' services pause from 02:00 on 8 November to 06:00 on 10 November 2026"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.hotel.toyoko-no1",
+      "topic": "hotel",
+      "claim": "Toyoko Inn Hiroshima-eki Shinkansen-guchi No.1, 2-6-25 Hikari-machi, is a 4-minute walk from the Shinkansen exit of JR Hiroshima Station, serves a free onigiri breakfast 6:30-9:00, has a self-check-in kiosk and 55 paid parking spaces at ¥1,000 a night (first-come); check-out is 10:00.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.toyoko-inn.com/eng/search/detail/00104/",
+          "kind": "official",
+          "title": "Toyoko Inn Hiroshima-eki Shinkansen-guchi No.1 [Official]"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "A four-minute walk from the Shinkansen exit of JR Hiroshima Station",
+          "a free onigiri breakfast from 06:30 to 09:00",
+          "parking is first-come at ¥1,000 a night, 55 spaces in all"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.hotel.dormy-inn",
+      "topic": "hotel",
+      "claim": "Dormy Inn Hiroshima (Aki no Yu), 3-28 Komachi, is on Peace Boulevard, 3 minutes' walk from Chuden-mae streetcar stop, about 6 minutes' walk west to the Peace Memorial Park entrance and about 15 minutes north to the Atomic Bomb Dome, with large baths and saunas on the 8th floor, a free shuttle bus to Hiroshima Station, reopened 1 May 2026, and a notice (22 May 2026) warning of suspicious messages to Booking.com guests.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://dormy-hotels.com/dormyinn/hotels/hiroshima/",
+          "kind": "official",
+          "title": "Dormy Inn Hiroshima (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "three minutes' walk from the Chuden-mae streetcar stop",
+          "about six minutes' walk west and the Atomic Bomb Dome about 15 minutes north",
+          "separate large baths with saunas on the 8th floor",
+          "reopened on 1 May 2026 after renewal",
+          "the hotel warned guests who booked through Booking.com about suspicious messages sent through messaging apps"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.hotel.rihga",
+      "topic": "hotel",
+      "claim": "Rihga Royal Hotel Hiroshima, Motomachi 6-78, is 3 minutes' walk from Kamiyacho-higashi and Kamiyacho-nishi streetcar stops with the Hiroshima Bus Center and Astram Kenchomae both a short walk away; its health club has a 25 m, five-lane heated pool and hotel guests use it by reservation in two-hour slots; Standard Twin rooms are 22-38 m2.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.rihga.co.jp/hiroshima/",
+          "kind": "official",
+          "title": "RIHGA Royal Hotel Hiroshima (official)"
+        },
+        {
+          "url": "https://www.rihga.co.jp/hiroshima/access/",
+          "kind": "official",
+          "title": "RIHGA Royal Hotel Hiroshima: access"
+        },
+        {
+          "url": "https://www.rihga.co.jp/hiroshima/fitness/",
+          "kind": "official",
+          "title": "RIHGA Royal Hotel Hiroshima: health club"
+        },
+        {
+          "url": "https://www.rihga.co.jp/hiroshima/stay/room/standard/twin/",
+          "kind": "official",
+          "title": "RIHGA Royal Hotel Hiroshima: Standard Twin"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "At Motomachi 6-78, three minutes' walk from the Kamiyacho-higashi and Kamiyacho-nishi streetcar stops",
+          "a 25-metre, five-lane heated pool",
+          "Standard Twin rooms range from 22 to 38 square metres",
+          "hotel guests use the health club by reservation, in two-hour slots"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.hotel.mitsui-garden",
+      "topic": "hotel",
+      "claim": "Mitsui Garden Hotel Hiroshima, Nakamachi 9-12, describes itself as on Peace Boulevard within walking distance of the Peace Memorial Park, has a complimentary guests-only top-floor lounge, a 20 m2 room with two 1,230 mm beds, is about 7 minutes by car from Hiroshima Station and runs interior renovation from 1 April 2026 to 31 May 2027; it posted a phishing warning on 25 May 2026.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.gardenhotels.co.jp/hiroshima/eng/",
+          "kind": "official",
+          "title": "Mitsui Garden Hotel Hiroshima (official)"
+        },
+        {
+          "url": "https://www.gardenhotels.co.jp/hiroshima/",
+          "kind": "official",
+          "title": "Mitsui Garden Hotel Hiroshima: notices"
+        },
+        {
+          "url": "https://www.gardenhotels.co.jp/hiroshima/access/",
+          "kind": "official",
+          "title": "Mitsui Garden Hotel Hiroshima: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "on Peace Boulevard within walking distance of the park",
+          "a free top-floor lounge for guests",
+          "a 20 square metre room with two beds of 1,230 millimetres",
+          "interior renovation runs from 1 April 2026 to 31 May 2027",
+          "Mitsui Garden names WhatsApp"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.hotel.candeo",
+      "topic": "hotel",
+      "claim": "Candeo Hotels Hiroshima Hatchobori, 14-1 Hatchobori, gives Hatchobori Station as 2 minutes away, has a rooftop open-air bath (SkySpa), a Double with Desk of 16 m2 and no parking of its own or affiliated.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.candeohotels.com/en/hiroshima-hatchobori/",
+          "kind": "official",
+          "title": "Candeo Hotels Hiroshima Hatchobori [Official]"
+        },
+        {
+          "url": "https://www.candeohotels.com/en/hiroshima-hatchobori/access/",
+          "kind": "official",
+          "title": "Candeo Hotels Hiroshima Hatchobori: access"
+        },
+        {
+          "url": "https://www.candeohotels.com/en/hiroshima-hatchobori/rooms/",
+          "kind": "official",
+          "title": "Candeo Hotels Hiroshima Hatchobori: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "two minutes from Hatchobori Station by the hotel's figure",
+          "a rooftop open-air bath called SkySpa",
+          "a Double with Desk of 16 square metres",
+          "the hotel has no parking of its own or any affiliated lot"
+        ]
+      }
+    },
+    {
+      "id": "jp.hiroshima.hotel.nest",
+      "topic": "hotel",
+      "claim": "Nest Hotel Hiroshima Hatchobori, 13-12 Nobori-cho, has 126 non-smoking rooms of 13-24 m2 with Simmons beds and a complimentary breakfast served in the room; its page gives 2 minutes' walk to Ebisu-cho, 3 to Hatchobori and 10 to Hondori shopping street.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.nesthotel.co.jp/hiroshima/en/",
+          "kind": "official",
+          "title": "Nest Hotel Hiroshima Hatchobori (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "126 non-smoking rooms of 13 to 24 square metres",
+          "a free breakfast served in the room",
+          "two minutes' walk from Ebisu-cho, three from Hatchobori and ten from Hondori shopping street"
+        ]
+      }
+    },
+    {
+      "id": "jp.miyajima.hotel.iwaso",
+      "topic": "hotel",
+      "claim": "Iwaso, 345-1 Miyajima-cho (founded 1854), has four detached one-storey cottages built in the Taisho-Showa era and a radon hot spring open 15:00-24:00 and 6:00-9:30; Itsukushima Shrine is 300 m (3 minutes' walk) away, the pier 15 minutes' walk; a shuttle runs 8:00-20:00 but not to a timetable (phone 0829-44-2233 once the boat time is set).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.iwaso.com/english",
+          "kind": "official",
+          "title": "Iwaso (official, English)"
+        },
+        {
+          "url": "https://www.iwaso.com/access",
+          "kind": "official",
+          "title": "Iwaso: access"
+        },
+        {
+          "url": "https://www.iwaso.com/spa",
+          "kind": "official",
+          "title": "Iwaso: hot spring"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "A ryokan founded in 1854 in the Momijidani valley",
+          "a radon hot spring, open from 15:00 to 24:00 and from 06:00 to 09:30",
+          "It is 300 metres, about three minutes' walk, from Itsukushima Shrine",
+          "the pier is a 15-minute walk away; the shuttle runs from 08:00 to 20:00 but not to a timetable"
+        ]
+      }
+    },
+    {
+      "id": "jp.miyajima.hotel.villa",
+      "topic": "hotel",
+      "claim": "Hotel Miyajima Villa (Miyajima-cho 1165), produced by the Kinsuikan ryokan (founded 1902), has town-house, sea and mountain concept rooms, a tatami-floored viewing bath fed by an artificial quasi-natural spring that is not open-air, excludes guests with tattoos from the large bath, closes 14-18 December 2026 for maintenance, and notes that the main sights have no car parks.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://miyajima-villa.jp/",
+          "kind": "official",
+          "title": "Hotel Miyajima Villa (official)"
+        },
+        {
+          "url": "https://miyajima-villa.jp/spa.html",
+          "kind": "official",
+          "title": "Hotel Miyajima Villa: spa"
+        },
+        {
+          "url": "https://miyajima-villa.jp/concept.html",
+          "kind": "official",
+          "title": "Hotel Miyajima Villa: concept"
+        },
+        {
+          "url": "https://miyajima-villa.jp/access.html",
+          "kind": "official",
+          "title": "Hotel Miyajima Villa: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "Produced by the Kinsuikan ryokan, founded in 1902",
+          "the hotel closes from 14 to 18 December 2026 for maintenance",
+          "guests with tattoos are not admitted to it",
+          "the main sights have no car parks"
+        ]
+      }
+    },
+    {
+      "id": "jp.miyajima.hotel.mikuniya",
+      "topic": "hotel",
+      "claim": "Miyajima Guest House Mikuniya has Japanese-style private rooms (one of ten tatami mats, four of eight) and a four-bed dormitory, rental yukata at ¥300, is about 5 minutes' walk from Itsukushima Shrine and about 15 from the ferry, offers no pick-up service and charges ¥1,000 per hour for check-in after 21:00.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://miyajimamikuniya.com/",
+          "kind": "official",
+          "title": "Miyajima Guest House Mikuniya (official)"
+        },
+        {
+          "url": "https://miyajimamikuniya.com/room/",
+          "kind": "official",
+          "title": "Miyajima Guest House Mikuniya: rooms"
+        },
+        {
+          "url": "https://miyajimamikuniya.com/access/",
+          "kind": "official",
+          "title": "Miyajima Guest House Mikuniya: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "one of ten tatami mats, four of eight",
+          "a four-bed dormitory",
+          "rental yukata for ¥300",
+          "there is no pick-up, and a check-in after 21:00 costs an extra ¥1,000 per hour"
+        ]
+      }
+    },
+    {
+      "id": "jp.miyajima.hotel.coral",
+      "topic": "hotel",
+      "claim": "Miyajima Coral Hotel, Miyajimaguchi 1-9-8, is about 5 minutes' walk from JR Miyajimaguchi station and about 30 seconds from the pier, offers free parking for guests from noon on arrival to noon on departure, a coin laundry, 11 room types including a 20 m2 Japanese-modern twin, and says the ferry crossing takes about 10 minutes.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.coral-hotel.co.jp/en/",
+          "kind": "official",
+          "title": "Miyajima Coral Hotel [Official]"
+        },
+        {
+          "url": "https://www.coral-hotel.co.jp/access/",
+          "kind": "official",
+          "title": "Miyajima Coral Hotel: access"
+        },
+        {
+          "url": "https://www.coral-hotel.co.jp/facilities/",
+          "kind": "official",
+          "title": "Miyajima Coral Hotel: facilities"
+        },
+        {
+          "url": "https://www.coral-hotel.co.jp/room/",
+          "kind": "official",
+          "title": "Miyajima Coral Hotel: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "About a five-minute walk from JR Miyajimaguchi station and 30 seconds from the pier",
+          "a coin laundry and 11 room types",
+          "a Japanese-modern twin of 20 square metres",
+          "about 10 minutes by the hotel's figure"
+        ]
+      }
+    },
+    {
+      "id": "jp.miyajima.hotel.grandvrio",
+      "topic": "hotel",
+      "claim": "Grandvrio Hotel Miyajima Wakura (Miyajimaguchi) has a natural hot spring with an open-air bath and sauna facing the Meoto Iwa rocks off Hanaguri island, 171 free parking spaces and a free shuttle from JR Miyajimaguchi station; the pier is about 12 minutes' walk or 3 minutes by car.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.grandvrio-hotelresort.com/miyajima/",
+          "kind": "official",
+          "title": "Grandvrio Hotel Miyajima Wakura (official)"
+        },
+        {
+          "url": "https://www.grandvrio-hotelresort.com/miyajima/hotspring/",
+          "kind": "official",
+          "title": "Grandvrio Hotel Miyajima Wakura: hot spring"
+        },
+        {
+          "url": "https://www.grandvrio-hotelresort.com/miyajima/access/",
+          "kind": "official",
+          "title": "Grandvrio Hotel Miyajima Wakura: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hiroshima.html": [
+          "A natural hot spring with an open-air bath and sauna",
+          "171 free parking spaces",
+          "It runs a free shuttle bus from JR Miyajimaguchi station",
+          "the pier is a 12-minute walk or about 3 minutes by car"
+        ]
+      }
     }
   ]
 }

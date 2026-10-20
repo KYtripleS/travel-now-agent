@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-hiroshima.html": (
+        "Where to Stay in Hiroshima",
+        "Five areas, 12 hotels and the tax: Hiroshima's ¥200 tax began on 1 April 2026, and Miyajima adds ¥100.",
+    ),
     "articles/where-to-stay-in-kanazawa.html": (
         "Where to Stay in Kanazawa",
         "Five areas, 12 hotels and the tax: Kanazawa charges ¥200 or ¥500 a person a night, nothing under ¥5,000.",
@@ -2069,6 +2073,13 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-hiroshima.html": [
+        "articles/where-to-stay-in-japan.html",
+        "articles/where-to-stay-in-osaka.html",
+        "articles/japan-7-day-itinerary.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-japan-2026.html",
     ],
     "articles/where-to-stay-in-kanazawa.html": [
         "articles/where-to-stay-in-japan.html",
