@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-jeju": dict(area="Nohyeong", lat=33.4875, lng=126.4885, zoom=15,
+                                     address="Noyeon-ro, Jeju City, South Korea"),
     "where-to-stay-in-okinawa": dict(area="Kokusai-dori", lat=26.2155, lng=127.6867, zoom=14,
                                         address="Kokusai-dori, Naha, Okinawa, Japan"),
     "where-to-stay-in-marrakech": dict(area="Jemaa el-Fnaa", lat=31.6258, lng=-7.9891, zoom=15,
@@ -1016,6 +1018,19 @@ HOTELS = {
     "Hotel Monterey Okinawa Spa & Resort": _B + "jp/monterey-okinawa-spa-resort.html",
     "The Orion Hotel Motobu Resort & Spa": _B + "jp/orion-motobu-resort-spa.html",
     "Royal View Hotel Churaumi": _B + "jp/centurion-resort-okinawa-churaumi.html",
+    # Jeju (Booking.com pages confirmed by hotel name and city)
+    "Lotte City Hotel Jeju": _B + "kr/lotte-city-jeju.html",
+    "Maison Glad Jeju": _B + "kr/jeju-grand.html",
+    "Shilla Stay Jeju": _B + "kr/shilla-stay-jeju.html",
+    "The Shilla Jeju": _B + "kr/the-shilla-jeju.html",
+    "Grand Josun Jeju": _B + "kr/grand-josun-jeju.html",
+    "Benikea Jungmun Hotel": _B + "kr/benikea-jungmun.html",
+    "Seogwipo KAL Hotel": _B + "kr/seogwipo-kal.html",
+    "STANFORD Hotel & Resort Jeju": _B + "kr/stanford-amp-resort-jeju.html",
+    "Kensington Resort Jeju Hallim": None,
+    "Benikea Hotel Jeju": _B + "kr/benikea-jeju.html",
+    "Phoenix Island": _B + "kr/phoenix-island.html",
+    "Haevichi Hotel & Resort Jeju": _B + "kr/haevichi.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

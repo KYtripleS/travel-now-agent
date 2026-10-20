@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-jeju": dict(
+        text="For a first trip, stay in Nohyeong and Yeon-dong: the airport is in Jeju City, 10 to 15 minutes from two hotels here. Choose Jungmun for resort pools, Seogwipo for the south-coast town, Aewol for the west-coast sea and Seongsan for sunrise. The VAT is 10%, and the 600 bus runs ₩1,300 to ₩5,500.",
+        link_text="Nohyeong and Yeon-dong",
+        cta=_stay_cta("where-to-stay-in-jeju", "See hotels around Nohyeong and Yeon-dong")),
     "where-to-stay-in-okinawa": dict(
         text="For a first trip without a car, stay in Naha near Kokusai-dori: the Yui Rail runs from the airport and the main street is on foot. Choose Chatan for the beach, Onna for resorts and Motobu for the aquarium. The 2% prefecture tax starts on 1 February 2027.",
         link_text="Kokusai-dori",
@@ -1319,6 +1323,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-jeju": ["Lotte City Hotel Jeju", "Shilla Stay Jeju", "The Shilla Jeju"],
     "where-to-stay-in-okinawa": ["Hotel JAL City Naha", "Hotel Torifito Naha Asahibashi", "The Kitchen Hostel Ao"],
     "where-to-stay-in-marrakech": ["El Fenn", "Les Jardins de la Koutoubia", "Equity Point Marrakech"],
     "where-to-stay-in-shanghai": ["Radisson Blu New World Hotel, Shanghai", "Holiday Inn Shanghai Nanjing Road", "Fairmont Peace Hotel"],
@@ -1441,6 +1446,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Jeju", "where-to-stay-in-jeju", None, None),
         ("Okinawa", "where-to-stay-in-okinawa", None, None),
         ("Marrakech", "where-to-stay-in-marrakech", None, None),
         ("Shanghai", "where-to-stay-in-shanghai", None, None),

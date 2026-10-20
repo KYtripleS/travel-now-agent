@@ -1,306 +1,888 @@
 {
- "place": "South Korea",
- "facts": [
-  {
-   "id": "kr.keta.exemption-2026",
-   "topic": "entry",
-   "claim": "Korea's Ministry of Justice has extended the temporary K-ETA exemption for 22 countries and regions (including the United States, Canada, the United Kingdom, Australia, New Zealand and Japan) to 31 December 2026; travellers without a K-ETA complete an arrival card instead.",
-   "sources": [
+  "place": "South Korea",
+  "facts": [
     {
-     "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707",
-     "kind": "official",
-     "title": "K-ETA: temporary exemption extended to 31 December 2026"
+      "id": "kr.keta.exemption-2026",
+      "topic": "entry",
+      "claim": "Korea's Ministry of Justice has extended the temporary K-ETA exemption for 22 countries and regions (including the United States, Canada, the United Kingdom, Australia, New Zealand and Japan) to 31 December 2026; travellers without a K-ETA complete an arrival card instead.",
+      "sources": [
+        {
+          "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707",
+          "kind": "official",
+          "title": "K-ETA: temporary exemption extended to 31 December 2026"
+        },
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=177&vcontsId=251923",
+          "kind": "official",
+          "title": "VisitKorea: K-ETA exemption period extended until 2026"
+        }
+      ],
+      "checked": "2026-10-07",
+      "recheck_days": 60,
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "to 31 December 2026"
+        ],
+        "articles/do-you-need-keta-south-korea.html": [
+          "through 31 December 2026"
+        ],
+        "articles/where-to-stay-in-jeju.html": [
+          "the exemption for visitors from 22 countries and regions that runs to 31 December 2026"
+        ]
+      },
+      "note": "Watch for a decision on 2027 in Q4 2026."
     },
     {
-     "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=177&vcontsId=251923",
-     "kind": "official",
-     "title": "VisitKorea: K-ETA exemption period extended until 2026"
-    }
-   ],
-   "checked": "2026-10-07",
-   "recheck_days": 60,
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "to 31 December 2026"
-    ],
-    "articles/do-you-need-keta-south-korea.html": [
-     "through 31 December 2026"
-    ]
-   },
-   "note": "Watch for a decision on 2027 in Q4 2026."
-  },
-  {
-   "id": "kr.vat-refund.accommodation",
-   "topic": "tax",
-   "recheck_days": 90,
-   "claim": "Korea refunds the VAT on room charges for up to 30 nights (breakfast included only if in the room rate; not service charges) to foreign individual tourists (not package groups) staying under 6 months and leaving within 3 months, at accommodation designated under the special provision; the culture ministry designates hotels quarterly.",
-   "sources": [
-    {
-     "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=489&vcontsId=248765",
-     "kind": "official",
-     "title": "VisitKorea: comprehensive tax refund guide (accommodation)"
+      "id": "kr.vat-refund.accommodation",
+      "topic": "tax",
+      "recheck_days": 90,
+      "claim": "Korea refunds the VAT on room charges for up to 30 nights (breakfast included only if in the room rate; not service charges) to foreign individual tourists (not package groups) staying under 6 months and leaving within 3 months, at accommodation designated under the special provision; the culture ministry designates hotels quarterly.",
+      "sources": [
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=489&vcontsId=248765",
+          "kind": "official",
+          "title": "VisitKorea: comprehensive tax refund guide (accommodation)"
+        },
+        {
+          "url": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pSeq=1636&pDataCD=0417000000&pType=05",
+          "kind": "official",
+          "title": "MCST: quarterly designation of hotels for the accommodation VAT refund"
+        },
+        {
+          "url": "https://www.newspim.com/news/view/20260807000669",
+          "kind": "news",
+          "title": "Newspim: 2026 tax reform proposal would end the scheme on 30 June 2027 (7 August 2026)"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "for up to 30 nights",
+          "Designations change each quarter"
+        ],
+        "articles/hotel-taxes-around-the-world-2026.html": [
+          "Korea refunds the VAT on room charges to foreign individual tourists, not package groups, for up to 30 nights"
+        ],
+        "articles/where-to-stay-in-jeju.html": [
+          "Korea refunds the VAT on hotel room charges, for up to 30 nights",
+          "Designations change each quarter"
+        ]
+      },
+      "note": "The government's 2026 tax reform proposal moves the end date from 31 December 2028 to 30 June 2027; recheck when the National Assembly passes the bill."
     },
     {
-     "url": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pSeq=1636&pDataCD=0417000000&pType=05",
-     "kind": "official",
-     "title": "MCST: quarterly designation of hotels for the accommodation VAT refund"
+      "id": "kr.busan.gimhae-limousine",
+      "topic": "fare",
+      "claim": "Gimhae Airport limousine buses leave from platform 3, first floor, of both terminals and take credit cards only: to Haeundae/Gijang ₩9,500, first 07:10, last 21:40, about every 60 minutes, stopping at Park Hyatt Busan, Dongbaekseom entrance and Haeundae Beach; to Seomyeon/Bujeon ₩6,000, first 07:20, last 21:30, about every 70 minutes, stopping at Seomyeon Station (Lotte Hotel).",
+      "sources": [
+        {
+          "url": "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?MENU_ID=110",
+          "kind": "official",
+          "title": "Gimhae International Airport: public transport"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "₩9,500",
+          "₩6,000",
+          "first 7.10am, last 9.40pm"
+        ]
+      }
     },
     {
-     "url": "https://www.newspim.com/news/view/20260807000669",
-     "kind": "news",
-     "title": "Newspim: 2026 tax reform proposal would end the scheme on 30 June 2027 (7 August 2026)"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "for up to 30 nights",
-     "Designations change each quarter"
-    ],
-    "articles/hotel-taxes-around-the-world-2026.html": [
-     "Korea refunds the VAT on room charges to foreign individual tourists, not package groups, for up to 30 nights"
-    ]
-   },
-   "note": "The government's 2026 tax reform proposal moves the end date from 31 December 2028 to 30 June 2027; recheck when the National Assembly passes the bill."
-  },
-  {
-   "id": "kr.busan.gimhae-limousine",
-   "topic": "fare",
-   "claim": "Gimhae Airport limousine buses leave from platform 3, first floor, of both terminals and take credit cards only: to Haeundae/Gijang ₩9,500, first 07:10, last 21:40, about every 60 minutes, stopping at Park Hyatt Busan, Dongbaekseom entrance and Haeundae Beach; to Seomyeon/Bujeon ₩6,000, first 07:20, last 21:30, about every 70 minutes, stopping at Seomyeon Station (Lotte Hotel).",
-   "sources": [
-    {
-     "url": "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?MENU_ID=110",
-     "kind": "official",
-     "title": "Gimhae International Airport: public transport"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "₩9,500",
-     "₩6,000",
-     "first 7.10am, last 9.40pm"
-    ]
-   }
-  },
-  {
-   "id": "kr.busan.bgl-transfers",
-   "topic": "transport",
-   "claim": "The Busan-Gimhae Light Rail Transit serves Gimhae Airport and connects with Busan Metro line 2 at Sasang and line 3 at Daejeo.",
-   "sources": [
-    {
-     "url": "https://www.bglrt.com/00214/00289.web",
-     "kind": "operator",
-     "title": "Busan-Gimhae Light Rail Transit: directions with transfers"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "meets the subway at Sasang, on line 2, and Daejeo, on line 3"
-    ]
-   }
-  },
-  {
-   "id": "kr.busan.fireworks-2026",
-   "topic": "stat",
-   "recheck_days": 30,
-   "claim": "The 21st Busan Fireworks Festival is on Saturday 7 November 2026 at Gwangalli Beach, Igidae and Dongbaekseom; paid seats are sold through NOL Ticket from 4 September 14:00 to 6 November 17:00.",
-   "sources": [
-    {
-     "url": "https://busanfireworks.com/content/overview_en",
-     "kind": "official",
-     "title": "Busan Fireworks Festival: overview"
+      "id": "kr.busan.bgl-transfers",
+      "topic": "transport",
+      "claim": "The Busan-Gimhae Light Rail Transit serves Gimhae Airport and connects with Busan Metro line 2 at Sasang and line 3 at Daejeo.",
+      "sources": [
+        {
+          "url": "https://www.bglrt.com/00214/00289.web",
+          "kind": "operator",
+          "title": "Busan-Gimhae Light Rail Transit: directions with transfers"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "meets the subway at Sasang, on line 2, and Daejeo, on line 3"
+        ]
+      }
     },
     {
-     "url": "https://busanfireworks.com/reservation_en",
-     "kind": "official",
-     "title": "Busan Fireworks Festival: tickets"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "Saturday 7 November 2026",
-     "until 5pm on 6 November"
-    ]
-   },
-   "note": "Programme times and road closures were not posted on 7 October 2026; add them if they appear."
-  },
-  {
-   "id": "kr.busan.drone-show",
-   "topic": "stat",
-   "recheck_days": 120,
-   "claim": "Suyeong-gu runs the Gwangalli M Drone Light Show every Saturday evening over Gwangalli Beach with about 1,100 drones, at 19:00 and 21:00 from October to February.",
-   "sources": [
-    {
-     "url": "https://www.gwangallimdrone.co.kr/",
-     "kind": "official",
-     "title": "Gwangalli M Drone Light Show"
+      "id": "kr.busan.fireworks-2026",
+      "topic": "stat",
+      "recheck_days": 30,
+      "claim": "The 21st Busan Fireworks Festival is on Saturday 7 November 2026 at Gwangalli Beach, Igidae and Dongbaekseom; paid seats are sold through NOL Ticket from 4 September 14:00 to 6 November 17:00.",
+      "sources": [
+        {
+          "url": "https://busanfireworks.com/content/overview_en",
+          "kind": "official",
+          "title": "Busan Fireworks Festival: overview"
+        },
+        {
+          "url": "https://busanfireworks.com/reservation_en",
+          "kind": "official",
+          "title": "Busan Fireworks Festival: tickets"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "Saturday 7 November 2026",
+          "until 5pm on 6 November"
+        ]
+      },
+      "note": "Programme times and road closures were not posted on 7 October 2026; add them if they appear."
     },
     {
-     "url": "https://www.busan.com/view/busan/view.php?code=2026092817364959114",
-     "kind": "news",
-     "title": "Busan Ilbo: the October 2026 shows (28 September 2026)"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "every Saturday evening",
-     "at 7pm and 9pm from October to February"
-    ]
-   },
-   "note": "Summer times (March to September) are later; recheck in March 2027."
-  },
-  {
-   "id": "kr.busan.hotel.signiel",
-   "topic": "hotel",
-   "claim": "Signiel Busan is in the LCT tower at the eastern end of Haeundae Beach (30 Dalmaji-gil) and opened in June 2020.",
-   "sources": [
-    {
-     "url": "https://www.lottehotel.com/busan-signiel/en/hotel-offers/packages/2020-03/grand-opening.html",
-     "kind": "operator",
-     "title": "Signiel Busan: grand opening package, June–July 2020"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "opened in June 2020"
-    ]
-   }
-  },
-  {
-   "id": "kr.busan.hotel.westin-josun",
-   "topic": "hotel",
-   "claim": "The Westin Josun Busan stands between Haeundae Beach and Dongbaek Island (67 Dongbaek-ro).",
-   "sources": [
-    {
-     "url": "https://josunhotel.com/hotel/westinBusan.do",
-     "kind": "operator",
-     "title": "The Westin Josun Busan"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "Between the western end of the beach and Dongbaek Island"
-    ]
-   }
-  },
-  {
-   "id": "kr.busan.hotel.park-hyatt",
-   "topic": "hotel",
-   "claim": "Park Hyatt Busan is in Marine City (51 Marine City 1-ro), within walking distance of Haeundae Beach, and is a stop on the Gimhae Airport limousine to Haeundae.",
-   "sources": [
-    {
-     "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
-     "kind": "operator",
-     "title": "Park Hyatt Busan"
+      "id": "kr.busan.drone-show",
+      "topic": "stat",
+      "recheck_days": 120,
+      "claim": "Suyeong-gu runs the Gwangalli M Drone Light Show every Saturday evening over Gwangalli Beach with about 1,100 drones, at 19:00 and 21:00 from October to February.",
+      "sources": [
+        {
+          "url": "https://www.gwangallimdrone.co.kr/",
+          "kind": "official",
+          "title": "Gwangalli M Drone Light Show"
+        },
+        {
+          "url": "https://www.busan.com/view/busan/view.php?code=2026092817364959114",
+          "kind": "news",
+          "title": "Busan Ilbo: the October 2026 shows (28 September 2026)"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "every Saturday evening",
+          "at 7pm and 9pm from October to February"
+        ]
+      },
+      "note": "Summer times (March to September) are later; recheck in March 2027."
     },
     {
-     "url": "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?MENU_ID=110",
-     "kind": "official",
-     "title": "Gimhae International Airport: limousine stops"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "In Marine City, west of Dongbaek Island"
-    ]
-   }
-  },
-  {
-   "id": "kr.busan.hotel.grand-josun",
-   "topic": "hotel",
-   "claim": "Grand Josun Busan is on Haeundaehaebyeon-ro, ten minutes' walk from Haeundae Station exits 3 and 5.",
-   "sources": [
+      "id": "kr.busan.hotel.signiel",
+      "topic": "hotel",
+      "claim": "Signiel Busan is in the LCT tower at the eastern end of Haeundae Beach (30 Dalmaji-gil) and opened in June 2020.",
+      "sources": [
+        {
+          "url": "https://www.lottehotel.com/busan-signiel/en/hotel-offers/packages/2020-03/grand-opening.html",
+          "kind": "operator",
+          "title": "Signiel Busan: grand opening package, June–July 2020"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "opened in June 2020"
+        ]
+      }
+    },
     {
-     "url": "https://gjb.josunhotel.com/about/aboutUs.do",
-     "kind": "operator",
-     "title": "Grand Josun Busan: location"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "ten minutes' walk from exits 3 and 5 of Haeundae Station"
-    ]
-   }
-  },
-  {
-   "id": "kr.busan.hotel.shilla-stay-haeundae",
-   "topic": "hotel",
-   "claim": "Shilla Stay Haeundae's standard rooms are 28 m², on the 3rd to 8th floors, with city or ocean views; parking is free during the stay.",
-   "sources": [
+      "id": "kr.busan.hotel.westin-josun",
+      "topic": "hotel",
+      "claim": "The Westin Josun Busan stands between Haeundae Beach and Dongbaek Island (67 Dongbaek-ro).",
+      "sources": [
+        {
+          "url": "https://josunhotel.com/hotel/westinBusan.do",
+          "kind": "operator",
+          "title": "The Westin Josun Busan"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "Between the western end of the beach and Dongbaek Island"
+        ]
+      }
+    },
     {
-     "url": "https://m.shillastay.com/haeundae/accommodation/viewAccLng.do?contId=ST",
-     "kind": "operator",
-     "title": "Shilla Stay Haeundae: standard rooms"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "Standard rooms of 28 m² on the third to eighth floors"
-    ]
-   }
-  },
-  {
-   "id": "kr.busan.hotel.kent-gwangalli",
-   "topic": "hotel",
-   "claim": "Kent Hotel Gwangalli by Kensington is on Gwanganhaebyeon-ro, with ocean-view rooms facing Gwangan Bridge and a top-floor lounge with views of the bridge.",
-   "sources": [
+      "id": "kr.busan.hotel.park-hyatt",
+      "topic": "hotel",
+      "claim": "Park Hyatt Busan is in Marine City (51 Marine City 1-ro), within walking distance of Haeundae Beach, and is a stop on the Gimhae Airport limousine to Haeundae.",
+      "sources": [
+        {
+          "url": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+          "kind": "operator",
+          "title": "Park Hyatt Busan"
+        },
+        {
+          "url": "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?MENU_ID=110",
+          "kind": "official",
+          "title": "Gimhae International Airport: limousine stops"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "In Marine City, west of Dongbaek Island"
+        ]
+      }
+    },
     {
-     "url": "https://www.kensington.co.kr/hga",
-     "kind": "operator",
-     "title": "Kent Hotel Gwangalli by Kensington (rooms, top-floor front lounge facing Gwangan Bridge, 2026 fireworks package)"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "ocean-view rooms facing Gwangan Bridge"
-    ]
-   }
-  },
-  {
-   "id": "kr.busan.hotel.toyoko-seomyeon",
-   "topic": "hotel",
-   "claim": "Toyoko Inn Busan Seomyeon is about seven minutes' walk from Seomyeon Station (exit 10, then exit 8).",
-   "sources": [
+      "id": "kr.busan.hotel.grand-josun",
+      "topic": "hotel",
+      "claim": "Grand Josun Busan is on Haeundaehaebyeon-ro, ten minutes' walk from Haeundae Station exits 3 and 5.",
+      "sources": [
+        {
+          "url": "https://gjb.josunhotel.com/about/aboutUs.do",
+          "kind": "operator",
+          "title": "Grand Josun Busan: location"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "ten minutes' walk from exits 3 and 5 of Haeundae Station"
+        ]
+      }
+    },
     {
-     "url": "https://www.toyoko-inn.com/eng/search/detail/00221/access/",
-     "kind": "operator",
-     "title": "Toyoko Inn Busan Seomyeon: directions"
-    }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "About seven minutes' walk from Seomyeon Station"
-    ]
-   }
-  },
-  {
-   "id": "kr.busan.hotel.toyoko-busan-station",
-   "topic": "hotel",
-   "claim": "Toyoko Inn Busan Station No.1 is a 1-minute walk from KTX Busan Station and 2 minutes from Busan Station on subway line 1.",
-   "sources": [
+      "id": "kr.busan.hotel.shilla-stay-haeundae",
+      "topic": "hotel",
+      "claim": "Shilla Stay Haeundae's standard rooms are 28 m², on the 3rd to 8th floors, with city or ocean views; parking is free during the stay.",
+      "sources": [
+        {
+          "url": "https://m.shillastay.com/haeundae/accommodation/viewAccLng.do?contId=ST",
+          "kind": "operator",
+          "title": "Shilla Stay Haeundae: standard rooms"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "Standard rooms of 28 m² on the third to eighth floors"
+        ]
+      }
+    },
     {
-     "url": "https://www.toyoko-inn.com/eng/search/detail/00194/",
-     "kind": "operator",
-     "title": "Toyoko Inn Busan Station No.1"
+      "id": "kr.busan.hotel.kent-gwangalli",
+      "topic": "hotel",
+      "claim": "Kent Hotel Gwangalli by Kensington is on Gwanganhaebyeon-ro, with ocean-view rooms facing Gwangan Bridge and a top-floor lounge with views of the bridge.",
+      "sources": [
+        {
+          "url": "https://www.kensington.co.kr/hga",
+          "kind": "operator",
+          "title": "Kent Hotel Gwangalli by Kensington (rooms, top-floor front lounge facing Gwangan Bridge, 2026 fireworks package)"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "ocean-view rooms facing Gwangan Bridge"
+        ]
+      }
+    },
+    {
+      "id": "kr.busan.hotel.toyoko-seomyeon",
+      "topic": "hotel",
+      "claim": "Toyoko Inn Busan Seomyeon is about seven minutes' walk from Seomyeon Station (exit 10, then exit 8).",
+      "sources": [
+        {
+          "url": "https://www.toyoko-inn.com/eng/search/detail/00221/access/",
+          "kind": "operator",
+          "title": "Toyoko Inn Busan Seomyeon: directions"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "About seven minutes' walk from Seomyeon Station"
+        ]
+      }
+    },
+    {
+      "id": "kr.busan.hotel.toyoko-busan-station",
+      "topic": "hotel",
+      "claim": "Toyoko Inn Busan Station No.1 is a 1-minute walk from KTX Busan Station and 2 minutes from Busan Station on subway line 1.",
+      "sources": [
+        {
+          "url": "https://www.toyoko-inn.com/eng/search/detail/00194/",
+          "kind": "operator",
+          "title": "Toyoko Inn Busan Station No.1"
+        }
+      ],
+      "checked": "2026-10-07",
+      "used_in": {
+        "articles/where-to-stay-in-busan.html": [
+          "A minute's walk from the KTX station and two from Busan Station on line 1"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.vat-rate-10",
+      "topic": "tax",
+      "claim": "Korea's value-added tax rate is 10% for all business types (general taxpayers), per the National Tax Service; VisitKorea's refund guide treats hotel rooms as VAT-inclusive accommodation.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2275&cntntsId=7696",
+          "kind": "official",
+          "title": "National Tax Service: VAT rate (all business types 10%)"
+        },
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=489&vcontsId=248765",
+          "kind": "official",
+          "title": "VisitKorea: comprehensive tax refund guide (accommodation)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "Korea's value-added tax is 10%",
+          "10%, the general rate set out by the National Tax Service",
+          "a room quoted at ₩200,000 before tax carries ₩20,000 of VAT",
+          "it costs ₩220,000 a night and ₩660,000 for three nights"
+        ]
+      },
+      "note": "The NTS English site has no rates page; the rate is read from the Korean NTS page. Our worked example is arithmetic, not a quote."
+    },
+    {
+      "id": "kr.jeju.hotel-tax-inclusive",
+      "topic": "price",
+      "claim": "Maison Glad Jeju's package pages say the stated amounts include tax; Grand Josun Jeju's room pages list rack rates marked 'tax included' (세금 포함); none of the 12 hotels' own pages read states a separate service charge.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.glad-hotels.com/maisongladjeju/package/get.do?packageSn=1164287",
+          "kind": "official",
+          "title": "Maison Glad Jeju: package page ('amounts include tax')"
+        },
+        {
+          "url": "https://gjj.josunhotel.com/rooms/deluxe.do",
+          "kind": "official",
+          "title": "Grand Josun Jeju: Deluxe room page (published rate, tax included)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "Maison Glad Jeju says its package prices include tax",
+          "Grand Josun Jeju marks its published room rates “tax included”",
+          "none of the 12 hotels' own pages that we read states one"
+        ]
+      },
+      "note": "The negative claim (no service charge stated) covers only the pages we read; it is not proof no hotel adds one."
+    },
+    {
+      "id": "kr.jeju.environmental-fee-2026",
+      "topic": "tax",
+      "claim": "We found no visitor entry or environmental fee in force in Jeju for 2026: VisitJeju's practical information lists none and no notice putting one into effect was found on the provincial government's site; a visitor environmental contribution has been discussed in earlier years.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.visitjeju.net/en/themtour/view?contentsid=CNTS_000000000022574&menuId=DOM_700000000010784",
+          "kind": "official",
+          "title": "VisitJeju: Your first trip to Jeju (practical information; an older page)"
+        },
+        {
+          "url": "https://www.jeju.go.kr/",
+          "kind": "official",
+          "title": "Jeju Special Self-Governing Province (provincial site; its search page returned an error, no notice found)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "we found no visitor entry or environmental fee in force for 2026",
+          "We found nothing in force for 2026",
+          "Check the province's site before you travel"
+        ]
+      },
+      "note": "Absence-of-evidence claim: the VisitJeju page is dated and the provincial site's search failed, so no official statement either way was read. Local press (Jeju Sori, Jeju Ilbo) reports the contribution as proposed and on hold; not cited. Re-check before publishing."
+    },
+    {
+      "id": "kr.jeju.limousine-600-fares",
+      "topic": "fare",
+      "claim": "On the 600 airport limousine the Jeju bus information system's fare table gives adult fares of ₩1,300 to the first stops (Jeju Sun Hotel, Lotte City Hotel, Halla Hospital, Jeongjon Village), ₩4,500 to the Jungmun resort hotels, the Jeju convention centre, Daepo and Yakcheonsa, ₩5,000 to Gangjeong and the World Cup Stadium, and ₩5,500 to Seogwipo harbour, the Paradise Hotel and Seogwipo KAL Hotel.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://bus.jeju.go.kr/publicTrafficInformation/download/600/fee",
+          "kind": "operator",
+          "title": "Jeju Bus Information System: 600 fare table (xlsx; general adult column)"
+        },
+        {
+          "url": "https://bus.jeju.go.kr/publicTrafficInformation/airportBusInfo",
+          "kind": "operator",
+          "title": "Jeju Bus Information System: airport limousine 600 and 800"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "₩1,300 to a Jeju City stop, ₩4,500 to the Jungmun resorts and ₩5,500 to the end of the line in Seogwipo",
+          "The Jungmun resort hotels and the Jeju convention centre",
+          "Seogwipo KAL Hotel, the end of the line",
+          "the Jeju bus information system gives these adult fares on the 600 route"
+        ]
+      },
+      "note": "Fare table is a downloadable spreadsheet (read, not opened as a program). It does not say whether cash and card fares differ."
+    },
+    {
+      "id": "kr.jeju.limousine-600-hours",
+      "topic": "transport",
+      "claim": "The 600 airport limousine boards at the stop in front of Gate 5 of Jeju International Airport and runs every 16 to 40 minutes; the Jeju bus system's 600/601 timetable (effective 2024-08-01) lists the first bus from the airport at 6:00 and the last at 22:20; the airport's English page lists 06:00 and 22:40 and its Korean page 06:30 and 22:20.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.airport.co.kr/jejueng/cms/frCon/index.do?MENU_ID=90",
+          "kind": "official",
+          "title": "Jeju International Airport: Public Transportation (English)"
+        },
+        {
+          "url": "https://www.airport.co.kr/jeju/cms/frCon/index.do?CONTENTS_NO=2&MENU_ID=100",
+          "kind": "official",
+          "title": "Jeju International Airport: Public Transportation (Korean)"
+        },
+        {
+          "url": "https://bus.jeju.go.kr/mobile/schedule/detailSchedule?scheduleId=1532",
+          "kind": "operator",
+          "title": "Jeju Bus Information System: 600 and 601 timetable"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "The airport limousine stop is in front of Gate 5",
+          "The 600 runs about every 16 to 40 minutes",
+          "lists the first bus from the airport at 6.00am and the last at 10.20pm",
+          "the airport's English page says 10.40pm"
+        ]
+      },
+      "note": "Last-bus time differs between sources (22:20 vs 22:40); the article gives the bus system's time and flags the English page. The timetable is dated 2024-08-01."
+    },
+    {
+      "id": "kr.jeju.limousine-601-800",
+      "topic": "transport",
+      "claim": "Per the Jeju bus information system, the 601 runs via Lotte Hotel, The Suites Hotel and the Shilla Hotel while the 600 stops only at the hotels' entrances; the 800 runs between Jeju Terminal, the airport and Seogwipo Terminal and does not pass Jungmun.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://bus.jeju.go.kr/mobile/schedule/detailSchedule?scheduleId=1532",
+          "kind": "operator",
+          "title": "Jeju Bus Information System: 600 and 601 timetable"
+        },
+        {
+          "url": "https://bus.jeju.go.kr/publicTrafficInformation/airportBusInfo",
+          "kind": "operator",
+          "title": "Jeju Bus Information System: airport limousine 600 and 800"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "It enters the grounds of Lotte Hotel, The Suites Hotel and the Shilla; the 600 stops only at their entrances",
+          "It runs between Jeju Terminal, the airport and Seogwipo Terminal"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.bus-fares",
+      "topic": "fare",
+      "claim": "Jeju trunk and branch buses charge a single fare of ₩1,150 by card or ₩1,200 in cash; express buses start at ₩2,000 by card (₩3,000 cash) with a distance supplement, capped at ₩3,000.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://bus.jeju.go.kr/mobile/schedule/busfare",
+          "kind": "operator",
+          "title": "Jeju Bus Information System: bus fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "₩1,150 by transport card or ₩1,200 in cash on trunk and branch routes",
+          "express buses cost ₩2,000 to ₩3,000 by card"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.airport-ride-times",
+      "topic": "transport",
+      "claim": "VisitJeju's public-transport guide gives the 600 airport limousine ride as about 50 minutes from the airport to Jungmun and about 80 minutes to Seogwipo KAL Hotel; it also says the airport is Jeju's only airport, in Jeju City.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.visitjeju.net/en/themtour/view?contentsid=CNTS_200000000012534",
+          "kind": "official",
+          "title": "VisitJeju: Public Transportation in Jeju (page last revised 2021)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "VisitJeju puts the ride at about 50 minutes to Jungmun and 80 to the KAL Hotel",
+          "80 minutes from the airport by VisitJeju's reckoning",
+          "the island's only airport, in Jeju City"
+        ]
+      },
+      "note": "The VisitJeju page is dated (2021 revision, with 2017-era content); times are 'about' and may have changed."
+    },
+    {
+      "id": "kr.jeju.airport-taxi",
+      "topic": "transport",
+      "claim": "VisitJeju says the airport taxi stand is outside Gate 3 of the arrivals hall; no fares are quoted in the article.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.visitjeju.net/en/themtour/view?contentsid=CNTS_000000000022574&menuId=DOM_700000000010784",
+          "kind": "official",
+          "title": "VisitJeju: Your first trip to Jeju (taxi stand outside Gate 3)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "Taxis queue outside Gate 3 of the arrivals hall"
+        ]
+      },
+      "note": "Source is an older VisitJeju page; the taxi stand location was not re-checked on the airport site."
+    },
+    {
+      "id": "kr.jeju.seongsan-ilchulbong",
+      "topic": "place",
+      "claim": "Seongsan Ilchulbong ('Sunrise Peak') is a UNESCO World Natural Heritage volcanic cone and Natural Monument No. 420; the climb to the summit takes about 30 to 40 minutes; it is closed on the first Monday of every month (the next day if that is a public holiday).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.visitjeju.net/en/detail/view?contentsid=CONT_000000000500349",
+          "kind": "official",
+          "title": "VisitJeju: Seongsan Ilchulbong"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "is a volcanic cone above the sea on Jeju's east coast and a UNESCO World Natural Heritage Site",
+          "the climb takes about 30 to 40 minutes",
+          "the site is closed on the first Monday of every month"
+        ]
+      },
+      "note": "Closure rule confirmed in the page's raw HTML (updated 2026-10-07)."
+    },
+    {
+      "id": "kr.jeju.jungmun-jusangjeolli-stop",
+      "topic": "place",
+      "claim": "The 600 route's stop list includes a stop named for the Jungmun-Daepo coastal Jusangjeolli cliffs (중문대포해안주상절리대), between the Jeju convention centre and Daepo harbour.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://bus.jeju.go.kr/mobile/schedule/detailSchedule?scheduleId=1532",
+          "kind": "operator",
+          "title": "Jeju Bus Information System: 600 and 601 timetable (stop list)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "the route has a stop named for the Jusangjeolli cliffs, the columnar basalt of the coast here"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.hotel.lotte-city",
+      "topic": "hotel",
+      "claim": "Lotte City Hotel Jeju is at 83 Doryeong-ro, Jeju-si, says it is 'only 10 minutes from Jeju International Airport by car', and lists Standard rooms of 30-35 m² with city views and Superior/Deluxe rooms with ocean or mountain views; the 600 airport bus has a stop named for it.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.lottehotel.com/jeju-city/en.html",
+          "kind": "official",
+          "title": "Lotte City Hotel Jeju: home page (address, airport distance)"
+        },
+        {
+          "url": "https://www.lottehotel.com/prerendered/jeju-city/en/rooms/index.html",
+          "kind": "official",
+          "title": "Lotte City Hotel Jeju: rooms (areas and views)"
+        },
+        {
+          "url": "https://bus.jeju.go.kr/mobile/schedule/detailSchedule?scheduleId=1532",
+          "kind": "operator",
+          "title": "Jeju Bus Information System: 600 stop list"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "At 83 Doryeong-ro, in Yeon-dong, 10 minutes from the airport by car by the hotel's own count, with rooms of 30 to 35 m²",
+          "The 600 airport bus has a stop named for it",
+          "the Standard rooms look onto the city; the ocean and mountain views are on the Deluxe and Superior rooms",
+          "Lotte City Hotel says 10 minutes by car"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.hotel.maison-glad",
+      "topic": "hotel",
+      "claim": "Maison Glad Jeju is at 80 Noyeon-ro, Jeju-si, with 457 guestrooms and 56 suites, a patio pool, and says it reinterprets the heritage of the former Jeju Grand Hotel; its location page says the airport shuttle has been suspended since June 2020.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.glad-hotels.com/maisongladjeju/hotel/about.do?locale=en",
+          "kind": "official",
+          "title": "Maison Glad Jeju: about"
+        },
+        {
+          "url": "https://www.glad-hotels.com/maisongladjeju/hotel/location.do?locale=en",
+          "kind": "official",
+          "title": "Maison Glad Jeju: location (address, shuttle suspended)"
+        },
+        {
+          "url": "https://www.glad-hotels.com/maisongladjeju/index.do",
+          "kind": "official",
+          "title": "Maison Glad Jeju: home (patio pool)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "At 80 Noyeon-ro, with 457 guestrooms and 56 suites, a patio pool",
+          "reinterprets the heritage of the old Jeju Grand Hotel",
+          "its airport shuttle has been suspended since June 2020"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.hotel.shilla-stay",
+      "topic": "hotel",
+      "claim": "Shilla Stay Jeju is at 100 Noyeon-ro, Jeju-si, about 20 minutes from Jeju International Airport by bus and 15 by taxi per its own location page, and lists rooms, a buffet restaurant café, a meeting room, a gym and a business corner.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.shillahotels.com/en/shillastay/jeju/introduction/location.do",
+          "kind": "official",
+          "title": "Shilla Stay Jeju: Getting Here"
+        },
+        {
+          "url": "https://www.shillahotels.com/en/shillastay/jeju/introduction/about.do",
+          "kind": "official",
+          "title": "Shilla Stay Jeju: about"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "At 100 Noyeon-ro, about 15 minutes from the airport by taxi or 20 by bus, with rooms, a buffet restaurant, a gym and a business corner",
+          "Shilla Stay says 15 minutes by taxi or about 20 by bus",
+          "the hotel lists a gym but no pool"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.hotel.shilla-jeju",
+      "topic": "hotel",
+      "claim": "The Shilla Jeju is at 75 Jungmungwangwang-ro 72beon-gil, Seogwipo-si, with indoor and outdoor pools, a Glamping Village and kids' facilities; its own pages say bus 600 stops at the Shilla entrance stop, about 3 minutes' walk from the main entrance, and give 70-90 minutes from the airport by taxi or bus.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.shillahotels.com/en/theshilla/jeju/introduction/about.do",
+          "kind": "official",
+          "title": "The Shilla Jeju: about"
+        },
+        {
+          "url": "https://www.shillahotels.com/en/theshilla/jeju/introduction/location.do",
+          "kind": "official",
+          "title": "The Shilla Jeju: Directions"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "At 75 Jungmungwangwang-ro 72beon-gil, with indoor and outdoor pools, a Glamping Village and kids' facilities",
+          "The hotel says bus 600 stops at the Shilla entrance stop, about three minutes' walk from the front door",
+          "the hotel's page gives the transfer from the airport as 70 to 90 minutes by taxi or bus"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.hotel.grand-josun",
+      "topic": "hotel",
+      "claim": "Grand Josun Jeju is at 60 Jungmungwangwang-ro 72beon-gil, a five-star resort with six restaurants and bars, a four-season heated pool, fitness, spa and kids' club; its page says to board the 600 or 601 limousine in front of Gate 5 (every 15-20 minutes) and lists a Deluxe room published rate from ₩715,000 tax included.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://gjj.josunhotel.com/about/aboutUs.do",
+          "kind": "official",
+          "title": "Grand Josun Jeju: about (Korean)"
+        },
+        {
+          "url": "https://gjj.josunhotel.com/rooms/deluxe.do",
+          "kind": "official",
+          "title": "Grand Josun Jeju: Deluxe room (published rate)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "At 60 Jungmungwangwang-ro 72beon-gil, a five-star resort with six restaurants and bars, a heated pool open all four seasons, a spa and a kids' club",
+          "board the 600 or 601 limousine in front of Gate 5, every 15 to 20 minutes",
+          "the hotel's published rate for a Deluxe room starts at ₩715,000 a night, tax included, before any offer"
+        ]
+      },
+      "note": "Hotel pages are Korean only; the rack rate is the hotel's 정상가 (published rate), not a live price."
+    },
+    {
+      "id": "kr.jeju.hotel.benikea-jungmun",
+      "topic": "hotel",
+      "claim": "Benikea Jungmun Hotel is a 3-star hotel of 46 family twin rooms at 166 Cheonjeyeon-ro, Jungmun-dong; its page says breakfast has been free for all guests since 2 August 2023, lists parking, calls it adjacent to the Jeju International Convention Center, and names a restaurant, a wine shop, a business centre and a conference room as facilities.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.benikea.com/hotel/infoHotel.do?hotelNo=1130",
+          "kind": "official",
+          "title": "Benikea Jungmun Hotel: hotel page (Benikea chain official site, Korean)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "A three-star hotel of 46 family twin rooms at 166 Cheonjeyeon-ro",
+          "breakfast free for every guest, by the hotel's own page",
+          "its listed facilities are a restaurant, a wine shop, a business centre and a conference room, not a pool"
+        ]
+      },
+      "note": "Benikea is a cooperative chain; the hotel page is on the chain's official booking site (the hotel has no separate site found)."
+    },
+    {
+      "id": "kr.jeju.hotel.seogwipo-kal",
+      "topic": "hotel",
+      "claim": "Seogwipo KAL Hotel is at 242 Chilsipli-ro, Seogwipo, on the south coast facing the Seopseom, Munseom and Beomseom islands with Hallasan visible, with a palm garden and an octagonal pavilion; its Ondol rooms all face Hallasan and its Deluxe rooms face the islands and the palm garden.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.kalhotel.co.kr/theme/daontheme_pro07/html/company/about.php",
+          "kind": "official",
+          "title": "Seogwipo KAL Hotel: about"
+        },
+        {
+          "url": "https://www.kalhotel.co.kr/",
+          "kind": "official",
+          "title": "Seogwipo KAL Hotel: home (room types and views, Korean)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "At 242 Chilsipli-ro, on the south coast, with a palm garden and an octagonal pavilion",
+          "Its Ondol rooms all face Hallasan; the Deluxe rooms face the islands and the palm garden",
+          "the shore looks out to the Seopseom, Munseom and Beomseom islands, with Hallasan behind"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.hotel.stanford",
+      "topic": "hotel",
+      "claim": "STANFORD Hotel & Resort Jeju is at 406 Aewolhaean-ro, Aewol-eup; its page says its sloped site gives every room a view of the Aewol sea, with hotel rooms, standalone pool villas and private pools, next to Olle route 16; the outdoor pool runs May to September 13:00-21:00 and may close in bad weather.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.stanford-hotel.com/jeju/kr/html/14",
+          "kind": "official",
+          "title": "Stanford Hotel Jeju: introduction (Korean)"
+        },
+        {
+          "url": "https://www.stanford-hotel.com/jeju/kr/html/45",
+          "kind": "official",
+          "title": "Stanford Hotel Jeju: facilities, pool (Korean)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "At 406 Aewolhaean-ro, on a slope so that every room sees the Aewol sea, with hotel rooms, standalone pool villas and private pools",
+          "the outdoor pool is open from May to September only, 1pm to 9pm, and the hotel says weather can close it",
+          "Stanford's own page puts Olle route 16 beside its grounds"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.hotel.kensington-hallim",
+      "topic": "hotel",
+      "claim": "Kensington Resort Jeju Hallim is at 530 Hallimhaean-ro, Hallim-eup, described on its page as on the sea in front of Aewol and Hallim with good airport access and large rooms for families; one room type is listed at 21 pyeong for up to four adults; its directions give bus 102 from airport stop 4 to the Hallim transfer stop, then a five-minute taxi.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.kensington.co.kr/rhl/branch_info",
+          "kind": "official",
+          "title": "Kensington Resort Jeju Hallim: location and directions (Korean)"
+        },
+        {
+          "url": "https://www.kensington.co.kr/rhl/room_info",
+          "kind": "official",
+          "title": "Kensington Resort Jeju Hallim: rooms (Korean)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "At 530 Hallimhaean-ro, on the sea in front of Aewol and Hallim, with large rooms for families",
+          "the 102 bus from stop 4 at the airport to the Hallim transfer stop, then five minutes by taxi"
+        ]
+      },
+      "note": "21 pyeong ≈ 69.4 m² is our conversion (1 pyeong = 3.3058 m²); the hotel does not say whether the figure is supply or exclusive area. No Booking.com listing found."
+    },
+    {
+      "id": "kr.jeju.hotel.benikea-jeju",
+      "topic": "hotel",
+      "claim": "Benikea Hotel Jeju is a 3-star hotel of 188 rooms at 554-6 Aewolhaean-ro (Sineom-ri), described as about 20 minutes west of Jeju Airport, with a buffet restaurant and a summer outdoor pool; its page lists pick-up as unavailable.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.benikea.com/hotel/infoHotel.do?hotelNo=1110",
+          "kind": "official",
+          "title": "Benikea Hotel Jeju: hotel page (Benikea chain official site, Korean)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "A three-star hotel of 188 rooms on the Aewol coast road, at Sineom-ri, about 20 minutes west of the airport by the hotel's count, with a buffet restaurant and an outdoor pool in summer",
+          "the hotel's page says it does not offer pick-up",
+          "Benikea Hotel Jeju gives the distance from the airport as about 20 minutes"
+        ]
+      },
+      "note": "Booking.com lists the address as 554-8 Aewolhaean-ro vs the hotel's 554-6; same property (name, road, area)."
+    },
+    {
+      "id": "kr.jeju.hotel.phoenix-island",
+      "topic": "hotel",
+      "claim": "Phoenix Island is at 107 Seopjikoji-ro, Seongsan-eup, on the Seopjikoji cape with a year-round heated poolside bar and the Yumin Art Nouveau Museum; its page says 50 minutes from the airport, a complimentary airport shuttle for guests (first come, first served) and a 3.1 km taxi from Goseong-ri, and 'the place where you can see both the sunrise and the sunset'.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.phoenixhnr.co.kr/en/static/jeju/guide/traffic/map",
+          "kind": "official",
+          "title": "Phoenix Island: traffic guidance"
+        },
+        {
+          "url": "https://www.phoenixhnr.co.kr/en/static/jeju/guide/intro",
+          "kind": "official",
+          "title": "Phoenix Island: introduction"
+        },
+        {
+          "url": "https://www.phoenixhnr.co.kr/en/page/main/jeju",
+          "kind": "official",
+          "title": "Phoenix Island: home"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "At 107 Seopjikoji-ro, Seongsan-eup, a resort on the Seopjikoji cape with a heated poolside bar open all year and the Yumin Art Nouveau Museum",
+          "runs a complimentary airport shuttle for guests, first come first served",
+          "from Goseong-ri village the hotel's directions give a taxi ride of 3.1 km",
+          "sunrise and sunset in one place"
+        ]
+      }
+    },
+    {
+      "id": "kr.jeju.hotel.haevichi",
+      "topic": "hotel",
+      "claim": "Haevichi Hotel & Resort Jeju is at 537 Minsokhaean-ro, Pyoseon-myeon, with a hotel and a resort building; its Location page lists a shuttle from the airport's Bus Parking Lot B and bus 121/122 from the stop in front of Gates 1-2 to the Jeju Folk Village stop (about 7 minutes' walk); its Superior room is 47 m², village view, floors 1-9, with indoor and outdoor pool and fitness access.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.haevichi.com/jeju/en/location",
+          "kind": "official",
+          "title": "Haevichi Hotel & Resort Jeju: Location"
+        },
+        {
+          "url": "https://www.haevichi.com/jeju/en/hotel/rooms/superior",
+          "kind": "official",
+          "title": "Haevichi Hotel Jeju: Superior room"
+        },
+        {
+          "url": "https://www.haevichi.com/jeju/en/",
+          "kind": "official",
+          "title": "Haevichi Hotel & Resort Jeju: home"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-jeju.html": [
+          "At 537 Minsokhaean-ro, in Pyoseon-myeon on the south-east coast, with a hotel and a resort building and a shuttle from Bus Parking Lot B at the airport",
+          "bus 121 or 122 from the stop in front of Gates 1 and 2 to the Jeju Folk Village stop, then a walk of about seven minutes",
+          "the Superior rooms of 47 m² look onto the village, not the sea"
+        ]
+      }
     }
-   ],
-   "checked": "2026-10-07",
-   "used_in": {
-    "articles/where-to-stay-in-busan.html": [
-     "A minute's walk from the KTX station and two from Busan Station on line 1"
-    ]
-   }
-  }
- ]
+  ]
 }
