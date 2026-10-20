@@ -15,6 +15,20 @@ Read it BEFORE making changes. It captures non-obvious conventions and hard rule
 
 ---
 
+## ⚡ Session start (read first)
+
+- Live site: https://gentlyyonder.com (GitHub Pages from `docs/`).
+- Current state, decisions and next steps: `ops/state/SESSION_HANDOFF.md`, `PROJECT_STATE.md`,
+  `DECISIONS.md` (local, gitignored: they hold revenue notes). Read the handoff before exploring.
+- Python is `.venv/bin/python`. Build: `zsh ops/pipeline.sh`. Checks: `audit_site.py` (7/8 ok),
+  `facts.py`, `test_monetization.py`. After push: `.venv/bin/python indexnow.py --since HEAD~1`.
+- Stay guides: brief `prompts/stay_brief.md`, register `ops/register_stay.py`, daily numbers `ops/daily.py`.
+- Models: Haiku for mechanical work (GSC clicks, data pulls), Sonnet for drafts, Opus for
+  verification and decisions. Pass `model` when spawning agents; custom agents set it in frontmatter.
+- Before `/clear`: update `ops/state/SESSION_HANDOFF.md`.
+
+---
+
 ## 🔒 PRIVACY — non-negotiable
 
 These rules exist because the operator runs this as a side project and does NOT
@@ -167,6 +181,9 @@ cp site/images/pinterest/<name>.png docs/images/pinterest/<name>.png
   4. **User replies `NG`** (or anything ambiguous / silent) → AI does NOT
      proceed. User adjusts or commits manually.
 - The `OK` authorizes that ONE batch only. Each new batch needs a new OK.
+- **Standing approval (operator, 2026-10-19):** routine batches (articles, builds, pipeline,
+  indexing) may be committed and pushed without asking. Still ask first for anything touching
+  personal information, deleting pages or data, money, logins, or external submissions.
 - **Never proceed without explicit `OK`.** Ambiguous replies count as NG.
 - **Never `--no-verify` / `--no-gpg-sign`** unless the user explicitly asks.
 - **Commit message style:** imperative, descriptive, includes the *why* not just the *what*.

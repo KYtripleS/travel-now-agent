@@ -30,3 +30,6 @@ data/newsletter_subs.csv
 
 # build-time map geometry (world-atlas 2.0.2, Natural Earth); the generated SVG is what ships
 data/geo/
+
+# Session state and decisions (internal: revenue, plans) — never commit
+ops/state/
