@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-okinawa.html": (
+        "Where to Stay in Okinawa",
+        "Five areas, 12 hotels and the tax: Okinawa's 2% accommodation tax starts on 1 February 2027, not in 2026.",
+    ),
     "articles/where-to-stay-in-marrakech.html": (
         "Where to Stay in Marrakech",
         "Five areas, 12 hotels and Marrakech's tourist tax: MAD 2 to 30 a person a night by category, plus 10% VAT.",
@@ -2057,6 +2061,11 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-okinawa.html": [
+        "articles/where-to-stay-in-japan.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-japan-2026.html",
     ],
     "articles/where-to-stay-in-marrakech.html": [
         "articles/hotel-booking-sites-comparison.html",

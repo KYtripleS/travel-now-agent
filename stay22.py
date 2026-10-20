@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-okinawa": dict(area="Kokusai-dori", lat=26.2155, lng=127.6867, zoom=14,
+                                        address="Kokusai-dori, Naha, Okinawa, Japan"),
     "where-to-stay-in-marrakech": dict(area="Jemaa el-Fnaa", lat=31.6258, lng=-7.9891, zoom=15,
                                           address="Jemaa el-Fnaa, Marrakech, Morocco"),
     "where-to-stay-in-shanghai": dict(area="People's Square", lat=31.2304, lng=121.4737, zoom=14,
@@ -1001,6 +1003,19 @@ HOTELS = {
     "ibis Marrakech Centre Gare": _B + "ma/ibis-moussafir-marrakech-centre-gare.html",
     "Es Saadi Marrakech Resort Hotel": _B + "ma/es-saadi-garden-resort.html",
     "Sofitel Marrakech Palais Impérial & Spa": _B + "ma/sofitel-marrakech.html",
+    # Okinawa (Booking.com pages confirmed by hotel name and city)
+    "Hotel JAL City Naha": _B + "jp/jal-city-naha.html",
+    "The Kitchen Hostel Ao": _B + "jp/the-kitchen-hostel-ao.html",
+    "OKINAWA NaHaNa HOTEL": _B + "jp/okinawa-nahana-spa.html",
+    "Hotel Torifito Naha Asahibashi": _B + "jp/hotel-torifito-naha-asahibashi.html",
+    "Hilton Okinawa Chatan Resort": _B + "jp/hilton-okinawa-chatan-resort.html",
+    "Vessel Hotel Campana Okinawa": _B + "jp/vessel-campana-okinawa.html",
+    "La'gent Hotel Okinawa Chatan": _B + "jp/razientohoteruchong-nawa-bei-gu-hoteru-hosuteru.html",
+    "Halekulani Okinawa": _B + "jp/halekulani-okinawa.html",
+    "Renaissance Okinawa Resort": _B + "jp/renaissance-resort-okinawa.html",
+    "Hotel Monterey Okinawa Spa & Resort": _B + "jp/monterey-okinawa-spa-resort.html",
+    "The Orion Hotel Motobu Resort & Spa": _B + "jp/orion-motobu-resort-spa.html",
+    "Royal View Hotel Churaumi": _B + "jp/centurion-resort-okinawa-churaumi.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

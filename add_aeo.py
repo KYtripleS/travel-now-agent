@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-okinawa": dict(
+        text="For a first trip without a car, stay in Naha near Kokusai-dori: the Yui Rail runs from the airport and the main street is on foot. Choose Chatan for the beach, Onna for resorts and Motobu for the aquarium. The 2% prefecture tax starts on 1 February 2027.",
+        link_text="Kokusai-dori",
+        cta=_stay_cta("where-to-stay-in-okinawa", "See hotels around Kokusai-dori")),
     "where-to-stay-in-marrakech": dict(
         text="For a first trip, stay in the Medina near Jemaa el-Fnaa: the square, the souks and the Koutoubia are on foot. Choose Mouassine for riad lanes, the Kasbah for palaces, Gueliz for cafés, Hivernage for pools. The law sets the tourist tax at MAD 2 to 30 a person a night, plus 10% VAT.",
         link_text="the Medina near Jemaa el-Fnaa",
@@ -1315,6 +1319,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-okinawa": ["Hotel JAL City Naha", "Hotel Torifito Naha Asahibashi", "The Kitchen Hostel Ao"],
     "where-to-stay-in-marrakech": ["El Fenn", "Les Jardins de la Koutoubia", "Equity Point Marrakech"],
     "where-to-stay-in-shanghai": ["Radisson Blu New World Hotel, Shanghai", "Holiday Inn Shanghai Nanjing Road", "Fairmont Peace Hotel"],
     "where-to-stay-in-dubrovnik": ["Hotel Stari Grad", "Prijeko Palace", "Hotel Lero"],
@@ -1436,6 +1441,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Okinawa", "where-to-stay-in-okinawa", None, None),
         ("Marrakech", "where-to-stay-in-marrakech", None, None),
         ("Shanghai", "where-to-stay-in-shanghai", None, None),
         ("Dubrovnik", "where-to-stay-in-dubrovnik", None, None),
