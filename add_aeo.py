@@ -419,6 +419,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-marrakech": dict(
+        text="For a first trip, stay in the Medina near Jemaa el-Fnaa: the square, the souks and the Koutoubia are on foot. Choose Mouassine for riad lanes, the Kasbah for palaces, Gueliz for cafés, Hivernage for pools. The law sets the tourist tax at MAD 2 to 30 a person a night, plus 10% VAT.",
+        link_text="the Medina near Jemaa el-Fnaa",
+        cta=_stay_cta("where-to-stay-in-marrakech", "See hotels around Jemaa el-Fnaa")),
+    "where-to-stay-in-shanghai": dict(
+        text="For a first trip, stay around People's Square: metro lines 1, 2 and 8 meet there, and Nanjing Road runs towards the Bund. Choose the Bund for the river, Jing'an for a park, Lujiazui for the skyline and Hongqiao for flights. VAT is 6%, and some hotels add a service charge.",
+        link_text="People's Square",
+        cta=_stay_cta("where-to-stay-in-shanghai", "See hotels around People's Square")),
     "where-to-stay-in-dubrovnik": dict(
         text="For a first trip, stay in the Old Town: the Stradun, the walls and the lanes are on foot. Choose Ploče for the sea, Pile for the city buses, Lapad for beaches and Babin Kuk for pools. The tourist tax is €2.65 a person a night from April to September, €1.85 otherwise.",
         link_text="the Old Town",
@@ -1307,6 +1315,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-marrakech": ["El Fenn", "Les Jardins de la Koutoubia", "Equity Point Marrakech"],
+    "where-to-stay-in-shanghai": ["Radisson Blu New World Hotel, Shanghai", "Holiday Inn Shanghai Nanjing Road", "Fairmont Peace Hotel"],
     "where-to-stay-in-dubrovnik": ["Hotel Stari Grad", "Prijeko Palace", "Hotel Lero"],
     "where-to-stay-in-krakow": ["Hotel Stary", "Hotel Pod Różą", "Hotel Europejski"],
     "where-to-stay-in-nice": ["Le Negresco", "Hôtel Palais Saleya", "Hôtel Villa Rivoli"],
@@ -1426,6 +1436,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Marrakech", "where-to-stay-in-marrakech", None, None),
+        ("Shanghai", "where-to-stay-in-shanghai", None, None),
         ("Dubrovnik", "where-to-stay-in-dubrovnik", None, None),
         ("Kraków", "where-to-stay-in-krakow", None, None),
         ("Nice", "where-to-stay-in-nice", None, None),

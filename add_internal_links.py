@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-marrakech.html": (
+        "Where to Stay in Marrakech",
+        "Five areas, 12 hotels and Marrakech's tourist tax: MAD 2 to 30 a person a night by category, plus 10% VAT.",
+    ),
+    "articles/where-to-stay-in-shanghai.html": (
+        "Where to Stay in Shanghai",
+        "Six areas, 12 hotels and the bill: 6% VAT, a service charge at some hotels and no tourist tax we could find.",
+    ),
     "articles/where-to-stay-in-dubrovnik.html": (
         "Where to Stay in Dubrovnik",
         "Five areas, 12 hotels and Dubrovnik's tourist tax: €2.65 a night in summer, €1.85 in winter.",
@@ -2049,6 +2057,17 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-marrakech.html": [
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-shanghai.html": [
+        "articles/where-to-stay-in-hong-kong.html",
+        "articles/where-to-stay-in-taipei.html",
+        "articles/where-to-stay-in-seoul.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-dubrovnik.html": [
         "articles/hotel-booking-sites-comparison.html",

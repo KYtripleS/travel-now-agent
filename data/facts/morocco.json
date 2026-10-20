@@ -1,0 +1,449 @@
+{
+  "place": "Morocco",
+  "facts": [
+    {
+      "id": "ma.stay-tax-rules",
+      "topic": "tax",
+      "claim": "Under Law 47-06 (articles 70-76) the stay tax in tourist accommodation is charged per person and per night, added to the accommodation price, children under 12 are exempt, operators are responsible for collecting it, and invoices must show the amount separately; it is paid quarterly to the commune.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://portail.tax.gov.ma/wps/wcm/connect/d8465bca-57ab-4b4b-a71e-c390793e0184/%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86+%D8%B1%D9%82%D9%85+47.06+%D8%A7%D9%84%D9%85%D8%AA%D8%B9%D9%84%D9%82+%D8%A8%D8%AC%D8%A8%D8%A7%D9%8A%D8%A7%D8%AA+%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A7%D8%AA+%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%A8%D9%8A%D8%A9.pdf",
+          "kind": "official",
+          "title": "Law 47-06 on local taxation, consolidated text hosted by the DGI (Arabic), articles 70-76 and 168"
+        },
+        {
+          "url": "https://portail.tax.gov.ma/wps/portal/DGI/Documentation-fiscale/Taxes-locales",
+          "kind": "official",
+          "title": "DGI: Taxes locales"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "it is added to the accommodation price, and children under 12 are exempt",
+          "invoices must show the amount on its own line"
+        ]
+      }
+    },
+    {
+      "id": "ma.stay-tax-rates",
+      "topic": "tax",
+      "claim": "Article 73 of Law 47-06 sets legal ranges per person per night: guest houses, congress centres and luxury hotels MAD 15-30; riads and houses rented to tourists MAD 10-25; hotels 5 stars MAD 10-25, 4 stars 5-10, 3 stars 3-7, 1-2 stars 2-5; tourist residences 3-7; other tourist accommodation 2-5. Under article 168 the rate within the range is fixed by a decision of the commune after council approval; the Marrakech commune's own rate was not found.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://portail.tax.gov.ma/wps/wcm/connect/d8465bca-57ab-4b4b-a71e-c390793e0184/%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86+%D8%B1%D9%82%D9%85+47.06+%D8%A7%D9%84%D9%85%D8%AA%D8%B9%D9%84%D9%82+%D8%A8%D8%AC%D8%A8%D8%A7%D9%8A%D8%A7%D8%AA+%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A7%D8%AA+%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%A8%D9%8A%D8%A9.pdf",
+          "kind": "official",
+          "title": "Law 47-06 on local taxation, consolidated text hosted by the DGI (Arabic), articles 70-76 and 168"
+        },
+        {
+          "url": "https://portail.tax.gov.ma/wps/portal/DGI/Documentation-fiscale/Taxes-locales",
+          "kind": "official",
+          "title": "DGI: Taxes locales"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "MAD 10 to 25",
+          "under its article 168 the rate is fixed by a decision of the commune after the communal council approves it",
+          "We could not find the rate the Marrakech council has set"
+        ]
+      }
+    },
+    {
+      "id": "ma.vat-accommodation",
+      "topic": "tax",
+      "claim": "The DGI's VAT page lists accommodation and restaurant services at the 10% reduced rate; the standard rate is 20%.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://portail.tax.gov.ma/wps/portal/DGI/Vos-impots-procedures/Taxe-sur-la-valeur-ajoutee",
+          "kind": "official",
+          "title": "DGI: Taxe sur la valeur ajoutée"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "lists accommodation and restaurant services at the reduced rate of 10%",
+          "10% VAT on accommodation"
+        ]
+      }
+    },
+    {
+      "id": "ma.tax-worked-example",
+      "topic": "tax",
+      "claim": "Editors' arithmetic: two adults, four nights, legal range MAD 10-25 gives MAD 80-200; a MAD 1,800 room for four nights is MAD 7,200 and 10% VAT is MAD 720.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://portail.tax.gov.ma/wps/wcm/connect/d8465bca-57ab-4b4b-a71e-c390793e0184/%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86+%D8%B1%D9%82%D9%85+47.06+%D8%A7%D9%84%D9%85%D8%AA%D8%B9%D9%84%D9%82+%D8%A8%D8%AC%D8%A8%D8%A7%D9%8A%D8%A7%D8%AA+%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A7%D8%AA+%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%A8%D9%8A%D8%A9.pdf",
+          "kind": "official",
+          "title": "Law 47-06 on local taxation, consolidated text hosted by the DGI (Arabic), articles 70-76 and 168"
+        },
+        {
+          "url": "https://portail.tax.gov.ma/wps/portal/DGI/Documentation-fiscale/Taxes-locales",
+          "kind": "official",
+          "title": "DGI: Taxes locales"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "2 × 4 × MAD 10 to 25 = MAD 80 to 200 in tourist tax",
+          "four nights come to MAD 7,200 and the VAT is MAD 720"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.bus-operator",
+      "topic": "transport",
+      "claim": "In December 2025 Supratours replaced Alsa, which had run Marrakech's city buses for 26 years; at the handover the standard fare was reported at MAD 5, with approved increases to follow the Africa Cup of Nations.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.moroccoworldnews.com/2025/12/271538/supratours-replaces-alsa-as-marrakech-bus-operator-to-launch-service-sunday/",
+          "kind": "news",
+          "title": "Morocco World News: Supratours replaces ALSA as Marrakech bus operator"
+        },
+        {
+          "url": "https://www.alsa.ma/",
+          "kind": "operator",
+          "title": "Alsa Maroc home page: lists Rabat, Casablanca, Khouribga and Agadir, not Marrakech"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "Supratours replaced Alsa, which had run it for 26 years",
+          "the standard fare was reported at MAD 5"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.airport-drive-times",
+      "topic": "transport",
+      "claim": "Hotels' own pages give the drive from Marrakech Menara airport as 9 minutes (Es Saadi), 15 minutes (Sofitel, El Fenn) and 20 minutes (Radisson Blu, 3.88 km).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.essaadi.com/en/access-contact",
+          "kind": "operator",
+          "title": "Es Saadi: access and contact"
+        },
+        {
+          "url": "https://all.accor.com/hotel/3569/index.en.shtml",
+          "kind": "operator",
+          "title": "Sofitel Marrakech Palais Impérial & Spa"
+        },
+        {
+          "url": "https://www.el-fenn.com/find-us",
+          "kind": "operator",
+          "title": "El Fenn: find us"
+        },
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-marrakech-carre-eden",
+          "kind": "operator",
+          "title": "Radisson Blu Marrakech Carré Eden"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "Es Saadi says 9 minutes, Sofitel 15 and Radisson Blu 20"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.radisson-bus-l18",
+      "topic": "transport",
+      "claim": "Radisson Blu Marrakech Carré Eden's directions: bus L18 from the airport at Jardin Menara towards Alfadl, exit at Grand Poste and walk 500 m. Hotel's own directions, not an operator timetable; no official fare for the airport service (tourist guides' line 19) was found.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-marrakech-carre-eden",
+          "kind": "operator",
+          "title": "Radisson Blu Marrakech Carré Eden: how to get here"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "take bus L18 from the airport, at Jardin Menara towards Alfadl, and get off at Grand Poste"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.medina-car-access",
+      "topic": "place",
+      "claim": "El Fenn's directions say no cars are allowed in the medina and a taxi can be taken outside its boutique entrance at Bab el Ksour; Les Borjs de la Kasbah says it is easily accessible by taxi, minibus and horse-drawn calèche; Royal Mansour describes winding alleyways between its riads.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.el-fenn.com/find-us",
+          "kind": "operator",
+          "title": "El Fenn: find us"
+        },
+        {
+          "url": "https://www.lesborjsdelakasbah.com/",
+          "kind": "operator",
+          "title": "Les Borjs de la Kasbah"
+        },
+        {
+          "url": "https://www.royalmansour.com/en/marrakech",
+          "kind": "operator",
+          "title": "Royal Mansour Marrakech"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "no cars are allowed in the medina, so depending on where you stay it can mean a long walk to a taxi",
+          "easily accessible by taxi, minibus and horse-drawn calèche"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.el-fenn",
+      "topic": "hotel",
+      "claim": "El Fenn (Bab El Ksour, Medina) describes 41 individually styled rooms and suites, three swimming pools, a 1,300 square metre roof terrace; its Small and Cosy rooms are listed from EUR 342.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.el-fenn.com/",
+          "kind": "operator",
+          "title": "El Fenn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "41 individually styled rooms and suites, three swimming pools and a 1,300 square metre roof terrace",
+          "from €342"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.jardins-koutoubia",
+      "topic": "hotel",
+      "claim": "Les Jardins de la Koutoubia (26 rue de la Koutoubia) has 108 rooms, three restaurants and a spa in a riad it dates to the 13th century; the Medina Room is 30 m².",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.lesjardinsdelakoutoubia.com/",
+          "kind": "operator",
+          "title": "Les Jardins de la Koutoubia"
+        },
+        {
+          "url": "https://www.lesjardinsdelakoutoubia.com/en/chambres",
+          "kind": "operator",
+          "title": "Les Jardins de la Koutoubia: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "with 108 rooms, three restaurants and a spa",
+          "the entry-level Medina Room measures 30 m²"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.royal-mansour",
+      "topic": "hotel",
+      "claim": "Royal Mansour Marrakech (Rue Abou El Abbas Sebti) has 53 riads, from the 140 m² Superior riad to the 1,800 m² Grand riad; its site publishes no room rates.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.royalmansour.com/en/marrakech/riads",
+          "kind": "operator",
+          "title": "Royal Mansour: the riads"
+        },
+        {
+          "url": "https://www.royalmansour.com/en/marrakech",
+          "kind": "operator",
+          "title": "Royal Mansour Marrakech"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "built as 53 private riads in gardens",
+          "the hotel's site publishes no room rates"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.equity-point",
+      "topic": "hotel",
+      "claim": "Equity Point Marrakech describes itself as a hostel in a 15th-century riad in the heart of the Medina, with a large pool, terraces with hammocks, a bar and restaurant, private rooms and 4- to 10-bed dorms; Booking.com lists the address as Derb El Hammam, Mouassine.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.equity-point.com/marrakech",
+          "kind": "operator",
+          "title": "Equity Point Marrakech"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "A hostel in what it calls a 15th-century riad",
+          "dorms of four to ten beds"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.maison-arabe",
+      "topic": "hotel",
+      "claim": "La Maison Arabe (1 Derb Assehbé, Bab Doukkala) has two swimming pools, a spa with a hammam, a piano-jazz bar, a cooking school and a restaurant that has served since 1946; its Country Club is a short shuttle ride away in the Palmeraie.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.cenizaro.com/lamaisonarabe/marrakech",
+          "kind": "operator",
+          "title": "La Maison Arabe"
+        },
+        {
+          "url": "https://www.cenizaro.com/lamaisonarabe/marrakech/about",
+          "kind": "operator",
+          "title": "La Maison Arabe: about"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "two swimming pools, a spa with a hammam, a piano-jazz bar and a cooking school",
+          "a restaurant that has served since 1946"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.riad-kniza",
+      "topic": "hotel",
+      "claim": "Riad Kniza (34 Derb l'Hotel, Bab Doukkala) describes itself as an 18th-century small luxury Hotel de Charme restored by its owner, with a restaurant; its site lists no room types or rates.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.riadkniza.com/",
+          "kind": "operator",
+          "title": "Riad Kniza"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "a small \"Hotel de Charme\" in an 18th-century house restored by its owner",
+          "the hotel's site lists no room types or rates"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.les-borjs",
+      "topic": "hotel",
+      "claim": "Les Borjs de la Kasbah, in the Kasbah quarter yards from the Royal Palace, was built over four years from six small town houses and a riad, with a pool, spa and restaurant.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.lesborjsdelakasbah.com/",
+          "kind": "operator",
+          "title": "Les Borjs de la Kasbah"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "built over four years from six small town houses and a riad",
+          "it is spread across several former houses"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.angsana",
+      "topic": "hotel",
+      "claim": "Marrakech Riads Angsana Heritage Collection (24 Derb Si Said) is an Accor collection of riads, each an individual heritage house, with a restaurant, rooftop terraces and a plunge pool, 700 m from Jemaa el-Fna by Accor's count.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/B1V2/index.en.shtml",
+          "kind": "operator",
+          "title": "Marrakech Riads Angsana Heritage Collection (Accor)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "24 Derb Si Said, 700 m from Jemaa el-Fnaa by Accor's count",
+          "each is an individual heritage house"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.radisson",
+      "topic": "hotel",
+      "claim": "Radisson Blu Marrakech Carré Eden (166-176 Avenue Mohamed V) is a five-star in Gueliz; its page lists rooms from 35 m², the Majorelle Garden 1.14 km, the medina 2.52 km, Jemaa el-Fnaa 2.34 km, the railway station 1.2 km, and a lowest rate of EUR 250.86 a night for the next 60 days (read 20 October 2026).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-marrakech-carre-eden",
+          "kind": "operator",
+          "title": "Radisson Blu Marrakech Carré Eden"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "the medina 2.52 km away and Jemaa el-Fnaa 2.34 km",
+          "a lowest rate of €250.86 a night for the next 60 days"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.ibis-gare",
+      "topic": "hotel",
+      "claim": "ibis Marrakech Centre Gare (Avenue Hassan II, Place de la Gare) has 109 rooms, buffet breakfast, a 24-hour bar and a garden with a pool; Accor puts Jemaa el-Fnaa at a 10-minute drive.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/2034/index.en.shtml",
+          "kind": "operator",
+          "title": "ibis Marrakech Centre Gare (Accor)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "with 109 rooms, a buffet breakfast, a 24-hour bar, and a garden with a pool",
+          "The hotel puts Jemaa el-Fnaa at a 10-minute drive"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.es-saadi",
+      "topic": "hotel",
+      "claim": "Es Saadi Marrakech Resort Hotel (Avenue El Quadisia, Hivernage) is a five-star with a 1950s feel over a winter garden and pool, its own Oriental spa, a casino and night club nearby in the resort; Standard rooms of 35 m² are listed from EUR 170; the resort says 10-minute walk to Jemaa el-Fna and a 9-minute drive to the airport.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.essaadi.com/en/accommodations/es-saadi-5-star-hotel",
+          "kind": "operator",
+          "title": "Es Saadi 5-star hotel"
+        },
+        {
+          "url": "https://www.essaadi.com/en/access-contact",
+          "kind": "operator",
+          "title": "Es Saadi: access and contact"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "Standard rooms of 35 m² are listed from €170 a night",
+          "a casino and a night club sit in the same resort"
+        ]
+      }
+    },
+    {
+      "id": "ma.marrakech.sofitel",
+      "topic": "hotel",
+      "claim": "Sofitel Marrakech Palais Impérial & Spa (Rue Haroun Errachid, Hivernage) is a five-star with four pools (one heated all year), four restaurants, two bars and a kids' club; the hotel says it is a 15-minute walk from the Koutoubia and Jemaa el-Fna.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/3569/index.en.shtml",
+          "kind": "operator",
+          "title": "Sofitel Marrakech Palais Impérial & Spa (Accor)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-marrakech.html": [
+          "four pools, one heated all year, four restaurants, two bars and a kids' club",
+          "a 15-minute walk from the Koutoubia and Jemaa el-Fna"
+        ]
+      }
+    }
+  ]
+}

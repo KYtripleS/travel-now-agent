@@ -1,0 +1,661 @@
+{
+  "place": "China",
+  "facts": [
+    {
+      "id": "cn.vat-services-6",
+      "topic": "tax",
+      "claim": "China's VAT Law, in force from 1 January 2026, sets VAT at 6% for services and intangibles not listed at 13% (goods, repair, movable-property leasing), 9% (transport, postal, basic telecoms, construction, real-estate leasing, listed goods) or zero (Art. 10); hotel accommodation is not among the services listed at 13% or 9%. The State Taxation Administration's 2019 Q&A puts lifestyle services at 6%, and a Fujian finance department page quoting the 2016 notice lists catering and accommodation within lifestyle services. EDITOR: the rate for hotel rooms is our reading of these texts, not a sentence in any one of them.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://fgk.chinatax.gov.cn/zcfgk/c100009/c5237365/content.html",
+          "kind": "official",
+          "title": "State Taxation Administration: VAT Law of the PRC (in force 1 January 2026)"
+        },
+        {
+          "url": "https://www.chinatax.gov.cn/chinatax/n810219/n810744/n4016641/n4171132/n4255813/c4257487/content.html",
+          "kind": "official",
+          "title": "State Taxation Administration Q&A: which taxable activities are at 6% (2019)"
+        },
+        {
+          "url": "https://www.fujian.gov.cn/hdjl/hdjlzsk/czt/sz/202104/t20210402_5562528.htm",
+          "kind": "official",
+          "title": "Fujian Provincial Department of Finance: scope of lifestyle services (quoting Caishui [2016] No. 36, Annex 1)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "taxes services at 6% unless they are listed at 13%, 9% or zero",
+          "6% VAT"
+        ]
+      }
+    },
+    {
+      "id": "cn.vat-price-exclusive",
+      "topic": "tax",
+      "claim": "Art. 7 of the VAT Law says VAT is a tax outside the price (the sales amount excludes VAT) and must be shown separately on the transaction document; Art. 16 of the implementing regulation sets out how to compute the sales amount when the seller prices tax-inclusive (tax-inclusive amount divided by 1 plus the rate).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://fgk.chinatax.gov.cn/zcfgk/c100009/c5237365/content.html",
+          "kind": "official",
+          "title": "State Taxation Administration: VAT Law of the PRC (in force 1 January 2026)"
+        },
+        {
+          "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/zzs/202601/t478908.html",
+          "kind": "official",
+          "title": "Regulations for the Implementation of the VAT Law (State Council Order 826), Shanghai Municipal Tax Service"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "The law treats VAT as separate from the sales amount",
+          "the implementing rules also allow a price that already includes it"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.tourist-tax-none",
+      "topic": "tax",
+      "claim": "In the Shanghai government and tax-authority pages read for this guide, no separate per-night tourist or hotel occupancy tax is mentioned. This is a negative finding, not an official statement that none exists.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://english.shanghai.gov.cn/en-TravelYourWay/20251010/6f1beb560360472b8edaffd6187f4988.html",
+          "kind": "official",
+          "title": "Shanghai government pages read (see sources list)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "We found no separate per-night tax in the Shanghai government and tax authority pages we read",
+          "has no tourist tax that we could find"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-service-charge-hualuxe",
+      "topic": "price",
+      "claim": "HUALUXE Shanghai Twelve at Hengshan's page on ihg.com showed 'Starting from 1169.45 CNY' and 'Excludes 10% Service Charge' on 20 October 2026.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/hualuxe/hotels/gb/en/shanghai/shahg/hoteldetail",
+          "kind": "official",
+          "title": "HUALUXE Shanghai Twelve at Hengshan (IHG hotel page)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "shows its rate as excluding a 10% service charge",
+          "on 20 October its page showed a rate from ¥1,169.45 and said it excludes a 10% service charge",
+          "10% service charge extra"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.price-labels",
+      "topic": "price",
+      "claim": "On 20 October 2026 the Holiday Inn Shanghai Nanjing Road's rooms page said 'Price includes taxes and fees', and the InterContinental Shanghai Pudong's page said 'Price excludes taxes and fees'.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/holidayinn/hotels/us/en/shanghai/shanr/hoteldetail/rooms",
+          "kind": "official",
+          "title": "Holiday Inn Shanghai Nanjing Road: rooms (IHG)"
+        },
+        {
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgha/hoteldetail",
+          "kind": "official",
+          "title": "InterContinental Shanghai Pudong (IHG hotel page)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "marked its price as including taxes and fees",
+          "marked its price as excluding them",
+          "Price includes taxes and fees",
+          "Price excludes taxes and fees"
+        ]
+      },
+      "watch": "Price (includes|excludes) taxes and fees"
+    },
+    {
+      "id": "cn.shanghai.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic, not an official rate: a room quoted at 1,000 yuan, with VAT assumed to apply to the room and any service charge together, costs 1,000 yuan if VAT and the charge are included, 1,100 yuan if VAT is included but a 10% charge is not, and 1,166 yuan (1,000 x 1.10 x 1.06) if both a 10% charge and 6% VAT are added; a 15% charge would add 150 yuan instead of 100.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://fgk.chinatax.gov.cn/zcfgk/c100009/c5237365/content.html",
+          "kind": "official",
+          "title": "State Taxation Administration: VAT Law of the PRC (in force 1 January 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "A 15% service charge on the same room would add ¥150 instead of ¥100",
+          "¥1,166"
+        ]
+      }
+    },
+    {
+      "id": "cn.registration-hotels",
+      "topic": "entry",
+      "claim": "Shanghai's official guidance says foreign guests staying in hotels present a valid passport or residence permit and fill in a temporary accommodation registration form (source: Shanghai Municipal Bureau of Public Security). The NIA says that under Article 39 of the Exit and Entry Administration Law hotels register foreign guests' stays and send the information to the local public security organ; the Ministry of Public Security's rules require the form to reach the police within 24 hours, and in May 2024 the authorities said hotels must not refuse foreign guests because they lack the capacity to process the paperwork (China Daily, hosted on the Shanghai government site).",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://english.shanghai.gov.cn/en-FAQs-TravelinShanghai/20231225/ae178747b46741f8857f6f93ba8c4a6c.html",
+          "kind": "official",
+          "title": "Shanghai government: How can foreign visitors register for temporary accommodation?"
+        },
+        {
+          "url": "https://en.nia.gov.cn/n147423/n147478/n147715/c158241/content.html",
+          "kind": "official",
+          "title": "National Immigration Administration: Regulations on Filing Accommodation Registration for Foreigners"
+        },
+        {
+          "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20240529/6ff842313deb45e1b14cf5fd2a01d065.html",
+          "kind": "official",
+          "title": "Shanghai government (China Daily): Hotels told not to turn away foreign guests"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "Hotels register foreign guests",
+          "reports the registration to the police, within 24 hours",
+          "hotels must not turn away foreign guests"
+        ]
+      }
+    },
+    {
+      "id": "cn.nia-entry-pointer",
+      "topic": "entry",
+      "claim": "The National Immigration Administration's English site carries its policy pages on visa-free entry and transit; the guide only points readers there.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://en.nia.gov.cn/",
+          "kind": "official",
+          "title": "National Immigration Administration (English)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "Entry rules vary by passport"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.maglev-fare",
+      "topic": "fare",
+      "claim": "The maglev operator sells a single (economy) for RMB 50, with a 20% discount (RMB 40) on presenting a same-day plane ticket or using a public transport card, and a return (valid 7 days) for RMB 80; the operator's own page calls the ride 8 minutes. Longyang Road is the maglev's city terminus, where the Shanghai government says to change to metro line 2.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.smtdc.com/en/jszl.html",
+          "kind": "operator",
+          "title": "Shanghai Maglev Transportation Development Co.: Tickets & Fare (English)"
+        },
+        {
+          "url": "https://www.smtdc.com/cn/jszl.html",
+          "kind": "operator",
+          "title": "Shanghai Maglev: 票种与票价 (Chinese; items 8 to 11 list bank-card tap-in fares)"
+        },
+        {
+          "url": "https://www.smtdc.com/cn/xnlv5.html",
+          "kind": "operator",
+          "title": "Shanghai Maglev: science museum page (describes the ride as 8 minutes)"
+        },
+        {
+          "url": "https://english.shanghai.gov.cn/en-Transportation/20231214/649e06ea38f74aaeb573fa2debbe97d3.html",
+          "kind": "official",
+          "title": "Shanghai government: Transportation at Shanghai airports (source: Shanghai Airport Authority)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "The operator sells a single for ¥50, ¥40 with a same-day plane ticket or a public transport card, and a return for ¥80, valid for seven days",
+          "it describes the ride as eight minutes",
+          "the maglev runs to Longyang Road station, where you change to metro line 2"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.maglev-foreign-cards",
+      "topic": "fare",
+      "claim": "The maglev operator's Chinese fare page says Visa, Mastercard, American Express and JCB (printed 'JGB') chip contactless cards with small-payment contactless enabled can be tapped at the gate for the RMB 50 single economy fare.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.smtdc.com/cn/jszl.html",
+          "kind": "operator",
+          "title": "Shanghai Maglev: 票种与票价 (Chinese; items 8 to 11 list bank-card tap-in fares)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "Visa, Mastercard and American Express contactless cards are accepted at its gates at the ¥50 fare"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.pvg-metro-taxi",
+      "topic": "transport",
+      "claim": "Pudong airport is about 30 km from downtown; metro line 2 from Terminal 1&2 station to People's Square takes about one hour and costs about 7 yuan; a taxi to People's Square is around 180 yuan and about 50 minutes.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://english.shanghai.gov.cn/en-Transportation/20231214/649e06ea38f74aaeb573fa2debbe97d3.html",
+          "kind": "official",
+          "title": "Shanghai government: Transportation at Shanghai airports (source: Shanghai Airport Authority)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "about 30 km from downtown",
+          "about ¥7 from Terminals 1 and 2 to People's Square, and about an hour",
+          "around ¥180 and 50 minutes to People's Square"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.sha-access",
+      "topic": "transport",
+      "claim": "Hongqiao airport is 13 km from the city centre; Terminal 1 is served by metro line 10, which connects both terminals, and Terminal 2 by lines 10 and 2; a taxi to the centre typically takes about 30 minutes and costs 100 to 150 yuan.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://english.shanghai.gov.cn/en-Transportation/20231214/649e06ea38f74aaeb573fa2debbe97d3.html",
+          "kind": "official",
+          "title": "Shanghai government: Transportation at Shanghai airports (source: Shanghai Airport Authority)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "13 km from the centre, metro line 10 serves both terminals and line 2 serves Terminal 2",
+          "costs ¥100 to ¥150"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.airport-link",
+      "topic": "transport",
+      "claim": "The Airport Link Line connects Hongqiao and Pudong airports in about 40 minutes; fares start at 4 yuan and the full journey costs 26 yuan.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://english.shanghai.gov.cn/en-TravelYourWay/20251010/6f1beb560360472b8edaffd6187f4988.html",
+          "kind": "official",
+          "title": "Shanghai government: Metro (fares, Airport Link Line, contactless cards)"
+        },
+        {
+          "url": "https://english.shanghai.gov.cn/en-Transportation/20231214/649e06ea38f74aaeb573fa2debbe97d3.html",
+          "kind": "official",
+          "title": "Shanghai government: Transportation at Shanghai airports (source: Shanghai Airport Authority)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "the Airport Link Line takes about 40 minutes, with fares from ¥4 to ¥26 for the full journey"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.metro-fares-cards",
+      "topic": "fare",
+      "claim": "Shanghai Metro fares are 3 yuan for up to 6 km plus 1 yuan for every further 10 km; the one-day pass is 18 yuan; eligible UnionPay, Visa, Mastercard, American Express and JCB contactless cards can be tapped at the gates if password-free small payments are enabled.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://english.shanghai.gov.cn/en-TravelYourWay/20251010/6f1beb560360472b8edaffd6187f4988.html",
+          "kind": "official",
+          "title": "Shanghai government: Metro (fares, Airport Link Line, contactless cards)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "a ride is ¥3 for up to 6 km, plus ¥1 for every further 10 km, and a one-day pass is ¥18",
+          "tap Visa, Mastercard, American Express, JCB or UnionPay contactless cards",
+          "if the card has small-payment contactless switched on"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.area-bund",
+      "topic": "place",
+      "claim": "The Bund is a 1.5 km waterfront and protected historical district in central Shanghai, on the west bank of the Huangpu River, with 52 buildings that once housed old Shanghai's financial institutions and trading companies.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://english.shanghai.gov.cn/en-ScenicSpots/20231205/584672cc6d044eabb5f7f6fc9049a19f.html",
+          "kind": "official",
+          "title": "Shanghai government: The Bund"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "The Bund is a 1.5 km waterfront and a protected historical district",
+          "52 buildings",
+          "52 historic buildings"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.area-lujiazui",
+      "topic": "place",
+      "claim": "Lujiazui Financial City lies directly across the river from the Bund; it is the core functional area of Shanghai's International Financial Center and holds the Oriental Pearl Tower, the Shanghai International Convention Center and the Shanghai World Financial Center.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://english.pudong.gov.cn/2026-06/03/c_88759.htm",
+          "kind": "official",
+          "title": "Shanghai Pudong government: Shanghai Lujiazui Financial City"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "directly across the river from the Bund",
+          "the core of Shanghai's international financial centre",
+          "the Oriental Pearl Tower, the Shanghai International Convention Center and the Shanghai World Financial Center"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.area-jingan",
+      "topic": "place",
+      "claim": "The Shanghai government's Jing'an city-walk route runs from West Nanjing Road to the Suhe Bay commercial areas past several flagship stores.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://english.shanghai.gov.cn/en-citywalk/20240118/7663535633d248b0acc5e278a80e0da3.html",
+          "kind": "official",
+          "title": "Shanghai government: an inspirational city walk route around Jing'an district"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "West Nanjing Road's flagship stores"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.area-peoples-square",
+      "topic": "place",
+      "claim": "The Radisson Blu New World's page says its main entrance faces People's Park, it sits at the start of the Nanjing Road pedestrian street and it is connected to metro lines 1, 2 and 8; the Holiday Inn Shanghai Nanjing Road describes itself as adjacent to People's Square and the Bund.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-shanghai-new-world",
+          "kind": "official",
+          "title": "Radisson Blu New World Hotel, Shanghai"
+        },
+        {
+          "url": "https://www.ihg.com/holidayinn/hotels/us/en/shanghai/shanr/hoteldetail",
+          "kind": "official",
+          "title": "Holiday Inn Shanghai Nanjing Road (IHG)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "lines 1, 2 and 8 meet at its station",
+          "People's Park is beside it"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.area-hongqiao",
+      "topic": "place",
+      "claim": "Traders Hongqiao Airport and Shangri-La Hongqiao Airport each say they are connected to Terminal 2 of Hongqiao airport, with access to metro lines 2 and 10 and Hongqiao Railway Station; the Shangri-La describes itself as in Hongqiao's international CBD.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/en/shanghai/tradershongqiaoairport/",
+          "kind": "official",
+          "title": "Traders Hongqiao Airport, Shanghai"
+        },
+        {
+          "url": "https://www.shangri-la.com/en/shanghai/shangrilahongqiaoairport/",
+          "kind": "official",
+          "title": "Shangri-La Hongqiao Airport, Shanghai"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "the airport's Terminal 2, the railway station and metro lines 2 and 10 are in one hub",
+          "Hongqiao's business district"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-fairmont-peace",
+      "topic": "hotel",
+      "claim": "Fairmont Peace Hotel: 'A Shanghai icon for over a century' on the Bund with views of Pudong; Art Deco-inspired furnishings; Fairmont Gold executive floor; complimentary 30-minute guided tour of the Peace Museum for guests; the page calls Fairmont Gold rooms 'interior facing' and Signature Riverview Suites 'breathtaking views of Pudong'. Room counts on the page differ (268 or 270), so the guide gives none.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/en/hotels/shanghai/fairmont-peace-hotel.html",
+          "kind": "official",
+          "title": "Fairmont Peace Hotel (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "a complimentary 30-minute guided tour of its Peace Museum for guests",
+          "interior-facing"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-indigo-bund",
+      "topic": "hotel",
+      "claim": "Hotel Indigo Shanghai on the Bund: No. 585 Zhong Shan Dong Er Road, in the South Bund, adjacent to Shiliupu Wharf, Yu Garden, BFC Bund Financial Center and ROCKBUND; about 1 km from Yuyuan Garden metro station (lines 10 & 14) and East Nanjing Road metro station; pool; 2 on-site restaurants.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/hotelindigo/hotels/us/en/shanghai/shgnb/hoteldetail",
+          "kind": "official",
+          "title": "Hotel Indigo Shanghai on the Bund (IHG)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "next to Shiliupu Wharf and Yu Garden",
+          "at about a kilometre"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-radisson-new-world",
+      "topic": "hotel",
+      "claim": "Radisson Blu New World Hotel, Shanghai: 88 Nanjing Road (W) at the start of the Nanjing Road pedestrian street; main entrance faces People's Park; lobby access to New World City mall with tax-free shopping for overseas visitors; metro lines 1, 2 and 8; fitness centre with indoor pool; 45th-floor revolving restaurant Epicure on 45; the room list gives no sizes.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-shanghai-new-world",
+          "kind": "official",
+          "title": "Radisson Blu New World Hotel, Shanghai (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "its main entrance facing People's Park",
+          "a revolving restaurant, Epicure on 45, on the 45th floor"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-holiday-inn-nanjing-road",
+      "topic": "hotel",
+      "claim": "Holiday Inn Shanghai Nanjing Road: No. 595 Jiujiang Road, Huangpu; on the Nanjing Road pedestrian street, overlooking Century Square, adjacent to People's Square and the Bund; Standard Rooms 30 sq m; One Bedroom Suite 56 sq m; Two Bedroom Suite 48 sq m; rooms page says 'Price includes taxes and fees'.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/holidayinn/hotels/us/en/shanghai/shanr/hoteldetail/rooms",
+          "kind": "official",
+          "title": "Holiday Inn Shanghai Nanjing Road: rooms (IHG)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "Standard rooms are 30 sq m",
+          "adjacent to People's Square and the Bund"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-okura-garden",
+      "topic": "hotel",
+      "claim": "Okura Garden Hotel Shanghai: built in the 1920s, one of the most significant buildings erected by the French in Shanghai, the former French Club, with a 30,000 sq m garden; on South Mao Ming Road in the Huai Hai Road business circle; metro line 1 South Shaanxi Road station exit 3 100 m; five restaurants (Rose, Baiyulan, Yamazato, Sazanka, Continental Room) and three bars (Oasis, Ye Lai Xiang, Sky Bar); the Superior Room page gives no size.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.gardenhotelshanghai.com/",
+          "kind": "official",
+          "title": "Okura Garden Hotel Shanghai (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "a 1920s building that was the French Club",
+          "100 m from line 1's South Shaanxi Road station",
+          "five restaurants and three bars"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-hualuxe-hengshan",
+      "topic": "hotel",
+      "claim": "HUALUXE Shanghai Twelve at Hengshan: 12 Hengshan Road, Xuhui; premium boutique art hotel, neo-Chinese aesthetic; only 20 m from metro line 1; 169 guest rooms; near the Former Residence of Soong Ching-ling, Wukang Road and Anfu Road; page showed 'Excludes 10% Service Charge'.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/hualuxe/hotels/gb/en/shanghai/shahg/hoteldetail",
+          "kind": "official",
+          "title": "HUALUXE Shanghai Twelve at Hengshan (IHG)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "169 rooms",
+          "20 m from metro line 1"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-puli",
+      "topic": "hotel",
+      "claim": "The PuLi Shanghai: beside Jing'an Park; Michelin-starred French restaurant Phénix, Long Bar, Garden Terrace; 25-metre indoor infinity pool with views of Jing'an Park; rooms from Deluxe Room to Jing'an Suite; the page lists no rates.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://thepuli.com/en/shanghai/",
+          "kind": "official",
+          "title": "The PuLi Shanghai (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "a Michelin-starred French restaurant, Phénix",
+          "a 25 m indoor infinity pool"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-hie-jingan",
+      "topic": "hotel",
+      "claim": "Holiday Inn Express Shanghai Jing'an Temple: 839 Middle Yan'an Road, adjacent to the Shanghai Exhibition Center and Jing'an Temple, near metro lines 2, 7 and 14; fitness centre, Wi-Fi, one restaurant; no pool on the amenities list; Standard Rooms 20 to 37 sq m, Suite 28 sq m.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/shanghai/shajt/hoteldetail/rooms",
+          "kind": "official",
+          "title": "Holiday Inn Express Shanghai Jing'an Temple: rooms (IHG)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "standard rooms run from 20 to 37 sq m",
+          "next to the Shanghai Exhibition Center and Jing'an Temple"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-regent-pudong",
+      "topic": "hotel",
+      "claim": "Regent Shanghai Pudong: 210 Century Avenue, Pudong; floor-to-ceiling windows on the Lujiazui skyline, a 'sky-high infinity pool', three restaurants: Camelia (Italian), Mi Teppanyaki and Shang-Xi (Cantonese); the page lists no rates.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/regent/hotels/us/en/shanghai/shasd/hoteldetail",
+          "kind": "official",
+          "title": "Regent Shanghai Pudong (IHG)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "floor-to-ceiling windows on the skyline",
+          "Camelia for Italian food, Mi Teppanyaki, and Shang-Xi for Cantonese dishes"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-intercontinental-pudong",
+      "topic": "hotel",
+      "claim": "InterContinental Shanghai Pudong: No. 777 Zhangyang Road, Pudong, in Lujiazui; pool, spa, three on-site restaurants; Lane 1192, a re-creation of old Shanghai in the basement of Century Link mall, a five-minute walk away; the page showed 'Price excludes taxes and fees' on 20 October 2026.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/shanghai/shgha/hoteldetail",
+          "kind": "official",
+          "title": "InterContinental Shanghai Pudong (IHG)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "Lane 1192, a re-creation of old Shanghai in the Century Link mall",
+          "marks the price as excluding taxes and fees"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-traders-hongqiao",
+      "topic": "hotel",
+      "claim": "Traders Hongqiao Airport, Shanghai: connected to Terminal 2 of Hongqiao airport, access to metro lines 2 and 10 and Hongqiao Railway Station; 520 Traders rooms; indoor heated pool; Premier Airport View Room looks out on landings and take-offs; restaurants shared with the adjacent Shangri-La.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/en/shanghai/tradershongqiaoairport/",
+          "kind": "official",
+          "title": "Traders Hongqiao Airport, Shanghai (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "520 rooms",
+          "look out on landings and take-offs"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai.hotel-shangri-la-hongqiao",
+      "topic": "hotel",
+      "claim": "Shangri-La Hongqiao Airport, Shanghai: connected to Terminal 2, within walking distance of the railway station and metro lines 2 and 10; 91 Horizon Club rooms and suites on floors 9 to 12, 45 to 176 sq m, with lounge privileges; 2 restaurants shared with Traders; 'heart of Hongqiao international CBD'.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/en/shanghai/shangrilahongqiaoairport/",
+          "kind": "official",
+          "title": "Shangri-La Hongqiao Airport, Shanghai (official)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-shanghai.html": [
+          "Horizon Club rooms and suites of 45 to 176 sq m on floors 9 to 12",
+          "two restaurants it shares with Traders"
+        ]
+      }
+    }
+  ]
+}
