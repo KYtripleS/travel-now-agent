@@ -4873,3 +4873,21 @@ body .rsp-feat { border-radius: 4px; }
 @media (min-width: 900px) { .gy-aff-bar { justify-content: center; } .gy-aff-bar a { margin: 0 12px; } }
 body.gy-has-aff-bar { padding-bottom: 64px; }
 @media (max-width: 420px) { .gy-aff-bar { gap: 8px; padding-left: 12px; } .gy-aff-bar-tag { font-size: .58rem; letter-spacing: .1em; } .gy-aff-bar a { padding: 10px 18px; font-size: .95rem; } }
+
+/* 13. Dates for the Stay22 hotel maps (add_aeo.map_dates_form, gy-reveal.js) */
+.gy-map-dates { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 12px; margin: 4px 0 12px; }
+.gy-map-dates[hidden] { display: none; }
+.gy-map-dates label { display: flex; flex-direction: column; gap: 4px; font: 700 .68rem var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--ink); }
+.gy-map-dates input, .gy-map-dates select {
+  padding: 9px 10px; border: 1px solid var(--rule); border-radius: 3px; background: #fff;
+  font: 1rem var(--sans); color: var(--ink); letter-spacing: 0; text-transform: none;
+}
+.gy-map-dates input[type=date] { min-width: 150px; }
+.gy-map-dates button {
+  padding: 11px 22px; border: 0; border-radius: 999px; background: #f2b632; color: var(--navy);
+  font: 700 .95rem var(--sans); cursor: pointer; white-space: nowrap;
+  box-shadow: 0 3px 0 #b9831a, 0 6px 14px rgba(0, 0, 0, .14); transition: transform .12s ease, box-shadow .12s ease;
+}
+.gy-map-dates button:hover, .gy-map-dates button:focus-visible { transform: translateY(-1px); box-shadow: 0 4px 0 #b9831a, 0 8px 18px rgba(0, 0, 0, .18); outline: none; }
+.gy-map-dates button:active { transform: translateY(2px); box-shadow: 0 1px 0 #b9831a; }
+@media (max-width: 480px) { .gy-map-dates label:first-child { flex: 1 1 100%; } .gy-map-dates button { flex: 1 1 100%; } }

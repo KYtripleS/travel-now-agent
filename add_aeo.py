@@ -1268,9 +1268,39 @@ def add_stay_links(soup: BeautifulSoup, slug: str, article: Tag) -> tuple[int, l
             "loading": "lazy",
             "src": stay22.map_src(page["address"], page["zoom"], f"{slug}_map"),
             "title": f"Map of hotels around {page['area']} with prices, from Stay22"}))
-        box.extend([h, b, frame])
+        box.extend([h, b, map_dates_form(soup), frame])
         last.insert_after(box)
     return placed, unknown
+
+
+def map_dates_form(soup: BeautifulSoup) -> Tag:
+    """Dates for the hotel map. With check-in and check-out the map shows live prices
+    and availability on its pins; without them it shows typical prices. The first
+    booking (Florence, 2026-10-20) was made six days before the stay, so readers who
+    know their dates are the ones booking. js/gy-reveal.js reveals the form, fills
+    in dates the reader gave on another page, and reloads the map with them."""
+    form = soup.new_tag("form", attrs={"class": "gy-map-dates", "hidden": ""})
+    def field(label: str, el: Tag) -> Tag:
+        lab = soup.new_tag("label")
+        span = soup.new_tag("span")
+        span.string = label
+        lab.extend([span, el])
+        return lab
+    date_in = soup.new_tag("input", attrs={"type": "date", "name": "in", "required": ""})
+    nights = soup.new_tag("select", attrs={"name": "n"})
+    for n in range(1, 15):
+        o = soup.new_tag("option", attrs={"value": str(n), **({"selected": ""} if n == 3 else {})})
+        o.string = str(n)
+        nights.append(o)
+    guests = soup.new_tag("select", attrs={"name": "a"})
+    for n in range(1, 7):
+        o = soup.new_tag("option", attrs={"value": str(n), **({"selected": ""} if n == 2 else {})})
+        o.string = str(n)
+        guests.append(o)
+    btn = soup.new_tag("button", attrs={"type": "submit"})
+    btn.string = "Show prices for my dates"
+    form.extend([field("Check-in", date_in), field("Nights", nights), field("Guests", guests), btn])
+    return form
 
 
 # City pages (first-timers guides, things to do, itineraries, getting around) get
@@ -1320,7 +1350,7 @@ def add_city_map(soup: BeautifulSoup, slug: str, article: Tag, guide: str) -> bo
         "loading": "lazy",
         "src": stay22.map_src(page["address"], page["zoom"], f"{slug}_map"),
         "title": f"Map of hotels around {page['area']} with prices, from Stay22"}))
-    box.extend([h, b, frame])
+    box.extend([h, b, map_dates_form(soup), frame])
     if stay_h is not None:
         nxt = stay_h.find_next_sibling()
         (nxt if nxt is not None and nxt.name == "p" else stay_h).insert_after(box)

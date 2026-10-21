@@ -418,3 +418,44 @@
   addEventListener('resize', update);
   update();
 })();
+
+/* Hotel maps: the reader's dates. Stay22's map shows live prices and availability
+   once it has check-in and check-out; the dates are kept for the visit, so the
+   next guide's map opens on them too. */
+(function () {
+  var forms = document.querySelectorAll('form.gy-map-dates');
+  if (!forms.length) return;
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function iso(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+  function plus(day, n) { var p = day.split('-'); return iso(new Date(+p[0], +p[1] - 1, +p[2] + n)); }
+  var today = iso(new Date()), saved = null;
+  try { saved = JSON.parse(sessionStorage.getItem('gy_trip') || 'null'); } catch (e) {}
+  if (saved && !(saved.in >= today)) saved = null;
+  function apply(form, t) {
+    var frame = form.parentNode.querySelector('iframe');
+    if (!frame) return;
+    var u = new URL(frame.src);
+    u.searchParams.set('checkin', t.in);
+    u.searchParams.set('checkout', plus(t.in, +t.n));
+    u.searchParams.set('adults', t.a);
+    if (frame.src !== u.toString()) frame.src = u.toString();
+  }
+  Array.prototype.forEach.call(forms, function (form) {
+    form.hidden = false;
+    form.elements['in'].min = today;
+    if (saved) {
+      form.elements['in'].value = saved.in;
+      form.elements['n'].value = saved.n;
+      form.elements['a'].value = saved.a;
+      apply(form, saved);
+    }
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var t = { in: form.elements['in'].value, n: form.elements['n'].value, a: form.elements['a'].value };
+      if (!t.in) { form.elements['in'].focus(); return; }
+      try { sessionStorage.setItem('gy_trip', JSON.stringify(t)); } catch (err) {}
+      apply(form, t);
+      if (window.gtag) gtag('event', 'map_dates', { page: location.pathname, nights: +t.n, lead_days: Math.round((new Date(t.in) - new Date(today)) / 864e5) });
+    });
+  });
+})();
