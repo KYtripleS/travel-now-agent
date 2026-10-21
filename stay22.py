@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-washington-dc": dict(area="Penn Quarter", lat=38.8976, lng=-77.0233, zoom=14,
+                                              address="Penn Quarter, Washington, DC, USA"),
     "where-to-stay-in-miami": dict(area="South Beach", lat=25.7826, lng=-80.134, zoom=14,
                                       address="Lummus Park, Miami Beach, FL, USA"),
     "where-to-stay-in-san-diego": dict(area="Gaslamp Quarter", lat=32.7106, lng=-117.1604, zoom=15,
@@ -1121,6 +1123,19 @@ HOTELS = {
     "Mr. C Miami Coconut Grove": _B + "us/mr-c-coconut-grove.html",
     "Biltmore Hotel": _B + "us/biltmore.html",
     "Hotel Colonnade": _B + "us/colonnade-coral-gables.html",
+    # Washington, DC (Booking.com pages confirmed by hotel name and city)
+    "Willard InterContinental Washington": _B + "us/inter-continental-hotels-resorts-the-willard-washington-dc.html",
+    "Kimpton Hotel Monaco Washington DC": _B + "us/monaco-washington-dc-a-kimpton.html",
+    "Moxy Washington, DC Downtown": _B + "us/moxy-washington-dc-downtown.html",
+    "InterContinental Washington D.C. – The Wharf": _B + "us/intercontinental-washington-dc-the-wharf.html",
+    "citizenM Washington DC Capitol": _B + "us/citizenm-washington-dc-capitol.html",
+    "The Dupont Circle": _B + "us/the-dupont.html",
+    "Hotel Rendale": _B + "us/hotel-rendale-washington-dc.html",
+    "Hotel Hive": _B + "us/hive.html",
+    "Rosewood Washington, D.C.": _B + "us/capella.html",
+    "The Graham Georgetown": _B + "us/the-graham-georgetown-washington.html",
+    "Capitol Hill Hotel": _B + "us/capital-hill-suites.html",
+    "Cambria Hotel Washington D.C. Navy Yard Riverfront": _B + "us/cambria-washington-dc-capitol-riverfront.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

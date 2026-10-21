@@ -4123,6 +4123,456 @@
           "a daily destination fee applies, which the hotel's page does not price, and overnight valet is $46 plus tax"
         ]
       }
+    },
+    {
+      "id": "us.dc.tax-hotel-rate",
+      "topic": "tax",
+      "claim": "DC's Office of Tax and Revenue lists the sales and use tax rate on rooms, lodgings or accommodations as 15.95%, and 18% on parking or storing motor vehicles; its notice raised the transient-accommodations rate from 14.95% to 15.95% for April 1, 2023 through March 30, 2027, and its site banner says the general sales tax rate remains 6% through September 30, 2027.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://otr.cfo.dc.gov/release/otr-tax-notice-2023-01-sales-and-use-tax-rate-increase-transient-accommodations",
+          "kind": "official",
+          "title": "DC OTR Tax Notice 2023-01: Sales and Use Tax Rate Increase on Transient Accommodations"
+        },
+        {
+          "url": "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
+          "kind": "official",
+          "title": "DC OTR: Sales and Use Tax FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "Sales and use tax on hotel rooms and other transient lodging",
+          "General sales tax, for comparison",
+          "Parking or storing a vehicle, if you drive",
+          "sets the 15.95% rate for April 1, 2023 to March 30, 2027, raised from 14.95%"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: 15.95% of a $300 room rate is $47.85, making $347.85 a night; no separate per-night city charge appears on the OTR pages we read.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
+          "kind": "official",
+          "title": "DC OTR: Sales and Use Tax FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "On a $300 room, 15.95% is $47.85, so the room costs $347.85 a night.",
+          "We found no separate per-night city charge on the Office of Tax and Revenue's pages"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.smithsonian-free",
+      "topic": "place",
+      "claim": "The Smithsonian states free admission at all locations except Cooper Hewitt in New York City; the National Museum of African American History and Culture, the National Air and Space Museum in DC and the National Zoo require free passes or tickets, and other locations do not use passes for general admission.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.si.edu/visit",
+          "kind": "official",
+          "title": "Smithsonian: Plan Your Smithsonian Visit"
+        },
+        {
+          "url": "https://www.si.edu/visit/guidelines",
+          "kind": "official",
+          "title": "Smithsonian: Entry and Guidelines"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "the Smithsonian states that admission is free at all its locations except one in New York",
+          "three locations need a free pass or ticket"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.fare-metro",
+      "topic": "fare",
+      "claim": "WMATA Metrorail fares: $2.25 to $6.75 on weekdays 5 am to 9:30 pm, $2.25 to $2.50 weekday evenings after 9:30 pm and weekends; Metrobus $2.25; bus-rail transfers within two hours get a $2.25 discount; tap a SmarTrip or contactless card at the faregates.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.wmata.com/fares/",
+          "kind": "operator",
+          "title": "WMATA: Fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "Metrorail fares are $2.25 to $6.75 on weekdays between 5 am and 9:30 pm, and $2.25 to $2.50 after 9:30 pm and at weekends",
+          "Buses are $2.25, with a $2.25 discount on a transfer between bus and rail within two hours"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.transport-dca",
+      "topic": "transport",
+      "claim": "Reagan National's Metrorail station is on the Yellow and Blue lines (WMATA); Terminal 2 reaches it by two enclosed pedestrian bridges at concourse level, and from Terminal 1 passengers take an airport shuttle bus to the bridges (MWAA); weekday fares range $2.25 to $6.75.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.wmata.com/ride/guides/airports-and-train-stations.html",
+          "kind": "operator",
+          "title": "WMATA: Airports and Train Stations"
+        },
+        {
+          "url": "https://www.flyreagan.com/metro",
+          "kind": "operator",
+          "title": "Reagan National Airport: Metrorail"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "the airport's Metrorail station is on the Yellow and Blue lines",
+          "Terminal 2 connects to it by two enclosed bridges on the concourse level; from Terminal 1, take an airport shuttle bus to the bridges"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.transport-iad",
+      "topic": "transport",
+      "claim": "Dulles' Silver Line station is about 600 feet from the main terminal (WMATA); MWAA states a weekday trip to Metro Center is $6.75 and the ride to Rosslyn takes approximately 50 to 55 minutes.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.wmata.com/ride/guides/airports-and-train-stations.html",
+          "kind": "operator",
+          "title": "WMATA: Airports and Train Stations"
+        },
+        {
+          "url": "https://www.flydulles.com/parking-transportation/silver-line-metrorail/silver-line-faqs",
+          "kind": "operator",
+          "title": "Dulles International Airport: Silver Line FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "the Silver Line station is about a 600-foot walk from the terminal",
+          "a weekday-daytime fare to Metro Center of $6.75",
+          "a ride of roughly 50 to 55 minutes to Rosslyn, in Virginia"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.transport-bwi",
+      "topic": "transport",
+      "claim": "BWI: a free airport shuttle (24/7 per WMATA, every 10 to 15 minutes per BWI) serves the BWI Rail Station; the BWI page gives about 30 minutes to Washington Union Station by Amtrak and 35 by MARC; Union Station has a Red Line Metro station.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://bwiairport.com/to-and-from-bwi/transportation/regional-destinations/washington-dc/",
+          "kind": "operator",
+          "title": "BWI Marshall Airport: Washington, DC"
+        },
+        {
+          "url": "https://www.wmata.com/ride/guides/airports-and-train-stations.html",
+          "kind": "operator",
+          "title": "WMATA: Airports and Train Stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "a free shuttle runs from the terminal to the BWI Rail Station",
+          "about 30 minutes by Amtrak and 35 by MARC, according to the airport",
+          "Union Station has a Red Line Metro station"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.fare-marc-bwi",
+      "topic": "fare",
+      "claim": "The MTA Maryland MARC Penn Line one-way fare chart (fares effective June 27, 2021, still linked from MTA's fares page) lists BWI Airport to Washington DC at $8.00.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://s3.amazonaws.com/mta-website-staging/mta-website-staging/files/Fares/Penn-Line-Fare-Chart-2021.pdf",
+          "kind": "operator",
+          "title": "MTA Maryland: MARC Penn Line fare chart"
+        },
+        {
+          "url": "https://www.mta.maryland.gov/marc-fares",
+          "kind": "operator",
+          "title": "MTA Maryland: MARC fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "The MARC one-way fare from BWI Airport to Washington is $8 on the Maryland Transit Administration's Penn Line chart, dated June 2021"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.transport-georgetown",
+      "topic": "transport",
+      "claim": "The Georgetown business district's getting-here page lists the Foggy Bottom-GWU station (Blue, Orange, Silver lines) as a 15-minute walk, Rosslyn station across Key Bridge, Metrobus lines A58, C91, D80, D82, D94 and D96, and the Wharf Water Taxi from Washington Harbour (31st and K St): 25 minutes, up to six daily departures.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.georgetowndc.com/explore/getting-here/",
+          "kind": "operator",
+          "title": "Georgetown BID: Parking and Getting Here"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "which the Georgetown business district says takes 25 minutes, with up to six departures a day",
+          "the Georgetown business district points visitors to Foggy Bottom-GWU, a 15-minute walk, and to Rosslyn, across Key Bridge"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.place-wharf",
+      "topic": "place",
+      "claim": "The Wharf's own site describes a waterfront district with one mile of Waterfront Riverwalk, free rides on the SW Shuttle, a Water Taxi and hotels.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.wharfdc.com/",
+          "kind": "operator",
+          "title": "The Wharf"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "a mile of riverside walk",
+          "a free SW Shuttle"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-willard",
+      "topic": "hotel",
+      "claim": "Willard InterContinental (IHG listing 'InterContinental The Willard Washington D.C.'): 1401 Pennsylvania Avenue NW; steps from the White House; all 335 guest rooms and 69 suites restored; Round Robin Bar; no pool; valet parking $78 a night.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washa/hoteldetail",
+          "kind": "operator",
+          "title": "IHG: InterContinental The Willard Washington D.C."
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "At 1401 Pennsylvania Avenue NW, steps from the White House, with all 335 guest rooms and 69 suites restored and the Round Robin Bar",
+          "valet parking is $78 a night, and the hotel has no pool"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-monaco",
+      "topic": "hotel",
+      "claim": "Kimpton Hotel Monaco Washington DC: 700 F Street NW, Penn Quarter; restored landmark building; steps from Capital One Arena, the National Mall and Smithsonian museums; Dirty Habit restaurant; parking package values overnight parking at $65 daily.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/kimptonhotels/hotels/us/en/hotel-monaco-washington-dc/wdcmo/hoteldetail",
+          "kind": "operator",
+          "title": "IHG: Kimpton Hotel Monaco Washington DC"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "At 700 F Street NW in Penn Quarter, in a restored landmark building, steps from Capital One Arena, the National Mall and the Smithsonian museums, with the Dirty Habit restaurant",
+          "the hotel's parking package values overnight parking at $65 a day"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-moxy",
+      "topic": "hotel",
+      "claim": "Moxy Washington, DC Downtown: 1011 K Street NW; walking distance of the White House, Capital One Arena and the metro station; Lucha Rosa rooftop bar; Rosa's Diner; bunk rooms sleep two; check-in at Bar Moxy.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/wasox-moxy-washington-dc-downtown/overview/",
+          "kind": "operator",
+          "title": "Marriott: Moxy Washington, DC Downtown"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "At 1011 K Street NW, within walking distance of the White House, Capital One Arena and a Metro station, with the Lucha Rosa rooftop bar, Rosa's Diner and bunk rooms that sleep two",
+          "check-in happens at the bar, which the hotel describes as lively"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-ic-wharf",
+      "topic": "hotel",
+      "claim": "InterContinental Washington D.C. - The Wharf: 801 Wharf Street SW; heated rooftop pool overlooking the Potomac; spa; Willowsong restaurant; minimum check-in age 21.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/intercontinental/hotels/us/en/washington/washc/hoteldetail",
+          "kind": "operator",
+          "title": "IHG: InterContinental Washington D.C. - The Wharf"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "At 801 Wharf Street SW, overlooking the Wharf, with a heated rooftop pool above the Potomac, a spa and the Willowsong restaurant",
+          "the minimum check-in age is 21"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-citizenm",
+      "topic": "hotel",
+      "claim": "citizenM Washington DC Capitol: 550 School Street SW; says L'Enfant Plaza Metro is right there and the Wharf and the National Mall are minutes away; XL bed and blackout blinds in every room; canteenM 24/7; Sushi by Bou rooftop bar; no on-site parking (Lot 989 at extra cost).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/waszc-citizenm-washington-dc-capitol/overview/",
+          "kind": "operator",
+          "title": "Marriott: citizenM Washington DC Capitol"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "At 550 School Street SW, with the L'Enfant Plaza Metro station right there, according to the hotel",
+          "there is no on-site parking; the hotel points to a lot nearby at extra cost"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-dupont-circle",
+      "topic": "hotel",
+      "claim": "The Dupont Circle (Doyle Collection): 1500 New Hampshire Avenue NW; rooms start at 300 sq ft; MICHELIN Key; The Pembroke restaurant; rates quoted excluding tax.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.doylecollection.com/hotels/the-dupont-circle-hotel",
+          "kind": "operator",
+          "title": "Doyle Collection: The Dupont Circle"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "At 1500 New Hampshire Avenue NW, part of the Doyle Collection, with rooms starting at 300 sq ft, a MICHELIN Key and The Pembroke restaurant",
+          "rates on the hotel's site are quoted before tax, so add 15.95%"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-rendale",
+      "topic": "hotel",
+      "claim": "Hotel Rendale: 1900 Connecticut Avenue NW; just around the block from the Dupont Circle Metro; hotel says it has a new name; parking $23.60 for 0-4 hours and $47.20 for 4-24 hours including 18% tax.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hotelrendaledc.com/",
+          "kind": "operator",
+          "title": "Hotel Rendale Washington DC"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "At 1900 Connecticut Avenue NW, just around the block from the Dupont Circle Metro station; the hotel says it has taken a new name",
+          "parking costs $23.60 for up to four hours and $47.20 for four to 24, tax included, by the hotel's own rates"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-hive",
+      "topic": "hotel",
+      "claim": "Hotel Hive: 2224 F Street NW, Foggy Bottom; historic building; DC's first micro-hotel; rooms of 125 to 250+ sq ft.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hotelhive.com/",
+          "kind": "operator",
+          "title": "Hotel Hive"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "At 2224 F Street NW in Foggy Bottom, in a historic building, and billed as DC's first micro-hotel, with rooms of 125 to 250+ sq ft",
+          "the smallest rooms are 125 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-rosewood",
+      "topic": "hotel",
+      "claim": "Rosewood Washington, D.C.: in Georgetown; CUT by Wolfgang Puck; CUT Above rooftop bar with Friday night DJs; historic Georgetown townhouses adjacent to the hotel.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.rosewoodhotels.com/en/washington-dc",
+          "kind": "operator",
+          "title": "Rosewood Washington, D.C."
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "with CUT by Wolfgang Puck, the CUT Above rooftop bar and historic townhouse suites next to the hotel",
+          "the rooftop bar has DJs on Friday nights"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-graham",
+      "topic": "hotel",
+      "claim": "The Graham Georgetown: central Georgetown, M Street steps outside; rooftop bar; The Alex Craft Cocktail Cellar & Speakeasy.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://thegrahamgeorgetown.com/",
+          "kind": "operator",
+          "title": "The Graham Georgetown"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "A boutique hotel where M Street is steps from the door, with a rooftop bar and The Alex Craft Cocktail Cellar & Speakeasy"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-capitol-hill",
+      "topic": "hotel",
+      "claim": "Capitol Hill Hotel: 200 C Street SE; 19th-century row houses; steps from the U.S. Capitol and the Supreme Court; newly reimagined; Park & Stay package values daily parking at $50.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.capitolhillhotel-dc.com/",
+          "kind": "operator",
+          "title": "Capitol Hill Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "At 200 C Street SE, in 19th-century row houses, steps from the U.S. Capitol and the Supreme Court, and newly reimagined",
+          "the hotel's Park & Stay package values daily parking at $50"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.hotel-cambria",
+      "topic": "hotel",
+      "claim": "Cambria Hotel Washington D.C. Navy Yard Riverfront: 69 Q Street SW; 154 accommodations; RowHouse restaurant; rooftop lounge; mentions Nationals baseball and Audi Field; valet parking $58 per night.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.cambriadcnavyyardriverfront.com/",
+          "kind": "operator",
+          "title": "Cambria Hotel Washington D.C. Navy Yard Riverfront"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc.html": [
+          "At 69 Q Street SW, with 154 accommodations, the RowHouse restaurant and a rooftop lounge",
+          "valet parking is $58 a night"
+        ]
+      }
     }
   ]
 }

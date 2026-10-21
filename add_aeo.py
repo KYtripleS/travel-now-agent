@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-washington-dc": dict(
+        text="For a first trip, stay in Downtown and Penn Quarter: the White House, Capital One Arena and the National Mall are close, and the Smithsonian charges no admission. Choose the Willard for history, Moxy for value, the Wharf for the water. The tax is 15.95%, or $47.85 on a $300 room.",
+        link_text="Downtown and Penn Quarter",
+        cta=_stay_cta("where-to-stay-in-washington-dc", "See hotels around Penn Quarter")),
     "where-to-stay-in-miami": dict(
         text="For a first trip, stay in South Beach: Ocean Drive, Lummus Park and the Art Deco district are on foot. Choose Faena for space, Brickell for the trains, Wynwood for murals. The tax is 14% on Miami Beach and 13% on the mainland, plus each hotel's daily fee.",
         link_text="South Beach",
@@ -1435,6 +1439,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-washington-dc": ["Kimpton Hotel Monaco Washington DC", "Moxy Washington, DC Downtown", "Willard InterContinental Washington"],
     "where-to-stay-in-miami": ["The Betsy", "Catalina Hotel & Beach Club", "Faena Hotel Miami Beach"],
     "where-to-stay-in-san-diego": ["Pendry San Diego", "Hotel Republic San Diego, Autograph Collection", "HI San Diego Downtown Hostel"],
     "where-to-stay-in-dubai": ["Armani Hotel Dubai", "Vida Dubai Mall", "Rove Downtown"],
@@ -1564,6 +1569,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Washington, DC", "where-to-stay-in-washington-dc", None, None),
         ("Miami", "where-to-stay-in-miami", None, None),
         ("San Diego", "where-to-stay-in-san-diego", None, None),
         ("Dubai", "where-to-stay-in-dubai", None, None),
