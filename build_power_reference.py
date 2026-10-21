@@ -73,6 +73,42 @@ PLUGS = [
 ]
 
 
+# Our guides by country, for the checker's "before you go" lines and the trip section.
+# Stay guides: main city pages only (the seasonal ones hang off them).
+STAY = {
+    "JP": ["japan", "tokyo", "kyoto", "osaka", "hakone", "hiroshima", "kanazawa", "fukuoka",
+           "okinawa", "niseko", "hakuba"],
+    "KR": ["seoul", "busan", "jeju"], "TW": ["taipei"], "CN": ["shanghai"], "HK": ["hong-kong"],
+    "TH": ["bangkok", "chiang-mai", "phuket"], "VN": ["hanoi", "ho-chi-minh-city", "da-nang"],
+    "SG": ["singapore"], "MY": ["kuala-lumpur"], "ID": ["bali"],
+    "AU": ["sydney", "melbourne"], "US": ["new-york", "los-angeles", "san-francisco", "las-vegas", "honolulu"],
+    "CA": ["vancouver", "montreal"], "MX": ["mexico-city", "cancun"],
+    "GB": ["london", "edinburgh"], "IE": ["dublin"], "FR": ["paris", "nice"],
+    "IT": ["rome", "florence", "venice", "milan"], "ES": ["barcelona", "madrid", "seville"],
+    "PT": ["lisbon", "porto"], "NL": ["amsterdam"], "DE": ["berlin"], "AT": ["vienna"],
+    "CH": ["zurich"], "CZ": ["prague"], "HU": ["budapest"], "PL": ["krakow"], "HR": ["dubrovnik"],
+    "GR": ["athens"], "DK": ["copenhagen"], "SE": ["stockholm"], "IS": ["reykjavik"],
+    "TR": ["istanbul"], "MA": ["marrakech"],
+}
+STAY_NAMES = {"japan": "All of Japan", "da-nang": "Da Nang and Hoi An", "ho-chi-minh-city": "Ho Chi Minh City",
+              "hong-kong": "Hong Kong", "kuala-lumpur": "Kuala Lumpur", "chiang-mai": "Chiang Mai",
+              "new-york": "New York", "los-angeles": "Los Angeles", "san-francisco": "San Francisco",
+              "las-vegas": "Las Vegas", "mexico-city": "Mexico City", "cancun": "Cancún", "krakow": "Kraków"}
+ESIM = {"JP": "best-esim-japan-2026", "KR": "best-esim-south-korea-2026", "TW": "best-esim-taiwan-2026",
+        "TH": "best-esim-thailand-2026", "VN": "best-esim-vietnam-2026", "AU": "best-esim-australia-2026",
+        "US": "best-esim-usa-2026"}
+EUROPE = set("AL AD AT BY BE BA BG HR CY CZ DK EE FO FI FR DE GI GR HU IS IE IM IT LV LI LT LU MT MD MC ME "
+             "NL MK NO PL PT RO RU SM RS SK SI ES SE CH UA GB".split())
+
+
+def esim_guide(code: str) -> str:
+    return ESIM.get(code) or ("best-esim-europe-2026" if code in EUROPE else "best-travel-esim-2026")
+
+
+def stay_name(slug: str) -> str:
+    return STAY_NAMES.get(slug, slug.replace("-", " ").title())
+
+
 def e(s: str) -> str:
     return html.escape(s, quote=True)
 
@@ -113,9 +149,25 @@ def table_rows(rows: list[dict]) -> str:
             note = f'Other sources also list {types_label(r["also_reported"])}'
         out.append(
             f'<tr id="{r["code"].lower()}" data-c="{r["code"]}" data-t="{" ".join(r["types"])}" '
-            f'data-v="{" ".join(r["volts"])}" data-h="{" ".join(r["hz"])}">'
+            f'data-v="{" ".join(r["volts"])}" data-h="{" ".join(r["hz"])}" data-e="{esim_guide(r["code"])}"'
+            f'{stay_attr(r["code"])}>'
             f'<th scope="row">{name}</th><td>{types_label(r["types"])}</td>'
             f'<td>{volts_label(r["volts"])}</td><td>{hz_label(r["hz"])}</td><td>{note}</td></tr>')
+    return "\n".join(out)
+
+
+def stay_attr(code: str) -> str:
+    if code not in STAY:
+        return ""
+    return ' data-s="' + e("|".join(f"{x}:{stay_name(x)}" for x in STAY[code])) + '"'
+
+
+def trip_section(rows: list[dict]) -> str:
+    out = []
+    for r in sorted((r for r in rows if r["code"] in STAY), key=lambda r: r["name"]):
+        links = " · ".join(f'<a href="../articles/where-to-stay-in-{x}.html">{e(stay_name(x))}</a>'
+                           for x in STAY[r["code"]])
+        out.append(f"<li><strong>{e(r['name'])}:</strong> {links}</li>")
     return "\n".join(out)
 
 
@@ -237,6 +289,11 @@ def page(rows: list[dict]) -> str:
 <h2 id="reuse">Use this data</h2>
 <p>The whole table is free to reuse under <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>: download <a href="../data/travel-power.csv">CSV</a> or <a href="../data/travel-power.json">JSON</a>. Please link to this page, for example:</p>
 <p class="gp-cite"><code>Source: &lt;a href="{URL}"&gt;Plugs and voltage by country, Gently Yonder&lt;/a&gt; (IEC data, checked {CHECKED})</code></p>
+<h2 id="where-to-stay">Where to stay, by country</h2>
+<p>Once the plugs are sorted, the next decision is where to base yourself. Our stay guides compare the areas of each city and name the hotels we checked.</p>
+<ul class="gp-trip">
+{trip_section(rows)}
+</ul>
 <h2 id="country-guides">Country guides</h2>
 <p>{guide_links}</p>
 <h2 id="related">Related</h2>
@@ -252,6 +309,38 @@ def page(rows: list[dict]) -> str:
 </body>
 </html>
 """
+
+
+TRIP_BEGIN = "<!-- BEGIN gp-trip (managed by build_power_reference.py) -->"
+TRIP_END = "<!-- END gp-trip -->"
+
+
+def country_trip_blocks(rows: list[dict]) -> int:
+    """Put the eSIM and stay-guide lines on each country guide, above its FAQ."""
+    n = 0
+    for r in rows:
+        if not r["page"]:
+            continue
+        g = esim_guide(r["code"])
+        label = "which travel eSIM to use" if g == "best-travel-esim-2026" else f"the eSIMs we compared for {r['name']}"
+        items = [f'<li><strong>Mobile data:</strong> <a href="../articles/{g}.html">{e(label)}</a></li>']
+        if r["code"] in STAY:
+            links = " · ".join(f'<a href="../articles/where-to-stay-in-{x}.html">{e(stay_name(x))}</a>'
+                               for x in STAY[r["code"]])
+            items.append(f"<li><strong>Where to stay:</strong> {links}</li>")
+        block = (f'{TRIP_BEGIN}\n<h2 id="trip">The rest of your trip to {e(r["name"])}</h2>\n<ul>\n'
+                 + "\n".join(items) + f"\n</ul>\n{TRIP_END}\n")
+        for base in ("site", "docs"):
+            p = REPO / base / "travel-power" / f"{r['page']}.html"
+            s = p.read_text(encoding="utf-8")
+            if TRIP_BEGIN in s:
+                a, b = s.index(TRIP_BEGIN), s.index(TRIP_END) + len(TRIP_END) + 1
+                s = s[:a] + block + s[b:]
+            else:
+                s = s.replace("<h2>FAQ:", block + "<h2>FAQ:", 1)
+            p.write_text(s, encoding="utf-8")
+        n += 1
+    return n
 
 
 def main() -> None:
@@ -275,6 +364,7 @@ def main() -> None:
                         " ".join(r["hz"]), " ".join(r["also_reported"])])
     for rel in [*out, "data/travel-power.csv", "js/gy-power.js"]:
         shutil.copyfile(site / rel, docs / rel)
+    country_trip_blocks(rows)
     print(f"travel-power hub: {len(rows)} countries, "
           f"{sum(1 for r in rows if r['also_reported'])} with other sources noted")
 

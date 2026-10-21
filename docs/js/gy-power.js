@@ -11,7 +11,9 @@
       name: tr.cells[0].textContent,
       types: tr.getAttribute('data-t').split(' '),
       volts: tr.getAttribute('data-v').split(' ').map(Number),
-      hz: tr.getAttribute('data-h').split(' ')
+      hz: tr.getAttribute('data-h').split(' '),
+      esim: tr.getAttribute('data-e'),
+      stay: (tr.getAttribute('data-s') || '').split('|').filter(Boolean).map(function (x) { return x.split(':'); })
     };
   });
 
@@ -36,6 +38,36 @@
   function list(a) {
     return a.length < 2 ? a.join('') : a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1];
   }
+  // sockets a standard universal adapter's pins go into (its EU pins are Type C size)
+  var UNIVERSAL = ['A', 'B', 'C', 'E', 'F', 'G', 'I', 'J', 'K', 'L', 'N'];
+  var AMAZON = 'https://www.amazon.com/s?tag=packlightpick-20&k=';
+
+  function before(b, need) {
+    var h = '<div class="gp-before"><p class="gp-before-h">Before you go to ' + esc(the(b.name)) + '</p><ul>';
+    if (need) {
+      var uni = b.types.some(function (t) { return UNIVERSAL.indexOf(t) > -1; });
+      var dm = b.types.some(function (t) { return t === 'D' || t === 'M'; });
+      var q = uni && !dm ? 'universal travel adapter usb c' : b.name + ' travel adapter type ' + b.types.join(' ');
+      h += '<li><strong>Adapter:</strong> ' + (uni
+        ? 'a standard universal adapter (US, EU, UK and Australian pins) fits here' +
+          (dm
+            ? ', in Type ' + list(b.types.filter(function (t) { return UNIVERSAL.indexOf(t) > -1; })) +
+              ' sockets; Type ' + list(b.types.filter(function (t) { return t === 'D' || t === 'M'; })) +
+              ' sockets, also common, need a dedicated one. '
+            : '. ')
+        : 'a standard universal adapter does not fit Type ' + list(b.types) + ' sockets, so buy one made for ' + esc(the(b.name)) + '. ')
+        + '<a href="' + AMAZON + encodeURIComponent(q).replace(/%20/g, '+') + '" rel="nofollow sponsored noopener" target="_blank">See adapters on Amazon</a></li>';
+    }
+    h += '<li><strong>Mobile data:</strong> <a href="../articles/' + b.esim + '.html">' +
+      (b.esim === 'best-travel-esim-2026' ? 'which travel eSIM to use' : 'the eSIMs we compared for ' + esc(the(b.name))) + '</a></li>';
+    if (b.stay.length) {
+      h += '<li><strong>Where to stay:</strong> ' + b.stay.map(function (x) {
+        return '<a href="../articles/where-to-stay-in-' + x[0] + '.html">' + esc(x[1]) + '</a>';
+      }).join(' · ') + '</li>';
+    }
+    return h + '</ul>' + (need ? '<p class="gp-disclose">As an Amazon Associate we earn from qualifying purchases; it does not change what we say fits.</p>' : '') + '</div>';
+  }
+
   function the(name) {
     return /^(United |Netherlands|Philippines|Bahamas|Gambia|Maldives|Marshall|Solomon|Cayman|Falkland|Faroe|US |Turks|Cook |Comoros|Seychelles|Central African|Dominican Republic)/.test(name) ? 'the ' + name : name;
   }
@@ -85,7 +117,7 @@
       html += ' The frequency is ' + b.hz.join(' / ') + ' Hz rather than ' + a.hz.join(' / ') + ' Hz, which does not matter for chargers.';
     }
     html += '</p>';
-    out.innerHTML = html;
+    out.innerHTML = html + before(b, no.length > 0);
   }
   from.addEventListener('change', check);
   to.addEventListener('change', check);
