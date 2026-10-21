@@ -4,6 +4,8 @@
   - affiliate clicks last 7 days by page and partner, and the prior 7 days' total
   - top AI-assistant landing pages and top sources, last 7 days
   - Search Console clicks and impressions, last 7 days against the 7 before
+  - real sessions from the US, UK, Canada, Australia and New Zealand, last 30 days: Journey by
+    Mediavine takes sites from 1,000 such sessions a month (Mediavine, 2026)
 
 usage: .venv/bin/python ops/daily.py
 """
@@ -61,6 +63,13 @@ p7 = event_rows("affiliate_click", ["eventName"], iso(today - timedelta(days=14)
 out["aff7"] = sorted([d + [n] for d, n in a7], key=lambda x: -x[-1])
 out["aff7_total"], out["aff_prev7_total"] = sum(n for _, n in a7), sum(n for _, n in p7)
 
+PREMIUM = {"United States", "United Kingdom", "Canada", "Australia", "New Zealand"}
+geo = G.run_report(gtok, pid, dimensions=["country", "sessionSource", "landingPage"], metrics=["sessions"],
+                   start=iso(today - timedelta(days=30)), end=iso(today), limit=20000)
+real30 = [(r["dims"][0], G._num(r["mets"][0])) for r in geo if real(r["dims"][1], r["dims"][2])]
+out["sessions30"] = int(sum(n for _, n in real30))
+out["premium30"] = int(sum(n for c, n in real30 if c in PREMIUM))
+
 site = "https%3A%2F%2Fgentlyyonder.com%2F"
 end = today - timedelta(days=3)
 
@@ -91,4 +100,5 @@ for r in out["aff7"][:10]:
 print("sources 7d:", out["src7"][:6])
 print("AI landing 7d:", out["ai_lp7"][:6])
 print("GSC", out["gsc_window"], out["gsc_tot"])
+print(f"30d real sessions {out['sessions30']}, from US/UK/CA/AU/NZ {out['premium30']} (Journey needs 1,000)")
 print(f"wrote {path.relative_to(REPO)}")
