@@ -5,10 +5,161 @@
       "id": "world.survey.greetwell-ai-2026",
       "topic": "stat",
       "claim": "In an online survey of 1,000 U.S. adults commissioned by Greetwell, a travel concierge company, in August 2026, 55% of the 485 who had used AI for travel got at least one bad recommendation, and 1 in 6 (16%) were recommended a place, tour or activity that wasn't real.",
-      "value": {"respondents": 1000, "ai_users": 485, "any_bad": 0.55, "not_real": 0.16, "wrong_details": 0.27, "closed": 0.10, "fielded": "2026-08"},
-      "sources": [{"url": "https://kesq.com/stacker-travel/2026/09/16/survey-ai-hallucinated-travel-destinations-for-1-in-6-users/", "kind": "news", "title": "Stacker: Survey: AI hallucinated travel destinations for 1 in 6 users"}],
+      "value": {
+        "respondents": 1000,
+        "ai_users": 485,
+        "any_bad": 0.55,
+        "not_real": 0.16,
+        "wrong_details": 0.27,
+        "closed": 0.1,
+        "fielded": "2026-08"
+      },
+      "sources": [
+        {
+          "url": "https://kesq.com/stacker-travel/2026/09/16/survey-ai-hallucinated-travel-destinations-for-1-in-6-users/",
+          "kind": "news",
+          "title": "Stacker: Survey: AI hallucinated travel destinations for 1 in 6 users"
+        }
+      ],
       "checked": "2026-10-04",
       "note": "Commissioned by a company that sells travel help, so say who ran it whenever we quote it. Find Greetwell's own release."
+    },
+    {
+      "id": "world.tickets.teamlab-planets-adult",
+      "topic": "price",
+      "claim": "teamLab Planets TOKYO's adult admission is ¥3,800 on its own site (dynamic pricing).",
+      "checked": "2026-10-21",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.teamlab.art/e/planets/",
+          "kind": "official",
+          "title": "teamLab Planets TOKYO: tickets"
+        }
+      ],
+      "used_in": {
+        "articles/klook-vs-viator-vs-getyourguide.html": [
+          "¥3,800 (US$24.03)"
+        ]
+      }
+    },
+    {
+      "id": "world.tickets.wb-studio-tokyo-adult",
+      "topic": "price",
+      "claim": "Warner Bros. Studio Tour Tokyo's standard adult ticket is from ¥6,600; prices vary through the year.",
+      "checked": "2026-10-21",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.wbstudiotour.jp/en/tickets/",
+          "kind": "official",
+          "title": "Warner Bros. Studio Tour Tokyo: tickets"
+        }
+      ],
+      "used_in": {
+        "articles/klook-vs-viator-vs-getyourguide.html": [
+          "from ¥6,600 (US$41.74)"
+        ]
+      }
+    },
+    {
+      "id": "world.tickets.uss-one-day-adult",
+      "topic": "price",
+      "claim": "Universal Studios Singapore's one-day standard adult ticket is S$76 on Resorts World Sentosa's site.",
+      "checked": "2026-10-21",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.rwsentosa.com/en/play/universal-studios-singapore/tickets",
+          "kind": "official",
+          "title": "Resorts World Sentosa: Universal Studios Singapore tickets"
+        }
+      ],
+      "used_in": {
+        "articles/klook-vs-viator-vs-getyourguide.html": [
+          "S$76 (US$59.44)"
+        ]
+      },
+      "note": "Read from the page title; check the price table in the booking flow next time."
+    },
+    {
+      "id": "world.tickets.burj-khalifa-at-the-top",
+      "topic": "price",
+      "claim": "At the Top, Burj Khalifa levels 124-125 (Silver) is AED 189 on the official ticket site.",
+      "checked": "2026-10-21",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://ticket.atthetop.ae/experiences/at-the-top-burj-khalifa/",
+          "kind": "official",
+          "title": "At the Top: Burj Khalifa tickets"
+        }
+      ],
+      "used_in": {
+        "articles/klook-vs-viator-vs-getyourguide.html": [
+          "AED 189 (US$51.46)"
+        ]
+      },
+      "note": "Page does not say whether this is a prime or non-prime slot."
+    },
+    {
+      "id": "world.tickets.esb-86th-adult",
+      "topic": "price",
+      "claim": "The Empire State Building's 86th-floor observatory general admission is from US$46.",
+      "checked": "2026-10-21",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.esbnyc.com/buy-tickets",
+          "kind": "official",
+          "title": "Empire State Building: tickets"
+        }
+      ],
+      "used_in": {
+        "articles/klook-vs-viator-vs-getyourguide.html": [
+          "from US$46"
+        ]
+      }
+    },
+    {
+      "id": "world.tickets.sagrada-familia-basic",
+      "topic": "price",
+      "claim": "Sagrada Familia's individual ticket base price is €26, including the audio guide app.",
+      "checked": "2026-10-21",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://sagradafamilia.org/en/prices",
+          "kind": "official",
+          "title": "Sagrada Familia: prices"
+        }
+      ],
+      "used_in": {
+        "articles/klook-vs-viator-vs-getyourguide.html": [
+          "€26 (US$29.16)"
+        ]
+      }
+    },
+    {
+      "id": "world.tickets.reseller-snapshot-2026-10",
+      "topic": "price",
+      "claim": "On 21 October 2026 the 'from' prices for six adult tickets were: Klook 24.00/41.65/56.35/51.39/45.09/37.75, Viator 50/59/87/47/50/56, GetYourGuide 27/42/55/51/50/38 USD (teamLab, WB Tokyo, USS, Burj Khalifa, ESB, Sagrada Familia).",
+      "checked": "2026-10-21",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.klook.com/en-US/",
+          "kind": "secondary",
+          "title": "Klook, Viator and GetYourGuide listings"
+        }
+      ],
+      "used_in": {
+        "articles/klook-vs-viator-vs-getyourguide.html": [
+          "US$56.35 (5% below)",
+          "US$55 (7% below)"
+        ]
+      },
+      "note": "Collected by a browsing agent; Viator WB Tokyo, Viator USS (8 listings $85-108) and Klook Burj re-checked by hand. Raw CSV was in the session scratchpad. Re-collect monthly and add a range to the page."
     }
   ]
 }
