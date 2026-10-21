@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-dubai": dict(area="Downtown Dubai", lat=25.1972, lng=55.2744, zoom=14,
+                                      address="Downtown Dubai, Dubai, United Arab Emirates"),
     "where-to-stay-in-orlando": dict(area="Lake Buena Vista", lat=28.3783, lng=-81.5086, zoom=13,
                                         address="Hotel Plaza Boulevard, Lake Buena Vista, FL, USA"),
     "where-to-stay-in-hiroshima": dict(area="Peace Memorial Park", lat=34.3955, lng=132.4536, zoom=14,
@@ -1076,6 +1078,19 @@ HOTELS = {
     "The Alfond Inn": _B + "us/the-alfond-inn.html",
     "Hotel Beauden, Autograph Collection": _B + "us/grand-bohemian.html",
     "Aloft Orlando Downtown": _B + "us/aloft-orlando-downtown.html",
+    # Dubai (Booking.com pages confirmed by hotel name and city)
+    "Armani Hotel Dubai": _B + "ae/armani-dubai.html",
+    "Vida Dubai Mall": _B + "ae/vida-dubai-mall.html",
+    "Rove Downtown": _B + "ae/rove-downtown-dubai.html",
+    "XVA Art Hotel": _B + "ae/xva-art.html",
+    "Canopy by Hilton Dubai Al Seef": _B + "ae/canopy-by-hilton-dubai-al-seef.html",
+    "Arabian Courtyard Hotel & Spa": _B + "ae/arabian-courtyard-spa.html",
+    "Jumeirah Beach Hotel": _B + "ae/jumeirah-beach.html",
+    "Rove La Mer Beach": _B + "ae/rove-la-mer-beach.html",
+    "JA Ocean View Hotel": _B + "ae/ocean-view.html",
+    "Rove Dubai Marina": _B + "ae/rove-dubai-marina.html",
+    "Atlantis, The Palm": _B + "ae/atlantis-the-palm.html",
+    "Sofitel Dubai The Palm": _B + "ae/sofitel-dubai-the-palm-resort-amp-spa.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

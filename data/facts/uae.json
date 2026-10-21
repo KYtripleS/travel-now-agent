@@ -1,0 +1,642 @@
+{
+  "place": "United Arab Emirates",
+  "facts": [
+    {
+      "id": "ae.dubai.tourism-dirham",
+      "topic": "tax",
+      "claim": "Dubai's Tourism Dirham is a flat fee per occupied room per night set by hotel classification: five-star or higher AED 20, four-star AED 15, three-star AED 10, two-star AED 10, one-star or budget AED 7, hotel apartments AED 20 (luxury), 15 (deluxe), 10 (standard), guest house AED 7; it is not charged per person.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.html",
+          "kind": "official",
+          "title": "Dubai Legislation Portal: Executive Council Resolution No. 2 of 2014 (Schedule 1)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "a flat fee of AED 7 to AED 20 a room a night set by the hotel's category",
+          "charged per occupied room, per night, by the hotel's classification",
+          "It is per room, not per person, so two people sharing pay it once"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.tourism-dirham.30-nights",
+      "topic": "tax",
+      "claim": "The Tourism Dirham is charged for a maximum of 30 consecutive nights and is collected from the main guest occupying the room.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2020/Administrative%20Resolution%20No.%20(2)%20of%202020%20Prescribing%20the%20Rules%20for%20Calculating,%20Collecting,%20and%20Paying%20the%20Tourism%20Dirham%20Fee%20in%20the%20Emirate%20of%20Dubai.html",
+          "kind": "official",
+          "title": "Dubai Legislation Portal: Administrative Resolution No. 2 of 2020, Articles 2(1) and 4(a)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "It is charged for a maximum of 30 consecutive nights, to the main guest in the room"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.municipality-fee",
+      "topic": "tax",
+      "claim": "Dubai Decree No. 27 of 2019 reduced the municipality fee on sales of hotel establishments from 10% to 7%; hotels' own October 2026 rate terms list a 7% municipality fee, a 10% service charge and 5% VAT per room per night. (The u.ae portal page still lists 10% municipality fees generically; the decree and the hotel terms both say 7% for Dubai.)",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+          "kind": "official",
+          "title": "Dubai Legislation Portal: Decree No. 27 of 2019, Article 1(b)"
+        },
+        {
+          "url": "https://www.millenniumhotels.com/en/offers/middle-east/millennium-airport-hotel-dubai/hello-dubai-offer/",
+          "kind": "operator",
+          "title": "Millennium Airport Hotel Dubai: offer terms (valid to 31 December 2026)"
+        },
+        {
+          "url": "https://u.ae/en/information-and-services/finance-and-investment/taxation/other-taxes",
+          "kind": "official",
+          "title": "UAE Government portal: other taxes (hotel charges)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "a 7% municipality fee, a 10% service charge and 5% VAT on top",
+          "lowered the municipality fee on hotel sales from 10% to 7%",
+          "hotels' own rate terms list both, with a 10% service charge, on each room night",
+          "Together that is at least 22% of the room rate"
+        ]
+      }
+    },
+    {
+      "id": "ae.uae.vat",
+      "topic": "tax",
+      "claim": "The UAE introduced VAT at a standard rate of 5%.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://mof.gov.ae/en/public-finance/tax/value-added-tax-vat/",
+          "kind": "official",
+          "title": "UAE Ministry of Finance: value added tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "the UAE's VAT is 5%"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.fee-example",
+      "topic": "tax",
+      "claim": "Worked example (our arithmetic, not an official figure): 4 nights at AED 15 = AED 60; 22% of AED 800 = AED 176 (7% + 10% + 5% each applied to the room rate).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.html",
+          "kind": "official",
+          "title": "Dubai Legislation Portal: Executive Council Resolution No. 2 of 2014"
+        },
+        {
+          "url": "https://www.millenniumhotels.com/en/offers/middle-east/millennium-airport-hotel-dubai/hello-dubai-offer/",
+          "kind": "operator",
+          "title": "Millennium Airport Hotel Dubai: offer terms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "pays AED 60 on top of the room, by our arithmetic",
+          "on an AED 800 room, at least AED 176 a night before the Tourism Dirham, by our arithmetic"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.fee-exemption-2026",
+      "topic": "tax",
+      "claim": "On 21 May 2026 the Dubai Media Office reported a second AED 1.5 billion package including exemption from collection of the Tourism Dirham and the sales fees on hotel rooms and restaurants for establishments registered with the Department of Economy and Tourism; the 33 initiatives run for three to 12 months with timelines announced by each entity; no end date for this measure was found. Hotels' own terms in October 2026 (Millennium Airport Hotel offer valid to 31 Dec 2026; Canopy by Hilton hotel-info page) still list the Tourism Dirham.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://mediaoffice.ae/en/news/2026/may/21-05/hamdan-bin-mohammed",
+          "kind": "official",
+          "title": "Dubai Media Office: second AED 1.5 billion economic incentives package, 21 May 2026"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/dxbsepy-canopy-dubai-al-seef/hotel-info/",
+          "kind": "operator",
+          "title": "Canopy by Hilton Dubai Al Seef: hotel info, Tourism Dirham Fee"
+        },
+        {
+          "url": "https://www.millenniumhotels.com/en/offers/middle-east/millennium-airport-hotel-dubai/hello-dubai-offer/",
+          "kind": "operator",
+          "title": "Millennium Airport Hotel Dubai: offer terms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "In May 2026 Dubai's government approved a second package of economic incentives",
+          "we could not find a published end date for this one",
+          "Hotels' own terms in October 2026 still list the fees"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.canopy-tourism-dirham",
+      "topic": "hotel",
+      "claim": "Canopy by Hilton Dubai Al Seef's own policy page states the Tourism Dirham fee is AED 15 per room per night (AED 30 for two-room family rooms).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/dxbsepy-canopy-dubai-al-seef/hotel-info/",
+          "kind": "operator",
+          "title": "Canopy by Hilton Dubai Al Seef: hotel info, Tourism Dirham Fee"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "a four-star hotel that lists AED 15 a room a night"
+        ]
+      }
+    },
+    {
+      "id": "ae.dxb.metro",
+      "topic": "transport",
+      "claim": "The Dubai Metro Red Line serves DXB Terminals 1 and 3: Mon-Thu 5am-midnight, Fri 5am-1am, Sat 5am-midnight, Sun 8am-midnight; up to two pieces of luggage including hand luggage; Red Line passes are sold at ticket offices and vending machines in Terminals 1 and 3. Burj Khalifa / Dubai Mall (R25), Airport Terminal 1 (R14) and Terminal 3 (R13) are all Red Line stations.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://dubaiairports.ae/transport/metro",
+          "kind": "official",
+          "title": "Dubai Airports: Dubai Metro at DXB"
+        },
+        {
+          "url": "https://www.rta.ae/wps/portal/rta/ae/public-transport/metro-stations-map",
+          "kind": "official",
+          "title": "RTA: metro and tram stations map"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "5am to midnight Monday to Thursday and on Saturday, 5am to 1am on Friday, and 8am to midnight on Sunday",
+          "You may take up to two pieces of luggage, hand luggage included",
+          "Red Line passes are sold at the ticket offices and machines in Terminals 1 and 3",
+          "The metro's Red Line serves both the airport and Burj Khalifa / Dubai Mall station"
+        ]
+      }
+    },
+    {
+      "id": "ae.dxb.bus",
+      "topic": "transport",
+      "claim": "DXB buses operate from stands at Arrivals in Terminals 1, 2 and 3; a Nol card is required and cash is not accepted.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://dubaiairports.ae/transport/bus",
+          "kind": "official",
+          "title": "Dubai Airports: buses at DXB"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "services leave from stands at Arrivals in Terminals 1, 2 and 3",
+          "You need a Nol card: cash is not accepted"
+        ]
+      }
+    },
+    {
+      "id": "ae.dxb.taxi",
+      "topic": "transport",
+      "claim": "Dubai Taxi cars run 24/7 from designated ranks in each DXB terminal with a starting fare of AED 25 plus distance.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://dubaiairports.ae/transport/taxi",
+          "kind": "official",
+          "title": "Dubai Airports: taxis at DXB"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "Dubai Taxi cars wait at ranks in each terminal, 24 hours a day, from a starting fare of AED 25 plus distance"
+        ]
+      }
+    },
+    {
+      "id": "ae.dwc.bus",
+      "topic": "transport",
+      "claim": "Al Maktoum International (DWC) page lists the F55 bus to Expo metro station and the N55 bus to Ibn Battuta bus and metro stations, each every 30 minutes; a Nol card is needed.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://dwc.dubaiairports.ae/transport/bus",
+          "kind": "official",
+          "title": "Dubai World Central: bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "the F55 to Expo metro station and the N55 to Ibn Battuta bus and metro stations"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nol-fares",
+      "topic": "fare",
+      "claim": "Nol fares: Silver card AED 3 (1 zone), AED 5 (2 adjacent zones), AED 7.50 (more than 2 zones); Red ticket AED 4, 6, 8.50; Gold card fares AED 6, 10, 15; 7 zones; children aged 5 and under free on all cards.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://rta.ae/wps/portal/rta/ae/public-transport/Nol-Fares?lang=en",
+          "kind": "official",
+          "title": "RTA: Nol fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "AED 3",
+          "AED 4",
+          "AED 7.50",
+          "AED 8.50",
+          "Dubai's map is divided into seven",
+          "Children aged five and under ride free"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nol-cards",
+      "topic": "fare",
+      "claim": "The Nol Silver card costs AED 25 including AED 19 initial credit; the paper Nol Red ticket costs AED 2 and can hold up to 10 single trips.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.rta.ae/wps/portal/rta/ae/public-transport/Nol-Home",
+          "kind": "official",
+          "title": "RTA: Nol cards"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "The Silver card costs AED 25, of which AED 19 is credit to travel on",
+          "The paper Red ticket costs AED 2 and holds up to 10 single trips"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.tram",
+      "topic": "transport",
+      "claim": "The Dubai Tram links the Dubai Metro and the Palm Monorail and runs along Al Sufouh Road and Jumeirah Beach Road; the RTA stations map lists a Jumeirah Beach Residence 1 tram stop.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.rta.ae/wps/portal/rta/ae/public-transport/tram",
+          "kind": "official",
+          "title": "RTA: Dubai Tram"
+        },
+        {
+          "url": "https://www.rta.ae/wps/portal/rta/ae/public-transport/metro-stations-map",
+          "kind": "official",
+          "title": "RTA: metro and tram stations map"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "which links the metro with the Palm Monorail, runs along Al Sufouh Road and Jumeirah Beach Road and stops at Jumeirah Beach Residence"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.visa",
+      "topic": "place",
+      "claim": "Visit Dubai (Department of Economy and Tourism) states that citizens of more than 80 countries are able to get a visa on arrival in Dubai.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information",
+          "kind": "official",
+          "title": "Visit Dubai: visa information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "citizens of more than 80 countries can get a visa on arrival"
+        ]
+      }
+    },
+    {
+      "id": "ae.uae.travel-advice.au",
+      "topic": "place",
+      "claim": "Australia's Smartraveller (updated 8 October 2026, still current 21 October 2026) advises exercising a high degree of caution in the UAE; airspace may open or close at short notice, affecting Abu Dhabi and Dubai International flights.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.smartraveller.gov.au/destinations/middle-east/united-arab-emirates",
+          "kind": "official",
+          "title": "Smartraveller: United Arab Emirates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "advises a high degree of caution in the UAE and warns that its airspace may open or close at short notice"
+        ]
+      }
+    },
+    {
+      "id": "ae.uae.travel-advice.uk",
+      "topic": "place",
+      "claim": "The UK Foreign Office (updated 24 July 2026, still current 21 October 2026) says that since 8 July there have been strikes and retaliatory attacks by Iran across the region, and tells British nationals in the Middle East to be prepared for flight cancellations and periodic airspace closures.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "kind": "official",
+          "title": "GOV.UK: United Arab Emirates travel advice"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "strikes and retaliatory attacks by Iran across the region since 8 July",
+          "be prepared for flight cancellations and periodic airspace closures"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.burj-al-arab-restoration",
+      "topic": "hotel",
+      "claim": "Jumeirah states Jumeirah Burj Al Arab is undergoing a phased restoration programme and offers to assist with an alternative reservation at one of its other Jumeirah properties in town.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.jumeirah.com/en/stay/dubai/jumeirah-burj-al-arab-a-jumeirah-icon",
+          "kind": "operator",
+          "title": "Jumeirah: Jumeirah Burj Al Arab"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "The Burj Al Arab itself is undergoing a phased restoration programme"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.armani",
+      "topic": "hotel",
+      "claim": "Armani Hotel Dubai occupies the concourse level through the 39th floor of Burj Khalifa with 160 guest rooms and suites designed by Giorgio Armani, steps from the Dubai Mall and Dubai Fountain; the Armani Deluxe Room is 45 sq m with City View; a separate Fountain View category exists.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.armanihotels.com/en/hotels/armani-hotel-dubai",
+          "kind": "operator",
+          "title": "Armani Hotel Dubai"
+        },
+        {
+          "url": "https://www.armanihotels.com/en/hotels/armani-hotel-dubai/rooms-and-suites/armani-deluxe-room",
+          "kind": "operator",
+          "title": "Armani Deluxe Room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "from the concourse level to the 39th floor, with 160 rooms and suites",
+          "The Armani Deluxe Room measures 45 m²"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.vida",
+      "topic": "hotel",
+      "claim": "Vida Dubai Mall's own site describes direct access to the Dubai Mall via Chinatown and an infinity pool with Burj Khalifa views.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.vidahotels.com/en/hotels/vida-dubai-mall/",
+          "kind": "operator",
+          "title": "Vida Dubai Mall"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "direct access to the Dubai Mall through its Chinatown section and an infinity pool with Burj Khalifa views"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.rove-downtown",
+      "topic": "hotel",
+      "claim": "Rove Downtown: all rooms 26 sqm with sofa bed and mini-fridge (Rover Room, Rover Room Burj View, Gamer Cave); outdoor saltwater pool; less than 10 minutes' walk from The Dubai Mall.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.rovehotels.com/en/hotels/downtown/",
+          "kind": "operator",
+          "title": "Rove Downtown"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "less than 10 minutes' walk from the Dubai Mall by the hotel's count",
+          "the Burj Khalifa view is a separate room type, the Rover Room Burj View"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.xva",
+      "topic": "hotel",
+      "claim": "XVA Art Hotel: in the former home of the Seddiqi family in the Al Fahidi Historical Neighbourhood, opened 2003, 15 rooms around three shaded courtyards; Standard Room 13-15 m2.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.xvahotel.com/",
+          "kind": "operator",
+          "title": "XVA Art Hotel"
+        },
+        {
+          "url": "https://www.xvahotel.com/rooms/",
+          "kind": "operator",
+          "title": "XVA Art Hotel: rooms"
+        },
+        {
+          "url": "https://www.xvahotel.com/about/",
+          "kind": "operator",
+          "title": "XVA Art Hotel: about"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "In the former home of the Seddiqi family in the Al Fahidi Historical Neighbourhood",
+          "the Standard rooms measure 13 to 15 m²"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.canopy",
+      "topic": "hotel",
+      "claim": "Canopy by Hilton Dubai Al Seef: 198 rooms, rooftop pool, spa, riverside lounge; Al Fahidi Historical Neighbourhood 1.50 km; stay from AED 273 per night for 21-22 October 2026; breakfast available for a fee.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/dxbsepy-canopy-dubai-al-seef/",
+          "kind": "operator",
+          "title": "Canopy by Hilton Dubai Al Seef"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/dxbsepy-canopy-dubai-al-seef/hotel-info/",
+          "kind": "operator",
+          "title": "Canopy by Hilton Dubai Al Seef: hotel info"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "a night on 21 October started at AED 273 on Hilton's own site",
+          "breakfast is available for a fee"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.arabian-courtyard",
+      "topic": "hotel",
+      "claim": "Arabian Courtyard Hotel & Spa: 4-star, opposite Dubai Museum on Al Fahidi Street, Bur Dubai; Sharaf DG metro station and Al Ghubaiba metro and bus stations are 500 metres' walk (hotel's own statement); Deluxe Museum View room type.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.arabiancourtyard.com/",
+          "kind": "operator",
+          "title": "Arabian Courtyard Hotel & Spa"
+        },
+        {
+          "url": "https://www.arabiancourtyard.com/rooms/",
+          "kind": "operator",
+          "title": "Arabian Courtyard: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "Sharaf DG and Al Ghubaiba metro stations are 500 metres away on foot, by the hotel's count",
+          "only the Deluxe Museum View rooms are sold with a view"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.jumeirah-beach-hotel",
+      "topic": "hotel",
+      "claim": "Jumeirah Beach Hotel, Jumeirah Road, Umm Suqeim 3: designed for families, private beach and pools, Jumeirah Circle kids club, views from every room over Jumeirah Burj Al Arab and the Gulf.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.jumeirah.com/en/stay/dubai/jumeirah-beach-hotel",
+          "kind": "operator",
+          "title": "Jumeirah Beach Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "views from every room over the Burj Al Arab and the Gulf"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.rove-la-mer",
+      "topic": "hotel",
+      "claim": "Rove La Mer Beach at J1 Beach, Jumeirah; max occupancy 2 adults + 1 child (4-16); Downtown Dubai, Dubai Mall and City Walk 15 minutes away (hotel's statement).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.rovehotels.com/en/hotels/rove-la-mer-beach/",
+          "kind": "operator",
+          "title": "Rove La Mer Beach"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "rooms take at most two adults and one child aged 4 to 16"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.ja-ocean-view",
+      "topic": "hotel",
+      "claim": "JA Ocean View Hotel on The Walk at JBR: 346 rooms and suites with sea views, infinity pool, five-star; private balcony listed for Superior Sea View room.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.jaresortshotels.com/dubai/ja-ocean-view-hotel",
+          "kind": "operator",
+          "title": "JA Ocean View Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "with 346 rooms and suites that all face the sea, and an infinity pool"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.rove-marina",
+      "topic": "hotel",
+      "claim": "Rove Dubai Marina: 26 sqm Rover Room, outdoor pool, bikes for a small fee, JBR beach, Dubai Marina Mall and Dubai Tram ten minutes away on foot; max 2 adults + 1 child.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.rovehotels.com/en/hotels/rove-dubai-marina/",
+          "kind": "operator",
+          "title": "Rove Dubai Marina"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "the hotel puts JBR beach, Dubai Marina Mall and the Dubai Tram ten minutes away on foot"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.atlantis",
+      "topic": "hotel",
+      "claim": "Atlantis, The Palm: King and Queen Rooms 45-47 sqm; every Deluxe Room includes unlimited Aquaventure World and Lost World Aquarium access, one daily Atlantis Explorers Club session, beach and pools; FAQ: taxi from Dubai International about 40-60 minutes and about AED 120; up to 35% off stays advertised on the hotel's home page on 21 October 2026.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.atlantis.com/dubai/atlantis-the-palm/stay/rooms-and-suites/deluxe-rooms",
+          "kind": "operator",
+          "title": "Atlantis, The Palm: Deluxe Rooms"
+        },
+        {
+          "url": "https://www.atlantis.com/dubai/atlantis-the-palm/faq",
+          "kind": "operator",
+          "title": "Atlantis, The Palm: FAQ"
+        },
+        {
+          "url": "https://www.atlantis.com/dubai/atlantis-the-palm",
+          "kind": "operator",
+          "title": "Atlantis, The Palm"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "King and Queen Rooms of 45 to 47 m²",
+          "about 40 to 60 minutes and about AED 120",
+          "advertising up to 35% off stays"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.sofitel-palm",
+      "topic": "hotel",
+      "claim": "Sofitel Dubai The Palm: East Crescent, private beach, six pools, 12 restaurants and bars, family apartments with fully equipped kitchens, day passes sold to pools and beach.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://sofitel.accor.com/en/hotels/6541.html",
+          "kind": "operator",
+          "title": "Sofitel Dubai The Palm"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai.html": [
+          "a private beach, six pools, 12 restaurants and bars",
+          "the hotel sells day passes to its beach and pools"
+        ]
+      }
+    }
+  ]
+}

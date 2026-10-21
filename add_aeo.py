@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-dubai": dict(
+        text="For a first trip, stay in Downtown Dubai: the Burj Khalifa, the Dubai Mall and a metro station are close. Choose old Dubai for the Creek, Marina and JBR for the beach, the Palm for a resort. The Tourism Dirham is AED 7 to 20 a room a night, plus fees.",
+        link_text="Downtown Dubai",
+        cta=_stay_cta("where-to-stay-in-dubai", "See hotels around Downtown Dubai")),
     "where-to-stay-in-orlando": dict(
         text="For a first trip built around Disney, stay in Walt Disney World and Lake Buena Vista: Disney's own hotels carry 30-minute early theme park entry. Choose Universal's hotels for Universal's parks, Gaylord Palms for a Kissimmee water-park resort. The tax is 12.5% in Orange County, 13.5% in Osceola.",
         link_text="Walt Disney World and Lake Buena Vista",
@@ -1423,6 +1427,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-dubai": ["Armani Hotel Dubai", "Vida Dubai Mall", "Rove Downtown"],
     "where-to-stay-in-orlando": ["Disney's Grand Floridian Resort & Spa", "Drury Plaza Hotel Orlando - Disney Springs Area", "Rosen Inn at Pointe Orlando"],
     "where-to-stay-in-hiroshima": ["Dormy Inn Hiroshima", "Nest Hotel Hiroshima Hatchobori", "Toyoko Inn Hiroshima-eki Shinkansen-guchi No.1"],
     "where-to-stay-in-kanazawa": ["The Hotel Sanraku Kanazawa", "Hotel Intergate Kanazawa", "Hotel Nikko Kanazawa"],
@@ -1549,6 +1554,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Dubai", "where-to-stay-in-dubai", None, None),
         ("Orlando", "where-to-stay-in-orlando", None, None),
         ("Hiroshima", "where-to-stay-in-hiroshima", None, None),
         ("Kanazawa", "where-to-stay-in-kanazawa", None, None),
