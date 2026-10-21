@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-boston": dict(
+        text="For a first trip, stay in Back Bay: Copley Square and Newbury Street are close, and the Logan Express runs from here for $3. Choose The Lenox for a classic address, Newbury Guest House for value, the Fairmont Copley Plaza for the square. The tax is 14.95%, or $44.85 on a $300 room.",
+        link_text="Back Bay",
+        cta=_stay_cta("where-to-stay-in-boston", "See hotels around Back Bay")),
     "where-to-stay-in-tulum": dict(
         text="For a first trip, stay in Tulum Pueblo: the bus terminal and the town are at hand. Choose Aldea Zamá for apartments, the Hotel Zone for the beach and Akumal for an all-inclusive bay. A room carries 5% lodging tax plus 16% IVA, and foreign visitors pay the Visitax, about 285 pesos.",
         link_text="Tulum Pueblo",
@@ -1443,6 +1447,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-boston": ["The Lenox Hotel", "Newbury Guest House", "Fairmont Copley Plaza"],
     "where-to-stay-in-tulum": ["Azulik", "Una Vida", "The Strabon Tulum"],
     "where-to-stay-in-washington-dc": ["Kimpton Hotel Monaco Washington DC", "Moxy Washington, DC Downtown", "Willard InterContinental Washington"],
     "where-to-stay-in-miami": ["The Betsy", "Catalina Hotel & Beach Club", "Faena Hotel Miami Beach"],
@@ -1574,6 +1579,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Boston", "where-to-stay-in-boston", None, None),
         ("Tulum", "where-to-stay-in-tulum", None, None),
         ("Washington, DC", "where-to-stay-in-washington-dc", None, None),
         ("Miami", "where-to-stay-in-miami", None, None),

@@ -4573,6 +4573,489 @@
           "valet parking is $58 a night"
         ]
       }
+    },
+    {
+      "id": "us.boston.tax-rates",
+      "topic": "tax",
+      "claim": "Massachusetts' Department of Revenue states a state room occupancy excise rate of 5.7%, a local option excise of up to 6% (6.5% for Boston), and an additional 2.75% convention center funding tax in Boston, Worcester, Cambridge, Springfield, West Springfield and Chicopee; the Division of Local Services rate table shows Boston at 6.50% (effective 7/1/2019) and Cambridge at 6.00% (effective 10/1/2009), data current as of 10/21/2026.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.mass.gov/info-details/room-occupancy-excise-tax",
+          "kind": "official",
+          "title": "Mass.gov: Room Occupancy Excise Tax (updated April 8, 2026)"
+        },
+        {
+          "url": "https://www.mass.gov/local-option-excise-taxes",
+          "kind": "official",
+          "title": "Mass.gov DLS: Local Option Excise Taxes"
+        },
+        {
+          "url": "https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=LocalOptions.Room_Tax_Impact_Fee",
+          "kind": "official",
+          "title": "Mass.gov DLS: Room Tax & Impact Fee Effective Dates & Rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "Massachusetts room occupancy excise",
+          "Boston local option room occupancy excise",
+          "Convention center financing fee",
+          "The state says cities may charge up to 6% locally, and 6.5% for Boston",
+          "the convention-centre fee applies in six cities, including Boston and Cambridge"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.tax-combined",
+      "topic": "tax",
+      "claim": "Our arithmetic: 5.7% + 6.5% + 2.75% = 14.95% for a Boston hotel room; 14.95% of a $300 room is $44.85, making $344.85 a night; no separate per-night city charge appears on the pages we read.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.mass.gov/info-details/room-occupancy-excise-tax",
+          "kind": "official",
+          "title": "Mass.gov: Room Occupancy Excise Tax"
+        },
+        {
+          "url": "https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=LocalOptions.Room_Tax_Impact_Fee",
+          "kind": "official",
+          "title": "Mass.gov DLS: Room Tax & Impact Fee Effective Dates & Rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "Together that is 14.95%, our arithmetic from the three official rates",
+          "On a $300 room, 14.95% is $44.85, so the room costs $344.85 a night",
+          "The state publishes no separate per-night city charge in the pages we read"
+        ]
+      }
+    },
+    {
+      "id": "us.cambridge.tax-combined",
+      "topic": "tax",
+      "claim": "Cambridge's local option room excise is 6.00% (DLS table), plus the 5.7% state excise and the 2.75% convention center funding tax, which our arithmetic makes 14.45%; on a $300 room that is $43.35.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=LocalOptions.Room_Tax_Impact_Fee",
+          "kind": "official",
+          "title": "Mass.gov DLS: Room Tax & Impact Fee Effective Dates & Rates"
+        },
+        {
+          "url": "https://www.mass.gov/info-details/room-occupancy-excise-tax",
+          "kind": "official",
+          "title": "Mass.gov: Room Occupancy Excise Tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "Cambridge, across the river, charges its local excise at 6%",
+          "so a Cambridge hotel adds 14.45%: 5.7% plus 6% plus 2.75%",
+          "On a $300 room that is $43.35"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.transport-sl1",
+      "topic": "transport",
+      "claim": "Massport states the Silver Line SL1 goes directly to all Logan terminals and connects to South Station, is free from the airport to downtown, and includes a free transfer to the Red Line; it names SL1 the best route to the Seaport, Cambridge, Harvard University and MIT; the MBTA lists SL1 stops including World Trade Center, Courthouse and South Station.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.massport.com/logan-airport/getting-to-logan/public-transportation",
+          "kind": "operator",
+          "title": "Massport: Public Transportation to Logan Airport"
+        },
+        {
+          "url": "https://www.mbta.com/schedules/741/line",
+          "kind": "operator",
+          "title": "MBTA: SL1 schedules and map"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "Massport says it is free from the airport, it picks up at every terminal, and it runs to South Station through the Seaport, with a free transfer to the Red Line",
+          "Its stops include World Trade Center and Courthouse in the Seaport, and South Station",
+          "Massport lists the Silver Line, with a free transfer to the Red Line, as the way from the airport to Cambridge, Harvard University and MIT"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.transport-blue",
+      "topic": "transport",
+      "claim": "Massport states the Blue Line reaches Airport Station, from which a free on-airport shuttle serves the terminals, and that the Blue Line connects to the Orange Line at State and the Green Line at Government Center; the MBTA subway fare is $2.40.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.massport.com/logan-airport/getting-to-logan/public-transportation",
+          "kind": "operator",
+          "title": "Massport: Public Transportation to Logan Airport"
+        },
+        {
+          "url": "https://www.mbta.com/fares/subway-fares",
+          "kind": "operator",
+          "title": "MBTA: Subway Fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "take the free on-airport shuttle to Airport Station, then the subway, $2.40",
+          "Massport says the Blue Line connects to the Orange Line at State and the Green Line at Government Center"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.transport-logan-express",
+      "topic": "transport",
+      "claim": "Massport: Logan Express Back Bay tickets are $3 from Back Bay and the ride from the airport is free; buses run every half hour, 5am-9pm from Back Bay (800 Boylston Street by the Prudential Center, and Dartmouth Street at Copley Place across from Back Bay Station) and 6am-10pm from Logan; Back Bay Station has the Orange Line, commuter rail and Amtrak.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.massport.com/logan-airport/getting-to-logan/logan-express/back-bay",
+          "kind": "operator",
+          "title": "Massport: Logan Express Back Bay"
+        },
+        {
+          "url": "https://www.massport.com/logan-airport/getting-to-logan/logan-express",
+          "kind": "operator",
+          "title": "Massport: Logan Express"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "Tickets from Back Bay to the airport are $3, the ride from the airport is free, and buses run every half hour: from Back Bay 5 am to 9 pm, from Logan 6 am to 10 pm",
+          "800 Boylston Street by the Prudential Center and Dartmouth Street at Copley Place",
+          "Back Bay Station, opposite Copley Place, has the Orange Line, the commuter rail and Amtrak"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.transport-ferry",
+      "topic": "transport",
+      "claim": "Massport states year-round MBTA water ferry service between Logan's Water Transportation Dock and Long Wharf; the MBTA lists Logan Airport Ferry Terminal and Long Wharf as inner-harbour Zone 1A terminals, with an inner-harbour fare of $2.40, and says CharlieCards are not accepted on ferries while contactless payment is.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.massport.com/logan-airport/getting-to-logan/public-transportation",
+          "kind": "operator",
+          "title": "Massport: Public Transportation to Logan Airport"
+        },
+        {
+          "url": "https://www.mbta.com/fares/ferry-fares",
+          "kind": "operator",
+          "title": "MBTA: Ferry Fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "The MBTA ferry links the Logan Airport ferry terminal and Long Wharf year-round, and an inner-harbour trip costs $2.40",
+          "The ferry does not take a CharlieCard; contactless payment works"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.fare-mbta",
+      "topic": "fare",
+      "claim": "MBTA: subway one-way $2.40 and local bus $1.70 with CharlieCard, CharlieTicket, contactless payment or cash; 1-day pass $11.00 and 7-day pass $22.50; contactless payment is not compatible with passes; from September 1, 2026 the MBTA pilots unlimited transfers between subway, bus and ferry within the two-hour window when the same payment method is used.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.mbta.com/fares/subway-fares",
+          "kind": "operator",
+          "title": "MBTA: Subway Fares"
+        },
+        {
+          "url": "https://www.mbta.com/fares/bus-fares",
+          "kind": "operator",
+          "title": "MBTA: Bus Fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "the subway is $2.40 a ride and a local bus $1.70",
+          "A one-day pass is $11 and a seven-day pass $22.50",
+          "Contactless payment does not work with those passes",
+          "From 1 September 2026 the MBTA is piloting unlimited transfers between subway, bus and ferry within two hours"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.place-common-freedom-trail",
+      "topic": "place",
+      "claim": "The City of Boston gives Boston Common's address as 139 Tremont Street, says it was founded in 1634 and calls it America's oldest park; the Freedom Trail Foundation describes a 2.5-mile Freedom Trail connecting 16 nationally significant historic sites.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.boston.gov/parks/boston-common",
+          "kind": "official",
+          "title": "City of Boston: Boston Common"
+        },
+        {
+          "url": "https://www.thefreedomtrail.org/",
+          "kind": "official",
+          "title": "The Freedom Trail Foundation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "Boston Common, at 139 Tremont Street, was founded in 1634, and the city calls it America's oldest park",
+          "a 2.5-mile route connecting 16 historic sites"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.place-ica",
+      "topic": "place",
+      "claim": "The ICA Boston is at 25 Harbor Shore Drive; adult admission is $20; admission is free Thursday 5-9 PM with advance tickets; closed Mondays; the Paul Revere House is at 19 North Square.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.icaboston.org/visit/",
+          "kind": "official",
+          "title": "ICA Boston: Visit"
+        },
+        {
+          "url": "https://www.paulreverehouse.org/visit/",
+          "kind": "official",
+          "title": "Paul Revere House: Visit"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "The Institute of Contemporary Art, at 25 Harbor Shore Drive, charges adults $20",
+          "free on Thursday evenings from 5 to 9 pm with advance tickets",
+          "holds the Paul Revere House at 19 North Square"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-fairmont",
+      "topic": "hotel",
+      "claim": "Fairmont's own site lists 383 guest rooms and suites at Fairmont Copley Plaza, 138 St James Avenue, on Copley Square, with OAK Long Bar + Kitchen, a Prudential Tower 10 minutes' walk, Fairmont Room 250 sq ft, Deluxe King 350 sq ft, and parking available for an additional fee.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/copley-plaza-boston/",
+          "kind": "operator",
+          "title": "Fairmont Copley Plaza"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "On Copley Square at 138 St James Avenue, with 383 guest rooms and suites and the OAK Long Bar + Kitchen",
+          "the entry-level Fairmont Room is 250 sq ft, the Deluxe King 350 sq ft, and parking costs extra"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-lenox",
+      "topic": "hotel",
+      "claim": "The Lenox's site gives 61 Exeter Street at Boylston and 215 guest rooms and suites, lists The Irving and Share Coffee Roasters, a Classic Room of 220 sq ft, a Superior King of 330 sq ft, and wood-burning seasonal fireplaces in some rooms operating Labor Day to Memorial Day.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.lenoxhotel.com/",
+          "kind": "operator",
+          "title": "The Lenox Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "At 61 Exeter Street at Boylston, with 215 guest rooms and suites",
+          "the Classic Room is 220 sq ft; the Superior King is 330 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-newbury",
+      "topic": "hotel",
+      "claim": "Newbury Guest House's site gives 261 Newbury Street, 35 guest rooms in 4 layouts, a historic brownstone in a registered historic district, bay windows in several rooms, and a Standard Room of about 210 sq ft; its rooms page does not mention parking or breakfast.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.newburyguesthouse.com/",
+          "kind": "operator",
+          "title": "Newbury Guest House"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "A 35-room hotel at 261 Newbury Street, in a historic brownstone",
+          "the Standard Room is about 210 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-xvbeacon",
+      "topic": "hotel",
+      "claim": "XV Beacon's site gives 15 Beacon Street, a 61-room boutique hotel in a turn-of-the-century Beaux Arts building with a marble grand staircase, mahogany paneling and an original caged-glass elevator, the restaurant Mooo and a 24-hour concierge.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://xvbeacon.com/",
+          "kind": "operator",
+          "title": "XV Beacon"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "A 61-room boutique hotel at 15 Beacon Street, in a Beaux Arts building",
+          "with only 61 rooms, compare the room categories"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-omni",
+      "topic": "hotel",
+      "claim": "Omni's site calls Omni Parker House a local icon since 1855, lists Parker's Restaurant as the birthplace of Boston Cream Pie and Parker House Rolls, check-in 4 PM, guests must be 21 to rent a room, and an early departure fee equal to one night's stay plus applicable taxes; Booking.com gives the address as 60 School Street.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.omnihotels.com/hotels/boston-parker-house",
+          "kind": "operator",
+          "title": "Omni Parker House"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "a local icon since 1855",
+          "check-in is at 4 pm, guests must be 21 to rent a room, and leaving early incurs a fee equal to one night plus tax"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-hiboston",
+      "topic": "hotel",
+      "claim": "HI USA's page gives HI Boston at 19 Stuart Street, a Private Queen Ensuite and 4-, 6- and 8-bed dorms, Boston Common 0.2 mi away, free daily activities, check-in 4 p.m., and group bookings of 8 or more through Group Sales.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hiusa.org/hostels/massachusetts/boston/boston",
+          "kind": "operator",
+          "title": "HI Boston"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "A hostel at 19 Stuart Street, with a Private Queen Ensuite and 4-, 6- and 8-bed dorms",
+          "groups of eight or more must book through the hostel's group sales"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-bostonharbor",
+      "topic": "hotel",
+      "claim": "Boston Harbor Hotel's site gives 70 Rowes Wharf, an iconic archway, Rowes Wharf Sea Grille, The Dark Bar, Harbor Tea and a wellness area with an indoor pool; the page lists no room sizes or rates.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.bostonharborhotel.com/",
+          "kind": "operator",
+          "title": "Boston Harbor Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "At 70 Rowes Wharf, beneath an archway on the edge of the water",
+          "the page we read lists neither room sizes nor rates"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-harborside",
+      "topic": "hotel",
+      "claim": "Harborside Inn's site lists 200 guest rooms, downtown Boston near Faneuil Hall and the Freedom Trail, room sizes of 190 to 350 sq ft, King Cabin rooms with no windows, free high-speed WiFi and a statement of no hidden fees or incidental charges; Booking.com gives 185 State Street.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.harborsideinnboston.com/",
+          "kind": "operator",
+          "title": "Harborside Inn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "A 200-room hotel at 185 State Street, in downtown Boston, near Faneuil Hall and the Freedom Trail",
+          "the King Cabin rooms have no windows"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-envoy",
+      "topic": "hotel",
+      "claim": "The Envoy Hotel's site gives 70 Sleeper Street, 136 guest rooms and suites, a seventh-floor rooftop with the Skyline View Bar and Harbor Lounge, the restaurant Para Maria, Classic rooms of 289-309 sq ft with partial water view and Deluxe King rooms of 396 sq ft.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.theenvoyhotel.com/",
+          "kind": "operator",
+          "title": "The Envoy Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "At 70 Sleeper Street, with 136 guest rooms and suites, a seventh-floor rooftop",
+          "Classic rooms are 289 to 309 sq ft and have only a partial water view"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-yotel",
+      "topic": "hotel",
+      "claim": "YOTEL Boston's site gives 65 Seaport Boulevard, cabins from 152 sq ft, the Deck 12 rooftop bar and Vela Seaport, Courthouse Silver Line station a four-minute walk, and a mandatory $45 facility fee.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.yotel.com/en/hotels/yotel-boston",
+          "kind": "operator",
+          "title": "YOTEL Boston"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "At 65 Seaport Boulevard, with compact cabins from 152 sq ft",
+          "a mandatory $45 facility fee is charged on top of the room rate"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-charles",
+      "topic": "hotel",
+      "claim": "The Charles Hotel's site gives Harvard Square, Henrietta's Table, Noir Bar, Bar Enza, Regattabar jazz open since 1985, and a Bed & Breakfast package including breakfast; Booking.com gives 1 Bennett Street.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.charleshotel.com/",
+          "kind": "operator",
+          "title": "The Charles Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "At 1 Bennett Street in Harvard Square",
+          "breakfast is part of the Bed & Breakfast package, not the standard rate"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel-harvardsq",
+      "topic": "hotel",
+      "claim": "Harvard Square Hotel's site gives 110 Mount Auburn Street, 73 guestrooms, one king, two double beds and one full room types, a lobby cafe, next to Harvard University, and self-parking at $25/day or $50/overnight.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.harvardsquarehotel.com/",
+          "kind": "operator",
+          "title": "Harvard Square Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-boston.html": [
+          "A 73-room hotel at 110 Mount Auburn Street, next to Harvard University by the hotel's own description",
+          "the hotel's self-parking costs $25 a day or $50 overnight"
+        ]
+      }
     }
   ]
 }

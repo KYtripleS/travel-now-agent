@@ -136,6 +136,7 @@ BY_SLUG = {
     "where-to-stay-in-copenhagen": "Stay",
     "where-to-stay-in-stockholm": "Stay",
     "where-to-stay-in-new-york": "Stay",
+    "where-to-stay-in-boston": "Stay",
     "where-to-stay-in-tulum": "Stay",
     "where-to-stay-in-washington-dc": "Stay",
     "where-to-stay-in-miami": "Stay",

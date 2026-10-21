@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-boston": dict(area="Copley Square", lat=42.3501, lng=-71.0775, zoom=15,
+                                       address="Copley Square, Boston, MA, USA"),
     "where-to-stay-in-tulum": dict(area="Tulum Pueblo", lat=20.2114, lng=-87.4654, zoom=13,
                                       address="Avenida Tulum, Tulum Centro, Tulum, Quintana Roo, Mexico"),
     "where-to-stay-in-washington-dc": dict(area="Penn Quarter", lat=38.8976, lng=-77.0233, zoom=14,
@@ -1151,6 +1153,19 @@ HOTELS = {
     "Diamante K": _B + "mx/diamante-k-tulum.html",
     "Akumal Bay Beach & Spa Resort": _B + "mx/akumal-beach-resort.html",
     "Bahia Principe Explore Akumal": _B + "mx/luxury-bahia-principe-akumal.html",
+    # Boston (Booking.com pages confirmed by hotel name and city)
+    "Fairmont Copley Plaza": _B + "us/fairmont-copley-plaza.html",
+    "The Lenox Hotel": _B + "us/the-lenox.html",
+    "Newbury Guest House": _B + "us/newbury-guest-house.html",
+    "XV Beacon": None,
+    "Omni Parker House": _B + "us/boston-omni-parker-house.html",
+    "HI Boston": _B + "us/hostelling-international-boston.html",
+    "Boston Harbor Hotel": _B + "us/boston-harbor.html",
+    "Harborside Inn": _B + "us/harborside.html",
+    "The Envoy Hotel": _B + "us/the-envoy-autograph-collection.html",
+    "YOTEL Boston": _B + "us/yotel-boston.html",
+    "The Charles Hotel": _B + "us/the-charles.html",
+    "Harvard Square Hotel": _B + "us/cambridge-massachusetts.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
