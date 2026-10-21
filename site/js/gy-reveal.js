@@ -359,15 +359,19 @@
   function brandOf(a) {
     try { return BRANDS[new URL(a.href).hostname] ? a : null; } catch (e) { return null; }
   }
-  var links = Array.prototype.filter.call(main.querySelectorAll('a[rel~="sponsored"]'), brandOf);
-  if (!links.length) return;
-  /* each h2 and the first partner link in its section */
-  var hs = main.querySelectorAll('h2'), marks = [];
-  links.forEach(function (a) {
-    var h = null;
-    for (var i = 0; i < hs.length && (hs[i].compareDocumentPosition(a) & Node.DOCUMENT_POSITION_FOLLOWING); i++) h = hs[i];
-    if (h && (!marks.length || marks[marks.length - 1].h !== h)) marks.push({ h: h, a: a });
-  });
+  /* the page's partner links, and each h2 with the first one in its section; read
+     afresh each time, because partner scripts rewrite links after load */
+  function scan() {
+    var links = Array.prototype.filter.call(main.querySelectorAll('a[rel~="sponsored"]'), brandOf);
+    var hs = main.querySelectorAll('h2'), marks = [];
+    links.forEach(function (a) {
+      var h = null;
+      for (var i = 0; i < hs.length && (hs[i].compareDocumentPosition(a) & Node.DOCUMENT_POSITION_FOLLOWING); i++) h = hs[i];
+      if (h && (!marks.length || marks[marks.length - 1].h !== h)) marks.push({ h: h, a: a });
+    });
+    return { links: links, hs: hs, marks: marks };
+  }
+  if (!scan().links.length) return;
   var bar = document.createElement('div');
   bar.className = 'gy-aff-bar';
   bar.setAttribute('role', 'region');
@@ -375,7 +379,6 @@
   bar.hidden = true;
   bar.innerHTML = '<span class="gy-aff-bar-tag">Partner link</span><a rel="nofollow sponsored noopener" target="_blank"></a>'
     + '<button type="button" aria-label="Hide this bar">\u00d7</button>';
-  var link = bar.querySelector('a');
   bar.querySelector('button').addEventListener('click', function () {
     bar.hidden = true; off = true;
     document.body.classList.remove('gy-has-aff-bar');
@@ -386,14 +389,19 @@
   function update() {
     if (off) return;
     /* the section being read; past the last provider's section, back to the top pick */
+    var p = scan(), links = p.links, hs = p.hs, marks = p.marks;
+    if (!links.length) { bar.hidden = true; return; }
     var y = innerHeight * 0.4, cur = links[0], h = null;
     for (var i = 0; i < hs.length && hs[i].getBoundingClientRect().top < y; i++) h = hs[i];
     for (var j = 0; j < marks.length && marks[j].h.getBoundingClientRect().top < y; j++) cur = marks[j].a;
     if (h && marks.length && j === marks.length && h !== marks[j - 1].h) cur = links[0];
-    var brand = BRANDS[new URL(cur.href).hostname];
-    if (link.href !== cur.href) {
+    /* other scripts may rewrite or replace partner links, so look the link up each
+       time and remember which source it was copied from */
+    var link = bar.querySelector('a'), src = cur.getAttribute('href');
+    if (link.getAttribute('data-src') !== src) {
+      link.setAttribute('data-src', src);
       link.href = cur.href;
-      link.textContent = brand + ': see today\u2019s plans and prices \u2192';
+      link.textContent = 'See ' + BRANDS[new URL(cur.href).hostname] + ' plans \u2192';
     }
     var past = verdict ? verdict.getBoundingClientRect().bottom < 0 : scrollY > 600;
     var atFoot = footer && footer.getBoundingClientRect().top < innerHeight;
