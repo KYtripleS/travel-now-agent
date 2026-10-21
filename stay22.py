@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-orlando": dict(area="Lake Buena Vista", lat=28.3783, lng=-81.5086, zoom=13,
+                                        address="Hotel Plaza Boulevard, Lake Buena Vista, FL, USA"),
     "where-to-stay-in-hiroshima": dict(area="Peace Memorial Park", lat=34.3955, lng=132.4536, zoom=14,
                                           address="Peace Memorial Park, Hiroshima, Japan"),
     "where-to-stay-in-kanazawa": dict(area="Omicho", lat=36.5715, lng=136.6578, zoom=15,
@@ -1061,6 +1063,19 @@ HOTELS = {
     "Miyajima Guest House Mikuniya": _B + "jp/miyajima-guest-house-mikuniya.html",
     "Miyajima Coral Hotel": _B + "jp/miyajima-coral.html",
     "Grandvrio Hotel Miyajima Wakura": _B + "jp/grandvrio-miyajima-wakura.html",
+    # Orlando (Booking.com pages confirmed by hotel name and city)
+    "Disney's Grand Floridian Resort & Spa": None,
+    "Disney's Pop Century Resort": None,
+    "Drury Plaza Hotel Orlando - Disney Springs Area": _B + "us/drury-plaza-orlando-lake-buena-vista.html",
+    "Loews Portofino Bay Hotel": _B + "us/loews-portofino-bay-at-universal-orlando.html",
+    "Universal Cabana Bay Beach Resort": _B + "us/cabana-bay-beach-resort.html",
+    "Rosen Centre Hotel": _B + "us/rosen-centre.html",
+    "Rosen Inn at Pointe Orlando": _B + "us/quality-inn-plaza.html",
+    "Gaylord Palms Resort & Convention Center": _B + "us/gaylord-palms-resort-and-spa.html",
+    "Margaritaville Resort Orlando": _B + "us/margaritaville-resort-orlando.html",
+    "The Alfond Inn": _B + "us/the-alfond-inn.html",
+    "Hotel Beauden, Autograph Collection": _B + "us/grand-bohemian.html",
+    "Aloft Orlando Downtown": _B + "us/aloft-orlando-downtown.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -2341,6 +2341,592 @@
           "both hotels charge the first night if you cancel within 72 hours of arrival"
         ]
       }
+    },
+    {
+      "id": "us.orl.state-sales-tax",
+      "topic": "tax",
+      "claim": "Florida applies its 6% state sales tax to transient rentals (accommodation rentals of six months or less); local option transient rental taxes are in addition to the 6% state sales tax and any discretionary sales surtax, and the surtax applies to transient rentals in a surtax county.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15tdt.pdf",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Local Option Transient Rental Tax Rates, DR-15TDT (R. 10/26)"
+        },
+        {
+          "url": "https://floridarevenue.com/taxes/taxesfees/Pages/discretionary.aspx",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Discretionary Sales Surtax"
+        },
+        {
+          "url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Sales Tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "The Florida Department of Revenue lists the rental of living or sleeping accommodations",
+          "in addition to the state's 6%"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.surtax-orange",
+      "topic": "tax",
+      "claim": "Orange County's discretionary sales surtax is 0.5% (school capital outlay surtax, extended effective 1 January 2026 through 31 December 2035); the DOR table lists no 2026 rate change for Orange. Source form is the calendar-2025 edition (R. 11/24), the latest the DOR serves at its 'current' URL.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15dss.pdf",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Discretionary Sales Surtax Information, DR-15DSS (R. 11/24, calendar year 2025 with 2026 changes)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "The Department's surtax table shows Orange at 0.5%, extended from 1 January 2026"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.surtax-osceola",
+      "topic": "tax",
+      "claim": "Osceola County's discretionary sales surtax is 1.5% in total (1% from 1 September 1990 to 31 December 2045 and 0.5% from 1 January 2017 to 31 December 2036); the DOR table lists no 2026 rate change for Osceola.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15dss.pdf",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Discretionary Sales Surtax Information, DR-15DSS (R. 11/24, calendar year 2025 with 2026 changes)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "and Osceola at 1.5%, and lists no change to either rate for 2026"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.tdt-orange",
+      "topic": "tax",
+      "claim": "Orange County's Tourist Development Tax is 6% of the lodging bill, on hotel stays and short-term rentals of less than six months, collected by the county.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.ocfl.net/EconomicDevelopment/TDTCitizenAdvisoryTaskForce.aspx",
+          "kind": "official",
+          "title": "Orange County: Tourist Development Tax"
+        },
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15tdt.pdf",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Local Option Transient Rental Tax Rates, DR-15TDT (R. 10/26)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "Orange County describes its tax as 6% on hotel stays and short-term rentals of less than six months"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.tdt-osceola",
+      "topic": "tax",
+      "claim": "Osceola County's Tourist Development Tax is 6% (since 1 July 2004), applied to short-term rentals of less than 180 days.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://osceolataxcollector.org/tourist-development-taxtes/",
+          "kind": "official",
+          "title": "Osceola County Tax Collector: Tourist Development Taxes"
+        },
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15tdt.pdf",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Local Option Transient Rental Tax Rates, DR-15TDT (R. 10/26)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "the Osceola Tax Collector gives 6% for rentals of under 180 days"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.combined-rate",
+      "topic": "tax",
+      "claim": "Our arithmetic: 6% state sales tax + 0.5% surtax + 6% Tourist Development Tax = 12.5% in Orange County; 6% + 1.5% + 6% = 13.5% in Osceola County. On a $200 room: $225 (Orange) and $227 (Osceola).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15tdt.pdf",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Local Option Transient Rental Tax Rates, DR-15TDT (R. 10/26)"
+        },
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15dss.pdf",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Discretionary Sales Surtax Information, DR-15DSS (R. 11/24, calendar year 2025 with 2026 changes)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "Together (our arithmetic)",
+          "On a $200 room, our arithmetic gives $225 a night in Orange County and $227 in Osceola."
+        ]
+      }
+    },
+    {
+      "id": "us.orl.counties",
+      "topic": "place",
+      "claim": "Kissimmee is the seat of Osceola County; Winter Park is in Orange County, three miles north of Orlando; Orlando is listed among Orange County's cities; the Central Florida Tourism Oversight District covers about 25,000 acres in Orange and Osceola counties.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.osceola.org/Community/About-Osceola-County/Cities-and-Communities",
+          "kind": "official",
+          "title": "Osceola County: Cities and Communities"
+        },
+        {
+          "url": "https://cityofwinterpark.org/government/about/",
+          "kind": "official",
+          "title": "City of Winter Park: About"
+        },
+        {
+          "url": "https://newsroom.ocfl.net/about-ocfl/",
+          "kind": "official",
+          "title": "About Orange County, Florida"
+        },
+        {
+          "url": "https://oversightdistrict.org/",
+          "kind": "official",
+          "title": "Central Florida Tourism Oversight District"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "Kissimmee is the seat of Osceola County",
+          "Winter Park lies three miles north of Orlando, in Orange County",
+          "spans both counties"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.ftc-fees-rule",
+      "topic": "tax",
+      "claim": "The FTC Rule on Unfair or Deceptive Fees (16 CFR Part 464), effective 12 May 2025, covers short-term lodging; a mandatory resort fee must be included in the total price, while taxes and other government charges may be excluded from the upfront total.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+          "kind": "official",
+          "title": "FTC: Rule on Unfair or Deceptive Fees, FAQ"
+        },
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/05/ftc-rule-unfair-or-deceptive-fees-take-effect-may-12-2025",
+          "kind": "official",
+          "title": "FTC: Rule on Unfair or Deceptive Fees to take effect on May 12, 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "Since 12 May 2025 a federal rule has required a mandatory resort fee to be included in the total price shown",
+          "taxes and other government charges may be left out of the upfront total"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.mco-rates",
+      "topic": "transport",
+      "claim": "MCO's ground-transportation page lists approximate rates: to the Disney resorts area local bus $4, shuttle van $23/$37, taxi $52-$68; Lake Buena Vista $2 / $23/$37 / $47-$55; International Drive $2 / $21/$33 / $38-$45; Kissimmee hotels $2 / $29/$49 / $45-$75; Downtown Orlando $2 / $20/$32 / $38-$45; Winter Park/Maitland $2 / $29/$49 / $45-$55. The shuttle-van page says fares are per person and to check with the attendant for round-trip fares. The second van figure is unlabelled on the page.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://flymco.com/ground-transportation/",
+          "kind": "operator",
+          "title": "Orlando International Airport: Ground Transportation (approximate rates)"
+        },
+        {
+          "url": "https://flymco.com/ground-transportation/shuttle-vans/",
+          "kind": "operator",
+          "title": "MCO: Shuttle Vans"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "Orlando International Airport (MCO) publishes approximate rates for each area.",
+          "its own note says to check with the attendant for round-trip fares"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.mco-bus",
+      "topic": "transport",
+      "claim": "LYNX buses serve MCO from Terminal A, Level 1 (Commercial Lane spaces A38-A41); the airport lists $2.00 per destination or $4.50 all day, and LYNX lists a $2.00 single ride and a $4.50 all-day pass, requested from the operator when boarding.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://flymco.com/ground-transportation/local-bus/",
+          "kind": "operator",
+          "title": "MCO: Local Bus"
+        },
+        {
+          "url": "https://www.golynx.com/fares-passes/",
+          "kind": "operator",
+          "title": "LYNX: Fares & Passes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "LYNX stops at Terminal A, Level 1. A single ride is $2.00 and an all-day pass is $4.50"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.mco-rideshare-taxi",
+      "topic": "transport",
+      "claim": "Ride-share pick-up at MCO is at the Arrivals curbs: Level 2 at Terminals A and B (24 hours a day) and Level 6 at Terminal C; taxis are metered, flat rates are not authorised, and metered fares may vary from the airport's approximate rates.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://flymco.com/ground-transportation/ride-share/",
+          "kind": "operator",
+          "title": "MCO: Ride Share"
+        },
+        {
+          "url": "https://flymco.com/ground-transportation/taxi-cabs/",
+          "kind": "operator",
+          "title": "MCO: Taxi Cabs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "ride-hailing pick-up is at the Arrivals curbs: Level 2 at Terminals A and B, 24 hours a day, and Level 6 at Terminal C",
+          "the airport says flat rates are not authorised"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.mco-brightline",
+      "topic": "transport",
+      "claim": "A Brightline station at MCO operates daily 5am-11pm, with trains to Orlando, West Palm Beach, Boca Raton, Fort Lauderdale, Aventura and Miami; the airport also lists on-airport and off-airport rental car companies with free shuttle buses to off-airport locations.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://flymco.com/ground-transportation/brightline-trains/",
+          "kind": "operator",
+          "title": "MCO: Brightline Trains"
+        },
+        {
+          "url": "https://flymco.com/rental-cars/",
+          "kind": "operator",
+          "title": "MCO: Rental Cars"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "a Brightline station at the airport, open daily 5am to 11pm, runs south to West Palm Beach, Boca Raton, Fort Lauderdale, Aventura and Miami",
+          "with free shuttle buses to the off-airport ones"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.disney-early-entry",
+      "topic": "place",
+      "claim": "Disney says guests at Disney Resort hotels and select other hotels can enter Walt Disney World theme parks 30 minutes early every day of their stay including check-in and check-out days, with valid admission; the benefit continues through 2027; the list includes Disney's Grand Floridian Resort & Spa, Disney's Pop Century Resort and Drury Plaza Hotel Orlando Lake Buena Vista.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://disneyworld.disney.go.com/guest-services/early-entry/",
+          "kind": "operator",
+          "title": "Walt Disney World: Early Theme Park Entry for Disney Resort Hotel Guests"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "can enter its theme parks 30 minutes early every day of a stay, including check-in and check-out days",
+          "Disney's page says the benefit continues through 2027",
+          "It is on Disney's early-entry list.",
+          "Disney's early-entry page names a Drury Plaza Hotel Orlando Lake Buena Vista among its select other hotels"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.universal-benefits",
+      "topic": "place",
+      "claim": "Universal says guests of its hotels can enter a theme park up to an hour before opening with Early Park Admission (valid admission, select attractions); Loews Portofino Bay Hotel, Hard Rock Hotel and Loews Royal Pacific Resort get free Universal Express Unlimited; hotels offer complimentary shuttle buses, with water taxis and walking paths at select hotels; Cabana Bay is listed among Value Inns and Suites.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.universalorlando.com/web/en/us/places-to-stay/hotels/at-a-glance/hotels-benefits",
+          "kind": "operator",
+          "title": "Universal Orlando: Hotel Benefits and Options"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "up to an hour before opening with Early Park Admission",
+          "free Universal Express Unlimited",
+          "Universal lists it among its Value Inns and Suites",
+          "Universal's list of free Universal Express Unlimited hotels does not include it"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-grand-floridian",
+      "topic": "hotel",
+      "claim": "Disney's Grand Floridian Resort & Spa: Deluxe Resort at 4401 Floridian Way, Lake Buena Vista; Victorian-style; complimentary Resort Monorail one stop to Magic Kingdom; Beach Pool with waterslide; spa; Seven Seas Lagoon; page notice that the resort is undergoing refurbishments.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://disneyworld.disney.go.com/resorts/grand-floridian-resort-and-spa/",
+          "kind": "operator",
+          "title": "Disney's Grand Floridian Resort & Spa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "A Victorian-style Deluxe Resort at 4401 Floridian Way on the Seven Seas Lagoon",
+          "Disney's page carries a notice that the resort is undergoing refurbishments"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-pop-century",
+      "topic": "hotel",
+      "claim": "Disney's Pop Century Resort: Value Resort at 1050 Century Drive, Lake Buena Vista; fads of the 1950s through 1990s; Hippy Dippy Pool; Skyliner gondola to EPCOT and Disney's Hollywood Studios; page notice of construction and refurbishment.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://disneyworld.disney.go.com/resorts/pop-century-resort/",
+          "kind": "operator",
+          "title": "Disney's Pop Century Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "A Value Resort at 1050 Century Drive",
+          "Disney's page carries a notice that the resort is undergoing construction and refurbishment"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-drury",
+      "topic": "hotel",
+      "claim": "Drury Plaza Hotel Orlando - Disney Springs Area: 2000 Hotel Plaza Boulevard; an official Walt Disney World hotel by its own description; half a mile from Disney Springs; free shuttle to all four WDW theme parks; free hot breakfast; free 5:30 Kickback; saltwater pool; no resort fee; parking $28 per night.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.druryhotels.com/locations/orlando-fl/drury-plaza-hotel-orlando-lake-buena-vista",
+          "kind": "operator",
+          "title": "Drury Plaza Hotel Orlando - Disney Springs Area"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "half a mile from Disney Springs",
+          "a free hot breakfast, the free 5:30 Kickback with evening snacks, a saltwater pool and no resort fee",
+          "parking is $28 a night"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-portofino",
+      "topic": "hotel",
+      "claim": "Loews Portofino Bay Hotel: replica of an Italian seaside village, three pools, water taxis to the parks; named by Universal for free Universal Express Unlimited.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.universalorlando.com/web/en/us/places-to-stay/loews-portofino-bay-hotel",
+          "kind": "operator",
+          "title": "Loews Portofino Bay Hotel at Universal Orlando"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "A replica of an Italian seaside village, with three pools and water taxis to the parks"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-cabana-bay",
+      "topic": "hotel",
+      "claim": "Universal Cabana Bay Beach Resort: retro style inspired by classic Florida beach resorts of the 1950s and 60s; two pools, a winding river, a bowling alley (fees apply), food court.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.universalorlando.com/web/en/us/places-to-stay/universals-cabana-bay-beach-resort",
+          "kind": "operator",
+          "title": "Universal Cabana Bay Beach Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "with two pools, a winding river, a food court and a bowling alley (fees apply)"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-rosen-centre",
+      "topic": "hotel",
+      "claim": "Rosen Centre Hotel: 9840 International Drive; 1,254 deluxe guest rooms and 80 suites; connected to the Orange County Convention Center; complimentary Universal Orlando shuttle (sign up at concierge); no resort fee; self-parking $40 plus tax; Universal Orlando 10 minutes (3.5 miles), Walt Disney World 14 minutes (6 miles).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.rosencentre.com/location-and-transportation/",
+          "kind": "operator",
+          "title": "Rosen Centre: Location & Transportation"
+        },
+        {
+          "url": "https://www.rosencentre.com/accommodations/",
+          "kind": "operator",
+          "title": "Rosen Centre: Accommodations"
+        },
+        {
+          "url": "https://www.rosencentre.com/hotel-recreation/",
+          "kind": "operator",
+          "title": "Rosen Centre: Hotel Recreation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "with 1,254 deluxe rooms and 80 suites",
+          "self-parking is $40 plus tax",
+          "Rosen Centre puts Universal Orlando at 10 minutes (3.5 miles) and Walt Disney World at 14 minutes (6 miles)"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-rosen-inn",
+      "topic": "hotel",
+      "claim": "Rosen Inn at Pointe Orlando: across International Drive from Pointe Orlando, 20-minute walk or short drive from the Orange County Convention Center and ICON Park; official Universal Partner Hotel with free scheduled shuttle to Universal Orlando Resort and SeaWorld Orlando; paid Disney transport; no resort fees; three pools.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.roseninn9000.com/",
+          "kind": "operator",
+          "title": "Rosen Inn at Pointe Orlando"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "a 20-minute walk or short drive from the convention centre and ICON Park, with three pools, no resort fees"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-gaylord-palms",
+      "topic": "hotel",
+      "claim": "Gaylord Palms Resort & Convention Center: 6000 West Osceola Parkway, Kissimmee; 4.5-acre garden atrium; Cypress Springs Water Park with seven waterslides; full-service spa; self-parking $40 per day, valet $55 per day; no resort fee amount on the Marriott page.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/mcogp-gaylord-palms-resort-and-convention-center/overview/",
+          "kind": "operator",
+          "title": "Gaylord Palms Resort & Convention Center (Marriott)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "At 6000 West Osceola Parkway, with a 4.5-acre garden atrium",
+          "self-parking at $40 a day and valet at $55"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-margaritaville-fee",
+      "topic": "price",
+      "claim": "Margaritaville Resort Orlando's FAQ states a taxable resort fee of $48 plus tax per room, per night; self-parking $20 plus tax per vehicle per night; check-in age 21; no direct airport shuttle; complimentary theme-park shuttles (reservations required); 265 guest rooms and suites at 8000 Fins Up Circle, Kissimmee; 10 to 15 minutes from Walt Disney World and 20 to 25 minutes from SeaWorld and Universal.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.margaritavilleresorts.com/margaritaville-resort-orlando/faq",
+          "kind": "operator",
+          "title": "Margaritaville Resort Orlando: FAQ"
+        },
+        {
+          "url": "https://www.margaritavilleresorts.com/margaritaville-resort-orlando/stay/rooms",
+          "kind": "operator",
+          "title": "Margaritaville Resort Orlando: Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "Margaritaville Resort Orlando states a taxable resort fee of $48 plus tax per room, per night",
+          "with 265 guest rooms and suites",
+          "Margaritaville says it is 10 to 15 minutes from Walt Disney World and 20 to 25 minutes from SeaWorld and Universal",
+          "self-parking is $20 plus tax"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-alfond",
+      "topic": "hotel",
+      "claim": "The Alfond Inn: 300 East New England Avenue, Winter Park; opened in 2013; Alfond Collection of Contemporary Art (Rollins College) installed throughout; Classic King 323 sq ft, Classic Queen (two queens) 358 sq ft; resort pool; complimentary house cars around Winter Park daily 11:00 AM to 8:00 PM, first-come, up to four guests.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://thealfondinn.com/the-hotel/rooms-suites",
+          "kind": "operator",
+          "title": "The Alfond Inn: Rooms & Suites"
+        },
+        {
+          "url": "https://thealfondinn.com/the-hotel/hotel-amenities",
+          "kind": "operator",
+          "title": "The Alfond Inn: Hotel Amenities"
+        },
+        {
+          "url": "https://thealfondinn.com/the-hotel/art-hotel",
+          "kind": "operator",
+          "title": "The Alfond Inn: Art Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "a boutique hotel that opened in 2013",
+          "rooms of 323 sq ft (Classic King) to 358 sq ft (Classic Queen)",
+          "the free house cars run only around Winter Park, from 11:00 to 20:00, first come first served"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-beauden",
+      "topic": "hotel",
+      "claim": "Hotel Beauden, Autograph Collection: 325 South Orange Avenue, Orlando; steps from the Dr. Phillips Center and Kia Center; Altira Pool + Lounge; nightly Steinway grand piano performances in the Garden Rotunda; Marriott's page title still reads Grand Bohemian Hotel Orlando while the page body says Hotel Beauden; valet parking $42 per day.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/mcoak-hotel-beauden-autograph-collection/overview/",
+          "kind": "operator",
+          "title": "Hotel Beauden, Autograph Collection (Marriott)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "At 325 South Orange Avenue, steps from the Dr. Phillips Center and the Kia Center",
+          "valet parking is $42 a day"
+        ]
+      }
+    },
+    {
+      "id": "us.orl.hotel-aloft",
+      "topic": "hotel",
+      "claim": "Aloft Orlando Downtown: 500 South Orange Avenue; steps from City Hall, Dr. Phillips Center, the Kia Center; outdoor pool; W XYZ bar with live music; 24/7 pantry; valet parking $30 per day (no self-parking listed).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/mcodl-aloft-orlando-downtown/overview/",
+          "kind": "operator",
+          "title": "Aloft Orlando Downtown (Marriott)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-orlando.html": [
+          "At 500 South Orange Avenue, steps from City Hall, the Dr. Phillips Center and the Kia Center",
+          "parking is valet only, at $30 a day"
+        ]
+      }
     }
   ]
 }

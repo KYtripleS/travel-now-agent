@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-orlando": dict(
+        text="For a first trip built around Disney, stay in Walt Disney World and Lake Buena Vista: Disney's own hotels carry 30-minute early theme park entry. Choose Universal's hotels for Universal's parks, Gaylord Palms for a Kissimmee water-park resort. The tax is 12.5% in Orange County, 13.5% in Osceola.",
+        link_text="Walt Disney World and Lake Buena Vista",
+        cta=_stay_cta("where-to-stay-in-orlando", "See hotels around Lake Buena Vista")),
     "where-to-stay-in-hiroshima": dict(
         text="For a first trip, stay near the Peace Memorial Park: the park is a short walk and streetcars reach the station. Choose Hiroshima Station for the Shinkansen and Miyajima for a night on the island. The prefecture's ¥200 tax applies from rooms of ¥6,000 a night.",
         link_text="Peace Memorial Park",
@@ -1419,6 +1423,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-orlando": ["Disney's Grand Floridian Resort & Spa", "Drury Plaza Hotel Orlando - Disney Springs Area", "Rosen Inn at Pointe Orlando"],
     "where-to-stay-in-hiroshima": ["Dormy Inn Hiroshima", "Nest Hotel Hiroshima Hatchobori", "Toyoko Inn Hiroshima-eki Shinkansen-guchi No.1"],
     "where-to-stay-in-kanazawa": ["The Hotel Sanraku Kanazawa", "Hotel Intergate Kanazawa", "Hotel Nikko Kanazawa"],
     "where-to-stay-in-jeju": ["Lotte City Hotel Jeju", "Shilla Stay Jeju", "The Shilla Jeju"],
@@ -1544,6 +1549,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Orlando", "where-to-stay-in-orlando", None, None),
         ("Hiroshima", "where-to-stay-in-hiroshima", None, None),
         ("Kanazawa", "where-to-stay-in-kanazawa", None, None),
         ("Jeju", "where-to-stay-in-jeju", None, None),
