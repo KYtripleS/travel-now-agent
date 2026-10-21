@@ -1,0 +1,3397 @@
+{
+ "source": "IEC World Plugs (archived 19 January 2026), cross-checked with Wikipedia",
+ "checked": "2026-10-21",
+ "license": "CC BY 4.0",
+ "url": "https://gentlyyonder.com/travel-power/",
+ "countries": [
+  {
+   "code": "AF",
+   "name": "Afghanistan",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AL",
+   "name": "Albania",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "DZ",
+   "name": "Algeria",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AS",
+   "name": "American Samoa",
+   "types": [
+    "A",
+    "B",
+    "F",
+    "I"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AD",
+   "name": "Andorra",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AO",
+   "name": "Angola",
+   "types": [
+    "C"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "F"
+   ]
+  },
+  {
+   "code": "AI",
+   "name": "Anguilla",
+   "types": [
+    "A"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": [
+    "B"
+   ]
+  },
+  {
+   "code": "AG",
+   "name": "Antigua and Barbuda",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AR",
+   "name": "Argentina",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "C"
+   ]
+  },
+  {
+   "code": "AM",
+   "name": "Armenia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AW",
+   "name": "Aruba",
+   "types": [
+    "A",
+    "B",
+    "F"
+   ],
+   "volts": [
+    "127"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AU",
+   "name": "Australia",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AT",
+   "name": "Austria",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AZ",
+   "name": "Azerbaijan",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BS",
+   "name": "Bahamas",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BH",
+   "name": "Bahrain",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BD",
+   "name": "Bangladesh",
+   "types": [
+    "C",
+    "D",
+    "G",
+    "K"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "A"
+   ]
+  },
+  {
+   "code": "BB",
+   "name": "Barbados",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "115"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BY",
+   "name": "Belarus",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BE",
+   "name": "Belgium",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BZ",
+   "name": "Belize",
+   "types": [
+    "A",
+    "B",
+    "G"
+   ],
+   "volts": [
+    "110",
+    "220"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BJ",
+   "name": "Benin",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BM",
+   "name": "Bermuda",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BT",
+   "name": "Bhutan",
+   "types": [
+    "C",
+    "D",
+    "F",
+    "G",
+    "M"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BO",
+   "name": "Bolivia",
+   "types": [
+    "A",
+    "C"
+   ],
+   "volts": [
+    "115",
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "B"
+   ]
+  },
+  {
+   "code": "BA",
+   "name": "Bosnia and Herzegovina",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BW",
+   "name": "Botswana",
+   "types": [
+    "D",
+    "G",
+    "M"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BR",
+   "name": "Brazil",
+   "types": [
+    "C",
+    "N"
+   ],
+   "volts": [
+    "127",
+    "220"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "IO",
+   "name": "British Virgin Islands",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BN",
+   "name": "Brunei",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BG",
+   "name": "Bulgaria",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BF",
+   "name": "Burkina Faso",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "BI",
+   "name": "Burundi",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "KH",
+   "name": "Cambodia",
+   "types": [
+    "A",
+    "C",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CM",
+   "name": "Cameroon",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CA",
+   "name": "Canada",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CV",
+   "name": "Cape Verde",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "KY",
+   "name": "Cayman Islands",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CF",
+   "name": "Central African Republic",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TD",
+   "name": "Chad",
+   "types": [
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CL",
+   "name": "Chile",
+   "types": [
+    "C",
+    "L"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "F"
+   ]
+  },
+  {
+   "code": "CN",
+   "name": "China",
+   "types": [
+    "A",
+    "I"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CO",
+   "name": "Colombia",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "KM",
+   "name": "Comoros",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CG",
+   "name": "Congo, Republic of the",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CK",
+   "name": "Cook Islands",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CR",
+   "name": "Costa Rica",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "HR",
+   "name": "Croatia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CU",
+   "name": "Cuba",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": [
+    "C",
+    "L"
+   ]
+  },
+  {
+   "code": "CY",
+   "name": "Cyprus",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CZ",
+   "name": "Czechia",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CI",
+   "name": "Côte d’Ivoire",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CD",
+   "name": "DR Congo",
+   "types": [
+    "C",
+    "D",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "DK",
+   "name": "Denmark",
+   "types": [
+    "C",
+    "E",
+    "F",
+    "K"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "DJ",
+   "name": "Djibouti",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "DM",
+   "name": "Dominica",
+   "types": [
+    "D",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "DO",
+   "name": "Dominican Republic",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": [
+    "C"
+   ]
+  },
+  {
+   "code": "EC",
+   "name": "Ecuador",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "EG",
+   "name": "Egypt",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SV",
+   "name": "El Salvador",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "115"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GQ",
+   "name": "Equatorial Guinea",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "ER",
+   "name": "Eritrea",
+   "types": [
+    "C",
+    "L"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "EE",
+   "name": "Estonia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SZ",
+   "name": "Eswatini",
+   "types": [
+    "M"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "ET",
+   "name": "Ethiopia",
+   "types": [
+    "C",
+    "F",
+    "L"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "E"
+   ]
+  },
+  {
+   "code": "FK",
+   "name": "Falkland Islands",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "FO",
+   "name": "Faroe Islands",
+   "types": [
+    "C",
+    "E",
+    "F",
+    "K"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "FJ",
+   "name": "Fiji",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "FI",
+   "name": "Finland",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "FR",
+   "name": "France",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GF",
+   "name": "French Guiana",
+   "types": [
+    "C",
+    "D",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GA",
+   "name": "Gabon",
+   "types": [
+    "C"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "E"
+   ]
+  },
+  {
+   "code": "GM",
+   "name": "Gambia",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GE",
+   "name": "Georgia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "DE",
+   "name": "Germany",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GH",
+   "name": "Ghana",
+   "types": [
+    "D",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GI",
+   "name": "Gibraltar",
+   "types": [
+    "C",
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GR",
+   "name": "Greece",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GL",
+   "name": "Greenland",
+   "types": [
+    "C",
+    "E",
+    "F",
+    "K"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GD",
+   "name": "Grenada",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GP",
+   "name": "Guadeloupe",
+   "types": [
+    "C",
+    "D",
+    "E"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GU",
+   "name": "Guam",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GT",
+   "name": "Guatemala",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GN",
+   "name": "Guinea",
+   "types": [
+    "C",
+    "F",
+    "K"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GW",
+   "name": "Guinea-Bissau",
+   "types": [
+    "C"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "E",
+    "F"
+   ]
+  },
+  {
+   "code": "GY",
+   "name": "Guyana",
+   "types": [
+    "A",
+    "B",
+    "D",
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "HT",
+   "name": "Haiti",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "HN",
+   "name": "Honduras",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "HK",
+   "name": "Hong Kong",
+   "types": [
+    "D",
+    "G"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "M"
+   ]
+  },
+  {
+   "code": "HU",
+   "name": "Hungary",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "IS",
+   "name": "Iceland",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "IN",
+   "name": "India",
+   "types": [
+    "C",
+    "D",
+    "M"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "ID",
+   "name": "Indonesia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220",
+    "110"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "IR",
+   "name": "Iran",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "IQ",
+   "name": "Iraq",
+   "types": [
+    "C",
+    "D",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "IE",
+   "name": "Ireland",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "IM",
+   "name": "Isle of Man",
+   "types": [
+    "C",
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "IL",
+   "name": "Israel",
+   "types": [
+    "H"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "C"
+   ]
+  },
+  {
+   "code": "IT",
+   "name": "Italy",
+   "types": [
+    "C",
+    "F",
+    "L"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "JM",
+   "name": "Jamaica",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "JP",
+   "name": "Japan",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "100"
+   ],
+   "hz": [
+    "50",
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "JO",
+   "name": "Jordan",
+   "types": [
+    "B",
+    "C",
+    "D",
+    "F",
+    "G",
+    "J"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "KZ",
+   "name": "Kazakhstan",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "KE",
+   "name": "Kenya",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "KI",
+   "name": "Kiribati",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "KW",
+   "name": "Kuwait",
+   "types": [
+    "C",
+    "G",
+    "M"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "KG",
+   "name": "Kyrgyzstan",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LA",
+   "name": "Laos",
+   "types": [
+    "A",
+    "B",
+    "C",
+    "E",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LV",
+   "name": "Latvia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LB",
+   "name": "Lebanon",
+   "types": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "G"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LS",
+   "name": "Lesotho",
+   "types": [
+    "M"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LR",
+   "name": "Liberia",
+   "types": [
+    "A",
+    "B",
+    "C",
+    "E",
+    "F"
+   ],
+   "volts": [
+    "120",
+    "220"
+   ],
+   "hz": [
+    "50",
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LY",
+   "name": "Libya",
+   "types": [
+    "C",
+    "D",
+    "F",
+    "L"
+   ],
+   "volts": [
+    "127",
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LI",
+   "name": "Liechtenstein",
+   "types": [
+    "C",
+    "J"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LT",
+   "name": "Lithuania",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LU",
+   "name": "Luxembourg",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MO",
+   "name": "Macau",
+   "types": [
+    "D",
+    "F",
+    "G",
+    "M"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MG",
+   "name": "Madagascar",
+   "types": [
+    "C",
+    "D",
+    "E",
+    "J",
+    "K"
+   ],
+   "volts": [
+    "127",
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MW",
+   "name": "Malawi",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MY",
+   "name": "Malaysia",
+   "types": [
+    "A",
+    "C",
+    "G",
+    "M"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MT",
+   "name": "Malta",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MQ",
+   "name": "Martinique",
+   "types": [
+    "C",
+    "D",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MR",
+   "name": "Mauritania",
+   "types": [
+    "C"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "E",
+    "F"
+   ]
+  },
+  {
+   "code": "MU",
+   "name": "Mauritius",
+   "types": [
+    "C",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "E"
+   ]
+  },
+  {
+   "code": "MX",
+   "name": "Mexico",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "127"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "FM",
+   "name": "Micronesia",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MD",
+   "name": "Moldova",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MC",
+   "name": "Monaco",
+   "types": [
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MN",
+   "name": "Mongolia",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "F"
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "Montenegro",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MS",
+   "name": "Montserrat",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MA",
+   "name": "Morocco",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "127",
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MZ",
+   "name": "Mozambique",
+   "types": [
+    "C",
+    "F",
+    "M"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MM",
+   "name": "Myanmar",
+   "types": [
+    "C",
+    "D",
+    "F",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "A",
+    "I"
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "Namibia",
+   "types": [
+    "D",
+    "M"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "NR",
+   "name": "Nauru",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "NP",
+   "name": "Nepal",
+   "types": [
+    "C",
+    "D",
+    "M"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "NL",
+   "name": "Netherlands",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AN",
+   "name": "Netherlands Antilles (former)",
+   "types": [
+    "A",
+    "B",
+    "C",
+    "F"
+   ],
+   "volts": [
+    "127",
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "NC",
+   "name": "New Caledonia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "NZ",
+   "name": "New Zealand",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "NI",
+   "name": "Nicaragua",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "NE",
+   "name": "Niger",
+   "types": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "NG",
+   "name": "Nigeria",
+   "types": [
+    "D",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "KP",
+   "name": "North Korea",
+   "types": [
+    "A",
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220",
+    "110"
+   ],
+   "hz": [
+    "50",
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "MK",
+   "name": "North Macedonia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "NO",
+   "name": "Norway",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "OM",
+   "name": "Oman",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "PK",
+   "name": "Pakistan",
+   "types": [
+    "C",
+    "D",
+    "G",
+    "M"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "PW",
+   "name": "Palau",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "PA",
+   "name": "Panama",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "PG",
+   "name": "Papua New Guinea",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "PY",
+   "name": "Paraguay",
+   "types": [
+    "C"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "A",
+    "B",
+    "N"
+   ]
+  },
+  {
+   "code": "PE",
+   "name": "Peru",
+   "types": [
+    "A",
+    "B",
+    "C"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "PH",
+   "name": "Philippines",
+   "types": [
+    "A",
+    "B",
+    "C"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "PL",
+   "name": "Poland",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "PT",
+   "name": "Portugal",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "E"
+   ]
+  },
+  {
+   "code": "PR",
+   "name": "Puerto Rico",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "QA",
+   "name": "Qatar",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "D",
+    "F",
+    "L"
+   ]
+  },
+  {
+   "code": "RO",
+   "name": "Romania",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "RU",
+   "name": "Russia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "RW",
+   "name": "Rwanda",
+   "types": [
+    "C",
+    "E",
+    "F",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "RE",
+   "name": "Réunion",
+   "types": [
+    "E"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "C"
+   ]
+  },
+  {
+   "code": "KN",
+   "name": "Saint Kitts and Nevis",
+   "types": [
+    "A",
+    "B",
+    "D",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LC",
+   "name": "Saint Lucia",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "A",
+    "B"
+   ]
+  },
+  {
+   "code": "MF",
+   "name": "Saint Martin",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "120",
+    "220"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "VC",
+   "name": "Saint Vincent and the Grenadines",
+   "types": [
+    "A",
+    "C",
+    "E",
+    "G",
+    "I",
+    "K"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "B"
+   ]
+  },
+  {
+   "code": "WS",
+   "name": "Samoa",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SM",
+   "name": "San Marino",
+   "types": [
+    "C",
+    "F",
+    "L"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SA",
+   "name": "Saudi Arabia",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "220",
+    "230"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SN",
+   "name": "Senegal",
+   "types": [
+    "C",
+    "D",
+    "E",
+    "K"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "RS",
+   "name": "Serbia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SC",
+   "name": "Seychelles",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SL",
+   "name": "Sierra Leone",
+   "types": [
+    "D",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SG",
+   "name": "Singapore",
+   "types": [
+    "C",
+    "G",
+    "M"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SK",
+   "name": "Slovakia",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "F"
+   ]
+  },
+  {
+   "code": "SI",
+   "name": "Slovenia",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SB",
+   "name": "Solomon Islands",
+   "types": [
+    "G",
+    "I"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SO",
+   "name": "Somalia",
+   "types": [
+    "C"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "G"
+   ]
+  },
+  {
+   "code": "ZA",
+   "name": "South Africa",
+   "types": [
+    "C",
+    "M",
+    "N"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "KR",
+   "name": "South Korea",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "ES",
+   "name": "Spain",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "LK",
+   "name": "Sri Lanka",
+   "types": [
+    "D",
+    "G",
+    "M"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SD",
+   "name": "Sudan",
+   "types": [
+    "C",
+    "D"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "F",
+    "G"
+   ]
+  },
+  {
+   "code": "SR",
+   "name": "Suriname",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "127"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SE",
+   "name": "Sweden",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "CH",
+   "name": "Switzerland",
+   "types": [
+    "C",
+    "J"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "SY",
+   "name": "Syria",
+   "types": [
+    "C",
+    "E",
+    "L"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "ST",
+   "name": "São Tomé and Príncipe",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TW",
+   "name": "Taiwan",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TJ",
+   "name": "Tajikistan",
+   "types": [
+    "C",
+    "F",
+    "I"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TZ",
+   "name": "Tanzania",
+   "types": [
+    "D",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TH",
+   "name": "Thailand",
+   "types": [
+    "A",
+    "B",
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "O"
+   ]
+  },
+  {
+   "code": "TL",
+   "name": "Timor-Leste",
+   "types": [
+    "C",
+    "E",
+    "F",
+    "I"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TG",
+   "name": "Togo",
+   "types": [
+    "C"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "E"
+   ]
+  },
+  {
+   "code": "TO",
+   "name": "Tonga",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TT",
+   "name": "Trinidad and Tobago",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "115"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TN",
+   "name": "Tunisia",
+   "types": [
+    "C",
+    "E"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TM",
+   "name": "Turkmenistan",
+   "types": [
+    "B",
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TC",
+   "name": "Turks and Caicos Islands",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TV",
+   "name": "Tuvalu",
+   "types": [
+    "I"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "TR",
+   "name": "Türkiye",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "VI",
+   "name": "US Virgin Islands",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "110"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "UG",
+   "name": "Uganda",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "UA",
+   "name": "Ukraine",
+   "types": [
+    "C",
+    "F"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "AE",
+   "name": "United Arab Emirates",
+   "types": [
+    "G",
+    "M"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "GB",
+   "name": "United Kingdom",
+   "types": [
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "D",
+    "M"
+   ]
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "UY",
+   "name": "Uruguay",
+   "types": [
+    "C",
+    "F",
+    "L"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "I"
+   ]
+  },
+  {
+   "code": "UZ",
+   "name": "Uzbekistan",
+   "types": [
+    "C",
+    "I"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "E",
+    "F"
+   ]
+  },
+  {
+   "code": "VU",
+   "name": "Vanuatu",
+   "types": [
+    "C",
+    "G",
+    "I"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "VE",
+   "name": "Venezuela",
+   "types": [
+    "A",
+    "B"
+   ],
+   "volts": [
+    "120"
+   ],
+   "hz": [
+    "60"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "VN",
+   "name": "Vietnam",
+   "types": [
+    "A",
+    "B",
+    "C"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "F"
+   ]
+  },
+  {
+   "code": "YE",
+   "name": "Yemen",
+   "types": [
+    "D",
+    "G",
+    "M"
+   ],
+   "volts": [
+    "240"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": [
+    "A"
+   ]
+  },
+  {
+   "code": "ZM",
+   "name": "Zambia",
+   "types": [
+    "C",
+    "D",
+    "G"
+   ],
+   "volts": [
+    "230"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  },
+  {
+   "code": "ZW",
+   "name": "Zimbabwe",
+   "types": [
+    "D",
+    "G"
+   ],
+   "volts": [
+    "220"
+   ],
+   "hz": [
+    "50"
+   ],
+   "also_reported": []
+  }
+ ]
+}

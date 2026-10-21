@@ -4821,3 +4821,22 @@ body .rsp-feat { border-radius: 4px; }
 }
 .gy-book-early ul { margin: 0; padding-left: 1.1em; font-family: var(--sans); font-size: .92rem; line-height: 1.55; color: var(--ink-soft); }
 .gy-book-early li { margin: 0 0 4px; }
+
+/* 11. Plugs and voltage by country (travel-power/index.html, js/gy-power.js) */
+.gy-power form { display: flex; flex-wrap: wrap; gap: 0 24px; }
+.gy-power form .gf-field { flex: 1 1 240px; }
+.gy-power .gp-out p { margin: 0 0 10px; font-family: var(--sans); font-size: .95rem; line-height: 1.55; }
+.gy-power .gp-out p.gp-verdict { font-size: 1.02rem; }
+.article .gp-find label {
+  display: block; margin: 0 0 8px; font-family: var(--sans); font-size: .72rem; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--ink);
+}
+.article .gp-find input {
+  width: 100%; max-width: 420px; padding: 10px 12px; border: 1px solid var(--rule); border-radius: 3px;
+  background: var(--paper); font: 1rem var(--sans); color: var(--ink);
+}
+.article #gp-table tr[hidden] { display: none; }
+.article #gp-table tbody th { font-weight: 600; text-align: left; }
+.article #gp-table td:last-child { color: var(--ink-soft); font-size: .85em; }
+.article .gp-types li { margin: 0 0 8px; }
+.article .gp-cite code { display: block; padding: 10px 12px; background: var(--paper); white-space: normal; word-break: break-word; font-size: .82rem; }

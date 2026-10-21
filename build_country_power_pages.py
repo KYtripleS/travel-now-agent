@@ -18,7 +18,7 @@ Design choices that keep this honest (not a thin-content farm):
     auto-generate countries we can't vouch for.
 
 Outputs:
-  site/travel-power/index.html        hub, grouped by region
+  (the hub index.html is written by build_power_reference.py)
   site/travel-power/<slug>.html       one page per country
   (mirrored to docs/, added to sitemap.xml)
 
@@ -305,102 +305,6 @@ Gently Yonder is an independent travel editorial project.
 """
 
 
-def index_page(rows: list[dict]) -> str:
-    url = f"{BASE_URL}/travel-power/"
-    by_region: OrderedDict[str, list[dict]] = OrderedDict()
-    for r in rows:
-        by_region.setdefault(r["region"], []).append(r)
-
-    sections = []
-    for region, items in by_region.items():
-        lis = "\n".join(
-            f'<li><a href="{r["slug"]}.html">{e(r["country"])}</a> '
-            f'— Type {e(r["plug_types"])}, {e(r["voltage"])}</li>'
-            for r in sorted(items, key=lambda x: x["country"])
-        )
-        sections.append(f"<h2>{e(region)}</h2>\n<ul>\n{lis}\n</ul>")
-    body = "\n".join(sections)
-
-    breadcrumb_schema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Gently Yonder", "item": BASE_URL + "/"},
-            {"@type": "ListItem", "position": 2, "name": "Travel Power"},
-        ],
-    }
-    title = "Travel Power Adapters by Country: Plugs & Voltage Guide (2026)"
-    desc = ("A country-by-country guide to travel plugs and voltage — which adapter you need, "
-            "whether you need a voltage converter, and what to pack.")
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>{e(title)} | Gently Yonder</title>
-<meta name="description" content="{e(desc)}" />
-<link rel="canonical" href="{url}" />
-<meta name="robots" content="index, follow, max-image-preview:large" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="{e(title)}" />
-<meta property="og:description" content="{e(desc)}" />
-<meta property="og:url" content="{url}" />
-<meta property="og:site_name" content="Gently Yonder" />
-<link rel="stylesheet" href="../style-v2.css" />
-<script type="application/ld+json">
-{json.dumps(breadcrumb_schema, indent=2)}
-</script>
-{GA4}
-{DRIVE}
-</head>
-<body>
-<nav class="breadcrumb" aria-label="Breadcrumb">
-<ol>
-<li><a href="../index.html">Gently Yonder</a></li>
-<li aria-current="page">Travel Power</li>
-</ol>
-</nav>
-<header class="hero article-hero">
-<p class="label">Travel Power</p>
-<h1>Travel Power Adapters by Country</h1>
-<p class="subtitle">Which plug and voltage each destination uses, whether you need an adapter
-or a converter, and what to pack. Pick a country to get the details.</p>
-</header>
-<main id="main">
-<section class="article">
-<p class="article-lede">
-Most travel electronics are dual-voltage, so for the majority of trips you need only the right
-<em>plug adapter</em> — not a heavy voltage converter. These guides tell you exactly which is
-which, country by country.
-</p>
-{body}
-<div class="tip-box">
-<strong>Gently Yonder tip:</strong> One good universal adapter with USB-C covers almost everywhere
-in this list. See any country page for a current pick.
-</div>
-<section class="related-articles">
-<h2>Related</h2>
-<ul>
-<li><a href="../articles/everyday-carry-essentials-for-travel.html">Travel EDC Checklist</a> — what rides in your day bag.</li>
-<li><a href="../articles/esim-activation-and-preparation.html">eSIM Setup for International Travel</a> — connectivity before you land.</li>
-</ul>
-</section>
-</section>
-</main>
-<footer>
-<p>
-Gently Yonder is an independent travel editorial project.
-<a href="../about.html">About</a> · <a href="../methodology.html">Methodology</a> ·
-<a href="../privacy.html">Privacy</a> ·
-<a href="https://x.com/GentlyYonder">@GentlyYonder</a>
-</p>
-</footer>
-{FOOT_SCRIPTS}
-</body>
-</html>
-"""
-
-
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--write", action="store_true", help="write files (otherwise dry run)")
@@ -412,7 +316,8 @@ def main() -> None:
     site_dir = REPO / "site" / "travel-power"
     docs_dir = REPO / "docs" / "travel-power"
     pages = {f"{r['slug']}.html": country_page(r) for r in rows}
-    pages["index.html"] = index_page(rows)
+    # the hub (site/travel-power/index.html) is now the 216-country table,
+    # written by build_power_reference.py
     from add_social_meta import apply_text as apply_social
     pages = {name: apply_social(page) for name, page in pages.items()}
 
@@ -427,7 +332,7 @@ def main() -> None:
                        [f"{BASE_URL}/travel-power/{r['slug']}.html" for r in rows])
 
     print(f"  countries     : {len(rows)}")
-    print(f"  pages         : {len(pages)} (incl. hub index)")
+    print(f"  pages         : {len(pages)}")
     print(f"  {'wrote to site/ + docs/travel-power/' if args.write else '(dry run — pass --write)'}")
 
 

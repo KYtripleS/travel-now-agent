@@ -37,6 +37,7 @@ ASSETS = [
     ("js/email-popup.js", "src"),
     ("js/globe.js", "src"),
     ("js/gy-finder.js", "src"),
+    ("js/gy-power.js", "src"),
 ]
 
 
