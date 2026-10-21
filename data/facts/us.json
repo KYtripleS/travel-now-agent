@@ -5056,6 +5056,562 @@
           "the hotel's self-parking costs $25 a day or $50 overnight"
         ]
       }
+    },
+    {
+      "id": "us.chicago.tax-state-hoot",
+      "topic": "tax",
+      "claim": "The Illinois Department of Revenue's excise rate table lists the state Hotel Operators' Occupation Tax at 6 percent of 94 percent of gross receipts; Pub-106 says the tax applies to sleeping-room rentals of fewer than 30 consecutive days.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://tax.illinois.gov/research/taxrates/excise.html",
+          "kind": "official",
+          "title": "Illinois Department of Revenue: Excise Tax Rates and Fees"
+        },
+        {
+          "url": "https://tax.illinois.gov/research/publications/pubs/hotel-operators-occupation-tax.html",
+          "kind": "official",
+          "title": "Illinois Department of Revenue: Pub-106, Hotel Operators' Occupation Tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "Hotel Operators' Occupation Tax",
+          "6% of 94% of gross receipts"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.tax-municipal",
+      "topic": "tax",
+      "claim": "The Illinois Department of Revenue's excise rate table lists the Chicago Municipal Hotel Tax as 1 percent of 99 percent of gross receipts from hotel operators in the city of Chicago; the department collects it on Form RHM-1.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://tax.illinois.gov/research/taxrates/excise.html",
+          "kind": "official",
+          "title": "Illinois Department of Revenue: Excise Tax Rates and Fees"
+        },
+        {
+          "url": "https://tax.illinois.gov/research/publications/pubs/hotel-operators-occupation-tax.html",
+          "kind": "official",
+          "title": "Illinois Department of Revenue: Pub-106, Hotel Operators' Occupation Tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "Chicago Municipal Hotel Tax",
+          "1% of 99% of gross receipts"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.tax-isfa",
+      "topic": "tax",
+      "claim": "The Illinois Department of Revenue lists the Illinois Sports Facilities Authority hotel tax as 2 percent of 98 percent of gross receipts in the city of Chicago; permanent guests of 30 days or longer are not taxed.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://tax.illinois.gov/research/taxrates/excise.html",
+          "kind": "official",
+          "title": "Illinois Department of Revenue: Excise Tax Rates and Fees"
+        },
+        {
+          "url": "https://tax.illinois.gov/research/taxinformation/excise/sports.html",
+          "kind": "official",
+          "title": "Illinois Department of Revenue: Illinois Sports Facilities Hotel Tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "Illinois Sports Facilities Tax",
+          "2% of 98% of gross receipts"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.tax-mpea",
+      "topic": "tax",
+      "claim": "The Illinois Department of Revenue lists the Metropolitan Pier and Exposition Authority hotel tax as 2.5 percent of gross charges from hotel operators in the city of Chicago.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://tax.illinois.gov/research/taxrates/excise.html",
+          "kind": "official",
+          "title": "Illinois Department of Revenue: Excise Tax Rates and Fees"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "Hotel tax of the Metropolitan Pier and Exposition Authority",
+          "2.5% of gross charges"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.tax-city",
+      "topic": "tax",
+      "claim": "The City of Chicago's Department of Finance lists the Hotel Accommodations Tax as a base rate of 4.5 percent of the gross rental or leasing charge, effective 5/1/26 (and the same base rate since 12/1/18).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.chicago.gov/city/en/depts/fin/supp_info/revenue/tax_list/hotel_accommodationstax.html",
+          "kind": "official",
+          "title": "City of Chicago: Hotel Accommodations Tax (7520, 7520S, 7520T)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "Hotel Accommodations Tax",
+          "4.5% of the room charge"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.tax-county",
+      "topic": "tax",
+      "claim": "Cook County's Hotel Accommodations Tax Regulation 2016-1 says the ordinance imposes a 1% tax on the use of hotel accommodations in Cook County; the county's Schedule A shows a tax rate of .01.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/service/hotel-accommodations-tax-regulation-2016-1-subject-definition-permanent-resident.pdf",
+          "kind": "official",
+          "title": "Cook County Department of Revenue: Hotel Accommodations Tax Regulation 2016-1"
+        },
+        {
+          "url": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/service/hotelschedulea.pdf",
+          "kind": "official",
+          "title": "Cook County Department of Revenue: Hotel Accommodations Tax Schedule A"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "Cook County",
+          "1%"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.tax-combined",
+      "topic": "tax",
+      "claim": "The Illinois Department of Revenue's general information letter ST 23-0028-GIL (30 August 2023, non-binding) says Chicago hotels are advised to collect a total tax rate of 17.4%: 11.9% collected by the department (nominal 11.5%: State 6% + ISFA 2% + Chicago Municipal 1% + MPEA 2.5%), 4.5% by the City and 1% by Cook County, because the State, Municipal and ISFA taxes each include the other two in their base.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://tax.illinois.gov/content/dam/soi/en/web/taxarchive/research/legal/letter-rulings/sales-tax/2023/st23-0028-gil.pdf",
+          "kind": "official",
+          "title": "Illinois Department of Revenue: ST 23-0028-GIL, Hotel Operators' Tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "Chicago hotels are advised to collect a total of 17.4%: 11.9% for the department's four taxes, 4.5% for the city and 1% for the county",
+          "Add the nominal rates and you get 17%",
+          "The department's letter is general information, not binding guidance"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.tax-tid",
+      "topic": "tax",
+      "claim": "From 1 May 2026 a 1.5% Chicago Tourism Improvement District transaction charge applies to hotels of 100 rooms or more in ZIP codes 60601, 60602, 60603, 60604, 60605, 60606, 60607, 60609, 60610, 60611, 60612, 60615, 60616, 60653, 60654 and 60661; it is levied on the hotel, which may pass it on if disclosed in advance and shown separately as the 'CTID Transaction Charge'; the City will not impose its 4.5% tax on the charge, and a passed-on charge may be subject to additional state or local taxes.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://cdn.choosechicago.com/uploads/2026/04/City_of_Chicago_Department_of_Finance_TID_Informational_Points-April-2026.pdf",
+          "kind": "official",
+          "title": "City of Chicago Department of Finance: TID Informational Points (April 2026)"
+        },
+        {
+          "url": "https://www.chicago.gov/city/en/depts/fin/supp_info/revenue/tax_list/hotel_accommodationstax.html",
+          "kind": "official",
+          "title": "City of Chicago: Hotel Accommodations Tax (7520, 7520S, 7520T)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "Since 1 May 2026, large hotels in the downtown district can add a further 1.5% charge",
+          "It applies to hotels of 100 rooms or more in 16 ZIP codes in and around downtown, from 60601 to 60661",
+          "it must disclose it in advance and show it separately as a \"CTID Transaction Charge\"",
+          "The city will not charge its 4.5% tax on the charge, but the charge itself may be subject to other taxes"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: 17.4% of a $300 room is $52.20, making $352.20 a night; the 1.5% downtown charge adds $4.50, making $356.70, before any tax on the charge itself.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://tax.illinois.gov/content/dam/soi/en/web/taxarchive/research/legal/letter-rulings/sales-tax/2023/st23-0028-gil.pdf",
+          "kind": "official",
+          "title": "Illinois Department of Revenue: ST 23-0028-GIL, Hotel Operators' Tax"
+        },
+        {
+          "url": "https://cdn.choosechicago.com/uploads/2026/04/City_of_Chicago_Department_of_Finance_TID_Informational_Points-April-2026.pdf",
+          "kind": "official",
+          "title": "City of Chicago Department of Finance: TID Informational Points (April 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "On a $300 room, 17.4% is $52.20, so the room costs $352.20 a night",
+          "it adds $4.50, for $356.70",
+          "That is our arithmetic, and it excludes any tax on the charge itself"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.fare-cta",
+      "topic": "fare",
+      "claim": "CTA fare chart (page dated effective 20 February 2023, still the chart on the CTA site in October 2026): 'L' train $2.50 (except O'Hare), bus $2.25, up to two further rides free within two hours; 'L' fare from O'Hare $5 deducted on entry at O'Hare; CTA single-trip Ventra ticket $3 (the O'Hare ticket $5); 1-Day CTA/Pace Pass $5; contactless payment accepted.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.transitchicago.com/fares/",
+          "kind": "operator",
+          "title": "Chicago Transit Authority: Fare information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "a bus ride is $2.25",
+          "against $2.50 for a train ride from any other station",
+          "A CTA single-trip ticket bought at O'Hare is also $5",
+          "you can make up to two transfers within two hours without paying again"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.transport-ord",
+      "topic": "transport",
+      "claim": "CTA: the Blue Line serves O'Hare from the station in the lower-level concourse linked to Terminals 1, 2 and 3 (Terminal 5 via the free Airport Transit System to Terminal 2), runs 24 hours a day, and the normal travel time to downtown is 40 to 45 minutes; the 'L' fare from O'Hare is $5.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.transitchicago.com/airports/",
+          "kind": "operator",
+          "title": "Chicago Transit Authority: Trains to Chicago airports"
+        },
+        {
+          "url": "https://www.transitchicago.com/fares/",
+          "kind": "operator",
+          "title": "Chicago Transit Authority: Fare information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "the CTA Blue Line runs from the station below Terminals 1, 2 and 3 to downtown, 24 hours a day",
+          "The CTA gives the normal journey as 40 to 45 minutes",
+          "From Terminal 5, take the free Airport Transit System to Terminal 2 first",
+          "The O'Hare fare is $5"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.transport-mdw",
+      "topic": "transport",
+      "claim": "CTA: the Orange Line serves Midway; the normal travel time to downtown is 20 to 25 minutes, all trains go to the Loop, and alternate overnight service is the N62 Archer bus; the fare is the standard $2.50.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.transitchicago.com/airports/",
+          "kind": "operator",
+          "title": "Chicago Transit Authority: Trains to Chicago airports"
+        },
+        {
+          "url": "https://www.transitchicago.com/fares/",
+          "kind": "operator",
+          "title": "Chicago Transit Authority: Fare information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "the Orange Line runs to the Loop in 20 to 25 minutes for the standard $2.50 fare",
+          "The overnight alternative is the N62 Archer bus"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.transport-state-lake",
+      "topic": "transport",
+      "claim": "CTA airport page alert: the State/Lake Loop elevated station is closed for reconstruction into 2029; riders are asked to use Clark/Lake or Washington/Wabash.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.transitchicago.com/airports/",
+          "kind": "operator",
+          "title": "Chicago Transit Authority: Trains to Chicago airports"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "the State/Lake elevated station is closed for reconstruction into 2029",
+          "The CTA suggests Clark/Lake or Washington/Wabash instead"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-palmer-house",
+      "topic": "hotel",
+      "claim": "Palmer House's own site lists 17 East Monroe Street, 1,641 guest rooms (no room sizes) and the Lockwood restaurant, and calls itself America's Longest Operating Hotel in North America with over 150 years of history.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.palmerhousehiltonhotel.com/",
+          "kind": "official",
+          "title": "Palmer House, a Hilton Hotel"
+        },
+        {
+          "url": "https://www.palmerhousehiltonhotel.com/accommodations/",
+          "kind": "official",
+          "title": "Palmer House: Rooms and Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "with 1,641 guest rooms",
+          "it is very large, and the hotel publishes no room sizes"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-londonhouse",
+      "topic": "hotel",
+      "claim": "LondonHouse's own site lists 85 East Wacker Drive, 452 rooms and suites, LH Rooftop on levels 21 to 23 and the Bridges Lobby Bar on the 2nd floor over the river; free standard Wi-Fi is for Hilton Honors members booking direct; valet parking is listed without a price.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.londonhousechicago.com/",
+          "kind": "official",
+          "title": "LondonHouse Chicago"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "with 452 rooms and suites, the three-level LH Rooftop",
+          "free standard Wi-Fi is for Hilton Honors members who book direct, and the site gives no price for valet parking"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-hi-chicago",
+      "topic": "hotel",
+      "claim": "HI USA's page for HI Chicago lists 24 East Ida B. Wells Drive; shared dorms (4 to 10 beds) and private rooms, some ensuite; Grant Park 0.3 mi and the Bean 0.7 mi; check-in 4 pm; pets not allowed; onsite café and game room.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hiusa.org/find-hostels/illinois/chicago-24-e-idabwells-drive",
+          "kind": "official",
+          "title": "HI USA: HI Chicago"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "The hostel lists Grant Park at 0.3 miles and the Bean at 0.7 miles",
+          "check-in is from 4 pm and pets are not allowed"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-langham",
+      "topic": "hotel",
+      "claim": "The Langham, Chicago's own site lists 330 North Wabash Avenue, the last office building designed by Mies van der Rohe, an indoor pool, the Chuan Spa and Travelle with panoramic river views; room count and sizes are not listed.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.langhamhotels.com/en/the-langham/chicago/",
+          "kind": "official",
+          "title": "The Langham, Chicago"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "in the last office building designed by Mies van der Rohe",
+          "the hotel's site lists no room count or sizes"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-freehand",
+      "topic": "hotel",
+      "claim": "Freehand Chicago's own pages list 19 East Ohio Street, a 1927 building, rooms designed by Roman and Williams, the Broken Shaker bar; Queen 155 sq ft, King 185 sq ft, Private Quad 210 to 225 sq ft with four twin beds; resort fee $15 for private rooms and $40 for private quads; parking $64 a night per vehicle.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://freehandhotels.com/chicago/",
+          "kind": "official",
+          "title": "Freehand Chicago"
+        },
+        {
+          "url": "https://freehandhotels.com/chicago/rooms/",
+          "kind": "official",
+          "title": "Freehand Chicago: Rooms"
+        },
+        {
+          "url": "https://freehandhotels.com/chicago/faqs/",
+          "kind": "official",
+          "title": "Freehand Chicago: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "Standard rooms run from a 155 sq ft Queen to 210 to 225 sq ft Private Quads with four twin beds",
+          "the resort fee is $15 for private rooms and $40 for quads, and parking is $64 a night"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-ohio-house",
+      "topic": "hotel",
+      "claim": "Ohio House Motel's own site lists 600 North LaSalle Drive, 'serving guests since 1960', free Wi-Fi in every room, a 24/7 front desk, Deluxe King, Double and King Suite rooms, and check-in at 4 pm; no room sizes or parking details.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.ohiohousemotel.com/",
+          "kind": "official",
+          "title": "Ohio House Motel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "in business since 1960, with free Wi-Fi in every room and a 24-hour front desk",
+          "the hotel publishes no room sizes or parking details, and check-in is from 4 pm"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-drake",
+      "topic": "hotel",
+      "claim": "The Drake's own site lists 140 East Walton Place, since 1920, 535 guest rooms and 74 suites, direct access to Oak Street Beach, Palm Court afternoon tea, the Coq d'Or, and states guests will not incur Urban Destination Fees; no room sizes listed.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.thedrakehotel.com/",
+          "kind": "official",
+          "title": "The Drake Hotel"
+        },
+        {
+          "url": "https://www.thedrakehotel.com/accommodations/",
+          "kind": "official",
+          "title": "The Drake: Accommodations"
+        },
+        {
+          "url": "https://www.thedrakehotel.com/dining/",
+          "kind": "official",
+          "title": "The Drake: Dining"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "with 535 guest rooms and 74 suites",
+          "it says guests do not pay Urban Destination Fees"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-peninsula",
+      "topic": "hotel",
+      "claim": "The Peninsula Chicago's own site lists 108 East Superior Street, rooms framing Michigan Avenue, the Water Tower and the lake, an indoor pool on the 19th floor with 20-foot floor-to-ceiling windows, a spa and the Shanghai Terrace restaurant.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.peninsula.com/en/chicago/5-star-luxury-hotel-downtown-chicago",
+          "kind": "official",
+          "title": "The Peninsula Chicago"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "an indoor pool on the 19th floor behind 20-foot windows"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-whitehall",
+      "topic": "hotel",
+      "claim": "The Whitehall Hotel's own site lists 105 East Delaware Place, a hotel dating to 1928, the Kirei restaurant and Whitehall Lounge, in-room mini-refrigerator and safe, and self-parking 'currently $58 per day, subject to change'.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.thewhitehallhotel.com/",
+          "kind": "official",
+          "title": "The Whitehall Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "self-parking is $58 a day, which the hotel says is subject to change"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-hoxton",
+      "topic": "hotel",
+      "claim": "The Hoxton, Chicago's own pages list 200 North Green Street, 182 rooms from Snug to Roomy, Cira, rooftop Cabra, a rooftop pool, the Morgan (Green and Pink Line) station a 3-minute walk away, valet parking $75 overnight, and an FAQ line on the 1.5% Chicago charge effective 1 May 2026.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://thehoxton.com/chicago/",
+          "kind": "official",
+          "title": "The Hoxton, Chicago"
+        },
+        {
+          "url": "https://thehoxton.com/chicago/faqs",
+          "kind": "official",
+          "title": "The Hoxton, Chicago: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "with 182 rooms from \"Snug\" to \"Roomy\"",
+          "valet parking is $75 overnight, and the hotel's FAQ lists the city's 1.5% charge"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-neighborhood",
+      "topic": "hotel",
+      "claim": "The Neighborhood Hotel Lincoln Park's own page lists 2616 North Clark Street, 14 suites with kitchens, Lincoln Park Zoo under a 15-minute walk (free admission), the lakefront about 15 minutes east, a landmark late-1800s building with no elevator, no on-site parking, a $95 dog fee, and the card charged 14 days before arrival.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.theneighborhoodhotel.com/location/lincoln-park/",
+          "kind": "official",
+          "title": "The Neighborhood Hotel Lincoln Park"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "with 14 suites that have full kitchens",
+          "there is no lift and no on-site parking, and your card is charged 14 days before arrival"
+        ]
+      }
+    },
+    {
+      "id": "us.chicago.hotel-claridge",
+      "topic": "hotel",
+      "claim": "Claridge House Chicago's own pages list 1244 North Dearborn Parkway, 165 rooms, Cal's at Claridge, Sushi By Bou Gold Coast, check-in 3 pm, pets allowed, a destination fee covering internet and a $10 daily food and beverage credit (amount not stated), parking next door by LAZ.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.claridgehousechicago.com/",
+          "kind": "official",
+          "title": "Claridge House Chicago"
+        },
+        {
+          "url": "https://www.claridgehousechicago.com/faq/",
+          "kind": "official",
+          "title": "Claridge House Chicago: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chicago.html": [
+          "with 165 rooms, Cal's at Claridge and Sushi by Bou Gold Coast",
+          "the hotel charges a destination fee, and the pages we read did not state the amount"
+        ]
+      }
     }
   ]
 }

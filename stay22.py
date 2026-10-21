@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-chicago": dict(area="The Loop", lat=41.8819, lng=-87.6278, zoom=14,
+                                        address="The Loop, Chicago, IL, USA"),
     "where-to-stay-in-boston": dict(area="Copley Square", lat=42.3501, lng=-71.0775, zoom=15,
                                        address="Copley Square, Boston, MA, USA"),
     "where-to-stay-in-tulum": dict(area="Tulum Pueblo", lat=20.2114, lng=-87.4654, zoom=13,
@@ -1166,6 +1168,19 @@ HOTELS = {
     "YOTEL Boston": _B + "us/yotel-boston.html",
     "The Charles Hotel": _B + "us/the-charles.html",
     "Harvard Square Hotel": _B + "us/cambridge-massachusetts.html",
+    # Chicago (Booking.com pages confirmed by hotel name and city)
+    "Palmer House, a Hilton Hotel": _B + "us/the-palmer-house.html",
+    "LondonHouse Chicago": _B + "us/londonhouse-chicago-curio-collection-by-hilton.html",
+    "HI Chicago": _B + "us/hostelling-international-chicago.html",
+    "The Langham, Chicago": _B + "us/the-langham-chicago.html",
+    "Freehand Chicago": _B + "us/freehand-chicago.html",
+    "Ohio House Motel": _B + "us/ohio-house-motel.html",
+    "The Drake Hotel": _B + "us/the-drake.html",
+    "The Peninsula Chicago": _B + "us/the-peninsula-chicago.html",
+    "The Whitehall Hotel": _B + "us/the-whitehall.html",
+    "The Hoxton, Chicago": _B + "us/the-hoxton-chicago.html",
+    "The Neighborhood Hotel Lincoln Park": _B + "us/the-neighborhood-lincoln-park.html",
+    "Claridge House Chicago": _B + "us/claridge-house-chicago-tapestry-collection-by-hilton.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

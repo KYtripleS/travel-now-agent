@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-chicago": dict(
+        text="For a first trip, stay in the Loop: Millennium Park, Grant Park and the 'L' are close. Choose the Palmer House for history, HI Chicago for value, the Peninsula for a splurge up the Mile. The tax is 17.4%, or $52.20 on a $300 room.",
+        link_text="the Loop",
+        cta=_stay_cta("where-to-stay-in-chicago", "See hotels around the Loop")),
     "where-to-stay-in-boston": dict(
         text="For a first trip, stay in Back Bay: Copley Square and Newbury Street are close, and the Logan Express runs from here for $3. Choose The Lenox for a classic address, Newbury Guest House for value, the Fairmont Copley Plaza for the square. The tax is 14.95%, or $44.85 on a $300 room.",
         link_text="Back Bay",
@@ -1447,6 +1451,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-chicago": ["The Peninsula Chicago", "Palmer House, a Hilton Hotel", "HI Chicago"],
     "where-to-stay-in-boston": ["The Lenox Hotel", "Newbury Guest House", "Fairmont Copley Plaza"],
     "where-to-stay-in-tulum": ["Azulik", "Una Vida", "The Strabon Tulum"],
     "where-to-stay-in-washington-dc": ["Kimpton Hotel Monaco Washington DC", "Moxy Washington, DC Downtown", "Willard InterContinental Washington"],
@@ -1579,6 +1584,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Chicago", "where-to-stay-in-chicago", None, None),
         ("Boston", "where-to-stay-in-boston", None, None),
         ("Tulum", "where-to-stay-in-tulum", None, None),
         ("Washington, DC", "where-to-stay-in-washington-dc", None, None),
