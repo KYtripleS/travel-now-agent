@@ -2927,6 +2927,1202 @@
           "parking is valet only, at $30 a day"
         ]
       }
+    },
+    {
+      "id": "us.sandiego.tot-zones",
+      "topic": "tax",
+      "claim": "From 1 May 2025 the City of San Diego transient occupancy tax is 11.75% in Tax Zone 1, 12.75% in Tax Zone 2 and 13.75% in Tax Zone 3, applied to stays of less than one month.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.sandiego.gov/treasurer/taxesfees/tot",
+          "kind": "official",
+          "title": "City of San Diego Office of the City Treasurer: Transient Occupancy Tax (TOT) and Tourism Marketing District (TMD)"
+        },
+        {
+          "url": "https://www.sandiego.gov/sites/default/files/2025-06/citizen-initiative-faq-june-2025_1.pdf",
+          "kind": "official",
+          "title": "City Treasurer: Measure C FAQs"
+        },
+        {
+          "url": "https://sandiego.gov/sites/default/files/2025-03/2025-3-20-city-of-san-diego-hotel-room-tax-to-increase-starting-may-1.pdf",
+          "kind": "official",
+          "title": "City of San Diego news release, 20 March 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "a hotel tax of 11.75%, 12.75% or 13.75%",
+          "Since 1 May 2025 the rate depends on the zone the hotel is in",
+          "Hotel tax, Tax Zone 3, the downtown area"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.tmd-2",
+      "topic": "tax",
+      "claim": "The Tourism Marketing District assessment is 2.00% for lodging businesses in San Diego with 70 or more rooms, and the operator may elect to pass it on to the guest.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.sandiego.gov/treasurer/taxesfees/tot",
+          "kind": "official",
+          "title": "City of San Diego Office of the City Treasurer: Transient Occupancy Tax (TOT) and Tourism Marketing District (TMD)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "Tourism Marketing District assessment, hotels with 70 or more rooms",
+          "which the operator may pass on to the guest"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.tax-zone-boundaries",
+      "topic": "tax",
+      "claim": "The Municipal Code defines Tax Zone 3 as a contiguous downtown area, Tax Zone 1 as two noncontiguous parts of the city north of State Route 56 and south of State Route 54, and Tax Zone 2 as the rest; the city's zone lookup map shows each address, and the city's release says rates are higher closer to the Convention Center.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://docs.sandiego.gov/municode/MuniCodeChapter03/Ch03Art05Division02.pdf",
+          "kind": "official",
+          "title": "San Diego Municipal Code, Chapter 3, Article 5, Division 2 (Measure C)"
+        },
+        {
+          "url": "https://www.sandiego.gov/treasurer/taxesfees/tot",
+          "kind": "official",
+          "title": "City of San Diego Office of the City Treasurer: Transient Occupancy Tax (TOT) and Tourism Marketing District (TMD)"
+        },
+        {
+          "url": "https://sandiego.gov/sites/default/files/2025-03/2025-3-20-city-of-san-diego-hotel-room-tax-to-increase-starting-may-1.pdf",
+          "kind": "official",
+          "title": "City of San Diego news release, 20 March 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "north of State Route 56 and south of State Route 54",
+          "an interactive tax zone lookup map",
+          "a downtown area from Laurel Street south"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.tax-example",
+      "topic": "price",
+      "claim": "Our arithmetic: on a $300 room, 13.75% is $41.25 and 2% is $6.00 (total $347.25); at 12.75% plus 2% the total is $344.25.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.sandiego.gov/treasurer/taxesfees/tot",
+          "kind": "official",
+          "title": "City of San Diego Office of the City Treasurer: Transient Occupancy Tax (TOT) and Tourism Marketing District (TMD)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "costs 13.75% ($41.25) plus 2% ($6.00) in tax, $347.25 in all",
+          "12.75% ($38.25) and 2% ($6.00): $344.25"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.coronado-11",
+      "topic": "tax",
+      "claim": "The Hotel del Coronado's own reservation policies list current room taxes and assessments at 11% (subject to change); Coronado is a separate city from San Diego. Our arithmetic: 11% of a $300 room is $33.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hoteldel.com/stay/reservation-policies/",
+          "kind": "official",
+          "title": "Hotel del Coronado: Reservation Policies"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "list \"Current Room Taxes & Assessments\" at 11%, subject to change",
+          "on a $300 room that is $33, our arithmetic"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.route-992",
+      "topic": "transport",
+      "claim": "MTS Route 992 serves both airport terminals' elevated platforms and Downtown, every 15 minutes from 4:30 a.m. to 1 a.m. daily, about 15 minutes to Santa Fe Depot; MTS gives the fare as $3.00 and contactless tap payment is accepted on the validator.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.sdmts.com/getting-around/airport",
+          "kind": "operator",
+          "title": "MTS: Airport (Route 992 and the San Diego Flyer)"
+        },
+        {
+          "url": "https://www.sdmts.com/rider-info/rider-insider/flying-soon-heres-how-get-san-diego-airport-without-breaking-bank",
+          "kind": "operator",
+          "title": "MTS: Flying Soon? How to get to the San Diego airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "every 15 minutes from 4:30 a.m. to 1 a.m.",
+          "the bus takes about 15 minutes to Santa Fe Depot, and the fare is $3.00",
+          "tap a contactless card or phone on the validator"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.flyer",
+      "topic": "transport",
+      "claim": "The San Diego Flyer is a free shuttle between the airport terminals and Old Town Transit Center, 4:45 a.m. to 12:30 a.m., every 20 to 30 minutes, for transit riders only.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.sdmts.com/getting-around/airport",
+          "kind": "operator",
+          "title": "MTS: Airport (Route 992 and the San Diego Flyer)"
+        },
+        {
+          "url": "https://www.san.org/before-you-go-travel-tips/public-transportation/",
+          "kind": "official",
+          "title": "San Diego International Airport: Public Transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "a free shuttle between the airport terminals and the Old Town Transit Center",
+          "about every 20 to 30 minutes from 4:45 a.m. to 12:30 a.m."
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.trolley-airport",
+      "topic": "transport",
+      "claim": "The trolley does not stop at the airport; the airport's page routes riders by Route 992 to Santa Fe Depot (Blue and Green Lines) or Courthouse Station (Orange Line).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.san.org/before-you-go-travel-tips/public-transportation/",
+          "kind": "official",
+          "title": "San Diego International Airport: Public Transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "does not stop at the airport"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.mts-fares",
+      "topic": "fare",
+      "claim": "MTS adult fare is $3 one way on trolley, bus and Rapid, $1.50 reduced fare; PRONTO includes two-hour transfers and fare capping up to the $7 day pass, cash is a single ride with no transfers, and riders 18 and under ride free with a Youth PRONTO account.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.sdmts.com/fares/fare-chart",
+          "kind": "operator",
+          "title": "MTS: Fare Chart"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "the MTS adult fare is $3 one way on the trolley, buses and Rapid routes, and $1.50 with a reduced-fare ID",
+          "caps what you pay at the $7 day pass",
+          "Riders aged 18 and under ride free with a Youth PRONTO account"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.trolley-lines",
+      "topic": "transport",
+      "claim": "The Blue Line runs San Ysidro to UTC via Old Town, County Center / Little Italy, Santa Fe Depot and America Plaza; the Green Line stops at Seaport Village, Convention Center, Gaslamp Quarter, Santa Fe Depot and Old Town, and continues to Mission Valley.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.sdmts.com/transit-services/trolley",
+          "kind": "operator",
+          "title": "MTS: Trolley (lines and station list)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "the County Center / Little Italy station on the Blue and Green Lines at 1550 California Street",
+          "from San Ysidro through Old Town, Little Italy and Downtown to UTC"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.pendry",
+      "topic": "hotel",
+      "claim": "Pendry San Diego is at 550 J Street, Gaslamp Quarter, with a rooftop pool, six dining destinations, Petco Park 0.2 miles away, valet parking $70 a night including tax, and a nightly amenity fee (amount not stated on the FAQ).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.pendry.com/san-diego/faqs/",
+          "kind": "official",
+          "title": "Pendry San Diego: FAQs"
+        },
+        {
+          "url": "https://www.pendry.com/san-diego/",
+          "kind": "official",
+          "title": "Pendry San Diego"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "At 550 J Street, at the corner of Fifth Avenue",
+          "valet parking is $70 a night including tax"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.republic",
+      "topic": "hotel",
+      "claim": "Hotel Republic San Diego, Autograph Collection is at 421 West B Street; self and valet parking are each $70 a day and there is no airport shuttle.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/sanya-hotel-republic-san-diego-autograph-collection/overview/",
+          "kind": "official",
+          "title": "Hotel Republic San Diego, Autograph Collection (Marriott)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "parking, self or valet, is $70 a day, and there is no airport shuttle"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.portovista",
+      "topic": "hotel",
+      "claim": "Porto Vista Hotel is at 1835 Columbia Street, with valet-only parking at $55 a night for a standard vehicle.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://portovistasd.com/valet-only-parking/",
+          "kind": "official",
+          "title": "Porto Vista Hotel: Valet Only Parking"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "parking is valet only, $55 a night for a standard vehicle"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.hacienda",
+      "topic": "hotel",
+      "claim": "Hacienda Hotel Old Town lists a complimentary shuttle to the airport, Old Town Transit station and the cruise terminal from 6:30 a.m. to 9 p.m. (pick-ups need a call 45 minutes ahead), and parking at $30 a night.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.haciendahotel-oldtown.com/accommodations.htm",
+          "kind": "official",
+          "title": "Hacienda Hotel Old Town: Rooms and Amenities"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "running from 6:30 a.m. to 9 p.m.",
+          "parking is $30 a night, and the airport shuttle needs a call 45 minutes ahead"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.paradisepoint",
+      "topic": "hotel",
+      "claim": "Paradise Point charges a Resort Amenities Fee of $46 per room per night, included in the guestroom rate, and parking of $49 a night.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.paradisepoint.com/hotel-frequently-asked-questions/",
+          "kind": "official",
+          "title": "Paradise Point: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "a Resort Amenities Fee of $46 a room a night is included in the room rate, and parking is $49 a night"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.tower23",
+      "topic": "hotel",
+      "claim": "Tower23 Hotel's valet parking is $35 a night.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.t23hotel.com/faq",
+          "kind": "official",
+          "title": "Tower23 Hotel: Contact & FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "valet parking is $35 a night"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.lavalencia",
+      "topic": "hotel",
+      "claim": "La Valencia's nightly resort fee is $39 plus taxes; the hotel first opened on 15 December 1926; room sizes run from 250 sq ft (Vintage) to 800 sq ft (Icon Suites).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.lavalencia.com/resort-fee",
+          "kind": "official",
+          "title": "La Valencia: Resort Fee"
+        },
+        {
+          "url": "https://www.lavalencia.com/",
+          "kind": "official",
+          "title": "La Valencia Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "the nightly resort fee is $39 plus taxes",
+          "opened on 15 December 1926"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.hoteldel",
+      "topic": "hotel",
+      "claim": "The Hotel del Coronado adds a mandatory $50 per room per night ($35 resort charge plus $15 Historic Preservation Fund charge); self-parking is $59 and valet $79 a night; it is at 1500 Orange Avenue, about 15 minutes from the airport, reached by bridge or ferry, with no airport shuttle.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.hoteldel.com/stay/reservation-policies/",
+          "kind": "official",
+          "title": "Hotel del Coronado: Reservation Policies"
+        },
+        {
+          "url": "https://www.hoteldel.com/faq",
+          "kind": "official",
+          "title": "Hotel del Coronado: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "a mandatory $50 a room a night is added",
+          "self-parking is $59 a night, valet $79",
+          "about 15 minutes from the airport and reached by the Coronado Bridge or the ferry"
+        ]
+      }
+    },
+    {
+      "id": "us.sandiego.glorietta",
+      "topic": "hotel",
+      "claim": "Glorietta Bay Inn's resort fee is $40 a night; it stands across from the Hotel del Coronado in the former Spreckels Mansion and offers a complimentary hot breakfast and heated pool; second-floor rooms are reached by stairs.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.gloriettabayinn.com/",
+          "kind": "official",
+          "title": "Glorietta Bay Inn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-san-diego.html": [
+          "the resort fee is $40 a night, and second-floor rooms are reached by stairs"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.tax-state",
+      "topic": "tax",
+      "claim": "Florida levies a 6% tax on the total rental charged for hotel and similar accommodation (s. 212.03, 2026 statutes); the Department of Revenue says discretionary sales surtax applies to transient rentals and that the $5,000 surtax cap does not apply to them.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0212/Sections/0212.03.html",
+          "kind": "official",
+          "title": "Florida Statutes 212.03: Transient rentals tax"
+        },
+        {
+          "url": "https://floridarevenue.com/taxes/taxesfees/Pages/discretionary.aspx",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Discretionary Sales Surtax"
+        },
+        {
+          "url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Florida Sales and Use Tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "Florida sales tax on transient rentals",
+          "The state sets the 6% in Florida law",
+          "with no $5,000 cap"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.tax-surtax",
+      "topic": "tax",
+      "claim": "Miami-Dade County's total discretionary sales surtax is 1% for calendar year 2026 (DR-15DSS).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15dss_26.pdf",
+          "kind": "official",
+          "title": "Florida Department of Revenue: Discretionary Sales Surtax Information for Calendar Year 2026 (DR-15DSS)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "Miami-Dade discretionary sales surtax"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.tax-county",
+      "topic": "tax",
+      "claim": "Miami-Dade County says transient rentals carry 6% in total beyond state sales tax: 3% Convention Development Tax (county-wide except Surfside and Bal Harbour), 2% Tourist Development Tax and 1% Professional Sports Facilities Franchise Tax (both county-wide except Surfside, Bal Harbour and Miami Beach).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1499797928395868",
+          "kind": "official",
+          "title": "Miami-Dade County: Tourist and Restaurant Taxes (Tourist Tax Rates and Expenditures)"
+        },
+        {
+          "url": "https://edr.state.fl.us/content/local-government/data/county-municipal/2026LOTTrates.pdf",
+          "kind": "official",
+          "title": "Florida EDR: 2026 Local Option Tourist / Food and Beverage Tax Rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "the 3% convention tax applies across the county apart from Surfside and Bal Harbour",
+          "do not apply in Miami Beach",
+          "Tourist Development Tax",
+          "Professional Sports Franchise Facilities Tax"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.tax-miamibeach",
+      "topic": "tax",
+      "claim": "The City of Miami Beach levies a 4% resort tax on the rent of a room in any hotel, motel, rooming house or apartment house (and 2% on food and drink); Miami-Dade County lists the same 4% on top of the 3% Convention Development Tax for Miami Beach facilities.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.miamibeachfl.gov/city-hall/finance/filepay-resort-tax/",
+          "kind": "official",
+          "title": "City of Miami Beach: File/Pay Resort Tax"
+        },
+        {
+          "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1499797928395868",
+          "kind": "official",
+          "title": "Miami-Dade County: Tourist and Restaurant Taxes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "City of Miami Beach resort tax",
+          "which charges its own 4% resort tax instead"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.tax-combined",
+      "topic": "tax",
+      "claim": "Our arithmetic from the official rates: Miami Beach 6% + 1% + 3% + 4% = 14%; mainland Miami (Brickell, Wynwood, Coconut Grove, Coral Gables) 6% + 1% + 3% + 2% + 1% = 13%. Faena and Freehand each state 14% tax on their resort fees and EAST Miami quotes 13% tax on its rollaway-bed fee.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1499797928395868",
+          "kind": "official",
+          "title": "Miami-Dade County: Tourist and Restaurant Taxes"
+        },
+        {
+          "url": "https://www.miamibeachfl.gov/city-hall/finance/filepay-resort-tax/",
+          "kind": "official",
+          "title": "City of Miami Beach: File/Pay Resort Tax"
+        },
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15dss_26.pdf",
+          "kind": "official",
+          "title": "Florida DOR: DR-15DSS 2026"
+        },
+        {
+          "url": "https://www.faena.com/hotel-policies",
+          "kind": "operator",
+          "title": "Faena Miami Beach: Hotel Policies"
+        },
+        {
+          "url": "https://freehandhotels.com/miami/faqs/",
+          "kind": "operator",
+          "title": "Freehand Miami: FAQs"
+        },
+        {
+          "url": "https://www.easthotels.com/en/Miami/hotel-policies/",
+          "kind": "operator",
+          "title": "EAST Miami: Hotel Policies"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "Combined, our arithmetic",
+          "Faena and Freehand both say 14%",
+          "EAST Miami quotes 13% tax on its extra-bed fee"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.tax-example",
+      "topic": "price",
+      "claim": "Our arithmetic: a $300 room plus a $60 daily fee, with both taxed (as Faena and Freehand state for their fees), is $410.40 a night at 14% (Miami Beach) and $406.80 at 13% (mainland), i.e. $110.40 and $106.80 above the room rate.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1499797928395868",
+          "kind": "official",
+          "title": "Miami-Dade County: Tourist and Restaurant Taxes"
+        },
+        {
+          "url": "https://www.faena.com/hotel-policies",
+          "kind": "operator",
+          "title": "Faena Miami Beach: Hotel Policies"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "costs $410.40 a night on Miami Beach and $406.80 on the mainland",
+          "That is $110.40 and $106.80 above the room rate"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.fare-transit",
+      "topic": "fare",
+      "claim": "Miami-Dade Transit's fare page lists Metrorail and Metrobus at $2.25 full fare, a 1-day pass at $5.65, free Metromover, and free bus-to-rail and rail-to-bus transfers.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1617316231654558",
+          "kind": "official",
+          "title": "Miami-Dade County: Transit Fares and Parking Fees"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "the Orange Line costs $2.25 on Miami-Dade Transit's fare page",
+          "a one-day pass is $5.65",
+          "transfers between bus and rail are free"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.metrorail-orange",
+      "topic": "transport",
+      "claim": "Miami-Dade County: Metrorail operates 5 a.m. to midnight, seven days a week, payable by contactless card at the gate; on weekends Orange Line trains run only as an airport shuttle between Earlington Heights and MIA, and riders from further north change at Earlington Heights. The airport lists the Orange Line for Brickell, Government Center, Historic Overtown/Lyric Theatre and Coconut Grove.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.miamidade.gov/global/transportation/metrorail.page",
+          "kind": "official",
+          "title": "Miami-Dade County: Metrorail"
+        },
+        {
+          "url": "https://miami-airport.com/public-transportation.asp",
+          "kind": "official",
+          "title": "Miami International Airport: Public Transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "Metrorail runs from 5 a.m. to midnight",
+          "Orange Line trains run only as an airport shuttle between MIA and Earlington Heights",
+          "runs from the airport station to Brickell, Government Center and Historic Overtown/Lyric Theatre"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.route150",
+      "topic": "transport",
+      "claim": "The airport's public transportation page lists a Miami Beach bus every 30 minutes from 6 a.m. to 11:40 p.m. between the MIA Metrorail station and Miami Beach (41st Street to South Pointe Drive) for $2.25 each way, and lists Route 150 Miami Beach Airport Express among routes serving the airport. (Freehand's FAQ quotes $2.35 and 6 a.m. to 11 p.m.)",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://miami-airport.com/public-transportation.asp",
+          "kind": "official",
+          "title": "Miami International Airport: Public Transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "the Miami Beach Airport Express, Route 150",
+          "It runs every 30 minutes from 6 a.m. to 11:40 p.m. at $2.25 each way"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.taxi-mia",
+      "topic": "fare",
+      "claim": "The airport lists metered taxi fares from MIA with a $2.00 airport origination fee and a $15 minimum fare; taxis are on the arrivals (ground) level.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://miami-airport.com/taxicabs-shuttles.asp",
+          "kind": "official",
+          "title": "Miami International Airport: Taxis & Ride App"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "a $2.00 airport fee and a $15 minimum from MIA"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.fll",
+      "topic": "transport",
+      "claim": "Broward County's FLL page: free shuttle buses run from the terminals to the Tri-Rail station at Dania Beach (Tri-Rail serves Miami-Dade, Broward and Palm Beach counties), and Broward County Transit Route 1 stops at the Rental Car Center.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.broward.org/Airport/passengers/Transportation",
+          "kind": "official",
+          "title": "Broward County: FLL Ground Transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "Tri-Rail runs free shuttle buses from the terminals to its station at Dania Beach",
+          "Broward County Transit's Route 1 stops at the Rental Car Center"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.brightline-shuttle",
+      "topic": "fare",
+      "claim": "Brightline's airport shuttle costs $12 per guest plus a $3 fuel surcharge with a same-day Brightline ticket, runs about twice an hour from MiamiCentral and the Fort Lauderdale station, 8 a.m. to 7 p.m. daily, to MIA and FLL respectively.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.gobrightline.com/offers/airport-connector-shuttles",
+          "kind": "operator",
+          "title": "Brightline: Airport Shuttle"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "$12 a guest plus a $3 fuel surcharge with a same-day train ticket",
+          "runs twice an hour from 8 a.m. to 7 p.m.",
+          "a matching shuttle serves MIA from MiamiCentral"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.brightline",
+      "topic": "transport",
+      "claim": "Brightline runs between Miami and Orlando with stops in Aventura, Fort Lauderdale, Boca Raton and West Palm Beach; MiamiCentral is at 600 NW 1st Avenue, and the county names Metrorail's Historic Overtown/Lyric Theatre station as the Brightline transfer.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.gobrightline.com/",
+          "kind": "operator",
+          "title": "Brightline"
+        },
+        {
+          "url": "https://www.gobrightline.com/offers/airport-connector-shuttles",
+          "kind": "operator",
+          "title": "Brightline: Airport Shuttle"
+        },
+        {
+          "url": "https://www.miamidade.gov/global/transportation/metrorail.page",
+          "kind": "official",
+          "title": "Miami-Dade County: Metrorail"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "with stops in Aventura, Fort Lauderdale, Boca Raton and West Palm Beach",
+          "at 600 NW 1st Avenue",
+          "Metrorail's Historic Overtown/Lyric Theatre station is the transfer point"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.metromover",
+      "topic": "transport",
+      "claim": "Miami-Dade County: Metromover is a free elevated people mover, seven days a week, in downtown, Omni and Brickell (21 stations, incl. the Kaseya Center); the Financial District station was to close temporarily for five weeks from Saturday 24 October, with the Brickell Loop continuing from the Brickell station.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.miamidade.gov/global/transportation/metromover.page",
+          "kind": "official",
+          "title": "Miami-Dade County: Metromover"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "Metromover is free, seven days a week",
+          "the Financial District station is closing for five weeks from Saturday 24 October",
+          "past the Kaseya Center"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.trolley",
+      "topic": "transport",
+      "claim": "The City of Miami Beach's citywide free trolley: South Beach loops run 7 days, 8 a.m. to 11 p.m., about every 20 minutes (reaching Lincoln Road Mall, the Bass Museum and the New World Symphony); the Middle Beach Loop runs 8 a.m. to 11 p.m. at about 20 minutes.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.miamibeachfl.gov/city-hall/transportation/trolley/south-beach-trolley/",
+          "kind": "official",
+          "title": "City of Miami Beach: South Beach Trolley"
+        },
+        {
+          "url": "https://www.miamibeachfl.gov/city-hall/transportation/trolley/middle-beach-loop/",
+          "kind": "official",
+          "title": "City of Miami Beach: Middle Beach Loop"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "run from 8 a.m. to 11 p.m. every 20 minutes or so",
+          "the free South Beach trolley reaches Lincoln Road Mall, the Bass Museum and the New World Symphony"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.wynwood-walls",
+      "topic": "price",
+      "claim": "Wynwood Walls (2516 NW 2nd Ave): adults $12, youth 13 to 17 $5, seniors $10, children 12 and under free; open 10:30 a.m. to 6:30 p.m.; no Metrorail station in Wynwood, nearest Historic Overtown/Lyric Theatre and Culmer about 1.5 miles south; Metrobus Route 2 and the free City of Miami trolley (Mon-Sat) on NW 2nd Ave.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://thewynwoodwalls.com/admissions",
+          "kind": "operator",
+          "title": "Wynwood Walls: Tickets & Admission"
+        },
+        {
+          "url": "https://thewynwoodwalls.com/info",
+          "kind": "operator",
+          "title": "Wynwood Walls: Hours & Directions"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "charges $12 for adults and $5 for 13 to 17 year olds",
+          "open from 10:30 a.m. to 6:30 p.m.",
+          "about 1.5 miles south",
+          "It has no Metrorail station"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.mdpl-tour",
+      "topic": "price",
+      "claim": "The Miami Design Preservation League's daily Art Deco Walking Tour from 1001 Ocean Drive lasts about two hours over roughly 1.5 miles; adults $50, seniors $40, youths $35, children free.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://mdpl.org/tours/art-deco-walking-tour/",
+          "kind": "operator",
+          "title": "Miami Design Preservation League: Art Deco Walking Tour"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "daily two-hour Art Deco walking tour",
+          "at $50 for adults",
+          "1001 Ocean Drive"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.venetian-pool",
+      "topic": "place",
+      "claim": "The City of Coral Gables says the Venetian Pool, 2701 De Soto Boulevard, has been enjoyed since 1923, is fed by spring water from an underground aquifer, and is closed on Mondays (open Tuesday to Sunday).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.coralgables.com/attractions/venetian-pool",
+          "kind": "official",
+          "title": "City of Coral Gables: Venetian Pool"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "fed by spring water from an underground aquifer",
+          "closed on Mondays"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.vizcaya",
+      "topic": "price",
+      "claim": "Vizcaya Museum and Gardens says on-site restoration is under way and it has reduced adult admission from $32 to $20 while it continues.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://vizcaya.org/welcome/",
+          "kind": "operator",
+          "title": "Vizcaya Museum and Gardens: Welcome / tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "restoration work is under way on site",
+          "from $32 to $20"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-betsy",
+      "topic": "hotel",
+      "claim": "The Betsy (1440 Ocean Drive): two pools, direct beach access, nightly live jazz at the Piano Bar; Classic King 250 to 275 sq ft; resort fee $62 plus tax per room per night; check-in age 21; describes itself as on the quiet end of Ocean Drive.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.thebetsyhotel.com/",
+          "kind": "operator",
+          "title": "The Betsy Hotel"
+        },
+        {
+          "url": "https://www.thebetsyhotel.com/stay/rooms-suites/classic-king",
+          "kind": "operator",
+          "title": "The Betsy: Classic King (hotel policy: resort fee)"
+        },
+        {
+          "url": "https://www.thebetsyhotel.com/faqs",
+          "kind": "operator",
+          "title": "The Betsy: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "At 1440 Ocean Drive, with two pools, direct beach access, nightly live jazz at the Piano Bar and an in-house library",
+          "The Classic King is 250 to 275 sq ft",
+          "the daily resort fee is $62 plus tax, and you must be 21 to check in"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-national",
+      "topic": "hotel",
+      "claim": "National Hotel (1677 Collins Avenue): adults-only, check-in age 21; 137 rooms and suites; calls its infinity pool the longest infinity-edge pool in Miami Beach; Classic rooms 250 to 300 sq ft; a daily resort fee applies, amount not stated.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://nationalhotel.com/",
+          "kind": "operator",
+          "title": "National Hotel Miami Beach"
+        },
+        {
+          "url": "https://nationalhotel.com/hotel-policies/",
+          "kind": "operator",
+          "title": "National Hotel: Hotel Policies"
+        },
+        {
+          "url": "https://nationalhotel.com/frequently-asked-questions/",
+          "kind": "operator",
+          "title": "National Hotel: FAQ"
+        },
+        {
+          "url": "https://nationalhotel.com/miami-beach-hotel-rooms/",
+          "kind": "operator",
+          "title": "National Hotel: Rooms & Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "At 1677 Collins Avenue, in South Beach's Art Deco neighbourhood, with 137 rooms and suites",
+          "Classic rooms of 250 to 300 sq ft",
+          "its pages say a daily resort fee applies without stating the amount"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-catalina",
+      "topic": "hotel",
+      "claim": "Catalina Hotel & Beach Club (1732 Collins Avenue): across the street from a public beach, two pools, three bars, complimentary beach towels; mandatory resort fee $30 plus tax; check-in age 21; third-party valet $40 a day plus taxes.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.catalinahotel.com/",
+          "kind": "operator",
+          "title": "Catalina Hotel & Beach Club"
+        },
+        {
+          "url": "https://www.catalinahotel.com/faqs",
+          "kind": "operator",
+          "title": "Catalina Hotel & Beach Club: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "across the street from a public beach, with two pools, three bars and complimentary beach towels",
+          "the mandatory resort fee is $30 plus tax",
+          "valet parking is $40 a day plus tax through a third party"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-faena",
+      "topic": "hotel",
+      "claim": "Faena Hotel Miami Beach (3201 Collins Avenue): Bay View Room 489 to 615 sq ft, Premier Oceanfront Room 727 sq ft; resort fee $65 plus 14% tax; overnight valet $68++ per vehicle.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.faena.com/miami-beach",
+          "kind": "operator",
+          "title": "Faena Hotel Miami Beach"
+        },
+        {
+          "url": "https://www.faena.com/miami-beach/accommodations",
+          "kind": "operator",
+          "title": "Faena Miami Beach: Rooms & Suites"
+        },
+        {
+          "url": "https://www.faena.com/hotel-policies",
+          "kind": "operator",
+          "title": "Faena Miami Beach: Hotel Policies"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "the Bay View Room is 489 to 615 sq ft, and a Premier Oceanfront Room 727 sq ft",
+          "the resort fee is $65 plus 14% tax, and overnight valet is $68++ a vehicle"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-freehand",
+      "topic": "hotel",
+      "claim": "Freehand Miami (2727 Indian Creek Drive): five-minute walk from the beach, under a mile from South Beach nightlife, pool terrace and two craft cocktail bars; rooms by Roman and Williams; Standard Family Room 240 sq ft; resort fee $35 plus 14% tax; no private car park; $100 refundable deposit; no longer books by the bed.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://freehandhotels.com/miami/",
+          "kind": "operator",
+          "title": "Freehand Miami"
+        },
+        {
+          "url": "https://freehandhotels.com/miami/faqs/",
+          "kind": "operator",
+          "title": "Freehand Miami: FAQs"
+        },
+        {
+          "url": "https://freehandhotels.com/miami/rooms/",
+          "kind": "operator",
+          "title": "Freehand Miami: Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "a five-minute walk from the beach and less than a mile from South Beach",
+          "a Standard Family Room is 240 sq ft",
+          "the fee is $35 plus 14% tax, there is no car park of its own, and a $100 deposit applies"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-fourseasons",
+      "topic": "hotel",
+      "claim": "Four Seasons Hotel Miami (1435 Brickell Avenue): describes a two-acre rooftop deck, the city's largest, with pool, cabanas and hammocks; Cityscape Room 500 sq ft; valet $65 a day, self-parking $60; MIA 8 miles/20 minutes and FLL 45 minutes by car per the hotel; no resort fee amount stated.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/miami/",
+          "kind": "operator",
+          "title": "Four Seasons Hotel Miami"
+        },
+        {
+          "url": "https://www.fourseasons.com/miami/accommodations/",
+          "kind": "operator",
+          "title": "Four Seasons Hotel Miami: Accommodations"
+        },
+        {
+          "url": "https://www.fourseasons.com/miami/getting-here/",
+          "kind": "operator",
+          "title": "Four Seasons Hotel Miami: Location"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "what the hotel calls the city's largest rooftop deck, two acres with a pool, cabanas and hammocks, and rooms of 500 sq ft",
+          "valet parking is $65 a day and self-parking $60",
+          "the Four Seasons 8 miles and 20 minutes"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-east",
+      "topic": "hotel",
+      "claim": "EAST Miami (Brickell City Centre neighbourhood): four outdoor pools; Urban King 300 sq ft with private balcony; destination fee $54 plus tax per night; check-in age 21; $250 per night security deposit.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.easthotels.com/en/miami/",
+          "kind": "operator",
+          "title": "EAST Miami"
+        },
+        {
+          "url": "https://www.easthotels.com/en/Miami/rooms/urban-king/",
+          "kind": "operator",
+          "title": "EAST Miami: Urban King"
+        },
+        {
+          "url": "https://www.easthotels.com/en/Miami/hotel-policies/",
+          "kind": "operator",
+          "title": "EAST Miami: Hotel Policies"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "with four outdoor pools, a gym and an Urban King room of 300 sq ft with a private balcony",
+          "the destination fee is $54 plus tax a night, you must be 21 to check in, and a $250 a night security deposit is held on your card"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-langford",
+      "topic": "hotel",
+      "claim": "Eurostars Langford (121 SE 1st St): 126 rooms in a 1925 Beaux Arts building that once housed the Miami National Bank; Deluxe room 26 m2; rooftop temporarily closed; external parking USD 64.2 per night taxes included.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.eurostarshotels.co.uk/eurostars-langford.html",
+          "kind": "operator",
+          "title": "Eurostars Langford Miami"
+        },
+        {
+          "url": "https://www.eurostarshotels.co.uk/eurostars-langford/rooms.html",
+          "kind": "operator",
+          "title": "Eurostars Langford: Rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "in a Beaux Arts building from 1925, once the Miami National Bank, with 126 rooms",
+          "the hotel says its rooftop is temporarily closed, and parking is external at $64.20 a night with taxes"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-arlo",
+      "topic": "hotel",
+      "claim": "Arlo Wynwood (2217 NW Miami Court): rooftop pool and bar, 24-hour fitness centre, complimentary bikes; MIA 7.2 miles (15 to 20 minutes) and FLL 30 to 45 minutes by car per the hotel; urban fee $35 plus tax per room per night; valet only from $45 a night; minimum check-in age 21; does not accept tap-to-pay wallets.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://arlohotels.com/wynwood/",
+          "kind": "operator",
+          "title": "Arlo Wynwood"
+        },
+        {
+          "url": "https://arlohotels.com/wynwood/faqs/",
+          "kind": "operator",
+          "title": "Arlo Wynwood: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "with a rooftop pool and bar, a 24-hour gym and bikes for guests, and MIA 7.2 miles away",
+          "the urban fee is $35 plus tax a room a night, parking is valet only from $45 a night, and the hotel says it does not accept tap-to-pay wallets",
+          "Arlo Wynwood 7.2 miles and 15 to 20 minutes"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-mrc",
+      "topic": "hotel",
+      "claim": "Mr. C Miami Coconut Grove (2988 McFarlane Road): rooftop pool, Bellini restaurant, Superior King 304 sq ft; no house car or shuttle; valet-only parking, overnight $55; nightly amenity fee $28 inclusive of tax.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.mrchotels.com/hotels/coconut-grove",
+          "kind": "operator",
+          "title": "Mr. C Miami Coconut Grove"
+        },
+        {
+          "url": "https://www.mrchotels.com/hotels/coconut-grove/rooms",
+          "kind": "operator",
+          "title": "Mr. C Miami Coconut Grove: Rooms"
+        },
+        {
+          "url": "https://www.mrchotels.com/hotels/coconut-grove/faq",
+          "kind": "operator",
+          "title": "Mr. C Miami Coconut Grove: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "Superior King rooms of 304 sq ft",
+          "it has no shuttle or house car, parking is valet only at $55 overnight, and the nightly amenity fee is $28 with tax included"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-biltmore",
+      "topic": "hotel",
+      "claim": "Biltmore Hotel (1200 Anastasia Avenue): pool of about 23,000 sq ft, one of the largest hotel pools in the continental US; 10,000 sq ft gym; resort fee $23 per room per day; MIA about 18 minutes and 3.7 miles by car; Miracle Mile 1.5 miles.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://biltmorehotel.com/",
+          "kind": "operator",
+          "title": "The Biltmore Hotel"
+        },
+        {
+          "url": "https://biltmorehotel.com/coral-gables-hotel-faq/",
+          "kind": "operator",
+          "title": "The Biltmore Hotel: FAQ"
+        },
+        {
+          "url": "https://biltmorehotel.com/wellness/miami-resort-pool/",
+          "kind": "operator",
+          "title": "The Biltmore Hotel: Pool"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "a pool of about 23,000 square feet that it calls one of the largest hotel pools in the continental United States, a 10,000 sq ft gym and Miracle Mile about 1.5 miles away",
+          "the Biltmore says 3.7 miles and about 18 minutes",
+          "the resort fee is $23 a day"
+        ]
+      }
+    },
+    {
+      "id": "us.miami.hotel-colonnade",
+      "topic": "hotel",
+      "claim": "Hotel Colonnade (180 Aragon Avenue, Miracle Mile): Colonnade Room 309 sq ft; outdoor pool; a daily destination fee applies (amount not stated on the pages read) including a $15 food and beverage credit; overnight valet $46 plus tax.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://hotelcolonnade.com/",
+          "kind": "operator",
+          "title": "Hotel Colonnade"
+        },
+        {
+          "url": "https://hotelcolonnade.com/stay/rooms-and-suites/",
+          "kind": "operator",
+          "title": "Hotel Colonnade: Rooms and Suites"
+        },
+        {
+          "url": "https://hotelcolonnade.com/stay/amenities/",
+          "kind": "operator",
+          "title": "Hotel Colonnade: Amenities"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-miami.html": [
+          "with an outdoor pool and Colonnade Rooms of 309 sq ft",
+          "a daily destination fee applies, which the hotel's page does not price, and overnight valet is $46 plus tax"
+        ]
+      }
     }
   ]
 }

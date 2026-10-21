@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-miami.html": (
+        "Where to Stay in Miami",
+        "Five areas, 12 hotels, a 13% to 14% room tax plus daily fees of $23 to $65, and the airport links.",
+    ),
+    "articles/where-to-stay-in-san-diego.html": (
+        "Where to Stay in San Diego",
+        "Six areas, 12 hotels, a hotel tax of 11.75% to 13.75% by zone, and the airport links by bus and Flyer.",
+    ),
     "articles/where-to-stay-in-dubai.html": (
         "Where to Stay in Dubai",
         "Five areas, 12 hotels and how the Tourism Dirham, municipality fee and VAT build a Dubai hotel bill.",
@@ -2081,6 +2089,20 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-miami.html": [
+        "articles/where-to-stay-in-los-angeles.html",
+        "articles/where-to-stay-in-honolulu.html",
+        "articles/where-to-stay-in-las-vegas.html",
+        "articles/where-to-stay-in-new-york.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-san-diego.html": [
+        "articles/where-to-stay-in-los-angeles.html",
+        "articles/where-to-stay-in-san-francisco.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-usa-2026.html",
     ],
     "articles/where-to-stay-in-dubai.html": [
         "articles/hotel-booking-sites-comparison.html",

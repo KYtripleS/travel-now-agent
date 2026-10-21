@@ -419,6 +419,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-miami": dict(
+        text="For a first trip, stay in South Beach: Ocean Drive, Lummus Park and the Art Deco district are on foot. Choose Faena for space, Brickell for the trains, Wynwood for murals. The tax is 14% on Miami Beach and 13% on the mainland, plus each hotel's daily fee.",
+        link_text="South Beach",
+        cta=_stay_cta("where-to-stay-in-miami", "See hotels around South Beach")),
+    "where-to-stay-in-san-diego": dict(
+        text="For a first trip, stay in the Gaslamp Quarter: restaurants, Petco Park and the Convention Center are close, and the Green Line stops there. Choose Pendry for a splurge, Hotel Republic for comfort, the HI hostel for budget. Hotel tax is 11.75% to 13.75% by zone, plus 2% at larger hotels.",
+        link_text="Gaslamp Quarter",
+        cta=_stay_cta("where-to-stay-in-san-diego", "See hotels around the Gaslamp Quarter")),
     "where-to-stay-in-dubai": dict(
         text="For a first trip, stay in Downtown Dubai: the Burj Khalifa, the Dubai Mall and a metro station are close. Choose old Dubai for the Creek, Marina and JBR for the beach, the Palm for a resort. The Tourism Dirham is AED 7 to 20 a room a night, plus fees.",
         link_text="Downtown Dubai",
@@ -1427,6 +1435,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-miami": ["The Betsy", "Catalina Hotel & Beach Club", "Faena Hotel Miami Beach"],
+    "where-to-stay-in-san-diego": ["Pendry San Diego", "Hotel Republic San Diego, Autograph Collection", "HI San Diego Downtown Hostel"],
     "where-to-stay-in-dubai": ["Armani Hotel Dubai", "Vida Dubai Mall", "Rove Downtown"],
     "where-to-stay-in-orlando": ["Disney's Grand Floridian Resort & Spa", "Drury Plaza Hotel Orlando - Disney Springs Area", "Rosen Inn at Pointe Orlando"],
     "where-to-stay-in-hiroshima": ["Dormy Inn Hiroshima", "Nest Hotel Hiroshima Hatchobori", "Toyoko Inn Hiroshima-eki Shinkansen-guchi No.1"],
@@ -1554,6 +1564,8 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Miami", "where-to-stay-in-miami", None, None),
+        ("San Diego", "where-to-stay-in-san-diego", None, None),
         ("Dubai", "where-to-stay-in-dubai", None, None),
         ("Orlando", "where-to-stay-in-orlando", None, None),
         ("Hiroshima", "where-to-stay-in-hiroshima", None, None),
