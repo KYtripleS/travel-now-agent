@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-tulum": dict(area="Tulum Pueblo", lat=20.2114, lng=-87.4654, zoom=13,
+                                      address="Avenida Tulum, Tulum Centro, Tulum, Quintana Roo, Mexico"),
     "where-to-stay-in-washington-dc": dict(area="Penn Quarter", lat=38.8976, lng=-77.0233, zoom=14,
                                               address="Penn Quarter, Washington, DC, USA"),
     "where-to-stay-in-miami": dict(area="South Beach", lat=25.7826, lng=-80.134, zoom=14,
@@ -1136,6 +1138,19 @@ HOTELS = {
     "The Graham Georgetown": _B + "us/the-graham-georgetown-washington.html",
     "Capitol Hill Hotel": _B + "us/capital-hill-suites.html",
     "Cambria Hotel Washington D.C. Navy Yard Riverfront": _B + "us/cambria-washington-dc-capitol-riverfront.html",
+    # Tulum (Booking.com pages confirmed by hotel name and city)
+    "Layla Tulum": _B + "mx/layla-tulum.html",
+    "Una Vida": _B + "mx/una-vida.html",
+    "NAJ Tulum": _B + "mx/naj-tulum.html",
+    "Aluna Resort Tulum": _B + "mx/aluna.html",
+    "The Strabon Tulum": _B + "mx/the-strabon.html",
+    "Hotel Era Tulum": _B + "mx/era-amp-spa-tulum.html",
+    "Casa Kobaab Tulum": _B + "mx/casa-kobaab-tulum.html",
+    "Azulik": _B + "mx/azulik.html",
+    "Nômade Temple Tulum": _B + "mx/nomade-tulum.html",
+    "Diamante K": _B + "mx/diamante-k-tulum.html",
+    "Akumal Bay Beach & Spa Resort": _B + "mx/akumal-beach-resort.html",
+    "Bahia Principe Explore Akumal": _B + "mx/luxury-bahia-principe-akumal.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

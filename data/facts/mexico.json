@@ -67,6 +67,10 @@
           "Mexico's 16% IVA",
           "IVA at 16%: 1,920 pesos",
           "19.5% in all on the room rate"
+        ],
+        "articles/where-to-stay-in-tulum.html": [
+          "16% IVA",
+          "IVA at 16%: 1,440 pesos"
         ]
       }
     },
@@ -773,6 +777,481 @@
           "14 US dollars a day",
           "630 pesos a night each",
           "15 minutes from the historic centre by subway"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.lodging-tax",
+      "topic": "tax",
+      "claim": "Quintana Roo's lodging tax (Ley del Impuesto al Hospedaje, art. 8) is 5% of the invoiced value of lodging at hotels and similar establishments, and 6% where the lodging is sold by a host or platform for apartments, houses and villas; the person who pays for the lodging is the taxpayer (art. 7). Text read directly from the consolidated law (last reform 23 Dec 2022).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://documentos.congresoqroo.gob.mx/leyes/L187-XVII-20221223-L1720221223030.pdf",
+          "kind": "official",
+          "title": "Quintana Roo Congress: Ley del Impuesto al Hospedaje (consolidated text, last reform 23 Dec 2022)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "Quintana Roo's 5% lodging tax",
+          "5% of the room invoice at hotels; 6% for apartments, houses and private villas",
+          "The state law makes the guest the taxpayer"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.lodging-tax-rules",
+      "topic": "tax",
+      "claim": "The law requires the provider to determine, withhold and pay the lodging tax expressly and separately (art. 11); the tax is never part of the value of the lodging (art. 12); on packages that include food and other services, the base is the lodging element, and at least 60% of the invoice total if the invoice does not itemise (art. 10).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://documentos.congresoqroo.gob.mx/leyes/L187-XVII-20221223-L1720221223030.pdf",
+          "kind": "official",
+          "title": "Quintana Roo Congress: Ley del Impuesto al Hospedaje (consolidated text, last reform 23 Dec 2022)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "expressly and separately",
+          "The tax is never part of the value of the room",
+          "no less than 60% of the invoice total when the hotel does not itemise"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.visitax",
+      "topic": "tax",
+      "claim": "Visitax is a Quintana Roo fee mandatory for all foreign tourists, with no adult or child rate, paid at visitax.gob.mx or through companies authorised by the state tax authority (SATQ); the portal states the legal basis as art. 51 octies of the state Ley de Derechos and shows no amount in its text; the state government said in December 2025 that it stays at 285 pesos in 2026 (receipts in January 2026 reportedly showed 283).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.visitax.gob.mx/sitio/",
+          "kind": "official",
+          "title": "Visitax: official portal and FAQ"
+        },
+        {
+          "url": "https://cgc.qroo.gob.mx/visitax-en-quintana-roo-de-la-mano-de-empresarios-busca-mantener-la-competitividad-del-caribe-mexicano/",
+          "kind": "official",
+          "title": "Quintana Roo government communication: Visitax, no increase in 2026 (read through a search summary; the page itself did not load from our network)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "About 285 pesos per foreign visitor, children included",
+          "there is no adult or child rate",
+          "would not rise in 2026",
+          "Visitax: 2 × 285 = 570 pesos, paid separately"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.site-entry-fee",
+      "topic": "price",
+      "claim": "From 20 July 2026 a foreign visitor to the Tulum archaeological site pays a unified 265 pesos: the Presidency (17 July 2026) says the international tourist doing the whole visit pays 265 pesos and entry to the Parque del Jaguar is free for Mexican visitors; INAH's Tulum page (updated 10 Aug 2026) lists 'Extranjeros: $265.00 pesos' under unified costs that include CONANP and/or Grupo Mundo Maya charges, open 8:00 to 17:00, last access 15:30. (Press reports split the 265 as 100 for the Parque del Jaguar, 65 for the national park and 100 for the zone, citing the DOF decree; we did not find the decree text and do not print the split.)",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://inah.gob.mx/zonas/99-zona-arqueologica-de-tulum",
+          "kind": "official",
+          "title": "INAH: Zona Arqueológica de Tulum (costos unificados, updated 10 Aug 2026)"
+        },
+        {
+          "url": "https://www.gob.mx/presidencia/prensa/plan-tulum-renace-presidenta-anuncia-entrada-gratuita-al-parque-del-jaguar-reduccion-de-tarifas-en-zona-arqueologica-y-anp",
+          "kind": "official",
+          "title": "Presidency of Mexico: Plan Tulum Renace, 17 July 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "a foreign visitor doing the whole visit pays 265 pesos",
+          "265 pesos for a foreign visitor doing the full visit",
+          "free for Mexican visitors",
+          "8:00 to 17:00, with the last entry at 15:30",
+          "Tulum site and park: 2 × 265 = 530 pesos, paid at the site"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.airport-tqo",
+      "topic": "transport",
+      "claim": "The Tulum International Airport (Grupo Olmeca-Maya-Mexica) site shows a live flight board, and the Tren Maya's official station list includes Tulum Aeropuerto, from which the airport can be reached.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://aitulum.com/en",
+          "kind": "official",
+          "title": "Aeropuerto Internacional de Tulum: official site"
+        },
+        {
+          "url": "https://www.trenmaya.gob.mx/",
+          "kind": "official",
+          "title": "Tren Maya: official site and stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "the airport's own site lists the flight board",
+          "includes a Tulum Aeropuerto stop"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.ado-cun-airport",
+      "topic": "fare",
+      "claim": "ADO's international site says a one-way bus from Cancún airport Terminals 2, 3 and 4 to Tulum is usually around MXN 475, takes about 2 h 45 min to 3 h 5 min, with up to 30 departures daily; Terminal 1 has no ADO service; prices vary and the live fare should be checked.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://tickets.ado.com.mx/ado-bus/cancun-airport-to-tulum-by-bus",
+          "kind": "operator",
+          "title": "ADO: Cancún airport to Tulum bus (viewed 21 Oct 2026; fares quoted on page in MXN)"
+        },
+        {
+          "url": "https://international.ado.com.mx/ado-bus/cancun-airport-to-tulum-by-bus",
+          "kind": "operator",
+          "title": "ADO International: Cancún airport to Tulum bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "Terminals 2, 3 and 4, usually around 475 pesos and 2 hours 45 minutes to 3 hours 5 minutes",
+          "up to 30 departures a day",
+          "up to about 3 hours 5 minutes"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.ado-cancun-centro",
+      "topic": "fare",
+      "claim": "ADO's international site lists Cancún (ADO Centro, Avenida Tulum at Avenida Uxmal) to Tulum from about MXN 268, a direct trip of about 2 h 40 min, with departures about every 30 minutes and up to 30 a day; the page has no date stamp.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://international.ado.com.mx/ado-bus/cancun-to-tulum",
+          "kind": "operator",
+          "title": "ADO International: Cancún to Tulum bus (viewed 21 Oct 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "the fare starts around 268 pesos",
+          "about 2 hours 40 minutes",
+          "about every 30 minutes"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.ado-terminal",
+      "topic": "place",
+      "claim": "Most ADO buses from Cancún stop at the Tulum ADO terminal in Tulum Pueblo, on Avenida Tulum; a less frequent stop is the Tulum Ruinas terminal near the archaeological site.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://international.ado.com.mx/ado-bus/cancun-to-tulum",
+          "kind": "operator",
+          "title": "ADO International: Cancún to Tulum bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "the Tulum terminal on Avenida Tulum in Tulum Pueblo",
+          "the Tulum Ruinas terminal near the archaeological site"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.tren-maya-stations",
+      "topic": "transport",
+      "claim": "The Tren Maya's official site lists 34 stations, including Cancún Aeropuerto, Playa del Carmen, Tulum and Tulum Aeropuerto, links to online ticket sales and shows no fares or timetable on that page.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.trenmaya.gob.mx/",
+          "kind": "official",
+          "title": "Tren Maya: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "Cancún Aeropuerto, Tulum and Tulum Aeropuerto among its 34 stations",
+          "sells tickets online"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.sargassum-satsum",
+      "topic": "place",
+      "claim": "CONABIO's SIMAR runs SATsum, a satellite early-warning system for pelagic sargassum in the Greater Caribbean, with alerts and a 10-day drift forecast.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://simar.conabio.gob.mx/satsum/",
+          "kind": "official",
+          "title": "CONABIO SIMAR: SATsum"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "publishes satellite alerts and a 10-day drift forecast"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.layla",
+      "topic": "hotel",
+      "claim": "Layla Tulum describes itself as a luxury adults-only boutique hotel in Tulum town, on Calle Centauro Sur Lote 13; it has a rooftop pool and bar, a pool in the riad courtyard garden, and four room types (King Riad Double Balcony, Garden King Pool view, King Room With Balcony, La Mansión Riad).",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.laylatulum.com/",
+          "kind": "official",
+          "title": "Layla Tulum Boutique Hotel & Restaurant"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "adults-only boutique hotel on Calle Centauro Sur in the town centre",
+          "a rooftop pool and bar, a second pool in the courtyard garden of its riad",
+          "four room types"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.una-vida",
+      "topic": "hotel",
+      "claim": "Una Vida lists five accommodations (Tropical King + Terrace, Tropical King + Private Garden & Plunge Pool, Jungle Studio, One Bedroom Suite, Villa Jacinta three-bedroom house with private pool), a spa, a pool and Ananda Restaurant, and says it is a few minutes' stroll to El Pueblo; no room sizes are listed.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.unavidatulum.com/",
+          "kind": "official",
+          "title": "Una Vida Tulum"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "a few minutes' stroll from El Pueblo",
+          "five types of accommodation",
+          "the three-bedroom Villa Jacinta with its own pool",
+          "the hotel's site lists no room sizes"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.naj",
+      "topic": "hotel",
+      "claim": "NAJ Tulum is at Aldea Zama Manzana 3 Lote 3; its site describes contemporary apartments, studios and rooms with a fully equipped kitchen, swimming pools, and a location five minutes from Tulum beach; it does not mention breakfast.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.najtulum.mx/",
+          "kind": "official",
+          "title": "NAJ Tulum"
+        },
+        {
+          "url": "https://www.najtulum.mx/contact",
+          "kind": "official",
+          "title": "NAJ Tulum: contact"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "Aldea Zama Manzana 3 Lote 3",
+          "a fully equipped kitchen in the rooms and swimming pools",
+          "five minutes from Tulum beach",
+          "the site does not mention breakfast"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.aluna",
+      "topic": "hotel",
+      "claim": "Aluna Resort Tulum's site gives its address as Av. Itzamná, Aldea Zama, and lists two pool options and the restaurants Parallel 20 and Bhanu Sky Kitchen (rooftop) plus a pool bar; it says the beach and city centre are minutes away; the site does not name a brand.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://alunatulumhotel.com/en/",
+          "kind": "official",
+          "title": "Aluna Resort Tulum"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "two pool options, the Parallel 20 restaurant, the rooftop Bhanu Sky Kitchen and a pool bar",
+          "the hotel's site says the beach is minutes away"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.strabon",
+      "topic": "hotel",
+      "claim": "The Strabon is at Calle 16 Sur L9-4, La Veleta; its site lists a King Room (32 m², 2 guests), a Deluxe Room with two queen beds (32 m², up to 4) and a Two Bedroom Suite (100 m², up to 6); Cafe Strabon serves breakfast daily from 8 to 11; the site mentions no pool.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://thestrabon.com/",
+          "kind": "official",
+          "title": "The Strabon"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "a King Room of 32 m², a Deluxe Room with two queen beds of 32 m² for up to four, and a 100 m² Two Bedroom Suite for up to six",
+          "breakfast daily from 8 to 11",
+          "the site mentions no pool"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.era",
+      "topic": "hotel",
+      "claim": "Hotel Era says it has just eight rooms (Standard, Deluxe, Superior Suite, Superior Family), on Calle 6 Sur, La Veleta, with a pool, spa, fitness centre and The Garden Bar & Lounge; no room sizes are listed.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://hoteleratulummx.com/",
+          "kind": "official",
+          "title": "Hotel Era Tulum"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "just eight rooms in four types",
+          "a pool, a spa, a fitness centre and The Garden Bar & Lounge",
+          "the site lists no room sizes"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.kobaab",
+      "topic": "hotel",
+      "claim": "Casa Kobaab Tulum describes an ethereal jungle sanctuary at calle 15 LT6, La Veleta, with five suites, a pool and terrace in the jungle and a Jade Premium suite with a private pool; suites are listed for 2 guests.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://casakobaabtulum.com/",
+          "kind": "official",
+          "title": "Casa Kobaab Tulum"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "five suites, a pool and terrace in the jungle",
+          "a Jade Premium suite with a private pool",
+          "the suites are listed for two guests"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.azulik",
+      "topic": "hotel",
+      "claim": "Azulik's site lists seven villas (Aqua, Sea, Sky, Moon, Jungle, Mayan, Aztec) linked by suspended walkways through the forest, eight restaurants at Azulik Tulum and the Maya Spa; a 25% villa discount (code AZULIK25) for direct bookings and stays from 1 Oct to 15 Dec 2026 is non-refundable.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://azulik.com/azulik-tulum/",
+          "kind": "official",
+          "title": "Azulik Tulum"
+        },
+        {
+          "url": "https://azulik.com/villas/",
+          "kind": "official",
+          "title": "Azulik: villas"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "seven villas, Aqua, Sea, Sky, Moon, Jungle, Mayan and Aztec",
+          "eight restaurants and the Maya Spa",
+          "is non-refundable"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.nomade",
+      "topic": "hotel",
+      "claim": "Nômade Temple Tulum's rooms page says it comprises 38 rooms, 20 suites, 5 treehouses and 36 bungalows; the home page lists three restaurants (La Popular, Macondo, Kuu Jū) and yoga, spa, ice baths and breathwork; no room sizes are listed.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.nomadetulum.com/rooms",
+          "kind": "official",
+          "title": "Nômade Tulum: rooms"
+        },
+        {
+          "url": "https://www.nomadetulum.com/",
+          "kind": "official",
+          "title": "Nômade Tulum"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "38 rooms, 20 suites, 5 treehouses and 36 bungalows",
+          "three restaurants, La Popular, Macondo and Kuu Jū",
+          "yoga, spa treatments and ice baths"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.diamante-k",
+      "topic": "hotel",
+      "claim": "Diamante K gives its address as Carretera Boca Paila Km 2.5, Tulum Ruinas, within the Tulum National Park (Jaguar Park); about one hectare with more than 200 palm trees; eight room categories including economic rooms, one with a shared bathroom; Casa Maria restaurant; the page does not say how park entry applies to guests.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.diamantek.com/",
+          "kind": "official",
+          "title": "Diamante K Hotel & Restaurant"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "At km 2.5 of the Boca Paila road, inside the Tulum National Park",
+          "about one hectare with more than 200 palm trees",
+          "eight room categories including economic rooms, one with a shared bathroom",
+          "its site does not say how park entry applies to guests"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.akumal-bay",
+      "topic": "hotel",
+      "claim": "Akumal Bay Beach & Spa Resort's site describes 310 oceanfront junior suites in four beachfront buildings, all-inclusive, with direct access to the coral reef for snorkelling; it lists Tulum airport at about 40 miles (65 km), 55 minutes by car.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.akumalbayresort.com/website/",
+          "kind": "official",
+          "title": "Akumal Bay Beach & Spa Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "310 oceanfront junior suites in four beachfront buildings",
+          "direct access to the coral reef for snorkelling",
+          "about 40 miles, a 55-minute drive"
+        ]
+      }
+    },
+    {
+      "id": "mx.tulum.hotel.bahia-principe-akumal",
+      "topic": "hotel",
+      "claim": "Bahia Principe Explore Akumal's page gives its address as Carretera Chetumal-Benito Juárez km 250, Akumal, lists 24-hour all-inclusive, pools, à la carte dining, a kids' club, access to a PGA-standard golf course, Tulum (TQO) 63 km and Cancún (CUN) 100 km, and marks only the Junior Suite Deluxe categories as adults only.",
+      "checked": "2026-10-21",
+      "sources": [
+        {
+          "url": "https://www.bahia-principe.com/en/mexico/riviera-maya/resort-akumal/",
+          "kind": "official",
+          "title": "Bahia Principe Explore Akumal"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tulum.html": [
+          "km 250 of the Chetumal highway",
+          "63 km from Tulum airport and 100 km from Cancún airport",
+          "only its Junior Suite Deluxe categories are marked adults only"
         ]
       }
     }
