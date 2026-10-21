@@ -540,6 +540,26 @@
           "the compact rooms are about 14 to 16 m²"
         ]
       }
+    },
+    {
+      "id": "at.vienna.christkindlmarkt-2026",
+      "topic": "place",
+      "claim": "The Wiener Christkindlmarkt on Rathausplatz runs from 13 November to 26 December 2026, daily 10:00-22:00, and 10:00-18:30 on 24 December.",
+      "checked": "2026-10-21",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.christkindlmarkt.at/",
+          "kind": "operator",
+          "title": "Wiener Christkindlmarkt (official site)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna.html": [
+          "runs from 13 November to 26 December 2026",
+          "until 6.30pm on 24 December"
+        ]
+      }
     }
   ]
 }

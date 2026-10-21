@@ -600,6 +600,27 @@
           "the rooftop takes no reservations"
         ]
       }
+    },
+    {
+      "id": "cz.prague.christmas-markets-2026",
+      "topic": "place",
+      "claim": "Prague's Old Town Square and Wenceslas Square Christmas markets run 28 November 2026 to 6 January 2027; Peace Square from 20 November and Republic Square from 25 November, both to 24 December 2026 (Visit Czechia).",
+      "checked": "2026-10-21",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.visitczechia.com/en-us/things-to-do/events/2025/11/e-christmas-markets-prague",
+          "kind": "official",
+          "title": "Visit Czechia: Christmas markets Prague"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague.html": [
+          "run from 28 November 2026 to 6 January 2027",
+          "Peace Square in Vinohrady from 20 November"
+        ]
+      },
+      "note": "Visit Czechia's FAQ on the same page still shows last season's dates; the listing above it gives 2026/27."
     }
   ]
 }
