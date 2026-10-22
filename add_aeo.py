@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-queenstown": dict(
+        text="For a first trip, stay in the town centre: the lakefront and restaurants on foot. Choose Fernhill for views over Lake Wakatipu, Frankton for the airport and kitchens, Arrowtown for a quiet village. GST adds 15%, and no visitor levy is charged.",
+        link_text="town centre",
+        cta=_stay_cta("where-to-stay-in-queenstown", "See hotels around the town centre")),
     "where-to-stay-in-chicago": dict(
         text="For a first trip, stay in the Loop: Millennium Park, Grant Park and the 'L' are close. Choose the Palmer House for history, HI Chicago for value, the Peninsula for a splurge up the Mile. The tax is 17.4%, or $52.20 on a $300 room.",
         link_text="the Loop",
@@ -1451,6 +1455,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-queenstown": ["Eichardt's Private Hotel", "Rendezvous Heritage Hotel Queenstown", "Queenstown Park Boutique Hotel"],
     "where-to-stay-in-chicago": ["The Peninsula Chicago", "Palmer House, a Hilton Hotel", "HI Chicago"],
     "where-to-stay-in-boston": ["The Lenox Hotel", "Newbury Guest House", "Fairmont Copley Plaza"],
     "where-to-stay-in-tulum": ["Azulik", "Una Vida", "The Strabon Tulum"],
@@ -1584,6 +1589,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Queenstown", "where-to-stay-in-queenstown", None, None),
         ("Chicago", "where-to-stay-in-chicago", None, None),
         ("Boston", "where-to-stay-in-boston", None, None),
         ("Tulum", "where-to-stay-in-tulum", None, None),

@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-queenstown": dict(area="Queenstown town centre", lat=-45.0312, lng=168.6626, zoom=15,
+                                           address="Marine Parade, Queenstown, New Zealand"),
     "where-to-stay-in-chicago": dict(area="The Loop", lat=41.8819, lng=-87.6278, zoom=14,
                                         address="The Loop, Chicago, IL, USA"),
     "where-to-stay-in-boston": dict(area="Copley Square", lat=42.3501, lng=-71.0775, zoom=15,
@@ -1181,6 +1183,19 @@ HOTELS = {
     "The Hoxton, Chicago": _B + "us/the-hoxton-chicago.html",
     "The Neighborhood Hotel Lincoln Park": _B + "us/the-neighborhood-lincoln-park.html",
     "Claridge House Chicago": _B + "us/claridge-house-chicago-tapestry-collection-by-hilton.html",
+    # Queenstown (Booking.com pages confirmed by hotel name and city)
+    "Eichardt's Private Hotel": _B + "nz/eichardt-private.html",
+    "Queenstown Park Boutique Hotel": _B + "nz/queenstown-park-boutique.html",
+    "Nomads Queenstown": _B + "nz/nomads-queenstown.html",
+    "Kamana Lakehouse": _B + "nz/aspen-queenstown-tanoa-hotels.html",
+    "Mövenpick Queenstown": _B + "nz/resort-queenstown.html",
+    "Rendezvous Heritage Hotel Queenstown": _B + "nz/heritage-queenstown.html",
+    "Hilton Queenstown Resort & Spa": _B + "nz/hilton-queenstown.html",
+    "Ramada Suites by Wyndham Queenstown Remarkables Park": _B + "nz/ramada-queenstown.html",
+    "Sudima Queenstown Five Mile": _B + "nz/sudima-queenstown.html",
+    "Millbrook Resort": _B + "nz/millbrook-resort.html",
+    "Arrowtown House Boutique Hotel": _B + "nz/arrowtown-house-boutique.html",
+    "Arrowfield Apartments": _B + "nz/arrowfield-apartments.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -1,0 +1,239 @@
+{
+  "place": "New Zealand",
+  "facts": [
+    {
+      "id": "nz.gst.rate",
+      "topic": "tax",
+      "claim": "New Zealand's GST rate is 15% on most taxable supplies; for a GST-inclusive price the GST is 3/23 of the price (NZ$13.04 of NZ$100).",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.ird.govt.nz/gst",
+          "kind": "official",
+          "title": "Inland Revenue: GST"
+        },
+        {
+          "url": "https://www.ird.govt.nz/gst/charging-gst",
+          "kind": "official",
+          "title": "Inland Revenue: Charging GST"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "Inland Revenue sets the rate at 15%",
+          "the bill is NZ$345",
+          "NZ$39.13 of the NZ$300"
+        ]
+      }
+    },
+    {
+      "id": "nz.queenstown.visitor-levy",
+      "topic": "tax",
+      "claim": "Queenstown Lakes District Council has proposed a levy on short-term visitor accommodation (81.37% support in a 2019 postal poll); the project is listed as on hold, it has not been introduced and nothing is charged on hotel bills in October 2026; in August 2026 the National Party said it would not introduce a bed-night levy.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.qldc.govt.nz/your-council/council-projects/proposed-visitor-levy",
+          "kind": "official",
+          "title": "Queenstown Lakes District Council: Proposed Visitor Levy"
+        },
+        {
+          "url": "https://www.1news.co.nz/2026/08/24/queenstown-mayor-says-nationals-bed-tax-u-turn-policy-made-in-panic/",
+          "kind": "news",
+          "title": "1News: Queenstown mayor says National's bed tax u-turn 'policy made in panic' (24 Aug 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "backed by 81.37% of those who voted in a 2019 postal poll",
+          "The council lists the project as on hold",
+          "the National Party said it would not introduce a bed-night levy"
+        ]
+      }
+    },
+    {
+      "id": "nz.ivl",
+      "topic": "tax",
+      "claim": "The International Visitor Conservation and Tourism Levy is NZ$100 a person for most international visitors, paid when applying for a visa or NZeTA; Australian citizens and permanent residents and people from most Pacific islands are among those exempt (page last updated 26 August 2026).",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism/tourism-funding/international-visitor-conservation-and-tourism-levy",
+          "kind": "official",
+          "title": "MBIE: International Visitor Conservation and Tourism Levy"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "the NZ$100 International Visitor Conservation and Tourism Levy",
+          "when they apply for a visa or an NZeTA",
+          "people from most Pacific islands, are among those exempt"
+        ]
+      }
+    },
+    {
+      "id": "nz.queenstown.orbus-airport-fare",
+      "topic": "fare",
+      "claim": "Orbus buses to and from Queenstown Airport cost NZ$2.50 for an adult with a Bee Card and NZ$10 cash; children and youths (5 to 18) pay NZ$1.50 with a registered Bee Card or NZ$8 cash; under-5s free (ORC page updated 14 Oct 2026).",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://orc.govt.nz/fares",
+          "kind": "official",
+          "title": "Otago Regional Council: fares"
+        },
+        {
+          "url": "https://www.queenstownairport.co.nz/parking-transport/transport-options/public-bus-transport/",
+          "kind": "official",
+          "title": "Queenstown Airport: Orbus public bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "NZ$2.50 for an adult with a registered Bee Card or NZ$10 in cash",
+          "children and youths pay NZ$1.50 with a Bee Card or NZ$8 in cash"
+        ]
+      }
+    },
+    {
+      "id": "nz.queenstown.orbus-frequency",
+      "topic": "transport",
+      "claim": "Orbus buses from Queenstown Airport stop outside the terminal and run to Frankton and the town centre, generally every 15 minutes in the day and every 30 minutes in the evening; the Bee Card costs NZ$5 with a NZ$5 minimum top-up, and one free transfer is allowed within 45 minutes.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.queenstownairport.co.nz/parking-transport/transport-options/public-bus-transport/",
+          "kind": "official",
+          "title": "Queenstown Airport: Orbus public bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "every 15 minutes in the day, and every 30 minutes in the evening",
+          "costs NZ$5, with a minimum top-up of NZ$5",
+          "One free transfer is allowed within 45 minutes"
+        ]
+      }
+    },
+    {
+      "id": "nz.queenstown.airport-taxi-shuttle",
+      "topic": "transport",
+      "claim": "Queenstown Airport lists taxis and rideshare (including Uber) at pick-up zones outside the terminal and pre-booked shared and private shuttles to Queenstown and Wanaka; it publishes no fares and says travel times and fares vary with traffic and destination.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.queenstownairport.co.nz/parking-transport/transport-options/",
+          "kind": "official",
+          "title": "Queenstown Airport: Transport options"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "taxis and Uber at pick-up zones outside the terminal",
+          "It publishes no fares"
+        ]
+      }
+    },
+    {
+      "id": "nz.queenstown.airport-distance",
+      "topic": "transport",
+      "claim": "Queenstown Airport is 8 km from the town centre, a 10 to 15 minute drive via Frankton Road; any bus journey within the Queenstown network is one zone (NZ$2.50 adult Bee Card, NZ$4 cash); a bus runs to Arrowtown every half hour, seven days a week.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.queenstownnz.co.nz/stories/post/queenstown-accommodation-faqs/",
+          "kind": "official",
+          "title": "Queenstown NZ (Destination Queenstown): Where to stay in Queenstown"
+        },
+        {
+          "url": "https://orc.govt.nz/fares",
+          "kind": "official",
+          "title": "Otago Regional Council: fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "the airport is 8 km from the town centre, a drive of 10 to 15 minutes along Frankton Road",
+          "NZ$2.50 for an adult with a Bee Card, NZ$4 in cash",
+          "a bus runs every half hour, seven days a week"
+        ]
+      }
+    },
+    {
+      "id": "nz.queenstown.seasons",
+      "topic": "price",
+      "claim": "Queenstown prices rise in winter (June to September) and summer (December to February); the regional tourism organisation recommends booking three to six months ahead and names October to November and March to May as the best-value months.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.queenstownnz.co.nz/stories/post/queenstown-accommodation-faqs/",
+          "kind": "official",
+          "title": "Queenstown NZ (Destination Queenstown): Where to stay in Queenstown"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "Prices rise in winter, June to September, and in summer, December to February",
+          "booking three to six months ahead",
+          "best-value months"
+        ]
+      }
+    },
+    {
+      "id": "nz.queenstown.rendezvous-closure",
+      "topic": "hotel",
+      "claim": "Rendezvous Heritage Hotel Queenstown says its pool, spa pool, sauna and gym are closed from 23 November to 7 December 2026 for maintenance, and on-site parking costs NZ$15 a car a night.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://rendezvoushotels.co.nz/book-accommodation/queenstown/rendezvous-heritage-hotel-queenstown/",
+          "kind": "official",
+          "title": "Rendezvous Heritage Hotel Queenstown"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "closed from 23 November to 7 December 2026 for maintenance",
+          "parking costs NZ$15 a night"
+        ]
+      }
+    },
+    {
+      "id": "nz.queenstown.kamana-works",
+      "topic": "hotel",
+      "claim": "Kamana Lakehouse says neighbouring development work began in April 2024, with noise Monday to Saturday 8am to 6pm, and that Lakeview Luxe and Tahuna Lakeview room views may be affected at times; it offers complimentary parking.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.kamana.co.nz/",
+          "kind": "official",
+          "title": "Kamana Lakehouse"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "neighbouring development work began in April 2024",
+          "complimentary parking"
+        ]
+      }
+    },
+    {
+      "id": "nz.queenstown.arrowtown-gold-rush",
+      "topic": "history",
+      "claim": "Arrowtown is described by the regional tourism organisation as a historic town with a legacy of the 1860s Otago gold rush.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.queenstownnz.co.nz/stories/post/queenstown-accommodation-faqs/",
+          "kind": "official",
+          "title": "Queenstown NZ (Destination Queenstown): Where to stay in Queenstown"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-queenstown.html": [
+          "a legacy of the 1860s Otago gold rush"
+        ]
+      }
+    }
+  ]
+}
