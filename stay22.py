@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-cape-town": dict(area="V&A Waterfront", lat=-33.9036, lng=18.4207, zoom=15,
+                                          address="V&A Waterfront, Cape Town, South Africa"),
     "where-to-stay-in-queenstown": dict(area="Queenstown town centre", lat=-45.0312, lng=168.6626, zoom=15,
                                            address="Marine Parade, Queenstown, New Zealand"),
     "where-to-stay-in-chicago": dict(area="The Loop", lat=41.8819, lng=-87.6278, zoom=14,
@@ -1196,6 +1198,19 @@ HOTELS = {
     "Millbrook Resort": _B + "nz/millbrook-resort.html",
     "Arrowtown House Boutique Hotel": _B + "nz/arrowtown-house-boutique.html",
     "Arrowfield Apartments": _B + "nz/arrowfield-apartments.html",
+    # Cape Town (Booking.com pages confirmed by hotel name and city)
+    "Cape Grace, A Fairmont Managed Hotel": _B + "za/cape-grace.html",
+    "Victoria & Alfred Hotel": _B + "za/victoria-alfred.html",
+    "Mount Nelson, A Belmond Hotel": _B + "za/belmond-mount-nelson.html",
+    "The Grand Daddy Boutique Hotel": _B + "za/metropole.html",
+    "Ashanti Gardens Guesthouse": _B + "za/ashanti-gardens-guesthouse.html",
+    "Cape Town Lodge Hotel": _B + "za/cape-town-lodge.html",
+    "The Winchester Hotel": _B + "za/winchester-mansions.html",
+    "The Greenhouse Guesthouse": _B + "za/greenhouse-boutique-cape-town.html",
+    "The Twelve Apostles Hotel and Spa": _B + "za/twelve-apostles-spa.html",
+    "The Bay Hotel": _B + "za/the-bay.html",
+    "The Cellars-Hohenort": _B + "za/the-cellars-hohenort.html",
+    "The Alphen Boutique Hotel & Spa": _B + "za/alphen-boutique.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-cape-town": dict(
+        text="For a first trip, stay at the V&A Waterfront: the harbour, the shops and MyCiTi buses are at the door. Choose Cape Grace for the quay, the Victoria & Alfred Hotel for a 1904 warehouse, the Greenhouse Guesthouse for value. The tax is 15% VAT, plus a 1% levy at some hotels.",
+        link_text="V&A Waterfront",
+        cta=_stay_cta("where-to-stay-in-cape-town", "See hotels around the V&A Waterfront")),
     "where-to-stay-in-queenstown": dict(
         text="For a first trip, stay in the town centre: the lakefront and restaurants on foot. Choose Fernhill for views over Lake Wakatipu, Frankton for the airport and kitchens, Arrowtown for a quiet village. GST adds 15%, and no visitor levy is charged.",
         link_text="town centre",
@@ -1455,6 +1459,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-cape-town": ["Cape Grace, A Fairmont Managed Hotel", "Victoria & Alfred Hotel", "The Greenhouse Guesthouse"],
     "where-to-stay-in-queenstown": ["Eichardt's Private Hotel", "Rendezvous Heritage Hotel Queenstown", "Queenstown Park Boutique Hotel"],
     "where-to-stay-in-chicago": ["The Peninsula Chicago", "Palmer House, a Hilton Hotel", "HI Chicago"],
     "where-to-stay-in-boston": ["The Lenox Hotel", "Newbury Guest House", "Fairmont Copley Plaza"],
@@ -1589,6 +1594,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Cape Town", "where-to-stay-in-cape-town", None, None),
         ("Queenstown", "where-to-stay-in-queenstown", None, None),
         ("Chicago", "where-to-stay-in-chicago", None, None),
         ("Boston", "where-to-stay-in-boston", None, None),

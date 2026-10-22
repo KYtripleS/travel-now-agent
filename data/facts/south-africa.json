@@ -1,0 +1,425 @@
+{
+  "place": "South Africa",
+  "facts": [
+    {
+      "id": "za.vat.standard-rate",
+      "topic": "tax",
+      "claim": "South Africa's standard VAT rate is 15% on supplies of goods and services by registered vendors.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.sars.gov.za/types-of-tax/value-added-tax/",
+          "kind": "official",
+          "title": "South African Revenue Service: value-added tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "A Cape Town hotel bill adds 15% VAT to the room",
+          "15%, the standard rate"
+        ]
+      }
+    },
+    {
+      "id": "za.vat.commercial-accommodation",
+      "topic": "tax",
+      "claim": "SARS's VAT 411 guide treats hotel-type accommodation as 'commercial accommodation', a taxable supply (as opposed to exempt accommodation in a dwelling).",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.sars.gov.za/wp-content/uploads/Ops/Guides/VAT-411-Guide-for-Entertainment-Accommodation-and-Catering-External-Guide.pdf",
+          "kind": "official",
+          "title": "SARS: VAT 411 Guide for Entertainment, Accommodation and Catering"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "treats hotel accommodation as \"commercial accommodation\", a taxable supply"
+        ]
+      }
+    },
+    {
+      "id": "za.tomsa.levy",
+      "topic": "tax",
+      "claim": "TOMSA is a 1% tourism levy charged on the room rate at accommodation businesses that take part; it is voluntary for businesses, compulsory for guests where it is collected, is administered by the TBCSA and passed to South African Tourism, and TOMSA says it is not a tax.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://tomsa.co.za/levy-faq/",
+          "kind": "official",
+          "title": "TOMSA: Levy FAQ"
+        },
+        {
+          "url": "https://tomsa.co.za/wp-content/uploads/2020/11/TOMSA_Fact_Sheet.pdf",
+          "kind": "official",
+          "title": "TOMSA: Fact Sheet"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "1% of the room rate, collected only by hotels that take part",
+          "It is voluntary for hotels, but its own FAQ says it is compulsory for guests at every place that collects it.",
+          "TOMSA says it is not a tax."
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.worked-example",
+      "topic": "tax",
+      "claim": "Editors' arithmetic (not an official example): on a R3,000 room, 15% VAT is R450 and a 1% levy is R30, giving R3,480; TOMSA does not say whether its 1% is worked out before or after VAT, so before is assumed.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.sars.gov.za/types-of-tax/value-added-tax/",
+          "kind": "official",
+          "title": "South African Revenue Service: value-added tax"
+        },
+        {
+          "url": "https://tomsa.co.za/levy-faq/",
+          "kind": "official",
+          "title": "TOMSA: Levy FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "15% VAT is R450 and a 1% levy is R30, so the bill is R3,480",
+          "a R3,000 room comes to about R3,480"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.myciti-airport",
+      "topic": "transport",
+      "claim": "MyCiTi's A01 airport route was suspended by the City of Cape Town from 1 December 2022 (weak demand, higher diesel costs) and MyCiTi's airport page, read 22 Oct 2026, still carries a notice that the Airport service is temporarily suspended, though its descriptive text still describes the route.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.myciti.org.za/en/routes-stops/airport-services/",
+          "kind": "operator",
+          "title": "MyCiTi: Airport Services"
+        },
+        {
+          "url": "https://www.capetown.gov.za/Media-and-news/MyCiTi%20Airport%20Service%20suspended%20as%20from%201%20December",
+          "kind": "official",
+          "title": "City of Cape Town: MyCiTi Airport Service suspended as from 1 December"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "the MyCiTi A01 airport bus is not running",
+          "The City announced its suspension from 1 December 2022",
+          "still carries a notice that the service is temporarily suspended"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.cpt-ground-transport",
+      "topic": "transport",
+      "claim": "Airports Company South Africa lists authorised airport taxis (walk-in from the transport kiosks and domestic arrivals desk, 5am to midnight), Uber and Bolt as app-based operators, and the shuttle companies Citi Hopper and Centurion Tours, and advises arriving passengers to use only authorised airport taxis and not to accept rides from unsolicited drivers.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.airports.co.za/airports/cape-town-international-airport/transport/public-transport",
+          "kind": "official",
+          "title": "Airports Company South Africa: Public Transport, Cape Town International"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "authorised airport taxis, walk-in from the transport kiosks and the domestic arrivals desk from 5am to midnight",
+          "plus the Uber and Bolt apps and two shuttle companies, Citi Hopper and Centurion Tours",
+          "use only authorised airport taxis"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.myciti-fares-2026",
+      "topic": "fare",
+      "claim": "From 1 July 2026 MyCiTi's myconnect card costs R40; a Mover fare for 0-5 km is R19.50 peak (weekdays 06:45-08:00 and 16:15-17:30) and R15.00 saver; One Day Pass R130, Three Day Pass R290, Seven Day Pass R420.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.myciti.org.za/en/contact/media-releases/fare-adjustments-2026/",
+          "kind": "operator",
+          "title": "MyCiTi: Annual MyCiTi fare adjustments, 1 July 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "A myconnect card costs R40",
+          "R19.50 at peak times, weekdays 06:45 to 08:00 and 16:15 to 17:30, and R15.00 at other times",
+          "a One Day Pass at R130, a Three Day Pass at R290 and a Seven Day Pass at R420"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.myciti-routes",
+      "topic": "transport",
+      "claim": "MyCiTi's timetable list includes 104 Oranjezicht-Gardens-Adderley-Waterfront; 105 Sea Point-Fresnaye-Civic Centre; 106 and 107 Camps Bay-Civic Centre; 108 and 109 Hout Bay-Sea Point; and T01 Dunoon-Table View-Civic Centre-Waterfront; no airport route is listed.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.myciti.org.za/en/timetables/timetable-downloads/",
+          "kind": "operator",
+          "title": "MyCiTi: Timetable downloads"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "the 104, Oranjezicht to Gardens and Adderley to the Waterfront",
+          "the 105, Sea Point and Fresnaye to Civic Centre",
+          "the 106 and 107, Camps Bay to Civic Centre",
+          "the T01, Dunoon and Table View to Civic Centre and the Waterfront"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.fcdo-advice",
+      "topic": "place",
+      "claim": "The UK FCDO's South Africa safety and security page, read 22 Oct 2026, says there is a high crime rate, gives specific advice for the road to and from Cape Town airport, and lists the MyCiTi bus in Cape Town (central business district and Atlantic Seaboard) among generally safer and more reliable transport options.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/south-africa/safety-and-security",
+          "kind": "official",
+          "title": "UK FCDO: South Africa travel advice, safety and security"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "which we read on 22 October 2026, says there is a high crime rate",
+          "gives specific advice for the road to and from Cape Town airport",
+          "among the generally safer and more reliable ways to travel"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-capegrace",
+      "topic": "hotel",
+      "claim": "Cape Grace's site gives West Quay Road, V&A Waterfront; a private quay; rooms onto the harbour, marina or Table Mountain; Harbour View and Mountain View deluxe categories; a pool, Fairmont Spa and Heirloom restaurant.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.capegrace.com/",
+          "kind": "operator",
+          "title": "Cape Grace, A Fairmont Managed Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "On West Quay Road, on a private quay in the Waterfront",
+          "the view is part of the room category, Harbour View or Mountain View"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-va",
+      "topic": "hotel",
+      "claim": "Victoria & Alfred Hotel's site: a 1904 North Quay Warehouse at PierHead, V&A Waterfront; 24-hour room service; complimentary beverage on arrival; pool, spa and gym available at The Dock House.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://newmarkhotels.com/accommodation/the-victoria-alfred-hotel",
+          "kind": "operator",
+          "title": "Victoria & Alfred Hotel (Newmark)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "In a 1904 warehouse on the North Quay, at PierHead",
+          "the pool, spa and gym are at The Dock House"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-mountnelson",
+      "topic": "hotel",
+      "claim": "Mount Nelson's site: 76 Orange Street, Gardens; open since 1899; 196 rooms and suites; nine acres of gardens; seven restaurants; rooms 32-63 m2, Signature Suites 88-180 m2.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town",
+          "kind": "operator",
+          "title": "Mount Nelson, A Belmond Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "76 Orange Street in Gardens, open since 1899, with 196 rooms and suites, nine acres of gardens, seven restaurants",
+          "rooms measure 32 to 63 m², and the Signature Suites 88 to 180 m²"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-granddaddy",
+      "topic": "hotel",
+      "claim": "The Grand Daddy's site: 38 Long Street; boutique rooms and suites; Rooftop Airstreams, described as the only collection of authentic, fully converted Airstreams on a rooftop.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://granddaddy.co.za/",
+          "kind": "operator",
+          "title": "The Grand Daddy Boutique Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "At 38 Long Street, with individually styled rooms and suites",
+          "the only authentic Airstreams on a rooftop"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-ashanti",
+      "topic": "hotel",
+      "claim": "Ashanti Gardens Guesthouse's site: 7 Union Street, Gardens; two restored Victorian buildings; en-suite double, twin and triple rooms and a family room; a communal kitchen in each house; reception 8am-4pm with a team member on site 24 hours; Ashanti Lodge Backpackers has closed.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.ashanticapetown.com/",
+          "kind": "operator",
+          "title": "Ashanti Gardens Guesthouse"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "At 7 Union Street, Gardens, in two restored Victorian houses",
+          "reception is open from 8am to 4pm, although a team member is on site 24 hours"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-ctl",
+      "topic": "hotel",
+      "claim": "Cape Town Lodge's site: 4-star, 101 Buitengracht Street; 124 rooms on higher floors with views of Table Mountain, Lion's Head, Signal Hill, the harbour and the Bo-Kaap; rooftop pool; complimentary fitness centre; Superior Rooms have a shower only.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.capetownlodge.co.za/",
+          "kind": "operator",
+          "title": "Cape Town Lodge Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "A four-star at 101 Buitengracht Street, with 124 rooms on the higher floors",
+          "the Superior Rooms have a shower only, no bath"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-winchester",
+      "topic": "hotel",
+      "claim": "The Winchester Hotel's site: 4-star, 221 Beach Rd, a 1920s Cape Dutch-style building on the edge of the Sea Point Promenade; courtyard, pool, Shoreditch restaurant, Harvey's Bar; limited off-street parking.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://newmarkhotels.com/accommodation/the-winchester-hotel",
+          "kind": "operator",
+          "title": "The Winchester Hotel (Newmark)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "A four-star at 221 Beach Road, in a 1920s Cape Dutch-style building",
+          "off-street parking is limited"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-greenhouse",
+      "topic": "hotel",
+      "claim": "The Greenhouse Guesthouse's site: Victorian guest house, 69 Somerset Road, Green Point; 7 bedrooms with en-suite showers; V&A Waterfront, Zeitz Museum, Bo-Kaap and Robben Island ferries within 5-10 minutes' walk; Cape Town Stadium 1 km; MyCiTi stop on the doorstep.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.thegreenhousect.com/",
+          "kind": "operator",
+          "title": "The Greenhouse Guesthouse"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "A Victorian guest house at 69 Somerset Road, Green Point, with seven bedrooms",
+          "Cape Town Stadium is 1 km away, and a MyCiTi stop is on the doorstep"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-12apostles",
+      "topic": "hotel",
+      "claim": "The Twelve Apostles Hotel and Spa's site: Victoria Road, Camps Bay; 70 rooms and suites; ocean or mountain vistas from almost every room; a spa; Camps Bay 8-minute drive and V&A Waterfront 15-minute drive.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://12apostleshotel.com/",
+          "kind": "operator",
+          "title": "The Twelve Apostles Hotel and Spa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "with 70 rooms and suites, most with ocean or mountain views, and a spa",
+          "the hotel puts the Camps Bay beachfront at an 8-minute drive and the Waterfront at 15"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-bay",
+      "topic": "hotel",
+      "claim": "The Bay Hotel's site: 69 Victoria Road, Camps Bay beachfront; four pools, a gym, indoor and outdoor padel courts, a spa, the Tides restaurant; Mountain View rooms face Table Mountain and the Twelve Apostles range.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://thebayhotel.com/",
+          "kind": "operator",
+          "title": "The Bay Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "At 69 Victoria Road, on the Camps Bay beachfront, with four pools",
+          "the Mountain View rooms face Table Mountain and the Twelve Apostles"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-cellars",
+      "topic": "hotel",
+      "claim": "The Cellars-Hohenort's page on Collection McGrath: five-star, nine acres of gardens in the Constantia Valley, 15 minutes' drive from the city centre, 51 guest rooms and suites with views of Table Mountain.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.collectionmcgrath.com/our-portfolio/the-cellars-hohenort/",
+          "kind": "operator",
+          "title": "The Cellars-Hohenort (Collection McGrath)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "With 51 rooms and suites in nine acres of gardens",
+          "the city centre 15 minutes away by car, by the hotel's count"
+        ]
+      }
+    },
+    {
+      "id": "za.cape-town.hotel-alphen",
+      "topic": "hotel",
+      "claim": "The Alphen's site: Alphen Drive, Constantia; Provincial Heritage site; 18 designer suites in the Mill Range and Dower House; heated pool, spa and three restaurants; edge of the Constantia Greenbelt.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.alphen.co.za/",
+          "kind": "operator",
+          "title": "The Alphen Boutique Hotel & Spa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cape-town.html": [
+          "a Provincial Heritage site with 18 designer suites in the Mill Range and the Dower House",
+          "with 18 suites there are few rooms to choose from"
+        ]
+      }
+    }
+  ]
+}
