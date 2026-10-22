@@ -40,7 +40,8 @@ def insert_before_close(path, start, text, marker):
 
 
 st = R["stay22"]
-insert_after("stay22.py", 'address="Times Square, New York, NY, USA"),\n',
+insert_after("stay22.py", '"where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,\n'
+             '                                      address="Times Square, New York, NY, USA"),\n',
              f'    {q(slug)}: dict(area={q(st["area"])}, lat={st["lat"]}, lng={st["lng"]}, zoom={st.get("zoom", 15)},\n'
              f'{" " * (len(slug) + 16)}address={q(st["address"])}),\n', f'{q(slug)}: dict(area=')
 # keyed by slug, not city: a second guide for the same city (an event guide) has hotels of its own;

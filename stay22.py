@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-rovaniemi-christmas": dict(area="Rovaniemi city centre", lat=66.5039, lng=25.7294, zoom=14,
+                                                    address="Rovaniemi city centre, Rovaniemi, Finland"),
     "where-to-stay-in-new-york-new-years-eve": dict(area="Times Square", lat=40.758, lng=-73.9855, zoom=15,
                                                        address="Times Square, New York, NY, USA"),
     "where-to-stay-in-cape-town": dict(area="V&A Waterfront", lat=-33.9036, lng=18.4207, zoom=15,
@@ -1222,6 +1224,19 @@ HOTELS = {
     "Moxy NYC Times Square": _B + "us/moxy-nyc-times-square.html",
     "YOTEL New York Times Square": _B + "us/yotel-new-york-times-square.html",
     "Wythe Hotel": _B + "us/wythe.html",
+    # Rovaniemi, where-to-stay-in-rovaniemi-christmas (Booking.com pages confirmed by hotel name and city)
+    "Scandic Rovaniemi City": _B + "fi/scandic-rovaniemi.html",
+    "Original Sokos Hotel Vaakuna": _B + "fi/sokos-vaakuna-rovaniemi.html",
+    "Arctic Light Hotel": _B + "fi/arctic-light-rovaniemi.html",
+    "Santa's Hotel Santa Claus": _B + "fi/santas-hotel-santa-claus.html",
+    "Santa's Hotel Rudolf": _B + "fi/hostel-rudolf.html",
+    "Santa Claus Holiday Village": _B + "fi/santa-claus-holiday-village.html",
+    "Santa's Igloos Arctic Circle": _B + "fi/santas-igloos-arctic-circle.html",
+    "Arctic TreeHouse Hotel": _B + "fi/arctic-treehouse.html",
+    "Apukka Resort": _B + "fi/apukka-resort.html",
+    "Arctic SnowHotel & Glass Igloos": _B + "fi/arctic-glass-igloos.html",
+    "Lapland Hotels Sky Ounasvaara": _B + "fi/lapland-sky-ounasvaara.html",
+    "Lapland Hotels Ounasvaara Chalets": _B + "fi/lapland-hotel-ounasvaara-chalets.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -1,0 +1,460 @@
+{
+  "place": "Finland",
+  "facts": [
+    {
+      "id": "fi.vat.accommodation-rate",
+      "topic": "tax",
+      "claim": "Finland's reduced VAT rate, which covers accommodation (hotels, motels, hostels, farm stays, camping sites and cottage rental), restaurant services and passenger transport (taxis, buses, trains, domestic flights), is 13.5% from 1 January 2026; it was 14% up to 31 December 2025.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/rates-of-vat/",
+          "kind": "official",
+          "title": "Finnish Tax Administration: Rates of VAT"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "which was 14% until 31 December 2025 and is 13.5% from 2026",
+          "Finland's VAT on accommodation is 13.5% in 2026, down from 14% in 2025",
+          "the VAT inside that total is 1,000 × 13.5 ÷ 113.5, or about €119"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.airport-buses",
+      "topic": "transport",
+      "claim": "Finavia lists the Airport Express and Santa's Express from Rovaniemi Airport to Santa Claus Village and Rovaniemi Railway Station; tickets are sold on the bus and timetables are on Airportbus.fi.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.finavia.fi/en/airports/rovaniemi/parking-access/public-transport",
+          "kind": "official",
+          "title": "Finavia: Public Transport in Rovaniemi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "running from the airport to Santa Claus Village and Rovaniemi Railway Station, with tickets sold on the bus"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.airport-express-fares",
+      "topic": "fare",
+      "claim": "The operator Airport Express sells an adult one-way Airport Express ticket at EUR 8 and a child (4-12) one-way ticket at EUR 4; its Airport Express meets arriving flights and operates 9:00-21:00; the buses do not accept cash (buy online or pay by card on board).",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.airportbus.fi/",
+          "kind": "operator",
+          "title": "Airport Express (Santa's Express): tickets"
+        },
+        {
+          "url": "https://www.airportbus.fi/pages/timetables",
+          "kind": "operator",
+          "title": "Airport Express: timetables"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "an adult one-way Airport Express ticket at €8 and a child's (4 to 12) at €4",
+          "says the service meets arriving flights between 9am and 9pm",
+          "takes no cash on board: buy online or pay by card"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.village-distances",
+      "topic": "place",
+      "claim": "Santa Claus Village is 8 km north of Rovaniemi city centre and Rovaniemi Airport is 3 km from the village.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://santaclausvillage.info/getting-here-and-moving-around/",
+          "kind": "official",
+          "title": "Santa Claus Village: Getting here and moving around"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "Rovaniemi Airport is 3 km from Santa Claus Village, which is 8 km north of the city centre"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.bus-8",
+      "topic": "transport",
+      "claim": "Local bus 8 links Rovaniemi railway station, the centre and the Arctic Circle (Santa Claus Village) and runs around the year; the city sells tickets in the Waltti app and accepts contactless payment on the bus.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://international.rovaniemi.fi/Arctic-Hometown/Living/Transportation-and-Parking",
+          "kind": "official",
+          "title": "City of Rovaniemi: Transportation and Parking"
+        },
+        {
+          "url": "https://santaclausvillage.info/getting-here-and-moving-around/",
+          "kind": "official",
+          "title": "Santa Claus Village: Getting here and moving around"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "bus 8 links Rovaniemi railway station, the centre and the Arctic Circle",
+          "Santa Claus Village says it runs around the year",
+          "Tickets are sold in the Waltti app and by contactless card on board"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.local-bus-stop",
+      "topic": "transport",
+      "claim": "The main bus stop for Rovaniemi's local buses (Linkkari) is on Ruokasenkatu.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.visitrovaniemi.fi/public-transportation/",
+          "kind": "official",
+          "title": "Visit Rovaniemi: Public transportation in Rovaniemi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "the main stop for the city's local buses is on Ruokasenkatu"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.santa-claus-express",
+      "topic": "transport",
+      "claim": "VR runs the double-decker Santa Claus Express night train from Helsinki or Turku to Rovaniemi (also Kolari and Kemijarvi), with seats or sleeper cabins, wifi and power sockets in cabins; VR's page lists no times or fares.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.vr.fi/en/santa-claus-express",
+          "kind": "operator",
+          "title": "VR: Santa Claus Express"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "VR runs the double-decker Santa Claus Express from Helsinki or Turku to Rovaniemi, with a seat or a sleeper cabin and wifi on board"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.village-hours-dec2026",
+      "topic": "place",
+      "claim": "Santa Claus Village December 2026-January 2027: Santa Claus Office daily 8:00-20:00 (30 Nov 2026-3 Jan 2027); Santa Claus' Main Post Office daily 9:00-20:00 (1 Dec 2026-6 Jan 2027); Christmas House Shop daily 7:00-22:00; Iittala closed 24-25 Dec; Marimekko and Pentik 10:00-16:00 on 24 Dec and 12:00-19:00 on 25 Dec.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://santaclausvillage.info/info-and-tips/opening-hours-and-dates/",
+          "kind": "official",
+          "title": "Santa Claus Village: Opening hours and dates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "The Santa Claus Office is open daily, 8am to 8pm",
+          "the Santa Claus Office runs 8am to 8pm, the Main Post Office 9am to 8pm and the Christmas House Shop 7am to 10pm",
+          "the Iittala store is closed on both days",
+          "Marimekko and Pentik close at 4pm on 24 December and open at noon on 25 December"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.december-daylight",
+      "topic": "place",
+      "claim": "Visit Rovaniemi gives December as -20 to -10 degrees C with an average day length of about 2.5 hours, and says the sun does not rise at all on the shortest day (21 or 22 December); the Finnish Meteorological Institute defines the polar night north of the Arctic Circle as the period when the sun does not rise above the horizon.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.visitrovaniemi.fi/seasons/rovaniemi-lapland-winter/",
+          "kind": "official",
+          "title": "Visit Rovaniemi: Winter in Rovaniemi"
+        },
+        {
+          "url": "https://en.ilmatieteenlaitos.fi/seasons-in-finland",
+          "kind": "official",
+          "title": "Finnish Meteorological Institute: Seasons in Finland"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "December's average at −20°C to −10°C with about 2.5 hours of daylight",
+          "the sun does not rise at all on the shortest day, 21 or 22 December",
+          "describes the polar night, north of the Arctic Circle, as the period when the sun does not rise above the horizon at all"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.northern-lights-season",
+      "topic": "place",
+      "claim": "Visit Rovaniemi says the northern lights season runs from late August to the beginning of April and that the lights can be seen on around 150 nights a year in Finnish Lapland when weather and viewing conditions are favourable; it states that no tour provider can guarantee a sighting.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.visitrovaniemi.fi/seasons/northern-lights-season/",
+          "kind": "official",
+          "title": "Visit Rovaniemi: Northern lights season"
+        },
+        {
+          "url": "https://www.visitrovaniemi.fi/northern-lights-in-rovaniemi-lapland/",
+          "kind": "official",
+          "title": "Visit Rovaniemi: Northern lights in Rovaniemi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "the season runs from late August into early April",
+          "around 150 nights a year in Finnish Lapland when weather and viewing conditions are favourable",
+          "no hotel here can guarantee a sighting"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.vaakuna-booking-terms",
+      "topic": "hotel",
+      "claim": "Original Sokos Hotel Vaakuna applies special terms to leisure reservations for 16.11.2026-31.3.2027: payment in full in advance at booking and no refund on changes or cancellations; the hotel also warns that Nightclub Doris causes noise in the rooms on some dates.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.sokoshotels.fi/en/hotels/rovaniemi/original-sokos-hotel-vaakuna/special-booking-terms",
+          "kind": "operator",
+          "title": "Original Sokos Hotel Vaakuna: Special booking terms"
+        },
+        {
+          "url": "https://www.sokoshotels.fi/en/hotels/rovaniemi/original-sokos-hotel-vaakuna",
+          "kind": "operator",
+          "title": "Original Sokos Hotel Vaakuna, Rovaniemi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "must be paid in full and are not refunded on change or cancellation",
+          "from 16 November 2026 to 31 March 2027 leisure bookings are paid in full and not refunded",
+          "Nightclub Doris causes noise in the rooms on some dates"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.treehouse-christmas-package",
+      "topic": "hotel",
+      "claim": "Arctic TreeHouse Hotel's Christmas stay package is available for stays on 23-26 or 24-27 December 2026, requires a minimum stay of 3 nights, includes a visit by Santa and his reindeer at the Christmas Eve dinner on 24.12.2026, is limited and subject to availability, and is priced at the Best Available Rate; the hotel is 8 km from the town centre with the bus 8 stop in front.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://arctictreehousehotel.com/packages-and-promotions/christmas-stay-arctic-treehouse-hotel/",
+          "kind": "operator",
+          "title": "Arctic TreeHouse Hotel: Christmas stay"
+        },
+        {
+          "url": "https://arctictreehousehotel.com/contact/",
+          "kind": "operator",
+          "title": "Arctic TreeHouse Hotel: Contact and getting here"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "Arctic TreeHouse Hotel's Christmas stay, 3 nights, with a visit from Santa and his reindeer at the Christmas Eve dinner",
+          "the Christmas package is limited, needs three nights and is priced at the Best Available Rate",
+          "The bus 8 stop is in front"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.apukka-christmas-packages",
+      "topic": "hotel",
+      "claim": "Apukka Resort's Christmas Magic under Aurora package runs 15-31.12.2026, needs 4+ nights and includes Rovaniemi Airport/Train Station transfers; its Best of Christmas package runs 20-26.12.2026 and needs 3+ nights.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://apukkaresort.fi/holiday-packages/christmas-and-new-year-holiday-packages/christmas-magic-under-aurora/",
+          "kind": "operator",
+          "title": "Apukka Resort: Christmas Magic under Aurora"
+        },
+        {
+          "url": "https://apukkaresort.fi/holiday-packages/christmas-and-new-year-holiday-packages/best-of-christmas/",
+          "kind": "operator",
+          "title": "Apukka Resort: Best of Christmas"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "Apukka's Christmas Magic under Aurora package, 4 nights or more",
+          "Apukka's Best of Christmas package, 3 nights or more",
+          "Christmas Magic under Aurora includes airport and station transfers"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.apukka-location-cabins",
+      "topic": "hotel",
+      "claim": "Apukka Resort is at Tutkijantie 28, 18 km from Rovaniemi city centre and 10 km from the airport or Santa Claus Village, open 1.8.2026-4.4.2027; its shuttle bus runs daily September-April between the resort, Santa Claus Village and the city; Aurora Cabins are 24 m2 glass igloos for up to four guests with a heated panoramic glass roof, private bathroom and full curtains.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://apukkaresort.fi/about/rovaniemi-travel-info/",
+          "kind": "operator",
+          "title": "Apukka Resort: How to get here"
+        },
+        {
+          "url": "https://apukkaresort.fi/accommodation/aurora-cabin-glass-igloo/",
+          "kind": "operator",
+          "title": "Apukka Resort: Aurora Cabin glass igloos"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "18 km from the city centre and 10 km from the airport, open from 1 August 2026 to 4 April 2027",
+          "Apukka runs a shuttle bus daily from September to April between the resort, Santa Claus Village and the city",
+          "Its Aurora Cabins are 24 m² glass igloos for up to four guests, with a heated panoramic glass roof, a private bathroom and full curtains"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.arctic-snowhotel",
+      "topic": "hotel",
+      "claim": "Arctic SnowHotel & Glass Igloos (Lehtoahontie 27) opens its SnowHotel on 15 December 2026 while the glass igloos are open now; it is a 30-minute drive (26 km) from the city centre, offers a transfer from the centre and airport of about 35-40 minutes, and has 39 glass igloos with underfloor heating, an electrically defrosted glass roof and an aurora alarm; the twin igloo is 20 m2 with two single beds (no double beds); the price includes buffet breakfast, the public sauna and SnowHotel entry (15 Dec-31 Mar).",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://arcticsnowhotel.fi/en/stay/glass-igloos/",
+          "kind": "operator",
+          "title": "Arctic SnowHotel & Glass Igloos: Glass igloos"
+        },
+        {
+          "url": "https://arcticsnowhotel.fi/en/visit/getting-here/",
+          "kind": "operator",
+          "title": "Arctic SnowHotel & Glass Igloos: Getting here"
+        },
+        {
+          "url": "https://arcticsnowhotel.fi/en/",
+          "kind": "operator",
+          "title": "Arctic SnowHotel & Glass Igloos"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "a 30-minute drive (26 km) from the city centre, with 39 glass igloos",
+          "the twin glass igloo is 20 m² with two single beds, as double beds are not possible",
+          "a transfer from the city centre and the airport, about 35 to 40 minutes",
+          "the SnowHotel itself opens only on 15 December 2026"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.santas-igloos",
+      "topic": "hotel",
+      "claim": "Santa's Igloos Arctic Circle (Joulumaankuja 8) is a glass igloo hotel in Santa Claus Village, a few minutes' walk from the village's attractions; the igloos face north and have a northern lights alarm, some have a private sauna or outdoor hot tub; Santa's Hotels warns of construction work near the igloos as part of the development of the Santa Claus Village area.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://santashotels.fi/en/hotel/igloos-arctic-circle-rovaniemi/",
+          "kind": "operator",
+          "title": "Santa's Hotels: Igloos Arctic Circle"
+        },
+        {
+          "url": "https://santashotels.fi/en/rovaniemi-construction-works-near-the-igloos/",
+          "kind": "operator",
+          "title": "Santa's Hotels: Construction works near the igloos"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "The igloos face north, every igloo has a northern lights alarm",
+          "the hotel warns of construction work near the igloos that you may occasionally see or hear"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.holiday-village",
+      "topic": "hotel",
+      "claim": "Santa Claus Holiday Village offers cottages, suites and glass igloo cottages with a private sauna; the Glass Igloo Cottage is 46 m2 for up to 4 guests and classic cottages are 35 m2; breakfast is included; the hotel's FAQ says family accommodation and glass igloo cottages are often booked well in advance, especially around Christmas, and that most guests stay 3-5 nights.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.santaclausholidayvillage.fi/accommodation/cottages-and-suites",
+          "kind": "operator",
+          "title": "Santa Claus Holiday Village: Cottages and suites"
+        },
+        {
+          "url": "https://www.santaclausholidayvillage.fi/company/faq",
+          "kind": "operator",
+          "title": "Santa Claus Holiday Village: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "The Glass Igloo Cottage is 46 m² for up to four guests",
+          "often booked well in advance, especially around Christmas",
+          "most guests stay three to five nights"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.ounasvaara-hotels",
+      "topic": "hotel",
+      "claim": "Lapland Hotels Sky Ounasvaara is 4 km from Rovaniemi city centre, 12 km from the airport and 11 km from Santa Claus Village, with the nearest slope 20 m away, and is renovating its main entrance (may be occasionally closed); Lapland Hotels Ounasvaara Chalets is 3 km from the centre, 300 m from the ski resort, with a private sauna and kitchen in every accommodation, and its WNTR Sauna's December hours were not yet announced.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.laplandhotels.com/en/hotels-and-destinations/rovaniemi/lapland-hotels-sky-ounasvaara",
+          "kind": "operator",
+          "title": "Lapland Hotels Sky Ounasvaara"
+        },
+        {
+          "url": "https://www.laplandhotels.com/en/hotels-and-destinations/rovaniemi/lapland-hotels-ounasvaara-chalets",
+          "kind": "operator",
+          "title": "Lapland Hotels Ounasvaara Chalets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "4 km from the centre, 12 km from the airport and 11 km from Santa Claus Village",
+          "3 km from the centre; every one has a private sauna and a kitchen, and the slopes are 300 m away",
+          "the WNTR Sauna's December hours had not been announced when we checked"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.centre-hotels",
+      "topic": "hotel",
+      "claim": "Scandic Rovaniemi City (Koskikatu 23): airport shuttle bus stops in front, standard rooms 17-20 m2, Standard Family Four 23 m2, sauna 17:30-21:30. Original Sokos Hotel Vaakuna (Koskikatu 4): 159 rooms. Arctic Light Hotel (Valtakatu 18): four-star boutique; Aurora Loft Mini 18 m2; Christmas Cabin 53 m2 for two. Santa's Hotel Rudolf (Koskikatu 41-43): reception, breakfast and restaurant are at Santa's Hotel Santa Claus, 600 m away.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.scandichotels.com/en/hotels/scandic-rovaniemi-city",
+          "kind": "operator",
+          "title": "Scandic Rovaniemi City"
+        },
+        {
+          "url": "https://www.sokoshotels.fi/en/hotels/rovaniemi/original-sokos-hotel-vaakuna",
+          "kind": "operator",
+          "title": "Original Sokos Hotel Vaakuna"
+        },
+        {
+          "url": "https://www.arcticlighthotel.fi/en",
+          "kind": "operator",
+          "title": "Arctic Light Hotel"
+        },
+        {
+          "url": "https://santashotels.fi/en/hotel/rudolf-rovaniemi/",
+          "kind": "operator",
+          "title": "Santa's Hotels: Rudolf"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rovaniemi-christmas.html": [
+          "with the airport shuttle bus stopping in front, a gender-separated sauna from 5.30pm to 9.30pm",
+          "standard rooms are compact, at 17 to 20 m²; the Standard Family Four room, at 23 m², sleeps four",
+          "At Koskikatu 4, with 159 rooms",
+          "the entry-level Aurora Loft Mini is only 18 m²",
+          "reception, breakfast and restaurant services are 600 m away at Santa's Hotel Santa Claus"
+        ]
+      }
+    }
+  ]
+}

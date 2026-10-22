@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-rovaniemi-christmas": dict(
+        text="For a first Christmas trip, stay in Rovaniemi city centre: the airport shuttle stops there and bus 8 reaches Santa Claus Village, 8 km north. Choose Arctic Light Hotel for character, Santa's Hotel Rudolf for a budget bed, Santa's Igloos for a glass roof. VAT on accommodation is 13.5%.",
+        link_text="Rovaniemi city centre",
+        cta=_stay_cta("where-to-stay-in-rovaniemi-christmas", "See hotels around Rovaniemi city centre")),
     "where-to-stay-in-new-york-new-years-eve": dict(
         text="To watch the Ball from a warm room, stay inside the Times Square closures: the Marriott Marquis sells a Ball Drop View Room, with a three-to-four-night minimum. Otherwise stay just outside them and walk in. The tax is 14.75% plus $3.50 a night, so $347.75 on a $300 room.",
         link_text="Times Square",
@@ -1463,6 +1467,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-rovaniemi-christmas": ["Arctic Light Hotel", "Santa's Hotel Rudolf", "Santa's Igloos Arctic Circle"],
     "where-to-stay-in-new-york-new-years-eve": ["New York Marriott Marquis", "The Knickerbocker", "Pod Times Square"],
     "where-to-stay-in-cape-town": ["Cape Grace, A Fairmont Managed Hotel", "Victoria & Alfred Hotel", "The Greenhouse Guesthouse"],
     "where-to-stay-in-queenstown": ["Eichardt's Private Hotel", "Rendezvous Heritage Hotel Queenstown", "Queenstown Park Boutique Hotel"],
@@ -1599,6 +1604,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("Rovaniemi", "where-to-stay-in-rovaniemi-christmas", None, None),
         ("New York", "where-to-stay-in-new-york-new-years-eve", None, None),
         ("Cape Town", "where-to-stay-in-cape-town", None, None),
         ("Queenstown", "where-to-stay-in-queenstown", None, None),
