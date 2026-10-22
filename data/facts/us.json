@@ -38,6 +38,12 @@
           "14.75% plus $3.50 a room a night, so a $300 room costs $347.75 a night",
           "8.875% of the room rate",
           "5.875% of the room rate"
+        ],
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "Together that is 14.75% of the room rate plus $3.50 a room a night",
+          "8.875% of the room rate",
+          "5.875% of the room rate",
+          "a $300 room costs $347.75 a night"
         ]
       },
       "watch": "New York[^.]{0,80}(hotel|occupancy) tax[^.]{0,80}\\d+(\\.\\d+)?%",
@@ -62,6 +68,9 @@
       "used_in": {
         "articles/where-to-stay-in-new-york.html": [
           "a subway or local bus ride is $3"
+        ],
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "$3 a ride on the subway and local buses in 2026, paid by tapping a contactless card or phone"
         ]
       },
       "watch": "(subway|local bus) (ride|fare)[^.]{0,30}\\$\\d",
@@ -5610,6 +5619,454 @@
         "articles/where-to-stay-in-chicago.html": [
           "with 165 rooms, Cal's at Claridge and Sushi by Bou Gold Coast",
           "the hotel charges a destination fee, and the pages we read did not state the amount"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.nye.alliance-edition",
+      "topic": "place",
+      "claim": "In October 2026 the Times Square Alliance's New Year's Eve FAQ and live schedule still describe the 31 December 2025 edition (6:00pm to 12:15am); the 2026 timetable and performers had not been published.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.timessquarenyc.org/nye/nye-faq",
+          "kind": "official",
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+        },
+        {
+          "url": "https://www.timessquarenyc.org/nye/nye-live",
+          "kind": "official",
+          "title": "Times Square Alliance: New Year's Eve live schedule (31 December 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "The Alliance has not yet published the 2026 timetable or performers",
+          "In October 2026 its FAQ and its live schedule still describe the 31 December 2025 edition, which ran from 6pm to 12:15am"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Recheck for the 2026 timetable; update the 'last year' wording in the article when it appears."
+    },
+    {
+      "id": "us.nyc.nye.ball-descent",
+      "topic": "place",
+      "claim": "On the Alliance's published arrangements the Times Square celebration begins shortly before 6pm, the New Year's Eve Ball is raised at about 6pm, and at exactly 11:59pm it makes its 60-second descent (90 feet, per the live schedule) from the flagpole atop One Times Square.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.timessquarenyc.org/nye/nye-faq",
+          "kind": "official",
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+        },
+        {
+          "url": "https://www.timessquarenyc.org/nye/nye-live",
+          "kind": "official",
+          "title": "Times Square Alliance: New Year's Eve live schedule (31 December 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "the Ball starts its 60-second descent at 11:59pm",
+          "at about 6pm the Ball is raised to the top of One Times Square",
+          "The Mayor presses the button, and the Ball descends 90 feet in 60 seconds"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "us.nyc.nye.viewing-areas",
+      "topic": "place",
+      "claim": "Per the Alliance, the viewing areas open at 3pm on a first-come, first-served basis through access points at 45th, 49th, 52nd and 56th Streets from 6th and 8th Avenues; the event is free, no tickets are needed, and no public viewing spaces are for sale; the Ball is best seen along Broadway from 43rd to 50th Street and Seventh Avenue as far north as 59th Street.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.timessquarenyc.org/nye/nye-faq",
+          "kind": "official",
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "the viewing areas open at 3pm, first come, first served",
+          "access points on 45th, 49th, 52nd and 56th Streets from Sixth and Eighth Avenues",
+          "no tickets are needed and there are no public viewing spaces for sale",
+          "best seen along Broadway from 43rd to 50th Street and along Seventh Avenue as far north as 59th Street"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "us.nyc.nye.rules",
+      "topic": "place",
+      "claim": "Per the Alliance, all bags are searched; backpacks, large bags, umbrellas, lawn or folding chairs, picnic blankets, large coolers, alcohol and drones are not permitted; public drinking is illegal in New York City; there are no portable restrooms and no licensed food and beverage vendors; a person who leaves a viewing area to dine cannot return to the spot; and multiple-venue passes were refused at police checkpoints in past years.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.timessquarenyc.org/nye/nye-faq",
+          "kind": "official",
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "All bags are searched",
+          "backpacks, large bags, umbrellas, folding chairs, picnic blankets, large coolers, alcohol and drones are not permitted",
+          "There are no portable toilets and no licensed food or drink vendors",
+          "If you leave your viewing area, you will not be able to return to your spot",
+          "passes promising access to several venues were refused at police checkpoints in past years"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "us.nyc.nye.closures",
+      "topic": "place",
+      "claim": "Per the Alliance's FAQ for the 2025 edition: at 4am Seventh Avenue closes to vehicles from 42nd to 48th Street (side streets 43rd to 48th between 6th and 8th Avenues); at about 11am Seventh Avenue and Broadway close to traffic from 38th to 59th Street; at about 4pm Sixth and Eighth Avenues close to pedestrians and vehicles, with pedestrian crossings at 41st, 44th, 47th, 50th, 54th and 57th Streets; the NYPD begins closing Times Square at 43rd Street and Broadway, moving north as revellers arrive; no one may cross Broadway/Seventh Avenue once closed.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.timessquarenyc.org/nye/nye-faq",
+          "kind": "official",
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "Seventh Avenue closes to vehicles from 42nd to 48th Street",
+          "Seventh Avenue and Broadway close to traffic from 38th to 59th Street",
+          "Sixth and Eighth Avenues close to pedestrians and vehicles, with pedestrian crossings at 41st, 44th, 47th, 50th, 54th and 57th Streets",
+          "no one may cross Broadway and Seventh Avenue",
+          "police close the streets northward from 43rd Street as revellers arrive"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "us.nyc.nye.entry-from-6th-8th",
+      "topic": "place",
+      "claim": "Per the Alliance, access to Times Square on the evening of 31 December is from 6th Avenue or 8th Avenue only (east of Broadway/7th Avenue enter at 6th, west enter at 8th), and anyone going to a business in the area should contact it for instructions on reaching the entrance.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.timessquarenyc.org/nye/nye-faq",
+          "kind": "official",
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "you enter from Sixth Avenue if you are east of them and from Eighth Avenue if you are west",
+          "the Alliance says to contact the business for instructions on reaching its entrance"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "us.nyc.nye.ball-view-businesses",
+      "topic": "place",
+      "claim": "The Alliance lists the Renaissance New York, Marriott Marquis, The Knickerbocker, the Hyatt Centric (Bar 54) and Tempo by Hilton at TSX Broadway among the businesses with a view of the Ball from portions of their building.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.timessquarenyc.org/nye/nye-faq",
+          "kind": "official",
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "the Renaissance New York, the Marriott Marquis and The Knickerbocker are on it",
+          "along with the Hyatt Centric and Tempo by Hilton at TSX Broadway"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "us.mta.nye-2025-service",
+      "topic": "transport",
+      "claim": "The MTA's notice for 31 December 2025 into 1 January 2026: weekday subway schedule with increased service on the C, D, G, L, N, Q, R and 1 to 7 lines and the 42 St Shuttle (which ran all night), A trains express until about 2:30am, uptown 1 trains skipping 50 St and N, Q, R, W trains skipping 57 St-7 Av and 49 St from 11:45am to 12:15am, Times Sq-42 St street exits closed, and the passageway to 42 St-Bryant Park one-way from 2pm; Sunday schedule on 1 January. The 2026 notice had not been posted on 22 October 2026.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.mta.info/article/mta-service-new-years-2026",
+          "kind": "official",
+          "title": "MTA: service for New Year's 2026 (updated 31 December 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "extra service on the C, D, G, L, N, Q, R and 1 to 7 lines and the 42 St Shuttle",
+          "the A ran express until about 2:30am, and the 42 St Shuttle ran all night",
+          "Uptown 1 trains skipped 50 St, and N, Q, R and W trains skipped 57 St–7 Av and 49 St, from 11:45am to 12:15am",
+          "Street exits at Times Sq–42 St were closed, and the passageway to 42 St–Bryant Park was one-way from 2pm"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Recheck mta.info/article/mta-service-new-years-2027 (or similar) in mid-December; the article reuses last year's notice until then."
+    },
+    {
+      "id": "us.nyc.nye.marquis-ball-drop-room",
+      "topic": "hotel",
+      "claim": "The New York Marriott Marquis sells a Times Square Ball Drop View Room to ring in 2027 for stays between 18 December and 9 January; 31 December is not an eligible check-in date; stays between 25 December and 1 January need a minimum of 3 to 4+ nights depending on dates; a one-night room and tax deposit is due a day after booking and cancellations within 14 days of arrival forfeit the full stay; changes go through in-house reservations.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/nycmq-new-york-marriott-marquis/overview/new-years-eve/",
+          "kind": "official",
+          "title": "New York Marriott Marquis: New Year's Eve"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "front-row views of the Ball Drop from the room",
+          "through an offer for stays between 18 December and 9 January",
+          "31 December is not an eligible check-in date",
+          "stays between 25 December and 1 January need a minimum of three to four or more nights, depending on dates",
+          "A one-night room and tax deposit is due a day after booking, and cancelling within 14 days of arrival forfeits the full stay"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "us.nyc.nye.knickerbocker-party",
+      "topic": "hotel",
+      "claim": "On 31 December 2026 The Knickerbocker holds a ticketed party, Saints & Sinners, with outdoor Ball Drop viewing from its St. Cloud Rooftop (which the hotel calls the closest rooftop to the Ball Drop); the Silver tier was sold out on 22 October 2026, and the page states all purchases are final and nonrefundable.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.theknickerbocker.com/experiences/new-years-eve-at-the-knick/",
+          "kind": "official",
+          "title": "The Knickerbocker: New Year's Eve at The Knick"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "the closest rooftop to the Ball Drop",
+          "On 31 December 2026 it holds a ticketed party, Saints & Sinners",
+          "its cheapest tier, Silver, was sold out on 22 October",
+          "the hotel says party purchases are final and nonrefundable"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "us.nyc.hotel.knickerbocker",
+      "topic": "hotel",
+      "claim": "The Knickerbocker is at 6 Times Square, on the south-east corner of 42nd Street and Broadway, and has the St. Cloud rooftop bar.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.theknickerbocker.com/",
+          "kind": "official",
+          "title": "The Knickerbocker"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "6 Times Square, on the south-east corner of 42nd Street and Broadway"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.times-square-edition",
+      "topic": "hotel",
+      "claim": "The Times Square EDITION has 452 guest rooms at 20 Times Square, 701 Seventh Avenue, with floor-to-ceiling windows the hotel describes as giving Times Square and city views, a performance venue and three dining experiences developed by chef John Fraser.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.editionhotels.com/times-square",
+          "kind": "official",
+          "title": "The Times Square EDITION"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "452 guest rooms at 20 Times Square, 701 Seventh Avenue",
+          "a performance venue and three dining venues developed by chef John Fraser"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.marquis",
+      "topic": "hotel",
+      "claim": "The New York Marriott Marquis is at 1535 Broadway, Times Square.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/nycmq-new-york-marriott-marquis/overview/",
+          "kind": "official",
+          "title": "New York Marriott Marquis"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "At 1535 Broadway"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.renaissance-times-square",
+      "topic": "hotel",
+      "claim": "Renaissance New York Times Square Hotel is at Two Times Square, 714 Seventh Avenue at West 48th Street, and sells Times Square Terrace Rooms with a private terrace; its Bowtie Bar is described as having Times Square views.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/nycrt-renaissance-new-york-times-square-hotel/overview/",
+          "kind": "official",
+          "title": "Renaissance New York Times Square Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "At Two Times Square, 714 Seventh Avenue at West 48th Street",
+          "Times Square Terrace Rooms that have a private terrace"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.algonquin",
+      "topic": "hotel",
+      "claim": "The Algonquin Hotel Times Square, Autograph Collection is at 59 West 44th Street, opened in 1902, and has the Blue Bar Restaurant and renovated rooms.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/nycak-the-algonquin-hotel-times-square-autograph-collection/overview/",
+          "kind": "official",
+          "title": "The Algonquin Hotel Times Square, Autograph Collection"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "At 59 West 44th Street, a hotel that opened in 1902"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.peninsula",
+      "topic": "hotel",
+      "claim": "The Peninsula New York is at 700 Fifth Avenue at 55th Street, describes itself as a Forbes Travel Guide Five Star hotel, and has newly refurbished rooms and a reimagined rooftop lounge, Pen Top.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.peninsula.com/en/new-york/5-star-luxury-hotel-midtown-nyc",
+          "kind": "official",
+          "title": "The Peninsula New York"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "At 700 Fifth Avenue at 55th Street"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.arlo-midtown",
+      "topic": "hotel",
+      "claim": "Arlo Midtown is at 351 West 38th Street.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://arlohotels.com/midtown/",
+          "kind": "official",
+          "title": "Arlo Midtown"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "At 351 West 38th Street"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.moxy-times-square",
+      "topic": "hotel",
+      "claim": "Moxy NYC Times Square is at 485 Seventh Avenue, has 612 rooms, is two blocks from Penn Station by the hotel's own count, and has Magic Hour, a rooftop bar with Empire State Building views.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/nycox-moxy-nyc-times-square/overview/",
+          "kind": "official",
+          "title": "Moxy NYC Times Square"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "At 485 Seventh Avenue, two blocks from Penn Station by the hotel's count, with 612 rooms"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.pod-times-square",
+      "topic": "hotel",
+      "claim": "Pod Times Square is at 400 West 42nd Street.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.thepodhotel.com/pod-times-square",
+          "kind": "official",
+          "title": "Pod Times Square"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "At 400 West 42nd Street"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.yotel-times-square",
+      "topic": "hotel",
+      "claim": "YOTEL New York Times Square is at 570 Tenth Avenue, between Times Square and the Jacob Javits Center, with rooms from the 10.6 sq m (114 sq ft) Solo to a Penthouse King Suite with a terrace, and a rooftop with skyline views; its FAQ puts the Times Square plaza at a 15 to 20 minute walk.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.yotel.com/en/hotels/yotel-new-york",
+          "kind": "official",
+          "title": "YOTEL New York Times Square"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "At 570 Tenth Avenue, between Times Square and the Jacob Javits Center",
+          "puts the Times Square plaza at a 15 to 20 minute walk"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.1-hotel-brooklyn-bridge",
+      "topic": "hotel",
+      "claim": "1 Hotel Brooklyn Bridge is at 60 Furman Street, with skyline and bridge views, Harriet's Rooftop bar and a rooftop pool.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.1hotels.com/brooklyn-bridge",
+          "kind": "official",
+          "title": "1 Hotel Brooklyn Bridge"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "At 60 Furman Street, in Brooklyn Bridge Park"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.wythe",
+      "topic": "hotel",
+      "claim": "Wythe Hotel is at 80 Wythe Avenue, Brooklyn, in a restored 1901 factory; its FAQ says a standard booking can be cancelled up to 48 hours in advance and a booking of four or more rooms is a group booking with a one-week cancellation policy; the FAQ does not mention New Year's Eve.",
+      "checked": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.wythehotel.com/faqs",
+          "kind": "official",
+          "title": "Wythe Hotel: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-new-years-eve.html": [
+          "At 80 Wythe Avenue in Williamsburg, in a former factory built in 1901",
+          "can be cancelled up to 48 hours in advance, and a booking of four or more rooms has a one-week policy"
         ]
       }
     }

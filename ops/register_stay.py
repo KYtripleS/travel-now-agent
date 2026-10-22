@@ -43,10 +43,14 @@ st = R["stay22"]
 insert_after("stay22.py", 'address="Times Square, New York, NY, USA"),\n',
              f'    {q(slug)}: dict(area={q(st["area"])}, lat={st["lat"]}, lng={st["lng"]}, zoom={st.get("zoom", 15)},\n'
              f'{" " * (len(slug) + 16)}address={q(st["address"])}),\n', f'{q(slug)}: dict(area=')
-hl = [f"    # {name} (Booking.com pages confirmed by hotel name and city)"]
+# keyed by slug, not city: a second guide for the same city (an event guide) has hotels of its own;
+# hotels already registered for another guide are left as they are
+known = (REPO / "stay22.py").read_text()
+hl = [f"    # {name}, {slug} (Booking.com pages confirmed by hotel name and city)"]
 for h, u in R["hotels"].items():
-    hl.append(f"    {q(h)}: " + (f'_B + {q(u.split("/hotel/", 1)[1])},' if u else "None,"))
-insert_before_close("stay22.py", "HOTELS = {", "\n".join(hl) + "\n", f"# {name} (Booking.com")
+    if f"    {q(h)}: " not in known:
+        hl.append(f"    {q(h)}: " + (f'_B + {q(u.split("/hotel/", 1)[1])},' if u else "None,"))
+insert_before_close("stay22.py", "HOTELS = {", "\n".join(hl) + "\n", f"{slug} (Booking.com")
 
 v = R["verdict"]
 insert_after("add_aeo.py", 'cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),\n',

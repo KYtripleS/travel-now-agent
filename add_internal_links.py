@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-new-york-new-years-eve.html": (
+        "Where to Stay in New York",
+        "Four areas, 12 hotels, the Ball Drop closures, one hotel's 3 to 4 night minimum and the 14.75% tax.",
+    ),
     "articles/where-to-stay-in-cape-town.html": (
         "Where to Stay in Cape Town",
         "Five areas, 12 hotels, 15% VAT plus a 1% levy, and how to arrive with the MyCiTi airport bus suspended.",
@@ -2113,6 +2117,13 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-new-york-new-years-eve.html": [
+        "articles/where-to-stay-in-new-york.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-usa-2026.html",
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
     ],
     "articles/where-to-stay-in-cape-town.html": [
         "articles/where-to-stay-in-marrakech.html",

@@ -113,6 +113,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-new-york-new-years-eve": dict(area="Times Square", lat=40.758, lng=-73.9855, zoom=15,
+                                                       address="Times Square, New York, NY, USA"),
     "where-to-stay-in-cape-town": dict(area="V&A Waterfront", lat=-33.9036, lng=18.4207, zoom=15,
                                           address="V&A Waterfront, Cape Town, South Africa"),
     "where-to-stay-in-queenstown": dict(area="Queenstown town centre", lat=-45.0312, lng=168.6626, zoom=15,
@@ -1211,6 +1213,15 @@ HOTELS = {
     "The Bay Hotel": _B + "za/the-bay.html",
     "The Cellars-Hohenort": _B + "za/the-cellars-hohenort.html",
     "The Alphen Boutique Hotel & Spa": _B + "za/alphen-boutique.html",
+    # New York, where-to-stay-in-new-york-new-years-eve (Booking.com pages confirmed by hotel name and city)
+    "The Times Square EDITION": _B + "us/edition-the-times-square.html",
+    "New York Marriott Marquis": _B + "us/new-york-marriott-marquis.html",
+    "Renaissance New York Times Square Hotel": _B + "us/renaissance-times-square.html",
+    "The Algonquin Hotel Times Square, Autograph Collection": _B + "us/algonquin.html",
+    "The Peninsula New York": _B + "us/the-peninsula-new-york.html",
+    "Moxy NYC Times Square": _B + "us/moxy-nyc-times-square.html",
+    "YOTEL New York Times Square": _B + "us/yotel-new-york-times-square.html",
+    "Wythe Hotel": _B + "us/wythe.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

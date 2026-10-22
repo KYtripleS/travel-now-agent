@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-new-york-new-years-eve": dict(
+        text="To watch the Ball from a warm room, stay inside the Times Square closures: the Marriott Marquis sells a Ball Drop View Room, with a three-to-four-night minimum. Otherwise stay just outside them and walk in. The tax is 14.75% plus $3.50 a night, so $347.75 on a $300 room.",
+        link_text="Times Square",
+        cta=_stay_cta("where-to-stay-in-new-york-new-years-eve", "See hotels around Times Square")),
     "where-to-stay-in-cape-town": dict(
         text="For a first trip, stay at the V&A Waterfront: the harbour, the shops and MyCiTi buses are at the door. Choose Cape Grace for the quay, the Victoria & Alfred Hotel for a 1904 warehouse, the Greenhouse Guesthouse for value. The tax is 15% VAT, plus a 1% levy at some hotels.",
         link_text="V&A Waterfront",
@@ -1459,6 +1463,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-new-york-new-years-eve": ["New York Marriott Marquis", "The Knickerbocker", "Pod Times Square"],
     "where-to-stay-in-cape-town": ["Cape Grace, A Fairmont Managed Hotel", "Victoria & Alfred Hotel", "The Greenhouse Guesthouse"],
     "where-to-stay-in-queenstown": ["Eichardt's Private Hotel", "Rendezvous Heritage Hotel Queenstown", "Queenstown Park Boutique Hotel"],
     "where-to-stay-in-chicago": ["The Peninsula Chicago", "Palmer House, a Hilton Hotel", "HI Chicago"],
@@ -1594,6 +1599,7 @@ CITY_RATES = {
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
+        ("New York", "where-to-stay-in-new-york-new-years-eve", None, None),
         ("Cape Town", "where-to-stay-in-cape-town", None, None),
         ("Queenstown", "where-to-stay-in-queenstown", None, None),
         ("Chicago", "where-to-stay-in-chicago", None, None),
