@@ -2440,7 +2440,8 @@ STAY_POINTERS = {
          'hotel tax it has charged since June 2026, with the villages and hotels.'),
         ("Europe",
          'Going to Edinburgh for New Year? <a href="where-to-stay-in-edinburgh-hogmanay.html">Where to stay in '
-         'Edinburgh for Hogmanay</a> works through the 5% Visitor Levy on a festival-week booking.'),
+         'Edinburgh for Hogmanay</a> works through the 5% Visitor Levy on a festival-week booking; <a '
+         'href="where-to-stay-in-zurich.html">where to stay in Zurich</a> includes its CHF 3.50 city tax.'),
     ],
     # both
     "best-time-to-visit-australia": ("The south: Sydney",
