@@ -77,10 +77,22 @@ def create(urls: list[str]) -> dict[str, str]:
     return out
 
 
+def _esim_page_for(slug: str) -> str | None:
+    """The country eSIM guide whose deep links a page borrows: itself, or the country its
+    destination is in (add_aeo.page_dest), so a Bangkok guide's Airalo link opens Thailand's plans."""
+    if slug in DEEP:
+        return slug
+    sys.path.insert(0, str(REPO))
+    import add_aeo
+    dest = add_aeo.page_dest(slug)
+    page = f"best-esim-{dest[4]}-2026" if dest and dest[4] else None
+    return page if page in DEEP else None
+
+
 def deep_for(slug: str, cache: dict) -> dict[str, str]:
     """{homepage short link: deep short link} for one page, from the cache only."""
     swaps = {}
-    for brand, url in DEEP.get(slug, {}).items():
+    for brand, url in DEEP.get(_esim_page_for(slug) or "", {}).items():
         if url in cache:
             for home in HOME[brand]:
                 swaps[home] = cache[url]
@@ -115,7 +127,8 @@ def main() -> None:
             CACHE.write_text(json.dumps(dict(sorted(cache.items())), indent=1) + "\n")
             print(f"created {len(missing)} deep links")
     changed = 0
-    for slug in sorted(set(DEEP) | set(CELLS)):
+    slugs = {p.stem for p in (REPO / "site" / "articles").glob("*.html")}
+    for slug in sorted(slugs):
         swaps = deep_for(slug, cache)
         for root in ("site", "docs"):
             p = REPO / root / "articles" / f"{slug}.html"
