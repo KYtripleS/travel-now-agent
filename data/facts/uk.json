@@ -580,6 +580,11 @@
           "5% of the accommodation-only price, before VAT",
           "The first 5 consecutive nights of a stay; nights 6 onwards are free of the levy",
           "Extras such as parking, meals, drinks or transport"
+        ],
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "carries a 5% charge on the room, on top of VAT, for the first five nights",
+          "The first 5 consecutive nights of a stay",
+          "A stay booked and paid for before 1 October 2025 is exempt"
         ]
       }
     },
@@ -605,6 +610,9 @@
           "so a hotel registered for VAT adds 20% VAT to it as well",
           "so £9 a night and £27 for the stay",
           "On a seven-night stay you pay the levy for five nights only, £45"
+        ],
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "A hotel registered for VAT adds VAT to the levy as well"
         ]
       }
     },
@@ -689,6 +697,10 @@
           "£7.90 single or £9.50 open return to the city centre",
           "The airport puts the journey into the city centre at 30 minutes",
           "the fares cap at £5.70 a day in the city zone and £26.50 a week"
+        ],
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "£7.90 single or £9.50 open return to the city centre",
+          "a single on Lothian buses or the city-zone tram costs £2.40"
         ]
       }
     },
@@ -714,6 +726,9 @@
           "£6 single or £8.50 open return",
           "Lothian's 24-hour express to Waverley Bridge",
           "a single on Lothian buses or the city-zone tram costs £2.40"
+        ],
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "Lothian's 24-hour express to Waverley Bridge, £6 single or £8.50 open return"
         ]
       }
     },
@@ -1047,6 +1062,334 @@
       "used_in": {
         "articles/where-to-stay-in-edinburgh.html": [
           "A 129-bedroom hotel at 10 Hill Place"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.programme",
+      "topic": "place",
+      "claim": "Edinburgh's Hogmanay 2026/27 runs from 29 December 2026 to New Year's Day: Torchlight Procession (Tue 29 Dec, 6.30pm, from The Meadows, from £5.75), Night Afore Party with The Fratellis (Wed 30 Dec, 6pm, West Princes Street Gardens, from £42), the Street Party (Thu 31 Dec, 8pm, Princes Street, from £10) and Hogmanay in the Gardens with Underworld (31 Dec, 8pm, West Princes Street Gardens, from £79), plus the free unticketed First Footin' trail on New Year's Day, whose page still carries 2025/26 details.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://edwinterfest.com/hogmanay",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: 2026/27 programme"
+        },
+        {
+          "url": "https://edwinterfest.com/hogmanay/whats-on/torchlight-procession",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: Torchlight Procession"
+        },
+        {
+          "url": "https://edwinterfest.com/hogmanay/whats-on/night-afore-party",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: Night Afore Party"
+        },
+        {
+          "url": "https://edwinterfest.com/hogmanay/whats-on/street-party",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: Street Party"
+        },
+        {
+          "url": "https://edwinterfest.com/hogmanay/whats-on/hogmanay-in-the-gardens-with-underworld",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: Hogmanay in the Gardens with Underworld"
+        },
+        {
+          "url": "https://edwinterfest.com/hogmanay/whats-on/first-footin-information",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: First Footin'"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "publishes four days of events for 2026/27, with tickets on sale",
+          "Night Afore Party with The Fratellis",
+          "Its page still carries last year's date and details"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Recheck for Street Party stage times and the First Footin' 2027 programme."
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.street-party",
+      "topic": "place",
+      "claim": "The Street Party on 31 December 2026: about 45,000 people expected; gates open 8pm, hourly firework teasers from 9pm, last entry 11pm, midnight countdown 11:59pm, Midnight Moment fireworks and Auld Lang Syne at midnight, event ends about 12:50am. Three gates: South (Bank Street, top of The Mound), East (east end of Princes Street at North Bridge) and West (west end of Princes Street, off the bottom of Lothian Road). Each ticket names one gate and cannot be changed after purchase. Stage times not yet released.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://edwinterfest.com/hogmanay/street-party-information",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: Street Party information"
+        },
+        {
+          "url": "https://edwinterfest.com/hogmanay/whats-on/street-party",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: Street Party"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "gates opening at 8pm on Thursday 31 December 2026 and last entry at 11pm",
+          "Your ticket names one of three gates, east, west or south",
+          "Midnight Moment fireworks and Auld Lang Syne",
+          "About 12:50am"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.gardens",
+      "topic": "place",
+      "claim": "Hogmanay in the Gardens with Underworld, 31 December 2026, West Princes Street Gardens: doors 8pm, stage live from 8.50pm, last entry 11pm; Underworld will soundtrack the Midnight Moment live from the Main Stage for the first time; tickets from £79 (Enclosure, Gardens and Premium areas); two gates, West and South; a Street Party ticket does not give entry, and vice versa; no alcohol may be brought in.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://edwinterfest.com/hogmanay/whats-on/hogmanay-in-the-gardens-with-underworld",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: Hogmanay in the Gardens with Underworld"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "the stage is live from 8.50pm and last entry is 11pm",
+          "Underworld will soundtrack the Midnight Moment live from the Main Stage",
+          "The Gardens concert has two, West and South"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.rules",
+      "topic": "place",
+      "claim": "Street Party rules: no under-12s; under-16s must hold a full-price ticket and be accompanied by an adult over 18; alcohol only in plastic or metal containers under 500ml, up to 4 per person, no glass; no umbrellas, drones, dogs (except assistance dogs), flares, Chinese lanterns; bags no larger than A3; no re-entry; official sellers are edinburghshogmanay.com, Ticketmaster and tickets-scotland.com, with no official resale; gifted tickets need a signed Letter of Authority and the recipient's photo ID.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://edwinterfest.com/hogmanay/street-party-information",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: Street Party information"
+        },
+        {
+          "url": "https://edwinterfest.com/hogmanay/faqs",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "Once you leave the Street Party or the Gardens, you cannot go back in",
+          "no glass",
+          "there is no official resale",
+          "A gifted ticket needs a signed letter of authority and the recipient's photo ID"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.closures-2025",
+      "topic": "place",
+      "claim": "The organisers' residents and businesses page still describes the 2025 edition: closures from 00:01 on 29 December, arena gates in use from 17:00 on 30 December, main closure of Princes Street and side streets from 19:00 on 30 December, most pedestrian restrictions from 18:00 on 31 December until about 04:00 on 1 January; access passes were offered to listed properties (30-134 Princes Street, 2-35 Castle Street, 1-19 Frederick Street, 1-33 Hanover Street, 17 Waverley Bridge, 18-21 Market Street). The 2026 notices had not been posted.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://edwinterfest.com/hogmanay/residents-businesses",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: residents and businesses (2025 edition)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "closures began progressively from 00:01 on 29 December",
+          "the main closure of Princes Street and its side streets began at 19:00 that evening",
+          "30 to 134 Princes Street, 2 to 35 Castle Street, 1 to 19 Frederick Street"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Recheck for the 2026 residents and businesses notice and the road-closure maps."
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.trams-2025",
+      "topic": "transport",
+      "claim": "Edinburgh Trams' notice for Hogmanay 2025: from after 6pm on 30 December trams stopped serving Princes Street and St Andrew Square and ran a split service (Edinburgh Airport to West End; Newhaven to Picardy Place) through 31 December; the road was expected to re-open on the morning of New Year's Day; all-night trams, free after midnight, up to every 10 minutes from midnight to 2am then every 20 minutes. The 2026 notice was not posted.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://edinburghtrams.com/news/free-all-night-trams-set-run-after-midnight-hogmanay",
+          "kind": "operator",
+          "title": "Edinburgh Trams: free all-night trams on Hogmanay (30 December 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "from after 6pm on 30 December trams would stop serving Princes Street and St Andrew Square",
+          "all-night trams, free after midnight"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.trains",
+      "topic": "transport",
+      "claim": "The organisers' travel page says ScotRail services run as normal until around 7pm on 31 December, when they begin to wind down (page carries some 2025 wording).",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://edwinterfest.com/hogmanay/getting-here-and-home",
+          "kind": "official",
+          "title": "Edinburgh's Hogmanay: getting here and home"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "ScotRail services wind down from about 7pm on 31 December"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.balmoral",
+      "topic": "hotel",
+      "claim": "The Balmoral's New Year's Eve Celebration offer: Hogmanay Ball with Champagne and canapés and a five-course dinner in the Sir Walter Scott Suite; stay includes daily breakfast, access to the Ball and a bottle of Champagne; minimum 2 nights, access to the Ball for two, available for stays on 30 and 31 December 2026 only (additional nights can be added); no price published; the hotel is at 1 Princes Street.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/the-balmoral-hotel/offers/new-year-s-eve-celebration/",
+          "kind": "official",
+          "title": "The Balmoral: New Year's Eve celebration"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "The terms say a minimum stay of two nights, for stays on 30 and 31 December 2026 only",
+          "a black-tie Hogmanay Ball, with Champagne and canapés, a five-course dinner in the Sir Walter Scott Suite"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.caledonian",
+      "topic": "hotel",
+      "claim": "The Caledonian Edinburgh, Curio Collection by Hilton (Princes Street, EH1 2AB): annual Scottish Hogmanay Ball on 31 December with a 4-course Scottish dinner, live entertainment and a champagne toast at midnight; its page lists Hogmanay Packages from £225 without saying what they include.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/ednchqq-the-caledonian-edinburgh/",
+          "kind": "official",
+          "title": "The Caledonian Edinburgh, Curio Collection by Hilton"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "annual Scottish Hogmanay Ball, with a four-course Scottish dinner",
+          "Hogmanay Packages from £225"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.witchery",
+      "topic": "hotel",
+      "claim": "The Witchery (Castlehill, Royal Mile, EH1 2NF): Hogmanay five-course dinner £180 a person, paired wines £140 more, £90 a person non-refundable and non-transferable deposit, reservations from 4:45pm.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.thewitchery.com/dine/hogmanay-at-the-witchery/",
+          "kind": "official",
+          "title": "The Witchery: Hogmanay dinner"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "Its Hogmanay five-course dinner is £180 a person",
+          "needs a £90 a person non-refundable deposit"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.virgin",
+      "topic": "hotel",
+      "claim": "Virgin Hotels Edinburgh (1 India Buildings, Victoria Street) lists three Hogmanay events: Commons Club Hogmanay Dinner & Fireworks (champagne arrival, six-course dinner, rooftop access for the fireworks) £265 a person; Greyfriars Hall Hogmanay Ball (black tie, four-course dinner, piper) £250 a person; New Year's Celebration in Eve £8 a person. The page does not say whether non-guests can book.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://virginhotels.com/edinburgh/entertainment/hogmanay/",
+          "kind": "official",
+          "title": "Virgin Hotels Edinburgh: Hogmanay"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "a six-course dinner with Champagne arrival and rooftop access for the fireworks at £265 a person",
+          "a black-tie Hogmanay Ball in Greyfriars Hall at £250"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.scotsman",
+      "topic": "hotel",
+      "claim": "The Scotsman Hotel (20 North Bridge, EH1 1TR): Hogmanay Party in the Grand Café from 7.30pm, £140 a person (fizz and piper on arrival, four-course dinner, ceilidh, dram for the bells); Hogmanay dining in the Fettercairn Suite, £110 a person (three courses, piper, fizz, dram for the bells, live DJ and photobooth). The page mentions no stay requirement.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://scotsmanhotel.co.uk/festive/",
+          "kind": "official",
+          "title": "The Scotsman Hotel: festive dining and events"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "a four-course dinner party with a piper, ceilidh and a dram at the bells in the Grand Café at £140 a person from 7.30pm"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.apex-grassmarket",
+      "topic": "hotel",
+      "claim": "Apex Grassmarket Hotel (31-35 Grassmarket): Hogmanay in Heights, 31 December 2026, 8pm to 12:30am, five-course menu with a glass of Champagne and live entertainment, £159 a person, over-18s only, in the Heights Suite with views of the Castle and the fireworks.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.apexhotels.co.uk/destinations/edinburgh/apex-grassmarket-hotel/festive/",
+          "kind": "official",
+          "title": "Apex Grassmarket Hotel: festive"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "Hogmanay in Heights, from 8pm to 12.30am, a five-course menu with a glass of Champagne at £159 a person"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.w-edinburgh",
+      "topic": "hotel",
+      "claim": "W Edinburgh (1 St James Square, EH1 3AX) lists three New Year's Eve events with no prices: a four-course dinner with caviar and oyster bar, NYE After Dark in the W Lounge from 10pm with the move up to the W Deck (360-degree views) at midnight, and a 10pm Sambazonia sitting at SUSHISAMBA.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/ediwh-w-edinburgh/experiences/holidays/",
+          "kind": "official",
+          "title": "W Edinburgh: holiday events"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "NYE After Dark in the W Lounge from 10pm, with the move up to the W Deck at midnight"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh.hogmanay.sheraton",
+      "topic": "hotel",
+      "claim": "Sheraton Grand Hotel & Spa, Edinburgh (1 Festival Square): Hogmanay Celebration in the One Square Brasserie, a dinner party with a welcome drink and a six-course meal; no time, price or minimum stay on the page.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/edisi-sheraton-grand-hotel-and-spa-edinburgh/experiences/holidays/",
+          "kind": "official",
+          "title": "Sheraton Grand Hotel & Spa, Edinburgh: holiday events"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+          "it holds a six-course dinner party in the One Square Brasserie, with a welcome drink"
         ]
       }
     }

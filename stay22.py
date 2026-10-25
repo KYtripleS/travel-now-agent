@@ -114,6 +114,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-edinburgh-hogmanay": dict(area="Princes Street Gardens", lat=55.9506, lng=-3.1983, zoom=15,
+                                                   address="Princes Street Gardens, Princes Street, Edinburgh EH2 2HG, United Kingdom"),
     "where-to-stay-in-rovaniemi-christmas": dict(area="Rovaniemi city centre", lat=66.5039, lng=25.7294, zoom=14,
                                                     address="Rovaniemi city centre, Rovaniemi, Finland"),
     "where-to-stay-in-new-york-new-years-eve": dict(area="Times Square", lat=40.758, lng=-73.9855, zoom=15,
@@ -1238,6 +1240,15 @@ HOTELS = {
     "Arctic SnowHotel & Glass Igloos": _B + "fi/arctic-glass-igloos.html",
     "Lapland Hotels Sky Ounasvaara": _B + "fi/lapland-sky-ounasvaara.html",
     "Lapland Hotels Ounasvaara Chalets": _B + "fi/lapland-hotel-ounasvaara-chalets.html",
+    # Edinburgh, where-to-stay-in-edinburgh-hogmanay (Booking.com pages confirmed by hotel name and city)
+    "Sheraton Grand Hotel & Spa, Edinburgh": _B + "gb/grdhotelspaedinburgh.html",
+    "Hotel Indigo Edinburgh - Princes Street": _B + "gb/royal-british.html",
+    "Motel One Edinburgh-Princes": _B + "gb/motel-one-edinburgh-princes.html",
+    "The Scotsman Hotel": _B + "gb/thescotsmanhotel.html",
+    "W Edinburgh": _B + "gb/w-edinburgh.html",
+    "ibis Styles Edinburgh St Andrew Square": _B + "gb/ibis-edinburgh-centre-st-andrew-square.html",
+    "Virgin Hotels Edinburgh": _B + "gb/virgin-hotels-edinburgh.html",
+    "Apex Grassmarket Hotel": _B + "gb/apexgrassmarkethotel.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

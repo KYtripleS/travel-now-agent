@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-edinburgh-hogmanay.html": (
+        "Where to Stay in Edinburgh",
+        "Three Street Party gates, 12 hotels, the Balmoral's two-night Ball offer and the 5% Visitor Levy.",
+    ),
     "articles/where-to-stay-in-rovaniemi-christmas.html": (
         "Where to Stay in Rovaniemi",
         "Four areas, 12 hotels, and the dates, 13.5% VAT and early-booking rules for Christmas in Rovaniemi.",
@@ -2121,6 +2125,13 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-edinburgh-hogmanay.html": [
+        "articles/where-to-stay-in-edinburgh.html",
+        "articles/where-to-stay-in-london.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-in-rovaniemi-christmas.html": [
         "articles/hotel-booking-sites-comparison.html",

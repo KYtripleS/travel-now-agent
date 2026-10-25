@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-edinburgh-hogmanay": dict(
+        text="Choose your Street Party gate first, then stay near it: the east end of Princes Street for the East Gate, Lothian Road for the West Gate. The Balmoral sells a Hogmanay Ball stay with a two-night minimum. The Visitor Levy adds 5% of the room price for the first five nights.",
+        link_text="east end of Princes Street",
+        cta=_stay_cta("where-to-stay-in-edinburgh-hogmanay", "See hotels around Princes Street")),
     "where-to-stay-in-rovaniemi-christmas": dict(
         text="For a first Christmas trip, stay in Rovaniemi city centre: the airport shuttle stops there and bus 8 reaches Santa Claus Village, 8 km north. Choose Arctic Light Hotel for character, Santa's Hotel Rudolf for a budget bed, Santa's Igloos for a glass roof. VAT on accommodation is 13.5%.",
         link_text="Rovaniemi city centre",
@@ -1469,6 +1473,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-edinburgh-hogmanay": ["The Balmoral", "Sheraton Grand Hotel & Spa, Edinburgh", "Motel One Edinburgh-Princes"],
     "where-to-stay-in-rovaniemi-christmas": ["Arctic Light Hotel", "Santa's Hotel Rudolf", "Santa's Igloos Arctic Circle"],
     "where-to-stay-in-new-york-new-years-eve": ["New York Marriott Marquis", "The Knickerbocker", "Pod Times Square"],
     "where-to-stay-in-cape-town": ["Cape Grace, A Fairmont Managed Hotel", "Victoria & Alfred Hotel", "The Greenhouse Guesthouse"],
@@ -2028,6 +2033,7 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Edinburgh (Hogmanay)", "where-to-stay-in-edinburgh-hogmanay", None, None),
     ],
 }
 CITY_RATES_FULL = 8          # cities with a rates line; the rest share one line of guide links
