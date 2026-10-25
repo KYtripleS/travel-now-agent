@@ -1702,7 +1702,8 @@ def _esim_table(soup: BeautifulSoup, c: dict, links: list[tuple[str, str]]) -> T
 def _esim_note(soup: BeautifulSoup, cs: list[dict], deep: bool) -> Tag:
     plans = [(b, p) for c in cs for b, _ in ESIM_BRANDS for p in c[b.lower()]["plans"]]
     entry_brand, entry = min(plans, key=lambda x: x[1]["usd"])
-    checked = max(c[b.lower()]["checked"] for c in cs for b, _ in ESIM_BRANDS)
+    # the older check: Saily's prices are typed in by hand and can lag Airalo's weekly refresh
+    checked = min(c[b.lower()]["checked"] for c in cs for b, _ in ESIM_BRANDS)
     where = cs[0]["name"] if len(cs) == 1 else "the destination"
     note = soup.new_tag("p", attrs={"class": "gy-esim-plans-note"})
     note.string = (f"Each provider’s cheapest plan that covers the trip, from airalo.com and saily.com on "

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>Label</key><string>com.gentlyyonder.weekly</string>
+  <key>ProgramArguments</key><array>
+    <string>/Users/ky/travel-now-agent/.venv/bin/python</string>
+    <string>/Users/ky/travel-now-agent/ops/weekly.py</string>
+    <string>--publish</string>
+  </array>
+  <key>WorkingDirectory</key><string>/Users/ky/travel-now-agent</string>
+  <key>StartCalendarInterval</key><dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>40</integer></dict>
+  <key>StandardOutPath</key><string>/Users/ky/travel-now-agent/ops/state/weekly-launchd.log</string>
+  <key>StandardErrorPath</key><string>/Users/ky/travel-now-agent/ops/state/weekly-launchd.log</string>
+</dict></plist>
