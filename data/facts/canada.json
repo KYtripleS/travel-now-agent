@@ -613,6 +613,516 @@
           "from 247 sq ft for a Legacy King to 450 sq ft for the Rockwell Suite"
         ]
       }
+    },
+    {
+      "id": "ca.bc.whistler.accommodation-tax",
+      "topic": "tax",
+      "claim": "Whistler hotel rooms carry 8% PST and a 3% MRDT (the municipality describes the 3% as in addition to the 8% PST); GST (5%) is charged on the room price but not on the PST or MRDT outside the City of Vancouver, so about 16% of the room price in total. Worked example is editorial arithmetic: C$350 room + C$40 resort charge = C$390; PST 31.20, MRDT 11.70, GST 19.50; total C$452.40.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://whistler.ca/municipal-gov/grants-funding/municipal-and-regional-district-tax",
+          "kind": "official",
+          "title": "Resort Municipality of Whistler: Municipal and regional district tax"
+        },
+        {
+          "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/accommodation",
+          "kind": "official",
+          "title": "Government of British Columbia: Accommodation (PST and MRDT)"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+          "kind": "official",
+          "title": "Canada Revenue Agency: GST/HST rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "Whistler's municipality describes its 3% hotel tax as in addition to the 8% PST",
+          "That is 16% of the price before tax",
+          "PST is C$31.20, MRDT C$11.70 and GST C$19.50"
+        ]
+      }
+    },
+    {
+      "id": "ca.bc.whistler.accommodation-tax.fees-27-days",
+      "topic": "tax",
+      "claim": "PST and MRDT apply to the whole purchase price including added fees such as resort fees, and are not charged once a guest's continuous stay has exceeded 26 days.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/accommodation",
+          "kind": "official",
+          "title": "Government of British Columbia: Accommodation (PST and MRDT)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "The PST and MRDT also apply to fees the hotel adds, such as a resort charge",
+          "If your stay runs past 26 days, the PST and MRDT stop for the rest of it"
+        ]
+      }
+    },
+    {
+      "id": "ca.gst.bc-rate.whistler",
+      "topic": "tax",
+      "claim": "The GST rate in British Columbia is 5%.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+          "kind": "official",
+          "title": "Canada Revenue Agency: GST/HST rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "Goods and services tax (GST)"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.blackcomb.opening-day-2026",
+      "topic": "place",
+      "claim": "Whistler Blackcomb schedules winter 2026/27 opening day for 20 November 2026, subject to weather and conditions; its hours page lists no closing date.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.whistlerblackcomb.com/explore-the-resort/about-the-resort/hours-of-operation.aspx",
+          "kind": "official",
+          "title": "Whistler Blackcomb: Hours of operation"
+        },
+        {
+          "url": "https://www.whistlerblackcomb.com/",
+          "kind": "official",
+          "title": "Whistler Blackcomb home page"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "Whistler Blackcomb lists opening day for the 2026/27 winter as 20 November 2026",
+          "It lists no closing date for 2026/27 yet"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.blackcomb.lift-hours-2026",
+      "topic": "place",
+      "claim": "Winter 2026/27 base-area lift hours: opening day to 15 January 9:00 am to 3:30 pm; 16 January to 12 February 9:00 am to 4:00 pm; 13 February to closing day 8:30 am to 4:00 pm.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.whistlerblackcomb.com/explore-the-resort/about-the-resort/hours-of-operation.aspx",
+          "kind": "official",
+          "title": "Whistler Blackcomb: Hours of operation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "Base-area lift hours for the winter"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.epic-pass-prices-2026",
+      "topic": "price",
+      "claim": "Epic Pass 2026/27 (USD): adult (31+) $1,169; young adult (18-30) and teen (13-17) $929; child (5-12) $599; unlimited, unrestricted access at Whistler Blackcomb; also five consecutive days at Hakuba Valley and Rusutsu in Japan; Epic Mountain Rewards lists 20% off lodging.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.epicpass.com/passes/epic-pass.aspx",
+          "kind": "official",
+          "title": "Epic Pass: 2026/27 passes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "Epic Pass, adult (31 and over)",
+          "five consecutive days at Hakuba Valley in Japan",
+          "lists 20% off lodging among its benefits"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.day-pass-prices-2026",
+      "topic": "price",
+      "claim": "Whistler Blackcomb Day Pass (adult, 4 days, no peak dates) C$517 (C$130 a day); adding peak dates +C$93; highest 7-day-advance adult lift ticket price this season C$309 a day (checked 25 Oct 2026; prices vary by date).",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.whistlerblackcomb.com/plan-your-trip/lift-access/passes/whistler-blackcomb-day-pass.aspx?days=4",
+          "kind": "official",
+          "title": "Whistler Blackcomb: Day Pass"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "Whistler Blackcomb Day Pass, adult, 4 days, without peak dates",
+          "Adding peak dates adds C$93 to the total",
+          "up to C$309 a day"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.territory",
+      "topic": "history",
+      "claim": "The Resort Municipality of Whistler acknowledges that it is on shared unceded L̓il̓wat7úl and Sḵwx̱wú7mesh territory.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.whistler.ca/news/council-delivers-guidelines-for-2026-municipal-budget/",
+          "kind": "official",
+          "title": "Resort Municipality of Whistler: territorial acknowledgement (page header)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "shared unceded L̓il̓wat7úl and Sḵwx̱wú7mesh territory"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.road.distance-shuttle",
+      "topic": "transport",
+      "claim": "Whistler is about 120 km from Vancouver; Tourism Whistler puts the shuttle journey at 2.5 to 3 hours depending on traffic, weather and road conditions, and lists three year-round operators (Whistler Shuttle, YVR Skylynx, Epic Rides from downtown Vancouver).",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.whistler.com/getting-here/road/shuttle/",
+          "kind": "official",
+          "title": "Tourism Whistler: Vancouver to Whistler by shuttle bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "Whistler is about 120 km from Vancouver along the Sea to Sky Highway",
+          "2.5 to 3 hours depending on traffic and weather"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.skylynx.winter-timetable",
+      "topic": "transport",
+      "claim": "YVR Skylynx 2026/27 winter timetable (22 Nov 2026 to 19 Apr 2027): daily Express YVR 10:00 am to Whistler 12:15 pm and YVR 1:30 pm to Whistler 3:45 pm without stops; standard 7:00 am from YVR via downtown Vancouver and Squamish reaches Whistler 10:00 am; Express and standard service runs every day of the year.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://yvrskylynx.com/timetable/38/",
+          "kind": "operator",
+          "title": "YVR Skylynx: 2026/27 Winter & Spring timetable"
+        },
+        {
+          "url": "https://yvrskylynx.com/whistler-express-whistler-shuttle-yvr-skylynx/",
+          "kind": "operator",
+          "title": "YVR Skylynx: Whistler shuttle"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "its winter timetable runs from 22 November 2026 to 19 April 2027",
+          "The Express buses leave YVR at 10:00 am and 1:30 pm and reach Whistler at 12:15 pm and 3:45 pm without stopping",
+          "the standard 7:00 am bus calls at downtown Vancouver and Squamish and reaches Whistler at 10:00 am"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.skylynx.yvr-pickup",
+      "topic": "transport",
+      "claim": "YVR Skylynx meets at its kiosk in the International Arrivals area beside the escalators; buses stage at Bus Bay 9; Whistler drop-off is the Whistler Gateway loop near the Visitor Centre; Creekside pick-up and drop-off is by reservation outside Legends Hotel.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://yvrskylynx.com/timetable/38/",
+          "kind": "operator",
+          "title": "YVR Skylynx: timetable and pick-up locations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "the buses use Bus Bay 9",
+          "Skylynx drops at the Whistler Gateway loop by the Visitor Centre"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.skylynx.fares",
+      "topic": "fare",
+      "claim": "YVR Skylynx price page (dated 'To November 21, 2026'; currency and winter fares not separately stated): YVR to Whistler/Squamish standard $55 one way, express $65 one way; first set of skis or snowboard free.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://yvrskylynx.com/prices/",
+          "kind": "operator",
+          "title": "YVR Skylynx: Prices"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "lists YVR to Whistler at $55 one way standard, $65 express",
+          "a first set of skis or a snowboard is free"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.highway99.winter-tires",
+      "topic": "transport",
+      "claim": "Tourism Whistler says winter tires are required on the Sea to Sky Highway (Highway 99) from 1 October to 31 March; BC accepts winter tires marked M+S or with the three-peak mountain snowflake symbol, with at least 3.5 mm of tread.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.whistler.com/getting-here/road/conditions/",
+          "kind": "official",
+          "title": "Tourism Whistler: Sea to Sky Highway conditions"
+        },
+        {
+          "url": "https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/traveller-information/seasonal/winter-driving/about-winter-tires",
+          "kind": "official",
+          "title": "Government of British Columbia: Passenger vehicle tire and chain requirements"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "Winter tires are required on the Sea to Sky Highway from 1 October to 31 March",
+          "with at least 3.5 mm of tread"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.transit.fares",
+      "topic": "fare",
+      "claim": "BC Transit Whistler: adult single ride $2.75, adult DayPASS $5.50.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.bctransit.com/whistler/fares/",
+          "kind": "operator",
+          "title": "BC Transit: Whistler fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "a single ride of $2.75 and an adult DayPASS of $5.50",
+          "Whistler Transit is a single ride of $2.75 or a $5.50 DayPASS for adults"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.fairmont-chateau",
+      "topic": "hotel",
+      "claim": "Fairmont Chateau Whistler, 4599 Chateau Boulevard, has 519 guest rooms and suites at the foot of Blackcomb Mountain, calls itself ski-in/ski-out, has slope-side pools, the Vida Spa and an on-site golf course; parking is for an additional fee.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/en/hotels/whistler/fairmont-chateau-whistler.html",
+          "kind": "official",
+          "title": "Fairmont Chateau Whistler"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "with 519 guest rooms and suites at the foot of Blackcomb Mountain"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.four-seasons",
+      "topic": "hotel",
+      "claim": "Four Seasons Resort and Residences Whistler, 4591 Blackcomb Way: its Ski Concierge is at the base of Blackcomb Mountain, a five-minute walk or complimentary shuttle ride from the Resort.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/whistler/services-and-amenities/ski-concierge/",
+          "kind": "official",
+          "title": "Four Seasons Whistler: Ski Concierge"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "a five-minute walk or a complimentary shuttle ride from the resort"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.westin",
+      "topic": "hotel",
+      "claim": "The Westin Resort & Spa, Whistler, 4090 Whistler Way, is at the base of Whistler Mountain; a renovation of guest rooms and spaces is under way with possible work sounds limited to 7am-5pm; indoor and outdoor pools connected, each with a hot tub.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/ysewi-the-westin-resort-and-spa-whistler/overview/",
+          "kind": "official",
+          "title": "The Westin Resort & Spa, Whistler"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "with work noise limited to 7 am to 5 pm"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.hilton",
+      "topic": "hotel",
+      "claim": "Hilton Whistler Resort & Spa, 4050 Whistler Way, steps from the Whistler Blackcomb gondolas; its booking page shows a C$40.00 resort charge per night, included in the displayed price but excluding taxes.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/ywsvrhf-hilton-whistler-resort-and-spa/",
+          "kind": "official",
+          "title": "Hilton Whistler Resort & Spa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "lists a C$40 resort charge per night"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.aava",
+      "topic": "hotel",
+      "claim": "Aava Whistler Hotel (4005 Whistler Way): two-minute walk from Whistler Village and five minutes from the gondolas; Deluxe rooms measure 294 sq ft; heated outdoor pool, hot tub, sauna; free ski boot dryer and ski lockers in winter.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.paradoxhotels.com/aava-whistler/",
+          "kind": "official",
+          "title": "Aava Whistler Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "the Deluxe rooms measure 294 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.pangea",
+      "topic": "hotel",
+      "claim": "Pangea Pod Hotel, 4333 Sunrise Alley: about 210 m to the Whistler Village gondolas; adults only (18+ at check-in); no elevator, accommodation begins on the second floor; pods are not soundproof.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.pangeapod.com/",
+          "kind": "official",
+          "title": "Pangea Pod Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "about 210 m from the Village gondolas",
+          "it is adults only (18 or over at check-in), the pods are not soundproof, and there is no elevator"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.delta",
+      "topic": "hotel",
+      "claim": "Delta Hotels Whistler Village Suites, 4308 Main Street: all-suites; outdoor pool and complimentary whirlpool; minimum age to check in 19; on-site parking daily $32.00.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/ysewv-delta-hotels-whistler-village-suites/overview/",
+          "kind": "official",
+          "title": "Delta Hotels Whistler Village Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "the minimum age to check in is 19, and parking is listed at $32 a day"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.pinnacle",
+      "topic": "hotel",
+      "claim": "Pinnacle Hotel Whistler Village, 4319 Main Street: secure underground parking $29+tax, pet-friendly rooms $40+tax, pool and hot tub, seasonal mountain base shuttle.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://whistlerpinnacle.com/",
+          "kind": "official",
+          "title": "Pinnacle Hotel Whistler Village"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "parking is $29 plus tax and a pet is $40 plus tax"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.summit-lodge",
+      "topic": "hotel",
+      "claim": "Summit Lodge Whistler, 4359 Main St: the hotel describes itself as tucked away in the more sedate, forested edge of Whistler Village; Queen Deluxe Studios with queen bed and pull-out sofa bed.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.paradoxhotels.com/summit-lodge/",
+          "kind": "official",
+          "title": "Summit Lodge Whistler"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "which the hotel describes as the more sedate, forested edge of Whistler Village"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.nita-lake",
+      "topic": "hotel",
+      "claim": "Nita Lake Lodge, 2131 Lake Placid Road: in Creekside, 5 km south of the main Village; Creekside has its own gondola station; parking $35 a night plus taxes; complimentary seasonal slopeside ski lockers.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.nitalakelodge.com/faqs",
+          "kind": "official",
+          "title": "Nita Lake Lodge: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "which Nita Lake Lodge puts about 5 km south of the main Village",
+          "parking is $35 a night plus tax"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.legends",
+      "topic": "hotel",
+      "claim": "Legends Whistler (Lodging Ovations), 2036 London Lane: condominium-style lodge, one- to three-bedroom suites with full kitchens, 'only a minute away from the Creekside Gondola', heated outdoor pools and hot tubs.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.lodgingovations.com/legends/",
+          "kind": "official",
+          "title": "Lodging Ovations: Legends Whistler"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "puts only a minute from the Creekside gondola"
+        ]
+      }
+    },
+    {
+      "id": "ca.whistler.hotel.hi-whistler",
+      "topic": "hotel",
+      "claim": "HI Whistler, 1035 Legacy Way: private ensuite rooms and 4-bed shared rooms, shared kitchen and Cheaky's Cafe; HI members get up to 15% off the Vancouver-Whistler bus.",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "url": "https://www.hihostels.ca/en/hostels/hi-whistler",
+          "kind": "official",
+          "title": "HI Canada: HI Whistler"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-whistler.html": [
+          "1035 Legacy Way: private ensuite rooms and four-bed shared rooms"
+        ]
+      }
     }
   ]
 }

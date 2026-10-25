@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-whistler.html": (
+        "Where to Stay in Whistler",
+        "Five areas, 12 hotels, the 20 November opening, Epic Pass prices and the 16% in taxes on a Whistler room.",
+    ),
     "articles/where-to-stay-in-edinburgh-hogmanay.html": (
         "Where to Stay in Edinburgh",
         "Three Street Party gates, 12 hotels, the Balmoral's two-night Ball offer and the 5% Visitor Levy.",
@@ -2125,6 +2129,12 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-whistler.html": [
+        "articles/where-to-stay-in-vancouver.html",
+        "articles/where-to-stay-in-niseko.html",
+        "articles/where-to-stay-in-hakuba.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-edinburgh-hogmanay.html": [
         "articles/where-to-stay-in-edinburgh.html",

@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-whistler": dict(
+        text="For a first ski trip, stay in Whistler Village: restaurants, bars and the gondolas on foot. Choose Fairmont Chateau Whistler for Blackcomb ski-in, ski-out, Aava for a lower price, Hilton for a valet at the lifts. Taxes add 16% to the room price.",
+        link_text="Whistler Village",
+        cta=_stay_cta("where-to-stay-in-whistler", "See hotels around Whistler Village")),
     "where-to-stay-in-edinburgh-hogmanay": dict(
         text="Choose your Street Party gate first, then stay near it: the east end of Princes Street for the East Gate, Lothian Road for the West Gate. The Balmoral sells a Hogmanay Ball stay with a two-night minimum. The Visitor Levy adds 5% of the room price for the first five nights.",
         link_text="east end of Princes Street",
@@ -1473,6 +1477,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-whistler": ["Fairmont Chateau Whistler", "Aava Whistler Hotel", "Hilton Whistler Resort & Spa"],
     "where-to-stay-in-edinburgh-hogmanay": ["The Balmoral", "Sheraton Grand Hotel & Spa, Edinburgh", "Motel One Edinburgh-Princes"],
     "where-to-stay-in-rovaniemi-christmas": ["Arctic Light Hotel", "Santa's Hotel Rudolf", "Santa's Igloos Arctic Circle"],
     "where-to-stay-in-new-york-new-years-eve": ["New York Marriott Marquis", "The Knickerbocker", "Pod Times Square"],
@@ -2033,6 +2038,7 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Whistler", "where-to-stay-in-whistler", None, None),
         ("Edinburgh (Hogmanay)", "where-to-stay-in-edinburgh-hogmanay", None, None),
     ],
 }
@@ -2442,7 +2448,13 @@ STAY_POINTERS = {
          'Going to Edinburgh for New Year? <a href="where-to-stay-in-edinburgh-hogmanay.html">Where to stay in '
          'Edinburgh for Hogmanay</a> works through the 5% Visitor Levy on a festival-week booking; <a '
          'href="where-to-stay-in-zurich.html">where to stay in Zurich</a> includes its CHF 3.50 city tax.'),
+        ("North America",
+         'Skiing in Canada? <a href="where-to-stay-in-whistler.html">Whistler accommodation for 2026/27</a> adds '
+         'up the 8% PST, the 3% hotel tax and the 5% GST on a room, with a worked example.'),
     ],
+    "where-to-stay-in-vancouver": ("intro",
+        'Going on to the mountains? <a href="where-to-stay-in-whistler.html">Whistler accommodation for 2026/27</a> '
+        'compares the village bases, the Skylynx bus from the airport and the taxes on a ski week.'),
     # both
     "best-time-to-visit-australia": ("The south: Sydney",
         f'Once you have dates: <a href="{_S}">where to stay in Sydney</a> and <a href="{_M}">in Melbourne</a>, '

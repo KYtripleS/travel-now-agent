@@ -114,6 +114,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-whistler": dict(area="Whistler Village", lat=50.1131, lng=-122.9567, zoom=15,
+                                         address="4050 Whistler Way, Whistler, BC, Canada"),
     "where-to-stay-in-edinburgh-hogmanay": dict(area="Princes Street Gardens", lat=55.9506, lng=-3.1983, zoom=15,
                                                    address="Princes Street Gardens, Princes Street, Edinburgh EH2 2HG, United Kingdom"),
     "where-to-stay-in-rovaniemi-christmas": dict(area="Rovaniemi city centre", lat=66.5039, lng=25.7294, zoom=14,
@@ -1249,6 +1251,19 @@ HOTELS = {
     "ibis Styles Edinburgh St Andrew Square": _B + "gb/ibis-edinburgh-centre-st-andrew-square.html",
     "Virgin Hotels Edinburgh": _B + "gb/virgin-hotels-edinburgh.html",
     "Apex Grassmarket Hotel": _B + "gb/apexgrassmarkethotel.html",
+    # Whistler, where-to-stay-in-whistler (Booking.com pages confirmed by hotel name and city)
+    "The Westin Resort & Spa, Whistler": _B + "ca/westin-resort-and-spa.html",
+    "Hilton Whistler Resort & Spa": _B + "ca/hilton-whistler-resort-spa.html",
+    "Aava Whistler Hotel": _B + "ca/aava-whistler.html",
+    "Pangea Pod Hotel": _B + "ca/pangea-pod-whistler.html",
+    "Fairmont Chateau Whistler": _B + "ca/fairmont-chateau-whistler.html",
+    "Four Seasons Resort and Residences Whistler": _B + "ca/four-seasons-whistler.html",
+    "Delta Hotels Whistler Village Suites": _B + "ca/d-w-village-suites-whistler-british-columbia.html",
+    "Pinnacle Hotel Whistler Village": _B + "ca/whistler-pinnacle.html",
+    "Summit Lodge Whistler": _B + "ca/summit-lodge-spa.html",
+    "Nita Lake Lodge": _B + "ca/nita-lake-lodge.html",
+    "Legends Whistler": _B + "ca/legends.html",
+    "HI Whistler": _B + "ca/hi-whistler.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
