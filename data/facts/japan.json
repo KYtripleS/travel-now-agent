@@ -1437,7 +1437,7 @@
           "title": "Campaign FAQ (PDF), Q4, Q7, Q11, Q13, Q14, Q16, Q22, Q23"
         }
       ],
-      "checked": "2026-10-06",
+      "checked": "2026-10-26",
       "used_in": {
         "articles/where-to-stay-in-fukuoka.html": [
           "1 October to 15 December 2026",
@@ -1449,7 +1449,7 @@
           "Until 15 December 2026 a Kyushu recovery discount takes half off stays in the prefecture"
         ]
       },
-      "note": "Ends 15 December 2026 or earlier if the budget runs out. After that, remove the discount section, the verdict's last sentence, the title's 'and the Kyushu Discount', the FAQ item, the where-to-stay-in-japan pointer and the tax-page sentence."
+      "note": "Ends 15 December 2026 or earlier if the budget runs out. After that, remove the discount section, the verdict's last sentence, the title's 'and the Kyushu Discount', the FAQ item, the where-to-stay-in-japan pointer and the tax-page sentence. Re-checked 2026-10-26 on the campaign site: still running, bookings to 15 December 2026, latest notice 8 October (extra hotel-direct quota); it ends early if the budget runs out."
     },
     {
       "id": "jp.kumamoto.earthquake-2026",
@@ -1851,14 +1851,14 @@
           "title": "Travel Voice: Weathernews' first 2026 forecast"
         }
       ],
-      "checked": "2026-10-06",
+      "checked": "2026-10-26",
       "used_in": {
         "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
           "at its best from about 13 November",
           "around 24 November"
         ]
       },
-      "note": "Forecasts are updated through October and November; update the figures or say which edition."
+      "note": "Forecasts are updated through October and November; update the figures or say which edition. Re-checked 2026-10-26: JWA spot page (issued 25 October) still gives Arashiyama from 13 November."
     },
     {
       "id": "jp.kyoto.eikando-autumn-2026",
@@ -1990,13 +1990,14 @@
           "title": "tenki.jp: Ueno Park"
         }
       ],
-      "checked": "2026-10-07",
+      "checked": "2026-10-26",
       "used_in": {
         "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
           "Late November to early December",
           "Early to mid-December"
         ]
-      }
+      },
+      "note": "Re-checked 2026-10-26: JWA spot pages (issued 25 October) unchanged: Jingu Gaien late Nov-early Dec, Rikugien early-mid Dec, Koishikawa Korakuen early Dec."
     },
     {
       "id": "jp.tokyo.rikugien-autumn-2026",
