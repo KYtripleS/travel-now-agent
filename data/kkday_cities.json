@@ -1,0 +1,23 @@
+{
+ "note": "City pages, each seen verbatim in search results on 2026-10-25. Used by ops/tp_deeplinks.py.",
+ "cities": {
+  "Bangkok": "https://www.kkday.com/en-us/destination/th-bangkok",
+  "Busan": "https://www.kkday.com/en/destination/kr-busan",
+  "Chiang Mai": "https://www.kkday.com/en/destination/th-chiang-mai",
+  "Da Nang": "https://www.kkday.com/en/destination/vn-da-nang",
+  "Fukuoka": "https://www.kkday.com/en/destination/jp-fukuoka-city",
+  "Hanoi": "https://www.kkday.com/en/destination/vn-hanoi",
+  "Hiroshima": "https://www.kkday.com/en/destination/jp-hiroshima-city",
+  "Hong Kong": "https://www.kkday.com/en/destination/hk-hong-kong",
+  "Jeju": "https://www.kkday.com/en-us/destination/kr-jeju-jeju-city",
+  "Kuala Lumpur": "https://www.kkday.com/en/destination/my-kuala-lumpur",
+  "Kyoto": "https://www.kkday.com/en-us/destination/jp-kyoto",
+  "Osaka": "https://www.kkday.com/en-us/destination/jp-osaka",
+  "Sapporo": "https://kkday.com/en-us/city/sapporo",
+  "Seoul": "https://www.kkday.com/en/destination/kr-seoul",
+  "Shanghai": "https://www.kkday.com/en-us/destination/cn-shanghai",
+  "Singapore": "https://www.kkday.com/en/destination/sg-singapore",
+  "Taipei": "https://www.kkday.com/en-us/destination/tw-taipei",
+  "Tokyo": "https://www.kkday.com/en-us/destination/jp-tokyo"
+ }
+}

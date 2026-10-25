@@ -29,16 +29,19 @@ HOME = {
     "airalo": ["https://airalo.tpx.lu/ctddHmQY"],
     "saily": ["https://saily.tpx.lu/hk5XU6Sm", "https://saily.tpx.lu/1RHGIfQA"],
     "klook": ["https://klook.tpx.lu/TgR5Suzs", "https://klook.tpx.lu/wgsZkatL"],
+    "welcomepickups": ["https://tpx.lu/YtuAbaB1"],
+    "kkday": ["https://kkday.tpx.lu/99SKEU6d", "https://kkday.tpx.lu/3364ws9s"],
 }
-# Klook's "things to do" page for the city a page is about (data/klook_cities.json)
-KLOOK_CITIES = json.loads((REPO / "data" / "klook_cities.json").read_text())["cities"]
+# Each brand's page for the city a page is about: data/<brand>_cities.json, {"cities": {City: url}}
+CITY_PAGES = {b: json.loads(p.read_text())["cities"]
+              for b in ("klook", "welcomepickups", "kkday")
+              if (p := REPO / "data" / f"{b}_cities.json").exists()}
 
 
-def _klook_city(name: str) -> str | None:
+def _city_key(name: str) -> str:
     import unicodedata
     plain = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().replace(",", "")
-    plain = {"Sydney NSW": "Sydney"}.get(plain, plain)
-    return KLOOK_CITIES.get(plain)
+    return {"Sydney NSW": "Sydney"}.get(plain, plain)
 ESIM = {  # page slug suffix: (Airalo slug, Saily slug)
     "japan": ("japan", "japan"), "south-korea": ("south-korea", "south-korea"), "taiwan": ("taiwan", "taiwan"),
     "thailand": ("thailand", "thailand"), "vietnam": ("vietnam", "vietnam"), "usa": ("united-states", "united-states"),
@@ -103,16 +106,18 @@ def _page_city(slug: str) -> str | None:
     sys.path.insert(0, str(REPO))
     import add_aeo
     dest = add_aeo.page_dest(slug)
-    return _klook_city(dest[0]) if dest else None
+    return _city_key(dest[0]) if dest else None
 
 
 def deep_for(slug: str, cache: dict) -> dict[str, str]:
     """{homepage short link: deep short link} for one page, from the cache only."""
     swaps = {}
-    city_url = _page_city(slug)
-    if city_url in cache:
-        for home in HOME["klook"]:
-            swaps[home] = cache[city_url]
+    city = _page_city(slug)
+    for brand, pages in CITY_PAGES.items():
+        url = pages.get(city) if city else None
+        if url in cache:
+            for home in HOME[brand]:
+                swaps[home] = cache[url]
     for brand, url in DEEP.get(_esim_page_for(slug) or "", {}).items():
         if url in cache:
             for home in HOME[brand]:
@@ -139,7 +144,7 @@ def main() -> None:
     args = ap.parse_args()
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     wanted = ({u for m in DEEP.values() for u in m.values()} | {u for m in CELLS.values() for _, u in m.values()}
-              | set(KLOOK_CITIES.values()))
+              | {u for m in CITY_PAGES.values() for u in m.values()})
     missing = sorted(wanted - cache.keys())
     if missing:
         if not args.write:
