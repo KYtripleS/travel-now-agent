@@ -1576,7 +1576,7 @@ def add_quick_picks(soup: BeautifulSoup, slug: str, article: Tag) -> int:
             li.append(w)
         a = _anchor(soup, stay22.hotel_rates(url), managed=False)
         a["class"] = "gy-qp-rates"
-        a.string = "Check rates →"
+        a.string = "Rates on Booking.com →"   # says where it goes, as the hotel rows do
         li.append(a)
         ol.append(li)
     if not ol.find("li"):
@@ -1598,14 +1598,21 @@ def add_quick_picks(soup: BeautifulSoup, slug: str, article: Tag) -> int:
 # the booking site) and, where we have one, our guide to the city's areas.
 # (city, stay22.PAGES slug or None, area label, address when there is no guide)
 CITY_RATES = {
-    # Ordered by worldwide demand, not by our Japan depth: the site's ChatGPT readers
-    # come mostly from the US, Australia, India and Europe (GA4, Sep-Oct 2026).
+    # Only the first CITY_RATES_FULL rows get a rates link; keep them to the cities most
+    # readers plan for: our two most-landed stay guides (Tokyo, Bangkok; GA4 Jul-Oct 2026)
+    # and the big cities for the US/UK/Australian/Indian readers ChatGPT sends us.
+    # register_stay.py appends new cities at the end, so this order holds.
     "hotel-booking-sites-comparison": [
         ("Tokyo", "where-to-stay-in-tokyo", None, None),
         ("Paris", "where-to-stay-in-paris", None, None),
+        ("London", "where-to-stay-in-london", None, None),
         ("New York", "where-to-stay-in-new-york", None, None),
-        ("Rovaniemi", "where-to-stay-in-rovaniemi-christmas", None, None),
-        ("New York", "where-to-stay-in-new-york-new-years-eve", None, None),
+        ("Bangkok", "where-to-stay-in-bangkok", None, None),
+        ("Rome", "where-to-stay-in-rome", None, None),
+        ("Barcelona", "where-to-stay-in-barcelona", None, None),
+        ("Dubai", "where-to-stay-in-dubai", None, None),
+        ("Rovaniemi (Christmas)", "where-to-stay-in-rovaniemi-christmas", None, None),
+        ("New York (New Year’s Eve)", "where-to-stay-in-new-york-new-years-eve", None, None),
         ("Cape Town", "where-to-stay-in-cape-town", None, None),
         ("Queenstown", "where-to-stay-in-queenstown", None, None),
         ("Chicago", "where-to-stay-in-chicago", None, None),
@@ -1614,7 +1621,6 @@ CITY_RATES = {
         ("Washington, DC", "where-to-stay-in-washington-dc", None, None),
         ("Miami", "where-to-stay-in-miami", None, None),
         ("San Diego", "where-to-stay-in-san-diego", None, None),
-        ("Dubai", "where-to-stay-in-dubai", None, None),
         ("Orlando", "where-to-stay-in-orlando", None, None),
         ("Hiroshima", "where-to-stay-in-hiroshima", None, None),
         ("Kanazawa", "where-to-stay-in-kanazawa", None, None),
@@ -1654,14 +1660,10 @@ CITY_RATES = {
         ("Berlin", "where-to-stay-in-berlin", None, None),
         ("Madrid", "where-to-stay-in-madrid", None, None),
         ("Bali", "where-to-stay-in-bali", None, None),
-        ("London", "where-to-stay-in-london", None, None),
         ("Prague", "where-to-stay-in-prague", None, None),
         ("Venice", "where-to-stay-in-venice", None, None),
         ("Florence", "where-to-stay-in-florence", None, None),
-        ("Barcelona", "where-to-stay-in-barcelona", None, None),
-        ("Rome", "where-to-stay-in-rome", None, None),
         ("Amsterdam", "where-to-stay-in-amsterdam", None, None),
-        ("Bangkok", "where-to-stay-in-bangkok", None, None),
         ("Seoul", "where-to-stay-in-seoul", None, None),
         ("Singapore", "where-to-stay-in-singapore", None, None),
         ("Hong Kong", "where-to-stay-in-hong-kong", None, None),

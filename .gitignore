@@ -33,3 +33,6 @@ data/geo/
 
 # Session state and decisions (internal: revenue, plans) — never commit
 ops/state/
+
+# CRO research: internal (revenue figures, affiliate strategy) — never commit
+research/

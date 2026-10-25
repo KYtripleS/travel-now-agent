@@ -170,9 +170,57 @@
        (add_aeo.PICKERS, and the city list's "our area guide" links) */
     var pk = e.target.closest('.gy-picker a, .gy-city-rates-list a[href$=".html"]');
     if (pk && window.gtag) gtag('event', 'picker_click', { page: location.pathname, target: pk.getAttribute('href') });
+    /* a hotel's name opens the hotel's own website (no commission, by design): counts
+       how much hotel intent leaves that way, next to the "Check rates" clicks */
+    var hn = e.target.closest('a.gy-hotel-name');
+    if (hn && window.gtag) gtag('event', 'hotel_site_click', { page: location.pathname,
+      placement: hn.closest('.gy-quick-picks') ? 'quickpick' : hn.closest('table') ? 'table' : 'prose' });
   }
   document.addEventListener('click', onClick, true);
   document.addEventListener('auxclick', onClick, true);
+})();
+
+/* Exposure and map use, the denominators the click counts lack.
+   aff_view: a commercial block was at least half on screen (or filled half the
+   screen), once per block type per page view, so affiliate_click by placement can be
+   read per reader who saw the block rather than per page view.
+   map_interact: the reader tapped or clicked into a hotel map. Clicks inside the
+   Stay22 iframe are cross-origin and invisible here; the iframe taking focus is the
+   one signal the page gets. Once per page view. Nothing about the reader is sent. */
+(function () {
+  var BLOCKS = [['.gy-verdict', 'verdict'], ['.gy-quick-picks', 'quickpick'], ['.gy-stay-map', 'map'],
+                ['.gy-city-rates', 'city'], ['.gy-rates', 'hotel'], ['.gy-cta', 'widget']];
+  var seen = {};
+  function send(name, p) { if (window.gtag) gtag('event', name, p); }
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        var kind = e.target.getAttribute('data-gy-view');
+        if (seen[kind] || !e.isIntersecting) return;
+        if (e.intersectionRatio < 0.5 && e.intersectionRect.height < innerHeight * 0.5) return;
+        seen[kind] = true;
+        send('aff_view', { page: location.pathname, placement: kind });
+        Array.prototype.forEach.call(document.querySelectorAll('[data-gy-view="' + kind + '"]'), function (el) { io.unobserve(el); });
+      });
+    }, { threshold: [0, 0.25, 0.5] });
+    BLOCKS.forEach(function (b) {
+      Array.prototype.forEach.call(document.querySelectorAll(b[0]), function (el) {
+        if (el.hasAttribute('data-gy-view')) return;   /* a block matching two selectors counts once */
+        el.setAttribute('data-gy-view', b[1]);
+        io.observe(el);
+      });
+    });
+  }
+  if (!document.querySelector('.gy-stay-map iframe')) return;
+  var used = false;
+  addEventListener('blur', function () {
+    setTimeout(function () {
+      var f = document.activeElement;
+      if (used || !f || f.tagName !== 'IFRAME' || !f.closest('.gy-stay-map')) return;
+      used = true;
+      send('map_interact', { page: location.pathname });
+    }, 0);
+  });
 })();
 
 /* "In this guide" (add_aeo.py): open beside the text on wide screens, where it

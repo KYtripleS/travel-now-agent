@@ -59,7 +59,8 @@ insert_after("add_aeo.py", 'cta=_stay_cta("where-to-stay-in-new-york", "See hote
              f'        cta=_stay_cta({q(slug)}, {q(v["cta_label"])})),\n', f"cta=_stay_cta({q(slug)}")
 insert_after("add_aeo.py", '"where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],\n',
              f'    {q(slug)}: {q(R["verdict_hotels"])},\n', f"    {q(slug)}: [")
-insert_after("add_aeo.py", '("New York", "where-to-stay-in-new-york", None, None),\n',
+# appended at the end of CITY_RATES: its first rows (the ones with a rates link) stay demand-ordered
+insert_after("add_aeo.py", '("Busan", "where-to-stay-in-busan", None, None),\n',
              f"        ({q(name)}, {q(slug)}, None, None),\n", f"({q(name)}, {q(slug)}, None, None)")
 insert_after("inject_tp.py", '"Before you land in New York", ["tiqets", "airalo", "aviasales"]),\n',
              f'    {q(art)}: cta(\n        "Before you land in {name}", ["tiqets", "welcomepickups", "airalo"]),\n',
