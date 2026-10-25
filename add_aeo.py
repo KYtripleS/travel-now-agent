@@ -1954,6 +1954,49 @@ def add_flight_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     return 1 if _insert_lower(article, box) else 0
 
 
+# --- trip-prep reminders (calendar) -------------------------------------------------
+# Travel is a few trips a year, so readers do not come back daily; but each trip has dated
+# tasks (room, flights, insurance, eSIM, packing), and each is a purchase at a predictable
+# time. The reader gives a departure date and downloads a calendar file of timed reminders,
+# each linking back to the page for that task (utm_source=calendar). Reminders work when they
+# make a specific expense salient (Karlan et al. 2016, Management Science) and a date plus a
+# time beats a date alone (Milkman et al. 2011, PNAS). Nothing leaves the browser.
+TRIP_INSURANCE = {"japan": "travel-insurance-japan.html", "south-korea": "travel-insurance-south-korea.html"}
+TRIP_PACKING = {"japan": "what-to-pack-for-japan.html", "thailand": "what-to-pack-for-southeast-asia.html",
+                "vietnam": "what-to-pack-for-southeast-asia.html"}
+
+
+def add_trip_reminders(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    dest = page_dest(slug)
+    if not dest:
+        return 0
+    city, guide, key = dest[0], dest[3], dest[4]
+    esim = f"best-esim-{key}-2026.html" if key and (SITE / "articles" / f"best-esim-{key}-2026.html").exists() \
+        else "best-travel-esim-2026.html"
+    box = soup.new_tag("aside", attrs={
+        "class": "gy-trip", "data-aeo": "1", "hidden": "",
+        "data-city": city, "data-page": f"{slug}.html",
+        "data-stay": f"{guide}.html" if guide else "hotel-booking-sites-comparison.html",
+        "data-esim": esim, "data-ins": TRIP_INSURANCE.get(key or "", "best-travel-insurance-2026.html"),
+        "data-pack": TRIP_PACKING.get(key or "", "pre-flight-checklist-48-hours.html")})
+    h = soup.new_tag("p", attrs={"class": "gy-widget-h"})
+    h.string = f"Going to {city}? Put the prep in your calendar"
+    blurb = soup.new_tag("p", attrs={"class": "gy-widget-blurb"})
+    blurb.string = ("Give your departure date and download timed reminders for the jobs that have a best moment: "
+                    "the room, the flights, insurance, the eSIM, packing. Each opens the page for that job. "
+                    "The file is made in your browser; nothing is sent to us.")
+    form = soup.new_tag("form", attrs={"class": "gy-trip-form"})
+    lab = soup.new_tag("label")
+    lab.append("Departure date")
+    lab.append(soup.new_tag("input", attrs={"type": "date", "name": "d", "required": ""}))
+    btn = soup.new_tag("button", attrs={"type": "submit"})
+    btn.string = "Add the reminders to my calendar"
+    form.extend([lab, btn])
+    out = soup.new_tag("ol", attrs={"class": "gy-trip-list", "hidden": ""})
+    box.extend([h, blurb, form, out])
+    return 1 if _insert_lower(article, box) else 0
+
+
 # --- hotels by city (the booking-site comparison) ---------------------------------
 # Readers reach the comparison from ChatGPT with a trip in mind; most never scroll.
 # Under the verdict, one line per city: hotels around a central spot (Stay22 picks
@@ -2552,6 +2595,7 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
         if dest and dest[4] and slug not in _esim_data():
             out["esim_lower"] = add_esim_plans(soup, slug, article, key=dest[4])
         out["flight_map"] = add_flight_map(soup, slug, article)
+        out["trip"] = add_trip_reminders(soup, slug, article)
         if slug in PICKERS:
             out["picker"] = add_picker(soup, slug, article)
         if slug in STAY_POINTERS:

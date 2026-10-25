@@ -190,7 +190,7 @@
    one signal the page gets. Once per page view. Nothing about the reader is sent. */
 (function () {
   var BLOCKS = [['.gy-verdict', 'verdict'], ['.gy-quick-picks', 'quickpick'], ['.gy-stay-map', 'map'],
-                ['.gy-city-rates', 'city'], ['.gy-esim-plans', 'plans'], ['.gy-flightmap', 'flightmap'], ['.gy-rates', 'hotel'], ['.gy-cta', 'widget']];
+                ['.gy-city-rates', 'city'], ['.gy-esim-plans', 'plans'], ['.gy-flightmap', 'flightmap'], ['.gy-trip', 'trip'], ['.gy-rates', 'hotel'], ['.gy-cta', 'widget']];
   var seen = {};
   function send(name, p) { if (window.gtag) gtag('event', name, p); }
   if ('IntersectionObserver' in window) {
@@ -600,6 +600,80 @@
         p.hidden = p.getAttribute('data-dest') !== sel.value;
       });
       if (window.gtag) gtag('event', 'plans_dest', { page: location.pathname, dest: sel.value });
+    });
+  });
+})();
+
+/* Trip-prep reminders (add_aeo.add_trip_reminders): from a departure date, a calendar file of
+   timed reminders, one per job, each linking back to the page for it (utm_source=calendar).
+   Built in the browser; nothing is sent anywhere. The date the reader gave a hotel map is
+   offered first. */
+(function () {
+  var boxes = document.querySelectorAll('.gy-trip');
+  if (!boxes.length) return;
+  var BASE = 'https://gentlyyonder.com/articles/';
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function ymd(d) { return d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()); }
+  function esc(s) { return String(s).replace(/\\/g, '\\\\').replace(/([,;])/g, '\\$1').replace(/\n/g, '\\n'); }
+  function fold(line) {                         /* RFC 5545: lines of at most 75 octets */
+    var out = '';
+    while (line.length > 73) { out += line.slice(0, 73) + '\r\n '; line = line.slice(73); }
+    return out + line;
+  }
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+  var saved = null;
+  try { saved = JSON.parse(sessionStorage.getItem('gy_trip') || 'null'); } catch (e) {}
+  Array.prototype.forEach.call(boxes, function (box) {
+    var form = box.querySelector('form'), list = box.querySelector('.gy-trip-list');
+    if (!form) return;
+    box.hidden = false;
+    var input = form.elements.d, t = new Date(today.getTime() + 864e5);
+    input.min = t.getFullYear() + '-' + pad(t.getMonth() + 1) + '-' + pad(t.getDate());
+    if (saved && saved.in && saved.in >= input.min) input.value = saved.in;
+    var city = box.getAttribute('data-city');
+    var JOBS = [
+      [60, 19, 'Book your room in ' + city, box.getAttribute('data-stay'), 'room'],
+      [45, 19, 'Check flight fares to ' + city, box.getAttribute('data-page'), 'flights'],
+      [21, 19, 'Sort travel insurance for ' + city, box.getAttribute('data-ins'), 'insurance'],
+      [7, 19, 'Set up your eSIM for ' + city, box.getAttribute('data-esim'), 'esim'],
+      [3, 19, 'Pack for ' + city, box.getAttribute('data-pack'), 'packing'],
+      [1, 18, 'Tomorrow you fly: the last checks', 'pre-flight-checklist-48-hours.html', 'lastchecks']
+    ];
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!input.value) { input.focus(); return; }
+      var p = input.value.split('-'), dep = new Date(+p[0], +p[1] - 1, +p[2]);
+      var stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+Z$/, 'Z');
+      var ev = [], items = [];
+      JOBS.forEach(function (j, i) {
+        var d = new Date(dep.getTime() - j[0] * 864e5);
+        if (d <= today) return;                   /* that moment has passed: no reminder */
+        var url = BASE + j[3] + '?utm_source=calendar&utm_medium=reminder&utm_campaign=trip_prep&utm_content=' + j[4];
+        var day = ymd(d), hh = pad(j[1]);
+        ev.push(['BEGIN:VEVENT', 'UID:' + day + '-' + j[4] + '-' + Math.random().toString(36).slice(2) + '@gentlyyonder.com',
+          'DTSTAMP:' + stamp, 'DTSTART:' + day + 'T' + hh + '0000', 'DTEND:' + day + 'T' + hh + '1500',
+          'SUMMARY:' + esc(j[2]), 'DESCRIPTION:' + esc(j[2] + ' (' + j[0] + ' days before you fly). Open: ' + url),
+          'URL:' + url, 'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:' + esc(j[2]), 'TRIGGER:PT0M', 'END:VALARM',
+          'END:VEVENT'].map(fold).join('\r\n'));
+        items.push('<li><strong>' + d.toLocaleDateString(undefined, { day: 'numeric', month: 'short' }) + ', '
+          + hh + ':00</strong> <a href="' + url + '">' + j[2] + '</a></li>');
+      });
+      if (!ev.length) { list.hidden = false; list.innerHTML = '<li>That date is too close for reminders: the jobs are all due now.</li>'; return; }
+      var ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Gently Yonder//Trip prep//EN', 'CALSCALE:GREGORIAN',
+        'METHOD:PUBLISH', 'X-WR-CALNAME:Trip to ' + esc(city)].join('\r\n') + '\r\n' + ev.join('\r\n') + '\r\nEND:VCALENDAR\r\n';
+      var name = 'trip-to-' + city.toLowerCase().replace(/[^a-z0-9]+/g, '-') + '.ics';
+      if (/iPhone|iPad|iPod/.test(navigator.userAgent)) {
+        location.href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);   /* iOS opens Calendar */
+      } else {
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(new Blob([ics], { type: 'text/calendar' }));
+        a.download = name; document.body.appendChild(a); a.click();
+        setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+      }
+      list.innerHTML = items.join(''); list.hidden = false;
+      try { sessionStorage.setItem('gy_trip', JSON.stringify({ in: input.value, n: (saved && saved.n) || '3', a: (saved && saved.a) || '2' })); } catch (err) {}
+      if (window.gtag) gtag('event', 'trip_reminders', { page: location.pathname, count: ev.length,
+        lead_days: Math.round((dep - today) / 864e5) });
     });
   });
 })();
