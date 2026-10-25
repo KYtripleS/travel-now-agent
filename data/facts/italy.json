@@ -1115,6 +1115,672 @@
           "the restaurant is closed at lunchtime on Saturdays and Sundays, and the nearby garage starts at €42 a night"
         ]
       }
+    },
+    {
+      "id": "it.venice-carnival.dates-2027",
+      "topic": "place",
+      "claim": "The official Venice Carnival site (carnevale.venezia.it, headed 'Carnevale di Venezia 2027') gives the 2027 carnival as 23 January to 9 February 2027, with Fat Tuesday on 9 February 2027; it had not published a theme or a day-by-day programme in October 2026.",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/en/",
+          "kind": "official",
+          "title": "Carnevale di Venezia 2027: official site"
+        },
+        {
+          "url": "https://carnevale.venezia.it/en/carnival-official-dinner-show/",
+          "kind": "official",
+          "title": "Carnival Official Dinner Show"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "gives its 2027 dates as 23 January to 9 February",
+          "It had not published a theme or a day-by-day programme"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Recheck for the 2027 programme, theme and opening-weekend events.",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.street-show-dates",
+      "topic": "place",
+      "claim": "The Venice Carnival 2027 Street Show performances are listed for 23-24 January, 30-31 January and 4-9 February 2027, in a 19 October 2026 call for artists that says artists will hear by 23 December 2026 'subject to any updates to the program'.",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/en/news/2026/carnevale-di-venezia-2027-aperte-le-candidature-per-artisti-e-performer/",
+          "kind": "official",
+          "title": "Venice Carnival 2027: applications open for artists and performers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "23-24 January, 30-31 January, 4-9 February",
+          "Venice Carnival Street Show performances"
+        ]
+      },
+      "recheck_days": 14,
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.dinner-show",
+      "topic": "place",
+      "claim": "The Carnival Official Dinner Show 2027 is at Ca' Vendramin Calergi on the Grand Canal (Cannaregio) on Sat 30 and Sun 31 January and from Thu 4 February (Fat Thursday) to Tue 9 February 2027, from 9pm; over-18s only, period costume compulsory, tickets personal, non-transferable, non-refundable and non-changeable, premium tables from EUR 650; 10 minutes' walk from the railway station, 15 from Piazzale Roma, or ACTV line 1 to San Marcuola.",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/en/carnival-official-dinner-show/",
+          "kind": "official",
+          "title": "Carnival Official Dinner Show"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "premium tables start from €650",
+          "a 10-minute walk from the railway station",
+          "with a compulsory period costume"
+        ]
+      },
+      "recheck_days": 14,
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.unpublished-2027",
+      "topic": "place",
+      "claim": "In October 2026 the carnival site's Festa delle Marie page and Street Show page still describe the 2026 edition, and the site does not mention the Volo dell'Angelo, the mask contest or a St Mark's Square stage programme for 2027.",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/en/the-venice-carnival/festa-delle-marie/",
+          "kind": "official",
+          "title": "Festa delle Marie"
+        },
+        {
+          "url": "https://carnevale.venezia.it/en/venice-carnival-street-show/",
+          "kind": "official",
+          "title": "Venice Carnival Street Show"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "Not yet published, as far as we could see",
+          "still describe the 2026 edition"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Recheck in mid-December and January for the official 2027 programme.",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.pattern-2026",
+      "topic": "place",
+      "claim": "The 2026 carnival (31 January to 17 February 2026) opened on Sat 31 January with a ball in St Mark's Square at 5pm, then on Sunday 1 February the Festa Veneziana water parade of about 100 decorated rowing boats from Punta della Dogana to Rialto at 11am and the start of the St Mark's Square stage programme; the 12 Marie were selected on 31 January, the Maria of the year was elected on 16 February and proclaimed in St Mark's Square on 17 February 2026.",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/en/news/2026/sabato-e-domenica-prende-il-via-il-carnevale-di-venezia-2026-olympus-apre-la-festa-tra-balli-cortei-acquei-carri-allegorici-e-spettacoli-diffusi/",
+          "kind": "official",
+          "title": "Carnevale di Venezia 2026 opening weekend"
+        },
+        {
+          "url": "https://carnevale.venezia.it/en/news/2026/carnevale-di-venezia-2026-dal-mito-allo-sport-venezia-celebra-milano-cortina/",
+          "kind": "official",
+          "title": "Carnevale di Venezia 2026 programme"
+        },
+        {
+          "url": "https://carnevale.venezia.it/festa-delle-marie-2026-scopri-il-programma/",
+          "kind": "official",
+          "title": "Festa delle Marie 2026: programme"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "a water parade of around 100 decorated rowing boats from Punta della Dogana to Rialto",
+          "Fat Tuesday was 17 February in 2026"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.pattern-2026-transport",
+      "topic": "transport",
+      "claim": "For the 2026 Festa Veneziana water parade on Sunday 1 February 2026, the organisers' press notice said ACTV lines 1 and 2 would be modified in the morning, running via the Giudecca Canal instead of the Grand Canal for some departures.",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/en/news/2026/sabato-e-domenica-prende-il-via-il-carnevale-di-venezia-2026-olympus-apre-la-festa-tra-balli-cortei-acquei-carri-allegorici-e-spettacoli-diffusi/",
+          "kind": "official",
+          "title": "Carnevale di Venezia 2026 opening weekend"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "lines 1 and 2 were rerouted away from the Grand Canal on the morning of the water parade"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.volo-angelo",
+      "topic": "history",
+      "claim": "The carnival site's 2020 and 2022 news pages describe the Volo dell'Angelo as a tradition in which the previous edition's winning Maria descends from the campanile into St Mark's Square, and the 2022 notice says it was not held that year because of pandemic restrictions; the 2027 site does not mention it.",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/news/2022/corteo-delle-marie/",
+          "kind": "official",
+          "title": "Corteo delle Marie (2022)"
+        },
+        {
+          "url": "https://carnevale.venezia.it/en/news/2020/marie-venicecarnival/",
+          "kind": "official",
+          "title": "Marie (2020)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "descends from the campanile into the Square",
+          "not held in 2022 because of pandemic restrictions"
+        ]
+      },
+      "recheck_days": 14,
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.square-rules",
+      "topic": "place",
+      "claim": "The Enjoy Respect Venezia guidance on the carnival site says St Mark's Square is a protected historic site, asks visitors not to sit on the ground or eat and drink on monuments, church steps, bridges, wells and quaysides, and lists fines of EUR 25-500 and possible removal for breaking local rules; it publishes no carnival-specific access rules for the Square for 2027.",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/en/useful-information/enjoy-respect-venezia/",
+          "kind": "official",
+          "title": "Enjoy Respect Venezia"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "says the Square is a protected historic site",
+          "lists fines of €25 to €500"
+        ]
+      },
+      "recheck_days": 30,
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.tax-rates",
+      "topic": "tax",
+      "claim": "Venice's imposta di soggiorno for hotels, per person per night: high season 1 February-31 December in the historic centre and Giudecca is EUR 1.00 / 2.00 / 3.50 / 4.50 / 5.00 for 1-5 stars; low season 1-31 January is EUR 0.70 / 1.40 / 2.40 / 3.10 / 3.50; mainland (Mestre) high season EUR 0.70 / 1.40 / 2.40 / 3.10 / 3.50 and January EUR 0.50 / 1.00 / 1.70 / 2.20 / 2.40; Lido and islands four-star EUR 3.60 high season and EUR 2.50 January; B&B/holiday flats (lions) EUR 2-5 in the centre in high season, 30% less in January. Table valid from 1 April 2025.",
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Tributi/ids/TARIFFE%20IDS%20-%20STRUTTURE%20con%20classificazione%20L.R.%2011_2013_valide%20dal%2001.04.2025.pdf",
+          "kind": "official",
+          "title": "City of Venice: imposta di soggiorno rates (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "costs €3.10 per person per night until 31 January and €4.50 after",
+          "a four-star there pays €2.50 in January and €3.60 from 1 February",
+          "January is low season, and high season runs from 1 February to 31 December"
+        ]
+      },
+      "recheck_days": 60,
+      "note": "Table is valid from 1 April 2025; check the Comune page for a 2027 schedule.",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.tax-rules",
+      "topic": "tax",
+      "claim": "Venice's tourist tax exempts children under 10 (not yet 10) and applies only to the first five nights of a stay.",
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Tributi/ids/TARIFFE%20IDS%20-%20STRUTTURE%20con%20classificazione%20L.R.%2011_2013_valide%20dal%2001.04.2025.pdf",
+          "kind": "official",
+          "title": "City of Venice: imposta di soggiorno rates (PDF), exemptions page"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "Children under 10 are exempt, and the tax stops after five nights"
+        ]
+      },
+      "recheck_days": 60,
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.tax-example",
+      "topic": "tax",
+      "claim": "Editorial arithmetic from the city's table: a couple staying four nights 5-9 February pays 4 x 2 x EUR 4.50 = EUR 36 in a four-star in the historic centre and 4 x 2 x EUR 3.10 = EUR 24.80 in a four-star in Mestre; four nights 29 January-2 February (three January nights at EUR 3.10, one at EUR 4.50, each person) comes to EUR 27.60 for two, assuming each night is charged at the rate for its own date.",
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Tributi/ids/TARIFFE%20IDS%20-%20STRUTTURE%20con%20classificazione%20L.R.%2011_2013_valide%20dal%2001.04.2025.pdf",
+          "kind": "official",
+          "title": "City of Venice: imposta di soggiorno rates (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "pays 4 × 2 × €4.50 = €36 in tax",
+          "€27.60 in all"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.access-fee-2027",
+      "topic": "tax",
+      "claim": "The City of Venice's council (giunta) approved the 2027 access-fee (contributo di accesso) calendar on 15 October 2026: 72 days from Good Friday 26 March to 15 August 2027, 8.30am-4.30pm, maximum fee EUR 10, with none in January or February; exclusions/exemptions, booking and payment rules still to be set.",
+      "sources": [
+        {
+          "url": "https://cda.ve.it/en/",
+          "kind": "official",
+          "title": "City of Venice access fee site (cda.ve.it)"
+        },
+        {
+          "url": "https://live.comune.venezia.it/it/2026/10/contributo-di-accesso-la-giunta-approva-il-calendario-2027-72-giornate-da-venerdi-santo",
+          "kind": "official",
+          "title": "Comune di Venezia: Contributo di accesso, la Giunta approva il calendario 2027"
+        },
+        {
+          "url": "https://www.lavocedivenezia.it/venezia-ecco-il-calendario-2027-del-contributo-di-accesso-72-giornate-invece-delle-60-scorse/",
+          "kind": "news",
+          "title": "La Voce di Venezia: calendario 2027, 72 giornate"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "72 days from Good Friday, 26 March, to 15 August, with a maximum fee of €10",
+          "None of those days falls in January or February"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "The Comune's own pages (cda.ve.it, live.comune.venezia.it) are behind bot protection and could not be opened by script; the claim was taken from the Comune's release as shown in search extracts and confirmed in La Voce di Venezia, Nordest24 and QdP. Editor: open cda.ve.it in a browser and confirm before publishing.",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.access-fee-2026",
+      "topic": "tax",
+      "claim": "The 2026 access-fee trial applied on selected days between 3 April and 26 July 2026 (60 days per the city's 2026 scheme) and has ended.",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/en/useful-information/enjoy-respect-venezia/",
+          "kind": "official",
+          "title": "Enjoy Respect Venezia"
+        },
+        {
+          "url": "https://www.lavocedivenezia.it/venezia-ecco-il-calendario-2027-del-contributo-di-accesso-72-giornate-invece-delle-60-scorse/",
+          "kind": "news",
+          "title": "La Voce di Venezia"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "The 2026 trial ran on 60 days between 3 April and 26 July and has ended"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.alilaguna",
+      "topic": "fare",
+      "claim": "Alilaguna's airport-Venice boat costs EUR 18 single and EUR 32 return, with one heavy bag and one hand luggage included; the Blue Line calls at Murano, Lido, Arsenale, San Zaccaria, San Marco, Zattere and the railway station, the Orange Line at Madonna dell'Orto, Guglie, San Stae, Rialto, Sant'Angelo, Ca' Rezzonico and Santa Maria del Giglio, and the Red Line is marked summer seasonal.",
+      "sources": [
+        {
+          "url": "https://www.alilaguna.it/en/biglietti/tariffe",
+          "kind": "operator",
+          "title": "Alilaguna: fares and tickets"
+        },
+        {
+          "url": "https://www.alilaguna.it/en/linee",
+          "kind": "operator",
+          "title": "Alilaguna: lines"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "Alilaguna runs to the historic centre for €18 one way or €32 return",
+          "Its Red Line is marked summer seasonal"
+        ]
+      },
+      "recheck_days": 60,
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.actv-fares",
+      "topic": "fare",
+      "claim": "ACTV/AVM standard 75-minute Rete Unica ticket EUR 9.50; passes EUR 25 (1 day, Venezia Daily Pass), EUR 35 (2 days), EUR 45 (3 days), EUR 65 (7 days); Aerobus 75-minute ticket EUR 10, return EUR 18, Aerobus plus 90-minute Rete Unica EUR 18; Mestre Daily Pass EUR 5 (app only) covers the mainland bus and tram network and Trenitalia regional trains within the municipality.",
+      "sources": [
+        {
+          "url": "https://avm.avmspa.it/en/content/venice-urban-services-0",
+          "kind": "operator",
+          "title": "AVM: Venice urban services and fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "a single ACTV ticket costs €9.50 and lasts 75 minutes",
+          "Passes cost €25 for a day, €35 for two, €45 for three and €65 for seven",
+          "the city's Mestre Daily Pass, €5 on its app"
+        ]
+      },
+      "recheck_days": 60,
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.atvo",
+      "topic": "transport",
+      "claim": "ATVO's Venice Airport Bus Express page lists unlimited baggage and says the bus stops are at exit D, stop no. 3 for Venice and stop no. 4 for Mestre.",
+      "sources": [
+        {
+          "url": "https://www.atvo.it/en/services-provided/airport-services/venice-airport-bus-express",
+          "kind": "operator",
+          "title": "ATVO: Venice Airport Bus Express"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "stop 3 for Venice and stop 4 for Mestre, with no limit on baggage"
+        ]
+      },
+      "recheck_days": 60,
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.traghetti",
+      "topic": "fare",
+      "claim": "Gondola ferries (traghetti) cross the Grand Canal at Santa Sofia, San Tomà, Santa Maria del Giglio and Punta della Dogana and cost EUR 2.00 for tourists (EUR 0.70 for Venezia Unica residents); the historic centre has no roads and bicycles are prohibited, even when pushed.",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/en/useful-information/how-to-get-to-venice/",
+          "kind": "official",
+          "title": "How to get to Venice"
+        },
+        {
+          "url": "https://carnevale.venezia.it/en/useful-information/enjoy-respect-venezia/",
+          "kind": "official",
+          "title": "Enjoy Respect Venezia"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "cost €2 for visitors and run from Santa Sofia, San Tomà, Santa Maria del Giglio and Punta della Dogana",
+          "bicycles are prohibited, even pushed"
+        ]
+      },
+      "recheck_days": 60,
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-concordia",
+      "topic": "hotel",
+      "claim": "Hotel Concordia is a four-star in Venice with 51 rooms in a 17th-century Venetian house, run by the Beggiato family for four generations; it says it is the only hotel overlooking Piazza San Marco and that most rooms look onto the basilica's spires and mosaics.",
+      "sources": [
+        {
+          "url": "https://www.hotelconcordia.com/hotel-4-star-hotels-in-venice-italy",
+          "kind": "official",
+          "title": "Hotel Concordia: official site"
+        },
+        {
+          "url": "https://www.hotelconcordia.com/location-4-star-hotels-in-venice",
+          "kind": "official",
+          "title": "Hotel Concordia: location"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "A four-star of 51 rooms in a 17th-century Venetian house",
+          "the only hotel overlooking Piazza San Marco"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-monaco",
+      "topic": "hotel",
+      "claim": "Hotel Monaco & Grand Canal is at San Marco 1332 in Palazzo Dandolo, site of the Ridotto (1638), which its own history says became a theatre of masks and gambling for six months of each year, during Carnival; rooms run from the 22 sqm Golden Leaf room to the 50 sqm Casanova Alcove.",
+      "sources": [
+        {
+          "url": "https://www.hotelmonaco.it/en/",
+          "kind": "official",
+          "title": "Hotel Monaco & Grand Canal: official site"
+        },
+        {
+          "url": "https://www.hotelmonaco.it/en/rooms-suites-hotel-monaco-venice/",
+          "kind": "official",
+          "title": "Hotel Monaco & Grand Canal: rooms and suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "At San Marco 1332, in Palazzo Dandolo",
+          "from the 22 m² Golden Leaf to the 50 m² Casanova Alcove"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-metropole",
+      "topic": "hotel",
+      "claim": "Hotel Metropole is a five-star at Riva degli Schiavoni 4149 next to the Pieta church, with Piazza San Marco 5 minutes' walk away by its count; its spa has a heated pool (37 C in winter) and hammam, 90 minutes of exclusive use costs EUR 200 per two people, and its offers page lists Christmas and New Year's packages but no Carnival offer.",
+      "sources": [
+        {
+          "url": "https://www.hotelmetropole.com/en/hotel-with-spa-venice",
+          "kind": "official",
+          "title": "Hotel Metropole: official site"
+        },
+        {
+          "url": "https://www.hotelmetropole.com/en/hotel-venice-riva-degli-schiavoni",
+          "kind": "official",
+          "title": "Hotel Metropole: location"
+        },
+        {
+          "url": "https://www.hotelmetropole.com/en/5-star-hotel-venice-offers",
+          "kind": "official",
+          "title": "Hotel Metropole: offers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "A five-star on Riva degli Schiavoni 4149",
+          "90 minutes of exclusive use is €200 for two"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-paganelli",
+      "topic": "hotel",
+      "claim": "Hotel Paganelli is a three-star superior at Riva degli Schiavoni 4182 with views of the San Marco basin and San Giorgio, rooftop terraces, 24-hour reception, a lift and the Sestante osteria; its page puts the San Zaccaria stop about 50 metres away.",
+      "sources": [
+        {
+          "url": "https://www.hotelpaganelli.com/",
+          "kind": "official",
+          "title": "Hotel Paganelli: official site"
+        },
+        {
+          "url": "https://www.hotelpaganelli.com/location/",
+          "kind": "official",
+          "title": "Hotel Paganelli: location"
+        },
+        {
+          "url": "https://www.hotelpaganelli.com/rooms/",
+          "kind": "official",
+          "title": "Hotel Paganelli: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "A three-star superior at Riva degli Schiavoni 4182",
+          "the San Zaccaria stop about 50 metres away"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-sagredo",
+      "topic": "hotel",
+      "claim": "Ca' Sagredo Hotel is a 15th-century palace at Campo Santa Sofia by the Ca' d'Oro, declared a national monument, with a frescoed ballroom, 42 rooms and suites and the L'Alcova restaurant on the Grand Canal opposite the Rialto Market; it also markets itself for weddings, parties and events.",
+      "sources": [
+        {
+          "url": "https://www.casagredohotel.com/",
+          "kind": "official",
+          "title": "Ca' Sagredo Hotel: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "A 15th-century palace at Campo Santa Sofia",
+          "42 rooms and suites"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-abbazia",
+      "topic": "hotel",
+      "claim": "Hotel Abbazia is a three-star at Calle Priuli dei Cavaletti, Cannaregio 68, in a former Discalced Carmelite abbey about 100 metres from Santa Lucia station with no bridges to cross on the way, and a garden.",
+      "sources": [
+        {
+          "url": "https://www.abbaziahotel.com/location.htm",
+          "kind": "official",
+          "title": "Hotel Abbazia: official site"
+        },
+        {
+          "url": "https://www.abbaziahotel.com/",
+          "kind": "official",
+          "title": "Hotel Abbazia: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "Calle Priuli dei Cavaletti 68",
+          "about a hundred metres from Santa Lucia"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-combo",
+      "topic": "hotel",
+      "claim": "Combo Venezia is a hostel in the former Convento dei Crociferi at Campo dei Gesuiti, Cannaregio 4878, a few steps from Rialto and the fish market, with 255 beds, all rooms ensuite, and a 24/7 reception.",
+      "sources": [
+        {
+          "url": "https://thisiscombo.com/en/destinations/venezia",
+          "kind": "official",
+          "title": "Combo Venezia: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "with 255 beds in twin rooms, lofts, studios and shared rooms",
+          "a few steps from Rialto and its fish market"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-american",
+      "topic": "hotel",
+      "claim": "Hotel American Dinesen is a four-star boutique hotel at Dorsoduro 628 on the San Vio canal with a 24-hour concierge, cocktail bar, terrace and water mooring; its room list names Classic, Superior & Canal View and Dependance categories.",
+      "sources": [
+        {
+          "url": "https://www.hotelamerican.it/en/",
+          "kind": "official",
+          "title": "Hotel American Dinesen: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "A four-star boutique hotel at Dorsoduro 628",
+          "a Dependance and a Canal View category"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-accademia",
+      "topic": "hotel",
+      "claim": "Hotel Pensione Accademia is a three-star superior in Villa Maravege, a 17th-century residence at Fondamenta Bollani 1058, with two gardens, family run for over thirty years; it counts 12 minutes to La Fenice and 15 to St Mark's Square, its Basic Double is 12 sqm and the historic building has no elevator.",
+      "sources": [
+        {
+          "url": "https://www.pensioneaccademia.it/en/hotel-venice-dorsoduro",
+          "kind": "official",
+          "title": "Hotel Pensione Accademia: official site"
+        },
+        {
+          "url": "https://www.pensioneaccademia.it/en/rooms-downtown-venice",
+          "kind": "official",
+          "title": "Hotel Pensione Accademia: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "La Fenice is 12 minutes away and St Mark's Square 15",
+          "the Basic Double rooms are 12 m²"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-generator",
+      "topic": "hotel",
+      "claim": "Generator Venice is a hostel in a former warehouse at Fondamenta Zitelle 86 on Giudecca with a 24-hour reception, bar, terrace and female-only dorms; it says every room has a view of the gardens, the Lido, the Grand Canal or Piazza San Marco, and that vaporetto lines 2 and 4.1 stop at Zitelle, 100 metres away.",
+      "sources": [
+        {
+          "url": "https://staygenerator.com/hostels/venice",
+          "kind": "official",
+          "title": "Generator Venice: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "at Fondamenta Zitelle 86",
+          "lines 2 and 4.1 a hundred metres away"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-plaza",
+      "topic": "hotel",
+      "claim": "Hotel Plaza is a four-star of 209 rooms facing Venice Mestre station, which it says is less than 10 minutes by train from Venice island and 17 minutes by bus from the airport.",
+      "sources": [
+        {
+          "url": "https://www.hotelplazavenice.com/",
+          "kind": "official",
+          "title": "Hotel Plaza: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "A four-star of 209 rooms facing Venice Mestre station"
+        ]
+      },
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "it.venice-carnival.hotel-anda",
+      "topic": "hotel",
+      "claim": "Anda Venice Hostel is at Via Ortigara 10, Mestre, 200 metres from Mestre station, with mixed and female dorms of 6, 7 and 9 beds (ensuite) and ensuite doubles; it puts Venice a 10-minute train or bus ride away and offers 10% off and a free drink for direct bookings.",
+      "sources": [
+        {
+          "url": "https://www.andavenice.com/hostel-mestre-station/",
+          "kind": "official",
+          "title": "Anda Venice Hostel: official site"
+        },
+        {
+          "url": "https://www.andavenice.com/rooms/",
+          "kind": "official",
+          "title": "Anda Venice Hostel: rooms"
+        },
+        {
+          "url": "https://www.andavenice.com/special-offers/",
+          "kind": "official",
+          "title": "Anda Venice Hostel: offers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-venice-carnival.html": [
+          "A design hostel at Via Ortigara 10",
+          "10% off and a drink"
+        ]
+      },
+      "checked": "2026-10-26"
     }
   ]
 }

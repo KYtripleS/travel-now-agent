@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-venice-carnival": dict(
+        text="For Carnival, choose your kind of night first: San Marco to wake up in the costumes, Cannaregio for quieter streets. The Metropole is the splurge, the Concordia looks onto the Square and Combo Venezia is the budget pick. The tax at a four-star is €3.10 a night until 31 January, €4.50 after.",
+        link_text="San Marco",
+        cta=_stay_cta("where-to-stay-in-venice-carnival", "See hotels around San Marco")),
     "where-to-stay-in-whistler": dict(
         text="For a first ski trip, stay in Whistler Village: restaurants, bars and the gondolas on foot. Choose Fairmont Chateau Whistler for Blackcomb ski-in, ski-out, Aava for a lower price, Hilton for a valet at the lifts. Taxes add 16% to the room price.",
         link_text="Whistler Village",
@@ -1477,6 +1481,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-venice-carnival": ["Hotel Metropole", "Hotel Concordia", "Combo Venezia"],
     "where-to-stay-in-whistler": ["Fairmont Chateau Whistler", "Aava Whistler Hotel", "Hilton Whistler Resort & Spa"],
     "where-to-stay-in-edinburgh-hogmanay": ["The Balmoral", "Sheraton Grand Hotel & Spa, Edinburgh", "Motel One Edinburgh-Princes"],
     "where-to-stay-in-rovaniemi-christmas": ["Arctic Light Hotel", "Santa's Hotel Rudolf", "Santa's Igloos Arctic Circle"],
@@ -2082,6 +2087,7 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Venice (Carnival)", "where-to-stay-in-venice-carnival", None, None),
         ("Whistler", "where-to-stay-in-whistler", None, None),
         ("Edinburgh (Hogmanay)", "where-to-stay-in-edinburgh-hogmanay", None, None),
     ],
@@ -2496,6 +2502,9 @@ STAY_POINTERS = {
          'Skiing in Canada? <a href="where-to-stay-in-whistler.html">Whistler accommodation for 2026/27</a> adds '
          'up the 8% PST, the 3% hotel tax and the 5% GST on a room, with a worked example.'),
     ],
+    "where-to-stay-in-venice": ("intro",
+        'Coming for Carnival? <a href="where-to-stay-in-venice-carnival.html">Where to stay in Venice for Carnival '
+        '2027</a> matches the areas to the parades and the square, with the tax rate that rises on 1 February.'),
     "where-to-stay-in-vancouver": ("intro",
         'Going on to the mountains? <a href="where-to-stay-in-whistler.html">Whistler accommodation for 2026/27</a> '
         'compares the village bases, the Skylynx bus from the airport and the taxes on a ski week.'),

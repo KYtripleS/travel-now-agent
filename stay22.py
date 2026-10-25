@@ -114,6 +114,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-venice-carnival": dict(area="San Marco", lat=45.434, lng=12.3388, zoom=15,
+                                                address="Piazza San Marco, 30124 Venice, Italy"),
     "where-to-stay-in-whistler": dict(area="Whistler Village", lat=50.1131, lng=-122.9567, zoom=15,
                                          address="4050 Whistler Way, Whistler, BC, Canada"),
     "where-to-stay-in-edinburgh-hogmanay": dict(area="Princes Street Gardens", lat=55.9506, lng=-3.1983, zoom=15,
@@ -1264,6 +1266,12 @@ HOTELS = {
     "Nita Lake Lodge": _B + "ca/nita-lake-lodge.html",
     "Legends Whistler": _B + "ca/legends.html",
     "HI Whistler": _B + "ca/hi-whistler.html",
+    # Venice, where-to-stay-in-venice-carnival (Booking.com pages confirmed by hotel name and city)
+    "Hotel Concordia": _B + "it/concordia.html",
+    "Hotel Metropole": _B + "it/metropole-spa-wellness.html",
+    "Hotel Paganelli": _B + "it/paganelli.html",
+    "Hotel American Dinesen": _B + "it/american.html",
+    "Generator Venice": _B + "it/ostello-venezia.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
