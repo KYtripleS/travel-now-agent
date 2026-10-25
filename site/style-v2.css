@@ -5027,3 +5027,17 @@ body.gy-has-aff-bar { padding-bottom: 64px; }
 .article .gy-trip-list { margin: 10px 0 0; padding-left: 20px; font: .9rem/1.6 var(--sans); }
 .article .gy-trip-list a { color: var(--cta); }
 @media (max-width: 480px) { .article .gy-trip-form label, .article .gy-trip-form button { flex: 1 1 100%; } }
+
+/* "Your trip" card (gy-reveal.js): the reader's next prep job on a return visit */
+.gy-mytrip { max-width: 760px; margin: 14px auto 0; padding: 12px 16px; border: 1.5px solid var(--cta); border-radius: 12px;
+  background: var(--cta-tint); font-family: var(--sans); }
+@media (max-width: 800px) { .gy-mytrip { margin: 12px 16px 0; } }
+.gy-mytrip p { margin: 0; }
+.gy-mytrip-h { font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--cta); }
+.gy-mytrip-next { margin: 4px 0 8px !important; font-size: 1rem; color: var(--ink); }
+.gy-mytrip-next a { color: var(--cta); font-weight: 700; }
+.gy-mytrip-next span { color: var(--muted); font-size: .85rem; margin-left: 4px; }
+.gy-mytrip-act { display: flex; flex-wrap: wrap; gap: 8px; }
+.gy-mytrip-act button { min-height: 36px; padding: 6px 14px; border: 1px solid var(--rule); border-radius: 999px; background: #fff;
+  color: var(--ink); font: 600 .82rem var(--sans); cursor: pointer; }
+.gy-mytrip-act button[data-act="done"] { border-color: var(--cta); color: var(--cta); }

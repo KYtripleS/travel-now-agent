@@ -1,3 +1,15 @@
+/* The reader's trip, kept in this browser only (privacy.html, section 6): the destination,
+   the departure date and the jobs marked done, so the next visit can show the next job. */
+window.gySaveTrip = function (box, dep) {
+  var keys = ['city', 'page', 'stay', 'ins', 'esim', 'pack'], t = { dep: dep, done: [] };
+  keys.forEach(function (k) { t[k] = box.getAttribute('data-' + k); });
+  try {
+    var old = JSON.parse(localStorage.getItem('gy_my_trip') || 'null');
+    if (old && old.city === t.city && old.dep === t.dep) t.done = old.done || [];
+    localStorage.setItem('gy_my_trip', JSON.stringify(t));
+  } catch (e) {}
+};
+
 /* Gently Yonder — scroll reveal (dependency-free, fail-safe).
    Fades content blocks in as they enter the viewport. Design rules:
    - Elements already in the first viewport are never hidden.
@@ -504,6 +516,8 @@
       if (!t.in) { form.elements['in'].focus(); return; }
       try { sessionStorage.setItem('gy_trip', JSON.stringify(t)); } catch (err) {}
       apply(form, t);
+      var tb = document.querySelector('.gy-trip');
+      if (tb && window.gySaveTrip) gySaveTrip(tb, t.in);
       if (window.gtag) gtag('event', 'map_dates', { page: location.pathname, nights: +t.n, lead_days: Math.round((new Date(t.in) - new Date(today)) / 864e5) });
     });
   });
@@ -671,9 +685,60 @@
         setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
       }
       list.innerHTML = items.join(''); list.hidden = false;
+      if (window.gySaveTrip) gySaveTrip(box, input.value);
       try { sessionStorage.setItem('gy_trip', JSON.stringify({ in: input.value, n: (saved && saved.n) || '3', a: (saved && saved.a) || '2' })); } catch (err) {}
       if (window.gtag) gtag('event', 'trip_reminders', { page: location.pathname, count: ev.length,
         lead_days: Math.round((dep - today) / 864e5) });
     });
+  });
+})();
+
+/* "Your trip" card: on a return visit, the trip's next job, with its link. Shown at the top of
+   the page until the reader marks every job done, forgets the trip, or the departure passes. */
+(function () {
+  var trip = null;
+  try { trip = JSON.parse(localStorage.getItem('gy_my_trip') || 'null'); } catch (e) { return; }
+  if (!trip || !trip.dep || !trip.city) return;
+  var p = trip.dep.split('-'), dep = new Date(+p[0], +p[1] - 1, +p[2]);
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+  if (dep < today) { try { localStorage.removeItem('gy_my_trip'); } catch (e) {} return; }
+  var JOBS = [[60, 'Book your room in ' + trip.city, trip.stay, 'room'],
+              [45, 'Check flight fares to ' + trip.city, trip.page, 'flights'],
+              [21, 'Sort travel insurance for ' + trip.city, trip.ins, 'insurance'],
+              [7, 'Set up your eSIM for ' + trip.city, trip.esim, 'esim'],
+              [3, 'Pack for ' + trip.city, trip.pack, 'packing'],
+              [1, 'The last checks before you fly', 'pre-flight-checklist-48-hours.html', 'lastchecks']];
+  var done = trip.done || [];
+  var next = JOBS.filter(function (j) { return done.indexOf(j[3]) < 0; })[0];
+  if (!next) return;
+  var days = Math.round((dep - today) / 864e5);
+  var due = new Date(dep.getTime() - next[0] * 864e5);
+  var when = due <= today ? 'now' : 'by ' + due.toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
+  var inArticle = /\/articles\//.test(location.pathname);
+  var href = (inArticle ? '' : 'articles/') + next[2];
+  var card = document.createElement('aside');
+  card.className = 'gy-mytrip';
+  card.setAttribute('aria-label', 'Your trip');
+  card.innerHTML = '<p class="gy-mytrip-h">Your trip: ' + trip.city + ', ' + dep.toLocaleDateString(undefined,
+      { day: 'numeric', month: 'short' }) + ' (' + (days === 0 ? 'today' : days + (days === 1 ? ' day' : ' days')) + ')</p>'
+    + '<p class="gy-mytrip-next">Next: <a href="' + href + '">' + next[1] + ' &rarr;</a> <span>' + when + '</span></p>'
+    + '<p class="gy-mytrip-act"><button type="button" data-act="done">Mark as done</button>'
+    + '<button type="button" data-act="forget">Forget this trip</button></p>';
+  /* under the page's opening: an article's title block sits above <main>; the homepage's hero
+     sits outside it and <main> starts far down, so the card goes straight after the hero there */
+  var hero = document.querySelector('.gy-masthead, .hero');
+  if (hero && !hero.closest('main')) hero.parentNode.insertBefore(card, hero.nextSibling);
+  else { var host = document.querySelector('main') || document.body; host.insertBefore(card, host.firstChild); }
+  function ev(name, extra) { if (window.gtag) gtag('event', name, Object.assign({ page: location.pathname, job: next[3] }, extra || {})); }
+  ev('mytrip_view', { days: days });
+  card.addEventListener('click', function (e) {
+    var a = e.target.closest('a'), b = e.target.closest('button');
+    if (a) ev('mytrip_click');
+    if (!b) return;
+    try {
+      if (b.getAttribute('data-act') === 'forget') { localStorage.removeItem('gy_my_trip'); ev('mytrip_forget'); }
+      else { done.push(next[3]); trip.done = done; localStorage.setItem('gy_my_trip', JSON.stringify(trip)); ev('mytrip_done'); }
+    } catch (err) {}
+    card.remove();
   });
 })();
