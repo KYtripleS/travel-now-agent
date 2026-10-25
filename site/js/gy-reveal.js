@@ -122,6 +122,7 @@
        * the answer-first layout (add_aeo.py) converts better than the old
        * end-of-article links. */
       var placement = a.closest('.gy-verdict') ? 'verdict'
+        : a.closest('.gy-esim-plans') ? 'plans'
         : a.closest('table') ? 'table'
         : a.closest('.gy-section-link') ? 'section'
         : a.closest('.gy-pick') ? 'pick'
@@ -189,7 +190,7 @@
    one signal the page gets. Once per page view. Nothing about the reader is sent. */
 (function () {
   var BLOCKS = [['.gy-verdict', 'verdict'], ['.gy-quick-picks', 'quickpick'], ['.gy-stay-map', 'map'],
-                ['.gy-city-rates', 'city'], ['.gy-rates', 'hotel'], ['.gy-cta', 'widget']];
+                ['.gy-city-rates', 'city'], ['.gy-esim-plans', 'plans'], ['.gy-rates', 'hotel'], ['.gy-cta', 'widget']];
   var seen = {};
   function send(name, p) { if (window.gtag) gtag('event', name, p); }
   if ('IntersectionObserver' in window) {

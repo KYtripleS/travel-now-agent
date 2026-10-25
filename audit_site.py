@@ -213,10 +213,11 @@ def check_local_links() -> None:
 
 def check_sync() -> None:
     """
-    Every HTML, CSS, and CSV file in site/ must exist in docs/ with identical content.
+    Every HTML, CSS, JS, and CSV file in site/ must exist in docs/ with identical content.
+    (JS was missing until 2026-10-25: a gy-reveal.js edit shipped without reaching docs/.)
     Files in SYNC_ONLY_IN_DOCS and SYNC_IGNORE are excluded from comparison.
     """
-    suffixes = {".html", ".css", ".csv"}
+    suffixes = {".html", ".css", ".js", ".csv"}
 
     site_rel = {
         p.relative_to(SITE_DIR)
