@@ -4933,3 +4933,77 @@ body.gy-has-aff-bar { padding-bottom: 64px; }
 .article .gy-flightmap-from button[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: #f8f4e9; }
 .article .gy-flightmap-frame { min-height: 440px; }
 @media (max-width: 600px) { .article .gy-flightmap-frame { min-height: 360px; } }
+
+/* ── 14. Partner actions: blue and rounded (operator, 2026-10-25) ─────────────────────
+   Every action that leaves for a partner is blue; site links stay navy with the gold rule.
+   Why: blue is the web's strongest "clickable" cue (NN/g, Guidelines for Visualizing Links);
+   the navy buttons matched the body text and rules around them, and an item that differs
+   from its surroundings is the one noticed (isolation effect); people prefer curved shapes,
+   reliably if not universally (Chuquichambi et al. 2022, Ann. N.Y. Acad. Sci., g = 0.39);
+   blue reads as competent (Labrecque & Milne 2012, J. Acad. Mark. Sci.). Contrast: white on
+   #0B63D6 is 5.6:1, #0B63D6 on the cream page 5.1:1 (WCAG 1.4.3 AA).
+   Hierarchy: filled = the one main action of a block; outlined = the other partner actions;
+   blue text = partner links inside sentences. */
+:root { --cta: #0B63D6; --cta-hover: #0A4FAE; --cta-tint: #EAF1FC; }
+
+/* filled: the main action */
+.article .gy-verdict-cta a,
+.article .gy-esim-plans a.gy-plan-btn,
+.gy-map-dates button,
+.gy-aff-bar a {
+  display: inline-block; min-height: 44px; padding: 12px 26px; border: 0; border-radius: 999px;
+  background: var(--cta); color: #fff; font: 700 1rem/1.25 var(--sans); text-decoration: none; text-align: center;
+  box-shadow: 0 2px 0 var(--cta-hover), 0 6px 16px rgba(11, 99, 214, .22);
+  transition: background-color .12s ease, transform .12s ease, box-shadow .12s ease;
+}
+.article .gy-verdict-cta a:hover, .article .gy-esim-plans a.gy-plan-btn:hover,
+.gy-map-dates button:hover, .gy-aff-bar a:hover {
+  background: var(--cta-hover); color: #fff; transform: translateY(-1px);
+  box-shadow: 0 3px 0 #083f8a, 0 8px 20px rgba(11, 99, 214, .28);
+}
+.article .gy-verdict-cta a:active, .article .gy-esim-plans a.gy-plan-btn:active,
+.gy-map-dates button:active, .gy-aff-bar a:active { transform: translateY(1px); box-shadow: 0 1px 0 #083f8a; }
+.article .gy-verdict-cta a:focus-visible, .article .gy-esim-plans a.gy-plan-btn:focus-visible,
+.gy-map-dates button:focus-visible, .gy-aff-bar a:focus-visible,
+.article .gy-quick-picks a.gy-qp-rates:focus-visible, .article .gy-cta-link:focus-visible,
+.article .gy-esim-plans a.gy-plan-link:focus-visible { outline: 3px solid rgba(11, 99, 214, .4); outline-offset: 2px; }
+@media (max-width: 640px) { .article .gy-verdict-cta a { display: block; } }
+
+/* the sticky partner bar: a light bar, so the blue button stands out against it */
+.gy-aff-bar { background: #fff; color: var(--ink); border-top: 1px solid var(--rule); box-shadow: 0 -6px 18px rgba(23, 32, 51, .12); }
+.gy-aff-bar-tag { color: var(--muted); }
+.gy-aff-bar button { color: var(--muted); }
+
+/* outlined: the other partner actions */
+.article .gy-quick-picks a.gy-qp-rates,
+.article .gy-esim-plans a.gy-esim-btn-alt {
+  padding: 9px 18px; border: 1.5px solid var(--cta); border-radius: 999px; background: #fff;
+  color: var(--cta); font-weight: 700;
+}
+.article .gy-quick-picks a.gy-qp-rates:hover { background: var(--cta); color: #fff; }
+.article .gy-cta-link {
+  display: block; margin: 8px 0; padding: 11px 18px; border: 1.5px solid var(--cta); border-radius: 24px;
+  background: #fff; color: var(--cta); font-weight: 700; text-decoration: none;
+}
+.article .gy-cta-list li .gy-cta-link, .article .gy-cta-list li:last-child .gy-cta-link { border-bottom: 1.5px solid var(--cta); }
+.article .gy-cta-link:hover { background: var(--cta); color: #fff; padding-left: 18px; }
+
+/* eSIM price cells: rounded cards in blue; the lower price in a row is tinted */
+.article .gy-esim-plans a.gy-plan-link { border: 1.5px solid #c9d8f2; border-radius: 12px; background: #fff; color: var(--cta); }
+.article .gy-esim-plans a.gy-plan-link.is-lower { border-color: var(--cta); background: var(--cta-tint); }
+.article .gy-esim-plans a.gy-plan-link:hover { background: var(--cta); border-color: var(--cta); color: #fff; }
+
+/* partner links in sentences, hotel rows and the city list: blue text, blue underline */
+.article a[rel~="sponsored"][href]:not([class]):not(.button),
+.article .gy-rates a,
+.article .gy-city-rates-list a[rel~="sponsored"] {
+  color: var(--cta); text-decoration: underline; text-decoration-color: rgba(11, 99, 214, .45); text-underline-offset: 3px;
+}
+.article a[rel~="sponsored"][href]:not([class]):not(.button):hover, .article .gy-rates a:hover,
+.article .gy-city-rates-list a[rel~="sponsored"]:hover { color: var(--cta-hover); text-decoration-color: var(--cta-hover); }
+
+/* flight map origin choices: rounded, the chosen one blue */
+.article .gy-flightmap-from button { border-radius: 999px; }
+.article .gy-flightmap-from button[aria-pressed="true"] { background: var(--cta); border-color: var(--cta); color: #fff; }
+/* on the navy table header, partner links stay white (blue on navy would fail contrast) */
+.article thead a[rel~="sponsored"][href]:not([class]):not(.button) { color: #fff; text-decoration-color: rgba(255, 255, 255, .6); }

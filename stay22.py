@@ -30,6 +30,7 @@ AID = "gentlyyonder"
 BASE = "https://www.stay22.com"
 REL = "nofollow sponsored noopener"
 NAVY = "172033"                        # the map's accent, as hex without "#"
+CTA_BLUE = "0B63D6"   # partner actions are blue (style-v2.css section 14)
 
 
 def allez(provider: str = "roam", **params) -> str:
@@ -54,7 +55,7 @@ def map_src(address: str, zoom: int, campaign: str) -> str:
     An iframe can't be tagged at click time, so its campaign is fixed: <page>_map.
     scroll=disabled: otherwise the wheel zooms the map and a reader scrolling down
     the guide gets stuck in it (the +/- buttons and dragging still work)."""
-    q = dict(aid=AID, address=address, zoom=zoom, maincolor=NAVY, ljs="en", scroll="disabled",
+    q = dict(aid=AID, address=address, zoom=zoom, maincolor=CTA_BLUE, ljs="en", scroll="disabled",
              campaign=campaign.replace("-", "_"))
     return f"{BASE}/embed/gm?" + urlencode(q, quote_via=quote, safe="")
 

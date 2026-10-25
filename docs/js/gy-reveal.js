@@ -550,7 +550,7 @@
         + '&powered_by=true&search_host=www.aviasales.com%2Fsearch&locale=en&origin=' + cur
         + '&value_min=0&value_max=1000000&round_trip=true&only_direct=false&radius=1'
         + '&draggable=' + (coarse ? 'false' : 'true') + '&disable_zoom=false&show_logo=false&scrollwheel=false'
-        + '&primary=%23172033&secondary=%23172033&light=%23ffffff&width=' + w + '&height=' + h
+        + '&primary=%230B63D6&secondary=%230B63D6&light=%23ffffff&width=' + w + '&height=' + h
         + '&zoom=3&promo_id=4054&campaign_id=100';
       var s = document.createElement('script');
       s.async = true; s.charset = 'utf-8';

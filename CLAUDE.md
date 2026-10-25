@@ -120,6 +120,9 @@ cp site/images/pinterest/<name>.png docs/images/pinterest/<name>.png
 - Page headers sit on paper, left-aligned and ruled. No gradient heroes.
 - Callouts are rules and margin notes, not stacked, bordered boxes.
 - Corners are square (3–4px). No pill buttons or chips.
+- Exception (operator, 2026-10-25): every action that leaves for a partner is blue `#0B63D6` and
+  rounded (filled pill = a block's main action, outlined pill = other partner actions, blue text = partner
+  links in sentences). Site links stay navy with the gold rule. Lives in section 14 of `style-v2.css`.
 - Content hangs on one left edge per layout.
 - All of this lives in the "Editorial v2" layer at the end of `style-v2.css`. Change it there.
 
