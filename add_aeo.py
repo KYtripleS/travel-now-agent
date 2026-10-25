@@ -51,7 +51,7 @@ from datetime import date
 from functools import lru_cache
 from pathlib import Path
 
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 
 import add_social_meta
 import stay22
@@ -1757,6 +1757,13 @@ def add_flight_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
                        if "frequently asked" in h2.get_text(" ", strip=True).lower()), None)
     if anchor is None:
         return 0
+    # inject_tp.py wraps its box in BEGIN/END comments and strips everything between them on
+    # each run, so go in front of the opening comment, not between it and the box
+    prev = anchor.previous_sibling
+    while isinstance(prev, NavigableString) and not isinstance(prev, Comment) and not prev.strip():
+        prev = prev.previous_sibling
+    if isinstance(prev, Comment) and "BEGIN" in prev:
+        anchor = prev
     anchor.insert_before(box)
     return 1
 
