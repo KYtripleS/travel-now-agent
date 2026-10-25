@@ -1364,6 +1364,8 @@ CITY_MAP_ALIASES = {"hoi-an": "da-nang"}
 
 def city_map_guide(slug: str) -> str | None:
     """The stay guide whose map a city page borrows, or None."""
+    if slug in CITY_MAP_EXTRA:
+        return CITY_MAP_EXTRA[slug]
     for pat in CITY_MAP_PATTERNS:
         m = re.match(pat, slug)
         if m:
@@ -1623,18 +1625,23 @@ def _gb(x: float) -> str:
     return f"{x:g} GB"
 
 
-def add_esim_plans(soup: BeautifulSoup, slug: str, article: Tag) -> int:
-    c = _esim_data().get(slug)
-    if not c:
-        return 0
-    box = soup.new_tag("aside", attrs={"class": "gy-esim-plans", "data-aeo": "1"})
-    h = soup.new_tag("p", attrs={"class": "gy-esim-plans-h"})
-    h.string = f"Plans for your trip to {c['name']}"
-    box.append(h)
+def _esim_links(c: dict) -> tuple[list[tuple[str, str]], bool]:
+    """[(brand, href)] for a country, deep-linked to its plans when ops/tp_deeplinks.py has them."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("tp_deeplinks", Path(__file__).resolve().parent / "ops" / "tp_deeplinks.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    cache = json.loads(mod.CACHE.read_text()) if mod.CACHE.exists() else {}
+    urls = mod.DEEP.get(c["page"], {})
+    out = [(b, cache.get(urls.get(b.lower(), ""), home)) for b, home in ESIM_BRANDS]
+    return out, all(urls.get(b.lower()) in cache for b, _ in ESIM_BRANDS)
+
+
+def _esim_table(soup: BeautifulSoup, c: dict, links: list[tuple[str, str]]) -> Tag | None:
     wrap = soup.new_tag("div", attrs={"class": "table-scroll"})
     table = soup.new_tag("table")
     head = soup.new_tag("tr")
-    for t in ["Your trip"] + [b for b, _ in ESIM_BRANDS]:
+    for t in ["Your trip"] + [b for b, _ in links]:
         th = soup.new_tag("th", attrs={"scope": "col"})
         th.string = t
         head.append(th)
@@ -1644,7 +1651,7 @@ def add_esim_plans(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     rows = 0
     for label, gb, days in ESIM_TRIPS:
         picks = []
-        for brand, _ in ESIM_BRANDS:
+        for brand, _ in links:
             fit = [p for p in c[brand.lower()]["plans"] if p["gb"] >= gb and p["days"] >= days]
             picks.append(min(fit, key=lambda p: (p["usd"], p["gb"])) if fit else None)
         if not any(picks):
@@ -1659,7 +1666,7 @@ def add_esim_plans(soup: BeautifulSoup, slug: str, article: Tag) -> int:
         sub.string = f"{_gb(gb)} or more"
         th.append(sub)
         tr.append(th)
-        for (brand, href), pk in zip(ESIM_BRANDS, picks):
+        for (brand, href), pk in zip(links, picks):
             td = soup.new_tag("td")
             if pk:
                 a = _anchor(soup, href, managed=False)
@@ -1676,35 +1683,128 @@ def add_esim_plans(soup: BeautifulSoup, slug: str, article: Tag) -> int:
         tbody.append(tr)
         rows += 1
     if not rows:
-        return 0
+        return None
     table.extend([thead, tbody])
     wrap.append(table)
-    box.append(wrap)
-    # ops/tp_deeplinks.py later points these links at each provider's page for this country
-    deep = slug in _esim_deep_pages()
-    btns = soup.new_tag("p", attrs={"class": "gy-esim-plans-btns"})
-    for brand, href in ESIM_BRANDS:
-        a = _anchor(soup, href, managed=False)
-        a["class"] = "gy-plan-btn"
-        a.string = f"{brand}’s {c['name'].removeprefix('the ')} plans →" if deep else f"Go to {brand} →"
-        btns.append(a)
-    box.append(btns)
-    entry = min((p for b, _ in ESIM_BRANDS for p in c[b.lower()]["plans"]), key=lambda p: p["usd"])
-    entry_brand = next(b for b, _ in ESIM_BRANDS if entry in c[b.lower()]["plans"])
-    checked = max(c[b.lower()]["checked"] for b, _ in ESIM_BRANDS)
+    return wrap
+
+
+def _esim_note(soup: BeautifulSoup, cs: list[dict], deep: bool) -> Tag:
+    plans = [(b, p) for c in cs for b, _ in ESIM_BRANDS for p in c[b.lower()]["plans"]]
+    entry_brand, entry = min(plans, key=lambda x: x[1]["usd"])
+    checked = max(c[b.lower()]["checked"] for c in cs for b, _ in ESIM_BRANDS)
+    where = cs[0]["name"] if len(cs) == 1 else "the destination"
     note = soup.new_tag("p", attrs={"class": "gy-esim-plans-note"})
     note.string = (f"Each provider’s cheapest plan that covers the trip, from airalo.com and saily.com on "
                    f"{date.fromisoformat(checked).strftime('%-d %b %Y')}, in US dollars; prices change. The smallest "
                    f"plan starts at US${entry['usd']:.2f} ({entry_brand}, {_gb(entry['gb'])} for {entry['days']} days). "
-                   + ("The links open each provider’s plans for " + c["name"] + "." if deep else
-                      f"The links open each provider’s site, where you pick {c['name']}.") + " Affiliate links: we may earn a "
-                   f"commission at no extra cost to you.")
-    box.append(note)
+                   + (f"The links open each provider’s plans for {where}." if deep else
+                      f"The links open each provider’s site, where you pick {where}.")
+                   + " Affiliate links: we may earn a commission at no extra cost to you.")
+    return note
+
+
+def add_esim_plans(soup: BeautifulSoup, slug: str, article: Tag, key: str | None = None) -> int:
+    """The plan table: under the verdict on a country eSIM guide, or (key given) with the
+    trip-prep blocks lower down a page about that country."""
+    data = json.loads(ESIM_PLANS_JSON.read_text())["countries"] if ESIM_PLANS_JSON.exists() else {}
+    c = data.get(key) if key else _esim_data().get(slug)
+    if not c:
+        return 0
+    links, deep = _esim_links(c)
+    table = _esim_table(soup, c, links)
+    if table is None:
+        return 0
+    box = soup.new_tag("aside", attrs={"class": "gy-esim-plans", "data-aeo": "1"})
+    h = soup.new_tag("p", attrs={"class": "gy-esim-plans-h"})
+    h.string = (f"eSIM plans for {c['name']}" if key else f"Plans for your trip to {c['name']}")
+    box.extend([h, table])
+    btns = soup.new_tag("p", attrs={"class": "gy-esim-plans-btns"})
+    for brand, href in links:
+        a = _anchor(soup, href, managed=False)
+        a["class"] = "gy-plan-btn"
+        a.string = f"{brand}’s {c['name'].removeprefix('the ')} plans →" if deep else f"Go to {brand} →"
+        btns.append(a)
+    box.extend([btns, _esim_note(soup, [c], deep)])
+    if key:
+        return 1 if _insert_lower(article, box) else 0
     for sel in ("p.gy-promise", "aside.gy-verdict"):
         anchor = article.select_one(sel)
         if anchor is not None and anchor.parent is article:
             anchor.insert_after(box)
-            return rows
+            return 1
+    return 0
+
+
+# Pages about eSIMs in general get the table with a destination picker (one table per
+# destination, the first shown; gy-reveal.js switches them). Without JavaScript the
+# first destination shows and the picker stays hidden.
+ESIM_MULTI = {
+    "best-travel-esim-2026": None, "airalo-vs-holafly-vs-saily": None,
+    "best-esim-japan-korea-vietnam": ["japan", "south-korea", "vietnam"],
+    "esim-activation-and-preparation": None, "when-to-activate-travel-esim": None,
+    "do-unlimited-travel-esims-give-unlimited-data": None, "pocket-wifi-vs-esim": None,
+    "esim-vs-physical-sim-card": None, "esim-vs-roaming-vs-physical-sim-when-each-wins": None,
+    "how-to-avoid-international-roaming-fees-esim-vs-local-sim-vs-pocket-wifi": None,
+    "staying-connected-south-korea": ["south-korea"],
+}
+
+
+def add_esim_multi(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    if slug not in ESIM_MULTI or not ESIM_PLANS_JSON.exists():
+        return 0
+    data = json.loads(ESIM_PLANS_JSON.read_text())["countries"]
+    keys = [k for k in (ESIM_MULTI[slug] or list(data)) if k in data]
+    if not keys:
+        return 0
+    box = soup.new_tag("aside", attrs={"class": "gy-esim-plans gy-esim-multi", "data-aeo": "1"})
+    h = soup.new_tag("p", attrs={"class": "gy-esim-plans-h"})
+    h.string = "eSIM plans for your trip"
+    box.append(h)
+    if len(keys) > 1:
+        lab = soup.new_tag("label", attrs={"class": "gy-esim-pick", "hidden": ""})
+        lab.append("Going to ")
+        sel = soup.new_tag("select")
+        for k in keys:
+            o = soup.new_tag("option", attrs={"value": k})
+            o.string = data[k]["name"].removeprefix("the ")
+            sel.append(o)
+        lab.append(sel)
+        box.append(lab)
+    deeps, shown = [], 0
+    for i, k in enumerate(keys):
+        c = data[k]
+        links, deep = _esim_links(c)
+        table = _esim_table(soup, c, links)
+        if table is None:
+            continue
+        deeps.append(deep)
+        pane = soup.new_tag("div", attrs={"class": "gy-esim-dest", "data-dest": k})
+        if shown:
+            pane["hidden"] = ""
+        cap = soup.new_tag("p", attrs={"class": "gy-esim-dest-name"})
+        cap.string = c["name"].removeprefix("the ").replace("USA", "The USA")
+        btns = soup.new_tag("p", attrs={"class": "gy-esim-plans-btns"})
+        for brand, href in links:
+            a = _anchor(soup, href, managed=False)
+            a["class"] = "gy-plan-btn"
+            a.string = f"{brand}’s {c['name'].removeprefix('the ')} plans →" if deep else f"Go to {brand} →"
+            btns.append(a)
+        pane.extend([cap, table, btns])
+        box.append(pane)
+        shown += 1
+    if not shown:
+        return 0
+    box.append(_esim_note(soup, [data[k] for k in keys], all(deeps)))
+    for sel_ in ("p.gy-promise", "aside.gy-verdict"):
+        anchor = article.select_one(sel_)
+        if anchor is not None and anchor.parent is article:
+            anchor.insert_after(box)
+            return shown
+    first = article.find("h2", recursive=False)
+    if first is not None:
+        first.insert_before(box)
+        return shown
     return 0
 
 
@@ -1724,13 +1824,103 @@ def _stay_city(slug: str) -> str:
     return parts[-2] if len(parts) >= 2 else parts[0]
 
 
+def _insert_lower(article: Tag, box: Tag) -> bool:
+    """Put a trip-prep block in the lower 'before you go' area: in front of inject_tp's CTA box
+    (and its BEGIN comment, since inject_tp strips everything between its markers on each run),
+    else in front of the FAQ. False when the page has neither."""
+    anchor = next((c for c in article.find_all("aside", class_="gy-cta", recursive=False)), None)
+    if anchor is None:
+        anchor = next((h2 for h2 in article.find_all("h2", recursive=False)
+                       if "frequently asked" in h2.get_text(" ", strip=True).lower()), None)
+    if anchor is None:
+        return False
+    prev = anchor.previous_sibling
+    while isinstance(prev, NavigableString) and not isinstance(prev, Comment) and not prev.strip():
+        prev = prev.previous_sibling
+    if isinstance(prev, Comment) and "BEGIN" in prev:
+        anchor = prev
+    anchor.insert_before(box)
+    return True
+
+
+# --- where a page is about ---------------------------------------------------------
+# For the flight map, the lower eSIM table and the hotel map on pages other than the stay
+# guides. A stay guide is its own destination; a page named after a city with a stay guide
+# borrows that guide; the rest are listed by hand: (name, lat, lng, stay guide or None,
+# eSIM country or None). Country pages point at the usual arrival city.
+ESIM_COUNTRY = {"Japan": "japan", "South Korea": "south-korea", "Taiwan": "taiwan", "Thailand": "thailand",
+                "Vietnam": "vietnam", "Australia": "australia", "USA": "usa"}
+ESIM_COUNTRY.update({c: "europe" for c in (     # Airalo's and Saily's Europe plans both list these
+    "Italy", "Spain", "France", "United Kingdom", "Finland", "Croatia", "Poland", "Portugal", "Greece",
+    "Hungary", "Denmark", "Sweden", "Ireland", "Austria", "Germany", "Czech Republic", "Netherlands")})
+_TOKYO = ("Tokyo", 35.6812, 139.7671, None, "japan")
+_SEOUL = ("Seoul", 37.5665, 126.9780, None, "south-korea")
+DEST_EXTRA = {
+    **{s: _TOKYO for s in (
+        "carry-on-packing-list-10-day-japan", "what-to-pack-for-japan", "japan-7-day-itinerary",
+        "japan-book-in-advance-2026", "japan-autumn-2026", "best-time-to-visit-japan-2026", "how-much-cash-japan",
+        "how-much-does-japan-cost", "is-the-weak-yen-a-bargain-or-trap", "japan-tax-free-shopping-2026-changes",
+        "japan-tourist-taxes-2026", "jr-pass-worth-it-2026", "suica-pasmo-ic-cards-guide", "visit-japan-web-guide",
+        "japan-city-sightseeing-passes-worth-it", "where-to-stay-in-japan",
+        "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus")},
+    **{s: _SEOUL for s in ("korail-pass-worth-it-2026", "do-you-need-keta-south-korea",
+                           "how-much-does-south-korea-cost", "south-korea-country-profile")},
+    "getting-around-taiwan": ("Taipei", 25.0330, 121.5654, None, "taiwan"),
+    "taiwan-high-speed-rail-pass-worth-it": ("Taipei", 25.0330, 121.5654, None, "taiwan"),
+    "thailand-10-day-itinerary": ("Bangkok", 13.7563, 100.5018, None, "thailand"),
+    "best-time-to-visit-vietnam": ("Hanoi", 21.0278, 105.8342, None, "vietnam"),
+    "best-time-to-visit-australia": ("Sydney", -33.8688, 151.2093, None, "australia"),
+    "perth-first-timers-guide": ("Perth", -31.9523, 115.8613, None, "australia"),
+    "getting-around-perth": ("Perth", -31.9523, 115.8613, None, "australia"),
+    "things-to-do-in-perth": ("Perth", -31.9523, 115.8613, None, "australia"),
+    "manila-first-timers-guide": ("Manila", 14.5995, 120.9842, None, None),
+    "things-to-do-in-manila": ("Manila", 14.5995, 120.9842, None, None),
+    "cebu-first-timers-guide": ("Cebu", 10.3157, 123.8854, None, None),
+    "penang-first-timers-guide": ("Penang", 5.4141, 100.3288, None, None),
+    "yogyakarta-first-timers-guide": ("Yogyakarta", -7.7956, 110.3695, None, None),
+    "europe-rail-pass-worth-it-2026": ("Europe", 48.8566, 2.3522, None, "europe"),
+    "train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price": ("Europe", 48.8566, 2.3522, None, "europe"),
+}
+# city pages that are not caught by CITY_MAP_PATTERNS but are about one city's streets
+CITY_MAP_EXTRA = {
+    "shinjuku-neighbourhood-guide": "where-to-stay-in-tokyo", "tokyo-kissaten-guide": "where-to-stay-in-tokyo",
+    "luggage-storage-tokyo": "where-to-stay-in-tokyo", "narita-haneda-to-central-tokyo": "where-to-stay-in-tokyo",
+    "gion-kyoto-neighbourhood-guide": "where-to-stay-in-kyoto", "kyoto-autumn-2026": "where-to-stay-in-kyoto",
+    "three-slow-days-in-kyoto": "where-to-stay-in-kyoto", "osaka-3-day-guide": "where-to-stay-in-osaka",
+    "bangkok-river-cruises-guide": "where-to-stay-in-bangkok", "hong-kong-harbour-cruises-guide": "where-to-stay-in-hong-kong",
+    "sydney-harbour-cruises-guide": "where-to-stay-in-sydney", "halong-bay-cruises-from-hanoi": "where-to-stay-in-hanoi",
+}
+NO_TRIP_BLOCKS = re.compile(r"esim|insurance|sim-card|roaming|pocket-wifi|staying-connected")
+
+
+def _guide_dest(guide: str) -> tuple:
+    page = stay22.PAGES[guide]
+    country = page["address"].split(",")[-1].strip()
+    return (_stay_city(guide), page["lat"], page["lng"], guide, ESIM_COUNTRY.get(country))
+
+
+def page_dest(slug: str) -> tuple | None:
+    if slug in stay22.PAGES:
+        return _guide_dest(slug)
+    if NO_TRIP_BLOCKS.search(slug):
+        return None
+    if slug in DEST_EXTRA:
+        return DEST_EXTRA[slug]
+    guide = CITY_MAP_EXTRA.get(slug) or city_map_guide(slug)
+    if guide is None:
+        cities = sorted((g.removeprefix("where-to-stay-in-") for g in stay22.PAGES), key=len, reverse=True)
+        city = next((c for c in cities if re.search(r"(^|-)" + re.escape(c) + r"(-|$)", slug)), None)
+        guide = f"where-to-stay-in-{city}" if city else None
+    return _guide_dest(guide) if guide else None
+
+
 def add_flight_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
-    page = stay22.PAGES.get(slug)
-    if not page:
+    dest = page_dest(slug)
+    if not dest:
         return 0
-    city = _stay_city(slug)
+    city, lat, lng = dest[0], dest[1], dest[2]
     box = soup.new_tag("aside", attrs={"class": "gy-flightmap", "data-aeo": "1", "hidden": "",
-                                       "data-lat": str(page["lat"]), "data-lng": str(page["lng"]),
+                                       "data-lat": str(lat), "data-lng": str(lng),
                                        "data-sub": re.sub(r"[^A-Za-z0-9]+", "_", slug)})
     h = soup.new_tag("p", attrs={"class": "gy-widget-h"})
     h.string = f"Flights to {city}: recent fares"
@@ -1751,21 +1941,7 @@ def add_flight_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     note = soup.new_tag("p", attrs={"class": "gy-widget-note"})
     note.string = "A partner widget from Aviasales: we may earn a commission if you book."
     box.extend([h, blurb, hubs, frame, note])
-    anchor = next((c for c in article.find_all("aside", class_="gy-cta", recursive=False)), None)
-    if anchor is None:
-        anchor = next((h2 for h2 in article.find_all("h2", recursive=False)
-                       if "frequently asked" in h2.get_text(" ", strip=True).lower()), None)
-    if anchor is None:
-        return 0
-    # inject_tp.py wraps its box in BEGIN/END comments and strips everything between them on
-    # each run, so go in front of the opening comment, not between it and the box
-    prev = anchor.previous_sibling
-    while isinstance(prev, NavigableString) and not isinstance(prev, Comment) and not prev.strip():
-        prev = prev.previous_sibling
-    if isinstance(prev, Comment) and "BEGIN" in prev:
-        anchor = prev
-    anchor.insert_before(box)
-    return 1
+    return 1 if _insert_lower(article, box) else 0
 
 
 # --- hotels by city (the booking-site comparison) ---------------------------------
@@ -2313,6 +2489,10 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
         if slug in CITY_RATES:
             out["city_rates"] = add_city_rates(soup, slug, article)
         out["esim_plans"] = add_esim_plans(soup, slug, article)
+        out["esim_multi"] = add_esim_multi(soup, slug, article)
+        dest = page_dest(slug)
+        if dest and dest[4] and slug not in _esim_data():
+            out["esim_lower"] = add_esim_plans(soup, slug, article, key=dest[4])
         out["flight_map"] = add_flight_map(soup, slug, article)
         if slug in PICKERS:
             out["picker"] = add_picker(soup, slug, article)

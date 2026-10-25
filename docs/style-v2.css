@@ -5007,3 +5007,8 @@ body.gy-has-aff-bar { padding-bottom: 64px; }
 .article .gy-flightmap-from button[aria-pressed="true"] { background: var(--cta); border-color: var(--cta); color: #fff; }
 /* on the navy table header, partner links stay white (blue on navy would fail contrast) */
 .article thead a[rel~="sponsored"][href]:not([class]):not(.button) { color: #fff; text-decoration-color: rgba(255, 255, 255, .6); }
+/* eSIM plans with a destination picker */
+.article .gy-esim-pick { display: flex; align-items: center; gap: 8px; margin: 0 0 10px; font: 600 .9rem var(--sans); color: var(--ink); }
+.article .gy-esim-pick[hidden], .article .gy-esim-dest[hidden] { display: none; }
+.article .gy-esim-pick select { padding: 8px 34px 8px 14px; border: 1.5px solid var(--cta); border-radius: 999px; background: #fff; color: var(--cta); font: 700 .95rem var(--sans); }
+.article .gy-esim-dest-name { margin: 0 0 6px; font: 700 .95rem var(--sans); color: var(--ink); }

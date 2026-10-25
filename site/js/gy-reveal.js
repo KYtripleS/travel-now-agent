@@ -587,3 +587,19 @@
     if (a && window.gtag) gtag('event', 'affiliate_click', { partner: 'aviasales', page: page, placement: 'flightmap' });
   });
 })();
+
+/* eSIM plans with a destination picker (add_aeo.add_esim_multi): one table per destination,
+   the picker shows one. Without JavaScript the first destination shows. */
+(function () {
+  Array.prototype.forEach.call(document.querySelectorAll('.gy-esim-multi'), function (box) {
+    var pick = box.querySelector('.gy-esim-pick'), sel = pick && pick.querySelector('select');
+    if (!sel) return;
+    pick.hidden = false;
+    sel.addEventListener('change', function () {
+      Array.prototype.forEach.call(box.querySelectorAll('.gy-esim-dest'), function (p) {
+        p.hidden = p.getAttribute('data-dest') !== sel.value;
+      });
+      if (window.gtag) gtag('event', 'plans_dest', { page: location.pathname, dest: sel.value });
+    });
+  });
+})();
