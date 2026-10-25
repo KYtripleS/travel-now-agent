@@ -13,6 +13,7 @@ usage: .venv/bin/python ops/tp_deeplinks.py            # dry run: what would cha
 """
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -33,6 +34,21 @@ ESIM = {  # page slug suffix: (Airalo slug, Saily slug)
     "thailand": ("thailand", "thailand"), "vietnam": ("vietnam", "vietnam"), "usa": ("united-states", "united-states"),
     "australia": ("australia", "australia"), "europe": ("europe", "europe"),
 }
+# Price-table cells that open the exact product: {page: {row header: (column, merchant URL)}}.
+# Column counts the <td>s after the row header from 0 (the Klook column of the same-ticket
+# table is 1). Each URL was matched to the price in its cell (Klook listings, 2026-10-21/25).
+CELLS = {
+    "klook-vs-viator-vs-getyourguide": {
+        "teamLab Planets TOKYO": (1, "https://www.klook.com/en-US/activity/25300-teamlab-planets-toyosu-tokyo-ticket/"),
+        "Warner Bros. Studio Tour Tokyo": (1, "https://www.klook.com/en-US/activity/84374-warner-bros-studio-tour-tokyo-making-harry-potter/"),
+        "Universal Studios Singapore, one day": (1, "https://www.klook.com/en-US/activity/56114-universal-studios-singapore/"),
+        "Burj Khalifa At the Top, levels 124–125": (1, "https://www.klook.com/en-US/activity/2228-burj-khalifa-observation-deck-dubai/"),
+        "Empire State Building, 86th floor": (1, "https://www.klook.com/en-US/activity/2956-empire-state-building-new-york/"),
+        "Sagrada Família, basic ticket": (1, "https://www.klook.com/en-US/activity/20380-sagrada-familia-ticket-barcelona/"),
+    },
+}
+REL = 'rel="nofollow sponsored noopener" target="_blank"'
+
 DEEP = {
     f"best-esim-{k}-2026": {"airalo": f"https://www.airalo.com/{a}-esim", "saily": f"https://saily.com/esim-{s}/"}
     for k, (a, s) in ESIM.items()
@@ -71,12 +87,26 @@ def deep_for(slug: str, cache: dict) -> dict[str, str]:
     return swaps
 
 
+def link_cells(html: str, slug: str, cache: dict) -> str:
+    """Wrap each listed price cell in a link to its product (once; a linked cell is left alone)."""
+    for row, (col, url) in CELLS.get(slug, {}).items():
+        if url not in cache:
+            continue
+        m = re.search(r'<tr><th scope="row">' + re.escape(row) + r'</th>((?:<td>.*?</td>){%d})<td>(.*?)</td>' % col, html)
+        if not m or "<a " in m.group(2):
+            continue
+        cell = f'<a href="{cache[url]}" {REL}>{m.group(2)}</a>'
+        html = html[:m.start(2)] + cell + html[m.end(2):]
+    return html
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--write", action="store_true")
     args = ap.parse_args()
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
-    missing = sorted({u for m in DEEP.values() for u in m.values()} - cache.keys())
+    wanted = {u for m in DEEP.values() for u in m.values()} | {u for m in CELLS.values() for _, u in m.values()}
+    missing = sorted(wanted - cache.keys())
     if missing:
         if not args.write:
             print(f"{len(missing)} deep links to create (run with --write)")
@@ -85,7 +115,7 @@ def main() -> None:
             CACHE.write_text(json.dumps(dict(sorted(cache.items())), indent=1) + "\n")
             print(f"created {len(missing)} deep links")
     changed = 0
-    for slug in DEEP:
+    for slug in sorted(set(DEEP) | set(CELLS)):
         swaps = deep_for(slug, cache)
         for root in ("site", "docs"):
             p = REPO / root / "articles" / f"{slug}.html"
@@ -95,6 +125,7 @@ def main() -> None:
             new = html
             for home, deep in swaps.items():
                 new = new.replace(f'href="{home}"', f'href="{deep}"')
+            new = link_cells(new, slug, cache)
             if new != html:
                 changed += 1
                 if args.write:
