@@ -4921,3 +4921,15 @@ body.gy-has-aff-bar { padding-bottom: 64px; }
 }
 .article .gy-esim-plans a.gy-plan-btn:hover { background: transparent; color: var(--navy); }
 .article .gy-esim-plans-note { margin: 4px 0 8px; font-family: var(--sans); font-size: .76rem; line-height: 1.45; color: var(--muted); }
+
+/* Flight fares to the city (add_aeo.add_flight_map; loaded by gy-reveal.js) */
+.article .gy-flightmap { border-top: 2px solid var(--gold); border-bottom: 1px solid var(--rule); padding: 14px 0 6px; margin: 28px 0; }
+.article .gy-flightmap-from { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 10px 0 12px; font-family: var(--sans); }
+.article .gy-flightmap-label { font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--gold-ink); margin-right: 4px; }
+.article .gy-flightmap-from button {
+  min-height: 36px; padding: 6px 11px; border: 1px solid var(--rule); border-radius: 3px; background: transparent;
+  color: var(--navy); font: 600 .82rem var(--sans); cursor: pointer;
+}
+.article .gy-flightmap-from button[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: #f8f4e9; }
+.article .gy-flightmap-frame { min-height: 440px; }
+@media (max-width: 600px) { .article .gy-flightmap-frame { min-height: 360px; } }

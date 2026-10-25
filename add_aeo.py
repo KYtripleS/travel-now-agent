@@ -1609,6 +1609,16 @@ def _esim_data() -> dict:
     return {c["page"]: c for c in json.loads(ESIM_PLANS_JSON.read_text())["countries"].values()}
 
 
+@lru_cache(maxsize=1)
+def _esim_deep_pages() -> set[str]:
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("tp_deeplinks", Path(__file__).resolve().parent / "ops" / "tp_deeplinks.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    cache = json.loads(mod.CACHE.read_text()) if mod.CACHE.exists() else {}
+    return {slug for slug in mod.DEEP if mod.deep_for(slug, cache)}
+
+
 def _gb(x: float) -> str:
     return f"{x:g} GB"
 
@@ -1670,11 +1680,13 @@ def add_esim_plans(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     table.extend([thead, tbody])
     wrap.append(table)
     box.append(wrap)
+    # ops/tp_deeplinks.py later points these links at each provider's page for this country
+    deep = slug in _esim_deep_pages()
     btns = soup.new_tag("p", attrs={"class": "gy-esim-plans-btns"})
     for brand, href in ESIM_BRANDS:
         a = _anchor(soup, href, managed=False)
         a["class"] = "gy-plan-btn"
-        a.string = f"Go to {brand} →"
+        a.string = f"{brand}’s {c['name'].removeprefix('the ')} plans →" if deep else f"Go to {brand} →"
         btns.append(a)
     box.append(btns)
     entry = min((p for b, _ in ESIM_BRANDS for p in c[b.lower()]["plans"]), key=lambda p: p["usd"])
@@ -1684,7 +1696,8 @@ def add_esim_plans(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     note.string = (f"Each provider’s cheapest plan that covers the trip, from airalo.com and saily.com on "
                    f"{date.fromisoformat(checked).strftime('%-d %b %Y')}, in US dollars; prices change. The smallest "
                    f"plan starts at US${entry['usd']:.2f} ({entry_brand}, {_gb(entry['gb'])} for {entry['days']} days). "
-                   f"The links open each provider’s site, where you pick {c['name']}. Affiliate links: we may earn a "
+                   + ("The links open each provider’s plans for " + c["name"] + "." if deep else
+                      f"The links open each provider’s site, where you pick {c['name']}.") + " Affiliate links: we may earn a "
                    f"commission at no extra cost to you.")
     box.append(note)
     for sel in ("p.gy-promise", "aside.gy-verdict"):
@@ -1693,6 +1706,59 @@ def add_esim_plans(soup: BeautifulSoup, slug: str, article: Tag) -> int:
             anchor.insert_after(box)
             return rows
     return 0
+
+
+# --- flight fares to the city (stay guides) --------------------------------------
+# Aviasales' "prices on map" widget (Travelpayouts promo 4054) centred on the city, from a hub
+# the reader picks; gy-reveal.js preselects the hub nearest the reader's time zone and loads
+# the widget only when the box comes near the screen. Hidden without JavaScript.
+FLIGHT_HUBS = [("LON", "London"), ("NYC", "New York"), ("LAX", "Los Angeles"), ("YTO", "Toronto"),
+               ("SYD", "Sydney"), ("SIN", "Singapore"), ("DEL", "Delhi"), ("TYO", "Tokyo")]
+
+
+def _stay_city(slug: str) -> str:
+    for city, guide, _, _ in CITY_RATES.get("hotel-booking-sites-comparison", []):
+        if guide == slug:
+            return re.sub(r"\s*\(.*\)$", "", city)
+    parts = [x.strip() for x in stay22.PAGES[slug]["address"].split(",")]
+    return parts[-2] if len(parts) >= 2 else parts[0]
+
+
+def add_flight_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    page = stay22.PAGES.get(slug)
+    if not page:
+        return 0
+    city = _stay_city(slug)
+    box = soup.new_tag("aside", attrs={"class": "gy-flightmap", "data-aeo": "1", "hidden": "",
+                                       "data-lat": str(page["lat"]), "data-lng": str(page["lng"]),
+                                       "data-sub": re.sub(r"[^A-Za-z0-9]+", "_", slug)})
+    h = soup.new_tag("p", attrs={"class": "gy-widget-h"})
+    h.string = f"Flights to {city}: recent fares"
+    blurb = soup.new_tag("p", attrs={"class": "gy-widget-blurb"})
+    blurb.string = (f"Round-trip fares from your city to {city} and the places around it, from searches on "
+                    "Aviasales. Fares change daily: tap a price for its dates, then check them on Aviasales.")
+    hubs = soup.new_tag("div", attrs={"class": "gy-flightmap-from", "role": "group", "aria-label": "Flying from"})
+    lab = soup.new_tag("span", attrs={"class": "gy-flightmap-label"})
+    lab.string = "From"
+    hubs.append(lab)
+    for code, name in FLIGHT_HUBS:
+        if name == city:
+            continue
+        b = soup.new_tag("button", attrs={"type": "button", "data-from": code, "aria-pressed": "false"})
+        b.string = name
+        hubs.append(b)
+    frame = soup.new_tag("div", attrs={"class": "gy-flightmap-frame"})
+    note = soup.new_tag("p", attrs={"class": "gy-widget-note"})
+    note.string = "A partner widget from Aviasales: we may earn a commission if you book."
+    box.extend([h, blurb, hubs, frame, note])
+    anchor = next((c for c in article.find_all("aside", class_="gy-cta", recursive=False)), None)
+    if anchor is None:
+        anchor = next((h2 for h2 in article.find_all("h2", recursive=False)
+                       if "frequently asked" in h2.get_text(" ", strip=True).lower()), None)
+    if anchor is None:
+        return 0
+    anchor.insert_before(box)
+    return 1
 
 
 # --- hotels by city (the booking-site comparison) ---------------------------------
@@ -2240,6 +2306,7 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
         if slug in CITY_RATES:
             out["city_rates"] = add_city_rates(soup, slug, article)
         out["esim_plans"] = add_esim_plans(soup, slug, article)
+        out["flight_map"] = add_flight_map(soup, slug, article)
         if slug in PICKERS:
             out["picker"] = add_picker(soup, slug, article)
         if slug in STAY_POINTERS:

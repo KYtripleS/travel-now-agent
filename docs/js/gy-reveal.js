@@ -190,7 +190,7 @@
    one signal the page gets. Once per page view. Nothing about the reader is sent. */
 (function () {
   var BLOCKS = [['.gy-verdict', 'verdict'], ['.gy-quick-picks', 'quickpick'], ['.gy-stay-map', 'map'],
-                ['.gy-city-rates', 'city'], ['.gy-esim-plans', 'plans'], ['.gy-rates', 'hotel'], ['.gy-cta', 'widget']];
+                ['.gy-city-rates', 'city'], ['.gy-esim-plans', 'plans'], ['.gy-flightmap', 'flightmap'], ['.gy-rates', 'hotel'], ['.gy-cta', 'widget']];
   var seen = {};
   function send(name, p) { if (window.gtag) gtag('event', name, p); }
   if ('IntersectionObserver' in window) {
@@ -506,5 +506,84 @@
       apply(form, t);
       if (window.gtag) gtag('event', 'map_dates', { page: location.pathname, nights: +t.n, lead_days: Math.round((new Date(t.in) - new Date(today)) / 864e5) });
     });
+  });
+})();
+
+/* Flight fares to the city (add_aeo.add_flight_map): Aviasales' fare map from a hub the
+   reader picks. The first hub is guessed from the browser's time zone, never sent anywhere;
+   a hub the reader picks is kept for the visit. The widget loads only when the box nears the
+   screen. On touch screens the map does not pan, so a finger scrolling the guide never gets
+   caught in it (the zoom buttons still work). Its links live in a shadow root, so a click is
+   counted from the composed path, and only when the widget did not cancel it (pins that just
+   open a price card). */
+(function () {
+  var boxes = document.querySelectorAll('.gy-flightmap');
+  if (!boxes.length) return;
+  var page = location.pathname;
+  function guess() {
+    var tz = '';
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+    if (/^America\/(Toronto|Montreal|Halifax|Winnipeg)/.test(tz)) return 'YTO';
+    if (/^America\/(Los_Angeles|Vancouver|Denver|Phoenix|Boise|Anchorage)|^Pacific\/Honolulu/.test(tz)) return 'LAX';
+    if (/^America\//.test(tz)) return 'NYC';
+    if (/^(Australia|Pacific\/Auckland)/.test(tz)) return 'SYD';
+    if (/^Asia\/(Kolkata|Calcutta|Dhaka|Karachi|Kathmandu|Colombo)/.test(tz)) return 'DEL';
+    if (/^Asia\/(Tokyo|Seoul|Shanghai|Taipei|Hong_Kong)/.test(tz)) return 'TYO';
+    if (/^Asia\//.test(tz)) return 'SIN';
+    return 'LON';
+  }
+  var saved = null;
+  try { saved = sessionStorage.getItem('gy_from'); } catch (e) {}
+  var coarse = window.matchMedia && matchMedia('(pointer: coarse)').matches;
+  Array.prototype.forEach.call(boxes, function (box) {
+    var btns = Array.prototype.slice.call(box.querySelectorAll('[data-from]'));
+    var frame = box.querySelector('.gy-flightmap-frame');
+    if (!btns.length || !frame) return;
+    box.hidden = false;
+    var cur = null, loaded = false;
+    function load() {
+      loaded = true;
+      frame.innerHTML = '';
+      var w = Math.round(frame.clientWidth) || 600, h = w < 560 ? 360 : 440;
+      var q = 'currency=usd&trs=547982&shmarker=743846.' + box.getAttribute('data-sub')
+        + '&lat=' + box.getAttribute('data-lat') + '&lng=' + box.getAttribute('data-lng')
+        + '&powered_by=true&search_host=www.aviasales.com%2Fsearch&locale=en&origin=' + cur
+        + '&value_min=0&value_max=1000000&round_trip=true&only_direct=false&radius=1'
+        + '&draggable=' + (coarse ? 'false' : 'true') + '&disable_zoom=false&show_logo=false&scrollwheel=false'
+        + '&primary=%23172033&secondary=%23172033&light=%23ffffff&width=' + w + '&height=' + h
+        + '&zoom=3&promo_id=4054&campaign_id=100';
+      var s = document.createElement('script');
+      s.async = true; s.charset = 'utf-8';
+      s.src = 'https://tpemb.com/content?' + q;
+      frame.appendChild(s);
+    }
+    function pick(code) {
+      cur = code;
+      btns.forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-from') === code ? 'true' : 'false'); });
+    }
+    var first = saved || guess();
+    pick(btns.some(function (b) { return b.getAttribute('data-from') === first; }) ? first : btns[0].getAttribute('data-from'));
+    box.addEventListener('click', function (e) {
+      var b = e.target.closest ? e.target.closest('[data-from]') : null;
+      if (!b || b.getAttribute('data-from') === cur) return;
+      pick(b.getAttribute('data-from'));
+      try { sessionStorage.setItem('gy_from', cur); } catch (err) {}
+      if (window.gtag) gtag('event', 'flightmap_from', { page: page, from: cur });
+      load();
+    });
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (en) {
+        if (en[0].isIntersecting && !loaded) { io.disconnect(); load(); }
+      }, { rootMargin: '400px 0px' });
+      io.observe(box);
+    } else {
+      load();
+    }
+  });
+  document.addEventListener('click', function (e) {
+    var box = e.target.closest ? e.target.closest('.gy-flightmap') : null;
+    if (!box || e.defaultPrevented || !e.composedPath) return;
+    var a = e.composedPath().filter(function (n) { return n.tagName === 'A' && /^https:\/\/tp\.media\/r/.test(n.href || ''); })[0];
+    if (a && window.gtag) gtag('event', 'affiliate_click', { partner: 'aviasales', page: page, placement: 'flightmap' });
   });
 })();
