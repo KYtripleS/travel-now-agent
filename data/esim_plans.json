@@ -1,0 +1,946 @@
+{
+ "note": "Prices behind the plan tables on the country eSIM guides. Airalo: ops/esim_prices.py. Saily: typed by hand from saily.com in a browser (it refuses scripts). USD, fixed-data plans only.",
+ "countries": {
+  "japan": {
+   "page": "best-esim-japan-2026",
+   "name": "Japan",
+   "airalo_slug": "japan",
+   "airalo": {
+    "checked": "2026-10-25",
+    "url": "https://www.airalo.com/japan-esim",
+    "plans": [
+     {
+      "gb": 1.0,
+      "days": 3,
+      "usd": 4.0
+     },
+     {
+      "gb": 3.0,
+      "days": 3,
+      "usd": 7.5
+     },
+     {
+      "gb": 3.0,
+      "days": 7,
+      "usd": 8.0
+     },
+     {
+      "gb": 5.0,
+      "days": 7,
+      "usd": 10.0
+     },
+     {
+      "gb": 5.0,
+      "days": 15,
+      "usd": 10.5
+     },
+     {
+      "gb": 5.0,
+      "days": 30,
+      "usd": 11.0
+     },
+     {
+      "gb": 10.0,
+      "days": 7,
+      "usd": 17.0
+     },
+     {
+      "gb": 10.0,
+      "days": 15,
+      "usd": 17.5
+     },
+     {
+      "gb": 10.0,
+      "days": 30,
+      "usd": 18.0
+     },
+     {
+      "gb": 20.0,
+      "days": 15,
+      "usd": 24.0
+     },
+     {
+      "gb": 20.0,
+      "days": 30,
+      "usd": 25.0
+     }
+    ]
+   },
+   "saily": {
+    "checked": "2026-10-25",
+    "url": "https://saily.com/esim-japan/",
+    "plans": [
+     {
+      "gb": 1,
+      "days": 7,
+      "usd": 3.99
+     },
+     {
+      "gb": 3,
+      "days": 30,
+      "usd": 7.99
+     },
+     {
+      "gb": 5,
+      "days": 30,
+      "usd": 10.99
+     },
+     {
+      "gb": 10,
+      "days": 30,
+      "usd": 17.99
+     },
+     {
+      "gb": 20,
+      "days": 30,
+      "usd": 24.99
+     }
+    ]
+   }
+  },
+  "south-korea": {
+   "page": "best-esim-south-korea-2026",
+   "name": "South Korea",
+   "airalo_slug": "south-korea",
+   "airalo": {
+    "checked": "2026-10-25",
+    "url": "https://www.airalo.com/south-korea-esim",
+    "plans": [
+     {
+      "gb": 1.0,
+      "days": 3,
+      "usd": 4.0
+     },
+     {
+      "gb": 3.0,
+      "days": 3,
+      "usd": 8.0
+     },
+     {
+      "gb": 3.0,
+      "days": 7,
+      "usd": 9.0
+     },
+     {
+      "gb": 5.0,
+      "days": 7,
+      "usd": 10.0
+     },
+     {
+      "gb": 5.0,
+      "days": 15,
+      "usd": 10.5
+     },
+     {
+      "gb": 5.0,
+      "days": 30,
+      "usd": 11.0
+     },
+     {
+      "gb": 10.0,
+      "days": 7,
+      "usd": 18.0
+     },
+     {
+      "gb": 10.0,
+      "days": 15,
+      "usd": 18.5
+     },
+     {
+      "gb": 10.0,
+      "days": 30,
+      "usd": 19.0
+     },
+     {
+      "gb": 20.0,
+      "days": 15,
+      "usd": 29.0
+     },
+     {
+      "gb": 20.0,
+      "days": 30,
+      "usd": 30.0
+     },
+     {
+      "gb": 50.0,
+      "days": 30,
+      "usd": 49.0
+     }
+    ]
+   },
+   "saily": {
+    "checked": "2026-10-25",
+    "url": "https://saily.com/esim-south-korea/",
+    "plans": [
+     {
+      "gb": 1,
+      "days": 7,
+      "usd": 3.99
+     },
+     {
+      "gb": 3,
+      "days": 30,
+      "usd": 8.99
+     },
+     {
+      "gb": 5,
+      "days": 30,
+      "usd": 10.99
+     },
+     {
+      "gb": 10,
+      "days": 30,
+      "usd": 18.99
+     },
+     {
+      "gb": 20,
+      "days": 30,
+      "usd": 29.99
+     }
+    ]
+   }
+  },
+  "taiwan": {
+   "page": "best-esim-taiwan-2026",
+   "name": "Taiwan",
+   "airalo_slug": "taiwan",
+   "airalo": {
+    "checked": "2026-10-25",
+    "url": "https://www.airalo.com/taiwan-esim",
+    "plans": [
+     {
+      "gb": 1.0,
+      "days": 3,
+      "usd": 4.0
+     },
+     {
+      "gb": 3.0,
+      "days": 3,
+      "usd": 8.5
+     },
+     {
+      "gb": 3.0,
+      "days": 7,
+      "usd": 9.0
+     },
+     {
+      "gb": 5.0,
+      "days": 7,
+      "usd": 11.0
+     },
+     {
+      "gb": 5.0,
+      "days": 15,
+      "usd": 11.5
+     },
+     {
+      "gb": 5.0,
+      "days": 30,
+      "usd": 12.0
+     },
+     {
+      "gb": 10.0,
+      "days": 7,
+      "usd": 17.5
+     },
+     {
+      "gb": 10.0,
+      "days": 15,
+      "usd": 18.0
+     },
+     {
+      "gb": 10.0,
+      "days": 30,
+      "usd": 19.0
+     },
+     {
+      "gb": 20.0,
+      "days": 15,
+      "usd": 28.0
+     },
+     {
+      "gb": 20.0,
+      "days": 30,
+      "usd": 29.0
+     },
+     {
+      "gb": 50.0,
+      "days": 30,
+      "usd": 49.0
+     }
+    ]
+   },
+   "saily": {
+    "checked": "2026-10-25",
+    "url": "https://saily.com/esim-taiwan/",
+    "plans": [
+     {
+      "gb": 1,
+      "days": 7,
+      "usd": 3.99
+     },
+     {
+      "gb": 3,
+      "days": 30,
+      "usd": 8.99
+     },
+     {
+      "gb": 5,
+      "days": 30,
+      "usd": 11.99
+     },
+     {
+      "gb": 10,
+      "days": 30,
+      "usd": 19.99
+     },
+     {
+      "gb": 20,
+      "days": 30,
+      "usd": 30.99
+     }
+    ]
+   }
+  },
+  "thailand": {
+   "page": "best-esim-thailand-2026",
+   "name": "Thailand",
+   "airalo_slug": "thailand",
+   "airalo": {
+    "checked": "2026-10-25",
+    "url": "https://www.airalo.com/thailand-esim",
+    "plans": [
+     {
+      "gb": 1.0,
+      "days": 3,
+      "usd": 4.0
+     },
+     {
+      "gb": 3.0,
+      "days": 3,
+      "usd": 5.5
+     },
+     {
+      "gb": 3.0,
+      "days": 7,
+      "usd": 6.0
+     },
+     {
+      "gb": 5.0,
+      "days": 7,
+      "usd": 7.0
+     },
+     {
+      "gb": 5.0,
+      "days": 15,
+      "usd": 7.5
+     },
+     {
+      "gb": 5.0,
+      "days": 30,
+      "usd": 8.0
+     },
+     {
+      "gb": 10.0,
+      "days": 7,
+      "usd": 10.0
+     },
+     {
+      "gb": 10.0,
+      "days": 15,
+      "usd": 10.5
+     },
+     {
+      "gb": 10.0,
+      "days": 30,
+      "usd": 11.0
+     },
+     {
+      "gb": 20.0,
+      "days": 15,
+      "usd": 17.5
+     },
+     {
+      "gb": 20.0,
+      "days": 30,
+      "usd": 18.0
+     },
+     {
+      "gb": 50.0,
+      "days": 30,
+      "usd": 27.5
+     }
+    ]
+   },
+   "saily": {
+    "checked": "2026-10-25",
+    "url": "https://saily.com/esim-thailand/",
+    "plans": [
+     {
+      "gb": 1,
+      "days": 7,
+      "usd": 2.99
+     },
+     {
+      "gb": 3,
+      "days": 30,
+      "usd": 5.99
+     },
+     {
+      "gb": 5,
+      "days": 30,
+      "usd": 7.99
+     },
+     {
+      "gb": 10,
+      "days": 30,
+      "usd": 10.99
+     },
+     {
+      "gb": 20,
+      "days": 30,
+      "usd": 19.99
+     }
+    ]
+   }
+  },
+  "vietnam": {
+   "page": "best-esim-vietnam-2026",
+   "name": "Vietnam",
+   "airalo_slug": "vietnam",
+   "airalo": {
+    "checked": "2026-10-25",
+    "url": "https://www.airalo.com/vietnam-esim",
+    "plans": [
+     {
+      "gb": 1.0,
+      "days": 3,
+      "usd": 4.0
+     },
+     {
+      "gb": 3.0,
+      "days": 3,
+      "usd": 7.5
+     },
+     {
+      "gb": 3.0,
+      "days": 7,
+      "usd": 8.0
+     },
+     {
+      "gb": 5.0,
+      "days": 7,
+      "usd": 10.0
+     },
+     {
+      "gb": 5.0,
+      "days": 15,
+      "usd": 10.5
+     },
+     {
+      "gb": 5.0,
+      "days": 30,
+      "usd": 11.0
+     },
+     {
+      "gb": 10.0,
+      "days": 7,
+      "usd": 17.0
+     },
+     {
+      "gb": 10.0,
+      "days": 15,
+      "usd": 17.5
+     },
+     {
+      "gb": 10.0,
+      "days": 30,
+      "usd": 18.0
+     },
+     {
+      "gb": 20.0,
+      "days": 15,
+      "usd": 28.0
+     },
+     {
+      "gb": 20.0,
+      "days": 30,
+      "usd": 29.0
+     },
+     {
+      "gb": 50.0,
+      "days": 30,
+      "usd": 49.0
+     }
+    ]
+   },
+   "saily": {
+    "checked": "2026-10-25",
+    "url": "https://saily.com/esim-vietnam/",
+    "plans": [
+     {
+      "gb": 1,
+      "days": 7,
+      "usd": 3.99
+     },
+     {
+      "gb": 3,
+      "days": 30,
+      "usd": 7.99
+     },
+     {
+      "gb": 5,
+      "days": 30,
+      "usd": 10.99
+     },
+     {
+      "gb": 10,
+      "days": 30,
+      "usd": 17.99
+     },
+     {
+      "gb": 20,
+      "days": 30,
+      "usd": 28.99
+     }
+    ]
+   }
+  },
+  "usa": {
+   "page": "best-esim-usa-2026",
+   "name": "the USA",
+   "airalo_slug": "united-states",
+   "airalo": {
+    "checked": "2026-10-25",
+    "url": "https://www.airalo.com/united-states-esim",
+    "plans": [
+     {
+      "gb": 1.0,
+      "days": 3,
+      "usd": 4.0
+     },
+     {
+      "gb": 1.0,
+      "days": 3,
+      "usd": 6.0
+     },
+     {
+      "gb": 3.0,
+      "days": 3,
+      "usd": 8.5
+     },
+     {
+      "gb": 3.0,
+      "days": 3,
+      "usd": 11.0
+     },
+     {
+      "gb": 3.0,
+      "days": 7,
+      "usd": 9.0
+     },
+     {
+      "gb": 3.0,
+      "days": 7,
+      "usd": 12.0
+     },
+     {
+      "gb": 5.0,
+      "days": 7,
+      "usd": 12.5
+     },
+     {
+      "gb": 5.0,
+      "days": 7,
+      "usd": 17.0
+     },
+     {
+      "gb": 5.0,
+      "days": 15,
+      "usd": 13.0
+     },
+     {
+      "gb": 5.0,
+      "days": 15,
+      "usd": 18.0
+     },
+     {
+      "gb": 5.0,
+      "days": 30,
+      "usd": 13.5
+     },
+     {
+      "gb": 5.0,
+      "days": 30,
+      "usd": 19.0
+     },
+     {
+      "gb": 10.0,
+      "days": 7,
+      "usd": 21.5
+     },
+     {
+      "gb": 10.0,
+      "days": 7,
+      "usd": 28.0
+     },
+     {
+      "gb": 10.0,
+      "days": 15,
+      "usd": 22.0
+     },
+     {
+      "gb": 10.0,
+      "days": 15,
+      "usd": 29.0
+     },
+     {
+      "gb": 10.0,
+      "days": 30,
+      "usd": 22.5
+     },
+     {
+      "gb": 10.0,
+      "days": 30,
+      "usd": 30.0
+     },
+     {
+      "gb": 20.0,
+      "days": 15,
+      "usd": 36.0
+     },
+     {
+      "gb": 20.0,
+      "days": 15,
+      "usd": 45.0
+     },
+     {
+      "gb": 20.0,
+      "days": 30,
+      "usd": 36.5
+     },
+     {
+      "gb": 20.0,
+      "days": 30,
+      "usd": 47.0
+     },
+     {
+      "gb": 50.0,
+      "days": 30,
+      "usd": 42.0
+     },
+     {
+      "gb": 50.0,
+      "days": 30,
+      "usd": 59.0
+     }
+    ]
+   },
+   "saily": {
+    "checked": "2026-10-25",
+    "url": "https://saily.com/esim-united-states/",
+    "plans": [
+     {
+      "gb": 1,
+      "days": 7,
+      "usd": 3.99
+     },
+     {
+      "gb": 3,
+      "days": 30,
+      "usd": 8.99
+     },
+     {
+      "gb": 5,
+      "days": 30,
+      "usd": 13.99
+     },
+     {
+      "gb": 10,
+      "days": 30,
+      "usd": 22.99
+     },
+     {
+      "gb": 20,
+      "days": 30,
+      "usd": 36.99
+     }
+    ]
+   }
+  },
+  "australia": {
+   "page": "best-esim-australia-2026",
+   "name": "Australia",
+   "airalo_slug": "australia",
+   "airalo": {
+    "checked": "2026-10-25",
+    "url": "https://www.airalo.com/australia-esim",
+    "plans": [
+     {
+      "gb": 1.0,
+      "days": 3,
+      "usd": 4.0
+     },
+     {
+      "gb": 3.0,
+      "days": 3,
+      "usd": 7.5
+     },
+     {
+      "gb": 3.0,
+      "days": 7,
+      "usd": 8.0
+     },
+     {
+      "gb": 5.0,
+      "days": 7,
+      "usd": 10.0
+     },
+     {
+      "gb": 5.0,
+      "days": 15,
+      "usd": 10.5
+     },
+     {
+      "gb": 5.0,
+      "days": 30,
+      "usd": 11.0
+     },
+     {
+      "gb": 10.0,
+      "days": 7,
+      "usd": 16.5
+     },
+     {
+      "gb": 10.0,
+      "days": 15,
+      "usd": 17.5
+     },
+     {
+      "gb": 10.0,
+      "days": 30,
+      "usd": 18.0
+     },
+     {
+      "gb": 20.0,
+      "days": 15,
+      "usd": 29.0
+     },
+     {
+      "gb": 20.0,
+      "days": 30,
+      "usd": 30.0
+     },
+     {
+      "gb": 50.0,
+      "days": 30,
+      "usd": 45.0
+     }
+    ]
+   },
+   "saily": {
+    "checked": "2026-10-25",
+    "url": "https://saily.com/esim-australia/",
+    "plans": [
+     {
+      "gb": 1,
+      "days": 7,
+      "usd": 3.99
+     },
+     {
+      "gb": 3,
+      "days": 30,
+      "usd": 7.99
+     },
+     {
+      "gb": 5,
+      "days": 30,
+      "usd": 10.99
+     },
+     {
+      "gb": 10,
+      "days": 30,
+      "usd": 17.99
+     },
+     {
+      "gb": 20,
+      "days": 30,
+      "usd": 29.99
+     }
+    ]
+   }
+  },
+  "europe": {
+   "page": "best-esim-europe-2026",
+   "name": "Europe",
+   "airalo_slug": "europe",
+   "airalo": {
+    "checked": "2026-10-25",
+    "url": "https://www.airalo.com/europe-esim",
+    "plans": [
+     {
+      "gb": 1.0,
+      "days": 3,
+      "usd": 5.0
+     },
+     {
+      "gb": 1.0,
+      "days": 7,
+      "usd": 8.5
+     },
+     {
+      "gb": 1.0,
+      "days": 7,
+      "usd": 9.0
+     },
+     {
+      "gb": 2.0,
+      "days": 15,
+      "usd": 16.5
+     },
+     {
+      "gb": 2.0,
+      "days": 15,
+      "usd": 17.0
+     },
+     {
+      "gb": 3.0,
+      "days": 3,
+      "usd": 10.0
+     },
+     {
+      "gb": 3.0,
+      "days": 7,
+      "usd": 11.0
+     },
+     {
+      "gb": 3.0,
+      "days": 30,
+      "usd": 24.0
+     },
+     {
+      "gb": 3.0,
+      "days": 30,
+      "usd": 36.0
+     },
+     {
+      "gb": 5.0,
+      "days": 7,
+      "usd": 18.5
+     },
+     {
+      "gb": 5.0,
+      "days": 15,
+      "usd": 19.0
+     },
+     {
+      "gb": 5.0,
+      "days": 30,
+      "usd": 19.5
+     },
+     {
+      "gb": 5.0,
+      "days": 60,
+      "usd": 35.0
+     },
+     {
+      "gb": 5.0,
+      "days": 60,
+      "usd": 50.0
+     },
+     {
+      "gb": 10.0,
+      "days": 7,
+      "usd": 26.0
+     },
+     {
+      "gb": 10.0,
+      "days": 15,
+      "usd": 28.0
+     },
+     {
+      "gb": 10.0,
+      "days": 30,
+      "usd": 31.0
+     },
+     {
+      "gb": 10.0,
+      "days": 180,
+      "usd": 57.0
+     },
+     {
+      "gb": 10.0,
+      "days": 180,
+      "usd": 79.0
+     },
+     {
+      "gb": 20.0,
+      "days": 15,
+      "usd": 47.0
+     },
+     {
+      "gb": 20.0,
+      "days": 30,
+      "usd": 48.0
+     },
+     {
+      "gb": 20.0,
+      "days": 365,
+      "usd": 66.0
+     },
+     {
+      "gb": 20.0,
+      "days": 365,
+      "usd": 89.0
+     },
+     {
+      "gb": 50.0,
+      "days": 30,
+      "usd": 70.0
+     },
+     {
+      "gb": 50.0,
+      "days": 90,
+      "usd": 100.0
+     },
+     {
+      "gb": 100.0,
+      "days": 180,
+      "usd": 185.0
+     }
+    ]
+   },
+   "saily": {
+    "checked": "2026-10-25",
+    "url": "https://saily.com/esim-europe/",
+    "plans": [
+     {
+      "gb": 1,
+      "days": 7,
+      "usd": 4.99
+     },
+     {
+      "gb": 3,
+      "days": 30,
+      "usd": 12.49
+     },
+     {
+      "gb": 5,
+      "days": 30,
+      "usd": 19.49
+     },
+     {
+      "gb": 10,
+      "days": 30,
+      "usd": 35.99
+     },
+     {
+      "gb": 50,
+      "days": 90,
+      "usd": 95.99
+     }
+    ]
+   }
+  }
+ }
+}

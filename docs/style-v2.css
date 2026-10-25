@@ -4891,3 +4891,33 @@ body.gy-has-aff-bar { padding-bottom: 64px; }
 .gy-map-dates button:hover, .gy-map-dates button:focus-visible { transform: translateY(-1px); box-shadow: 0 4px 0 #b9831a, 0 8px 18px rgba(0, 0, 0, .18); outline: none; }
 .gy-map-dates button:active { transform: translateY(2px); box-shadow: 0 1px 0 #b9831a; }
 @media (max-width: 480px) { .gy-map-dates label:first-child { flex: 1 1 100%; } .gy-map-dates button { flex: 1 1 100%; } }
+
+/* Plans for the trip under a country eSIM guide's verdict (add_aeo.add_esim_plans):
+   each price cell is the tap target; only the lower price in a row is emphasised */
+.article .gy-esim-plans { border-top: 2px solid var(--gold); border-bottom: 1px solid var(--rule); padding: 14px 0 6px; margin: 0 0 24px; }
+.article .gy-esim-plans-h {
+  margin: 0 0 8px; font-family: var(--sans); font-size: .7rem; font-weight: 700; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--gold-ink);
+}
+.article .gy-esim-plans table { width: 100%; min-width: 0; table-layout: fixed; margin: 0; font-family: var(--sans); font-size: .88rem; }
+.article .gy-esim-plans thead th:first-child { width: 30%; }
+.article .gy-esim-plans th, .article .gy-esim-plans td { padding: 6px; }
+.article .gy-esim-plans th[scope="row"] { font-weight: 600; text-align: left; vertical-align: middle; line-height: 1.3; }
+.article .gy-esim-need { font-weight: 400; font-size: .76rem; color: var(--muted); }
+.article .gy-esim-plans td { vertical-align: middle; }
+.article .gy-esim-plans a.gy-plan-link {
+  display: block; min-height: 44px; padding: 7px 8px; border: 1px solid var(--rule); border-radius: 3px;
+  color: var(--navy); text-decoration: none; line-height: 1.3;
+}
+.article .gy-esim-plans a.gy-plan-link.is-lower { border-color: var(--navy); }
+.article .gy-esim-plans a.gy-plan-link:hover { background: var(--navy); color: #f8f4e9; border-color: var(--navy); }
+.article .gy-plan-price { display: block; font-size: 1rem; font-weight: 500; }
+.article strong.gy-plan-price { font-weight: 700; }
+.article .gy-plan-spec { display: block; font-size: .76rem; color: inherit; opacity: .8; }
+.article .gy-esim-plans-btns { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 6px; }
+.article .gy-esim-plans a.gy-plan-btn {
+  padding: 10px 16px; border: 1px solid var(--navy); border-radius: 3px; background: var(--navy); color: #f8f4e9;
+  font-family: var(--sans); font-weight: 600; font-size: .88rem; text-decoration: none;
+}
+.article .gy-esim-plans a.gy-plan-btn:hover { background: transparent; color: var(--navy); }
+.article .gy-esim-plans-note { margin: 4px 0 8px; font-family: var(--sans); font-size: .76rem; line-height: 1.45; color: var(--muted); }

@@ -1592,6 +1592,109 @@ def add_quick_picks(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     return 0
 
 
+# --- eSIM plans for the trip (country eSIM guides) -------------------------------
+# The stay guides' quick picks turn a verdict into three things to click; the eSIM guides
+# had a verdict and then prose. Here: for three common trips, each provider's cheapest plan
+# that covers it, from the providers' own sites (data/esim_plans.json, ops/esim_prices.py).
+# Only the lower price in a row is emphasised. Both brands are partners; neither is favoured.
+ESIM_PLANS_JSON = Path(__file__).resolve().parent / "data" / "esim_plans.json"
+ESIM_TRIPS = [("A week", 5, 7), ("Two weeks", 10, 15), ("A month", 20, 30)]
+ESIM_BRANDS = [("Airalo", "https://airalo.tpx.lu/ctddHmQY"), ("Saily", "https://saily.tpx.lu/hk5XU6Sm")]
+
+
+@lru_cache(maxsize=1)
+def _esim_data() -> dict:
+    if not ESIM_PLANS_JSON.exists():
+        return {}
+    return {c["page"]: c for c in json.loads(ESIM_PLANS_JSON.read_text())["countries"].values()}
+
+
+def _gb(x: float) -> str:
+    return f"{x:g} GB"
+
+
+def add_esim_plans(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    c = _esim_data().get(slug)
+    if not c:
+        return 0
+    box = soup.new_tag("aside", attrs={"class": "gy-esim-plans", "data-aeo": "1"})
+    h = soup.new_tag("p", attrs={"class": "gy-esim-plans-h"})
+    h.string = f"Plans for your trip to {c['name']}"
+    box.append(h)
+    wrap = soup.new_tag("div", attrs={"class": "table-scroll"})
+    table = soup.new_tag("table")
+    head = soup.new_tag("tr")
+    for t in ["Your trip"] + [b for b, _ in ESIM_BRANDS]:
+        th = soup.new_tag("th", attrs={"scope": "col"})
+        th.string = t
+        head.append(th)
+    thead = soup.new_tag("thead")
+    thead.append(head)
+    tbody = soup.new_tag("tbody")
+    rows = 0
+    for label, gb, days in ESIM_TRIPS:
+        picks = []
+        for brand, _ in ESIM_BRANDS:
+            fit = [p for p in c[brand.lower()]["plans"] if p["gb"] >= gb and p["days"] >= days]
+            picks.append(min(fit, key=lambda p: (p["usd"], p["gb"])) if fit else None)
+        if not any(picks):
+            continue
+        low = min(p["usd"] for p in picks if p)
+        tied = sum(1 for p in picks if p and p["usd"] == low) > 1
+        tr = soup.new_tag("tr")
+        th = soup.new_tag("th", attrs={"scope": "row"})
+        th.append(label)
+        th.append(soup.new_tag("br"))
+        sub = soup.new_tag("span", attrs={"class": "gy-esim-need"})
+        sub.string = f"{_gb(gb)} or more"
+        th.append(sub)
+        tr.append(th)
+        for (brand, href), pk in zip(ESIM_BRANDS, picks):
+            td = soup.new_tag("td")
+            if pk:
+                a = _anchor(soup, href, managed=False)
+                a["class"] = "gy-plan-link" + (" is-lower" if pk["usd"] == low and not tied else "")
+                price = soup.new_tag("strong" if pk["usd"] == low and not tied else "span", attrs={"class": "gy-plan-price"})
+                price.string = f"US${pk['usd']:.2f}"
+                spec = soup.new_tag("span", attrs={"class": "gy-plan-spec"})
+                spec.string = f"{_gb(pk['gb'])} · {pk['days']} days"
+                a.extend([price, spec])
+                td.append(a)
+            else:
+                td.string = "No plan this size"
+            tr.append(td)
+        tbody.append(tr)
+        rows += 1
+    if not rows:
+        return 0
+    table.extend([thead, tbody])
+    wrap.append(table)
+    box.append(wrap)
+    btns = soup.new_tag("p", attrs={"class": "gy-esim-plans-btns"})
+    for brand, href in ESIM_BRANDS:
+        a = _anchor(soup, href, managed=False)
+        a["class"] = "gy-plan-btn"
+        a.string = f"Go to {brand} →"
+        btns.append(a)
+    box.append(btns)
+    entry = min((p for b, _ in ESIM_BRANDS for p in c[b.lower()]["plans"]), key=lambda p: p["usd"])
+    entry_brand = next(b for b, _ in ESIM_BRANDS if entry in c[b.lower()]["plans"])
+    checked = max(c[b.lower()]["checked"] for b, _ in ESIM_BRANDS)
+    note = soup.new_tag("p", attrs={"class": "gy-esim-plans-note"})
+    note.string = (f"Each provider’s cheapest plan that covers the trip, from airalo.com and saily.com on "
+                   f"{date.fromisoformat(checked).strftime('%-d %b %Y')}, in US dollars; prices change. The smallest "
+                   f"plan starts at US${entry['usd']:.2f} ({entry_brand}, {_gb(entry['gb'])} for {entry['days']} days). "
+                   f"The links open each provider’s site, where you pick {c['name']}. Affiliate links: we may earn a "
+                   f"commission at no extra cost to you.")
+    box.append(note)
+    for sel in ("p.gy-promise", "aside.gy-verdict"):
+        anchor = article.select_one(sel)
+        if anchor is not None and anchor.parent is article:
+            anchor.insert_after(box)
+            return rows
+    return 0
+
+
 # --- hotels by city (the booking-site comparison) ---------------------------------
 # Readers reach the comparison from ChatGPT with a trip in mind; most never scroll.
 # Under the verdict, one line per city: hotels around a central spot (Stay22 picks
@@ -2136,6 +2239,7 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
             out["quick_picks"] = add_quick_picks(soup, slug, article)
         if slug in CITY_RATES:
             out["city_rates"] = add_city_rates(soup, slug, article)
+        out["esim_plans"] = add_esim_plans(soup, slug, article)
         if slug in PICKERS:
             out["picker"] = add_picker(soup, slug, article)
         if slug in STAY_POINTERS:
