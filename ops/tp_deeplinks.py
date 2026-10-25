@@ -28,7 +28,17 @@ TRS, MARKER = 547982, 743846
 HOME = {
     "airalo": ["https://airalo.tpx.lu/ctddHmQY"],
     "saily": ["https://saily.tpx.lu/hk5XU6Sm", "https://saily.tpx.lu/1RHGIfQA"],
+    "klook": ["https://klook.tpx.lu/TgR5Suzs", "https://klook.tpx.lu/wgsZkatL"],
 }
+# Klook's "things to do" page for the city a page is about (data/klook_cities.json)
+KLOOK_CITIES = json.loads((REPO / "data" / "klook_cities.json").read_text())["cities"]
+
+
+def _klook_city(name: str) -> str | None:
+    import unicodedata
+    plain = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().replace(",", "")
+    plain = {"Sydney NSW": "Sydney"}.get(plain, plain)
+    return KLOOK_CITIES.get(plain)
 ESIM = {  # page slug suffix: (Airalo slug, Saily slug)
     "japan": ("japan", "japan"), "south-korea": ("south-korea", "south-korea"), "taiwan": ("taiwan", "taiwan"),
     "thailand": ("thailand", "thailand"), "vietnam": ("vietnam", "vietnam"), "usa": ("united-states", "united-states"),
@@ -89,9 +99,20 @@ def _esim_page_for(slug: str) -> str | None:
     return page if page in DEEP else None
 
 
+def _page_city(slug: str) -> str | None:
+    sys.path.insert(0, str(REPO))
+    import add_aeo
+    dest = add_aeo.page_dest(slug)
+    return _klook_city(dest[0]) if dest else None
+
+
 def deep_for(slug: str, cache: dict) -> dict[str, str]:
     """{homepage short link: deep short link} for one page, from the cache only."""
     swaps = {}
+    city_url = _page_city(slug)
+    if city_url in cache:
+        for home in HOME["klook"]:
+            swaps[home] = cache[city_url]
     for brand, url in DEEP.get(_esim_page_for(slug) or "", {}).items():
         if url in cache:
             for home in HOME[brand]:
@@ -117,7 +138,8 @@ def main() -> None:
     ap.add_argument("--write", action="store_true")
     args = ap.parse_args()
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
-    wanted = {u for m in DEEP.values() for u in m.values()} | {u for m in CELLS.values() for _, u in m.values()}
+    wanted = ({u for m in DEEP.values() for u in m.values()} | {u for m in CELLS.values() for _, u in m.values()}
+              | set(KLOOK_CITIES.values()))
     missing = sorted(wanted - cache.keys())
     if missing:
         if not args.write:
