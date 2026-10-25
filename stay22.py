@@ -114,6 +114,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-tokyo-new-year": dict(area="Asakusa", lat=35.7148, lng=139.7967, zoom=15,
+                                               address="Senso-ji, Asakusa, Taito City, Tokyo, Japan"),
     "where-to-stay-in-venice-carnival": dict(area="San Marco", lat=45.434, lng=12.3388, zoom=15,
                                                 address="Piazza San Marco, 30124 Venice, Italy"),
     "where-to-stay-in-whistler": dict(area="Whistler Village", lat=50.1131, lng=-122.9567, zoom=15,
@@ -1272,6 +1274,11 @@ HOTELS = {
     "Hotel Paganelli": _B + "it/paganelli.html",
     "Hotel American Dinesen": _B + "it/american.html",
     "Generator Venice": _B + "it/ostello-venezia.html",
+    # Tokyo, where-to-stay-in-tokyo-new-year (Booking.com pages confirmed by hotel name and city)
+    "Asakusa Tobu Hotel": _B + "jp/asakusa-tobu.html",
+    "The Prince Park Tower Tokyo": _B + "jp/the-prince-park-tower-tokyo.html",
+    "Shiba Park Hotel": _B + "jp/shiba-park.html",
+    "Keio Plaza Hotel Tokyo": _B + "jp/keio-plaza-tokyo.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

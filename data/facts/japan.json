@@ -4154,6 +4154,429 @@
           "the pier is a 12-minute walk or about 3 minutes by car"
         ]
       }
+    },
+    {
+      "id": "jp.tokyo.new-year.skytree-sunrise",
+      "topic": "place",
+      "claim": "Tokyo Skytree's first-sunrise special opening is on Friday 1 January 2027, 5:30 to 7:30am, for 800 people; 580 places go through an online lottery at 11,000 yen with a 1,000-yen shop voucher (applications noon 5 Nov to 11:59pm 26 Nov 2026, results by email planned 1 Dec); Tobu Hotel Levant Tokyo (from 75,000 yen for two) and Asakusa Tobu Hotel (from 80,000 yen for two) sell twin-room packages with the ticket, five rooms between them.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.tokyo-skytree.jp/lp/first-sunrise2027/",
+          "kind": "official",
+          "title": "Tokyo Skytree: first sunrise 2027 special opening"
+        },
+        {
+          "url": "https://www.tobuhotel.co.jp/asakusa/news/342/",
+          "kind": "official",
+          "title": "Asakusa Tobu Hotel: Skytree first-sunrise plan"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "The special opening runs from 5:30am to 7:30am",
+          "There are 800 places in all, and 580 of them go through the Skytree's online lottery",
+          "between them the two hotels have only five rooms on the plan"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Lottery closes 26 Nov; results 1 Dec. Hotel plan prices marked planned."
+    },
+    {
+      "id": "jp.tokyo.new-year.meiji-jingu",
+      "topic": "place",
+      "claim": "Meiji Jingu's hatsumode page (still the New Year 2026 edition) listed gates opening 6:40am on 31 Dec, no closing at the turn of the year, 1 Jan hours 0:00 to 18:30, busiest 22:00 to 3:00 and after 10:00 on the first three days, no cars in the grounds for three days; entrances Harajuku (1 min from JR Harajuku / Meiji-jingumae), Yoyogi (5 min) and Sangubashi (5 min); admission free; 2026/27 hours not posted.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.meijijingu.or.jp/hatsumoude/",
+          "kind": "official",
+          "title": "Meiji Jingu: hatsumode page"
+        },
+        {
+          "url": "https://www.meijijingu.or.jp/en/visit/",
+          "kind": "official",
+          "title": "Meiji Jingu: how to visit and opening hours"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "Last year it listed gates opening at 6:40am on 31 December",
+          "On 1 January it listed opening hours of midnight to 6:30pm",
+          "Cars could not enter the grounds for the first three days"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Recheck late Dec for the 2026/27 gate hours."
+    },
+    {
+      "id": "jp.tokyo.new-year.sensoji",
+      "topic": "place",
+      "claim": "Senso-ji's New Year service (Shushoe) runs from the evening of 31 Dec to 6 Jan; the midnight bell is rung on Benten-yama with 108 strikes taking about 40 minutes; main-hall hours are 6am to 5pm (6.30am Oct to Mar); no overnight hours published; the temple lists the Tobu Skytree Line, Tokyo Metro Ginza Line, Tsukuba Express and Toei Asakusa Line.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.senso-ji.jp/annual_event/01.html",
+          "kind": "official",
+          "title": "Senso-ji: Shushoe"
+        },
+        {
+          "url": "https://www.senso-ji.jp/annual_event/24.html",
+          "kind": "official",
+          "title": "Senso-ji: Joya no kane"
+        },
+        {
+          "url": "https://www.senso-ji.jp/",
+          "kind": "official",
+          "title": "Senso-ji: official site, hours and access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "runs from the evening of 31 December to 6 January",
+          "108 strikes that take about 40 minutes",
+          "main-hall hours of 6am to 5pm"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "jp.tokyo.new-year.zojoji",
+      "topic": "place",
+      "claim": "Zojoji's New Year page (still last year's text): ritual burning of old charms 11pm 31 Dec, 108 bells from midnight rung in groups of four, bell tickets 2,000 yen with keepsake sold from 9am on 1 Dec at the temple office, ringers halved last year, amulet counters 10pm 31 Dec to 6pm 1 Jan.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.zojoji.or.jp/event/ev_hatsumoude.html",
+          "kind": "official",
+          "title": "Zojoji: New Year events"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "Bell tickets cost 2,000 yen with a keepsake",
+          "Last year it halved the number of ringers",
+          "10pm on 31 December to 6pm on 1 January"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "The page still carries last year's dates; recheck early December."
+    },
+    {
+      "id": "jp.tokyo.new-year.shibuya-countdown",
+      "topic": "place",
+      "claim": "The Shibuya Countdown Committee cancelled the 2025 event; Shibuya City announced it on 3 Dec 2025 and fenced the Hachiko statue from 6am 31 Dec to 1am 1 Jan; since 1 Oct 2024 drinking in public places around Shibuya Station is banned 6pm to 5am year-round; Shibuya City's 2026 press-release list had no countdown notice as of 21 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2025/hodo_20251203.html",
+          "kind": "official",
+          "title": "Shibuya City: countdown cancellation, 3 Dec 2025"
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/jorei-toshin/sbykankyo.html",
+          "kind": "official",
+          "title": "Shibuya City: street-drinking ordinance"
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2026/index.html",
+          "kind": "official",
+          "title": "Shibuya City: 2026 press releases"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "the City announced it on 3 December 2025",
+          "banned from 6pm to 5am every day of the year",
+          "has no countdown notice"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Last two years' announcements came 3-6 December."
+    },
+    {
+      "id": "jp.tokyo.new-year.tmg-countdown",
+      "topic": "place",
+      "claim": "The Metropolitan Government's Happy New Year Tokyo 2026 countdown was held on 31 Dec 2025 at the TMG Citizens' Plaza, Nishi-Shinjuku, with registration opening 12 Nov 2025; the south observatory opened 6:00 to 7:30am on 1 Jan 2026 to 600 lottery winners; no 2026/27 announcement on TMG English news up to 24 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-006360",
+          "kind": "official",
+          "title": "TMG: New Year Countdown 2026"
+        },
+        {
+          "url": "https://www.english.metro.tokyo.lg.jp/w/029-101-006218",
+          "kind": "official",
+          "title": "TMG: Nighttime Project announcement, 19 Nov 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "with advance registration that opened on 12 November",
+          "to 600 people chosen by lottery"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "jp.tokyo.new-year.jr-east-trains",
+      "topic": "transport",
+      "claim": "JR East announced on 22 Oct 2026 extra trains after the last train on New Year's Eve through New Year's Day on six Tokyo-area lines including the Yamanote, Keihin-Tohoku/Negishi and Chuo-Sobu local lines, shown in route search from 7 Dec, holiday timetables 30 Dec to 3 Jan; last year's six lines also included the Chuo rapid, Yokosuka and Sobu main/Narita lines, with the Yamanote running about 1am to 5am every 10 to 25 minutes.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001558.000017557.html",
+          "kind": "operator",
+          "title": "JR East: winter extra trains, 22 Oct 2026"
+        },
+        {
+          "url": "https://media.jreast.co.jp/articles/5331",
+          "kind": "operator",
+          "title": "JR East JRE Media: overnight trains 2025/26"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "On 22 October 2026 it announced extra trains",
+          "from 7 December",
+          "every 10 to 25 minutes"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Line-by-line times for 2026/27 are in a table image in the release; not transcribed."
+    },
+    {
+      "id": "jp.tokyo.new-year.metro-toei-trains",
+      "topic": "transport",
+      "claim": "Last year Tokyo Metro (notice 28 Nov 2025) ran Saturday/holiday timetables 30 Dec to 3 Jan with no overnight service and no later last or earlier first trains; Toei subway (notice 28 Nov 2025) ran Saturday/holiday timetables 30 Dec to 4 Jan with no overnight service or later last trains; neither had posted a 2026/27 notice by 26 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/2025/https://www.tokyometro.jp/info/222321.html",
+          "kind": "operator",
+          "title": "Tokyo Metro: year-end and New Year operation (archived)"
+        },
+        {
+          "url": "https://web.archive.org/web/2025/https://www.kotsu.metro.tokyo.jp/pickup_information/news/subway/2025/sub_i_2025112812295_h.html",
+          "kind": "operator",
+          "title": "Toei: year-end and New Year operation (archived)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "with no overnight service and no later last trains",
+          "Toei said the same for its subway lines from 30 December to 4 January"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Original Tokyo Metro page now 404s; Toei page blocks scripted access. Read via Wayback copies."
+    },
+    {
+      "id": "jp.tokyo.new-year.accommodation-tax",
+      "topic": "tax",
+      "claim": "Tokyo's accommodation tax per person per night: none under 10,000 yen, 100 yen from 10,000 to 14,999 yen, 200 yen from 15,000 yen; from 1 April 2027 it becomes 3% of the rate per person per night, none under 13,000 yen, and covers simple lodgings and minpaku.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/2",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government Bureau of Taxation: accommodation tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "10,000 to 14,999 yen",
+          "3% of the rate per person, per night",
+          "covers simple lodgings and private minpaku stays"
+        ]
+      },
+      "recheck_days": 60
+    },
+    {
+      "id": "jp.tokyo.new-year.closures",
+      "topic": "place",
+      "claim": "Japan's national tourism organisation says the New Year holidays generally run from about 29 December to 3 January, with schools, offices and many businesses closed for at least part of it, though some restaurants and department stores now stay open.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.japan.travel/en/us/blog/new-years-in-japan/",
+          "kind": "official",
+          "title": "JNTO: New Year's in Japan"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "from about 29 December to 3 January, with schools, offices and many businesses closed"
+        ]
+      },
+      "recheck_days": 365
+    },
+    {
+      "id": "jp.tokyo.new-year.hotel.asakusa-tobu",
+      "topic": "hotel",
+      "claim": "Asakusa Tobu Hotel (1-1-15 Asakusa) sells a Skytree first-sunrise twin-room plan with breakfast from 80,000 yen for two (planned, tax and service included), sales from noon 5 Nov 2026, and dinner-buffet plans for 31 Dec and 1 Jan in two sittings (5:30 to 7pm, 7:15 to 8:45pm).",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.tobuhotel.co.jp/asakusa/news/342/",
+          "kind": "official",
+          "title": "Asakusa Tobu Hotel: Skytree first-sunrise plan"
+        },
+        {
+          "url": "https://www.tobuhotel.co.jp/asakusa/news/279/",
+          "kind": "official",
+          "title": "Asakusa Tobu Hotel: Christmas and New Year plans"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "from 80,000 yen for two, tax and service included",
+          "in two sittings, 5:30pm to 7pm and 7:15pm to 8:45pm"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "jp.tokyo.new-year.hotel.keio-plaza",
+      "topic": "hotel",
+      "claim": "Keio Plaza Hotel Tokyo (2-2-1 Nishi-Shinjuku) lists New Year 2027 plans of one to three nights between 31 Dec and 3 Jan, a countdown concert on the night of 31 Dec, New Year's Eve soba, an osechi breakfast on 1 Jan and dinner buffets on 31 Dec and 1 Jan; its example plan prices start at 594,000 yen.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.keioplaza.co.jp/en/event/ny2027/",
+          "kind": "official",
+          "title": "Keio Plaza Hotel Tokyo: New Year 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "accommodation plans of one to three nights between 31 December and 3 January",
+          "the page's example prices start at 594,000 yen"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "jp.tokyo.new-year.hotel.ryumeikan",
+      "topic": "hotel",
+      "claim": "Hotel Ryumeikan Tokyo (1-3-22 Yaesu) lists free New Year's Eve soba for staying guests 8:30pm to 10pm on 31 Dec 2026, an in-room osechi breakfast plan for 31 Dec to 1 Jan, a shuin-book plan valid 31 Dec to 6 Jan, and wooden prayer plaques in the 15th-floor lobby 1 to 3 Jan.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.ryumeikan-tokyo.jp/newyear/",
+          "kind": "official",
+          "title": "Hotel Ryumeikan Tokyo: New Year 2027"
+        },
+        {
+          "url": "https://www.ryumeikan-tokyo.jp/newyear_stayplan/",
+          "kind": "official",
+          "title": "Hotel Ryumeikan Tokyo: New Year stay plans"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "free New Year's Eve soba for staying guests from 8:30pm to 10pm on 31 December",
+          "valid 31 December to 6 January"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "jp.tokyo.new-year.hotel.sequence-miyashita",
+      "topic": "hotel",
+      "claim": "sequence MIYASHITA PARK's notice says its restaurant is closed from 1 Nov to December for renovation, Bar helmsdale is closed from 15 Oct, the Miyashita Park side entrance is closed 23:00 to 8:00, and rooms are cleaned every two days; it puts the hotel 3 minutes from Metro Shibuya B1, 7 from Shibuya Hachiko exit and 8 from Meiji-jingumae Exit 7.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.sequencehotels.com/miyashita-park/eng/",
+          "kind": "official",
+          "title": "sequence MIYASHITA PARK: official site and notice"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "the park-side entrance from 11pm to 8am",
+          "eight from Exit 7 at Meiji-jingumae station by the hotel's count"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "jp.tokyo.new-year.hotel.shibuya-stream",
+      "topic": "hotel",
+      "claim": "SHIBUYA STREAM HOTEL (3-21-3 Shibuya) is directly connected to the New South Exit of JR Shibuya Station on the Yamanote Line and to Exit C2 of the Tokyu and Metro lines.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.tokyuhotels.co.jp/en/shibuyastream/index.html",
+          "kind": "official",
+          "title": "Tokyu Hotels: SHIBUYA STREAM HOTEL"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "directly connected to the New South Exit of JR Shibuya Station on the Yamanote Line"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "jp.tokyo.new-year.hotel.prince-park-tower",
+      "topic": "hotel",
+      "claim": "The Prince Park Tower Tokyo (4-8-1 Shibakoen) has 263 Tower View Rooms and a natural hot spring bath, sits at the base of Tokyo Tower, and lists Zojoji as a nearby attraction.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.princehotels.com/en/parktower/",
+          "kind": "official",
+          "title": "The Prince Park Tower Tokyo: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "with 263 Tower View rooms and a natural hot spring bath"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "jp.tokyo.new-year.hotel.shiba-park",
+      "topic": "hotel",
+      "claim": "Shiba Park Hotel (1-5-10 Shibakoen) has 198 rooms, sits next to Shiba Park and Zojoji with Tokyo Tower close, and says Hamamatsucho, Daimon and Onarimon stations are within walking distance.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.shibaparkhotel.com/en/",
+          "kind": "official",
+          "title": "Shiba Park Hotel: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "next to Shiba Park and Zojoji with Tokyo Tower close, and 198 rooms"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "jp.tokyo.new-year.hotel.tokyo-station",
+      "topic": "hotel",
+      "claim": "The Tokyo Station Hotel has 150 rooms inside Tokyo Station's building, has welcomed guests since 1915 and reopened in 2012 as an Important Cultural Property; its special-offers page listed no New Year plan on 26 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.thetokyostationhotel.jp/",
+          "kind": "official",
+          "title": "The Tokyo Station Hotel: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-new-year.html": [
+          "with 150 rooms, open since 1915 and reopened in 2012 as an Important Cultural Property"
+        ]
+      },
+      "recheck_days": 90
     }
   ]
 }

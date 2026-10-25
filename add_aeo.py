@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-tokyo-new-year": dict(
+        text="For a first New Year in Tokyo, stay in Asakusa: Senso-ji rings its midnight bell, and Asakusa Tobu Hotel sells a Skytree first-sunrise stay. Choose OMO3 for value, The Tokyo Station Hotel for a calm splurge. Tokyo's tax is 100 or 200 yen a person a night.",
+        link_text="Asakusa",
+        cta=_stay_cta("where-to-stay-in-tokyo-new-year", "See hotels around Asakusa")),
     "where-to-stay-in-venice-carnival": dict(
         text="For Carnival, choose your kind of night first: San Marco to wake up in the costumes, Cannaregio for quieter streets. The Metropole is the splurge, the Concordia looks onto the Square and Combo Venezia is the budget pick. The tax at a four-star is €3.10 a night until 31 January, €4.50 after.",
         link_text="San Marco",
@@ -1481,6 +1485,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-tokyo-new-year": ["Asakusa Tobu Hotel", "The Tokyo Station Hotel", "OMO3 Asakusa by Hoshino Resorts"],
     "where-to-stay-in-venice-carnival": ["Hotel Metropole", "Hotel Concordia", "Combo Venezia"],
     "where-to-stay-in-whistler": ["Fairmont Chateau Whistler", "Aava Whistler Hotel", "Hilton Whistler Resort & Spa"],
     "where-to-stay-in-edinburgh-hogmanay": ["The Balmoral", "Sheraton Grand Hotel & Spa, Edinburgh", "Motel One Edinburgh-Princes"],
@@ -2087,6 +2092,7 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Tokyo (New Year)", "where-to-stay-in-tokyo-new-year", None, None),
         ("Venice (Carnival)", "where-to-stay-in-venice-carnival", None, None),
         ("Whistler", "where-to-stay-in-whistler", None, None),
         ("Edinburgh (Hogmanay)", "where-to-stay-in-edinburgh-hogmanay", None, None),
@@ -2351,7 +2357,9 @@ STAY_POINTERS = {
         f'Splitting the trip between cities? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers '
         'how many nights to give Tokyo, Kyoto and Osaka, and moving day in between. Coming for the cherry '
         f'blossom? <a href="{_TS}">Tokyo hotels near the cherry blossoms</a> has the dates and the tax change on 1 April 2027; '
-        f'for late November, <a href="{_TA}">our autumn-leaves guide</a> has the 2026 garden openings.'),
+        f'for late November, <a href="{_TA}">our autumn-leaves guide</a> has the 2026 garden openings; for '
+        '31 December, <a href="where-to-stay-in-tokyo-new-year.html">where to stay in Tokyo for New Year</a> '
+        'covers the temple bells, the first shrine visit and the trains that night.'),
     "where-to-stay-in-kyoto": ("intro",
         f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
         'give each city, and how to move your bags between them. Here for the autumn leaves? <a '
