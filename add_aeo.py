@@ -2251,15 +2251,18 @@ STAY_POINTERS = {
     "japan-7-day-itinerary": ("Before you land",
         f'Where to sleep on this route: <a href="{_JP}">how to split the nights</a>, then our guides to {_JP3}, '
         'which compare the areas and name the hotels.'),
-    "carry-on-packing-list-10-day-japan": ("The Carry-On and Personal Item",
-        f'Carrying everything between cities? Our where-to-stay guides for {_JP3} start with the station, so '
-        'the walk with your bag stays short.'),
-    "best-time-to-visit-japan-2026": ("The dates to plan around",
+    "best-time-to-visit-japan-2026": [
+        ("The dates to plan around",
         f'Travelling in a peak week? Book the room first: <a href="{_JP}">where to stay in Japan on a first trip</a> '
         f'splits the nights, our guides to {_JP3} name the hotels, and our cherry-blossom guides to <a '
         f'href="{_TS}">Tokyo</a> and <a href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto</a> have the '
         f'dates and the areas by blossom, as <a href="{_SP}">our Sapporo Snow Festival guide</a> does for February '
         f'and our guides to <a href="{_NS}">Niseko</a> and <a href="{_HB}">Hakuba</a> do for the ski season.'),
+        ("Winter: the honest bargain",
+         'For the snow, book the base early: <a href="where-to-stay-in-hakuba.html">Hakuba accommodation for '
+         '2026/27</a>, <a href="where-to-stay-in-niseko.html">Niseko accommodation for 2026/27</a> and '
+         f'<a href="{_SP}">hotels near the Sapporo Snow Festival</a> compare the areas and name the hotels.'),
+    ],
     "japan-autumn-2026": ("Flights and Stays",
         f'For where to sleep, <a href="{_JP}">where to stay in Japan on a first trip</a> splits the nights between '
         f'cities, and our guides to {_JP3} name the hotels. For late November, our autumn-leaves guides to <a '
@@ -2273,10 +2276,17 @@ STAY_POINTERS = {
     "where-to-stay-in-seoul": ("intro",
         f'Going on to Busan? <a href="{_BS}">Where to stay in Busan</a> compares Haeundae, Gwangalli, Seomyeon '
         'and Busan Station, and names nine hotels.'),
-    "where-to-stay-in-japan": ("When to book",
+    "where-to-stay-in-japan": [
+        ("When to book",
         f'Booking Fukuoka for a stay by 15 December? <a href="{_FK}#the-kyushu-recovery-discount-to-15-december-2026">'
         'Our Fukuoka guide</a> explains the Kyushu recovery discount, half off on the Japanese booking sites in '
         'the campaign, and names 11 hotels.'),
+        ("The short answer",
+         'Going for snow or blossom? Our season guides: <a href="where-to-stay-in-hakuba.html">Hakuba</a> and '
+         '<a href="where-to-stay-in-niseko.html">Niseko accommodation for 2026/27</a>, <a '
+         f'href="{_SP}">hotels near the Sapporo Snow Festival</a>, and cherry-blossom stays in <a href="{_TS}">Tokyo</a> '
+         'and <a href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto</a>.'),
+    ],
     "japan-tourist-taxes-2026": ("Kyoto’s new lodging tax",
         f'Choosing where to stay in Kyoto? <a href="{_K}">Our Kyoto guide</a> compares five areas and names '
         f'14 hotels and ryokan. Going to Sapporo? <a href="{_SP}">Our Snow Festival guide</a> covers its new tax.'),
@@ -2284,12 +2294,14 @@ STAY_POINTERS = {
     "where-to-stay-in-tokyo": ("intro",
         f'Splitting the trip between cities? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers '
         'how many nights to give Tokyo, Kyoto and Osaka, and moving day in between. Coming for the cherry '
-        f'blossom? <a href="{_TS}">Our cherry-blossom guide</a> has the dates and the tax change on 1 April 2027; '
+        f'blossom? <a href="{_TS}">Tokyo hotels near the cherry blossoms</a> has the dates and the tax change on 1 April 2027; '
         f'for late November, <a href="{_TA}">our autumn-leaves guide</a> has the 2026 garden openings.'),
     "where-to-stay-in-kyoto": ("intro",
         f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
         'give each city, and how to move your bags between them. Here for the autumn leaves? <a '
-        f'href="{_KA}">Our autumn-leaves guide</a> has the 2026 temple openings and the weeks to aim for.'),
+        f'href="{_KA}">Our autumn-leaves guide</a> has the 2026 temple openings and the weeks to aim for; for '
+        'spring, <a href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto hotels for cherry blossom season</a> '
+        'matches five areas to the blossom walks.'),
     "where-to-stay-in-osaka": ("intro",
         f'Kyoto, Osaka, or both? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights '
         f'to give each, and moving day from Tokyo. Here for Universal Studios Japan? <a href="{_US}">Our park '
@@ -2378,9 +2390,20 @@ STAY_POINTERS = {
     "travel-insurance-japan": ("intro",
         f'Planning where to sleep, too? <a href="{_JP}">Where to stay in Japan</a> splits a first trip of seven to '
         'ten days between Tokyo and Kyoto or Osaka, with the lodging tax each city adds and when to book.'),
-    "carry-on-packing-list-10-day-japan": ("intro",
-        f'Packing for ten days usually means two bases. <a href="{_JP}">Where to stay in Japan</a> splits the '
-        'trip between Tokyo and Kyoto or Osaka, with the lodging tax each city adds and when to book.'),
+    # a list places several pointers on one page (a repeated dict key silently dropped the earlier one)
+    "carry-on-packing-list-10-day-japan": [
+        ("intro",
+         f'Packing for ten days usually means two bases. <a href="{_JP}">Where to stay in Japan</a> splits the '
+         'trip between Tokyo and Kyoto or Osaka, with the lodging tax each city adds and when to book.'),
+        ("The Carry-On and Personal Item",
+         f'Carrying everything between cities? Our where-to-stay guides for {_JP3} start with the station, so '
+         'the walk with your bag stays short.'),
+        ("Essential Apparel",
+         f'The season changes the base as much as the bag. For snow, <a href="where-to-stay-in-hakuba.html">Hakuba '
+         'accommodation for 2026/27</a> and <a href="where-to-stay-in-niseko.html">Niseko accommodation for '
+         f'2026/27</a> compare the ski villages, and <a href="{_SP}">hotels near the Sapporo Snow Festival</a> '
+         f'cover February; for spring, <a href="{_TS}">Tokyo hotels near the cherry blossoms</a> has the dates.'),
+    ],
     "best-esim-japan-2026": ("intro",
         f'Still choosing a base? <a href="{_T}">Where to stay in Tokyo</a> starts with the station, then compares '
         'six neighbourhoods, from Shinjuku to Asakusa, and 17 hotels.'),
@@ -2409,6 +2432,16 @@ STAY_POINTERS = {
         f'Staying near a departure point? <a href="{_S}">Where to stay in Sydney</a> compares Circular Quay '
         f'and Darling Harbour as bases, and <a href="{_NY}">our New Year\'s Eve guide</a> names the hotels '
         'with harbour rooms facing the Bridge.'),
+    # seasonal stay guides Google has begun to show (GSC, Oct 2026), linked from pages it ranks
+    "hotel-taxes-around-the-world-2026": [
+        ("Japan: a new tax",
+         'Two ski towns add their own: <a href="where-to-stay-in-niseko.html">Niseko accommodation for 2026/27</a> '
+         'explains its 3% tax and <a href="where-to-stay-in-hakuba.html">Hakuba accommodation for 2026/27</a> the '
+         'hotel tax it has charged since June 2026, with the villages and hotels.'),
+        ("Europe",
+         'Going to Edinburgh for New Year? <a href="where-to-stay-in-edinburgh-hogmanay.html">Where to stay in '
+         'Edinburgh for Hogmanay</a> works through the 5% Visitor Levy on a festival-week booking.'),
+    ],
     # both
     "best-time-to-visit-australia": ("The south: Sydney",
         f'Once you have dates: <a href="{_S}">where to stay in Sydney</a> and <a href="{_M}">in Melbourne</a>, '
@@ -2421,7 +2454,13 @@ def add_stay_pointer(soup: BeautifulSoup, slug: str, article: Tag) -> bool:
     renamed heading shows up in the report instead of the line silently vanishing."""
     if slug not in STAY_POINTERS:
         return False
-    where, body = STAY_POINTERS[slug]
+    entries = STAY_POINTERS[slug]
+    placed = [_place_pointer(article, where, body)
+              for where, body in (entries if isinstance(entries, list) else [entries])]
+    return all(placed)
+
+
+def _place_pointer(article: Tag, where: str, body: str) -> bool:
     line = BeautifulSoup(f'<p class="gy-stay-pointer" data-aeo="1">{body}</p>', "html.parser").p
     if where == "intro":
         kids = [c for c in article.children if isinstance(c, Tag)]
