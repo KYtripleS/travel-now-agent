@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-rio-carnival": dict(
+        text="For Carnival, choose your kind of night first: Copacabana for the beach and the blocos, Centro and Lapa for the Sambadrome. The Copacabana Palace is the splurge, the Pestana Rio Atlântica the beachfront middle and Mango Tree Ipanema the budget pick. The parades are 7 to 9 February; tickets are sold only on Ticketmaster.",
+        link_text="Copacabana",
+        cta=_stay_cta("where-to-stay-in-rio-carnival", "See hotels around Copacabana")),
     "where-to-stay-in-hong-kong-chinese-new-year": dict(
         text="For the parade and the harbour fireworks, stay in Tsim Sha Tsui: the Sheraton is on Nathan Road, last year's parade route. Choose The Salisbury for value, The Peninsula for a splurge. Dates: Lunar New Year's Day is 6 February, fireworks 7 February. The tax is 3% of the room.",
         link_text="Tsim Sha Tsui",
@@ -1489,6 +1493,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-rio-carnival": ["Copacabana Palace", "Pestana Rio Atlântica", "Mango Tree Ipanema"],
     "where-to-stay-in-hong-kong-chinese-new-year": ["Sheraton Hong Kong Hotel & Towers", "The Peninsula Hong Kong", "The Salisbury - YMCA of Hong Kong"],
     "where-to-stay-in-tokyo-new-year": ["Asakusa Tobu Hotel", "The Tokyo Station Hotel", "OMO3 Asakusa by Hoshino Resorts"],
     "where-to-stay-in-venice-carnival": ["Hotel Metropole", "Hotel Concordia", "Combo Venezia"],
@@ -2097,6 +2102,7 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Rio de Janeiro (Carnival)", "where-to-stay-in-rio-carnival", None, None),
         ("Hong Kong (Chinese New Year)", "where-to-stay-in-hong-kong-chinese-new-year", None, None),
         ("Tokyo (New Year)", "where-to-stay-in-tokyo-new-year", None, None),
         ("Venice (Carnival)", "where-to-stay-in-venice-carnival", None, None),
@@ -2520,6 +2526,9 @@ STAY_POINTERS = {
         'Coming for Chinese New Year? <a href="where-to-stay-in-hong-kong-chinese-new-year.html">Hong Kong Chinese '
         'New Year 2027 hotels</a> matches the areas to the parade, the harbour fireworks on 7 February and the '
         'Victoria Park fair.'),
+    "where-to-stay-in-venice-carnival": ("intro",
+        'Weighing the two big carnivals? <a href="where-to-stay-in-rio-carnival.html">Rio Carnival 2027 hotels</a> '
+        'covers the Sambadrome nights (7 to 9 February), the street blocos and the e-Visa some passports now need.'),
     "where-to-stay-in-venice": ("intro",
         'Coming for Carnival? <a href="where-to-stay-in-venice-carnival.html">Where to stay in Venice for Carnival '
         '2027</a> matches the areas to the parades and the square, with the tax rate that rises on 1 February.'),

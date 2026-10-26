@@ -114,6 +114,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-rio-carnival": dict(area="Copacabana", lat=-22.9672, lng=-43.1789, zoom=14,
+                                             address="Avenida Atlântica 1702, Copacabana, Rio de Janeiro, Brazil"),
     "where-to-stay-in-hong-kong-chinese-new-year": dict(area="Tsim Sha Tsui", lat=22.2966, lng=114.1722, zoom=15,
                                                            address="Tsim Sha Tsui Promenade, Hong Kong"),
     "where-to-stay-in-tokyo-new-year": dict(area="Asakusa", lat=35.7148, lng=139.7967, zoom=15,
@@ -1286,6 +1288,19 @@ HOTELS = {
     "Rosewood Hong Kong": _B + "hk/rosewood-hong-kong.html",
     "The Salisbury - YMCA of Hong Kong": _B + "hk/salisbury.html",
     "Renaissance Hong Kong Harbour View Hotel": _B + "hk/renaissance-harbour-view-hong-kong.html",
+    # Rio de Janeiro, where-to-stay-in-rio-carnival (Booking.com pages confirmed by hotel name and city)
+    "Copacabana Palace": _B + "br/copacabana-palace.html",
+    "Pestana Rio Atlântica": _B + "br/pestana-rio-atlantica-rio-de-janeiro.html",
+    "CabanaCopa Hostel": _B + "br/cabanacopa-hostel.html",
+    "Hotel Fasano Rio de Janeiro": _B + "br/fasano-rio-de-janeiro.html",
+    "Hotel Arpoador": _B + "br/arpoador-inn.html",
+    "Mango Tree Ipanema": _B + "br/mango-tree-hostel-ipanema.html",
+    "Vila Galé Rio de Janeiro": _B + "br/vila-gale-rio-de-janeiro.html",
+    "Windsor Asturias": _B + "br/windsor-asturias.html",
+    "Yoo2 Rio de Janeiro": _B + "br/yoo2-botafogo.html",
+    "Windsor Florida": _B + "br/windsor-florida.html",
+    "Santa Teresa Hotel RJ-MGallery": _B + "br/santa-teresa.html",
+    "Windsor Marapendi": _B + "br/windsor-marapendi.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

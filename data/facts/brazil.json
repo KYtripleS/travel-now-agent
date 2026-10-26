@@ -1,0 +1,753 @@
+{
+  "place": "Brazil",
+  "facts": [
+    {
+      "id": "br.rio-carnival.dates-2027",
+      "topic": "place",
+      "claim": "LIESA gives the Rio Carnaval 2027 Grupo Especial parade nights as 7, 8 and 9 February 2027 (Sunday to Tuesday) at the Marquês de Sapucaí, with the six best-placed schools returning for the Desfile das Campeãs on 13 February 2027.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://liesa.org.br/noticias/260729-pre-venda-ingressos.html",
+          "kind": "official",
+          "title": "LIESA: sales of tickets for Rio Carnaval 2027"
+        },
+        {
+          "url": "https://www.ticketmaster.com.br/event/riocarnaval",
+          "kind": "operator",
+          "title": "Ticketmaster Brasil: Rio Carnaval 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "dates to the nights of Sunday 7, Monday 8 and Tuesday 9 February 2027",
+          "with the six best-placed schools returning on 13 February"
+        ]
+      },
+      "note": "Ash Wednesday 10 February is the editors' arithmetic from the Tuesday.",
+      "recheck_days": 14
+    },
+    {
+      "id": "br.rio-carnival.rehearsals",
+      "topic": "place",
+      "claim": "LIESA and Riotur list free technical rehearsals at the Sambadrome on 23, 24, 30 and 31 January 2027, each opening with children's schools; the children's schools' final night is 12 February.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://liesa.org.br/noticias/260909-ensaios-tecnicos.html",
+          "kind": "official",
+          "title": "LIESA: technical rehearsals calendar 2027"
+        },
+        {
+          "url": "https://carnaval.rio/calendario-dos-ensaios-tecnicos-e-desfiles-das-escolas-mirins-do-carnaval-2027-e-divulgado/",
+          "kind": "official",
+          "title": "Carnaval.Rio: rehearsals and children's schools calendar 2027"
+        },
+        {
+          "url": "https://liesa.org.br/noticias/260416.html",
+          "kind": "official",
+          "title": "LIESA: draw of the 2027 parade order"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "Free technical rehearsals, with children's schools opening each date",
+          "The children's schools' final night, 12 schools"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "br.rio-carnival.serie-ouro",
+      "topic": "place",
+      "claim": "Riotur says the Série Ouro 2027 parades, with 17 schools, are on 5 and 6 February 2027 at the Marquês de Sapucaí, with tickets for most sectors at R$45 full price and R$22.50 half price.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://carnaval.rio/serie-ouro-2027-venda-de-ingressos-para-a-comeca-nesta-terca-feira/",
+          "kind": "official",
+          "title": "Carnaval.Rio (Riotur): Série Ouro 2027 tickets and dates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "Série Ouro, the second division, with 17 schools",
+          "cost R$45 for a full ticket"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "br.rio-carnival.parade-order",
+      "topic": "place",
+      "claim": "The LIESA draw of 16 April 2026 set the Grupo Especial order: Sunday 7 February União de Maricá, Beija-Flor, Paraíso do Tuiuti, Vila Isabel; Monday 8 February Mocidade, Unidos da Tijuca, Salgueiro, Imperatriz Leopoldinense; Tuesday 9 February Portela, Viradouro, Grande Rio, Mangueira.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://liesa.org.br/noticias/260416.html",
+          "kind": "official",
+          "title": "LIESA: draw of the 2027 parade order"
+        },
+        {
+          "url": "https://liesa.org.br/carnaval/horario-dos-desfiles.html",
+          "kind": "official",
+          "title": "LIESA: parade times page"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "Sunday opens with União de Maricá, then Beija-Flor, Paraíso do Tuiuti and Vila Isabel",
+          "Tuesday has Portela, Viradouro, Grande Rio and Mangueira"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.gates",
+      "topic": "place",
+      "claim": "LIESA's FAQ says the Sambadrome gates open at 19h on official parade days.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://liesa.org.br/carnaval/faq.html",
+          "kind": "official",
+          "title": "LIESA: frequently asked questions"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "the Sambadrome gates open at 7pm on parade nights"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.tickets-prices",
+      "topic": "price",
+      "claim": "For 2027 LIESA sold the special stands (Sectors 2 to 11 except 9) and the numbered individual chairs (Sector 12) at R$250 per parade night, R$125 half price, exclusively through Ticketmaster at ticketmaster.com.br/event/riocarnaval.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://liesa.org.br/noticias/260729-pre-venda-ingressos.html",
+          "kind": "official",
+          "title": "LIESA: sales of tickets for Rio Carnaval 2027"
+        },
+        {
+          "url": "https://liesa.org.br/noticias/260909-ingressos.html",
+          "kind": "official",
+          "title": "LIESA: special stands, chairs and frisas on sale 10 September"
+        },
+        {
+          "url": "https://www.ticketmaster.com.br/event/riocarnaval",
+          "kind": "operator",
+          "title": "Ticketmaster Brasil: Rio Carnaval 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "at R$250 a night, or R$125 for half-price tickets",
+          "names Ticketmaster as the only official seller"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "br.rio-carnival.frisas",
+      "topic": "price",
+      "claim": "LIESA's 9 September 2026 notice puts the frisas, boxes for six people, at R$1,835 to R$10,200 per night depending on proximity to the track, paid exclusively by Pix, one frisa per CPF per parade day.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://liesa.org.br/noticias/260909-ingressos.html",
+          "kind": "official",
+          "title": "LIESA: special stands, chairs and frisas on sale 10 September"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "Frisas, the six-person boxes, cost R$1,835 to R$10,200 a night"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "br.rio-carnival.popular-stands",
+      "topic": "place",
+      "claim": "LIESA's 9 September 2026 notice said the popular stands in Sectors 12 and 13 at the Praça da Apoteose would be announced later; none of LIESA's news items up to 22 October 2026 announced them.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://liesa.org.br/noticias/260909-ingressos.html",
+          "kind": "official",
+          "title": "LIESA: special stands, chairs and frisas on sale 10 September"
+        },
+        {
+          "url": "https://liesa.org.br/noticias/",
+          "kind": "official",
+          "title": "LIESA: news index"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "had not been announced in LIESA's news list by 22 October"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "br.rio-carnival.sold-out",
+      "topic": "price",
+      "claim": "On 26 October 2026 the Ticketmaster Rio Carnaval 2027 page marked the special stands (Sectors 2-11), the Sector 12 chairs, the frisas, and the Sambista and Passaporte tickets as ESGOTADO (sold out), and listed camarotes separately.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.ticketmaster.com.br/event/riocarnaval",
+          "kind": "operator",
+          "title": "Ticketmaster Brasil: Rio Carnaval 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "showed the special stands, the individual chairs and the frisas"
+        ]
+      },
+      "note": "Status as read on 26 Oct 2026; recheck, resale or released tickets can change it.",
+      "recheck_days": 7
+    },
+    {
+      "id": "br.rio-carnival.ticket-rules",
+      "topic": "place",
+      "claim": "LIESA's notices say 2027 tickets are personal, tied to the buyer's CPF and non-transferable; Ticketmaster's FAQ says cards issued abroad can be used but without instalments, with registration data from the card's country, digital tickets only, and no service fee for 2027.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://liesa.org.br/noticias/260729-pre-venda-ingressos.html",
+          "kind": "official",
+          "title": "LIESA: sales of tickets for Rio Carnaval 2027"
+        },
+        {
+          "url": "https://www.ticketmaster.com.br/event/riocarnaval",
+          "kind": "operator",
+          "title": "Ticketmaster Brasil: Rio Carnaval 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "Tickets are digital, personal and tied to the buyer's CPF",
+          "cards issued abroad work but cannot be paid in instalments"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.liesa-faq",
+      "topic": "place",
+      "claim": "LIESA's FAQ says children must be at least five to enter the Sambadrome, spectators may bring two 500 ml plastic bottles and two food items, and the numbered special stands of Sector 9 are sold by ABAV/RJ to travel agencies and inbound tourism.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://liesa.org.br/carnaval/faq.html",
+          "kind": "official",
+          "title": "LIESA: frequently asked questions"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "children must be at least five",
+          "two 500 ml plastic bottles",
+          "the numbered stands of Sector 9 are sold by ABAV/RJ"
+        ]
+      },
+      "note": "The FAQ may carry older wording; recheck before publishing."
+    },
+    {
+      "id": "br.rio-carnival.street-timetable",
+      "topic": "place",
+      "claim": "Riotur says the 2027 street carnival is expected to start on 16 January 2027; bloco registration ran from 24 August to 24 September 2026 and the final supplementary documents close on 15 January 2027; no 2027 bloco programme had been published.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://riotur.rio/editorial/inscricoes-blocos-de-rua-2027/",
+          "kind": "official",
+          "title": "Riotur: street carnival 2027 bloco registration and timetable"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "expects to start on 16 January",
+          "registration closing on 24 September and their final paperwork on 15 January"
+        ]
+      },
+      "note": "Recheck for the official 2027 bloco programme from mid-January.",
+      "recheck_days": 14
+    },
+    {
+      "id": "br.rio-carnival.megablocos-2026",
+      "topic": "place",
+      "claim": "Carnaval.Rio says the 2026 megabloco circuit (Circuito Preta Gil, Rua Primeiro de Março to Rua Presidente Antônio Carlos) ran one megabloco at a time on weekends from 24 January to 22 February 2026, the Cordão da Bola Preta paraded on Carnival Saturday, and 451 blocos were spread across the city; Riotur points visitors to the Blocos do Rio app.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://carnaval.rio/blocos-de-rua/",
+          "kind": "official",
+          "title": "Carnaval.Rio: street blocos 2026, the megabloco circuit"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "ran on the Rua Primeiro de Março in the Centro on weekends from 24 January to 22 February",
+          "Riotur counts 451 blocos across the city for 2026",
+          "can build their own route in its Blocos do Rio app"
+        ]
+      },
+      "note": "2026 information, labelled as last year's in the text."
+    },
+    {
+      "id": "br.rio-carnival.fan-fest-2026",
+      "topic": "place",
+      "claim": "Riotur announced on 15 December 2025 an official Carnival Fan Fest on Copacabana beach from 20 January to 21 February 2026, with a stage at Posto 3 and screens showing the parades.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://carnaval.rio/carnaval-2026-copacabana-recebe-fan-fest-com-maior-bateria-do-mundo-e-programacao-gratuita/",
+          "kind": "official",
+          "title": "Carnaval.Rio: Copacabana Fan Fest 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "official Fan Fest on Copacabana beach from 20 January to 21 February"
+        ]
+      },
+      "note": "2026 information; no 2027 Fan Fest found."
+    },
+    {
+      "id": "br.rio-carnival.ops-plan-2026",
+      "topic": "place",
+      "claim": "The City's 2026 Carnival operations plan expected more than eight million people to move around Rio, and put 950 municipal agents a day on the Sambadrome, Intendente Magalhães and Avenida República do Chile parade sites.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://carnaval.rio/carnaval-2026-tera-megaoperacao-integrada-da-prefeitura/",
+          "kind": "official",
+          "title": "Carnaval.Rio: the City's 2026 Carnival operations plan"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "more than eight million people",
+          "950 municipal agents a day"
+        ]
+      },
+      "note": "2026 information."
+    },
+    {
+      "id": "br.rio-carnival.metro-2026",
+      "topic": "transport",
+      "claim": "On 13 February 2026 the state government announced that the Rio metro would run without a break from 5h on Friday 13 February to 23h59 on Ash Wednesday 18 February and trains from 4h to 22h45; Sambadrome passengers left at Central do Brasil (odd sectors) and Praça Onze (even sectors); Presidente Vargas station was closed 14 to 17 February and Cinelândia ran 6h to 20h.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-02/rio-trens-e-metro-operam-sem-interrup%C3%A7%C3%A3o-ate-quarta-feira-de-cinzas",
+          "kind": "news",
+          "title": "Agência Brasil: trains and metro run without a break until Ash Wednesday, 13 February 2026"
+        },
+        {
+          "url": "https://www.metrorio.com.br/",
+          "kind": "operator",
+          "title": "MetrôRio: stations and lines"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "without a break from 5am on the Friday to 11:59pm on Ash Wednesday",
+          "Presidente Vargas station was shut from 14 to 17 February",
+          "Cinelândia ran from 6am to 8pm"
+        ]
+      },
+      "note": "2026 plan; the 2027 operation had not been announced. MetrôRio's own notice could not be opened; the state announcement is reported by Agência Brasil.",
+      "recheck_days": 14
+    },
+    {
+      "id": "br.rio-carnival.trams-ferries-2026",
+      "topic": "transport",
+      "claim": "Agência Brasil's 13 February 2026 report of the state announcement says the Santa Teresa trams would not run from Friday 13 February to Carnival Tuesday (with restrictions on Sunday), and the ferries ran extra trips on big bloco days.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-02/rio-trens-e-metro-operam-sem-interrup%C3%A7%C3%A3o-ate-quarta-feira-de-cinzas",
+          "kind": "news",
+          "title": "Agência Brasil: trains and metro run without a break until Ash Wednesday, 13 February 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "would not run from the Friday before Carnival until Carnival Tuesday",
+          "the ferries ran extra trips on the big bloco days"
+        ]
+      },
+      "note": "2026 information."
+    },
+    {
+      "id": "br.rio-carnival.occupancy-2026",
+      "topic": "price",
+      "claim": "Agência Brasil, citing the hotel union and the hotel industry association, reported on 13 February 2026 Carnival occupancy above 91% in Rio, 96.91% in Glória, Flamengo and Botafogo, 96.19% in Ipanema and Leblon and 95.42% in the Centro.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-02/ocupacao-hoteleira-do-rio-supera-91-na-capital-e-80-no-interior",
+          "kind": "news",
+          "title": "Agência Brasil: Rio hotel occupancy above 91%, 13 February 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "96.91% in Glória, Flamengo and Botafogo",
+          "95.42% in the Centro"
+        ]
+      },
+      "note": "2026 survey from 12 February 2026."
+    },
+    {
+      "id": "br.rio-carnival.airport",
+      "topic": "fare",
+      "claim": "RIOgaleão's pages list the BRT Transcarioca Parador at R$5.00 from 4am to midnight (linking to metro Line 2 at Vicente de Carvalho), a special Mobi-Rio bus from Terminal 2 to Terminal Gentileza at R$15, regular and executive taxis at metered or city-hall-table fares, and Uber pick-up points.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.riogaleao.com/en/passengers/how-to-get-and-go/brt/",
+          "kind": "official",
+          "title": "RIOgaleão: BRT"
+        },
+        {
+          "url": "https://www.riogaleao.com/en/passengers/how-to-get-and-go/bus/",
+          "kind": "official",
+          "title": "RIOgaleão: bus"
+        },
+        {
+          "url": "https://www.riogaleao.com/en/passengers/how-to-get-and-go/taxis-and-applications/",
+          "kind": "official",
+          "title": "RIOgaleão: taxis and applications"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "BRT Transcarioca Parador at R$5.00, from 4am to midnight",
+          "from Terminal 2 to Terminal Gentileza for R$15"
+        ]
+      },
+      "note": "Fares from the airport's own pages; they say they can change without notice."
+    },
+    {
+      "id": "br.rio-carnival.cor-rio",
+      "topic": "transport",
+      "claim": "The City's 2026 operations plan says the COR.Rio app is free on Android and iOS and is available in Portuguese, Spanish, English, French and Chinese, and that parade closures are shown on Waze.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://carnaval.rio/carnaval-2026-tera-megaoperacao-integrada-da-prefeitura/",
+          "kind": "official",
+          "title": "Carnaval.Rio: the City's 2026 Carnival operations plan"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "COR.Rio app, free on Android and iOS"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.metro-lines",
+      "topic": "transport",
+      "claim": "MetrôRio lists Line 1 and Line 4 (Uruguai to General Osório and Jardim Oceânico) and Line 2 (Pavuna to General Osório), with Copacabana stations Cardeal Arcoverde, Siqueira Campos and Cantagalo and Ipanema stations General Osório and Nossa Senhora da Paz.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.metrorio.com.br/",
+          "kind": "operator",
+          "title": "MetrôRio: stations and lines"
+        },
+        {
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-02/rio-trens-e-metro-operam-sem-interrup%C3%A7%C3%A3o-ate-quarta-feira-de-cinzas",
+          "kind": "news",
+          "title": "Agência Brasil: trains and metro run without a break until Ash Wednesday, 13 February 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "Lines 1 and 4 run together between Uruguai and Jardim Oceânico"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.safety",
+      "topic": "place",
+      "claim": "The UK Foreign Office says pickpocketing is common and criminals target large celebrations such as Carnival, thieves target phones, robberies are common on buses, city beaches should be avoided after dark, favelas (including tours) should be avoided, to buy your own drinks, to beware of methanol in spirits, and to call 190 for the police.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/brazil/safety-and-security",
+          "kind": "official",
+          "title": "UK Foreign Office: Brazil, safety and security"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "it names phone theft and pickpocketing at Carnival",
+          "city beaches should be avoided after dark",
+          "dial 190 for the police"
+        ]
+      },
+      "note": "General Brazil advice; not specific to Lapa or any district."
+    },
+    {
+      "id": "br.rio-carnival.evisa",
+      "topic": "place",
+      "claim": "Brazil's Ministry of Foreign Affairs says the visitor-visa requirement for citizens of Australia, Canada and the United States took effect on 10 April 2025, that they can apply online for an e-Visa at brazil.vfsevisa.com, and gives a fee of US$80.90 and about five working days to issue.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.gov.br/mre/pt-br/consulado-ciudad-del-este/servicios-consulares-para-extranjeros/visto-eletronico-australia-canada-e-estados-unidos",
+          "kind": "official",
+          "title": "Brazil Ministry of Foreign Affairs: e-Visa for Australia, Canada and the United States"
+        },
+        {
+          "url": "https://www.gov.br/mre/pt-br/consulado-miami/information-about-visas-in-english/electronic-visitor-visa-e-visa",
+          "kind": "official",
+          "title": "Brazilian Consulate Miami: electronic visitor visa (e-Visa)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "took effect on 10 April 2025",
+          "US$80.90"
+        ]
+      },
+      "note": "The VFS portal (Cloudflare) blocked automated access, so the fee was confirmed only on the ministry pages (updated 10/04/2025 and 02/05/2024). Recheck on the portal before publishing.",
+      "recheck_days": 30
+    },
+    {
+      "id": "br.rio-carnival.hotel-palace",
+      "topic": "hotel",
+      "claim": "Copacabana Palace: Avenida Atlântica 1702, 140 rooms and suites, rooms 26-44 m2, suites 44-97 m2; the Pool Wing is closed for renovation until November 2026 and the spa is under renovation; the offers page lists New Year's Eve and no Carnival package.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.belmond.com/en/hotels/south-america/brazil/copacabana-palace-rio-de-janeiro",
+          "kind": "operator",
+          "title": "Belmond: Copacabana Palace"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "140 rooms and suites",
+          "the Pool Wing is closed for renovation until November 2026"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-pestana",
+      "topic": "hotel",
+      "claim": "Pestana Rio Atlântica: Avenida Atlântica 2964, 247 rooms, rooftop pool, Deck Bar, restaurant and gym, oceanfront Ocean Suites, 750 m from a metro station.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.pestana.com/en/hotel/pestana-rio",
+          "kind": "operator",
+          "title": "Pestana: Rio Atlântica"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "A hotel of 247 rooms at Avenida Atlântica 2964",
+          "750 m from a metro station"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-cabanacopa",
+      "topic": "hotel",
+      "claim": "CabanaCopa Hostel: Travessa Guimarães Natal 10, Copacabana; private rooms for two to six and dorms of four to eight beds, all with air conditioning, bed linen, lockers and Wi-Fi, bar and terrace; says it is two minutes from the metro and five from the beach; FAQ says special periods including Carnaval use a non-refundable rate.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.cabanacopa.com.br/",
+          "kind": "operator",
+          "title": "CabanaCopa Hostel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "dorms of four to eight beds",
+          "use a non-refundable rate"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-fasano",
+      "topic": "hotel",
+      "claim": "Hotel Fasano Rio de Janeiro: Avenida Vieira Souto 80, Ipanema; 89 rooms in five categories; Philippe Starck design; infinity pool above the beach; guests-only rooftop pool bar on the eighth floor.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://fasano.com.br/hotel/fasano-rio-de-janeiro/",
+          "kind": "operator",
+          "title": "Fasano Rio de Janeiro"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "89 rooms in five categories",
+          "Philippe Starck hotel"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-arpoador",
+      "topic": "hotel",
+      "claim": "Hotel Arpoador: Rua Francisco Otaviano 177; calls itself the hotel closest to the beach in the city; rooms from 16 to 50 m2; the 16 m2 Small Room faces the inner courtyard; sea-view categories named on the rooms page.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.hotelarpoador.com/en",
+          "kind": "operator",
+          "title": "Hotel Arpoador"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "Its rooms run from 16 to 50 m²",
+          "its smallest room, 16 m², faces the inner courtyard"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-mangotree",
+      "topic": "hotel",
+      "claim": "Mango Tree Ipanema: Rua Prudente de Morais 594, a block from the beach, 400 m from Nossa Senhora da Paz station; dorms and private rooms, bar, garden, terrace, 24-hour reception; special-event bookings (naming Carnaval) need full prepayment, a cancellation 90 days before check-in gets back 50% of the deposit with a 25% penalty on the booking value (hotel wording), and no refund inside 90 days.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://mangotreeipanema.com/",
+          "kind": "operator",
+          "title": "Mango Tree Ipanema (home, where-we-are and cancellation-policy pages)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "400 m from Nossa Senhora da Paz station",
+          "nothing is refunded inside 90 days"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-vilagale",
+      "topic": "hotel",
+      "claim": "Vila Galé Rio de Janeiro: Four-star at Rua Riachuelo 124, Lapa, opened December 2014; 292 rooms in the Collection wing (restored 19th-century mansion) and the Lapa Towers (13 floors); pool, spa, two restaurants; Arcos da Lapa and Escadaria Selarón within walking distance.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.vilagale.com/pt-pt/hoteis-brasil/hoteis-rio-de-janeiro/vila-gale-rio-de-janeiro/",
+          "kind": "operator",
+          "title": "Vila Galé: Rio de Janeiro"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "with 292 rooms split between the Collection wing",
+          "Rua Riachuelo 124"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-asturias",
+      "topic": "hotel",
+      "claim": "Windsor Asturias: Three-star with 166 apartments at Rua Senador Dantas 14; rooftop view and the Ópera restaurant; a few minutes from Santos Dumont airport and metro and VLT stations; lists the Theatro Municipal and the Biblioteca Nacional nearby.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.windsorhoteis.com/hotel/windsor-asturias/",
+          "kind": "operator",
+          "title": "Windsor Hotéis: Windsor Asturias"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "A three-star of 166 rooms at Rua Senador Dantas 14"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-yoo2",
+      "topic": "hotel",
+      "claim": "Yoo2 Rio de Janeiro: Tapestry Collection by Hilton at Praia de Botafogo 242 facing the beach; 143 apartments and suites; The Rooftop bar and Cariocally restaurant; views of the Sugarloaf and the Corcovado; room types Standard, Superior partial view, Deluxe front view, Deluxe front view jacuzzi, Presidential; packages page empty.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://yoo2.com/pt/",
+          "kind": "operator",
+          "title": "Yoo2 Rio de Janeiro"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "with 143 apartments and suites",
+          "Praia de Botafogo 242"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-florida",
+      "topic": "hotel",
+      "claim": "Windsor Florida: 422 apartments at Rua Ferreira Viana 81, a few metres from the Aterro do Flamengo; pitched as good value for money, with rooms set up for families.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.windsorhoteis.com/hotel/windsor-florida/",
+          "kind": "operator",
+          "title": "Windsor Hotéis: Windsor Florida"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "A hotel of 422 apartments at Rua Ferreira Viana 81"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-mgallery",
+      "topic": "hotel",
+      "claim": "Santa Teresa Hotel RJ-MGallery: Rua Almirante Alexandrino 660; set in a historic coffee farm from 1850; rooms with garden or Guanabara Bay views; Térèze restaurant, Le Spa and a pool; room list from Superior Room to Royal Suite; offers show a Bride's Day package and an M Moment, no Carnival offer.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://mgallery.accor.com/en/hotels/A1X5.html",
+          "kind": "operator",
+          "title": "Accor MGallery: Santa Teresa Hotel RJ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "set in a coffee farm of 1850",
+          "Rua Almirante Alexandrino 660"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-carnival.hotel-marapendi",
+      "topic": "hotel",
+      "claim": "Windsor Marapendi: Five-star at Avenida Lúcio Costa 5400 facing the sea in Barra da Tijuca; 487 apartments; pool and sauna; accepts cats and dogs up to 5 kg for a fee.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.windsorhoteis.com/hotel/windsor-marapendi/",
+          "kind": "operator",
+          "title": "Windsor Hotéis: Windsor Marapendi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-carnival.html": [
+          "with 487 apartments looking at the sea",
+          "Avenida Lúcio Costa 5400"
+        ]
+      }
+    }
+  ]
+}

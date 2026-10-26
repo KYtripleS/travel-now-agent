@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-rio-carnival.html": (
+        "Where to Stay in Rio de Janeiro",
+        "Official 7-9 February parade nights, six areas, 12 hotels, and what Rio had not yet published.",
+    ),
     "articles/where-to-stay-in-hong-kong-chinese-new-year.html": (
         "Where to Stay in Hong Kong",
         "Four areas, 12 hotels, the 7 February fireworks, what is not yet announced, and the 3% tax.",
@@ -2141,6 +2145,11 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-rio-carnival.html": [
+        "articles/where-to-stay-in-venice-carnival.html",
+        "articles/where-to-stay-in-mexico-city.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
         "articles/where-to-stay-in-hong-kong.html",
