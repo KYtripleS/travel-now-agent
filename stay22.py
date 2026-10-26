@@ -114,6 +114,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-hong-kong-chinese-new-year": dict(area="Tsim Sha Tsui", lat=22.2966, lng=114.1722, zoom=15,
+                                                           address="Tsim Sha Tsui Promenade, Hong Kong"),
     "where-to-stay-in-tokyo-new-year": dict(area="Asakusa", lat=35.7148, lng=139.7967, zoom=15,
                                                address="Senso-ji, Asakusa, Taito City, Tokyo, Japan"),
     "where-to-stay-in-venice-carnival": dict(area="San Marco", lat=45.434, lng=12.3388, zoom=15,
@@ -1279,6 +1281,11 @@ HOTELS = {
     "The Prince Park Tower Tokyo": _B + "jp/the-prince-park-tower-tokyo.html",
     "Shiba Park Hotel": _B + "jp/shiba-park.html",
     "Keio Plaza Hotel Tokyo": _B + "jp/keio-plaza-tokyo.html",
+    # Hong Kong, where-to-stay-in-hong-kong-chinese-new-year (Booking.com pages confirmed by hotel name and city)
+    "Sheraton Hong Kong Hotel & Towers": _B + "hk/sheraton-hong-kong.html",
+    "Rosewood Hong Kong": _B + "hk/rosewood-hong-kong.html",
+    "The Salisbury - YMCA of Hong Kong": _B + "hk/salisbury.html",
+    "Renaissance Hong Kong Harbour View Hotel": _B + "hk/renaissance-harbour-view-hong-kong.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

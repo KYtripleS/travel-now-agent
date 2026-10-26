@@ -167,6 +167,16 @@
           "url": "https://www.ird.gov.hk/eng/faq/hatq.htm",
           "kind": "official",
           "title": "Inland Revenue Department: FAQ on Hotel Accommodation Tax"
+        },
+        {
+          "url": "https://www.ird.gov.hk/eng/tax/hat.htm",
+          "kind": "official",
+          "title": "IRD: Hotel Accommodation Tax"
+        },
+        {
+          "url": "https://www.info.gov.hk/gia/general/202509/10/P2025091000314.htm",
+          "kind": "official",
+          "title": "Government: LCQ9, 10 September 2025"
         }
       ],
       "checked": "2026-10-04",
@@ -180,6 +190,10 @@
         "articles/hotel-taxes-around-the-world-2026.html": [
           "at 3% of the room charge",
           "so a bill runs about 13% over the room rate"
+        ],
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "restored at 3% from 1 January 2025",
+          "The Government said in September 2025 that it had no plan to adjust the rate"
         ]
       }
     },
@@ -506,6 +520,505 @@
           "all-suite hotel on Bonham Strand"
         ]
       }
+    },
+    {
+      "id": "hk.cny2027.holidays",
+      "topic": "place",
+      "claim": "The Hong Kong Government's 2027 general holidays include Lunar New Year's Day on Saturday 6 February, the third day on Monday 8 February and the fourth day on Tuesday 9 February (substituting for the second day, which falls on a Sunday).",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "kind": "official",
+          "title": "GovHK: general holidays for 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "gives Lunar New Year's Day as Saturday 6 February 2027",
+          "the fourth day is designated a general holiday instead"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny2027.fireworks-date",
+      "topic": "place",
+      "claim": "The Leisure and Cultural Services Department's notice of 7 September 2026 says the 2027 Chinese New Year Fireworks Display will be held on 7 February 2027 (Sunday); no start time or programme was published.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.info.gov.hk/gia/general/202609/07/P2026090700274.htm",
+          "kind": "official",
+          "title": "LCSD: sponsors sought for 2027 Chinese New Year Fireworks Display"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "the harbour fireworks will be held on Sunday 7 February, the second day",
+          "The notice gives no start time."
+        ]
+      },
+      "recheck_days": 7,
+      "note": "Recheck for the 2027 start time and viewing arrangements (last year's came on 11 February)."
+    },
+    {
+      "id": "hk.cny2026.fireworks",
+      "topic": "place",
+      "claim": "The 2026 Chinese New Year Fireworks Display was held at 8pm on the second day (18 February 2026), lasted about 23 minutes with 31,888 shells, was coordinated by the Culture, Sports and Tourism Bureau and sponsored by the Hong Kong Jockey Club, and was announced on 11 February; viewing places named included Tsim Sha Tsui, Mid-Levels, Central, Wan Chai, Causeway Bay and Hung Hom.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.info.gov.hk/gia/general/202602/11/P2026021100371.htm",
+          "kind": "official",
+          "title": "Government press release, 11 February 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "ran at 8pm on the second day, lasted about 23 minutes and used 31,888 shells",
+          "Last year the time and theme were announced on 11 February, six days beforehand"
+        ]
+      },
+      "recheck_days": 7,
+      "note": "Labelled as last year's in the article."
+    },
+    {
+      "id": "hk.cny.night-parade",
+      "topic": "place",
+      "claim": "The Tourism Board's Chinese New Year page says the Night Parade is held on the first day of the holiday in Tsim Sha Tsui and gives no 2027 date or time; the 2026 parade began at 8pm on the first day, with Tsim Sha Tsui roads closed in phases from 3.30pm until about 11.45pm along Canton Road, Haiphong Road, Nathan Road and Salisbury Road (Chatham Road South to the Star Ferry Pier).",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.discoverhongkong.com/eng/events/chinese-new-year.html",
+          "kind": "official",
+          "title": "Hong Kong Tourism Board: Chinese New Year"
+        },
+        {
+          "url": "https://www.info.gov.hk/gia/general/202602/12/P2026021200243.htm",
+          "kind": "official",
+          "title": "Transport Department: parade and fireworks arrangements, 12 February 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "Last year's parade began at 8pm on the first day",
+          "roads in the Tsim Sha Tsui area would close in phases from 3.30pm until about 11.45pm"
+        ]
+      },
+      "recheck_days": 7,
+      "note": "HKTB's dedicated parade page redirects to the generic CNY page; recheck for the 2027 date (a search snippet suggested a tentative 6 Feb 2027 in HKTB's sponsorship notice, not verified)."
+    },
+    {
+      "id": "hk.cny2026.fireworks-closures",
+      "topic": "transport",
+      "claim": "For the 2026 fireworks night, Tsim Sha Tsui closures began at 5pm (including Salisbury Road, Canton Road and Nathan Road between Salisbury and Austin Roads), Wan Chai closures began at 3pm on Expo Drive East and widened at 6pm, 7pm and 7.45pm; the Star Ferry and five other ferry operators adjusted or suspended parts of their services from 5.05pm; the Police could pedestrianise roads and close subways, and divert people if the Cultural Centre, Clock Tower or Avenue of Stars reached capacity.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.info.gov.hk/gia/general/202602/12/P2026021200829.htm",
+          "kind": "official",
+          "title": "Police: crowd safety and traffic arrangements for the fireworks, 12 February 2026"
+        },
+        {
+          "url": "https://www.info.gov.hk/gia/general/202602/12/P2026021200243.htm",
+          "kind": "official",
+          "title": "Transport Department, 12 February 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "the first road closures began at 5pm",
+          "closures began in Wan Chai at 3pm on Expo Drive East",
+          "began suspending parts of their services at 5.05pm"
+        ]
+      },
+      "recheck_days": 7,
+      "note": "Last year's arrangements; labelled as such."
+    },
+    {
+      "id": "hk.cny2027.fairs",
+      "topic": "place",
+      "claim": "The Food and Environmental Hygiene Department's 2027 Chinese New Year Fairs run for seven days from 31 January to 6 February 2027 (to the early morning of Lunar New Year's Day), with Victoria Park, Causeway Bay among the venues; in 2026 the busiest day drew more than 210,000 visitors to Victoria Park.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.fehd.gov.hk/english/events/cnyf2027/index.html",
+          "kind": "official",
+          "title": "FEHD: 2027 Chinese New Year Fairs"
+        },
+        {
+          "url": "https://www.info.gov.hk/gia/general/202602/17/P2026021700553.htm",
+          "kind": "official",
+          "title": "FEHD: fairs concluded, 17 February 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "run for seven days from 31 January to 6 February",
+          "more than 210,000 visitors at Victoria Park in a day"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Opening hours for 2027 not published; recheck late January."
+    },
+    {
+      "id": "hk.cny.raceday",
+      "topic": "place",
+      "claim": "The Tourism Board lists the Chinese New Year Raceday at Sha Tin Racecourse on 8 February 2027 (third day); public enclosure HK$10, free for visitors with a valid travel document, entrants aged 18 or over; no first-race time given.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.discoverhongkong.com/eng/events/event.id88124.chinese-new-year-raceday.html",
+          "kind": "official",
+          "title": "Hong Kong Tourism Board: Chinese New Year Raceday"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "lists the Chinese New Year Raceday for 8 February 2027",
+          "Public enclosure entry is HK$10"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "hk.cny.wong-tai-sin",
+      "topic": "place",
+      "claim": "The Tourism Board describes the scramble to dedicate the first incense stick at Wong Tai Sin Temple as a cherished New Year custom, often with devotees dressing up; the Transport Department listed road closures near the temple from Lunar New Year's Eve in 2026; the temple's 2027 hours were not found.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.discoverhongkong.com/eng/culture/the-ultimate-guide-to-chinese-new-year-in-hong-kong.html",
+          "kind": "official",
+          "title": "Hong Kong Tourism Board: Ultimate Guide to Chinese New Year"
+        },
+        {
+          "url": "https://www.info.gov.hk/gia/general/202602/12/P2026021200704.htm",
+          "kind": "official",
+          "title": "Transport Department: Chinese New Year's Eve arrangements, 12 February 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "the scramble to offer the first incense stick of the year at Wong Tai Sin Temple",
+          "Last year the Transport Department listed road closures and diversions near the temple"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "hk.cny2026.mtr",
+      "topic": "transport",
+      "claim": "On Lunar New Year's Eve 2026 MTR lines other than the Airport Express and Disneyland Resort Line ran more often from 3pm, most local lines ran overnight (including seven Light Rail routes), Airport Express hours were extended and the Central to Mid-Levels Escalator ran until 3am; after the parade and fireworks services were strengthened subject to demand and the Escalator ran until 2am on the fireworks night. No 2027 notice had been posted.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.info.gov.hk/gia/general/202602/12/P2026021200704.htm",
+          "kind": "official",
+          "title": "Transport Department: Chinese New Year's Eve arrangements, 12 February 2026"
+        },
+        {
+          "url": "https://www.info.gov.hk/gia/general/202602/13/P2026021200671.htm",
+          "kind": "official",
+          "title": "Interdepartmental working group, 13 February 2026"
+        },
+        {
+          "url": "https://www.info.gov.hk/gia/general/202602/12/P2026021200243.htm",
+          "kind": "official",
+          "title": "Transport Department, 12 February 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "seven Light Rail routes would run overnight",
+          "The Central to Mid-Levels Escalator ran until 3am."
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Last year's arrangements; recheck for 2027 notices in early February."
+    },
+    {
+      "id": "hk.cny2026.golden-week",
+      "topic": "transport",
+      "claim": "Ahead of the mainland's Chinese New Year Golden Week (15 to 23 February 2026) the Government warned of heavy cross-boundary traffic and asked travellers to plan early and book coaches; no 2027 notice was found.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.info.gov.hk/gia/general/202602/13/P2026021200671.htm",
+          "kind": "official",
+          "title": "Interdepartmental working group, 13 February 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "Last year the Government warned of heavy cross-boundary traffic"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "hk.airport-express",
+      "topic": "fare",
+      "claim": "The Airport Express takes as little as 24 minutes over 35.3km to the city; adult single fares are HK$120 to Hong Kong station and HK$105 to Kowloon station with Octopus, a contactless bank card or QR code, and HK$130 and HK$115 with a smart ticket.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.mtr.com.hk/en/customer/tickets/tf_index.html",
+          "kind": "operator",
+          "title": "MTR: tickets and fares"
+        },
+        {
+          "url": "https://www.mtr.com.hk/en/customer/services/airport_express_index.html",
+          "kind": "operator",
+          "title": "MTR: Airport Express services"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "takes as little as 24 minutes",
+          "An adult single costs HK$120 to Hong Kong station or HK$105 to Kowloon station"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "hk.cny.hotel.sheraton",
+      "topic": "hotel",
+      "claim": "Sheraton Hong Kong Hotel & Towers is at 20 Nathan Road, Tsim Sha Tsui, on Victoria Harbour per its page, with a rooftop pool, a Sky Lounge, the Michelin-recommended Celestial Court and club-lounge access in some room categories; its offers list showed no Chinese New Year plan on 26 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/hkgsi-sheraton-hong-kong-hotel-and-towers/overview/",
+          "kind": "official",
+          "title": "Sheraton Hong Kong Hotel & Towers: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "At 20 Nathan Road, on Victoria Harbour according to its page",
+          "its offers page lists no Chinese New Year plan"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny.hotel.peninsula",
+      "topic": "hotel",
+      "claim": "The Peninsula Hong Kong is on Salisbury Road, Kowloon, with an indoor pool on the 8th floor, the Michelin-starred Spring Moon, Peninsula Time (arrival from 6am, departure to 10pm at no charge) and a complimentary third or fourth night offer at selected Peninsula hotels; no Chinese New Year offer was listed on 26 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.peninsula.com/en/hong-kong/5-star-luxury-hotel-kowloon",
+          "kind": "official",
+          "title": "The Peninsula Hong Kong: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "with an indoor pool on the 8th floor and the Michelin-starred Spring Moon",
+          "arrival from 6am and departure to 10pm at no charge"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny.hotel.rosewood",
+      "topic": "hotel",
+      "claim": "Rosewood Hong Kong is at Victoria Dockside, 18 Salisbury Road, Tsim Sha Tsui, with The Legacy House, a one-star Michelin Cantonese restaurant its page says overlooks Victoria Harbour; its homepage listed Christmas and no Lunar New Year offer on 26 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.rosewoodhotels.com/en/hong-kong",
+          "kind": "official",
+          "title": "Rosewood Hong Kong: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "At Victoria Dockside, 18 Salisbury Road",
+          "its homepage promotes Christmas and lists no Lunar New Year offer"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny.hotel.salisbury",
+      "topic": "hotel",
+      "claim": "The Salisbury - YMCA of Hong Kong has 372 rooms, suites and dormitories, a fitness centre and indoor pools, and says guests in Harbour View Rooms and Suites can see A Symphony of Lights; stays support the YMCA's community work, per its page.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.ymcahk.org.hk/thesalisbury/en/accommodation/index.html",
+          "kind": "official",
+          "title": "The Salisbury - YMCA of Hong Kong: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "with 372 rooms, suites and dormitories, a fitness centre and indoor pools",
+          "guests in Harbour View Rooms and Suites can watch A Symphony of Lights"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny.hotel.renaissance",
+      "topic": "hotel",
+      "claim": "Renaissance Hong Kong Harbour View Hotel is at 1 Harbour Road, Wan Chai harbourfront, with direct access to the Convention and Exhibition Centre, a three-minute walk to Exhibition Centre MTR station, an 11,000 sq m podium garden on the 11th floor and the Star Ferry to Tsim Sha Tsui just opposite, per its page.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/hkghv-renaissance-hong-kong-harbour-view-hotel/overview/",
+          "kind": "official",
+          "title": "Renaissance Hong Kong Harbour View Hotel: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "At 1 Harbour Road on the Wan Chai harbourfront",
+          "an 11,000-square-metre podium garden on the 11th floor overlooking the harbour"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny.hotel.park-lane",
+      "topic": "hotel",
+      "claim": "The Park Lane Hong Kong, Autograph Collection is at 310 Gloucester Road, Causeway Bay, with 815 rooms and suites and three restaurants including the Skye roof bar and grill; its offers listed no Lunar New Year plan on 26 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/hkgak-the-park-lane-hong-kong-autograph-collection/overview/",
+          "kind": "official",
+          "title": "The Park Lane Hong Kong, Autograph Collection: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "At 310 Gloucester Road in Causeway Bay, with 815 rooms and suites and three restaurants"
+        ]
+      },
+      "recheck_days": 90,
+      "note": "The main guide says 820 rooms (Marriott's own page now says 815); the Pullman rename is from the main guide's Marriott news source."
+    },
+    {
+      "id": "hk.cny.hotel.indigo",
+      "topic": "hotel",
+      "claim": "Hotel Indigo Hong Kong Island is at 246 Queen's Road East, Wan Chai, five minutes' walk from Wan Chai MTR station by its count, with a glass-bottomed rooftop pool and Skybar; its notice says the pool closes on 1 November 2026 and reopens on 1 May 2027.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/hotelindigo/hotels/us/en/hong-kong/hkgin/hoteldetail",
+          "kind": "official",
+          "title": "Hotel Indigo Hong Kong Island: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "At 246 Queen's Road East in Wan Chai",
+          "the pool closes on 1 November 2026 and reopens on 1 May 2027"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny.hotel.mandarin",
+      "topic": "hotel",
+      "claim": "Mandarin Oriental, Hong Kong is at 5 Connaught Road Central, with Man Wah and Clipper Lounge among its dining rooms; its offers page listed a complimentary third night and up to 10% off for advance booking on reimagined rooms, none tied to Chinese New Year, on 26 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/hong-kong/victoria-harbour",
+          "kind": "official",
+          "title": "Mandarin Oriental, Hong Kong: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "At 5 Connaught Road Central",
+          "a complimentary third night and up to 10% off for booking in advance"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny.hotel.bonham",
+      "topic": "hotel",
+      "claim": "99 Bonham is at 99 Bonham Strand, Sheung Wan, a boutique tower with three suites per floor, an optional pantry and a workspace in each suite; its page offers 25% and up off when booking 30 days or more in advance.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.99bonham.com/",
+          "kind": "official",
+          "title": "99 Bonham: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "At 99 Bonham Strand in Sheung Wan",
+          "25% or more off for bookings made 30 days or more in advance"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny.hotel.iclub",
+      "topic": "hotel",
+      "claim": "iclub Sheung Wan Hotel is at 138 Bonham Strand with 248 guestrooms, five minutes' walk to Sheung Wan MTR station by its count, and free round-the-clock coffee and tea in its lounge; its navigation also lists a second hotel, iclub AMTD Sheung Wan.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.iclub-hotels.com/en/iclub-sheung-wan-hotel/about",
+          "kind": "official",
+          "title": "iclub Sheung Wan Hotel: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "At 138 Bonham Strand, with 248 rooms",
+          "free coffee and tea round the clock in its lounge"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny.hotel.eaton",
+      "topic": "hotel",
+      "claim": "Eaton HK is at 380 Nathan Road, Jordan, with 465 rooms and suites and a heated rooftop pool on the 21st floor next to its fitness centre; its amenities page listed no Chinese New Year offer on 26 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.eatonworkshop.com/en-us/hong-kong/amenities-services/",
+          "kind": "official",
+          "title": "Eaton HK: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "with 465 rooms and suites and a heated rooftop pool on the 21st floor"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "hk.cny.hotel.cordis",
+      "topic": "hotel",
+      "claim": "Cordis, Hong Kong is at 555 Shanghai Street, Mong Kok, with a 20-metre outdoor pool, the Ming Court Cantonese restaurant and a pickleball court on its Terrace Club; its homepage listed no Chinese New Year offer on 26 Oct 2026.",
+      "checked": "2026-10-26",
+      "sources": [
+        {
+          "url": "https://www.cordishotels.com/en/hong-kong/",
+          "kind": "official",
+          "title": "Cordis, Hong Kong: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
+          "At 555 Shanghai Street, Mong Kok, with a 20-metre outdoor pool"
+        ]
+      },
+      "recheck_days": 90
     }
   ]
 }

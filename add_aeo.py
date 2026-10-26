@@ -419,6 +419,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-hong-kong-chinese-new-year": dict(
+        text="For the parade and the harbour fireworks, stay in Tsim Sha Tsui: the Sheraton is on Nathan Road, last year's parade route. Choose The Salisbury for value, The Peninsula for a splurge. Dates: Lunar New Year's Day is 6 February, fireworks 7 February. The tax is 3% of the room.",
+        link_text="Tsim Sha Tsui",
+        cta=_stay_cta("where-to-stay-in-hong-kong-chinese-new-year", "See hotels around Tsim Sha Tsui")),
     "where-to-stay-in-tokyo-new-year": dict(
         text="For a first New Year in Tokyo, stay in Asakusa: Senso-ji rings its midnight bell, and Asakusa Tobu Hotel sells a Skytree first-sunrise stay. Choose OMO3 for value, The Tokyo Station Hotel for a calm splurge. Tokyo's tax is 100 or 200 yen a person a night.",
         link_text="Asakusa",
@@ -1485,6 +1489,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-hong-kong-chinese-new-year": ["Sheraton Hong Kong Hotel & Towers", "The Peninsula Hong Kong", "The Salisbury - YMCA of Hong Kong"],
     "where-to-stay-in-tokyo-new-year": ["Asakusa Tobu Hotel", "The Tokyo Station Hotel", "OMO3 Asakusa by Hoshino Resorts"],
     "where-to-stay-in-venice-carnival": ["Hotel Metropole", "Hotel Concordia", "Combo Venezia"],
     "where-to-stay-in-whistler": ["Fairmont Chateau Whistler", "Aava Whistler Hotel", "Hilton Whistler Resort & Spa"],
@@ -2092,6 +2097,7 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Hong Kong (Chinese New Year)", "where-to-stay-in-hong-kong-chinese-new-year", None, None),
         ("Tokyo (New Year)", "where-to-stay-in-tokyo-new-year", None, None),
         ("Venice (Carnival)", "where-to-stay-in-venice-carnival", None, None),
         ("Whistler", "where-to-stay-in-whistler", None, None),
@@ -2510,6 +2516,10 @@ STAY_POINTERS = {
          'Skiing in Canada? <a href="where-to-stay-in-whistler.html">Whistler accommodation for 2026/27</a> adds '
          'up the 8% PST, the 3% hotel tax and the 5% GST on a room, with a worked example.'),
     ],
+    "where-to-stay-in-hong-kong": ("intro",
+        'Coming for Chinese New Year? <a href="where-to-stay-in-hong-kong-chinese-new-year.html">Hong Kong Chinese '
+        'New Year 2027 hotels</a> matches the areas to the parade, the harbour fireworks on 7 February and the '
+        'Victoria Park fair.'),
     "where-to-stay-in-venice": ("intro",
         'Coming for Carnival? <a href="where-to-stay-in-venice-carnival.html">Where to stay in Venice for Carnival '
         '2027</a> matches the areas to the parades and the square, with the tax rate that rises on 1 February.'),
