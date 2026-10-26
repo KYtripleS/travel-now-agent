@@ -2393,12 +2393,13 @@
           "title": "ABLE Hakuba GORYU: opening date announced for the 2026-27 season (1 October 2026)"
         }
       ],
-      "checked": "2026-10-08",
+      "checked": "2026-10-26",
       "used_in": {
         "articles/where-to-stay-in-hakuba.html": [
           "21 November 2026, on the strength of a new snowmaking system"
         ]
-      }
+      },
+      "note": "Re-checked 2026-10-26: Goryu's announcement still gives 21 November."
     },
     {
       "id": "jp.hakuba.happo-new-gondola-2027",
@@ -2436,12 +2437,13 @@
           "title": "Plan·Do·See: THE ALPS HOTEL HAKUBA to open December 2026 (PR TIMES, 1 April 2026)"
         }
       ],
-      "checked": "2026-10-08",
+      "checked": "2026-10-26",
       "used_in": {
         "articles/where-to-stay-in-hakuba.html": [
           "reopens on 15 December 2026"
         ]
-      }
+      },
+      "note": "Re-checked 2026-10-26: the hotel's site says grand opening on 15 December 2026, reservations accepted."
     },
     {
       "id": "jp.hakuba.alpico-nagano-bus",
