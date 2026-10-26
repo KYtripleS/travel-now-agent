@@ -171,7 +171,7 @@
           "title": "European Union: ETIAS"
         }
       ],
-      "checked": "2026-10-08",
+      "checked": "2026-10-26",
       "used_in": {
         "articles/where-to-stay-in-paris.html": [
           "ETIAS is not running yet."
@@ -189,7 +189,8 @@
           "the fee will be €20"
         ]
       },
-      "watch": "ETIAS"
+      "watch": "ETIAS",
+      "note": "Re-checked 2026-10-26 on travel-europe.europa.eu: still not in operation, no applications collected, EUR 20 fee."
     },
     {
       "id": "eu.ees.registration",
