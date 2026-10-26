@@ -13,7 +13,7 @@
           "title": "City of Sydney: Sydney New Year's Eve schedule"
         }
       ],
-      "checked": "2026-10-05",
+      "checked": "2026-10-26",
       "used_in": {
         "articles/where-to-stay-in-sydney-new-years-eve.html": [
           "Smoking ceremony on the ships Tribal Warrior, Mari Nawi and Wirawi",
@@ -21,7 +21,7 @@
           "launched from the Harbour Bridge, the Opera House and other landmarks"
         ]
       },
-      "note": "The City updates the event pages through November and December; recheck before 31 December."
+      "note": "The City updates the event pages through November and December; recheck before 31 December. Re-checked 2026-10-26: unchanged; the schedule also lists 8.30pm pylon projections, 8.45pm Welcome to Country and 9.15pm Sydney Harbour Lights."
     },
     {
       "id": "syd.nye.crowd",
@@ -58,7 +58,7 @@
           "title": "City of Sydney: ticketed vantage points"
         }
       ],
-      "checked": "2026-10-05",
+      "checked": "2026-10-26",
       "used_in": {
         "articles/where-to-stay-in-sydney-new-years-eve.html": [
           "48 vantage points",
@@ -66,7 +66,8 @@
           "from 10am on 26 December",
           "Clark Island, Goat Island and Shark Island"
         ]
-      }
+      },
+      "note": "Re-checked 2026-10-26: Opera House Forecourt free tickets still from 10am 26 December."
     },
     {
       "id": "syd.nye.darling-harbour",
@@ -129,7 +130,7 @@
     {
       "id": "syd.nye.cockatoo-island",
       "topic": "place",
-      "claim": "On New Year's Eve 2026 access to Cockatoo Island / Wareamah is limited to guests booked to stay there; houses and apartments went to a ballot from 3 September and campground bookings opened on 22 September 2026.",
+      "claim": "On New Year's Eve 2026 access to Cockatoo Island / Wareamah is limited to guests booked to stay there; houses and apartments went to a ballot from 3 September, campground bookings opened on 22 September 2026, and on 26 October 2026 the City listed its New Year's Eve accommodation as sold out.",
       "sources": [
         {
           "url": "https://www.sydneynewyearseve.com/ticketed-vantage-points",
@@ -137,12 +138,14 @@
           "title": "City of Sydney: ticketed vantage points"
         }
       ],
-      "checked": "2026-10-05",
+      "checked": "2026-10-26",
       "used_in": {
         "articles/where-to-stay-in-sydney-new-years-eve.html": [
-          "only to guests booked to stay there"
+          "only to guests booked to stay there",
+          "listed its New Year’s Eve accommodation as sold out"
         ]
-      }
+      },
+      "note": "Re-checked 2026-10-26: sold out."
     },
     {
       "id": "syd.airport-train-time",

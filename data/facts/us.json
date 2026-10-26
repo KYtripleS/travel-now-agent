@@ -5626,7 +5626,7 @@
       "id": "us.nyc.nye.alliance-edition",
       "topic": "place",
       "claim": "In October 2026 the Times Square Alliance's New Year's Eve FAQ and live schedule still describe the 31 December 2025 edition (6:00pm to 12:15am); the 2026 timetable and performers had not been published.",
-      "checked": "2026-10-22",
+      "checked": "2026-10-26",
       "sources": [
         {
           "url": "https://www.timessquarenyc.org/nye/nye-faq",
@@ -5646,7 +5646,7 @@
         ]
       },
       "recheck_days": 14,
-      "note": "Recheck for the 2026 timetable; update the 'last year' wording in the article when it appears."
+      "note": "Recheck for the 2026 timetable; update the 'last year' wording in the article when it appears. Re-checked 2026-10-26: the FAQ still describes the last edition (\"NYE 2026\" webcast from 6pm); no 2026 timetable."
     },
     {
       "id": "us.nyc.nye.ball-descent",
@@ -5678,7 +5678,7 @@
       "id": "us.nyc.nye.viewing-areas",
       "topic": "place",
       "claim": "Per the Alliance, the viewing areas open at 3pm on a first-come, first-served basis through access points at 45th, 49th, 52nd and 56th Streets from 6th and 8th Avenues; the event is free, no tickets are needed, and no public viewing spaces are for sale; the Ball is best seen along Broadway from 43rd to 50th Street and Seventh Avenue as far north as 59th Street.",
-      "checked": "2026-10-22",
+      "checked": "2026-10-26",
       "sources": [
         {
           "url": "https://www.timessquarenyc.org/nye/nye-faq",
@@ -5694,7 +5694,8 @@
           "best seen along Broadway from 43rd to 50th Street and along Seventh Avenue as far north as 59th Street"
         ]
       },
-      "recheck_days": 14
+      "recheck_days": 14,
+      "note": "Re-checked 2026-10-26: unchanged (viewing areas open at 3pm)."
     },
     {
       "id": "us.nyc.nye.rules",
