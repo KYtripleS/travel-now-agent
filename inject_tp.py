@@ -702,6 +702,7 @@ REGISTRY: dict[str, str] = {
 BLOCKLIST = {
     "untranslatable-words", "what-counts-as-rude", "jet-lag-what-actually-works",
     "about", "privacy", "methodology", "editors", "editorial-guidelines",
+    "tourist-taxes-around-the-world-2026-data",   # a data report for journalists to cite: no partner links
 }
 DEFAULT_CTA_BRANDS = ["aviasales", "saily", "welcomepickups"]
 

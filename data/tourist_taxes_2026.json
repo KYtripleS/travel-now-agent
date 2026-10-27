@@ -1,0 +1,4098 @@
+{
+  "generated": "2026-10-27",
+  "fx": {
+    "date": "2026-10-23",
+    "source": "ECB via frankfurter.app",
+    "base": "USD",
+    "rates": {
+      "AUD": 1.424,
+      "BRL": 5.0465,
+      "CAD": 1.3995,
+      "CHF": 0.82435,
+      "CNY": 6.6702,
+      "CZK": 21.734,
+      "DKK": 6.6781,
+      "EUR": 0.89342,
+      "GBP": 0.74804,
+      "HKD": 7.8436,
+      "HUF": 327.64,
+      "IDR": 18108.0,
+      "ILS": 3.1215,
+      "INR": 94.94,
+      "ISK": 121.68,
+      "JPY": 156.8,
+      "KRW": 1324.45,
+      "MXN": 18.7823,
+      "MYR": 4.0855,
+      "NOK": 9.3509,
+      "NZD": 1.7584,
+      "PHP": 63.642,
+      "PLN": 3.9261,
+      "RON": 4.7791,
+      "SEK": 9.9446,
+      "SGD": 1.2785,
+      "THB": 33.745,
+      "TRY": 49.738,
+      "ZAR": 16.5976
+    },
+    "note": "AED, TWD, VND and MAD are not ECB reference currencies, so no rate and no USD conversion is given for them."
+  },
+  "example": "3 nights, 2 adults, one room at US$200/night before tax, 4-star",
+  "rows": [
+    {
+      "city": "Vienna",
+      "country": "Austria",
+      "currency": "EUR",
+      "tax_name": "Ortstaxe",
+      "structure": "percent",
+      "rule_text": "Vienna's Ortstaxe is 5% of the charge for the stay (excluding VAT and breakfast) from 1 July 2026 to 30 June 2027, collected by the accommodation provider.",
+      "general_tax_note": "VAT on accommodation in Austria is 10% (since 1 January 2022).",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 26.8026,
+      "example_3n_2a_usd": 30.0,
+      "example_status": "computed",
+      "example_basis": "5% of the room price before VAT and breakfast; the ledger states the base excludes VAT and breakfast.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-07-01",
+      "changes_scheduled": "From 1 July 2027 Vienna's Ortstaxe is 8% of the charge for the stay, excluding VAT and breakfast.",
+      "caveats": [
+        "Exemptions per ledger: minors staying for school, training or in youth hostels, students at Viennese universities and colleges, stays over 3 months."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/amtswege/ortstaxe",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "at.vienna.ortstaxe",
+        "at.vienna.ortstaxe-scope",
+        "at.vienna.ortstaxe-2027",
+        "at.accommodation-vat"
+      ],
+      "checked": "2026-10-14"
+    },
+    {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "currency": "EUR",
+      "tax_name": "toeristenbelasting (tourist tax)",
+      "structure": "percent",
+      "rule_text": "Amsterdam's tourist tax (toeristenbelasting) is 12.5% of the overnight price excluding VAT, charged at hotels, hostels, guesthouses, B&Bs, apartments, short-stay rentals and campsites.",
+      "general_tax_note": "From 1 January 2026 the Dutch VAT rate on short-stay accommodation in hotels, guesthouses and holiday businesses is 21% (previously 9%).",
+      "other_charges_not_in_example": "Amsterdam charges cruise operators a day tourist tax of EUR 15 per passenger for day visits (not a hotel charge).",
+      "example_3n_2a": 67.0065,
+      "example_3n_2a_usd": 75.0,
+      "example_status": "computed",
+      "example_basis": "12.5% of the room price excluding VAT (ledger states the base excludes VAT).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.amsterdam.nl/en/municipal-taxes/tourist-tax/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/btw-logies",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "nl.amsterdam.tourist-tax",
+        "nl.vat.accommodation-2026",
+        "nl.amsterdam.day-tourist-tax"
+      ],
+      "checked": "2026-10-13"
+    },
+    {
+      "city": "Berlin",
+      "country": "Germany",
+      "currency": "EUR",
+      "tax_name": "Übernachtungsteuer (City Tax)",
+      "structure": "percent",
+      "rule_text": "Berlin's Übernachtungsteuer (City Tax) is 7.5% of the net price of the overnight stay, excluding VAT and extras such as breakfast, levied per room price and not per person.",
+      "general_tax_note": "German VAT on short-term accommodation is the reduced 7% rate (UStG §12(2) no. 11); services not directly part of the room, such as breakfast, fall under the standard 19% rate.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 40.2039,
+      "example_3n_2a_usd": 45.0,
+      "example_status": "computed",
+      "example_basis": "7.5% of the net room price excluding VAT (ledger states the base).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2025-01-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "Business overnight stays are taxed since 1 April 2024; the former exemption for stays over 21 days no longer applies from 1 January 2025."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://service.berlin.de/dienstleistung/326105/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gesetze-im-internet.de/ustg_1980/__12.html",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://dehoga-berlin.de/wp-content/uploads/2025/11/Fassung-gueltig-ab-01.01.2026.pdf",
+          "kind": "secondary"
+        }
+      ],
+      "fact_ids": [
+        "de.berlin.city-tax.rate",
+        "de.berlin.city-tax.per-room",
+        "de.berlin.city-tax.business",
+        "de.berlin.city-tax.21-day",
+        "de.vat.accommodation"
+      ],
+      "checked": "2026-10-14"
+    },
+    {
+      "city": "Budapest",
+      "country": "Hungary",
+      "currency": "HUF",
+      "tax_name": "idegenforgalmi adó (tourist tax)",
+      "structure": "percent",
+      "rule_text": "Budapest's tourist tax is set by each district; Districts I, V, VI, VII and VIII each charge 4% of the room price per guest night, collected by the hotel.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 7863.36,
+      "example_3n_2a_usd": 24.0,
+      "example_status": "computed",
+      "example_basis": "4% of the room price per night (the ledger's own worked example takes 4% of the per-room nightly price before VAT, not per person), in Districts I, V, VI, VII and VIII; treated as excluding VAT per the district decrees.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Ledger facts disagree on the base: District V and VII decrees (and District VI's notice) define it as the price less VAT, but the District I and V websites describe it as the gross room price.",
+        "Only Districts I, V, VI, VII and VIII are in the ledger; other districts' rates are not given.",
+        "Under-18s are exempt."
+      ],
+      "fx_rate_used_per_usd": 327.64,
+      "sources": [
+        {
+          "url": "https://www.belvaros-lipotvaros.hu/egovernment_affairs/details/182",
+          "kind": "official"
+        },
+        {
+          "url": "https://net.jogtar.hu/rendelet?council=lipotvaros&dbnum=565&docid=A1000038.05R",
+          "kind": "official"
+        },
+        {
+          "url": "https://net.jogtar.hu/rendelet?council=erzsebetvaros&docid=A1000032.07R",
+          "kind": "official"
+        },
+        {
+          "url": "https://terezvaros.hu/uploads/images/Honlapra%20jav%C3%ADtott%20IFA%20T%C3%81J%C3%89KOZTAT%C3%93%202020.05.08.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://jozsefvaros.hu/ugyintezes/ugy/idegenforgalmi-ado/",
+          "kind": "official"
+        },
+        {
+          "url": "https://budavar.hu/adozasi-ugyek/",
+          "kind": "official"
+        },
+        {
+          "url": "https://net.jogtar.hu/jogszabaly?docid=99000100.tv",
+          "kind": "official"
+        },
+        {
+          "url": "https://ensanahotels.com/en/hotels/grand-margaret-island/faq",
+          "kind": "official"
+        },
+        {
+          "url": "https://ensanahotels.com/en/hotels/grand-margaret-island",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "hu.budapest.tourist-tax.rate",
+        "hu.budapest.tourist-tax.base",
+        "hu.tourist-tax.exemption-under-18",
+        "hu.tourist-tax.ceiling",
+        "hu.budapest.tourist-tax.example",
+        "hu.budapest.margaret-island.tax-included"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "city": "Prague",
+      "country": "Czechia",
+      "currency": "CZK",
+      "tax_name": "poplatek z pobytu (local fee for a stay)",
+      "structure": "flat_per_person_night",
+      "rule_text": "Prague's local fee for a stay is 50 CZK per person for every started day of a paid stay except the day of arrival (in practice per night), for stays of up to 60 consecutive days with one provider.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 300.0,
+      "example_3n_2a_usd": 13.803257568786233,
+      "example_status": "computed",
+      "example_basis": "50 CZK x 2 adults x 3 nights; flat fee, independent of room price.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Exempt: people under 18, blind people, holders of the ZTP/P card and their companion, and other groups listed in the Act on Local Fees.",
+        "Czech law caps the fee at 50 CZK per person per day; Prague charges the maximum."
+      ],
+      "fx_rate_used_per_usd": 21.734,
+      "sources": [
+        {
+          "url": "https://www.praha1.cz/potrebuji-si-vyridit/odbory/poplatek-z-pobytu/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.praha5.cz/potrebuji-zaridit/mistni-poplatky/poplatek-z-pobytu/",
+          "kind": "official"
+        },
+        {
+          "url": "https://portal.gov.cz/formulare/mistni-poplatek-z-pobytu/online",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "cz.prague.accommodation-fee",
+        "cz.accommodation-fee.cap",
+        "cz.prague.accommodation-fee.exemptions",
+        "cz.prague.fee-worked-example"
+      ],
+      "checked": "2026-10-13"
+    },
+    {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "currency": "DKK",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Copenhagen charges no tourist tax in 2026: a municipal tourism levy requires legal authority from Parliament, which the City Council requested in June 2024 but has not been granted.",
+      "general_tax_note": "Denmark's VAT rate is generally 25% of the value of goods and services; in retail prices VAT is included and amounts to 20% of the price.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger states none in 2026",
+      "effective_from": null,
+      "changes_scheduled": "A reported 2027 hotel tax for Copenhagen and Aarhus was left out of the government's 2027 finance bill (October 2026).",
+      "caveats": [],
+      "fx_rate_used_per_usd": 6.6781,
+      "sources": [
+        {
+          "url": "https://www.kk.dk/dagsordener-og-referater/Borgerrepr%C3%A6sentationen/m%C3%B8de-20062024/referat/punkt-6",
+          "kind": "official"
+        },
+        {
+          "url": "https://skat.dk/en-us/businesses/vat/get-started-on-vat",
+          "kind": "official"
+        },
+        {
+          "url": "https://skat.dk/en-us/businesses/vat/vat-on-international-trade/vat-on-sales-to-businesses/refund-of-danish-vat-to-foreign-businesses-domiciled-outside-eu",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.danskerhverv.dk/presse-og-nyheder/nyheder/2026/oktober/sund-fornuft-at-turismeskat-er-taget-af-bordet/",
+          "kind": "secondary"
+        }
+      ],
+      "fact_ids": [
+        "dk.copenhagen.tourist-tax.none",
+        "dk.vat.standard-rate"
+      ],
+      "checked": "2026-10-14"
+    },
+    {
+      "city": "Dublin",
+      "country": "Ireland",
+      "currency": "EUR",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Ireland has no tourist, city or bed tax on hotel stays: Revenue's accommodation guidance lists only VAT.",
+      "general_tax_note": "Guest and holiday accommodation (hotels, guesthouses, B&Bs) is taxed at the reduced VAT rate of 13.5% (rates in force from 1 January 2026: standard 23%, reduced 13.5%, second reduced 9%).",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger states none",
+      "effective_from": null,
+      "changes_scheduled": "Dublin City Council has stated it lacks the legal capacity to introduce a bed tax without new national legislation; the Budget 2027 tax policy changes, announced 6 October 2026, include no visitor levy or accommodation VAT change.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.revenue.ie/en/vat/vat-on-services/accommodation/guest-and-holiday/index.aspx",
+          "kind": "official"
+        },
+        {
+          "url": "https://assets.gov.ie/static/documents/3aa2894e/Budget_2027_-_Tax_Policy_Changes_Summary_-_Eng.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gov.ie/en/department-of-finance/campaigns/budget-2027/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.revenue.ie/en/vat/vat-rates/search-vat-rates/current-vat-rates.aspx",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.revenue.ie/en/tax-professionals/tdm/value-added-tax/part03-taxable-transactions-goods-ica-services/Services/services-guest-and-holiday-accommodation.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "ie.tourist-tax.none",
+        "ie.vat.hotel-accommodation",
+        "ie.vat.catering-9pct-2026"
+      ],
+      "checked": "2026-10-14"
+    },
+    {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "currency": "SEK",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Sweden has no tourist tax, national or municipal, in 2026.",
+      "general_tax_note": "Swedish VAT on room rental in hotels, guesthouses and hostels is 12%, as are closely linked services such as breakfast, parking, phone, sauna and laundry; the standard rate is 25%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger states none in 2026",
+      "effective_from": null,
+      "changes_scheduled": "A 2025/26 Riksdag motion (2025/26:2817, V) asks the government to investigate letting municipalities introduce local bed fees (bäddavgifter); no change stated.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 9.9446,
+      "sources": [
+        {
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/en-aktiv-industri-och-landsbygdspolitik_hd022817/html/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.skatteverket.se/foretag/moms/saljavarorochtjanster/momssatspavarorochtjanster.4.58d555751259e4d66168000409.html",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "se.stockholm.no-tourist-tax",
+        "se.vat.accommodation-12"
+      ],
+      "checked": "2026-10-14"
+    },
+    {
+      "city": "Zurich",
+      "country": "Switzerland",
+      "currency": "CHF",
+      "tax_name": "City Tax",
+      "structure": "flat_per_person_night",
+      "rule_text": "Zurich's City Tax, collected per overnight stay by hotels and Airbnb hosts for Zürich Tourismus, is CHF 3.50 per guest per night since May 2023, up from CHF 2.50.",
+      "general_tax_note": "Swiss VAT on accommodation (overnight stay with breakfast) is the special rate of 3.8%; the normal rate is 8.1%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 21.0,
+      "example_3n_2a_usd": 25.474616364408323,
+      "example_status": "computed",
+      "example_basis": "CHF 3.50 x 2 guests x 3 nights; flat fee, independent of room price. Ledger says 'per guest' without stating any child exemption.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2023-05",
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 0.82435,
+      "sources": [
+        {
+          "url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2024/11/der-tourismus-bleibt-der-stadt-zuerich-wichtig.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.zuerich.com/de/business/ueber-zuerich-tourismus/organisation/nachhaltigkeitsberichte/nachhaltigkeitsbericht-2024/finanzen",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.zuerich.com/de/business/ueber-zuerich-tourismus/organisation/nachhaltigkeitsberichte/nachhaltigkeitsbericht-2023/finanzen",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.estv.admin.ch/en/vat-rates-switzerland",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "ch.zurich.city-tax",
+        "ch.zurich.city-tax-funding",
+        "ch.vat.accommodation"
+      ],
+      "checked": "2026-10-14"
+    },
+    {
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "currency": "ISK",
+      "tax_name": "gistináttaskattur (accommodation tax)",
+      "structure": "flat_per_room_night",
+      "rule_text": "Iceland's accommodation tax (gistináttaskattur) is 800 ISK per sold accommodation unit (a let of up to one day and night) at hotels, guesthouses and other lodgings with category II-IV operating licences, and a hotel room is one accommodation unit.",
+      "general_tax_note": "Hotel and guest-room rental in Iceland is always subject to VAT at the 11% rate regardless of length of stay, and the accommodation tax does not form part of the VAT taxable amount.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 2400.0,
+      "example_3n_2a_usd": 19.723865877712033,
+      "example_status": "computed",
+      "example_basis": "800 ISK x 1 room x 3 nights; a hotel room is one accommodation unit, so the tax does not depend on the number of guests or the room price.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 121.68,
+      "sources": [
+        {
+          "url": "https://www.skatturinn.is/atvinnurekstur/skattar-og-gjold/gistinattaskattur/",
+          "kind": "official"
+        },
+        {
+          "url": "https://island.is/en/manuals/guidelines-on-vat-in-tourism/1-sale-of-accomodation-services",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "is.accommodation-tax",
+        "is.accommodation-tax.unit",
+        "is.vat.accommodation-11"
+      ],
+      "checked": "2026-10-14"
+    },
+    {
+      "city": "Athens",
+      "country": "Greece",
+      "currency": "EUR",
+      "tax_name": "climate crisis resilience fee",
+      "structure": "tiered_by_star",
+      "rule_text": "Greek hotels charge the climate crisis resilience fee per room per night under Law 5177/2025 article 44: from April to October EUR 2 (1-2 stars), EUR 5 (3 stars), EUR 10 (4 stars), EUR 15 (5 stars); from November to March EUR 0.50, EUR 1.50, EUR 3 and EUR 4.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 30.0,
+      "example_3n_2a_usd": 33.57883190436748,
+      "example_status": "computed",
+      "example_basis": "Four-star rate for April to October (EUR 10 per room per night) x 3 nights; example dates are not specified, so the April-October rate is used as the headline. Per room, not per person.",
+      "example_alt": {
+        "label": "November to March four-star rate",
+        "example_3n_2a": 9.0,
+        "example_3n_2a_usd": 10.073649571310247,
+        "formula": "EUR 3 x 3 nights"
+      },
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2024-01-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "AADE states the fee replaces the accommodation tax and applies to tax periods from 1 January 2024.",
+        "The receipt carries no VAT and the fee is not charged for free stays."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.nomotelia.gr/photos/File/21a-25.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.aade.gr/sites/default/files/2026-02/FAQs_en_telos_anthektikotitas_stin_klimatiki_krisi_02_02_2026.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.aade.gr/en/climate-crisis-resilience-fee-issuance-statement",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "gr.climate-fee-rates",
+        "gr.climate-fee-collection",
+        "gr.climate-fee-replaced-tax",
+        "gr.climate-fee-aade-2026"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "currency": "TRY",
+      "tax_name": "konaklama vergisi (accommodation tax)",
+      "structure": "percent",
+      "rule_text": "Türkiye's accommodation tax (konaklama vergisi) is set at 1% until 31 December 2026 inclusive by Presidential Decision 11263, published in Official Gazette no. 33240 on 1 May 2026.",
+      "general_tax_note": "In the GİB guide's invoice examples a hotel stay carries 10% VAT charged on the price before the accommodation tax; this is an example in the guide, not a statement of the statutory rate.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 298.428,
+      "example_3n_2a_usd": 6.0,
+      "example_status": "computed",
+      "example_basis": "1% of the price excluding VAT (ledger states the base excludes VAT and covers other services sold with the room).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": "Set at 1% until 31 December 2026 inclusive; GİB's guide describes it as a cut from 2% valid 1 May-31 December 2026. The ledger does not state the rate from 1 January 2027.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 49.738,
+      "sources": [
+        {
+          "url": "https://www.resmigazete.gov.tr/eskiler/2026/05/20260501-6.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU%2FUNIVERSAL%2F2026%2FCK11263_not.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.alomaliye.com/wp-content/uploads/2026/06/konaklama-vergisi-rehberi-2026.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "tr.accommodation-tax-rate",
+        "tr.accommodation-tax-base",
+        "tr.vat-accommodation-example"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "city": "Paris",
+      "country": "France",
+      "currency": "EUR",
+      "tax_name": "taxe de séjour",
+      "structure": "tiered_by_star",
+      "rule_text": "From 1 January 2026 Paris's taxe de séjour, all shares included, is per person per night: EUR 15.93 at palaces, EUR 11.70 at five-star, EUR 8.45 at four-star, EUR 5.53 at three-star, EUR 3.25 at two-star and EUR 2.60 at one-star hotels, B&Bs and hostels; unclassified lodging pays 5% of the per-person price, capped at EUR 15.93; minors are exempt.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 50.7,
+      "example_3n_2a_usd": 56.74822591838105,
+      "example_status": "computed",
+      "example_basis": "Four-star EUR 8.45 x 2 adults x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-01-01",
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://files.parisjetaime.com/pro/taxe-de-sejour-paris-2026.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://taxedesejour.paris.fr/",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "fr.paris.tourist-tax-2026"
+      ],
+      "checked": "2026-10-08"
+    },
+    {
+      "city": "Nice",
+      "country": "France",
+      "currency": "EUR",
+      "tax_name": "taxe de séjour (Métropole Nice Côte d'Azur, with 34% additional tax)",
+      "structure": "tiered_by_star",
+      "rule_text": "From 1 January 2026 the Métropole Nice Côte d'Azur's taxe de séjour per person per night is, metropolitan tax plus 34% additional tax, total: palace EUR 4.80+1.63=6.43; 5-star 3.50+1.19=4.69; 4-star 2.60+0.88=3.48; 3-star 1.70+0.58=2.28; 2-star (and 4-5 star holiday resorts) 1.00+0.34=1.34; 1-star hotels, B&Bs, youth hostels 0.80+0.27=1.07; minors are exempt.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 20.88,
+      "example_3n_2a_usd": 23.37086700543977,
+      "example_status": "computed",
+      "example_basis": "Four-star EUR 3.48 (EUR 2.60 metropolitan + EUR 0.88 additional) x 2 adults x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-01-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "The portal says 2027 rates stay identical to 2026."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/Content/configuration/metropole-nca/ImprimesDeclaratif/2026%20Tourist%20Tax%20Rates%20-%20METROPOLE%20NICE%20COTE%20D'AZUR.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/ts/metropole-nca",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "fr.nice.tourist-tax-2026",
+        "fr.nice.tourist-tax-surcharge-34",
+        "fr.nice.tourist-tax-unclassified",
+        "fr.nice.tourist-tax-example"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Rome",
+      "country": "Italy",
+      "currency": "EUR",
+      "tax_name": "contributo di soggiorno",
+      "structure": "tiered_by_star",
+      "rule_text": "Rome's contributo di soggiorno is charged per person per night by hotel class: EUR 10 at five-star, EUR 7.50 at four-star, EUR 6 at three-star, EUR 5 at two-star and EUR 4 at one-star hotels, EUR 3.50 at hostels, and EUR 5 to EUR 7 at guest houses, B&Bs, holiday homes and short-term rentals.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 45.0,
+      "example_3n_2a_usd": 50.36824785655123,
+      "example_status": "computed",
+      "example_basis": "Four-star EUR 7.50 x 2 adults x 3 nights (well within the 10-night cap).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2023-10-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "Applies for at most 10 consecutive nights in the same property in a calendar year (5 at campsites); children exempt until their 10th birthday."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.comune.roma.it/web-resources/cms/documents/Nuove_tariffe_contributo_di_soggiorno_dal_01.10.2023_logo.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF41430",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.turismoroma.it/it/accoglienza/contributo-di-soggiorno-nella-citt%C3%A0-di-roma-capitale",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.comune.roma.it/web-resources/cms/documents/Deliberazione_Assemblea_Capitolina_n._342024.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "it.rome.tourist-tax",
+        "it.rome.tourist-tax-cap"
+      ],
+      "checked": "2026-10-13"
+    },
+    {
+      "city": "Florence",
+      "country": "Italy",
+      "currency": "EUR",
+      "tax_name": "imposta di soggiorno",
+      "structure": "tiered_by_star",
+      "rule_text": "Florence's imposta di soggiorno is charged per person per night: EUR 8 at five-star, EUR 7 at four-star, EUR 6 at three-star, EUR 4.50 at two-star and EUR 3.50 at one-star hotels, EUR 7 at residenze d'epoca, EUR 6 at B&Bs, affittacamere, holiday flats (CAV) and short-term tourist rentals, and EUR 4 at youth hostels and case per ferie.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 42.0,
+      "example_3n_2a_usd": 47.010364666114484,
+      "example_status": "computed",
+      "example_basis": "Four-star EUR 7 x 2 adults x 3 nights (within the 7-night cap).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2025-02-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "Applies to non-residents for at most 7 consecutive nights; minors exempt until their 12th birthday."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://servizi.comune.fi.it/servizi/imposta-di-soggiorno-informati",
+          "kind": "official"
+        },
+        {
+          "url": "https://servizi.comune.fi.it/sites/www.comune.fi.it/files/deliberazione_di_giunta_completa-dg_2024_00599_00535-1.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "it.florence.tourist-tax",
+        "it.florence.tourist-tax-cap"
+      ],
+      "checked": "2026-10-13"
+    },
+    {
+      "city": "Venice",
+      "country": "Italy",
+      "currency": "EUR",
+      "tax_name": "imposta di soggiorno",
+      "structure": "tiered_by_star",
+      "rule_text": "Venice's imposta di soggiorno for hotels in high season (1 Feb-31 Dec), per person per night, in the historic centre and Giudecca: 1 star EUR 1.00, 2 stars EUR 2.00, 3 stars EUR 3.50, 4 stars EUR 4.50, 5 stars EUR 5.00; Lido and lagoon islands EUR 0.80/1.60/2.80/3.60/4.50; mainland EUR 0.70/1.40/2.40/3.10/3.50.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": "Venice's access fee (contributo di accesso) for day visitors: the 2026 trial ended on 26 July 2026; the council approved a 2027 calendar of 72 days from 26 March to 15 August 2027, maximum fee EUR 10. Overnight guests are exempt.",
+      "example_3n_2a": 27.0,
+      "example_3n_2a_usd": 30.22094871393074,
+      "example_status": "computed",
+      "example_basis": "Four-star, historic centre, high season (1 Feb-31 Dec): EUR 4.50 x 2 adults x 3 nights (within the five-night limit). Location (historic centre vs Lido/islands vs mainland) and season change the rate.",
+      "example_alt": {
+        "label": "Four-star, historic centre, low season (1-31 January)",
+        "example_3n_2a": 18.6,
+        "example_3n_2a_usd": 20.81887578070784,
+        "formula": "EUR 3.10 x 2 adults x 3 nights"
+      },
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2025-04-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "Four-star mainland (Mestre) high season is EUR 3.10; Lido and islands EUR 3.60 (ledger).",
+        "Due only for the first five nights; children under 10 exempt, 10 to 16 get a reduction.",
+        "Separate from the day-visitor access fee; guests staying in Venice accommodation are exempt from the access fee but need a free exemption voucher."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/documenti/Tributi/ids/TARIFFE%20IDS%20-%20STRUTTURE%20con%20classificazione%20L.R.%2011_2013_valide%20dal%2001.04.2025.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.comune.venezia.it/it/content/tariffe-ids-dal-19052020",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.comune.venezia.it/it/content/tourist-tax-information-guests",
+          "kind": "official"
+        },
+        {
+          "url": "https://cda.veneziaunica.it/en/access-fee",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.veneziaunica.it/en/things-to-do-in-venice/events/contributo-di-accesso-2026",
+          "kind": "official"
+        },
+        {
+          "url": "https://cda.veneziaunica.it/en/faq/general-questions",
+          "kind": "official"
+        },
+        {
+          "url": "https://cda.ve.it/en/",
+          "kind": "official"
+        },
+        {
+          "url": "https://live.comune.venezia.it/it/2026/10/contributo-di-accesso-la-giunta-approva-il-calendario-2027-72-giornate-da-venerdi-santo",
+          "kind": "official"
+        },
+        {
+          "url": "https://cda.veneziaunica.it/en/exemptions",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.lavocedivenezia.it/venezia-ecco-il-calendario-2027-del-contributo-di-accesso-72-giornate-invece-delle-60-scorse/",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "it.venice.tourist-tax",
+        "it.venice.tourist-tax-rules",
+        "it.venice.tourist-tax-low-season",
+        "it.venice-carnival.tax-rates",
+        "it.venice-carnival.tax-rules",
+        "it.venice.access-fee-2026",
+        "it.venice-carnival.access-fee-2027",
+        "it.venice.access-fee-exemption"
+      ],
+      "checked": "2026-10-26"
+    },
+    {
+      "city": "Milan",
+      "country": "Italy",
+      "currency": "EUR",
+      "tax_name": "imposta di soggiorno",
+      "structure": "tiered_by_star",
+      "rule_text": "Milan's imposta di soggiorno is charged per person per night by category from 1 April 2026: EUR 12 at five-star hotels, EUR 10 at four-star hotels and four-star tourist residences, EUR 7 at three-star hotels and residences, EUR 4 at two-star, EUR 3 at one-star hotels, EUR 7 at holiday houses (case per ferie), EUR 3 at youth hostels and campsites, and EUR 9.50 at B&Bs, guest rooms, holiday homes and short-term lets.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 60.0,
+      "example_3n_2a_usd": 67.15766380873497,
+      "example_status": "computed",
+      "example_basis": "Four-star hotel EUR 10 x 2 adults x 3 nights; applies for the whole hotel stay.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-04-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "From 1 January to 31 March 2026 the rate was EUR 10 at four- and five-star hotels (a one-off 2026 arrangement under decree-law 156 of 29 October 2025).",
+        "Exempt: minors up to 18, people with disabilities and their companions, and certain university students in student residences."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.comune.milano.it/documents/20118/1016509/Tariffe%2B2026%2Bdecorrenza%2B1%C2%B0aprile%2B2026.pdf/d101078f-26b0-4446-d16b-787845b76bca",
+          "kind": "official"
+        },
+        {
+          "url": "https://fareimpresa.comune.milano.it/documents/20126/200621333/Regolamento+Imposta+di+Soggiorno+2026.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://servizicrm.comune.milano.it/centro-supporto/KA-02205/Imposta-di-soggiorno-chi-deve-pagare",
+          "kind": "official"
+        },
+        {
+          "url": "https://www2.comune.milano.it/-/turismo.-approvate-tariffe-imposta-di-soggiorno-in-vigore-dal-1-gennaio-2026",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.comune.milano.it/documents/20118/89692/Imposta+di+soggiorno+-+Tariffe+2026.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.confcommerciomilano.it/export/sites/unione/res-casa/doc/2025/Imposta-dal-1_4_26.pdf",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "it.milan.tourist-tax",
+        "it.milan.tourist-tax-rules",
+        "it.milan.tourist-tax-jan-mar"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Barcelona",
+      "country": "Spain",
+      "currency": "EUR",
+      "tax_name": "tourist tax (Catalonia's tax on stays, with city surcharge)",
+      "structure": "tiered_by_star",
+      "rule_text": "From 1 April 2026 to 31 March 2027 Barcelona's tourist tax (Catalan rate + EUR 5 city surcharge) is EUR 12 a person a night at five-star and grand luxe hotels, EUR 8.40 at four-star, EUR 9.50 in tourist flats, EUR 6 in youth hostels and EUR 7 in other establishments, including three-star hotels.",
+      "general_tax_note": "Spain applies its reduced 10% VAT rate to hospitality services (hotels and restaurants); the standard rate is 21%. Catalonia's tax on stays forms part of the VAT base.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 50.4,
+      "example_3n_2a_usd": 56.41243759933738,
+      "example_status": "computed",
+      "example_basis": "Four-star EUR 8.40 (Catalan rate EUR 3.40 + city surcharge EUR 5) x 2 adults x 3 nights (within the 7-night cap).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-04-01",
+      "changes_scheduled": "Ordinance 2.2 (approved 30 January 2026) phases the city surcharge in: EUR 5 from 1 April 2026, EUR 6 from 1 April 2027, EUR 7 from 1 April 2028, reaching the EUR 8 maximum from 1 April 2029.",
+      "caveats": [
+        "From 1 October 2026 El Prat de Llobregat and L'Hospitalet de Llobregat (among others) add municipal surcharges; a four-star there pays EUR 1.80 + EUR 1.80 = EUR 3.60 a person a night (not Barcelona city).",
+        "Catalonia's tax exempts under-17s and is charged for at most 7 nights per person per continuous stay in one establishment."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+          "kind": "official"
+        },
+        {
+          "url": "https://atc.gencat.cat/web/.content/atc_tributs/ieet/documents/IEET-info-rates-en.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://ajuntament.barcelona.cat/hisenda/sites/default/files/normativa/2026-02/2.2-ordenanca-recarrec-turistic.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://atc.gencat.cat/ca/tributs/ieet/",
+          "kind": "official"
+        },
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/educacion-civico-tributaria/programa-educacion-civico-tributaria/que-impuestos/contenidos/impuesto-sobre-valor-anadido/exenciones-tipos.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2025/capitulo-04-sujetos-pasivos-repercusion-impositivo/tipo-impositivo/tipo-impositivo-reducido-10-ciento.html",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "es.barcelona.tourist-tax-2026",
+        "es.barcelona.tourist-tax-2026-four-star",
+        "es.barcelona.tourist-tax-surcharge-schedule",
+        "es.catalonia.tourist-tax-rules",
+        "es.catalonia.municipal-surcharges-2026-10",
+        "es.vat.hospitality-10"
+      ],
+      "checked": "2026-10-14"
+    },
+    {
+      "city": "Madrid",
+      "country": "Spain",
+      "currency": "EUR",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "No tourist tax applies in Madrid in 2026: Spain has no national tourist tax and the Comunidad de Madrid has no taxes or surcharges of its own in force in 2026 (Ministry of Finance).",
+      "general_tax_note": "Spain applies its reduced 10% VAT rate to hospitality services (hotels and restaurants); the standard rate is 21% (Ley 37/1992, arts. 90 and 91).",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger states none in 2026",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.hacienda.gob.es/ca-ES/Areas%20Tematicas/Financiacion%20Autonomica/Paginas/tributiosPropiosMadrid.aspx",
+          "kind": "official"
+        },
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/educacion-civico-tributaria/programa-educacion-civico-tributaria/que-impuestos/contenidos/impuesto-sobre-valor-anadido/exenciones-tipos.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2025/capitulo-04-sujetos-pasivos-repercusion-impositivo/tipo-impositivo/tipo-impositivo-reducido-10-ciento.html",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "es.madrid.no-tourist-tax",
+        "es.vat.hospitality-10"
+      ],
+      "checked": "2026-10-14"
+    },
+    {
+      "city": "Seville",
+      "country": "Spain",
+      "currency": "EUR",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "No tourist tax is in force in Seville or elsewhere in Andalusia in October 2026: the Junta de Andalucía's list of the region's own taxes includes none on tourist stays, and no decree or bulletin creating one was found.",
+      "general_tax_note": "Spain applies its reduced 10% VAT rate to hospitality services including hotels; the standard rate is 21%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger states none in October 2026 (negative finding from the regional tax list)",
+      "effective_from": null,
+      "changes_scheduled": "On 5 August 2026 Seville's mayor said he would ask the Junta for a tourist tax or similar extra funding; the Junta maintains its refusal. It is a proposal, not law.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/impuestos-propios.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/educacion-civico-tributaria/programa-educacion-civico-tributaria/que-impuestos/contenidos/impuesto-sobre-valor-anadido/exenciones-tipos.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2025/capitulo-04-sujetos-pasivos-repercusion-impositivo/tipo-impositivo/tipo-impositivo-reducido-10-ciento.html",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.eldiario.es/sevilla/alcalde-sevilla-pp-llamara-puerta-vox-junta-reclamarle-tasa-turistica-ciudad-necesita_1_13429113.html",
+          "kind": "news"
+        },
+        {
+          "url": "https://www.elespanol.com/sevilla/20260918/alcalde-sevilla-reune-nuevo-consejero-turismo-pedir-tasa-turistica/1003744388454_0.html",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "es.seville.no-tourist-tax",
+        "es.seville.vat-10",
+        "es.seville.tourist-tax-proposal"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Porto",
+      "country": "Portugal",
+      "currency": "EUR",
+      "tax_name": "municipal tourist tax",
+      "structure": "flat_per_person_night",
+      "rule_text": "Porto's municipal tourist tax is EUR 3 per person per night, up to a maximum of seven consecutive nights (EUR 21), in force since 1 December 2024; guests aged 13 and over pay and children aged 12 and under are exempt, with proof.",
+      "general_tax_note": "Hotel-type accommodation falls under the reduced 6% VAT rate (item 2.17 of List I of the CIVA), per a binding ruling published by Portal das Finanças; the ruling does not itself say mainland.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 18.0,
+      "example_3n_2a_usd": 20.147299142620493,
+      "example_status": "computed",
+      "example_basis": "EUR 3 x 2 adults x 3 nights (within the 7-night cap); flat fee, independent of room price.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2024-12-01",
+      "changes_scheduled": "On 25 September 2026 Lusa reported that Porto council would vote on starting the administrative procedure to amend the tourist tax regulation; no value named and no decision found (in July the mayor had admitted raising the tax from three to four euros).",
+      "caveats": [],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://atividadeseconomicas.cm-porto.pt/alojamento-local/taxa-municipal-turistica-do-porto",
+          "kind": "official"
+        },
+        {
+          "url": "https://taxaturistica.cm-porto.pt/Content/documents/tmt_folhetos_EN.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://files.diariodarepublica.pt/2s/2024/11/232000000/0035300355.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/informacoes_vinculativas/despesa/civa/Documents/PIV_24650.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://observador.pt/2026/09/25/camara-do-porto-vota-na-terca-feira-inicio-do-processo-de-revisao-da-taxa-turistica/",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "pt.porto.tourist-tax",
+        "pt.porto.tax-exemptions",
+        "pt.porto.tax-revision",
+        "pt.vat-hotel-6"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Vila Nova de Gaia (Porto area)",
+      "country": "Portugal",
+      "currency": "EUR",
+      "tax_name": "taxa de cidade (city tax)",
+      "structure": "flat_per_person_night",
+      "rule_text": "Vila Nova de Gaia's city tax (taxa de cidade) is EUR 3 per night for guests aged 16 and over, up to seven consecutive nights per person per stay; Regulamento n.º 970/2026 was published on 22 July 2026 and enters into force 30 days after publication; it was EUR 2.50 before.",
+      "general_tax_note": "Hotel-type accommodation falls under the reduced 6% VAT rate (item 2.17 of List I of the CIVA); the ruling does not itself say mainland.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 18.0,
+      "example_3n_2a_usd": 20.147299142620493,
+      "example_status": "computed",
+      "example_basis": "EUR 3 x 2 adults x 3 nights; flat fee, independent of room price.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "30 days after 2026-07-22 (Regulamento n.º 970/2026)",
+      "changes_scheduled": null,
+      "caveats": [
+        "Not a stay-guide city; included because the Porto stay guide's ledger facts cover it.",
+        "Medical stays (one companion) and disability of 60%+ are exempt; groups travelling for work, study, sport or culture pay 50%."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://diariodarepublica.pt/dr/detalhe/regulamento/970-2026-1150611448",
+          "kind": "official"
+        },
+        {
+          "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/informacoes_vinculativas/despesa/civa/Documents/PIV_24650.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "pt.porto.gaia-city-tax",
+        "pt.vat-hotel-6"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Dubrovnik",
+      "country": "Croatia",
+      "currency": "EUR",
+      "tax_name": "tourist tax",
+      "structure": "flat_per_person_night",
+      "rule_text": "For 2026 the tourist tax in the City of Dubrovnik is EUR 2.65 per person per night from 1 April to 30 September and EUR 1.85 in the rest of the year at accommodation where catering is provided (campsites EUR 1.95 and EUR 1.30).",
+      "general_tax_note": "Croatian VAT on accommodation services in hotels and similar establishments is 13%; the general rate is 25%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 15.9,
+      "example_3n_2a_usd": 17.79678090931477,
+      "example_status": "computed",
+      "example_basis": "1 April-30 September rate EUR 2.65 x 2 adults x 3 nights; example dates are not specified so the summer rate is used as the headline. Flat fee, independent of room price.",
+      "example_alt": {
+        "label": "1 October-31 March rate",
+        "example_3n_2a": 11.1,
+        "example_3n_2a_usd": 12.424167804615971,
+        "formula": "EUR 1.85 x 2 adults x 3 nights"
+      },
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-01-01 (set for 2026)",
+      "changes_scheduled": null,
+      "caveats": [
+        "Children under 12 do not pay; persons aged 12 to 18 pay 50% less; the tax is per person and night."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.dnz.hr/wp-content/uploads/2024/10/Odluka-o-visini-turisticke-pristojbe-za-2026.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://gov.hr/hr/turisticka-pristojba/1520",
+          "kind": "official"
+        },
+        {
+          "url": "https://porezna-uprava.gov.hr/hr/porezni-rashodi/4008",
+          "kind": "official"
+        },
+        {
+          "url": "https://porezna-uprava.gov.hr/hr/pdv-3938/3938",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "hr.dubrovnik.tourist-tax-2026",
+        "hr.tourist-tax-exemptions",
+        "hr.vat-accommodation-13"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Kraków",
+      "country": "Poland",
+      "currency": "PLN",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "In 2026 Kraków charges no local fee (opłata miejscowa) or tourist tax: Polish law allows the local fee only where climate, scenic value and tourism conditions are all met, and the City of Kraków's tourism office says most municipalities, Kraków included, do not meet them.",
+      "general_tax_note": "VAT on accommodation services is 8% in 2026 (Art. 146aa of the VAT act).",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger states none in 2026",
+      "effective_from": null,
+      "changes_scheduled": "A Polish amendment applies from 1 January 2027: a council may introduce a local fee in places with landscape value of up to 5.00 zloty a person a night (5.50 in spa-protection areas); no Kraków council resolution was found.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 3.9261,
+      "sources": [
+        {
+          "url": "https://convention.krakow.pl/english/news_from_krakow/322353,251,komunikat,actions_taken_by_krakow_to_introduce_a_tourist_tax.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/1263/text.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://podatki.gov.pl/podatki-firmowe/vat/stawki-i-limity",
+          "kind": "official"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/processes/3099",
+          "kind": "official"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/processes/2033/attachment/2033_u3.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://oko.press/na-zywo/na-zywo-relacja/oplata-turystyczna-wejdzie-w-zycie-jest-podpis-prezydenta",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "pl.krakow.tourist-fee.2026",
+        "pl.vat.accommodation",
+        "pl.tourist-fee.law-2027"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "London",
+      "country": "United Kingdom",
+      "currency": "GBP",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "No overnight visitor levy applies in London in 2026.",
+      "general_tax_note": "UK VAT on hotel accommodation is charged at the standard rate of 20%; for stays of more than 28 consecutive days in a hotel, the reduced value rule relieves the accommodation element from VAT after the 28th day.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger states none in 2026",
+      "effective_from": null,
+      "changes_scheduled": "On 10 September 2026 the government said mayors of strategic authorities will be able to choose to charge a levy set as a percentage of the accommodation cost; it intends to legislate in the current Parliamentary session and expects local leaders to set out revenue plans by March 2028. No rate or date is set.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 0.74804,
+      "sources": [
+        {
+          "url": "https://www.gov.uk/government/news/local-leaders-handed-powers-to-drive-investment-in-communities",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gov.uk/government/consultations/overnight-visitor-levy-in-england",
+          "kind": "official"
+        },
+        {
+          "url": "https://assets.publishing.service.gov.uk/media/6aa2980c5f6e942efe37f0c9/Visitor_Levy_in_England_-_government_response.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gov.uk/vat-rates",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/hotels-holiday-accommodation-and-vat-notice-7093",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "gb.london.visitor-levy-status",
+        "gb.vat.hotel-rooms"
+      ],
+      "checked": "2026-10-13"
+    },
+    {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "currency": "GBP",
+      "tax_name": "Visitor Levy",
+      "structure": "percent",
+      "rule_text": "Edinburgh Visitor Levy: 5% of the cost of paid overnight accommodation (accommodation-only portion, net of VAT), charged on the first 5 consecutive nights only, for stays from 24 July 2026, at the same rate every day of the year.",
+      "general_tax_note": "UK VAT on hotel accommodation is charged at the standard rate of 20%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 22.4412,
+      "example_3n_2a_usd": 30.0,
+      "example_status": "computed",
+      "example_basis": "5% of the accommodation-only price net of VAT x 3 nights (within the 5-night limit).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-07-24",
+      "changes_scheduled": null,
+      "caveats": [
+        "At a VAT-registered hotel the levy itself is liable for VAT (council guide quoting VisitScotland guidance); the ledger's arithmetic is that levy plus its VAT equals 5% of the VAT-inclusive room price. The example figure is the levy only, before that VAT.",
+        "Applies to hotels, B&Bs, guest houses, hostels, aparthotels, self-catering, short-term lets and caravan/camp sites; recipients of listed disability benefits pay and reclaim from the council."
+      ],
+      "fx_rate_used_per_usd": 0.74804,
+      "sources": [
+        {
+          "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/business/information-businesses",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/visitorlevy",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/news/article/14141/edinburgh-declares-scotland-s-first-visitor-levy",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gov.uk/vat-rates",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/hotels-holiday-accommodation-and-vat-notice-7093",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "gb.edinburgh.visitor-levy",
+        "gb.edinburgh.visitor-levy-vat",
+        "gb.edinburgh.visitor-levy-transition",
+        "gb.edinburgh.visitor-levy-refund",
+        "gb.vat.hotel-rooms"
+      ],
+      "checked": "2026-10-14"
+    },
+    {
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "currency": "AED",
+      "tax_name": "Tourism Dirham",
+      "structure": "tiered_by_star",
+      "rule_text": "Dubai's Tourism Dirham is a flat fee per occupied room per night set by hotel classification: five-star or higher AED 20, four-star AED 15, three-star AED 10, two-star AED 10, one-star or budget AED 7, hotel apartments AED 20 (luxury), 15 (deluxe), 10 (standard), guest house AED 7; it is not charged per person.",
+      "general_tax_note": "The UAE introduced VAT at a standard rate of 5%. Hotels' own October 2026 rate terms list a 7% municipality fee, a 10% service charge and 5% VAT per room per night (Dubai Decree No. 27 of 2019 reduced the municipality fee on hotel sales from 10% to 7%).",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 45.0,
+      "example_3n_2a_usd": null,
+      "example_status": "computed",
+      "example_basis": "Four-star AED 15 per room per night x 3 nights; not per person, independent of room price.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": "Charged for a maximum of 30 consecutive nights; possible exemption announced 21 May 2026 (no end date found).",
+      "caveats": [
+        "On 21 May 2026 the Dubai Media Office reported a package including exemption from collection of the Tourism Dirham and the sales fees on hotel rooms; no end date was found, but hotels' own October 2026 terms still list the Tourism Dirham. Treat the fee as listed but possibly waived.",
+        "AED is not an ECB reference currency, so no USD conversion is given.",
+        "The u.ae portal page still lists 10% municipality fees generically; the decree and hotel terms both say 7% for Dubai."
+      ],
+      "fx_rate_used_per_usd": null,
+      "sources": [
+        {
+          "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2020/Administrative%20Resolution%20No.%20(2)%20of%202020%20Prescribing%20the%20Rules%20for%20Calculating,%20Collecting,%20and%20Paying%20the%20Tourism%20Dirham%20Fee%20in%20the%20Emirate%20of%20Dubai.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://mof.gov.ae/en/public-finance/tax/value-added-tax-vat/",
+          "kind": "official"
+        },
+        {
+          "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.millenniumhotels.com/en/offers/middle-east/millennium-airport-hotel-dubai/hello-dubai-offer/",
+          "kind": "operator"
+        },
+        {
+          "url": "https://u.ae/en/information-and-services/finance-and-investment/taxation/other-taxes",
+          "kind": "official"
+        },
+        {
+          "url": "https://mediaoffice.ae/en/news/2026/may/21-05/hamdan-bin-mohammed",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/dxbsepy-canopy-dubai-al-seef/hotel-info/",
+          "kind": "operator"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "ae.dubai.tourism-dirham",
+        "ae.dubai.tourism-dirham.30-nights",
+        "ae.uae.vat",
+        "ae.dubai.municipality-fee",
+        "ae.dubai.fee-exemption-2026"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Marrakech",
+      "country": "Morocco",
+      "currency": "MAD",
+      "tax_name": "stay tax (taxe de séjour, Law 47-06)",
+      "structure": "tiered_by_star",
+      "rule_text": "Article 73 of Law 47-06 sets legal ranges per person per night: guest houses, congress centres and luxury hotels MAD 15-30; riads and houses rented to tourists MAD 10-25; hotels 5 stars MAD 10-25, 4 stars 5-10, 3 stars 3-7, 1-2 stars 2-5; tourist residences 3-7; other tourist accommodation 2-5.",
+      "general_tax_note": "The DGI's VAT page lists accommodation and restaurant services at the 10% reduced rate; the standard rate is 20%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the law sets only a legal range for a 4-star hotel (a range per person per night); the rate is fixed by each commune after council approval and the Marrakech commune's own rate was not found.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Children under 12 are exempt; the tax is charged per person and night, added to the accommodation price, and paid quarterly to the commune."
+      ],
+      "fx_rate_used_per_usd": null,
+      "sources": [
+        {
+          "url": "https://portail.tax.gov.ma/wps/wcm/connect/d8465bca-57ab-4b4b-a71e-c390793e0184/%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86+%D8%B1%D9%82%D9%85+47.06+%D8%A7%D9%84%D9%85%D8%AA%D8%B9%D9%84%D9%82+%D8%A8%D8%AC%D8%A8%D8%A7%D9%8A%D8%A7%D8%AA+%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D8%A7%D8%AA+%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%A8%D9%8A%D8%A9.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://portail.tax.gov.ma/wps/portal/DGI/Documentation-fiscale/Taxes-locales",
+          "kind": "official"
+        },
+        {
+          "url": "https://portail.tax.gov.ma/wps/portal/DGI/Vos-impots-procedures/Taxe-sur-la-valeur-ajoutee",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "ma.stay-tax-rates",
+        "ma.stay-tax-rules",
+        "ma.vat-accommodation",
+        "ma.tax-worked-example"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Cape Town",
+      "country": "South Africa",
+      "currency": "ZAR",
+      "tax_name": "TOMSA tourism levy",
+      "structure": "percent",
+      "rule_text": "TOMSA is a 1% tourism levy charged on the room rate at accommodation businesses that take part; it is voluntary for businesses, compulsory for guests where it is collected, is administered by the TBCSA and passed to South African Tourism, and TOMSA says it is not a tax.",
+      "general_tax_note": "South Africa's standard VAT rate is 15% on supplies of goods and services by registered vendors; hotel-type accommodation is 'commercial accommodation', a taxable supply.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: TOMSA does not say whether its 1% is worked out before or after VAT (the ledger's own arithmetic merely assumes before), and it is charged only at participating businesses.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Not a government tax; levy applies only where the business takes part."
+      ],
+      "fx_rate_used_per_usd": 16.5976,
+      "sources": [
+        {
+          "url": "https://tomsa.co.za/levy-faq/",
+          "kind": "official"
+        },
+        {
+          "url": "https://tomsa.co.za/wp-content/uploads/2020/11/TOMSA_Fact_Sheet.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.sars.gov.za/types-of-tax/value-added-tax/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.sars.gov.za/wp-content/uploads/Ops/Guides/VAT-411-Guide-for-Entertainment-Accommodation-and-Catering-External-Guide.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "za.tomsa.levy",
+        "za.cape-town.worked-example",
+        "za.vat.standard-rate",
+        "za.vat.commercial-accommodation"
+      ],
+      "checked": "2026-10-22"
+    },
+    {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "currency": "HKD",
+      "tax_name": "Hotel Accommodation Tax",
+      "structure": "percent",
+      "rule_text": "Hong Kong's Hotel Accommodation Tax has been charged again since 1 January 2025, at 3% of the room charge; the service charge, normally 10%, is not taxed, so a bill runs about 13% over the room rate.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": "Service charge, normally 10% (not a tax, not taxed).",
+      "example_3n_2a": 141.1848,
+      "example_3n_2a_usd": 18.0,
+      "example_status": "computed",
+      "example_basis": "3% of the room charge x 3 nights; the service charge is not taxed.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2025-01-01",
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 7.8436,
+      "sources": [
+        {
+          "url": "https://www.ird.gov.hk/eng/faq/hatq.htm",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ird.gov.hk/eng/tax/hat.htm",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.info.gov.hk/gia/general/202509/10/P2025091000314.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "hk.hotel-tax"
+      ],
+      "checked": "2026-10-04"
+    },
+    {
+      "city": "Singapore",
+      "country": "Singapore",
+      "currency": "SGD",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Singapore's ledger fact lists only GST and the usual 10% service charge on hotel rooms; no separate accommodation tax is stated.",
+      "general_tax_note": "Singapore's GST has been 9% since 1 January 2024 and is charged on the price including the usual 10% service charge, about 19.9% over the headline price in all.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger has GST and service charge only; no accommodation-specific tax fact",
+      "effective_from": "2024-01-01 (GST 9%)",
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.2785,
+      "sources": [
+        {
+          "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/specific-business-sectors/hotel-and-food-beverage",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "sg.gst-service-charge"
+      ],
+      "checked": "2026-10-05"
+    },
+    {
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "currency": "MYR",
+      "tax_name": "tourism tax",
+      "structure": "flat_per_room_night",
+      "rule_text": "Foreign guests in Malaysia pay a tourism tax of RM10 per room per night, collected by the accommodation operator; booking platforms have had to collect it since their grace period ended on 31 December 2025.",
+      "general_tax_note": "Malaysia's service tax on accommodation has been 8% since 1 March 2024 (6% before).",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 30.0,
+      "example_3n_2a_usd": 7.343042467262269,
+      "example_status": "computed",
+      "example_basis": "RM10 x 1 room x 3 nights, foreign guests; flat per room, independent of room price.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Applies to foreign guests only; the 8% service tax is kept in general_tax_note, not in the example."
+      ],
+      "fx_rate_used_per_usd": 4.0855,
+      "sources": [
+        {
+          "url": "https://www.myttx.customs.gov.my/about-myttx/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.myttx.customs.gov.my/wp-content/uploads/2022/05/APPENDIX-A-General-Guide.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://mysst.customs.gov.my/faq-services-tax/",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "my.tourism-tax",
+        "my.service-tax"
+      ],
+      "checked": "2026-10-05"
+    },
+    {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "currency": "THB",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Thailand's ledger facts list only a hotel service charge (usually 10%) and 7% VAT on hotel prices quoted with '++'; no separate accommodation tax is stated.",
+      "general_tax_note": "A Thai hotel price quoted with '++' adds a service charge (usually 10%, set by the hotel) and then 7% VAT on the room rate plus the service charge, about 17.7% in all; the reduced 7% VAT rate is extended from 1 October 2026 to 30 September 2027.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger has service charge and VAT only; no accommodation-specific tax fact",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 33.745,
+      "sources": [
+        {
+          "url": "https://www.rd.go.th/english/6043.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.amari.com/phuket",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.rd.go.th/fileadmin/user_upload/news/2569thai/news18_2569.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.thefinestthai.com/2026/05/31/thailand-plus-plus-pricing-vat-service-charge-guide/",
+          "kind": "secondary"
+        }
+      ],
+      "fact_ids": [
+        "th.hotel-bill-plusplus",
+        "th.vat-rate",
+        "th.vat-base-service-charge",
+        "th.plus-plus"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Chiang Mai",
+      "country": "Thailand",
+      "currency": "THB",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Thailand's ledger facts list only a hotel service charge (usually 10%) and 7% VAT on hotel prices quoted with '++'; no separate accommodation tax is stated.",
+      "general_tax_note": "A Thai hotel price quoted with '++' adds a service charge (usually 10%, set by the hotel) and then 7% VAT on the room rate plus the service charge, about 17.7% in all; the reduced 7% VAT rate is extended from 1 October 2026 to 30 September 2027.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger has service charge and VAT only; no accommodation-specific tax fact",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 33.745,
+      "sources": [
+        {
+          "url": "https://www.rd.go.th/english/6043.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.amari.com/phuket",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.rd.go.th/fileadmin/user_upload/news/2569thai/news18_2569.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.thefinestthai.com/2026/05/31/thailand-plus-plus-pricing-vat-service-charge-guide/",
+          "kind": "secondary"
+        }
+      ],
+      "fact_ids": [
+        "th.hotel-bill-plusplus",
+        "th.vat-rate",
+        "th.vat-base-service-charge",
+        "th.plus-plus"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Phuket",
+      "country": "Thailand",
+      "currency": "THB",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Thailand's ledger facts list only a hotel service charge (usually 10%) and 7% VAT on hotel prices quoted with '++'; no separate accommodation tax is stated.",
+      "general_tax_note": "A Thai hotel price quoted with '++' adds a service charge (usually 10%, set by the hotel) and then 7% VAT on the room rate plus the service charge, about 17.7% in all; the reduced 7% VAT rate is extended from 1 October 2026 to 30 September 2027.",
+      "other_charges_not_in_example": "Airports of Thailand's international passenger service charge for departing passengers rose from 730 to 1,120 baht on 20 June 2026 and is included in the airfare; it applies at Phuket (not a hotel charge).",
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger has service charge and VAT only; no accommodation-specific tax fact",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 33.745,
+      "sources": [
+        {
+          "url": "https://www.rd.go.th/english/6043.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.amari.com/phuket",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.rd.go.th/fileadmin/user_upload/news/2569thai/news18_2569.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tatnews.org/2026/05/airports-of-thailand-to-raise-international-passenger-service-charge-from-20-june-2026/",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.thefinestthai.com/2026/05/31/thailand-plus-plus-pricing-vat-service-charge-guide/",
+          "kind": "secondary"
+        }
+      ],
+      "fact_ids": [
+        "th.hotel-bill-plusplus",
+        "th.vat-rate",
+        "th.vat-base-service-charge",
+        "th.plus-plus",
+        "th.aot-departure-charge"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Taipei",
+      "country": "Taiwan",
+      "currency": "TWD",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Many Taiwanese hotels and restaurants add a 10% service charge, and tipping is not customary; the ledger states no accommodation tax.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": "Many Taiwanese hotels add a 10% service charge (a service charge, not a tax).",
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger has a 10% service charge only (not a tax); no accommodation-specific tax fact",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": null,
+      "sources": [
+        {
+          "url": "https://eng.taiwan.net.tw/m1.aspx?sNo=0002064",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "tw.service-charge"
+      ],
+      "checked": "2026-10-05"
+    },
+    {
+      "city": "Seoul",
+      "country": "South Korea",
+      "currency": "KRW",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Korea refunds the VAT on room charges for up to 30 nights to foreign individual tourists (not package groups) staying under 6 months and leaving within 3 months, at accommodation designated under the special provision; no accommodation tax is stated.",
+      "general_tax_note": "Korea's value-added tax rate is 10% for all business types (general taxpayers), per the National Tax Service; VisitKorea's refund guide treats hotel rooms as VAT-inclusive accommodation.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger has VAT and a VAT refund scheme only; no accommodation-specific tax fact",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Breakfast is refunded only if in the room rate; service charges are not refunded; the culture ministry designates hotels quarterly."
+      ],
+      "fx_rate_used_per_usd": 1324.45,
+      "sources": [
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=489&vcontsId=248765",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pSeq=1636&pDataCD=0417000000&pType=05",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2275&cntntsId=7696",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.newspim.com/news/view/20260807000669",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "kr.vat-refund.accommodation",
+        "kr.jeju.vat-rate-10"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Busan",
+      "country": "South Korea",
+      "currency": "KRW",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Korea refunds the VAT on room charges for up to 30 nights to foreign individual tourists (not package groups) staying under 6 months and leaving within 3 months, at accommodation designated under the special provision; no accommodation tax is stated.",
+      "general_tax_note": "Korea's value-added tax rate is 10% for all business types (general taxpayers), per the National Tax Service; VisitKorea's refund guide treats hotel rooms as VAT-inclusive accommodation.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger has VAT and a VAT refund scheme only; no accommodation-specific tax fact",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Breakfast is refunded only if in the room rate; service charges are not refunded; the culture ministry designates hotels quarterly."
+      ],
+      "fx_rate_used_per_usd": 1324.45,
+      "sources": [
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=489&vcontsId=248765",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pSeq=1636&pDataCD=0417000000&pType=05",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2275&cntntsId=7696",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.newspim.com/news/view/20260807000669",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "kr.vat-refund.accommodation",
+        "kr.jeju.vat-rate-10"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Jeju",
+      "country": "South Korea",
+      "currency": "KRW",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "We found no visitor entry or environmental fee in force in Jeju for 2026: VisitJeju's practical information lists none and no notice putting one into effect was found on the provincial government's site.",
+      "general_tax_note": "Korea's value-added tax rate is 10% for all business types (general taxpayers), per the National Tax Service; VisitKorea's refund guide treats hotel rooms as VAT-inclusive accommodation.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "negative finding in the ledger (not an official statement that none exists)",
+      "effective_from": null,
+      "changes_scheduled": "A visitor environmental contribution has been discussed in earlier years; none in force.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 1324.45,
+      "sources": [
+        {
+          "url": "https://www.visitjeju.net/en/themtour/view?contentsid=CNTS_000000000022574&menuId=DOM_700000000010784",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.jeju.go.kr/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2275&cntntsId=7696",
+          "kind": "official"
+        },
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=489&vcontsId=248765",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pSeq=1636&pDataCD=0417000000&pType=05",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.newspim.com/news/view/20260807000669",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "kr.jeju.environmental-fee-2026",
+        "kr.jeju.vat-rate-10",
+        "kr.vat-refund.accommodation"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Shanghai",
+      "country": "China",
+      "currency": "CNY",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "In the Shanghai government and tax-authority pages read, no separate per-night tourist or hotel occupancy tax is mentioned; this is a negative finding, not an official statement that none exists.",
+      "general_tax_note": "China's VAT Law (in force from 1 January 2026) sets VAT at 6% for services not listed at higher rates; the ledger notes the rate for hotel rooms is the editors' reading of these texts, not a sentence in any one of them. VAT is a tax outside the price and must be shown separately.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "negative finding in the ledger (not an official statement that none exists)",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 6.6702,
+      "sources": [
+        {
+          "url": "https://english.shanghai.gov.cn/en-TravelYourWay/20251010/6f1beb560360472b8edaffd6187f4988.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://fgk.chinatax.gov.cn/zcfgk/c100009/c5237365/content.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.chinatax.gov.cn/chinatax/n810219/n810744/n4016641/n4171132/n4255813/c4257487/content.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.fujian.gov.cn/hdjl/hdjlzsk/czt/sz/202104/t20210402_5562528.htm",
+          "kind": "official"
+        },
+        {
+          "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/zzs/202601/t478908.html",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "cn.shanghai.tourist-tax-none",
+        "cn.vat-services-6",
+        "cn.vat-price-exclusive",
+        "cn.shanghai.tax-example"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Hanoi",
+      "country": "Vietnam",
+      "currency": "VND",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "The ledger lists only Vietnam's VAT on accommodation; no accommodation-specific tax is stated.",
+      "general_tax_note": "Vietnam's VAT is normally 10%; under Resolution 204/2025/QH15 it is reduced to 8% for goods and services otherwise taxed at 10%, from 1 July 2025 to 31 December 2026, excluding telecommunications, finance, banking, securities, insurance, real estate, metal products, mining products other than coal and excise goods; accommodation is not named among the exclusions in the reports read, but the decree's appendices were not readable.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger has VAT only; no accommodation-specific tax fact",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": null,
+      "sources": [
+        {
+          "url": "https://en.vietnamplus.vn/2-vat-reduction-extends-to-end-of-2026-post321798.vnp",
+          "kind": "official"
+        },
+        {
+          "url": "https://english.luatvietnam.vn/thue/decree-174-2025-nd-cp-vat-reduction-404331-d1.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-204-2025-qh15-ve-giam-thue-gia-tri-gia-tang-119250628082120511.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://en.vietnamplus.vn/na-adopts-resolution-on-vat-reduction-revised-law-on-enterprises-post321109.vnp",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "vn.vat-accommodation"
+      ],
+      "checked": "2026-10-17"
+    },
+    {
+      "city": "Da Nang",
+      "country": "Vietnam",
+      "currency": "VND",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "The ledger lists only Vietnam's VAT on accommodation; no accommodation-specific tax is stated.",
+      "general_tax_note": "Vietnam's VAT is normally 10%; under Resolution 204/2025/QH15 it is reduced to 8% for goods and services otherwise taxed at 10%, from 1 July 2025 to 31 December 2026, excluding telecommunications, finance, banking, securities, insurance, real estate, metal products, mining products other than coal and excise goods; accommodation is not named among the exclusions in the reports read, but the decree's appendices were not readable.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger has VAT only; no accommodation-specific tax fact",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": null,
+      "sources": [
+        {
+          "url": "https://en.vietnamplus.vn/2-vat-reduction-extends-to-end-of-2026-post321798.vnp",
+          "kind": "official"
+        },
+        {
+          "url": "https://english.luatvietnam.vn/thue/decree-174-2025-nd-cp-vat-reduction-404331-d1.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-204-2025-qh15-ve-giam-thue-gia-tri-gia-tang-119250628082120511.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://en.vietnamplus.vn/na-adopts-resolution-on-vat-reduction-revised-law-on-enterprises-post321109.vnp",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "vn.vat-accommodation"
+      ],
+      "checked": "2026-10-17"
+    },
+    {
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "currency": "VND",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "In 2017 Ho Chi Minh City's tourism department proposed a charge of VND 23,000 a night on visitors in city accommodation and the city's vice chairman rejected it; no current city tourist tax was found.",
+      "general_tax_note": "Vietnam's VAT is normally 10%; under Resolution 204/2025/QH15 it is reduced to 8% for goods and services otherwise taxed at 10%, from 1 July 2025 to 31 December 2026, excluding telecommunications, finance, banking, securities, insurance, real estate, metal products, mining products other than coal and excise goods; accommodation is not named among the exclusions in the reports read, but the decree's appendices were not readable.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "negative finding in the ledger (no current city tourist tax found)",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": null,
+      "sources": [
+        {
+          "url": "https://en.vietnamplus.vn/2-vat-reduction-extends-to-end-of-2026-post321798.vnp",
+          "kind": "official"
+        },
+        {
+          "url": "https://english.luatvietnam.vn/thue/decree-174-2025-nd-cp-vat-reduction-404331-d1.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-204-2025-qh15-ve-giam-thue-gia-tri-gia-tang-119250628082120511.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://e.vnexpress.net/news/travel-life/travel/ho-chi-minh-city-rejects-plan-to-tax-tourists-for-overnight-stays-3655002.html",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://en.vietnamplus.vn/na-adopts-resolution-on-vat-reduction-revised-law-on-enterprises-post321109.vnp",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "vn.hcmc.tourist-tax",
+        "vn.vat-accommodation"
+      ],
+      "checked": "2026-10-18"
+    },
+    {
+      "city": "Bali (Badung regency)",
+      "country": "Indonesia",
+      "currency": "IDR",
+      "tax_name": "PBJT on hotel services (jasa perhotelan)",
+      "structure": "percent",
+      "rule_text": "Badung regency's PBJT on hotel services (jasa perhotelan) is 10%, and on food and drink 10%, under Perda Kabupaten Badung 7/2023, in force from 1 January 2024; the 2025 amendment (Perda 8/2025) did not change these rates.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": "Bali tourist levy of IDR 150,000 per foreign tourist, paid once while travelling in Bali (not an accommodation tax; 2 adults would pay it twice, once each).",
+      "example_3n_2a": 1086480.0,
+      "example_3n_2a_usd": 60.0,
+      "example_status": "computed",
+      "example_basis": "10% of the hotel price x 3 nights (the ledger's own example takes 10% of the nightly price; it does not state whether the base includes service charge).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2024-01-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "The Badung rate covers Seminyak, Canggu, Jimbaran, Uluwatu and Nusa Dua per the stay guide; other Bali regencies are not in the ledger.",
+        "Many hotels add a service charge on top (stay guide; no ledger rate)."
+      ],
+      "fx_rate_used_per_usd": 18108.0,
+      "sources": [
+        {
+          "url": "https://bapenda.badungkab.go.id/pengumuman/54593-SE-Pelaksanaan-Tarif-Pajak-Daerah-PerdaNo-7-2023",
+          "kind": "official"
+        },
+        {
+          "url": "https://peraturan.bpk.go.id/Details/344913/perda-kab-badung-no-8-tahun-2025",
+          "kind": "official"
+        },
+        {
+          "url": "https://lovebali.baliprov.go.id/faq",
+          "kind": "official"
+        },
+        {
+          "url": "https://lovebali.baliprov.go.id/",
+          "kind": "official"
+        },
+        {
+          "url": "https://evisa.imigrasi.go.id/front/info/evoa",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "id.badung.hotel-tax",
+        "id.bali.tourist-levy",
+        "id.bali.tax-example",
+        "id.bali.tourist-levy.exemptions"
+      ],
+      "checked": "2026-10-13"
+    },
+    {
+      "city": "Tokyo",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "accommodation tax",
+      "structure": "tiered_by_rate",
+      "rule_text": "Until 31 March 2027 Tokyo's accommodation tax is JPY 100 per person per night on rooms of JPY 10,000 to JPY 14,999 per person and JPY 200 from JPY 15,000; rooms under JPY 10,000 are exempt.",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": "Japan's International Tourist Tax (departure tax) is JPY 3,000 per person from 1 July 2026, collected in the price of the airline ticket; not a hotel charge.",
+      "example_3n_2a": 1200.0,
+      "example_3n_2a_usd": 7.653061224489796,
+      "example_status": "computed",
+      "example_basis": "USD 200 per room-night x 156.8 JPY = JPY 31,360 per room, JPY 15,680 per person (room price divided by the 2 sharing adults, an assumption because the ledger only says 'per person'): band JPY 15,000 and over, JPY 200 x 2 persons x 3 nights. The ledger does not state whether consumption tax is in the band price.",
+      "example_alt": null,
+      "example_after_change": {
+        "label": "From 1 April 2027 (3% of the room charge on stays of JPY 13,000 or more per person per night)",
+        "example_3n_2a": 2822.4,
+        "example_3n_2a_usd": 18.0,
+        "formula": "3% x JPY 15,680 per person-night x 2 persons x 3 nights = 3% x JPY 94,080 (the whole 3-night room price)"
+      },
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": "From 1 April 2027 Tokyo's accommodation tax becomes 3% of the room charge on stays of JPY 13,000 or more per person per night, with cheaper stays exempt and licensed private lodging (minpaku) included.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/shitsumon/leisure/general_01",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/shuk_minaoshi",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.metro.tokyo.lg.jp/information/press/2026/06/2026063004",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/2",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.japan.travel/en/ca/news/japans-international-tourist-tax-is-increasing/",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.tokyo.accommodation-tax",
+        "jp.tokyo.accommodation-tax-2027",
+        "jp.tokyo.new-year.accommodation-tax",
+        "jp.consumption-tax.rate",
+        "jp.departure-tax"
+      ],
+      "checked": "2026-10-26"
+    },
+    {
+      "city": "Kyoto",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "accommodation tax",
+      "structure": "tiered_by_rate",
+      "rule_text": "Since 1 March 2026 Kyoto City charges an accommodation tax per person per night by room rate: JPY 200 under JPY 6,000, JPY 400 from JPY 6,000, JPY 1,000 from JPY 20,000, JPY 4,000 from JPY 50,000 and JPY 10,000 from JPY 100,000.",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-03-01",
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000345893.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.kyoto.accommodation-tax",
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Osaka",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "Osaka Prefecture accommodation tax",
+      "structure": "tiered_by_rate",
+      "rule_text": "Since 1 September 2025 Osaka Prefecture's accommodation tax is JPY 200 per person per night on rooms of JPY 5,000 to JPY 14,999, JPY 400 from JPY 15,000 to JPY 19,999 and JPY 500 from JPY 20,000; rooms under JPY 5,000 are exempt (previously JPY 100/200/300 from JPY 7,000).",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2025-09-01",
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.pref.osaka.lg.jp/o050040/zei/alacarte/shukuhakuzei-kaisei.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.osaka.accommodation-tax",
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Fukuoka",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "accommodation tax (city and prefecture)",
+      "structure": "tiered_by_rate",
+      "rule_text": "Fukuoka City and Fukuoka Prefecture together charge an accommodation tax of JPY 200 per person per night on a room charge under JPY 20,000 and JPY 500 from JPY 20,000 (the prefecture's share JPY 50 in both bands), since 1 April 2020.",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2020-04-01",
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.pref.fukuoka.lg.jp/contents/syukuhakuzei.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://yokanavi.com/accommodation-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.fukuoka.accommodation-tax",
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Sapporo",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "accommodation tax (Sapporo City and Hokkaido)",
+      "structure": "tiered_by_rate",
+      "rule_text": "Since 1 April 2026 Sapporo City and Hokkaido each charge an accommodation tax; in Sapporo the two together are JPY 300 per person per night under JPY 20,000, JPY 400 from JPY 20,000 and JPY 1,000 from JPY 50,000, including stays booked before that date.",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-04-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "No plain 'where-to-stay-in-sapporo' page exists; the stay guide is the Snow Festival variant, so Sapporo is included as the only Sapporo page."
+      ],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.city.sapporo.jp/citytax/shukuhakuzei/index.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.sapporo.accommodation-tax",
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Kanazawa",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "accommodation tax",
+      "structure": "tiered_by_rate",
+      "rule_text": "Kanazawa City's accommodation tax is JPY 200 per person per night for a room charge of JPY 5,000 to under JPY 20,000 and JPY 500 from JPY 20,000, measured before consumption tax; stays under JPY 5,000 per person per night are exempt (exemption in force since 1 October 2024; tax introduced April 2019).",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2019-04",
+      "changes_scheduled": null,
+      "caveats": [
+        "Applies to all guests regardless of age; ledger says the taxable charge is the room-only price with service charge, excluding meals, consumption tax and the bathing tax."
+      ],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminzeika/gyomuannai/1/4/28700.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.city.kanazawa.ishikawa.jp/reiki/reiki_honbun/a400RG00001719.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminzeika/gyomuannai/1/4/4327.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.kanazawa.accommodation-tax",
+        "jp.kanazawa.accommodation-tax.base",
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Hakuba",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "accommodation tax (Hakuba Village with Nagano Prefecture's share)",
+      "structure": "tiered_by_rate",
+      "rule_text": "Since 1 June 2026 Hakuba Village charges an accommodation tax, collected together with Nagano Prefecture's JPY 100 share, of JPY 200 per person per night on room-only prices (before consumption tax) of JPY 6,000-19,999, JPY 400 from JPY 20,000, JPY 900 from JPY 50,000 and JPY 1,900 from JPY 100,000, until 31 May 2029; from 1 June 2029 it is JPY 300, JPY 500, JPY 1,000 and JPY 2,000, the prefecture's share JPY 150.",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-06-01",
+      "changes_scheduled": "From 1 June 2029 Hakuba's bands become JPY 300, JPY 500, JPY 1,000 and JPY 2,000, the prefecture's share JPY 150 (and Nagano Prefecture's own tax rises from JPY 200 to JPY 300).",
+      "caveats": [
+        "Nagano Prefecture's separate tax is JPY 200 per person per night on stays of JPY 6,000 or more (JPY 300 from 1 June 2029); Hakuba's figure above already includes the prefecture's share."
+      ],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/zeimuka/kazeigakari/2/syukuhakuzei/13525.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.pref.nagano.lg.jp/kankoki/syukuhakuzei/zei_gaiyou.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.hakuba.accommodation-tax",
+        "jp.nagano.accommodation-tax",
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Hiroshima",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "Hiroshima Prefecture accommodation tax",
+      "structure": "flat_per_person_night",
+      "rule_text": "Hiroshima Prefecture has charged an accommodation tax since 1 April 2026: JPY 200 per person per night when the room-only price (including service charge, excluding meals and consumption tax) is JPY 6,000 or more, nothing below JPY 6,000.",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": "Miyajima Visitor Tax: JPY 100 per person per visit (or JPY 500 for a year) for people entering Miyajima by boat; added to the ferry fare, not a hotel charge.",
+      "example_3n_2a": 1200.0,
+      "example_3n_2a_usd": 7.653061224489796,
+      "example_status": "computed",
+      "example_basis": "JPY 200 x 2 adults x 3 nights. A US$200 room is JPY 31,360 per room and JPY 15,680 per person, both above the JPY 6,000 threshold, so the result does not depend on whether the threshold is per room or per person.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-04-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "No separate Hiroshima City or Hatsukaichi accommodation tax was found (absence of evidence, not a statement by the city)."
+      ],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.pref.hiroshima.lg.jp/site/zei/hiroshima-syukuhakuzei01.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://miyajima-villa.jp/",
+          "kind": "official"
+        },
+        {
+          "url": "https://reserve.489ban.net/client/iwaso/0/plan",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/110/59551.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://jr-miyajimaferry.co.jp/en/fare/",
+          "kind": "operator"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.hiroshima.accommodation-tax",
+        "jp.hiroshima.accommodation-tax.no-city-tax",
+        "jp.miyajima.visitor-tax",
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Niseko",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "Niseko Town accommodation tax",
+      "structure": "percent",
+      "rule_text": "For stays from 1 November 2026 Niseko Town's accommodation tax becomes 3% of the room price in total, the town collecting Hokkaido's share within it; since 1 November 2024 it has been a tiered fixed amount from JPY 100 to JPY 2,000 per person per night by room price.",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 2822.4,
+      "example_3n_2a_usd": 18.0,
+      "example_status": "computed",
+      "example_basis": "Rule for stays from 1 November 2026: 3% of the room price in total x 3 nights. The ledger does not state whether consumption tax is in the base. The pre-1 November tier bands are not in the ledger, so the earlier rule cannot be computed.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-11-01 (3% rule; fixed tiers since 2024-11-01)",
+      "changes_scheduled": "For stays from 1 November 2026 the tax becomes 3% of the room price in total (ministerial consent 27 March 2026).",
+      "caveats": [
+        "The example uses the 1 November 2026 rule; for stays before that date the rule is a tiered fixed amount whose bands are not in the ledger."
+      ],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.town.niseko.lg.jp/information/11706",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.soumu.go.jp/main_content/001063500.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.town.niseko.lg.jp/resources/output/contents/file/release/11706/61613/press_accomTAX.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.niseko.accommodation-tax",
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Kutchan",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "Kutchan accommodation tax (Hokkaido tax and town tax)",
+      "structure": "percent",
+      "rule_text": "Since 1 April 2026 Kutchan charges 3% of the room price in total: Hokkaido's tiered tax plus the town's tax for the rest, collected by the town; it was 2% until 31 March 2026.",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 2822.4,
+      "example_3n_2a_usd": 18.0,
+      "example_status": "computed",
+      "example_basis": "3% of the room price in total x 3 nights. The ledger does not state whether consumption tax is in the base.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-04-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "Not a stay-guide city of its own; covered by the Niseko stay guide (the village and town are neighbours)."
+      ],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.town.kutchan.hokkaido.jp/town_administration/AccommodationTax/3108/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.kutchan.accommodation-tax",
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Okinawa",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "Okinawa Prefecture accommodation tax",
+      "structure": "percent",
+      "rule_text": "Okinawa Prefecture's accommodation tax starts for stays from 1 February 2027 (the night of 31 January to 1 February excepted), including rooms booked earlier; the rate is 2% of the room-only price per person per night, with the tax capped at JPY 2,000; it is not in force in 2026.",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": {
+        "label": "From 1 February 2027 (2% of the per-person room-only price, rounded down to the nearest JPY 1,000, capped at JPY 2,000 per person per night)",
+        "example_3n_2a": 1800.0,
+        "example_3n_2a_usd": 11.479591836734693,
+        "formula": "per person-night base JPY 15,680 rounds down to JPY 15,000; 2% = JPY 300; x 2 persons x 3 nights"
+      },
+      "none_basis": "ledger states the tax is not in force in 2026; starts 1 February 2027",
+      "effective_from": "2027-02-01",
+      "changes_scheduled": "Starts for stays from 1 February 2027: 2% of the room-only price per person per night, capped at JPY 2,000; the base is rounded down to the nearest JPY 1,000 and capped at JPY 100,000. Where a municipality also charges, the 2% is split 0.8% (cap JPY 800) prefecture and 1.2% (cap JPY 1,200) municipality; Motobu, Onna, Chatan, Miyakojima, Ishigaki and Nago are listed, Naha is not.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.pref.okinawa.jp/kurashikankyo/zeikin/1003660/1036559/1036550.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.pref.okinawa.jp/kurashikankyo/zeikin/1003660/1036559/1041134.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.pref.okinawa.jp/kurashikankyo/zeikin/1003660/1036559/1038180.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.okinawa.accommodation-tax",
+        "jp.okinawa.accommodation-tax.base",
+        "jp.okinawa.accommodation-tax.municipal",
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Hakone",
+      "country": "Japan",
+      "currency": "JPY",
+      "tax_name": "unknown (no ledger fact)",
+      "structure": "unknown",
+      "rule_text": "The ledger has no tax fact for Hakone.",
+      "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the ledger has no accommodation-tax fact for Hakone, so no rule can be stated or computed.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "The Hakone stay guide states a bathing tax of JPY 150 per person per night on hot-spring stays, but no ledger fact backs that figure, so it is not used here."
+      ],
+      "fx_rate_used_per_usd": 156.8,
+      "sources": [
+        {
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "jp.consumption-tax.rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Montreal",
+      "country": "Canada",
+      "currency": "CAD",
+      "tax_name": "tax on lodging (Quebec)",
+      "structure": "percent",
+      "rule_text": "Quebec's tax on lodging is usually 3.5% of the price of an overnight stay, calculated on the night only (breakfast, parking and other supplies excluded); it is a flat CAD 3.50 per night when a unit is rented to an intermediary such as a tour operator.",
+      "general_tax_note": "GST (5%) and QST (9.975%) are calculated on the total of the overnight price, the tax on lodging and anything supplied with the room.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 29.3895,
+      "example_3n_2a_usd": 21.0,
+      "example_status": "computed",
+      "example_basis": "3.5% of the night's price (excluding breakfast, parking and other supplies) x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "The flat CAD 3.50 per night applies when a unit is rented to an intermediary such as a tour operator; the example assumes a direct or normal booking.",
+        "Does not apply to campsites, youth tourist accommodation units, rentals of six hours or less or of more than 31 consecutive days, or occasional rentals."
+      ],
+      "fx_rate_used_per_usd": 1.3995,
+      "sources": [
+        {
+          "url": "https://www.revenuquebec.ca/en/businesses/consumption-taxes/tax-on-lodging/calculating-and-collecting/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.revenuquebec.ca/en/businesses/consumption-taxes/tax-on-lodging/calculating-and-collecting/billing-the-3-5-tax-on-lodging/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.revenuquebec.ca/en/businesses/consumption-taxes/tax-on-lodging/establishments-subject-to-the-tax-on-lodging/",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "ca.quebec.tax-on-lodging",
+        "ca.quebec.gst-qst-on-lodging",
+        "ca.quebec.tax-on-lodging.exemptions"
+      ],
+      "checked": "2026-10-15"
+    },
+    {
+      "city": "Vancouver",
+      "country": "Canada",
+      "currency": "CAD",
+      "tax_name": "Municipal and Regional District Tax (MRDT) and Major Events MRDT",
+      "structure": "percent",
+      "rule_text": "In the City of Vancouver short-term accommodation carries 8% PST, 3% MRDT and a 2.5% Major Events MRDT (1 Feb 2023 to 31 Jan 2030); because the provincial taxes exceed 12%, 5% GST applies to the room price plus those taxes, about 19.2% in all.",
+      "general_tax_note": "8% PST (provincial sales tax) and 5% GST; in the City of Vancouver GST applies to the room price plus the provincial taxes, about 19.2% in all ($200 room = $238.35 in the province's example). BC does not use HST.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 46.1835,
+      "example_3n_2a_usd": 33.0,
+      "example_status": "computed",
+      "example_basis": "MRDT 3% + Major Events MRDT 2.5% = 5.5% of the room price x 3 nights (accommodation-specific taxes only; 8% PST and GST are in general_tax_note).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2023-02-01 (Major Events MRDT, to 2030-01-31)",
+      "changes_scheduled": null,
+      "caveats": [
+        "MRDT and PST are charged on the whole purchase price including added fees (resort, cleaning, destination marketing); neither applies once the same guest's continuous stay has exceeded 26 days."
+      ],
+      "fx_rate_used_per_usd": 1.3995,
+      "sources": [
+        {
+          "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/accommodation",
+          "kind": "official"
+        },
+        {
+          "url": "https://www2.gov.bc.ca/assets/gov/taxes/sales-taxes/publications/notice-2023-001-notice-to-vancouver-accommodation-providers.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "ca.bc.vancouver.hotel-tax",
+        "ca.bc.vancouver.hotel-tax.fees",
+        "ca.bc.accommodation-tax.27-days",
+        "ca.gst.bc-rate"
+      ],
+      "checked": "2026-10-15"
+    },
+    {
+      "city": "Whistler",
+      "country": "Canada",
+      "currency": "CAD",
+      "tax_name": "Municipal and Regional District Tax (MRDT)",
+      "structure": "percent",
+      "rule_text": "Whistler hotel rooms carry 8% PST and a 3% MRDT (the municipality describes the 3% as in addition to the 8% PST); GST (5%) is charged on the room price but not on the PST or MRDT outside the City of Vancouver, so about 16% of the room price in total.",
+      "general_tax_note": "8% PST (provincial sales tax) and 5% GST (BC does not use HST); GST is not charged on the PST or MRDT outside the City of Vancouver.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 25.191,
+      "example_3n_2a_usd": 18.0,
+      "example_status": "computed",
+      "example_basis": "3% MRDT of the room price x 3 nights (8% PST and 5% GST in general_tax_note).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "PST and MRDT apply to the whole purchase price including added fees such as resort fees, and are not charged once a guest's continuous stay has exceeded 26 days."
+      ],
+      "fx_rate_used_per_usd": 1.3995,
+      "sources": [
+        {
+          "url": "https://whistler.ca/municipal-gov/grants-funding/municipal-and-regional-district-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/accommodation",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "ca.bc.whistler.accommodation-tax",
+        "ca.bc.whistler.accommodation-tax.fees-27-days",
+        "ca.gst.bc-rate.whistler"
+      ],
+      "checked": "2026-10-25"
+    },
+    {
+      "city": "Richmond, BC",
+      "country": "Canada",
+      "currency": "CAD",
+      "tax_name": "Municipal and Regional District Tax (MRDT)",
+      "structure": "percent",
+      "rule_text": "The City of Richmond levies a 3% MRDT on accommodation, renewed for five years through to 2027; outside the City of Vancouver GST is not charged on PST or MRDT.",
+      "general_tax_note": "BC GST is 5% (BC does not use HST); 8% PST applies in British Columbia (see Vancouver ledger fact).",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 25.191,
+      "example_3n_2a_usd": 18.0,
+      "example_status": "computed",
+      "example_basis": "3% MRDT x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": "Renewed for five years through to 2027.",
+      "caveats": [
+        "Not a stay-guide city; included because the Vancouver ledger facts cover it."
+      ],
+      "fx_rate_used_per_usd": 1.3995,
+      "sources": [
+        {
+          "url": "https://www.richmond.ca/city-hall/news/city2022/taxboosttourism2022Mar16.htm",
+          "kind": "official"
+        },
+        {
+          "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/accommodation",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "ca.bc.richmond.mrdt",
+        "ca.gst.bc-rate"
+      ],
+      "checked": "2026-10-15"
+    },
+    {
+      "city": "New York",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "hotel room occupancy tax plus NYC room charge and NYS hotel unit fee",
+      "structure": "mixed",
+      "rule_text": "A hotel room in New York City carries the city's 5.875% hotel room occupancy tax, a city charge of $2 a room a night on rooms of $40 or more, and New York State's hotel unit fee of $1.50 a room a night (alongside 8.875% State and City sales tax: 14.75% plus $3.50 a room a night in all).",
+      "general_tax_note": "8.875% New York State and City sales tax.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 45.75,
+      "example_3n_2a_usd": 45.75,
+      "example_status": "computed",
+      "example_basis": "(5.875% x USD 200 + USD 2 + USD 1.50) x 3 nights; sales tax of 8.875% is general_tax_note.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://www.nyc.gov/site/finance/business/business-hotel-room-occupancy-tax.page",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/hotel_and_motel_occupancy.htm",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.nyc.hotel-tax"
+      ],
+      "checked": "2026-10-12"
+    },
+    {
+      "city": "Honolulu",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "transient accommodations tax (TAT), state and Oahu",
+      "structure": "percent",
+      "rule_text": "Hawaii's state transient accommodations tax (TAT) is 11% from 1 January 2026 to 31 December 2030 under Act 96 (2025), and the Oahu TAT (City and County of Honolulu) is 3% of gross rental, effective 14 December 2021, and may be passed on to the visitor.",
+      "general_tax_note": "General excise tax (GET) on lodging is 4% plus a 0.5% county surcharge (4.5% owed); the most a business may visibly pass on is 4.712%.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 84.0,
+      "example_3n_2a_usd": 84.0,
+      "example_status": "computed",
+      "example_basis": "11% state TAT + 3% Oahu TAT = 14% of the room rate x 3 nights; GET is general_tax_note.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2026-01-01 (state TAT 11%, to 2030-12-31)",
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://files.hawaii.gov/tax/news/announce/ann26-01.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://files.hawaii.gov/tax/news/pubs/25outline.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.honolulu.gov/bfs/wp-content/uploads/sites/62/2026/01/FAQ-Revise-01-2026-v2.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://files.hawaii.gov/tax/legal/taxfacts/tf2025-37-1.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://files.hawaii.gov/tax/geninfo/info/table-of-maximum-ge-pass-on-rates_sep2023.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.hawaii.tat-2026",
+        "us.honolulu.oahu-tat",
+        "us.honolulu.get-passon",
+        "us.honolulu.hotel-tax-example"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Los Angeles",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "transient occupancy tax (TOT)",
+      "structure": "percent",
+      "rule_text": "The City of Los Angeles transient occupancy tax is 14%, applicable to all properties rented to transients (stays of 30 days or less).",
+      "general_tax_note": null,
+      "other_charges_not_in_example": "Los Angeles Tourism Marketing District assessment: an initial 2% of gross short-term room revenue for hotels of 50 or more rooms, which the district may raise to a 3% maximum; passed on to guests it must be disclosed separately.",
+      "example_3n_2a": 84.0,
+      "example_3n_2a_usd": 84.0,
+      "example_status": "computed",
+      "example_basis": "14% of the room rate x 3 nights. The Tourism Marketing District assessment is not included (see other charges).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": "On 2 June 2026 voters rejected Proposition TT (raising the city hotel tax from 14% to 16% through 2028, then 15%); no change.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://finance.lacity.gov/transient-occupancy-tax-requirements",
+          "kind": "official"
+        },
+        {
+          "url": "https://cityclerk.lacity.org/onlinedocs/2014/14-0943-S3_misc_2_%202-12-25.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1100_misc_clk_certification_6-29-26.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1100-S3_misc_06-30-26.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.santamonica.gov/transient-occupancy-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.weho.org/city-government/city-departments/finance-and-technology-services/revenue-management/transient-occupancy-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.elsegundo.gov/government/departments/finance/business-services/transient-occupancy-tax-tot",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.la.tot-14",
+        "us.la.latmd-2pct",
+        "us.la.prop-tt-2026",
+        "us.la.hotel-tax-example"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Santa Monica",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "transient occupancy tax",
+      "structure": "percent",
+      "rule_text": "Santa Monica levies a 15% tax on hotel and motel rooms (from 1 March 2023); the 2026 Tourism Marketing District assessment is $2.30 a room night for hotels with an average daily rate of $100-$199.99, $6.25 for $200-$299.99 and $7.25 above $300.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": "Tourism Marketing District assessment of $6.25 a room night for hotels with an average daily rate of $200-$299.99 (not included in the example).",
+      "example_3n_2a": 90.0,
+      "example_3n_2a_usd": 90.0,
+      "example_status": "computed",
+      "example_basis": "15% of the room rate x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Not a stay-guide city of its own; included because the Los Angeles stay guide's ledger facts cover it."
+      ],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://www.santamonica.gov/transient-occupancy-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://finance.lacity.gov/transient-occupancy-tax-requirements",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.weho.org/city-government/city-departments/finance-and-technology-services/revenue-management/transient-occupancy-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.elsegundo.gov/government/departments/finance/business-services/transient-occupancy-tax-tot",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.santamonica.tot-15",
+        "us.la.hotel-tax-example"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "West Hollywood",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "transient occupancy tax",
+      "structure": "percent",
+      "rule_text": "West Hollywood's transient occupancy tax is 12.5% of hotel rent; hotels in the West Hollywood Tourism Improvement District also pay a 3% assessment that may be passed on to the guest.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": "3% West Hollywood Tourism Improvement District assessment may be passed on to the guest (not included in the example).",
+      "example_3n_2a": 75.0,
+      "example_3n_2a_usd": 75.0,
+      "example_status": "computed",
+      "example_basis": "12.5% of the room rate x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Not a stay-guide city of its own; included because the Los Angeles stay guide's ledger facts cover it."
+      ],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://www.weho.org/city-government/city-departments/finance-and-technology-services/revenue-management/transient-occupancy-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://finance.lacity.gov/transient-occupancy-tax-requirements",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.santamonica.gov/transient-occupancy-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.elsegundo.gov/government/departments/finance/business-services/transient-occupancy-tax-tot",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.weho.tot-12-5",
+        "us.la.hotel-tax-example"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "El Segundo",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "transient occupancy tax",
+      "structure": "percent",
+      "rule_text": "El Segundo's transient occupancy tax is 12%, applicable to all properties rented to transients.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 72.0,
+      "example_3n_2a_usd": 72.0,
+      "example_status": "computed",
+      "example_basis": "12% of the room rate x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Not a stay-guide city of its own; included because the Los Angeles stay guide's ledger facts cover it."
+      ],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://www.elsegundo.gov/government/departments/finance/business-services/transient-occupancy-tax-tot",
+          "kind": "official"
+        },
+        {
+          "url": "https://finance.lacity.gov/transient-occupancy-tax-requirements",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.santamonica.gov/transient-occupancy-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.weho.org/city-government/city-departments/finance-and-technology-services/revenue-management/transient-occupancy-tax",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.elsegundo.tot-12",
+        "us.la.hotel-tax-example"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "Las Vegas",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "transient lodging (room) tax",
+      "structure": "percent",
+      "rule_text": "The City of Las Vegas states a combined transient lodging (room) tax of 13.38% for properties inside the Primary Gaming Corridor and 13% for properties outside it.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the rate depends on whether the property is inside the Primary Gaming Corridor (13.38%) or outside it (13%), and the example does not specify the property's location.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "schedule effective 2017-03-01 (guide revised March 2026)",
+      "changes_scheduled": null,
+      "caveats": [
+        "Room tax should be collected from the guest and shown as a separate charge, not included in the room price."
+      ],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://files.lasvegasnevada.gov/business-licensing/RoomTaxPacket.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.clarkcountynv.gov/business/doing_business_with_clark_county/transient-lodging-tax-rate-increases",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/05/ftc-rule-unfair-or-deceptive-fees-take-effect-may-12-2025",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.lv.room-tax",
+        "us.lv.room-tax-stadium",
+        "us.lv.room-tax-separate",
+        "us.lv.ftc-fees-rule"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "San Francisco",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "transient occupancy tax (hotel tax)",
+      "structure": "percent",
+      "rule_text": "San Francisco imposes a 14% transient occupancy tax (the hotel tax) on the rental of accommodations for stays of less than 30 days.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": "Tourism Improvement District assessment (2.25% of gross room revenue in Zone 1, 2.00% in Zone 2) and Moscone Expansion District assessment (1.25% in Zone 1, 0.3125% in Zone 2); the Treasurer's 2013 notice says neither may be included in the TOT billed to the guest, and the TID may be passed on as a separate item on hotel folios.",
+      "example_3n_2a": 84.0,
+      "example_3n_2a_usd": 84.0,
+      "example_status": "computed",
+      "example_basis": "14% of the room rate x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://sftreasurer.org/tot",
+          "kind": "official"
+        },
+        {
+          "url": "https://sftreasurer.org/media/836/download",
+          "kind": "official"
+        },
+        {
+          "url": "https://sftreasurer.org/media/16/download",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.sf.tot-14",
+        "us.sf.tid-rates",
+        "us.sf.med-rates"
+      ],
+      "checked": "2026-10-19"
+    },
+    {
+      "city": "San Diego",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "transient occupancy tax (TOT)",
+      "structure": "percent",
+      "rule_text": "From 1 May 2025 the City of San Diego transient occupancy tax is 11.75% in Tax Zone 1, 12.75% in Tax Zone 2 and 13.75% in Tax Zone 3, applied to stays of less than one month.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": "Tourism Marketing District assessment of 2.00% for lodging businesses with 70 or more rooms, which the operator may elect to pass on to the guest.",
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the rate depends on the hotel's tax zone (11.75%, 12.75% or 13.75%) and the example does not specify the property's address.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2025-05-01",
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://www.sandiego.gov/treasurer/taxesfees/tot",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.sandiego.gov/sites/default/files/2025-06/citizen-initiative-faq-june-2025_1.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://sandiego.gov/sites/default/files/2025-03/2025-3-20-city-of-san-diego-hotel-room-tax-to-increase-starting-may-1.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://docs.sandiego.gov/municode/MuniCodeChapter03/Ch03Art05Division02.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.hoteldel.com/stay/reservation-policies/",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.sandiego.tot-zones",
+        "us.sandiego.tmd-2",
+        "us.sandiego.tax-zone-boundaries",
+        "us.sandiego.coronado-11"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Miami (mainland)",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "Convention Development, Tourist Development and Professional Sports Facilities taxes",
+      "structure": "percent",
+      "rule_text": "Miami-Dade County says transient rentals carry 6% in total beyond state sales tax: 3% Convention Development Tax (county-wide except Surfside and Bal Harbour), 2% Tourist Development Tax and 1% Professional Sports Facilities Franchise Tax (both county-wide except Surfside, Bal Harbour and Miami Beach).",
+      "general_tax_note": "Florida levies a 6% tax on the total rental charged for hotel and similar accommodation, plus Miami-Dade's 1% discretionary sales surtax for calendar year 2026 (so mainland Miami totals 13% in the ledger's arithmetic).",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 36.0,
+      "example_3n_2a_usd": 36.0,
+      "example_status": "computed",
+      "example_basis": "3% + 2% + 1% = 6% of the room rate x 3 nights (mainland Miami: Brickell, Wynwood, Coconut Grove, Coral Gables); 6% state sales tax and 1% surtax are in general_tax_note.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1499797928395868",
+          "kind": "official"
+        },
+        {
+          "url": "https://edr.state.fl.us/content/local-government/data/county-municipal/2026LOTTrates.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0212/Sections/0212.03.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://floridarevenue.com/taxes/taxesfees/Pages/discretionary.aspx",
+          "kind": "official"
+        },
+        {
+          "url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+          "kind": "official"
+        },
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15dss_26.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.miamibeachfl.gov/city-hall/finance/filepay-resort-tax/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.faena.com/hotel-policies",
+          "kind": "operator"
+        },
+        {
+          "url": "https://freehandhotels.com/miami/faqs/",
+          "kind": "operator"
+        },
+        {
+          "url": "https://www.easthotels.com/en/Miami/hotel-policies/",
+          "kind": "operator"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.miami.tax-county",
+        "us.miami.tax-state",
+        "us.miami.tax-surtax",
+        "us.miami.tax-combined"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Miami Beach",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "Convention Development Tax and Miami Beach resort tax",
+      "structure": "percent",
+      "rule_text": "The City of Miami Beach levies a 4% resort tax on the rent of a room in any hotel, motel, rooming house or apartment house; Miami-Dade County lists the same 4% on top of the 3% Convention Development Tax for Miami Beach facilities.",
+      "general_tax_note": "Florida levies a 6% tax on the total rental charged for hotel and similar accommodation, plus Miami-Dade's 1% discretionary sales surtax for calendar year 2026 (so Miami Beach totals 14% in the ledger's arithmetic).",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 42.0,
+      "example_3n_2a_usd": 42.0,
+      "example_status": "computed",
+      "example_basis": "3% Convention Development Tax + 4% resort tax = 7% of the room rate x 3 nights; state sales tax and surtax are in general_tax_note.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Not a stay-guide city of its own; included because the Miami stay guide's ledger facts cover it."
+      ],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://www.miamibeachfl.gov/city-hall/finance/filepay-resort-tax/",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1499797928395868",
+          "kind": "official"
+        },
+        {
+          "url": "https://edr.state.fl.us/content/local-government/data/county-municipal/2026LOTTrates.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0200-0299/0212/Sections/0212.03.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://floridarevenue.com/taxes/taxesfees/Pages/discretionary.aspx",
+          "kind": "official"
+        },
+        {
+          "url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+          "kind": "official"
+        },
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15dss_26.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.faena.com/hotel-policies",
+          "kind": "operator"
+        },
+        {
+          "url": "https://freehandhotels.com/miami/faqs/",
+          "kind": "operator"
+        },
+        {
+          "url": "https://www.easthotels.com/en/Miami/hotel-policies/",
+          "kind": "operator"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.miami.tax-miamibeach",
+        "us.miami.tax-county",
+        "us.miami.tax-state",
+        "us.miami.tax-surtax",
+        "us.miami.tax-combined"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Orlando",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "Tourist Development Tax",
+      "structure": "percent",
+      "rule_text": "Orange County's Tourist Development Tax is 6% of the lodging bill, on hotel stays and short-term rentals of less than six months, collected by the county; Osceola County's is also 6% (since 1 July 2004).",
+      "general_tax_note": "Florida applies its 6% state sales tax to transient rentals, plus a discretionary sales surtax of 0.5% in Orange County or 1.5% in Osceola County (12.5% and 13.5% in total with the Tourist Development Tax in the ledger's arithmetic).",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 36.0,
+      "example_3n_2a_usd": 36.0,
+      "example_status": "computed",
+      "example_basis": "6% of the room rate x 3 nights (same in Orange and Osceola counties).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://www.ocfl.net/EconomicDevelopment/TDTCitizenAdvisoryTaskForce.aspx",
+          "kind": "official"
+        },
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15tdt.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://osceolataxcollector.org/tourist-development-taxtes/",
+          "kind": "official"
+        },
+        {
+          "url": "https://floridarevenue.com/taxes/taxesfees/Pages/discretionary.aspx",
+          "kind": "official"
+        },
+        {
+          "url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+          "kind": "official"
+        },
+        {
+          "url": "https://floridarevenue.com/Forms_library/current/dr15dss.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/05/ftc-rule-unfair-or-deceptive-fees-take-effect-may-12-2025",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.orl.tdt-orange",
+        "us.orl.tdt-osceola",
+        "us.orl.state-sales-tax",
+        "us.orl.surtax-orange",
+        "us.orl.surtax-osceola",
+        "us.orl.combined-rate",
+        "us.orl.ftc-fees-rule"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Chicago",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "hotel taxes (State, ISFA, Municipal, MPEA, City and Cook County), advised combined rate",
+      "structure": "percent",
+      "rule_text": "The Illinois Department of Revenue's general information letter ST 23-0028-GIL (30 August 2023, non-binding) says Chicago hotels are advised to collect a total tax rate of 17.4%: 11.9% collected by the department, 4.5% by the City and 1% by Cook County.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": "From 1 May 2026 a 1.5% Chicago Tourism Improvement District transaction charge applies to hotels of 100 rooms or more in listed ZIP codes; levied on the hotel, which may pass it on if disclosed in advance.",
+      "example_3n_2a": 104.4,
+      "example_3n_2a_usd": 104.4,
+      "example_status": "computed",
+      "example_basis": "17.4% of the room rate x 3 nights (the ledger's advised combined rate; the state, municipal and ISFA taxes each include the other two in their base, so the components are not simply additive).",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "City base rate 4.5% effective 2026-05-01",
+      "changes_scheduled": null,
+      "caveats": [
+        "The 17.4% comes from a non-binding Illinois Department of Revenue letter; the nominal component rates sum to 11.5% + 4.5% + 1%.",
+        "Ledger components are stated as percentages of percentages of gross receipts (for example 6 percent of 94 percent), so the combined rate is the department's advised figure."
+      ],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://tax.illinois.gov/content/dam/soi/en/web/taxarchive/research/legal/letter-rulings/sales-tax/2023/st23-0028-gil.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://tax.illinois.gov/research/taxrates/excise.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://tax.illinois.gov/research/publications/pubs/hotel-operators-occupation-tax.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://tax.illinois.gov/research/taxinformation/excise/sports.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.chicago.gov/city/en/depts/fin/supp_info/revenue/tax_list/hotel_accommodationstax.html",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/service/hotel-accommodations-tax-regulation-2016-1-subject-definition-permanent-resident.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/service/hotelschedulea.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://cdn.choosechicago.com/uploads/2026/04/City_of_Chicago_Department_of_Finance_TID_Informational_Points-April-2026.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.chicago.tax-combined",
+        "us.chicago.tax-state-hoot",
+        "us.chicago.tax-municipal",
+        "us.chicago.tax-isfa",
+        "us.chicago.tax-mpea",
+        "us.chicago.tax-city",
+        "us.chicago.tax-county",
+        "us.chicago.tax-tid",
+        "us.chicago.tax-example"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Boston",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "room occupancy excise (state, local option and convention center funding tax)",
+      "structure": "percent",
+      "rule_text": "Massachusetts' Department of Revenue states a state room occupancy excise rate of 5.7%, a local option excise of up to 6% (6.5% for Boston), and an additional 2.75% convention center funding tax in Boston, Worcester, Cambridge, Springfield, West Springfield and Chicopee.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 89.7,
+      "example_3n_2a_usd": 89.7,
+      "example_status": "computed",
+      "example_basis": "5.7% + 6.5% + 2.75% = 14.95% of the room rate x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "No separate per-night city charge appears on the pages read."
+      ],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://www.mass.gov/info-details/room-occupancy-excise-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.mass.gov/local-option-excise-taxes",
+          "kind": "official"
+        },
+        {
+          "url": "https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=LocalOptions.Room_Tax_Impact_Fee",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.boston.tax-rates",
+        "us.boston.tax-combined"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Cambridge, MA",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "room occupancy excise (state, local option and convention center funding tax)",
+      "structure": "percent",
+      "rule_text": "Cambridge's local option room excise is 6.00% (DLS table), plus the 5.7% state excise and the 2.75% convention center funding tax, which the ledger's arithmetic makes 14.45%.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 86.7,
+      "example_3n_2a_usd": 86.7,
+      "example_status": "computed",
+      "example_basis": "5.7% + 6.0% + 2.75% = 14.45% of the room rate x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Not a stay-guide city of its own; included because the Boston stay guide's ledger facts cover it."
+      ],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=LocalOptions.Room_Tax_Impact_Fee",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.mass.gov/info-details/room-occupancy-excise-tax",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.mass.gov/local-option-excise-taxes",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.cambridge.tax-combined",
+        "us.boston.tax-rates"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Washington, DC",
+      "country": "United States",
+      "currency": "USD",
+      "tax_name": "sales and use tax on transient accommodations",
+      "structure": "percent",
+      "rule_text": "DC's Office of Tax and Revenue lists the sales and use tax rate on rooms, lodgings or accommodations as 15.95%; its notice raised the transient-accommodations rate from 14.95% to 15.95% for April 1, 2023 through March 30, 2027.",
+      "general_tax_note": "DC's general sales tax rate remains 6% through September 30, 2027 (site banner); rooms carry the separate 15.95% rate above.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 95.7,
+      "example_3n_2a_usd": 95.7,
+      "example_status": "computed",
+      "example_basis": "15.95% of the room rate x 3 nights.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": "2023-04-01 (15.95%, through 2027-03-30)",
+      "changes_scheduled": "The 15.95% rate is stated for April 1, 2023 through March 30, 2027; the ledger does not state the rate after that date.",
+      "caveats": [
+        "No separate per-night city charge appears on the OTR pages read."
+      ],
+      "fx_rate_used_per_usd": 1.0,
+      "sources": [
+        {
+          "url": "https://otr.cfo.dc.gov/release/otr-tax-notice-2023-01-sales-and-use-tax-rate-increase-transient-accommodations",
+          "kind": "official"
+        },
+        {
+          "url": "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "us.dc.tax-hotel-rate",
+        "us.dc.tax-example"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Cancun",
+      "country": "Mexico",
+      "currency": "MXN",
+      "tax_name": "Impuesto al Hospedaje (Quintana Roo lodging tax)",
+      "structure": "percent",
+      "rule_text": "Quintana Roo's lodging tax (Ley del Impuesto al Hospedaje, art. 8) is 5% of the invoiced value of lodging at hotels and similar establishments, and 6% for apartments, houses and private villas; the guest who pays for the lodging is the taxpayer (art. 7).",
+      "general_tax_note": "Mexico's general IVA rate is 16% (Ley del IVA, art. 1), applied to the values the law sets, and the IVA is never part of those values.",
+      "other_charges_not_in_example": "Visitax, a Quintana Roo fee mandatory for all foreign tourists with no adult or child rate: the state government said in December 2025 it stays at 285 pesos in 2026 (receipts on the portal in January 2026 reportedly showed 283 pesos); not an accommodation tax.",
+      "example_3n_2a": 563.469,
+      "example_3n_2a_usd": 30.0,
+      "example_status": "computed",
+      "example_basis": "5% hotel rate of the invoiced lodging value x 3 nights. The ledger states the tax is never part of the value of lodging but does not state whether IVA is in the invoiced value.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Packages with food and other services: the base is the lodging element, and at least 60% of the invoice total if the invoice does not itemise.",
+        "The apartments, houses and villas rate is 6% (ledger); the example uses the 5% hotel rate."
+      ],
+      "fx_rate_used_per_usd": 18.7823,
+      "sources": [
+        {
+          "url": "https://documentos.congresoqroo.gob.mx/leyes/L187-XVII-20221223-L1720221223030.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://documentos.congresoqroo.gob.mx/diariodedebates/DD-XVIII-2025-12-15-1242-sesion-no-34.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf_mov/Ley_del_Impuesto_al_Valor_Agregado.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitax.gob.mx/sitio/",
+          "kind": "official"
+        },
+        {
+          "url": "https://cgc.qroo.gob.mx/visitax-en-quintana-roo-de-la-mano-de-empresarios-busca-mantener-la-competitividad-del-caribe-mexicano/",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "mx.cancun.lodging-tax",
+        "mx.cancun.lodging-tax-rules",
+        "mx.iva-rate",
+        "mx.cancun.visitax"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Tulum",
+      "country": "Mexico",
+      "currency": "MXN",
+      "tax_name": "Impuesto al Hospedaje (Quintana Roo lodging tax)",
+      "structure": "percent",
+      "rule_text": "Quintana Roo's lodging tax (Ley del Impuesto al Hospedaje, art. 8) is 5% of the invoiced value of lodging at hotels and similar establishments, and 6% for apartments, houses and private villas; the guest who pays for the lodging is the taxpayer (art. 7).",
+      "general_tax_note": "Mexico's general IVA rate is 16% (Ley del IVA, art. 1), applied to the values the law sets, and the IVA is never part of those values.",
+      "other_charges_not_in_example": "Visitax, a Quintana Roo fee mandatory for all foreign tourists with no adult or child rate: the state government said in December 2025 it stays at 285 pesos in 2026 (receipts on the portal in January 2026 reportedly showed 283 pesos); not an accommodation tax.",
+      "example_3n_2a": 563.469,
+      "example_3n_2a_usd": 30.0,
+      "example_status": "computed",
+      "example_basis": "5% hotel rate of the invoiced lodging value x 3 nights. The ledger states the tax is never part of the value of lodging but does not state whether IVA is in the invoiced value.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "Packages with food and other services: the base is the lodging element, and at least 60% of the invoice total if the invoice does not itemise.",
+        "The apartments, houses and villas rate is 6% (ledger); the example uses the 5% hotel rate."
+      ],
+      "fx_rate_used_per_usd": 18.7823,
+      "sources": [
+        {
+          "url": "https://documentos.congresoqroo.gob.mx/leyes/L187-XVII-20221223-L1720221223030.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf_mov/Ley_del_Impuesto_al_Valor_Agregado.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.visitax.gob.mx/sitio/",
+          "kind": "official"
+        },
+        {
+          "url": "https://cgc.qroo.gob.mx/visitax-en-quintana-roo-de-la-mano-de-empresarios-busca-mantener-la-competitividad-del-caribe-mexicano/",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "mx.tulum.lodging-tax",
+        "mx.tulum.lodging-tax-rules",
+        "mx.iva-rate",
+        "mx.tulum.visitax"
+      ],
+      "checked": "2026-10-21"
+    },
+    {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "currency": "MXN",
+      "tax_name": "lodging tax (Código Fiscal arts. 162-164)",
+      "structure": "percent",
+      "rule_text": "Mexico City's Código Fiscal (arts. 162 to 164) taxes lodging: hotels, hostels and motels apply 3.5% to the total value of the lodging consideration (art. 164); where an intermediary collects payment for flats and houses the rate is 5%; the provider is the taxpayer but must pass the tax on to the guest (art. 162).",
+      "general_tax_note": "Mexico's general IVA rate is 16% (Ley del IVA, art. 1), applied to the values the law sets, and the IVA is never part of those values.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": 394.4283,
+      "example_3n_2a_usd": 21.0,
+      "example_status": "computed",
+      "example_basis": "3.5% of the lodging consideration (hotel rate) x 3 nights. The ledger does not state whether IVA is in the consideration; the base includes deposits, advances and other concepts.",
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "The ledger could not load a consolidated 2026 text of arts. 162-164; the December 2025 decree did not amend them.",
+        "If lodging is bundled with accessory services the provider does not itemise and prove, the whole value is treated as lodging."
+      ],
+      "fx_rate_used_per_usd": 18.7823,
+      "sources": [
+        {
+          "url": "https://transparencia.finanzas.cdmx.gob.mx/repositorio/public/upload/repositorio/Tesoreria/123/b/Criterio_9/123_XV_Impuesto_por_la_prestacion_de_servicios_de_hospedaje_2024.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://data.consejeria.cdmx.gob.mx/portal_old/uploads/gacetas/bbd22f0b2fab730aa4dc56e3e207b4c1.pdf",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf_mov/Ley_del_Impuesto_al_Valor_Agregado.pdf",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "mx.cdmx.lodging-tax",
+        "mx.cdmx.lodging-tax-base",
+        "mx.iva-rate"
+      ],
+      "checked": "2026-10-20"
+    },
+    {
+      "city": "Rovaniemi",
+      "country": "Finland",
+      "currency": "EUR",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "The ledger lists only Finland's reduced VAT rate on accommodation; no accommodation-specific tax is stated.",
+      "general_tax_note": "Finland's reduced VAT rate, which covers accommodation (hotels, motels, hostels, farm stays, camping sites and cottage rental), restaurant services and passenger transport, is 13.5% from 1 January 2026; it was 14% up to 31 December 2025.",
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger has VAT only; no accommodation-specific tax fact",
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "No plain 'where-to-stay-in-rovaniemi' page exists; the stay guide is the Christmas variant, so Rovaniemi is included as the only Rovaniemi page."
+      ],
+      "fx_rate_used_per_usd": 0.89342,
+      "sources": [
+        {
+          "url": "https://www.vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/rates-of-vat/",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [],
+      "fact_ids": [
+        "fi.vat.accommodation-rate"
+      ],
+      "checked": "2026-10-22"
+    },
+    {
+      "city": "Sydney",
+      "country": "Australia",
+      "currency": "AUD",
+      "tax_name": "unknown (no ledger fact)",
+      "structure": "unknown",
+      "rule_text": "The ledger has no tax fact for Australia.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the ledger has no tax-topic fact for Australia, so neither an accommodation tax nor a GST rule can be stated or computed.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.424,
+      "sources": [],
+      "other_sources": [],
+      "fact_ids": [],
+      "checked": null
+    },
+    {
+      "city": "Melbourne",
+      "country": "Australia",
+      "currency": "AUD",
+      "tax_name": "unknown (no ledger fact)",
+      "structure": "unknown",
+      "rule_text": "The ledger has no tax fact for Australia.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the ledger has no tax-topic fact for Australia, so neither an accommodation tax nor a GST rule can be stated or computed.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.424,
+      "sources": [],
+      "other_sources": [],
+      "fact_ids": [],
+      "checked": null
+    },
+    {
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "currency": "BRL",
+      "tax_name": "unknown (no ledger fact)",
+      "structure": "unknown",
+      "rule_text": "The ledger has no tax-topic fact for Brazil.",
+      "general_tax_note": null,
+      "other_charges_not_in_example": null,
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "ambiguous: the ledger has no tax-topic fact for Brazil, so neither an accommodation tax nor a VAT-equivalent rule can be stated or computed.",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": null,
+      "effective_from": null,
+      "changes_scheduled": null,
+      "caveats": [
+        "No plain 'where-to-stay-in-rio' page exists; the stay guide is the Carnival variant, so Rio is included as the only Rio page."
+      ],
+      "fx_rate_used_per_usd": 5.0465,
+      "sources": [],
+      "other_sources": [],
+      "fact_ids": [],
+      "checked": null
+    },
+    {
+      "city": "Queenstown",
+      "country": "New Zealand",
+      "currency": "NZD",
+      "tax_name": "none",
+      "structure": "none",
+      "rule_text": "Queenstown Lakes District Council has proposed a levy on short-term visitor accommodation; the project is listed as on hold, it has not been introduced and nothing is charged on hotel bills in October 2026.",
+      "general_tax_note": "New Zealand's GST rate is 15% on most taxable supplies; for a GST-inclusive price the GST is 3/23 of the price (NZ$13.04 of NZ$100).",
+      "other_charges_not_in_example": "International Visitor Conservation and Tourism Levy: NZ$100 a person for most international visitors, paid when applying for a visa or NZeTA (not a hotel charge).",
+      "example_3n_2a": null,
+      "example_3n_2a_usd": null,
+      "example_status": "none",
+      "example_basis": null,
+      "example_alt": null,
+      "example_after_change": null,
+      "none_basis": "ledger states nothing is charged in October 2026 (levy proposed, on hold)",
+      "effective_from": null,
+      "changes_scheduled": "Proposed levy on hold; in August 2026 the National Party said it would not introduce a bed-night levy. No rate or date.",
+      "caveats": [],
+      "fx_rate_used_per_usd": 1.7584,
+      "sources": [
+        {
+          "url": "https://www.qldc.govt.nz/your-council/council-projects/proposed-visitor-levy",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ird.govt.nz/gst",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.ird.govt.nz/gst/charging-gst",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism/tourism-funding/international-visitor-conservation-and-tourism-levy",
+          "kind": "official"
+        }
+      ],
+      "other_sources": [
+        {
+          "url": "https://www.1news.co.nz/2026/08/24/queenstown-mayor-says-nationals-bed-tax-u-turn-policy-made-in-panic/",
+          "kind": "news"
+        }
+      ],
+      "fact_ids": [
+        "nz.queenstown.visitor-levy",
+        "nz.gst.rate",
+        "nz.ivl"
+      ],
+      "checked": "2026-10-22"
+    }
+  ]
+}
