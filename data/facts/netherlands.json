@@ -530,6 +530,31 @@
           "dorms sleep up to 14, and check-out is by 10am"
         ]
       }
+    },
+    {
+      "id": "nl.amsterdam.tourist-tax-plan-2031",
+      "topic": "tax",
+      "claim": "The PRO and D66 coalition agreement (June 2026) plans to raise Amsterdam's tourist tax from 12.5% to 16% in 2027 and then by one point a year to 20% in 2031; as of October 2026 we found no council decision adopting it.",
+      "checked": "2026-10-27",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://nos.nl/artikel/2627947-amsterdam-heeft-straks-bijna-de-hoogste-toeristenbelasting-ter-wereld",
+          "kind": "news",
+          "title": "NOS, 23 August 2026: Amsterdam heeft straks bijna de hoogste toeristenbelasting ter wereld"
+        },
+        {
+          "url": "https://www.dutchnews.nl/2026/06/amsterdam-to-hike-tourist-tax-to-20-close-sea-cruise-terminal/",
+          "kind": "news",
+          "title": "DutchNews, June 2026: Amsterdam to hike tourist tax to 20%"
+        }
+      ],
+      "used_in": {
+        "articles/tourist-taxes-around-the-world-2026-data.html": [
+          "plans to raise Amsterdam's tourist tax from 12.5% to 16% in 2027"
+        ]
+      },
+      "note": "A coalition plan, not law: recheck for a council decision (gemeenteraad) before quoting as settled."
     }
   ]
 }

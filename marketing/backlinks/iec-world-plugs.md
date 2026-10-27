@@ -35,8 +35,7 @@ Each row notes where other references disagree, and the data is free to reuse as
 
 Either way, the old link is worth updating.
 
-Casey
-Editor, Gently Yonder
+The Gently Yonder editors
 
 ## Rules
 - Up to 5 messages a week, each to a page checked by hand. No mail merge, no follow-up
