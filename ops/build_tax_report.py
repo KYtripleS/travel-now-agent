@@ -16,6 +16,7 @@ REPO = Path(__file__).resolve().parent.parent
 DATA = json.loads((REPO / "data" / "tourist_taxes_2026.json").read_text())
 SLUG = "tourist-taxes-around-the-world-2026-data"
 CSV_NAME = "tourist-taxes-2026.csv"
+PUBLISHED = date(2026, 10, 27)  # first publication; the citation keeps it
 STAY = {p.stem.removeprefix("where-to-stay-in-"): p.name for p in (REPO / "site" / "articles").glob("where-to-stay-in-*.html")}
 LABEL = {"percent": "Percentage of the room price", "flat_per_person_night": "Flat, per person per night",
          "flat_per_room_night": "Flat, per room per night", "tiered_by_rate": "Bands by room price",
@@ -64,7 +65,8 @@ def main() -> None:
             w = csv.writer(fh)
             w.writerow(cols)
             for r in rows:
-                w.writerow([r[c] if c != "sources" else " ".join(s["url"] for s in r["sources"]) for c in cols])
+                w.writerow([r[c] if c != "sources" else " ".join(s["url"] for s in (r["sources"] or r["other_sources"]))
+                            for c in cols])
 
     top = computed[:5]
     L = []
@@ -93,7 +95,8 @@ def main() -> None:
     L.append("")
     L.append("## How to cite this data")
     L.append("")
-    L.append(f"Gently Yonder, *Tourist taxes around the world 2026* (published {today.strftime('%-d %B %Y')}), "
+    updated = "" if today == PUBLISHED else f", updated {today.strftime('%-d %B %Y')}"
+    L.append(f"Gently Yonder, *Tourist taxes around the world 2026* (published {PUBLISHED.strftime('%-d %B %Y')}{updated}), "
              f"https://gentlyyonder.com/articles/{SLUG}.html")
     L.append("")
     L.append(f"Download the full dataset as a spreadsheet: [{CSV_NAME}](../data/{CSV_NAME}) "
@@ -156,9 +159,11 @@ def main() -> None:
             elif r["example_status"].startswith("ambiguous"):
                 L.append("")
                 L.append(f"*Example stay:* not computed: {r['example_status'].removeprefix('ambiguous: ')}")
-            src = " · ".join(f"[{i + 1}]({s['url']})" for i, s in enumerate(r["sources"][:3]))
+            # a row with no official source (a negative finding from reporting) says so
+            shown, label = (r["sources"], "Official sources") if r["sources"] else (r["other_sources"], "Sources (news reporting)")
+            src = " · ".join(f"[{i + 1}]({s['url']})" for i, s in enumerate(shown[:3]))
             L.append("")
-            L.append(f"*Official sources:* {src}. Checked {date.fromisoformat(r['checked']).strftime('%-d %B %Y')}."
+            L.append(f"*{label}:* {src}. Checked {date.fromisoformat(r['checked']).strftime('%-d %B %Y')}."
                      + (f" Our guide: {city_link(r)}." if city_link(r) != r["city"] else ""))
             L.append("")
     L.append("## Sources & further reading")

@@ -2512,7 +2512,7 @@ STAY_POINTERS = {
     "hotel-taxes-around-the-world-2026": [
         ("intro",
          'Want the numbers in one table? <a href="tourist-taxes-around-the-world-2026-data.html">Tourist taxes '
-         'around the world 2026</a> lists 81 cities with each rule, what it adds to the same 3-night stay and the '
+         'around the world 2026</a> lists 85 cities with each rule, what it adds to the same 3-night stay and the '
          'official source, with a spreadsheet to download.'),
         ("Japan: a new tax",
          'Two ski towns add their own: <a href="where-to-stay-in-niseko.html">Niseko accommodation for 2026/27</a> '

@@ -213,12 +213,12 @@
       },
       "sources": [
         {
-          "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000345893.html",
+          "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000236942.html",
           "kind": "official",
-          "title": "Kyoto City: accommodation tax from 1 March 2026"
+          "title": "Kyoto City: accommodation tax"
         }
       ],
-      "checked": "2026-10-05",
+      "checked": "2026-10-28",
       "used_in": {
         "articles/where-to-stay-in-kyoto-cherry-blossom.html": [
           "Since 1 March 2026",
@@ -1061,7 +1061,7 @@
           "title": "Sapporo City: accommodation tax"
         }
       ],
-      "checked": "2026-10-06",
+      "checked": "2026-10-28",
       "used_in": {
         "articles/where-to-stay-in-sapporo-snow-festival.html": [
           "together ¥300 a person a night on rooms under ¥20,000, ¥400 from ¥20,000 and ¥1,000 from ¥50,000"
@@ -1394,7 +1394,7 @@
           "title": "Yokanavi (Fukuoka City): accommodation tax"
         }
       ],
-      "checked": "2026-10-06",
+      "checked": "2026-10-28",
       "used_in": {
         "articles/where-to-stay-in-fukuoka.html": [
           "¥200 a person a night",
@@ -2231,7 +2231,7 @@
           "title": "Osaka Prefecture: changes to the accommodation tax"
         }
       ],
-      "checked": "2026-10-07",
+      "checked": "2026-10-28",
       "used_in": {
         "articles/where-to-stay-for-universal-studios-japan.html": [
           "Since 1 September 2025 Osaka Prefecture's accommodation tax is ¥200"
@@ -2307,7 +2307,7 @@
           "title": "Hakuba Village: accommodation tax"
         }
       ],
-      "checked": "2026-10-08",
+      "checked": "2026-10-28",
       "used_in": {
         "articles/where-to-stay-in-hakuba.html": [
           "Up to ¥1,900 a person a night in Hakuba Village",
@@ -3096,7 +3096,7 @@
       "id": "jp.kanazawa.accommodation-tax",
       "topic": "tax",
       "claim": "Kanazawa City's accommodation tax is ¥200 per person per night for a room charge of ¥5,000 to under ¥20,000 and ¥500 from ¥20,000, measured before consumption tax; stays under ¥5,000 per person per night are exempt (exemption in force since 1 October 2024; tax introduced April 2019). The ordinance and city page show no later change as of 2026-10-20.",
-      "checked": "2026-10-20",
+      "checked": "2026-10-28",
       "sources": [
         {
           "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminzeika/gyomuannai/1/4/28700.html",
@@ -3120,8 +3120,8 @@
     {
       "id": "jp.kanazawa.accommodation-tax.base",
       "topic": "tax",
-      "claim": "The taxable room charge is the room-only price with service charge, excluding meals, consumption tax and the bathing tax; the tax applies to all guests regardless of age and to hotels, ryokan, simple lodgings and registered home-share (minpaku) rentals; it is paid to the property with the room charge, which remits it to the city.",
-      "checked": "2026-10-20",
+      "claim": "The band is set by the charge per person per night; the taxable room charge is the room-only price with service charge, excluding meals, consumption tax and the bathing tax; the tax applies to all guests regardless of age and to hotels, ryokan, simple lodgings and registered home-share (minpaku) rentals; it is paid to the property with the room charge, which remits it to the city.",
+      "checked": "2026-10-28",
       "sources": [
         {
           "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/shiminzeika/gyomuannai/1/4/4327.html",
@@ -4579,6 +4579,118 @@
         ]
       },
       "recheck_days": 90
+    },
+    {
+      "id": "jp.kyoto.accommodation-tax.base",
+      "topic": "tax",
+      "claim": "Kyoto City sets the band by the charge per guest per night, the room-only price with service charge, excluding meals and consumption tax.",
+      "sources": [
+        {
+          "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000236942.html",
+          "kind": "official",
+          "title": "Kyoto City: accommodation tax"
+        }
+      ],
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "jp.osaka.accommodation-tax.base",
+      "topic": "tax",
+      "claim": "Osaka Prefecture sets the band by the accommodation charge per person per night.",
+      "sources": [
+        {
+          "url": "https://www.pref.osaka.lg.jp/o050040/zei/alacarte/shukuhakuzei-kaisei.html",
+          "kind": "official",
+          "title": "Osaka Prefecture: changes to the accommodation tax"
+        }
+      ],
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "jp.sapporo.accommodation-tax.base",
+      "topic": "tax",
+      "claim": "Sapporo City and Hokkaido charge per guest per night, by the accommodation charge band.",
+      "sources": [
+        {
+          "url": "https://www.city.sapporo.jp/citytax/shukuhakuzei/index.html",
+          "kind": "official",
+          "title": "Sapporo City: accommodation tax"
+        }
+      ],
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "jp.fukuoka.accommodation-tax.base",
+      "topic": "tax",
+      "claim": "Fukuoka's accommodation tax is charged per guest per night, by the accommodation charge band.",
+      "sources": [
+        {
+          "url": "https://www.pref.fukuoka.lg.jp/contents/syukuhakuzei.html",
+          "kind": "official",
+          "title": "Fukuoka Prefecture: accommodation tax"
+        }
+      ],
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "jp.hakuba.accommodation-tax.base",
+      "topic": "tax",
+      "claim": "Hakuba Village sets the band by the room-only price per person per night, before consumption tax.",
+      "sources": [
+        {
+          "url": "https://www.vill.hakuba.lg.jp/gyosei/soshikikarasagasu/zeimuka/kazeigakari/2/syukuhakuzei/13525.html",
+          "kind": "official",
+          "title": "Hakuba Village: accommodation tax"
+        }
+      ],
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "jp.hakone.bathing-tax",
+      "topic": "tax",
+      "claim": "Hakone charges a bathing tax (nyūtōzei) at hot-spring facilities of ¥150 per person per night for overnight guests and ¥50 per person for day visitors; children under 12 and school trips are exempt.",
+      "value": {
+        "overnight_jpy": 150,
+        "day_jpy": 50
+      },
+      "sources": [
+        {
+          "url": "https://www.town.hakone.kanagawa.jp/www/contents/1100000000874/index.html",
+          "kind": "official",
+          "title": "Hakone Town: bathing tax"
+        }
+      ],
+      "checked": "2026-10-28",
+      "used_in": {
+        "articles/where-to-stay-in-hakone.html": [
+          "bathing tax of ¥150 per person per night"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.accommodation-tax-2028",
+      "topic": "tax",
+      "recheck_days": 60,
+      "claim": "Hakone's town council passed an accommodation tax of ¥350 per person per night (primary-school children and school trips exempt) on 2 October 2026; the town aims to start it in April 2028, subject to the consent of the Minister for Internal Affairs.",
+      "value": {
+        "jpy": 350,
+        "passed": "2026-10-02",
+        "target_start": "2028-04"
+      },
+      "sources": [
+        {
+          "url": "https://www.town.hakone.kanagawa.jp/www/contents/1787536208536/index.html",
+          "kind": "official",
+          "title": "Hakone Town Council: September 2026 session results (bill 53, passed)"
+        },
+        {
+          "url": "https://www.tokyo-np.co.jp/article/519342",
+          "kind": "secondary",
+          "title": "Tokyo Shimbun: Hakone council passes accommodation tax, 3 October 2026"
+        }
+      ],
+      "checked": "2026-10-28",
+      "note": "Not yet in force. Consent from the Ministry of Internal Affairs and Communications pending; the start date is set by regulation within two years of consent."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27",
+ "generated": "2026-10-28",
  "fx": {
   "date": "2026-10-23",
   "source": "ECB via frankfurter.app",
@@ -2239,7 +2239,7 @@
    "example_3n_2a": 1200.0,
    "example_3n_2a_usd": 7.653061224489796,
    "example_status": "computed",
-   "example_basis": "USD 200 per room-night x 156.8 JPY = JPY 31,360 per room, JPY 15,680 per person (room price divided by the 2 sharing adults, an assumption because the ledger only says 'per person'): band JPY 15,000 and over, JPY 200 x 2 persons x 3 nights. The ledger does not state whether consumption tax is in the band price.",
+   "example_basis": "JPY 200 x 2 adults x 3 nights (band JPY 15,000 and over). A US$200 room is JPY 31,360, or JPY 15,680 per person per night shared by 2 adults; Tokyo sets the band by the price per person per night. With 10% consumption tax added the price per person is JPY 17,248, which falls in the same band.",
    "example_alt": null,
    "example_after_change": {
     "label": "From 1 April 2027 (3% of the room charge on stays of JPY 13,000 or more per person per night)",
@@ -2286,7 +2286,7 @@
     "jp.consumption-tax.rate",
     "jp.departure-tax"
    ],
-   "checked": "2026-10-26"
+   "checked": "2026-10-28"
   },
   {
    "city": "Kyoto",
@@ -2297,10 +2297,10 @@
    "rule_text": "Since 1 March 2026 Kyoto City charges an accommodation tax per person per night by room rate: JPY 200 under JPY 6,000, JPY 400 from JPY 6,000, JPY 1,000 from JPY 20,000, JPY 4,000 from JPY 50,000 and JPY 10,000 from JPY 100,000.",
    "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
    "other_charges_not_in_example": null,
-   "example_3n_2a": null,
-   "example_3n_2a_usd": null,
-   "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
-   "example_basis": null,
+   "example_3n_2a": 2400.0,
+   "example_3n_2a_usd": 15.306122448979592,
+   "example_status": "computed",
+   "example_basis": "JPY 400 x 2 adults x 3 nights (band JPY 6,000 to JPY 19,999). A US$200 room is JPY 31,360, or JPY 15,680 per person per night shared by 2 adults; Kyoto City sets the band by the charge per person per night, the room-only price excluding meals and consumption tax. With 10% consumption tax added the price per person is JPY 17,248, which falls in the same band.",
    "example_alt": null,
    "example_after_change": null,
    "none_basis": null,
@@ -2310,7 +2310,7 @@
    "fx_rate_used_per_usd": 156.8,
    "sources": [
     {
-     "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000345893.html",
+     "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000236942.html",
      "kind": "official"
     },
     {
@@ -2321,9 +2321,10 @@
    "other_sources": [],
    "fact_ids": [
     "jp.kyoto.accommodation-tax",
-    "jp.consumption-tax.rate"
+    "jp.consumption-tax.rate",
+    "jp.kyoto.accommodation-tax.base"
    ],
-   "checked": "2026-10-20"
+   "checked": "2026-10-28"
   },
   {
    "city": "Osaka",
@@ -2334,10 +2335,10 @@
    "rule_text": "Since 1 September 2025 Osaka Prefecture's accommodation tax is JPY 200 per person per night on rooms of JPY 5,000 to JPY 14,999, JPY 400 from JPY 15,000 to JPY 19,999 and JPY 500 from JPY 20,000; rooms under JPY 5,000 are exempt (previously JPY 100/200/300 from JPY 7,000).",
    "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
    "other_charges_not_in_example": null,
-   "example_3n_2a": null,
-   "example_3n_2a_usd": null,
-   "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
-   "example_basis": null,
+   "example_3n_2a": 2400.0,
+   "example_3n_2a_usd": 15.306122448979592,
+   "example_status": "computed",
+   "example_basis": "JPY 400 x 2 adults x 3 nights (band JPY 15,000 to JPY 19,999). A US$200 room is JPY 31,360, or JPY 15,680 per person per night shared by 2 adults; Osaka Prefecture sets the band by the charge per person per night. With 10% consumption tax added the price per person is JPY 17,248, which falls in the same band.",
    "example_alt": null,
    "example_after_change": null,
    "none_basis": null,
@@ -2358,9 +2359,10 @@
    "other_sources": [],
    "fact_ids": [
     "jp.osaka.accommodation-tax",
-    "jp.consumption-tax.rate"
+    "jp.consumption-tax.rate",
+    "jp.osaka.accommodation-tax.base"
    ],
-   "checked": "2026-10-20"
+   "checked": "2026-10-28"
   },
   {
    "city": "Fukuoka",
@@ -2371,10 +2373,10 @@
    "rule_text": "Fukuoka City and Fukuoka Prefecture together charge an accommodation tax of JPY 200 per person per night on a room charge under JPY 20,000 and JPY 500 from JPY 20,000 (the prefecture's share JPY 50 in both bands), since 1 April 2020.",
    "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
    "other_charges_not_in_example": null,
-   "example_3n_2a": null,
-   "example_3n_2a_usd": null,
-   "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
-   "example_basis": null,
+   "example_3n_2a": 1200.0,
+   "example_3n_2a_usd": 7.653061224489796,
+   "example_status": "computed",
+   "example_basis": "JPY 200 x 2 adults x 3 nights (band under JPY 20,000). A US$200 room is JPY 31,360, or JPY 15,680 per person per night shared by 2 adults; Fukuoka sets the band by the charge per person per night. With 10% consumption tax added the price per person is JPY 17,248, which falls in the same band.",
    "example_alt": null,
    "example_after_change": null,
    "none_basis": null,
@@ -2399,9 +2401,10 @@
    "other_sources": [],
    "fact_ids": [
     "jp.fukuoka.accommodation-tax",
-    "jp.consumption-tax.rate"
+    "jp.consumption-tax.rate",
+    "jp.fukuoka.accommodation-tax.base"
    ],
-   "checked": "2026-10-20"
+   "checked": "2026-10-28"
   },
   {
    "city": "Sapporo",
@@ -2412,10 +2415,10 @@
    "rule_text": "Since 1 April 2026 Sapporo City and Hokkaido each charge an accommodation tax; in Sapporo the two together are JPY 300 per person per night under JPY 20,000, JPY 400 from JPY 20,000 and JPY 1,000 from JPY 50,000, including stays booked before that date.",
    "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
    "other_charges_not_in_example": null,
-   "example_3n_2a": null,
-   "example_3n_2a_usd": null,
-   "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
-   "example_basis": null,
+   "example_3n_2a": 1800.0,
+   "example_3n_2a_usd": 11.479591836734693,
+   "example_status": "computed",
+   "example_basis": "JPY 300 x 2 adults x 3 nights (band under JPY 20,000). A US$200 room is JPY 31,360, or JPY 15,680 per person per night shared by 2 adults; Sapporo City sets the band by the charge per person per night. With 10% consumption tax added the price per person is JPY 17,248, which falls in the same band.",
    "example_alt": null,
    "example_after_change": null,
    "none_basis": null,
@@ -2438,9 +2441,10 @@
    "other_sources": [],
    "fact_ids": [
     "jp.sapporo.accommodation-tax",
-    "jp.consumption-tax.rate"
+    "jp.consumption-tax.rate",
+    "jp.sapporo.accommodation-tax.base"
    ],
-   "checked": "2026-10-20"
+   "checked": "2026-10-28"
   },
   {
    "city": "Kanazawa",
@@ -2451,10 +2455,10 @@
    "rule_text": "Kanazawa City's accommodation tax is JPY 200 per person per night for a room charge of JPY 5,000 to under JPY 20,000 and JPY 500 from JPY 20,000, measured before consumption tax; stays under JPY 5,000 per person per night are exempt (exemption in force since 1 October 2024; tax introduced April 2019).",
    "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
    "other_charges_not_in_example": null,
-   "example_3n_2a": null,
-   "example_3n_2a_usd": null,
-   "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
-   "example_basis": null,
+   "example_3n_2a": 1200.0,
+   "example_3n_2a_usd": 7.653061224489796,
+   "example_status": "computed",
+   "example_basis": "JPY 200 x 2 adults x 3 nights (band JPY 5,000 to under JPY 20,000). A US$200 room is JPY 31,360, or JPY 15,680 per person per night shared by 2 adults; Kanazawa City sets the band by the charge per person per night, before consumption tax.",
    "example_alt": null,
    "example_after_change": null,
    "none_basis": null,
@@ -2488,7 +2492,7 @@
     "jp.kanazawa.accommodation-tax.base",
     "jp.consumption-tax.rate"
    ],
-   "checked": "2026-10-20"
+   "checked": "2026-10-28"
   },
   {
    "city": "Hakuba",
@@ -2499,10 +2503,10 @@
    "rule_text": "Since 1 June 2026 Hakuba Village charges an accommodation tax, collected together with Nagano Prefecture's JPY 100 share, of JPY 200 per person per night on room-only prices (before consumption tax) of JPY 6,000-19,999, JPY 400 from JPY 20,000, JPY 900 from JPY 50,000 and JPY 1,900 from JPY 100,000, until 31 May 2029; from 1 June 2029 it is JPY 300, JPY 500, JPY 1,000 and JPY 2,000, the prefecture's share JPY 150.",
    "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
    "other_charges_not_in_example": null,
-   "example_3n_2a": null,
-   "example_3n_2a_usd": null,
-   "example_status": "ambiguous: the ledger gives bands by room rate and does not say whether the band threshold applies to the room price or to the price per person; at 2 adults in one room the two readings fall in different bands.",
-   "example_basis": null,
+   "example_3n_2a": 1200.0,
+   "example_3n_2a_usd": 7.653061224489796,
+   "example_status": "computed",
+   "example_basis": "JPY 200 x 2 adults x 3 nights (band JPY 6,000 to JPY 19,999). A US$200 room is JPY 31,360, or JPY 15,680 per person per night shared by 2 adults; Hakuba Village sets the band by the charge per person per night, room-only and before consumption tax.",
    "example_alt": null,
    "example_after_change": null,
    "none_basis": null,
@@ -2530,9 +2534,10 @@
    "fact_ids": [
     "jp.hakuba.accommodation-tax",
     "jp.nagano.accommodation-tax",
-    "jp.consumption-tax.rate"
+    "jp.consumption-tax.rate",
+    "jp.hakuba.accommodation-tax.base"
    ],
-   "checked": "2026-10-20"
+   "checked": "2026-10-28"
   },
   {
    "city": "Hiroshima",
@@ -2733,35 +2738,50 @@
    "city": "Hakone",
    "country": "Japan",
    "currency": "JPY",
-   "tax_name": "unknown (no ledger fact)",
-   "structure": "unknown",
-   "rule_text": "The ledger has no tax fact for Hakone.",
+   "tax_name": "bathing tax (nyūtōzei) on hot-spring stays",
+   "structure": "flat_per_person_night",
+   "rule_text": "Hakone has no accommodation tax in 2026; guests at hot-spring facilities pay the town's bathing tax of JPY 150 per person per night (JPY 50 per day visitor), children under 12 and school trips exempt.",
    "general_tax_note": "Japan's consumption tax has a standard rate of 10% and a reduced rate of 8%.",
    "other_charges_not_in_example": null,
-   "example_3n_2a": null,
-   "example_3n_2a_usd": null,
-   "example_status": "ambiguous: the ledger has no accommodation-tax fact for Hakone, so no rule can be stated or computed.",
-   "example_basis": null,
+   "example_3n_2a": 900.0,
+   "example_3n_2a_usd": 5.739795918367347,
+   "example_status": "computed",
+   "example_basis": "JPY 150 x 2 adults x 3 nights, at a hotel or ryokan with a hot-spring bath; a property without one charges no bathing tax.",
    "example_alt": null,
    "example_after_change": null,
    "none_basis": null,
    "effective_from": null,
-   "changes_scheduled": null,
+   "changes_scheduled": "Hakone's council passed an accommodation tax of JPY 350 per person per night on 2 October 2026; the town aims to start it in April 2028, once the Minister for Internal Affairs consents, and the bathing tax stays alongside it.",
    "caveats": [
-    "The Hakone stay guide states a bathing tax of JPY 150 per person per night on hot-spring stays, but no ledger fact backs that figure, so it is not used here."
+    "The bathing tax is charged on hot-spring use, so it is on the bill only where the property has a hot-spring bath."
    ],
    "fx_rate_used_per_usd": 156.8,
    "sources": [
+    {
+     "url": "https://www.town.hakone.kanagawa.jp/www/contents/1100000000874/index.html",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.town.hakone.kanagawa.jp/www/contents/1787536208536/index.html",
+     "kind": "official"
+    },
     {
      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
      "kind": "official"
     }
    ],
-   "other_sources": [],
+   "other_sources": [
+    {
+     "url": "https://www.tokyo-np.co.jp/article/519342",
+     "kind": "secondary"
+    }
+   ],
    "fact_ids": [
+    "jp.hakone.bathing-tax",
+    "jp.hakone.accommodation-tax-2028",
     "jp.consumption-tax.rate"
    ],
-   "checked": "2026-10-20"
+   "checked": "2026-10-28"
   },
   {
    "city": "Montreal",
@@ -3971,78 +3991,117 @@
    "city": "Sydney",
    "country": "Australia",
    "currency": "AUD",
-   "tax_name": "unknown (no ledger fact)",
-   "structure": "unknown",
-   "rule_text": "The ledger has no tax fact for Australia.",
-   "general_tax_note": null,
+   "tax_name": "none",
+   "structure": "none",
+   "rule_text": "No tourist or hotel tax is in force in Sydney in October 2026: Revenue NSW's list of state taxes, duties and levies includes none on accommodation, and we found no city levy.",
+   "general_tax_note": "Australia's GST is 10%, charged in full on hotel, motel and hostel stays of under 28 days.",
    "other_charges_not_in_example": null,
    "example_3n_2a": null,
    "example_3n_2a_usd": null,
-   "example_status": "ambiguous: the ledger has no tax-topic fact for Australia, so neither an accommodation tax nor a GST rule can be stated or computed.",
+   "example_status": "none",
    "example_basis": null,
    "example_alt": null,
    "example_after_change": null,
-   "none_basis": null,
+   "none_basis": "negative finding in the ledger (Revenue NSW's tax list; not an official statement that none exists)",
    "effective_from": null,
    "changes_scheduled": null,
    "caveats": [],
    "fx_rate_used_per_usd": 1.424,
-   "sources": [],
+   "sources": [
+    {
+     "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.ato.gov.au/Business/GST/How-GST-works",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.ato.gov.au/businesses-and-organisations/assets-and-property/property/property-used-in-running-a-business/commercial-residential-premises-and-gst",
+     "kind": "official"
+    }
+   ],
    "other_sources": [],
-   "fact_ids": [],
-   "checked": null
+   "fact_ids": [
+    "au.nsw.accommodation-tax.none",
+    "au.gst.accommodation"
+   ],
+   "checked": "2026-10-28"
   },
   {
    "city": "Melbourne",
    "country": "Australia",
    "currency": "AUD",
-   "tax_name": "unknown (no ledger fact)",
-   "structure": "unknown",
-   "rule_text": "The ledger has no tax fact for Australia.",
-   "general_tax_note": null,
-   "other_charges_not_in_example": null,
+   "tax_name": "none on hotels (Victoria's short stay levy covers holiday rentals)",
+   "structure": "none",
+   "rule_text": "Hotels in Melbourne carry no tourist tax in 2026. Since 1 January 2025 Victoria has charged a short stay levy of 7.5% of the total booking fee on stays under 28 days in entire homes, apartments and rooms that are not the host's main residence, paid by the booking platform; hotels, motels and hostels are excluded.",
+   "general_tax_note": "Australia's GST is 10%, charged in full on hotel, motel and hostel stays of under 28 days.",
+   "other_charges_not_in_example": "Victoria's 7.5% short stay levy applies to a holiday rental (an apartment or home), not to the hotel in the example.",
    "example_3n_2a": null,
    "example_3n_2a_usd": null,
-   "example_status": "ambiguous: the ledger has no tax-topic fact for Australia, so neither an accommodation tax nor a GST rule can be stated or computed.",
+   "example_status": "none",
    "example_basis": null,
    "example_alt": null,
    "example_after_change": null,
-   "none_basis": null,
-   "effective_from": null,
+   "none_basis": "ledger states hotels are excluded from Victoria's short stay levy",
+   "effective_from": "2025-01-01",
    "changes_scheduled": null,
    "caveats": [],
    "fx_rate_used_per_usd": 1.424,
-   "sources": [],
+   "sources": [
+    {
+     "url": "https://www.sro.vic.gov.au/owning-property/short-stay-levy/understanding-short-stay-levy",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.ato.gov.au/Business/GST/How-GST-works",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.ato.gov.au/businesses-and-organisations/assets-and-property/property/property-used-in-running-a-business/commercial-residential-premises-and-gst",
+     "kind": "official"
+    }
+   ],
    "other_sources": [],
-   "fact_ids": [],
-   "checked": null
+   "fact_ids": [
+    "au.vic.short-stay-levy",
+    "au.gst.accommodation"
+   ],
+   "checked": "2026-10-28"
   },
   {
    "city": "Rio de Janeiro",
    "country": "Brazil",
    "currency": "BRL",
-   "tax_name": "unknown (no ledger fact)",
-   "structure": "unknown",
-   "rule_text": "The ledger has no tax-topic fact for Brazil.",
+   "tax_name": "none",
+   "structure": "none",
+   "rule_text": "No tourist tax is charged on hotel stays in the city of Rio de Janeiro in October 2026; a proposed fee is still a bill (see What changes next). This is a negative finding from news reporting, not an official statement that none exists.",
    "general_tax_note": null,
    "other_charges_not_in_example": null,
    "example_3n_2a": null,
    "example_3n_2a_usd": null,
-   "example_status": "ambiguous: the ledger has no tax-topic fact for Brazil, so neither an accommodation tax nor a VAT-equivalent rule can be stated or computed.",
+   "example_status": "none",
    "example_basis": null,
    "example_alt": null,
    "example_after_change": null,
-   "none_basis": null,
+   "none_basis": "negative finding in the ledger (news reporting; not an official statement that none exists)",
    "effective_from": null,
-   "changes_scheduled": null,
+   "changes_scheduled": "A bill for a R$15 'sustainable tourism fee' on visitors staying in the city (up to R$22.50 by decree) was before the City Council's committees in June 2026, with no plenary vote scheduled.",
    "caveats": [
     "No plain 'where-to-stay-in-rio' page exists; the stay guide is the Carnival variant, so Rio is included as the only Rio page."
    ],
    "fx_rate_used_per_usd": 5.0465,
    "sources": [],
-   "other_sources": [],
-   "fact_ids": [],
-   "checked": null
+   "other_sources": [
+    {
+     "url": "https://temporealrj.com/taxa-de-turismo-sustentavel-camara-rio/",
+     "kind": "secondary"
+    }
+   ],
+   "fact_ids": [
+    "br.rio.tourist-tax.none"
+   ],
+   "checked": "2026-10-28"
   },
   {
    "city": "Queenstown",

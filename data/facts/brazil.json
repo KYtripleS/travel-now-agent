@@ -748,6 +748,21 @@
           "Avenida Lúcio Costa 5400"
         ]
       }
+    },
+    {
+      "id": "br.rio.tourist-tax.none",
+      "topic": "tax",
+      "recheck_days": 60,
+      "claim": "No tourist tax is charged on hotel stays in the city of Rio de Janeiro in October 2026; a bill for a R$15 'sustainable tourism fee' on visitors staying in the city was before the City Council's committees in June 2026, with no plenary vote scheduled.",
+      "sources": [
+        {
+          "url": "https://temporealrj.com/taxa-de-turismo-sustentavel-camara-rio/",
+          "kind": "secondary",
+          "title": "Tempo Real RJ: Rio City Council weighs a sustainable tourism fee, 6 June 2026"
+        }
+      ],
+      "checked": "2026-10-28",
+      "note": "Negative finding from news reporting; the fee charged on Ilha Grande belongs to Angra dos Reis, a different municipality."
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "place": "Australia",
+  "facts": [
+    {
+      "id": "au.gst.accommodation",
+      "topic": "tax",
+      "claim": "Australia's GST is 10%, and hotel, motel and hostel stays of under 28 days carry it in full.",
+      "sources": [
+        {
+          "url": "https://www.ato.gov.au/Business/GST/How-GST-works",
+          "kind": "official",
+          "title": "ATO: how GST works"
+        },
+        {
+          "url": "https://www.ato.gov.au/businesses-and-organisations/assets-and-property/property/property-used-in-running-a-business/commercial-residential-premises-and-gst",
+          "kind": "official",
+          "title": "ATO: commercial residential premises and GST"
+        }
+      ],
+      "checked": "2026-10-28"
+    },
+    {
+      "id": "au.nsw.accommodation-tax.none",
+      "topic": "tax",
+      "claim": "No tourist or hotel tax is in force in Sydney in October 2026: Revenue NSW's list of state taxes, duties and levies includes none on accommodation, and no city levy was found.",
+      "sources": [
+        {
+          "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties",
+          "kind": "official",
+          "title": "Revenue NSW: taxes, duties, levies and royalties"
+        }
+      ],
+      "checked": "2026-10-28",
+      "note": "Negative finding, not an official statement that none exists."
+    },
+    {
+      "id": "au.vic.short-stay-levy",
+      "topic": "tax",
+      "claim": "Since 1 January 2025 Victoria charges a short stay levy of 7.5% of the total booking fee on stays under 28 days in entire homes, apartments and rooms that are not the host's main residence, paid by the booking platform; hotels, motels and hostels are excluded as commercial residential accommodation.",
+      "value": {
+        "rate": 0.075,
+        "since": "2025-01-01"
+      },
+      "sources": [
+        {
+          "url": "https://www.sro.vic.gov.au/owning-property/short-stay-levy/understanding-short-stay-levy",
+          "kind": "official",
+          "title": "State Revenue Office Victoria: understanding the short stay levy"
+        }
+      ],
+      "checked": "2026-10-28"
+    }
+  ]
+}
