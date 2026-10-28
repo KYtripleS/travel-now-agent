@@ -208,6 +208,13 @@ V = {
              "coverage, check Agoda or Trip.com for Asia, and verify the hotel’s own site if you have "
              "loyalty status.",
         cta=("booking", "Search hotels on Booking.com"), also=("agoda",)),
+    "direct-booking-vs-otas-hotel-guide": dict(
+        text="Book a chain hotel direct if you collect its points or want its elite perks: at Hilton, rooms "
+             "booked on third-party websites earn no points and get no free Wi-Fi, elite breakfast or "
+             "upgrades, whatever you paid, and Hilton and Marriott both match a lower public rate found "
+             "elsewhere and take a further 25% off. For independent hotels, which have no points to lose, "
+             "compare Booking.com or Agoda with the hotel’s own site and take the lower total.",
+        cta=("booking", "Compare hotel prices on Booking.com"), also=("agoda",)),
     "where-to-book-sydney-harbour-cruise": dict(
         text="Book whale-watching and sunset cruises on Klook, usually the cheapest for Sydney; dinner "
              "cruises on GetYourGuide, which lays out menu tiers clearly and applies free cancellation most "

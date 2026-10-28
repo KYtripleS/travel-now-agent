@@ -1,0 +1,74 @@
+{
+  "place": "Hotel chains",
+  "facts": [
+    {
+      "id": "chains.hilton.third-party-no-points",
+      "topic": "price",
+      "claim": "Hilton Honors terms exclude third-party website bookings (irrespective of rate paid) and opaque bookings from qualifying stays, so they earn no Hilton Honors points or stay credit.",
+      "sources": [{"url": "https://www.hilton.com/en/hilton-honors/terms/", "kind": "operator", "title": "Hilton Honors: terms and conditions (definition of a Stay)"}],
+      "checked": "2026-10-28",
+      "recheck_days": 60,
+      "used_in": {
+        "articles/direct-booking-vs-otas-hotel-guide.html": ["irrespective of rate paid", "earn no points and no stay credit"]
+      }
+    },
+    {
+      "id": "chains.hilton.on-property-benefits-direct-only",
+      "topic": "price",
+      "claim": "Hilton Honors on-property benefits (free standard Wi-Fi, MyWay benefits such as breakfast or a daily food-and-beverage credit, space-available upgrades) need a reservation made through a Hilton direct channel, the hotel, or an IATA travel agent booking through a Hilton channel or Amadeus, Apollo Galileo, Worldspan or SABRE; they are not awarded on third-party website, opaque or third-party package bookings.",
+      "sources": [{"url": "https://www.hilton.com/en/hilton-honors/terms/", "kind": "operator", "title": "Hilton Honors: terms and conditions (on-property benefits)"}],
+      "checked": "2026-10-28",
+      "recheck_days": 60,
+      "used_in": {
+        "articles/direct-booking-vs-otas-hotel-guide.html": ["space-available upgrades need a direct booking", "Amadeus, Apollo Galileo, Worldspan or SABRE"]
+      }
+    },
+    {
+      "id": "chains.hilton.honors-discount",
+      "topic": "price",
+      "claim": "The Hilton Honors Discount is from 2% off the eligible rate, depending on booking window, region or country, day of the week and other circumstances; up to four rooms per member per stay; not combinable with other offers and not valid for existing reservations or groups.",
+      "value": {"min_pct": 2, "max_rooms": 4},
+      "sources": [{"url": "https://www.hilton.com/en/hilton-honors/terms/", "kind": "operator", "title": "Hilton Honors: terms and conditions (Guaranteed Member Discount)"}],
+      "checked": "2026-10-28",
+      "recheck_days": 60,
+      "used_in": {
+        "articles/direct-booking-vs-otas-hotel-guide.html": ["from 2% off the eligible rate", "up to 4 rooms per member per stay"]
+      }
+    },
+    {
+      "id": "chains.hilton.price-match",
+      "topic": "price",
+      "claim": "Hilton's Price Match Guarantee: book directly with Hilton, claim within 24 hours; a qualifying rate at least 1% lower (same room, view, terms, guests and dates; public, bookable by anyone, no login, code or app-only price; hotel's currency; still available at review) is matched with a further 25% off the room rate for the stay. Not after check-in; member, corporate, package and group rates excluded; Hampton by Hilton and SLH hotels in the PRC and Partner Accommodations in AU, AT, BE, CZ, DE, FR, IT, PT and CH excluded. Terms apply to claims from 20 August 2026.",
+      "value": {"bonus_pct": 25, "min_diff_pct": 1, "claim_hours": 24, "terms_from": "2026-08-20"},
+      "sources": [{"url": "https://www.hilton.com/en/p/price-match-guarantee/", "kind": "operator", "title": "Hilton: Price Match Guarantee"}],
+      "checked": "2026-10-28",
+      "recheck_days": 60,
+      "used_in": {
+        "articles/direct-booking-vs-otas-hotel-guide.html": ["takes a further 25% off the room rate for your stay", "claims made from 20 August 2026"]
+      }
+    },
+    {
+      "id": "chains.marriott.best-rate-guarantee",
+      "topic": "price",
+      "claim": "Marriott's Best Rate Guarantee: Bonvoy members only; book through a direct Marriott channel; claim within 24 hours of booking and at least 24 hours before check-in; the comparison rate must be more than 1% lower (2% with currency conversion); Marriott matches it and adds 25% off (20% at Design Hotels) or 5,000 Bonvoy points.",
+      "value": {"bonus_pct": 25, "bonus_points": 5000, "min_diff_pct": 1},
+      "sources": [{"url": "https://www.marriott.com/online-hotel-booking.mi", "kind": "operator", "title": "Marriott: It pays to book direct (Best Rate Guarantee terms)"}],
+      "checked": "2026-10-28",
+      "recheck_days": 60,
+      "used_in": {
+        "articles/direct-booking-vs-otas-hotel-guide.html": ["25% off (20% at Design Hotels) or 5,000 Bonvoy points"]
+      }
+    },
+    {
+      "id": "chains.booking.genius-levels",
+      "topic": "price",
+      "claim": "Booking.com Genius: level 1 gives 10% off stays; level 2 10-15% off plus free breakfast and room upgrades on select stays; level 3 up to 20% off, breakfast and upgrades on select stays, and priority support.",
+      "sources": [{"url": "https://www.booking.com/genius.html", "kind": "operator", "title": "Booking.com: Genius loyalty programme"}],
+      "checked": "2026-10-28",
+      "recheck_days": 90,
+      "used_in": {
+        "articles/direct-booking-vs-otas-hotel-guide.html": ["10% off stays from its first level", "up to 20% off, plus free breakfast or room upgrades at select properties"]
+      }
+    }
+  ]
+}

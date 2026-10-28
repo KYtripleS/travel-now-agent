@@ -10,7 +10,7 @@ for i in 1 2; do
   && $PY ops/tp_deeplinks.py --write >/dev/null && $PY build_library.py >/dev/null && $PY build_search_index.py >/dev/null && $PY build_map.py >/dev/null \
   && $PY x_go_links.py --write >/dev/null && $PY bust_assets.py >/dev/null || { echo "pipeline pass $i failed"; exit 1; }
 done
-for f in where-to-stay-in-lisbon direct-booking-vs-otas-hotel-guide; do
+for f in where-to-stay-in-lisbon; do
   git checkout HEAD -- site/articles/$f.html docs/articles/$f.html
 done
 $PY bust_assets.py >/dev/null
