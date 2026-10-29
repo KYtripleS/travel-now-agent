@@ -6070,6 +6070,595 @@
           "can be cancelled up to 48 hours in advance, and a booking of four or more rooms has a one-week policy"
         ]
       }
+    },
+    {
+      "id": "us.nola.mardi-gras.dates-2027",
+      "topic": "place",
+      "claim": "New Orleans & Company gives Fat Tuesday 2027 as 9 February 2027, the season as 6 January to 9 February, parades every night 3 to 9 February and Lundi Gras on 8 February; Endymion, Bacchus and Orpheus roll on the Saturday, Sunday and Monday before.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.neworleans.com/events/holidays-seasonal/mardi-gras/the-ultimate-mardi-gras-guide/",
+          "kind": "official",
+          "title": "New Orleans & Company: the ultimate Mardi Gras guide"
+        },
+        {
+          "url": "https://www.neworleans.com/events/holidays-seasonal/mardi-gras/mardi-gras-parade-schedule/",
+          "kind": "official",
+          "title": "New Orleans & Company: Mardi Gras 2027 parade schedule"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "Mardi Gras 2027 ends on Fat Tuesday, 9 February",
+          "the parades roll every night from 3 to 9 February",
+          "Lundi Gras, the Monday, is 8 February",
+          "Endymion, Bacchus and Orpheus"
+        ]
+      },
+      "note": "Easter 28 March 2027 and Ash Wednesday 10 February are the editors' arithmetic; New Orleans & Company matches 9 February.",
+      "recheck_days": 14
+    },
+    {
+      "id": "us.nola.mardi-gras.parade-list-2027",
+      "topic": "place",
+      "claim": "New Orleans & Company's 2027 parade list (read 28 Oct 2026) gives the krewes by date from 6 January to 9 February, and says 2027 parade dates and final routes are coming soon; the City's Mardi Gras page showed 'Stay tuned!' under upcoming parades.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.neworleans.com/events/holidays-seasonal/mardi-gras/mardi-gras-parade-schedule/",
+          "kind": "official",
+          "title": "New Orleans & Company: Mardi Gras 2027 parade schedule"
+        },
+        {
+          "url": "https://ready.nola.gov/mardi-gras/",
+          "kind": "official",
+          "title": "City of New Orleans: Mardi Gras (NOLA Ready)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "2027 parade dates and final routes are",
+          "Stay tuned!",
+          "Iris, Tucks and Endymion",
+          "Crescent City, Elks-Orleans, Zulu and Rex"
+        ]
+      },
+      "note": "Provisional list; recheck from mid-December and January for the final schedule and routes.",
+      "recheck_days": 7
+    },
+    {
+      "id": "us.nola.mardi-gras.route",
+      "topic": "place",
+      "claim": "New Orleans & Company describes the main route as starting on Napoleon Avenue and Tchoupitoulas, running down St. Charles Avenue and turning onto Canal Street towards the river; it says hotels along St. Charles or Canal fill fast and that CBD and Warehouse District hotels suit both parade access and nightlife.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.neworleans.com/events/holidays-seasonal/mardi-gras/the-ultimate-mardi-gras-guide/",
+          "kind": "official",
+          "title": "New Orleans & Company: the ultimate Mardi Gras guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "starts on Napoleon Avenue and Tchoupitoulas",
+          "hotels in the CBD and Warehouse District suit both parade access and nightlife",
+          "hotels around Uptown and the Garden District offer a more relaxed atmosphere"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.mardi-gras.first-aid-2026",
+      "topic": "place",
+      "claim": "The City's 2026 plan lists first-aid stations at Louisiana, St. Andrew, Howard and Canal along St. Charles Avenue and, for Endymion, at South Galvez and Norman C. Francis Parkway on Canal Street and at Orleans Avenue and North Hennessey Street.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://nola.gov/next/mayors-office/news/articles/february-2026/2026-02-02-city-of-new-orleans-announces-public-safety-and-preparedness-efforts-for-mardi-gras/",
+          "kind": "official",
+          "title": "City of New Orleans: public safety and preparedness efforts for Mardi Gras, 2 Feb 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "Louisiana, St. Andrew, Howard and Canal along St. Charles",
+          "which puts that parade in Mid-City"
+        ]
+      },
+      "note": "The Mid-City placement is the editors' reading of the street names."
+    },
+    {
+      "id": "us.nola.mardi-gras.fq-krewes",
+      "topic": "place",
+      "claim": "NORTA's 2026 list of French Quarter and Marigny parades held Chewbacchus, Bohème, Krewe du Vieux, Cork and Barkus, affecting bus routes 8, 55, 80 and 91 and the Rampart and Canal streetcars; New Orleans & Company says Barkus parades the Quarter's streets with dogs.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.norta.com/mardi-gras-2026/french-quarter-marigny-parades",
+          "kind": "operator",
+          "title": "NORTA: French Quarter and Marigny parades 2026"
+        },
+        {
+          "url": "https://www.neworleans.com/events/holidays-seasonal/mardi-gras/the-ultimate-mardi-gras-guide/",
+          "kind": "official",
+          "title": "New Orleans & Company: the ultimate Mardi Gras guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "five krewes: Chewbacchus, Bohème, Krewe du Vieux, Cork and Barkus",
+          "changed bus routes 8, 55, 80 and 91"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.mardi-gras.fq-access-2026",
+      "topic": "place",
+      "claim": "The City's 2026 plan managed Quarter access through interior and exterior closures at peak times, limited entry to residents, hotel guests and people going to restaurants or permitted events, allowed taxis, rideshare, limousines and small buses, limited Bourbon Street crossings to emergency response, and put concrete and water-filled barriers on the Uptown route.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://nola.gov/next/mayors-office/news/articles/february-2026/2026-02-02-city-of-new-orleans-announces-public-safety-and-preparedness-efforts-for-mardi-gras/",
+          "kind": "official",
+          "title": "City of New Orleans: public safety and preparedness efforts for Mardi Gras, 2 Feb 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "Entry was limited to residents, hotel guests and people going to restaurants or permitted events",
+          "concrete barriers along it"
+        ]
+      },
+      "note": "2026 information; the 2027 plan had not been published.",
+      "recheck_days": 14
+    },
+    {
+      "id": "us.nola.mardi-gras.transit-2026",
+      "topic": "transport",
+      "claim": "The City's 2026 plan says the RTA suspended the Canal Street and St. Charles streetcar lines from Thursday 12 February 2026 with a 24/7 bus bridge through Mardi Gras Day, suspended UPT/Rampart on Saturday 14 February, resumed normal service on Wednesday 18 February, began bus detours two hours before parades and enhanced ferry service; riders can text RTAUPDATES to 41411 and the City asks visitors to text MARDIGRAS to 77295.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://nola.gov/next/mayors-office/news/articles/february-2026/2026-02-02-city-of-new-orleans-announces-public-safety-and-preparedness-efforts-for-mardi-gras/",
+          "kind": "official",
+          "title": "City of New Orleans: public safety and preparedness efforts for Mardi Gras, 2 Feb 2026"
+        },
+        {
+          "url": "https://www.norta.com/mardi-gras-2026",
+          "kind": "operator",
+          "title": "NORTA: Mardi Gras 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "from Thursday 12 February, five days before Fat Tuesday",
+          "normal service returned on Wednesday 18 February",
+          "text MARDIGRAS to 77295",
+          "text RTAUPDATES to 41411"
+        ]
+      },
+      "note": "2026 plan; the Thursday 4 February 2027 date is the editors' arithmetic, not an announcement. norta.com/mardigras still opened the 2026 guide on 28 Oct 2026.",
+      "recheck_days": 14
+    },
+    {
+      "id": "us.nola.mardi-gras.norta-detours-2026",
+      "topic": "transport",
+      "claim": "NORTA's 2026 guide says St. Charles streetcar detours start four hours before the Uptown parades, all bus and other streetcar detours two hours before, and service runs on a weekend schedule on Mardi Gras Day; the 202 Airport bus is on its Uptown and Endymion detour lists.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.norta.com/mardi-gras-2026/detour-info-and-schedule",
+          "kind": "operator",
+          "title": "NORTA: detour info 2026"
+        },
+        {
+          "url": "https://www.norta.com/mardi-gras-2026/uptown",
+          "kind": "operator",
+          "title": "NORTA: Uptown detours 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "the St. Charles streetcar detours started four hours before the Uptown parades",
+          "The 202 was on NORTA's 2026 parade detour lists"
+        ]
+      },
+      "note": "NORTA's Endymion page shows a stale 'March 1st' date, so it was not used for dates."
+    },
+    {
+      "id": "us.nola.fares",
+      "topic": "fare",
+      "claim": "NORTA's single-ride fare is $1.25, the 1-day Jazzy Pass $3.00 and the 3-day Jazzy Pass $8.00; Le Pass is its app.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.norta.com/ride-with-us/how-to-pay/fares",
+          "kind": "operator",
+          "title": "NORTA: fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "$1.25 a ride, $3.00 for a one-day Jazzy Pass and $8.00 for three days"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "us.nola.airport",
+      "topic": "fare",
+      "claim": "The airport lists a taxi at $36.00 to the CBD or French Quarter west of Elysian Fields for up to two passengers and $15.00 each for three or more, from Door 7; the RTA Airport Express (202) is $1.25 from Door 2, zones B4 and B5, to Elk Place at Cleveland or the Union Passenger Terminal; the JET Veterans-Airport (E1) is $2.00 into New Orleans to City Park Avenue.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://flymsy.com/taxis-2/",
+          "kind": "official",
+          "title": "Louis Armstrong New Orleans International Airport: taxis"
+        },
+        {
+          "url": "https://flymsy.com/public-transportation/",
+          "kind": "official",
+          "title": "Louis Armstrong New Orleans International Airport: public transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "a taxi at $36.00 to the CBD or the French Quarter west of Elysian Fields",
+          "The RTA Airport Express (202) costs $1.25",
+          "The JET Veterans-Airport (E1) bus costs $2.00 into New Orleans"
+        ]
+      },
+      "note": "Fares from the airport's own pages; they may change without notice.",
+      "recheck_days": 90
+    },
+    {
+      "id": "us.nola.hotel-tax",
+      "topic": "tax",
+      "claim": "The City of New Orleans gives the Orleans Parish hotel/motel rate as 15% for 10 or more rooms (5% Orleans Parish, 3% Louisiana, 4% Louisiana Stadium and Exposition District, 3% Morial Convention Center) and 17% for nine or fewer rooms, with an additional 1.75% that members of the convention and visitors bureau or tourism marketing corporation may be required to collect; the Louisiana Department of Revenue confirms 3% state tax at 10 or more rooms, 5% at nine or fewer, 4% stadium district and 3% Exhibition Hall Authority.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://nola.gov/sales-tax-rate/",
+          "kind": "official",
+          "title": "City of New Orleans: Orleans Parish sales tax rate"
+        },
+        {
+          "url": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/sales-tax-reform/what-is-the-state-sales-tax-rate-for-sleeping-rooms-hotel-rooms-motel-rooms-and-similar-accommodations/",
+          "kind": "official",
+          "title": "Louisiana Department of Revenue: state sales tax rate for sleeping rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "Total for a hotel of 10 or more rooms",
+          "15%",
+          "an additional 1.75%, which the city says may be required",
+          "The city gives a higher combined rate, 17%, for hotels of nine or fewer rooms"
+        ]
+      },
+      "note": "The state FAQ lists the Stadium and Exposition District tax for rooms at 10 or more rooms, while the city table gives 17% for nine or fewer rooms; the two were not reconciled, so the text tells readers to check a small property's bill.",
+      "recheck_days": 30
+    },
+    {
+      "id": "us.nola.hotel-fees",
+      "topic": "tax",
+      "claim": "The City's table gives the Hotel Occupancy Privilege Tax as $0.50 per 24-hour period for 1 to 299 rooms and $1.00 for 300 or more, and adds district taxes of 0.245% (French Quarter), 2% (Riverwalk-Spanish Plaza) and 1% (Magnolia Marketplace).",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://nola.gov/sales-tax-rate/",
+          "kind": "official",
+          "title": "City of New Orleans: Orleans Parish sales tax rate"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "$0.50 for 1 to 299 rooms, $1.00 for 300 or more",
+          "French Quarter 0.245%, Riverwalk-Spanish Plaza 2%, Magnolia Marketplace 1%"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "us.nola.hotel-tax-example",
+      "topic": "tax",
+      "claim": "Worked example: a $300 room at a hotel of 10 to 299 rooms carries 15% ($45.00) plus $0.50, so $345.50 a night; with the 1.75% assessment ($5.25) it is $350.75.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://nola.gov/sales-tax-rate/",
+          "kind": "official",
+          "title": "City of New Orleans: Orleans Parish sales tax rate"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "$45.00, plus $0.50, so $345.50 a night",
+          "that adds $5.25, for $350.75 a night"
+        ]
+      },
+      "note": "Editors' arithmetic from the city's rates."
+    },
+    {
+      "id": "us.nola.hotel-tax-lepavillon",
+      "topic": "tax",
+      "claim": "Le Pavillon's own policy page quotes a 16.75% hotel tax on its fees (arrival before noon $75 plus 16.75% tax) and a valet rate of $55 plus a 13% parking tax; the City's parking tax is 13% (5% Orleans sales, 3% parking, 5% Louisiana).",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.lepavillon.com/policies--faq",
+          "kind": "operator",
+          "title": "Le Pavillon: policies and FAQ"
+        },
+        {
+          "url": "https://nola.gov/sales-tax-rate/",
+          "kind": "official",
+          "title": "City of New Orleans: Orleans Parish sales tax rate"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "quotes \"16.75% hotel tax\" on its fees",
+          "a 13% parking tax on its valet, which matches the city's 13% parking rate"
+        ]
+      },
+      "note": "16.75% = 15% plus 1.75% is the editors' reading."
+    },
+    {
+      "id": "us.nola.esta",
+      "topic": "place",
+      "claim": "CBP says ESTA determines eligibility to travel under the Visa Waiver Program, not admissibility, requires an e-Passport and can be submitted any time, advising applying when planning begins; its ESTA FAQ says the fee increased from $40.27 to $40.62, with systems updates effective 16 October 2026.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.cbp.gov/travel/international-visitors/esta",
+          "kind": "official",
+          "title": "CBP: Electronic System for Travel Authorization"
+        },
+        {
+          "url": "https://esta.cbp.dhs.gov/faq",
+          "kind": "official",
+          "title": "Official ESTA application website: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "does not decide admissibility",
+          "requires an e-Passport",
+          "from $40.27 to $40.62"
+        ]
+      },
+      "note": "FAQ answers are loaded on click; read on 29 Oct 2026.",
+      "recheck_days": 30
+    },
+    {
+      "id": "us.nola.hotel-hotel-monteleone",
+      "topic": "hotel",
+      "claim": "Hotel Monteleone: 214 Royal Street, open since 1886 and family-owned, Carousel Bar, Criollo restaurant, rooftop pool, Spa Aria; no resort fee; valet parking $50 plus tax a night; Iberville Tower Superior King 250 sq ft.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.hotelmonteleone.com/",
+          "kind": "operator",
+          "title": "Hotel Monteleone"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "a family-owned hotel open since 1886",
+          "valet parking is $50 plus tax a night",
+          "Superior King is 250 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-hotel-mazarin",
+      "topic": "hotel",
+      "claim": "Hotel Mazarin: 730 Bienville Street, 102 rooms, half a block from Bourbon and Royal, complimentary hot breakfast, Mazarin Wine Bar, 21st Amendment bar, streetcar two blocks away, valet $50 a night per car.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.hotelmazarin.com/",
+          "kind": "operator",
+          "title": "Hotel Mazarin"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "with 102 rooms, half a block from Bourbon and Royal",
+          "valet parking is $50 a night"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-hotel-provincial",
+      "topic": "hotel",
+      "claim": "Hotel Provincial: 1024 Chartres, four restored buildings (three two-storey buildings without an elevator, one four-storey with an elevator), pool, Ice House Bar, French Toast restaurant, valet $45 a day plus tax.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.hotelprovincial.com/",
+          "kind": "operator",
+          "title": "Hotel Provincial"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "three of the four buildings have two storeys and no elevator",
+          "valet parking is $45 a day plus tax"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-the-windsor-court",
+      "topic": "hotel",
+      "claim": "The Windsor Court: 300 Gravier Street, one block from the French Quarter, rooftop saltwater pool, spa, The Grill Room, Polo Club, Le Salon tea; overnight parking $56 plus tax; card charged room rate for all nights plus $100 a night for incidentals at check-in.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://thewindsorcourt.com/",
+          "kind": "operator",
+          "title": "The Windsor Court"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "one block from the French Quarter by the hotel's own account",
+          "overnight parking is $56 plus tax"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-le-pavillon",
+      "topic": "hotel",
+      "claim": "Le Pavillon: 833 Poydras Street, opened 1907 as the New Hotel Denechaud, National Register of Historic Places 1991, walking distance of the Superdome, the Quarter and the National WWII Museum; arrival before noon $75 plus tax, valet $55 plus 13% parking tax, $100 a night incidentals hold, minimum age 21.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.lepavillon.com/",
+          "kind": "operator",
+          "title": "Le Pavillon"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "opened in 1907 as the New Hotel Denechaud",
+          "arrivals before noon pay $75 plus tax"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-the-eliza-jane",
+      "topic": "hotel",
+      "claim": "The Eliza Jane: 315 Magazine Street, ten historic warehouses including the Daily Picayune and Peychaud Bitters buildings, two blocks from the French Quarter, Couvant and The Press Room; rooms from 250 sq ft, some with interior atrium or Magazine Street views.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.theelizajane.com/",
+          "kind": "operator",
+          "title": "The Eliza Jane"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "in ten historic warehouses",
+          "the smallest rooms are 250 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-the-pontchartrain-hotel",
+      "topic": "hotel",
+      "claim": "The Pontchartrain Hotel: 2031 St. Charles Avenue, 106 rooms, opened as luxury apartments in 1927 and a hotel from the 1940s, reopened 2016 after renovation, 'along the St. Charles Avenue carnival route' with the streetcar at its doorstep, Jack Rose restaurant.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://thepontchartrainhotel.com/",
+          "kind": "operator",
+          "title": "The Pontchartrain Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "a 106-room hotel that opened as luxury apartments in 1927",
+          "along the St. Charles Avenue carnival route"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-hotel-saint-vincent",
+      "topic": "hotel",
+      "claim": "Hotel Saint Vincent: 1507 Magazine Street at Race Street, Lower Garden District, 75 rooms, built 1861 and restored 2021, pool, San Lorenzo, Chapel Club; smallest king 252 sq ft.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://saintvincentnola.com/",
+          "kind": "operator",
+          "title": "Hotel Saint Vincent"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "a 75-room hotel built in 1861 and restored in 2021",
+          "the smallest king room is 252 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-the-chloe",
+      "topic": "hotel",
+      "claim": "The Chloe: 4125 St. Charles Avenue, 14 rooms in a restored 19th-century Uptown mansion, restaurant, saltwater pool, complimentary Uptown breakfast, front entrance across from the Milan and St. Charles streetcar stop, French Quarter just over 3 miles away.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://thechloenola.com/",
+          "kind": "operator",
+          "title": "The Chloe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "a 14-room hotel in a restored 19th-century Uptown mansion",
+          "the Quarter just over three miles away"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-hotel-peter-paul",
+      "topic": "hotel",
+      "claim": "Hotel Peter & Paul: 71 rooms in a former school house, rectory and convent in the Marigny, steps from Frenchmen Street, heated pool (Marigny Lido), Elysian Bar, honor bar; Booking.com gives 2317 Burgundy Street.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://ash.world/hotels/peter-and-paul/",
+          "kind": "operator",
+          "title": "Hotel Peter & Paul"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "A 71-room boutique hotel in a former school house, rectory and convent",
+          "a heated outdoor pool"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-royal-street-inn-and-bar",
+      "topic": "hotel",
+      "claim": "Royal Street Inn and Bar: 1431 Royal Street, five rooms above the R Bar, one block outside the Quarter and one block from Frenchmen Street; 21+; non-refundable 50% deposit at booking; cancellations inside seven days charged in full.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://royalstreetinn.com/",
+          "kind": "operator",
+          "title": "Royal Street Inn and Bar"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "Five rooms above the R Bar at 1431 Royal Street",
+          "a non-refundable 50% deposit is charged at booking"
+        ]
+      }
+    },
+    {
+      "id": "us.nola.hotel-india-house-hostel",
+      "topic": "hotel",
+      "claim": "India House Hostel (IH Hostel NOLA): Mid-City, near the Canal Street streetcar, ten minutes from the Quarter by streetcar, dorms, private rooms with bathrooms, pool, communal kitchen; 18+, 72 hours' notice for free cancellation, maximum 14 nights in any 30 days.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://the.indiahousehostel.com/",
+          "kind": "operator",
+          "title": "India House Hostel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+          "free cancellation needs 72 hours' notice",
+          "the maximum stay is 14 nights in any 30 days"
+        ]
+      }
     }
   ]
 }

@@ -66,12 +66,20 @@
           "url": "https://www.estv.admin.ch/en/vat-rates-switzerland",
           "kind": "official",
           "title": "ESTV: Swiss VAT rates"
+        },
+        {
+          "url": "https://www.estv.admin.ch/estv/en/home/value-added-tax/vat-rates-switzerland.html",
+          "kind": "official",
+          "title": "Swiss Federal Tax Administration: VAT rates"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-zurich.html": [
           "a special rate of 3.8% against the normal 8.1%",
           "3.8%, the special rate"
+        ],
+        "articles/where-to-stay-in-zermatt.html": [
+          "a special rate of 3.8% for overnight stays with breakfast, against a normal rate of 8.1%"
         ]
       }
     },
@@ -413,6 +421,489 @@
         "articles/where-to-stay-in-zurich.html": [
           "a heated 25-metre outdoor pool, open daily in summer",
           "the pool closes in the colder months"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.kurtaxe",
+      "topic": "tax",
+      "claim": "Zermatt's Kurtaxe is CHF 4.00 per night for all accommodation types (Art. 5); children 9 to 15 pay half (CHF 2.00); children under 9 and residents are exempt; the host collects it. Worked example (CHF 40 for 2 adults + a 10-year-old, 4 nights; 1.6% and 2% of an assumed CHF 500 a night room) is editorial arithmetic.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://cms.ewg-zermatt.ch/api/media/file/reglement_kurtaxen_ec82f92ad2.pdf",
+          "kind": "official",
+          "title": "Einwohnergemeinde Zermatt: Reglement über die Kurtaxen (2022)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "a flat CHF 4.00 per adult per night for every type of accommodation",
+          "2 × CHF 4.00 × 4 = CHF 32 for the adults",
+          "Residents of Zermatt and some others, such as pupils at recognised Valais schools during term, are exempt"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.kurtaxe.on-top",
+      "topic": "tax",
+      "claim": "Grand Hotel Zermatterhof's FAQ says the Kurtaxe (CHF 4.00 per adult, CHF 2.00 per child 9 to 15.9) is charged in addition to the room rates.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.zermatterhof.ch/questions-and-answers/",
+          "kind": "official",
+          "title": "Grand Hotel Zermatterhof: questions and answers"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Grand Hotel Zermatterhof's FAQ confirms it is charged in addition to the room rate"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.season-2026-27",
+      "topic": "transport",
+      "claim": "Zermatt Bergbahnen: winter season starts 1 Nov 2026 and ends 3 May 2027; Sunnegga/Rothorn and Gornergrat areas open 28 Nov 2026; Sunnegga/Rothorn closes 11 Apr 2027 and Gornergrat 18 Apr 2027. 'Only the glacier side is open before 28 Nov' is editorial inference, labelled as such.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.matterhornparadise.ch/en/information/tickets-prices/ski-passes",
+          "kind": "operator",
+          "title": "Zermatt Bergbahnen: ski passes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "the winter season as 1 November 2026 to 3 May 2027",
+          "opening on 28 November 2026 and closing on 11 April and 18 April 2027",
+          "Our reading is that before 28 November only the glacier side"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.skipass-2026-27",
+      "topic": "price",
+      "claim": "Winter ski pass 'from' prices (Zermatt area): half day from 12:15 CHF 68, 1 day CHF 89, 5 days CHF 329, 7 days CHF 436; Zermatt-Cervinia 1 day CHF 104, 5 days CHF 372, 7 days CHF 492. Lowest price applies 1-27 Nov 2026 and 19 Apr-2 May 2027, when Gornergrat railway is not included; other dates cost more (shown in web shop). Prices incl. 8.1% VAT. Pricing is date-dependent (dynamic-style 'from' prices).",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.matterhornparadise.ch/en/information/tickets-prices/ski-passes",
+          "kind": "operator",
+          "title": "Zermatt Bergbahnen: ski passes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "The winter ski pass is priced with",
+          "1 to 27 November 2026 and from 19 April to 2 May 2027",
+          "Dates in between cost more and are shown only in its web shop"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.skipass-reductions",
+      "topic": "price",
+      "claim": "Free ski pass for children up to 8.99; children 9-15.99 get 50% off; youths 16-19.99 get 15% off; on Saturdays the Zermatt pass is free for children under 16.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.matterhornparadise.ch/en/information/tickets-prices/ski-passes",
+          "kind": "operator",
+          "title": "Zermatt Bergbahnen: ski passes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Children under 9 ski free with a photo pass",
+          "youths aged 16 to 19 pay 15% less"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.peak-pass",
+      "topic": "price",
+      "claim": "The Peak Pass (28 Oct 2026 to 30 Apr 2027, from CHF 212) covers railways, cable cars and local bus but is not valid on ski and chairlifts.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://zermatt.swiss/en/p/peak-pass-01tVj000004sMjEIAU",
+          "kind": "official",
+          "title": "Zermatt Tourism: Peak Pass"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "The Peak Pass, sold by the tourist office from CHF 212, is a sightseeing pass",
+          "it is not valid on ski and chairlifts"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.car-free",
+      "topic": "transport",
+      "claim": "Zermatt is car-free; private vehicles only to Täsch (5 km before Zermatt); large fines for unauthorised travel; electric vehicles follow the same rules; Matterhorn Terminal Täsch has 2,100 covered spaces and private operators over 1,000.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://zermatt.swiss/en/plan-book/arrival",
+          "kind": "official",
+          "title": "Zermatt Tourism: travelling to Zermatt"
+        },
+        {
+          "url": "https://www.matterhorngotthardbahn.ch/en/stories/parking-matterhorn-terminal-taesch",
+          "kind": "operator",
+          "title": "Matterhorn Gotthard Bahn: Matterhorn Terminal Täsch"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Zermatt is car-free",
+          "The Matterhorn Terminal has 2,100 covered spaces"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.airport-journey",
+      "topic": "transport",
+      "claim": "Zermatt Tourism: Zermatt can be reached in three and a half hours from Zurich Airport and four hours from Geneva or Basel airports; trains run to Zermatt every half hour.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://zermatt.swiss/en/plan-book/arrival",
+          "kind": "official",
+          "title": "Zermatt Tourism: travelling to Zermatt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "three and a half hours from Zurich Airport and four hours from Geneva or Basel airports",
+          "trains to Zermatt every half hour"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.shuttle-train",
+      "topic": "fare",
+      "claim": "Täsch-Zermatt shuttle: every 20 minutes 5:55-21:55, hourly in the evening until 00:30/01:00, all night at weekends; 12 minutes; return CHF 17.20; half-fare and children 6-15.99 pay 50%; Swiss Travel Pass valid.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.matterhorngotthardbahn.ch/en/products/zermatt-shuttle",
+          "kind": "operator",
+          "title": "Matterhorn Gotthard Bahn: Zermatt Shuttle"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Trains run every 20 minutes from 5:55 to 21:55",
+          "a return costs CHF 17.20",
+          "The ride takes 12 minutes"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.ebus",
+      "topic": "transport",
+      "claim": "Zermatt Tourism lists electric taxis, horse-drawn carriages, bicycles, walking and a free e-bus on two routes (Ski-Bus and Winkelmatten).",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://zermatt.swiss/en/plan-book/arrival",
+          "kind": "official",
+          "title": "Zermatt Tourism: travelling to Zermatt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "a free e-bus on two routes, the Ski-Bus and Winkelmatten"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.zermatterhof",
+      "topic": "hotel",
+      "claim": "Grand Hotel Zermatterhof: Bahnhofstrasse 55; about ten minutes' walk from the station; EV or horse carriage pickup on advance request; 14 room/suite categories 20-76 m2; winter offer: 5 nights in Deluxe Double or above gives a 4-day ski pass valid in Zermatt and Cervinia; ski passes not included in rates.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.zermatterhof.ch/sleep/",
+          "kind": "official",
+          "title": "Grand Hotel Zermatterhof: rooms"
+        },
+        {
+          "url": "https://www.zermatterhof.ch/questions-and-answers/",
+          "kind": "official",
+          "title": "Grand Hotel Zermatterhof: Q&A"
+        },
+        {
+          "url": "https://www.zermatterhof.ch/",
+          "kind": "official",
+          "title": "Grand Hotel Zermatterhof"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "about ten minutes' walk from the station according to the hotel",
+          "14 room and suite categories from 20 m² to 76 m²",
+          "a free four-day ski pass, valid in Zermatt and Cervinia"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.mont-cervin",
+      "topic": "hotel",
+      "claim": "Mont Cervin Palace: Bahnhofstrasse 31, five-star, 18 room/suite categories, spa Le Club, restaurants incl. Grill Le Cervin and Ristorante Capri; location page gives no walking times.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.montcervinpalace.ch/en/location/",
+          "kind": "official",
+          "title": "Mont Cervin Palace: location"
+        },
+        {
+          "url": "https://www.montcervinpalace.ch/en/",
+          "kind": "official",
+          "title": "Mont Cervin Palace"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Bahnhofstrasse 31, a five-star hotel with 18 room and suite categories"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.post",
+      "topic": "hotel",
+      "claim": "Unique Hotel Post: Bahnhofstrasse 41; few minutes' walk from the station, lifts and bus stops; free electric-vehicle transfer 08:00-19:00; three restaurants, five bars and clubs.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.hotelpost.ch/de/gut-zu-wissen/anreise-lageplan/",
+          "kind": "official",
+          "title": "Unique Hotel Post: location"
+        },
+        {
+          "url": "https://www.hotelpost.ch/en/bars-clubs/",
+          "kind": "official",
+          "title": "Unique Hotel Post: bars and clubs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Bahnhofstrasse 41, a four-star hotel",
+          "a free electric-vehicle transfer from the station, taxi rank or heliport between 8:00 and 19:00"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.hostel",
+      "topic": "hotel",
+      "claim": "Zermatt Youth Hostel: Staldenweg 5; 47 rooms, 170 beds; village centre a few minutes on foot; seasonal periods panel did not load.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.youthhostel.ch/en/hostels/zermatt-youth-hostel",
+          "kind": "official",
+          "title": "Swiss Youth Hostels: Zermatt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Staldenweg 5, with 47 rooms and 170 beds"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.national",
+      "topic": "hotel",
+      "claim": "Hotel National Zermatt: Matterstrasse 39; four-star; 20 metres to the Sunnegga valley station; spa.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://nationalzermatt.ch/en/",
+          "kind": "official",
+          "title": "Hotel National Zermatt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "20 metres from the Sunnegga valley station"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.holiday",
+      "topic": "hotel",
+      "claim": "Hotel Holiday: Gryfelblatte 4; Sunnegga underground funicular 200 m away; Gornergrat railway and Klein Matterhorn bus stop a few minutes on foot; Standard Double 20 m2, family room 28 m2; free hotel taxi on arrival/departure days.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.hotelholiday.ch/de/lage-anreise/",
+          "kind": "official",
+          "title": "Hotel Holiday: location"
+        },
+        {
+          "url": "https://www.hotelholiday.ch/",
+          "kind": "official",
+          "title": "Hotel Holiday"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "200 metres from the Sunnegga funicular",
+          "a 20 m² Standard Double to a 28 m² family room"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.focus",
+      "topic": "hotel",
+      "claim": "Hotel Matterhorn Focus: Schluhmattstrasse 131; stands directly next to the Matterhorn Glacier Paradise valley station; village under 10 minutes on foot; e-bus Winkelmatten line stop in front; Futura Room 30 m2 with balcony.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.matterhorn-focus.ch/en/contact/contact/arrival",
+          "kind": "official",
+          "title": "Hotel Matterhorn Focus: arrival"
+        },
+        {
+          "url": "https://www.matterhorn-focus.ch/en/rooms/dr-futura",
+          "kind": "official",
+          "title": "Hotel Matterhorn Focus: DR Futura"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Schluhmattstrasse 131",
+          "a 30 m² Futura Room with a balcony"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.jaegerhof",
+      "topic": "hotel",
+      "claim": "Hotel Jägerhof: Steinmattstrasse 85; family-run three-star; 49 rooms; Matterhorn Glacier Paradise valley station about 10 minutes on foot; Sunnegga and Gornergrat about 15; free shuttle 07:30-21:00.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.jaegerhofzermatt.ch/de/frequently-asked-questions/",
+          "kind": "official",
+          "title": "Hotel Jägerhof: FAQ"
+        },
+        {
+          "url": "https://www.jaegerhofzermatt.ch/de/zimmer/",
+          "kind": "official",
+          "title": "Hotel Jägerhof: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Steinmattstrasse 85, a family-run three-star hotel with 49 rooms",
+          "A free shuttle runs from 7:30 to 21:00"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.berghof",
+      "topic": "hotel",
+      "claim": "Hotel Berghof: Winkelmattenweg 18; family-run four-star; 28 rooms; 600 m2 spa; Zermatt Tourism's listing says the Matterhorn Express valley station is less than two minutes' walk.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.berghof-zermatt.ch/en/welcome/your-hosts",
+          "kind": "official",
+          "title": "Hotel Berghof: facts"
+        },
+        {
+          "url": "https://zermatt.swiss/en/p/hotel-berghof-01tVj000004tAarIAE",
+          "kind": "official",
+          "title": "Zermatt Tourism: Hotel Berghof"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Winkelmattenweg 18, a family-run four-star hotel with 28 rooms, a 600 m² spa",
+          "less than two minutes' walk away"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.matthiol",
+      "topic": "hotel",
+      "claim": "Boutique Hotel Matthiol: Moosstrasse 40; winter season 4 Dec 2026 to 11 Apr 2027; free shuttle from the station 8am-9pm; about a 20-minute walk from the station; Wichje bus stop 3 minutes; flexible winter rates cancel free up to 14 days before arrival.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.matthiol.ch/en/opening-times",
+          "kind": "official",
+          "title": "Matthiol: opening times"
+        },
+        {
+          "url": "https://www.matthiol.ch/en/faq",
+          "kind": "official",
+          "title": "Matthiol: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "open for winter from 4 December 2026 to 11 April 2027",
+          "about a 20-minute walk from the station"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.cervo",
+      "topic": "hotel",
+      "claim": "CERVO Mountain Resort: Riedweg 156; open 27 Nov 2026 to 11 Apr 2027; Nomad 4*, Alpinist and Huntsman 5*; its ski-in/ski-out page says guests live directly next to the slopes; après-ski with DJ sets and live sessions.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://cervo.swiss/en/opening-hours",
+          "kind": "official",
+          "title": "CERVO: opening hours"
+        },
+        {
+          "url": "https://cervo.swiss/en/activities/ski-in-ski-out-hotel",
+          "kind": "official",
+          "title": "CERVO: ski-in / ski-out hotel"
+        },
+        {
+          "url": "https://cervo.swiss/en/contact",
+          "kind": "official",
+          "title": "CERVO: contact"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "Riedweg 156, open from 27 November 2026 to 11 April 2027",
+          "guests live directly next to the slopes"
+        ]
+      }
+    },
+    {
+      "id": "ch.zermatt.riffelalp",
+      "topic": "hotel",
+      "claim": "Riffelalp Resort 2222m: winter opening 11 Dec 2026 to 4 Apr 2027; reached by Gornergrat Railway to Riffelalp station then a short walk in winter; luggage by skidoo in winter; last train up from Zermatt 23:30; no parking.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.riffelalp.com/en/",
+          "kind": "official",
+          "title": "Riffelalp Resort 2222m"
+        },
+        {
+          "url": "https://www.riffelalp.com/en/faqs/",
+          "kind": "official",
+          "title": "Riffelalp: FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-zermatt.html": [
+          "11 December 2026 to 4 April 2027",
+          "The last train up leaves Zermatt at 23:30"
         ]
       }
     }

@@ -1392,6 +1392,260 @@
           "it holds a six-course dinner party in the One Square Brasserie, with a welcome drink"
         ]
       }
+    },
+    {
+      "id": "gb.london.nye.ticketing",
+      "topic": "price",
+      "claim": "The Mayor of London's New Year's Eve fireworks on Thursday 31 December 2026 (8:00pm to 12:30am, entry to the viewing areas 8:00pm to 10:30pm) are ticketed and sold only through Ticketmaster, up to 4 per buyer: £55 (£35 for Londoners) for the Blue, Pink and White areas and £40 (£20) for Red, Green and Orange; prices include VAT, a small booking fee is extra, prices are unchanged from last year, there are no refunds, and tickets may be resold at face value only via Ticketmaster Fan-to-Fan Resale; people without tickets are not allowed into the viewing areas.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
+          "kind": "official",
+          "title": "Mayor of London: London New Year's Eve 2026"
+        },
+        {
+          "url": "https://www.london.gov.uk/media-centre/mayors-press-release/Mayor-announces-tickets-for-London%E2%80%99s-world-famous-New-Year%E2%80%99s-Eve-fireworks-go-on-sale-next-week",
+          "kind": "official",
+          "title": "Mayor of London: tickets go on sale next week (16 October 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "sold only through Ticketmaster and sell out quickly",
+          "with entry to every viewing area from 8pm to 10:30pm",
+          "Prices include VAT and exclude a small booking fee, and are the same as last year",
+          "Tickets are limited to four per buyer"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "gb.london.nye.availability",
+      "topic": "place",
+      "claim": "On 28 October 2026 the Mayor's event page described the first of two ticket batches as on sale now, did not say it had sold out, warned that tickets sell out quickly and gave no date for the second batch; live Ticketmaster availability was not checked. Last year's final batch went on sale at noon on Monday 24 November 2025.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
+          "kind": "official",
+          "title": "Mayor of London: London New Year's Eve 2026"
+        },
+        {
+          "url": "https://www.london.gov.uk/final-tickets-londons-spectacular-new-years-eve-celebrations-go-sale-monday",
+          "kind": "official",
+          "title": "Mayor of London: final tickets go on sale Monday (18 November 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "described the first of two batches of tickets as on sale now",
+          "last year's final batch went on sale on 24 November 2025"
+        ]
+      },
+      "recheck_days": 3,
+      "note": "Recheck for the second batch date and any sold-out notice; update the booking wording."
+    },
+    {
+      "id": "gb.london.nye.viewing-areas",
+      "topic": "place",
+      "claim": "The six ticketed areas and their gates per the Mayor's page: Blue (Victoria Embankment, Westminster Bridge to Golden Jubilee Footbridge, north bank, gate 1 via Victoria or gate 2 via Charing Cross and Embankment); Red (Golden Jubilee Footbridge to Temple Avenue, north bank, gate 4 via Holborn or 5 via Blackfriars); Pink (Waterloo Bridge only, south bank, gate 6 via Southwark); Green (behind the London Eye, gate 7 via Waterloo); White (Westminster Bridge only, gate 8 via Waterloo); Orange accessible (Albert Embankment, by St Thomas' Hospital, gate 9 via Waterloo). You cannot move between areas on the night; only orange has seating.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
+          "kind": "official",
+          "title": "Mayor of London: London New Year's Eve 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "Each area has its own numbered gate, and you cannot move between areas on the night",
+          "Only the orange area has seating"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.nye.closures",
+      "topic": "transport",
+      "claim": "Per the Mayor's page, Westminster Bridge, the Golden Jubilee Footbridge, Lambeth Bridge, Blackfriars Bridge and Waterloo Bridge cannot be used before or after the event, stations will be very busy when it ends, and vehicles (cars, vans, buses, bikes) are restricted from 2:00pm on 31 December until around 6:00am on 1 January.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
+          "kind": "official",
+          "title": "Mayor of London: London New Year's Eve 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "cannot be used before or after the event",
+          "Vehicles, bikes included, are restricted from 2pm on 31 December until around 6am on 1 January"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.nye.tfl-2025-plan",
+      "topic": "transport",
+      "claim": "TfL had not published a 2026 New Year's Eve plan on 28 October 2026 (its major works and events calendar listed none for 31 December). Last year's release of 2 December 2025 said services would run all night apart from planned closures, some central stations might close at short notice or at busy times, some central buses would be diverted from about midday, some bridges would close to pedestrians and some Santander Cycles docking stations would be unavailable, and advised people not to travel to the Victoria Embankment area without a ticket; it did not mention free travel.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://tfl-newsroom.prgloo.com/news/majority-of-tfl-services-running-over-christmas-and-new-year-to-help-customers-make-the-most-of-london-this-festive-season",
+          "kind": "operator",
+          "title": "TfL: festive travel release, 2 December 2025"
+        },
+        {
+          "url": "https://tfl.gov.uk/status-updates/major-works-and-events/31-december",
+          "kind": "operator",
+          "title": "TfL: major works and events"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "TfL had not published its 2026 plan when we checked",
+          "some central stations might close at short notice or at busy times to prevent overcrowding",
+          "The release did not mention free travel"
+        ]
+      },
+      "recheck_days": 7,
+      "note": "Replace with TfL's 2026 plan when published."
+    },
+    {
+      "id": "gb.london.nye.sea-containers-package",
+      "topic": "hotel",
+      "claim": "Sea Containers London (20 Upper Ground, SE1 9PD) sells The Ultimate New Year's Eve View for stays 31 December to 1 January: Superior and Studio rooms with what it calls a guaranteed view of the fireworks display from the room, champagne and canapes before midnight and New Year's Day buffet breakfast; full prepayment, non-cancellable and non-refundable. The hotel has 354 guest rooms.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.seacontainerslondon.com/offers/the-ultimate-new-year-s-eve-view/",
+          "kind": "official",
+          "title": "Sea Containers London: The Ultimate New Year's Eve View"
+        },
+        {
+          "url": "https://www.seacontainerslondon.com/",
+          "kind": "official",
+          "title": "Sea Containers London"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "The Ultimate New Year's Eve View",
+          "the package needs full prepayment and is non-refundable"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "gb.london.nye.one-aldwych-package",
+      "topic": "hotel",
+      "claim": "One Aldwych's New Year's Eve package (valid for stays on and across 31 December 2026, subject to availability) covers an overnight stay for two, a New Year's Eve experience in the Lobby Bar, late check-out guaranteed until 1pm and breakfast; cancellation is fully flexible up to 24 hours before arrival, with the first night charged for late cancellation or non-arrival; rates include VAT.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.onealdwych.com/offer/new-years-eve",
+          "kind": "official",
+          "title": "One Aldwych: Ring in the New Year"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "free up to 24 hours before arrival, then the first night is charged",
+          "One Aldwych states that its rates are inclusive of VAT"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "gb.london.nye.hoxton-southwark",
+      "topic": "hotel",
+      "claim": "The Hoxton, Southwark (40 Blackfriars Road, 192 rooms) says Southwark Tube is a 2-minute walk, Blackfriars Tube 5 minutes and Waterloo or London Bridge 10 minutes; booked direct it offers free early check-in and late check-out with Flexy Time and free cancellation until 2pm the day before arrival. Southwark is the Mayor's named station for the pink gate 6.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://thehoxton.com/london/southwark/",
+          "kind": "official",
+          "title": "The Hoxton, Southwark"
+        },
+        {
+          "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
+          "kind": "official",
+          "title": "Mayor of London: London New Year's Eve 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "Southwark Tube, the station for the pink gate, a two-minute walk away",
+          "free cancellation until 2pm the day before arrival"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.nye.savoy-gala",
+      "topic": "hotel",
+      "claim": "The Savoy's festive page advertises a New Year's Eve gala with a champagne reception and five-course dinner, or a menu in its Gallery restaurant, to welcome 2027; the hotel has stood on the Strand since 1889 and says many of its rooms and suites have Thames or skyline views.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.thesavoylondon.com/festive-season",
+          "kind": "official",
+          "title": "The Savoy: festive season"
+        },
+        {
+          "url": "https://www.thesavoylondon.com/",
+          "kind": "official",
+          "title": "The Savoy"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "a gala with a champagne reception and five-course dinner",
+          "beside the Thames since 1889"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.nye.vat-no-city-tax",
+      "topic": "tax",
+      "claim": "The UK standard VAT rate is 20% and applies to hotel rooms; London has no city or tourist tax in 2026. On 10 September 2026 the government announced that mayors in England will be given the power to introduce an overnight visitor levy, charged as a percentage of the cost of accommodation, not a flat fee; no levy has been set for London.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/vat-rates",
+          "kind": "official",
+          "title": "GOV.UK: VAT rates"
+        },
+        {
+          "url": "https://www.gov.uk/government/news/local-leaders-handed-powers-to-drive-investment-in-communities",
+          "kind": "official",
+          "title": "GOV.UK: local leaders handed powers to drive investment in communities, 10 September 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "the 20% VAT is already in the price",
+          "no levy has been set for London, so none is charged in 2026"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.nye.eta",
+      "topic": "place",
+      "claim": "GOV.UK: an electronic travel authorisation (ETA) costs £20, lets you travel to the UK for up to 6 months, is usually needed instead of a visa by visitors from Europe, the USA, Australia, Canada and certain other countries, is needed by each traveller including babies and children, is not needed by British or Irish passport holders, does not guarantee entry, and other websites may charge more.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta",
+          "kind": "official",
+          "title": "GOV.UK: get an electronic travel authorisation (ETA)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-new-years-eve.html": [
+          "It costs £20 on GOV.UK, lets you travel for up to six months",
+          "An ETA does not guarantee entry"
+        ]
+      }
     }
   ]
 }

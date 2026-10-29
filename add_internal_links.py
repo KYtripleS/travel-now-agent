@@ -591,6 +591,26 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-strasbourg-christmas-market.html": (
+        "Where to Stay in Strasbourg",
+        "Dates, five areas, 12 hotels and the 2026 tourist tax for the Strasbourg Christmas market.",
+    ),
+    "articles/where-to-stay-in-tromso-northern-lights.html": (
+        "Where to Stay in Tromsø",
+        "Four areas, 12 hotels, the polar night dates and Tromsø's planned 3% visitor fee from 1 January 2027.",
+    ),
+    "articles/where-to-stay-in-new-orleans-mardi-gras.html": (
+        "Where to Stay in New Orleans",
+        "Fat Tuesday 9 February 2027, the St. Charles route, five areas, 12 hotels and the 15% hotel tax.",
+    ),
+    "articles/where-to-stay-in-zermatt.html": (
+        "Where to Stay in Zermatt",
+        "Five areas by lift, 12 hotels, 1 Nov opening, ski pass prices and the CHF 4 Kurtaxe in car-free Zermatt.",
+    ),
+    "articles/where-to-stay-in-london-new-years-eve.html": (
+        "Where to Stay in London",
+        "Ticketed fireworks, six viewing areas, four areas to stay in and 12 hotels, with 20% VAT and no city tax.",
+    ),
     "articles/where-to-stay-in-rio-carnival.html": (
         "Where to Stay in Rio de Janeiro",
         "Official 7-9 February parade nights, six areas, 12 hotels, and what Rio had not yet published.",
@@ -2145,6 +2165,36 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-rovaniemi-christmas.html",
+    ],
+    "articles/where-to-stay-in-tromso-northern-lights.html": [
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/where-to-stay-in-rovaniemi-christmas.html",
+    ],
+    "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
+        "articles/where-to-stay-in-rio-carnival.html",
+        "articles/where-to-stay-in-venice-carnival.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-usa-2026.html",
+    ],
+    "articles/where-to-stay-in-zermatt.html": [
+        "articles/where-to-stay-in-zurich.html",
+        "articles/where-to-stay-in-whistler.html",
+        "articles/where-to-stay-in-niseko.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-london-new-years-eve.html": [
+        "articles/where-to-stay-in-london.html",
+        "articles/where-to-stay-in-new-york-new-years-eve.html",
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-rio-carnival.html": [
         "articles/where-to-stay-in-venice-carnival.html",

@@ -426,6 +426,26 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-strasbourg-christmas-market": dict(
+        text="For a first Christmas market trip, stay on the Grande Île: the cathedral and Place Kléber markets are there, and the city bars motor traffic in market hours. Choose Hôtel Rohan for comfort, Hôtel Suisse for value, Régent Petite France for a splurge. Tourist tax is €2.86 a night per adult in a four-star.",
+        link_text="Grande Île",
+        cta=_stay_cta("where-to-stay-in-strasbourg-christmas-market", "See hotels around the Grande Île")),
+    "where-to-stay-in-tromso-northern-lights": dict(
+        text="For a first aurora trip, stay in Sentrum: shops, restaurants and an Airport Express stop on Storgata. Choose Scandic Ishavshotel for the quay, Smarthotel Tromsø for a budget bed, Malangen Resort for a night away from town. VAT is 12%; a 3% visitor fee is planned from 1 January 2027.",
+        link_text="Sentrum",
+        cta=_stay_cta("where-to-stay-in-tromso-northern-lights", "See hotels around Sentrum")),
+    "where-to-stay-in-new-orleans-mardi-gras": dict(
+        text="For a first Mardi Gras, stay in the CBD or on the Quarter's edge: the St. Charles parades end at Canal Street. The Windsor Court is the splurge, Le Pavillon the comfortable pick, Hotel Provincial the value one. Fat Tuesday is 9 February; hotel tax is 15% plus a nightly fee.",
+        link_text="CBD",
+        cta=_stay_cta("where-to-stay-in-new-orleans-mardi-gras", "See hotels around the CBD")),
+    "where-to-stay-in-zermatt": dict(
+        text="For a first ski trip, stay on Bahnhofstrasse: shops, restaurants and the station close by, with e-buses to the lifts. Choose Grand Hotel Zermatterhof for a grand hotel, Unique Hotel Post for the village's evenings, Hotel Holiday for a short walk to Sunnegga. The Kurtaxe is CHF 4 an adult a night, on top.",
+        link_text="Bahnhofstrasse",
+        cta=_stay_cta("where-to-stay-in-zermatt", "See hotels around Bahnhofstrasse")),
+    "where-to-stay-in-london-new-years-eve": dict(
+        text="For the fireworks, buy a ticket first, then stay on your gate's side of the Thames. On the South Bank, Sea Containers sells a New Year's Eve view package and Premier Inn County Hall is the budget pick; The Savoy suits the north bank. VAT is 20%, with no city tax.",
+        link_text="South Bank",
+        cta=_stay_cta("where-to-stay-in-london-new-years-eve", "See hotels around the South Bank")),
     "where-to-stay-in-rio-carnival": dict(
         text="For Carnival, choose your kind of night first: Copacabana for the beach and the blocos, Centro and Lapa for the Sambadrome. The Copacabana Palace is the splurge, the Pestana Rio Atlântica the beachfront middle and Mango Tree Ipanema the budget pick. The parades are 7 to 9 February; tickets are sold only on Ticketmaster.",
         link_text="Copacabana",
@@ -1500,6 +1520,11 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-strasbourg-christmas-market": ["Hôtel Rohan", "Hôtel Suisse", "Hôtel & Spa Régent Petite France"],
+    "where-to-stay-in-tromso-northern-lights": ["Scandic Ishavshotel", "Smarthotel Tromsø", "Malangen Resort"],
+    "where-to-stay-in-new-orleans-mardi-gras": ["The Windsor Court", "Le Pavillon", "Hotel Provincial"],
+    "where-to-stay-in-zermatt": ["Grand Hotel Zermatterhof", "Unique Hotel Post", "Hotel Holiday"],
+    "where-to-stay-in-london-new-years-eve": ["Sea Containers London", "The Hoxton, Southwark", "Premier Inn London County Hall"],
     "where-to-stay-in-rio-carnival": ["Copacabana Palace", "Pestana Rio Atlântica", "Mango Tree Ipanema"],
     "where-to-stay-in-hong-kong-chinese-new-year": ["Sheraton Hong Kong Hotel & Towers", "The Peninsula Hong Kong", "The Salisbury - YMCA of Hong Kong"],
     "where-to-stay-in-tokyo-new-year": ["Asakusa Tobu Hotel", "The Tokyo Station Hotel", "OMO3 Asakusa by Hoshino Resorts"],
@@ -2109,6 +2134,11 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Strasbourg", "where-to-stay-in-strasbourg-christmas-market", None, None),
+        ("Tromsø", "where-to-stay-in-tromso-northern-lights", None, None),
+        ("New Orleans", "where-to-stay-in-new-orleans-mardi-gras", None, None),
+        ("Zermatt", "where-to-stay-in-zermatt", None, None),
+        ("London", "where-to-stay-in-london-new-years-eve", None, None),
         ("Rio de Janeiro (Carnival)", "where-to-stay-in-rio-carnival", None, None),
         ("Hong Kong (Chinese New Year)", "where-to-stay-in-hong-kong-chinese-new-year", None, None),
         ("Tokyo (New Year)", "where-to-stay-in-tokyo-new-year", None, None),
@@ -2546,6 +2576,34 @@ STAY_POINTERS = {
     "where-to-stay-in-vancouver": ("intro",
         'Going on to the mountains? <a href="where-to-stay-in-whistler.html">Whistler accommodation for 2026/27</a> '
         'compares the village bases, the Skylynx bus from the airport and the taxes on a ski week.'),
+    "where-to-stay-in-london": ("intro",
+        'Here for 31 December? <a href="where-to-stay-in-london-new-years-eve.html">Where to stay in London for '
+        'New Year’s Eve</a> matches hotels to the six ticketed fireworks areas, with the £55 and £40 tickets and '
+        'the bridges that close.'),
+    "where-to-stay-in-zurich": ("intro",
+        'Heading on to the mountains? <a href="where-to-stay-in-zermatt.html">Where to stay in Zermatt for the '
+        '2026/27 ski season</a> sorts the car-free village by lift, about three and a half hours by train from '
+        'Zurich Airport.'),
+    "where-to-stay-in-whistler": ("intro",
+        'Skiing the Alps this season instead? <a href="where-to-stay-in-zermatt.html">Zermatt for 2026/27</a> '
+        'compares the village areas by lift, the CHF 4 nightly visitor tax and the shuttle train from Täsch.'),
+    "where-to-stay-in-paris": ("intro",
+        'In Paris in December? <a href="where-to-stay-in-strasbourg-christmas-market.html">Where to stay for the '
+        'Strasbourg Christmas market</a> (27 November to 24 December 2026) is under two hours away by direct TGV.'),
+    "where-to-stay-in-rovaniemi-christmas": ("intro",
+        'Chasing the northern lights too? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in '
+        'Tromsø for the northern lights</a> compares the harbour, the centre and two out-of-town lodges, with the '
+        'polar night dates.'),
+    "where-to-stay-in-reykjavik": ("intro",
+        'Weighing Norway for the aurora? <a href="where-to-stay-in-tromso-northern-lights.html">Tromsø for the '
+        'northern lights (2026/27)</a> covers the polar night, the airport bus and the 3% visitor fee planned '
+        'from 2027.'),
+    "where-to-stay-in-rio-carnival": ("intro",
+        'Closer to home for North Americans: <a href="where-to-stay-in-new-orleans-mardi-gras.html">New Orleans '
+        'for Mardi Gras 2027</a> (Fat Tuesday is 9 February) matches hotels to the St. Charles parade route.'),
+    "where-to-stay-in-new-york-new-years-eve": ("intro",
+        'Weighing London instead? <a href="where-to-stay-in-london-new-years-eve.html">London on New Year’s Eve</a> '
+        'covers the ticketed Thames fireworks, the areas within walking distance and the UK’s £20 ETA.'),
     # both
     "best-time-to-visit-australia": ("The south: Sydney",
         f'Once you have dates: <a href="{_S}">where to stay in Sydney</a> and <a href="{_M}">in Melbourne</a>, '

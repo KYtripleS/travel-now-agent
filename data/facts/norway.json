@@ -1,0 +1,372 @@
+{
+  "place": "Norway",
+  "facts": [
+    {
+      "id": "no.vat.accommodation-rate",
+      "topic": "tax",
+      "claim": "Norway's low VAT rate of 12% covers letting of rooms (accommodation); the normal rate is 25%. The Tax Administration page shows no explicit year but its year selector lists 2026 first.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.skatteetaten.no/en/rates/value-added-tax/",
+          "kind": "official",
+          "title": "Norwegian Tax Administration: Value added tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "accommodation carries 12% VAT",
+          "lists letting of rooms, with accommodation in the footnote, at 12%",
+          "VAT is 12%"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.visitor-fee-law",
+      "topic": "tax",
+      "claim": "Under the Storting's law on visitor contributions (decision of 5 June 2025), a municipality may charge an overnight fee of 3% of the payment for the stay excluding VAT (§ 2-3); it applies to the whole municipality (§ 2-1), to stays of under 30 consecutive days, the duty arises when the stay begins, the fee must be itemised in sales documents, and the municipality may set which months it applies; the ministry must approve the municipality's plan before the fee takes effect (§ 2-2).",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://stortinget.no/globalassets/pdf/lovvedtak/2024-2025/vedtak-202425-110.pdf",
+          "kind": "official",
+          "title": "Storting: Lovvedtak 110 (2024-2025), lov om besøksbidrag"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "a 3% surcharge on the payment for the stay, excluding VAT",
+          "It applies to stays of under 30 consecutive days",
+          "The duty to pay arises when the stay begins"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.visitor-fee-status",
+      "topic": "tax",
+      "claim": "Tromsø's council (kommunestyret) decided on 24 June 2026 to introduce the overnight fee, planned from 1 January 2027; the plan must be approved by the ministry before the fee can take effect (no approval found as of 28 Oct 2026); the draft local regulation is on public consultation with responses due 30 October 2026; the consultation does not cover the rate, which the city says is set in the law at 3%.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.tromso.kommune.no/hoeringer",
+          "kind": "official",
+          "title": "City of Tromsø: hearings (draft regulation on overnight fee)"
+        },
+        {
+          "url": "https://www.tromso.kommune.no/nyheter/2026/06/tromso-har-vedtatt-besoksbidrag-skal-sikre-baerekraftig-vekst-i-reiselivet",
+          "kind": "official",
+          "title": "City of Tromsø: Tromsø har vedtatt besøksbidrag"
+        },
+        {
+          "url": "https://www.tromso.kommune.no/tema/naering/reiseliv",
+          "kind": "official",
+          "title": "City of Tromsø: Reiseliv"
+        },
+        {
+          "url": "https://www.tromso.kommune.no/document/6111",
+          "kind": "official",
+          "title": "City of Tromsø: Plan for innføring av besøksbidrag"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "voted on 24 June 2026 to add a 3% visitor fee from 1 January 2027",
+          "Responses due 30 October 2026",
+          "we found no published approval",
+          "the consultation does not cover the rate, which is set in the law at 3%"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.polar-night",
+      "topic": "place",
+      "claim": "Visit Tromsø says the polar night lasts approximately from 27 November to 15 January, with a few hours of twilight a day; light returns gradually from mid-January and the sun is usually not visible from central Tromsø until later in January because of the surrounding mountains.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.visittromso.no/seasons/winter",
+          "kind": "official",
+          "title": "Visit Tromsø: Winter in Tromsø"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "roughly 27 November to 15 January",
+          "lasting approximately from 27 November to 15 January",
+          "usually not visible from central Tromsø until later in January"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.aurora-season",
+      "topic": "place",
+      "claim": "Visit Tromsø says the northern lights may be visible from late August to early April, that clear skies and darkness are essential, and that Tromsø lies within the auroral zone; it makes no guarantee of sightings.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.visittromso.no/northern-lights",
+          "kind": "official",
+          "title": "Visit Tromsø: Northern lights"
+        },
+        {
+          "url": "https://www.visittromso.no/seasons/winter",
+          "kind": "official",
+          "title": "Visit Tromsø: Winter in Tromsø"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "may be visible from late August to early April",
+          "clear skies and darkness are essential",
+          "no hotel or tour can promise a sighting"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.airport-flybussen",
+      "topic": "fare",
+      "claim": "Bussring's Tromsø Airport Express (Flybussen): adult NOK 125 one way, NOK 200 return (price list from 1 November 2024); trip to the airport about 15 minutes per Bussring (about 20 per Visit Tromsø); stops include The Dock Hotel, Scandic Ishavshotel, Havneterminalen (Prostneset), Storgata 44 (Scandic Grand), Polaria Strandveien, Moxy Hotel and the airport; Svipper says Flybussen tickets cannot be bought in the Svipper app; Visit Tromsø says it has dedicated luggage space.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.bussring.no/bussring-airport-express/",
+          "kind": "operator",
+          "title": "Bussring: Airport Express"
+        },
+        {
+          "url": "https://svipper.no/meny/billetter-og-priser/busspriser/ta-bussen-til-fra-flyplassen-i-tromso/",
+          "kind": "official",
+          "title": "Svipper: Ta bussen til/fra flyplassen i Tromsø"
+        },
+        {
+          "url": "https://www.visittromso.no/getting-around",
+          "kind": "official",
+          "title": "Visit Tromsø: Getting around"
+        },
+        {
+          "url": "https://www.visittromso.no/no/reise-rundt",
+          "kind": "official",
+          "title": "Visit Tromsø: Reise rundt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "NOK 125 one way and NOK 200 return for an adult, dated from 1 November 2024",
+          "Bussring says the trip to the airport takes about 15 minutes; Visit Tromsø says about 20",
+          "The Dock Hotel, Scandic Ishavshotel, Havneterminalen (Prostneset), Storgata 44, Polaria on Strandveien and Moxy Hotel",
+          "Flybussen tickets cannot be bought in the Svipper app"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.airport-city-buses",
+      "topic": "transport",
+      "claim": "City bus routes 24, 26, 40 and 42 stop at Tromsø Lufthavn Langnes (limited luggage space); tickets via the Svipper app, ticket machines or Visa/Mastercard on board, no cash; Svipper adult single 1 zone NOK 50 from 1 Feb 2026, off-peak single in Tromsø NOK 30 weekdays 09:00-14:00 and 17:00-01:00.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.visittromso.no/getting-around",
+          "kind": "official",
+          "title": "Visit Tromsø: Getting around"
+        },
+        {
+          "url": "https://svipper.no/menu/tickets/bus-fares/",
+          "kind": "official",
+          "title": "Svipper: Bus fares"
+        },
+        {
+          "url": "https://svipper.no/meny/billetter-og-priser/busspriser/ta-bussen-til-fra-flyplassen-i-tromso/",
+          "kind": "official",
+          "title": "Svipper: Ta bussen til/fra flyplassen i Tromsø"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "Routes 24, 26, 40 and 42 stop at Tromsø Lufthavn Langnes",
+          "or by Visa or Mastercard on board; cash is not accepted",
+          "NOK 50 for one zone from 1 February 2026",
+          "an off-peak single in Tromsø at NOK 30"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.airport-taxi",
+      "topic": "transport",
+      "claim": "Avinor: the taxi rank is to the left outside the arrivals hall, the ride to the city centre takes about 10 minutes, and taxi drivers must give the price in advance; Visit Tromsø says prices vary between operators.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.avinor.no/en/airport/Tromso/info/Taxi/",
+          "kind": "official",
+          "title": "Avinor: Taxi at Tromsø Airport"
+        },
+        {
+          "url": "https://www.visittromso.no/getting-around",
+          "kind": "official",
+          "title": "Visit Tromsø: Getting around"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "the rank is to the left outside the arrivals hall",
+          "the ride to the centre takes about 10 minutes, and drivers must tell you the price in advance"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.sentrum-hotels",
+      "topic": "hotel",
+      "claim": "Quality Hotel Grand Tromsø (Storgata 44): breakfast always included, gym, social lounge. Comfort Hotel Xpress Tromsø (Grønnegata 35-39): next to Tromsø Cathedral, 8 minutes' drive from the airport, parking from NOK 42/h. Smarthotel Tromsø (Vestregata 6): double room 9 sqm, superior 12-15 sqm, breakfast buffet included when booking direct. Radisson Blu Hotel Tromsø: Cozy Small Room 12 m2, standard 18 m2, superior 23 m2, 4 km from Langnes Airport.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.strawberryhotels.com/hotels/norway/tromso/quality-hotel-grand-tromso/",
+          "kind": "operator",
+          "title": "Quality Hotel Grand Tromsø"
+        },
+        {
+          "url": "https://www.strawberryhotels.com/hotels/norway/tromso/comfort-hotel-xpress-tromso/",
+          "kind": "operator",
+          "title": "Comfort Hotel Xpress Tromsø"
+        },
+        {
+          "url": "https://smarthotel.no/en/tromso",
+          "kind": "operator",
+          "title": "Smarthotel Tromsø"
+        },
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-tromso-net-zero",
+          "kind": "operator",
+          "title": "Radisson Blu Hotel Tromsø"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "with breakfast always included, a gym and a social lounge",
+          "next to Tromsø Cathedral and, by its own account, 8 minutes' drive from the airport",
+          "the double room is 9 m², and the superior rooms are 12 to 15 m²",
+          "Standard rooms are 18 m², superior rooms 23 m²",
+          "its entry-level Cozy Small Room is only 12 m²",
+          "parking is from NOK 42 an hour"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.harbour-hotels",
+      "topic": "hotel",
+      "claim": "Scandic Ishavshotel (Fredrik Langesgate 2): by the quayside, 50 m from the Hurtigruten ferry, standard 19-21 m2, standard single 16-20 m2. Clarion Hotel The Edge (Kaigata 6): by the water, about 10 minutes from the airport, superior twin 16-22 m2, breakfast depends on price type, parking from NOK 40/h. The Dock 69°39 by Scandic (Skansegata 7, 0.5 km to centre): standard 16-18 m2, superior 20-21 m2, wellness with entrance fee aged 16+. Home Hotel With (Sjøgata 35-37): breakfast, fika and dinner included, compact double 13 m2, standard twin 15 m2.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.scandichotels.com/en/hotels/scandic-ishavshotel",
+          "kind": "operator",
+          "title": "Scandic Ishavshotel"
+        },
+        {
+          "url": "https://www.strawberryhotels.com/hotels/norway/tromso/clarion-hotel-the-edge/",
+          "kind": "operator",
+          "title": "Clarion Hotel The Edge"
+        },
+        {
+          "url": "https://www.scandichotels.com/en/hotels/the-dock-69-39-by-scandic",
+          "kind": "operator",
+          "title": "The Dock 69°39 by Scandic"
+        },
+        {
+          "url": "https://www.strawberryhotels.com/hotels/norway/tromso/home-hotel-with/",
+          "kind": "operator",
+          "title": "Home Hotel With"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "by the quayside and 50 metres from the Hurtigruten ferry",
+          "Superior twin rooms are 16 to 22 m²",
+          "Standard rooms are 16 to 18 m² and superior rooms 20 to 21 m²",
+          "with the compact double at 13 m² and the standard twin at 15 m²",
+          "Scandic lists wellness and sauna as an entrance-fee amenity for guests aged 16 and over"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.tromsoya-hotels",
+      "topic": "hotel",
+      "claim": "St. Elisabeth Hotel & Spa (Mellomvegen 50): hotel describes a peaceful location 10 minutes from the city centre; daily spa sessions, adults-only after 13:00, spa passes booked online. Moxy Tromsø (Huldervegen 2): listed by Visit Tromsø as by Tromsø Airport; parking NOK 25/h or NOK 170/day; airport shuttle in partnership with Airport Express.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://entertromso.no/en/st-elisabeth-suites-en/",
+          "kind": "operator",
+          "title": "Enter Tromsø: St. Elisabeth Hotel & Spa"
+        },
+        {
+          "url": "https://www.marriott.com/en-us/hotels/tosox-moxy-tromso/overview/",
+          "kind": "operator",
+          "title": "Marriott: Moxy Tromsø"
+        },
+        {
+          "url": "https://www.visittromso.no/moxy-tromso",
+          "kind": "official",
+          "title": "Visit Tromsø: Moxy Tromsø"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "the spa is adults-only after 13:00 and pass-based",
+          "a peaceful location 10 minutes from the city centre",
+          "parking is NOK 25 an hour or NOK 170 a day"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.lodge",
+      "topic": "hotel",
+      "claim": "Tromsø Lodge & Camping is in Tromsdalen with 58 cabins in five categories, open all year, free parking, breakfast buffet; 5 minutes by car or 30 minutes on foot to the centre.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://tromsolodgeandcamping.no/",
+          "kind": "operator",
+          "title": "Tromsø Lodge & Camping"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "58 cabins in five categories",
+          "by car the centre is 5 minutes away, or 30 minutes on foot"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.malangen",
+      "topic": "transport",
+      "claim": "Malangen Resort (Skutvik, 9055 Mestervik) is a 70-minute drive south of Tromsø; shuttle bus from Tromsø city centre at fixed times 1 Dec-19 Apr, flexible shuttle 20 Apr-30 Nov; 10 hotel rooms, cabins and 20 waterfront apartments; the resort says its wilderness camp has minimal light pollution and calls itself one of the best northern lights hotspots in the Tromsø area.",
+      "checked": "2026-10-28",
+      "sources": [
+        {
+          "url": "https://www.malangenresort.com/om-oss/veibeskrivelse/",
+          "kind": "operator",
+          "title": "Malangen Resort: How to get to Malangen"
+        },
+        {
+          "url": "https://www.malangenresort.com/",
+          "kind": "operator",
+          "title": "Malangen Resort"
+        },
+        {
+          "url": "https://www.malangenresort.com/accommodation/",
+          "kind": "operator",
+          "title": "Malangen Resort: Accommodation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tromso-northern-lights.html": [
+          "70 minutes' drive south of Tromsø",
+          "the 1 December to 19 April shuttle runs at fixed times",
+          "a shuttle bus from Tromsø city centre at fixed times from 1 December to 19 April, and a flexible shuttle from 20 April to 30 November",
+          "minimal light pollution"
+        ]
+      }
+    }
+  ]
+}

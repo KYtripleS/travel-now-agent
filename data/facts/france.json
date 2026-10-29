@@ -756,6 +756,412 @@
           "three standard rooms on the castle-hill side have no view, and their windows do not open"
         ]
       }
+    },
+    {
+      "id": "fr.strasbourg.market-dates-hours-2026",
+      "topic": "place",
+      "claim": "The Strasbourg Christmas market runs Friday 27 November to Thursday 24 December 2026; opening day 14:00-21:00, every other day 11:00-21:00, 24 December 11:00-18:00; all stalls close permanently on the evening of 24 December and none open on 25 December.",
+      "sources": [
+        {
+          "url": "https://noel.strasbourg.eu/en/frequently-asked-questions",
+          "kind": "official",
+          "title": "Strasbourg Capitale de Noël: FAQ"
+        },
+        {
+          "url": "https://noel.strasbourg.eu/en/markets",
+          "kind": "official",
+          "title": "Strasbourg Capitale de Noël: The markets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "Friday 27 November to Thursday 24 December",
+          "Opening day, 27 November",
+          "All stalls close for good that evening; none open on 25 December"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.eight-markets",
+      "topic": "place",
+      "claim": "The city lists eight Christmas markets in the historic centre: Place Broglie (Chrìstkìndelsmärik), Place Kléber (Grand Sapin), Cathedral Square and Castle Square, Place du Temple Neuf (Carré d'Or), Rohan terrace and Fish Market Square (gourmet), Benjamin Zix and Saint Thomas squares (Petite France), Square Louise Weiss (small Alsatian producers; Advent Village) and Place Grimmeissen (OFF market).",
+      "sources": [
+        {
+          "url": "https://noel.strasbourg.eu/en/markets",
+          "kind": "official",
+          "title": "Strasbourg Capitale de Noël: The markets"
+        },
+        {
+          "url": "https://noel.strasbourg.eu/en/frequently-asked-questions",
+          "kind": "official",
+          "title": "Strasbourg Capitale de Noël: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "The city lists eight markets in the historic centre",
+          "Benjamin Zix and Saint Thomas squares",
+          "Square Louise Weiss"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.crowds",
+      "topic": "place",
+      "claim": "The city says Mondays, Tuesdays and mornings are the quietest times, and markets are very crowded on Wednesday afternoons, Friday evenings and throughout the weekend.",
+      "sources": [
+        {
+          "url": "https://noel.strasbourg.eu/en/frequently-asked-questions",
+          "kind": "official",
+          "title": "Strasbourg Capitale de Noël: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "Mondays, Tuesdays and mornings are the quietest times",
+          "Wednesday afternoons, Friday evenings and throughout the weekend"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.grande-ile-restrictions",
+      "topic": "transport",
+      "claim": "Motor vehicle traffic is prohibited on the Grande Île during market hours with access controls at the bridge entrances; bicycles and personal mobility devices are prohibited on the market squares 11:00-21:00; no luggage lockers within the market grounds (self-service luggage storage at the SNCF station); the city is entirely pedestrian during the festivities.",
+      "sources": [
+        {
+          "url": "https://noel.strasbourg.eu/en/frequently-asked-questions",
+          "kind": "official",
+          "title": "Strasbourg Capitale de Noël: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "Motor traffic is prohibited there during market hours",
+          "bicycles and personal mobility devices are not allowed on the market squares between 11am and 9pm",
+          "The market has no luggage lockers for security reasons"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.security-checks",
+      "topic": "place",
+      "claim": "The city's getting-around page (still carrying 2025 dates when read) says pedestrians and cyclists may be subject to random checks and that large items (suitcases, backpacks, cargo bikes) are systematically inspected when entering the Grande Île.",
+      "sources": [
+        {
+          "url": "https://noel.strasbourg.eu/en/getting-around-strasbourg",
+          "kind": "official",
+          "title": "Strasbourg Capitale de Noël: Getting around Strasbourg"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "suitcases and backpacks are systematically inspected when entering the Grande Île"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.station-walk-trams",
+      "topic": "transport",
+      "claim": "The historic centre and earliest chalets are a 10-minute walk from Strasbourg Central Station; tram lines A, C, D and F drop near the event venues.",
+      "sources": [
+        {
+          "url": "https://noel.strasbourg.eu/en/frequently-asked-questions",
+          "kind": "official",
+          "title": "Strasbourg Capitale de Noël: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "the first chalets are a 10-minute walk from Strasbourg Central Station",
+          "tram lines A, C, D and F stop near the market venues"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.park-and-ride",
+      "topic": "price",
+      "claim": "Park-and-ride facilities on the outskirts cost €4.20 per day with a round-trip tram ticket included for all passengers.",
+      "sources": [
+        {
+          "url": "https://noel.strasbourg.eu/en/frequently-asked-questions",
+          "kind": "official",
+          "title": "Strasbourg Capitale de Noël: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "park-and-ride at €4.20 a day, with a round-trip tram ticket for every passenger"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.tourist-tax-2026",
+      "topic": "tax",
+      "claim": "The Eurométropole de Strasbourg's 2026 taxe de séjour au réel grid (per person per night, including the departmental share paid to the Collectivité européenne d'Alsace): palace €5.39 (4.90+0.49); 5-star €3.96; 4-star €2.86 (2.60+0.26); 3-star €1.87 (1.70+0.17); 2-star €1.10; 1-star, chambres d'hôtes, auberges collectives €0.88; unclassified 5% of the night's price capped at €4.90 plus 10% capped at €0.49; exempt: minors under 18, seasonal employees in the Eurométropole, emergency housing, premises with rent under €1 a night. The grid shows no further regional surcharge.",
+      "sources": [
+        {
+          "url": "https://taxedesejourems.strasbourg.eu/includes/download/XaOjhv-Grille-tarifaire-2026-FR-taxe-de-sejour-20250523.pdf",
+          "kind": "official",
+          "title": "Eurométropole de Strasbourg: Tarifs 2026 de la taxe de séjour au réel (PDF)"
+        },
+        {
+          "url": "https://taxedesejourems.strasbourg.eu/",
+          "kind": "official",
+          "title": "Taxe de séjour Ville et Eurométropole de Strasbourg"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "€2.86 in a four-star hotel and €1.87 in a three-star",
+          "Minors under 18 are exempt",
+          "The grid shows no further regional surcharge",
+          "2 × 3 × €2.86, or €17.16",
+          "2 × 3 × €1.87, or €11.22"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.airport-train",
+      "topic": "transport",
+      "claim": "Strasbourg-Entzheim airport's shuttle train stops up to 5 per hour and reaches Strasbourg station in 8 minutes; a covered pedestrian footbridge links the airport and the station platform; TER-only ticket airport to Strasbourg station €3.20 one way; a ticket valid 24 hours on bus, tram and TER in the Eurométropole is €4.60.",
+      "sources": [
+        {
+          "url": "https://www.strasbourg.aeroport.fr/en/passengers/car-parks-and-access/shuttle-train/",
+          "kind": "official",
+          "title": "Strasbourg Airport: Shuttle train"
+        },
+        {
+          "url": "https://noel.strasbourg.eu/en/coming-by-plane",
+          "kind": "official",
+          "title": "Strasbourg Capitale de Noël: Air travel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "shuttle trains run up to five an hour and reach Strasbourg station in 8 minutes",
+          "A TER-only ticket is €3.20 one way",
+          "a ticket valid on tram, bus and TER for 24 hours is €4.60"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.paris-train",
+      "topic": "transport",
+      "claim": "SNCF Connect's Paris-Strasbourg timetable for Thursday 29 October 2026 lists 21 journeys a day, shortest 1h45, many direct trains 1h46.",
+      "sources": [
+        {
+          "url": "https://www.sncf-connect.com/fr-lu/train/horaires/paris/strasbourg",
+          "kind": "operator",
+          "title": "SNCF Connect: Horaires Paris-Strasbourg"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "lists 21 journeys a day from Paris to Strasbourg, the quickest taking 1h45 and many direct trains 1h46"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.basel-frankfurt",
+      "topic": "transport",
+      "claim": "EuroAirport has no rail link to Strasbourg; bus line 11 runs to Saint-Louis SNCF station (about 10-15 min, every 15-30 min 05:00-midnight) where direct trains run to Strasbourg every 30 minutes. SNCF Connect's 29 October 2026 sample: Basel-Strasbourg shortest 1h15; Frankfurt am Main-Strasbourg shortest 2h02.",
+      "sources": [
+        {
+          "url": "https://www.euroairport.com/en/transport",
+          "kind": "official",
+          "title": "EuroAirport: Transport"
+        },
+        {
+          "url": "https://www.sncf-connect.com/en-en/train/timetables/basel/strasbourg",
+          "kind": "operator",
+          "title": "SNCF Connect: Basel-Strasbourg"
+        },
+        {
+          "url": "https://www.sncf-connect.com/en-en/train/timetables/frankfurt-am-main/strasbourg",
+          "kind": "operator",
+          "title": "SNCF Connect: Frankfurt am Main-Strasbourg"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "EuroAirport has no rail link to Strasbourg",
+          "Basel to Strasbourg at 1h15 at the quickest",
+          "Frankfurt am Main to Strasbourg in 2h02 at the quickest"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.cts-fares",
+      "topic": "fare",
+      "claim": "CTS single ticket valid for one hour: from €1.90 on Badgéo card, CTS app or contactless ticket, €2.50 on board buses; 24H SOLO ticket from €4.60.",
+      "sources": [
+        {
+          "url": "https://www.cts-strasbourg.eu/en/buy/our-tickets/occasional-tickets/single-ticket/",
+          "kind": "operator",
+          "title": "CTS: Single ticket"
+        },
+        {
+          "url": "https://www.cts-strasbourg.eu/en/buy/our-tickets/occasional-tickets/",
+          "kind": "operator",
+          "title": "CTS: Occasional tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "a single ticket valid for an hour from €1.90 on its app or card (€2.50 on board buses)",
+          "a 24-hour solo ticket from €4.60"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.hotels-grande-ile",
+      "topic": "hotel",
+      "claim": "Hôtel Cathédrale (12-13 place de la Cathédrale): 16 Cathedral View rooms on the square, breakfast 7:00-10:00 (10:30 weekends), no lift between reception and first floor (about twenty steps). Hôtel Rohan (17-19 rue du Maroquin): four-star, 50 m from the cathedral, Comfort Double 15-25 m2 incl. bathroom with air conditioning, Comfort Single 10-13 m2. Hôtel Suisse (2-4 rue de la Râpe): three-star, 25 rooms, 14th-century house next to Palais Rohan, no air conditioning (fans), cannot accommodate reduced mobility.",
+      "sources": [
+        {
+          "url": "https://www.hotel-cathedrale.fr/portfolio-item/vue-cathedrale/",
+          "kind": "operator",
+          "title": "Hôtel Cathédrale: Vue Cathédrale rooms"
+        },
+        {
+          "url": "https://www.hotel-cathedrale.fr/contact/",
+          "kind": "operator",
+          "title": "Hôtel Cathédrale: contact and access"
+        },
+        {
+          "url": "https://www.hotel-rohan.com/fr/",
+          "kind": "operator",
+          "title": "Hôtel Rohan"
+        },
+        {
+          "url": "https://www.hotel-rohan.com/fr/chambre/chambres-confort-double/",
+          "kind": "operator",
+          "title": "Hôtel Rohan: Comfort Double"
+        },
+        {
+          "url": "https://www.hotel-rohan.com/fr/chambre/chambre-confort-single/",
+          "kind": "operator",
+          "title": "Hôtel Rohan: Comfort Single"
+        },
+        {
+          "url": "https://www.hotel-suisse.com/fr/",
+          "kind": "operator",
+          "title": "Hôtel Suisse"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "16 Cathedral View rooms look straight onto the square",
+          "there is no lift between reception and the first floor, a staircase of about twenty steps",
+          "its Comfort Double rooms are 15 to 25 m² including the bathroom",
+          "the Comfort Single is only 10 to 13 m² including the bathroom",
+          "A three-star hotel with 25 rooms at 2-4 rue de la Râpe",
+          "there is no air conditioning, only a fan in each room"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.hotels-petite-france-station",
+      "topic": "hotel",
+      "claim": "Hôtel & Spa Régent Petite France (5 rue des Moulins): 75 rooms with views of Petite France, the Ill or half-timbered houses, check-in 16:00, one hour of spa per person per night included on the room types read (by reservation). Mercure Strasbourg Centre Petite France (3 rue du Maire Kuss): rooms 12-19 m2, near the TGV station and five minutes from Petite France. Hôtel Vendôme (9 place de la Gare): three-star, 120 m from the TGV station, bar-lounge open 24 hours. ibis budget Strasbourg Centre Gare (13 place de la Gare): opposite the TGV station, rooms listed at 15 m2. Best Western Plus Monopole Métropole (16 rue Kuhn): near the TGV station.",
+      "sources": [
+        {
+          "url": "https://regent-petite-france.com/chambres-et-suites/",
+          "kind": "operator",
+          "title": "Régent Petite France: rooms and suites"
+        },
+        {
+          "url": "https://all.accor.com/hotel/1813/index.en.shtml",
+          "kind": "operator",
+          "title": "Mercure Strasbourg Centre Petite France"
+        },
+        {
+          "url": "https://www.hotel-vendome.com/",
+          "kind": "operator",
+          "title": "Hôtel Vendôme"
+        },
+        {
+          "url": "https://all.accor.com/hotel/3183/index.en.shtml",
+          "kind": "operator",
+          "title": "ibis budget Strasbourg Centre Gare"
+        },
+        {
+          "url": "https://www.bestwestern.com/en_US/book/hotels-in-strasbourg/best-western-plus-monopole-metropole/propertyCode.93366.html",
+          "kind": "operator",
+          "title": "Best Western Plus Monopole Métropole"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "75 rooms that all look onto Petite France",
+          "the room sizes it lists run from 12 to 19 m²",
+          "A three-star hotel at 9 place de la Gare, 120 m from the TGV station",
+          "its rooms are listed at 15 m²",
+          "centrally placed near the TGV station and the historic quarters"
+        ]
+      },
+      "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.strasbourg.hotels-neustadt-krutenau",
+      "topic": "hotel",
+      "claim": "Hôtel Régent Contades (8 avenue de la Liberté): four-star, 48 rooms and suites, 3 accessible, wellness area with sanarium and massages, parking paid and by reservation. ibis budget Strasbourg Centre République (23A rue Oberlin, Neustadt): rooms 13-18 m2, check-in from 12:00. Hôtel Diana Dauphine (30 rue de la 1ère Armée, Krutenau): four-star, 46 rooms, Standard 16-18 m2, breakfast €20 per person per day, underground parking €30 a night, tram stop Porte de l'Hôpital (A, D) 250 m, cathedral and Petite France 10 min on foot, flexible rate cancellable until 15:00 the day before. Hôtel Beaucour (5 rue des Bouchers): four-star, 49 rooms, balneotherapy tubs in 31, Austerlitz car park €22/24h max height 1.90 m, four tram stops (under 7 min) from the station.",
+      "sources": [
+        {
+          "url": "https://regent-contades.com/fr/",
+          "kind": "operator",
+          "title": "Hôtel Régent Contades"
+        },
+        {
+          "url": "https://all.accor.com/hotel/B6A3/index.en.shtml",
+          "kind": "operator",
+          "title": "ibis budget Strasbourg Centre République"
+        },
+        {
+          "url": "https://www.hotel-diana-dauphine.com/fr/faq/",
+          "kind": "operator",
+          "title": "Hôtel Diana Dauphine: FAQ"
+        },
+        {
+          "url": "https://www.hotel-diana-dauphine.com/fr/hotel-charme-strasbourg/chambres-standard/",
+          "kind": "operator",
+          "title": "Hôtel Diana Dauphine: Standard rooms"
+        },
+        {
+          "url": "https://www.hotel-beaucour.com/en/strasbourg-hotel",
+          "kind": "operator",
+          "title": "Hôtel Beaucour"
+        },
+        {
+          "url": "https://www.hotel-beaucour.com/en/contact",
+          "kind": "operator",
+          "title": "Hôtel Beaucour: contact and access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-strasbourg-christmas-market.html": [
+          "with 48 rooms and suites, three of them accessible",
+          "with rooms of 13 to 18 m²",
+          "Standard rooms are 16 to 18 m²",
+          "breakfast is €20 per person per day and underground parking is €30 a night",
+          "with 49 individually decorated rooms, balneotherapy tubs in 31 of them",
+          "is €22 for 24 hours with a 1.90 m height limit"
+        ]
+      },
+      "checked": "2026-10-29"
     }
   ]
 }
