@@ -269,6 +269,10 @@
         ],
         "articles/hotel-taxes-around-the-world-2026.html": [
           "The top band is ¥10,000 a person a night from a room rate of ¥100,000"
+        ],
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "Since 1 March 2026",
+          "10,000 yen"
         ]
       },
       "watch": "(?i)kyoto[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥",
@@ -4691,6 +4695,287 @@
       ],
       "checked": "2026-10-28",
       "note": "Not yet in force. Consent from the Ministry of Internal Affairs and Communications pending; the start date is set by regulation within two years of consent."
+    },
+    {
+      "id": "jp.kyoto.new-year.joya-no-kane-2026",
+      "topic": "place",
+      "claim": "Kyoto City Tourism Association's list of Kyoto temple bells for 31 December 2026 gives Chion-in from 10:20pm (viewing only, advance application, 3,000 yen, free for elementary school children and under; trial ringing Sunday 27 December 2pm), Kodai-ji 11:45pm (numbered tickets for the first 108 groups from 10pm; hatsumode 10pm to 2am), Hyakumanben Chion-ji 11:30pm to 12:30am, Eikan-do 11pm to 12:30am, Shinnyo-do 11:45pm, Mibu-dera 11:30pm, Tenryu-ji from 11:30pm (numbers for the first 108 groups) and Myoman-ji 3pm to 5pm; 12 temples besides Chion-in and Kodai-ji.",
+      "checked": "2026-10-30",
+      "recheck_days": 14,
+      "sources": [
+        {
+          "url": "https://ja.kyoto.travel/event/single.php?event_id=7062",
+          "kind": "official",
+          "title": "Kyoto City Tourism Association: temple bells in Kyoto 2026"
+        },
+        {
+          "url": "https://www.chion-in.or.jp/event/event/1508/",
+          "kind": "official",
+          "title": "Chion-in: trial ringing 27 December 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "Kyoto City Tourism Association already lists the temple bells for 31 December 2026",
+          "hatsumode there from 10pm to 2am",
+          "Tenryu-ji hands out numbers for the first 108 groups from 11:30pm"
+        ]
+      },
+      "note": "Chion-in's own joya page still carries 2025 sale dates; recheck from 1 Dec."
+    },
+    {
+      "id": "jp.kyoto.new-year.chion-in-2025-terms",
+      "topic": "place",
+      "claim": "Chion-in's own bell page still carries last year's terms: online applications from 2pm on 1 December for four groups of 500, a cash sale of 400 tickets at the Yuzen-en office from 8 to 24 December, 3,000 yen each, about 30 minutes inside per group, viewing only, no re-entry, no applications on the day; trial ringing 27 December 2026 at 2pm in the bell tower.",
+      "checked": "2026-10-30",
+      "recheck_days": 14,
+      "sources": [
+        {
+          "url": "https://www.chion-in.or.jp/special/joya",
+          "kind": "official",
+          "title": "Chion-in: New Year's Eve bell"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "online applications from 2pm on 1 December for four groups of 500",
+          "about 30 minutes inside per group",
+          "Last year its applications opened on 1 December"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.new-year.yasaka-okera",
+      "topic": "place",
+      "claim": "Yasaka Shrine's New Year page describes the okera-mairi from about 7:30pm on 31 December to about 5am on 1 January (year-end service at 7pm, fire carried home on a rope), Okera ceremony at 5am on 1 January, Noh at 9am and poetry-card ceremony at 1pm on 3 January; the shrine says worship is possible 24 hours. The page is not dated.",
+      "checked": "2026-10-30",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.yasaka-jinja.or.jp/event/shougatsu/",
+          "kind": "official",
+          "title": "Yasaka Shrine: New Year festival"
+        },
+        {
+          "url": "https://www.yasaka-jinja.or.jp/sanpai/",
+          "kind": "official",
+          "title": "Yasaka Shrine: visiting"
+        },
+        {
+          "url": "https://www.yasaka-jinja.or.jp/en/event/",
+          "kind": "official",
+          "title": "Yasaka Shrine: annual events"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "runs from about 7:30pm on 31 December to about 5am on 1 January",
+          "The shrine says it is open 24 hours for worship",
+          "a Noh performance at 9am and a poetry-card ceremony at 1pm"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.new-year.fushimi-inari",
+      "topic": "place",
+      "claim": "Fushimi Inari Taisha's homepage still shows last year's New Year hours: prayers 8:30am to 2:30pm on 31 December and midnight to 5:30pm on 1 January (paused 5am to 7am); stalls from 31 December to 5 January; shrine car parks closed 30 December to 6 January; it asks visitors to check public transport. Its December rites page lists the year-end purification at 3pm on 31 December. It is next to JR Inari station (2 stations, 5 minutes from Kyoto Station) and 5 minutes' walk from Keihan Fushimi-Inari.",
+      "checked": "2026-10-30",
+      "recheck_days": 14,
+      "sources": [
+        {
+          "url": "https://inari.jp/",
+          "kind": "official",
+          "title": "Fushimi Inari Taisha: official site"
+        },
+        {
+          "url": "https://inari.jp/rite/?month=12月",
+          "kind": "official",
+          "title": "Fushimi Inari Taisha: December rites"
+        },
+        {
+          "url": "https://inari.jp/en/access/",
+          "kind": "official",
+          "title": "Fushimi Inari Taisha: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "prayers on 31 December from 8:30am to 2:30pm",
+          "the shrine's car parks close from 30 December to 6 January",
+          "two stops and five minutes away on the JR Nara line"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.new-year.heian-jingu",
+      "topic": "place",
+      "claim": "Heian Jingu's annual rites page lists a year-end purification at 3pm and a service at 4pm on 31 December and a ceremony at 6am on 1 January; its ordinary hours from November to February are 6am to 5pm; no special New Year hours found.",
+      "checked": "2026-10-30",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.heianjingu.or.jp/ritual/annual/",
+          "kind": "official",
+          "title": "Heian Jingu: annual rites"
+        },
+        {
+          "url": "https://www.heianjingu.or.jp/visit/worship/",
+          "kind": "official",
+          "title": "Heian Jingu: visiting hours"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "the year-end purification at 3pm and a service at 4pm on 31 December",
+          "from November to February are 6am to 5pm"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.new-year.kiyomizu",
+      "topic": "place",
+      "claim": "Kiyomizu-dera's 2026 annual events list 108 bells on 31 December with no times or ticket terms; its ordinary hours are 6am to 6pm (6:30pm in July and August).",
+      "checked": "2026-10-30",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.kiyomizudera.or.jp/event/",
+          "kind": "official",
+          "title": "Kiyomizu-dera: annual events 2026"
+        },
+        {
+          "url": "https://www.kiyomizudera.or.jp/news/open-hour.php",
+          "kind": "official",
+          "title": "Kiyomizu-dera: open hours"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "lists 108 bells on 31 December and gives no times or ticket terms",
+          "Its ordinary hours are 6am to 6pm"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.new-year.crowds",
+      "topic": "place",
+      "claim": "Kyoto City Tourism Association (23 December 2025) said the busiest times are just after the gates open and the morning of 1 January, asked visitors to spread visits beyond the first three days, and pointed to comfort-forecast pages and live cameras for Fushimi Inari and the Yasaka area.",
+      "checked": "2026-10-30",
+      "recheck_days": 60,
+      "sources": [
+        {
+          "url": "https://ja.kyoto.travel/news/format.php?id=458",
+          "kind": "official",
+          "title": "Kyoto City Tourism Association: New Year in Kyoto 2025-2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "the busiest times are just after the gates open and the morning of 1 January",
+          "Its comfort-forecast pages and live cameras cover Fushimi Inari and the Yasaka area"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.new-year.trains-2025",
+      "topic": "transport",
+      "claim": "For New Year's Eve 2025/26 Keihan ran all night from 6pm on 31 December to 7am on 1 January on its main, Oto, Nakanoshima, Katano and Uji lines (not the Otsu lines); the Kyoto city subway and buses, JR West, Hankyu, Eizan and Randen did not run overnight, and the subway and buses did not extend last trains; subway ran Saturday/holiday timetables 27 December to 4 January and buses holiday timetables 28 December to 4 January; tourist express buses EX100/EX101 ran daily 27 December to 4 January. No 2026/27 notices on 30 October 2026.",
+      "checked": "2026-10-30",
+      "recheck_days": 14,
+      "sources": [
+        {
+          "url": "https://ja.kyoto.travel/news/format.php?id=459",
+          "kind": "official",
+          "title": "Kyoto City Tourism Association: trains and buses 2025-2026"
+        },
+        {
+          "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000347827.html",
+          "kind": "official",
+          "title": "Kyoto City Transportation Bureau: year-end and New Year timetables"
+        },
+        {
+          "url": "https://web.archive.org/web/20260102082528/https://www.keihan.co.jp/corporate/info/news/2025/detail/geishun.html",
+          "kind": "operator",
+          "title": "Keihan: New Year 2025-26 timetable (archived copy)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "it ran all night from 6pm on 31 December to 7am on 1 January",
+          "The subway ran Saturday and holiday timetables from 27 December to 4 January",
+          "The two tourist express buses ran daily from 27 December to 4 January"
+        ]
+      },
+      "note": "Keihan's own 2025 page now 404s; read via Wayback. Hankyu's page 404s; the Tourism Association summary is used. Recheck early December for 2026/27 notices."
+    },
+    {
+      "id": "jp.kyoto.subway-bus-day-pass",
+      "topic": "fare",
+      "claim": "The Kyoto City Subway & Bus 1-Day Pass costs 1,100 yen for an adult (550 yen child).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www2.city.kyoto.lg.jp/kotsu/webguide/en/ticket/regular_1day_card_comm.html",
+          "kind": "official",
+          "title": "Kyoto City Bus & Subway: Subway & Bus 1-Day Pass"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "costs 1,100 yen for an adult on the city's own page"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.new-year.hotel.granvia",
+      "topic": "hotel",
+      "claim": "Hotel Granvia Kyoto's 2026-2027 New Year page lists an Inari shrine on the fifth floor open 7am to 8pm on 1 to 3 January (9am to 1pm on the 3rd), a guests-only countdown in the second-floor lobby 11:30pm to 12:15am on 31 December, a guests-only first-sunrise viewing on the 15th floor at 7am on 1 January, and New Year plans from 28,547 yen (room only), 35,757 yen (breakfast) and 72,714 yen (lounge) per person for two sharing.",
+      "checked": "2026-10-30",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://jrwest-hotels.jp/en/granvia-kyoto/event/1133/",
+          "kind": "operator",
+          "title": "Hotel Granvia Kyoto: 2026-2027 year-end and New Year information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "lists an Inari shrine on the fifth floor open from 7am to 8pm on 1 to 3 January",
+          "a countdown by a violin and guitar duo for guests only",
+          "from 28,547 yen a person for two sharing"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.new-year.hotel.yachiyo-len",
+      "topic": "hotel",
+      "claim": "Ryokan Yachiyo (16 rooms, Keage 5 minutes' walk) says it has no curfew and asks late guests to tell the front desk; Len Kyoto Kawaramachi's reception runs 8am to 10pm with check-in 4pm to 10pm, and it posted a warning about suspicious messages to guests on 8 October 2026.",
+      "checked": "2026-10-30",
+      "recheck_days": 30,
+      "sources": [
+        {
+          "url": "https://www.ryokan-yachiyo.com/",
+          "kind": "operator",
+          "title": "Ryokan Yachiyo: official site"
+        },
+        {
+          "url": "https://backpackersjapan.co.jp/kyotohostel/hostel",
+          "kind": "operator",
+          "title": "Len Kyoto Kawaramachi: hostel"
+        },
+        {
+          "url": "https://backpackersjapan.co.jp/kyotohostel/261008-2/",
+          "kind": "operator",
+          "title": "Len Kyoto Kawaramachi: notice, 8 October 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-new-year.html": [
+          "Ryokan Yachiyo says it has no curfew and asks you to tell the front desk",
+          "reception runs 8am to 10pm and check-in 4pm to 10pm"
+        ]
+      }
     }
   ]
 }

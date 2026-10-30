@@ -92,6 +92,9 @@
         ],
         "articles/europe-rail-pass-worth-it-2026.html": [
           "where the CDG Express starts in March 2027"
+        ],
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "does not open until 28 March 2027"
         ]
       },
       "watch": "CDG Express"
@@ -118,6 +121,11 @@
           "a single metro ticket is €2.55",
           "a Navigo day pass, €12.30, covers every zone but the airports",
           "on the €14 airport ticket"
+        ],
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "on the €14 airport ticket",
+          "a Navigo day pass for all zones is €12.30",
+          "a Métro, train or RER ticket is €2.55"
         ]
       },
       "watch": "(metro|RER|airport) ticket[^.]{0,40}€\\s?\\d"
@@ -137,6 +145,9 @@
       "used_in": {
         "articles/where-to-stay-in-paris.html": [
           "the RER B reaches central Paris, including the Gare du Nord and Châtelet, in about 30 minutes"
+        ],
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "reaches central Paris, including Gare du Nord and Châtelet, in about 30 minutes"
         ]
       },
       "note": "The RATP page still shows an older €11.45 fare; the 2026 airport ticket is €14 (fr.idfm.fares-2026)."
@@ -156,6 +167,9 @@
       "used_in": {
         "articles/where-to-stay-in-paris.html": [
           "metro line 14 reaches the centre in about 25 minutes"
+        ],
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "reaches the centre in about 25 minutes"
         ]
       }
     },
@@ -187,6 +201,9 @@
         "articles/where-to-stay-in-stockholm.html": [
           "ETIAS is not running yet",
           "the fee will be €20"
+        ],
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "is not in operation and no applications are being taken"
         ]
       },
       "watch": "ETIAS",
@@ -207,6 +224,9 @@
       "used_in": {
         "articles/where-to-stay-in-paris.html": [
           "The EU's Entry/Exit System registers visitors from outside the EU at the border"
+        ],
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "gradually replacing passport stamps"
         ]
       }
     },
@@ -1162,6 +1182,430 @@
         ]
       },
       "checked": "2026-10-29"
+    },
+    {
+      "id": "fr.paris.nye.2026-status",
+      "topic": "place",
+      "claim": "On 29 October 2026 the City of Paris's New Year's Eve page still described the 31 December 2025 edition (marked 'Évènement terminé', updated 31/12/2025) and no 2026 programme was found; Paris je t'aime lists a free show at the Arc de Triomphe for 31 December 2026 to 1 January 2027 (mapping 23:50, countdown 23:59, about ten minutes of fireworks at midnight, end 00:20, public admitted from 19:00) but repeats last year's station-closure times word for word; the Préfecture de Police had not published a 2026 order.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.paris.fr/evenements/soiree-du-nouvel-an-tout-ce-qu-il-faut-savoir-sur-le-feu-d-artifice-des-champs-elysees-102364",
+          "kind": "official",
+          "title": "Ville de Paris: Soirée du Nouvel An (31 Dec 2025 edition)"
+        },
+        {
+          "url": "https://parisjetaime.com/evenement/spectacle-son-et-lumiere-feu-dartifice-champs-elysees-nouvel-an-e325",
+          "kind": "official",
+          "title": "Paris je t'aime: Nouvel An 2027 à l'Arc de Triomphe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "did not find a 2026 programme on paris.fr",
+          "with video mapping on the monument from 11.50pm",
+          "Its listing repeats last year's station-closure times word for word",
+          "had not published an order for 2026 either"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.2025-programme",
+      "topic": "place",
+      "claim": "For 31 December 2025 the City's page said the Champs-Élysées opened to the public at 19:00, mainly through the Place de la Concorde (other entrances via avenue Montaigne, avenue Matignon and avenue Franklin D. Roosevelt), video mapping on the Arc de Triomphe at 23:50 and fireworks at midnight, the event free, 19:00 to 00:20; it recommended arriving early, dressing warmly and not bringing strollers.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.paris.fr/evenements/soiree-du-nouvel-an-tout-ce-qu-il-faut-savoir-sur-le-feu-d-artifice-des-champs-elysees-102364",
+          "kind": "official",
+          "title": "Ville de Paris: Soirée du Nouvel An (31 Dec 2025 edition)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "the avenue opened to the public at 7pm, mainly through the Place de la Concorde",
+          "on the Arc de Triomphe, not the Eiffel Tower",
+          "leaving strollers at home"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.2025-perimeter",
+      "topic": "place",
+      "claim": "Préfecture de Police order no. 2025-01692 (22 December 2025): protection perimeter from 16:00 on 31 December to 04:00 on 1 January in which people had to submit to pat-downs and bag searches when asked; fireworks, pyrotechnic articles, firearms including replicas and objects usable as weapons or projectiles banned; take-away alcohol sales and consumption on the public road banned in the perimeter; terraces on the Champs-Élysées cleared of furniture.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://cdn.paris.fr/paris/2025/12/30/arrete-pp-mesures-de-securisation-31-decembre-2025-meyl.pdf",
+          "kind": "official",
+          "title": "Préfecture de Police: arrêté 2025-01692, 22 Dec 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "anyone entering the perimeter had to agree to pat-downs and bag searches if asked",
+          "take-away alcohol sales and drinking on the street",
+          "the avenue's terraces were cleared of furniture"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.2025-parking",
+      "topic": "place",
+      "claim": "Préfecture de Police order no. 2025-01687 (19 December 2025) banned parking of all vehicles from 22:00 on 30 December 2025 to 04:00 on 1 January 2026 on listed streets around Place Charles de Gaulle in the 8th, 16th and 17th arrondissements.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://cdn.paris.fr/paris/2025/12/22/arrete-pp-31-decembre-2025-q8nV.pdf",
+          "kind": "official",
+          "title": "Préfecture de Police: arrêté 2025-01687, 19 Dec 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "banned parking from 10pm on 30 December around Place Charles de Gaulle"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.2025-stations",
+      "topic": "transport",
+      "claim": "For 31 December 2025 the City's page listed station closures: 14:00 Charles de Gaulle-Étoile (RER A, lines 1, 2, 6) and Argentine (1); 16:00 Kléber (6), George V (1), Franklin D. Roosevelt (1, 9), Champs-Élysées-Clemenceau (1, 13), Concorde (1, 8, 12), Tuileries (1), Boissière (6), Saint-Philippe du Roule (9), Iéna (9); 21:00 Dupleix and Passy (6); 00:10 Ternes (2); Étoile, Kléber, George V, Franklin D. Roosevelt and Concorde reopening about 01:00.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.paris.fr/evenements/soiree-du-nouvel-an-tout-ce-qu-il-faut-savoir-sur-le-feu-d-artifice-des-champs-elysees-102364",
+          "kind": "official",
+          "title": "Ville de Paris: Soirée du Nouvel An (31 Dec 2025 edition)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "Étoile, Kléber, George V, Franklin D. Roosevelt and Concorde were due to reopen at about 1am",
+          "Étoile station shut at 2pm last year",
+          "Trocadéro was not on the list"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.2025-free-transport",
+      "topic": "transport",
+      "claim": "The City's page said public transport was free from 17:00 on 31 December 2025 to noon on 1 January 2026; the trade site Transbus adds that airport zones were excluded and that metro lines 1, 2, 4, 6, 9 and 14 and the RER ran through the night; Île-de-France Mobilités's 2017 release gave the same 17:00-to-noon window. No 2026 plan was found (the IDFM site blocked automated access).",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.paris.fr/evenements/soiree-du-nouvel-an-tout-ce-qu-il-faut-savoir-sur-le-feu-d-artifice-des-champs-elysees-102364",
+          "kind": "official",
+          "title": "Ville de Paris: Soirée du Nouvel An (31 Dec 2025 edition)"
+        },
+        {
+          "url": "https://www.transbus.org/actualite/actu-2025-12-transport-public-fetes-reveillon-nouvel-an.html",
+          "kind": "news",
+          "title": "Transbus: offre adaptée pour le réveillon"
+        },
+        {
+          "url": "https://www.iledefrance-mobilites.fr/actualites/profitez-pleinement-de-soiree-nouvel-an-grace-a-ile-de-france-mobilites",
+          "kind": "official",
+          "title": "Île-de-France Mobilités: press release 21 Dec 2017"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "public transport was free from 5pm on 31 December to noon on 1 January",
+          "airport zones were excluded",
+          "Île-de-France Mobilités gave the same window in 2017"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.2026-listing-rules",
+      "topic": "place",
+      "claim": "Paris je t'aime's 2026 listing says shops and venues are expected to close progressively between 15:00 and 18:00, terraces from 16:00, and that animals, alcoholic drinks, glass containers, dangerous objects, bikes, scooters and helmets are not allowed.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://parisjetaime.com/evenement/spectacle-son-et-lumiere-feu-dartifice-champs-elysees-nouvel-an-e325",
+          "kind": "official",
+          "title": "Paris je t'aime: Nouvel An 2027 à l'Arc de Triomphe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "shops are expected to close between 3pm and 6pm",
+          "glass containers, animals, bikes, scooters and helmets are not allowed"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.tourist-tax-2026-components",
+      "topic": "tax",
+      "claim": "The City of Paris grid from 1 January 2026 adds to the municipal rate a 10% departmental share and two regional shares (15% for the Société du Grand Paris, 200% for Île-de-France Mobilités), per adult per night: palace €4.90+0.49+0.74+9.80=€15.93; 5-star 3.60+0.36+0.54+7.20=€11.70; 4-star 2.60+0.26+0.39+5.20=€8.45; 3-star 1.70+0.17+0.26+3.40=€5.53; 2-star 1.00+0.10+0.15+2.00=€3.25; 1-star, B&Bs and hostels 0.80+0.08+0.12+1.60=€2.60; unclassified lodging pays 5% of the per-person nightly cost excluding VAT plus the additional shares, capped at €15.93; the grid shows no New Year's Eve supplement; minors are exempt.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://files.parisjetaime.com/pro/taxe-de-sejour-paris-2026.pdf",
+          "kind": "official",
+          "title": "City of Paris: tourist tax rates from 1 January 2026 (PDF)"
+        },
+        {
+          "url": "https://taxedesejour.paris.fr/",
+          "kind": "official",
+          "title": "City of Paris: taxe de séjour, exemptions"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "adds a 10% departmental share and two regional shares",
+          "Unclassified hotels pay 5% of the nightly cost per person before VAT",
+          "It has no New Year's Eve supplement"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: a couple staying three nights (six person-nights) pays €50.70 at a four-star (6 x 8.45), €70.20 at a five-star (6 x 11.70), €95.58 at a palace (6 x 15.93) and €33.18 at a three-star (6 x 5.53).",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://files.parisjetaime.com/pro/taxe-de-sejour-paris-2026.pdf",
+          "kind": "official",
+          "title": "City of Paris: tourist tax rates from 1 January 2026 (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "€50.70 at a four-star (6 × €8.45)",
+          "€95.58 at a palace"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-crillon",
+      "topic": "hotel",
+      "claim": "Hôtel de Crillon: 10 place de la Concorde, 8th; its site lists 36 suites and ten signature suites; advertises a Masquerade Ball for New Year (festive cocktail reception, live music, dancing, DJ set) booked via its experiences page; no price or minimum stay stated; calls itself a Parisian palace.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.rosewoodhotels.com/en/hotel-de-crillon",
+          "kind": "official",
+          "title": "Hôtel de Crillon: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "a site that lists 36 suites and ten signature suites",
+          "a Masquerade Ball with a festive cocktail reception, live music, dancing and a DJ set"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-napoleon",
+      "topic": "hotel",
+      "claim": "Hôtel Napoléon: 40 avenue de Friedland, 8th; five-star; 96 rooms including 57 suites; Superior rooms 17 to 23 m2; three Eiffel Junior Suites on the top floor with a balcony facing the Eiffel Tower; Étoile station (lines 1, 2, 6, RER A) a two-minute walk away per its FAQ; offers page lists no New Year's Eve package.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://en.hotelnapoleon.com/faq",
+          "kind": "official",
+          "title": "Hôtel Napoléon: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "with 96 rooms and suites",
+          "Superior rooms run 17 to 23 m²"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-lord-byron",
+      "topic": "hotel",
+      "claim": "Hôtel Lord Byron: 5 rue Chateaubriand, 8th; four-star boutique hotel; 52 rooms and suites; renovated 2019; two minutes from the Champs-Élysées, 9 minutes (0.65 km) walk from the Arc de Triomphe per its location page; Solo rooms 13 m2; special offers page has no New Year's Eve package.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://hotel-lordbyron.com/en/rooms-and-suites.html",
+          "kind": "official",
+          "title": "Hôtel Lord Byron: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "of 52 rooms and suites at 5 rue Chateaubriand",
+          "the Solo rooms are 13 m²"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-shangri-la",
+      "topic": "hotel",
+      "claim": "Shangri-La Paris: 10 avenue d'Iéna, 16th; former home of Prince Roland Bonaparte; Palace distinction; 100 rooms and suites, one bar and three restaurants; Eiffel View rooms; homepage offers on 29 Oct 2026 showed no New Year's Eve offer.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/paris/shangrila/",
+          "kind": "official",
+          "title": "Shangri-La Paris: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "a palace with 100 rooms and suites, one bar and three restaurants"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-eiffel-trocadero",
+      "topic": "hotel",
+      "claim": "Hôtel Eiffel Trocadéro: 35 rue Benjamin Franklin, 16th; four-star; 17 rooms including one suite; rooms with a view of the Eiffel Tower; bar lounge and restaurant; Champs-Élysées and Arc de Triomphe 10 minutes away per the hotel; no New Year's Eve terms found on the offers page.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.hoteleiffeltrocadero.com/en/",
+          "kind": "official",
+          "title": "Hôtel Eiffel Trocadéro: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "with 17 rooms including one suite",
+          "The hotel puts the Champs-Élysées and the Arc de Triomphe 10 minutes away"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-recamier",
+      "topic": "hotel",
+      "claim": "Hôtel Récamier: 3 bis place Saint-Sulpice, 6th; four-star boutique hotel; 24 rooms; free tea-time 16:00 to 18:00 daily; breakfast buffet €26 (express €16); smallest rooms 15 m2.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.hotelrecamier.com/",
+          "kind": "official",
+          "title": "Hôtel Récamier: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "of only 24 rooms at 3 bis Place Saint-Sulpice",
+          "a breakfast buffet at €26 (express €16)"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-grands-hommes",
+      "topic": "hotel",
+      "claim": "Hôtel des Grands Hommes: three-star; 30 rooms facing the colonnades of the Panthéon; Classic rooms 14 m2; homepage lists a four-nights-for-three advance offer with special cancellation conditions.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.hoteldesgrandshommes.com/en/",
+          "kind": "official",
+          "title": "Hôtel des Grands Hommes: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "A three-star of 30 rooms facing the colonnades of the Panthéon",
+          "a four-nights-for-three advance offer with special cancellation conditions"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-pavillon-reine",
+      "topic": "hotel",
+      "claim": "Le Pavillon de la Reine & Spa: 28 place des Vosges, 3rd; spa and restaurant Anne; Classic rooms are attic rooms of about 21 m2 with a queen-size bed on the top floor; offers page lists gift vouchers and no New Year's Eve package; no star rating stated on the pages read.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://en.pavillon-de-la-reine.com/chambres/chambres-classiques",
+          "kind": "official",
+          "title": "Le Pavillon de la Reine & Spa: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "attic rooms of about 21 m² with a queen-size bed",
+          "its offers page lists gift vouchers and no New Year's Eve package"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-national",
+      "topic": "hotel",
+      "claim": "Hôtel National des Arts et Métiers: 243 rue Saint-Martin, 3rd; four-star; 64 rooms; Classic rooms 20 m2; Ristorante National; homepage still carried a 'rooftop closed for the season, reopening summer 2026' notice on 29 Oct 2026.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.hotelnational.paris/en/",
+          "kind": "official",
+          "title": "Hôtel National des Arts et Métiers: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "A four-star of 64 rooms behind Haussmann façades at 243 rue Saint-Martin",
+          "still carried a notice that the rooftop was closed for the season"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-caron",
+      "topic": "hotel",
+      "claim": "Hôtel Caron de Beaumarchais: 12 rue Vieille-du-Temple, 4th; three-star boutique hotel; 1792 piano-forte; by its count 8 minutes' walk to the Centre Pompidou, 10 to Notre-Dame, 12 to Place des Vosges, 19 to the Louvre; front rooms on one of the liveliest streets of the Marais, rear rooms over the inner courtyard.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://hotelcarondebeaumarchais.com/en/",
+          "kind": "official",
+          "title": "Hôtel Caron de Beaumarchais: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "8 minutes' walk to the Centre Pompidou, 10 to Notre-Dame, 12 to Place des Vosges and 19 to the Louvre",
+          "front rooms face one of the liveliest streets in the Marais"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-bnb-batignolles",
+      "topic": "hotel",
+      "claim": "B&B HOTEL Paris 17 Batignolles: 4 boulevard Berthier, 17th; three-star; 253 rooms; 24/7 reception; Porte de Clichy (metro lines 13 and 14, RER C, tram T3B) one street / 2 minutes' walk away; line 14 direct to Saint-Lazare, Gare de Lyon and Madeleine; rooms max 2 adults; ring-road exit listed among access routes.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://www.hotel-bb.com/en/hotel/paris-17-batignolles",
+          "kind": "official",
+          "title": "B&B HOTEL Paris 17 Batignolles: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "A three-star of 253 rooms at 4 boulevard Berthier",
+          "the hotel lists the ring-road exit among its access routes"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.nye.hotel-mercure-batignolles",
+      "topic": "hotel",
+      "claim": "Mercure Paris 17 Batignolles: 118 rue de Tocqueville, 17th; four-star; 134 rooms; Superior rooms 17 m2 some with balcony; page names no metro station and lists Saint-Lazare as 2 km, 26 minutes' walk; no New Year's Eve terms found.",
+      "checked": "2026-10-29",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/A6S7/index.en.shtml",
+          "kind": "official",
+          "title": "Mercure Paris 17 Batignolles: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-new-years-eve.html": [
+          "A four-star of 134 rooms at 118 rue de Tocqueville",
+          "only Saint-Lazare as a 26-minute walk"
+        ]
+      }
     }
   ]
 }

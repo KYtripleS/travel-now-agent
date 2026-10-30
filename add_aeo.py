@@ -426,6 +426,18 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-kyoto-new-year": dict(
+        text="For a first Kyoto New Year, stay in Gion: Yasaka Shrine's fires burn from about 7:30pm on 31 December, and Keihan ran all night last year. Choose OMO5 Kyoto Sanjo for value, SOWAKA for a splurge. The tax is 1,000 yen a person from a 20,000-yen room.",
+        link_text="Gion",
+        cta=_stay_cta("where-to-stay-in-kyoto-new-year", "See hotels around Gion")),
+    "where-to-stay-in-nuremberg-christmas-market": dict(
+        text="For a first Christmas market trip, stay around the Hauptmarkt: the market is held there, and Nuremberg charges no city tax. Choose Sorat Hotel Saxx for the square itself, Hotel Agneshof for value, Hotel Drei Raben for a splurge. Only 7% VAT is in the room price.",
+        link_text="Hauptmarkt",
+        cta=_stay_cta("where-to-stay-in-nuremberg-christmas-market", "See hotels around the Hauptmarkt")),
+    "where-to-stay-in-paris-new-years-eve": dict(
+        text="For the show, stay near the Champs-Élysées but expect checkpoints: the Lord Byron is the mid-range pick and the Crillon advertises a New Year's Eve ball. For lower prices on a direct line, the B&B at Porte de Clichy. Tax is €2.60 to €15.93 a person a night.",
+        link_text="Champs-Élysées",
+        cta=_stay_cta("where-to-stay-in-paris-new-years-eve", "See hotels around the Champs-Élysées")),
     "where-to-stay-in-strasbourg-christmas-market": dict(
         text="For a first Christmas market trip, stay on the Grande Île: the cathedral and Place Kléber markets are there, and the city bars motor traffic in market hours. Choose Hôtel Rohan for comfort, Hôtel Suisse for value, Régent Petite France for a splurge. Tourist tax is €2.86 a night per adult in a four-star.",
         link_text="Grande Île",
@@ -1520,6 +1532,9 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-kyoto-new-year": ["OMO5 Kyoto Gion by Hoshino Resorts", "OMO5 Kyoto Sanjo by Hoshino Resorts", "SOWAKA"],
+    "where-to-stay-in-nuremberg-christmas-market": ["Sorat Hotel Saxx Nürnberg", "Hotel Agneshof Nürnberg", "Hotel Drei Raben"],
+    "where-to-stay-in-paris-new-years-eve": ["Hôtel de Crillon", "Hôtel Lord Byron", "B&B HOTEL Paris 17 Batignolles"],
     "where-to-stay-in-strasbourg-christmas-market": ["Hôtel Rohan", "Hôtel Suisse", "Hôtel & Spa Régent Petite France"],
     "where-to-stay-in-tromso-northern-lights": ["Scandic Ishavshotel", "Smarthotel Tromsø", "Malangen Resort"],
     "where-to-stay-in-new-orleans-mardi-gras": ["The Windsor Court", "Le Pavillon", "Hotel Provincial"],
@@ -2134,6 +2149,9 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Kyoto", "where-to-stay-in-kyoto-new-year", None, None),
+        ("Nuremberg", "where-to-stay-in-nuremberg-christmas-market", None, None),
+        ("Paris", "where-to-stay-in-paris-new-years-eve", None, None),
         ("Strasbourg", "where-to-stay-in-strasbourg-christmas-market", None, None),
         ("Tromsø", "where-to-stay-in-tromso-northern-lights", None, None),
         ("New Orleans", "where-to-stay-in-new-orleans-mardi-gras", None, None),
@@ -2414,7 +2432,12 @@ STAY_POINTERS = {
         'give each city, and how to move your bags between them. Here for the autumn leaves? <a '
         f'href="{_KA}">Our autumn-leaves guide</a> has the 2026 temple openings and the weeks to aim for; for '
         'spring, <a href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto hotels for cherry blossom season</a> '
-        'matches five areas to the blossom walks.'),
+        'matches five areas to the blossom walks. For 31 December, <a href="where-to-stay-in-kyoto-new-year.html">'
+        'where to stay in Kyoto for New Year</a> covers the temple bells, the first shrine visit and the trains '
+        'that night.'),
+    "where-to-stay-in-tokyo-new-year": ("intro",
+        'Seeing in the year in Kyoto instead? <a href="where-to-stay-in-kyoto-new-year.html">Where to stay in '
+        'Kyoto for New Year</a> covers the temple bells, Yasaka Shrine’s okera-mairi and last year’s all-night trains.'),
     "where-to-stay-in-osaka": ("intro",
         f'Kyoto, Osaka, or both? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights '
         f'to give each, and moving day from Tokyo. Here for Universal Studios Japan? <a href="{_US}">Our park '
@@ -2589,7 +2612,15 @@ STAY_POINTERS = {
         'compares the village areas by lift, the CHF 4 nightly visitor tax and the shuttle train from Täsch.'),
     "where-to-stay-in-paris": ("intro",
         'In Paris in December? <a href="where-to-stay-in-strasbourg-christmas-market.html">Where to stay for the '
-        'Strasbourg Christmas market</a> (27 November to 24 December 2026) is under two hours away by direct TGV.'),
+        'Strasbourg Christmas market</a> (27 November to 24 December 2026) is under two hours away by direct TGV. '
+        'Staying for 31 December? <a href="where-to-stay-in-paris-new-years-eve.html">Where to stay in Paris for '
+        'New Year’s Eve</a> covers the Champs-Élysées celebration, last year’s station closures and the city tax.'),
+    "where-to-stay-in-strasbourg-christmas-market": ("intro",
+        'Weighing Germany’s best-known market instead? <a href="where-to-stay-in-nuremberg-christmas-market.html">'
+        'Where to stay for the Nuremberg Christmas market</a> runs on the same dates, 27 November to 24 December.'),
+    "where-to-stay-in-berlin": ("intro",
+        'Here for the Christmas markets? <a href="where-to-stay-in-nuremberg-christmas-market.html">Nuremberg’s '
+        'Christkindlesmarkt (27 November to 24 December 2026)</a> is about 2 hours 45 minutes from Berlin by ICE.'),
     "where-to-stay-in-rovaniemi-christmas": ("intro",
         'Chasing the northern lights too? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in '
         'Tromsø for the northern lights</a> compares the harbour, the centre and two out-of-town lodges, with the '

@@ -591,6 +591,18 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-kyoto-new-year.html": (
+        "Where to Stay in Kyoto",
+        "Temple bells, the first shrine visit, five areas, 12 hotels and Kyoto's 1,000-yen night tax band.",
+    ),
+    "articles/where-to-stay-in-nuremberg-christmas-market.html": (
+        "Where to Stay in Nuremberg",
+        "Dates, five areas, 12 hotels and the no-city-tax rule for the Nuremberg Christmas market 2026.",
+    ),
+    "articles/where-to-stay-in-paris-new-years-eve.html": (
+        "Where to Stay in Paris",
+        "Free show, bag searches, closed stations, five areas, 12 hotels and the €2.60 to €15.93 city tax.",
+    ),
     "articles/where-to-stay-in-strasbourg-christmas-market.html": (
         "Where to Stay in Strasbourg",
         "Dates, five areas, 12 hotels and the 2026 tourist tax for the Strasbourg Christmas market.",
@@ -2165,6 +2177,26 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-kyoto-new-year.html": [
+        "articles/where-to-stay-in-kyoto.html",
+        "articles/where-to-stay-in-tokyo-new-year.html",
+        "articles/gion-kyoto-neighbourhood-guide.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/where-to-stay-in-strasbourg-christmas-market.html",
+        "articles/where-to-stay-in-berlin.html",
+    ],
+    "articles/where-to-stay-in-paris-new-years-eve.html": [
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-london-new-years-eve.html",
+        "articles/where-to-stay-in-new-york-new-years-eve.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-strasbourg-christmas-market.html": [
         "articles/hotel-booking-sites-comparison.html",

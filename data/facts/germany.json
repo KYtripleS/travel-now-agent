@@ -537,6 +537,356 @@
           "€11.21 a night, so three nights add €33.64"
         ]
       }
+    },
+    {
+      "id": "de.nuremberg.market-dates-hours-2026",
+      "topic": "place",
+      "claim": "The Nuremberg Christkindlesmarkt runs Friday 27 November to Thursday 24 December 2026 on the Hauptmarkt; daily 10:00-21:00; on opening day it pauses 17:30-18:00 for the opening ceremony (the Prologue by the Christkind, 17:30) and stays open to 22:00 for the Long Night; on 24 December it is open 10:00-14:00. The city's English press sheet gives 22:00 for opening day and a tourism listing 22:00 daily; the city market page and christkindlesmarkt.de give 21:00.",
+      "sources": [
+        {
+          "url": "https://www.nuernberg.de/internet/stadtportal/christkindlesmarkt.html",
+          "kind": "official",
+          "title": "City of Nuremberg: Christkindlesmarkt"
+        },
+        {
+          "url": "https://www.christkindlesmarkt.de/en/",
+          "kind": "official",
+          "title": "Nuremberg Christkindlesmarkt"
+        },
+        {
+          "url": "https://www.nuernberg.de/imperia/md/kommunikation_stadtmarketing/dokumente/internet/ckm/ckm_26_information_en.pdf",
+          "kind": "official",
+          "title": "City press information 2026 (EN)"
+        },
+        {
+          "url": "https://www.nuernberg.de/imperia/md/maerkte/dokumente/spezialmaerkte/bekanntmachung_ckm_2026.pdf",
+          "kind": "official",
+          "title": "Market notice 2026"
+        },
+        {
+          "url": "https://tourismus.nuernberg.de/en/discover/places-of-interest/location/nuernberger-christkindlesmarkt/",
+          "kind": "official",
+          "title": "Nuremberg tourist office"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "Friday 27 November to Thursday 24 December",
+          "Open 10am to 9pm, paused 5:30pm to 6pm for the opening ceremony",
+          "10am to 2pm",
+          "Friday 27 November, 5:30pm"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.nuremberg.market-programme-2026",
+      "topic": "place",
+      "claim": "2026 side events: Market of the Sister Cities on Rathausplatz 27 Nov-23 Dec (a separate market); Kinderweihnacht on Hans-Sachs-Platz 27 Nov-30 Dec; Sternenhaus 28 Nov-23 Dec; Original Regional stalls at St Sebald; Winterdorf on Jakobsplatz 13 Nov 2026-9 Jan 2027; more than two million visitors in 2025.",
+      "sources": [
+        {
+          "url": "https://www.nuernberg.de/internet/stadtportal/christkindlesmarkt.html",
+          "kind": "official",
+          "title": "City of Nuremberg: Christkindlesmarkt"
+        },
+        {
+          "url": "https://www.nuernberg.de/imperia/md/maerkte/dokumente/spezialmaerkte/bekanntmachung_ckm_2026.pdf",
+          "kind": "official",
+          "title": "Market notice 2026"
+        },
+        {
+          "url": "https://www.christkindlesmarkt.de/en/for-children/",
+          "kind": "official",
+          "title": "Christkindlesmarkt: For children"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "open 27 November to 23 December",
+          "on Hans-Sachs-Platz with a carousel, a steam railway and a mini Ferris wheel",
+          "28 November to 23 December",
+          "open 13 November 2026 to 9 January 2027",
+          "more than two million visitors in 2025"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.nuremberg.crowds-security",
+      "topic": "place",
+      "claim": "The city gives no quiet-day advice; it expects an exceptionally high crowd and does not recommend arriving by car; access routes are closed with technical barriers and police vehicles; uniformed police carry out random bag checks; pickpocket warning; early closure in a storm with loudspeaker announcements.",
+      "sources": [
+        {
+          "url": "https://www.nuernberg.de/internet/stadtportal/christkindlesmarkt.html",
+          "kind": "official",
+          "title": "City of Nuremberg: Christkindlesmarkt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "The city gives no advice on quieter days",
+          "uniformed police carry out random bag checks",
+          "the market may close early in a storm"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.nuremberg.no-city-tax",
+      "topic": "tax",
+      "claim": "Art. 3(3) sentence 1 of the Bavarian Kommunalabgabengesetz lists an Übernachtungsteuer among taxes municipalities may not levy; the Bavarian Constitutional Court dismissed the challenge by Munich and others on 14 November 2025 (Vf. 3-VII-23). A Kurbeitrag (Art. 7) is only for recognised spa, health-resort or recreation municipalities. No 2026 change found; Nuremberg's tourism and market pages mention no accommodation charge.",
+      "sources": [
+        {
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayKAG/true",
+          "kind": "official",
+          "title": "Bavarian KAG"
+        },
+        {
+          "url": "https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/3-vii-23_entscheidung.pdf",
+          "kind": "official",
+          "title": "Bavarian Constitutional Court Vf. 3-VII-23"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "Nuremberg has no city tax in 2026",
+          "the Bavarian Constitutional Court dismissed their case",
+          "allows a spa levy"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.accommodation-vat-7",
+      "topic": "tax",
+      "claim": "German VAT on short-term lodging is 7% (section 12(2) no. 11 UStG); the reduced rate does not apply to services that do not directly serve the letting, even if the room price includes them; the standard rate is 19% (section 12(1)).",
+      "sources": [
+        {
+          "url": "https://www.gesetze-im-internet.de/ustg_1980/__12.html",
+          "kind": "official",
+          "title": "UStG section 12"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "German VAT on a room",
+          "7%, under the reduced rate for short-term lodging",
+          "on a room price of €107 including VAT, €7 is VAT"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.nuremberg.airport-u2",
+      "topic": "transport",
+      "claim": "VAG: the U2 reaches Nuremberg Hbf from the airport in 13 minutes, connections usually every 10 minutes 04:30-00:30; for the old town change at Hbf to U1 to Lorenzkirche, or stay on the U2 to Wöhrder Wiese, about 850 m on foot from the market square.",
+      "sources": [
+        {
+          "url": "https://www.vag.de/en/mobility-for-all/business-travellers",
+          "kind": "operator",
+          "title": "VAG: Experience Nuremberg"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "reaches the main station in 13 minutes",
+          "usually every 10 minutes from 04:30 to 00:30",
+          "about 850 metres on foot from the market square"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.nuremberg.vag-fares",
+      "topic": "fare",
+      "claim": "VAG price level A: adult single €3.90 (€3.65 online), 90 minutes; short-distance single €2.10 (two underground stops); all-day ticket solo €10.60; all-day ticket plus (1-6 people) €15.50.",
+      "sources": [
+        {
+          "url": "https://www.vag.de/en/tickets/all-tickets",
+          "kind": "operator",
+          "title": "VAG: all tickets, price level A"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "is €3.90 (€3.65 online), valid for 90 minutes",
+          "is €2.10",
+          "A solo day ticket is €10.60",
+          "€15.50"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.nuremberg.rail-closure-2026",
+      "topic": "transport",
+      "claim": "DB InfraGO press release of 9 October 2026: the Nuremberg-Ingolstadt high-speed line is closed from 30 October (22:00) to 12 December inclusive; RE1 rerouted or replaced by buses; Munich-Berlin ICE about 45 minutes longer; direct Munich-Frankfurt via Nuremberg discontinued; no Munich-Nuremberg time change stated; Nuremberg-Berlin unrestricted (DB Fernverkehr detail PDF).",
+      "sources": [
+        {
+          "url": "https://www.deutschebahn.com/de/presse/presse-regional/pr-muenchen-de/aktuell/presseinformationen/DB-InfraGO-modernisiert-Schnellfahrstrecke-zwischen-Nuernberg-und-Ingolstadt-14064532",
+          "kind": "official",
+          "title": "DB: closure Nuremberg-Ingolstadt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "closed from 30 October (22:00) to 12 December inclusive",
+          "about 45 minutes longer",
+          "direct Munich to Frankfurt trains via Nuremberg are discontinued"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.nuremberg.ice-samples",
+      "topic": "transport",
+      "claim": "Deutsche Bahn timetable pages (status 29 Oct 2026): Frankfurt (Main) Hbf-Nürnberg Hbf direct ICE 2h01 on 5 Nov; Berlin Hbf-Nürnberg Hbf direct ICE 2h45 on 10 Nov (sample days).",
+      "sources": [
+        {
+          "url": "https://www.bahn.de/reisen/view/verbindung/frankfurt/nuernberg.shtml",
+          "kind": "operator",
+          "title": "DB: Frankfurt-Nürnberg"
+        },
+        {
+          "url": "https://www.bahn.de/reisen/view/verbindung/berlin/nuernberg.shtml",
+          "kind": "operator",
+          "title": "DB: Berlin-Nürnberg"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "in 2h01 on 5 November",
+          "from Berlin in 2h45 on 10 November"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.nuremberg.access-u1",
+      "topic": "transport",
+      "claim": "City: U1 Lorenzkirche is the best way to the market; its exit toward Museumsbrücke is closed; use the Karolinenstraße exit or the Königstraße access; alternatives Weißer Turm and Hauptbahnhof; U1 service doubled on Advent weekends 9-20h; buses 36 (Augustinerstraße), 37, 46, 47 (Rathaus); Lorenzkirche lift runs platform to passage only, Galeria Karstadt lift Mon-Sat 9:30-20:00.",
+      "sources": [
+        {
+          "url": "https://www.nuernberg.de/internet/stadtportal/christkindlesmarkt.html",
+          "kind": "official",
+          "title": "City of Nuremberg: Christkindlesmarkt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "Its exit toward the Museumsbrücke is closed for refurbishment",
+          "VAG doubles U1 service in the city centre from 9am to 8pm",
+          "the Galeria Karstadt lift runs Monday to Saturday, 9:30am to 8pm"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.nuremberg.hotels-hauptmarkt-castle",
+      "topic": "hotel",
+      "claim": "Sorat Hotel Saxx (Hauptmarkt 17, entrance Waaggasse 7; DEHOGA 3 stars garni; 103 rooms; garage €17/day not reservable). Hotel Agneshof (Agnesgasse 10; 3 stars garni; 74 rooms; garage 20 spaces, cars up to 1.50 m, €15/day, reservation on request). Hotel Elch (Irrerstrasse 11; 14th-century half-timbered house, first mentioned as a hostel in 1342). Burghotel Nürnberg (Lammsgasse 3; 40 rooms; 9x5 m pool; sauna for 8; lift; offers headed 2025). Dürer Hotel (Neutormauer 32; 102 rooms; fan in rooms; multi-bed rooms and junior suites on request).",
+      "sources": [
+        {
+          "url": "https://www.sorat-hotels.com/en/hotel/nuernberg.html",
+          "kind": "operator",
+          "title": "Sorat Hotel Saxx Nürnberg"
+        },
+        {
+          "url": "https://www.sorat-hotels.com/en/hotel/agneshof-nuernberg.html",
+          "kind": "operator",
+          "title": "Hotel Agneshof Nürnberg"
+        },
+        {
+          "url": "https://hotel-elch.de/en/welcome-to-hotel-elch-nuremberg-2/",
+          "kind": "operator",
+          "title": "Hotel Elch"
+        },
+        {
+          "url": "https://hotel-elch.de/en/contact/",
+          "kind": "operator",
+          "title": "Hotel Elch: contact"
+        },
+        {
+          "url": "https://www.burghotel-nuernberg.de/",
+          "kind": "operator",
+          "title": "Burghotel Nürnberg"
+        },
+        {
+          "url": "https://www.duerer-hotel.de/zimmer/",
+          "kind": "operator",
+          "title": "Dürer Hotel: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "gives 103 rooms, with check-in from 3pm",
+          "A 74-room, three-star garni hotel at Agnesgasse 10",
+          "first mentioned as a hostel in 1342",
+          "with 40 rooms, a lift, a 9 by 5 metre indoor pool and a sauna for up to eight people",
+          "A privately run hotel with 102 rooms at Neutormauer 32",
+          "the rooms list a fan rather than air conditioning"
+        ]
+      },
+      "checked": "2026-10-30"
+    },
+    {
+      "id": "de.nuremberg.hotels-koenigstrasse-station-edges",
+      "topic": "hotel",
+      "claim": "Hotel Drei Raben (Königstrasse 63; breakfast 6:30-10:30; check-in 14:00; €25 valet garage). ibis Nürnberg Altstadt (Koenigstrasse 74; 61 air-conditioned rooms; standard double 17 m²; 100 m from main station; renovation July-early Aug 2026, hotel remains open). Novotel Nürnberg Centre Ville (Bahnhofstrasse 12; 27-34 m²; 125 garage spaces). Motel One Nürnberg-City (Bahnhofstraße 18; 16 m²; car park €20/24h). B&B Hotel Nürnberg-Hbf (Marienstraße 10; air conditioning; directions via Gleißbühelstraße, 390 m). Living Hotel Nürnberg (Obere Kanalstraße 11; business rooms 21-23 m²; kitchenette). NOVINA Hotel Wöhrdersee (Dürrenhofstraße 8; 4 stars; 147 rooms; garage €16/day; 10 minutes from the main station by the hotel's account).",
+      "sources": [
+        {
+          "url": "https://www.hoteldreiraben.de/en/guideline-a-z/index.html",
+          "kind": "operator",
+          "title": "Hotel Drei Raben: guideline A-Z"
+        },
+        {
+          "url": "https://www.hoteldreiraben.de/en/the-hotel/in-the-heart-of-nuremberg.html",
+          "kind": "operator",
+          "title": "Hotel Drei Raben: location"
+        },
+        {
+          "url": "https://all.accor.com/hotel/1069/index.en.shtml",
+          "kind": "operator",
+          "title": "ibis Nürnberg Altstadt"
+        },
+        {
+          "url": "https://all.accor.com/hotel/8274/index.en.shtml",
+          "kind": "operator",
+          "title": "Novotel Nürnberg Centre Ville"
+        },
+        {
+          "url": "https://www.motel-one.com/en/hotels/nuremberg/hotel-nuremberg-city/",
+          "kind": "operator",
+          "title": "Motel One Nürnberg-City"
+        },
+        {
+          "url": "https://www.hotel-bb.com/en/hotel/nuernberg-hbf",
+          "kind": "operator",
+          "title": "B&B Hotel Nürnberg-Hbf"
+        },
+        {
+          "url": "https://www.living-hotels.com/standorte/nuernberg/living-hotel-nuernberg",
+          "kind": "operator",
+          "title": "Living Hotel Nürnberg"
+        },
+        {
+          "url": "https://www.novina-hotels.de/novina-hotel-woehrdersee-nuernberg/",
+          "kind": "operator",
+          "title": "NOVINA Hotel Wöhrdersee"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nuremberg-christmas-market.html": [
+          "breakfast from 6:30am to 10:30am (from 7am at weekends)",
+          "with 61 air-conditioned rooms; the standard double is 17 m²",
+          "with rooms from 27 m² for a standard twin to 34 m² for an Executive room",
+          "rooms are 16 m², luggage storage is free",
+          "turning into Marienstraße after 390 m",
+          "its business rooms are about 21 to 23 m² with a kitchenette",
+          "A four-star hotel at Dürrenhofstraße 8 with 147 rooms"
+        ]
+      },
+      "checked": "2026-10-30"
     }
   ]
 }
