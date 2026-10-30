@@ -426,6 +426,34 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-chamonix": dict(
+        text="For a first ski trip, stay in Chamonix centre: restaurants, the station and the bus station on foot, lifts a short ride away. Choose Hôtel Mont-Blanc for a five-star base, Park Hôtel Suisse & Spa for the rooftop spa, Hôtel Lyret for a lower price. The tax is €2.60 a night for a four-star adult.",
+        link_text="Chamonix centre",
+        cta=_stay_cta("where-to-stay-in-chamonix", "See hotels around Chamonix centre")),
+    "where-to-stay-for-coachella": dict(
+        text="For Coachella 2027, stay in La Quinta for the shortest trip to the polo grounds, or in Indio for a shuttle stop in the festival's own city. La Quinta Resort & Club is the splurge, Embassy Suites the comfortable pick, Hampton Inn Indio the value one. Hotel tax runs from 10% to 13.5%.",
+        link_text="La Quinta",
+        cta=_stay_cta("where-to-stay-for-coachella", "See hotels around the polo grounds")),
+    "where-to-stay-in-cologne-christmas-market": dict(
+        text="For a first Christmas market trip, stay by the Dom and Hauptbahnhof: the Cathedral market is on the Roncalliplatz and the station is a few minutes away. Choose Excelsior Hotel Ernst for a splurge, Hotel Mondial for the shortest walk, ibis Köln am Dom for budget. Add Cologne's 5% levy to the price.",
+        link_text="Dom and Hauptbahnhof",
+        cta=_stay_cta("where-to-stay-in-cologne-christmas-market", "See hotels around the Dom and Hauptbahnhof")),
+    "where-to-stay-for-disneyland-paris": dict(
+        text="For a first trip, stay in a Disney Hotel by Chessy station: guests get Extra Magic Time and free parking. Choose Disneyland Hotel for the gate, Newport Bay Club for a lakeside base, Santa Fe for value. Tax is €8.45 a person a night at four stars, as in Paris.",
+        link_text="Disney Hotel",
+        cta=_stay_cta("where-to-stay-for-disneyland-paris", "See hotels around Disneyland Paris")),
+    "where-to-stay-for-keukenhof": dict(
+        text="For Keukenhof, stay in Leiden or Haarlem: in 2026 line 854 ran up to six times an hour from Leiden Centraal in about 30 minutes, line 850 twice an hour from Haarlem. Golden Tulip Leiden Centre is comfortable, Hotel De Duif good value, Huis ter Duin the splurge. Tax is €4.70 a night in Leiden.",
+        link_text="Leiden or Haarlem",
+        cta=_stay_cta("where-to-stay-for-keukenhof", "See hotels around Leiden Centraal")),
+    "where-to-stay-in-washington-dc-cherry-blossom": dict(
+        text="For the blossom, stay near the National Mall or downtown: L'Enfant Plaza and Federal Triangle are the Park Service's walk-in stations. Choose the Kimpton Monaco for comfort, Moxy for value, the Willard for splurge. The tax is 15.95%, or $47.85 on a $300 room.",
+        link_text="near the National Mall or downtown",
+        cta=_stay_cta("where-to-stay-in-washington-dc-cherry-blossom", "See hotels near the National Mall")),
+    "where-to-stay-in-bangkok-songkran": dict(
+        text="To stay beside the water fights, choose Silom: Dusit Thani is linked to Sala Daeng station. Pullman G is the comfortable pick, Holiday Inn Express Sukhumvit 11 the value one, away from the closed streets. Songkran holidays are 13 to 15 April 2027; the entry fee is only proposed.",
+        link_text="Silom",
+        cta=_stay_cta("where-to-stay-in-bangkok-songkran", "See hotels around Silom")),
     "where-to-stay-in-los-angeles-super-bowl": dict(
         text="For Super Bowl LXI, stay in Inglewood for the shortest trip to SoFi, or by LAX on Century Boulevard for the Metro route. The Anthem is the walkable pick, the Courtyard LAX the shuttle one, Casa del Mar the beach splurge. Inglewood's hotel tax is 15.5%.",
         link_text="Inglewood",
@@ -1560,6 +1588,13 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-chamonix": ["Hôtel Mont-Blanc", "Park Hôtel Suisse & Spa", "Hôtel Lyret"],
+    "where-to-stay-for-coachella": ["La Quinta Resort & Club", "Embassy Suites by Hilton La Quinta Hotel & Spa", "Hampton Inn & Suites Indio"],
+    "where-to-stay-in-cologne-christmas-market": ["Excelsior Hotel Ernst", "Hotel Mondial am Dom Cologne - MGallery", "ibis Köln am Dom"],
+    "where-to-stay-for-disneyland-paris": ["Disneyland Hotel", "Disney Newport Bay Club", "Disney Hotel Santa Fe"],
+    "where-to-stay-for-keukenhof": ["Grand Hotel Huis ter Duin", "Golden Tulip Leiden Centre", "Hotel De Duif"],
+    "where-to-stay-in-washington-dc-cherry-blossom": ["Kimpton Hotel Monaco Washington DC", "Moxy Washington, DC Downtown", "Willard InterContinental Washington"],
+    "where-to-stay-in-bangkok-songkran": ["Dusit Thani Bangkok", "Pullman Bangkok Hotel G", "Holiday Inn Express Bangkok Sukhumvit 11"],
     "where-to-stay-in-los-angeles-super-bowl": ["Hotel Casa del Mar", "The Anthem Los Angeles Stadium District, Tapestry by Hilton", "Courtyard by Marriott Los Angeles LAX/Century Boulevard"],
     "where-to-stay-in-seoul-cherry-blossom": ["The Westin Josun Seoul", "L7 Myeongdong by Lotte", "ibis Styles Ambassador Seoul Myeongdong"],
     "where-to-stay-in-banff": ["Fairmont Banff Springs", "Moose Hotel & Suites", "Banff Ptarmigan Inn"],
@@ -2184,6 +2219,13 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Chamonix", "where-to-stay-in-chamonix", None, None),
+        ("Coachella", "where-to-stay-for-coachella", None, None),
+        ("Cologne", "where-to-stay-in-cologne-christmas-market", None, None),
+        ("Disneyland Paris", "where-to-stay-for-disneyland-paris", None, None),
+        ("Keukenhof", "where-to-stay-for-keukenhof", None, None),
+        ("Washington, DC", "where-to-stay-in-washington-dc-cherry-blossom", None, None),
+        ("Bangkok", "where-to-stay-in-bangkok-songkran", None, None),
         ("Los Angeles", "where-to-stay-in-los-angeles-super-bowl", None, None),
         ("Seoul", "where-to-stay-in-seoul-cherry-blossom", None, None),
         ("Banff", "where-to-stay-in-banff", None, None),
@@ -2653,13 +2695,16 @@ STAY_POINTERS = {
     "where-to-stay-in-zurich": ("intro",
         'Heading on to the mountains? <a href="where-to-stay-in-zermatt.html">Where to stay in Zermatt for the '
         '2026/27 ski season</a> sorts the car-free village by lift, about three and a half hours by train from '
-        'Zurich Airport.'),
+        'Zurich Airport. Flying into Geneva instead? <a href="where-to-stay-in-chamonix.html">Where to stay in '
+        'Chamonix</a> compares the town, Argentière and Les Houches by lift.'),
     "where-to-stay-in-whistler": ("intro",
         'Skiing the Alps this season instead? <a href="where-to-stay-in-zermatt.html">Zermatt for 2026/27</a> '
         'compares the village areas by lift, the CHF 4 nightly visitor tax and the shuttle train from Täsch.'),
     "where-to-stay-in-paris": ("intro",
         'In Paris in December? <a href="where-to-stay-in-strasbourg-christmas-market.html">Where to stay for the '
         'Strasbourg Christmas market</a> (27 November to 24 December 2026) is under two hours away by direct TGV. '
+        'Bringing children? <a href="where-to-stay-for-disneyland-paris.html">Where to stay for Disneyland Paris</a> '
+        'weighs the Disney Hotels, Val d’Europe and a Paris base on the RER A. '
         'Staying for 31 December? <a href="where-to-stay-in-paris-new-years-eve.html">Where to stay in Paris for '
         'New Year’s Eve</a> covers the Champs-Élysées celebration, last year’s station closures and the city tax.'),
     "where-to-stay-in-strasbourg-christmas-market": ("intro",
@@ -2671,7 +2716,18 @@ STAY_POINTERS = {
     "where-to-stay-in-los-angeles": ("intro",
         'Here for the Super Bowl? <a href="where-to-stay-in-los-angeles-super-bowl.html">Where to stay for '
         'Super Bowl LXI</a> at SoFi Stadium compares Inglewood, LAX, El Segundo and Culver City by route and '
-        'hotel tax.'),
+        'hotel tax. Going to Coachella? <a href="where-to-stay-for-coachella.html">Where to stay for Coachella '
+        '2027</a> (9 to 11 and 16 to 18 April) compares Indio, La Quinta, Palm Desert and Palm Springs.'),
+    "where-to-stay-in-amsterdam": ("intro",
+        'Here for the tulips? <a href="where-to-stay-for-keukenhof.html">Where to stay for Keukenhof</a> '
+        '(18 March to 9 May 2027) compares Amsterdam, Haarlem, Leiden and Lisse by bus to the gardens.'),
+    "where-to-stay-in-bangkok": ("intro",
+        'Coming for Songkran? <a href="where-to-stay-in-bangkok-songkran.html">Where to stay in Bangkok for '
+        'Songkran</a> (13 to 15 April 2027) weighs Silom and Siam, where the water fights are, against quieter bases.'),
+    "where-to-stay-in-washington-dc": ("intro",
+        'Coming for the blossom? <a href="where-to-stay-in-washington-dc-cherry-blossom.html">Where to stay in DC '
+        'for the cherry blossoms</a> sorts the areas by walk or Metro to the Tidal Basin, with the 2027 festival '
+        'dates (20 March to 11 April).'),
     "where-to-stay-in-melbourne": ("intro",
         'Here for the tennis? <a href="where-to-stay-in-melbourne-australian-open.html">Where to stay for the '
         'Australian Open 2027</a> (11 to 31 January) sorts the areas by tram or walk to Melbourne Park.'),
@@ -2685,7 +2741,8 @@ STAY_POINTERS = {
     "where-to-stay-in-nuremberg-christmas-market": ("intro",
         'Making it a market trip? <a href="where-to-stay-in-prague-christmas-market.html">Prague’s markets</a> '
         'run 28 November to 6 January, and <a href="where-to-stay-in-vienna-christmas-market.html">Vienna’s '
-        'Rathausplatz market</a> 13 November to 26 December.'),
+        'Rathausplatz market</a> 13 November to 26 December. <a href="where-to-stay-in-cologne-christmas-market.html">'
+        'Cologne’s cathedral market</a> runs 16 November to 23 December.'),
     "where-to-stay-in-rovaniemi-christmas": ("intro",
         'Chasing the northern lights too? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in '
         'Tromsø for the northern lights</a> compares the harbour, the centre and two out-of-town lodges, with the '

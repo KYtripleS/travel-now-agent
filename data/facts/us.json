@@ -4192,9 +4192,14 @@
     {
       "id": "us.dc.tax-hotel-rate",
       "topic": "tax",
-      "claim": "DC's Office of Tax and Revenue lists the sales and use tax rate on rooms, lodgings or accommodations as 15.95%, and 18% on parking or storing motor vehicles; its notice raised the transient-accommodations rate from 14.95% to 15.95% for April 1, 2023 through March 30, 2027, and its site banner says the general sales tax rate remains 6% through September 30, 2027.",
-      "checked": "2026-10-21",
+      "claim": "DC's Office of Tax and Revenue lists the sales and use tax rate on rooms, lodgings or accommodations as 15.95%, and 18% on parking or storing motor vehicles; the rate rose from 14.95% to 15.95% on April 1, 2023, and OTR's October 2025 notice extends the 15.95% rate through September 30, 2027.",
+      "checked": "2026-10-30",
       "sources": [
+        {
+          "url": "https://otr.cfo.dc.gov/release/notice-oct-1-2025-tax-changes",
+          "kind": "official",
+          "title": "DC OTR notice: October 1, 2025 tax changes"
+        },
         {
           "url": "https://otr.cfo.dc.gov/release/otr-tax-notice-2023-01-sales-and-use-tax-rate-increase-transient-accommodations",
           "kind": "official",
@@ -4211,7 +4216,11 @@
           "Sales and use tax on hotel rooms and other transient lodging",
           "General sales tax, for comparison",
           "Parking or storing a vehicle, if you drive",
-          "sets the 15.95% rate for April 1, 2023 to March 30, 2027, raised from 14.95%"
+          "extends it through September 30, 2027"
+        ],
+        "articles/where-to-stay-in-washington-dc-cherry-blossom.html": [
+          "Sales and use tax on hotel rooms and other transient lodging",
+          "extends the temporary 15.95% rate through 30 September 2027"
         ]
       }
     },
@@ -4225,12 +4234,26 @@
           "url": "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
           "kind": "official",
           "title": "DC OTR: Sales and Use Tax FAQs"
+        },
+        {
+          "url": "https://otr.cfo.dc.gov/release/notice-oct-1-2025-tax-changes",
+          "kind": "official",
+          "title": "DC OTR: Notice of Oct. 1, 2025, Tax Changes"
+        },
+        {
+          "url": "https://www.arlingtonva.us/Government/Programs/Taxes/Business-License-and-Taxes/Custodial-Taxes",
+          "kind": "official",
+          "title": "Arlington County: Custodial Taxes"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-washington-dc.html": [
           "On a $300 room, 15.95% is $47.85, so the room costs $347.85 a night.",
           "We found no separate per-night city charge on the Office of Tax and Revenue's pages"
+        ],
+        "articles/where-to-stay-in-washington-dc-cherry-blossom.html": [
+          "15.95% is $47.85, so the room costs $347.85 a night",
+          "8.25% is $24.75, so the same rate costs $324.75 before any other charge"
         ]
       }
     },
@@ -4274,6 +4297,10 @@
         "articles/where-to-stay-in-washington-dc.html": [
           "Metrorail fares are $2.25 to $6.75 on weekdays between 5 am and 9:30 pm, and $2.25 to $2.50 after 9:30 pm and at weekends",
           "Buses are $2.25, with a $2.25 discount on a transfer between bus and rail within two hours"
+        ],
+        "articles/where-to-stay-in-washington-dc-cherry-blossom.html": [
+          "Metrorail fares are $2.25 to $6.75 on weekdays between 5 am and 9:30 pm, and $2.25 to $2.50 after 9:30 pm and at weekends",
+          "Tap the same SmarTrip or contactless card at both ends of a rail trip"
         ]
       }
     },
@@ -7095,6 +7122,798 @@
         "articles/where-to-stay-in-los-angeles-super-bowl.html": [
           "with dorms of four to ten beds, private rooms, a guest kitchen",
           "the maximum stay is 14 nights per calendar year"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.bloom-nps",
+      "topic": "place",
+      "claim": "The NPS defines peak bloom as the day 70% of the Tidal Basin Yoshino cherries are open; most likely between the last week of March and the first week of April; extremes 15 March 1990 and 18 April 1958; peak bloom dates 2022-2026 were 21 Mar, 23 Mar, 17 Mar, 28 Mar, 26 Mar (2026 reached 26 March 2026); 2004-2026 table runs 17 March (2024) to 10 April (2014, 2015), median 29 March (our arithmetic); forecasting is almost impossible more than 10 days ahead; a frost on 14-16 March 2017 cost about half the blossoms.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.nps.gov/subjects/cherryblossom/bloom-watch.htm",
+          "kind": "official",
+          "title": "NPS: Bloom Watch"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc-cherry-blossom.html": [
+          "the day when 70% of the Yoshino cherry blossoms around the Tidal Basin are open",
+          "extreme weather has produced peak bloom as early as 15 March (1990) and as late as 18 April (1958)",
+          "a median peak-bloom date of 29 March, with the earliest 17 March (2024) and the latest 10 April (2014 and 2015)",
+          "almost impossible to forecast more than ten days ahead"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.festival-2027",
+      "topic": "place",
+      "claim": "The National Cherry Blossom Festival lists 20 March to 11 April 2027, with the opening ceremony 20 March, Blossom Kite Festival 27 March, Petalpalooza at Navy Yard 3 April, Sakura Matsuri and the parade 10 April.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://nationalcherryblossomfestival.org/",
+          "kind": "official",
+          "title": "National Cherry Blossom Festival"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc-cherry-blossom.html": [
+          "20 March to 11 April",
+          "the Blossom Kite Festival on 27 March, Petalpalooza at Navy Yard on 3 April"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.tidal-basin-access",
+      "topic": "transport",
+      "claim": "NPS: public transport is best because parking is extremely limited; nearest Metro is Smithsonian/National Mall (Orange, Blue, Silver), about one mile from the Tidal Basin Welcome Area; walkway is 1.8 miles around; to avoid crowds walk from Foggy Bottom, Federal Triangle or L'Enfant Plaza; severe traffic congestion and road closures if driving.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.nps.gov/subjects/cherryblossom/directions.htm",
+          "kind": "official",
+          "title": "NPS: How to get to the Cherry Blossom Festival"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc-cherry-blossom.html": [
+          "about a mile from the Tidal Basin Welcome Area near the Martin Luther King Jr. Memorial",
+          "the basin's walkway is 1.8 miles around",
+          "parking is extremely limited and warns of severe traffic congestion and road closures"
+        ]
+      }
+    },
+    {
+      "id": "us.va.arlington-tot",
+      "topic": "tax",
+      "claim": "Arlington County lists a transient occupancy tax of 8.25% (5% county, 0.25% tourism, 3% state regional) on rooms rented for fewer than 30 consecutive days; the page gives no effective date and mentions no other lodging tax.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.arlingtonva.us/Government/Programs/Taxes/Business-License-and-Taxes/Custodial-Taxes",
+          "kind": "official",
+          "title": "Arlington County: Custodial Taxes"
+        },
+        {
+          "url": "https://www.arlingtonva.us/Government/Programs/Taxes/Business-License-and-Taxes/Accessory-Homestay-Rentals",
+          "kind": "official",
+          "title": "Arlington County: Accessory Homestay Rentals Taxes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc-cherry-blossom.html": [
+          "Transient occupancy tax: 5% county, 0.25% tourism, 3% state regional",
+          "The Arlington page lists only the occupancy tax"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.transport-airports",
+      "topic": "transport",
+      "claim": "DCA is served by Metro's Yellow and Blue lines (WMATA); Terminal 2 reaches the station by two enclosed bridges, Terminal 1 passengers take an airport shuttle bus (MWAA); Dulles Silver Line station is about 600 feet from the terminal, $6.75 to Metro Center, roughly 50-55 minutes to Rosslyn.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.wmata.com/ride/guides/airports-and-train-stations.html",
+          "kind": "operator",
+          "title": "WMATA: Airports and Train Stations"
+        },
+        {
+          "url": "https://www.flyreagan.com/metro",
+          "kind": "operator",
+          "title": "Reagan National Airport: Metrorail"
+        },
+        {
+          "url": "https://www.flydulles.com/parking-transportation/silver-line-metrorail/silver-line-faqs",
+          "kind": "operator",
+          "title": "Dulles Airport: Silver Line FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc-cherry-blossom.html": [
+          "Metro's Yellow and Blue lines serve the airport's station",
+          "about 600 feet from the terminal",
+          "a ride of roughly 50 to 55 minutes to Rosslyn"
+        ]
+      }
+    },
+    {
+      "id": "us.dc.metro-station-lines",
+      "topic": "transport",
+      "claim": "WMATA station pages list: Rosslyn BOS (Blue, Orange, Silver), Crystal City B/Y (Blue, Yellow), Capitol South BSO, L'Enfant Plaza GYBSO, Federal Triangle BSO, Metro Center BSOR.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.wmata.com/rider-guide/stations/rosslyn.cfm",
+          "kind": "operator",
+          "title": "WMATA: Rosslyn"
+        },
+        {
+          "url": "https://www.wmata.com/rider-guide/stations/crystal-city.cfm",
+          "kind": "operator",
+          "title": "WMATA: Crystal City"
+        },
+        {
+          "url": "https://www.wmata.com/rider-guide/stations/capitol-south.cfm",
+          "kind": "operator",
+          "title": "WMATA: Capitol South"
+        },
+        {
+          "url": "https://www.wmata.com/rider-guide/stations/lenfant-plaza.cfm",
+          "kind": "operator",
+          "title": "WMATA: L'Enfant Plaza"
+        },
+        {
+          "url": "https://www.wmata.com/rider-guide/stations/federal-triangle.cfm",
+          "kind": "operator",
+          "title": "WMATA: Federal Triangle"
+        },
+        {
+          "url": "https://www.wmata.com/rider-guide/stations/metro-center.cfm",
+          "kind": "operator",
+          "title": "WMATA: Metro Center"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-washington-dc-cherry-blossom.html": [
+          "Capitol South station, on the Blue, Orange and Silver lines",
+          "Crystal City station is on the Blue and Yellow lines",
+          "Metro Center, in the middle of downtown, adds the Red Line"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.dates",
+      "topic": "place",
+      "claim": "hospitality.coachella.com, the festival's hotel, shuttle and camping site, gives Coachella 2027 as April 9-11 and April 16-18, 2027 (hotel packages check out on Monday 12 and Monday 19 April); coachella.com's own page headers still showed APR 10-12 & 17-19, 2026 when checked.",
+      "sources": [
+        {
+          "url": "https://hospitality.coachella.com/",
+          "kind": "official",
+          "title": "Coachella 2027 Enhanced Experiences (hospitality.coachella.com)"
+        },
+        {
+          "url": "https://www.coachella.com/",
+          "kind": "official",
+          "title": "Coachella Valley Music & Arts Festival"
+        }
+      ],
+      "note": "Friday/Sunday weekdays are calendar arithmetic. Dates are on the festival's hospitality subdomain (linked from coachella.com), not yet in coachella.com's page headers.",
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "9 to 11 April and 16 to 18 April",
+          "Weekend 1 is Friday 9 to Sunday 11 April 2027",
+          "10 to 12 and 17 to 19 April 2026"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.venue",
+      "topic": "place",
+      "claim": "Coachella is held at Empire Polo Club, 81-800 Avenue 51, Indio, CA 92201.",
+      "sources": [
+        {
+          "url": "https://www.coachella.com/getting-here",
+          "kind": "official",
+          "title": "Coachella: 2026 Getting Here"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "Empire Polo Club, 81-800 Avenue 51, Indio, California 92201"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.passes-status",
+      "topic": "price",
+      "claim": "coachella.com's passes page (titled 2027 Passes) marked general admission as no longer available and VIP as waitlist only, and showed no festival pass price, on 30 October 2026.",
+      "sources": [
+        {
+          "url": "https://www.coachella.com/passes",
+          "kind": "official",
+          "title": "Coachella: 2027 Passes"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "marked general admission as no longer available and VIP as waitlist only"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel-packages",
+      "topic": "price",
+      "claim": "Festival hotel packages combine a pass, a hotel stay and shuttle passes: Weekend 1 three-night packages check in Friday April 9, four-night packages Thursday April 8, all check out Monday April 12; Weekend 2 check in April 16 or 15 and out Monday April 19; packages are non-refundable, transfers until Monday March 1; most partner hotels require the primary guest to be 21+.",
+      "sources": [
+        {
+          "url": "https://hospitality.coachella.com/faqs",
+          "kind": "official",
+          "title": "Coachella hotel packages: FAQs"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "check in on Friday 9 April (three nights) or Thursday 8 April (four nights)",
+          "transfers open until Monday 1 March",
+          "most partner hotels require the primary guest to be 21 or over"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.shuttle-2027",
+      "topic": "transport",
+      "claim": "The 2027 Coachella Shuttle runs 1PM-8PM to the festival with return service ending 60 minutes after the music ends; peaks are 2PM-5PM inbound and 12AM-2AM outbound; stops range from about 5 to 25 miles from the Polo Grounds; the shuttle lot is about a 10-minute walk from the entrance; the shuttle is not guaranteed to stop at a given hotel.",
+      "sources": [
+        {
+          "url": "https://hospitality.coachella.com/faqs",
+          "kind": "official",
+          "title": "Coachella hotel packages: FAQs"
+        },
+        {
+          "url": "https://hospitality.coachella.com/shuttles",
+          "kind": "official",
+          "title": "Coachella Shuttles"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "return service ends 60 minutes after the music ends",
+          "about a 10-minute walk from the entrance",
+          "range from about 5 to 25 miles from the polo grounds",
+          "Peak times are 2PM to 5PM going in and 12AM to 2AM coming out"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.shuttle-stops",
+      "topic": "transport",
+      "claim": "The 2027 Coachella Shuttle stops are Hampton Inn & Suites Indio, La Quinta Resort & Club, Embassy Suites La Quinta, Indian Wells Tennis Gardens*, Grand Hyatt Indian Wells, JW Marriott Desert Springs, Marriott Desert Springs Villas, Hampton Inn & Suites Palm Desert, Courtyard/Residence Inn Palm Desert, The Shops at Palm Desert*, Omni Rancho Las Palmas, Agua Caliente Casino Rancho Mirage, Westin Rancho Mirage and the Palm Springs Convention Center (* = official Park & Ride); LAX shuttle locations are Coachella Campgrounds, JW Marriott Desert Springs, La Quinta Resort & Club and Renaissance Palm Springs.",
+      "sources": [
+        {
+          "url": "https://hospitality.coachella.com/shuttles",
+          "kind": "official",
+          "title": "Coachella Shuttles"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "Hampton Inn & Suites Indio, La Quinta Resort & Club, Embassy Suites La Quinta",
+          "Omni Rancho Las Palmas, Agua Caliente Casino Rancho Mirage, Westin Rancho Mirage and the Palm Springs Convention Center",
+          "the Coachella campgrounds, the JW Marriott Desert Springs, La Quinta Resort & Club and the Renaissance Palm Springs"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.pass-prices",
+      "topic": "price",
+      "claim": "On coachella.com's passes page (checked 30 October 2026): Coachella Shuttle Pass $150 total; Preferred Parking $299 total (valid all three days); Car Camping $40/night, $160 total plus TOT.",
+      "sources": [
+        {
+          "url": "https://www.coachella.com/passes",
+          "kind": "official",
+          "title": "Coachella: 2027 Passes"
+        }
+      ],
+      "note": "Page is titled 2027 Passes but its header shows 2026 dates; prices carry no year or as-of date and say 'subject to change'.",
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "The shuttle pass is $150 on coachella.com's passes page",
+          "listed at $299 on the passes page for all three days",
+          "$40 a night plus transient occupancy tax"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.rideshare-parking-2026",
+      "topic": "transport",
+      "claim": "Coachella's 2026 Getting Here page: rideshare Friday-Sunday 11am-3am at Ave. 49 and Monroe St in Lot 1D, longest waits 12am-2:30am; day parking Friday-Sunday 11am-2am, not guaranteed, towed after 2am; preferred parking needs a pass, no entry after 10pm; everyone in the vehicle needs a festival wristband. The FAQ page names Lot 2A for rideshare.",
+      "sources": [
+        {
+          "url": "https://www.coachella.com/getting-here",
+          "kind": "official",
+          "title": "Coachella: 2026 Getting Here"
+        },
+        {
+          "url": "https://www.coachella.com/faq",
+          "kind": "official",
+          "title": "Coachella: FAQ"
+        }
+      ],
+      "note": "Getting Here (Lot 1D) and FAQ (Lot 2A) disagree; article flags this.",
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "Pick-up and drop-off run Friday to Sunday from 11am to 3am at Avenue 49 and Monroe Street in Lot 1D",
+          "The page expects the longest waits between 12am and 2:30am each night",
+          "Day parking runs Friday to Sunday from 11am to 2am",
+          "with no entry after 10pm"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.lax-drive",
+      "topic": "transport",
+      "claim": "The festival's hotel-site FAQ says the drive from Indio to LAX is about 3 hours without traffic, and that LAX shuttles will be available at a later date.",
+      "sources": [
+        {
+          "url": "https://hospitality.coachella.com/faqs",
+          "kind": "official",
+          "title": "Coachella hotel packages: FAQs"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "the drive from Indio to LAX is about 3 hours without traffic"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.airports-transit",
+      "topic": "transport",
+      "claim": "coachella.com's Getting Here page lists Palm Springs International Airport (3400 E. Tahquitz Canyon Way), LAX and Ontario as airports, and Greyhound's Indio Station at 83-100 Indio Blvd. and SunLine Transit as public transit.",
+      "sources": [
+        {
+          "url": "https://www.coachella.com/getting-here",
+          "kind": "official",
+          "title": "Coachella: 2026 Getting Here"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "Palm Springs at 3400 E. Tahquitz Canyon Way",
+          "Greyhound's Indio station at 83-100 Indio Boulevard"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.sunline.fares",
+      "topic": "fare",
+      "claim": "SunLine Transit SunBus fares: adult single ride $1.00, adult day pass $3.00; routes and schedules effective September 6, 2026.",
+      "sources": [
+        {
+          "url": "https://www.sunline.org/fares-passes/fares",
+          "kind": "operator",
+          "title": "SunLine Transit: fare information"
+        },
+        {
+          "url": "https://www.sunline.org/services/sun-bus/routes-and-schedules",
+          "kind": "operator",
+          "title": "SunLine Transit: routes and schedules"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "$1.00 for an adult single ride and $3.00 for a day pass",
+          "schedules are dated 6 September 2026"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.omni.psp-distance",
+      "topic": "transport",
+      "claim": "Omni Rancho Las Palmas's own driving directions from Palm Springs Airport: 0.5 mile, 5.5 miles and 5 miles, about 11 miles in total. Hilton Palm Springs lists a complimentary airport shuttle to PSP, available on request.",
+      "sources": [
+        {
+          "url": "https://www.omnihotels.com/hotels/palm-springs-rancho-las-palmas/property-details/directions",
+          "kind": "official",
+          "title": "Omni Rancho Las Palmas: directions"
+        },
+        {
+          "url": "https://www.hilton.com/en/hotels/psppshf-hilton-palm-springs/hotel-info/",
+          "kind": "official",
+          "title": "Hilton Palm Springs: hotel information"
+        }
+      ],
+      "note": "11 miles is our sum of the three legs in Omni's directions.",
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "add up to about 11 miles",
+          "a complimentary airport shuttle on request"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.indio.tot",
+      "topic": "tax",
+      "claim": "City of Indio: transient occupancy tax is 13% for operators with fewer than 50 rooms and 10% for operators with 50 or more rooms, on whom additional assessments are levied by the Tourism BID and Marketing BID.",
+      "sources": [
+        {
+          "url": "https://www.indio.org/departments/finance/transient-occupancy-tax",
+          "kind": "official",
+          "title": "City of Indio: transient occupancy tax"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "13% for hotels under 50 rooms; 10% for hotels of 50 or more rooms",
+          "a Marketing BID"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.laquinta.tot",
+      "topic": "tax",
+      "claim": "La Quinta Municipal Code 3.24.030: 11% of rent for group hotels (125 or more rooms, group meeting space for 50 or more people, on-site sales effort for group meetings) and 10% for all other hotel occupancy.",
+      "sources": [
+        {
+          "url": "https://library.municode.com/ca/la_quinta/codes/municipal_code?nodeId=TIT3REFI_CH3.24TROCTA_3.24.020DE",
+          "kind": "official",
+          "title": "La Quinta Municipal Code, Chapter 3.24 Transient Occupancy Tax"
+        }
+      ],
+      "note": "Municode page text as read 2026-10-30; amendment history on the section is 1982-2012.",
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "125 or more rooms, meeting space for 50 or more people",
+          "10% for all other hotels"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.palmdesert.tot",
+      "topic": "tax",
+      "claim": "City of Palm Desert's short-term-rental page: 11% TOT on gross rent plus a 1% GPSTBID assessment collected with the TOT return for short-term rentals; TOT and TBID collected only for stays of 27 consecutive nights or less. The hotel rate was not confirmed from the code (ecode360 blocked our reader).",
+      "sources": [
+        {
+          "url": "https://www.palmdesert.gov/businesses/short-term-rental",
+          "kind": "official",
+          "title": "City of Palm Desert: short-term rentals"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "11% on the city's short-term-rental page"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.palmsprings.tot",
+      "topic": "tax",
+      "claim": "City of Palm Springs: TOT is 13.5% for Group Meeting hotels and 11.5% for all other hotels, vacation rentals and agencies, in effect since January 1, 2002; the city's TBID is a 1% assessment on room revenue limited to hotels of 49 rooms or less; the Greater Palm Springs TBID is 3% for hotels of 50 or more rooms.",
+      "sources": [
+        {
+          "url": "https://www.palmspringsca.gov/government/departments/finance-treasury/transient-occupancy-tax-tot",
+          "kind": "official",
+          "title": "City of Palm Springs: transient occupancy tax"
+        },
+        {
+          "url": "https://palmspringsca.gov/government/departments/finance-treasury/tourism-business-improvement-district",
+          "kind": "official",
+          "title": "City of Palm Springs: Tourism Business Improvement District"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "13.5% for group meeting hotels; 11.5% for all other hotels",
+          "1% for hotels of 49 rooms or fewer; 3% for hotels of 50 or more rooms"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.cathedralcity.tot",
+      "topic": "tax",
+      "claim": "City of Cathedral City: a 12% tax is imposed on guest stays of thirty days (29 nights) or less (Municipal Code 3.24.030); hotels with 50 rooms or more remit a 3% GPSTBID assessment.",
+      "sources": [
+        {
+          "url": "https://www.cathedralcity.gov/departments/financial-services-department/transient-occupancy-tax",
+          "kind": "official",
+          "title": "City of Cathedral City: transient occupancy tax"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "12% on stays of 29 nights or fewer"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.gpstbid.rate",
+      "topic": "tax",
+      "claim": "Visit Greater Palm Springs: the 2021-2031 Greater Palm Springs TBID assesses hotels with 50 rooms or more 3% of gross short-term room rental revenue on stays of 27 days or less (vacation rentals 1%).",
+      "sources": [
+        {
+          "url": "https://www.visitgreaterpalmsprings.com/2020-tbid/",
+          "kind": "official",
+          "title": "Visit Greater Palm Springs: 2021-2031 Tourism Business Improvement District"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "an assessment on the gross short-term room revenue of hotels with 50 rooms or more, for stays of 27 days or less",
+          "a 3% district assessment"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel-distances",
+      "topic": "place",
+      "claim": "The festival's Weekend 1 hotel-package page lists distances from the festival: La Quinta Resort & Club 5.3 miles, Fairfield by Marriott Inn & Suites Indio 6.1, Hampton Inn & Suites Palm Desert 13.3, JW Marriott Desert Springs 12.8, Holiday Inn Express & Suites Palm Desert - Millennium 10.2, Omni Rancho Las Palmas 13.9, Westin Rancho Mirage 17.2, Hilton Palm Springs 24.8, Renaissance Palm Springs 24.9 miles.",
+      "sources": [
+        {
+          "url": "https://hospitality.coachella.com/hotel-packages-w1",
+          "kind": "official",
+          "title": "Coachella hotel packages, Weekend 1"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "La Quinta Resort & Club 5.3 miles from the festival",
+          "the Fairfield is 6.1 miles away on the festival's count",
+          "The Omni and the Westin are 13.9 and 17.2 miles away",
+          "24.8 and 24.9 miles for the two hotels the festival lists"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.hampton-indio",
+      "topic": "hotel",
+      "claim": "Hampton Inn & Suites Indio: 42261 Spectrum Street, Indio; 93 guest rooms, free hot breakfast (buffet), outdoor pool, free self-parking, no airport shuttle listed.",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/laxidhx-hampton-suites-indio/hotel-info/",
+          "kind": "official",
+          "title": "Hampton Inn & Suites Indio: hotel information"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "with 93 guest rooms, a free hot breakfast buffet",
+          "Hilton's page lists no airport shuttle and no festival terms"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.fairfield-indio",
+      "topic": "hotel",
+      "claim": "Fairfield by Marriott Inn & Suites Indio Coachella Valley: 42655 Marmara Street; page describes a hotel near Empire Polo Club; outdoor heated pool; complimentary parking; minimum check-in age 21.",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/pspfi-fairfield-inn-and-suites-indio-coachella-valley/overview/",
+          "kind": "official",
+          "title": "Fairfield Inn & Suites Indio Coachella Valley"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "a page that calls it a hotel near the Empire Polo Club",
+          "the minimum check-in age is 21"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.la-quinta-resort",
+      "topic": "hotel",
+      "claim": "La Quinta Resort & Club: 49-499 Eisenhower Drive; Spanish-style casitas and villas; 42 chilled pools and 53 hot spas; FAQ lists self parking $25 per vehicle per night and valet $30.",
+      "sources": [
+        {
+          "url": "https://laquintaresort.com/",
+          "kind": "official",
+          "title": "La Quinta Resort & Club"
+        },
+        {
+          "url": "https://laquintaresort.com/faq/",
+          "kind": "official",
+          "title": "La Quinta Resort & Club: FAQ"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "42 pools and 53 hot spas by its own count",
+          "self-parking at $25 per vehicle per night and valet at $30"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.embassy-la-quinta",
+      "topic": "hotel",
+      "claim": "Embassy Suites by Hilton La Quinta Hotel & Spa: 50-777 Santa Rosa Plaza; free made-to-order breakfast, complimentary evening reception, outdoor pool, spa, free self-parking; no airport shuttle.",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/laqcaes-embassy-suites-la-quinta-hotel-and-spa/hotel-info/",
+          "kind": "official",
+          "title": "Embassy Suites by Hilton La Quinta: hotel information"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "free made-to-order breakfast, a complimentary evening reception"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.jw-desert-springs",
+      "topic": "hotel",
+      "claim": "JW Marriott Desert Springs Resort & Spa: 74-855 Country Club Drive, Palm Desert; 450 acres, five pools, two championship golf courses; daily resort fee $45 plus tax.",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/ctdca-jw-marriott-desert-springs-resort-and-spa/overview/",
+          "kind": "official",
+          "title": "JW Marriott Desert Springs Resort & Spa"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "on 450 acres, with five pools and two championship golf courses",
+          "a daily resort fee of $45 plus tax"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.hampton-palm-desert",
+      "topic": "hotel",
+      "claim": "Hampton Inn & Suites Palm Desert: 74900 Gerald Ford Drive; free hot breakfast, indoor and outdoor pools, free parking; no airport shuttle.",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/plmhshx-hampton-suites-palm-desert/hotel-info/",
+          "kind": "official",
+          "title": "Hampton Inn & Suites Palm Desert: hotel information"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "a free hot breakfast, indoor and outdoor pools and free parking"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.hie-palm-desert",
+      "topic": "hotel",
+      "claim": "Holiday Inn Express & Suites Palm Desert - Millennium: 74777 Technology Drive; right off Highway 10 and directly across the street from Acrisure Arena; free breakfast; fitness center; minimum check-in age 21.",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/palm-desert/pspgf/hoteldetail",
+          "kind": "official",
+          "title": "Holiday Inn Express & Suites Palm Desert - Millennium"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "across the street from Acrisure Arena by the hotel's account"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.omni-las-palmas",
+      "topic": "hotel",
+      "claim": "Omni Rancho Las Palmas Resort & Spa: 41000 Bob Hope Drive, Rancho Mirage; adult-only Azure pool, Splashtopia waterpark, Conchillia Valley Pool, 20 tennis courts, 20,000-square-foot spa; valet and self parking offered.",
+      "sources": [
+        {
+          "url": "https://www.omnihotels.com/hotels/palm-springs-rancho-las-palmas/property-details",
+          "kind": "official",
+          "title": "Omni Rancho Las Palmas: property details"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "three pools including an adults-only one, the Splashtopia waterpark, 20 tennis courts and a 20,000-square-foot spa"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.westin-rancho-mirage",
+      "topic": "hotel",
+      "claim": "The Westin Rancho Mirage Golf Resort & Spa: 71333 Dinah Shore Drive; Pete Dye golf course, three themed pools, spa.",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/pspwi-the-westin-rancho-mirage-golf-resort-and-spa/overview/",
+          "kind": "official",
+          "title": "The Westin Rancho Mirage Golf Resort & Spa"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "a Pete Dye golf course, three themed pools and a spa"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.agua-caliente",
+      "topic": "hotel",
+      "claim": "Agua Caliente Resort Casino Spa Rancho Mirage: 32-250 Bob Hope Drive; 16-story resort with 340 rooms and suites; 550-square-foot Deluxe Rooms; FAQ says self-parking and valet are complimentary.",
+      "sources": [
+        {
+          "url": "https://www.aguacalientecasinos.com/resort/room-types/",
+          "kind": "official",
+          "title": "Agua Caliente Rancho Mirage: rooms and suites"
+        },
+        {
+          "url": "https://www.aguacalientecasinos.com/frequently-asked-questions/",
+          "kind": "official",
+          "title": "Agua Caliente Casinos: FAQ"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "a 16-storey resort with 340 rooms and suites",
+          "free self-parking and valet"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.renaissance-ps",
+      "topic": "hotel",
+      "claim": "Renaissance Palm Springs Hotel: 888 Tahquitz Canyon Way; connected to the Palm Springs Convention Center; outdoor pool and cabanas; daily on-site parking $35; pets not allowed; minimum check-in age 21.",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/pspbr-renaissance-palm-springs-hotel/overview/",
+          "kind": "official",
+          "title": "Renaissance Palm Springs Hotel"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "connected to the Palm Springs Convention Center",
+          "parking is $35 a day, pets are not allowed and the minimum check-in age is 21"
+        ]
+      }
+    },
+    {
+      "id": "us.ca.coachella.hotel.hilton-ps",
+      "topic": "hotel",
+      "claim": "Hilton Palm Springs: 400 East Tahquitz Canyon Way; outdoor pool, on-site restaurant; self-parking $30 per day; complimentary airport shuttle to PSP on request; breakfast available for a fee.",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/psppshf-hilton-palm-springs/hotel-info/",
+          "kind": "official",
+          "title": "Hilton Palm Springs: hotel information"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-for-coachella.html": [
+          "self-parking is $30 a day and breakfast is for a fee"
         ]
       }
     }

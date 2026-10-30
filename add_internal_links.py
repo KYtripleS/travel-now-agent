@@ -591,6 +591,34 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-chamonix.html": (
+        "Where to Stay in Chamonix",
+        "Five areas by lift, 12 hotels, reopening dates and the €2.60 taxe de séjour for a four-star in Chamonix.",
+    ),
+    "articles/where-to-stay-for-coachella.html": (
+        "Where to Stay in Coachella",
+        "Coachella 2027, 9-11 and 16-18 April: five areas by distance to the polo grounds, 12 hotels and the hotel tax.",
+    ),
+    "articles/where-to-stay-in-cologne-christmas-market.html": (
+        "Where to Stay in Cologne",
+        "Dates, five areas, 12 hotels and the 5% levy for the Cologne Christmas markets 2026.",
+    ),
+    "articles/where-to-stay-for-disneyland-paris.html": (
+        "Where to Stay in Disneyland Paris",
+        "Disney Hotels, Serris, Magny-le-Hongre or Paris on the RER A: 12 hotels, Extra Magic Time and the tax.",
+    ),
+    "articles/where-to-stay-for-keukenhof.html": (
+        "Where to Stay in Keukenhof",
+        "Open 18 March to 9 May 2027: five bases by bus and train time, 12 hotels and the local tourist taxes.",
+    ),
+    "articles/where-to-stay-in-washington-dc-cherry-blossom.html": (
+        "Where to Stay in Washington, DC",
+        "2026 peak bloom 26 March, 2027 festival 20 March-11 April, five areas by Metro, 12 hotels, the tax.",
+    ),
+    "articles/where-to-stay-in-bangkok-songkran.html": (
+        "Where to Stay in Bangkok",
+        "Five areas weighed by water and quiet, 12 hotels, 13-15 April 2027, last year's zones and the entry fee.",
+    ),
     "articles/where-to-stay-in-los-angeles-super-bowl.html": (
         "Where to Stay in Los Angeles",
         "Super Bowl LXI at SoFi on 14 Feb 2027: six areas by route, 12 hotels and hotel tax of 12% to 17%.",
@@ -2205,6 +2233,54 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-chamonix.html": [
+        "articles/where-to-stay-in-zermatt.html",
+        "articles/where-to-stay-in-zurich.html",
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-whistler.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-for-coachella.html": [
+        "articles/where-to-stay-in-los-angeles.html",
+        "articles/where-to-stay-in-los-angeles-super-bowl.html",
+        "articles/where-to-stay-in-las-vegas.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-cologne-christmas-market.html": [
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/where-to-stay-in-nuremberg-christmas-market.html",
+        "articles/where-to-stay-in-strasbourg-christmas-market.html",
+        "articles/where-to-stay-in-berlin.html",
+    ],
+    "articles/where-to-stay-for-disneyland-paris.html": [
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-paris-new-years-eve.html",
+        "articles/where-to-stay-for-tokyo-disney-resort.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-for-keukenhof.html": [
+        "articles/where-to-stay-in-amsterdam.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/europe-rail-pass-worth-it-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-washington-dc-cherry-blossom.html": [
+        "articles/where-to-stay-in-washington-dc.html",
+        "articles/where-to-stay-in-new-york.html",
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html",
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html",
+        "articles/where-to-stay-in-seoul-cherry-blossom.html",
+    ],
+    "articles/where-to-stay-in-bangkok-songkran.html": [
+        "articles/where-to-stay-in-bangkok.html",
+        "articles/bangkok-first-timers-guide.html",
+        "articles/things-to-do-in-bangkok.html",
+        "articles/best-esim-thailand-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-los-angeles-super-bowl.html": [
         "articles/where-to-stay-in-los-angeles.html",

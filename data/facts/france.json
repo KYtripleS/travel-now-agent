@@ -35,6 +35,9 @@
         "articles/hotel-taxes-around-the-world-2026.html": [
           "€8.45 a person a night at a four-star hotel",
           "Unclassified lodging pays 5% of the per-person price, capped at €15.93"
+        ],
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "Its 2026 totals are identical to the City of Paris’s"
         ]
       },
       "watch": "(taxe de séjour|Paris[^.]{0,60}(tourist|hotel) tax)[^.]{0,80}€\\s?\\d"
@@ -113,6 +116,11 @@
           "url": "https://www.iledefrance-mobilites.fr/en/tarifs-titre-de-transport-en-commun-2026",
           "kind": "official",
           "title": "Île-de-France Mobilités: 2026 fares"
+        },
+        {
+          "url": "https://www.iledefrance-mobilites.fr/tarifs-titre-de-transport-en-commun-2026",
+          "kind": "official",
+          "title": "Ile-de-France Mobilites: tarifs 2026"
         }
       ],
       "checked": "2026-10-08",
@@ -126,6 +134,9 @@
           "on the €14 airport ticket",
           "a Navigo day pass for all zones is €12.30",
           "a Métro, train or RER ticket is €2.55"
+        ],
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "a single Métro-Train-RER ticket at €2.55 in 2026 and a Navigo Jour pass for zones 1 to 5 at €12.30"
         ]
       },
       "watch": "(metro|RER|airport) ticket[^.]{0,40}€\\s?\\d"
@@ -1604,6 +1615,675 @@
         "articles/where-to-stay-in-paris-new-years-eve.html": [
           "A four-star of 134 rooms at 118 rue de Tocqueville",
           "only Saint-Lazare as a 26-minute walk"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.extra-magic-time",
+      "topic": "hotel",
+      "claim": "Disneyland Paris says guests staying at a Disney Hotel, at Les Villages Nature Paris or with a Disneyland Pass Gold can enter one or both Disney Parks before the official opening time; Partner Hotels are not named; the opening time, duration and park vary, details appear up to 3 months in advance and can change until the day of the visit.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.disneylandparis.com/en-gb/guest-services/extra-magic-hours",
+          "kind": "official",
+          "title": "Disneyland Paris: Extra Magic Time"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "can enter one or both parks before the official opening time",
+          "Partner Hotel guests are not on that list",
+          "they can change until the day of your visit"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.shuttles",
+      "topic": "transport",
+      "claim": "Disney's free hotel shuttles leave approximately every 15 to 20 minutes, 7 days a week from 6:30 AM to 11:45 PM (until 1 AM in summer), stopping at Marne-la-Vallée/Chessy station, the Disney Hotels (except Disney Davy Crockett Ranch and Disneyland Hotel) and the Partner Hotels; travel time is 10 minutes from the Partner Hotels, 20 for Ki Space Hotel & Spa.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.disneylandparis.com/en-gb/disney-hotels",
+          "kind": "official",
+          "title": "Disneyland Paris: Our Disney Hotels (FAQ on shuttles)"
+        },
+        {
+          "url": "https://www.disneylandparis.com/en-gb/partner-hotels",
+          "kind": "official",
+          "title": "Disneyland Paris: Partner Hotels"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "leave about every 15 to 20 minutes, seven days a week from 6:30am to 11:45pm, and until 1am in summer",
+          "is 10 minutes, and 20 for Ki Space Hotel & Spa"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.partner-package",
+      "topic": "hotel",
+      "claim": "A Partner Hotel + Tickets package lets guests choose a day in the Disney Parks for every night booked (minimum stay of 2 nights, as of 31 March 2026) and includes free parking at the hotel and the Disney Parks entrance; Disney Hotels also list free parking.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.disneylandparis.com/en-gb/partner-hotels",
+          "kind": "official",
+          "title": "Disneyland Paris: Partner Hotels"
+        },
+        {
+          "url": "https://www.disneylandparis.com/en-gb/disney-hotels",
+          "kind": "official",
+          "title": "Disneyland Paris: Our Disney Hotels"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "choose one park day for every night booked, with a minimum stay of two nights"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.park-names",
+      "topic": "place",
+      "claim": "Disney Adventure World is the name of the former Walt Disney Studios Park from 29 March 2026; the resort also has Disneyland Park and Disney Village.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://media.disneylandparis.com/d4th/en-usd/images/SalesConditionsSUMMER2026_tcm1861-289005.pdf",
+          "kind": "official",
+          "title": "Disneyland Paris booking terms (Summer 2026 / Winter 2026-27)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "Disney Adventure World, which took that name on 29 March 2026 in place of Walt Disney Studios Park"
+        ]
+      }
+    },
+    {
+      "id": "fr.vea.tourist-tax-2026",
+      "topic": "tax",
+      "claim": "Val d'Europe Agglomeration's tourist-tax grid from 1 January 2026 totals EUR 15.93 (palace), 11.70 (5 stars), 8.45 (4 stars), 5.53 (3 stars), 3.25 (2 stars) and 2.60 (1 star) per person per night, built from a local share (e.g. 2.60 at 4 stars), 10% department, 15% regional and 200% Ile-de-France Mobilites additions; unclassified lodging pays 5% of the nightly cost with the same additions; the grid covers 10 communes including Bailly-Romainvilliers, Chessy, Coupvray, Magny-le-Hongre and Serris; minors are exempt.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://valdeurope.taxesejour.fr/portail/document/27794331/download",
+          "kind": "official",
+          "title": "Val d'Europe Agglomeration: bareme taxe de sejour 2026"
+        },
+        {
+          "url": "https://valdeurope.taxesejour.fr/",
+          "kind": "official",
+          "title": "Val d'Europe Agglomeration: tourist tax portal"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "Val d’Europe Agglomeration publishes one grid for its ten communes",
+          "a 10% department share, a 15% regional share and a 200% share for Île-de-France Mobilités",
+          "Under-18s are exempt"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.tax-timing",
+      "topic": "tax",
+      "claim": "Disneyland Paris's package booking terms say the 15% deposit excludes the handling fee and local tax, which is payable as part of the balance (conditions covering 31 March 2026 to 31 March 2027).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://media.disneylandparis.com/d4th/en-usd/images/SalesConditionsSUMMER2026_tcm1861-289005.pdf",
+          "kind": "official",
+          "title": "Disneyland Paris booking terms (Summer 2026 / Winter 2026-27)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "Disney’s booking terms for packages say local tax is paid as part of the balance, not in the deposit"
+        ]
+      }
+    },
+    {
+      "id": "fr.magical-shuttle.fares",
+      "topic": "fare",
+      "claim": "Magical Shuttle charges EUR 24 per adult, EUR 11 per child under 12 and nothing for babies aged 0 to 2 per trip between Charles de Gaulle or Orly and the Disney Hotels and Partner Hotels, with an estimated travel time of 01:00; Disney's help page says about 45 minutes.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://magicalshuttle.co.uk/shuttle/charles-de-gaulle-shuttle/",
+          "kind": "operator",
+          "title": "Magical Shuttle: Charles de Gaulle"
+        },
+        {
+          "url": "https://magicalshuttle.co.uk/shuttle/orly-shuttle/",
+          "kind": "operator",
+          "title": "Magical Shuttle: Orly"
+        },
+        {
+          "url": "https://www.disneylandparis.com/en-gb/faq/travel-to-and-around-the-resort/transfer-from-airport-to-disneyland-paris",
+          "kind": "official",
+          "title": "Disneyland Paris: Where is Disneyland Paris in relation to the Paris airports?"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "€24 for an adult each way, €11 for a child under 12, and nothing for a baby from 0 to 2",
+          "It lists an estimated journey of one hour, while Disney’s help page says about 45 minutes"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.rer-a",
+      "topic": "transport",
+      "claim": "Disneyland Paris says the parks are approximately a 35-minute journey from Paris on the RER A, about 35 minutes from Nation; the closest stop is Marne-la-Vallée Chessy, 2 minutes' walk from Disneyland Park, Disney Adventure World and Disney Village; the Val d'Europe stop serves the shopping centre and l'Elysee.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.disneylandparis.com/en-gb/guest-services/getting-to-disneyland-paris-from-paris",
+          "kind": "official",
+          "title": "Disneyland Paris: getting to Disneyland Paris from Paris"
+        },
+        {
+          "url": "https://www.disneylandparis.com/en-gb/faq/travel-to-and-around-the-resort/public-transport-to-disneyland-paris",
+          "kind": "official",
+          "title": "Disneyland Paris: public transport from Paris"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "about 35 minutes from Nation",
+          "a 2-minute walk from Disneyland Park, Disney Adventure World and Disney Village"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.eurostar-express",
+      "topic": "transport",
+      "claim": "Disney says Eurostar from London St Pancras to Disneyland Paris takes around 3 hours with a change at Lille; Disneyland Paris Express is a same-day coach from 5 pick-up points in Paris (including Gare du Nord and Bercy), sold only with a park ticket.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.disneylandparis.com/en-gb/faq/travel-to-and-around-the-resort/train-to-disneyland-paris",
+          "kind": "official",
+          "title": "Disneyland Paris: travelling by train"
+        },
+        {
+          "url": "https://www.disneylandparis.com/en-gb/guest-services/getting-to-disneyland-paris-from-paris",
+          "kind": "official",
+          "title": "Disneyland Paris: getting to Disneyland Paris from Paris"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "reaches the resort in about three hours with a change at Lille",
+          "runs from five points in Paris"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.hotel.disneyland-hotel",
+      "topic": "hotel",
+      "claim": "Disneyland Hotel is a 5-star hotel at the entrance to Disneyland Park with a dedicated entrance to the park, a Royal Kids Club for 4 to 11 year olds, the Crystal Pool & Health Club and a Disneyland Hotel Spa by Clarins; its shuttle does not stop there.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.disneylandparis.com/en-gb/hotels/disneyland-hotel",
+          "kind": "official",
+          "title": "Disneyland Paris: Disneyland Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "The five-star hotel at the entrance to Disneyland Park, with a dedicated entrance to the park, a Royal Kids Club for 4 to 11 year olds"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.hotel.new-york",
+      "topic": "hotel",
+      "claim": "Disney Hotel New York - The Art of Marvel is a 4-star hotel with 561 rooms, a 10-minute walk to the parks, over 350 Marvel artworks by 110 artists and heated indoor and outdoor pools; suites are booked via Disney's holiday experts.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.disneylandparis.com/en-gb/hotels/disneys-hotel-new-york",
+          "kind": "official",
+          "title": "Disneyland Paris: Disney Hotel New York"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "A four-star hotel of 561 rooms, 10 minutes on foot from the parks, with more than 350 Marvel artworks by 110 artists"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.hotel.newport-bay",
+      "topic": "hotel",
+      "claim": "Disney Newport Bay Club is a 4-star hotel with 1,098 rooms on Lake Disney, a 15-minute walk to the parks, the Nantucket Pool (heated, indoor and outdoor) and Compass Club rooms with private reception and breakfast and tea.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.disneylandparis.com/en-gb/hotels/disneys-newport-bay-club",
+          "kind": "official",
+          "title": "Disneyland Paris: Disney Newport Bay Club"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "A four-star hotel of 1,098 rooms on Lake Disney in a New England style"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.hotel.santa-fe",
+      "topic": "hotel",
+      "claim": "Disney Hotel Santa Fe is a 2-star hotel with 1,001 Cars-themed rooms, a 20-minute walk to the parks and a free shuttle; La Cantina buffet and a Starbucks.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.disneylandparis.com/en-gb/hotels/disneys-hotel-santa-fe",
+          "kind": "official",
+          "title": "Disneyland Paris: Disney Hotel Santa Fe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "A two-star hotel of 1,001 rooms with a Route 66 and Cars theme, 20 minutes on foot from the parks"
+        ]
+      }
+    },
+    {
+      "id": "fr.dlp.hotel.sequoia-lodge",
+      "topic": "hotel",
+      "claim": "Disney Sequoia Lodge is a 3-star hotel with 1,010 rooms, a 15-minute walk to the parks, two heated pools with water games and a slide, and newly renovated rooms promoted as a separate choice.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.disneylandparis.com/en-gb/hotels/disneys-sequoia-lodge",
+          "kind": "official",
+          "title": "Disneyland Paris: Disney Sequoia Lodge"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "A three-star forest-lodge hotel of 1,010 rooms with Bambi-themed rooms"
+        ]
+      }
+    },
+    {
+      "id": "fr.hotel.elysee-vde",
+      "topic": "hotel",
+      "claim": "Hotel l'Elysee Val d'Europe (Serris) is a 4-star hotel of 152 rooms and suites for 1 to 4 people and up to 8 with connecting rooms, with Le George restaurant and Le Diplomate bar; Disney lists a free 10-minute shuttle and breakfast at a surcharge.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotelelysee.com/",
+          "kind": "official",
+          "title": "Hotel l'Elysee Val d'Europe"
+        },
+        {
+          "url": "https://www.disneylandparis.com/en-gb/hotels/hotel-lelysee-val-deurope",
+          "kind": "official",
+          "title": "Disneyland Paris: Hotel l'Elysee Val d'Europe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "A four-star hotel of 152 rooms and suites in Parisian style, sleeping up to 8 with connecting rooms"
+        ]
+      }
+    },
+    {
+      "id": "fr.hotel.ki-space",
+      "topic": "hotel",
+      "claim": "Ki Space Hotel & Spa (Serris) has 274 rooms and suites, almost all with fully furnished kitchens, and a 1,000 m2 Ki Spa by Eden des Sens with a pool with integrated jacuzzi, sauna and hammam.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://kispace-hotel.com/en/",
+          "kind": "official",
+          "title": "Ki Space Hotel & Spa"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "A four-star hotel of 274 rooms and suites, almost all with fully furnished kitchens, with a 1,000 m² spa run by Eden des Sens"
+        ]
+      }
+    },
+    {
+      "id": "fr.hotel.explorers",
+      "topic": "hotel",
+      "claim": "Explorers Hotel (50 avenue de la Fosse des Pressoirs, Magny-le-Hongre) offers rooms for up to 10 people, breakfast included, an aquapark, a free shuttle to the parks and Marne-la-Vallée Chessy station in under 10 minutes, Disney tickets on sale at reception subject to availability, and free parking when booked on its site.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.explorershotels.com/en/",
+          "kind": "official",
+          "title": "Explorers Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "rooms for up to 10 people, breakfast included, an aquapark, and a free shuttle to the parks and Chessy station in under 10 minutes"
+        ]
+      }
+    },
+    {
+      "id": "fr.hotel.campanile",
+      "topic": "hotel",
+      "claim": "Campanile Val de France (Magny-le-Hongre) is a 3-star hotel of 300 rooms on the edge of a lake, with Disney tickets on sale at reception, and a note that a dated ticket is needed to enter the parks; Disney lists a 10-minute free shuttle, a mini-farm and breakfast at a surcharge.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://val-de-france.campanile.com/en-us/",
+          "kind": "official",
+          "title": "Campanile Val de France"
+        },
+        {
+          "url": "https://www.disneylandparis.com/en-gb/hotels/campanile-val-de-france",
+          "kind": "official",
+          "title": "Disneyland Paris: Campanile Val de France"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "A three-star hotel of 300 rooms on the edge of a lake in Magny-le-Hongre"
+        ]
+      }
+    },
+    {
+      "id": "fr.hotel.staycity",
+      "topic": "hotel",
+      "claim": "Staycity Aparthotels Paris, Marne-la-Vallee (Bailly-Romainvilliers) has eight apartment types from studios to 4- and 5-bedroom villas, fully equipped kitchens, a heated outdoor pool open 9am to 8pm and a free private shuttle to the Disney Parks; parking is paid; Disney lists it as 4-star.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.staycity.com/paris/near-disneyland-paris",
+          "kind": "official",
+          "title": "Staycity Aparthotels near Disneyland Paris"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "a heated outdoor pool open from 9am to 8pm, and a free private shuttle to the parks"
+        ]
+      }
+    },
+    {
+      "id": "fr.hotel.aurore",
+      "topic": "hotel",
+      "claim": "Hotel Aurore (13 rue Traversiere, Paris 12e) is a 3-star hotel of 28 rooms opposite Gare de Lyon (3-minute walk), served by the RER A and D and metro lines 1 and 14; its site says the RER express line runs direct to Disneyland Paris.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.paris-hotel-aurore.com/en/",
+          "kind": "official",
+          "title": "Hotel Aurore Paris Gare de Lyon"
+        },
+        {
+          "url": "https://www.paris-hotel-aurore.com/en/getting-here.html",
+          "kind": "official",
+          "title": "Hotel Aurore: getting here"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "A three-star hotel of 28 rooms at 13 Rue Traversière, a 3-minute walk from Gare de Lyon"
+        ]
+      }
+    },
+    {
+      "id": "fr.hotel.relais-des-halles",
+      "topic": "hotel",
+      "claim": "Le Relais des Halles (26 rue Pierre Lescot, Paris 1er) has 19 rooms, the Chatelet-Les Halles RER station 3 minutes away, a breakfast buffet in a vaulted cellar, a 15 m2 single room and a 16 m2 Classic Double Room.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://hotel-relais-des-halles.com/en/",
+          "kind": "official",
+          "title": "Le Relais des Halles Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-disneyland-paris.html": [
+          "A hotel of 19 rooms at 26 Rue Pierre Lescot"
+        ]
+      }
+    },
+    {
+      "id": "fr.chamonix.taxe-de-sejour",
+      "topic": "tax",
+      "claim": "The Communauté de communes de la Vallée de Chamonix Mont-Blanc's 2026 taxe de séjour (deliberation 2025.00067 of 3 June 2025, applying from 1 January 2026) is per person per night: Palace €4.90, 5-star €3.60, 4-star €2.60, 3-star €1.70, 2-star €1.00, 1-star and chambres d'hôtes €0.80; unclassified 5% of the pre-tax nightly cost per person capped at €4.90. Worked examples (€20.80 for two adults, 4 nights, 4-star; 1.3% of an assumed €400 a night room; €39.20 unclassified at an assumed €300 pre-tax) are editorial arithmetic.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://valleedechamonix.taxesejour.fr/portail/document/29425021/download",
+          "kind": "official",
+          "title": "CCVCMB: fiche des tarifs 2026 taxe de séjour"
+        },
+        {
+          "url": "https://valleedechamonix.taxesejour.fr/portail/document/29419201/download",
+          "kind": "official",
+          "title": "CCVCMB: délibération 2025.00067, tarifs au 1er janvier 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chamonix.html": [
+          "The taxe de séjour is set by the Communauté de communes de la Vallée de Chamonix Mont-Blanc",
+          "2 × €2.60 × 4 = €20.80",
+          "so the tax is 1.3% of the bill",
+          "the tax is 2 × €4.90 × 4 = €39.20"
+        ]
+      }
+    },
+    {
+      "id": "fr.chamonix.taxe-de-sejour.exemptions",
+      "topic": "tax",
+      "claim": "Exempt from the 2026 Chamonix-valley taxe de séjour: minors, seasonal workers employed in the commune, people in emergency housing, and people occupying premises with rent under €5 a night. The Communauté's grid, deliberation and poster list no departmental surcharge; no Haute-Savoie decision on one was found.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://valleedechamonix.taxesejour.fr/portail/document/29425021/download",
+          "kind": "official",
+          "title": "CCVCMB: fiche des tarifs 2026 taxe de séjour"
+        },
+        {
+          "url": "https://valleedechamonix.taxesejour.fr/",
+          "kind": "official",
+          "title": "CCVCMB: plateforme taxe de séjour"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chamonix.html": [
+          "Minors, seasonal workers employed in the commune, people in emergency housing and people occupying premises with rent under €5 a night are exempt",
+          "list these rates and no departmental surcharge"
+        ]
+      }
+    },
+    {
+      "id": "fr.chamonix.carte-d-hote",
+      "topic": "transport",
+      "claim": "The Chamonix tourist office says the carte d'hôte is given by the accommodation host on arrival; it gives free travel on the SNCF Mont-Blanc Express between Servoz and Vallorcine and bus-pass discounts of up to 50% and more; it is not a bus ticket, has no discount on single tickets or night buses after 21:00, and is needed by each traveller over 4. Examples: 2-day €5, 5-day €8, weekly €10. Lift-pass holders scan the pass on the bus.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.chamonix.com/infos-et-services/la-carte-d-hote",
+          "kind": "official",
+          "title": "Chamonix tourist office: la carte d'hôte"
+        },
+        {
+          "url": "https://www.chamonix.com/infos-et-services/transports/se-deplacer",
+          "kind": "official",
+          "title": "Chamonix tourist office: se déplacer dans la vallée"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chamonix.html": [
+          "is handed to you by your accommodation host on arrival",
+          "discounts of up to 50% on Chamonix Mobilité bus passes",
+          "it has no discount on single tickets or on night buses after 21:00",
+          "If you hold a valid lift pass, you scan that on the bus and need no ticket"
+        ]
+      }
+    },
+    {
+      "id": "fr.chamonix.lifts.reopening",
+      "topic": "place",
+      "claim": "On its live status page on 30 October 2026 the Compagnie du Mont-Blanc listed reopening dates: Flégère partial on 28 November (snow permitting), Grands Montets 5 December, Balme (Charamillon and Vallorcine gondolas) 12 December, Les Houches - Saint-Gervais 19 December; no winter date for Brévent. No 2026/27 winter brochure or day-pass prices were published.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.montblancnaturalresort.com/fr/info-live",
+          "kind": "operator",
+          "title": "Mont-Blanc Natural Resort: ouvertures et météo (live status)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chamonix.html": [
+          "Partial reopening on 28 November, snow permitting",
+          "Argentière is the village at the foot of the Grands Montets, the area the operator lists as reopening on 5 December",
+          "the operator lists both gondolas as reopening on 12 December",
+          "Les Houches reopens last, on 19 December"
+        ]
+      }
+    },
+    {
+      "id": "fr.chamonix.lifts.season-pass",
+      "topic": "price",
+      "claim": "The operator's limited offer of 20 October to 30 November 2026 lists the MONT BLANC Unlimited adult season pass at €1,466; CHAMONIX Le Pass covers Brévent-Flégère, Balme and Les Grands Montets plus beginner areas; MONT BLANC Unlimited adds Les Houches - Saint-Gervais, Evasion Mont Blanc and sites including Aiguille du Midi.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.montblancnaturalresort.com/fr/preventes/preventes-forfaits",
+          "kind": "operator",
+          "title": "Mont-Blanc Natural Resort: forfaits saison et année"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chamonix.html": [
+          "its adult season pass is listed at €1,466 in the offer",
+          "CHAMONIX Le Pass covers Brévent-Flégère, Balme and the Grands Montets"
+        ]
+      }
+    },
+    {
+      "id": "fr.chamonix.geneva-transfer",
+      "topic": "fare",
+      "claim": "Mountain Drop-offs lists shared door-to-door transfers from Geneva Airport to Chamonix from €45.50 per person, around 1 hour 15 minutes, all year; Alpybus offers shared and private Geneva-Chamonix transfers and lists Les Houches, Les Praz, Argentière, Le Tour and Vallorcine as destinations.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.mountaindropoffs.com/geneva-to-chamonix-transfer/",
+          "kind": "operator",
+          "title": "Mountain Drop-offs: Geneva to Chamonix transfer"
+        },
+        {
+          "url": "https://www.alpybus.com/transfers/geneva-chamonix",
+          "kind": "operator",
+          "title": "Alpybus: Geneva to Chamonix"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chamonix.html": [
+          "shared door-to-door transfers from Geneva Airport from €45.50 per person",
+          "a journey of around 1 hour 15 minutes",
+          "Alpybus offers shared and private transfers"
+        ]
+      }
+    },
+    {
+      "id": "fr.chamonix.access",
+      "topic": "transport",
+      "claim": "The Chamonix tourist office gives Geneva Airport as 88 km away, names FlixBus as running daily between Geneva Airport and Chamonix, gives Geneva Cornavin to Chamonix as about 2h40 by rail, says the Léman Express links Geneva Airport to Saint-Gervais-Le Fayet, lists Mont-Blanc Express stops, and says that from 1 November to 31 March light vehicles must carry snow chains or run four winter tyres. SNCF and TER pages returned 403 and were not read.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.chamonix.com/infos-et-services/comment-venir",
+          "kind": "official",
+          "title": "Chamonix tourist office: comment venir"
+        },
+        {
+          "url": "https://www.chamonix.com/infos-et-services/transports/se-deplacer",
+          "kind": "official",
+          "title": "Chamonix tourist office: se déplacer dans la vallée"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chamonix.html": [
+          "Geneva Airport is the usual gateway, 88 km away according to the tourist office",
+          "about 2 hours 40 minutes by rail",
+          "from 1 November to 31 March, light vehicles must carry snow chains or run four winter tyres",
+          "validation is compulsory every time you board"
+        ]
+      }
+    },
+    {
+      "id": "fr.chamonix.hotel.hameau-albert-closure",
+      "topic": "hotel",
+      "claim": "Le Hameau Albert 1er's own site says it pauses from 1 November to 4 December 2026.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hameaualbert.fr/en/",
+          "kind": "official",
+          "title": "Le Hameau Albert 1er"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chamonix.html": [
+          "its site says it is closed from 1 November to 4 December 2026"
+        ]
+      }
+    },
+    {
+      "id": "fr.chamonix.hotel.aiguille-du-midi-opening",
+      "topic": "hotel",
+      "claim": "Hôtel Aiguille du Midi (Les Bossons) lists winter opening from 18 December 2026 to 29 March 2027, with bus and train stops 150 m away.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotel-aiguilledumidi.com/",
+          "kind": "official",
+          "title": "Hôtel Aiguille du Midi"
+        },
+        {
+          "url": "https://www.hotel-aiguilledumidi.com/acces-et-infos-hotel-restaurant-chamonix-mont-blanc",
+          "kind": "official",
+          "title": "Hôtel Aiguille du Midi: access and FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chamonix.html": [
+          "Its winter opening is 18 December 2026 to 29 March 2027",
+          "it is closed until 18 December"
+        ]
+      }
+    },
+    {
+      "id": "fr.chamonix.hotel.grands-montets-package",
+      "topic": "hotel",
+      "claim": "Les Grands Montets Hotel & Spa offers a winter 2027 ski package with one ski pass per person per night and 10% off the room for direct bookings (€3 card fee), says it is at the start of the Grands Montets cable-car car park, and quotes a local tax of €2.50 on its offers page.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotel-grands-montets.com/en/offers.html",
+          "kind": "official",
+          "title": "Les Grands Montets Hotel & Spa: offers"
+        },
+        {
+          "url": "https://www.hotel-grands-montets.com/en/map.html",
+          "kind": "official",
+          "title": "Les Grands Montets Hotel & Spa: map and access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-chamonix.html": [
+          "Its winter 2027 ski package includes one ski pass per person per night",
+          "its offers page quotes a local tax of €2.50"
         ]
       }
     }

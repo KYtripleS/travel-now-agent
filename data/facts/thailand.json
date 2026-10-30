@@ -1007,6 +1007,400 @@
           "quotes on request"
         ]
       }
+    },
+    {
+      "id": "th.songkran2027.holidays",
+      "topic": "place",
+      "claim": "The Bank of Thailand's Notification No. 37/2569, announced 17 August 2026, lists Tuesday 13, Wednesday 14 and Thursday 15 April 2027 as Songkran Festival holidays for financial institutions; Time Out Bangkok's 2027 calendar also lists Songkran as 13-15 April.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.bot.or.th/content/dam/bot/fipcs/documents/FPG/2569/EngPDF/25690175.pdf",
+          "kind": "official",
+          "title": "Bank of Thailand: Notification No. 37/2569, holidays for 2027"
+        },
+        {
+          "url": "https://www.timeout.com/bangkok/news/the-thailand-2027-public-holidays-092326",
+          "kind": "news",
+          "title": "Time Out Bangkok: Thailand's 2027 public holidays"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "lists Tuesday 13, Wednesday 14 and Thursday 15 April as Songkran holidays for banks",
+          "each marked \"Songkran Festival\"",
+          "also lists Songkran as Tuesday 13 to Thursday 15 April"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "th.songkran2026.tat-zones",
+      "topic": "place",
+      "claim": "TAT's 26 March 2026 release listed Songkran 2026 events in Bangkok including Silom Road (12-14 April, parade 14 April), Siam Square (12-15 April), ICONSIAM River Park (10-15 April), Royal City Avenue (10-15 April) and Benjakitti Park (11-15 April), and said Silom and Siam Square would again become major water celebration zones; it did not mention Khao San Road.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tatnews.org/2026/03/songkran-festival-2026-to-proceed-nationwide-welcoming-global-visitors-to-thailands-unesco-recognised-new-year-celebration/",
+          "kind": "official",
+          "title": "TAT Newsroom: Songkran Festival 2026 to proceed nationwide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "Silom Road",
+          "12 to 14 April",
+          "Siam Square",
+          "12 to 15 April",
+          "10 to 15 April",
+          "once again transform into major water celebration zones",
+          "TAT's own list did not mention Khao San Road"
+        ]
+      },
+      "recheck_days": 365
+    },
+    {
+      "id": "th.songkran2026.maha-benjakitti",
+      "topic": "place",
+      "claim": "TAT said the Maha Songkran World Water Festival 2026 ran 11-15 April at Benjakitti Park with free admission, with access from BTS Asok and MRT Queen Sirikit National Convention Centre.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tatnews.org/2026/04/maha-songkran-world-water-festival-2026-opens-in-bangkok/",
+          "kind": "official",
+          "title": "TAT Newsroom: Maha Songkran World Water Festival 2026 opens in Bangkok"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "free admission",
+          "reached from BTS Asok or MRT Queen Sirikit National Convention Centre"
+        ]
+      },
+      "recheck_days": 365
+    },
+    {
+      "id": "th.songkran2026.bma-top6",
+      "topic": "place",
+      "claim": "The BMA's figures for 10-12 April 2026, as reported by Thai PBS, ranked the six most popular water-play spots: Siam Square 183,544, Silom Road 162,583, ICONSIAM 102,000, S2O Land (Huai Khwang) 42,202, Banthat Thong Water Street 20,538 and Khao San Road 20,000.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.thaipbs.or.th/news/content/504605",
+          "kind": "news",
+          "title": "Thai PBS: BMA's six most popular water-play spots, 10-12 April 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "Siam Square (183,544 people)",
+          "Silom Road (162,583)",
+          "ICONSIAM (102,000)",
+          "Banthat Thong (20,538)",
+          "Khao San Road (20,000)"
+        ]
+      },
+      "recheck_days": 365
+    },
+    {
+      "id": "th.songkran2026.silom-rules",
+      "topic": "place",
+      "claim": "Thairath reported that in 2026 Silom Road was closed from Sala Daeng Intersection to Nararam Intersection for 12-14 April, with high-pressure water guns and powder banned, the event alcohol-free and water play limited to designated areas.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://en.thairath.co.th/lifestyle/travel/2924763",
+          "kind": "news",
+          "title": "Thairath: Songkran 2026 in Bangkok"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "closed from Sala Daeng Intersection to Nararam Intersection",
+          "high-pressure water guns and powder banned",
+          "water play limited to designated areas",
+          "many areas had road closures and limited parking"
+        ]
+      },
+      "recheck_days": 365
+    },
+    {
+      "id": "th.tourist-fee.proposal",
+      "topic": "tax",
+      "claim": "As of the Government Public Relations Department's 17 August 2026 page, Thailand's tourism fee for foreign visitors is a proposal: a flat 450 baht per person by air, land or sea (replacing an earlier 300-baht air proposal), with the air phase starting 180 days after the Royal Gazette announcement; foreign visitors are not yet required to pay.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/532128",
+          "kind": "official",
+          "title": "Government PRD: proposed 450-baht tourism fee"
+        },
+        {
+          "url": "https://www.pattayamail.com/news/what-tourists-say-could-decide-thailands-450-baht-entry-fee-561734",
+          "kind": "news",
+          "title": "Pattaya Mail: what tourists say could decide Thailand's entry fee"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "Not in force",
+          "a proposed flat 450 baht per person by air, land or sea",
+          "earlier 300-baht air proposal",
+          "air phase would start 180 days after the Royal Gazette announcement"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "th.vat.7pc-2027",
+      "topic": "tax",
+      "claim": "Thailand's 7% VAT rate is extended by Royal Decree No. 807 to 30 September 2027, per KPMG (a professional-services source, not the Revenue Department).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/09/thailand-reduced-7-percent-vat-rate-extended-through-september-2027.html",
+          "kind": "news",
+          "title": "KPMG: Thailand's reduced 7% VAT rate extended through September 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "7% under Royal Decree No. 807",
+          "extends the rate to 30 September 2027"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "th.rail.fare-plan-2027",
+      "topic": "fare",
+      "claim": "The Thai government plans a single fare of 17-45 baht across connected Bangkok rail lines from 1 January 2027 (Thairath, 23 June 2026); Khaosod reported on 21 October 2026 that the scheme was heading to Cabinet and remained subject to approval.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://en.thairath.co.th/news/politic/2941345",
+          "kind": "news",
+          "title": "Thairath: unified 17-45 baht rail fare plan"
+        },
+        {
+          "url": "https://www.khaosodenglish.com/news/transpo/2026/10/21/one-trip-no-more-than-45-baht-bangkok-rail-plan-heads-to-cabinet/",
+          "kind": "news",
+          "title": "Khaosod English: 45-baht rail fare plan heads to Cabinet"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "a single fare of 17 to 45 baht across connected rail lines from 1 January 2027",
+          "still described as subject to Cabinet approval"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "bkk.arl.operator-transition",
+      "topic": "transport",
+      "claim": "News reports (Nation Thailand, Pattaya Mail) say the Airport Rail Link is under a four-month interim agreement with its current operator to about the end of January 2027, with a state railway subsidiary due to take over after it; reports differ on the exact date.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.nationthailand.com/news/politics/40071005",
+          "kind": "news",
+          "title": "Nation Thailand: SRT unit set to take over Airport Rail Link operations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "four-month interim agreement with the current private operator runs to about the end of January 2027",
+          "reports differing on the exact date"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "bkk.hotel.dusit-thani-sala-daeng",
+      "topic": "hotel",
+      "claim": "Dusit Thani Bangkok is at 98 Rama IV Road, facing Lumphini Park, and its own site says it is connected to the interchange of BTS Sala Daeng and MRT Silom stations.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.dusit.com/dusitthani-bangkok/",
+          "kind": "official",
+          "title": "Dusit Thani Bangkok official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "At 98 Rama IV Road, facing Lumphini Park",
+          "connected to the interchange of BTS Sala Daeng and MRT Silom stations"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.pullman-g",
+      "topic": "hotel",
+      "claim": "Pullman Bangkok Hotel G is at 188 Silom Road and its site lists an outdoor swimming pool, a pool bar and easy access to BTS Chong Nonsi and MRT Silom.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.pullmanbangkokhotelg.com/official-site/location/",
+          "kind": "official",
+          "title": "Pullman Bangkok Hotel G: location"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "At 188 Silom Road, with an outdoor swimming pool and pool bar",
+          "easy access to BTS Chong Nonsi and MRT Silom"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.sukhothai-pool",
+      "topic": "hotel",
+      "claim": "The Sukhothai Bangkok is at 13/3 South Sathorn Road and its site cites a 25-metre infinity-edged swimming pool amid the grounds and seven bars and dining establishments.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://bangkok.sukhothai.com/en/",
+          "kind": "official",
+          "title": "The Sukhothai Bangkok official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "At 13/3 South Sathorn Road",
+          "a 25-metre infinity-edged pool amid the grounds and seven bars and restaurants"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.pathumwan-princess-mbk",
+      "topic": "hotel",
+      "claim": "Pathumwan Princess Hotel is at 444 MBK Center, Phayathai Road, connected to MBK, with a skywalk to Siam and the Skytrain described as just minutes away.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.pprincess.com/",
+          "kind": "official",
+          "title": "Pathumwan Princess Hotel official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "At 444 MBK Center on Phayathai Road, connected to the MBK mall",
+          "just minutes away"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.centara-grand-centralworld",
+      "topic": "hotel",
+      "claim": "Centara Grand at CentralWorld is at 999/99 Rama 1 Road, within CentralWorld, with 505 newly renovated rooms.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.centarahotelsresorts.com/centaragrand/cgcw",
+          "kind": "official",
+          "title": "Centara Grand at CentralWorld official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "505 newly renovated rooms at 999/99 Rama 1 Road, within the CentralWorld complex"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.marriott-marquis-queens-park-rooms",
+      "topic": "hotel",
+      "claim": "Bangkok Marriott Marquis Queen's Park has 1,388 guest rooms and its site says it is a step from EmSphere and BTS Phrom Phong, near Benchasiri Park.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/bkkqp-bangkok-marriott-marquis-queens-park/overview/",
+          "kind": "official",
+          "title": "Marriott: Bangkok Marriott Marquis Queen's Park"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "1,388 guest rooms",
+          "a step from EmSphere and BTS Phrom Phong, near Benchasiri Park"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.hie-sukhumvit-11",
+      "topic": "hotel",
+      "claim": "Holiday Inn Express Bangkok Sukhumvit 11 has 160 guest rooms on Sukhumvit Soi 11, a 5-minute walk to Nana BTS, with free breakfast and a fitness centre listed.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/bangkok/bkkex/hoteldetail",
+          "kind": "official",
+          "title": "IHG: Holiday Inn Express Bangkok Sukhumvit 11"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "160 guest rooms on Sukhumvit Soi 11, a five-minute walk to Nana BTS station, with free breakfast and a fitness centre"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.avani-riverside-250",
+      "topic": "hotel",
+      "claim": "Avani+ Riverside Bangkok Hotel has 250 rooms and suites with river views, an infinity pool and six dining outlets, at 257 Charoennakorn Road, Thonburi.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.avanihotels.com/en/riverside-bangkok",
+          "kind": "official",
+          "title": "Avani+ Riverside Bangkok official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "250 rooms and suites with views of the river from the Thonburi bank at 257 Charoennakorn Road, an infinity pool and six dining outlets"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.riva-surya-68",
+      "topic": "hotel",
+      "claim": "Riva Surya Bangkok has 68 rooms at 23 Phra Athit Road, on the Chao Phraya, with a riverside swimming pool.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.rivasuryabangkok.com/en/",
+          "kind": "official",
+          "title": "Riva Surya Bangkok official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "68 rooms at 23 Phra Athit Road, on the river, with a riverside swimming pool"
+        ]
+      }
+    },
+    {
+      "id": "bkk.hotel.lamphu-tree-house",
+      "topic": "hotel",
+      "claim": "Lamphu Tree House says it is within a 5 to 10 minute walk of Khao San Road, with a pool and a newer building a 3-5 minute walk from the main building.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.lamphutreehotel.com/",
+          "kind": "official",
+          "title": "Lamphu Tree House official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-bangkok-songkran.html": [
+          "within a 5 to 10 minute walking distance",
+          "a newer second building is a 3 to 5 minute walk from the main one"
+        ]
+      }
     }
   ]
 }

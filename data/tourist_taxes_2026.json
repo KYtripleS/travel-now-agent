@@ -3771,7 +3771,7 @@
    "currency": "USD",
    "tax_name": "sales and use tax on transient accommodations",
    "structure": "percent",
-   "rule_text": "DC's Office of Tax and Revenue lists the sales and use tax rate on rooms, lodgings or accommodations as 15.95%; its notice raised the transient-accommodations rate from 14.95% to 15.95% for April 1, 2023 through March 30, 2027.",
+   "rule_text": "DC's Office of Tax and Revenue lists the sales and use tax rate on rooms, lodgings or accommodations as 15.95%; its notice raised the transient-accommodations rate from 14.95% to 15.95% from April 1, 2023, and its October 2025 notice extends the 15.95% rate through September 30, 2027.",
    "general_tax_note": "DC's general sales tax rate remains 6% through September 30, 2027 (site banner); rooms carry the separate 15.95% rate above.",
    "other_charges_not_in_example": null,
    "example_3n_2a": 95.7,
@@ -3781,8 +3781,8 @@
    "example_alt": null,
    "example_after_change": null,
    "none_basis": null,
-   "effective_from": "2023-04-01 (15.95%, through 2027-03-30)",
-   "changes_scheduled": "The 15.95% rate is stated for April 1, 2023 through March 30, 2027; the ledger does not state the rate after that date.",
+   "effective_from": "2023-04-01 (15.95%, extended through 2027-09-30)",
+   "changes_scheduled": "The 15.95% rate is extended through September 30, 2027 (OTR notice of October 2025); the ledger does not state the rate after that date.",
    "caveats": [
     "No separate per-night city charge appears on the OTR pages read."
    ],
@@ -3795,6 +3795,10 @@
     {
      "url": "https://otr.cfo.dc.gov/page/sales-and-use-tax-faqs",
      "kind": "official"
+    },
+    {
+     "url": "https://otr.cfo.dc.gov/release/notice-oct-1-2025-tax-changes",
+     "kind": "official"
     }
    ],
    "other_sources": [],
@@ -3802,7 +3806,7 @@
     "us.dc.tax-hotel-rate",
     "us.dc.tax-example"
    ],
-   "checked": "2026-10-21"
+   "checked": "2026-10-30"
   },
   {
    "city": "Cancun",

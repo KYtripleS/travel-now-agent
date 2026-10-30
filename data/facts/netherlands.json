@@ -20,6 +20,10 @@
         ],
         "articles/where-to-stay-in-stockholm.html": [
           "a 12.5% tourist tax comes on top of 21% VAT"
+        ],
+        "articles/where-to-stay-for-keukenhof.html": [
+          "12.5% of the overnight price, excluding VAT",
+          "VAT adds €31.50 and the tourist tax €18.75 a night"
         ]
       }
     },
@@ -555,6 +559,537 @@
         ]
       },
       "note": "A coalition plan, not law: recheck for a council decision (gemeenteraad) before quoting as settled."
+    },
+    {
+      "id": "nl.keukenhof.2027-season",
+      "topic": "place",
+      "claim": "Keukenhof's website gives the 2027 season as Thursday 18 March to Sunday 9 May 2027, open daily 08:00 to 19:00, entry closing 18:15; the 2026 season was 19 March to 10 May and Keukenhof reported more than 1.4 million visitors.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://keukenhof.nl/en/",
+          "kind": "official",
+          "title": "Keukenhof home page"
+        },
+        {
+          "url": "https://keukenhof.nl/en/news/keukenhof-looks-back-on-bright-and-brilliant-season/",
+          "kind": "official",
+          "title": "Keukenhof news, 10 May 2026"
+        },
+        {
+          "url": "https://zhn.qbuzz.nl/keukenhof",
+          "kind": "operator",
+          "title": "Qbuzz, 19 March to 10 May 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "open from Thursday 18 March to Sunday 9 May 2027",
+          "with entry closing at 18:15",
+          "the 2026 season ran from 19 March to 10 May",
+          "more than 1.4 million visitors that season"
+        ]
+      }
+    },
+    {
+      "id": "nl.keukenhof.faq-slots-crowds",
+      "topic": "place",
+      "claim": "Keukenhof's FAQ: tickets valid only in the booked time slot, online tickets reschedulable up to 24 hours before if the slot is free, park less crowded before 10:30 or after 16:00, bloom depends on the weather with early bloomers first and larger tulips later.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://keukenhof.nl/en/visit/frequently-asked-questions",
+          "kind": "official",
+          "title": "Keukenhof FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "valid only during the slot you booked",
+          "less crowded before 10:30 or after 16:00",
+          "early-flowering bulbs at the start of the season and the larger tulips later"
+        ]
+      }
+    },
+    {
+      "id": "nl.keukenhof.ticket-prices-page",
+      "topic": "price",
+      "claim": "Keukenhof's ticket page lists adult EUR 21.00 online and EUR 27.00 at the ticket window without stating the season; says prices vary by day and ticket type; combiticket 'available from mid-January'.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://keukenhof.nl/en/visit/order-your-tickets",
+          "kind": "official",
+          "title": "Keukenhof ticket prices"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "€21.00 online and €27.00 at the ticket window",
+          "available from mid-January"
+        ]
+      }
+    },
+    {
+      "id": "nl.keukenhof.parking",
+      "topic": "price",
+      "claim": "Keukenhof parking is EUR 10.00 online or EUR 15.00 at the ticket window; Keukenhof's address is Stationsweg 166a, Lisse.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.keukenhof.nl/en/visit/plan-your-visit",
+          "kind": "official",
+          "title": "Keukenhof plan your visit"
+        },
+        {
+          "url": "https://keukenhof.nl/en/news/keukenhof-looks-back-on-bright-and-brilliant-season/",
+          "kind": "official",
+          "title": "Keukenhof news (address)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "€10.00 online or €15.00 at the ticket window",
+          "Stationsweg 166a in Lisse"
+        ]
+      }
+    },
+    {
+      "id": "nl.keukenhofbuzz.lines-2026",
+      "topic": "transport",
+      "claim": "For the 2026 season Qbuzz's KeukenhofBuzz ran line 854 from Leiden Centraal (up to 6 an hour, about 30 minutes), 850 from Haarlem (2 an hour, about 40 minutes), 852 from Amsterdam RAI/Europaplein (up to 10 an hour, about 35 minutes) and 859 from Hoofddorp station, non-stop to the main entrance. The 2027 timetable was not published.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://zhn.qbuzz.nl/keukenhof",
+          "kind": "operator",
+          "title": "Qbuzz Keukenhof page, 2026"
+        },
+        {
+          "url": "https://zhn.qbuzz.nl/nieuws/qbuzz-klaar-voor-keukenhof-2026",
+          "kind": "operator",
+          "title": "Qbuzz news, Keukenhof 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "Line 854 ran up to 6 times an hour from Leiden Centraal in 2026, in about 30 minutes",
+          "Line 850 ran twice an hour in 2026, in about 40 minutes",
+          "Line 852 ran up to 10 times an hour from the RAI",
+          "Line 859 starts at Hoofddorp station"
+        ]
+      }
+    },
+    {
+      "id": "nl.keukenhofbuzz.schiphol-2026",
+      "topic": "transport",
+      "claim": "Qbuzz said that, because of works at Schiphol Airport, departure from Schiphol to Keukenhof is not possible for the next two years (2026 announcement).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://zhn.qbuzz.nl/nieuws/qbuzz-klaar-voor-keukenhof-2026",
+          "kind": "operator",
+          "title": "Qbuzz news, Keukenhof 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "departure from Schiphol would not be possible for the next two years"
+        ]
+      }
+    },
+    {
+      "id": "nl.keukenhofbuzz.combiticket-2026",
+      "topic": "price",
+      "claim": "2026 KeukenhofBuzz combitickets (admission plus transport): EUR 38.50 adult from Amsterdam RAI, EUR 33.50 adult from Haarlem or Leiden, EUR 17.50 child (4-17); separate return bus EUR 18.20 from RAI and EUR 12.80 from Haarlem or Leiden; train, bus and admission ticket via NS from EUR 42.50.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://zhn.qbuzz.nl/keukenhof",
+          "kind": "operator",
+          "title": "Qbuzz Keukenhof page, 2026 prices"
+        },
+        {
+          "url": "https://zhn.qbuzz.nl/nieuws/qbuzz-klaar-voor-keukenhof-2026",
+          "kind": "operator",
+          "title": "Qbuzz news, Keukenhof 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "the combination of admission and the KeukenhofBuzz cost €38.50 for an adult",
+          "from Haarlem or Leiden it was €33.50",
+          "A separate return bus ticket was €18.20 from the RAI and €12.80 from Haarlem or Leiden",
+          "a train, bus and admission ticket sold through NS from €42.50"
+        ]
+      }
+    },
+    {
+      "id": "nl.vat.accommodation-21",
+      "topic": "tax",
+      "claim": "Dutch VAT on hotel accommodation is 21% from 1 January 2026.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/btw-logies",
+          "kind": "official",
+          "title": "Belastingdienst, VAT on accommodation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "VAT on accommodation has been 21% since 1 January 2026"
+        ]
+      }
+    },
+    {
+      "id": "nl.haarlem.tourist-tax",
+      "topic": "tax",
+      "claim": "Haarlem's 2026 tourist tax is EUR 6.20 per person per night for all accommodation, EUR 4.00 for hostels (Article 6, in force from 1 January 2026).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR752896/2",
+          "kind": "official",
+          "title": "Haarlem Verordening toeristenbelasting 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "€6.20 a person a night (hostels €4.00)",
+          "€6.20 × 2 × 3 = €37.20"
+        ]
+      }
+    },
+    {
+      "id": "nl.leiden.tourist-tax",
+      "topic": "tax",
+      "claim": "Leiden's 2026 tourist tax is EUR 4.70 per person per overnight stay (Article 6).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR751719/1",
+          "kind": "official",
+          "title": "Leiden Verordening toeristenbelasting 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "€4.70 a person a night",
+          "in Leiden €28.20"
+        ]
+      }
+    },
+    {
+      "id": "nl.lisse.tourist-tax",
+      "topic": "tax",
+      "claim": "Lisse's 2026 tourist tax is EUR 4.00 per person per night for accommodation other than camping, EUR 3.15 for camping (Article 6).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR752565",
+          "kind": "official",
+          "title": "Lisse Verordening toeristenbelasting 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "€4.00 a person a night (campsites €3.15)",
+          "in Lisse €24.00"
+        ]
+      }
+    },
+    {
+      "id": "nl.noordwijk.tourist-tax",
+      "topic": "tax",
+      "claim": "Noordwijk's 2026 tourist tax is EUR 2.58 per person per night for other forms of stay and EUR 1.80 on tourist pitches (Article 8).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR752903",
+          "kind": "official",
+          "title": "Noordwijk Verordening toeristenbelasting 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "€2.58 a person a night (tourist pitches €1.80)",
+          "in Noordwijk €15.48"
+        ]
+      }
+    },
+    {
+      "id": "nl.haarlemmermeer.tourist-tax",
+      "topic": "tax",
+      "claim": "Haarlemmermeer's 2026 tourist tax is 6.92% of the stay fee charged, excluding the tax itself (Articles 4 and 5, from 1 January 2026).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR749044/",
+          "kind": "official",
+          "title": "Haarlemmermeer Verordening toeristenbelasting 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "6.92% of the accommodation fee charged",
+          "6.92% of the fee charged"
+        ]
+      }
+    },
+    {
+      "id": "nl.ns.fares-2026",
+      "topic": "fare",
+      "claim": "NS journey planner for Friday 30 October 2026, second class single, full fare: Schiphol to Leiden Centraal 17 min EUR 7.80 (direct Intercity); Haarlem to Leiden Centraal 20 min EUR 7.80; Amsterdam Centraal to Haarlem 19 min EUR 5.50; Amsterdam Centraal to Leiden Centraal 37 min Intercity EUR 12.00; Schiphol to Hoofddorp 4 min EUR 3.00. NS 2026 price list: EUR 1.60 surcharge for a single-use smartcard.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.ns.nl/en/journeyplanner/",
+          "kind": "operator",
+          "title": "NS journey planner, 30 Oct 2026"
+        },
+        {
+          "url": "https://www.ns.nl/binaries/_ht_1762337701689/content/assets/ns-nl/tarieven/2026/ns-prijslijst-2026-en.pdf",
+          "kind": "operator",
+          "title": "NS consumer prices from 1 January 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "Haarlem is 19 minutes from Amsterdam Centraal by NS (€5.50 single)",
+          "Leiden has a direct Intercity from Schiphol in 17 minutes",
+          "the 37-minute Intercity to Leiden",
+          "four minutes from Schiphol by train (€3.00 single)",
+          "NS adds a €1.60 surcharge for a single-use smartcard",
+          "Haarlem to Leiden Centraal (Intercity)"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.barbizon",
+      "topic": "hotel",
+      "claim": "NH Collection Amsterdam Barbizon Palace: 268 rooms over six floors in 17th-century houses, opposite Amsterdam Central Station; indoor parking EUR 70 a day.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.nh-hotels.com/en/hotel/nh-collection-amsterdam-barbizon-palace",
+          "kind": "official",
+          "title": "NH Collection Amsterdam Barbizon Palace official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "268 rooms spread over six floors in a row of 17th-century houses",
+          "indoor parking at €70 a day"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.sint-nicolaas",
+      "topic": "hotel",
+      "claim": "Hotel Sint Nicolaas: Spuistraat 1a, 24-hour reception, 2-minute walk to Centraal by its count; double 21 m2, twin 19 m2, small double 16 m2, single 15 m2.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotelnicolaas.nl/en/",
+          "kind": "official",
+          "title": "Hotel Sint Nicolaas official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "a two-minute walk to Centraal",
+          "doubles are 21 m², twins 19 m², small doubles 16 m² and singles 15 m²"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.okura",
+      "topic": "hotel",
+      "claim": "Hotel Okura Amsterdam: Ferdinand Bolstraat 333; site mentions a nearby metro station and a 15-minute drive to Schiphol; Ciel Bleu two Michelin stars, Yamazato one.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.okura.nl/",
+          "kind": "official",
+          "title": "Hotel Okura Amsterdam official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "a 15-minute drive to Schiphol",
+          "a two-Michelin-star restaurant, Ciel Bleu"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.lion-dor",
+      "topic": "hotel",
+      "claim": "Hotel Lion d'Or: Haarlem's oldest surviving city hotel, since 1839, four stars, 56 rooms, 10 own parking spaces, free bicycle garage, breakfast buffet EUR 17.50 a person.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotelliondor.nl/",
+          "kind": "official",
+          "title": "Hotel Lion d'Or official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "begun in 1839 as a tavern",
+          "ten parking spaces on its own ground",
+          "breakfast is a buffet at €17.50 a person"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.frans-hals",
+      "topic": "hotel",
+      "claim": "Amrath Grand Hotel Frans Hals: 82 rooms at Damstraat 10, Haarlem city centre; breakfast buffet.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.amrathhotelhaarlem.nl/en",
+          "kind": "official",
+          "title": "Amrath Grand Hotel Frans Hals official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "An 82-room hotel at Damstraat 10 in the city centre"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.golden-tulip-leiden",
+      "topic": "hotel",
+      "claim": "Golden Tulip Leiden Centre: Schipholweg 3, opposite Leiden Central Station; Comfort Room 23 m2, Executive Room 25 m2.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.louvrehotels.com/en-us/hotels/golden-tulip-leiden-centre",
+          "kind": "official",
+          "title": "Golden Tulip Leiden Centre official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "Comfort Rooms of 23 m² and Executive Rooms of 25 m²",
+          "opposite Leiden Central Station"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.oude-morsch",
+      "topic": "hotel",
+      "claim": "Boutique Hotel d'Oude Morsch: 18 rooms in the former guard building of the Morspoort Barracks, dated 1817; parking garage across the street; reception and lobby open daily until 21:00.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.boutiquehoteldeoudemorsch.nl/en/",
+          "kind": "official",
+          "title": "Boutique Hotel d'Oude Morsch official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "A hotel of 18 rooms",
+          "reception and lobby are open daily until 21:00"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.de-duif",
+      "topic": "hotel",
+      "claim": "Hotel De Duif: Westerdreef 49, Lisse; room types from Souterrain Budget Twin to Duplex Suite and apartment; 5% direct-booking discount.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hoteldeduif.nl/en/",
+          "kind": "official",
+          "title": "Hotel De Duif official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "Westerdreef in Lisse",
+          "a 5% discount for booking direct"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.lowietje",
+      "topic": "hotel",
+      "claim": "Hotel Lowietje Lisse: Heereweg 10, Lisse; Comfort Double, Superior Double and Superior Triple rooms; 5% direct-booking discount.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://lowietjelisse.nl/en/",
+          "kind": "official",
+          "title": "Hotel Lowietje Lisse official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "A hotel at Heereweg 10 in Lisse"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.huis-ter-duin",
+      "topic": "hotel",
+      "claim": "Grand Hotel Huis ter Duin: Koningin Astrid Boulevard 5, Noordwijk aan Zee, on the highest dune of Noordwijk; eight room types; three restaurants, spa, bike rental.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://huisterduin.com/?lang=en",
+          "kind": "official",
+          "title": "Grand Hotel Huis ter Duin official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "eight room types from the Charming Room to the Imperial Suite",
+          "highest dune in Noordwijk"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.florian",
+      "topic": "hotel",
+      "claim": "The Florian: Kruisweg 609, Hoofddorp; bus 397 from Schiphol platform D takes 6 minutes to its stop; underground garage EUR 15 a night; breakfast not included by default.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.florian-hotels.com/nl",
+          "kind": "official",
+          "title": "The Florian official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "bus 397 from Schiphol platform D takes six minutes to its stop",
+          "underground parking at €15 a night"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.radisson-hoofddorp",
+      "topic": "hotel",
+      "claim": "Radisson Hotel Amsterdam Schiphol Airport Hoofddorp: Siriusdreef 22, business park; single 18 m2, standard 21 m2, superior 27 m2, executive 32 m2.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-amsterdam-airport-hoofddorp",
+          "kind": "official",
+          "title": "Radisson Hotel Amsterdam Schiphol Airport Hoofddorp official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-keukenhof.html": [
+          "single rooms of 18 m², standard rooms of 21 m², superior rooms of 27 m² and executive rooms of 32 m²"
+        ]
+      }
     }
   ]
 }

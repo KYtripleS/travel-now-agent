@@ -887,6 +887,517 @@
         ]
       },
       "checked": "2026-10-30"
+    },
+    {
+      "id": "de.cologne.cathedral-market-2026",
+      "topic": "place",
+      "claim": "The Cologne Cathedral market ('Markt der Herzen', Roncalliplatz) runs Monday 16 November to Tuesday 23 December 2026, closed Sunday 22 November (Totensonntag); hours Sun-Wed 11:00-21:00, Thu-Fri 11:00-22:00, Sat 10:00-22:00; over 120 stalls; the 2026 market plan was 'to be published shortly'.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.koelnerweihnachtsmarkt.com/de/",
+          "kind": "official",
+          "title": "Weihnachtsmarkt am Kölner Dom"
+        },
+        {
+          "url": "https://www.koelnerweihnachtsmarkt.com/de/marktplan-2026/",
+          "kind": "official",
+          "title": "Cathedral market: Marktplan 2026"
+        },
+        {
+          "url": "https://www.koelnerweihnachtsmarkt.com/de/anfahrt-kontakt/",
+          "kind": "official",
+          "title": "Cathedral market: Anfahrt & Kontakt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "Monday 16 November to Tuesday 23 December; closed Sunday 22 November",
+          "Sunday to Wednesday 11am to 9pm; Thursday and Friday 11am to 10pm; Saturday 10am to 10pm",
+          "says it has over 120 stalls"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.markt-der-engel-2026",
+      "topic": "place",
+      "claim": "The Markt der Engel on the Neumarkt is open 16 November to 23 December 2026, closed 22 November; Sun-Thu 11:00-21:00 (mulled-wine stands to 22:00), Fri-Sat 11:00-22:00 (stands to 23:00); on Wed 23 December it closes at 21:00. The site describes the Neumarkt as next to the Schildergasse, Mittelstraße and Ehrenstraße shopping streets.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.markt-der-engel.de",
+          "kind": "official",
+          "title": "Markt der Engel, Köln am Neumarkt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "16 November to 23 December; closed 22 November",
+          "mulled-wine stands an hour later",
+          "next to the Schildergasse, Mittelstraße and Ehrenstraße shopping streets"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.heinzels-2026",
+      "topic": "place",
+      "claim": "Heinzels Wintermärchen: Heumarkt 23 November 2026 to 10 January 2027, daily 11:00-22:00 to 30 December and 11:00-21:00 from 31 December, closed 24-25 December; Alter Markt 23 November to 23 December, daily 11:00-22:00; the site calls itself Cologne's biggest Christmas market with over 100 stalls and an open-air ice rink; its Zeiten & Anfahrt page still links a 'Marktplan 2025'; it says a Christmas Market Express connects the Cologne markets and gives U-Bahn access from the Hauptbahnhof, Heumarkt (lines 1, 5, 7, 9) and Rathaus (line 5).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.heinzels-wintermaerchen.de/zeiten-anfahrt/",
+          "kind": "official",
+          "title": "Heinzels Wintermärchen: Zeiten & Anfahrt"
+        },
+        {
+          "url": "https://www.heinzels-wintermaerchen.de/",
+          "kind": "official",
+          "title": "Heinzels Wintermärchen"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "Monday 23 November to 10 January 2027; closed 24 and 25 December",
+          "Daily 11am to 10pm until 30 December, then 11am to 9pm from 31 December",
+          "23 November to 23 December",
+          "calls itself Cologne's biggest Christmas market",
+          "still links a market plan labelled 2025",
+          "from the Heumarkt stop (lines 1, 5, 7 and 9) or from Rathaus (line 5)"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.harbour-market-2026",
+      "topic": "place",
+      "claim": "The Harbour market at the Chocolate Museum runs 13 November 2026 to 3 January 2027: Mon-Fri 11:00-21:00, Sat-Sun 11:00-22:00, Sunday 15 November from 13:00, Sunday 22 November from 18:00, closed 24-25 December (the market's own site); the Chocolate Museum's page instead says daily 11:00-21:00 and to 22:00 on Friday and Saturday. The market site describes a 48 m Ferris wheel, about 70 wooden huts replacing pagoda tents and bus 133 linking Chlodwigplatz, Ubierring and Heumarkt; the museum says it is a few minutes on foot along the Rhine promenade from the old town and cathedral.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://hafen-weihnachtsmarkt.de/de/besuch",
+          "kind": "official",
+          "title": "Hafen-Weihnachtsmarkt Köln: Besuch planen"
+        },
+        {
+          "url": "https://hafen-weihnachtsmarkt.de/de",
+          "kind": "official",
+          "title": "Hafen-Weihnachtsmarkt Köln"
+        },
+        {
+          "url": "https://www.schokoladenmuseum.de/en/plan-a-visit/aktuelles/hafenweihnachtsmarkt-am-schokoladenmuseum/",
+          "kind": "official",
+          "title": "Schokoladenmuseum: Harbour Christmas Market"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "13 November to 3 January 2027; closed 24 and 25 December",
+          "Sunday 15 November from 1pm and Sunday 22 November from 6pm",
+          "48-metre Ferris wheel",
+          "bus 133 links the Chocolate Museum with Chlodwigplatz, Ubierring and Heumarkt",
+          "a few minutes on foot along the Rhine promenade"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.stadtgarten-market-unconfirmed",
+      "topic": "place",
+      "claim": "No 2026 Stadtgarten market page was found on stadtgarten.de; the city portal koeln.de (not an official source) lists 13 November to 23 December 2026 at Venloer Straße 40, Mon-Fri 16:00-21:30, Sat-Sun 12:00-21:30; cologne-tourism.com's Christmas page gives no per-market dates.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.stadtgarten.de/",
+          "kind": "official",
+          "title": "Stadtgarten Köln"
+        },
+        {
+          "url": "https://www.koeln.de/weihnachten/weihnachtsmaerkte-koeln/weihnachtsmarkt-stadtgarten/",
+          "kind": "news",
+          "title": "koeln.de: Weihnachtsmarkt im Stadtgarten"
+        },
+        {
+          "url": "https://www.cologne-tourism.com/experiences-lifestyle/christmas",
+          "kind": "official",
+          "title": "Cologne Tourism: Christmas in Cologne"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "We found no 2026 market page on the Stadtgarten's own site",
+          "Monday to Friday 4pm to 9:30pm and Saturday and Sunday noon to 9:30pm",
+          "gives no per-market dates"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.kulturfoerderabgabe",
+      "topic": "tax",
+      "claim": "Cologne's Kulturförderabgabe (Übernachtungssteuer) is 5% of the amount the guest pays for the stay including VAT (excluding any passed-on levy and its VAT); applies to business stays from 1 July 2024 (council amendment of 6 February 2024); platform bookings use the amount paid minus the platform fee the guest pays; 7% VAT on short-term lodging, with cleaning and bed linen counted in the base. No 2026 change was found.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.stadt-koeln.de/service/produkte/01051/index.html",
+          "kind": "official",
+          "title": "Stadt Köln: Kulturförderabgabe"
+        },
+        {
+          "url": "https://www.stadt-koeln.de/artikel/07519/index.html",
+          "kind": "official",
+          "title": "Stadt Köln: Aktuelle Hinweise zur Kulturförderabgabe"
+        },
+        {
+          "url": "https://www.stadt-koeln.de/politik-und-verwaltung/steuern-gebuehren/haeufig-gestellte-fragen-zur-uebernachtungssteuer-kulturfoerderabgabe-fuer-beherbergungen-ab-dem-1-juli-2024",
+          "kind": "official",
+          "title": "Stadt Köln: FAQ Übernachtungssteuer ab 1. Juli 2024"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "5% of the amount the guest pays for the stay, VAT included",
+          "since 1 July 2024 it has applied to business stays as well as private ones",
+          "The amount you paid minus the platform fee you were charged",
+          "7% on short-term lodging"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.levy-worked-example",
+      "topic": "price",
+      "claim": "Editorial arithmetic: a room at EUR 150 a night including VAT carries EUR 7.50 of levy a night (5%); three nights is EUR 450 plus EUR 22.50 = EUR 472.50. Illustration only.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.stadt-koeln.de/politik-und-verwaltung/steuern-gebuehren/haeufig-gestellte-fragen-zur-uebernachtungssteuer-kulturfoerderabgabe-fuer-beherbergungen-ab-dem-1-juli-2024",
+          "kind": "official",
+          "title": "Stadt Köln: FAQ Übernachtungssteuer (rate and base)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "carries €7.50 of levy a night",
+          "three nights cost €450 plus €22.50, or €472.50"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.airport-s19",
+      "topic": "transport",
+      "claim": "Cologne Bonn Airport has its own ICE station near both terminals and is served around the clock by S-Bahn, regional and bus lines plus an express bus to Bonn Hbf; Deutsche Bahn says the S19 runs from Köln Hbf to the airport every 20 minutes in about 14 minutes, and that a long-distance ticket bought through to the airport covers the S-Bahn leg.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.koeln-bonn-airport.de/en/passengers/transport/train-bus.html",
+          "kind": "official",
+          "title": "Cologne Bonn Airport: train and bus"
+        },
+        {
+          "url": "https://www.bahn.de/strecke/flughafen-koeln-bonn",
+          "kind": "operator",
+          "title": "Deutsche Bahn: trains to Köln-Bonn airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "every 20 minutes and takes about 14 minutes",
+          "its own ICE station near both terminals",
+          "also covers the S-Bahn leg"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.vrs-single-fares-2026",
+      "topic": "fare",
+      "claim": "VRS single tickets as of 1 June 2026: short-distance EUR 2.90 (boarding plus four stops, 20 minutes), price level 1b (Aachen, Cologne, Bonn) EUR 4.00 valid 90 minutes; the table does not name the airport.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.vrs.de/en/tickets/ticket-assortment/single-ticket",
+          "kind": "operator",
+          "title": "VRS: single ticket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "€2.90 for a short-distance ticket",
+          "€4.00 for price level 1b, which covers Aachen, Cologne and Bonn, valid for 90 minutes"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.db-sample-journeys",
+      "topic": "transport",
+      "claim": "Deutsche Bahn timetable pages for Friday 6 November 2026 (a sample day): Frankfurt Hbf to Köln Hbf direct ICE in 1h05; Munich Hbf to Köln Hbf about 4h20 with one change; Berlin Hbf to Köln Hbf 5h11 to 6h01 on the three services listed.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.bahn.de/reisen/view/verbindung/frankfurt/koeln.shtml",
+          "kind": "operator",
+          "title": "DB: Frankfurt to Köln"
+        },
+        {
+          "url": "https://www.bahn.de/reisen/view/verbindung/muenchen/koeln.shtml",
+          "kind": "operator",
+          "title": "DB: Munich to Köln"
+        },
+        {
+          "url": "https://www.bahn.de/reisen/view/verbindung/berlin/koeln.shtml",
+          "kind": "operator",
+          "title": "DB: Berlin to Köln"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "a direct ICE from Frankfurt Hauptbahnhof to Köln Hauptbahnhof in 1h05",
+          "Munich in about 4h20 with one change",
+          "Berlin in 5h11 to 6h01"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.db-works-2026",
+      "topic": "transport",
+      "claim": "Deutsche Bahn's press release of 18 December 2025 says trains keep reaching Köln Hbf during the right Rhine line works (10 July to 11 December 2026) and plans the second signal-box closure for 2027 with no date set.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.deutschebahn.com/de/presse/presse-regional/pr-duesseldorf-de/presseinformationen-regional/Zweite-Bausperrung-fuer-Elektronisches-Stellwerk-Koeln-Hauptbahnhof-Bahn-plant-nach-intensiver-Pruefung-Termin-in-2027--13704682",
+          "kind": "operator",
+          "title": "DB press release 18 December 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "which run from 10 July to 11 December 2026",
+          "plans the second closure for the station's signal box in 2027"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.excelsior",
+      "topic": "hotel",
+      "claim": "Operating five-star hotel at Trankgasse 1-5 opposite Cologne Cathedral with 133 rooms and suites; check-in from 15:00; early check-in/late check-out subject to availability and an extra charge.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.excelsiorhotelernst.com/en/the-hotel/",
+          "kind": "official",
+          "title": "Excelsior Hotel Ernst: Cologne's grand hotel by the cathedral"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "right opposite the cathedral",
+          "133 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.mondial",
+      "topic": "hotel",
+      "claim": "Operating MGallery hotel at Kurt-Hackenberg-Platz 1; Accor lists the cathedral at 150 m and the main station at 200 m; standard and business rooms listed at 16 m².",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/1306/index.en.shtml",
+          "kind": "official",
+          "title": "Accor: Hotel Mondial am Dom Cologne MGallery"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "150 m from the cathedral and 200 m from the main station",
+          "listed at 16 m²"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.ibisdom",
+      "topic": "hotel",
+      "claim": "Operating ibis at Bahnhofsvorplatz integrated into the main station; single-bed standard room listed at 10 m²; car park listed as near the property.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/0739/index.en.shtml",
+          "kind": "official",
+          "title": "Accor: ibis Köln am Dom"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "integrated into the main station",
+          "listed at 10 m²"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.dorint",
+      "topic": "hotel",
+      "claim": "Operating Dorint at Pipinstraße 1 with 261 rooms in six categories plus a presidential suite; standard rooms about 28-30 m²; parking EUR 36 for 24 hours.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://hotel-koeln-city.dorint.com/en/",
+          "kind": "official",
+          "title": "Dorint Hotel am Heumarkt Köln"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "261 rooms in six categories",
+          "€36 for 24 hours"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.adagio",
+      "topic": "hotel",
+      "claim": "Operating aparthotel at Blaubach 3, 10-minute walk from the cathedral per Accor; studios 25 m², apartment for four 45 m², kitchens, paid public parking garage, main station 1.6 km / 17 min walk.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/8288/index.en.shtml",
+          "kind": "official",
+          "title": "Accor: Aparthotel Adagio Köln City"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "a 10-minute walk from the cathedral",
+          "a 45 m² apartment for four"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.motelone",
+      "topic": "hotel",
+      "claim": "Operating Motel One at Cäcilienstraße 32; 16 m² rooms with 160 cm bed; Contipark garage beneath the hotel where a hotel-stamped ticket saves EUR 7 per 24 hours.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.motel-one.com/en/hotels/cologne/hotel-cologne-neumarkt/",
+          "kind": "official",
+          "title": "Motel One Köln-Neumarkt"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "centrally located on the former market square",
+          "a stamped ticket saves €7 per 24 hours"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.ibiscentrum",
+      "topic": "hotel",
+      "claim": "Operating ibis at Neue Weyerstraße 4 between the Rings and the old town; 13 m² standard rooms; 63 garage spaces, entrance height 1.80 m, fee.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/1449/index.en.shtml",
+          "kind": "official",
+          "title": "Accor: ibis Köln Centrum"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "63 garage spaces",
+          "the garage entrance is 1.80 m high"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.steigenberger",
+      "topic": "hotel",
+      "claim": "Operating 305-room hotel at Habsburgerring 9-13; business rooms 23 m², superior 28 m²; garage at the hotel (fee); cathedral and Rhine promenade about 20 minutes on foot per the hotel.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.steigenberger.com/en/hotels/all-hotels/germany/cologne/steigenberger-hotel-koeln",
+          "kind": "official",
+          "title": "Steigenberger Hotel Köln"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "A 305-room hotel at Habsburgerring 9-13",
+          "about 20 minutes away on foot"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.circle",
+      "topic": "hotel",
+      "claim": "Operating 207-room hotel at Im Klapperhof 22-24 in a listed building; Friesenplatz station nearby; underground car park limited, EUR 23 per day.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://25hours-hotels.com/cologne/the-circle/",
+          "kind": "official",
+          "title": "25hours Hotel The Circle, Cologne"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "207 rooms in a listed building",
+          "costs €23 a day"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.pullman",
+      "topic": "hotel",
+      "claim": "Operating Pullman at Helenenstrasse 14; Accor lists Friesenplatz and Appelhofplatz stations at 300 m, main station 1 km / 10 min, cathedral 1 km / 15 min; superior rooms 25 m².",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/5366/index.en.shtml",
+          "kind": "official",
+          "title": "Accor: Pullman Cologne"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "300 m from Friesenplatz and Appelhofplatz stations",
+          "superior rooms are 25 m²"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.lyskirchen",
+      "topic": "hotel",
+      "claim": "Operating four-star hotel at Filzengraben 26-32; pool, sauna, gym; 32-space garage; dogs EUR 15 per room; most popular room category listed at 13-18 m².",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotel-lyskirchen.de/en/",
+          "kind": "official",
+          "title": "Hotel Lyskirchen Köln"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "a 32-space garage",
+          "listed at 13 to 18 m²"
+        ]
+      }
+    },
+    {
+      "id": "de.cologne.hotel.novotel",
+      "topic": "hotel",
+      "claim": "Operating four-star Novotel at Bayenstrasse 51 on the Rheinauhafen; standard room 22 m² (up to four with sofa); sauna with cathedral view 18:00-22:00; main station 1.7 km / 20 min walk.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/3127/index.en.shtml",
+          "kind": "official",
+          "title": "Accor: Novotel Köln City"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cologne-christmas-market.html": [
+          "a standard room of 22 m² that sleeps up to four",
+          "a 20-minute walk"
+        ]
+      }
     }
   ]
 }
