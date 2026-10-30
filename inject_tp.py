@@ -26,7 +26,11 @@ REL = 'rel="nofollow sponsored noopener" target="_blank"'
 
 # --- affiliate deep-links (tpx.lu) + default anchor labels -------------------
 TPX = {
-    "aviasales":      "https://aviasales.tpx.lu/dESAKheX",
+    "tripcom":        "https://trip.tpx.lu/CNvcfvhD",     # flights; replaced Aviasales 2026-10-31
+    "kiwi":           "https://kiwi.tpx.lu/aWC8Pyfa",
+    "airhelp":        "https://airhelp.tpx.lu/qP1wwuDy",
+    "compensair":     "https://compensair.tpx.lu/rIG2HnBo",
+    "omio":           "https://omio.tpx.lu/lYjcM9zH",
     "tiqets":         "https://tiqets.tpx.lu/7rZHQkfx",
     "radicalstorage": "https://radicalstorage.tpx.lu/WpAnAq1c",
     "klook":          "https://klook.tpx.lu/TgR5Suzs",
@@ -46,7 +50,11 @@ TPX = {
     "gocity":         "https://gocity.tpx.lu/z5uRRfo8",
 }
 LABEL = {
-    "aviasales":      "Compare current flight fares on Aviasales &rarr;",
+    "tripcom":        "Search flights on Trip.com &rarr;",
+    "kiwi":           "Search flights on Kiwi.com &rarr;",
+    "airhelp":        "Check a delayed or cancelled flight with AirHelp &rarr;",
+    "compensair":     "Check a delayed or cancelled flight with Compensair &rarr;",
+    "omio":           "Compare trains and buses on Omio &rarr;",
     "tiqets":         "Skip-the-line attraction tickets via Tiqets &rarr;",
     "radicalstorage": "Book day-luggage storage with Radical Storage &rarr;",
     "klook":          "Tours, rail passes &amp; transfers on Klook &rarr;",
@@ -90,12 +98,16 @@ def hub(heading: str, blurb: str, city_id: str, brands: list[str]) -> str:
 # --- per-page registry -------------------------------------------------------
 # path (under site/ and docs/) -> block HTML
 REGISTRY: dict[str, str] = {
+    "articles/how-to-recover-cancelled-or-delayed-flights-passenger-rights-compensation.html": cta(
+        "Rather not file the claim with the airline yourself? AirHelp files it and keeps 35% of what it wins (50% if it goes to court)", ["airhelp", "tripcom"]),
+    "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": cta(
+        "Booking the trip", ["omio", "tripcom", "kiwi"]),
     # ---- destination hubs (tours iframe + links) ----
     "cities/tokyo/index.html": hub(
         "Getting to Tokyo &amp; things to do",
         "Self-guided tours you can start the moment you land, plus fares, tickets, "
         "and an airport pickup for a smooth arrival.",
-        "1850147", ["wegotrip", "aviasales", "tiqets", "welcomepickups"]),
+        "1850147", ["wegotrip", "tripcom", "tiqets", "welcomepickups"]),
 
     # ---- Tokyo widget gaps filled (2026-09-13). city_id 1850147 re-verified
     # by test-render on localhost: renders real tours. ----
@@ -125,7 +137,7 @@ REGISTRY: dict[str, str] = {
         "Getting to Australia &amp; things to do",
         "Sydney-based self-guided tours, plus current fares and local experiences "
         "for the wider trip.",
-        "2147714", ["wegotrip", "aviasales", "klook", "welcomepickups", "gocity",]),
+        "2147714", ["wegotrip", "tripcom", "klook", "welcomepickups", "gocity",]),
 
     # ---- cruise round-ups (2026-09-13). city_ids re-verified same day via the
     # widget __NEXT_DATA__ count: Sydney 32, Bangkok 4, Hong Kong 3 tours. ----
@@ -174,7 +186,7 @@ REGISTRY: dict[str, str] = {
         "Book a Chao Phraya cruise",
         "Sunset and dinner departures from Asiatique, ICONSIAM and River City "
         "— compare the same boat across platforms before you book.",
-        "1609350", ["wegotrip", "klook", "kkday", "aviasales"]),
+        "1609350", ["wegotrip", "klook", "kkday", "tripcom"]),
     "articles/hong-kong-harbour-cruises-guide.html": hub(
         "Book a Victoria Harbour cruise",
         "Sunset, blue-hour and Symphony of Lights departures from Central and "
@@ -184,53 +196,53 @@ REGISTRY: dict[str, str] = {
     # are city walks, not bay cruises — text CTA is the honest fit.
     "articles/halong-bay-cruises-from-hanoi.html": cta(
         "Book a Halong or Lan Ha Bay cruise",
-        ["klook", "kkday", "ekta", "aviasales"]),
+        ["klook", "kkday", "ekta", "tripcom"]),
 
     # ---- country / city guides (tours + CTAs) ----
     "countries/vietnam/index.html": hub(
         "Tours &amp; getting to Vietnam",
         "Self-guided Hanoi tours, plus current fares, local experiences, and an "
         "airport pickup for a smooth arrival.",
-        "1581130", ["wegotrip", "aviasales", "klook", "welcomepickups"]),
+        "1581130", ["wegotrip", "tripcom", "klook", "welcomepickups"]),
     "articles/south-korea-country-profile.html": hub(
         "Tours &amp; getting to Seoul",
         "Self-guided Seoul tours, plus current fares, local experiences, and an "
         "airport pickup for a smooth arrival.",
-        "1835848", ["wegotrip", "aviasales", "klook", "welcomepickups"]),
+        "1835848", ["wegotrip", "tripcom", "klook", "welcomepickups"]),
 
     # ---- itineraries & seasonal (high booking intent) ----
     "articles/osaka-3-day-guide.html": hub(
         "Tours &amp; getting to Osaka",
         "Self-guided Osaka tours you can start the moment you land, plus fares, "
         "tickets, and local experiences.",
-        "1853909", ["wegotrip", "aviasales", "tiqets", "kkday"]),
+        "1853909", ["wegotrip", "tripcom", "tiqets", "kkday"]),
     "articles/three-slow-days-in-kyoto.html": hub(
         "Tours &amp; getting to Kyoto",
         "Self-guided Kyoto walks you can start on arrival, plus fares, tickets, and a "
         "smooth airport pickup.",
-        "1857910", ["wegotrip", "aviasales", "tiqets", "kkday"]),
+        "1857910", ["wegotrip", "tripcom", "tiqets", "kkday"]),
     "articles/kyoto-autumn-2026.html": hub(
         "Tours &amp; getting to Kyoto",
         "Self-guided Kyoto walks you can start on arrival, plus current fares and "
         "skip-the-line tickets.",
-        "1857910", ["wegotrip", "aviasales", "tiqets"]),
+        "1857910", ["wegotrip", "tripcom", "tiqets"]),
     "articles/japan-autumn-2026.html": cta(
         "Planning your Japan autumn trip",
-        ["aviasales", "tiqets"]),
+        ["tripcom", "tiqets"]),
     "articles/best-time-to-visit-japan-2026.html": hub(
         "When you're ready to book Japan",
         "Once your season is chosen: self-guided Tokyo walks, teamLab and "
         "Shinkansen bookings, plus current fares and skip-the-line tickets.",
-        "1850147", ["wegotrip", "aviasales", "tiqets", "klook"]),
+        "1850147", ["wegotrip", "tripcom", "tiqets", "klook"]),
     "articles/best-time-to-visit-vietnam.html": cta(
         "When you're ready to book Vietnam",
-        ["aviasales", "klook"]),
+        ["tripcom", "klook"]),
     "articles/best-time-to-visit-australia.html": cta(
         "When you're ready to book Australia",
-        ["aviasales", "klook"]),
+        ["tripcom", "klook"]),
     "articles/japan-book-in-advance-2026.html": cta(
         "Book the big-ticket items early",
-        ["aviasales", "tiqets", "klook"]),
+        ["tripcom", "tiqets", "klook"]),
 
     # ---- exact-fit logistics ----
     "articles/luggage-storage-tokyo.html": cta(
@@ -240,43 +252,43 @@ REGISTRY: dict[str, str] = {
     # ---- second wave: rail / tours / first-trip ----
     "articles/jr-pass-worth-it-2026.html": cta(
         "Booking Japan rail &amp; flights",
-        ["klook", "aviasales"]),
+        ["klook", "tripcom"]),
     "articles/klook-vs-viator-vs-getyourguide.html": cta(
         "Book tours &amp; activities",
         ["klook", "kkday"]),
     "cities/tokyo/asakusa.html": cta(
         "Planning your Tokyo visit",
-        ["aviasales", "tiqets", "welcomepickups"]),
+        ["tripcom", "tiqets", "welcomepickups"]),
     "articles/carry-on-packing-list-10-day-japan.html": cta(
         "Booking your Japan trip",
-        ["aviasales", "tiqets"]),
+        ["tripcom", "tiqets"]),
     "articles/first-international-trip-checklist.html": cta(
         "Booking your first trip",
-        ["aviasales", "welcomepickups"]),
+        ["tripcom", "welcomepickups"]),
 
     # ---- gap-fill: practical pages that had no CTA block (non-history, non-reflective) ----
-    "articles/airalo-vs-holafly-vs-saily.html": cta("Ready to get connected?", ["saily", "aviasales"]),
-    "articles/best-esim-japan-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
-    "articles/best-esim-europe-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
-    "articles/best-esim-usa-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
-    "articles/best-esim-south-korea-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
-    "articles/best-esim-thailand-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
-    "articles/best-esim-japan-korea-vietnam.html": cta("Get connected before you fly", ["saily", "aviasales"]),
-    "articles/best-travel-esim-2026.html": cta("Get connected before you fly", ["saily", "aviasales"]),
-    "articles/pocket-wifi-vs-esim.html": cta("Get connected before you fly", ["saily", "aviasales"]),
-    "articles/best-travel-insurance-2026.html": cta("Sort your cover before you go", ["ekta", "aviasales"]),
-    "articles/best-travel-insurance-digital-nomads-2026.html": cta("Sort your cover before you go", ["ekta", "aviasales"]),
-    "articles/is-travel-insurance-worth-it.html": cta("Sort your cover before you go", ["ekta", "aviasales"]),
-    "articles/travel-insurance-japan.html": cta("Sort your cover before you go", ["ekta", "aviasales"]),
-    "articles/airport-security-checklist.html": cta("Before you fly", ["aviasales", "saily"]),
+    "articles/airalo-vs-holafly-vs-saily.html": cta("Ready to get connected?", ["saily", "tripcom"]),
+    "articles/best-esim-japan-2026.html": cta("Get connected before you fly", ["saily", "tripcom"]),
+    "articles/best-esim-europe-2026.html": cta("Get connected before you fly", ["saily", "tripcom"]),
+    "articles/best-esim-usa-2026.html": cta("Get connected before you fly", ["saily", "tripcom"]),
+    "articles/best-esim-south-korea-2026.html": cta("Get connected before you fly", ["saily", "tripcom"]),
+    "articles/best-esim-thailand-2026.html": cta("Get connected before you fly", ["saily", "tripcom"]),
+    "articles/best-esim-japan-korea-vietnam.html": cta("Get connected before you fly", ["saily", "tripcom"]),
+    "articles/best-travel-esim-2026.html": cta("Get connected before you fly", ["saily", "tripcom"]),
+    "articles/pocket-wifi-vs-esim.html": cta("Get connected before you fly", ["saily", "tripcom"]),
+    "articles/best-travel-insurance-2026.html": cta("Sort your cover before you go", ["ekta", "tripcom"]),
+    "articles/best-travel-insurance-digital-nomads-2026.html": cta("Sort your cover before you go", ["ekta", "tripcom"]),
+    "articles/is-travel-insurance-worth-it.html": cta("Sort your cover before you go", ["ekta", "tripcom"]),
+    "articles/travel-insurance-japan.html": cta("Sort your cover before you go", ["ekta", "tripcom"]),
+    "articles/airport-security-checklist.html": cta("Before you fly", ["tripcom", "saily"]),
 
     # ---- newly published 2026-07-09 (transit / itinerary / passes) ----
     "articles/narita-haneda-to-central-tokyo.html": cta(
-        "Sorting your Tokyo arrival", ["welcomepickups", "klook", "aviasales"]),
+        "Sorting your Tokyo arrival", ["welcomepickups", "klook", "tripcom"]),
     "articles/tokyo-to-kyoto-shinkansen-vs-flight-vs-bus.html": cta(
-        "Booking Tokyo to Kyoto", ["aviasales", "klook"]),
+        "Booking Tokyo to Kyoto", ["tripcom", "klook"]),
     "articles/osaka-or-kyoto-where-to-base.html": cta(
-        "Planning Osaka or Kyoto", ["aviasales", "tiqets", "kkday"]),
+        "Planning Osaka or Kyoto", ["tripcom", "tiqets", "kkday"]),
     "articles/japan-city-sightseeing-passes-worth-it.html": cta(
         "Compare passes &amp; tickets", ["tiqets", "klook", "kkday"]),
     "articles/first-day-in-tokyo-arrival-plan.html": cta(
@@ -284,7 +296,7 @@ REGISTRY: dict[str, str] = {
 
     # ---- batch 2026-07-09b (suica + hand-written five) ----
     "articles/suica-pasmo-ic-cards-guide.html": cta(
-        "Sorting Japan transit & tickets", ["klook", "welcomepickups", "aviasales"]),
+        "Sorting Japan transit & tickets", ["klook", "welcomepickups", "tripcom"]),
     "articles/where-to-stay-in-tokyo.html": hub(
         "Settling into Tokyo",
         "An airport pickup for a late arrival, somewhere to leave bags before check-in, and "
@@ -350,7 +362,7 @@ REGISTRY: dict[str, str] = {
     "articles/where-to-stay-in-paris.html": cta(
         "Before you land in Paris", ["tiqets", "welcomepickups", "airalo"]),
     "articles/where-to-stay-in-new-york.html": cta(
-        "Before you land in New York", ["tiqets", "airalo", "aviasales"]),
+        "Before you land in New York", ["tiqets", "airalo", "tripcom"]),
     "articles/where-to-stay-in-chamonix.html": cta(
         "Before you land in Chamonix", ["tiqets", "welcomepickups", "airalo"]),
     "articles/where-to-stay-for-coachella.html": cta(
@@ -542,12 +554,12 @@ REGISTRY: dict[str, str] = {
         "Building your Japan budget",
         "Price the big lines against your plan — current fares, tours and rail "
         "passes, plus the small fixed costs worth locking in early.",
-        "1850147", ["wegotrip", "aviasales", "saily", "ekta", "klook"]),
+        "1850147", ["wegotrip", "tripcom", "saily", "ekta", "klook"]),
     "articles/gion-kyoto-neighbourhood-guide.html": hub(
         "Experiencing Gion respectfully",
         "Hosted tea ceremonies, self-guided Kyoto walks, and properly arranged "
         "cultural evenings — the welcome way into the district.",
-        "1857910", ["wegotrip", "kkday", "klook", "tiqets", "aviasales"]),
+        "1857910", ["wegotrip", "kkday", "klook", "tiqets", "tripcom"]),
 
     # ---- Taiwan (2026-07-10) — Taipei city_id 1668341 ----
     "articles/taipei-first-timers-guide.html": cta(
@@ -558,46 +570,46 @@ REGISTRY: dict[str, str] = {
         ["klook", "kkday", "saily", "welcomepickups"]),
     "articles/things-to-do-in-taipei.html": cta(
         "Tours &amp; tickets in Taipei",
-        ["klook", "kkday", "tiqets", "aviasales"]),
+        ["klook", "kkday", "tiqets", "tripcom"]),
 
     # ---- Australia — Sydney (2026-07-10) — city_id 2147714 ----
     "articles/sydney-first-timers-guide.html": hub(
         "Tours &amp; tickets in Sydney",
         "Self-guided Sydney tours you can start on arrival, plus current fares, tickets, and an airport pickup.",
-        "2147714", ["wegotrip", "aviasales", "klook", "saily", "welcomepickups", "gocity",]),
+        "2147714", ["wegotrip", "tripcom", "klook", "saily", "welcomepickups", "gocity",]),
     "articles/getting-around-sydney.html": hub(
         "Tours &amp; getting around Sydney",
         "Book harbour experiences and skip-the-line tickets, plus an easy airport pickup for arrival.",
-        "2147714", ["wegotrip", "welcomepickups", "klook", "saily", "aviasales", "gocity",]),
+        "2147714", ["wegotrip", "welcomepickups", "klook", "saily", "tripcom", "gocity",]),
     "articles/things-to-do-in-sydney.html": hub(
         "Tours &amp; tickets in Sydney",
         "Self-guided Sydney tours and tickets for the Opera House, the harbour, and the coast.",
-        "2147714", ["wegotrip", "klook", "tiqets", "aviasales", "welcomepickups", "gocity",]),
+        "2147714", ["wegotrip", "klook", "tiqets", "tripcom", "welcomepickups", "gocity",]),
 
     # ---- Australia — Melbourne (2026-07-10) — city_id 2158177 ----
     "articles/melbourne-first-timers-guide.html": hub(
         "Tours &amp; tickets in Melbourne",
         "Self-guided Melbourne tours you can start on arrival, plus fares, tickets, and an airport pickup.",
-        "2158177", ["wegotrip", "aviasales", "klook", "saily", "welcomepickups"]),
+        "2158177", ["wegotrip", "tripcom", "klook", "saily", "welcomepickups"]),
     "articles/getting-around-melbourne.html": hub(
         "Tours &amp; getting around Melbourne",
         "Book day trips and skip-the-line tickets, plus an easy airport transfer for arrival.",
-        "2158177", ["wegotrip", "welcomepickups", "klook", "saily", "aviasales"]),
+        "2158177", ["wegotrip", "welcomepickups", "klook", "saily", "tripcom"]),
     "articles/things-to-do-in-melbourne.html": hub(
         "Tours &amp; tickets in Melbourne",
         "Self-guided Melbourne tours, gallery tickets, and Great Ocean Road day tours.",
-        "2158177", ["wegotrip", "klook", "tiqets", "kkday", "aviasales"]),
+        "2158177", ["wegotrip", "klook", "tiqets", "kkday", "tripcom"]),
 
     # ---- Australia — Perth (2026-07-10) — city_id 2063523 ----
     "articles/perth-first-timers-guide.html": cta(
         "Tours &amp; tickets in Perth",
-        ["aviasales", "klook", "saily", "welcomepickups"]),
+        ["tripcom", "klook", "saily", "welcomepickups"]),
     "articles/getting-around-perth.html": cta(
         "Tours &amp; getting around Perth",
-        ["welcomepickups", "klook", "saily", "aviasales"]),
+        ["welcomepickups", "klook", "saily", "tripcom"]),
     "articles/things-to-do-in-perth.html": cta(
         "Tours &amp; tickets in Perth",
-        ["klook", "tiqets", "kkday", "aviasales"]),
+        ["klook", "tiqets", "kkday", "tripcom"]),
 
     # ---- SE Asia (2026-07-11) ----
     "articles/singapore-first-timers-guide.html": hub(
@@ -748,7 +760,7 @@ BLOCKLIST = {
     "about", "privacy", "methodology", "editors", "editorial-guidelines",
     "tourist-taxes-around-the-world-2026-data",   # a data report for journalists to cite: no partner links
 }
-DEFAULT_CTA_BRANDS = ["aviasales", "saily", "welcomepickups"]
+DEFAULT_CTA_BRANDS = ["tripcom", "saily", "welcomepickups"]
 
 
 def block_for(slug: str) -> str | None:

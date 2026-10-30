@@ -45,6 +45,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 import subprocess
 import unicodedata
 from datetime import date
@@ -2062,7 +2063,107 @@ def page_dest(slug: str) -> tuple | None:
     return _guide_dest(guide) if guide else None
 
 
+@lru_cache(maxsize=1)
+def trip_kit_links() -> dict:
+    """{kind: {city or key: Travelpayouts short link}} from the hand-checked city maps and the
+    short-link cache that ops/trip_kit_links.py fills."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent / "ops"))
+    import trip_kit_links as T
+    cache = json.loads((Path(__file__).resolve().parent / "data" / "tp_deeplinks.json").read_text())
+    return {kind: {k: cache[u] for k, u in group.items() if u in cache}
+            for kind, group in T.merchant_urls().items()}
+
+
+JAPAN_KIT = "Japan"
+WELCOME_HOME, KLOOK_HOME = "https://tpx.lu/YtuAbaB1", "https://klook.tpx.lu/TgR5Suzs"   # tp_deeplinks swaps in city pages
+KIT_AFTER = re.compile(r"airport|getting (in|to|there|around)|arriving")
+KIT_BEFORE = re.compile(r"how to book|before you book|at a glance")
+KIT_NEAR = {"Coachella": "around Palm Springs", "Keukenhof": "around Keukenhof", "Disneyland Paris": "for Disneyland Paris",
+            "Tokyo Disney Resort": "for Tokyo Disney Resort", "Hokkaido": "around Niseko"}
+ASIA_KIT = {"Japan", "South Korea", "Taiwan", "Thailand", "Vietnam", "Singapore", "Hong Kong", "Malaysia", "Indonesia", "China"}
+
+
+def add_trip_kit(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    """'Book the rest of the trip' at the end of a stay guide's airport section: a transfer, tours,
+    car hire where a car makes sense, hostels and, in Japan, Rakuten Travel. Each link opens the
+    partner's page for that city, checked by hand (data/*_cities.json)."""
+    if slug not in stay22.PAGES:
+        return 0
+    city = _stay_city(slug)
+    country = stay22.PAGES[slug]["address"].split(",")[-1].strip()
+    L = trip_kit_links()
+    wp = json.loads((Path(__file__).resolve().parent / "data" / "welcomepickups_cities.json").read_text())["cities"]
+    if city.replace(" NSW", "") in wp:
+        rows = [("Airport transfer", WELCOME_HOME, "Pre-book a driver from the airport with Welcome Pickups")]
+    else:
+        rows = [("Airport transfer", L["fixed"]["kiwitaxi"], "Pre-book an airport transfer on Kiwitaxi")]
+    if city in L["viator"]:
+        rows.append(("Tours and tickets", L["viator"][city], f"Tours and tickets {KIT_NEAR.get(city, 'in ' + city)} on Viator"))
+    if country in ASIA_KIT:
+        rows.append(("Tours and tickets", KLOOK_HOME, f"Tickets and passes on Klook"))
+    if city in L["discovercars"]:
+        rows.append(("Car hire", L["discovercars"][city], "Compare car hire on DiscoverCars"))
+    if city in L["hostelworld"]:
+        rows.append(("On a budget", L["hostelworld"][city], f"Hostels and dorm beds in {city} on Hostelworld"))
+    if country == JAPAN_KIT:
+        rows.append(("Japanese inns", L["fixed"]["rakuten"], "Ryokan and business hotels on Rakuten Travel"))
+    box = soup.new_tag("aside", attrs={"class": "gy-cta gy-kit", "data-aeo": "1"})
+    h = soup.new_tag("p", attrs={"class": "gy-cta-h"})
+    h.string = f"Book the rest of your {city} trip"
+    ul = soup.new_tag("ul", attrs={"class": "gy-cta-list"})
+    for what, href, label in rows:
+        li = soup.new_tag("li")
+        tag = soup.new_tag("span", attrs={"class": "gy-kit-what"})
+        tag.string = f"{what}: "
+        a = _anchor(soup, href, managed=False)
+        a["class"] = "gy-cta-link"
+        a.string = f"{label} →"
+        li.extend([tag, a])
+        ul.append(li)
+    note = soup.new_tag("p", attrs={"class": "gy-widget-note"})
+    note.string = "Partner links: we may earn a commission if you book, at no extra cost to you."
+    box.extend([h, ul, note])
+    h2s = article.find_all("h2", recursive=False)
+    text = lambda h: h.get_text(" ", strip=True).lower()
+    transport = next((h for h in h2s if KIT_AFTER.search(text(h))), None)
+    nxt = transport.find_next_sibling("h2") if transport is not None else None
+    if nxt is None:                              # no transport section: in front of the booking advice
+        nxt = next((h for h in h2s if KIT_BEFORE.search(text(h))), None)
+    if nxt is None:
+        return 1 if _insert_lower(article, box) else 0
+    nxt.insert_before(box)
+    return 1
+
+
 def add_flight_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    """Flights to the page's city on Trip.com and Kiwi.com, lower down (it replaced the Aviasales
+    fare map on 2026-10-31: Aviasales is little known to our readers, and two brands let each
+    reader search where they already book)."""
+    dest = page_dest(slug)
+    if not dest:
+        return 0
+    city = dest[0]
+    fixed = trip_kit_links()["fixed"]
+    box = soup.new_tag("aside", attrs={"class": "gy-cta gy-flights", "data-aeo": "1"})
+    h = soup.new_tag("p", attrs={"class": "gy-cta-h"})
+    h.string = f"Flights to {city}"
+    ul = soup.new_tag("ul", attrs={"class": "gy-cta-list"})
+    for href, label in ((fixed["tripcom_flights"], f"Search flights to {city} on Trip.com"),
+                        (fixed["kiwi"], f"Search flights to {city} on Kiwi.com")):
+        li = soup.new_tag("li")
+        a = _anchor(soup, href, managed=False)
+        a["class"] = "gy-cta-link"
+        a.string = f"{label} →"
+        li.append(a)
+        ul.append(li)
+    note = soup.new_tag("p", attrs={"class": "gy-widget-note"})
+    note.string = "Partner links: we may earn a commission if you book, at no extra cost to you."
+    box.extend([h, ul, note])
+    return 1 if _insert_lower(article, box) else 0
+
+
+def add_aviasales_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    """The Aviasales fare map, retired 2026-10-31 (kept for reference; not called)."""
     dest = page_dest(slug)
     if not dest:
         return 0
@@ -2854,6 +2955,7 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
         if dest and dest[4] and slug not in _esim_data():
             out["esim_lower"] = add_esim_plans(soup, slug, article, key=dest[4])
         out["flight_map"] = add_flight_map(soup, slug, article)
+        out["trip_kit"] = add_trip_kit(soup, slug, article)
         out["trip"] = add_trip_reminders(soup, slug, article)
         if slug in PICKERS:
             out["picker"] = add_picker(soup, slug, article)

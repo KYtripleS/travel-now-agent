@@ -59,6 +59,14 @@ CELLS = {
         "Empire State Building, 86th floor": (1, "https://www.klook.com/en-US/activity/2956-empire-state-building-new-york/"),
         "Sagrada Família, basic ticket": (1, "https://www.klook.com/en-US/activity/20380-sagrada-familia-ticket-barcelona/"),
     },
+    # GetYourGuide column (3): each listing opened in a browser 2026-10-31, matched by attraction and price
+    "klook-vs-viator-vs-getyourguide#gyg": {
+        "teamLab Planets TOKYO": (3, "https://www.getyourguide.com/tokyo-l193/tokyo-teamlab-planets-tokyo-digital-art-museum-entry-ticket-t260407/"),
+        "Warner Bros. Studio Tour Tokyo": (3, "https://www.getyourguide.com/tokyo-l193/warner-bros-studio-tour-tokyo-the-making-of-harry-potter-t975381/"),
+        "Burj Khalifa At the Top, levels 124–125": (3, "https://www.getyourguide.com/dubai-l173/dubai-burj-khalifa-levels-124-125-entry-ticket-options-t49019/"),
+        "Empire State Building, 86th floor": (3, "https://www.getyourguide.com/new-york-city-l59/nyc-empire-state-building-tickets-observatory-museum-t1029649/"),
+        "Sagrada Família, basic ticket": (3, "https://www.getyourguide.com/barcelona-l45/sagrada-familia-skip-the-line-ticket-t50027/"),
+    },
 }
 REL = 'rel="nofollow sponsored noopener" target="_blank"'
 
@@ -127,7 +135,8 @@ def deep_for(slug: str, cache: dict) -> dict[str, str]:
 
 def link_cells(html: str, slug: str, cache: dict) -> str:
     """Wrap each listed price cell in a link to its product (once; a linked cell is left alone)."""
-    for row, (col, url) in CELLS.get(slug, {}).items():
+    cells = [item for key, m in CELLS.items() if key.split("#")[0] == slug for item in m.items()]
+    for row, (col, url) in cells:
         if url not in cache:
             continue
         m = re.search(r'<tr><th scope="row">' + re.escape(row) + r'</th>((?:<td>.*?</td>){%d})<td>(.*?)</td>' % col, html)

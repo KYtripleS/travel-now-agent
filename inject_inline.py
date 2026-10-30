@@ -20,7 +20,7 @@ REL = 'rel="nofollow sponsored noopener" target="_blank"'
 MAX_PER_ARTICLE = 3
 
 TPX = {
-    "aviasales": "https://aviasales.tpx.lu/dESAKheX",
+    "tripcom": "https://trip.tpx.lu/CNvcfvhD",
     "tiqets": "https://tiqets.tpx.lu/7rZHQkfx",
     "radicalstorage": "https://radicalstorage.tpx.lu/WpAnAq1c",
     "klook": "https://klook.tpx.lu/TgR5Suzs",
@@ -44,8 +44,8 @@ RULES: dict[str, list[tuple[str, str]]] = {
     "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": [
         ("the Japan Rail Pass", "klook"),
         ("a Japan Rail Pass", "klook"),
-        ("The flight itself", "aviasales"),
-        ("the flight itself", "aviasales"),
+        ("The flight itself", "tripcom"),
+        ("the flight itself", "tripcom"),
     ],
     "osaka-or-kyoto-where-to-base": [
         ("an eSIM", "saily"),
