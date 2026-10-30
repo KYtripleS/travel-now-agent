@@ -591,6 +591,34 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-los-angeles-super-bowl.html": (
+        "Where to Stay in Los Angeles",
+        "Super Bowl LXI at SoFi on 14 Feb 2027: six areas by route, 12 hotels and hotel tax of 12% to 17%.",
+    ),
+    "articles/where-to-stay-in-seoul-cherry-blossom.html": (
+        "Where to Stay in Seoul",
+        "Bloom 29 March in 2026, Yeouido and Seokchon Lake festivals, five areas by subway, 12 hotels.",
+    ),
+    "articles/where-to-stay-in-banff.html": (
+        "Where to Stay in Banff",
+        "Four bases, 12 hotels, the 6% Alberta levy, 5% GST, the Parks Canada pass and the ski shuttles.",
+    ),
+    "articles/where-to-stay-for-tokyo-disney-resort.html": (
+        "Where to Stay in Tokyo Disney Resort",
+        "Disney Hotels, Official and Partner Hotels, Shin-Urayasu or Tokyo: 12 hotels, Happy Entry and the night taxes.",
+    ),
+    "articles/where-to-stay-in-prague-christmas-market.html": (
+        "Where to Stay in Prague",
+        "Dates, five areas, 12 hotels and the 50 CZK fee for the Prague Christmas markets 2026.",
+    ),
+    "articles/where-to-stay-in-vienna-christmas-market.html": (
+        "Where to Stay in Vienna",
+        "Dates, six areas, 12 hotels and the 5% Ortstaxe for the Vienna Christmas markets 2026.",
+    ),
+    "articles/where-to-stay-in-melbourne-australian-open.html": (
+        "Where to Stay in Melbourne",
+        "AO 2027 dates, six areas by the route to Melbourne Park, 12 hotels and what lifts January prices.",
+    ),
     "articles/where-to-stay-in-kyoto-new-year.html": (
         "Where to Stay in Kyoto",
         "Temple bells, the first shrine visit, five areas, 12 hotels and Kyoto's 1,000-yen night tax band.",
@@ -2177,6 +2205,54 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+        "articles/where-to-stay-in-los-angeles.html",
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-usa-2026.html",
+    ],
+    "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+        "articles/where-to-stay-in-seoul.html",
+        "articles/seoul-first-timers-guide.html",
+        "articles/things-to-do-in-seoul.html",
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html",
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html",
+    ],
+    "articles/where-to-stay-in-banff.html": [
+        "articles/where-to-stay-in-whistler.html",
+        "articles/where-to-stay-in-vancouver.html",
+        "articles/where-to-stay-in-zermatt.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-for-tokyo-disney-resort.html": [
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-stay-for-universal-studios-japan.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/narita-haneda-to-central-tokyo.html",
+        "articles/best-esim-japan-2026.html",
+    ],
+    "articles/where-to-stay-in-prague-christmas-market.html": [
+        "articles/where-to-stay-in-prague.html",
+        "articles/where-to-stay-in-nuremberg-christmas-market.html",
+        "articles/where-to-stay-in-strasbourg-christmas-market.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-vienna-christmas-market.html": [
+        "articles/where-to-stay-in-vienna.html",
+        "articles/where-to-stay-in-strasbourg-christmas-market.html",
+        "articles/where-to-stay-in-nuremberg-christmas-market.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-in-melbourne-australian-open.html": [
+        "articles/where-to-stay-in-melbourne.html",
+        "articles/melbourne-airport-to-city.html",
+        "articles/getting-around-melbourne.html",
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-kyoto-new-year.html": [
         "articles/where-to-stay-in-kyoto.html",

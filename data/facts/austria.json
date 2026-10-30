@@ -130,12 +130,22 @@
           "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
           "kind": "official",
           "title": "Vienna Tourist Board: important information for airport travellers 2026-2027"
+        },
+        {
+          "url": "https://www.cityairporttrain.com/en/tickets-offers/information-about-cat-tickets/",
+          "kind": "operator",
+          "title": "City Airport Train: ticket prices"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-vienna.html": [
           "21 minutes, every 12 minutes between 7 am and 7 pm and every 15 minutes at other times",
           "In town the stop is at Marxergasse 1b"
+        ],
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "A single is €14.90 and a return €24.90",
+          "in 21 minutes",
+          "The city stop is at Marxergasse 1b"
         ]
       }
     },
@@ -558,6 +568,393 @@
         "articles/where-to-stay-in-vienna.html": [
           "runs from 13 November to 26 December 2026",
           "until 6.30pm on 24 December"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.christmas-markets-2026-dates",
+      "topic": "place",
+      "claim": "The 2026 Vienna markets: Rathausplatz 13 Nov-26 Dec (10:00-22:00; 24 Dec 10:00-18:30); Ice Dream rink 13 Nov-6 Jan 2027; Schönbrunn 6 Nov-6 Jan 2027 (10:00-21:00 to 23 Dec, 24 Dec 10:00-16:00, from 25 Dec 10:00-19:00); Belvedere 20 Nov-31 Dec; Stephansplatz 6 Nov-26 Dec; Am Hof 13 Nov-23 Dec; Freyung 14 Nov-23 Dec; Karlsplatz 13 Nov-23 Dec; Spittelberg 13 Nov-23 Dec; Maria-Theresien-Platz 20 Nov-26 Dec; Schwarzenbergplatz 13 Nov-26 Dec.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/shopping-wining-dining/markets/christmas-markets",
+          "kind": "official",
+          "title": "Vienna Tourist Board: Christmas markets"
+        },
+        {
+          "url": "https://www.christkindlmarkt.at/besuch/",
+          "kind": "official",
+          "title": "Wiener Christkindlmarkt: Besuch"
+        },
+        {
+          "url": "https://www.weihnachtsmarkt-schoenbrunn.at/wissenswertes",
+          "kind": "official",
+          "title": "Schönbrunn Christmas market: Wissenswertes"
+        },
+        {
+          "url": "https://www.kkweihnachtsmarkt.at/index-en.html",
+          "kind": "official",
+          "title": "K&K Christmas Market Belvedere"
+        },
+        {
+          "url": "https://www.spittelberg.at",
+          "kind": "official",
+          "title": "Spittelberg Christmas market"
+        },
+        {
+          "url": "https://www.weihnachtsmarkt-hof.at",
+          "kind": "official",
+          "title": "Am Hof Christmas market"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "13 November to 26 December",
+          "6 November to 6 January 2027",
+          "10am to 10pm; 24 December 10am to 6:30pm",
+          "20 November to 31 December",
+          "13 November to 23 December"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.belvedere-hours-discrepancy",
+      "topic": "place",
+      "claim": "wien.info lists the K&K Belvedere market as Mon-Fri 11:00-14:00, but the market's own site gives Mon-Fri 11:00-21:00, Sat/Sun/holidays 10:00-21:00, 24 and 31 Dec 11:00-17:00 (20 Nov-31 Dec 2026); max 35 huts.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.kkweihnachtsmarkt.at/index-en.html",
+          "kind": "official",
+          "title": "K&K Christmas Market Belvedere"
+        },
+        {
+          "url": "https://www.wien.info/en/shopping-wining-dining/markets/christmas-markets",
+          "kind": "official",
+          "title": "Vienna Tourist Board: Christmas markets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "wien.info lists the Belvedere market as Monday to Friday 11am to 2pm",
+          "the market's own site gives 11am to 9pm",
+          "it has a maximum of 35 huts"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.ortstaxe-2026",
+      "topic": "tax",
+      "claim": "Vienna's Ortstaxe is 3.2% (after an 11% flat deduction) to 30 June 2026, 5% of the stay price (before VAT and breakfast) from 1 July 2026 to 30 June 2027, and 8% from 1 July 2027; exemptions cover minors on school/training stays or in youth hostels, Vienna students and stays over 3 months. Our worked example: €220 incl. 10% VAT = €200 net, €10 a night, €16 from July 2027.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/amtswege/ortstaxe",
+          "kind": "official",
+          "title": "City of Vienna: Ortstaxe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "5% of the price of the stay",
+          "8% of the price of the stay",
+          "so the tax is €10 a night, or €30 for three nights",
+          "€16 a night"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.vat-accommodation",
+      "topic": "tax",
+      "claim": "Austrian VAT on accommodation has been 10% since 1 January 2022.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/amtswege/ortstaxe",
+          "kind": "official",
+          "title": "City of Vienna: Ortstaxe"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "VAT on a room is 10%"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.airport-s-bahn-closure",
+      "topic": "transport",
+      "claim": "From 7 September 2026 until the end of October 2027 the S-Bahn core section between Wien Praterstern and Wien Hauptbahnhof is closed; trains do not stop at Rennweg or Wien Mitte/Landstraße; the S7 stops short at St. Marx; the REX 7 runs to Wien Hauptbahnhof in about 20 minutes; Railjet/InterCity reach Hauptbahnhof in about 15 minutes and Meidling in just under half an hour.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
+          "kind": "official",
+          "title": "Vienna Tourist Board: airport travellers 2026-2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "closed from 7 September 2026 until the end of October 2027",
+          "The S7 now stops short at St. Marx",
+          "in about 15 minutes"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.s7-rex7-fare",
+      "topic": "fare",
+      "claim": "The S7/REX 7 airport fare for adults is €5.50: €2.30 airport to city boundary plus €3.20 within Vienna.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/express-train-s7-345644",
+          "kind": "official",
+          "title": "Vienna Tourist Board: S7 and REX 7"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "€2.30 from the airport to the city boundary"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.public-transport-fares",
+      "topic": "fare",
+      "claim": "Wiener Linien: single €3.20 (80 minutes), 24-hour €10.20, 7-day €25.20 digital or €28.90 paper; Vienna City Card from €19.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.wien.info/en/travel-info/transport/tickets-361360",
+          "kind": "official",
+          "title": "Vienna Tourist Board: public transport tickets"
+        },
+        {
+          "url": "https://www.wien.info/en/travel-info/vienna-city-card",
+          "kind": "official",
+          "title": "Vienna City Card"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "A single ticket is €3.20 and is valid for 80 minutes",
+          "a 24-hour ticket is €10.20",
+          "starts at €19"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.market-transport",
+      "topic": "transport",
+      "claim": "Rathausplatz market: trams 1, 71, D (Rathausplatz/Burgtheater), tram 2 (Parlament), U2 (Rathaus), U3 (Volkstheater). Belvedere market: tram D to Schloss Belvedere, U1 to Hauptbahnhof. Schönbrunn market: about 600 m from U4 Schönbrunn or Hietzing; trams 10 and 60 and bus 10A stop at Schloss Schönbrunn; U4 runs from Karlsplatz to Schönbrunn.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.christkindlmarkt.at/besuch/",
+          "kind": "official",
+          "title": "Wiener Christkindlmarkt: Besuch"
+        },
+        {
+          "url": "https://www.kkweihnachtsmarkt.at/index-en.html",
+          "kind": "official",
+          "title": "K&K Christmas Market Belvedere"
+        },
+        {
+          "url": "https://www.weihnachtsmarkt-schoenbrunn.at/wissenswertes",
+          "kind": "official",
+          "title": "Schönbrunn Christmas market: Wissenswertes"
+        },
+        {
+          "url": "https://www.schoenbrunn.at/en/visitor-information/how-to-get-here",
+          "kind": "official",
+          "title": "Schönbrunn Palace: how to get here"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "trams 1, 71 and D (stop Rathausplatz/Burgtheater)",
+          "about 600 m from either U4 station",
+          "trams 10 and 60 and bus 10A stop at Schloss Schönbrunn"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.market-distances-estimate",
+      "topic": "place",
+      "claim": "Straight-line distances in the guide are our own calculation from OpenStreetMap coordinates of each hotel address and the market square, rounded to 50 m (e.g. Hotel Wandl to Stephansplatz about 200 m, Grand Hotel Wien to Karlsplatz about 250 m, Parkhotel Schönbrunn to the palace about 700 m).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.openstreetmap.org/",
+          "kind": "operator",
+          "title": "OpenStreetMap"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "straight-line distances between OpenStreetMap coordinates",
+          "Stephansplatz 200 m, Am Hof 250 m, Freyung 350 m"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel-wandl",
+      "topic": "hotel",
+      "claim": "Hotel Wandl, Petersplatz 9: four-star; gives Stephansplatz as 3 minutes' walk; standard double 16 m², superior 30 m²; rates include breakfast; no own parking, Morzinplatz garage €30 per 24 hours.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotel-wandl.com/en/location/",
+          "kind": "operator",
+          "title": "Hotel Wandl: location"
+        },
+        {
+          "url": "https://www.hotel-wandl.com/en/rooms/",
+          "kind": "operator",
+          "title": "Hotel Wandl: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "Stephansplatz as 3 minutes' walk",
+          "Standard doubles are 16 m²",
+          "costs €30 for 24 hours"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel-regina",
+      "topic": "hotel",
+      "claim": "Hotel Regina, Rooseveltplatz 15: family-run four-star since 1896 with 165 rooms; single 14 m², double 18 m², superior double 20 m², deluxe 30 m²; individually controllable air conditioning.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotelregina.at/en",
+          "kind": "operator",
+          "title": "Hotel Regina"
+        },
+        {
+          "url": "https://www.hotelregina.at/en/rooms/",
+          "kind": "operator",
+          "title": "Hotel Regina: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "165 rooms",
+          "A standard double is 18 m²"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel-rathaus",
+      "topic": "hotel",
+      "claim": "Hotel Rathaus Wein & Design, Lange Gasse 13: family-run boutique hotel in a Gründerzeit house, calls itself Vienna's first wine hotel; Design doubles from 25 m², Classic and Modern from 28 m².",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotel-rathaus-wien.at/",
+          "kind": "operator",
+          "title": "Hotel Rathaus Wein & Design"
+        },
+        {
+          "url": "https://www.hotel-rathaus-wien.at/de/zimmer-suiten.html",
+          "kind": "operator",
+          "title": "Hotel Rathaus: Zimmer & Suiten"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "Design doubles start at 25 m²"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel-grand-wien",
+      "topic": "hotel",
+      "claim": "Grand Hotel Wien, Kärntner Ring 9: since 1870; 88 Deluxe Rooms of 30-35 m² with air conditioning, standard rooms overlook the inner courtyard; underground car park; trams 1, 2, 71 and D at Kärntner Ring/Oper and U1/U2/U4 at Karlsplatz/Oper.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://en.grandhotelwien.com/stay-with-us/deluxe-rooms/",
+          "kind": "operator",
+          "title": "Grand Hotel Wien: Deluxe Rooms"
+        },
+        {
+          "url": "https://en.grandhotelwien.com/contact-us/location-map-directions/",
+          "kind": "operator",
+          "title": "Grand Hotel Wien: location"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "88 Deluxe Rooms of 30 to 35 m²",
+          "standard rooms face the inner courtyard"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel-cloud-one",
+      "topic": "hotel",
+      "claim": "The Cloud One Vienna-Staatsoper, Elisabethstraße 5: listed building, Karlsplatz U-Bahn about 100 m away; The Cloud 16 m², Cosy Cloud 14 m² on the basement level.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.the-cloud-one.com/en/hotels/vienna/hotel-vienna-staatsoper/",
+          "kind": "operator",
+          "title": "The Cloud One Vienna-Staatsoper"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "the Karlsplatz U-Bahn about 100 m away",
+          "The standard room is 16 m²",
+          "the Cosy Cloud rooms are 14 m²"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel-parkhotel-schoenbrunn",
+      "topic": "hotel",
+      "claim": "Austria Trend Parkhotel Schönbrunn, Hietzinger Hauptstraße 10-14: former guest house of Emperor Franz Joseph I; says palace and zoo are a ten-minute walk; Classic rooms 24-32 m² with adjustable air conditioning; garage €45 a day.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.austria-trend.at/en/hotels/parkhotel-schoenbrunn",
+          "kind": "operator",
+          "title": "Austria Trend Parkhotel Schönbrunn"
+        },
+        {
+          "url": "https://www.austria-trend.at/en/hotels/parkhotel-schoenbrunn/rooms-suites",
+          "kind": "operator",
+          "title": "Parkhotel Schönbrunn: rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "Classic rooms are 24 to 32 m²",
+          "the hotel garage is €45 a day"
+        ]
+      }
+    },
+    {
+      "id": "at.vienna.hotel-vienna-schoenbrunn",
+      "topic": "hotel",
+      "claim": "Hotel Vienna-Schönbrunn, Rechte Wienzeile 223: opposite Meidling Hauptstraße U-Bahn station; independent hotel in the Motel One family; doubles 21 m², superior 24 m²; palace walk given as ten minutes and approx. 15 minutes on the same page.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.motel-one.com/en/hotels/vienna/hotel-vienna-schoenbrunn/",
+          "kind": "operator",
+          "title": "Hotel Vienna-Schönbrunn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-vienna-christmas-market.html": [
+          "Doubles are 21 m² and superior doubles 24 m²",
+          "opposite the Meidling Hauptstraße U-Bahn station"
         ]
       }
     }

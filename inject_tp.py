@@ -351,6 +351,20 @@ REGISTRY: dict[str, str] = {
         "Before you land in Paris", ["tiqets", "welcomepickups", "airalo"]),
     "articles/where-to-stay-in-new-york.html": cta(
         "Before you land in New York", ["tiqets", "airalo", "aviasales"]),
+    "articles/where-to-stay-in-los-angeles-super-bowl.html": cta(
+        "Before you land in Los Angeles", ["tiqets", "welcomepickups", "airalo"]),
+    "articles/where-to-stay-in-seoul-cherry-blossom.html": cta(
+        "Before you land in Seoul", ["tiqets", "welcomepickups", "airalo"]),
+    "articles/where-to-stay-in-banff.html": cta(
+        "Before you land in Banff", ["tiqets", "welcomepickups", "airalo"]),
+    "articles/where-to-stay-for-tokyo-disney-resort.html": cta(
+        "Before you land in Tokyo Disney Resort", ["tiqets", "welcomepickups", "airalo"]),
+    "articles/where-to-stay-in-prague-christmas-market.html": cta(
+        "Before you land in Prague", ["tiqets", "welcomepickups", "airalo"]),
+    "articles/where-to-stay-in-vienna-christmas-market.html": cta(
+        "Before you land in Vienna", ["tiqets", "welcomepickups", "airalo"]),
+    "articles/where-to-stay-in-melbourne-australian-open.html": cta(
+        "Before you land in Melbourne", ["tiqets", "welcomepickups", "airalo"]),
     "articles/where-to-stay-in-kyoto-new-year.html": cta(
         "Before you land in Kyoto", ["tiqets", "welcomepickups", "airalo"]),
     "articles/where-to-stay-in-nuremberg-christmas-market.html": cta(

@@ -529,6 +529,11 @@
           "url": "https://www.tax.metro.tokyo.lg.jp/shitsumon/leisure/general_01",
           "kind": "official",
           "title": "Tokyo Metropolitan Government Bureau of Taxation: accommodation tax"
+        },
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/2",
+          "kind": "official",
+          "title": "Tokyo Bureau of Taxation: accommodation tax"
         }
       ],
       "checked": "2026-10-05",
@@ -550,6 +555,11 @@
         ],
         "articles/hotel-taxes-around-the-world-2026.html": [
           "Until 31 March 2027 Tokyo charges ¥100 a person a night on rooms of ¥10,000 to ¥14,999 per person, and ¥200 a person a night from ¥15,000"
+        ],
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "none under ¥10,000; ¥100 from ¥10,000 to ¥14,999; ¥200 from ¥15,000",
+          "From 1 April 2027: 3% of the rate per person per night; none under ¥13,000",
+          "Tokyo says the tax may be collected at the front desk, apart from the room rate"
         ]
       },
       "watch": "Tokyo[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
@@ -4974,6 +4984,410 @@
         "articles/where-to-stay-in-kyoto-new-year.html": [
           "Ryokan Yachiyo says it has no curfew and asks you to tell the front desk",
           "reception runs 8am to 10pm and check-in 4pm to 10pm"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.hotel-groups",
+      "topic": "hotel",
+      "claim": "Tokyo Disney Resort groups its affiliated hotels as 6 Official Hotels inside the resort (Grand Nikko Tokyo Bay Maihama, Maihama View Hotel, Hotel Okura Tokyo Bay, Hilton Tokyo Bay, Sheraton Grande Tokyo Bay Hotel, Tokyo Bay Maihama Hotel First Resort), 4 Partner Hotels in Shin-Urayasu (Hotel Emion Tokyo Bay, Mitsui Garden Hotel Prana Tokyo Bay, Urayasu Brighton Hotel Tokyo Bay, Oriental Hotel Tokyo Bay) with a free ~15-minute shuttle, and 9 Good Neighbor Hotels (Shinjuku, Koto/Sumida, Daiba/Ariake, Chiba/Makuhari) with a free shuttle needing reservations; there are also 6 Disney Hotels.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/",
+          "kind": "official",
+          "title": "Tokyo Disney Resort: Other Hotels"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "Tokyo Disney Resort sorts its hotels into four groups",
+          "A free shuttle runs about 15 minutes direct to the bus terminals at both parks, with no reservation",
+          "The free shuttle needs a reservation and seats are limited"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.hotel-benefits",
+      "topic": "hotel",
+      "claim": "Official Hotel guests who contact the hotel in advance can buy park tickets at the hotel even if unavailable online; Partner and Good Neighbor guests can if they booked a package including a ticket or the right to buy one; a free Disney Resort Cruiser bus links Official Hotels to Bayside Station; Partner shuttle needs no reservation, Good Neighbor shuttle does.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/hotel_privilege",
+          "kind": "official",
+          "title": "Guest benefits at hotels affiliated with Tokyo Disney Resort"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "Official Hotel guests can, if they contact the hotel in advance",
+          "Partner and Good Neighbor guests can if they booked a package that includes a ticket or the right to buy one"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.happy-entry",
+      "topic": "hotel",
+      "claim": "Happy Entry (as of 26 Oct 2026): Disney Hotel guests enter Tokyo Disneyland 15 minutes before other guests (Tokyo DisneySea 5-15 minutes ahead, Fantasy Springs Hotel and MiraCosta only), on any day of the stay except check-in day; a park ticket is still required; Tokyo Disneyland Happy Entry is unavailable on 31 Oct 2026, 10 Nov 2026 and 12 Jan 2027 to MiraCosta, Celebration Hotel and Fantasy Chateau guests (not Grand Chateau); DisneySea has no unavailable dates until March 2027.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/happy_entry.html",
+          "kind": "official",
+          "title": "Disney Hotels Guest Benefits: Happy Entry"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "Happy Entry lets you into Tokyo Disneyland 15 minutes before other guests",
+          "not available on 31 October 2026, 10 November 2026 or 12 January 2027",
+          "DisneySea has no blackout dates until March 2027"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.hotel-tickets",
+      "topic": "hotel",
+      "claim": "Disney Hotel guests can buy a 1-Day Passport at the hotel, including for dates shown unavailable online, one ticket per guest per day for one park, from check-in day to checkout day; the resort FAQ answers yes to 'will I definitely be able to purchase a ticket at the hotel'.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/operation/ticket.html",
+          "kind": "official",
+          "title": "Park ticket purchases for guests staying at a Disney Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "dates shown as unavailable on the official ticket site",
+          "The resort's own FAQ answers yes to whether you will definitely be able to buy one"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.hotel-reservations",
+      "topic": "hotel",
+      "claim": "Disney Hotel room-only reservations open at 11am four months before the stay, for up to five nights and three rooms, via the Online Reservations & Tickets site; a MyDisney account is required.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/operation/reservation.html",
+          "kind": "official",
+          "title": "Regarding Disney Hotels reservations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "Room-only reservations open at 11am four months before the stay, for up to five nights and three rooms",
+          "need a MyDisney account"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.park-tickets",
+      "topic": "price",
+      "claim": "Park tickets go on sale daily at 2pm for the date two months later with variable pricing; the adult 1-Day Passport starts at 8,900 yen and the January 2027 calendar ran 8,900 to 11,900 yen (as of 30 Oct 2026).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/ticket/index/202701/",
+          "kind": "official",
+          "title": "Tokyo Disney Resort: Park Tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "Tickets go on sale at 2pm for the same date two months ahead, with variable pricing",
+          "its January 2027 calendar ran from ¥8,900 to ¥11,900"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.resort-line-fare",
+      "topic": "fare",
+      "claim": "Disney Resort Line single ticket 300 yen adult / 150 yen child; 1-, 2-, 3- and 4-day passes 700 / 900 / 1,200 / 1,500 yen adult; IC cards accepted.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/tdr/resortline/fare.html",
+          "kind": "official",
+          "title": "Disney Resort Line: ticket fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "The Disney Resort Line monorail costs ¥300 for an adult single and ¥150 for a child",
+          "IC cards work"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.resort-line-pass-faq",
+      "topic": "fare",
+      "claim": "Guests of Tokyo Disneyland Hotel, MiraCosta, Toy Story Hotel, Disney Ambassador Hotel and Celebration Hotel do not receive a complimentary Disney Resort Line pass.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://faq-en.tokyodisneyresort.jp/answer/680ba04bd7820362f46c7c86/",
+          "kind": "official",
+          "title": "FAQ: Resort Line pass for Disney hotel guests"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "do not get a free Resort Line pass"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.access-times",
+      "topic": "transport",
+      "claim": "Maihama Station (JR Keiyo and Musashino lines) is about 15 minutes from Tokyo Station by train per the text and about 20 minutes per the table; by train Akihabara 35, Shinjuku 40, Haneda 50, Narita 80 minutes; by bus Tokyo Station 35, Akihabara 65, Shinjuku 50, Haneda 45, Narita 65 minutes (estimates for reference).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/tdl/access/railway_bus",
+          "kind": "official",
+          "title": "Tokyo Disneyland: by train or bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "The resort's text says Maihama is about 15 minutes from Tokyo Station; its table says about 20",
+          "Keiyo Line, 15 to 20 minutes by the resort's figure"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.limousine-bus",
+      "topic": "fare",
+      "claim": "Airport Limousine Bus adult one-way fare is 1,300 yen from Haneda and 2,900 yen from Narita to Tokyo Disney Resort hotels; reservable online.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.limousinebus.co.jp/en/line/detail/Haneda-TDR/",
+          "kind": "operator",
+          "title": "Airport Limousine Bus: Tokyo Disney Resort and Haneda"
+        },
+        {
+          "url": "https://www.limousinebus.co.jp/en/line/detail/Narita-TDR/",
+          "kind": "operator",
+          "title": "Airport Limousine Bus: Tokyo Disney Resort and Narita"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "An adult one-way fare is ¥1,300 from Haneda and ¥2,900 from Narita"
+        ]
+      }
+    },
+    {
+      "id": "jp.urayasu.accommodation-tax-draft",
+      "topic": "tax",
+      "claim": "Urayasu levies no accommodation tax today; its June 2026 draft (comments closed 24 July 2026) would charge 50 yen city plus 150 yen Chiba Prefecture, 200 yen per person per night, no minimum rate, school trips exempt, council bill planned for December 2026 and introduction aimed for September 2028; Chiba Prefecture's scheme and a Chiba City add-on are still proposals (seven municipalities studying their own, per the prefecture's June 2026 notice).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.city.urayasu.lg.jp/shisei/kocho/public/boshu/1048578.html",
+          "kind": "official",
+          "title": "Urayasu City: draft accommodation tax scheme (comments)"
+        },
+        {
+          "url": "https://www.city.urayasu.lg.jp/_res/projects/default_project/_page_/001/048/578/shukuhakuni.pdf",
+          "kind": "official",
+          "title": "Urayasu City: draft accommodation tax scheme (PDF, June 2026)"
+        },
+        {
+          "url": "https://www.pref.chiba.lg.jp/kankou/press/2026/seidoansetsumeikai.html",
+          "kind": "official",
+          "title": "Chiba Prefecture: accommodation tax briefings"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "A draft: ¥50 for the city plus ¥150 for Chiba Prefecture, ¥200 a night, from September 2028",
+          "which the city plans for its December 2026 sitting",
+          "It would have no minimum room rate and would exempt school trips",
+          "the city is one of seven studying its own add-on"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.hotel.fantasy-springs",
+      "topic": "hotel",
+      "claim": "Tokyo DisneySea Fantasy Springs Hotel has two buildings, Grand Chateau (luxury) and Fantasy Chateau (deluxe), an exclusive entrance into Fantasy Springs, and is accessible only to guests until further notice.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/fsh/",
+          "kind": "official",
+          "title": "Tokyo DisneySea Fantasy Springs Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "Grand Chateau, its luxury type, and Fantasy Chateau, a deluxe type",
+          "only guests may enter the hotel and its grounds"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.hotel.disneyland-hotel",
+      "topic": "hotel",
+      "claim": "Tokyo Disneyland Hotel is the closest hotel to the Tokyo Disneyland entrance (one-minute walk); some themed rooms are unavailable 4 Jan-7 Feb and 8 Feb-14 Mar 2027 for refurbishment; room calendar showed 31 Oct 2026 from 116,500 yen for two adults (as of 30 Oct 2026, 2pm).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/tdh/",
+          "kind": "official",
+          "title": "Tokyo Disneyland Hotel"
+        },
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/tdh_renovation.html",
+          "kind": "official",
+          "title": "Tokyo Disneyland Hotel: guest room refurbishment"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "The closest hotel to the Tokyo Disneyland entrance, a one-minute walk from the gate",
+          "from 4 January to 14 March 2027 refurbishment closes some themed rooms in two stages",
+          "the Tokyo Disneyland Hotel's calendar showed 31 October from ¥116,500"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.hotel.toy-story",
+      "topic": "hotel",
+      "claim": "Tokyo Disney Resort Toy Story Hotel is next to Bayside Station and closes on 18 January 2027 for thermal-energy equipment work (guests leave by 1pm).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/tsh/",
+          "kind": "official",
+          "title": "Toy Story Hotel"
+        },
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/topics/info/tsh_temporary_closure.html",
+          "kind": "official",
+          "title": "Toy Story Hotel: closure on 18 January 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "it closes on 18 January 2027 for equipment work, and guests are asked to leave by 1pm"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.hotel.sheraton",
+      "topic": "hotel",
+      "claim": "Sheraton Grande Tokyo Bay Hotel: every room over 36 square metres, breakfast from 6am, baths and spa, pool, mini-golf; temporary closure Wed 24 Feb to Sat 27 Feb 2027 for a facility inspection and power shutdown; room names do not guarantee a view.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/tyosi-sheraton-grande-tokyo-bay-hotel/overview/",
+          "kind": "official",
+          "title": "Sheraton Grande Tokyo Bay Hotel (Marriott)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "with every room over 36 square metres and breakfast from 6am",
+          "it closes from 24 to 27 February 2027 for a power shutdown"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.hotel.celebration",
+      "topic": "hotel",
+      "claim": "Tokyo Disney Celebration Hotel is the value type of Disney Hotel in the Shin-Urayasu area, two buildings (Wish and Discover), with a complimentary shuttle to the parks of about 20 minutes.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/dch.html",
+          "kind": "official",
+          "title": "Tokyo Disney Celebration Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "The resort's value type of Disney Hotel",
+          "the shuttle takes about 20 minutes"
+        ]
+      }
+    },
+    {
+      "id": "jp.tdr.hotel.partner-hotels",
+      "topic": "hotel",
+      "claim": "Hotel Emion Tokyo Bay has a natural hot spring usable for a fee and 20 room types; Mitsui Garden Hotel Prana is a four-star partner hotel with a top-floor ocean-view public bath; Oriental Hotel Tokyo Bay is directly connected to Shin-Urayasu Station.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/ph/emion.html",
+          "kind": "official",
+          "title": "Hotel Emion Tokyo Bay"
+        },
+        {
+          "url": "https://www.gardenhotels.co.jp/prana-tokyobay/eng/",
+          "kind": "operator",
+          "title": "Mitsui Garden Hotel Prana Tokyo Bay"
+        },
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/hotel/ph/oriental.html",
+          "kind": "official",
+          "title": "Oriental Hotel Tokyo Bay"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "a natural hot spring that guests can use for a fee and 20 room types",
+          "a top-floor ocean-view public bath",
+          "Directly connected to Shin-Urayasu Station"
+        ]
+      }
+    },
+    {
+      "id": "jp.newotani-makuhari.shuttle",
+      "topic": "transport",
+      "claim": "Hotel New Otani Makuhari is 5 minutes' walk from Kaihimmakuhari Station (Keiyo Line, South Exit); its Good Neighbor shuttle takes about 30 minutes, leaves the hotel at 7:45am and 9:45am, and is reserved from 2 months before until 6pm the previous day.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.newotani.co.jp/en/makuhari/facility/shuttlebus/",
+          "kind": "operator",
+          "title": "Hotel New Otani Makuhari: Good Neighbor shuttle bus"
+        },
+        {
+          "url": "https://www.newotani.co.jp/en/makuhari/access/",
+          "kind": "operator",
+          "title": "Hotel New Otani Makuhari: access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "Five minutes' walk from Kaihimmakuhari Station",
+          "Two buses a day leave the hotel at 7:45am and 9:45am"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.hotel.apa-hatchobori",
+      "topic": "hotel",
+      "claim": "APA Hotel Hatchobori Ekimae is a one-minute walk from Hatchobori Station; standard rooms 11 square metres with a 140cm bed, Deluxe Twin 23 square metres; automatic check-in machine.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www3.apahotel.com/hotel/syutoken/tokyo/hatchobori-ekimae/",
+          "kind": "operator",
+          "title": "APA Hotel Hatchobori Ekimae"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-disney-resort.html": [
+          "A minute's walk from Hatchobori Station",
+          "Standard rooms are 11 square metres with a 140cm bed"
         ]
       }
     }

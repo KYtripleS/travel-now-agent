@@ -747,6 +747,9 @@
           "charges 14%",
           "The Office of Finance states the 14% rate",
           "14% of the room rate"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "Los Angeles's rate is 14%"
         ]
       }
     },
@@ -767,6 +770,9 @@
           "2% under the district's 2025–2034 plan",
           "sets an initial rate of 2% for hotels of 50 or more rooms, lets the district raise it to 3%",
           "says an assessment passed on to guests must be shown separately"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "lets it rise to 3%"
         ]
       },
       "note": "Plan text (Feb 2025) read; the Office of Finance TOT page does not mention the LATMD, and I did not find the adopting ordinance. 2% is also the rate on discoverlosangeles.com (operator, since 1 May 2022). Editor: soften if the plan was not adopted as written."
@@ -813,6 +819,9 @@
         "articles/where-to-stay-in-los-angeles.html": [
           "Santa Monica charges 15%",
           "Santa Monica's 2026 rates are $2.30 a room night for hotels averaging $100 to $199.99, $6.25 for $200 to $299.99, and $7.25 above $300"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "Santa Monica's 2026 assessment is $7.25 a room night"
         ]
       }
     },
@@ -852,6 +861,9 @@
         "articles/where-to-stay-in-los-angeles.html": [
           "El Segundo 12%",
           "with the lowest base tax here, 12%"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "12% in El Segundo"
         ]
       }
     },
@@ -910,6 +922,9 @@
           "pick up at LAX-it, beside Terminal 1",
           "a 3 to 8 minute walk from Terminals 1 and 7 and about 19 from Terminals 4 and 5",
           "or take the free LAX-it shuttle from the green sign on the arrivals level"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "pick up at LAX-it, beside Terminal 1"
         ]
       },
       "note": "The LAX page still carries some pandemic-era wording; the LAX-it facts used are the walking times and shuttle location."
@@ -940,6 +955,9 @@
         "articles/where-to-stay-in-los-angeles.html": [
           "nonstop between LAX and Union Station, and Van Nuys, for $12.75 one way",
           "from the blue FlyAway columns on the arrivals level"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "runs nonstop between LAX and Union Station for $12.75 one way"
         ]
       }
     },
@@ -965,6 +983,9 @@
           "the LAX/Metro Transit Center opened on 6 June 2025, on the C Line and the K Line",
           "A free shuttle runs every 10 minutes between its Bus Bays 1 and 2 and every terminal",
           "Metro's blog calls it temporary until the LAX people mover opens"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "opened on 6 June 2025 on the C and K Lines"
         ]
       },
       "note": "Shuttle frequency 'every 10 minutes' comes from Metro's The Source and LAX/Moovit coverage; the metro.net page says 'frequent'."
@@ -1008,6 +1029,9 @@
       "used_in": {
         "articles/where-to-stay-in-los-angeles.html": [
           "Metro's fare is $1.75 a ride, with free transfers for two hours and caps of $5 a day and $18 a week when you tap"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "caps of $5 a day and $18 a week"
         ]
       }
     },
@@ -1028,6 +1052,9 @@
           "Downtown to the airport's Metro station is about 45 to 55 minutes by rail, and Downtown Santa Monica 55 to 60",
           "about 45 to 55 minutes to 7th St/Metro Center and 55 to 60 to Downtown Santa Monica, by Metro's count",
           "take the K Line to Expo/Crenshaw and change to the E Line"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "about 45 to 55 minutes from 7th St/Metro Center and 55 to 60 from Downtown Santa Monica"
         ]
       },
       "note": "Metro's times were published June 2025 and are approximate; the article describes the route from the E Line side to the K Line, reversed here."
@@ -1156,12 +1183,20 @@
           "url": "https://www.hotelcasadelmar.com/",
           "kind": "official",
           "title": "Hotel Casa del Mar"
+        },
+        {
+          "url": "https://www.hotelcasadelmar.com/santa-monica-hotel-guide/",
+          "kind": "operator",
+          "title": "Hotel Casa del Mar: guide"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-los-angeles.html": [
           "At 1910 Ocean Way, an oceanfront hotel with eight room categories, ten suites, the restaurant Terrazza and the Sea Wellness Spa",
           "overnight parking at $90"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "a $60 resort fee plus 15% tax, and overnight parking at $90"
         ]
       },
       "note": "Read from the hotel's own pages on 19 Oct 2026: hotelcasadelmar.com/accommodations/ and /santa-monica-hotel-guide/"
@@ -1334,12 +1369,20 @@
           "url": "https://www.hotelfigueroa.com/",
           "kind": "official",
           "title": "Hotel Figueroa"
+        },
+        {
+          "url": "https://www.hotelfigueroa.com/faq/",
+          "kind": "operator",
+          "title": "Hotel Figueroa: FAQ"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-los-angeles.html": [
           "At 939 S. Figueroa Street, restored in the style of its 1926 original, steps from Crypto.com Arena and the Convention Center",
           "every booking carries a $35 amenity fee plus tax a night, and valet parking is $62 plus tax"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "every booking carries a $35 amenity fee plus tax a night"
         ]
       },
       "note": "Read from the hotel's own pages on 19 Oct 2026: hotelfigueroa.com and /faq/"
@@ -1354,12 +1397,21 @@
           "url": "https://thehoxton.com/downtown-la/",
           "kind": "official",
           "title": "The Hoxton, Downtown LA"
+        },
+        {
+          "url": "https://thehoxton.com/downtown-la/faqs/",
+          "kind": "operator",
+          "title": "The Hoxton Downtown LA: FAQs"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-los-angeles.html": [
           "At 1060 S. Broadway, with 174 rooms and a rooftop pool over Broadway with Inanna Bar",
           "valet parking is $66 a night"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "with 174 rooms and a rooftop pool over Broadway",
+          "30-minute taxi ride without traffic"
         ]
       },
       "note": "Read from the hotel's own pages on 19 Oct 2026: thehoxton.com/downtown-la/ and /faqs/"
@@ -1379,6 +1431,10 @@
       "used_in": {
         "articles/where-to-stay-in-los-angeles.html": [
           "At 888 N. Pacific Coast Highway, one mile from LAX and under five miles from SoFi Stadium and Manhattan Beach, with free hot breakfast, free Wi-Fi and an indoor pool",
+          "self-parking is $30 a day"
+        ],
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "Hilton's page putting SoFi Stadium 4.70 miles away",
           "self-parking is $30 a day"
         ]
       },
@@ -6657,6 +6713,388 @@
         "articles/where-to-stay-in-new-orleans-mardi-gras.html": [
           "free cancellation needs 72 hours' notice",
           "the maximum stay is 14 nights in any 30 days"
+        ]
+      }
+    },
+    {
+      "id": "us.la.sb61.date",
+      "topic": "place",
+      "claim": "Discover Los Angeles (Los Angeles Tourism & Convention Board) gives Super Bowl LXI as 14 February 2027 at SoFi Stadium; NFL.com's announcement says the game will be played at SoFi Stadium in Inglewood in 2027 and that it will be the second Super Bowl at SoFi and the ninth in Los Angeles County.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.discoverlosangeles.com/superbowl",
+          "kind": "official",
+          "title": "Discover Los Angeles: Host of Super Bowl LXI - February 14, 2027"
+        },
+        {
+          "url": "https://www.nfl.com/news/los-angeles-to-host-super-bowl-lxi-in-2027",
+          "kind": "official",
+          "title": "NFL.com: Los Angeles to host Super Bowl LXI in 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "gives the date as 14 February 2027",
+          "Sunday 14 February 2027",
+          "the second Super Bowl played there and the ninth in Los Angeles County"
+        ]
+      },
+      "note": "NFL.com's own wording gives only 'February 2027'; the 14 February date is on the LA tourism board's page. SoFi's Feb 2026 press release (not readable by our fetcher, 406) reportedly also says 14 February. Sunday is our calendar arithmetic."
+    },
+    {
+      "id": "us.la.sb61.tickets",
+      "topic": "place",
+      "claim": "NFL.com's Super Bowl page links official Super Bowl LXI ticket packages sold by On Location.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.nfl.com/super-bowl/",
+          "kind": "official",
+          "title": "NFL.com: Super Bowl"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "links official ticket packages sold by On Location"
+        ]
+      }
+    },
+    {
+      "id": "us.la.sofi.parking-transit",
+      "topic": "transport",
+      "claim": "SoFi Stadium's parking and transportation page says that for NFL events onsite parking inventory is extremely limited and lists alternatives: Inglewood Park & Go (remote parking with shuttles to the City of Inglewood's Intermodal Transit Facility next to the stadium, advance booking encouraged, drive-up rates higher), Metro C/K Line to LAX/Metro Transit Center with a shuttle from Bus Bay 8, GTrans 7X every Sunday from Harbor Gateway Transit Center ($4 round trip), Torrance Transit ($4 round trip) and Culver CityBus Line 99 Express ($2 round trip); rideshare pickup at Kareem Court and Manchester Boulevard.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.sofistadium.com/plan-your-visit/parking-and-transportation",
+          "kind": "official",
+          "title": "SoFi Stadium: parking and transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "onsite parking is extremely limited",
+          "The City of Inglewood's scheme sells remote parking",
+          "GTrans Line 7X on Sundays from Harbor Gateway Transit Center, at $4 round trip",
+          "lists pickup at Kareem Court and Manchester Boulevard"
+        ]
+      },
+      "note": "Page is written for NFL regular-season games; no Super Bowl plan published."
+    },
+    {
+      "id": "us.la.sofi.metro-express",
+      "topic": "transport",
+      "claim": "Metro's page says the SoFi Stadium Express (for Rams and Chargers games) boards at Bus Bay 8 at the LAX/Metro Transit Center, runs every 10 minutes or less from 3 hours before kickoff, returns from the start of the 4th quarter then every 5 minutes for 90 minutes after the game, drops off at the transit lot at the south-east corner of Prairie and Arbor Vitae; regular fare $1.75 or $3.50 round trip; Lines 115, 117 and 212 serve Manchester/Kareem, Prairie/Century and Prairie/Kelso at any time.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.metro.net/destinations/sofi-stadium/",
+          "kind": "operator",
+          "title": "LA Metro: Go Metro to SoFi Stadium"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "board the SoFi Stadium Express at Bus Bay 8",
+          "buses run every 10 minutes or less from three hours before kickoff",
+          "Metro lists it as a service for Rams and Chargers games",
+          "Line 117 to Prairie/Century"
+        ]
+      },
+      "note": "Culver CityBus's notice calls the shuttle free; Metro's page lists the regular fare. Flagged in the text."
+    },
+    {
+      "id": "us.la.metro.k-line",
+      "topic": "transport",
+      "claim": "Metro says the K Line now runs continuously from the Expo/Crenshaw Station to Redondo Beach; the LAX/Metro Transit Center opened on 6 June.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.metro.net/about/lax-metro-transit-center-opening-drives-dramatic-increase-in-ridership-on-k-line/",
+          "kind": "operator",
+          "title": "LA Metro: LAX Metro Transit Center opening drives ridership on K Line"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "The K Line runs from Expo/Crenshaw Station to Redondo Beach"
+        ]
+      }
+    },
+    {
+      "id": "us.la.culvercitybus.99-paused",
+      "topic": "transport",
+      "claim": "Culver CityBus's notice of 14 September 2026 says it will not operate Line 99 SoFi Express in the 2026-27 NFL season, is looking at bringing it back for Super Bowl 2027, and that Lines 6 and 6R connect to the LAX/Metro Transit Center.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.culvercitybus.com/Home/Tabs/News/SoFi-Express-Service-on-Pause-for-the-26-27-NFL-Season",
+          "kind": "operator",
+          "title": "Culver CityBus: SoFi Express service on pause for the 26-27 NFL season"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "has paused its Line 99 SoFi Express for the 2026 to 2027 NFL season",
+          "Lines 6 and 6R connect to the LAX/Metro Transit Center"
+        ]
+      }
+    },
+    {
+      "id": "us.inglewood.tot-15-5",
+      "topic": "tax",
+      "claim": "The City of Inglewood's 2021 notice of special election asked voters to raise the hotel/motel guests' transient occupancy tax from 14% to 15.5%; the City of Los Angeles Office of Finance's 10 April 2025 memo lists Inglewood at 15.5%. No current-rate page was found on cityofinglewood.org.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.cityofinglewood.org/DocumentCenter/View/16455/NOTICE-OF-SPECIAL-ELECTION-2021-Eng-and-Spn",
+          "kind": "official",
+          "title": "City of Inglewood: notice of special election, 2021"
+        },
+        {
+          "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-1456_misc_4-10-25.pdf",
+          "kind": "official",
+          "title": "City of Los Angeles Office of Finance memo on TOT rates, April 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "Inglewood charges 15.5%",
+          "asked voters to raise the hotel guests' tax from 14% to 15.5%",
+          "lists Inglewood at 15.5%"
+        ]
+      },
+      "note": "The measure's passing is inferred from the 2025 LA memo and Ballotpedia; no official certified result was opened. Confirm the current rate with the city/hotel."
+    },
+    {
+      "id": "us.hawthorne.tot-17-ballot",
+      "topic": "tax",
+      "claim": "Hawthorne's finance page says its council voted on 23 June 2026 to put a measure on the 3 November 2026 ballot raising the hotel tax from 12% to 17%; the rate stays 12% if it fails; the page cites the Super Bowl and LA28 as a reason and gives no start date.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.cityofhawthorne.org/departments/finance/transient-occupancy-tax",
+          "kind": "official",
+          "title": "City of Hawthorne: the TOT measure"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "Hawthorne has a vote on 3 November 2026",
+          "its council voted on 23 June 2026",
+          "that the rate stays at 12% if it fails"
+        ]
+      },
+      "note": "Result unknown at writing (30 Oct 2026); update after 3 Nov."
+    },
+    {
+      "id": "us.culvercity.tot-14",
+      "topic": "tax",
+      "claim": "Culver City's tax page states the hotel transient occupancy tax is 14% of the rent charged for the room.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.culvercity.gov/Services/Business-Resources/Taxes-Fees",
+          "kind": "official",
+          "title": "City of Culver City: taxes and fees"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "Culver City has its own hotel tax at 14%"
+        ]
+      }
+    },
+    {
+      "id": "us.la.sb61.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic, not an official figure: on a $300 room with everything passed on, tax and assessment come to $46.50 ($346.50) in Inglewood, $48.00 ($348.00) in the City of Los Angeles for a 50+ room hotel, $42.00 ($342.00) in Culver City, up to $52.25 ($352.25) in Santa Monica, $36.00 ($336.00) in El Segundo and Hawthorne at 12% or $51.00 ($351.00) at 17%.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.cityofhawthorne.org/departments/finance/transient-occupancy-tax",
+          "kind": "official",
+          "title": "City of Hawthorne"
+        },
+        {
+          "url": "https://www.culvercity.gov/Services/Business-Resources/Taxes-Fees",
+          "kind": "official",
+          "title": "City of Culver City"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "Our arithmetic for a $300 room",
+          "$36.00, so $336.00 at 12%, or $51.00 and $351.00 at 17%"
+        ]
+      }
+    },
+    {
+      "id": "us.la.hotel.anthem",
+      "topic": "hotel",
+      "claim": "The Anthem Los Angeles Stadium District, Tapestry by Hilton, 3900 West Century Boulevard, Inglewood: 179 rooms and suites, heated pool, Soundwave pool bar, Tom's Watch Bar; says less than a mile from SoFi Stadium; Game Day Getaway package with complimentary entry to Poolside Pep Rallies and Xperience Tailgates at Tom's Watch Bar; self-parking not available, valet $60.50 a night.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.anthemhotella.com/",
+          "kind": "operator",
+          "title": "The Anthem Hotel LA (official site)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "with 179 rooms and suites, a heated pool",
+          "less than a mile from SoFi Stadium",
+          "self-parking is not available and valet is $60.50 a night"
+        ]
+      }
+    },
+    {
+      "id": "us.la.hotel.towneplace-hawthorne",
+      "topic": "hotel",
+      "claim": "TownePlace Suites by Marriott Los Angeles LAX/Hawthorne, 4427 West El Segundo Boulevard, Hawthorne: studios and two-room suites, complimentary breakfast daily, outdoor pool, parking $25 daily; less than 5 miles from LAX and a 10-minute drive from SoFi Stadium.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/laxth-towneplace-suites-los-angeles-lax-hawthorne/overview/",
+          "kind": "operator",
+          "title": "TownePlace Suites LAX/Hawthorne (Marriott)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "complimentary breakfast daily, an outdoor pool and parking at $25 a day",
+          "a 10-minute drive from SoFi Stadium"
+        ]
+      }
+    },
+    {
+      "id": "us.la.hotel.westin-lax",
+      "topic": "hotel",
+      "claim": "The Westin Los Angeles Airport, 5400 West Century Boulevard: renovated, suites, Westin Club, Daily Grill, free LAX shuttle; says 2 miles from SoFi Stadium; offers SoFi parking with a rideshare to the event.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/laxwi-the-westin-los-angeles-airport/overview/",
+          "kind": "operator",
+          "title": "The Westin Los Angeles Airport (Marriott)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "it says it is 2 miles from SoFi Stadium",
+          "a Westin Club lounge, the Daily Grill and a free LAX shuttle"
+        ]
+      }
+    },
+    {
+      "id": "us.la.hotel.courtyard-lax-century",
+      "topic": "hotel",
+      "claim": "Courtyard by Marriott Los Angeles LAX/Century Boulevard, 6161 West Century Boulevard: free 24-hour LAX shuttle, The Bistro, parking $58 daily; Game Day Package with a round-trip SoFi shuttle for up to two guests per room, extra riders $30 each plus tax, shuttles from three hours before game time, hourly to kickoff, continuous after the final whistle; valid stay dates 1 August 2026 to 14 February 2027.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/laxcy-courtyard-los-angeles-lax-century-boulevard/overview/",
+          "kind": "operator",
+          "title": "Courtyard LAX/Century Boulevard (Marriott)"
+        },
+        {
+          "url": "https://www.marriott.com/offers/game-day-shuttle-off-228882/laxcy-courtyard-los-angeles-lax-century-boulevard",
+          "kind": "operator",
+          "title": "Courtyard: Stay. Shuttle. Score."
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "with extra riders $30 each plus tax",
+          "with stay dates from 1 August 2026 to 14 February 2027",
+          "parking at $58 a day"
+        ]
+      },
+      "note": "Offer text says 'this season'; does not mention the Super Bowl."
+    },
+    {
+      "id": "us.la.hotel.culver-hotel",
+      "topic": "hotel",
+      "claim": "The Culver Hotel, 9400 Culver Boulevard: 1924 landmark, 46 guest rooms and suites, bar and restaurant, live music, garden patio, 24-hour reception; site lists 'SoFi Stadium proximity' without a distance; $29 destination amenity fee; overnight parking $29 with in-and-out privileges.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.culverhotel.com/",
+          "kind": "operator",
+          "title": "The Culver Hotel (official site)"
+        },
+        {
+          "url": "https://www.culverhotel.com/faq",
+          "kind": "operator",
+          "title": "The Culver Hotel: FAQ"
+        },
+        {
+          "url": "https://www.culverhotel.com/contact",
+          "kind": "operator",
+          "title": "The Culver Hotel: contact"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "a 1924 landmark with 46 guest rooms and suites",
+          "a $29 destination amenity fee and overnight parking at $29"
+        ]
+      }
+    },
+    {
+      "id": "us.la.hotel.palihotel-culver",
+      "topic": "hotel",
+      "claim": "Palihotel Culver City, 3927 Van Buren Place: 49-room boutique hotel in the former West End Hotel, a 1920s boarding house, with the restaurant and bar Simonette; the pages read list no fees or parking.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.palisociety.com/hotels/culver-city",
+          "kind": "operator",
+          "title": "Palihotel Culver City (official site)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "a 49-room boutique hotel in the former West End Hotel"
+        ]
+      }
+    },
+    {
+      "id": "us.la.hotel.shutters",
+      "topic": "hotel",
+      "claim": "Shutters on the Beach, 1 Pico Boulevard, Santa Monica: beachfront luxury hotel with direct beach access; says it holds a MICHELIN Key.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.shuttersonthebeach.com/",
+          "kind": "operator",
+          "title": "Shutters on the Beach (official site)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "a beachfront hotel with direct beach access, which says it holds a Michelin Key"
+        ]
+      }
+    },
+    {
+      "id": "us.la.hotel.hi-santa-monica",
+      "topic": "hotel",
+      "claim": "HI Los Angeles Santa Monica Hostel, 1436 2nd Street: dorms of 4 to 10 beds, private rooms, guest kitchen, Third Street Promenade 0.2 mi and Santa Monica Pier 0.4 mi away; alcohol not allowed; maximum stay of 14 nights per calendar year.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hiusa.org/find-hostels/california/santa-monica-1436-2nd-street",
+          "kind": "operator",
+          "title": "HI Los Angeles Santa Monica Hostel (official page)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-los-angeles-super-bowl.html": [
+          "with dorms of four to ten beds, private rooms, a guest kitchen",
+          "the maximum stay is 14 nights per calendar year"
         ]
       }
     }

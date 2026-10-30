@@ -883,6 +883,487 @@
           "the Superior rooms of 47 m² look onto the village, not the sea"
         ]
       }
+    },
+    {
+      "id": "kr.seoul.bloom-kma",
+      "topic": "place",
+      "claim": "The KMA recorded Seoul's first cherry flowers on 29 March 2026 (6 days earlier than 2025's 4 April and 10 days earlier than the 8 April normal); normal full bloom is 10 April and 2025's was 10 April; at Yeouido's Yunjung-ro the 2025 dates were 3 April (flowering) and 7 April (full bloom) and 2026's flowering date was 29 March; flowering = 3+ blossoms open on a branch, full bloom = 80% of the tree open. The 2026 release lists no full-bloom date.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.weather.go.kr/kma/flexer/html/press/2026/03/29/ATC202603291603412_b86c30ac-d966-46d4-94a2-02c312fb8a7f.hwp.files/Sections1.html",
+          "kind": "official",
+          "title": "KMA press release, 29 March 2026"
+        },
+        {
+          "url": "https://www.weather.go.kr/kma/flexer/html/press/2025/04/04/ATC202504041406132_1b2121a2-f6d6-4e38-836a-b37c7b8f1a66.hwp.files/Sections1.html",
+          "kind": "official",
+          "title": "KMA press release, 4 April 2025"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "recorded the first flowers on 29 March, ten days earlier than its normal of 8 April",
+          "first flowers on 3 April and full bloom on 7 April in 2025",
+          "three or more blossoms have opened on a branch",
+          "80 per cent or more of the tree is open"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.yeouido-full-bloom-2026",
+      "topic": "place",
+      "claim": "The Korea Herald reported on 3 April 2026 (a Friday) that Yeouido reached full bloom 'on Wednesday', before the festival opened.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.koreaherald.com/article/10709538",
+          "kind": "news",
+          "title": "Korea Herald, 3 April 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "Yeouido had reached full bloom earlier that week"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.festival-yeouido-2026",
+      "topic": "place",
+      "claim": "The 2026 Yeouido Spring Flower Festival (20th) ran 3 to 7 April 2026, 11:30 to 21:30, along Yeouiseo-ro, run by Yeongdeungpo-gu and the Yeongdeungpo Culture Foundation.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=95783",
+          "kind": "official",
+          "title": "VisitKorea: Yeongdeungpo Yeouido Spring Flower Festival"
+        },
+        {
+          "url": "https://www.ydpcf.or.kr/festival/",
+          "kind": "official",
+          "title": "Yeongdeungpo Culture Foundation: festival page"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "ran from 3 to 7 April along Yeouiseo-ro",
+          "Yeongdeungpo Culture Foundation running it"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.festival-seokchon-2026",
+      "topic": "place",
+      "claim": "Songpa-gu's 2026 Lake Cherry Blossom Festival at Seokchon Lake ran 3 to 11 April 2026, with an opening lighting ceremony at 18:00 on 3 April.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.songpa.go.kr/culture/detailInfo.do?key=3794&resrceCd=CT0155-1000031",
+          "kind": "official",
+          "title": "Songpa-gu: 2026 Lake Cherry Blossom Festival"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "Seokchon Lake cherry blossom festival ran from 3 to 11 April",
+          "a lighting ceremony on the evening of 3 April"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.yeouido-access",
+      "topic": "transport",
+      "claim": "VisitKorea says the Yeouido Cherry Blossom Road runs 1.7 km along Yunjung-ro, traffic is restricted on the main section during the festival, and the easy access is Yeouinaru Station (Line 5) or National Assembly Station (Line 9); VisitKorea's festival page counts 1,886 cherry trees.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1580801",
+          "kind": "official",
+          "title": "VisitKorea: 2026 guide to spring bloom destinations"
+        },
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=95783",
+          "kind": "official",
+          "title": "VisitKorea: Yeouido festival"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "about 1.7 km",
+          "Yeouinaru Station (Line 5) and National Assembly Station (Line 9)",
+          "VisitKorea counts 1,886 cherry trees"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.seokchon-access",
+      "topic": "transport",
+      "claim": "Seokchon Lake Park is 282 m from Exit 2 of Jamsil Station (Lines 2 and 8) per Visit Seoul.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://english.visitseoul.net/attractions/Seokchon-Lake-Park/ENP001136",
+          "kind": "official",
+          "title": "Visit Seoul: Seokchon Lake Park"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "Seokchon Lake is 282 m from Exit 2 of Jamsil Station, on Lines 2 and 8"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.arex",
+      "topic": "fare",
+      "claim": "AREX express runs non-stop to Seoul Station, about 43 min from T1 and 51 from T2, fare W13,000 (W12,500 AREX members); all-stop about 59 min (T1) and 66 (T2) to Seoul Station and calls at Hongik University Station.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.airportrailroad.com/ticket/rsv",
+          "kind": "operator",
+          "title": "AREX: express ticket fares"
+        },
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140654",
+          "kind": "official",
+          "title": "VisitKorea: from Incheon Airport to Seoul"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "about 43 minutes from Terminal 1 and about 51 from Terminal 2, for ₩13,000, or ₩12,500 for AREX members",
+          "about 59 and 66 minutes"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.metro-fare",
+      "topic": "fare",
+      "claim": "Seoul Metro's base fare is W1,550 by transport card for the first 10 km (W1,650 single-journey ticket); VisitKorea lists the Climate Card short-term pass (1 to 7 days unlimited Seoul buses and subway) at W5,000 / 8,000 / 10,000 / 15,000 / 20,000 plus a W3,000 card.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.seoulmetro.co.kr/en/page.do?menuIdx=768",
+          "kind": "operator",
+          "title": "Seoul Metro: fares"
+        },
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140663",
+          "kind": "official",
+          "title": "VisitKorea: transportation cards"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "a base fare of ₩1,550 by transport card for the first 10 km, and ₩1,650 for a single-journey ticket",
+          "from ₩5,000 for a day to ₩20,000 for a week, plus ₩3,000 for the physical card"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.vat",
+      "topic": "tax",
+      "claim": "Korea's VAT is 10% (NTS); we found no separate city tourist tax on Seoul hotel rooms; the accommodation VAT refund covers up to 30 nights for independent foreign tourists at designated hotels (breakfast only if in the rate, not service charges, no packages), with designations quarterly; a Newspim report of a tax-reform proposal would end it on 30 June 2027.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2275&cntntsId=7696",
+          "kind": "official",
+          "title": "NTS: VAT rate"
+        },
+        {
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=489&vcontsId=248765",
+          "kind": "official",
+          "title": "VisitKorea: tax refund guide (accommodation)"
+        },
+        {
+          "url": "https://www.newspim.com/news/view/20260807000669",
+          "kind": "news",
+          "title": "Newspim: reform proposal, 7 August 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "which the National Tax Service sets at 10 per cent",
+          "a room quoted at ₩300,000 before tax carries ₩30,000 of VAT",
+          "for up to 30 nights",
+          "would end the scheme on 30 June 2027"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.namsan-blossom",
+      "topic": "place",
+      "claim": "The Seoul Metropolitan Government (2018 feature) lists cherry trees along the Namsan Ring Road, by the cable car lot and around Seoul Tower, with the southern Ring Road especially beautiful in bloom.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://english.seoul.go.kr/namsans-cherry-blossoms/",
+          "kind": "official",
+          "title": "Seoul Metropolitan Government: Namsan's cherry blossoms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "the southern part of the ring road especially fine in bloom"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.gyeongbokgung-blossom",
+      "topic": "place",
+      "claim": "The Seoul Metropolitan Government's feature registered 1 May 2026 describes weeping cherry trees flowering beside the Gyeonghoeru pavilion at Gyeongbokgung.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://english.seoul.go.kr/may-a-soft-pink-spring-at-gyeongbokgung-palace/",
+          "kind": "official",
+          "title": "Seoul Metropolitan Government: a soft pink spring at Gyeongbokgung"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "weeping cherry trees flowering beside the Gyeonghoeru pavilion"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.gyeongui-forest-park",
+      "topic": "place",
+      "claim": "Visit Seoul describes the Saechanggogae section of Gyeongui Line Forest Park as peaceful, among pines and cherry blossoms; the park's Yeonnam-dong end is at Exit 3 of Hongik University Station (Line 2, Gyeongui-Jungang, Airport Railroad).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://english.visitseoul.net/nature/Gyeongui-Line-Forest-Park_/37216",
+          "kind": "official",
+          "title": "Visit Seoul: Gyeongui Line Forest Park"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "a quiet stretch of it among pines and cherry blossom at Saechanggogae"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.fairmont",
+      "topic": "hotel",
+      "claim": "Fairmont Ambassador Seoul has 308 rooms and suites at 108 Yeoui-daero, Yeongdeungpo-gu, and its site mentions riverside excursions in spring cherry blossom along Hangang Park.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/seoul/",
+          "kind": "operator",
+          "title": "Fairmont Ambassador Seoul"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "308 rooms and suites at 108 Yeoui-daero, on Yeouido"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.courtyard",
+      "topic": "hotel",
+      "claim": "Courtyard by Marriott Seoul Times Square sits in the Times Square entertainment and shopping complex in Yeongdeungpo and is described as a short subway ride from Itaewon and Myeongdong.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/selcy-courtyard-seoul-times-square/overview/",
+          "kind": "operator",
+          "title": "Courtyard by Marriott Seoul Times Square"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "inside the Times Square shopping and entertainment complex in Yeongdeungpo"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.lotte-world",
+      "topic": "hotel",
+      "claim": "Lotte Hotel World is at 240 Olympic-ro, Songpa-gu, calls itself family-friendly and has a guest-only direct gate to Lotte World Adventure.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.lottehotel.com/world-hotel/en.html",
+          "kind": "operator",
+          "title": "Lotte Hotel World"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "At 240 Olympic-ro",
+          "a guest-only gate into Lotte World Adventure"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.signiel",
+      "topic": "hotel",
+      "claim": "Signiel Seoul occupies the 76th to 101st floors of Lotte World Tower, 300 Olympic-ro, Songpa-gu.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.lottehotel.com/seoul-signiel/en.html",
+          "kind": "operator",
+          "title": "Signiel Seoul"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "On the 76th to 101st floors of the Lotte World Tower at 300 Olympic-ro"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.grand-lotte",
+      "topic": "hotel",
+      "claim": "The Grand Lotte Seoul is at 30 Eulji-ro, Jung-gu, and was renamed in August 2026 from the Lotte Hotel Seoul (hotel notice 'new brand, coming August 14, 2026'; Booking.com title 'formerly known as Lotte Hotel Seoul').",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.lottehotel.com/seoul-hotel/en.html",
+          "kind": "operator",
+          "title": "The Grand Lotte Seoul"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "At 30 Eulji-ro, renamed in August 2026 from the Lotte Hotel Seoul"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.westin-josun",
+      "topic": "hotel",
+      "claim": "The Westin Josun Seoul's own page dates its heritage to 1914 and places it near City Hall, Myeongdong and Gwanghwamun with access to Deoksugung and Gyeongbokgung; address 106 Sogong-ro per Booking.com.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/",
+          "kind": "operator",
+          "title": "The Westin Josun Seoul"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "A hotel that dates its history to 1914, at 106 Sogong-ro"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.l7-myeongdong",
+      "topic": "hotel",
+      "claim": "L7 Myeongdong by Lotte is at 137 Toegye-ro, Jung-gu, with a rooftop bar called Floating.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.lottehotel.com/myeongdong-l7/en.html",
+          "kind": "operator",
+          "title": "L7 Myeongdong by Lotte"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "At 137 Toegye-ro, with a rooftop bar called Floating"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.ibis-styles-myeongdong",
+      "topic": "hotel",
+      "claim": "ibis Styles Ambassador Seoul Myeongdong has 180 rooms at 302 Samil-daero, Jung-gu, 400 m (about 6 minutes' walk) from Myeong-dong station, with a rooftop bar open Monday to Saturday only.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/9771/index.en.shtml",
+          "kind": "operator",
+          "title": "Accor: ibis Styles Ambassador Seoul Myeongdong"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "180 rooms at 302 Samil-daero, 400 m, about a six-minute walk, from Myeong-dong Station",
+          "its rooftop bar runs Monday to Saturday only"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.nine-tree",
+      "topic": "hotel",
+      "claim": "Nine Tree by Parnas Seoul Insadong is at 49 Insadong-gil, Jongno-gu, within easy reach of Gyeongbokgung, Insadong, Gwanghwamun and Cheonggyecheon per its site.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.ninetreehotels.com/en/insadong",
+          "kind": "operator",
+          "title": "Nine Tree by Parnas Seoul Insadong"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "At 49 Insadong-gil"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.ibis-insadong",
+      "topic": "hotel",
+      "claim": "ibis Ambassador Seoul Insadong has 363 rooms at 31 Samil-daero 30-gil, Jongno-gu, 460 m (about 7 minutes' walk) from Jongno 3-ga station.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/8002/index.en.shtml",
+          "kind": "operator",
+          "title": "Accor: ibis Ambassador Seoul Insadong"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "363 rooms at 31 Samil-daero 30-gil, 460 m, about seven minutes' walk, from Jongno 3-ga station"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.ryse",
+      "topic": "hotel",
+      "claim": "RYSE, Autograph Collection calls itself a boutique lifestyle hotel in Hongdae with three restaurants; address 130 Yanghwa-ro, Mapo-gu per Booking.com.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/selsa-ryse-autograph-collection/overview/",
+          "kind": "operator",
+          "title": "RYSE, Autograph Collection"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "A boutique lifestyle hotel at 130 Yanghwa-ro, with three restaurants"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.hotel.l7-hongdae",
+      "topic": "hotel",
+      "claim": "L7 Hongdae by Lotte is at 141 Yanghwa-ro, Mapo-gu, with a rooftop pool and a rooftop bar called Floating.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.lottehotel.com/hongdae-l7/en.html",
+          "kind": "operator",
+          "title": "L7 Hongdae by Lotte"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seoul-cherry-blossom.html": [
+          "At 141 Yanghwa-ro, with a rooftop pool and a rooftop bar called Floating"
+        ]
+      }
     }
   ]
 }

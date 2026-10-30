@@ -112,6 +112,11 @@
         "articles/where-to-stay-in-prague.html": [
           "every 3 to 10 minutes and in 17 minutes",
           "puts the whole trip to the centre at about 35 minutes"
+        ],
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "every 3 to 10 minutes and in 17 minutes",
+          "PID puts the whole trip to the centre at about 35 minutes",
+          "DPP gives the bus leg as 16 minutes, every 10 to 20 minutes"
         ]
       }
     },
@@ -159,6 +164,11 @@
         "articles/where-to-stay-in-prague.html": [
           "It has its own fare: 200 CZK, or 100 CZK for children aged 6 to 15",
           "Ordinary PID tickets and the 24- and 72-hour passes are not valid on it"
+        ],
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "It costs 200 CZK, or 100 CZK for children aged 6 to 15",
+          "in about 45 minutes by PID's estimate",
+          "At Terminal 2 the AE only lets passengers off"
         ]
       }
     },
@@ -200,12 +210,22 @@
           "url": "https://pid.cz/en/travel-information/airport-and-stations/",
           "kind": "operator",
           "title": "PID: Travel to Airport and Stations"
+        },
+        {
+          "url": "https://pid.cz/en/?p=207052",
+          "kind": "operator",
+          "title": "PID: new tariff from 1 January 2026"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-prague.html": [
           "A 30-minute ticket is 36 CZK in the app or 39 CZK on paper, 90 minutes 46 or 50 CZK, 24 hours 140 or 150 CZK, and 72 hours 340 or 350 CZK",
           "46 CZK in the PID Lítačka app, 50 CZK on paper"
+        ],
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "A 30-minute ticket is 36 CZK in the app or 39 CZK on paper",
+          "24 hours 140 or 150 CZK, and 72 hours 340 or 350 CZK",
+          "luggage up to 25 × 45 × 70 cm travels free"
         ]
       }
     },
@@ -377,6 +397,11 @@
         "articles/where-to-stay-in-prague.html": [
           "A five-star Art Nouveau hotel from 1904",
           "the Deluxe rooms are 19 to 24 m²"
+        ],
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "built in 1904 and owned by the Brandejs family for three generations",
+          "the Deluxe rooms are 19 to 24 m²",
+          "the hotel serves a six-course menu on 24 December"
         ]
       }
     },
@@ -400,6 +425,10 @@
       "used_in": {
         "articles/where-to-stay-in-prague.html": [
           "designed by the architect Eva Jiřičná and opened in 2002"
+        ],
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "opened in 2002 and designed by the architect Eva Jiřičná",
+          "eight room types"
         ]
       }
     },
@@ -448,6 +477,10 @@
         "articles/where-to-stay-in-prague.html": [
           "A hotel of 51 rooms and suites",
           "the 30 m² Deluxe rooms look over either the Vrtba Garden or the hotel's Winter Garden atrium"
+        ],
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "29 Deluxe, 16 Junior Suites and 6 Signature Suites",
+          "with breakfast included daily from 7am to 11am"
         ]
       }
     },
@@ -490,11 +523,26 @@
           "url": "https://www.hoteljalta.com/en/",
           "kind": "official",
           "title": "Jalta Boutique Hotel"
+        },
+        {
+          "url": "https://www.hoteljalta.com/en/the-hotel/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        },
+        {
+          "url": "https://www.hoteljalta.com/en/location/",
+          "kind": "operator",
+          "title": "Official hotel website"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-prague.html": [
           "On Wenceslas Square at number 45"
+        ],
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "by the architect Antonín Tenzer",
+          "a Cold War museum in its fallout shelter",
+          "both offers on its site were non-refundable"
         ]
       }
     },
@@ -513,6 +561,10 @@
       "used_in": {
         "articles/where-to-stay-in-prague.html": [
           "the smaller rooms are 16 m²"
+        ],
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "its rooms are 16 m² or 20 m²",
+          "Republic Square, the Týn church, Charles Bridge and Prague Castle are all close by"
         ]
       }
     },
@@ -537,6 +589,11 @@
         "articles/where-to-stay-in-prague.html": [
           "72 rooms and suites",
           "the Economy rooms are attic rooms of the hotel's \"old standard\", with skylights"
+        ],
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "ceilings by the painter Luděk Marold, who lived and worked there",
+          "72 rooms and suites",
+          "garage parking carries an extra fee"
         ]
       }
     },
@@ -621,6 +678,326 @@
         ]
       },
       "note": "Visit Czechia's FAQ on the same page still shows last season's dates; the listing above it gives 2026/27."
+    },
+    {
+      "id": "cz.prague.christmas-markets-2026-main",
+      "topic": "place",
+      "claim": "The Old Town Square and Wenceslas Square Christmas markets in Prague run 28 November 2026 to 6 January 2027, daily 10:00-22:00, per the organiser Taiko (trhypraha.cz); the Old Town Square programme runs daily 16:00-19:00; the organiser recommends public transport (metro A, Staroměstská and Můstek).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://trhypraha.cz/en",
+          "kind": "operator",
+          "title": "Trhy Praha (Taiko): Christmas markets 2026"
+        },
+        {
+          "url": "https://trhypraha.cz/en/dates-of-markets",
+          "kind": "operator",
+          "title": "Trhy Praha: dates of markets"
+        },
+        {
+          "url": "https://trhypraha.cz/en/practical-information",
+          "kind": "operator",
+          "title": "Trhy Praha: practical information"
+        },
+        {
+          "url": "https://www.visitczechia.com/en-us/things-to-do/events/2026/11/e-christmas-markets-prague",
+          "kind": "official",
+          "title": "Visit Czechia: Christmas markets in Prague 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "28 November 2026 to 6 January 2027",
+          "Daily 10am to 10pm (organiser)",
+          "the programme on Old Town Square runs daily from 4pm to 7pm"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.christmas-markets-2026-smaller",
+      "topic": "place",
+      "claim": "Visit Czechia lists 2026 dates for Republic Square (25 Nov-24 Dec), Tylovo náměstí (26 Nov-24 Dec) and Náměstí Míru (20 Nov-24 Dec, also on the organiser's vanocnitrhy.cz page); Anděl, Jiřího z Poděbrad Square and Prague Castle are listed without dates. Hotel Anna's page gives Anděl as 27 Nov-31 Dec 2026.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.visitczechia.com/en-us/things-to-do/events/2026/11/e-christmas-markets-prague",
+          "kind": "official",
+          "title": "Visit Czechia: Christmas markets in Prague 2026"
+        },
+        {
+          "url": "https://vanocnitrhy.cz/namesti-miru",
+          "kind": "operator",
+          "title": "Vánoční trhy: Náměstí Míru"
+        },
+        {
+          "url": "https://hotelanna.cz/en/christmas-markets-2026",
+          "kind": "operator",
+          "title": "Hotel Anna: Christmas markets 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "20 November to 24 December 2026",
+          "25 November to 24 December 2026",
+          "26 November to 24 December 2026",
+          "we found no 2026 announcement for a castle market"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.christmas-info-late-november",
+      "topic": "place",
+      "claim": "Prague City Tourism's portal (prague.eu) said its Christmas 2026/2027 information would be published in late November 2026.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://prague.eu/en/christmas-in-prague",
+          "kind": "official",
+          "title": "Prague City Tourism: Christmas in Prague"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "its Christmas 2026/2027 information would appear in late November"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.wenceslas-square-xmas-hours",
+      "topic": "place",
+      "claim": "Kudy z nudy's listing gives Wenceslas Square market hours of 10:00-14:00 on 24 December and 12:00-22:00 on 25 and 26 December 2026.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.kudyznudy.cz/akce/vanocni-trhy-v-praze-staromestske-namesti-a-vacl",
+          "kind": "news",
+          "title": "Kudy z nudy: Christmas markets on Wenceslas Square 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "10am to 2pm on 24 December and noon to 10pm on 25 and 26 December"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.accommodation-fee-2026",
+      "topic": "tax",
+      "claim": "Prague's local fee for a stay (poplatek z pobytu) is 50 CZK per person for each started day of the stay, excluding the day of arrival (in practice per night); under-18s and holders of the ZTP/P card with a companion, among others, are exempt; the hotel collects it.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.praha1.cz/potrebuji-si-vyridit/odbory/poplatek-z-pobytu/",
+          "kind": "official",
+          "title": "Prague 1 district office: local fee for a stay"
+        },
+        {
+          "url": "https://www.praha5.cz/potrebuji-zaridit/mistni-poplatky/poplatek-z-pobytu/",
+          "kind": "official",
+          "title": "Prague 5 district office: local fee for a stay"
+        },
+        {
+          "url": "https://www.praha.eu/jnp/cz/potrebuji_resit/zivotni_situace/poplatky/local_fee_for_spa_or_recreational_stay.html",
+          "kind": "official",
+          "title": "Prague city portal: local fee (read via search result; page behind a bot check)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "50 CZK for each started day of the stay except the day of arrival",
+          "Under-18s are exempt"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.fee-worked-example-5-nights",
+      "topic": "tax",
+      "claim": "Worked example (our arithmetic): a couple staying five nights pays 2 x 5 x 50 = 500 CZK in local fees.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.praha1.cz/potrebuji-si-vyridit/odbory/poplatek-z-pobytu/",
+          "kind": "official",
+          "title": "Prague 1 district office: local fee for a stay"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "a couple staying five nights pays 2 × 5 × 50 = 500 CZK in fees"
+        ]
+      }
+    },
+    {
+      "id": "cz.prague.airport-fares-night",
+      "topic": "fare",
+      "claim": "PID airport fares for lines 59, 100 and night lines 907/910: 50 CZK paper, 46 CZK app, 55 CZK SMS; night lines run every 30 minutes from Terminal 2; PID says boarding for city transport is at the Terminal 2 stop because of road repairs since 3 March 2025.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+          "kind": "operator",
+          "title": "PID: airport and stations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "46 CZK in the PID Lítačka app, 50 CZK on paper, or 55 CZK by SMS",
+          "Lines 907 and 910 leave from Terminal 2 every 30 minutes",
+          "city transport boards at the Terminal 2 stop"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.u-prince",
+      "topic": "hotel",
+      "claim": "Hotel U Prince: Old Town Square 29, 24 rooms furnished with antique furniture, building of 12th-century origin, fifth-floor rooftop terrace partly covered and heated and open all year; covered garage about 500 m away; no room sizes or breakfast details on the pages.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hoteluprince.com/en/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "24 rooms furnished with antique furniture",
+          "the covered garage is about 500 metres away"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.rott",
+      "topic": "hotel",
+      "claim": "Hotel Rott: four-star, Malé náměstí 138/4, since 2001; standard room 20 m2, superior 25 m2, suite 60 m2; breakfast included; rooftop terrace built spring 2021 free for direct bookers; says no reservation needs prepayment and all cancel free until 48 hours before arrival; cancellation text still mentions pandemic measures.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotelrott.cz/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        },
+        {
+          "url": "https://www.hotelrott.cz/about-us/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "a standard room of 20 m²",
+          "can be cancelled free until 48 hours before arrival",
+          "still refers to pandemic measures"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.mosaic-house",
+      "topic": "hotel",
+      "claim": "Mosaic House Design Hotel, Odborů 4, Prague 2: 94 air-conditioned rooms; Standard 18-22 m2, Comfort 25-28 m2, Superior 18-26 m2 with balcony or terrace; on foot 12 minutes to Wenceslas Square and 15 to Old Town Square by the hotel's own list.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.mosaichouse.com/en/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        },
+        {
+          "url": "https://www.mosaichouse.com/en/rooms/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "94 air-conditioned rooms",
+          "12 minutes on foot to Wenceslas Square and 15 to Old Town Square"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.sophies-hostel",
+      "topic": "hotel",
+      "claim": "Sophie's Hostel, Melounova 2, Prague 2: dorms, pod beds, private rooms and apartments; breakfast buffet 7:00-11:00; dorms accept guests aged 18-39 only; airport directions via metro to I. P. Pavlova (line C); no walking times to markets given.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://sophieshostel.com/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        },
+        {
+          "url": "https://sophieshostel.com/faqs/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        },
+        {
+          "url": "https://sophieshostel.com/contact-us/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "a breakfast buffet from 7am to 11am",
+          "dorm beds accept guests aged 18 to 39 only"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.hotel-anna",
+      "topic": "hotel",
+      "claim": "Hotel Anna, Budečská 17, Prague 2: 26 rooms, breakfast buffet included 7:30-10:00, tram stop about 150 m, 20% direct-booking discount, reception 8:00-21:00, air conditioning a paid extra April-October; walking times: Peace Square 7 min (500 m), Wenceslas Square lower part 23 min (1.4 km), Old Town Square 35 min (2.4 km), Republic Square 35 min (2.3 km).",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://hotelanna.cz/en/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        },
+        {
+          "url": "https://hotelanna.cz/en/rooms",
+          "kind": "operator",
+          "title": "Official hotel website"
+        },
+        {
+          "url": "https://hotelanna.cz/en/location",
+          "kind": "operator",
+          "title": "Official hotel website"
+        },
+        {
+          "url": "https://hotelanna.cz/en/christmas-markets-2026",
+          "kind": "operator",
+          "title": "Official hotel website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "A 26-room hotel at Budečská 17",
+          "7 minutes (500 m) to Peace Square",
+          "reception is open 8am to 9pm"
+        ]
+      }
+    },
+    {
+      "id": "hotel.prague.hotel-mala-strana",
+      "topic": "hotel",
+      "claim": "Hotel Malá Strana, Melnická 9, Prague 5: about 50 m from the Újezd tram stop; Charles Bridge 15 min, Prague Castle 20 min, Kampa 10 min, National Theatre 14 min on foot; breakfast included 7:30-10:00; 20% direct-booking benefit.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.hotelmalastrana.cz/en/",
+          "kind": "operator",
+          "title": "Official hotel website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-prague-christmas-market.html": [
+          "about 50 metres from the Újezd tram stop",
+          "15 minutes on foot to Charles Bridge and 20 to Prague Castle"
+        ]
+      }
     }
   ]
 }

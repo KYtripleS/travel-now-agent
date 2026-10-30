@@ -1123,6 +1123,393 @@
           "1035 Legacy Way: private ensuite rooms and four-bed shared rooms"
         ]
       }
+    },
+    {
+      "id": "ca.ab.tourism-levy",
+      "topic": "tax",
+      "claim": "Alberta's tourism levy is 6% of the purchase price of accommodation booked after 31 March 2026 (4% before 1 April 2026), including cleaning, pet, extra-amenity and booking or online-broker fees; it does not apply to lodging occupied continuously by the same person for 28 days or more.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.alberta.ca/tourism-levy.aspx",
+          "kind": "official",
+          "title": "Government of Alberta: Tourism levy"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "Alberta's tourism levy on a hotel room rose from 4% to 6% on 1 April 2026",
+          "does not apply to a stay of 28 days or more by the same person",
+          "4% for bookings made before 1 April 2026"
+        ]
+      }
+    },
+    {
+      "id": "ca.gst.alberta",
+      "topic": "tax",
+      "claim": "GST is 5% in Alberta, which has 0% provincial sales tax, and is charged on hotel room rentals; the sources do not state whether GST is also charged on the tourism levy, so the worked example shows both cases.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html",
+          "kind": "official",
+          "title": "Canada Revenue Agency: GST/HST rates"
+        },
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-specific-situations/gst-hst-information-travel-convention-industry.html",
+          "kind": "official",
+          "title": "Canada Revenue Agency: GST/HST for the travel and convention industry"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "Alberta has no provincial sales tax",
+          "a C$300 room costs C$18.00 in levy and C$15.00 in GST",
+          "add C$0.90"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.park-pass",
+      "topic": "fare",
+      "claim": "Parks Canada's Banff daily admission is C$12.25 adult, C$10.75 senior, free for youth 17 and under and C$24.50 for a family or group in one vehicle; the annual Discovery Pass is C$83.50 adult; a daily pass is valid until 4:00 pm the day after purchase; a pass is required when spending time in a national park including stops in towns and villages.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://parks.canada.ca/pn-np/ab/banff/visit/tarifs-fees",
+          "kind": "official",
+          "title": "Parks Canada: Banff National Park fees"
+        },
+        {
+          "url": "https://parks.canada.ca/pn-np/ab/banff/visit/passer-passes",
+          "kind": "official",
+          "title": "Parks Canada: Banff park passes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "C$12.25 a day for an adult",
+          "valid until 4:00 pm the day after you buy it",
+          "the annual Discovery Pass costs C$83.50 for an adult"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.free-admission-window",
+      "topic": "fare",
+      "claim": "Parks Canada's 2026 free-admission window ran from 19 June to 7 September 2026, as described on Buffalo Mountain Lodge's FAQ, so winter stays need a pass.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://crmr.com/resorts/buffalo-mountain/faq/",
+          "kind": "operator",
+          "title": "Buffalo Mountain Lodge: FAQ (quotes the Parks Canada window)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "the free-admission window of 19 June to 7 September 2026 has ended"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.airporter",
+      "topic": "transport",
+      "claim": "Banff Airporter's winter 2026/27 schedule runs 15 December 2026 to 31 May 2027; adult one way is C$88.90 to Banff and C$85.90 to Canmore (return C$177.80 and C$171.80), seniors C$80.01, children 6-17 C$44.45, under 5 free; GST not included and fuel surcharges may apply; the fall fares are the same; Calgary departures run from 9:00 am to 11:00 pm and a 9:00 am departure reaches Banff at 11:00 am.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://banffairporter.com/schedule-rates/",
+          "kind": "operator",
+          "title": "Banff Airporter: schedule and rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "An adult one way to Banff is C$88.90 (return C$177.80)",
+          "Canmore is C$85.90 one way",
+          "reach Banff in 2 hours"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.brewster",
+      "topic": "transport",
+      "claim": "Brewster Express's winter schedule runs 1 November 2026 to 30 April 2027, serving Banff, Canmore and Lake Louise with drop-offs at every Banff hotel; fares start from CA$66.75 per adult one way based on a round trip, excluding taxes and fees; Calgary to Banff buses leave at 9:30, 10:30, 12:30, 14:00, 15:30, 17:00, 18:30 and 20:00 and Calgary to Lake Louise at 9:30, 10:30, 14:00, 15:30 and 18:30.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.banffjaspercollection.com/brewster-express/",
+          "kind": "operator",
+          "title": "Brewster Express: Calgary airport shuttle"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "Fares start from CA$66.75 per adult one way",
+          "1 November 2026 to 30 April 2027",
+          "Calgary to Lake Louise at 9:30 am, 10:30 am, 2:00 pm, 3:30 pm and 6:30 pm"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.roam-fares",
+      "topic": "fare",
+      "claim": "Roam Transit adult fares: Banff local single $2 and day pass $5; Canmore-Banff Route 3 single $6 and day pass $15; Banff-Lake Louise Express 8X single $12.50, reservable in fall and winter with a $3 per-booking fee; system-wide day pass $30 including a round-trip Lake Louise reservation; the Lake Louise Village to Lakeshore winter service is cash only on the bus; a fare-system change is coming in November.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://roamtransit.com/fares/",
+          "kind": "operator",
+          "title": "Roam Transit: fares"
+        },
+        {
+          "url": "https://roamtransit.com/fares/reservations/winter-reservations/",
+          "kind": "operator",
+          "title": "Roam Transit: fall and winter reservations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "Banff local routes are $2 an adult",
+          "Banff to Canmore (Route 3) is $6 or a $15 day pass",
+          "The system-wide day pass is $30",
+          "can be paid only with exact cash on the bus"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.roam-routes",
+      "topic": "transport",
+      "claim": "Roam's Route 2 runs year round between Tunnel Mountain, downtown Banff and the Fairmont Banff Springs; Route 3 runs every day between downtown Canmore and downtown Banff; Route 8X runs year round from the Banff High School Transit Hub to Lake Louise Village and the Lakeshore; Moraine Lake is closed after 13 October until spring and no Roam ticket includes it until 1 June.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://roamtransit.com/schedules-routes/route-2/",
+          "kind": "operator",
+          "title": "Roam Transit: Route 2"
+        },
+        {
+          "url": "https://roamtransit.com/schedules-routes/canmore-banff-regional-route-3/",
+          "kind": "operator",
+          "title": "Roam Transit: Route 3"
+        },
+        {
+          "url": "https://roamtransit.com/schedules-routes/lake-louise-banff-express-route-8x/",
+          "kind": "operator",
+          "title": "Roam Transit: Route 8X"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "Roam's Route 2 runs year round between Tunnel Mountain, downtown Banff and the Fairmont Banff Springs",
+          "Roam says no ticket includes access to it until 1 June"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.norquay",
+      "topic": "transport",
+      "claim": "Mt Norquay lists opening on 6 November 2026, says it is 7 minutes from Banff, and runs a free first-come, first-served winter shuttle on two routes: Route 1 from Canalta Lodge, Caribou Lodge, The Fox, The Kenrick, Ptarmigan Inn and the Banff train station, and Route 2 from the Banff Springs Hotel, Mt Royal parking lot and Scout Hall/Peaks, reaching the mountain 10 minutes after the station stop.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://banffnorquay.com/",
+          "kind": "operator",
+          "title": "Mt Norquay"
+        },
+        {
+          "url": "https://banffnorquay.com/shuttle-service/",
+          "kind": "operator",
+          "title": "Mt Norquay: shuttle service"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "Opening 6 November 2026",
+          "only 7 minutes from Banff",
+          "Route 1 picks up at Canalta Lodge, Caribou Lodge, The Fox, The Kenrick, Ptarmigan Inn and the Banff train station"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.lake-louise-ski",
+      "topic": "place",
+      "claim": "Lake Louise Ski Resort opens 6 November 2026 with a season pass valid to 2 May 2027 and lifts 9:30 am to 4:30 pm; it is about 60 km (40 minutes) west of Banff and 184 km (about 2 hours) west of Calgary; free winter shuttles between the resort and the communities of Lake Louise and Banff are listed, with winter schedules to be posted.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.skilouise.com/",
+          "kind": "operator",
+          "title": "Lake Louise Ski Resort"
+        },
+        {
+          "url": "https://www.skilouise.com/getting-here/",
+          "kind": "operator",
+          "title": "Lake Louise Ski Resort: getting here"
+        },
+        {
+          "url": "https://www.skilouise.com/getting-here/by-shuttle/",
+          "kind": "operator",
+          "title": "Lake Louise Ski Resort: by shuttle"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "Opens 6 November 2026, season pass runs to 2 May 2027",
+          "About 60 km, 40 minutes by road",
+          "Lake Louise is 60 km and about 40 minutes from Banff, and 2 hours from Calgary by road"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.sunshine",
+      "topic": "place",
+      "claim": "Banff Sunshine's 2026/27 hours list chair and conveyor lifts 9:30 am to 4:30 pm; the resort is about 8 km west of Banff on the Trans-Canada Highway; a free Sunshine Shuttle runs daily from the town of Banff; Sunshine Mountain Lodge is described as Banff's only ski-in, ski-out hotel.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.skibanff.com/the-mountain/mountain-report/hours-of-operation",
+          "kind": "operator",
+          "title": "Banff Sunshine: hours of operation"
+        },
+        {
+          "url": "https://www.skibanff.com/plan/getting-here/getting-here",
+          "kind": "operator",
+          "title": "Banff Sunshine: getting here"
+        },
+        {
+          "url": "https://www.skibanff.com/plan/getting-here/free-shuttle",
+          "kind": "operator",
+          "title": "Banff Sunshine: free shuttle"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "chair lifts 9:30 am to 4:30 pm",
+          "About 8 km west of Banff on the Trans-Canada Highway",
+          "Banff's only ski-in, ski-out hotel"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.calgary-drive",
+      "topic": "transport",
+      "claim": "Calgary International Airport is approximately 130 km from Fairmont Banff Springs, and Buffalo Mountain Lodge puts the drive at about 1.5 hours.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/en/hotels/banff/fairmont-banff-springs.html",
+          "kind": "operator",
+          "title": "Fairmont Banff Springs"
+        },
+        {
+          "url": "https://crmr.com/resorts/buffalo-mountain/getting-here/",
+          "kind": "operator",
+          "title": "Buffalo Mountain Lodge: getting here"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "Calgary International Airport is about 130 km from Banff",
+          "Buffalo Mountain Lodge puts the drive at 1.5 hours"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.canmore-access",
+      "topic": "place",
+      "claim": "Coast Canmore says Canmore is minutes from the park gates and about 20 minutes from the Town of Banff, and that staying in Canmore avoids higher prices and crowds.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.coasthotels.com/coast-canmore-hotel-and-conference-centre/local-experiences/banff-national-park-access-how-to-get-there-what-you-ll-need",
+          "kind": "operator",
+          "title": "Coast Canmore: Banff National Park access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "about 20 minutes from Banff town",
+          "staying here avoids higher prices"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.hotel.fairmont",
+      "topic": "hotel",
+      "claim": "Fairmont Banff Springs lists 724 guest rooms and suites at 405 Spray Avenue and parking available for an additional fee.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/en/hotels/banff/fairmont-banff-springs.html",
+          "kind": "operator",
+          "title": "Fairmont Banff Springs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "724 guest rooms and suites",
+          "parking is an additional fee"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.hotel.lake-louise-inn",
+      "topic": "hotel",
+      "claim": "Lake Louise Inn lists 247 rooms at 210 Village Road, a complimentary shuttle to Lake Louise Ski Resort in winter, free parking, a daily resort fee included in all reservations, and a minimum check-in age of 18.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.lakelouiseinn.com/",
+          "kind": "operator",
+          "title": "Lake Louise Inn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "247 rooms",
+          "a daily resort fee is included in all reservations"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.hotel.mount-royal",
+      "topic": "hotel",
+      "claim": "Mount Royal Hotel lists free cancellation up to 72 hours before arrival, a $10 a night parking fee and both rooftop hot tubs closed for maintenance on 30 October 2026.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.banffjaspercollection.com/hotels/mount-royal-hotel/",
+          "kind": "operator",
+          "title": "Mount Royal Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "free cancellation up to 72 hours before arrival",
+          "both rooftop hot tubs were closed for maintenance"
+        ]
+      }
+    },
+    {
+      "id": "ca.banff.hotel.coast-canmore",
+      "topic": "hotel",
+      "claim": "Coast Canmore Hotel lists parking at $10 per night per room, first come first served, and says Banff Airporter drops off at the hotel.",
+      "checked": "2026-10-30",
+      "sources": [
+        {
+          "url": "https://www.coasthotels.com/coast-canmore-hotel-and-conference-centre/",
+          "kind": "operator",
+          "title": "Coast Canmore Hotel & Conference Centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-banff.html": [
+          "parking is $10 a night per room, first come, first served",
+          "a Banff Airporter drop-off at its door"
+        ]
+      }
     }
   ]
 }

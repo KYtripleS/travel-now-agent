@@ -49,6 +49,501 @@
         }
       ],
       "checked": "2026-10-28"
+    },
+    {
+      "id": "au.melbourne.ao2027.dates",
+      "topic": "place",
+      "claim": "Australian Open 2027 runs 11 to 31 January 2027 at Melbourne Park: Opening Week 11 to 16 January, main draw from 17 January, singles finals on 30 and 31 January; Tennis Australia says dates and event details are subject to change.",
+      "sources": [
+        {
+          "url": "https://ausopen.com/articles/news/australian-open-2027-dates-announced",
+          "kind": "official",
+          "title": "Australian Open 2027 dates announced (23 March 2026)"
+        },
+        {
+          "url": "https://www.melbournepark.com.au/news/australian-open-2027-your-ultimate-guide/",
+          "kind": "operator",
+          "title": "Melbourne Park: Australian Open 2027, your ultimate guide"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "11 to 31 January 2027, at Melbourne Park",
+          "11 to 16 January",
+          "30 and 31 January"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.ao2027.tickets",
+      "topic": "price",
+      "claim": "AO 2027 tickets are on sale through Ticketmaster; Melbourne Park's guide (updated 8 October 2026) says early bird pricing runs until 12:59pm on 30 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.melbournepark.com.au/news/australian-open-2027-your-ultimate-guide/",
+          "kind": "operator",
+          "title": "Melbourne Park: Australian Open 2027, your ultimate guide"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "Tickets are sold through Ticketmaster",
+          "early bird pricing runs until 12.59pm on 30 November 2026"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.ao2026.dates",
+      "topic": "place",
+      "claim": "The 2026 Australian Open ran from 12 January to 1 February 2026, with the main draw starting on 18 January.",
+      "sources": [
+        {
+          "url": "https://www.premier.vic.gov.au/extra-services-ace-australian-open-fans",
+          "kind": "official",
+          "title": "Premier of Victoria: extra services for Australian Open fans (12 January 2026)"
+        },
+        {
+          "url": "https://transport.vic.gov.au/news-and-resources/events-and-public-transport/australian-open",
+          "kind": "official",
+          "title": "Transport Victoria: Australian Open (2026)"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "the 2026 tournament ran from 12 January to 1 February, with the main draw from 18 January"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.melbourne-park.walk",
+      "topic": "transport",
+      "claim": "Melbourne Park's 2027 guide calls public transport the quickest and easiest option and says the park is a 10-minute walk from the city centre via Birrarung Marr or the Tanderrum Bridge.",
+      "sources": [
+        {
+          "url": "https://www.melbournepark.com.au/news/australian-open-2027-your-ultimate-guide/",
+          "kind": "operator",
+          "title": "Melbourne Park: Australian Open 2027, your ultimate guide"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "a 10-minute walk from the city centre via Birrarung Marr or the Tanderrum Bridge"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.ao2026.transport",
+      "topic": "transport",
+      "claim": "For AO 2026 (12 January to 1 February 2026) Transport Victoria ran Route 70 and 70a trams to the Garden Square and Grand Slam Oval entrances, free for AO ticket holders between Docklands and John Cain Arena; walks of 10 minutes from Flinders Street Station (to the Birrarung Marr entrance), 10 minutes from Richmond Station and 11 minutes from Jolimont Station (to the Garden Square entrance); trams back to the city one hour after the end of play; the Route 246 bus along Punt Road between Clifton Hill and Elsternwick via St Kilda; and the Free Tram Zone extended on weekdays to include Melbourne Park for ticket holders on the day of the ticket. The 2027 plan was not yet published on 30 October 2026.",
+      "sources": [
+        {
+          "url": "https://transport.vic.gov.au/news-and-resources/events-and-public-transport/australian-open",
+          "kind": "official",
+          "title": "Transport Victoria: Australian Open (2026)"
+        },
+        {
+          "url": "https://www.premier.vic.gov.au/extra-services-ace-australian-open-fans",
+          "kind": "official",
+          "title": "Premier of Victoria: extra services for Australian Open fans"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "from Richmond Station, 10 minutes, or a tram to the Grand Slam Oval entrance",
+          "from Jolimont Station, 11 minutes to the Garden Square entrance",
+          "Trams ran back to the city for an hour after the end of play"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.free-tram-zone",
+      "topic": "transport",
+      "claim": "The City of Melbourne describes the Free Tram Zone as covering the central city and Docklands, bounded by Spring Street, Flinders Street and La Trobe Street, plus Victoria, William and Elizabeth Streets around the Queen Victoria Market; inside it a myki is not needed for trams, though trains and buses still need a ticket.",
+      "sources": [
+        {
+          "url": "https://whatson.melbourne.vic.gov.au/visitor-info/getting-around/public-transport",
+          "kind": "official",
+          "title": "City of Melbourne: public transport and the Free Tram Zone"
+        },
+        {
+          "url": "https://transport.vic.gov.au/tickets-and-payments/fares/metropolitan-train-tram-and-bus-fares",
+          "kind": "official",
+          "title": "Transport Victoria: metropolitan fares (Free Tram Zone: free)"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "covering the central city and Docklands, bounded by Spring Street, Flinders Street and La Trobe Street",
+          "trains and buses still need a ticket"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.fares.half-price-2026-27",
+      "topic": "fare",
+      "claim": "Until 1 January 2027 Victorian trains, trams and buses are half price: myki Money full fare two hours Zones 1+2 is $2.85 and the daily cap is $5.70 (before the discount, $11.40); SkyBus is excluded; the Victorian Government page mentions no extension beyond 1 January 2027.",
+      "sources": [
+        {
+          "url": "https://www.vic.gov.au/half-price-travel",
+          "kind": "official",
+          "title": "Victorian Government: half-price travel"
+        },
+        {
+          "url": "https://transport.vic.gov.au/tickets-and-payments/fares/metropolitan-train-tram-and-bus-fares",
+          "kind": "official",
+          "title": "Transport Victoria: metropolitan train, tram and bus fares"
+        },
+        {
+          "url": "https://transport.vic.gov.au/news-and-resources/campaigns/your-guide-to-myki-fares",
+          "kind": "official",
+          "title": "Transport Victoria: your guide to myki fares"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "The half-price period on Victorian trains, trams and buses runs until 1 January 2027",
+          "seven capped days cost up to $79.80, against $39.90 at today's cap"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.fares.contactless",
+      "topic": "fare",
+      "claim": "Contactless payments (cards, phones and watches) work for full-fare travel on myki-enabled trains, trams and buses at the same fares as myki.",
+      "sources": [
+        {
+          "url": "https://transport.vic.gov.au/tickets-and-payments/contactless",
+          "kind": "official",
+          "title": "Transport Victoria: contactless payments"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "Contactless cards, phones and watches work for full-fare travel at the same fares as myki"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.skybus.fare",
+      "topic": "fare",
+      "claim": "SkyBus Melbourne City Express adult fare is $25.90 one way, with an adult return of $43.40 shown for online purchase; it runs turn-up-and-go to Southern Cross Station (coach terminal) and a myki cannot be used on it.",
+      "sources": [
+        {
+          "url": "https://www.skybus.com.au/melbourne-city-express/fares/",
+          "kind": "operator",
+          "title": "SkyBus: Melbourne City Express fares"
+        },
+        {
+          "url": "https://www.skybus.com.au/melbourne-city-express/timetable/",
+          "kind": "operator",
+          "title": "SkyBus: Melbourne City Express timetable"
+        },
+        {
+          "url": "https://www.skybus.com.au/blog/how-to-get-to-rod-laver-arena/",
+          "kind": "operator",
+          "title": "SkyBus: how to get to Rod Laver Arena"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "SkyBus runs as a turn-up-and-go service to Southern Cross Station, and a myki can't be used on it",
+          "SkyBus, adult one way"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.skybus.southern-cross-walk",
+      "topic": "transport",
+      "claim": "SkyBus's guide to Rod Laver Arena describes walking about 500 m from Southern Cross to Spencer and Flinders Streets to catch the Route 70 tram.",
+      "sources": [
+        {
+          "url": "https://www.skybus.com.au/blog/how-to-get-to-rod-laver-arena/",
+          "kind": "operator",
+          "title": "SkyBus: how to get to Rod Laver Arena"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "walking about 500 m to Spencer and Flinders Streets to catch the Route 70 tram"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.vic.australia-day-2027",
+      "topic": "place",
+      "claim": "Australia Day 2027 is Tuesday 26 January, a Victorian public holiday.",
+      "sources": [
+        {
+          "url": "https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2027",
+          "kind": "official",
+          "title": "Business Victoria: Victorian public holidays 2027"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "Tuesday 26 January 2027 is a public holiday in Victoria"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.ao2027.travel-packages",
+      "topic": "price",
+      "claim": "Tennis Australia lists many ticket-and-travel package operators for 2027 and its travel packages page does not say whether accommodation is included.",
+      "sources": [
+        {
+          "url": "https://ausopen.com/travel-packages",
+          "kind": "official",
+          "title": "Australian Open: travel packages and accommodation"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "Tennis Australia lists many ticket-and-travel operators for 2027"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.pullman",
+      "topic": "hotel",
+      "claim": "Pullman East Melbourne: 419 rooms at 192 Wellington Parade, opposite the sporting hub overlooking the MCG and Rod Laver Arena, beside Fitzroy Gardens, per the hotel's brand site.",
+      "sources": [
+        {
+          "url": "https://pullman.accor.com/en/hotels/melbourne/9875.html",
+          "kind": "official",
+          "title": "Pullman East Melbourne"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "419 rooms at 192 Wellington Parade"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.mantra-jolimont",
+      "topic": "hotel",
+      "claim": "Mantra on Jolimont Melbourne: apartment hotel at 133 Jolimont Road, East Melbourne; Jolimont station listed 400 m away; king room of 24 m2; page suggests a high floor for views.",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/B3N7/index.en.shtml",
+          "kind": "official",
+          "title": "Mantra on Jolimont Melbourne"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "133 Jolimont Road, with Jolimont station listed 400 m away and a king room of 24 m²"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.windsor",
+      "topic": "hotel",
+      "claim": "The Hotel Windsor: heritage-listed grand hotel at 111 Spring Street, since 1883, 180 rooms and signature suites.",
+      "sources": [
+        {
+          "url": "https://www.thehotelwindsor.com.au/",
+          "kind": "official",
+          "title": "The Hotel Windsor"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "established in 1883, with 180 rooms and signature suites"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.sofitel",
+      "topic": "hotel",
+      "claim": "Sofitel Melbourne on Collins: 363 hotel rooms and suites at 25 Collins Street ('Paris-end of Collins Street'); room types with bay and river, park or city views; parking not included.",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/1902/index.en.shtml",
+          "kind": "official",
+          "title": "Sofitel Melbourne on Collins (Accor)"
+        },
+        {
+          "url": "https://sofitel.accor.com/en/hotels/1902.html",
+          "kind": "official",
+          "title": "Sofitel Melbourne on Collins"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "363 rooms and suites at 25 Collins Street"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.motley",
+      "topic": "hotel",
+      "claim": "The Motley Hotel Richmond, Tapestry Collection by Hilton: 80 rooms at 205 Bridge Road, opened 2 December 2024 as Hilton's first Tapestry Collection hotel in Australia; MCG about 1 km away; self-parking AU$35 a day.",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/melmrup-the-motley-hotel-richmond/",
+          "kind": "official",
+          "title": "The Motley Hotel Richmond (Hilton)"
+        },
+        {
+          "url": "https://stories.hilton.com/releases/hilton-opens-its-first-tapestry-collection-by-hilton-hotel-in-melbourne-with-the-motley-hotel-richmond",
+          "kind": "official",
+          "title": "Hilton newsroom: first Tapestry Collection hotel in Melbourne"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "80 rooms at 205 Bridge Road, opened on 2 December 2024"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.amora",
+      "topic": "hotel",
+      "claim": "Amora Herencia Riverwalk Melbourne (formerly Amora Hotel Riverwalk Melbourne): riverside boutique hotel at 649 Bridge Road, Richmond, with queen rooms, suites and two-bedroom apartments and The Reserve Restaurant.",
+      "sources": [
+        {
+          "url": "https://www.amorahotels.com/amora-hotel-riverwalk-melbourne",
+          "kind": "official",
+          "title": "Amora Herencia Riverwalk Melbourne"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "formerly Amora Hotel Riverwalk Melbourne"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.langham",
+      "topic": "hotel",
+      "claim": "The Langham, Melbourne: 5-star hotel at 1 Southgate Avenue, Southbank, with Langham Club, Club Rooms, Suites and a Terrace Room.",
+      "sources": [
+        {
+          "url": "https://www.langhamhotels.com/en/the-langham/melbourne/",
+          "kind": "official",
+          "title": "The Langham, Melbourne"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "A 5-star hotel at 1 Southgate Avenue on the river"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.crown-towers",
+      "topic": "hotel",
+      "claim": "Crown Towers Melbourne: on the Yarra at 8 Whiteman Street; Deluxe King room 43 m2 with bay or city views; restaurants include Nobu and Rockpool.",
+      "sources": [
+        {
+          "url": "https://www.crownhotels.com.au/melbourne/crown-towers",
+          "kind": "official",
+          "title": "Crown Towers Melbourne"
+        },
+        {
+          "url": "https://www.crownhotels.com.au/melbourne/crown-towers/rooms-suites",
+          "kind": "official",
+          "title": "Crown Towers Melbourne: rooms and suites"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "Deluxe King rooms of 43 m²"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.quay-west",
+      "topic": "hotel",
+      "claim": "Quay West Suites Melbourne: one-, two- and three-bedroom apartments at 26 Southgate Avenue, beside Hamer Hall and the NGV, magnesium mineral pool; page calls it a stroll to the sporting stadiums.",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/8804/index.en.shtml",
+          "kind": "official",
+          "title": "Quay West Suites Melbourne"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "One-, two- and three-bedroom apartments at 26 Southgate Avenue"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.movenpick",
+      "topic": "hotel",
+      "claim": "Mövenpick Hotel Melbourne on Spencer: 172 rooms and suites on floors 1 to 6 of Premier Tower at 160 Spencer Street; Southern Cross Station and tram routes on the doorstep; the hotel says it is in the free tram zone and close to the SkyBus terminal.",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/B6L9/index.en.shtml",
+          "kind": "official",
+          "title": "Mövenpick Hotel Melbourne on Spencer"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "172 rooms and suites on floors 1 to 6 of the Premier Tower at 160 Spencer Street"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.quest-docklands",
+      "topic": "hotel",
+      "claim": "Quest Docklands: 133 serviced apartments at 750 Bourke Street, studio 28 m2 and one-bedroom 54 m2, kitchen facilities, overlooking Marvel Stadium, train 0.4 km.",
+      "sources": [
+        {
+          "url": "https://www.questapartments.com.au/properties/vic/docklands/quest-docklands",
+          "kind": "official",
+          "title": "Quest Docklands"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "133 serviced apartments at 750 Bourke Street"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.hotel.prince",
+      "topic": "hotel",
+      "claim": "The Prince, St Kilda: 2 Acland Street; Boutique room about 14 m2 to Superior room 26 m2 with balcony over Fitzroy Street and Port Phillip Bay; live-music Bandroom.",
+      "sources": [
+        {
+          "url": "https://theprince.com.au/accommodation/",
+          "kind": "official",
+          "title": "The Prince St Kilda"
+        }
+      ],
+      "checked": "2026-10-30",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "from a Boutique room of about 14 m² to a Superior room of 26 m²"
+        ]
+      }
     }
   ]
 }

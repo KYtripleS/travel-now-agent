@@ -426,6 +426,34 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-los-angeles-super-bowl": dict(
+        text="For Super Bowl LXI, stay in Inglewood for the shortest trip to SoFi, or by LAX on Century Boulevard for the Metro route. The Anthem is the walkable pick, the Courtyard LAX the shuttle one, Casa del Mar the beach splurge. Inglewood's hotel tax is 15.5%.",
+        link_text="Inglewood",
+        cta=_stay_cta("where-to-stay-in-los-angeles-super-bowl", "See hotels around SoFi Stadium")),
+    "where-to-stay-in-seoul-cherry-blossom": dict(
+        text="For both festivals, stay central at City Hall or Myeong-dong: Line 2 runs direct to Jamsil and Yeouido is one change away. The Westin Josun is the splurge, L7 Myeongdong the comfortable pick, ibis Styles Ambassador Myeongdong the budget one. We found no Seoul city tourist tax; VAT is 10%.",
+        link_text="City Hall or Myeong-dong",
+        cta=_stay_cta("where-to-stay-in-seoul-cherry-blossom", "See hotels around City Hall")),
+    "where-to-stay-in-banff": dict(
+        text="For a first trip, stay in Banff town centre: restaurants on foot and Norquay's free ski shuttle. Choose Lake Louise village for Lake Louise Ski Resort, Tunnel Mountain for a quieter hillside, Canmore for a base outside the park. Alberta's levy is 6%, GST 5%, plus a Parks Canada pass.",
+        link_text="Banff town centre",
+        cta=_stay_cta("where-to-stay-in-banff", "See hotels around Banff Avenue")),
+    "where-to-stay-for-tokyo-disney-resort": dict(
+        text="For a first Tokyo Disney trip, stay at Maihama: Disney Hotel guests get Happy Entry and can buy park tickets at the hotel. Choose Sheraton Grande or Hilton Tokyo Bay by the monorail, Hotel Emion in Shin-Urayasu for value. Urayasu charges no night tax today; Tokyo's applies in Tokyo.",
+        link_text="Maihama",
+        cta=_stay_cta("where-to-stay-for-tokyo-disney-resort", "See hotels around Maihama")),
+    "where-to-stay-in-prague-christmas-market": dict(
+        text="For a first Christmas market trip, stay on Old Town Square: the biggest market is held there from 28 November. Choose Hotel Rott for a larger room, Motel One Prague-Florentinum for value, Hotel U Prince for a splurge. The local fee is 50 CZK a person a night.",
+        link_text="Old Town Square",
+        cta=_stay_cta("where-to-stay-in-prague-christmas-market", "See hotels around Old Town Square")),
+    "where-to-stay-in-vienna-christmas-market": dict(
+        text="For a first Christmas market trip, stay in the Innere Stadt: the Stephansplatz, Am Hof and Freyung markets are all within about 400 m of Hotel Wandl. Choose Wandl for the markets, The Cloud One for budget, Hotel Sacher for a splurge. The city tax is 5% of the room price before VAT.",
+        link_text="Innere Stadt",
+        cta=_stay_cta("where-to-stay-in-vienna-christmas-market", "See hotels around the Innere Stadt")),
+    "where-to-stay-in-melbourne-australian-open": dict(
+        text="For the Australian Open, stay in East Melbourne: Pullman East Melbourne faces the sports precinct and Mantra on Jolimont is the value pick, while The Hotel Windsor suits a splurge. We found no city hotel tax; check parking and fares instead.",
+        link_text="East Melbourne",
+        cta=_stay_cta("where-to-stay-in-melbourne-australian-open", "See hotels around East Melbourne")),
     "where-to-stay-in-kyoto-new-year": dict(
         text="For a first Kyoto New Year, stay in Gion: Yasaka Shrine's fires burn from about 7:30pm on 31 December, and Keihan ran all night last year. Choose OMO5 Kyoto Sanjo for value, SOWAKA for a splurge. The tax is 1,000 yen a person from a 20,000-yen room.",
         link_text="Gion",
@@ -1532,6 +1560,13 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-los-angeles-super-bowl": ["Hotel Casa del Mar", "The Anthem Los Angeles Stadium District, Tapestry by Hilton", "Courtyard by Marriott Los Angeles LAX/Century Boulevard"],
+    "where-to-stay-in-seoul-cherry-blossom": ["The Westin Josun Seoul", "L7 Myeongdong by Lotte", "ibis Styles Ambassador Seoul Myeongdong"],
+    "where-to-stay-in-banff": ["Fairmont Banff Springs", "Moose Hotel & Suites", "Banff Ptarmigan Inn"],
+    "where-to-stay-for-tokyo-disney-resort": ["Sheraton Grande Tokyo Bay Hotel", "Hilton Tokyo Bay", "Hotel Emion Tokyo Bay"],
+    "where-to-stay-in-prague-christmas-market": ["Hotel Rott", "Motel One Prague-Florentinum", "Hotel U Prince"],
+    "where-to-stay-in-vienna-christmas-market": ["Hotel Wandl", "Hotel Sacher Vienna", "The Cloud One Vienna-Staatsoper"],
+    "where-to-stay-in-melbourne-australian-open": ["The Hotel Windsor", "Pullman East Melbourne", "Mantra on Jolimont Melbourne"],
     "where-to-stay-in-kyoto-new-year": ["OMO5 Kyoto Gion by Hoshino Resorts", "OMO5 Kyoto Sanjo by Hoshino Resorts", "SOWAKA"],
     "where-to-stay-in-nuremberg-christmas-market": ["Sorat Hotel Saxx Nürnberg", "Hotel Agneshof Nürnberg", "Hotel Drei Raben"],
     "where-to-stay-in-paris-new-years-eve": ["Hôtel de Crillon", "Hôtel Lord Byron", "B&B HOTEL Paris 17 Batignolles"],
@@ -2149,6 +2184,13 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Los Angeles", "where-to-stay-in-los-angeles-super-bowl", None, None),
+        ("Seoul", "where-to-stay-in-seoul-cherry-blossom", None, None),
+        ("Banff", "where-to-stay-in-banff", None, None),
+        ("Tokyo Disney Resort", "where-to-stay-for-tokyo-disney-resort", None, None),
+        ("Prague", "where-to-stay-in-prague-christmas-market", None, None),
+        ("Vienna", "where-to-stay-in-vienna-christmas-market", None, None),
+        ("Melbourne", "where-to-stay-in-melbourne-australian-open", None, None),
         ("Kyoto", "where-to-stay-in-kyoto-new-year", None, None),
         ("Nuremberg", "where-to-stay-in-nuremberg-christmas-market", None, None),
         ("Paris", "where-to-stay-in-paris-new-years-eve", None, None),
@@ -2404,7 +2446,8 @@ STAY_POINTERS = {
         "to the ginkgo avenue and the gardens, with Rikugien's 2026 evening opening."),
     "where-to-stay-in-seoul": ("intro",
         f'Going on to Busan? <a href="{_BS}">Where to stay in Busan</a> compares Haeundae, Gwangalli, Seomyeon '
-        'and Busan Station, and names nine hotels.'),
+        'and Busan Station, and names nine hotels. Coming in April? <a href="where-to-stay-in-seoul-cherry-blossom.html">'
+        'Seoul hotels for cherry blossom season</a> matches the areas to Yeouido and Seokchon Lake.'),
     "where-to-stay-in-japan": [
         ("When to book",
         f'Booking Fukuoka for a stay by 15 December? <a href="{_FK}#the-kyushu-recovery-discount-to-15-december-2026">'
@@ -2426,7 +2469,9 @@ STAY_POINTERS = {
         f'blossom? <a href="{_TS}">Tokyo hotels near the cherry blossoms</a> has the dates and the tax change on 1 April 2027; '
         f'for late November, <a href="{_TA}">our autumn-leaves guide</a> has the 2026 garden openings; for '
         '31 December, <a href="where-to-stay-in-tokyo-new-year.html">where to stay in Tokyo for New Year</a> '
-        'covers the temple bells, the first shrine visit and the trains that night.'),
+        'covers the temple bells, the first shrine visit and the trains that night. Going to the parks? '
+        '<a href="where-to-stay-for-tokyo-disney-resort.html">Where to stay for Tokyo Disneyland</a> weighs the '
+        'Disney Hotels, Shin-Urayasu and a Tokyo base.'),
     "where-to-stay-in-kyoto": ("intro",
         f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
         'give each city, and how to move your bags between them. Here for the autumn leaves? <a '
@@ -2598,7 +2643,9 @@ STAY_POINTERS = {
         '2027</a> matches the areas to the parades and the square, with the tax rate that rises on 1 February.'),
     "where-to-stay-in-vancouver": ("intro",
         'Going on to the mountains? <a href="where-to-stay-in-whistler.html">Whistler accommodation for 2026/27</a> '
-        'compares the village bases, the Skylynx bus from the airport and the taxes on a ski week.'),
+        'compares the village bases, the Skylynx bus from the airport and the taxes on a ski week. Flying on to '
+        'Calgary? <a href="where-to-stay-in-banff.html">Where to stay in Banff</a> compares the town, Lake Louise '
+        'and Canmore, with the park pass every visitor needs.'),
     "where-to-stay-in-london": ("intro",
         'Here for 31 December? <a href="where-to-stay-in-london-new-years-eve.html">Where to stay in London for '
         'New Year’s Eve</a> matches hotels to the six ticketed fireworks areas, with the £55 and £40 tickets and '
@@ -2621,6 +2668,24 @@ STAY_POINTERS = {
     "where-to-stay-in-berlin": ("intro",
         'Here for the Christmas markets? <a href="where-to-stay-in-nuremberg-christmas-market.html">Nuremberg’s '
         'Christkindlesmarkt (27 November to 24 December 2026)</a> is about 2 hours 45 minutes from Berlin by ICE.'),
+    "where-to-stay-in-los-angeles": ("intro",
+        'Here for the Super Bowl? <a href="where-to-stay-in-los-angeles-super-bowl.html">Where to stay for '
+        'Super Bowl LXI</a> at SoFi Stadium compares Inglewood, LAX, El Segundo and Culver City by route and '
+        'hotel tax.'),
+    "where-to-stay-in-melbourne": ("intro",
+        'Here for the tennis? <a href="where-to-stay-in-melbourne-australian-open.html">Where to stay for the '
+        'Australian Open 2027</a> (11 to 31 January) sorts the areas by tram or walk to Melbourne Park.'),
+    "where-to-stay-in-vienna": ("intro",
+        'Coming for the Christmas markets? <a href="where-to-stay-in-vienna-christmas-market.html">Where to stay '
+        'in Vienna for the Christmas markets</a> has the 2026 dates and matches hotels to Rathausplatz, '
+        'Spittelberg and Schönbrunn.'),
+    "where-to-stay-in-prague": ("intro",
+        'Coming in December? <a href="where-to-stay-in-prague-christmas-market.html">Where to stay in Prague for '
+        'the Christmas markets</a> (28 November 2026 to 6 January 2027) matches hotels to Old Town Square.'),
+    "where-to-stay-in-nuremberg-christmas-market": ("intro",
+        'Making it a market trip? <a href="where-to-stay-in-prague-christmas-market.html">Prague’s markets</a> '
+        'run 28 November to 6 January, and <a href="where-to-stay-in-vienna-christmas-market.html">Vienna’s '
+        'Rathausplatz market</a> 13 November to 26 December.'),
     "where-to-stay-in-rovaniemi-christmas": ("intro",
         'Chasing the northern lights too? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in '
         'Tromsø for the northern lights</a> compares the harbour, the centre and two out-of-town lodges, with the '
