@@ -2087,10 +2087,17 @@ def add_trip_kit(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     """'Book the rest of the trip' at the end of a stay guide's airport section: a transfer, tours,
     car hire where a car makes sense, hostels and, in Japan, Rakuten Travel. Each link opens the
     partner's page for that city, checked by hand (data/*_cities.json)."""
-    if slug not in stay22.PAGES:
-        return 0
-    city = _stay_city(slug)
-    country = stay22.PAGES[slug]["address"].split(",")[-1].strip()
+    if slug in stay22.PAGES:
+        guide = slug
+    else:                                        # a city's other guides: first trip, things to do, transport
+        dest = page_dest(slug)
+        if not dest:
+            return 0
+        guide = dest[3]
+        if guide not in stay22.PAGES:
+            return 0
+    city = _stay_city(guide)
+    country = stay22.PAGES[guide]["address"].split(",")[-1].strip()
     L = trip_kit_links()
     wp = json.loads((Path(__file__).resolve().parent / "data" / "welcomepickups_cities.json").read_text())["cities"]
     if city.replace(" NSW", "") in wp:
@@ -2135,21 +2142,30 @@ def add_trip_kit(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     return 1
 
 
+def _trip_widget(soup: BeautifulSoup, kind: str, city: str, slug: str) -> Tag:
+    """A frame gy-reveal.js fills with Travelpayouts' Trip.com search form when it nears the
+    screen: flights (promo 4132, destination preset) or hotels (promo 4038)."""
+    return soup.new_tag("div", attrs={"class": "gy-tripwidget", "data-kind": kind, "data-dest": city,
+                                      "data-sub": re.sub(r"[^A-Za-z0-9]+", "_", slug) + "_" + kind})
+
+
 def add_flight_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
-    """Flights to the page's city on Trip.com and Kiwi.com, lower down (it replaced the Aviasales
-    fare map on 2026-10-31: Aviasales is little known to our readers, and two brands let each
-    reader search where they already book)."""
+    """Flights to the page's city: Trip.com's search form with the city filled in, and Kiwi.com
+    beside it (replaced the Aviasales fare map on 2026-10-31: few of our readers know Aviasales,
+    and two brands let each reader search where they already book)."""
     dest = page_dest(slug)
     if not dest:
         return 0
-    city = dest[0]
+    city = dest[0].replace(" NSW", "")
     fixed = trip_kit_links()["fixed"]
     box = soup.new_tag("aside", attrs={"class": "gy-cta gy-flights", "data-aeo": "1"})
     h = soup.new_tag("p", attrs={"class": "gy-cta-h"})
     h.string = f"Flights to {city}"
+    box.append(h)
+    box.append(_trip_widget(soup, "flights", city, slug))
     ul = soup.new_tag("ul", attrs={"class": "gy-cta-list"})
     for href, label in ((fixed["tripcom_flights"], f"Search flights to {city} on Trip.com"),
-                        (fixed["kiwi"], f"Search flights to {city} on Kiwi.com")):
+                        (fixed["kiwi"], f"Compare flights to {city} on Kiwi.com")):
         li = soup.new_tag("li")
         a = _anchor(soup, href, managed=False)
         a["class"] = "gy-cta-link"
@@ -2158,8 +2174,29 @@ def add_flight_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
         ul.append(li)
     note = soup.new_tag("p", attrs={"class": "gy-widget-note"})
     note.string = "Partner links: we may earn a commission if you book, at no extra cost to you."
-    box.extend([h, ul, note])
+    box.extend([ul, note])
     return 1 if _insert_lower(article, box) else 0
+
+
+def add_hotel_compare(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    """Under a stay guide's hotel map: Trip.com's hotel search, so a reader can check the same
+    hotel and dates on a second site."""
+    if slug not in stay22.PAGES:
+        return 0
+    m = article.select_one("aside.gy-stay-map")
+    if m is None:
+        return 0
+    box = soup.new_tag("aside", attrs={"class": "gy-cta gy-hotel-compare", "data-aeo": "1"})
+    h = soup.new_tag("p", attrs={"class": "gy-cta-h"})
+    h.string = "Compare the same hotel on Trip.com"
+    blurb = soup.new_tag("p", attrs={"class": "gy-widget-blurb"})
+    blurb.string = ("Type a hotel from this guide and your dates: prices for the same room can differ "
+                    "between booking sites.")
+    note = soup.new_tag("p", attrs={"class": "gy-widget-note"})
+    note.string = "A Trip.com search form from our partner Travelpayouts: we may earn a commission if you book."
+    box.extend([h, blurb, _trip_widget(soup, "hotels", _stay_city(slug), slug), note])
+    m.insert_after(box)
+    return 1
 
 
 def add_aviasales_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
@@ -2956,6 +2993,7 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
             out["esim_lower"] = add_esim_plans(soup, slug, article, key=dest[4])
         out["flight_map"] = add_flight_map(soup, slug, article)
         out["trip_kit"] = add_trip_kit(soup, slug, article)
+        out["hotel_compare"] = add_hotel_compare(soup, slug, article)
         out["trip"] = add_trip_reminders(soup, slug, article)
         if slug in PICKERS:
             out["picker"] = add_picker(soup, slug, article)

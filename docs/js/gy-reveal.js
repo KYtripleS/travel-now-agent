@@ -742,3 +742,58 @@ window.gySaveTrip = function (box, dep) {
     card.remove();
   });
 })();
+
+/* Trip.com search forms (add_aeo.add_flight_map, add_hotel_compare): Travelpayouts' widget
+   script goes into the frame only when the box comes within 600px of the screen. The flights form opens with the
+   guide's city as the destination and, as the origin, a hub guessed from the browser's time zone
+   (never sent anywhere but the widget). Clicks inside the widget's shadow root are counted from
+   the composed path. */
+(function () {
+  var frames = document.querySelectorAll('.gy-tripwidget');
+  if (!frames.length) return;
+  function origin() {
+    var tz = '';
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+    if (/^America\/(Toronto|Montreal|Halifax|Winnipeg)/.test(tz)) return 'Toronto';
+    if (/^America\/(Los_Angeles|Vancouver|Denver|Phoenix|Boise|Anchorage)|^Pacific\/Honolulu/.test(tz)) return 'Los Angeles';
+    if (/^America\//.test(tz)) return 'New York';
+    if (/^(Australia|Pacific\/Auckland)/.test(tz)) return 'Sydney';
+    if (/^Asia\/(Kolkata|Calcutta|Dhaka|Karachi|Kathmandu|Colombo)/.test(tz)) return 'Delhi';
+    if (/^Asia\/(Tokyo|Seoul|Shanghai|Taipei|Hong_Kong)/.test(tz)) return 'Tokyo';
+    if (/^Asia\//.test(tz)) return 'Singapore';
+    return 'London';
+  }
+  function load(f) {
+    var kind = f.getAttribute('data-kind'), sub = f.getAttribute('data-sub'), q;
+    if (kind === 'flights') {
+      var dest = f.getAttribute('data-dest'), from = origin();
+      q = 'trs=547982&shmarker=743846.' + sub + '&locale=en&curr=USD'
+        + (from !== dest ? '&default_origin=' + encodeURIComponent(from) : '')
+        + '&default_destination=' + encodeURIComponent(dest)
+        + '&powered_by=true&border_radius=0&plain=true&color_button=%230B63D6&color_button_text=%23ffffff'
+        + '&color_border=%230B63D6&promo_id=4132&campaign_id=121';
+    } else {
+      q = 'trs=547982&shmarker=743846.' + sub + '&lang=www&layout=S10391&powered_by=true&campaign_id=121&promo_id=4038';
+    }
+    var s = document.createElement('script');
+    s.async = true; s.charset = 'utf-8';
+    s.src = 'https://tpemb.com/content?' + q;
+    f.appendChild(s);
+  }
+  var waiting = Array.prototype.slice.call(frames);
+  function check() {                        // a plain scroll check: works where observers are paused
+    waiting = waiting.filter(function (f) {
+      var r = f.getBoundingClientRect();
+      if (r.top < innerHeight + 600 && r.bottom > -600) { load(f); return false; }
+      return true;
+    });
+    if (!waiting.length) removeEventListener('scroll', check);
+  }
+  addEventListener('scroll', check, { passive: true });
+  check();
+  document.addEventListener('click', function (e) {
+    var f = e.target.closest ? e.target.closest('.gy-tripwidget') : null;
+    if (!f || !window.gtag) return;
+    gtag('event', 'affiliate_click', { partner: 'tripcom', page: location.pathname, placement: f.getAttribute('data-kind') + '_widget' });
+  });
+})();

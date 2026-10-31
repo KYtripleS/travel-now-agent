@@ -5041,3 +5041,9 @@ body.gy-has-aff-bar { padding-bottom: 64px; }
 .gy-mytrip-act button { min-height: 36px; padding: 6px 14px; border: 1px solid var(--rule); border-radius: 999px; background: #fff;
   color: var(--ink); font: 600 .82rem var(--sans); cursor: pointer; }
 .gy-mytrip-act button[data-act="done"] { border-color: var(--cta); color: var(--cta); }
+
+/* Trip.com search forms (add_aeo.add_flight_map, add_hotel_compare; loaded by gy-reveal.js).
+   The widget's host element is inline by default, so it would not push the links below down. */
+.article .gy-tripwidget { margin: 8px 0 12px; min-height: 120px; }
+.article .gy-tripwidget > tp-cascoon, .article .gy-tripwidget > div { display: block; max-width: 100%; }
+.article .gy-hotel-compare { border-top: 2px solid var(--gold); border-bottom: 1px solid var(--rule); padding: 14px 0 6px; margin: 20px 0 28px; }
