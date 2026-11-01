@@ -1,0 +1,89 @@
+{
+  "_note": "Gently Yonder's writers are pen names (disclosed on editors.html). Bios describe interests and how each writes; they never claim trips, credentials or checkable facts. beats = content_classes labels or slug patterns each one signs.",
+  "authors": [
+    {
+      "id": "casey",
+      "name": "Casey",
+      "role": "Editor",
+      "photo": "images/authors/casey.jpg",
+      "bio": "Edits Gently Yonder and writes the hotel and booking guides. Likes a short walk from the station, a clear answer at the top of the page and a price that says what is included.",
+      "beats": {
+        "labels": [
+          "Stay",
+          "Booking & tours",
+          "Rail"
+        ]
+      }
+    },
+    {
+      "id": "martin",
+      "name": "Martin",
+      "role": "Practical travel",
+      "photo": "images/authors/martin.jpg",
+      "bio": "Writes the guides you read before you leave home: insurance, money, packing and airports. Reads the policy wording so you can skip to the part that matters.",
+      "beats": {
+        "labels": [
+          "Insurance",
+          "Money & costs",
+          "Packing",
+          "Gear",
+          "Airport",
+          "Entry & arrival",
+          "Trip planning"
+        ]
+      }
+    },
+    {
+      "id": "sophie",
+      "name": "Sophie",
+      "role": "Events and seasons",
+      "photo": "images/authors/sophie.jpg",
+      "bio": "Covers the dates that fill hotels: carnivals, New Year's Eve, blossom and snow seasons. Starts every guide with when, where and how early to book.",
+      "beats": {
+        "slug": "new-year|hogmanay|christmas|carnival|cherry-blossom|snow-festival|mardi-gras|songkran|keukenhof|coachella|northern-lights|super-bowl|australian-open|autumn-leaves|chinese-new-year|disney|universal"
+      }
+    },
+    {
+      "id": "mina",
+      "name": "Mina",
+      "role": "Cities and food",
+      "photo": "images/authors/mina.jpg",
+      "bio": "Writes the first-timer city guides and the food and café pages. Happiest working out which neighbourhood to wander and what to eat there.",
+      "beats": {
+        "labels": [
+          "City guide",
+          "Food",
+          "Connectivity"
+        ],
+        "slug": "first-timers|things-to-do|neighbourhood|cafe|food|street-food|night-market"
+      }
+    },
+    {
+      "id": "elena",
+      "name": "Elena",
+      "role": "Itineraries",
+      "photo": "images/authors/elena.jpg",
+      "bio": "Plans the day-by-day itineraries and the when-to-go guides, with an eye for light, views and the hour when a place is quietest.",
+      "beats": {
+        "labels": [
+          "Itinerary",
+          "When to go",
+          "Getting around"
+        ]
+      }
+    },
+    {
+      "id": "margaret",
+      "name": "Margaret",
+      "role": "History and culture",
+      "photo": "images/authors/margaret.jpg",
+      "bio": "Writes the country profiles, culture and history pieces, and the tax explainers. Reads the sources twice and likes to say what was lost and what survives.",
+      "beats": {
+        "labels": [
+          "Culture"
+        ],
+        "slug": "country-profile|tax|untranslatable|rude|etiquette"
+      }
+    }
+  ]
+}

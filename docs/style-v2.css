@@ -5047,3 +5047,18 @@ body.gy-has-aff-bar { padding-bottom: 64px; }
 .article .gy-tripwidget { margin: 8px 0 12px; min-height: 120px; }
 .article .gy-tripwidget > tp-cascoon, .article .gy-tripwidget > div { display: block; max-width: 100%; }
 .article .gy-hotel-compare { border-top: 2px solid var(--gold); border-bottom: 1px solid var(--rule); padding: 14px 0 6px; margin: 20px 0 28px; }
+
+/* ── Writers: a round portrait left of "By ..." (ops/authors.py, data/authors.json) ── */
+.article-byline { display: flex; align-items: center; gap: 12px; }
+.gy-byline-photo {
+  flex: none; width: 40px; height: 40px; border-radius: 50%; object-fit: cover;
+  box-shadow: 0 0 0 2px var(--surface, #F8F4E9), 0 0 0 3px var(--gold, #C9A84C);
+}
+.gy-writers { display: grid; gap: 22px; margin: 8px 0 36px; }
+@media (min-width: 700px) { .gy-writers { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.gy-writer { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 16px; align-items: start; scroll-margin-top: 90px; }
+.gy-writer img { width: 84px; height: 84px; border-radius: 50%; object-fit: cover;
+  box-shadow: 0 0 0 2px var(--surface, #F8F4E9), 0 0 0 3px var(--gold, #C9A84C); }
+.gy-writer h3 { margin: 2px 0 2px; font-size: 1.15rem; }
+.gy-writer-role { margin: 0 0 6px; font-family: var(--sans); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-ink, #8A6D2B); }
+.gy-writer p { margin: 0; font-size: .98rem; line-height: 1.55; }
