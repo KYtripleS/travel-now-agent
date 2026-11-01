@@ -1423,8 +1423,8 @@
     {
       "id": "gb.london.nye.availability",
       "topic": "place",
-      "claim": "On 28 October 2026 the Mayor's event page described the first of two ticket batches as on sale now, did not say it had sold out, warned that tickets sell out quickly and gave no date for the second batch; live Ticketmaster availability was not checked. Last year's final batch went on sale at noon on Monday 24 November 2025.",
-      "checked": "2026-10-28",
+      "claim": "On 28 October and again on 1 November 2026 the Mayor's event page described the first of two ticket batches as on sale now, did not say it had sold out, warned that tickets sell out quickly and gave no date for the second batch; live Ticketmaster availability was not checked. Last year's final batch went on sale at noon on Monday 24 November 2025.",
+      "checked": "2026-11-01",
       "sources": [
         {
           "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",

@@ -993,6 +993,70 @@
           "At 1 Kensington Street, Chippendale, across two heritage-listed buildings"
         ]
       }
+    },
+    {
+      "id": "au.syd.nye.fourseasons-package-2026",
+      "topic": "hotel",
+      "recheck_days": 21,
+      "claim": "Four Seasons Hotel Sydney's New Year's Eve package: stays 15 Dec 2026 to 10 Jan 2027, 3 to 14 nights including 31 Dec, daily breakfast for two, Grain Bar after-party tickets with City Rooms, full non-refundable prepayment; only Deluxe Full Harbour, Premier Full Harbour Club, Full Harbour Club Suite, One Bedroom Full Harbour Suite and the Presidential Suites see the fireworks.",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/sydney/offers/new-years-eve/",
+          "kind": "operator",
+          "title": "Four Seasons Hotel Sydney: New Year's Eve package"
+        }
+      ],
+      "checked": "2026-11-01",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "3 to 14 nights including 31 December",
+          "City Room stays add two tickets to the Grain Bar after-party"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.nye.shangrila-views-2026",
+      "topic": "hotel",
+      "recheck_days": 21,
+      "claim": "Shangri-La Sydney's New Year's Eve 2026 offer terms: minimum length of stay applies, full non-refundable non-transferable prepayment; Barangaroo rooms do not see the Bridge or Opera House, Opera City View rooms see the Opera House but not the Bridge, Harbour Bridge rooms and suites see Circular Quay and the Bridge; room allocation cannot be guaranteed.",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/sydney/shangrila/offer-detail/rooms-suites/new-years-eve-2026/",
+          "kind": "operator",
+          "title": "Shangri-La Sydney: New Year's Eve 2026"
+        }
+      ],
+      "checked": "2026-11-01",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "Barangaroo rooms see neither the Bridge nor the Opera House"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.nye.yha-w-packages-2026",
+      "topic": "hotel",
+      "recheck_days": 21,
+      "claim": "YHA Sydney Harbour's NYE package: 7-night minimum, rooftop event 6.30pm-12.30am (18+), continental breakfast, prepaid non-refundable, rooftop limited to package holders after 4pm on 31 Dec. W Sydney's NYE offer: 2-night minimum including 31 Dec 2026, A$200 credit at 29/30, breakfast for two, prepaid non-refundable.",
+      "sources": [
+        {
+          "url": "https://www.yha.com.au/promotions/campaigns/sydney-harbour-nye/",
+          "kind": "operator",
+          "title": "YHA Sydney Harbour NYE package"
+        },
+        {
+          "url": "https://www.marriott.com/offers/make-the-list-this-new-year-s-eve-off-249271/sydwh-w-sydney",
+          "kind": "operator",
+          "title": "W Sydney: New Year's Eve offer"
+        }
+      ],
+      "checked": "2026-11-01",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-new-years-eve.html": [
+          "7 nights minimum, with the rooftop New Year’s Eve event",
+          "A$200 to spend at the 29/30 rooftop bar"
+        ]
+      }
     }
   ]
 }

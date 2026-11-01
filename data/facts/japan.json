@@ -4723,7 +4723,12 @@
         }
       ],
       "checked": "2026-10-28",
-      "note": "Not yet in force. Consent from the Ministry of Internal Affairs and Communications pending; the start date is set by regulation within two years of consent."
+      "note": "Not yet in force. Consent from the Ministry of Internal Affairs and Communications pending; the start date is set by regulation within two years of consent.",
+      "used_in": {
+        "articles/where-to-stay-in-hakone.html": [
+          "an accommodation tax of ¥350 per person per night, aimed at starting in April 2028"
+        ]
+      }
     },
     {
       "id": "jp.kyoto.new-year.joya-no-kane-2026",

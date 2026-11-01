@@ -1614,3 +1614,11 @@ def map_copy(area: str) -> tuple[str, str]:
             f"The map shows the hotels and apartments around {area} that booking sites such as "
             f"Booking.com and Expedia list, with nightly prices; our own picks follow further down. "
             f"It comes from our partner Stay22, which pays us a commission if you book through it.")
+
+
+# Pages print typographic apostrophes (L’Orologio) while the keys above use straight ones
+# (L'Orologio): register each name both ways, so a hotel is never missed over a quote mark.
+for _k in list(HOTELS):
+    for _a, _b in (("'", "’"), ("’", "'")):
+        if _a in _k:
+            HOTELS.setdefault(_k.replace(_a, _b), HOTELS[_k])

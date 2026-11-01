@@ -232,6 +232,14 @@ V = {
              "day we compared, 31 October; KKday shows the price in US dollars. Every seller we checked says "
              "the order cannot be cancelled once bought, so fix your date first.",
         cta=("href", "Check Studio Passes on KKday", "https://kkday.tpx.lu/Ew1DdWsa")),
+    # its partner link sits in the tip box after the article, so it is named here by hand
+    "airport-security-bag-rules": dict(
+        text="Most full-service airlines allow one carry-on around 56 × 36 × 23 cm (22 × 14 × 9 in) plus one "
+             "personal item near 45 × 35 × 20 cm that fits under the seat. Budget carriers sell smaller "
+             "allowances, and the strictest airline on your itinerary sets your limit, so measure packed, "
+             "wheels and handles included.",
+        cta=("href", "Browse NOMATIC carry-on bags",
+             "https://www.awin1.com/cread.php?awinmid=90033&awinaffid=2926361&ued=https%3A%2F%2Fnomatic.com%2Fcollections%2Ftravel-bags")),
     "where-to-book-jeju-bus-tour": dict(
         text="Book on Klook for a small-group, English-only Jeju tour with hotel pickup and no shopping "
              "stops; on KKday for the widest choice of routes, including Udo island. Check for shopping "
@@ -1033,6 +1041,12 @@ REVISED = {
     "where-to-stay-in-sydney": "2026-10-05",                     # corrected: Great Southern works now run to 31 Jan 2027
     "is-the-weak-yen-a-bargain-or-trap": "2026-10-06",           # corrected: Himeji's ¥2,500 is for all non-residents; no Niseko foreigner price
     "where-to-stay-in-hakuba": "2026-11-01",                     # added the busiest weeks of 2026/27 (official holiday calendars)
+    "where-to-stay-in-hakone": "2026-11-01",                     # added the ¥350 accommodation tax passed for April 2028
+    "where-to-stay-in-sydney-new-years-eve": "2026-11-01",       # added fireworks-view rooms and 2026 packages from the hotels' own pages
+    "travel-medical-kit-essentials-what-actually-belongs-in-your-pouch": "2026-11-01",       # rewritten from a stub
+    "how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags": "2026-11-01",               # rewritten from a stub
+    "train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price": "2026-11-01",      # rewritten from a stub
+    "solo-travel-safety-rules-10-practical-habits-for-safer-trips": "2026-11-01",            # rewritten from a stub
 }
 
 STOP_HEADINGS = re.compile(r"frequently asked|^sources|references|liked this guide|keep reading|related reading",
@@ -2602,16 +2616,10 @@ STAY_POINTERS = {
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
         f'Choosing a base? <a href="{_KL}">Where to stay in Kuala Lumpur</a> compares four areas, from KLCC to '
         'KL Sentral, and names 12 hotels, with the catch for each.'),
-    "things-to-do-in-kuala-lumpur": ("The Petronas Towers",
-        f'To have the towers at your door, <a href="{_KL}#klcc-the-first-trip-base">stay in KLCC</a>: our guide '
-        'names four hotels there, from the Mandarin Oriental beside the towers to Traders on KLCC Park.'),
     # Taipei
     "taipei-first-timers-guide": ("where to base yourself",
         f'For the hotels, <a href="{_TP}">where to stay in Taipei</a> compares five areas, from Taipei Main '
         'Station to the hot springs of Beitou, and names 12 hotels, with the catch for each.'),
-    "things-to-do-in-taipei": ("Green edges",
-        f'To sleep by the springs, <a href="{_TP}#beitou-a-night-in-the-hot-springs">stay a night in Beitou</a>: '
-        'our guide names two hotels with a hot-spring bath in every room.'),
     "where-to-book-taipei-day-tour": ("intro",
         f'Still choosing a base? <a href="{_TP}">Where to stay in Taipei</a> compares five areas and names 12 '
         'hotels, from Taipei Main Station to Beitou.'),
@@ -2619,18 +2627,10 @@ STAY_POINTERS = {
     "singapore-first-timers-guide": ("Thoughtful Stays",
         f'Choosing a base? <a href="{_SG}">Where to stay in Singapore</a> compares five areas, from Marina Bay '
         'to Sentosa, and names 12 hotels, with the catch for each.'),
-    "things-to-do-in-singapore": ("Marina Bay and Gardens by the Bay",
-        f'To have the Bay on foot, <a href="{_SG}#marina-bay-and-the-civic-district-the-first-trip-base">stay '
-        'around Marina Bay and the Civic District</a>: our guide names three hotels there, from Raffles, open '
-        'since 1887, to Pan Pacific Singapore at Marina Square.'),
     # Hong Kong
     "hong-kong-first-timers-guide": ("The lie of the land",
         f'Choosing a side? <a href="{_HK}">Where to stay in Hong Kong</a> compares five areas on both sides '
         'of the harbour and names 12 hotels, with the catch for each.'),
-    "things-to-do-in-hong-kong": ("The harbour and the Star Ferry",
-        f'To have the Star Ferry at the end of your street, <a href="{_HK}#tsim-sha-tsui-the-first-trip-base">'
-        'stay in Tsim Sha Tsui</a>: our guide names three hotels there, from The Peninsula of 1928 to the '
-        'YMCA’s Salisbury on the same road.'),
     "hong-kong-harbour-cruises-guide": ("Practical notes",
         f'Staying near the piers? <a href="{_HK}#tsim-sha-tsui-the-first-trip-base">Where to stay in Tsim Sha '
         'Tsui</a> names three hotels there, two of them on Salisbury Road, a short walk from the Star Ferry.'),
@@ -2638,9 +2638,6 @@ STAY_POINTERS = {
     "bangkok-first-timers-guide": ("Finding Your Pace",
         f'Choosing a base? <a href="{_BK}">Where to stay in Bangkok</a> compares five areas, from Sukhumvit to '
         'the Old Town, and names 12 hotels, with the catch for each.'),
-    "things-to-do-in-bangkok": ("The Grand Palace and Wat Phra Kaew",
-        f'To be at the gates when they open, <a href="{_BK}#the-old-town-the-grand-palace-on-foot">stay in the '
-        'Old Town</a>: our guide names two hotels there, each within a short walk of Khao San Road.'),
     "bangkok-river-cruises-guide": ("Where you board",
         f'Staying by the river? <a href="{_BK}#the-riverside-grand-hotels-and-boats-to-the-temples">Where to stay '
         'on the Riverside</a> names three hotels there, two of them with their own boats to Sathorn Pier, beside '
@@ -2774,16 +2771,9 @@ STAY_POINTERS = {
         'href="where-to-stay-in-kyoto-cherry-blossom.html">the cherry blossom</a> and <a '
         f'href="{_KA}">the autumn leaves</a> match them to the seasons.'),
     # Osaka
-    "osaka-first-timers-guide": ("intro",
-        f'Minami or Kita? <a href="{_O}">Where to stay in Osaka</a> compares Namba and Umeda with three other '
-        'areas and names 10 hotels.'),
     "osaka-3-day-guide": ("intro",
         f'Choosing a base for these three days? <a href="{_O}">Where to stay in Osaka</a> compares Namba, '
         'Umeda, Nakanoshima, Tennoji and the bay, and names 10 hotels.'),
-    "things-to-do-in-osaka": ("intro",
-        f'<a href="{_O}">Where to stay in Osaka</a> compares five areas, from Namba’s food streets to the bay by '
-        f'Universal Studios Japan, and names 10 hotels; for the park itself, <a href="{_US}">where to stay for '
-        'Universal Studios Japan</a> names the seven official hotels.'),
     "osaka-or-kyoto-where-to-base": ("Accommodation and Pace",
         f'Once you’ve chosen: <a href="{_O}">Where to stay in Osaka</a> and <a href="{_K}">Where to stay in '
         'Kyoto</a> compare the areas and name the hotels.'),
@@ -2791,9 +2781,6 @@ STAY_POINTERS = {
     "seoul-first-timers-guide": ("Neighbourhoods, each with a mood",
         f'Choosing where to sleep? <a href="{_SE}">Where to stay in Seoul</a> compares five areas, from Myeongdong '
         'to Gangnam, and names 12 hotels.'),
-    "things-to-do-in-seoul": ("Myeongdong, Insadong",
-        f'Staying in one of these? <a href="{_SE}">Where to stay in Seoul</a> compares them as bases and names 12 '
-        'hotels, including a hanok in Bukchon.'),
     "how-much-does-south-korea-cost": ("Accommodation",
         f'Pricing the beds in Seoul? <a href="{_SE}">Where to stay in Seoul</a> names 12 hotels by area, from a '
         'mid-range base in Myeongdong to Signiel on the 76th floor and up. For Busan, <a '
@@ -2812,19 +2799,12 @@ STAY_POINTERS = {
         'South Yarra and names 12 hotels.'),
     "getting-around-melbourne": ("The Free Tram Zone",
         f'<a href="{_M}">Where to stay in Melbourne</a> names hotels inside the Free Tram Zone and beyond it.'),
-    "things-to-do-in-melbourne": ("intro",
-        f'<a href="{_M}">Where to stay in Melbourne</a> compares five areas, from the CBD to St Kilda, and '
-        'names 12 hotels.'),
     # Sydney
     "sydney-first-timers-guide": ("intro",
         f'<a href="{_S}">Where to stay in Sydney</a> compares six areas and names 13 hotels, including the '
         'Sheraton Grand Sydney Hyde Park, where one of us stayed in September 2026.'),
     "getting-around-sydney": ("A simple mental model",
         f'<a href="{_S}">Where to stay in Sydney</a> compares six areas, with how you get around from each.'),
-    "things-to-do-in-sydney": ("intro",
-        f'<a href="{_S}">Where to stay in Sydney</a> compares six areas, from Circular Quay to Bondi and '
-        f'Manly, and names 13 hotels. Here for New Year\'s Eve? <a href="{_NY}">Our New Year\'s Eve guide</a> '
-        'matches four areas to the fireworks.'),
     "where-to-stay-in-sapporo-snow-festival": ("intro",
         f'Skiing too? <a href="{_NS}">Where to stay in Niseko</a> compares the four resorts and Kutchan town, '
         f'with the 2026/27 season and lift prices; for Nagano, <a href="{_HB}">our Hakuba guide</a> does the same.'),

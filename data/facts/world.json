@@ -160,6 +160,1329 @@
         ]
       },
       "note": "Collected by a browsing agent; Viator WB Tokyo, Viator USS (8 listings $85-108) and Klook Burj re-checked by hand. Raw CSV was in the session scratchpad. Re-collect monthly and add a range to the page."
+    },
+    {
+      "id": "world.medical-kit.tsa-311",
+      "topic": "entry",
+      "claim": "TSA: liquids, gels, creams and pastes in carry-on must be in containers of 3.4 oz (100 ml) or less, carried in a quart-sized bag; medications are exempt.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.tsa.gov/travel/security-screening/liquids-rule",
+          "kind": "official",
+          "title": "TSA: 3-1-1 liquids rule"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "Containers of 3.4 oz (100 ml) or less, carried in a quart-sized bag"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.tsa-liquid-meds",
+      "topic": "entry",
+      "claim": "TSA allows larger amounts of medically necessary liquids, gels and aerosols in reasonable quantities for the trip, to be declared to officers at the checkpoint; carry-on and checked both allowed.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/medications-liquid",
+          "kind": "official",
+          "title": "TSA: Medications (liquid)"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "TSA allows larger amounts of medically necessary liquids, gels and aerosols in reasonable quantities for your trip"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.tsa-pills",
+      "topic": "entry",
+      "claim": "TSA lists pills and solid medications as allowed in both carry-on and checked bags.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/medications-pills",
+          "kind": "official",
+          "title": "TSA: Medications (pills)"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "both carry-on and checked bags are allowed"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.tsa-scissors",
+      "topic": "entry",
+      "claim": "TSA: scissors are allowed in carry-on if the blade is less than 4 inches from the pivot point; in checked bags, sharp objects should be sheathed or securely wrapped.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/scissors",
+          "kind": "official",
+          "title": "TSA: Scissors"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "TSA allows scissors in carry-on if the blade is less than 4 inches from the pivot point"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.tsa-checked-toiletries",
+      "topic": "entry",
+      "claim": "TSA/FAA: checked bags may hold no more than 70 oz (2 kg) or 68 fl oz (2 L) of medicinal and toiletry articles including aerosols per person, no single container above 18 oz (0.5 kg) or 17 fl oz (500 ml); aerosol nozzles must be protected.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/sunscreen",
+          "kind": "official",
+          "title": "TSA: Sunscreen"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "no more than 70 oz (2 kg) or 68 fl oz (2 litres) of medicinal and toiletry articles",
+          "no single container above 18 oz (0.5 kg) or 17 fl oz (500 ml)"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.uk-liquids",
+      "topic": "entry",
+      "claim": "UK government: at most airports liquids in hand luggage are limited to containers of 100ml or less; some airports may allow up to 2 litres; where a bag is required it holds no more than a litre and measures about 20cm x 20cm; rules depend on the airport, including connections and the return journey; containers up to 2 litres are allowed at all UK airports for essential medical purposes.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/hand-luggage-restrictions/liquids",
+          "kind": "official",
+          "title": "GOV.UK: Hand luggage restrictions, liquids"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "containers of no more than 100ml",
+          "some airports may allow up to 2 litres",
+          "Containers up to 2 litres are allowed through security at all UK airports if for essential medical purposes"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.uk-medicines",
+      "topic": "entry",
+      "claim": "UK government: tablets, capsules, syringes and inhalers are allowed in hand and hold luggage; proof (doctor's letter or prescription copy) is needed only for liquid medicine in containers over 100ml; ice packs in hand luggage: contact the airport first, allowed in hold luggage; staff may open containers.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/hand-luggage-restrictions/essential-medicines-and-medical-equipment",
+          "kind": "official",
+          "title": "GOV.UK: Essential medicines and medical equipment in hand luggage"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "tablets and capsules, syringes and inhalers are allowed in both hand and hold luggage",
+          "Proof (a doctor's letter or prescription copy) is needed only for liquid medicine in containers over 100ml",
+          "ice packs in hand luggage are a matter for the airport"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.uk-controlled",
+      "topic": "entry",
+      "claim": "UK government: keep medicine containing a controlled drug in hand luggage; carry a prescription or doctor's letter and check destination rules with its embassy; bringing medicine into the UK is limited to up to 3 months' supply, with a letter showing name, travel dates, medicine, quantity, dose, strength and prescriber's signature for non-residents; Schedule 1 drugs need a licence.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/travelling-controlled-drugs",
+          "kind": "official",
+          "title": "GOV.UK: Travelling with controlled medicines"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "Keep the medicine in your hand luggage when entering or leaving the UK",
+          "only up to 3 months' supply",
+          "Schedule 1 drugs need a licence"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.cdc-pack-smart",
+      "topic": "entry",
+      "claim": "CDC: kit should cover documents, medicines and supplies; prescriptions preferably in the original bottle; bring copies of prescriptions; some countries restrict medications, so check with the destination's embassy; antibiotics, antimalarials and antivirals only if prescribed.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://wwwnc.cdc.gov/travel/page/pack-smart",
+          "kind": "official",
+          "title": "CDC Travelers' Health: Pack Smart"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "preferably in their original bottle",
+          "some countries restrict the medicines you can bring"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.nathnac-kit",
+      "topic": "entry",
+      "claim": "NaTHNaC (TravelHealthPro): all travellers should carry a first aid kit tailored to the individual and destination; recommended contents (wound care, painkillers, antihistamines, rehydration salts, loperamide, thermometer, tweezers, prescription copy and prescriber letter with drug names); regular medicines in hand luggage with an extra supply in the hold; sterile medical kit in the hold; keep medicines in original labelled packaging; pseudoephedrine decongestants illegal in some countries; common medicines may be hard to find abroad and counterfeits exist; buying overseas discouraged as quality cannot be assured.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://travelhealthpro.org.uk/factsheets/first-aid-kits",
+          "kind": "official",
+          "title": "NaTHNaC: First aid kits"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "an extra supply in the hold in case a bag is lost on the way",
+          "nasal decongestants containing pseudoephedrine, are illegal in some countries",
+          "counterfeit drugs are an issue in some regions"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.jp-embassy-uk",
+      "topic": "entry",
+      "claim": "Embassy of Japan in the UK: narcotics such as codeine and morphine need permission irrespective of amount; non-narcotic medicines need a Yunyu Kakunin-sho if more than 1 month's supply; examples allowed up to a month's supply without permission include paracetamol, ibuprofen, aspirin, salbutamol inhalers, statins, blood pressure tablets, antibiotics, vitamins and eye drops.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.uk.emb-japan.go.jp/itpr_en/190906medication.html",
+          "kind": "official",
+          "title": "Embassy of Japan in the UK: Bringing medicines to Japan"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "you need this certificate if you intend to bring more than 1 month's supply",
+          "irrespective of the amount"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.jp-ncd",
+      "topic": "entry",
+      "claim": "Japan MHLW Narcotics Control Department: medicine containing narcotics (codeine, morphine, oxycodone, fentanyl) or stimulants' raw materials (pseudoephedrine) needs permission before entry; some medicines cannot be imported even if prescription at home; medical certificate with name, address, specific reason, drug list with doses and strengths, signature, issued within 3 months; apply at least 14 days before travel.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.ncd.mhlw.go.jp/en/application2.html",
+          "kind": "official",
+          "title": "Narcotics Control Department, MHLW: Application guidance"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "lists codeine as a narcotic and pseudoephedrine as a \"stimulants' raw material\"",
+          "at least 14 days before travel"
+        ]
+      }
+    },
+    {
+      "id": "world.medical-kit.jp-embassy-us",
+      "topic": "entry",
+      "claim": "Embassy of Japan in the US: Yunyu Kakunin-sho must be applied for and received before leaving for Japan and declared to customs on arrival; apply at least two weeks in advance.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.us.emb-japan.go.jp/itpr_en/bringing-medications-to-japan.html",
+          "kind": "official",
+          "title": "Embassy of Japan in the US: Bringing medications into Japan"
+        }
+      ],
+      "used_in": {
+        "articles/travel-medical-kit-essentials-what-actually-belongs-in-your-pouch.html": [
+          "declared to the customs officer on arrival"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.tsa-alcohol",
+      "topic": "entry",
+      "claim": "TSA: alcohol in checked bags with 24% ABV or less has no limits; more than 24% up to 70% is limited to 5 litres (1.3 gallons) per passenger in unopened retail packaging; carry-on alcohol must be in containers of 3.4 oz (100 ml) or less.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/alcoholic-beverages",
+          "kind": "official",
+          "title": "TSA: Alcoholic beverages"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "Up to 24% ABV (most beer and wine)",
+          "TSA says alcohol in carry-on bags must be in containers of 3.4 oz (100 ml) or less"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.faa-alcohol",
+      "topic": "entry",
+      "claim": "FAA PackSafe: alcohol more than 24% and up to 70% ABV in unopened retail packaging: 5 L per packaging and 5 L total per passenger; alcohol over 70% ABV is listed as a separate category.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.faa.gov/hazmat/packsafe/alcoholic-beverages",
+          "kind": "official",
+          "title": "FAA PackSafe: Alcoholic beverages"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "5 L per passenger in unopened retail packaging",
+          "the FAA lists it as a separate category"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.cfr-175-10",
+      "topic": "entry",
+      "claim": "49 CFR 175.10(a)(4): passengers may carry alcohol of not more than 24% ABV, or more than 24% and not more than 70% in unopened retail packagings not exceeding 5 litres, in carry-on or checked baggage, with a total net quantity of 5 litres per person.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.law.cornell.edu/cfr/text/49/175.10",
+          "kind": "official",
+          "title": "49 CFR 175.10"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "Not covered by the exemption in 49 CFR 175.10(a)(4)"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.caa-alcohol",
+      "topic": "entry",
+      "claim": "UK CAA: alcoholic beverages above 24% and up to 70% ABV must be in retail packaging with no more than 5 L total net quantity per person; beverages up to 24% are not restricted; passengers must contact their airline in advance for clarification.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.caa.co.uk/air-passengers/about-your-trip/baggage/safety-advice-on-what-to-pack/",
+          "kind": "official",
+          "title": "UK CAA: What items can I travel with"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "Retail packaging and no more than 5 L total net quantity per person (CAA)",
+          "passengers must contact their airline in advance for clarification"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.tsa-checked-toiletries",
+      "topic": "entry",
+      "claim": "TSA/FAA: checked bags may hold no more than 70 oz (2 kg) or 68 fl oz (2 L) of medicinal and toiletry articles including aerosols per person, no single container above 18 oz (0.5 kg) or 17 fl oz (500 ml); aerosol nozzles must be protected.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/sunscreen",
+          "kind": "official",
+          "title": "TSA: Sunscreen"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "no more than 70 oz (2 kg) or 68 fl oz (2 L) of medicinal and toiletry articles",
+          "no single container above 18 oz (0.5 kg) or 17 fl oz (500 ml)"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.uk-liquids-duty-free",
+      "topic": "entry",
+      "claim": "UK government: liquid foods such as soup, jam, honey and syrups count as liquids and should be packed in the hold if possible; duty-free liquids may go through security if sealed in a security bag at purchase with the receipt sealed in the bag and visible; the bag must not be opened until the final destination.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/hand-luggage-restrictions/liquids",
+          "kind": "official",
+          "title": "GOV.UK: Hand luggage restrictions, liquids"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "counts soup, jam, honey and syrups as liquids",
+          "You must not open the bag until you reach your final destination"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.tsa-duty-free-connecting",
+      "topic": "entry",
+      "claim": "TSA: for inbound international flights with a connection to the US, duty-free liquids over 3.4 oz (100 ml) may be in carry-on if purchased internationally, packed by the retailer in a transparent tamper-evident bag with no signs of tampering, with the original receipt and a purchase within 48 hours; TSA recommends packing them in checked baggage.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.tsa.gov/travel/security-screening/liquids-rule",
+          "kind": "official",
+          "title": "TSA: Liquids, aerosols and gels rule"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "the original receipt is present and the purchase was made within 48 hours",
+          "TSA recommends packing liquids over 3.4 oz in checked baggage even when they are in a STEB"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.eu-duty-free",
+      "topic": "entry",
+      "claim": "European Commission: duty-free liquids at EU airports and on EU carriers must be in a security tamper-evident bag with proof of purchase from that airport on that day; for certain airports in Croatia, Malaysia, Singapore and international airports in Canada or the US, proof of purchase within the preceding 36 hours.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://transport.ec.europa.eu/transport-modes/air/aviation-security/aviation-security-policy/liquids-aerosols-and-gels_en",
+          "kind": "official",
+          "title": "European Commission: Liquids, aerosols and gels"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "proof of purchase from that airport on that day",
+          "within the preceding 36 hours"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.cbp-alcohol",
+      "topic": "entry",
+      "claim": "CBP: one American litre (33.8 fl. oz.) of alcohol may be included in the returning-resident personal exemption if the traveller is at least 21, it is for personal use and it does not violate the laws of the state of arrival; states may allow more but duty and tax apply; unusual quantities may be treated as commercial.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.cbp.gov/travel/international-visitors/know-before-you-visit/customs-duty-information",
+          "kind": "official",
+          "title": "CBP: Customs duty information"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "One American litre (33.8 fl. oz.) in the returning-resident exemption if you are at least 21",
+          "CBP can treat unusual quantities as commercial"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.cbp-duty-free-shop",
+      "topic": "entry",
+      "claim": "CBP: articles sold in a customs duty-free shop are free only for the country where the shop is located and are subject to duty on entering another country if they exceed the personal exemption.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.cbp.gov/travel/international-visitors/know-before-you-visit/customs-duty-information",
+          "kind": "official",
+          "title": "CBP: Customs duty information"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "articles sold in a customs duty-free shop are free only for the country where that shop is located"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.cbp-exemptions",
+      "topic": "entry",
+      "claim": "CBP: $800 duty-free exemption for returning travellers arriving from anywhere other than a US insular possession, for accompanied baggage; $200 exemption applies if out of the country under 48 hours or more than once in a 30-day period.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.cbp.gov/travel/international-visitors/kbyg/types-exemptions",
+          "kind": "official",
+          "title": "CBP: Types of exemptions"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "$800 duty-free exemption for most arrivals"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.uk-allowances",
+      "topic": "entry",
+      "claim": "UK government (arriving in Great Britain from outside the UK): beer and cider 42 L, wine 18 L, spirits and drinks over 22% ABV 4 L, drinks up to 22% ABV (not beer, cider, wine) 9 L, other goods up to £390 (£270 by private plane or boat); over an allowance, tax and duty on all goods in that category; allowances cannot be combined with another person's.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/bringing-goods-into-uk-personal-use/arriving-in-Great-Britain",
+          "kind": "official",
+          "title": "GOV.UK: Arriving in Great Britain"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "4 litres of spirits and other drinks over 22% ABV",
+          "Up to £390 (£270 by private plane or boat)",
+          "You must declare and pay tax and duty on all goods in that category, not just the excess"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.caa-damage",
+      "topic": "entry",
+      "claim": "UK CAA: airlines are liable for lost, delayed or damaged hold luggage but no rules fix the compensation (maximum around £1,000, rarely paid in full); report damage at the airport, get a Property Irregularity Report, and claim in writing within seven days; no new-for-old; insurance excess typically around £40.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.caa.co.uk/air-passengers/about-your-trip/baggage/lost-delayed-or-damaged-baggage/",
+          "kind": "official",
+          "title": "UK CAA: Lost, delayed or damaged baggage"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "a written claim to the airline within seven days",
+          "the maximum is around £1,000"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.ba-fragile",
+      "topic": "entry",
+      "claim": "British Airways: liability for loss, delay or damage to baggage is limited unless a higher value is declared in advance; BA does not accept liability for fragile, valuable or perishable articles or baggage packed in unsuitable containers.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.britishairways.com/content/information/baggage-essentials/lost-and-damaged-baggage",
+          "kind": "operator",
+          "title": "British Airways: Delayed, lost and damaged baggage"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "does not accept liability for fragile, valuable or perishable articles"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.tsa-claims",
+      "topic": "entry",
+      "claim": "TSA: a claim can be filed if property is lost or damaged during the screening process; contact the airline for lost or missing baggage.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.tsa.gov/travel/security-screening/claims",
+          "kind": "official",
+          "title": "TSA: Claims"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "it handles claims for property damaged during screening"
+        ]
+      }
+    },
+    {
+      "id": "world.packing-liquids.usps-alcohol",
+      "topic": "entry",
+      "claim": "USPS Publication 52 section 424: intoxicating liquors and taxable liquors are nonmailable; section 42 defines intoxicating liquors as beverages with an alcohol content of 0.5 percent or more by weight.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://pe.usps.com/text/pub52/pub52c4_008.htm",
+          "kind": "official",
+          "title": "USPS Publication 52, section 424"
+        },
+        {
+          "url": "https://pe.usps.com/text/pub52/pub52c4_005.htm",
+          "kind": "official",
+          "title": "USPS Publication 52, section 42"
+        }
+      ],
+      "used_in": {
+        "articles/how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags.html": [
+          "intoxicating liquors and taxable liquors are nonmailable",
+          "0.5 per cent or more alcohol by weight"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.eurostar-paris-brussels-time",
+      "topic": "transport",
+      "claim": "Eurostar's Paris to Brussels page gives a journey time of 1 hour 22 minutes and recommends arriving 20 minutes before departure.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.eurostar.com/be-en/train/paris-to-brussels",
+          "kind": "operator",
+          "title": "Eurostar: Paris to Brussels"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "1 hour 22 minutes",
+          "arrive 20 minutes before departure"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.eurostar-london-paris-time",
+      "topic": "transport",
+      "claim": "Eurostar's London to Paris page gives a journey time of 2 hours 16 minutes, with border and security checks at St Pancras before departure.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.eurostar.com/be-en/train/london-to-paris",
+          "kind": "operator",
+          "title": "Eurostar: London to Paris"
+        },
+        {
+          "url": "https://www.eurostar.com/uk-en/train/london-to-paris",
+          "kind": "operator",
+          "title": "Eurostar: London to Paris (UK site)"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "2 hours 16 minutes",
+          "border and security checks at St Pancras"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.eurostar-luggage",
+      "topic": "entry",
+      "claim": "Eurostar's standard ticket includes two pieces of luggage and one small hand item, with no strict weight limit; maximum length 85 cm on routes to and from London and 75 cm on other routes.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.eurostar.com/uk-en/travel-info/travel-planning/luggage",
+          "kind": "operator",
+          "title": "Eurostar luggage allowance"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "two pieces of luggage and one small hand item on a standard ticket",
+          "85 cm on routes to and from London and 75 cm on its other routes"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.eurostar-liquids",
+      "topic": "entry",
+      "claim": "Eurostar says there is no volume limit on liquids on its London to Paris service.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.eurostar.com/uk-en/train/london-to-paris",
+          "kind": "operator",
+          "title": "Eurostar: London to Paris"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "no volume limit on liquids on its London to Paris service"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.db-frankfurt-cologne",
+      "topic": "transport",
+      "claim": "Deutsche Bahn's bahn.de route page (listing for 8 November 2026) shows direct ICE services Frankfurt to Cologne in 1 hour 5 minutes and states the fastest connection is 1 hour 5 minutes.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.bahn.de/reisen/view/verbindung/frankfurt/koeln.shtml",
+          "kind": "operator",
+          "title": "Deutsche Bahn: Frankfurt to Cologne"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "1 hour 5 minutes"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.db-frankfurt-amsterdam",
+      "topic": "transport",
+      "claim": "Deutsche Bahn's bahn.de route page (listing for 8 November 2026) shows direct ICE services Frankfurt to Amsterdam Centraal in 3 hours 55 minutes.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.bahn.de/reisen/view/verbindung/frankfurt/amsterdam.shtml",
+          "kind": "operator",
+          "title": "Deutsche Bahn: Frankfurt to Amsterdam"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "3 hours 55 minutes"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.db-vienna-munich",
+      "topic": "transport",
+      "claim": "Deutsche Bahn's bahn.de route page (listing for 11 November 2026) shows a direct Railjet Express Vienna to Munich in 4 hours 15 minutes.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.bahn.de/reisen/view/verbindung/wien/muenchen.shtml",
+          "kind": "operator",
+          "title": "Deutsche Bahn: Vienna to Munich"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "About 4 hours 15 minutes on the direct services listed for 11 November 2026"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.sncf-paris-lyon",
+      "topic": "transport",
+      "claim": "SNCF Connect's Paris to Lyon timetable for 2 November 2026 lists direct TGV INOUI trains at 1 hour 56 minutes and 2 hours 4 minutes.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.sncf-connect.com/en-en/train/timetables/paris/lyon",
+          "kind": "operator",
+          "title": "SNCF Connect: Paris to Lyon timetable"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "1 hour 56 minutes and 2 hours 4 minutes"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.milan-rome",
+      "topic": "transport",
+      "claim": "Trenitalia advertises non-stop Frecciarossa services Milan to Rome in 2 hours 50 minutes; Italo's page gives 2 hours 52 minutes.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.trenitalia.com/it/frecciarossa/collegamenti-frecciarossa/viaggia-tra-roma-e-milano-con-frecciarossa.html",
+          "kind": "operator",
+          "title": "Trenitalia: Frecciarossa Roma-Milano"
+        },
+        {
+          "url": "https://www.italotreno.com/en/destinations-timetable/milan-rome-tickets",
+          "kind": "operator",
+          "title": "Italo: Milan to Rome"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "2 hours 50 minutes non-stop (Trenitalia); 2 hours 52 minutes (Italo)"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.madrid-barcelona",
+      "topic": "transport",
+      "claim": "Ouigo's English route page gives Madrid to Barcelona as approximately 2.30h while its timetable page lists sample departures at 3h02 to 3h27; Renfe's route page gives no journey time.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.ouigo.com/en/madrid-barcelona-train-es",
+          "kind": "operator",
+          "title": "Ouigo: Madrid to Barcelona"
+        },
+        {
+          "url": "https://ouigo.com/es-en/train-madrid-barcelona",
+          "kind": "operator",
+          "title": "Ouigo: Madrid-Barcelona timetable"
+        },
+        {
+          "url": "https://www.renfe.com/es/en/inspirate/rutas/madrid-barcelona",
+          "kind": "operator",
+          "title": "Renfe: Madrid Barcelona train"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "Ouigo's route page says about 2 hours 30 minutes",
+          "between 3 hours 2 minutes and 3 hours 27 minutes"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.eu-rail-delay-compensation",
+      "topic": "entry",
+      "claim": "Under Regulation (EU) 2021/782 as summarised by Your Europe, a delay of 60 minutes or more at the final destination gives rights; compensation is 25% of the ticket price for a delay of 1 to 2 hours and 50% for 2 hours or more, paid within one month of request.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/rail/index_en.htm",
+          "kind": "official",
+          "title": "Your Europe: Rail passenger rights"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "Compensation of 25% of the ticket price",
+          "Compensation of 50% of the ticket price",
+          "The railway must pay compensation within one month of your request"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.eu-rail-rerouting-100min",
+      "topic": "entry",
+      "claim": "If the railway has not told the passenger about rerouting options within 100 minutes of scheduled departure, the passenger can book other public transport and be reimbursed necessary, appropriate and reasonable costs; strikes by railway staff are not extraordinary circumstances; missed connections count only on a through-ticket.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/rail/index_en.htm",
+          "kind": "official",
+          "title": "Your Europe: Rail passenger rights"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "within 100 minutes of the scheduled departure",
+          "strikes by railway staff do not count as extraordinary circumstances"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.france-short-flight-ban",
+      "topic": "entry",
+      "claim": "France's decree No. 2023-385 of 22 May 2023 bans scheduled domestic flights where a train makes the journey in under 2 hours 30 minutes; the 23 May 2023 ministry release said the immediate effect was on Nantes, Bordeaux, Lyon and Paris-Orly.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.ecologie.gouv.fr/clement-beaune-salue-publication-du-decret-qui-rend-effective-linterdiction-des-lignes-aeriennes-en",
+          "kind": "official",
+          "title": "French ecology ministry press release, 23 May 2023"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "decree No. 2023-385 of 22 May 2023",
+          "Nantes, Bordeaux, Lyon and Paris-Orly"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.france-ban-summer-2026-list",
+      "topic": "entry",
+      "claim": "The French ecology ministry page (updated 14 April 2026) lists routes liable to be banned for summer 2026 (31 March to 30 October 2026): Nantes, Lyon, Bordeaux, Rennes, Strasbourg, Lille and Reims to Paris-Orly, and Lille to Paris-Charles de Gaulle.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.ecologie.gouv.fr/politiques-publiques/interdiction-liaisons-moins-2h30",
+          "kind": "official",
+          "title": "French ecology ministry: Interdiction liaisons de moins de 2h30"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "31 March to 30 October 2026",
+          "Lille to Paris-Charles de Gaulle"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.interrail-reservations",
+      "topic": "entry",
+      "claim": "Interrail says seat reservations are mandatory for most high-speed trains and all night trains in Europe, are charged by the railway companies and are not included in the Interrail Pass.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.interrail.eu/en/support/reservations/what-are-reservations",
+          "kind": "official",
+          "title": "Interrail: What are seat reservations?"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "mandatory for most high-speed trains and all night trains in Europe",
+          "not included in the pass"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.eurail-reservation-fees",
+      "topic": "price",
+      "claim": "Eurail's indicative international reservation-fee table (read 1 November 2026) lists Paris to London on Eurostar as mandatory at 35 euros (2nd class) / 40 euros (1st), and Frecciarossa Paris to Turin/Milan as mandatory at 13 euros; the table says fees are indicative and subject to change.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.eurail.com/en/plan-your-trip/about-reservations/reservation-fees/international-train-reservation-fees",
+          "kind": "official",
+          "title": "Eurail: International train reservation fees"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "mandatory at €35 in second class and €40 in first",
+          "mandatory at €13"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.ryanair-bag-drop",
+      "topic": "entry",
+      "claim": "Ryanair's help centre says check-in and bag drop desks open at the latest 2 hours before departure and close 40 minutes before; a Ryanair release dated 27 October 2026 says from 10 November 2026 bag drop closes 60 minutes before departure at all its airports.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://help.ryanair.com/hc/en-gb/articles/12890590563857-When-does-the-check-in-desk-open-and-close-for-my-flight",
+          "kind": "operator",
+          "title": "Ryanair Help Centre: check-in desk times"
+        },
+        {
+          "url": "https://corporate.ryanair.com/news/ryanair-reminds-passengers-of-60-min-bag-drop-closure-from-tue-10-nov-airport-bag-drop-will-close-60-mins-before-departure/",
+          "kind": "operator",
+          "title": "Ryanair: 60-min bag drop closure from 10 Nov"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "open at the latest two hours before departure and close 40 minutes before",
+          "from 10 November 2026 bag drop at all its airports closes 60 minutes before departure"
+        ]
+      }
+    },
+    {
+      "id": "world.rail-vs-air.ryanair-small-bag",
+      "topic": "entry",
+      "claim": "Ryanair says all fare types include a small personal bag that must fit under the seat in front; additional allowance is by option.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://help.ryanair.com/hc/en-us/sections/12489178346129-Bag-Policies",
+          "kind": "operator",
+          "title": "Ryanair Help Centre: Bag Policies"
+        }
+      ],
+      "used_in": {
+        "articles/train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price.html": [
+          "every fare includes a small personal bag that must fit under the seat in front of you"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-solo-itinerary",
+      "topic": "entry",
+      "claim": "FCDO's solo and independent travel guidance says to leave an itinerary with someone at home and agree how regularly you will be in contact, and to consider leaving photocopies of documents such as passport and insurance policy.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/solo-and-independent-travel",
+          "kind": "official",
+          "title": "FCDO: Solo and independent travel (last updated 12 June 2025)"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "leave an itinerary with someone at home and agree how regularly you will be in contact",
+          "photocopies of important documents"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-first-night",
+      "topic": "entry",
+      "claim": "FCDO says to book accommodation before you travel, in particular the first night, because you are most vulnerable when you first arrive in a foreign country, tired and unsure of your surroundings; know the address and have alternative accommodation.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/solo-and-independent-travel",
+          "kind": "official",
+          "title": "FCDO: Solo and independent travel"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "you are most vulnerable when you first arrive in a foreign country",
+          "knowing the address of where you are staying, in case your host or transfer does not turn up"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-transport",
+      "topic": "entry",
+      "claim": "FCDO suggests arranging airport transfers before you arrive, using only official, licensed and reputable taxis, travelling in busy train carriages and avoiding hitchhiking.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/solo-and-independent-travel",
+          "kind": "official",
+          "title": "FCDO: Solo and independent travel"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "arranging airport transfers before you arrive and using only official, licensed and reputable taxis"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-accommodation",
+      "topic": "entry",
+      "claim": "FCDO lists accommodation habits: never leave the key where someone can note the room number, close windows, lock the door when inside, use the spy hole or chain, consider a door wedge, check smoke alarms and fire exits, and be aware of carbon monoxide risks.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/solo-and-independent-travel",
+          "kind": "official",
+          "title": "FCDO: Solo and independent travel"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "never leave your key where someone can note your room number",
+          "consider a door wedge to place behind the door"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-safety-over-politeness",
+      "topic": "entry",
+      "claim": "FCDO says that if you feel uncomfortable or in danger, being safe is more important than being polite, and to contact the local police if fearful for your safety or in danger.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/solo-and-independent-travel",
+          "kind": "official",
+          "title": "FCDO: Solo and independent travel"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "being safe is more important than being polite",
+          "contact the local police if you are fearful for your safety or in danger"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.step",
+      "topic": "entry",
+      "claim": "STEP is a free US State Department service that lets US citizens travelling or living abroad receive security updates from the nearest US embassy or consulate; the information lets the embassy contact the traveller in an emergency and try to reach them for family.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://ht.usembassy.gov/register-your-trip-with-the-smart-traveler-enrollment-program-step/",
+          "kind": "official",
+          "title": "US Embassy Haiti: Register your trip with STEP"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "is a free service that lets US citizens travelling or living abroad receive the latest security updates from the nearest US embassy or consulate"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-alerts",
+      "topic": "entry",
+      "claim": "FCDO tells travellers to check country travel advice and sign up to receive email alerts when it is updated.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/solo-and-independent-travel",
+          "kind": "official",
+          "title": "FCDO: Solo and independent travel"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/foreign-travel-checklist",
+          "kind": "official",
+          "title": "FCDO: Foreign travel checklist (updated 5 June 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "sign up for email alerts so you hear when it changes"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-money-backup",
+      "topic": "entry",
+      "claim": "FCDO says to make sure you can access money abroad including quickly in an emergency, ensure you can reach enough money if your main payment method fails (for example if you lose your phone and cannot complete two-factor authentication), and keep a backup of key information such as accommodation, flight and passport details.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/solo-and-independent-travel",
+          "kind": "official",
+          "title": "FCDO: Solo and independent travel"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/foreign-travel-checklist",
+          "kind": "official",
+          "title": "FCDO: Foreign travel checklist"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "make sure you can access your money while abroad",
+          "a backup plan for key information"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-france-pickpockets",
+      "topic": "entry",
+      "claim": "FCDO's France advice: pickpockets can work in gangs, one distracting while another goes into the bag; keep passport, cards and valuables in separate bags or pockets, use inside compartments, carry the bag across the body, and do not get distracted around tourist attractions and ATMs.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/france/safety-and-security",
+          "kind": "official",
+          "title": "FCDO: France safety and security"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "keep your passport, credit cards and other valuables in separate bags or pockets",
+          "carry your bag across your body rather than on your shoulder"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-thailand-cards",
+      "topic": "entry",
+      "claim": "FCDO's Thailand advice: do not lose sight of your card during transactions, there have been incidents of ATM skimming, use an ATM in a bank and protect your PIN; beware job scams that appear too good to be true.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/thailand/safety-and-security",
+          "kind": "official",
+          "title": "FCDO: Thailand safety and security"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "use an ATM in a bank and protect your PIN",
+          "job scams in Thailand that are too good to be true"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-chile-taxi",
+      "topic": "entry",
+      "claim": "FCDO's Chile advice: unlicensed taxi drivers at Santiago airport add digits to the fare (5,000,000 CLP instead of 50,000) and some passengers are persuaded to enter a PIN into a card reader whose display cannot be read.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/chile/safety-and-security",
+          "kind": "official",
+          "title": "FCDO: Chile safety and security"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "quoting 5,000,000 Chilean pesos instead of 50,000",
+          "a card reader whose display cannot be read"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-south-africa-taxi",
+      "topic": "entry",
+      "claim": "FCDO's South Africa advice: be wary of unregulated drivers posing as Uber or other taxi app drivers, especially at airports.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/south-africa/safety-and-security",
+          "kind": "official",
+          "title": "FCDO: South Africa safety and security"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "unregulated drivers posing as app-based taxis, especially at airports"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-spain-fake-police",
+      "topic": "entry",
+      "claim": "FCDO's Spain advice: thieves posing as police officers may ask to see your wallet; genuine officers will ask to see ID but will not ask for wallets or purses; buy your own drinks and keep them in sight.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security",
+          "kind": "official",
+          "title": "FCDO: Spain safety and security"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "thieves posing as police officers who ask to see your wallet",
+          "genuine officers will ask for ID but not for wallets or purses"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.spiking-guidance",
+      "topic": "entry",
+      "claim": "UK government Travel Aware guidance on spiking: keep an eye on your drink, do not drink it if it smells or tastes odd, do not accept drinks from strangers, plan your trip home, report suspected spiking to local police; methanol is sometimes illegally mixed with spirits in some parts of the world.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://travelaware.campaign.gov.uk/spiking-and-methanol-poisoning/",
+          "kind": "official",
+          "title": "Travel Aware: Spiking and methanol poisoning"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "do not accept drinks from strangers",
+          "alcohol can hit harder abroad because measures are sometimes larger"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.travelhealthpro-alcohol",
+      "topic": "entry",
+      "claim": "TravelHealthPro (NaTHNaC) says informal and illegal production of fake alcohol is common in many parts of the world, and that excessive alcohol use and illegal drugs may invalidate insurance claims; travel insurance should cover planned activities, pre-existing conditions, belongings and medical repatriation.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://travelhealthpro.org.uk/factsheets/personal-safety",
+          "kind": "official",
+          "title": "TravelHealthPro: Personal safety (26 March 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "excessive alcohol use may invalidate insurance claims",
+          "belongings and medical repatriation"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-insurance",
+      "topic": "entry",
+      "claim": "FCDO says to have appropriate travel insurance even if visiting friends and family or knowing the country well, and to check that a policy covers the places visited, the duration and planned activities.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/solo-and-independent-travel",
+          "kind": "official",
+          "title": "FCDO: Solo and independent travel"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/foreign-travel-checklist",
+          "kind": "official",
+          "title": "FCDO: Foreign travel checklist"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "even if you are visiting friends and family or know the country well",
+          "the places you will visit, how long you will be away and any planned activities"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.fcdo-24h-line",
+      "topic": "entry",
+      "claim": "FCDO's checklist says British travellers can contact the nearest British embassy, high commission or consulate, or the FCDO in London, 24 hours a day on 020 7008 5000.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/foreign-travel-checklist",
+          "kind": "official",
+          "title": "FCDO: Foreign travel checklist"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "24 hours a day on 020 7008 5000"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.eu-112",
+      "topic": "entry",
+      "claim": "112 is the European emergency number, free of charge from fixed and mobile phones everywhere in the EU, connecting to police, ambulance or fire brigade; some EU countries also keep national numbers.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/112",
+          "kind": "official",
+          "title": "European Commission: 112, the EU's emergency phone number"
+        },
+        {
+          "url": "https://europa.eu/youreurope/citizens/travel/security-and-emergencies/emergency/index_en.htm",
+          "kind": "official",
+          "title": "Your Europe: Emergencies"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "Free from fixed and mobile phones everywhere in the EU"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.us-911",
+      "topic": "entry",
+      "claim": "The US Federal Communications Commission describes 911 as the universal emergency number for telephone services in the US.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.fcc.gov/911",
+          "kind": "official",
+          "title": "FCC: 911 and E911 services"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "universal emergency number for telephone services in the US"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.uk-999",
+      "topic": "entry",
+      "claim": "The NHS says 999 is for life-threatening emergencies.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/",
+          "kind": "official",
+          "title": "NHS: When to call 999"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "The NHS says 999 is for life-threatening emergencies"
+        ]
+      }
+    },
+    {
+      "id": "world.solo-safety.japan-110-119",
+      "topic": "entry",
+      "claim": "JNTO lists 119 for fire, serious illness or injury and 110 for police in Japan, and runs a 24-hour multilingual Japan Visitor Hotline on 050-3816-2787.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.jnto.go.jp/emergency/eng/mi_guide.html",
+          "kind": "official",
+          "title": "JNTO: Emergency contact information"
+        }
+      ],
+      "used_in": {
+        "articles/solo-travel-safety-rules-10-practical-habits-for-safer-trips.html": [
+          "110 police, 119 fire and ambulance",
+          "24-hour multilingual Japan Visitor Hotline on 050-3816-2787"
+        ]
+      }
     }
   ]
 }
