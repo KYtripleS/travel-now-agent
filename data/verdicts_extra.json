@@ -1,1 +1,642 @@
-{}
+{
+ "airport-security-checklist": {
+  "text": "Run through the 12 checks before you leave: passport valid 6+ months past your return, liquids in containers of 100 ml or less in one clear bag, spare batteries in carry-on only, and nothing from the prohibited list. Rules change, so consult official sources before each journey.",
+  "cta": [
+   "href",
+   "Search flights on Trip.com",
+   "https://trip.tpx.lu/CNvcfvhD"
+  ]
+ },
+ "airport-security-liquids": {
+  "text": "Sort carry-on liquids before you leave: decant into small travel-size containers, keep them in one clear resealable bag near the top of your carry-on, and check your airport, airline and transit rules first. Run through it the night before you fly.",
+  "cta": [
+   "href",
+   "See clear liquids bags on Amazon",
+   "https://www.amazon.com/s?k=TSA+approved+clear+quart+bag+liquids&tag=packlightpick-20"
+  ]
+ },
+ "airport-security-packing-moments": {
+  "text": "Pack by when you will need things: liquids bag and laptop at the top, passport and boarding pass in one zipped pocket, charger in your personal item. Packing cubes keep clothes sorted in the middle of the bag so nothing buried has to come out at security.",
+  "cta": [
+   "href",
+   "See packing cubes on Amazon",
+   "https://www.amazon.com/s?k=compression+packing+cubes+set+travel&tag=packlightpick-20"
+  ]
+ },
+ "bali-7-day-itinerary": {
+  "text": "Split Bali rather than using one base: three nights in Ubud, a temple day heading south, two days on the south coast with a boat trip to Nusa Penida, and an unplanned last day. Book the Penida boats, Batur trek and temple tours ahead.",
+  "cta": [
+   "href",
+   "Browse Bali tours on Klook",
+   "https://klook.tpx.lu/r2Pdbbxy"
+  ]
+ },
+ "bali-first-timers-guide": {
+  "text": "Settle into one or two areas rather than seeing everything: Ubud for culture, Seminyak and Canggu for beaches, Uluwatu for cliffs, Sanur for calm. Bali has no trains or metro, so hire a private driver or use Grab and Gojek, and skip scooters unless you are experienced.",
+  "cta": [
+   "href",
+   "Pre-book a Bali driver on Welcome Pickups",
+   "https://tpx.lu/twQypnXc"
+  ]
+ },
+ "bangkok-first-timers-guide": {
+  "text": "A first visit to Bangkok rewards a slow pace. Use the BTS and MRT for distance, Chao Phraya river boats for the old city, and reach the Grand Palace and Wat Pho early, with shoulders and knees covered. An eSIM gives you data from the moment you land.",
+  "cta": [
+   "href",
+   "Check eSIM plans on Airalo",
+   "https://airalo.tpx.lu/mqKvcIur"
+  ]
+ },
+ "bangkok-river-cruises-guide": {
+  "text": "Book the sunset round (around 17:00), not the dinner round (around 19:00): on many ships it is the same vessel and buffet for roughly 30–50% less, and you still see Wat Arun go gold, then floodlit. If you only want the river, the Chao Phraya Express Boat is the best value.",
+  "cta": [
+   "href",
+   "Compare Chao Phraya cruises on Klook",
+   "https://klook.tpx.lu/TgR5Suzs"
+  ]
+ },
+ "beach-trip-packing-checklist": {
+  "text": "The beach list that matters is short: reef-safe sunscreen in 100 ml bottles if you are carry-on only, quick-dry everything, waterproof protection for phone and valuables, and after-sun care you will actually use. The checklist covers the rest.",
+  "cta": [
+   "href",
+   "See reef-safe sunscreen on Amazon",
+   "https://www.amazon.com/s?k=reef+safe+mineral+sunscreen+SPF+50+travel&tag=packlightpick-20"
+  ]
+ },
+ "capsule-wardrobe-2-week-trips": {
+  "text": "Two weeks from one carry-on works on a simple rule: every top pairs with every bottom, in one coherent colour family, with one laundry cycle mid-trip. Roughly ten core garments cover fourteen days, and packing cubes hold the system together.",
+  "cta": [
+   "href",
+   "See packing cubes on Amazon",
+   "https://www.amazon.com/dp/B08S35399Y?tag=packlightpick-20"
+  ]
+ },
+ "carry-on-packing-list-10-day-japan": {
+  "text": "Ten days in Japan fits in a carry-on: 3–4 versatile tops, 2 bottoms, one packable outer layer, broken-in walking shoes and one laundry stop midway. Add a Type A adapter, a power bank, an eSIM sorted before you fly, and yen in cash.",
+  "cta": [
+   "href",
+   "Check Japan eSIM plans on Airalo",
+   "https://airalo.tpx.lu/HwA3xouX"
+  ]
+ },
+ "cebu-first-timers-guide": {
+  "text": "Give Cebu City a day or two for its history and lechon, then head out to Kawasan Falls for canyoneering and Moalboal for diving. Oslob's whale sharks are fed, which conservationists criticise; Donsol is the unfed alternative. Go December to May.",
+  "cta": [
+   "href",
+   "Check Cebu tours on Klook",
+   "https://klook.tpx.lu/4XXI6qfl"
+  ]
+ },
+ "chiang-mai-first-timers-guide": {
+  "text": "Base yourself in or near the Old City and give Chiang Mai a few unhurried days: temples on foot, Doi Suthep early, the markets, khao soi and a cooking class. Choose a no-riding elephant sanctuary. November to February is best; March and April bring smoke haze.",
+  "cta": [
+   "href",
+   "Browse Chiang Mai tours on Klook",
+   "https://klook.tpx.lu/bCUje3Qh"
+  ]
+ },
+ "do-unlimited-travel-esims-give-unlimited-data": {
+  "text": "No, not in the way the word suggests. Unlimited travel eSIMs give unlimited data but not unlimited speed: after a daily full-speed allowance, commonly 500MB to 5GB, you are slowed for the rest of the day. Read the Fair Usage Policy; light users are often better off with a fixed plan.",
+  "cta": [
+   "href",
+   "Browse unlimited eSIM plans on Airalo",
+   "https://airalo.tpx.lu/ctddHmQY"
+  ]
+ },
+ "do-you-need-keta-south-korea": {
+  "text": "Most short-stay tourists from the 22 exempt countries, including the United States, Canada, the United Kingdom, Australia, Japan and Germany, do not need a K-ETA right now; the waiver runs through 31 December 2026. You complete an arrival card instead, so check the official portal before you fly.",
+  "cta": [
+   "href",
+   "Check Korea eSIM plans on Airalo",
+   "https://airalo.tpx.lu/zNi9fiIT"
+  ]
+ },
+ "does-tourist-tax-reduce-overtourism": {
+  "text": "Rarely, at the rates most places use. Demand for long-haul trips is too inelastic and the tax too small, so these taxes raise revenue far more than they reduce visitors. Budget for the tax; for emptier streets, timing works: shoulder seasons and early mornings beat any fee.",
+  "cta": [
+   "href",
+   "Search flights on Trip.com",
+   "https://trip.tpx.lu/CNvcfvhD"
+  ]
+ },
+ "esim-activation-and-preparation": {
+  "text": "Install your eSIM at home over Wi-Fi and activate it when you land. Installing takes two minutes on your sofa and is miserable at an airport, and activating early can start your validity clock before the trip does.",
+  "cta": [
+   "href",
+   "Browse eSIM plans on Airalo",
+   "https://airalo.tpx.lu/ctddHmQY"
+  ]
+ },
+ "everyday-carry-essentials-for-travel": {
+  "text": "A good travel EDC is small, repeatable and boring: a compact power bank, a reusable water bottle, small hand sanitiser and a few small local bills. Build the layered system once, keep it under 1.5 kg, and reuse it every trip.",
+  "cta": [
+   "href",
+   "See power banks on Amazon",
+   "https://www.amazon.com/s?k=20000mAh+USB-C+power+bank+PD+18W+travel&tag=packlightpick-20"
+  ]
+ },
+ "first-day-in-tokyo-arrival-plan": {
+  "text": "Ease in rather than rush. Set up an eSIM before you fly, take the train into the city (Narita Express or Keisei Skyliner from Narita; Keikyu Line or Tokyo Monorail from Haneda), drop your bags, then keep the afternoon low-key to let jet lag settle.",
+  "cta": [
+   "href",
+   "Check Japan eSIM plans on Airalo",
+   "https://airalo.tpx.lu/HwA3xouX"
+  ]
+ },
+ "first-international-trip-checklist": {
+  "text": "Handle a short list of unglamorous things early. Check your passport validity and entry rules on the official government source about eight weeks out, sort two cards and insurance at four weeks, install an eSIM at home at two weeks, and do a quiet run-through the night before.",
+  "cta": [
+   "href",
+   "Check eSIM plans on Airalo",
+   "https://airalo.tpx.lu/ctddHmQY"
+  ]
+ },
+ "getting-around-melbourne": {
+  "text": "Inside the Free Tram Zone in the central CBD every tram is free; beyond it, tap a contactless Visa or Mastercard or a myki. Fares are half price until 1 January 2027, with a $5.70 daily cap. There is no airport train, so SkyBus is the value pick solo.",
+  "cta": [
+   "href",
+   "Pre-book an airport driver with Welcome Pickups",
+   "https://tpx.lu/kup8od1K"
+  ]
+ },
+ "getting-around-perth": {
+  "text": "Perth is easy to get around: the free CAT buses loop the CBD (and Fremantle), a SmartRider card covers the rest of Transperth, and the Airport Line reaches the CBD in around 20 minutes. Rottnest Island needs a dedicated fast ferry, often booked as a ferry-and-bike or tour package.",
+  "cta": [
+   "href",
+   "Check Rottnest packages on Klook",
+   "https://klook.tpx.lu/g0F2U0oo"
+  ]
+ },
+ "getting-around-sydney": {
+  "text": "Sydney runs on Opal: tap a contactless bank card or phone, and daily and weekly caps limit what you pay. Trains and the Metro are the fast backbone, and a Circular Quay ferry is the best-value sightseeing. From the airport, the train suits a solo traveller; a family with luggage often does better by car.",
+  "cta": [
+   "href",
+   "Book an airport pickup with Welcome Pickups",
+   "https://tpx.lu/cJLUy5sj"
+  ]
+ },
+ "getting-around-taiwan": {
+  "text": "Buy an EasyCard on arrival: it covers the Taipei MRT, city buses, YouBike and most convenience stores. Use the High-Speed Rail for fast west-coast hops, and book HSR tickets or the foreigner-only THSR pass through KKday if you want English-language convenience.",
+  "cta": [
+   "href",
+   "Book Taiwan rail tickets on KKday",
+   "https://kkday.tpx.lu/orTk3YaH"
+  ]
+ },
+ "gion-kyoto-neighbourhood-guide": {
+  "text": "Gion rewards an unhurried early evening on foot: arrive before dusk, walk Hanami-kōji, drift north to the Shirakawa canal and finish at Yasaka Shrine. Stay on public streets and do not chase or photograph people without consent; a guided walk or arranged cultural experience is the respectful way in.",
+  "cta": [
+   "href",
+   "Book local experiences on KKday",
+   "https://kkday.tpx.lu/GEA46V5g"
+  ]
+ },
+ "halong-bay-cruises-from-hanoi": {
+  "text": "A Halong Bay day trip is mostly a bus ride: at least three hours each way, around four to eight hours on the water. With a spare night, the overnight cruise is the single biggest upgrade; for fewer crowds, choose Lan Ha or Bai Tu Long over Halong proper.",
+  "cta": [
+   "href",
+   "Compare Halong cruises on Klook",
+   "https://klook.tpx.lu/XlTveBEq"
+  ]
+ },
+ "hanoi-first-timers-guide": {
+  "text": "Start in the Old Quarter and around Hoan Kiem Lake, then add the Temple of Literature, Train Street and a water puppet show. Cross streets slowly and predictably, use Grab for longer hops, and for Ha Long Bay an overnight cruise is the classic choice.",
+  "cta": [
+   "href",
+   "See Hanoi tours and tickets on Viator",
+   "https://viator.tpx.lu/8U7WmPBx"
+  ]
+ },
+ "ho-chi-minh-city-first-timers-guide": {
+  "text": "Base yourself in District 1, around Ben Thanh Market or Nguyen Hue walking street, and use Grab for most journeys. Keep your bag slung across your body, as bag snatching by motorbike can occur, and add the Cu Chi Tunnels or Mekong Delta as day trips.",
+  "cta": [
+   "href",
+   "Check Ho Chi Minh City tours on Klook",
+   "https://klook.tpx.lu/uVw6pkVr"
+  ]
+ },
+ "hoi-an-first-timers-guide": {
+  "text": "Hoi An rewards slow, on-foot days in the largely car-free Ancient Town, lantern-lit evenings and local dishes such as cao lau, with An Bang Beach close by. My Son and Da Nang work as day trips. The Full Moon Lantern Festival falls on the 14th day of each lunar month.",
+  "cta": [
+   "href",
+   "Browse Hoi An day trips on Klook",
+   "https://klook.tpx.lu/3CGVMLEn"
+  ]
+ },
+ "hong-kong-first-timers-guide": {
+  "text": "Hong Kong is one of the easiest first trips in Asia: give it three or four days, buy an Octopus card on arrival, and add a travel eSIM. Book the Peak Tram and attraction tickets ahead, which is cheaper and skips queues. October to early December is dry, mild and clear.",
+  "cta": [
+   "href",
+   "Check Hong Kong tickets on Klook",
+   "https://klook.tpx.lu/0Dad8vMK"
+  ]
+ },
+ "hong-kong-harbour-cruises-guide": {
+  "text": "Watch the Symphony of Lights free from the shore and use the Star Ferry for the best value. If you pay for one boat, make it the late-afternoon departure around 17:00–18:00, and skip the dinner cruise: eat on land instead.",
+  "cta": [
+   "href",
+   "Compare harbour cruises on Klook",
+   "https://klook.tpx.lu/0Dad8vMK"
+  ]
+ },
+ "hotel-taxes-around-the-world-2026": {
+  "text": "Compare hotel totals, not nightly headlines. Some taxes are a percentage of the rate (New York is 14.75% plus $3.50 a room), while Paris, Tokyo and Kyoto charge per person, so check whether the booking site shows taxes before you book.",
+  "cta": [
+   "href",
+   "Search flights on Trip.com",
+   "https://trip.tpx.lu/CNvcfvhD"
+  ]
+ },
+ "how-much-cash-japan": {
+  "text": "Land with ¥10,000–20,000, not a fortune. Cities take cards and IC cards almost everywhere, but shrines, temples, small izakaya and market stalls stay cash-only. Refill at 7-Eleven ATMs, which take foreign cards, and keep a loaded Suica or Pasmo for transit.",
+  "cta": [
+   "href",
+   "Check eSIM plans on Saily",
+   "https://saily.tpx.lu/MWxQVkK6"
+  ]
+ },
+ "how-much-does-japan-cost": {
+  "text": "Japan has no single price: flights and intercity rail dominate, then roughly ¥8,000–12,000 a day per person on a careful budget, ¥15,000–25,000 mid-range and ¥30,000 upward for higher-end. A comfortable week for a couple is around ¥120,000–180,000 per person on the ground, before flights.",
+  "cta": [
+   "href",
+   "Compare flexible-date flights on Kiwi.com",
+   "https://kiwi.tpx.lu/aWC8Pyfa"
+  ]
+ },
+ "how-much-does-south-korea-cost": {
+  "text": "Excluding flights, expect roughly $50-80 a day on a budget, $100-150 mid-range and $180-250+ for comfort. Allow $800 to $1,500+ for a round-trip flight from North America or Europe. Hostel dorms run about $25-45 a night, and a subway ride costs $1.20-2.50.",
+  "cta": [
+   "href",
+   "Check Korea eSIM plans on Airalo",
+   "https://airalo.tpx.lu/zNi9fiIT"
+  ]
+ },
+ "how-to-book-international-flights": {
+  "text": "The cheapest fare and the cheapest trip are not the same thing. Before comparing prices, settle whether it is one ticket or two, where you clear immigration, whether every passport in the party is allowed in, and the real connection time. Then compare flexible dates.",
+  "cta": [
+   "href",
+   "Compare flexible-date flights on Kiwi.com",
+   "https://kiwi.tpx.lu/aWC8Pyfa"
+  ]
+ },
+ "how-to-recover-cancelled-or-delayed-flights-passenger-rights-compensation": {
+  "text": "Know your passenger rights before you fly and keep offline copies of your documents. If your flight is delayed or cancelled you can file the claim with the airline yourself; if you would rather not, AirHelp files it for you and keeps 35% of what it wins (50% if it goes to court).",
+  "cta": [
+   "href",
+   "Check a delayed flight with AirHelp",
+   "https://airhelp.tpx.lu/qP1wwuDy"
+  ]
+ },
+ "how-to-save-money-on-international-travel": {
+  "text": "Most travel savings come from three decisions: choose the local currency at every card terminal, replace roaming with an eSIM, and be flexible on dates rather than clever about booking times. Everything else on the list is refinement.",
+  "cta": [
+   "href",
+   "Compare travel eSIM plans on Airalo",
+   "https://airalo.tpx.lu/ctddHmQY"
+  ]
+ },
+ "is-accommodation-tax-double-taxation": {
+  "text": "Almost certainly not, in the technical sense: it is a specific lodging tax layered on the general consumption tax, like duty on fuel or alcohol. But the burden does compound on one stay, and Kyoto’s top tier alone reaches ¥10,000 a night. Budget for it and compare all-in prices.",
+  "cta": [
+   "href",
+   "Check Japan eSIM plans on Airalo",
+   "https://airalo.tpx.lu/ctddHmQY"
+  ]
+ },
+ "is-the-weak-yen-a-bargain-or-trap": {
+  "text": "Japan is a real bargain with a rising asterisk. With the yen near ¥161 to the dollar, spending feels about 20–30% cheaper, but lodging taxes, crowds and dual pricing claw some of it back, and a weak yen can reverse.",
+  "cta": [
+   "href",
+   "Check Japan eSIM plans on Airalo",
+   "https://airalo.tpx.lu/HwA3xouX"
+  ]
+ },
+ "japan-7-day-itinerary": {
+  "text": "Seven days covers Tokyo (three days), Kyoto (two), a day trip and a day in Osaka, with an optional Nara detour. Fly into Tokyo and home from Kansai to avoid backtracking, and price your trains against a JR Pass before buying one.",
+  "cta": [
+   "href",
+   "See Japan tickets and passes on Klook",
+   "https://klook.tpx.lu/cBgTMk7u"
+  ]
+ },
+ "japan-autumn-2026": {
+  "text": "Koyo begins in Hokkaido in late September and peaks in Tokyo and Kyoto in late November, though warmer years can push it later. Book flights and sought-after stays such as ryokan three to six months ahead, and check current foliage forecasts.",
+  "cta": [
+   "href",
+   "Search flights on Trip.com",
+   "https://trip.tpx.lu/CNvcfvhD"
+  ]
+ },
+ "japan-book-in-advance-2026": {
+  "text": "Book a few Japan spots ahead. The Ghibli Museum is reservation-only, with tickets on sale at 10:00 JST on the 10th for the following month; Shibuya Sky opens 14 days ahead and teamLab Planets up to three months. Put each on-sale date in your calendar.",
+  "cta": [
+   "href",
+   "Compare Japan tickets on Klook",
+   "https://klook.tpx.lu/cBgTMk7u"
+  ]
+ },
+ "japan-tax-free-shopping-2026-changes": {
+  "text": "From 1 November 2026 you pay the full price in store and reclaim the 10% when you leave: submit the tax-free application at a customs terminal or through Visit Japan Web before check-in. You still need ¥5,000 or more before tax at one shop in one day; budget for the 10% up front.",
+  "cta": [
+   "href",
+   "Check Japan eSIM plans on Saily",
+   "https://saily.tpx.lu/MWxQVkK6"
+  ]
+ },
+ "japan-tourist-taxes-2026": {
+  "text": "Japan has two small tourist taxes: a per-night lodging tax in a growing list of cities, and a departure tax of ¥3,000 per person, collected in your airfare. The big change is Kyoto from March 2026: mid-range rooms (¥6,000–19,999) rise from ¥200 to ¥400 per person per night.",
+  "cta": [
+   "href",
+   "Search flights to Tokyo on Trip.com",
+   "https://trip.tpx.lu/CNvcfvhD"
+  ]
+ },
+ "kuala-lumpur-first-timers-guide": {
+  "text": "For a first visit, base around Bukit Bintang, use the LRT, MRT and monorail with a Touch ‘n Go card, and take the KLIA Ekspres from the airport to KL Sentral. Book the Petronas Skybridge ahead: tickets are timed and sell out, especially around sunset.",
+  "cta": [
+   "href",
+   "Browse Kuala Lumpur tickets on Klook",
+   "https://klook.tpx.lu/EgCIq6gO"
+  ]
+ },
+ "kyoto-autumn-2026": {
+  "text": "Kyoto’s colours usually peak from late November into the first week or two of December, so check foliage forecasts nearer your dates. Book lodging six to nine months ahead, reach the famous temples at opening, and use the subway or walk, as buses get crowded.",
+  "cta": [
+   "href",
+   "Pre-book Kyoto tickets on Klook",
+   "https://klook.tpx.lu/j6K4JWTb"
+  ]
+ },
+ "lost-luggage-recovery-strategy-first-48-hours": {
+  "text": "File a Property Irregularity Report at the airport, keep your boarding passes and baggage tags, buy essentials and save every receipt, and contact the airline daily while you track the bag online. An Apple AirTag in the checked bag lets you track it yourself.",
+  "cta": [
+   "href",
+   "See Apple AirTag on Amazon",
+   "https://www.amazon.com/dp/B0GJTFXNRX?tag=packlightpick-20"
+  ]
+ },
+ "luggage-storage-tokyo": {
+  "text": "Coin lockers at stations are the first option, but the larger ones fill fast at peak times. Hotel front desks usually hold guests’ bags free, third-party shop networks suit longer storage, and takkyubin delivery sends bags ahead. Keep a backup plan.",
+  "cta": [
+   "href",
+   "Book day-luggage storage with Radical Storage",
+   "https://radicalstorage.tpx.lu/WpAnAq1c"
+  ]
+ },
+ "luggage-weight-management-before-you-fly": {
+  "text": "Overweight baggage fees are avoidable with a scale and discipline. Weigh your fully packed bags at home with a portable digital luggage scale, wear your heaviest items on the plane, and ship non-essentials home. Run through the checklist the day before you leave.",
+  "cta": [
+   "href",
+   "See packing cubes on Amazon",
+   "https://www.amazon.com/dp/B08S35399Y?tag=packlightpick-20"
+  ]
+ },
+ "manila-first-timers-guide": {
+  "text": "Manila rewards patience. Anchor your days in Intramuros, the free National Museums and a Binondo food walk, clustering by area because traffic is punishing. Corregidor and Tagaytay are simplest booked ahead, and the comfortable months are roughly November to April.",
+  "cta": [
+   "href",
+   "Check Manila day trips on Klook",
+   "https://klook.tpx.lu/fIYPbQ0u"
+  ]
+ },
+ "melbourne-airport-to-city": {
+  "text": "There is no airport train. Solo, take the SkyBus to Southern Cross: about AU$24, 30–45 minutes, running around the clock. Three or more, a rideshare costs roughly the same as three bus fares. On a tight budget, the 901 bus plus train costs AU$2.85 under half-price fares until 1 January 2027.",
+  "cta": [
+   "href",
+   "Book SkyBus tickets on Klook",
+   "https://klook.tpx.lu/qA1eR4jI"
+  ]
+ },
+ "melbourne-first-timers-guide": {
+  "text": "Melbourne offers atmosphere rather than one postcard sight: wander the CBD laneways for coffee and street art, hop the trams (free within the CBD’s Free Tram Zone), and spend days in Fitzroy and Carlton and at St Kilda. Pack layers whatever the forecast says.",
+  "cta": [
+   "href",
+   "Browse Melbourne tours on Klook",
+   "https://klook.tpx.lu/qA1eR4jI"
+  ]
+ },
+ "narita-haneda-to-central-tokyo": {
+  "text": "Haneda is much closer to central Tokyo than Narita, so transfers are quicker and generally cheaper. From Narita the Keisei Skyliner is typically the fastest train; with large suitcases the Airport Limousine Bus is often the most convenient. Your hotel’s station decides the easiest route.",
+  "cta": [
+   "href",
+   "Pre-book an airport transfer on Kiwitaxi",
+   "https://kiwitaxi.tpx.lu/rZmS9DyG"
+  ]
+ },
+ "okinawa-first-timers-guide": {
+  "text": "Base your first trip in Naha, which works car-free on the Yui Rail with an OKICA card; the rest of the island honestly wants a rental car. Foreign drivers need an International Driving Permit, and rail passes do not apply: there are no JR trains.",
+  "cta": [
+   "href",
+   "Compare car hire on DiscoverCars",
+   "https://discovercars.tpx.lu/4Xu3wSbk"
+  ]
+ },
+ "osaka-3-day-guide": {
+  "text": "Spend day one on Dotonbori's street food, day two on markets, the castle and Shinsekai, and day three either on a quieter Nakanoshima morning or at Universal Studios Japan, which takes a full day. Trains and subways are efficient and well signposted in English.",
+  "cta": [
+   "href",
+   "Check Osaka tickets on Klook",
+   "https://klook.tpx.lu/ysIL0rZq"
+  ]
+ },
+ "osaka-or-kyoto-where-to-base": {
+  "text": "Choose Kyoto for a quiet, traditional pace and Osaka for urban energy and food; neither is wrong. Trains link them in about 15-30 minutes, so the other city stays a day trip. Osaka tends to be slightly more affordable for accommodation.",
+  "cta": [
+   "href",
+   "See Kyoto day trips on Klook",
+   "https://klook.tpx.lu/j6K4JWTb"
+  ]
+ },
+ "packing-cube-organization-system-guide": {
+  "text": "Packing cubes make a carry-on organised and visible: assign cubes by clothing type or day, compress clothes to fit more and reduce wrinkles, and keep a change of clothes in your personal item. Our pick here is the BAGAIL 8-piece set.",
+  "cta": [
+   "href",
+   "See packing cubes on Amazon",
+   "https://www.amazon.com/dp/B08S35399Y?tag=packlightpick-20"
+  ]
+ },
+ "penang-first-timers-guide": {
+  "text": "Base yourself in George Town’s heritage core and walk it: murals, clan houses, Pitt Street’s temples and mosque, Penang Hill, and above all the hawker food. Use Grab for longer hops; December to April is the drier stretch. Two or three unhurried days is enough.",
+  "cta": [
+   "href",
+   "Browse Penang tours on Klook",
+   "https://klook.tpx.lu/GG8OAP9f"
+  ]
+ },
+ "perth-first-timers-guide": {
+  "text": "Perth rewards an unhurried visit: a day around the CBD and Kings Park, a day in Fremantle, a beach evening at Cottesloe, and a full day on Rottnest Island. An airport train and free CAT buses make arrival easy. Spring (September–November) brings the wildflowers.",
+  "cta": [
+   "href",
+   "Check Perth day trips on Klook",
+   "https://klook.tpx.lu/g0F2U0oo"
+  ]
+ },
+ "phuket-first-timers-guide": {
+  "text": "Phuket is really two islands: the busy west-coast beach strip and the quiet Old Town. Patong is loud; Kata and Karon are the family-friendly middle ground. Island day trips are far cheaper and calmer booked ahead on Klook or KKday, and transport needs a generous budget.",
+  "cta": [
+   "href",
+   "Browse Phuket day trips on Klook",
+   "https://klook.tpx.lu/mHRdY6af"
+  ]
+ },
+ "pre-flight-checklist-48-hours": {
+  "text": "Do it in three windows. At 48 hours: passport, entry passes, online check-in and an eSIM installed over home Wi-Fi. At 24 hours: liquids in 100 ml containers in one clear bag and spare batteries in the carry-on. On the day: reach the airport about three hours before an international departure.",
+  "cta": [
+   "href",
+   "Check eSIM plans on Airalo",
+   "https://airalo.tpx.lu/ctddHmQY"
+  ]
+ },
+ "seoul-first-timers-guide": {
+  "text": "Four to five days suits a first visit: palaces and Bukchon, neighbourhoods like Myeongdong and Hongdae, and one day trip. Buy a T-money card at any convenience store, and book any DMZ tour ahead, as it can only be visited on an organised tour.",
+  "cta": [
+   "href",
+   "Check Seoul tours on Klook",
+   "https://klook.tpx.lu/kc97OjYe"
+  ]
+ },
+ "shinjuku-neighbourhood-guide": {
+  "text": "Shinjuku is several districts around one huge station, so pick your exit before you walk. Take the free Tokyo Metropolitan Government Building view to get your bearings, visit Golden Gai after dark with care, and reset in Shinjuku Gyoen. Left-luggage near the station helps before check-in.",
+  "cta": [
+   "href",
+   "Book left luggage with Radical Storage",
+   "https://radicalstorage.tpx.lu/WpAnAq1c"
+  ]
+ },
+ "singapore-first-timers-guide": {
+  "text": "Singapore is easy to arrive in and move around: the MRT links Changi to downtown, and you can tap a contactless card. Spend time in the gardens, eat at hawker centres such as Maxwell, and pack for sudden showers; Type G plugs mean most visitors need an adapter.",
+  "cta": [
+   "href",
+   "Browse Singapore tickets on Klook",
+   "https://klook.tpx.lu/nZEvIOHK"
+  ]
+ },
+ "suica-pasmo-ic-cards-guide": {
+  "text": "Physical Suica and Pasmo cards remain hard to get in 2026 after production halts, so mobile Suica or Pasmo is generally the most reliable choice. It works on iPhone and many Android phones, and needs no internet to tap in. Buy Shinkansen tickets separately.",
+  "cta": [
+   "href",
+   "See rail passes and transfers on Klook",
+   "https://klook.tpx.lu/cBgTMk7u"
+  ]
+ },
+ "sydney-first-timers-guide": {
+  "text": "Sydney works best slowly: walk, then use the ferries and trains with an Opal card or a contactless bank card. Spring (September to November) and autumn (March to May) are the pleasant shoulder seasons. For ticketed sights and harbour tours, browse Klook before you go.",
+  "cta": [
+   "href",
+   "Check Sydney tickets and tours on Klook",
+   "https://klook.tpx.lu/7iEBnNqn"
+  ]
+ },
+ "taipei-first-timers-guide": {
+  "text": "Taipei is easy and rewarding for a first visit: take the Airport MRT in, buy an EasyCard to run the trip, and come for the food and night markets. High-speed rail and Jiufen day trips are simple to arrange in English through KKday or Klook.",
+  "cta": [
+   "href",
+   "Browse Taipei day trips on KKday",
+   "https://kkday.tpx.lu/orTk3YaH"
+  ]
+ },
+ "thailand-10-day-itinerary": {
+  "text": "Ten days is the sweet spot for a first trip: three days in Bangkok, three in Chiang Mai and four on the islands, with cheap internal flights to skip long overland journeys. November to February is best across the whole route.",
+  "cta": [
+   "href",
+   "Check Thailand tours on Klook",
+   "https://klook.tpx.lu/TgR5Suzs"
+  ]
+ },
+ "things-to-do-in-kyoto": {
+  "text": "Kyoto punishes rushing and rewards the early riser: see two or three headline sights, such as Fushimi Inari and Arashiyama, before the tour buses arrive, then fill the day with back lanes, gardens and tea houses. Nara makes an easy day trip, about 45 minutes away.",
+  "cta": [
+   "href",
+   "Check Kyoto tours on Klook",
+   "https://klook.tpx.lu/j6K4JWTb"
+  ]
+ },
+ "things-to-do-in-okinawa": {
+  "text": "Okinawa splits into three trips in one: Naha and the south, the Motobu north, and the water, where Kerama day trips are the honest snorkelling pick. Sea season runs roughly May–October, with typhoon risk in August–September. Book popular slots a few days ahead; Klook covers most.",
+  "cta": [
+   "href",
+   "Check Okinawa activities on Klook",
+   "https://klook.tpx.lu/XZ5FhuW7"
+  ]
+ },
+ "things-to-do-in-tokyo": {
+  "text": "Think in neighbourhoods and give each afternoon to one: four to five days is a comfortable first visit, plus a day trip to Kamakura, Nikko or Hakone. Book teamLab tickets, which sell out; much of the city is free.",
+  "cta": [
+   "href",
+   "Check Tokyo tickets on Klook",
+   "https://klook.tpx.lu/cBgTMk7u"
+  ]
+ },
+ "three-slow-days-in-kyoto": {
+  "text": "Spend three unhurried days: Fushimi Inari at dawn and Higashiyama on day one, the Philosopher’s Path and Nishiki Market on day two, Arashiyama’s bamboo grove at first light on day three. On a slow trip, leaving Kinkaku-ji for next time is fine.",
+  "cta": [
+   "href",
+   "Browse Kyoto tickets on Klook",
+   "https://klook.tpx.lu/j6K4JWTb"
+  ]
+ },
+ "tokyo-itinerary-5-days": {
+  "text": "Five unhurried days: Asakusa and Senso-ji early on day one, Shinjuku’s free observation decks and Shibuya on day two, Kamakura on day three, teamLab Planets (book ahead) on day four, then Yanaka and Ueno. Pick up a Suica or Pasmo IC card on arrival.",
+  "cta": [
+   "href",
+   "Book Tokyo attractions on Klook",
+   "https://klook.tpx.lu/cBgTMk7u"
+  ]
+ },
+ "tokyo-kissaten-guide": {
+  "text": "Tokyo’s old kissaten reward a slow hour. The guide covers nine, from Café Paulista (1911, Japan’s oldest surviving kissaten) to Jimbocho and Asakusa, each checked as open in September 2026. Bring cash, order one drink each, keep your voice low and don’t plan to work.",
+  "cta": [
+   "href",
+   "See Tokyo tickets and passes on Klook",
+   "https://klook.tpx.lu/cBgTMk7u"
+  ]
+ },
+ "visit-japan-web-guide": {
+  "text": "Visit Japan Web is Japan’s optional online service for pre-registering your disembarkation card and customs declaration, giving you QR codes to scan at kiosks at major airports. It streamlines paperwork but does not secure entry or replace a visa. Have your passport, flight and first-night address ready.",
+  "cta": [
+   "href",
+   "Check Japan eSIM plans on Airalo",
+   "https://airalo.tpx.lu/HwA3xouX"
+  ]
+ },
+ "what-to-pack-for-japan": {
+  "text": "Japan rewards packing light: layers, comfortable slip-on shoes, one laundry stop mid-trip and a Type A adapter for the 100 V sockets. Most else is cheap to buy there. Packing cubes keep the bag tidy, and a coin purse helps because Japan is still cash-first.",
+  "cta": [
+   "href",
+   "See packing cubes on Amazon",
+   "https://www.amazon.com/dp/B08S35399Y?tag=packlightpick-20"
+  ]
+ },
+ "what-to-pack-for-okinawa": {
+  "text": "Pack for water and humidity, not fashion: reef-safe sunscreen, a rash guard, water shoes, quick-dry clothes and a typhoon-season plan B for August–September. Plugs are Type A at 100 V, as on the mainland, and the Anker PowerCore 10000 helps on long beach days.",
+  "cta": [
+   "href",
+   "See Anker PowerCore 10000 on Amazon",
+   "https://www.amazon.com/dp/B01B12PTOM?tag=packlightpick-20"
+  ]
+ },
+ "what-to-pack-for-southeast-asia": {
+  "text": "Southeast Asia packing is a heat-and-rain problem: quick-dry fabrics, temple-appropriate cover-ups, serious sun protection and sandals for wet streets. Go carry-on, check plug types at each stop, leave room in the bag, and sort your eSIM and insurance before you fly.",
+  "cta": [
+   "href",
+   "Set up a travel eSIM with Saily",
+   "https://saily.tpx.lu/hk5XU6Sm"
+  ]
+ },
+ "when-to-activate-travel-esim": {
+  "text": "Install your travel eSIM at home if you like, but wait to activate it until you land. For most plans the validity clock starts when the eSIM connects to a local network, so activating early can cost you days of data.",
+  "cta": [
+   "href",
+   "Check eSIM plans on Airalo",
+   "https://airalo.tpx.lu/ctddHmQY"
+  ]
+ },
+ "yogyakarta-first-timers-guide": {
+  "text": "Give Jogja three or four days: Borobudur at dawn, Prambanan, the Kraton and Malioboro, and Merapi at sunrise. The dry season, roughly May to September, gives the clearest sunrise skies. Climbing Borobudur’s terraces is limited and ticketed, so book ahead.",
+  "cta": [
+   "href",
+   "Check Yogyakarta tours on Klook",
+   "https://klook.tpx.lu/hv5BTlgY"
+  ]
+ }
+}

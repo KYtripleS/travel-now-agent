@@ -5295,3 +5295,22 @@ body:has(.gy-masthead) { background-color: #F4ECDB; }
   .gy-masthead { box-shadow: inset 0 0 0 5px #172033, inset 0 0 0 6px rgba(216,182,92,.75); }
 }
 @media (prefers-reduced-motion: reduce) { .gy-masthead::before { animation: none; } }
+
+/* every partner or tool block inside an article sits in one frame: a cream card with a gold corner,
+   so forms, maps and link lists read as part of the book (operator, 2026-11-01: the Trip.com form
+   had no frame) */
+body:has(:is(.article-hero, .gy-arch-head)) section.article :is(aside.gy-cta, aside.gy-widget, aside.gy-trip, aside.gy-esim-plans) {
+  position: relative; margin: 26px 0 30px; padding: 20px 22px 16px;
+  background: #FFFBF1; border: 1px solid #D9C9A3; border-radius: 4px;
+  box-shadow: 0 12px 26px -20px rgba(46,36,25,.55), 0 1px 0 #fff inset;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M2 38V12C2 6 6 2 12 2h26' fill='none' stroke='%23B08A3E' stroke-width='1.4'/%3E%3Ccircle cx='7' cy='7' r='2' fill='%23B08A3E'/%3E%3C/svg%3E");
+  background-position: 6px 6px; background-size: 26px 26px; background-repeat: no-repeat;
+}
+body:has(:is(.article-hero, .gy-arch-head)) section.article :is(aside.gy-cta, aside.gy-widget, aside.gy-esim-plans) :is(.gy-cta-h, .gy-widget-h, h3, h4):first-child {
+  margin-top: 0; padding-left: 14px;
+}
+body:has(:is(.article-hero, .gy-arch-head)) section.article aside.gy-trip[hidden] { display: none; }
+body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame, .gy-tripwidget) { border-radius: 3px; overflow: hidden; }
+@media (max-width: 699px) {
+  body:has(:is(.article-hero, .gy-arch-head)) section.article :is(aside.gy-cta, aside.gy-widget, aside.gy-trip, aside.gy-esim-plans) { padding: 16px 14px 12px; }
+}
