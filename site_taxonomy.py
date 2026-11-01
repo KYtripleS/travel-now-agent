@@ -221,6 +221,9 @@ BY_SLUG = {
     "airport-layover-survival-guide-making-long-transit-hours-bearable": "Airport",
     "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
     "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Food",
+    # 2026-10-31 ticket comparisons
+    "where-to-buy-disneyland-paris-tickets": "Booking & tours",
+    "where-to-buy-universal-studios-japan-tickets": "Booking & tours",
 }
 
 PAGE_LABEL = {                       # non-article pages that appear in the archive

@@ -2866,6 +2866,12 @@ STAY_POINTERS = {
         'Coming for the blossom? <a href="where-to-stay-in-washington-dc-cherry-blossom.html">Where to stay in DC '
         'for the cherry blossoms</a> sorts the areas by walk or Metro to the Tidal Basin, with the 2027 festival '
         'dates (20 March to 11 April).'),
+    "where-to-stay-for-universal-studios-japan": ("intro",
+        'Buying the Express Pass too? <a href="where-to-buy-universal-studios-japan-tickets.html">Universal Studios '
+        'Japan tickets compared</a> puts the official store beside KKday and GetYourGuide for the same date.'),
+    "where-to-stay-for-disneyland-paris": ("intro",
+        'Still to buy park tickets? <a href="where-to-buy-disneyland-paris-tickets.html">Disneyland Paris tickets '
+        'compared</a> puts Disney’s own price beside Tiqets, GetYourGuide and Viator for the same date.'),
     "where-to-stay-in-melbourne": ("intro",
         'Here for the tennis? <a href="where-to-stay-in-melbourne-australian-open.html">Where to stay for the '
         'Australian Open 2027</a> (11 to 31 January) sorts the areas by tram or walk to Melbourne Park.'),
