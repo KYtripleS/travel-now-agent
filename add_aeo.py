@@ -427,6 +427,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-nice-carnival": dict(
+        text="For the Nice Carnival, sleep near Place Masséna: every 2027 parade is there, and the Aston La Scala said it stood 100 metres from the entrance last year. Le Negresco is the splurge, the Villa Rivoli the good-value pick. The tax is €3.48 a person a night at a four-star.",
+        link_text="Place Masséna",
+        cta=_stay_cta("where-to-stay-in-nice-carnival", "See hotels around Place Masséna")),
     "where-to-stay-in-chamonix": dict(
         text="For a first ski trip, stay in Chamonix centre: restaurants, the station and the bus station on foot, lifts a short ride away. Choose Hôtel Mont-Blanc for a five-star base, Park Hôtel Suisse & Spa for the rooftop spa, Hôtel Lyret for a lower price. The tax is €2.60 a night for a four-star adult.",
         link_text="Chamonix centre",
@@ -1627,6 +1631,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-nice-carnival": ["Le Negresco", "Hôtel Aston La Scala", "Hôtel Villa Rivoli"],
     "where-to-stay-in-chamonix": ["Hôtel Mont-Blanc", "Park Hôtel Suisse & Spa", "Hôtel Lyret"],
     "where-to-stay-for-coachella": ["La Quinta Resort & Club", "Embassy Suites by Hilton La Quinta Hotel & Spa", "Hampton Inn & Suites Indio"],
     "where-to-stay-in-cologne-christmas-market": ["Excelsior Hotel Ernst", "Hotel Mondial am Dom Cologne - MGallery", "ibis Köln am Dom"],
@@ -2395,6 +2400,7 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Nice", "where-to-stay-in-nice-carnival", None, None),
         ("Chamonix", "where-to-stay-in-chamonix", None, None),
         ("Coachella", "where-to-stay-for-coachella", None, None),
         ("Cologne", "where-to-stay-in-cologne-christmas-market", None, None),
@@ -2856,9 +2862,17 @@ STAY_POINTERS = {
         'Coming for Chinese New Year? <a href="where-to-stay-in-hong-kong-chinese-new-year.html">Hong Kong Chinese '
         'New Year 2027 hotels</a> matches the areas to the parade, the harbour fireworks on 7 February and the '
         'Victoria Park fair.'),
-    "where-to-stay-in-venice-carnival": ("intro",
-        'Weighing the two big carnivals? <a href="where-to-stay-in-rio-carnival.html">Rio Carnival 2027 hotels</a> '
-        'covers the Sambadrome nights (7 to 9 February), the street blocos and the e-Visa some passports now need.'),
+    "where-to-stay-in-venice-carnival": [
+        ("intro",
+         'Weighing the two big carnivals? <a href="where-to-stay-in-rio-carnival.html">Rio Carnival 2027 hotels</a> '
+         'covers the Sambadrome nights (7 to 9 February), the street blocos and the e-Visa some passports now need.'),
+        ("The short answer",
+         'Prefer parades by the sea? <a href="where-to-stay-in-nice-carnival.html">Where to stay for the Nice '
+         'Carnival 2027</a> covers 9 to 28 February, the stands on Place Masséna and Menton’s Lemon Festival.'),
+    ],
+    "where-to-stay-in-nice": ("intro",
+        'Coming for Carnival? <a href="where-to-stay-in-nice-carnival.html">Where to stay for the Nice Carnival '
+        '2027</a> matches the areas to the parades on Place Masséna, 9 to 28 February.'),
     "where-to-stay-in-venice": ("intro",
         'Coming for Carnival? <a href="where-to-stay-in-venice-carnival.html">Where to stay in Venice for Carnival '
         '2027</a> matches the areas to the parades and the square, with the tax rate that rises on 1 February.'),

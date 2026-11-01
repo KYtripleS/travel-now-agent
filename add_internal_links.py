@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-nice-carnival.html": (
+        "Where to Stay in Nice",
+        "Official 9-28 Feb 2027 dates, every parade on Place Masséna, 12 hotels and Nice's tax.",
+    ),
     "articles/where-to-stay-in-chamonix.html": (
         "Where to Stay in Chamonix",
         "Five areas by lift, 12 hotels, reopening dates and the €2.60 taxe de séjour for a four-star in Chamonix.",
@@ -2233,6 +2237,13 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-nice-carnival.html": [
+        "articles/where-to-stay-in-nice.html",
+        "articles/where-to-stay-in-venice-carnival.html",
+        "articles/where-to-stay-in-rio-carnival.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-chamonix.html": [
         "articles/where-to-stay-in-zermatt.html",

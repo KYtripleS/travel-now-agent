@@ -114,6 +114,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-nice-carnival": dict(area="Place Masséna", lat=43.697, lng=7.2711, zoom=15,
+                                              address="Place Masséna, 06000 Nice, France"),
     "where-to-stay-in-chamonix": dict(area="Chamonix centre", lat=45.923, lng=6.8681, zoom=15,
                                          address="Allée du Majestic, Chamonix-Mont-Blanc, France"),
     "where-to-stay-for-coachella": dict(area="Empire Polo Club", lat=33.6803, lng=-116.237, zoom=12,
@@ -407,6 +409,7 @@ HOTELS = {
     "Hakuba Tokyu Hotel": _B + "jp/hakuba-tokyu.html",
     "Phoenix Hotel": _B + "jp/the-phoenix-hotel.html",
     "Morino Lodge Hakuba": None,  # on Booking.com, but no winter rooms there (checked Oct 2026)
+    "Hotel Taigakukan": _B + "jp/taigakukan.html",  # Happo 5094; confirmed by name and address, 2026-11-01
     "Courtyard by Marriott Hakuba": _B + "jp/laforet-club-hakuba-happo.html",
     "Hotel La Vigne Hakuba by Onko Chishin": _B + "jp/la-vigne-hakuba-by-onko-chishin.html",
     "Hotel Stelle Belle": _B + "jp/hotel-stelle-belle.html",
@@ -1567,6 +1570,8 @@ HOTELS = {
     "Hôtel Aiguille du Midi": _B + "fr/aiguille-du-midi-chamonix.html",
     "Chalet Hôtel Les Campanules": None,
     "RockyPop Chamonix - Les Houches": _B + "fr/rockypop-aux-portes-de-chamonix.html",
+    # Nice, where-to-stay-in-nice-carnival (Booking.com pages confirmed by hotel name and city)
+    "Hôtel Windsor": _B + "fr/hotel-windsor-nice1.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

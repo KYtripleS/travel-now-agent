@@ -5463,6 +5463,51 @@
           "Hong Kong’s public holidays fall on 6, 8 and 9 February"
         ]
       }
+    },
+    {
+      "id": "jp.hakuba.taigakukan-2026-27",
+      "topic": "price",
+      "recheck_days": 60,
+      "claim": "Hotel Taigakukan (Happo, Hakuba): winter season 16 Nov 2026 to 5 May 2027; Japanese-style room, 2 adults, from JPY 20,810 per person with dinner and breakfast, taxes included; utility charge JPY 1,650 per person per night from 15 Nov to 15 Apr; five minutes' walk to the Happo-one gondola.",
+      "sources": [
+        {
+          "url": "https://www.taigakukan.jp/eng/reservation/",
+          "kind": "operator",
+          "title": "Hotel Taigakukan: the lodging fee"
+        },
+        {
+          "url": "https://www.taigakukan.jp/eng/",
+          "kind": "operator",
+          "title": "Hotel Taigakukan: home"
+        }
+      ],
+      "checked": "2026-11-01",
+      "used_in": {
+        "articles/where-to-stay-in-hakuba.html": [
+          "from 16 November 2026 to 5 May 2027",
+          "start at ¥20,810 a person for two sharing a Japanese-style room",
+          "a utility charge of ¥1,650 a person a night"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakuba.courtyard-closure-2026-11",
+      "topic": "hotel",
+      "recheck_days": 30,
+      "claim": "Courtyard by Marriott Hakuba is closed from 11:00 on 16 November 2026 to 15:00 on 20 November 2026 for an electrical inspection.",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/mmjch-courtyard-hakuba/overview/",
+          "kind": "operator",
+          "title": "Courtyard by Marriott Hakuba: overview (closure notice)"
+        }
+      ],
+      "checked": "2026-11-01",
+      "used_in": {
+        "articles/where-to-stay-in-hakuba.html": [
+          "closed from 16 to 20 November 2026 for an electrical inspection"
+        ]
+      }
     }
   ]
 }

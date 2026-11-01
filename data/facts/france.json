@@ -2286,6 +2286,709 @@
           "its offers page quotes a local tax of €2.50"
         ]
       }
+    },
+    {
+      "id": "fr.nice-carnival.dates-2027",
+      "topic": "place",
+      "claim": "The official Nice Carnival site (nicecarnaval.com) titles the 2027 edition 'Long Live Love!' and gives the dates as 9 to 28 February 2027; the programme is marked 'subject to change'. Explore Nice Côte d'Azur's listing gives the same dates, the theme 'Vive l'Amour' and Place Masséna as the location.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nicecarnaval.com/en/2027-edition/official-programme/",
+          "kind": "official",
+          "title": "Nice Carnival: official programme 2027"
+        },
+        {
+          "url": "https://www.explorenicecotedazur.com/fiche/carnaval-de-nice-2027-vive-lamour/",
+          "kind": "official",
+          "title": "Explore Nice Côte d'Azur: Carnaval de Nice 2027 'Vive l'Amour'"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "runs from 9 to 28 February 2027",
+          "gives the dates as 9 to 28 February 2027",
+          "lists the same dates",
+          "the programme is marked as subject to change"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Recheck for any change to the programme and for 2027 prices."
+    },
+    {
+      "id": "fr.nice-carnival.programme-2027",
+      "topic": "place",
+      "claim": "The 2027 official programme lists, all in the Masséna enclosure around the Albert I garden (Place Masséna, 06000 Nice) except La Carnavalina: Sat 13 Feb La Carnavalina (free) and Opening Parade of Lights (21:00, no end time given); Tue 16 Feb Carnival Parade of Lights 20:30-22:00; Wed 17 Feb flower parade 14:30-16:00; Sat 20 Feb flower parade 14:30-16:00 and Carnival Parade of Lights 20:30-22:00; Sun 21 Feb Carnival Parade 'd'aqui' 14:30-16:00 (daytime, local folk groups, 'the best option for families and small children'); Tue 23 Feb Carnival Parade of Lights 20:30-22:00; Wed 24 Feb flower parade 14:30-16:00; Sat 27 Feb flower parade 14:30-16:00 and Closing Carnival Parade of Lights 20:30-22:00. That is ten parades on eight days. The 13 Feb Carnavalina page reads 'From 14:00 to 18:00, City center | Starting at 1 PM - Free'.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nicecarnaval.com/en/2027-edition/official-programme/",
+          "kind": "official",
+          "title": "Nice Carnival: official programme 2027"
+        },
+        {
+          "url": "https://www.nicecarnaval.com/en/events/opening-parade/",
+          "kind": "official",
+          "title": "Opening Parade of Lights"
+        },
+        {
+          "url": "https://www.nicecarnaval.com/en/events/carnival-parade-of-lights/",
+          "kind": "official",
+          "title": "Carnival Parade of Lights"
+        },
+        {
+          "url": "https://www.nicecarnaval.com/en/events/flower-parade/",
+          "kind": "official",
+          "title": "Flower parade"
+        },
+        {
+          "url": "https://www.nicecarnaval.com/en/events/carnival-parade-daqui/",
+          "kind": "official",
+          "title": "Carnival Parade d'aqui"
+        },
+        {
+          "url": "https://www.nicecarnaval.com/en/events/closing-carnival-parade-of-lights/",
+          "kind": "official",
+          "title": "Closing Carnival Parade of Lights"
+        },
+        {
+          "url": "https://www.nicecarnaval.com/en/events/la-carnavalina/",
+          "kind": "official",
+          "title": "La Carnavalina"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "lists parades on only eight days",
+          "the enclosure on Place Masséna around the Albert I garden",
+          "Everything below is on Place Masséna except the free opening afternoon",
+          "the 2027 programme lists Place Masséna for every parade",
+          "14:00 to 18:00 in the city centre",
+          "20:30 to 22:00",
+          "14:30 to 16:00",
+          "billed as the best option for families",
+          "a parade that ends at 10pm"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Carnavalina time wording on the official page is ambiguous (14:00-18:00 vs 'Starting at 1 PM'); article gives 14:00 to 18:00."
+    },
+    {
+      "id": "fr.nice-carnival.flower-parade-history",
+      "topic": "history",
+      "claim": "The organisers' flower-parade page says the first Flower Parade appeared on the Promenade des Anglais in 1876; costumed performers on flower-decked floats throw flowers to the public; the page gives no current route.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nicecarnaval.com/en/about/the-highlights/flower-parade/",
+          "kind": "official",
+          "title": "Nice Carnival: flower parade"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "took place on the Promenade des Anglais in 1876",
+          "in which costumed performers on flower-decked floats throw flowers to the crowd"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.tickets-2027",
+      "topic": "price",
+      "claim": "The organisers' 'Prices and point of sale' page says its public prices 'are currently being updated and will be available very soon' (checked 1 Nov 2026); it lists a main ticket office on the Promenade du Paillon, ticketing during events on the south side of the Promenade des Anglais opposite No. 5, online booking with a 2-show package, and automatic kiosks for promenade-only tickets at Nicetoile, the Carrefour Lingostière gallery and the Metropolitan Tourist Office (5 Promenade des Anglais). Children of all ages need a ticket in the pedestrian zone or stands; under-6 free but ticketed; in the stands 3-5 year-olds need a seat and 0-2 sit on a lap with a ticket requested by email. The online ticket shop (indiv.themisweb.fr) redirected to a maintenance page on 1 Nov 2026.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nicecarnaval.com/en/useful-info/ticket-sales/prices-and-point-of-sale/",
+          "kind": "official",
+          "title": "Nice Carnival: prices and points of sale"
+        },
+        {
+          "url": "https://www.nicecarnaval.com/en/useful-info/faq/",
+          "kind": "official",
+          "title": "Nice Carnival: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "are currently being updated",
+          "the ticket shop was down for maintenance when we looked",
+          "Everyone needs a ticket, in the pedestrian zone or in the grandstands",
+          "a child aged 3 to 5 needs a seat",
+          "Promenade-only tickets are sold at automatic kiosks",
+          "a two-show package can be bought online",
+          "the carnival's ticket office stands there during events, on the south side opposite No. 5"
+        ]
+      },
+      "recheck_days": 7,
+      "note": "Recheck for 2027 public prices and for the ticket shop. Editor: if prices are published before this goes live, add them."
+    },
+    {
+      "id": "fr.nice-carnival.ticket-rules",
+      "topic": "place",
+      "claim": "Official FAQ and access pages: tickets are dated and generally non-refundable or non-exchangeable, except a 'refundable ticket' option with refund requests due no later than 72 hours before the event; doors open 2 hours before the show and entry is permitted up to 30 minutes after the start; a weather cancellation can be announced up to 2 hours before the scheduled start; no lockers.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nicecarnaval.com/en/useful-info/faq/",
+          "kind": "official",
+          "title": "Nice Carnival: FAQ"
+        },
+        {
+          "url": "https://www.nicecarnaval.com/en/useful-info/on-site/access-to-events/",
+          "kind": "official",
+          "title": "Nice Carnival: access to events"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "generally non-refundable",
+          "closes 72 hours before the event",
+          "Doors open two hours before the show and close to new arrivals 30 minutes after it starts",
+          "a weather cancellation can come up to two hours before the start"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.transport-page",
+      "topic": "transport",
+      "claim": "The organisers' transport page (no edition named; site footer 2026) says Nice-ville station is 15 minutes on foot; a ZOU! train runs every 15 minutes between Cannes and Menton throughout the carnival, with extra trains after 11 p.m. for the night parades; tram line 1 runs as carousel services with Masséna station closed (Henri Sappia to Jean Médecin) and Opéra-Vieille Ville and Cathédrale-Vieille Ville stations closed (Hôpital Pasteur to Garibaldi); tram line 2 normal traffic.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nicecarnaval.com/en/useful-info/prepare-your-visit/transport/",
+          "kind": "official",
+          "title": "Nice Carnival: transport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "the station is 15 minutes on foot from the site",
+          "a ZOU! regional train runs every 15 minutes between Cannes and Menton during the carnival, with extra trains after 11pm for the night parades",
+          "Masséna, Opéra-Vieille Ville and Cathédrale-Vieille Ville stops as closed and line 2 as running normally",
+          "the organisers put the station 15 minutes' walk from the site",
+          "is on the organisers' closed list"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "The page names no edition and may describe a previous year's arrangements; article says so and tells readers to check Lignes d'Azur."
+    },
+    {
+      "id": "fr.nice-carnival.old-town-residents",
+      "topic": "place",
+      "claim": "The organisers' access page says residents of the Old Town enter and exit through Descente Crotti and must show proof of address.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nicecarnaval.com/en/useful-info/on-site/access-to-events/",
+          "kind": "official",
+          "title": "Nice Carnival: access to events"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "enter and leave the carnival site through the Descente Crotti and must show proof of address"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.menton-dates-2027",
+      "topic": "place",
+      "claim": "The Fête du Citron site (fete-du-citron.com) is headed 'Fête du Citron 2027 à Menton, du 13 au 28 février' and its corso pages carry the '93ème' edition label; the home page names no theme.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.fete-du-citron.com/",
+          "kind": "official",
+          "title": "Fête du Citron, Menton: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "gives 13 to 28 February 2027 and names no theme"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Theme not published on the official pages I read (a third-party listing mentions 'Douce France', not used)."
+    },
+    {
+      "id": "fr.nice-carnival.menton-corsos",
+      "topic": "price",
+      "claim": "Menton 2027: corsos des fruits d'or on Sundays 14, 21 and 28 February at 14:30 on the Promenade du Soleil; corsos nocturnes on Thursdays 18 and 25 February at 21:00 on the Promenade du Soleil, closing with fireworks at 22:30; stands adult EUR 30 (group 25, reduced 15), standing adult EUR 16 (group 15, reduced 8); stands full on 21 and 28 February with standing places remaining (page as of 1 Nov 2026).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.fete-du-citron.com/corsos-des-fruits-dor.html",
+          "kind": "official",
+          "title": "Fête du Citron: corsos des fruits d'or"
+        },
+        {
+          "url": "https://www.fete-du-citron.com/Corsos-nocturnes.html",
+          "kind": "official",
+          "title": "Fête du Citron: corsos nocturnes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "Sundays 14, 21 and 28 February at 14:30",
+          "Thursdays 18 and 25 February at 21:00",
+          "with fireworks at 22:30 on the Thursdays",
+          "Seats in the stands cost €30 for an adult and standing places €16",
+          "the stands were already full for 21 and 28 February, with standing places left"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "fr.nice-carnival.menton-transport",
+      "topic": "transport",
+      "claim": "The Fête du Citron 'Venir à Menton' page says Menton station is 200 metres from the Jardins Biovès, and that Zou! bus 600 and 601 (evening) from Nice reach Menton in about an hour along the coast via Monaco; ZOU! train every 15 minutes between Cannes and Menton during the festival.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.fete-du-citron.com/Venir-a-Menton.html",
+          "kind": "official",
+          "title": "Fête du Citron: getting to Menton"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "Menton's station is 200 metres from the Jardins Biovès",
+          "Zou! bus lines 600 and 601 from Nice, about an hour"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.overlap",
+      "topic": "place",
+      "claim": "Editorial comparison of the two official programmes: Nice lists no parade on Menton's corso Thursdays (18, 25 Feb) or on Sundays 14 and 28 February; on Sunday 21 February Nice's 'd'aqui' parade (14:30-16:00) and Menton's corso (14:30) overlap.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nicecarnaval.com/en/2027-edition/official-programme/",
+          "kind": "official",
+          "title": "Nice Carnival: official programme 2027"
+        },
+        {
+          "url": "https://www.fete-du-citron.com/corsos-des-fruits-dor.html",
+          "kind": "official",
+          "title": "Fête du Citron: corsos des fruits d'or"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "Nice lists no parade on the Menton Thursdays or on Sunday 14 or 28 February",
+          "Nice's daytime parade and Menton's corso both start at 14:30"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.tourist-tax-2026",
+      "topic": "tax",
+      "claim": "From 1 January 2026 the Métropole Nice Côte d'Azur's taxe de séjour per person per night is, metropolitan tax plus 34% additional tax, total: palace EUR 4.80+1.63=6.43; 5-star 3.50+1.19=4.69; 4-star 2.60+0.88=3.48; 3-star 1.70+0.58=2.28; 2-star 1.00+0.34=1.34; 1-star, B&Bs and youth hostels 0.80+0.27=1.07; unclassified 5%+1.70% = 6.70% of the pre-tax price per person, capped at EUR 6.43; minors exempt; the tax is displayed but not always included in the price. The sheet lists no seasonal or event rates.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/Content/configuration/metropole-nca/ImprimesDeclaratif/2026%20Tourist%20Tax%20Rates%20-%20METROPOLE%20NICE%20COTE%20D'AZUR.pdf",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: Tourist tax rates from 1 January 2026 (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "Under-18s pay nothing",
+          "The tax is not always in the room rate, so a hotel may ask for it at the desk",
+          "The sheet lists no seasonal or event rates",
+          "at €3.48 for a four-star",
+          "from €1.07 at a hostel to €3.48 at a four-star"
+        ]
+      },
+      "recheck_days": 60
+    },
+    {
+      "id": "fr.nice-carnival.tourist-tax-surcharge-2027",
+      "topic": "tax",
+      "claim": "The 2026 rate sheet splits the tax into the metropolitan tax and a 34% additional tax for the Ligne Nouvelle Provence Côte d'Azur; the sheet lists no other surcharge; the portal's FAQ says 'Les TARIFS 2027 de la Taxe de Séjour restent identiques aux Tarifs 2026' (re-read 1 Nov 2026).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/Content/configuration/metropole-nca/ImprimesDeclaratif/2026%20Tourist%20Tax%20Rates%20-%20METROPOLE%20NICE%20COTE%20D'AZUR.pdf",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: Tourist tax rates 2026 (PDF)"
+        },
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/ts/metropole-nca",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: taxe de séjour portal"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "an additional tax of 34% for the Ligne Nouvelle Provence Côte d'Azur, a rail project",
+          "The sheet lists no other surcharge, and the portal says the 2027 rates stay identical to 2026",
+          "its portal says the 2027 rates stay the same as 2026"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "fr.nice-carnival.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: a couple for four nights at a four-star pays 2 x 4 x EUR 3.48 = EUR 27.84.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/Content/configuration/metropole-nca/ImprimesDeclaratif/2026%20Tourist%20Tax%20Rates%20-%20METROPOLE%20NICE%20COTE%20D'AZUR.pdf",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: Tourist tax rates 2026 (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "Here is our arithmetic, not an official figure",
+          "2 × 4 × €3.48 = €27.84"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.tram-2-airport",
+      "topic": "transport",
+      "claim": "Per the airport, tram line 2 links Terminals 1 and 2 to the city centre at Jean Médecin in less than 30 minutes and on to Port Lympia; a tram runs about every 7 to 8 minutes on weekdays.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nice.aeroport.fr/acces/transports-en-commun",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Airport: transports en commun"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "to the Jean Médecin stop in the city centre in less than 30 minutes",
+          "A tram runs about every 7 to 8 minutes on weekdays",
+          "Tram line 2 from the airport stops at Jean Médecin",
+          "Tram line 2 ends at the port"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.lignesdazur-fares",
+      "topic": "fare",
+      "claim": "Lignes d'Azur (re-read 1 Nov 2026): Solo (1 journey, transfers 74 minutes) EUR 1.70; '1 aller / retour Aéroport' EUR 10 (transfers 74 minutes after first validation); Pass 1 jour EUR 7 (unlimited travel 24h on urban-fare lines). No Lignes d'Azur page found stating which ticket the airport section requires; the airport page lists SOLO among tickets at the terminals' tram stops and 'AERO aller-retour: 10 EUR'.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.lignesdazur.com/titres-et-tarifs/quel-titre-pour-mon-deplacement/titres-au-voyage/",
+          "kind": "operator",
+          "title": "Lignes d'Azur: titres au voyage"
+        },
+        {
+          "url": "https://www.lignesdazur.com/titres-et-tarifs/quel-titre-pour-mon-deplacement/titres-a-la-journee/",
+          "kind": "operator",
+          "title": "Lignes d'Azur: titres à la journée"
+        },
+        {
+          "url": "https://www.nice.aeroport.fr/acces/transports-en-commun",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Airport: transports en commun"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A Solo ticket for one journey, with transfers for 74 minutes, is €1.70",
+          "a one-day airport return is €10",
+          "a one-day pass is €7",
+          "We found no Lignes d'Azur page saying which ticket the airport section needs"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.airport-taxi-fare",
+      "topic": "fare",
+      "claim": "The airport's page lists indicative 2026 flat taxi fares (TTC) from the airport; Nice-Centre EUR 32.00.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.nice.aeroport.fr/acces/taxis",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Airport: taxis"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "a flat fare from the airport to the city centre of €32, tax included"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.area-descriptions",
+      "topic": "place",
+      "claim": "The Nice tourist office's 2026 guide: Place Masséna is the heart of the city and the link between the old town and the modern districts, and its one-day route sends visitors shopping in the Carré d'Or boutiques; Vieux-Nice is a maze of coloured lanes, baroque churches and markets; the Promenade des Anglais is the seaside avenue of seven kilometres on the Baie des Anges; Port Lympia is nestled between the castle hill and Mont Boron, with the painted wooden pointus and large yachts.",
+      "checked": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.explorenicecotedazur.com/app/uploads/2026/01/brochure-a5-nice-guide-touristique-2026-v9-page-a-page-1.pdf",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Tourist Office: Nice tourist guide 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "the heart of the city, the link between the old town and the modern districts",
+          "sends shoppers to the boutiques of the Carré d'Or",
+          "a maze of coloured lanes, baroque churches and markets",
+          "the seaside avenue of seven kilometres on the Baie des Anges",
+          "between the castle hill and Mont Boron, with the painted wooden pointus and large yachts"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-aston",
+      "topic": "hotel",
+      "claim": "Hôtel Aston La Scala: 12 avenue Félix Faure; four stars on its home page; its 'Nice Carnival 2026' page says the hotel is 'just 100 meters from the festivities' entrance' and 'a two-minute walk from your grandstand seat', with a 'Carnival Magic' package valid 13 February to 1 March 2026 (buffet breakfast, a carnival kit per room); no 2027 carnival page found; Opéra-Vieille Ville tram stop in front of the hotel (earlier check); live music nights.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.hotel-aston.com/carnival-nice-2026",
+          "kind": "official",
+          "title": "Hôtel Aston La Scala: Nice Carnival 2026 page"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A four-star at 12 avenue Félix Faure",
+          "100 metres from the entrance to the festivities and two minutes' walk from a grandstand seat",
+          "valid from 13 February to 1 March 2026",
+          "We found no 2027 page",
+          "it runs live music nights"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-rivoli",
+      "topic": "hotel",
+      "claim": "Hôtel Villa Rivoli: three stars; 24 rooms; Belle Époque townhouse built in 1890 (earlier check); 10 rue de Rivoli; 'à 100 m des plages et de la Promenade des Anglais'; Lower Ground Floor rooms have small windows (earlier check).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://villa-rivoli.com/",
+          "kind": "official",
+          "title": "Hôtel Villa Rivoli: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A three-star of 24 rooms in a Belle Époque townhouse built in 1890",
+          "100 metres from the beaches and the Promenade",
+          "the Lower Ground Floor rooms have small windows"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-windsor",
+      "topic": "hotel",
+      "claim": "Hôtel Windsor (Le Windsor, Jungle Art Hotel on Booking.com): 11 rue Dalpozzo; 'a boutique hotel, a few meters from the seaside'; family hotel tradition spanning four generations; most rooms decorated with murals or by contemporary artists; tropical garden with a pool, heated May to October; rooms: Privilège 27 m2, Premium 25-27, Séduction 21-25, Création 17 (garden) or 22 (city), Intimité 15 m2 city side with shower.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.hotelwindsornice.com/en/the-hotel-its-rooms-2/",
+          "kind": "official",
+          "title": "Hôtel Windsor: official site (rooms)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A boutique hotel at 11 rue Dalpozzo, a few metres from the seafront in its own words",
+          "run by the same family for four generations",
+          "Most rooms are decorated with murals or by contemporary artists",
+          "the pool is heated only from May to October",
+          "the 15 m² Intimité rooms face the city"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-victor-hugo",
+      "topic": "hotel",
+      "claim": "Hôtel Victor Hugo: two stars; 59 boulevard Victor Hugo; 7 themed rooms on the ground floor of a 1905 building with kitchenettes; Promenade 5 minutes (hotel's count); 'L'hôtel sera fermé du 1er novembre au 27 décembre 2026 inclus'; check-in 15:00-19:00, no arrivals after 19:00 (earlier check); Cabin room 13 m2 (earlier check).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://hotel-victor-hugo-nice.com/",
+          "kind": "official",
+          "title": "Hôtel Victor Hugo: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A two-star of seven rooms on the ground floor of a building of 1905",
+          "with the Promenade five minutes away by the hotel's count",
+          "closed from 1 November to 27 December 2026 inclusive",
+          "reception closes at 7pm with no arrivals accepted after that hour"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-palais-saleya",
+      "topic": "hotel",
+      "claim": "Hôtel Palais Saleya: 21 rue du Marché; built in the 18th century (earlier check); 26 suites and apartments; less than a 5-minute walk to the Cours Saleya, the castle and the beach (hotel's count); Junior Suite 25 m2 and French breakfast EUR 18 (earlier check).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.palaissaleya.com/",
+          "kind": "official",
+          "title": "Hôtel Palais Saleya: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A building of the 18th century at 21 rue du Marché",
+          "with 26 suites and apartments",
+          "the smallest a 25 m² Junior Suite",
+          "the French breakfast is €18 extra"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-villa-saint-exupery",
+      "topic": "hotel",
+      "claim": "Villa Saint Exupéry Beach: 6 rue Sacha Guitry; private rooms and 4-10 bed dorms, all en suite; 50 m from the Old Town and beach 2 minutes' walk (hostel's count); bar with happy hour 6-8pm, pub crawl (earlier check).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://villahostels.com/",
+          "kind": "official",
+          "title": "Villa Saint Exupéry Beach: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A hostel at 6 rue Sacha Guitry",
+          "dorms of four to ten beds, all en suite",
+          "50 metres from the Old Town and two minutes from the beach",
+          "a lively bar and a pub crawl"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-negresco",
+      "topic": "hotel",
+      "claim": "Le Negresco: 37 Promenade des Anglais; 102 rooms and 26 suites each telling an era of French art; Michelin-starred Le Chantecler; no room sizes or prices on the site (re-read in the browser 1 Nov 2026).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.lenegresco.com/en",
+          "kind": "official",
+          "title": "Le Negresco: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "counts 102 rooms and 26 suites",
+          "a restaurant with a Michelin star, Le Chantecler",
+          "the site lists no room sizes or prices"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-westminster",
+      "topic": "hotel",
+      "claim": "Westminster Hôtel & Spa: 27 Promenade des Anglais; four stars; opened 1881; 99 suites, junior suites and rooms; W bar with terraces; Escale rooms 17-19 m2; Spa 27 of 400 m2 with access extra and children under 16 not admitted.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.westminster-nice.com/en/",
+          "kind": "official",
+          "title": "Westminster Hôtel & Spa: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A four-star at 27 Promenade des Anglais, opened in 1881",
+          "with 99 rooms, junior suites and suites",
+          "the entry-level Escale rooms are 17 to 19 m²",
+          "the 400 m² spa costs extra and is closed to children under 16"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-splendid",
+      "topic": "hotel",
+      "claim": "Splendid Hôtel & Spa: 50 boulevard Victor Hugo; four stars; 400 m from the train station (hotel's count, earlier check); 130 rooms and suites; rooftop bar; spa; family business for four generations; room sizes not published.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.splendid-nice.com/en/",
+          "kind": "official",
+          "title": "Splendid Hôtel & Spa: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A four-star at 50 boulevard Victor Hugo, 400 metres from the station by the hotel's count",
+          "with 130 rooms and suites",
+          "run by one family for four generations",
+          "the site gives no room sizes"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-maison-durante",
+      "topic": "hotel",
+      "claim": "Maison Durante: 16 avenue Durante; two minutes' walk from the station (hotel's count, earlier check; the page also gives 150 m and 300 m figures); garden with orange trees and palms; Classic rooms about 14 m2 (shower), Superior 16.5-18 m2.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://maisondurante.fr/",
+          "kind": "official",
+          "title": "Maison Durante: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A house at 16 avenue Durante, two minutes' walk from the station by the hotel's count",
+          "a garden of orange trees and palms",
+          "The Classic rooms are 14 m² and the Superior rooms 16.5 to 18 m²"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-la-perouse",
+      "topic": "hotel",
+      "claim": "Hôtel La Pérouse: 11 quai Rauba Capeu; four-star boutique hotel; 53 rooms and suites; pool carved into the rock; La Vista rooftop over the Baie des Anges; rooms 'from EUR 192' on 1 Nov 2026 versus 'from EUR 280' on 20 Oct 2026 (price not used in the article); the page does not say whether the pool is open in winter; no winter closure notice found.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://hotel-la-perouse.com/en/",
+          "kind": "official",
+          "title": "Hôtel La Pérouse: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A four-star boutique hotel of 53 rooms and suites at 11 quai Rauba Capeu",
+          "a pool carved into the rock and a rooftop over the Baie des Anges",
+          "the pool is open-air, so ask what is open in February"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice-carnival.hotel-suisse",
+      "topic": "hotel",
+      "claim": "Hôtel Suisse: 15 quai Rauba Capeu; four stars; Italian-style building; 38 rooms, the Mediterranean visible from most; a 'Standard Single and Double no view' category.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.hotel-nice-suisse.com/en/",
+          "kind": "official",
+          "title": "Hôtel Suisse: official site"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-nice-carnival.html": [
+          "A four-star in an Italian-style building at 15 quai Rauba Capeu, with 38 rooms, most of them looking at the sea",
+          "a Standard Single and Double category with no view"
+        ]
+      }
     }
   ]
 }
