@@ -125,6 +125,12 @@ cp site/images/pinterest/<name>.png docs/images/pinterest/<name>.png
   links in sentences). Site links stay navy with the gold rule. Lives in section 14 of `style-v2.css`.
 - Content hangs on one left edge per layout.
 - All of this lives in the "Editorial v2" layer at the end of `style-v2.css`. Change it there.
+- Field journal (operator, 2026-11-01), section 16 of `style-v2.css` + the end of `js/gy-reveal.js`:
+  article pages read like an explorer's book: a dark cloth cover with a gold-foil frame for the title
+  (replaces "no gradient heroes" on article pages), CSS-numbered chapters, a wax-sealed verdict letter,
+  luggage-tag quick picks, a route-line contents, living writer portraits, page-turn reveals that never
+  hide content. Original artwork only: no names, crests, fonts or motifs from any film or book world.
+  Keep the verdict button inside a laptop's first screen (about 700px from the top).
 
 ### Editorial voice
 - Neutral, layered, "explain what was lost and what survives" tone.

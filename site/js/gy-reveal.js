@@ -797,3 +797,43 @@ window.gySaveTrip = function (box, dep) {
     gtag('event', 'affiliate_click', { partner: 'tripcom', page: location.pathname, placement: f.getAttribute('data-kind') + '_widget' });
   });
 })();
+
+/* Field journal (style-v2.css section 16): chapters stop at the reference matter, sections turn in
+   like pages as they reach the screen, a compass rides a progress line, passed stops fill in. */
+(function () {
+  var art = document.querySelector('section.article');
+  if (!art) return;
+  var stop = /^(sources|references|related|keep reading|liked this guide|frequently asked)/i, past = false;
+  Array.prototype.forEach.call(art.querySelectorAll(':scope > h2'), function (h) {
+    if (stop.test(h.textContent.trim())) past = true;
+    if (past) h.classList.add('gy-no-chapter');
+  });
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduce && 'IntersectionObserver' in window) {
+    /* only blocks below the first screen, and only an animation on entry: nothing is ever hidden */
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    Array.prototype.forEach.call(art.querySelectorAll(':scope > h2, :scope > figure, :scope > .table-scroll, :scope > aside:not(.gy-verdict)'), function (b) {
+      if (b.getBoundingClientRect().top > window.innerHeight) { b.classList.add('gy-reveal'); io.observe(b); }
+    });
+  }
+  var bar = document.createElement('div'); bar.className = 'gy-route';
+  var dot = document.createElement('div'); dot.className = 'gy-route-compass';
+  document.body.appendChild(bar); document.body.appendChild(dot);
+  var links = Array.prototype.slice.call(document.querySelectorAll('.gy-toc-link'));
+  var targets = links.map(function (a) { return document.getElementById(decodeURIComponent((a.getAttribute('href') || '').slice(1))); });
+  var ticking = false;
+  function update() {
+    ticking = false;
+    var r = art.getBoundingClientRect();
+    var p = Math.min(1, Math.max(0, -r.top / Math.max(1, r.height - window.innerHeight)));
+    bar.style.transform = 'scaleX(' + p + ')';
+    dot.style.left = (p * window.innerWidth) + 'px';
+    var current = -1;
+    targets.forEach(function (t, i) { if (t && t.getBoundingClientRect().top < window.innerHeight * 0.35) current = i; });
+    links.forEach(function (a, i) { a.classList.toggle('is-passed', i < current); });
+  }
+  window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  update();
+})();
