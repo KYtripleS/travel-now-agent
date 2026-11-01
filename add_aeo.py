@@ -994,11 +994,12 @@ REVISED = {
     "tokyo-to-kyoto-shinkansen-vs-flight-vs-bus": "2026-09-27",  # bus fares re-checked on Willer (from ¥2,100)
     "narita-haneda-to-central-tokyo": "2026-09-27",              # added Narita <-> Haneda, official fares
     "charter-a-boat-for-a-day": "2026-09-23",                    # Spain 1 Oct 2026, Greece, Croatia
-    "where-to-stay-in-tokyo": "2026-09-25",                      # rewrite: 17 verified hotels, tax, tables
+    "where-to-stay-in-tokyo": "2026-11-01",                      # added the tax section (2026 bands vs 3% from April 2027)
     "japan-tourist-taxes-2026": "2026-10-08",                    # corrected: Niseko tiered; Hokkaido/Sapporo; Fukuoka; Nagano's tax began 1 Jun 2026 (Hakuba)
     "hong-kong-first-timers-guide": "2026-10-04",                # corrected: tram fare HK$3.30, not HK$3
     "where-to-stay-in-sydney": "2026-10-05",                     # corrected: Great Southern works now run to 31 Jan 2027
     "is-the-weak-yen-a-bargain-or-trap": "2026-10-06",           # corrected: Himeji's ¥2,500 is for all non-residents; no Niseko foreigner price
+    "where-to-stay-in-hakuba": "2026-11-01",                     # added the busiest weeks of 2026/27 (official holiday calendars)
 }
 
 STOP_HEADINGS = re.compile(r"frequently asked|^sources|references|liked this guide|keep reading|related reading",
@@ -1438,7 +1439,44 @@ def add_stay_links(soup: BeautifulSoup, slug: str, article: Tag) -> tuple[int, l
             "title": f"Map of hotels around {page['area']} with prices, from Stay22"}))
         box.extend([h, b, map_dates_form(soup), frame])
         last.insert_after(box)
+        if slug in GLANCE_RATES:
+            placed += add_glance_rates(soup, glance.find_next("table"))
     return placed, unknown
+
+
+# Experiment E1 (2026-11-01, research/ai-agent-strategy-2026-11.md): a rates column in
+# the at-a-glance table, on two pages only so the other stay guides stay the control.
+# Hong Kong is the top ChatGPT landing and had 0 table clicks; GA4 placement "table".
+GLANCE_RATES = {"where-to-stay-in-hong-kong", "where-to-stay-in-kuala-lumpur"}
+
+
+def add_glance_rates(soup: BeautifulSoup, table: Tag | None) -> int:
+    """A "Rates" column: each hotel's own Booking.com page (stay22.HOTELS, checked by
+    hand), or a dash when Booking.com doesn't list it."""
+    if table is None or table.find("th") is None:
+        return 0
+    head = table.find("tr")
+    th = soup.new_tag("th", attrs={"data-aeo": "1"})
+    th.string = "Rates"
+    head.append(th)
+    placed = 0
+    for tr in table.find_all("tr")[1:]:
+        cells = tr.find_all("td")
+        if not cells:
+            continue
+        name = cells[0].get_text(" ", strip=True)
+        url = stay22.HOTELS.get(name) or next(
+            (u for k, u in stay22.HOTELS.items() if u and name.startswith(k + " (")), None)
+        td = soup.new_tag("td", attrs={"data-aeo": "1"})
+        if url:
+            a = _anchor(soup, stay22.hotel_rates(url), managed=False)
+            a.string = "Check rates →"
+            td.append(a)
+            placed += 1
+        else:
+            td.string = "–"
+        tr.append(td)
+    return placed
 
 
 def map_dates_form(soup: BeautifulSoup) -> Tag:
@@ -2753,9 +2791,12 @@ STAY_POINTERS = {
         'ten days between Tokyo and Kyoto or Osaka, with the lodging tax each city adds and when to book.'),
     # a list places several pointers on one page (a repeated dict key silently dropped the earlier one)
     "carry-on-packing-list-10-day-japan": [
+        # E2 (2026-11-01): the intro line pointed at the Japan hub and got 0 clicks in 28 days;
+        # it now names the two city guides where the hotels and rates are
         ("intro",
-         f'Packing for ten days usually means two bases. <a href="{_JP}">Where to stay in Japan</a> splits the '
-         'trip between Tokyo and Kyoto or Osaka, with the lodging tax each city adds and when to book.'),
+         f'Packing for ten days usually means two bases. <a href="{_T}">Where to stay in Tokyo</a> picks the '
+         f'station first and compares 17 hotels; <a href="{_K}">where to stay in Kyoto</a> does the same for '
+         'five areas and 14 hotels and ryokan.'),
         ("The Carry-On and Personal Item",
          f'Carrying everything between cities? Our where-to-stay guides for {_JP3} start with the station, so '
          'the walk with your bag stays short.'),

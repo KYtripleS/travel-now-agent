@@ -6,8 +6,8 @@ from pathlib import Path
 # Title rewrites optimized for search intent and CTR
 REWRITES = {
     "klook-vs-viator-vs-getyourguide.html": (
-        "Klook vs Viator vs GetYourGuide (2026): Which Is Cheaper & Better?",
-        "Honest comparison of Klook, Viator, and GetYourGuide. Compare prices, cancellation policies, tour availability, and mobile app experience before booking."
+        "Klook vs Viator vs GetYourGuide (2026): 6 Same Tickets, Priced",
+        "Is Viator cheaper than Klook? We priced six identical tickets, from teamLab to the Sagrada Família, on all three in October 2026: Klook was lowest on four, Viator and GetYourGuide on one each."
     ),
     "travel-insurance-japan.html": (
         "Japan Travel Insurance (2026): Is It Worth It? (Costs & Coverage)",

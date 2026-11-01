@@ -544,7 +544,8 @@
         ],
         "articles/where-to-stay-in-tokyo.html": [
           "¥100 per person per night to rooms from ¥10,000 to ¥14,999",
-          "¥200 from ¥15,000"
+          "¥200 from ¥15,000",
+          "Until 31 March 2027 it is a flat ¥100 or ¥200"
         ],
         "articles/where-to-stay-in-japan.html": [
           "¥100 on rooms from ¥10,000 to ¥14,999",
@@ -591,7 +592,9 @@
           "From 1 April 2027 it becomes 3% of the room charge on rooms of ¥13,000 or more a person a night"
         ],
         "articles/where-to-stay-in-tokyo.html": [
-          "From stays on 1 April 2027 it becomes 3% of the rate, with rooms under ¥13,000 exempt"
+          "From stays on 1 April 2027 it becomes 3% of the rate, with rooms under ¥13,000 exempt",
+          "From stays on 1 April 2027 it becomes 3% of the rate",
+          "Licensed private lodgings (minpaku) are also taxed from April 2027"
         ],
         "articles/where-to-stay-in-japan.html": [
           "From April 2027, 3% of the rate on stays of ¥13,000 or more per person"
@@ -5388,6 +5391,76 @@
         "articles/where-to-stay-for-tokyo-disney-resort.html": [
           "A minute's walk from Hatchobori Station",
           "Standard rooms are 11 square metres with a 140cm bed"
+        ]
+      }
+    },
+    {
+      "id": "au.school-holidays-2026-27",
+      "topic": "stat",
+      "recheck_days": 90,
+      "claim": "Australian government school summer holidays 2026-27: New South Wales (Eastern division) Friday 18 December 2026 to Wednesday 27 January 2027; Victoria Monday 21 December 2026 to Wednesday 27 January 2027, students back Thursday 28 January.",
+      "sources": [
+        {
+          "url": "https://education.nsw.gov.au/schooling/calendars/2027",
+          "kind": "official",
+          "title": "NSW Department of Education: 2027 term dates"
+        },
+        {
+          "url": "https://www.vic.gov.au/school-term-dates-and-holidays-victoria",
+          "kind": "official",
+          "title": "vic.gov.au: School term dates and holidays in Victoria"
+        }
+      ],
+      "checked": "2026-11-01",
+      "used_in": {
+        "articles/where-to-stay-in-hakuba.html": [
+          "From 18 December 2026 (New South Wales) and 21 December (Victoria) to 27 January 2027",
+          "Australian schools going back on 28 January"
+        ]
+      }
+    },
+    {
+      "id": "jp.national-holidays-2026-27-winter",
+      "topic": "stat",
+      "recheck_days": 180,
+      "claim": "Japan's national holidays in the 2026-27 ski season: Labour Thanksgiving Day Mon 23 Nov 2026; New Year's Day 1 Jan; Coming of Age Day Mon 11 Jan 2027; National Foundation Day Thu 11 Feb; Emperor's Birthday Tue 23 Feb; Vernal Equinox Day Sun 21 Mar with substitute holiday Mon 22 Mar. Government offices close 29 Dec to 3 Jan by law.",
+      "sources": [
+        {
+          "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+          "kind": "official",
+          "title": "Cabinet Office: national holidays 2026 and 2027"
+        },
+        {
+          "url": "https://laws.e-gov.go.jp/law/363AC0000000091",
+          "kind": "official",
+          "title": "Act on Holidays of Administrative Organs, Article 1 (29 December to 3 January)"
+        }
+      ],
+      "checked": "2026-11-01",
+      "used_in": {
+        "articles/where-to-stay-in-hakuba.html": [
+          "Coming of Age Day on the Monday",
+          "Vernal Equinox Day on the Sunday, and the Monday off in its place",
+          "Japan’s government offices close for these days"
+        ]
+      }
+    },
+    {
+      "id": "hk.lunar-new-year-2027",
+      "topic": "stat",
+      "recheck_days": 180,
+      "claim": "Lunar New Year's Day 2027 is Saturday 6 February; Hong Kong's general holidays are 6, 8 and 9 February 2027 (the 4th day substitutes for the 2nd, a Sunday).",
+      "sources": [
+        {
+          "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm",
+          "kind": "official",
+          "title": "GovHK: General holidays for 2027"
+        }
+      ],
+      "checked": "2026-11-01",
+      "used_in": {
+        "articles/where-to-stay-in-hakuba.html": [
+          "Hong Kong’s public holidays fall on 6, 8 and 9 February"
         ]
       }
     }
