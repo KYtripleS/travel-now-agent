@@ -22,6 +22,10 @@ BYLINE = re.compile(r'<p class="article-byline">.*?</p>', re.S)
 
 
 def writer_for(rel: str) -> dict:
+    if rel.startswith("countries/"):               # the layered country profiles: history and culture
+        return BY_ID["margaret"]
+    if rel.startswith("cities/"):                  # city and neighbourhood guides
+        return BY_ID["mina"]
     slug = Path(rel).stem
     for a in A:                                    # slug beats win: an event guide is an event guide
         pat = a["beats"].get("slug")
@@ -46,8 +50,10 @@ def byline(a: dict, src: Path) -> str:
 def main() -> None:
     write = "--write" in sys.argv
     changed, count = 0, {}
-    for src in sorted((SITE / "articles").glob("*.html")):
-        rel = f"articles/{src.name}"
+    pages = (sorted((SITE / "articles").glob("*.html")) + sorted((SITE / "cities").glob("*/*.html"))
+             + sorted((SITE / "countries").glob("*/index.html")))
+    for src in pages:
+        rel = src.relative_to(SITE).as_posix()
         html = src.read_text(encoding="utf-8")
         if 'class="article-byline"' not in html:
             continue

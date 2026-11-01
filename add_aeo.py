@@ -1006,6 +1006,12 @@ V = {
         cta=("amazon", "B078S3M2NX", "View the EPICKA TA-105 on Amazon")),
 }
 
+# Verdicts for the guides that had partner links but no answer at the top (2026-11-01): each
+# summarises only what its page already says, with a partner link the page already carries.
+# Written per page, checked against the page text; a hand-written entry above always wins.
+for _slug, _v in json.loads((Path(__file__).resolve().parent / "data/verdicts_extra.json").read_text()).items():
+    V.setdefault(_slug, dict(text=_v["text"], cta=tuple(_v["cta"])))
+
 # Pages whose substance was revised on the date given (facts re-checked, not
 # just re-laid-out). Only these get a fresh dateModified; a verdict box that
 # restates an article's own conclusion is not a reason to claim it was updated.
