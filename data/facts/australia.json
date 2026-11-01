@@ -17,7 +17,12 @@
           "title": "ATO: commercial residential premises and GST"
         }
       ],
-      "checked": "2026-10-28"
+      "checked": "2026-10-28",
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "10%, in full on hotel and hostel stays of under 28 days"
+        ]
+      }
     },
     {
       "id": "au.nsw.accommodation-tax.none",
@@ -542,6 +547,450 @@
       "used_in": {
         "articles/where-to-stay-in-melbourne-australian-open.html": [
           "from a Boutique room of about 14 m² to a Superior room of 26 m²"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.mardi-gras.dates-2027",
+      "topic": "place",
+      "claim": "Sydney Gay and Lesbian Mardi Gras lists the 2027 festival as 12 February to 7 March 2027, Fair Day on Sunday 14 February 2027 (Victoria Park, 10am to 21:00, tagged Free) and the 49th Parade on Saturday 6 March 2027, listed 18:00 to 23:00 on Oxford Street and Flinders Street.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.mardigras.org.au/ways-to-contribute/apply-to-perform/mardi-gras-2026/",
+          "kind": "official",
+          "title": "Mardi Gras+ applications: festival 12 February to 7 March 2027"
+        },
+        {
+          "url": "https://www.mardigras.org.au/2027-festival/signature-events/",
+          "kind": "official",
+          "title": "2027 signature events: Fair Day 14 Feb, Parade 6 Mar"
+        },
+        {
+          "url": "https://www.mardigras.org.au/event/parade/",
+          "kind": "official",
+          "title": "Parade 2027 event page"
+        },
+        {
+          "url": "https://www.mardigras.org.au/event/fair-day/",
+          "kind": "official",
+          "title": "Fair Day 2027 event page"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "Friday 12 February to Sunday 7 March",
+          "Sunday 14 February, 10am to 9pm",
+          "The Parade, listed for 6pm to 11pm",
+          "The festival calls this the 49th annual Parade, under the theme HYPERBLOOM"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.mardi-gras.route-2027",
+      "topic": "place",
+      "claim": "The festival describes the Parade as running from Hyde Park to Moore Park along Oxford Street, Flinders Street and Anzac Parade, with over 200 floats, over 12,000 marchers led by Dykes on Bikes, LGBTQIA+ First Nations communities and the 78ers, and hundreds of thousands of people in free and premium ticketed viewing areas; it is listed on Gadigal land.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.mardigras.org.au/event/parade/",
+          "kind": "official",
+          "title": "Parade 2027 event page"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "a route from Hyde Park to Moore Park along Oxford Street, Flinders Street and Anzac Parade",
+          "more than 200 floats and more than 12,000 marchers",
+          "It takes place on Gadigal land"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.mardi-gras.viewing-2027",
+      "topic": "place",
+      "claim": "The festival's accessibility page lists a free Accessible Viewing Area (free tickets, seating, alcohol-free zone) and one paid ticketed area, Glitter Club, with food and bars; a free shuttle runs from Foveaux Street Bus Stand F to Albion and Bourke Streets on Saturday 6 March 2027 from 5pm to 8:30pm for registered guests, who must register by 5pm on Tuesday 26 January 2027.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.mardigras.org.au/parade-accessibility/",
+          "kind": "official",
+          "title": "Parade accessibility and viewing"
+        },
+        {
+          "url": "https://www.mardigras.org.au/policies/parade-ticketing-viewing-terms-and-conditions/",
+          "kind": "official",
+          "title": "Parade ticketing and viewing terms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "A free Accessible Viewing Area has seating and an unobstructed view",
+          "One paid area, Glitter Club, has food, bars and its own accessible seating",
+          "must register by 5pm on Tuesday 26 January 2027"
+        ]
+      },
+      "note": "The accessibility page is dated for 2027 but the ticketing terms page still showed 2026; Glitter Club 2027 ticketing not confirmed."
+    },
+    {
+      "id": "au.syd.mardi-gras.programme-timing",
+      "topic": "place",
+      "claim": "The Mardi Gras+ page says approved events appear on the festival website and app from 6 November (2026), and the signature events page says full 2027 festival dates and events will be announced in the last quarter of the year.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.mardigras.org.au/ways-to-contribute/apply-to-perform/mardi-gras-2026/",
+          "kind": "official",
+          "title": "Mardi Gras+ applications"
+        },
+        {
+          "url": "https://www.mardigras.org.au/2027-festival/signature-events/",
+          "kind": "official",
+          "title": "2027 signature events"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "Approved Mardi Gras+ events appear on the festival's website and app from 6 November"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.mardi-gras.transport-2026",
+      "topic": "transport",
+      "claim": "For the Parade of Saturday 28 February 2026 the festival's travel page gave: roads from the CBD to Moore Park closed 4pm to 2am; Oxford Street (College Street to Darlinghurst Road) and Flinders Street northbound from 5:30pm to 2am; Museum Station closed 5pm to 4am; Central for the southern side and Town Hall, St James, Martin Place or Kings Cross for the northern; Metro at Central, Gadigal and Martin Place; Moore Park light rail for Flinders Street; extra buses from 3pm diverting from 4pm; clearways 6am to 2am; no rideshare pick-up bookings in closed areas; crossing points closed after 6:30pm.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.mardigras.org.au/parade-transport/",
+          "kind": "official",
+          "title": "Travelling to and from the Parade (2026 pattern)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "major roads from the city centre to Moore Park closed from 4pm to 2am",
+          "Museum Station closed from 5pm to 4am",
+          "strict no-parking clearways ran from 6am, residents included",
+          "rideshare could not take pick-ups inside the closed areas",
+          "Commonwealth Street was inside the 2026 closure zone, from 5pm to 2am"
+        ]
+      },
+      "note": "2026 pattern only. Transport for NSW's Mardi Gras Parade event page redirected to its events list on 1 Nov 2026; recheck for 2027."
+    },
+    {
+      "id": "au.syd.mardi-gras.neighbourhood-guide",
+      "topic": "place",
+      "claim": "The festival's neighbourhood guide calls Darlinghurst the heart of Sydney's LGBTQIA+ community, says Oxford Street is where most revellers end up at midnight, lists Oxford House, 25hours Hotel The Olympia, Paramount House Hotel (Surry Hills), the Adge Hotel, Ace Hotel, W Sydney, Capella, Sofitel Wentworth (Sydney's original five-star) and The Old Clare Hotel and The Urban in Newtown, and points to King Street, the Newtown Hotel and the Imperial in Erskineville.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.mardigras.org.au/plan-your-visit/neighbourhood-guides/",
+          "kind": "official",
+          "title": "Where to stay and play in Sydney"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "The festival's neighbourhood guide calls Darlinghurst the heart of Sydney's LGBTQIA+ community",
+          "a landmark that the festival's guide calls Sydney's original five-star",
+          "the festival's guide says it straddles the inner west and the city centre"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.nsw.accommodation-tax.none",
+      "topic": "tax",
+      "claim": "No tourist or hotel tax was found in Sydney in 2026: Revenue NSW's list of state taxes, duties and levies includes none on accommodation, and no city levy was found.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties",
+          "kind": "official",
+          "title": "Revenue NSW: taxes, duties, levies and royalties"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "None found in Sydney in 2026",
+          "That is a negative finding, not an official statement that no levy exists"
+        ]
+      },
+      "note": "Negative finding, as in data/facts/australia.json."
+    },
+    {
+      "id": "au.syd.airport-link.station-access-fee",
+      "topic": "fare",
+      "claim": "Transport for NSW lists the Sydney Airport station access fee as A$18.61 for adults (weekly cap A$37.75, A$19.00 on a single trip ticket), charged on top of the train fare by the Airport Link Company, the same on Opal and contactless, not part of the Opal daily or weekly cap; T8 airport services run 5am to midnight; International station via Terminal 1 Exit A.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://transportnsw.info/travel-info/airport-travel/getting-to-from-sydney-airport",
+          "kind": "official",
+          "title": "Transport for NSW: getting to and from Sydney Airport"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "A station access fee of A$18.61 for adults is added to the ordinary train fare",
+          "it is A$19.00 on a single ticket",
+          "the airport stations run from 5am to midnight"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.airport-train.time",
+      "topic": "transport",
+      "claim": "Sydney Airport says the airport is 13 minutes by train from the city, with Airport Link trains approximately every 10 minutes.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.sydneyairport.com.au/info-sheet/transport-options",
+          "kind": "operator",
+          "title": "Sydney Airport: transport options"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "the city is 13 minutes away with trains about every 10 minutes"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.opal.fares-2026",
+      "topic": "fare",
+      "claim": "Adult Opal caps are A$19.30 a day Monday to Thursday, A$9.65 on Fridays, Saturdays, Sundays and public holidays and A$50 a week, excluding the airport station access fee; the adult peak train fare for 0 to 10 km is A$4.33.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://transportnsw.info/tickets-fares/fares/adult-opal-fares",
+          "kind": "official",
+          "title": "Transport for NSW: adult Opal fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "the A$4.33 peak adult fare",
+          "The Opal daily cap is A$9.65 on a Saturday, and A$50 a week"
+        ]
+      },
+      "note": "Airport to city fare band (0-10 km or 10-20 km) not confirmed; the 22.94 total in the text is labelled as the editors' arithmetic for the 0-10 km case."
+    },
+    {
+      "id": "au.syd.hotel.paramount-house",
+      "topic": "hotel",
+      "claim": "Paramount House Hotel: boutique hotel in the former Paramount Pictures headquarters at 80 Commonwealth Street, Surry Hills; co-tenants Golden Age Cinema, Paramount Coffee Project, Poly and A.P Bakery.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://paramounthousehotel.com/",
+          "kind": "official",
+          "title": "Paramount House Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "A boutique hotel in the former headquarters of Paramount Pictures at 80 Commonwealth Street"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.adge",
+      "topic": "hotel",
+      "claim": "ADGE Hotel & Residences: 254 rooms and residences at 212 Riley Street, Surry Hills; Nespresso machine, SMEG fridge and APOTHICALS products in every room.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://adgehotel.com.au/",
+          "kind": "official",
+          "title": "ADGE Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "254 rooms and residences at 212 Riley Street",
+          "with a Nespresso machine and SMEG fridge in every room"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.ace",
+      "topic": "hotel",
+      "claim": "Ace Hotel Sydney: 47 Wentworth Avenue (per Booking.com address), four restaurants and bars including the 18th-floor Kiln, Medium rooms about 25-27 m2, Terrace 20-24 m2, Large 35-39 m2; 'a moment away from Central Station' per the hotel.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://acehotel.com/sydney/",
+          "kind": "official",
+          "title": "Ace Hotel Sydney"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "rooms listed from about 20 to 39 square metres by type",
+          "sections of Wentworth Avenue closed from 4pm to 1.30am in 2026"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.oxford-house",
+      "topic": "hotel",
+      "claim": "Oxford House: 'an urban resort above Oxford Street' at 21 Oxford Street, Paddington, with boutique rooms, private balconies, a pool terrace and Busby's restaurant and bar.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://oxfordhousesydney.com/",
+          "kind": "official",
+          "title": "Oxford House"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "An \"urban resort above Oxford Street\" at 21 Oxford Street"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.25hours",
+      "topic": "hotel",
+      "claim": "25hours Hotel The Olympia: 109 rooms (Renegade or Dreamer), 1 Oxford Street, venues The Palomar, The Mulwray, Jacob the Angel and rooftop Monica overlooking Paddington and the skyline.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://25hours-hotels.com/sydney/the-olympia/",
+          "kind": "official",
+          "title": "25hours Hotel The Olympia"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "109 rooms, \"Renegade\" or \"Dreamer\" in style, at 1 Oxford Street"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.sheraton",
+      "topic": "hotel",
+      "claim": "Sheraton Grand Sydney Hyde Park: 558 rooms including 48 suites, 20 with balconies overlooking Hyde Park, at 161 Elizabeth Street.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/sydsi-sheraton-grand-sydney-hyde-park/overview/",
+          "kind": "official",
+          "title": "Marriott: Sheraton Grand Sydney Hyde Park"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "558 rooms at 161 Elizabeth Street, including 48 suites, 20 with balconies overlooking Hyde Park"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.hyde-park-inn",
+      "topic": "hotel",
+      "claim": "Hyde Park Inn: 271 Elizabeth Street, corner of Elizabeth and Liverpool Streets opposite Museum train station; self-catering rooms from compact budget standard rooms; complimentary light continental breakfast and car parking.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://hydeparkinn.com.au/",
+          "kind": "official",
+          "title": "Hyde Park Inn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "At 271 Elizabeth Street on the corner of Liverpool Street, opposite Museum Station"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.capella",
+      "topic": "hotel",
+      "claim": "Capella Sydney: heritage-listed former Department of Education building in the Sandstone Precinct, address 24 Loftus Street (per Booking.com).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://capellahotels.com/en/capella-sydney",
+          "kind": "official",
+          "title": "Capella Sydney"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "A heritage-listed hotel at 24 Loftus Street, in the former Department of Education building"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.sofitel-wentworth",
+      "topic": "hotel",
+      "claim": "Sofitel Sydney Wentworth: 436 redesigned rooms and suites at 61-101 Phillip Street; metro, train, ferry and bus within walking distance.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.sofitelsydney.com.au/",
+          "kind": "official",
+          "title": "Sofitel Sydney Wentworth"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "436 redesigned rooms and suites at 61-101 Phillip Street"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.kirketon",
+      "topic": "hotel",
+      "claim": "Kirketon Hotel Sydney: 229 Darlinghurst Road, between Darlinghurst, Potts Point and Kings Cross; the hotel says it is a 5-minute walk from Oxford Street and the CBD; free luggage storage and early check-in subject to availability.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.kirketon.com.au/",
+          "kind": "official",
+          "title": "Kirketon Hotel Sydney"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "which the hotel says is a five-minute walk from Oxford Street and the city centre"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.urban-newtown",
+      "topic": "hotel",
+      "claim": "The Urban Newtown: 52-60 Enmore Road; a block from the Enmore Theatre; direct-booking offer of earlier check-in (12:30pm), later check-out (11:30am) and same-day cancellation.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://theurbannewtown.com.au/",
+          "kind": "official",
+          "title": "The Urban Newtown"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "At 52-60 Enmore Road, a block from the Enmore Theatre"
+        ]
+      }
+    },
+    {
+      "id": "au.syd.hotel.old-clare",
+      "topic": "hotel",
+      "claim": "The Old Clare Hotel: 1 Kensington Street, Chippendale; two heritage-listed buildings; rooftop pool and bar, 24-hour reception, parking (fees apply), pet-friendly room.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.odehotels.com/the-old-clare-hotel/",
+          "kind": "official",
+          "title": "The Old Clare Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-sydney-mardi-gras.html": [
+          "At 1 Kensington Street, Chippendale, across two heritage-listed buildings"
         ]
       }
     }

@@ -2246,6 +2246,16 @@
           "url": "https://www.pref.osaka.lg.jp/o050040/zei/alacarte/shukuhakuzei-kaisei.html",
           "kind": "official",
           "title": "Osaka Prefecture: changes to the accommodation tax"
+        },
+        {
+          "url": "https://www.pref.osaka.lg.jp/o070070/toshimiryoku/syukuhakuzei/index.html",
+          "kind": "official",
+          "title": "Osaka Prefecture: the accommodation tax"
+        },
+        {
+          "url": "https://www.pref.osaka.lg.jp/o070070/toshimiryoku/syukuhakuzei/syukuhakuzeikeika.html",
+          "kind": "official",
+          "title": "Osaka Prefecture: history of the tax"
         }
       ],
       "checked": "2026-10-28",
@@ -2258,6 +2268,12 @@
         ],
         "articles/hotel-taxes-around-the-world-2026.html": [
           "Since 1 September 2025 Osaka Prefecture has charged ¥200 a person a night on rooms of ¥5,000 to ¥14,999, ¥400 from ¥15,000 to ¥19,999 and ¥500 from ¥20,000"
+        ],
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "in force since 1 September 2025",
+          "consumption tax and meals are left out",
+          "¥100, ¥200 and ¥300, with rooms under ¥7,000 exempt",
+          "at most ¥500 per person per night"
         ]
       },
       "watch": "Osaka[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
@@ -5506,6 +5522,444 @@
       "used_in": {
         "articles/where-to-stay-in-hakuba.html": [
           "closed from 16 to 20 November 2026 for an electrical inspection"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.bloom-jma",
+      "topic": "place",
+      "claim": "JMA Osaka Regional HQ: normal (1991-2020) first flowers 27 March and full bloom 4 April; 2025 matched the normal (27 March, 4 April); 2026 was 26 March and 3 April; sample tree in Nishinomaru Garden, Osaka Castle Park since 1977; flowering = 5-6 blossoms open, full bloom = about 80%; earliest first flowers 19 March 2023, latest 10 April 1984.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.data.jma.go.jp/osaka/topics/R08/20260326_sakurakaika.pdf",
+          "kind": "official",
+          "title": "JMA Osaka Regional HQ press release, 26 March 2026"
+        },
+        {
+          "url": "https://www.data.jma.go.jp/osaka/topics/R08/20260403_sakuramankai.pdf",
+          "kind": "official",
+          "title": "JMA Osaka Regional HQ press release, 3 April 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "open, on average, on 27 March and reach full bloom on 4 April",
+          "five or six blossoms have opened on the sample tree",
+          "full bloom came eight days after the first flowers",
+          "the earliest first flowers on record fell on 19 March, in 2023, and the latest on 10 April, in 1984"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.forecast-2026",
+      "topic": "stat",
+      "claim": "For the 2026 season: Japan Meteorological Corporation first forecast 18 Dec 2025 (Kinki about average, no Osaka date in release); Weathernews 8 Jan 2026 (Osaka 27 March); Japan Weather Association 29 Jan 2026 (Osaka 25 March); Osaka first flowers were observed 26 March. No 2027 forecast found as of 1 Nov 2026.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000013.000135496.html",
+          "kind": "news",
+          "title": "Japan Meteorological Corporation via PR TIMES, 18 Dec 2025"
+        },
+        {
+          "url": "https://weathernews.jp/news/202601/080056/",
+          "kind": "news",
+          "title": "Weathernews first 2026 forecast, 8 Jan 2026"
+        },
+        {
+          "url": "https://www.jwa.or.jp/news/2026/01/32859/",
+          "kind": "news",
+          "title": "Japan Weather Association first 2026 forecast, 29 Jan 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "the first came from the Japan Meteorological Corporation on 18 December 2025",
+          "Weathernews followed on 8 January with 27 March for Osaka",
+          "the Japan Weather Association on 29 January with 25 March",
+          "The trees opened on 26 March, within a day of both"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.mint-2026",
+      "topic": "place",
+      "claim": "Japan Mint Osaka Sakura no Toorinuke 2026: 9-15 April (Thu-Wed), 560 m path beside the old Yodo River, weekdays 10:00 and weekends 9:00 to 19:15, full exit 19:45, 140 varieties and 331 trees, flower of the year Gyoiko, about 181,000 visitors, about 70% open on 15 April; advance online application first come first served from 09:00 on 18 March, 30-minute slots, one slot per day, up to five people, QR code and baggage check, no parking; format announced 14 Jan 2026.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.mint.go.jp/enjoy/toorinuke/sakura_osaka_news_r8.html",
+          "kind": "official",
+          "title": "Japan Mint: Sakura no Toorinuke 2026 news"
+        },
+        {
+          "url": "https://www.mint.go.jp/enjoy/toorinuke/sakura_osaka_data.html",
+          "kind": "official",
+          "title": "Japan Mint: Sakura no Toorinuke data"
+        },
+        {
+          "url": "https://www.mint.go.jp/media/2026/03/2026_torinuke_moushikomi.pdf",
+          "kind": "official",
+          "title": "Japan Mint: 2026 application rules"
+        },
+        {
+          "url": "https://www.mint.go.jp/shintyaku/topics/topics_new_20250114.html",
+          "kind": "official",
+          "title": "Japan Mint: announcement, 14 January 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "opens a 560-metre path beside the old Yodo River",
+          "from Thursday 9 April to Wednesday 15 April",
+          "140 varieties and 331 trees",
+          "about 181,000 visitors",
+          "Applications opened at 09:00 on 18 March",
+          "up to five people",
+          "about 70 per cent open overall"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.mint-access",
+      "topic": "transport",
+      "claim": "The Mint's 2026 page gives about 15 minutes' walk from Osaka Metro Temmabashi and from JR Osakajo-kitazume.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.mint.go.jp/enjoy/toorinuke/sakura_osaka_news_r8.html",
+          "kind": "official",
+          "title": "Japan Mint: Sakura no Toorinuke 2026 news"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "about 15 minutes' walk from Temmabashi or Osakajo-kitazume"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.castle-park",
+      "topic": "place",
+      "claim": "Osaka Castle Park has about 3,000 cherry trees; Nishinomaru Garden has about 300 Somei Yoshino and weeping cherries and in 2026 opened evenings 20 March to 12 April, 09:00-21:00, last entry 20:30, ¥350 for high school age and over (special price); the park is open all day and free (facilities charge).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.osakacastlepark.jp/flower/cherry_blossom.html",
+          "kind": "official",
+          "title": "Osaka Castle Park: cherry blossom 2026"
+        },
+        {
+          "url": "https://www.osakacastlepark.jp/springfes/other_event/",
+          "kind": "official",
+          "title": "Osaka Castle Park: Nishinomaru Garden evening opening 2026"
+        },
+        {
+          "url": "https://osaka-info.jp/en/spot/osaka-castle-park/",
+          "kind": "official",
+          "title": "OSAKA-INFO: Osaka Castle Park"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "about 3,000 cherry trees",
+          "about 300 Somei Yoshino and weeping cherries",
+          "from 20 March to 12 April, until 21:00 with last entry at 20:30",
+          "special ¥350 for high school age and over",
+          "The park is open all day and free to enter"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.kema-sakuranomiya",
+      "topic": "place",
+      "claim": "Kema Sakuranomiya Park: 4.2 km along both banks of the Okawa, about 4,800 trees (Somei Yoshino, Yamazakura, Satozakura), late March to mid-April; about 2 minutes on foot from JR Sakuranomiya and Osakajo-kitazume, about 8 from Osaka Metro Temmabashi.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://osaka-info.jp/experience/en/osaka/spot/458",
+          "kind": "official",
+          "title": "OSAKA-INFO: Kema Sakuranomiya Park"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "runs for 4.2 kilometres along both banks of the Okawa",
+          "about 4,800 cherry trees",
+          "about two minutes on foot from JR Sakuranomiya and Osakajo-kitazume stations and about eight from Temmabashi on the subway"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.expo-park",
+      "topic": "place",
+      "claim": "SAKURA EXPO 2026 at Expo '70 Commemorative Park ran 20 March to 5 April with about 5,500 trees of 12 varieties and lighting from sunset to 21:00 on days set by bloom; adult admission ¥450 from 1 April 2026; from Shin-Osaka take the Midosuji Line to Senri-Chuo then the Osaka Monorail; Chuo Gate is about 5 minutes from Expo Memorial Park station.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o070130/prs_51190.html",
+          "kind": "official",
+          "title": "Osaka Prefecture press release, 17 March 2026"
+        },
+        {
+          "url": "https://www.expo70-park.jp/guide/access",
+          "kind": "official",
+          "title": "Expo '70 Commemorative Park: access"
+        },
+        {
+          "url": "https://www.expo70-park.jp/guide/fee/",
+          "kind": "official",
+          "title": "Expo '70 Commemorative Park: fees"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "from 20 March to 5 April in 2026 among about 5,500 cherry trees of 12 varieties",
+          "adult admission is ¥450",
+          "about five minutes' walk from the monorail station to the Chuo Gate",
+          "the Osaka Metro Midosuji Line to Senri-Chuo and then the Osaka Monorail"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.rapit",
+      "topic": "fare",
+      "claim": "Nankai Rapi:t: fastest 34 minutes Kansai Airport-Namba, Airport Express about 45 minutes; Rapi:t digital ticket (one-way fare plus Rapi:t seat) ¥1,410 regular, ¥1,590 super.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.nankai.co.jp/en_railway/traffic/express/rapit.html",
+          "kind": "operator",
+          "title": "Nankai: Limited Express Rapi:t"
+        },
+        {
+          "url": "https://www.nankai.co.jp/en_railway/ticket/rapit",
+          "kind": "operator",
+          "title": "Nankai: Rapi:t Digital Ticket"
+        },
+        {
+          "url": "https://www.nankai.co.jp/en_railway/access-fromkix",
+          "kind": "operator",
+          "title": "Nankai: from Kansai-Airport Station"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "as little as 34 minutes and the Airport Express about 45",
+          "¥1,410 for a regular seat and ¥1,590 for a super seat"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.haruka",
+      "topic": "fare",
+      "claim": "JR West sells a discounted HARUKA one-way ticket from Kansai Airport for foreign passport holders on a short-term stay; its page says the price changes for tickets sold on or after 1 November 2026 (new price not yet read; old: ¥1,900 Osaka/Shin-Osaka).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/oneway/haruka/",
+          "kind": "operator",
+          "title": "West Japan Railway: HARUKA one-way ticket"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "the price changes for tickets sold from 1 November 2026"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "jp.osaka.itami",
+      "topic": "transport",
+      "claim": "Osaka Itami Airport lists limousine buses of about 30 minutes to Osaka Station (Umeda) and Namba and about 25 minutes to Shin-Osaka; Osaka Monorail connects at Hotarugaike (Hankyu) and Senri-Chuo (Kita-Osaka Kyuko/Midosuji).",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.osaka-airport.co.jp/en/access/from-airport/bus",
+          "kind": "official",
+          "title": "Osaka Itami Airport: buses from the airport"
+        },
+        {
+          "url": "https://www.osaka-monorail.co.jp/language/en/route/osaka-airport-fare/",
+          "kind": "operator",
+          "title": "Osaka Monorail: Osaka-Airport station"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "about 30 minutes to Osaka Station (Umeda) and to Namba, and about 25 minutes to Shin-Osaka",
+          "at Hotarugaike, for the Hankyu line, and at Senri-Chuo, for the Midosuji line"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.hotel.new-otani",
+      "topic": "hotel",
+      "claim": "Hotel New Otani Osaka (1-4-1 Shiromi): JR Osakajo-koen about 3 minutes, Osaka Business Park station about 3 minutes, about 10 minutes from JR Osaka Station in all; 21 room types; Castle-view stay promotion 3 April-26 December 2026.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.newotani.co.jp/en/osaka/access/",
+          "kind": "official",
+          "title": "Hotel New Otani Osaka: access"
+        },
+        {
+          "url": "https://www.newotani.co.jp/en/osaka/",
+          "kind": "official",
+          "title": "Hotel New Otani Osaka"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "about three minutes' walk from JR Osakajo-koen station and from Osaka Business Park station",
+          "21 room types"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.hotel.keihan-kyobashi",
+      "topic": "hotel",
+      "claim": "Hotel Keihan Kyobashi Grande: directly above Keihan Kyobashi Station; Moderate Room 17 m2 and Casual Twin 19 m2 renovated March 2026.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://kyobashi.hotelkeihan.co.jp/",
+          "kind": "official",
+          "title": "Hotel Keihan Kyobashi Grande"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "its Moderate Room is 17 m² and its Casual Twin 19 m², both renovated in March 2026"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.hotel.imperial",
+      "topic": "hotel",
+      "claim": "Imperial Hotel Osaka (Temmabashi 1-8-50): 5 to 7 minutes' walk from JR Sakuranomiya; standard rooms 30 m2; free shuttle to JR Osaka Station every 20 minutes, about 15 minutes, guests only on weekdays and from 10:00 from the hotel; says cherry-viewing events take place beside the Mint.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.imperialhotel.co.jp/en/osaka/access",
+          "kind": "official",
+          "title": "Imperial Hotel Osaka: access"
+        },
+        {
+          "url": "https://www.imperialhotel.co.jp/en/osaka/access/bus",
+          "kind": "official",
+          "title": "Imperial Hotel Osaka: shuttle bus"
+        },
+        {
+          "url": "https://www.imperialhotel.co.jp/en/osaka/stay/room",
+          "kind": "official",
+          "title": "Imperial Hotel Osaka: guest rooms"
+        },
+        {
+          "url": "https://www.imperialhotel.co.jp/en/osaka/access/location",
+          "kind": "official",
+          "title": "Imperial Hotel Osaka: surrounding area"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "about five to seven minutes' walk from JR Sakuranomiya; standard rooms are 30 m²",
+          "every 20 minutes, about 15 minutes"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.hotel.doubletree",
+      "topic": "hotel",
+      "claim": "DoubleTree by Hilton Osaka Castle (Otemae 1-1-1): 373 rooms; Temmabashi station about 5 minutes on foot; castle's Kyobashi-guchi gate about 2 minutes; executive lounge on the 20th floor.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://doubletree-osaka-castle.hiltonjapan.co.jp/info",
+          "kind": "official",
+          "title": "DoubleTree by Hilton Osaka Castle: hotel information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "373 rooms at Otemae 1-1-1, about five minutes from Temmabashi station and two from the castle's Kyobashi-guchi gate"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.hotel.riverside",
+      "topic": "hotel",
+      "claim": "Osaka Riverside Hotel: 125 rooms; about 2 minutes' walk from JR Sakuranomiya west exit; two stations (about 4 minutes by Loop Line) from JR Osaka Station; breakfast buffet ¥1,100; standard single has a 120 cm semi-double bed.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://skhotel-group.com/osaka-riverside-hotel/en/",
+          "kind": "official",
+          "title": "Osaka Riverside Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "125 rooms about two minutes' walk from the west exit of JR Sakuranomiya, two stops and about four minutes from Osaka Station",
+          "a ¥1,100 breakfast buffet"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.hotel.respire",
+      "topic": "hotel",
+      "claim": "Hotel Hankyu RESPIRE OSAKA: lobby on the 9th floor of Yodobashi Umeda Tower; JR Osaka Station about 3 minutes, Hankyu Osaka-umeda and Midosuji Line Umeda about 5 minutes on foot.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.hankyu-hotel.com/en/hotel/respire/osaka",
+          "kind": "official",
+          "title": "Hotel Hankyu RESPIRE OSAKA"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "about three minutes' walk from JR Osaka Station and five from Hankyu Umeda and the Midosuji Line"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.hotel.shin-osaka",
+      "topic": "hotel",
+      "claim": "Hotel Shin'osaka: 1-minute walk from Shin-Osaka Station East Exit; breakfast buffet ¥1,200 (¥1,000 with advance purchase); front door may be locked 1:00 to 5:00, staff open on request.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://www.hso.co.jp/en/",
+          "kind": "official",
+          "title": "Hotel Shin'osaka"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "a ¥1,200 breakfast buffet (¥1,000 if bought in advance)",
+          "locked from 1:00 to 5:00"
+        ]
+      }
+    },
+    {
+      "id": "jp.osaka.hotel.swissotel",
+      "topic": "hotel",
+      "claim": "Swissotel Nankai Osaka: 546 rooms above Nankai Namba Station; 6th-floor lobby renewal works began 20 August 2026, no end date given.",
+      "checked": "2026-11-01",
+      "sources": [
+        {
+          "url": "https://swissotelnankaiosaka.com/",
+          "kind": "official",
+          "title": "Swissotel Nankai Osaka"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+          "546 rooms rising above Nankai Namba Station",
+          "began on 20 August 2026, with no end date given"
         ]
       }
     }

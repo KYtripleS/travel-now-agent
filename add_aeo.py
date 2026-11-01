@@ -221,6 +221,17 @@ V = {
              "cruises on GetYourGuide, which lays out menu tiers clearly and applies free cancellation most "
              "consistently; and anything unusual — private charters, tall ships — on Viator.",
         cta=("klook", "Check Sydney harbour cruises on Klook")),
+    # ticket comparisons: the answer and a partner button above the fold, like the tour pages
+    "where-to-buy-disneyland-paris-tickets": dict(
+        text="For a fixed date, buy from Tiqets or GetYourGuide: on 31 October they were within 15p of each "
+             "other and £3.84 to £10.41 under Disney’s own price for the same ticket. Buy from "
+             "disneylandparis.com for an undated ticket valid for a year, or for a Disney Hotel package.",
+        cta=("href", "Check Disneyland Paris tickets on Tiqets", "https://tiqets.tpx.lu/dPBVw8yl")),
+    "where-to-buy-universal-studios-japan-tickets": dict(
+        text="For a 1-Day Studio Pass or an Express Pass, the official store and KKday charged the same on the "
+             "day we compared, 31 October; KKday shows the price in US dollars. Every seller we checked says "
+             "the order cannot be cancelled once bought, so fix your date first.",
+        cta=("href", "Check Studio Passes on KKday", "https://kkday.tpx.lu/Ew1DdWsa")),
     "where-to-book-jeju-bus-tour": dict(
         text="Book on Klook for a small-group, English-only Jeju tour with hotel pickup and no shopping "
              "stops; on KKday for the widest choice of routes, including Udo island. Check for shopping "
@@ -427,6 +438,18 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-singapore-chinese-new-year": dict(
+        text="For the Chinatown lights, stay in Chinatown: the PARKROYAL Pickering is the comfortable pick, Furama City Centre the good-value one and The Fullerton the splurge. Chinese New Year is 6 and 7 February; the light-up, River Hongbao and Chingay dates are not yet announced. Add 19.9% (service charge and GST) to a headline rate.",
+        link_text="Chinatown",
+        cta=_stay_cta("where-to-stay-in-singapore-chinese-new-year", "See hotels around Chinatown")),
+    "where-to-stay-in-sydney-mardi-gras": dict(
+        text="For Mardi Gras, stay in Darlinghurst: the Parade runs along Oxford Street on Saturday 6 March 2027. Capella Sydney is the splurge, Paramount House Hotel the comfortable pick, Hyde Park Inn the budget one. Sydney has no hotel tax that we could find; Parade-night roads closed until 2am last year.",
+        link_text="Darlinghurst",
+        cta=_stay_cta("where-to-stay-in-sydney-mardi-gras", "See hotels around Darlinghurst")),
+    "where-to-stay-in-osaka-cherry-blossom": dict(
+        text="For blossom, stay around Osaka Castle and Kyobashi: the castle's trees are on foot and the Okawa is a short ride or walk away. Imperial Hotel Osaka is the splurge, DoubleTree Osaka Castle the comfortable pick, Hotel Keihan Kyobashi Grande the value one. The tax is ¥200 to ¥500.",
+        link_text="Osaka Castle and Kyobashi",
+        cta=_stay_cta("where-to-stay-in-osaka-cherry-blossom", "See hotels around Osaka Castle")),
     "where-to-stay-in-nice-carnival": dict(
         text="For the Nice Carnival, sleep near Place Masséna: every 2027 parade is there, and the Aston La Scala said it stood 100 metres from the entrance last year. Le Negresco is the splurge, the Villa Rivoli the good-value pick. The tax is €3.48 a person a night at a four-star.",
         link_text="Place Masséna",
@@ -1631,6 +1654,9 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-singapore-chinese-new-year": ["PARKROYAL COLLECTION Pickering", "Furama City Centre", "The Fullerton Hotel Singapore"],
+    "where-to-stay-in-sydney-mardi-gras": ["Capella Sydney", "Paramount House Hotel", "Hyde Park Inn"],
+    "where-to-stay-in-osaka-cherry-blossom": ["Imperial Hotel Osaka", "DoubleTree by Hilton Osaka Castle", "Hotel Keihan Kyobashi Grande"],
     "where-to-stay-in-nice-carnival": ["Le Negresco", "Hôtel Aston La Scala", "Hôtel Villa Rivoli"],
     "where-to-stay-in-chamonix": ["Hôtel Mont-Blanc", "Park Hôtel Suisse & Spa", "Hôtel Lyret"],
     "where-to-stay-for-coachella": ["La Quinta Resort & Club", "Embassy Suites by Hilton La Quinta Hotel & Spa", "Hampton Inn & Suites Indio"],
@@ -2400,6 +2426,9 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Singapore", "where-to-stay-in-singapore-chinese-new-year", None, None),
+        ("Sydney", "where-to-stay-in-sydney-mardi-gras", None, None),
+        ("Osaka", "where-to-stay-in-osaka-cherry-blossom", None, None),
         ("Nice", "where-to-stay-in-nice-carnival", None, None),
         ("Chamonix", "where-to-stay-in-chamonix", None, None),
         ("Coachella", "where-to-stay-for-coachella", None, None),
@@ -2707,10 +2736,18 @@ STAY_POINTERS = {
     "where-to-stay-in-tokyo-new-year": ("intro",
         'Seeing in the year in Kyoto instead? <a href="where-to-stay-in-kyoto-new-year.html">Where to stay in '
         'Kyoto for New Year</a> covers the temple bells, Yasaka Shrine’s okera-mairi and last year’s all-night trains.'),
-    "where-to-stay-in-osaka": ("intro",
-        f'Kyoto, Osaka, or both? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights '
-        f'to give each, and moving day from Tokyo. Here for Universal Studios Japan? <a href="{_US}">Our park '
-        'guide</a> compares the seven official hotels with bases in town, and has the New Year countdown.'),
+    "where-to-stay-in-osaka": [
+        ("intro",
+         f'Kyoto, Osaka, or both? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights '
+         f'to give each, and moving day from Tokyo. Here for Universal Studios Japan? <a href="{_US}">Our park '
+         'guide</a> compares the seven official hotels with bases in town, and has the New Year countdown.'),
+        ("The short answer",
+         'Coming for the blossom? <a href="where-to-stay-in-osaka-cherry-blossom.html">Where to stay in Osaka for cherry blossom 2027</a> '
+         'has the usual bloom dates, the Mint’s Sakura Passage and hotels by Osaka Castle.'),
+    ],
+    "where-to-stay-in-kyoto-cherry-blossom": ("intro",
+        'Kyoto full, or too dear? <a href="where-to-stay-in-osaka-cherry-blossom.html">Osaka’s cherry blossom hotels for 2027</a> are about '
+        'half an hour away by train, with Osaka Castle and the riverside at Sakuranomiya on the doorstep.'),
     # Kyoto
     "gion-kyoto-neighbourhood-guide": ("Getting there, and fitting it in",
         f'Staying close by? <a href="{_K}#gion-and-higashiyama-the-old-city-early-and-late">Where to stay in '
@@ -2830,9 +2867,20 @@ STAY_POINTERS = {
     "europe-rail-pass-worth-it-2026": ("intro",
         f'Beginning or ending in Paris? <a href="{_PA}">Where to stay in Paris</a> compares seven areas and names '
         '15 hotels, from the Gare de l\'Est, where the CDG Express starts in March 2027, to the Latin Quarter.'),
-    "where-to-stay-in-sydney": ("intro",
-        f'Coming for New Year\'s Eve? <a href="{_NY}">Where to stay in Sydney for New Year\'s Eve</a> has the '
-        'vantage points, their ticket dates and the hotels with harbour rooms.'),
+    "where-to-stay-in-sydney": [
+        ("intro",
+         f'Coming for New Year\'s Eve? <a href="{_NY}">Where to stay in Sydney for New Year\'s Eve</a> has the '
+         'vantage points, their ticket dates and the hotels with harbour rooms.'),
+        ("The short answer",
+         'Here for Mardi Gras? <a href="where-to-stay-in-sydney-mardi-gras.html">Where to stay for Sydney Mardi Gras 2027</a> follows the '
+         'Parade route on Saturday 6 March, from Hyde Park along Oxford Street.'),
+    ],
+    "where-to-stay-in-singapore": ("intro",
+        'Coming for Chinese New Year? <a href="where-to-stay-in-singapore-chinese-new-year.html">Where to stay in Singapore for Chinese New Year '
+        '2027</a> matches the areas to Chinatown, the river and Marina Bay, with the 19.9% added to every room.'),
+    "where-to-stay-in-hong-kong-chinese-new-year": ("intro",
+        'Weighing Singapore instead? <a href="where-to-stay-in-singapore-chinese-new-year.html">Where to stay in Singapore for Chinese New Year '
+        '2027</a> covers 6 and 7 February there, Chinatown and the river.'),
     "where-to-book-sydney-harbour-cruise": ("intro",
         f'Here for New Year\'s Eve? <a href="{_NY}">Where to stay in Sydney for New Year\'s Eve</a> has the '
         'vantage points, their ticket dates and the hotels that face the Bridge.'),

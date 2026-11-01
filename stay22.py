@@ -114,6 +114,12 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-singapore-chinese-new-year": dict(area="Chinatown", lat=1.2839, lng=103.8441, zoom=15,
+                                                           address="Chinatown MRT Station, Singapore"),
+    "where-to-stay-in-sydney-mardi-gras": dict(area="Darlinghurst", lat=-33.8796, lng=151.2148, zoom=15,
+                                                  address="Taylor Square, Darlinghurst NSW, Australia"),
+    "where-to-stay-in-osaka-cherry-blossom": dict(area="Osaka Castle", lat=34.6873, lng=135.5262, zoom=14,
+                                                     address="Osaka Castle Park, Chuo-ku, Osaka, Japan"),
     "where-to-stay-in-nice-carnival": dict(area="Place Masséna", lat=43.697, lng=7.2711, zoom=15,
                                               address="Place Masséna, 06000 Nice, France"),
     "where-to-stay-in-chamonix": dict(area="Chamonix centre", lat=45.923, lng=6.8681, zoom=15,
@@ -1572,6 +1578,28 @@ HOTELS = {
     "RockyPop Chamonix - Les Houches": _B + "fr/rockypop-aux-portes-de-chamonix.html",
     # Nice, where-to-stay-in-nice-carnival (Booking.com pages confirmed by hotel name and city)
     "Hôtel Windsor": _B + "fr/hotel-windsor-nice1.html",
+    # Osaka, where-to-stay-in-osaka-cherry-blossom (Booking.com pages confirmed by hotel name and city)
+    "Hotel New Otani Osaka": _B + "jp/new-otani-osaka.html",
+    "Hotel Keihan Kyobashi Grande": _B + "jp/keihan-kyobashi.html",
+    "Imperial Hotel Osaka": _B + "jp/imperial-osaka.html",
+    "DoubleTree by Hilton Osaka Castle": _B + "jp/doubletree-by-hilton-osaka-castle.html",
+    "Osaka Riverside Hotel": _B + "jp/osaka-river-side-hotel.html",
+    "Hotel Granvia Osaka": _B + "jp/granvia-osaka.html",
+    "Hotel Shin'osaka": _B + "jp/shin-osaka.html",
+    # Sydney, where-to-stay-in-sydney-mardi-gras (Booking.com pages confirmed by hotel name and city)
+    "ADGE Hotel & Residences": _B + "au/adge-apartment.html",
+    "Ace Hotel Sydney": _B + "au/ace-sydney.html",
+    "Oxford House": _B + "au/oxford-house.html",
+    "25hours Hotel The Olympia": _B + "au/25hours-sydney-the-olympia.html",
+    "Hyde Park Inn": _B + "au/hyde-park-inn.html",
+    "Sofitel Sydney Wentworth": _B + "au/wentworth-sydney.html",
+    "Kirketon Hotel Sydney": _B + "au/kirketon-sydney.html",
+    "The Urban Newtown": _B + "au/the-uban.html",
+    "The Old Clare Hotel": _B + "au/the-old-clare.html",
+    # Singapore, where-to-stay-in-singapore-chinese-new-year (Booking.com pages confirmed by hotel name and city)
+    "Furama City Centre": _B + "sg/furama-city-centre.html",
+    "Rendezvous Hotel Singapore": _B + "sg/rendezvous.html",
+    "Village Hotel Bugis": _B + "sg/golden-landmark.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -591,6 +591,18 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-singapore-chinese-new-year.html": (
+        "Where to Stay in Singapore",
+        "Five areas, 12 hotels, the 6-7 February dates, what is not yet announced, and the 19.9% on top.",
+    ),
+    "articles/where-to-stay-in-sydney-mardi-gras.html": (
+        "Where to Stay in Sydney",
+        "Parade on Saturday 6 March 2027: five areas, 12 hotels, last year's closures and the airport train fee.",
+    ),
+    "articles/where-to-stay-in-osaka-cherry-blossom.html": (
+        "Where to Stay in Osaka",
+        "Osaka blooms 27 March on average: castle, Okawa and Mint by area, the ¥500 tax cap, 12 hotels.",
+    ),
     "articles/where-to-stay-in-nice-carnival.html": (
         "Where to Stay in Nice",
         "Official 9-28 Feb 2027 dates, every parade on Place Masséna, 12 hotels and Nice's tax.",
@@ -2237,6 +2249,27 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-singapore-chinese-new-year.html": [
+        "articles/where-to-stay-in-singapore.html",
+        "articles/singapore-first-timers-guide.html",
+        "articles/things-to-do-in-singapore.html",
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-sydney-mardi-gras.html": [
+        "articles/where-to-stay-in-sydney.html",
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
+        "articles/getting-around-sydney.html",
+        "articles/best-esim-australia-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-osaka-cherry-blossom.html": [
+        "articles/where-to-stay-in-osaka.html",
+        "articles/osaka-first-timers-guide.html",
+        "articles/things-to-do-in-osaka.html",
+        "articles/osaka-or-kyoto-where-to-base.html",
+        "articles/where-to-stay-in-kyoto-cherry-blossom.html",
     ],
     "articles/where-to-stay-in-nice-carnival.html": [
         "articles/where-to-stay-in-nice.html",
