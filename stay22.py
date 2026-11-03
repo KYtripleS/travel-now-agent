@@ -114,6 +114,10 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-amsterdam-kings-day": dict(area="De Pijp", lat=52.3547, lng=4.8936, zoom=14,
+                                                    address="De Pijp, Amsterdam, Netherlands"),
+    "where-to-stay-for-kentucky-derby": dict(area="Downtown Louisville and Fourth Street", lat=38.2566, lng=-85.7586, zoom=14,
+                                                address="Fourth Street, Louisville, Kentucky, USA"),
     "where-to-stay-for-japanese-grand-prix": dict(area="Nagoya Station", lat=35.1709, lng=136.8815, zoom=12,
                                                      address="Nagoya Station, Nagoya, Japan"),
     "where-to-stay-for-london-marathon": dict(area="Greenwich", lat=51.4826, lng=-0.0077, zoom=14,
@@ -1712,6 +1716,23 @@ HOTELS = {
     "Suzuka Royal Hotel": _B + "jp/suzuka-royal.html",
     "Dormy Inn Tsu": _B + "jp/dormy-inn-tsu.html",
     "Sanco Inn Tsu Ekimae": _B + "jp/sanco-inn-tsu-ekimae.html",
+    # Louisville, where-to-stay-for-kentucky-derby (Booking.com pages confirmed by hotel name and city)
+    "Galt House Hotel": _B + "us/galt-house.html",
+    "Omni Louisville Hotel": _B + "us/omni-louisville.html",
+    "The Brown Hotel": _B + "us/the-brown-hotel.html",
+    "21c Museum Hotel Louisville": _B + "us/21c-museum.html",
+    "AC Hotel Louisville Downtown": _B + "us/ac-by-marriott-louisville-downtown.html",
+    "The Bellwether Hotel": _B + "us/the-at-bellwether.html",
+    "The Myriad Hotel": _B + "us/the-myriad.html",
+    "Spark by Hilton Louisville Airport": _B + "us/sleep-inn-and-suites-louisville.html",
+    "Hilton Garden Inn Louisville Airport": _B + "us/hilton-garden-inn-louisville-airport.html",
+    "Crowne Plaza Louisville Airport Expo Ctr": _B + "us/crowne-plaza-louisville-airport-ky-expo-ctr.html",
+    "Hilton Garden Inn Jeffersonville Louisville North": _B + "us/hilton-garden-inn-jeffersonville-in.html",
+    "Holiday Inn Express & Suites Louisville N - Jeffersonville": _B + "us/holiday-inn-express-suites-louisville-n-jeffersonville.html",
+    # Amsterdam, where-to-stay-in-amsterdam-kings-day (Booking.com pages confirmed by hotel name and city)
+    "Hotel Arena": _B + "nl/arena.html",
+    "Volkshotel": _B + "nl/volkshotel-amsterdam.html",
+    "Inntel Hotels Amsterdam Zaandam": _B + "nl/inntel-zaandam.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

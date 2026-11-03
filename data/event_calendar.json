@@ -348,6 +348,22 @@
       "name": "Formula 1 Japanese Grand Prix",
       "place": "Suzuka, Japan",
       "when": "9 to 11 April; tickets on sale 15 November"
+    },
+    {
+      "start": "2027-04-30",
+      "end": "2027-05-01",
+      "slug": "where-to-stay-for-kentucky-derby",
+      "name": "Kentucky Derby",
+      "place": "Louisville, US",
+      "when": "Kentucky Oaks Friday 30 April, Derby Saturday 1 May"
+    },
+    {
+      "start": "2027-04-26",
+      "end": "2027-04-27",
+      "slug": "where-to-stay-in-amsterdam-kings-day",
+      "name": "King's Day",
+      "place": "Amsterdam, Netherlands",
+      "when": "King's Night Monday 26 April, King's Day Tuesday 27 April"
     }
   ],
   "seasons": [

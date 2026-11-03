@@ -1090,6 +1090,896 @@
           "single rooms of 18 m², standard rooms of 21 m², superior rooms of 27 m² and executive rooms of 32 m²"
         ]
       }
+    },
+    {
+      "id": "nl.amsterdam.kings-day-2027-date",
+      "topic": "place",
+      "claim": "King's Day 2027 is Tuesday 27 April 2027; I amsterdam lists it from 07:00 to 00:00 at various locations.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/calendar/festivals/events/kings-day",
+          "kind": "official",
+          "title": "I amsterdam: King's Day",
+          "evidence": [
+            "In 2027, Amsterdam celebrates King's Day on Tuesday, April 27",
+            "Tue 27 Apr"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "gives King’s Day 2027 as Tuesday 27 April, from 07:00 to 00:00",
+          "In 2027 it falls on Tuesday 27 April"
+        ]
+      }
+    },
+    {
+      "id": "nl.kings-day.sunday-rule",
+      "topic": "place",
+      "claim": "The Royal House says King's Day is celebrated the day before when 27 April falls on a Sunday.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.koninklijkhuis.nl/onderwerpen/activiteiten-en-werkzaamheden/koningsdag",
+          "kind": "official",
+          "title": "Het Koninklijk Huis: Koningsdag",
+          "evidence": [
+            "Als 27 april op een zondag valt, wordt Koningsdag de dag ervoor gevierd."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "King’s Day moves to the day before when 27 April is a Sunday"
+        ]
+      }
+    },
+    {
+      "id": "nl.lelystad.kings-day-2027-royal-visit",
+      "topic": "place",
+      "claim": "The Royal House announced on 6 July 2026 that the King will attend King's Day 2027 celebrations in Lelystad, Flevoland.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.koninklijkhuis.nl/actueel/nieuws/2026/07/06/koningsdag-2027-in-lelystad",
+          "kind": "official",
+          "title": "Het Koninklijk Huis: Koningsdag 2027 in Lelystad",
+          "evidence": [
+            "de viering bij van Koningsdag in Lelystad in de provincie Flevoland",
+            "dinsdag 27 april 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "the King will celebrate King’s Day 2027 in Lelystad, in Flevoland"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.kings-night-2026",
+      "topic": "transport",
+      "claim": "GVB's 2026 page named King's Night as Sunday 26 April and King's Day as Monday 27 April 2026; for 2027 we infer King's Night as Monday 26 April (our inference).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://gvb.nl/en/kingsday-2026",
+          "kind": "operator",
+          "title": "GVB: King's Day 2026",
+          "evidence": [
+            "We will celebrate King's Day on Monday 27 April.",
+            "King's Night, Sunday 26 April"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "in 2026 GVB named King’s Night as Sunday 26 April and King’s Day as Monday 27 April"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.vrijmarkt-hours",
+      "topic": "place",
+      "claim": "I amsterdam's 2025 practical page says the vrijmarkt runs officially from 06:00 to 20:00 and most events start at midday; shops mostly close.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/getting-around-and-practical-info-on-kings-day",
+          "kind": "official",
+          "title": "I amsterdam: practical info (28 April 2025)",
+          "evidence": [
+            "officially at 06:00 and runs until 20:00",
+            "Most events start at midday.",
+            "most high street stores close for the day"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "The city-wide street market officially runs from 06:00 to 20:00",
+          "most events start at midday",
+          "Most high-street shops close"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.vrijmarkt-rules",
+      "topic": "place",
+      "claim": "I amsterdam's 2025 rules page bars selling alcohol and perishable food at the vrijmarkt, and says the Vondelpark opens at 09:00 to a children-only version.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/kings-day-rules-and-regulations",
+          "kind": "official",
+          "title": "I amsterdam: rules (28 April 2025)",
+          "evidence": [
+            "You may not sell alcohol in the street markets",
+            "opens its gates at 09:00",
+            "The park is restricted to a children-only version of the markets."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "You may not sell alcohol in it, or perishable food such as meat, fish or dairy products",
+          "opens at 09:00 on the day, for a children-only version of the market"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.jordaan-crowds",
+      "topic": "place",
+      "claim": "I amsterdam says the Jordaan, particularly around Westerstraat, is usually very crowded and families with children are generally discouraged.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/getting-around-and-practical-info-on-kings-day",
+          "kind": "official",
+          "title": "I amsterdam: practical info (28 April 2025)",
+          "evidence": [
+            "are usually very crowded",
+            "Families with children are generally discouraged from coming to these areas."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "families with children are generally discouraged from coming"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.child-zones-museums",
+      "topic": "place",
+      "claim": "I amsterdam's April 2026 tips page names the Vondelpark, Sarphatipark and NDSM as child-friendly zones and says the Anne Frank House, Van Gogh Museum, Stedelijk and Rijksmuseum traditionally stay open.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/kings-day-tips",
+          "kind": "official",
+          "title": "I amsterdam: tips (24 April 2026)",
+          "evidence": [
+            "designated child-friendly zones",
+            "Anne Frank House",
+            "traditionally stay open"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "names the Vondelpark, Sarphatipark and NDSM as child-friendly zones",
+          "traditionally stay open"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.alcohol-glass-2026",
+      "topic": "place",
+      "claim": "I amsterdam's 2026 page: no more than one can or bottle of alcohol on the street, no glass, no amplified music in public space.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/kings-day/kings-day-2026-amsterdam-all-the-info-at-a-glance",
+          "kind": "official",
+          "title": "I amsterdam: King's Day 2026 (14 April 2026)",
+          "evidence": [
+            "You may carry no more than one can or bottle of alcohol on the street",
+            "Do not bring glass, as it creates unsafe situations.",
+            "amplified (live) music in public spaces are not permitted"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "no more than one can or bottle of alcohol on the street",
+          "glass should stay at home",
+          "Amplified music in public spaces was not permitted"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.2027-event-grounds",
+      "topic": "place",
+      "claim": "I amsterdam's 2026 page says the Westerstraat and Noordermarkt will become event grounds from 2027.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/kings-day/kings-day-2026-amsterdam-all-the-info-at-a-glance",
+          "kind": "official",
+          "title": "I amsterdam: King's Day 2026 (14 April 2026)",
+          "evidence": [
+            "The Westerstraat and Noordermarkt will become event grounds from 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "the Westerstraat and Noordermarkt will become event grounds from 2027"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.alcohol-trains-2025",
+      "topic": "transport",
+      "claim": "I amsterdam's 2025 rules page says alcohol is usually not allowed on trains and at stations from 19:00 on the night before to 05:00 the day after.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/kings-day-rules-and-regulations",
+          "kind": "official",
+          "title": "I amsterdam: rules (28 April 2025)",
+          "evidence": [
+            "Alcohol is usually not allowed in trains and at train stations from 19:00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "alcohol is usually not allowed on trains and at stations from 19:00 on the night before to 05:00 the day after"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.gvb-2026-network",
+      "topic": "transport",
+      "claim": "GVB's 2026 plan: Saturday timetable for buses, trams and metro, Sunday for ferries; trams 2, 17, 24 off Leidsestraat from 18:30 on King's Night; Amstelveenseweg, Europaplein and RAI metro stations closed; no bicycles on the metro.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://gvb.nl/en/kingsday-2026",
+          "kind": "operator",
+          "title": "GVB: King's Day 2026",
+          "evidence": [
+            "buses, trams and metros will run on a Saturday timetable",
+            "From 18:30, trams 2, 17 and 24 will not run via Leidsestraat.",
+            "Closure of Amstelveenseweg, Europaplein and RAI metro stations",
+            "We kindly ask you not to take your bicycle on the metro"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "buses, trams and metros ran to a Saturday timetable, and ferries to a Sunday one",
+          "trams 2, 17 and 24 were diverted away from Leidsestraat from 18:30",
+          "Amstelveenseweg, Europaplein and RAI metro stations were closed",
+          "GVB also asked people not to take bicycles on the metro"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.gvb-2026-metro52",
+      "topic": "transport",
+      "claim": "GVB advised metro 52 from Centraal or Zuid to De Pijp, Vijzelgracht or Rokin on King's Day 2026, every 6 minutes from 10:00.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://gvb.nl/en/kingsday-2026",
+          "kind": "operator",
+          "title": "GVB: King's Day 2026",
+          "evidence": [
+            "metro 52 from Centraal Station or Station Zuid to De Pijp, Vijzelgracht or Rokin station",
+            "every 6 minutes!"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "metro 52 ran every 6 minutes from 10:00 between Centraal or Zuid and De Pijp, Vijzelgracht and Rokin",
+          "In 2026 GVB ran extra metro 52 trains from Centraal and Zuid to De Pijp station"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.gvb-2026-ferries",
+      "topic": "transport",
+      "claim": "GVB's 2026 plan: ferry F3 (Centraal to Buiksloterweg) ran more often and all night on King's Night; ferries ran a Sunday timetable on King's Day.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://gvb.nl/en/kingsday-2026",
+          "kind": "operator",
+          "title": "GVB: King's Day 2026",
+          "evidence": [
+            "will run more often until 06:00 in the morning and will operate all night",
+            "The ferries will run according to the Sunday timetable."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "ferry F3, from Centraal to Buiksloterweg, ran more often and all night on King’s Night",
+          "GVB ran its IJ ferries to a Sunday timetable on the day"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.closures-2025",
+      "topic": "transport",
+      "claim": "I amsterdam's 2025 page listed Nieuwmarkt and RAI metro stations as closed, no luggage lockers at Centraal, no reservable taxis, and the city centre closed to cars from 07:30.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/getting-around-and-practical-info-on-kings-day",
+          "kind": "official",
+          "title": "I amsterdam: practical info (28 April 2025)",
+          "evidence": [
+            "metro stations at Nieuwmarkt and RAI will be closed",
+            "No locker facilities will be available at Amsterdam Central Station",
+            "you will not be able to reserve a taxi",
+            "closed off to cars from 07:30 onwards"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "listed the Nieuwmarkt and RAI metro stations as closed",
+          "no luggage lockers at Amsterdam Centraal on King’s Day",
+          "you cannot reserve a taxi",
+          "the whole centre closes to cars from 07:30"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.ns-orange-2026",
+      "topic": "transport",
+      "claim": "I amsterdam's 2026 page says NS runs an Orange timetable with longer and additional trains and that Science Park station was closed on King's Day; trains to Schiphol run but allow more time; OVpay replaces a separate city ticket.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/kings-day/kings-day-2026-amsterdam-all-the-info-at-a-glance",
+          "kind": "official",
+          "title": "I amsterdam: King's Day 2026 (14 April 2026)",
+          "evidence": [
+            "operates according to the Orange timetable; longer and additional trains run during this period",
+            "Science Park station is closed on King's Day",
+            "you no longer need to buy a separate ticket"
+          ]
+        },
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/getting-around-and-practical-info-on-kings-day",
+          "kind": "official",
+          "title": "I amsterdam: practical info (28 April 2025)",
+          "evidence": [
+            "Train services run to Amsterdam Airport Schiphol on King’s Day",
+            "allow more time than usual for their journeys"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "NS runs an Orange timetable with longer and additional trains",
+          "Science Park station was closed on the day",
+          "trains to Schiphol run but you should allow more time",
+          "you no longer need a separate ticket in the city"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.boat-rules",
+      "topic": "place",
+      "claim": "I amsterdam's 2025 rules: boats up to 10 metres, 6 km/h maximum, keep right; its 2026 page enforces 12+1 (12 people plus skipper) with no exceptions.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/kings-day-rules-and-regulations",
+          "kind": "official",
+          "title": "I amsterdam: rules (28 April 2025)",
+          "evidence": [
+            "Boats up to 10 metres long may sail",
+            "The maximum permitted speed is 6 km/h.",
+            "Always stay on the right."
+          ]
+        },
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/kings-day/kings-day-2026-amsterdam-all-the-info-at-a-glance",
+          "kind": "official",
+          "title": "I amsterdam: King's Day 2026 (14 April 2026)",
+          "evidence": [
+            "The 12+1 rule on the water is being enforced; from 2026, there will be no exceptions."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "lets boats up to 10 metres sail, at 6 km/h at most, always on the right",
+          "at most 12 passengers plus the skipper"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.events-2026",
+      "topic": "place",
+      "claim": "I amsterdam's April 2026 tips page listed free Bredeweg Festival (Watergraafsmeer, a tamer party for families), Pllek on the IJ, and NDSM Vrijhaven at NDSM-Plein.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/kings-day-tips",
+          "kind": "official",
+          "title": "I amsterdam: tips (24 April 2026)",
+          "evidence": [
+            "this is a tamer party for families",
+            "beachy vibes along the IJ River",
+            "A free festival at NDSM-Plein"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "a free Bredeweg Festival in Watergraafsmeer, describing it as a tamer, family-friendly party",
+          "a King’s Day party at the Pllek on the IJ",
+          "a free festival at NDSM"
+        ]
+      }
+    },
+    {
+      "id": "nl.vat.hotel-21",
+      "topic": "tax",
+      "claim": "VAT on hotel accommodation is 21% from 1 January 2026.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/btw-logies",
+          "kind": "official",
+          "title": "Belastingdienst: Btw-tarief logies",
+          "evidence": [
+            "vanaf 1 januari 2026 het tarief van 21%"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "21% from 1 January 2026",
+          "The Belastingdienst says the 21% rate applies to hotel stays from 1 January 2026"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.tourist-tax-12-5",
+      "topic": "tax",
+      "claim": "The City of Amsterdam's tourist tax page gives 12.5% of the overnight price excluding VAT, and a €15 day tourist tax per cruise passenger payable by the cruise operator.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.amsterdam.nl/en/municipal-taxes/tourist-tax/",
+          "kind": "official",
+          "title": "City of Amsterdam: tourist tax",
+          "evidence": [
+            "Tourist tax: 12.5% of the overnight price (excluding VAT)",
+            "Day tourist tax: €15 per passenger"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "12.5% of the overnight price, excluding VAT",
+          "a €15 day tax per cruise passenger"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.tourist-tax-2027-16",
+      "topic": "tax",
+      "claim": "On 23 September 2026 the Amsterdam executive agreed the first amendment to the Tourist Tax 2024 ordinance, proposing a uniform 16% of the overnight price in 2027; the council vote was due in November 2026.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.amsterdam.nl/bestuur-organisatie/college/besluiten-college-burgemeester/nieuws-23-september-2026/",
+          "kind": "official",
+          "title": "City of Amsterdam: Nieuws uit B en W 23 september 2026",
+          "evidence": [
+            "eerste wijzigingsverordening Toeristenbelasting 2024",
+            "uniform tarief van 16% van de overnachtingsprijs"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "the city executive agreed a proposed amendment to the tourist-tax ordinance that would set a uniform 16% in 2027",
+          "16% of the overnight price"
+        ]
+      },
+      "recheck_days": 10
+    },
+    {
+      "id": "nl.amsterdam.tax-example-2027",
+      "topic": "price",
+      "claim": "Our arithmetic: a €200 room before VAT: VAT 21% = €42; tourist tax 12.5% = €25 (total €267); at 16% = €32 (total €274); two nights at 16% = €548 of which €148 is tax.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.amsterdam.nl/en/municipal-taxes/tourist-tax/",
+          "kind": "official",
+          "title": "City of Amsterdam: tourist tax",
+          "evidence": [
+            "Tourist tax: 12.5% of the overnight price (excluding VAT)"
+          ]
+        },
+        {
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/btw-logies",
+          "kind": "official",
+          "title": "Belastingdienst: Btw-tarief logies",
+          "evidence": [
+            "vanaf 1 januari 2026 het tarief van 21%"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "so the night costs €267; at 16% it adds €32, so the night costs €274",
+          "Two nights for the 26 and 27 April weekend at 16% cost €548, of which €148 is tax"
+        ]
+      }
+    },
+    {
+      "id": "nl.schiphol.train-centraal",
+      "topic": "fare",
+      "claim": "Schiphol says a train runs eight times an hour between Amsterdam CS and Schiphol in 17 minutes.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.schiphol.nl/en/from-to-schiphol/by-public-transport/train/",
+          "kind": "operator",
+          "title": "Schiphol: by train",
+          "evidence": [
+            "A train runs eight times an hour between Amsterdam CS and Schiphol",
+            "in just 17 minutes"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "a train runs eight times an hour between Amsterdam Centraal and the airport, in just 17 minutes"
+        ]
+      }
+    },
+    {
+      "id": "nl.haarlem.train-time",
+      "topic": "transport",
+      "claim": "I amsterdam lists Haarlem at 15 minutes by train from Amsterdam.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/tickets/unique-adventures-with-the-amsterdam-region-travel-ticket",
+          "kind": "official",
+          "title": "I amsterdam: best day trips by train",
+          "evidence": [
+            "Haarlem (15 minutes)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "I amsterdam lists Haarlem at 15 minutes by train"
+        ]
+      }
+    },
+    {
+      "id": "nl.zaandam.train-time",
+      "topic": "transport",
+      "claim": "I amsterdam says direct trains run from Zaandam to Amsterdam Central Station in just over 10 minutes; the Inntel hotel says 12 minutes.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/business/setting-up/find-your-business-location/zaanstad-purmerend-area",
+          "kind": "official",
+          "title": "I amsterdam: Zaanstad and Purmerend area",
+          "evidence": [
+            "to Amsterdam Central Station in just over 10 minutes"
+          ]
+        },
+        {
+          "url": "https://www.inntelhotels.nl/amsterdamzaandam/en",
+          "kind": "official",
+          "title": "Inntel Hotels Amsterdam Zaandam",
+          "evidence": [
+            "In just 12 minutes by train"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "direct trains run from Zaandam to Amsterdam Central Station in just over 10 minutes; the Inntel hotel says 12"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.pulitzer-amsterdam",
+      "topic": "hotel",
+      "claim": "Pulitzer Amsterdam: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.pulitzeramsterdam.com/",
+          "kind": "official",
+          "title": "Pulitzer Amsterdam official site",
+          "evidence": [
+            "Located across twenty-five canal houses from the 17th century",
+            "tranquil inner gardens",
+            "Prinsengracht 323"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "At Prinsengracht 323, spread across twenty-five canal houses from the 17th century"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.mr-jordaan",
+      "topic": "hotel",
+      "claim": "Mr. Jordaan: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://mrjordaan.nl/",
+          "kind": "official",
+          "title": "Mr. Jordaan official site",
+          "evidence": [
+            "Bloemgracht 102",
+            "17th century canal"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "At Bloemgracht 102, on what the hotel calls an enchanting 17th century canal"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.sir-albert",
+      "topic": "hotel",
+      "claim": "Sir Albert: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.sirhotels.com/en/albert/",
+          "kind": "official",
+          "title": "Sir Albert official site",
+          "evidence": [
+            "within walking distance of Museum Square and just down the street from the famous Albert Cuyp Market",
+            "Albert Cuypstraat 2-6"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "At Albert Cuypstraat 2-6, which the hotel places in the heart of De Pijp"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.hotel-okura-amsterdam",
+      "topic": "hotel",
+      "claim": "Hotel Okura Amsterdam: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.okura.nl/",
+          "kind": "official",
+          "title": "Hotel Okura Amsterdam official site",
+          "evidence": [
+            "Our 120 completely renewed and more spacious rooms and suites",
+            "Ciel Bleu on the 23rd floor",
+            "King’s Day | 27 April | Across Amsterdam"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "with 120 completely renewed rooms and suites, Ciel Bleu on the 23rd floor and Yamazato",
+          "lists King’s Day on 27 April among what is on across Amsterdam"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.mandarin-oriental-conservatorium",
+      "topic": "hotel",
+      "claim": "Mandarin Oriental Conservatorium: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/amsterdam/conservatorium/stay",
+          "kind": "official",
+          "title": "Mandarin Oriental Conservatorium official site",
+          "evidence": [
+            "Elegant contemporary design, Dutch influence and relaxed luxury underpin our rooms and suites."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "with Superior, Duplex, Deluxe, Premier Deluxe and Family Deluxe rooms"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.hotel-fita",
+      "topic": "hotel",
+      "claim": "Hotel Fita: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://fita.nl/",
+          "kind": "official",
+          "title": "Hotel Fita official site",
+          "evidence": [
+            "An intimate bed-and-breakfast feel, with 21 guest rooms.",
+            "positioned next to the Vondelpark",
+            "you can add it for just €17.50 per person"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "an intimate bed-and-breakfast feel with 21 guest rooms, positioned next to the Vondelpark",
+          "Breakfast can be added for €17.50 per person"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.hotel-arena",
+      "topic": "hotel",
+      "claim": "Hotel Arena: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://hotelarena.nl/en/",
+          "kind": "official",
+          "title": "Hotel Arena official site",
+          "evidence": [
+            "the Oosterpark",
+            "Metro : Line 51, 53, 54. Stop Weesperplein",
+            "Line 14. Stop Alexanderplein"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "The hotel lists tram lines 1, 3, 7, 14 and 19 and metro lines 51, 53 and 54 to Weesperplein"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.volkshotel",
+      "topic": "hotel",
+      "claim": "Volkshotel: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.volkshotel.nl/en",
+          "kind": "official",
+          "title": "Volkshotel official site",
+          "evidence": [
+            "We are located in Amsterdam East, near the Amstel river",
+            "Wibautstraat 150",
+            "Limited Rate (pay now)",
+            "Flex Rate (pay on arrival or pay now)",
+            "Our rooftop hot tubs & sauna"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "At Wibautstraat 150, in Amsterdam East near the Amstel",
+          "It lists Limited, Flex and Business Stay rates"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.sir-adam",
+      "topic": "hotel",
+      "claim": "Sir Adam: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.sirhotels.com/en/adam/",
+          "kind": "official",
+          "title": "Sir Adam official site",
+          "evidence": [
+            "free 24/7 ferry ride away",
+            "360-degree views of the city"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "a 3 minute, free 24/7 ferry ride away by the hotel’s own count, with 360-degree views from the rooftop"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.clinknoord",
+      "topic": "hotel",
+      "claim": "ClinkNOORD: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.clinkhostels.com/amsterdam/clinknoord/",
+          "kind": "official",
+          "title": "ClinkNOORD official site",
+          "evidence": [
+            "Badhuiskade 3, 1031 KV Amsterdam",
+            "Hop the free ferry from Centraal",
+            "sleeping 4 to 10"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "At Badhuiskade 3, with the free ferry from Centraal",
+          "female-only dorms for four to ten"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.amr-th-grand-hotel-frans-hals",
+      "topic": "hotel",
+      "claim": "Amrâth Grand Hotel Frans Hals: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.amrathhotelhaarlem.nl/en",
+          "kind": "official",
+          "title": "Amrâth Grand Hotel Frans Hals official site",
+          "evidence": [
+            "Our hotel has 82 comfortable rooms, a charming lounge and an intimate hotel bar.",
+            "Check-in from 2:00 PM",
+            "Flexible cancellation until 7:00 AM"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "with 82 rooms, a lounge and a hotel bar, check-in from 2:00 PM and flexible cancellation until 7:00 AM"
+        ]
+      }
+    },
+    {
+      "id": "nl.hotel.inntel-hotels-amsterdam-zaandam",
+      "topic": "hotel",
+      "claim": "Inntel Hotels Amsterdam Zaandam: operating, with bookable rates on its own site (checked November 2026); facts as printed in the guide are from the hotel's own pages.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.inntelhotels.nl/amsterdamzaandam/en",
+          "kind": "official",
+          "title": "Inntel Hotels Amsterdam Zaandam official site",
+          "evidence": [
+            "nearly seventy individual Zaan-style houses",
+            "Wellness Club with a swimming pool",
+            "In just 12 minutes by train"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "A facade of nearly seventy Zaan-style houses in four shades of green, with a Wellness Club and swimming pool"
+        ]
+      }
     }
   ]
 }

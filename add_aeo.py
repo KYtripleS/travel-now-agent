@@ -446,6 +446,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-amsterdam-kings-day": dict(
+        text="For a first King’s Day, stay in De Pijp: GVB ran extra metro 52 trains to De Pijp station in 2026. Choose Sir Albert for the market street, Hotel Okura for a splurge, Hotel Fita by the Vondelpark for value. Tax is 12.5% now, 16% proposed for 2027, plus 21% VAT.",
+        link_text="De Pijp",
+        cta=_stay_cta("where-to-stay-in-amsterdam-kings-day", "See hotels around De Pijp")),
+    "where-to-stay-for-kentucky-derby": dict(
+        text="For a first Derby trip, stay in Downtown Louisville, on foot to bars and restaurants, but plan your race-day exit. Choose The Brown Hotel for history, the Galt House for the waterfront, or Hilton Garden Inn near the airport for the shortest listed distance to the track. Count three tax layers.",
+        link_text="Downtown Louisville",
+        cta=_stay_cta("where-to-stay-for-kentucky-derby", "See hotels around Downtown Louisville")),
     "where-to-stay-for-japanese-grand-prix": dict(
         text="For a first trip, stay near Nagoya Station: the circuit sells a reserved direct bus from its Taiko-dori exit, and Kintetsu runs to Shiroko. Choose Nagoya Marriott Associa Hotel for a splurge, Daiwa Roynet for value, Sanco Inn Yokkaichi Ekimae to be closer. We found no hotel tax.",
         link_text="Nagoya Station",
@@ -1730,6 +1738,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-amsterdam-kings-day": ["Hotel Okura Amsterdam", "Sir Albert", "Hotel Fita"],
+    "where-to-stay-for-kentucky-derby": ["The Brown Hotel", "Galt House Hotel", "Hilton Garden Inn Louisville Airport"],
     "where-to-stay-for-japanese-grand-prix": ["Nagoya Marriott Associa Hotel", "Daiwa Roynet Hotel Nagoya Shinkansenguchi", "Sanco Inn Yokkaichi Ekimae"],
     "where-to-stay-for-london-marathon": ["Novotel London Greenwich", "Premier Inn London Greenwich", "Althoff St. James's Hotel & Club"],
     "where-to-stay-for-tokyo-marathon": ["Keio Plaza Hotel Tokyo", "JR Kyushu Hotel Blossom Shinjuku", "The Tokyo Station Hotel"],
@@ -2514,6 +2524,8 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Amsterdam", "where-to-stay-in-amsterdam-kings-day", None, None),
+        ("Louisville", "where-to-stay-for-kentucky-derby", None, None),
         ("Suzuka", "where-to-stay-for-japanese-grand-prix", None, None),
         ("London", "where-to-stay-for-london-marathon", None, None),
         ("Tokyo", "where-to-stay-for-tokyo-marathon", None, None),
@@ -3042,7 +3054,9 @@ STAY_POINTERS = {
         '2027</a> (9 to 11 and 16 to 18 April) compares Indio, La Quinta, Palm Desert and Palm Springs.'),
     "where-to-stay-in-amsterdam": ("intro",
         'Here for the tulips? <a href="where-to-stay-for-keukenhof.html">Where to stay for Keukenhof</a> '
-        '(18 March to 9 May 2027) compares Amsterdam, Haarlem, Leiden and Lisse by bus to the gardens.'),
+        '(18 March to 9 May 2027) compares Amsterdam, Haarlem, Leiden and Lisse by bus to the gardens. '
+        'Here on 27 April? <a href="where-to-stay-in-amsterdam-kings-day.html">Where to stay in Amsterdam for '
+        'King’s Day 2027</a> sorts the city by how loud each area gets, with the tram and metro changes.'),
     "where-to-stay-in-bangkok": ("intro",
         'Coming for Songkran? <a href="where-to-stay-in-bangkok-songkran.html">Where to stay in Bangkok for '
         'Songkran</a> (13 to 15 April 2027) weighs Silom and Siam, where the water fights are, against quieter bases.'),

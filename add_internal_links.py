@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-amsterdam-kings-day.html": (
+        "Where to Stay in Amsterdam",
+        "Tuesday 27 April 2027: where the city is loudest, where it is calm, 12 hotels and the tourist tax rising to 16%.",
+    ),
+    "articles/where-to-stay-for-kentucky-derby.html": (
+        "Where to Stay in Louisville",
+        "Oaks Fri 30 April, Derby Sat 1 May 2027: Downtown, NuLu, Highlands, airport or Indiana, 12 hotels.",
+    ),
     "articles/where-to-stay-for-japanese-grand-prix.html": (
         "Where to Stay in Suzuka",
         "Nagoya, Yokkaichi, Shiroko or Tsu for 9 to 11 April 2027: 12 hotels and what the circuit says about trains.",
@@ -2297,6 +2305,19 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-amsterdam-kings-day.html": [
+        "articles/where-to-stay-in-amsterdam.html",
+        "articles/where-to-stay-for-keukenhof.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-for-kentucky-derby.html": [
+        "articles/where-to-stay-in-chicago.html",
+        "articles/where-to-stay-in-new-orleans-mardi-gras.html",
+        "articles/where-to-stay-for-coachella.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-usa-2026.html",
     ],
     "articles/where-to-stay-for-japanese-grand-prix.html": [
         "articles/where-to-stay-in-japan.html",

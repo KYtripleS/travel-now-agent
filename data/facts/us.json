@@ -8813,6 +8813,388 @@
           "The Little Nell will close for renovations while the airport is shut"
         ]
       }
+    },
+    {
+      "id": "us.ky.louisville.derby-2027-dates",
+      "topic": "place",
+      "claim": "The 2027 Kentucky Oaks is Friday 30 April 2027 and the Kentucky Derby is Saturday 1 May 2027, both at Churchill Downs, per the organiser.",
+      "sources": [
+        {
+          "url": "https://www.kentuckyderby.com/tickets/2027/",
+          "kind": "official",
+          "title": "Kentucky Derby 2027 tickets",
+          "evidence": [
+            "The Kentucky Oaks will take place on Friday, April 30, 2027.",
+            "will be held at Churchill Downs on Saturday May 1st, 2027"
+          ]
+        },
+        {
+          "url": "https://www.kentuckyderby.com/",
+          "kind": "official",
+          "title": "KentuckyDerby.com home",
+          "evidence": [
+            "This year, the Kentucky Derby takes place on Saturday May 1 2027."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "the Kentucky Oaks will take place on Friday, 30 April 2027",
+          "the Kentucky Derby takes place on Saturday 1 May 2027"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.derby-2027-two-day-package",
+      "topic": "price",
+      "claim": "A 2027 Derby ticket is part of a 2-Day Package with the same reserved seat for Oaks (Friday) and Derby Day (Saturday); frontside tickets include free offsite parking at the Kentucky Exposition Center and a shuttle.",
+      "sources": [
+        {
+          "url": "https://www.kentuckyderby.com/tickets/2027/",
+          "kind": "official",
+          "title": "Kentucky Derby 2027 tickets",
+          "evidence": [
+            "Your Kentucky Derby ticket is part of a 2-Day Package",
+            "free offsite parking at the Kentucky Exposition Center"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "A Kentucky Derby ticket is part of a package that includes the same reserved seat for Kentucky Oaks on Friday and Derby Day on Saturday",
+          "free offsite parking at the Kentucky Exposition Center"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.derby-2027-resale",
+      "topic": "price",
+      "claim": "The organiser says Derby and Oaks tickets are non-refundable and the only authorized place to buy and resell them is the Kentucky Derby Ticket Exchange.",
+      "sources": [
+        {
+          "url": "https://www.kentuckyderby.com/tickets/2027/",
+          "kind": "official",
+          "title": "Kentucky Derby 2027 tickets",
+          "evidence": [
+            "tickets are non-refundable",
+            "the only authorized place to buy and resell Kentucky Derby and Oaks tickets is the Kentucky Derby Ticket Exchange"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "tickets are non-refundable",
+          "the only authorized place to buy and resell Derby and Oaks tickets is the Kentucky Derby Ticket Exchange"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.derby-2026-transport",
+      "topic": "transport",
+      "claim": "For the 2026 Derby Week the organiser said onsite parking was extremely limited, ran a free shuttle between the Kentucky Exposition Center and Churchill Downs for frontside tickets only, and offered no onsite rideshare or taxi access on Oaks and Derby days (use the Bronze Lot). 2027 arrangements not yet published.",
+      "sources": [
+        {
+          "url": "https://www.kentuckyderby.com/come-to-the-derby/visiting-information/travel-parking/",
+          "kind": "official",
+          "title": "Kentucky Derby travel and parking (2026 Derby Week page)",
+          "evidence": [
+            "Onsite parking is extremely limited",
+            "Free shuttle service runs to and from Churchill Downs",
+            "Infield tickets are not accepted and cannot use the shuttle.",
+            "No onsite rideshare or taxi access."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "onsite parking is extremely limited",
+          "A free shuttle ran between the Exposition Center and Churchill Downs",
+          "there was no onsite rideshare or taxi access"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.state.transient-room-tax",
+      "topic": "tax",
+      "claim": "Kentucky's state transient room tax is 1% of the rent, in addition to the 6% sales tax and any locally assessed transient room tax; the room tax is reported as part of taxable receipts for sales tax.",
+      "sources": [
+        {
+          "url": "https://revenue.ky.gov/Business/Transient-Room-Tax",
+          "kind": "official",
+          "title": "Kentucky Department of Revenue: Transient Room Tax",
+          "evidence": [
+            "creates a transient room tax (lodging tax) at the rate of 1 percent of the rent",
+            "in addition to the current 6 percent sales tax, and any locally assessed transient room tax",
+            "should be reported as part of taxable receipts"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "Kentucky transient room tax",
+          "the room tax is in addition to it",
+          "reported as part of taxable receipts for the sales tax"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.transient-room-tax",
+      "topic": "tax",
+      "claim": "Louisville Metro imposes a transient room tax of 8.5% on the rent of hotel rooms for stays under 30 days.",
+      "sources": [
+        {
+          "url": "https://louisvilleky.gov/node/22056",
+          "kind": "official",
+          "title": "Louisville Metro: Transient Room Tax",
+          "evidence": [
+            "Louisville Metro Government imposes a Transient Room Tax of 8.5%."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "Louisville Metro transient room tax",
+          "8.5% of the rent"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.tid-assessment",
+      "topic": "tax",
+      "claim": "The Tourism Improvement District assessment is 1.5% of gross short-term room sales at Louisville Metro hotels with 51 or more rooms; whether it is shown to guests is unconfirmed.",
+      "sources": [
+        {
+          "url": "https://louisvilleky.gov/government/revenue-commission/tourism-improvement-district-tid",
+          "kind": "official",
+          "title": "Louisville Metro: Tourism Improvement District Assessment",
+          "evidence": [
+            "imposed on 1.5% of gross short term room sales at hotels throughout Louisville Metro with 51 or more rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "Tourism Improvement District assessment",
+          "1.5% of gross room sales"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.in.clark.innkeepers-tax",
+      "topic": "tax",
+      "claim": "Indiana's county innkeeper's tax is 6% in Clark County (effective 1 December 2019), applied in addition to state sales tax; the Indiana sales tax rate is seven percent.",
+      "sources": [
+        {
+          "url": "https://www.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/county-innkeepers-tax/",
+          "kind": "official",
+          "title": "Indiana DOR: County Innkeeper's Tax",
+          "evidence": [
+            "Clark 10 6% 12/01/19",
+            "CIT is applied in addition to state sales tax."
+          ]
+        },
+        {
+          "url": "https://www.in.gov/dor/i-am-a/business-corp/sales-tax/",
+          "kind": "official",
+          "title": "Indiana DOR: Sales Tax",
+          "evidence": [
+            "register to collect a seven percent sales tax"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "Indiana county innkeeper's tax",
+          "6% in Clark County",
+          "Indiana sales tax"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.sdf-ground-transport",
+      "topic": "transport",
+      "claim": "At Louisville Muhammad Ali International Airport, Lyft and Uber pick up on the baggage claim level (west side of the terminal) and taxis (zTrip listed) wait at the commercial curb outside baggage claim.",
+      "sources": [
+        {
+          "url": "https://www.flylouisville.com/getting-to-and-from-the-airport/",
+          "kind": "operator",
+          "title": "Louisville airport: getting to and from the airport",
+          "evidence": [
+            "Lyft and Uber are located on the baggage claim level, on the west side of the terminal.",
+            "catch a cab at the commercial curb outside baggage claim"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "Lyft and Uber pick up on the baggage-claim level, on the west side of the terminal",
+          "taxis wait at the commercial curb outside baggage claim"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.hotel.galt-house",
+      "topic": "hotel",
+      "claim": "Galt House Hotel, 140 N. Fourth St., has 1,310 guest rooms and suites and calls itself the official hotel sponsor of the Kentucky Oaks and Derby.",
+      "sources": [
+        {
+          "url": "https://www.galthouse.com/",
+          "kind": "official",
+          "title": "Galt House Hotel",
+          "evidence": [
+            "Today, our world-class hotel features 1,310 contemporary guest rooms and suites.",
+            "proud to be the official hotel sponsor of the Kentucky Oaks and Derby"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "1,310 guest rooms and suites",
+          "the official hotel sponsor of the Kentucky Oaks and Derby"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.hotel.omni",
+      "topic": "hotel",
+      "claim": "Omni Louisville Hotel has 612 guest accommodations and a heated rooftop pool.",
+      "sources": [
+        {
+          "url": "https://www.omnihotels.com/hotels/louisville",
+          "kind": "official",
+          "title": "Omni Louisville Hotel",
+          "evidence": [
+            "one of 612 charming guest accommodations",
+            "heated rooftop pool"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "612 guest accommodations",
+          "a heated rooftop pool"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.hotel.myriad",
+      "topic": "hotel",
+      "claim": "The Myriad Hotel, 900 Baxter Avenue, is a 65-room boutique hotel in the Highlands, open and accepting reservations.",
+      "sources": [
+        {
+          "url": "https://myriadhotel.com/",
+          "kind": "official",
+          "title": "The Myriad Hotel Louisville",
+          "evidence": [
+            "NOW OPEN AND ACCEPTING RESERVATIONS",
+            "This eclectic 65-room boutique hotel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "a 65-room boutique hotel"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.hotel.bellwether",
+      "topic": "hotel",
+      "claim": "The Bellwether Hotel, 1300 Bardstown Road, is a self check-in hotel with no front desk or 24-hour staff.",
+      "sources": [
+        {
+          "url": "https://www.thebellwetherhotel.com/",
+          "kind": "official",
+          "title": "The Bellwether Hotel",
+          "evidence": [
+            "The Bellwether is a self check-in hotel with no front desk or 24-hour staff"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "a self check-in hotel with no front desk or 24-hour staff"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.hotel.spark-airport",
+      "topic": "hotel",
+      "claim": "Spark by Hilton Louisville Airport, 3330 Preston Highway, lists Churchill Downs within three miles and Kentucky Kingdom less than a mile away.",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/sdfimpe-spark-louisville-airport/",
+          "kind": "official",
+          "title": "Spark by Hilton Louisville Airport",
+          "evidence": [
+            "the home of the Kentucky Derby, Churchill Downs, are both within three miles",
+            "Kentucky Kingdom, less than a mile away"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "Churchill Downs within three miles"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.ky.louisville.hotel.hgi-airport",
+      "topic": "hotel",
+      "claim": "Hilton Garden Inn Louisville Airport, 2735 Crittenden Drive, lists Churchill Downs as a five-minute drive (1.50 miles in its nearby list) and sits seven miles south of downtown Louisville.",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/sdfahgi-hilton-garden-inn-louisville-airport/",
+          "kind": "official",
+          "title": "Hilton Garden Inn Louisville Airport",
+          "evidence": [
+            "The University of Louisville, Churchill Downs, and the Kentucky Derby Museum are a five-minute drive",
+            "just seven miles south of downtown Louisville"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "seven miles south of downtown Louisville",
+          "listed as a five-minute drive"
+        ]
+      },
+      "checked": "2026-11-03"
+    },
+    {
+      "id": "us.in.jeffersonville.hotel.hgi",
+      "topic": "hotel",
+      "claim": "Hilton Garden Inn Jeffersonville Louisville North, 4900 Water Tower Road, says Churchill Downs is 15 minutes away.",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/sdfjfgi-hilton-garden-inn-jeffersonville-louisville-north/",
+          "kind": "official",
+          "title": "Hilton Garden Inn Jeffersonville Louisville North",
+          "evidence": [
+            "Churchill Downs, home of the Kentucky Derby, is 15 minutes away"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-kentucky-derby.html": [
+          "Churchill Downs is 15 minutes away"
+        ]
+      },
+      "checked": "2026-11-03"
     }
   ]
 }
