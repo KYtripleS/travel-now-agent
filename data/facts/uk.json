@@ -1998,6 +1998,10 @@
         "articles/where-to-stay-for-london-marathon.html": [
           "VAT at the UK's standard 20% rate",
           "The standard rate of VAT is 20%"
+        ],
+        "articles/where-to-stay-for-wimbledon.html": [
+          "VAT at the UK's standard 20% rate",
+          "The standard rate of VAT is 20%"
         ]
       }
     },
@@ -2020,6 +2024,10 @@
       ],
       "used_in": {
         "articles/where-to-stay-for-london-marathon.html": [
+          "mayors in England will be handed the power to introduce an Overnight Visitor Levy",
+          "the Mayor of London said he strongly welcomed the power for London"
+        ],
+        "articles/where-to-stay-for-wimbledon.html": [
           "mayors in England will be handed the power to introduce an Overnight Visitor Levy",
           "the Mayor of London said he strongly welcomed the power for London"
         ]
@@ -2392,6 +2400,535 @@
       "used_in": {
         "articles/where-to-stay-for-london-marathon.html": [
           "with Superior and Deluxe Bedrooms, twelve suites"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.2027-dates",
+      "topic": "history",
+      "claim": "The Championships, Wimbledon 2027 run from 28 June to 11 July 2027 (the 150th Championships), per the organiser's ballot page.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.wimbledon.com/en_GB/tickets/ballot",
+          "kind": "official",
+          "title": "The Wimbledon Public Ballot (AELTC)",
+          "evidence": [
+            "150 Years of The Championships, 28 June to 11 July 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "run from 28 June to 11 July 2027",
+          "The Championships 2027 run from 28 June to 11 July"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.2027-ballot",
+      "topic": "history",
+      "claim": "The 2027 Wimbledon Public Ballot has closed; one application per household, email address and myWimbledon account; unsuccessful applicants get access to the returns shop; tickets must not be sold or transferred.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.wimbledon.com/en_GB/tickets/ballot",
+          "kind": "official",
+          "title": "The Wimbledon Public Ballot (AELTC)",
+          "evidence": [
+            "The Wimbledon Public Ballot for The Championships 2027 has now closed.",
+            "we accept only one application per household, per email address and per myWimbledon account",
+            "Those unsuccessful in the ballot will be granted access to the returns shop",
+            "Any tickets advertised for sale or transfer will be void."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "the Wimbledon Public Ballot for The Championships 2027 has now closed",
+          "only one application is accepted per household, per email address and per myWimbledon account",
+          "any advertised tickets will be void"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.queue-2026",
+      "topic": "place",
+      "claim": "As described for 2026 (no 2027 details found): the Queue starts in Wimbledon Park, five minutes from Southfields; one ticket per person, non-transferable; 2026 start 2pm on the Sunday before; wristbands from 7.30am; a Queue card does not guarantee entry.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.wimbledon.com/en_GB/tickets/the_queue",
+          "kind": "official",
+          "title": "Queueing for Tickets (AELTC)",
+          "evidence": [
+            "A daily Queue offers limited Show Court and Grounds tickets, which are sold at one per person and are non-transferable.",
+            "The Queue starts in Wimbledon Park, which is a five-minute walk from Southfields station.",
+            "The Queue for The Championships 2026 will start at 2pm on Sunday 28 June.",
+            "7.30am: Stewards will issue wristbands",
+            "the Queue card does not guarantee entry"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "sold at one per person and non-transferable",
+          "a five-minute walk from Southfields station",
+          "opened at 2pm on the Sunday before the tournament began",
+          "wristbands for Centre Court, No.1 Court and No.2 Court tickets were issued from 7.30am",
+          "a Queue card does not guarantee entry"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.station-walks",
+      "topic": "transport",
+      "claim": "The organiser's help page gives walks to the grounds of 15 minutes from Southfields, 20 from Wimbledon and 25 from Wimbledon Park.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://help.wimbledon.com/hc/en-gb/articles/8861802920732-What-is-the-nearest-train-or-tube-station",
+          "kind": "official",
+          "title": "What is the nearest train or tube station? (AELTC help)",
+          "evidence": [
+            "Southfields Station (District Line) is a 15 minute walk to the Grounds.",
+            "Wimbledon Station (District Line / South Western Railway / London Trams) is a 20 minute walk to the Grounds.",
+            "Wimbledon Park Station (District Line) is a 25 minute walk to the Grounds."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "Southfields (District line) is a 15 minute walk to the grounds",
+          "Wimbledon (District line, South Western Railway and London Trams) is a 20 minute walk",
+          "Wimbledon Park (District line) is a 25 minute walk"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.waterloo-train",
+      "topic": "transport",
+      "claim": "National Rail (2026 page): South Western Railway takes approximately 16 minutes between London Waterloo and Wimbledon; Thameslink also calls at Wimbledon; buy a through ticket to Wimbledon.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.nationalrail.co.uk/travel-information/the-championships-wimbledon/",
+          "kind": "operator",
+          "title": "Travel by Train to The Championships, Wimbledon 2026 (National Rail)",
+          "evidence": [
+            "South Western Railway services only take approximately 16 minutes to travel between London Waterloo and Wimbledon.",
+            "Also Thameslink trains from London St Pancras International and London Blackfriars call at Wimbledon.",
+            "consider buying a through ticket to the National Rail station at Wimbledon"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "approximately 16 minutes between London Waterloo and Wimbledon",
+          "Thameslink trains from London St Pancras International and London Blackfriars also call at Wimbledon",
+          "buying a through ticket to Wimbledon station"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.shuttle-2026",
+      "topic": "transport",
+      "claim": "In 2026 a dedicated Championships bus service ran from Wimbledon station to the grounds; no 2027 timetable or fare found.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.nationalrail.co.uk/travel-information/the-championships-wimbledon/",
+          "kind": "operator",
+          "title": "Travel by Train to The Championships, Wimbledon 2026 (National Rail)",
+          "evidence": [
+            "there's a dedicated Championships bus service which runs from Wimbledon station to the Grounds"
+          ]
+        },
+        {
+          "url": "https://help.wimbledon.com/hc/en-gb/articles/8861840997532-Is-there-a-shuttle-bus",
+          "kind": "official",
+          "title": "Is there a shuttle bus? (AELTC help)",
+          "evidence": [
+            "A dedicated Championships bus service runs from Wimbledon Station to and from the Grounds."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "a dedicated Championships bus service runs from Wimbledon station to the grounds"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.2026-parking-merton",
+      "topic": "transport",
+      "claim": "Merton Council's 2026 Championships parking restrictions (29 June to 12 July 2026) covered Wimbledon Village, Wimbledon Park and parts of the town centre and applied to all motorists including minicabs.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.merton.gov.uk/streets-parking-transport/parking-restrictions-wimbledon-championships",
+          "kind": "official",
+          "title": "Wimbledon Tennis Championships parking restrictions (Merton Council)",
+          "evidence": [
+            "there will be a number of parking restrictions throughout Wimbledon Village, Wimbledon Park and parts of Wimbledon town centre",
+            "These will affect all motorists, including minicabs and private hire vehicles."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "there are parking restrictions throughout Wimbledon Village, Wimbledon Park and parts of the town centre",
+          "affecting all motorists including minicabs and private hire vehicles"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.tube-lines-wimbledon-areas",
+      "topic": "transport",
+      "claim": "TfL lists Earl's Court and South Kensington as District line stations, and Southfields as a Zone 3 station.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://tfl.gov.uk/tube/stop/940GZZLUECT/earls-court-underground-station",
+          "kind": "operator",
+          "title": "Earl's Court Underground Station (TfL)",
+          "evidence": [
+            "Lines at this station District"
+          ]
+        },
+        {
+          "url": "https://tfl.gov.uk/tube/stop/940GZZLUSKS/south-kensington-underground-station",
+          "kind": "operator",
+          "title": "South Kensington Underground Station (TfL)",
+          "evidence": [
+            "Lines at this station Circle and District"
+          ]
+        },
+        {
+          "url": "https://tfl.gov.uk/tube/stop/940GZZLUSFS/southfields-underground-station",
+          "kind": "operator",
+          "title": "Southfields Underground Station (TfL)",
+          "evidence": [
+            "Southfields Underground Station (Zone 3)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "TfL lists both Earl's Court and South Kensington as District line stations",
+          "TfL lists the station in Zone 3"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.hotel-du-vin-cannizaro",
+      "topic": "hotel",
+      "claim": "Hotel du Vin Cannizaro House is open (live rates shown), a Georgian manor in Cannizaro Park next to Wimbledon Common, within walking distance of the All England Lawn Tennis Club; The Orangery restaurant; cashless.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelduvin.com/locations/wimbledon/",
+          "kind": "official",
+          "title": "Cannizaro House, Wimbledon (Hotel du Vin)",
+          "evidence": [
+            "within walking distance of the All England Lawn Tennis Club",
+            "A Georgian manor with a legacy of guests",
+            "Exceptional dining with spectacular views",
+            "We will only be able to accept payments via credit/debit cards and digital for all transactions"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "A Georgian manor at West Side Common",
+          "within walking distance of the All England Lawn Tennis Club",
+          "it is cashless, taking cards and digital payments only"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.dog-and-fox",
+      "topic": "hotel",
+      "claim": "Dog & Fox is open at 24 High Street, Wimbledon Village, with 25 bedrooms, check-in 3pm and check-out 11am, dog friendly, shows live sport; Young's listed it among pubs with rooms for the 2026 Championships.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.dogandfoxwimbledon.co.uk/",
+          "kind": "official",
+          "title": "Dog & Fox, Wimbledon",
+          "evidence": [
+            "24 High street, Wimbledon Village",
+            "25 gorgeous bedrooms upstairs",
+            "CHECK IN 3pm CHECK OUT 11am",
+            "Live Sport"
+          ]
+        },
+        {
+          "url": "https://www.youngs.co.uk/wimbledon-championships",
+          "kind": "operator",
+          "title": "Wimbledon Championships (Young's)",
+          "evidence": [
+            "An iconic pub with rooms in the heart of Wimbledon Village",
+            "showing the tennis throughout the tournament, with big screens"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "At 24 High Street in the Village, with 25 bedrooms above the pub, check-in at 3pm and check-out at 11am",
+          "it shows live sport"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.rose-and-crown",
+      "topic": "hotel",
+      "claim": "The Rose & Crown is open at 55 High Street, Wimbledon Village, a village pub and hotel beside Wimbledon Common with rooms above the pub; no room count on its page.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.roseandcrownwimbledon.co.uk/",
+          "kind": "official",
+          "title": "Rose & Crown, Wimbledon Village",
+          "evidence": [
+            "The Rose & Crown, 55 High Street, London, Wimbledon, SW19 5BA",
+            "traditional village pub and hotel, proudly stood by Wimbledon Common",
+            "Our bright and spacious rooms just above the pub"
+          ]
+        },
+        {
+          "url": "https://www.youngs.co.uk/wimbledon-championships",
+          "kind": "operator",
+          "title": "Wimbledon Championships (Young's)",
+          "evidence": [
+            "Rose & Crown Wimbledon, London SW19 5BA"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "At 55 High Street, a traditional village pub and hotel beside Wimbledon Common, with rooms above the pub"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.premier-inn-broadway",
+      "topic": "hotel",
+      "claim": "Premier Inn London Wimbledon (Broadway) is open at 153-163 The Broadway: 6-minute walk from Wimbledon station, 11 minutes from South Wimbledon Tube, 1.2 miles from Wimbledon Village; air conditioning in all rooms; off-site parking £1.00 per 30 minutes, free 23:00-08:00.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-wimbledon-broadway.html",
+          "kind": "official",
+          "title": "London Wimbledon (Broadway) hotel (Premier Inn)",
+          "evidence": [
+            "153-163 The Broadway, Wimbledon, London SW19 1NE",
+            "a 6-minute walk from Wimbledon Train Station",
+            "South Wimbledon underground station – 11 min walk",
+            "Wimbledon Village – 1.2 miles",
+            "Air con in all rooms",
+            "£1.00 every 30 minutes and is free between 23:00-08:00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "At 153-163 The Broadway, a 6-minute walk from Wimbledon station, 11 minutes from South Wimbledon Tube and 1.2 miles from Wimbledon Village",
+          "Air conditioning in all rooms",
+          "£1.00 every 30 minutes, free between 23:00 and 08:00"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.antoinette",
+      "topic": "hotel",
+      "claim": "Antoinette Hotel is open on The Broadway, the largest independently owned hotel in Wimbledon by its own account, with air-conditioned bedrooms and first-come secure parking; Snug doubles pitched as value for one or two nights.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.antoinettehotel.com/",
+          "kind": "official",
+          "title": "Antoinette Hotel Wimbledon",
+          "evidence": [
+            "the largest independently owned Hotel in Wimbledon with individually air conditioned bedrooms and secure parking on a first come first served basis",
+            "providing exceptional value for a 1 or 2 night stay"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "which it calls the largest independently owned hotel in Wimbledon",
+          "individually air-conditioned bedrooms and secure parking on a first come, first served basis",
+          "smaller rooms that it pitches as exceptional value for a one or two night stay"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.petersham",
+      "topic": "hotel",
+      "claim": "The Petersham Hotel is open on Richmond Hill with 61 individually decorated bedrooms, views of Petersham Meadows and the Thames, and The Petersham Restaurant.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.petershamhotel.co.uk/4-star-hotel/",
+          "kind": "official",
+          "title": "The Petersham Hotel",
+          "evidence": [
+            "61 individually decorated bedrooms",
+            "beautiful views of the Petersham Meadows and The Thames",
+            "The Petersham Restaurant, renowned for its modern European cuisine"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "with 61 individually decorated bedrooms, views of Petersham Meadows and the Thames, and The Petersham Restaurant"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.bingham",
+      "topic": "hotel",
+      "claim": "Bingham Riverhouse is open at 61-63 Petersham Road, Richmond, taking room bookings, with a restaurant, bar and members' club; no room count on its page.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.binghamriverhouse.com/",
+          "kind": "official",
+          "title": "Bingham Riverhouse",
+          "evidence": [
+            "61-63 Petersham Rd Richmond TW10 6UT",
+            "Get a Room",
+            "Bedrooms Restaurant Bar"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "At 61-63 Petersham Road, a boutique hotel with a riverside restaurant, bar and members' club"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.premier-inn-earls-court",
+      "topic": "hotel",
+      "claim": "Premier Inn London Kensington (Earl's Court) is open next to Earl's Court station, close to the Natural History Museum and Royal Albert Hall, with restaurant, breakfast and free Wi-Fi; no on-site parking.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-kensington-earls-court.html",
+          "kind": "official",
+          "title": "London Kensington (Earl's Court) hotel (Premier Inn)",
+          "evidence": [
+            "Next to Earl's Court station, close to the Natural History Museum and Royal Albert Hall",
+            "There is no on-site parking available at this hotel.",
+            "Restaurant Breakfast"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "Next to Earl's Court station and close to the Natural History Museum and the Royal Albert Hall",
+          "there is no on-site parking"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.ampersand",
+      "topic": "hotel",
+      "claim": "The Ampersand Hotel is open at 10 Harrington Road, South Kensington, with Deluxe Rooms with floor-to-ceiling windows, the Apero restaurant under Victorian cellar arches, and up to two pets per room.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://ampersandhotel.com/",
+          "kind": "official",
+          "title": "The Ampersand Hotel",
+          "evidence": [
+            "The Ampersand Hotel, 10 Harrington Road, London, SW7 3ER",
+            "ornithologically-inspired Deluxe Rooms feature floor-to-ceiling windows",
+            "tucked beneath the Victorian cellar arches",
+            "We can accommodate up to two pets in each room"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "At 10 Harrington Road, South Kensington",
+          "Apero restaurant under Victorian cellar arches",
+          "up to two dogs welcome in each room"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.park-plaza-waterloo",
+      "topic": "hotel",
+      "claim": "Park Plaza London Waterloo is open at 6 Hercules Road, 10 minutes or less from London Waterloo and a two-minute walk from Lambeth North; check-in 3:00pm, check-out 12:00pm.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/park-plaza-london-waterloo",
+          "kind": "official",
+          "title": "Park Plaza London Waterloo",
+          "evidence": [
+            "6 Hercules Road",
+            "10 minutes or less from London Waterloo and a two-minute walk from the Lambeth North Tube Station",
+            "Check-in 3:00pm Check-out 12:00pm"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "At 6 Hercules Road, which the hotel describes as 10 minutes or less from London Waterloo and a two-minute walk from Lambeth North Tube station",
+          "Check-in is from 3:00pm and check-out is at 12:00pm"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.premier-inn-county-hall",
+      "topic": "hotel",
+      "claim": "Premier Inn London County Hall is open inside the Grade II listed County Hall; Waterloo about eight minutes' walk; off-site parking £15 per 12 hours.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-county-hall.html",
+          "kind": "official",
+          "title": "Premier Inn London County Hall",
+          "evidence": [
+            "Grade II listed",
+            "which is only about an eight-minute walk away",
+            "£15 per 12 hours"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "Inside the Grade II listed County Hall on the South Bank, which the hotel says is only about an eight-minute walk from Waterloo station",
+          "off-site parking is £15 for 12 hours"
+        ]
+      }
+    },
+    {
+      "id": "gb.wimbledon.premier-inn-waterloo-wb",
+      "topic": "hotel",
+      "claim": "Premier Inn London Waterloo (Westminster Bridge) is open at 85 York Road, a 5 minute walk from Waterloo rail and underground station; no on-site parking; Waterloo Car Park £15 per 12 hours.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-waterloo-westminster-bridge.html",
+          "kind": "official",
+          "title": "London Waterloo (Westminster Bridge) hotel (Premier Inn)",
+          "evidence": [
+            "85 York Road, Waterloo, London SE1 7NJ",
+            "a 5 minute walk from Waterloo rail and underground station",
+            "no-onsite parking at this hotel",
+            "£15 per 12 hours and £20 per 24 hours"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-wimbledon.html": [
+          "At 85 York Road, a 5 minute walk from Waterloo rail and underground station, next to Westminster Bridge",
+          "the nearby car park is £15 per 12 hours"
         ]
       }
     }

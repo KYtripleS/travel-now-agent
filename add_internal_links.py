@@ -591,6 +591,22 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-for-monaco-grand-prix.html": (
+        "Where to Stay in Monaco",
+        "Monte-Carlo, Beausoleil, Menton or Nice for 3 to 6 June 2027: 12 hotels, the sprint weekend and the tax.",
+    ),
+    "articles/where-to-stay-in-munich-oktoberfest.html": (
+        "Where to Stay in Munich",
+        "18 Sep to 3 Oct 2027: tents, transport and the hotel bill explained, five areas, 12 hotels, no city tax",
+    ),
+    "articles/where-to-stay-for-wimbledon.html": (
+        "Where to Stay in London",
+        "28 June to 11 July 2027: where to stay in Wimbledon Village, the town centre, Richmond or by Waterloo.",
+    ),
+    "articles/where-to-stay-for-boston-marathon.html": (
+        "Where to Stay in Boston",
+        "Book Back Bay for the finish: 12 hotels by area, race-day closures and the 14.95% Boston room tax.",
+    ),
     "articles/where-to-stay-in-amsterdam-kings-day.html": (
         "Where to Stay in Amsterdam",
         "Tuesday 27 April 2027: where the city is loudest, where it is calm, 12 hotels and the tourist tax rising to 16%.",
@@ -2305,6 +2321,34 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-for-monaco-grand-prix.html": [
+        "articles/where-to-stay-in-nice.html",
+        "articles/where-to-stay-in-nice-carnival.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/europe-rail-pass-worth-it-2026.html",
+        "articles/where-to-stay-in-melbourne-grand-prix.html",
+    ],
+    "articles/where-to-stay-in-munich-oktoberfest.html": [
+        "articles/where-to-stay-in-berlin.html",
+        "articles/where-to-stay-in-nuremberg-christmas-market.html",
+        "articles/where-to-stay-in-cologne-christmas-market.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-for-wimbledon.html": [
+        "articles/where-to-stay-in-london.html",
+        "articles/where-to-stay-for-london-marathon.html",
+        "articles/where-to-stay-in-london-new-years-eve.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-for-boston-marathon.html": [
+        "articles/where-to-stay-in-boston.html",
+        "articles/where-to-stay-for-london-marathon.html",
+        "articles/where-to-stay-for-tokyo-marathon.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-amsterdam-kings-day.html": [
         "articles/where-to-stay-in-amsterdam.html",

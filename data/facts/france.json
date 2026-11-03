@@ -2989,6 +2989,621 @@
           "a Standard Single and Double category with no view"
         ]
       }
+    },
+    {
+      "id": "mc.gp.2027.dates",
+      "topic": "place",
+      "claim": "The 2027 Monaco Grand Prix is round 8 on Formula 1's calendar (4 to 6 June); the ACM gives 3 to 6 June 2027 for the 84th edition, with a sprint Saturday.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.formula1.com/en/racing/2027",
+          "kind": "official",
+          "title": "Formula 1: 2027 race calendar",
+          "evidence": [
+            "04 - 06 Jun"
+          ]
+        },
+        {
+          "url": "https://acm.mc/epreuves/formula-1-grand-prix-de-monaco/",
+          "kind": "official",
+          "title": "ACM: Formula 1 Grand Prix de Monaco",
+          "evidence": [
+            "Du 3 au 6 juin 2027, rendez-vous en Principauté"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "lists the Monaco Grand Prix as round 8, on 4 to 6 June",
+          "gives 3 to 6 June for the 84th edition"
+        ]
+      }
+    },
+    {
+      "id": "mc.gp.2027.sprint-format",
+      "topic": "place",
+      "claim": "2027 is Monaco's first sprint weekend: two qualifying sessions and two races; Friday 4 June free practice then first qualifying, Saturday 5 June sprint from midday then qualifying; Formula 1 lists all session times as TBC.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://acm.mc/un-week-end-sprint-en-2027/",
+          "kind": "official",
+          "title": "ACM: Un week-end sprint en 2027 !",
+          "evidence": [
+            "Pour la première fois de son histoire, la Principauté accueillera un week-end au format sprint",
+            "Dès le samedi midi, cette course sprint se disputera"
+          ]
+        },
+        {
+          "url": "https://acm.mc/billetterie-2027-top-depart/",
+          "kind": "official",
+          "title": "ACM: Billetterie 2027 : Top départ !",
+          "evidence": [
+            "deux séances de qualifications et deux courses"
+          ]
+        },
+        {
+          "url": "https://www.formula1.com/en/racing/2027/monaco",
+          "kind": "official",
+          "title": "Formula 1: Monaco Grand Prix 2027",
+          "evidence": [
+            "SPRINT QUALIFYING TBC"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "Monaco will host a sprint weekend for the first time, with two qualifying sessions and two races",
+          "Formula 1 marks every start time as still to be confirmed"
+        ]
+      }
+    },
+    {
+      "id": "mc.gp.2027.tickets",
+      "topic": "place",
+      "claim": "The ACM opened official 2027 ticketing (article of 1 October 2026): monaco-grandprix.com, the official app, and the ACM office at 44 rue Grimaldi, Monday to Friday 9:00 to 17:00; the ticket page lists a Weekend Pass (Sat-Sun), a Grand Prix Pass (Fri-Sun) and hospitality offers. Availability and prices not read.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://acm.mc/billetterie-2027-top-depart/",
+          "kind": "official",
+          "title": "ACM: Billetterie 2027 : Top départ !",
+          "evidence": [
+            "La Billetterie Officielle du Formula 1 Louis Vuitton Grand Prix de Monaco 2027 est désormais ouverte",
+            "44 rue Grimaldi, du lundi au vendredi de 9h00 à 17h00"
+          ]
+        },
+        {
+          "url": "https://monaco-grandprix.com/edition/formula-1-grand-prix-de-monaco-2027/",
+          "kind": "official",
+          "title": "Billetterie Officielle: Grand Prix de Monaco 2027",
+          "evidence": [
+            "FORFAIT WEEK-END Sam - Dim",
+            "FORFAIT GRAND PRIX Ven - Sam - Dim",
+            "OFFRES HOSPITALITÉS"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "the ACM ticket office at 44 rue Grimaldi",
+          "a Weekend Pass for Saturday and Sunday, a Grand Prix Pass for Friday to Sunday, and hospitality offers"
+        ]
+      }
+    },
+    {
+      "id": "mc.tax.contribution-touristique",
+      "topic": "tax",
+      "claim": "Monaco's contribution touristique is set per establishment, per person per night, by Arrêté Ministériel 2024-72 of 5 February 2024 (Journal de Monaco no. 8681, 9 February 2024): Hôtel de Paris 5-star EUR 7, Fairmont 4-star EUR 5, Novotel and Columbus 3-star EUR 3, Hôtel de France 2-star EUR 2. No later order found.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://journaldemonaco.gouv.mc/en/Journaux/2024/Journal-8681/Arrete-Ministeriel-n-2024-72-du-5-fevrier-2024-modifiant-l-arrete-ministeriel-n-2023-754-du-20-decembre-2023-portant-fixation-du-montant-de-la-contribution-touristique-instituee-par-le-Chapitre-V-de-la-loi-n-1.548-du-6-juillet-2023-portant-diverses-dis",
+          "kind": "official",
+          "title": "Journal de Monaco: Arrêté Ministériel n° 2024-72",
+          "evidence": [
+            "par nuitée de séjour, est arrêté conformément au barème suivant"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "set per hotel, per person and per night, by ministerial order",
+          "The latest order we could verify is Arrêté Ministériel 2024-72 of 5 February 2024",
+          "We found no later order, so treat these as the last published amounts"
+        ]
+      }
+    },
+    {
+      "id": "mc.tax.example-2027",
+      "topic": "tax",
+      "claim": "Our arithmetic: two adults, four nights: Hôtel de Paris 2 x 4 x EUR 7 = EUR 56; Fairmont 2 x 4 x EUR 5 = EUR 40; Hotel Capitole (Beausoleil 3-star EUR 2.01) = EUR 16.08; Splendid (Nice 4-star EUR 3.48) = EUR 27.84.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/ts/metropole-nca",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: taxe de séjour portal",
+          "evidence": [
+            "identiques aux Tarifs 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "A worked example, our arithmetic and not an official figure",
+          "Two adults, four nights from Thursday 3 to Monday 7 June, at the rates above"
+        ]
+      }
+    },
+    {
+      "id": "mc.tax.nice-grid-cap-dail",
+      "topic": "tax",
+      "claim": "Cap-d'Ail is one of the 51 communes of the Métropole Nice Côte d'Azur and follows its grid (palace 6.43, 5-star 4.69, 4-star 3.48, 3-star 2.28, 2-star 1.34, 1-star 1.07, 34% surcharge included); the portal says 2027 rates stay identical to 2026.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/ts/metropole-nca",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: taxe de séjour portal",
+          "evidence": [
+            "51 Communes membres",
+            "Cap d’Ail",
+            "identiques aux Tarifs 2026"
+          ]
+        },
+        {
+          "url": "https://taxedesejour.ofeaweb.fr/Content/configuration/metropole-nca/ImprimesDeclaratif/2026%20Tourist%20Tax%20Rates%20-%20METROPOLE%20NICE%20COTE%20D'AZUR.pdf",
+          "kind": "official",
+          "title": "Métropole Nice Côte d'Azur: Tourist tax rates 2026 (PDF)",
+          "evidence": [
+            "Tourist tax rates per person per night as from 1st January 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "Cap-d'Ail is one of the 51 communes of the Métropole Nice Côte d'Azur, so it follows Nice's grid, which the Métropole's portal says stays the same in 2027",
+          "Cap-d'Ail is the next commune west of Monaco and part of the Métropole Nice Côte d'Azur, so Nice's tax grid applies"
+        ]
+      }
+    },
+    {
+      "id": "fr.menton.tourist-tax-2026",
+      "topic": "tax",
+      "claim": "Menton's taxe de séjour per person per night from 1 January 2026 (deliberation of 17 June 2025, 34% regional surcharge included): palace 6.57, 5-star 4.82, 4-star 3.48, 3-star 2.28, 2-star 1.34, 1-star 1.07.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://menton.taxesejour.fr/portail/292471/download",
+          "kind": "official",
+          "title": "Menton: poster of fixed tourist tax rates (PDF)",
+          "evidence": [
+            "Par personne et par nuit en vigueur au 01/01/2026",
+            "DÉLIBÉRATION DU 17-06-2025",
+            "34% regional additional tax included."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "Menton's and Beausoleil's posters give rates in force from 1 January 2026",
+          "Menton's grid matches Nice's at the three- and four-star levels"
+        ]
+      }
+    },
+    {
+      "id": "fr.beausoleil.tourist-tax-2026",
+      "topic": "tax",
+      "claim": "Beausoleil's taxe de séjour per person per night in force at 1 January 2026 (deliberation of 13 July 2018 on the poster, 34% surcharge included): palace 5.36, 5-star 4.02, 4-star 3.08, 3-star 2.01, 2-star 1.21, 1-star 1.07.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://beausoleil.taxesejour.fr/portail/285051/download",
+          "kind": "official",
+          "title": "Beausoleil: poster of fixed tourist tax rates (PDF)",
+          "evidence": [
+            "Par personne et par nuit en vigueur au 01/01/2026",
+            "DÉLIBÉRATION DU 13-07-2018",
+            "34% regional additional tax included."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "Its tax grid is the town's own and is lower than Monaco's",
+          "we did not see 2027 figures for either town"
+        ]
+      }
+    },
+    {
+      "id": "mc.vat.same-as-france",
+      "topic": "tax",
+      "claim": "Monaco's government says VAT is levied on the same basis and at the same rate as in France; no hotel-specific VAT line was found.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://monentreprise.gouv.mc/en/thematiques/obligations-legales-et-fiscalite/fiscalite/la-taxe-sur-la-valeur-ajoutee-tva/tva",
+          "kind": "official",
+          "title": "Monaco government: Value Added Tax",
+          "evidence": [
+            "levied on the same basis and at the same rate as in France"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "Monaco's government says its VAT is levied on the same basis and at the same rate as in France"
+        ]
+      }
+    },
+    {
+      "id": "mc.transport.nice-monaco-train",
+      "topic": "transport",
+      "claim": "Monaco's tourist office: around sixty round trips a day between Nice and Monaco, journey time 23 minutes, no reservation needed on regional trains serving Monaco Monte-Carlo, which is underground; the airport has a direct link with Nice Saint-Augustin station.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.visitmonaco.com/en/plan-your-stay/access-and-transport/getting-to-the-principality/arriving-by-train",
+          "kind": "official",
+          "title": "Visit Monaco: arriving by train",
+          "evidence": [
+            "around sixty round trips a day between Nice and Monaco",
+            "do not require reservation",
+            "direct link with Nice Saint-Augustin station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "around sixty round trips a day between Nice and Monaco, with a journey time of 23 minutes",
+          "The station is underground"
+        ]
+      }
+    },
+    {
+      "id": "mc.transport.nce-airport",
+      "topic": "transport",
+      "claim": "Nice airport lists tram line 2 to the city centre in under 30 minutes and a ZOU! intercity bus 80 (Monaco to Menton) at the Terminal 2 coach station; no fare or time given.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.nice.aeroport.fr/acces/transports-en-commun",
+          "kind": "official",
+          "title": "Nice Côte d'Azur Airport: transports en commun",
+          "evidence": [
+            "Cette ligne relie le Terminal 1 et Terminal 2 au centre-ville",
+            "Monaco > Menton (80)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "The airport lists tram line 2 to the centre in under 30 minutes",
+          "the page gives no fare or time"
+        ]
+      }
+    },
+    {
+      "id": "mc.transport.2026-race-trains",
+      "topic": "transport",
+      "claim": "Riviera Radio (3 June 2026), for the 2026 race: most TER trains serving Monaco in long formation, frequency unchanged, last trains from Monaco to Nice and Menton between 1am and 2am on Friday and Saturday nights, Grand Prix Pass EUR 10 a day Nice-Monaco and EUR 20 Alpes-Maritimes pass. No 2027 plan found.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.rivieraradio.mc/article/extra-trains-and-later-services-for-monaco-grand-prix-weekend-5Hjdb4s_2/",
+          "kind": "news",
+          "title": "Riviera Radio: extra trains and later services for Grand Prix weekend",
+          "evidence": [
+            "long formation",
+            "A Grand Prix Pass will allow unlimited travel between Nice and Monaco for €10 per day",
+            "departing between 1am and 2am on Friday and Saturday nights"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "most regional trains serving Monaco would run in long formation",
+          "The same report gave a Grand Prix Pass at €10 a day between Nice and Monaco"
+        ]
+      }
+    },
+    {
+      "id": "mc.access.2025-acm",
+      "topic": "transport",
+      "claim": "ACM's 2025 race page: station exits are close to the access points to the F1 public grandstands; the event shuttle stopped on Avenue Albert II in Fontvieille, requiring an additional 15-minute walk to the circuit. (2025 page, not 2027.)",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://acm.mc/en/?p=10601198",
+          "kind": "official",
+          "title": "ACM: practical information, 2025 race",
+          "evidence": [
+            "The exits from the Monaco train station are close to the access points to the F1 public Grandstands",
+            "requiring an additional 15-minute walk to reach the circuit"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "said the station exits are close to the access points to the public grandstands",
+          "with a further 15-minute walk to the circuit"
+        ]
+      }
+    },
+    {
+      "id": "mc.hotel.de-paris",
+      "topic": "hotel",
+      "claim": "Hôtel de Paris Monte-Carlo: palace-category five-star on Place du Casino, categories from Superior Rooms to Diamond Suites; no race terms on its page.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.montecarlosbm.com/en/hotel-monaco/hotel-paris-monte-carlo",
+          "kind": "official",
+          "title": "Hôtel de Paris Monte-Carlo",
+          "evidence": [
+            "In the heart of Place du Casino",
+            "A legendary Palace of world renown"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "A five-star on Place du Casino that calls itself a legendary palace"
+        ]
+      }
+    },
+    {
+      "id": "mc.hotel.fairmont",
+      "topic": "hotel",
+      "claim": "Fairmont Monte Carlo: 12 Avenue des Spélugues, Hairpin views, Grand Prix Suite, parking for an additional fee.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/en/hotels/monte-carlo/fairmont-monte-carlo.html",
+          "kind": "official",
+          "title": "Fairmont Monte Carlo",
+          "evidence": [
+            "12 Avenue des Spélugues, 98000 Monaco",
+            "iconic Hairpin turn",
+            "GRAND PRIX SUITE",
+            "Parking available for an additional fee"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "At 12 Avenue des Spélugues",
+          "parking is available for an additional charge"
+        ]
+      }
+    },
+    {
+      "id": "mc.hotel.novotel",
+      "topic": "hotel",
+      "claim": "Novotel Monte-Carlo: 16 Boulevard Princesse Charlotte, a few minutes' walk from the train station and Casino Square.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.novotelmontecarlo.com/en/",
+          "kind": "official",
+          "title": "Novotel Monte-Carlo",
+          "evidence": [
+            "just a few minutes’ walk from the train station and the Casino Square",
+            "16 Boulevard Princesse Charlotte, 98000 Monaco"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "At 16 Boulevard Princesse Charlotte, a few minutes' walk from the train station and Casino Square, according to the hotel"
+        ]
+      }
+    },
+    {
+      "id": "mc.hotel.hotel-de-france",
+      "topic": "hotel",
+      "claim": "Hôtel de France: boutique-style hotel in La Condamine, 6 Rue de la Turbie, short walk from Port Hercule and Place d'Armes, reception 24/7; 2-star per the 2024 order.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hoteldefrance.mc/en",
+          "kind": "official",
+          "title": "Hôtel de France Monaco",
+          "evidence": [
+            "just a short walk from Port Hercule and Place d’Armes",
+            "Reception open 24/7",
+            "6 Rue de la Turbie, 98000 Monaco"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "a short walk from Port Hercule and Place d'Armes, with reception open around the clock"
+        ]
+      }
+    },
+    {
+      "id": "mc.hotel.columbus",
+      "topic": "hotel",
+      "claim": "Columbus Hotel Monte-Carlo: Fontvieille, 181 rooms including 29 suites, renovated 2018.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.columbushotels.com/",
+          "kind": "official",
+          "title": "Columbus Hotel Monte-Carlo",
+          "evidence": [
+            "181 rooms including 29 Suites, entirely renovated in 2018",
+            "Located in Fontvieille"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "with 181 rooms including 29 suites, entirely renovated in 2018"
+        ]
+      }
+    },
+    {
+      "id": "fr.beausoleil.hotel-capitole",
+      "topic": "hotel",
+      "claim": "Hotel Capitole, Beausoleil: 3-star, 19 rooms, 19 Boulevard du Général Leclerc, 300 m from the Monte-Carlo Casino.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotel-capitole.fr/EN/",
+          "kind": "official",
+          "title": "Hotel Capitole Monte-Carlo",
+          "evidence": [
+            "At 300m from the Casino of Monte-Carlo",
+            "its 19 rooms",
+            "Hotel*** Capitole Monte-Carlo"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "A family-owned three-star at 19 Boulevard du Général Leclerc with 19 rooms, which it places 300 m from the Monte-Carlo Casino"
+        ]
+      }
+    },
+    {
+      "id": "fr.beausoleil.hotel-villa-boeri",
+      "topic": "hotel",
+      "claim": "Hôtel Villa Boeri, Beausoleil: 30 air-conditioned soundproofed rooms, lift, 300 m on foot from Casino Square, public parking about 100 m away; no star rating stated.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelboeri.com/",
+          "kind": "official",
+          "title": "Hôtel Villa Boeri",
+          "evidence": [
+            "30 chambres climatisées et insonorisées",
+            "à 300 m du Casino à pied",
+            "Parkings publics à 100 m"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "30 air-conditioned, soundproofed rooms, a lift, public parking about 100 m away, 300 m on foot from Casino Square and seven minutes from the beach"
+        ]
+      }
+    },
+    {
+      "id": "fr.cap-dail.hotel-miramar",
+      "topic": "hotel",
+      "claim": "Miramar Hôtel, Cap-d'Ail: 3-star, 24 rooms, sea-view terrace, 126 Avenue du 3 Septembre, a fifteen-minute stroll from Mala beach.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://miramarhotel.fr/en/",
+          "kind": "official",
+          "title": "Miramar Hôtel Cap d'Ail",
+          "evidence": [
+            "3-star hotel with its 24 comfortable rooms and sea-view terrace",
+            "a mere fifteen minute stroll from the famous Mala beach"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "A three-star at 126 Avenue du 3 Septembre with 24 rooms and a sea-view terrace, a fifteen-minute stroll from the Mala beach"
+        ]
+      }
+    },
+    {
+      "id": "fr.menton.hotel-napoleon",
+      "topic": "hotel",
+      "claim": "Hotel Napoléon, Menton: four-star, 29 Porte de France, lounge bar and outdoor pool.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.napoleon-menton.com/en/",
+          "kind": "official",
+          "title": "Hotel Napoléon Menton",
+          "evidence": [
+            "Official Website | 4 star French Riviera",
+            "29 Porte de France 06500 Menton"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "A four-star at 29 Porte de France with a lounge bar and an outdoor pool"
+        ]
+      }
+    },
+    {
+      "id": "fr.menton.hotel-royal-westminster",
+      "topic": "hotel",
+      "claim": "Royal Westminster, Menton: three-star, 92 air-conditioned rooms, Promenade du Soleil, open 13 February to 30 November 2027, half-board formula.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotel-royal-westminster.com/en",
+          "kind": "official",
+          "title": "Hôtel Royal Westminster - Vacances Bleues",
+          "evidence": [
+            "open throughout 2026, and then from 13 February to 30 November 2027",
+            "92 air-conditioned rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "with 92 air-conditioned rooms, run by Vacances Bleues",
+          "its page says it is open from 13 February to 30 November 2027"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-splendid-gp",
+      "topic": "hotel",
+      "claim": "Splendid Hôtel & Spa, Nice: four-star, 130 rooms and suites, 50 Boulevard Victor Hugo.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.splendid-nice.com/en/",
+          "kind": "official",
+          "title": "Splendid Hôtel & Spa Nice",
+          "evidence": [
+            "130 comfortable rooms and suites",
+            "50 Boulevard Victor Hugo, Nice, 06000, France"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "A four-star at 50 Boulevard Victor Hugo with 130 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "fr.nice.hotel-maison-durante-gp",
+      "topic": "hotel",
+      "claim": "Maison Durante, Nice: 23 rooms around a garden, renovated 2022, 300 m from Nice-Ville per its page, rooms from EUR 88 a night.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://maisondurante.fr/",
+          "kind": "official",
+          "title": "Maison Durante",
+          "evidence": [
+            "rassemble seulement 23 chambres autour du jardin",
+            "À partir de 88€ / nuit",
+            "16 avenue Durante"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-monaco-grand-prix.html": [
+          "with only 23 rooms around a garden, renovated in 2022",
+          "with rooms from €88 a night on its own page"
+        ]
+      }
     }
   ]
 }

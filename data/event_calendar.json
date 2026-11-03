@@ -364,6 +364,38 @@
       "name": "King's Day",
       "place": "Amsterdam, Netherlands",
       "when": "King's Night Monday 26 April, King's Day Tuesday 27 April"
+    },
+    {
+      "start": "2027-04-19",
+      "end": "2027-04-19",
+      "slug": "where-to-stay-for-boston-marathon",
+      "name": "Boston Marathon",
+      "place": "Boston, US",
+      "when": "Monday 19 April, Patriots' Day"
+    },
+    {
+      "start": "2027-06-28",
+      "end": "2027-07-11",
+      "slug": "where-to-stay-for-wimbledon",
+      "name": "Wimbledon",
+      "place": "London, UK",
+      "when": "28 June to 11 July"
+    },
+    {
+      "start": "2027-09-18",
+      "end": "2027-10-03",
+      "slug": "where-to-stay-in-munich-oktoberfest",
+      "name": "Oktoberfest",
+      "place": "Munich, Germany",
+      "when": "18 September to 3 October"
+    },
+    {
+      "start": "2027-06-03",
+      "end": "2027-06-06",
+      "slug": "where-to-stay-for-monaco-grand-prix",
+      "name": "Monaco Grand Prix",
+      "place": "Monaco",
+      "when": "3 to 6 June; race Sunday 6 June, the first Monaco sprint weekend"
     }
   ],
   "seasons": [

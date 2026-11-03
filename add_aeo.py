@@ -446,6 +446,22 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-for-monaco-grand-prix": dict(
+        text="For a first race weekend, stay in Monte-Carlo if the budget allows: the Casino and the hairpin are on foot. Choose Fairmont Monte Carlo for a splurge, Novotel Monte-Carlo for comfort, Hotel Capitole in Beausoleil for value. Monaco's tourist tax is €2 to €7 a person a night; France's is lower.",
+        link_text="Monte-Carlo",
+        cta=_stay_cta("where-to-stay-for-monaco-grand-prix", "See hotels around Monte-Carlo")),
+    "where-to-stay-in-munich-oktoberfest": dict(
+        text="For Oktoberfest, stay around the Theresienwiese: Cocoon Munich Theresienwiese says it is about three minutes from the grounds, Hotel Mariandl is the lower-priced pick and Mandarin Oriental, Munich the splurge in the Altstadt. Munich has no city tax in force; VAT is 7%.",
+        link_text="Theresienwiese",
+        cta=_stay_cta("where-to-stay-in-munich-oktoberfest", "See hotels around the Theresienwiese")),
+    "where-to-stay-for-wimbledon": dict(
+        text="For a first Wimbledon, stay in Wimbledon Village for the walk: Dog & Fox is a pub with rooms there, Premier Inn London Wimbledon (Broadway) is the budget pick by the station, and Hotel du Vin Cannizaro House is the splurge. London has no city tax; VAT is 20%.",
+        link_text="Wimbledon Village",
+        cta=_stay_cta("where-to-stay-for-wimbledon", "See hotels around Wimbledon Village")),
+    "where-to-stay-for-boston-marathon": dict(
+        text="For the marathon, stay in Back Bay: the race finishes near the Boston Public Library in Copley Square. Choose The Lenox Hotel for Boylston Street, Fairmont Copley Plaza for the square, The Midtown Hotel for less. The tax is 14.95%, or $44.85 on a $300 room.",
+        link_text="Back Bay",
+        cta=_stay_cta("where-to-stay-for-boston-marathon", "See hotels around Back Bay")),
     "where-to-stay-in-amsterdam-kings-day": dict(
         text="For a first King’s Day, stay in De Pijp: GVB ran extra metro 52 trains to De Pijp station in 2026. Choose Sir Albert for the market street, Hotel Okura for a splurge, Hotel Fita by the Vondelpark for value. Tax is 12.5% now, 16% proposed for 2027, plus 21% VAT.",
         link_text="De Pijp",
@@ -1738,6 +1754,10 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-for-monaco-grand-prix": ["Fairmont Monte Carlo", "Novotel Monte-Carlo", "Hotel Capitole"],
+    "where-to-stay-in-munich-oktoberfest": ["Cocoon Munich Theresienwiese", "Hotel Mariandl", "Mandarin Oriental, Munich"],
+    "where-to-stay-for-wimbledon": ["Dog & Fox", "Premier Inn London Wimbledon (Broadway)", "Hotel du Vin Cannizaro House"],
+    "where-to-stay-for-boston-marathon": ["Fairmont Copley Plaza", "The Lenox Hotel", "The Midtown Hotel"],
     "where-to-stay-in-amsterdam-kings-day": ["Hotel Okura Amsterdam", "Sir Albert", "Hotel Fita"],
     "where-to-stay-for-kentucky-derby": ["The Brown Hotel", "Galt House Hotel", "Hilton Garden Inn Louisville Airport"],
     "where-to-stay-for-japanese-grand-prix": ["Nagoya Marriott Associa Hotel", "Daiwa Roynet Hotel Nagoya Shinkansenguchi", "Sanco Inn Yokkaichi Ekimae"],
@@ -2524,6 +2544,10 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Monaco", "where-to-stay-for-monaco-grand-prix", None, None),
+        ("Munich", "where-to-stay-in-munich-oktoberfest", None, None),
+        ("London", "where-to-stay-for-wimbledon", None, None),
+        ("Boston", "where-to-stay-for-boston-marathon", None, None),
         ("Amsterdam", "where-to-stay-in-amsterdam-kings-day", None, None),
         ("Louisville", "where-to-stay-for-kentucky-derby", None, None),
         ("Suzuka", "where-to-stay-for-japanese-grand-prix", None, None),
@@ -3007,7 +3031,9 @@ STAY_POINTERS = {
     ],
     "where-to-stay-in-nice": ("intro",
         'Coming for Carnival? <a href="where-to-stay-in-nice-carnival.html">Where to stay for the Nice Carnival '
-        '2027</a> matches the areas to the parades on Place Masséna, 9 to 28 February.'),
+        '2027</a> matches the areas to the parades on Place Masséna, 9 to 28 February. Going to the race? '
+        '<a href="where-to-stay-for-monaco-grand-prix.html">Where to stay for the Monaco Grand Prix 2027</a> '
+        '(3 to 6 June) weighs Monaco against Beausoleil, Menton and Nice by train.'),
     "where-to-stay-in-venice": ("intro",
         'Coming for Carnival? <a href="where-to-stay-in-venice-carnival.html">Where to stay in Venice for Carnival '
         '2027</a> matches the areas to the parades and the square, with the tax rate that rises on 1 February.'),
@@ -3020,7 +3046,12 @@ STAY_POINTERS = {
         'Here for 31 December? <a href="where-to-stay-in-london-new-years-eve.html">Where to stay in London for '
         'New Year’s Eve</a> matches hotels to the six ticketed fireworks areas, with the £55 and £40 tickets and '
         'the bridges that close. Running in April? <a href="where-to-stay-for-london-marathon.html">Where to stay '
-        'for the London Marathon 2027</a> covers the two race days, 24 and 25 April, from the Greenwich start to The Mall.'),
+        'for the London Marathon 2027</a> covers the two race days, 24 and 25 April, from the Greenwich start to The Mall. '
+        'Here for the tennis? <a href="where-to-stay-for-wimbledon.html">Where to stay for Wimbledon 2027</a> '
+        '(28 June to 11 July) compares the Village, Richmond and the District line into town.'),
+    "where-to-stay-in-boston": ("intro",
+        'Running or watching in April? <a href="where-to-stay-for-boston-marathon.html">Where to stay for the Boston '
+        'Marathon 2027</a> (Monday 19 April) weighs Back Bay by the finish against Cambridge and the start towns.'),
     "where-to-stay-in-zurich": ("intro",
         'Heading on to the mountains? <a href="where-to-stay-in-zermatt.html">Where to stay in Zermatt for the '
         '2026/27 ski season</a> sorts the car-free village by lift, about three and a half hours by train from '

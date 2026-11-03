@@ -1398,6 +1398,642 @@
           "a 20-minute walk"
         ]
       }
+    },
+    {
+      "id": "de.munich.oktoberfest-2027-dates",
+      "topic": "place",
+      "claim": "The 192nd Oktoberfest takes place from 18 September to 3 October 2027 on the Theresienwiese, per the City of Munich's official site.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.oktoberfest.de/en/",
+          "kind": "official",
+          "title": "Oktoberfest.de: home",
+          "evidence": [
+            "In 2027, the 192nd Oktoberfest will take place from September 18 to October 3 on the Theresienwiese."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "from 18 September to 3 October 2027 on the Theresienwiese"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.oktoberfest-hours",
+      "topic": "place",
+      "claim": "Festival site hours: Mon-Thu 10:00-23:30, Fri 10:00-midnight, Sat 09:00-midnight, Sun 09:00-23:30; tents open 09:00 and the tapping is at 12 noon on the first Saturday; large tents serve the last beer and music at 22:30. The page also mentions 2026 in places.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.oktoberfest.de/en/information/oktoberfest-opening-times/opening-hours-munich-oktoberfest",
+          "kind": "official",
+          "title": "Oktoberfest.de: opening hours",
+          "evidence": [
+            "Monday to Thursday: 10 am to 11.30 pm",
+            "Fridays: 10 a.m. to midnight",
+            "Saturday: 9 am to midnight",
+            "the tents will open at 9 a.m.",
+            "the last beer and music is served at 10.30 pm"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "Monday to Thursday 10 a.m. to 11.30 p.m., Friday 10 a.m. to midnight",
+          "the tents open at 9 a.m. on the first Saturday",
+          "the last beer and the music are at 10.30 p.m."
+        ]
+      },
+      "note": "Page text mixes 2026 and 2027 wording and calls this the 190th festival in one line; confirm hours nearer the date."
+    },
+    {
+      "id": "de.munich.oktoberfest-tent-reservations",
+      "topic": "place",
+      "claim": "Entry to the beer tents is free; a quarter of the seats in the big tents may not be reserved (40 percent at weekends and holidays until 3 p.m., then 25 percent); there is no central reservation centre; reservations for 2027 open by spring, at the latest April or May; the reservation is free but vouchers are prepaid.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.oktoberfest.de/en/tents/reservations-oktoberfest/booking-oktoberfest-book-table-oktoberfest",
+          "kind": "official",
+          "title": "Oktoberfest.de: booking a table",
+          "evidence": [
+            "Entry to the beer tents is free of charge.",
+            "A quarter of the seats in the big tents may not even be reserved.",
+            "There is no central reservation centre.",
+            "will be activated by spring, at the latest in April or May",
+            "The reservation itself is free of charge"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "Entry to the beer tents is free of charge",
+          "a quarter of the seats in the big tents may not be reserved",
+          "40 percent of seats are exempt until 3 p.m., then 25 percent",
+          "activated by spring, at the latest in April or May"
+        ]
+      },
+      "note": "The page also describes a resale portal; we deliberately give no resale advice."
+    },
+    {
+      "id": "de.munich.no-parking",
+      "topic": "transport",
+      "claim": "There are no designated parking spaces for cars anywhere in the Oktoberfest area.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.oktoberfest.de/en/information/getting-there",
+          "kind": "official",
+          "title": "Oktoberfest.de: getting there",
+          "evidence": [
+            "There are no designated parking spaces for cars anywhere in the Oktoberfest area."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "no designated parking spaces for cars anywhere in the Oktoberfest area"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.mvg-wiesn-2026",
+      "topic": "transport",
+      "claim": "MVG's 2026 Wiesn advice (9 Sept 2026): the walk from the Hauptbahnhof via Hermann-Lingg-Strasse is signposted and takes just under 15 minutes; use U3/U6 (Goetheplatz, Poccistrasse) as they are usually less busy than U4/U5; from the west on U4/U5 get off at Schwanthalerhoehe; a platform at Theresienwiese may be closed briefly; direct access from the grounds to the U-Bahn on the way home. 2027 advice not yet published.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.swm.de/unternehmen/presse/pressemitteilungen/2026/09-2026/mvg-wiesn-anreise-tipps-2026",
+          "kind": "official",
+          "title": "SWM/MVG press release, 9 Sept 2026",
+          "evidence": [
+            "in knapp 15 Minuten zu Fuß erreichen",
+            "Bitte U3 und U6 nutzen!",
+            "bereits an der Schwanthalerhöhe auszusteigen",
+            "ist auf der Rückreise ein direkter Zugang vom Festgelände zur U-Bahn möglich"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "takes just under 15 minutes",
+          "to get off at Schwanthalerhöhe and walk to the grounds",
+          "The MVG asks visitors to use these",
+          "there is a direct route from the grounds to the Theresienwiese U-Bahn station"
+        ]
+      },
+      "recheck_days": 120
+    },
+    {
+      "id": "de.munich.no-city-tax",
+      "topic": "tax",
+      "claim": "Bavaria's Municipal Taxes Act (Art. 3(3) sentence 1) says an Übernachtungsteuer may not be levied; the Bavarian Constitutional Court rejected the challenge by Munich, Bamberg and Günzburg on 14 November 2025 (Vf. 3-VII-23). No overnight tax is in force in Munich.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayKAG/true",
+          "kind": "official",
+          "title": "Bavarian KAG",
+          "evidence": [
+            "eine Übernachtungsteuer, eine Verpackungssteuer und eine Vergnügungssteuer dürfen nicht erhoben werden"
+          ]
+        },
+        {
+          "url": "https://www.bayern.verfassungsgerichtshof.de/media/images/bayverfgh/3-vii-23_entscheidung.pdf",
+          "kind": "official",
+          "title": "Bavarian Constitutional Court Vf. 3-VII-23",
+          "evidence": [
+            "Entscheidung des Bayerischen Verfassungsgerichtshofs vom 14. November 2025",
+            "Aktenzeichen: Vf. 3-VII-23"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "the Bavarian Municipal Taxes Act says a municipality may not levy an Übernachtungsteuer",
+          "On 14 November 2025 the Bavarian Constitutional Court rejected the challenge by Munich and two other cities",
+          "We found no tax in force in Munich"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "de.munich.tax-history-2023-2026",
+      "topic": "tax",
+      "claim": "Munich's city council decided in March 2023 on a 5% overnight tax on the room price; on 26 February 2026 the city said its mayor and treasurer would propose a complaint to the Federal Constitutional Court; the court's 2026 list of new cases includes a municipal complaint (2 BvR 872/26) against the Bavarian ban, without naming the complainant. No ruling found.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://ru.muenchen.de/2026/39/Uebernachtungssteuer-Stadt-plant-Gang-vor-das-Verfassungsgericht-123142",
+          "kind": "official",
+          "title": "City of Munich, Rathaus Umschau 39/2026",
+          "evidence": [
+            "Im März 2023 hatte der Stadtrat die Einführung einer Übernachtungssteuer in Höhe von fünf Prozent",
+            "eine Kommunalverfassungsbeschwerde einzulegen"
+          ]
+        },
+        {
+          "url": "https://www.bundesverfassungsgericht.de/DE/Aktuelles/AusgewaehlteNeueingaenge/ausgewaehlte-Neueingaenge_node.html",
+          "kind": "official",
+          "title": "Federal Constitutional Court: selected new cases",
+          "evidence": [
+            "2 BvR 872/26",
+            "landesrechtliche Verbot einer kommunalen Übernachtungsteuer"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "decided in March 2023 on a 5% overnight tax",
+          "On 26 February 2026 the city said its mayor and treasurer would propose a complaint to the Federal Constitutional Court",
+          "includes a municipal complaint against the Bavarian ban"
+        ]
+      },
+      "recheck_days": 60
+    },
+    {
+      "id": "de.munich.vat-accommodation",
+      "topic": "tax",
+      "claim": "German VAT on short-term room lets is the reduced 7% (UStG section 12(2) no. 11); services not directly serving the letting are excluded; the standard rate is 19%. Worked example (our arithmetic): EUR 200 including 7% VAT carries EUR 13.08 VAT (200 x 7 / 107).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.gesetze-im-internet.de/ustg_1980/__12.html",
+          "kind": "official",
+          "title": "UStG section 12",
+          "evidence": [
+            "Die Steuer ermäßigt sich auf sieben Prozent für die folgenden Umsätze",
+            "zur kurzfristigen Beherbergung von Fremden bereithält",
+            "19 Prozent der Bemessungsgrundlage"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "a reduced rate of 7% for letting rooms to guests for a short stay",
+          "the VAT is €13.08 (200 × 7 ÷ 107)"
+        ]
+      },
+      "note": "Duplicates ledger ids de.vat.accommodation and de.accommodation-vat-7; merge as the editor prefers."
+    },
+    {
+      "id": "de.munich.airport-sbahn",
+      "topic": "transport",
+      "claim": "Munich Airport: S1/S8 take about 40 minutes to the Hauptbahnhof and alternate for a 10-minute interval; the S8 runs 24/7 with a 40-minute gap from about 1 to 4 a.m.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.munich-airport.com/public-transport-260822",
+          "kind": "official",
+          "title": "Munich Airport: bus and train connections",
+          "evidence": [
+            "The trip to the main railway station at the city center takes approx. 40 minutes",
+            "there is a 10-minute interval between the airport and the city center",
+            "Nonstop service (24/7)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "about 40 minutes, and that the S1 and S8 run alternately, so there is a 10-minute interval",
+          "The S8 runs around the clock"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.airport-bus",
+      "topic": "fare",
+      "claim": "Lufthansa Express Bus: every 20 minutes from the Hauptbahnhof via Munich North (Schwabing); 45 minutes from the Hauptbahnhof, 25 from Schwabing; adult single EUR 12.50 online, EUR 13.50 from the driver.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.airportbus-muenchen.de/en",
+          "kind": "operator",
+          "title": "Lufthansa Express Bus Munich",
+          "evidence": [
+            "Adult single ticket 12,50 €",
+            "From the driver 13,50 €"
+          ]
+        },
+        {
+          "url": "https://www.munich-airport.com/public-transport-260822",
+          "kind": "official",
+          "title": "Munich Airport: bus and train connections",
+          "evidence": [
+            "Journey time Central Station ↔ Airport: 45 minutes",
+            "Journey time Munich North (Schwabing) ↔ Airport: 25 minutes",
+            "Every 20 minutes"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "An adult single is €12.50 online and €13.50 from the driver",
+          "45 minutes from the Hauptbahnhof and 25 minutes from Schwabing"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.airport-city-day-ticket",
+      "topic": "fare",
+      "claim": "MVV Airport-City-Day-Ticket: unlimited journeys between the airport and the city centre on one day, individuals or groups of up to five, from EUR 17.50.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mvv-muenchen.de/en/tickets-subscriptions-prices/all-about-tickets/ticket-and-price-guide/",
+          "kind": "official",
+          "title": "MVV ticket and price guide",
+          "evidence": [
+            "Valid for an unlimited number of journeys between the airport and the city centre on a single day",
+            "from 17,50 €"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "unlimited journeys between the airport and the city centre on one day, for one person or a group of up to five, from €17.50"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.augsburg-db",
+      "topic": "transport",
+      "claim": "Deutsche Bahn timetable page (status 3 Nov 2026): München Hbf to Augsburg Hbf fastest 25 minutes, about 68 connections a day, ICE from EUR 17.98 on 10 Nov 2026 (a sample day).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.bahn.de/reisen/view/verbindung/muenchen/augsburg.shtml",
+          "kind": "operator",
+          "title": "DB: München to Augsburg",
+          "evidence": [
+            "0 Stunden und 25 Minuten mit etwa 68 Verbindungen pro Tag",
+            "ab 17,98 €"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "in as little as 25 minutes",
+          "about 68 connections a day",
+          "ICE fares from €17.98 on that day"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "de.munich.cocoon-presale-2027",
+      "topic": "price",
+      "claim": "Cocoon Hotels: Oktoberfest 2027 rooms available only on its own website from 19 October to 15 November 2026, then released for the official start of sales; Cocoon hotels are about 3 (Theresienwiese), 9 (Sendlinger Tor), 10 (Hauptbahnhof) and 13 (Stachus) minutes' walk from the grounds by its own account.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://cocoon-hotels.com/en/oktoberfest-hotel-munich/",
+          "kind": "operator",
+          "title": "Cocoon Hotels: Oktoberfest 2027",
+          "evidence": [
+            "Until November 15, 2026, all rooms for Oktoberfest are reserved exclusively for you",
+            "From October 19 through November 15, 2026",
+            "ca. 3-minute walk",
+            "ca. 10-minute walk"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "from 19 October to 15 November 2026",
+          "about ten minutes' walk from the grounds, against about three for its Theresienwiese hotel"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "de.munich.hotel.cocoon-theresienwiese",
+      "topic": "hotel",
+      "claim": "Operating Cocoon Munich Theresienwiese, Theresienhöhe 40, about a 3-minute walk to the grounds per Cocoon; rooms and apartments with kitchenettes and a rooftop bar with a view of the Bavaria statue.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://cocoon-hotels.com/en/oktoberfest-hotel-munich/",
+          "kind": "operator",
+          "title": "Cocoon: Oktoberfest 2027",
+          "evidence": [
+            "Theresienhöhe 40, 80339 Munich",
+            "ca. 3-minute walk",
+            "Rooms and apartments with kitchenettes"
+          ]
+        },
+        {
+          "url": "https://cocoon-hotels.com/en/cocoon-theresienwiese/",
+          "kind": "operator",
+          "title": "Cocoon Munich Theresienwiese",
+          "evidence": [
+            "rooftop bar with a view of the Bavaria"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "At Theresienhöhe 40",
+          "about a three-minute walk to the grounds",
+          "rooms and apartments with kitchenettes and a rooftop bar with a view of the Bavaria statue"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.cocoon-hauptbahnhof",
+      "topic": "hotel",
+      "claim": "Operating Cocoon Munich Hauptbahnhof, Mittererstraße 9, 3 minutes from the station's south exit (Bayerstraße), about 10 minutes' walk to the grounds per Cocoon.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://cocoon-hotels.com/en/oktoberfest-hotel-munich/",
+          "kind": "operator",
+          "title": "Cocoon: Oktoberfest 2027",
+          "evidence": [
+            "Mittererstraße 9, 80336 Munich",
+            "3 minutes from the main train station (South Exit, Bayerstraße)",
+            "ca. 10-minute walk"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "At Mittererstraße 9",
+          "three minutes from the station's south exit on Bayerstraße"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.uhland",
+      "topic": "hotel",
+      "claim": "Operating Hotel Uhland, built 1889, right next to the Theresienwiese and within walking distance of the old town and main station per the hotel.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://hotel-uhland.de/en/hotel-uhland/",
+          "kind": "operator",
+          "title": "Hotel Uhland",
+          "evidence": [
+            "Right next to the Theresienwiese, within walking distance of the old town and main railway station",
+            "was built in 1889"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "A listed 1889 building that the hotel describes as right next to the Theresienwiese"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.mariandl",
+      "topic": "hotel",
+      "claim": "Operating Hotel Mariandl, Goethestraße 51, which says it is 500 metres from the Oktoberfest; most rooms have a bathroom, the few without are cheaper; the hotel warns it is louder than usual during the festival.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mariandl.com/en/",
+          "kind": "operator",
+          "title": "Hotel Mariandl",
+          "evidence": [
+            "We are only 500 meters from the Oktoberfest",
+            "it is louder than usual",
+            "The few rooms without bath/WC can be hired at a cheaper rate"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "At Goethestraße 51, which the hotel puts 500 metres from the Oktoberfest",
+          "the hotel warns that the neighbourhood is louder than usual during the festival"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.torbraeu",
+      "topic": "hotel",
+      "claim": "Operating four-star Hotel Torbräu, Tal 41, calling itself the oldest hotel in the heart of Munich; room types from Basic Einzel to Suite; Klimt-Bar.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.torbraeu.de/",
+          "kind": "operator",
+          "title": "Hotel Torbräu",
+          "evidence": [
+            "Das älteste Hotel im Herzen von München",
+            "Tal 41 80331 München",
+            "Klimt-Bar"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "At Tal 41, a four-star hotel that calls itself the oldest hotel in the heart of Munich"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.blauer-bock",
+      "topic": "hotel",
+      "claim": "Operating Hotel Blauer Bock, Sebastiansplatz 9, a few steps from the Viktualienmarkt and Marienplatz; breakfast and Wi-Fi included; over 400 years of history.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelblauerbock.de/",
+          "kind": "operator",
+          "title": "Hotel Blauer Bock",
+          "evidence": [
+            "am Sebastiansplatz 9",
+            "Nur ein paar Schritte trennen Sie vom Viktualienmarkt und vom Marienplatz",
+            "Frühstück, WLAN und viele Services sind inklusive"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "At Sebastiansplatz 9, a few steps from the Viktualienmarkt and Marienplatz",
+          "breakfast and Wi-Fi are included"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.mandarin-oriental",
+      "topic": "hotel",
+      "claim": "Operating Mandarin Oriental, Munich, Neuturmstrasse 1, just moments from Maximilianstrasse and Marienplatz; valet parking.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/munich/altstadt",
+          "kind": "operator",
+          "title": "Mandarin Oriental, Munich",
+          "evidence": [
+            "at Neuturmstrasse 1, 80331 Munich, Germany, just moments from Maximilianstrasse and Marienplatz",
+            "Valet parking is available for hotel guests"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "At Neuturmstrasse 1, which the hotel describes as just moments from Maximilianstrasse and Marienplatz"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.bayerischer-hof",
+      "topic": "hotel",
+      "claim": "Operating Hotel Bayerischer Hof in the historic centre with 337 rooms and 74 suites, five restaurants and six bars.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.bayerischerhof.de/en/",
+          "kind": "operator",
+          "title": "Hotel Bayerischer Hof",
+          "evidence": [
+            "our hotel boasts 337 luxurious rooms and 74 suites, five restaurants and six bars"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "337 rooms and 74 suites, five restaurants and six bars"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.leopold",
+      "topic": "hotel",
+      "claim": "Operating Hotel Leopold, Schwabing; breakfast included; check-in 15:00-23:30 and no arrival after 23:30; parking EUR 8 a night, garage EUR 10.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotel-leopold.de/",
+          "kind": "operator",
+          "title": "Hotel Leopold",
+          "evidence": [
+            "Bei jeder Zimmerbuchung ist das Frühstück bereits inklusive",
+            "Eine Anreise nach 23:30 Uhr ist leider nicht mehr möglich",
+            "Parkplatz 8,00 € pro Nacht"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "breakfast included in every booking and parking at €8 a night or €10 in the garage",
+          "arriving after 23:30 is no longer possible"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.flemings-schwabing",
+      "topic": "hotel",
+      "claim": "Operating Flemings Hotel München-Schwabing, Leopoldstraße; bus and tram stop in front; Münchner Freiheit (U3/U6) about 10 minutes' walk; English Garden about 10 minutes' walk; garage with 36 spaces.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.flemings-hotels.com/en/hotel-muenchen-schwabing",
+          "kind": "operator",
+          "title": "Flemings Hotel München-Schwabing",
+          "evidence": [
+            "the 36 parking spaces in the garage",
+            "(U3/U6) about 10 minutes walk away",
+            "Directly in front of the hotel, there is the bus and streetcar station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "a bus and tram stop directly in front and a garage with 36 spaces",
+          "Flemings names Münchner Freiheit (U3/U6) as about ten minutes away on foot"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.moma1890",
+      "topic": "hotel",
+      "claim": "Operating MOMA1890 Boutique Hotel, Haidhausen, 51 individually designed rooms; says Marienplatz is under 10 minutes by S-Bahn (4 stops) and less than 3 km away.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.moma1890.com/en/",
+          "kind": "operator",
+          "title": "MOMA1890 Boutique Hotel",
+          "evidence": [
+            "51 individually designed rooms",
+            "you can be at Marienplatz in under 10 minutes from the hotel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "51 individually designed rooms",
+          "to reach Marienplatz in under ten minutes"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.maximilians",
+      "topic": "hotel",
+      "claim": "Operating Hotel Maximilian's, Augsburg: five-star superior, city centre, rooftop pool heated all year, valet parking and a garage with e-car charging.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelmaximilians.com/en",
+          "kind": "operator",
+          "title": "Hotel Maximilian's",
+          "evidence": [
+            "Welcome to the 5-Star Superior Hotel Maximilian's in Augsburg",
+            "heated all year round",
+            "Parking garage with charging station for e-cars"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "A five-star superior hotel in the centre of Augsburg with a rooftop pool heated all year"
+        ]
+      }
     }
   ]
 }

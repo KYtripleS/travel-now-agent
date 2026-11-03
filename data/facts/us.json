@@ -9195,6 +9195,757 @@
         ]
       },
       "checked": "2026-11-03"
+    },
+    {
+      "id": "us.boston-marathon.date",
+      "topic": "history",
+      "claim": "The B.A.A. lists the 2027 Boston Marathon for Monday 19 April 2027, Patriots' Day.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baa.org/races/boston-marathon/",
+          "kind": "official",
+          "title": "B.A.A.: Boston Marathon",
+          "evidence": [
+            "Apr 19th, 2027"
+          ]
+        },
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-athletes/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Athletes",
+          "evidence": [
+            "Apr 19th, 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "Monday 19 April 2027, Patriots"
+        ]
+      }
+    },
+    {
+      "id": "us.boston-marathon.course",
+      "topic": "place",
+      "claim": "The course starts on Main Street in Hopkinton and finishes on Boylston Street near the Boston Public Library in Copley Square; Hopkinton has hosted the start since 1924.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-spectators/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Spectators",
+          "evidence": [
+            "The town of Hopkinton has been home to the start line since 1924."
+          ]
+        },
+        {
+          "url": "https://www.baa.org/wp-content/uploads/2026/03/FINAL-130th-Spectator-Guide.pdf",
+          "kind": "official",
+          "title": "B.A.A. 2026 spectator guide (PDF)",
+          "evidence": [
+            "finishing near the Boston Public Library in Copley Square."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "Hopkinton has been home to the start line since 1924",
+          "finishes on Boylston Street near the Boston Public Library in Copley Square"
+        ]
+      }
+    },
+    {
+      "id": "us.boston-marathon.expo",
+      "topic": "place",
+      "claim": "2026 Expo at the Hynes Convention Center, 900 Boylston Street, Fri 17 to Sun 19 April 2026; each participant must pick up their own bib with photo ID; 2027 hours not published at check.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-athletes/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Athletes",
+          "evidence": [
+            "The Expo is located at the Hynes Convention Center (900 Boylston Street, Boston, MA)",
+            "Friday, April 17 (10:00 a.m.-7:00 p.m.)",
+            "each participant must pick up their own bib"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "Hynes Convention Center, 900 Boylston Street",
+          "open Friday 17 April 2026 from 10:00 to 19:00",
+          "each participant must pick up their own bib"
+        ]
+      }
+    },
+    {
+      "id": "us.boston-marathon.buses",
+      "topic": "transport",
+      "claim": "Official 2026 runner buses loaded on Charles Street between the Public Garden and Boston Common; the last bus left Boston Common at 9:30; buses dropped runners at the Athletes' Village at Hopkinton Middle/High School.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-athletes/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Athletes",
+          "evidence": [
+            "Bus loading will take place on Charles Street between the Public Garden and Boston Common.",
+            "THE LAST BUS WILL LEAVE BOSTON COMMON AT 9:30 A.M.",
+            "Each participant must show their bib upon boarding."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "loaded on Charles Street between the Public Garden and Boston Common",
+          "the last bus left at 09:30"
+        ]
+      }
+    },
+    {
+      "id": "us.boston-marathon.waves",
+      "topic": "transport",
+      "claim": "2026 waves: bus loading from 6:45 (red bibs) to 9:00 (orange); wave starts 10:00 to 11:21.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-athletes/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Athletes",
+          "evidence": [
+            "6:45 a.m.",
+            "11:21 a.m.",
+            "Bus Loading Begins"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "Loading began at 06:45 for the red-bib wave"
+        ]
+      }
+    },
+    {
+      "id": "us.boston-marathon.bags",
+      "topic": "transport",
+      "claim": "No bags are transported from the start in Hopkinton to the finish in Boston.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-athletes/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Athletes",
+          "evidence": [
+            "No bags will be transported from the start in Hopkinton to the finish in Boston."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "no bags will be transported from Hopkinton to the finish"
+        ]
+      }
+    },
+    {
+      "id": "us.boston-marathon.parking",
+      "topic": "transport",
+      "claim": "Very limited participant parking at the 52 and 80 South Street lots in Hopkinton, with a shuttle to the Athletes' Village.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-athletes/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Athletes",
+          "evidence": [
+            "Very limited parking for participants is available at the 52 and 80 South Street lots in Hopkinton."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "limited participant parking in Hopkinton"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.mbta.marathon-2026",
+      "topic": "transport",
+      "claim": "MBTA 2026: Copley Station closed all day; South Street, Kent Street and Saint Mary's Street stations closed about 10 AM to 6 PM; weekday subway schedule; no bikes on the subway.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mbta.com/guides/marathon-guide",
+          "kind": "operator",
+          "title": "MBTA: Boston Marathon Guide",
+          "evidence": [
+            "Changes to Service for Monday, April 20, 2026",
+            "is closed for the entire day.",
+            "closed from approximately 10 AM to 6 PM",
+            "will operate on a weekday schedule"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "Copley Station was closed for the entire day",
+          "closed from about 10 AM to 6 PM",
+          "bikes were not allowed on the subway"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.mbta.framingham-line",
+      "topic": "transport",
+      "claim": "MBTA 2026: the Framingham/Worcester Line had a special Marathon Monday schedule with additional inbound and outbound trains; the B.A.A. lists Framingham Commuter Rail for spectators.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mbta.com/guides/marathon-guide",
+          "kind": "operator",
+          "title": "MBTA: Boston Marathon Guide",
+          "evidence": [
+            "will have a special Marathon Monday schedule, with additional inbound and outbound trains."
+          ]
+        },
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-spectators/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Spectators",
+          "evidence": [
+            "MBTA Stop: Framingham (Commuter Rail, Waverly Street)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "special Marathon Monday schedule with extra trains in both directions"
+        ]
+      }
+    },
+    {
+      "id": "us.boston-marathon.road-closures",
+      "topic": "transport",
+      "claim": "Roads on and beside the route close to traffic on race day (2026: Boston 9:00 a.m. to about 7:00 p.m., Brookline 9:00 a.m. to about 6:00 p.m.); times subject to change.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-spectators/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Spectators",
+          "evidence": [
+            "will be closed to vehicular traffic on race day.",
+            "Times are subject to change."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "roads on and beside the route close to traffic on race day",
+          "Boston closing at 9:00 a.m. and reopening about 7:00 p.m."
+        ]
+      }
+    },
+    {
+      "id": "us.boston-marathon.family-meeting",
+      "topic": "place",
+      "claim": "The Family Meeting Area is on Stuart Street between Berkeley Street and Clarendon Street.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-spectators/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Spectators",
+          "evidence": [
+            "The Family Meeting Area is located on Stuart Street between Berkeley Street and Clarendon Street"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "Family Meeting Area on Stuart Street between Berkeley Street and Clarendon Street"
+        ]
+      }
+    },
+    {
+      "id": "us.boston-marathon.beacon-street",
+      "topic": "place",
+      "claim": "The B.A.A. says the Beacon Street stretch provides nearly three miles of vantage points; it lists Green Line stops including Cleveland Circle (C branch).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baa.org/races/boston-marathon/info-for-spectators/",
+          "kind": "official",
+          "title": "B.A.A.: Info for Spectators",
+          "evidence": [
+            "The Beacon Street stretch of the course provides nearly three miles of vantage points",
+            "Cleveland Circle, C-Line Branch"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "nearly three miles of vantage points"
+        ]
+      }
+    },
+    {
+      "id": "us.ma.room-tax.state",
+      "topic": "tax",
+      "claim": "Massachusetts state room occupancy excise is 5.7%; locals may add up to 6% (6.5% for Boston).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mass.gov/info-details/room-occupancy-excise-tax",
+          "kind": "official",
+          "title": "Mass.gov: Room Occupancy Excise Tax",
+          "evidence": [
+            "Massachusetts has a state room occupancy excise tax rate of 5.7%.",
+            "up to 6% (6.5% for Boston)"
+          ]
+        },
+        {
+          "url": "https://www.mass.gov/local-option-excise-taxes",
+          "kind": "official",
+          "title": "Mass.gov: Local Option Excise Taxes",
+          "evidence": [
+            "up to 6% (6.5% for Boston)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "a state room occupancy excise of 5.7%",
+          "or 6.5% for Boston"
+        ]
+      }
+    },
+    {
+      "id": "us.ma.room-tax.convention-fee",
+      "topic": "tax",
+      "claim": "Boston, Worcester, Cambridge, Springfield, West Springfield and Chicopee charge an additional 2.75% for convention center funding.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mass.gov/info-details/room-occupancy-excise-tax",
+          "kind": "official",
+          "title": "Mass.gov: Room Occupancy Excise Tax",
+          "evidence": [
+            "an additional 2.75% tax is charged for convention center funding"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "2.75% for convention center funding"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.room-tax.total",
+      "topic": "tax",
+      "claim": "The City of Boston gives a total tax from all sources on hotel rooms of 14.95% (5.7% state, 6.5% local, 2.75% convention fee).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://content.boston.gov/departments/budget/fy26-local-revenue",
+          "kind": "official",
+          "title": "City of Boston: FY26 Local Revenue",
+          "evidence": [
+            "the State collects a 5.7% excise tax and a 2.75% fee",
+            "for a total tax from all sources of 14.95%."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "gives a total of 14.95% from all sources"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.room-tax.example",
+      "topic": "price",
+      "claim": "On a $300 room, 14.95% is $44.85 a night, $344.85 in total (our arithmetic).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://content.boston.gov/departments/budget/fy26-local-revenue",
+          "kind": "official",
+          "title": "City of Boston: FY26 Local Revenue",
+          "evidence": [
+            "for a total tax from all sources of 14.95%."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "On a $300 room that is $44.85 a night in tax"
+        ]
+      }
+    },
+    {
+      "id": "us.cambridge.room-tax.total",
+      "topic": "tax",
+      "claim": "Cambridge's local room excise is 6% (DLS register), plus state 5.7% and the 2.75% convention fee: 14.45% (our arithmetic).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://dls-gw.dor.state.ma.us/reports/rdPage.aspx?rdReport=LocalOptions.Room_Tax_Impact_Fee",
+          "kind": "official",
+          "title": "DOR DLS: Room Tax and Impact Fee rates",
+          "evidence": [
+            "Room Occupancy Tax and Short-term Rental Community Impact Fee"
+          ]
+        },
+        {
+          "url": "https://www.mass.gov/info-details/room-occupancy-excise-tax",
+          "kind": "official",
+          "title": "Mass.gov: Room Occupancy Excise Tax",
+          "evidence": [
+            "Boston, Worcester, Cambridge, Springfield, West Springfield, and Chicopee"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "which gives 14.45% by our arithmetic"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.logan.silver-line",
+      "topic": "fare",
+      "claim": "Silver Line SL1 goes to all Logan terminals and South Station, free from the airport, with a free transfer to the Red Line.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.massport.com/logan-airport/getting-to-logan/public-transportation",
+          "kind": "official",
+          "title": "Massport: Public Transportation to Logan",
+          "evidence": [
+            "goes directly to all terminals",
+            "The Silver Line 1 (SL1) includes a free transfer to the Red Line."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "goes directly to all terminals and connects Logan to South Station"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.logan.express-back-bay",
+      "topic": "fare",
+      "claim": "Logan Express Back Bay runs every half hour, tickets to the airport are $3; stops at 800 Boylston Street and Stuart Street near Dartmouth Street.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.massport.com/logan-airport/getting-to-logan/logan-express/back-bay",
+          "kind": "official",
+          "title": "Massport: Logan Express Back Bay",
+          "evidence": [
+            "tickets to the airport remain only $3!",
+            "every half hour"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "tickets to the airport are $3"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.mbta.subway-fare",
+      "topic": "fare",
+      "claim": "MBTA subway one-way fare is $2.40.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mbta.com/fares/subway-fares",
+          "kind": "operator",
+          "title": "MBTA: Subway fares",
+          "evidence": [
+            "Subway One-Way",
+            "$2.40"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "$2.40 for a one-way subway ride"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.fairmont",
+      "topic": "hotel",
+      "claim": "Fairmont Copley Plaza opened in 1912 and has 383 guest rooms including 17 suites.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/copley-plaza-boston/",
+          "kind": "official",
+          "title": "Official site: Fairmont Copley Plaza",
+          "evidence": [
+            "383 stylish guest rooms, including 17 luxurious suites",
+            "since its gala opening in 1912"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "Open since 1912, with 383 guest rooms including 17 suites"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.lenox",
+      "topic": "hotel",
+      "claim": "The Lenox Hotel is at 61 Exeter Street at Boylston and has 215 guest rooms and suites.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.lenoxhotel.com/",
+          "kind": "official",
+          "title": "Official site: The Lenox Hotel",
+          "evidence": [
+            "215 guest rooms and suites that are equal parts comfy and chic",
+            "Boylston & Exeter Streets"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "At 61 Exeter Street at the corner of Boylston, with 215 guest rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.marriott",
+      "topic": "hotel",
+      "claim": "Boston Marriott Copley Place is an operating Back Bay hotel with club lounge access.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/bosco-boston-marriott-copley-place/overview/",
+          "kind": "official",
+          "title": "Official site: Boston Marriott Copley Place",
+          "evidence": [
+            "Boston Back Bay Hotel",
+            "Club lounge access"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "club lounge access in some rooms"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.midtown",
+      "topic": "hotel",
+      "claim": "The Midtown Hotel is at 220 Huntington Avenue with 159 guest rooms, near the Christian Science Center and Hynes Convention Center.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.midtownhotel.com/",
+          "kind": "official",
+          "title": "Official site: The Midtown Hotel",
+          "evidence": [
+            "159 thoughtfully designed guest rooms",
+            "220 Huntington Avenue"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "At 220 Huntington Avenue, with 159 guest rooms"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.commonwealth",
+      "topic": "hotel",
+      "claim": "Hotel Commonwealth is at 500 Commonwealth Avenue in Kenmore Square.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelcommonwealth.com/",
+          "kind": "official",
+          "title": "Official site: Hotel Commonwealth",
+          "evidence": [
+            "500 Commonwealth Avenue",
+            "Kenmore Square"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "At 500 Commonwealth Avenue in Kenmore Square"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.verb",
+      "topic": "hotel",
+      "claim": "The Verb Hotel is at 1271 Boylston Street, rooms are about 300 square feet, no elevator to the second floor.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.theverbhotel.com/guestrooms",
+          "kind": "official",
+          "title": "Official site: The Verb Hotel",
+          "evidence": [
+            "Each room is approximately 300 square feet",
+            "there is no elevator access to the second floor",
+            "1271 Boylston Street"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "At 1271 Boylston Street, with rooms of about 300 square feet",
+          "no elevator access to the second floor"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.omni",
+      "topic": "hotel",
+      "claim": "Omni Parker House has operated since 1855 near Boston Common.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.omnihotels.com/hotels/boston-parker-house",
+          "kind": "official",
+          "title": "Official site: Omni Parker House",
+          "evidence": [
+            "A local icon since 1855",
+            "Boston Common"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "A local icon since 1855 near Boston Common"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.hi",
+      "topic": "hotel",
+      "claim": "HI Boston lists Boston Common 0.2 miles away, with private queen ensuite rooms and four-bed dorms.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hiusa.org/hostels/massachusetts/boston/boston",
+          "kind": "official",
+          "title": "Official site: HI Boston",
+          "evidence": [
+            "Boston Common 0.2 mi. away",
+            "Private Queen Ensuite",
+            "4-Bed Dorm"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "lists Boston Common 0.2 miles away"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.yotel",
+      "topic": "hotel",
+      "claim": "YOTEL Boston is in the Seaport District with a rooftop bar, Logan three Silver Line stops away and South Station one stop east.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.yotel.com/en/hotels/yotel-boston",
+          "kind": "official",
+          "title": "Official site: YOTEL Boston",
+          "evidence": [
+            "Logan Airport three Silver Line stops away and South Station one stop east",
+            "Deck 12"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "Logan three Silver Line stops away and South Station one stop east"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.charles",
+      "topic": "hotel",
+      "claim": "The Charles Hotel is at One Bennett Street in Harvard Square.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.charleshotel.com/",
+          "kind": "official",
+          "title": "Official site: The Charles Hotel",
+          "evidence": [
+            "Located in bustling Harvard Square",
+            "Regattabar Jazz Club"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "At One Bennett Street in the middle of Harvard Square"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.hsq",
+      "topic": "hotel",
+      "claim": "Harvard Square Hotel is at 110 Mount Auburn Street with on-site parking, and says Downtown Boston is less than 10 minutes away.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.harvardsquarehotel.com/",
+          "kind": "official",
+          "title": "Official site: Harvard Square Hotel",
+          "evidence": [
+            "110 Mount Auburn Street, Harvard Square, Cambridge, MA 02138",
+            "Downtown Boston is also less than 10 minutes away."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "At 110 Mount Auburn Street, with on-site parking"
+        ]
+      }
+    },
+    {
+      "id": "us.boston.hotel.ren",
+      "topic": "hotel",
+      "claim": "The Renaissance Framingham Hotel & Conference Center charges $15 a day for on-site parking.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/boshr-renaissance-framingham-hotel-and-conference-center/overview/",
+          "kind": "official",
+          "title": "Official site: Renaissance Framingham Hotel & Conference Center",
+          "evidence": [
+            "On-Site Parking Daily: $15.00",
+            "Renaissance Framingham Hotel & Conference Center"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-boston-marathon.html": [
+          "on-site parking at $15 a day"
+        ]
+      }
     }
   ]
 }
