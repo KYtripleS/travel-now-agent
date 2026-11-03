@@ -112,7 +112,7 @@
       "id": "kr.busan.fireworks-2026",
       "topic": "stat",
       "recheck_days": 30,
-      "claim": "The 21st Busan Fireworks Festival is on Saturday 7 November 2026 at Gwangalli Beach, Igidae and Dongbaekseom; paid seats are sold through NOL Ticket from 4 September 14:00 to 6 November 17:00.",
+      "claim": "The 21st Busan Fireworks Festival is on Saturday 7 November 2026 at Gwangalli Beach, Igidae and Dongbaekseom; paid seats are sold through NOL Ticket from 4 September 14:00 to 6 November 17:00. The organisers' timetable: Fireworks Street 13:00-18:00, Black Eagles air show 16:00-16:10, prologue 18:00-18:50, opening ceremony 18:50-19:00, international guest show 19:00-19:15, Busan Multi-Fireworks Show 19:25-19:55, closing fireworks 19:55-20:00; subject to change.",
       "sources": [
         {
           "url": "https://busanfireworks.com/content/overview_en",
@@ -123,13 +123,23 @@
           "url": "https://busanfireworks.com/reservation_en",
           "kind": "official",
           "title": "Busan Fireworks Festival: tickets"
+        },
+        {
+          "url": "https://busanfireworks.com/en/program/schedule.php",
+          "kind": "official",
+          "title": "Busan Fireworks Festival: timetable",
+          "evidence": [
+            "19:25 ~ 19:55 30 min Busan Multi-Fireworks Show",
+            "18:50 ~ 19:00 10 min Opening Ceremony"
+          ]
         }
       ],
-      "checked": "2026-10-07",
+      "checked": "2026-11-03",
       "used_in": {
         "articles/where-to-stay-in-busan.html": [
           "Saturday 7 November 2026",
-          "until 5pm on 6 November"
+          "until 5pm on 6 November",
+          "main Busan Multi-Fireworks Show from 7:25pm to 7:55pm"
         ]
       },
       "note": "Programme times and road closures were not posted on 7 October 2026; add them if they appear."

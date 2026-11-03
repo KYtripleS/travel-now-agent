@@ -13,10 +13,19 @@ temporary-folder cleanup); photo downloads go in any scratch folder you like.
 3. `content_drafts/stay/<city>.json`, the registration file (schema below)
 4. Optional: downloaded photo files in a scratch folder (to look at them)
 
+## Working economically (this matters: every turn re-reads everything already in your context)
+- Read each file ONCE. Read only the model named below (or the one your task names), not extra
+  guides or other cities' registration files: the schema at the end of this brief is complete.
+- Batch: put independent calls in one message (several WebSearch/WebFetch at once), check all 12
+  Booking.com pages in one or two `browser_batch` calls, and run the Pexels searches in one script.
+- Keep tool output small: WebFetch with a narrow question; in Bash, print only what you need
+  (`| head -c 3000`, grep for the line); never dump a whole page or your own draft back into context
+  (grep the draft to check a phrase).
+- Write the draft in one go after the research, then fix with small Edits.
+
 ## Copy the model exactly
-Read `content_drafts/where-to-stay-in-new-york.final.md` and `.meta.json` and
-`content_drafts/where-to-stay-in-paris.final.md` first. Match their structure, tone, length
-(2,200-2,800 words) and conventions:
+Read `content_drafts/where-to-stay-in-new-york.final.md` and `.meta.json` first (or the one model
+your task names instead). Match its structure, tone, length (2,200-2,800 words) and conventions:
 - H1 title with the year and the hook: "Where to Stay in Rome (2026): The Best Areas, 12 Hotels and the City Tax".
   Never use straight double quotes in the title (they break HTML attributes); use “curly” ones.
 - Opening: what makes this city's hotel bill different (usually the tourist tax), then one paragraph:
@@ -51,8 +60,9 @@ from dotenv import load_dotenv; load_dotenv('/Users/ky/travel-now-agent/.env')
 import enhance_article_photos as e, json; print(json.dumps(e.pexels_photo('Rome Trastevere street'), indent=1))"
 ```
 (If that helper's return shape differs, read its source; you may call the Pexels search API the same
-way it does, with per_page up to 15.) Download each candidate at w=940 into a scratch folder and
-LOOK at it with the Read tool before using it. The alt text must describe only what is visibly in the
+way it does, with per_page up to 15.) Download candidates at w=400, paste them into one numbered
+contact sheet with PIL (e.g. 4 across) and LOOK at the sheet with the Read tool: one image read for
+all candidates, not one per photo. Use the w=940 URL in the figure. The alt text must describe only what is visibly in the
 frame (never the heading's claim); reject photos that show a different city or are unidentifiable.
 Figure markup, exactly:
 ```
@@ -104,12 +114,17 @@ Place one under the intro or the short answer, and one in most area sections.
   "facts": [
     {"id": "it.rome.tourist-tax", "topic": "tax|fare|transport|place|hotel|price|history",
      "claim": "one sentence with the number and its scope", "checked": "2026-10-13",
-     "sources": [{"url": "...", "kind": "official|operator|news", "title": "..."}],
+     "sources": [{"url": "...", "kind": "official|operator|news", "title": "...",
+                  "evidence": ["1-3 short quotes (under 20 words each) copied verbatim from that page's visible text, in its language"]}],
      "used_in": {"articles/where-to-stay-in-rome.html": ["2-3 short phrases copied VERBATIM from your final.md body text (no markdown symbols, no '...')"]}}
   ],
   "notes": "anything the editor should double-check"
 }
 ```
 
-When done, reply briefly: word count, the 12 hotels with Booking.com found/null, facts list, photos
+Every source gets "evidence": ops/facts_watch.py later re-fetches the page and checks the quotes are
+still there, so the fact can be rechecked without anyone reading the page. Quote the words that carry
+the number or the status (the rate line, the date line), not a heading.
+
+When done, reply briefly (under 300 words): word count, the 12 hotels with Booking.com found/null, facts list, photos
 used, anything unverified you left out.

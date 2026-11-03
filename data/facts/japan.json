@@ -1454,7 +1454,7 @@
           "title": "Campaign FAQ (PDF), Q4, Q7, Q11, Q13, Q14, Q16, Q22, Q23"
         }
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "used_in": {
         "articles/where-to-stay-in-fukuoka.html": [
           "1 October to 15 December 2026",
@@ -1574,7 +1574,7 @@
           "title": "Japan Sumo Association: tournament schedule"
         }
       ],
-      "checked": "2026-10-06",
+      "checked": "2026-11-03",
       "used_in": {
         "articles/where-to-stay-in-fukuoka.html": [
           "from 8 to 22 November 2026 at Fukuoka Kokusai Center"
@@ -2076,7 +2076,7 @@
           "title": "Meiji Jingu Gaien: events"
         }
       ],
-      "checked": "2026-10-07",
+      "checked": "2026-11-03",
       "used_in": {
         "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
           "about 300 metres, four rows of trees deep",
@@ -2145,7 +2145,7 @@
           "title": "USJ: countdown tickets and sales schedule (Japanese)"
         }
       ],
-      "checked": "2026-10-07",
+      "checked": "2026-11-03",
       "used_in": {
         "articles/where-to-stay-for-universal-studios-japan.html": [
           "¥16,900",
@@ -4210,7 +4210,7 @@
       "id": "jp.tokyo.new-year.skytree-sunrise",
       "topic": "place",
       "claim": "Tokyo Skytree's first-sunrise special opening is on Friday 1 January 2027, 5:30 to 7:30am, for 800 people; 580 places go through an online lottery at 11,000 yen with a 1,000-yen shop voucher (applications noon 5 Nov to 11:59pm 26 Nov 2026, results by email planned 1 Dec); Tobu Hotel Levant Tokyo (from 75,000 yen for two) and Asakusa Tobu Hotel (from 80,000 yen for two) sell twin-room packages with the ticket, five rooms between them.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.tokyo-skytree.jp/lp/first-sunrise2027/",
@@ -4237,7 +4237,7 @@
       "id": "jp.tokyo.new-year.meiji-jingu",
       "topic": "place",
       "claim": "Meiji Jingu's hatsumode page (still the New Year 2026 edition) listed gates opening 6:40am on 31 Dec, no closing at the turn of the year, 1 Jan hours 0:00 to 18:30, busiest 22:00 to 3:00 and after 10:00 on the first three days, no cars in the grounds for three days; entrances Harajuku (1 min from JR Harajuku / Meiji-jingumae), Yoyogi (5 min) and Sangubashi (5 min); admission free; 2026/27 hours not posted.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.meijijingu.or.jp/hatsumoude/",
@@ -4294,30 +4294,35 @@
     {
       "id": "jp.tokyo.new-year.zojoji",
       "topic": "place",
-      "claim": "Zojoji's New Year page (still last year's text): ritual burning of old charms 11pm 31 Dec, 108 bells from midnight rung in groups of four, bell tickets 2,000 yen with keepsake sold from 9am on 1 Dec at the temple office, ringers halved last year, amulet counters 10pm 31 Dec to 6pm 1 Jan.",
-      "checked": "2026-10-26",
+      "claim": "Zojoji's New Year page (Last-Modified 31 Oct 2026; parts still show last year's weekdays): ritual burning of old charms 8pm 31 Dec, bell service 9:30pm, 108 bells rung in groups of four from 9:45pm to about 11pm, bell tickets 2,000 yen with keepsake from 9am on 1 Dec at the temple office, numbers limited; New Year service in the main hall from midnight; amulet counters 10pm 31 Dec to 6pm 1 Jan. Last year's line about halving the ringers is now commented out of the page.",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.zojoji.or.jp/event/ev_hatsumoude.html",
           "kind": "official",
-          "title": "Zojoji: New Year events"
+          "title": "Zojoji: New Year events",
+          "evidence": [
+            "【撞き始め】12月31日（大晦日）21:45～（23:00頃 終了予定）",
+            "【法要】12月31日（大晦日）20:00～",
+            "【冥加料】2,000円（記念品付）"
+          ]
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-tokyo-new-year.html": [
+          "the 108 bells from 9:45pm",
           "Bell tickets cost 2,000 yen with a keepsake",
-          "Last year it halved the number of ringers",
           "10pm on 31 December to 6pm on 1 January"
         ]
       },
       "recheck_days": 14,
-      "note": "The page still carries last year's dates; recheck early December."
+      "note": "Bell times may still be last year's; recheck early December. 2027-01-01 is a Friday."
     },
     {
       "id": "jp.tokyo.new-year.shibuya-countdown",
       "topic": "place",
-      "claim": "The Shibuya Countdown Committee cancelled the 2025 event; Shibuya City announced it on 3 Dec 2025 and fenced the Hachiko statue from 6am 31 Dec to 1am 1 Jan; since 1 Oct 2024 drinking in public places around Shibuya Station is banned 6pm to 5am year-round; Shibuya City's 2026 press-release list had no countdown notice as of 21 Oct 2026.",
-      "checked": "2026-10-26",
+      "claim": "The Shibuya Countdown Committee cancelled the 2025 event; Shibuya City announced it on 3 Dec 2025 and fenced the Hachiko statue from 6am 31 Dec to 1am 1 Jan; since 1 Oct 2024 drinking in public places around Shibuya Station is banned 6pm to 5am year-round; Shibuya City's 2026 press-release list had no countdown notice as of 21 Oct and 3 Nov 2026.",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2025/hodo_20251203.html",
@@ -4348,9 +4353,19 @@
     {
       "id": "jp.tokyo.new-year.tmg-countdown",
       "topic": "place",
-      "claim": "The Metropolitan Government's Happy New Year Tokyo 2026 countdown was held on 31 Dec 2025 at the TMG Citizens' Plaza, Nishi-Shinjuku, with registration opening 12 Nov 2025; the south observatory opened 6:00 to 7:30am on 1 Jan 2026 to 600 lottery winners; no 2026/27 announcement on TMG English news up to 24 Oct 2026.",
-      "checked": "2026-10-26",
+      "claim": "The Metropolitan Government's Happy New Year Tokyo countdown was held on 31 Dec 2025 at the TMG Citizens' Plaza, Nishi-Shinjuku (registration from 12 Nov 2025); the Tokyo Nighttime Project (co-hosted by the TMG) says it will not be held this year and announces TOKYO NEW YEAR'S EVE '26/27 at Odaiba Marine Park on 31 Dec 2026 (fireworks, drone show, Tokyo Aqua Symphony fountain show, stage, food trucks), details in late November; last year the south observatory opened 6:00 to 7:30am on 1 Jan 2026 to 600 lottery winners.",
+      "checked": "2026-11-03",
       "sources": [
+        {
+          "url": "https://tokyo-nighttime-project.jp/",
+          "kind": "official",
+          "title": "Tokyo Nighttime Project: Odaiba nighttime events 2026",
+          "evidence": [
+            "「Happy New Year Tokyo」は、今年の実施はございません",
+            "TOKYO NEW YEAR’S EVE ’26/27",
+            "11月下旬にお知らせする予定です"
+          ]
+        },
         {
           "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-006360",
           "kind": "official",
@@ -4364,17 +4379,19 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-tokyo-new-year.html": [
-          "with advance registration that opened on 12 November",
+          "says it will not be held there this year",
+          "at Odaiba Marine Park on 31 December 2026",
           "to 600 people chosen by lottery"
         ]
       },
-      "recheck_days": 14
+      "recheck_days": 14,
+      "note": "Odaiba times and viewing arrangements due late November 2026."
     },
     {
       "id": "jp.tokyo.new-year.jr-east-trains",
       "topic": "transport",
       "claim": "JR East announced on 22 Oct 2026 extra trains after the last train on New Year's Eve through New Year's Day on six Tokyo-area lines including the Yamanote, Keihin-Tohoku/Negishi and Chuo-Sobu local lines, shown in route search from 7 Dec, holiday timetables 30 Dec to 3 Jan; last year's six lines also included the Chuo rapid, Yokosuka and Sobu main/Narita lines, with the Yamanote running about 1am to 5am every 10 to 25 minutes.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://prtimes.jp/main/html/rd/p/000001558.000017557.html",
@@ -4467,7 +4484,7 @@
       "id": "jp.tokyo.new-year.hotel.asakusa-tobu",
       "topic": "hotel",
       "claim": "Asakusa Tobu Hotel (1-1-15 Asakusa) sells a Skytree first-sunrise twin-room plan with breakfast from 80,000 yen for two (planned, tax and service included), sales from noon 5 Nov 2026, and dinner-buffet plans for 31 Dec and 1 Jan in two sittings (5:30 to 7pm, 7:15 to 8:45pm).",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.tobuhotel.co.jp/asakusa/news/342/",

@@ -14,7 +14,10 @@ A fact:
   topic         one of TOPIC_DAYS below; it sets how soon the fact goes stale
   claim         one plain sentence: exactly what we may say in public
   value         optional: the numbers in the claim, as data
-  sources       [{"url", "kind", "title"}]; kind is one of KINDS
+  sources       [{"url", "kind", "title", "evidence"}]; kind is one of KINDS; evidence (optional, a
+                string or list) = short verbatim quotes from that page, so ops/facts_watch.py can
+                confirm the fact without a model reading the page
+  checked_by    optional: "script" when ops/facts_watch.py confirmed it from the evidence
   checked       YYYY-MM-DD: the day the claim was last confirmed at a source
   recheck_days  optional: overrides the topic's default
   status        "current" (default) or "superseded"
@@ -135,6 +138,9 @@ def check(facts: list[dict], today: dt.date) -> tuple[list[str], list[str], list
             if s.get("kind") not in KINDS:
                 errors.append(f"{fid}: unknown source kind {s.get('kind')!r}")
             kinds.add(s.get("kind"))
+            ev = s.get("evidence")
+            if ev is not None and not (isinstance(ev, str) or (isinstance(ev, list) and all(isinstance(q, str) for q in ev))):
+                errors.append(f"{fid}: evidence must be a string or a list of strings")
         status = f.get("status", "current")
         if status not in ("current", "superseded"):
             errors.append(f"{fid}: status must be current or superseded")

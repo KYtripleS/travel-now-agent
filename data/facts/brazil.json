@@ -5,7 +5,7 @@
       "id": "br.rio-carnival.dates-2027",
       "topic": "place",
       "claim": "LIESA gives the Rio Carnaval 2027 Grupo Especial parade nights as 7, 8 and 9 February 2027 (Sunday to Tuesday) at the Marquês de Sapucaí, with the six best-placed schools returning for the Desfile das Campeãs on 13 February 2027.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://liesa.org.br/noticias/260729-pre-venda-ingressos.html",
@@ -123,7 +123,7 @@
       "id": "br.rio-carnival.tickets-prices",
       "topic": "price",
       "claim": "For 2027 LIESA sold the special stands (Sectors 2 to 11 except 9) and the numbered individual chairs (Sector 12) at R$250 per parade night, R$125 half price, exclusively through Ticketmaster at ticketmaster.com.br/event/riocarnaval.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://liesa.org.br/noticias/260729-pre-venda-ingressos.html",
@@ -172,7 +172,7 @@
       "id": "br.rio-carnival.popular-stands",
       "topic": "place",
       "claim": "LIESA's 9 September 2026 notice said the popular stands in Sectors 12 and 13 at the Praça da Apoteose would be announced later; none of LIESA's news items up to 22 October 2026 announced them.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://liesa.org.br/noticias/260909-ingressos.html",
@@ -261,7 +261,7 @@
       "id": "br.rio-carnival.street-timetable",
       "topic": "place",
       "claim": "Riotur says the 2027 street carnival is expected to start on 16 January 2027; bloco registration ran from 24 August to 24 September 2026 and the final supplementary documents close on 15 January 2027; no 2027 bloco programme had been published.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://riotur.rio/editorial/inscricoes-blocos-de-rua-2027/",
@@ -342,7 +342,7 @@
       "id": "br.rio-carnival.metro-2026",
       "topic": "transport",
       "claim": "On 13 February 2026 the state government announced that the Rio metro would run without a break from 5h on Friday 13 February to 23h59 on Ash Wednesday 18 February and trains from 4h to 22h45; Sambadrome passengers left at Central do Brasil (odd sectors) and Praça Onze (even sectors); Presidente Vargas station was closed 14 to 17 February and Cinelândia ran 6h to 20h.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-02/rio-trens-e-metro-operam-sem-interrup%C3%A7%C3%A3o-ate-quarta-feira-de-cinzas",

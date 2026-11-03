@@ -1140,7 +1140,7 @@
       },
       "recheck_days": 14,
       "note": "Recheck for the 2027 programme, theme and opening-weekend events.",
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.street-show-dates",
@@ -1160,7 +1160,7 @@
         ]
       },
       "recheck_days": 14,
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.dinner-show",
@@ -1181,7 +1181,7 @@
         ]
       },
       "recheck_days": 14,
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.unpublished-2027",
@@ -1207,7 +1207,7 @@
       },
       "recheck_days": 14,
       "note": "Recheck in mid-December and January for the official 2027 programme.",
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.pattern-2026",
@@ -1236,7 +1236,7 @@
           "Fat Tuesday was 17 February in 2026"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.pattern-2026-transport",
@@ -1254,7 +1254,7 @@
           "lines 1 and 2 were rerouted away from the Grand Canal on the morning of the water parade"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.volo-angelo",
@@ -1279,7 +1279,7 @@
         ]
       },
       "recheck_days": 14,
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.square-rules",
@@ -1299,7 +1299,7 @@
         ]
       },
       "recheck_days": 30,
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.tax-rates",
@@ -1320,7 +1320,7 @@
         ]
       },
       "recheck_days": 60,
-      "note": "Table is valid from 1 April 2025; check the Comune page for a 2027 schedule.",
+      "note": "Table is valid from 1 April 2025; check the Comune page for a 2027 schedule. 2026-11-03: Il Gazzettino (7 Sep 2026) and Tgcom24 (11 Sep) report a Comune proposal to raise the tax to about EUR 3 to 8-9 a night from March 2027 (after Carnival); not approved as of 3 Nov. Comune PDF is bot-blocked to scripts: open in a browser.",
       "checked": "2026-10-26"
     },
     {
@@ -1390,7 +1390,7 @@
       },
       "recheck_days": 14,
       "note": "The Comune's own pages (cda.ve.it, live.comune.venezia.it) are behind bot protection and could not be opened by script; the claim was taken from the Comune's release as shown in search extracts and confirmed in La Voce di Venezia, Nordest24 and QdP. Editor: open cda.ve.it in a browser and confirm before publishing.",
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.access-fee-2026",
@@ -1413,7 +1413,7 @@
           "The 2026 trial ran on 60 days between 3 April and 26 July and has ended"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.alilaguna",
@@ -1438,7 +1438,7 @@
         ]
       },
       "recheck_days": 60,
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.actv-fares",
@@ -1459,7 +1459,7 @@
         ]
       },
       "recheck_days": 60,
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.atvo",
@@ -1478,7 +1478,7 @@
         ]
       },
       "recheck_days": 60,
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.traghetti",
@@ -1503,7 +1503,7 @@
         ]
       },
       "recheck_days": 60,
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-concordia",
@@ -1527,7 +1527,7 @@
           "the only hotel overlooking Piazza San Marco"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-monaco",
@@ -1551,7 +1551,7 @@
           "from the 22 m² Golden Leaf to the 50 m² Casanova Alcove"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-metropole",
@@ -1580,7 +1580,7 @@
           "90 minutes of exclusive use is €200 for two"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-paganelli",
@@ -1609,7 +1609,7 @@
           "the San Zaccaria stop about 50 metres away"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-sagredo",
@@ -1628,7 +1628,7 @@
           "42 rooms and suites"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-abbazia",
@@ -1652,7 +1652,7 @@
           "about a hundred metres from Santa Lucia"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-combo",
@@ -1671,7 +1671,7 @@
           "a few steps from Rialto and its fish market"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-american",
@@ -1690,7 +1690,7 @@
           "a Dependance and a Canal View category"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-accademia",
@@ -1714,7 +1714,7 @@
           "the Basic Double rooms are 12 m²"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-generator",
@@ -1733,7 +1733,7 @@
           "lines 2 and 4.1 a hundred metres away"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-plaza",
@@ -1751,7 +1751,7 @@
           "A four-star of 209 rooms facing Venice Mestre station"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     },
     {
       "id": "it.venice-carnival.hotel-anda",
@@ -1780,7 +1780,7 @@
           "10% off and a drink"
         ]
       },
-      "checked": "2026-10-26"
+      "checked": "2026-11-03"
     }
   ]
 }
