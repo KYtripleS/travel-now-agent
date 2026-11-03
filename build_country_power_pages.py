@@ -56,16 +56,7 @@ PROFILE_LINKS = {
 # copy without the internal-traffic tag)
 GA4 = "  " + _ga4_snippet(GA4_ID).rstrip("\n")
 
-DRIVE = """  <!-- BEGIN Travelpayouts Drive (managed by add_travelpayouts_drive.py) -->
-  <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1">
-    (function () {
-      var script = document.createElement("script");
-      script.async = 1;
-      script.src = 'https://tpembars.com/NTQzNzE5.js?t=543719';
-      document.head.appendChild(script);
-    })();
-  </script>
-  <!-- END Travelpayouts Drive -->"""
+DRIVE = ""   # Travelpayouts Drive is placed by add_tp_drive.py (project 547982), only where eligible
 
 FOOT_SCRIPTS = """  <script async src="https://tally.so/widgets/embed.js"></script>
   <!-- BEGIN Pinterest hover-Save SDK -->

@@ -613,7 +613,7 @@
       "id": "hk.cny2026.fireworks-closures",
       "topic": "transport",
       "claim": "For the 2026 fireworks night, Tsim Sha Tsui closures began at 5pm (including Salisbury Road, Canton Road and Nathan Road between Salisbury and Austin Roads), Wan Chai closures began at 3pm on Expo Drive East and widened at 6pm, 7pm and 7.45pm; the Star Ferry and five other ferry operators adjusted or suspended parts of their services from 5.05pm; the Police could pedestrianise roads and close subways, and divert people if the Cultural Centre, Clock Tower or Avenue of Stars reached capacity.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.info.gov.hk/gia/general/202602/12/P2026021200829.htm",
@@ -633,8 +633,8 @@
           "began suspending parts of their services at 5.05pm"
         ]
       },
-      "recheck_days": 7,
-      "note": "Last year's arrangements; labelled as such."
+      "recheck_days": 90,
+      "note": "Last year's arrangements, labelled as 2026 on the page. The 2027 Police/TD notices come out a few days before the fireworks (2026: 12 February); recheck then."
     },
     {
       "id": "hk.cny2027.fairs",

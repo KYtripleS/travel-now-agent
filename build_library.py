@@ -93,10 +93,7 @@ NAV = _nav_block("")
 from add_ga4 import snippet as _ga4_snippet
 GA4 = _ga4_snippet(GA4_ID).strip()
 
-DRIVE = """<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1">
-  (function () { var s=document.createElement("script"); s.async=1;
-    s.src='https://tpembars.com/NTQzNzE5.js?t=543719'; document.head.appendChild(s); })();
-</script>"""
+DRIVE = ""   # Travelpayouts Drive is placed by add_tp_drive.py (project 547982), only where eligible
 
 FOOTER = _footer_block("")
 

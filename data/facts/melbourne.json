@@ -104,6 +104,374 @@
           "each about a four-minute walk"
         ]
       }
+    },
+    {
+      "id": "au.melbourne.gp2027.dates",
+      "topic": "place",
+      "claim": "The Australian Grand Prix Corporation says the Formula 1 Australian Grand Prix 2027 runs from Thursday 1 to Sunday 4 April 2027 with Australia's first Sprint Race (Sprint Qualifying Friday, Sprint Race Saturday); formula1.com lists round 3 on 2 to 4 April; the AGPC schedule page lists Friday 2 April Practice 1 and Sprint Qualifying, Saturday 3 April Sprint Race and Qualifying, Sunday 4 April the Grand Prix, with the full schedule to follow.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.grandprix.com.au/en/news/4577322/formula-1-australian-grand-prix-2027-dates-confirmed-with-debut-of-sprint-race",
+          "kind": "official",
+          "title": "AGPC: 2027 dates confirmed with debut of a Sprint Race (16 Sep 2026)"
+        },
+        {
+          "url": "https://www.grandprix.com.au/en/event/schedule",
+          "kind": "official",
+          "title": "AGPC: event schedule"
+        },
+        {
+          "url": "https://www.formula1.com/en/racing/2027",
+          "kind": "official",
+          "title": "Formula 1: 2027 calendar"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "from Thursday 1 to Sunday 4 April 2027, according to the Australian Grand Prix Corporation",
+          "round 3, on 2 to 4 April",
+          "the full schedule will be released closer to the Grand Prix"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.gp2027.tickets",
+      "topic": "price",
+      "claim": "The AGPC news page of 16 September 2026 gave 6 October 2026 as the general public on-sale date and said single-day Park Passes (general admission) start at $45 for adults.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.grandprix.com.au/en/news/4577322/formula-1-australian-grand-prix-2027-dates-confirmed-with-debut-of-sprint-race",
+          "kind": "official",
+          "title": "AGPC: 2027 dates confirmed"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "gave 6 October 2026 as the general sale date",
+          "single-day Park Passes start at $45 for adults"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.gp2027.school-holidays",
+      "topic": "place",
+      "claim": "The AGPC says the 2027 event falls during Victorian school holidays.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.grandprix.com.au/en/news/4577322/formula-1-australian-grand-prix-2027-dates-confirmed-with-debut-of-sprint-race",
+          "kind": "official",
+          "title": "AGPC: 2027 dates confirmed"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "falls during Victorian school holidays"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.gp2026.dates",
+      "topic": "place",
+      "claim": "The 2026 Australian Grand Prix ran from Thursday 5 to Sunday 8 March 2026 (Premier of Victoria, 3 March 2026).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.premier.vic.gov.au/labor-making-it-easier-get-grand-prix",
+          "kind": "official",
+          "title": "Premier of Victoria: Labor is making it easier to get to the Grand Prix"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "the 2026 Grand Prix ran from Thursday 5 to Sunday 8 March, according to the Premier of Victoria"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.vic.easter-2027",
+      "topic": "place",
+      "claim": "Victorian public holidays in 2027 include Good Friday 26 March, the Saturday before Easter 27 March, Easter Sunday 28 March and Easter Monday 29 March.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2027",
+          "kind": "official",
+          "title": "Business Victoria: Victorian public holidays 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "Good Friday is 26 March and Easter Monday 29 March 2027, according to Business Victoria"
+        ]
+      }
+    },
+    {
+      "id": "au.melbourne.gp.getting-here",
+      "topic": "transport",
+      "claim": "The AGPC Getting Here page (undated, read 2 November 2026) says there is strictly no public parking; travel is free on trams and trains between the city and Albert Park for valid ticket holders; Southern Cross: Spencer Street express tram to Gates 1 and 2; Flagstaff: dedicated shuttle tram to Gate 3; Flinders Street: St Kilda Road trams stopping at Gates 5, 8, 9 and 10; Anzac Station exit 3 then an 8-minute walk to Gate 5, with train travel free between State Library, Town Hall and Anzac for ticket holders; taxi ranks at Gates 1, 2, 3, 5, 8 and 10 (Gate 10 on Fitzroy St). The page names no year and still carried a register-your-interest notice for ticket and event details.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.grandprix.com.au/en/event/getting-here",
+          "kind": "official",
+          "title": "AGPC: getting here"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "strictly no public parking at the circuit",
+          "a Spencer Street express tram to Gates 1 and 2",
+          "St Kilda Road trams stopping at Gates 5, 8, 9 and 10",
+          "exit 3, then an eight-minute walk to Gate 5",
+          "ranks at Gates 1, 2, 3, 5, 8 and 10, with Gate 10 on Fitzroy Street"
+        ]
+      },
+      "note": "Page undated; treated as the likely 2027 pattern and labelled so. Recheck when 2027 event details are published."
+    },
+    {
+      "id": "au.melbourne.gp2026.transport",
+      "topic": "transport",
+      "claim": "The Premier of Victoria's release of 3 March 2026 said that for the 2026 Grand Prix (5 to 8 March) more than 130 extra train services and 5,000 additional trams would run; tickets included free trams to Albert Park and free trains between Town Hall, State Library and Anzac; late-night services ran until 1:30am; trams from Southern Cross served Gates 1 and 2, a new tram corridor from Flagstaff via William Street served Gate 3, trams from Flinders Street and Town Hall served Gates 8, 9 and 10; extra buses ran Friday to Sunday between Crown Casino and Gates 1, 2 and 3; Lakeside Drive and surrounding Albert Park roads were closed with extra restrictions on Spencer Street, Bourke Street and St Kilda Road; routes 606, 246, 600, 922 and 923 continued.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.premier.vic.gov.au/labor-making-it-easier-get-grand-prix",
+          "kind": "official",
+          "title": "Premier of Victoria: Labor is making it easier to get to the Grand Prix (3 March 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "more than 130 extra train services and 5,000 additional trams would run",
+          "late-night services would run until 1.30am",
+          "extra buses ran from Crown Casino to Gates 1, 2 and 3 from Friday to Sunday",
+          "Routes 606, 246, 600, 922 and 923 continued as normal bus services"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.pullman-albert-park",
+      "topic": "hotel",
+      "claim": "Pullman Melbourne Albert Park: 5 stars, 65 Queens Road, Albert Park, overlooking Albert Park Lake; 169 Pullman rooms; Classic rooms 30 m2, lake-view rooms and suites; page says 'the closest hotel to the Australian Grand Prix Formula 1 which occurs in March every year'; 500 on-site car parking spaces.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/8788/index.en.shtml",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "A five-star at 65 Queens Road overlooking Albert Park Lake, with 169 rooms, classic rooms of 30 m²",
+          "lists 500 on-site parking spaces",
+          "occurs in March every year"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.prince",
+      "topic": "hotel",
+      "claim": "The Prince, St Kilda: 2 Acland Street; Boutique room about 14 m2 to Superior room 26 m2 with balcony over Fitzroy Street and Port Phillip Bay; live-music Bandroom.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://theprince.com.au/accommodation/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "a Boutique room of about 14 m² to a Superior room of 26 m²"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.langham",
+      "topic": "hotel",
+      "claim": "The Langham, Melbourne: 5-star hotel at 1 Southgate Avenue, Southbank, with Langham Club, Club Rooms, Suites and a Terrace Room.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.langhamhotels.com/en/the-langham/melbourne/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "A five-star hotel at 1 Southgate Avenue on the river"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.crown-towers",
+      "topic": "hotel",
+      "claim": "Crown Towers Melbourne: on the Yarra at 8 Whiteman Street; Deluxe King room 43 m2 with bay or city views; restaurants include Nobu and Rockpool.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.crownhotels.com.au/melbourne/crown-towers",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "On the Yarra at 8 Whiteman Street, with Deluxe King rooms of 43 m²"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.quay-west",
+      "topic": "hotel",
+      "claim": "Quay West Suites Melbourne: one-, two- and three-bedroom apartments at 26 Southgate Avenue, beside Hamer Hall and the NGV, magnesium mineral pool; page calls it a stroll to the sporting stadiums.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/8804/index.en.shtml",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "One-, two- and three-bedroom apartments at 26 Southgate Avenue"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.windsor",
+      "topic": "hotel",
+      "claim": "The Hotel Windsor: heritage-listed grand hotel at 111 Spring Street, since 1883, 180 rooms and signature suites; afternoon tea.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.thehotelwindsor.com.au/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "at 111 Spring Street, established in 1883, with 180 rooms and signature suites"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.sofitel",
+      "topic": "hotel",
+      "claim": "Sofitel Melbourne on Collins: 363 hotel rooms and suites at 25 Collins Street ('Paris-end of Collins Street'); room types with bay and river, park or city views; parking not included.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://sofitel.accor.com/en/hotels/1902.html",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "363 rooms and suites at 25 Collins Street",
+          "parking is not included"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.movenpick",
+      "topic": "hotel",
+      "claim": "Mövenpick Hotel Melbourne on Spencer: 172 rooms and suites on floors 1 to 6 of Premier Tower at 160 Spencer Street; Southern Cross Station and tram routes on the doorstep; outdoor pool; the hotel says it is in the free tram zone and close to the SkyBus terminal.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/B6L9/index.en.shtml",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "172 rooms and suites on floors 1 to 6 of the Premier Tower at 160 Spencer Street"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.quest-docklands",
+      "topic": "hotel",
+      "claim": "Quest Docklands: 133 serviced apartments at 750 Bourke Street, studio 28 m2 and one-bedroom 54 m2, kitchen facilities, overlooking Marvel Stadium, train 0.4 km.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.questapartments.com.au/properties/vic/docklands/quest-docklands",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "133 serviced apartments at 750 Bourke Street, from a 28 m² studio to 54 m² one-bedroom apartments"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.yha",
+      "topic": "hotel",
+      "claim": "YHA Melbourne Central: 562 Flinders St; 24-hour reception; private rooms and co-living rooms (co-living guests must be over 18); rooftop and BBQ; check-in from 2pm; Southern Cross Station is a short walk; licensed venue with trivia nights and other events.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.yha.com.au/hostels/vic/melbourne/melbourne-central-hostel/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "A hostel at 562 Flinders Street with a 24-hour reception, private rooms and co-living rooms",
+          "co-living rooms are for guests over 18"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.olsen",
+      "topic": "hotel",
+      "claim": "Art Series The Olsen: 637-641 Chapel Street, South Yarra; 24-hour reception; John Olsen and Lake Eyre Penthouses with skyline views; glass-bottomed pool currently unavailable; notice that South Yarra's transformation at times causes excess noise.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.mantrahotels.com/ArtSeriesTheOlsen",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "A boutique hotel at 637-641 Chapel Street with a 24-hour reception",
+          "the glass-bottomed pool is currently unavailable"
+        ]
+      }
+    },
+    {
+      "id": "hotel.melbourne.gp.ovolo",
+      "topic": "hotel",
+      "claim": "Ovolo Melbourne, South Yarra: 234 Toorak Road; 123 rooms; Snug 13-14 m2, Groovy Studio 20 m2; flexible cancellations on direct bookings; tram and train stations just moments away.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://ovolohotels.com/ovolo/south-yarra/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "of 123 rooms at 234 Toorak Road, with 13 to 14 m² Snug rooms, 20 m² Groovy Studios"
+        ]
+      }
     }
   ]
 }

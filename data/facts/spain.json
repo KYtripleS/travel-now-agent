@@ -1408,6 +1408,1134 @@
           "the pool is closed for maintenance from 6 January to 12 February 2027"
         ]
       }
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.holy-week-dates-2027",
+      "topic": "place",
+      "claim": "The Consejo de Hermandades' calendar lists the Pregón de la Semana Santa on 14 March 2027 and Domingo de Ramos on 21 March 2027; Easter Sunday 28 March and the Madrugá (night of Holy Thursday to Good Friday, 25-26 March) are our arithmetic from Palm Sunday and from the Visita Sevilla guide's definition of the Madrugá.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hermandades-de-sevilla.org/events/categories/hermandades-de-penitencia/",
+          "kind": "official",
+          "title": "Consejo de Hermandades y Cofradías: calendar of the penitential brotherhoods"
+        },
+        {
+          "url": "https://visitasevilla.es/wp-content/uploads/2026/03/Semana-Santa-2026.pdf",
+          "kind": "official",
+          "title": "Visita Sevilla: Holy Week 2026 guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "lists Palm Sunday as 21 March 2027",
+          "The Pregón, the Holy Week proclamation",
+          "Easter Sunday on 28 March"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Recheck for 2027 timetables and itineraries (Consejo) from January."
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.palm-sunday-order-2027",
+      "topic": "place",
+      "claim": "The Consejo's official notice gives the 2027 Palm Sunday order of passage on the Carrera Oficial: Sagrada Entrada en Jerusalén, Jesús Despojado, Sagrada Cena, Hiniesta, Paz, San Roque, Estrella, Amargura, Amor (nine brotherhoods). No other 2027 timetable was found.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hermandades-de-sevilla.org/consejo/comunicado-oficial-orden-de-paso-para-el-domingo-de-ramos-de-2027/",
+          "kind": "official",
+          "title": "Consejo de Hermandades: order of passage for Palm Sunday 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "the order of passage for nine Palm Sunday brotherhoods is published"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "The page shows no publication date."
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.feria-dates-2027",
+      "topic": "place",
+      "claim": "Visita Sevilla gives the 2027 April Fair as Tuesday 13 to Sunday 18 April (its Feria de Abril 2027 guide, updated September 2026); the guide says the Fair usually begins two weeks after Holy Week and lasts six days, Tuesday to Sunday, opens with the alumbrao and ends with fireworks over the Guadalquivir.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/en/the-april-fair/",
+          "kind": "official",
+          "title": "Visita Sevilla: The April Fair"
+        },
+        {
+          "url": "https://visitasevilla.es/en/wp-content/uploads/sites/2/2026/09/ENG_Feria-Sevilla-2027.pptx.pdf",
+          "kind": "official",
+          "title": "Visita Sevilla: Feria de Abril 2027 guide (September 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "gives the April Fair as 13 to 18 April",
+          "usually begins two weeks after Holy Week and lasts for six days, from Tuesday to Sunday",
+          "opens on the night of the alumbrao"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "The guide mixes 2027 and older text (history page says it begins Saturday night; metro page carries old dates); dates were read from the page text and PDF cover."
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.carrera-oficial",
+      "topic": "place",
+      "claim": "Visita Sevilla's Holy Week guide (2026 edition) describes the Carrera Oficial as the fixed route of every brotherhood from Plaza de la Campana through Calle Sierpes, Plaza de San Francisco and Avenida de la Constitución, entering the Cathedral by the San Miguel door and leaving by the Palos door onto Plaza Virgen de los Reyes; chairs are rented per week or per day with prices varying by location and day.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/wp-content/uploads/2026/03/Semana-Santa-2026.pdf",
+          "kind": "official",
+          "title": "Visita Sevilla: Holy Week 2026 guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "from Plaza de la Campana along Calle Sierpes",
+          "entering the Cathedral by the San Miguel door and leaving by the Palos door onto Plaza Virgen de los Reyes",
+          "rented for the week or by the day"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Guide is the 2026 edition; the route is described as fixed and unalterable."
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.madruga-2026",
+      "topic": "place",
+      "claim": "Visita Sevilla's 2026 Holy Week guide lists the Madrugá brotherhoods as El Silencio (San Antonio Abad, C/ Alfonso XII), Gran Poder (basilica, Plaza San Lorenzo), Macarena (basilica), El Calvario (Magdalena), Esperanza de Triana (Capilla de los Marineros, C/ Pureza 53) and Los Gitanos (C/ Verónica); it defines the Madrugada as the night of Thursday to Good Friday. 2027 timetables not published.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/wp-content/uploads/2026/03/Semana-Santa-2026.pdf",
+          "kind": "official",
+          "title": "Visita Sevilla: Holy Week 2026 guide"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "El Silencio, Gran Poder, La Macarena, El Calvario, Esperanza de Triana and Los Gitanos",
+          "the Capilla de los Marineros on Calle Pureza"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.feria-transport",
+      "topic": "transport",
+      "claim": "Visita Sevilla's Feria guide recommends not using the car and lists a special shuttle bus from the Prado de San Sebastián (single EUR 1.60), TUSSAM lines 5, 6, 41, C1 and C2, Metro L1 (Plaza de Cuba, Parque de los Príncipes, Blas Infante) and taxis with exclusive access and special rates; the guide's special-metro page carries old dates and several pages are marked pending update for 2027.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/en/wp-content/uploads/sites/2/2026/09/ENG_Feria-Sevilla-2027.pptx.pdf",
+          "kind": "official",
+          "title": "Visita Sevilla: Feria de Abril 2027 guide (September 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "a special shuttle bus from the Prado de San Sebastián at €1.60 a single",
+          "TUSSAM lines 5, 6, 41, C1 and C2",
+          "Plaza de Cuba, Parque de los Príncipes or Blas Infante"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Confirm fares and routes in April; some of this text may predate 2027."
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.feria-site-casetas",
+      "topic": "place",
+      "claim": "Visita Sevilla's Feria guide says the Fair moved to its current site in the Los Remedios barrio after 1972, that many casetas are private and the Caseta de Sevilla (Calle Pascual Márquez 225-229) is public with advance booking for tables, that the horse parade is from noon, and that the guide lists the 2027 bullfighting season.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://visitasevilla.es/en/wp-content/uploads/sites/2/2026/09/ENG_Feria-Sevilla-2027.pptx.pdf",
+          "kind": "official",
+          "title": "Visita Sevilla: Feria de Abril 2027 guide (September 2026)"
+        },
+        {
+          "url": "https://visitasevilla.es/en/the-april-fair/",
+          "kind": "official",
+          "title": "Visita Sevilla: The April Fair"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "The Fair moved to Los Remedios in the 1970s",
+          "the Caseta de Sevilla at Calle Pascual Márquez 225 to 229",
+          "The Feria guide lists the 2027 bullfighting season beside the Fair"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.no-tourist-tax",
+      "topic": "tax",
+      "claim": "No tourist tax is in force in Seville or elsewhere in Andalusia in November 2026: the Junta de Andalucía's list of the region's own taxes names an ecological tax, a tax on customer deposits in credit institutions, a single-use plastic bag tax and an improvement levy, and none is a tax on tourist stays.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/impuestos-propios.html",
+          "kind": "official",
+          "title": "Junta de Andalucía: own taxes of Andalusia"
+        },
+        {
+          "url": "https://www.eldiario.es/sevilla/alcalde-sevilla-pp-llamara-puerta-vox-junta-reclamarle-tasa-turistica-ciudad-necesita_1_13429113.html",
+          "kind": "news",
+          "title": "elDiario.es: Seville's mayor will ask the Junta for a tourist tax"
+        },
+        {
+          "url": "https://www.elespanol.com/sevilla/20260918/alcalde-sevilla-reune-nuevo-consejero-turismo-pedir-tasa-turistica/1003744388454_0.html",
+          "kind": "news",
+          "title": "El Español: the mayor meets the new tourism councillor"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "No tourist tax is in force in Seville or anywhere in Andalusia as we write",
+          "an ecological tax, a tax on customer deposits in credit institutions, a single-use plastic bag tax and an improvement levy"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Absence claim; no BOJA search done. Re-opened the Junta page in Nov 2026: same four taxes."
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.tourist-tax-proposal",
+      "topic": "tax",
+      "claim": "On 5 August 2026 Seville's mayor said he would ask the Junta's tourism councillor for a tourist tax, and the press reported on 18 September that he raised it again; the Junta must approve any such tax.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.eldiario.es/sevilla/alcalde-sevilla-pp-llamara-puerta-vox-junta-reclamarle-tasa-turistica-ciudad-necesita_1_13429113.html",
+          "kind": "news",
+          "title": "elDiario.es, 5 August 2026"
+        },
+        {
+          "url": "https://www.elespanol.com/sevilla/20260918/alcalde-sevilla-reune-nuevo-consejero-turismo-pedir-tasa-turistica/1003744388454_0.html",
+          "kind": "news",
+          "title": "El Español, 18 September 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "On 5 August 2026 Seville's mayor said he would ask the Junta's tourism councillor for a tourist tax",
+          "the press reported on 18 September"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.vat-10",
+      "topic": "tax",
+      "claim": "Spain's Agencia Tributaria lists hospitality services (servicios de hostelería) among those taxed at the 10% reduced VAT rate; the standard rate is 21%. The page does not name hotel accommodation separately.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2025/capitulo-04-sujetos-pasivos-repercusion-impositivo/tipo-impositivo/tipo-impositivo-reducido-10-ciento.html",
+          "kind": "official",
+          "title": "Agencia Tributaria: 10% reduced VAT rate"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "VAT (IVA) on hospitality services, which include hotels",
+          "Spain's reduced rate"
+        ]
+      },
+      "recheck_days": 60
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: four nights at EUR 200 before VAT cost 4 x 200 x 1.10 = EUR 880 with 10% VAT and no tourist tax.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2025/capitulo-04-sujetos-pasivos-repercusion-impositivo/tipo-impositivo/tipo-impositivo-reducido-10-ciento.html",
+          "kind": "official",
+          "title": "Agencia Tributaria: 10% reduced VAT rate"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "4 × €200 × 1.10 = €880"
+        ]
+      }
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.ea-bus-fares",
+      "topic": "fare",
+      "claim": "Aena's Seville airport bus page gives TUSSAM line EA at EUR 6 single and EUR 8 return (return valid only on the day of purchase), sold on board by bank card or by the sales clerk at the airport stop; times listed 4:30 to 00:05 and 5:22 to 1:00 (direction labels not used).",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.aena.es/en/sevilla/getting-there/bus.html",
+          "kind": "operator",
+          "title": "Aena: Seville airport by bus"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "costs €6 single and €8 return",
+          "valid only on the day of purchase",
+          "from 4:30 to 00:05 and from 5:22 to 1:00"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "tussam.es is behind a Cloudflare challenge; fares are Aena's."
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.taxi-tariffs",
+      "topic": "fare",
+      "claim": "Aena's taxi page gives fixed airport fares: tariff 4 EUR 26 (Monday to Friday working days 07:00-21:00) and tariff 5 EUR 29 for other times, including Holy Week 07:00-21:00 and the Feria de Abril 07:00-20:00.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.aena.es/en/sevilla/getting-there/taxi.html",
+          "kind": "operator",
+          "title": "Aena: Seville airport by taxi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "Tariff 4 is €26",
+          "tariff 5 is €29",
+          "during Holy Week from 07:00 to 21:00 and during the April Fair from 07:00 to 20:00"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Aena's page also contradicts itself on luggage supplements; not used."
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-eme",
+      "topic": "hotel",
+      "claim": "EME Catedral Mercer, Calle Alemanes 27: 5-star, 'across from Seville Cathedral', Santa Cruz District; six room categories (Suite Views, Junior Suite Views, Grand Deluxe Views, Grand Deluxe, Deluxe, Superior); pool and solarium.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.emecatedralmercer.com/",
+          "kind": "operator",
+          "title": "EME Catedral Mercer: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "A five-star hotel at Calle Alemanes 27, \"across from Seville Cathedral\"",
+          "six room categories, three of them sold with views"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-casa1800",
+      "topic": "hotel",
+      "claim": "Hotel Casa 1800 Sevilla, Calle Rodrigo Caro 6: 130 metres from the Cathedral and Giralda; rooftop pool with panoramic views of both; six room types up to Junior Suite 1800 with terrace and jacuzzi.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hotelcasa1800sevilla.com/",
+          "kind": "operator",
+          "title": "Hotel Casa 1800 Sevilla: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "130 metres from the Cathedral and the Giralda",
+          "six room types"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-murillo",
+      "topic": "hotel",
+      "claim": "Hotel Murillo, Calle Lope de Rueda 7-9, Barrio de Santa Cruz: two-star; rooms and suites with kitchens in five buildings (the hotel's description).",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hotelmurillo.com/",
+          "kind": "operator",
+          "title": "Hotel Murillo: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "A two-star hotel at Calle Lope de Rueda 7 to 9",
+          "in five buildings"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-inglaterra",
+      "topic": "hotel",
+      "claim": "Hotel Inglaterra, Plaza Nueva 7: room types Doble Clasica, Doble Deluxe, Gran Deluxe con Terraza; rooftop La Terraza with city views; no room sizes or event terms on the page.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hotelinglaterra.es/",
+          "kind": "operator",
+          "title": "Hotel Inglaterra: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "At Plaza Nueva 7",
+          "a rooftop, La Terraza, with views over the city"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-simon",
+      "topic": "hotel",
+      "claim": "Hotel Simon, Calle Garcia de Vinuesa 19: 1 star, 50 m from the Cathedral, Andalusian courtyard with fountain, 24-hour reception, some traditional rooms with tiles and dark wood.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hotelsimonsevilla.com/",
+          "kind": "operator",
+          "title": "Hotel Simón: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "At Calle García de Vinuesa 19, 50 metres from the Cathedral",
+          "traditional rooms with tiles and dark wood"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-becquer",
+      "topic": "hotel",
+      "claim": "Hotel Becquer, Calle Reyes Catolicos 4: four stars; its Holy Week page says processions and brotherhoods pass right by the hotel entrance, some central roads close to traffic, it has its own garage with limited spaces to book before arrival, and its guest team can give information on balcony reservations and brotherhood tours.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hotelbecquer.com/en/holy-week/",
+          "kind": "operator",
+          "title": "Hotel Bécquer: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "Its Holy Week page says processions and brotherhoods pass right by the entrance",
+          "garage spaces are limited"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-rabida",
+      "topic": "hotel",
+      "claim": "Vincci La Rabida, Calle Castelar 24, Arenal: 4*, ten room types, rooftop with views, Mirador Suite terrace with views of the cathedral and the Giralda, 'very close to the cathedral and Bullring'; no measured distances.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.vinccihoteles.com/en/hotels/seville/vincci-la-rabida/",
+          "kind": "operator",
+          "title": "Vincci La Rábida: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "A four-star hotel at Calle Castelar 24 in Arenal",
+          "with ten room types"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-triana-house",
+      "topic": "hotel",
+      "claim": "Triana House, Calle Rodrigo de Triana 94: boutique hotel and B&B with seven rooms each honouring an Andalusian province; 'the first Passivhaus-certified hotel in Andalusia' (its words).",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.trianahouse.com/",
+          "kind": "operator",
+          "title": "Triana House: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "seven rooms, each paying tribute to an Andalusian province",
+          "the first Passivhaus-certified hotel in Andalusia"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-albergue",
+      "topic": "hotel",
+      "claim": "Albergue Triana, Calle Rodrigo de Triana 69: shared room or double, breakfast included; Cathedral and Giralda 15 minutes on foot, Calle Betis and river 5 minutes; Booking.com lists it as Hostel Triana Backpackers.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.trianahostel.com/en",
+          "kind": "operator",
+          "title": "Albergue Triana: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "beds in a shared room or private doubles and breakfast included",
+          "the Cathedral at 15 minutes on foot and Calle Betis at five"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-eurostars",
+      "topic": "hotel",
+      "claim": "Eurostars Guadalquivir, Avda. Republica Argentina 23, 41011: 133 rooms; 'between Triana and Los Remedios', 'muy proximo al recinto ferial', about 10 minutes from the historic centre; sauna, steam bath and gym 07:00-23:00; parking EUR 23 per night, EUR 35 during Semana Santa and Feria de Abril. Booking.com lists it in Los Remedios.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.eurostarshotels.com/eurostars-guadalquivir.html",
+          "kind": "operator",
+          "title": "Eurostars Guadalquivir: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "A hotel of 133 rooms at Avenida de la República Argentina 23",
+          "€35 in Holy Week and the Fair"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-catalonia",
+      "topic": "hotel",
+      "claim": "Catalonia Santa Justa, Calle Jose Laguillo 8: 15 minutes on foot from the historic centre; single 10 m2, double 16 m2, patio suites 42 m2 with spa access; rooftop pool closed 31 October to 31 March (dates may change).",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.cataloniahotels.com/en/hotel/catalonia-santa-justa",
+          "kind": "operator",
+          "title": "Catalonia Santa Justa: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "At Calle José Laguillo 8",
+          "the rooftop pool is closed from 31 October to 31 March"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.seville-holy-week-april-fair.hotel-ibis",
+      "topic": "hotel",
+      "claim": "ibis Styles Sevilla City Santa Justa, Avenida de la Buhaira 2: 500 m / 5 minutes from Santa Justa station, 2 minutes from the EA airport bus, all room types 21 m2, pool closed 6 January to 12 February 2027 for maintenance.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/B7H3/index.en.shtml",
+          "kind": "operator",
+          "title": "ibis Styles Sevilla City Santa Justa: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+          "500 metres and about five minutes from Santa Justa station",
+          "the pool is closed from 6 January to 12 February 2027 for maintenance"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "es.valencia.fallas.dates",
+      "topic": "place",
+      "claim": "Visit València's Fallas page (undated) gives the main dates as 15 to 19 March, with a daily mascletà at 14:00 in Plaza del Ayuntamiento from 1 to 19 March, the Ofrenda on 17 and 18 March and the Nit del Foc on the night of 18 March; no 2027 programme had been published in early November 2026 and its detailed calendar is for 2026.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas",
+          "kind": "official",
+          "title": "Visit València: the Fallas of València"
+        },
+        {
+          "url": "https://www.visitvalencia.com/en/events-valencia/pyrotechnical-calendar-2022-fallas-mascletas-and-castles",
+          "kind": "official",
+          "title": "Visit València: pyrotechnical calendar for the 2026 Fallas"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "Visit València's festival page gives the main dates as 15 to 19 March without naming a year",
+          "Daily mascletà, Plaza del Ayuntamiento"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.fallas.ajuntament-2027",
+      "topic": "place",
+      "claim": "The Ajuntament's Fallas councillor said on 22 April 2026 that for 2027 tents will go up from 11 March in general terms and orchestras will be allowed on 13, 15, 16, 17 and 18 March 2027.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.valencia.es/cas/actualidad/-/content/fallas-puestos-venta-mojitos-2027-asamblea-presidentes",
+          "kind": "official",
+          "title": "Ajuntament de València: Fallas councillor, 22 April 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "Street stalls and tents go up",
+          "Orchestras are allowed on 13, 15, 16, 17 and 18 March"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.fallas.planta-2026",
+      "topic": "place",
+      "claim": "Visit València's 2026 plantà page says the monuments go up on the night of 15 to 16 March, large fallas from 08:00 on 16 March and children's fallas from 09:00 on 15 March.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visitvalencia.com/en/events-valencia/planta-fallas",
+          "kind": "official",
+          "title": "Visit València: the night of the plantà (2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "large fallas from 08:00 on 16 March",
+          "Night of 15 to 16 March"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.fallas.ofrenda-2026",
+      "topic": "place",
+      "claim": "Visit València's 2026 page says the Ofrenda is on 17 and 18 March from 15:30 to about midnight each afternoon, and that the committees reach Plaza de la Virgen through Calle de San Vicente and Calle de la Paz; the Ajuntament counted 123,578 people in the 2026 offering.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visitvalencia.com/en/events-valencia/flower-offering-ofrenda-fallas",
+          "kind": "official",
+          "title": "Visit València: flower offering (2026)"
+        },
+        {
+          "url": "https://www.valencia.es/cas/actualidad/-/content/fallas-puestos-venta-mojitos-2027-asamblea-presidentes",
+          "kind": "official",
+          "title": "Ajuntament de València, 22 April 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "from 15:30 to about midnight each day",
+          "coming up Calle de San Vicente and Calle de la Paz",
+          "123,578 people"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.fallas.ofrenda-two-days",
+      "topic": "place",
+      "claim": "Press reports (eldiario.es, 21-22 July 2026) say the Fallas presidents' assembly rejected a third day of the Ofrenda for 2027, keeping two days.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.eldiario.es/comunitat-valenciana/politica/asamblea-presidentes-fallas-rechaza-ampliar-tercer-dia-ofrenda-planteo-ayuntamiento-valencia_1_13397810.html",
+          "kind": "news",
+          "title": "eldiario.es: the assembly rejects a third day of the Ofrenda"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "press reports say the Fallas presidents voted in July 2026 to keep it at two days",
+          "voted down by the presidents in July 2026, according to the press"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.fallas.crema-2026",
+      "topic": "place",
+      "claim": "Visit València's 2026 pages list the cremà on 19 March: children's fallas at 20:00, all fallas at 22:00, the Special Section winner at 22:30 and the town hall falla at 23:00, with a fire parade at 19:00; the Nit del Foc in 2026 was at 23:59 on 18 March on the Monteolivete Bridge.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visitvalencia.com/en/events-valencia/crema-day-when-fallas-valencia-are-burned",
+          "kind": "official",
+          "title": "Visit València: the cremà (2026)"
+        },
+        {
+          "url": "https://www.visitvalencia.com/en/events-valencia/pyrotechnical-calendar-2022-fallas-mascletas-and-castles",
+          "kind": "official",
+          "title": "Visit València: pyrotechnical calendar 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "children's fallas at 20:00, all the others at 22:00, the winner at 22:30 and the town hall falla at 23:00",
+          "2026 was at 23:59 on the Monteolivete Bridge"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.fallas.mascleta-suspended-2026",
+      "topic": "place",
+      "claim": "The Ajuntament said on 22 April 2026 that the mascletà suspended in March 2026 for bad weather became a night mascletà on 2 May at 21:00.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.valencia.es/cas/actualidad/-/content/fallas-puestos-venta-mojitos-2027-asamblea-presidentes",
+          "kind": "official",
+          "title": "Ajuntament de València, 22 April 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "The 2026 mascletà was cancelled on one March day for bad weather, and the city moved it to a night show on 2 May"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.fallas.special-section",
+      "topic": "place",
+      "claim": "Visit València says the Special Section fallas can be admired inside their enclosures, with tickets, only from 16 to 19 March.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas",
+          "kind": "official",
+          "title": "Visit València: the Fallas of València"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "the Special Section fallas can be entered, with tickets, from 16 to 19 March"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.fallas.ruzafa-lights",
+      "topic": "place",
+      "claim": "Visit València says that every night of the Fallas the Ruzafa neighbourhood is transformed into a festival of colour by its lighting projects.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visitvalencia.com/en/events-valencia/festivities/the-fallas",
+          "kind": "official",
+          "title": "Visit València: the Fallas of València"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "its street-lighting displays turn it into a festival of colour every night of the Fallas"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.tourist-tax-repealed",
+      "topic": "tax",
+      "claim": "Decree-Law 12/2023 of 10 November 2023 of the Consell repeals Law 7/2022, which created the Valencian tourist-stay tax; it entered into force the day after its publication in the DOGV on 14 November 2023, before the law's one-year start date of 19 December 2023; no later law reinstating the tax was found.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://dogv.gva.es/datos/2023/11/14/pdf/2023_11345.pdf",
+          "kind": "official",
+          "title": "DOGV: Decreto Ley 12/2023, de 10 de noviembre, del Consell"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "Decree-Law 12/2023 of 10 November 2023 repeals Law 7/2022",
+          "Law 7/2022 would have taken effect a year after its publication on 19 December 2022",
+          "We found no law reinstating it"
+        ]
+      },
+      "note": "The brief said the tax was repealed in 2024; the official gazette shows November 2023. Recheck for a new regional law before publishing."
+    },
+    {
+      "id": "es.valencia.vat-10",
+      "topic": "tax",
+      "claim": "Spain applies its reduced 10% VAT rate to hospitality services including hotels.",
+      "checked": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/educacion-civico-tributaria/programa-educacion-civico-tributaria/que-impuestos/contenidos/impuesto-sobre-valor-anadido/exenciones-tipos.html",
+          "kind": "official",
+          "title": "Agencia Tributaria: VAT rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "Hotel VAT",
+          "a room quoted at €200 before VAT costs €220 with the 10% rate"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.metro-airport-fare",
+      "topic": "fare",
+      "claim": "Metrovalencia's single ticket for the AB+ zone combination (the airport) is €4.80, plus a card at €1.10 (cardboard) or €2.20 (plastic); lines 3 and 5 serve the airport.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.metrovalencia.es/en/fares/",
+          "kind": "operator",
+          "title": "Metrovalencia: fares"
+        },
+        {
+          "url": "https://www.visitvalencia.com/planifica-tu-viaje-a-valencia/como-moverse/metro",
+          "kind": "official",
+          "title": "Visit València: Metro and tram"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "is €4.80, plus a card at €1.10 in cardboard or €2.20 in plastic",
+          "Metrovalencia lines 3 and 5 both serve the airport"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.metro-airport-time",
+      "topic": "transport",
+      "claim": "Visit València puts airport metro departures every 15 to 20 minutes with a journey of about 20 minutes, and recommends Xàtiva, Colón and Marítim stops.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visitvalencia.com/planifica-tu-viaje-a-valencia/como-moverse/metro",
+          "kind": "official",
+          "title": "Visit València: Metro and tram"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "Visit València puts departures at every 15 to 20 minutes and the trip at about 20 minutes"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.suma-t-plus",
+      "topic": "fare",
+      "claim": "Metrovalencia's fares page lists SUMA T1+, T2+ and T3+ (unlimited travel for 24, 48 and 72 hours, AB+ combination) at €9, €14 and €17, card not included.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.metrovalencia.es/en/fares/",
+          "kind": "operator",
+          "title": "Metrovalencia: fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "€9 for 24 hours, €14 for 48 and €17 for 72",
+          "two airport singles cost €9.60"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.metro-temporary-fares",
+      "topic": "fare",
+      "claim": "Metrovalencia's temporary fare reductions run to 31 December 2026 and apply to multi-trip and monthly passes (SUMA 10, monthly SUMA, TuiN and others), not to the single ticket.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.metrovalencia.es/en/our-temporary-fares/",
+          "kind": "operator",
+          "title": "Metrovalencia: our temporary fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "certain temporary fare reductions end on 31 December 2026"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.metro-hours",
+      "topic": "transport",
+      "claim": "Visit València lists metro hours of 04:00 to 23:30 on weekdays and 05:00 to 00:30 at weekends, with an average frequency of every 10 minutes, and says the Valencia Tourist Card (24, 48, 72 hours) covers the metro to and from the airport, tram, EMT, Metrobus and Renfe local trains.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visitvalencia.com/planifica-tu-viaje-a-valencia/como-moverse/metro",
+          "kind": "official",
+          "title": "Visit València: Metro and tram"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "04:00 to 23:30 on weekdays and 05:00 to 00:30 at weekends",
+          "covers the metro to and from the airport"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.metro-2026-168h",
+      "topic": "transport",
+      "claim": "Última Hora reported on 10 March 2026 that Metrovalencia would run uninterrupted from Friday 13 March to the early morning of 20 March 2026, 168 hours.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.ultimahora.es/noticias/comunidades/2026/03/10/2586109/metrovalencia-ofrecera-dias-servicio-ininterrumpido-fallas-prevision-alcanzar-millones-viajeros.html",
+          "kind": "news",
+          "title": "Última Hora: Metrovalencia's seven days of uninterrupted service"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "168 hours from 13 March, according to the press"
+        ]
+      }
+    },
+    {
+      "id": "es.valencia.zones-transport",
+      "topic": "transport",
+      "claim": "Visit València puts lines 3, 5 and 9 at Xàtiva or Colón for the old centre, tram line 10 for the City of Arts and Sciences and Ruzafa, and tram lines 4 and 6 for the beaches and the marina.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visitvalencia.com/planifica-tu-viaje-a-valencia/como-moverse/metro",
+          "kind": "official",
+          "title": "Visit València: Metro and tram"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "tram line 10 for the City of Arts and Sciences and Ruzafa",
+          "tram lines 4 and 6 for the beaches and the marina"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.caro",
+      "topic": "hotel",
+      "claim": "Caro Hotel: five-star boutique hotel at Calle Almirall 14 (Seu-Xerea), 38 rooms in two historic buildings, about 200 m from the cathedral; the hotel calls itself the oldest standing building in València, with Roman and Arab-wall remains; booking direct offers free cancellation up to 48 hours before arrival.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.carohotel.com/faq/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "A five-star boutique hotel at Calle Almirall 14",
+          "38 rooms in two historic buildings",
+          "free cancellation up to 48 hours before arrival"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.only-you",
+      "topic": "hotel",
+      "claim": "Only YOU Hotel Valencia: 100 m from Plaza del Ayuntamiento and 500 m from the cathedral and Silk Exchange; gastronomic spaces at street level and on the ninth floor including El Mirador; room categories include Inner Premium and Premium with views.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.onlyyouhotels.com/en/hotels/only-you-hotel-valencia/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "100 metres from Plaza del Ayuntamiento and 500 metres from the cathedral and the Silk Exchange"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.red-nest",
+      "topic": "hotel",
+      "claim": "Red Nest Hostel Valencia: C/ de la Paz 36, 24-hour reception, dormitories of 4 to 12 beds, common area on the fifth floor, breakfast at Purple Nest Hostel 300 m away (extra).",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.feetuphostels.com/red-nest-hostel-valencia.html",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "A hostel at Calle de la Paz 36 with a 24-hour reception",
+          "dormitories of four to 12 beds"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.sercotel",
+      "topic": "hotel",
+      "claim": "Sercotel Valencia Ruzafa: 73 rooms at Carrer de Cuba 4, just over 10 minutes' walk from the Town Hall Square, outdoor pool, private parking, Double Room 16 m2.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.sercotelhoteles.com/en/hotel-valencia-ruzafa",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "73 rooms at Carrer de Cuba 4",
+          "the double room is 16 m²"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.petit-palace",
+      "topic": "hotel",
+      "claim": "Petit Palace Ruzafa: Carrer de Sueca 14, doubles 18 m2, singles 14 m2, closest hotel to the Joaquín Sorolla AVE station, flexible check-out until 15:00 on Sundays and Mondays.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.petitpalace.com/en/hotels/petit-palace-ruzafa",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "doubles of 18 m², singles of 14 m²",
+          "the flexible 15:00 check-out is on Sundays and Mondays only"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.hospes",
+      "topic": "hotel",
+      "claim": "Hospes Palau de la Mar: late-19th-century bourgeois palace on Calle Navarro Reverter in the Eixample, with the Bodyna spa and the Ampar restaurant.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hospes.com/en/palau-mar/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "A late-19th-century bourgeois palace on Calle Navarro Reverter",
+          "the Bodyna spa and the Ampar restaurant inside"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.aqua4",
+      "topic": "hotel",
+      "claim": "ILUNION Aqua 4: Luis García Berlanga 19-21, four-star, near the Oceanogràfic, 163 double rooms of 20 m2, ground-floor restaurant, accessible rooms.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.ilunionhotels.com/en/hotels/ilunion-aqua-4",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "163 double rooms of 20 m²",
+          "Luis García Berlanga 19-21"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.room-mate",
+      "topic": "hotel",
+      "claim": "Room Mate Ciencias: Avenida Instituto Obrero 20, double rooms 15 m2, breakfast until 11:30, dog friendly, parking upon reservation and availability, next to the City of Arts and Sciences.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://room-matehotels.com/gb/hotel-ciencias-valencia/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "Avenida Instituto Obrero 20, with doubles of 15 m²",
+          "breakfast served until 11:30"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.primus",
+      "topic": "hotel",
+      "claim": "Hotel Primus Valencia: four-star at C/ Menorca 22, 600 m from the City of Arts and Sciences, spa, gym, terrace, outdoor pool in the garden, free parking and 14:00 check-out listed for web bookings.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://hotelprimusvalencia.com/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "600 metres from the City of Arts and Sciences by the hotel's count",
+          "an outdoor pool in the garden"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.las-arenas",
+      "topic": "hotel",
+      "claim": "Las Arenas Balneario Resort: five-star grand luxury, Eugenia Viñes 22-24, facing Las Arenas beach, Classic room (city view) 28 m2, Deluxe (terrace with sea view) 30 m2 excluding terrace, heated pool, Sorolla restaurant.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hotelvalencialasarenas.com/en/rooms/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "Eugenia Viñes 22-24",
+          "Classic rooms are 28 m² with city views and the Deluxe rooms with a sea-view terrace are 30 m²"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.balandret",
+      "topic": "hotel",
+      "claim": "Hotel Boutique Balandret: Paseo Neptuno 20, 21 rooms, open since 2015, facing Las Arenas beach, late check-out until 14:00 for web bookings subject to availability.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://balandret.com/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "21 rooms at Paseo Neptuno 20, open since 2015",
+          "a late check-out until 14:00 for web bookings"
+        ]
+      }
+    },
+    {
+      "id": "hotel.valencia.sabbia",
+      "topic": "hotel",
+      "claim": "Sabbia Valencia: Paseo de Neptuno 30; Classic interior 14 m2 (single use), Double interior 16 m2, Superior city 18 m2, Junior suite with sea views 23 m2 with jacuzzi; public parking.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://sabbiavalencia.com/en/hotel/",
+          "kind": "official",
+          "title": "Hotel's own website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-valencia-fallas.html": [
+          "from a 14 m² Classic single-use room to a 23 m² junior suite with sea views and a jacuzzi"
+        ]
+      }
     }
   ]
 }

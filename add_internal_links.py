@@ -591,6 +591,22 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-melbourne-grand-prix.html": (
+        "Where to Stay in Melbourne",
+        "Grand Prix 2027 dates (1 to 4 April), five areas by the route to Albert Park, 12 hotels.",
+    ),
+    "articles/where-to-stay-in-valencia-fallas.html": (
+        "Where to Stay in Valencia",
+        "15 to 19 March 2027, five areas, 12 hotels, and why there is no Valencian tourist tax.",
+    ),
+    "articles/where-to-stay-in-seville-holy-week-april-fair.html": (
+        "Where to Stay in Seville",
+        "Holy Week and April Fair 2027 dates, six areas, 12 hotels, and no tourist tax, only 10% VAT.",
+    ),
+    "articles/where-to-stay-in-dublin-st-patricks-day.html": (
+        "Where to Stay in Dublin",
+        "Official 2027 dates, the parade route, six areas, 12 hotels, and 13.5% VAT with no tourist tax.",
+    ),
     "articles/where-to-stay-in-singapore-chinese-new-year.html": (
         "Where to Stay in Singapore",
         "Five areas, 12 hotels, the 6-7 February dates, what is not yet announced, and the 19.9% on top.",
@@ -2249,6 +2265,34 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-melbourne-grand-prix.html": [
+        "articles/where-to-stay-in-melbourne.html",
+        "articles/where-to-stay-in-melbourne-australian-open.html",
+        "articles/melbourne-airport-to-city.html",
+        "articles/getting-around-melbourne.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-valencia-fallas.html": [
+        "articles/where-to-stay-in-seville.html",
+        "articles/where-to-stay-in-madrid.html",
+        "articles/where-to-stay-in-barcelona.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-seville-holy-week-april-fair.html": [
+        "articles/where-to-stay-in-seville.html",
+        "articles/where-to-stay-in-madrid.html",
+        "articles/where-to-stay-in-barcelona.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+        "articles/where-to-stay-in-dublin.html",
+        "articles/where-to-stay-in-london.html",
+        "articles/where-to-stay-in-edinburgh.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-singapore-chinese-new-year.html": [
         "articles/where-to-stay-in-singapore.html",

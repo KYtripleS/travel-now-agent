@@ -446,6 +446,22 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-melbourne-grand-prix": dict(
+        text="For the Grand Prix, stay in Albert Park for the shortest trip to the gates, or a tram ride away in the CBD or Southbank. Pullman Melbourne Albert Park is the closest, The Langham the splurge and The Prince in St Kilda the value pick. We found no city hotel tax.",
+        link_text="Albert Park",
+        cta=_stay_cta("where-to-stay-in-melbourne-grand-prix", "See hotels around Albert Park")),
+    "where-to-stay-in-valencia-fallas": dict(
+        text="For Las Fallas, stay in Ciutat Vella for the 14:00 mascletà and the flower offering on foot. Caro Hotel is the splurge, Only YOU Hotel Valencia is 100 m from the town hall square and Red Nest Hostel is the budget pick. There is no Valencian tourist tax; 10% VAT applies.",
+        link_text="Ciutat Vella",
+        cta=_stay_cta("where-to-stay-in-valencia-fallas", "See hotels around Ciutat Vella")),
+    "where-to-stay-in-seville-holy-week-april-fair": dict(
+        text="For Holy Week, stay by the Cathedral and the Carrera Oficial: Santa Cruz or Plaza Nueva. EME Catedral Mercer is the splurge, Hotel Bécquer says processions pass its entrance and Hotel Simón is the lower-price pick. Holy Week starts on 21 March, the Fair on 13 April, and there is no tourist tax.",
+        link_text="Santa Cruz",
+        cta=_stay_cta("where-to-stay-in-seville-holy-week-april-fair", "See hotels around Santa Cruz")),
+    "where-to-stay-in-dublin-st-patricks-day": dict(
+        text="For St Patrick's Day, stay on or beside the parade route: O'Connell Street or Temple Bar. The Merrion is the splurge, Riu Plaza The Gresham sits on O'Connell Street and Temple Bar Inn is the lower-price pick. The parade is at noon on 17 March; VAT is 13.5% and there is no tourist tax.",
+        link_text="O'Connell Street",
+        cta=_stay_cta("where-to-stay-in-dublin-st-patricks-day", "See hotels around O'Connell Street")),
     "where-to-stay-in-singapore-chinese-new-year": dict(
         text="For the Chinatown lights, stay in Chinatown: the PARKROYAL Pickering is the comfortable pick, Furama City Centre the good-value one and The Fullerton the splurge. Chinese New Year is 6 and 7 February; the light-up, River Hongbao and Chingay dates are not yet announced. Add 19.9% (service charge and GST) to a headline rate.",
         link_text="Chinatown",
@@ -1494,7 +1510,15 @@ def add_stay_links(soup: BeautifulSoup, slug: str, article: Tag) -> tuple[int, l
 # Experiment E1 (2026-11-01, research/ai-agent-strategy-2026-11.md): a rates column in
 # the at-a-glance table, on two pages only so the other stay guides stay the control.
 # Hong Kong is the top ChatGPT landing and had 0 table clicks; GA4 placement "table".
-GLANCE_RATES = {"where-to-stay-in-hong-kong", "where-to-stay-in-kuala-lumpur"}
+GLANCE_RATES = {"where-to-stay-in-hong-kong", "where-to-stay-in-kuala-lumpur"} | {
+    # E1b (2026-11-02): extended to the event guides at their booking peak (dates within ~3 months);
+    # generic city guides stay the control. Compare placement "table" clicks, event vs generic.
+    f"where-to-stay-in-{x}" for x in (
+        "london-new-years-eve", "edinburgh-hogmanay", "new-york-new-years-eve", "sydney-new-years-eve",
+        "paris-new-years-eve", "tokyo-new-year", "kyoto-new-year", "rovaniemi-christmas",
+        "vienna-christmas-market", "prague-christmas-market", "nuremberg-christmas-market",
+        "strasbourg-christmas-market", "cologne-christmas-market", "hong-kong-chinese-new-year",
+        "sapporo-snow-festival")}
 
 
 def add_glance_rates(soup: BeautifulSoup, table: Tag | None) -> int:
@@ -1674,6 +1698,10 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-melbourne-grand-prix": ["The Langham, Melbourne", "Pullman Melbourne Albert Park", "The Prince"],
+    "where-to-stay-in-valencia-fallas": ["Caro Hotel", "Only YOU Hotel Valencia", "Red Nest Hostel Valencia"],
+    "where-to-stay-in-seville-holy-week-april-fair": ["EME Catedral Mercer", "Hotel Bécquer", "Hotel Simón"],
+    "where-to-stay-in-dublin-st-patricks-day": ["The Merrion", "Riu Plaza The Gresham Dublin", "Temple Bar Inn"],
     "where-to-stay-in-singapore-chinese-new-year": ["PARKROYAL COLLECTION Pickering", "Furama City Centre", "The Fullerton Hotel Singapore"],
     "where-to-stay-in-sydney-mardi-gras": ["Capella Sydney", "Paramount House Hotel", "Hyde Park Inn"],
     "where-to-stay-in-osaka-cherry-blossom": ["Imperial Hotel Osaka", "DoubleTree by Hilton Osaka Castle", "Hotel Keihan Kyobashi Grande"],
@@ -2446,6 +2474,10 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Melbourne", "where-to-stay-in-melbourne-grand-prix", None, None),
+        ("Valencia", "where-to-stay-in-valencia-fallas", None, None),
+        ("Seville", "where-to-stay-in-seville-holy-week-april-fair", None, None),
+        ("Dublin", "where-to-stay-in-dublin-st-patricks-day", None, None),
         ("Singapore", "where-to-stay-in-singapore-chinese-new-year", None, None),
         ("Sydney", "where-to-stay-in-sydney-mardi-gras", None, None),
         ("Osaka", "where-to-stay-in-osaka-cherry-blossom", None, None),
@@ -2612,6 +2644,13 @@ _HB = "where-to-stay-in-hakuba.html"
 _PA = "where-to-stay-in-paris.html"
 _NYC = "where-to-stay-in-new-york.html"
 STAY_POINTERS = {
+    # event guides for spring 2027, from their city guides (2026-11-02)
+    "where-to-stay-in-dublin": ("intro",
+        'Coming for St Patrick’s Day? <a href="where-to-stay-in-dublin-st-patricks-day.html">Where to stay in Dublin '
+        'for St Patrick’s Day 2027</a> follows the parade route on Wednesday 17 March, with the hotels along it.'),
+    "where-to-stay-in-seville": ("intro",
+        'Coming for Holy Week or the Feria? <a href="where-to-stay-in-seville-holy-week-april-fair.html">Where to stay '
+        'in Seville for Holy Week and the April Fair 2027</a> matches the areas to the processions and the fairground.'),
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
         f'Choosing a base? <a href="{_KL}">Where to stay in Kuala Lumpur</a> compares four areas, from KLCC to '
@@ -2961,9 +3000,14 @@ STAY_POINTERS = {
     "where-to-stay-for-disneyland-paris": ("intro",
         'Still to buy park tickets? <a href="where-to-buy-disneyland-paris-tickets.html">Disneyland Paris tickets '
         'compared</a> puts Disney’s own price beside Tiqets, GetYourGuide and Viator for the same date.'),
-    "where-to-stay-in-melbourne": ("intro",
-        'Here for the tennis? <a href="where-to-stay-in-melbourne-australian-open.html">Where to stay for the '
-        'Australian Open 2027</a> (11 to 31 January) sorts the areas by tram or walk to Melbourne Park.'),
+    "where-to-stay-in-melbourne": [
+        ("intro",
+         'Here for the tennis? <a href="where-to-stay-in-melbourne-australian-open.html">Where to stay for the '
+         'Australian Open 2027</a> (11 to 31 January) sorts the areas by tram or walk to Melbourne Park.'),
+        ("The short answer",
+         'Here for the Grand Prix? <a href="where-to-stay-in-melbourne-grand-prix.html">Where to stay for the '
+         'Australian Grand Prix 2027</a> covers 1 to 4 April at Albert Park, with the trams to each gate.'),
+    ],
     "where-to-stay-in-vienna": ("intro",
         'Coming for the Christmas markets? <a href="where-to-stay-in-vienna-christmas-market.html">Where to stay '
         'in Vienna for the Christmas markets</a> has the 2026 dates and matches hotels to Rathausplatz, '

@@ -500,6 +500,539 @@
           "a 10-minute walk from Lansdowne Road DART station"
         ]
       }
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.dates-2027",
+      "topic": "place",
+      "claim": "St. Patrick's Festival's site gives the 2027 festival as Saturday 13 March to Wednesday 17 March 2027 at various locations around Dublin city centre, and says the detailed programme will be announced in January 2027.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://stpatricksfestival.ie/your-visit/",
+          "kind": "official",
+          "title": "St. Patrick's Festival: Your Visit (FAQs, road closures, accessibility)"
+        },
+        {
+          "url": "https://stpatricksfestival.ie/the-parade-map-and-route/",
+          "kind": "official",
+          "title": "St. Patrick's Festival: the parade map and route"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "gives the 2027 festival as Saturday 13 March to Wednesday 17 March",
+          "will be announced in January 2027"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Recheck in January 2027 for the full programme."
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.parade-2027",
+      "topic": "place",
+      "claim": "The 2027 parade starts at midday on Wednesday 17 March 2027 and runs 3.2 km down O'Connell Street and over O'Connell Bridge through the south side to the Cuffe Street/Kevin Street junction; the festival says it takes about 2 hours to pass and expects about 500,000 people. The route page gives the start as Parnell Square and the FAQ as Granby Row.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://stpatricksfestival.ie/the-parade-map-and-route/",
+          "kind": "official",
+          "title": "St. Patrick's Festival: the parade map and route"
+        },
+        {
+          "url": "https://stpatricksfestival.ie/your-visit/",
+          "kind": "official",
+          "title": "St. Patrick's Festival: Your Visit (FAQs, road closures, accessibility)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "3.2 km from Parnell Square",
+          "takes about two hours to pass",
+          "the festival expects about 500,000 people",
+          "the route page says Parnell Square and the FAQ says Granby Row"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.events-2027",
+      "topic": "place",
+      "claim": "The festival's FAQ lists for 2027: the Treasure Hunt on 13 March, citywide street performances, workshops and the After Dark programme on 13-16 March, the Festival Funfair on Custom House Quay on 13-17 March, and the Céilí Mór on Merrion Square West on 17 March.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://stpatricksfestival.ie/your-visit/",
+          "kind": "official",
+          "title": "St. Patrick's Festival: Your Visit (FAQs, road closures, accessibility)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "Festival Funfair",
+          "Custom House Quay",
+          "Céilí Mór",
+          "Merrion Square West"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.closures-2027",
+      "topic": "place",
+      "claim": "The festival's FAQ says the parade requires road closures in the city centre from early morning until late afternoon, and that closures for 2027 will be available closer to the festival dates.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://stpatricksfestival.ie/your-visit/",
+          "kind": "official",
+          "title": "St. Patrick's Festival: Your Visit (FAQs, road closures, accessibility)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "roads are shut from early morning until late afternoon",
+          "available closer to the Festival dates"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.access-2027",
+      "topic": "place",
+      "claim": "Watching the parade is free with standing points along the route; covered tiered grandstands are sold through the festival website; three wheelchair-accessible viewing areas (O'Connell Street, Westmoreland Street, St Patrick's Cathedral) and a Relaxed Parade Space open for applications in mid-January 2027.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://stpatricksfestival.ie/your-visit/",
+          "kind": "official",
+          "title": "St. Patrick's Festival: Your Visit (FAQs, road closures, accessibility)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "three wheelchair-accessible viewing areas",
+          "Relaxed Parade Space",
+          "Applications for both open in mid-January 2027"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.pattern-2026",
+      "topic": "place",
+      "claim": "The Gardaí's 2026 plan: the parade started at 12 midday on Tuesday 17 March 2026 at Parnell Square North, assembled at Western Way, Dublin 7 and dispersed at St Stephen's Green West; rolling road closures across the city centre from early morning; no vehicles could enter the route, parking along it was not permitted and vehicles would be towed; traffic was diverted through the North and South Circular Roads.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/press-releases/2026/march/st-patrick-s-day-policing-plan-for-dublin-city-17th-march-2026.html",
+          "kind": "official",
+          "title": "An Garda Síochána: St. Patrick's Day policing plan for Dublin City, 17 March 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "started at noon at Parnell Square North",
+          "assembled at Western Way in Dublin 7",
+          "dispersed at St Stephen's Green West",
+          "North and South Circular Roads"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Last year's arrangements; labelled as 2026 in the article."
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.map-2026-grandstands",
+      "topic": "place",
+      "claim": "The festival's parade map page (images uploaded March 2026) lists grandstands at Parnell Square North, the GPO, O'Connell Bridge, Westmoreland Street, Christchurch Cathedral and St Patrick's Cathedral.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://stpatricksfestival.ie/the-parade-map-and-route/",
+          "kind": "official",
+          "title": "St. Patrick's Festival: the parade map and route"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "grandstands at Parnell Square North, the GPO, O'Connell Bridge, Westmoreland Street, Christchurch Cathedral and St Patrick's Cathedral"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Read from the map data embedded in the page; the page's map is the 2026 version. Recheck once the 2027 map is published."
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.vat-rate",
+      "topic": "tax",
+      "claim": "Revenue says a supply of guest or holiday accommodation is taxable at the reduced rate of VAT; its table of current rates gives 13.5% reduced and 23% standard from 1 January 2026.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.revenue.ie/en/vat/vat-on-services/accommodation/guest-and-holiday/index.aspx",
+          "kind": "official",
+          "title": "Revenue: VAT on guest and holiday accommodation"
+        },
+        {
+          "url": "https://www.revenue.ie/en/vat/vat-rates/search-vat-rates/current-vat-rates.aspx",
+          "kind": "official",
+          "title": "Revenue: current VAT rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "taxable at the reduced rate of VAT",
+          "13.5% from 1 January 2026",
+          "Ireland's standard VAT rate"
+        ]
+      },
+      "recheck_days": 60
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.no-tourist-tax",
+      "topic": "tax",
+      "claim": "No Irish tourist or city tax on hotel stays was found in November 2026; the Department of Finance's summary of Budget 2027 tax changes mentions neither a tourist tax nor a change to the accommodation VAT rate.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://assets.gov.ie/static/documents/3aa2894e/Budget_2027_-_Tax_Policy_Changes_Summary_-_Eng.pdf",
+          "kind": "official",
+          "title": "Department of Finance: Budget 2027 tax policy changes, summary"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "mentions neither a tourist tax nor a change to the accommodation rate"
+        ]
+      },
+      "recheck_days": 60,
+      "note": "Absence claim; text extracted from the PDF and searched for tourist/visitor/accommodation/hospitality terms."
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.vat-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: on three nights at EUR 250 (EUR 750 total) including 13.5% VAT, the VAT is 750 x 13.5 / 113.5 = EUR 89.21.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.revenue.ie/en/vat/vat-rates/search-vat-rates/current-vat-rates.aspx",
+          "kind": "official",
+          "title": "Revenue: current VAT rates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "€750 × 13.5 ÷ 113.5 = €89.21 of VAT"
+        ]
+      }
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.dublin-express",
+      "topic": "fare",
+      "claim": "Dublin Express's airport-to-city page gives fares from EUR 9 one-way when booked online, as little as 14 minutes on the fastest service, and city stops including Aston Quay (O'Connell Bridge), Wellington Quay (Dublin Castle), Trinity College, Arran Quay (Smithfield), Heuston Station, Custom House Quay (Connolly), North Wall Quay and Christchurch (Patrick Street); the page's timetable box is dated 2022.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.dublinexpress.ie/dublin-city/dublin-airport-to-dublin-city",
+          "kind": "operator",
+          "title": "Dublin Express: Dublin Airport to Dublin City"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "just €9 one-way",
+          "as little as 14 minutes",
+          "Aston Quay by O'Connell Bridge"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Stop list and timetable box may be stale (box dated 2022); fare line read in the browser."
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.aircoach",
+      "topic": "fare",
+      "claim": "Aircoach's Dublin page says tickets start from EUR 6 one way or EUR 8 return online; routes 700 and 700X run as often as every 15 minutes, 24 hours a day, to O'Connell Street (Riu Gresham Hotel) and O'Connell Bridge, the 700 continuing to Kildare Street and Leeson Street Lower; the 702 serves the 3Arena, Grand Canal Dock and Ballsbridge; journeys take 20 to 40 minutes; it puts a taxi at roughly EUR 30-45.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.aircoach.ie/dublin",
+          "kind": "operator",
+          "title": "Aircoach: Dublin Airport to Dublin City routes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "from €6 one way or €8 return",
+          "20 to 40 minutes",
+          "roughly €30 to €45"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.airport-bus-routes",
+      "topic": "transport",
+      "claim": "Dublin Airport's bus page lists Transport for Ireland routes 16, 19, 24, 33a, 41, 101, 102 and 109A from the airport; Generator Dublin's page suggests the Airlink 747 to Usher's Quay.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.dublinairport.com/to-from-the-airport/by-bus/dublin-buses",
+          "kind": "operator",
+          "title": "Dublin Airport: buses to Dublin city and the Greater Dublin Area"
+        },
+        {
+          "url": "https://staygenerator.com/hostels/dublin",
+          "kind": "operator",
+          "title": "Generator Dublin"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "routes 16, 19, 24, 33a, 41, 101, 102 and 109A",
+          "Airlink 747 to Usher's Quay"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-gresham",
+      "topic": "hotel",
+      "claim": "Riu Plaza The Gresham Dublin, 23 Upper O'Connell Street: five room categories, buffet breakfast, lounge bar, 24-hour gym; Aircoach lists it as a stop on the 700.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.riu.com/en/hotel/ireland/dublin/hotel-riu-plaza-the-gresham-dublin",
+          "kind": "operator",
+          "title": "Riu Plaza The Gresham Dublin: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "At 23 Upper O'Connell Street",
+          "five room categories",
+          "a 24-hour gym"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-leonardo",
+      "topic": "hotel",
+      "claim": "Leonardo Hotel Dublin Christchurch, 8 Christchurch Place, D08 REK7: 182 rooms, opposite Christchurch Cathedral, elevator, restaurant and bar, Superior King Bed with Christchurch Cathedral View; no room sizes or star rating on the page.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.leonardo-hotels.com/dublin/leonardo-hotel-dublin-christchurch",
+          "kind": "operator",
+          "title": "Leonardo Hotel Dublin Christchurch: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "A hotel of 182 rooms at 8 Christchurch Place",
+          "a Superior King room sold with a Christchurch Cathedral view"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-latroupe",
+      "topic": "hotel",
+      "claim": "Latroupe Jacobs Inn, 21-28 Talbot Place, Dublin 1: private rooms for 2, dorms of 4, 6, 8, 10 and 12 beds with shared en-suite, large bar for drinks and live events, 24-hour reception, Irish buffet breakfast.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.latroupe.com/en/latroupe-jacobs-inn/hostel/",
+          "kind": "operator",
+          "title": "Latroupe Jacobs Inn: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "A hostel at 21 to 28 Talbot Place, Dublin 1",
+          "dorms of 4 to 12 beds with shared en-suites"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-morgan",
+      "topic": "hotel",
+      "claim": "The Morgan Hotel, 10 Fleet Street, Temple Bar: four stars, 168 air-conditioned rooms, 10 Fleet Street Restaurant & Bar; offers include Stay Longer & Save 20% for 3+ nights (stays until 31 March 2027) and Advance Purchase 15% off with prepayment.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.themorgan.com/en/",
+          "kind": "operator",
+          "title": "The Morgan Hotel: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "A four-star hotel at 10 Fleet Street with 168 air-conditioned rooms",
+          "Stay Longer & Save 20%",
+          "a 15% advance-purchase rate paid up front"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-temple-bar-inn",
+      "topic": "hotel",
+      "claim": "Temple Bar Inn, 40-47 Fleet Street: 101 en-suite rooms, 24/7 reception, complimentary buffet breakfast with every direct booking; Single 10 m2, Twin 15 m2, Cosy Double 12 m2.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://templebarinn.com/",
+          "kind": "operator",
+          "title": "Temple Bar Inn: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "101 en-suite rooms at 40 to 47 Fleet Street",
+          "the 10 m² Single and 12 m² Cosy Double to the 15 m² Twin"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-shelbourne",
+      "topic": "hotel",
+      "claim": "The Shelbourne, 27 St Stephen's Green: 'hospitality since 1824'; Saddle Room and Horseshoe Bar; homepage notice (raw HTML checked): 'undergoing room renovations to May 2027 - some noise may occur. The Spa, including the swimming pool, is now closed.'",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://theshelbourne.com/",
+          "kind": "operator",
+          "title": "The Shelbourne: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "hospitality since 1824",
+          "undergoing room renovations to May 2027 – some noise may occur"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-merrion",
+      "topic": "hotel",
+      "claim": "The Merrion, Upper Merrion Street, Dublin 2: 142 bedrooms and suites, 18 m pool, spa and gym, 2-star Michelin Restaurant Patrick Guilbaud (the hotel's wording); Booking.com lists the address as Merrion Square.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.merrionhotel.com/",
+          "kind": "operator",
+          "title": "The Merrion: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "a hotel of 142 bedrooms and suites with an 18 m pool",
+          "Restaurant Patrick Guilbaud"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-maldron",
+      "topic": "hotel",
+      "claim": "Maldron Hotel Smithfield: 4 star, 92 bedrooms including triple and quad rooms, 'with the Luas just moments away'.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.maldronhotels.com/smithfield/",
+          "kind": "operator",
+          "title": "Maldron Hotel Smithfield: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "A four-star hotel at Smithfield with 92 bedrooms",
+          "just moments away"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-generator",
+      "topic": "hotel",
+      "claim": "Generator Dublin, Smithfield Square: 'right next to the Jameson Distillery'; private rooms, dorms, 6-bed female dorm; Shuffleboard Bar 11am-11.30pm; cafe open to 1.30am Friday and Saturday; 24-hour reception.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://staygenerator.com/hostels/dublin",
+          "kind": "operator",
+          "title": "Generator Dublin: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "right next to the Jameson Distillery",
+          "a Shuffleboard Bar open from 11:00 to 23:30"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-marker",
+      "topic": "hotel",
+      "claim": "Anantara The Marker Dublin Hotel, Grand Canal Square: 187 rooms of 30-35 m2, spa with 23-metre infinity pool, Rooftop Bar & Terrace, within walking distance of College Green and Grafton Street.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.anantara.com/en/the-marker-dublin",
+          "kind": "operator",
+          "title": "Anantara The Marker Dublin Hotel: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "187 rooms of 30 to 35 m²",
+          "a spa with a 23-metre infinity pool"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-clayton",
+      "topic": "hotel",
+      "claim": "Clayton Hotel Cardiff Lane: '4 Star Hotel Dublin Docklands', complimentary access to a 22-metre pool described as one of the largest in Dublin, separate kids' pool, 3Arena and Aviva Stadium within easy walking distance; page gives no address or room count.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.claytonhotels.com/cardiff-lane/",
+          "kind": "operator",
+          "title": "Clayton Hotel Cardiff Lane: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "complimentary access to a 22-metre pool",
+          "a separate kids' pool"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "ie.dublin-st-patricks-day.hotel-herbert",
+      "topic": "hotel",
+      "claim": "Herbert Park Hotel & Park Residence, Ballsbridge, D04 R2T2: 4-star hotel and self-catering studio apartments, underground parking, 24-hour TechnoGym suite for guests, 10-minute walk to Lansdowne Road DART.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.herbertparkhotel.ie/",
+          "kind": "operator",
+          "title": "Herbert Park Hotel & Park Residence: official website"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dublin-st-patricks-day.html": [
+          "self-catering studio apartments in its Park Residence",
+          "a 10-minute walk to Lansdowne Road DART"
+        ]
+      },
+      "recheck_days": 30
     }
   ]
 }

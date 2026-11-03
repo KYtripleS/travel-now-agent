@@ -114,6 +114,14 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-melbourne-grand-prix": dict(area="Albert Park", lat=-37.842, lng=144.966, zoom=14,
+                                                     address="Queens Road, Albert Park, Victoria, Australia"),
+    "where-to-stay-in-valencia-fallas": dict(area="Plaza del Ayuntamiento", lat=39.4699, lng=-0.377, zoom=15,
+                                                address="Plaza del Ayuntamiento, 46002 Valencia, Spain"),
+    "where-to-stay-in-seville-holy-week-april-fair": dict(area="Santa Cruz", lat=37.3862, lng=-5.9899, zoom=15,
+                                                             address="Plaza de Santa Cruz, Seville, Spain"),
+    "where-to-stay-in-dublin-st-patricks-day": dict(area="O'Connell Street", lat=53.3498, lng=-6.2603, zoom=15,
+                                                       address="O'Connell Street, Dublin, Ireland"),
     "where-to-stay-in-singapore-chinese-new-year": dict(area="Chinatown", lat=1.2839, lng=103.8441, zoom=15,
                                                            address="Chinatown MRT Station, Singapore"),
     "where-to-stay-in-sydney-mardi-gras": dict(area="Darlinghurst", lat=-33.8796, lng=151.2148, zoom=15,
@@ -1600,6 +1608,29 @@ HOTELS = {
     "Furama City Centre": _B + "sg/furama-city-centre.html",
     "Rendezvous Hotel Singapore": _B + "sg/rendezvous.html",
     "Village Hotel Bugis": _B + "sg/golden-landmark.html",
+    # Dublin, where-to-stay-in-dublin-st-patricks-day (Booking.com pages confirmed by hotel name and city)
+    "Leonardo Hotel Dublin Christchurch": _B + "ie/jurysinnchristchurch.html",
+    # Seville, where-to-stay-in-seville-holy-week-april-fair (Booking.com pages confirmed by hotel name and city)
+    "Vincci La Rábida": _B + "es/larabida.html",
+    "Eurostars Guadalquivir": _B + "es/eurostars-guadalquivir.html",
+    # Valencia, where-to-stay-in-valencia-fallas (Booking.com pages confirmed by hotel name and city)
+    "Caro Hotel": _B + "es/caro.html",
+    "Only YOU Hotel Valencia": _B + "es/only-you-valencia.html",
+    "Red Nest Hostel Valencia": _B + "es/nest-youth-hostel.html",
+    "Sercotel Valencia Ruzafa": _B + "es/sercotel-valencia-ruzafa.html",
+    "Petit Palace Ruzafa": _B + "es/petitpalacegermanias.html",
+    "Hospes Palau de la Mar": _B + "es/hospes-palau-de-la-mar.html",
+    "ILUNION Aqua 4": _B + "es/confprtel-aqua-4.html",
+    "Room Mate Ciencias": None,
+    "Hotel Primus Valencia": _B + "es/primus-valencia.html",
+    "Las Arenas Balneario Resort": _B + "es/balneariolasarenas.html",
+    "Hotel Boutique Balandret": _B + "es/balandret.html",
+    "Sabbia Valencia": _B + "es/gabbana-beach.html",
+    # Melbourne, where-to-stay-in-melbourne-grand-prix (Booking.com pages confirmed by hotel name and city)
+    "Pullman Melbourne Albert Park": _B + "au/pullman-melbourne-albert-park.html",
+    "YHA Melbourne Central": _B + "au/melbourne-central-yha.html",
+    "Art Series The Olsen": _B + "au/art-series-the-olsen.html",
+    "Ovolo Melbourne South Yarra": _B + "au/ovolo-south-yarra.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

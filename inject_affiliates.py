@@ -104,7 +104,7 @@ KKDAY_CARD = card(
 def widget_block(city_id: int, category: int, place_name: str) -> str:
     """Klook tours-and-activities widget, wrapped in idempotency markers."""
     src = (
-        f"https://tpemb.com/content?currency=USD&trs=543719&shmarker=743846"
+        f"https://tpemb.com/content?currency=USD&trs=547982&shmarker=743846"
         f"&locale=en&city_id={city_id}&category={category}&amount=3"
         f"&powered_by=true&campaign_id=137&promo_id=4497"
     )

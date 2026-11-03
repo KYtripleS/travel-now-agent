@@ -21,6 +21,9 @@
       "used_in": {
         "articles/where-to-stay-in-sydney-mardi-gras.html": [
           "10%, in full on hotel and hostel stays of under 28 days"
+        ],
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "Australia's 10% GST applies to hotel stays of under 28 days"
         ]
       }
     },
@@ -53,7 +56,12 @@
           "title": "State Revenue Office Victoria: understanding the short stay levy"
         }
       ],
-      "checked": "2026-10-28"
+      "checked": "2026-10-28",
+      "used_in": {
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "Victoria's short-stay levy, 7.5% of the booking fee since 1 January 2025"
+        ]
+      }
     },
     {
       "id": "au.melbourne.ao2027.dates",
@@ -186,6 +194,9 @@
         "articles/where-to-stay-in-melbourne-australian-open.html": [
           "covering the central city and Docklands, bounded by Spring Street, Flinders Street and La Trobe Street",
           "trains and buses still need a ticket"
+        ],
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "The Free Tram Zone covers the central city and Docklands"
         ]
       }
     },
@@ -215,6 +226,10 @@
         "articles/where-to-stay-in-melbourne-australian-open.html": [
           "The half-price period on Victorian trains, trams and buses runs until 1 January 2027",
           "seven capped days cost up to $79.80, against $39.90 at today's cap"
+        ],
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "The half-price period on Victorian trains, trams and buses runs until 1 January 2027",
+          "so the fares in April 2027 may differ"
         ]
       }
     },
@@ -232,6 +247,9 @@
       "checked": "2026-10-30",
       "used_in": {
         "articles/where-to-stay-in-melbourne-australian-open.html": [
+          "Contactless cards, phones and watches work for full-fare travel at the same fares as myki"
+        ],
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
           "Contactless cards, phones and watches work for full-fare travel at the same fares as myki"
         ]
       }
@@ -262,6 +280,9 @@
         "articles/where-to-stay-in-melbourne-australian-open.html": [
           "SkyBus runs as a turn-up-and-go service to Southern Cross Station, and a myki can't be used on it",
           "SkyBus, adult one way"
+        ],
+        "articles/where-to-stay-in-melbourne-grand-prix.html": [
+          "SkyBus runs a turn-up-and-go service to Southern Cross Station, and a myki cannot be used on it"
         ]
       }
     },
