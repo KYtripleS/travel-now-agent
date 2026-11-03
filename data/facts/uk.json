@@ -1646,6 +1646,754 @@
           "An ETA does not guarantee entry"
         ]
       }
+    },
+    {
+      "id": "gb.london-marathon.2027-dates",
+      "topic": "history",
+      "claim": "The 2027 TCS London Marathon is a one-off two-day event on Saturday 24 and Sunday 25 April 2027.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon",
+          "kind": "official",
+          "title": "TCS London Marathon (organiser)",
+          "evidence": [
+            "will take place across two days, on Saturday 24 and Sunday 25 April 2027"
+          ]
+        },
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/2027-tcs-london-marathon-double-faqs",
+          "kind": "official",
+          "title": "2027 Double TCS London Marathon FAQs",
+          "evidence": [
+            "Taking place on Saturday 24 and Sunday 25 April 2027, this one-off format change for 2027 only"
+          ]
+        },
+        {
+          "url": "https://www.worldmarathonmajors.com/content-hub/tcs-london-marathon-will-expand-into-a-two-day-event-in-2027",
+          "kind": "official",
+          "title": "TCS London Marathon will expand into a two-day event in 2027 (World Marathon Majors)",
+          "evidence": [
+            "The event will take place across Saturday 24 and Sunday 25 April 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "across two days, on Saturday 24 and Sunday 25 April 2027",
+          "a one-off format change for 2027 only"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.one-day-only",
+      "topic": "history",
+      "claim": "Runners take part on one of the two days; the allocated day cannot be changed or swapped.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/2027-tcs-london-marathon-double-faqs",
+          "kind": "official",
+          "title": "2027 Double TCS London Marathon FAQs",
+          "evidence": [
+            "Can I take part on both days in 2027? No, you can only take part on one day.",
+            "Your allocated event day is fixed and cannot be changed.",
+            "No, this is against our General Conditions of Entry"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "Runners are in the race on one day and cannot take part on both",
+          "changing your allocated day, is not allowed"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.route",
+      "topic": "place",
+      "claim": "Both days use the same route from Greenwich to Westminster, with three start lines meeting before Mile 3 in Woolwich and the finish on The Mall.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/2027-tcs-london-marathon-double-faqs",
+          "kind": "official",
+          "title": "2027 Double TCS London Marathon FAQs",
+          "evidence": [
+            "all taking on the same iconic route, from Greenwich to Westminster",
+            "Will the route be the same on both days in 2027? Yes, the route will be the same on both days."
+          ]
+        },
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/course",
+          "kind": "official",
+          "title": "The course (organiser)",
+          "evidence": [
+            "meet for the first time just before Mile Three, in Woolwich",
+            "that world-famous Finish Line on The Mall"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "from Greenwich to Westminster",
+          "There are three start lines",
+          "runners from them meet just before Mile 3, in Woolwich"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.2027-start-times",
+      "topic": "history",
+      "claim": "2027 start times are likely 09:00 Saturday (finish line closing 17:30, 7 h 45 min maximum) and 09:30 Sunday; not final.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/2027-tcs-london-marathon-double-faqs",
+          "kind": "official",
+          "title": "2027 Double TCS London Marathon FAQs",
+          "evidence": [
+            "the Saturday event is likely to start at 09:00 and the Finish Line will close at 17:30",
+            "The Sunday event is likely to start at 09:30.",
+            "the most time you will have to complete your marathon is 7 hours 45 minutes"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "the Saturday event is likely to start at 09:00",
+          "the Sunday event is likely to start at 09:30",
+          "Saturday runners have at most 7 hours 45 minutes"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.2027-road-closures",
+      "topic": "transport",
+      "claim": "2027 road closures cover parts of six boroughs, reopen in phases on Saturday and close again on Sunday morning; full details due March 2027.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/road-closures",
+          "kind": "official",
+          "title": "Road closures (organiser)",
+          "evidence": [
+            "roads will reopen in phases on the Saturday afternoon and evening before closing again on the Sunday morning",
+            "Full road closure information, including resident and business access information, will be available in March 2027.",
+            "City of London, City of Westminster, Greenwich, Lewisham, Southwark, and Tower Hamlets"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "roads will reopen in phases on the Saturday afternoon and evening before closing again on the Sunday morning",
+          "Full closure details are due in March 2027"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.friday-events",
+      "topic": "history",
+      "claim": "A TCS London Marathon & Friday Night Lights event and the TCS Mini London Marathon are planned for Friday 23 April 2027.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/2027-tcs-london-marathon-double-faqs",
+          "kind": "official",
+          "title": "2027 Double TCS London Marathon FAQs",
+          "evidence": [
+            "this event is currently planned for Friday 23 April 2027",
+            "The 2027 TCS Mini London Marathon will take place on Friday 23 April 2027."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "TCS London Marathon & Friday Night Lights event as currently planned for that date"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.2027-running-show",
+      "topic": "place",
+      "claim": "Event packs must be collected at the Running Show at ExCeL London (or by proxy); 2027 opening times are to be confirmed and an extra day is being explored.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/tcs-london-marathon-running-show",
+          "kind": "official",
+          "title": "The Running Show (organiser)",
+          "evidence": [
+            "You won't be able to take part unless you collect your Event Pack.",
+            "Opening Times: These will be confirmed for 2027 in the new year.",
+            "If you can't come, someone can pick it up for you"
+          ]
+        },
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/2027-tcs-london-marathon-double-faqs",
+          "kind": "official",
+          "title": "2027 Double TCS London Marathon FAQs",
+          "evidence": [
+            "so it would take place from Tuesday 20 April to Saturday 24 April in 2027",
+            "The Running Show will be open on Saturday 24 April, while day one of the Double takes place."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "you will not be able to take part unless you do",
+          "opening times will be confirmed in the new year",
+          "from Tuesday 20 to Saturday 24 April"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.2026-running-show",
+      "topic": "place",
+      "claim": "Last year (2026) the Running Show ran Wednesday 22 to Saturday 25 April, with a 17:30 Saturday registration deadline and photo ID required.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/participant-guide",
+          "kind": "official",
+          "title": "Participant guide (organiser, 2026)",
+          "evidence": [
+            "Running Show at Excel London from Wednesday 22 to Saturday 25 April"
+          ]
+        },
+        {
+          "url": "https://www.londonmarathonevents.co.uk/sites/default/files/2026-04/TCSLM-2026-Event-Guide_FINAL_v2.pdf",
+          "kind": "official",
+          "title": "2026 participant event guide (PDF)",
+          "evidence": [
+            "before the registration deadline of 17:30 on Saturday 25 April",
+            "You must bring photographic identification"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "Last year the show ran from Wednesday 22 to Saturday 25 April",
+          "collection deadline of 17:30 on the Saturday before the race"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.2026-free-travel",
+      "topic": "transport",
+      "claim": "Last year (2026) runners had free travel to the start on Southeastern, DLR, Elizabeth line, Underground, Overground and buses; free travel home until 20:00 excluded Southeastern; Westminster station was exit-only.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/sites/default/files/2026-04/TCSLM-2026-Event-Guide_FINAL_v2.pdf",
+          "kind": "official",
+          "title": "2026 participant event guide (PDF)",
+          "evidence": [
+            "have free travel on Southeastern train services from London stations to the Start",
+            "Travel is free until 20:00 on London Underground, Overground, Elizabeth Line, buses and DLR.",
+            "Southeastern trains do not offer free post-event travel.",
+            "Westminster station will be exit-only.",
+            "Spectators should not travel to the Start"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "had free travel on Southeastern train services from London stations to the start",
+          "travel was free until 20:00",
+          "Southeastern trains did not offer free post-event travel",
+          "Westminster station was exit-only",
+          "spectators should not travel to the start"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.2026-start-stations",
+      "topic": "transport",
+      "claim": "Last year (2026) the start areas were a 10-minute walk from Blackheath and Maze Hill stations and a 20-minute walk from Greenwich.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/sites/default/files/2026-04/TCSLM-2026-Event-Guide_FINAL_v2.pdf",
+          "kind": "official",
+          "title": "2026 participant event guide (PDF)",
+          "evidence": [
+            "Blackheath: 10-minute walk away",
+            "Maze Hill: 10-minute walk away",
+            "Greenwich: 20-minute walk away"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "were a 10-minute walk from their stations",
+          "was a 20-minute walk"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.2026-spectator-guide",
+      "topic": "transport",
+      "claim": "Last year's spectator guide warned of 90-minute queues at Cutty Sark DLR and advised London Bridge for Tower Bridge, the Elizabeth line or DLR for Canary Wharf and Charing Cross, Piccadilly Circus, Victoria or Waterloo for Westminster.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/london-marathon-spectator-guide",
+          "kind": "official",
+          "title": "Spectator guide (organiser, 2026)",
+          "evidence": [
+            "Cutty Sark DLR station will be extremely busy with queues up to 90 minutes at peak times.",
+            "London Bridge is a better alternative to Tower Hill or Tower Gateway.",
+            "For Canary Wharf, use the Elizabeth line or Canary Wharf DLR.",
+            "Consider using Charing Cross, Piccadilly Circus, Victoria and Waterloo."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "queues up to 90 minutes at peak times",
+          "London Bridge was a better alternative to Tower Hill or Tower Gateway",
+          "Charing Cross, Piccadilly Circus, Victoria or Waterloo"
+        ]
+      }
+    },
+    {
+      "id": "gb.london-marathon.official-hotel-provider",
+      "topic": "hotel",
+      "claim": "The organiser names Marathon Tours & Travel as its Official Participant Hotel Provider; packages need a confirmed entry and do not include entry.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/book-hotel",
+          "kind": "official",
+          "title": "Book a hotel (organiser)",
+          "evidence": [
+            "Official Participant Hotel Provider, Marathon Tours & Travel",
+            "The packages do not include entry to the TCS London Marathon."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "Official Participant Hotel Provider"
+        ]
+      }
+    },
+    {
+      "id": "gb.vat.standard-rate",
+      "topic": "tax",
+      "claim": "The UK standard rate of VAT is 20%, applying to most goods and services.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/vat-rates",
+          "kind": "official",
+          "title": "GOV.UK: VAT rates",
+          "evidence": [
+            "Standard rate 20% Most goods and services"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "VAT at the UK's standard 20% rate",
+          "The standard rate of VAT is 20%"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.overnight-visitor-levy",
+      "topic": "tax",
+      "claim": "On 10 September 2026 the government said mayors in England will be given the power to introduce an Overnight Visitor Levy as a percentage of accommodation cost; the Mayor of London welcomed it; none is in force for London that we found.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/government/news/local-leaders-handed-powers-to-drive-investment-in-communities",
+          "kind": "official",
+          "title": "GOV.UK: local leaders handed powers, 10 September 2026",
+          "evidence": [
+            "Mayors and local leaders will be handed the power to introduce an Overnight Visitor Levy",
+            "requiring the levy to be charged as a percentage of the cost of accommodation",
+            "I strongly welcome the Government giving London the power to introduce an Overnight Visitor Levy."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "mayors in England will be handed the power to introduce an Overnight Visitor Levy",
+          "the Mayor of London said he strongly welcomed the power for London"
+        ]
+      }
+    },
+    {
+      "id": "gb.heathrow-express.fare",
+      "topic": "fare",
+      "claim": "Heathrow Express: standard single £26, advance singles from £10, trains every 15 minutes to Paddington.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.heathrow.com/transport-and-directions/by-rail-or-train/heathrow-express",
+          "kind": "operator",
+          "title": "Heathrow: Heathrow Express",
+          "evidence": [
+            "Single £26 £32",
+            "Advance Discounted Single From £10",
+            "Trains run every 15 minutes to and from London Paddington."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "A standard single is £26, and advance singles start from £10",
+          "runs every 15 minutes to Paddington"
+        ]
+      }
+    },
+    {
+      "id": "gb.elizabeth-line.heathrow-fare",
+      "topic": "fare",
+      "claim": "Elizabeth line travel from Heathrow starts from £13.90 where the journey starts, ends or goes through Zone 1 (Heathrow page; TfL fare finder is authoritative).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.heathrow.com/transport-and-directions/by-rail-or-train/elizabeth-line",
+          "kind": "operator",
+          "title": "Heathrow: Elizabeth line",
+          "evidence": [
+            "Travel on the Elizabeth line starts from £13.90 for a journey to or from Heathrow airport"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "starts from £13.90 for a journey that starts, ends or goes through Zone 1"
+        ]
+      }
+    },
+    {
+      "id": "gb.gatwick-express.time",
+      "topic": "transport",
+      "claim": "Gatwick Express reaches London Victoria in as little as 31 minutes.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.gatwickexpress.com/",
+          "kind": "operator",
+          "title": "Gatwick Express",
+          "evidence": [
+            "get to the airport in as little as 31 minutes from London"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "reaches Victoria in as little as 31 minutes"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.novotel-greenwich",
+      "topic": "hotel",
+      "claim": "Novotel London Greenwich is open, beside Greenwich station and the DLR (100 m, one minute walk), with gym, sauna and secure parking.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/3476/index.en.shtml",
+          "kind": "official",
+          "title": "Novotel London Greenwich (Accor)",
+          "evidence": [
+            "Located beside Greenwich station and the DLR",
+            "Fully-equipped gym and sauna",
+            "On-site secure parking"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "beside Greenwich station and the DLR",
+          "a gym and sauna, on-site secure parking"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.premier-inn-greenwich",
+      "topic": "hotel",
+      "claim": "Premier Inn London Greenwich is open, minutes from the Royal Observatory, Cutty Sark and Greenwich Park; no on-site parking, shared parking £12 a night.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-greenwich.html",
+          "kind": "official",
+          "title": "Premier Inn London Greenwich",
+          "evidence": [
+            "Minutes from the Royal Observatory, Cutty Sark and the panoramic views from Greenwich Park",
+            "There is no onsite car parking at this hotel.",
+            "charged at £12 per night"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "minutes from the Royal Observatory, the Cutty Sark and the views from Greenwich Park",
+          "shared parking nearby is £12 a night and limited"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.clarendon-blackheath",
+      "topic": "hotel",
+      "claim": "The Clarendon Hotel, Blackheath is open, with over 100 rooms; its blog (13 July 2026) says it remains open another year with bookings into 2027; its marathon page refers to 2023.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.clarendonhotel.com/rooms/",
+          "kind": "official",
+          "title": "The Clarendon Hotel: rooms",
+          "evidence": [
+            "The Clarendon has over 100 hotel rooms",
+            "complimentary parking on a first come, first served basis"
+          ]
+        },
+        {
+          "url": "https://www.clarendonhotel.com/blog/the-clarendon-hotel-will-remain-open-for-another-year/",
+          "kind": "official",
+          "title": "The Clarendon: will remain open for another year",
+          "evidence": [
+            "will remain open and trading for another year, with bookings available into 2027"
+          ]
+        },
+        {
+          "url": "https://www.clarendonhotel.com/blackheath/the-london-marathon/",
+          "kind": "official",
+          "title": "The Clarendon: London Marathon accommodation",
+          "evidence": [
+            "the 2023 TCS London Marathon",
+            "for stays of two nights or more"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "with over 100 rooms",
+          "says it will stay open and trading for another year, with bookings into 2027",
+          "its marathon page still describes the 2023 race and a two-night minimum"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.premier-inn-docklands-excel",
+      "topic": "hotel",
+      "claim": "Premier Inn London Docklands (Excel) is open, aimed at ExCeL and London City Airport visitors, with free guest parking and a 24-hour restaurant The Social.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-docklands-excel.html",
+          "kind": "official",
+          "title": "Premier Inn London Docklands (Excel)",
+          "evidence": [
+            "Visiting the ExCeL Centre or jetting out or in of London City Airport? This is the perfect pitstop",
+            "Free parking is available for Premier Inn Guests.",
+            "Open 24 hours a day, The Social"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "pitches it at visitors to the ExCeL Centre and London City Airport, with free parking for guests",
+          "The Social, which is open 24 hours"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.novotel-canary-wharf",
+      "topic": "hotel",
+      "claim": "Novotel London Canary Wharf is open at 40 Marsh Wall with 313 rooms including 26 suites, gym, pool, rooftop bar.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/9057/index.en.shtml",
+          "kind": "official",
+          "title": "Novotel London Canary Wharf (Accor)",
+          "evidence": [
+            "313 contemporary guest rooms including 26 designer style Suites with panoramic London views",
+            "40 Marsh Wall, E14 9TP",
+            "gym, swimming pool"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "At 40 Marsh Wall, with 313 rooms including 26 suites with panoramic views"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.hoxton-southwark",
+      "topic": "hotel",
+      "claim": "The Hoxton, Southwark is open at 40 Blackfriars Road with 192 rooms; Southwark Tube 2 min, Blackfriars 5, Waterloo/London Bridge 10; free cancellation until 2pm the day before on direct bookings.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://thehoxton.com/london/southwark/",
+          "kind": "official",
+          "title": "The Hoxton, Southwark",
+          "evidence": [
+            "one of 192 creatively-designed hotel rooms",
+            "Waterloo/London Bridge - 10 min walk",
+            "Southwark Tube (Jubilee Line) - 2 min walk",
+            "cancel for free up until 2pm the day before arrival"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "with 192 rooms and the Seabird rooftop restaurant",
+          "free cancellation until 2pm the day before arrival"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.citizenm-bankside",
+      "topic": "hotel",
+      "claim": "citizenM London Bankside is open, booked through Marriott: check-in 2pm, check-out 11am, canteenM 24/7, no on-site parking.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/lonbs-citizenm-london-bankside/overview/",
+          "kind": "operator",
+          "title": "citizenM London Bankside (Marriott)",
+          "evidence": [
+            "canteenM is the 24/7 bar-restaurant",
+            "Check-in: 2:00 pm",
+            "No on-site parking.",
+            "Borough Market on your right, Tate Modern straight ahead"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "with check-in from 2pm and check-out at 11am",
+          "there is no on-site parking"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.premier-inn-county-hall",
+      "topic": "hotel",
+      "claim": "Premier Inn London County Hall is open inside the Grade II listed County Hall; Waterloo about eight minutes' walk; off-site parking £15 per 12 hours.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-county-hall.html",
+          "kind": "official",
+          "title": "Premier Inn London County Hall",
+          "evidence": [
+            "Grade II listed",
+            "which is only about an eight-minute walk away",
+            "£15 per 12 hours"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "about an eight-minute walk from Waterloo station",
+          "off-site parking is £15 for 12 hours"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.althoff-st-jamess",
+      "topic": "hotel",
+      "claim": "Althoff St. James's Hotel & Club is open at 7-8 Park Place, St James's; Restaurant Francatelli; page says Buckingham Palace is within minutes.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.stjameshotelandclub.com/en",
+          "kind": "official",
+          "title": "Althoff St. James's Hotel & Club",
+          "evidence": [
+            "within minutes you can reach Mayfair, Buckingham Palace",
+            "Restaurant Francatelli",
+            "Interconnecting Rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "At 7-8 Park Place, St James's",
+          "Restaurant Francatelli",
+          "Buckingham Palace is within minutes"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.savoy",
+      "topic": "hotel",
+      "claim": "The Savoy is open on private road Savoy Court, a short stroll from Trafalgar Square and Covent Garden, many rooms with Thames or skyline views.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.thesavoylondon.com/",
+          "kind": "official",
+          "title": "The Savoy",
+          "evidence": [
+            "Set on a private road, Savoy Court",
+            "many with sweeping Thames or city skyline views"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "On a private road called Savoy Court",
+          "include many with Thames or city skyline views"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.strand-palace",
+      "topic": "hotel",
+      "claim": "Strand Palace Hotel is open, on the Strand since 1909, renovated 2019, now cashless.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.strandpalacehotel.co.uk/",
+          "kind": "official",
+          "title": "Strand Palace Hotel",
+          "evidence": [
+            "Following a breath-taking contemporary renovation in 2019",
+            "We are now cashless",
+            "Room service available"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "renovated in 2019",
+          "it is cashless"
+        ]
+      }
+    },
+    {
+      "id": "gb.london.one-aldwych",
+      "topic": "hotel",
+      "claim": "One Aldwych is open in Covent Garden with Superior and Deluxe Bedrooms and twelve suites.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.onealdwych.com/",
+          "kind": "official",
+          "title": "One Aldwych",
+          "evidence": [
+            "We have twelve beautiful and spacious suites",
+            "Our Superior and Deluxe Bedrooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-london-marathon.html": [
+          "with Superior and Deluxe Bedrooms, twelve suites"
+        ]
+      }
     }
   ]
 }

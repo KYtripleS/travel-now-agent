@@ -114,6 +114,10 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-for-japanese-grand-prix": dict(area="Nagoya Station", lat=35.1709, lng=136.8815, zoom=12,
+                                                     address="Nagoya Station, Nagoya, Japan"),
+    "where-to-stay-for-london-marathon": dict(area="Greenwich", lat=51.4826, lng=-0.0077, zoom=14,
+                                                 address="Greenwich, London, United Kingdom"),
     "where-to-stay-for-tokyo-marathon": dict(area="Nishi-Shinjuku", lat=35.6896, lng=139.6917, zoom=15,
                                                 address="Tokyo Metropolitan Government Building, 2-8-1 Nishi-Shinjuku, Shinjuku City, Tokyo, Japan"),
     "where-to-stay-in-rome-easter": dict(area="Borgo and St Peter's", lat=41.9027, lng=12.4598, zoom=15,
@@ -1688,6 +1692,26 @@ HOTELS = {
     "Tokyo Bay Ariake Washington Hotel": _B + "jp/tokyo-bay-ariake-washingtonhotel.html",
     "Villa Fontaine Grand Tokyo Ariake": _B + "jp/villa-fontaine-grand-tokyo-ariake.html",
     "Far East Village Hotel Tokyo, Ariake": _B + "jp/village-hotel-ariake-tokyo.html",
+    # London, where-to-stay-for-london-marathon (Booking.com pages confirmed by hotel name and city)
+    "Novotel London Greenwich": _B + "gb/novotelondongreenwich.html",
+    "Premier Inn London Greenwich": None,
+    "The Clarendon Hotel": _B + "gb/theclarendonhotel.html",
+    "Premier Inn London Docklands (Excel)": None,
+    "Novotel London Canary Wharf": _B + "gb/novotel-london-canary-wharf.html",
+    "Althoff St. James's Hotel & Club": _B + "gb/st-james-club.html",
+    # Suzuka, where-to-stay-for-japanese-grand-prix (Booking.com pages confirmed by hotel name and city)
+    "Nagoya Marriott Associa Hotel": _B + "jp/nagoya-marriott-associa.html",
+    "Hilton Nagoya": _B + "jp/hilton-nagoya.html",
+    "Daiwa Roynet Hotel Nagoya Shinkansenguchi": _B + "jp/daiwa-roynet-nagoya-shinkansenguchi.html",
+    "Platon Hotel Yokkaichi": None,
+    "Sanco Inn Yokkaichi Ekimae": _B + "jp/san-jiao-insi-ri-shi-yi-qian.html",
+    "Yokkaichi Urban Hotel": None,
+    "Shiroko Storia Hotel": None,
+    "Comfort Hotel Suzuka": _B + "jp/comfort-suzuka.html",
+    "Suzuka Circuit Hotel": None,
+    "Suzuka Royal Hotel": _B + "jp/suzuka-royal.html",
+    "Dormy Inn Tsu": _B + "jp/dormy-inn-tsu.html",
+    "Sanco Inn Tsu Ekimae": _B + "jp/sanco-inn-tsu-ekimae.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

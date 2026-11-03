@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-for-japanese-grand-prix.html": (
+        "Where to Stay in Suzuka",
+        "Nagoya, Yokkaichi, Shiroko or Tsu for 9 to 11 April 2027: 12 hotels and what the circuit says about trains.",
+    ),
+    "articles/where-to-stay-for-london-marathon.html": (
+        "Where to Stay in London",
+        "Two race days, one route: where to stay near the Greenwich start, the ExCeL expo or the finish on The Mall.",
+    ),
     "articles/where-to-stay-for-tokyo-marathon.html": (
         "Where to Stay in Tokyo",
         "Tokyo Marathon, 7 March 2027: start, finish and Expo, 5 areas, 12 hotels and the ¥100 or ¥200 night tax.",
@@ -2289,6 +2297,19 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-for-japanese-grand-prix.html": [
+        "articles/where-to-stay-in-japan.html",
+        "articles/where-to-stay-in-osaka.html",
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-for-london-marathon.html": [
+        "articles/where-to-stay-in-london.html",
+        "articles/where-to-stay-in-london-new-years-eve.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-for-tokyo-marathon.html": [
         "articles/where-to-stay-in-tokyo.html",

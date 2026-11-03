@@ -446,6 +446,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-for-japanese-grand-prix": dict(
+        text="For a first trip, stay near Nagoya Station: the circuit sells a reserved direct bus from its Taiko-dori exit, and Kintetsu runs to Shiroko. Choose Nagoya Marriott Associa Hotel for a splurge, Daiwa Roynet for value, Sanco Inn Yokkaichi Ekimae to be closer. We found no hotel tax.",
+        link_text="Nagoya Station",
+        cta=_stay_cta("where-to-stay-for-japanese-grand-prix", "See hotels around Nagoya Station")),
+    "where-to-stay-for-london-marathon": dict(
+        text="For the start, stay in Greenwich: Novotel London Greenwich is beside the station and the DLR, and Premier Inn London Greenwich is the cheaper choice. Choose Althoff St. James's Hotel & Club to finish near Buckingham Palace. London has no city tax; VAT is 20%.",
+        link_text="Greenwich",
+        cta=_stay_cta("where-to-stay-for-london-marathon", "See hotels around Greenwich")),
     "where-to-stay-for-tokyo-marathon": dict(
         text="For the Tokyo Marathon, stay in Nishi-Shinjuku to walk to the start: Keio Plaza says it is five minutes from Shinjuku Station's West Exit. Blossom Shinjuku is the value pick, The Tokyo Station Hotel the splurge by the finish. The tax is ¥100 or ¥200 a person a night.",
         link_text="Nishi-Shinjuku",
@@ -1722,6 +1730,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-for-japanese-grand-prix": ["Nagoya Marriott Associa Hotel", "Daiwa Roynet Hotel Nagoya Shinkansenguchi", "Sanco Inn Yokkaichi Ekimae"],
+    "where-to-stay-for-london-marathon": ["Novotel London Greenwich", "Premier Inn London Greenwich", "Althoff St. James's Hotel & Club"],
     "where-to-stay-for-tokyo-marathon": ["Keio Plaza Hotel Tokyo", "JR Kyushu Hotel Blossom Shinjuku", "The Tokyo Station Hotel"],
     "where-to-stay-in-rome-easter": ["Hotel Raphaël", "Residenza Paolo VI", "Hotel Bramante"],
     "where-to-stay-in-aspen": ["The Little Nell", "Limelight Hotel Aspen", "Mountain Chalet Snowmass"],
@@ -2504,6 +2514,8 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Suzuka", "where-to-stay-for-japanese-grand-prix", None, None),
+        ("London", "where-to-stay-for-london-marathon", None, None),
         ("Tokyo", "where-to-stay-for-tokyo-marathon", None, None),
         ("Rome", "where-to-stay-in-rome-easter", None, None),
         ("Aspen", "where-to-stay-in-aspen", None, None),
@@ -2995,7 +3007,8 @@ STAY_POINTERS = {
     "where-to-stay-in-london": ("intro",
         'Here for 31 December? <a href="where-to-stay-in-london-new-years-eve.html">Where to stay in London for '
         'New Year’s Eve</a> matches hotels to the six ticketed fireworks areas, with the £55 and £40 tickets and '
-        'the bridges that close.'),
+        'the bridges that close. Running in April? <a href="where-to-stay-for-london-marathon.html">Where to stay '
+        'for the London Marathon 2027</a> covers the two race days, 24 and 25 April, from the Greenwich start to The Mall.'),
     "where-to-stay-in-zurich": ("intro",
         'Heading on to the mountains? <a href="where-to-stay-in-zermatt.html">Where to stay in Zermatt for the '
         '2026/27 ski season</a> sorts the car-free village by lift, about three and a half hours by train from '
@@ -3076,6 +3089,10 @@ STAY_POINTERS = {
          'northern lights (2026/27)</a> covers the polar night, the airport bus and the 3% visitor fee planned '
          'from 2027.'),
     ],
+    "where-to-stay-in-melbourne-grand-prix": ("intro",
+        'Following the season north? <a href="where-to-stay-for-japanese-grand-prix.html">Where to stay for the '
+        'Japanese Grand Prix 2027</a> (9 to 11 April at Suzuka) weighs Nagoya, Yokkaichi, Shiroko and Tsu by the '
+        'circuit’s own buses and stations.'),
     "where-to-stay-in-rome": ("intro",
         'Coming for Holy Week? <a href="where-to-stay-in-rome-easter.html">Where to stay in Rome for Easter 2027</a> '
         '(Easter Sunday is 28 March) matches hotels to St Peter’s, the Colosseum and the free papal tickets.'),

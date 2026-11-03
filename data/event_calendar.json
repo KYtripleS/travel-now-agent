@@ -332,6 +332,22 @@
       "name": "Tokyo Marathon",
       "place": "Tokyo, Japan",
       "when": "Sunday 7 March; Expo and bib pick-up 4 to 6 March"
+    },
+    {
+      "start": "2027-04-24",
+      "end": "2027-04-25",
+      "slug": "where-to-stay-for-london-marathon",
+      "name": "London Marathon",
+      "place": "London, UK",
+      "when": "Saturday 24 and Sunday 25 April; one race day per runner"
+    },
+    {
+      "start": "2027-04-09",
+      "end": "2027-04-11",
+      "slug": "where-to-stay-for-japanese-grand-prix",
+      "name": "Formula 1 Japanese Grand Prix",
+      "place": "Suzuka, Japan",
+      "when": "9 to 11 April; tickets on sale 15 November"
     }
   ],
   "seasons": [

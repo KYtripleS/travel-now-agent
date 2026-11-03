@@ -7168,6 +7168,594 @@
           "check-in runs from 4pm to 11pm"
         ]
       }
+    },
+    {
+      "id": "jp.suzuka.f1-2027.dates",
+      "topic": "place",
+      "claim": "The 2027 Formula 1 Japanese Grand Prix is round 4, on 9 to 11 April 2027 at Suzuka Circuit, with Sunday 11 April the race day on the circuit's page.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.formula1.com/en/racing/2027",
+          "kind": "official",
+          "title": "Formula 1: 2027 race calendar",
+          "evidence": [
+            "09 - 11 Apr"
+          ]
+        },
+        {
+          "url": "https://ticketing.formula1.com/japan/",
+          "kind": "official",
+          "title": "Formula 1 ticketing: Japanese Grand Prix 2027",
+          "evidence": [
+            "the race weekend will take place on 09 – 11 Apr."
+          ]
+        },
+        {
+          "url": "https://www.suzukacircuit.jp/eng/f1/",
+          "kind": "official",
+          "title": "Suzuka Circuit: 2027 Formula 1 Japanese Grand Prix",
+          "evidence": [
+            "2027 FORMULA 1 JAPANESE GRAND PRIX"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "from Friday 9 to Sunday 11 April 2027",
+          "as round 4, on 9 to 11 April"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.f1-2027.tickets",
+      "topic": "place",
+      "claim": "Per the circuit, 2027 tickets go on sale on Sunday 15 November 2026 at 11:00 and reserved direct-bus applications open on Monday 16 November 2026 at 10:00.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.suzukacircuit.jp/eng/f1/",
+          "kind": "official",
+          "title": "Suzuka Circuit: 2027 Formula 1 Japanese Grand Prix",
+          "evidence": [
+            "On sale November 15 (Sun) 11:00"
+          ]
+        },
+        {
+          "url": "https://www.suzukacircuit.jp/eng/f1/access/bus/nagoya.html",
+          "kind": "official",
+          "title": "Suzuka Circuit: reserved direct bus, Nagoya Station",
+          "evidence": [
+            "Reception starts from November 16 (Mon) 10:00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "tickets go on sale on Sunday 15 November 2026 at 11:00",
+          "From Monday 16 November 2026, 10:00"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.f1-2026.dates",
+      "topic": "place",
+      "claim": "The circuit's 2026 busy-dates list begins with the race weekend of 27 to 29 March 2026.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.suzukacircuit.jp/access_s/",
+          "kind": "official",
+          "title": "鈴鹿サーキット: アクセス",
+          "evidence": [
+            "3月27日（金）～29日（日）"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "27 to 29 March"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.f1-2027.ino-warning",
+      "topic": "transport",
+      "claim": "The circuit's F1 access pages advise against Ise Railway's Suzuka Circuit Ino Station, with a wait of more than three hours possible, and name Kintetsu Shiroko (about 80-minute walk from the Turn 1 Gate) and Kintetsu Hiratacho (about 60-minute walk from the Main Gate).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.suzukacircuit.jp/eng/f1/access/not-recommended.html",
+          "kind": "official",
+          "title": "Suzuka Circuit: not recommended access routes",
+          "evidence": [
+            "You may have to wait more than three hours to board",
+            "using Kintetsu Shiroko Station (about an 80-minute walk from the Turn 1 Gate)"
+          ]
+        },
+        {
+          "url": "https://www.suzukacircuit.jp/eng/f1/access/walking-route.html",
+          "kind": "official",
+          "title": "Suzuka Circuit: walking routes",
+          "evidence": [
+            "Approximately 60 minutes on foot from Hiratacho Station to SUZUKA CIRCUIT"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "you may have to wait more than three hours to board",
+          "about 80 minutes to the Turn 1 Gate",
+          "about 60 minutes from Kintetsu Hiratacho Station to the Main Gate"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.access.ordinary-times",
+      "topic": "transport",
+      "claim": "On ordinary days the circuit gives Kintetsu Nagoya to Shiroko as about 50 minutes, Shiroko to the circuit by bus or taxi about 20 minutes, JR Nagoya to Yokkaichi about 30 minutes then Ise Railway about 20 minutes and a walk of about 20 minutes to the circuit from Ino; Ino takes no transport IC cards.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.suzukacircuit.jp/access_s/train_bus/",
+          "kind": "official",
+          "title": "鈴鹿サーキット: 電車+バス・タクシーでのご来場",
+          "evidence": [
+            "近鉄名古屋線 約50分",
+            "鈴鹿サーキット稲生駅では交通系ICカードが使用できません",
+            "伊勢鉄道鈴鹿サーキット稲生駅より徒歩約20分"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "About 50 minutes on the Kintetsu Nagoya Line",
+          "About 20 minutes by Mie Kotsu bus or taxi on ordinary days",
+          "does not take transport IC cards"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.f1-2027.nagoya-bus",
+      "topic": "fare",
+      "claim": "The circuit's reserved direct bus from Nagoya Station runs 9 to 11 April 2027 at 10,000 yen return or 7,000 yen one way from the circuit, one way about 2 hours 30 minutes to 3 hours 30 minutes, application deadline 29 March.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.suzukacircuit.jp/eng/f1/access/bus/nagoya.html",
+          "kind": "official",
+          "title": "Suzuka Circuit: reserved direct bus, Nagoya Station",
+          "evidence": [
+            "Round-trip service from JR Nagoya Station 10,000yen / One-way service from Suzuka Circuit 7,000yen",
+            "One-way approx. 2 hours 30 minutes to 3 hours 30 minutes",
+            "March 29 (Mon) 23:59"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "¥10,000 return, ¥7,000 one way from the circuit",
+          "about 2 hours 30 minutes to 3 hours 30 minutes",
+          "apply by 29 March"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.f1-2027.shiroko-bus",
+      "topic": "fare",
+      "claim": "The circuit's reserved direct bus from Kintetsu Shiroko Station runs on Friday 9 April 2027 only at 2,500 yen return, returns at 17:30 and 19:30, application deadline 24 March.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.suzukacircuit.jp/eng/f1/access/bus/shiroko.html",
+          "kind": "official",
+          "title": "Suzuka Circuit: reserved direct bus, Kintetsu Shiroko Station",
+          "evidence": [
+            "Round Trip 2,500 yen",
+            "April 9 (Fri) Only",
+            "Return 17:30, 19:30 from Suzuka Circuit",
+            "March 24 (Wed) 23:59"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "¥2,500 return",
+          "returns at 17:30 and 19:30",
+          "apply by 24 March"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.f1-2027.direct-bus-origins",
+      "topic": "transport",
+      "claim": "The circuit's reserved direct buses include Tsu Station on 10 and 11 April 2027, and the list of origins also names Kameyama Test Course as park-and-ride.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.suzukacircuit.jp/eng/f1/access/bus/index.html",
+          "kind": "official",
+          "title": "Suzuka Circuit: reserved direct shuttle bus",
+          "evidence": [
+            "■April 10 (Sat) & 11 (Sun)",
+            "Tsu Station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "direct bus from Tsu Station runs on Saturday and Sunday",
+          "Kameyama Test Course as a park-and-ride"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.f1-2027.parking",
+      "topic": "price",
+      "claim": "The circuit's advance parking main lots are three-day passes for 9 to 11 April 2027: P6 (EV only) 26,000 yen, P7 18,000 yen with no exit from 15:00 to 19:00.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.suzukacircuit.jp/eng/f1/ticket/reserve_parking.html",
+          "kind": "official",
+          "title": "Suzuka Circuit: advance parking ticket",
+          "evidence": [
+            "From April 9 (Fri) to 11 (Sun), vehicle exit from P7 is not allowed between 15:00 and 19:00 each day",
+            "26,000yen",
+            "18,000yen"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "lot P6, which is for electric vehicles, at ¥26,000 and lot P7 at ¥18,000",
+          "no car may leave between 15:00 and 19:00 each day"
+        ]
+      }
+    },
+    {
+      "id": "jp.mie.accommodation-tax-status",
+      "topic": "tax",
+      "claim": "No Mie Prefecture or Nagoya, Yokkaichi, Suzuka or Tsu accommodation tax was found in force; Mie Prefecture has run information seminars on accommodation taxes (absence of evidence, not a legal statement).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.pref.mie.lg.jp/TOPICS/m0361200026.htm",
+          "kind": "official",
+          "title": "Mie Prefecture: accommodation tax information seminar",
+          "evidence": [
+            "観光産業の持続的な発展に向けた新たな地方自治体の財源として、全国的にも様々な地域で宿泊税検討の動きが始まっています。"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "We found no accommodation tax in force in Nagoya, Yokkaichi, Suzuka or Tsu",
+          "Mie Prefecture has been running information seminars on accommodation taxes"
+        ]
+      }
+    },
+    {
+      "id": "jp.nagoya.accommodation-tax-committee",
+      "topic": "tax",
+      "claim": "Nagoya City planned to set up a committee in fiscal 2026 to consider an accommodation tax; lodging operators had not agreed (news report).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://biz.chunichi.co.jp/news/article/10/121878/",
+          "kind": "news",
+          "title": "Chunichi BIZ Navi: Nagoya accommodation tax committee",
+          "evidence": [
+            "名古屋市は2026年度に宿泊事業者や学識経験者らによる検討委員会を設ける。"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "Reports in 2026 say Nagoya City is setting up a committee to consider one"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.bathing-tax",
+      "topic": "tax",
+      "claim": "Suzuka City's bathing tax is 150 yen per person per night for staying guests at mineral-spring baths.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.city.suzuka.lg.jp/kurashi/zei/1002092/1002094.html",
+          "kind": "official",
+          "title": "Suzuka City: bathing tax",
+          "evidence": [
+            "宿泊する入湯客 1人1泊につき150円"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "Suzuka City levies a bathing tax of ¥150 per person per night on staying guests of hot-spring baths"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.hotel.circuit-hotel",
+      "topic": "hotel",
+      "claim": "Suzuka Circuit Hotel's booking page lists stays from 1 November 2026 to 28 February 2027 and says later dates will be announced.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.suzukacircuit.jp/hotel/stay_info/yoyaku.html",
+          "kind": "official",
+          "title": "鈴鹿サーキットホテル: ご宿泊予約について",
+          "evidence": [
+            "2026年11月1日（日）～2027年2月28日（日）のご予約",
+            "2027年3月1日（月）以降のご予約は",
+            "全8タイプのお部屋"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "lists stays up to 28 February 2027 only and says later dates will be announced",
+          "eight room types listed on its booking page"
+        ]
+      }
+    },
+    {
+      "id": "jp.nagoya.hotel.marriott-associa",
+      "topic": "hotel",
+      "claim": "Nagoya Marriott Associa Hotel is above Nagoya Station in the JR Central Towers and its news page carries a notice about a closure for a statutory inspection.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.associa.com/nma/",
+          "kind": "official",
+          "title": "Nagoya Marriott Associa Hotel",
+          "evidence": [
+            "名古屋駅真上、JRセントラルタワーズ内",
+            "法定点検に伴う休館のお知らせ"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "Above Nagoya Station in the JR Central Towers",
+          "a notice about a closure for a statutory inspection"
+        ]
+      }
+    },
+    {
+      "id": "jp.nagoya.hotel.hilton-nagoya",
+      "topic": "hotel",
+      "claim": "Hilton Nagoya is at 1-3-3 Sakae, about 15 minutes' walk or about 5 minutes by taxi from Nagoya Station and Meitetsu Nagoya Station, and runs no free shuttle bus to Nagoya Station.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://nagoya.hiltonjapan.co.jp/access/",
+          "kind": "official",
+          "title": "Hilton Nagoya: access",
+          "evidence": [
+            "「名古屋駅」・「名鉄名古屋駅」より、ホテルまで徒歩約15分、タクシーで約5分。",
+            "※ホテルから名古屋駅発着の無料シャトルバスサービスの運行はしておりません。"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "about 15 minutes' walk or about five minutes by taxi from Nagoya Station",
+          "it runs no free shuttle bus to Nagoya Station"
+        ]
+      }
+    },
+    {
+      "id": "jp.nagoya.hotel.daiwa-roynet-shinkansenguchi",
+      "topic": "hotel",
+      "claim": "Daiwa Roynet Hotel Nagoya Shinkansenguchi has 165 rooms about 3 minutes' walk from the Taiko-dori (Shinkansen) exit of JR Nagoya Station.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.daiwaroynet.jp/nagoya-shinkansenguchi/",
+          "kind": "official",
+          "title": "Daiwa Roynet Hotel Nagoya Shinkansenguchi",
+          "evidence": [
+            "全165室の客室を有し",
+            "JR名古屋駅太閤通口（新幹線口）より徒歩約3分"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "165 rooms about three minutes' walk from the Taiko-dori (Shinkansen) exit"
+        ]
+      }
+    },
+    {
+      "id": "jp.yokkaichi.hotel.platon",
+      "topic": "hotel",
+      "claim": "Platon Hotel Yokkaichi is 3 minutes' walk from Kintetsu Yokkaichi Station, has 10 room types and a single room of 13.6 m2 with a 115 cm bed.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.platon-hotel.co.jp/",
+          "kind": "official",
+          "title": "Platon Hotel Yokkaichi",
+          "evidence": [
+            "近鉄四日市駅から徒歩3分",
+            "10タイプの客室",
+            "13.6㎡／ベッド幅115cm"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "Three minutes' walk from Kintetsu Yokkaichi Station",
+          "10 room types and a single room of 13.6 m²"
+        ]
+      }
+    },
+    {
+      "id": "jp.yokkaichi.hotel.sanco-inn",
+      "topic": "hotel",
+      "claim": "Sanco Inn Yokkaichi Ekimae is a business hotel 1 minute from the north exit of Kintetsu Yokkaichi Station with a free Japanese and Western buffet breakfast.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.sanco-inn.co.jp/yokkaichi/",
+          "kind": "official",
+          "title": "Sanco Inn Yokkaichi Ekimae",
+          "evidence": [
+            "近鉄「四日市駅」北口から徒歩1分のビジネスホテルです",
+            "和洋ビュッフェスタイルの朝食（無料）"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "A business hotel one minute from the north exit of Kintetsu Yokkaichi Station",
+          "free Japanese and Western buffet breakfast"
+        ]
+      }
+    },
+    {
+      "id": "jp.yokkaichi.hotel.urban",
+      "topic": "hotel",
+      "claim": "Yokkaichi Urban Hotel is 1 minute from the north exit of Kintetsu Yokkaichi Station with free breakfast and a free-entry ticket to the group's Manden no Yu bath, and a notice lists excluded days for the ticket.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.urban-h.co.jp/",
+          "kind": "official",
+          "title": "Yokkaichi Urban Hotel",
+          "evidence": [
+            "近鉄四日市駅北口より徒歩1分。朝食が無料のホテル",
+            "「満殿の湯」ご利用無料チケット",
+            "2026年「満殿の湯 無料チケット」配布サービス 除外日のお知らせ"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "free breakfast and free entry to the group's Manden no Yu bath",
+          "flags days when the free bath ticket does not apply"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.hotel.storia-shiroko",
+      "topic": "hotel",
+      "claim": "Shiroko Storia Hotel is 1 minute from Kintetsu Shiroko Station, says the circuit is 10 minutes by car, and fits double beds of 140 cm in all single rooms.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://storia.co.jp/sh_shiroko/",
+          "kind": "official",
+          "title": "Shiroko Storia Hotel",
+          "evidence": [
+            "近鉄白子駅から徒歩1分。",
+            "鈴鹿サーキットまで車で10分！",
+            "シングルルーム全室でベッド幅140㎝のダブルベッドを採用しており"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "One minute from Kintetsu Shiroko Station",
+          "single rooms that all have 140 cm double beds",
+          "about ten minutes by car"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.hotel.comfort-suzuka",
+      "topic": "hotel",
+      "claim": "Comfort Hotel Suzuka is about 3 minutes' walk from Kintetsu Shiroko Station.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.choice-hotels.jp/hotel/suzuka/",
+          "kind": "official",
+          "title": "Comfort Hotel Suzuka",
+          "evidence": [
+            "近鉄「白子」駅より徒歩約3分。",
+            "無料朝食"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "About three minutes from Kintetsu Shiroko Station",
+          "with a free breakfast"
+        ]
+      }
+    },
+    {
+      "id": "jp.suzuka.hotel.royal",
+      "topic": "hotel",
+      "claim": "Suzuka Royal Hotel, at 3-2-21 Sumiyoshi, is 5 minutes by car from the circuit and 700 m from the Honda Suzuka plant, with Japanese-style rooms of 14 mats for 3 to 6 guests.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.suzukaroyal.co.jp/",
+          "kind": "official",
+          "title": "Suzuka Royal Hotel",
+          "evidence": [
+            "鈴鹿サーキットより車で5分。HONDA鈴鹿製作所より700m。",
+            "和室 14畳",
+            "3名様～6名様までご利用可能な広めの和室です。"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "five minutes by car from the circuit and 700 metres from the Honda Suzuka plant",
+          "Japanese-style rooms of 14 mats that sleep three to six"
+        ]
+      }
+    },
+    {
+      "id": "jp.tsu.hotel.dormy-inn",
+      "topic": "hotel",
+      "claim": "Dormy Inn Tsu is 1 minute on foot from Tsu Station, with a natural hot-spring bath on the second floor and Simmons beds in all rooms.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://dormy-hotels.com/dormyinn/hotels/tsu/",
+          "kind": "official",
+          "title": "Dormy Inn Tsu",
+          "evidence": [
+            "「津駅」から徒歩1分。",
+            "2Fに、男女別天然温泉大浴場「けやきの湯」。",
+            "オリジナル枕とシモンズ社製ベッドを全室に。"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "One minute from the east exit of Tsu Station, with a natural hot-spring bath on the second floor and a Simmons bed in every room"
+        ]
+      }
+    },
+    {
+      "id": "jp.tsu.hotel.sanco-inn",
+      "topic": "hotel",
+      "claim": "Sanco Inn Tsu Ekimae is a business hotel 1 minute on foot from the east exit of the Kintetsu and JR Tsu Station, with a communal bath.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.sanco-inn.co.jp/tsu/",
+          "kind": "official",
+          "title": "Sanco Inn Tsu Ekimae",
+          "evidence": [
+            "近鉄・JR「津駅」東口から徒歩1分のビジネスホテルです",
+            "大浴場「四季乃湯」でゆったりおくつろぎください"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-japanese-grand-prix.html": [
+          "One minute from the east exit of the Kintetsu and JR Tsu Station, with a communal bath"
+        ]
+      }
     }
   ]
 }
