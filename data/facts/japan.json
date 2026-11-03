@@ -6458,6 +6458,716 @@
           "20 minutes by car from Toyama Airport"
         ]
       }
+    },
+    {
+      "id": "jp.tokyo.marathon.date-course",
+      "topic": "place",
+      "claim": "Tokyo Marathon 2027 is on Sunday 7 March 2027, starting at the Tokyo Metropolitan Government Building and finishing at Tokyo Station/Gyoko-dori Avenue via Suidobashi, Ueno-hirokoji, Kanda, Nihombashi, Asakusa Kaminarimon Gate, Ryogoku, Monzen-nakacho, Ginza, Tamachi and Hibiya.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marathon.tokyo/en/about/outline/",
+          "kind": "official",
+          "title": "Tokyo Marathon 2027: race information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "The Tokyo Marathon runs on Sunday 7 March 2027",
+          "Start at the Tokyo Metropolitan Government Building; finish at Tokyo Station, Gyoko-dori Avenue",
+          "The course runs via Suidobashi, Ueno-hirokoji, Kanda, Nihombashi, Asakusa Kaminarimon Gate, Ryogoku, Monzen-nakacho, Ginza, Tamachi and Hibiya"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.start-times",
+      "topic": "place",
+      "claim": "Race information for 2027: marathon start 9:10am and wheelchair marathon 9:05am (JST); marathon cut-off 7 hours with finish at 4:10pm; field size 40,000.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marathon.tokyo/en/about/outline/",
+          "kind": "official",
+          "title": "Tokyo Marathon 2027: race information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "Marathon 9:10am; wheelchair marathon 9:05am",
+          "The cut-off is seven hours, with the finish closing at 4:10pm",
+          "The field is 40,000"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.expo",
+      "topic": "place",
+      "claim": "Tokyo Marathon EXPO 2027: Thu 4 and Fri 5 March 2027 10:00-21:00 (enter before 20:30), Sat 6 March 10:00-18:00 (enter before 17:30), free admission, at Tokyo Big Sight South Halls, 3-11-1 Ariake, Koto-ku.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marathon.tokyo/en/expo/",
+          "kind": "official",
+          "title": "Tokyo Marathon EXPO 2027"
+        },
+        {
+          "url": "https://www.marathon.tokyo/en/about/outline/",
+          "kind": "official",
+          "title": "Tokyo Marathon 2027: race information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "Thursday 4 and Friday 5 March, 10am to 9pm (enter before 8:30pm)",
+          "Saturday 6 March, 10am to 6pm (enter before 5:30pm)",
+          "Tokyo Big Sight South Halls, 3-11-1 Ariake, Koto"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.bib-pickup",
+      "topic": "place",
+      "claim": "Packet (bib) pick-up is at Tokyo Big Sight South Halls Thu 4 and Fri 5 March 10:00-20:30 and Sat 6 March 10:00-17:30; runners must collect in person (no proxy) with a photo-ID check (the FAQ names a passport as valid ID); no registration or pick-up on race day.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marathon.tokyo/en/expo/",
+          "kind": "official",
+          "title": "Tokyo Marathon EXPO 2027"
+        },
+        {
+          "url": "https://www.marathon.tokyo/en/faq/",
+          "kind": "official",
+          "title": "Tokyo Marathon: FAQ"
+        },
+        {
+          "url": "https://www.marathon.tokyo/en/about/outline/",
+          "kind": "official",
+          "title": "Tokyo Marathon 2027: race information"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "runners must collect their bib in person at Tokyo Big Sight in Ariake on 4, 5 or 6 March",
+          "Same venue, in person only, with a photo-ID check",
+          "There is no registration or pick-up on race day"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.guidebook-stations",
+      "topic": "place",
+      "claim": "The FAQ names Shinjuku Station and Nishi-Shinjuku Station as the closest stations to the starting area and says the Runner Guidebook (start, corral and finish details) is scheduled for mid-February 2027; no corral entry close times are published yet.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marathon.tokyo/en/faq/",
+          "kind": "official",
+          "title": "Tokyo Marathon: FAQ"
+        },
+        {
+          "url": "https://www.marathon.tokyo/en/expo/",
+          "kind": "official",
+          "title": "Tokyo Marathon EXPO 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "Shinjuku and Nishi-Shinjuku, by the FAQ",
+          "Not published. The organiser says the Runner Guidebook is due in mid-February 2027, provisionally"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.no-10k",
+      "topic": "place",
+      "claim": "The 2027 race information lists marathon and wheelchair marathon only, and the FAQ says the 10.7km race is not available to general participants; last year's Tokyo Metropolitan Government notice listed a 10.7km race with the marathon.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marathon.tokyo/en/about/outline/",
+          "kind": "official",
+          "title": "Tokyo Marathon 2027: race information"
+        },
+        {
+          "url": "https://www.marathon.tokyo/en/faq/",
+          "kind": "official",
+          "title": "Tokyo Marathon: FAQ"
+        },
+        {
+          "url": "https://www.koho.metro.tokyo.lg.jp/2026/02/07.html",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government: Tokyo Marathon traffic restrictions, February 2026 (Japanese)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "None for 2027: the race information lists marathon categories only",
+          "Last year's Government notice listed a 10.7 km race alongside the marathon"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.course-checkpoints",
+      "topic": "place",
+      "claim": "The 2027 course page lists checkpoints including Kuramae 1-chome Intersection at 17 km, Kuramae Bridge at 20 km, a Ginza building at 33 km and Hibiya Marine Bldg. at 34 km.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marathon.tokyo/en/about/course/",
+          "kind": "official",
+          "title": "Tokyo Marathon 2027: course map"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "its checkpoints include Kuramae 1-chome at 17 km and Kuramae Bridge at 20 km",
+          "The 2027 course map lists a checkpoint at 33 km in Ginza and one at 34 km in Hibiya"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.roads-2026",
+      "topic": "transport",
+      "claim": "Tokyo Metropolitan Government's February 2026 notice for the 1 March 2026 race (last year's, estimates that may change): Tocho-dori by the Government Building 6:00-10:15; Chuo-dori Nihonbashi 3-chome to Ginza 4-chome 9:35-15:00; Harumi-dori Sukiyabashi to Nishi-Shimbashi 9:40-16:20; Edo-dori at Kuramae 9:00-14:15; Gyoko-dori to the finish 7:00-21:00; Hibiya-dori Hibiya to Otemachi 7:00-18:00. The organiser's 2027 Road Closures page had no 2027 content on 3 Nov 2026.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.koho.metro.tokyo.lg.jp/2026/02/07.html",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government: Tokyo Marathon traffic restrictions, February 2026 (Japanese)"
+        },
+        {
+          "url": "https://www.marathon.tokyo/en/about/traffic/",
+          "kind": "official",
+          "title": "Tokyo Marathon: Road Closures (redirects to the home page, no 2027 content)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "Tocho-dori around the Government Building, 6am to 10:15am",
+          "Chuo-dori from Nihonbashi 3-chome to Ginza 4-chome, 9:35am to 3pm",
+          "Harumi-dori from Sukiyabashi to Nishi-Shimbashi, 9:40am to 4:20pm",
+          "Edo-dori, 9am to 2:15pm",
+          "Gyoko-dori to the finish, 7am to 9pm"
+        ]
+      },
+      "note": "Last year's times; labelled as such in the article. Re-check once the 2027 notice is out."
+    },
+    {
+      "id": "jp.tokyo.marathon.knt-packages",
+      "topic": "place",
+      "claim": "Kintetsu International (KNT), official partner of the Tokyo Marathon 2027, has accommodation packages listed on the organiser's news page of 18 September 2026 (they do not include race entry); the FAQ says its Hotel Reservation Desk is scheduled to open in November 2026.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marathon.tokyo/en/news/detail/news_20260918105131.html",
+          "kind": "official",
+          "title": "Tokyo Marathon: KNT accommodation packages, 18 Sept 2026"
+        },
+        {
+          "url": "https://www.marathon.tokyo/en/faq/",
+          "kind": "official",
+          "title": "Tokyo Marathon: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "Kintetsu International (KNT), the official partner, has listed accommodation packages since 18 September 2026; they do not include race entry",
+          "The FAQ says its hotel reservation desk is scheduled to open in November 2026"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.accommodation-tax",
+      "topic": "tax",
+      "claim": "Until 31 March 2027 Tokyo's accommodation tax is ¥100 per person per night on rooms of ¥10,000 to ¥14,999 per person and ¥200 from ¥15,000; rooms under ¥10,000 are exempt; the rate excludes meals and may be collected at the hotel front desk apart from the room charge.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/2",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government Bureau of Taxation: accommodation tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "Until 31 March 2027 the bands are",
+          "Race weekend falls under the current bands",
+          "Tokyo says the tax may be collected at the front desk, apart from the room rate"
+        ]
+      },
+      "value": {
+        "bands": [
+          [
+            10000,
+            14999,
+            100
+          ],
+          [
+            15000,
+            null,
+            200
+          ]
+        ],
+        "exempt_below": 10000,
+        "until": "2027-03-31"
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.accommodation-tax-2027",
+      "topic": "tax",
+      "claim": "From 1 April 2027 Tokyo's accommodation tax becomes 3% of the room charge on stays of ¥13,000 or more per person per night, with cheaper stays exempt and licensed private lodging (minpaku) included.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/shuk_minaoshi",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government Bureau of Taxation: the accommodation tax from 1 April 2027"
+        },
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/2",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government Bureau of Taxation: accommodation tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "From 1 April 2027 it becomes 3% of the rate on stays of ¥13,000 or more per person per night, with cheaper stays exempt and licensed private lodging (minpaku) included"
+        ]
+      },
+      "value": {
+        "from": "2027-04-01",
+        "rate_pct": 3,
+        "exempt_below": 13000
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic, not an official figure: a ¥30,000 room shared by two (¥15,000 each) owes ¥200 each, ¥400 a night, ¥1,600 over four nights (4-8 March 2027); a ¥24,000 room for two (¥12,000 each) owes ¥100 each, ¥800 over four nights; the same ¥30,000 room from 1 April 2027 would owe 3% of ¥15,000 = ¥450 each.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/2",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government Bureau of Taxation: accommodation tax"
+        },
+        {
+          "url": "https://www.tax.metro.tokyo.lg.jp/kazei/leisure/shuk/shuk_minaoshi",
+          "kind": "official",
+          "title": "Tokyo Metropolitan Government Bureau of Taxation: the accommodation tax from 1 April 2027"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "The tax is ¥200 each, ¥400 a night, and ¥1,600 over four nights",
+          "so ¥100 each and ¥800 over the same four nights",
+          "which is ¥450 each"
+        ]
+      },
+      "note": "Assumes the room rate is divided equally between the guests."
+    },
+    {
+      "id": "jp.tokyo.marathon.nex",
+      "topic": "fare",
+      "claim": "Narita Express fare from Narita Airport Terminal 1 or Terminals 2-3 to Tokyo is ¥3,140 in an ordinary car (¥3,910 Green Car) and ¥3,330 to Shinagawa, Shibuya or Shinjuku (¥4,100 Green Car); the fastest train takes 53 minutes to Tokyo Station; the N'EX TOKYO Round Trip Ticket is ¥5,200, valid 14 days.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.jreast.co.jp/en/multi/nex/tickets/",
+          "kind": "operator",
+          "title": "JR East: N'EX tickets"
+        },
+        {
+          "url": "https://www.jreast.co.jp/en/multi/nex/",
+          "kind": "operator",
+          "title": "JR East: N'EX (Narita Express)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "¥3,140 in an ordinary car from Narita Airport Terminal 1 or Terminals 2 and 3 to Tokyo, ¥3,330 to Shinjuku, Shibuya or Shinagawa",
+          "the fastest train takes 53 minutes to Tokyo Station",
+          "N'EX TOKYO Round Trip Ticket for ¥5,200, valid 14 days"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.skyliner",
+      "topic": "fare",
+      "claim": "Keisei Skyliner from Narita Airport to Keisei-Ueno: base fare ¥1,280 (¥1,267 by IC card) plus ¥1,300 Skyliner fee, about 40 minutes (41 minutes Ueno to Terminal 2-3); Access Express to Ueno ¥1,240 (¥1,235 IC).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/skyliner/purchase.php",
+          "kind": "operator",
+          "title": "Keisei: Skyliner tickets"
+        },
+        {
+          "url": "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/skyliner/index.php",
+          "kind": "operator",
+          "title": "Keisei: Skyliner overview"
+        },
+        {
+          "url": "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/traffic/express_fares.php",
+          "kind": "operator",
+          "title": "Keisei: Access Express fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "a ¥1,280 base fare (¥1,267 with an IC card) plus a ¥1,300 Skyliner fee, ¥2,580 in all",
+          "about 40 minutes",
+          "The cheaper Access Express to Ueno is ¥1,240"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.monorail",
+      "topic": "fare",
+      "claim": "Tokyo Monorail Haneda Airport Terminal 3 to Hamamatsucho is ¥520 on a printed ticket and ¥519 by IC card; the monorail's site says trains average five minutes apart.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.tokyo-monorail.co.jp/english/guidance/train_info.html",
+          "kind": "operator",
+          "title": "Tokyo Monorail: fare table"
+        },
+        {
+          "url": "https://www.tokyo-monorail.co.jp/english/haneda-tokyo-access/index.html",
+          "kind": "operator",
+          "title": "Tokyo Monorail: access from Haneda"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "From Haneda Airport to Hamamatsucho is ¥520 on a paper ticket and ¥519 with an IC card",
+          "trains run about every five minutes"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.limousine-bus",
+      "topic": "fare",
+      "claim": "Airport Limousine Bus adult one-way fares: Narita to Tokyo Station ¥3,100 (stop Yaesu North Exit, Tekko Building); Narita to Shinjuku area ¥3,600; Haneda to Tokyo Station ¥1,200; Haneda to Shinjuku/Nakano area ¥1,400.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.limousinebus.co.jp/en/line/detail/Narita-Tokyo/",
+          "kind": "operator",
+          "title": "Airport Limousine Bus: Narita and Tokyo Station"
+        },
+        {
+          "url": "https://www.limousinebus.co.jp/en/line/detail/Narita-Shinjuku/",
+          "kind": "operator",
+          "title": "Airport Limousine Bus: Narita and Shinjuku"
+        },
+        {
+          "url": "https://www.limousinebus.co.jp/en/line/detail/Haneda-Tokyo/",
+          "kind": "operator",
+          "title": "Airport Limousine Bus: Haneda and Tokyo Station"
+        },
+        {
+          "url": "https://www.limousinebus.co.jp/en/line/detail/Haneda-Shinjuku/",
+          "kind": "operator",
+          "title": "Airport Limousine Bus: Haneda and Shinjuku"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "an adult fare is ¥3,100 to Tokyo Station (Yaesu North Exit, Tekko Building) and ¥3,600 to the Shinjuku area",
+          "From Haneda it is ¥1,200 to Tokyo Station and ¥1,400 to Shinjuku and Nakano"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.bigsight-access",
+      "topic": "transport",
+      "claim": "Tokyo Big Sight says it is about 60 minutes from Narita and about 25 from Haneda by airport bus, about 3 minutes' walk from Yurikamome Tokyo Big Sight Station and about 7 minutes from Rinkai Line Kokusai-Tenjijo Station; its hotel list names Washington, Villa Fontaine Grand Tokyo Ariake and Far East Village Hotel Ariake.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.bigsight.jp/english/visitor/access/",
+          "kind": "official",
+          "title": "Tokyo Big Sight: access"
+        },
+        {
+          "url": "https://www.bigsight.jp/english/visitor/hotel/",
+          "kind": "official",
+          "title": "Tokyo Big Sight: hotels"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "airport buses take about 60 minutes from Narita and about 25 from Haneda",
+          "Its Yurikamome station is about three minutes' walk and the Rinkai Line's Kokusai-Tenjijo about seven",
+          "Tokyo Big Sight's own hotel list names these three among its listed hotels"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.keio-plaza",
+      "topic": "hotel",
+      "claim": "Keio Plaza Hotel Tokyo, 2-2-1 Nishi-Shinjuku, says it is a 5-minute walk from Shinjuku Station's West Exit via the underground passage towards the Metropolitan Government Building and 1 minute from Tocho-mae Station; Standard rooms are 23.5 sq m and Superior 33.7 sq m; it operates limousine buses to Narita and Haneda; it is closed entirely 16 Feb 2027 2pm to 17 Feb noon for an electrical inspection.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.keioplaza.co.jp/en/access/",
+          "kind": "official",
+          "title": "Keio Plaza: access"
+        },
+        {
+          "url": "https://www.keioplaza.co.jp/en/stay/?id=rooms",
+          "kind": "official",
+          "title": "Keio Plaza: guest rooms"
+        },
+        {
+          "url": "https://www.keioplaza.co.jp/en/news/44954/",
+          "kind": "official",
+          "title": "Keio Plaza: full-hotel closure notice"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "a five-minute walk from Shinjuku Station's West Exit by the underground passage towards the Government Building, and a minute from Tocho-mae Station",
+          "Its Standard rooms are 23.5 sq m and its Superior rooms 33.7",
+          "closed entirely for an electrical inspection from 2pm on 16 February to noon on 17 February 2027",
+          "Keio Plaza says it operates its own limousine buses to both airports"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.blossom-shinjuku",
+      "topic": "hotel",
+      "claim": "JR Kyushu Hotel Blossom Shinjuku, 2-6-2 Yoyogi, is 3 minutes' walk from JR Shinjuku Station South Exit and the Expressway Bus Terminal and about 2 minutes from the Toei Oedo/Shinjuku lines station; Standard Double 18 sq m (45 rooms, 140cm bed), Superior Twin 25 sq m; buffet breakfast using Kyushu ingredients.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.jrk-hotels.co.jp/en/Shinjuku/",
+          "kind": "official",
+          "title": "JR Kyushu Hotel Blossom Shinjuku"
+        },
+        {
+          "url": "https://www.jrk-hotels.co.jp/en/Shinjuku/rooms/",
+          "kind": "official",
+          "title": "JR Kyushu Hotel Blossom Shinjuku: guest rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "At 2-6-2 Yoyogi, three minutes' walk from JR Shinjuku Station's South Exit and two from the Toei Oedo and Shinjuku lines' station",
+          "The Standard Double is 18 sq m with a 140cm bed, and the Superior Twin is 25"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.tokyo-station",
+      "topic": "hotel",
+      "claim": "The Tokyo Station Hotel has 150 guestrooms and suites, refurbished when it reopened in 2012; Classic rooms 23-47 sq m, South Wing rooms 40-50 sq m on the Marunouchi side.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.thetokyostationhotel.jp/stay/",
+          "kind": "official",
+          "title": "The Tokyo Station Hotel: rooms and suites"
+        },
+        {
+          "url": "https://www.thetokyostationhotel.jp/",
+          "kind": "official",
+          "title": "The Tokyo Station Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "Inside the station building, with 150 rooms that the hotel says were refurbished when it reopened in 2012",
+          "Its Classic rooms run from 23 to 47 sq m and its South Wing rooms, on the Marunouchi side, from 40 to 50"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.ryumeikan",
+      "topic": "hotel",
+      "claim": "Hotel Ryumeikan Tokyo, 1-3-22 Yaesu, is 3 minutes' walk from JR Tokyo Station Yaesu North Exit; Standard Twin 32.5 sq m.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.ryumeikan-tokyo.jp/english/",
+          "kind": "official",
+          "title": "Hotel Ryumeikan Tokyo"
+        },
+        {
+          "url": "https://www.ryumeikan-tokyo.jp/english/rooms/standard_twin/",
+          "kind": "official",
+          "title": "Hotel Ryumeikan Tokyo: Standard Twin"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "At 1-3-22 Yaesu, three minutes from the station's Yaesu North Exit, with a Standard Twin of 32.5 sq m"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.mandarin-oriental",
+      "topic": "hotel",
+      "claim": "Mandarin Oriental, Tokyo is at 2-1-1 Nihonbashi Muromachi on the upper floors of the Nihonbashi Mitsui Tower and says rail connections run via Tokyo Station, a short distance away.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/tokyo/nihonbashi",
+          "kind": "official",
+          "title": "Mandarin Oriental, Tokyo"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "At 2-1-1 Nihonbashi Muromachi, on the upper floors of the Nihonbashi Mitsui Tower, which the hotel says is a short distance from Tokyo Station"
+        ]
+      },
+      "note": "The page text we read gave no room sizes."
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.mitsui-ginza-premier",
+      "topic": "hotel",
+      "claim": "Mitsui Garden Hotel Ginza Premier, 8-13-1 Ginza, has its lobby on the 16th floor; Superior 26.3 sq m, Deluxe 30.1, Executive 40.0; 5 minutes' walk from Higashi-Ginza Exit A1 and 10 from Ginza Station Exit A3.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.gardenhotels.co.jp/ginza-premier/eng/",
+          "kind": "official",
+          "title": "Mitsui Garden Hotel Ginza Premier"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "At 8-13-1 Ginza, with a lobby on the 16th floor and rooms from 26.3 sq m (Superior) to 40 (Executive)",
+          "five minutes' walk from Higashi-Ginza Station's Exit A1 and ten from Ginza Station's Exit A3"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.apa-hatchobori",
+      "topic": "hotel",
+      "claim": "APA Hotel Hatchobori Ekimae is a 1-minute walk from Hatchobori Station (Hibiya Line); Standard rooms 11 sq m with a 140cm bed, Deluxe Twin 23 sq m.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www3.apahotel.com/hotel/syutoken/tokyo/hatchobori-ekimae/",
+          "kind": "official",
+          "title": "APA Hotel Hatchobori Ekimae"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "One minute's walk from Hatchobori Station on the Hibiya Line",
+          "Standard rooms are 11 sq m with a 140cm bed, and the Deluxe Twin is 23"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.washington-ariake",
+      "topic": "hotel",
+      "claim": "Tokyo Bay Ariake Washington Hotel, 3-7-11 Ariake, has 830 rooms and gives a 3-minute walk from Kokusai-Tenjijo Station (Rinkai Line) and from Tokyo Big Sight and Ariake stations (Yurikamome).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://en.washington-hotels.jp/ariake/",
+          "kind": "official",
+          "title": "Tokyo Bay Ariake Washington Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "At 3-7-11 Ariake, with 830 rooms and a three-minute walk to Kokusai-Tenjijo, Tokyo Big Sight and Ariake stations, by the hotel's count"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.villa-fontaine-ariake",
+      "topic": "hotel",
+      "claim": "Villa Fontaine Grand Tokyo Ariake, 2-1-5 Ariake, announced on 8 September 2026 a free shuttle between the hotel and Tokyo Station for guests; the hotel's bus sheet (file code dated 2024, undated for 2027) shows 21 seats, no reservations, hotel departures from 10:00 and Tokyo Station (Yaesu) departures from 10:30.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.hvf.jp/eng/ariake-grand/access.html",
+          "kind": "official",
+          "title": "Villa Fontaine Grand Tokyo Ariake: access"
+        },
+        {
+          "url": "https://www.hvf.jp/eng/ariake-grand/news/detail_1313.html",
+          "kind": "official",
+          "title": "Villa Fontaine Grand Tokyo Ariake: shuttle bus notice"
+        },
+        {
+          "url": "https://www.hvf.jp/admin/vf_image/HT241011CL-VF_BusInfo-crs_ol_A4.pdf",
+          "kind": "official",
+          "title": "Villa Fontaine: Tokyo Station shuttle bus sheet (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "At 2-1-5 Ariake, with a free shuttle for hotel guests to Tokyo Station, which its notice of 8 September 2026 describes",
+          "shows 21 seats on a first-come basis and the first hotel departure at 10:00"
+        ]
+      },
+      "note": "The sheet is an image PDF whose file name suggests October 2024; re-check the current timetable and whether it runs on 7 March."
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.far-east-village-ariake",
+      "topic": "hotel",
+      "claim": "Far East Village Hotel Tokyo, Ariake, 1-2-43 Ariake, is 4 minutes' walk from Ariake-Tennis-no-mori Station; rooms 16 to 26 sq m; its page says a complimentary shuttle to Tokyo Big Sight and Kokusai-Tenjijo Station runs in the mornings and evenings (times on request).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.villagehotels.asia/en/hotels/far-east-village-hotel-ariake-tokyo",
+          "kind": "official",
+          "title": "Far East Village Hotel Tokyo, Ariake"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "At 1-2-43 Ariake, four minutes' walk from Ariake-Tennis-no-mori Station, with rooms from 16 to 26 sq m",
+          "It runs a complimentary shuttle to Tokyo Big Sight and Kokusai-Tenjijo Station in the mornings and evenings"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.omo3-asakusa",
+      "topic": "hotel",
+      "claim": "OMO3 Asakusa by Hoshino Resorts, 1-15-5 Hanakawado, has 98 rooms, is a 1-minute walk to Sensoji by its count and about 4 minutes from Asakusa Station Exit 7 (Ginza Line) and 6 from Exit A5 (Toei Asakusa Line).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://hoshinoresorts.com/en/hotels/omo3asakusa/",
+          "kind": "official",
+          "title": "OMO3 Asakusa by Hoshino Resorts"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "At 1-15-5 Hanakawado, with 98 rooms, a minute's walk to Senso-ji by the hotel's count and about four minutes from Asakusa Station Exit 7 on the Ginza Line"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.marathon.hotel.nui",
+      "topic": "hotel",
+      "claim": "Nui. HOSTEL & BAR LOUNGE, 2-14-13 Kuramae, opened in September 2012 in a renovated warehouse of a toy company in the Kuramae warehouse district, with dormitories and private rooms and shared facilities; check-in 16:00-23:00.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://backpackersjapan.co.jp/nuihostel/english.html",
+          "kind": "official",
+          "title": "Nui. HOSTEL & BAR LOUNGE"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-tokyo-marathon.html": [
+          "At 2-14-13 Kuramae, in a converted toy-company warehouse that the hostel says opened in September 2012, with dormitories and private rooms",
+          "check-in runs from 4pm to 11pm"
+        ]
+      }
     }
   ]
 }

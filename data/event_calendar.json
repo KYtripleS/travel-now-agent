@@ -1,0 +1,405 @@
+{
+  "note": "Rows for site/stay/events.html (build_event_calendar.py). Every date must be one its guide states (or the facts ledger). 'end' drops the row the day after; 'usual' marks a typical window, not a fixed date.",
+  "events": [
+    {
+      "start": "2026-11-13",
+      "end": "2026-12-26",
+      "slug": "where-to-stay-in-vienna-christmas-market",
+      "name": "Vienna Christmas markets",
+      "place": "Vienna, Austria",
+      "when": "Rathausplatz market 13 November to 26 December"
+    },
+    {
+      "start": "2026-11-16",
+      "end": "2026-12-23",
+      "slug": "where-to-stay-in-cologne-christmas-market",
+      "name": "Cologne Christmas markets",
+      "place": "Cologne, Germany",
+      "when": "16 November to 23 December"
+    },
+    {
+      "start": "2026-11-27",
+      "end": "2026-12-24",
+      "slug": "where-to-stay-in-nuremberg-christmas-market",
+      "name": "Nuremberg Christkindlesmarkt",
+      "place": "Nuremberg, Germany",
+      "when": "27 November to 24 December"
+    },
+    {
+      "start": "2026-11-27",
+      "end": "2026-12-24",
+      "slug": "where-to-stay-in-strasbourg-christmas-market",
+      "name": "Strasbourg Christmas Market",
+      "place": "Strasbourg, France",
+      "when": "27 November to 24 December"
+    },
+    {
+      "start": "2026-11-28",
+      "end": "2027-01-06",
+      "slug": "where-to-stay-in-prague-christmas-market",
+      "name": "Prague Christmas markets",
+      "place": "Prague, Czechia",
+      "when": "28 November to 6 January"
+    },
+    {
+      "start": "2026-12-24",
+      "end": "2026-12-26",
+      "slug": "where-to-stay-in-rovaniemi-christmas",
+      "name": "Christmas in Lapland",
+      "place": "Rovaniemi, Finland",
+      "when": "Christmas 2026"
+    },
+    {
+      "start": "2026-12-29",
+      "end": "2027-01-01",
+      "slug": "where-to-stay-in-edinburgh-hogmanay",
+      "name": "Edinburgh’s Hogmanay",
+      "place": "Edinburgh, Scotland",
+      "when": "29 December to 1 January; Street Party on 31 December"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-sydney-new-years-eve",
+      "name": "Sydney New Year’s Eve fireworks",
+      "place": "Sydney, Australia",
+      "when": "9pm and midnight on 31 December"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-london-new-years-eve",
+      "name": "London New Year’s Eve fireworks",
+      "place": "London, UK",
+      "when": "31 December; ticketed viewing areas"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-paris-new-years-eve",
+      "name": "New Year’s Eve in Paris",
+      "place": "Paris, France",
+      "when": "31 December; the 2026 programme is not yet published"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-new-york-new-years-eve",
+      "name": "Times Square Ball Drop",
+      "place": "New York, USA",
+      "when": "31 December"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2027-01-01",
+      "slug": "where-to-stay-for-universal-studios-japan",
+      "name": "NO LIMIT! Countdown 2027 at USJ",
+      "place": "Osaka, Japan",
+      "when": "7pm on 31 December to 9pm on 1 January, Party Pass required"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2027-01-03",
+      "slug": "where-to-stay-in-tokyo-new-year",
+      "name": "New Year in Tokyo",
+      "place": "Tokyo, Japan",
+      "when": "temple bells on 31 December, shrine visits from 1 January"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2027-01-03",
+      "slug": "where-to-stay-in-kyoto-new-year",
+      "name": "New Year in Kyoto",
+      "place": "Kyoto, Japan",
+      "when": "temple bells on 31 December, shrine visits from 1 January"
+    },
+    {
+      "start": "2027-01-06",
+      "end": "2027-01-09",
+      "slug": "where-to-stay-in-las-vegas-ces",
+      "name": "CES 2027",
+      "place": "Las Vegas, USA",
+      "when": "6 to 9 January"
+    },
+    {
+      "start": "2027-01-11",
+      "end": "2027-01-31",
+      "slug": "where-to-stay-in-melbourne-australian-open",
+      "name": "Australian Open",
+      "place": "Melbourne, Australia",
+      "when": "11 to 31 January"
+    },
+    {
+      "start": "2027-01-11",
+      "end": "2027-01-31",
+      "slug": "where-to-stay-for-shirakawa-go-light-up",
+      "name": "Shirakawa-go Light-Up",
+      "place": "Shirakawa-go, Japan",
+      "when": "11, 17, 24 and 31 January, 5:30 to 7:30pm"
+    },
+    {
+      "start": "2027-01-23",
+      "end": "2027-02-09",
+      "slug": "where-to-stay-in-venice-carnival",
+      "name": "Venice Carnival",
+      "place": "Venice, Italy",
+      "when": "23 January to 9 February"
+    },
+    {
+      "start": "2027-02-03",
+      "end": "2027-02-09",
+      "slug": "where-to-stay-in-new-orleans-mardi-gras",
+      "name": "Mardi Gras",
+      "place": "New Orleans, USA",
+      "when": "parades every night 3 to 9 February; Fat Tuesday 9 February"
+    },
+    {
+      "start": "2027-02-04",
+      "end": "2027-02-11",
+      "slug": "where-to-stay-in-sapporo-snow-festival",
+      "name": "Sapporo Snow Festival",
+      "place": "Sapporo, Japan",
+      "when": "4 to 11 February"
+    },
+    {
+      "start": "2027-02-06",
+      "end": "2027-02-07",
+      "slug": "where-to-stay-in-hong-kong-chinese-new-year",
+      "name": "Chinese New Year in Hong Kong",
+      "place": "Hong Kong",
+      "when": "harbour fireworks on 7 February"
+    },
+    {
+      "start": "2027-02-06",
+      "end": "2027-02-07",
+      "slug": "where-to-stay-in-singapore-chinese-new-year",
+      "name": "Chinese New Year in Singapore",
+      "place": "Singapore",
+      "when": "6 and 7 February"
+    },
+    {
+      "start": "2027-02-07",
+      "end": "2027-02-09",
+      "slug": "where-to-stay-in-rio-carnival",
+      "name": "Rio Carnival",
+      "place": "Rio de Janeiro, Brazil",
+      "when": "Sambadrome parades 7 to 9 February"
+    },
+    {
+      "start": "2027-02-09",
+      "end": "2027-02-28",
+      "slug": "where-to-stay-in-nice-carnival",
+      "name": "Nice Carnival",
+      "place": "Nice, France",
+      "when": "9 to 28 February"
+    },
+    {
+      "start": "2027-02-14",
+      "end": "2027-02-14",
+      "slug": "where-to-stay-in-los-angeles-super-bowl",
+      "name": "Super Bowl LXI",
+      "place": "Los Angeles, USA",
+      "when": "14 February at SoFi Stadium"
+    },
+    {
+      "start": "2027-03-06",
+      "end": "2027-03-06",
+      "slug": "where-to-stay-in-sydney-mardi-gras",
+      "name": "Sydney Mardi Gras Parade",
+      "place": "Sydney, Australia",
+      "when": "Saturday 6 March on Oxford Street"
+    },
+    {
+      "start": "2027-03-13",
+      "end": "2027-03-17",
+      "slug": "where-to-stay-in-dublin-st-patricks-day",
+      "name": "St Patrick’s Festival",
+      "place": "Dublin, Ireland",
+      "when": "13 to 17 March; parade on 17 March"
+    },
+    {
+      "start": "2027-03-15",
+      "end": "2027-03-19",
+      "slug": "where-to-stay-in-valencia-fallas",
+      "name": "Las Fallas",
+      "place": "Valencia, Spain",
+      "when": "15 to 19 March"
+    },
+    {
+      "start": "2027-03-18",
+      "end": "2027-05-09",
+      "slug": "where-to-stay-for-keukenhof",
+      "name": "Keukenhof",
+      "place": "Lisse, Netherlands",
+      "when": "18 March to 9 May"
+    },
+    {
+      "start": "2027-03-20",
+      "end": "2027-04-11",
+      "slug": "where-to-stay-in-washington-dc-cherry-blossom",
+      "name": "National Cherry Blossom Festival",
+      "place": "Washington, DC, USA",
+      "when": "20 March to 11 April"
+    },
+    {
+      "start": "2027-03-21",
+      "end": "2027-03-28",
+      "slug": "where-to-stay-in-rome-easter",
+      "name": "Holy Week and Easter at the Vatican",
+      "place": "Rome, Italy",
+      "when": "21 to 28 March; Easter Sunday 28 March"
+    },
+    {
+      "start": "2027-03-21",
+      "end": "2027-03-28",
+      "slug": "where-to-stay-in-seville-holy-week-april-fair",
+      "name": "Holy Week in Seville",
+      "place": "Seville, Spain",
+      "when": "21 to 28 March"
+    },
+    {
+      "start": "2027-03-24",
+      "end": "2027-04-05",
+      "usual": true,
+      "slug": "where-to-stay-in-tokyo-cherry-blossom",
+      "name": "Cherry blossom in Tokyo",
+      "place": "Tokyo, Japan",
+      "when": "usually opens around 24 March and peaks around 31 March"
+    },
+    {
+      "start": "2027-03-26",
+      "end": "2027-04-10",
+      "usual": true,
+      "slug": "where-to-stay-in-kyoto-cherry-blossom",
+      "name": "Cherry blossom in Kyoto",
+      "place": "Kyoto, Japan",
+      "when": "usually opens around 26 March and peaks around 4 April"
+    },
+    {
+      "start": "2027-03-27",
+      "end": "2027-04-10",
+      "usual": true,
+      "slug": "where-to-stay-in-osaka-cherry-blossom",
+      "name": "Cherry blossom in Osaka",
+      "place": "Osaka, Japan",
+      "when": "usually opens around 27 March and peaks around 4 April"
+    },
+    {
+      "start": "2027-04-01",
+      "end": "2027-04-04",
+      "slug": "where-to-stay-in-melbourne-grand-prix",
+      "name": "Australian Grand Prix",
+      "place": "Melbourne, Australia",
+      "when": "1 to 4 April"
+    },
+    {
+      "start": "2027-04-01",
+      "end": "2027-04-15",
+      "usual": true,
+      "slug": "where-to-stay-in-seoul-cherry-blossom",
+      "name": "Cherry blossom in Seoul",
+      "place": "Seoul, South Korea",
+      "when": "full bloom usually around 10 April; 2026 came early"
+    },
+    {
+      "start": "2027-04-09",
+      "end": "2027-04-18",
+      "slug": "where-to-stay-for-coachella",
+      "name": "Coachella",
+      "place": "Indio, California, USA",
+      "when": "9 to 11 and 16 to 18 April"
+    },
+    {
+      "start": "2027-04-13",
+      "end": "2027-04-15",
+      "slug": "where-to-stay-in-bangkok-songkran",
+      "name": "Songkran",
+      "place": "Bangkok, Thailand",
+      "when": "13 to 15 April"
+    },
+    {
+      "start": "2027-04-13",
+      "end": "2027-04-18",
+      "slug": "where-to-stay-in-seville-holy-week-april-fair",
+      "name": "Seville April Fair",
+      "place": "Seville, Spain",
+      "when": "13 to 18 April"
+    },
+    {
+      "start": "2027-03-04",
+      "end": "2027-03-07",
+      "slug": "where-to-stay-for-tokyo-marathon",
+      "name": "Tokyo Marathon",
+      "place": "Tokyo, Japan",
+      "when": "Sunday 7 March; Expo and bib pick-up 4 to 6 March"
+    }
+  ],
+  "seasons": [
+    {
+      "end": "2026-11-30",
+      "slug": "where-to-stay-in-kyoto-autumn-leaves",
+      "name": "Kyoto’s autumn maples",
+      "when": "best in the last ten days of November"
+    },
+    {
+      "end": "2026-12-06",
+      "slug": "where-to-stay-in-tokyo-autumn-leaves",
+      "name": "Tokyo’s autumn leaves",
+      "when": "ginkgo around 23 November, maples around 28 November"
+    },
+    {
+      "end": "2027-04-30",
+      "slug": "where-to-stay-in-zermatt",
+      "name": "Skiing in Zermatt",
+      "when": "the 2026/27 season opened on 1 November"
+    },
+    {
+      "end": "2027-04-30",
+      "slug": "where-to-stay-in-whistler",
+      "name": "Skiing in Whistler",
+      "when": "Whistler Blackcomb opens on 20 November"
+    },
+    {
+      "end": "2027-04-30",
+      "slug": "where-to-stay-in-hakuba",
+      "name": "Skiing in Hakuba",
+      "when": "Goryu opens on 21 November, Happo-one on 1 December"
+    },
+    {
+      "end": "2027-04-18",
+      "slug": "where-to-stay-in-aspen",
+      "name": "Skiing in Aspen and Snowmass",
+      "when": "Aspen Mountain and Snowmass open on 26 November; the airport closes on 4 April"
+    },
+    {
+      "end": "2027-04-30",
+      "slug": "where-to-stay-in-niseko",
+      "name": "Skiing in Niseko",
+      "when": "the season starts on 28 November"
+    },
+    {
+      "end": "2027-04-30",
+      "slug": "where-to-stay-in-chamonix",
+      "name": "Skiing in Chamonix",
+      "when": "this ski season, lift by lift"
+    },
+    {
+      "end": "2027-04-30",
+      "slug": "where-to-stay-in-banff",
+      "name": "Skiing in Banff",
+      "when": "three ski areas by shuttle"
+    },
+    {
+      "end": "2027-04-05",
+      "slug": "where-to-stay-in-tromso-northern-lights",
+      "name": "Northern lights in Tromsø",
+      "when": "polar night about 27 November to 15 January; lights possible to early April"
+    },
+    {
+      "end": "2027-04-05",
+      "slug": "where-to-stay-in-reykjavik-northern-lights",
+      "name": "Northern lights from Reykjavik",
+      "when": "the 2026/27 aurora season"
+    }
+  ]
+}

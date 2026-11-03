@@ -446,6 +446,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-for-tokyo-marathon": dict(
+        text="For the Tokyo Marathon, stay in Nishi-Shinjuku to walk to the start: Keio Plaza says it is five minutes from Shinjuku Station's West Exit. Blossom Shinjuku is the value pick, The Tokyo Station Hotel the splurge by the finish. The tax is ¥100 or ¥200 a person a night.",
+        link_text="Nishi-Shinjuku",
+        cta=_stay_cta("where-to-stay-for-tokyo-marathon", "See hotels in Nishi-Shinjuku")),
+    "where-to-stay-in-rome-easter": dict(
+        text="For Easter, stay by St Peter's: Borgo, along Via della Conciliazione. Residenza Paolo VI has a terrace on the Square, Hotel Bramante is the lower-price pick and Hotel Raphaël the splurge, across the Tiber. The 2027 papal programme is not out yet. The tax is €7.50 a night at a four-star.",
+        link_text="Borgo",
+        cta=_stay_cta("where-to-stay-in-rome-easter", "See hotels around St Peter's")),
     "where-to-stay-in-aspen": dict(
         text="For a first ski trip, stay in Downtown Aspen: dining and shopping on foot. Choose The Little Nell for the base of Aspen Mountain, Limelight Hotel Aspen for breakfast and a pool, Mountain Chalet for a lower price in Snowmass. Taxes add 12.35% in Aspen, 13.05% in Snowmass.",
         link_text="Downtown Aspen",
@@ -1714,6 +1722,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-for-tokyo-marathon": ["Keio Plaza Hotel Tokyo", "JR Kyushu Hotel Blossom Shinjuku", "The Tokyo Station Hotel"],
+    "where-to-stay-in-rome-easter": ["Hotel Raphaël", "Residenza Paolo VI", "Hotel Bramante"],
     "where-to-stay-in-aspen": ["The Little Nell", "Limelight Hotel Aspen", "Mountain Chalet Snowmass"],
     "where-to-stay-in-las-vegas-ces": ["ARIA Resort & Casino", "Hilton Las Vegas at Resorts World", "Westgate Las Vegas Resort & Casino"],
     "where-to-stay-for-shirakawa-go-light-up": ["Hida Hotel Plaza", "Ryokan Asunaro", "Rickshaw Inn"],
@@ -2494,6 +2504,8 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Tokyo", "where-to-stay-for-tokyo-marathon", None, None),
+        ("Rome", "where-to-stay-in-rome-easter", None, None),
         ("Aspen", "where-to-stay-in-aspen", None, None),
         ("Las Vegas", "where-to-stay-in-las-vegas-ces", None, None),
         ("Shirakawa-go", "where-to-stay-for-shirakawa-go-light-up", None, None),
@@ -2788,7 +2800,9 @@ STAY_POINTERS = {
         f'blossom? <a href="{_TS}">Tokyo hotels near the cherry blossoms</a> has the dates and the tax change on 1 April 2027; '
         f'for late November, <a href="{_TA}">our autumn-leaves guide</a> has the 2026 garden openings; for '
         '31 December, <a href="where-to-stay-in-tokyo-new-year.html">where to stay in Tokyo for New Year</a> '
-        'covers the temple bells, the first shrine visit and the trains that night. Going to the parks? '
+        'covers the temple bells, the first shrine visit and the trains that night. Running on 7 March? '
+        '<a href="where-to-stay-for-tokyo-marathon.html">Where to stay for the Tokyo Marathon 2027</a> matches '
+        'hotels to the Shinjuku start, the Tokyo Station finish and bib pick-up in Ariake. Going to the parks? '
         '<a href="where-to-stay-for-tokyo-disney-resort.html">Where to stay for Tokyo Disneyland</a> weighs the '
         'Disney Hotels, Shin-Urayasu and a Tokyo base.'),
     "where-to-stay-in-kyoto": ("intro",
@@ -3062,6 +3076,9 @@ STAY_POINTERS = {
          'northern lights (2026/27)</a> covers the polar night, the airport bus and the 3% visitor fee planned '
          'from 2027.'),
     ],
+    "where-to-stay-in-rome": ("intro",
+        'Coming for Holy Week? <a href="where-to-stay-in-rome-easter.html">Where to stay in Rome for Easter 2027</a> '
+        '(Easter Sunday is 28 March) matches hotels to St Peter’s, the Colosseum and the free papal tickets.'),
     "where-to-stay-in-las-vegas": ("intro",
         'Coming for CES? <a href="where-to-stay-in-las-vegas-ces.html">Where to stay for CES 2027</a> (6 to 9 '
         'January) matches hotels to the free CES shuttles, the Vegas Loop and the monorail.'),

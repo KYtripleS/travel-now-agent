@@ -5314,3 +5314,34 @@ body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame
 @media (max-width: 699px) {
   body:has(:is(.article-hero, .gy-arch-head)) section.article :is(aside.gy-cta, aside.gy-widget, aside.gy-trip, aside.gy-esim-plans) { padding: 16px 14px 12px; }
 }
+
+/* 17. Event calendar (stay/events.html, build_event_calendar.py): ruled rows on one left edge;
+   the guide link is a site link (navy, gold rule), the hotel map is the outlined partner action. */
+.gy-cal-jump { font-family: var(--sans); font-size: .9rem; color: var(--muted); }
+.gy-cal-jump a { color: var(--navy); }
+.gy-arch-head .gy-cal-jump, .gy-arch-head .gy-cal-jump a { color: #D8B65C; }   /* on the dark book cover */
+.gy-cal-month { margin: 2.2rem 0 0; }
+.gy-cal-month h2 { border-bottom: 2px solid var(--navy); padding-bottom: .35rem; }
+.gy-cal-list { list-style: none; margin: 0; padding: 0; }
+.gy-cal-row {
+  display: grid; grid-template-columns: 13rem 1fr auto; gap: .4rem 1.4rem; align-items: baseline;
+  padding: .9rem 0; border-bottom: 1px solid var(--line);
+}
+.gy-cal-row p { margin: 0; }
+.gy-cal-when { font-family: var(--sans); font-size: .88rem; color: var(--muted); }
+.gy-cal-usual { font-weight: 700; color: var(--navy); }
+.gy-cal-name { font-family: var(--serif); font-size: 1.12rem; line-height: 1.35; }
+.gy-cal-name a { color: var(--navy); text-decoration: none; }
+.gy-cal-name a:hover { text-decoration: underline; text-decoration-color: var(--gold); }
+.gy-cal-place { display: block; font-family: var(--sans); font-size: .82rem; color: var(--muted); }
+.gy-cal-actions { display: flex; flex-wrap: wrap; gap: .5rem .9rem; align-items: center; font-family: var(--sans); }
+.gy-cal-guide { color: var(--navy); font-weight: 600; text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+.gy-cal-rates {
+  padding: 7px 15px; border: 1.5px solid var(--cta); border-radius: 999px; background: #fff;
+  color: var(--cta); font-weight: 700; font-size: .88rem; text-decoration: none; white-space: nowrap;
+}
+.gy-cal-rates:hover { background: var(--cta); color: #fff; }
+@media (max-width: 799px) {
+  .gy-cal-row { grid-template-columns: 1fr; }
+  .gy-cal-rates { white-space: normal; }
+}

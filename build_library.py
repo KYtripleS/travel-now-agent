@@ -372,7 +372,8 @@ def _book_early() -> str:
         return ""
     lis = "".join(f'<li><a href="../articles/{slug}.html">{name}</a>: {when}</li>' for _, slug, name, when in rows)
     return ('\n<div class="gy-book-early"><p class="gy-book-early-h">Book early: dates when hotels fill up</p>'
-            f"<ul>{lis}</ul></div>")
+            f'<ul>{lis}</ul><p class="gy-book-early-more"><a href="events.html">Every event and season in one '
+            'calendar, November to April</a></p></div>')
 
 
 HUBS = {
@@ -547,7 +548,7 @@ def main() -> None:
 
 
 def _add_to_sitemap() -> None:
-    urls = ["https://gentlyyonder.com/all-guides.html"] + [
+    urls = ["https://gentlyyonder.com/all-guides.html", "https://gentlyyonder.com/stay/events.html"] + [
         f"https://gentlyyonder.com/{rel}" for rel in HUBS
         if not _noindex(REPO / "site" / rel)]
     held = [f"https://gentlyyonder.com/{rel}" for rel in HUBS if _noindex(REPO / "site" / rel)]

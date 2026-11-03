@@ -1781,6 +1781,592 @@
         ]
       },
       "checked": "2026-11-03"
+    },
+    {
+      "id": "it.rome-easter.holy-week-2026-programme",
+      "topic": "place",
+      "claim": "The Vatican's Holy Week 2026 programme (last year's pattern): Palm Sunday 29 March 10:00 in St Peter's Square; Chrism Mass 2 April 9:30 in the Basilica; Holy Thursday evening Mass 17:30 at St John Lateran; Good Friday Passion 17:00 in the Basilica; Way of the Cross at the Colosseum (21:00 in the Office of Liturgical Celebrations' notice, 21:15 on vatican.va's Holy Week page); Easter Vigil 4 April 21:00 in the Basilica; Easter Mass 5 April 10:15 in the Square; Urbi et Orbi 12:00 from the Central Loggia. The notice is dated 7 March 2026. The 2027 dates (21, 25, 26, 27, 28 March) are our arithmetic from Easter Sunday on 28 March 2027.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.vatican.va/content/vatican/en/special/2026/settimana-santa2026.html",
+          "kind": "official",
+          "title": "Vatican: Holy Week 2026"
+        },
+        {
+          "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/03/07/260307d.html",
+          "kind": "official",
+          "title": "Vatican press office: notice from the Office of Liturgical Celebrations, 7 March 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "a notice dated 7 March 2026, 22 days before Palm Sunday",
+          "21:00 in the Office's notice, 21:15 on the Vatican's Holy Week page",
+          "Central Loggia of St Peter's Basilica"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Recheck from February 2027 for the 2027 programme (the 2026 notice came 22 days before Palm Sunday)."
+    },
+    {
+      "id": "it.rome-easter.no-2027-programme",
+      "topic": "place",
+      "claim": "As of 3 November 2026 we found no published 2027 Holy Week programme on vatican.va (the 2027 equivalent of the Holy Week 2026 page returned not found).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.vatican.va/content/vatican/en/special/2026/settimana-santa2026.html",
+          "kind": "official",
+          "title": "Vatican: Holy Week 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "We found no 2027 programme as of 3 November 2026."
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Absence claim: recheck."
+    },
+    {
+      "id": "it.rome-easter.papal-tickets",
+      "topic": "place",
+      "claim": "The Vatican states that tickets for the General Audiences and the Holy Father's liturgical celebrations are always free of charge; lay faithful request them through the Prefecture of the Papal Household's portal (eventi.pontificalisdomus.va); bishops, priests and deacons use a separate portal (biglietti.liturgiepontificie.va) of the Office for the Liturgical Celebrations. The 2026 notice names tickets only for concelebrating priests and deacons and notifications for Pontifical Chapel members; no deadline or per-celebration lay rule was found.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.vatican.va/content/vatican/en/prenotazione-celebrazioni-udienze.html",
+          "kind": "official",
+          "title": "Vatican: Participation in Audiences and Pontifical Celebrations"
+        },
+        {
+          "url": "https://eventi.pontificalisdomus.va/?lang=en-en",
+          "kind": "official",
+          "title": "Prefecture of the Papal Household: ticket request portal"
+        },
+        {
+          "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/03/07/260307d.html",
+          "kind": "official",
+          "title": "Vatican press office: notice, 7 March 2026"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "always free of charge",
+          "eventi.pontificalisdomus.va",
+          "names tickets only for concelebrating priests and deacons"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Third-party guides say the Square is open without a ticket for Palm Sunday, Easter Mass and Urbi et Orbi; no official statement found, so the article does not say it."
+    },
+    {
+      "id": "it.rome-easter.vatican-museums-closures-2027",
+      "topic": "place",
+      "claim": "The Vatican Museums' 2027 calendar marks as closure days all Sundays in March (7, 14, 21, 28), Friday 19 March and Monday 29 March (Easter Monday by our arithmetic); no closure is marked on 25, 26 or 27 March. 28 March, the last Sunday of the month, is a closure day, not a free-entry day.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://m.museivaticani.va/content/dam/museivaticani/pdf/utilities/calendario_musei.pdf",
+          "kind": "official",
+          "title": "Vatican Museums: calendar 2026 and 2027 (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "Friday 19 March and Monday 29 March",
+          "It marks nothing on Thursday 25, Friday 26 or Saturday 27 March",
+          "the calendar shows the museums closed"
+        ]
+      },
+      "recheck_days": 60,
+      "note": "Read as an image of the calendar (red = closure day). Recheck for updated versions."
+    },
+    {
+      "id": "it.rome-easter.vatican-museums-hours",
+      "topic": "place",
+      "claim": "The Vatican Museums' price and hours page gives Monday to Saturday opening 8:00 to 20:00 with last entry at 18:00, and free entry on the last Sunday of the month 9:00 to 14:00 (last entry 12:30).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html",
+          "kind": "official",
+          "title": "Vatican Museums: prices and tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "Monday to Saturday opening from 8:00 to 20:00, last entry at 18:00",
+          "the last Sunday of the month is normally free"
+        ]
+      },
+      "recheck_days": 60
+    },
+    {
+      "id": "it.rome-easter.city-tax-rates",
+      "topic": "tax",
+      "claim": "Roma Capitale's contributo di soggiorno, per person per night, from 1 October 2023: 5-star hotel EUR 10; 4-star EUR 7.50; 3-star EUR 6; 2-star EUR 5; 1-star EUR 4; B&B EUR 6; guest houses EUR 5-7 by category; hostels EUR 3.50; maximum 10 nights in the same property. No official notice of a 2026 or 2027 change found.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.comune.roma.it/web-resources/cms/documents/Nuove_tariffe_contributo_di_soggiorno_dal_01.10.2023_logo.pdf",
+          "kind": "official",
+          "title": "Roma Capitale: city tax rates (PDF)"
+        },
+        {
+          "url": "https://www.turismoroma.it/it/accoglienza/contributo-di-soggiorno-nella-citt%C3%A0-di-roma-capitale",
+          "kind": "official",
+          "title": "Turismo Roma: the city tax"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "The city's rate table has applied since 1 October 2023",
+          "The rate table caps the charge at 10 nights in the same property",
+          "from €4 at a one-star to €10 at a five-star"
+        ]
+      },
+      "recheck_days": 30,
+      "note": "Mayor has publicly asked for more room to raise the tax (press, not an official rate change); recheck before publishing."
+    },
+    {
+      "id": "it.rome-easter.city-tax-exemptions",
+      "topic": "tax",
+      "claim": "Under Article 5 of the city's regulation (Deliberation 34/2024), minors up to their tenth birthday are exempt, and guests of youth hostels (ostelli della gioventu) are exempt, although the rate table lists hostels at EUR 3.50.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.comune.roma.it/web-resources/cms/documents/Deliberazione_Assemblea_Capitolina_n._342024.pdf",
+          "kind": "official",
+          "title": "Roma Capitale: Deliberation 34/2024, Article 5"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "Children are exempt until their tenth birthday",
+          "the city's regulation exempts guests of youth hostels"
+        ]
+      },
+      "note": "Whether the RomeHello counts as a youth hostel is not established; the article says to ask."
+    },
+    {
+      "id": "it.rome-easter.city-tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: a couple for 7 nights pays 2 x 7 x EUR 7.50 = EUR 105 at a four-star, EUR 84 at a three-star and EUR 140 at a five-star.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.comune.roma.it/web-resources/cms/documents/Nuove_tariffe_contributo_di_soggiorno_dal_01.10.2023_logo.pdf",
+          "kind": "official",
+          "title": "Roma Capitale: city tax rates (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "2 × 7 × €7.50 = €105 at a four-star, €84 at a three-star and €140 at a five-star"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.leonardo-express",
+      "topic": "fare",
+      "claim": "Leonardo Express, Fiumicino to Termini: EUR 14, about 32 minutes non-stop, every 15 minutes; 4 tickets in one transaction EUR 40; Metrebus integrated tickets not valid; first train from the airport 05:38, last 23:27 (Aeroporti di Roma).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.trenitalia.com/en/connections/leonardo-express.html",
+          "kind": "operator",
+          "title": "Trenitalia: Leonardo Express"
+        },
+        {
+          "url": "https://www.adr.it/web/aeroporti-di-roma-en/pax-fco-train",
+          "kind": "official",
+          "title": "Aeroporti di Roma: the train from Fiumicino"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "about 32 minutes, every 15 minutes, for €14",
+          "Four tickets bought together cost €40",
+          "the first train from the airport at 05:38 and the last at 23:27"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "it.rome-easter.ciampino-airlink",
+      "topic": "transport",
+      "claim": "Ciampino Airlink: EUR 2.70 per person, a direct bus of about 10 minutes from the airport to Ciampino station, then a train to Termini.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.trenitalia.com/en/connections/ciampino-airlink.html",
+          "kind": "operator",
+          "title": "Trenitalia: Ciampino Airlink"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "a bus of about 10 minutes to Ciampino station with a train to Termini, €2.70 for both"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "it.rome-easter.atac-fares",
+      "topic": "fare",
+      "claim": "ATAC: BIT single EUR 1.50 valid 100 minutes; 24-hour EUR 8.50, 48-hour EUR 15, 72-hour EUR 22; tap&go on metro turnstiles and surface vehicles.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.atac.roma.it/en/tickets-and-passes/tickets",
+          "kind": "operator",
+          "title": "ATAC: tickets and passes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "a BIT ticket costs €1.50 and lasts 100 minutes",
+          "€8.50, €15 and €22"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "it.rome-easter.metro-a-stops",
+      "topic": "transport",
+      "claim": "Roma Metropolitane's network map shows metro line A with stops at Ottaviano and Cipro on the Vatican side, and Spagna, Barberini, Repubblica and Termini; Termini is where lines A and B meet. Hotel dei Consoli says Ottaviano is 150 metres from the hotel.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.romametropolitane.it/immagini/Mappa%20metro%20LD.pdf",
+          "kind": "official",
+          "title": "Roma Metropolitane: network map"
+        },
+        {
+          "url": "https://www.hoteldeiconsoli.com/hotel-near-st-peter-rome/how-to-reach-us",
+          "kind": "official",
+          "title": "Hotel dei Consoli: how to reach us"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "line A has stops at Ottaviano and at Cipro on the Vatican side",
+          "Ottaviano is 150 metres from its door"
+        ]
+      },
+      "recheck_days": 90,
+      "note": "ATAC's own accessibility and journey-planner pages sit behind a bot check and were not opened; station names rest on the Roma Metropolitane map."
+    },
+    {
+      "id": "it.rome-easter.hotel-residenza-paolo-vi",
+      "topic": "hotel",
+      "claim": "Residenza Paolo VI is a four-star by its own description in the premises of the Augustinian General Curia, opened for Holy Year 2000, with 35 rooms, a terrace with a view of St Peter's Basilica and the Apostolic Palace, two San Pietro Junior Suites with direct views of the dome, a 13 m2 French Bed Room and a 16 m2 Double Standard.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.residenzapaolovi.com/en/",
+          "kind": "official",
+          "title": "Residenza Paolo VI: home"
+        },
+        {
+          "url": "https://www.residenzapaolovi.com/en/rooms/",
+          "kind": "official",
+          "title": "Residenza Paolo VI: rooms"
+        },
+        {
+          "url": "https://www.residenzapaolovi.com/en/terrace/",
+          "kind": "official",
+          "title": "Residenza Paolo VI: terrace"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "in the premises of the Augustinian General Curia",
+          "with 35 rooms and a terrace with a view of St Peter's Basilica and the Apostolic Palace",
+          "the French Bed Room is 13 m² with a queen bed reached from one side only"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.hotel-palazzo-cardinal-cesi",
+      "topic": "hotel",
+      "claim": "Palazzo Cardinal Cesi, owned by the Salvatorian general house, has 29 rooms of 12, 16, 18 and 20 m2, its entrance at Via della Conciliazione 51, a cloister garden, and says tickets for General Audiences and liturgical celebrations are free and requested from the Prefecture.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.palazzocesi.it/en/",
+          "kind": "official",
+          "title": "Palazzo Cardinal Cesi: home"
+        },
+        {
+          "url": "https://www.palazzocesi.it/en/rooms/",
+          "kind": "official",
+          "title": "Palazzo Cardinal Cesi: rooms"
+        },
+        {
+          "url": "https://www.palazzocesi.it/en/events-in-vatican/",
+          "kind": "official",
+          "title": "Palazzo Cardinal Cesi: events in the Vatican"
+        },
+        {
+          "url": "https://www.palazzocesi.it/en/location-and-contacts/",
+          "kind": "official",
+          "title": "Palazzo Cardinal Cesi: location"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "now owned by the Salvatorian general house",
+          "29 rooms and a cloister garden",
+          "Palazzo Cardinal Cesi says tickets are free and are requested from the Prefecture"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.hotel-hotel-bramante",
+      "topic": "hotel",
+      "claim": "Hotel Bramante, Vicolo delle Palline 24 in Borgo Pio, has 16 rooms of 18 to 30 m2, says its origins date to 1550 and an inn opened in 1873, still shows a Jubilee 2025 page, and says free tickets are collected at the Bronze Door of the Vatican.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.hotelbramante.com/rooms.php?la=en",
+          "kind": "official",
+          "title": "Hotel Bramante: rooms"
+        },
+        {
+          "url": "https://www.hotelbramante.com/about-us.php?la=en",
+          "kind": "official",
+          "title": "Hotel Bramante: about us"
+        },
+        {
+          "url": "https://www.hotelbramante.com/celebrazioni.php?la=en",
+          "kind": "official",
+          "title": "Hotel Bramante: celebrations in Vatican City"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "with 16 rooms of 18 m² to 30 m²",
+          "Hotel Bramante says tickets are collected at the Bronze Door of the Vatican",
+          "its site still carries a Jubilee 2025 page"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.hotel-hotel-dei-mellini",
+      "topic": "hotel",
+      "claim": "Hotel dei Mellini has 80 rooms over six floors at Via Muzio Clementi 81, designed by Harry Gregory, a terrace with sun deck and gym, Spanish Steps 10 minutes and St Peter's 15 minutes by its own account, a 12 m2 Petit Chambre with a single bed and 25 m2 Superior rooms.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.hotelmellini.com/",
+          "kind": "official",
+          "title": "Hotel dei Mellini: home"
+        },
+        {
+          "url": "https://www.hotelmellini.com/en/best-location-to-stay-rome",
+          "kind": "official",
+          "title": "Hotel dei Mellini: location"
+        },
+        {
+          "url": "https://www.hotelmellini.com/en/holiday-accommodations-rome/petit-chambre",
+          "kind": "official",
+          "title": "Hotel dei Mellini: Petit Chambre"
+        },
+        {
+          "url": "https://www.hotelmellini.com/en/holiday-accommodations-rome/superior-room",
+          "kind": "official",
+          "title": "Hotel dei Mellini: Superior room"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "80 rooms over six floors at Via Muzio Clementi 81",
+          "the Spanish Steps are a 10-minute walk away and St Peter's about 15",
+          "the Petit Chambre is a 12 m² room with a single bed; the Superior rooms are 25 m²"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.hotel-hotel-dei-consoli",
+      "topic": "hotel",
+      "claim": "Hotel dei Consoli has 28 rooms at Via Varrone 2/D, 150 m from Ottaviano and 750 m from St Peter's Square by its directions, a top-floor terrace with breakfast and a view of the dome, 11 m2 single and 13 m2 classic rooms, and quotes the Leonardo Express at EUR 15 and about 35 minutes.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.hoteldeiconsoli.com/where-to-sleep-in-rome",
+          "kind": "official",
+          "title": "Hotel dei Consoli: rooms"
+        },
+        {
+          "url": "https://www.hoteldeiconsoli.com/hotel-near-st-peter-rome/how-to-reach-us",
+          "kind": "official",
+          "title": "Hotel dei Consoli: how to reach us"
+        },
+        {
+          "url": "https://www.hoteldeiconsoli.com/hotel-with-terrace-rome",
+          "kind": "official",
+          "title": "Hotel dei Consoli: terrace"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "28 rooms at Via Varrone 2/D",
+          "single rooms are 11 m² and classic rooms 13 m²",
+          "quotes the Leonardo Express at €15 and about 35 minutes"
+        ]
+      },
+      "note": "Booking.com redirected the deiconsoli slug to a search page (closed_msg), so Booking URL is null; hotel's own site is live with a booking engine."
+    },
+    {
+      "id": "it.rome-easter.hotel-hotel-raphael",
+      "topic": "hotel",
+      "claim": "Hotel Raphaël is a five-star Relais & Châteaux member since 2010 behind Piazza Navona, covered in wisteria and Virginia creeper, with 50 rooms of which 20 suites, works by Miro, lithographs by De Chirico and Picasso terracottas, and the Mater Terrae restaurant (organic, vegan, biodynamic).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.biohotelraphael.com/",
+          "kind": "official",
+          "title": "Hotel Raphaël: home (Italian)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "50 rooms and 20 suites",
+          "A five-star Relais & Châteaux member since 2010, behind Piazza Navona"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.hotel-albergo-del-senato",
+      "topic": "hotel",
+      "claim": "Albergo del Senato is a 3-star hotel next to the Pantheon on Piazza della Rotonda with a rooftop terrace and buffet breakfast included; Penthouse, Senior and Junior Suites view the Pantheon and the site says a Pantheon view is not guaranteed for Standard rooms.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.albergodelsenato.it/",
+          "kind": "official",
+          "title": "Albergo del Senato: home"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "A three-star hotel on Piazza della Rotonda, next to the Pantheon",
+          "the hotel says a view of the Pantheon is not guaranteed from them"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.hotel-albergo-santa-chiara",
+      "topic": "hotel",
+      "claim": "Albergo Santa Chiara began in 1839 as a wine shop, has 96 rooms in 3 adjoining buildings right behind the Pantheon, breakfast only with rates that include it, and no parking in the limited traffic zone.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.albergosantachiara.com/en/",
+          "kind": "official",
+          "title": "Albergo Santa Chiara: home"
+        },
+        {
+          "url": "https://www.albergosantachiara.com/en/faq/",
+          "kind": "official",
+          "title": "Albergo Santa Chiara: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "began as a wine shop in 1839 and now has 96 rooms in three adjoining buildings",
+          "breakfast comes only with rates that include it"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.hotel-hotel-forum",
+      "topic": "hotel",
+      "claim": "Hotel Forum is a four-star superior of 78 rooms and suites in an 18th-century building at Via Tor de' Conti 25, with a Roof Garden breakfast, an American bar, and separate Deluxe with view and Suite with View categories; its page calls it the only hotel in the Roman Forum.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.hotelforum.com/en/",
+          "kind": "official",
+          "title": "Hotel Forum: home"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "A four-star superior of 78 rooms and suites in an 18th-century building at Via Tor de' Conti 25",
+          "the view is a category you book, not the default"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.hotel-the-fifteen-keys-hotel",
+      "topic": "hotel",
+      "claim": "The Fifteen Keys Hotel is a 4-star of 15 individually designed rooms of varying sizes in a five-storey townhouse converted at the start of 2015, at Via Urbana 6-7, steps from the Colosseum and Roman Forum by its own account.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.fifteenkeys.com/",
+          "kind": "official",
+          "title": "The Fifteen Keys Hotel: home"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "15 individually designed rooms in a five-storey townhouse converted in 2015",
+          "steps from the Colosseum and the Roman Forum"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.hotel-palazzo-montemartini",
+      "topic": "hotel",
+      "claim": "Palazzo Montemartini is a five-star Radisson Collection hotel next to the Servian Walls, walking distance from the Baths of Diocletian and steps from Termini, with the Thalea spa; its terrace page describes the summer season as June to September.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.rhcgroup.it/en/palazzo-montemartini/index",
+          "kind": "official",
+          "title": "Palazzo Montemartini: home"
+        },
+        {
+          "url": "https://www.rhcgroup.it/it/palazzo-montemartini/ristorante-lusso-roma/terrazza-montemartini",
+          "kind": "official",
+          "title": "Palazzo Montemartini: Terrazza (Italian)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "A five-star Radisson Collection hotel beside the Servian Walls",
+          "a summer season from June to September"
+        ]
+      }
+    },
+    {
+      "id": "it.rome-easter.hotel-the-romehello",
+      "topic": "hotel",
+      "claim": "The RomeHello is an Esquilino hostel with dorm beds, private rooms, a social kitchen and a garden, and says all its profits go to social and environmental initiatives; Booking.com lists it at Via Torino 45.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.theromehello.com/",
+          "kind": "official",
+          "title": "The RomeHello: home"
+        },
+        {
+          "url": "https://www.booking.com/hotel/it/the-romehello.html",
+          "kind": "news",
+          "title": "Booking.com page, used for the Via Torino 45 address only"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rome-easter.html": [
+          "says its profits go to social and environmental initiatives",
+          "with dorm beds, private rooms, a social kitchen and a garden"
+        ]
+      }
     }
   ]
 }

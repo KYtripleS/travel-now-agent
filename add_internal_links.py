@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-for-tokyo-marathon.html": (
+        "Where to Stay in Tokyo",
+        "Tokyo Marathon, 7 March 2027: start, finish and Expo, 5 areas, 12 hotels and the ¥100 or ¥200 night tax.",
+    ),
+    "articles/where-to-stay-in-rome-easter.html": (
+        "Where to Stay in Rome",
+        "Easter 2027 and Holy Week dates, five areas, 12 hotels, the Vatican's free tickets and Rome's city tax.",
+    ),
     "articles/where-to-stay-in-aspen.html": (
         "Where to Stay in Aspen",
         "Five areas, 12 hotels, the 26 Nov opening, the April airport closure and the 12.35% tax on an Aspen room.",
@@ -2281,6 +2289,20 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-for-tokyo-marathon.html": [
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/where-to-stay-in-tokyo-cherry-blossom.html",
+        "articles/narita-haneda-to-central-tokyo.html",
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/best-esim-japan-2026.html",
+    ],
+    "articles/where-to-stay-in-rome-easter.html": [
+        "articles/where-to-stay-in-rome.html",
+        "articles/where-to-stay-in-florence.html",
+        "articles/where-to-stay-in-venice.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-aspen.html": [
         "articles/where-to-stay-in-whistler.html",

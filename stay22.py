@@ -114,6 +114,10 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-for-tokyo-marathon": dict(area="Nishi-Shinjuku", lat=35.6896, lng=139.6917, zoom=15,
+                                                address="Tokyo Metropolitan Government Building, 2-8-1 Nishi-Shinjuku, Shinjuku City, Tokyo, Japan"),
+    "where-to-stay-in-rome-easter": dict(area="Borgo and St Peter's", lat=41.9027, lng=12.4598, zoom=15,
+                                            address="Via della Conciliazione, Rome, Italy"),
     "where-to-stay-in-aspen": dict(area="Downtown Aspen", lat=39.1891, lng=-106.8189, zoom=15,
                                       address="330 East Main Street, Aspen, CO, United States"),
     "where-to-stay-in-las-vegas-ces": dict(area="Near the Convention Center", lat=36.1359, lng=-115.1524, zoom=14,
@@ -1674,6 +1678,16 @@ HOTELS = {
     "Mountain Chalet Snowmass": _B + "us/s-mountain-c-snowmass-village-colorado.html",
     "Element by Marriott Basalt - Aspen": _B + "us/element-basalt-aspen-valley.html",
     "Hotel Colorado": None,
+    # Rome, where-to-stay-in-rome-easter (Booking.com pages confirmed by hotel name and city)
+    "Residenza Paolo VI": _B + "it/residenza-paolo-vi.html",
+    "Palazzo Cardinal Cesi": _B + "it/palazzo-cardinal-cesi.html",
+    "Hotel Bramante": _B + "it/bramante-roma2.html",
+    "Hotel dei Consoli": None,
+    # Tokyo, where-to-stay-for-tokyo-marathon (Booking.com pages confirmed by hotel name and city)
+    "Mandarin Oriental, Tokyo": _B + "jp/mandarin-oriental-tokyo.html",
+    "Tokyo Bay Ariake Washington Hotel": _B + "jp/tokyo-bay-ariake-washingtonhotel.html",
+    "Villa Fontaine Grand Tokyo Ariake": _B + "jp/villa-fontaine-grand-tokyo-ariake.html",
+    "Far East Village Hotel Tokyo, Ariake": _B + "jp/village-hotel-ariake-tokyo.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"
