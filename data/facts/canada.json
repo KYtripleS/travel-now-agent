@@ -1510,6 +1510,502 @@
           "a Banff Airporter drop-off at its door"
         ]
       }
+    },
+    {
+      "id": "ca.on.toronto.mat",
+      "topic": "tax",
+      "claim": "The City of Toronto Municipal Accommodation Tax is 6% of the purchase price of the room portion; the temporary 8.5% rate ended on 1 August 2026, and HST is also payable on the MAT portion.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-accommodation-tax/rates-and-exemptions",
+          "kind": "official",
+          "title": "City of Toronto: Municipal Accommodation Tax, rates and exemptions",
+          "evidence": [
+            "The MAT rate on transient accommodations is now 6 per cent.",
+            "Effective August 1, 2026, the temporary rate increase to 8.5 per cent for the Municipal Accommodation Tax (MAT) ended.",
+            "HST is also payable on the MAT portion."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "6% of the room portion",
+          "A temporary 8.5% rate ended on 1 August 2026",
+          "HST is payable on the MAT portion"
+        ]
+      }
+    },
+    {
+      "id": "ca.on.hst-rate",
+      "topic": "tax",
+      "claim": "Ontario's Harmonized Sales Tax is 13%.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.ontario.ca/document/harmonized-sales-tax-hst",
+          "kind": "official",
+          "title": "Government of Ontario: Harmonized Sales Tax",
+          "evidence": [
+            "Currently, the Harmonized Sales Tax is 13% in Ontario."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "Ontario Harmonized Sales Tax (HST)",
+          "13%, payable on the room and on the MAT"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel-tax.example",
+      "topic": "tax",
+      "claim": "Our arithmetic: a $300 room carries $18.00 MAT (6%), then HST of $41.34 on $318.00, for $359.34 a night, about 19.8% more than the quoted rate.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.toronto.ca/services-payments/property-taxes-utilities/municipal-accommodation-tax/rates-and-exemptions",
+          "kind": "official",
+          "title": "City of Toronto: Municipal Accommodation Tax, rates and exemptions",
+          "evidence": [
+            "The MAT rate on transient accommodations is now 6 per cent.",
+            "HST is also payable on the MAT portion."
+          ]
+        },
+        {
+          "url": "https://www.ontario.ca/document/harmonized-sales-tax-hst",
+          "kind": "official",
+          "title": "Government of Ontario: Harmonized Sales Tax",
+          "evidence": [
+            "Currently, the Harmonized Sales Tax is 13% in Ontario."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "on a $300 room the MAT is $18.00",
+          "HST at 13% on that is $41.34",
+          "the night costs $359.34"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.up-express.fare",
+      "topic": "fare",
+      "claim": "UP Express adult (13-64) one-way fare from Pearson to Union is $12.35 ($24.70 round trip); the adult PRESTO fare is $9.25 one way and is the only fare available with PRESTO contactless; children 12 and under travel free.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.upexpress.com/en/ways-to-pay/up-express-fares",
+          "kind": "operator",
+          "title": "UP Express: fares",
+          "evidence": [
+            "Adult (13-64) $12.35 $24.70",
+            "Children (12 and under) Free Free"
+          ]
+        },
+        {
+          "url": "https://www.upexpress.com/en/ways-to-pay/presto-fares",
+          "kind": "operator",
+          "title": "UP Express: fares with PRESTO",
+          "evidence": [
+            "Adult (13-64) $9.25",
+            "Only Adult PRESTO fares are available when using PRESTO contactless."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "The adult fare is $12.35 one way",
+          "or $9.25 when you pay with PRESTO or a contactless card",
+          "Children aged 12 and under travel free"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.up-express.time",
+      "topic": "transport",
+      "claim": "UP Express runs from Pearson Airport to downtown Toronto in 28 minutes.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.upexpress.com/",
+          "kind": "operator",
+          "title": "UP Express",
+          "evidence": [
+            "Pearson Airport to Downtown Toronto in 28 minutes"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "in 28 minutes"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.ttc.fares",
+      "topic": "fare",
+      "claim": "TTC adult fare: $3.30 with a PRESTO card or an Interac debit or credit card, $3.35 in cash; cash payers get no two-hour transfer and no monthly fare capping.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.ttc.ca/fares-and-passes",
+          "kind": "operator",
+          "title": "TTC: fares and passes",
+          "evidence": [
+            "Interac® Debit/credit card $3.30",
+            "Cash $3.35 $2.40 $2.30",
+            "Customers paying cash are not eligible for monthly fare capping or a two-hour transfer"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "a TTC adult fare is $3.30 with PRESTO or a debit or credit card, and $3.35 in cash",
+          "no two-hour transfer and no monthly fare capping"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.billy-bishop.shuttle",
+      "topic": "transport",
+      "claim": "A complimentary shuttle runs every 15 minutes between Billy Bishop Toronto City Airport and Union Station; the Union Station stop is on the west side of Fairmont Royal York Hotel.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.billybishopairport.com/to-from/shuttle/",
+          "kind": "operator",
+          "title": "Billy Bishop Toronto City Airport: shuttle",
+          "evidence": [
+            "Operating every 15 minutes",
+            "on the west side of Fairmont Royal York Hotel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "Union Station every 15 minutes",
+          "the Union Station stop is on the west side of the Fairmont Royal York"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.billy-bishop.ferry-streetcar",
+      "topic": "transport",
+      "claim": "The Billy Bishop ferry is free for pedestrians, crossing every 15 minutes from 05:15 to 00:07; the 509 Harbourfront streetcar from Bathurst and Queens Quay West reaches Union Station in under 15 minutes.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.billybishopairport.com/to-from/ferry/",
+          "kind": "operator",
+          "title": "Billy Bishop Toronto City Airport: ferry",
+          "evidence": [
+            "It is free for pedestrians",
+            "ferry crossings every 15 minutes",
+            "05:15AM- 12:07AM"
+          ]
+        },
+        {
+          "url": "https://www.billybishopairport.com/to-from/public-transportation/",
+          "kind": "operator",
+          "title": "Billy Bishop Toronto City Airport: public transportation",
+          "evidence": [
+            "Take the 509 Harbourfront streetcar east to Toronto’s Union Station in under 15 minutes"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "The ferry to the mainland is free for pedestrians and runs every 15 minutes, from 5:15 am to 12:07 am",
+          "reaches Union Station in under 15 minutes"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.le-germain-mercer",
+      "topic": "hotel",
+      "claim": "Le Germain Hotel Toronto Mercer is a boutique hotel on Mercer Street in the Entertainment District, within walking distance of King Street bars and Queen Street shops, with a rooftop terrace on the 11th floor; valet service carries additional fees.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.germainhotels.com/en/le-germain-hotel/toronto-mercer",
+          "kind": "operator",
+          "title": "Le Germain Hotel Toronto Mercer: official site",
+          "evidence": [
+            "within walking distance of King Street bars and Queen Street shops",
+            "Located on the 11th floor of Le Germain Hotel on Mercer Street",
+            "Valet service is available 24/7."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "within walking distance of King Street bars and Queen Street shops",
+          "a rooftop terrace on the 11th floor",
+          "valet service is offered, at additional fees"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.pantages",
+      "topic": "hotel",
+      "claim": "Pantages Hotel (200 Victoria Street) has 106 suites in Toronto's theatre district; check-in is at 3 pm and check-out at 11 am.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.pantageshotel.com/",
+          "kind": "operator",
+          "title": "Pantages Hotel: official site",
+          "evidence": [
+            "Step into one of our 106 suites",
+            "Check-In: 3 pm Check-Out: 11 am"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "with 106 suites",
+          "check-in is at 3 pm and check-out at 11 am"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.royal-york",
+      "topic": "hotel",
+      "claim": "Fairmont Royal York (100 Front Street West) has been a Toronto landmark since its opening in 1929.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.fairmont.com/en/hotels/toronto/fairmont-royal-york.html",
+          "kind": "operator",
+          "title": "Fairmont Royal York: official site",
+          "evidence": [
+            "A stately landmark since its opening in 1929"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "since its opening in 1929"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.victoria",
+      "topic": "hotel",
+      "claim": "Hotel Victoria (56 Yonge Street) has 56 rooms, has stood on Yonge Street for more than 110 years and puts the Financial District and Commerce Court seconds away.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://hotelvictoriatoronto.com/",
+          "kind": "operator",
+          "title": "Hotel Victoria: official site",
+          "evidence": [
+            "our 56 beautiful rooms",
+            "more than 110 years",
+            "Financial District and Commerce Court only seconds away"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "with 56 rooms",
+          "more than 110 years",
+          "the Financial District and Commerce Court seconds away"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.omni-king-edward",
+      "topic": "hotel",
+      "claim": "The Omni King Edward Hotel (37 King Street East) has 301 accommodations, a heritage dating to 1903, and describes itself as conveniently located near a subway station.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.omnihotels.com/hotels/toronto-king-edward",
+          "kind": "operator",
+          "title": "The Omni King Edward Hotel: official site",
+          "evidence": [
+            "dating to 1903",
+            "301 spacious accommodations",
+            "conveniently located near a subway station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "a heritage dating to 1903",
+          "301 rooms",
+          "near a subway station"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.four-seasons",
+      "topic": "hotel",
+      "claim": "Four Seasons Hotel Toronto (60 Yorkville Avenue) is in Yorkville near Bloor Street and Bay Street, with Café Boulud and a spa it calls the city's only Forbes 5-Star Spa.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/toronto/",
+          "kind": "operator",
+          "title": "Four Seasons Hotel Toronto: official site",
+          "evidence": [
+            "located in the heart of Yorkville near Bloor Street and Bay Street",
+            "Café Boulud",
+            "only Forbes 5-Star Spa"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "near Bloor Street and Bay Street",
+          "Café Boulud",
+          "only Forbes 5-Star Spa"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.hazelton",
+      "topic": "hotel",
+      "claim": "The Hazelton Hotel (118 Yorkville Avenue) has Deluxe King rooms starting at a minimum of 465 sq ft; the Luxury Two Queen Room is at the back and overlooks a laneway.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.thehazeltonhotel.com/rooms-suites/",
+          "kind": "operator",
+          "title": "The Hazelton Hotel: official site",
+          "evidence": [
+            "starting at a minimum of 465 sq. ft.",
+            "overlooks a laneway"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "starting at a minimum of 465 sq ft",
+          "overlooks a laneway"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.drake",
+      "topic": "hotel",
+      "claim": "The Drake Hotel (1150 Queen Street West) has 51 art-filled rooms across the Modern and Classic Wings and live shows at the Drake Underground.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://thedrake.ca/thedrakehotel/",
+          "kind": "operator",
+          "title": "The Drake Hotel: official site",
+          "evidence": [
+            "Our 51 art-filled rooms span the Modern and Classic Wings",
+            "live shows at the Drake Underground"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "51 art-filled rooms",
+          "live shows at the Drake Underground"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.gladstone-house",
+      "topic": "hotel",
+      "claim": "Gladstone House (1214 Queen Street West) dates its history to 1889; its rooms are Studio Queen 180 sq ft, Studio King 210 sq ft, Loft King 310 sq ft and Corner King 325 sq ft.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.gladstonehouse.ca/stay/",
+          "kind": "operator",
+          "title": "Gladstone House: official site",
+          "evidence": [
+            "A Hub for Creativity, Since 1889",
+            "Our Studio Queen Guestrooms are 180ft2",
+            "The spacious Studio King Guestroom is 210ft2",
+            "The Corner King is 325ft2"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "a hotel since 1889",
+          "The Studio Queen is 180 sq ft, the Studio King 210 sq ft, the Loft King 310 sq ft and the Corner King 325 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.westin-harbour-castle",
+      "topic": "hotel",
+      "claim": "The Westin Harbour Castle, Toronto (1 Harbour Square) has an indoor pool, a whirlpool, a tennis court and 70,000 square feet of meeting space.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/yyzwi-the-westin-harbour-castle-toronto/overview/",
+          "kind": "operator",
+          "title": "The Westin Harbour Castle, Toronto: official site",
+          "evidence": [
+            "practice your backhand on the tennis court",
+            "70,000 square feet of superbly appointed meeting space"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "an indoor pool, a whirlpool and a tennis court",
+          "70,000 square feet of meeting space"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.le-germain-maple-leaf-square",
+      "topic": "hotel",
+      "claim": "Le Germain Hotel Toronto Maple Leaf Square (75 Bremner Boulevard) is a 167-room boutique hotel by the CN Tower and the waterfront, steps from Scotiabank Arena.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.germainhotels.com/en/le-germain-hotel/toronto-maple-leaf-square",
+          "kind": "operator",
+          "title": "Le Germain Hotel Toronto Maple Leaf Square: official site",
+          "evidence": [
+            "our 167-room boutique hotel",
+            "just steps from your room"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "a 167-room boutique hotel",
+          "steps from Scotiabank Arena"
+        ]
+      }
+    },
+    {
+      "id": "ca.toronto.hotel.alt-airport",
+      "topic": "hotel",
+      "claim": "Alt Hotel Toronto Airport (6080 Viscount Road, Mississauga) is linked to the airport terminals and economy parking by the free 24/7 LINK train and has a 24-hour gym on the 14th floor.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.germainhotels.com/en/alt-hotel/toronto-airport",
+          "kind": "operator",
+          "title": "Alt Hotel Toronto Airport: official site",
+          "evidence": [
+            "connected to the terminals and economy parking by the free 24/7 LINK train",
+            "A well-equipped gym is available 24 hours a day on the 14th floor."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-toronto.html": [
+          "the free 24/7 LINK train",
+          "a 24-hour gym on the 14th floor"
+        ]
+      }
     }
   ]
 }

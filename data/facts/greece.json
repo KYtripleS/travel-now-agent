@@ -544,6 +544,444 @@
           "Guest Rooms of 30 m²"
         ]
       }
+    },
+    {
+      "id": "gr.santorini.climate-fee-rates",
+      "topic": "tax",
+      "claim": "Greek hotels, Santorini included, charge the climate crisis resilience fee per room per night under Law 5177/2025 article 44: April to October €2 (1-2 stars), €5 (3), €10 (4), €15 (5); November to March €0.50, €1.50, €3 and €4.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.nomotelia.gr/photos/File/21a-25.pdf",
+          "kind": "official",
+          "title": "Government Gazette A' 21/14.02.2025: Law 5177/2025, article 44 (copy hosted by nomotelia.gr)",
+          "evidence": [
+            "αβ) 3 αστέρων, πέντε (5) ευρώ,",
+            "αγ) 4 αστέρων, δέκα (10) ευρώ,",
+            "αδ) 5 αστέρων, τέσσερα (4) ευρώ,"
+          ]
+        },
+        {
+          "url": "https://www.aade.gr/en/climate-crisis-resilience-fee-issuance-statement",
+          "kind": "official",
+          "title": "AADE: Climate Crisis Resilience Fee Issuance Statement",
+          "evidence": [
+            "Last updated Januaery 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "are set in article 44 of Law 5177/2025",
+          "charged per room per night, and the amount depends on the hotel's stars and on the month",
+          "four nights in July at a three-star hotel cost 4 × €5 = €20"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.cruise-fee",
+      "topic": "tax",
+      "claim": "Under article 27 of Law 5162/2024 a cruise passenger disembarking at Santorini or Mykonos pays €20 from 1 June to 30 September, €12 in October and 1 April to 31 May, and €4 from 1 November to 31 March.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.taxheaven.gr/law/5162/2024/arthro/27",
+          "kind": "news",
+          "title": "Law 5162/2024, article 27, cruise fee (taxheaven.gr legal database)",
+          "evidence": [
+            "για αποβίβαση σε λιμένες των νήσων Μυκόνου και Σαντορίνης σε είκοσι (20) ευρώ,",
+            "για αποβίβαση σε λιμένες των νήσων Μυκόνου και Σαντορίνης σε δώδεκα (12) ευρώ,",
+            "για αποβίβαση σε λιμένες των νήσων Μυκόνου και Σαντορίνης σε τέσσερα (4) ευρώ,"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "€20 from 1 June to 30 September, €12 in October and from 1 April to 31 May, and €4 from 1 November to 31 March"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.cruise-cap",
+      "topic": "place",
+      "claim": "Santorini's port fund policy for 2025 to 2026 says cruise passengers visiting the island will not exceed 8,000 on the same day; no 2027 policy was found.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.santoriniports.gov.gr/sites/default/files/2024-11/Cruise%20Ship%20Berthing%20Policy%202025-2026-Decision-FINAL-JTR-eng.pdf",
+          "kind": "official",
+          "title": "Municipal Port Fund of Thira: Cruise Ship Berthing Policy 2025-2026",
+          "evidence": [
+            "will not exceed 8,000 passengers/visitors, on the same day"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "will not exceed 8,000 on the same day",
+          "caps cruise visitors at 8,000 on any one day"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.ktel-fares",
+      "topic": "fare",
+      "claim": "KTEL Santorini's price list (updated 19 May 2026): Fira to Oia, Kamari, the airport via Kamari and Monolithos, Megalochori and Pyrgos €2.20; Fira to Perissa and Perivolos and to Athinios €2.70; night fares (00:30-05:00) +25%.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://ktel-santorini.gr/pricetable/",
+          "kind": "operator",
+          "title": "KTEL Santorini: price list",
+          "evidence": [
+            "Τελευταία Ενημέρωση: 19/05/2026",
+            "Φηρά - Λιμάνι (Αθηνιός)",
+            "Φηρά-Καμάρι-Μονόλιθος-Αεροδρόμιο",
+            "Νυχτερινό 00:30-05:00 (+25%)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "The KTEL fare from Athinios to Fira is €2.70",
+          "last updated on 19 May 2026",
+          "Between 00:30 and 05:00 the fare rises by 25%"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.ktel-oia-kamari-distance",
+      "topic": "transport",
+      "claim": "KTEL's price list gives Fira to Oia as 11.8 km, Fira to Kamari 7.3 km and Fira to Megalochori 10.7 km.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://ktel-santorini.gr/pricetable/",
+          "kind": "operator",
+          "title": "KTEL Santorini: price list",
+          "evidence": [
+            "Φηρά - Οία",
+            "Φηρά - Καμάρι",
+            "Φηρά - Μεγαλοχώρι"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "It is 11.8 km from Fira by KTEL's price list",
+          "Kamari is 7.3 km from Fira by KTEL's price list",
+          "Megalochori is 10.7 km away"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.ktel-airport",
+      "topic": "transport",
+      "claim": "KTEL Santorini's routes page says the airport is ten minutes from Fira by its bus.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://ktel-santorini.gr/routes/",
+          "kind": "operator",
+          "title": "KTEL Santorini: routes",
+          "evidence": [
+            "Από τα Φηρά για το ΑΕΡΟΔΡΟΜΙΟ σε 10 λεπτά!",
+            "Φηρά ↔ Αεροδρόμιο"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "says the airport is ten minutes from Fira"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.athinios-piraeus",
+      "topic": "transport",
+      "claim": "The Santorini port authority says Athinios is connected to Piraeus daily and throughout the year.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.santoriniports.gov.gr/en/athinios",
+          "kind": "official",
+          "title": "Santorini ports: Athinios",
+          "evidence": [
+            "It is connected to Piraeus daily and throughout the year"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "the port is connected to Piraeus daily and throughout the year"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.aressana",
+      "topic": "hotel",
+      "claim": "Aressana Spa Hotel & Suites in Fira has the Tefsion Kallos Spa and the Ifestioni restaurant; its Classic Double is about 15-17 sq m and its Junior Suites about 30 sq m with a sharing pool.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://aressana.gr/accommodation/",
+          "kind": "operator",
+          "title": "Aressana: accommodation",
+          "evidence": [
+            "15-17 sq. m.",
+            "Junior Suite With Sharing Pool"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "with the Tefsion Kallos Spa and the Ifestioni restaurant",
+          "about 15 to 17 sq m by the hotel's own figure"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.keti",
+      "topic": "hotel",
+      "claim": "Hotel Keti in Fira has nine rooms at the left end of the caldera rim.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://hotelketi.gr/",
+          "kind": "operator",
+          "title": "Hotel Keti",
+          "evidence": [
+            "The hotel consists of 9 spacious and traditionally decorated rooms."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "with nine rooms, each with a balcony and a view of the caldera",
+          "it has only nine rooms"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.astra",
+      "topic": "hotel",
+      "claim": "Astra Suites in Imerovigli is an all-suites hotel with a cliff-side infinity pool and a pool bar.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://astrasuites.com/",
+          "kind": "operator",
+          "title": "Astra Suites",
+          "evidence": [
+            "cliff-side infinity pool",
+            "all-suites retreat"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "an all-suites hotel with a cliff-side infinity pool, a pool bar"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.sunrocks",
+      "topic": "hotel",
+      "claim": "Sun Rocks Boutique Hotel is carved into the volcanic cliffs of Firostefani.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.sunrockssantorini.com/",
+          "kind": "operator",
+          "title": "Sun Rocks Santorini",
+          "evidence": [
+            "Carved into the volcanic cliffs of Firostefani"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "Carved into the volcanic cliffs of Firostefani"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.view-studios",
+      "topic": "hotel",
+      "claim": "Santorini View Studios is a family-managed hotel of six studios on the caldera cliffs of Firostefani, partly renovated at the end of 2016.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://santoriniviewstudio.com/",
+          "kind": "operator",
+          "title": "Santorini View Studios",
+          "evidence": [
+            "it is composed of 6 studios and it has been partially renovated at the end of 2016",
+            "family managed hotel located on the caldera’s clifs of Firostefani"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "with six studios, partly renovated at the end of 2016"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.canaves",
+      "topic": "hotel",
+      "claim": "Canaves Oia Suites has 46 suites and villas at the entrance of Oia and says it is the only property in Oia with full elevator access to almost all room levels.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://canaves.com/canaves-oia-suites/about-canaves-oia-suites/",
+          "kind": "operator",
+          "title": "Canaves Oia Suites: about",
+          "evidence": [
+            "a premier luxury resort hotel of 46 Suites & Villas in Santorini",
+            "next to the famous marble path",
+            "the only property in Oia with full elevator access to almost all room levels"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "A hotel of 46 suites and villas at the entrance of Oia",
+          "full elevator access to almost all room levels"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.perivolas",
+      "topic": "hotel",
+      "claim": "Perivolas is on the cliffs a short walk from Oia, with an infinity pool, a spa, a gym and on-site parking.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.perivolas.gr/",
+          "kind": "operator",
+          "title": "Perivolas",
+          "evidence": [
+            "Just a short walk from Oia",
+            "an infinity pool that merges seamlessly with the Aegean Sea"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "an infinity pool that merges with the Aegean, a spa, a gym and on-site parking"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.matina",
+      "topic": "hotel",
+      "claim": "Hotel Matina is a family-run boutique hotel at Kamari Beach with a swimming pool and a poolside bar.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotel-matina.com/",
+          "kind": "operator",
+          "title": "Hotel Matina",
+          "evidence": [
+            "A family-run boutique hotel",
+            "poolside bar"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "A family-run boutique hotel at Kamari Beach, with a swimming pool and a poolside bar"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.kamari-beach",
+      "topic": "hotel",
+      "claim": "Kamari Beach Hotel describes itself as a 3-star resort set right on the beach, with 106 rooms.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://kamaribeach.gr/",
+          "kind": "operator",
+          "title": "Kamari Beach Hotel",
+          "evidence": [
+            "Our friendly 3-star resort, set right on the beach",
+            "Our 106 spacious rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "A three-star resort set right on the black volcanic beach of Kamari",
+          "with 106 rooms"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.black-sandy-beach",
+      "topic": "hotel",
+      "claim": "Black Sandy Beach in Perissa is just steps from Perissa Beach, with a pool, and is part of Meltemi Hotels & Resorts.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.blacksandybeach.gr/",
+          "kind": "operator",
+          "title": "Black Sandy Beach",
+          "evidence": [
+            "Meltemi Hotels & Resorts",
+            "Perissa Beach"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "Just steps from Perissa Beach, with a pool, part of Meltemi Hotels & Resorts"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.vedema",
+      "topic": "hotel",
+      "claim": "Vedema in Megalochori has evolved from a 400-year-old winery into a village retreat.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://vedema.gr/",
+          "kind": "operator",
+          "title": "Vedema",
+          "evidence": [
+            "has evolved from a 400-year-old winery into an authentic, Cycladic village retreat",
+            "medieval village of Megalochori"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "a resort that has evolved from a 400-year-old winery into a village retreat among vineyards"
+        ]
+      }
+    },
+    {
+      "id": "gr.santorini.hotel.zannos",
+      "topic": "hotel",
+      "claim": "Zannos Melathron is a mansion in Pyrgos village, a five-minute walk from the village's central square.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://zannos.gr/",
+          "kind": "operator",
+          "title": "Zannos Melathron",
+          "evidence": [
+            "After a five minute walk from Pyrgos village's central square"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-santorini.html": [
+          "reached by a five-minute walk from the village's central square through the alleys"
+        ]
+      }
     }
   ]
 }

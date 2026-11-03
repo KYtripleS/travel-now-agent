@@ -591,6 +591,18 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-toronto.html": (
+        "Where to Stay in Toronto",
+        "Union Station, Yorkville, Queen West and the waterfront: 12 hotels and the 6% tax plus 13% HST.",
+    ),
+    "articles/where-to-stay-in-santorini.html": (
+        "Where to Stay in Santorini",
+        "Fira, Firostefani, Oia, Kamari and Pyrgos, 12 hotels, Greece's €2 to €15 room fee and KTEL bus fares.",
+    ),
+    "articles/where-to-stay-in-maui.html": (
+        "Where to Stay in Maui",
+        "Five areas, 12 hotels, taxes of up to 18.712% on a Maui room, and the airport, car hire and Lahaina, stated carefully.",
+    ),
     "articles/where-to-stay-for-monaco-grand-prix.html": (
         "Where to Stay in Monaco",
         "Monte-Carlo, Beausoleil, Menton or Nice for 3 to 6 June 2027: 12 hotels, the sprint weekend and the tax.",
@@ -2321,6 +2333,24 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-toronto.html": [
+        "articles/where-to-stay-in-montreal.html",
+        "articles/where-to-stay-in-vancouver.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-santorini.html": [
+        "articles/where-to-stay-in-athens.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-in-maui.html": [
+        "articles/where-to-stay-in-honolulu.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-usa-2026.html",
     ],
     "articles/where-to-stay-for-monaco-grand-prix.html": [
         "articles/where-to-stay-in-nice.html",

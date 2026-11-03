@@ -446,6 +446,18 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-toronto": dict(
+        text="For a first trip, stay around Union Station: the airport train, the Billy Bishop shuttle and the lake close by. Choose the Entertainment District for theatres, Yorkville for shops, Queen West for galleries. The 6% tax and 13% HST add about 19.8%.",
+        link_text="Union Station",
+        cta=_stay_cta("where-to-stay-in-toronto", "See hotels around Union Station")),
+    "where-to-stay-in-santorini": dict(
+        text="For a first trip, stay in Fira or Firostefani: the capital's buses, with the caldera rim next door. Choose Oia for the sunsets, Kamari for a beach and Megalochori for a village. The climate resilience fee is €2 to €15 a room a night, April to October.",
+        link_text="Fira",
+        cta=_stay_cta("where-to-stay-in-santorini", "See hotels around Fira")),
+    "where-to-stay-in-maui": dict(
+        text="For a first trip, stay in Kaanapali: one long beach with resorts along it, in West Maui. Choose Wailea for polished South Maui resorts, Kihei for a kitchen at a lower price, Paia for the road to Hana. Taxes add up to 18.712%.",
+        link_text="Kaanapali",
+        cta=_stay_cta("where-to-stay-in-maui", "See hotels around Kaanapali")),
     "where-to-stay-for-monaco-grand-prix": dict(
         text="For a first race weekend, stay in Monte-Carlo if the budget allows: the Casino and the hairpin are on foot. Choose Fairmont Monte Carlo for a splurge, Novotel Monte-Carlo for comfort, Hotel Capitole in Beausoleil for value. Monaco's tourist tax is €2 to €7 a person a night; France's is lower.",
         link_text="Monte-Carlo",
@@ -1754,6 +1766,9 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-toronto": ["Fairmont Royal York", "Le Germain Hotel Toronto Mercer", "Hotel Victoria"],
+    "where-to-stay-in-santorini": ["Astra Suites", "Aressana Spa Hotel & Suites", "Hotel Keti"],
+    "where-to-stay-in-maui": ["OUTRIGGER Kāʻanapali Beach Resort", "Royal Lahaina Resort & Bungalows", "Grand Wailea"],
     "where-to-stay-for-monaco-grand-prix": ["Fairmont Monte Carlo", "Novotel Monte-Carlo", "Hotel Capitole"],
     "where-to-stay-in-munich-oktoberfest": ["Cocoon Munich Theresienwiese", "Hotel Mariandl", "Mandarin Oriental, Munich"],
     "where-to-stay-for-wimbledon": ["Dog & Fox", "Premier Inn London Wimbledon (Broadway)", "Hotel du Vin Cannizaro House"],
@@ -2544,6 +2559,9 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Toronto", "where-to-stay-in-toronto", None, None),
+        ("Santorini", "where-to-stay-in-santorini", None, None),
+        ("Maui", "where-to-stay-in-maui", None, None),
         ("Monaco", "where-to-stay-for-monaco-grand-prix", None, None),
         ("Munich", "where-to-stay-in-munich-oktoberfest", None, None),
         ("London", "where-to-stay-for-wimbledon", None, None),
@@ -3052,6 +3070,15 @@ STAY_POINTERS = {
     "where-to-stay-in-boston": ("intro",
         'Running or watching in April? <a href="where-to-stay-for-boston-marathon.html">Where to stay for the Boston '
         'Marathon 2027</a> (Monday 19 April) weighs Back Bay by the finish against Cambridge and the start towns.'),
+    "where-to-stay-in-montreal": ("intro",
+        'Going on to Ontario? <a href="where-to-stay-in-toronto.html">Where to stay in Toronto</a> compares '
+        'Downtown, Yorkville and Queen West, with the UP Express from Pearson and the city’s 6% accommodation tax.'),
+    "where-to-stay-in-athens": ("intro",
+        'Going on to the islands? <a href="where-to-stay-in-santorini.html">Where to stay in Santorini</a> compares '
+        'Fira, the caldera villages, Oia and the beach towns, with the same climate fee by season.'),
+    "where-to-stay-in-honolulu": ("intro",
+        'Adding another island? <a href="where-to-stay-in-maui.html">Where to stay in Maui</a> compares Kaanapali, '
+        'Wailea, Kihei and Paia, with the same Hawaii taxes and a note on Lahaina’s recovery.'),
     "where-to-stay-in-zurich": ("intro",
         'Heading on to the mountains? <a href="where-to-stay-in-zermatt.html">Where to stay in Zermatt for the '
         '2026/27 ski season</a> sorts the car-free village by lift, about three and a half hours by train from '

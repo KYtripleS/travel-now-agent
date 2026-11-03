@@ -185,6 +185,10 @@
           "Hawaii's state hotel tax rose to 11% on 1 January 2026",
           "11% of the room rate, from 1 January 2026 to 31 December 2030",
           "The state rate was 10.25% until the end of 2025"
+        ],
+        "articles/where-to-stay-in-maui.html": [
+          "11% of the room rate, from 1 January 2026 to 31 December 2030",
+          "The state rate was 10.25% until the end of 2025"
         ]
       }
     },
@@ -9944,6 +9948,500 @@
       "used_in": {
         "articles/where-to-stay-for-boston-marathon.html": [
           "on-site parking at $15 a day"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.tat-county",
+      "topic": "tax",
+      "claim": "Maui County's own transient accommodations tax (MCTAT) is 3% of gross rental proceeds, in force since 1 November 2021, and may be visibly passed on to the guest.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mauicounty.gov/2466/Transient-Accommodations-Tax",
+          "kind": "official",
+          "title": "County of Maui: Transient Accommodations Tax (FAQs)",
+          "evidence": [
+            "at a rate of 3 percent on all gross rental",
+            "MCTAT may be visibly passed on to the guest.",
+            "MCTAT took effect on November 1, 2021"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "Maui County transient accommodations tax",
+          "3% of the room rate",
+          "Maui County has charged its own 3% tax since 1 November 2021",
+          "it may be visibly passed on to the guest"
+        ]
+      },
+      "note": "mauicounty.gov blocks curl/WebFetch (403): read in a browser tab; facts_watch may need a browser fetch. FAQ text is in collapsed accordions (in page textContent)."
+    },
+    {
+      "id": "us.maui.get-passon",
+      "topic": "tax",
+      "claim": "Maui's general excise tax is 4% plus a 0.5% county surcharge (1 Jan 2024 to 31 Dec 2030); the most a business may pass on is 4.712%.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://files.hawaii.gov/tax/geninfo/info/table-of-maximum-ge-pass-on-rates_sep2023.pdf",
+          "kind": "official",
+          "title": "Hawaii Department of Taxation: County surcharge and maximum GE tax pass-on rates",
+          "evidence": [
+            "Businesses may pass on the GE tax and any applicable county surcharge to customers at the maximum pass-on rate."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "4.5% a hotel owes; at most 4.712% may be added to your bill",
+          "it is 4% plus a 0.5% Maui County surcharge, in force from 1 January 2024 to 31 December 2030",
+          "4.712% is the most a business may add to your bill"
+        ]
+      },
+      "note": "Table row read via Ghostscript text: 'Maui 0.50% January 1, 2024 - December 31, 2030 4.7120%'; evidence quote is the footnote because the row is table text."
+    },
+    {
+      "id": "us.maui.hotel-tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic, not an official figure: on a $300 room with 11% state TAT, 3% Maui County TAT and 4.712% GET all passed on, tax is $33.00 + $9.00 + $14.14 = $56.14 (18.712%), a total of $356.14 a night.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://files.hawaii.gov/tax/news/announce/ann26-01.pdf",
+          "kind": "official",
+          "title": "Hawaii Department of Taxation: Announcement 2026-01",
+          "evidence": [
+            "Act 96 increases the transient accommodations tax (TAT) rate from 10.25 percent to 11"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "up to 18.712% in tax",
+          "On a $300 room that is $56.14 a night",
+          "$33.00 state tax, $9.00 Maui County tax and $14.14 general excise tax, $56.14 in all, so $356.14 a night",
+          "a $300 room costs up to $356.14 a night"
+        ]
+      },
+      "note": "Derived arithmetic, same method as us.honolulu.hotel-tax-example; assumes all three passed on; how a resort fee is taxed not checked."
+    },
+    {
+      "id": "us.ogg.maui-bus",
+      "topic": "transport",
+      "claim": "Kahului Airport: the Maui Bus gives limited service to the airport; Route 40 (Upcountry Islander) and Route 35 (Haiku Islander) stop there every 90 minutes; luggage is one medium suitcase, duffle or carry-on under the seat or on the lap; no transfers on these routes.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://airports.hawaii.gov/ogg/getting-to-from/ground-transportation/maui-bus/",
+          "kind": "official",
+          "title": "Kahului Airport: Maui Bus",
+          "evidence": [
+            "provides limited service to the airport",
+            "Route 40 (Upcountry Islander) — Operates every 90 minutes",
+            "Route 35 (Haiku Islander) — Operates every 90 minutes",
+            "One (1) Medium-sized suitcase, duffle bag, or carry-on bag allowed"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "provides limited service to the airport",
+          "Route 40, the Upcountry Islander, and Route 35, the Haiku Islander, each every 90 minutes",
+          "Luggage is limited to one medium-sized suitcase, duffle bag or carry-on that fits under your seat or on your lap",
+          "no transfers are given on the airport routes"
+        ]
+      }
+    },
+    {
+      "id": "us.maui-bus.fare-2026",
+      "topic": "fare",
+      "claim": "Maui Bus fixed route: general single fare $2 per boarding; monthly general pass $45 per person (County page, read 4 Nov 2026).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mauicounty.gov/3075/Maui-Bus-Route-Service-Updates",
+          "kind": "official",
+          "title": "County of Maui: Maui Bus route and service updates",
+          "evidence": [
+            "General single-fare boarding fares remain $2 per boarding and monthly General passes for each month remain $45 per person."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "is $2 per boarding, and a monthly general pass is $45"
+        ]
+      },
+      "note": "Browser-read (mauicounty.gov blocks curl)."
+    },
+    {
+      "id": "us.ogg.car-rentals",
+      "topic": "transport",
+      "claim": "The airport's own page lists nine car-rental companies: Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National, Sixt and Thrifty.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://airports.hawaii.gov/ogg/getting-to-from/ground-transportation/car-rentals/",
+          "kind": "official",
+          "title": "Kahului Airport: car rentals",
+          "evidence": [
+            "Alamo Rent-A-Car",
+            "Sixt Rent A Car LLC",
+            "Thrifty Rent-A-Car"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "The airport's page lists nine car-rental companies: Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National, Sixt and Thrifty"
+        ]
+      }
+    },
+    {
+      "id": "us.hale.sunrise-reservation",
+      "topic": "place",
+      "claim": "Haleakala National Park: a sunrise reservation is needed to reach the summit 3:00 to 7:00 AM; $1.00 per vehicle on top of the entrance fee; booked on recreation.gov; released 60 days ahead at 7:00 am HST; cars without one cannot enter until 7:00 am.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://home.nps.gov/hale/planyourvisit/haleakala-sunrise-reservations-faq.htm",
+          "kind": "official",
+          "title": "National Park Service: Haleakala sunrise reservations FAQ",
+          "evidence": [
+            "The reservation cost is $1.00 per vehicle.",
+            "you only need a sunrise reservation to access the summit during sunrise hours (3:00 AM to 7:00 AM)",
+            "Reservations are available online 60 days in advance, released at 7:00 am HST",
+            "The reservation cost is in addition to the entrance fee",
+            "Cars without a sunrise reservation will not be able to enter the park until 7:00 am."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "between 3am and 7am. It costs $1.00 per vehicle, on top of the park entrance fee, and is booked on recreation.gov",
+          "Reservations open 60 days ahead, at 7am Hawaii time",
+          "without one, cars cannot enter the park until 7am"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.lahaina-front-street",
+      "topic": "place",
+      "claim": "County of Maui Office of Recovery (17 July 2026): Front Street to reopen to vehicles on 1 Aug 2026 from Pāpalaua to Shaw, Dickenson and Prison also; Market, Papelekane and Mokuhinia stay closed; rebuilding continues; public asked to stay off private property and out of fenced-off areas. A later County confirmation of the reopening was not found.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mauicounty.gov/CivicAlerts.aspx?AID=19055",
+          "kind": "official",
+          "title": "County of Maui: Lahaina's Front Street scheduled to reopen on Aug. 1, 2026",
+          "evidence": [
+            "Front Street will reopen to vehicular traffic on Aug. 1, 2026",
+            "Market Street, Papelekane Street and Mokuhinia Place will remain closed due to ongoing work",
+            "the public is encouraged to stay off private property and out of fenced-off areas"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "said in July that Front Street would reopen to vehicles on 1 August 2026, from Pāpalaua to Shaw Street, with Dickenson and Prison streets",
+          "Market Street, Papelekane Street and Mokuhinia Place would stay closed for ongoing work, including the state's dredging of Lahaina Harbor",
+          "rebuilding throughout the commercial district will continue",
+          "stay off private property and out of fenced-off areas"
+        ]
+      },
+      "note": "Browser-read. Status after 1 Aug is NOT confirmed by an official post-reopening notice (Maui Now 2 Aug feature only); the article says so. Recheck on mauirecovers.org before publish."
+    },
+    {
+      "id": "us.maui.hotel.royal-lahaina",
+      "topic": "hotel",
+      "claim": "Royal Lahaina: 2780 Kekaa Drive on Ka'anapali Beach, 27 tropical acres, tower rooms and bungalows, Myths of Maui Luau, Lahaina Noon and Pineapple Moon; offers mention waived and half-off resort fees; amount not shown on the page read.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.royallahaina.com/",
+          "kind": "official",
+          "title": "Royal Lahaina Resort & Bungalows",
+          "evidence": [
+            "Spanning 27 tropical acres in West Maui",
+            "Myths of Maui Luau",
+            "Plus, half-off resort fees.",
+            "waived resort fee"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "At 2780 Kekaa Drive, on Kaanapali Beach across 27 acres",
+          "the Myths of Maui Luau and restaurants including Lahaina Noon and Pineapple Moon",
+          "waived on its government rate and half-off on a weekly stay"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.outrigger-kaanapali",
+      "topic": "hotel",
+      "claim": "OUTRIGGER Kāʻanapali Beach Resort: 2525 Kaanapali Parkway; steps from Kaanapali Beach; Signature rooms renovated 2025, Premium rooms remodelled 2021; Maui Brewing Company restaurant with views of Kaanapali Beach.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.outrigger.com/hawaii/maui/kaanapali-beach-resort-hotel",
+          "kind": "official",
+          "title": "OUTRIGGER Kāʻanapali Beach Resort",
+          "evidence": [
+            "2525 Kaanapali Parkway, Lahaina, Hawaii 96761",
+            "Newly renovated in 2025",
+            "Remodeled in 2021",
+            "Maui Brewing Company"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "At 2525 Kaanapali Parkway, steps from Kaanapali Beach",
+          "the Signature rooms were renovated in 2025 and the Premium rooms in 2021"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.honua-kai",
+      "topic": "hotel",
+      "claim": "OUTRIGGER Honua Kai Resort & Spa: 130 Kai Malina Parkway on Kaanapali North Beach; studios to two-bedrooms with full gourmet kitchens and in-room washers and dryers; Duke's Beach House on site.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.honuakai.com/",
+          "kind": "official",
+          "title": "OUTRIGGER Honua Kai Resort & Spa",
+          "evidence": [
+            "130 Kai Malina Parkway",
+            "Located on Maui’s renowned Kaanapali North Beach",
+            "Duke’s Beach House"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "At 130 Kai Malina Parkway, on Kaanapali North Beach",
+          "with studios to two-bedroom suites that have full kitchens and in-room washers and dryers, and Duke's Beach House on site"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.napili-kai",
+      "topic": "hotel",
+      "claim": "Napili Kai Beach Resort: 5900 Lower Honoapiilani Road; oceanfront boutique resort in Napili Bay; one-bedroom suites and Ocean View Studios; Sea House Restaurant and Makai Hale Snack Bar.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.napilikai.com/",
+          "kind": "official",
+          "title": "Napili Kai Beach Resort",
+          "evidence": [
+            "An oceanfront, boutique resort in unspoiled Napili Bay",
+            "5900 Lower Honoapiilani Road",
+            "Sea House Restaurant",
+            "Makai Hale Snack Bar"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "At 5900 Lower Honoapiilani Road, an oceanfront boutique resort in Napili Bay with one-bedroom suites and Ocean View Studios",
+          "the Sea House Restaurant and the Makai Hale Snack Bar"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.napili-surf",
+      "topic": "hotel",
+      "claim": "Napili Surf Beach Resort: steps from Napili Beach; recently renovated one-bedroom and studio units with fully-equipped kitchens, private lanais and air conditioning; walking distance to dining and the Kapalua Coastal Trail.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.napilisurf.com/",
+          "kind": "official",
+          "title": "Napili Surf Beach Resort",
+          "evidence": [
+            "offers recently renovated one-bedroom and studio accommodations featuring fully-equipped kitchens, private lanais, and air conditioning",
+            "Kapalua Coastal Trail"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "Steps from Napili Beach, with recently renovated studios and one-bedrooms that have fully equipped kitchens, private lanais and air conditioning"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.grand-wailea",
+      "topic": "hotel",
+      "claim": "Grand Wailea: 3850 Wailea Alanui Drive; Nobu Grand Wailea, Kilolani Spa & Salon, The Lūʻau; offers say rate does not include taxes, gratuities, daily resort fee, valet parking charge or incidentals; fee amount not shown.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.grandwailea.com/",
+          "kind": "official",
+          "title": "Grand Wailea",
+          "evidence": [
+            "3850 Wailea Alanui Dr., Wailea, HI 96753",
+            "Rate does not include taxes, gratuities, daily resort fee, valet parking charge, or incidental charges.",
+            "Nobu Grand Wailea",
+            "Kilolani Spa & Salon"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "At 3850 Wailea Alanui Drive, with Nobu Grand Wailea among its restaurants, the Kilolani Spa & Salon and a lūʻau",
+          "rates do not include taxes, gratuities, the daily resort fee, valet parking or incidentals"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.hotel-wailea",
+      "topic": "hotel",
+      "claim": "Hotel Wailea: adults-only, 15 acres, 72 suites, The Birdcage Japanese Grill; calls itself Hawaii's only Relais & Châteaux hotel.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelwailea.com/",
+          "kind": "official",
+          "title": "Hotel Wailea",
+          "evidence": [
+            "Set on 15 acres with just 72 suites",
+            "Hawaii's Sole Adults-Only Relais & Châteaux Hotel",
+            "The Birdcage Japanese Grill"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "Set on 15 acres with just 72 suites, adults only, and The Birdcage Japanese Grill on site",
+          "the hotel calls itself Hawaii's only Relais & Châteaux property"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.maui-coast",
+      "topic": "hotel",
+      "claim": "Maui Coast Hotel (Kihei): short stroll to Kamaole Beach Park I; pool; original Hōkū Tower and Kai Tower, opened 2024.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mauicoasthotel.com/",
+          "kind": "official",
+          "title": "Maui Coast Hotel",
+          "evidence": [
+            "take a short stroll to the white sands of Kamaole Beach Park I",
+            "Our newest addition, opened in 2024",
+            "Unwind by the pool"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "a short stroll from Kamaole Beach Park I, with a pool, the classic Hōkū Tower and the Kai Tower, which opened in 2024",
+          "the Hōkū Tower classic and the Kai Tower modern"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.mana-kai",
+      "topic": "hotel",
+      "claim": "Mana Kai Maui: 2960 South Kihei Road; mile-long Keawakapu Beach at the doorstep; one- and two-bedroom ocean-front condominiums and hotel-style units; free parking, Wi-Fi, maid service; Beach House renovation notice.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.manakaimaui.com/",
+          "kind": "official",
+          "title": "Mana Kai Maui",
+          "evidence": [
+            "The mile long Keawakapu Beach is literally at your doorstep",
+            "2960 South Kihei Road, Kihei, HI 96753",
+            "free parking, free wi-fi access",
+            "The Beach House at Mana Kai Maui has obtained all necessary permits for its renovation project, and work is currently in progress."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "At 2960 South Kihei Road, on the mile-long Keawakapu Beach",
+          "the hotel's notice says renovation work on its Beach House is in progress"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.kohea-kai",
+      "topic": "hotel",
+      "claim": "Kohea Kai Maui: 551 South Kihei Road; rooms and suites with fully equipped full-size kitchens and California King beds; penthouse suite with pool views; Wailea and Makena ten minutes away by the hotel's count.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.koheakai.com/",
+          "kind": "official",
+          "title": "Kohea Kai Maui",
+          "evidence": [
+            "The Kohea Kai Hotel is located at 551 South Kihei Road",
+            "fully equipped full-size kitchens and pillow top California King size beds",
+            "Wailea and Makena are ten minutes away"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "At 551 South Kihei Road, with rooms and suites that have full-size kitchens and California king beds",
+          "with Wailea and Makena a short drive to the south by one hotel's count"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.paia-inn",
+      "topic": "hotel",
+      "claim": "Paia Inn: boutique hotel in the heart of Paia; 500-thread-count sheets, air conditioning, mini fridges, in-room safes; private beach.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.paiainn.com/",
+          "kind": "official",
+          "title": "Paia Inn",
+          "evidence": [
+            "Nestled in the heart of the vibrant surf town of Paia",
+            "soft 500-thread count sheets",
+            "relaxing on our private beach"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "A boutique hotel in the centre of Paia, with 500-thread-count sheets, air conditioning, mini fridges and in-room safes, and what it calls a private beach"
+        ]
+      }
+    },
+    {
+      "id": "us.maui.hotel.lumeria",
+      "topic": "hotel",
+      "claim": "Lumeria Maui: 1813 Baldwin Avenue, Makawao; educational retreat centre; 24 guest rooms in a compound built in 1910; The Wooden Crate restaurant and a spa; rooms offered to students and visitors on retreat.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.lumeriamaui.com/",
+          "kind": "official",
+          "title": "Lumeria Maui",
+          "evidence": [
+            "1813 Baldwin Avenue, Makawao, Hawaii 96768",
+            "Our 24 guest rooms are located in our historic compound",
+            "originally built in 1910",
+            "The Wooden Crate"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-maui.html": [
+          "At 1813 Baldwin Avenue in Makawao, an educational retreat centre with 24 guest rooms in a compound first built in 1910",
+          "its page says rooms are offered to students and visitors on retreat"
         ]
       }
     }
