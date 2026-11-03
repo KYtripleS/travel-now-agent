@@ -2536,6 +2536,606 @@
           "from a 14 m² Classic single-use room to a 23 m² junior suite with sea views and a jacuzzi"
         ]
       }
+    },
+    {
+      "id": "es.pamplona-san-fermin.dates",
+      "topic": "history",
+      "claim": "The city of Pamplona says the San Fermín festival takes place between 6 and 14 July; its 2027 working calendar lists 6, 7, 8, 9, 12, 13 and 14 July as San Fermín holidays. The 2027 programme was not yet published on 2026-11-04.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.pamplona.es/en/turismo/sanfermin/ruta",
+          "kind": "official",
+          "title": "Ayuntamiento de Pamplona: Route of San Fermín",
+          "evidence": [
+            "Although the San Fermín festival takes place between the 6th and 14th July"
+          ]
+        },
+        {
+          "url": "https://www.pamplona.es/en/turismo/sanfermin/agenda",
+          "kind": "official",
+          "title": "Ayuntamiento de Pamplona: San Fermín schedule",
+          "evidence": [
+            "programming of the San Fermin festivities from 6 to 14 July"
+          ]
+        },
+        {
+          "url": "https://www.pamplona.es/ayuntamiento/varios/calendario-fiestas-laborales-del-ayuntamiento-de-pamplona-2027",
+          "kind": "official",
+          "title": "Ayuntamiento de Pamplona: calendario de fiestas laborales 2027",
+          "evidence": [
+            "6, 7, 8, 9, 12, 13 y 14 de julio: Fiestas de San Fermín."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "The city's own route page says the San Fermín festival takes place between the 6th and 14th July.",
+          "lists 6, 7, 8, 9, 12, 13 and 14 July as the festival's municipal holidays"
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.run-rules-2026",
+      "topic": "history",
+      "claim": "The 2026 bando (last year's) says every bull run starts at 8:00 barring force majeure, runs through Santo Domingo, Plaza Consistorial, Mercaderes and Estafeta, bars under-18s, limits the route to runners and authorised people from 07:15, closes route-facing bars and shops by 06:00 and doorways from 07:15, and bans objects such as rucksacks, bags and bottles.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.pamplona.es/bando-san-fermin-2026",
+          "kind": "official",
+          "title": "Ayuntamiento de Pamplona: Bando San Fermín 2026",
+          "evidence": [
+            "Todos los encierros darán comienzo a las 8:00 horas, salvo causa de fuerza mayor.",
+            "discurrirá por las calles de Santo Domingo, Plaza Consistorial, Mercaderes y Estafeta",
+            "No podrán participar en el encierro los/las menores de dieciocho años",
+            "deberán tenerlo cerrado a las 06:00 horas",
+            "mochilas, bolsos, botellas, vasos, bastones, máquinas fotográficas o de video"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "The 2026 bando says every bull run starts at 8:00, barring force majeure, and that the route goes through Santo Domingo, Plaza Consistorial, Mercaderes and Estafeta streets.",
+          "Anyone under 18 may not take part.",
+          "Bars and shops with access to the route must be shut by 06:00, and doorways must be closed from 07:15.",
+          "listing rucksacks, bags, bottles, cameras and recording devices"
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.balconies-bando",
+      "topic": "history",
+      "claim": "The 2026 bando makes owners responsible for the condition of facades and balconies and says they must not be occupied by more people than is suitable.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.pamplona.es/bando-san-fermin-2026",
+          "kind": "official",
+          "title": "Ayuntamiento de Pamplona: Bando San Fermín 2026",
+          "evidence": [
+            "no sean ocupados por mayor número de personas que el conveniente en cada caso"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "the city's bando makes owners responsible for the safety of facades and balconies"
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.chupinazo",
+      "topic": "history",
+      "claim": "About 12,500 people gather in Plaza Consistorial on 6 July for the Chupinazo (city); the 2026 bando closed businesses facing the square from 10:00 to 13:00 on 6 July; Hotel Pompaelo's page puts the Chupinazo at noon and sells balcony viewing for it and the Pobre de mí without stating prices.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.pamplona.es/en/turismo/sanfermin/ruta",
+          "kind": "official",
+          "title": "Ayuntamiento de Pamplona: Route of San Fermín",
+          "evidence": [
+            "On the 6th July each year, some 12,500 people are gathered in this square."
+          ]
+        },
+        {
+          "url": "https://www.pamplona.es/bando-san-fermin-2026",
+          "kind": "official",
+          "title": "Ayuntamiento de Pamplona: Bando San Fermín 2026",
+          "evidence": [
+            "deberán permanecer cerrados de 10:00 a 13:00 horas del día 6 de julio"
+          ]
+        },
+        {
+          "url": "https://www.hotelpompaelo.com/balcones-san-fermin.html",
+          "kind": "operator",
+          "title": "Hotel Pompaelo: Balcony San Fermín",
+          "evidence": [
+            "at noon on July 6th the fiesta exploded",
+            "Enjoy our exclusive balconies to watch the opening ceremony, the Chupinazo"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "puts the opening rocket, the Chupinazo, at noon on 6 July",
+          "from 10:00 to 13:00 that day",
+          "some 12,500 people gather there on 6 July",
+          "A separate page sells balconies for the Chupinazo and the Pobre de mí."
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.run-course-guide",
+      "topic": "history",
+      "claim": "The independent guide sanfermin.com gives the course as 875 metres, says runs usually take two to three minutes, and says spectators must stay behind the second line of fencing.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.sanfermin.com/en/bullruns/quick-guide-what-is-the-running-of-the-bulls/",
+          "kind": "news",
+          "title": "sanfermin.com: quick guide to the Running of the Bulls",
+          "evidence": [
+            "The total distance covered is 875 meters.",
+            "always stay behind the second line of fencing"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "says the course is 875 metres",
+          "spectators must stay behind the second line of fencing"
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.festival-history",
+      "topic": "history",
+      "claim": "The city's tourism page says the oldest known records of festivities for Saint Fermín date back to the 12th century.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.pamplona.es/en/turismo/sanfermin",
+          "kind": "official",
+          "title": "Ayuntamiento de Pamplona: Pamplona is San Fermín",
+          "evidence": [
+            "The oldest known records of festivities held in honour of Saint Fermín date back to the 12th century."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "The city's tourism page traces records of the festival back to the 12th century."
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.animal-welfare-protest",
+      "topic": "history",
+      "claim": "Euronews reported that a protest in 2022 was organised by PETA and AnimalNaturalis, the 18th year in a row that demonstrations had taken place ahead of San Fermín.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.euronews.com/2022/07/06/running-of-the-bulls-activists-dressed-as-dinosaurs-protest-prehistoric-san-fermin-event",
+          "kind": "news",
+          "title": "Euronews: activists dressed as dinosaurs protest San Fermin, 6 July 2022",
+          "evidence": [
+            "Organised by People for the Ethical Treatment of Animals (PETA) and Spanish NGO AnimalNaturalis",
+            "it is the 18th year in a row demonstrations have taken place ahead of San Fermin"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "Animal-rights groups oppose the bull run and the bullfights held during the fiesta.",
+          "was the 18th year in a row that demonstrations had taken place ahead of San Fermín"
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.vat-10",
+      "topic": "tax",
+      "claim": "Spain applies 10% VAT to hospitality services (hotels included); the general VAT rate is 21%.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/educacion-civico-tributaria/programa-educacion-civico-tributaria/que-impuestos/contenidos/impuesto-sobre-valor-anadido/exenciones-tipos.html",
+          "kind": "official",
+          "title": "Agencia Tributaria: IVA, exenciones y tipos",
+          "evidence": [
+            "general del 21% (artículo 90 de la Ley)",
+            "el 10% se aplica, entre otros, a los alimentos en general, las viviendas, servicios de hostelería"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "The Agencia Tributaria says the general rate is 21%, and that the 10% rate applies to hospitality services.",
+          "10%, the reduced rate for hospitality"
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: a €200 room price that includes 10% VAT contains €18.18 of VAT, leaving €181.82 before VAT.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/educacion-civico-tributaria/programa-educacion-civico-tributaria/que-impuestos/contenidos/impuesto-sobre-valor-anadido/exenciones-tipos.html",
+          "kind": "official",
+          "title": "Agencia Tributaria: IVA, exenciones y tipos",
+          "evidence": [
+            "servicios de hostelería, gafas y lentillas, transportes de viajeros y equipajes"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "For a room quoted at €200 including VAT, VAT is €18.18 and the room before VAT is €181.82 (our arithmetic from the 10% rate)."
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.no-tourist-tax",
+      "topic": "tax",
+      "claim": "No tourist tax on hotel stays was found in force in Navarra or Pamplona in November 2026. On 29 September 2026 the Pamplona council's Presidency Committee approved a declaration urging the Government of Navarra to regulate a local tourist tax and saying the council would study a tourist-ecological tax for San Fermín; no law or decree creating one was found.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.pamplona.es/en/node/79338",
+          "kind": "official",
+          "title": "Ayuntamiento de Pamplona: declarations approved by the Presidency Committee, 29 September 2026",
+          "evidence": [
+            "Instar al Gobierno de Navarra a regular una tasa turística para Navarra",
+            "estudiará e impulsará la implantación de una tasa turístico-ecológica en el marco de las fiestas de San Fermín"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "We found no tourist tax in force in Navarra.",
+          "the Pamplona council's Presidency Committee approved a declaration urging the Government of Navarra to let local councils charge a tourist tax",
+          "Navarra or Pamplona tourist tax"
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.airport-access",
+      "topic": "transport",
+      "claim": "Aena's Pamplona Airport page lists the car, taxi and shared taxi as ways to reach the airport, and does not list a bus; it gives no fare in the text we read.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.aena.es/en/pamplona.html",
+          "kind": "official",
+          "title": "Aena: Pamplona Airport",
+          "evidence": [
+            "Getting to the airport by car",
+            "Information on stops and fares",
+            "Shared taxi service to the airport"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "Aena's Pamplona page lists the car, taxi and shared taxi as ways to reach the airport, and no bus."
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.alsa-san-sebastian",
+      "topic": "transport",
+      "claim": "Alsa's published timetable for Pamplona to San Sebastián shows coaches such as 09:45 to 11:00, with first departures at 06:55.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.alsa.com/en/coach/pamplona-saint-sebastian",
+          "kind": "operator",
+          "title": "Alsa: Pamplona to San Sebastián timetable",
+          "evidence": [
+            "06:55 08:10 Comfort",
+            "09:45 11:00 Comfort"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "shows coaches such as 09:45 to 11:00, with first departures at 06:55"
+        ]
+      }
+    },
+    {
+      "id": "es.pamplona-san-fermin.villavesas-2026",
+      "topic": "transport",
+      "claim": "Noticias de Navarra reported on 30 June 2026 that the villavesas (Transporte Urbano Comarcal) would run 24 hours on most lines during San Fermín 2026, with changes for the fireworks and concerts.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.noticiasdenavarra.com/san-fermin/2026/06/30/cambian-villavesas-san-fermin-2026-11267935.html",
+          "kind": "news",
+          "title": "Noticias de Navarra: Cambian las villavesas en San Fermín 2026",
+          "evidence": [
+            "funcionará las 24 horas en la mayoría de las líneas"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "most villavesa lines ran 24 hours during the fiesta, with changes around the fireworks and concerts"
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.la-perla",
+      "topic": "hotel",
+      "claim": "Gran Hotel La Perla is operating on Plaza del Castillo as a five-star hotel with 44 guest rooms with balconies over Estafeta Street and the square, plus five attic rooms.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.granhotellaperla.com/en/home.html",
+          "kind": "operator",
+          "title": "Gran Hotel La Perla (official site)",
+          "evidence": [
+            "5-star hotel in the Plaza del Castillo in Pamplona",
+            "44 guest rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "A five-star hotel on Plaza del Castillo with 44 guest rooms, all with exterior views and balconies over Estafeta Street and the square, plus five attic rooms."
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.pompaelo",
+      "topic": "hotel",
+      "claim": "Hotel Pompaelo Plaza del Ayuntamiento & Spa is operating as a four-star boutique hotel with views over Plaza Consistorial.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelpompaelo.com/",
+          "kind": "operator",
+          "title": "Hotel Pompaelo (official site)",
+          "evidence": [
+            "four-star boutique hotel with views of the incomparable Plaza Consistorial"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "A four-star boutique hotel with views over Plaza Consistorial, with soundproofed king rooms with balconies, family rooms and a spa."
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.arriazu",
+      "topic": "hotel",
+      "claim": "Hostal Arriazu is operating on Calle Comedias 14 with 20 soundproofed rooms renovated in 2018 and a 5% direct-booking discount.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hostalarriazu.com/",
+          "kind": "operator",
+          "title": "Hostal Arriazu (official site)",
+          "evidence": [
+            "20 modernas habitaciones insonorizadas, reformadas en 2018",
+            "C/ Comedias 14",
+            "5% DE DESCUENTO DIRECTO EN TU RESERVA"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "with 20 soundproofed rooms renovated in 2018, each with a balcony or large window, and air conditioning. It offers 5% off for direct bookings."
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.catedral",
+      "topic": "hotel",
+      "claim": "Pamplona Catedral Hotel is operating as a four-star boutique hotel in a former 19th-century nunnery beside the Portal de Francia.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.pamplonacatedralhotel.com/en",
+          "kind": "operator",
+          "title": "Pamplona Catedral Hotel (official site)",
+          "evidence": [
+            "ancient 19th century nunnery refurbished into a boutique hotel",
+            "All our bedrooms are outward facing, bright and soundproof."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "A four-star boutique hotel in a former 19th-century convent beside the Portal de Francia and the city walls, a few metres from the cathedral."
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.maisonnave",
+      "topic": "hotel",
+      "claim": "Hotel Maisonnave is operating at Calle Nueva 20 and offers a 12% discount for booking on its official site.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelmaisonnave.es/",
+          "kind": "operator",
+          "title": "Hotel Maisonnave (official site)",
+          "evidence": [
+            "Calle Nueva, 20 - 31001 Pamplona, Navarra",
+            "un 12% de descuento exclusivo en la web oficial"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "At Calle Nueva 20, a four-star hotel whose page says it lets you walk to the main sights",
+          "and a 12% discount for booking direct."
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.alda",
+      "topic": "hotel",
+      "claim": "Alda Centro Pamplona (formerly Hotel Eslava) is operating on Plaza Virgen de la O 7, with check-in from 14:00 and check-out until 12:00.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.aldahotels.es/hoteles/navarra/pamplona/pamplona/hotel-alda-centro-pamplona",
+          "kind": "operator",
+          "title": "Alda Centro Pamplona (official site)",
+          "evidence": [
+            "Plaza Virgen de la O, 7, 31001 Pamplona",
+            "El check-in está disponible a partir de las 14:00h y el check-out es hasta las 12:00h."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "Check-in is from 14:00 and check-out until 12:00."
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.tres-reyes",
+      "topic": "hotel",
+      "claim": "Hotel Tres Reyes Pamplona is operating next to the Taconera Gardens with an outdoor swimming pool.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.tresreyeshoteles.com/en/tres-reyes-pamplona/",
+          "kind": "operator",
+          "title": "Hotel Tres Reyes (official site)",
+          "evidence": [
+            "exceptional views of the Taconera Gardens",
+            "discover the outdoor swimming pool"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "with rooms that look onto the Taconera Gardens, an outdoor pool and a restaurant."
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.yoldi",
+      "topic": "hotel",
+      "claim": "Hotel Yoldi is operating at Avenida San Ignacio 11 as a three-star hotel with 50 recently renovated rooms.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelyoldi.com/",
+          "kind": "operator",
+          "title": "Hotel Yoldi (official site)",
+          "evidence": [
+            "50 habitaciones recientemente renovadas",
+            "AVD. SAN IGNACIO, 11",
+            "somos un hotel de 3 estrellas"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "A three-star hotel on Avenida San Ignacio with 50 recently renovated rooms, free Wi-Fi, air conditioning"
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.albret",
+      "topic": "hotel",
+      "claim": "Hotel Albret is operating at Calle Ermitagaña 3 with 106 exterior rooms and offers up to 20% off for stays between 5 and 14 July under a San Fermín 2027 banner.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelalbret.com/",
+          "kind": "operator",
+          "title": "Hotel Albret (official site)",
+          "evidence": [
+            "Calle Ermitagaña 3",
+            "106 habitaciones exteriores",
+            "Vive San Fermín 2027",
+            "estancias comprendidas entre el 5 y el 14 de julio y obtén hasta un 20% de descuento"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "with 106 exterior rooms in six types",
+          "Its page offers up to 20% off for stays between 5 and 14 July under a San Fermín 2027 banner."
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.blanca-de-navarra",
+      "topic": "hotel",
+      "claim": "Hotel Blanca de Navarra is operating on Avenida Pío XII and its page puts it 850 metres from the Parque de la Ciudadela.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelblancadenavarra.com/",
+          "kind": "operator",
+          "title": "Hotel Blanca de Navarra (official site)",
+          "evidence": [
+            "a 850 metros del Parque de la Ciudadela",
+            "más de 30 años"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "a position its page puts 850 metres from the Parque de la Ciudadela"
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.sancho-ramirez",
+      "topic": "hotel",
+      "claim": "Hotel Sancho Ramírez is operating at Sancho Ramírez 11 with private parking at €10 a night subject to availability and free cancellation until 12:00 on the day of arrival.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelsanchoramirez.com/es",
+          "kind": "operator",
+          "title": "Hotel Sancho Ramírez (official site)",
+          "evidence": [
+            "Sancho Ramírez, 11, 31008, Pamplona, Navarra",
+            "Precio 10€ por noche",
+            "Cancelación Gratis hasta 12 h. del día de llegada"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "private parking for guests at €10 a night subject to availability, and free cancellation until 12:00 on the day of arrival."
+        ]
+      }
+    },
+    {
+      "id": "hotel.pamplona-san-fermin.pamplona-plaza",
+      "topic": "hotel",
+      "claim": "Hotel Pamplona Plaza is operating at Avenida Don Marcelo Celayeta 35 as a three-star hotel with free underground parking.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelpamplonaplaza.com/es",
+          "kind": "operator",
+          "title": "Hotel Pamplona Plaza (official site)",
+          "evidence": [
+            "Avenida de Don Marcelo Celayeta, 35, 31014 Pamplona",
+            "un hotel urbano de 3 estrellas",
+            "parking subterráneo gratuito"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-pamplona-san-fermin.html": [
+          "A three-star hotel on Avenida Marcelo Celayeta near the train station, with free underground parking"
+        ]
+      }
     }
   ]
 }

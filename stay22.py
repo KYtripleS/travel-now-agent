@@ -114,6 +114,8 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-pamplona-san-fermin": dict(area="Casco Antiguo", lat=42.8185, lng=-1.6442, zoom=15,
+                                                    address="Plaza del Castillo, Pamplona, Spain"),
     "where-to-stay-for-the-masters": dict(area="Washington Road", lat=33.503, lng=-82.02, zoom=14,
                                              address="Washington Road, Augusta, Georgia, United States"),
     "where-to-stay-on-the-amalfi-coast": dict(area="Amalfi", lat=40.634, lng=14.6027, zoom=13,
@@ -1873,6 +1875,19 @@ HOTELS = {
     "Holiday Inn Express North Augusta - SC": _B + "us/holiday-inn-express-north-augusta.html",
     "The Willcox": _B + "us/the-willcox.html",
     "Holiday Inn Express & Suites Aiken": _B + "us/holiday-inn-express-suites-aiken.html",
+    # Pamplona, where-to-stay-in-pamplona-san-fermin (Booking.com pages confirmed by hotel name and city)
+    "Gran Hotel La Perla": _B + "es/gran-la-perla.html",
+    "Hotel Pompaelo Plaza del Ayuntamiento & Spa": _B + "es/pompaelo-urban-spa.html",
+    "Hostal Arriazu": _B + "es/hostalarriazu.html",
+    "Pamplona Catedral Hotel": _B + "es/pamplona-catedral-hotel.html",
+    "Maisonnave": _B + "es/maisonnave.html",
+    "Alda Centro Pamplona": _B + "es/eslava.html",
+    "Hotel Tres Reyes": _B + "es/iruna-palace-tres-reyes.html",
+    "Hotel Yoldi": _B + "es/yoldi.html",
+    "Hotel Albret": _B + "es/albret-pamplona.html",
+    "Hotel Blanca de Navarra": _B + "es/blanca-de-navarra.html",
+    "Hotel Sancho Ramírez": _B + "es/trypsanchoramirez.html",
+    "Hotel Pamplona Plaza": _B + "es/pamplona-plaza.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -446,6 +446,10 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-pamplona-san-fermin": dict(
+        text="For a first San Fermín, stay in the Casco Antiguo: Pamplona Catedral Hotel is beside the walls and soundproofed, and Hotel Yoldi is the plain, central choice. Choose Gran Hotel La Perla to be on the square. Hotel stays carry 10% VAT; we found no tourist tax.",
+        link_text="Casco Antiguo",
+        cta=_stay_cta("where-to-stay-in-pamplona-san-fermin", "See hotels around the Casco Antiguo")),
     "where-to-stay-for-the-masters": dict(
         text="For the Masters, stay on Washington Road: the rideshare and taxi lots are on it. Choose Courtyard by Marriott for free parking, Hampton Inn & Suites for value, the Partridge Inn to splurge. In Georgia expect 9% sales tax, a local lodging tax and a $5 night fee.",
         link_text="Washington Road",
@@ -1782,6 +1786,7 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-pamplona-san-fermin": ["Pamplona Catedral Hotel", "Hotel Yoldi", "Gran Hotel La Perla"],
     "where-to-stay-for-the-masters": ["The Partridge Inn Augusta, Curio Collection by Hilton", "Courtyard by Marriott Augusta", "Hampton Inn & Suites by Hilton Augusta-Washington Rd"],
     "where-to-stay-on-the-amalfi-coast": ["Hotel Lidomare", "Hotel Luna Convento", "Caruso, A Belmond Hotel"],
     "where-to-stay-in-edinburgh-fringe": ["Motel One Edinburgh-Royal", "Radisson Blu Hotel, Edinburgh City Centre", "The Witchery"],
@@ -2579,6 +2584,7 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Pamplona", "where-to-stay-in-pamplona-san-fermin", None, None),
         ("Augusta", "where-to-stay-for-the-masters", None, None),
         ("Amalfi Coast", "where-to-stay-on-the-amalfi-coast", None, None),
         ("Edinburgh", "where-to-stay-in-edinburgh-fringe", None, None),
@@ -2777,6 +2783,9 @@ STAY_POINTERS = {
     "where-to-stay-in-seville": ("intro",
         'Coming for Holy Week or the Feria? <a href="where-to-stay-in-seville-holy-week-april-fair.html">Where to stay '
         'in Seville for Holy Week and the April Fair 2027</a> matches the areas to the processions and the fairground.'),
+    "where-to-stay-in-madrid": ("intro",
+        'Going north in July? <a href="where-to-stay-in-pamplona-san-fermin.html">Where to stay in Pamplona for San '
+        'Fermín 2027</a> (6 to 14 July) weighs the Old Town on the run route against quieter streets and San Sebastián.'),
     # Kuala Lumpur
     "kuala-lumpur-first-timers-guide": ("Getting Your Bearings",
         f'Choosing a base? <a href="{_KL}">Where to stay in Kuala Lumpur</a> compares four areas, from KLCC to '

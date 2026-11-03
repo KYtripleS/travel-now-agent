@@ -591,6 +591,10 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-pamplona-san-fermin.html": (
+        "Where to Stay in Pamplona",
+        "Nine days of fiesta: where to sleep on the run route, beside the walls or in the calmer north of Pamplona.",
+    ),
     "articles/where-to-stay-for-the-masters.html": (
         "Where to Stay in Augusta",
         "Masters 2027, April 5-11: six areas, 12 hotels, free parking rules and Georgia and South Carolina taxes.",
@@ -2349,6 +2353,13 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-pamplona-san-fermin.html": [
+        "articles/where-to-stay-in-seville-holy-week-april-fair.html",
+        "articles/where-to-stay-in-valencia-fallas.html",
+        "articles/where-to-stay-in-madrid.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
     ],
     "articles/where-to-stay-for-the-masters.html": [
         "articles/where-to-stay-for-kentucky-derby.html",
