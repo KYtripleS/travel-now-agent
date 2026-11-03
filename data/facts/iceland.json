@@ -18,6 +18,11 @@
           "800 ISK for every room, apartment or separately rented bed, every night",
           "800 ISK per room, apartment or separately let bed, per night",
           "400 ISK per unit, per night"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "800 ISK per unit, per night",
+          "400 ISK per unit, per night",
+          "an accommodation tax of 800 ISK for every room, apartment or separately let bed, every night"
         ]
       }
     },
@@ -38,6 +43,11 @@
           "a hotel room is one unit, each apartment a hotel lets is one unit",
           "each bed is one unit",
           "a dorm bed pays it too"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "a hotel room is one unit, each apartment a hotel lets is one unit",
+          "each bed is one unit",
+          "a hostel bed pays it too"
         ]
       }
     },
@@ -58,6 +68,10 @@
           "11% VAT on the room itself",
           "hotel and guest-room rental is always charged at the 11% rate",
           "the accommodation tax is not part of the amount VAT is charged on"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "VAT on hotel and guest-room rental (Ísland.is guidance, dated 25 January 2025)",
+          "11%"
         ]
       }
     },
@@ -82,6 +96,9 @@
         "articles/where-to-stay-in-reykjavik.html": [
           "Keflavík Airport is about 50 km from Reykjavík",
           "the 50 km from Keflavík Airport"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "Keflavík Airport is about 50 kilometres from Reykjavík"
         ]
       }
     },
@@ -102,6 +119,11 @@
           "One way costs 3,999 ISK for adults and 1,999 ISK for ages 6 to 15",
           "at 5,299 ISK for adults and 2,649 ISK for ages 6 to 15",
           "Flybus discounts return bookings and groups of four or more automatically"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "3,999 ISK for adults and 1,999 ISK for ages 6 to 15",
+          "Flybus to hotel costs 5,299 ISK and 2,649 ISK",
+          "Return bookings and groups of four or more get an automatic discount"
         ]
       }
     },
@@ -127,6 +149,10 @@
           "takes about 45 minutes",
           "Departures from the airport are timed to every arriving flight",
           "coaches leave BSÍ every 30 to 60 minutes between 04:00 and 22:30"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "the coach takes about 45 minutes",
+          "a ticket stays valid for the next coach if your flight is late"
         ]
       }
     },
@@ -169,6 +195,11 @@
         "articles/where-to-stay-in-reykjavik.html": [
           "An adult pays 2,400 ISK to Reykjavík or 1,800 ISK to Fjörður in Hafnarfjörður",
           "Pay on board by debit or credit card or in cash"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "An adult pays 2,400 ISK to Reykjavík or 1,800 ISK to Fjörður in Hafnarfjörður",
+          "children 11 and under ride free",
+          "The public bus runs daily with twelve departures"
         ]
       }
     },
@@ -194,6 +225,9 @@
           "with twelve daily departures",
           "Since 1 October 2026 the bus stops at the terminal itself",
           "Not every trip runs to BSÍ"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "Since 1 October 2026 it stops at the terminal, at the KEF Arrivals stop"
         ]
       }
     },
@@ -279,6 +313,11 @@
           "Completed in 1930",
           "99 rooms from singles to the Tower Suite",
           "the hotel promises spa access with every direct booking"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "Completed in 1930",
+          "99 rooms from singles to the Tower Suite",
+          "spa access is promised with every direct booking"
         ]
       }
     },
@@ -303,6 +342,11 @@
         "articles/where-to-stay-in-reykjavik.html": [
           "run by the same family since 1999, with 47 rooms",
           "there is no lift"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "run by the same family since 1999",
+          "with 47 rooms, each with its own layout and design",
+          "there is no lift; the hotel says so itself"
         ]
       }
     },
@@ -321,6 +365,10 @@
       "used_in": {
         "articles/where-to-stay-in-reykjavik.html": [
           "Iceland's largest hotel, with 320 rooms over 16 floors"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "Iceland's largest hotel, with 320 rooms over 16 floors at Þórunnartún 1",
+          "a breakfast service from 06:30 to 10:00"
         ]
       }
     },
@@ -339,12 +387,448 @@
           "url": "https://www.kexrvk.is/hostel",
           "kind": "official",
           "title": "KEX: Hostel rooms"
+        },
+        {
+          "url": "https://www.kexrvk.is/",
+          "kind": "operator",
+          "title": "KEX Hostel"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-reykjavik.html": [
           "a breakfast buffet at 2,700 ISK",
           "the hostel doubles and family rooms share hallway bathrooms"
+        ],
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "a breakfast buffet at 2,700 ISK",
+          "book a hotel-floor room for your own"
+        ]
+      }
+    },
+    {
+      "id": "is.aurora.season",
+      "topic": "place",
+      "claim": "Visit Iceland puts the northern lights season at September to April, most active around the equinoxes, with midwinter giving more hours of darkness; on a clear, active night the lights are often visible from Reykjavik; no guarantees.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visiticeland.com/article/northern-lights-in-iceland",
+          "kind": "official",
+          "title": "Visit Iceland: Northern lights in Iceland"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "puts the season at September to April",
+          "the lights are most active around the equinoxes",
+          "there are no guarantees"
+        ]
+      }
+    },
+    {
+      "id": "is.aurora.hotel-wakeup-general",
+      "topic": "place",
+      "claim": "Visit Iceland says several countryside hotels offer a special northern lights wake-up call if the lights are shining.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.visiticeland.com/article/northern-lights-in-iceland",
+          "kind": "official",
+          "title": "Visit Iceland: Northern lights in Iceland"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "Visit Iceland says several countryside hotels offer a northern lights wake-up call"
+        ]
+      }
+    },
+    {
+      "id": "is.imo.aurora-forecast",
+      "topic": "place",
+      "claim": "The Icelandic Met Office says the aurora requires dark and partly clear skies; its forecast shows a cloud-cover map and activity at midnight on a 0-9 scale; grade 2 can be beautiful and grade 3 dazzling.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://en.vedur.is/weather/forecasts/aurora/",
+          "kind": "official",
+          "title": "Icelandic Met Office: Aurora forecast (read from archived copy, 26 Dec 2025)"
+        },
+        {
+          "url": "https://en.vedur.is/weather/articles/nr/2588",
+          "kind": "official",
+          "title": "Icelandic Met Office: Instructions for aurora forecast (archived copy)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "needs dark and partly clear skies",
+          "activity at midnight on a scale of 0 to 9",
+          "even grade 2 can be beautiful and grade 3 dazzling"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.grotta",
+      "topic": "place",
+      "claim": "Visit Reykjavik says the path to Grotta lighthouse is only usable at low tide and disappears quickly when the water comes in; it calls Grotta one of the best-known viewpoints near downtown, facing open ocean with few buildings.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://visitreykjavik.is/where-to-see-northern-lights-in-iceland-near-reykjavik",
+          "kind": "official",
+          "title": "Visit Reykjavik: where to see the northern lights near Reykjavik"
+        },
+        {
+          "url": "https://visitreykjavik.is/city-areas/seltjarnarnes-grotta",
+          "kind": "official",
+          "title": "Visit Reykjavik: Seltjarnarnes and Grotta"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "only usable at low tide and disappears quickly when the water comes in"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.dark-spots",
+      "topic": "place",
+      "claim": "Visit Reykjavik lists Oskjuhlid, Ellidaardalur, Alftanes and Heidmork (protected, very little light pollution) as darker places near the city, and says buses run until around midnight.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://visitreykjavik.is/where-to-see-northern-lights-in-iceland-near-reykjavik",
+          "kind": "official",
+          "title": "Visit Reykjavik: where to see the northern lights near Reykjavik"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "a protected area with very little light pollution",
+          "buses run until around midnight"
+        ]
+      }
+    },
+    {
+      "id": "is.thingvellir.parking",
+      "topic": "fare",
+      "claim": "Thingvellir National Park's parking fee is 1,000 ISK for a passenger car with five or fewer seats.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.thingvellir.is/en/service/parking-service/",
+          "kind": "official",
+          "title": "Thingvellir National Park: Parking service"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "1,000 ISK for a car with five or fewer seats"
+        ]
+      }
+    },
+    {
+      "id": "is.thingvellir.visitor-centre",
+      "topic": "place",
+      "claim": "The Hakid visitor centre is open 09:00-17:00 from November to March; the site says nothing about night visits; park phone +354 488 1800.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.thingvellir.is/en/things-to-do/visitor-centre/",
+          "kind": "official",
+          "title": "Thingvellir National Park: Visitor centre"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "open 09:00 to 17:00 from November to March",
+          "+354 488 1800"
+        ]
+      }
+    },
+    {
+      "id": "is.accommodation-tax.cruise",
+      "topic": "tax",
+      "claim": "The only per-guest element on Skatturinn's accommodation tax page is for passengers aboard cruise ships, which operators have had to remit since 1 January 2024; the page gives no date for the hotel rates.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.skatturinn.is/atvinnurekstur/skattar-og-gjold/gistinattaskattur/",
+          "kind": "official",
+          "title": "Skatturinn: Gistinattaskattur"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "the only per-guest charge on the page is for cruise-ship passengers, which operators have remitted since 1 January 2024",
+          "The page gives no date for the rates"
+        ]
+      }
+    },
+    {
+      "id": "is.ion.lodging-tax-faq",
+      "topic": "tax",
+      "claim": "ION Hotels' own FAQ states a lodging tax of 666 ISK per room per night, which differs from the 800 ISK on Skatturinn's page.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://ioniceland.is/contact-us/",
+          "kind": "operator",
+          "title": "ION Hotels: Contact us / FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "ION Hotels' own FAQ still says 666 ISK a room"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.taxi-time",
+      "topic": "transport",
+      "claim": "Visit Reykjavik gives the KEF-Reykjavik taxi journey as approximately 45-50 minutes and lists Hreyfill as an operator.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://visitreykjavik.is/kef-reykjavik",
+          "kind": "official",
+          "title": "Visit Reykjavik: KEF to Reykjavik"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "about 45 to 50 minutes, with Hreyfill listed as an operator"
+        ]
+      }
+    },
+    {
+      "id": "is.safetravel.winter-driving",
+      "topic": "transport",
+      "claim": "Safetravel advises winter equipment on rental cars (a 4x4 helps but does not rule out skidding), front and rear lights on 24/7, extra time because of limited daylight, checking umferdin.is and vedur.is, 112 for emergencies.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://safetravel.is/driving/winter-driving/",
+          "kind": "official",
+          "title": "Safetravel: Winter driving"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "winter equipment such as winter tyres",
+          "Front and rear lights must be on at all times",
+          "at least once a day",
+          "gives 112 for emergencies"
+        ]
+      }
+    },
+    {
+      "id": "is.safetravel.alert-2026-11-02",
+      "topic": "transport",
+      "claim": "On 2 November 2026 Safetravel's front page carried a wind alert for 2-3 November for northern Snaefellsnes, the Westfjords and Troellaskagi (time-bound).",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://safetravel.is/",
+          "kind": "official",
+          "title": "Safetravel: front page"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "a wind alert for 2 and 3 November 2026 for northern Snæfellsnes, the Westfjords and Tröllaskagi"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.loft-hostel",
+      "topic": "hotel",
+      "claim": "Loft HI Hostel, Bankastraeti 7: dorms and private rooms, rooftop terrace, bar, Nordic Swan Eco Label; can be lively at weekends, free earplugs; children under 12 cannot stay in shared dorms.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hostel.is/en/hostels/hi-reykjavik-loft",
+          "kind": "operator",
+          "title": "HI Iceland: Loft HI Hostel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "the hostel says it can be lively at weekends and hands out free earplugs",
+          "children under 12 cannot stay in shared dorms"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.edition",
+      "topic": "hotel",
+      "claim": "The Reykjavik EDITION, Austurbakki 2, by the Old Harbour, steps from Harpa and Laugavegur; bedrooms and suites with views of the harbour, Mt Esja and Snaefellsjokull; TIDES, The Roof, spa.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.editionhotels.com/reykjavik/",
+          "kind": "operator",
+          "title": "The Reykjavik EDITION"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "Austurbakki 2, by the Old Harbour and steps from Harpa and Laugavegur",
+          "looking over the harbour, Mount Esja and the Snæfellsjökull glacier"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.grandi",
+      "topic": "hotel",
+      "claim": "Grandi by Center Hotels: industrial-style hotel in Grandi near the Old Harbour; restaurant open every day for dinner, bar, Grandi Spa; hotel guests get 15% off the a la carte menu; Green Key certified.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.centerhotels.com/en/hotel-grandi-reykjavik",
+          "kind": "operator",
+          "title": "Center Hotels: Grandi"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "Hotel guests get 15% off the restaurant's à la carte menu",
+          "it holds Green Key certification"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.storm",
+      "topic": "hotel",
+      "claim": "Storm Hotel (Keahotels), Thorunnartun 4: 93 rooms in three types each with walk-in shower, breakfast included, bar and lounge, limited free parking.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.keahotels.is/storm-hotel",
+          "kind": "operator",
+          "title": "Keahotels: Storm Hotel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "with 93 rooms in three types",
+          "breakfast included, a bar and lounge, and limited free parking"
+        ]
+      }
+    },
+    {
+      "id": "is.ion-adventure.hotel",
+      "topic": "hotel",
+      "claim": "ION Adventure Hotel, Nesjavellir: 24 Deluxe rooms with floor-to-ceiling windows, Lava Spa, Silfra restaurant, Northern Lights Bar with 180-degree panoramic windows, free parking; route 435 closed October-May, take road 36 then road 360 from Reykjavik.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://ioniceland.is/adventure-deluxe-room/",
+          "kind": "operator",
+          "title": "ION Adventure: Deluxe room"
+        },
+        {
+          "url": "https://ioniceland.is/services/",
+          "kind": "operator",
+          "title": "ION Hotels: services"
+        },
+        {
+          "url": "https://ioniceland.is/adventure/",
+          "kind": "operator",
+          "title": "ION Adventure Hotel"
+        },
+        {
+          "url": "https://ioniceland.is/contact-us/",
+          "kind": "operator",
+          "title": "ION Hotels: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "with 24 Deluxe rooms with floor-to-ceiling windows",
+          "a Lava Spa, the Silfra restaurant and The Northern Lights Bar",
+          "route 435 is closed from October to May",
+          "take road 36 towards Þingvellir and turn right on road 360"
+        ]
+      }
+    },
+    {
+      "id": "is.grimsborgir.hotel",
+      "topic": "hotel",
+      "claim": "Hotel Grimsborgir (Keahotels), Asborgir 48, Selfoss/Grimsnes: 70 km east of Reykjavik, every room has a communal or private hot tub and terrace, complimentary breakfast, room lists include a northern lights wake-up call.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.keahotels.is/hotel-grimsborgir",
+          "kind": "operator",
+          "title": "Keahotels: Hotel Grimsborgir"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "70 km east of Reykjavík by its own account",
+          "Every room has a communal or private hot tub and a terrace",
+          "northern lights wake-up call"
+        ]
+      }
+    },
+    {
+      "id": "is.ranga.hotel",
+      "topic": "hotel",
+      "claim": "Hotel Ranga, Sudurlandsvegur, 851 Hella: 52 rooms; aurora wake-up call since 2005 via in-room phone button; external lights turned off; snowsuits; bar open 24/7; observatory with two telescopes late September to end of March in clear dry weather; hot tubs; rooms from EUR 605 (Deluxe) to EUR 1,367 (Master Suites).",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.hotelranga.is/northernlights/",
+          "kind": "operator",
+          "title": "Hotel Ranga: Northern Lights"
+        },
+        {
+          "url": "https://www.hotelranga.is/hotelrangaobservatory/",
+          "kind": "operator",
+          "title": "Hotel Ranga: Observatory"
+        },
+        {
+          "url": "https://www.hotelranga.is/about-us/",
+          "kind": "operator",
+          "title": "Hotel Ranga: About us"
+        },
+        {
+          "url": "https://www.hotelranga.is/",
+          "kind": "operator",
+          "title": "Hotel Ranga"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "with 52 rooms",
+          "an aurora wake-up call since 2005",
+          "from late September to the end of March",
+          "Deluxe rooms listed from €605 and Master Suites from €1,367"
+        ]
+      }
+    },
+    {
+      "id": "is.katla.hotel",
+      "topic": "hotel",
+      "claim": "Hotel Katla (Keahotels), Hofdabrekka, Vik: outdoor geothermal hot tub, sauna, restaurant and bar, breakfast included, free parking; 'gateway to black sand beaches and towering glaciers'.",
+      "checked": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.keahotels.is/hotel-katla",
+          "kind": "operator",
+          "title": "Keahotels: Hotel Katla"
+        },
+        {
+          "url": "https://www.keahotels.is/hotel-katla/rooms",
+          "kind": "operator",
+          "title": "Keahotels: Hotel Katla rooms"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+          "an outdoor geothermal hot tub, a sauna, a restaurant and bar, breakfast included and free parking"
         ]
       }
     }

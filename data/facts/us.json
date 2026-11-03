@@ -1450,12 +1450,32 @@
           "url": "https://files.lasvegasnevada.gov/business-licensing/RoomTaxPacket.pdf",
           "kind": "official",
           "title": "City of Las Vegas Business License Division: Transient Lodging Establishment Room Tax Instructions & Guidelines (rev. March 2026)"
+        },
+        {
+          "url": "https://www.clarkcountynv.gov/business/doing_business_with_clark_county/transient-lodging-tax-rate-increases",
+          "kind": "official",
+          "title": "Clark County: Transient Lodging Tax Rate Increases"
+        },
+        {
+          "url": "https://www.saharalasvegas.com/frequently-asked-questions",
+          "kind": "official",
+          "title": "SAHARA Las Vegas: FAQ"
+        },
+        {
+          "url": "https://www.alexispark.com/faq",
+          "kind": "official",
+          "title": "Alexis Park: FAQ"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-las-vegas.html": [
           "Inside the Primary Gaming Corridor, the zone around the Strip",
           "The City of Las Vegas's room tax guidance, revised March 2026, sets two combined rates"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "a combined rate of 13.38% inside the Primary Gaming Corridor, the zone around the Strip, and 13% outside it",
+          "it counts resort fees in the revenue the tax applies to",
+          "SAHARA and Alexis Park state 13.38% on their own sites"
         ]
       }
     },
@@ -1523,6 +1543,10 @@
           "Since 12 May 2025 a federal rule has covered this",
           "it must be included in the total price, and the total must be displayed more prominently than other pricing information",
           "Taxes and other government charges are the exception and may be left out of the upfront total"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "Since 12 May 2025 the Federal Trade Commission's fees rule has covered hotels",
+          "a mandatory resort fee must be included in the total price shown upfront"
         ]
       }
     },
@@ -1536,11 +1560,20 @@
           "url": "https://www.venetianlasvegas.com/resort/resort-fee.html",
           "kind": "operator",
           "title": "The Venetian Resort Las Vegas: Resort Fee"
+        },
+        {
+          "url": "https://www.venetianlasvegas.com/hotel/suites.html",
+          "kind": "official",
+          "title": "The Venetian: Suites"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-las-vegas.html": [
           "the hotel's fee page states $55 plus tax a night, payable at check-in"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "Luxury Suites run from 650 to 750 sq ft, by the hotel's count",
+          "its fee page states $55 plus tax a night, payable at check-in"
         ]
       }
     },
@@ -1577,12 +1610,21 @@
           "url": "https://www.saharalasvegas.com/frequently-asked-questions",
           "kind": "operator",
           "title": "SAHARA Las Vegas: Frequently Asked Questions"
+        },
+        {
+          "url": "https://www.lvmonorail.com/ticket-information/",
+          "kind": "operator",
+          "title": "Las Vegas Monorail: ticket information"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-las-vegas.html": [
           "the fee is $54.95 plus 13.38% tax",
           "with free valet and self-parking, and check-in at 4 p.m."
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "At 2535 Las Vegas Boulevard South, with a monorail station and a Vegas Loop link",
+          "a $54.95 daily fee that its FAQ says includes free valet and self-parking, and 13.38% tax"
         ]
       }
     },
@@ -1608,6 +1650,9 @@
           "a $39 fee that includes covered parking",
           "with rooms averaging 325 sq ft",
           "$39 a room, taxable at 13%"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "an average room of 325 sq ft and a mandatory $39 plus tax resort fee"
         ]
       }
     },
@@ -1632,6 +1677,10 @@
         "articles/where-to-stay-in-las-vegas.html": [
           "the fee is $37.42 a night plus 13.38% tax",
           "describes itself as the largest off-Strip, non-gaming resort in Las Vegas"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "with a $37.42 fee and 13.38% lodging tax",
+          "runs no shuttle to the airport or the Strip"
         ]
       }
     },
@@ -1650,12 +1699,21 @@
           "url": "https://www.plazahotelcasino.com/hotel/",
           "kind": "operator",
           "title": "Plaza Hotel & Casino: Hotel"
+        },
+        {
+          "url": "https://www.saharalasvegas.com/frequently-asked-questions",
+          "kind": "official",
+          "title": "SAHARA Las Vegas: FAQ"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-las-vegas.html": [
           "The room and fee come to $205; tax is $27.43; the total is $232.43 a night",
           "a $150 room, $39 fee and 13% tax comes to $213.57 a night"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "is $255 before tax and $289.12 after",
+          "With Alexis Park's $37.42 fee it comes to $269.19"
         ]
       }
     },
@@ -1681,6 +1739,11 @@
           "fares are regulated by the Nevada Taxicab Authority",
           "$22.25 for Zone 1, Sunset north to Tropicana",
           "$30.25 for Zone 3, Flamingo north to the Stratosphere"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "$22.25 to Zone 1, Sunset north to Tropicana",
+          "a $2.40 airport properties fee per pick-up, a $3 card fee, a fuel surcharge and a 3% excise tax",
+          "lists no Convention Center zone"
         ]
       }
     },
@@ -1700,6 +1763,9 @@
         "articles/where-to-stay-in-las-vegas.html": [
           "pickup is in the parking garage: Level 2 at T1 and the Valet Level at T3",
           "lane closures in the connector tunnels through December 2026"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "pickup is on Level 2 of the Terminal 1 garage and the Valet Level at Terminal 3"
         ]
       }
     },
@@ -1750,12 +1816,22 @@
           "url": "https://www.lvmonorail.com/ticket-information/",
           "kind": "operator",
           "title": "Las Vegas Monorail: Ticket Information"
+        },
+        {
+          "url": "https://www.ces.tech/attendee-guides/transportation/",
+          "kind": "official",
+          "title": "CES: Transportation"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-las-vegas.html": [
           "A single ride is $5.75 as an eTicket, or $6.25 full fare",
           "a one-day pass is $13.95 as an eTicket, or $15.50"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "Seven stations run from MGM Grand to SAHARA",
+          "A single ride is $5.75 as an eTicket and $6.25 at full fare",
+          "the monorail does not serve the Venetian Expo"
         ]
       }
     },
@@ -1817,11 +1893,19 @@
           "url": "https://cosmopolitanlasvegas.mgmresorts.com/en/hotel.html",
           "kind": "operator",
           "title": "The Cosmopolitan of Las Vegas: Rooms & Suites"
+        },
+        {
+          "url": "https://www.ces.tech/media/02tnll0c/final-ces-2027-transportation-flyer-10-5.pdf",
+          "kind": "official",
+          "title": "CES 2027 Complimentary Transportation flyer (PDF)"
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-las-vegas.html": [
           "a 460 sq ft City Room Queen to Terrace Studios of 730 sq ft with private terraces"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "Its rooms run from a 460 sq ft City Room Queen to 730 sq ft Terrace Studios with private terraces"
         ]
       }
     },
@@ -1903,6 +1987,9 @@
         "articles/where-to-stay-in-las-vegas.html": [
           "Circa is 21+, hotel guests included, and self-parking is $25 a day",
           "each room gets two complimentary passes a night"
+        ],
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "a 21-and-over property that includes hotel guests, with self-parking at $25 a day, valet at $20"
         ]
       }
     },
@@ -7914,6 +8001,816 @@
       "used_in": {
         "articles/where-to-stay-for-coachella.html": [
           "self-parking is $30 a day and breakfast is for a fee"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.ces.dates",
+      "topic": "place",
+      "claim": "ces.tech lists CES 2027 as January 6-9 in Las Vegas with CES Unveiled Las Vegas on Monday 4 January 2027; its dates page lists Media Day 1 and 2 at Mandalay Bay on 4 and 5 January; the 2027 transport flyer lists exhibit hours Wednesday 6 Jan 10 AM-6 PM, Thursday 7 and Friday 8 Jan 9 AM-6 PM, Saturday 9 Jan 9 AM-4 PM.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.ces.tech/",
+          "kind": "official",
+          "title": "CES 2027: ces.tech"
+        },
+        {
+          "url": "https://www.ces.tech/plan-your-visit/dates-and-hours/",
+          "kind": "official",
+          "title": "CES: Dates and Hours"
+        },
+        {
+          "url": "https://www.ces.tech/media/02tnll0c/final-ces-2027-transportation-flyer-10-5.pdf",
+          "kind": "official",
+          "title": "CES 2027 Complimentary Transportation flyer (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "CES 2027 runs from 6 to 9 January in Las Vegas",
+          "Media Days at Mandalay Bay on 4 and 5 January",
+          "Wednesday 10 am to 6 pm, Thursday and Friday 9 am to 6 pm, Saturday 9 am to 4 pm"
+        ]
+      },
+      "note": "The dates page's column headers did not map cleanly in text; exhibit hours are taken from the flyer's printed 'CES 2027 EXHIBIT HOURS' box (read as an image)."
+    },
+    {
+      "id": "us.lv.ces.venues",
+      "topic": "place",
+      "claim": "CES's maps and locations page says CES 2027 has 13 official venues grouped into three campuses (LVCC, Venetian and C Space) and lists ARIA Level 2 under C Space Campus Wi-Fi; the transport page runs the C Space Shuttle (Route 7) to ARIA.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.ces.tech/explore-ces/maps-and-locations/",
+          "kind": "official",
+          "title": "CES: Maps and Locations"
+        },
+        {
+          "url": "https://www.ces.tech/attendee-guides/transportation/",
+          "kind": "official",
+          "title": "CES: Transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "13 official venues in three campuses",
+          "the transport page places at ARIA"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.ces.housing",
+      "topic": "place",
+      "claim": "CES's hotels page says onPeak is the only official housing agent for CES 2027, warns that other resellers are not affiliated, says CES secures rooms at a selection of Las Vegas hotels, that rates will increase as January approaches and that some CES hotels sell out quickly, and says guests can also book directly with a specific hotel; it lists no prices.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.ces.tech/attendee-guides/hotels/",
+          "kind": "official",
+          "title": "CES: Hotels"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "the only official housing agent for CES 2027",
+          "rates will increase as January approaches",
+          "some official hotels sell out",
+          "you can book directly with a hotel"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.ces.shuttles",
+      "topic": "transport",
+      "claim": "CES's 2027 flyer lists complimentary hotel shuttles Tuesday 5 to Saturday 9 January (official badge required) on nine routes: 1 Encore at Wynn and Wynn; 2 Treasure Island; 3 MGM Grand, New York New York, Signature; 4 Mandalay Bay, W; 5 Circa, The Fremont, Golden Nugget, The Plaza (boarding at the Golden Nugget Carson Tower entrance); 6 Bellagio, Cosmopolitan (Tiffany Lot); 7 ARIA, Park MGM, Vdara; 8 Excalibur, Luxor. LVCC: routes 1-8; Venetian Expo: routes 3-8. Tuesday 8 AM-6 PM; Wednesday-Friday split-day routes 7:30-10:30 AM and 4-6:30 PM, with Route 7 also midday 10:30 AM-4 PM.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.ces.tech/media/02tnll0c/final-ces-2027-transportation-flyer-10-5.pdf",
+          "kind": "official",
+          "title": "CES 2027 Complimentary Transportation flyer (PDF)"
+        },
+        {
+          "url": "https://www.ces.tech/attendee-guides/transportation/",
+          "kind": "official",
+          "title": "CES: Transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "from Tuesday 5 to Saturday 9 January",
+          "Routes 1 and 2 serve the LVCC only",
+          "run 7:30 to 10:30 am and 4 to 6:30 pm, with no midday service",
+          "route 7 also runs 10:30 am to 4 pm"
+        ]
+      },
+      "note": "Flyer read as text and as an image. The hotel shuttle page says service is at 'select official CES hotels'."
+    },
+    {
+      "id": "us.lv.ces.tech-express",
+      "topic": "transport",
+      "claim": "CES's Tech Express (route 9) is a complimentary shuttle between the LVCC and Venetian Expo every 10 minutes (Wednesday-Friday 7:30 AM-6:30 PM), boarding in the LVCC Central Plaza near the Monorail walkway and on Sands Ave in front of the Venetian Expo.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.ces.tech/media/02tnll0c/final-ces-2027-transportation-flyer-10-5.pdf",
+          "kind": "official",
+          "title": "CES 2027 Complimentary Transportation flyer (PDF)"
+        },
+        {
+          "url": "https://www.ces.tech/attendee-guides/transportation/",
+          "kind": "official",
+          "title": "CES: Transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "A free shuttle between the LVCC and the Venetian Expo every 10 minutes",
+          "boarding in the LVCC's Central Plaza and on Sands Avenue"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.ces.loop",
+      "topic": "transport",
+      "claim": "CES says the Vegas Loop offers rides between the LVCC and five hotels (Encore, Fontainebleau, Resorts World, Sahara and Westgate) for a small fare, and that the LVCC Loop is free across the campus; the LVCVA says trips within the LVCC are free. No hotel-trip fare was readable: vegasloop.com/tickets shows prices only after choosing origin and destination.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.ces.tech/attendee-guides/transportation/",
+          "kind": "official",
+          "title": "CES: Transportation"
+        },
+        {
+          "url": "https://www.lvcva.com/vegas-loop/",
+          "kind": "official",
+          "title": "LVCVA: Vegas Loop"
+        },
+        {
+          "url": "https://vegasloop.com/tickets",
+          "kind": "official",
+          "title": "Vegas Loop: tickets"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "CES says the Vegas Loop runs between the LVCC and five hotels",
+          "Encore, Fontainebleau, Resorts World, SAHARA and Westgate",
+          "trips within the LVCC are free"
+        ]
+      },
+      "note": "Loop hotel-trip fares NOT quoted (not found officially). Third-party pages quote $4.25 one way and $12 airport; not used."
+    },
+    {
+      "id": "us.lv.ces.taxis",
+      "topic": "transport",
+      "claim": "CES says taxi lines can be long at the close of each show day and that passenger pick-up and drop-off at the LVCC is limited to the S2, C5 and West Hall entrances.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.ces.tech/attendee-guides/transportation/",
+          "kind": "official",
+          "title": "CES: Transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "taxi lines can be long at the close of each day",
+          "limited to the S2, C5 and West Hall entrances"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.ces.airport-shuttle",
+      "topic": "transport",
+      "claim": "CES's flyer lists a CES airport shuttle to Harry Reid International Airport on Thursday and Friday noon-7 PM and Saturday noon-5 PM on the hour and half hour, $10 per person one-way, boarding at the LVCC South shuttle area and the Venetian underground shuttle area.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.ces.tech/media/02tnll0c/final-ces-2027-transportation-flyer-10-5.pdf",
+          "kind": "official",
+          "title": "CES 2027 Complimentary Transportation flyer (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "a $10 one-way shuttle to the airport on Thursday and Friday from noon to 7 pm and on Saturday from noon to 5 pm"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.fee-encore",
+      "topic": "hotel",
+      "claim": "Wynn's resort information page states a daily resort fee of $55 plus tax for Wynn and Encore, including self-parking for up to two vehicles; its rooms page lists Encore's Resort room at 745 sq ft; both resorts share the address 3131 Las Vegas Blvd.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.wynnlasvegas.com/about-us/resort-information",
+          "kind": "official",
+          "title": "Wynn and Encore: Resort Policies & Information"
+        },
+        {
+          "url": "https://www.wynnlasvegas.com/rooms-and-suites",
+          "kind": "official",
+          "title": "Wynn and Encore: Rooms & Suites"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "the Resort room is 745 sq ft, with a separate living space",
+          "the $55 fee includes self-parking for up to two vehicles"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.fee-ti",
+      "topic": "hotel",
+      "claim": "Treasure Island's room page states a $49.95 plus tax daily resort fee, optional only for My TI Guestbook members booking the TV Ad special and qualified Treasury Players Club members; its FAQ says self-park and valet are always free for registered guests; Deluxe rooms are approx. 400 sq ft; address 3300 Las Vegas Blvd S.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://treasureisland.com/hotel/deluxe-rooms",
+          "kind": "official",
+          "title": "Treasure Island: Deluxe Rooms"
+        },
+        {
+          "url": "https://treasureisland.com/hotel-faqs",
+          "kind": "official",
+          "title": "Treasure Island: Hotel FAQs"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "At 3300 Las Vegas Boulevard South, with rooms of about 400 sq ft, free self-parking and valet, and a $49.95 plus tax resort fee"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-rw",
+      "topic": "hotel",
+      "claim": "Resorts World's homepage lists 1,496 Conrad rooms, 1,774 Hilton rooms and 'Choose from 3,500 guest rooms', address 3000 South Las Vegas Boulevard and a Resorts World station on the Vegas Loop; the No Resort Fees Offer's terms say it is valid for travel through 28 December 2026 and that the daily resort fee of $55 per room is waived under it; its pool deck is described as 5.5-acre.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.rwlasvegas.com/",
+          "kind": "official",
+          "title": "Resorts World Las Vegas"
+        },
+        {
+          "url": "https://www.rwlasvegas.com/offers/all-resort-no-fees",
+          "kind": "official",
+          "title": "Resorts World: No Resort Fees offer"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "The resort's Hilton has 1,774 rooms, in a 3,500-room complex at 3000 South Las Vegas Boulevard",
+          "the $55 fee is waived only for travel through 28 December 2026"
+        ]
+      },
+      "note": "Booking.com lists the Hilton at 999 Resorts World Avenue (same complex, same ZIP)."
+    },
+    {
+      "id": "us.lv.hotel-westgate",
+      "topic": "hotel",
+      "claim": "Westgate's page says the resort is adjacent to the Las Vegas Convention Center and one block from the Strip, has a Las Vegas Monorail stop onsite and a Vegas Loop (Westgate Station); address 3000 Paradise Road; its room types list 400 sq ft; no resort fee amount or parking price is stated on the pages read.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.westgateresorts.com/hotels/nevada/las-vegas/westgate-las-vegas-resort-casino/",
+          "kind": "official",
+          "title": "Westgate Las Vegas Resort & Casino"
+        },
+        {
+          "url": "https://www.westgateresorts.com/hotels/nevada/las-vegas/westgate-las-vegas-resort-casino/accommodations/",
+          "kind": "official",
+          "title": "Westgate: Accommodations"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "At 3000 Paradise Road, which the hotel calls adjacent to the Convention Center and one block from the Strip",
+          "Its rooms are 400 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-aria",
+      "topic": "hotel",
+      "claim": "ARIA's rooms page lists Deluxe King and Deluxe Two Queen rooms at 520 sq ft; its FAQ lists what the resort fee includes but gives no amount; CES places C Space at ARIA with shuttle route 7.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://aria.mgmresorts.com/en/hotel.html",
+          "kind": "official",
+          "title": "ARIA: Rooms & Suites"
+        },
+        {
+          "url": "https://aria.mgmresorts.com/en/faq.html",
+          "kind": "official",
+          "title": "ARIA: FAQ"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "Its Deluxe rooms are 520 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-residence",
+      "topic": "hotel",
+      "claim": "Marriott's page for Residence Inn Las Vegas Convention Center (3225 Paradise Road) describes an all-suite hotel step away from the Convention Center with full kitchens, free Wi-Fi and complimentary hot breakfast, with parking at $22.00 daily; no resort fee is mentioned.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/lasnv-residence-inn-las-vegas-convention-center/overview/",
+          "kind": "official",
+          "title": "Residence Inn by Marriott Las Vegas Convention Center"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-ces.html": [
+          "an all-suite hotel with full kitchens and complimentary hot breakfast",
+          "Parking is $22 a day"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen-snowmass.season-2026-27",
+      "topic": "place",
+      "claim": "Aspen Snowmass 2026/27 scheduled dates per its lift-ticket FAQ: Aspen Mountain 26 Nov 2026 to 18 Apr 2027; Snowmass 26 Nov 2026 to 11 Apr 2027; Aspen Highlands 12 Dec 2026 to 11 Apr 2027; Buttermilk 12 Dec 2026 to 4 Apr 2027. The general visit page shows one resort-wide window of 26 Nov to 18 Apr (Snowmass 11 Apr is from the FAQ). Dates depend on weather and conditions.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.aspensnowmass.com/visit/tickets-and-passes/lift-tickets",
+          "kind": "official",
+          "title": "Aspen Snowmass: lift tickets (FAQ with 2026/27 dates)"
+        },
+        {
+          "url": "https://www.aspensnowmass.com/visit",
+          "kind": "official",
+          "title": "Aspen Snowmass: plan your winter trip"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "Aspen Mountain and Snowmass are scheduled to open on 26 November 2026",
+          "Aspen Highlands and Buttermilk on 12 December",
+          "the lift-ticket FAQ, which sets the dates mountain by mountain, closes Snowmass on 11 April"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen-snowmass.lift-ticket-ikon",
+      "topic": "place",
+      "claim": "Snowmass Village's tourism office says one lift ticket grants access to all four Aspen Snowmass mountains and Ikon Pass holders can ski up to seven days anywhere in the Aspen Snowmass resort.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.gosnowmass.com/about-us/maps-travel/",
+          "kind": "official",
+          "title": "Go Snowmass: maps and travel (Snowmass Village tourism office)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "one lift ticket covers all four mountains",
+          "Ikon Pass holders can ski up to seven days across the resort"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.ase-closure-2027",
+      "topic": "transport",
+      "claim": "Aspen/Pitkin County Airport will close Sunday 4 April 2027 at 11:00 pm through Friday 19 November 2027 at 7:00 pm for runway reconstruction; commercial and general aviation not permitted. Terminal and runway work: runway shifted ~80 ft west and widened from 100 ft to 150 ft.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.aspenairport.com/modernization/",
+          "kind": "official",
+          "title": "Aspen/Pitkin County Airport: modernization"
+        },
+        {
+          "url": "https://pitkincounty.com/m/newsflash/Home/Detail/842",
+          "kind": "official",
+          "title": "Pitkin County: 2027 closure dates"
+        },
+        {
+          "url": "https://www.aspenairport.com/wp-content/uploads/2026/09/ASE_FAQ_v3.pdf",
+          "kind": "official",
+          "title": "ASE FAQ (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "the Aspen/Pitkin County Airport is due to close from 4 April 2027",
+          "Aspen/Pitkin County Airport says it will close from 11:00 pm on Sunday 4 April 2027 until 7:00 pm on Friday 19 November 2027 for a full runway rebuild",
+          "From 4 April 2027 there are no flights into Aspen"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.ase-closure-alternatives",
+      "topic": "transport",
+      "claim": "ASE FAQ: while closed, travellers may use Denver International, Grand Junction Regional, Montrose Regional and Vail/Eagle County Regional airports; rental cars stay available; transportation between airports and Aspen had not been arranged at the time of writing (local partners coordinating shuttles, transit and rentals).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.aspenairport.com/wp-content/uploads/2026/09/ASE_FAQ_v3.pdf",
+          "kind": "official",
+          "title": "ASE FAQ (PDF)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "names Denver, Grand Junction, Montrose and Vail/Eagle County as the airports to use while ASE is closed in 2027",
+          "though rental cars stay available"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.airport-distances",
+      "topic": "transport",
+      "claim": "Aspen Snowmass: from ASE 3 miles east on Highway 82 to downtown Aspen; Denver (DEN) 220 miles, Eagle County (EGE) 70 miles and Grand Junction (GJT) 125 miles via I-70 and Colorado 82; Glenwood Springs is 41 miles from Aspen on Highway 82; Independence Pass closed generally late October through May. Go Snowmass: Snowmass Village about 6 miles / 15 minutes from ASE and 9 miles from Aspen with free shuttles.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.aspensnowmass.com/visit/getting-here/ground-transportation",
+          "kind": "official",
+          "title": "Aspen Snowmass: ground transportation and driving directions"
+        },
+        {
+          "url": "https://www.gosnowmass.com/about-us/maps-travel/",
+          "kind": "official",
+          "title": "Go Snowmass: maps and travel"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "is 3 miles east of downtown Aspen on Highway 82",
+          "70 miles from Eagle County Airport (EGE), 125 miles from Grand Junction (GJT) and 220 miles from Denver (DEN)",
+          "about 6 miles from Snowmass Village, a drive of roughly 15 minutes",
+          "Highway 82 over Independence Pass, east of Aspen, is closed generally from late October through May",
+          "Glenwood Springs is 41 miles from Aspen on Highway 82",
+          "about 9 miles from Aspen, with free shuttles linking the two"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.ase-ground",
+      "topic": "transport",
+      "claim": "ASE site: free RFTA bus service runs into Aspen and Snowmass; taxis, limousines and hotel shuttles meet guests in the Ground Transportation Circle outside Baggage Claim; ride-share on the front drive. Aspen Snowmass lists Avis and Budget rental cars at ASE and Roaring Fork Express (CO West) daily scheduled shuttles and charters between Aspen/Snowmass and DEN or EGE (no fares published on the page).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.aspenairport.com/modernization/transportation/",
+          "kind": "official",
+          "title": "Aspen/Pitkin County Airport: ground transportation"
+        },
+        {
+          "url": "https://www.aspensnowmass.com/visit/getting-here/ground-transportation",
+          "kind": "official",
+          "title": "Aspen Snowmass: ground transportation"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "The airport says free RFTA bus service runs into Aspen and Snowmass Village",
+          "Rental cars are at the airport from Avis and Budget",
+          "Roaring Fork Express, listed on the Aspen Snowmass site, runs scheduled shuttles between Aspen and Snowmass and either Denver or Eagle"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.rfta-fares",
+      "topic": "fare",
+      "claim": "RFTA adult single fares from the Aspen/Snowmass Village/Brush Creek/Woody Creek zone: free within the zone, Aspen Village $2, Basalt/Willits/El Jebel $3, Carbondale $4, Glenwood Springs $5 (first zone change $2, then $1 per extra zone). Seniors 65+ and children 5 and under ride free; youths 6-18 pay $1 when leaving the free zone. Free: all City of Aspen routes and Aspen to/from Snowmass Village.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.rfta.com/fares/",
+          "kind": "operator",
+          "title": "RFTA: bus fares"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "The RFTA fare table lists these adult single fares from the Aspen and Snowmass Village zone",
+          "Seniors 65 and over and children 5 and under ride free, and youths aged 6 to 18 pay $1 when they leave the free zone",
+          "All City of Aspen routes are free",
+          "the RFTA fare from the Basalt, Willits and El Jebel zone is $3 each way",
+          "the RFTA fare from Glenwood Springs to Aspen is $5 each way"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.four-mountain-connector",
+      "topic": "transport",
+      "claim": "RFTA: the Four Mountain Connector is a winter-season-only service connecting Aspen Mountain, Aspen Highlands, Buttermilk and Snowmass; high-frequency routes, always free, 7 days a week except where noted.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.rfta.com/routes/4-mountain-connector/",
+          "kind": "operator",
+          "title": "RFTA: Four Mountain Connector"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "the winter-only Four Mountain Connector, which links Aspen Mountain, Aspen Highlands, Buttermilk and Snowmass, is always free"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.lodging-tax",
+      "topic": "tax",
+      "claim": "City of Aspen: from 2026 the aggregate sales and lodging tax for a nightly stay in a traditional lodge is 12.35%; 2026 sales tax 10.35% (city 2.70%, Pitkin County 3.60%, RFTA 0.40%, State 2.90%, Aspen Fire Protection District 0.50%, Confluence 0.25%) plus two 1.00% lodging taxes. Short-term rentals: 17.35% owner-occupied/lodge-exempt, 22.35% investment/second-home 'classic'. Worked example is editorial arithmetic: US$500 x 12.35% = US$61.75 (total US$561.75); x 22.35% = US$111.75 (total US$611.75).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://aspen.gov/1427/Lodging-and-Short-Term-Rental-Taxes",
+          "kind": "official",
+          "title": "City of Aspen: lodging and short-term rental taxes"
+        },
+        {
+          "url": "https://aspen.gov/1389/State-County-and-Local-Sales-and-Use-Tax",
+          "kind": "official",
+          "title": "City of Aspen: state, county and local sales and use taxes"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "combined sales and lodging taxes on a night in a traditional lodge come to 12.35%",
+          "The City of Aspen lists its 2026 sales tax as 10.35%",
+          "Its two lodging taxes are 1.00% each",
+          "17.35% for an owner-occupied or lodge-exempt short-term rental and 22.35% for an investment or second-home",
+          "a US$500 room is US$61.75 more in Aspen at 12.35%, so US$561.75",
+          "would come to US$611.75"
+        ]
+      }
+    },
+    {
+      "id": "us.co.snowmass.lodging-tax",
+      "topic": "tax",
+      "claim": "Town of Snowmass Village sales tax guide: sales tax 10.65% (Town 3.50%, State 2.90%, Pitkin County 3.60%, RFTA 0.40%, Confluence 0.25%) plus a 2.40% Town lodging tax = 13.05% total lodging rate; the guide names the Base Village Master Association as contact for a special lodging assessment and resort fee. The Town's older FAQ page on snowmass.gov still shows 10.4% / 12.8% (stale). Worked example is editorial arithmetic: US$500 x 13.05% = US$65.25 (total US$565.25).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.tosv.com/DocumentCenter/View/687/Sales-Tax-Information-Guide",
+          "kind": "official",
+          "title": "Town of Snowmass Village: sales tax information guide (PDF, undated; matches 2026 component list)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "puts a Snowmass hotel night at 13.05%",
+          "Snowmass Village's guide lists its sales tax as 10.65%",
+          "plus a 2.40% town lodging tax",
+          "US$65.25 more in Snowmass Village at 13.05%, so US$565.25",
+          "names the Base Village Master Association as the contact for a special lodging assessment and resort fee"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.jerome",
+      "topic": "hotel",
+      "claim": "Hotel Jerome, 330 East Main Street, Aspen (Auberge): site says it has been the social hub of Aspen since 1889; room types Deluxe Rooms, Junior Suites, Luxury Suites, Residential Suites; Yarrow Spa; One Michelin Key; on 3 Nov 2026 the page said 'Online booking is temporarily unavailable' and gave 855.331.7213; stay offers bookable to 18 Dec 2026 shown.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://auberge.com/hotel-jerome/",
+          "kind": "official",
+          "title": "Hotel Jerome"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "which the hotel says has been the social hub of Aspen since 1889",
+          "online booking was temporarily unavailable and asked guests to call 855.331.7213"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.limelight-aspen",
+      "topic": "hotel",
+      "claim": "Limelight Hotel Aspen, 355 S Monarch Street: walking distance from Aspen Mountain and the Silver Queen Gondola; heated outdoor pool and hot tubs; complimentary breakfast; hotel shuttle service to/from ASE or around town (cost not stated); winter offer 'Book by November 20, 2026, for stays through April 17, 2027'.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.limelighthotels.com/aspen",
+          "kind": "official",
+          "title": "Limelight Hotel Aspen"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "which the hotel puts within walking distance of Aspen Mountain and the Silver Queen Gondola",
+          "its winter offer is listed for stays through 17 April 2027"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.mollie",
+      "topic": "hotel",
+      "claim": "MOLLIE Aspen, 111 S. Garmisch Street: 'within a short walk of downtown Aspen'; 'All four ski areas are easily accessible from MOLLIE'; cafe serves breakfast and lunch; no distance to Aspen Mountain, pool or fee information found on the page; Book Your Stay present, no winter dates stated.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.mollieaspen.com/",
+          "kind": "official",
+          "title": "MOLLIE Aspen"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "which the hotel describes as within a short walk of downtown Aspen"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.little-nell",
+      "topic": "hotel",
+      "claim": "The Little Nell, 675 E Durant Avenue: page title '5-Star Ski-in/Ski-out Hotel in Aspen'; 'At the base of Aspen Mountain'; 'Aspen's only slopeside spa'; First Tracks skiing before Aspen Mountain opens to the public; six Luxury Suites; no room total or fees on the home page; NYE 2027 event listed.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.thelittlenell.com/",
+          "kind": "official",
+          "title": "The Little Nell"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "with Aspen's only slopeside spa according to its own page",
+          "First Tracks skiing before the mountain opens to the public"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.st-regis",
+      "topic": "hotel",
+      "claim": "The St. Regis Aspen Resort, 315 East Dean Street: 154 guestrooms, 22 suites and 3 specialty suites; 24-hour heated pool and hot tubs; RAKxa Wellness Spa; bar at the base of Aspen Mountain; Pool Bar & Patio shown 'Closed for Season'; offers shown to 30 June 2027.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/asexr-the-st-regis-aspen-resort/overview/",
+          "kind": "official",
+          "title": "The St. Regis Aspen Resort (Marriott)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "with 154 guestrooms, 22 suites and 3 specialty suites",
+          "its Pool Bar & Patio was shown as closed for the season"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.viceroy",
+      "topic": "hotel",
+      "claim": "Viceroy Snowmass, 130 Wood Road: describes itself as 'the only ski-in, ski-out luxury resort in Snowmass'; guest suites and residences; 7,000-square-foot spa sanctuary with outdoor pool; year-round pool terrace and cafe.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.viceroyhotelsandresorts.com/snowmass",
+          "kind": "official",
+          "title": "Viceroy Snowmass"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "a 7,000-square-foot spa and an outdoor pool terrace that stays open year-round"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.limelight-snowmass",
+      "topic": "hotel",
+      "claim": "Limelight Snowmass, 65 Wood Rd: ski-in/ski-out access right at the base of Elk Camp Gondola; heated spa pools; full breakfast buffet included; kids' room, five-story climbing wall; winter offer 'for stays through April 10, 2027'.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.limelighthotels.com/snowmass",
+          "kind": "official",
+          "title": "Limelight Snowmass"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "with ski-in, ski-out access at the base of the Elk Camp Gondola",
+          "its winter offer is listed for stays through 10 April 2027"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.viewline",
+      "topic": "hotel",
+      "claim": "Viewline Resort Snowmass (Autograph Collection), 100 Elbert Lane: slopeside ski-in/ski-out rooms; 'ski-in/ski-out suites directly off iconic Fanny Hill'; newly reimagined accommodations; no room count or fee list on the home page.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.viewlineresortsnowmass.com/",
+          "kind": "official",
+          "title": "Viewline Resort Snowmass"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "ski-in, ski-out suites directly off Fanny Hill"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.stonebridge",
+      "topic": "hotel",
+      "claim": "Stonebridge Inn, 300 Carriage Way, Snowmass Village: fully renovated; 93 newly renovated guest rooms and suites; 'Nearly slopeside and just a short walk from the lifts'.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.stonebridgeinn.com/",
+          "kind": "official",
+          "title": "Stonebridge Inn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "a fully renovated inn with 93 guest rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.mountain-chalet",
+      "topic": "hotel",
+      "claim": "Mountain Chalet Snowmass, 115 Daly Ln: 64 rooms a flight of stairs from the Snowmass Mall; free 'Skittles' gondola to Base Village; outdoor heated pool and hot tub; complimentary breakfast and lunch; heated parking garage; ski-in ski-out listed; direct-booking page on 3 Nov 2026 applied a minimum-stay rule to 10-13 Jan 2027; site footer copyright 2015/2024.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://mountainchalet.com/",
+          "kind": "official",
+          "title": "Mountain Chalet Snowmass"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "with 64 rooms a flight of stairs from the Snowmass Mall",
+          "complimentary breakfast and lunch",
+          "its online booking applied a minimum-stay rule to some January 2027 dates"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.element-basalt",
+      "topic": "hotel",
+      "claim": "Element by Marriott Basalt - Aspen, 499 Market Street, Basalt: free hotel breakfast (Rise), kitchen, indoor pool, whirlpool, complimentary on-site parking; offers shown 1 Oct 2026 to 30 Jun 2027; renovation described as completed.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/aseel-element-basalt-aspen/overview/",
+          "kind": "official",
+          "title": "Element by Marriott Basalt - Aspen"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "with a kitchen, a free hotel breakfast, an indoor pool and complimentary on-site parking"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.hotel.hotel-colorado",
+      "topic": "hotel",
+      "claim": "Hotel Colorado, 526 Pine St, Glenwood Springs: 'delighting guests with its legendary hospitality since 1893'; downtown Glenwood Springs, 'mere steps from Glenwood Hot Springs'; copyright 2026 (no winter dates stated).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.hotelcolorado.com/",
+          "kind": "official",
+          "title": "Hotel Colorado"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "a historic hotel that has welcomed guests since 1893"
+        ]
+      }
+    },
+    {
+      "id": "us.co.aspen.little-nell-2027-closure",
+      "topic": "hotel",
+      "claim": "The Aspen Chamber Resort Association's airport resource page says that, as of summer 2026, The Gant and The Little Nell will be closed for renovations during the airport closure (from 4 April 2027), and all other hotels will be open.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://aspenchamber.org/membership/public-affairs/airport/",
+          "kind": "publisher",
+          "title": "Aspen Chamber Resort Association: ASE Resource Page"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-aspen.html": [
+          "The Little Nell will close for renovations while the airport is shut"
         ]
       }
     }

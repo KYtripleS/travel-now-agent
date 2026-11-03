@@ -1397,7 +1397,7 @@
       "id": "gb.london.nye.ticketing",
       "topic": "price",
       "claim": "The Mayor of London's New Year's Eve fireworks on Thursday 31 December 2026 (8:00pm to 12:30am, entry to the viewing areas 8:00pm to 10:30pm) are ticketed and sold only through Ticketmaster, up to 4 per buyer: £55 (£35 for Londoners) for the Blue, Pink and White areas and £40 (£20) for Red, Green and Orange; prices include VAT, a small booking fee is extra, prices are unchanged from last year, there are no refunds, and tickets may be resold at face value only via Ticketmaster Fan-to-Fan Resale; people without tickets are not allowed into the viewing areas.",
-      "checked": "2026-10-28",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
@@ -1423,8 +1423,8 @@
     {
       "id": "gb.london.nye.availability",
       "topic": "place",
-      "claim": "On 28 October and again on 1 November 2026 the Mayor's event page described the first of two ticket batches as on sale now, did not say it had sold out, warned that tickets sell out quickly and gave no date for the second batch; live Ticketmaster availability was not checked. Last year's final batch went on sale at noon on Monday 24 November 2025.",
-      "checked": "2026-11-01",
+      "claim": "On 28 October, 1 November and 3 November 2026 the Mayor's event page described the first of two ticket batches as on sale now, did not say it had sold out, warned that tickets sell out quickly and gave no date for the second batch; live Ticketmaster availability was not checked. Last year's final batch went on sale at noon on Monday 24 November 2025.",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
@@ -1487,8 +1487,8 @@
     {
       "id": "gb.london.nye.tfl-2025-plan",
       "topic": "transport",
-      "claim": "TfL had not published a 2026 New Year's Eve plan on 28 October 2026 (its major works and events calendar listed none for 31 December). Last year's release of 2 December 2025 said services would run all night apart from planned closures, some central stations might close at short notice or at busy times, some central buses would be diverted from about midday, some bridges would close to pedestrians and some Santander Cycles docking stations would be unavailable, and advised people not to travel to the Victoria Embankment area without a ticket; it did not mention free travel.",
-      "checked": "2026-10-28",
+      "claim": "TfL had not published a 2026 New Year's Eve plan on 3 November 2026 (its major works and events calendar listed none for 31 December). Last year's release of 2 December 2025 said services would run all night apart from planned closures, some central stations might close at short notice or at busy times, some central buses would be diverted from about midday, some bridges would close to pedestrians and some Santander Cycles docking stations would be unavailable, and advised people not to travel to the Victoria Embankment area without a ticket; it did not mention free travel.",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://tfl-newsroom.prgloo.com/news/majority-of-tfl-services-running-over-christmas-and-new-year-to-help-customers-make-the-most-of-london-this-festive-season",

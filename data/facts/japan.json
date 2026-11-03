@@ -3147,6 +3147,11 @@
           "Since 1 October 2024 stays under ¥5,000 per person per night are exempt",
           "¥5,000 to under ¥20,000",
           "the city's tax page and ordinance show no later change"
+        ],
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "¥200 from ¥5,000 to under ¥20,000; ¥500 from ¥20,000",
+          "Stays under ¥5,000 a person since 1 October 2024",
+          "the exemption for stays under ¥5,000 a person since 1 October 2024"
         ]
       }
     },
@@ -3295,6 +3300,10 @@
         "articles/where-to-stay-in-kanazawa.html": [
           "three minutes on foot from the station's east exit",
           "planned two-hour power outages in the guest rooms"
+        ],
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "A 30-storey tower three minutes on foot from the station's east exit",
+          "15 January 2027 from 14:30 to 16:30"
         ]
       }
     },
@@ -3325,6 +3334,9 @@
           "About a one-minute walk from the station",
           "163 guest rooms on floors 6 to 15",
           "22 square metres to a 70 square metre suite"
+        ],
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "with 163 rooms on floors 6 to 15, from 22 square metres to a 70 square metre suite"
         ]
       }
     },
@@ -3397,6 +3409,10 @@
         "articles/where-to-stay-in-kanazawa.html": [
           "11 tatami rooms, none with a private bath",
           "by phone, fax or email on its own site"
+        ],
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "11 tatami rooms, none with a private bath",
+          "3 minutes' walk from the Katamachi bus stop"
         ]
       }
     },
@@ -5965,6 +5981,464 @@
         "articles/where-to-stay-in-osaka-cherry-blossom.html": [
           "546 rooms rising above Nankai Namba Station",
           "began on 20 August 2026, with no end date given"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.lightup-2027.dates",
+      "topic": "place",
+      "claim": "The 41st Shirakawa-go Light-Up (2027) is held in Ogimachi on 11 January (Monday, public holiday), and 17, 24 and 31 January (Sundays), 17:30-19:30; it may be cancelled if a severe cold wave disrupts transport.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/142/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Overview of the 41st Light-Up Event (2027)"
+        },
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/140/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Schedule announcement (1 July 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "on Monday 11 January (a public holiday), and on Sundays 17, 24 and 31 January 2027, from 17:30 to 19:30",
+          "may be cancelled if a severe cold wave disrupts transport"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.lightup-2027.reservation",
+      "topic": "place",
+      "claim": "The event is by advance reservation only with an admission ticket on a neck holder; no tickets sold on the day; visitors without a reservation are refused entry.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/142/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Overview of the 41st Light-Up Event (2027)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "Admission is by advance reservation and an admission ticket worn on a neck holder, and nothing is sold on the day",
+          "visitors without a reservation will be refused entry even if they arrive on the day"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.lightup-2027.deck",
+      "topic": "place",
+      "claim": "The observation deck ticket is not sold separately; it is obtained only by a village stay on event day under a plan including one, or by a light-up tour with one from a participating bus operator; the deck has three viewing sessions that cannot be chosen; a normal admission ticket does not include the deck.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/142/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Overview of the 41st Light-Up Event (2027)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "the observation deck ticket cannot be bought separately",
+          "the deck is divided into three viewing sessions that you cannot choose",
+          "does not include the observation deck"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.lightup-2027.five-ways",
+      "topic": "place",
+      "claim": "Five ways to participate: village stay (with deck ticket), reserved parking for own car, reserved parking plus taxi, highway-bus operator tour (Nohi, Kaetsuno, Toyama Chiho Railway, Hokutetsu, Iruka Kotsu), travel-agency bus tour.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/142/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Overview of the 41st Light-Up Event (2027)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "Nohi Bus, Kaetsuno Bus, Toyama Chiho Railway Bus, Hokutetsu Bus or Iruka Kotsu"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.lightup-2027.rules",
+      "topic": "place",
+      "claim": "Entrance gate from 15:30; regular bus arrivals must reach the village by 15:20; last regular buses out ~16:00-17:00; no regular buses afterwards; drones banned; studless winter tyres required; -10 to 0 C; Hakusan Taxi does not run on event days.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/142/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Overview of the 41st Light-Up Event (2027)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "An entrance gate goes up from 15:30",
+          "a bus that reaches the village by 15:20",
+          "there are no regular buses back afterwards",
+          "Drones are banned",
+          "studless winter tyres",
+          "from about -10 to 0 degrees Celsius",
+          "Hakusan Taxi does not run on event days"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.lightup-2027.parking",
+      "topic": "fare",
+      "claim": "Event parking (Midashima lot, regular vehicles): round 1 (10 Sept 2026) JPY 6,000 for 1-5 people / 9,000 for 6-10, sold out; round 2 from 13:00 on 1 Dec 2026 at JPY 7,000 / 10,000; online by credit card; lot opens 15:00, leave by 20:00; refund only if the committee cancels; does not include deck access.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/142/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Overview of the 41st Light-Up Event (2027)"
+        },
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/144/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: parking reservations round 1 sold out"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "¥7,000 for 1 to 5 people, ¥10,000 for 6 to 10",
+          "1 December 2026, 13:00",
+          "opens to ticket holders from 15:00 and must be left by 20:00"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.lightup-2027.lottery",
+      "topic": "place",
+      "claim": "Village accommodation lottery applications closed 31 Oct 2026; winners emailed 10 Nov; further applications accepted later if a winner declines; Association accommodation reservations are allocated by lottery, not first-come.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/142/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Overview of the 41st Light-Up Event (2027)"
+        },
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/146/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: accommodation lottery closed"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "Applications closed 31 October 2026",
+          "Winners are emailed on 10 November",
+          "allocated by lottery, not first-come, first-served"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.nohi-tours",
+      "topic": "fare",
+      "claim": "Nohi Bus light-up tours from Takayama: Course A JPY 13,000 (Minkaen ticket, no deck), departs 15:40, returns 20:20; Course B JPY 16,000 (deck ticket), departs 15:10, returns 20:45; sales staged 13 Oct/19 Oct/26 Oct/2 Nov 2026 for the four dates; online only, max six people per booking.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.nouhibus.co.jp/shirakawa_lightup_2027en/",
+          "kind": "operator",
+          "title": "Nohi Bus: Shirakawago Light-up Bus Tour 2027"
+        },
+        {
+          "url": "https://shirakawa-go.gr.jp/en/events/142/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Overview of the 41st Light-Up Event (2027)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "Course A ¥13,000 (no deck ticket), course B ¥16,000 (with deck ticket)",
+          "leaves the Takayama Nohi Bus Center at 15:40 or 15:10 and returns at 20:20 or 20:45",
+          "six people a booking"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.nohi-fares",
+      "topic": "fare",
+      "claim": "Nohi Bus one-way regular fares: Takayama-Shirakawago JPY 2,800; Kanazawa Station-Shirakawago 2,800; Toyama Station-Shirakawago 2,400; children under 6 free, a seated child pays a child fare.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.nouhibus.co.jp/route_bus/shirakawago_en/",
+          "kind": "operator",
+          "title": "Nohi Bus: Takayama-Shirakawago-Kanazawa/Toyama/Takaoka line"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "¥2,800",
+          "¥2,400",
+          "Children under 6 travel free"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.bus-time",
+      "topic": "transport",
+      "claim": "Takayama-Shirakawa-go about 50 minutes by Nohi Bus, about 16 round trips a day, some by reservation; delays of two hours or more possible; Association gives about 1.5 hours by highway bus from Kanazawa and Toyama.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.nouhibus.co.jp/route_bus/shirakawago_en/",
+          "kind": "operator",
+          "title": "Nohi Bus: Takayama-Shirakawago-Kanazawa/Toyama/Takaoka line"
+        },
+        {
+          "url": "https://shirakawa-go.gr.jp/en/access/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "with around 16 round-trip services a day",
+          "delays of two hours or more",
+          "The Tourist Association gives the bus from Kanazawa Station to Shirakawa-go at about 1.5 hours"
+        ]
+      }
+    },
+    {
+      "id": "jp.takayama.accommodation-tax",
+      "topic": "tax",
+      "claim": "Takayama City accommodation tax from 1 October 2025: JPY 100 per person per night for a room-only price under 10,000; 200 from 10,000 to under 30,000; 300 from 30,000; excludes meals and consumption tax; exempt: children up to the first 31 March after their 12th birthday, school-trip pupils and staff; paid with the room charge or on site depending on property.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.city.takayama.lg.jp/shisei/1000061/1022608/1022609.html",
+          "kind": "official",
+          "title": "Takayama City: accommodation tax overview (updated 1 April 2026)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "¥100 under ¥10,000; ¥200 from ¥10,000 to under ¥30,000; ¥300 from ¥30,000",
+          "1 October 2025",
+          "excludes meals and consumption tax",
+          "school-trip pupils and their staff"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.hotel.shiroyamakan",
+      "topic": "hotel",
+      "claim": "Shiroyamakan, Ogimachi 1168-1: under 1 minute from the Shirakawago Bus Terminal; built 1884, nationally important traditional building; four groups a day (Association); Kiso hinoki baths for private use (English room page); its own news says the four 2027 light-up dates cannot be booked through it; phone 05769-6-1007.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shiroyamakan.jp/en/",
+          "kind": "operator",
+          "title": "Shiroyamakan"
+        },
+        {
+          "url": "https://shiroyamakan.jp/en/room/",
+          "kind": "operator",
+          "title": "Shiroyamakan: Room"
+        },
+        {
+          "url": "https://shiroyamakan.jp/news/p546/",
+          "kind": "operator",
+          "title": "Shiroyamakan: Reservations Jan-Mar 2027 (Japanese)"
+        },
+        {
+          "url": "https://shirakawa-go.gr.jp/en/stay/16/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Shiroyamakan listing"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "under a minute's walk from the Shirakawago Bus Terminal",
+          "dates from 1884",
+          "It takes four groups a day",
+          "its site says the four light-up dates are not bookable through it"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.hotel.hakusanso",
+      "topic": "hotel",
+      "claim": "Hakusanso, Hirase 87: gassho-zukuri inn, only gassho-style hot-spring inn in Hirase Onsen, spring flowing without recirculation; Association lists 4 rooms, ~6 minutes' walk from Hirase bus stop, 20 minutes' drive from the village.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://hakusanso.com/",
+          "kind": "operator",
+          "title": "Hakusanso (Japanese)"
+        },
+        {
+          "url": "https://shirakawa-go.gr.jp/en/stay/28/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Hakusanso listing"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "the only gassho-style hot-spring inn in the Hirase Onsen area",
+          "The Association lists four rooms",
+          "20 minutes' drive from the village, about 6 minutes' walk from the Hirase bus stop"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.hotel.shimizu",
+      "topic": "hotel",
+      "claim": "Shimizu, Ogimachi 2613: 200-year-old gassho-style farmhouse minshuku; standard half-board plan (dinner and breakfast) from JPY 19,800 tax incl.; reservations via the Tourist Association website; facilities differ from a modern hotel.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shimizu-inn.com/",
+          "kind": "operator",
+          "title": "Shimizu Inn"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "A 200-year-old gassho-style farmhouse minshuku at Ogimachi 2613",
+          "a half-board plan from ¥19,800 that covers dinner and breakfast",
+          "it sends reservations through the Tourist Association's website"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.hotel.yuinosho",
+      "topic": "hotel",
+      "claim": "Onyado Yuinosho, 908-2 Iijima: 66 rooms; hiba-beef kaiseki dinner in two seatings 17:30/20:00; parking for 60 cars; 1 minute on foot from Iijima bus stop with pick-up; about 24 minutes' walk from the bus terminal (Association listing); hot-spring baths (own site).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shirakawa-go.gr.jp/en/stay/45/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: Onyado Yuinosho listing"
+        },
+        {
+          "url": "https://dormy-hotels.com/resort/hotels/shirakawago/",
+          "kind": "operator",
+          "title": "Dormy Hotels: Onyado Yuinosho Shirakawago (Japanese)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "A 66-room hot-spring hotel at Iijima 908-2",
+          "17:30 and 20:00",
+          "24 minutes' walk from the bus terminal"
+        ]
+      }
+    },
+    {
+      "id": "jp.shirakawago.hotel.kei",
+      "topic": "hotel",
+      "claim": "Shirakawago GuestHouse Kei, Hatotani 329-1: JPY 2,800 and up with no meals, tax included, excluding heating fee; 4 rooms; check-in 15:00-21:00; shared lounge and kitchen; English spoken; 15 minutes' walk from the bus terminal, 4 minutes from Hatogaya stop (Association listing).",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://shirakawa-go.gr.jp/en/stay/15/",
+          "kind": "official",
+          "title": "Shirakawa-go Tourist Association: GuestHouse Kei listing"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "priced from ¥2,800 with no meals, tax included and heating extra",
+          "check-in is from 15:00 to 21:00",
+          "4 minutes from the Hatogaya stop"
+        ]
+      }
+    },
+    {
+      "id": "jp.takayama.hotel.plaza",
+      "topic": "hotel",
+      "claim": "Hida Hotel Plaza: 5-minute walk from JR Takayama Station; 222 rooms in three wings; in-house hot spring baths; Shirakawa-go 50 minutes by bus from the station.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.hida-hotelplaza.co.jp/lg_en/",
+          "kind": "operator",
+          "title": "Hida Hotel Plaza"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "A 5-minute walk from JR Takayama Station, with 222 rooms across three wings",
+          "gives Shirakawa-go as 50 minutes by bus from the station"
+        ]
+      }
+    },
+    {
+      "id": "jp.takayama.hotel.asunaro",
+      "topic": "hotel",
+      "claim": "Ryokan Asunaro: country house relocated to Takayama in 1991, built without nails, five room types, tatami room about 33 sq m with en-suite bathroom; a Standard Room with Shower type.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://yado-asunaro.com/en/",
+          "kind": "operator",
+          "title": "Ryokan Asunaro"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "a country house moved to Takayama in 1991",
+          "about 33 square metres with its own bathroom",
+          "it lists a standard room with shower"
+        ]
+      }
+    },
+    {
+      "id": "jp.takayama.hotel.rickshaw",
+      "topic": "hotel",
+      "claim": "Rickshaw Inn: machiya-style inn 8 minutes' walk from JR Takayama Station; five named rooms; its rooms page carries the Takayama accommodation tax notice.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.rickshawinn.com/",
+          "kind": "operator",
+          "title": "Rickshaw Inn"
+        },
+        {
+          "url": "https://www.rickshawinn.com/rooms/",
+          "kind": "operator",
+          "title": "Rickshaw Inn: Rooms"
+        },
+        {
+          "url": "https://www.rickshawinn.com/access.html",
+          "kind": "operator",
+          "title": "Rickshaw Inn: Access"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "A machiya-style inn 8 minutes' walk from JR Takayama Station, with five named rooms"
+        ]
+      }
+    },
+    {
+      "id": "jp.toyama.hotel.excel-tokyu",
+      "topic": "hotel",
+      "claim": "Toyama Excel Hotel Tokyu: 3-minute walk from Toyama Station; Tateyama mountain views from the top-floor restaurant and guest rooms on clear days; 20 minutes by car from Toyama Airport; site warns about fake websites.",
+      "checked": "2026-11-03",
+      "sources": [
+        {
+          "url": "https://www.tokyuhotels.co.jp/en/toyama-e/index.html",
+          "kind": "operator",
+          "title": "Toyama Excel Hotel Tokyu"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+          "A 3-minute walk from Toyama Station",
+          "20 minutes by car from Toyama Airport"
         ]
       }
     }

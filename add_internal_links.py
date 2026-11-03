@@ -591,6 +591,22 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-aspen.html": (
+        "Where to Stay in Aspen",
+        "Five areas, 12 hotels, the 26 Nov opening, the April airport closure and the 12.35% tax on an Aspen room.",
+    ),
+    "articles/where-to-stay-in-las-vegas-ces.html": (
+        "Where to Stay in Las Vegas",
+        "CES 2027, 6-9 Jan: shuttle routes, the Loop and monorail, 5 areas, 12 hotels and a 13.38% room tax.",
+    ),
+    "articles/where-to-stay-for-shirakawa-go-light-up.html": (
+        "Where to Stay in Shirakawa-go",
+        "Light-up dates, the lottery and parking deadlines, 12 stays in the village, Takayama, Kanazawa and Toyama.",
+    ),
+    "articles/where-to-stay-in-reykjavik-northern-lights.html": (
+        "Where to Stay in Reykjavik",
+        "Five bases, 12 hotels, the aurora season, dark spots near the city, and Iceland's 800 ISK room tax.",
+    ),
     "articles/where-to-stay-in-melbourne-grand-prix.html": (
         "Where to Stay in Melbourne",
         "Grand Prix 2027 dates (1 to 4 April), five areas by the route to Albert Park, 12 hotels.",
@@ -2265,6 +2281,32 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-aspen.html": [
+        "articles/where-to-stay-in-whistler.html",
+        "articles/where-to-stay-in-zermatt.html",
+        "articles/where-to-stay-in-banff.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-las-vegas-ces.html": [
+        "articles/where-to-stay-in-las-vegas.html",
+        "articles/where-to-stay-in-los-angeles-super-bowl.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-usa-2026.html",
+    ],
+    "articles/where-to-stay-for-shirakawa-go-light-up.html": [
+        "articles/where-to-stay-in-kanazawa.html",
+        "articles/japan-tourist-taxes-2026.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/travel-insurance-japan.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-reykjavik-northern-lights.html": [
+        "articles/where-to-stay-in-reykjavik.html",
+        "articles/where-to-stay-in-tromso-northern-lights.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-melbourne-grand-prix.html": [
         "articles/where-to-stay-in-melbourne.html",

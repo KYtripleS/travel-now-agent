@@ -446,6 +446,22 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-aspen": dict(
+        text="For a first ski trip, stay in Downtown Aspen: dining and shopping on foot. Choose The Little Nell for the base of Aspen Mountain, Limelight Hotel Aspen for breakfast and a pool, Mountain Chalet for a lower price in Snowmass. Taxes add 12.35% in Aspen, 13.05% in Snowmass.",
+        link_text="Downtown Aspen",
+        cta=_stay_cta("where-to-stay-in-aspen", "See hotels around Downtown Aspen")),
+    "where-to-stay-in-las-vegas-ces": dict(
+        text="For CES 2027, stay near the Convention Center for the Vegas Loop and monorail, or on the Center Strip for C Space at ARIA. Westgate is the value pick, Resorts World the comfortable one, ARIA the splurge. The room tax is 13.38% near the Strip, plus each hotel's resort fee.",
+        link_text="near the Convention Center",
+        cta=_stay_cta("where-to-stay-in-las-vegas-ces", "See hotels near the Convention Center")),
+    "where-to-stay-for-shirakawa-go-light-up": dict(
+        text="For the 2027 light-up (11, 17, 24 and 31 January), village rooms went by a lottery that closed on 31 October, so base in Takayama and join a reserved light-up bus tour. Hida Hotel Plaza is the station pick, Ryokan Asunaro the ryokan, Rickshaw Inn the lower bill. Takayama's tax is ¥100 to ¥300 a night.",
+        link_text="Takayama",
+        cta=_stay_cta("where-to-stay-for-shirakawa-go-light-up", "See hotels around Takayama")),
+    "where-to-stay-in-reykjavik-northern-lights": dict(
+        text="For a first aurora trip, base yourself in Downtown 101: restaurants, tours and the airport bus close by. Choose Hotel Borg for the central square, Storm Hotel for breakfast and a lower bill, Hotel Rangá for a wake-up call in the countryside. The tax is 800 ISK a room a night.",
+        link_text="Downtown 101",
+        cta=_stay_cta("where-to-stay-in-reykjavik-northern-lights", "See hotels around Downtown 101")),
     "where-to-stay-in-melbourne-grand-prix": dict(
         text="For the Grand Prix, stay in Albert Park for the shortest trip to the gates, or a tram ride away in the CBD or Southbank. Pullman Melbourne Albert Park is the closest, The Langham the splurge and The Prince in St Kilda the value pick. We found no city hotel tax.",
         link_text="Albert Park",
@@ -1698,6 +1714,10 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-aspen": ["The Little Nell", "Limelight Hotel Aspen", "Mountain Chalet Snowmass"],
+    "where-to-stay-in-las-vegas-ces": ["ARIA Resort & Casino", "Hilton Las Vegas at Resorts World", "Westgate Las Vegas Resort & Casino"],
+    "where-to-stay-for-shirakawa-go-light-up": ["Hida Hotel Plaza", "Ryokan Asunaro", "Rickshaw Inn"],
+    "where-to-stay-in-reykjavik-northern-lights": ["Hotel Borg", "Storm Hotel", "Hotel Rangá"],
     "where-to-stay-in-melbourne-grand-prix": ["The Langham, Melbourne", "Pullman Melbourne Albert Park", "The Prince"],
     "where-to-stay-in-valencia-fallas": ["Caro Hotel", "Only YOU Hotel Valencia", "Red Nest Hostel Valencia"],
     "where-to-stay-in-seville-holy-week-april-fair": ["EME Catedral Mercer", "Hotel Bécquer", "Hotel Simón"],
@@ -2474,6 +2494,10 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Aspen", "where-to-stay-in-aspen", None, None),
+        ("Las Vegas", "where-to-stay-in-las-vegas-ces", None, None),
+        ("Shirakawa-go", "where-to-stay-for-shirakawa-go-light-up", None, None),
+        ("Reykjavik", "where-to-stay-in-reykjavik-northern-lights", None, None),
         ("Melbourne", "where-to-stay-in-melbourne-grand-prix", None, None),
         ("Valencia", "where-to-stay-in-valencia-fallas", None, None),
         ("Seville", "where-to-stay-in-seville-holy-week-april-fair", None, None),
@@ -2963,9 +2987,14 @@ STAY_POINTERS = {
         '2026/27 ski season</a> sorts the car-free village by lift, about three and a half hours by train from '
         'Zurich Airport. Flying into Geneva instead? <a href="where-to-stay-in-chamonix.html">Where to stay in '
         'Chamonix</a> compares the town, Argentière and Les Houches by lift.'),
-    "where-to-stay-in-whistler": ("intro",
-        'Skiing the Alps this season instead? <a href="where-to-stay-in-zermatt.html">Zermatt for 2026/27</a> '
-        'compares the village areas by lift, the CHF 4 nightly visitor tax and the shuttle train from Täsch.'),
+    "where-to-stay-in-whistler": [
+        ("intro",
+         'Skiing the Alps this season instead? <a href="where-to-stay-in-zermatt.html">Zermatt for 2026/27</a> '
+         'compares the village areas by lift, the CHF 4 nightly visitor tax and the shuttle train from Täsch.'),
+        ("The short answer",
+         'Weighing Colorado? <a href="where-to-stay-in-aspen.html">Aspen for 2026/27</a> compares downtown, '
+         'Snowmass and down valley, with the airport closure from 4 April 2027.'),
+    ],
     "where-to-stay-in-paris": ("intro",
         'In Paris in December? <a href="where-to-stay-in-strasbourg-christmas-market.html">Where to stay for the '
         'Strasbourg Christmas market</a> (27 November to 24 December 2026) is under two hours away by direct TGV. '
@@ -3024,10 +3053,21 @@ STAY_POINTERS = {
         'Chasing the northern lights too? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in '
         'Tromsø for the northern lights</a> compares the harbour, the centre and two out-of-town lodges, with the '
         'polar night dates.'),
-    "where-to-stay-in-reykjavik": ("intro",
-        'Weighing Norway for the aurora? <a href="where-to-stay-in-tromso-northern-lights.html">Tromsø for the '
-        'northern lights (2026/27)</a> covers the polar night, the airport bus and the 3% visitor fee planned '
-        'from 2027.'),
+    "where-to-stay-in-reykjavik": [
+        ("intro",
+         'Coming for the aurora? <a href="where-to-stay-in-reykjavik-northern-lights.html">Where to stay in Reykjavik '
+         'for the northern lights</a> compares city bases with countryside hotels that offer an aurora wake-up call.'),
+        ("The short answer",
+         'Weighing Norway for the aurora? <a href="where-to-stay-in-tromso-northern-lights.html">Tromsø for the '
+         'northern lights (2026/27)</a> covers the polar night, the airport bus and the 3% visitor fee planned '
+         'from 2027.'),
+    ],
+    "where-to-stay-in-las-vegas": ("intro",
+        'Coming for CES? <a href="where-to-stay-in-las-vegas-ces.html">Where to stay for CES 2027</a> (6 to 9 '
+        'January) matches hotels to the free CES shuttles, the Vegas Loop and the monorail.'),
+    "where-to-stay-in-kanazawa": ("intro",
+        'Going on to Shirakawa-go? <a href="where-to-stay-for-shirakawa-go-light-up.html">Where to stay for the '
+        'Shirakawa-go light-up 2027</a> has the four January dates, the reservation rules and the buses from here.'),
     "where-to-stay-in-rio-carnival": ("intro",
         'Closer to home for North Americans: <a href="where-to-stay-in-new-orleans-mardi-gras.html">New Orleans '
         'for Mardi Gras 2027</a> (Fat Tuesday is 9 February) matches hotels to the St. Charles parade route.'),

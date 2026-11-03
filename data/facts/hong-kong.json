@@ -545,7 +545,7 @@
       "id": "hk.cny2027.fireworks-date",
       "topic": "place",
       "claim": "The Leisure and Cultural Services Department's notice of 7 September 2026 says the 2027 Chinese New Year Fireworks Display will be held on 7 February 2027 (Sunday); no start time or programme was published.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.info.gov.hk/gia/general/202609/07/P2026090700274.htm",
@@ -560,13 +560,13 @@
         ]
       },
       "recheck_days": 7,
-      "note": "Recheck for the 2027 start time and viewing arrangements (last year's came on 11 February)."
+      "note": "Re-checked 2026-11-03: the 7 Sept 2026 notice stands; programme and start time not yet published."
     },
     {
       "id": "hk.cny2026.fireworks",
       "topic": "place",
       "claim": "The 2026 Chinese New Year Fireworks Display was held at 8pm on the second day (18 February 2026), lasted about 23 minutes with 31,888 shells, was coordinated by the Culture, Sports and Tourism Bureau and sponsored by the Hong Kong Jockey Club, and was announced on 11 February; viewing places named included Tsim Sha Tsui, Mid-Levels, Central, Wan Chai, Causeway Bay and Hung Hom.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.info.gov.hk/gia/general/202602/11/P2026021100371.htm",
@@ -580,14 +580,14 @@
           "Last year the time and theme were announced on 11 February, six days beforehand"
         ]
       },
-      "recheck_days": 7,
-      "note": "Labelled as last year's in the article."
+      "recheck_days": 90,
+      "note": "Labelled as last year's in the article. Recheck when the 2027 programme is announced (usually January)."
     },
     {
       "id": "hk.cny.night-parade",
       "topic": "place",
       "claim": "The Tourism Board's Chinese New Year page says the Night Parade is held on the first day of the holiday in Tsim Sha Tsui and gives no 2027 date or time; the 2026 parade began at 8pm on the first day, with Tsim Sha Tsui roads closed in phases from 3.30pm until about 11.45pm along Canton Road, Haiphong Road, Nathan Road and Salisbury Road (Chatham Road South to the Star Ferry Pier).",
-      "checked": "2026-10-26",
+      "checked": "2026-11-03",
       "sources": [
         {
           "url": "https://www.discoverhongkong.com/eng/events/chinese-new-year.html",
@@ -606,8 +606,8 @@
           "roads in the Tsim Sha Tsui area would close in phases from 3.30pm until about 11.45pm"
         ]
       },
-      "recheck_days": 7,
-      "note": "HKTB's dedicated parade page redirects to the generic CNY page; recheck for the 2027 date (a search snippet suggested a tentative 6 Feb 2027 in HKTB's sponsorship notice, not verified)."
+      "recheck_days": 90,
+      "note": "HKTB's dedicated parade page redirects to the generic CNY page; recheck for the 2027 date (a search snippet suggested a tentative 6 Feb 2027 in HKTB's sponsorship notice, not verified). Recheck when the 2027 programme is announced (usually January)."
     },
     {
       "id": "hk.cny2026.fireworks-closures",
