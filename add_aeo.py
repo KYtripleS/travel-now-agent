@@ -446,6 +446,22 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-for-the-masters": dict(
+        text="For the Masters, stay on Washington Road: the rideshare and taxi lots are on it. Choose Courtyard by Marriott for free parking, Hampton Inn & Suites for value, the Partridge Inn to splurge. In Georgia expect 9% sales tax, a local lodging tax and a $5 night fee.",
+        link_text="Washington Road",
+        cta=_stay_cta("where-to-stay-for-the-masters", "See hotels around Washington Road")),
+    "where-to-stay-on-the-amalfi-coast": dict(
+        text="For a first trip, stay in Amalfi: boats, buses and the cathedral square meet here, with Ravello above. Choose Hotel Lidomare for the square, Hotel Luna Convento for the cloister and sea, Caruso in Ravello for a splurge. The tax is €3 to €5 a person a night.",
+        link_text="Amalfi",
+        cta=_stay_cta("where-to-stay-on-the-amalfi-coast", "See hotels around Amalfi")),
+    "where-to-stay-in-edinburgh-fringe": dict(
+        text="For the Fringe, stay in the Old Town: the Fringe says many venues there are five to ten minutes' walk from the Royal Mile. Choose Motel One Edinburgh-Royal for budget, Radisson Blu for comfort, The Witchery to splurge. The Visitor Levy is 5%, on the first five nights.",
+        link_text="Old Town",
+        cta=_stay_cta("where-to-stay-in-edinburgh-fringe", "See hotels around the Old Town")),
+    "where-to-stay-on-lake-como": dict(
+        text="For a first trip, stay in Bellagio, where the lake's two branches meet and ferries run to Menaggio and Varenna. Choose Como for a 40-minute train from Milan and Varenna for the train and ferry together. The tax is €4 to €5 a person a night in a four-star hotel.",
+        link_text="Bellagio",
+        cta=_stay_cta("where-to-stay-on-lake-como", "See hotels around Bellagio")),
     "where-to-stay-in-toronto": dict(
         text="For a first trip, stay around Union Station: the airport train, the Billy Bishop shuttle and the lake close by. Choose the Entertainment District for theatres, Yorkville for shops, Queen West for galleries. The 6% tax and 13% HST add about 19.8%.",
         link_text="Union Station",
@@ -1766,6 +1782,10 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-for-the-masters": ["The Partridge Inn Augusta, Curio Collection by Hilton", "Courtyard by Marriott Augusta", "Hampton Inn & Suites by Hilton Augusta-Washington Rd"],
+    "where-to-stay-on-the-amalfi-coast": ["Hotel Lidomare", "Hotel Luna Convento", "Caruso, A Belmond Hotel"],
+    "where-to-stay-in-edinburgh-fringe": ["Motel One Edinburgh-Royal", "Radisson Blu Hotel, Edinburgh City Centre", "The Witchery"],
+    "where-to-stay-on-lake-como": ["Belvedere Bellagio", "Grand Hotel Villa Serbelloni", "Albergo Firenze"],
     "where-to-stay-in-toronto": ["Fairmont Royal York", "Le Germain Hotel Toronto Mercer", "Hotel Victoria"],
     "where-to-stay-in-santorini": ["Astra Suites", "Aressana Spa Hotel & Suites", "Hotel Keti"],
     "where-to-stay-in-maui": ["OUTRIGGER Kāʻanapali Beach Resort", "Royal Lahaina Resort & Bungalows", "Grand Wailea"],
@@ -2559,6 +2579,10 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Augusta", "where-to-stay-for-the-masters", None, None),
+        ("Amalfi Coast", "where-to-stay-on-the-amalfi-coast", None, None),
+        ("Edinburgh", "where-to-stay-in-edinburgh-fringe", None, None),
+        ("Lake Como", "where-to-stay-on-lake-como", None, None),
         ("Toronto", "where-to-stay-in-toronto", None, None),
         ("Santorini", "where-to-stay-in-santorini", None, None),
         ("Maui", "where-to-stay-in-maui", None, None),
@@ -3070,6 +3094,13 @@ STAY_POINTERS = {
     "where-to-stay-in-boston": ("intro",
         'Running or watching in April? <a href="where-to-stay-for-boston-marathon.html">Where to stay for the Boston '
         'Marathon 2027</a> (Monday 19 April) weighs Back Bay by the finish against Cambridge and the start towns.'),
+    "where-to-stay-in-edinburgh": ("intro",
+        'Here for a festival? <a href="where-to-stay-in-edinburgh-fringe.html">Where to stay for the Edinburgh Fringe '
+        '2027</a> (6 to 30 August) covers the Old Town, Southside and Leith, and <a '
+        'href="where-to-stay-in-edinburgh-hogmanay.html">Where to stay for Hogmanay</a> covers New Year.'),
+    "where-to-stay-in-milan": ("intro",
+        'Adding the lake? <a href="where-to-stay-on-lake-como.html">Where to stay on Lake Como</a> compares Como, '
+        'Bellagio, Varenna and Menaggio, with the trains from Milan and the ferries between them.'),
     "where-to-stay-in-montreal": ("intro",
         'Going on to Ontario? <a href="where-to-stay-in-toronto.html">Where to stay in Toronto</a> compares '
         'Downtown, Yorkville and Queen West, with the UP Express from Pearson and the city’s 6% accommodation tax.'),
@@ -3167,7 +3198,9 @@ STAY_POINTERS = {
         'circuit’s own buses and stations.'),
     "where-to-stay-in-rome": ("intro",
         'Coming for Holy Week? <a href="where-to-stay-in-rome-easter.html">Where to stay in Rome for Easter 2027</a> '
-        '(Easter Sunday is 28 March) matches hotels to St Peter’s, the Colosseum and the free papal tickets.'),
+        '(Easter Sunday is 28 March) matches hotels to St Peter’s, the Colosseum and the free papal tickets. '
+        'Heading south? <a href="where-to-stay-on-the-amalfi-coast.html">Where to stay on the Amalfi Coast</a> '
+        'compares Positano, Amalfi, Ravello and Sorrento, with each town’s tourist tax.'),
     "where-to-stay-in-las-vegas": ("intro",
         'Coming for CES? <a href="where-to-stay-in-las-vegas-ces.html">Where to stay for CES 2027</a> (6 to 9 '
         'January) matches hotels to the free CES shuttles, the Vegas Loop and the monorail.'),

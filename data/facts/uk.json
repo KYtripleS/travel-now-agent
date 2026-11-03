@@ -2931,6 +2931,603 @@
           "the nearby car park is £15 per 12 hours"
         ]
       }
+    },
+    {
+      "id": "gb.edinburgh-fringe.dates-2027",
+      "topic": "history",
+      "claim": "The Edinburgh Festival Fringe's 80th edition takes place 6-30 August 2027 (Fringe Society homepage).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.edfringe.com/",
+          "kind": "official",
+          "title": "Edinburgh Festival Fringe Society",
+          "evidence": [
+            "will take place from 06 – 30 August 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "will take place from 6 to 30 August 2027",
+          "announced for 6 to 30 August 2027"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.tattoo-2027",
+      "topic": "history",
+      "claim": "The Royal Edinburgh Military Tattoo 2027 (The Same Heart Beat) runs 6-28 August 2027; tickets are on sale and the 2026 season had an almost sold-out audience every night.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.edintattoo.co.uk/tickets/tattoo-2027",
+          "kind": "official",
+          "title": "Royal Edinburgh Military Tattoo: 2027 tickets",
+          "evidence": [
+            "This show runs from 6 – 28 August 2027"
+          ]
+        },
+        {
+          "url": "https://www.edinburghfestivalcity.com/inspiration/738-tickets-on-sale-for-tattoo-2027",
+          "kind": "official",
+          "title": "Edinburgh Festivals: tickets on sale for Tattoo 2027",
+          "evidence": [
+            "Tickets are on sale now for The Royal Edinburgh Military Tattoo 2027",
+            "after an almost sold-out audience every night"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "runs from 6 to 28 August 2027",
+          "after an almost sold-out audience every night in 2026",
+          "The Fringe and the Tattoo both open on 6 August 2027"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.visitor-levy",
+      "topic": "tax",
+      "claim": "Edinburgh Visitor Levy: 5% of the cost of paid overnight accommodation, charged before VAT, on the first 5 nights of a stay (capped at five nights in a row), for stays from 24 July 2026, at the same rate every day of the year, not charged on extras such as parking, meals, drinks or transport.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh",
+          "kind": "official",
+          "title": "City of Edinburgh Council: about the Edinburgh Visitor Levy",
+          "evidence": [
+            "is a 5% payment on the cost of the paid, overnight accommodation",
+            "It will be charged before VAT",
+            "for stays from 24 July 2026 onwards"
+          ]
+        },
+        {
+          "url": "https://www.edinburgh.gov.uk/news/article/14141/edinburgh-declares-scotland-s-first-visitor-levy",
+          "kind": "official",
+          "title": "City of Edinburgh Council: Edinburgh declares Scotland's first visitor levy",
+          "evidence": [
+            "capped at five nights in a row"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "a 5% payment on the cost of the paid, overnight accommodation",
+          "the levy is charged before VAT",
+          "covers stays from 24 July 2026 onwards",
+          "five nights in a row",
+          "5% of the cost of the room, charged on the first five nights only",
+          "Extras such as parking, meals, drinks or transport"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.levy-scope",
+      "topic": "tax",
+      "claim": "The Edinburgh Visitor Levy scheme covers the entirety of the City of Edinburgh Council boundaries.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.edinburgh.gov.uk/news/article/14141/edinburgh-declares-scotland-s-first-visitor-levy",
+          "kind": "official",
+          "title": "City of Edinburgh Council: Edinburgh declares Scotland's first visitor levy",
+          "evidence": [
+            "The Scheme covers the entirety of the City of Edinburgh Council boundaries"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "covers the whole of the City of Edinburgh Council area"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.tram-airport",
+      "topic": "fare",
+      "claim": "Edinburgh Trams adult airport single £7.90 and adult airport open return £9.50; trams run full route from every 7 minutes; Edinburgh Airport says the airport-city centre journey takes 30 minutes, trams every 7 minutes 6:30am-7pm and every 10 minutes early morning and late evening.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://edinburghtrams.com/tickets/ticket-options",
+          "kind": "operator",
+          "title": "Edinburgh Trams: ticket options",
+          "evidence": [
+            "Adult Airport Single (airport & city zone) £7.90",
+            "Adult Airport Open Return (airport & city zone) £9.50",
+            "Trams are running full route from every 7 minutes"
+          ]
+        },
+        {
+          "url": "https://www.edinburghairport.com/transport-links/trams",
+          "kind": "official",
+          "title": "Edinburgh Airport: by tram",
+          "evidence": [
+            "journeys between the airport and the city centre take 30-minutes",
+            "Trams depart every 7 minutes, between 6:30am and 7pm, and every 10 minutes early in the morning and later in the evening"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "an adult airport single at £7.90 and an adult airport open return at £9.50",
+          "from every 7 minutes",
+          "takes 30 minutes",
+          "every 7 minutes between 6:30am and 7pm"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.tram-route",
+      "topic": "transport",
+      "claim": "The Edinburgh tram runs from the airport to Newhaven via Princes Street, St Andrew Square and Leith, with stops including Haymarket, West End, The Shore, Port of Leith and Ocean Terminal.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.edfringe.com/experience/plan-your-visit/visiting-edinburgh/",
+          "kind": "official",
+          "title": "Edinburgh Festival Fringe Society: visiting Edinburgh",
+          "evidence": [
+            "a tramline running direct from Edinburgh Airport to Newhaven via Princes Street, St Andrew Square and Leith"
+          ]
+        },
+        {
+          "url": "https://edinburghtrams.com/",
+          "kind": "operator",
+          "title": "Edinburgh Trams: route and stops",
+          "evidence": [
+            "Haymarket West End Princes Street St Andrew Square",
+            "The Shore Port of Leith Ocean Terminal Newhaven"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "runs from the airport to Newhaven by way of Princes Street, St Andrew Square and Leith",
+          "with stops at The Shore, Port of Leith and Ocean Terminal"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.airlink",
+      "topic": "fare",
+      "claim": "Airlink 100 express bus: £6 single and £8.50 return (Fringe visiting page); Lothian Buses describes a 24/7 express service between Edinburgh Airport and the city centre.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.edfringe.com/experience/plan-your-visit/visiting-edinburgh/",
+          "kind": "official",
+          "title": "Edinburgh Festival Fringe Society: visiting Edinburgh",
+          "evidence": [
+            "the Airlink 100 'express' service is £6 for a single and £8.50 for a return"
+          ]
+        },
+        {
+          "url": "https://www.lothianbuses.com/airport/",
+          "kind": "operator",
+          "title": "Lothian Buses: airport services",
+          "evidence": [
+            "24/7 Express Service between Edinburgh Airport and Edinburgh City Centre"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "express bus as £6 for a single and £8.50 for a return",
+          "24/7 express service between Edinburgh Airport and the city centre"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.glasgow-train",
+      "topic": "transport",
+      "claim": "Edinburgh Festivals says Glasgow is a 50 minute train journey with trains every 15 minutes to Edinburgh; the Fringe says ScotRail's festival timetable is normally available in August. ScotRail's own timetable could not be opened (security check), so no last-train time is given.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.edinburghfestivalcity.com/plan-your-trip/how-to-get-here",
+          "kind": "official",
+          "title": "Edinburgh Festivals: how to get here",
+          "evidence": [
+            "Glasgow is only a 50 minute train journey and trains leave there every 15 minutes for Scotland’s capital"
+          ]
+        },
+        {
+          "url": "https://www.edfringe.com/experience/plan-your-visit/visiting-edinburgh/",
+          "kind": "official",
+          "title": "Edinburgh Festival Fringe Society: visiting Edinburgh",
+          "evidence": [
+            "a festival timetable is normally available in August"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "Glasgow is only a 50-minute train journey",
+          "trains leave there every 15 minutes for the capital",
+          "festival timetable is normally available in August"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.walking",
+      "topic": "place",
+      "claim": "The Fringe says most venues are within easy walking distance, that the quickest way between venues in August can often be on foot, and that in the Old Town it takes five to ten minutes to walk from the Royal Mile to many venues.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.edfringe.com/experience/plan-your-visit/visiting-edinburgh/",
+          "kind": "official",
+          "title": "Edinburgh Festival Fringe Society: visiting Edinburgh",
+          "evidence": [
+            "you wouldn’t need more than five to ten minutes to walk from the Royal Mile to many Old Town venues",
+            "most venues are located within easy walking distance of each other",
+            "During August, the quickest way to get between venues can often be on foot"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "five to ten minutes to walk from the Royal Mile to many Old Town venues",
+          "the quickest way to get between venues can often be on foot"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.old-new-town",
+      "topic": "place",
+      "claim": "The Fringe describes two distinct UNESCO-listed areas: the Old Town, dominated by Edinburgh Castle, and the neoclassical New Town.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.edfringe.com/experience/plan-your-visit/visiting-edinburgh/",
+          "kind": "official",
+          "title": "Edinburgh Festival Fringe Society: visiting Edinburgh",
+          "evidence": [
+            "It has two distinct areas, both UNESCO listed World Heritage Sites"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "two distinct areas, both UNESCO listed"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.book-early",
+      "topic": "place",
+      "claim": "Edinburgh Festivals advises planning as far in advance as possible for the August festival season; early booking gives the best rates and city-centre locations.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.edinburghfestivalcity.com/plan-your-trip/where-to-stay",
+          "kind": "official",
+          "title": "Edinburgh Festivals: where to stay",
+          "evidence": [
+            "The trick is to plan as far in advance as possible",
+            "Early planning and booking will ensure you can receive the best rates"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "planning as far in advance as possible during the busy August festival season"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.uni-residences",
+      "topic": "place",
+      "claim": "The University of Edinburgh's Residences on the Pollock Halls campus are available to the public in summer; the page does not mention festival visitors.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.uoecollection.com/summer-stays-at-the-university-of-edinburgh/the-residences/",
+          "kind": "official",
+          "title": "University of Edinburgh Hospitality Collection: The Residences",
+          "evidence": [
+            "Available to the public during the summer months when the University of Edinburgh students are on vacation"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "are open to the public in summer"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-hampton",
+      "topic": "hotel",
+      "claim": "Hampton by Hilton Edinburgh West End, 166 Fountainbridge: a 10-minute walk from the Edinburgh International Conference Centre, one mile to Edinburgh Castle, free hot breakfast and WiFi.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/edifbhx-hampton-edinburgh-west-end/",
+          "kind": "operator",
+          "title": "Hampton by Hilton Edinburgh West End",
+          "evidence": [
+            "minute walk from Edinburgh International Conference Centre and dozens of nearby restaurants",
+            "one mile to Edinburgh Castle",
+            "Enjoy free hot breakfast and free WiFi"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "a 10-minute walk to the Edinburgh International Conference Centre",
+          "free hot breakfast and free WiFi",
+          "the hotel puts the castle one mile away"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-sheraton",
+      "topic": "hotel",
+      "claim": "Sheraton Grand Hotel & Spa, Edinburgh, Festival Square: free access for all guests to the indoor pool, poolside sauna and fitness facilities; family rooms.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/edisi-sheraton-grand-hotel-and-spa-edinburgh/rooms/",
+          "kind": "operator",
+          "title": "Sheraton Grand Hotel & Spa, Edinburgh",
+          "evidence": [
+            "All hotel guests can enjoy complimentary access to our indoor swimming pool, poolside sauna and fitness facilities.",
+            "Our family hotel rooms in Edinburgh accommodate the whole group"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "free access to the indoor swimming pool, poolside sauna and fitness facilities for all guests"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-motel-one-royal",
+      "topic": "hotel",
+      "claim": "Motel One Edinburgh-Royal, 18-21 Market Street: no on-site parking, public car park about a 15-minute walk away; weekday breakfast 6:00-10:00.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.motel-one.com/en/hotels/edinburgh/hotel-edinburgh-royal/",
+          "kind": "operator",
+          "title": "Motel One Edinburgh-Royal",
+          "evidence": [
+            "The hotel does not offer on-site parking, however there is a public car park about 15-minute walk away"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "there is no on-site parking; the hotel points to a public car park about a 15-minute walk away"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-radisson-blu",
+      "topic": "hotel",
+      "claim": "Radisson Blu Hotel, Edinburgh City Centre, 80 High Street, Royal Mile: Standard Room 27 m2, Superior Room 26 m2, indoor pool, check-in 3:00pm, check-out 12:00.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-edinburgh",
+          "kind": "operator",
+          "title": "Radisson Blu Hotel, Edinburgh City Centre",
+          "evidence": [
+            "Standard Room 2 twin or 1 king · 27 m²",
+            "Superior Room 2 twin or 1 king · 26 m²",
+            "Check-in 3:00pm Check-out 12:00pm"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "Its Standard Room is listed at 27 m²",
+          "Superior rooms are listed at 26 m²"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-witchery",
+      "topic": "hotel",
+      "claim": "The Witchery, 352 Castlehill, Royal Mile: suites designed for two adults sharing a UK king-sized bed; no reservations for more than 6 people.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.thewitchery.com/stay/",
+          "kind": "operator",
+          "title": "The Witchery: stay",
+          "evidence": [
+            "Our suites are designed for two adults sharing a UK king-sized bed",
+            "We are unable to accommodate reservations for more than 6 people"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "designed for two adults sharing a UK king-sized bed",
+          "the hotel cannot take reservations for more than six people"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-kimpton",
+      "topic": "hotel",
+      "claim": "Kimpton Charlotte Square, 38 Charlotte Square: seven interconnected Georgian townhouses at the edge of a private garden, with a spa.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.kimptoncharlottesquare.com/",
+          "kind": "operator",
+          "title": "Kimpton Charlotte Square",
+          "evidence": [
+            "seven interconnected Georgian townhouses",
+            "Perched on the edge of a picturesque private garden in the New Town"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "seven interconnected Georgian townhouses at the edge of a private garden"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-balmoral",
+      "topic": "hotel",
+      "claim": "The Balmoral, 1 Princes Street: landmark clock tower, Number One Brasserie, Prince Bar, Irene Forte Spa.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/the-balmoral-hotel/",
+          "kind": "operator",
+          "title": "The Balmoral (Rocco Forte)",
+          "evidence": [
+            "Number One Brasserie Prince Bar",
+            "Irene Forte Spa"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "Number One Brasserie, Prince Bar and the Irene Forte Spa"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-caledonian",
+      "topic": "hotel",
+      "claim": "The Caledonian Edinburgh, Curio Collection by Hilton, Princes Street: views of Edinburgh Castle; Princes Street Gardens, the Royal Mile and the Old Town within 10 minutes; check-in 3:00 PM, check-out 12:00 PM.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/ednchqq-the-caledonian-edinburgh/",
+          "kind": "operator",
+          "title": "The Caledonian Edinburgh, Curio Collection by Hilton",
+          "evidence": [
+            "are within 10 minutes of the hotel",
+            "iconic views of the Edinburgh Castle",
+            "Check-in 3:00 PM Check-out 12:00 PM"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "the Royal Mile and the Old Town are within 10 minutes"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-ten-hill-place",
+      "topic": "hotel",
+      "claim": "Ten Hill Place, 10 Hill Place: 129 bedrooms in Classic and Superior categories plus accessible rooms; operated by the Royal College of Surgeons of Edinburgh; discounted Surgeons' Hall Museums tickets; Superior-room extras only when booked direct (from the Oct 2026 check in data/facts/uk.json; the site returned HTTP 503 on 2026-11-04).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.tenhillplace.com/",
+          "kind": "operator",
+          "title": "Ten Hill Place",
+          "evidence": []
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "with 129 bedrooms in Classic and Superior categories and accessible rooms",
+          "run by the Royal College of Surgeons of Edinburgh"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-prestonfield",
+      "topic": "hotel",
+      "claim": "Prestonfield House, Priestfield Road: 'just five minutes from Edinburgh's Old Town', 20 acres of gardens and parkland, 23 bedrooms and suites, Rhubarb restaurant.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.prestonfield.com/",
+          "kind": "operator",
+          "title": "Prestonfield House",
+          "evidence": [
+            "five minutes from Edinburgh",
+            "Surrounded by 20 acres of gardens and parkland",
+            "Our 23 luxury bedrooms and suites"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "23 bedrooms and suites in 20 acres of gardens and parkland"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-malmaison",
+      "topic": "hotel",
+      "claim": "Malmaison Edinburgh, 1 Tower Place, Leith waterfront: only 10 minutes by taxi from the city centre; Chez Mal Brasserie & Bar; 24/7 reception; cashless payment policy.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.malmaison.com/locations/edinburgh/",
+          "kind": "operator",
+          "title": "Malmaison Edinburgh",
+          "evidence": [
+            "Tucked on the historic Leith waterfront",
+            "Only 10 minutes by taxi away from the city centre"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "only 10 minutes by taxi from the city centre",
+          "a 24/7 reception"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-fringe.hotel-fingal",
+      "topic": "hotel",
+      "claim": "Fingal, Alexandra Dock, Leith: former Northern Lighthouse Board ship, open since 2019, 23 cabins, AA five-star, Lighthouse Restaurant & Bar.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.fingal.co.uk/",
+          "kind": "operator",
+          "title": "Fingal",
+          "evidence": [
+            "Fingal has been open since 2019.",
+            "A luxury hotel with all the glamour and style of a superyacht."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-fringe.html": [
+          "open since 2019",
+          "with 23 cabins, AA five-star status"
+        ]
+      }
     }
   ]
 }

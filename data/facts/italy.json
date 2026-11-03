@@ -2367,6 +2367,1104 @@
           "with dorm beds, private rooms, a social kitchen and a garden"
         ]
       }
+    },
+    {
+      "id": "it.lake-como.como-tax",
+      "topic": "tax",
+      "claim": "Como's imposta di soggiorno is charged per person per night from 1 January 2024 (Giunta resolution 387 of 10 November 2023): €5 at five- and four-star hotels, €4 at three-star, €3 at one- and two-star hotels, and €3 at B&Bs, holiday flats and affittacamere, for up to 4 consecutive nights.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.comune.como.it/export/sites/comune-di-como/.galleries/Settore-14/TARIFFE-IMPOSTA-DI-SOGGIORNO.pdf",
+          "kind": "official",
+          "title": "Comune di Como: Tariffe dell'imposta di soggiorno",
+          "evidence": [
+            "TARIFFE DELL'IMPOSTA DI SOGGIORNO",
+            "Tariffe approvate con delibera di Giunta Comunale n. 387 del 10-11-2023"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "published these rates from 1 January 2024.",
+          "€5 × 2 × 3",
+          "the first 4 consecutive nights"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.bellagio-tax",
+      "topic": "tax",
+      "claim": "Bellagio's imposta di soggiorno rates from 1 January 2024 (Giunta resolution 147 of 13 November 2023) are €1 at one-star hotels, €2 at two-star, €3 at three-star, €4 at four-star and €5 at five-star hotels, €3 at holiday homes and other non-hotel lodgings and €5 at prestige villas, applied from 1 March to 30 November each year; the tax covers up to 7 consecutive nights and children up to and including 11 are exempt.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://bellagio.imposta-soggiorno.it/",
+          "kind": "official",
+          "title": "Comune di Bellagio: Imposta di soggiorno (portal)",
+          "evidence": [
+            "per un massimo di 7 pernottamenti consecutivi",
+            "Minori entro l'undicesimo anno d'età"
+          ]
+        },
+        {
+          "url": "https://bellagio.imposta-soggiorno.it/documento/solivetti-m24020212050-pdf",
+          "kind": "official",
+          "title": "Comune di Bellagio: Delibera Giunta n. 147 del 13-11-2023 (scanned image, evidence read by OCR)",
+          "evidence": [
+            "Albergo 4 stelle € 4,00",
+            "Albergo 5 stelle € 5,00",
+            "01 marzo al 30 novembre di ciascun anno"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "charges them only from 1 March to 30 November each year",
+          "€4 × 2 × 3",
+          "children up to and including the age of 11 are exempt"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.varenna-tax",
+      "topic": "tax",
+      "claim": "Varenna's imposta di soggiorno is charged per person per night from 1 January to 31 December: €5 at five-star hotels, €4 at four-star, €3 at three-star, €2.80 at one- and two-star hotels and €3 at B&Bs, holiday flats and other lodgings, for up to 7 consecutive nights; children under seven are exempt.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://static.paytourist.com/media/varenna/documents/2/default/34/Tariffe-VARENNA.pdf-69272327a5576.pdf",
+          "kind": "official",
+          "title": "Comune di Varenna: Tariffe imposta di soggiorno",
+          "evidence": [
+            "fino ad un massimo di sette (7)",
+            "1 e 2 stelle € 2.80 7"
+          ]
+        },
+        {
+          "url": "https://static.paytourist.com/media/varenna/documents/1/default/32/Varenna---Regolamento-Imposta-di-Soggiorno.pdf-69271962a3e62.pdf",
+          "kind": "official",
+          "title": "Comune di Varenna: Regolamento imposta di soggiorno",
+          "evidence": [
+            "a) minori di anni sette;",
+            "L’imposta è dovuta per i primi sette pernottamenti consecutivi nella stessa struttura."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "says children under seven are exempt.",
+          "1 January to 31 December",
+          "€2.80 (one and two stars)"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.nlc-passenger-fares",
+      "topic": "fare",
+      "claim": "Navigazione Lago di Como's passenger fares from 1 April 2026 for a single adult ticket: three zones (Bellagio, Menaggio, Varenna and Cadenabbia between each other) €5.50, six zones €12.00 and seven zones €13.50; Como to Bellagio, Menaggio and Tremezzo is six zones and Como to Varenna seven; the rapid-service supplement is €5.00 for six zones and €5.50 for seven. The fare matrix is an image-only PDF, read by eye.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.navigazionelaghi.it/biglietti-e-orari-lago-di-como/tariffe-lago-di-como/",
+          "kind": "operator",
+          "title": "Navigazione Laghi: Tariffe Lago di Como",
+          "evidence": [
+            "Tariffe Viaggiatori NLC valide dal 01/04/2026"
+          ]
+        },
+        {
+          "url": "https://www.navigazionelaghi.it/wp-content/uploads/2026/03/NLC_Tariffe-A4_042026_CT012018_Ita.pdf",
+          "kind": "operator",
+          "title": "Navigazione Lago di Como: Prezzi in vigore dal 1 aprile 2026 (image-only PDF)",
+          "evidence": []
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "three zones, €5.50 for a single adult ticket",
+          "six zones (€12.00) and Varenna is seven (€13.50)",
+          "€5.00 for six zones and €5.50 for seven"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.nlc-car-ferry",
+      "topic": "fare",
+      "claim": "Car ferries on Lake Como run on ordinary services between Cadenabbia, Bellagio, Menaggio and Varenna; from 1 April 2026 a single trip for a car up to 3.50 m long costs €4.60 for the vehicle only or €10.10 with the driver.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.navigazionelaghi.it/wp-content/uploads/2026/03/Tariffe-Traghetto-NLC_Ed.-04_26-eng.pdf",
+          "kind": "operator",
+          "title": "Navigazione Lago di Como: Vehicles transportation charges, valid from 1 April 2026",
+          "evidence": [
+            "For travel on ordinary ferry services between Cadenabbia, Bellagio, Menaggio and Varenna",
+            "Cars: up to 3.50 mt. length 4,60 10,10"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "A car up to 3.50 metres long costs €4.60 for the vehicle, or €10.10 with the driver."
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.trenord-como",
+      "topic": "transport",
+      "claim": "Trenord runs direct trains from Milano Centrale to Como San Giovanni in about 40 minutes with a train every hour, and from Milano Cadorna to Como Lago in about 60 minutes every 60 minutes.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.trenord.it/en/routes-and-timetables/most-searched-lines/milano-centrale-como-s-giovanni-route/",
+          "kind": "operator",
+          "title": "Trenord: Train from Milano Centrale to Como San Giovanni",
+          "evidence": [
+            "without changes and with regular departures every hour"
+          ]
+        },
+        {
+          "url": "https://www.trenord.it/en/routes-and-timetables/most-searched-lines/milano-cadorna-como/",
+          "kind": "operator",
+          "title": "Trenord: Train from Milano Cadorna to Como lake",
+          "evidence": [
+            "From Milano Cadorna, you can reach Como lago in just 60 minutes.",
+            "Every 60 minutes"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "in about 40 minutes, with a train every hour",
+          "about 60 minutes, every 60 minutes"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.trenord-varenna-lecco",
+      "topic": "transport",
+      "claim": "Trenord trains run from Milano Centrale to Varenna-Esino in about 64 minutes without changes and about every hour, and from Lecco to Milano Centrale in about 40 minutes.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.trenord.it/linee-e-orari/tratte/milano-centrale-varenna-esino/",
+          "kind": "operator",
+          "title": "Trenord: Milano Centrale - Varenna Esino",
+          "evidence": [
+            "64 minuti",
+            "senza cambi e con partenze regolari ogni ora"
+          ]
+        },
+        {
+          "url": "https://www.trenord.it/en/routes-and-timetables/most-searched-lines/lecco-milano/",
+          "kind": "operator",
+          "title": "Trenord: Lecco to Milano Centrale",
+          "evidence": [
+            "from Lecco to Milano Centrale in just"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "Varenna-Esino in about 64 minutes, without changes and about every hour",
+          "to Lecco in about 40 minutes"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.malpensa-saronno",
+      "topic": "transport",
+      "claim": "Trenord's Malpensa Aeroporto T1 to Saronno service takes about 20 minutes with a train every 30 minutes and a second-class ticket costs €8.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.trenord.it/en/routes-and-timetables/most-searched-lines/malpensa-aeroporto-t1-saronno/",
+          "kind": "operator",
+          "title": "Trenord: Malpensa Aeroporto T1 to Saronno",
+          "evidence": [
+            "approximately 20 minutes",
+            "The price for a second-class Trenord ticket from Malpensa Aeroporto T1"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "Malpensa T1 to Saronno in about 20 minutes, every 30 minutes, for €8"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-palace",
+      "topic": "hotel",
+      "claim": "Palace Hotel, Lungo Lario Trieste 16 in Como, is in a late 19th-century Liberty-style building between the city centre and the lake, with the Antica Darsena restaurant and a short walk to the Brunate funicular.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.palacehotel.it/en/4-star-hotel-como/",
+          "kind": "official",
+          "title": "palace official website",
+          "evidence": [
+            "late 19th-century Liberty-style building",
+            "two adjoining areas"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "A late 19th-century Liberty-style building between the city centre and the lake",
+          "the building has two adjoining sections"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-metropole",
+      "topic": "hotel",
+      "claim": "Hotel Metropole Suisse, Piazza Cavour 19 in Como, is run by the Cassani family for four generations, has 70 rooms, most recently refurbished, and a façade by Giuseppe Terragni.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelmetropolesuisse.com/en/hotel-como-lake-4-stars/",
+          "kind": "official",
+          "title": "metropole official website",
+          "evidence": [
+            "Run by the Cassani family for four generations",
+            "Most of the 70 rooms have been recently refurbished"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "run by the Cassani family for four generations, with 70 rooms",
+          "most, not all, of the rooms have been recently refurbished"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-firenze",
+      "topic": "hotel",
+      "claim": "Albergo Firenze, Piazza Volta 16 in Como, is a three-star hotel with 44 rooms from singles to triples, breakfast buffet included in the room price and a 24-hour reception.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelfirenzecomo.com/en/",
+          "kind": "official",
+          "title": "firenze official website",
+          "evidence": [
+            "Hotel Firenze is a cozy 3-star hotel nestled within the historic walls of a neoclassical building",
+            "offers 44 high quality rooms in a variety of sizes"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "A three-star hotel on Piazza Volta in a neoclassical building, with 44 rooms from singles to triples",
+          "breakfast buffet included in the room price"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-serbelloni",
+      "topic": "hotel",
+      "claim": "Grand Hotel Villa Serbelloni, Via Roma 1 in Bellagio, calls itself the only 5-star luxury hotel in Bellagio and describes April to November as the season for its lounges and gardens.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.villaserbelloni.com/",
+          "kind": "official",
+          "title": "serbelloni official website",
+          "evidence": [
+            "the only 5-star luxury hotel in Bellagio",
+            "From April to November, its lounges and large gardens"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "calls itself the only 5-star luxury hotel in Bellagio",
+          "April to November as the season for its lounges and gardens"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-belvedere",
+      "topic": "hotel",
+      "claim": "Belvedere Bellagio, Via Valassina 31, has been cared for by five generations of the Martinelli-Manoni family since 1880, with an acre of private tiered lawn and a spa.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.belvederebellagio.com/",
+          "kind": "official",
+          "title": "belvedere official website",
+          "evidence": [
+            "five generations of the Martinelli-Manoni family",
+            "our acre of private tiered lawn"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "cared for by five generations of the Martinelli-Manoni family since 1880",
+          "an acre of private tiered lawn"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-florence",
+      "topic": "hotel",
+      "claim": "Hotel Florence, Piazza Mazzini 46 in Bellagio, has three stars by its own account, a 24-hour front desk, has been run by one family since 1864, calls municipal parking very limited with the first car park 600 m away, and its site carried a reopening banner in November 2026.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelflorencebellagio.it/en/hotel/",
+          "kind": "official",
+          "title": "florence official website",
+          "evidence": [
+            "Hotel Florence has 3 stars.",
+            "Municipal parking lots are very limited in the center of Bellagio",
+            "the first available parking lot is 600m from the hotel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "run by one family since 1864",
+          "the first available car park 600 metres away"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-royal",
+      "topic": "hotel",
+      "claim": "Hotel Royal Victoria, Piazza San Giorgio 2 in Varenna, is a 19th-century hotel on the town's main square with 45 rooms and a pool.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.royalvictoria.com/",
+          "kind": "official",
+          "title": "royal official website",
+          "evidence": [
+            "45 camere eleganti e accoglienti",
+            "affacciato sulla piazza principale di Varenna"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "A 19th-century hotel on Piazza San Giorgio, Varenna's main square",
+          "with 45 rooms and a pool"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-milano",
+      "topic": "hotel",
+      "claim": "Albergo Milano, Via XX Settembre 35 in Varenna, has rooms in the main building and annexes Casa Rossa, Casa 3 Archi and Casa Gialla, of which Casa 3 Archi and Casa Gialla have portable fans rather than air conditioning, breakfast from 8 to 10, and a restaurant closed on Tuesdays.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.albergomilanovarenna.com/faq/",
+          "kind": "official",
+          "title": "milano official website",
+          "evidence": [
+            "Casa 3 Archi and Casa Gialla have instead, portable fans.",
+            "Closed on Tuesdays",
+            "from 8.00 am to 10.00 am"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "Casa 3 Archi and Casa Gialla have portable fans rather than air conditioning",
+          "breakfast from 8 to 10"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-victoria",
+      "topic": "hotel",
+      "claim": "Grand Hotel Victoria, Via B. Castelli 3/13 in Menaggio, is a five-star hotel in two buildings, one historic and one modern, with a pool and a Victoria Beach Club.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.grandhotelvictoria.it/en",
+          "kind": "official",
+          "title": "victoria official website",
+          "evidence": [
+            "The hotel features two distinct buildings",
+            "luxurious 5-star hotel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "A five-star hotel on Via B. Castelli in two buildings",
+          "a Victoria Beach Club"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-gmenaggio",
+      "topic": "hotel",
+      "claim": "Grand Hotel Menaggio, Via IV Novembre 77, faces the lake opposite Bellagio at the point where the lake's two branches meet, with the La Veranda restaurant.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.grandhotelmenaggio.com/",
+          "kind": "official",
+          "title": "gmenaggio official website",
+          "evidence": [
+            "Via IV Novembre 77, 22017 Menaggio (CO)",
+            "opposite Bellagio, at the point where the lake’s two branches meet"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "facing the lake with Bellagio opposite, at the point where the lake's two branches meet",
+          "La Veranda restaurant"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-tremezzo",
+      "topic": "hotel",
+      "claim": "Grand Hotel Tremezzo calls itself a luxury 5 star hotel, with Belle Epoque splendour, lawns and botanic gardens, and a sister villa, Villa Sola Cabiati, with six suites reached by car or boat.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.grandhoteltremezzo.com/",
+          "kind": "official",
+          "title": "tremezzo official website",
+          "evidence": [
+            "luxury 5 star hotel on Lake Como",
+            "Villa Sola Cabiati"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "a sister villa, Villa Sola Cabiati, with six suites, reached by car or boat"
+        ]
+      }
+    },
+    {
+      "id": "it.lake-como.hotel-lenno",
+      "topic": "hotel",
+      "claim": "Albergo Lenno, Via Lomazzi 23 in Lenno, describes itself as a four-star hotel a few steps from the Lenno pier, with 46 rooms and five apartments in an annex.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.albergolenno.com/",
+          "kind": "official",
+          "title": "lenno official website",
+          "evidence": [
+            "un esclusivo hotel 4 stelle",
+            "le nostre 46 camere"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-lake-como.html": [
+          "with 46 rooms and five apartments in an annex",
+          "A four-star hotel on Via Lomazzi in Lenno"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.tax-positano",
+      "topic": "tax",
+      "claim": "Positano charges a tourist tax per person per night of €5 in 5-star, €4 in 4-star and €3 in 3-star hotels and €2.50 in 1-2 star hotels and other lodging, from 1 April to 31 October 2026 (2025 rates confirmed for 2026); children under 10 are exempt.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://comune.positano.sa.it/servizi/imposta-di-soggiorno-ids",
+          "kind": "official",
+          "title": "Comune di Positano: Imposta di soggiorno (IDS)",
+          "evidence": [
+            "sono state confermate, per i pernottamenti effettuati nel periodo dall’01.04.2026 al 31.10.2026",
+            "euro 4,00 al giorno per persona per i pernottamenti negli alberghi a 4 stelle",
+            "Sono esenti dal pagamento dell’imposta di soggiorno i minori entro il decimo anno di età."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Positano confirmed in November 2025 that its 2025 rates apply from 1 April to 31 October 2026, and exempts children under 10",
+          "Positano (2026)",
+          "under 10 in Positano, under 14 in Maiori, under 16 in Ravello and under 18 in Sorrento"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.tax-amalfi",
+      "topic": "tax",
+      "claim": "Amalfi's published tourist-tax tariff (Giunta resolution 24 of 24 February 2022, in force from 1 January 2022) is €5 for 5-star, €4 for 4-star and €3 for 3-star and other hotels, per person per night, charged from 1 April to 2 November.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://comune.amalfi.sa.it/Amministrazione/Documenti-e-dati/Documenti-funzionamento-interno/Regolamento-per-l-applicazione-dell-Imposta-di-Soggiorno",
+          "kind": "official",
+          "title": "Comune di Amalfi: Regolamento per l'applicazione dell'Imposta di Soggiorno",
+          "evidence": [
+            "integrato (tariffe) con Deliberazione della Giunta Comunale n. 24 del 24.02.2022"
+          ]
+        },
+        {
+          "url": "https://static.paytourist.com/media/amalfi/documents/2/default/2/delibera-di-giunta-variazione-tassa-soggiorno.pdf",
+          "kind": "official",
+          "title": "Comune di Amalfi: delibera di Giunta, variazione tassa di soggiorno (PDF, scanned text)",
+          "evidence": [
+            "H O TEL 5 STELLE = 5 EU RO",
+            "H O TEL 4 STELLE = 4 EU RO",
+            "dall’1 aprile al 2 novem bre di ciascun anno"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Amalfi's published schedule dates from a 2022 council resolution"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.tax-ravello",
+      "topic": "tax",
+      "claim": "Ravello charges a tourist tax per person per night of €5 in 5-star and 4-star, €4 in 3-star and €3 in 2-star hotels, from 1 April to 31 October for up to seven consecutive nights; children under 16 are exempt (tariff updated by resolution 31 of 20 March 2019).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://static.paytourist.com/media/ravello/documents/6/default/1022/COMUNE-DI-RAVELLO---IMPOSTA-DI-SOGGIORNO.-Italiano.pdf-67dd9845eb1a7.pdf",
+          "kind": "official",
+          "title": "Comune di Ravello: Imposta di soggiorno, tariffe (PDF)",
+          "evidence": [
+            "Hotel 4 stelle € 5,00",
+            "Residence 3 stelle € 4,00",
+            "fino ad un massimo di sette pernottamenti consecutivi",
+            "i minori entro il sedicesimo anno di età"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Ravello's from 2019",
+          "Ravello and Sorrento cap the tax at seven consecutive nights",
+          "under 10 in Positano, under 14 in Maiori, under 16 in Ravello and under 18 in Sorrento"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.tax-praiano",
+      "topic": "tax",
+      "claim": "From 1 April 2026 Praiano charges €5 (5-star), €4 (4-star), €3 (3-star) and €2 (1-2 star) per person per night in hotels (resolution 11 of 21 January 2026).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://comune.praiano.sa.it/notizie/3534076/avviso-pubblico-variazione-tariffe-imposta",
+          "kind": "official",
+          "title": "Comune di Praiano: Variazione tariffe Imposta di Soggiorno Anno 2026",
+          "evidence": [
+            "Alberghi 4 stelle € 4,00",
+            "Delibera n. 11 del 21.01.2026",
+            "Le nuove tariffe saranno applicate ai pernottamenti effettuati a partire dal 1° aprile 2026."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Praiano (from April 2026)"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.tax-minori",
+      "topic": "tax",
+      "claim": "Minori's 2026 tourist tax is €4 per person per night in 4- and 5-star hotels, €3 in 1-3 star hotels and €2 in B&Bs and most other lodging, charged from 1 January to 31 December.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://static.paytourist.com/media/minori/documents/2/default/1014/Tariffe-Minori-2026.pdf-694abb6e11380.pdf",
+          "kind": "official",
+          "title": "Comune di Minori: Tariffe imposta di soggiorno anno 2026 (PDF)",
+          "evidence": [
+            "L’imposta si applica nel periodo dal 1° Gennaio al 31 Dicembre di ogni anno",
+            "Alberghi 4 e 5 stelle € 4,00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Minori (2026)"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.tax-maiori",
+      "topic": "tax",
+      "claim": "Maiori's 2025 tourist tax (the latest schedule we found) is €4 per person per night in 4- and 5-star hotels, €3 in 1-3 star hotels and €2 in B&Bs and rooms to let, charged all year; children under 14 are exempt.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://static.paytourist.com/media/maiori/documents/3/default/1752/8883_DeliberadiGiunta_187_2024.pdf-6842e171987d7.pdf",
+          "kind": "official",
+          "title": "Comune di Maiori: Delibera di Giunta 187/2024, tariffe 2025 (PDF)",
+          "evidence": [
+            "Imposta pari ad € 4,00 1. Alberghi 4 e 5 stelle",
+            "approvare per l’anno 2025 le tariffe per l’imposta di soggiorno"
+          ]
+        },
+        {
+          "url": "https://static.paytourist.com/media/maiori/documents/1/default/1750/9892_REGOLAMENTO_IMPOSTA_DI_SOGGIORNO_2025.pdf-6842e0c5c8b0f.pdf",
+          "kind": "official",
+          "title": "Comune di Maiori: Regolamento imposta di soggiorno 2025 (PDF)",
+          "evidence": [
+            "L’imposta di soggiorno si applica per il periodo che va dal 1°gennaio al 31 dicembre",
+            "i minori ragazzi di età inferiore ai 14 anni"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Maiori (2025)",
+          "Maiori's latest published schedule is for 2025",
+          "under 10 in Positano, under 14 in Maiori, under 16 in Ravello and under 18 in Sorrento"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.tax-sorrento",
+      "topic": "tax",
+      "claim": "Sorrento's tourist tax (measures approved by Giunta resolution 154 of 8 August 2023, from 1 January 2024) is €4 in 5-star, €3 in 4-star and €1.50 in hotels up to 3 stars per person per night, from 1 April to 31 October, for up to seven consecutive nights; children under 18 are exempt.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://comune.sorrento.na.it/download/34d441a6cb9a4acdadb5d0e5d4488b41/delibera%20imposta%20di%20soggiorno%202024.pdf",
+          "kind": "official",
+          "title": "Comune di Sorrento: delibera di Giunta 154/2023, imposta di soggiorno, misure anno 2024 (PDF)",
+          "evidence": [
+            "Fino a 3 stelle € 1,50 4 stelle € 3,00 5 stelle € 4,00"
+          ]
+        },
+        {
+          "url": "https://comune.sorrento.na.it/download/5c1c16018d1a41298f8f9307d683e384/Imposta%20di%20Soggiorno%20avviso%20multilingue.pdf",
+          "kind": "official",
+          "title": "Comune di Sorrento: Imposta di Soggiorno, avviso multilingue (PDF)",
+          "evidence": [
+            "fino ad un massimo di 7 pernottamenti consecutivi",
+            "Sono esenti dall’imposta i minori fino al compimento del diciottesimo anno d’età."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Sorrento's from a 2023 resolution that set the rates from 2024",
+          "Ravello and Sorrento cap the tax at seven consecutive nights",
+          "under 10 in Positano, under 14 in Maiori, under 16 in Ravello and under 18 in Sorrento"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.travelmar-fares",
+      "topic": "fare",
+      "claim": "Travelmar's 2026 full fares are €12 Salerno-Amalfi, €17 Salerno-Positano, €10 Amalfi-Positano and €5 Amalfi-Minori or Maiori.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.travelmar.it/_download/tariffe-2026.pdf",
+          "kind": "operator",
+          "title": "Travelmar: Tariffe 2026 (PDF)",
+          "evidence": [
+            "SALERNO - AMALFI o viceversa € 12,00",
+            "SALERNO - POSITANO o viceversa € 17,00",
+            "AMALFI - POSITANO o viceversa € 10,00",
+            "AMALFI - MINORI o viceversa € 5,00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Published full fares: Salerno to Amalfi €12, Salerno to Positano €17, Amalfi to Positano €10, and Amalfi to Minori or Maiori €5"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.travelmar-service",
+      "topic": "transport",
+      "claim": "Travelmar's timetable (updated from 1 October) is an annual service from Salerno Piazza Concordia by the train station, and crossings can be delayed by rough sea.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.travelmar.it/_download/orari-travelmar-dal-1-ottobre_896.pdf",
+          "kind": "operator",
+          "title": "Travelmar: orari (PDF)",
+          "evidence": [
+            "Servizio annuale",
+            "Piazza Concordia - Stazione dei treni",
+            "I collegamenti possono subire ritardi a causa di condizioni meteo-marine avverse"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "on a timetable it describes as an annual service",
+          "from Piazza Concordia by the train station",
+          "Sailings can be delayed by rough sea"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.sita-costierasita",
+      "topic": "fare",
+      "claim": "SITA SUD's COSTIERASITA ticket costs €10 and is valid for 24 hours from first validation on SITA SUD buses in the coastal comuni it lists.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.sitasudtrasporti.it/campania/biglietti-e-abbonamenti",
+          "kind": "operator",
+          "title": "SITA SUD: Biglietti e abbonamenti, Campania",
+          "evidence": [
+            "COSTIERASITA € 10,00",
+            "Il titolo di viaggio è valido 24 ore dal momento della prima validazione."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "The COSTIERASITA ticket, €10, is valid for 24 hours from first validation"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.sita-timetable-2026-11",
+      "topic": "transport",
+      "claim": "SITA SUD published a notice dated 29 October 2026 of a new Costiera timetable from 2 November 2026.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.sitasudtrasporti.it/",
+          "kind": "operator",
+          "title": "SITA SUD home page: avvisi",
+          "evidence": [
+            "Leggi Tutto l'avviso del 29 Ottobre 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "SITA published a new coastal timetable, effective 2 November 2026"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.curreri-airport-shuttle",
+      "topic": "fare",
+      "claim": "Curreri Viaggi's airport shuttle runs between Naples airport and Sorrento station and costs €13.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.curreriviaggi.it/en/naples-airport-shuttle",
+          "kind": "operator",
+          "title": "Curreri Viaggi: Naples airport shuttle",
+          "evidence": [
+            "From Naples Airport to Sorrento - Train Station",
+            "€ 13"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Curreri Viaggi's airport shuttle runs between the airport and Sorrento station for €13"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.campania-express",
+      "topic": "transport",
+      "claim": "Campania Express lists a Naples to Sorrento train service.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.campaniaexpress.it",
+          "kind": "operator",
+          "title": "Campania Express",
+          "evidence": [
+            "Napoli per Sorrento"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "the Campania Express lists a Naples to Sorrento service"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-le-sirenuse",
+      "topic": "hotel",
+      "claim": "Le Sirenuse's own site describes 58 rooms and a Sersale family hotel at Via Cristoforo Colombo 30, Positano.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://sirenuse.it/en/rooms-suites/",
+          "kind": "official",
+          "title": "Le Sirenuse: official website",
+          "evidence": [
+            "Each of the 58 rooms is a soothing, spotless realm of light."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "with 58 rooms, a restaurant, three bars and a spa and pool"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-marincanto",
+      "topic": "hotel",
+      "claim": "Hotel Marincanto's site describes a pool dug into the cliff, a private beach and rooms that are all different.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.marincanto.it/en/rooms-suites/",
+          "kind": "official",
+          "title": "Hotel Marincanto: rooms and suites",
+          "evidence": [
+            "The rooms at the Marincanto are all different."
+          ]
+        },
+        {
+          "url": "https://www.marincanto.it/en/pool-beach/",
+          "kind": "official",
+          "title": "Hotel Marincanto: pool and beach",
+          "evidence": [
+            "A private beach in Positano: a luxury that only the Marincanto can offer its guests."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "with a pool cut into the cliff and a private beach"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-savoia",
+      "topic": "hotel",
+      "claim": "Hotel Savoia's site describes a family-run four-star hotel since 1936, with Standard Rooms at the back of the hotel.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.savoiapositano.it/en/",
+          "kind": "official",
+          "title": "Hotel Savoia: official website",
+          "evidence": [
+            "Since 1936, our family has been welcoming travelers from all over the world",
+            "Located at the back of the hotel, the Standard Rooms are silent, bright and surprisingly cozy."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "A four-star hotel run by the same family since 1936"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-luna-convento",
+      "topic": "hotel",
+      "claim": "Hotel Luna Convento's site says it was born from a monastery founded by Saint Francis of Assisi in 1222, with a cloister, restaurant terrace and pool.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.lunahotel.it/en/",
+          "kind": "official",
+          "title": "Hotel Luna Convento: official website",
+          "evidence": [
+            "an ancient monastery founded by Saint Francis of Assisi in 1222"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Built from a monastery founded by Saint Francis of Assisi in 1222"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-lidomare",
+      "topic": "hotel",
+      "claim": "Hotel Lidomare's site describes a small three-star hotel at Largo Piccolomini 9, reached from Piazza Duomo, with paid car valet parking.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.lidomare.it/",
+          "kind": "official",
+          "title": "Hotel Lidomare: official website",
+          "evidence": [
+            "L'Hotel Lido Mare è un piccolo albergo a breve distanza dal mare.",
+            "Largo Piccolomini, 9"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "A small three-star hotel at Largo Piccolomini 9, reached from Piazza Duomo"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-caruso",
+      "topic": "hotel",
+      "claim": "Belmond's page for Caruso gives 50 rooms and suites, with Double Rooms of 35-50 m2.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.belmond.com/en/hotels/europe/italy/caruso-amalfi-coast",
+          "kind": "official",
+          "title": "Caruso, A Belmond Hotel: official website",
+          "evidence": [
+            "50 rooms and suites"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "A palace of 50 rooms and suites on Piazza San Giovanni del Toro",
+          "Doubles measure 35 to 50 m²"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-villa-maria",
+      "topic": "hotel",
+      "claim": "Hotel Villa Maria's site says it is owned by the Palumbo family, between Villa Rufolo, the main square and Villa Cimbrone.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.villamaria.it/en/",
+          "kind": "official",
+          "title": "Hotel Villa Maria: official website",
+          "evidence": [
+            "Owned by the Palumbo family",
+            "situated among Villa Rufolo, the main square and Villa Cimbrone"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Owned by the Palumbo family, in the village centre between Villa Rufolo, the main square and Villa Cimbrone"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-onda-verde",
+      "topic": "hotel",
+      "claim": "Hotel Onda Verde's site describes five private independent villas holding 25 rooms, a pool, and beach clubs 50 metres away.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.ondaverde.it/en/home/",
+          "kind": "official",
+          "title": "Hotel Onda Verde: official website",
+          "evidence": [
+            "five private independent villas",
+            "are just 50 meters away"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "Five private villas hold 25 rooms"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-villa-romana",
+      "topic": "hotel",
+      "claim": "Villa Romana Hotel & Spa's site describes a modern four-star in Minori, a few steps from the old centre, with an Otium spa and Roman bath.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelvillaromana.it/",
+          "kind": "official",
+          "title": "Villa Romana Hotel & Spa: official website",
+          "evidence": [
+            "un 4 stelle moderno e confortevole",
+            "a pochi passi dal centro storico"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "A modern four-star in Minori at Corso Vittorio Emanuele 90, a few steps from the old centre"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-miramare",
+      "topic": "hotel",
+      "claim": "Hotel Miramare's site describes a four-star in central Maiori, 50 metres from the sea, with a rooftop terrace and parking at an affiliated garage 10 metres away.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.miramaremaiori.it/",
+          "kind": "official",
+          "title": "Hotel Miramare: official website",
+          "evidence": [
+            "a soli 50 metri dal mare",
+            "Convenzionato a soli 10 metri dall'hotel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "A four-star in the centre of Maiori, 50 metres from the sea"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-excelsior-vittoria",
+      "topic": "hotel",
+      "claim": "Grand Hotel Excelsior Vittoria's site describes a five-star hotel family-owned since 1834, opening onto Piazza Tasso, with private access to the port.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://excelsiorvittoria.com/",
+          "kind": "official",
+          "title": "Grand Hotel Excelsior Vittoria: official website",
+          "evidence": [
+            "Family-owned since 1834",
+            "the hotel opens directly onto Piazza Tasso"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "A five-star hotel family-owned since 1834"
+        ]
+      }
+    },
+    {
+      "id": "it.amalfi-coast.hotel-nice",
+      "topic": "hotel",
+      "claim": "Hotel Nice's site says it is 50 metres from Sorrento's bus and train stations and describes itself as cheap accommodation.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelnicesorrento.com/",
+          "kind": "official",
+          "title": "Hotel Nice: official website",
+          "evidence": [
+            "Being located 50 metres from the bus and train stations of Sorrento"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "50 metres from the bus and train stations"
+        ]
+      }
     }
   ]
 }

@@ -591,6 +591,22 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-for-the-masters.html": (
+        "Where to Stay in Augusta",
+        "Masters 2027, April 5-11: six areas, 12 hotels, free parking rules and Georgia and South Carolina taxes.",
+    ),
+    "articles/where-to-stay-on-the-amalfi-coast.html": (
+        "Where to Stay in Amalfi Coast",
+        "Six bases from Positano to Sorrento, 12 hotels, boat and bus fares, and each town's own tourist tax.",
+    ),
+    "articles/where-to-stay-in-edinburgh-fringe.html": (
+        "Where to Stay in Edinburgh",
+        "Fringe 6-30 Aug 2027: where to stay in the Old Town, New Town or Leith, plus the 5% Visitor Levy.",
+    ),
+    "articles/where-to-stay-on-lake-como.html": (
+        "Where to Stay in Lake Como",
+        "Como, Bellagio, Varenna, Menaggio and Tremezzina: 12 hotels, the tax and the ferries",
+    ),
     "articles/where-to-stay-in-toronto.html": (
         "Where to Stay in Toronto",
         "Union Station, Yorkville, Queen West and the waterfront: 12 hotels and the 6% tax plus 13% HST.",
@@ -2333,6 +2349,34 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-for-the-masters.html": [
+        "articles/where-to-stay-for-kentucky-derby.html",
+        "articles/where-to-stay-in-washington-dc-cherry-blossom.html",
+        "articles/where-to-stay-for-boston-marathon.html",
+        "articles/where-to-stay-in-orlando.html",
+        "articles/best-esim-usa-2026.html",
+    ],
+    "articles/where-to-stay-on-the-amalfi-coast.html": [
+        "articles/where-to-stay-in-rome.html",
+        "articles/where-to-stay-in-florence.html",
+        "articles/where-to-stay-in-venice.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/europe-rail-pass-worth-it-2026.html",
+    ],
+    "articles/where-to-stay-in-edinburgh-fringe.html": [
+        "articles/where-to-stay-in-edinburgh.html",
+        "articles/where-to-stay-in-edinburgh-hogmanay.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-on-lake-como.html": [
+        "articles/where-to-stay-in-milan.html",
+        "articles/where-to-stay-in-venice.html",
+        "articles/where-to-stay-in-florence.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-toronto.html": [
         "articles/where-to-stay-in-montreal.html",

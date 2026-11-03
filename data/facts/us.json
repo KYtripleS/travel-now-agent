@@ -10444,6 +10444,639 @@
           "its page says rooms are offered to students and visitors on retreat"
         ]
       }
+    },
+    {
+      "id": "us.masters.dates-2027",
+      "topic": "place",
+      "claim": "The 2027 Masters is played at Augusta National from Monday 5 to Sunday 11 April 2027, with Monday to Wednesday as practice rounds and tournament rounds from Thursday 8 April.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.masters.com/en_US/patron/index.html",
+          "kind": "official",
+          "title": "Masters: patron information",
+          "evidence": [
+            "Monday, April 5",
+            "Note that Monday through Wednesday are practice round days."
+          ]
+        },
+        {
+          "url": "https://www.visitaugusta.com/the-masters/",
+          "kind": "official",
+          "title": "Destination Augusta: the Masters in Augusta",
+          "evidence": [
+            "The Masters Tournament returns to Augusta, Georgia, April 5-11, 2027 at Augusta National Golf Club."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "the tournament is played from Monday 5 to Sunday 11 April",
+          "April 5-11, 2027"
+        ]
+      }
+    },
+    {
+      "id": "us.masters.gates-monday",
+      "topic": "place",
+      "claim": "On the Monday practice round, patron parking opens no earlier than 6:00 a.m., ticketing gates open at 7:00 a.m., the course opens at 7:30 a.m. and gates close at 6:00 p.m.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.masters.com/en_US/patron/index.html",
+          "kind": "official",
+          "title": "Masters: patron information",
+          "evidence": [
+            "Patron parking lots open no earlier than 6:00 a.m. and close each night at 10:00 p.m.",
+            "Ticketing gates open at 7:00 a.m. Course opens at 7:30 a.m.",
+            "Gates close at 6:00 p.m."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "Patron parking opens no earlier than 6:00 a.m. and closes each night at 10:00 p.m.",
+          "the course opens at 7:30 a.m."
+        ]
+      }
+    },
+    {
+      "id": "us.masters.tickets-2027",
+      "topic": "place",
+      "claim": "All 2027 Masters tickets have been allocated, Augusta National is the only authorised seller and resale is prohibited; 2028 applications are listed as open 1 to 20 June 2027.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.masters.com/en_US/tickets/index.html",
+          "kind": "official",
+          "title": "Masters: tickets",
+          "evidence": [
+            "All 2027 tickets have been allocated.",
+            "The resale of any Masters Ticket is strictly prohibited.",
+            "2028 Applications Open - June 1st through June 20th."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "all 2027 tickets have been allocated",
+          "the resale of any Masters ticket is strictly prohibited",
+          "Applications for 2028 are listed as open from 1 June to 20 June"
+        ]
+      }
+    },
+    {
+      "id": "us.masters.housing-contacts",
+      "topic": "place",
+      "claim": "Augusta National directs hotel enquiries to the Augusta Convention and Visitors Bureau (706-823-6600) and private home reservations to the Masters Housing Bureau (706-821-1300).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.masters.com/en_US/patron/index.html",
+          "kind": "official",
+          "title": "Masters: patron information",
+          "evidence": [
+            "For private home reservations in the Augusta area, contact Masters Housing Bureau at 706-821-1300",
+            "For hotel and motel information and reservations, contact the Augusta Convention and Visitors Bureau at 706-823-6600."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "706-823-6600",
+          "the Masters Housing Bureau on 706-821-1300"
+        ]
+      }
+    },
+    {
+      "id": "us.masters.parking-free",
+      "topic": "transport",
+      "claim": "Free Masters parking is first-come, first-served along Berckmans Road between the North and South Gates, with more than 8,500 spaces; lots fill quickly and close at capacity.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.masters.com/en_US/patron/index.html",
+          "kind": "official",
+          "title": "Masters: patron information",
+          "evidence": [
+            "Free parking is provided on a first-come, first-served basis."
+          ]
+        },
+        {
+          "url": "https://www.visitaugusta.com/the-masters/plan/parking-and-maps/",
+          "kind": "official",
+          "title": "Destination Augusta: Masters parking and transportation",
+          "evidence": [
+            "There are more than 8,500 free parking spaces available during Masters Week",
+            "located along Berckmans Road between the North and South Gates"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "Free Masters parking is provided on a first-come, first-served basis",
+          "more than 8,500 free spaces"
+        ]
+      }
+    },
+    {
+      "id": "us.masters.parking-private",
+      "topic": "price",
+      "claim": "Other parking along corridors such as Washington Road typically costs $40-60 and does not accept cards, per Destination Augusta.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.visitaugusta.com/the-masters/plan/parking-and-maps/",
+          "kind": "official",
+          "title": "Destination Augusta: Masters parking and transportation",
+          "evidence": [
+            "These alternate parking options typically cost $40-60 and do not accept card."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "typically costs $40-60 and does not accept cards"
+        ]
+      }
+    },
+    {
+      "id": "us.masters.rideshare-lots",
+      "topic": "transport",
+      "claim": "The rideshare lot is at 2800 Washington Road and the taxi lot at 2740 Washington Road, both within a short walk of the North Gate.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.visitaugusta.com/the-masters/plan/parking-and-maps/",
+          "kind": "official",
+          "title": "Destination Augusta: Masters parking and transportation",
+          "evidence": [
+            "Rideshare Lot 2800 Washington Road",
+            "Taxi Lot 2740 Washington Road"
+          ]
+        },
+        {
+          "url": "https://www.masters.com/en_US/patron/index.html",
+          "kind": "official",
+          "title": "Masters: patron information",
+          "evidence": [
+            "Both the rideshare lot and the taxi lot are located within a short walk to North Gate."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "a rideshare lot at 2800 Washington Road and a taxi lot at 2740 Washington Road"
+        ]
+      }
+    },
+    {
+      "id": "us.masters.flights",
+      "topic": "transport",
+      "claim": "Augusta National names Augusta Regional Airport as closest, and says Delta will run up to 20 direct flights daily to Augusta during the 2027 tournament; Destination Augusta lists daily Delta and American flights.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.masters.com/en_US/patron/index.html",
+          "kind": "official",
+          "title": "Masters: patron information",
+          "evidence": [
+            "up to 20 direct flights daily from cities across the country during Tournament"
+          ]
+        },
+        {
+          "url": "https://www.visitaugusta.com/the-masters/plan/getting-to-augusta/",
+          "kind": "official",
+          "title": "Destination Augusta: getting to Augusta",
+          "evidence": [
+            "Augusta Regional Airport has daily flights through Delta and American Airlines."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "up to 20 direct flights daily during the tournament",
+          "daily flights through Delta and American Airlines"
+        ]
+      }
+    },
+    {
+      "id": "us.augusta.demand",
+      "topic": "place",
+      "claim": "Destination Augusta says Masters week brings increased demand for lodging, dining and transportation, making advance planning essential.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.visitaugusta.com/the-masters/",
+          "kind": "official",
+          "title": "Destination Augusta: the Masters in Augusta",
+          "evidence": [
+            "Masters Week brings increased demand for lodging, dining, and transportation, making advance planning essential."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "increased demand for lodging, dining and transportation"
+        ]
+      }
+    },
+    {
+      "id": "us.ga.hotel-motel-fee",
+      "topic": "tax",
+      "claim": "Georgia innkeepers must collect a $5.00 per night state hotel-motel fee from guests; marketplaces collect it for short-term rentals booked through them.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://dor.georgia.gov/node/59166",
+          "kind": "official",
+          "title": "Georgia DOR: state hotel-motel fee FAQ",
+          "evidence": [
+            "$5.00 per night State Hotel-Motel Fee",
+            "other short-term rentals managed through online marketplaces"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "a $5.00 per night state hotel-motel fee",
+          "$5.00 per night"
+        ]
+      }
+    },
+    {
+      "id": "us.ga.richmond-columbia-sales-tax",
+      "topic": "tax",
+      "claim": "Georgia DOR's general rate chart effective 1 October 2026 lists Richmond County at 9% and Columbia County at 8%, with the 4% state rate included.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://dor.georgia.gov/document/document/httpsdorgeorgiagovdocumentdocumentgeneral-rate-chart-effective-october-1-2026/download",
+          "kind": "official",
+          "title": "Georgia DOR: general rate chart effective October 1, 2026",
+          "evidence": [
+            "The state sales and use tax rate of 4% is included in all jurisdictions",
+            "Effective October 1, 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "lists Richmond County at 9% and Columbia County at 8%"
+        ]
+      }
+    },
+    {
+      "id": "us.augusta.lodging-tax",
+      "topic": "tax",
+      "claim": "Destination Augusta says its funding comes from a portion of the local 8% lodging tax; Georgia HB 498 (2025) authorises Augusta-Richmond County to levy up to 8%; the DCA list updated August 2025 still showed 6%.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.visitaugusta.com/about-us/",
+          "kind": "official",
+          "title": "Destination Augusta: about us",
+          "evidence": [
+            "Primary funding is derived from a portion of the local 8% lodging tax."
+          ]
+        },
+        {
+          "url": "https://gov.georgia.gov/document/2025-signed-legislation/hb-498/download",
+          "kind": "official",
+          "title": "Georgia HB 498 (2025)",
+          "evidence": [
+            "not to exceed 8 percent of the charge for the furnishing for value to the public"
+          ]
+        },
+        {
+          "url": "https://dca.georgia.gov/document/document/hotel-motel-tax-revenue-report/download",
+          "kind": "official",
+          "title": "Georgia DCA: hotel-motel excise tax rates and revenue report",
+          "evidence": [
+            "Augusta/Richmond Cons. Govt. 6%",
+            "Updated: August 8, 2025"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "the local 8% lodging tax",
+          "still showed 6% for Augusta and 5% for Columbia County"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "us.columbia.lodging-tax",
+      "topic": "tax",
+      "claim": "Columbia County's hotel-motel excise tax is listed at 5% on the Georgia DCA report updated August 2025; the report shows no separate Evans or Martinez city entry.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://dca.georgia.gov/document/document/hotel-motel-tax-revenue-report/download",
+          "kind": "official",
+          "title": "Georgia DCA: hotel-motel excise tax rates and revenue report",
+          "evidence": [
+            "Columbia County 5%",
+            "Updated: August 8, 2025"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "Neither list showed a separate entry for Evans or Martinez"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "us.sc.accommodations-9",
+      "topic": "tax",
+      "claim": "South Carolina DOR form ST-575 (rev. 5 Feb 2026) lists North Augusta in Aiken County and Aiken at 9% for accommodations, excluding local taxes collected directly by counties or municipalities.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://dor.sc.gov/tax-index/sales-and-use/Sales%20Notices/ST575.pdf",
+          "kind": "official",
+          "title": "South Carolina DOR: ST-575 sales tax rates by municipality",
+          "evidence": [
+            "SOUTH CAROLINA SALES TAX RATE BY MUNICIPALITY",
+            "CP (1002), ECI (5021) 8% 9% 0%",
+            "Local taxes directly collected by the counties or municipalities are not included."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "lists North Augusta in Aiken County and the city of Aiken at 9% for accommodations"
+        ]
+      }
+    },
+    {
+      "id": "us.augusta.hotel.hampton-washington-rd",
+      "topic": "hotel",
+      "claim": "Hampton Inn & Suites by Hilton Augusta-Washington Rd, 3028 B Washington Road, lists free hot breakfast, complimentary self-parking, an outdoor pool and EV charging.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/agswrhx-hampton-suites-augusta-washington-rd/hotel-info/",
+          "kind": "operator",
+          "title": "Hampton Inn & Suites Augusta-Washington Rd: hotel info",
+          "evidence": [
+            "Self-parking: Complimentary",
+            "Free hot breakfast",
+            "EV charging: On-site"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "free hot breakfast, complimentary self-parking, an outdoor pool, a fitness centre and on-site EV charging"
+        ]
+      }
+    },
+    {
+      "id": "us.augusta.hotel.courtyard",
+      "topic": "hotel",
+      "claim": "Courtyard by Marriott Augusta, 1045 Stevens Creek Road, lists complimentary on-site parking and The Bistro with Starbucks coffee; pets are charged $20 a day.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/agsch-courtyard-augusta/overview/",
+          "kind": "operator",
+          "title": "Courtyard by Marriott Augusta: overview",
+          "evidence": [
+            "Complimentary On-Site Parking",
+            "The Bistro proudly serves Starbucks"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "complimentary on-site parking, an outdoor pool, a fitness centre and The Bistro"
+        ]
+      }
+    },
+    {
+      "id": "us.augusta.hotel.red-roof",
+      "topic": "hotel",
+      "claim": "Red Roof Inn Augusta - Washington Road, 3030 Washington Rd Building A, lists a $50 refundable deposit per room and one pet staying free.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.redroof.com/property/ga/augusta/rri450",
+          "kind": "operator",
+          "title": "Red Roof Inn Augusta - Washington Road",
+          "evidence": [
+            "A $50 refundable deposit is required at check-in for each room",
+            "3030 Washington Rd, BLDG A, Augusta GA"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "a $50 refundable deposit per room at check-in"
+        ]
+      }
+    },
+    {
+      "id": "us.augusta.hotel.marriott-convention-center",
+      "topic": "hotel",
+      "claim": "Augusta Marriott at the Convention Center, Two Tenth Street, lists Augustino's restaurant, indoor and outdoor pools, valet parking at $25 a day and a garage clearance of 8 feet 6 inches.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/agsmc-augusta-marriott-at-the-convention-center/overview/",
+          "kind": "operator",
+          "title": "Augusta Marriott at the Convention Center: overview",
+          "evidence": [
+            "Parking garage height clearance is 8 feet 6 inches",
+            "Augustino's Italian Eatery and Prime Steaks"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "a parking garage height clearance of 8 feet 6 inches"
+        ]
+      }
+    },
+    {
+      "id": "us.augusta.hotel.partridge-inn",
+      "topic": "hotel",
+      "claim": "The Partridge Inn Augusta, 2110 Walton Way, describes itself as a registered historic hotel with 143 guest rooms in Hilton's Curio Collection.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://partridgeinn.com/accommodations/",
+          "kind": "operator",
+          "title": "The Partridge Inn: stay",
+          "evidence": [
+            "143 distinct guest rooms",
+            "2110 WALTON WAY AUGUSTA, GA 30904"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "a registered historic hotel with 143 distinct guest rooms"
+        ]
+      }
+    },
+    {
+      "id": "us.augusta.hotel.hampton-west",
+      "topic": "hotel",
+      "claim": "Hampton Inn & Suites Augusta West, 4081 Jimmie Dyess Parkway, is off I-20 exit 194, lists complimentary self-parking and Augusta Regional Airport 13 miles away, with no airport shuttle.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/agswehx-hampton-suites-augusta-west/hotel-location/",
+          "kind": "operator",
+          "title": "Hampton Inn & Suites Augusta West: location",
+          "evidence": [
+            "4081 Jimmie Dyess Parkway, Augusta, Georgia, 30909, USA",
+            "We are located off I-20 exit #194/South on Belair Rd",
+            "Self-parking: Complimentary"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "off I-20 exit 194, south on Belair Road, with complimentary self-parking"
+        ]
+      }
+    },
+    {
+      "id": "us.augusta.hotel.hie-west",
+      "topic": "hotel",
+      "claim": "Holiday Inn Express & Suites Augusta West - Fort Gordon, 4087 Jimmie Dyess Parkway, is right off I-20 exit 194 and 3 miles from Fort Gordon Gate #1, with free breakfast and a pool.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/augusta/agsjd/hoteldetail",
+          "kind": "operator",
+          "title": "Holiday Inn Express & Suites Augusta West - Fort Gordon",
+          "evidence": [
+            "situated right off I-20 Exit 194 and just 3 miles from Fort Gordon Gate #1",
+            "4087 Jimmie Dyess Parkway"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "3 miles from Fort Gordon Gate #1"
+        ]
+      }
+    },
+    {
+      "id": "us.augusta.hotel.doubletree",
+      "topic": "hotel",
+      "claim": "DoubleTree by Hilton Hotel Augusta, 2651 Perimeter Parkway, lists indoor and outdoor pools, complimentary self-parking, breakfast for a fee and no airport shuttle.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/agsdtdt-doubletree-augusta/hotel-info/",
+          "kind": "operator",
+          "title": "DoubleTree by Hilton Hotel Augusta: hotel info",
+          "evidence": [
+            "2651 Perimeter Parkway, Augusta, Georgia, 30909, USA",
+            "Breakfast Available for a fee"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "breakfast is available for a fee"
+        ]
+      }
+    },
+    {
+      "id": "us.northaugusta.hotel.crowne-plaza",
+      "topic": "hotel",
+      "claim": "Crowne Plaza North Augusta, 1060 Center Street, lists parking at $12 a day and a complimentary shuttle seven days a week, 7am to 10pm, within about five miles and based on availability.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/crowneplaza/hotels/us/en/north-augusta/aikna/hoteldetail",
+          "kind": "operator",
+          "title": "Crowne Plaza North Augusta",
+          "evidence": [
+            "On-site parking (12 USD / day)",
+            "Our complimentary shuttle runs seven days a week, 7am to 10pm, within about five miles of the hotel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "parking is $12 a day and pets cost $75 a stay",
+          "complimentary shuttle seven days a week from 7am to 10pm within about five miles"
+        ]
+      }
+    },
+    {
+      "id": "us.northaugusta.hotel.hie",
+      "topic": "hotel",
+      "claim": "Holiday Inn Express North Augusta - SC, 138 Stephens Farm Lane, is immediately off I-20 at Exit 5 and lists free breakfast.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/north-augusta/aikag/hoteldetail",
+          "kind": "operator",
+          "title": "Holiday Inn Express North Augusta - SC",
+          "evidence": [
+            "immediately off Interstate 20 at Exit 5",
+            "138 Stephens Farm Lane"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "immediately off I-20 at exit 5"
+        ]
+      }
+    },
+    {
+      "id": "us.aiken.hotel.willcox",
+      "topic": "hotel",
+      "claim": "The Willcox, 100 Colleton Avenue SW, Aiken, says each stay includes a complimentary breakfast.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://thewillcox.com/stay/",
+          "kind": "operator",
+          "title": "The Willcox: stay",
+          "evidence": [
+            "Each stay includes a complimentary breakfast in the morning"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "each stay includes a complimentary breakfast"
+        ]
+      }
+    },
+    {
+      "id": "us.aiken.hotel.hie-aiken",
+      "topic": "hotel",
+      "claim": "Holiday Inn Express & Suites Aiken, 2897 Whiskey Road, lists free breakfast, pets at $50 a night and a page heading inviting guests to stay during the Masters Tournament.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/aiken/aikxs/hoteldetail",
+          "kind": "operator",
+          "title": "Holiday Inn Express & Suites Aiken",
+          "evidence": [
+            "Stay With Us During The Masters Tournament",
+            "2897 Whiskey Road"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-the-masters.html": [
+          "a heading inviting guests to stay during the Masters Tournament"
+        ]
+      }
     }
   ]
 }

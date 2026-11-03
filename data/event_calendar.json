@@ -396,6 +396,22 @@
       "name": "Monaco Grand Prix",
       "place": "Monaco",
       "when": "3 to 6 June; race Sunday 6 June, the first Monaco sprint weekend"
+    },
+    {
+      "start": "2027-08-06",
+      "end": "2027-08-30",
+      "slug": "where-to-stay-in-edinburgh-fringe",
+      "name": "Edinburgh Festival Fringe",
+      "place": "Edinburgh, UK",
+      "when": "6 to 30 August; the Tattoo runs 6 to 28 August"
+    },
+    {
+      "start": "2027-04-05",
+      "end": "2027-04-11",
+      "slug": "where-to-stay-for-the-masters",
+      "name": "The Masters",
+      "place": "Augusta, US",
+      "when": "Practice rounds from Monday 5 April; tournament Thursday 8 to Sunday 11 April"
     }
   ],
   "seasons": [
