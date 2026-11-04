@@ -591,6 +591,18 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-mykonos.html": (
+        "Where to Stay in Mykonos",
+        "Mykonos Town, Ornos, Platis Gialos, Agios Stefanos and Paradise, 12 hotels, Greece's €2 to €15 room fee.",
+    ),
+    "articles/where-to-stay-in-naples.html": (
+        "Where to Stay in Naples",
+        "Six areas from Centro Storico to Posillipo, 12 hotels, Alibus and ferry fares, and the tax by star rating.",
+    ),
+    "articles/where-to-stay-in-munich.html": (
+        "Where to Stay in Munich",
+        "Seven areas, 12 hotels, no city tax in force: where to sleep in Munich, from the Altstadt to Haidhausen.",
+    ),
     "articles/where-to-stay-in-pamplona-san-fermin.html": (
         "Where to Stay in Pamplona",
         "Nine days of fiesta: where to sleep on the run route, beside the walls or in the calmer north of Pamplona.",
@@ -2353,6 +2365,27 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-mykonos.html": [
+        "articles/where-to-stay-in-santorini.html",
+        "articles/where-to-stay-in-athens.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-in-naples.html": [
+        "articles/where-to-stay-on-the-amalfi-coast.html",
+        "articles/where-to-stay-in-rome.html",
+        "articles/where-to-stay-in-florence.html",
+        "articles/best-esim-europe-2026.html",
+        "articles/europe-rail-pass-worth-it-2026.html",
+    ],
+    "articles/where-to-stay-in-munich.html": [
+        "articles/where-to-stay-in-munich-oktoberfest.html",
+        "articles/where-to-stay-in-berlin.html",
+        "articles/where-to-stay-in-vienna.html",
+        "articles/where-to-stay-in-prague.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-in-pamplona-san-fermin.html": [
         "articles/where-to-stay-in-seville-holy-week-april-fair.html",

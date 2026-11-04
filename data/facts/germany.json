@@ -1555,6 +1555,12 @@
           "the Bavarian Municipal Taxes Act says a municipality may not levy an Übernachtungsteuer",
           "On 14 November 2025 the Bavarian Constitutional Court rejected the challenge by Munich and two other cities",
           "We found no tax in force in Munich"
+        ],
+        "articles/where-to-stay-in-munich.html": [
+          "the Bavarian Municipal Taxes Act says a municipality may not levy an Übernachtungsteuer",
+          "On 14 November 2025 the Bavarian Constitutional Court rejected the challenge by Munich and two other cities",
+          "We found no tax in force in Munich",
+          "the Bavarian Constitutional Court upheld the ban in November 2025"
         ]
       },
       "recheck_days": 90
@@ -1589,6 +1595,11 @@
           "decided in March 2023 on a 5% overnight tax",
           "On 26 February 2026 the city said its mayor and treasurer would propose a complaint to the Federal Constitutional Court",
           "includes a municipal complaint against the Bavarian ban"
+        ],
+        "articles/where-to-stay-in-munich.html": [
+          "decided in March 2023 on a 5% overnight tax",
+          "On 26 February 2026 the city said its mayor and treasurer would propose a complaint to the Federal Constitutional Court",
+          "includes a municipal complaint against the Bavarian ban"
         ]
       },
       "recheck_days": 60
@@ -1614,6 +1625,10 @@
         "articles/where-to-stay-in-munich-oktoberfest.html": [
           "a reduced rate of 7% for letting rooms to guests for a short stay",
           "the VAT is €13.08 (200 × 7 ÷ 107)"
+        ],
+        "articles/where-to-stay-in-munich.html": [
+          "a reduced rate of 7% for letting rooms to guests for a short stay",
+          "the VAT is €13.08 (200 × 7 ÷ 107)"
         ]
       },
       "note": "Duplicates ledger ids de.vat.accommodation and de.accommodation-vat-7; merge as the editor prefers."
@@ -1637,6 +1652,10 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "about 40 minutes, and that the S1 and S8 run alternately, so there is a 10-minute interval",
+          "The S8 runs around the clock"
+        ],
+        "articles/where-to-stay-in-munich.html": [
           "about 40 minutes, and that the S1 and S8 run alternately, so there is a 10-minute interval",
           "The S8 runs around the clock"
         ]
@@ -1672,6 +1691,10 @@
         "articles/where-to-stay-in-munich-oktoberfest.html": [
           "An adult single is €12.50 online and €13.50 from the driver",
           "45 minutes from the Hauptbahnhof and 25 minutes from Schwabing"
+        ],
+        "articles/where-to-stay-in-munich.html": [
+          "An adult single is €12.50 online and €13.50 from the driver",
+          "45 minutes from the Hauptbahnhof and 25 minutes from Schwabing"
         ]
       }
     },
@@ -1693,6 +1716,9 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-munich-oktoberfest.html": [
+          "unlimited journeys between the airport and the city centre on one day, for one person or a group of up to five, from €17.50"
+        ],
+        "articles/where-to-stay-in-munich.html": [
           "unlimited journeys between the airport and the city centre on one day, for one person or a group of up to five, from €17.50"
         ]
       }
@@ -2032,6 +2058,325 @@
       "used_in": {
         "articles/where-to-stay-in-munich-oktoberfest.html": [
           "A five-star superior hotel in the centre of Augsburg with a rooftop pool heated all year"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.platzl",
+      "topic": "hotel",
+      "claim": "Operating Platzl Hotel, Sparkassenstraße 10, a 4-star superior hotel that describes itself as just a few minutes' walk from Marienplatz; restaurant Pfistermühle in a historic vaulted cellar; public underground car park directly beneath; breakfast is not automatically included but is an optional extra.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.platzl.de/en/",
+          "kind": "operator",
+          "title": "Platzl Hotel München",
+          "evidence": [
+            "Sparkassenstraße 10",
+            "4-star superior",
+            "just a few minutes’ walk from Marienplatz",
+            "Breakfast is not automatically included",
+            "public underground car park directly beneath the hotel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At Sparkassenstraße 10",
+          "a four-star superior hotel",
+          "breakfast is not automatically included; the hotel offers it as an optional extra"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.louis",
+      "topic": "hotel",
+      "claim": "Operating Louis Hotel, Viktualienmarkt 6, directly at the market; 72 stylishly designed rooms from Courtyard Single to LOUIS Suite; LOUIS Rooftop and Grillroom; breakfast not automatically included; short-term loading parking at Rindermarkt 2.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.louis-hotel.com/en/",
+          "kind": "operator",
+          "title": "LOUIS Hotel Munich",
+          "evidence": [
+            "72 stylishly designed rooms",
+            "directly at the world-famous Viktualienmarkt",
+            "Breakfast is not automatically included in the room price",
+            "Short-term parking spaces are available for loading and unloading at Rindermarkt 2"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At Viktualienmarkt 6",
+          "72 stylishly designed rooms",
+          "breakfast is not automatically included in the room price",
+          "short-term parking for loading is at Rindermarkt 2"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.charles",
+      "topic": "hotel",
+      "claim": "Operating The Charles Hotel (Rocco Forte), Sophienstrasse 28, 5-star, describes itself as close to the historic Königsplatz; its site lists the Florio restaurant, Circle Bar and spa and wellness.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.roccofortehotels.com/hotels-and-resorts/the-charles-hotel/",
+          "kind": "operator",
+          "title": "The Charles Hotel: 5-Star Luxury Hotel in Munich",
+          "evidence": [
+            "Close to the historic Königsplatz",
+            "Sophienstrasse 28",
+            "Restaurant & Bar Florio Circle Bar Spa & Wellness"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At Sophienstrasse 28",
+          "close to the historic Königsplatz"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.antares",
+      "topic": "hotel",
+      "claim": "Operating Hotel Antares, Amalienstraße 20, in the museum (Pinakotheken, Kunstareal) and university quarter; back since early March 2026 after the rooms were renovated; standard rooms on floors 1-3, comfort rooms on floors 4-5 with extras including a coffee and tea station.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.antares-muenchen.de/",
+          "kind": "operator",
+          "title": "Hotel Antares München",
+          "evidence": [
+            "Seit Anfang März 2026 sind wir zurück",
+            "im Museums/Pinakotheken- (Kunstareal) und Universitätsviertel"
+          ]
+        },
+        {
+          "url": "https://www.antares-muenchen.de/zimmer-und-preise/",
+          "kind": "operator",
+          "title": "Hotel Antares: Zimmer & Preise",
+          "evidence": [
+            "Amalienstraße 20",
+            "Wir unterscheiden zwischen Standard- (1.-3. OG) und Komfortzimmern (4. & 5. OG)",
+            "Kaffee/Tee-Station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At Amalienstraße 20",
+          "it reopened in early March 2026 after its rooms were renovated",
+          "standard rooms on the first to third floors and comfort rooms on the fourth and fifth"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.biederstein",
+      "topic": "hotel",
+      "claim": "Operating Hotel Biederstein, Keferstraße 18, a quiet side street by the English Garden; 34 rooms; private balcony and free Wi-Fi listed; arrivals after 10 p.m. not possible; children welcome from 12.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotel-biederstein.de/",
+          "kind": "operator",
+          "title": "Hotel Biederstein am Englischen Garten",
+          "evidence": [
+            "34 comfortable rooms",
+            "18 Keferstraße",
+            "Quiet side street by the English Garden",
+            "Arrivals after 10:00 p.m. are unfortunately not possible",
+            "Welcome from 12 years of age and older"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At Keferstraße 18, a quiet side street by the English Garden",
+          "34 comfortable rooms",
+          "arrivals after 10 p.m. are not possible, and children are welcome from 12 years of age"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.olympic",
+      "topic": "hotel",
+      "claim": "Operating Hotel Olympic, Hans-Sachs-Straße 4, family-run, on a street the hotel says is a conservation area; reception staffed 7 a.m. to midnight.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotel-olympic.de/en/",
+          "kind": "operator",
+          "title": "Hotel Olympic Munich",
+          "evidence": [
+            "Hans-Sachs-Straße 4",
+            "We are a family-run hotel",
+            "declared a conservation area",
+            "Our reception staff are at your service 7 a.m. to midnight"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At Hans-Sachs-Straße 4, a family-run hotel",
+          "reception is staffed from 7 a.m. to midnight"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.deutsche-eiche",
+      "topic": "hotel",
+      "claim": "Operating Hotel Deutsche Eiche, Reichenbachstraße 13, 200 m from the Viktualienmarkt by its own account, listed neoclassical façade of 1864, 36 rooms; the roof terrace was shown as closed on 4 November 2026.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.deutsche-eiche.de/",
+          "kind": "operator",
+          "title": "Deutsche Eiche München",
+          "evidence": [
+            "200 Meter vom Viktualienmarkt entfernt",
+            "36 modernen Zimmer",
+            "denkmalgeschützten neoklassizistischen Fassade aus dem Jahre 1864",
+            "Dachterrasse: geschlossen",
+            "Reichenbachstrasse 13"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At Reichenbachstraße 13, 200 metres from the Viktualienmarkt",
+          "with 36 rooms and a restaurant",
+          "the hotel's page said the roof terrace was closed"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.royal-bavarian",
+      "topic": "hotel",
+      "claim": "Operating 25hours Hotel The Royal Bavarian, Bahnhofplatz 1, in a former post office and royal telegraph station; NENI restaurant and Boilerman Bar; lists small rooms with a single bed.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://25hours-hotels.com/munich/the-royal-bavarian/",
+          "kind": "operator",
+          "title": "25hours Hotel Munich The Royal Bavarian",
+          "evidence": [
+            "Bahnhofplatz 1",
+            "once a post office and royal telegraph station",
+            "Small rooms with a cosy single bed",
+            "Directly opposite Munich Central Station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At Bahnhofplatz 1, in a building that was once a post office and royal telegraph station",
+          "the hotel lists small rooms with a single bed"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.motel-one-hbf",
+      "topic": "hotel",
+      "claim": "Operating Motel One München-Hauptbahnhof, Schillerstraße 3-3a; Cosy One 14 m², The One 16-18 m², Special One 18-20 m².",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.motel-one.com/en/hotels/munich/hotel-munich-hauptbahnhof/",
+          "kind": "operator",
+          "title": "Hotel Munich-Hauptbahnhof, Motel One",
+          "evidence": [
+            "Schillerstraße 3-3a",
+            "Cosy One",
+            "Room size 14 m²",
+            "Room size 16 m² - 18 m²"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At Schillerstraße 3-3a",
+          "from the Cosy One at 14 m² to The One at 16 to 18 m²"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.opera",
+      "topic": "hotel",
+      "claim": "Operating Hotel Opéra, St.-Anna-Str. 10, an owner-run boutique hotel in a Mediterranean-style Renaissance palais near the English Garden, Isar and State Opera; underground garage EUR 25 a night.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://hotel-opera.de/",
+          "kind": "operator",
+          "title": "Hotel Opéra München",
+          "evidence": [
+            "St.-Anna-Str. 10",
+            "Das mediterrane Renaissance Palais in München",
+            "inhabergeführte Boutiquehotel",
+            "Der Englische Garten, die Isar und die Bayerische Staatsoper sind nur wenige Schritte entfernt",
+            "Tiefgaragenstellplatz 25 € / pro Nacht"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At St.-Anna-Str. 10",
+          "an owner-run boutique hotel in a Mediterranean-style Renaissance palais",
+          "underground garage costs €25 a night"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.vier-jahreszeiten",
+      "topic": "hotel",
+      "claim": "Operating Hotel Vier Jahreszeiten Kempinski Munich, a five-star hotel on Maximilianstraße that King Maximilian II built in 1858, by the hotel's account.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten",
+          "kind": "operator",
+          "title": "Hotel Vier Jahreszeiten Kempinski Munich",
+          "evidence": [
+            "In 1858, King Maximilian II built Hotel Vier Jahreszeiten",
+            "Welcome to our centrally located five-star luxury hotel",
+            "stay directly at Munich's most exclusive street: Maximilianstraße"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "A five-star hotel on Maximilianstraße",
+          "King Maximilian II built in 1858"
+        ]
+      }
+    },
+    {
+      "id": "de.munich.hotel.muenchen-palace",
+      "topic": "hotel",
+      "claim": "Operating Hotel München Palace, Trogerstraße 21, 5-star, describes itself as in the heart of the Bogenhausen quarter; restaurant La Grenouille, wellness area with sauna and steam room, roof terrace; lists the Central Station as 15 minutes away.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotel-muenchen-palace.de/gb",
+          "kind": "operator",
+          "title": "Hotel München Palace",
+          "evidence": [
+            "5- Star hotels Munich",
+            "Trogerstraße 21, 81675 München, Germany",
+            "Central Station: 15 min",
+            "wellness area with sauna, steam room and modern fitness equipment",
+            "La Grenouille"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-munich.html": [
+          "At Trogerstraße 21, a five-star hotel in the Bogenhausen quarter",
+          "a wellness area with a sauna and steam room",
+          "the hotel lists the Central Station as 15 minutes away"
         ]
       }
     }

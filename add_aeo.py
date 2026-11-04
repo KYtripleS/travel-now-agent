@@ -446,6 +446,18 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-mykonos": dict(
+        text="For a first trip, stay in Mykonos Town: Little Venice, the windmills and the Old Port are on foot, with the beaches a bus ride away. Choose Ornos or Platis Gialos for a beach and Agios Stefanos for a quieter bay. Greece's room fee is €2 to €15 a night, April to October.",
+        link_text="Mykonos Town",
+        cta=_stay_cta("where-to-stay-in-mykonos", "See hotels around Mykonos Town")),
+    "where-to-stay-in-naples": dict(
+        text="For a first trip, stay in Centro Storico: the old streets, churches and pizzerias are at the door, with Via Toledo a walk away. Choose Hotel Piazza Bellini for value, Decumani Hotel de Charme for a palace, Grand Hotel Vesuvio for the seafront. The tax is €4 to €6 a person a night.",
+        link_text="Centro Storico",
+        cta=_stay_cta("where-to-stay-in-naples", "See hotels around Centro Storico")),
+    "where-to-stay-in-munich": dict(
+        text="For a first trip, stay in the Altstadt: Marienplatz and the Viktualienmarkt are on foot. Choose Platzl Hotel for comfort, Louis Hotel to splurge by the market, or Hotel Olympic for good value in the Glockenbachviertel. We found no city tax in force in Munich; VAT is 7%.",
+        link_text="Altstadt",
+        cta=_stay_cta("where-to-stay-in-munich", "See hotels in the Altstadt")),
     "where-to-stay-in-pamplona-san-fermin": dict(
         text="For a first San Fermín, stay in the Casco Antiguo: Pamplona Catedral Hotel is beside the walls and soundproofed, and Hotel Yoldi is the plain, central choice. Choose Gran Hotel La Perla to be on the square. Hotel stays carry 10% VAT; we found no tourist tax.",
         link_text="Casco Antiguo",
@@ -1786,6 +1798,9 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-mykonos": ["Belvedere Mykonos", "Rochari Hotel", "Villa Konstantin"],
+    "where-to-stay-in-naples": ["Hotel Piazza Bellini & Apartments", "Decumani Hotel de Charme", "Grand Hotel Vesuvio"],
+    "where-to-stay-in-munich": ["Platzl Hotel", "Louis Hotel", "Hotel Olympic"],
     "where-to-stay-in-pamplona-san-fermin": ["Pamplona Catedral Hotel", "Hotel Yoldi", "Gran Hotel La Perla"],
     "where-to-stay-for-the-masters": ["The Partridge Inn Augusta, Curio Collection by Hilton", "Courtyard by Marriott Augusta", "Hampton Inn & Suites by Hilton Augusta-Washington Rd"],
     "where-to-stay-on-the-amalfi-coast": ["Hotel Lidomare", "Hotel Luna Convento", "Caruso, A Belmond Hotel"],
@@ -2584,6 +2599,9 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Mykonos", "where-to-stay-in-mykonos", None, None),
+        ("Naples", "where-to-stay-in-naples", None, None),
+        ("Munich", "where-to-stay-in-munich", None, None),
         ("Pamplona", "where-to-stay-in-pamplona-san-fermin", None, None),
         ("Augusta", "where-to-stay-for-the-masters", None, None),
         ("Amalfi Coast", "where-to-stay-on-the-amalfi-coast", None, None),
@@ -2783,6 +2801,12 @@ STAY_POINTERS = {
     "where-to-stay-in-seville": ("intro",
         'Coming for Holy Week or the Feria? <a href="where-to-stay-in-seville-holy-week-april-fair.html">Where to stay '
         'in Seville for Holy Week and the April Fair 2027</a> matches the areas to the processions and the fairground.'),
+    "where-to-stay-on-the-amalfi-coast": ("intro",
+        'Flying into Naples? <a href="where-to-stay-in-naples.html">Where to stay in Naples</a> compares the historic '
+        'centre, Chiaia and Vomero for a night or two before the coast, with the city’s 2026 tourist tax.'),
+    "where-to-stay-in-munich-oktoberfest": ("intro",
+        'Coming another time of year? <a href="where-to-stay-in-munich.html">Where to stay in Munich</a> compares the '
+        'Altstadt, Maxvorstadt, Schwabing and Haidhausen for an ordinary visit.'),
     "where-to-stay-in-madrid": ("intro",
         'Going north in July? <a href="where-to-stay-in-pamplona-san-fermin.html">Where to stay in Pamplona for San '
         'Fermín 2027</a> (6 to 14 July) weighs the Old Town on the run route against quieter streets and San Sebastián.'),
@@ -3115,7 +3139,11 @@ STAY_POINTERS = {
         'Downtown, Yorkville and Queen West, with the UP Express from Pearson and the city’s 6% accommodation tax.'),
     "where-to-stay-in-athens": ("intro",
         'Going on to the islands? <a href="where-to-stay-in-santorini.html">Where to stay in Santorini</a> compares '
-        'Fira, the caldera villages, Oia and the beach towns, with the same climate fee by season.'),
+        'Fira, the caldera villages, Oia and the beach towns, with the same climate fee by season, and '
+        '<a href="where-to-stay-in-mykonos.html">Where to stay in Mykonos</a> sorts the town from the beach bays.'),
+    "where-to-stay-in-santorini": ("intro",
+        'Hopping on to Mykonos? <a href="where-to-stay-in-mykonos.html">Where to stay in Mykonos</a> compares Chora, '
+        'Ornos and the south-coast beaches, with the winter runway closures at its airport.'),
     "where-to-stay-in-honolulu": ("intro",
         'Adding another island? <a href="where-to-stay-in-maui.html">Where to stay in Maui</a> compares Kaanapali, '
         'Wailea, Kihei and Paia, with the same Hawaii taxes and a note on Lahaina’s recovery.'),

@@ -575,6 +575,11 @@
           "are set in article 44 of Law 5177/2025",
           "charged per room per night, and the amount depends on the hotel's stars and on the month",
           "four nights in July at a three-star hotel cost 4 × €5 = €20"
+        ],
+        "articles/where-to-stay-in-mykonos.html": [
+          "are set in article 44 of Law 5177/2025",
+          "the fee is charged per room per night, and the amount depends on the hotel's stars and on the month",
+          "four nights in July at a five-star hotel cost 4 × €15 = €60"
         ]
       }
     },
@@ -598,6 +603,10 @@
       "used_in": {
         "articles/where-to-stay-in-santorini.html": [
           "€20 from 1 June to 30 September, €12 in October and from 1 April to 31 May, and €4 from 1 November to 31 March"
+        ],
+        "articles/where-to-stay-in-mykonos.html": [
+          "a cruise passenger who disembarks at Santorini or Mykonos pays €20 from 1 June to 30 September",
+          "€4 from 1 November to 31 March"
         ]
       }
     },
@@ -980,6 +989,453 @@
       "used_in": {
         "articles/where-to-stay-in-santorini.html": [
           "reached by a five-minute walk from the village's central square through the alleys"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.tourlos-port",
+      "topic": "transport",
+      "claim": "The Growth Fund says Mykonos's new port is at Tourlos on the north-west coast, 2 km from the traditional harbour in front of Chora, and can take ferry, cruise and marina uses.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://growthfund.gr/en/project/port-of-mykonos",
+          "kind": "official",
+          "title": "Growth Fund: Port of Mykonos",
+          "evidence": [
+            "The new port of Mykonos is located on the northwest coast of the island at the site of Tourlos",
+            "at a distance of 2km from the existing traditional harbor in front of Chora",
+            "can accommodate uses of ferry, cruise and marina"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "2 km from the traditional harbour in front of Mykonos Town",
+          "it takes ferries, cruise ships and marina boats"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.old-port-fund",
+      "topic": "transport",
+      "claim": "The Municipal Port Fund of Mykonos's Old Port page sets out the berthing procedure for boats over 25 m at the Old Port.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://mykonosports.gr/en/facilities/old-port/",
+          "kind": "official",
+          "title": "Municipal Port Fund of Mykonos: Old Port",
+          "evidence": [
+            "ATTENTION the following procedure concerns boats over 25m and ONLY for the OLD PORT"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "the Municipal Port Fund's page for it deals with berthing for boats over 25 m"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.ornos-port-distance",
+      "topic": "transport",
+      "claim": "The Municipal Port Fund's Ornos page puts the port of Ornos 3.5 km from Mykonos Town.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://mykonosports.gr/en/facilities/ornos/",
+          "kind": "official",
+          "title": "Municipal Port Fund of Mykonos: Ornos",
+          "evidence": [
+            "The port of Ornos is located in the southern part of 3.5 km just away from Mykonos Town."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "puts it 3.5 km from Mykonos Town",
+          "Ornos is 3.5 km from the town by the port fund's figure for its port"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.ktel-departures",
+      "topic": "transport",
+      "claim": "KTEL Mykonos says buses leave Fabrika for Platis Yalos, Psarou, Ornos, Ai Yannis, Paradise and Paranga.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://mykonosbus.com/about-mykonos-bus/",
+          "kind": "operator",
+          "title": "KTEL Mykonos: about",
+          "evidence": [
+            "Departure Point 1: Fabrica",
+            "Destinations : Platis Yalos, Psarou, Ornos, Ai Yannis, Paradise, Paranga"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "KTEL Mykonos says its buses leave from Fabrika, in the town, for Platis Gialos, Psarou, Ornos, Agios Ioannis, Paradise and Paraga"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.ktel-timetable",
+      "topic": "transport",
+      "claim": "KTEL Mykonos's timetable page lists Fabrika routes to the airport, Ornos, Platis Gialos, Paradise and Super Paradise and Old Port routes to Agios Stefanos, Kalafatis, Ano Mera and the New Port; most say valid from 1/11/2026 and it prints no fares.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://mykonosbus.com/bus-timetables/",
+          "kind": "operator",
+          "title": "KTEL Mykonos: bus timetables",
+          "evidence": [
+            "FABRIKA - AIRPORT",
+            "AIRPORT - NEW PORT",
+            "OLD PORT - AGIOS STEFANOS",
+            "OLD PORT - KALAFATIS",
+            "OLD PORT – NEW PORT",
+            "FABRIKA - SUPER PARADISE",
+            "The bus schedule is valid from 1/11/2026",
+            "The itineraries to and from Ano Mera, Kalafati & Elia will be carried out from the New Peripheral."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "Old Port departures to Agios Stefanos, Kalafatis and Ano Mera",
+          "a Fabrika to Airport route, an Airport to New Port route",
+          "Most timetables say they are valid from 1 November 2026",
+          "services to and from Ano Mera, Kalafati and Elia run from what it calls the New Peripheral",
+          "a Fabrika to Super Paradise route, the second run by Idea Tours"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.airport-runway",
+      "topic": "transport",
+      "claim": "Mykonos Airport's own site says its runway will be reconstructed for 24 hours every Thursday from November 19, 2026 to March 18, 2027, suspending all flights on those days. Fraport Greece's notice exempts 23, 24 and 31 December 2026 and 6 and 7 January 2027.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.jmk-airport.gr/en",
+          "kind": "operator",
+          "title": "Mykonos Airport (JMK): Fraport Greece",
+          "evidence": [
+            "the airport runway will be reconstructed",
+            "Period: November 19, 2026 – March 18, 2027",
+            "will be temporarily suspended"
+          ]
+        },
+        {
+          "url": "https://www.fraport-greece.com/en/media-center/news1/2026/runway-construction-works-at-the-airports-of-corfu--cfu---mitile.html",
+          "kind": "operator",
+          "title": "Fraport Greece: Runway construction works at the airports of Corfu, Mitilene and Mykonos"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "the runway will be reconstructed for 24 hours every Thursday from November 19, 2026 to March 18, 2027",
+          "all commercial and private flights to and from the airport will be suspended",
+          "Fraport Greece's notice makes exceptions for 23, 24 and 31 December 2026"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "gr.mykonos.hotel.belvedere",
+      "topic": "hotel",
+      "claim": "Belvedere has 31 luxury rooms, 9 suites and 1 Mansion on the edge of Mykonos Town, near Rohari Hill, with the Matsuhisa restaurant and Cocco bistro in Little Venice.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://belvederehotel.com/",
+          "kind": "operator",
+          "title": "Belvedere Mykonos: official site",
+          "evidence": [
+            "31 luxury rooms, 9 suites and 1 Mansion",
+            "The Belvedere Hotel is located on the edge of Mykonos Town, near Rohari Hill, opposite the School of Fine Arts.",
+            "nestled in the heart of Little Venice."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "31 luxury rooms, 9 suites and 1 Mansion",
+          "On the edge of Mykonos Town, near Rohari Hill, opposite the School of Fine Arts",
+          "Cocco, an Italian bistro in the heart of Little Venice"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.rochari",
+      "topic": "hotel",
+      "claim": "Rochari Hotel is a family hotel run since 1976, near the town centre, old port and bus stop, with a pool.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://rochari.com/",
+          "kind": "operator",
+          "title": "Rochari Hotel: official site",
+          "evidence": [
+            "Since 1976, our family has been honored to share this special place with you.",
+            "Perfectly located near the town center, old port, and bus stop.",
+            "Rochari is a contemporary hotel high up on the hill from the old port in Mykonos."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "A family-run hotel since 1976",
+          "perfectly located near the town center, old port, and bus stop",
+          "high up on the hill from the old port"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.konstantin",
+      "topic": "hotel",
+      "claim": "Villa Konstantin is a local-family hotel on the hillside, 700 meters from the town centre by its own figure, with a pool.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://villakonstantin-mykonos.gr/",
+          "kind": "operator",
+          "title": "Villa Konstantin: official site",
+          "evidence": [
+            "proudly owned and operated by a local family",
+            "Situated a mere 700 meters from the town center",
+            "Walkable to Mykonos town but steep on the way back."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "700 meters from the town center by its own figure",
+          "about a 15-minute walk",
+          "a guest review on its page calls the walk back steep"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.santamarina",
+      "topic": "hotel",
+      "claim": "Santa Marina, a Luxury Collection Resort, is on Ornos Bay with a beach, an Oasis Pool, the Ginkgo Spa and Buddha-Bar Beach Mykonos.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.santa-marina.gr/",
+          "kind": "operator",
+          "title": "Santa Marina: official site",
+          "evidence": [
+            "Santa Marina - A Luxury Collection Resort in Mykonos",
+            "Ornos Bay, Mykonos, 84600, Greece",
+            "BUDDHA-BAR BEACH MYKONOS",
+            "GINKGO SPA"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "On Ornos Bay, with its own beach, an Oasis Pool, the Ginkgo Spa and a Buddha-Bar Beach Mykonos restaurant"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.ammos",
+      "topic": "hotel",
+      "claim": "Mykonos Ammos Hotel is a 5-star beachfront boutique hotel on Ornos beach and a Small Luxury Hotels of the World member, with a spa.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mykonosammoshotel.com/",
+          "kind": "operator",
+          "title": "Mykonos Ammos Hotel: official site",
+          "evidence": [
+            "Mykonos Ammos Hotel is a 5-star beachfront luxury boutique hotel",
+            "Small Luxury Hotels of the World",
+            "Lay on the sandy heavenly beach of Ornos",
+            "zesty beach bars and sunbeds beach area"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "A 5-star beachfront boutique hotel and a member of Small Luxury Hotels of the World",
+          "on the sandy beach of Ornos, with a spa",
+          "the beach has beach bars and sunbeds"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.petasos",
+      "topic": "hotel",
+      "claim": "Petasos sits on a private peninsula between Platis Gialos and Psarou, with a 500 sqm wellness centre, and describes itself as a 5 Star Hotel.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.petasos.gr/",
+          "kind": "operator",
+          "title": "Petasos Beach Resort & Spa: official site",
+          "evidence": [
+            "Perched on a private peninsula between Platis Gialos and Psarou",
+            "Relax in a 500 sqm wellness center featuring thalassotherapy, hammam, and sauna.",
+            "expected from a 5 Star Hotel in Mykonos"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "Perched on a private peninsula between Platis Gialos and Psarou",
+          "a 500 sqm wellness center",
+          "describes itself as a 5 Star Hotel"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.petinos",
+      "topic": "hotel",
+      "claim": "Petinos Beach Hotel is on the beach of Platis Gialos with a pool, fitness room, two restaurants, a bar, hammam and sauna.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.petinosbeach.gr/",
+          "kind": "operator",
+          "title": "Petinos Beach Hotel: official site",
+          "evidence": [
+            "Nestled on the idyllic beach of Platis Gialos",
+            "two charming restaurants",
+            "sumptuous hammam and sauna facilities"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "On the beach of Platis Gialos",
+          "two restaurants, a bar, and a hammam and sauna"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.princess",
+      "topic": "hotel",
+      "claim": "Mykonos Princess Hotel is a 5 star boutique hotel on a small hillside, five minutes' walk from Agios Stefanos beach, with eight room categories.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://mykonosprincess.com/",
+          "kind": "operator",
+          "title": "Mykonos Princess Hotel: official site",
+          "evidence": [
+            "Mykonos Princess Hotel – 5 star Boutique Hotel in Agios Stefanos, Mykonos",
+            "five minutes’ walk from the beach of Agios Stefanos",
+            "It offers eight room categories"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "A 5 star boutique hotel nestled atop a small hillside",
+          "five minutes’ walk from the beach of Agios Stefanos",
+          "with eight room categories"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.grace",
+      "topic": "hotel",
+      "claim": "Grace Mykonos is over Agios Stefanos beach, with private terrace and pool suites, a spa and the ANAMA restaurant.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.gracemykonos.com/",
+          "kind": "operator",
+          "title": "Grace Mykonos: official site",
+          "evidence": [
+            "Grace Mykonos is located over Agios Stefanos beach",
+            "unwind on your private terrace and pool",
+            "At ANAMA, Grace Mykonos' sophisticated restaurant"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "Located over Agios Stefanos beach",
+          "the Grace Mykonos Spa and the ANAMA restaurant"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.numo",
+      "topic": "hotel",
+      "claim": "Numo Mykonos is a barefoot luxury resort at Kalafatis with the Anemoessa restaurant, the Màre Màre pool bar and the Etherea Boutique Spa.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://numomykonos.com/",
+          "kind": "operator",
+          "title": "Numo Mykonos: official site",
+          "evidence": [
+            "our new barefoot luxury resort",
+            "Kalafatis Mykonos 84600",
+            "MÀRE MÀRE Pool Bar"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "A barefoot luxury resort at Kalafatis",
+          "the Màre Màre pool bar"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.theros",
+      "topic": "hotel",
+      "claim": "Myconian Theros offers three poolfront suites in Ano Mera sleeping up to nine guests in total, with homemade Greek breakfast daily and private parking.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.myconiantheros.com/en/",
+          "kind": "operator",
+          "title": "Myconian Theros: official site",
+          "evidence": [
+            "Our three poolfront luxury suites sleep up to nine guests in total",
+            "set in calm Ano Mera",
+            "Private parking on site"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "Three poolfront suites in Ano Mera that sleep up to nine guests in total",
+          "private parking on site"
+        ]
+      }
+    },
+    {
+      "id": "gr.mykonos.hotel.paradiseview",
+      "topic": "hotel",
+      "claim": "Paradise View is a boutique hilltop stay above Paradise Beach, a short walk from it, with Tropicana and Cavo Paradiso close by.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.paradiseview.gr/",
+          "kind": "operator",
+          "title": "Paradise View: official site",
+          "evidence": [
+            "Boutique Hilltop Stay above Paradise Beach",
+            "Paradise Beach is only a short walk away, with Tropicana and Cavo Paradiso close by"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-mykonos.html": [
+          "A boutique hilltop stay above Paradise Beach",
+          "Paradise Beach only a short walk away",
+          "its page lists Tropicana and Cavo Paradiso close by"
         ]
       }
     }

@@ -3131,6 +3131,9 @@
       "used_in": {
         "articles/where-to-stay-on-the-amalfi-coast.html": [
           "The COSTIERASITA ticket, €10, is valid for 24 hours from first validation"
+        ],
+        "articles/where-to-stay-in-naples.html": [
+          "the SITA SUD COSTIERASITA ticket, €10, is valid for 24 hours"
         ]
       }
     },
@@ -3174,6 +3177,9 @@
       "used_in": {
         "articles/where-to-stay-on-the-amalfi-coast.html": [
           "Curreri Viaggi's airport shuttle runs between the airport and Sorrento station for €13"
+        ],
+        "articles/where-to-stay-in-naples.html": [
+          "runs between Naples airport and Sorrento station for €13"
         ]
       }
     },
@@ -3194,6 +3200,9 @@
       ],
       "used_in": {
         "articles/where-to-stay-on-the-amalfi-coast.html": [
+          "the Campania Express lists a Naples to Sorrento service"
+        ],
+        "articles/where-to-stay-in-naples.html": [
           "the Campania Express lists a Naples to Sorrento service"
         ]
       }
@@ -3463,6 +3472,548 @@
       "used_in": {
         "articles/where-to-stay-on-the-amalfi-coast.html": [
           "50 metres from the bus and train stations"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.tourist-tax-2026",
+      "topic": "tax",
+      "claim": "Naples charges a tourist tax per person per night by category, by Giunta resolution 89 of 12 March 2026: from 1 January 2026 EUR 5.00 in 4- and 5-star hotels, 4.50 in 3-star, 3.50 in 2-star, 3.00 in 1-star, 4.50 other lodging, 5.00 short lets; from 1 May 2026 EUR 6.00, 6.00, 5.50, 4.50, 4.00, 5.50 and 6.00. No 2027 schedule found.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.comune.napoli.it/articolo_tematico/tributi-locali/imposta-di-soggiorno/",
+          "kind": "official",
+          "title": "Comune di Napoli: Imposta di Soggiorno",
+          "evidence": [
+            "Con Deliberazione n. 89 del 12/03/2026, la Giunta Comunale ha approvato le nuove tariffe dell’imposta.",
+            "Albergo 4 stelle € 5,00 € 6,00",
+            "Albergo 3 stelle € 4,50 € 5,50"
+          ]
+        },
+        {
+          "url": "https://www.comune.napoli.it/novita/napoli-aggiornate-le-tariffe-dellimposta-di-soggiorno-per-il-2026/",
+          "kind": "official",
+          "title": "Comune di Napoli: aggiornate le tariffe dell'imposta di soggiorno per il 2026",
+          "evidence": [
+            "Alberghi 4 stelle - € 6,00",
+            "Alberghi 3 stelle - € 5,50",
+            "Alberghi 1 stella - € 4,00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "resolution 89 of 12 March 2026",
+          "€6 per person per night in a four- or five-star hotel",
+          "From 1 May 2026"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.tourist-tax-rules",
+      "topic": "tax",
+      "claim": "The tax is paid per person and per night up to a maximum of 14 consecutive days, by non-resident guests older than 14.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.comune.napoli.it/articolo_tematico/tributi-locali/imposta-di-soggiorno/imposta-di-soggiorno-2026/",
+          "kind": "official",
+          "title": "Comune di Napoli: Imposta di Soggiorno 2026",
+          "evidence": [
+            "fino ad un massimo di 14 giorni consecutivi",
+            "dai soggetti di età maggiore di 14 anni, non residenti"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "up to a maximum of 14 consecutive nights",
+          "guests older than 14 who are not residents"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.tourist-tax-2026-rise",
+      "topic": "tax",
+      "claim": "The comune describes the 2026 update as a EUR 1 rise over the base values, made possible by the 2026 budget law (L. 199/2025).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.comune.napoli.it/novita/napoli-aggiornate-le-tariffe-dellimposta-di-soggiorno-per-il-2026/",
+          "kind": "official",
+          "title": "Comune di Napoli: aggiornate le tariffe dell'imposta di soggiorno per il 2026",
+          "evidence": [
+            "è reso possibile dalla Legge di Bilancio 2026",
+            "incremento di € 1,00 rispetto ai valori base"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "a €1 rise allowed by the 2026 budget law"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.alibus-fare",
+      "topic": "fare",
+      "claim": "An Alibus single ride (airport to Piazza Garibaldi and the port) costs EUR 5.00, sold on board by the driver, at the arrivals exit machines and in several apps.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www2.anm.it/index.php?option=com_content&task=view&id=1314&Itemid=373",
+          "kind": "operator",
+          "title": "ANM: Alibus (Aeroporto)",
+          "evidence": [
+            "biglietto ALIBUS corsa singola : costo €5,00 (valido per una sola corsa)",
+            "a bordo dal conducente anm / on board by the bus driver",
+            "emettitrici automatiche all'uscita del terminal 'arrivi'"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "A single ride costs €5.00",
+          "sold on board, at the machines at the arrivals exit"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.alibus-route",
+      "topic": "transport",
+      "claim": "ANM lists Alibus stops at Piazza Garibaldi (Stazione Centrale), Immacolatella/Porta di Massa and Molo Angioino/Beverello, with 15 minutes from the airport to Stazione Centrale and 35 minutes to the port.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www2.anm.it/index.php?option=com_content&task=view&id=1314&Itemid=373",
+          "kind": "operator",
+          "title": "ANM: Alibus (Aeroporto)",
+          "evidence": [
+            "Da Aeroporto a Stazione Centrale:15 minuti",
+            "Da Aeroporto al Porto:35 minuti",
+            "Molo Angioino/Beverello (capolinea Stazione Marittima)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "about 15 minutes from the airport to the station and about 35 minutes to the port",
+          "Molo Beverello"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.alibus-hours",
+      "topic": "transport",
+      "claim": "From the airport the first Alibus departs at 5.30 and the last at 00.00, with a maximum interval of 15 minutes.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www2.anm.it/index.php?option=com_content&task=view&id=1314&Itemid=373",
+          "kind": "operator",
+          "title": "ANM: Alibus (Aeroporto)",
+          "evidence": [
+            "Prima partenza ore 5.30",
+            "Ultima partenza ore 00.00",
+            "Frequenza Max / frequency 15'"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "a first departure from the airport at 5.30 and a last at 00.00",
+          "at intervals of up to 15 minutes"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.anm-network",
+      "topic": "transport",
+      "claim": "ANM runs Metro Lines 1 and 6 and the funiculars of Chiaia, Montesanto, Centrale and Mergellina; Line 2 is run by Trenitalia; the EAV group runs the Cumana, Circumflegrea and Circumvesuviana.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www2.anm.it/index.php?option=com_content&task=view&id=30&Itemid=42",
+          "kind": "operator",
+          "title": "ANM: Linee metropolitane",
+          "evidence": [
+            "metro Linea 1 - metro Linea 6",
+            "Funicolari di Chiaia, Montesanto, Centrale e Mergellina",
+            "Linea 2 metro gestita da Trenitalia",
+            "del gruppo EAV: Cumana, Circumflegrea, Circumvesuviana"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "the funiculars of Chiaia, Montesanto, Centrale and Mergellina; Line 2 is run by Trenitalia",
+          "the Circumvesuviana, the regional line run by EAV"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.nlg-capri-fare",
+      "topic": "fare",
+      "claim": "NLG's Molo Beverello to Capri hydrofoil lists an adult fare of EUR 25 one way (EUR 23 on routes marked IR); Capri adds a landing contribution of EUR 2.50 from 1 November to 30 March and EUR 5.00 from 1 April to 31 October.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.nlg.it/en/routes/napolimolo-beverello-capri/",
+          "kind": "operator",
+          "title": "NLG: Napoli Beverello - Capri",
+          "evidence": [
+            "Adults on routes I.R. € 23,00 € 46,00",
+            "Adults € 25,00 € 50,00",
+            "from 01/11 to 30/03 € 2.50 and from 01/04 to 31/10 € 5.00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "an adult fare of €25 one way",
+          "€2.50 from 1 November to 30 March and €5 from 1 April to 31 October"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.alilauro-ischia-fare",
+      "topic": "fare",
+      "claim": "Alilauro's Molo Beverello to Ischia page lists adult fares of EUR 22.00 and EUR 22.80.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.alilauro.it/en/tratte/napolibeverelloischia-ischia-napolibeverello/",
+          "kind": "operator",
+          "title": "Alilauro: Napoli (Beverello) - Ischia",
+          "evidence": [
+            "Adulto 22,00€ 22,80€",
+            "Napoli (Beverello) > Ischia"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "adult fares of €22.00 and €22.80"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.caremar-fares",
+      "topic": "fare",
+      "claim": "Caremar lists the Naples-Capri and Naples-Ischia ferry at EUR 14.80 and the Naples-Ischia hydrofoil at EUR 21.60; it has ticket offices at Molo Beverello and Porta di Massa.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://shop.caremar.it/it/tariffe/",
+          "kind": "operator",
+          "title": "Caremar: Tariffe",
+          "evidence": [
+            "Napoli-Capri (TRAGHETTO) € 14,80",
+            "Napoli-Ischia (TRAGHETTO) € 14,80",
+            "Napoli-Ischia € 21,60"
+          ]
+        },
+        {
+          "url": "https://shop.caremar.it/it/destinazioni/napoli/",
+          "kind": "operator",
+          "title": "Caremar: Destinazioni dai porti di Napoli",
+          "evidence": [
+            "Porta di Massa",
+            "Molo Beverello"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "sells tickets at both Molo Beverello and Porta di Massa",
+          "at €14.80 and its Naples to Ischia hydrofoil at €21.60"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.america-cup-2027",
+      "topic": "history",
+      "claim": "The America's Cup Match in Naples is scheduled to start on 10 July 2027 and conclude over the weekend of 17-18 July 2027.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://lunarossachallenge.americascup.com/en/news/1388_AMERICAS-CUP-PARTNERSHIP-AND-38TH-EDITION-TEAMS-PRESENTED-IN-NAPLES",
+          "kind": "official",
+          "title": "Luna Rossa Challenge: America's Cup partnership and teams presented in Naples",
+          "evidence": [
+            "it will start with two opening races on Saturday, July 10, 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "scheduled to start on 10 July 2027",
+          "17 and 18 July"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-palazzo-caracciolo",
+      "topic": "hotel",
+      "claim": "Palazzo Caracciolo's site lists 145 rooms, on Via Carbonara, and describes itself as a meeting hotel.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.palazzocaracciolo.com/en/index.php",
+          "kind": "official",
+          "title": "Palazzo Caracciolo: official website",
+          "evidence": [
+            "Palazzo Caracciolo offers 145 rooms",
+            "Palazzo Caracciolo is an elegant Meeting Hotel located in via Carbonara."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "with 145 rooms and thick walls",
+          "describes itself as a meeting hotel"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-terminus",
+      "topic": "hotel",
+      "claim": "Starhotels Terminus's site lists 169 rooms and suites at Piazza Garibaldi 91.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.starhotels.com/it/i-nostri-hotel/terminus-napoli/",
+          "kind": "official",
+          "title": "Starhotels Terminus: official website",
+          "evidence": [
+            "169 camere e suite",
+            "Piazza Garibaldi, 91"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "with 169 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-paradiso",
+      "topic": "hotel",
+      "claim": "BW Signature Collection Hotel Paradiso's site lists 72 rooms, on Via Catullo 11, with a top-floor restaurant.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelparadisonapoli.it/",
+          "kind": "official",
+          "title": "Hotel Paradiso Napoli: official website",
+          "evidence": [
+            "Con le sue 72 camere",
+            "posizionato all’ultimo piano dell’albergo"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "Via Catullo with 72 rooms"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-ginevra",
+      "topic": "hotel",
+      "claim": "Hotel Ginevra's page lists 18 air-conditioned rooms on Via Genova 116 and breakfast for a fee.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://ginevra.hotelinnapoli.com/",
+          "kind": "official",
+          "title": "Hotel Ginevra, Naples",
+          "evidence": [
+            "18 air-conditioned rooms",
+            "Via Genova, 116"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "with 18 air-conditioned rooms and breakfast for a fee"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-toledo",
+      "topic": "hotel",
+      "claim": "Hotel Toledo's site describes a building of 1725 with a lift, on Via Montecalvario 15.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hoteltoledo.com/en/",
+          "kind": "official",
+          "title": "Hotel Toledo: official website",
+          "evidence": [
+            "Situated in an ancient three stories building of the 1725, with elevator",
+            "Via Montecalvario,15"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "in a building of 1725 with a lift"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-san-francesco",
+      "topic": "hotel",
+      "claim": "Hotel San Francesco al Monte's site says it was created within a 16th-century monastery overlooking the Bay of Naples; Corso Vittorio Emanuele 328.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://sanfrancescoalmonte.it/en/",
+          "kind": "official",
+          "title": "Hotel San Francesco al Monte: official website",
+          "evidence": [
+            "Created within a 16th-century monastery",
+            "Corso Vittorio Emanuele, 328"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "created within a 16th-century monastery overlooking the Bay of Naples"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-decumani",
+      "topic": "hotel",
+      "claim": "Decumani Hotel de Charme's site says it is housed in Palazzo Riario Sforza, an 18th-century building, with Superior, Comfort and Economy rooms.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.decumani.com/en/",
+          "kind": "official",
+          "title": "Decumani Hotel de Charme: official website",
+          "evidence": [
+            "a gorgeous noble building of XVIII century",
+            "Superior Room Comfort Room Economy Room"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "an eighteenth-century noble building",
+          "Superior, Comfort and Economy rooms"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-chiaia",
+      "topic": "hotel",
+      "claim": "Chiaia Hotel de Charme's site places it on the first floor of an 18th-century palace at Via Chiaia 216, 20 metres from Piazza del Plebiscito.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelchiaia.it/en/",
+          "kind": "official",
+          "title": "Chiaia Hotel de Charme: official website",
+          "evidence": [
+            "just 20 meters from Piazza del Plebiscito"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "just 20 metres from Piazza del Plebiscito"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-vesuvio",
+      "topic": "hotel",
+      "claim": "Grand Hotel Vesuvio's site describes a five-star hotel on Via Partenope that faces Castel dell'Ovo.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.vesuvio.it/en",
+          "kind": "official",
+          "title": "Grand Hotel Vesuvio: official website",
+          "evidence": [
+            "it faces Castel dell’Ovo on the islet of Megaride",
+            "SKY LOUNGE BAR"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "A five-star hotel on Via Partenope that faces"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-oriente",
+      "topic": "hotel",
+      "claim": "Grand Hotel Oriente's site says it is two minutes from Toledo metro station; Via Armando Diaz 44.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.grandhoteloriente.it/",
+          "kind": "official",
+          "title": "Grand Hotel Oriente: official website",
+          "evidence": [
+            "a soli 2 minuti dalla fermata metro TOLEDO",
+            "Via Armando Diaz, 44"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "two minutes from Toledo metro station"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-santa-lucia",
+      "topic": "hotel",
+      "claim": "Grand Hotel Santa Lucia's site describes a four-star hotel on the waterfront with recently renovated rooms and suites.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.santalucia.it/en",
+          "kind": "official",
+          "title": "Grand Hotel Santa Lucia: official website",
+          "evidence": [
+            "4 stars on the waterfront",
+            "The rooms and suites, recently renovated"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "A four-star hotel on Via Partenope, with recently renovated rooms"
+        ]
+      }
+    },
+    {
+      "id": "it.naples.hotel-piazza-bellini",
+      "topic": "hotel",
+      "claim": "Hotel Piazza Bellini's site lists rooms and mini apartments of different sizes and categories.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelpiazzabellini.com/",
+          "kind": "official",
+          "title": "Hotel Piazza Bellini & Apartments: official website",
+          "evidence": [
+            "Rooms and mini apartments of different sizes and categories."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-naples.html": [
+          "rooms and mini apartments of different sizes and categories"
         ]
       }
     }
