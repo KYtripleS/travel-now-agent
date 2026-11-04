@@ -311,6 +311,9 @@
         "articles/where-to-stay-in-florence.html": [
           "for €6.50 single or €13 return",
           "every day from 06:00 to midnight (to 01:00 from June to September)"
+        ],
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "the PisaMover shuttle to Pisa Centrale costs €6.50 single"
         ]
       }
     },
@@ -4014,6 +4017,801 @@
       "used_in": {
         "articles/where-to-stay-in-naples.html": [
           "rooms and mini apartments of different sizes and categories"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.tax-monterosso",
+      "topic": "tax",
+      "claim": "Monterosso al Mare's imposta di soggiorno is €3.00 per person per night in every accommodation type, for a maximum of 3 nights, confirmed for 2026 (Giunta resolution 153 of 14 November 2025); minors up to their twelfth birthday are exempt.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.speziarisorse.it/comuni/monterosso/imposta-di-soggiorno/documenti/comune-di-monterosso-tariffe-ids-2026.pdf",
+          "kind": "official",
+          "title": "Comune di Monterosso al Mare: tariffe imposta di soggiorno 2026 (PDF)",
+          "evidence": [
+            "Albergo 4 stelle e superiori Euro 3,00",
+            "(massimo 3 notti)"
+          ]
+        },
+        {
+          "url": "https://www.comune.monterosso.sp.it/servizi/tributi_finanze_e_contravvenzioni/servizio_75.html",
+          "kind": "official",
+          "title": "Comune di Monterosso al Mare: Imposta di soggiorno",
+          "evidence": [
+            "tutti i minori fino al compimento del dodicesimo anno di età"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "confirmed for 2026",
+          "up to their twelfth birthday in Monterosso"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.tax-vernazza",
+      "topic": "tax",
+      "claim": "Vernazza's comune (which includes Corniglia) set its 2025 imposta di soggiorno at €3.00 per person per night for every accommodation type; its regulation, amended 6 November 2025, charges up to 3 consecutive nights and exempts minors up to their tenth birthday. No 2026 tariff table was found on the portal.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://vernazza.imposta-soggiorno.it/documento/prot-par-0010346-del-07-11-2024-allegato-dgc-103-7-11-24-tariffa-imposta-di-soggiorno-2025-pdf",
+          "kind": "official",
+          "title": "Comune di Vernazza: DGC 103 of 7 November 2024, tariffe imposta di soggiorno 2025 (PDF)",
+          "evidence": [
+            "TARIFFE IMPOSTA DI SOGGIORNO ANNO 2025",
+            "Alberghi 3,00"
+          ]
+        },
+        {
+          "url": "https://vernazza.imposta-soggiorno.it/documento/prot-int-0011190-del-13-11-2025-allegato-allegato-regolamento-imposta-di-soggiorno-vernazza-pdf",
+          "kind": "official",
+          "title": "Comune di Vernazza: regolamento imposta di soggiorno, valid from 2026 (PDF)",
+          "evidence": [
+            "fino ad un massimo di 3 pernottamenti consecutivi",
+            "minori fino al compimento del decimo anno di età"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "2025 tariff, the latest on the portal",
+          "up to their tenth in Vernazza"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.tax-riomaggiore",
+      "topic": "tax",
+      "claim": "Riomaggiore's comune (which includes Manarola) raised its imposta di soggiorno from €2.00 to €3.00 per person per night from 1 January 2025 (Giunta resolution 156 of 30 November 2024), for a maximum of 3 consecutive nights (resolution 89 of 6 September 2025).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://riomaggiore.imposta-soggiorno.it/documento/delibera-originale-imposta-soggiorno-2025-pdf",
+          "kind": "official",
+          "title": "Comune di Riomaggiore: DGC 156/2024, Tariffa Imposta di Soggiorno 2025 (PDF)",
+          "evidence": [
+            "Tariffa Imposta di Soggiorno 2025",
+            "aumentandola da € 2,00 ad € 3,00"
+          ]
+        },
+        {
+          "url": "https://riomaggiore.imposta-soggiorno.it/documento/delibera-89-del-2025-per-piu-di-3-giorni-pdf",
+          "kind": "official",
+          "title": "Comune di Riomaggiore: DGC 89/2025, soggiorni consecutivi superiori a 3 notti (PDF)",
+          "evidence": [
+            "per un massimo di n. 3 notti consecutive"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "in force from 1 January 2025"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.tax-levanto",
+      "topic": "tax",
+      "claim": "Levanto's published tariff (G.C. 197 of 3 November 2023, for 2024) is €1.50 per person per night in guest houses, B&Bs, apartments and hotels up to two stars, €2.00 in hotels above two stars, for up to three consecutive nights; minors under 14 are exempt. The page was last updated 15 February 2024.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://comune.levanto.sp.it/amministrazione/imposta-di-soggiorno/",
+          "kind": "official",
+          "title": "Comune di Levanto: Imposta di Soggiorno",
+          "evidence": [
+            "G.C. n. 197 del 03/11/2023",
+            "fino ad un massimo di tre notti consecutive",
+            "i minori sotto i 14 anni"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "2024 tariff, the latest on the town's page",
+          "under 14 in Levanto"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.tax-la-spezia",
+      "topic": "tax",
+      "claim": "La Spezia's 2026 tourist-tax regulation (amended by council resolution 39 of 15 December 2025) charges up to five consecutive nights and leaves the amount to the Giunta; we found no current rate table, and the operator's notice for hotels cites €2.50 per person per night under Giunta resolution 45 of 5 February 2018.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.speziarisorse.it/comuni/la-spezia/imposta-di-soggiorno/documenti/2026_Regolamento_Imposta_di_soggiorno_pubblicato.pdf",
+          "kind": "official",
+          "title": "Comune della Spezia: regolamento imposta di soggiorno 2026 (PDF)",
+          "evidence": [
+            "fino ad un massimo di cinque pernottamenti consecutivi"
+          ]
+        },
+        {
+          "url": "https://www.speziarisorse.it/comuni/la-spezia/imposta-di-soggiorno/documenti/informativa_multilingue.pdf",
+          "kind": "operator",
+          "title": "Spezia Risorse: informativa multilingue (2018 notice for guests)",
+          "evidence": [
+            "La misura dell’imposta per questa struttura ricettiva è di Euro 2,50 a persona per notte"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "up to 5 consecutive nights",
+          "€2.50 on a hotel notice"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic from the Vernazza tariff: a couple staying four nights in Vernazza pays 2 x 3 x €3 = €18, because only three consecutive nights are charged.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://vernazza.imposta-soggiorno.it/documento/prot-int-0011190-del-13-11-2025-allegato-allegato-regolamento-imposta-di-soggiorno-vernazza-pdf",
+          "kind": "official",
+          "title": "Comune di Vernazza: regolamento imposta di soggiorno, valid from 2026 (PDF)",
+          "evidence": [
+            "fino ad un massimo di 3 pernottamenti consecutivi"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "2 × 3 × €3 = €18"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.treno-card-2026",
+      "topic": "fare",
+      "claim": "The Cinque Terre Treno MS Card adult one-day price was €22.00, €29.50 or €35.00 by demand band (A, B, C) in the price list for 14 March to 1 November 2026; from 2 November to 31 December 2026 the adult prices are €17.30 (1 day), €29.00 (2 days) and €34.00 (3 days). No 2027 list was published when checked.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.parconazionale5terre.it/pagina.php?id=148",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Cinque Terre Treno Card",
+          "evidence": [
+            "Tabella A - Listino Prezzi (dal 14 marzo al 1 novembre 2026)",
+            "Tariffario in vigore dal 02 novembre fino al 31 dicembre 2026",
+            "Carta Treno MS 1 giorno Adulti: 17,30 Euro"
+          ]
+        },
+        {
+          "url": "https://www.trenitalia.com/content/trenitalia/en/connections/travel-around-5-terre.html",
+          "kind": "operator",
+          "title": "Trenitalia: Travel around 5 Terre",
+          "evidence": [
+            "Prices valid from 2 November 2026 to 31 December 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "€22.00, €29.50 or €35.00",
+          "€17.30 for a day, €29.00 for two days and €34.00 for three"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.treno-card-scope",
+      "topic": "transport",
+      "claim": "The Cinque Terre Treno MS Card allows unlimited second-class travel on regional trains between Levanto and La Spezia, plus access to the park's services including the Via dell'Amore.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.parconazionale5terre.it/pagina.php?id=148",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Cinque Terre Treno Card",
+          "evidence": [
+            "Viaggi illimitati su treni regionali in seconda classe sulla linea La Spezia - Cinque Terre - Levanto"
+          ]
+        },
+        {
+          "url": "https://www.trenitalia.com/content/trenitalia/en/connections/travel-around-5-terre.html",
+          "kind": "operator",
+          "title": "Trenitalia: Travel around 5 Terre",
+          "evidence": [
+            "unlimited travel in 2nd class on regional trains between Levanto and La Spezia"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "unlimited second-class travel on that line"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.winter-ticket-rule",
+      "topic": "transport",
+      "claim": "Trenitalia says that from 2 November 2026 to 19 March 2027 a specific ticket (a Liguria regional-fare ticket, a regional pass or the Cinque Terre Treno MS Card) is required to travel on regional trains stopping in the Cinque Terre.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.trenitalia.com/content/trenitalia/en/connections/travel-around-5-terre.html",
+          "kind": "operator",
+          "title": "Trenitalia: Travel around 5 Terre",
+          "evidence": [
+            "From 2nd November 2026 to 19th March 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "from 2 November 2026 to 19 March 2027"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.rail-works",
+      "topic": "transport",
+      "claim": "RFI works at Riomaggiore and Manarola stations stop trains for 48 hours between Corniglia and La Spezia on the weekends of 14-15 November, 19-20 December 2026, 9-10 January and 6-7 February 2027, with Levanto-La Spezia suspended on those nights from 22.30 to 6.30.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.parconazionale5terre.it/dettaglio.php?id=88533",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: RFI, lavori nelle stazioni di Riomaggiore e Manarola (15 October 2026)",
+          "evidence": [
+            "stop ai treni nei weekend 14-15 novembre, 19-20 dicembre, 9-10 gennaio e 6-7 febbraio"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "9 to 10 January and 6 to 7 February"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.trekking-card",
+      "topic": "fare",
+      "claim": "The park's Cinque Terre Trekking Card for adults aged 12 to 69 costs €10.00 for one day, €17.00 for two days and €23.50 for three, or €15.00, €26.70 and €37.50 on high-demand days; guests of partner accommodation (SR) can buy a one-day card at €5.00. The price list carries no stated season.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.parconazionale5terre.it/pagina.php?id=149",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Cinque Terre Trekking Card",
+          "evidence": [
+            "Tariffa 10,00 Euro",
+            "Tariffa 17,00 Euro",
+            "Tariffa 23,50 Euro",
+            "Cinque Terre Trekking 1 giorno Adulti e Ragazzi SR (Strutture Ricettive)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "€10.00 for one day, €17.00 for two days and €23.50 for three",
+          "€15.00, €26.70 and €37.50 on high-demand days",
+          "a one-day card at €5.00"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.via-dellamore-booking",
+      "topic": "transport",
+      "claim": "Access to the Via dell'Amore, included in both the Trekking Card and the Treno Card, requires a mandatory booking subject to available places.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.parconazionale5terre.it/pagina.php?id=467",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: FAQ Cinque Terre Card",
+          "evidence": [
+            "soggetto a prenotazione obbligatoria"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "The Via dell'Amore needs a booking"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.trail-status-2026-11-03",
+      "topic": "transport",
+      "claim": "On the park's trail page (message of 3 November 2026, 10:09, no weather alert) section 592-1 Riomaggiore-Manarola (Via dell'Amore) was listed Turistico, 592-2 Manarola-Corniglia Chiuso, and 592-3 Corniglia-Vernazza and 592-4 Vernazza-Monterosso Esperto.",
+      "checked": "2026-11-04",
+      "recheck_days": 14,
+      "sources": [
+        {
+          "url": "https://www.parconazionale5terre.it/sentieri-outdoor.php",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Sentieri e outdoor",
+          "evidence": [
+            "Messaggio del 03-11-2026 delle ore 10:09",
+            "Chiuso 592-2 (SVA2) Manarola - Corniglia",
+            "Esperto 592-3 (SVA2) Corniglia - Vernazza"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "the Manarola to Corniglia section as closed",
+          "as a tourist-grade path",
+          "The path to Corniglia was listed as closed on 3 November 2026"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.path-587-closure",
+      "topic": "transport",
+      "claim": "Path 587 between Corniglia and Case Pianca is closed from 16 November 2026 for about three months under Vernazza ordinance 19 of 2 November 2026.",
+      "checked": "2026-11-04",
+      "recheck_days": 14,
+      "sources": [
+        {
+          "url": "https://www.parconazionale5terre.it/dettaglio.php?id=88736",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Sentiero 587, lavori (3 November 2026)",
+          "evidence": [
+            "Dal 16 novembre chiusura temporanea del percorso per circa 3 mesi"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "Path 587 between Corniglia and Case Pianca closes from 16 November 2026 for about three months"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.ferry-fares",
+      "topic": "fare",
+      "claim": "On the Consorzio 5 Terre Golfo dei Poeti Line 02 price list, from La Spezia the Cinque Terre daily return ticket is €42.00 adult and €15.00 reduced, the afternoon return €28.00, and a single to Vernazza or Monterosso €30.00. The list carries no stated season.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.navigazionegolfodeipoeti.it/pdf/prezzi/linea-02.pdf",
+          "kind": "operator",
+          "title": "Consorzio 5 Terre Golfo dei Poeti: Line 02 price list (PDF)",
+          "evidence": [
+            "Giornaliero Cinque Terre ANDATA E RITORNO € 42,00",
+            "Pomeridiano Cinque Terre ANDATA E RITORNO € 28,00",
+            "VERNAZZA (con tutte le soste) SOLO ANDATA € 30,00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "a one-day return ticket is €42 for adults and €15 for children",
+          "an afternoon return is €28",
+          "a single to Vernazza or Monterosso is €30"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.ferry-season",
+      "topic": "transport",
+      "claim": "The operator's Line 02 timetables list the main season from 20 April to 27 September 2026 and a separate Cinque Terre Trip timetable from 2 November to 8 December 2026; Line 02 serves Riomaggiore, Manarola, Vernazza and Monterosso (not Corniglia). No 2027 timetable was published when checked.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.navigazionegolfodeipoeti.it/en/timetables",
+          "kind": "operator",
+          "title": "Consorzio 5 Terre Golfo dei Poeti: timetables",
+          "evidence": [
+            "Line 02 Cinque Terre (Riomaggiore, Manarola, Vernazza, Monterosso)",
+            "timetable in effect as of 20 April / 27 September",
+            "timetable in effect as of 2 November / 8 December"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "The summer timetable ran from 20 April to 27 September 2026",
+          "a separate timetable runs from 2 November to 8 December 2026",
+          "Corniglia has no stop"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.airports",
+      "topic": "transport",
+      "claim": "The ferry consortium names Genoa (about 100 km from La Spezia) and Pisa (78 km) as the closest airports and says the train is the best way to reach La Spezia and the Cinque Terre.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.navigazionegolfodeipoeti.it/en/how-to-reach-the-cinque-terre",
+          "kind": "operator",
+          "title": "Consorzio 5 Terre Golfo dei Poeti: how to reach the Cinque Terre",
+          "evidence": [
+            "Genoa is approx. 100km from La Spezia and Pisa is only 78",
+            "the best choice is to use the train"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "names Pisa, 78 km away, and Genoa, about 100 km"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.monterosso-largest",
+      "topic": "place",
+      "claim": "Monterosso is the largest of the five towns within the Cinque Terre National Park, per Hotel Villa Adriana's own site.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.villaadriana.info/",
+          "kind": "operator",
+          "title": "Hotel Villa Adriana: home",
+          "evidence": [
+            "Monterosso is the largest of the five towns"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "The largest of the five villages"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-porto-roca",
+      "topic": "hotel",
+      "claim": "Hotel Porto Roca, Via Corone 1, Monterosso al Mare, is listed by the park as a four-star and describes itself as perched high on the cliffs, with sea-view rooms, suites, a pool and the La Terrazza restaurant.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.portoroca.it/",
+          "kind": "operator",
+          "title": "Hotel Porto Roca: official website",
+          "evidence": [
+            "Perched high on the cliffs"
+          ]
+        },
+        {
+          "url": "https://www.parconazionale5terre.it/operatore.php?progressivooperatore=30285",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Hotel Porto Roca",
+          "evidence": [
+            "Via Corone, 1",
+            "Hotel Porto Roca ****"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "Listed by the park as a four-star at Via Corone 1",
+          "described on its own site as perched high on the cliffs"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-palme",
+      "topic": "hotel",
+      "claim": "Hotel Palme, Monterosso, describes itself as a four-star with 50 rooms, each with shower, minibar, TV and safe, fully air-conditioned, with a buffet continental breakfast, a garden and a bar.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelpalme.it/",
+          "kind": "operator",
+          "title": "Hotel Palme: official website",
+          "evidence": [
+            "dispone di 50 camere",
+            "colazione continentale a buffet"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "Describes itself as a four-star with 50 rooms",
+          "air-conditioning throughout"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-villa-adriana",
+      "topic": "hotel",
+      "claim": "Hotel Villa Adriana, Via IV Novembre 23, Monterosso, is a three-star with an outdoor pool and says it is open from 1 April to 25 October 2026.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.villaadriana.info/",
+          "kind": "operator",
+          "title": "Hotel Villa Adriana: home",
+          "evidence": [
+            "Our hotel is open from April 1st 2026 to October 25th 2026."
+          ]
+        },
+        {
+          "url": "https://www.parconazionale5terre.it/operatore.php?progressivooperatore=29948",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Hotel Villa Adriana",
+          "evidence": [
+            "Via IV Novembre, 23"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "A three-star at Via IV Novembre 23 with an outdoor pool",
+          "it is open from 1 April to 25 October in 2026"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-gianni-franzi",
+      "topic": "hotel",
+      "claim": "Gianni Franzi, Via San Giovanni Battista 41, Vernazza, is a trattoria with rooms on Piazza Marconi, which its site calls the salotto (living room) of the Cinque Terre; its first rooms date from the late 1960s.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.giannifranzi.it/",
+          "kind": "operator",
+          "title": "Gianni Franzi: official website",
+          "evidence": [
+            "il salotto delle Cinque Terre",
+            "Le prime camere furono realizzate"
+          ]
+        },
+        {
+          "url": "https://www.parconazionale5terre.it/operatore.php?progressivooperatore=26227",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Gianni Franzi",
+          "evidence": [
+            "Via San Giovanni Battista, 41"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "a main square, Piazza Marconi, that the Gianni Franzi site calls the living room of the Cinque Terre",
+          "says its first rooms were made in the late 1960s"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-la-mala",
+      "topic": "hotel",
+      "claim": "La Malà, Via San Giovanni Battista 29, Vernazza, is an old Ligurian house turned into guest rooms, a couple of steps from the village square, with a natural-rock terrace.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.lamala.it/",
+          "kind": "operator",
+          "title": "La Malà: official website",
+          "evidence": [
+            "a due passi dalla piazza del paese",
+            "terrazza di roccia naturale"
+          ]
+        },
+        {
+          "url": "https://www.parconazionale5terre.it/operatore.php?progressivooperatore=27436",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: La Malà",
+          "evidence": [
+            "Via San Giovanni Battista, 29"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "a couple of steps from the village square, with a terrace of natural rock"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-maduneta",
+      "topic": "hotel",
+      "claim": "Madüneta 5 Terre is a guest house at Via Fieschi 5/9, Corniglia, listed in the park's quality-mark directory.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.daamaduneta.com/",
+          "kind": "operator",
+          "title": "Madüneta 5 Terre: official website",
+          "evidence": [
+            "GUEST HOUSE"
+          ]
+        },
+        {
+          "url": "https://www.parconazionale5terre.it/operatore.php?progressivooperatore=26996",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Maduneta 5 Terre",
+          "evidence": [
+            "Via Fieschi, 5/9",
+            "Marchio di Qualità 2.0"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "A guest house at Via Fieschi 5 to 9",
+          "listed in the park's quality-mark directory"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-ca-dandrean",
+      "topic": "hotel",
+      "claim": "Hotel Ca' d'Andrean, Via Discovolo 101, Manarola, is a family-run hotel in the old centre with spacious air-conditioned rooms with bathroom, some with a terrace, in a building where olives were once pressed; breakfast is in the garden in the good season.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.cadandrean.com/",
+          "kind": "operator",
+          "title": "Hotel Ca' d'Andrean: official website",
+          "evidence": [
+            "Ampie stanze tutte con aria condizionata e bagno, alcune con terrazzo",
+            "le macine frangevano le olive"
+          ]
+        },
+        {
+          "url": "https://www.parconazionale5terre.it/operatore.php?progressivooperatore=27541",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Hotel Cà d'Andrean",
+          "evidence": [
+            "Via Discovolo, 101"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "spacious air-conditioned rooms with bathroom, some with a terrace",
+          "where olives were once pressed"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-marina-piccola",
+      "topic": "hotel",
+      "claim": "Hotel Marina Piccola, Via Birolli 120, Manarola, has 12 recently renovated rooms: 7 doubles, 4 triples and one Junior Suite.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelmarinapiccola.com/",
+          "kind": "operator",
+          "title": "Hotel Marina Piccola: official website",
+          "evidence": [
+            "dispone di 12 stanze, di cui 7 matrimoniali, 4 triple e una Junior Suite"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "Twelve recently renovated rooms at Via Birolli 120",
+          "seven doubles, four triples and one Junior Suite"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-da-baranin",
+      "topic": "hotel",
+      "claim": "Da Baranin, Via Rollandi 29, Manarola, is listed by the park as a guest house (affittacamere) and offers classic rooms, doubles with sea-view balcony, family suites and an apartment.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.baranin.com/",
+          "kind": "operator",
+          "title": "Da Baranin: official website",
+          "evidence": [
+            "Camera doppia con balcone vista mare",
+            "Appartamento"
+          ]
+        },
+        {
+          "url": "https://www.parconazionale5terre.it/operatore.php?progressivooperatore=27047",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Affittacamere Da Baranin",
+          "evidence": [
+            "Via Rollandi, 29"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "A guest house at Via Rollandi 29",
+          "doubles with a sea-view balcony"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-villa-argentina",
+      "topic": "hotel",
+      "claim": "Hotel Villa Argentina, Via De Gasperi 170, Riomaggiore, is listed by the park as a two-star and its site offers economy rooms, sea-view rooms and apartments, reached via a nearby lift.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.villargentina.com/",
+          "kind": "operator",
+          "title": "Hotel Villa Argentina: official website",
+          "evidence": [
+            "raggiungibile con un comodo e vicino ascensore",
+            "CAMERE ECONOMY"
+          ]
+        },
+        {
+          "url": "https://www.parconazionale5terre.it/operatore.php?progressivooperatore=2379",
+          "kind": "official",
+          "title": "Parco Nazionale delle Cinque Terre: Hotel Villa Argentina",
+          "evidence": [
+            "Via De Gasperi, 170",
+            "Hotel Villa Argentina **"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "Listed by the park as a two-star at Via De Gasperi 170",
+          "reached, its site says, with a nearby lift"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-del-sole",
+      "topic": "hotel",
+      "claim": "Hotel del Sole, Via del Santuario 114, Riomaggiore, is a small family hotel on the main street, 600 metres from the station by its own count, and says its CETS partnership lets it offer guests a discount on train and trekking tickets.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hoteldelsole.net/",
+          "kind": "operator",
+          "title": "Hotel del Sole: official website",
+          "evidence": [
+            "600 metri dalla stazione",
+            "un notevole sconto sui biglietti di treni e trekking"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "600 metres from the station by its own count",
+          "offers guests a discount on train and trekking tickets"
+        ]
+      }
+    },
+    {
+      "id": "it.cinque-terre.hotel-firenze-continentale",
+      "topic": "hotel",
+      "claim": "Hotel Firenze e Continentale, La Spezia, offers room categories from Economy and Comfort to Superior, Deluxe and suites, and says the station a few steps away reaches the Cinque Terre in five minutes.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelfirenzecontinentale.it/",
+          "kind": "operator",
+          "title": "Hotel Firenze e Continentale: official website",
+          "evidence": [
+            "vi permette di raggiungere le Cinque Terre in 5 minuti"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-cinque-terre.html": [
+          "its site says the station, a few steps away, reaches the Cinque Terre in five minutes"
         ]
       }
     }

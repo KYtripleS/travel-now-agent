@@ -3528,6 +3528,780 @@
           "with 23 cabins, AA five-star status"
         ]
       }
+    },
+    {
+      "id": "gb.glastonbury.2027-dates",
+      "topic": "place",
+      "claim": "Glastonbury Festival 2027 takes place at Worthy Farm from Wednesday 23 to Sunday 27 June 2027.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "will take place on Worthy Farm from Wednesday 23rd June to Sunday 27th June, 2027"
+          ]
+        },
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/news/glastonbury-2027-ticket-information-confirmed/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: 2027 ticket information confirmed",
+          "evidence": [
+            "valid from Wednesday 23rd June to Sunday 27th June, 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "The 2027 festival runs from Wednesday 23 to Sunday 27 June",
+          "from Wednesday 23rd June to Sunday 27th June, 2027"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.2027-tickets",
+      "topic": "price",
+      "claim": "Tickets for Glastonbury 2027 have sold out, with a resale of cancelled or returned tickets in Spring 2027; general admission cost £408 including a £5 booking fee per ticket plus postage.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "Tickets have now sold out, there will be a resale of any cancelled / returned tickets in Spring 2027",
+            "cost £408 (including a £5 booking fee per ticket)"
+          ]
+        },
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/news/glastonbury-2027-ticket-information-confirmed/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: 2027 ticket information confirmed",
+          "evidence": [
+            "Tickets for Glastonbury 2027 have now sold out"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "have now sold out, with a resale of any cancelled or returned tickets in Spring 2027",
+          "cost £408 including a £5 booking fee per ticket"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.2027-registration",
+      "topic": "entry",
+      "claim": "Everyone aged 13 or over on 23 June 2027 must be individually registered; registration closed at 5pm BST on Friday 25 September 2026 and will not reopen until after the October ticket sales.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/news/glastonbury-2027-ticket-information-confirmed/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: 2027 ticket information confirmed",
+          "evidence": [
+            "Everyone aged 13 or over on 23rd June 2027",
+            "Registration closed at 5pm BST on Friday 25th September, and will not reopen until after the October ticket sales."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "Everyone aged 13 or over on 23 June 2027 who wishes to attend must be individually registered",
+          "registration closed at 5pm BST on Friday 25th September"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.2027-balance",
+      "topic": "price",
+      "claim": "The ticket balance is due from 9am BST Thursday 1 April to 11.59pm BST Wednesday 7 April 2027; the ticket refund deadline is 23:59 on 7 May 2027.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/news/glastonbury-2027-ticket-information-confirmed/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: 2027 ticket information confirmed",
+          "evidence": [
+            "from 9am BST Thursday 1st April – 11.59pm BST Wednesday 7th April"
+          ]
+        },
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "ticket refund deadline (23:59 May 7th 2027)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "from 9am BST on Thursday 1st April to 11.59pm BST on Wednesday 7th April",
+          "a ticket refund deadline of 23:59 on 7 May 2027"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.camping",
+      "topic": "place",
+      "claim": "The festival says the vast majority of festival-goers camp, in fields included in the ticket price from Wednesday night until Monday morning; no sleeping, camping or fires are allowed in the car parks.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "The vast majority of Festival-goers spend their weekend under canvas",
+            "no sleeping, camping or fires are allowed in the car parks"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "the vast majority of festival-goers spend their weekend under canvas",
+          "no sleeping, camping or fires are allowed in the car parks"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.local-accommodation",
+      "topic": "place",
+      "claim": "The festival says a limited number of local property owners rent rooms or houses during the festival, asks people to use its contact form, and does not recommend walking on the main A roads at night.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "a limited number of local property owners offer rooms or even whole houses to rent",
+            "We do not recommend that anyone walks on the main A roads at night"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "a limited number of local property owners offer rooms or whole houses to rent over the festival period",
+          "does not recommend walking on the main A roads at night"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.leaving-reentry",
+      "topic": "entry",
+      "claim": "Festival guidance on the information page (not labelled 2027): leaving the site gives a Pass Out Voucher needed to get back in; pedestrian gates run 24 hours from 8am on Wednesday; under-16s may not enter, leave or re-enter unaccompanied.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "If you exit the site during the weekend, you will be given a Pass Out Voucher",
+            "From 8am on Wednesday pedestrian gates operate 24 hours a day until the end of the Festival.",
+            "Anyone under the age of 16 is not permitted to enter, leave or re-enter the Festival site unaccompanied"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "you are given a Pass Out Voucher",
+          "Pedestrian gates operate 24 hours a day from 8am on Wednesday",
+          "Anyone under 16 may not enter, leave or re-enter unaccompanied by their responsible adult"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.wednesday",
+      "topic": "entry",
+      "claim": "Festival arrival guidance (not labelled 2027): no amplified entertainment on the Wednesday, main stages from Friday; public transport facilities begin on Wednesday morning, none at Castle Cary station for early arrivals.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "there will be no amplified entertainment on the Wednesday, with the main music stages not kicking off until Friday",
+            "Public transport facilities will only begin on Wednesday morning."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "there is no amplified entertainment on the Wednesday, with the main music stages not starting until Friday",
+          "public transport facilities begin on Wednesday morning"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.coaches",
+      "topic": "transport",
+      "claim": "National Express runs services to the festival from over 90 locations; coach-ticket packages are sold out and travel on the chosen coach is mandatory.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "National Express, is running services to the Festival from over 90 locations",
+            "Tickets with coach travel options are now sold out",
+            "Travel on your chosen coach is mandatory in order to receive your Festival ticket."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "runs services from over 90 locations",
+          "travel on your chosen coach is mandatory to receive your ticket"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.coach-bristol",
+      "topic": "transport",
+      "claim": "National Express runs a direct coach service between Bristol Bus Station and the festival coach station.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "National Express runs a direct coach service between Bristol Bus Station and the festival coach station."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "runs a direct coach service between Bristol Bus Station and the festival coach station"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.train-castle-cary",
+      "topic": "transport",
+      "claim": "The festival names Castle Cary as the best station, with a free shuttle for ticket holders to the festival bus station from Wednesday to Monday; no left luggage at the station.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "The best station for getting to the Festival is Castle Cary.",
+            "The shuttle operates from Wednesday to Monday",
+            "there are no left luggage facilities at the station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "the best station is Castle Cary, with a free shuttle bus for ticket holders between the station and the festival bus station",
+          "no parking at Castle Cary station and no left luggage"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.train-temple-meads",
+      "topic": "transport",
+      "claim": "Bristol Temple Meads to Castle Cary takes around 70 minutes; on Sunday and Monday a festival bus runs to Bristol Temple Meads station.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "the journey takes around 70 minutes",
+            "a bus service will run from the Festival Bus Station, next to Pedestrian Gate A",
+            "to Bristol Temple Meads railway station."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "around 70 minutes (sometimes changing at Westbury)",
+          "on Sunday and Monday a bus runs from the festival bus station to Bristol Temple Meads"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.buses-2027",
+      "topic": "transport",
+      "claim": "The festival says bus services for 2027 are yet to be confirmed; its page shows 2025 services.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "Bus services for 2027 are yet to be confirmed."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "bus services for 2027 are yet to be confirmed"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.buses-2025-routes",
+      "topic": "transport",
+      "claim": "In 2025 the festival listed the 374/375/376 from Bristol Temple Meads to Glastonbury town and the 174 from Bath Bus Station to Shepton Mallet, then festival shuttles.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "Take the 374/375/376 bus from Bristol Temple Meads station to Glastonbury town",
+            "Take the 174 bus from Bath Bus Station to Shepton Mallet"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "the 374, 375 and 376 from Bristol Temple Meads to Glastonbury town",
+          "the 174 from Bath Bus Station to Shepton Mallet, connecting to a GF2 shuttle"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.gf1-2025",
+      "topic": "fare",
+      "claim": "In 2025 the GF1 festival shuttle left from Glastonbury Town Hall at £4.50 a single.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "Glastonbury Town: £4.50",
+            "departing from Glastonbury Town Hall"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "a GF1 festival shuttle from Glastonbury Town Hall at £4.50 a single"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.drop-collect",
+      "topic": "transport",
+      "claim": "The festival runs a 24-hour Drop and Collect service with a bus to Pedestrian Gate A, open to the public from 9:00am on the Tuesday before the festival until 8.00pm on the Monday after.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "24 hour Drop and Collect service with a 24/7 bus service",
+            "open for the public from 9:00am on the Tuesday preceding the Festival",
+            "8.00pm on the Monday after the Festival"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "open to the public from 9:00am on the Tuesday before the festival until 8.00pm on the Monday after"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.local-towns",
+      "topic": "place",
+      "claim": "Sunday day tickets for local residents include bus travel from Castle Cary, Frome, Radstock, Glastonbury, Midsomer Norton, Shepton Mallet, Street and Wells; the 2027 inner zone for local tickets includes Glastonbury, Pilton and Shepton Mallet.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.glastonburyfestivals.co.uk/info/",
+          "kind": "official",
+          "title": "Glastonbury Festivals: information",
+          "evidence": [
+            "Castle Cary, Frome, Radstock, Glastonbury, Midsomer Norton, Shepton Mallet, Street and Wells",
+            "Croscombe, Doulting, East Pennard, Glastonbury, North Wootton, Pilton, Pylle, Shepton Mallet, West Bradley, West Pennard."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "Castle Cary, Frome, Radstock, Glastonbury, Midsomer Norton, Shepton Mallet, Street and Wells",
+          "in the festival's inner zone for local-resident tickets, alongside Pilton and Glastonbury"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.vat",
+      "topic": "tax",
+      "claim": "The UK standard rate of VAT is 20%, applying to most goods and services.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/vat-rates",
+          "kind": "official",
+          "title": "GOV.UK: VAT rates",
+          "evidence": [
+            "Standard rate 20% Most goods and services"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "VAT at the UK's standard 20% rate",
+          "The standard rate of VAT is 20%"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.levy",
+      "topic": "tax",
+      "claim": "On 10 September 2026 the government said mayors in England will be given the power to introduce an Overnight Visitor Levy as a percentage of accommodation cost; we found none in force for Somerset, Bath or Bristol.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/government/news/local-leaders-handed-powers-to-drive-investment-in-communities",
+          "kind": "official",
+          "title": "GOV.UK: local leaders handed powers, 10 September 2026",
+          "evidence": [
+            "Mayors and local leaders will be handed the power to introduce an Overnight Visitor Levy",
+            "requiring the levy to be charged as a percentage of the cost of accommodation"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "mayors in England will be handed the power to introduce an Overnight Visitor Levy, charged as a percentage of the cost of accommodation"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.bristol-airport-a1",
+      "topic": "transport",
+      "claim": "Bristol Airport Flyer A1 runs 24 hours a day with services up to every 8 minutes via Bedminster, Temple Meads and Bristol Bus Station (fare not confirmed).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.bristolairport.co.uk/to-and-from-the-airport/by-airport-flyer/",
+          "kind": "official",
+          "title": "Bristol Airport: Airport Flyer bus",
+          "evidence": [
+            "Runs 24 hours a day, with services up to every 8 minutes, via Bedminster, Temple Meads"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "runs 24 hours a day with services up to every 8 minutes via Bedminster, Temple Meads and Bristol Bus Station"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.george-pilgrims",
+      "topic": "hotel",
+      "claim": "George & Pilgrims Hotel is open at 1 High Street, Glastonbury BA6 9DP, with Classic 4 Poster, Double, Twin, Family Triple and Single rooms; its bedrooms page mentions no parking or festival terms.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://georgeandpilgrims.com/bedrooms/",
+          "kind": "official",
+          "title": "George & Pilgrims Inn: bedrooms",
+          "evidence": [
+            "1 High Street, Glastonbury Somerset, BA6 9DP",
+            "Classic 4 Poster Room",
+            "All rooms offer high speed wifi"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "At 1 High Street, Glastonbury, with Classic rooms in 4 Poster, Double, Twin, Family Triple and Single types"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.premier-inn-glastonbury",
+      "topic": "hotel",
+      "claim": "Premier Inn Glastonbury is open with free on-site parking (register the vehicle at reception; ANPR-monitored), air conditioning in all rooms, a restaurant and breakfast.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/somerset/glastonbury/glastonbury.html",
+          "kind": "operator",
+          "title": "Premier Inn Glastonbury",
+          "evidence": [
+            "Free on-site parking is available at this hotel.",
+            "please register your vehicle on the tablet in thehotel reception",
+            "Car Park is monitored by ANPR."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "Free on-site parking, air conditioning in all rooms, a restaurant and breakfast",
+          "register your vehicle on the tablet in reception, and the car park is monitored by ANPR"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.bear-inn",
+      "topic": "hotel",
+      "claim": "Bear Inn, Somerset by Marston's Inns is open on High Street, Street BA16 0EF, just 2 miles from Glastonbury, with 24 en-suite rooms (some in cottage annexes) and free parking.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://marstonsinns.co.uk/inns/bear-inn-hotel-street-somerset/",
+          "kind": "operator",
+          "title": "Marston's Inns: Bear Inn, Street",
+          "evidence": [
+            "Just 2 miles from Glastonbury",
+            "We have 24 comfortable en-suite rooms some of which are situated above the pub",
+            "Free parking"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "with 24 en-suite rooms, some above the pub and others in cottage annexes a short walk away",
+          "which it calls just 2 miles from Glastonbury"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.swan-wells",
+      "topic": "hotel",
+      "claim": "The Swan Hotel, 11 Sadler Street, Wells BA5 2RX, is open: check-in guaranteed from 3.00pm, check-out 11.00am, limited free on-site parking through the coachway arch, municipal car parks 3-5 minutes' walk; package bookings are non-refundable.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://swanhotelwells.co.uk/",
+          "kind": "operator",
+          "title": "The Swan Hotel, Wells",
+          "evidence": [
+            "Check in is guaranteed from 03.00pm, Check out is 11.00am",
+            "We have limited free on site parking found through the coachway arch.",
+            "Bookings are non-refundable, non-transferable, and cannot be amended."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "At 11 Sadler Street",
+          "limited free on-site parking through the coachway arch",
+          "check-in guaranteed from 3.00pm",
+          "its package offers are non-refundable and cannot be amended"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.premier-inn-wells",
+      "topic": "hotel",
+      "claim": "Premier Inn Wells (Somerset) is open with a restaurant and build-your-own breakfast, and an exclusive guest parking rate of £9.60 a night in a car park managed by Horizon Parking.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/somerset/wells/wells-somerset.html",
+          "kind": "operator",
+          "title": "Premier Inn Wells (Somerset)",
+          "evidence": [
+            "We offer an exclusive guest parking rate of £9.60 per night.",
+            "This car park is managed by Horizon Parking",
+            "Build your own breakfast"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "an exclusive guest parking rate of £9.60 a night in a car park managed by Horizon Parking"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.montigo-somerset",
+      "topic": "hotel",
+      "claim": "Montigo Resorts Somerset at Charlton House is open at Charlton Rd, Shepton Mallet BA4 4PR, listing 16 accommodation types including Deluxe, Spa Duplex and Garden Lodge.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://somerset.montigoresorts.com/accommodation/",
+          "kind": "operator",
+          "title": "Montigo Resorts Somerset: accommodation",
+          "evidence": [
+            "Charlton Rd, Shepton Mallet BA4 4PR, United Kingdom",
+            "Spa Duplex"
+          ]
+        },
+        {
+          "url": "https://somerset.montigoresorts.com/",
+          "kind": "operator",
+          "title": "Montigo Resorts Somerset",
+          "evidence": [
+            "Elegant countryside apartments offering space, privacy, and comfort"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "On Charlton Road, at Charlton House, with 16 accommodation types listed including Deluxe, Spa Duplex and Garden Lodge"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.premier-inn-bath",
+      "topic": "hotel",
+      "claim": "Premier Inn Bath City Centre is open, next door to Kingsmead Entertainment Centre, five minutes' walk from the Roman Baths and 10 minutes' from Bath Spa station; no on-site parking.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/somerset/bath/bath-city-centre.html",
+          "kind": "operator",
+          "title": "Premier Inn Bath City Centre",
+          "evidence": [
+            "Next door to Kingsmead Entertainment Centre, just a five-minute walk from the Roman Baths",
+            "Located just a 10-minute walk away from Bath Spa train station",
+            "There is no on-site parking at this hotel."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "five minutes' walk from the Roman Baths and 10 minutes' walk from Bath Spa station, its page says",
+          "there is no on-site parking; chargeable off-site parking is at the Southgate Shopping Centre car park"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.hotel-indigo-bath",
+      "topic": "hotel",
+      "claim": "Hotel Indigo Bath is open at 2-8 South Parade, Bath BA2 4AB, with 154 bedrooms in five room styles with Hypnos beds, Nespresso machines and air conditioning.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://bath.hotelindigo.com/rooms/",
+          "kind": "operator",
+          "title": "Hotel Indigo Bath: rooms",
+          "evidence": [
+            "Stay in one of the stunning 154 bedrooms",
+            "Nespresso coffee machines, air conditioning"
+          ]
+        },
+        {
+          "url": "https://bath.hotelindigo.com/where-we-are/",
+          "kind": "operator",
+          "title": "Hotel Indigo Bath: where we are",
+          "evidence": [
+            "South Parade, Bath, BA2 4AB"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "At 2-8 South Parade, with 154 bedrooms in five room styles, all with Hypnos beds, Nespresso machines and air conditioning"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.gainsborough-bath-spa",
+      "topic": "hotel",
+      "claim": "The Gainsborough Bath Spa is open on Beau Street, Bath BA1 1QY; parking is limited, £40 a night, booked in advance through the concierge.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.thegainsboroughbathspa.co.uk/pages/contact-us.html",
+          "kind": "operator",
+          "title": "The Gainsborough Bath Spa: contact us",
+          "evidence": [
+            "Beau Street, Bath BA1 1QY, England",
+            "Places are very limited so it essential that you book in advance."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "parking is limited, costs £40 a night and must be booked in advance"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.premier-inn-finzels-reach",
+      "topic": "hotel",
+      "claim": "Premier Inn Bristol City Centre (Finzels Reach) is open, close to Bristol Temple Meads station, with no on-site parking and NCP Bristol Broadmead an 8-minute walk away.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.premierinn.com/gb/en/hotels/england/bristol/bristol/bristol-city-centre-finzels-reach.html",
+          "kind": "operator",
+          "title": "Premier Inn Bristol City Centre (Finzels Reach)",
+          "evidence": [
+            "close to Bristol Temple Meads station and the University of Bristol",
+            "There is no on-site parking available at this hotel.",
+            "NCP Bristol Broadmead, Lower Castle Street, BS1 3AF - a 8-minute walk from hotel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "close to Bristol Temple Meads station, its page says",
+          "chargeable off-site parking is at NCP Bristol Broadmead, an 8-minute walk away"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.novotel-bristol-centre",
+      "topic": "hotel",
+      "claim": "Novotel Bristol Centre is open on Victoria Street, BS1 6HY, close to Bristol Temple Meads Train Station, with parking at £17 per 24 hours; it is cashless.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/5622/index.en.shtml",
+          "kind": "operator",
+          "title": "Novotel Bristol Centre (Accor)",
+          "evidence": [
+            "Close to Bristol Temple Meads Train Station",
+            "Our parking charges are £17 per 24 hours.",
+            "We are now a CASHLESS hotel."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "On Victoria Street, close to Bristol Temple Meads Train Station, 4-star, with parking charged at £17 per 24 hours"
+        ]
+      }
+    },
+    {
+      "id": "gb.glastonbury.hotel.bristol-marriott-royal",
+      "topic": "hotel",
+      "claim": "Bristol Marriott Royal Hotel is open on College Green, Bristol BS1 5TA: check-in 3:00 pm, check-out 12:00 pm, on-site parking, pets welcome.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/brsry-bristol-marriott-royal-hotel/overview/",
+          "kind": "operator",
+          "title": "Bristol Marriott Royal Hotel",
+          "evidence": [
+            "College Green, Bristol, England, United Kingdom, BS1 5TA",
+            "Check-in: 3:00 pm",
+            "Check-out: 12:00 pm"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-for-glastonbury.html": [
+          "On College Green, with check-in from 3:00 pm, on-site parking and pets welcome"
+        ]
+      }
     }
   ]
 }

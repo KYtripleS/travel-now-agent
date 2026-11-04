@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-cinque-terre.html": (
+        "Where to Stay in Cinque Terre",
+        "Seven bases, 12 hotels, the €3 tourist tax by comune and the Cinque Terre Card, trains and ferries.",
+    ),
+    "articles/where-to-stay-for-glastonbury.html": (
+        "Where to Stay in Glastonbury",
+        "Festival 23-27 June 2027: beds in Glastonbury, Wells, Bath and Bristol for non-campers, plus 20% VAT.",
+    ),
     "articles/where-to-stay-in-mykonos.html": (
         "Where to Stay in Mykonos",
         "Mykonos Town, Ornos, Platis Gialos, Agios Stefanos and Paradise, 12 hotels, Greece's €2 to €15 room fee.",
@@ -2365,6 +2373,20 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-cinque-terre.html": [
+        "articles/where-to-stay-in-florence.html",
+        "articles/where-to-stay-in-milan.html",
+        "articles/where-to-stay-in-venice.html",
+        "articles/where-to-stay-on-the-amalfi-coast.html",
+        "articles/where-to-stay-on-lake-como.html",
+    ],
+    "articles/where-to-stay-for-glastonbury.html": [
+        "articles/where-to-stay-in-edinburgh-fringe.html",
+        "articles/where-to-stay-in-london.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-in-mykonos.html": [
         "articles/where-to-stay-in-santorini.html",

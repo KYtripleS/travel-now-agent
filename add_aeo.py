@@ -446,6 +446,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-cinque-terre": dict(
+        text="For a first trip, stay in Monterosso al Mare, the largest of the five villages and the one with a beach. Choose Hotel Porto Roca to splurge, Hotel Ca' d'Andrean in Manarola for comfort and Gianni Franzi in Vernazza for value. The tax is €3 a person a night for up to three nights.",
+        link_text="Monterosso al Mare",
+        cta=_stay_cta("where-to-stay-in-cinque-terre", "See hotels around Monterosso")),
+    "where-to-stay-for-glastonbury": dict(
+        text="For a bed around the festival, stay in Glastonbury town: the festival's 2025 shuttle ran from Glastonbury Town Hall. Choose Bear Inn for value, George & Pilgrims for comfort, Montigo Resorts Somerset to splurge. Most festival-goers camp, tickets have sold out, and VAT is 20%.",
+        link_text="Glastonbury town",
+        cta=_stay_cta("where-to-stay-for-glastonbury", "See hotels around Glastonbury")),
     "where-to-stay-in-mykonos": dict(
         text="For a first trip, stay in Mykonos Town: Little Venice, the windmills and the Old Port are on foot, with the beaches a bus ride away. Choose Ornos or Platis Gialos for a beach and Agios Stefanos for a quieter bay. Greece's room fee is €2 to €15 a night, April to October.",
         link_text="Mykonos Town",
@@ -1798,6 +1806,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-cinque-terre": ["Hotel Porto Roca", "Hotel Ca' d'Andrean", "Gianni Franzi"],
+    "where-to-stay-for-glastonbury": ["George & Pilgrims Hotel", "Bear Inn, Somerset by Marston's Inns", "Montigo Resorts Somerset"],
     "where-to-stay-in-mykonos": ["Belvedere Mykonos", "Rochari Hotel", "Villa Konstantin"],
     "where-to-stay-in-naples": ["Hotel Piazza Bellini & Apartments", "Decumani Hotel de Charme", "Grand Hotel Vesuvio"],
     "where-to-stay-in-munich": ["Platzl Hotel", "Louis Hotel", "Hotel Olympic"],
@@ -2599,6 +2609,8 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Cinque Terre", "where-to-stay-in-cinque-terre", None, None),
+        ("Glastonbury", "where-to-stay-for-glastonbury", None, None),
         ("Mykonos", "where-to-stay-in-mykonos", None, None),
         ("Naples", "where-to-stay-in-naples", None, None),
         ("Munich", "where-to-stay-in-munich", None, None),
@@ -3134,6 +3146,9 @@ STAY_POINTERS = {
     "where-to-stay-in-milan": ("intro",
         'Adding the lake? <a href="where-to-stay-on-lake-como.html">Where to stay on Lake Como</a> compares Como, '
         'Bellagio, Varenna and Menaggio, with the trains from Milan and the ferries between them.'),
+    "where-to-stay-in-florence": ("intro",
+        'Going on to the coast? <a href="where-to-stay-in-cinque-terre.html">Where to stay in Cinque Terre</a> '
+        'compares the five villages with La Spezia and Levanto as train bases, with the Cinque Terre Card.'),
     "where-to-stay-in-montreal": ("intro",
         'Going on to Ontario? <a href="where-to-stay-in-toronto.html">Where to stay in Toronto</a> compares '
         'Downtown, Yorkville and Queen West, with the UP Express from Pearson and the city’s 6% accommodation tax.'),
