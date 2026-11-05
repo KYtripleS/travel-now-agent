@@ -446,6 +446,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-las-vegas-new-years-eve": dict(
+        text="For New Year's Eve, stay on the Center Strip, inside the Strip's road closure: Bellagio is the splurge, The Cosmopolitan the comfortable pick, and the Plaza the value pick under Downtown's own fireworks. The room tax is 13.38%, plus each hotel's resort fee.",
+        link_text="Center Strip",
+        cta=_stay_cta("where-to-stay-in-las-vegas-new-years-eve", "See hotels around the Center Strip")),
+    "where-to-stay-in-singapore-new-years-eve": dict(
+        text="For a first New Year's Eve, stay in Marina Bay: The Fullerton publishes its 2026 countdown programme and is a short walk from the show. Choose Swissôtel The Stamford for City Hall MRT, ibis Singapore on Bencoolen for less. Quoted rates add a 10% service charge and 9% GST, about 19.9%.",
+        link_text="Marina Bay",
+        cta=_stay_cta("where-to-stay-in-singapore-new-years-eve", "See hotels around Marina Bay")),
     "where-to-stay-in-hong-kong-new-years-eve": dict(
         text="For a first trip, stay in Wan Chai: it is on the Island Line, near the Convention Centre where last year's countdown clock was shown. Choose Island Shangri-La for a splurge, The Hari for comfort and Wharney Hotel for value. The 2026 plan is not out; last year had no fireworks. The tax is 3%.",
         link_text="Wan Chai",
@@ -1826,6 +1834,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-las-vegas-new-years-eve": ["Bellagio", "The Cosmopolitan of Las Vegas", "Plaza Hotel & Casino"],
+    "where-to-stay-in-singapore-new-years-eve": ["The Fullerton Hotel Singapore", "Swissôtel The Stamford", "ibis Singapore on Bencoolen"],
     "where-to-stay-in-hong-kong-new-years-eve": ["Island Shangri-La, Hong Kong", "The Hari Hong Kong", "Wharney Hotel"],
     "where-to-stay-in-rio-new-years-eve": ["Fairmont Rio de Janeiro Copacabana", "Pestana Rio Atlântica", "Windsor Copa"],
     "where-to-stay-in-dubai-new-years-eve": ["Address Downtown", "Vida Dubai Mall", "Rove Downtown"],
@@ -2634,6 +2644,8 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Las Vegas", "where-to-stay-in-las-vegas-new-years-eve", None, None),
+        ("Singapore", "where-to-stay-in-singapore-new-years-eve", None, None),
         ("Hong Kong", "where-to-stay-in-hong-kong-new-years-eve", None, None),
         ("Rio de Janeiro", "where-to-stay-in-rio-new-years-eve", None, None),
         ("Dubai", "where-to-stay-in-dubai-new-years-eve", None, None),
@@ -3114,7 +3126,9 @@ STAY_POINTERS = {
     ],
     "where-to-stay-in-singapore": ("intro",
         'Coming for Chinese New Year? <a href="where-to-stay-in-singapore-chinese-new-year.html">Where to stay in Singapore for Chinese New Year '
-        '2027</a> matches the areas to Chinatown, the river and Marina Bay, with the 19.9% added to every room.'),
+        '2027</a> matches the areas to Chinatown, the river and Marina Bay, with the 19.9% added to every room. '
+        'Here for 31 December? <a href="where-to-stay-in-singapore-new-years-eve.html">Where to stay for New Year’s Eve</a> '
+        'covers the Marina Bay countdown and the late trains.'),
     "where-to-stay-in-hong-kong-chinese-new-year": ("intro",
         'Weighing Singapore instead? <a href="where-to-stay-in-singapore-chinese-new-year.html">Where to stay in Singapore for Chinese New Year '
         '2027</a> covers 6 and 7 February there, Chinatown and the river.'),
@@ -3295,7 +3309,9 @@ STAY_POINTERS = {
         'compares Positano, Amalfi, Ravello and Sorrento, with each town’s tourist tax.'),
     "where-to-stay-in-las-vegas": ("intro",
         'Coming for CES? <a href="where-to-stay-in-las-vegas-ces.html">Where to stay for CES 2027</a> (6 to 9 '
-        'January) matches hotels to the free CES shuttles, the Vegas Loop and the monorail.'),
+        'January) matches hotels to the free CES shuttles, the Vegas Loop and the monorail. Here for 31 December? '
+        '<a href="where-to-stay-in-las-vegas-new-years-eve.html">Where to stay for New Year’s Eve</a> sorts the Strip '
+        'closure from Fremont Street’s ticketed party.'),
     "where-to-stay-in-kanazawa": ("intro",
         'Going on to Shirakawa-go? <a href="where-to-stay-for-shirakawa-go-light-up.html">Where to stay for the '
         'Shirakawa-go light-up 2027</a> has the four January dates, the reservation rules and the buses from here.'),

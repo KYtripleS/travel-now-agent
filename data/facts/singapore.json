@@ -58,6 +58,12 @@
           "The current GST rate is 9%",
           "About 19.9% over the headline rate",
           "Hotels may display prices before GST"
+        ],
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "a service charge, usually 10%, and 9% GST",
+          "about 19.9%",
+          "the current GST rate is 9%",
+          "S$359.70"
         ]
       }
     },
@@ -70,6 +76,15 @@
           "url": "https://www.ica.gov.sg/public-education/visiting-singapore",
           "kind": "official",
           "title": "ICA: visiting Singapore"
+        },
+        {
+          "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+          "kind": "official",
+          "title": "ICA: SG Arrival Card",
+          "evidence": [
+            "Submit your SG Arrival Card and electronic health declaration for free",
+            "within 3 days (including the day of arrival) before you arrive in Singapore"
+          ]
         }
       ],
       "checked": "2026-10-05",
@@ -77,6 +92,10 @@
         "articles/where-to-stay-in-singapore.html": [
           "SG Arrival Card",
           "three days before you arrive"
+        ],
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "It is free",
+          "within three days, including the day of arrival"
         ]
       },
       "watch": "SG Arrival Card|SGAC"
@@ -96,6 +115,9 @@
       "used_in": {
         "articles/where-to-stay-in-singapore.html": [
           "Tanah Merah"
+        ],
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "the MRT reaches the city with a change at Tanah Merah onto the East-West line"
         ]
       }
     },
@@ -144,6 +166,10 @@
         "articles/where-to-stay-in-singapore-chinese-new-year.html": [
           "three towers joined at the top by the SkyPark, whose 150-metre infinity pool, 200 metres up, is for hotel guests only",
           "rebuilding its rooms into about 1,850, some 770 of them suites"
+        ],
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "150-metre infinity pool, 200 metres up, is for hotel guests only",
+          "into about 1,850, nearly 770 of them suites"
         ]
       }
     },
@@ -161,6 +187,14 @@
           "url": "https://press.accor.com/strongnbspthe-return-of-a-legend-strongbr-strongraffles-singapore-officially-reopens-strongbr-nbsp",
           "kind": "operator",
           "title": "Accor: Raffles Singapore reopens"
+        },
+        {
+          "url": "https://www.raffles.com/singapore/",
+          "kind": "operator",
+          "title": "Raffles Singapore",
+          "evidence": [
+            "our 115 suites"
+          ]
         }
       ],
       "checked": "2026-10-05",
@@ -172,6 +206,10 @@
         ],
         "articles/where-to-stay-in-singapore-chinese-new-year.html": [
           "reopened on 1 August 2019 after a restoration that began in 2017",
+          "an all-suite hotel with 115 suites"
+        ],
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "It opened in 1887 and reopened on 1 August 2019 after a restoration",
           "an all-suite hotel with 115 suites"
         ]
       }
@@ -215,6 +253,15 @@
           "url": "https://www.roots.gov.sg/places/places-landing/Places/national-monuments/former-fullerton-building",
           "kind": "official",
           "title": "Roots.sg: former Fullerton Building"
+        },
+        {
+          "url": "https://www.fullertonhotels.com/fullerton-hotel-singapore",
+          "kind": "operator",
+          "title": "The Fullerton Hotel Singapore",
+          "evidence": [
+            "stunning 400-room heritage hotel",
+            "1 Fullerton Square Singapore 049178"
+          ]
         }
       ],
       "checked": "2026-10-05",
@@ -227,6 +274,9 @@
         ],
         "articles/where-to-stay-in-singapore-chinese-new-year.html": [
           "400 rooms in the Fullerton Building, completed in 1928 as the General Post Office, opened as a hotel in 2001 and made a National Monument in 2015"
+        ],
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "400 rooms in the Fullerton Building at 1 Fullerton Square, completed in 1928 as the General Post Office"
         ]
       }
     },
@@ -695,6 +745,519 @@
           "a notice of façade works until 6 November 2026"
         ]
       }
+    },
+    {
+      "id": "sg.nye.mbsc-edition",
+      "topic": "place",
+      "claim": "The Marina Bay Singapore Countdown 2026 edition ran on New Year's Eve 2025; the organiser's site had no page for the 31 December 2026 edition when checked on 5 November 2026.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.marinabaycountdown.gov.sg/about/marina-bay-singapore-countdown-2026/",
+          "kind": "official",
+          "title": "Marina Bay Singapore Countdown: About (last updated 26 November 2025)",
+          "evidence": [
+            "Marina Bay Singapore Countdown 2026",
+            "as Singapore ushers in 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "The edition that ran on 31 December 2025 was the Marina Bay Singapore Countdown 2026",
+          "the organiser's site still described the earlier edition"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "sg.nye.fireworks-time",
+      "topic": "place",
+      "claim": "For New Year's Eve 2025 the URA described ELYSIUM as an hour-long musical score starting at 11pm, across four segments with a total fireworks duration of 30 minutes; the government's One Countdown release said Marina Bay would culminate at the stroke of midnight.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.ura.gov.sg/news/media/pr25-62/",
+          "kind": "official",
+          "title": "URA: Marina Bay Singapore Countdown 2026 (27 November 2025)",
+          "evidence": [
+            "specially curated hour-long musical score",
+            "with a total fireworks display duration of 30 minutes",
+            "Starting at 11pm on New Year"
+          ]
+        },
+        {
+          "url": "https://www.mccy.gov.sg/about-us/news-and-resources/one-countdown-2026--usher-in-the-new-year-at-countdown-sites-across-singapore/",
+          "kind": "official",
+          "title": "MCCY: One Countdown 2026 (12 November 2025)",
+          "evidence": [
+            "at the stroke of midnight"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "an hour-long score from 11pm in four segments",
+          "30 minutes of fireworks in total"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "sg.nye.light-shows",
+      "topic": "place",
+      "claim": "Last year Brightening Lives was projected on The Fullerton Hotel Singapore's facade from 26 to 31 December 2025, 8pm to 10:30pm nightly, and Togetherland ran at the Bayfront Event Space from 11 December 2025 to 4 January 2026.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.ura.gov.sg/news/media/pr25-62/",
+          "kind": "official",
+          "title": "URA: Marina Bay Singapore Countdown 2026 (27 November 2025)",
+          "evidence": [
+            "Running from 8pm to 10:30pm nightly",
+            "11 December 2025 to 4 January 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "Brightening Lives on the facade of The Fullerton Hotel, 8pm to 10:30pm from 26 to 31 December",
+          "a Christmas market at the Bayfront Event Space, to 4 January"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "sg.nye.crowd-control",
+      "topic": "place",
+      "claim": "For New Year's Eve 2025 the organiser said entry to key areas around the Bay would be regulated and closed at capacity, cycling was not allowed, the open-space carpark beside the Bayfront Event Space was closed, and certain MRT exits might close.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.ura.gov.sg/news/media/pr25-62/",
+          "kind": "official",
+          "title": "URA: Marina Bay Singapore Countdown 2026 (27 November 2025)",
+          "evidence": [
+            "Cycling will not be allowed at key areas around the Bay",
+            "These areas will be closed when their capacity limits are reached",
+            "certain exits of MRT stations in the Marina Bay area will be closed"
+          ]
+        },
+        {
+          "url": "https://www.marinabaycountdown.gov.sg/plan-your-visit/getting-there/",
+          "kind": "official",
+          "title": "Marina Bay Singapore Countdown: getting there",
+          "evidence": [
+            "If necessary, certain exits of MRT stations in the Marina Bay area will be closed"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "entry to key areas was regulated and closed at capacity",
+          "Not allowed at key areas around the Bay",
+          "the open-space carpark beside the Bayfront Event Space will be closed",
+          "certain MRT station exits may close"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "sg.nye.road-closures",
+      "topic": "transport",
+      "claim": "Last year Bayfront Avenue, Esplanade Drive and part of Fullerton Road closed fully from 6pm on 31 December 2025 to 2am on 1 January 2026, with more roads around Marina Boulevard and Raffles Avenue closed from 10pm.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.marinabaycountdown.gov.sg/plan-your-visit/road-closures/",
+          "kind": "official",
+          "title": "Marina Bay Singapore Countdown: road closures (last updated 29 December 2025)",
+          "evidence": [
+            "Full road closure from 6pm on 31 Dec 2025 to 2am on 1 Jan 2026",
+            "Left 2 lanes closure from 10pm on 31 Dec 2025 to 2am on 1 Jan 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "Bayfront Avenue, Esplanade Drive and part of Fullerton Road closed fully from 6pm on 31 December 2025 to 2am on 1 January",
+          "from 10pm several more roads around Marina Boulevard and Raffles Avenue were partly or fully closed"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "sg.nye.spf-stations",
+      "topic": "transport",
+      "claim": "For New Year's Eve 2025 the Police said trains might bypass Bayfront and Stadium stations in overcrowding, that City Hall, Raffles Place, Bayfront, Stadium, Tanjong Rhu and Nicoll Highway stations would be very crowded, and named Esplanade, Promenade, Downtown, Marina Bay, Kallang and Mountbatten as alternatives.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.police.gov.sg/Media-Hub/News/2025/12/20251228_safety_and_security_arrangements_for_one_countdown_2026",
+          "kind": "official",
+          "title": "SPF: safety and security arrangements for One Countdown 2026 (28 December 2025)",
+          "evidence": [
+            "trains may bypass some stations, such as Bayfront MRT Station and Stadium MRT Station",
+            "are expected to be very crowded",
+            "Esplanade, Promenade, Downtown, Marina Bay, Kallang and Mountbatten MRT stations"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "trains might bypass some stations, such as Bayfront and Stadium",
+          "City Hall, Raffles Place, Bayfront, Stadium, Tanjong Rhu and Nicoll Highway stations would be very crowded",
+          "They named Esplanade, Promenade, Downtown, Marina Bay, Kallang and Mountbatten as alternatives"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "sg.nye.countdown-sites",
+      "topic": "place",
+      "claim": "The government's One Countdown 2026 release listed Marina Bay, the Singapore Sports Hub (a ticketed concert), Sentosa (Siloso Beach, with Mediacorp's countdown show and fireworks) and Clarke Quay (live music, drone shows over the Singapore River and a midnight spectacular) for 31 December 2025.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.mccy.gov.sg/about-us/news-and-resources/one-countdown-2026--usher-in-the-new-year-at-countdown-sites-across-singapore/",
+          "kind": "official",
+          "title": "MCCY: One Countdown 2026 (12 November 2025)",
+          "evidence": [
+            "In addition to Marina Bay, Singapore Sports Hub, Sentosa, and Clarke Quay",
+            "The countdown party at Siloso Beach will feature live performances",
+            "Drone shows over the Singapore River",
+            "signature midnight spectacular"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "with seven heartland sites for residents",
+          "drone shows over the Singapore River",
+          "Sentosa had its own official countdown last year, at Siloso Beach",
+          "Mediacorp's countdown show and fireworks"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "sg.nye.trains-2025",
+      "topic": "transport",
+      "claim": "For New Year's Eve 2025 SBS Transit extended the Downtown and North East lines and the Sengkang-Punggol LRT by about two hours and fifteen minutes; SMRT's last trains from City Hall were at 2:15am on the North-South and East-West lines, and SMRT said there was no extension for the Changi Airport service.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.sbstransit.com.sg/news/changes-in-operational-hours-for-train-and-selected-bus-services-on-new-years-eve-1",
+          "kind": "operator",
+          "title": "SBS Transit: changes in operational hours on New Year's Eve (22 December 2025)",
+          "evidence": [
+            "will be extended by about two hours and fifteen minutes"
+          ]
+        },
+        {
+          "url": "https://www.smrt.com.sg/news-publications/newsroom/service-announcements/service-announcement-last-bus-train-timings-extension-for-eve-of-new-year-2025/",
+          "kind": "operator",
+          "title": "SMRT: last bus and train timings for New Year's Eve 2025",
+          "evidence": [
+            "There is no extension for Bukit Panjang LRT service and Changi Airport service.",
+            "will be extended for commuters travelling late on the eve of New Year, 31 December 2025"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "about two hours and fifteen minutes",
+          "SMRT's last trains from City Hall were at 2:15am",
+          "there would be no extension for the Changi Airport service"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "sg.hotel.mandarin-oriental-nye-2026",
+      "topic": "hotel",
+      "claim": "Mandarin Oriental, Singapore (5 Raffles Avenue, opposite Esplanade) lists a poolside New Year's Eve Countdown Party on 31 December 2026, 10pm to 1am, from SGD 148 per person plus 10% service charge and taxes.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/singapore/marina-bay/festive-season",
+          "kind": "operator",
+          "title": "Mandarin Oriental, Singapore: festive season",
+          "evidence": [
+            "31 December 2026 | 10pm - 1am",
+            "Prices start at SGD 148 per person",
+            "Prices are subject to 10% service charge and prevailing government taxes."
+          ]
+        },
+        {
+          "url": "https://www.mandarinoriental.com/en/singapore/marina-bay",
+          "kind": "operator",
+          "title": "Mandarin Oriental, Singapore",
+          "evidence": [
+            "5 Raffles Avenue, Singapore 039797",
+            "Situated opposite Esplanade"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "At 5 Raffles Avenue, opposite Esplanade – Theatres on the Bay",
+          "from 10pm to 1am, with prices starting at SGD 148 per person"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "sg.nye.mbs-guide",
+      "topic": "hotel",
+      "claim": "Marina Bay Sands' New Year's Eve guide page (opened 5 November 2026) still described the 2025 events and said all listed events had ended; no 2026 programme was stated.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.marinabaysands.com/guides/around-mbs/new-years-eve.html",
+          "kind": "operator",
+          "title": "Marina Bay Sands: New Year's Eve guide (served in Japanese from Japan)",
+          "evidence": [
+            "掲載のイベントはすべて終了いたしました。"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "still described last year's events and said they had finished"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Page text was read in the Japanese locale; the English page was not separately opened."
+    },
+    {
+      "id": "sg.hotel.fullerton-nye-2026",
+      "topic": "hotel",
+      "claim": "The Fullerton Hotel Singapore lists a Countdown Party at The Courtyard on 31 December 2026, 9pm to 1am (S$118++ cover, complimentary for diners and in-house guests), a six-course Lighthouse dinner at S$598++ with fireworks over the waterfront, and a Town dinner feast from S$308++ per adult.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.fullertonhotels.com/fullerton-hotel-singapore/dining/new-year-s-eve",
+          "kind": "operator",
+          "title": "The Fullerton Hotel Singapore: New Year's Celebrations",
+          "evidence": [
+            "31 December 2026, 9.00 p.m. to 1.00 a.m.",
+            "Complimentary access for diners and in-house guests",
+            "6-Course Set Menu: S$598++ per person",
+            "S$308++ per adult"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "with a S$118++ cover charge and complimentary access for diners and in-house guests",
+          "a six-course dinner at The Lighthouse for S$598++ per person",
+          "a dinner feast at Town from S$308++ per adult"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "sg.hotel.swissotel-stamford",
+      "topic": "hotel",
+      "claim": "Swissotel The Stamford, 2 Stamford Road, has 1,252 guestrooms and suites with private balconies and City Hall MRT at its doorstep, by its own account.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.swissotel.com/hotels/singapore-stamford/",
+          "kind": "operator",
+          "title": "Swissotel The Stamford",
+          "evidence": [
+            "all 1,252 beautifully appointed guestrooms and suites with private balconies",
+            "City Hall Mass Rapid Transit (MRT) train station and other major transportation nodes at your doorstep"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "1,252 guestrooms and suites at 2 Stamford Road, each with a private balcony, with City Hall MRT at the hotel's doorstep by its own account"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "sg.hotel.grand-copthorne-waterfront",
+      "topic": "hotel",
+      "claim": "Grand Copthorne Waterfront Hotel Singapore, 392 Havelock Road, lists newly renovated Grand Deluxe Rooms of 26 sq m and a Festive 2026 dining programme from 2 November 2026 to 1 January 2027.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.millenniumhotels.com/en/singapore/grand-copthorne-waterfront/",
+          "kind": "operator",
+          "title": "Grand Copthorne Waterfront Hotel Singapore",
+          "evidence": [
+            "392 HAVELOCK ROAD SINGAPORE 169663",
+            "Festive 2026 at Grand Copthorne Waterfront (2 Nov 2026 - 1 Jan 2027)",
+            "Grand Deluxe Room 26 Sqm"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "At 392 Havelock Road, with a riverside restaurant",
+          "newly renovated Grand Deluxe rooms of 26 sq m",
+          "a Festive 2026 dining programme from 2 November 2026 to 1 January 2027"
+        ]
+      },
+      "recheck_days": 60
+    },
+    {
+      "id": "sg.hotel.ibis-budget-clarke-quay",
+      "topic": "hotel",
+      "claim": "ibis budget Singapore Clarke Quay is a two-star economy hotel at 20 Hong Kong Street that describes itself as steps from Clarke Quay's nightlife and dining, with mobile check-in.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/B6J9/index.en.shtml",
+          "kind": "operator",
+          "title": "ibis budget Singapore Clarke Quay (Accor)",
+          "evidence": [
+            "20 Hong Kong Street, 059663 Singapore",
+            "Prime location steps from Clarke Quay",
+            "Convenient mobile check-in for a smooth, contactless arrival."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "A two-star economy hotel at 20 Hong Kong Street",
+          "with mobile check-in"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "sg.hotel.goodwood-park",
+      "topic": "hotel",
+      "claim": "Goodwood Park Hotel calls itself a five-star heritage hotel with 233 guest rooms and suites, two outdoor swimming pools and five restaurants.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.goodwoodparkhotel.com/",
+          "kind": "operator",
+          "title": "Goodwood Park Hotel",
+          "evidence": [
+            "features 233 guest rooms and suites",
+            "two outdoor swimming pools",
+            "five renowned restaurants"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "233 guest rooms and suites, two outdoor swimming pools and five restaurants"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "sg.hotel.jen-orchardgateway",
+      "topic": "hotel",
+      "claim": "JEN Singapore Orchardgateway by Shangri-La is at 277 Orchard Road with a rooftop infinity pool and direct connectivity to public transport.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/hotels/jen/singapore/orchardgateway/",
+          "kind": "operator",
+          "title": "JEN Singapore Orchardgateway by Shangri-La",
+          "evidence": [
+            "award-winning rooftop infinity pool",
+            "unmatched direct connectivity to public transport links"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "At 277 Orchard Road, with an award-winning rooftop infinity pool, direct connectivity to public transport"
+        ]
+      },
+      "recheck_days": 90
+    },
+    {
+      "id": "sg.hotel.parkroyal-beach-road",
+      "topic": "hotel",
+      "claim": "PARKROYAL on Beach Road, Singapore is at 7500C Beach Road, just steps from Kampong Glam by the hotel's account, with a current offer including a full breakfast.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.panpacific.com/en/hotels-and-resorts/pr-beach-road.html",
+          "kind": "operator",
+          "title": "PARKROYAL on Beach Road, Singapore",
+          "evidence": [
+            "7500C Beach Road, Singapore 199593",
+            "just steps away from Kampong Glam",
+            "A full breakfast to begin each day with ease"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "At 7500C Beach Road, which the hotel puts just steps from Kampong Glam"
+        ]
+      },
+      "recheck_days": 60
+    },
+    {
+      "id": "sg.hotel.ibis-bencoolen",
+      "topic": "hotel",
+      "claim": "ibis Singapore on Bencoolen is in the Bugis district with Rochor, Bencoolen and Bugis MRT stations within a nine-minute walk, a notice about guest-lift upgrade works, and non-smoking status from 1 November 2026.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.ibissingaporebencoolen.com/",
+          "kind": "operator",
+          "title": "ibis Singapore on Bencoolen",
+          "evidence": [
+            "Rochor, Bencoolen, and Bugis (all within a 9-minute walk)"
+          ]
+        },
+        {
+          "url": "https://www.ibissingaporebencoolen.com/our-accommodations/",
+          "kind": "operator",
+          "title": "ibis Singapore on Bencoolen: rooms",
+          "evidence": [
+            "Update: Lift Upgrading Works",
+            "Update: Non-Smoking Hotel from 1 November 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "with three MRT stations, Rochor, Bencoolen and Bugis, all within a nine-minute walk",
+          "guest-lift upgrade works",
+          "becomes non-smoking from 1 November 2026"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "sg.hotel.amara-sanctuary-sentosa",
+      "topic": "hotel",
+      "claim": "Amara Sanctuary Sentosa is at 1 Larkhill Road, a resort on a former British military outpost with colonial-style accommodation and views of the South China Sea.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://sentosa.amarahotels.com/",
+          "kind": "operator",
+          "title": "Amara Sanctuary Sentosa",
+          "evidence": [
+            "Originally a critical British military outpost",
+            "grand colonial-style accommodation",
+            "1 Larkhill Road"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-singapore-new-years-eve.html": [
+          "At 1 Larkhill Road, a resort on a former British military outpost"
+        ]
+      },
+      "recheck_days": 90
     }
   ]
 }

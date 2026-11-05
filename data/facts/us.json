@@ -1480,6 +1480,10 @@
           "a combined rate of 13.38% inside the Primary Gaming Corridor, the zone around the Strip, and 13% outside it",
           "it counts resort fees in the revenue the tax applies to",
           "SAHARA and Alexis Park state 13.38% on their own sites"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "Inside the Primary Gaming Corridor, which covers the Strip",
+          "Add 13.38% inside the Primary Gaming Corridor or 13% outside it"
         ]
       }
     },
@@ -1657,6 +1661,10 @@
         ],
         "articles/where-to-stay-in-las-vegas-ces.html": [
           "an average room of 325 sq ft and a mandatory $39 plus tax resort fee"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "a mandatory $39.00 per room, per day resort fee that includes covered parking",
+          "rooms of 325 sq ft"
         ]
       }
     },
@@ -1748,6 +1756,11 @@
           "$22.25 to Zone 1, Sunset north to Tropicana",
           "a $2.40 airport properties fee per pick-up, a $3 card fee, a fuel surcharge and a 3% excise tax",
           "lists no Convention Center zone"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "$22.25 to Zone 1 (Sunset north to Tropicana)",
+          "$30.25 to Zone 3 (Flamingo north to the Stratosphere)",
+          "a $2.40 airport pick-up fee and a $3.00 card fee"
         ]
       }
     },
@@ -1788,6 +1801,9 @@
       "used_in": {
         "articles/where-to-stay-in-las-vegas.html": [
           "Route 108 and the Red Line, formerly Route 109, stop at T1"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "Route 108 and the Red Line serve the airport"
         ]
       }
     },
@@ -1807,6 +1823,9 @@
         "articles/where-to-stay-in-las-vegas.html": [
           "the Deuce and SDX buses cost $6 for two hours, $8 for 24 hours and $20 for three days",
           "local, residential routes at $2 a ride or $3 for two hours"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "$6 for two hours, $8 for 24 hours and $20 for three days"
         ]
       }
     },
@@ -1825,6 +1844,15 @@
           "url": "https://www.ces.tech/attendee-guides/transportation/",
           "kind": "official",
           "title": "CES: Transportation"
+        },
+        {
+          "url": "https://www.lvmonorail.com/",
+          "kind": "operator",
+          "title": "Las Vegas Monorail",
+          "evidence": [
+            "seven stations",
+            "MGM Grand Station"
+          ]
         }
       ],
       "used_in": {
@@ -1836,6 +1864,10 @@
           "Seven stations run from MGM Grand to SAHARA",
           "A single ride is $5.75 as an eTicket and $6.25 at full fare",
           "the monorail does not serve the Venetian Expo"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "A single ride is $5.75 as an eTicket and $6.25 at full fare",
+          "seven stations run from SAHARA to MGM Grand"
         ]
       }
     },
@@ -1865,6 +1897,9 @@
         "articles/where-to-stay-in-las-vegas.html": [
           "rooms of 510 sq ft in categories such as the Fountain View King",
           "non-smoking except certain accommodations on the 19th floor of the Bellagio Tower"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "Fountain View King at 510 sq ft"
         ]
       }
     },
@@ -1910,6 +1945,10 @@
         ],
         "articles/where-to-stay-in-las-vegas-ces.html": [
           "Its rooms run from a 460 sq ft City Room Queen to 730 sq ft Terrace Studios with private terraces"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "City Room Queen at 460 sq ft",
+          "Terrace Studios of 730 sq ft include fountain-view versions"
         ]
       }
     },
@@ -1929,6 +1968,10 @@
         "articles/where-to-stay-in-las-vegas.html": [
           "with 725 sq ft Premier King and Two Queen Suites",
           "the hotel says its suites do not include pullout couch beds"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "725 sq ft Premier King and Premier Two Queen Suites",
+          "its suites do not include pullout couch beds"
         ]
       }
     },
@@ -1948,6 +1991,10 @@
         "articles/where-to-stay-in-las-vegas.html": [
           "Pyramid rooms of 420 sq ft with slanted windows",
           "the 449 sq ft Tower Premier King"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "Pyramid rooms of 420 sq ft with slanted windows",
+          "449 sq ft Tower Premier King"
         ]
       }
     },
@@ -8247,6 +8294,10 @@
       "used_in": {
         "articles/where-to-stay-in-las-vegas-ces.html": [
           "At 3300 Las Vegas Boulevard South, with rooms of about 400 sq ft, free self-parking and valet, and a $49.95 plus tax resort fee"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "a $49.95 plus tax daily resort fee",
+          "Deluxe rooms of approximately 400 sq ft"
         ]
       }
     },
@@ -8319,6 +8370,9 @@
       "used_in": {
         "articles/where-to-stay-in-las-vegas-ces.html": [
           "Its Deluxe rooms are 520 sq ft"
+        ],
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "Deluxe King and Deluxe Two Queen rooms are 520 sq ft by its room page"
         ]
       }
     },
@@ -11075,6 +11129,348 @@
       "used_in": {
         "articles/where-to-stay-for-the-masters.html": [
           "a heading inviting guests to stay during the Masters Tournament"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.nye.monorail-hours",
+      "topic": "transport",
+      "claim": "The Las Vegas Monorail's regular hours are 7am to 2am Tuesday to Thursday; 31 December 2026 is a Thursday. Visit Las Vegas said for 2025 that it was expected to run all night; no 2026 holiday notice was found.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.lvmonorail.com/",
+          "kind": "operator",
+          "title": "Las Vegas Monorail",
+          "evidence": [
+            "Tuesday – Thursday: 7am – 2 am"
+          ]
+        },
+        {
+          "url": "https://www.visitlasvegas.com/experience/post/cue-the-fireworks/",
+          "kind": "official",
+          "title": "Visit Las Vegas: New Year's Eve 2025 (last year's)",
+          "evidence": [
+            "The Las Vegas Monorail is expected to run all night long"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "its regular hours are 7am to 2am",
+          "it was expected to run all night"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.nye.fireworks-2025",
+      "topic": "place",
+      "claim": "For 31 December 2025 Visit Las Vegas described an eight-minute midnight fireworks show launched from ten resort properties (MGM Grand, ARIA, Planet Hollywood, Caesars Palace, Palms, Treasure Island, The Venetian, Fontainebleau, Resorts World, The STRAT), with a first New Year's Eve drone show; the 2026 plan was not published on 5 November 2026.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.visitlasvegas.com/experience/post/cue-the-fireworks/",
+          "kind": "official",
+          "title": "Visit Las Vegas: New Year's Eve 2025 (last year's)",
+          "evidence": [
+            "an eight-minute fireworks show at midnight, launched from ten resort properties",
+            "MGM Grand Hotel and Casino, ARIA Resort and Casino, Planet Hollywood",
+            "at least 4-5 launch locations",
+            "the first off-Strip location"
+          ]
+        },
+        {
+          "url": "https://www.visitlasvegas.com/experience/post/how-to-spend-new-years-in-las-vegas/",
+          "kind": "official",
+          "title": "Visit Las Vegas: how to spend New Year's in Las Vegas",
+          "evidence": [
+            "Palms Casino Resort off-Strip will also join"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "an eight-minute fireworks show at midnight, launched from ten resort properties",
+          "ARIA appears on last year's list of launch sites",
+          "the first off-Strip launch site"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.nye.strip-closure-2025",
+      "topic": "transport",
+      "claim": "For 31 December 2025 Visit Las Vegas said more than 400,000 people gather on the Strip and Las Vegas Boulevard closes between Russell Road and Sahara Avenue, with entry points closing from as early as 5:30pm, shut entirely by 8pm and typically reopening by 2am on 1 January; some hotels ask for a room key.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.visitlasvegas.com/experience/post/cue-the-fireworks/",
+          "kind": "official",
+          "title": "Visit Las Vegas: New Year's Eve 2025 (last year's)",
+          "evidence": [
+            "more than 400,000 people gather on the Las Vegas Strip",
+            "begin closing as early as 5:30 p.m., finally shutting down entirely by 8 p.m.",
+            "Some hotels will require a room key to enter the property"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "more than 400,000 people gather on the Strip",
+          "entry points began closing as early as 5:30pm and shut entirely by 8pm",
+          "some hotels will ask for your room key"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.nye.free-bus-2025",
+      "topic": "transport",
+      "claim": "Visit Las Vegas said for 2025 that the city would offer free bus transportation from 6pm, detouring around the usual Boulevard stops; RTC's own page could not be read.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.visitlasvegas.com/experience/post/cue-the-fireworks/",
+          "kind": "official",
+          "title": "Visit Las Vegas: New Year's Eve 2025 (last year's)",
+          "evidence": [
+            "The city will offer free bus transportation beginning at 6 p.m."
+          ]
+        },
+        {
+          "url": "https://www.visitlasvegas.com/experience/post/how-to-spend-new-years-in-las-vegas/",
+          "kind": "official",
+          "title": "Visit Las Vegas: how to spend New Year's in Las Vegas",
+          "evidence": [
+            "Free bus transportation will be provided all night, starting at 6 p.m."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "the city would offer free bus transportation from 6pm"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.nye.fremont-party",
+      "topic": "place",
+      "claim": "The Fremont Street Experience's New Year's Eve page (no year stated; the lineup differs from 2025's) lists Countdown Under The Canopy on December 31 from 7pm, gates at 7pm, 21+ only, early-bird tickets of $35 plus fees, headliners including Hoobastank and Petey Pablo, and no refunds.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://fremontstreetexperience.com/countdown-under-the-canopy/",
+          "kind": "official",
+          "title": "Fremont Street Experience: Countdown Under The Canopy",
+          "evidence": [
+            "Must be 21+",
+            "Hoobastank",
+            "Gates open at 7pm.",
+            "NO REFUNDS OR CANCELLATIONS WILL BE ISSUED FOR ANY REASON"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "lists Countdown Under The Canopy on 31 December from 7pm",
+          "early-bird tickets were $35 plus fees when we checked",
+          "It is 21 or over only"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.nye.plaza",
+      "topic": "place",
+      "claim": "The Plaza's New Year's Eve page (headed 2027) says its midnight fireworks are Downtown's only, with viewing on Main Street closed to vehicles, and offers a hotel package of up to 25% off room rates for travel 28 December 2026 to 4 January 2027, two-night minimum, book by 26 December 2026.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.plazahotelcasino.com/entertainment/new-years-eve/",
+          "kind": "official",
+          "title": "Plaza Hotel & Casino: New Year's Eve",
+          "evidence": [
+            "Downtown’s only, New Year’s Eve Fireworks show",
+            "Two (2) night minimum stay required",
+            "Travel: December 28, 2026 – January 4, 2027",
+            "Book by: December 26, 2026",
+            "Up to 25% off room rates"
+          ]
+        },
+        {
+          "url": "https://www.visitlasvegas.com/experience/post/how-to-spend-new-years-in-las-vegas/",
+          "kind": "official",
+          "title": "Visit Las Vegas: how to spend New Year's in Las Vegas",
+          "evidence": [
+            "Plaza Hotel & Casino will launch its own massive fireworks show on Fremont Street"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "runs its own midnight fireworks, which it calls Downtown's only",
+          "up to 25% off room rates for travel from 28 December 2026 to 4 January 2027, with a two-night minimum stay, and must be booked by 26 December 2026"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.nye.worked-example",
+      "topic": "price",
+      "claim": "Our arithmetic: an illustrative $200 room plus Treasure Island's $49.95 fee, with 13.38% on both, is $283.39 a night; with the Plaza's $39 fee and 13% on both, $270.07.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://files.lasvegasnevada.gov/business-licensing/RoomTaxPacket.pdf",
+          "kind": "official",
+          "title": "City of Las Vegas: room tax instructions and guidelines (PDF)",
+          "evidence": [
+            "INSIDE the Primary Gaming Corridor is 13.38%",
+            "OUTSIDE the Primary Gaming Corridor is 13.00%"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "it comes to $283.39 a night",
+          "it comes to $270.07"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-strat",
+      "topic": "hotel",
+      "claim": "The STRAT's home page gives 2000 Las Vegas Blvd. S, an Elevate King room of 340 sq ft, and a New Year's Eve event with ticket sales; it shows no fee amount or minimum stay.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.thestrat.com/",
+          "kind": "official",
+          "title": "The STRAT Hotel, Casino & Tower",
+          "evidence": [
+            "2000 Las Vegas Blvd. S",
+            "340 Sq Ft",
+            "NEW YEAR'S EVE AT THE STRAT"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "At 2000 Las Vegas Blvd S",
+          "the 340 sq ft Elevate King"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-golden-nugget",
+      "topic": "hotel",
+      "claim": "Golden Nugget Las Vegas's hotel page lists Rush Tower Premier California King rooms of 439 square feet and says it is part of Fremont Street Experience; its home page offers free parking for hotel guests.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.goldennugget.com/las-vegas/hotel/",
+          "kind": "official",
+          "title": "Golden Nugget Las Vegas: hotel overview",
+          "evidence": [
+            "439 square feet",
+            "Fremont Street Experience"
+          ]
+        },
+        {
+          "url": "https://www.goldennugget.com/las-vegas/",
+          "kind": "official",
+          "title": "Golden Nugget Las Vegas",
+          "evidence": [
+            "FREE PARKING FOR OUR HOTEL GUESTS"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "Premier California King at 439 sq ft",
+          "free parking for hotel guests by its home page"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-el-cortez",
+      "topic": "hotel",
+      "claim": "El Cortez's policies page gives check-in from 2:00 pm and a 21-or-over rule; its holiday offer of 1 October to 26 December states a two-night minimum with blackout dates.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://elcortezhotelcasino.com/hotel/policies/",
+          "kind": "official",
+          "title": "El Cortez: hotel policies",
+          "evidence": [
+            "Check-in starts at 2:00 p",
+            "21 or older"
+          ]
+        },
+        {
+          "url": "https://elcortezhotelcasino.com/",
+          "kind": "official",
+          "title": "El Cortez Hotel & Casino",
+          "evidence": [
+            "2-night minimum stay",
+            "Blackout dates apply",
+            "Oct 1–Dec 26"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "with check-in from 2pm",
+          "needs a two-night minimum and has blackout dates"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-palms",
+      "topic": "hotel",
+      "claim": "Palms' site gives 4321 W. Flamingo Rd. and lists a Fantasy Strip View King of 510 sq ft.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.palms.com/",
+          "kind": "official",
+          "title": "Palms Casino Resort",
+          "evidence": [
+            "4321 W. Flamingo Rd."
+          ]
+        },
+        {
+          "url": "https://www.palms.com/stay/signature-rooms/fantasy-strip-view-king",
+          "kind": "official",
+          "title": "Palms: Fantasy Strip View King",
+          "evidence": [
+            "510 sq"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "At 4321 W Flamingo Rd",
+          "Fantasy Strip View King rooms of 510 sq ft"
+        ]
+      }
+    },
+    {
+      "id": "us.lv.hotel-alexis",
+      "topic": "hotel",
+      "claim": "Alexis Park's home page says it is the largest off-Strip, non-gaming resort in Las Vegas and three minutes from the Strip, with Parlor, Monarch and LOFT Suites.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.alexispark.com/",
+          "kind": "official",
+          "title": "Alexis Park Resort",
+          "evidence": [
+            "Parlor, Monarch, and LOFT Suites",
+            "three minutes from the Las Vegas St"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+          "three minutes from the Strip",
+          "Parlor, Monarch and LOFT Suites"
         ]
       }
     }

@@ -114,6 +114,10 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-las-vegas-new-years-eve": dict(area="Center Strip", lat=36.1126, lng=-115.1767, zoom=14,
+                                                        address="Bellagio, 3600 Las Vegas Blvd S, Las Vegas, NV, USA"),
+    "where-to-stay-in-singapore-new-years-eve": dict(area="Marina Bay", lat=1.2843, lng=103.8585, zoom=15,
+                                                        address="Marina Bay, Singapore"),
     "where-to-stay-in-hong-kong-new-years-eve": dict(area="Wan Chai", lat=22.2783, lng=114.1747, zoom=15,
                                                         address="Wan Chai, Hong Kong"),
     "where-to-stay-in-rio-new-years-eve": dict(area="Copacabana", lat=-22.9672, lng=-43.1789, zoom=14,
@@ -2023,6 +2027,21 @@ HOTELS = {
     "Royal Plaza Hotel": _B + "hk/royal-plaza.html",
     "Harbour Grand Hong Kong": _B + "hk/harbour-grand-hong-kong.html",
     "Harbour Plaza North Point": _B + "hk/harbourplazan.html",
+    # Singapore, where-to-stay-in-singapore-new-years-eve (Booking.com pages confirmed by hotel name and city)
+    "Mandarin Oriental, Singapore": _B + "sg/hotel-mandarin-oriental.html",
+    "Swissôtel The Stamford": _B + "sg/swissotelsingapore.html",
+    "Grand Copthorne Waterfront Hotel Singapore": _B + "sg/grand-copthorne-waterfront.html",
+    "ibis budget Singapore Clarke Quay": _B + "sg/ibis-budget-singapore-clarke-quay.html",
+    "Goodwood Park Hotel": _B + "sg/goodwood-park.html",
+    "JEN Singapore Orchardgateway by Shangri-La": _B + "sg/jen-orchardgateway-singapore.html",
+    "PARKROYAL on Beach Road, Singapore": _B + "sg/parkroyal-on-beach-road.html",
+    "ibis Singapore on Bencoolen": _B + "sg/ibis-singapore-on-bencoolen.html",
+    "Amara Sanctuary Sentosa": _B + "sg/amara-sanctuary-resort-sentosa.html",
+    # Las Vegas, where-to-stay-in-las-vegas-new-years-eve (Booking.com pages confirmed by hotel name and city)
+    "The STRAT Hotel, Casino & Tower": _B + "us/stratosphere-casino.html",
+    "Golden Nugget Las Vegas": _B + "us/golden-nugget-amp-casino-las-vegas.html",
+    "El Cortez Hotel & Casino": _B + "us/po-el-cortez-hotel-casino-21-and-over-only-downtown-fremont-street.html",
+    "Palms Casino Resort": _B + "us/palms-casino-resort.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

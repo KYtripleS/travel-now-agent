@@ -468,6 +468,22 @@
       "name": "Hong Kong New Year's Eve",
       "place": "Hong Kong",
       "when": "31 December; the 2026 plan was not yet published, and last year had no fireworks"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-singapore-new-years-eve",
+      "name": "Marina Bay Countdown",
+      "place": "Singapore",
+      "when": "31 December; the 2026 plan was not yet published"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-las-vegas-new-years-eve",
+      "name": "Las Vegas New Year's Eve",
+      "place": "Las Vegas, US",
+      "when": "31 December; the 2026 Strip plan was not yet published"
     }
   ],
   "seasons": [

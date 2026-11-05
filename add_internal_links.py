@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-las-vegas-new-years-eve.html": (
+        "Where to Stay in Las Vegas",
+        "Strip fireworks, Fremont Street's party and 12 hotels, with the 13.38% room tax and the road closure.",
+    ),
+    "articles/where-to-stay-in-singapore-new-years-eve.html": (
+        "Where to Stay in Singapore",
+        "Marina Bay countdown: last year's closures and trains, six areas, 12 hotels, and 19.9% in fees.",
+    ),
     "articles/where-to-stay-in-hong-kong-new-years-eve.html": (
         "Where to Stay in Hong Kong",
         "Last year's countdown had no fireworks: where to stay, 12 hotels, the MTR and the 3% tax.",
@@ -2393,6 +2401,20 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
+        "articles/where-to-stay-in-las-vegas.html",
+        "articles/where-to-stay-in-las-vegas-ces.html",
+        "articles/where-to-stay-in-new-york-new-years-eve.html",
+        "articles/where-to-stay-in-london-new-years-eve.html",
+        "articles/best-esim-usa-2026.html",
+    ],
+    "articles/where-to-stay-in-singapore-new-years-eve.html": [
+        "articles/where-to-stay-in-singapore.html",
+        "articles/singapore-first-timers-guide.html",
+        "articles/things-to-do-in-singapore.html",
+        "articles/where-to-stay-in-singapore-chinese-new-year.html",
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
     ],
     "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
         "articles/where-to-stay-in-hong-kong.html",
