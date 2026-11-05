@@ -18,6 +18,11 @@
           "a flat fee of AED 7 to AED 20 a room a night set by the hotel's category",
           "charged per occupied room, per night, by the hotel's classification",
           "It is per room, not per person, so two people sharing pay it once"
+        ],
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "Five-star or higher hotel or resort AED 20",
+          "Four-star hotel or resort AED 15",
+          "One-star or budget hotel AED 7"
         ]
       }
     },
@@ -35,6 +40,9 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-dubai.html": [
+          "It is charged for a maximum of 30 consecutive nights, to the main guest in the room"
+        ],
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
           "It is charged for a maximum of 30 consecutive nights, to the main guest in the room"
         ]
       }
@@ -67,6 +75,10 @@
           "lowered the municipality fee on hotel sales from 10% to 7%",
           "hotels' own rate terms list both, with a 10% service charge, on each room night",
           "Together that is at least 22% of the room rate"
+        ],
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "lowered the municipality fee on hotel sales from 10% to 7%",
+          "still list the 7% municipality fee, the 10% service charge and 5% VAT"
         ]
       }
     },
@@ -84,6 +96,9 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-dubai.html": [
+          "the UAE's VAT is 5%"
+        ],
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
           "the UAE's VAT is 5%"
         ]
       }
@@ -109,6 +124,10 @@
         "articles/where-to-stay-in-dubai.html": [
           "pays AED 60 on top of the room, by our arithmetic",
           "on an AED 800 room, at least AED 176 a night before the Tourism Dirham, by our arithmetic"
+        ],
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "on an AED 800 room, at least AED 176 a night before the Tourism Dirham, by our arithmetic",
+          "pays AED 60 in Tourism Dirham on top"
         ]
       }
     },
@@ -139,6 +158,10 @@
           "In May 2026 Dubai's government approved a second package of economic incentives",
           "we could not find a published end date for this one",
           "Hotels' own terms in October 2026 still list the fees"
+        ],
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "exempts establishments registered with the Department of Economy and Tourism from collecting the Tourism Dirham and the sales fees on hotel rooms",
+          "The package's measures run for three to 12 months"
         ]
       }
     },
@@ -339,14 +362,17 @@
       "used_in": {
         "articles/where-to-stay-in-dubai.html": [
           "advises a high degree of caution in the UAE and warns that its airspace may open or close at short notice"
+        ],
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "advises a high degree of caution in the UAE"
         ]
       }
     },
     {
       "id": "ae.uae.travel-advice.uk",
       "topic": "place",
-      "claim": "The UK Foreign Office (updated 24 July 2026, still current 21 October 2026) says that since 8 July there have been strikes and retaliatory attacks by Iran across the region, and tells British nationals in the Middle East to be prepared for flight cancellations and periodic airspace closures.",
-      "checked": "2026-10-21",
+      "claim": "The UK Foreign Office (updated 27 October 2026, still current 4 November 2026) says the context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high, and tells British nationals in or travelling through the Middle East to be prepared for possible flight cancellations, airspace closures and travel disruptions.",
+      "checked": "2026-11-04",
       "sources": [
         {
           "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
@@ -356,8 +382,12 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-dubai.html": [
-          "strikes and retaliatory attacks by Iran across the region since 8 July",
-          "be prepared for flight cancellations and periodic airspace closures"
+          "the context in the Middle East remains deeply unpredictable",
+          "be prepared for possible flight cancellations, airspace closures and travel disruptions"
+        ],
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "the context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high",
+          "be prepared for possible flight cancellations and airspace closures"
         ]
       }
     },
@@ -382,8 +412,8 @@
     {
       "id": "ae.dubai.armani",
       "topic": "hotel",
-      "claim": "Armani Hotel Dubai occupies the concourse level through the 39th floor of Burj Khalifa with 160 guest rooms and suites designed by Giorgio Armani, steps from the Dubai Mall and Dubai Fountain; the Armani Deluxe Room is 45 sq m with City View; a separate Fountain View category exists.",
-      "checked": "2026-10-21",
+      "claim": "Armani Hotel Dubai occupies the concourse level through the 39th floor of Burj Khalifa with 160 guest rooms and suites designed by Giorgio Armani, steps from the Dubai Mall and Dubai Fountain; the Armani Deluxe Room is 45 sq m with City View; a separate Fountain View category exists. The hotel closed on 1 April 2026 for a full refurbishment, with a full reopening to guests reported for March 2027.",
+      "checked": "2026-11-05",
       "sources": [
         {
           "url": "https://www.armanihotels.com/en/hotels/armani-hotel-dubai",
@@ -394,6 +424,11 @@
           "url": "https://www.armanihotels.com/en/hotels/armani-hotel-dubai/rooms-and-suites/armani-deluxe-room",
           "kind": "operator",
           "title": "Armani Deluxe Room"
+        },
+        {
+          "url": "https://gulfnews.com/business/armani-hotel-dubai-to-reopen-on-this-date-after-landmark-transformation-inside-burj-khalifa-1.500673880",
+          "kind": "news",
+          "title": "Gulf News: Armani Hotel Dubai to reopen after transformation inside Burj Khalifa"
         }
       ],
       "used_in": {
@@ -401,7 +436,8 @@
           "from the concourse level to the 39th floor, with 160 rooms and suites",
           "The Armani Deluxe Room measures 45 m²"
         ]
-      }
+      },
+      "recheck_days": 60
     },
     {
       "id": "ae.dubai.vida",
@@ -635,6 +671,555 @@
         "articles/where-to-stay-in-dubai.html": [
           "a private beach, six pools, 12 restaurants and bars",
           "the hotel sells day passes to its beach and pools"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.2025-plan",
+      "topic": "transport",
+      "claim": "The Dubai Media Office's 26 December 2025 release on the Event Security Committee's plan for the night of 31 December 2025 (branded New Year 2026) gave 48 fireworks shows at 40 locations, including Burj Khalifa, Global Village, Atlantis The Royal, Expo City Dubai and, for the first time, Dubai Frame; Dubai Metro Red and Green Lines from 5am on 31 December 2025 to 11.59pm on 1 January 2026 (43 hours) and the Tram from 6am on 31 December to 1am on 2 January; more than 14,000 taxis, over 18,000 limousine and luxury vehicles and more than 1,300 buses.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mediaoffice.ae/en/news/2025/december/26-12/dubais-event-security-committee-announces-full-readiness-for-new-year",
+          "kind": "official",
+          "title": "Dubai Media Office: Dubai's Event Security Committee announces full readiness for New Year 2026 celebrations (26 December 2025)",
+          "evidence": [
+            "fireworks displays at 40 locations across the emirate, with a total of 48 fireworks shows",
+            "Fireworks and drone shows will be presented for the first time from Dubai Frame",
+            "Metro services will run from 5 am on Wednesday 31 December 2025 until 11.59 pm on Thursday 1 January 2026",
+            "Dubai Tram services will operate from 6 am on Wednesday 31 December 2025 until 1 am on Friday 2 January 2026",
+            "with more than 14,000 taxis"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "48 shows at 40 locations",
+          "from 5am on 31 December to 11:59pm on 1 January",
+          "the Tram from 6am on 31 December to 1am on 2 January",
+          "Last year, there were more than 14,000 taxis"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "ae.dubai.nye.2025-closures",
+      "topic": "transport",
+      "claim": "For the night of 31 December 2025 the Dubai Media Office said road closures around event areas would begin at 4pm and gradually expand until 11pm, covering Al Asayel Street, Mohammed bin Rashid Boulevard, Burj Khalifa Street, the Lower and Upper Financial Centre Roads, Al Mustaqbal Street, Al Sukook Street and Sheikh Zayed Road.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mediaoffice.ae/en/news/2025/december/26-12/dubais-event-security-committee-announces-full-readiness-for-new-year",
+          "kind": "official",
+          "title": "Dubai Media Office: Event Security Committee readiness for New Year 2026 (26 December 2025)",
+          "evidence": [
+            "Road closures around event areas will begin at 4 pm and gradually expand until 11 pm",
+            "covering key roads including Al Asayel Street, Mohammed bin Rashid Boulevard, Burj Khalifa Street",
+            "Al Mustaqbal Street, Al Sukook Street, and Sheikh Zayed Road"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "Last year, roads closed from 4pm",
+          "Al Mustaqbal Street was on last year's list of streets closed from 4pm",
+          "Plan to be where you are watching, or in your hotel, before then"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "ae.dubai.nye.emaar-public-2025",
+      "topic": "place",
+      "claim": "Emaar's Downtown Dubai public viewing areas for the night of 31 December 2025 were free on a first-come, first-served basis with no tickets or badges, and Emaar said road closures would begin as early as 4 PM.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://mydubainewyear.emaar.com/en/public/",
+          "kind": "operator",
+          "title": "Emaar: Public viewing areas (Emaar NYE 2026 page, event of 31 December 2025)",
+          "evidence": [
+            "Free access to the public viewing areas on first-come, first-serve basis. No tickets or badges required.",
+            "Road closures will begin as early as 4 PM, so plan to arrive before then."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "Free access on a first-come, first-served basis, with no tickets or badges required",
+          "road closures begin as early as 4 PM and to plan to arrive before then"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "ae.dubai.nye.burj-park-2025",
+      "topic": "price",
+      "claim": "Emaar's ticketed Burj Park viewing for 31 December 2025 cost AED 997.5 including VAT for adults and AED 577.5 including VAT for children aged 5 to 12, with doors open at 12:00 PM; tickets were non-refundable and non-transferable and could not be resold for commercial gain; the 2026 terms had not been published.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://mydubainewyear.emaar.com/en/burj-park/",
+          "kind": "operator",
+          "title": "Emaar: Burj Park New Year's Eve 2025 tickets",
+          "evidence": [
+            "The ticket is valid for the EMAAR NYE event at Burj Park on 31 December 2025",
+            "AED 997.5 incl. VAT",
+            "Kids (5–12 yrs): AED 577.5 incl. VAT",
+            "Doors open at 12:00 PM",
+            "Tickets are non-refundable, non-transferable, and cannot be used or resold for commercial gain"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "Adults AED 997.5 including VAT, children aged 5 to 12 AED 577.5 including VAT; doors open at 12:00 PM",
+          "non-refundable and non-transferable"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "ae.dubai.nye.emaar-faq-2025",
+      "topic": "transport",
+      "claim": "Emaar's FAQ for the 2025 event said a hotel guest's badge is valid only for their own hotel and that the Metro to Dubai Mall would be operational but may close depending on crowd conditions.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://mydubainewyear.emaar.com/en/faq/",
+          "kind": "operator",
+          "title": "Emaar: New Year's Eve FAQ (Emaar NYE 2026 page, event of 31 December 2025)",
+          "evidence": [
+            "For hotel staying guests, badge access is only valid for accessing your respective hotel",
+            "Will the metro station to Dubai Mall be operational?",
+            "Yes, the metro will be operational but may close depending on crowd conditions."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "a hotel guest's badge is valid only for their own hotel",
+          "the Metro to Dubai Mall will run but may close depending on crowd conditions"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "ae.dubai.nye.emaar-programme-2025",
+      "topic": "place",
+      "claim": "Emaar's press release of 24 November 2025 announced a Downtown Dubai celebration running from 31 December to 7 January, said Burj Park tickets were on sale, and said tickets could be bought through the event's official website.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.emaar.com/en/press-release-listing/emaars-nye-celebration-to-run",
+          "kind": "operator",
+          "title": "Emaar: Emaar's NYE celebration to run from 31 December to 7 January (24 November 2025)",
+          "evidence": [
+            "continuing from December 31 through January 7",
+            "Burj Park tickets are now on sale",
+            "be purchased through the event's official website"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "A celebration running from 31 December to 7 January",
+          "Emaar announced its programme and opened ticket sales on 24 November 2025",
+          "Emaar sold last year's tickets through its official website"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "ae.dubai.nye.rta-ridership-2025",
+      "topic": "transport",
+      "claim": "The RTA reported more than 2,836,859 public transport passengers on New Year's Eve for the 2026 celebrations (the night of 31 December 2025), 13% up on the year before, including 1,249,636 on the Metro Red and Green Lines.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mediaoffice.ae/en/news/2026/january/01-01/rta-new-year-passengers",
+          "kind": "official",
+          "title": "Dubai Media Office: Over 2.8 million passengers used public transport on New Year's Eve 2026 (1 January 2026)",
+          "evidence": [
+            "exceeded 2,836,859 passengers",
+            "marking a 13% increase",
+            "were used by 1,249,636 passengers"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "2,836,859 public transport passengers on the night, 13% more than the year before, 1,249,636 of them on the Metro's Red and Green Lines"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "ae.dubai.nye.atlantis-2026",
+      "topic": "hotel",
+      "claim": "Atlantis Dubai's New Year's Eve 2026 page (welcoming 2027) says guests staying over New Year's Eve at Atlantis, The Palm or Atlantis The Royal must choose the Under The Stars Gala Dinner or a restaurant experience in addition to the room, that a minimum length of stay applies (not stated), and prices the Gala for ages 14 and over at AED 8,500 (Premium Seating), AED 10,500 (Rouge Circle) and AED 14,500 (Golden Circle); it promises a fireworks show across Atlantis Dubai and The Palm.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.atlantis.com/dubai/whats-on/celebrations/new-years",
+          "kind": "official",
+          "title": "Atlantis Dubai: New Year's Eve 2026 Gala",
+          "evidence": [
+            "you must choose between the Gala or one of our restaurant experiences",
+            "Minimum length of stay applies.",
+            "Ages 14 years and above | AED 14,500",
+            "Ages 14 years and above | AED 10,500",
+            "Ages 14 years and above | AED 8,500",
+            "Welcome 2027 with an unforgettable fireworks show across Atlantis Dubai and The Palm."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "must choose the Gala or one of its restaurant experiences",
+          "with a minimum length of stay that it does not state",
+          "AED 8,500 for Premium Seating, AED 10,500 for Rouge Circle and AED 14,500 for Golden Circle"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "ae.dubai.nye.address-2026",
+      "topic": "hotel",
+      "claim": "Address Hotels + Resorts' festive season 2026 page says that in Dubai the Burj Khalifa fireworks bring midnight to life as 2027 begins; it states no Address Downtown New Year's Eve price or minimum stay.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.addresshotels.com/en/festive-season-celebrations-at-address/",
+          "kind": "operator",
+          "title": "Address Hotels + Resorts: Festive Season 2026",
+          "evidence": [
+            "In Dubai, the Burj Khalifa fireworks bring midnight to magnificent life",
+            "as 2027 begins"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "Address Hotels + Resorts' festive page says the Burj Khalifa fireworks bring midnight to life in Dubai"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "ae.dubai.nye.vida-festive-2026",
+      "topic": "hotel",
+      "claim": "Vida Hotels and Resorts' festive page for the end of 2026 lists a New Year's Eve fireworks gala dinner but does not say which Vida hotel hosts it.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.vidahotels.com/en/festive-season-celebrations-at-vida/",
+          "kind": "operator",
+          "title": "Vida Hotels and Resorts: Festive Season",
+          "evidence": [
+            "Ready to finish 2026 on a high?",
+            "Settle in for a New Year’s Eve fireworks gala dinner"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "Vida's festive page lists a New Year's Eve fireworks gala dinner for the group",
+          "that page does not say which Vida hotel hosts the gala"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "ae.dubai.armani-closure-2026",
+      "topic": "hotel",
+      "claim": "Gulf News reported on 14 September 2026 that Armani Hotel Dubai, inside the Burj Khalifa, closed on 1 April 2026 for a full-scale refurbishment and will fully reopen to guests in March 2027.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/armani-hotel-dubai-to-reopen-on-this-date-after-landmark-transformation-inside-burj-khalifa-1.500673880",
+          "kind": "news",
+          "title": "Gulf News: Armani Hotel Dubai to reopen after landmark transformation inside Burj Khalifa",
+          "evidence": [
+            "closed on April 1, 2026, for a full-scale refurbishment",
+            "full reopening to guests in March 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "it closed on 1 April 2026 for a full-scale refurbishment, with a full reopening to guests in March 2027"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "ae.dubai.nye.hotel.address-downtown",
+      "topic": "hotel",
+      "claim": "Address Downtown's own page calls it a luxury hotel in the heart of Downtown Dubai with direct access to Dubai Mall, just steps from Burj Khalifa, with views of the Dubai Fountain.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.addresshotels.com/en/hotels/address-downtown/",
+          "kind": "operator",
+          "title": "Address Downtown | Address Hotels + Resorts",
+          "evidence": [
+            "offering direct access to Dubai Mall for world-class shopping and dining",
+            "just steps from Burj Khalifa, complemented by breathtaking views of the Dubai Fountain"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "direct access to Dubai Mall and sits just steps from Burj Khalifa, with views of the Dubai Fountain"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.vida-dubai-mall",
+      "topic": "hotel",
+      "claim": "Vida Dubai Mall's own page describes modern rooms and suites with views of Burj Khalifa and direct access to Dubai Mall via Chinatown.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.vidahotels.com/en/hotels/vida-dubai-mall/",
+          "kind": "operator",
+          "title": "Vida Dubai Mall | Vida Hotels and Resorts",
+          "evidence": [
+            "stunning views of Burj Khalifa, and direct access to Dubai Mall via Chinatown"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "direct access to Dubai Mall via Chinatown"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.rove-downtown",
+      "topic": "hotel",
+      "claim": "Rove Downtown is at 312 Al Mustaqbal Street, Zabeel 2, and its 26 sqm rooms fit an extra guest on the sofa bed.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.rovehotels.com/en/hotels/downtown/",
+          "kind": "operator",
+          "title": "Rove Downtown | Rove Hotels",
+          "evidence": [
+            "Each 26 sqm room comfortably fits an extra guest on the sofa bed",
+            "312 Al Mustaqbal Street, Zabeel 2"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "At 312 Al Mustaqbal Street, Zabeel 2, with 26 sqm Rover Rooms that fit an extra guest on the sofa bed"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.doubletree-business-bay",
+      "topic": "hotel",
+      "claim": "DoubleTree by Hilton Dubai - Business Bay is in Bay Square; its page says Dubai Mall and the Burj Khalifa are within two kilometres, and offers rooms with views of the city and Burj Khalifa and Family Suites with two rooms.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/dxbbbdi-doubletree-dubai-business-bay/",
+          "kind": "operator",
+          "title": "DoubleTree by Hilton Dubai - Business Bay",
+          "evidence": [
+            "Dubai Mall and the Burj Khalifa are within two kilometers",
+            "We offer rooms with views of the city and Burj Khalifa"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "the hotel says Dubai Mall and the Burj Khalifa are within two kilometres"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.ritz-difc",
+      "topic": "hotel",
+      "claim": "The Ritz-Carlton, Dubai International Financial Centre's page lists 341 rooms and suites, indoor and heated rooftop swimming pools, a direct walkway to The Gate and two metro stations nearby; it does not mention New Year's Eve.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.ritzcarlton.com/en/hotels/dxbif-the-ritz-carlton-dubai-international-financial-centre/overview/",
+          "kind": "operator",
+          "title": "The Ritz-Carlton, Dubai International Financial Centre",
+          "evidence": [
+            "341 elegantly appoints Rooms & Suites",
+            "A direct walkway leads to The Gate",
+            "With two metro stations nearby",
+            "Indoor and heated rooftop swimming pools"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "With 341 rooms and suites, indoor and heated rooftop swimming pools, a direct walkway to The Gate and two metro stations nearby"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.emirates-towers",
+      "topic": "hotel",
+      "claim": "Jumeirah Emirates Towers' page says it has direct access to the Dubai Metro and is only moments from Dubai Mall; it does not mention New Year's Eve.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.jumeirah.com/en/stay/dubai/jumeirah-emirates-towers",
+          "kind": "operator",
+          "title": "Jumeirah Emirates Towers",
+          "evidence": [
+            "With direct access to the Dubai Metro, and only moments from Dubai Mall"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "with direct access to the Dubai Metro and, the hotel says, only moments from Dubai Mall"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.ja-ocean-view",
+      "topic": "hotel",
+      "claim": "JA Ocean View Hotel's page says all 346 rooms and suites have uninterrupted sea views, the infinity pool frames Ain Dubai in the distance, and the Superior Sea View Room has a private balcony.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.jaresortshotels.com/dubai/ja-ocean-view-hotel",
+          "kind": "operator",
+          "title": "JA Ocean View Hotel | JA Resorts & Hotels",
+          "evidence": [
+            "Every one of our 346 rooms and suites offers uninterrupted sea views",
+            "infinity pool frames Ain Dubai in the distance",
+            "a private balcony ideal for relaxed JBR moments"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "every one of its 346 rooms and suites has uninterrupted sea views",
+          "the hotel describes a private balcony for its Superior Sea View room"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.rove-dubai-marina",
+      "topic": "hotel",
+      "claim": "Rove Dubai Marina's page describes a 26sqm Rover Room and puts Dubai Marina Mall and Promenade, Bluewaters Island and the Dubai Tram ten minutes away on foot.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.rovehotels.com/en/hotels/rove-dubai-marina/",
+          "kind": "operator",
+          "title": "Rove Dubai Marina | Rove Hotels",
+          "evidence": [
+            "in a bright and breezy 26sqm",
+            "Dubai Marina Mall and Promenade, Bluewaters Island and the Dubai Tram are just ten minutes away on foot"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "A bright 26 sqm Rover Room",
+          "Bluewaters Island and the Dubai Tram ten minutes away on foot"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.atlantis-rooms",
+      "topic": "hotel",
+      "claim": "Atlantis, The Palm's Deluxe King and Queen Rooms are 45 to 47 sqm.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.atlantis.com/dubai/atlantis-the-palm/stay/rooms-and-suites/deluxe-rooms",
+          "kind": "operator",
+          "title": "Atlantis, The Palm: Deluxe Rooms",
+          "evidence": [
+            "45-47 sqm Up to 2 adults or 2 adults + 1 child"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "King and Queen Rooms of 45 to 47 sqm"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.sofitel-palm",
+      "topic": "hotel",
+      "claim": "Sofitel Dubai The Palm is on East Crescent Road, with six indoor and outdoor swimming pools and 12 restaurants and bars.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://sofitel.accor.com/en/hotels/6541.html",
+          "kind": "operator",
+          "title": "Sofitel Dubai The Palm",
+          "evidence": [
+            "explore six indoor and outdoor swimming pools",
+            "our 12 restaurants and bars",
+            "The Palm Jumeirah, East Crescent road"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "six indoor and outdoor swimming pools and 12 restaurants and bars"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.canopy-al-seef",
+      "topic": "hotel",
+      "claim": "Canopy by Hilton Dubai Al Seef has 198 rooms on eight floors beside Dubai Creek, with a rooftop pool, an on-site spa and a riverside lounge.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/dxbsepy-canopy-dubai-al-seef/",
+          "kind": "operator",
+          "title": "Canopy by Hilton Dubai Al Seef",
+          "evidence": [
+            "198 Rooms 8 Floors 4 Restaurants",
+            "We offer a rooftop pool, on-site spa, riverside lounge, and elevated dining"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "with 198 rooms across eight floors, a rooftop pool, an on-site spa and a riverside lounge"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.nye.hotel.radisson-deira-creek",
+      "topic": "hotel",
+      "claim": "Radisson Blu Hotel, Dubai Deira Creek calls itself Dubai's first five-star hotel, first built in 1975, with newly renovated rooms with a private balcony and views of Dubai Creek; its page gives the walk from Union Station as 650 metres.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-dubai-deira-creek",
+          "kind": "operator",
+          "title": "Radisson Blu Hotel, Dubai Deira Creek",
+          "evidence": [
+            "first built in 1975",
+            "Our newly renovated rooms and suites boast a private balcony with stunning views of Dubai Creek",
+            "take the Red metro line to Union Station and walk 650 meters to the hotel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-dubai-new-years-eve.html": [
+          "first built in 1975",
+          "Union metro station 650 metres away on foot"
         ]
       }
     }

@@ -43,6 +43,11 @@
           "districts sets its own tourist tax",
           "it is 4% of the room price per guest night",
           "In Budapest the districts, not the city, set it"
+        ],
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "each district sets its own tourist tax",
+          "4% of the room price per guest night",
+          "all give the rate as 4% of the tax base"
         ]
       }
     },
@@ -77,6 +82,11 @@
         "articles/where-to-stay-in-budapest.html": [
           "define it as the room price less VAT, without compulsory breakfast and other services",
           "The difference is the VAT, so ask the hotel which it uses"
+        ],
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "District V's decree says the room price less VAT",
+          "District I's page says the gross room price",
+          "ask the hotel which it uses"
         ]
       }
     },
@@ -96,6 +106,9 @@
         "articles/where-to-stay-in-budapest.html": [
           "Under-18s are exempt under the national local taxes act",
           "such as inpatients and people staying for study or for work at a business based in the district"
+        ],
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "Under-18s are exempt under the national local-taxes act"
         ]
       }
     },
@@ -186,6 +199,10 @@
         "articles/where-to-stay-in-budapest.html": [
           "It runs around the clock: every 5 to 10 minutes by day, every 10 to 15 minutes in the morning and evening, and every 20 to 40 minutes on average at night, according to the airport",
           "with drop-offs at Kálvin tér, Astoria and Deák Ferenc tér"
+        ],
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "every 5 to 10 minutes by day, every 10 to 15 minutes in the morning and evening, and every 20 to 40 minutes on average at night",
+          "with drop-offs at Kálvin tér, Astoria and Deák Ferenc tér"
         ]
       }
     },
@@ -227,6 +244,16 @@
           "url": "https://bkk.hu/en/visiting-budapest/247-connection-between-the-airport-and-the-city-centre/",
           "kind": "operator",
           "title": "BKK: 24/7 connection between the airport and the city centre"
+        },
+        {
+          "url": "https://web.archive.org/web/20260413054237/https://bkk.hu/en/tickets-and-passes/prices/airport-shuttle-bus-single-ticket/",
+          "kind": "operator",
+          "title": "BKK airport shuttle bus single ticket page, Internet Archive copy of 13 April 2026",
+          "evidence": [
+            "2,500 HUF airport shuttlebus single ticket",
+            "1,000 HUF add-on airport shuttlebus single ticket",
+            "Touch your bankcard, smart phone or smart watch to the device"
+          ]
         }
       ],
       "used_in": {
@@ -234,6 +261,10 @@
           "2,500 forints without a pass, up from 2,200 on 1 October 2025",
           "can buy a 1,000-forint add-on instead",
           "You can pay with a bank card on the bus, with Pay&GO, or in the BudapestGO app"
+        ],
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "which BKK, the city's transport authority, prices at 2,500 forints",
+          "Pass holders can buy a 1,000-forint add-on instead"
         ]
       }
     },
@@ -258,6 +289,10 @@
         "articles/where-to-stay-in-budapest.html": [
           "The 200E runs day and night from Terminal 2 to Kőbánya-Kispest, where you change to metro line M3",
           "The 100E ticket is not accepted on it"
+        ],
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "bus 200E, which runs day and night from Terminal 2 to Kőbánya-Kispest",
+          "The airport shuttle ticket is not accepted on it"
         ]
       }
     },
@@ -620,6 +655,434 @@
         "articles/where-to-stay-in-budapest.html": [
           "A turn-of-the-century hotel with 164 rooms",
           "the Deluxe Double is 20 sq m, the hotel's rates are quoted per person per night"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.vorosmarty-2026",
+      "topic": "place",
+      "claim": "The Vörösmarty Square Christmas Fair opens on 13 November 2026 and runs until the dawn of the New Year; usual hours are Monday-Thursday and Sunday 11am-9pm, Friday-Saturday 11am-10pm; its craft exhibitors and small railway are there for the last time on 28 December.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://vorosmartyclassicxmas.hu/en/opening-hours/",
+          "kind": "official",
+          "title": "Vörösmarty Classic Xmas: opening hours",
+          "evidence": [
+            "From 13th of November 2026 until the dawn of the New Year",
+            "General opening hours Monday-Thursday 11a.m. – 9p.m.",
+            "for the last time on 28 of December"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "open on the same day this year, 13 November 2026",
+          "the craft exhibitors and the small railway are at the fair for the last time on 28 December"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.vorosmarty-holiday-hours",
+      "topic": "place",
+      "claim": "Vörösmarty Square fair holiday hours 2026: 24 December 10am-2pm, 25-26 December midday-6pm, 29-30 December 11am-9pm, New Year's Eve 11am-3am.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://vorosmartyclassicxmas.hu/en/opening-hours/",
+          "kind": "official",
+          "title": "Vörösmarty Classic Xmas: opening hours",
+          "evidence": [
+            "24 th of December of 2026 10a.m.-2p.m.",
+            "Midday-6p.m.",
+            "11am.-3am."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "10am to 2pm",
+          "Midday to 6pm",
+          "11am to 9pm"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.basilica-2026",
+      "topic": "place",
+      "claim": "The Advent Basilica on Szent István tér runs from 13 November 2026 to 1 January 2027; usual hours are Monday-Thursday and Sunday 11am-10pm, Friday-Saturday 11am-11pm; 24 December 11am-3pm, 25-26 December 11am-8pm, 31 December 11am-3am, 1 January 2027 11am-6pm.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://adventbazilika.hu/en/opening-hours",
+          "kind": "official",
+          "title": "Advent Basilica: opening hours",
+          "evidence": [
+            "From 13th of November 2026 to 1st of January 2027",
+            "Friday - Saturday 11 AM - 11 PM",
+            "31st of December 2026 11 AM - 3 AM",
+            "1st of January 2027 11 AM - 6 PM",
+            "24th of December 2026 11 AM - 3 PM"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "which runs to 1 January 2027",
+          "11am to 11pm",
+          "11am to 6pm"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.tax-example",
+      "topic": "tax",
+      "claim": "Our arithmetic: two adults sharing a room at 60,000 HUF a night before VAT, no breakfast, four nights: base 240,000 HUF, tax at 4% is 9,600 HUF (2,400 HUF a night).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://net.jogtar.hu/rendelet?council=lipotvaros&dbnum=565&docid=A1000038.05R",
+          "kind": "official",
+          "title": "District V decree 38/2010, section 5",
+          "evidence": [
+            "szállásdíj 4%-a"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "have a base of 240,000 forints",
+          "the tax at 4% is 9,600 forints"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.aria",
+      "topic": "hotel",
+      "claim": "Aria Hotel Budapest: boutique hotel at Hercegprímás utca 5, beside St Stephen's Basilica; music-inspired design, complimentary breakfast each morning, year-round roof garden and High Note SkyBar; cites a 2026 Condé Nast Traveler Reader's Choice ranking; no room sizes on the pages read.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.ariahotelbudapest.com/",
+          "kind": "official",
+          "title": "Aria Hotel Budapest",
+          "evidence": [
+            "Hercegprímás utca 5",
+            "Complimentary Breakfast Each Morning",
+            "Beautiful Boutique Hotel Design Inspired by Music",
+            "Condé Nast Traveler's Reader's Choice Awards 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "at Hercegprímás utca 5",
+          "with a music-themed design, complimentary breakfast each morning, a year-round roof garden and the High Note SkyBar"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.kempinski-corvinus",
+      "topic": "hotel",
+      "claim": "Kempinski Hotel Corvinus Budapest: five-star hotel in the city centre; its offers include a festive-season stay a stone's throw from the Christmas markets at Vörösmarty Square and the Basilica, and a New Year's Eve party to ring into 2027; spa of over 525 sq m; no room sizes on the page read.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.kempinski.com/en/hotel-corvinus-budapest",
+          "kind": "official",
+          "title": "Kempinski Hotel Corvinus Budapest",
+          "evidence": [
+            "Stay a stone’s throw from the splendid Christmas markets at Vörösmarty Square & Basilica",
+            "Ring into 2027 in style with Kempinski",
+            "The spa, with over 525 sq m of space"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "festive-season stay",
+          "a New Year's Eve party to ring in 2027",
+          "a spa of over 525 square metres"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.erzsebet",
+      "topic": "hotel",
+      "claim": "Hotel Erzsébet City Center Budapest: reopened hotel in the pedestrian zone a few steps from Váci Street, a member of Radisson Individuals; 126 air-conditioned, soundproofed rooms; buffet breakfast; garage 150 m away at EUR 25 a day.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.danubiushotels.com/en/our-hotels-budapest/hotel-erzsebet-city-center",
+          "kind": "operator",
+          "title": "Hotel Erzsébet City Center Budapest (Danubius Hotels page)",
+          "evidence": [
+            "126 modern, stylishly designed rooms are air-conditioned and soundproofed",
+            "Multi-storey car park 150 metres from the hotel",
+            "Additional charge: EUR 25/day"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "with 126 air-conditioned, soundproofed rooms and a buffet breakfast",
+          "costs EUR 25 a day"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.corinthia",
+      "topic": "hotel",
+      "claim": "Corinthia Budapest: five-star hotel at Erzsébet körút 43-49 that has served the city since 1896; sunlit six-storey atrium; Royal Spa described as the crowning glory; no room sizes on the page read.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.corinthia.com/en-gb/budapest/",
+          "kind": "official",
+          "title": "Corinthia Budapest",
+          "evidence": [
+            "Serving as a symbol of grandeur in the heart of the city since 1896",
+            "The sunlit atrium, soaring six stories high",
+            "it is the Royal Spa that truly stands out as the crowning glory"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "says it has served the city since 1896",
+          "a six-storey sunlit atrium"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.astoria",
+      "topic": "hotel",
+      "claim": "Danubius Hotel Astoria City Center: four-star hotel at Kossuth Lajos utca 19-21, opened 1914; 138 rooms; says the Hungarian National Museum, Great Synagogue and Váci Street are a 10-minute walk away and a metro station and tram line a few steps away; partially accessible; garage 300 m away at HUF 13,000 a day.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.danubiushotels.com/en/our-hotels-budapest/danubius-hotel-astoria",
+          "kind": "operator",
+          "title": "Danubius Hotel Astoria City Center",
+          "evidence": [
+            "opened in 1914 as one of the city’s most elegant hotels",
+            "a 10-minute walk from prime attractions like the Hungarian National Museum, the Great Synagogue",
+            "The hotel is partially accessible for people with disabilities",
+            "Multi-storey car park 300 metres from the hotel"
+          ]
+        },
+        {
+          "url": "https://www.danubiushotels.com/en/our-hotels-budapest/danubius-hotel-astoria/rooms",
+          "kind": "operator",
+          "title": "Danubius Hotel Astoria City Center: rooms",
+          "evidence": [
+            "The Hotel Astoria offers 138 generously equipped and comfortably furnished rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "which opened in 1914, with 138 rooms",
+          "the garage 300 metres away is HUF 13,000 a day"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.maverick-soho",
+      "topic": "hotel",
+      "claim": "Maverick Budapest Soho: boutique hostel at Kazinczy utca 24-26 in what it calls the heart of the party district; dorm beds, a female-only dorm floor, private ensuite doubles on the second and third floors.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://mavericklodges.com/",
+          "kind": "operator",
+          "title": "Maverick Lodges, Budapest",
+          "evidence": [
+            "Fresh vibes right in the heart of the party district",
+            "Kazinczy street 24-26"
+          ]
+        },
+        {
+          "url": "https://mavericklodges.com/hostel/budapest-soho/",
+          "kind": "operator",
+          "title": "Maverick Budapest Soho",
+          "evidence": [
+            "This 8 bed dorm can be booked by WOMEN only",
+            "All private rooms are on the second and third floor"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "at Kazinczy utca 24-26 that says it is in the heart of the party district",
+          "private ensuite doubles on the second and third floors"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.mamaison-andrassy",
+      "topic": "hotel",
+      "claim": "Mamaison Hotel Andrássy Budapest: hotel at Munkácsy Mihály utca 5-7 (Booking.com gives Andrássy út 111) that puts Heroes' Square a 5-minute walk away; Classic Room 18 m².",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.mamaisonandrassy.com/en/hotel-neighbourhood",
+          "kind": "operator",
+          "title": "Mamaison Hotel Andrássy: neighbourhood",
+          "evidence": [
+            "Heroes' Square is a 5-minute walk away"
+          ]
+        },
+        {
+          "url": "https://www.mamaisonandrassy.com/en/hotel-rooms",
+          "kind": "operator",
+          "title": "Mamaison Hotel Andrássy: rooms",
+          "evidence": [
+            "18 m 2 Max 2 persons"
+          ]
+        },
+        {
+          "url": "https://www.mamaisonandrassy.com/en/contact",
+          "kind": "operator",
+          "title": "Mamaison Hotel Andrássy: contact",
+          "evidence": [
+            "Munkácsy Mihály utca 5-7, 1063 Budapest"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "at Munkácsy Mihály utca 5-7",
+          "with a Classic Room of 18 m²"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.radisson-beke",
+      "topic": "hotel",
+      "claim": "Radisson Blu Béke Hotel: the former Hotel Britannia, 174 rooms and 6 suites near Nyugati railway station and a few steps from Andrássy Avenue; parking EUR 15-25 a day.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.danubiushotels.com/en/our-hotels-budapest/radisson-blu-beke-hotel",
+          "kind": "operator",
+          "title": "Radisson Blu Béke Hotel (Danubius Hotels page)",
+          "evidence": [
+            "The former Hotel Britannia has welcomed visitors to Budapest for more than a century.",
+            "174 rooms, 6 suites",
+            "Additional charge: EUR 15-25/day",
+            "just a few steps from Andrássy Avenue"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "a hotel of 174 rooms and 6 suites",
+          "its parking is EUR 15 to 25 a day"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.hilton-budapest",
+      "topic": "hotel",
+      "claim": "Hilton Budapest: hotel at Hess András tér 1-3 that says it overlooks the Danube and Hungarian Parliament, next to Fisherman's Bastion and Matthias Church in the Buda Castle District, 15 minutes from the city centre.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/budhitw-hilton-budapest/",
+          "kind": "official",
+          "title": "Hilton Budapest",
+          "evidence": [
+            "Hess Andras ter 1-3",
+            "sits next to the iconic Fisherman's Bastion monument and Matthias Church",
+            "15 minutes from the city center"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "at Hess András tér 1-3",
+          "the city centre is 15 minutes away"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.clark",
+      "topic": "hotel",
+      "claim": "Hotel Clark Budapest: hotel with Castle view and Chain Bridge view room categories and the Leo Rooftop; retained its One MICHELIN Key for a second consecutive year; Booking.com lists it as adults only (not stated on the pages read).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://hotelclarkbudapest.hu/en/",
+          "kind": "official",
+          "title": "Hotel Clark Budapest",
+          "evidence": [
+            "has retained its One MICHELIN Key for the second consecutive year",
+            "Leo Rooftop is eager to welcome you",
+            "CASTLE VIEW ROOM"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "a Leo Rooftop bar and a One Michelin Key",
+          "Booking.com lists it as adults only"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.palazzo-zichy",
+      "topic": "hotel",
+      "claim": "Eurostars Palazzo Zichy: four-star hotel at Lőrinc pap tér 2 in the Palace District, in a 19th-century neo-baroque palace built by Count Nándor Zichy for his family; 80 rooms.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.eurostarshotels.com/eurostars-palazzo-zichy.html",
+          "kind": "official",
+          "title": "Eurostars Palazzo Zichy",
+          "evidence": [
+            "LŐRINC PAP TÉR 2",
+            "Ubicado en un antiguo palacio neobarroco del siglo XIX",
+            "construido por el conde Nándor Zichy",
+            "Número de habitaciones: 80 habitaciones"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "at Lőrinc pap tér 2 in the Palace District",
+          "built by Count Nándor Zichy for his family, with a spectacular dome and 80 rooms"
+        ]
+      }
+    },
+    {
+      "id": "hu.budapest.christmas.hotel.maverick-central-market",
+      "topic": "hotel",
+      "claim": "Maverick Central Market: social hostel at Lónyay utca 31 that says it is right next to the iconic market hall, with a cozy bar, games and regular social events and dorm beds.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://mavericklodges.com/",
+          "kind": "operator",
+          "title": "Maverick Lodges, Budapest",
+          "evidence": [
+            "Right next to the iconic market hall",
+            "Lónyay street 31"
+          ]
+        },
+        {
+          "url": "https://mavericklodges.com/hostel/budapest-central-market/",
+          "kind": "operator",
+          "title": "Maverick Central Market",
+          "evidence": [
+            "a cozy bar, games, and regular social events"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-budapest-christmas-market.html": [
+          "at Lónyay utca 31 that says it is right next to the iconic market hall",
+          "regular social events and dorm beds"
         ]
       }
     }

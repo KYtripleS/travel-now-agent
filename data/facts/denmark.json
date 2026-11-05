@@ -23,6 +23,11 @@
           "There is no tourist tax",
           "its own papers set out the obstacle: a tourism levy requires legal authority",
           "For 2026, there is no tourist tax."
+        ],
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "no tourist tax on the hotel bill",
+          "the final finance bill contained none",
+          "We found nothing that would apply to a Christmas 2026 stay."
         ]
       }
     },
@@ -48,6 +53,11 @@
           "Danish VAT at 25%",
           "VAT as a share of the price you see",
           "VAT is 20% of a retail price"
+        ],
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "Danish VAT at 25% is already inside the price you are shown",
+          "VAT as a share of the price you see",
+          "amounts to 20% of the price"
         ]
       }
     },
@@ -95,6 +105,11 @@
         "articles/where-to-stay-in-copenhagen.html": [
           "The Metro puts the ride to the centre at 14 minutes",
           "about every 8 minutes after Friday and Saturday and about every 20 minutes on other nights"
+        ],
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "the Metro puts the ride to the centre at 14 minutes",
+          "about every 8 minutes after Friday and Saturday",
+          "about every 20 minutes after Sunday to Thursday"
         ]
       }
     },
@@ -119,6 +134,11 @@
         "articles/where-to-stay-in-copenhagen.html": [
           "a 3-zone ticket, DKK 30, valid for 1 hour 30 minutes",
           "A 2-zone ticket is DKK 24"
+        ],
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "A 3-zone ticket is DKK 30 and is valid for 1 hour 30 minutes",
+          "A 2-zone ticket is DKK 24",
+          "an adult may bring two children under 12 free"
         ]
       }
     },
@@ -238,6 +258,11 @@
           "was established in the early 17th century",
           "Kødbyen, the former meatpacking district",
           "Copenhagen's main pedestrian shopping street"
+        ],
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "Christianshavn was established in the early 17th century",
+          "the main pedestrian shopping street",
+          "Tivoli is at the western edge of the old centre, next to Central Station"
         ]
       }
     },
@@ -348,6 +373,534 @@
           "the Tiny rooms are 10 to 12 m² and meant for one",
           "the Double Economy rooms are 14 to 19 m² with a semi-double bed",
           "there is no lift"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.airport.train-dsb",
+      "topic": "transport",
+      "claim": "DSB sells tickets for trains at Copenhagen Airport from its Salg & Service office and machines in Terminal 3.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.dsb.dk/trafikinformation/stationer/kobenhavns-lufthavn-kastrup/",
+          "kind": "operator",
+          "title": "DSB: Copenhagen Airport station",
+          "evidence": [
+            "Billetautomater og Rejsekortautomater findes ved DSB Salg & Service i Terminal 3"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "DSB's ticket office and machines are in Terminal 3"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.tivoli.christmas-2026",
+      "topic": "place",
+      "claim": "Tivoli Gardens' Christmas season runs 13 November 2026 to 3 January 2027 per Tivoli's own pages; Visit Copenhagen's Tivoli page still showed 14 November 2025 to 4 January 2026 when read on 4 November 2026.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.tivoli.dk/en/opening-hours-and-seasons/christmas-in-tivoli",
+          "kind": "operator",
+          "title": "Tivoli: Christmas in Tivoli",
+          "evidence": [
+            "Christmas in Tivoli 13 November - 3 January",
+            "13 November 2026 – 3 January 2027"
+          ]
+        },
+        {
+          "url": "https://www.tivoli.dk/en/opening-hours-and-seasons",
+          "kind": "operator",
+          "title": "Tivoli: opening hours and seasons",
+          "evidence": [
+            "Christmas in Tivoli November 13 - January 3"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "13 November 2026 to 3 January 2027",
+          "13 November to 3 January"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.tivoli.hours-christmas-2026",
+      "topic": "place",
+      "claim": "Tivoli's own opening-hours calendar (read 4 Nov 2026) shows Christmas-season hours of 11:00-22:00 Sunday to Thursday and 11:00-23:00 Friday and Saturday, closed on 24 December, 11:00-23:00 on 25 and 26 December, 11:00 to midnight on 31 December and 11:00-22:00 on 3 January.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.tivoli.dk/en/opening-hours-and-seasons",
+          "kind": "operator",
+          "title": "Tivoli: opening hours calendar (rendered in the browser by script; the raw HTML does not contain the hours)"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "Closed",
+          "11:00 to midnight",
+          "Tivoli is closed on 24 December"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.tivoli.tickets",
+      "topic": "price",
+      "claim": "Tivoli sells Entrance (no rides), Ride Pass (rides only) and a Package of both; prices vary by visit date and sometimes entry time; tickets are date-specific; the Tivoli Pass gives free entry in all open seasons.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.tivoli.dk/en/practical-information/faq",
+          "kind": "operator",
+          "title": "Tivoli: FAQ on Entrance, Ride Pass and Package",
+          "evidence": [
+            "Entrance grants access to enjoy the Gardens but not the rides.",
+            "Ride Pass provides access to all Tivoli rides but does not include entry to the Gardens",
+            "vary in price based on the visit date"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "which does not include rides",
+          "prices vary by visit date and sometimes by time of entry"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.market.nytorv-gammeltorv-2026",
+      "topic": "place",
+      "claim": "The Julemarked Nytorv & Gammeltorv organiser gives 6 November to 21 December 2026, Mon-Wed 11-19, Thu 11-20, Fri-Sat 11-21, Sun 12-19 (last day closes at 20), 200 m from Rådhuspladsen, next to Strøget, with a free ice rink; the city's visitor service lists it as free with skates to borrow free.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://julemarked.nu/planlaeg-dit-besoeg/",
+          "kind": "operator",
+          "title": "Julemarked Nytorv & Gammeltorv: plan your visit",
+          "evidence": [
+            "Julemarked har åbent fra den 6. november til og med den 21. december 2026.",
+            "Mandag-onsdag: 11:00 – 19:00",
+            "kun 200 meter fra Rådhuspladsen",
+            "gratis skøjtebane"
+          ]
+        },
+        {
+          "url": "https://visitorservice.kk.dk/en/events/christmas-market-at-nytorv-and-gammeltorv",
+          "kind": "official",
+          "title": "Copenhagen Visitor Service: Christmas market at Nytorv and Gammeltorv",
+          "evidence": [
+            "skates available to borrow free of charge"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "6 November to 21 December",
+          "Mon to Wed 11 to 19, Thu 11 to 20, Fri and Sat 11 to 21, Sun 12 to 19",
+          "skates can be borrowed free of charge"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.market.hojbro-plads-2026",
+      "topic": "place",
+      "claim": "Christmas at Højbro Plads, described by the city's visitor service as a new market for Denmark, Greenland and the Faroe Islands, runs 14 November to 20 December 2026 per Visit Copenhagen, free, 11-21 on 14 November; the organiser of the traditional Højbro Plads market says it is not held there in 2026 and moves to Rådhuspladsen.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.visitcopenhagen.com/copenhagen/planning/christmas-market-on-hojbro-plads-gdk714628",
+          "kind": "official",
+          "title": "Visit Copenhagen: Christmas market at Højbro Plads",
+          "evidence": [
+            "From 14 November to 20 December 2026"
+          ]
+        },
+        {
+          "url": "https://visitorservice.kk.dk/en/events/christmas-at-hojbro-plads",
+          "kind": "official",
+          "title": "Copenhagen Visitor Service: Christmas at Højbro Plads",
+          "evidence": [
+            "Sat. 14 Nov. 2026 At 11.00 - 21.00",
+            "A new Christmas market opens at Højbro Plads for the first time"
+          ]
+        },
+        {
+          "url": "https://julemarked.nu/",
+          "kind": "operator",
+          "title": "Julemarked.nu: the Højbro Plads market moves to Rådhuspladsen",
+          "evidence": [
+            "afvikles ikke i 2026 men på Rådhuspladsen"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "14 November to 20 December",
+          "11 to 21 on 14 November",
+          "The traditional Højbro Plads market is not held in 2026"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.market.city-hall-square-2026",
+      "topic": "place",
+      "claim": "The city's visitor service lists a new Christmas market at City Hall Square on Fri 11 December 2026, 11-18 on that date, free; exact opening hours to be confirmed later.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://visitorservice.kk.dk/en/events/christmas-market-at-the-city-hall-square",
+          "kind": "official",
+          "title": "Copenhagen Visitor Service: Christmas market at the City Hall Square",
+          "evidence": [
+            "Fri. 11 Dec. 2026 At 11.00 - 18.00",
+            "Exact opening hours will be confirmed at a later date"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "The city's listing shows 11 December",
+          "11 to 18 on that date"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.nimb",
+      "topic": "hotel",
+      "claim": "Nimb Hotel, Bernstorffsgade 5: five-star superior boutique hotel, 38 rooms and suites from 23 m2 to 240 m2, 300 m2 wellness area; its Christmas page lists Christmas Eve at Nimb Brasserie.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.nimb.dk/en/hotel/rooms-suites",
+          "kind": "operator",
+          "title": "Nimb Hotel: rooms and suites",
+          "evidence": [
+            "38 unique and individually decorated rooms and suites from 23 m² to 240 m² in size"
+          ]
+        },
+        {
+          "url": "https://www.nimb.dk/en/",
+          "kind": "operator",
+          "title": "Nimb Hotel",
+          "evidence": [
+            "Nimb is a 5-star superior boutique hotel",
+            "300 m2 oasis",
+            "Bernstorffsgade 5 1577 Copenhagen"
+          ]
+        },
+        {
+          "url": "https://www.nimb.dk/en/seasonal-celebrations/christmas-and-new-year",
+          "kind": "operator",
+          "title": "Nimb: Christmas and New Year",
+          "evidence": [
+            "Celebrate Christmas Eve at Nimb Brasserie"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "38 rooms and suites from 23 m² to 240 m²",
+          "a 300 m² wellness area",
+          "Christmas Eve dinner at Nimb Brasserie"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.1hotel",
+      "topic": "hotel",
+      "claim": "1 Hotel Copenhagen, Krystalgade 22: its Copenhagen Holiday Escape offer is valid for stays 14 November 2026 to 3 January 2027 and includes daily breakfast and entrance tickets to Tivoli Gardens (Tivoli only).",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.1hotels.com/copenhagen/offers/copenhagen-holiday-escape",
+          "kind": "operator",
+          "title": "1 Hotel Copenhagen: Copenhagen Holiday Escape",
+          "evidence": [
+            "Valid for stays from 14 November 2026 to 3 January 2027",
+            "Entrance tickets to Tivoli Gardens",
+            "Entrance tickets can be used for Tivoli Gardens only"
+          ]
+        },
+        {
+          "url": "https://www.1hotels.com/copenhagen",
+          "kind": "operator",
+          "title": "1 Hotel Copenhagen",
+          "evidence": [
+            "Krystalgade 22, 1172"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "valid for stays from 14 November 2026 to 3 January 2027",
+          "includes daily breakfast and entrance tickets to Tivoli Gardens"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.scandic-palace",
+      "topic": "hotel",
+      "claim": "Scandic Palace Hotel, Raadhuspladsen 57: 169 rooms, hotel built in 1910; Economy 15-17 m2, Standard 17-22 m2, Superior 21-28 m2.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.scandichotels.com/hotels/denmark/copenhagen/scandic-palace",
+          "kind": "operator",
+          "title": "Scandic Palace Hotel",
+          "evidence": [
+            "Raadhuspladsen 57, Copenhagen V",
+            "Economy 15–17 m²",
+            "the 169 guest rooms",
+            "the year 1910"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "in a building from 1910, with 169 rooms",
+          "Economy rooms of 15 to 17 m², Standard of 17 to 22 m² and Superior of 21 to 28 m²"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.alexandra",
+      "topic": "hotel",
+      "claim": "Hotel Alexandra, H. C. Andersens Boulevard 8: four-star, 61 rooms furnished with Danish mid-century classics, breakfast 7.00-11.00; standard retro doubles about 15-16 m2, de luxe about 25 m2, suites about 35 m2.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.hotelalexandra.dk/",
+          "kind": "operator",
+          "title": "Hotel Alexandra",
+          "evidence": [
+            "Our 61 rooms are furnished with carefully curated Danish mid-century classics.",
+            "approximately 15–16 m² in size",
+            "between 7.00 - 11.00",
+            "H. C. Andersens Boulevard 8"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "61 rooms furnished with Danish mid-century classics",
+          "breakfast daily from 7am to 11am",
+          "the standard double rooms are about 15 to 16 m²"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.savoy",
+      "topic": "hotel",
+      "claim": "Savoy Hotel, Vesterbrogade 34: 66 rooms on 6 floors, all facing a quiet courtyard; says it is close to Tivoli, the Lakes and the Central Train Station; no room sizes on its room pages.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://savoyhotel.dk/",
+          "kind": "operator",
+          "title": "Savoy Hotel & Bar",
+          "evidence": [
+            "Close to Tivoli, the Lakes and the Central Train Station",
+            "Vesterbrogade 34, 1620 København V"
+          ]
+        },
+        {
+          "url": "https://savoyhotel.dk/rooms/",
+          "kind": "operator",
+          "title": "Savoy Hotel: rooms",
+          "evidence": [
+            "SAVOY Hotel has 66 rooms on 6 floors."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "A 66-room hotel at Vesterbrogade 34",
+          "close to Tivoli, the Lakes and Central Station"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.wakeup",
+      "topic": "hotel",
+      "claim": "Wakeup Copenhagen Bernstorffsgade, Bernstorffsgade 35: 585 rooms with TV, desk, air conditioning and free Wi-Fi; hotel says Tivoli Gardens is within just a few minutes' walk.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.wakeupcopenhagen.com/the-hotels/copenhagen/bernstorffsgade",
+          "kind": "operator",
+          "title": "Wakeup Copenhagen, Bernstorffsgade",
+          "evidence": [
+            "The hotel has 585 hotel rooms, all equipped with TV, desk, air conditioning and free Wi-Fi.",
+            "within just a few minutes’ walk you will find Tivoli Gardens"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "A hotel of 585 rooms at Bernstorffsgade 35",
+          "Tivoli Gardens is within just a few minutes' walk"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.admiral",
+      "topic": "hotel",
+      "claim": "Admiral Hotel, Toldbodgade 24-28: in a warehouse from 1787, just steps from Nyhavn and Amalienborg; Classic room from 2019 is 20 m2.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://admiralhotel.dk/en/",
+          "kind": "operator",
+          "title": "Admiral Hotel Copenhagen",
+          "evidence": [
+            "Admiral Hotel is located in the iconic warehouse from 1787.",
+            "just steps from Nyhavn and Amalienborg",
+            "Classic from 2019 is 20 m2",
+            "Toldbodgade 24 – 28"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "in a warehouse from 1787",
+          "Its Classic room from 2019 is 20 m²"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.phoenix",
+      "topic": "hotel",
+      "claim": "Phoenix Copenhagen, Bredgade 37: 213 rooms including 3 suites and 4 Junior suites; Standard rooms 12-17 m2; between Amalienborg Palace and Nyhavn.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.phoenixcopenhagen.com/",
+          "kind": "operator",
+          "title": "Phoenix Copenhagen",
+          "evidence": [
+            "The hotel has 213 rooms, including 3 suites and 4 Junior suites.",
+            "12-17 sqm Standard",
+            "Between the majestic Amalienborg Palace and the colorful Nyhavn",
+            "Bredgade 37, 1260 Copenhagen"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "A hotel of 213 rooms at Bredgade 37",
+          "the Standard rooms are 12 to 17 m²"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.cphliving",
+      "topic": "hotel",
+      "claim": "CPH Living, Langebrogade 1A: floating hotel on a barge, opened 2009, 12 double rooms with a glass wall onto the harbour, rooftop terrace, free basic breakfast; late check-in after 6 pm must contact the hotel.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.cphliving.com/",
+          "kind": "operator",
+          "title": "Hotel CPH Living",
+          "evidence": [
+            "All 12 double rooms have panoramic views",
+            "free, basic breakfast",
+            "Langebrogade 1A",
+            "it was opened in 2009"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "with 12 double rooms",
+          "arrivals after 6pm must contact the hotel first"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.kongarthur",
+      "topic": "hotel",
+      "claim": "Hotel Kong Arthur, Nørre Søgade 11: peaceful corner of the inner city in the Nansensgade neighbourhood, Ni'mat Spa, reception open 24/7; Christmas stay offer includes the New Nordic breakfast buffet and two cocktail vouchers for the lobby bar.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://arthurhotels.com/hotel-kong-arthur/",
+          "kind": "operator",
+          "title": "Hotel Kong Arthur",
+          "evidence": [
+            "Nørre Søgade 11",
+            "peaceful corner of the inner city in the beautiful Nansensgade neighborhood"
+          ]
+        },
+        {
+          "url": "https://arthurhotels.com/hotel-kong-arthur/current-offers/christmas-stay-in-copenhagen/",
+          "kind": "operator",
+          "title": "Hotel Kong Arthur: Christmas stay in Copenhagen",
+          "evidence": [
+            "always includes our New Nordic breakfast buffet",
+            "two cocktail vouchers for the lobby bar"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "includes the New Nordic breakfast buffet and two cocktail vouchers for the lobby bar"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.cabinn-metro",
+      "topic": "hotel",
+      "claim": "Cabinn Metro, Arne Jacobsens Alle 2: built 2009, 708 rooms with 1,555 beds, 6.5 km from Central Station and Tivoli, 10 minutes from the airport; breakfast buffet DKK 125 per person per day; parking DKK 175/24 hours; from the airport take the train to Orestad Station.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://en.cabinn.com/hotel/cabinn-metro",
+          "kind": "operator",
+          "title": "CABINN Metro",
+          "evidence": [
+            "a total of 708 rooms with 1,555 beds",
+            "Breakfast Buffet is DKK 125,- per person per day",
+            "about 6.5 kilometres from Copenhagen Central Station and Tivoli",
+            "get off at Ørestad Station",
+            "paid parking (DKK 175,-/24 hours"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "with 708 rooms and 1,555 beds",
+          "a breakfast buffet at DKK 125 per person per day",
+          "it is 6.5 kilometres from Tivoli by the hotel's count"
+        ]
+      }
+    },
+    {
+      "id": "dk.copenhagen.hotel.clarion-airport",
+      "topic": "hotel",
+      "claim": "Clarion Hotel Copenhagen Airport, Ellehammersvej 20, Kastrup: just 2 minutes from Terminal 3; standard double 33 m2; Metro to the capital in less than 15 minutes.",
+      "checked": "2026-11-04",
+      "sources": [
+        {
+          "url": "https://www.strawberryhotels.com/hotels/denmark/kastrup/clarion-hotel-copenhagen-airport/",
+          "kind": "operator",
+          "title": "Clarion Hotel Copenhagen Airport",
+          "evidence": [
+            "just 2 minutes from Terminal 3",
+            "The metro will transport you to the Danish capital in less than 15 minutes",
+            "Ellehammersvej 20"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-copenhagen-christmas.html": [
+          "just 2 minutes from Terminal 3",
+          "standard doubles of 33 m²"
         ]
       }
     }

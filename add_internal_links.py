@@ -591,6 +591,18 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-dubai-new-years-eve.html": (
+        "Where to Stay in Dubai",
+        "Burj Khalifa fireworks, six areas to stay in and 12 hotels, with last year's closures and Dubai's hotel fees.",
+    ),
+    "articles/where-to-stay-in-copenhagen-christmas.html": (
+        "Where to Stay in Copenhagen",
+        "Tivoli runs 13 Nov to 3 Jan, closed 24 Dec. Six areas, 12 hotels, no tourist tax and VAT in the price.",
+    ),
+    "articles/where-to-stay-in-budapest-christmas-market.html": (
+        "Where to Stay in Budapest",
+        "Dates, five areas, 12 hotels and the 4% tourist tax for the Budapest Christmas markets 2026.",
+    ),
     "articles/where-to-stay-in-cinque-terre.html": (
         "Where to Stay in Cinque Terre",
         "Seven bases, 12 hotels, the €3 tourist tax by comune and the Cinque Terre Card, trains and ferries.",
@@ -2373,6 +2385,27 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-dubai-new-years-eve.html": [
+        "articles/where-to-stay-in-dubai.html",
+        "articles/where-to-stay-in-london-new-years-eve.html",
+        "articles/where-to-stay-in-new-york-new-years-eve.html",
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-copenhagen-christmas.html": [
+        "articles/where-to-stay-in-copenhagen.html",
+        "articles/where-to-stay-in-prague-christmas-market.html",
+        "articles/where-to-stay-in-vienna-christmas-market.html",
+        "articles/where-to-stay-in-nuremberg-christmas-market.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-budapest-christmas-market.html": [
+        "articles/where-to-stay-in-budapest.html",
+        "articles/where-to-stay-in-prague-christmas-market.html",
+        "articles/where-to-stay-in-vienna-christmas-market.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-in-cinque-terre.html": [
         "articles/where-to-stay-in-florence.html",

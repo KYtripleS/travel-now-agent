@@ -114,6 +114,12 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-dubai-new-years-eve": dict(area="Downtown Dubai", lat=25.1972, lng=55.2744, zoom=14,
+                                                    address="Downtown Dubai, Dubai, United Arab Emirates"),
+    "where-to-stay-in-copenhagen-christmas": dict(area="Tivoli and Central Station", lat=55.6736, lng=12.5681, zoom=15,
+                                                     address="Tivoli Gardens, Copenhagen, Denmark"),
+    "where-to-stay-in-budapest-christmas-market": dict(area="Vörösmarty Square and the Basilica", lat=47.4973, lng=19.0503, zoom=15,
+                                                          address="Vörösmarty tér, Budapest, Hungary"),
     "where-to-stay-in-cinque-terre": dict(area="Monterosso al Mare", lat=44.1459, lng=9.6553, zoom=14,
                                              address="Monterosso al Mare, Italy"),
     "where-to-stay-for-glastonbury": dict(area="Glastonbury", lat=51.1483, lng=-2.7143, zoom=13,
@@ -1227,7 +1233,7 @@ HOTELS = {
     "Hotel Beauden, Autograph Collection": _B + "us/grand-bohemian.html",
     "Aloft Orlando Downtown": _B + "us/aloft-orlando-downtown.html",
     # Dubai (Booking.com pages confirmed by hotel name and city)
-    "Armani Hotel Dubai": _B + "ae/armani-dubai.html",
+    # Armani Hotel Dubai: closed for refurbishment 1 Apr 2026, reopening March 2027 (Gulf News); restore the link then
     "Vida Dubai Mall": _B + "ae/vida-dubai-mall.html",
     "Rove Downtown": _B + "ae/rove-downtown-dubai.html",
     "XVA Art Hotel": _B + "ae/xva-art.html",
@@ -1962,6 +1968,36 @@ HOTELS = {
     "Hotel Villa Argentina": _B + "it/villa-argentina-riomaggiore.html",
     "Hotel del Sole": _B + "it/locanda-del-sole-riomaggiore.html",
     "Hotel Firenze e Continentale": _B + "it/firenze-continentale.html",
+    # Budapest, where-to-stay-in-budapest-christmas-market (Booking.com pages confirmed by hotel name and city)
+    "Aria Hotel Budapest": _B + "hu/aria-budapest.html",
+    "Kempinski Hotel Corvinus Budapest": _B + "hu/kempinskibudapest.html",
+    "Hotel Erzsébet City Center Budapest": _B + "hu/hotel-erzsbet-city-center-budapest-a-member-of-radisson-individuals.html",
+    "Corinthia Budapest": _B + "hu/corinthiaroyal.html",
+    "Danubius Hotel Astoria City Center": _B + "hu/astoria.html",
+    "Maverick Budapest Soho": _B + "hu/maverick-city-lodge.html",
+    "Mamaison Hotel Andrássy Budapest": _B + "hu/andrassy.html",
+    "Radisson Blu Béke Hotel": _B + "hu/radissonsasbeke.html",
+    "Hilton Budapest": _B + "hu/hilton-budapest.html",
+    "Hotel Clark Budapest": _B + "hu/clark-budapest.html",
+    "Eurostars Palazzo Zichy": _B + "hu/palazzo-zichy.html",
+    "Maverick Central Market": _B + "hu/maverick-student-lodge.html",
+    # Copenhagen, where-to-stay-in-copenhagen-christmas (Booking.com pages confirmed by hotel name and city)
+    "Nimb Hotel": _B + "dk/nimb.html",
+    "Savoy Hotel": _B + "dk/savoy.html",
+    "Wakeup Copenhagen Bernstorffsgade": _B + "dk/wakeup-copenhagen-bernstorffsgade-kobenhavn1.html",
+    "1 Hotel Copenhagen": _B + "dk/1-hotel-copenhagen.html",
+    "Scandic Palace Hotel": _B + "dk/scandic-palace.html",
+    "Hotel Alexandra": _B + "dk/alexandra.html",
+    "Admiral Hotel": _B + "dk/copenhagen-admiral.html",
+    "Phoenix Copenhagen": _B + "dk/phoenix.html",
+    "Cabinn Metro": _B + "dk/cabinn-metro.html",
+    "Clarion Hotel Copenhagen Airport": _B + "dk/clarion-hotel-copenhagen-airport.html",
+    # Dubai, where-to-stay-in-dubai-new-years-eve (Booking.com pages confirmed by hotel name and city)
+    "Address Downtown": _B + "ae/the-address-downtown-burj-dubai.html",
+    "DoubleTree by Hilton Dubai - Business Bay": _B + "ae/doubletree-by-hilton-dubai-business-bay.html",
+    "The Ritz-Carlton, Dubai International Financial Centre": _B + "ae/the-ritz-carlton-dubai-international-financial-centre.html",
+    "Jumeirah Emirates Towers": _B + "ae/emirates-tower.html",
+    "Radisson Blu Hotel, Dubai Deira Creek": _B + "ae/radisson-sas-dubai-deira-creek.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

@@ -428,6 +428,30 @@
       "name": "Glastonbury Festival",
       "place": "Pilton, Somerset, UK",
       "when": "Wednesday 23 to Sunday 27 June; tickets sold out, resale in spring"
+    },
+    {
+      "start": "2026-11-13",
+      "end": "2027-01-01",
+      "slug": "where-to-stay-in-budapest-christmas-market",
+      "name": "Budapest Christmas markets",
+      "place": "Budapest, Hungary",
+      "when": "Vörösmarty Square and the Basilica from 13 November, open late on New Year's Eve"
+    },
+    {
+      "start": "2026-11-13",
+      "end": "2027-01-03",
+      "slug": "where-to-stay-in-copenhagen-christmas",
+      "name": "Christmas in Tivoli",
+      "place": "Copenhagen, Denmark",
+      "when": "13 November to 3 January; closed 24 December"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-dubai-new-years-eve",
+      "name": "Dubai New Year's Eve",
+      "place": "Dubai, UAE",
+      "when": "31 December: Burj Khalifa fireworks"
     }
   ],
   "seasons": [

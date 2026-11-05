@@ -446,6 +446,18 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-dubai-new-years-eve": dict(
+        text="For the fireworks, stay in Downtown Dubai: Address Downtown is the splurge, Vida Dubai Mall the comfortable pick and Rove Downtown the budget one, but roads closed from 4pm last year. Atlantis publishes a 2026 gala for the Palm. The Tourism Dirham is AED 7 to 20 a night, plus at least 22% in fees.",
+        link_text="Downtown Dubai",
+        cta=_stay_cta("where-to-stay-in-dubai-new-years-eve", "See hotels around Downtown Dubai")),
+    "where-to-stay-in-copenhagen-christmas": dict(
+        text="For Christmas at Tivoli, stay near Tivoli and Central Station: the park runs 13 November to 3 January and is closed on 24 December. Choose Nimb Hotel for a splurge, Scandic Palace Hotel for a comfortable base, Savoy Hotel for value. There is no tourist tax, and 25% VAT is in the price.",
+        link_text="near Tivoli and Central Station",
+        cta=_stay_cta("where-to-stay-in-copenhagen-christmas", "See hotels around Tivoli")),
+    "where-to-stay-in-budapest-christmas-market": dict(
+        text="For a first Christmas market trip, stay in District V: the Basilica market and the Vörösmarty Square fair are both there. Choose Hotel Erzsébet City Center Budapest for the pedestrian zone, Maverick Budapest Soho for budget, Aria Hotel Budapest for a splurge. The tax is 4% of the room price.",
+        link_text="District V",
+        cta=_stay_cta("where-to-stay-in-budapest-christmas-market", "See hotels around Vörösmarty Square")),
     "where-to-stay-in-cinque-terre": dict(
         text="For a first trip, stay in Monterosso al Mare, the largest of the five villages and the one with a beach. Choose Hotel Porto Roca to splurge, Hotel Ca' d'Andrean in Manarola for comfort and Gianni Franzi in Vernazza for value. The tax is €3 a person a night for up to three nights.",
         link_text="Monterosso al Mare",
@@ -1806,6 +1818,9 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-dubai-new-years-eve": ["Address Downtown", "Vida Dubai Mall", "Rove Downtown"],
+    "where-to-stay-in-copenhagen-christmas": ["Nimb Hotel", "Scandic Palace Hotel", "Savoy Hotel"],
+    "where-to-stay-in-budapest-christmas-market": ["Hotel Erzsébet City Center Budapest", "Aria Hotel Budapest", "Maverick Budapest Soho"],
     "where-to-stay-in-cinque-terre": ["Hotel Porto Roca", "Hotel Ca' d'Andrean", "Gianni Franzi"],
     "where-to-stay-for-glastonbury": ["George & Pilgrims Hotel", "Bear Inn, Somerset by Marston's Inns", "Montigo Resorts Somerset"],
     "where-to-stay-in-mykonos": ["Belvedere Mykonos", "Rochari Hotel", "Villa Konstantin"],
@@ -1879,7 +1894,7 @@ QUICK_PICKS = {
     "where-to-stay-in-washington-dc": ["Kimpton Hotel Monaco Washington DC", "Moxy Washington, DC Downtown", "Willard InterContinental Washington"],
     "where-to-stay-in-miami": ["The Betsy", "Catalina Hotel & Beach Club", "Faena Hotel Miami Beach"],
     "where-to-stay-in-san-diego": ["Pendry San Diego", "Hotel Republic San Diego, Autograph Collection", "HI San Diego Downtown Hostel"],
-    "where-to-stay-in-dubai": ["Armani Hotel Dubai", "Vida Dubai Mall", "Rove Downtown"],
+    "where-to-stay-in-dubai": ["Vida Dubai Mall", "Rove Downtown", "Atlantis, The Palm"],
     "where-to-stay-in-orlando": ["Disney's Grand Floridian Resort & Spa", "Drury Plaza Hotel Orlando - Disney Springs Area", "Rosen Inn at Pointe Orlando"],
     "where-to-stay-in-hiroshima": ["Dormy Inn Hiroshima", "Nest Hotel Hiroshima Hatchobori", "Toyoko Inn Hiroshima-eki Shinkansen-guchi No.1"],
     "where-to-stay-in-kanazawa": ["The Hotel Sanraku Kanazawa", "Hotel Intergate Kanazawa", "Hotel Nikko Kanazawa"],
@@ -2609,6 +2624,9 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Dubai", "where-to-stay-in-dubai-new-years-eve", None, None),
+        ("Copenhagen", "where-to-stay-in-copenhagen-christmas", None, None),
+        ("Budapest", "where-to-stay-in-budapest-christmas-market", None, None),
         ("Cinque Terre", "where-to-stay-in-cinque-terre", None, None),
         ("Glastonbury", "where-to-stay-for-glastonbury", None, None),
         ("Mykonos", "where-to-stay-in-mykonos", None, None),
@@ -2813,6 +2831,15 @@ STAY_POINTERS = {
     "where-to-stay-in-seville": ("intro",
         'Coming for Holy Week or the Feria? <a href="where-to-stay-in-seville-holy-week-april-fair.html">Where to stay '
         'in Seville for Holy Week and the April Fair 2027</a> matches the areas to the processions and the fairground.'),
+    "where-to-stay-in-copenhagen": ("intro",
+        'Coming for Christmas? <a href="where-to-stay-in-copenhagen-christmas.html">Where to stay in Copenhagen for '
+        'Christmas</a> matches hotels to Tivoli (13 November to 3 January) and the city’s Christmas markets.'),
+    "where-to-stay-in-dubai": ("intro",
+        'Here for 31 December? <a href="where-to-stay-in-dubai-new-years-eve.html">Where to stay in Dubai for New Year’s '
+        'Eve</a> matches hotels to the Burj Khalifa fireworks, the road closures and the Palm.'),
+    "where-to-stay-in-budapest": ("intro",
+        'Coming in December? <a href="where-to-stay-in-budapest-christmas-market.html">Where to stay in Budapest for '
+        'the Christmas markets</a> matches hotels to Vörösmarty Square and the Basilica, open from 13 November.'),
     "where-to-stay-on-the-amalfi-coast": ("intro",
         'Flying into Naples? <a href="where-to-stay-in-naples.html">Where to stay in Naples</a> compares the historic '
         'centre, Chiaia and Vomero for a night or two before the coast, with the city’s 2026 tourist tax.'),
