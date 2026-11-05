@@ -431,6 +431,10 @@
         "articles/where-to-stay-in-rio-carnival.html": [
           "BRT Transcarioca Parador at R$5.00, from 4am to midnight",
           "from Terminal 2 to Terminal Gentileza for R$15"
+        ],
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "the BRT Transcarioca Parador at R$5.00, from 4am to midnight",
+          "from Terminal 2 to Terminal Gentileza for R$15"
         ]
       },
       "note": "Fares from the airport's own pages; they say they can change without notice."
@@ -472,6 +476,9 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-rio-carnival.html": [
+          "Lines 1 and 4 run together between Uruguai and Jardim Oceânico"
+        ],
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
           "Lines 1 and 4 run together between Uruguai and Jardim Oceânico"
         ]
       }
@@ -558,6 +565,10 @@
         "articles/where-to-stay-in-rio-carnival.html": [
           "A hotel of 247 rooms at Avenida Atlântica 2964",
           "750 m from a metro station"
+        ],
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "A hotel of 247 rooms at Avenida Atlântica 2964",
+          "the hotel is 750 m from a metro station"
         ]
       }
     },
@@ -596,6 +607,10 @@
         "articles/where-to-stay-in-rio-carnival.html": [
           "89 rooms in five categories",
           "Philippe Starck hotel"
+        ],
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "A hotel of 89 rooms in five categories at Avenida Vieira Souto 80",
+          "the last of four nights is free"
         ]
       }
     },
@@ -634,6 +649,10 @@
         "articles/where-to-stay-in-rio-carnival.html": [
           "400 m from Nossa Senhora da Paz station",
           "nothing is refunded inside 90 days"
+        ],
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "A hostel at Rua Prudente de Morais 594",
+          "refunds nothing inside 90 days"
         ]
       }
     },
@@ -690,6 +709,9 @@
         "articles/where-to-stay-in-rio-carnival.html": [
           "with 143 apartments and suites",
           "Praia de Botafogo 242"
+        ],
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "A Tapestry Collection by Hilton at Praia de Botafogo 242"
         ]
       }
     },
@@ -707,6 +729,9 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-rio-carnival.html": [
+          "A hotel of 422 apartments at Rua Ferreira Viana 81"
+        ],
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
           "A hotel of 422 apartments at Rua Ferreira Viana 81"
         ]
       }
@@ -762,7 +787,430 @@
         }
       ],
       "checked": "2026-10-28",
-      "note": "Negative finding from news reporting; the fee charged on Ilha Grande belongs to Angra dos Reis, a different municipality."
+      "note": "Negative finding from news reporting; the fee charged on Ilha Grande belongs to Angra dos Reis, a different municipality.",
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "A bill was before the City Council's committees in June 2026",
+          "The fee that applies on Ilha Grande belongs to a different municipality"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-nye.ops-plan-2025-26",
+      "topic": "place",
+      "claim": "Riotur's 26 December 2025 notice of the City's Réveillon 2026 (31 December 2025) plan expected more than 2.5 million people in Copacabana, put about 7,500 municipal agents from 11 bodies on it, 19 fireworks barges with 12 minutes of fireworks, and about 700 cameras on the City's parties.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://riotur.rio/editorial/prefeitura-apresenta-o-planejamento-operacional-para-o-reveillon-2026/",
+          "kind": "official",
+          "title": "Riotur: Prefeitura presents the operations plan for Réveillon 2026",
+          "evidence": [
+            "Cerca de 7.500 agentes municipais de 11 órgãos",
+            "serão 19 balsas distribuídas ao longo da orla",
+            "12 minutos de espetáculo pirotécnico no céu",
+            "Copacabana, onde são esperadas mais de 2,5 milhões de pessoas",
+            "Serão cerca de 700 câmeras acompanhando a movimentação nas festas organizadas pela Prefeitura"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "more than 2.5 million people expected in Copacabana",
+          "around 7,500 municipal agents from 11 bodies",
+          "about 700 cameras watching the city's parties",
+          "19 barges along the beach and 12 minutes of fireworks"
+        ]
+      },
+      "note": "Last year's edition (31 Dec 2025). The 2026-27 plan was not published on 2026-11-05."
+    },
+    {
+      "id": "br.rio-nye.closures-2025-26",
+      "topic": "transport",
+      "claim": "The 2025-26 plan closed Avenida Atlântica fully from 7h on 31 December, opened the lane beside the buildings from 10h on 1 January, banned parking on the avenue from 6h on 30 December and blocked the Copacabana accesses at Ipanema, the Cantagalo cut, the Túnel Velho and the Enseada de Botafogo.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://riotur.rio/editorial/prefeitura-apresenta-o-planejamento-operacional-para-o-reveillon-2026/",
+          "kind": "official",
+          "title": "Riotur: Prefeitura presents the operations plan for Réveillon 2026",
+          "evidence": [
+            "A interdição total da Avenida Atlântica será às 7h",
+            "A partir das 10h, a pista das edificações da Avenida Atlântica será aberta",
+            "a partir das 6h do dia 30/12",
+            "Bloqueio dos acessos a Copacabana: Ipanema, Lagoa (Corte de Cantagalo), Túnel Velho e Enseada de Botafogo"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "closed Avenida Atlântica completely to traffic from 7am on 31 December",
+          "opened the lane beside the buildings from 10am on 1 January",
+          "Parking was banned on the avenue from 6am on 30 December",
+          "the access points to Copacabana at Ipanema, the Cantagalo cut, the Túnel Velho and the Enseada de Botafogo were blocked"
+        ]
+      },
+      "note": "CET-Rio's own page (cetrio.prefeitura.rio) refused connection on 2026-11-05; closures are from Riotur's copy of the plan. Recheck for the 2026-27 CET-Rio plan."
+    },
+    {
+      "id": "br.rio-nye.metro-2025-26",
+      "topic": "transport",
+      "claim": "For the 2025-26 Réveillon MetrôRio ran a special Copacabana operation from 19h on 31 December to 5h on 1 January; the R$15 passport covered the round trip, was sold only through the operator's app or site, and gave a return wristband at the gate; Line 2 ran Pavuna to General Osório/Ipanema on 31 and 1; 24 municipal and 11 intercity bus lines ran specially in Copacabana from 18h to 21h, and a special operation began at the Terminal Enseada de Botafogo at 21h.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://riotur.rio/editorial/prefeitura-apresenta-o-planejamento-operacional-para-o-reveillon-2026/",
+          "kind": "official",
+          "title": "Riotur: Prefeitura presents the operations plan for Réveillon 2026",
+          "evidence": [
+            "das 19h do dia 31 até 5h de 1º de janeiro",
+            "O preço do passaporte do metrô para o Réveillon de Copacabana é de R$ 15, que dá direito a ida e volta do evento.",
+            "A venda dos bilhetes especiais do metrô é feita exclusivamente pelo aplicativo ou site da concessionária",
+            "será entregue ao cliente a pulseira de retorno",
+            "Nos dias 31 e 1º, os trens da Linha 2 vão circular entre Pavuna e General Osório/Ipanema",
+            "Entre 18h e 21h, 24 linhas municipais e 11 linhas intermunicipais passarão a circular de forma especial em Copacabana",
+            "Às 21h, tem início a operação especial do Terminal Enseada de Botafogo"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "from 7pm on 31 December to 5am on 1 January",
+          "The Réveillon passport cost R$15",
+          "it was sold only through MetrôRio's app or site",
+          "passengers were given a return wristband",
+          "the Line 2 trains running between Pavuna and General Osório (Ipanema)"
+        ]
+      },
+      "note": "No SuperVia notice and no MetrôRio 2026-27 notice found (metrorio.com.br has no Réveillon text). Riotur calls the Line 2 service 'trens'."
+    },
+    {
+      "id": "br.rio-nye.stages-2025-26",
+      "topic": "place",
+      "claim": "The 2025-26 Réveillon had 13 stages; in the Zona Sul the Palco Rio stood in front of the Copacabana Palace with the countdown slot, the “Momento da Virada”, listed from 23h45 and João Gomes with Iza at 00h12, the Palco Samba Amstel at Rua República do Peru in front of Posto 6, and a gospel stage at Leme in front of the Forte do Leme.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://riotur.rio/editorial/a-maior-virada-do-mundo-um-reveillon-historico-no-rio",
+          "kind": "official",
+          "title": "Riotur: Rio Réveillon 2026, the biggest turn of the year (4 December 2025)",
+          "evidence": [
+            "23h45 – Momento da Virada",
+            "00h12 – João Gomes + Iza",
+            "terá 12 minutos de duração, com 19 balsas no mar"
+          ]
+        },
+        {
+          "url": "https://riotur.rio/editorial/prefeitura-apresenta-o-planejamento-operacional-para-o-reveillon-2026/",
+          "kind": "official",
+          "title": "Riotur: Prefeitura presents the operations plan for Réveillon 2026",
+          "evidence": [
+            "Palco Samba Amstel, na altura da Rua República do Peru, em frente ao Posto 6",
+            "muita música, arte e cultura em 13 palcos espalhados por toda a cidade",
+            "Já o Palco Banco do Brasil Leme é dedicado à música gospel"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "13 stages across the city",
+          "the Palco Samba Amstel at Rua República do Peru in front of Posto 6",
+          "with the countdown slot, the “Momento da Virada”, listed from 23h45",
+          "a gospel stage at Leme on Rua Anchieta in front of the Forte do Leme"
+        ]
+      },
+      "note": "Rua Anchieta / Forte do Leme and 'in front of the Copacabana Palace' are from the Riotur lineup page as read by summary; evidence quotes for them were not copied. Re-read before publishing."
+    },
+    {
+      "id": "br.rio-nye.other-fireworks",
+      "topic": "place",
+      "claim": "The 2025-26 plan named fireworks at Flamengo (three barges, 10 minutes), the Igreja da Penha (8), Parque Oeste (6) and Parque Realengo (6) besides Copacabana; Riotur said hotels and shopping centres promised fireworks at 12 points in Barra and Recreio.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://riotur.rio/editorial/prefeitura-apresenta-o-planejamento-operacional-para-o-reveillon-2026/",
+          "kind": "official",
+          "title": "Riotur: Prefeitura presents the operations plan for Réveillon 2026",
+          "evidence": [
+            "no Flamengo (em três balsas, com 10 minutos de duração)",
+            "na Igreja da Penha (com 8 minutos), no Parque Oeste (com 6 minutos) e no Parque Realengo (com 6 minutos)"
+          ]
+        },
+        {
+          "url": "https://riotur.rio/editorial/a-maior-virada-do-mundo-um-reveillon-historico-no-rio",
+          "kind": "official",
+          "title": "Riotur: Rio Réveillon 2026, the biggest turn of the year (4 December 2025)",
+          "evidence": [
+            "hotéis e shoppings prometem realizar queimas de fogos em 12 pontos da Barra e do Recreio"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "Flamengo, with three barges and 10 minutes",
+          "hotels and shopping centres promised fireworks at 12 points in Barra and Recreio"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-nye.safety-2025-26",
+      "topic": "place",
+      "claim": "The 2025-26 plan banned street vendors from selling glass bottles and put a COR-Rio advanced base monitoring Copacabana around the clock.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://riotur.rio/editorial/prefeitura-apresenta-o-planejamento-operacional-para-o-reveillon-2026/",
+          "kind": "official",
+          "title": "Riotur: Prefeitura presents the operations plan for Réveillon 2026",
+          "evidence": [
+            "Está proibida a comercialização de garrafas de vidro pelos ambulantes",
+            "Uma base avançada do COR-Rio fará o monitoramento 24 horas em Copacabana."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "street vendors were banned from selling glass bottles"
+        ]
+      },
+      "note": "Only city guidance used for safety; no FCDO advice cited in this guide."
+    },
+    {
+      "id": "br.rio-nye.publication-timing",
+      "topic": "place",
+      "claim": "Last year Riotur dated its Réveillon party guide 27 November 2025 and its stage-lineup page 4 December 2025; the Prefeitura's operations plan was dated 26 December 2025.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://riotur.rio/editorial/guia-das-festas-de-reveillon-no-rio-opcoes-para-todos-os-estilos-em-2026/",
+          "kind": "official",
+          "title": "Riotur: guide to Réveillon parties",
+          "evidence": [
+            "Publicado em 27 de novembro de 2025"
+          ]
+        },
+        {
+          "url": "https://riotur.rio/editorial/a-maior-virada-do-mundo-um-reveillon-historico-no-rio",
+          "kind": "official",
+          "title": "Riotur: Rio Réveillon 2026, the biggest turn of the year",
+          "evidence": [
+            "Publicado em 4 de dezembro de 2025"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "was dated 27 November 2025",
+          "was dated 4 December 2025"
+        ]
+      },
+      "note": "The 26 December 2025 date of the operations plan was read from the page by summary, not quoted. The 2026-27 programme was not found (search of riotur.rio and prefeitura.rio, 2026-11-05)."
+    },
+    {
+      "id": "br.rio-nye.hotel-fairmont",
+      "topic": "hotel",
+      "claim": "Fairmont Rio de Janeiro Copacabana: Avenida Atlântica 4240, Copacabana; its Réveillon page gives 31/12, 20h to 4h, and its menu links Réveillon 2027.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://fairmontrio.com/",
+          "kind": "official",
+          "title": "Fairmont Rio de Janeiro Copacabana",
+          "evidence": [
+            "Av. Atlântica, 4240 – Copacabana Rio de Janeiro"
+          ]
+        },
+        {
+          "url": "https://fairmontrio.com/reveillon/",
+          "kind": "official",
+          "title": "Fairmont Rio: Réveillon",
+          "evidence": [
+            "Data: 31/12 Horário: 20h - 4h"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "On Avenida Atlântica at number 4240",
+          "for 31 December from 20h to 4h"
+        ]
+      },
+      "note": "Page shows no package, minimum stay or fireworks-view wording; hotel's own pages were thin."
+    },
+    {
+      "id": "br.rio-nye.hotel-othon",
+      "topic": "hotel",
+      "claim": "Othon Palace Copacabana Rio: its Réveillon 2027 pages offer five parties; the Skylights party is on the 31st-floor rooftop, 8pm to 2am, with panoramic views of Copacabana and the fireworks and access to the Luxury party until 4am.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.othon.com.br/en/reveillon-2027-pre-venda",
+          "kind": "official",
+          "title": "Othon: Réveillon 2027 in Copacabana",
+          "evidence": [
+            "Celebrate the arrival of 2027 at the Othon Palace Copacabana Rio",
+            "Five celebrations, five different styles"
+          ]
+        },
+        {
+          "url": "https://www.othon.com.br/en/festa-skylights-2027",
+          "kind": "official",
+          "title": "Othon: Skylights party 2027",
+          "evidence": [
+            "The space offers panoramic views of Copacabana and the New Year's Eve fireworks.",
+            "The party is from 8 pm to 2 am, with access to the Luxury Party until 4 am."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "panoramic views of Copacabana and the New Year's Eve fireworks",
+          "offer five parties in different styles"
+        ]
+      },
+      "note": "No room package, minimum stay or prices on the pages; address not on the official page (Booking lists Av Atlântica 3264, not used in the article)."
+    },
+    {
+      "id": "br.rio-nye.hotel-pestana-nye",
+      "topic": "hotel",
+      "claim": "Pestana Rio Atlântica: its page says the pool and rooftop close from 12:00 on 31 December 2026 to 12:00 on 1 January 2027 for the New Year's Eve party, rooftop access that night is for guests with a party ticket and wristband, and New Year's Eve in Copacabana is among the most sought-after dates.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.pestana.com/en/hotel/pestana-rio",
+          "kind": "official",
+          "title": "Pestana Rio Atlântica",
+          "evidence": [
+            "The pool will be closed from 12:00 PM on 12/31/2026 until 12:00 PM on 01/01/2027.",
+            "holding a party ticket and the corresponding identification wristband.",
+            "with New Year's Eve in Copacabana and Carnival (Feb/Mar) being the most sought-after times (book early)."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "the pool and rooftop close at noon on 31 December",
+          "rooftop access that night is for guests with a party ticket and a wristband",
+          "New Year's Eve in Copacabana and Carnival are the most sought-after times"
+        ]
+      },
+      "note": "Page shows a price in euros 'from 1600 per night' with a US$ selector and a Selarón-steps blurb that looks pasted from another property; price NOT used. Press said a 3-night minimum last year; the page states none."
+    },
+    {
+      "id": "br.rio-nye.hotel-windsor-copa",
+      "topic": "hotel",
+      "claim": "Windsor Copa Hotel: Avenida Nossa Senhora de Copacabana 335; 145 apartments; a few steps from Copacabana beach; Standard rooms without view, Superior Executivo with a balcony facing Copacabana.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.windsorhoteis.com/hotel/windsor-copa/",
+          "kind": "official",
+          "title": "Windsor Copa",
+          "evidence": [
+            "Av. Nossa Senhora de Copacabana, 335 - CEP 22020-002",
+            "O charmoso Windsor Copa Hotel possui 145 apartamentos.",
+            "O Windsor Copa fica a poucos passos da Praia de Copacabana e próximo da Praia de Ipanema."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "A hotel of 145 apartments at Avenida Nossa Senhora de Copacabana 335"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-nye.hotel-windsor-leme",
+      "topic": "hotel",
+      "claim": "Windsor Leme: Avenida Atlântica 656; 224 apartments; infinity-edge pool; pets up to 5 kg for a fee; promotions list Christmas, no New Year's Eve package.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.windsorhoteis.com/hotel/windsor-leme/",
+          "kind": "official",
+          "title": "Windsor Leme",
+          "evidence": [
+            "Av. Atlântica, 656 - CEP 22010-000",
+            "São 224 apartamentos equipados com o que há de mais moderno para o seu conforto.",
+            "Piscina de borda infinita"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "A hotel of 224 apartments at Avenida Atlântica 656",
+          "with an infinity-edge pool"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-nye.hotel-janeiro",
+      "topic": "hotel",
+      "claim": "JANEIRO Hotel (page title 'Hotel Leblon Rio de Janeiro'): 51 rooms in categories JANEIRO, MASTER, SUITE, DELUXE and THE ROOM; a pool overlooking the mountain and a pool bar; no New Year's Eve offer on the page.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://janeirohotel.rio/en",
+          "kind": "official",
+          "title": "JANEIRO Hotel",
+          "evidence": [
+            "each of the 51 rooms",
+            "The Little Pool Bar & Varanda"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "a hotel whose page counts 51 rooms"
+        ]
+      },
+      "note": "Address not on the official page; Booking.com lists Avenida Delfim Moreira 696 (not printed in the article). Some sites still list it as Marina All Suites; that was not checked on the official site."
+    },
+    {
+      "id": "br.rio-nye.hotel-windsor-barra",
+      "topic": "hotel",
+      "claim": "Windsor Barra: Avenida Lúcio Costa 2630; 339 apartments and suites with views of the sea and mountains; front-sea apartments from the third floor; pool and sauna.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.windsorhoteis.com/hotel/windsor-barra/",
+          "kind": "official",
+          "title": "Windsor Barra",
+          "evidence": [
+            "Av. Lúcio Costa 2630 - CEP 22620-172",
+            "São 339 apartamentos e suítes com vista privilegiada para o mar e montanhas.",
+            "Vista frente mar. Apartamentos a partir do 3º andar."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "A hotel of 339 apartments and suites at Avenida Lúcio Costa 2630"
+        ]
+      }
+    },
+    {
+      "id": "br.rio-nye.hotel-mercure-barra",
+      "topic": "hotel",
+      "claim": "Mercure Rio de Janeiro Barra da Tijuca: Avenida do Pepê 56; Pepê beach at 0 m on Accor's page; just 10 minutes from Jardim Oceânico subway station; Sambá restaurant, spa and fitness centre; some rooms with sea or Pedra da Gávea views; check-in from 15:00, check-out up to 12:00.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://all.accor.com/hotel/8180/index.en.shtml",
+          "kind": "official",
+          "title": "Accor: Mercure Rio de Janeiro Barra da Tijuca",
+          "evidence": [
+            "Just 10 minutes from Jardim Oceânico subway station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-rio-new-years-eve.html": [
+          "Accor says it is just 10 minutes from Jardim Oceânico subway station",
+          "At Avenida do Pepê 56"
+        ]
+      },
+      "note": "Quote taken from a fetch summary; other details (0 m, rooms, times) are from the same page by summary."
     }
   ]
 }

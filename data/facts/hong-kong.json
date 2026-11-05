@@ -194,6 +194,11 @@
         "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
           "restored at 3% from 1 January 2025",
           "The Government said in September 2025 that it had no plan to adjust the rate"
+        ],
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "3% of the accommodation charge, charged again since 1 January 2025",
+          "Normally 10% of the room charge; exempt from HAT",
+          "a bill runs about 13% above the room rate"
         ]
       }
     },
@@ -778,6 +783,10 @@
         "articles/where-to-stay-in-hong-kong-chinese-new-year.html": [
           "takes as little as 24 minutes",
           "An adult single costs HK$120 to Hong Kong station or HK$105 to Kowloon station"
+        ],
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "takes as little as 24 minutes",
+          "HK$120 to Hong Kong station or HK$105 to Kowloon station"
         ]
       },
       "recheck_days": 30
@@ -1019,6 +1028,412 @@
         ]
       },
       "recheck_days": 90
+    },
+    {
+      "id": "hk.nye2025.no-fireworks",
+      "topic": "place",
+      "claim": "The Hong Kong Government's notice of 17 December 2025 said the 2025 New Year's Eve countdown would forgo the fireworks display and take place in an alternative format, with the Tourism Board to announce the details separately.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.info.gov.hk/gia/general/202512/17/P2025121700719.htm",
+          "kind": "official",
+          "title": "Hong Kong Government: festival arrangements, 17 December 2025",
+          "evidence": [
+            "The New Year's Eve countdown event this year will forgo the fireworks display and take place in an alternative format"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "forgo the fireworks display and take place in an alternative format"
+        ]
+      }
+    },
+    {
+      "id": "hk.nye2025.police",
+      "topic": "place",
+      "claim": "The Government said the Police would arrange sufficient manpower for crowd management measures and special traffic arrangements for the 2025 festival events.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.info.gov.hk/gia/general/202512/17/P2025121700719.htm",
+          "kind": "official",
+          "title": "Hong Kong Government: festival arrangements, 17 December 2025",
+          "evidence": [
+            "The Police will arrange sufficient manpower to implement corresponding crowd management measures and special traffic arrangements as necessary"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "sufficient manpower for crowd management and special traffic arrangements as necessary"
+        ]
+      }
+    },
+    {
+      "id": "hk.nye2025.hktb-countdown",
+      "topic": "place",
+      "claim": "HKTB's 24 December 2025 release placed the 2025 countdown at the Chater Road Pedestrian Precinct in Central, from 11:30pm to 12:10am, with screens at Chater Garden and Edinburgh Place, a live projection at the Hong Kong Cultural Centre, a countdown clock on the Convention and Exhibition Centre in Wan Chai, and Disneyland and West Kowloon events.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://newshub.medianet.com.au/2025/12/hktb-new-year-countdown-to-be-staged-at-chater-road-in-brand-new-format-with-light-performance-themed-new-hopes-new-beginnings-to-spread-positivity-and-blessings/134570",
+          "kind": "official",
+          "title": "HKTB media release on the New Year Countdown, 24 December 2025 (as distributed by Medianet)",
+          "evidence": [
+            "New Year Countdown will take place at the Chater Road Pedestrian Precinct in Central",
+            "From 11:30 pm on New Year’s Eve to 00:10 am on New Year’s Day",
+            "Large screens will be set up in Chater Garden and Edinburgh Place",
+            "an outdoor live projection will be displayed at the Hong Kong Cultural Centre in Tsim Sha Tsui",
+            "A giant countdown clock will be shown on the Hong Kong Convention and Exhibition Centre in Wan Chai",
+            "a special countdown concert in West Kowloon Cultural District"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "Chater Road Pedestrian Precinct in Central",
+          "music from 11:30pm on New Year's Eve to 12:10am on New Year's Day",
+          "an outdoor live projection was shown at the Hong Kong Cultural Centre in Tsim Sha Tsui",
+          "a giant countdown clock was shown on the Hong Kong Convention and Exhibition Centre in Wan Chai"
+        ]
+      }
+    },
+    {
+      "id": "hk.nye2025.transport",
+      "topic": "transport",
+      "claim": "For 31 December 2025 the Transport Department said road closures around Central would start in phases from 2pm, the Police might act at short notice in Tsim Sha Tsui, MTR frequencies (except the Airport Express) would rise in phases from 3pm, most lines and the East Rail line to Admiralty would run overnight with the last Lo Wu train leaving Admiralty at 12:56am, the Mid-Levels Escalator would run to 3am and Airport Express hours would be extended.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.info.gov.hk/gia/general/202512/30/P2025123000586.htm",
+          "kind": "official",
+          "title": "Transport Department: special traffic and transport arrangements for New Year's Eve, 30 December 2025",
+          "evidence": [
+            "Road closures and traffic diversions will be implemented in phases from 2pm that day in the vicinity of Central",
+            "ad-hoc traffic and public transport measures which may be implemented by the Police in the Tsim Sha Tsui area at short notice",
+            "The train frequencies of MTR lines (except Airport Express) will be enhanced in phases from 3pm onwards on December 31",
+            "The last train to Lo Wu will depart from Admiralty at 0.56am on New Year's Day",
+            "The operating hours of the Central to Mid-Levels Escalator and Walkway System on New Year's Eve will be extended to 3am",
+            "The operating hours of the Airport Express, Disneyland Resort Line"
+          ]
+        },
+        {
+          "url": "https://www.info.gov.hk/gia/general/202512/17/P2025121700719.htm",
+          "kind": "official",
+          "title": "Hong Kong Government: festival arrangements, 17 December 2025",
+          "evidence": [
+            "the majority of MTR railway lines will operate overnight on New Year's Eve"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "road closures and diversions in the vicinity of Central would be implemented in phases from 2pm",
+          "the Police might introduce ad-hoc measures in the Tsim Sha Tsui area at short notice",
+          "enhanced in phases from 3pm on 31 December",
+          "the last train to Lo Wu left Admiralty at 12:56am",
+          "extended to 3am on 1 January"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.langham",
+      "topic": "hotel",
+      "claim": "The Langham, Hong Kong is at 8 Peking Road, Tsim Sha Tsui, with Palm Court, T'ang Court and The Food Gallery among its dining rooms.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.langhamhotels.com/en/the-langham/hong-kong/",
+          "kind": "operator",
+          "title": "The Langham, Hong Kong",
+          "evidence": [
+            "Located at 8 Peking Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+            "PALM COURT T’ANG COURT THE FOOD GALLERY"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "At 8 Peking Road, with Palm Court, T'ang Court and The Food Gallery among its dining rooms"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.kowloon-shangri-la",
+      "topic": "hotel",
+      "claim": "Kowloon Shangri-La is at 64 Mody Road, Tsim Sha Tsui East, about 35 minutes from the airport by its own count; its offers page lists Festive Goodies from 16 November 2026 to 1 January 2027 and no New Year's Eve room package.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/en/hongkong/kowloonshangrila/about/",
+          "kind": "operator",
+          "title": "Kowloon Shangri-La: about",
+          "evidence": [
+            "Address: 64 Mody Road, Tsim Sha Tsui East, Kowloon",
+            "is approximately 35 minutes from Hong Kong International Airport"
+          ]
+        },
+        {
+          "url": "https://www.shangri-la.com/en/hongkong/kowloonshangrila/offers/",
+          "kind": "operator",
+          "title": "Kowloon Shangri-La: offers",
+          "evidence": [
+            "Kowloon Shangri-La's Festive Goodies",
+            "16 Nov 2026 - 01 Jan 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "At 64 Mody Road, Tsim Sha Tsui East, about 35 minutes from the airport by its own count",
+          "festive dining offers to 1 January 2027 but no New Year's Eve room package"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.mira",
+      "topic": "hotel",
+      "claim": "The Mira Hong Kong is at Mira Place, 118-130 Nathan Road, with 489 guestrooms including 56 suites.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.themirahotel.com/hong-kong/en/",
+          "kind": "operator",
+          "title": "The Mira Hong Kong",
+          "evidence": [
+            "Each of our 489 guestrooms (including 56 suites)",
+            "Mira Place, 118-130 Nathan Road"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "At Mira Place, 118-130 Nathan Road, with 489 designer guestrooms including 56 suites"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.island-shangri-la",
+      "topic": "hotel",
+      "claim": "Island Shangri-La, Hong Kong is at Pacific Place, Supreme Court Road, with 544 rooms and suites and views of the skyline, the Peak or Victoria Harbour; its offers page lists a Christmas package from 28 November to 26 December 2026 and no New Year's Eve package.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/en/hongkong/islandshangrila/about/",
+          "kind": "operator",
+          "title": "Island Shangri-La: about",
+          "evidence": [
+            "Sweeping views of the iconic skyline, the Peak or Victoria Harbour",
+            "the 544 rooms and suites",
+            "Pacific Place, Supreme Court Road, Central"
+          ]
+        },
+        {
+          "url": "https://www.shangri-la.com/en/hongkong/islandshangrila/offers/",
+          "kind": "operator",
+          "title": "Island Shangri-La: offers",
+          "evidence": [
+            "Questers Enchanted Adventure Christmas Package, Island Shangri-La, Hong Kong",
+            "28 Nov 2026 - 26 Dec 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "with 544 rooms and suites that its page says have views of the skyline, the Peak or Victoria Harbour",
+          "Christmas package from 28 November to 26 December 2026 and no New Year's Eve package"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.hari",
+      "topic": "hotel",
+      "claim": "The Hari Hong Kong is at 330 Lockhart Road, Wan Chai, with 210 guest rooms and suites with terrace; its page gives the Convention and Exhibition Centre as 8 minutes' walk, Exhibition Centre MTR station 7 and Causeway Bay MTR station 6.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.thehari.com/hong-kong/",
+          "kind": "operator",
+          "title": "The Hari Hong Kong",
+          "evidence": [
+            "The Hari Hong Kong offers 210 luxury guest rooms and suites with terrace",
+            "Hong Kong Convention and Exhibition Centre - 8mins walk",
+            "Causeway Bay MTR Station - 6mins walk",
+            "Exhibition Centre MTR Station - 7mins walk"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "with 210 guest rooms and suites that have a terrace",
+          "the Convention and Exhibition Centre as 8 minutes' walk, Exhibition Centre MTR station 7 and Causeway Bay MTR station 6"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.wharney",
+      "topic": "hotel",
+      "claim": "Wharney Hotel is at 57-73 Lockhart Road, Wanchai, with free Wi-Fi in all guest rooms and complimentary standard mini-bar refreshments.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.wharney.com/en/",
+          "kind": "operator",
+          "title": "Wharney Hotel",
+          "evidence": [
+            "Wharney Hotel Address: 57-73 Lockhart Road, Wanchai, Hong Kong",
+            "complimentary standard mini-bar refreshments"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "At 57-73 Lockhart Road, Wanchai, with free Wi-Fi in all guest rooms and complimentary standard mini-bar refreshments"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.regal-hongkong",
+      "topic": "hotel",
+      "claim": "Regal Hongkong Hotel is at 88 Yee Wo Street, Causeway Bay, with 35 floors, 481 guestrooms with 33 suites, and a 3-minute walk to Causeway Bay MTR station.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.regalhotel.com/en/regal-hongkong-hotel/about",
+          "kind": "operator",
+          "title": "Regal Hongkong Hotel: about",
+          "evidence": [
+            "Address: 88 Yee Wo Street, Causeway Bay, Hong Kong",
+            "481 guestrooms with 33 suites",
+            "3 minutes walk to Causeway Bay MTR station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "At 88 Yee Wo Street, a 35-floor hotel with 481 guestrooms including 33 suites, and a three-minute walk to Causeway Bay MTR station"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.lanson-place",
+      "topic": "hotel",
+      "claim": "Lanson Place Causeway Bay says it was recently redesigned by French interior designer Pierre-Yves Rochon.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://lansonplace.com/causewaybay/",
+          "kind": "operator",
+          "title": "Lanson Place Causeway Bay",
+          "evidence": [
+            "Recently redesigned by award-winning French interior designer Pierre-Yves Rochon"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "A small luxury hotel that its page says was recently redesigned by Pierre-Yves Rochon"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.nathan",
+      "topic": "hotel",
+      "claim": "Nathan Hotel is at 378 Nathan Road, a 5-minute walk from Jordan MTR station, Exit B2.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.nathanhotel.com/",
+          "kind": "operator",
+          "title": "Nathan Hotel",
+          "evidence": [
+            "Nathan Hotel is centrally located with just a 5-minute walk from Jordan MTR Station",
+            "378 Nathan Road, Kowloon, Hong Kong"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "At 378 Nathan Road, which its page puts a five-minute walk from Jordan MTR station, Exit B2"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.royal-plaza",
+      "topic": "hotel",
+      "claim": "Royal Plaza Hotel is at 193 Prince Edward Road West and sits on top of Mong Kok East station, with an 11-minute train ride to Exhibition Centre station.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.royalplaza.com.hk/",
+          "kind": "operator",
+          "title": "Royal Plaza Hotel",
+          "evidence": [
+            "our hotel sits atop the MTR Mong Kok East Station",
+            "an 11-minute train ride to MTR Exhibition Centre Station",
+            "193 Prince Edward Road West, Kowloon, Hong Kong"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "At 193 Prince Edward Road West, sitting on top of Mong Kok East station, with an 11-minute train ride to Exhibition Centre station by its own count"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.harbour-grand-hong-kong",
+      "topic": "hotel",
+      "claim": "Harbour Grand Hong Kong is at 23 Oil Street, North Point, by MTR Fortress Hill station, Exit A, with a 188-degree harbour view from its restaurant and lounge.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.harbourgrand.com/hongkong/en/",
+          "kind": "operator",
+          "title": "Harbour Grand Hong Kong",
+          "evidence": [
+            "23 Oil Street, North Point, Hong Kong (MTR Fortress Hill Station, Exit A)",
+            "188-degree harbour view"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "At 23 Oil Street, North Point, by MTR Fortress Hill station, Exit A, with the 188 Restaurant & Lounge, which its page says has a 188-degree harbour view"
+        ]
+      }
+    },
+    {
+      "id": "hk.hotel.harbour-plaza-north-point",
+      "topic": "hotel",
+      "claim": "Harbour Plaza North Point is at 665 King's Road, a two-minute walk from Quarry Bay MTR station, Exit C, and says most rooms have a view of the eastern side of Victoria Harbour.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.harbour-plaza.com/northpoint/en/location/",
+          "kind": "operator",
+          "title": "Harbour Plaza North Point: location",
+          "evidence": [
+            "665 King's Road, North Point, Hong Kong (MTR Quarry Bay Station, Exit C)",
+            "just two-minute walking distance to MTR Quarry Bay Station (Exit C)"
+          ]
+        },
+        {
+          "url": "https://www.harbour-plaza.com/northpoint/en/accommodation/",
+          "kind": "operator",
+          "title": "Harbour Plaza North Point: accommodation",
+          "evidence": [
+            "with most of the rooms boast view of the eastern side of Victoria Harbour"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+          "At 665 King's Road, a two-minute walk from Quarry Bay MTR station, Exit C, by its own count, with most rooms looking at the eastern side of Victoria Harbour"
+        ]
+      }
     }
   ]
 }

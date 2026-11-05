@@ -591,6 +591,14 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-hong-kong-new-years-eve.html": (
+        "Where to Stay in Hong Kong",
+        "Last year's countdown had no fireworks: where to stay, 12 hotels, the MTR and the 3% tax.",
+    ),
+    "articles/where-to-stay-in-rio-new-years-eve.html": (
+        "Where to Stay in Rio de Janeiro",
+        "Free beach party: last year's official plan, five areas, 12 hotels, and what Rio had yet to publish.",
+    ),
     "articles/where-to-stay-in-dubai-new-years-eve.html": (
         "Where to Stay in Dubai",
         "Burj Khalifa fireworks, six areas to stay in and 12 hotels, with last year's closures and Dubai's hotel fees.",
@@ -2385,6 +2393,19 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-hong-kong-new-years-eve.html": [
+        "articles/where-to-stay-in-hong-kong.html",
+        "articles/where-to-stay-in-hong-kong-chinese-new-year.html",
+        "articles/hong-kong-first-timers-guide.html",
+        "articles/things-to-do-in-hong-kong.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-rio-new-years-eve.html": [
+        "articles/where-to-stay-in-rio-carnival.html",
+        "articles/where-to-stay-in-sydney-new-years-eve.html",
+        "articles/where-to-stay-in-london-new-years-eve.html",
+        "articles/hotel-booking-sites-comparison.html",
     ],
     "articles/where-to-stay-in-dubai-new-years-eve.html": [
         "articles/where-to-stay-in-dubai.html",

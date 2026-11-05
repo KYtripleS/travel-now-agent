@@ -446,6 +446,14 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-hong-kong-new-years-eve": dict(
+        text="For a first trip, stay in Wan Chai: it is on the Island Line, near the Convention Centre where last year's countdown clock was shown. Choose Island Shangri-La for a splurge, The Hari for comfort and Wharney Hotel for value. The 2026 plan is not out; last year had no fireworks. The tax is 3%.",
+        link_text="Wan Chai",
+        cta=_stay_cta("where-to-stay-in-hong-kong-new-years-eve", "See hotels around Wan Chai")),
+    "where-to-stay-in-rio-new-years-eve": dict(
+        text="For a first Réveillon, stay in Copacabana and expect Avenida Atlântica to be shut to cars from 7am on 31 December, as it was last year. The Fairmont is the splurge, the Pestana Rio Atlântica the rooftop-party middle and the Windsor Copa the value pick. Riotur had not published the 2026 plan.",
+        link_text="Copacabana",
+        cta=_stay_cta("where-to-stay-in-rio-new-years-eve", "See hotels around Copacabana")),
     "where-to-stay-in-dubai-new-years-eve": dict(
         text="For the fireworks, stay in Downtown Dubai: Address Downtown is the splurge, Vida Dubai Mall the comfortable pick and Rove Downtown the budget one, but roads closed from 4pm last year. Atlantis publishes a 2026 gala for the Palm. The Tourism Dirham is AED 7 to 20 a night, plus at least 22% in fees.",
         link_text="Downtown Dubai",
@@ -1818,6 +1826,8 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-hong-kong-new-years-eve": ["Island Shangri-La, Hong Kong", "The Hari Hong Kong", "Wharney Hotel"],
+    "where-to-stay-in-rio-new-years-eve": ["Fairmont Rio de Janeiro Copacabana", "Pestana Rio Atlântica", "Windsor Copa"],
     "where-to-stay-in-dubai-new-years-eve": ["Address Downtown", "Vida Dubai Mall", "Rove Downtown"],
     "where-to-stay-in-copenhagen-christmas": ["Nimb Hotel", "Scandic Palace Hotel", "Savoy Hotel"],
     "where-to-stay-in-budapest-christmas-market": ["Hotel Erzsébet City Center Budapest", "Aria Hotel Budapest", "Maverick Budapest Soho"],
@@ -2624,6 +2634,8 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Hong Kong", "where-to-stay-in-hong-kong-new-years-eve", None, None),
+        ("Rio de Janeiro", "where-to-stay-in-rio-new-years-eve", None, None),
         ("Dubai", "where-to-stay-in-dubai-new-years-eve", None, None),
         ("Copenhagen", "where-to-stay-in-copenhagen-christmas", None, None),
         ("Budapest", "where-to-stay-in-budapest-christmas-market", None, None),
@@ -3134,7 +3146,8 @@ STAY_POINTERS = {
     "where-to-stay-in-hong-kong": ("intro",
         'Coming for Chinese New Year? <a href="where-to-stay-in-hong-kong-chinese-new-year.html">Hong Kong Chinese '
         'New Year 2027 hotels</a> matches the areas to the parade, the harbour fireworks on 7 February and the '
-        'Victoria Park fair.'),
+        'Victoria Park fair. Here for 31 December? '
+        '<a href="where-to-stay-in-hong-kong-new-years-eve.html">Where to stay for New Year’s Eve</a> explains last year’s move to Central.'),
     "where-to-stay-in-venice-carnival": [
         ("intro",
          'Weighing the two big carnivals? <a href="where-to-stay-in-rio-carnival.html">Rio Carnival 2027 hotels</a> '
@@ -3288,7 +3301,9 @@ STAY_POINTERS = {
         'Shirakawa-go light-up 2027</a> has the four January dates, the reservation rules and the buses from here.'),
     "where-to-stay-in-rio-carnival": ("intro",
         'Closer to home for North Americans: <a href="where-to-stay-in-new-orleans-mardi-gras.html">New Orleans '
-        'for Mardi Gras 2027</a> (Fat Tuesday is 9 February) matches hotels to the St. Charles parade route.'),
+        'for Mardi Gras 2027</a> (Fat Tuesday is 9 February) matches hotels to the St. Charles parade route. '
+        'Here for 31 December? <a href="where-to-stay-in-rio-new-years-eve.html">Where to stay in Rio for New Year’s '
+        'Eve</a> matches hotels to the Copacabana fireworks and the road closures.'),
     "where-to-stay-in-new-york-new-years-eve": ("intro",
         'Weighing London instead? <a href="where-to-stay-in-london-new-years-eve.html">London on New Year’s Eve</a> '
         'covers the ticketed Thames fireworks, the areas within walking distance and the UK’s £20 ETA.'),

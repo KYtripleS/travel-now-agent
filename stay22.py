@@ -114,6 +114,10 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-hong-kong-new-years-eve": dict(area="Wan Chai", lat=22.2783, lng=114.1747, zoom=15,
+                                                        address="Wan Chai, Hong Kong"),
+    "where-to-stay-in-rio-new-years-eve": dict(area="Copacabana", lat=-22.9672, lng=-43.1789, zoom=14,
+                                                  address="Avenida Atlântica, Copacabana, Rio de Janeiro, Brazil"),
     "where-to-stay-in-dubai-new-years-eve": dict(area="Downtown Dubai", lat=25.1972, lng=55.2744, zoom=14,
                                                     address="Downtown Dubai, Dubai, United Arab Emirates"),
     "where-to-stay-in-copenhagen-christmas": dict(area="Tivoli and Central Station", lat=55.6736, lng=12.5681, zoom=15,
@@ -1998,6 +2002,27 @@ HOTELS = {
     "The Ritz-Carlton, Dubai International Financial Centre": _B + "ae/the-ritz-carlton-dubai-international-financial-centre.html",
     "Jumeirah Emirates Towers": _B + "ae/emirates-tower.html",
     "Radisson Blu Hotel, Dubai Deira Creek": _B + "ae/radisson-sas-dubai-deira-creek.html",
+    # Rio de Janeiro, where-to-stay-in-rio-new-years-eve (Booking.com pages confirmed by hotel name and city)
+    "Fairmont Rio de Janeiro Copacabana": _B + "br/rio-de-janeiro.html",
+    "Othon Palace Copacabana Rio": _B + "br/rio-othon-palace.html",
+    "Windsor Copa": _B + "br/windsor-copa.html",
+    "Windsor Leme": _B + "br/windsor-leme.html",
+    "JANEIRO Hotel": _B + "br/janeiro-hotel.html",
+    "Windsor Barra": _B + "br/windsor-barra.html",
+    "Mercure Rio de Janeiro Barra da Tijuca": _B + "br/mercure-rj-barra-da-tijuca.html",
+    # Hong Kong, where-to-stay-in-hong-kong-new-years-eve (Booking.com pages confirmed by hotel name and city)
+    "Island Shangri-La, Hong Kong": _B + "hk/island-shangri-la-hong-kong.html",
+    "The Hari Hong Kong": _B + "hk/vignette-collection-the-hari-hong-kong.html",
+    "Wharney Hotel": _B + "hk/wharney.html",
+    "Regal Hongkong Hotel": _B + "hk/regal.html",
+    "Lanson Place Causeway Bay": _B + "hk/lanson-place.html",
+    "The Langham, Hong Kong": _B + "hk/langham.html",
+    "Kowloon Shangri-La": _B + "hk/kowloon-shangri-la.html",
+    "The Mira Hong Kong": _B + "hk/miramar.html",
+    "Nathan Hotel": _B + "hk/nathan.html",
+    "Royal Plaza Hotel": _B + "hk/royal-plaza.html",
+    "Harbour Grand Hong Kong": _B + "hk/harbour-grand-hong-kong.html",
+    "Harbour Plaza North Point": _B + "hk/harbourplazan.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

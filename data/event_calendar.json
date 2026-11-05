@@ -452,6 +452,22 @@
       "name": "Dubai New Year's Eve",
       "place": "Dubai, UAE",
       "when": "31 December: Burj Khalifa fireworks"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-rio-new-years-eve",
+      "name": "Réveillon in Copacabana",
+      "place": "Rio de Janeiro, Brazil",
+      "when": "31 December; the 2026 plan was not yet published"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-hong-kong-new-years-eve",
+      "name": "Hong Kong New Year's Eve",
+      "place": "Hong Kong",
+      "when": "31 December; the 2026 plan was not yet published, and last year had no fireworks"
     }
   ],
   "seasons": [
