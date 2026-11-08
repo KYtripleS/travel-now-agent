@@ -837,3 +837,43 @@ window.gySaveTrip = function (box, dep) {
   window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
   update();
 })();
+
+/* Stay guides: once the verdict has scrolled away, the same foot-of-screen bar as the
+   eSIM pages carries the verdict's own hotel link (placement 'stickybar'). It hides over
+   the footer and under a time-limited offer's bar, and can be closed for the visit. */
+(function () {
+  var main = document.getElementById('main');
+  if (!main || !main.querySelector('.gy-rates') || document.querySelector('.gy-aff-bar')) return;
+  var src = main.querySelector('.gy-verdict a.gy-verdict-btn[rel~="sponsored"]');
+  if (!src) return;
+  try { if (sessionStorage.getItem('gy_aff_bar') === '0') return; } catch (e) {}
+  var bar = document.createElement('div');
+  bar.className = 'gy-aff-bar';
+  bar.setAttribute('role', 'region');
+  bar.setAttribute('aria-label', 'Partner link');
+  bar.hidden = true;
+  bar.innerHTML = '<span class="gy-aff-bar-tag">Partner link</span><a rel="nofollow sponsored noopener" target="_blank"></a>'
+    + '<button type="button" aria-label="Hide this bar">×</button>';
+  var link = bar.querySelector('a');
+  link.textContent = src.textContent.replace(/\s+/g, ' ').trim().replace(/^See hotels around /, 'Hotels near ');
+  var off = false;
+  bar.querySelector('button').addEventListener('click', function () {
+    bar.hidden = true; off = true;
+    document.body.classList.remove('gy-has-aff-bar');
+    try { sessionStorage.setItem('gy_aff_bar', '0'); } catch (e) {}
+  });
+  document.body.appendChild(bar);
+  var footer = document.querySelector('.gy-footer'), verdict = main.querySelector('.gy-verdict');
+  function update() {
+    if (off) return;
+    link.href = src.href;   /* partner scripts may rewrite the verdict link after load */
+    var past = verdict.getBoundingClientRect().bottom < 0;
+    var atFoot = footer && footer.getBoundingClientRect().top < innerHeight;
+    var promo = document.querySelector('.gy-promo-bar:not([hidden])');
+    bar.hidden = !past || atFoot || !!promo;
+    document.body.classList.toggle('gy-has-aff-bar', !bar.hidden);
+  }
+  addEventListener('scroll', update, { passive: true });
+  addEventListener('resize', update);
+  update();
+})();

@@ -5438,3 +5438,48 @@ body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame
 @media (max-width: 899px) { .gy-pgrid--hub { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 699px) { .gy-pgrid--hub { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .gy-pgrid--hub .gy-pcard-title { font-size: .95rem; } }
+
+/* Stay guides (add_aeo.tag_hotel_tiers / add_area_cards): every hotel is a card with its tier as a label and
+   "Check rates" as the card's main partner action (filled blue, per section 14); "Pick your area" is a photo row. */
+.article ul:has(> li > .gy-rates) { list-style: none; padding-left: 0; margin-left: 0; }
+.article li:has(> .gy-rates) { position: relative; margin: 0 0 14px; padding: 18px 18px 16px; background: var(--card);
+  border: 1px solid var(--rule); border-radius: var(--pcard-radius); box-shadow: 0 6px 18px -16px rgba(23, 32, 51, .5);
+  transition: border-color .15s, box-shadow .15s; }
+.article li:has(> .gy-rates) + li { margin-top: 0; }
+.article li:has(> .gy-rates):hover { border-color: #c9d8f2; box-shadow: 0 12px 26px -18px rgba(11, 99, 214, .45); }
+.article li:has(> .gy-rates)::marker { content: none; }
+.article li:has(> .gy-rates) > strong:first-child { display: block; font-family: var(--serif); font-size: 1.28rem;
+  font-weight: 600; line-height: 1.25; color: var(--ink); }
+.article li:has(> .gy-rates) > strong:first-child a { color: var(--ink); text-decoration-color: var(--gold); }
+.gy-tier { display: block; margin: 8px 0 10px; font-size: 0; line-height: 1; }
+.gy-tier-w { display: inline-block; padding: 5px 9px 4px; border-radius: 4px; font: 700 .66rem/1 var(--sans);
+  letter-spacing: .12em; text-transform: uppercase; background: #eef1f6; color: var(--ink); }
+.gy-tier[data-tier="splurge"] .gy-tier-w { background: #f4e9cf; color: #6b4f1f; }
+.gy-tier[data-tier="good-value"] .gy-tier-w { background: #e3f1e6; color: #24573a; }
+.gy-tier[data-tier="budget"] .gy-tier-w { background: #e6eefb; color: #1f4a8a; }
+.article li > .gy-rates { display: block; margin-top: 14px; }
+.article li > .gy-rates a, .article li > .gy-rates a[rel~="sponsored"][href]:not([class]):not(.button) { display: inline-flex; align-items: center; justify-content: center; min-height: 46px;
+  padding: 10px 22px; border-radius: 999px; background: var(--cta); color: #fff; font: 700 .98rem var(--sans);
+  text-decoration: none; white-space: normal; text-align: center;
+  box-shadow: 0 2px 0 rgba(8, 64, 140, .9), 0 6px 14px -6px rgba(11, 99, 214, .6); transition: transform .12s, background-color .12s; }
+.article li > .gy-rates a:hover, .article li > .gy-rates a:focus-visible, .article li > .gy-rates a[rel~="sponsored"][href]:not([class]):not(.button):hover { background: var(--cta-hover); color: #fff;
+  transform: translateY(-1px); text-decoration: none; }
+.article li > .gy-rates a:active { transform: translateY(1px); }
+.article .gy-areas { margin: 4px 0 26px; }
+.article .gy-areas-h { margin: 0 0 10px; font: 700 .74rem var(--sans); letter-spacing: .14em; text-transform: uppercase;
+  color: var(--gold-ink); }
+.article .gy-areas .gy-scroll { grid-auto-columns: minmax(200px, 42%); }
+.article .gy-areas .gy-pcard { color: var(--ink); text-decoration: none; }
+.article .gy-areas .gy-pcard-title { font-size: 1.05rem; }
+.article .gy-areas .gy-pcard-title::after { content: "\2009\2193"; }   /* jumps down the page */
+.article .gy-areas .gy-pcard-desc { font-family: var(--sans); font-size: .8rem; line-height: 1.4; }
+.article .gy-areas .gy-pcard-desc::first-letter { text-transform: uppercase; }
+@media (max-width: 699px) {
+  .article li:has(> .gy-rates) { padding: 16px 14px 14px; }
+  .article li > .gy-rates a { display: flex; width: 100%; }
+  .article .gy-areas .gy-scroll { grid-auto-columns: 62%; margin-right: -20px; padding-right: 20px; }
+}
+@media (prefers-reduced-motion: reduce) { .article li > .gy-rates a { transition: none; } }
+.gy-aff-bar a { min-width: 0; overflow: hidden; text-overflow: ellipsis; }   /* long "See hotels around ..." on a phone */
+@media (max-width: 420px) { .gy-aff-bar-tag { max-width: 50px; white-space: normal; line-height: 1.15; }
+  .gy-aff-bar a { padding: 10px 14px; font-size: .9rem; } }

@@ -3464,20 +3464,21 @@ def render_section(from_file: str) -> str:
 
 
 def inject(html: str, section: str) -> tuple[str, bool]:
-    # If an existing block is present, replace it (so adding new articles to
-    # the registry updates already-injected pages without manual cleanup).
+    # The block goes just above the newsletter sign-up, where readers who finish the
+    # article still are (it used to sit after the newsletter and the back link, which few
+    # reached). An existing block is lifted out and put back there, so re-runs are no-ops.
+    orig = html
     if MARK_BEGIN in html and MARK_END in html:
         b = html.find(MARK_BEGIN)
         e = html.find(MARK_END, b) + len(MARK_END)
-        existing = html[b:e]
-        if existing.strip() == section.strip():
-            return html, False
-        return html[:b] + section + html[e:], True
-    anchor = "</main>"
-    idx = html.rfind(anchor)
+        html = html[:b].rstrip("\n") + "\n" + html[e:].lstrip("\n")
+    idx = html.find('<section class="newsletter-cta"')
     if idx == -1:
-        return html, False
-    return html[:idx] + section + "\n" + html[idx:], True
+        idx = html.rfind("</main>")
+    if idx == -1:
+        return orig, False
+    new = html[:idx] + section + "\n" + html[idx:]
+    return new, new != orig
 
 
 def main() -> None:

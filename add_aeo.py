@@ -1792,6 +1792,73 @@ def add_city_map(soup: BeautifulSoup, slug: str, article: Tag, guide: str) -> bo
     return True
 
 
+TIER_RE = re.compile(r"^,\s*(splurge|comfortable|good value|budget)\.")
+
+
+def tag_hotel_tiers(soup: BeautifulSoup, article: Tag) -> int:
+    """Wrap the price tier after each hotel name (", splurge.") so the hotel card can show it as a label.
+    The words stay exactly as written; only the punctuation is hidden on screen (style-v2.css section 18)."""
+    n = 0
+    for li in article.select("li"):
+        if not li.find(class_="gy-rates", recursive=False) or li.find(class_="gy-tier"):
+            continue
+        name = li.find("strong", recursive=False)
+        nxt = name.next_sibling if name else None
+        m = TIER_RE.match(str(nxt)) if isinstance(nxt, NavigableString) else None
+        if not m:
+            continue
+        tier = m.group(1)
+        span = soup.new_tag("span", attrs={"class": "gy-tier", "data-tier": tier.replace(" ", "-")})
+        span.append(", ")
+        word = soup.new_tag("span", attrs={"class": "gy-tier-w"})
+        word.string = tier
+        span.append(word)
+        span.append(".")
+        rest = str(nxt)[m.end():]
+        nxt.replace_with(span)
+        if rest:
+            span.insert_after(NavigableString(rest))
+        n += 1
+    return n
+
+
+def add_area_cards(soup: BeautifulSoup, article: Tag) -> int:
+    """'Pick your area': a photo card per neighbourhood section that names hotels, using that section's
+    own first photo, linking down the page. Sits just above the contents list; rebuilt on every run."""
+    from build_library import pcard
+    for old in article.select("nav.gy-areas"):
+        old.decompose()
+    cards = []
+    for h2 in article.find_all("h2", recursive=False):
+        if not h2.get("id"):
+            continue
+        img, hotels = None, 0
+        for sib in h2.find_next_siblings():
+            if sib.name == "h2":
+                break
+            if img is None and sib.name == "figure":
+                img = sib.find("img")
+            if isinstance(sib, Tag) and sib.select(".gy-rates"):
+                # every named hotel counts, with or without a Booking.com page
+                hotels += len([li for li in sib.find_all("li") if li.find("strong", recursive=False)])
+        if not img or hotels < 2:
+            continue
+        name, _, line = h2.get_text(" ", strip=True).partition(":")
+        desc = f"{hotels} hotels" + (f" · {line.strip()}" if line.strip() else "")
+        cards.append(pcard("#" + h2["id"], img.get("src", ""), name.strip(), desc=desc, w=320))
+    if len(cards) < 2:
+        return 0
+    nav = BeautifulSoup('<nav aria-label="Areas in this guide" class="gy-areas"><p class="gy-areas-h">Pick your area</p>'
+                        '<div class="gy-scroll">' + "".join(cards) + "</div></nav>", "html.parser").nav
+    toc = article.find("details", class_="gy-toc", recursive=False)
+    if toc:
+        toc.insert_before(nav)
+    else:
+        return 0
+    return len(cards)
+
+
+
 def move_map_up(article: Tag) -> None:
     """Put the hotel map straight under the verdict (and its contents list).
 
@@ -3442,6 +3509,8 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
         add_promise(soup, article)
         if slug in stay22.PAGES:
             move_map_up(article)
+            out["tiers"] = tag_hotel_tiers(soup, article)
+            out["areas"] = add_area_cards(soup, article)
         if slug in QUICK_PICKS:
             out["quick_picks"] = add_quick_picks(soup, slug, article)
         if slug in CITY_RATES:
