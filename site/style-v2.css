@@ -5345,3 +5345,96 @@ body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame
   .gy-cal-row { grid-template-columns: 1fr; }
   .gy-cal-rates { white-space: normal; }
 }
+
+/* 18. Visual discovery (operator, 2026-11-08; ops/state/UX_VISUAL_PLAN.md). Photo cards, category icons and
+   sideways rows lead into the guides. Exception to section 6: cards and icon tiles take 10px corners. Words sit
+   under the photo on paper, never on it. Markup: build_library.pcard / render_discover; masthead .gy-cats. */
+:root { --pcard-radius: 10px; }
+.gy-cats { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 10px;
+  margin: 26px 0 8px; }
+.gy-cat { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 4px 0;
+  text-decoration: none; color: var(--ink); -webkit-tap-highlight-color: transparent; }
+.gy-cat-icon { display: grid; place-items: center; width: 60px; height: 60px; border-radius: var(--pcard-radius);
+  background: var(--card); border: 1px solid var(--rule); color: var(--ink);
+  transition: border-color .15s, background-color .15s, transform .15s; }
+.gy-cat-icon svg { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.6;
+  stroke-linecap: round; stroke-linejoin: round; }
+.gy-cat-label { font-family: var(--sans); font-size: .8rem; font-weight: 600; letter-spacing: .01em; text-align: center; }
+.gy-cat:hover .gy-cat-icon, .gy-cat:focus-visible .gy-cat-icon { border-color: var(--gold); background: #fbf6ea;
+  color: var(--gold-ink); transform: translateY(-2px); }
+.gy-cat:focus-visible { outline: none; }
+.gy-cat:focus-visible .gy-cat-label { text-decoration: underline; text-decoration-color: var(--gold); }
+.gy-masthead-search input, .gy-masthead-search .button { min-height: 52px; font-size: 1rem; }
+
+.gy-pcard { display: flex; flex-direction: column; min-width: 0; background: var(--card); border: 1px solid var(--rule);
+  border-radius: var(--pcard-radius); overflow: hidden; text-decoration: none; color: var(--ink);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s; }
+.gy-pcard img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; background: var(--rule); }
+.gy-pcard-body { display: flex; flex-direction: column; gap: 5px; padding: 12px 14px 16px; }
+.gy-pcard-kicker { font-family: var(--sans); font-size: .68rem; font-weight: 700; letter-spacing: .13em;
+  text-transform: uppercase; color: var(--gold-ink); }
+.gy-pcard-title { font-family: var(--serif); font-weight: 600; font-size: 1.16rem; line-height: 1.22; letter-spacing: -.005em; }
+.gy-pcard-title::after { content: "\2009\2192"; color: var(--gold-ink); }
+.gy-pcard-desc { font-size: .9rem; line-height: 1.45; color: var(--muted); }
+.gy-pcard:hover, .gy-pcard:focus-visible { border-color: var(--gold); transform: translateY(-3px);
+  box-shadow: 0 10px 24px -14px rgba(23, 32, 51, .45); outline: none; }
+.gy-pcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.gy-pcard--tile .gy-pcard-body { padding: 9px 12px 11px; }
+.gy-pcard--tile .gy-pcard-title { font-size: 1.02rem; }
+.gy-pcard--tile img { aspect-ratio: 4 / 3; }
+
+.gy-pgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.gy-tiles { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; }
+.gy-scroll { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(230px, 1fr); gap: 16px;
+  overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; padding: 4px 2px 14px;
+  scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
+.gy-scroll > * { scroll-snap-align: start; }
+.gy-scroll--grid { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; }
+.gy-disc { max-width: 1100px; margin: 80px auto 0; padding: 0 clamp(20px, 4vw, 40px); }
+.gy-disc-sub { margin: 26px 0 12px; font-family: var(--sans); font-size: .74rem; font-weight: 700;
+  letter-spacing: .13em; text-transform: uppercase; color: var(--muted); }
+.gy-disc-tool { margin: 18px 0 0; font-size: .95rem; }
+.gy-disc-tool a { color: var(--ink); font-weight: 600; text-decoration: underline;
+  text-decoration-color: var(--gold); text-underline-offset: 4px; }
+.gy-latest .gy-pcard-title::after { content: none; }
+@media (prefers-reduced-motion: reduce) {
+  .gy-pcard, .gy-cat-icon { transition: none; }
+  .gy-pcard:hover, .gy-cat:hover .gy-cat-icon { transform: none; }
+}
+@media (max-width: 899px) {
+  .gy-tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (max-width: 820px) {
+  .gy-masthead-title { font-size: clamp(2.5rem, 11vw, 3.6rem); }
+  .gy-cats { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px 6px; margin-top: 20px; }
+}
+@media (max-width: 699px) {
+  .gy-pgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .gy-pcard-body { padding: 10px 11px 13px; }
+  .gy-pcard-title { font-size: 1.02rem; }
+  .gy-pgrid .gy-pcard-desc { display: none; }   /* phones: photo + title is enough; the page says the rest */
+  .gy-tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .gy-pcard--tile .gy-pcard-title { font-size: .95rem; }
+  .gy-pcard--tile .gy-pcard-title::after { content: none; }
+  .gy-scroll, .gy-scroll--grid { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: 72%;
+    overflow-x: auto; margin-right: calc(-1 * clamp(20px, 4vw, 40px)); padding-right: clamp(20px, 4vw, 40px); }
+  .gy-disc, .gy-start { margin-top: 56px; }
+  .gy-cat-icon { width: 56px; height: 56px; }
+}
+/* On the dark cover (section 16): cream words, gold-ruled tiles that light up on touch */
+.gy-masthead .gy-cat { color: #FBF3DE; }
+.gy-masthead .gy-cat-icon { background: rgba(251, 243, 222, .07); border-color: rgba(216, 182, 92, .5); color: #FBF3DE; }
+.gy-masthead .gy-cat:hover .gy-cat-icon, .gy-masthead .gy-cat:focus-visible .gy-cat-icon {
+  background: #D8B65C; border-color: #D8B65C; color: #172033; }
+/* "Keep reading" at the foot of every article: the same photo cards, three across, a sideways row on phones */
+.keep-reading .gy-scroll--grid { gap: 14px; }
+.keep-reading .gy-pcard-title { font-size: 1.02rem; }
+.keep-reading .gy-pcard-desc { font-size: .85rem; }
+@media (min-width: 700px) and (max-width: 899px) { .keep-reading .gy-scroll--grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 699px) { .keep-reading .gy-scroll, .keep-reading .gy-scroll--grid { grid-auto-columns: 64%; } }
+/* Hubs (stay/, food/: build_library.render_hub): every guide as a photo card, four across */
+.gy-pgrid--hub { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 8px; }
+.gy-pgrid--hub .gy-pcard-title { font-size: 1.02rem; }
+@media (max-width: 899px) { .gy-pgrid--hub { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 699px) { .gy-pgrid--hub { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .gy-pgrid--hub .gy-pcard-title { font-size: .95rem; } }

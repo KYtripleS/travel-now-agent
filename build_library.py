@@ -234,19 +234,109 @@ LATEST_SHOW = 6
 def render_latest(rows: list[dict], total: int) -> str:
     """Newest guides that have a real photo, as an even grid of cards."""
     picks = distinct_thumbs([r for r in rows if r["thumb"] and r["href"].startswith("articles/")][:LATEST_SHOW])
-    cards = "\n".join(
-        f'    <a class="gy-card" href="{r["href"]}">'
-        f'<img class="gy-card-img" src="{r["thumb"]}" alt="" loading="lazy" decoding="async" data-pin-nopin="true" />'
-        f'<span class="gy-card-tag">{r["tag"]}</span>'
-        f'<span class="gy-card-title">{r["title"]}</span></a>'
-        for r in picks)
+    cards = "\n".join(pcard(r["href"], r["thumb"], r["title"], r["tag"]) for r in picks)
     return (f"{LATEST_BEGIN}\n"
             '<section class="gy-latest" id="guides">\n'
             '  <div class="gy-section-head"><h2>New on Gently Yonder</h2>'
             f'<a class="gy-section-more" href="all-guides.html">All {total} guides &rarr;</a></div>\n'
-            f'  <div class="gy-card-grid">\n{cards}\n  </div>\n'
+            f'  <div class="gy-scroll gy-scroll--grid">\n{cards}\n  </div>\n'
             "</section>\n"
             f"{LATEST_END}")
+
+
+DISCOVER_BEGIN = "<!-- BEGIN discover (managed by build_library.py) -->"
+DISCOVER_END = "<!-- END discover -->"
+# Homepage stay tiles: the cities travellers search most worldwide (operator, 2026-10-08), not our niche picks.
+STAY_CITIES = ["london", "paris", "tokyo", "rome", "barcelona", "amsterdam",
+               "kyoto", "seoul", "bangkok", "sydney", "singapore", "dubai"]
+SEASONAL = re.compile(r"new-years-eve|christmas")
+# (page, name, what the page is): every tile leads to a guide the site really has.
+DESTINATIONS = [
+    ("countries/japan/index.html", "Japan", "Country guide"),
+    ("articles/south-korea-country-profile.html", "South Korea", "Country guide"),
+    ("articles/taipei-first-timers-guide.html", "Taiwan", "Taipei first-timer's guide"),
+    ("articles/bangkok-first-timers-guide.html", "Thailand", "Bangkok first-timer's guide"),
+    ("countries/vietnam/index.html", "Vietnam", "Country guide"),
+    ("articles/hong-kong-first-timers-guide.html", "Hong Kong", "First-timer's guide"),
+    ("articles/singapore-first-timers-guide.html", "Singapore", "First-timer's guide"),
+    ("articles/bali-first-timers-guide.html", "Bali", "First-timer's guide"),
+    ("countries/australia/index.html", "Australia", "Country guide"),
+]
+
+
+def sized(src: str, w: int) -> str:
+    """A CDN photo cut to w x (w*2/3) at 1x, so a phone tile does not pull a 1600px original."""
+    base = src.split("?")[0]
+    if "images.pexels.com" in src:
+        return f"{base}?auto=compress&cs=tinysrgb&w={w}&h={w * 2 // 3}&fit=crop"
+    if "images.unsplash.com" in src:
+        return f"{base}?w={w}&h={w * 2 // 3}&fit=crop&q=70&auto=format"
+    return src
+
+
+def pcard(href: str, img: str, title: str, kicker: str = "", desc: str = "",
+          w: int = 400, mod: str = "") -> str:
+    """One photo card: the whole card is the link; the words sit under the photo, on paper."""
+    img = img.replace("&amp;", "&")
+    if not img:
+        pic = ""
+    elif img.startswith("http"):
+        pic = (f'<img src="{sized(img, w)}" srcset="{sized(img, w)} {w}w, {sized(img, w * 2)} {w * 2}w" '
+               f'sizes="(max-width: 699px) 70vw, {w}px"')
+    else:
+        pic = f'<img src="{img}"'
+    pic = pic.replace("&", "&amp;")   # the article tools re-serialise pages with "&amp;"; match them
+    if pic:
+        pic += f' alt="" width="{w}" height="{w * 2 // 3}" loading="lazy" decoding="async" data-pin-nopin="true" />'
+    k = f'<span class="gy-pcard-kicker">{kicker}</span>' if kicker else ""
+    d = f'<span class="gy-pcard-desc">{desc}</span>' if desc else ""
+    return (f'<a class="gy-pcard{mod}" href="{href}">{pic}<span class="gy-pcard-body">{k}'
+            f'<span class="gy-pcard-title">{title}</span>{d}</span></a>')
+
+
+def short_title(title: str) -> str:
+    """'Where to Stay in Berlin for New Year's Eve (2026): The Party' -> the part before the year."""
+    return re.split(r"\s*[(:]", title, maxsplit=1)[0]
+
+
+def render_discover(rows: list[dict]) -> str:
+    """Homepage photo sections: this season's stay guides, stay guides by city, destinations."""
+    by = {r["href"]: r for r in rows}
+    today = date.today().isoformat()
+    early = [f"articles/{slug}.html" for until, slug, *_ in sorted(BOOK_EARLY) if until >= today]
+    seasonal = [r["href"] for r in rows if SEASONAL.search(r["href"]) and r["href"] not in early]
+    season_cards = distinct_thumbs([by[h] for h in early + seasonal if h in by and by[h]["thumb"]][:12])
+    rail = "\n".join(pcard(r["href"], r["thumb"], short_title(r["title"]), "Book early")
+                     for r in season_cards)
+    cities = [by.get(f"articles/where-to-stay-in-{c}.html") for c in STAY_CITIES]
+    tiles = "\n".join(pcard(r["href"], r["thumb"], c.title(), w=240, mod=" gy-pcard--tile")
+                      for c, r in zip(STAY_CITIES, cities) if r and r["thumb"])
+    n_stay = len([r for r in rows if r["tag"] == "Stay"])
+    dests = []
+    for href, name, what in DESTINATIONS:
+        try:
+            r = by.get(href) or page_row(href)
+        except FileNotFoundError:
+            continue
+        if r["thumb"]:
+            dests.append(pcard(href, r["thumb"], name, desc=what))
+    return (f"{DISCOVER_BEGIN}\n"
+            '<section aria-labelledby="gy-stay-h" class="gy-disc" id="stay-picks">\n'
+            '  <div class="gy-section-head"><h2 id="gy-stay-h">Where to stay</h2>'
+            f'<a class="gy-section-more" href="stay/index.html">All {n_stay} stay guides &rarr;</a></div>\n'
+            '  <p class="gy-disc-sub">Dates when hotels fill up first</p>\n'
+            f'  <div class="gy-scroll">\n{rail}\n  </div>\n'
+            '  <p class="gy-disc-sub">The neighbourhood first, then the hotel</p>\n'
+            f'  <div class="gy-tiles">\n{tiles}\n  </div>\n'
+            '  <p class="gy-disc-tool">Not sure which area? <a href="tools/stay-finder.html">The Stay Finder ranks a '
+            "city's areas for your budget &rarr;</a></p>\n"
+            "</section>\n"
+            '<section aria-labelledby="gy-dest-h" class="gy-disc" id="destinations">\n'
+            '  <div class="gy-section-head"><h2 id="gy-dest-h">Explore destinations</h2>'
+            '<a class="gy-section-more" href="globe.html">Turn the globe &rarr;</a></div>\n'
+            f'  <div class="gy-scroll">\n' + "\n".join(dests) + "\n  </div>\n"
+            "</section>\n"
+            f"{DISCOVER_END}")
 
 
 RANK_STYLE = ('  <style>.gy-lib-rank{font-family:var(--serif);font-style:italic;'
@@ -411,13 +501,6 @@ HUBS = {
 }
 
 
-def _hub_row(r: dict) -> str:
-    thumb = r["thumb"]
-    if thumb and not thumb.startswith("http"):
-        thumb = "../" + thumb
-    return row_html({**r, "href": "../" + r["href"], "thumb": thumb})
-
-
 def render_hub(rel: str, rows: list[dict]) -> str:
     h = HUBS[rel]
     url = f"https://gentlyyonder.com/{rel}"
@@ -427,10 +510,11 @@ def render_hub(rel: str, rows: list[dict]) -> str:
         if not items:
             continue
         anchor = re.sub(r"[^a-z]+", "-", name.lower().replace("&amp;", "and")).strip("-")
-        lis = "\n".join(_hub_row(r) for r in items)
+        cards = "\n".join(pcard("../" + r["href"], r["thumb"] if r["thumb"].startswith("http") or not r["thumb"]
+                                 else "../" + r["thumb"], short_title(r["title"]), w=320) for r in items)
         sections.append(f'<section class="gy-arch-cat" id="{anchor}">\n'
                         f'  <h2>{name} <span class="gy-arch-count">{len(items)}</span></h2>\n'
-                        f'  <div class="gy-lib-list">\n{lis}\n  </div>\n</section>')
+                        f'  <div class="gy-pgrid gy-pgrid--hub">\n{cards}\n  </div>\n</section>')
     body = "\n".join(sections)
     # A hub with only a couple of guides is a thin page: keep it out of search
     # (and out of the sitemap) until the pillar has at least HUB_MIN_GUIDES.
@@ -530,6 +614,9 @@ def main() -> None:
         if LATEST_BEGIN in t:
             s = t.index(LATEST_BEGIN); e = t.index(LATEST_END) + len(LATEST_END)
             t = t[:s] + render_latest(rows, inventory()["guides"]) + t[e:]
+        if DISCOVER_BEGIN in t:
+            s = t.index(DISCOVER_BEGIN); e = t.index(DISCOVER_END) + len(DISCOVER_END)
+            t = t[:s] + render_discover(rows) + t[e:]
         p.write_text(t, encoding="utf-8")
         # full archive page
         (REPO / base / "all-guides.html").write_text(apply_social(render_archive(rows)), encoding="utf-8")

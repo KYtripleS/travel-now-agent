@@ -3418,29 +3418,46 @@ def rel_link(from_file: str, to_file: str) -> str:
     return os.path.relpath(to_file, from_dir).replace(os.sep, "/")
 
 
+_PHOTO: dict[str, str] = {}
+
+
+def photo_for(rel: str) -> str:
+    """The target page's own first photo (root-relative for local files), cached per run."""
+    if rel not in _PHOTO:
+        from bs4 import BeautifulSoup
+        from build_library import first_photo
+        page = SITE / rel
+        _PHOTO[rel] = (first_photo(BeautifulSoup(page.read_text(encoding="utf-8"), "html.parser"))
+                       if page.exists() else "")
+    return _PHOTO[rel]
+
+
 def render_section(from_file: str) -> str:
     targets: list[str] = []
     for t in LINKS[from_file]:
         t = FOLDED.get(t, t)
         if t != from_file and t not in targets:
             targets.append(t)
+    from build_library import pcard
     items: list[str] = []
     for t in targets:
         title, hook = ARTICLES[t]
-        href = rel_link(from_file, t)
+        img = photo_for(t)
+        if img and not img.startswith("http"):
+            img = rel_link(from_file, img)
         # escaped, because every other tool that touches these pages re-serialises
         # through an HTML parser: a raw "&" came back as "&amp;", this script then
         # "restored" it, and the two rewrote each other's output on every run
-        items.append(f'<li><a href="{href}">{html.escape(title, quote=False)}</a> '
-                     f'<span class="kr-hook">{html.escape(hook, quote=False)}</span></li>')
+        items.append(pcard(rel_link(from_file, t), img, html.escape(title, quote=False),
+                           desc=html.escape(hook, quote=False), w=320))
     items_html = "\n".join(items)
     return (
         f'{MARK_BEGIN}\n'
         f'<section class="keep-reading" style="margin: 36px 0;">\n'
         f'<h2>Keep reading on Gently Yonder</h2>\n'
-        f'<ul>\n'
+        f'<div class="gy-scroll gy-scroll--grid">\n'
         f'{items_html}\n'
-        f'</ul>\n'
+        f'</div>\n'
         f'</section>\n'
         f'{MARK_END}'
     )
