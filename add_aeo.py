@@ -446,6 +446,22 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-edinburgh-christmas": dict(
+        text="For the Christmas market, stay on or near Princes Street: the East Princes Street Gardens market, the Big Wheel and the George Street site are all here. Choose Gleneagles Townhouse for a splurge, The Scotsman for comfort, Motel One for value. The Visitor Levy adds 5% of the room price for the first five nights.",
+        link_text="Princes Street",
+        cta=_stay_cta("where-to-stay-in-edinburgh-christmas", "See hotels around Princes Street")),
+    "where-to-stay-in-amsterdam-new-years-eve": dict(
+        text="Trams and metros stopped about 20:00 last year, so stay within walking distance of the centre. In the Museum Quarter, Avani suits most trips and the Conservatorium is the splurge; Pillows in Oost publishes a 31 December package. VAT is 21%, plus 12.5% tourist tax.",
+        link_text="Museum Quarter",
+        cta=_stay_cta("where-to-stay-in-amsterdam-new-years-eve", "See hotels around the Museum Quarter")),
+    "where-to-stay-in-berlin-new-years-eve": dict(
+        text="For the Brandenburg Gate party, stay in Mitte: Hotel Adlon Kempinski Berlin is the splurge, Hotel Albrechtshof the comfortable pick and MEININGER Hotel Berlin Central Station the budget one. Last year's party needed free tickets and closed streets from 6am. The City Tax is 7.5% of the net price.",
+        link_text="Mitte",
+        cta=_stay_cta("where-to-stay-in-berlin-new-years-eve", "See hotels around Mitte")),
+    "where-to-stay-in-reykjavik-new-years-eve": dict(
+        text="For a first New Year's Eve in Reykjavik, stay around Hallgrímskirkja and Laugavegur: three hotels sit within 0.6 km of the church. Choose Iceland Parliament Hotel for a splurge, Canopy for comfort, Alda for value. The tax is 800 ISK a room a night plus 11% VAT.",
+        link_text="Hallgrímskirkja and Laugavegur",
+        cta=_stay_cta("where-to-stay-in-reykjavik-new-years-eve", "See hotels around Hallgrímskirkja")),
     "where-to-stay-in-las-vegas-new-years-eve": dict(
         text="For New Year's Eve, stay on the Center Strip, inside the Strip's road closure: Bellagio is the splurge, The Cosmopolitan the comfortable pick, and the Plaza the value pick under Downtown's own fireworks. The room tax is 13.38%, plus each hotel's resort fee.",
         link_text="Center Strip",
@@ -1834,6 +1850,10 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-edinburgh-christmas": ["Gleneagles Townhouse", "The Scotsman Hotel", "Motel One Edinburgh-Princes"],
+    "where-to-stay-in-amsterdam-new-years-eve": ["Mandarin Oriental Conservatorium", "Avani Museum Quarter Amsterdam Hotel", "Linden Hotel"],
+    "where-to-stay-in-berlin-new-years-eve": ["Hotel Adlon Kempinski Berlin", "Hotel Albrechtshof", "MEININGER Hotel Berlin Central Station"],
+    "where-to-stay-in-reykjavik-new-years-eve": ["Iceland Parliament Hotel", "Canopy by Hilton Reykjavik City Centre", "Alda Hotel Reykjavik"],
     "where-to-stay-in-las-vegas-new-years-eve": ["Bellagio", "The Cosmopolitan of Las Vegas", "Plaza Hotel & Casino"],
     "where-to-stay-in-singapore-new-years-eve": ["The Fullerton Hotel Singapore", "Swissôtel The Stamford", "ibis Singapore on Bencoolen"],
     "where-to-stay-in-hong-kong-new-years-eve": ["Island Shangri-La, Hong Kong", "The Hari Hong Kong", "Wharney Hotel"],
@@ -1951,7 +1971,7 @@ QUICK_PICKS = {
     "where-to-stay-in-dublin": ["The Morgan Hotel", "Temple Bar Inn", "The Shelbourne"],
     "where-to-stay-in-edinburgh": ["Motel One Edinburgh-Royal", "Radisson Blu Hotel, Edinburgh City Centre", "The Balmoral"],
     "where-to-stay-in-vienna": ["Hotel Kärntnerhof", "Hotel Stefanie", "Hotel Sacher Vienna"],
-    "where-to-stay-in-berlin": ["The Circus Hotel", "Hotel Adlon Kempinski Berlin", "Motel One Berlin-Hackescher Markt"],
+    "where-to-stay-in-berlin": ["Motel One Berlin-Hackescher Markt", "Hotel Adlon Kempinski Berlin", "Michelberger Hotel"],
     "where-to-stay-in-madrid": ["Pestana Collection Plaza Mayor", "Room Mate Alicia", "Four Seasons Hotel Madrid"],
     "where-to-stay-in-bali": ["Lloyd's Inn Bali", "Alaya Resort Ubud", "The Oberoi, Bali"],
     "where-to-stay-in-london": ["Radisson Blu Hotel, London Mercer Street", "hub by Premier Inn London Covent Garden", "The Savoy"],
@@ -2644,6 +2664,10 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Edinburgh", "where-to-stay-in-edinburgh-christmas", None, None),
+        ("Amsterdam", "where-to-stay-in-amsterdam-new-years-eve", None, None),
+        ("Berlin", "where-to-stay-in-berlin-new-years-eve", None, None),
+        ("Reykjavik", "where-to-stay-in-reykjavik-new-years-eve", None, None),
         ("Las Vegas", "where-to-stay-in-las-vegas-new-years-eve", None, None),
         ("Singapore", "where-to-stay-in-singapore-new-years-eve", None, None),
         ("Hong Kong", "where-to-stay-in-hong-kong-new-years-eve", None, None),
@@ -2858,6 +2882,9 @@ STAY_POINTERS = {
     "where-to-stay-in-copenhagen": ("intro",
         'Coming for Christmas? <a href="where-to-stay-in-copenhagen-christmas.html">Where to stay in Copenhagen for '
         'Christmas</a> matches hotels to Tivoli (13 November to 3 January) and the city’s Christmas markets.'),
+    "where-to-stay-in-berlin": ("intro",
+        'Here for 31 December? <a href="where-to-stay-in-berlin-new-years-eve.html">Where to stay in Berlin for New Year’s '
+        'Eve</a> matches hotels to the Brandenburg Gate party, the fireworks-ban zones and the night trains.'),
     "where-to-stay-in-dubai": ("intro",
         'Here for 31 December? <a href="where-to-stay-in-dubai-new-years-eve.html">Where to stay in Dubai for New Year’s '
         'Eve</a> matches hotels to the Burj Khalifa fireworks, the road closures and the Palm.'),
@@ -3196,7 +3223,8 @@ STAY_POINTERS = {
     "where-to-stay-in-edinburgh": ("intro",
         'Here for a festival? <a href="where-to-stay-in-edinburgh-fringe.html">Where to stay for the Edinburgh Fringe '
         '2027</a> (6 to 30 August) covers the Old Town, Southside and Leith, and <a '
-        'href="where-to-stay-in-edinburgh-hogmanay.html">Where to stay for Hogmanay</a> covers New Year.'),
+        'href="where-to-stay-in-edinburgh-hogmanay.html">Where to stay for Hogmanay</a> covers New Year, and <a '
+        'href="where-to-stay-in-edinburgh-christmas.html">Where to stay for Christmas</a> the market from 14 November.'),
     "where-to-stay-in-milan": ("intro",
         'Adding the lake? <a href="where-to-stay-on-lake-como.html">Where to stay on Lake Como</a> compares Como, '
         'Bellagio, Varenna and Menaggio, with the trains from Milan and the ferries between them.'),
@@ -3251,7 +3279,9 @@ STAY_POINTERS = {
         'Here for the tulips? <a href="where-to-stay-for-keukenhof.html">Where to stay for Keukenhof</a> '
         '(18 March to 9 May 2027) compares Amsterdam, Haarlem, Leiden and Lisse by bus to the gardens. '
         'Here on 27 April? <a href="where-to-stay-in-amsterdam-kings-day.html">Where to stay in Amsterdam for '
-        'King’s Day 2027</a> sorts the city by how loud each area gets, with the tram and metro changes.'),
+        'King’s Day 2027</a> sorts the city by how loud each area gets, with the tram and metro changes. Here for '
+        '31 December? <a href="where-to-stay-in-amsterdam-new-years-eve.html">Where to stay for New Year’s Eve</a> '
+        'covers the city’s fireworks shows and the new national ban.'),
     "where-to-stay-in-bangkok": ("intro",
         'Coming for Songkran? <a href="where-to-stay-in-bangkok-songkran.html">Where to stay in Bangkok for '
         'Songkran</a> (13 to 15 April 2027) weighs Silom and Siam, where the water fights are, against quieter bases.'),
@@ -3292,7 +3322,9 @@ STAY_POINTERS = {
     "where-to-stay-in-reykjavik": [
         ("intro",
          'Coming for the aurora? <a href="where-to-stay-in-reykjavik-northern-lights.html">Where to stay in Reykjavik '
-         'for the northern lights</a> compares city bases with countryside hotels that offer an aurora wake-up call.'),
+         'for the northern lights</a> compares city bases with countryside hotels that offer an aurora wake-up call. '
+         'Here for 31 December? <a href="where-to-stay-in-reykjavik-new-years-eve.html">Where to stay for New Year’s '
+         'Eve</a> covers the bonfires, the fireworks and the holiday buses.'),
         ("The short answer",
          'Weighing Norway for the aurora? <a href="where-to-stay-in-tromso-northern-lights.html">Tromsø for the '
          'northern lights (2026/27)</a> covers the polar night, the airport bus and the 3% visitor fee planned '

@@ -591,6 +591,22 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-edinburgh-christmas.html": (
+        "Where to Stay in Edinburgh",
+        "Market dates, six areas, 12 hotels and the 5% Visitor Levy for the first five nights.",
+    ),
+    "articles/where-to-stay-in-amsterdam-new-years-eve.html": (
+        "Where to Stay in Amsterdam",
+        "What Amsterdam has published for 31 December 2026, six areas, 12 hotels, 21% VAT and a 12.5% tourist tax.",
+    ),
+    "articles/where-to-stay-in-berlin-new-years-eve.html": (
+        "Where to Stay in Berlin",
+        "Brandenburg Gate party, last year's closures and fireworks rules, five areas and 12 hotels, with Berlin's City Tax.",
+    ),
+    "articles/where-to-stay-in-reykjavik-new-years-eve.html": (
+        "Where to Stay in Reykjavik",
+        "Ten city bonfires, fireworks rules, five areas and 12 hotels, with the 800 ISK tax.",
+    ),
     "articles/where-to-stay-in-las-vegas-new-years-eve.html": (
         "Where to Stay in Las Vegas",
         "Strip fireworks, Fremont Street's party and 12 hotels, with the 13.38% room tax and the road closure.",
@@ -2401,6 +2417,34 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-edinburgh-christmas.html": [
+        "articles/where-to-stay-in-edinburgh.html",
+        "articles/where-to-stay-in-edinburgh-hogmanay.html",
+        "articles/where-to-stay-in-edinburgh-fringe.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
+    ],
+    "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+        "articles/where-to-stay-in-amsterdam.html",
+        "articles/where-to-stay-in-amsterdam-kings-day.html",
+        "articles/where-to-stay-in-london-new-years-eve.html",
+        "articles/where-to-stay-in-paris-new-years-eve.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-berlin-new-years-eve.html": [
+        "articles/where-to-stay-in-berlin.html",
+        "articles/where-to-stay-in-london-new-years-eve.html",
+        "articles/where-to-stay-in-paris-new-years-eve.html",
+        "articles/where-to-stay-in-new-york-new-years-eve.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+        "articles/where-to-stay-in-reykjavik.html",
+        "articles/where-to-stay-in-reykjavik-northern-lights.html",
+        "articles/where-to-stay-in-london-new-years-eve.html",
+        "articles/where-to-stay-in-paris-new-years-eve.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-in-las-vegas-new-years-eve.html": [
         "articles/where-to-stay-in-las-vegas.html",

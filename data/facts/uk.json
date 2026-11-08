@@ -23,6 +23,9 @@
           "VAT at 20%, the standard UK rate",
           "20%, the UK's standard rate",
           "VAT is charged on a reduced value of the room after the 28th day"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "the UK's standard rate is 20%"
         ]
       }
     },
@@ -585,6 +588,12 @@
           "carries a 5% charge on the room, on top of VAT, for the first five nights",
           "The first 5 consecutive nights of a stay",
           "A stay booked and paid for before 1 October 2025 is exempt"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "Edinburgh is the first place in Scotland to charge a visitor levy",
+          "a 5% payment on the cost of the paid, overnight accommodation, charged before VAT, for stays from 24 July 2026 onwards",
+          "only on the first 5 nights of a stay",
+          "The first 5 nights of a stay; later nights carry no levy"
         ]
       }
     },
@@ -613,6 +622,9 @@
         ],
         "articles/where-to-stay-in-edinburgh-hogmanay.html": [
           "A hotel registered for VAT adds VAT to the levy as well"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "at a VAT-registered hotel the levy plus its VAT comes to 5% of the VAT-inclusive room price"
         ]
       }
     },
@@ -701,6 +713,12 @@
         "articles/where-to-stay-in-edinburgh-hogmanay.html": [
           "£7.90 single or £9.50 open return to the city centre",
           "a single on Lothian buses or the city-zone tram costs £2.40"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "An adult airport single is £7.90 and an open return £9.50",
+          "the airport says the journey to the city centre takes 30 minutes",
+          "A single on the city-zone tram is £2.40 and the adult day cap is £5.70",
+          "The first tram leaves the airport at 06:30 and the last at 22:52"
         ]
       }
     },
@@ -729,6 +747,10 @@
         ],
         "articles/where-to-stay-in-edinburgh-hogmanay.html": [
           "Lothian's 24-hour express to Waverley Bridge, £6 single or £8.50 open return"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "£6.00 single and £8.50 open return for an adult",
+          "up to every 10 minutes from 04:12 to 01:00"
         ]
       }
     },
@@ -748,6 +770,10 @@
         "articles/where-to-stay-in-edinburgh.html": [
           "with stops at The Shore, Port of Leith and Ocean Terminal",
           "It has two tram stops, West End and Haymarket"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "The route passes Haymarket, West End, Princes Street and St Andrew Square on its way to The Shore, Port of Leith and Newhaven",
+          "Haymarket and West End are both tram stops"
         ]
       }
     },
@@ -862,6 +888,10 @@
       "used_in": {
         "articles/where-to-stay-in-edinburgh.html": [
           "with 238 rooms, from Standard rooms of 27 m² to a Royal Suite"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "At 80 High Street on the Royal Mile",
+          "an indoor heated pool, a sauna, a steam room and a gym"
         ]
       }
     },
@@ -940,6 +970,9 @@
       "used_in": {
         "articles/where-to-stay-in-edinburgh.html": [
           "A Georgian family home built in 1832 on Raeburn Place"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "built in 1832 as a Georgian family home, with ten bedrooms"
         ]
       }
     },
@@ -959,6 +992,9 @@
         "articles/where-to-stay-in-edinburgh.html": [
           "At 1 Tower Place on the Leith waterfront",
           "the hotel itself puts the city centre 10 minutes away by taxi"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "only 10 minutes by taxi from the city centre"
         ]
       }
     },
@@ -978,6 +1014,9 @@
         "articles/where-to-stay-in-edinburgh.html": [
           "with 23 cabins",
           "The Port of Leith tram stop is about two minutes' walk away"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "with 23 cabins, each named after a Stevenson lighthouse"
         ]
       }
     },
@@ -1015,6 +1054,10 @@
         "articles/where-to-stay-in-edinburgh.html": [
           "At 166 Fountainbridge",
           "the 5% Visitor Levy is included in the total price shown"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "a free hot breakfast, a 10-minute walk from the Edinburgh International Conference Centre",
+          "Hampton by Hilton Edinburgh West End says the levy is included in the total price it shows"
         ]
       }
     },
@@ -1034,6 +1077,9 @@
         "articles/where-to-stay-in-edinburgh.html": [
           "A five-star house in 20 acres of gardens and parkland",
           "with 23 bedrooms and suites"
+        ],
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "with 23 bedrooms and suites and 20 acres of gardens and parkland"
         ]
       }
     },
@@ -4300,6 +4346,284 @@
       "used_in": {
         "articles/where-to-stay-for-glastonbury.html": [
           "On College Green, with check-in from 3:00 pm, on-site parking and pets welcome"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.season",
+      "topic": "history",
+      "claim": "Edinburgh's Christmas 2026 runs from 14 November 2026 to 3 January 2027, with three main sites: East Princes Street Gardens, West Princes Street Gardens and George Street (Forever Edinburgh).",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://edinburgh.org/festivals/edinburghs-christmas/",
+          "kind": "official",
+          "title": "Forever Edinburgh: Edinburgh's Christmas",
+          "evidence": [
+            "runs from 14 November 2026 to 03 January 2027",
+            "East Princes Street Gardens, West Princes Street Gardens, and George Street"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "Edinburgh's Christmas runs from 14 November 2026 to 3 January 2027",
+          "14 November 2026 to 3 January 2027, per Forever Edinburgh"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.market",
+      "topic": "place",
+      "claim": "The Traditional Christmas Market in East Princes Street Gardens is free to enter with around 70 stalls; the LNER Big Wheel stands 46m tall and the Starflyer 80m tall (Forever Edinburgh).",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://edinburgh.org/festivals/edinburghs-christmas/",
+          "kind": "official",
+          "title": "Forever Edinburgh: Edinburgh's Christmas",
+          "evidence": [
+            "Free to enter, shoppers can browse around 70 stalls",
+            "Standing at 46m tall",
+            "at 80m tall"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "free to enter, with around 70 stalls",
+          "the LNER Big Wheel stands, 46m tall"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.west-gardens",
+      "topic": "place",
+      "claim": "West Princes Street Gardens hosts the Festive Family Funfair, Santa's Stories and a Santa letter writing station and post box (Forever Edinburgh).",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://edinburgh.org/festivals/edinburghs-christmas/",
+          "kind": "official",
+          "title": "Forever Edinburgh: Edinburgh's Christmas",
+          "evidence": [
+            "Festive Family Funfair",
+            "Santa Letter Writing Station and Post Box"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "West Princes Street Gardens has the Festive Family Funfair"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.dates-2025",
+      "topic": "history",
+      "claim": "Forever Edinburgh's 2025 market page gave 15 November 2025 to 4 January 2026 (last year's dates, not 2026).",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://edinburgh.org/blog/explore-edinburghs-christmas-markets/",
+          "kind": "official",
+          "title": "Forever Edinburgh: Explore Edinburgh's Christmas markets",
+          "evidence": [
+            "between 15 November 2025 and 04 January 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "15 November 2025 to 4 January 2026"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.tram-disruption-2026",
+      "topic": "transport",
+      "claim": "Edinburgh Trams said on 27 August 2026 that full services between Edinburgh Airport and Newhaven would resume from the start of service on Saturday 29 August 2026, when Princes Street reopened, after a prolonged period of disruption.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://edinburghtrams.com/news/trams-set-return-city-centre-leith-and-newhaven-princes-street-reopens",
+          "kind": "operator",
+          "title": "Edinburgh Trams: trams set to return as Princes Street reopens",
+          "evidence": [
+            "full tram services between Edinburgh Airport and Newhaven will resume from the start of service on Saturday 29 August"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "full services between the airport and Newhaven would resume on Saturday 29 August 2026"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.festive-transport-2026",
+      "topic": "transport",
+      "claim": "As of 8 November 2026 no Christmas Eve, Christmas Day or Boxing Day timetable was posted on the Edinburgh Trams timetable page, its news list or Lothian Buses' home and service-updates pages; Edinburgh Trams says daytime trams run every 7 minutes, 7 days a week.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://edinburghtrams.com/plan-journey/timetables",
+          "kind": "operator",
+          "title": "Edinburgh Trams: timetables",
+          "evidence": [
+            "Trams run from every 7 minutes throughout the daytime, 7 days a week"
+          ]
+        },
+        {
+          "url": "https://www.lothianbuses.com/service-updates/",
+          "kind": "operator",
+          "title": "Lothian Buses: service updates"
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "Neither Edinburgh Trams nor Lothian Buses had posted a festive timetable on the pages we read"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.hotel.gleneagles-townhouse",
+      "topic": "hotel",
+      "claim": "Gleneagles Townhouse, 39 St Andrew Square EH2 2AD: 33 guest rooms, The Spence restaurant and bar, Lamplighters rooftop bar for guests and members, a gym and wellness studio; no room sizes or festive offers on the page.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.gleneagles.com/townhouse/",
+          "kind": "official",
+          "title": "Gleneagles Townhouse",
+          "evidence": [
+            "33 luxury guestrooms shaped by the spirit of our Georgian home",
+            "right in the heart of St Andrew Square"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "At 39 St Andrew Square, with 33 guest rooms"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.hotel.motel-one-princes",
+      "topic": "hotel",
+      "claim": "Motel One Edinburgh-Princes, 10-15 Princes Street EH2 2AN, located at Waverley Station.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.motel-one.com/en/hotels/edinburgh/hotel-edinburgh-princes/",
+          "kind": "official",
+          "title": "Motel One Edinburgh-Princes",
+          "evidence": [
+            "10-15 Princes Street, EH2 2AN Edinburgh",
+            "Located at Waverley Station, close to top sights"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "At 10-15 Princes Street, at Waverley Station"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.hotel.scotsman",
+      "topic": "hotel",
+      "claim": "The Scotsman Hotel, 20 North Bridge EH1 1TR, on North Bridge between the Old Town and the New Town: 10 floors of rooms, suites and a duplex penthouse, an all-day brasserie, three bars, a 48-seat cinema; early 2pm check-in £15 a room; complimentary Prosecco for booking direct online.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://scotsmanhotel.co.uk/",
+          "kind": "official",
+          "title": "The Scotsman Hotel",
+          "evidence": [
+            "10 floors of luxurious rooms, suites and a duplex Penthouse",
+            "Early 2pm check-in available for £15 per room",
+            "a complimentary bottle of chilled Prosecco on arrival when booking directly online"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "with 10 floors of rooms, suites and a duplex penthouse",
+          "early check-in from 2pm costs £15 a room",
+          "The Scotsman offered a bottle of Prosecco for booking direct online"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.hotel.virgin",
+      "topic": "hotel",
+      "claim": "Virgin Hotels Edinburgh, 1 India Buildings, Victoria Street EH1 2EX, in the Old Town; page mentions a red front door and Victoria Street; no room count, sizes or festive offers read.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://virginhotels.com/edinburgh/",
+          "kind": "official",
+          "title": "Virgin Hotels Edinburgh",
+          "evidence": [
+            "Step out of our red door and take a stroll down Victoria Street"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "At 1 India Buildings on Victoria Street",
+          "with a red front door"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.hotel.hotel-du-vin",
+      "topic": "hotel",
+      "claim": "Hotel du Vin Edinburgh, 11 Bristo Place EH1 1EZ: 47 rooms and suites, bistro, wine cellars, Whisky Snug; cashless; 5% local visitor levy line for stays from 24 July 2026.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.hotelduvin.com/locations/edinburgh/",
+          "kind": "official",
+          "title": "Hotel du Vin Edinburgh",
+          "evidence": [
+            "Each of our 47 rooms and suites",
+            "Please note, we are cashless",
+            "A 5% local visitor levy applies to our Edinburgh hotel for stays from 24 July 2026 onwards."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "At 11 Bristo Place, with 47 rooms and suites",
+          "the hotel is cashless, so cards and digital payments only",
+          "Hotel du Vin and Malmaison each carry a line on their pages saying a 5% levy applies from 24 July 2026"
+        ]
+      }
+    },
+    {
+      "id": "gb.edinburgh-christmas.hotel.apex-grassmarket",
+      "topic": "hotel",
+      "claim": "Apex Grassmarket Hotel, 31-35 Grassmarket EH1 2HS: four room types incl. Castle View Deluxe with balcony and Castle View Superior, heated indoor pool, sauna, gym, Metro Bar & Brasserie, castle about a 5-minute uphill walk, guest parking £20 a day first come first served, 'Save Now, Stay Later' 20% off a minimum two-night stay booked 28 days ahead.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.apexhotels.co.uk/destinations/edinburgh/apex-grassmarket-hotel/",
+          "kind": "official",
+          "title": "Apex Grassmarket Hotel",
+          "evidence": [
+            "31-35 Grassmarket, Edinburgh, EH1 2HS",
+            "Castle View Superior Room",
+            "Save Now, Stay Later"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-edinburgh-christmas.html": [
+          "At 31-35 Grassmarket, with four room types",
+          "parking is £20 a day, first come, first served",
+          "20% off a stay of two nights or more booked 28 days ahead"
         ]
       }
     }

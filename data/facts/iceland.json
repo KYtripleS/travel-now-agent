@@ -23,6 +23,10 @@
           "800 ISK per unit, per night",
           "400 ISK per unit, per night",
           "an accommodation tax of 800 ISK for every room, apartment or separately let bed, every night"
+        ],
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "an accommodation tax of 800 ISK a room a night",
+          "800 ISK per room, per night"
         ]
       }
     },
@@ -72,6 +76,10 @@
         "articles/where-to-stay-in-reykjavik-northern-lights.html": [
           "VAT on hotel and guest-room rental (Ísland.is guidance, dated 25 January 2025)",
           "11%"
+        ],
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "plus 11% VAT that is already in the room price",
+          "VAT on hotel and guest-room rental"
         ]
       }
     },
@@ -90,6 +98,14 @@
           "url": "https://flybus.is/about-flybus/",
           "kind": "operator",
           "title": "Flybus: About Flybus"
+        },
+        {
+          "url": "https://flybus.is/faq/",
+          "kind": "operator",
+          "title": "Flybus FAQ",
+          "evidence": [
+            "The distance between Keflavík and Reykjavík is about 50 kilometers (31 miles)"
+          ]
         }
       ],
       "used_in": {
@@ -99,6 +115,9 @@
         ],
         "articles/where-to-stay-in-reykjavik-northern-lights.html": [
           "Keflavík Airport is about 50 kilometres from Reykjavík"
+        ],
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "the airport is 50 km away"
         ]
       }
     },
@@ -124,6 +143,10 @@
           "3,999 ISK for adults and 1,999 ISK for ages 6 to 15",
           "Flybus to hotel costs 5,299 ISK and 2,649 ISK",
           "Return bookings and groups of four or more get an automatic discount"
+        ],
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "One way costs 3,999 ISK for adults and 1,999 ISK for ages 6 to 15",
+          "Flybus to hotel costs 5,299 ISK for adults and 2,649 ISK for ages 6 to 15"
         ]
       }
     },
@@ -153,6 +176,11 @@
         "articles/where-to-stay-in-reykjavik-northern-lights.html": [
           "the coach takes about 45 minutes",
           "a ticket stays valid for the next coach if your flight is late"
+        ],
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "takes about 45 minutes",
+          "runs daily in connection with all arriving and departing flights and operates year-round in all conditions",
+          "every 30 to 60 minutes from 04:00 until 22:30"
         ]
       }
     },
@@ -200,6 +228,10 @@
           "An adult pays 2,400 ISK to Reykjavík or 1,800 ISK to Fjörður in Hafnarfjörður",
           "children 11 and under ride free",
           "The public bus runs daily with twelve departures"
+        ],
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "runs every day of the week",
+          "an adult pays 2,400 ISK to Reykjavik"
         ]
       }
     },
@@ -829,6 +861,531 @@
       "used_in": {
         "articles/where-to-stay-in-reykjavik-northern-lights.html": [
           "an outdoor geothermal hot tub, a sauna, a restaurant and bar, breakfast included and free parking"
+        ]
+      }
+    },
+    {
+      "id": "is.accommodation-tax.2027-proposal",
+      "topic": "tax",
+      "claim": "Deloitte Iceland reports the draft 2027 budget would raise several fixed-sum charges, including the accommodation tax, by 5.2%; a proposal with no start date found.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.deloitte.com/is/is/services/tax/blogs/hver-borgar-skattinn-ad-lokum.html",
+          "kind": "news",
+          "title": "Deloitte Iceland: Hver borgar skattinn að lokum",
+          "evidence": [
+            "Gert er ráð fyrir að ýmis krónutölugjöld hækki um 5,2%, meðal annars áfengisgjöld, kolefnisgjald, gistináttaskattur og bifreiðagjöld."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "by 5.2%",
+          "It was still a proposal when we checked"
+        ]
+      }
+    },
+    {
+      "id": "is.straeto.nye-2025",
+      "topic": "transport",
+      "claim": "Strætó's 2025-26 notice: on 31 December 2025 buses ran to a Saturday schedule with a few extra morning trips and last trips around 15:00; on 1 January 2026 to a Sunday schedule. The 2026-27 notice was not yet published (latest news item 23 October 2026).",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.straeto.is/en/user-information/news/service-over-christmas-and-new-years-2025-2026",
+          "kind": "operator",
+          "title": "Strætó: service over Christmas and New Year 2025-2026",
+          "evidence": [
+            "Buses drive according to a Saturday schedule with few additional trips during the morning. Last trips of the day will be around 15:00.",
+            "Buses drive according to a Sunday schedule."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "a Saturday schedule with a few extra morning trips, with the last trips around 15:00",
+          "you cannot count on a bus home at midnight"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.bonfires-2025",
+      "topic": "place",
+      "claim": "The City of Reykjavik's 2025 notice listed ten New Year's Eve bonfires, all at 8:30pm except Skerjafjörður at 9pm; Geirsnef and Gufunes large; the 2026 list was not yet published.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://reykjavik.is/en/news/2025/new-years-reykjavik",
+          "kind": "official",
+          "title": "City of Reykjavik: New Year's in Reykjavík (29 December 2025)",
+          "evidence": [
+            "In Skerjafjörður opposite Skildinganes 48-52, a small bonfire, at 9pm.",
+            "Laugardalur, below Laugarásvegur 18, small bonfire, at 8:30pm.",
+            "Gufunes by Gufunesbær, a large bonfire, at 8:30pm"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "Ten bonfires were planned, all at 8:30pm except Skerjafjörður at 9pm.",
+          "Laugardalur (below Laugarásvegur 18)"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.bonfire-rules",
+      "topic": "place",
+      "claim": "Bonfires are not lit if wind exceeds 10 m/s (decided before noon on New Year's Eve); fireworks and flares may not be brought to the bonfires, sparklers allowed; walking encouraged as vehicle access is limited.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://reykjavik.is/en/news/2025/new-years-reykjavik",
+          "kind": "official",
+          "title": "City of Reykjavik: New Year's in Reykjavík (29 December 2025)",
+          "evidence": [
+            "Bonfires will not be lit if the wind speed is over 10 m/s.",
+            "you may use sparklers and torches without sparks",
+            "Attendees are strongly encouraged to walk to the bonfires, as vehicle access will be limited."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "bonfires will not be lit if the wind speed is over 10 m/s",
+          "sparklers and torches without sparks are allowed"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.air-quality-2025",
+      "topic": "place",
+      "claim": "The City's 2025 notice warned air quality may be poor in the first hours of the new year; people with breathing or heart conditions and children should stay indoors around midnight with windows closed; levels at Loftgæði.is.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://reykjavik.is/en/news/2025/new-years-reykjavik",
+          "kind": "official",
+          "title": "City of Reykjavik: New Year's in Reykjavík (29 December 2025)",
+          "evidence": [
+            "Air quality may be poor in the first hours of 2026 due to fireworks.",
+            "This group should stay indoors around midnight and keep windows closed."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "air quality may be poor in the first hours of the new year",
+          "stay indoors around midnight with windows closed"
+        ]
+      }
+    },
+    {
+      "id": "is.fireworks.window",
+      "topic": "place",
+      "claim": "Icelandic regulation 952/2003: general use and sale of fireworks to the public is allowed only from 28 December to 6 January, both days included.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.reglugerd.is/reglugerdir/allar/nr/0952-2003",
+          "kind": "official",
+          "title": "Reglugerð um skotelda nr. 952/2003",
+          "evidence": [
+            "nema á tímabilinu 28. desember til 6. janúar að báðum dögum meðtöldum"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "from 28 December to 6 January, both days included"
+        ]
+      }
+    },
+    {
+      "id": "is.fireworks.quiet-hours",
+      "topic": "place",
+      "claim": "Icelandic police (December 2023): during 28 December to 6 January, fireworks use is banned from 22:00 to 10:00 the next day, except on New Year's night.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://island.is/s/logreglan/frett/um-skotelda",
+          "kind": "official",
+          "title": "Lögreglan: Um skotelda (28 December 2023)",
+          "evidence": [
+            "er meðferð þeirra þó alltaf bönnuð frá kl. 22.00 til kl. 10.00 daginn eftir að undanskilinni nýársnótt"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "use is banned from 22:00 to 10:00 the next day during that period, except on New Year's night"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.fireworks-area-2023",
+      "topic": "place",
+      "claim": "Visit Reykjavik's December 2023 notice named Skólavörðuholt by Hallgrímskirkja as the area dedicated to fireworks downtown; the City's 2025 notice does not repeat it.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://visitreykjavik.is/news/new-years-bonfires-and-areas-fireworks-reykjavik",
+          "kind": "official",
+          "title": "Visit Reykjavík: New Year's bonfires and areas for fireworks (29 December 2023)",
+          "evidence": [
+            "There are area that are dedicated for the use of fireworks in downtown Reykjavík on New Year’s, it is:",
+            "Skólavörðuholt - Hallgrímskirkja"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "Visit Reykjavik listed one area dedicated to fireworks downtown, Skólavörðuholt by Hallgrímskirkja"
+        ]
+      }
+    },
+    {
+      "id": "is.hallgrimskirkja.nye-2026",
+      "topic": "place",
+      "claim": "Hallgrímskirkja 2026-27 hours: 31 December visiting 10:00-12:00, festive concert 16:00 (church opens 15:15), service 18:00; 1 January 2027 church open only for the 14:00 service from 13:15, tower closed; seats cannot be reserved.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.hallgrimskirkja.is/en-gb/opnunartimar",
+          "kind": "official",
+          "title": "Hallgrímskirkja: opening hours",
+          "evidence": [
+            "Thursday 31.12. NOTE New Years Eve Visiting hours 10:00 - 12:00",
+            "18:00 Service on New Years eve",
+            "Friday 1.1.2027 NOTE New Years Day Church is only open for service Tower is closed",
+            "14:00 Festive Service on New Years Day"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "the visiting hours are 10:00 to 12:00",
+          "the New Year's Eve service is at 18:00",
+          "the church is open only for the 14:00 festive service, from 13:15, and the tower is closed"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.pools-nye",
+      "topic": "place",
+      "claim": "City of Reykjavik 2026 public-holiday pool hours: 31 December 8am-1pm and 1 January 2027 1pm-5pm at all city pools, including Laugardalur and Sundhöll.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://reykjavik.is/en/swimming-pools/opening-hours",
+          "kind": "official",
+          "title": "City of Reykjavik: swimming pool hours",
+          "evidence": [
+            "December 31 - New Year's Eve 8am- 1 p.m.",
+            "January 1 - New Year's Day 2027 1pm– 5 p.m."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "8am to 1pm on 31 December, and 1pm to 5pm on 1 January 2027"
+        ]
+      }
+    },
+    {
+      "id": "is.road.traffic-centre",
+      "topic": "transport",
+      "claim": "The Icelandic Road and Coastal Administration's traffic centre monitors road conditions 24 hours a day, 365 days a year and updates them on umferdin.is.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.vegagerdin.is/en/the-transportation-system/the-road-system/vaktstod",
+          "kind": "official",
+          "title": "Vegagerðin: the traffic centre",
+          "evidence": [
+            "monitors road conditions 24 hours a day, 365 days a year",
+            "updates information on driving conditions and road conditions on umferdin.is"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "monitors road conditions 24 hours a day, 365 days a year and posts them on umferdin.is"
+        ]
+      }
+    },
+    {
+      "id": "is.fosshotel-baron.tax",
+      "topic": "hotel",
+      "claim": "Fosshotel Baron (Barónsstígur 2-4): 120 rooms, breakfast 7am-10am, extra-charge parking; a lodging tax of 800 ISK per room per night is charged on arrival.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.islandshotel.is/hotels-in-iceland/fosshotel-baron/",
+          "kind": "operator",
+          "title": "Fosshotel Baron",
+          "evidence": [
+            "Fosshotel Baron features 120 rooms in downtown Reykjavík",
+            "Barónsstígur 2-4, 101 Reykjavík, Iceland"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "with 120 rooms, a bar, a lift and breakfast from 7am to 10am",
+          "Fosshotel Baron says on its page that it is charged on arrival"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.parliament-hotel",
+      "topic": "hotel",
+      "claim": "Iceland Parliament Hotel, Thorvaldsenstraeti 2-6: 163 rooms, 7 floors, restaurant and spa, next to the Alþingi and across from Austurvöllur; Hallgrímskirkja 0.60 km.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/rekpsqq-iceland-parliament-hotel/",
+          "kind": "operator",
+          "title": "Iceland Parliament Hotel, Curio Collection by Hilton",
+          "evidence": [
+            "Located in the city center, next to the Icelandic Parliament- Alþingi and across from Austurvollur.",
+            "163 Rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "with 163 rooms over seven floors, a restaurant and a spa"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.canopy",
+      "topic": "hotel",
+      "claim": "Canopy by Hilton Reykjavik City Centre, Smidjustigur 4: 112 rooms over five floors, former furniture factory, rooftop platform, complimentary breakfast per its page; Hallgrímskirkja 0.50 km; no pets.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/rekcapy-canopy-reykjavik-city-centre/",
+          "kind": "operator",
+          "title": "Canopy by Hilton Reykjavik City Centre",
+          "evidence": [
+            "112 Rooms",
+            "Enjoy complimentary breakfast as well as in-room listening with our diverse vinyl collection."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "with 112 rooms over five floors, a rooftop platform and, by its own account, complimentary breakfast"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.alda",
+      "topic": "hotel",
+      "claim": "Alda Hotel Reykjavik, Laugavegur 66-68: 90 rooms, restaurant 14:00-22:00, free gym/sauna/hot tub 6am-10pm, no private parking (garage 200 m east), Hallgrímskirkja 450 m / 5 min walk.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.icelandhotelcollectionbyberjaya.com/en/hotels/reykjavik/hotel-alda-reykjavik",
+          "kind": "operator",
+          "title": "Alda Hotel Reykjavik",
+          "evidence": [
+            "450 m / 5 min walk",
+            "Unfortunately, we don't have private parking."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "with 90 rooms, a restaurant open daily from 14:00 to 22:00",
+          "the walk to Hallgrímskirkja as 450 m, five minutes"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.edition-nye",
+      "topic": "hotel",
+      "claim": "The Reykjavik EDITION, Austurbakki 2: 253 rooms and suites; no New Year's Eve package or minimum stay found on its site (offers pages not fully read).",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.editionhotels.com/reykjavik/",
+          "kind": "operator",
+          "title": "The Reykjavik EDITION",
+          "evidence": [
+            "each of the 253 rooms and suites"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "with 253 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.konsulat",
+      "topic": "hotel",
+      "claim": "Reykjavik Konsulat Hotel, Hafnarstraeti 17-19: 50 rooms, 1900s department-store building restored in 2018, bathhouse with hot tub and sauna included.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.hilton.com/en/hotels/rekcuqq-reykjavik-konsulat-hotel/",
+          "kind": "operator",
+          "title": "Reykjavik Konsulat Hotel, Curio Collection by Hilton",
+          "evidence": [
+            "Our 1900's building was once a department store owned by Consul Thomsen’s family.",
+            "Access to a hot tub, sauna, relaxation area and changing rooms is included."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "with 50 rooms, a wine room and a bathhouse"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.marina",
+      "topic": "hotel",
+      "claim": "Reykjavik Marina, Myrargata 2: lists 154 suites and family rooms, Slippbarinn bar, breakfast buffet, within a five-minute walk of the city centre, Harpa 900 m.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.icelandhotelcollectionbyberjaya.com/en/hotels/reykjavik/reykjavik-marina",
+          "kind": "operator",
+          "title": "Reykjavik Marina - Berjaya Iceland Hotels",
+          "evidence": [
+            "154 Suites and family rooms",
+            "within a five minute walk of the city center"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "with 154 suites and family rooms by its count"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.skuggi",
+      "topic": "hotel",
+      "claim": "Skuggi Hotel by Keahotels, Hverfisgata 103: four room types, bar and lounge, breakfast included, limited free parking, Laugavegur a short walk.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.keahotels.is/skuggi-hotel",
+          "kind": "operator",
+          "title": "Skuggi Hotel by Keahotels",
+          "evidence": [
+            "Choose from four comfortable and elegant room types",
+            "Limited Free Parking"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "with four room types, a bar and lounge, breakfast included and limited free parking"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.grand-hotel",
+      "topic": "hotel",
+      "claim": "Grand Hotel Reykjavík, Sigtún 28: more than 300 rooms, Grand Brasserie daily, breakfast 6:30-10am, spa closed; its festive page lists a 31 December dinner at 36,900 ISK per person with a fireworks view, year not stated.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.islandshotel.is/hotels-in-iceland/grand-hotel-reykjavik/",
+          "kind": "operator",
+          "title": "Grand Hotel Reykjavík",
+          "evidence": [
+            "We have more than 300 rooms, in varied shapes and sizes.",
+            "The hotel spa is closed."
+          ]
+        },
+        {
+          "url": "https://www.islandshotel.is/offers/festive-season-at-hotel-reykjavik-grand/",
+          "kind": "operator",
+          "title": "Festive season at Hotel Reykjavík Grand",
+          "evidence": [
+            "New Years Eve - 31st of December",
+            "Panoramic views of Reykjavík's New Year's fireworks"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "with more than 300 rooms, the Grand Brasserie open daily for lunch and dinner",
+          "a New Year's Eve dinner at 36,900 ISK a person"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.lights",
+      "topic": "hotel",
+      "claim": "Reykjavik Lights Hotel by Keahotels, Suðurlandsbraut 12: 105 rooms, complimentary breakfast buffet, free parking, bar and lounge, close to Laugardalur, 2.9 km from the centre.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.keahotels.is/reykjavik-lights",
+          "kind": "operator",
+          "title": "Reykjavik Lights Hotel by Keahotels",
+          "evidence": [
+            "2,9 km from center",
+            "is located close to Laugardalur"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "with 105 rooms, complimentary breakfast, free parking and a bar and lounge"
+        ]
+      }
+    },
+    {
+      "id": "is.keflavik.hotel-keflavik",
+      "topic": "hotel",
+      "claim": "Hotel Keflavik, Vatnsnesvegur 12: KEF Spa & Fitness, KEF Restaurant, KEF Café with breakfast from 05:00, Diamond Lounge bar; about 5 minutes from the airport per its site; no room count, parking or shuttle stated.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.kef.is/",
+          "kind": "operator",
+          "title": "Hotel Keflavik (kef.is)",
+          "evidence": [
+            "5 Mín Frá flugvelli",
+            "morgunverð frá kl. 05:00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "five minutes from the airport by its own count"
+        ]
+      }
+    },
+    {
+      "id": "is.keflavik.courtyard",
+      "topic": "hotel",
+      "claim": "Courtyard by Marriott Reykjavik Keflavik Airport, Aðalgata 60: 3 minutes by car from KEF, downtown Reykjavík 40 minutes away, complimentary on-site parking, two restaurants (ROKU, Langbest); overview does not state an airport shuttle.",
+      "checked": "2026-11-05",
+      "sources": [
+        {
+          "url": "https://www.marriott.com/en-us/hotels/kefcy-courtyard-reykjavik-keflavik-airport/overview/",
+          "kind": "operator",
+          "title": "Courtyard by Marriott Reykjavik Keflavik Airport",
+          "evidence": [
+            "just 3 minutes by car from Keflavík International Airport (KEF)",
+            "Complimentary On-Site Parking"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-reykjavik-new-years-eve.html": [
+          "three minutes by car from the airport, with free on-site parking"
         ]
       }
     }

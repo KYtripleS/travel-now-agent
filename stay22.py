@@ -114,6 +114,14 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-edinburgh-christmas": dict(area="Princes Street", lat=55.9503, lng=-3.193, zoom=15,
+                                                    address="Princes Street, Edinburgh, United Kingdom"),
+    "where-to-stay-in-amsterdam-new-years-eve": dict(area="Museum Quarter", lat=52.358, lng=4.8814, zoom=14,
+                                                        address="Museumplein, Amsterdam, Netherlands"),
+    "where-to-stay-in-berlin-new-years-eve": dict(area="Brandenburg Gate, Mitte", lat=52.5163, lng=13.3777, zoom=14,
+                                                     address="Brandenburger Tor, Berlin, Germany"),
+    "where-to-stay-in-reykjavik-new-years-eve": dict(area="Hallgrímskirkja and Laugavegur", lat=64.1417, lng=-21.9266, zoom=15,
+                                                        address="Hallgrímskirkja, Reykjavik, Iceland"),
     "where-to-stay-in-las-vegas-new-years-eve": dict(area="Center Strip", lat=36.1126, lng=-115.1767, zoom=14,
                                                         address="Bellagio, 3600 Las Vegas Blvd S, Las Vegas, NV, USA"),
     "where-to-stay-in-singapore-new-years-eve": dict(area="Marina Bay", lat=1.2843, lng=103.8585, zoom=15,
@@ -761,7 +769,7 @@ HOTELS = {
     "Wellington Hotel & Spa Madrid": _B + "es/wellington-madrid.html",
     # Berlin (Booking.com pages confirmed by hotel name and city, 2026-10-13)
     "Hotel Adlon Kempinski Berlin": _B + "de/adlon-kempinski-berlin.html",
-    "The Circus Hotel": _B + "de/the-circus.html",
+    # The Circus Hotel (Berlin): closed 1 Nov 2026 per circus-berlin.de
     "Motel One Berlin-Hackescher Markt": _B + "de/motel-one-berlin-alexanderplatz.html",
     "Hotel Oderberger": _B + "de/oderberger.html",
     "Myer's Hotel Berlin": _B + "de/myers-berlin.html",
@@ -2042,6 +2050,39 @@ HOTELS = {
     "Golden Nugget Las Vegas": _B + "us/golden-nugget-amp-casino-las-vegas.html",
     "El Cortez Hotel & Casino": _B + "us/po-el-cortez-hotel-casino-21-and-over-only-downtown-fremont-street.html",
     "Palms Casino Resort": _B + "us/palms-casino-resort.html",
+    # Reykjavik, where-to-stay-in-reykjavik-new-years-eve (Booking.com pages confirmed by hotel name and city)
+    "Iceland Parliament Hotel": _B + "is/iceland-parliament-curio-collection-by-hilton.html",
+    "Canopy by Hilton Reykjavik City Centre": _B + "is/canopy-by-hilton-reykjavik-city-centre.html",
+    "Alda Hotel Reykjavik": _B + "is/alda-reykjavik.html",
+    "Reykjavik Konsulat Hotel": _B + "is/consulate-reykjavik-curio-collection-by-hilton.html",
+    "Reykjavik Marina": _B + "is/icelandair-reykjavik-marina.html",
+    "Skuggi Hotel by Keahotels": _B + "is/skuggi.html",
+    "Fosshotel Baron": _B + "is/baron.html",
+    "Grand Hotel Reykjavík": _B + "is/grandhotelreykjavik.html",
+    "Reykjavik Lights Hotel by Keahotels": _B + "is/reykjavik-lights.html",
+    "Hotel Keflavik": _B + "is/hotelkeflavik.html",
+    "Courtyard by Marriott Reykjavik Keflavik Airport": _B + "is/courtyard-reykjavik-keflavik-airport.html",
+    # Berlin, where-to-stay-in-berlin-new-years-eve (Booking.com pages confirmed by hotel name and city)
+    "Hotel Albrechtshof": _B + "de/albrechtshof.html",
+    "Motel One Berlin-Alexanderplatz": _B + "de/motel-one-berlin-alexanderplatz-berlin.html",
+    "Hotel Berlin, Berlin": _B + "de/bbberlin.html",
+    "MEININGER Hotel Berlin Central Station": _B + "de/meininger-berlin-hauptbahnhof.html",
+    "Bristol Berlin": _B + "de/bristol-berlin-vignette-collection.html",
+    "Hotel Q!": _B + "de/hotelqberlin.html",
+    "EastSeven Berlin Hostel": _B + "de/eastseven-berlin-hostel-berlin1.html",
+    "nhow Berlin": _B + "de/nhow-berlin.html",
+    "a&o Berlin Friedrichshain": _B + "de/friedrichshainaohostel.html",
+    # Amsterdam, where-to-stay-in-amsterdam-new-years-eve (Booking.com pages confirmed by hotel name and city)
+    "Avani Museum Quarter Amsterdam Hotel": _B + "nl/nhmuseumquarter.html",
+    "Max Brown Hotel Museum Square": _B + "nl/max-brown-hotel-museum-square-nl.html",
+    "The Dylan Amsterdam": _B + "nl/the-dylan-amsterdam.html",
+    "Hotel Estheréa": _B + "nl/estherea.html",
+    "Hotel Mercier": _B + "nl/mercier.html",
+    "Pillows Grand Boutique Hotel Maurits at the Park": _B + "nl/pillows-maurits-at-the-park.html",
+    "Hotel V Fizeaustraat": _B + "nl/v-fizeaustraat.html",
+    # Edinburgh, where-to-stay-in-edinburgh-christmas (Booking.com pages confirmed by hotel name and city)
+    "Gleneagles Townhouse": _B + "gb/gleneagles-townhouse.html",
+    "Hotel du Vin Edinburgh": _B + "gb/du-vin-edinburgh.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

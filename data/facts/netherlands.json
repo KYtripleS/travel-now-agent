@@ -1552,6 +1552,9 @@
         "articles/where-to-stay-in-amsterdam-kings-day.html": [
           "21% from 1 January 2026",
           "The Belastingdienst says the 21% rate applies to hotel stays from 1 January 2026"
+        ],
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "the 21% rate applies to hotel stays from 1 January 2026"
         ]
       }
     },
@@ -1575,6 +1578,9 @@
         "articles/where-to-stay-in-amsterdam-kings-day.html": [
           "12.5% of the overnight price, excluding VAT",
           "a €15 day tax per cruise passenger"
+        ],
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "12.5% of the overnight price excluding VAT"
         ]
       }
     },
@@ -1598,6 +1604,9 @@
         "articles/where-to-stay-in-amsterdam-kings-day.html": [
           "the city executive agreed a proposed amendment to the tourist-tax ordinance that would set a uniform 16% in 2027",
           "16% of the overnight price"
+        ],
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "proposes a uniform rate of 16% of the overnight price in 2027"
         ]
       },
       "recheck_days": 10
@@ -1650,6 +1659,9 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-amsterdam-kings-day.html": [
+          "a train runs eight times an hour between Amsterdam Centraal and the airport, in just 17 minutes"
+        ],
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
           "a train runs eight times an hour between Amsterdam Centraal and the airport, in just 17 minutes"
         ]
       }
@@ -1978,6 +1990,477 @@
       "used_in": {
         "articles/where-to-stay-in-amsterdam-kings-day.html": [
           "A facade of nearly seventy Zaan-style houses in four shades of green, with a Wellness Club and swimming pool"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.fireworks-ban-2026",
+      "topic": "place",
+      "claim": "From 1 August 2026 a national ban applies to banned consumer fireworks; the City of Amsterdam says F1 fireworks remain allowed, no exemptions are granted in Amsterdam, and the municipality again organises fireworks shows on Museumplein and a number of other locations; the page gives no date, time or programme and does not mention firework-free zones.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.amsterdam.nl/nieuws/evenementen-herdenkingen/oud-nieuw-amsterdam/vuurwerkverbod/",
+          "kind": "official",
+          "title": "City of Amsterdam: Vuurwerkverbod in heel Nederland (2 November 2026)",
+          "evidence": [
+            "Sinds 1 augustus 2026 geldt een landelijk verbod.",
+            "F1-vuurwerk mag wel worden afgestoken.",
+            "Er worden in Amsterdam geen ontheffingen verleend.",
+            "Wel organiseert de gemeente op het Museumplein en op een aantal andere locaties weer vuurwerkshows."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "a national ban has applied since 1 August 2026",
+          "light F1 fireworks",
+          "no exemptions are granted in Amsterdam",
+          "organise fireworks shows on Museumplein and at a number of other locations"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "nl.amsterdam.nye-2025-museumplein-show",
+      "topic": "place",
+      "claim": "I amsterdam's New Year's Eve page (last updated 27 December 2025) described last year's plan: an electric fireworks display on Museumplein for up to 60,000 spectators, live acts from 23:00, countdown from 23:50, a children's programme from 19:00, and a Sloterplas show from 00:00 to 00:10.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.iamsterdam.com/en/whats-on/new-years-eve-tips",
+          "kind": "official",
+          "title": "I amsterdam: Tips for New Year's Eve in Amsterdam (updated 27 December 2025)",
+          "evidence": [
+            "a spectacle designed for up to 60,000 spectators",
+            "the fireworks countdown begins at 23:50",
+            "from 00:00 to 00:10",
+            "Last updated on 27 December 2025"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "designed for up to 60,000 spectators",
+          "the countdown beginning at 23:50",
+          "from 00:00 to 00:10"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "nl.gvb.nye-2024-25-pattern",
+      "topic": "transport",
+      "claim": "GVB's holiday page for 2024-25 (archived 25 December 2024) said buses, trams and metros ran until about 20:00 on 31 December, some ferry lines kept running longer, and the night network started at 01:30 with metro 52 and 54, night buses and ferries F3 and F4, at a separate night fare; GVB's 2025-26 page is no longer online and its live holiday page shows April and May 2026.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20241225104053/https://gvb.nl/feestdagen",
+          "kind": "operator",
+          "title": "GVB: Feestdagen dienstregeling 2024 (Internet Archive, 25 December 2024)",
+          "evidence": [
+            "Bij de veerponten blijven wij met een aantal lijnen langer doorvaren",
+            "start het nachtnet en kun je reizen met metro 52 en 54, GVB Nachtbussen en veerponten F3 en F4",
+            "Voor de nachtbussen geldt een apart nachttarief"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "ran until about 20:00 on 31 December",
+          "at 01:30 the night network started with metro 52 and 54, night buses and ferries F3 and F4",
+          "some ferry lines kept running later",
+          "Night buses carried a separate night fare"
+        ]
+      },
+      "recheck_days": 14,
+      "note": "Archive is the 2024-25 version; GVB's 2025-26 version could not be read."
+    },
+    {
+      "id": "nl.schiphol.nye-2025-transport",
+      "topic": "transport",
+      "claim": "Schiphol's notice of 22 December 2025: no trains to or from the airport between 20:00 and 01:00 except trains between Hoofddorp and Amsterdam Centraal (until about 22:00), and no buses between 20:00 and 01:30 on 31 December.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.schiphol.nl/nl/berichten/geen-bussen-en-treinen-van-en-naar-schiphol-tijdens-jaarwisseling/",
+          "kind": "operator",
+          "title": "Schiphol: Geen bussen en treinen van en naar Schiphol tijdens jaarwisseling (22 December 2025)",
+          "evidence": [
+            "Geen treinen tussen 20:00 - 01:00 uur",
+            "met uitzondering van de treinen op het traject tussen Hoofddorp en Amsterdam Centraal",
+            "Op 31 december rijden er vanaf 20:00 uur geen bussen meer van en naar Schiphol"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "no trains to or from the airport between 20:00 and 01:00",
+          "no buses between 20:00 and 01:30"
+        ]
+      },
+      "recheck_days": 14
+    },
+    {
+      "id": "nl.ns.nye-2022-pattern",
+      "topic": "transport",
+      "claim": "NS's release of 23 December 2022 said no trains run after 20:00 on Oudejaarsdag as every year, and the night network runs from 01:00.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://nieuws.ns.nl/vakantiedienstregeling-tijdens-de-kerstvakantie-en-oud--nieuw/",
+          "kind": "operator",
+          "title": "NS: Vakantiedienstregeling tijdens de kerstvakantie en Oud & Nieuw (23 December 2022)",
+          "evidence": [
+            "Op Oudejaarsdag rijden er zoals ieder jaar geen treinen meer na 20:00 uur.",
+            "vanaf 01.00 uur elk uur"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "no trains run after 20:00 on 31 December",
+          "night trains resumed from 01:00"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.council-vote-2027-budget",
+      "topic": "tax",
+      "claim": "AT5 (30 September 2026) reported that the Amsterdam council votes on the 2027 budget on 11 and 12 November 2026; we found no official page tying that vote to the 16% tourist tax rate and no outcome as of 8 November 2026.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.at5.nl/artikelen/240175/oppositie-legt-pro-op-grill-in-debat-over-financiele-plannen-2027-wat-is-er-over-van-groenlinks",
+          "kind": "news",
+          "title": "AT5: Oppositie legt Pro op grill in debat over financiele plannen 2027",
+          "evidence": [
+            "Op 11 en 12 november wordt er dan weer in de raad gestemd over de begroting"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "the council votes on the 2027 budget on 11 and 12 November 2026"
+        ]
+      },
+      "recheck_days": 3,
+      "note": "Recheck after 12 November; if 16% was adopted, update the tax section (nights in 2026 stay at 12.5%)."
+    },
+    {
+      "id": "nl.amsterdam.tax-example-nye",
+      "topic": "tax",
+      "claim": "Our arithmetic: a room of 200 euros before tax plus 21% VAT (42 euros) and 12.5% tourist tax (25 euros) costs 267 euros a night, 534 euros for two nights.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.amsterdam.nl/en/municipal-taxes/tourist-tax/",
+          "kind": "official",
+          "title": "City of Amsterdam: tourist tax",
+          "evidence": [
+            "Tourist tax: 12.5% of the overnight price (excluding VAT)",
+            "Day tourist tax: €15 per passenger"
+          ]
+        },
+        {
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/btw-logies",
+          "kind": "official",
+          "title": "Belastingdienst: Btw-tarief logies",
+          "evidence": [
+            "vanaf 1 januari 2026 het tarief van 21%"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "VAT is 42 euros and the tourist tax is 25 euros, so a night costs 267 euros"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.conservatorium",
+      "topic": "hotel",
+      "claim": "Mandarin Oriental Conservatorium's festive-season page covers festive stays, dining and wellness, describes its spa as hidden in the heart of the Museum Quarter, and states no New Year's Eve package or minimum stay.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/amsterdam/conservatorium/festive-season",
+          "kind": "official",
+          "title": "Mandarin Oriental Conservatorium: festive season",
+          "evidence": [
+            "Hidden within the heart of the Museum Quarter",
+            "seasonal events and overnight stays at Mandarin Oriental Conservatorium"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "a festive-season page covering stays, dining and wellness"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.avani",
+      "topic": "hotel",
+      "claim": "Avani Museum Quarter Amsterdam Hotel (Hobbemakade 50) has 163 rooms and suites, within 500 metres of the Rijksmuseum, Van Gogh Museum and Stedelijk.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.minorhotels.com/en/destinations/netherlands/amsterdam/avani-museum-quarter-amsterdam-hotel",
+          "kind": "official",
+          "title": "Avani Museum Quarter Amsterdam Hotel (Minor Hotels)",
+          "evidence": [
+            "163 rooms and suites",
+            "Hobbemakade 50",
+            "Within 500 metres of"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "At Hobbemakade 50",
+          "with 163 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.max-brown",
+      "topic": "hotel",
+      "claim": "Max Brown Hotel Museum Square occupies four traditional townhouses, has 64 rooms and is, by the hotel's account, a two-minute walk from the Rijksmuseum.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://sirclecollection.com/our-collections/hotels/max-brown-museum-square/",
+          "kind": "official",
+          "title": "Max Brown Museum Square (Sircle Collection)",
+          "evidence": [
+            "composed of four traditional townhouses",
+            "world-famous Rijksmuseum",
+            "Rooms 64"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "in four traditional townhouses",
+          "with 64 rooms"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.dylan",
+      "topic": "hotel",
+      "claim": "The Dylan Amsterdam is a five-star boutique hotel at Keizersgracht 384 whose Restaurant Vinkeles has two Michelin stars; its homepage mentions no New Year's Eve package.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.dylanamsterdam.com/",
+          "kind": "official",
+          "title": "The Dylan Amsterdam",
+          "evidence": [
+            "five-star boutique hotel in a unique historical building",
+            "two Michelin stars",
+            "Keizersgracht 384"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "Keizersgracht 384",
+          "has two Michelin stars"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.estherea",
+      "topic": "hotel",
+      "claim": "Hotel Estheréa (Singel 303-309) is a four-star hotel with 91 rooms and two suites; Classic rooms are at least 13 m2, Luxury 20 m2, Suites 30 or 55 m2; a package from 15 November 2026 does not mention New Year's Eve.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.estherea.nl/",
+          "kind": "official",
+          "title": "Hotel Estheréa",
+          "evidence": [
+            "91 rooms",
+            "Classic rooms are at least 13 m",
+            "November 15th 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "with 91 rooms and two suites",
+          "Classic rooms are at least 13 m²"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.mercier",
+      "topic": "hotel",
+      "claim": "Hotel Mercier (Rozenstraat 12) has 48 rooms and suites over four floors of the main building and two of the annexe, and shows a 10% direct-booking best-price guarantee.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.hotelmercier.com/",
+          "kind": "official",
+          "title": "Hotel Mercier",
+          "evidence": [
+            "48 kamers en suites verdeeld over 4 verdiepingen in het hoofdgebouw en 2 verdiepingen in het bijgebouw",
+            "in het hart van de geliefde Jordaan",
+            "MINIMAAL 10% KORTING BIJ DIRECT BOEKEN"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "with 48 rooms and suites",
+          "at least 10% off when you book direct"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.linden",
+      "topic": "hotel",
+      "claim": "Linden Hotel (Lindengracht 251) does not take groups larger than eight, more than three rooms or extra beds.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://lindenhotel.nl/",
+          "kind": "official",
+          "title": "Linden Hotel",
+          "evidence": [
+            "Lindengracht 251",
+            "more than three rooms or extra beds"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "at Lindengracht 251",
+          "no extra beds"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.okura",
+      "topic": "hotel",
+      "claim": "Hotel Okura Amsterdam (Ferdinand Bolstraat 333) has 120 completely renewed rooms and suites and cites three Michelin stars across its restaurants, including Ciel Bleu and Yamazato; its end-of-year page is a corporate events form.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.okura.nl/",
+          "kind": "official",
+          "title": "Hotel Okura Amsterdam",
+          "evidence": [
+            "Ferdinand Bolstraat 333",
+            "Our 120 completely renewed and more spacious rooms and suites",
+            "Three Michelin Stars"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "with 120 completely renewed rooms and suites",
+          "three Michelin stars across its restaurants"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.pillows-package",
+      "topic": "price",
+      "claim": "Pillows Maurits at the Park's festive-season page lists, for 31 December 2026, 'New Years at VanOost Restaurant' (six-course dinner, wine pairing, aperitif, glass of champagne at midnight, house beverages in Bar VanOost until 01.00, live DJ, overnight stay, all-in a la carte breakfast) and 'New Years at Spring Cafe Brasserie' (three-course lunch or dinner, overnight stay, breakfast); no prices or minimum stay are shown and the restaurant is booked separately.",
+      "checked": "2026-11-08",
+      "recheck_days": 14,
+      "sources": [
+        {
+          "url": "https://www.pillowshotels.com/amsterdam-mauritskade/offers/festive-season/",
+          "kind": "official",
+          "title": "Pillows Maurits at the Park: festive season",
+          "evidence": [
+            "New Years at VanOost Restaurant",
+            "31 December 2026",
+            "Glass of champagne at midnight",
+            "historic building dating from 1908"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "New Years at VanOost Restaurant",
+          "a glass of champagne at midnight",
+          "house drinks in Bar VanOost until 01:00",
+          "in a building from 1908"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.v-fizeaustraat",
+      "topic": "hotel",
+      "claim": "Hotel V Fizeaustraat (Fizeaustraat 2) is right behind Amstel Station, 400 m or about a five-minute walk by the hotel's count; Comfort Rooms are 22-25 m2 with a king-sized bed.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.hotelv.com/en/stay/fizeaustraat",
+          "kind": "official",
+          "title": "Hotel V Fizeaustraat",
+          "evidence": [
+            "Fizeaustraat 2",
+            "400m to Amstel Station",
+            "Comfort Room (22–25m²)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "400 m or about five minutes' walk away",
+          "Comfort Rooms are 22 to 25 m²"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.sir-adam",
+      "topic": "hotel",
+      "claim": "Sir Adam (Overhoeksplein 7) is, by the hotel's account, a 3 minute, free 24/7 ferry ride from Central Station.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.sirhotels.com/en/adam/",
+          "kind": "official",
+          "title": "Sir Adam",
+          "evidence": [
+            "Overhoeksplein 7",
+            "3 minute, free 24/7 ferry"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "At Overhoeksplein 7",
+          "a 3-minute, free 24/7 ferry ride from Central Station"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.nye.hotel.clinknoord",
+      "topic": "hotel",
+      "claim": "ClinkNOORD (Badhuiskade 3) has mixed dorms of 1 to 14 beds, female-only dorms and private en-suite rooms for 1 to 6; check-out is by 10am.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.clinkhostels.com/amsterdam/clinknoord/",
+          "kind": "official",
+          "title": "ClinkNOORD",
+          "evidence": [
+            "Badhuiskade 3",
+            "Check-out is by 10am"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-amsterdam-new-years-eve.html": [
+          "mixed dorms of 1 to 14 beds",
+          "check-out is by 10am"
         ]
       }
     }

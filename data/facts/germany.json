@@ -23,6 +23,10 @@
           "7.5% of the price of the room, before VAT and without breakfast",
           "The price of the room, without VAT and without extras such as breakfast",
           "Add 7.5% of the room price before VAT"
+        ],
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "7.5% of the net price of the stay, excluding VAT and extras such as breakfast",
+          "the rate rose to 7.5% on 1 January 2025"
         ]
       }
     },
@@ -113,6 +117,10 @@
         "articles/where-to-stay-in-berlin.html": [
           "Hotel rooms in Germany also carry VAT at the reduced rate of 7%",
           "taxed at the standard 19%"
+        ],
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "7%, the reduced rate",
+          "19%, the standard rate"
         ]
       }
     },
@@ -137,6 +145,9 @@
         "articles/where-to-stay-in-berlin.html": [
           "you need a single ABC ticket, €5.00 in 2026",
           "with no airport surcharge"
+        ],
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "which costs €5.00 in 2026 with no airport surcharge"
         ]
       }
     },
@@ -218,6 +229,10 @@
           "Südkreuz in about 14 minutes, Potsdamer Platz in about 19 and the Hauptbahnhof, the central station, in about 23",
           "Until December 2026, the FEX and the hourly RE20 together run four trains an hour on that route",
           "Its station is under Terminal 1, on level U2"
+        ],
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "to the Hauptbahnhof in about 23 minutes, to Potsdamer Platz in about 19 and to Südkreuz in about 14",
+          "the airport station is under Terminal 1"
         ]
       }
     },
@@ -316,18 +331,21 @@
     {
       "id": "de.berlin.hotel.circus",
       "topic": "hotel",
-      "claim": "The Circus Hotel, Rosenthaler Straße 1, is in a landmark-protected 19th-century building on Rosenthaler Platz; its Small Room is approx. 14 m².",
-      "checked": "2026-10-14",
+      "claim": "The Circus Hotel, Rosenthaler Straße 1, is in a landmark-protected 19th-century building on Rosenthaler Platz; its Small Room is approx. 14 m². The hotel closed on 1 November 2026, according to its own site.",
+      "checked": "2026-11-08",
       "sources": [
         {
           "url": "https://circus-berlin.de/hotel/rooms/",
           "kind": "operator",
-          "title": "The Circus Hotel: rooms"
+          "title": "The Circus Hotel: rooms",
+          "evidence": [
+            "As of the 1st of November 2026, The Circus Hotel on Rosenthaler Platz has closed its doors."
+          ]
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-berlin.html": [
-          "the Small Room is about 14 m²"
+          "the hotel closed on 1 November 2026, its own site says"
         ]
       }
     },
@@ -2377,6 +2395,550 @@
           "At Trogerstraße 21, a five-star hotel in the Bogenhausen quarter",
           "a wellness area with a sauna and steam room",
           "the hotel lists the Central Station as 15 minutes away"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.2026-status",
+      "topic": "place",
+      "claim": "As of early November 2026 berlin.de's event listing for the Silvesterparty am Brandenburger Tor 2026 says the date is not confirmed and that it is not known whether a party is planned; on 16 September 2026 the Berliner Kurier reported that the Senate Chancellery had confirmed to it a free party with DJs and fireworks for 2026/27 (a news report, not an official page).",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.berlin.de/silvester/",
+          "kind": "official",
+          "title": "berlin.de: Silvesterparty am Brandenburger Tor 2026",
+          "evidence": [
+            "Termin noch nicht bestätigt",
+            "Noch ist nicht bekannt, ob auch in diesem Jahr wieder eine Party geplant ist."
+          ]
+        },
+        {
+          "url": "https://www.berliner-kurier.de/article/silvesterparty-brandenburger-tor-2026-10396535",
+          "kind": "news",
+          "title": "Berliner Kurier, 16 September 2026",
+          "evidence": [
+            "Das hat die Senatskanzlei dem KURIER auf eine Anfrage exklusiv bestätigt."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "berlin.de's event listing still said the date was not confirmed",
+          "the Berliner Kurier reported that the Senate Chancellery had confirmed to it a party"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "de.berlin.nye.2025-party",
+      "topic": "place",
+      "claim": "For 31 December 2025 the Brandenburg Gate party was organised by the state-owned Kulturprojekte Berlin GmbH, with free tickets for about 20,000 guests that had to be reserved in advance, admission from 9:30pm, bag checks, and no own food, alcohol or fireworks.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.berlin.de/en/news/10106842-5559700-feiern-fahrplaene-verbote-das-gilt-in-be.en.html",
+          "kind": "official",
+          "title": "berlin.de: New Year's Eve timetables, restricted areas and traffic restrictions (30 December 2025)",
+          "evidence": [
+            "There is space for 20,000 people, tickets are free and must be reserved in advance.",
+            "Admission begins at 9:30 pm.",
+            "The event is being organised by the state-owned Kulturprojekte Berlin GmbH."
+          ]
+        },
+        {
+          "url": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/2025/pressemitteilung.1617816.php",
+          "kind": "official",
+          "title": "Senatskanzlei Berlin press release, 19 November 2025",
+          "evidence": [
+            "Kostenlose Tickets für rund 20.000 Gäste sind ab Dezember erhältlich."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "Free tickets for around 20,000 guests, reserved in advance",
+          "From 9:30pm",
+          "The state-owned Kulturprojekte Berlin GmbH"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "de.berlin.nye.2025-closures",
+      "topic": "transport",
+      "claim": "For 31 December 2025 the Großer Stern and access roads were closed from 6am, the Straße des 17. Juni between the Großer Stern and the Brandenburg Gate was closed (to pedestrians and cyclists too), and the U5 did not stop at Brandenburger Tor from 4pm.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.berlin.de/en/news/10106842-5559700-feiern-fahrplaene-verbote-das-gilt-in-be.en.html",
+          "kind": "official",
+          "title": "berlin.de: New Year's Eve timetables, restricted areas and traffic restrictions (30 December 2025)",
+          "evidence": [
+            "the Großer Stern and the access roads will be closed on 31 December from 6 a.m.",
+            "the underground will no longer stop at the Brandenburg Gate from 4 pm onwards"
+          ]
+        },
+        {
+          "url": "https://www.bvg.de/de/unternehmen/ueber-uns/news-und-stories/sicherheit-silvesternacht",
+          "kind": "operator",
+          "title": "BVG: Mit Verantwortung durch die Silvesternacht (30 December 2025)",
+          "evidence": [
+            "Ab 16 Uhr hält die U5 nicht mehr am Bahnhof Brandenburger Tor"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "The Großer Stern and access roads closed from 6am",
+          "The U5 did not stop at Brandenburger Tor from 4pm",
+          "the Straße des 17. Juni between the Großer Stern and the gate closed"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "de.berlin.nye.2025-fireworks",
+      "topic": "place",
+      "claim": "Private fireworks are allowed only on 31 December and 1 January, many districts (including Friedrichshain-Kreuzberg and Pankow) only from 6pm to 7am; for 31 December 2025 police banned private fireworks (categories F2-F4) from 6pm to 6am at Alexanderplatz, the Steinmetzkiez, part of Sonnenallee and the Admiralbrücke, allowing category F1 such as sparklers.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.berlin.de/en/news/10106842-5559700-feiern-fahrplaene-verbote-das-gilt-in-be.en.html",
+          "kind": "official",
+          "title": "berlin.de: New Year's Eve timetables, restricted areas and traffic restrictions (30 December 2025)",
+          "evidence": [
+            "December 31st and January 1st are the only days of the year when private fireworks are permitted.",
+            "many districts only allow fireworks from 6 pm until 7 am on New Year's Day."
+          ]
+        },
+        {
+          "url": "https://www.berlin.de/polizei/polizeimeldungen/2025/pressemitteilung.1628885.php",
+          "kind": "official",
+          "title": "Polizei Berlin, 23 December 2025",
+          "evidence": [
+            "gelten von Mittwoch, 31. Dezember 2025, 18 Uhr bis Donnerstag, 1. Januar 2026, 6 Uhr",
+            "Erlaubt ist lediglich das Mitführen und Verwenden von pyrotechnischen Gegenständen der Kategorie F1."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "Private fireworks are allowed in Germany only on 31 December and 1 January",
+          "the Admiralbrücke and adjoining streets in Kreuzberg",
+          "from 6pm to 6am"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "de.berlin.nye.2025-weapons-ban",
+      "topic": "place",
+      "claim": "For 31 December 2025 police also declared a weapons and knife ban zone around the Brandenburg Gate party that included the Großer Tiergarten, parts of the Hansaviertel and the government quarter.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.berlin.de/polizei/polizeimeldungen/2025/pressemitteilung.1628885.php",
+          "kind": "official",
+          "title": "Polizei Berlin, 23 December 2025",
+          "evidence": [
+            "Die Verbotszone schließt den Großen Tiergarten, Teile des Hansaviertels und das Parlaments- und Regierungsviertel ein."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "covering the Großer Tiergarten, parts of the Hansaviertel and the government quarter"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "de.berlin.nye.2025-transit",
+      "topic": "transport",
+      "claim": "On 31 December 2025 the U-Bahn ran all night (every 5 minutes until about 5pm, then every 10), the U5 ran only Alexanderplatz-Hönow from 10pm to about 12:30am, trams did not cross Alexanderplatz from about 4:30pm to 2am, the S41/S42 ran every 10 minutes all night and other S-Bahn lines every 20, with the Sunday timetable from about 9am on 1 January.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.bvg.de/de/unternehmen/ueber-uns/news-und-stories/sicherheit-silvesternacht",
+          "kind": "operator",
+          "title": "BVG: Mit Verantwortung durch die Silvesternacht (30 December 2025)",
+          "evidence": [
+            "Die U-Bahn fährt die gesamte Nacht.",
+            "Ab 22 Uhr bis etwa 0.30 Uhr ist die U5 ausschließlich zwischen Alexanderplatz und Hönow unterwegs.",
+            "Aus Sicherheitsgründen fahren Straßenbahnen zwischen etwa 16.30 Uhr und 2 Uhr nicht über den Alexanderplatz."
+          ]
+        },
+        {
+          "url": "https://www.berlin.de/en/news/10106842-5559700-feiern-fahrplaene-verbote-das-gilt-in-be.en.html",
+          "kind": "official",
+          "title": "berlin.de: New Year's Eve timetables (30 December 2025)",
+          "evidence": [
+            "The S41 and S42 circle lines will run every 10 minutes throughout the night.",
+            "On 1 January, all S-Bahn trains will run according to the Sunday timetable from around 9 a.m."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "Last year the U-Bahn ran all night",
+          "trams did not cross Alexanderplatz from about 4:30pm to 2am",
+          "trains followed the Sunday timetable from around 9am",
+          "every 10 minutes after that"
+        ]
+      },
+      "recheck_days": 7
+    },
+    {
+      "id": "de.berlin.circus-hotel-closed",
+      "topic": "hotel",
+      "claim": "The Circus Hotel on Rosenthaler Platz closed on 1 November 2026; The Circus Hostel and Apartments remain open (its own site).",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.circus-berlin.de/hotel/",
+          "kind": "operator",
+          "title": "The Circus Hotel: closure notice",
+          "evidence": [
+            "As of the 1st of November 2026, The Circus Hotel on Rosenthaler Platz has closed its doors."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "The Circus Hotel on Rosenthaler Platz closed on 1 November 2026, according to its own site"
+        ]
+      },
+      "recheck_days": 30
+    },
+    {
+      "id": "de.berlin.nye.city-tax-example",
+      "topic": "price",
+      "claim": "Worked example (our arithmetic): a €220 room including 7% VAT is €205.61 net; 7.5% City Tax = €15.42 a night; two nights €30.84.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://service.berlin.de/dienstleistung/326105/",
+          "kind": "official",
+          "title": "Berlin service portal: Übernachtungsteuer",
+          "evidence": [
+            "Die Höhe der Übernachtungsteuer beträgt 7,5 % des Nettoentgelts für die Übernachtung"
+          ]
+        },
+        {
+          "url": "https://www.gesetze-im-internet.de/ustg_1980/__12.html",
+          "kind": "official",
+          "title": "Umsatzsteuergesetz §12",
+          "evidence": [
+            "Die Steuer ermäßigt sich auf sieben Prozent für die folgenden Umsätze"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "costs €205.61 before VAT, so the City Tax is €15.42 a night, and two nights add €30.84"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.adlon",
+      "topic": "hotel",
+      "claim": "Operating five-star hotel facing the Brandenburg Gate with 385 rooms and suites; four New Year's Eve packages of two nights with breakfast, requiring full prepayment by 2 December, non-refundable after 2 December 2026.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.kempinski.com/en/hotel-adlon",
+          "kind": "operator",
+          "title": "Hotel Adlon Kempinski Berlin",
+          "evidence": [
+            "With a total of 385 elegant rooms and suites, two top-tier restaurants"
+          ]
+        },
+        {
+          "url": "https://www.kempinski.com/en/hotel-adlon/overview/offers/new-years-eve",
+          "kind": "operator",
+          "title": "Hotel Adlon Kempinski Berlin (second page)",
+          "evidence": [
+            "Two nights including breakfast",
+            "your New Year’s Eve reservation will only take effect after full prepayment, which must be made by 2 December",
+            "this prepayment is non-refundable after 2 December 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "with 385 rooms and suites",
+          "it sells four packages",
+          "only after full prepayment by 2 December and is non-refundable after that date"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.albrechtshof",
+      "topic": "hotel",
+      "claim": "Operating hotel in Mitte (martas Hotel Albrechtshof, Albrechtstraße) with 99 rooms, a courtyard garden and a restaurant; no New Year's Eve terms published.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.hotel-albrechtshof.de/en/",
+          "kind": "operator",
+          "title": "martas Hotel Albrechtshof",
+          "evidence": [
+            "The hotel has 99 comfortably furnished rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "with 99 rooms, a courtyard garden and a restaurant"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.motel-one-alexanderplatz",
+      "topic": "hotel",
+      "claim": "Operating Motel One at Grunerstraße 11 with 16 m² The One rooms; note the Booking.com slug motel-one-berlin-alexanderplatz-berlin is this hotel, while motel-one-berlin-alexanderplatz is Hackescher Markt.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.motel-one.com/en/hotels/berlin/hotel-berlin-alexanderplatz/",
+          "kind": "operator",
+          "title": "Motel One Berlin-Alexanderplatz",
+          "evidence": [
+            "Grunerstraße 11, 10179 Berlin",
+            "Room size 16 m²"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "At Grunerstraße 11",
+          "The One rooms of 16 m²"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.hotel-berlin-berlin",
+      "topic": "hotel",
+      "claim": "Operating hotel at Lützowplatz 17 describing spacious, quiet rooms and suites; no New Year's Eve terms published.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.hotel-berlin.de/en/",
+          "kind": "operator",
+          "title": "Hotel Berlin, Berlin",
+          "evidence": [
+            "Lützowplatz 17, 10785 Berlin, Germany",
+            "our spacious, quiet rooms and suites are your place to land"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "On Lützowplatz 17"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.meininger-central-station",
+      "topic": "hotel",
+      "claim": "Operating hotel by the Hauptbahnhof with 296 rooms and 820 beds, 24-hour reception, cashless, City Tax shown as included.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.meininger-hotels.com/en/hotels/berlin/hotel-berlin-central-station/",
+          "kind": "operator",
+          "title": "MEININGER Hotel Berlin Central Station",
+          "evidence": [
+            "Rooms 296 rooms & 820 beds",
+            "24-hour reception",
+            "City Tax ( Incl. ) 7.5 %"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "with 296 rooms and 820 beds over nine floors",
+          "Its page marks the 7.5% City Tax as included"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.bristol",
+      "topic": "hotel",
+      "claim": "Operating hotel at Kurfürstendamm 27; advertises a New Year's Eve gala dinner (31 December from 19:00, €169) and a pool and sauna renovation closure from September to December (no year stated).",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.bristolberlin.com/",
+          "kind": "operator",
+          "title": "Bristol Berlin",
+          "evidence": [
+            "nur wenige Gehminuten vom KaDeWe und dem Zoo Berlin entfernt",
+            "werden unser Pool- und Saunabereich voraussichtlich von September bis Dezember vorübergehend geschlossen sein"
+          ]
+        },
+        {
+          "url": "https://www.bristolberlin.com/wp-content/uploads/2026/10/ABerlinWinterStory.pdf",
+          "kind": "operator",
+          "title": "Bristol Berlin (second page)",
+          "evidence": [
+            "A BERLIN WINTER STORY"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "a few minutes' walk from KaDeWe and Zoo Berlin",
+          "the pool and sauna are expected to be closed temporarily from September to December"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.hotel-q",
+      "topic": "hotel",
+      "claim": "Operating design hotel at Knesebeckstraße 67 with Economy 16 m², Standard 20 m², Studio 40 m² and Penthouse 60 m² rooms.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.hotel-q.com/",
+          "kind": "operator",
+          "title": "Hotel Q!",
+          "evidence": [
+            "Standard 20 QM | KINGSIZE BETT",
+            "Penthouse 60 QM | KINGSIZE BETT",
+            "Hotel Q! Knesebeckstr. 67"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "Economy rooms of 16 m², Standard rooms of 20 m²"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.oderberger",
+      "topic": "hotel",
+      "claim": "Operating boutique hotel in the former Stadtbad Oderberger (built 1902) with 70 rooms, 5 tower suites and 2 apartments.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.hotel-oderberger.berlin/en/",
+          "kind": "operator",
+          "title": "Hotel Oderberger",
+          "evidence": [
+            "70 rooms, 5 tower suites and 2 apartments",
+            "Open daily from 5 pm",
+            "Built in 1902"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "of 70 rooms, five tower suites and two apartments",
+          "a public bathhouse built in 1902"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.eastseven",
+      "topic": "hotel",
+      "claim": "Operating hostel in Prenzlauer Berg between Kastanienallee and Senefelderplatz with free muesli breakfast, kitchen, garden and check-in until 10pm.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.eastseven.de/en/",
+          "kind": "operator",
+          "title": "EastSeven Berlin Hostel",
+          "evidence": [
+            "Free muesli breakfast Fully Equipped Kitchen Beautiful Garden Area",
+            "Check-in until 10 PM"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "a free muesli breakfast, a fully equipped kitchen and a garden",
+          "check-in is until 10pm"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.nhow",
+      "topic": "hotel",
+      "claim": "Operating design hotel at Stralauer Allee 3 on the Spree with 304 rooms, 300 metres from Warschauer Straße S-Bahn.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.nh-hotels.com/en/hotel/nhow-berlin",
+          "kind": "operator",
+          "title": "nhow Berlin",
+          "evidence": [
+            "Stralauer Allee, 3, 10245 Berlin",
+            "300 meters to the Warschauer Straße S-Bahn",
+            "The hotel's 304 rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "with 304 rooms designed by Karim Rashid"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.orania",
+      "topic": "hotel",
+      "claim": "Operating boutique hotel at Oranienstraße 40 with 41 rooms and suites and live concerts five days a week; Orania.17 is 17 sqm with a courtyard view.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://orania.berlin/",
+          "kind": "operator",
+          "title": "Orania.Berlin",
+          "evidence": [
+            "Oranienstrasse 40",
+            "live concerts take place five days a week"
+          ]
+        },
+        {
+          "url": "https://orania.berlin/roomsandsuites",
+          "kind": "operator",
+          "title": "Orania.Berlin (second page)",
+          "evidence": [
+            "all of our 41 rooms and suites",
+            "Orania.17 17 sqm, bedsize 150x210 cm, courtyard view, extremely calm"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "with 41 rooms and suites, live concerts five days a week"
+        ]
+      }
+    },
+    {
+      "id": "de.berlin.nye.hotel.ao-friedrichshain",
+      "topic": "hotel",
+      "claim": "Operating a&o hostel/hotel at Boxhagener Str. 73 with a 24-hour reception and snack bar; public transport 50 m.",
+      "checked": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.aohostels.com/en/berlin/berlin-friedrichshain/",
+          "kind": "operator",
+          "title": "a&o Berlin Friedrichshain",
+          "evidence": [
+            "Boxhagener Str. 73",
+            "a 24-hour reception and a snack bar",
+            "Public transport 50 m"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-berlin-new-years-eve.html": [
+          "At Boxhagener Straße 73",
+          "a 24-hour reception and a snack bar"
         ]
       }
     }

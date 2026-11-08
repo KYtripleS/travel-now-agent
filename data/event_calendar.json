@@ -484,6 +484,38 @@
       "name": "Las Vegas New Year's Eve",
       "place": "Las Vegas, US",
       "when": "31 December; the 2026 Strip plan was not yet published"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-berlin-new-years-eve",
+      "name": "Berlin New Year's Eve",
+      "place": "Berlin, Germany",
+      "when": "31 December; the 2026 plan was not yet published"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-reykjavik-new-years-eve",
+      "name": "Reykjavik New Year's Eve",
+      "place": "Reykjavik, Iceland",
+      "when": "31 December; the 2026 plan was not yet published"
+    },
+    {
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "slug": "where-to-stay-in-amsterdam-new-years-eve",
+      "name": "Amsterdam New Year's Eve",
+      "place": "Amsterdam, Netherlands",
+      "when": "31 December; city fireworks shows on Museumplein and elsewhere, under the new national consumer ban"
+    },
+    {
+      "start": "2026-11-14",
+      "end": "2027-01-03",
+      "slug": "where-to-stay-in-edinburgh-christmas",
+      "name": "Edinburgh's Christmas",
+      "place": "Edinburgh, UK",
+      "when": "14 November to 3 January: the market, the Big Wheel and the Starflyer"
     }
   ],
   "seasons": [
