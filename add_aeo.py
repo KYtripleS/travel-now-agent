@@ -2552,25 +2552,192 @@ def add_flight_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     return 1 if _insert_lower(article, box) else 0
 
 
+def _px(pid: int) -> str:
+    return f"https://images.pexels.com/photos/{pid}/pexels-photo-{pid}.jpeg"
+
+
+@lru_cache(maxsize=None)
+def _tripcom_city_links() -> dict:
+    """City -> Travelpayouts short link to that city's Trip.com hotel list (data/tripcom_cities.json,
+    links created by ops/tp_deeplinks.create and cached in data/tp_deeplinks.json)."""
+    ids = json.loads((REPO / "data" / "tripcom_cities.json").read_text())["cities"]
+    cache = json.loads((REPO / "data" / "tp_deeplinks.json").read_text())
+    return {c: cache[u] for c, i in ids.items() if (u := f"https://www.trip.com/hotels/list?city={i}") in cache}
+
+
+def _first_photo(article: Tag) -> str:
+    img = article.select_one("figure img")
+    return img.get("src", "") if img else ""
+
+
+def _sbtn(soup: BeautifulSoup, href: str, img: str, kicker: str, title: str, desc: str = "",
+          partner: bool = False) -> Tag:
+    """One photo button: photo + a few words, the whole thing a link. Partner buttons say so and
+    carry the affiliate rel; the photo shows the place, never the product."""
+    from build_library import sized
+    a = soup.new_tag("a", attrs={"class": "gy-sbtn" + (" gy-sbtn--partner" if partner else ""), "href": href})
+    if partner:
+        a["rel"] = REL
+        a["target"] = "_blank"
+    if img:
+        a.append(soup.new_tag("img", attrs={"src": sized(img, 320), "alt": "", "width": "320", "height": "213",
+                                            "loading": "lazy", "decoding": "async", "data-pin-nopin": "true"}))
+    body = soup.new_tag("span", attrs={"class": "gy-sbtn-body"})
+    for cls, text in (("gy-sbtn-kicker", kicker), ("gy-sbtn-title", title), ("gy-sbtn-desc", desc)):
+        if text:
+            s = soup.new_tag("span", attrs={"class": cls})
+            s.string = text
+            body.append(s)
+    a.append(body)
+    return a
+
+
 def add_hotel_compare(soup: BeautifulSoup, slug: str, article: Tag) -> int:
-    """Under a stay guide's hotel map: Trip.com's hotel search, so a reader can check the same
-    hotel and dates on a second site."""
+    """Under a stay guide's hotel map: a photo button to the same city's hotel list on Trip.com, so a
+    reader can check a hotel and dates on a second site. Replaced the embedded Trip.com search form on
+    2026-11-10: in the reading column it showed an empty band and cut-off fields."""
     if slug not in stay22.PAGES:
         return 0
     m = article.select_one("aside.gy-stay-map")
-    if m is None:
+    city = _stay_city(slug)
+    href = _tripcom_city_links().get(city) or _tripcom_city_links().get((page_dest(slug) or [""])[0])
+    if m is None or not href:
         return 0
-    box = soup.new_tag("aside", attrs={"class": "gy-cta gy-hotel-compare", "data-aeo": "1"})
-    h = soup.new_tag("p", attrs={"class": "gy-cta-h"})
-    h.string = "Compare the same hotel on Trip.com"
-    blurb = soup.new_tag("p", attrs={"class": "gy-widget-blurb"})
-    blurb.string = ("Type a hotel from this guide and your dates: prices for the same room can differ "
-                    "between booking sites.")
-    note = soup.new_tag("p", attrs={"class": "gy-widget-note"})
-    note.string = "A Trip.com search form from our partner Travelpayouts: we may earn a commission if you book."
-    box.extend([h, blurb, _trip_widget(soup, "hotels", _stay_city(slug), slug), note])
+    box = soup.new_tag("div", attrs={"class": "gy-sbtns gy-sbtns--one", "data-aeo": "1"})
+    box.append(_sbtn(soup, href, _first_photo(article), "Partner link · Trip.com",
+                     f"Compare {city} hotel prices on Trip.com",
+                     "The same hotels on a second site: check your dates on both.", partner=True))
     m.insert_after(box)
     return 1
+
+
+# Photo buttons through the article (operator, 2026-11-10: "no screen without one"). After roughly a
+# phone screen and a half of text with no photo, box or button, a pair goes in: one partner action
+# already on the page (as a photo button) and one guide or tool on the site.
+SBTN_AT_H2, SBTN_ANYWHERE = 700, 1300           # characters of plain text since the last visual
+SBTN_HISTORY = re.compile(r"histor|war\b|colonial|massacre|genocide|memorial|indigenous|bomb", re.I)
+SBTN_STOP = re.compile(r"frequently asked|^sources|references|keep reading|related reading|liked this guide", re.I)
+SBTN_VISUAL = ("figure", "aside", "nav", "details", "iframe")
+SBTN_PHOTO = {"esim": _px(3243090), "flight": _px(6544058), "transfer": _px(16108892)}
+SBTN_KIND = [  # (host pattern, kind, brand)
+    (r"airalo\.", "esim", "Airalo"), (r"saily\.", "esim", "Saily"), (r"holafly", "esim", "Holafly"),
+    (r"viator\.", "tours", "Viator"), (r"klook\.", "tours", "Klook"), (r"getyourguide", "tours", "GetYourGuide"),
+    (r"kkday\.", "tours", "KKday"), (r"tiqets\.", "tours", "Tiqets"), (r"wegotrip\.", "tours", "WeGoTrip"),
+    (r"gocity\.", "tours", "Go City"), (r"hostelworld\.", "stay", "Hostelworld"),
+    (r"stay22\.com/allez/roam", "map", "Booking.com"), (r"trip\.tpx\.lu|kiwi\.tpx", "flight", ""),
+    (r"^https://tpx\.lu/|kiwitaxi|welcomepickups", "transfer", "Welcome Pickups"),
+    (r"omio\.", "rail", "Omio"), (r"discovercars", "car", "DiscoverCars"), (r"ekta", "insurance", "EKTA"),
+]
+SBTN_TOOLS = [("tools/esim-finder.html", _px(3760118), "Tool", "Which eSIM, and how much data"),
+              ("tools/stay-finder.html", _px(34118720), "Tool", "Find the right area for your budget"),
+              ("checklist-generator.html", _px(7368219), "Tool", "Build a packing list for this trip")]
+
+
+def _sbtn_partner_pool(article: Tag, city: str) -> list[tuple]:
+    """Partner links already on the page, one per brand, as (href, kind, brand, title)."""
+    pool, seen = [], set()
+    for a in article.select('a[rel~="sponsored"][href]'):
+        if a.find_parent(class_=["gy-sbtns", "gy-verdict-cta"]) or a.find_parent("table"):
+            continue
+        href = a["href"]
+        kind = next(((k, b) for pat, k, b in SBTN_KIND if re.search(pat, href)), None)
+        if kind is None or href in seen or kind[0] == "stay" and "booking" in href:
+            continue
+        kind, brand = kind
+        if (kind, brand) in seen:
+            continue
+        text = a.get_text(" ", strip=True).rstrip("→ ").strip()
+        if kind == "map":
+            if len(text.split()) > 4:
+                continue
+            title = f"Hotels around {text}, on a map"
+        elif re.match(r"^(US)?\$|^[0-9]", text) or len(text.split()) < 3:
+            title = {"esim": f"See {brand}'s eSIM plans", "tours": f"Tours and tickets in {city} on {brand}"
+                     if city else f"Tours and tickets on {brand}"}.get(kind, "")
+            if not title:
+                continue
+        else:
+            title = text
+        seen.update({href, (kind, brand)})
+        pool.append((href, kind, brand or re.sub(r".* on ", "", text), title))
+    return pool
+
+
+def add_photo_buttons(soup: BeautifulSoup, rel: str, slug: str, article: Tag) -> int:
+    if not rel.startswith("articles/"):
+        return 0
+    from add_internal_links import LINKS, ARTICLES, FOLDED, photo_for, rel_link
+    dest = page_dest(slug)
+    city = _stay_city(slug) if slug in stay22.PAGES else (dest[0].replace(" NSW", "") if dest else "")
+    partner = _sbtn_partner_pool(article, city)
+    photos = [i.get("src", "") for i in article.select("figure img")][1:] or [_first_photo(article)]
+    internal = []
+    for target in LINKS.get(rel, []):
+        target = FOLDED.get(target, target)
+        if target == rel or target not in ARTICLES:
+            continue
+        img = photo_for(target)
+        internal.append((rel_link(rel, target), img if not img or img.startswith("http") else rel_link(rel, img),
+                         "Read next", ARTICLES[target][0]))
+    # then the site's other guides to the same city, and the tools
+    key = re.sub(r"[^a-z]+", "-", city.lower()).strip("-")
+    done = {h for h, *_ in internal}
+    for target, (title, _) in ARTICLES.items():
+        href = rel_link(rel, target)
+        if key and key in target and target != rel and target not in FOLDED and href not in done:
+            img = photo_for(target)
+            internal.append((href, img if not img or img.startswith("http") else rel_link(rel, img),
+                             "Read next", title))
+    internal += [(rel_link(rel, h), img, k, d) for h, img, k, d in SBTN_TOOLS
+                 if not (h.startswith("tools/stay") and slug not in stay22.PAGES)]
+    n, run, heading, started = 0, 0, "", False
+
+    def pair() -> Tag | None:
+        nonlocal n
+        cards = []
+        if partner and not SBTN_HISTORY.search(heading):
+            href, kind, brand, title = partner.pop(0)
+            img = SBTN_PHOTO.get(kind) or photos[n % len(photos)]
+            cards.append(_sbtn(soup, href, img, f"Partner link · {brand}" if brand else "Partner link", title,
+                               partner=True))
+        if internal:
+            href, img, kicker, title = internal.pop(0)
+            cards.append(_sbtn(soup, href, img, kicker, title))
+        if not cards:
+            return None
+        box = soup.new_tag("div", attrs={"class": "gy-sbtns" + (" gy-sbtns--one" if len(cards) == 1 else ""),
+                                         "data-aeo": "1"})
+        box.extend(cards)
+        n += 1
+        return box
+
+    for el in list(article.children):
+        if not isinstance(el, Tag):
+            continue
+        cls = el.get("class") or []
+        if el.name == "section" or "newsletter-cta" in cls or "faq" in cls:
+            break
+        if el.name in ("style", "script", "template"):
+            continue
+        if el.name == "h2":
+            heading = el.get_text(" ", strip=True)
+            if SBTN_STOP.search(heading):
+                break
+            if started and run >= SBTN_AT_H2 and (box := pair()) is not None:
+                el.insert_before(box)
+                run = 0
+            started = True
+            continue
+        if not started:
+            continue
+        if el.name in SBTN_VISUAL or el.select_one(".gy-rates, .gy-sbtns, .gy-tripwidget, .gy-pcard, img"):
+            run = 0
+            continue
+        run += len(el.get_text(" ", strip=True))
+        if run >= SBTN_ANYWHERE and el.name in ("p", "div", "ul", "ol") and (box := pair()) is not None:
+            el.insert_after(box)
+            run = 0
+    return n
 
 
 def add_aviasales_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
@@ -3528,6 +3695,7 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
             out["picker"] = add_picker(soup, slug, article)
         if slug in STAY_POINTERS:
             out["pointer"] = add_stay_pointer(soup, slug, article)
+        out["photo_buttons"] = add_photo_buttons(soup, rel, slug, article)
     add_social_meta.apply(soup)
     return out
 

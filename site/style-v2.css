@@ -5483,3 +5483,39 @@ body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame
 .gy-aff-bar a { min-width: 0; overflow: hidden; text-overflow: ellipsis; }   /* long "See hotels around ..." on a phone */
 @media (max-width: 420px) { .gy-aff-bar-tag { max-width: 50px; white-space: normal; line-height: 1.15; }
   .gy-aff-bar a { padding: 10px 14px; font-size: .9rem; } }
+
+/* Photo buttons through articles (add_aeo.add_photo_buttons / add_hotel_compare, 2026-11-10): after about a
+   phone screen of text, a pair of photo buttons, one partner action and one guide. Partner buttons carry the
+   blue of section 14 and say "Partner link"; the photo shows the place, never the product. */
+.article .gy-sbtns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 26px 0 30px; }
+.article .gy-sbtns--one { grid-template-columns: minmax(0, 1fr); }
+.article .gy-sbtn { display: grid; grid-template-columns: 112px minmax(0, 1fr); align-items: stretch; min-height: 96px;
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--pcard-radius); overflow: hidden;
+  text-decoration: none; color: var(--ink); transition: transform .16s ease, box-shadow .16s ease, border-color .16s; }
+.article .gy-sbtn img { display: block; width: 100%; height: 100%; min-height: 96px; max-width: none; margin: 0;
+  object-fit: cover; border-radius: 0; background: var(--rule); }
+.article .gy-sbtn-body { display: flex; flex-direction: column; justify-content: center; gap: 4px; padding: 10px 14px 12px; }
+.article .gy-sbtn-kicker { font: 700 .64rem/1.2 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--gold-ink); }
+.article .gy-sbtn-title { font-family: var(--serif); font-weight: 600; font-size: 1.04rem; line-height: 1.25; color: var(--ink); }
+.article .gy-sbtn-title::after { content: "\2009\2192"; color: var(--gold-ink); }
+.article .gy-sbtn-desc { font: .82rem/1.4 var(--sans); color: var(--muted); }
+.article .gy-sbtn:hover, .article .gy-sbtn:focus-visible { transform: translateY(-2px); border-color: var(--gold);
+  box-shadow: 0 10px 22px -16px rgba(23, 32, 51, .55); outline: none; }
+.article .gy-sbtn:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.article .gy-sbtn--partner { border-color: #c9d8f2; }
+.article .gy-sbtn--partner .gy-sbtn-kicker { color: var(--cta); }
+.article .gy-sbtn--partner .gy-sbtn-title::after { content: "\2009\2197"; color: var(--cta); }
+.article .gy-sbtn--partner:hover, .article .gy-sbtn--partner:focus-visible { border-color: var(--cta);
+  box-shadow: 0 10px 22px -14px rgba(11, 99, 214, .5); }
+.article .gy-sbtns--one .gy-sbtn { grid-template-columns: 180px minmax(0, 1fr); min-height: 120px; }
+.article .gy-sbtns--one .gy-sbtn-title { font-size: 1.18rem; }
+@media (max-width: 699px) {
+  .article .gy-sbtns { gap: 10px; margin: 22px 0 26px; }
+  .article .gy-sbtns:not(.gy-sbtns--one) .gy-sbtn { grid-template-columns: none; grid-template-rows: auto 1fr; }
+  .article .gy-sbtns:not(.gy-sbtns--one) .gy-sbtn img { height: auto; min-height: 0; aspect-ratio: 3 / 2; }
+  .article .gy-sbtn-body { padding: 9px 11px 11px; }
+  .article .gy-sbtn-title { font-size: .95rem; }
+  .article .gy-sbtns--one .gy-sbtn { grid-template-columns: 116px minmax(0, 1fr); min-height: 104px; }
+  .article .gy-sbtns--one .gy-sbtn-title { font-size: 1.02rem; }
+}
+@media (prefers-reduced-motion: reduce) { .article .gy-sbtn { transition: none; } .article .gy-sbtn:hover { transform: none; } }

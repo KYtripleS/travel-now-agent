@@ -134,6 +134,7 @@ window.gySaveTrip = function (box, dep) {
        * the answer-first layout (add_aeo.py) converts better than the old
        * end-of-article links. */
       var placement = a.closest('.gy-verdict') ? 'verdict'
+        : a.closest('.gy-sbtn') ? 'photobtn'
         : a.closest('.gy-esim-plans') ? 'plans'
         : a.closest('table') ? 'table'
         : a.closest('.gy-section-link') ? 'section'
