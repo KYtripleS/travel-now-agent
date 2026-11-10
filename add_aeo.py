@@ -48,6 +48,7 @@ import re
 import sys
 import subprocess
 import unicodedata
+import urllib.parse
 from datetime import date
 from functools import lru_cache
 from pathlib import Path
@@ -2589,6 +2590,167 @@ def _sbtn(soup: BeautifulSoup, href: str, img: str, kicker: str, title: str, des
     return a
 
 
+# --- Travelpayouts widgets (2026-11-10) ------------------------------------------------
+# Partner widgets from the Travelpayouts dashboard (Tools > Widgets), each checked by loading it:
+# Viator popular tours (photo cards), GetYourGuide's city card, 12Go's city fares card, Omio's
+# rail and bus search, DiscoverCars, Ticketmaster events, Airalo's eSIM search, AirHelp's
+# compensation check and VisitorsCoverage's insurance quote. The page carries an empty frame;
+# gy-reveal.js loads the widget script when it nears the screen. Place ids come from
+# ops/tp_widget_places.py (data/tp_widget_places.json).
+TPW = {  # kind: (campaign, promo, brand, fixed query)
+    "viator": (47, 5850, "Viator", "currency=usd&locale=en&lowest_price=&highest_price=&min_lines=5&color_button=%230B63D6"),
+    "gyg": (108, 4040, "GetYourGuide", "locale=en-US"),
+    "twelvego_city": (44, 8995, "12Go", "locale=en&currency=USD"),
+    "twelvego": (44, 1506, "12Go", "locale=en"),
+    "omio": (91, 4770, "Omio", "locale=en&currency=EUR"),
+    "discovercars": (117, 3873, "DiscoverCars", "locale=en&currency=USD"),
+    "ticketmaster": (183, 5431, "Ticketmaster", "locale=en&min_lines=2&responsive=true"),
+    "airalo": (541, 8588, "Airalo", "locale=en"),
+    "airhelp": (120, 8679, "AirHelp", "locale=en"),
+    "visitorscoverage": (153, 4652, "VisitorsCoverage", ""),
+}
+TPW_SUB = {"viator": "vi", "gyg": "gy", "twelvego_city": "12c", "twelvego": "12f", "omio": "om", "discovercars": "dc",
+           "ticketmaster": "tm", "airalo": "al", "airhelp": "ah", "visitorscoverage": "vc"}
+TPW_TOURS_H = re.compile(r"things to do|\btours?\b|day trips?|what to (do|see)|sights|experiences|activities|"
+                         r"itinerary|\bday \d|neighbourhoods?|areas? to explore", re.I)
+TPW_EVENT = re.compile(r"new-years-eve|christmas|festival|grand-prix|marathon|oktoberfest|coachella|glastonbury")
+TPW_ESIM = re.compile(r"esim|sim-card|roaming|pocket-wifi")
+TPW_INSURANCE = re.compile(r"insurance")
+TPW_FLIGHT = re.compile(r"flight|airport|layover")
+TPW_RAIL_EU = re.compile(r"europe-rail|train-vs-flight-in-europe")
+TPW_CAR = re.compile(r"car-hire|rental-car|road-trip|self-drive")
+TPW_MAX = 3
+
+
+@lru_cache(maxsize=1)
+def _tpw_places() -> dict:
+    p = REPO / "data" / "tp_widget_places.json"
+    return json.loads(p.read_text())["cities"] if p.exists() else {}
+
+
+def _tpw(soup: BeautifulSoup, kind: str, slug: str, heading: str, q: str = "", blurb: str = "") -> Tag:
+    camp, promo, brand, fixed = TPW[kind]
+    query = "&".join(x for x in (fixed, q, "powered_by=true", f"campaign_id={camp}", f"promo_id={promo}") if x)
+    # sub id kept short: AirHelp's widget fails to load with a long marker (2026-11-10)
+    sub = re.sub(r"[^A-Za-z0-9]+", "_", slug.replace("where-to-stay-in-", "wts-"))[:22].strip("_") + "_" + TPW_SUB[kind]
+    box = soup.new_tag("aside", attrs={"class": "gy-tpw", "data-aeo": "1", "data-w": kind, "data-q": query,
+                                       "data-sub": sub})
+    h = soup.new_tag("p", attrs={"class": "gy-tpw-h"})
+    h.string = heading
+    k = soup.new_tag("p", attrs={"class": "gy-tpw-k"})
+    k.string = f"Partner widget · {brand}" + (f" · {blurb}" if blurb else "")
+    frame = soup.new_tag("div", attrs={"class": "gy-tpw-frame"})
+    note = soup.new_tag("p", attrs={"class": "gy-widget-note"})
+    note.string = f"Shown by {brand} through our partner Travelpayouts. We may earn a commission, at no extra cost to you."
+    box.extend([h, k, frame, note])
+    return box
+
+
+def _tpw_h2s(article: Tag) -> list[Tag]:
+    """Content h2s above the FAQ / sources, outside history sections."""
+    out = []
+    for h in article.find_all("h2", recursive=False):
+        t = h.get_text(" ", strip=True)
+        if SBTN_STOP.search(t):
+            break
+        out.append(h)
+    return out
+
+
+def _tpw_before(h: Tag | None, box: Tag) -> bool:
+    if h is None:
+        return False
+    prev = h.previous_sibling
+    while isinstance(prev, NavigableString) and not prev.strip():
+        prev = prev.previous_sibling
+    if isinstance(prev, Tag) and "gy-tpw" in (prev.get("class") or []):
+        return False                                 # never two widgets back to back
+    h.insert_before(box)
+    return True
+
+
+def _tpw_after_section(h2s: list[Tag], pat: re.Pattern, box: Tag, skip_first: bool = False) -> bool:
+    """In front of the h2 that follows the first heading matching pat."""
+    for i, h in enumerate(h2s):
+        if (skip_first and i == 0) or not pat.search(h.get_text(" ", strip=True)) or SBTN_HISTORY.search(h.get_text(" ", strip=True)):
+            continue
+        if i + 1 < len(h2s):
+            return _tpw_before(h2s[i + 1], box)
+    return False
+
+
+def _tpw_at(h2s: list[Tag], frac: float, box: Tag) -> bool:
+    """In front of the h2 about frac of the way down, skipping history sections."""
+    if len(h2s) < 3:
+        return len(h2s) == 2 and _tpw_before(h2s[1], box)
+    i = max(1, min(len(h2s) - 1, round(len(h2s) * frac)))
+    for j in list(range(i, len(h2s))) + list(range(i - 1, 0, -1)):
+        if not SBTN_HISTORY.search(h2s[j - 1].get_text(" ", strip=True)) and _tpw_before(h2s[j], box):
+            return True
+    return False
+
+
+def add_tp_widgets(soup: BeautifulSoup, slug: str, article: Tag) -> int:
+    h2s = _tpw_h2s(article)
+    n = 0
+    put = lambda ok: 1 if ok else 0
+    dest = page_dest(slug)
+    if dest and dest[0] != "Europe":
+        city = dest[0].replace(" NSW", "")
+        P = _tpw_places().get(city, {})
+        stay = slug in stay22.PAGES
+        if P.get("tm_country") and TPW_EVENT.search(slug):
+            name = city if city != "Washington, DC" else "Washington"
+            today = date.today()                 # the event's own dates, not today's listings
+            start = (f"&start_date={today.year}-12-31" if "new-years-eve" in slug else
+                     f"&start_date={today.year}-12-01" if "christmas" in slug and today < date(today.year, 12, 1) else "")
+            n += put(_tpw_after_section(h2s, re.compile("."), _tpw(
+                soup, "ticketmaster", slug, f"Tickets for events in {city}" + (" on New Year's Eve" if "new-years-eve" in slug else ""),
+                f"country={P['tm_country']}&city={urllib.parse.quote(name)}{start}", "concerts, shows and sport")))
+        if P.get("gyg_iata") and not stay:
+            n += put(_tpw_after_section(h2s, re.compile("."), _tpw(
+                soup, "gyg", slug, f"Things to do in {city}", f"iata={P['gyg_iata']}")))
+        if P.get("viator"):
+            box = _tpw(soup, "viator", slug, f"Popular tours in {city}", f"destination={P['viator']}",
+                       "rated by travellers")
+            ok = (_insert_lower(article, box) if stay else
+                  _tpw_after_section(h2s, TPW_TOURS_H, box, skip_first=True) or _tpw_at(h2s, 0.6, box))
+            n += put(ok)
+        L = trip_kit_links()
+        if n < TPW_MAX and P.get("twelvego"):
+            n += put(_tpw_after_section(h2s, KIT_AFTER, _tpw(
+                soup, "twelvego_city", slug, f"Buses, trains and ferries from {city}", f"city={urllib.parse.quote(city)}",
+                "fares from 12Go")) or _insert_lower(article, _tpw(
+                soup, "twelvego_city", slug, f"Buses, trains and ferries from {city}", f"city={urllib.parse.quote(city)}",
+                "fares from 12Go")))
+        elif n < TPW_MAX and P.get("omio"):
+            mk = lambda: _tpw(soup, "omio", slug, f"Trains and buses to {city}", f"arrival={P['omio']}",
+                              "rail, coach and flights")
+            n += put(_tpw_after_section(h2s, KIT_AFTER, mk()) or (not stay and _tpw_at(h2s, 0.75, mk()))
+                     or (stay and _insert_lower(article, mk())))
+        if n < TPW_MAX and city in L.get("discovercars", {}) and not stay:
+            n += put(_tpw_after_section(h2s, KIT_AFTER, _tpw(
+                soup, "discovercars", slug, f"Car hire around {city}", "", "compares the big rental firms")))
+        return n
+    at = lambda f, box: _tpw_at(h2s, f, box) or _insert_lower(article, box)
+    if TPW_ESIM.search(slug):
+        n += put(at(0.34, _tpw(soup, "airalo", slug, "Find an eSIM for your destination", "",
+                                         "type a country or region")))
+    elif TPW_INSURANCE.search(slug):
+        n += put(at(0.5, _tpw(soup, "visitorscoverage", slug, "Get a travel medical insurance quote", "",
+                                        "best suited to US residents and visitors to the US")))
+    elif TPW_FLIGHT.search(slug):
+        n += put(at(0.6, _tpw(soup, "airhelp", slug, "Flight delayed or cancelled? Check what you are owed",
+                                        "", "free check, fee only if they win")))
+    if TPW_RAIL_EU.search(slug):
+        n += put(_tpw_at(h2s, 0.4, _tpw(soup, "omio", slug, "Search trains and buses across Europe", "",
+                                        "rail, coach and flights")))
+    if TPW_CAR.search(slug):
+        n += put(_tpw_at(h2s, 0.5, _tpw(soup, "discovercars", slug, "Compare car hire", "",
+                                        "compares the big rental firms")))
+    return n
+
+
 def add_hotel_compare(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     """Under a stay guide's hotel map: a photo button to the same city's hotel list on Trip.com, so a
     reader can check a hotel and dates on a second site. Replaced the embedded Trip.com search form on
@@ -2727,7 +2889,7 @@ def add_photo_buttons(soup: BeautifulSoup, rel: str, slug: str, article: Tag) ->
             continue
         if not started:
             continue
-        if el.name in SBTN_VISUAL or el.select_one(".gy-rates, .gy-sbtns, .gy-tripwidget, .gy-pcard, img"):
+        if el.name in SBTN_VISUAL or el.select_one(".gy-rates, .gy-sbtns, .gy-tripwidget, .gy-tpw, .gy-pcard, img"):
             run = 0
             continue
         run += len(el.get_text(" ", strip=True))
@@ -3693,6 +3855,7 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
         if slug in STAY_POINTERS:
             out["pointer"] = add_stay_pointer(soup, slug, article)
         out["photo_buttons"] = add_photo_buttons(soup, rel, slug, article)
+        out["tp_widgets"] = add_tp_widgets(soup, slug, article)   # after: keeps every photo button where it was
     add_social_meta.apply(soup)
     return out
 

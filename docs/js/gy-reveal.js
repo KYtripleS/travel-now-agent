@@ -878,3 +878,42 @@ window.gySaveTrip = function (box, dep) {
   addEventListener('resize', update);
   update();
 })();
+
+/* Travelpayouts partner widgets (add_aeo.add_tp_widgets): each frame gets its widget script
+   when the box comes within 700px of the screen, tagged with a per-page sub id. A click inside
+   a widget's iframe moves focus out of the page, which is how it is counted. */
+(function () {
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('.gy-tpw[data-q]'));
+  if (!boxes.length) return;
+  function load(b) {
+    var f = b.querySelector('.gy-tpw-frame') || b;
+    var s = document.createElement('script');
+    s.async = true; s.charset = 'utf-8';
+    s.src = 'https://tpemb.com/content?trs=547982&shmarker=743846.' + b.getAttribute('data-sub') + '&' + b.getAttribute('data-q');
+    f.appendChild(s);
+  }
+  function check() {
+    boxes = boxes.filter(function (b) {
+      var r = b.getBoundingClientRect();
+      if (r.top < innerHeight + 700 && r.bottom > -700) { load(b); return false; }
+      return true;
+    });
+    if (!boxes.length) removeEventListener('scroll', check);
+  }
+  addEventListener('scroll', check, { passive: true });
+  check();
+  function hit(b, how) {
+    if (window.gtag) gtag('event', 'affiliate_click', { partner: b.getAttribute('data-w'), page: location.pathname, placement: 'tpwidget', how: how });
+  }
+  addEventListener('blur', function () {
+    setTimeout(function () {
+      var el = document.activeElement;
+      var b = el && el.tagName === 'IFRAME' && el.closest ? el.closest('.gy-tpw') : null;
+      if (b) hit(b, 'iframe');
+    }, 0);
+  });
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('.gy-tpw') : null;
+    if (b) hit(b, 'page');
+  });
+})();

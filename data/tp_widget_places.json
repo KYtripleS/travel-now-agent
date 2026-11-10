@@ -1,0 +1,647 @@
+{
+ "cities": {
+  "Amalfi Coast": {
+   "country": "Italy",
+   "tm_country": "IT",
+   "viator": 946
+  },
+  "Amsterdam": {
+   "country": "Netherlands",
+   "viator": 525,
+   "gyg_iata": "AMS",
+   "omio": "393153",
+   "tm_country": "NL"
+  },
+  "Aspen": {
+   "country": "United States",
+   "viator": 26395,
+   "gyg_iata": "ASE",
+   "tm_country": "US"
+  },
+  "Athens": {
+   "country": "Greece",
+   "viator": 496,
+   "gyg_iata": "ATH",
+   "omio": "381320"
+  },
+  "Augusta": {
+   "country": "United States",
+   "gyg_iata": "AGS",
+   "tm_country": "US"
+  },
+  "Bali": {
+   "country": "Indonesia",
+   "twelvego": "Bali",
+   "viator": 98,
+   "gyg_iata": "DPS"
+  },
+  "Banff": {
+   "country": "Canada",
+   "viator": 611,
+   "tm_country": "CA"
+  },
+  "Bangkok": {
+   "country": "Thailand",
+   "viator": 343,
+   "gyg_iata": "BKK",
+   "twelvego": "Bangkok"
+  },
+  "Barcelona": {
+   "country": "Spain",
+   "viator": 562,
+   "gyg_iata": "BCN",
+   "omio": "378468",
+   "tm_country": "ES"
+  },
+  "Berlin": {
+   "country": "Germany",
+   "viator": 488,
+   "gyg_iata": "BER",
+   "omio": "376217",
+   "tm_country": "DE"
+  },
+  "Boston": {
+   "country": "USA",
+   "viator": 678,
+   "gyg_iata": "BOS",
+   "tm_country": "US"
+  },
+  "Budapest": {
+   "country": "Hungary",
+   "viator": 499,
+   "gyg_iata": "BUD",
+   "omio": "383168"
+  },
+  "Busan": {
+   "country": "South Korea",
+   "viator": 4615,
+   "gyg_iata": "PUS"
+  },
+  "Cancún": {
+   "country": "Mexico",
+   "tm_country": "MX",
+   "viator": 631
+  },
+  "Cape Town": {
+   "country": "South Africa",
+   "viator": 318,
+   "gyg_iata": "CPT"
+  },
+  "Cebu": {
+   "country": "",
+   "viator": 5172,
+   "gyg_iata": "CEB"
+  },
+  "Chamonix": {
+   "country": "France",
+   "viator": 24269,
+   "tm_country": "FR"
+  },
+  "Chiang Mai": {
+   "country": "Thailand",
+   "viator": 5267,
+   "gyg_iata": "CNX",
+   "twelvego": "Chiang Mai"
+  },
+  "Chicago": {
+   "country": "USA",
+   "viator": 673,
+   "gyg_iata": "CHI",
+   "tm_country": "US"
+  },
+  "Cinque Terre": {
+   "country": "Italy",
+   "viator": 22149,
+   "tm_country": "IT"
+  },
+  "Coachella": {
+   "country": "USA",
+   "tm_country": "US",
+   "viator": 648
+  },
+  "Cologne": {
+   "country": "Germany",
+   "viator": 923,
+   "gyg_iata": "CGN",
+   "omio": "376319",
+   "tm_country": "DE"
+  },
+  "Copenhagen": {
+   "country": "Denmark",
+   "viator": 463,
+   "gyg_iata": "CPH",
+   "omio": "377541",
+   "tm_country": "DK"
+  },
+  "Da Nang": {
+   "country": "Vietnam",
+   "viator": 4680,
+   "gyg_iata": "DAD",
+   "twelvego": "Da Nang"
+  },
+  "Disneyland Paris": {
+   "country": "France",
+   "tm_country": "FR"
+  },
+  "Dubai": {
+   "country": "United Arab Emirates",
+   "viator": 828,
+   "gyg_iata": "DXB"
+  },
+  "Dublin": {
+   "country": "Ireland",
+   "viator": 503,
+   "gyg_iata": "DUB",
+   "omio": "384349",
+   "tm_country": "IE"
+  },
+  "Dubrovnik": {
+   "country": "Croatia",
+   "viator": 904,
+   "gyg_iata": "DBV",
+   "omio": "382982"
+  },
+  "Edinburgh": {
+   "country": "United Kingdom",
+   "viator": 739,
+   "gyg_iata": "EDI",
+   "omio": "380324",
+   "tm_country": "GB"
+  },
+  "Florence": {
+   "country": "Italy",
+   "viator": 519,
+   "gyg_iata": "FLR",
+   "omio": "388058",
+   "tm_country": "IT"
+  },
+  "Fukuoka": {
+   "country": "Japan",
+   "viator": 4660,
+   "gyg_iata": "FUK"
+  },
+  "Glastonbury": {
+   "country": "United Kingdom",
+   "omio": "441654",
+   "tm_country": "GB"
+  },
+  "Hakone": {
+   "country": "Japan",
+   "viator": 25550
+  },
+  "Hanoi": {
+   "country": "Vietnam",
+   "viator": 351,
+   "gyg_iata": "HAN",
+   "twelvego": "Hanoi"
+  },
+  "Hiroshima": {
+   "country": "Japan",
+   "viator": 4661,
+   "gyg_iata": "HIJ"
+  },
+  "Ho Chi Minh City": {
+   "country": "Vietnam",
+   "viator": 352,
+   "gyg_iata": "SGN",
+   "twelvego": "Ho Chi Minh City"
+  },
+  "Hokkaido": {
+   "country": "Japan",
+   "viator": 5558
+  },
+  "Hong Kong": {
+   "country": "Hong Kong",
+   "gyg_iata": "HKG",
+   "viator": 35959
+  },
+  "Honolulu": {
+   "country": "USA",
+   "viator": 59070,
+   "gyg_iata": "HNL",
+   "tm_country": "US"
+  },
+  "Istanbul": {
+   "country": "Turkey",
+   "viator": 585,
+   "gyg_iata": "IST"
+  },
+  "Jeju": {
+   "country": "South Korea",
+   "viator": 22779,
+   "gyg_iata": "CJU"
+  },
+  "Kanazawa": {
+   "country": "Japan",
+   "viator": 4699
+  },
+  "Keukenhof": {
+   "country": "Netherlands",
+   "tm_country": "NL"
+  },
+  "Kraków": {
+   "country": "Poland",
+   "tm_country": "PL",
+   "viator": 529
+  },
+  "Kuala Lumpur": {
+   "country": "Malaysia",
+   "viator": 335,
+   "gyg_iata": "KUL",
+   "twelvego": "Kuala Lumpur"
+  },
+  "Kyoto": {
+   "country": "Japan",
+   "viator": 332
+  },
+  "Lake Como": {
+   "country": "Italy",
+   "viator": 26113,
+   "tm_country": "IT"
+  },
+  "Las Vegas": {
+   "country": "USA",
+   "viator": 684,
+   "gyg_iata": "LAS",
+   "tm_country": "US"
+  },
+  "London": {
+   "country": "United Kingdom",
+   "gyg_iata": "LON",
+   "omio": "372504",
+   "tm_country": "GB",
+   "viator": 737
+  },
+  "Los Angeles": {
+   "country": "USA",
+   "viator": 645,
+   "gyg_iata": "LAX",
+   "tm_country": "US"
+  },
+  "Louisville": {
+   "country": "USA",
+   "viator": 25791,
+   "gyg_iata": "SDF",
+   "tm_country": "US"
+  },
+  "Madrid": {
+   "country": "Spain",
+   "viator": 566,
+   "gyg_iata": "MAD",
+   "omio": "378655",
+   "tm_country": "ES"
+  },
+  "Manila": {
+   "country": "",
+   "viator": 4674,
+   "gyg_iata": "MNL"
+  },
+  "Marrakech": {
+   "country": "Morocco",
+   "viator": 5408,
+   "gyg_iata": "RAK"
+  },
+  "Maui": {
+   "country": "USA",
+   "viator": 671,
+   "tm_country": "US"
+  },
+  "Melbourne": {
+   "country": "Australia",
+   "viator": 384,
+   "gyg_iata": "MEL",
+   "tm_country": "AU"
+  },
+  "Mexico City": {
+   "country": "Mexico",
+   "viator": 628,
+   "gyg_iata": "MEX",
+   "tm_country": "MX"
+  },
+  "Miami": {
+   "country": "USA",
+   "viator": 662,
+   "gyg_iata": "MIA",
+   "tm_country": "US"
+  },
+  "Milan": {
+   "country": "Italy",
+   "viator": 512,
+   "gyg_iata": "MIL",
+   "omio": "388252",
+   "tm_country": "IT"
+  },
+  "Monaco": {
+   "country": "Monaco",
+   "omio": "390602"
+  },
+  "Montreal": {
+   "country": "Canada",
+   "viator": 625,
+   "gyg_iata": "YMQ",
+   "tm_country": "CA"
+  },
+  "Munich": {
+   "country": "Germany",
+   "viator": 487,
+   "gyg_iata": "MUC",
+   "omio": "376946",
+   "tm_country": "DE"
+  },
+  "Mykonos": {
+   "country": "Greece",
+   "viator": 958,
+   "omio": "381752",
+   "gyg_iata": "JMK"
+  },
+  "Nagano": {
+   "country": "Japan",
+   "viator": 23523
+  },
+  "Naples": {
+   "country": "Italy",
+   "gyg_iata": "NAP",
+   "omio": "388317",
+   "tm_country": "IT",
+   "viator": 508
+  },
+  "New Orleans": {
+   "country": "USA",
+   "viator": 675,
+   "gyg_iata": "MSY",
+   "tm_country": "US"
+  },
+  "New York": {
+   "country": "USA",
+   "gyg_iata": "NYC",
+   "tm_country": "US",
+   "viator": 687
+  },
+  "Nice": {
+   "country": "France",
+   "viator": 478,
+   "gyg_iata": "NCE",
+   "omio": "379691",
+   "tm_country": "FR"
+  },
+  "Nuremberg": {
+   "country": "Germany",
+   "viator": 5628,
+   "gyg_iata": "NUE",
+   "omio": "377001",
+   "tm_country": "DE"
+  },
+  "Okinawa": {
+   "country": "Japan",
+   "gyg_iata": "OKA",
+   "viator": 5614
+  },
+  "Orlando": {
+   "country": "USA",
+   "viator": 663,
+   "gyg_iata": "ORL",
+   "tm_country": "US"
+  },
+  "Osaka": {
+   "country": "Japan",
+   "viator": 333,
+   "gyg_iata": "OSA"
+  },
+  "Pamplona": {
+   "country": "Spain",
+   "viator": 22689,
+   "gyg_iata": "PNA",
+   "omio": "378726",
+   "tm_country": "ES"
+  },
+  "Paris": {
+   "country": "France",
+   "viator": 479,
+   "gyg_iata": "PAR",
+   "omio": "379727",
+   "tm_country": "FR"
+  },
+  "Penang": {
+   "country": "",
+   "viator": 339,
+   "gyg_iata": "PEN"
+  },
+  "Perth": {
+   "country": "Australia",
+   "viator": 389,
+   "gyg_iata": "PER",
+   "tm_country": "AU"
+  },
+  "Phuket": {
+   "country": "Thailand",
+   "viator": 349,
+   "gyg_iata": "HKT",
+   "twelvego": "Phuket"
+  },
+  "Porto": {
+   "country": "Portugal",
+   "viator": 26879,
+   "gyg_iata": "OPO",
+   "omio": "398868",
+   "tm_country": "PT"
+  },
+  "Prague": {
+   "country": "Czech Republic",
+   "viator": 462,
+   "gyg_iata": "PRG",
+   "tm_country": "CZ"
+  },
+  "Queenstown": {
+   "country": "New Zealand",
+   "viator": 407,
+   "gyg_iata": "ZQN",
+   "tm_country": "NZ"
+  },
+  "Reykjavik": {
+   "country": "Iceland",
+   "viator": 905,
+   "gyg_iata": "REK"
+  },
+  "Rio de Janeiro": {
+   "country": "Brazil",
+   "viator": 712,
+   "gyg_iata": "RIO"
+  },
+  "Rome": {
+   "country": "Italy",
+   "viator": 511,
+   "gyg_iata": "ROM",
+   "omio": "388498",
+   "tm_country": "IT"
+  },
+  "Rovaniemi": {
+   "country": "Finland",
+   "viator": 22130,
+   "gyg_iata": "RVN",
+   "omio": "379046",
+   "tm_country": "FI"
+  },
+  "San Diego": {
+   "country": "USA",
+   "viator": 736,
+   "gyg_iata": "SAN",
+   "tm_country": "US"
+  },
+  "San Francisco": {
+   "country": "USA",
+   "viator": 651,
+   "gyg_iata": "SFO",
+   "tm_country": "US"
+  },
+  "Santorini": {
+   "country": "Greece",
+   "viator": 959,
+   "gyg_iata": "JTR"
+  },
+  "Sapporo": {
+   "country": "Japan",
+   "viator": 5559,
+   "gyg_iata": "SPK"
+  },
+  "Seoul": {
+   "country": "South Korea",
+   "viator": 973,
+   "gyg_iata": "SEL"
+  },
+  "Seville": {
+   "country": "Spain",
+   "viator": 556,
+   "omio": "378797",
+   "tm_country": "ES",
+   "gyg_iata": "SVQ"
+  },
+  "Shanghai": {
+   "country": "China",
+   "viator": 325,
+   "gyg_iata": "SHA"
+  },
+  "Shirakawa-go": {
+   "country": "Japan"
+  },
+  "Singapore": {
+   "country": "Singapore",
+   "viator": 60449,
+   "gyg_iata": "SIN",
+   "twelvego": "Singapore"
+  },
+  "Stockholm": {
+   "country": "Sweden",
+   "viator": 907,
+   "gyg_iata": "STO",
+   "omio": "406057",
+   "tm_country": "SE"
+  },
+  "Strasbourg": {
+   "country": "France",
+   "viator": 5502,
+   "gyg_iata": "SXB",
+   "omio": "379901",
+   "tm_country": "FR"
+  },
+  "Suzuka": {
+   "country": "Japan"
+  },
+  "Sydney": {
+   "country": "Australia",
+   "gyg_iata": "SYD",
+   "tm_country": "AU",
+   "viator": 357
+  },
+  "Taipei": {
+   "country": "Taiwan",
+   "viator": 5262,
+   "gyg_iata": "TPE"
+  },
+  "Tokyo": {
+   "country": "Japan",
+   "viator": 334,
+   "gyg_iata": "TYO"
+  },
+  "Tokyo Disney Resort": {
+   "country": "Japan"
+  },
+  "Toronto": {
+   "country": "Canada",
+   "viator": 623,
+   "gyg_iata": "YTO",
+   "tm_country": "CA"
+  },
+  "Tromsø": {
+   "country": "Norway",
+   "omio": "393974",
+   "tm_country": "NO",
+   "viator": 4362
+  },
+  "Tulum": {
+   "country": "Mexico",
+   "viator": 23012,
+   "gyg_iata": "TQO",
+   "tm_country": "MX"
+  },
+  "Valencia": {
+   "country": "Spain",
+   "viator": 811,
+   "gyg_iata": "VLC",
+   "omio": "378849",
+   "tm_country": "ES"
+  },
+  "Vancouver": {
+   "country": "Canada",
+   "viator": 616,
+   "gyg_iata": "YVR",
+   "tm_country": "CA"
+  },
+  "Venice": {
+   "country": "Italy",
+   "viator": 522,
+   "gyg_iata": "VCE",
+   "omio": "388743",
+   "tm_country": "IT"
+  },
+  "Vienna": {
+   "country": "Austria",
+   "viator": 454,
+   "gyg_iata": "VIE",
+   "omio": "368571",
+   "tm_country": "AT"
+  },
+  "Washington, DC": {
+   "country": "USA",
+   "tm_country": "US",
+   "viator": 657
+  },
+  "Whistler": {
+   "country": "Canada",
+   "viator": 618,
+   "tm_country": "CA"
+  },
+  "Yogyakarta": {
+   "country": "",
+   "viator": 22560,
+   "gyg_iata": "JOG"
+  },
+  "Zermatt": {
+   "country": "Switzerland",
+   "viator": 5014,
+   "omio": "373290",
+   "tm_country": "CH"
+  },
+  "Zurich": {
+   "country": "Switzerland",
+   "viator": 577,
+   "gyg_iata": "ZRH",
+   "omio": "373297",
+   "tm_country": "CH"
+  }
+ },
+ "check": {
+  "London": "viator: 2 places named London",
+  "Naples": "viator: 2 places named Naples",
+  "Sydney": "viator: 2 places named Sydney"
+ }
+}

@@ -5522,3 +5522,14 @@ body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame
 /* Flights box: the Trip.com form is 2px wider than its frame (its own border), which clipped its right edge */
 .article .gy-tripwidget[data-kind="flights"] { padding: 0 2px 2px 0; }
 .article .gy-flights .gy-sbtns { margin: 14px 0 8px; }
+
+/* 19. Travelpayouts partner widgets (2026-11-10, add_aeo.add_tp_widgets). A ruled box with a label in
+   our type; the widget inside keeps its own look. Partner = blue (section 14). */
+.article .gy-tpw { margin: 28px 0; padding: 14px 0 6px; border-top: 2px solid var(--cta, #0B63D6); }
+.article .gy-tpw-h { font-family: var(--serif); font-weight: 600; font-size: 1.22rem; line-height: 1.25; margin: 0 0 2px; color: var(--navy, #172033); }
+.article .gy-tpw-k { font-family: var(--sans); font-size: .74rem; letter-spacing: .04em; text-transform: uppercase; color: var(--cta, #0B63D6); margin: 0 0 10px; }
+.article .gy-tpw-frame { min-height: 140px; max-width: 100%; overflow-x: auto; overflow-y: hidden; border-radius: 10px; }
+.article .gy-tpw-frame iframe { max-width: 100% !important; }
+.article .gy-tpw-frame > * { max-width: 100%; }
+.article .gy-tpw .gy-widget-note { margin-top: 6px; }
+.article .gy-tpw .gy-widget-note { font-family: var(--sans); font-size: .76rem; line-height: 1.45; color: #5b6170; }
