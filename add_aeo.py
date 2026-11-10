@@ -2537,18 +2537,15 @@ def add_flight_map(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     h.string = f"Flights to {city}"
     box.append(h)
     box.append(_trip_widget(soup, "flights", city, slug))
-    ul = soup.new_tag("ul", attrs={"class": "gy-cta-list"})
-    for href, label in ((fixed["tripcom_flights"], f"Search flights to {city} on Trip.com"),
-                        (fixed["kiwi"], f"Compare flights to {city} on Kiwi.com")):
-        li = soup.new_tag("li")
-        a = _anchor(soup, href, managed=False)
-        a["class"] = "gy-cta-link"
-        a.string = f"{label} →"
-        li.append(a)
-        ul.append(li)
+    # the two searches as photo buttons (2026-11-10), not text links under the form
+    pair = soup.new_tag("div", attrs={"class": "gy-sbtns"})
+    pair.append(_sbtn(soup, fixed["tripcom_flights"], _px(6544058), "Partner link · Trip.com",
+                      f"Search flights to {city} on Trip.com", partner=True))
+    pair.append(_sbtn(soup, fixed["kiwi"], _px(32145765), "Partner link · Kiwi.com",
+                      f"Compare flights to {city} on Kiwi.com", partner=True))
     note = soup.new_tag("p", attrs={"class": "gy-widget-note"})
     note.string = "Partner links: we may earn a commission if you book, at no extra cost to you."
-    box.extend([ul, note])
+    box.extend([pair, note])
     return 1 if _insert_lower(article, box) else 0
 
 

@@ -5519,3 +5519,6 @@ body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame
   .article .gy-sbtns--one .gy-sbtn-title { font-size: 1.02rem; }
 }
 @media (prefers-reduced-motion: reduce) { .article .gy-sbtn { transition: none; } .article .gy-sbtn:hover { transform: none; } }
+/* Flights box: the Trip.com form is 2px wider than its frame (its own border), which clipped its right edge */
+.article .gy-tripwidget[data-kind="flights"] { padding: 0 2px 2px 0; }
+.article .gy-flights .gy-sbtns { margin: 14px 0 8px; }
