@@ -33,6 +33,20 @@ EUROPE = {"Italy", "Spain", "France", "United Kingdom", "Finland", "Croatia", "P
           "Belgium", "Switzerland", "Norway", "Iceland", "Slovenia", "Estonia", "Latvia", "Lithuania", "Scotland",
           "England", "Monaco", "Malta", "Turkey"}
 # hand-checked (2026-11-10): same-name places, local spellings, regions
+CN_ALIAS = {"USA": ["United States"], "United States": ["United States"], "Czech Republic": ["Czechia", "Czech Republic"],
+            "Turkey": ["Türkiye", "Turkey"], "Hong Kong": ["Hong Kong"], "South Korea": ["South Korea", "Korea"],
+            "United Kingdom": ["United Kingdom"], "United Arab Emirates": ["United Arab Emirates"]}
+
+
+def base(t: str | None) -> str:
+    """'New York (and vicinity)' / 'Las Vegas (NV)' / 'Zürich' / 'Hong Kong SAR' -> comparable name."""
+    import re
+    import unicodedata
+    t = re.sub(r"\s*\(.*?\)", "", t or "").replace(" SAR", "").replace("İ", "I")
+    t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode()
+    return t.strip().lower().replace(", dc", "").replace(",", "")
+
+
 OVERRIDES: dict[str, dict] = {
     "London": {"viator": 737}, "Naples": {"viator": 508}, "Sydney": {"viator": 357},
     "New York": {"viator": 687}, "Kraków": {"viator": 529}, "Bali": {"viator": 98, "gyg_iata": "DPS"},
@@ -91,6 +105,16 @@ def main() -> None:
                  if x.get("title") == city and (x.get("slug") == country or country in ("United Kingdom", "Scotland", "England"))]
             if o:
                 row["omio"] = o[0]["value"]
+        names = CN_ALIAS.get(country, [country]) if country else []
+        inc = lambda txt: not names or any(n in (txt or "") for n in names)
+        vio = [x for x in get(f"/uaca/v1/search_terms_forward?service=vio_suggest&term={q(city)}&locale=en")
+               if x.get("slug") in ("city", "country") and base(x.get("title")) == base(city) and inc(x.get("subtitle"))]
+        if vio:
+            row["vio"] = vio[0]["title"]
+        ag = [x for x in get(f"/uaca/v1/search_terms_forward?service=agoda&term={q(city)}&locale=en")
+              if x.get("subtitle") == "City" and base(x.get("title", "").split(",")[0]) == base(city) and inc(x.get("title"))]
+        if ag:
+            row["agoda"] = ag[0]["title"]
         if country in TM:
             row["tm_country"] = TM[country]
         row.update(OVERRIDES.get(city, {}))
@@ -99,7 +123,8 @@ def main() -> None:
     OUT.write_text(json.dumps({"cities": res, "check": check}, indent=1, ensure_ascii=False) + "\n")
     print(len(res), "cities;", sum("viator" in r for r in res.values()), "viator;",
           sum("gyg_iata" in r for r in res.values()), "gyg;", sum("twelvego" in r for r in res.values()), "12go;",
-          sum("omio" in r for r in res.values()), "omio;", sum("tm_country" in r for r in res.values()), "ticketmaster")
+          sum("omio" in r for r in res.values()), "omio;", sum("vio" in r for r in res.values()), "vio;",
+          sum("agoda" in r for r in res.values()), "agoda;", sum("tm_country" in r for r in res.values()), "ticketmaster")
     for c, why in check.items():
         print("check:", c, "-", why)
 

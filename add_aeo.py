@@ -2608,9 +2608,14 @@ TPW = {  # kind: (campaign, promo, brand, fixed query)
     "airalo": (541, 8588, "Airalo", "locale=en"),
     "airhelp": (120, 8679, "AirHelp", "locale=en"),
     "visitorscoverage": (153, 4652, "VisitorsCoverage", ""),
+    # hotels (2026-11-11): Vio's hotel cards compare Expedia, Hotels.com, Agoda and Trip.com rates
+    "vio": (638, 9208, "Vio.com", "currency=USD&language=en&all_deals=true&results=true&banner=false&dividers=true&stars=1&rating=6"),
+    "agoda": (104, 8303, "Agoda", "locale=en"),
+    "booking": (84, 9240, "Booking.com", "locale=en"),
 }
 TPW_SUB = {"viator": "vi", "gyg": "gy", "twelvego_city": "12c", "twelvego": "12f", "omio": "om", "discovercars": "dc",
-           "ticketmaster": "tm", "airalo": "al", "airhelp": "ah", "visitorscoverage": "vc"}
+           "ticketmaster": "tm", "airalo": "al", "airhelp": "ah", "visitorscoverage": "vc",
+           "vio": "vo", "agoda": "ag", "booking": "bk"}
 TPW_TOURS_H = re.compile(r"things to do|\btours?\b|day trips?|what to (do|see)|sights|experiences|activities|"
                          r"itinerary|\bday \d|neighbourhoods?|areas? to explore", re.I)
 TPW_EVENT = re.compile(r"new-years-eve|christmas|festival|grand-prix|marathon|oktoberfest|coachella|glastonbury")
@@ -2620,6 +2625,7 @@ TPW_FLIGHT = re.compile(r"flight|airport|layover")
 TPW_RAIL_EU = re.compile(r"europe-rail|train-vs-flight-in-europe")
 TPW_CAR = re.compile(r"car-hire|rental-car|road-trip|self-drive")
 TPW_MAX = 3
+TPW_HOTEL_TOPIC = re.compile(r"hotel|otas|hostel|booking-sites|ryokan|accommodation")
 
 
 @lru_cache(maxsize=1)
@@ -2690,6 +2696,47 @@ def _tpw_at(h2s: list[Tag], frac: float, box: Tag) -> bool:
     return False
 
 
+def _rates_h2s(h2s: list[Tag]) -> list[int]:
+    """Indexes of the h2 sections that list hotels with rate links."""
+    out = []
+    for i, h in enumerate(h2s):
+        for sib in h.find_next_siblings():
+            if sib.name == "h2":
+                break
+            if isinstance(sib, Tag) and (sib.select_one(".gy-rates") or "gy-rates" in (sib.get("class") or [])):
+                out.append(i)
+                break
+    return out
+
+
+def add_hotel_widgets(soup: BeautifulSoup, slug: str, article: Tag, h2s: list[Tag], city: str, P: dict,
+                      stay: bool) -> int:
+    """Vio.com's hotel cards (rates from several booking sites) after the guide's hotel lists, and Agoda's
+    search with the city filled in after the first area. Off the guide's own picks: never between a
+    hotel and its rate link."""
+    n = 0
+    vio = lambda: _tpw(soup, "vio", slug, f"More hotel deals in {city}", f"place={urllib.parse.quote(P['vio'])}",
+                       "compares Expedia, Hotels.com, Agoda and Trip.com")
+    agoda = lambda: _tpw(soup, "agoda", slug, f"Search {city} hotels on Agoda",
+                         f"default_destination={urllib.parse.quote(P['agoda'])}", "pick your dates for live rates")
+    if stay:
+        idx = _rates_h2s(h2s)
+        if P.get("vio") and idx:
+            last = idx[-1]
+            ok = last + 1 < len(h2s) and _tpw_before(h2s[last + 1], vio())
+            n += 1 if ok or _insert_lower(article, vio()) else 0
+        if P.get("agoda") and len(idx) >= 2:
+            n += 1 if _tpw_before(h2s[idx[1]], agoda()) else 0
+        elif P.get("agoda"):
+            n += 1 if _insert_lower(article, agoda()) else 0
+    else:
+        if P.get("vio"):
+            n += 1 if _tpw_at(h2s, 0.45, vio()) else 0
+        if P.get("agoda"):
+            n += 1 if _tpw_at(h2s, 0.85, agoda()) else 0
+    return n
+
+
 def add_tp_widgets(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     h2s = _tpw_h2s(article)
     n = 0
@@ -2716,19 +2763,20 @@ def add_tp_widgets(soup: BeautifulSoup, slug: str, article: Tag) -> int:
             ok = (_insert_lower(article, box) if stay else
                   _tpw_after_section(h2s, TPW_TOURS_H, box, skip_first=True) or _tpw_at(h2s, 0.6, box))
             n += put(ok)
+        n += add_hotel_widgets(soup, slug, article, h2s, city, P, stay)
         L = trip_kit_links()
-        if n < TPW_MAX and P.get("twelvego"):
+        if n < TPW_MAX + 2 and P.get("twelvego"):
             n += put(_tpw_after_section(h2s, KIT_AFTER, _tpw(
                 soup, "twelvego_city", slug, f"Buses, trains and ferries from {city}", f"city={urllib.parse.quote(city)}",
                 "fares from 12Go")) or _insert_lower(article, _tpw(
                 soup, "twelvego_city", slug, f"Buses, trains and ferries from {city}", f"city={urllib.parse.quote(city)}",
                 "fares from 12Go")))
-        elif n < TPW_MAX and P.get("omio"):
+        elif n < TPW_MAX + 2 and P.get("omio"):
             mk = lambda: _tpw(soup, "omio", slug, f"Trains and buses to {city}", f"arrival={P['omio']}",
                               "rail, coach and flights")
             n += put(_tpw_after_section(h2s, KIT_AFTER, mk()) or (not stay and _tpw_at(h2s, 0.75, mk()))
                      or (stay and _insert_lower(article, mk())))
-        if n < TPW_MAX and city in L.get("discovercars", {}) and not stay:
+        if n < TPW_MAX + 2 and city in L.get("discovercars", {}) and not stay:
             n += put(_tpw_after_section(h2s, KIT_AFTER, _tpw(
                 soup, "discovercars", slug, f"Car hire around {city}", "", "compares the big rental firms")))
         return n
@@ -2742,6 +2790,9 @@ def add_tp_widgets(soup: BeautifulSoup, slug: str, article: Tag) -> int:
     elif TPW_FLIGHT.search(slug):
         n += put(at(0.6, _tpw(soup, "airhelp", slug, "Flight delayed or cancelled? Check what you are owed",
                                         "", "free check, fee only if they win")))
+    if TPW_HOTEL_TOPIC.search(slug):
+        n += put(at(0.3, _tpw(soup, "booking", slug, "Search hotels on Booking.com", "", "free cancellation on many rooms")))
+        n += put(_tpw_at(h2s, 0.7, _tpw(soup, "agoda", slug, "Search hotels on Agoda", "", "strong in Asia")))
     if TPW_RAIL_EU.search(slug):
         n += put(_tpw_at(h2s, 0.4, _tpw(soup, "omio", slug, "Search trains and buses across Europe", "",
                                         "rail, coach and flights")))
