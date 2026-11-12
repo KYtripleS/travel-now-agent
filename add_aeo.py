@@ -194,11 +194,11 @@ def _stay_cta(slug: str, label: str) -> tuple:
 V = {
     # booking platforms --------------------------------------------------------
     "klook-vs-viator-vs-getyourguide": dict(
-        text="Viator has by far the most activities — more than 400,000 worldwide — and GetYourGuide "
-             "the most consistent 24-hour free cancellation; in Asia, Klook is usually the cheaper and "
-             "deeper of the three, and it also sells the rail passes, transfers and eSIMs the others don’t. "
-             "No platform is always cheapest: the same tour is priced by each operator’s deal with each "
-             "site, so compare the exact listing.",
+        text="Do you save money on Klook over Viator? Often, not always: on six identical tickets we priced "
+             "on 21 October 2026, Klook was lower than Viator on five and the lowest of all three on four; "
+             "Viator was lowest on one. For tickets and passes, especially in Asia, start on Klook; for the "
+             "widest choice and private tours, Viator (more than 400,000 activities); for the most consistent "
+             "24-hour free cancellation, GetYourGuide.",
         cta=("klook", "Check the same tour on Klook")),
     "klook-vs-kkday": dict(
         text="Use Klook as your broad default — especially for transport, rail passes, transfers and "
@@ -476,7 +476,7 @@ V = {
         link_text="Wan Chai",
         cta=_stay_cta("where-to-stay-in-hong-kong-new-years-eve", "See hotels around Wan Chai")),
     "where-to-stay-in-rio-new-years-eve": dict(
-        text="For a first Réveillon, stay in Copacabana and expect Avenida Atlântica to be shut to cars from 7am on 31 December, as it was last year. The Fairmont is the splurge, the Pestana Rio Atlântica the rooftop-party middle and the Windsor Copa the value pick. Riotur had not published the 2026 plan.",
+        text="For a first Réveillon, stay in Copacabana and expect Avenida Atlântica to be shut to cars from 7am on 31 December, as it was last year. The Fairmont is the splurge, the Pestana Rio Atlântica the rooftop-party middle and the Windsor Copa the value pick. The city has named Djavan as a headliner but, on 13 November, had not published the full 2026 plan.",
         link_text="Copacabana",
         cta=_stay_cta("where-to-stay-in-rio-new-years-eve", "See hotels around Copacabana")),
     "where-to-stay-in-dubai-new-years-eve": dict(
@@ -740,7 +740,7 @@ V = {
         link_text="Whistler Village",
         cta=_stay_cta("where-to-stay-in-whistler", "See hotels around Whistler Village")),
     "where-to-stay-in-edinburgh-hogmanay": dict(
-        text="Choose your Street Party gate first, then stay near it: the east end of Princes Street for the East Gate, Lothian Road for the West Gate. The Balmoral sells a Hogmanay Ball stay with a two-night minimum. The Visitor Levy adds 5% of the room price for the first five nights.",
+        text="Choose your Street Party gate first, then stay near it: the east end of Princes Street for the East Gate, Lothian Road for the West Gate. The Balmoral sells a Hogmanay Ball stay with a two-night minimum. The Visitor Levy adds 5% of the room price for the first five nights. Last year’s Street Party sold out, so buy the ticket before the room.",
         link_text="east end of Princes Street",
         cta=_stay_cta("where-to-stay-in-edinburgh-hogmanay", "See hotels around Princes Street")),
     "where-to-stay-in-rovaniemi-christmas": dict(
@@ -1193,7 +1193,22 @@ for _slug, _v in json.loads((Path(__file__).resolve().parent / "data/verdicts_ex
 # just re-laid-out). Only these get a fresh dateModified; a verdict box that
 # restates an article's own conclusion is not a reason to claim it was updated.
 REVISED = {
-    "klook-vs-viator-vs-getyourguide": "2026-10-01",            # corrected: GetYourGuide links go through Stay22
+    "where-to-stay-in-london-new-years-eve": "2026-11-13",  # revised for growth (2026-11-13)
+    "where-to-buy-disneyland-paris-tickets": "2026-11-13",  # revised for growth (2026-11-13)
+    "where-to-stay-in-sydney-new-years-eve": "2026-11-13",  # revised for growth (2026-11-13)
+    "carry-on-packing-list-10-day-japan": "2026-11-13",  # revised for growth (2026-11-13)
+    "where-to-stay-in-edinburgh-hogmanay": "2026-11-13",  # revised for growth (2026-11-13)
+    "klook-vs-viator-vs-getyourguide": "2026-11-13",  # revised for growth (2026-11-13)
+    "tourist-taxes-around-the-world-2026-data": "2026-11-13",  # revised for growth (2026-11-13)
+    "where-to-stay-in-hong-kong-chinese-new-year": "2026-11-13",  # revised for growth (2026-11-13)
+    "where-to-stay-in-tokyo-new-year": "2026-11-13",  # revised for growth (2026-11-13)
+    "klook-vs-kkday": "2026-11-13",  # revised for growth (2026-11-13)
+    "where-to-book-seoul-dmz-tour": "2026-11-13",  # revised for growth (2026-11-13)
+    "where-to-stay-in-new-york-new-years-eve": "2026-11-13",  # revised for growth (2026-11-13)
+    "where-to-buy-universal-studios-japan-tickets": "2026-11-13",  # revised for growth (2026-11-13)
+    "japan-city-sightseeing-passes-worth-it": "2026-11-13",  # revised for growth (2026-11-13)
+    "airalo-vs-holafly-vs-saily": "2026-11-13",  # revised for growth (2026-11-13)
+    "where-to-stay-in-rio-new-years-eve": "2026-11-13",  # revised for growth (2026-11-13)
     "where-to-book-halong-bay-cruise": "2026-10-01",            # corrected: same
     "where-to-book-jeju-bus-tour": "2026-10-01",                # corrected: same
     "where-to-book-sydney-harbour-cruise": "2026-10-01",        # corrected: same
@@ -1211,7 +1226,6 @@ REVISED = {
     "is-the-weak-yen-a-bargain-or-trap": "2026-10-06",           # corrected: Himeji's ¥2,500 is for all non-residents; no Niseko foreigner price
     "where-to-stay-in-hakuba": "2026-11-01",                     # added the busiest weeks of 2026/27 (official holiday calendars)
     "where-to-stay-in-hakone": "2026-11-01",                     # added the ¥350 accommodation tax passed for April 2028
-    "where-to-stay-in-sydney-new-years-eve": "2026-11-01",       # added fireworks-view rooms and 2026 packages from the hotels' own pages
     "travel-medical-kit-essentials-what-actually-belongs-in-your-pouch": "2026-11-01",       # rewritten from a stub
     "how-to-pack-fragile-souvenirs-and-liquids-in-checked-bags": "2026-11-01",               # rewritten from a stub
     "train-vs-flight-in-europe-when-rail-beats-flying-on-time-and-price": "2026-11-01",      # rewritten from a stub
@@ -2779,11 +2793,16 @@ def add_tp_widgets(soup: BeautifulSoup, slug: str, article: Tag) -> int:
             order, start = [viator, vio, gyg, klook, agoda, move, car], 1
         boxes = [W["ticketmaster"]] if "ticketmaster" in W else []
         boxes += [b for b in order if b][:TPW_MAX - len(boxes)]
+        if move and move not in boxes:           # 12Go / Omio always stay (operator, 2026-11-13)
+            boxes.append(move)
         n = _tpw_slots(h2s, start, boxes)
-        for b in boxes[n:]:                      # short pages: the money ones still go in, lower down
-            if b.get("data-w") in ("viator", "vio", "agoda", "klook") and _insert_lower(article, b):
-                n += 1
-                break
+        money = False
+        for b in boxes[n:]:                      # short pages: one money widget and the transport one still go in, lower down
+            w = b.get("data-w")
+            if w in ("twelvego_city", "omio") or (w in ("viator", "vio", "agoda", "klook") and not money):
+                if (w in ("twelvego_city", "omio") and _tpw_after_section(h2s, KIT_AFTER, b)) or _insert_lower(article, b):
+                    n += 1
+                    money = money or w not in ("twelvego_city", "omio")
         return n
     at = lambda f, box: _tpw_at(h2s, f, box) or _insert_lower(article, box)
     if TPW_ESIM.search(slug):
