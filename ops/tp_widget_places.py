@@ -1,6 +1,6 @@
 """Look up the place ids Travelpayouts' widgets need for each city the site writes about.
 
-Writes data/tp_widget_places.json: {city: {country, viator, gyg_iata, twelvego, omio, tm_country}}.
+Writes data/tp_widget_places.json: {city: {country, viator, gyg_iata, twelvego, omio, vio, agoda, klook, tm_country}}.
 Uses the same public suggestion endpoints as the widget builder in the Travelpayouts dashboard.
 Only exact title matches are kept; a city whose name is shared by several places is listed under
 "check" for a hand decision (put the answer in OVERRIDES).
@@ -55,7 +55,19 @@ OVERRIDES: dict[str, dict] = {
     "Hong Kong": {"viator": 35959}, "Coachella": {"viator": 648},
     "Seville": {"gyg_iata": "SVQ"}, "Santorini": {"gyg_iata": "JTR"}, "Mykonos": {"gyg_iata": "JMK"},
     "Cebu": {"gyg_iata": "CEB"},
+    # Klook (2026-11-12): its suggestions carry no country, so prefectures/regions and spellings by hand
+    "Fukuoka": {"klook": "5209"}, "Hiroshima": {"klook": "5122"}, "Okinawa": {"viator": 5614, "klook": "6484"},
+    "Maui": {"klook": "365001"}, "Chamonix": {"klook": "700232"}, "Marrakech": {"klook": "289"},
+    "Tromsø": {"viator": 4362, "klook": "172"}, "Perth": {"klook": "88"},
 }
+
+
+def kslug(t: str) -> str:
+    """'Washington, DC' -> 'washington-dc', 'Kraków' -> 'krakow' (Klook's suggestion titles)."""
+    import re
+    import unicodedata
+    t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
 
 
 def get(path: str):
@@ -115,6 +127,12 @@ def main() -> None:
               if x.get("subtitle") == "City" and base(x.get("title", "").split(",")[0]) == base(city) and inc(x.get("title"))]
         if ag:
             row["agoda"] = ag[0]["title"]
+        k = [x for x in get(f"/uaca/v1/search_terms_forward?service=klook&term={q(city)}&locale=en")
+             if kslug(x.get("title", "")) == kslug(city)]
+        if len(k) == 1:
+            row["klook"] = k[0]["value"]
+        elif k:
+            check[city] = f"klook: {len(k)} places named {city}"
         if country in TM:
             row["tm_country"] = TM[country]
         row.update(OVERRIDES.get(city, {}))
@@ -124,7 +142,8 @@ def main() -> None:
     print(len(res), "cities;", sum("viator" in r for r in res.values()), "viator;",
           sum("gyg_iata" in r for r in res.values()), "gyg;", sum("twelvego" in r for r in res.values()), "12go;",
           sum("omio" in r for r in res.values()), "omio;", sum("vio" in r for r in res.values()), "vio;",
-          sum("agoda" in r for r in res.values()), "agoda;", sum("tm_country" in r for r in res.values()), "ticketmaster")
+          sum("agoda" in r for r in res.values()), "agoda;", sum("tm_country" in r for r in res.values()), "ticketmaster;",
+          sum("klook" in r for r in res.values()), "klook")
     for c, why in check.items():
         print("check:", c, "-", why)
 

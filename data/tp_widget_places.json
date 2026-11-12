@@ -12,6 +12,7 @@
    "omio": "393153",
    "vio": "Amsterdam",
    "agoda": "Amsterdam, Netherlands",
+   "klook": "90",
    "tm_country": "NL"
   },
   "Aspen": {
@@ -27,7 +28,8 @@
    "gyg_iata": "ATH",
    "omio": "381320",
    "vio": "Athens",
-   "agoda": "Athens, Greece"
+   "agoda": "Athens, Greece",
+   "klook": "154"
   },
   "Augusta": {
    "country": "United States",
@@ -40,6 +42,7 @@
    "country": "Indonesia",
    "twelvego": "Bali",
    "agoda": "Bali, Indonesia",
+   "klook": "8",
    "viator": 98,
    "gyg_iata": "DPS"
   },
@@ -47,6 +50,7 @@
    "country": "Canada",
    "viator": 611,
    "agoda": "Banff (AB), Canada",
+   "klook": "365402",
    "tm_country": "CA"
   },
   "Bangkok": {
@@ -55,7 +59,8 @@
    "gyg_iata": "BKK",
    "twelvego": "Bangkok",
    "vio": "Bangkok",
-   "agoda": "Bangkok, Thailand"
+   "agoda": "Bangkok, Thailand",
+   "klook": "4"
   },
   "Barcelona": {
    "country": "Spain",
@@ -64,6 +69,7 @@
    "omio": "378468",
    "vio": "Barcelona",
    "agoda": "Barcelona, Spain",
+   "klook": "108",
    "tm_country": "ES"
   },
   "Berlin": {
@@ -73,6 +79,7 @@
    "omio": "376217",
    "vio": "Berlin",
    "agoda": "Berlin, Germany",
+   "klook": "103",
    "tm_country": "DE"
   },
   "Boston": {
@@ -81,6 +88,7 @@
    "gyg_iata": "BOS",
    "vio": "Boston",
    "agoda": "Boston (MA), United States",
+   "klook": "167",
    "tm_country": "US"
   },
   "Budapest": {
@@ -89,19 +97,22 @@
    "gyg_iata": "BUD",
    "omio": "383168",
    "vio": "Budapest",
-   "agoda": "Budapest, Hungary"
+   "agoda": "Budapest, Hungary",
+   "klook": "307"
   },
   "Busan": {
    "country": "South Korea",
    "viator": 4615,
    "gyg_iata": "PUS",
    "vio": "Busan",
-   "agoda": "Busan, South Korea"
+   "agoda": "Busan, South Korea",
+   "klook": "46"
   },
   "Cancún": {
    "country": "Mexico",
    "vio": "Cancun",
    "agoda": "Cancun, Mexico",
+   "klook": "540",
    "tm_country": "MX",
    "viator": 631
   },
@@ -110,18 +121,21 @@
    "viator": 318,
    "gyg_iata": "CPT",
    "vio": "Cape Town",
-   "agoda": "Cape Town, South Africa"
+   "agoda": "Cape Town, South Africa",
+   "klook": "272"
   },
   "Cebu": {
    "country": "",
    "viator": 5172,
    "agoda": "Cebu, Philippines",
+   "klook": "97",
    "gyg_iata": "CEB"
   },
   "Chamonix": {
    "country": "France",
    "viator": 24269,
-   "tm_country": "FR"
+   "tm_country": "FR",
+   "klook": "700232"
   },
   "Chiang Mai": {
    "country": "Thailand",
@@ -129,7 +143,8 @@
    "gyg_iata": "CNX",
    "twelvego": "Chiang Mai",
    "vio": "Chiang Mai",
-   "agoda": "Chiang Mai, Thailand"
+   "agoda": "Chiang Mai, Thailand",
+   "klook": "5"
   },
   "Chicago": {
    "country": "USA",
@@ -137,6 +152,7 @@
    "gyg_iata": "CHI",
    "vio": "Chicago",
    "agoda": "Chicago (IL), United States",
+   "klook": "701807",
    "tm_country": "US"
   },
   "Cinque Terre": {
@@ -157,6 +173,7 @@
    "omio": "376319",
    "vio": "Cologne",
    "agoda": "Cologne, Germany",
+   "klook": "79171",
    "tm_country": "DE"
   },
   "Copenhagen": {
@@ -166,6 +183,7 @@
    "omio": "377541",
    "vio": "Copenhagen",
    "agoda": "Copenhagen, Denmark",
+   "klook": "141",
    "tm_country": "DK"
   },
   "Da Nang": {
@@ -174,7 +192,8 @@
    "gyg_iata": "DAD",
    "twelvego": "Da Nang",
    "vio": "Da Nang",
-   "agoda": "Da Nang, Vietnam"
+   "agoda": "Da Nang, Vietnam",
+   "klook": "74"
   },
   "Disneyland Paris": {
    "country": "France",
@@ -185,7 +204,8 @@
    "viator": 828,
    "gyg_iata": "DXB",
    "vio": "Dubai",
-   "agoda": "Dubai, United Arab Emirates"
+   "agoda": "Dubai, United Arab Emirates",
+   "klook": "78"
   },
   "Dublin": {
    "country": "Ireland",
@@ -194,6 +214,7 @@
    "omio": "384349",
    "vio": "Dublin",
    "agoda": "Dublin, Ireland",
+   "klook": "281",
    "tm_country": "IE"
   },
   "Dubrovnik": {
@@ -202,7 +223,8 @@
    "gyg_iata": "DBV",
    "omio": "382982",
    "vio": "Dubrovnik",
-   "agoda": "Dubrovnik, Croatia"
+   "agoda": "Dubrovnik, Croatia",
+   "klook": "376"
   },
   "Edinburgh": {
    "country": "United Kingdom",
@@ -211,6 +233,7 @@
    "omio": "380324",
    "vio": "Edinburgh",
    "agoda": "Edinburgh, United Kingdom",
+   "klook": "200",
    "tm_country": "GB"
   },
   "Florence": {
@@ -220,6 +243,7 @@
    "omio": "388058",
    "vio": "Florence",
    "agoda": "Florence, Italy",
+   "klook": "115",
    "tm_country": "IT"
   },
   "Fukuoka": {
@@ -227,7 +251,8 @@
    "viator": 4660,
    "gyg_iata": "FUK",
    "vio": "Fukuoka",
-   "agoda": "Fukuoka, Japan"
+   "agoda": "Fukuoka, Japan",
+   "klook": "5209"
   },
   "Glastonbury": {
    "country": "United Kingdom",
@@ -246,14 +271,16 @@
    "gyg_iata": "HAN",
    "twelvego": "Hanoi",
    "vio": "Hanoi",
-   "agoda": "Hanoi, Vietnam"
+   "agoda": "Hanoi, Vietnam",
+   "klook": "34"
   },
   "Hiroshima": {
    "country": "Japan",
    "viator": 4661,
    "gyg_iata": "HIJ",
    "vio": "Hiroshima",
-   "agoda": "Hiroshima, Japan"
+   "agoda": "Hiroshima, Japan",
+   "klook": "5122"
   },
   "Ho Chi Minh City": {
    "country": "Vietnam",
@@ -261,10 +288,12 @@
    "gyg_iata": "SGN",
    "twelvego": "Ho Chi Minh City",
    "vio": "Ho Chi Minh City",
-   "agoda": "Ho Chi Minh City, Vietnam"
+   "agoda": "Ho Chi Minh City, Vietnam",
+   "klook": "33"
   },
   "Hokkaido": {
    "country": "Japan",
+   "klook": "32",
    "viator": 5558
   },
   "Hong Kong": {
@@ -272,6 +301,7 @@
    "gyg_iata": "HKG",
    "vio": "Hong Kong SAR",
    "agoda": "Hong Kong, Hong Kong SAR, China",
+   "klook": "2",
    "viator": 35959
   },
   "Honolulu": {
@@ -280,6 +310,7 @@
    "gyg_iata": "HNL",
    "vio": "Honolulu",
    "agoda": "Honolulu (HI), United States",
+   "klook": "703335",
    "tm_country": "US"
   },
   "Istanbul": {
@@ -287,19 +318,22 @@
    "viator": 585,
    "gyg_iata": "IST",
    "vio": "Istanbul",
-   "agoda": "İstanbul, Türkiye"
+   "agoda": "İstanbul, Türkiye",
+   "klook": "186"
   },
   "Jeju": {
    "country": "South Korea",
    "viator": 22779,
    "gyg_iata": "CJU",
-   "agoda": "Jeju, South Korea"
+   "agoda": "Jeju, South Korea",
+   "klook": "20544"
   },
   "Kanazawa": {
    "country": "Japan",
    "viator": 4699,
    "vio": "Kanazawa",
-   "agoda": "Kanazawa, Japan"
+   "agoda": "Kanazawa, Japan",
+   "klook": "445"
   },
   "Keukenhof": {
    "country": "Netherlands",
@@ -309,6 +343,7 @@
    "country": "Poland",
    "vio": "Kraków",
    "agoda": "Kraków, Poland",
+   "klook": "347",
    "tm_country": "PL",
    "viator": 529
   },
@@ -318,13 +353,15 @@
    "gyg_iata": "KUL",
    "twelvego": "Kuala Lumpur",
    "vio": "Kuala Lumpur",
-   "agoda": "Kuala Lumpur, Malaysia"
+   "agoda": "Kuala Lumpur, Malaysia",
+   "klook": "49"
   },
   "Kyoto": {
    "country": "Japan",
    "viator": 332,
    "vio": "Kyoto",
-   "agoda": "Kyoto, Japan"
+   "agoda": "Kyoto, Japan",
+   "klook": "30"
   },
   "Lake Como": {
    "country": "Italy",
@@ -337,6 +374,7 @@
    "gyg_iata": "LAS",
    "vio": "Las Vegas",
    "agoda": "Las Vegas (NV), United States",
+   "klook": "136",
    "tm_country": "US"
   },
   "London": {
@@ -345,6 +383,7 @@
    "omio": "372504",
    "vio": "London",
    "agoda": "London, United Kingdom",
+   "klook": "106",
    "tm_country": "GB",
    "viator": 737
   },
@@ -354,6 +393,7 @@
    "gyg_iata": "LAX",
    "vio": "Los Angeles",
    "agoda": "Los Angeles (CA), United States",
+   "klook": "124",
    "tm_country": "US"
   },
   "Louisville": {
@@ -371,6 +411,7 @@
    "omio": "378655",
    "vio": "Madrid",
    "agoda": "Madrid, Spain",
+   "klook": "109",
    "tm_country": "ES"
   },
   "Manila": {
@@ -378,19 +419,22 @@
    "viator": 4674,
    "gyg_iata": "MNL",
    "vio": "Manila",
-   "agoda": "Manila, Philippines"
+   "agoda": "Manila, Philippines",
+   "klook": "96"
   },
   "Marrakech": {
    "country": "Morocco",
    "viator": 5408,
    "gyg_iata": "RAK",
    "vio": "Marrakech",
-   "agoda": "Marrakech, Morocco"
+   "agoda": "Marrakech, Morocco",
+   "klook": "289"
   },
   "Maui": {
    "country": "USA",
    "viator": 671,
-   "tm_country": "US"
+   "tm_country": "US",
+   "klook": "365001"
   },
   "Melbourne": {
    "country": "Australia",
@@ -398,6 +442,7 @@
    "gyg_iata": "MEL",
    "vio": "Melbourne",
    "agoda": "Melbourne, Australia",
+   "klook": "69",
    "tm_country": "AU"
   },
   "Mexico City": {
@@ -406,6 +451,7 @@
    "gyg_iata": "MEX",
    "vio": "Mexico City",
    "agoda": "Mexico City, Mexico",
+   "klook": "5238",
    "tm_country": "MX"
   },
   "Miami": {
@@ -414,6 +460,7 @@
    "gyg_iata": "MIA",
    "vio": "Miami",
    "agoda": "Miami (FL), United States",
+   "klook": "198",
    "tm_country": "US"
   },
   "Milan": {
@@ -423,6 +470,7 @@
    "omio": "388252",
    "vio": "Milan",
    "agoda": "Milan, Italy",
+   "klook": "79468",
    "tm_country": "IT"
   },
   "Monaco": {
@@ -437,6 +485,7 @@
    "gyg_iata": "YMQ",
    "vio": "Montreal",
    "agoda": "Montreal (QC), Canada",
+   "klook": "365404",
    "tm_country": "CA"
   },
   "Munich": {
@@ -446,6 +495,7 @@
    "omio": "376946",
    "vio": "Munich",
    "agoda": "Munich, Germany",
+   "klook": "118",
    "tm_country": "DE"
   },
   "Mykonos": {
@@ -453,13 +503,15 @@
    "viator": 958,
    "omio": "381752",
    "agoda": "Mykonos, Greece",
+   "klook": "408",
    "gyg_iata": "JMK"
   },
   "Nagano": {
    "country": "Japan",
    "viator": 23523,
    "vio": "Nagano",
-   "agoda": "Nagano, Japan"
+   "agoda": "Nagano, Japan",
+   "klook": "26277"
   },
   "Naples": {
    "country": "Italy",
@@ -467,6 +519,7 @@
    "omio": "388317",
    "vio": "Naples",
    "agoda": "Naples, Italy",
+   "klook": "126",
    "tm_country": "IT",
    "viator": 508
   },
@@ -476,6 +529,7 @@
    "gyg_iata": "MSY",
    "vio": "New Orleans",
    "agoda": "New Orleans (LA), United States",
+   "klook": "557",
    "tm_country": "US"
   },
   "New York": {
@@ -483,6 +537,7 @@
    "gyg_iata": "NYC",
    "vio": "New York (and vicinity)",
    "agoda": "New York (NY), United States",
+   "klook": "93",
    "tm_country": "US",
    "viator": 687
   },
@@ -493,6 +548,7 @@
    "omio": "379691",
    "vio": "Nice",
    "agoda": "Nice, France",
+   "klook": "169424",
    "tm_country": "FR"
   },
   "Nuremberg": {
@@ -508,6 +564,7 @@
    "country": "Japan",
    "gyg_iata": "OKA",
    "vio": "Okinawa",
+   "klook": "6484",
    "viator": 5614
   },
   "Orlando": {
@@ -516,6 +573,7 @@
    "gyg_iata": "ORL",
    "vio": "Orlando",
    "agoda": "Orlando (FL), United States",
+   "klook": "123",
    "tm_country": "US"
   },
   "Osaka": {
@@ -523,7 +581,8 @@
    "viator": 333,
    "gyg_iata": "OSA",
    "vio": "Osaka",
-   "agoda": "Osaka, Japan"
+   "agoda": "Osaka, Japan",
+   "klook": "29"
   },
   "Pamplona": {
    "country": "Spain",
@@ -541,13 +600,15 @@
    "omio": "379727",
    "vio": "Paris",
    "agoda": "Paris, France",
+   "klook": "107",
    "tm_country": "FR"
   },
   "Penang": {
    "country": "",
    "viator": 339,
    "gyg_iata": "PEN",
-   "agoda": "Penang, Malaysia"
+   "agoda": "Penang, Malaysia",
+   "klook": "65"
   },
   "Perth": {
    "country": "Australia",
@@ -555,7 +616,8 @@
    "gyg_iata": "PER",
    "vio": "Perth",
    "agoda": "Perth, Australia",
-   "tm_country": "AU"
+   "tm_country": "AU",
+   "klook": "88"
   },
   "Phuket": {
    "country": "Thailand",
@@ -563,7 +625,8 @@
    "gyg_iata": "HKT",
    "twelvego": "Phuket",
    "vio": "Phuket",
-   "agoda": "Phuket, Thailand"
+   "agoda": "Phuket, Thailand",
+   "klook": "7"
   },
   "Porto": {
    "country": "Portugal",
@@ -572,6 +635,7 @@
    "omio": "398868",
    "vio": "Porto",
    "agoda": "Porto, Portugal",
+   "klook": "385",
    "tm_country": "PT"
   },
   "Prague": {
@@ -580,6 +644,7 @@
    "gyg_iata": "PRG",
    "vio": "Prague",
    "agoda": "Prague, Czech Republic",
+   "klook": "333",
    "tm_country": "CZ"
   },
   "Queenstown": {
@@ -587,6 +652,7 @@
    "viator": 407,
    "gyg_iata": "ZQN",
    "agoda": "Queenstown, New Zealand",
+   "klook": "83",
    "tm_country": "NZ"
   },
   "Reykjavik": {
@@ -594,14 +660,16 @@
    "viator": 905,
    "gyg_iata": "REK",
    "vio": "Reykjavik",
-   "agoda": "Reykjavik, Iceland"
+   "agoda": "Reykjavik, Iceland",
+   "klook": "114"
   },
   "Rio de Janeiro": {
    "country": "Brazil",
    "viator": 712,
    "gyg_iata": "RIO",
    "vio": "Rio de Janeiro",
-   "agoda": "Rio De Janeiro, Brazil"
+   "agoda": "Rio De Janeiro, Brazil",
+   "klook": "17954"
   },
   "Rome": {
    "country": "Italy",
@@ -610,6 +678,7 @@
    "omio": "388498",
    "vio": "Rome",
    "agoda": "Rome, Italy",
+   "klook": "92",
    "tm_country": "IT"
   },
   "Rovaniemi": {
@@ -619,6 +688,7 @@
    "omio": "379046",
    "vio": "Rovaniemi",
    "agoda": "Rovaniemi, Finland",
+   "klook": "241626",
    "tm_country": "FI"
   },
   "San Diego": {
@@ -627,6 +697,7 @@
    "gyg_iata": "SAN",
    "vio": "San Diego",
    "agoda": "San Diego (CA), United States",
+   "klook": "330",
    "tm_country": "US"
   },
   "San Francisco": {
@@ -635,6 +706,7 @@
    "gyg_iata": "SFO",
    "vio": "San Francisco",
    "agoda": "San Francisco (CA), United States",
+   "klook": "129",
    "tm_country": "US"
   },
   "Santorini": {
@@ -648,14 +720,16 @@
    "viator": 5559,
    "gyg_iata": "SPK",
    "vio": "Sapporo",
-   "agoda": "Sapporo, Japan"
+   "agoda": "Sapporo, Japan",
+   "klook": "133938"
   },
   "Seoul": {
    "country": "South Korea",
    "viator": 973,
    "gyg_iata": "SEL",
    "vio": "Seoul",
-   "agoda": "Seoul, South Korea"
+   "agoda": "Seoul, South Korea",
+   "klook": "13"
   },
   "Seville": {
    "country": "Spain",
@@ -663,6 +737,7 @@
    "omio": "378797",
    "vio": "Seville",
    "agoda": "Seville, Spain",
+   "klook": "122",
    "tm_country": "ES",
    "gyg_iata": "SVQ"
   },
@@ -671,7 +746,8 @@
    "viator": 325,
    "gyg_iata": "SHA",
    "vio": "Shanghai",
-   "agoda": "Shanghai, China"
+   "agoda": "Shanghai, China",
+   "klook": "59"
   },
   "Shirakawa-go": {
    "country": "Japan"
@@ -682,7 +758,8 @@
    "gyg_iata": "SIN",
    "twelvego": "Singapore",
    "vio": "Singapore",
-   "agoda": "Singapore, Singapore"
+   "agoda": "Singapore, Singapore",
+   "klook": "6"
   },
   "Stockholm": {
    "country": "Sweden",
@@ -691,6 +768,7 @@
    "omio": "406057",
    "vio": "Stockholm",
    "agoda": "Stockholm, Sweden",
+   "klook": "140",
    "tm_country": "SE"
   },
   "Strasbourg": {
@@ -700,6 +778,7 @@
    "omio": "379901",
    "vio": "Strasbourg",
    "agoda": "Strasbourg, France",
+   "klook": "365224",
    "tm_country": "FR"
   },
   "Suzuka": {
@@ -712,6 +791,7 @@
    "gyg_iata": "SYD",
    "vio": "Sydney",
    "agoda": "Sydney, Australia",
+   "klook": "68",
    "tm_country": "AU",
    "viator": 357
   },
@@ -720,14 +800,16 @@
    "viator": 5262,
    "gyg_iata": "TPE",
    "vio": "Taipei",
-   "agoda": "Taipei, Taiwan"
+   "agoda": "Taipei, Taiwan",
+   "klook": "19"
   },
   "Tokyo": {
    "country": "Japan",
    "viator": 334,
    "gyg_iata": "TYO",
    "vio": "Tokyo",
-   "agoda": "Tokyo, Japan"
+   "agoda": "Tokyo, Japan",
+   "klook": "28"
   },
   "Tokyo Disney Resort": {
    "country": "Japan"
@@ -738,6 +820,7 @@
    "gyg_iata": "YTO",
    "vio": "Toronto",
    "agoda": "Toronto (ON), Canada",
+   "klook": "535",
    "tm_country": "CA"
   },
   "Tromsø": {
@@ -746,6 +829,7 @@
    "vio": "Tromsø",
    "agoda": "Tromsø, Norway",
    "tm_country": "NO",
+   "klook": "172",
    "viator": 4362
   },
   "Tulum": {
@@ -753,6 +837,7 @@
    "viator": 23012,
    "gyg_iata": "TQO",
    "agoda": "Tulum, Mexico",
+   "klook": "17463",
    "tm_country": "MX"
   },
   "Valencia": {
@@ -762,6 +847,7 @@
    "omio": "378849",
    "vio": "Valencia",
    "agoda": "València, Spain",
+   "klook": "381",
    "tm_country": "ES"
   },
   "Vancouver": {
@@ -770,6 +856,7 @@
    "gyg_iata": "YVR",
    "vio": "Vancouver",
    "agoda": "Vancouver (BC), Canada",
+   "klook": "534",
    "tm_country": "CA"
   },
   "Venice": {
@@ -779,6 +866,7 @@
    "omio": "388743",
    "vio": "Venice",
    "agoda": "Venice, Italy",
+   "klook": "117",
    "tm_country": "IT"
   },
   "Vienna": {
@@ -788,11 +876,13 @@
    "omio": "368571",
    "vio": "Vienna",
    "agoda": "Vienna, Austria",
+   "klook": "91",
    "tm_country": "AT"
   },
   "Washington, DC": {
    "country": "USA",
    "vio": "Washington",
+   "klook": "166",
    "tm_country": "US",
    "viator": 657
   },
@@ -800,6 +890,7 @@
    "country": "Canada",
    "viator": 618,
    "agoda": "Whistler (BC), Canada",
+   "klook": "701094",
    "tm_country": "CA"
   },
   "Yogyakarta": {
@@ -807,13 +898,15 @@
    "viator": 22560,
    "gyg_iata": "JOG",
    "vio": "Yogyakarta",
-   "agoda": "Yogyakarta, Indonesia"
+   "agoda": "Yogyakarta, Indonesia",
+   "klook": "163"
   },
   "Zermatt": {
    "country": "Switzerland",
    "viator": 5014,
    "omio": "373290",
    "agoda": "Zermatt, Switzerland",
+   "klook": "413",
    "tm_country": "CH"
   },
   "Zurich": {
@@ -823,12 +916,14 @@
    "omio": "373297",
    "vio": "Zürich",
    "agoda": "Zürich, Switzerland",
+   "klook": "138",
    "tm_country": "CH"
   }
  },
  "check": {
   "London": "viator: 2 places named London",
   "Naples": "viator: 2 places named Naples",
+  "Perth": "klook: 2 places named Perth",
   "Sydney": "viator: 2 places named Sydney"
  }
 }

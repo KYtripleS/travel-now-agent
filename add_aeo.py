@@ -2612,10 +2612,12 @@ TPW = {  # kind: (campaign, promo, brand, fixed query)
     "vio": (638, 9208, "Vio.com", "currency=USD&language=en&all_deals=true&results=true&banner=false&dividers=true&stars=1&rating=6"),
     "agoda": (104, 8303, "Agoda", "locale=en"),
     "booking": (84, 9240, "Booking.com", "locale=en"),
+    # Klook's tour cards (2026-11-12): strongest in Asia-Pacific; city_id from its own suggestions
+    "klook": (137, 4497, "Klook", "currency=USD&locale=en&amount=3"),
 }
 TPW_SUB = {"viator": "vi", "gyg": "gy", "twelvego_city": "12c", "twelvego": "12f", "omio": "om", "discovercars": "dc",
            "ticketmaster": "tm", "airalo": "al", "airhelp": "ah", "visitorscoverage": "vc",
-           "vio": "vo", "agoda": "ag", "booking": "bk"}
+           "vio": "vo", "agoda": "ag", "booking": "bk", "klook": "kl"}
 TPW_TOURS_H = re.compile(r"things to do|\btours?\b|day trips?|what to (do|see)|sights|experiences|activities|"
                          r"itinerary|\bday \d|neighbourhoods?|areas? to explore", re.I)
 TPW_EVENT = re.compile(r"new-years-eve|christmas|festival|grand-prix|marathon|oktoberfest|coachella|glastonbury")
@@ -2624,7 +2626,11 @@ TPW_INSURANCE = re.compile(r"insurance")
 TPW_FLIGHT = re.compile(r"flight|airport|layover")
 TPW_RAIL_EU = re.compile(r"europe-rail|train-vs-flight-in-europe")
 TPW_CAR = re.compile(r"car-hire|rental-car|road-trip|self-drive")
-TPW_MAX = 3
+TPW_MAX = 6                                   # partner widgets on one page, at most
+TPW_TOUR_PAGE = re.compile(r"things-to-do|tour|day-trip|itinerar|days-in|-days|what-to-do|excursion|cruise|"
+                           r"experiences|activities|sightseeing|attractions")
+KLOOK_COUNTRIES = {"Japan", "South Korea", "Taiwan", "Hong Kong", "Singapore", "Thailand", "Vietnam", "Malaysia",
+                   "Indonesia", "Philippines", "China", "Australia", "New Zealand", "United Arab Emirates", ""}
 TPW_HOTEL_TOPIC = re.compile(r"hotel|otas|hostel|booking-sites|ryokan|accommodation")
 
 
@@ -2669,8 +2675,8 @@ def _tpw_before(h: Tag | None, box: Tag) -> bool:
     prev = h.previous_sibling
     while isinstance(prev, NavigableString) and not prev.strip():
         prev = prev.previous_sibling
-    if isinstance(prev, Tag) and "gy-tpw" in (prev.get("class") or []):
-        return False                                 # never two widgets back to back
+    if isinstance(prev, Tag) and {"gy-tpw", "gy-stay-map"} & set(prev.get("class") or []):
+        return False                                 # never two widgets (or a map and a widget) back to back
     h.insert_before(box)
     return True
 
@@ -2709,31 +2715,19 @@ def _rates_h2s(h2s: list[Tag]) -> list[int]:
     return out
 
 
-def add_hotel_widgets(soup: BeautifulSoup, slug: str, article: Tag, h2s: list[Tag], city: str, P: dict,
-                      stay: bool) -> int:
-    """Vio.com's hotel cards (rates from several booking sites) after the guide's hotel lists, and Agoda's
-    search with the city filled in after the first area. Off the guide's own picks: never between a
-    hotel and its rate link."""
-    n = 0
-    vio = lambda: _tpw(soup, "vio", slug, f"More hotel deals in {city}", f"place={urllib.parse.quote(P['vio'])}",
-                       "compares Expedia, Hotels.com, Agoda and Trip.com")
-    agoda = lambda: _tpw(soup, "agoda", slug, f"Search {city} hotels on Agoda",
-                         f"default_destination={urllib.parse.quote(P['agoda'])}", "pick your dates for live rates")
-    if stay:
-        idx = _rates_h2s(h2s)
-        if P.get("vio") and idx:
-            last = idx[-1]
-            ok = last + 1 < len(h2s) and _tpw_before(h2s[last + 1], vio())
-            n += 1 if ok or _insert_lower(article, vio()) else 0
-        if P.get("agoda") and len(idx) >= 2:
-            n += 1 if _tpw_before(h2s[idx[1]], agoda()) else 0
-        elif P.get("agoda"):
-            n += 1 if _insert_lower(article, agoda()) else 0
-    else:
-        if P.get("vio"):
-            n += 1 if _tpw_at(h2s, 0.45, vio()) else 0
-        if P.get("agoda"):
-            n += 1 if _tpw_at(h2s, 0.85, agoda()) else 0
+def _tpw_slots(h2s: list[Tag], start: int, boxes: list[Tag]) -> int:
+    """Widgets high on the page (operator, 2026-11-12): one in front of each h2 from h2s[start] on, in the
+    order given, so a section of the guide always sits between two of them. Never at the end of a history
+    section. Returns how many went in."""
+    n, i = 0, max(1, start)
+    for box in boxes:
+        while i < len(h2s):
+            j, i = i, i + 1
+            if not SBTN_HISTORY.search(h2s[j - 1].get_text(" ", strip=True)) and _tpw_before(h2s[j], box):
+                n += 1
+                break
+        else:
+            break
     return n
 
 
@@ -2746,58 +2740,69 @@ def add_tp_widgets(soup: BeautifulSoup, slug: str, article: Tag) -> int:
         city = dest[0].replace(" NSW", "")
         P = _tpw_places().get(city, {})
         stay = slug in stay22.PAGES
+        q = urllib.parse.quote
+        W = {}                                   # kind -> box, in the order they go down the page
         if P.get("tm_country") and TPW_EVENT.search(slug):
             name = city if city != "Washington, DC" else "Washington"
             today = date.today()                 # the event's own dates, not today's listings
             start = (f"&start_date={today.year}-12-31" if "new-years-eve" in slug else
                      f"&start_date={today.year}-12-01" if "christmas" in slug and today < date(today.year, 12, 1) else "")
-            n += put(_tpw_after_section(h2s, re.compile("."), _tpw(
-                soup, "ticketmaster", slug, f"Tickets for events in {city}" + (" on New Year's Eve" if "new-years-eve" in slug else ""),
-                f"country={P['tm_country']}&city={urllib.parse.quote(name)}{start}", "concerts, shows and sport")))
-        if P.get("gyg_iata") and not stay:
-            n += put(_tpw_after_section(h2s, re.compile("."), _tpw(
-                soup, "gyg", slug, f"Things to do in {city}", f"iata={P['gyg_iata']}")))
-        if P.get("viator"):
-            box = _tpw(soup, "viator", slug, f"Popular tours in {city}", f"destination={P['viator']}",
-                       "rated by travellers")
-            ok = (_insert_lower(article, box) if stay else
-                  _tpw_after_section(h2s, TPW_TOURS_H, box, skip_first=True) or _tpw_at(h2s, 0.6, box))
-            n += put(ok)
-        n += add_hotel_widgets(soup, slug, article, h2s, city, P, stay)
-        L = trip_kit_links()
-        if n < TPW_MAX + 2 and P.get("twelvego"):
-            n += put(_tpw_after_section(h2s, KIT_AFTER, _tpw(
-                soup, "twelvego_city", slug, f"Buses, trains and ferries from {city}", f"city={urllib.parse.quote(city)}",
-                "fares from 12Go")) or _insert_lower(article, _tpw(
-                soup, "twelvego_city", slug, f"Buses, trains and ferries from {city}", f"city={urllib.parse.quote(city)}",
-                "fares from 12Go")))
-        elif n < TPW_MAX + 2 and P.get("omio"):
-            mk = lambda: _tpw(soup, "omio", slug, f"Trains and buses to {city}", f"arrival={P['omio']}",
-                              "rail, coach and flights")
-            n += put(_tpw_after_section(h2s, KIT_AFTER, mk()) or (not stay and _tpw_at(h2s, 0.75, mk()))
-                     or (stay and _insert_lower(article, mk())))
-        if n < TPW_MAX + 2 and city in L.get("discovercars", {}) and not stay:
-            n += put(_tpw_after_section(h2s, KIT_AFTER, _tpw(
-                soup, "discovercars", slug, f"Car hire around {city}", "", "compares the big rental firms")))
+            W["ticketmaster"] = _tpw(soup, "ticketmaster", slug, f"Tickets for events in {city}" + (
+                " on New Year's Eve" if "new-years-eve" in slug else ""),
+                f"country={P['tm_country']}&city={q(name)}{start}", "concerts, shows and sport")
+        viator = P.get("viator") and _tpw(soup, "viator", slug, f"Popular tours in {city}", f"destination={P['viator']}",
+                                          "rated by travellers")
+        gyg = P.get("gyg_iata") and _tpw(soup, "gyg", slug, f"Things to do in {city}", f"iata={P['gyg_iata']}")
+        klook = (P.get("klook") and P.get("country", "") in KLOOK_COUNTRIES and
+                 _tpw(soup, "klook", slug, f"Tours and tickets in {city} on Klook", f"city_id={P['klook']}",
+                      "tickets, passes and tours"))
+        vio = P.get("vio") and _tpw(soup, "vio", slug, f"More hotel deals in {city}", f"place={q(P['vio'])}",
+                                    "compares Expedia, Hotels.com, Agoda and Trip.com")
+        agoda = P.get("agoda") and _tpw(soup, "agoda", slug, f"Search {city} hotels on Agoda",
+                                        f"default_destination={q(P['agoda'])}", "pick your dates for live rates")
+        move = None
+        if P.get("twelvego"):
+            move = _tpw(soup, "twelvego_city", slug, f"Buses, trains and ferries from {city}", f"city={q(city)}",
+                        "fares from 12Go")
+        elif P.get("omio"):
+            move = _tpw(soup, "omio", slug, f"Trains and buses to {city}", f"arrival={P['omio']}", "rail, coach and flights")
+        car = (city in trip_kit_links().get("discovercars", {}) and not stay and
+               _tpw(soup, "discovercars", slug, f"Car hire around {city}", "", "compares the big rental firms"))
+        if stay:
+            # a stay guide sells rooms first: Agoda's date search in front of the first area, Vio's cards
+            # after it, then tours; never between a hotel and its rate link (both go in front of an h2)
+            order, idx = [agoda, vio, viator, klook, gyg, move], _rates_h2s(h2s)
+            start = idx[0] if idx else 1
+        elif TPW_TOUR_PAGE.search(slug):
+            order, start = [viator, gyg, klook, vio, agoda, move, car], 1
+        else:
+            order, start = [viator, vio, gyg, klook, agoda, move, car], 1
+        boxes = [W["ticketmaster"]] if "ticketmaster" in W else []
+        boxes += [b for b in order if b][:TPW_MAX - len(boxes)]
+        n = _tpw_slots(h2s, start, boxes)
+        for b in boxes[n:]:                      # short pages: the money ones still go in, lower down
+            if b.get("data-w") in ("viator", "vio", "agoda", "klook") and _insert_lower(article, b):
+                n += 1
+                break
         return n
     at = lambda f, box: _tpw_at(h2s, f, box) or _insert_lower(article, box)
     if TPW_ESIM.search(slug):
-        n += put(at(0.34, _tpw(soup, "airalo", slug, "Find an eSIM for your destination", "",
+        n += put(at(0.2, _tpw(soup, "airalo", slug, "Find an eSIM for your destination", "",
                                          "type a country or region")))
     elif TPW_INSURANCE.search(slug):
-        n += put(at(0.5, _tpw(soup, "visitorscoverage", slug, "Get a travel medical insurance quote", "",
+        n += put(at(0.2, _tpw(soup, "visitorscoverage", slug, "Get a travel medical insurance quote", "",
                                         "best suited to US residents and visitors to the US")))
     elif TPW_FLIGHT.search(slug):
-        n += put(at(0.6, _tpw(soup, "airhelp", slug, "Flight delayed or cancelled? Check what you are owed",
+        n += put(at(0.2, _tpw(soup, "airhelp", slug, "Flight delayed or cancelled? Check what you are owed",
                                         "", "free check, fee only if they win")))
     if TPW_HOTEL_TOPIC.search(slug):
-        n += put(at(0.3, _tpw(soup, "booking", slug, "Search hotels on Booking.com", "", "free cancellation on many rooms")))
-        n += put(_tpw_at(h2s, 0.7, _tpw(soup, "agoda", slug, "Search hotels on Agoda", "", "strong in Asia")))
+        n += put(at(0.2, _tpw(soup, "booking", slug, "Search hotels on Booking.com", "", "free cancellation on many rooms")))
+        n += put(_tpw_at(h2s, 0.45, _tpw(soup, "agoda", slug, "Search hotels on Agoda", "", "strong in Asia")))
     if TPW_RAIL_EU.search(slug):
-        n += put(_tpw_at(h2s, 0.4, _tpw(soup, "omio", slug, "Search trains and buses across Europe", "",
+        n += put(_tpw_at(h2s, 0.2, _tpw(soup, "omio", slug, "Search trains and buses across Europe", "",
                                         "rail, coach and flights")))
     if TPW_CAR.search(slug):
-        n += put(_tpw_at(h2s, 0.5, _tpw(soup, "discovercars", slug, "Compare car hire", "",
+        n += put(_tpw_at(h2s, 0.2, _tpw(soup, "discovercars", slug, "Compare car hire", "",
                                         "compares the big rental firms")))
     return n
 
