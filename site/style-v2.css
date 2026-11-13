@@ -5533,3 +5533,23 @@ body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame
 .article .gy-tpw-frame > * { max-width: 100%; }
 .article .gy-tpw .gy-widget-note { margin-top: 6px; }
 .article .gy-tpw .gy-widget-note { font-family: var(--sans); font-size: .76rem; line-height: 1.45; color: #5b6170; }
+
+/* 20. Why book now (2026-11-13, add_aeo.why_now + data/why_now.json): one ruled line straight above
+   the verdict button. Only true reasons: the event's date counted in the reader's browser, a deadline a
+   source states, free cancellation. No timers that reset, no stock counts we cannot see. */
+.article .gy-verdict p.gy-verdict-now {
+  margin: 12px 0 0; padding: 2px 0 2px 12px; border-left: 3px solid var(--gold);
+  font-family: var(--sans); font-size: .86rem; line-height: 1.5; color: var(--ink);
+}
+.article .gy-verdict-now strong { color: var(--navy); font-weight: 700; }
+.article .gy-verdict-now .gy-now-count { font-weight: 700; color: var(--gold-ink); }
+@media (max-width: 640px) { .article .gy-verdict p.gy-verdict-now { font-size: .82rem; } }
+/* On wider screens the line sits beside the button, so the button keeps its place in the first screen */
+@media (min-width: 641px) {
+  .article .gy-verdict:has(> .gy-verdict-now) { display: flex; flex-wrap: wrap; align-items: center; column-gap: 18px; }
+  .article .gy-verdict:has(> .gy-verdict-now) > * { flex: 1 1 100%; order: 4; }
+  .article .gy-verdict:has(> .gy-verdict-now) > .gy-verdict-label,
+  .article .gy-verdict:has(> .gy-verdict-now) > .gy-verdict-text { order: 1; }
+  .article .gy-verdict:has(> .gy-verdict-now) > .gy-verdict-cta { flex: 0 0 auto; order: 2; max-width: 52%; }
+  .article .gy-verdict:has(> .gy-verdict-now) > p.gy-verdict-now { flex: 1 1 240px; order: 3; margin-top: 10px; font-size: .8rem; }
+}

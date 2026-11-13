@@ -169,6 +169,15 @@ window.gySaveTrip = function (box, dep) {
              Its LetMeAllez script stamps "gentlyyonder-<page>" on our links when the page
              loads, which hides the placement, so that stamp is replaced at click time. */
           u.searchParams.set('campaign', (page + '__' + placement).replace(/[^A-Za-z0-9]+/g, '_'));
+          /* Open the booking site on real dates, so it shows live prices and what is still
+             free: the reader's own (given on a hotel map this visit), else the event's nights
+             (add_aeo.why_now). Stay22 passes checkin/checkout on to the booking site. */
+          var st = window.gyStayDates && gyStayDates();
+          if (st && !u.searchParams.has('checkin')) {
+            u.searchParams.set('checkin', st.in);
+            u.searchParams.set('checkout', st.out);
+            if (st.a) u.searchParams.set('adults', st.a);
+          }
           a.href = u.toString();
         }
       } catch (err) {}
@@ -481,6 +490,41 @@ window.gySaveTrip = function (box, dep) {
   update();
 })();
 
+/* Why book now (add_aeo.why_now): count the days to the event in the reader's own
+   calendar, and drop a dated line once its day has passed, between site builds. */
+(function () {
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function iso(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+  function plus(day, n) { var p = day.split('-'); return iso(new Date(+p[0], +p[1] - 1, +p[2] + n)); }
+  var today = iso(new Date());
+  /* the dates hotel links open on: the reader's own, else the event's nights */
+  window.gyStayDates = function () {
+    var t = null;
+    try { t = JSON.parse(sessionStorage.getItem('gy_trip') || 'null'); } catch (e) {}
+    if (t && t.in >= today) return { in: t.in, out: plus(t.in, +t.n), a: t.a };
+    var v = document.querySelector('[data-stay-in]');
+    if (v && v.getAttribute('data-stay-in') > today)
+      return { in: v.getAttribute('data-stay-in'), out: v.getAttribute('data-stay-out') };
+    return null;
+  };
+  Array.prototype.forEach.call(document.querySelectorAll('.gy-verdict-now [data-until]'), function (el) {
+    var until = el.getAttribute('data-until');
+    if (el.classList.contains('gy-now-count')) {
+      var p = until.split('-'), n = Math.round((new Date(+p[0], +p[1] - 1, +p[2]) - new Date(today.replace(/-/g, '/'))) / 864e5);
+      el.textContent = n > 1 ? ', ' + n + ' days away' : n === 1 ? ', tomorrow' : '';
+      if (n < 1) { var d = el.parentNode.querySelector('.gy-now-dates'); if (d) d.hidden = true; }
+    } else if (until < today) {
+      el.hidden = true;
+    }
+  });
+  /* the reader gave their own dates: say so instead of the event's nights */
+  var t = null;
+  try { t = JSON.parse(sessionStorage.getItem('gy_trip') || 'null'); } catch (e) {}
+  if (t && t.in >= today) Array.prototype.forEach.call(document.querySelectorAll('.gy-now-dates'), function (d) {
+    d.textContent = 'Our hotel links open your dates, so the booking site shows what is still free. ';
+  });
+})();
+
 /* Hotel maps: the reader's dates. Stay22's map shows live prices and availability
    once it has check-in and check-out; the dates are kept for the visit, so the
    next guide's map opens on them too. */
@@ -493,6 +537,11 @@ window.gySaveTrip = function (box, dep) {
   var today = iso(new Date()), saved = null;
   try { saved = JSON.parse(sessionStorage.getItem('gy_trip') || 'null'); } catch (e) {}
   if (saved && !(saved.in >= today)) saved = null;
+  var ev = document.querySelector('[data-stay-in]'), evIn = ev && ev.getAttribute('data-stay-in');
+  if (!saved && evIn > today) {      /* an event guide: open the map on the event's nights */
+    var nn = Math.round((new Date(ev.getAttribute('data-stay-out').replace(/-/g, '/')) - new Date(evIn.replace(/-/g, '/'))) / 864e5);
+    saved = { in: evIn, n: String(nn), a: '2', preset: true };
+  }
   function apply(form, t) {
     var frame = form.parentNode.querySelector('iframe');
     if (!frame) return;

@@ -1,0 +1,57 @@
+{
+ "note": "Why book now: one line straight above each verdict button (add_aeo.why_now). Every line must be true on any day it shows: a page line disappears the day after 'until'; partner lines describe how the partner works, never a price trend or stock level we cannot see. No invented deadlines, counts or scarcity (FTC 2022 dark-patterns report; CMA 2019 hotel-booking undertakings). Event countdowns come from data/event_calendar.json and are counted in the reader's browser.",
+ "partners": {
+  "hotel": {
+   "text": "Prices change daily. Where a hotel offers free cancellation, booking now holds today’s rate and you can still cancel before its deadline.",
+   "source": "PRICE_NOTE wording in use since 2026-10; free cancellation is set per rate by each hotel",
+   "checked": "2026-11-13"
+  },
+  "klook": {
+   "text": "Each Klook listing shows its cancellation terms before you pay. Where it offers free cancellation, you can book now and still get your money back inside that window.",
+   "source": "https://www.klook.com/en-IN/help-center/",
+   "checked": "2026-11-13"
+  },
+  "kkday": {
+   "text": "Each KKday listing shows its cancellation terms before you pay, often as “Free cancellation N days prior”. Inside that window, booking now costs you nothing if plans change.",
+   "source": "https://help.kkday.com/en/support/solutions/articles/16000082413",
+   "checked": "2026-11-13"
+  },
+  "airalo": {
+   "text": "Buy and install it now, at home on Wi-Fi: on most Airalo plans the days only start counting when the eSIM connects at your destination. The plan’s Validity Policy says which kind you have.",
+   "source": "https://www.airalo.com/help/using-managing-esims/ZSEEHBT5HW6F/how-do-data-amounts-and-validity-periods-work-for-esim-packages/8KC1GEAUTAL0",
+   "checked": "2026-11-13"
+  },
+  "saily": {
+   "text": "Saily asks you to install the eSIM before the trip, on Wi-Fi at home; the plan then switches on by itself once you are abroad. Installing takes a few minutes.",
+   "source": "https://support.saily.com/hc/en-us/articles/21484628749084-Saily-data-plan-management",
+   "checked": "2026-11-13"
+  }
+ },
+ "pages": {
+  "where-to-buy-universal-studios-japan-tickets": {
+   "text": "The park now re-prices each day by demand and advises buying as early as possible; if your date’s price rises after you buy, you pay nothing more.",
+   "until": "2027-08-31",
+   "source": "USJ notice of 30 June 2026, quoted in the guide"
+  },
+  "where-to-stay-in-tokyo-new-year": {
+   "text": "The Skytree first-sunrise lottery closes on 26 November, and Senso-ji’s bell tickets go on sale at 9am on 1 December in limited numbers.",
+   "until": "2026-12-01",
+   "source": "https://www.tokyo-skytree.jp/lp/first-sunrise2027/ ; https://www.senso-ji.jp/annual_event/24.html"
+  },
+  "where-to-stay-in-london-new-years-eve": {
+   "text": "The Mayor’s page says fireworks tickets (£20 to £55, Ticketmaster only) sell out quickly, and your ticket decides which bank of the Thames to sleep on.",
+   "until": "2026-12-31",
+   "source": "https://www.london.gov.uk/events/london-new-years-eve-2026"
+  },
+  "where-to-stay-in-sydney-new-years-eve": {
+   "text": "Paid harbour sites such as Clark, Goat and Shark Islands had sold out by early October. Most view-room packages are prepaid with a minimum stay, so read the terms before you pay.",
+   "until": "2026-12-31",
+   "source": "https://www.sydneynewyearseve.com/ticketed-vantage-points"
+  },
+  "where-to-buy-disneyland-paris-tickets": {
+   "text": "When we checked, the Tiqets and GetYourGuide dated tickets were free to cancel until about three days before the visit, so booking your date now and rechecking later costs nothing. Check your own date’s terms before you pay.",
+   "until": "2027-01-31",
+   "source": "Tiqets and GetYourGuide listings checked 31 October 2026, quoted in the guide"
+  }
+ }
+}

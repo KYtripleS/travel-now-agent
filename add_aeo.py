@@ -49,7 +49,7 @@ import sys
 import subprocess
 import unicodedata
 import urllib.parse
-from datetime import date
+from datetime import date, timedelta
 from functools import lru_cache
 from pathlib import Path
 
@@ -182,6 +182,103 @@ LEGACY_BOX = "aside.verdict"
 PRICE_NOTE = ("Hotel prices change daily with demand, and on busy dates they tend to climb as rooms fill. "
               "A rate with free cancellation, where the hotel offers one, locks in today’s price while you "
               "keep comparing.")
+
+
+# Straight above every verdict button: a true reason to act now (data/why_now.json).
+# Research (2026-11-13): real, shorter deadlines get people to act (Shu & Gneezy 2010:
+# a two-week gift certificate was redeemed by over 30%, a two-month one by under 10%);
+# fake timers and scarcity are deceptive (FTC dark-patterns report 2022; CMA hotel-booking
+# undertakings 2019). So: event dates counted down in the reader's browser, deadlines a
+# source states, free cancellation as the way to act now without risk, and hotel links that
+# open on the event's nights so the booking site itself shows what is still free.
+_DATA = Path(__file__).resolve().parent / "data"
+WHY_NOW = json.loads((_DATA / "why_now.json").read_text())
+EVENT_ROWS = json.loads((_DATA / "event_calendar.json").read_text())["events"]
+EVENT_MAX_NIGHTS = 4            # longer events (markets, festivals) get no preset nights
+
+
+def _day(d: date) -> str:
+    return f"{d.day} {d.strftime('%B')}"
+
+
+def page_event(slug: str) -> dict | None:
+    """The page's next or current event from the calendar (a page can have two rows)."""
+    today = date.today().isoformat()
+    rows = [e for e in EVENT_ROWS if e["slug"] == slug and e["end"] >= today]
+    return min(rows, key=lambda e: e["start"]) if rows else None
+
+
+def event_nights(e: dict | None) -> tuple[str, str] | None:
+    """Check-in and check-out for a short, fixed-date event that has not started."""
+    if not e or e.get("usual"):
+        return None
+    s, end = date.fromisoformat(e["start"]), date.fromisoformat(e["end"])
+    if s <= date.today() or (end - s).days > EVENT_MAX_NIGHTS:
+        return None
+    return s.isoformat(), (end if end > s else s + timedelta(days=1)).isoformat()
+
+
+def _now_kind(href: str) -> str | None:
+    host = urllib.parse.urlparse(href).netloc
+    if host.endswith("stay22.com"):
+        return "hotel"
+    return next((k for k in ("klook", "kkday", "airalo", "saily") if host.startswith(k + ".")), None)
+
+
+def why_now(soup: BeautifulSoup, slug: str | None, href: str) -> Tag | None:
+    """The 'why now' line for a verdict, or None when nothing true and useful applies."""
+    today = date.today()
+    kind = _now_kind(href)
+    page = WHY_NOW["pages"].get(slug or "")
+    if page and page["until"] < today.isoformat():
+        page = None
+    if not page and not kind:
+        return None
+    p = soup.new_tag("p", attrs={"class": "gy-verdict-now"})
+    e = page_event(slug or "") if kind == "hotel" else None
+    if e and not e.get("usual"):
+        s, end = date.fromisoformat(e["start"]), date.fromisoformat(e["end"])
+        b = soup.new_tag("strong")
+        b.string = e["name"]
+        p.append(b)
+        if s > today:
+            p.append(f": {_day(s)}")
+            c = soup.new_tag("span", attrs={"class": "gy-now-count", "data-until": s.isoformat()})
+            p.append(c)
+            p.append(". ")
+        else:
+            p.append(f": on now, until {_day(end)}. ")
+        nights = event_nights(e)
+        if nights:
+            d = soup.new_tag("span", attrs={"class": "gy-now-dates"})
+            a, z = date.fromisoformat(nights[0]), date.fromisoformat(nights[1])
+            d.string = (f"Our hotel links open {a.day} {a.strftime('%b')} to {z.day} {z.strftime('%b')}, "
+                        "so the booking site shows what is still free. ")
+            p.append(d)
+    # An event's countdown (or a dated deadline) goes above the button; the partner's
+    # free-cancellation or install-now line goes straight under it, so the button
+    # still shows on a laptop's first screen.
+    if page:
+        line = soup.new_tag("span", attrs={"class": "gy-now-line", "data-until": page["until"]})
+        line.string = page["text"]
+        p.append(line)
+    elif not p.contents:
+        line = soup.new_tag("span", attrs={"class": "gy-now-line"})
+        line.string = WHY_NOW["partners"][kind]["text"]
+        p.append(line)
+    return p
+
+
+def why_now_after(soup: BeautifulSoup, slug: str | None, href: str, now: Tag | None) -> Tag | None:
+    """Under the button: the partner line, when the line above did not already use it."""
+    kind = _now_kind(href)
+    if not kind or now is None or now.select_one(".gy-now-line:not([data-until])"):
+        return None
+    if now.select_one(".gy-now-line[data-until]") and kind != "hotel":
+        return None
+    n = soup.new_tag("p", attrs={"class": "gy-verdict-price"})
+    n.string = WHY_NOW["partners"][kind]["text"]
+    return n
 
 
 def _stay_cta(slug: str, label: str) -> tuple:
@@ -1494,6 +1591,12 @@ def render_verdict(soup: BeautifulSoup, spec: dict, slug: str | None = None) -> 
         pos = e
     p.append((" " if pos == 0 else "") + spec["text"][pos:])
     box.append(p)
+    now = why_now(soup, slug, href) if href else None
+    if now is not None:
+        box.append(now)
+        nights = event_nights(page_event(slug or "")) if "stay22.com" in href else None
+        if nights:                          # js/gy-reveal.js opens hotel links on these nights
+            box["data-stay-in"], box["data-stay-out"] = nights
     if href:
         c = soup.new_tag("p", attrs={"class": "gy-verdict-cta"})
         a = _anchor(soup, href, managed=False)
@@ -1504,7 +1607,10 @@ def render_verdict(soup: BeautifulSoup, spec: dict, slug: str | None = None) -> 
     if spec.get("note_html"):
         n = BeautifulSoup(f'<p class="gy-verdict-note">{spec["note_html"]}</p>', "html.parser").p
         box.append(n)
-    if href and "stay22.com" in href:                # a hotel verdict
+    after = why_now_after(soup, slug, href, now) if href else None
+    if after is not None:
+        box.append(after)
+    elif href and "stay22.com" in href and now is None:
         n = soup.new_tag("p", attrs={"class": "gy-verdict-price"})
         n.string = PRICE_NOTE
         box.append(n)
