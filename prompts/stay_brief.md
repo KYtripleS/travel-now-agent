@@ -76,7 +76,8 @@ Place one under the intro or the short answer, and one in most area sections.
 ## Research rules (hard)
 - Web access: try WebSearch/WebFetch first. If they error, use the browser tools
   (mcp__Claude_Browser__*): ALWAYS open your own tab with `tabs_create` and pass that tabId on every
-  call; never touch other tabs; close your tab at the end. Search with
+  call; never touch other tabs; close your tab at the end. Never use the operator's Chrome
+  (mcp__claude-in-chrome__*): if the built-in browser refuses a site, report it as unverified. Search with
   `https://html.duckduckgo.com/html/?q=...` and read pages with get_page_text (max_chars ≤ 6000).
   Do not log in anywhere, accept no cookie banners beyond "reject"/"necessary only", stop at CAPTCHAs.
 - WebFetch summaries can misread pages (hidden text, overlays). For any claim that changes the advice
