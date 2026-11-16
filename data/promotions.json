@@ -32,9 +32,9 @@
    ],
    "verification": {
     "status": "verified",
-    "checked": "2026-10-19",
+    "checked": "2026-11-16",
     "recheck_days": 7,
-    "evidence": "Campaign site on 19 October 2026: stay period 1 October to 15 December 2026, checkout by 16 December; the 'campaign has ended' banner is not switched on (checked outside HTML comments); it ends early once the budget is reached.",
+    "evidence": "Campaign site on 16 November 2026: discount period 1 October to 15 December 2026, checkout by 16 December; booking and sales until 15 December; no 'campaign has ended' text on the page; it ends early once the budget is reached.",
     "fact_id": "jp.fukuoka.fukko-wari-2026",
     "sources": [
      "https://fukuoka-fukkou-wari.jp/",
@@ -72,9 +72,9 @@
    ],
    "verification": {
     "status": "verified",
-    "checked": "2026-10-15",
+    "checked": "2026-11-16",
     "recheck_days": 30,
-    "evidence": "vic.gov.au on 15 October 2026: half price from 1 June 2026 until 1 January 2027; excludes SkyBus, ferries and non-subsidised regional buses. It does not say whether 1 January is included, so the countdown ends at its start.",
+    "evidence": "vic.gov.au on 16 November 2026: half price for everyone from 1 June 2026 until 1 January 2027; Full Fare daily cap $11.40 to $5.70; excludes SkyBus, ferries and non-subsidised regional buses. It does not say whether 1 January is included, so the countdown ends at its start.",
     "fact_id": "mel.half-price-fares-2026",
     "sources": [
      "https://www.vic.gov.au/half-price-travel"
