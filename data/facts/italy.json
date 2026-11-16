@@ -4814,6 +4814,208 @@
           "its site says the station, a few steps away, reaches the Cinque Terre in five minutes"
         ]
       }
+    },
+    {
+      "id": "it.rome.colosseum.price-standard",
+      "topic": "price",
+      "claim": "The official 24h Colosseum, Roman Forum and Palatine ticket for one individual was listed at EUR 18.00 on ticketing.colosseo.it on 2026-11-16.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://ticketing.colosseo.it/en/categorie/singoli-1-8-persone/",
+          "kind": "official",
+          "title": "Individuals - Parco Archeologico del Colosseo",
+          "evidence": [
+            "24h – COLOSSEUM, ROMAN FORUM, PALATINE",
+            "€ 18.00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-colosseum-tickets.html": [
+          "the official ticket for the Colosseum, Roman Forum and Palatine was €18",
+          "€18 against €26 and €29"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.colosseum.price-full-experience",
+      "topic": "price",
+      "claim": "Official Full Experience tickets (arena; underground and arena; attic) were each listed at EUR 24.00; Only Arena and Forum Pass SUPER at EUR 18.00.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://ticketing.colosseo.it/en/categorie/singoli-1-8-persone/",
+          "kind": "official",
+          "title": "Individuals - Parco Archeologico del Colosseo",
+          "evidence": [
+            "FULL EXPERIENCE - UNDERGROUND LEVELS AND ARENA",
+            "€ 24.00",
+            "FULL EXPERIENCE TICKET WITH ENTRY TO THE ATTIC OF THE COLOSSEUM"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-colosseum-tickets.html": [
+          "Official Full Experience tickets were €24 each",
+          "The official Full Experience tickets were €24 on our check."
+        ]
+      }
+    },
+    {
+      "id": "it.rome.colosseum.release-window",
+      "topic": "place",
+      "claim": "Ticket sales, with compulsory reservation of the time slot for entry to the Colosseum, open 30 days before the visit date.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://colosseo.it/en/opening-times-and-tickets/",
+          "kind": "official",
+          "title": "Opening Times and Tickets - Parco archeologico del Colosseo",
+          "evidence": [
+            "open 30 days before the date of the visit"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-colosseum-tickets.html": [
+          "sales open only 30 days ahead",
+          "The official sales window is one month."
+        ]
+      }
+    },
+    {
+      "id": "it.rome.colosseum.nominative-id",
+      "topic": "place",
+      "claim": "Tickets are issued in the holder's name and an identification document must be kept visible at the park entrances.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://colosseo.it/en/opening-times-and-tickets/",
+          "kind": "official",
+          "title": "Opening Times and Tickets - Parco archeologico del Colosseo",
+          "evidence": [
+            "Tickets are issued in the holder’s name.",
+            "an identification document must be kept visible"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-colosseum-tickets.html": [
+          "tickets carry the holder's name",
+          "Enter every traveller's name exactly as on their ID."
+        ]
+      }
+    },
+    {
+      "id": "it.rome.colosseum.name-change",
+      "topic": "place",
+      "claim": "For visits from 9 May the ticket holder's name may be changed once, by midnight on the seventh day before the visit, in limited cases.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://ticketing.colosseo.it/en/",
+          "kind": "official",
+          "title": "Parco Archeologico del Colosseo – Online Tickets",
+          "evidence": [
+            "for tickets with a visit date starting from May 9",
+            "only once and exclusively by 24:00 (midnight) on the seventh day prior to the visit date"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-colosseum-tickets.html": [
+          "the holder's name may be changed only once and only by midnight on the seventh day before the visit"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.colosseum.visit-length-forum-window",
+      "topic": "place",
+      "claim": "The standard ticket gives 75 minutes in the Colosseum; the Forum-Palatine entry can be used within 24 hours before or after the Colosseum booking time; arrive 15 minutes early.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://colosseo.it/en/tickets/colosseum-roman-forum-palatine/",
+          "kind": "official",
+          "title": "Colosseum, Roman Forum and Palatine - Parco archeologico del Colosseo",
+          "evidence": [
+            "THE PERMANENCE PERIOD IN THE COLOSSEUM IS 75  MINUTES",
+            "within 24 hours before or after the booking time at the Colosseum"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-colosseum-tickets.html": [
+          "the Colosseum visit lasts 75 minutes on this ticket type"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.colosseum.hours-winter",
+      "topic": "place",
+      "claim": "From 25 October 2026 to 28 February 2027 the park is open 8.30 am to 4.30 pm, last admission 3.30 pm; closed 25 December 2026 and 1 January 2027.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://colosseo.it/en/opening-times-and-tickets/",
+          "kind": "official",
+          "title": "Opening Times and Tickets - Parco archeologico del Colosseo",
+          "evidence": [
+            "From 25 October 2026 to 28 February 2027",
+            "Last admission at 3.30 pm",
+            "25 December 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-colosseum-tickets.html": [
+          "From 25 October 2026 to 28 February 2027 the park is open 8:30 to 16:30"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.colosseum.free-days",
+      "topic": "place",
+      "claim": "Free admission is listed for the first Sunday of the month, 25 April, 2 June and 4 November.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://colosseo.it/en/opening-times-and-tickets/",
+          "kind": "official",
+          "title": "Opening Times and Tickets - Parco archeologico del Colosseo",
+          "evidence": [
+            "first Sunday of the month, 25 April, 2 June, 4 November"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-colosseum-tickets.html": [
+          "The park lists free admission on the first Sunday of the month, and on 25 April, 2 June and 4 November."
+        ]
+      }
+    },
+    {
+      "id": "it.rome.colosseum.slots-14-dec",
+      "topic": "place",
+      "claim": "On 2026-12-14 the standard ticket showed slots 8:30-15:15; 9:15 and 9:30 were closed or sold out and 15:15 showed 7 available (read 2026-11-16).",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://ticketing.colosseo.it/en/eventi/24h-colosseo-foro-romano-palatino/",
+          "kind": "official",
+          "title": "24h – COLOSSEUM, ROMAN FORUM, PALATINE – Parco Archeologico del Colosseo",
+          "evidence": [
+            "9:15 AMClosed sale or sold out",
+            "Available: 7"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-colosseum-tickets.html": [
+          "with the 9:15 and 9:30 slots shown as closed or sold out and 7 places left on the 15:15 slot"
+        ]
+      }
     }
   ]
 }

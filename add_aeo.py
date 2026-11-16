@@ -330,6 +330,21 @@ V = {
              "day we compared, 31 October; KKday shows the price in US dollars. Every seller we checked says "
              "the order cannot be cancelled once bought, so fix your date first.",
         cta=("href", "Check Studio Passes on KKday", "https://kkday.tpx.lu/Ew1DdWsa")),
+    "where-to-buy-tokyo-disney-resort-tickets": dict(
+        text="Buy on Disney’s own site if your date might move: changes are free there, refunds are not. Buy "
+             "from KKday if you want a way out: on 16 November its Early Bird package matched Disney’s ¥10,900 "
+             "for 8 December and was free to cancel up to 3 days before.",
+        cta=("href", "Check Tokyo Disney tickets on KKday", "https://kkday.tpx.lu/r8wq2zqj")),
+    "where-to-buy-colosseum-tickets": dict(
+        text="Buy the standard ticket on the official site, ticketing.colosseo.it: €18 for 14 December, sold 30 "
+             "days ahead with a timed Colosseum entry, in your name. The reseller listings we priced were "
+             "non-refundable audio-guide packages. Want a guide to walk you round? That is what resellers sell.",
+        cta=("href", "Compare guided Colosseum tours on GetYourGuide", "https://getyourguide.tpx.lu/rThTgtZz")),
+    "where-to-buy-universal-orlando-tickets": dict(
+        text="Prices were close on 9 December, so choose by refunds and residency. Universal’s own tickets are "
+             "non-refundable; KKday’s one-park ticket was $143 against Universal’s $145 plus tax, with free "
+             "cancellation up to two days before. Tiqets and Viator restrict who may use their tickets.",
+        cta=("href", "Check Universal Orlando tickets on KKday", "https://kkday.tpx.lu/H5f0uA3C")),
     # its partner link sits in the tip box after the article, so it is named here by hand
     "airport-security-bag-rules": dict(
         text="Most full-service airlines allow one carry-on around 56 × 36 × 23 cm (22 × 14 × 9 in) plus one "
@@ -3866,6 +3881,14 @@ STAY_POINTERS = {
     "where-to-stay-for-universal-studios-japan": ("intro",
         'Buying the Express Pass too? <a href="where-to-buy-universal-studios-japan-tickets.html">Universal Studios '
         'Japan tickets compared</a> puts the official store beside KKday and GetYourGuide for the same date.'),
+    "where-to-stay-for-tokyo-disney-resort": ("intro",
+        'Still to buy park tickets? <a href="where-to-buy-tokyo-disney-resort-tickets.html">Tokyo Disney Resort '
+        'tickets compared</a> puts Disney’s own price beside KKday and GetYourGuide for the same date, with who '
+        'refunds what.'),
+    "where-to-stay-in-orlando": ("intro",
+        'Still to buy park tickets? <a href="where-to-buy-universal-orlando-tickets.html">Universal Orlando tickets '
+        'compared</a> puts Universal’s own price beside KKday, Tiqets and Viator for the same date, with tax and '
+        'refunds.'),
     "where-to-stay-for-disneyland-paris": ("intro",
         'Still to buy park tickets? <a href="where-to-buy-disneyland-paris-tickets.html">Disneyland Paris tickets '
         'compared</a> puts Disney’s own price beside Tiqets, GetYourGuide and Viator for the same date.'),
@@ -3912,7 +3935,9 @@ STAY_POINTERS = {
         'Coming for Holy Week? <a href="where-to-stay-in-rome-easter.html">Where to stay in Rome for Easter 2027</a> '
         '(Easter Sunday is 28 March) matches hotels to St Peter’s, the Colosseum and the free papal tickets. '
         'Heading south? <a href="where-to-stay-on-the-amalfi-coast.html">Where to stay on the Amalfi Coast</a> '
-        'compares Positano, Amalfi, Ravello and Sorrento, with each town’s tourist tax.'),
+        'compares Positano, Amalfi, Ravello and Sorrento, with each town’s tourist tax. Visiting the Colosseum? '
+        '<a href="where-to-buy-colosseum-tickets.html">Colosseum tickets compared</a> sets the official €18 ticket '
+        'beside the reseller packages, with the 30-day sales window and the name rules.'),
     "where-to-stay-in-las-vegas": ("intro",
         'Coming for CES? <a href="where-to-stay-in-las-vegas-ces.html">Where to stay for CES 2027</a> (6 to 9 '
         'January) matches hotels to the free CES shuttles, the Vegas Loop and the monorail. Here for 31 December? '

@@ -7756,6 +7756,223 @@
           "One minute from the east exit of the Kintetsu and JR Tsu Station, with a communal bath"
         ]
       }
+    },
+    {
+      "id": "jp.tokyo-disney.sales-window",
+      "topic": "transport",
+      "claim": "Official park tickets go on sale daily at 2:00 p.m. for admission on the same date two months later.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/ticket/index/202612/",
+          "kind": "official",
+          "title": "Tokyo Disney Resort, Park Tickets",
+          "evidence": [
+            "Tickets will be sold daily from 2:00 p.m. for admissions on the same date two months later."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tokyo-disney-resort-tickets.html": [
+          "Tickets will be sold daily from 2:00 p.m. for admissions on the same date two months later."
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo-disney.variable-pricing",
+      "topic": "price",
+      "claim": "Official 1-Day Passport prices are variable by date; on 8 Dec 2026 the adult price was JPY 10,900 and on Sat 12 Dec JPY 12,400.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/ticket/index/202612/",
+          "kind": "official",
+          "title": "Tokyo Disney Resort, Park Tickets",
+          "evidence": [
+            "Ticket prices are based on variable pricing.",
+            "The amount shown below the calendar dates is the price of a 1-Day Passport for an adult that day."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tokyo-disney-resort-tickets.html": [
+          "Ticket prices are based on variable pricing.",
+          "the official adult 1-Day Passport was ¥10,900"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo-disney.age-bands-lowest",
+      "topic": "price",
+      "claim": "Adult 18+, junior 12-17, child 4-11, 3 and under free; lowest 1-Day Passport JPY 8,900 / 7,400 / 5,300.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/ticket/index/202612/",
+          "kind": "official",
+          "title": "Tokyo Disney Resort, Park Tickets",
+          "evidence": [
+            "Adult: ages 18 & over / Junior: ages 12-17 / Child: ages 4-11",
+            "Children ages 3 & under are admitted for free."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tokyo-disney-resort-tickets.html": [
+          "Adult is ages 18 and over, junior 12 to 17 and child 4 to 11"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo-disney.after-passports",
+      "topic": "price",
+      "claim": "After 3 Passport (weekends and holidays, from 3 p.m.) lowest adult JPY 7,900; After 5 Passport (weekdays, from 5 p.m.) lowest adult JPY 5,400.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/ticket/index/202612/",
+          "kind": "official",
+          "title": "Tokyo Disney Resort, Park Tickets",
+          "evidence": [
+            "After 5 Passport (Weekdays)",
+            "With this ticket, guests can enjoy the selected park from 5:00 p.m. on weekdays (excluding holidays)."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tokyo-disney-resort-tickets.html": [
+          "an After 5 Passport for weekdays from 5:00 p.m. at ¥5,400 for an adult"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo-disney.no-refunds",
+      "topic": "history",
+      "claim": "Official park tickets cannot be cancelled or refunded for personal reasons; the date and age category can be changed free while valid, not the park or ticket type.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto.html",
+          "kind": "official",
+          "title": "Making changes to Park tickets",
+          "evidence": [
+            "Refunds and cancellations of Park tickets due to guests' personal reasons are not accepted.",
+            "There are no fees for making changes to the date of admission and age category."
+          ]
+        },
+        {
+          "url": "https://faq-en.tokyodisneyresort.jp/answer/680ba04301fdf7431bafb338/",
+          "kind": "official",
+          "title": "FAQ: cancellation or refund of Park tickets",
+          "evidence": [
+            "Requests for cancellations or refunds of Park tickets due to Guests' personal circumstances will not be accepted."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tokyo-disney-resort-tickets.html": [
+          "Refunds and cancellations of Park tickets due to guests' personal reasons are not accepted."
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo-disney.changes-official-only",
+      "topic": "history",
+      "claim": "Online ticket changes are possible only for tickets bought on the official website.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/ticket/change/howto.html",
+          "kind": "official",
+          "title": "Making changes to Park tickets",
+          "evidence": [
+            "Changes can be made to Park tickets online only for those purchased through the Tokyo Disney Resort Official Website."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tokyo-disney-resort-tickets.html": [
+          "only for those purchased through the Tokyo Disney Resort Official Website"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo-disney.premier-access-app",
+      "topic": "price",
+      "claim": "Disney Premier Access is sold in the Tokyo Disney Resort App, excludes the park ticket; each ticket can buy one; prices JPY 1,500-3,500.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/tdr/guide/app_service/disneypremieraccess",
+          "kind": "official",
+          "title": "Disney Premier Access",
+          "evidence": [
+            "Available for purchase on the Tokyo Disney Resort App.",
+            "The fee above does not include the cost of a Park ticket.",
+            "Each park ticket can be used to purchase one Disney Premier Access."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tokyo-disney-resort-tickets.html": [
+          "Available for purchase on the Tokyo Disney Resort App",
+          "The fee above does not include the cost of a Park ticket"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo-disney.fixed-date-two-months",
+      "topic": "transport",
+      "claim": "Fixed-date tickets can be bought up to two months ahead; up to ten tickets per online purchase.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/en/ticket/purchase.html",
+          "kind": "official",
+          "title": "How to Purchase Park Tickets (Online)",
+          "evidence": [
+            "Fixed-date tickets for up to two month ahead can be purchased.",
+            "Up to ten Park tickets may be purchased online at a time."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tokyo-disney-resort-tickets.html": [
+          "Fixed-date tickets for up to two month ahead can be purchased."
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo-disney.authorised-online-agencies",
+      "topic": "place",
+      "claim": "Tokyo Disney Resort's Park Guide lists online travel agencies where Park tickets may be bought, including KKday, Klook, GetYourGuide and Viator; only 1-Day Passports are sold there, and tickets from unofficial vendors may be invalid.",
+      "checked": "2026-11-16",
+      "recheck_days": 60,
+      "sources": [
+        {
+          "url": "https://www.tokyodisneyresort.jp/treasure/parkguide/en/",
+          "kind": "official",
+          "title": "Tokyo Disney Resort Park Guide",
+          "evidence": [
+            "Only 1-Day Passports are available for purchase on the following websites.",
+            "Travel agencies where Park tickets may be purchased"
+          ]
+        },
+        {
+          "url": "https://www.tokyodisneyresort.jp/ticket_info/ticket_resale.html",
+          "kind": "official",
+          "title": "Measures to Address Unauthorized Reselling of Park Tickets",
+          "evidence": [
+            "Park tickets sold at unofficial vendors, online reseller shops, online auctions, or ticket brokers may be invalid."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tokyo-disney-resort-tickets.html": [
+          "Buy only from a seller Disney names",
+          "KKday, Klook, GetYourGuide and Viator are all on it"
+        ]
+      }
     }
   ]
 }

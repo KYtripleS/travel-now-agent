@@ -11473,6 +11473,230 @@
           "Parlor, Monarch and LOFT Suites"
         ]
       }
+    },
+    {
+      "id": "us.orlando.universal.date-pricing",
+      "topic": "price",
+      "claim": "Universal Orlando prices vary by date; on Wed 9 Dec 2026 (read 16 Nov 2026) one adult paid $145 for 1 day at 1 park, $155 for 1 day at Epic Universe and $200 for 1 day park-to-park, plus tax.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.universalorlando.com/web/en/us/tickets-packages/park-tickets",
+          "kind": "official",
+          "title": "Universal Orlando tickets page",
+          "evidence": [
+            "Prices and availability vary by date and are subject to change at any time."
+          ]
+        },
+        {
+          "url": "https://store.universalorlando.com/en/us/store/c/uo_ice_default_pb_tickets",
+          "kind": "official",
+          "title": "Universal Orlando ticket store",
+          "evidence": [
+            "Adults starting from $179.99"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-orlando-tickets.html": [
+          "Prices and availability vary by date and are subject to change at any time",
+          "$200 plus tax",
+          "Epic Universe's one-day ticket showed"
+        ]
+      }
+    },
+    {
+      "id": "us.orlando.universal.refunds",
+      "topic": "place",
+      "claim": "Universal says tickets are non-refundable except with its Cancel For Any Reason product, but most may be exchanged to a different date, possibly with a fee.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.universalorlando.com/web/en/us/tickets-packages/park-tickets",
+          "kind": "official",
+          "title": "Universal Orlando tickets page FAQ 5",
+          "evidence": [
+            "Tickets are non-refundable (except with Cancel For Any Reason product if purchased and eligible), but most may be eligible for exchange to a different date."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-orlando-tickets.html": [
+          "Tickets are non-refundable (except with Cancel For Any Reason product if purchased and eligible), but most may be eligible for exchange to a different date.",
+          "Universal says tickets are non-refundable"
+        ]
+      }
+    },
+    {
+      "id": "us.orlando.universal.child-ages",
+      "topic": "place",
+      "claim": "Universal's ticket store lists adult tickets for ages 10+ and child tickets for ages 3-9.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://store.universalorlando.com/en/us/store/c/uo_ice_default_pb_tickets",
+          "kind": "official",
+          "title": "Universal Orlando ticket store",
+          "evidence": [
+            "Ages 3-9",
+            "Ages 10+"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-orlando-tickets.html": [
+          "child tickets for ages 3 to 9",
+          "age 10 and over pays the adult price"
+        ]
+      }
+    },
+    {
+      "id": "us.orlando.universal.park-to-park-epic",
+      "topic": "place",
+      "claim": "Park-to-park tickets move you between parks in one day, with Hogwarts Express between Hogsmeade and Diagon Alley for Studios and Islands of Adventure access; Epic Universe needs a ticket that includes it; Express Pass needs separate admission; 3-day special ticket is one day per park, each a different park.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.universalorlando.com/web/en/us/tickets-packages/park-tickets",
+          "kind": "official",
+          "title": "Universal Orlando tickets page FAQ 2, 3, 8",
+          "evidence": [
+            "It can be added to your Park-to-Park or multi-day ticket.",
+            "Move freely between multiple parks in one day.",
+            "Separate theme park admission required."
+          ]
+        },
+        {
+          "url": "https://www.universalorlando.com/web/en/us/tickets-packages/park-tickets",
+          "kind": "official",
+          "title": "Universal Orlando tickets page",
+          "evidence": [
+            "Valid for one day per park, with each day used at a different park."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-orlando-tickets.html": [
+          "Epic Universe needs a ticket that includes it",
+          "Valid for one day per park, with each day used at a different park.",
+          "Express Pass is separate"
+        ]
+      }
+    },
+    {
+      "id": "us.orlando.universal.volcano-bay-closed",
+      "topic": "place",
+      "claim": "Universal Volcano Bay is temporarily closed with a planned reopening on or before 1 April 2027.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.universalorlando.com/web/en/us/tickets-packages/park-tickets",
+          "kind": "official",
+          "title": "Universal Orlando tickets page",
+          "evidence": [
+            "has a planned reopening on or before April 1, 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-orlando-tickets.html": [
+          "Volcano Bay is closed",
+          "temporarily closed for maintenance and has a planned reopening on or before April 1, 2027"
+        ]
+      }
+    },
+    {
+      "id": "us.orlando.universal.multiday-9dec",
+      "topic": "price",
+      "claim": "On 9 Dec 2026 a 2-day park-to-park adult ticket (Studios and Islands of Adventure) was $341.99 and a 3-day park-to-park ticket including Epic Universe $483.99, plus tax; the 2-day follow-on visit must be within 4 days.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://store.universalorlando.com/en/us/store/c/uo_ice_default_pb_tickets",
+          "kind": "official",
+          "title": "Universal Orlando ticket store 2-day and 3-day calendars",
+          "evidence": [
+            "Enjoy 3 days to move freely between Universal Epic Universe, Universal Studios Florida, and Universal Islands of Adventure."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-orlando-tickets.html": [
+          "$483.99",
+          "$341.99",
+          "following visit must be within 4 days"
+        ]
+      }
+    },
+    {
+      "id": "us.orlando.universal.kkday",
+      "topic": "price",
+      "claim": "KKday, 9 Dec 2026, adult: 1 park $143, Epic Universe $175, 2 parks (park-to-park) $205; free cancellation up to 2 days before the date.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/4095-florida-universal-orlando-resort-ticket",
+          "kind": "operator",
+          "title": "KKday Universal Orlando listing",
+          "evidence": [
+            "Cancellations 2 day(s) (inclusive) before the selected date are allowed. Unused orders can be canceled for free"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-orlando-tickets.html": [
+          "Cancellations 2 day(s) (inclusive) before the selected date are allowed. Unused orders can be canceled for free",
+          "KKday was $2 under Universal on the one-park ticket"
+        ]
+      }
+    },
+    {
+      "id": "us.orlando.universal.tiqets",
+      "topic": "price",
+      "claim": "Tiqets 1-day park-to-park ticket was $225 for 9 Dec 2026, non-refundable, no rescheduling, not valid for residents of the USA, Canada or the UK.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/orlando-attractions-c79889/tickets-for-universal-orlando-single-day-park-to-park-tickets-p1031969/",
+          "kind": "operator",
+          "title": "Tiqets Universal Orlando park-to-park listing",
+          "evidence": [
+            "This ticket is not valid for residents of the USA, Canada, or the UK",
+            "This ticket is nonrefundable"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-orlando-tickets.html": [
+          "This ticket is not valid for residents of the USA, Canada, or the UK.",
+          "Tiqets's park-to-park ticket was $225"
+        ]
+      }
+    },
+    {
+      "id": "us.orlando.universal.viator",
+      "topic": "price",
+      "claim": "Viator (US/Canada residents product) 1-day park-to-park $230.53 and 2-day $364.22 for 9 Dec 2026, price includes 6.5% Florida sales tax; free cancellation before 8 Dec for the 1-day option.",
+      "checked": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-AU/tours/Orlando/Universal-Orlando-Park-to-Park-Tickets-USA-Canada-Residents/d663-3088_1D_UO",
+          "kind": "operator",
+          "title": "Viator Universal Orlando park-to-park listing",
+          "evidence": [
+            "This product is available for USA / Canada residents only.",
+            "6.5% Florida Sales Tax",
+            "You can cancel up to 24 hours in advance of the experience for a full refund."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-orlando-tickets.html": [
+          "This product is available for USA / Canada residents only.",
+          "6.5% Florida Sales Tax",
+          "Free cancellation before 8 Dec (local time)"
+        ]
+      }
     }
   ]
 }

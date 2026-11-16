@@ -52,6 +52,16 @@
    "text": "When we checked, the Tiqets and GetYourGuide dated tickets were free to cancel until about three days before the visit, so booking your date now and rechecking later costs nothing. Check your own date’s terms before you pay.",
    "until": "2027-01-31",
    "source": "Tiqets and GetYourGuide listings checked 31 October 2026, quoted in the guide"
+  },
+  "where-to-buy-tokyo-disney-resort-tickets": {
+   "text": "When we checked, KKday’s Early Bird package was free to cancel up to 3 days before the visit, while Disney itself refunds nothing, so booking your date there now costs nothing if plans change. Check your own date’s terms before you pay.",
+   "until": "2027-01-31",
+   "source": "KKday listing checked 16 November 2026, quoted in the guide"
+  },
+  "where-to-buy-universal-orlando-tickets": {
+   "text": "When we checked, KKday’s Universal Orlando ticket was free to cancel up to two days before the date, while Universal’s own tickets are non-refundable, so booking your date there now costs nothing if plans change. Check your own date’s terms before you pay.",
+   "until": "2027-01-31",
+   "source": "KKday listing checked 16 November 2026, quoted in the guide"
   }
  }
 }

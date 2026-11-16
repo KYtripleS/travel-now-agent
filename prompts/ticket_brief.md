@@ -51,6 +51,20 @@ want one thing: where to buy this ticket for my date, and what the difference is
   "<attraction> tickets", faq (6 Q&As, each matching the body).
 - 4-5 Pexels figures of the attraction itself (alt text = only what is in frame).
 
+## Web access for prices
+Reseller sites (GetYourGuide, Klook, Viator, KKday) answer WebFetch with 403, and some official ticket
+sites show a bot check. Read listings and calendars in your own built-in browser tab (allowed for this
+work since 2026-11-16; rules as in stay_brief.md). Call tabs_create FIRST and pass its tabId on every
+call: a navigate without your own tab acts on the operator's tab and is refused. A page that still blocks
+the tab is "not checked".
+
+Before you start pricing, read the official site's terms on resellers. If it refuses tickets bought from
+resellers (as Sagrada Família's does), stop and report: that page is not a comparison.
+
+Editor's integration (not the agent's job): reseller hrefs -> Travelpayouts short links
+(ops/tp_deeplinks.create), publish_article.py, `ops/register_ticket.py <slug> <facts-file>`, then the
+verdict (add_aeo.V), the stay guide pointer (STAY_POINTERS) and any why-now line by hand.
+
 ## Sellers to check
 Official site first. Then Klook, GetYourGuide, Viator, Tiqets and KKday where they list this ticket
 (we have all five as partners through Travelpayouts). Read each listing for your chosen date. If a
