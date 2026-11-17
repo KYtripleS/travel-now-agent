@@ -7973,6 +7973,199 @@
           "KKday, Klook, GetYourGuide and Viator are all on it"
         ]
       }
+    },
+    {
+      "id": "jp.tokyo.teamlab-planets.closing",
+      "topic": "place",
+      "claim": "teamLab's official Planets page gives the run as July 7, 2018 to the end of 2027.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.teamlab.art/e/planets/",
+          "kind": "official",
+          "title": "teamLab Planets TOKYO official page",
+          "evidence": [
+            "July 7, 2018 - End of 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-teamlab-planets-tickets.html": [
+          "July 7, 2018 - End of 2027",
+          "We found no more exact date"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.teamlab-planets.price-2026-12-09",
+      "topic": "price",
+      "claim": "Official store adult price for 9 Dec 2026 was JPY 3,800 (teen 2,800, child 4-12 1,500, Premium Pass 12,000); closed Thursday 3 December 2026.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://teamlabplanets.dmm.com/en/ticket",
+          "kind": "official",
+          "title": "teamLab Planets TOKYO Official Ticket Store",
+          "evidence": [
+            "3,800 JPY ~",
+            "12,000 JPY",
+            "Thursday, December 3; Thursday, January 14"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-teamlab-planets-tickets.html": [
+          "¥3,800 for 1 to 18 December (except 3 December)",
+          "Under 3 free; children 4-12 ¥1,500; junior high and high school ¥2,800"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.teamlab-planets.named-sellers",
+      "topic": "place",
+      "claim": "The official help page names Lawson Ticket (Loppi), Seven Ticket and Klook as other ticket agencies.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://teamlabplanets.dmm.com/en/help",
+          "kind": "official",
+          "title": "Help - teamLab Planets TOKYO Official Ticket Store",
+          "evidence": [
+            "Tickets can also be purchased through the following ticket agencies",
+            "Lawson Ticket (Loppi)",
+            "Seven Ticket"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-teamlab-planets-tickets.html": [
+          "Lawson Ticket (Loppi), Seven Ticket and Klook",
+          "No other online seller is named"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.teamlab-planets.resale-invalidation",
+      "topic": "place",
+      "claim": "The help page says a ticket found resold on a ticketing site or auction site is invalidated: no entry, no change, no refund.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://teamlabplanets.dmm.com/en/help",
+          "kind": "official",
+          "title": "Help - teamLab Planets TOKYO Official Ticket Store",
+          "evidence": [
+            "the ticket is invalidated",
+            "we will not issue any refund for the invalidated ticket"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-teamlab-planets-tickets.html": [
+          "the ticket is invalidated",
+          "The wording is unclear"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.teamlab-planets.change-refund",
+      "topic": "place",
+      "claim": "Store tickets cannot be cancelled or refunded but can be changed up to 3 times until 2 hours before admission.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.teamlab.art/faq/planets/",
+          "kind": "official",
+          "title": "teamLab Planets TOKYO FAQ",
+          "evidence": [
+            "can be changed up to 3 times",
+            "Tickets cannot be cancelled or refunded once purchased."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-teamlab-planets-tickets.html": [
+          "Tickets can be changed up to 3 times, no later than 2 hours before the admission time.",
+          "Tickets cannot be cancelled or refunded once bought"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.teamlab-planets.entry-hours",
+      "topic": "place",
+      "claim": "Admission time on the ticket, 30 min entry preparation, possible 30-60 min wait; hours 8:00-22:00, last entry one hour before closing.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://teamlabplanets.dmm.com/en/help",
+          "kind": "official",
+          "title": "Help - teamLab Planets TOKYO Official Ticket Store",
+          "evidence": [
+            "30 minutes from the admission time is the entry preparing time",
+            "You may have to wait 30 to 60 minutes to be admitted to the venue."
+          ]
+        },
+        {
+          "url": "https://teamlabplanets.dmm.com/en/ticket",
+          "kind": "official",
+          "title": "teamLab Planets TOKYO Official Ticket Store",
+          "evidence": [
+            "8:00 - 22:00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-teamlab-planets-tickets.html": [
+          "It also warns you may wait 30 to 60 minutes.",
+          "The ticket store lists 8:00 to 22:00"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.teamlab-planets.tiqets-terms",
+      "topic": "price",
+      "claim": "Tiqets standard entry ticket: JPY 3,800 on 9 Dec 2026 (display currency; charged in USD), nonrefundable, no rescheduling.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/tokyo-attractions-c72181/tickets-for-teamlab-planets-tokyo-p994769/",
+          "kind": "operator",
+          "title": "Tiqets teamLab Planets Tokyo: Entry Ticket",
+          "evidence": [
+            "This ticket is nonrefundable",
+            "Rescheduling is not possible for this ticket"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-teamlab-planets-tickets.html": [
+          "Tiqets says rescheduling is not possible",
+          "Tiqets showed its calendar in yen but says it charges in US dollars"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.teamlab-planets.kkday-terms",
+      "topic": "price",
+      "claim": "KKday general entry JPY 3,800 adult / 2,800 teen / 1,500 child on 9 Dec 2026; Premium Pass 12,000; no cancellation.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/22396-japan-teamlab-planets-tokyo-ticket",
+          "kind": "operator",
+          "title": "KKday teamLab Planets TOKYO Toyosu Tickets",
+          "evidence": [
+            "No cancellation",
+            "Please present your QR code on-site"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-teamlab-planets-tickets.html": [
+          "KKday lists a \"TEAMLAB\" promo code",
+          "KKday's listing says no cancellation"
+        ]
+      }
     }
   ]
 }

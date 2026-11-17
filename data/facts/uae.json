@@ -1222,6 +1222,250 @@
           "Union metro station 650 metres away on foot"
         ]
       }
+    },
+    {
+      "id": "ae.dubai.burj-silver-price",
+      "topic": "price",
+      "claim": "Official Silver (Levels 124/125) on 9 Dec 2026: AED 189 in standard slots, AED 219 for slots 4:30 PM to 7:00 PM.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://ticket.atthetop.ae/make-your-ticket/?id=1053",
+          "kind": "official",
+          "title": "At the Top, Silver booking calendar",
+          "evidence": [
+            "11:00 AM | AED 189.00",
+            "04:30 PM | AED 219.00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "AED 189 at 11:00 AM and about AED 219 at 5:00 PM",
+          "AED 219 for each half-hour slot from 4:30 PM to 7:00 PM"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.burj-gold-price",
+      "topic": "price",
+      "claim": "Official Gold (Levels 124, 125 and 148) was AED 399 in every slot on 9 Dec 2026; last entry 7:00 PM.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://ticket.atthetop.ae/make-your-ticket/?id=798",
+          "kind": "official",
+          "title": "At the Top, Gold booking calendar",
+          "evidence": [
+            "05:00 PM | AED 399.00"
+          ]
+        },
+        {
+          "url": "https://ticket.atthetop.ae/tickets/book-tickets/",
+          "kind": "official",
+          "title": "At the Top, Book tickets",
+          "evidence": [
+            "Last Entry 7:00 PM",
+            "AED 399"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "Level 148 SKY ticket on the official site was one flat price in every slot we saw"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.burj-gold-inclusions",
+      "topic": "place",
+      "claim": "Gold includes priority access, a guide and the SKY lounge with Arabic coffee and sweets; no canapes or alcohol.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://ticket.atthetop.ae/experiences/at-the-top-sky/",
+          "kind": "official",
+          "title": "At the Top SKY, Gold experience",
+          "evidence": [
+            "This experience does not include canapes or alcoholic beverages.",
+            "Priority Access"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "does not include canapes or alcoholic beverages"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.burj-no-sunset-ticket",
+      "topic": "place",
+      "claim": "The official FAQ says there is no sunset experience and recommends Level 124 entry about 120 minutes before sunset.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://ticket.atthetop.ae/frequently-asked-questions/",
+          "kind": "official",
+          "title": "At the Top, FAQ",
+          "evidence": [
+            "recommended to purchase a ticket to Level 124 for entry approximately 120 minutes prior to sunset time"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "recommends buying a Level 124 ticket for entry",
+          "approximately 120 minutes prior to sunset time"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.burj-weather-no-refund",
+      "topic": "place",
+      "claim": "The official FAQ gives no refunds or rain checks for inclement weather; the outdoor terrace may close.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://ticket.atthetop.ae/frequently-asked-questions/",
+          "kind": "official",
+          "title": "At the Top, FAQ",
+          "evidence": [
+            "We do not provide refunds and rain checks for inclement weather"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "no refunds or rain checks for inclement weather"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.burj-official-terms-cancel",
+      "topic": "place",
+      "claim": "The official site's general terms say online ticket purchases may not be cancellable or changeable after confirmation.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://ticket.atthetop.ae/terms-and-conditions/",
+          "kind": "official",
+          "title": "At the Top, Terms and Conditions",
+          "evidence": [
+            "prevented from canceling or changing your on-line purchase of tickets"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "you may be prevented from cancelling or changing an online ticket purchase after confirmation"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.burj-under-3-free",
+      "topic": "price",
+      "claim": "Children under 3 enter free (official).",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://ticket.atthetop.ae/experiences/at-the-top-burj-khalifa/",
+          "kind": "official",
+          "title": "At the Top, Silver experience",
+          "evidence": [
+            "Children under the age of 3 enter for free."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "children under 3 enter free"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.sunset-2026-12-09",
+      "topic": "transport",
+      "claim": "Sunset in Dubai on 9 Dec 2026 is 17:29 (timeanddate.com).",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.timeanddate.com/sun/united-arab-emirates/dubai?month=12&year=2026",
+          "kind": "news",
+          "title": "timeanddate.com, Dubai sunrise and sunset, December 2026",
+          "evidence": [
+            "17:29"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "5:29 PM sunset that timeanddate.com gives for Dubai that day"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.burj-gyg-cancel",
+      "topic": "price",
+      "claim": "GetYourGuide's Levels 124/125 listing offered free cancellation until 8 Dec for a 9 Dec visit (24 hours before).",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/dubai-l173/dubai-burj-khalifa-levels-124-125-entry-ticket-options-t49019/",
+          "kind": "operator",
+          "title": "GetYourGuide, Burj Khalifa Levels 124 and 125",
+          "evidence": [
+            "Cancel up to 24 hours in advance for a full refund"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "Cancel for free until Dec 8"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.burj-viator-nonrefundable",
+      "topic": "price",
+      "claim": "Viator's Burj Khalifa At The Top listing is non-refundable.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Dubai/The-Burj-Khalifa-At-the-top-124-125th-floor/d828-242747P9",
+          "kind": "operator",
+          "title": "Viator, Burj Khalifa At The Top Admission Ticket",
+          "evidence": [
+            "This experience is non-refundable and cannot be changed for any reason."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "is non-refundable and cannot be changed for any reason"
+        ]
+      }
+    },
+    {
+      "id": "ae.dubai.burj-kkday-cancel",
+      "topic": "price",
+      "claim": "KKday allows cancellation up to 2 days before the selected date, not in the last 0-1 days.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en-us/product/122188-burj-khalifa-observation-deck-tickets",
+          "kind": "operator",
+          "title": "KKday, Burj Khalifa tickets: levels 124 and 125",
+          "evidence": [
+            "Cancellations 2 day(s) (inclusive) before the selected date are allowed."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-burj-khalifa-tickets.html": [
+          "Free cancellation up to 2 day(s) in advance"
+        ]
+      }
     }
   ]
 }

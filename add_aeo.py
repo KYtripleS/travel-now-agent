@@ -340,6 +340,22 @@ V = {
              "days ahead with a timed Colosseum entry, in your name. The reseller listings we priced were "
              "non-refundable audio-guide packages. Want a guide to walk you round? That is what resellers sell.",
         cta=("href", "Compare guided Colosseum tours on GetYourGuide", "https://getyourguide.tpx.lu/rThTgtZz")),
+    "where-to-buy-vatican-museums-tickets": dict(
+        text="For a self-guided visit, buy on tickets.museivaticani.va, the museums' only official ticket site: "
+             "€25 with skip-the-line for 9 December, against €32.50 on GetYourGuide. Most official morning slots "
+             "were sold out or nearly so; when yours is gone, or you want an audio guide waiting, a reseller fills the gap.",
+        cta=("href", "Check Vatican Museums tickets on GetYourGuide", "https://getyourguide.tpx.lu/c6ivqzuh")),
+    "where-to-buy-teamlab-planets-tickets": dict(
+        text="Buy from the official teamLab Planets store: ¥3,800 for an adult on 9 December, the same as Tiqets "
+             "and KKday, and you can change the date up to three times. Prefer to pay in an app? Klook is the one "
+             "online reseller teamLab's help page names.",
+        cta=("href", "Open the teamLab Planets ticket on Klook", "https://klook.tpx.lu/3Yn4usOs")),
+    "where-to-buy-burj-khalifa-tickets": dict(
+        text="Pick the slot before the seller: on 9 December Levels 124 and 125 were AED 189 at 11:00 and AED 219 "
+             "at 17:00 on the official site; Tiqets matched both and GetYourGuide converted to the same. "
+             "GetYourGuide's listing says free cancellation up to 24 hours ahead. There is no sunset ticket: "
+             "enter about two hours before sunset.",
+        cta=("href", "Check Burj Khalifa tickets on GetYourGuide", "https://getyourguide.tpx.lu/MWyj3IfY")),
     "where-to-buy-universal-orlando-tickets": dict(
         text="Prices were close on 9 December, so choose by refunds and residency. Universal’s own tickets are "
              "non-refundable; KKday’s one-park ticket was $143 against Universal’s $145 plus tax, with free "
@@ -3476,7 +3492,9 @@ STAY_POINTERS = {
         'Eve</a> matches hotels to the Brandenburg Gate party, the fireworks-ban zones and the night trains.'),
     "where-to-stay-in-dubai": ("intro",
         'Here for 31 December? <a href="where-to-stay-in-dubai-new-years-eve.html">Where to stay in Dubai for New Year’s '
-        'Eve</a> matches hotels to the Burj Khalifa fireworks, the road closures and the Palm.'),
+        'Eve</a> matches hotels to the Burj Khalifa fireworks, the road closures and the Palm. Going up the tower? '
+        '<a href="where-to-buy-burj-khalifa-tickets.html">Burj Khalifa tickets compared</a> sets the official '
+        'slot prices beside the resellers, with the sunset timing and the refund terms.'),
     "where-to-stay-in-budapest": ("intro",
         'Coming in December? <a href="where-to-stay-in-budapest-christmas-market.html">Where to stay in Budapest for '
         'the Christmas markets</a> matches hotels to Vörösmarty Square and the Basilica, open from 13 November.'),
@@ -3606,7 +3624,8 @@ STAY_POINTERS = {
         '<a href="where-to-stay-for-tokyo-marathon.html">Where to stay for the Tokyo Marathon 2027</a> matches '
         'hotels to the Shinjuku start, the Tokyo Station finish and bib pick-up in Ariake. Going to the parks? '
         '<a href="where-to-stay-for-tokyo-disney-resort.html">Where to stay for Tokyo Disneyland</a> weighs the '
-        'Disney Hotels, Shin-Urayasu and a Tokyo base.'),
+        'Disney Hotels, Shin-Urayasu and a Tokyo base. Booking teamLab? <a href="where-to-buy-teamlab-planets-tickets.html">'
+        'teamLab Planets tickets compared</a> shows which sellers teamLab names and how date changes work.'),
     "where-to-stay-in-kyoto": ("intro",
         f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
         'give each city, and how to move your bags between them. Here for the autumn leaves? <a '
@@ -3937,7 +3956,9 @@ STAY_POINTERS = {
         'Heading south? <a href="where-to-stay-on-the-amalfi-coast.html">Where to stay on the Amalfi Coast</a> '
         'compares Positano, Amalfi, Ravello and Sorrento, with each town’s tourist tax. Visiting the Colosseum? '
         '<a href="where-to-buy-colosseum-tickets.html">Colosseum tickets compared</a> sets the official €18 ticket '
-        'beside the reseller packages, with the 30-day sales window and the name rules.'),
+        'beside the reseller packages, with the 30-day sales window and the name rules. Seeing the Sistine Chapel? '
+        '<a href="where-to-buy-vatican-museums-tickets.html">Vatican Museums tickets compared</a> sets the official '
+        '€25 skip-the-line ticket beside the resellers, with the closed days and the dress code.'),
     "where-to-stay-in-las-vegas": ("intro",
         'Coming for CES? <a href="where-to-stay-in-las-vegas-ces.html">Where to stay for CES 2027</a> (6 to 9 '
         'January) matches hotels to the free CES shuttles, the Vegas Loop and the monorail. Here for 31 December? '

@@ -5016,6 +5016,119 @@
           "with the 9:15 and 9:30 slots shown as closed or sold out and 7 places left on the 15:15 slot"
         ]
       }
+    },
+    {
+      "id": "it.rome.vatican.official-price",
+      "topic": "price",
+      "claim": "The Vatican Museums full entry ticket is EUR 20.00 without online booking and EUR 20.00 + 5.00 with 'Skip the Line' booking on the official site (EUR 25 total).",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html",
+          "kind": "official",
+          "title": "Prices and Tickets - Vatican Museums",
+          "evidence": [
+            "Full entry ticket “Skip the Line” € 20.00 + 5.00 (with booking on the official Vatican Museums website)",
+            "Full entry ticket € 20.00 (without online booking)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-vatican-museums-tickets.html": [
+          "the official skip-the-line ticket was €25",
+          "€20 for entry plus a €5 \"Skip the Line\" charge"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.vatican.refunds-validity",
+      "topic": "place",
+      "claim": "Vatican Museums tickets cannot be refunded and are valid solely on the day the ticket is issued.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html",
+          "kind": "official",
+          "title": "Prices and Tickets - Vatican Museums",
+          "evidence": [
+            "solely on the day on which the ticket is issued",
+            "Tickets cannot be refunded."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-vatican-museums-tickets.html": [
+          "Tickets cannot be refunded",
+          "solely on the day on which the ticket is issued"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.vatican.official-notice",
+      "topic": "place",
+      "claim": "The Vatican Museums name tickets.museivaticani.va as the only official online ticket site and warn of look-alike domains charging higher prices; the page does not say tickets from other sellers are refused.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html",
+          "kind": "official",
+          "title": "Prices and Tickets - Vatican Museums",
+          "evidence": [
+            "The only official site for purchasing tickets online is https://tickets.museivaticani.va",
+            "websites that use domains similar to the official one, which may charge significantly higher prices"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-vatican-museums-tickets.html": [
+          "The only official site for purchasing tickets online is https://tickets.museivaticani.va",
+          "Please beware of potential scams and websites that use domains similar to the official one, which may charge significantly higher prices."
+        ]
+      }
+    },
+    {
+      "id": "it.rome.vatican.hours",
+      "topic": "place",
+      "claim": "Vatican Museums open Monday to Saturday 08:00-20:00 (last entry 18:00); the last Sunday of each month 09:00-14:00 (last entry 12:30) with free entry, except on listed holiday dates.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html",
+          "kind": "official",
+          "title": "Opening days and times - Vatican Museums",
+          "evidence": [
+            "From Monday to Saturday 08.00 a.m. – 08.00 p.m. ( final entry 06.00 p.m. )",
+            "Every last Sunday of the month"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-vatican-museums-tickets.html": [
+          "Monday to Saturday 8:00 to 20:00 with the last entry at 18:00",
+          "the museums open 9:00 to 14:00 with free entry"
+        ]
+      }
+    },
+    {
+      "id": "it.rome.vatican.dress-code",
+      "topic": "place",
+      "claim": "Sleeveless or low-cut garments, shorts above the knee, miniskirts and hats are not permitted in the Vatican Museums.",
+      "checked": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.museivaticani.va/content/museivaticani/en/organizza-visita/consigli-utili.html",
+          "kind": "official",
+          "title": "Useful Tips - Vatican Museums",
+          "evidence": [
+            "Sleeveless and / or low-cut garments, shorts above the knee, miniskirts and hats are not permitted."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-vatican-museums-tickets.html": [
+          "Sleeveless and / or low-cut garments, shorts above the knee, miniskirts and hats are not permitted."
+        ]
+      }
     }
   ]
 }
