@@ -5001,6 +5001,12 @@ body.gy-has-aff-bar { padding-bottom: 64px; }
 }
 .article a[rel~="sponsored"][href]:not([class]):not(.button):hover, .article .gy-rates a:hover,
 .article .gy-city-rates-list a[rel~="sponsored"]:hover { color: var(--cta-hover); text-decoration-color: var(--cta-hover); }
+/* hotel names open their checked Booking.com page (2026-11-19): blue like other partner links in text;
+   "Hotel's own site" sits after the rates button as a quiet text link */
+.article a.gy-hotel-name.gy-hotel-name[rel~="sponsored"] { color: var(--cta); text-decoration: underline; text-decoration-color: rgba(11, 99, 214, .45); text-underline-offset: 3px; }
+.article a.gy-hotel-name.gy-hotel-name[rel~="sponsored"]:hover { color: var(--cta-hover); text-decoration-color: var(--cta-hover); }
+.article .gy-own { white-space: nowrap; }
+.article a.gy-own-site { font-family: var(--sans); font-size: .82rem; color: var(--muted, #5b6472); text-decoration: underline; text-decoration-color: rgba(23, 32, 51, .3); text-underline-offset: 3px; margin-left: .5em; }
 
 /* flight map origin choices: rounded, the chosen one blue */
 .article .gy-flightmap-from button { border-radius: 999px; }

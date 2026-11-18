@@ -134,6 +134,7 @@ window.gySaveTrip = function (box, dep) {
        * the answer-first layout (add_aeo.py) converts better than the old
        * end-of-article links. */
       var placement = a.closest('.gy-verdict') ? 'verdict'
+        : a.classList.contains('gy-hotel-name') ? 'hotelname'
         : a.closest('.gy-sbtn') ? 'photobtn'
         : a.closest('.gy-esim-plans') ? 'plans'
         : a.closest('table') ? 'table'
@@ -193,9 +194,10 @@ window.gySaveTrip = function (box, dep) {
        (add_aeo.PICKERS, and the city list's "our area guide" links) */
     var pk = e.target.closest('.gy-picker a, .gy-city-rates-list a[href$=".html"]');
     if (pk && window.gtag) gtag('event', 'picker_click', { page: location.pathname, target: pk.getAttribute('href') });
-    /* a hotel's name opens the hotel's own website (no commission, by design): counts
-       how much hotel intent leaves that way, next to the "Check rates" clicks */
-    var hn = e.target.closest('a.gy-hotel-name');
+    /* since 2026-11-19 a hotel's name opens its checked Booking.com page (affiliate_click,
+       placement 'hotelname'); "Hotel's own site", or a name with no Booking.com page, still
+       opens the hotel's website: counts how much hotel intent leaves that way */
+    var hn = e.target.closest('a.gy-own-site, a.gy-hotel-name:not([rel*="sponsored"])');
     if (hn && window.gtag) gtag('event', 'hotel_site_click', { page: location.pathname,
       placement: hn.closest('.gy-quick-picks') ? 'quickpick' : hn.closest('table') ? 'table' : 'prose' });
   }

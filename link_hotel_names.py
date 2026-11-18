@@ -1,6 +1,13 @@
-"""Link every hotel name in a stay guide's "at a glance" table and quick picks
-to the same official website its own section already links (or, where the
-section names no website, its checked Booking.com page).
+"""Link every hotel name in a stay guide to the hotel's checked Booking.com page (through Stay22),
+the same page as its "Check rates" link, and keep the hotel's own website one tap away.
+
+Since 2026-11-19 (competitor study: Travel Lemming and Earth Trekkers link hotel names to a booking
+page, and in 30 days our bold names sent ~27 readers to hotels' own sites, where we earn nothing):
+  - area bullets: the bold name links to the checked Booking.com page, and "Hotel's own site" is
+    added after the rates link;
+  - "at a glance" table and quick picks: the name links to the same page.
+A hotel with no checked Booking.com page keeps its own website. Names are matched only to the page
+already checked for that bullet, never by fuzzy search.
 
 Readers get one tap from the table to the hotel, and Stay22's Spark, which
 links words that have no link yet, finds nothing to match there: a name match
@@ -24,19 +31,50 @@ LI_RE = re.compile(r"<li><strong>(.*?)</strong>(.*?)</li>", re.S)
 
 
 def official_links(page: str) -> dict[str, str]:
-    """hotel name (as printed) -> its official website, from the area sections."""
+    """hotel name (as printed) -> its checked Booking.com page, else its own website, from the area sections."""
     out = {}
     for strong, body in LI_RE.findall(page):
-        own = re.match(r'<a href="([^"]+)"', strong)              # the hotel's own website
-        rates = re.search(r'class="gy-rates"[^>]*>\s*<a href="([^"]+)"', body)   # else its checked Booking.com page
+        own = re.search(r'<a [^>]*href="([^"]+)"', strong)        # the name's link
+        rates = re.search(r'class="gy-rates"[^>]*>\s*<a href="([^"]+)"', body)   # its checked Booking.com page
         if own or rates:
-            out[htmllib.unescape(re.sub(r"<[^>]+>", "", strong)).strip()] = own.group(1) if own else rates.group(1)
+            out[htmllib.unescape(re.sub(r"<[^>]+>", "", strong)).strip()] = rates.group(1) if rates else own.group(1)
     return out
 
 
-def _link(name_html: str, href: str) -> str:
+def _link(name_html: str, href: str, own: str = "") -> str:
     rel = "nofollow sponsored noopener" if "stay22.com" in href else "noopener"
-    return f'<a class="gy-hotel-name" href="{href}" rel="{rel}" target="_blank">{name_html}</a>'
+    data = f' data-own="{own}"' if own else ""
+    return f'<a class="gy-hotel-name"{data} href="{href}" rel="{rel}" target="_blank">{name_html}</a>'
+
+
+BULLET_RE = re.compile(r'<li><strong>(<a [^>]*>)(.*?)</a></strong>(.*?)</li>', re.S)
+RATES_RE = re.compile(r'<span class="gy-rates"[^>]*>\s*<a href="([^"]+)"[^>]*>.*?</a></span>', re.S)
+OWN_SITE = ' <span class="gy-own"><a class="gy-own-site" href="{}" rel="noopener" target="_blank">Hotel’s own site</a></span>'
+
+
+def bullets(page: str) -> tuple[str, int]:
+    """Area bullets: the name -> its checked Booking.com page, with the own website kept in data-own
+    and shown as "Hotel's own site" after the rates link (re-added on every build: add_aeo rebuilds
+    the rates span)."""
+    n = 0
+
+    def one(m: re.Match) -> str:
+        nonlocal n
+        tag, name, body = m.groups()
+        r = RATES_RE.search(body)
+        if not r:
+            return m.group(0)
+        own = re.search(r'data-own="([^"]+)"', tag) or re.fullmatch(r'<a href="([^"]+)">', tag)
+        if not own:
+            return m.group(0)
+        out = m.group(0)
+        if "stay22.com" not in tag:
+            n += 1
+            out = f"<li><strong>{_link(name, r.group(1), own.group(1))}</strong>{body}</li>"
+        if "gy-own-site" not in out:
+            out = RATES_RE.sub(lambda x: x.group(0) + OWN_SITE.format(own.group(1)), out, count=1)
+        return out
+    return BULLET_RE.sub(one, page), n
 
 
 def find_href(text: str, links: dict[str, str]) -> str | None:
@@ -47,10 +85,19 @@ def find_href(text: str, links: dict[str, str]) -> str | None:
 
 
 def link_page(page: str) -> tuple[str, int]:
+    page, n = bullets(page)
     links = official_links(page)
     if not links:
-        return page, 0
-    n = 0
+        return page, n
+
+    def relink(m: re.Match) -> str:          # names linked to an own website before 2026-11-19
+        nonlocal n
+        href = find_href(htmllib.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip(), links)
+        if not href or href == m.group(1) or "stay22.com" not in href:
+            return m.group(0)
+        n += 1
+        return _link(m.group(2), href)
+    page = re.sub(r'<a class="gy-hotel-name" href="([^"]+)" rel="noopener" target="_blank">(.*?)</a>', relink, page)
 
     def table(m: re.Match) -> str:
         nonlocal n
