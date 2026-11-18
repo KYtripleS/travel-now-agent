@@ -24,6 +24,15 @@
           "url": "https://taxedesejour.paris.fr/",
           "kind": "official",
           "title": "City of Paris: taxe de séjour, exemptions"
+        },
+        {
+          "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17929?lang=fr",
+          "kind": "official",
+          "title": "service-public.gouv.fr: Paris taxe de séjour 2026",
+          "evidence": [
+            "Au 1er janvier 2026, le montant de la taxe de séjour évolue dans la ville de Paris.",
+            "15,93"
+          ]
         }
       ],
       "checked": "2026-10-08",
@@ -38,6 +47,10 @@
         ],
         "articles/where-to-stay-for-disneyland-paris.html": [
           "Its 2026 totals are identical to the City of Paris’s"
+        ],
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "2 × 4 × €8.45 = €67.60",
+          "It is per adult per night, up to €15.93 at a palace"
         ]
       },
       "watch": "(taxe de séjour|Paris[^.]{0,60}(tourist|hotel) tax)[^.]{0,80}€\\s?\\d"
@@ -3602,6 +3615,297 @@
         "articles/where-to-stay-for-monaco-grand-prix.html": [
           "with only 23 rooms around a garden, renovated in 2022",
           "with rooms from €88 a night on its own page"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.christmas-market-tuileries-2026",
+      "topic": "place",
+      "claim": "The Tuileries Christmas market (La Magie de Noël) runs 14 November 2026 to 3 January 2027, daily 11:00 to 23:45, with 18 chalets and a 250 m² rink.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://parisjetaime.com/evenement/la-magie-de-noel-aux-tuileries-e2680",
+          "kind": "official",
+          "title": "Paris je t'aime: La Magie de Noël aux Tuileries",
+          "evidence": [
+            "Du 14 novembre 2026 au 3 janvier 2027",
+            "Tous les jours de 11h à 23h45."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "14 November 2026 to 3 January 2027, every day 11:00 to 23:45",
+          "a 250 m² rink"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.christmas-markets-2026",
+      "topic": "place",
+      "claim": "Champs-Élysées market 22 Nov-4 Jan 2027; Notre-Dame 26 Nov-27 Dec 2026; Place Saint-Michel 4 Dec-4 Jan; Place de l'Étoile 20 Nov-23 Dec.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://parisjetaime.com/article/les-marches-de-noel-paris-a018",
+          "kind": "official",
+          "title": "Paris je t'aime: Marchés de Noël 2026",
+          "evidence": [
+            "Du 22 novembre au 4 janvier 2027",
+            "Du 26 novembre au 27 décembre 2026",
+            "Du 4 décembre au 4 janvier 2027",
+            "Du 20 novembre au 23 décembre 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "22 November to 4 January 2027, avenue des Champs-Élysées",
+          "26 November to 27 December 2026, Square René Viviani",
+          "20 November to 23 December 2026"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.christmas-market-la-defense-2026",
+      "topic": "place",
+      "claim": "La Défense market runs 12 Nov to 31 Dec 2026 with 300 to 350 chalets; Le Sommet runs to 3 Jan 2027.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.paris.fr/evenements/marche-de-noel-de-paris-la-defense-127143",
+          "kind": "official",
+          "title": "Ville de Paris: Marché de Noël de Paris La Défense",
+          "evidence": [
+            "Du jeudi 12 novembre au jeudi 31 décembre 2026",
+            "plus de 300 à 350 chalets",
+            "prolongé jusqu'au 3 janvier 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "12 November to 31 December 2026 per the Ville de Paris",
+          "300 to 350 chalets"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.louvre-christmas-closure",
+      "topic": "place",
+      "claim": "The Louvre is closed on 1 January, 1 May and 25 December; booking compulsory 19 Dec 2026 to 4 Jan 2027.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.louvre.fr/horaires-tarifs-acces/horaires",
+          "kind": "official",
+          "title": "Musée du Louvre: horaires",
+          "evidence": [
+            "le musée du Louvre est fermé les 1er janvier, 1er mai et 25 décembre",
+            "la réservation est obligatoire pour tous du 19 décembre 2026 au 4 janvier 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "closed on 1 January, 1 May and 25 December",
+          "booking is compulsory for everyone from 19 December 2026 to 4 January 2027"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.orsay-christmas-closure",
+      "topic": "place",
+      "claim": "The Musée d'Orsay is closed every Monday, 1 May and 25 December; Thursday late opening to 21:45.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.musee-orsay.fr/fr/visite",
+          "kind": "official",
+          "title": "Musée d'Orsay: visite",
+          "evidence": [
+            "Fermé tous les lundis, les 1er mai et 25 décembre.",
+            "Nocturne le jeudi jusqu'à 21h45."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "Closed every Monday, on 1 May and on 25 December",
+          "a late opening on Thursdays to 21:45"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.airport-ticket-2026",
+      "topic": "fare",
+      "claim": "The Paris Région <> Aéroports ticket is €14 a journey (€7 reduced) from 1 January 2026, via metro 14/Orlyval to Orly and RER B to CDG.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.iledefrance-mobilites.fr/es/titres-et-tarifs/detail/ticket-paris-region-aeroports",
+          "kind": "operator",
+          "title": "Île-de-France Mobilités: airports ticket",
+          "evidence": [
+            "14€",
+            "Tarifas aplicables a partir del 1 de enero de 2026."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "€14 a journey (€7 reduced), from 1 January 2026",
+          "Orly is reached by metro line 14 or Orlyval"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.galeries-lafayette-christmas-2026",
+      "topic": "place",
+      "claim": "Press reports give Galeries Lafayette Haussmann windows and tree from 12 Nov 2026 and rooftop rink 24 Nov 2026 to 3 Jan 2027 (store page not readable).",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.sortiraparis.com/en/news/christmas-and-holidays/articles/46482-christmas-2026-at-galeries-lafayette-a-colourful-fairy-tale-by-castelbajac-the-window-display-unveiling-date",
+          "kind": "news",
+          "title": "Sortiraparis: Galeries Lafayette Christmas 2026",
+          "evidence": [
+            "Starting November 12, 2026",
+            "November 24, 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "Windows and tree from 12 November 2026",
+          "rooftop rink from 24 November to 3 January"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.hotel.hotel-regina-louvre",
+      "topic": "hotel",
+      "claim": "Hôtel Regina Louvre: 98 rooms and 36 suites, a sauna, per its own site.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.regina-hotel.com/en/",
+          "kind": "official",
+          "title": "Hôtel Regina Louvre official site",
+          "evidence": [
+            "98 rooms and 36 suites"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "98 rooms and 36 suites, a sauna"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.hotel.hotel-etats-unis-opera",
+      "topic": "hotel",
+      "claim": "Hôtel Etats-Unis Opéra: 45 rooms and the Buckingham Bar, per its own site.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.hotel-etats-unis-opera.com/",
+          "kind": "official",
+          "title": "Hôtel Etats-Unis Opéra official site",
+          "evidence": [
+            "45 chambres"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "45 rooms and the Buckingham Bar"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.hotel.hotel-chopin",
+      "topic": "hotel",
+      "claim": "Hôtel Chopin: Economy rooms of 13 m² and Classic rooms of 17 m², per its own site.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://hotelchopin-paris-opera.com/",
+          "kind": "official",
+          "title": "Hôtel Chopin official site",
+          "evidence": [
+            "Economy: 13 m²"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "Economy rooms of 13 m² and Classic rooms of 17 m²"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.hotel.hotel-bachaumont",
+      "topic": "hotel",
+      "claim": "Hôtel Bachaumont: 49 rooms from 16 m² Classic to 50 m² suites, per its own site.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.hotelbachaumont.com/en/",
+          "kind": "official",
+          "title": "Hôtel Bachaumont official site",
+          "evidence": [
+            "Classic (16 sqm)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "49 rooms from 16 m² Classic to 50 m² suites"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.hotel.hotel-lord-byron",
+      "topic": "hotel",
+      "claim": "Hôtel Lord Byron: 52 rooms and suites, per its own site.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://hotel-lordbyron.com/en/",
+          "kind": "official",
+          "title": "Hôtel Lord Byron official site",
+          "evidence": [
+            "52 rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "52 rooms and suites"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.hotel.hotel-recamier",
+      "topic": "hotel",
+      "claim": "Hôtel Récamier: 24 rooms, a buffet breakfast at €26, per its own site.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.hotelrecamier.com/",
+          "kind": "official",
+          "title": "Hôtel Récamier official site",
+          "evidence": [
+            "24"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-paris-christmas.html": [
+          "24 rooms, a buffet breakfast at €26"
         ]
       }
     }

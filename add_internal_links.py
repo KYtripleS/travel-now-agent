@@ -591,6 +591,18 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-paris-christmas.html": (
+        "Where to Stay in Paris",
+        "Markets to 3 January, museums shut on 25 December, 12 hotels and the 2026 tourist tax.",
+    ),
+    "articles/where-to-stay-in-new-york-christmas.html": (
+        "Where to Stay in New York",
+        "Tree lighting 2 Dec, Winter Village dates, four areas, 12 hotels and the 14.75% tax.",
+    ),
+    "articles/where-to-stay-in-london-christmas.html": (
+        "Where to Stay in London",
+        "No Tube on 25 December: areas on foot, Winter Wonderland dates and 12 hotels.",
+    ),
     "articles/where-to-stay-in-edinburgh-christmas.html": (
         "Where to Stay in Edinburgh",
         "Market dates, six areas, 12 hotels and the 5% Visitor Levy for the first five nights.",
@@ -2417,6 +2429,27 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-paris-christmas.html": [
+        "articles/where-to-stay-in-paris.html",
+        "articles/where-to-stay-in-paris-new-years-eve.html",
+        "articles/where-to-stay-in-strasbourg-christmas-market.html",
+        "articles/where-to-stay-for-disneyland-paris.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+    ],
+    "articles/where-to-stay-in-new-york-christmas.html": [
+        "articles/where-to-stay-in-new-york.html",
+        "articles/where-to-stay-in-new-york-new-years-eve.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+        "articles/best-esim-usa-2026.html",
+    ],
+    "articles/where-to-stay-in-london-christmas.html": [
+        "articles/where-to-stay-in-london.html",
+        "articles/where-to-stay-in-london-new-years-eve.html",
+        "articles/where-to-stay-for-london-marathon.html",
+        "articles/hotel-taxes-around-the-world-2026.html",
+        "articles/best-esim-europe-2026.html",
     ],
     "articles/where-to-stay-in-edinburgh-christmas.html": [
         "articles/where-to-stay-in-edinburgh.html",

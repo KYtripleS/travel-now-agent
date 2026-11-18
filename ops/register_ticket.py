@@ -5,8 +5,9 @@ and the facts ledger. Idempotent: skips a registry that already names the slug.
 The verdict box (add_aeo.V), the pointer from the stay guide (add_aeo.STAY_POINTERS) and any why-now
 line (data/why_now.json) are written by hand: they are editorial calls.
 
-usage: .venv/bin/python ops/register_ticket.py <slug> <country-facts-file>
+usage: .venv/bin/python ops/register_ticket.py <slug> <country-facts-file> [tickets|cars]
 e.g.   .venv/bin/python ops/register_ticket.py where-to-buy-tokyo-disney-resort-tickets japan
+       .venv/bin/python ops/register_ticket.py car-rental-iceland iceland cars   (prompts/car_brief.md)
 """
 import json
 import sys
@@ -14,7 +15,8 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 slug, facts_file = sys.argv[1:3]
-R = json.loads((REPO / "content_drafts" / "tickets" / f"{slug}.json").read_text())
+kind = sys.argv[3] if len(sys.argv) > 3 else "tickets"
+R = json.loads((REPO / "content_drafts" / kind / f"{slug}.json").read_text())
 art = f"articles/{slug}.html"
 assert (REPO / "site" / art).exists(), f"publish {slug} first"
 
@@ -36,7 +38,7 @@ for root in ("site", "docs"):
     p = REPO / root / "llms.txt"; t = p.read_text()
     if f"/{art})" in t:
         continue
-    head = "## Ticket comparisons (where to buy)\n"
+    head = {"tickets": "## Ticket comparisons (where to buy)\n", "cars": "## Car hire (do you need a car, where to book)\n"}[kind]
     if head not in t:
         t = t.replace("## Where to stay (hotel guides)\n", head + "\n## Where to stay (hotel guides)\n", 1)
     i = t.index(head) + len(head); j = t.index("\n\n", i - 1)

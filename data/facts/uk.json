@@ -4626,6 +4626,214 @@
           "20% off a stay of two nights or more booked 28 days ahead"
         ]
       }
+    },
+    {
+      "id": "gb.london.christmas.day-transport",
+      "topic": "transport",
+      "claim": "TfL says the only transport running on Christmas Day (Friday 25 December 2026) is taxi and private hire, Santander Cycles, e-scooter trials, coaches, Dial-a-Ride and some buses run by other operators.",
+      "sources": [
+        {
+          "url": "https://tfl.gov.uk/status-updates/major-works-and-events/christmas-and-new-year-travel",
+          "kind": "official",
+          "title": "TfL: Christmas and New Year travel",
+          "evidence": [
+            "The only transport running on Christmas Day will be taxi and private hire services",
+            "Santander Cycles"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-christmas.html": [
+          "the only transport running that day will be taxi and private hire services",
+          "almost nothing runs"
+        ]
+      },
+      "checked": "2026-11-19"
+    },
+    {
+      "id": "gb.london.christmas.congestion-charge",
+      "topic": "transport",
+      "claim": "The Congestion Charge does not operate from 25 December 2026 to 1 January 2027 inclusive, and ULEZ does not operate on Christmas Day.",
+      "sources": [
+        {
+          "url": "https://tfl.gov.uk/status-updates/major-works-and-events/christmas-and-new-year-travel",
+          "kind": "official",
+          "title": "TfL: Christmas and New Year travel",
+          "evidence": [
+            "The Congestion Charge will not operate from Christmas Day (Friday 25 December 2026) to Friday 1 January 2027 (inclusive)",
+            "The Ultra Low Emission Zone (ULEZ) will not operate on Christmas Day"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-christmas.html": [
+          "Not operating from Christmas Day to 1 January 2027 inclusive",
+          "Not operating on Christmas Day"
+        ]
+      },
+      "checked": "2026-11-19"
+    },
+    {
+      "id": "gb.london.christmas.tfl-eve-boxing",
+      "topic": "transport",
+      "claim": "TfL's festive page covers 24 December 2026 to 3 January 2027 and had not yet published Christmas Eve last trains or Boxing Day hours.",
+      "sources": [
+        {
+          "url": "https://tfl.gov.uk/status-updates/major-works-and-events/christmas-and-new-year-travel",
+          "kind": "official",
+          "title": "TfL: Christmas and New Year travel",
+          "evidence": [
+            "between Thursday 24 December 2026 and Sunday 3 January 2027",
+            "We will publish more details of travel over Christmas and New Year soon"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-christmas.html": [
+          "Not published. TfL's page gave no last-train times",
+          "Not published on the TfL page we read"
+        ]
+      },
+      "checked": "2026-11-19"
+    },
+    {
+      "id": "gb.london.christmas.winter-wonderland",
+      "topic": "place",
+      "claim": "Hyde Park Winter Wonderland runs 19 November 2026 to 3 January 2027 per its own site, open every day apart from Christmas Day; TfL gives 19 November 2026 to 1 January 2027.",
+      "sources": [
+        {
+          "url": "https://hydeparkwinterwonderland.com/",
+          "kind": "official",
+          "title": "Hyde Park Winter Wonderland",
+          "evidence": [
+            "From 19 November 2026 to 3 January 2027",
+            "opening everyday from 19 November 2026 – 3 January 2027, apart from Christmas Day",
+            "Save up to 25% when you book in advance"
+          ]
+        },
+        {
+          "url": "https://tfl.gov.uk/status-updates/major-works-and-events/christmas-and-new-year-travel",
+          "kind": "official",
+          "title": "TfL: Christmas and New Year travel",
+          "evidence": [
+            "Hyde Park Winter Wonderland  will be open between Thursday 19 November 2026 and Friday 1 January 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-christmas.html": [
+          "19 November 2026 to 3 January 2027, per its own site; open every day apart from Christmas Day",
+          "1 January against 3 January"
+        ]
+      },
+      "checked": "2026-11-19"
+    },
+    {
+      "id": "gb.london.christmas.south-bank-market",
+      "topic": "place",
+      "claim": "South Bank Winter Market runs 2 November 2026 to 4 January 2027, open daily 11am-10pm (craft traders until 9pm), closed 25 and 31 December.",
+      "sources": [
+        {
+          "url": "https://southbank.london/whats-on/winter-market",
+          "kind": "official",
+          "title": "South Bank London: Winter Market",
+          "evidence": [
+            "02 Nov - 04 Jan 2027",
+            "Closed 25 and 31 Dec",
+            "Open daily 11am–10pm, craft traders until 9pm"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-christmas.html": [
+          "open daily 11am to 10pm (craft traders until 9pm), closed 25 and 31 December",
+          "open daily from 11am to 10pm except 25 and 31 December"
+        ]
+      },
+      "checked": "2026-11-19"
+    },
+    {
+      "id": "gb.london.christmas.regent-street-lights",
+      "topic": "place",
+      "claim": "Time Out reported the Regent Street Christmas lights switch on Thursday 5 November 2026 with the street closed to vehicles 5pm to 9pm; Regent Street's own site gave no date.",
+      "sources": [
+        {
+          "url": "https://www.timeout.com/london/news/regent-street-christmas-lights-switch-on-2026-110426",
+          "kind": "news",
+          "title": "Time Out: Regent Street Christmas lights switch-on 2026",
+          "evidence": [
+            "Thursday, November 5"
+          ]
+        },
+        {
+          "url": "https://www.regentstreetonline.com/",
+          "kind": "official",
+          "title": "Regent Street: Christmas",
+          "evidence": [
+            "Christmas on Regent Street"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-christmas.html": [
+          "Time Out reported a switch-on on Thursday 5 November 2026",
+          "the 5 November date rests on Time Out's report"
+        ]
+      },
+      "checked": "2026-11-19"
+    },
+    {
+      "id": "gb.london.christmas.heathrow-rail",
+      "topic": "transport",
+      "claim": "National Rail's Paddington works notice says no Elizabeth line or Great Western trains on Christmas Day and Boxing Day, and no Heathrow Express 26-30 December 2026.",
+      "sources": [
+        {
+          "url": "https://www.nationalrail.co.uk/engineering-works/major-engineering-work-london-paddington-20261226/",
+          "kind": "official",
+          "title": "National Rail: major engineering work, London Paddington",
+          "evidence": [
+            "Starts Saturday 26 December 2026",
+            "no trains will run"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-christmas.html": [
+          "no trains will run, and Heathrow Express shows no service from 26 to 30 December",
+          "no Elizabeth line or Great Western trains on Christmas Day and Boxing Day"
+        ]
+      },
+      "checked": "2026-11-19"
+    },
+    {
+      "id": "gb.london.christmas.tax",
+      "topic": "tax",
+      "claim": "London charges no city tax on hotel rooms; UK VAT is 20%; the government said on 10 September 2026 it will legislate for an overnight visitor levy mayors can choose to charge, and none is set for London.",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/vat-rates",
+          "kind": "official",
+          "title": "GOV.UK: VAT rates",
+          "evidence": [
+            "Standard rate"
+          ]
+        },
+        {
+          "url": "https://www.gov.uk/government/consultations/overnight-visitor-levy-in-england",
+          "kind": "official",
+          "title": "GOV.UK: overnight visitor levy in England",
+          "evidence": [
+            "visitor levy"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-london-christmas.html": [
+          "London charges none, and VAT at 20% is normally already in the price",
+          "No levy has been set for London"
+        ]
+      },
+      "checked": "2026-11-19"
     }
   ]
 }

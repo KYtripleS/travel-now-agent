@@ -114,6 +114,12 @@ PAGES = {
                                    address="Le Marais, Paris, France"),
     "where-to-stay-in-new-york": dict(area="Times Square", lat=40.7580, lng=-73.9855, zoom=15,
                                       address="Times Square, New York, NY, USA"),
+    "where-to-stay-in-paris-christmas": dict(area="Tuileries and Louvre", lat=48.8636, lng=2.327, zoom=14,
+                                                address="Jardin des Tuileries, Paris, France"),
+    "where-to-stay-in-new-york-christmas": dict(area="Rockefeller Center", lat=40.7587, lng=-73.9787, zoom=15,
+                                                   address="Rockefeller Center, New York, NY, USA"),
+    "where-to-stay-in-london-christmas": dict(area="Covent Garden", lat=51.5117, lng=-0.124, zoom=14,
+                                                 address="Covent Garden, London, United Kingdom"),
     "where-to-stay-in-edinburgh-christmas": dict(area="Princes Street", lat=55.9503, lng=-3.193, zoom=15,
                                                     address="Princes Street, Edinburgh, United Kingdom"),
     "where-to-stay-in-amsterdam-new-years-eve": dict(area="Museum Quarter", lat=52.358, lng=4.8814, zoom=14,
@@ -2083,6 +2089,17 @@ HOTELS = {
     # Edinburgh, where-to-stay-in-edinburgh-christmas (Booking.com pages confirmed by hotel name and city)
     "Gleneagles Townhouse": _B + "gb/gleneagles-townhouse.html",
     "Hotel du Vin Edinburgh": _B + "gb/du-vin-edinburgh.html",
+    # London, where-to-stay-in-london-christmas (Booking.com pages confirmed by hotel name and city)
+    "The Dorchester": _B + "gb/the-dorchester-london.html",
+    "hub by Premier Inn London Marylebone": _B + "gb/hub-london-marylebone.html",
+    # New York, where-to-stay-in-new-york-christmas (Booking.com pages confirmed by hotel name and city)
+    "Lotte New York Palace": _B + "us/new-york-palace.html",
+    "The Warwick New York": _B + "us/the-warwick-new-york.html",
+    # Paris, where-to-stay-in-paris-christmas (Booking.com pages confirmed by hotel name and city)
+    "Hôtel Brighton": _B + "fr/brighton.html",
+    "InterContinental Paris Le Grand": _B + "fr/intercontinental-paris-le-grand.html",
+    "Hôtel Etats-Unis Opéra": _B + "fr/etatsunisopera.html",
+    "Hôtel Chopin": _B + "fr/chopin-paris.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

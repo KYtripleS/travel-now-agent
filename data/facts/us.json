@@ -44,6 +44,11 @@
           "8.875% of the room rate",
           "5.875% of the room rate",
           "a $300 room costs $347.75 a night"
+        ],
+        "articles/where-to-stay-in-new-york-christmas.html": [
+          "Together that is 14.75% of the room rate plus $3.50 a room a night",
+          "8.875% of the room rate",
+          "5.875% of the room rate"
         ]
       },
       "watch": "New York[^.]{0,80}(hotel|occupancy) tax[^.]{0,80}\\d+(\\.\\d+)?%",
@@ -71,6 +76,9 @@
         ],
         "articles/where-to-stay-in-new-york-new-years-eve.html": [
           "$3 a ride on the subway and local buses in 2026, paid by tapping a contactless card or phone"
+        ],
+        "articles/where-to-stay-in-new-york-christmas.html": [
+          "a subway or local bus ride is $3"
         ]
       },
       "watch": "(subway|local bus) (ride|fare)[^.]{0,30}\\$\\d",
@@ -6087,6 +6095,9 @@
       "used_in": {
         "articles/where-to-stay-in-new-york-new-years-eve.html": [
           "6 Times Square, on the south-east corner of 42nd Street and Broadway"
+        ],
+        "articles/where-to-stay-in-new-york-christmas.html": [
+          "At 6 Times Square, on the south-east corner of 42nd Street and Broadway"
         ]
       }
     },
@@ -11695,6 +11706,138 @@
           "This product is available for USA / Canada residents only.",
           "6.5% Florida Sales Tax",
           "Free cancellation before 8 Dec (local time)"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.christmas.tree",
+      "topic": "history",
+      "claim": "The Rockefeller Center Christmas Tree Lighting Ceremony is on Wednesday 2 December 2026, 7:00 to 10:00pm; the tree arrives 7 November and is on view through mid-January 2027.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.rockefellercenter.com/holidays/rockefeller-center-christmas-tree/",
+          "kind": "official",
+          "title": "Rockefeller Center: Christmas Tree",
+          "evidence": [
+            "The tree will arrive on November 7th and be on view through mid-January 2027.",
+            "will take place on Wednesday, December 2, 7:00 – 10:00 p"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-christmas.html": [
+          "Wednesday 2 December 2026, 7:00 to 10:00pm",
+          "through mid-January 2027"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.christmas.winter-village",
+      "topic": "history",
+      "claim": "Bryant Park's Bank of America Winter Village: the free-admission Rink runs 28 October 2026 to 28 February 2027 and the Holiday Shops 28 October 2026 to 3 January 2027.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://bryantpark.org/activities/bank-of-america-winter-village-at-bryant-park",
+          "kind": "official",
+          "title": "Bryant Park: Bank of America Winter Village",
+          "evidence": [
+            "Oct 28, 2026 – Feb 28, 2027",
+            "Oct 28, 2026 – Jan 3, 2027",
+            "free-admission ice skating"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-christmas.html": [
+          "28 October 2026 to 28 February 2027",
+          "28 October 2026 to 3 January 2027"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.christmas.rockettes",
+      "topic": "history",
+      "claim": "The Christmas Spectacular Starring the Radio City Rockettes is at Radio City Music Hall through 4 January (2027); no first performance date was found on the page.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.rockettes.com/christmas/",
+          "kind": "official",
+          "title": "The Rockettes: Christmas Spectacular",
+          "evidence": [
+            "back at Radio City Music Hall through January 4!"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-christmas.html": [
+          "Through 4 January 2027"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.warwick",
+      "topic": "hotel",
+      "claim": "The Warwick New York is at 65 West 54th Street and its page places it moments from Central Park, Rockefeller Centre and Times Square.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.warwickhotels.com/warwick-new-york/",
+          "kind": "official",
+          "title": "The Warwick New York",
+          "evidence": [
+            "65 West 54th Street"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-christmas.html": [
+          "At 65 West 54th Street"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.hotel.lotte-palace",
+      "topic": "hotel",
+      "claim": "The Lotte New York Palace is at 455 Madison Avenue at 50th Street, directly across from St. Patrick's Cathedral.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.lottenypalace.com/",
+          "kind": "official",
+          "title": "Lotte New York Palace",
+          "evidence": [
+            "455 Madison Avenue"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-christmas.html": [
+          "At 455 Madison Avenue at 50th Street"
+        ]
+      },
+      "note": "Page showed stale holiday text (Winter Bar 'Wednesday, November 23'); none used."
+    },
+    {
+      "id": "us.nyc.hotel.yotel",
+      "topic": "hotel",
+      "claim": "YOTEL New York Times Square is at 570 Tenth Avenue, with Solo rooms of 10.6 sq m and a 15 to 20 minute walk to Times Square by its own FAQ.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.yotel.com/en/hotels/yotel-new-york",
+          "kind": "operator",
+          "title": "YOTEL New York",
+          "evidence": [
+            "570 Tenth Avenue"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-new-york-christmas.html": [
+          "At 570 Tenth Avenue"
         ]
       }
     }

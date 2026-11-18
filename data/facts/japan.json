@@ -8166,6 +8166,219 @@
           "KKday's listing says no cancellation"
         ]
       }
+    },
+    {
+      "id": "jp.idp.geneva-1949",
+      "topic": "transport",
+      "claim": "Japan accepts International Driving Permits issued under the 1949 Geneva Convention only, for up to one year from entry; permits under other treaties such as the 1968 Vienna Convention are not valid.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://english.jaf.or.jp/driving-in-japan/drive-in-japan/switch-to-japanese-license",
+          "kind": "official",
+          "title": "JAF: Drive with a foreign license",
+          "evidence": [
+            "issued under the Geneva Convention only",
+            "IDPs issued in accordance with other treaties (such as the 1968 Vienna Convention) are not valid in Japan",
+            "a maximum of one year from the date of entry into Japan"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-okinawa.html": [
+          "International Driving Permit issued under the 1949 Geneva Convention",
+          "maximum of one year from the date you enter Japan"
+        ]
+      }
+    },
+    {
+      "id": "jp.licence.translation-six",
+      "topic": "transport",
+      "claim": "Holders of licences from Switzerland, Germany, France, Belgium, Monaco or Taiwan may drive in Japan by carrying a JAF Japanese translation with the original licence; JAF says 2-3 business days and applications only from within Japan.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://english.jaf.or.jp/driving-in-japan/drive-in-japan/switch-to-japanese-license",
+          "kind": "official",
+          "title": "JAF: Drive with a foreign license",
+          "evidence": [
+            "a Japanese translation of the license must be carried together with the original license"
+          ]
+        },
+        {
+          "url": "https://english.jaf.or.jp/driving-in-japan/",
+          "kind": "official",
+          "title": "JAF: translation of a driver's license",
+          "evidence": [
+            "Average: 2–3 business days",
+            "Applications are only accepted from within Japan."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-okinawa.html": [
+          "Japanese translation",
+          "applications are only accepted from within Japan"
+        ]
+      }
+    },
+    {
+      "id": "jp.traffic.left-speed",
+      "topic": "transport",
+      "claim": "In Japan drivers keep to the left; the default limit with no sign is 60 km/h on ordinary roads and 100 km/h on expressways; seat belts are required for all occupants and children under six need a child seat.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://english.jaf.or.jp/driving-in-japan/traffic-rules",
+          "kind": "official",
+          "title": "JAF: Traffic Rules in Japan",
+          "evidence": [
+            "Drivers and cyclists must keep to the left",
+            "60 km/h on ordinary roads, and 100 km/h on expressways",
+            "you must place the infant securely in a child seat"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-okinawa.html": [
+          "drivers and cyclists must keep to the left",
+          "60 km/h on ordinary roads and 100 km/h on expressways"
+        ]
+      }
+    },
+    {
+      "id": "jp.okinawa.toll-search",
+      "topic": "transport",
+      "claim": "NEXCO West Japan's English fare and route search lists Okinawa among its prefectures.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://search.w-nexco.co.jp/en/pref.php",
+          "kind": "operator",
+          "title": "NEXCO West Japan: search by prefecture",
+          "evidence": [
+            "Fare and route search",
+            "Okinawa"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-okinawa.html": [
+          "lists Okinawa among its prefectures"
+        ]
+      }
+    },
+    {
+      "id": "jp.toyota.insurance",
+      "topic": "price",
+      "claim": "Toyota Rent a Car includes insurance/compensation in the basic rate, with a 50,000 yen customer deductible on property and car damage and a Non Operation Charge of 20,000 yen (driven back) or 50,000 yen (not driven back).",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://rent.toyota.co.jp/global_eng/guide/insurance.html",
+          "kind": "operator",
+          "title": "Toyota Rent a Car: Insurance",
+          "evidence": [
+            "Insurance/Compensation is Included in the Rental Car's Basic Rate",
+            "cost of JPY 50,000 covered by customer (deductible)",
+            "Driven back to the scheduled shop JPY 20,000"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-okinawa.html": [
+          "Insurance/Compensation is Included in the Rental Car's Basic Rate",
+          "50,000 yen"
+        ]
+      }
+    },
+    {
+      "id": "jp.discovercars.full-coverage",
+      "topic": "price",
+      "claim": "DiscoverCars says Full Coverage is not a financial or insurance product and does not remove the rental firm's security deposit.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.discovercars.com/terms-and-conditions",
+          "kind": "operator",
+          "title": "DiscoverCars: Rental Conditions",
+          "evidence": [
+            "Purchasing Full Coverage does not exempt the Customer from leaving a security deposit",
+            "Full Coverage is not a financial or insurance product"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-okinawa.html": [
+          "is not a financial or insurance product",
+          "does not remove that deposit"
+        ]
+      }
+    },
+    {
+      "id": "jp.okinawa.yui-rail-line",
+      "topic": "transport",
+      "claim": "Yui Rail's station list runs from Naha Airport to Tedako-Uranishi.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.yui-rail.co.jp/en/",
+          "kind": "operator",
+          "title": "Okinawa Urban Monorail",
+          "evidence": [
+            "Naha Airport",
+            "Tedako-Uranishi"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-okinawa.html": [
+          "runs only from Naha Airport to Tedako-Uranishi"
+        ]
+      }
+    },
+    {
+      "id": "jp.times.oka",
+      "topic": "transport",
+      "claim": "Times Naha Airport station: all cars have ETC devices but the card is an option; return 1 hour 30 minutes before flight departure.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.timescar-rental.com/en/okinawa/shop/4701/",
+          "kind": "operator",
+          "title": "Times CAR RENTAL Naha Airport",
+          "evidence": [
+            "Vehicles must be returned 1 hour and 30 minutes prior to flight departure"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-okinawa.html": [
+          "return its car 1 hour 30 minutes before your flight"
+        ]
+      }
+    },
+    {
+      "id": "jp.toyota.oka-shop",
+      "topic": "transport",
+      "claim": "Toyota's Naha Airport Shop is about 5 minutes by free shuttle from the airport and open 08:00-20:00.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://rent.toyota.co.jp/eng/reservation/index01.aspx?keyword=Okinawa+%28Naha%29+Airport",
+          "kind": "operator",
+          "title": "Toyota Rent a Car: shops near Naha Airport",
+          "evidence": [
+            "Approximately 5 minutes by free shuttle bus from Naha Airport",
+            "08:00-20:00(Jan.01-Dec.31)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-okinawa.html": [
+          "about five minutes from the airport by free shuttle"
+        ]
+      }
     }
   ]
 }

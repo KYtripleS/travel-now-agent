@@ -356,6 +356,21 @@ V = {
              "GetYourGuide's listing says free cancellation up to 24 hours ahead. There is no sunset ticket: "
              "enter about two hours before sunset.",
         cta=("href", "Check Burj Khalifa tickets on GetYourGuide", "https://getyourguide.tpx.lu/MWyj3IfY")),
+    "car-rental-iceland": dict(
+        text="Hire a car if you are leaving Reykjavík; for the city alone you do not need one. For 21 to 29 November, "
+             "DiscoverCars was lower than Blue Car Rental in every class both sold, but Blue's totals include its "
+             "insurance package, so compare the excess too. F-roads are closed in winter.",
+        cta=("href", "Compare Keflavík Airport cars on DiscoverCars", "https://discovercars.tpx.lu/6uoHPKPP")),
+    "car-rental-okinawa": dict(
+        text="Outside Naha, a car is the practical way round the island; for a Naha-only stay, the Yui Rail monorail "
+             "does the job. For 21 to 29 November, DiscoverCars' small car was about $209 against $575 at Toyota Rent "
+             "a Car, whose rate includes its basic cover. Bring an International Driving Permit (1949 Geneva) or an approved translation.",
+        cta=("href", "Compare Naha Airport cars on DiscoverCars", "https://discovercars.tpx.lu/i7kAg6i4")),
+    "car-rental-new-zealand-south-island": dict(
+        text="For Milford Sound, Wanaka and the lakes, a car is the way to see the South Island. For 21 to 29 November "
+             "from Queenstown, DiscoverCars' small automatic was about NZ$391 against NZ$1,057 at Apex and NZ$1,064 at "
+             "GO Rentals. Check each offer's excess: Apex's basic rate carried NZ$4,000 to NZ$5,000.",
+        cta=("href", "Compare Queenstown Airport cars on DiscoverCars", "https://discovercars.tpx.lu/8q8Ys4Ih")),
     "where-to-buy-universal-orlando-tickets": dict(
         text="Prices were close on 9 December, so choose by refunds and residency. Universal’s own tickets are "
              "non-refundable; KKday’s one-park ticket was $143 against Universal’s $145 plus tax, with free "
@@ -575,6 +590,18 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-paris-christmas": dict(
+        text="For Christmas, stay in Tuileries and the Louvre: the Tuileries market runs 14 November to 3 January and the Regina Louvre overlooks the garden. Choose Hôtel Etats-Unis Opéra for the windows, Hôtel Chopin for a budget room. The tax is up to €15.93 per adult a night.",
+        link_text="Tuileries and the Louvre",
+        cta=_stay_cta("where-to-stay-in-paris-christmas", "See hotels around the Tuileries")),
+    "where-to-stay-in-new-york-christmas": dict(
+        text="For the tree, the rink and the Rockettes, stay in Midtown: Rockefeller Center and Radio City are on foot, Bryant Park a few blocks west. Choose The Peninsula for a splurge, The Warwick for comfort, Arlo Midtown for value. The tax is 14.75% plus $3.50 a room a night.",
+        link_text="Midtown",
+        cta=_stay_cta("where-to-stay-in-new-york-christmas", "See hotels around Rockefeller Center")),
+    "where-to-stay-in-london-christmas": dict(
+        text="With no Tube on Christmas Day, stay where you can walk: Covent Garden and the Strand put the theatres, the river and the West End on foot. Choose The Savoy for a splurge, Strand Palace for comfort, hub Covent Garden for value. London has no city tax; VAT is 20%.",
+        link_text="Covent Garden",
+        cta=_stay_cta("where-to-stay-in-london-christmas", "See hotels around Covent Garden")),
     "where-to-stay-in-edinburgh-christmas": dict(
         text="For the Christmas market, stay on or near Princes Street: the East Princes Street Gardens market, the Big Wheel and the George Street site are all here. Choose Gleneagles Townhouse for a splurge, The Scotsman for comfort, Motel One for value. The Visitor Levy adds 5% of the room price for the first five nights.",
         link_text="Princes Street",
@@ -2069,6 +2096,9 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-paris-christmas": ["Hôtel Regina Louvre", "Hôtel Etats-Unis Opéra", "Hôtel Chopin"],
+    "where-to-stay-in-new-york-christmas": ["The Peninsula New York", "The Warwick New York", "Arlo Midtown"],
+    "where-to-stay-in-london-christmas": ["The Savoy", "Strand Palace Hotel", "hub by Premier Inn London Covent Garden"],
     "where-to-stay-in-edinburgh-christmas": ["Gleneagles Townhouse", "The Scotsman Hotel", "Motel One Edinburgh-Princes"],
     "where-to-stay-in-amsterdam-new-years-eve": ["Mandarin Oriental Conservatorium", "Avani Museum Quarter Amsterdam Hotel", "Linden Hotel"],
     "where-to-stay-in-berlin-new-years-eve": ["Hotel Adlon Kempinski Berlin", "Hotel Albrechtshof", "MEININGER Hotel Berlin Central Station"],
@@ -3269,6 +3299,9 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Paris", "where-to-stay-in-paris-christmas", None, None),
+        ("New York", "where-to-stay-in-new-york-christmas", None, None),
+        ("London", "where-to-stay-in-london-christmas", None, None),
         ("Edinburgh", "where-to-stay-in-edinburgh-christmas", None, None),
         ("Amsterdam", "where-to-stay-in-amsterdam-new-years-eve", None, None),
         ("Berlin", "where-to-stay-in-berlin-new-years-eve", None, None),
@@ -3818,7 +3851,20 @@ STAY_POINTERS = {
         'compares the village bases, the Skylynx bus from the airport and the taxes on a ski week. Flying on to '
         'Calgary? <a href="where-to-stay-in-banff.html">Where to stay in Banff</a> compares the town, Lake Louise '
         'and Canmore, with the park pass every visitor needs.'),
+    "where-to-stay-in-new-york": ("intro",
+        'Here in December? <a href="where-to-stay-in-new-york-christmas.html">Where to stay in New York for '
+        'Christmas</a> matches hotels to the Rockefeller Center tree (lit on 2 December), Bryant Park and Radio City. '
+        'Staying for 31 December? <a href="where-to-stay-in-new-york-new-years-eve.html">Where to stay in New York '
+        'for New Year’s Eve</a> covers the Times Square ball drop and the closures.'),
+    "where-to-stay-in-okinawa": ("intro",
+        'Heading north to the aquarium or the beaches? <a href="car-rental-okinawa.html">Renting a car in Okinawa</a> '
+        'compares DiscoverCars with Toyota Rent a Car and covers the International Driving Permit rule.'),
+    "where-to-stay-in-queenstown": ("intro",
+        'Driving to Milford Sound or Wanaka? <a href="car-rental-new-zealand-south-island.html">Renting a car on '
+        'New Zealand’s South Island</a> compares DiscoverCars, Apex and GO Rentals for the same dates, with the excess on each.'),
     "where-to-stay-in-london": ("intro",
+        'Here for Christmas? <a href="where-to-stay-in-london-christmas.html">Where to stay in London for Christmas</a> '
+        'explains why your hotel matters on 25 December, when the Tube and almost every train stop. '
         'Here for 31 December? <a href="where-to-stay-in-london-new-years-eve.html">Where to stay in London for '
         'New Year’s Eve</a> matches hotels to the six ticketed fireworks areas, with the £55 and £40 tickets and '
         'the bridges that close. Running in April? <a href="where-to-stay-for-london-marathon.html">Where to stay '
@@ -3866,6 +3912,8 @@ STAY_POINTERS = {
          'Snowmass and down valley, with the airport closure from 4 April 2027.'),
     ],
     "where-to-stay-in-paris": ("intro",
+        'Here for Christmas? <a href="where-to-stay-in-paris-christmas.html">Where to stay in Paris for Christmas</a> '
+        'matches hotels to the Tuileries market and the lights, and lists what closes on 25 December. '
         'In Paris in December? <a href="where-to-stay-in-strasbourg-christmas-market.html">Where to stay for the '
         'Strasbourg Christmas market</a> (27 November to 24 December 2026) is under two hours away by direct TGV. '
         'Bringing children? <a href="where-to-stay-for-disneyland-paris.html">Where to stay for Disneyland Paris</a> '
@@ -3940,7 +3988,9 @@ STAY_POINTERS = {
          'Coming for the aurora? <a href="where-to-stay-in-reykjavik-northern-lights.html">Where to stay in Reykjavik '
          'for the northern lights</a> compares city bases with countryside hotels that offer an aurora wake-up call. '
          'Here for 31 December? <a href="where-to-stay-in-reykjavik-new-years-eve.html">Where to stay for New Year’s '
-         'Eve</a> covers the bonfires, the fireworks and the holiday buses.'),
+         'Eve</a> covers the bonfires, the fireworks and the holiday buses. Driving beyond the city? '
+         '<a href="car-rental-iceland.html">Renting a car in Iceland</a> sets DiscoverCars beside Blue Car Rental '
+         'for the same dates and explains the excess, gravel cover and the winter F-road closures.'),
         ("The short answer",
          'Weighing Norway for the aurora? <a href="where-to-stay-in-tromso-northern-lights.html">Tromsø for the '
          'northern lights (2026/27)</a> covers the polar night, the airport bus and the 3% visitor fee planned '

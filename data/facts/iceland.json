@@ -1388,6 +1388,211 @@
           "three minutes by car from the airport, with free on-site parking"
         ]
       }
+    },
+    {
+      "id": "is.froads.winter-closed",
+      "topic": "place",
+      "claim": "Safetravel says F-roads are usually closed from mid-September until June or July.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://safetravel.is/driving/summer/highland-driving/",
+          "kind": "official",
+          "title": "Safetravel, Highland driving",
+          "evidence": [
+            "F-roads and gravel roads are not off-road driving"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-iceland.html": [
+          "F-roads are usually shut from mid-September until June or July"
+        ]
+      }
+    },
+    {
+      "id": "is.vegagerdin.closures",
+      "topic": "place",
+      "claim": "The Road and Coastal Administration says it keeps strict closure policies, with heavy fines for ignoring them; most mountain roads open in late June or early July.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.vegagerdin.is/en/home/exploring-iceland/driving-safely-in-iceland",
+          "kind": "official",
+          "title": "Vegagerdin, Driving safely in Iceland",
+          "evidence": [
+            "maintains strict closure policies which travellers must respect, or face heavy fines"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-iceland.html": [
+          "maintains strict closure policies which travellers must respect, or face heavy fines",
+          "most mountain roads open in late June or early July"
+        ]
+      }
+    },
+    {
+      "id": "is.vegagerdin.speed",
+      "topic": "place",
+      "claim": "Highway limit outside urban areas 90 km/h, gravel roads 80 km/h, urban default 50 km/h.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.vegagerdin.is/en/home/exploring-iceland/driving-safely-in-iceland",
+          "kind": "official",
+          "title": "Vegagerdin, Driving safely in Iceland",
+          "evidence": [
+            "driving at unsafe speeds on gravel roads may result in the car's tires losing their grip"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-iceland.html": [
+          "90 km/h as the highest legal speed on highways outside urban areas",
+          "80 km/h on gravel roads"
+        ]
+      }
+    },
+    {
+      "id": "is.safetravel.river-insurance",
+      "topic": "place",
+      "claim": "Safetravel says no insurance covers damage while crossing a river.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://safetravel.is/driving/summer/highland-driving/",
+          "kind": "official",
+          "title": "Safetravel, Highland driving",
+          "evidence": [
+            "no insurance covers any damage of a vehicle while crossing a river"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-iceland.html": [
+          "no insurance covers any damage of a vehicle while crossing a river"
+        ]
+      }
+    },
+    {
+      "id": "is.reykjavik.daylight-dec",
+      "topic": "place",
+      "claim": "Reykjavik sunrise 11:14, sunset 15:29 on 14 Dec 2026 (timeanddate, not official).",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.timeanddate.com/sun/iceland/reykjavik?month=12&year=2026",
+          "kind": "secondary",
+          "title": "timeanddate Reykjavik December 2026",
+          "evidence": [
+            "Sunrise",
+            "Sunset"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-iceland.html": [
+          "sunrise 11:14 and sunset 15:29 on 14 December"
+        ]
+      }
+    },
+    {
+      "id": "is.blue.insurance",
+      "topic": "price",
+      "claim": "Blue Car Rental says its prices include CDW, SCDW, GP and TP; insurances can only be applied before the rental starts.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.bluecarrental.is/",
+          "kind": "operator",
+          "title": "Blue Car Rental",
+          "evidence": [
+            "Insurances can only be applied before the rental starts, not during the rental period."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-iceland.html": [
+          "Insurances can only be applied before the rental starts, not during the rental period."
+        ]
+      }
+    },
+    {
+      "id": "is.blue.age",
+      "topic": "price",
+      "claim": "Blue: 20 for 2WD or medium 4WD, 23 for larger 4WD/SUV/luxury; licence held one year; non-Roman licence needs IDP.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.bluecarrental.is/",
+          "kind": "operator",
+          "title": "Blue Car Rental",
+          "evidence": [
+            "Renter must be 20 years of age to rent a 2WD car or a medium sized 4WD/AWD.",
+            "To rent our larger 4WD, SUV´s or Luxury models the renter must be 23 years of age."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-iceland.html": [
+          "Blue says drivers must be 20 for 2WD or medium 4WD, 23 for larger 4WD, SUVs or luxury models"
+        ]
+      }
+    },
+    {
+      "id": "is.hertz.cover-age",
+      "topic": "price",
+      "claim": "Hertz Iceland lists CDW, theft protection and third-party liability as included; Gravel and Sand & Ash Protection are optional; winter tyres are fitted on every car from November to April.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.hertz.is/",
+          "kind": "operator",
+          "title": "Hertz Iceland",
+          "evidence": [
+            "Winter tires are fitted as standard on every car we rent from November to April."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-iceland.html": [
+          "Hertz Iceland says winter tyres are fitted on all its cars from November to April"
+        ]
+      }
+    },
+    {
+      "id": "is.price.kef-2026-11-21",
+      "topic": "price",
+      "claim": "DiscoverCars lowest listed offers, KEF 21-29 Nov 2026 (8 days), USD, Japan residence: Budget i10 $33.68/day, Thrifty Yaris auto $38.22/day, Saga Duster $45.95/day; Blue: Aygo auto ISK 51,070, Duster used 4WD ISK 54,754 with insurances.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.discovercars.com/iceland/keflavik/kef?currency=USD",
+          "kind": "operator",
+          "title": "DiscoverCars Keflavik Airport",
+          "evidence": [
+            "Prices may vary based on the booking dates, length of rental, and car class."
+          ]
+        },
+        {
+          "url": "https://www.bluecarrental.is/book/cars/",
+          "kind": "operator",
+          "title": "Blue Car Rental results",
+          "evidence": [
+            "Total price with insurances"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-iceland.html": [
+          "$33.68 a day, $269.44 total",
+          "$38.22 a day, $305.76 total",
+          "$45.95 a day, $367.60 total",
+          "51,070 ISK, about $410 total",
+          "54,754 ISK, about $440 total"
+        ]
+      }
     }
   ]
 }

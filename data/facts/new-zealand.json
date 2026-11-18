@@ -234,6 +234,270 @@
           "a legacy of the 1860s Otago gold rush"
         ]
       }
+    },
+    {
+      "id": "nz.licence.time-limit",
+      "topic": "transport",
+      "claim": "If you last arrived in New Zealand on or after 1 November 2026 you can drive on an overseas car licence for 12 months; if you arrived before that, 18 months for a car licence.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads",
+          "kind": "official",
+          "title": "NZTA: Driving on New Zealand roads",
+          "evidence": [
+            "you can drive on your overseas car, truck or motorcycle licence for 12 months",
+            "car licence for 18 months"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "on or after 1 November 2026, you can drive on your overseas car licence for 12 months",
+          "the limit is 18 months for a car licence"
+        ]
+      }
+    },
+    {
+      "id": "nz.licence.translation-idp",
+      "topic": "transport",
+      "claim": "A licence not in English needs an accurate English translation or an IDP; the IDP can be current or expired up to 6 months (car licences only); carry your overseas licence.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads",
+          "kind": "official",
+          "title": "NZTA: Driving on New Zealand roads",
+          "evidence": [
+            "you must also have an accurate English translation or an international driving permit (IDP)",
+            "The IDP can be current or expired up to 6 months (for car licences only)",
+            "You must also carry your current overseas licence with you"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "an accurate English translation or an international driving permit (IDP)",
+          "expired up to 6 months, for car licences only"
+        ]
+      }
+    },
+    {
+      "id": "nz.road.left-narrow",
+      "topic": "transport",
+      "claim": "New Zealand drives on the left; roads are narrow, winding, sometimes steep; most are two-way single lane each way; not all rail crossings have active warnings; seat belts required; phone use illegal.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/visiting-new-zealand",
+          "kind": "official",
+          "title": "NZTA: Visiting New Zealand",
+          "evidence": [
+            "We drive on the left-hand side of the road.",
+            "Travel times are often longer than you think.",
+            "Not all railway crossings have active warnings."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "We drive on the left-hand side of the road",
+          "travel times are often longer than you think",
+          "not all railway crossings have active warnings"
+        ]
+      }
+    },
+    {
+      "id": "nz.road.one-lane-bridges",
+      "topic": "transport",
+      "claim": "At one-lane bridges a red-bordered round sign means give way; a blue rectangle with white arrow means others give way to you; all one-lane bridges are signposted.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.nzta.govt.nz/driving-skills/learn-to-drive/roadcode/general-road-code/about-driving/giving-way/giving-way-on-one-lane-bridges",
+          "kind": "official",
+          "title": "NZTA road code: Giving way on one-lane bridges",
+          "evidence": [
+            "All one-lane bridges are clearly signposted, showing who should give way.",
+            "A red circle shows you must give way.",
+            "A blue rectangle shows that other vehicles should give way to you."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "all one-lane bridges are signposted",
+          "a blue rectangle with a big white arrow means others should give way to you"
+        ]
+      }
+    },
+    {
+      "id": "nz.sh94.avalanche-release",
+      "topic": "transport",
+      "claim": "NZTA release 24 Aug 2026: SH94 Te Anau-Milford reopened after an overnight snow closure and was scheduled to close again for avalanche risk; the Milford Road Alliance runs avalanche control.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.nzta.govt.nz/media-releases/start-of-avalanche-season-means-further-impacts-on-sh94",
+          "kind": "official",
+          "title": "NZTA: Start of avalanche season means further impacts on SH94",
+          "evidence": [
+            "reopened this morning after an overnight snow closure",
+            "scheduled to close again at 4.30pm today",
+            "The Milford Road Alliance"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "24 August 2026",
+          "the Milford Road Alliance runs avalanche control on it"
+        ]
+      }
+    },
+    {
+      "id": "nz.dc.zqn-default",
+      "topic": "price",
+      "claim": "DiscoverCars' Queenstown Airport page on 19 Nov 2026 (default dates Sat 21 Nov-Sun 29 Nov 11:00, residence Japan) listed Toyota Yaris or similar economy automatic NZ$48.86/day and Mitsubishi ASX or similar intermediate SUV NZ$65.15/day.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.discovercars.com/new-zealand/queenstown/zqn?currency=NZD",
+          "kind": "operator",
+          "title": "DiscoverCars: Queenstown Airport",
+          "evidence": [
+            "NZ$48.86",
+            "NZ$65.15"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "NZ$48.86 a day",
+          "NZ$65.15 a day"
+        ]
+      }
+    },
+    {
+      "id": "nz.apex.prices",
+      "topic": "price",
+      "claim": "Apex 21-29 Nov 2026 Queenstown Airport: Hyundai i30 mid-size hatch NZ$1057.04; Tucson 2WD mid-size SUV NZ$1169.84 (NZ$935.84 with percentage-off deal; NZ$1497.36 with $0 excess); Nissan X-Trail AWD NZ$1324.80 (NZ$1059.84 with deal).",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.apexrentals.co.nz/reservations/vehicles",
+          "kind": "operator",
+          "title": "Apex: Select Vehicle",
+          "evidence": [
+            "$132.13",
+            "Total NZ$1057.04",
+            "Deal: Percentage Off",
+            "Total NZ$935.84"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "NZ$1,057.04",
+          "NZ$935.84",
+          "NZ$1,059.84",
+          "NZ$1,497.36"
+        ]
+      }
+    },
+    {
+      "id": "nz.go.prices",
+      "topic": "price",
+      "claim": "GO Rentals 21-29 Nov 2026 Queenstown Airport: Corolla Hatch Hybrid $133 NZD/day, $1064 total; Mitsubishi ASX $1088 total; RAV4 AWD Hybrid $1272 total.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.gorentals.co.nz/vehicles/",
+          "kind": "operator",
+          "title": "GO Rentals: Vehicles",
+          "evidence": [
+            "Toyota Corolla Hatch Hybrid",
+            "$1064 Total",
+            "$1088 Total",
+            "$1272 Total"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "NZ$1,064",
+          "NZ$1,088",
+          "NZ$1,272"
+        ]
+      }
+    },
+    {
+      "id": "nz.go.insurance",
+      "topic": "price",
+      "claim": "GO Rentals: basic insurance included at no extra cost; excess depends on vehicle; bond at pick-up; two upgrade options for excess reduction.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.gorentals.co.nz/services/rental-car-insurance/",
+          "kind": "operator",
+          "title": "GO Rentals: Rental Car Insurance Options",
+          "evidence": [
+            "The excess amount for this package is dependent on the vehicle selected",
+            "two upgrade options for excess reduction"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "is dependent on the vehicle selected",
+          "free basic car rental insurance"
+        ]
+      }
+    },
+    {
+      "id": "nz.dc.full-coverage",
+      "topic": "price",
+      "claim": "DiscoverCars Full Coverage is a reimbursement policy; you still leave the supplier deposit, pay damage first and claim within 90 days of drop-off; excludes third-party liability.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.discovercars.com/help/articles/protection-coverage/discovercars-full-coverage/what-is-full-coverage",
+          "kind": "operator",
+          "title": "DiscoverCars: What is Full Coverage?",
+          "evidence": [
+            "It’s a reimbursement policy that refunds you for the deductible (excess)",
+            "file a claim within 90 days of dropping off the car",
+            "Full Coverage does not cover damages to third parties"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "within 90 days of drop-off",
+          "does not include third-party liability"
+        ]
+      }
+    },
+    {
+      "id": "nz.jucy.no-availability",
+      "topic": "price",
+      "claim": "Jucy car search for 21-29 Nov 2026 from Queenstown Airport: small hatch and compact SUV 'Not available for pickup on 21st Nov'.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.jucy.com/nz/en/cars",
+          "kind": "operator",
+          "title": "Jucy: car search results",
+          "evidence": [
+            "Not available for pickup on 21st Nov"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/car-rental-new-zealand-south-island.html": [
+          "Not available for pickup on 21st Nov"
+        ]
+      }
     }
   ]
 }
