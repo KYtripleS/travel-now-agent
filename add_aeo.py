@@ -321,9 +321,9 @@ V = {
         cta=("klook", "Check Sydney harbour cruises on Klook")),
     # ticket comparisons: the answer and a partner button above the fold, like the tour pages
     "where-to-buy-disneyland-paris-tickets": dict(
-        text="For a fixed date, buy from Tiqets or GetYourGuide: on 31 October they were within 15p of each "
-             "other and £3.84 to £10.41 under Disney’s own price for the same ticket. Buy from "
-             "disneylandparis.com for an undated ticket valid for a year, or for a Disney Hotel package.",
+        text="Buy your dated ticket from Tiqets or GetYourGuide: for a 16 December visit they were within 4p of "
+             "each other and £4.55 to £10.25 under Disney’s own price for the same ticket, and GetYourGuide "
+             "showed free cancellation until 13 December.",
         cta=("href", "Check Disneyland Paris tickets on Tiqets", "https://tiqets.tpx.lu/dPBVw8yl")),
     "where-to-buy-universal-studios-japan-tickets": dict(
         text="For a 1-Day Studio Pass or an Express Pass, the official store and KKday charged the same on the "
@@ -331,24 +331,25 @@ V = {
              "the order cannot be cancelled once bought, so fix your date first.",
         cta=("href", "Check Studio Passes on KKday", "https://kkday.tpx.lu/Ew1DdWsa")),
     "where-to-buy-tokyo-disney-resort-tickets": dict(
-        text="Buy on Disney’s own site if your date might move: changes are free there, refunds are not. Buy "
-             "from KKday if you want a way out: on 16 November its Early Bird package matched Disney’s ¥10,900 "
-             "for 8 December and was free to cancel up to 3 days before.",
+        text="Buy from KKday: on 16 November its Early Bird package matched Disney’s ¥10,900 for 8 December and "
+             "was free to cancel up to 3 days before, a way out that Disney’s own tickets (changeable, not "
+             "refundable) do not give you.",
         cta=("href", "Check Tokyo Disney tickets on KKday", "https://kkday.tpx.lu/r8wq2zqj")),
     "where-to-buy-colosseum-tickets": dict(
-        text="Buy the standard ticket on the official site, ticketing.colosseo.it: €18 for 14 December, sold 30 "
-             "days ahead with a timed Colosseum entry, in your name. The reseller listings we priced were "
-             "non-refundable audio-guide packages. Want a guide to walk you round? That is what resellers sell.",
-        cta=("href", "Compare guided Colosseum tours on GetYourGuide", "https://getyourguide.tpx.lu/rThTgtZz")),
+        text="Book GetYourGuide’s Colosseum, Roman Forum and Palatine entry with an audio guide app: the listing is "
+             "badged “Official ticket”, gives the same timed entry and adds the audio guide the plain ticket lacks "
+             "(from €26 for 14 December, non-refundable). On the official calendar the early slots were already "
+             "gone when we looked, so book once your date opens.",
+        cta=("href", "Book Colosseum entry with audio guide on GetYourGuide", "https://getyourguide.tpx.lu/NQFpghod")),
     "where-to-buy-vatican-museums-tickets": dict(
-        text="For a self-guided visit, buy on tickets.museivaticani.va, the museums' only official ticket site: "
-             "€25 with skip-the-line for 9 December, against €32.50 on GetYourGuide. Most official morning slots "
-             "were sold out or nearly so; when yours is gone, or you want an audio guide waiting, a reseller fills the gap.",
+        text="Book on GetYourGuide: its skip-the-line ticket for 9 December was €32.50 with all fees included, or "
+             "€39.50 with an audio guide waiting inside, while most morning slots on the museums’ own portal were "
+             "sold out or nearly so. Want a way out? KKday’s listing allows free cancellation up to 3 days ahead.",
         cta=("href", "Check Vatican Museums tickets on GetYourGuide", "https://getyourguide.tpx.lu/c6ivqzuh")),
     "where-to-buy-teamlab-planets-tickets": dict(
-        text="Buy from the official teamLab Planets store: ¥3,800 for an adult on 9 December, the same as Tiqets "
-             "and KKday, and you can change the date up to three times. Prefer to pay in an app? Klook is the one "
-             "online reseller teamLab's help page names.",
+        text="Book through Klook: it is the one online seller teamLab’s own help page names alongside the Japanese "
+             "convenience-store agencies. Adult tickets were ¥3,800 everywhere we could read a price for "
+             "9 December, so there is nothing to gain by shopping around.",
         cta=("href", "Open the teamLab Planets ticket on Klook", "https://klook.tpx.lu/3Yn4usOs")),
     "where-to-buy-burj-khalifa-tickets": dict(
         text="Pick the slot before the seller: on 9 December Levels 124 and 125 were AED 189 at 11:00 and AED 219 "
@@ -371,10 +372,28 @@ V = {
              "from Queenstown, DiscoverCars' small automatic was about NZ$391 against NZ$1,057 at Apex and NZ$1,064 at "
              "GO Rentals. Check each offer's excess: Apex's basic rate carried NZ$4,000 to NZ$5,000.",
         cta=("href", "Compare Queenstown Airport cars on DiscoverCars", "https://discovercars.tpx.lu/8q8Ys4Ih")),
+    "where-to-buy-hong-kong-disneyland-tickets": dict(
+        text="Buy from KKday: for Wednesday 16 December its Wednesday-only ticket was HK$511 for an adult and HK$381 "
+             "for a child or senior, below the park’s own HK$535 and HK$399, with instant confirmation and a QR "
+             "e-ticket. Want to be able to cancel? GetYourGuide’s Wednesday ticket was free to cancel until 15 December.",
+        cta=("href", "Check Hong Kong Disneyland tickets on KKday", "https://kkday.tpx.lu/suPCQROU")),
+    "where-to-buy-universal-studios-singapore-tickets": dict(
+        text="Book on GetYourGuide: S$89 for an adult and S$69 for a child on 16 December, the same as the park’s "
+             "own price, and free to cancel until 15 December. 16 December is a Super Peak day, so book the date early.",
+        cta=("href", "Check Universal Studios Singapore tickets on GetYourGuide", "https://getyourguide.tpx.lu/yt79VGAd")),
+    "where-to-buy-lotte-world-tickets": dict(
+        text="Buy from KKday: ₩42,000 for 16 December, ₩25,000 under Lotte World’s own ₩67,000 for the same park "
+             "and Folk Museum day, with a direct-entry QR code. It is for foreign passport holders only and "
+             "non-refundable, so carry the passport you booked with.",
+        cta=("href", "Check Lotte World tickets on KKday", "https://kkday.tpx.lu/WObc2RLZ")),
+    "where-to-buy-shanghai-disneyland-tickets": dict(
+        text="Buy from KKday: HK$531 for an adult on 16 December, about ¥451 against the park’s ¥475, with instant "
+             "confirmation. Tickets are real-name, so book with the passport you will carry. Need to be able to "
+             "cancel? GetYourGuide and Viator were free to cancel until 15 December.",
+        cta=("href", "Check Shanghai Disneyland tickets on KKday", "https://kkday.tpx.lu/BySF3isr")),
     "where-to-buy-universal-orlando-tickets": dict(
-        text="Prices were close on 9 December, so choose by refunds and residency. Universal’s own tickets are "
-             "non-refundable; KKday’s one-park ticket was $143 against Universal’s $145 plus tax, with free "
-             "cancellation up to two days before. Tiqets and Viator restrict who may use their tickets.",
+        text="Buy from KKday: for 9 December its one-park ticket was $143 against Universal’s $145 plus tax, with "
+             "free cancellation up to two days before, which Universal’s own tickets do not offer.",
         cta=("href", "Check Universal Orlando tickets on KKday", "https://kkday.tpx.lu/H5f0uA3C")),
     # its partner link sits in the tip box after the article, so it is named here by hand
     "airport-security-bag-rules": dict(
@@ -1349,7 +1368,7 @@ for _slug, _v in json.loads((Path(__file__).resolve().parent / "data/verdicts_ex
 # restates an article's own conclusion is not a reason to claim it was updated.
 REVISED = {
     "where-to-stay-in-london-new-years-eve": "2026-11-13",  # revised for growth (2026-11-13)
-    "where-to-buy-disneyland-paris-tickets": "2026-11-13",  # revised for growth (2026-11-13)
+    "where-to-buy-disneyland-paris-tickets": "2026-11-19",  # prices re-read for a 16 December visit
     "where-to-stay-in-sydney-new-years-eve": "2026-11-13",  # revised for growth (2026-11-13)
     "carry-on-packing-list-10-day-japan": "2026-11-13",  # revised for growth (2026-11-13)
     "where-to-stay-in-edinburgh-hogmanay": "2026-11-13",  # revised for growth (2026-11-13)
@@ -3644,7 +3663,9 @@ STAY_POINTERS = {
     "where-to-stay-in-seoul": ("intro",
         f'Going on to Busan? <a href="{_BS}">Where to stay in Busan</a> compares Haeundae, Gwangalli, Seomyeon '
         'and Busan Station, and names nine hotels. Coming in April? <a href="where-to-stay-in-seoul-cherry-blossom.html">'
-        'Seoul hotels for cherry blossom season</a> matches the areas to Yeouido and Seokchon Lake.'),
+        'Seoul hotels for cherry blossom season</a> matches the areas to Yeouido and Seokchon Lake. Spending a day at '
+        'Lotte World? <a href="where-to-buy-lotte-world-tickets.html">Lotte World tickets compared</a> sets KKday and '
+        'GetYourGuide beside the park’s own price for the same day.'),
     "where-to-stay-in-japan": [
         ("When to book",
         f'Booking Fukuoka for a stay by 15 December? <a href="{_FK}#the-kyushu-recovery-discount-to-15-december-2026">'
@@ -3809,7 +3830,9 @@ STAY_POINTERS = {
         'Coming for Chinese New Year? <a href="where-to-stay-in-singapore-chinese-new-year.html">Where to stay in Singapore for Chinese New Year '
         '2027</a> matches the areas to Chinatown, the river and Marina Bay, with the 19.9% added to every room. '
         'Here for 31 December? <a href="where-to-stay-in-singapore-new-years-eve.html">Where to stay for New Year’s Eve</a> '
-        'covers the Marina Bay countdown and the late trains.'),
+        'covers the Marina Bay countdown and the late trains. Going to Sentosa? '
+        '<a href="where-to-buy-universal-studios-singapore-tickets.html">Universal Studios Singapore tickets compared</a> '
+        'sets GetYourGuide, KKday and Tiqets beside the park’s own price for the same day.'),
     "where-to-stay-in-hong-kong-chinese-new-year": ("intro",
         'Weighing Singapore instead? <a href="where-to-stay-in-singapore-chinese-new-year.html">Where to stay in Singapore for Chinese New Year '
         '2027</a> covers 6 and 7 February there, Chinatown and the river.'),
@@ -3842,7 +3865,12 @@ STAY_POINTERS = {
         'Coming for Chinese New Year? <a href="where-to-stay-in-hong-kong-chinese-new-year.html">Hong Kong Chinese '
         'New Year 2027 hotels</a> matches the areas to the parade, the harbour fireworks on 7 February and the '
         'Victoria Park fair. Here for 31 December? '
-        '<a href="where-to-stay-in-hong-kong-new-years-eve.html">Where to stay for New Year’s Eve</a> explains last year’s move to Central.'),
+        '<a href="where-to-stay-in-hong-kong-new-years-eve.html">Where to stay for New Year’s Eve</a> explains last year’s move to Central. '
+        'Going to the park? <a href="where-to-buy-hong-kong-disneyland-tickets.html">Hong Kong Disneyland tickets compared</a> '
+        'sets KKday and GetYourGuide beside the park’s own price for the same day.'),
+    "where-to-stay-in-shanghai": ("intro",
+        'Going to the park? <a href="where-to-buy-shanghai-disneyland-tickets.html">Shanghai Disneyland tickets compared</a> '
+        'sets KKday, GetYourGuide and Viator beside the park’s own price, with the real-name ID rules.'),
     "where-to-stay-in-venice-carnival": [
         ("intro",
          'Weighing the two big carnivals? <a href="where-to-stay-in-rio-carnival.html">Rio Carnival 2027 hotels</a> '
@@ -3864,6 +3892,12 @@ STAY_POINTERS = {
         'compares the village bases, the Skylynx bus from the airport and the taxes on a ski week. Flying on to '
         'Calgary? <a href="where-to-stay-in-banff.html">Where to stay in Banff</a> compares the town, Lake Louise '
         'and Canmore, with the park pass every visitor needs.'),
+    "where-to-stay-in-paris-christmas": ("intro",
+        'Adding a day at the parks? <a href="where-to-buy-disneyland-paris-tickets.html">Disneyland Paris tickets '
+        'compared</a> sets Disney’s own prices beside Tiqets and GetYourGuide for the same date.'),
+    "where-to-stay-in-paris-new-years-eve": ("intro",
+        'Adding a day at the parks? <a href="where-to-buy-disneyland-paris-tickets.html">Disneyland Paris tickets '
+        'compared</a> sets Disney’s own prices beside Tiqets and GetYourGuide for the same date.'),
     "where-to-stay-in-new-york": ("intro",
         'Here in December? <a href="where-to-stay-in-new-york-christmas.html">Where to stay in New York for '
         'Christmas</a> matches hotels to the Rockefeller Center tree (lit on 2 December), Bryant Park and Radio City. '
@@ -3930,7 +3964,9 @@ STAY_POINTERS = {
         'In Paris in December? <a href="where-to-stay-in-strasbourg-christmas-market.html">Where to stay for the '
         'Strasbourg Christmas market</a> (27 November to 24 December 2026) is under two hours away by direct TGV. '
         'Bringing children? <a href="where-to-stay-for-disneyland-paris.html">Where to stay for Disneyland Paris</a> '
-        'weighs the Disney Hotels, Val d’Europe and a Paris base on the RER A. '
+        'weighs the Disney Hotels, Val d’Europe and a Paris base on the RER A, and '
+        '<a href="where-to-buy-disneyland-paris-tickets.html">Disneyland Paris tickets compared</a> sets Disney’s own '
+        'prices beside Tiqets and GetYourGuide for the same date. '
         'Staying for 31 December? <a href="where-to-stay-in-paris-new-years-eve.html">Where to stay in Paris for '
         'New Year’s Eve</a> covers the Champs-Élysées celebration, last year’s station closures and the city tax.'),
     "where-to-stay-in-strasbourg-christmas-market": ("intro",

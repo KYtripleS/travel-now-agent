@@ -1258,6 +1258,168 @@
         ]
       },
       "recheck_days": 90
+    },
+    {
+      "id": "sg.sentosa.uss.official-prices",
+      "topic": "price",
+      "claim": "Official booking page for 16 Dec 2026 labels the date Super Peak: adult (13+) S$89, child (4-12) S$69. Read 19 Nov 2026.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.rwsentosa.com/en/play/universal-studios-singapore/tickets",
+          "kind": "official",
+          "title": "Book Universal Studios Singapore Tickets",
+          "evidence": [
+            "Adult (Ages 13 and above)",
+            "Child (Ages 4 to 12)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-singapore-tickets.html": [
+          "Adult - Super Peak",
+          "S$89 for an adult",
+          "child (ages 4 to 12)"
+        ]
+      }
+    },
+    {
+      "id": "sg.sentosa.uss.express-price",
+      "topic": "price",
+      "claim": "Universal Express S$120 per pax for 16 Dec 2026 on the booking page; sold only after a ticket is in the cart.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.rwsentosa.com/en/play/universal-studios-singapore/universal-express",
+          "kind": "official",
+          "title": "Universal Express",
+          "evidence": [
+            "available for purchase only after a ticket has been added to your cart",
+            "Every Universal Express pass is dated"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-singapore-tickets.html": [
+          "is available for purchase only after a ticket has been added to your cart",
+          "S$120"
+        ]
+      }
+    },
+    {
+      "id": "sg.sentosa.uss.terms",
+      "topic": "history",
+      "claim": "Official terms: tickets non-refundable, non-transferable; admission not valid for re-entry; facial recognition used; not valid during Special Events.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.rwsentosa.com/en/play/ticketing-terms-and-conditions",
+          "kind": "official",
+          "title": "Attractions Ticketing Terms and Conditions",
+          "evidence": [
+            "Non-transferable, non-refundable, and not for sale or exchange",
+            "Universal Studios Singapore admission is not valid for re-entry",
+            "uses facial recognition for access management"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-singapore-tickets.html": [
+          "Non-transferable, non-refundable, and not for sale or exchange",
+          "admission is not valid for re-entry"
+        ]
+      }
+    },
+    {
+      "id": "sg.sentosa.uss.bts-fan-village",
+      "topic": "place",
+      "claim": "16-22 Dec 2026, standard adult admission includes complimentary entry to BTS THE CITY ARIRANG Fan Village.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.rwsentosa.com/en/play/universal-studios-singapore/tickets",
+          "kind": "official",
+          "title": "Book Universal Studios Singapore Tickets",
+          "evidence": [
+            "From 16 - 22 December 2026, standard adult admission includes complimentary admission to BTS THE CITY ARIRANG Fan Village"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-singapore-tickets.html": [
+          "BTS THE CITY ARIRANG Fan Village",
+          "16 to 22 December"
+        ]
+      }
+    },
+    {
+      "id": "sg.sentosa.uss.kkday-listing",
+      "topic": "price",
+      "claim": "KKday 16 Dec 2026: adult S$89, child S$69, non-cancellable; Express add-on from S$133.27.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en-sg/product/2312-universal-studios-singapore-ticket",
+          "kind": "operator",
+          "title": "KKday Universal Studios Singapore Ticket",
+          "evidence": [
+            "Once the order has been completed, it cannot be canceled, modified, or refunded",
+            "One-day, fixed date admission ticket to Universal Studios Singapore"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-singapore-tickets.html": [
+          "cannot be canceled, modified, or refunded",
+          "from S$133.27"
+        ]
+      }
+    },
+    {
+      "id": "sg.sentosa.uss.gyg-listing",
+      "topic": "price",
+      "claim": "GetYourGuide 16 Dec 2026: [Super Peak] ticket S$89 adult, S$69 child, cancel free until 15 Dec.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/en-gb/universal-studios-singapore-l4045/universal-studios-singapore-entrance-ticket-t66117/",
+          "kind": "operator",
+          "title": "GetYourGuide Universal Studios Singapore Entry Ticket",
+          "evidence": [
+            "Cancel for free until Dec 15",
+            "[Super Peak] Admission Ticket"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-singapore-tickets.html": [
+          "Cancel for free until Dec 15",
+          "[Super Peak] Admission Ticket"
+        ]
+      }
+    },
+    {
+      "id": "sg.sentosa.uss.tiqets-listing",
+      "topic": "price",
+      "claim": "Tiqets 16 Dec 2026: only open-dated tickets shown, adult S$84.99, child S$78; nonrefundable; pay in USD.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/singapore-attractions-c78125/tickets-for-universal-studios-singapore-p975163/",
+          "kind": "operator",
+          "title": "Tiqets Universal Studios Singapore Entry Ticket",
+          "evidence": [
+            "This ticket is nonrefundable",
+            "Park re-entry is not permitted"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-singapore-tickets.html": [
+          "This ticket is nonrefundable",
+          "S$84.99"
+        ]
+      }
     }
   ]
 }

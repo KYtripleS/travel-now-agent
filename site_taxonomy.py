@@ -271,6 +271,10 @@ BY_SLUG = {
     "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
     "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Food",
     # 2026-10-31 ticket comparisons
+    "where-to-buy-shanghai-disneyland-tickets": "Booking & tours",
+    "where-to-buy-lotte-world-tickets": "Booking & tours",
+    "where-to-buy-universal-studios-singapore-tickets": "Booking & tours",
+    "where-to-buy-hong-kong-disneyland-tickets": "Booking & tours",
     "car-rental-new-zealand-south-island": "Booking & tours",
     "car-rental-okinawa": "Booking & tours",
     "car-rental-iceland": "Booking & tours",

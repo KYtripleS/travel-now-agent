@@ -1434,6 +1434,202 @@
           "At 665 King's Road, a two-minute walk from Quarry Bay MTR station, Exit C, by its own count, with most rooms looking at the eastern side of Victoria Harbour"
         ]
       }
+    },
+    {
+      "id": "hk.disneyland.wednesday-offer",
+      "topic": "price",
+      "claim": "Park's Wednesday-only ticket: adult from HK$535, child/senior from HK$399, purchase through 30 Dec 2026, Wednesdays 5 Oct-30 Dec except 23 Dec, date cannot be changed.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.hongkongdisneyland.com/offers-discounts/midweek-getaway-ticket/",
+          "kind": "official",
+          "title": "Hong Kong Disneyland, Midweek Getaway Ticket",
+          "evidence": [
+            "Starting from HK$ 535",
+            "Starting from HK$ 399",
+            "Purchase through"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-hong-kong-disneyland-tickets.html": [
+          "starting from HK$ 535",
+          "the selected Validity Date may not be changed"
+        ]
+      }
+    },
+    {
+      "id": "hk.disneyland.tier1-price",
+      "topic": "price",
+      "claim": "Park offer page lists 1-day general admission starting from HK$669 and child/senior from HK$499.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.hongkongdisneyland.com/offers-discounts/1-day-ticket-with-free-snack/",
+          "kind": "official",
+          "title": "Hong Kong Disneyland, 1-Day Dated Ticket with Free Snack",
+          "evidence": [
+            "Starting from HK$ 669",
+            "Starting from HK$ 499"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-hong-kong-disneyland-tickets.html": [
+          "starting from HK$ 669"
+        ]
+      }
+    },
+    {
+      "id": "hk.disneyland.tier-calendar",
+      "topic": "place",
+      "claim": "On the park's Ticket Tier Calendar 16 Dec 2026 is Tier 1 of four; 23-27 and 31 Dec are Tier 3 (read from calendar cell classes typeA/typeC).",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.hongkongdisneyland.com/new-day-calendar/iframe/index.html?lang=en",
+          "kind": "official",
+          "title": "Ticket Tier Calendar",
+          "evidence": [
+            "Tier 1",
+            "Tier 2",
+            "Tier 3",
+            "Tier 4"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-hong-kong-disneyland-tickets.html": [
+          "23 to 27 and 31 December as Tier 3"
+        ]
+      }
+    },
+    {
+      "id": "hk.disneyland.dated-tickets",
+      "topic": "history",
+      "claim": "From 11 Nov 2026 1-day dated tickets: valid on the specified date only; date change within 90 days of purchase before 12:00 a.m. on the visit date, via MyDisney HK, no refund if cheaper.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.hongkongdisneyland.com/ticket-general-terms-conditions/",
+          "kind": "official",
+          "title": "Hong Kong Disneyland, General Terms and Conditions",
+          "evidence": [
+            "General Terms and Conditions relating to 1-Day Dated Tickets purchased on or after November 11, 2026",
+            "within 90 days after the date of purchase",
+            "no refund will be made"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-hong-kong-disneyland-tickets.html": [
+          "valid for one guest to visit the Park on the date specified on the ticket only",
+          "within 90 days of purchase and before 12:00 a.m. on the visit date"
+        ]
+      }
+    },
+    {
+      "id": "hk.disneyland.photo-ages",
+      "topic": "transport",
+      "claim": "Photo taken at entry or required ID; same guest must use ticket; child/senior = ages 3-11 and 60+; under 3 no admission needed; buyers must be 18+.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.hongkongdisneyland.com/ticket-general-terms-conditions/",
+          "kind": "official",
+          "title": "Hong Kong Disneyland, General Terms and Conditions",
+          "evidence": [
+            "Each 1-Day Dated Ticket must be used by the same guest.",
+            "have his/her photo taken"
+          ]
+        },
+        {
+          "url": "https://www.hongkongdisneyland.com/faq/online-ticket-sales/buying-ticket-online/",
+          "kind": "official",
+          "title": "Online Ticket Sales FAQ",
+          "evidence": [
+            "Children aged 3 to 11 and guests aged 60 or above",
+            "Guests must be aged 18 or older to purchase tickets online."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-hong-kong-disneyland-tickets.html": [
+          "Child and senior tickets are for ages 3 to 11 and 60 or over",
+          "Guests must be 18 or older to buy online"
+        ]
+      }
+    },
+    {
+      "id": "hk.disneyland.kkday-wed-price",
+      "topic": "price",
+      "claim": "KKday, Wed 16 Dec 2026, read 19 Nov: Wednesday-only adult HK$511, child/senior HK$381; regular dated adult HK$641, child/senior HK$482; no cancellation once completed.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en-hk/product/2301-hong-kong-disneyland-ticket",
+          "kind": "operator",
+          "title": "KKday, Hong Kong Disneyland Admission Tickets",
+          "evidence": [
+            "Once the order has been completed, it cannot be canceled, modified, or refunded",
+            "valid for single entry on the selected Wednesday only"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-hong-kong-disneyland-tickets.html": [
+          "HK$511 on KKday",
+          "cannot be canceled, modified, or refunded"
+        ]
+      }
+    },
+    {
+      "id": "hk.disneyland.gyg-wed",
+      "topic": "price",
+      "claim": "GetYourGuide, Wed 16 Dec 2026: Midweek Getaway Promo (Wednesdays, Tier 1) US$72.53, cancel free until Dec 15, reserve now pay later.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/hong-kong-l174/hong-kong-disneyland-park-tickets-t194756/",
+          "kind": "operator",
+          "title": "GetYourGuide, Hong Kong Disneyland Park Tickets",
+          "evidence": [
+            "Cancel for free until Dec 15",
+            "Reserve now & pay later",
+            "Midweek Getaway Promo: 1-Day Admission (Wednesdays, Tier 1)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-hong-kong-disneyland-tickets.html": [
+          "Cancel for free until Dec 15",
+          "US$72.53"
+        ]
+      }
+    },
+    {
+      "id": "hk.disneyland.viator-dated",
+      "topic": "price",
+      "claim": "Viator 'Disneyland in Hong kong' 1-Day Dated Ticket for 16 Dec 2026: HK$844.39 adult, free cancellation before 10:30 on Dec 15.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Hong-Kong-SAR/Disneyland-Hong-kong/d35959-5690291P18",
+          "kind": "operator",
+          "title": "Viator, Disneyland in Hong kong",
+          "evidence": [
+            "You can cancel up to 24 hours in advance of the experience for a full refund.",
+            "One-day admission ticket to Hong Kong Disneyland Park."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-hong-kong-disneyland-tickets.html": [
+          "HK$844.39",
+          "Free cancellation before 10:30 on Dec 15 (local time)"
+        ]
+      }
     }
   ]
 }

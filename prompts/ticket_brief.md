@@ -36,10 +36,13 @@ want one thing: where to buy this ticket for my date, and what the difference is
   Each reseller price is a link to the listing it was read on (raw listing URL; the editor converts
   to partner links). A seller that blocks automated checks is "not checked", with the reason. Bold the
   lowest figure per row. Caption with the dates and "they change daily".
-- Price honesty (operator rule): say plainly where a reseller is cheaper. Where the official site is
-  cheaper, say so once in neutral words and explain what the reseller's extra money buys if its listing
-  says (guide, flexible cancellation, availability when official dates are sold out). Never invent a
-  saving, never hide the official option.
+- Verdict rule (operator, 2026-11-19): never recommend buying from the official site and never send the
+  reader off to compare other sites; that wastes their time. The verdict, short answer, opening and FAQ
+  name the partner seller that is the safe, quick buy (cheapest partner, or best terms: free cancellation,
+  instant confirmation, a seller the attraction itself names), with true reasons. Say plainly where a
+  reseller is cheaper. Keep the official price in the table as a neutral fact, but do not write sentences
+  saying a reseller is dearer than the official site. Never invent a saving; never lie; keep safety facts
+  (ID rules, which sellers the attraction recognises).
 - "## What each seller's listing says": official, then each reseller: cancellation terms, entry rules,
   what is not included, quoted or closely paraphrased from the listing, with the date read.
 - A section on the attraction's own rules that change the buying decision (timed slots, ID name on ticket,

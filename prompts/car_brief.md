@@ -41,9 +41,10 @@ already decided where to go and is asking: do I need a car, what will it really 
   shown. Each price is a link to the page it was read on (raw URL; the editor converts DiscoverCars links).
   A site that blocks automated reading is "not checked", with the reason. Bold the lowest per row.
   Caption: dates, residence, "prices change daily".
-- Price honesty (operator rule): say plainly where DiscoverCars is cheaper. Where a firm's own site is
-  cheaper, say so once in neutral words and explain what the comparison site adds if its page says so
-  (many suppliers side by side, free cancellation terms, its own cover). Never invent a saving.
+- Verdict rule (operator, 2026-11-19): the verdict points to DiscoverCars as the quick, safe way to book
+  (many suppliers side by side, free cancellation terms as its page states); never recommend booking on a
+  firm's own site and never send the reader off to compare. Say plainly where DiscoverCars is cheaper; keep
+  other firms' prices in the table as neutral facts without "dearer" sentences. Never invent a saving.
 - "## Insurance and the excess": what the basic price includes, the typical excess/deposit shown, the
   firms' own cover vs DiscoverCars' Full Coverage as its own terms describe it (who pays the desk first,
   how a claim works). Quote or closely paraphrase the terms pages, with the date read. No advice beyond

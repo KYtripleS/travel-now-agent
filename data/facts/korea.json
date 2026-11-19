@@ -1374,6 +1374,105 @@
           "At 141 Yanghwa-ro, with a rooftop pool and a rooftop bar called Floating"
         ]
       }
+    },
+    {
+      "id": "kr.seoul.lotte-world.official-prices",
+      "topic": "price",
+      "claim": "Official English price page: 1 Day park-only adult 64,000 KRW, youth 56,000, child 49,000, baby 17,000; Full day pass (with Folk Museum) 67,000 / 58,000 / 50,000 / 17,000; After4 park-only adult 52,000, child 38,000. Read 19 Nov 2026; no dated calendar seen.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://adventure.lotteworld.com/price/price",
+          "kind": "official",
+          "title": "Tickets | LOTTEWORLD Adventure",
+          "evidence": [
+            "67,000 KRW",
+            "64,000 KRW",
+            "49,000 KRW"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-lotte-world-tickets.html": [
+          "₩64,000",
+          "₩67,000",
+          "₩52,000 adult and ₩38,000 child"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.lotte-world.refund-and-ticket-rules",
+      "topic": "place",
+      "claim": "Official page: Folk Museum and park cannot be refunded separately; cancellations/refunds not possible except on the day of use; full day pass needs a real ticket (no mobile capture); age ID required for baby/child rates; 65+ pay child price.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://adventure.lotteworld.com/price/price",
+          "kind": "official",
+          "title": "Tickets | LOTTEWORLD Adventure",
+          "evidence": [
+            "Mobile capture screen not available. You need to bring a real ticket",
+            "You must present an ID or document to verify your age",
+            "Ages 65 and older: Children's regular price applies"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-lotte-world-tickets.html": [
+          "Mobile capture screen not available. You need to bring a real ticket",
+          "except on the day of use"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.lotte-world.kkday-price-2026-12-16",
+      "topic": "price",
+      "claim": "KKday 1-Day Pass (park + Folk Museum, QR direct entry) was KRW 42,000 for 16 Dec 2026, shown against a crossed-out 67,000, read 19 Nov 2026; no child ticket; foreign travellers only; no cancellations or refunds.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/2948-lotte-world-ticket-seoul-korea",
+          "kind": "operator",
+          "title": "Lotte World Seoul Tickets: 1-Day Pass & Magic Pass - KKday",
+          "evidence": [
+            "For foreign travelers only; bring your own passport or Alien Registration Card for park entry",
+            "every order is final, with no cancellations, changes, or refunds",
+            "this discounted product has no separate child ticket"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-lotte-world-tickets.html": [
+          "₩42,000",
+          "For foreign travelers only; bring your own passport or Alien Registration Card for park entry",
+          "this discounted product has no separate child ticket"
+        ]
+      }
+    },
+    {
+      "id": "kr.seoul.lotte-world.gyg-price-2026-12-16",
+      "topic": "price",
+      "claim": "GetYourGuide Lotte World Adventure Entry Ticket (BeMyGuest) from GBP 28 / KRW 49,339 adult for 16 Dec 2026, read 19 Nov 2026; non-refundable; international travellers only; redeem by 5.30 pm unless direct entry; child (3-12) traveller type exists.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/en-gb/seoul-l197/seoul-lotte-world-adventure-entry-ticket-t1129149/",
+          "kind": "operator",
+          "title": "Seoul: Lotte World Adventure Entry Ticket - GetYourGuide",
+          "evidence": [
+            "This activity is non-refundable",
+            "Valid only for international travellers and cannot be purchased by Korean citizens",
+            "your admission pass must be redeemed by 5.30 pm, except if you choose the direct entry option"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-lotte-world-tickets.html": [
+          "₩49,339",
+          "This activity is non-refundable",
+          "your admission pass must be redeemed by 5.30 pm, except if you choose the direct entry option"
+        ]
+      }
     }
   ]
 }

@@ -656,6 +656,187 @@
           "two restaurants it shares with Traders"
         ]
       }
+    },
+    {
+      "id": "cn.shanghai-disney.price-2026-12-16",
+      "topic": "price",
+      "claim": "Official 1-day ticket on Wed 16 Dec 2026: adult CNY 475, child CNY 356, senior CNY 356 (calendar read 19 Nov 2026).",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-theme-park-tickets/ThemePark/booth?groupID=ticket-group-shdr-theme-park-tickets-one-day-ticket-hybrid&categoryId=ThemePark",
+          "kind": "official",
+          "title": "Shanghai Disney Resort, One-Day Ticket",
+          "evidence": [
+            "Only 5 tickets bookings allowed per order."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shanghai-disneyland-tickets.html": [
+          "The official calendar for 16 December read ¥475 for an adult",
+          "¥356 for child, senior and guest-with-disability tickets"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai-disney.age-bands",
+      "topic": "price",
+      "claim": "Standard 12-59, child 3-11, senior 60+ on the visit day; under-3s free.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-theme-park-tickets/ThemePark/booth?groupID=ticket-group-shdr-theme-park-tickets-one-day-ticket-hybrid&categoryId=ThemePark",
+          "kind": "official",
+          "title": "Shanghai Disney Resort, One-Day Ticket",
+          "evidence": [
+            "Child: Aged 3 to 11 years old (both inclusive) on the day of their visit to the park",
+            "Senior: Aged 60 years old and above on the day of their visit to the park"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shanghai-disneyland-tickets.html": [
+          "child is 3 to 11 and senior is 60 and over, all counted on the day of the visit",
+          "Under-3s are admitted free"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai-disney.refund-terms",
+      "topic": "price",
+      "claim": "Free refund before 23:59 seven days before the visit; RMB 80 per ticket from 6 days to the day before; none from 00:00 on the visit date.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-theme-park-tickets/ThemePark/booth?groupID=ticket-group-shdr-theme-park-tickets-one-day-ticket-hybrid&categoryId=ThemePark",
+          "kind": "official",
+          "title": "Shanghai Disney Resort, One-Day Ticket",
+          "evidence": [
+            "Guests may request a free refund before 23:59 (include), seven days prior to the visitation date",
+            "A service fee of RMB 80 per ticket (for each day applicable) will be charged",
+            "Refunds will not be available starting from 00:00 on the visitation date"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shanghai-disneyland-tickets.html": [
+          "free before 23:59, seven days before the visit date, which for 16 December means 23:59 on 9 December",
+          "a service fee of RMB 80 per ticket applies",
+          "From 00:00 on the visit date there is no refund"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai-disney.date-change",
+      "topic": "transport",
+      "claim": "Official 1-day ticket can be exchanged twice, at least 48 hours before the original date; ID cannot be changed; not transferable.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.shanghaidisneyresort.com/en/commerce/ticketing-v2/tickets/shdr-theme-park-tickets/ThemePark/booth?groupID=ticket-group-shdr-theme-park-tickets-one-day-ticket-hybrid&categoryId=ThemePark",
+          "kind": "official",
+          "title": "Shanghai Disney Resort, One-Day Ticket",
+          "evidence": [
+            "This offer can only be exchanged twice within the ticket's validity period",
+            "the personal identification information registered at the time of purchase cannot be changed after purchase"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shanghai-disneyland-tickets.html": [
+          "it can be exchanged twice within its validity",
+          "tickets cannot be transferred"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai-disney.real-name-id",
+      "topic": "transport",
+      "claim": "Each guest books with their own valid government ID; foreign guests use a valid foreign passport; original physical ID must be shown at entry; copies/digital not accepted; one ID buys one ticket per visit date.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.shanghaidisneyresort.com/en/legal/shanghai-disney-resort-real-name-ticketing-policy",
+          "kind": "official",
+          "title": "Shanghai Disney Resort real name ticketing policy (images, read by OCR)",
+          "evidence": [
+            "Valid Government ID can only be used to purchase one ticket on the same date of visit",
+            "Other guests are required to use a valid foreign passport or PRC Foreign Permanent Resident ID Card"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shanghai-disneyland-tickets.html": [
+          "one ID can buy only one ticket for the same visit date",
+          "are required to use a valid foreign passport or PRC Foreign Permanent Resident ID Card",
+          "Copies in any form or a digital version are not accepted"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai-disney.under3-id",
+      "topic": "transport",
+      "claim": "Under-3s are admitted free but guardians must show the child's original ID.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.shanghaidisneyresort.com/en/legal/shanghai-disney-resort-real-name-ticketing-policy",
+          "kind": "official",
+          "title": "Shanghai Disney Resort real name ticketing policy",
+          "evidence": [
+            "Children under the age of 3 years old on the day of their visit will receive free park admission."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shanghai-disneyland-tickets.html": [
+          "their guardians must also show the child's original ID, even though admission is free"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai-disney.premier-access-channels",
+      "topic": "transport",
+      "claim": "Disney Premier Access is sold only via the official website, app, WeChat account and Fliggy store, after buying park tickets.",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.shanghaidisneyresort.com/en/faq?fid=ticket-purchase",
+          "kind": "official",
+          "title": "Shanghai Disney Resort notice on official channels",
+          "evidence": [
+            "Disney Premier Access products and services are only available through these four channels:"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shanghai-disneyland-tickets.html": [
+          "Premier Access is sold only through four channels"
+        ]
+      }
+    },
+    {
+      "id": "cn.shanghai-disney.official-channels",
+      "topic": "transport",
+      "claim": "Official site names its direct channels and a list of travel partners by legal entity name (e.g. Shanghai Ctrip International Travel Service Co.,Ltd).",
+      "checked": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://www.shanghaidisneyresort.com/en/faq?fid=ticket-purchase",
+          "kind": "official",
+          "title": "Shanghai Disney Resort FAQ, where to purchase tickets",
+          "evidence": [
+            "Always purchase park tickets from the resort’s official channels, or from our official travel partners‘ channels listed below:",
+            "Shanghai Ctrip International Travel Service Co.,Ltd"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shanghai-disneyland-tickets.html": [
+          "That list names companies by legal name, such as \"Shanghai Ctrip International Travel Service Co.,Ltd\""
+        ]
+      }
     }
   ]
 }
