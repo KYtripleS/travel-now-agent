@@ -504,7 +504,7 @@ HOTELS = {
     # Hakuba
     "Hakuba Tokyu Hotel": _B + "jp/hakuba-tokyu.html",
     "Phoenix Hotel": _B + "jp/the-phoenix-hotel.html",
-    "Morino Lodge Hakuba": None,  # on Booking.com, but no winter rooms there (checked Oct 2026)
+    "Morino Lodge Hakuba": _B + "jp/morino-lodge.html",  # on Booking.com, but no winter rooms there (checked Oct 2026)
     "Hotel Taigakukan": _B + "jp/taigakukan.html",  # Happo 5094; confirmed by name and address, 2026-11-01
     "Courtyard by Marriott Hakuba": _B + "jp/laforet-club-hakuba-happo.html",
     "Hotel La Vigne Hakuba by Onko Chishin": _B + "jp/la-vigne-hakuba-by-onko-chishin.html",
@@ -546,7 +546,7 @@ HOTELS = {
     "Park Hyatt Melbourne": _B + "au/park-hyatt-melbourne.html",
     "The Ritz-Carlton, Melbourne": _B + "au/the-ritz-carlton-melbourne.html",
     "QT Melbourne": _B + "au/qt-melbourne.html",
-    "Laneways by Ovolo": None,
+    "Laneways by Ovolo": _B + "au/ovolo-melbourne.html",
     "The Hotel Windsor": _B + "au/the-windsor.html",
     "The Victoria Hotel": _B + "au/the-victoria-melbourne-an-all-seasons.html",
     "The Langham, Melbourne": _B + "au/the-langham-melbourne.html",
@@ -737,7 +737,7 @@ HOTELS = {
     # London (Booking.com pages confirmed by hotel name and city, 2026-10-13)
     "The Savoy": _B + "gb/the-savoy.html",
     "Radisson Blu Hotel, London Mercer Street": _B + "gb/radissonblumercerstreet.html",
-    "hub by Premier Inn London Covent Garden": None,
+    "hub by Premier Inn London Covent Garden": _B + "gb/hub-london-covent-garden.html",
     "Sea Containers London": _B + "gb/sea-containers-london.html",
     "citizenM London Bankside": _B + "gb/citizenm-london-bankside.html",
     "The Kensington": _B + "gb/the-kensington-london.html",
@@ -868,7 +868,7 @@ HOTELS = {
     "Storchen Zürich": _B + "ch/zum-storchen.html",
     "Hotel Adler Zürich": _B + "ch/adler.html",
     "Hotel Schweizerhof Zürich": _B + "ch/schweizerhof.html",
-    "Hotel Montana Zürich": None,
+    "Hotel Montana Zürich": _B + "ch/bookingsbestwesternhotelmontana.html",
     "La Réserve Eden au Lac Zurich": _B + "ch/eden-au-lac.html",
     "Sorell Hotel Seefeld": _B + "ch/hotelseefeld.html",
     "Motel One Zurich": _B + "ch/motel-one-zurich.html",
@@ -876,7 +876,7 @@ HOTELS = {
     "Zurich Youth Hostel": _B + "ch/jugendherberge-zuerich.html",
     "25hours Hotel Langstrasse": _B + "ch/25hours-zurich-langstrasse.html",
     "Greulich Design & Boutique Hotel": _B + "ch/greulich.html",
-    "25hours Hotel Zürich West": None,
+    "25hours Hotel Zürich West": _B + "ch/hours-za1-4rich-west.html",
     # Montreal (Booking.com pages confirmed by hotel name and city, 2026-10-13)
     "Hotel William Gray": _B + "ca/william-gray.html",
     "Hotel Saint-Sulpice": _B + "ca/le-saint-sulpice.html",
@@ -888,7 +888,7 @@ HOTELS = {
     "M Montreal": _B + "ca/m-montreal.html",
     "Hôtel de l'ITHQ": _B + "ca/de-l-institut-montreal-quebec.html",
     "Auberge de La Fontaine": _B + "ca/auberge-de-la-fontaine.html",
-    "Alt Hotel Montreal": None,
+    "Alt Hotel Montreal": _B + "ca/alt-montreal-griffintown.html",
     "Maison Grinder": _B + "ca/maison-grinder.html",
     # Vancouver (Booking.com pages confirmed by hotel name and city, 2026-10-13)
     "Fairmont Pacific Rim": _B + "ca/faimont-pacific-rim.html",
@@ -1170,7 +1170,7 @@ HOTELS = {
     "Hotel Indigo Shanghai on the Bund": _B + "cn/indigo-shanghai-on-the-bund-shanghai-huangpu-area.html",
     "Okura Garden Hotel Shanghai": _B + "cn/okura-garden-shanghai.html",
     "HUALUXE Shanghai Twelve at Hengshan": _B + "cn/hualuxe-shanghai-twelve-at-hengshan.html",
-    "The PuLi Shanghai": None,
+    "The PuLi Shanghai": _B + "cn/the-puli-and-spa.html",
     "Holiday Inn Express Shanghai Jing'an Temple": _B + "cn/holiday-inn-express-shanghai-jing-an-temple-an-ihg.html",
     "Regent Shanghai Pudong": _B + "cn/regent-shanghai-pudong.html",
     "InterContinental Shanghai Pudong": _B + "cn/intercontinental-shanghai-pudong.html",
@@ -1211,7 +1211,7 @@ HOTELS = {
     "Benikea Jungmun Hotel": _B + "kr/benikea-jungmun.html",
     "Seogwipo KAL Hotel": _B + "kr/seogwipo-kal.html",
     "STANFORD Hotel & Resort Jeju": _B + "kr/stanford-amp-resort-jeju.html",
-    "Kensington Resort Jeju Hallim": None,
+    "Kensington Resort Jeju Hallim": _B + "kr/kensington-resort-jeju.html",
     "Benikea Hotel Jeju": _B + "kr/benikea-jeju.html",
     "Phoenix Island": _B + "kr/phoenix-island.html",
     "Haevichi Hotel & Resort Jeju": _B + "kr/haevichi.html",
@@ -1581,10 +1581,10 @@ HOTELS = {
     "Coast Canmore Hotel & Conference Centre": _B + "ca/rad-conference-centre.html",
     # Seoul, where-to-stay-in-seoul-cherry-blossom (Booking.com pages confirmed by hotel name and city)
     "Fairmont Ambassador Seoul": _B + "kr/fairmont-ambassador-seoul.html",
-    "Courtyard by Marriott Seoul Times Square": None,
+    "Courtyard by Marriott Seoul Times Square": _B + "kr/courtyard-by-marriott.html",
     "Lotte Hotel World": _B + "kr/lotte-world.html",
-    "ibis Styles Ambassador Seoul Myeongdong": None,
-    "ibis Ambassador Seoul Insadong": None,
+    "ibis Styles Ambassador Seoul Myeongdong": _B + "kr/ibis-styles-seoul-myeongdong.html",
+    "ibis Ambassador Seoul Insadong": _B + "kr/ibis-ambassador-insadong.html",
     # Los Angeles, where-to-stay-in-los-angeles-super-bowl (Booking.com pages confirmed by hotel name and city)
     "The Anthem Los Angeles Stadium District, Tapestry by Hilton": _B + "us/the-anthem-los-angeles-stadium-district-tapestry-by-hilton.html",
     "TownePlace Suites by Marriott Los Angeles LAX/Hawthorne": _B + "us/towneplace-suites-by-marriott-los-angeles-lax-hawthorne.html",
@@ -1613,7 +1613,7 @@ HOTELS = {
     "Hotel Lowietje Lisse": _B + "nl/lowietje.html",
     "Grand Hotel Huis ter Duin": _B + "nl/grand-huis-ter-duin.html",
     "The Florian": _B + "nl/the-florian.html",
-    "Radisson Hotel Amsterdam Schiphol Airport Hoofddorp": None,
+    "Radisson Hotel Amsterdam Schiphol Airport Hoofddorp": _B + "nl/radisson-amsterdam-schiphol-airport-hoofddorp.html",
     # Disneyland Paris, where-to-stay-for-disneyland-paris (Booking.com pages confirmed by hotel name and city)
     "Disneyland Hotel": _B + "fr/disneyland-r.html",
     "Disney Hotel New York - The Art of Marvel": _B + "fr/disney-39-s-new-york-r.html",
@@ -1664,7 +1664,7 @@ HOTELS = {
     "Les Grands Montets Hotel & Spa": _B + "fr/les-grands-montets.html",
     "Hôtel La Couronne": _B + "fr/ha-tel-de-la-couronne.html",
     "Hôtel Aiguille du Midi": _B + "fr/aiguille-du-midi-chamonix.html",
-    "Chalet Hôtel Les Campanules": None,
+    "Chalet Hôtel Les Campanules": _B + "fr/les-campanules.html",
     "RockyPop Chamonix - Les Houches": _B + "fr/rockypop-aux-portes-de-chamonix.html",
     # Nice, where-to-stay-in-nice-carnival (Booking.com pages confirmed by hotel name and city)
     "Hôtel Windsor": _B + "fr/hotel-windsor-nice1.html",
@@ -1747,7 +1747,7 @@ HOTELS = {
     "Stonebridge Inn": _B + "us/the-stonebridge-inn.html",
     "Mountain Chalet Snowmass": _B + "us/s-mountain-c-snowmass-village-colorado.html",
     "Element by Marriott Basalt - Aspen": _B + "us/element-basalt-aspen-valley.html",
-    "Hotel Colorado": None,
+    "Hotel Colorado": _B + "us/colorado.html",
     # Rome, where-to-stay-in-rome-easter (Booking.com pages confirmed by hotel name and city)
     "Residenza Paolo VI": _B + "it/residenza-paolo-vi.html",
     "Palazzo Cardinal Cesi": _B + "it/palazzo-cardinal-cesi.html",
@@ -1769,7 +1769,7 @@ HOTELS = {
     "Nagoya Marriott Associa Hotel": _B + "jp/nagoya-marriott-associa.html",
     "Hilton Nagoya": _B + "jp/hilton-nagoya.html",
     "Daiwa Roynet Hotel Nagoya Shinkansenguchi": _B + "jp/daiwa-roynet-nagoya-shinkansenguchi.html",
-    "Platon Hotel Yokkaichi": None,
+    "Platon Hotel Yokkaichi": _B + "jp/platon-yokkaichi.html",
     "Sanco Inn Yokkaichi Ekimae": _B + "jp/san-jiao-insi-ri-shi-yi-qian.html",
     "Yokkaichi Urban Hotel": None,
     "Shiroko Storia Hotel": None,
@@ -1806,7 +1806,7 @@ HOTELS = {
     "Dog & Fox": _B + "gb/dog-and-fox.html",
     "The Rose & Crown": _B + "gb/rose-and-crown.html",
     "Premier Inn London Wimbledon (Broadway)": None,
-    "Antoinette Hotel": None,
+    "Antoinette Hotel": _B + "gb/wayfairer.html",
     "The Petersham Hotel": _B + "gb/petershamhotel.html",
     "Bingham Riverhouse": _B + "gb/the-bingham.html",
     "Premier Inn London Kensington (Earl's Court)": None,
@@ -2100,6 +2100,11 @@ HOTELS = {
     "InterContinental Paris Le Grand": _B + "fr/intercontinental-paris-le-grand.html",
     "Hôtel Etats-Unis Opéra": _B + "fr/etatsunisopera.html",
     "Hôtel Chopin": _B + "fr/chopin-paris.html",
+    # 2026-11-19: names that linked only to the hotel's own site, checked by title + address
+    "Hotel Lion d’Or": _B + "nl/gtliondor.html",
+    "The Circus Hotel": _B + "de/the-circus.html",
+    "Armani Hotel Dubai": _B + "ae/armani-dubai.html",
+    "hub by Premier Inn London King’s Cross": _B + "gb/hub-london-kings-cross.html",
 }
 
 RATES_LABEL = "Check rates on Booking.com"

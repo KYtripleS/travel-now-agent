@@ -39,6 +39,9 @@ your task names instead). Match its structure, tone, length (2,200-2,800 words) 
 - One H2 per area ("## Trastevere: evenings and village streets"), 1-2 paragraphs on the area, then
   "**Where to stay in <area>**" and 2-3 hotels as bullets in the NYC format:
   `- **[Hotel Name](official hotel website)**, splurge|comfortable|good value|budget. Facts from the hotel's own site. Choose it for .... *Watch out:* ....`
+  (The build turns each name into its checked Booking.com link and removes the official-site link:
+  operator rule 2026-11-19, no links to hotels' own sites. A hotel without a confirmed Booking.com page is
+  printed unlinked, so prefer hotels that Booking.com lists.)
 - "## How to book <City>": count the tax, watch the season, check room size, compare totals (link
   `hotel-booking-sites-comparison.html`).
 - "## All 12 at a glance" table: Hotel | Area | Tier | Best for | Watch out for. Hotel names here must be

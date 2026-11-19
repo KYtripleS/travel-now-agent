@@ -37,43 +37,35 @@ def official_links(page: str) -> dict[str, str]:
         own = re.search(r'<a [^>]*href="([^"]+)"', strong)        # the name's link
         rates = re.search(r'class="gy-rates"[^>]*>\s*<a href="([^"]+)"', body)   # its checked Booking.com page
         if own or rates:
-            out[htmllib.unescape(re.sub(r"<[^>]+>", "", strong)).strip()] = rates.group(1) if rates else own.group(1)
+            if rates:
+                out[htmllib.unescape(re.sub(r"<[^>]+>", "", strong)).strip()] = rates.group(1)
     return out
 
 
-def _link(name_html: str, href: str, own: str = "") -> str:
+def _link(name_html: str, href: str) -> str:
     rel = "nofollow sponsored noopener" if "stay22.com" in href else "noopener"
-    data = f' data-own="{own}"' if own else ""
-    return f'<a class="gy-hotel-name"{data} href="{href}" rel="{rel}" target="_blank">{name_html}</a>'
+    return f'<a class="gy-hotel-name" href="{href}" rel="{rel}" target="_blank">{name_html}</a>'
 
 
 BULLET_RE = re.compile(r'<li><strong>(<a [^>]*>)(.*?)</a></strong>(.*?)</li>', re.S)
 RATES_RE = re.compile(r'<span class="gy-rates"[^>]*>\s*<a href="([^"]+)"[^>]*>.*?</a></span>', re.S)
-OWN_SITE = ' <span class="gy-own"><a class="gy-own-site" href="{}" rel="noopener" target="_blank">Hotel’s own site</a></span>'
+OWN_RE = re.compile(r' ?<span class="gy-own"><a class="gy-own-site"[^>]*>[^<]*</a></span>')
 
 
 def bullets(page: str) -> tuple[str, int]:
-    """Area bullets: the name -> its checked Booking.com page, with the own website kept in data-own
-    and shown as "Hotel's own site" after the rates link (re-added on every build: add_aeo rebuilds
-    the rates span)."""
+    """Area bullets: the name -> its checked Booking.com page. Operator, 2026-11-19: no links to
+    hotels' own websites; a hotel with no checked partner page is printed unlinked until one is checked."""
     n = 0
 
     def one(m: re.Match) -> str:
         nonlocal n
         tag, name, body = m.groups()
         r = RATES_RE.search(body)
-        if not r:
+        if r and r.group(1) in tag:
             return m.group(0)
-        own = re.search(r'data-own="([^"]+)"', tag) or re.fullmatch(r'<a href="([^"]+)">', tag)
-        if not own:
-            return m.group(0)
-        out = m.group(0)
-        if "stay22.com" not in tag:
-            n += 1
-            out = f"<li><strong>{_link(name, r.group(1), own.group(1))}</strong>{body}</li>"
-        if "gy-own-site" not in out:
-            out = RATES_RE.sub(lambda x: x.group(0) + OWN_SITE.format(own.group(1)), out, count=1)
-        return out
+        n += 1
+        return f"<li><strong>{_link(name, r.group(1)) if r else name}</strong>{body}</li>"
+    page = re.sub(r' data-own="[^"]*"', "", OWN_RE.sub("", page))
     return BULLET_RE.sub(one, page), n
 
 
@@ -93,11 +85,9 @@ def link_page(page: str) -> tuple[str, int]:
     def relink(m: re.Match) -> str:          # names linked to an own website before 2026-11-19
         nonlocal n
         href = find_href(htmllib.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip(), links)
-        if not href or href == m.group(1) or "stay22.com" not in href:
-            return m.group(0)
         n += 1
-        return _link(m.group(2), href)
-    page = re.sub(r'<a class="gy-hotel-name" href="([^"]+)" rel="noopener" target="_blank">(.*?)</a>', relink, page)
+        return _link(m.group(2), href) if href else m.group(2)
+    page = re.sub(r'<a class="gy-hotel-name" href="((?!https://www\.stay22)[^"]+)" rel="noopener" target="_blank">(.*?)</a>', relink, page)
 
     def table(m: re.Match) -> str:
         nonlocal n
