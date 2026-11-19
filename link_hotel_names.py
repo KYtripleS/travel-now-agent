@@ -43,11 +43,11 @@ def official_links(page: str) -> dict[str, str]:
 
 
 def _link(name_html: str, href: str) -> str:
-    rel = "nofollow sponsored noopener" if "stay22.com" in href else "noopener"
+    rel = "nofollow sponsored noopener" if ("stay22.com" in href or "tpx.lu" in href) else "noopener"
     return f'<a class="gy-hotel-name" href="{href}" rel="{rel}" target="_blank">{name_html}</a>'
 
 
-BULLET_RE = re.compile(r'<li><strong>(<a [^>]*>)(.*?)</a></strong>(.*?)</li>', re.S)
+BULLET_RE = re.compile(r'<li><strong>(<a [^>]*>)?([^<]*?|.*?)(?:</a>)?</strong>(.*?)</li>', re.S)
 RATES_RE = re.compile(r'<span class="gy-rates"[^>]*>\s*<a href="([^"]+)"[^>]*>.*?</a></span>', re.S)
 OWN_RE = re.compile(r' ?<span class="gy-own"><a class="gy-own-site"[^>]*>[^<]*</a></span>')
 
@@ -60,8 +60,9 @@ def bullets(page: str) -> tuple[str, int]:
     def one(m: re.Match) -> str:
         nonlocal n
         tag, name, body = m.groups()
+        tag = tag or ""
         r = RATES_RE.search(body)
-        if r and r.group(1) in tag:
+        if (r and r.group(1) in tag) or (not tag and not r):
             return m.group(0)
         n += 1
         return f"<li><strong>{_link(name, r.group(1)) if r else name}</strong>{body}</li>"

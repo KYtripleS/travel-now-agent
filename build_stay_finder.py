@@ -109,13 +109,18 @@ def parse(path: Path) -> dict | None:
                 break
             for li in sib.find_all("li") if sib.name in ("ul", "ol") else []:
                 strong = li.find("strong")
-                mt = re.match(r"\s*,\s*(splurge|comfortable|good value|budget)\b", str(strong.next_sibling or "")) if strong else None
+                after = ""
+                if strong:                       # the text right after the bold name (plain or in a tier span)
+                    full = li.get_text("")
+                    s = strong.get_text("")
+                    after = full[full.find(s) + len(s):] if s in full else ""
+                mt = re.match(r"\s*,\s*(splurge|comfortable|good value|budget)\b", after, re.I) if strong else None
                 if not mt:
                     continue
                 name = text(strong)
                 rates = li.select_one(".gy-rates a[href]")
                 g = glance.get(name) or next((v for k, v in glance.items() if k.startswith(name)), {})
-                hotels.append({"name": name, "tier": TIERS[mt.group(1)],
+                hotels.append({"name": name, "tier": TIERS[mt.group(1).lower()],
                                "best": g.get("best", ""), "watch": g.get("watch", ""),
                                "rates": rates["href"] if rates else None})
         if hotels:

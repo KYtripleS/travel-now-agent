@@ -1770,6 +1770,9 @@ def _hotel_items(article: Tag, after_stop: set[int]):
                       if not (isinstance(c, NavigableString) and not c.strip())), None)
         if isinstance(first, Tag) and first.name == "strong" and first.find("a", href=True):
             yield li, first.find("a").get_text(" ", strip=True)
+        elif isinstance(first, Tag) and first.name == "strong" and (first.get_text(" ", strip=True) in stay22.HOTELS
+                                                                     or first.get_text(" ", strip=True) in stay22.OTHER_HOTELS):
+            yield li, first.get_text(" ", strip=True)   # name unlinked (no own-site links since 2026-11-19)
 
 
 def add_stay_links(soup: BeautifulSoup, slug: str, article: Tag) -> tuple[int, list[str]]:
@@ -1798,10 +1801,20 @@ def add_stay_links(soup: BeautifulSoup, slug: str, article: Tag) -> tuple[int, l
             strong.parent.append(rates(url))
             placed += 1
     for li, name in _hotel_items(article, after_stop):
+        if stay22.HOTELS.get(name) is None and name in stay22.OTHER_HOTELS:   # not on Booking.com
+            label, href = stay22.OTHER_HOTELS[name]
+            span = soup.new_tag("span", attrs={"class": "gy-rates", "data-aeo": "1"})
+            span.append(" ")
+            a = _anchor(soup, href, managed=False)
+            a.string = f"Check rates on {label} →"
+            span.append(a)
+            li.append(span)
+            placed += 1
+            continue
         if name not in stay22.HOTELS:
             unknown.append(name)
             continue
-        if stay22.HOTELS[name] is None:          # not on Booking.com: its own site it is
+        if stay22.HOTELS[name] is None:          # on no partner site we have checked: name unlinked
             continue
         li.append(rates(stay22.HOTELS[name]))
         placed += 1

@@ -2108,9 +2108,17 @@ HOTELS = {
 }
 
 RATES_LABEL = "Check rates on Booking.com"
-RATES_NOTE = ("How the hotel links work: a hotel’s name goes to its own website. "
-              "“Check rates” opens it on Booking.com through our partner Stay22, which pays "
-              "us a commission if you book, at no extra cost to you.")
+RATES_NOTE = ("How the hotel links work: a hotel’s name and its “Check rates” button open that "
+              "hotel on Booking.com through our partner Stay22 (or, for a hotel Booking.com does not "
+              "list, on Expedia, Agoda or Trip.com through Travelpayouts). They pay us a commission "
+              "if you book, at no extra cost to you.")
+
+# Hotels Booking.com does not list, on another partner (checked by title + address, 2026-11-19):
+# name as printed -> (site label, Travelpayouts short link). Filled from data/hotels_other.json.
+import json as _json
+from pathlib import Path as _Path
+_OTHER = _Path(__file__).resolve().parent / "data" / "hotels_other.json"
+OTHER_HOTELS = {k: tuple(v) for k, v in _json.loads(_OTHER.read_text()).items()} if _OTHER.exists() else {}
 
 
 def map_copy(area: str) -> tuple[str, str]:

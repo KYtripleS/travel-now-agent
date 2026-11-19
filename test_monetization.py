@@ -68,7 +68,7 @@ def test_live_data():
         assert c["areas"] and (REPO / "site" / c["url"]).exists(), c["slug"]
         for a in c["areas"]:
             for h in a["hotels"]:
-                assert h["rates"] is None or "aid=gentlyyonder" in h["rates"], h["name"]
+                assert h["rates"] is None or "aid=gentlyyonder" in h["rates"] or ".tpx.lu/" in h["rates"], h["name"]
 
 
 if __name__ == "__main__":
