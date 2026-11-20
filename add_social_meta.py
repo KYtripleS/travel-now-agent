@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Per-page social cards: og:image and a large Twitter/X card.
 
-Every article used to share one generic card (images/travel-now-og.png), so a
+Every article used to share one generic card (images/gentlyyonder-og.png), so a
 link to the DMZ guide looked exactly like a link to the packing guide when
 shared on X, LINE or Facebook, and articles asked X for the small "summary"
 card. Each article now uses its own first photograph:
@@ -33,7 +33,7 @@ from PIL import Image
 
 REPO = Path(__file__).resolve().parent
 BASE = "https://gentlyyonder.com"
-DEFAULT = (f"{BASE}/images/travel-now-og.png", 1200, 630)
+DEFAULT = (f"{BASE}/images/gentlyyonder-og.png", 1200, 630)
 OG_DIR = "images/og"
 RATIO = 1200 / 630
 VERTICAL_BIAS = 0.42          # same as extract_photo.py: skylines sit high

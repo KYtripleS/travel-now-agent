@@ -31,7 +31,7 @@ START = "<!-- BEGIN Pinterest Rich Pin meta (managed by add_pinterest_meta.py) -
 END = "<!-- END Pinterest Rich Pin meta -->"
 BLOCK_RE = re.compile(re.escape(START) + r".*?" + re.escape(END) + r"\s*", re.DOTALL)
 
-FALLBACK_OG_IMAGE = "https://kytriples.github.io/travel-now-agent/images/travel-now-og.png"
+FALLBACK_OG_IMAGE = "https://kytriples.github.io/travel-now-agent/images/gentlyyonder-og.png"
 
 # Files we want Article Rich Pins on. Excludes index.html, about.html, etc.
 def is_article_like(path: Path) -> bool:

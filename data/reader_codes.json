@@ -1,5 +1,5 @@
 {
-  "_doc": "Reader discounts our partner links give (read by add_aeo.py). Show a code only after opening our own link and seeing the partner apply it. 'auto' = our link applies it by itself. 'benefit' is printed only when the amount was seen at the partner; null keeps the line to what was seen. A code older than recheck_days stops showing at the next build.",
+  "_doc": "Reader discounts our partner links give (read by add_aeo.py). Show a code only after opening our own link and seeing the partner apply it. 'auto' = our link applies it by itself. 'benefit' is printed only when the amount was seen at the partner; null keeps the line to what was seen. A code older than recheck_days stops showing at the next build. A code the link applies by itself is not printed (the reader has nothing to type).",
   "codes": {
     "holafly": {
       "code": "TRAVELNOWAGENT",
@@ -7,7 +7,8 @@
       "benefit": null,
       "checked": "2026-11-20",
       "recheck_days": 30,
-      "evidence": "Opened our Impact link on 2026-11-20: esim.holafly.com showed 'discount code applied: TRAVELNOWAGENT' and said the final price is shown at checkout."
+      "evidence": "Opened our Impact link on 2026-11-20: esim.holafly.com showed 'discount code applied: TRAVELNOWAGENT' and said the final price is shown at checkout.",
+      "partner_label": "Holafly"
     }
   }
 }

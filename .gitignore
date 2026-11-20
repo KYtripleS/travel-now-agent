@@ -36,3 +36,4 @@ ops/state/
 
 # CRO research: internal (revenue figures, affiliate strategy) — never commit
 research/
+.public-site/

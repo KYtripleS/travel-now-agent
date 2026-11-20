@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://gentlyyonder.com/about.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://gentlyyonder.com/privacy.html</loc>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -1046,7 +1046,7 @@
   </url>
   <url>
     <loc>https://gentlyyonder.com/promise.html</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2095,5 +2095,10 @@
     <loc>https://gentlyyonder.com/articles/where-to-buy-shanghai-disneyland-tickets.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gentlyyonder.com/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
   </url>
 </urlset>

@@ -49,6 +49,7 @@ COLUMNS = [
         ("promise.html", "Our promise"),
         ("corrections.html", "Corrections"),
         ("about.html", "About Gently Yonder"),
+        ("contact.html", "Contact"),
         ("editors.html", "Editors"),
         ("editorial.html", "Editorial guidelines"),
         ("methodology.html", "How we verify"),

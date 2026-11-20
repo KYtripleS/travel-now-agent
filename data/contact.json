@@ -1,0 +1,4 @@
+{
+  "_doc": "Contact channels shown on contact.html (ops/build_contact.py). Add an email only after the operator has set it up and a test message arrived.",
+  "email": null
+}

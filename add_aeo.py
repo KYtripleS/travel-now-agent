@@ -126,7 +126,7 @@ DEFAULT_HREF = {
     "radicalstorage": "https://radicalstorage.tpx.lu/WpAnAq1c",
     "veltra": "https://www.awin1.com/cread.php?awinmid=89081&awinaffid=2926361&ued=https%3A%2F%2Fwww.veltra.com%2Fen%2F",
     "samboat": "https://www.awin1.com/cread.php?awinmid=32677&awinaffid=2926361&ued=https%3A%2F%2Fwww.samboat.co.uk%2F",
-    # Impact; the link applies our coupon YONDER by itself (approved 2026-09)
+    # Impact; the link applies a reader discount by itself (see data/reader_codes.json)
     "holafly": "https://holafly.sjv.io/c/7394095/3920147/24764",
     **{k: stay22.allez(k) for k in _STAY22_KEYS},
 }
@@ -176,8 +176,9 @@ def reader_code_note(key: str | None):
     if not c:
         return None
     gain = f" for {c['benefit']}" if c.get("benefit") else ""
-    if c.get("auto"):
-        return ("Reader discount: this link applies our code ", c["code"], f"{gain} at checkout, where the final price shows it.")
+    if c.get("auto"):                   # applied by the link: no code to type, so none is printed
+        return ("", "Reader discount:", f" this link applies {c['partner_label']}'s discount for our readers{gain}; "
+                                       "the final price at checkout shows it.")
     return ("Reader discount: enter code ", c["code"], f"{gain} at checkout.")
 
 
