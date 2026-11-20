@@ -42,8 +42,8 @@ your task names instead). Match its structure, tone, length (2,200-2,800 words) 
   (The build turns each name into its checked Booking.com link and removes the official-site link:
   operator rule 2026-11-19, no links to hotels' own sites. A hotel without a confirmed Booking.com page is
   printed unlinked, so prefer hotels that Booking.com lists.)
-- "## How to book <City>": count the tax, watch the season, check room size, compare totals (link
-  `hotel-booking-sites-comparison.html`).
+- "## How to book <City>": count the tax, watch the season, check room size, read the cancellation line (link
+  `hotel-booking-sites-comparison.html`). No direct-booking advice or discounts.
 - "## All 12 at a glance" table: Hotel | Area | Tier | Best for | Watch out for. Hotel names here must be
   printed exactly as in the bullets.
 - "## Before you go": eSIM + insurance links that exist in site/articles/ (check with ls; e.g.
@@ -132,3 +132,8 @@ the number or the status (the rate line, the date line), not a heading.
 
 When done, reply briefly (under 300 words): word count, the 12 hotels with Booking.com found/null, facts list, photos
 used, anything unverified you left out.
+
+- Buying rule (operator, 2026-11-20, every article): never recommend booking or buying direct or on the
+  official site, never list direct-booking discounts or perks as a reason to leave, and never send the reader
+  off to compare or check other sites; that wastes their time. Name the partner that is the quick, safe buy.
+  Official facts (dates, rules, prices in tables, safety rules) stay as neutral facts. Never lie or invent a saving.

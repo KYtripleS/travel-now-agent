@@ -5559,3 +5559,7 @@ body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame
   .article .gy-verdict:has(> .gy-verdict-now) > .gy-verdict-cta { flex: 0 0 auto; order: 2; max-width: 52%; }
   .article .gy-verdict:has(> .gy-verdict-now) > p.gy-verdict-now { flex: 1 1 240px; order: 3; margin-top: 10px; font-size: .8rem; }
 }
+
+/* Reader discount line under a verdict button (data/reader_codes.json, 2026-11-20) */
+.gy-verdict .gy-verdict-code { font-family: var(--sans); font-size: .9rem; margin: .5rem 0 0; }
+.gy-verdict .gy-verdict-code strong { letter-spacing: .04em; }

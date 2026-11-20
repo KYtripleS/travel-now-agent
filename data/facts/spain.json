@@ -2325,8 +2325,7 @@
       "used_in": {
         "articles/where-to-stay-in-valencia-fallas.html": [
           "A five-star boutique hotel at Calle Almirall 14",
-          "38 rooms in two historic buildings",
-          "free cancellation up to 48 hours before arrival"
+          "38 rooms in two historic buildings"
         ]
       }
     },
@@ -2926,11 +2925,7 @@
           ]
         }
       ],
-      "used_in": {
-        "articles/where-to-stay-in-pamplona-san-fermin.html": [
-          "with 20 soundproofed rooms renovated in 2018, each with a balcony or large window, and air conditioning. It offers 5% off for direct bookings."
-        ]
-      }
+      "used_in": {}
     },
     {
       "id": "hotel.pamplona-san-fermin.catedral",
@@ -2972,8 +2967,7 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-pamplona-san-fermin.html": [
-          "At Calle Nueva 20, a four-star hotel whose page says it lets you walk to the main sights",
-          "and a 12% discount for booking direct."
+          "At Calle Nueva 20, a four-star hotel whose page says it lets you walk to the main sights"
         ]
       }
     },

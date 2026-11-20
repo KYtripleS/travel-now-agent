@@ -160,11 +160,26 @@ SECTION_LABEL = {
     "agoda": "Search hotels on Agoda",
     "vrbo": "Search holiday rentals on Vrbo",
 }
-# A reader-facing note after the section link, said plainly. Holafly asks for the
-# code to sit beside the link (it still applies if the reader buys later).
-SECTION_NOTE = {
-    "holafly": ("Code ", "YONDER", " takes 5% off, and we earn a commission if you use it."),
-}
+# Reader discounts our links carry (data/reader_codes.json): said plainly beside the partner's
+# section link and under its verdict button, only while the check is fresh, and only what was seen.
+def _reader_codes() -> dict:
+    p = Path(__file__).resolve().parent / "data" / "reader_codes.json"
+    out = {}
+    for key, c in json.loads(p.read_text())["codes"].items():
+        if (date.today() - date.fromisoformat(c["checked"])).days <= c["recheck_days"]:
+            out[key] = c
+    return out
+
+
+def reader_code_note(key: str | None):
+    c = _reader_codes().get(key or "")
+    if not c:
+        return None
+    gain = f" for {c['benefit']}" if c.get("benefit") else ""
+    if c.get("auto"):
+        return ("Reader discount: this link applies our code ", c["code"], f"{gain} at checkout, where the final price shows it.")
+    return ("Reader discount: enter code ", c["code"], f"{gain} at checkout.")
+
 
 # --- verdicts -----------------------------------------------------------------
 # slug -> text, cta, and optionally which legacy summary box it replaces.
@@ -303,17 +318,16 @@ V = {
              "smaller local operator. Prices vary listing by listing, so compare the same activity on both.",
         cta=("klook", "Check current prices on Klook")),
     "hotel-booking-sites-comparison": dict(
-        text="There is no single best hotel site: start with HotelsCombined or Booking.com for the broadest "
-             "coverage, check Agoda or Trip.com for Asia, and verify the hotel’s own site if you have "
-             "loyalty status.",
+        text="Start with Booking.com: it has the broadest coverage, flags free-cancellation rates and keeps "
+             "every booking in one account. For Asia, Agoda and Trip.com list many smaller hotels too, so "
+             "use one of them when Booking.com does not have the place you want.",
         cta=("booking", "Search hotels on Booking.com"), also=("agoda",)),
     "direct-booking-vs-otas-hotel-guide": dict(
-        text="Book a chain hotel direct if you collect its points or want its elite perks: at Hilton, rooms "
-             "booked on third-party websites earn no points and get no free Wi-Fi, elite breakfast or "
-             "upgrades, whatever you paid, and Hilton and Marriott both match a lower public rate found "
-             "elsewhere and take a further 25% off. For independent hotels, which have no points to lose, "
-             "compare Booking.com or Agoda with the hotel’s own site and take the lower total.",
-        cta=("booking", "Compare hotel prices on Booking.com"), also=("agoda",)),
+        text="For most stays, book on Booking.com or Agoda: one account, free-cancellation rates flagged up "
+             "front, and no need to check several sites. The one thing a booking site cannot give you is a "
+             "chain's loyalty perks: at Hilton, rooms booked on third-party websites earn no points and get "
+             "no elite breakfast or upgrades.",
+        cta=("booking", "Search hotels on Booking.com"), also=("agoda",)),
     "where-to-book-sydney-harbour-cruise": dict(
         text="Book whale-watching and sunset cruises on Klook, usually the cheapest for Sydney; dinner "
              "cruises on GetYourGuide, which lays out menu tiers clearly and applies free cancellation most "
@@ -424,9 +438,9 @@ V = {
              "defector Q&A, and on any platform check for a shopping stop before you compare prices.",
         cta=("kkday", "Check DMZ tours on KKday")),
     "where-to-book-halong-bay-cruise": dict(
-        text="Compare the same boat on a platform and on the operator’s own site — direct is often "
-             "cheaper. Pay the platform premium when you want card protection and clear cancellation terms: "
-             "Klook for day trips from Hanoi, Viator for the widest range of overnights.",
+        text="Book day trips from Hanoi on Klook and overnight cruises on Viator, which lists the widest "
+             "range: both show the cancellation terms before you pay, take your card with the platform "
+             "behind the booking, and keep the voucher in one app.",
         cta=("klook", "Check Halong Bay cruises on Klook")),
     # where to stay: hotel links through Stay22 (stay22.py) --------------------
     "where-to-stay-in-tokyo": dict(
@@ -1611,8 +1625,9 @@ def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
         a = _anchor(soup, _page_href(soup, key, slug), managed=False)
         a.string = f"{SECTION_LABEL[key]} →"
         p.append(a)
-        if key in SECTION_NOTE:
-            before, code, after = SECTION_NOTE[key]
+        note = reader_code_note(key)
+        if note:
+            before, code, after = note
             p.append(" " + before)
             strong = soup.new_tag("strong")
             strong.string = code
@@ -1681,6 +1696,15 @@ def render_verdict(soup: BeautifulSoup, spec: dict, slug: str | None = None) -> 
         a.string = f"{text} →"
         c.append(a)
         box.append(c)
+        note = reader_code_note(cta[0] if cta and cta[0] not in ("amazon", "href") else None)
+        if note:
+            rc = soup.new_tag("p", attrs={"class": "gy-verdict-code"})
+            rc.append(note[0])
+            strong = soup.new_tag("strong")
+            strong.string = note[1]
+            rc.append(strong)
+            rc.append(note[2])
+            box.append(rc)
     if spec.get("note_html"):
         n = BeautifulSoup(f'<p class="gy-verdict-note">{spec["note_html"]}</p>', "html.parser").p
         box.append(n)
@@ -3038,8 +3062,8 @@ def add_hotel_compare(soup: BeautifulSoup, slug: str, article: Tag) -> int:
         return 0
     box = soup.new_tag("div", attrs={"class": "gy-sbtns gy-sbtns--one", "data-aeo": "1"})
     box.append(_sbtn(soup, href, _first_photo(article), "Partner link · Trip.com",
-                     f"Compare {city} hotel prices on Trip.com",
-                     "The same hotels on a second site: check your dates on both.", partner=True))
+                     f"{city} hotels on Trip.com",
+                     "Many of the same hotels, booked in the Trip.com app or site.", partner=True))
     m.insert_after(box)
     return 1
 

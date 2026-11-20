@@ -77,3 +77,8 @@ Do not enter any personal data in booking forms; stop at the results page (never
 
 When done, reply briefly (under 250 words): word count, the price table in plain text, which sellers
 were not checked and why, facts list (ids), photos used, anything unverified you left out.
+
+- Buying rule (operator, 2026-11-20, every article): never recommend booking or buying direct or on the
+  official site, never list direct-booking discounts or perks as a reason to leave, and never send the reader
+  off to compare or check other sites; that wastes their time. Name the partner that is the quick, safe buy.
+  Official facts (dates, rules, prices in tables, safety rules) stay as neutral facts. Never lie or invent a saving.

@@ -346,7 +346,7 @@ ARTICLES: dict[str, tuple[str, str]] = {
     ),
     "articles/where-to-book-halong-bay-cruise.html": (
         "Where to Book a Halong Bay Cruise",
-        "Booking direct with the boat is often cheaper \u2014 and here is when the platform's commission is still worth paying.",
+        "Klook for day trips, Viator for overnights: what each platform's listing shows before you pay.",
     ),
     "articles/where-to-book-mount-fuji-day-tour.html": (
         "Where to Book a Mount Fuji Day Tour",
