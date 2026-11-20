@@ -911,7 +911,7 @@
     {
       "id": "jp.niseko.kutchan-local-pass",
       "topic": "price",
-      "claim": "For 2025/26, Grand Hirafu and HANAZONO sold people registered as living in Kutchan a Hirafu-HANAZONO day pass for ¥3,000, marked down from ¥11,000, and a season pass for ¥86,500, marked down from ¥173,000, online only, after proving residence with a My Number Card through Kutchan ID+.",
+      "claim": "For 2026/27, Grand Hirafu and HANAZONO sell people registered as living in Kutchan a Hirafu-HANAZONO day pass for ¥3,000, marked down from ¥12,500, and a season pass for ¥90,800, marked down from ¥181,700, online only, after proving residence.",
       "value": {
         "season": "2025/26",
         "day_local": 3000,
@@ -923,7 +923,11 @@
         {
           "url": "https://locals.hirafu-hanazono.com/public/landing/en/shop.html",
           "kind": "operator",
-          "title": "Hirafu-Hanazono Online Shop: 2025-26 Kutchan Local Benefit lift passes"
+          "title": "Hirafu-Hanazono Online Shop: 2025-26 Kutchan Local Benefit lift passes",
+          "evidence": [
+            "2026-27 Kutchan Local Benefit Lift Passes",
+            "181,700 JPY 90,800 JPY 12,500 JPY 3,000 JPY"
+          ]
         },
         {
           "url": "https://kutchanid.machi-wai.jp/",
@@ -941,11 +945,11 @@
           "title": "Kutchan Town newsletter, December 2023: the Kutchan local discount begins (Japanese, PDF)"
         }
       ],
-      "checked": "2026-10-06",
+      "checked": "2026-11-20",
       "recheck_days": 45,
       "used_in": {
         "articles/is-the-weak-yen-a-bargain-or-trap.html": [
-          "¥3,000 a day in 2025/26, marked down from ¥11,000"
+          "¥3,000 a day in 2026/27, marked down from ¥12,500"
         ]
       },
       "note": "The shop still showed 2025-26 prices on 6 October 2026; when the 2026-27 local prices appear, update the guide and this fact. The pass covers Hirafu and HANAZONO only, not the All Mountain Pass or the shuttle. The discount began in 2023/24 at ¥4,700 against ¥7,800 for a common day pass (Kutchan newsletter)."
@@ -1436,25 +1440,41 @@
         {
           "url": "https://www.pref.fukuoka.lg.jp/press-release/fukuoka-fukkou-wari1001.html",
           "kind": "official",
-          "title": "Fukuoka Prefecture: campaign announcement (18 September 2026)"
+          "title": "Fukuoka Prefecture: campaign announcement (18 September 2026)",
+          "evidence": [
+            "九州ふっこう応援割ふくおかキャンペーン～１０月１日（木）からスタート！～ ページID：0843655 発表日： 2026年9月18日 14",
+            "今後「九州ふっこう応援割ふくおかキャンペーン」特設サイトにてお知らせしていきます。 九州ふっこう応援割ふくおかキャンペーン 実施概要 1 キ"
+          ]
         },
         {
           "url": "https://www.pref.fukuoka.lg.jp/press-release/fukuoka-fukkou-wari-2-1001.html",
           "kind": "official",
-          "title": "Fukuoka Prefecture: second notice (30 September 2026)"
+          "title": "Fukuoka Prefecture: second notice (30 September 2026)",
+          "evidence": [
+            "２報）～宿泊予約サイトでの予約受付を１０月１日（木)からスタート！～ ページID：0843690 発表日： 2026年9月30日 14時00",
+            "L： https://fukuoka-fukkou-wari.jp/ ​ 参考（九州ふっこう応援割ふくおかキャンペーン） 1 キャンペーン期"
+          ]
         },
         {
           "url": "https://fukuoka-fukkou-wari.jp/",
           "kind": "official",
-          "title": "Campaign site: rules, OTA list, notices"
+          "title": "Campaign site: rules, OTA list, notices",
+          "evidence": [
+            "6年 10月1日 (木) 〜 2026年 12月15日 (火) ※12/16チェックアウト迄 予約・販売期間 2026年 9月24日 (木)",
+            "大 20,000 円 CASE 交通付宿泊旅行商品 (2泊以上) ＋ 50 %OFF 1旅行1名につき 最大 30,000 円 CASE 周"
+          ]
         },
         {
           "url": "https://fukuoka-fukkou-wari.jp/data/fukuoka_faq.pdf",
           "kind": "official",
-          "title": "Campaign FAQ (PDF), Q4, Q7, Q11, Q13, Q14, Q16, Q22, Q23"
+          "title": "Campaign FAQ (PDF), Q4, Q7, Q11, Q13, Q14, Q16, Q22, Q23",
+          "evidence": [
+            "ます。 2 利用対象期間はいつですか？ 2026年10月1日から2026年12月15日宿泊分までです。2026年12月16日チェックアウトま",
+            "す。 3 予約はいつからできますか？ 2026年9月24日以降に予約した商品が対象です。 4 既に予約済みの旅行は対象ですか？ 対象外です。"
+          ]
         }
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "used_in": {
         "articles/where-to-stay-in-fukuoka.html": [
           "1 October to 15 December 2026",
@@ -1854,20 +1874,32 @@
         {
           "url": "https://tenki.jp/kouyou/expectation.html",
           "kind": "publisher",
-          "title": "Japan Weather Association: 2026 autumn-leaf forecast, first edition (1 October 2026)"
+          "title": "Japan Weather Association: 2026 autumn-leaf forecast, first edition (1 October 2026)",
+          "evidence": [
+            "大沼公園 10月26日～ 10月24日～ 2日遅い ※北海道の地点ついては、やまもみじ（※1）、おおもみじ（※2）、いたやかえで（※3）を",
+            "11月17日～ 3日遅い 北陸地方の紅葉見頃情報を詳しく見る 東海 予想見頃時期（2026年） 見頃時期（昨年） 昨年からの傾向 白川郷 1"
+          ]
         },
         {
           "url": "https://tenki.jp/kouyou/6/29/36562.html",
           "kind": "publisher",
-          "title": "tenki.jp: Arashiyama"
+          "title": "tenki.jp: Arashiyama",
+          "evidence": [
+            "表 今日 11月20日 (金) 12℃ / 6℃ 10% お出かけ 90 明日 11月21日 (土) 12℃ / 3℃ 50% お出かけ 1",
+            "1月23日 ( 月 ) 11月24日 ( 火 ) 11月25日 ( 水 ) 11月26日 ( 木 ) 天気 晴時々曇 晴のち曇 雨のち晴 晴"
+          ]
         },
         {
           "url": "https://www.travelvoice.jp/20260904-160458",
           "kind": "news",
-          "title": "Travel Voice: Weathernews' first 2026 forecast"
+          "title": "Travel Voice: Weathernews' first 2026 forecast",
+          "evidence": [
+            "026、全国的に平年より遅め、京都・嵐山は11月24日頃 ―ウェザーニューズ社 紅葉の見頃予想2026、全国的に平年より遅め、京都・嵐山は1",
+            "成長軸は「客室数」から「1室あたりの稼ぐ力」へ、中東リスクを吸収した2026年上半期決算を分析【コラム】 2026年9月3日 京都・亀岡市と"
+          ]
         }
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-11-20",
       "used_in": {
         "articles/where-to-stay-in-kyoto-autumn-leaves.html": [
           "at its best from about 13 November",
@@ -1983,30 +2015,50 @@
         {
           "url": "https://tenki.jp/kouyou/expectation.html",
           "kind": "publisher",
-          "title": "Japan Weather Association: 2026 forecast, first edition"
+          "title": "Japan Weather Association: 2026 forecast, first edition",
+          "evidence": [
+            "※1）、おおもみじ（※2）、いたやかえで（※3）を対象としています。 北海道地方の紅葉見頃情報を詳しく見る 東北 予想見頃時期（2026年）",
+            "遅い 六義園 12月1日～ 11月21日～ 10日遅い 関東・甲信地方の紅葉見頃情報を詳しく見る 北陸 予想見頃時期（2026年） 見頃時期"
+          ]
         },
         {
           "url": "https://tenki.jp/kouyou/3/16/30688.html",
           "kind": "publisher",
-          "title": "tenki.jp: Meiji Jingu Gaien"
+          "title": "tenki.jp: Meiji Jingu Gaien",
+          "evidence": [
+            "お役立ち紅葉見頃情報 （季節・暮らしの話題） 全国のおすすめ紅葉スポットをリレーで紹介！北海道からはひと足早い雪景色も 2026/11/1",
+            "出かけスポット天気 雨雲レーダー 2026年紅葉見頃予想 紅葉見頃カレンダー 東京都の紅葉名所人気ランキング 1位 高尾山 東京都 紅葉見頃"
+          ]
         },
         {
           "url": "https://tenki.jp/kouyou/3/16/30125.html",
           "kind": "publisher",
-          "title": "tenki.jp: Rikugien"
+          "title": "tenki.jp: Rikugien",
+          "evidence": [
+            "山の天気 お出かけスポット天気 雨雲レーダー 2026年紅葉見頃予想 紅葉見頃カレンダー 東京都の紅葉名所人気ランキング 1位 高尾山 東",
+            "六義園の紅葉見頃時期・天気情報 2026 - 日本気象協会 tenki.jp tenki.jpトップ ｜ サイトマップ ｜ ヘルプ ten"
+          ]
         },
         {
           "url": "https://tenki.jp/kouyou/3/16/30119.html",
           "kind": "publisher",
-          "title": "tenki.jp: Koishikawa Korakuen"
+          "title": "tenki.jp: Koishikawa Korakuen",
+          "evidence": [
+            "すめ情報 山の天気 お出かけスポット天気 雨雲レーダー 2026年紅葉見頃予想 紅葉見頃カレンダー 東京都の紅葉名所人気ランキング 1位 高",
+            "小石川後楽園の紅葉見頃時期・天気情報 2026 - 日本気象協会 tenki.jp tenki.jpトップ ｜ サイトマップ ｜ ヘルプ"
+          ]
         },
         {
           "url": "https://tenki.jp/kouyou/3/16/32201.html",
           "kind": "publisher",
-          "title": "tenki.jp: Ueno Park"
+          "title": "tenki.jp: Ueno Park",
+          "evidence": [
+            "め情報 山の天気 お出かけスポット天気 雨雲レーダー 2026年紅葉見頃予想 紅葉見頃カレンダー 東京都の紅葉名所人気ランキング 1位 高尾",
+            "上野恩賜公園の紅葉見頃時期・天気情報 2026 - 日本気象協会 tenki.jp tenki.jpトップ ｜ サイトマップ ｜ ヘルプ"
+          ]
         }
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-11-20",
       "used_in": {
         "articles/where-to-stay-in-tokyo-autumn-leaves.html": [
           "Late November to early December",
@@ -4208,13 +4260,17 @@
     {
       "id": "jp.tokyo.new-year.skytree-sunrise",
       "topic": "place",
-      "claim": "Tokyo Skytree's first-sunrise special opening is on Friday 1 January 2027, 5:30 to 7:30am, for 800 people; 580 places go through an online lottery at 11,000 yen with a 1,000-yen shop voucher (applications noon 5 Nov to 11:59pm 26 Nov 2026, results by email planned 1 Dec); Tobu Hotel Levant Tokyo (from 75,000 yen for two) and Asakusa Tobu Hotel (from 80,000 yen for two) sell twin-room packages with the ticket, five rooms between them.",
-      "checked": "2026-11-03",
+      "claim": "Tokyo Skytree's first-sunrise special opening is on Friday 1 January 2027, 5:30 to 7:30am, for 800 people; 580 places go through an online lottery at 11,000 yen with a 1,000-yen shop voucher (applications noon 5 Nov to 11:59pm 26 Nov 2026, results by email planned 1 Dec); the twin-room packages with the ticket at Tobu Hotel Levant Tokyo (from 75,000 yen for two) and Asakusa Tobu Hotel (from 80,000 yen), five rooms between them, went on sale at noon on 5 Nov and were marked 受付終了 by 20 Nov 2026.",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.tokyo-skytree.jp/lp/first-sunrise2027/",
           "kind": "official",
-          "title": "Tokyo Skytree: first sunrise 2027 special opening"
+          "title": "Tokyo Skytree: first sunrise 2027 special opening",
+          "evidence": [
+            "合計 5組10名様（浅草東武ホテルとの合計）",
+            "受付終了"
+          ]
         },
         {
           "url": "https://www.tobuhotel.co.jp/asakusa/news/342/",
@@ -4226,7 +4282,7 @@
         "articles/where-to-stay-in-tokyo-new-year.html": [
           "The special opening runs from 5:30am to 7:30am",
           "There are 800 places in all, and 580 of them go through the Skytree's online lottery",
-          "between them the two hotels have only five rooms on the plan"
+          "by 20 November both were marked as closed"
         ]
       },
       "recheck_days": 14,
@@ -4236,17 +4292,25 @@
       "id": "jp.tokyo.new-year.meiji-jingu",
       "topic": "place",
       "claim": "Meiji Jingu's hatsumode page (still the New Year 2026 edition) listed gates opening 6:40am on 31 Dec, no closing at the turn of the year, 1 Jan hours 0:00 to 18:30, busiest 22:00 to 3:00 and after 10:00 on the first three days, no cars in the grounds for three days; entrances Harajuku (1 min from JR Harajuku / Meiji-jingumae), Yoyogi (5 min) and Sangubashi (5 min); admission free; 2026/27 hours not posted.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.meijijingu.or.jp/hatsumoude/",
           "kind": "official",
-          "title": "Meiji Jingu: hatsumode page"
+          "title": "Meiji Jingu: hatsumode page",
+          "evidence": [
+            "元日 0:00 ～ 18:30 2日 6:40 ～ 18:00 3日 6:40 ～ 18:00 4日 6:40 ～ 17:30 5日～ 6",
+            "延長します。状況により変更します。 ※年越しは閉門しません。 ※例年、大晦日22:00～元日3:00、三が日の10:00以降の時間帯は混みあ"
+          ]
         },
         {
           "url": "https://www.meijijingu.or.jp/en/visit/",
           "kind": "official",
-          "title": "Meiji Jingu: how to visit and opening hours"
+          "title": "Meiji Jingu: how to visit and opening hours",
+          "evidence": [
+            "year with free of charge. Meiji Jingu opens with sunrise and closes with sunset. Month Opening at: Closing at: January 6:40",
+            "pm). Access Etiquette Precinct map Site map About Meiji Jingu How to visit How to visit Opening hours & Admission Etiquette"
+          ]
         }
       ],
       "used_in": {
@@ -4294,7 +4358,7 @@
       "id": "jp.tokyo.new-year.zojoji",
       "topic": "place",
       "claim": "Zojoji's New Year page (Last-Modified 31 Oct 2026; parts still show last year's weekdays): ritual burning of old charms 8pm 31 Dec, bell service 9:30pm, 108 bells rung in groups of four from 9:45pm to about 11pm, bell tickets 2,000 yen with keepsake from 9am on 1 Dec at the temple office, numbers limited; New Year service in the main hall from midnight; amulet counters 10pm 31 Dec to 6pm 1 Jan. Last year's line about halving the ringers is now commented out of the page.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.zojoji.or.jp/event/ev_hatsumoude.html",
@@ -4321,22 +4385,34 @@
       "id": "jp.tokyo.new-year.shibuya-countdown",
       "topic": "place",
       "claim": "The Shibuya Countdown Committee cancelled the 2025 event; Shibuya City announced it on 3 Dec 2025 and fenced the Hachiko statue from 6am 31 Dec to 1am 1 Jan; since 1 Oct 2024 drinking in public places around Shibuya Station is banned 6pm to 5am year-round; Shibuya City's 2026 press-release list had no countdown notice as of 21 Oct and 3 Nov 2026.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2025/hodo_20251203.html",
           "kind": "official",
-          "title": "Shibuya City: countdown cancellation, 3 Dec 2025"
+          "title": "Shibuya City: countdown cancellation, 3 Dec 2025",
+          "evidence": [
+            "スエリア設置について 渋谷区では、年末年始の渋谷駅周辺地域の安全対策と混雑・混乱を避けるために、12月31日（水曜日）午前6時から1月1日（",
+            "認ください。 忠犬ハチ公像周辺に仮囲い設置について 年末年始の渋谷駅周辺地域の安全対策のために、12月31日（水曜日）午前6時から1月1日（"
+          ]
         },
         {
           "url": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/jorei-toshin/sbykankyo.html",
           "kind": "official",
-          "title": "Shibuya City: street-drinking ordinance"
+          "title": "Shibuya City: street-drinking ordinance",
+          "evidence": [
+            "態化し、これに起因するごみの放置や騒音などのトラブルは深刻化しています。 そこで、本条例を改正し、令和6年10月1日より午後6時から翌朝5時",
+            "る条例の一部改正について（令和6年10月施行） 渋谷駅周辺地域の安全で安心な環境の確保に関する条例に関するページです。 更新日 2025年8"
+          ]
         },
         {
           "url": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2026/index.html",
           "kind": "official",
-          "title": "Shibuya City: 2026 press releases"
+          "title": "Shibuya City: 2026 press releases",
+          "evidence": [
+            "区政情報 報道発表 他のページを見る 報道発表 令和7年（2025年） 報道発表 令和6年（2024年） 報道発表 令和5年（2023年）",
+            "令和4年（2022年） 報道発表 令和7年（2025年） 報道発表 令和6年（2024年） 報道発表 令和5年（2023年） 報道発表 令"
+          ]
         }
       ],
       "used_in": {
@@ -4352,17 +4428,26 @@
     {
       "id": "jp.tokyo.new-year.tmg-countdown",
       "topic": "place",
-      "claim": "The Metropolitan Government's Happy New Year Tokyo countdown was held on 31 Dec 2025 at the TMG Citizens' Plaza, Nishi-Shinjuku (registration from 12 Nov 2025); the Tokyo Nighttime Project (co-hosted by the TMG) says it will not be held this year and announces TOKYO NEW YEAR'S EVE '26/27 at Odaiba Marine Park on 31 Dec 2026 (fireworks, drone show, Tokyo Aqua Symphony fountain show, stage, food trucks), details in late November; last year the south observatory opened 6:00 to 7:30am on 1 Jan 2026 to 600 lottery winners.",
-      "checked": "2026-11-03",
+      "claim": "The Metropolitan Government's Happy New Year Tokyo countdown was held on 31 Dec 2025 at the TMG Citizens' Plaza, Nishi-Shinjuku; for 2026 the Tokyo Nighttime Project (co-hosted by the TMG) runs TOKYO NEW YEAR'S EVE '26/27 at Odaiba Marine Park on 31 Dec 2026: gates 22:15, main programme 23:30, end 24:10; free, entry ticket required, applications by 10 Dec 23:59, lottery with winners emailed around 18 Dec, no same-day tickets, no standing on nearby pavements to watch. Last year the south observatory opened 6:00 to 7:30am on 1 Jan 2026 to 600 lottery winners.",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://tokyo-nighttime-project.jp/",
           "kind": "official",
           "title": "Tokyo Nighttime Project: Odaiba nighttime events 2026",
           "evidence": [
-            "「Happy New Year Tokyo」は、今年の実施はございません",
-            "TOKYO NEW YEAR’S EVE ’26/27",
-            "11月下旬にお知らせする予定です"
+            "2026.12.31 Thu 22:15開場 – 24:10終了",
+            "メインプログラム開始23:30",
+            "当日券の販売・配布はありません"
+          ]
+        },
+        {
+          "url": "https://tokyo-nighttime-project.jp/entry.html",
+          "kind": "official",
+          "title": "Tokyo Nighttime Project: ticket applications",
+          "evidence": [
+            "応募締切 12月10日（木）23:59 まで",
+            "2026年12月18日頃"
           ]
         },
         {
@@ -4378,29 +4463,38 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-tokyo-new-year.html": [
-          "says it will not be held there this year",
           "at Odaiba Marine Park on 31 December 2026",
+          "by 11:59pm on 10 December",
+          "emailed around 18 December",
           "to 600 people chosen by lottery"
         ]
       },
       "recheck_days": 14,
-      "note": "Odaiba times and viewing arrangements due late November 2026."
+      "note": "Odaiba details published by 20 Nov 2026; recheck for weather or programme changes."
     },
     {
       "id": "jp.tokyo.new-year.jr-east-trains",
       "topic": "transport",
       "claim": "JR East announced on 22 Oct 2026 extra trains after the last train on New Year's Eve through New Year's Day on six Tokyo-area lines including the Yamanote, Keihin-Tohoku/Negishi and Chuo-Sobu local lines, shown in route search from 7 Dec, holiday timetables 30 Dec to 3 Jan; last year's six lines also included the Chuo rapid, Yokosuka and Sobu main/Narita lines, with the Yamanote running about 1am to 5am every 10 to 25 minutes.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://prtimes.jp/main/html/rd/p/000001558.000017557.html",
           "kind": "operator",
-          "title": "JR East: winter extra trains, 22 Oct 2026"
+          "title": "JR East: winter extra trains, 22 Oct 2026",
+          "evidence": [
+            "いて 東日本旅客鉄道株式会社 2026年10月22日 14時40分 いいね！数を読み込み中です 2026年12月1日（火）～2027年2月2",
+            "については、12月7日（月）以降、デジタルJR時刻表及びJR東日本アプリ等の経路検索に反映します。 ※12月30日（水）から1月3日（日）ま"
+          ]
         },
         {
           "url": "https://media.jreast.co.jp/articles/5331",
           "kind": "operator",
-          "title": "JR East JRE Media: overnight trains 2025/26"
+          "title": "JR East JRE Media: overnight trains 2025/26",
+          "evidence": [
+            "train/local/e235.html 山手線（イメージ） 山手線は、内回り・外回りで1:00～5:00 頃の間に約10～25分間隔で運",
+            "。 ■運転区間 内回り・外回り ■運転時間帯（運転間隔の目安） 1:00～5:00頃（約10～25分間隔） 京浜東北・根岸線の終夜運転スケジ"
+          ]
         }
       ],
       "used_in": {
@@ -4417,7 +4511,7 @@
       "id": "jp.tokyo.new-year.metro-toei-trains",
       "topic": "transport",
       "claim": "Last year Tokyo Metro (notice 28 Nov 2025) ran Saturday/holiday timetables 30 Dec to 3 Jan with no overnight service and no later last or earlier first trains; Toei subway (notice 28 Nov 2025) ran Saturday/holiday timetables 30 Dec to 4 Jan with no overnight service or later last trains; neither had posted a 2026/27 notice by 26 Oct 2026.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://web.archive.org/web/2025/https://www.tokyometro.jp/info/222321.html",
@@ -4427,7 +4521,11 @@
         {
           "url": "https://web.archive.org/web/2025/https://www.kotsu.metro.tokyo.jp/pickup_information/news/subway/2025/sub_i_2025112812295_h.html",
           "kind": "operator",
-          "title": "Toei: year-end and New Year operation (archived)"
+          "title": "Toei: year-end and New Year operation (archived)",
+          "evidence": [
+            "ピックアップ情報 ニュース 都営地下鉄のニュース ここから本文です。 都営地下鉄のニュース【お知らせ】 ツイート 2025年11月28日 東",
+            "．都営地下鉄（浅草線・三田線・新宿線・大江戸線）及び日暮里・舎人ライナー 令和7年12月30日（火）から令和8年1月4日（日）までの間、土曜"
+          ]
         }
       ],
       "used_in": {
@@ -4482,13 +4580,16 @@
     {
       "id": "jp.tokyo.new-year.hotel.asakusa-tobu",
       "topic": "hotel",
-      "claim": "Asakusa Tobu Hotel (1-1-15 Asakusa) sells a Skytree first-sunrise twin-room plan with breakfast from 80,000 yen for two (planned, tax and service included), sales from noon 5 Nov 2026, and dinner-buffet plans for 31 Dec and 1 Jan in two sittings (5:30 to 7pm, 7:15 to 8:45pm).",
-      "checked": "2026-11-03",
+      "claim": "Asakusa Tobu Hotel (1-1-15 Asakusa) sold a Skytree first-sunrise twin-room plan with breakfast from 80,000 yen for two (planned, tax and service included) from noon on 5 Nov 2026; by 20 Nov its notice is headed sold out and says cancelled rooms may be resold without notice. It also sells dinner-buffet plans for 31 Dec and 1 Jan in two sittings (5:30 to 7pm, 7:15 to 8:45pm).",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.tobuhotel.co.jp/asakusa/news/342/",
           "kind": "official",
-          "title": "Asakusa Tobu Hotel: Skytree first-sunrise plan"
+          "title": "Asakusa Tobu Hotel: Skytree first-sunrise plan",
+          "evidence": [
+            "【完売御礼】"
+          ]
         },
         {
           "url": "https://www.tobuhotel.co.jp/asakusa/news/279/",
@@ -4499,7 +4600,8 @@
       "used_in": {
         "articles/where-to-stay-in-tokyo-new-year.html": [
           "from 80,000 yen for two, tax and service included",
-          "in two sittings, 5:30pm to 7pm and 7:15pm to 8:45pm"
+          "in two sittings, 5:30pm to 7pm and 7:15pm to 8:45pm",
+          "the hotel marked the plan sold out"
         ]
       },
       "recheck_days": 14
@@ -4766,18 +4868,26 @@
       "id": "jp.kyoto.new-year.joya-no-kane-2026",
       "topic": "place",
       "claim": "Kyoto City Tourism Association's list of Kyoto temple bells for 31 December 2026 gives Chion-in from 10:20pm (viewing only, advance application, 3,000 yen, free for elementary school children and under; trial ringing Sunday 27 December 2pm), Kodai-ji 11:45pm (numbered tickets for the first 108 groups from 10pm; hatsumode 10pm to 2am), Hyakumanben Chion-ji 11:30pm to 12:30am, Eikan-do 11pm to 12:30am, Shinnyo-do 11:45pm, Mibu-dera 11:30pm, Tenryu-ji from 11:30pm (numbers for the first 108 groups) and Myoman-ji 3pm to 5pm; 12 temples besides Chion-in and Kodai-ji.",
-      "checked": "2026-10-30",
+      "checked": "2026-11-20",
       "recheck_days": 14,
       "sources": [
         {
           "url": "https://ja.kyoto.travel/event/single.php?event_id=7062",
           "kind": "official",
-          "title": "Kyoto City Tourism Association: temple bells in Kyoto 2026"
+          "title": "Kyoto City Tourism Association: temple bells in Kyoto 2026",
+          "evidence": [
+            "料 高台寺 2026年12月31日(木) 23：45～撞打 整理券配布(22：00～)先着108組（グループで１枚、1撞打） 12/31の2",
+            "で、現役で京都で最も古い鐘である。 ＜中京区＞ 壬生寺 2026年12月31日(木) 23：30～ 108回で終了。 人数制限無し。10人程"
+          ]
         },
         {
           "url": "https://www.chion-in.or.jp/event/event/1508/",
           "kind": "official",
-          "title": "Chion-in: trial ringing 27 December 2026"
+          "title": "Chion-in: trial ringing 27 December 2026",
+          "evidence": [
+            "クス 除夜の鐘 試し撞き 法要・行事 おまいり 除夜の鐘 試し撞き 開催日 2026年12月27日(日) 時間 午後2時～ 場所 大鐘楼 大",
+            "English よくあるご質問 サイトマップ プライバシーポリシー サイトポリシー リンク集 © 2018 - 2026 CHION-IN"
+          ]
         }
       ],
       "used_in": {
@@ -4792,21 +4902,26 @@
     {
       "id": "jp.kyoto.new-year.chion-in-2025-terms",
       "topic": "place",
-      "claim": "Chion-in's own bell page still carries last year's terms: online applications from 2pm on 1 December for four groups of 500, a cash sale of 400 tickets at the Yuzen-en office from 8 to 24 December, 3,000 yen each, about 30 minutes inside per group, viewing only, no re-entry, no applications on the day; trial ringing 27 December 2026 at 2pm in the bell tower.",
-      "checked": "2026-10-30",
+      "claim": "Chion-in's bell page gives the 2026 terms: online applications from 2pm on Tuesday 1 December to 4:59pm on 24 December for four groups of 500, first come first served, card only; a cash sale of 400 tickets (four groups of 100) at the Yuzen-en office from 7 to 24 December, 9:00 to 16:00; 3,000 yen, free for elementary school children and under; no applications on the day; trial ringing 27 December at 2pm. Last year's terms added about 30 minutes inside per group and no re-entry.",
+      "checked": "2026-11-20",
       "recheck_days": 14,
       "sources": [
         {
           "url": "https://www.chion-in.or.jp/special/joya",
           "kind": "official",
-          "title": "Chion-in: New Year's Eve bell"
+          "title": "Chion-in: New Year's Eve bell",
+          "evidence": [
+            "販売日時 令和8年12月7日(月)～24日(木)",
+            "受付期間 12月1日（火）14:00 ～ 12月24日（木）16:59",
+            "全4班 各500名（事前申込制・先着順）"
+          ]
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-kyoto-new-year.html": [
-          "online applications from 2pm on 1 December for four groups of 500",
-          "about 30 minutes inside per group",
-          "Last year its applications opened on 1 December"
+          "online applications from 2pm on Tuesday 1 December to 4:59pm on 24 December",
+          "a cash sale of 400 tickets at its Yuzen-en office from 7 to 24 December",
+          "Its online applications open at 2pm on 1 December"
         ]
       }
     },
@@ -4845,23 +4960,35 @@
       "id": "jp.kyoto.new-year.fushimi-inari",
       "topic": "place",
       "claim": "Fushimi Inari Taisha's homepage still shows last year's New Year hours: prayers 8:30am to 2:30pm on 31 December and midnight to 5:30pm on 1 January (paused 5am to 7am); stalls from 31 December to 5 January; shrine car parks closed 30 December to 6 January; it asks visitors to check public transport. Its December rites page lists the year-end purification at 3pm on 31 December. It is next to JR Inari station (2 stations, 5 minutes from Kyoto Station) and 5 minutes' walk from Keihan Fushimi-Inari.",
-      "checked": "2026-10-30",
+      "checked": "2026-11-20",
       "recheck_days": 14,
       "sources": [
         {
           "url": "https://inari.jp/",
           "kind": "official",
-          "title": "Fushimi Inari Taisha: official site"
+          "title": "Fushimi Inari Taisha: official site",
+          "evidence": [
+            "26年 9月19日 トピックス 画集『INARI』通常版のご案内 2026年 9月7日 トピックス 境内での参拝マナーについてのおねがい 2",
+            "1 FAX（075）642-2153 Copyright © Fushimi Inari Taisha, All Rights Reserv"
+          ]
         },
         {
           "url": "https://inari.jp/rite/?month=12月",
           "kind": "official",
-          "title": "Fushimi Inari Taisha: December rites"
+          "title": "Fushimi Inari Taisha: December rites",
+          "evidence": [
+            "2月31日 15：00〜 一年を春と秋、前半と後半に分けて考える我が民俗行事にあって最も顕著なかたちで残っているのがこの大祓です。 6月30",
+            "31 FAX（075）642-2153 Copyright © Fushimi Inari Taisha, All Rights Reser"
+          ]
         },
         {
           "url": "https://inari.jp/en/access/",
           "kind": "official",
-          "title": "Fushimi Inari Taisha: access"
+          "title": "Fushimi Inari Taisha: access",
+          "evidence": [
+            "Line (2 stations/5 minutes from Kyoto Station) ･5 minutes’ walk to the east of Fushimi-inari Station on the Keihan Main",
+            "Bus ･7 minutes’ walk to the east of the Inari Taisha-mae bus stop on the Minami 5 line By Car ･Around 20 minutes from"
+          ]
         }
       ],
       "used_in": {
@@ -4946,23 +5073,35 @@
       "id": "jp.kyoto.new-year.trains-2025",
       "topic": "transport",
       "claim": "For New Year's Eve 2025/26 Keihan ran all night from 6pm on 31 December to 7am on 1 January on its main, Oto, Nakanoshima, Katano and Uji lines (not the Otsu lines); the Kyoto city subway and buses, JR West, Hankyu, Eizan and Randen did not run overnight, and the subway and buses did not extend last trains; subway ran Saturday/holiday timetables 27 December to 4 January and buses holiday timetables 28 December to 4 January; tourist express buses EX100/EX101 ran daily 27 December to 4 January. No 2026/27 notices on 30 October 2026.",
-      "checked": "2026-10-30",
+      "checked": "2026-11-20",
       "recheck_days": 14,
       "sources": [
         {
           "url": "https://ja.kyoto.travel/news/format.php?id=459",
           "kind": "official",
-          "title": "Kyoto City Tourism Association: trains and buses 2025-2026"
+          "title": "Kyoto City Tourism Association: trains and buses 2025-2026",
+          "evidence": [
+            "晦日（12/31～1/1）の終夜運転及び終発時刻の繰り下げは実施しません。 12月26日（金） 12月27日（土） 12月28日（日）～1月",
+            "イヤ ※ 観光特急バス (EX100号、EX101号系統)は、土曜ダイヤ・休日ダイヤで運行しています。 12月27日（土）から1月4日（日）"
+          ]
         },
         {
           "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000347827.html",
           "kind": "official",
-          "title": "Kyoto City Transportation Bureau: year-end and New Year timetables"
+          "title": "Kyoto City Transportation Bureau: year-end and New Year timetables",
+          "evidence": [
+            "7 2025年12月8日 京都市交通局における年末年始の運行ダイヤについて、お知らせします。 市バスでは、12月28日（日曜日）から1月4日",
+            "日)の期間も 環境定期券制度 を御利用いただけます。 観光特急バス (EX100号、EX101号系統)は、12月27日（土曜日）から1月4日"
+          ]
         },
         {
           "url": "https://web.archive.org/web/20260102082528/https://www.keihan.co.jp/corporate/info/news/2025/detail/geishun.html",
           "kind": "operator",
-          "title": "Keihan: New Year 2025-26 timetable (archived copy)"
+          "title": "Keihan: New Year 2025-26 timetable (archived copy)",
+          "evidence": [
+            "たします。 2025年12月 2026年1月 28日（日） 29日（月） 30日（火） 31日（水） 1日（木・祝）～4日（日） 5日（月）",
+            "ーの営業時間変更について 2025年12月 2026年1月 28日（日） 29日（月） 30日（火） 31日（水） 1日（木・祝）～4日（日"
+          ]
         }
       ],
       "used_in": {
@@ -5791,18 +5930,23 @@
     {
       "id": "jp.osaka.haruka",
       "topic": "fare",
-      "claim": "JR West sells a discounted HARUKA one-way ticket from Kansai Airport for foreign passport holders on a short-term stay; its page says the price changes for tickets sold on or after 1 November 2026 (new price not yet read; old: ¥1,900 Osaka/Shin-Osaka).",
-      "checked": "2026-11-01",
+      "claim": "JR West sells a discounted HARUKA one-way ticket from Kansai Airport for foreign passport holders on a short-term stay; its page says the price changed for tickets sold on or after 1 November 2026 and on 20 Nov 2026 lists adult fares of ¥1,600 to Tennoji, ¥1,900 to Osaka/Shin-Osaka and ¥2,700 to Kyoto.",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/oneway/haruka/",
           "kind": "operator",
-          "title": "West Japan Railway: HARUKA one-way ticket"
+          "title": "West Japan Railway: HARUKA one-way ticket",
+          "evidence": [
+            "Please note that the price has changed for tickets sold on or after November 1, 2026",
+            "1,900 YEN 950 YEN"
+          ]
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-osaka-cherry-blossom.html": [
-          "the price changes for tickets sold from 1 November 2026"
+          "the price changed for tickets sold from 1 November 2026",
+          "¥1,900 to Osaka or Shin-Osaka"
         ]
       },
       "recheck_days": 14

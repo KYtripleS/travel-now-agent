@@ -10,10 +10,14 @@
         {
           "url": "https://www.vic.gov.au/half-price-travel",
           "kind": "official",
-          "title": "vic.gov.au: Public transport now half price for everyone"
+          "title": "vic.gov.au: Public transport now half price for everyone",
+          "evidence": [
+            "transport is half price across the state for everyone, every day, from Monday 1 June 2026 until 1 January 2027. During",
+            "from $5.70 to $2.85, delivering immediate cost-of-living relief. The discount is for travel on all trains, trams and buses;"
+          ]
         }
       ],
-      "checked": "2026-10-12",
+      "checked": "2026-11-20",
       "used_in": {
         "articles/getting-around-melbourne.html": [
           "Half-price fares until 1 January 2027.",

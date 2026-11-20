@@ -1770,7 +1770,7 @@
       "id": "de.munich.cocoon-presale-2027",
       "topic": "price",
       "claim": "Cocoon Hotels: Oktoberfest 2027 rooms available only on its own website from 19 October to 15 November 2026, then released for the official start of sales; Cocoon hotels are about 3 (Theresienwiese), 9 (Sendlinger Tor), 10 (Hauptbahnhof) and 13 (Stachus) minutes' walk from the grounds by its own account.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://cocoon-hotels.com/en/oktoberfest-hotel-munich/",
@@ -1790,7 +1790,8 @@
           "about ten minutes' walk from the grounds, against about three for its Theresienwiese hotel"
         ]
       },
-      "recheck_days": 30
+      "recheck_days": 30,
+      "checked_by": "script"
     },
     {
       "id": "de.munich.hotel.cocoon-theresienwiese",
@@ -2401,16 +2402,17 @@
     {
       "id": "de.berlin.nye.2026-status",
       "topic": "place",
-      "claim": "As of early November 2026 berlin.de's event listing for the Silvesterparty am Brandenburger Tor 2026 says the date is not confirmed and that it is not known whether a party is planned; on 16 September 2026 the Berliner Kurier reported that the Senate Chancellery had confirmed to it a free party with DJs and fireworks for 2026/27 (a news report, not an official page).",
-      "checked": "2026-11-08",
+      "claim": "berlin.de's event listing for the Silvesterparty am Brandenburger Tor 2026 (updated 17 November 2026) gives 31 December 2026, entry from 8pm, free, on the Platz des 18. März and the Straße des 17. Juni, motto \"Yeah 27!\"; it does not say whether tickets are needed. On 16 September 2026 the Berliner Kurier reported that the Senate Chancellery had confirmed to it a free party with DJs and fireworks for 2026/27.",
+      "checked": "2026-11-20",
       "sources": [
         {
-          "url": "https://www.berlin.de/silvester/",
+          "url": "https://www.berlin.de/events/3303144-2229501-silvester-am-brandenburger-tor-2026.html",
           "kind": "official",
           "title": "berlin.de: Silvesterparty am Brandenburger Tor 2026",
           "evidence": [
-            "Termin noch nicht bestätigt",
-            "Noch ist nicht bekannt, ob auch in diesem Jahr wieder eine Party geplant ist."
+            "Das Motto lautet \"Yeah 27!\"",
+            "Einlass ab 20 Uhr",
+            "Eintritt Kostenlos"
           ]
         },
         {
@@ -2424,8 +2426,9 @@
       ],
       "used_in": {
         "articles/where-to-stay-in-berlin-new-years-eve.html": [
-          "berlin.de's event listing still said the date was not confirmed",
-          "the Berliner Kurier reported that the Senate Chancellery had confirmed to it a party"
+          "with free entry from 8pm",
+          "updated on 17 November 2026",
+          "the Berliner Kurier had reported that the Senate Chancellery confirmed to it a party"
         ]
       },
       "recheck_days": 7
@@ -2434,7 +2437,7 @@
       "id": "de.berlin.nye.2025-party",
       "topic": "place",
       "claim": "For 31 December 2025 the Brandenburg Gate party was organised by the state-owned Kulturprojekte Berlin GmbH, with free tickets for about 20,000 guests that had to be reserved in advance, admission from 9:30pm, bag checks, and no own food, alcohol or fireworks.",
-      "checked": "2026-11-08",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.berlin.de/en/news/10106842-5559700-feiern-fahrplaene-verbote-das-gilt-in-be.en.html",
@@ -2468,7 +2471,7 @@
       "id": "de.berlin.nye.2025-closures",
       "topic": "transport",
       "claim": "For 31 December 2025 the Großer Stern and access roads were closed from 6am, the Straße des 17. Juni between the Großer Stern and the Brandenburg Gate was closed (to pedestrians and cyclists too), and the U5 did not stop at Brandenburger Tor from 4pm.",
-      "checked": "2026-11-08",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.berlin.de/en/news/10106842-5559700-feiern-fahrplaene-verbote-das-gilt-in-be.en.html",
@@ -2501,7 +2504,7 @@
       "id": "de.berlin.nye.2025-fireworks",
       "topic": "place",
       "claim": "Private fireworks are allowed only on 31 December and 1 January, many districts (including Friedrichshain-Kreuzberg and Pankow) only from 6pm to 7am; for 31 December 2025 police banned private fireworks (categories F2-F4) from 6pm to 6am at Alexanderplatz, the Steinmetzkiez, part of Sonnenallee and the Admiralbrücke, allowing category F1 such as sparklers.",
-      "checked": "2026-11-08",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.berlin.de/en/news/10106842-5559700-feiern-fahrplaene-verbote-das-gilt-in-be.en.html",
@@ -2535,7 +2538,7 @@
       "id": "de.berlin.nye.2025-weapons-ban",
       "topic": "place",
       "claim": "For 31 December 2025 police also declared a weapons and knife ban zone around the Brandenburg Gate party that included the Großer Tiergarten, parts of the Hansaviertel and the government quarter.",
-      "checked": "2026-11-08",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.berlin.de/polizei/polizeimeldungen/2025/pressemitteilung.1628885.php",
@@ -2557,7 +2560,7 @@
       "id": "de.berlin.nye.2025-transit",
       "topic": "transport",
       "claim": "On 31 December 2025 the U-Bahn ran all night (every 5 minutes until about 5pm, then every 10), the U5 ran only Alexanderplatz-Hönow from 10pm to about 12:30am, trams did not cross Alexanderplatz from about 4:30pm to 2am, the S41/S42 ran every 10 minutes all night and other S-Bahn lines every 20, with the Sunday timetable from about 9am on 1 January.",
-      "checked": "2026-11-08",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.bvg.de/de/unternehmen/ueber-uns/news-und-stories/sicherheit-silvesternacht",

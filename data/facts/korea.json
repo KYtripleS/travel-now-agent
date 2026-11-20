@@ -134,7 +134,7 @@
           ]
         }
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "used_in": {
         "articles/where-to-stay-in-busan.html": [
           "Saturday 7 November 2026",
@@ -142,7 +142,8 @@
           "main Busan Multi-Fireworks Show from 7:25pm to 7:55pm"
         ]
       },
-      "note": "Programme times and road closures were not posted on 7 October 2026; add them if they appear."
+      "note": "Programme times and road closures were not posted on 7 October 2026; add them if they appear.",
+      "checked_by": "script"
     },
     {
       "id": "kr.busan.drone-show",

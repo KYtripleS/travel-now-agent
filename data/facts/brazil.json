@@ -5,17 +5,25 @@
       "id": "br.rio-carnival.dates-2027",
       "topic": "place",
       "claim": "LIESA gives the Rio Carnaval 2027 Grupo Especial parade nights as 7, 8 and 9 February 2027 (Sunday to Tuesday) at the Marquês de Sapucaí, with the six best-placed schools returning for the Desfile das Campeãs on 13 February 2027.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://liesa.org.br/noticias/260729-pre-venda-ingressos.html",
           "kind": "official",
-          "title": "LIESA: sales of tickets for Rio Carnaval 2027"
+          "title": "LIESA: sales of tickets for Rio Carnaval 2027",
+          "evidence": [
+            "comprar: ticketmaster.com.br/event/riocarnaval •⁠ ⁠Desfiles: 7, 8 e 9 de fevereiro de 2027 •⁠ ⁠Desfile das Campeãs: 13 de",
+            "a serem divulgados nos canais oficiais da Liesa. Datas dos desfiles O Rio Carnaval 2027 acontece nos dias 7, 8 e 9 de"
+          ]
         },
         {
           "url": "https://www.ticketmaster.com.br/event/riocarnaval",
           "kind": "operator",
-          "title": "Ticketmaster Brasil: Rio Carnaval 2027"
+          "title": "Ticketmaster Brasil: Rio Carnaval 2027",
+          "evidence": [
+            "Quando e onde acontecerão os desfiles do Rio Carnaval 2027? Os desfiles competitivos acontecem nos dias 7, 8 e 9 de",
+            "o Desfile das Campeãs, no dia 13 de fevereiro. Os desfiles acontecem no Sambódromo, localizado na Marquês de Sapucaí, no"
+          ]
         }
       ],
       "used_in": {
@@ -123,22 +131,34 @@
       "id": "br.rio-carnival.tickets-prices",
       "topic": "price",
       "claim": "For 2027 LIESA sold the special stands (Sectors 2 to 11 except 9) and the numbered individual chairs (Sector 12) at R$250 per parade night, R$125 half price, exclusively through Ticketmaster at ticketmaster.com.br/event/riocarnaval.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://liesa.org.br/noticias/260729-pre-venda-ingressos.html",
           "kind": "official",
-          "title": "LIESA: sales of tickets for Rio Carnaval 2027"
+          "title": "LIESA: sales of tickets for Rio Carnaval 2027",
+          "evidence": [
+            "2 a 11, exceto o Setor 9) e cadeiras individuais numeradas (Setor 12). Quais são os valores? R$ 250 a inteira e R$ 125",
+            "(Setores 2 a 11, exceto o 9) e cadeiras individuais numeradas (Setor 12) •⁠ ⁠Valores: R$ 250 (inteira) e R$ 125"
+          ]
         },
         {
           "url": "https://liesa.org.br/noticias/260909-ingressos.html",
           "kind": "official",
-          "title": "LIESA: special stands, chairs and frisas on sale 10 September"
+          "title": "LIESA: special stands, chairs and frisas on sale 10 September",
+          "evidence": [
+            "para os Setores 2 ao 11 (exceto o 9), nos lados par e ímpar do Sambódromo, a R$ 250 por noite. A meia-entrada sai",
+            "no Setor 12, as cadeiras individuais são numeradas e podem ser adquiridas pelo mesmo valor das arquibancadas: R$250 por"
+          ]
         },
         {
           "url": "https://www.ticketmaster.com.br/event/riocarnaval",
           "kind": "operator",
-          "title": "Ticketmaster Brasil: Rio Carnaval 2027"
+          "title": "Ticketmaster Brasil: Rio Carnaval 2027",
+          "evidence": [
+            "os Setores 2 ao 11 (exceto o 9), nos lados par e ímpar do Sambódromo, a R$ 250 por noite. A meia-entrada sai a",
+            "12, as cadeiras individuais são numeradas e podem ser adquiridas também por R$250 cada noite, com meia a R$125. O"
+          ]
         }
       ],
       "used_in": {
@@ -153,12 +173,16 @@
       "id": "br.rio-carnival.frisas",
       "topic": "price",
       "claim": "LIESA's 9 September 2026 notice puts the frisas, boxes for six people, at R$1,835 to R$10,200 per night depending on proximity to the track, paid exclusively by Pix, one frisa per CPF per parade day.",
-      "checked": "2026-10-26",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://liesa.org.br/noticias/260909-ingressos.html",
           "kind": "official",
-          "title": "LIESA: special stands, chairs and frisas on sale 10 September"
+          "title": "LIESA: special stands, chairs and frisas on sale 10 September",
+          "evidence": [
+            "Notícias Rio Carnaval 2027: arquibancadas especiais e frisas entram à venda nesta quinta-feira, 10 de setembro 09.09.2026",
+            "Brasil +55 21 3213-5151 +55 21 3213-5152 Mapa do Site Home A LIESA Carnaval Notícias Escolas Ingressos Camarotes Frisas"
+          ]
         }
       ],
       "used_in": {
@@ -172,17 +196,25 @@
       "id": "br.rio-carnival.popular-stands",
       "topic": "place",
       "claim": "LIESA's 9 September 2026 notice said the popular stands in Sectors 12 and 13 at the Praça da Apoteose would be announced later; none of LIESA's news items up to 22 October 2026 announced them.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://liesa.org.br/noticias/260909-ingressos.html",
           "kind": "official",
-          "title": "LIESA: special stands, chairs and frisas on sale 10 September"
+          "title": "LIESA: special stands, chairs and frisas on sale 10 September",
+          "evidence": [
+            "partir das 18h. A Liesa anunciará em breve a etapa de vendas dos setores populares 12 e 13, na Praça da Apoteose. Outras",
+            "para os Setores 2 ao 11 (exceto o 9), nos lados par e ímpar do Sambódromo, a R$ 250 por noite. A meia-entrada sai"
+          ]
         },
         {
           "url": "https://liesa.org.br/noticias/",
           "kind": "official",
-          "title": "LIESA: news index"
+          "title": "LIESA: news index",
+          "evidence": [
+            "para o público geral 12 de Julho 2025 Venda de ingressos para o Rio Carnaval 2026 recomeça nesta quarta-feira (9) 07 de",
+            "para 2027 22 Outubro 2026 Rio Carnaval revela capa do álbum oficial dos sambas de enredo para 2027 19 Outubro 2026 Liesa"
+          ]
         }
       ],
       "used_in": {
@@ -196,12 +228,16 @@
       "id": "br.rio-carnival.sold-out",
       "topic": "price",
       "claim": "On 26 October 2026 the Ticketmaster Rio Carnaval 2027 page marked the special stands (Sectors 2-11), the Sector 12 chairs, the frisas, and the Sambista and Passaporte tickets as ESGOTADO (sold out), and listed camarotes separately.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.ticketmaster.com.br/event/riocarnaval",
           "kind": "operator",
-          "title": "Ticketmaster Brasil: Rio Carnaval 2027"
+          "title": "Ticketmaster Brasil: Rio Carnaval 2027",
+          "evidence": [
+            "Setores 2, 4, 6, 8 e 10 ESGOTADO Setores 3, 5, 7 e 11 Arquibancadas Setores 3, 5, 7 e 11 ESGOTADO Frisas ESGOTADO",
+            "Setores 03, 05, 07 e 11 Sambista Setores 03, 05, 07 e 11 Venda geral ESGOTADO Setores 2, 4, 6, 8 e 10 Passaporte"
+          ]
         }
       ],
       "used_in": {
@@ -261,12 +297,16 @@
       "id": "br.rio-carnival.street-timetable",
       "topic": "place",
       "claim": "Riotur says the 2027 street carnival is expected to start on 16 January 2027; bloco registration ran from 24 August to 24 September 2026 and the final supplementary documents close on 15 January 2027; no 2027 bloco programme had been published.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://riotur.rio/editorial/inscricoes-blocos-de-rua-2027/",
           "kind": "official",
-          "title": "Riotur: street carnival 2027 bloco registration and timetable"
+          "title": "Riotur: street carnival 2027 bloco registration and timetable",
+          "evidence": [
+            "– Carnaval de Rua 2027: 24/08 a 24/09: inscrições dos blocos; 25/09 a 15/10: análise dos órgãos municipais; 16/10 a",
+            "2026 --> A Prefeitura do Rio, por meio da Riotur, iniciou nesta segunda-feira (24/08) o período de inscrições para os blocos"
+          ]
         }
       ],
       "used_in": {
@@ -342,17 +382,25 @@
       "id": "br.rio-carnival.metro-2026",
       "topic": "transport",
       "claim": "On 13 February 2026 the state government announced that the Rio metro would run without a break from 5h on Friday 13 February to 23h59 on Ash Wednesday 18 February and trains from 4h to 22h45; Sambadrome passengers left at Central do Brasil (odd sectors) and Praça Onze (even sectors); Presidente Vargas station was closed 14 to 17 February and Cinelândia ran 6h to 20h.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-02/rio-trens-e-metro-operam-sem-interrup%C3%A7%C3%A3o-ate-quarta-feira-de-cinzas",
           "kind": "news",
-          "title": "Agência Brasil: trains and metro run without a break until Ash Wednesday, 13 February 2026"
+          "title": "Agência Brasil: trains and metro run without a break until Ash Wednesday, 13 February 2026",
+          "evidence": [
+            "sem interrupção das 4h desta sexta-feira (13) até as 22h45 da Quarta-feira de Cinzas (18). A estação Central do Brasil",
+            "das 5h até as 23h de domingo (22), sem interrupções. A estação Presidente Vargas estará fechada do dia 14 ao dia 17 e"
+          ]
         },
         {
           "url": "https://www.metrorio.com.br/",
           "kind": "operator",
-          "title": "MetrôRio: stations and lines"
+          "title": "MetrôRio: stations and lines",
+          "evidence": [
+            "São Francisco Xavier / Tijuca Afonso Pena / Tijuca Estácio Praça Onze Central do Brasil / Centro Saara / Presidente Vargas",
+            "Carioca / Centro Uruguaiana / Engenheiro Fernando Mac Dowell Saara / Presidente Vargas Central do Brasil / Centro Praça Onze"
+          ]
         }
       ],
       "used_in": {

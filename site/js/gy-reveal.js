@@ -890,12 +890,13 @@ window.gySaveTrip = function (box, dep) {
   update();
 })();
 
-/* Stay guides: once the verdict has scrolled away, the same foot-of-screen bar as the
-   eSIM pages carries the verdict's own hotel link (placement 'stickybar'). It hides over
-   the footer and under a time-limited offer's bar, and can be closed for the visit. */
+/* Every guide whose verdict has a partner button (stay guides first, all decision pages
+   since 2026-11-20): once the verdict has scrolled away, the same foot-of-screen bar as the
+   eSIM pages carries the verdict's own link (placement 'stickybar'). It hides over the
+   footer and under a time-limited offer's bar, and can be closed for the visit. */
 (function () {
   var main = document.getElementById('main');
-  if (!main || !main.querySelector('.gy-rates') || document.querySelector('.gy-aff-bar')) return;
+  if (!main || document.querySelector('.gy-aff-bar')) return;
   var src = main.querySelector('.gy-verdict a.gy-verdict-btn[rel~="sponsored"]');
   if (!src) return;
   try { if (sessionStorage.getItem('gy_aff_bar') === '0') return; } catch (e) {}

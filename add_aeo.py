@@ -917,7 +917,7 @@ V = {
         link_text="Tsim Sha Tsui",
         cta=_stay_cta("where-to-stay-in-hong-kong-chinese-new-year", "See hotels around Tsim Sha Tsui")),
     "where-to-stay-in-tokyo-new-year": dict(
-        text="For a first New Year in Tokyo, stay in Asakusa: Senso-ji rings its midnight bell, and Asakusa Tobu Hotel sells a Skytree first-sunrise stay. Choose OMO3 for value, The Tokyo Station Hotel for a calm splurge. Tokyo's tax is 100 or 200 yen a person a night.",
+        text="For a first New Year in Tokyo, stay in Asakusa: Senso-ji rings its midnight bell, and the Skytree's first-sunrise lottery is across the river (applications close 26 November). Choose OMO3 for value, The Tokyo Station Hotel for a calm splurge. Tokyo's tax is 100 or 200 yen a person a night.",
         link_text="Asakusa",
         cta=_stay_cta("where-to-stay-in-tokyo-new-year", "See hotels around Asakusa")),
     "where-to-stay-in-venice-carnival": dict(
@@ -1791,6 +1791,11 @@ def add_promise(soup: BeautifulSoup, article: Tag) -> None:
     a = soup.new_tag("a", attrs={"href": PROMISE_HREF})
     a.string = "Our promise →"
     p.append(a)
+    # the public corrections log next to the promise (2026-11-20): proof, not just a claim
+    p.append(" ")
+    c = soup.new_tag("a", attrs={"href": "/corrections.html"})
+    c.string = "Our corrections →"
+    p.append(c)
     kids = [c for c in article.children if isinstance(c, Tag)]
     anchor = next((c for c in kids if "gy-verdict" in (c.get("class") or [])), None)
     if anchor is None and kids and "article-lede" in (kids[0].get("class") or []):

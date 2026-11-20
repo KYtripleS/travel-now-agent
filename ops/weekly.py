@@ -3,7 +3,7 @@
 1. eSIM prices: refresh Airalo's from its site (ops/esim_prices.py); flag Saily's when stale.
 2. Facts due for a recheck in the next 14 days (facts.py --due).
 3. Event and season guides whose dates have passed (they need next year's edition).
-4. Stay22 bookings in the last 7 days (ops/stay22_report.py).
+4. Stay22 bookings in the last 7 days (ops/stay22_report.py), and earnings per 1,000 views by page (ops/epc.py).
 5. With --publish: when the only change is refreshed prices, rebuild, run every check and, if all
    pass, commit and push. Anything else is left for the editor.
 
@@ -69,6 +69,9 @@ def main() -> None:
 
     code, s22 = run(PY, "ops/stay22_report.py", "--days", "7")
     lines += ["", "## Stay22 bookings, last 7 days", "```", s22[-1500:], "```"]
+
+    _, epc = run(PY, "ops/epc.py", "--days", "90")   # full table in ga4_reports/epc-<date>.md
+    lines += ["", "## Earnings per 1,000 views (90 days)", "```", epc[-600:], "```"]
 
     if args.publish and prices_changed:
         _, status = run("git", "status", "--porcelain")

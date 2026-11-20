@@ -28,13 +28,17 @@
       "id": "world.tickets.teamlab-planets-adult",
       "topic": "price",
       "claim": "teamLab Planets TOKYO's adult admission is ¥3,800 on its own site (dynamic pricing).",
-      "checked": "2026-10-21",
+      "checked": "2026-11-20",
       "recheck_days": 30,
       "sources": [
         {
           "url": "https://www.teamlab.art/e/planets/",
           "kind": "official",
-          "title": "teamLab Planets TOKYO: tickets"
+          "title": "teamLab Planets TOKYO: tickets",
+          "evidence": [
+            "Admission time is specified. * Tickets is subject to a dynamic pricing system. Adults 18 Years and above JPY 3,800 Junior",
+            "only after entering teamLab Planets TOKYO. * Guests may not enter the restaurant before the admission time"
+          ]
         }
       ],
       "used_in": {
@@ -47,13 +51,17 @@
       "id": "world.tickets.wb-studio-tokyo-adult",
       "topic": "price",
       "claim": "Warner Bros. Studio Tour Tokyo's standard adult ticket is from ¥6,600; prices vary through the year.",
-      "checked": "2026-10-21",
+      "checked": "2026-11-20",
       "recheck_days": 30,
       "sources": [
         {
           "url": "https://www.wbstudiotour.jp/en/tickets/",
           "kind": "official",
-          "title": "Warner Bros. Studio Tour Tokyo: tickets"
+          "title": "Warner Bros. Studio Tour Tokyo: tickets",
+          "evidence": [
+            "occur during payment. Standard Tickets ADULT: ¥6,600~ JUNIOR: ¥5,500~ CHILD: ¥4,000~ ・Ticket prices vary throughout the",
+            "Tickets - Warner Bros. Studio Tour Tokyo - The Making of Harry Potter 日本語 TICKET 日本語 The Experience Inside the Tour Sets"
+          ]
         }
       ],
       "used_in": {
@@ -66,13 +74,17 @@
       "id": "world.tickets.uss-one-day-adult",
       "topic": "price",
       "claim": "Universal Studios Singapore's one-day standard adult ticket is S$76 on Resorts World Sentosa's site.",
-      "checked": "2026-10-21",
+      "checked": "2026-11-20",
       "recheck_days": 30,
       "sources": [
         {
           "url": "https://www.rwsentosa.com/en/play/universal-studios-singapore/tickets",
           "kind": "official",
-          "title": "Resorts World Sentosa: Universal Studios Singapore tickets"
+          "title": "Resorts World Sentosa: Universal Studios Singapore tickets",
+          "evidence": [
+            "Book Universal Studios Singapore Tickets from SGD 76 Loading... Menu Book Now Cart undefined undefined NaN Point Logout Back",
+            "Book your ticket now Date Max product quantity have been reached Book Now Universal Studios Singapore One-Day Ticket Standard"
+          ]
         }
       ],
       "used_in": {
@@ -106,13 +118,17 @@
       "id": "world.tickets.esb-86th-adult",
       "topic": "price",
       "claim": "The Empire State Building's 86th-floor observatory general admission is from US$46.",
-      "checked": "2026-10-21",
+      "checked": "2026-11-20",
       "recheck_days": 30,
       "sources": [
         {
           "url": "https://www.esbnyc.com/buy-tickets",
           "kind": "official",
-          "title": "Empire State Building: tickets"
+          "title": "Empire State Building: tickets",
+          "evidence": [
+            "Buy Tickets from $46 Flexible Entry Empire State Building Flex Ticket Buy Tickets from $66 Access to 86th Floor",
+            "See Ticket Options Best Value Empire State Building Best Value Ticket Buy Tickets from $46 Access to 86th Floor"
+          ]
         }
       ],
       "used_in": {
@@ -125,13 +141,17 @@
       "id": "world.tickets.sagrada-familia-basic",
       "topic": "price",
       "claim": "Sagrada Familia's individual ticket base price is €26, including the audio guide app.",
-      "checked": "2026-10-21",
+      "checked": "2026-11-20",
       "recheck_days": 30,
       "sources": [
         {
           "url": "https://sagradafamilia.org/en/prices",
           "kind": "official",
-          "title": "Sagrada Familia: prices"
+          "title": "Sagrada Familia: prices",
+          "evidence": [
+            "TICKET SAGRADA FAMÍLIA (includes Audioguide app) SAGRADA FAMÍLIA WITH GUIDED TOUR (includes Audioguide app) Base price 26,00",
+            "(includes Audioguide app) SAGRADA FAMÍLIA WITH GUIDED TOUR AND TOWERS (includes Audioguide app) Base price 36,00 € 40,00"
+          ]
         }
       ],
       "used_in": {

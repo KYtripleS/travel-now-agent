@@ -5850,8 +5850,8 @@
     {
       "id": "us.nyc.nye.alliance-edition",
       "topic": "place",
-      "claim": "In October 2026 the Times Square Alliance's New Year's Eve FAQ and live schedule still describe the 31 December 2025 edition (6:00pm to 12:15am); the 2026 timetable and performers had not been published.",
-      "checked": "2026-11-03",
+      "claim": "In November 2026 the Times Square Alliance's New Year's Eve FAQ opens 'As we approach New Year's Eve 2027' but its body still describes the NYE 2026 celebration (31 December 2025), and its live schedule still shows 31 December 2025, 6:00pm to 12:15am; no 2026 timetable has been published.",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.timessquarenyc.org/nye/nye-faq",
@@ -5877,17 +5877,25 @@
       "id": "us.nyc.nye.ball-descent",
       "topic": "place",
       "claim": "On the Alliance's published arrangements the Times Square celebration begins shortly before 6pm, the New Year's Eve Ball is raised at about 6pm, and at exactly 11:59pm it makes its 60-second descent (90 feet, per the live schedule) from the flagpole atop One Times Square.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.timessquarenyc.org/nye/nye-faq",
           "kind": "official",
-          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)",
+          "evidence": [
+            "pole at One Times Square (Broadway at 43rd Street). At exactly 11:59pm EST, the Ball will make its 60-second descent down the",
+            "begin? The celebration will begin shortly before 6:00pm EST. At approximately 6:00pm EST the Times Square New Year's"
+          ]
         },
         {
           "url": "https://www.timessquarenyc.org/nye/nye-live",
           "kind": "official",
-          "title": "Times Square Alliance: New Year's Eve live schedule (31 December 2025)"
+          "title": "Times Square Alliance: New Year's Eve live schedule (31 December 2025)",
+          "evidence": [
+            "Title Description 6:00 PM – 6:03 PM Lighting and Raising the Times Square New Year’s Eve Ball The celebration begins atop",
+            "Us 2027 Gala EN New Year's Eve NYE Live Schedule New Year's Eve Schedule DEC 31, 2025 6:00PM - 12:15AM Times Square For 122"
+          ]
         }
       ],
       "used_in": {
@@ -5903,12 +5911,16 @@
       "id": "us.nyc.nye.viewing-areas",
       "topic": "place",
       "claim": "Per the Alliance, the viewing areas open at 3pm on a first-come, first-served basis through access points at 45th, 49th, 52nd and 56th Streets from 6th and 8th Avenues; the event is free, no tickets are needed, and no public viewing spaces are for sale; the Ball is best seen along Broadway from 43rd to 50th Street and Seventh Avenue as far north as 59th Street.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.timessquarenyc.org/nye/nye-faq",
           "kind": "official",
-          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)",
+          "evidence": [
+            "watch from a viewing area, head to the access points at 45th, 49th, 52nd, and 56th Streets on 6th and 8th Avenues. Can I",
+            "‍ Access points for the viewing areas: 45th from 6th & 8th Aves 49th from 6th & 8th Aves 52nd from 6th & 8th"
+          ]
         }
       ],
       "used_in": {
@@ -5926,12 +5938,16 @@
       "id": "us.nyc.nye.rules",
       "topic": "place",
       "claim": "Per the Alliance, all bags are searched; backpacks, large bags, umbrellas, lawn or folding chairs, picnic blankets, large coolers, alcohol and drones are not permitted; public drinking is illegal in New York City; there are no portable restrooms and no licensed food and beverage vendors; a person who leaves a viewing area to dine cannot return to the spot; and multiple-venue passes were refused at police checkpoints in past years.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.timessquarenyc.org/nye/nye-faq",
           "kind": "official",
-          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)",
+          "evidence": [
+            "are NOT permitted: Backpacks Large bags Umbrellas Lawn chairs or other folding chairs Picnic blankets Large coolers Alcohol",
+            "Multiple Venue/Pay-One-Price/All Access passes presume the holder will be able to get past police security lines. In years"
+          ]
         }
       ],
       "used_in": {
@@ -5949,12 +5965,16 @@
       "id": "us.nyc.nye.closures",
       "topic": "place",
       "claim": "Per the Alliance's FAQ for the 2025 edition: at 4am Seventh Avenue closes to vehicles from 42nd to 48th Street (side streets 43rd to 48th between 6th and 8th Avenues); at about 11am Seventh Avenue and Broadway close to traffic from 38th to 59th Street; at about 4pm Sixth and Eighth Avenues close to pedestrians and vehicles, with pedestrian crossings at 41st, 44th, 47th, 50th, 54th and 57th Streets; the NYPD begins closing Times Square at 43rd Street and Broadway, moving north as revellers arrive; no one may cross Broadway/Seventh Avenue once closed.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.timessquarenyc.org/nye/nye-faq",
           "kind": "official",
-          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)",
+          "evidence": [
+            "the east side of 6th Ave to the west side, there will be pedestrian crossings at 41st, 44th, 47th, 50th, 54th, and 57th Sts.",
+            "approximately 11am, 7th Avenue and Broadway will be closed to traffic from 38th to 59th Streets. At approximately 4pm, 8th"
+          ]
         }
       ],
       "used_in": {
@@ -5972,12 +5992,16 @@
       "id": "us.nyc.nye.entry-from-6th-8th",
       "topic": "place",
       "claim": "Per the Alliance, access to Times Square on the evening of 31 December is from 6th Avenue or 8th Avenue only (east of Broadway/7th Avenue enter at 6th, west enter at 8th), and anyone going to a business in the area should contact it for instructions on reaching the entrance.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.timessquarenyc.org/nye/nye-faq",
           "kind": "official",
-          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)",
+          "evidence": [
+            "Square on the evening of December 31st will be from 6th Avenue or 8th Avenue only. No one will be allowed to cross",
+            "56th Streets on 6th and 8th Avenues. Can I watch the celebration online? Yes! Join us online at 6pm on December 31 to"
+          ]
         }
       ],
       "used_in": {
@@ -5992,12 +6016,16 @@
       "id": "us.nyc.nye.ball-view-businesses",
       "topic": "place",
       "claim": "The Alliance lists the Renaissance New York, Marriott Marquis, The Knickerbocker, the Hyatt Centric (Bar 54) and Tempo by Hilton at TSX Broadway among the businesses with a view of the Ball from portions of their building.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.timessquarenyc.org/nye/nye-faq",
           "kind": "official",
-          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)"
+          "title": "Times Square Alliance: New Year's Eve FAQ (edition of 31 December 2025)",
+          "evidence": [
+            "Ball? The following businesses have a view of the Ball from portions of their building: Renaissance New York Marriott Marquis",
+            "Olive Garden R Lounge Beast and Butterflies at the M Social Bar 54 at the Hyatt Centric Tempo by Hilton at TSX Broadway"
+          ]
         }
       ],
       "used_in": {
@@ -6423,12 +6451,16 @@
       "id": "us.nola.mardi-gras.fq-access-2026",
       "topic": "place",
       "claim": "The City's 2026 plan managed Quarter access through interior and exterior closures at peak times, limited entry to residents, hotel guests and people going to restaurants or permitted events, allowed taxis, rideshare, limousines and small buses, limited Bourbon Street crossings to emergency response, and put concrete and water-filled barriers on the Uptown route.",
-      "checked": "2026-10-29",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://nola.gov/next/mayors-office/news/articles/february-2026/2026-02-02-city-of-new-orleans-announces-public-safety-and-preparedness-efforts-for-mardi-gras/",
           "kind": "official",
-          "title": "City of New Orleans: public safety and preparedness efforts for Mardi Gras, 2 Feb 2026"
+          "title": "City of New Orleans: public safety and preparedness efforts for Mardi Gras, 2 Feb 2026",
+          "evidence": [
+            "restaurants or permitted events. Taxi cabs, rideshare, limousines and small buses will be allowed to enter. Bourbon Street",
+            "to assist with exterior French Quarter closures. Access to the French Quarter will be managed through designated interior"
+          ]
         }
       ],
       "used_in": {
@@ -6444,17 +6476,25 @@
       "id": "us.nola.mardi-gras.transit-2026",
       "topic": "transport",
       "claim": "The City's 2026 plan says the RTA suspended the Canal Street and St. Charles streetcar lines from Thursday 12 February 2026 with a 24/7 bus bridge through Mardi Gras Day, suspended UPT/Rampart on Saturday 14 February, resumed normal service on Wednesday 18 February, began bus detours two hours before parades and enhanced ferry service; riders can text RTAUPDATES to 41411 and the City asks visitors to text MARDIGRAS to 77295.",
-      "checked": "2026-10-29",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://nola.gov/next/mayors-office/news/articles/february-2026/2026-02-02-city-of-new-orleans-announces-public-safety-and-preparedness-efforts-for-mardi-gras/",
           "kind": "official",
-          "title": "City of New Orleans: public safety and preparedness efforts for Mardi Gras, 2 Feb 2026"
+          "title": "City of New Orleans: public safety and preparedness efforts for Mardi Gras, 2 Feb 2026",
+          "evidence": [
+            "Feb. 12, streetcar service on the Canal Street and St. Charles lines will be suspended, with continuous 24/7 bus bridge",
+            "suspended on Saturday, Feb. 14. Normal service is scheduled to resume on Wednesday, Feb. 18. Ferry service will be enhanced"
+          ]
         },
         {
           "url": "https://www.norta.com/mardi-gras-2026",
           "kind": "operator",
-          "title": "NORTA: Mardi Gras 2026"
+          "title": "NORTA: Mardi Gras 2026",
+          "evidence": [
+            "of Contents Mardi Gras 2026 Detour Info and Parade Schedule Streetcar Service Ferry Schedule French Quarter & Marigny Parades",
+            "Detours West Bank Parades Endymion Table of Contents Mardi Gras 2026 Detour Info and Parade Schedule Streetcar Service"
+          ]
         }
       ],
       "used_in": {

@@ -87,7 +87,7 @@
           ]
         }
       ],
-      "checked": "2026-10-05",
+      "checked": "2026-11-20",
       "used_in": {
         "articles/where-to-stay-in-singapore.html": [
           "SG Arrival Card",
@@ -98,7 +98,8 @@
           "within three days, including the day of arrival"
         ]
       },
-      "watch": "SG Arrival Card|SGAC"
+      "watch": "SG Arrival Card|SGAC",
+      "checked_by": "script"
     },
     {
       "id": "sg.changi-mrt",
@@ -774,7 +775,7 @@
       "id": "sg.nye.fireworks-time",
       "topic": "place",
       "claim": "For New Year's Eve 2025 the URA described ELYSIUM as an hour-long musical score starting at 11pm, across four segments with a total fireworks duration of 30 minutes; the government's One Countdown release said Marina Bay would culminate at the stroke of midnight.",
-      "checked": "2026-11-05",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.ura.gov.sg/news/media/pr25-62/",
@@ -807,7 +808,7 @@
       "id": "sg.nye.light-shows",
       "topic": "place",
       "claim": "Last year Brightening Lives was projected on The Fullerton Hotel Singapore's facade from 26 to 31 December 2025, 8pm to 10:30pm nightly, and Togetherland ran at the Bayfront Event Space from 11 December 2025 to 4 January 2026.",
-      "checked": "2026-11-05",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.ura.gov.sg/news/media/pr25-62/",
@@ -831,7 +832,7 @@
       "id": "sg.nye.crowd-control",
       "topic": "place",
       "claim": "For New Year's Eve 2025 the organiser said entry to key areas around the Bay would be regulated and closed at capacity, cycling was not allowed, the open-space carpark beside the Bayfront Event Space was closed, and certain MRT exits might close.",
-      "checked": "2026-11-05",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.ura.gov.sg/news/media/pr25-62/",
@@ -890,7 +891,7 @@
       "id": "sg.nye.spf-stations",
       "topic": "transport",
       "claim": "For New Year's Eve 2025 the Police said trains might bypass Bayfront and Stadium stations in overcrowding, that City Hall, Raffles Place, Bayfront, Stadium, Tanjong Rhu and Nicoll Highway stations would be very crowded, and named Esplanade, Promenade, Downtown, Marina Bay, Kallang and Mountbatten as alternatives.",
-      "checked": "2026-11-05",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.police.gov.sg/Media-Hub/News/2025/12/20251228_safety_and_security_arrangements_for_one_countdown_2026",
@@ -916,7 +917,7 @@
       "id": "sg.nye.countdown-sites",
       "topic": "place",
       "claim": "The government's One Countdown 2026 release listed Marina Bay, the Singapore Sports Hub (a ticketed concert), Sentosa (Siloso Beach, with Mediacorp's countdown show and fireworks) and Clarke Quay (live music, drone shows over the Singapore River and a midnight spectacular) for 31 December 2025.",
-      "checked": "2026-11-05",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.mccy.gov.sg/about-us/news-and-resources/one-countdown-2026--usher-in-the-new-year-at-countdown-sites-across-singapore/",
@@ -944,7 +945,7 @@
       "id": "sg.nye.trains-2025",
       "topic": "transport",
       "claim": "For New Year's Eve 2025 SBS Transit extended the Downtown and North East lines and the Sengkang-Punggol LRT by about two hours and fifteen minutes; SMRT's last trains from City Hall were at 2:15am on the North-South and East-West lines, and SMRT said there was no extension for the Changi Airport service.",
-      "checked": "2026-11-05",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.sbstransit.com.sg/news/changes-in-operational-hours-for-train-and-selected-bus-services-on-new-years-eve-1",

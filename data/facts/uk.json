@@ -1114,13 +1114,14 @@
     {
       "id": "gb.edinburgh.hogmanay.programme",
       "topic": "place",
-      "claim": "Edinburgh's Hogmanay 2026/27 runs from 29 December 2026 to New Year's Day: Torchlight Procession (Tue 29 Dec, 6.30pm, from The Meadows, from £5.75), Night Afore Party with The Fratellis (Wed 30 Dec, 6pm, West Princes Street Gardens, from £42), the Street Party (Thu 31 Dec, 8pm, Princes Street, from £10) and Hogmanay in the Gardens with Underworld (31 Dec, 8pm, West Princes Street Gardens, from £79), plus the free unticketed First Footin' trail on New Year's Day, whose page still carries 2025/26 details.",
-      "checked": "2026-11-03",
+      "claim": "Edinburgh's Hogmanay 2026/27 runs from 29 December 2026 to New Year's Day: Torchlight Procession (Tue 29 Dec, 6.30pm, from The Meadows, from £22), Night Afore Party with The Fratellis (Wed 30 Dec, 6pm, West Princes Street Gardens, from £42), the Street Party (Thu 31 Dec, 8pm, Princes Street, from £10) and Hogmanay in the Gardens with Underworld (31 Dec, 8pm, West Princes Street Gardens, from £79), plus the free unticketed First Footin' trail on New Year's Day, whose page still carries 2025/26 details.",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://edwinterfest.com/hogmanay",
           "kind": "official",
-          "title": "Edinburgh's Hogmanay: 2026/27 programme"
+          "title": "Edinburgh's Hogmanay: 2026/27 programme",
+          "evidence": []
         },
         {
           "url": "https://edwinterfest.com/hogmanay/whats-on/torchlight-procession",
@@ -1162,17 +1163,25 @@
       "id": "gb.edinburgh.hogmanay.street-party",
       "topic": "place",
       "claim": "The Street Party on 31 December 2026: about 45,000 people expected; gates open 8pm, hourly firework teasers from 9pm, last entry 11pm, midnight countdown 11:59pm, Midnight Moment fireworks and Auld Lang Syne at midnight, event ends about 12:50am. Three gates: South (Bank Street, top of The Mound), East (east end of Princes Street at North Bridge) and West (west end of Princes Street, off the bottom of Lothian Road). Each ticket names one gate and cannot be changed after purchase. Stage times not yet released.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://edwinterfest.com/hogmanay/street-party-information",
           "kind": "official",
-          "title": "Edinburgh's Hogmanay: Street Party information"
+          "title": "Edinburgh's Hogmanay: Street Party information",
+          "evidence": [
+            "Gates Open 23:00 - Last Entry 23:59 - Midnight countdown 00:50 (approx.) - Event Ends There will be hourly Firework Teasers",
+            "post-purchase are not permitted. East Gate Entry: Princes Street East End, junction of the North Bridge. Each ticket"
+          ]
         },
         {
           "url": "https://edwinterfest.com/hogmanay/whats-on/street-party",
           "kind": "official",
-          "title": "Edinburgh's Hogmanay: Street Party"
+          "title": "Edinburgh's Hogmanay: Street Party",
+          "evidence": [
+            "Street Party | 31 December | Edinburgh's Hogmanay | Edinburgh's Hogmanay - Official Website 2026/27 Brochure Travel Packages",
+            "Footin' Live Your Visit About Gallery News FAQs Travel Packages Gifting Edinburgh's Hogmanay - Street Party 31 Dec 2026"
+          ]
         }
       ],
       "used_in": {
@@ -1235,12 +1244,16 @@
       "id": "gb.edinburgh.hogmanay.closures-2025",
       "topic": "place",
       "claim": "The organisers' residents and businesses page still describes the 2025 edition: closures from 00:01 on 29 December, arena gates in use from 17:00 on 30 December, main closure of Princes Street and side streets from 19:00 on 30 December, most pedestrian restrictions from 18:00 on 31 December until about 04:00 on 1 January; access passes were offered to listed properties (30-134 Princes Street, 2-35 Castle Street, 1-19 Frederick Street, 1-33 Hanover Street, 17 Waverley Bridge, 18-21 Market Street). The 2026 notices had not been posted.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://edwinterfest.com/hogmanay/residents-businesses",
           "kind": "official",
-          "title": "Edinburgh's Hogmanay: residents and businesses (2025 edition)"
+          "title": "Edinburgh's Hogmanay: residents and businesses (2025 edition)",
+          "evidence": [
+            "30 – 134 Princes Street 2 - 35 Castle Street 1 – 19 Frederick Street 1 – 33 Hanover Street 17 Waverley Bridge 18",
+            "at 00:01 on 29 December with the main closure of Princes Street and the side streets introduced from 19:00 on 30 December."
+          ]
         }
       ],
       "used_in": {
@@ -1257,12 +1270,16 @@
       "id": "gb.edinburgh.hogmanay.trams-2025",
       "topic": "transport",
       "claim": "Edinburgh Trams' notice for Hogmanay 2025: from after 6pm on 30 December trams stopped serving Princes Street and St Andrew Square and ran a split service (Edinburgh Airport to West End; Newhaven to Picardy Place) through 31 December; the road was expected to re-open on the morning of New Year's Day; all-night trams, free after midnight, up to every 10 minutes from midnight to 2am then every 20 minutes. The 2026 notice was not posted.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://edinburghtrams.com/news/free-all-night-trams-set-run-after-midnight-hogmanay",
           "kind": "operator",
-          "title": "Edinburgh Trams: free all-night trams on Hogmanay (30 December 2025)"
+          "title": "Edinburgh Trams: free all-night trams on Hogmanay (30 December 2025)",
+          "evidence": [
+            "to get you back safely. After 6pm on Tuesday 30 December, trams will stop serving Princes Street and St Andrew Square due",
+            "Year’s Day. From midnight until 2am on Hogmanay, trams will be running up to every 10 minutes, and then from every 20"
+          ]
         }
       ],
       "used_in": {
@@ -1443,17 +1460,25 @@
       "id": "gb.london.nye.ticketing",
       "topic": "price",
       "claim": "The Mayor of London's New Year's Eve fireworks on Thursday 31 December 2026 (8:00pm to 12:30am, entry to the viewing areas 8:00pm to 10:30pm) are ticketed and sold only through Ticketmaster, up to 4 per buyer: £55 (£35 for Londoners) for the Blue, Pink and White areas and £40 (£20) for Red, Green and Orange; prices include VAT, a small booking fee is extra, prices are unchanged from last year, there are no refunds, and tickets may be resold at face value only via Ticketmaster Fan-to-Fan Resale; people without tickets are not allowed into the viewing areas.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
           "kind": "official",
-          "title": "Mayor of London: London New Year's Eve 2026"
+          "title": "Mayor of London: London New Year's Eve 2026",
+          "evidence": [
+            "Pink and White areas) £55 £35 Category B viewing area (Red, Green and Orange areas) £40 £20 All prices include VAT. A small",
+            "this page Key information Start date: Thursday 31 December 2026 at 8:00pm End date: Friday 01 January 2027 at 12:30am About"
+          ]
         },
         {
           "url": "https://www.london.gov.uk/media-centre/mayors-press-release/Mayor-announces-tickets-for-London%E2%80%99s-world-famous-New-Year%E2%80%99s-Eve-fireworks-go-on-sale-next-week",
           "kind": "official",
-          "title": "Mayor of London: tickets go on sale next week (16 October 2026)"
+          "title": "Mayor of London: tickets go on sale next week (16 October 2026)",
+          "evidence": [
+            "Area Full Ticket Price Price for Londoners Blue, Pink and White Areas £55 £35 Red, Green and Orange Areas £40 £20 Blue",
+            "Londoners remain at £20 and £35 depending on the viewing area. Tickets for people who live outside the capital will be £40"
+          ]
         }
       ],
       "used_in": {
@@ -1469,13 +1494,17 @@
     {
       "id": "gb.london.nye.availability",
       "topic": "place",
-      "claim": "On 28 October, 1 November and 3 November 2026 the Mayor's event page described the first of two ticket batches as on sale now, did not say it had sold out, warned that tickets sell out quickly and gave no date for the second batch; live Ticketmaster availability was not checked. Last year's final batch went on sale at noon on Monday 24 November 2025.",
-      "checked": "2026-11-03",
+      "claim": "On 20 November 2026 the Mayor's event page described the first of two ticket batches as on sale now and said the second batch would be released at 12 noon on Friday 20 November; live Ticketmaster availability was not checked.",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.london.gov.uk/events/london-new-years-eve-2026",
           "kind": "official",
-          "title": "Mayor of London: London New Year's Eve 2026"
+          "title": "Mayor of London: London New Year's Eve 2026",
+          "evidence": [
+            "A second batch of tickets will be released at 12 noon on Friday 20 November",
+            "First batch: on sale now"
+          ]
         },
         {
           "url": "https://www.london.gov.uk/final-tickets-londons-spectacular-new-years-eve-celebrations-go-sale-monday",
@@ -1486,7 +1515,7 @@
       "used_in": {
         "articles/where-to-stay-in-london-new-years-eve.html": [
           "still described the first batch as on sale now",
-          "last year's final batch went on sale on 24 November 2025"
+          "released at 12 noon UK time on Friday 20 November"
         ]
       },
       "recheck_days": 3,
@@ -1561,17 +1590,25 @@
       "id": "gb.london.nye.sea-containers-package",
       "topic": "hotel",
       "claim": "Sea Containers London (20 Upper Ground, SE1 9PD) sells The Ultimate New Year's Eve View for stays 31 December to 1 January: Superior and Studio rooms with what it calls a guaranteed view of the fireworks display from the room, champagne and canapes before midnight and New Year's Day buffet breakfast; full prepayment, non-cancellable and non-refundable. The hotel has 354 guest rooms.",
-      "checked": "2026-10-28",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.seacontainerslondon.com/offers/the-ultimate-new-year-s-eve-view/",
           "kind": "official",
-          "title": "Sea Containers London: The Ultimate New Year's Eve View"
+          "title": "Sea Containers London: The Ultimate New Year's Eve View",
+          "evidence": [
+            "read all about it. Subscribe I agree to the privacy policy Sea Containers London 20 Upper Ground, South Bank, London SE1",
+            "dates from 31 December - 1 January. Full prepayment required at the time of booking. Non-cancellable and non-refundable."
+          ]
         },
         {
           "url": "https://www.seacontainerslondon.com/",
           "kind": "official",
-          "title": "Sea Containers London"
+          "title": "Sea Containers London",
+          "evidence": [
+            "read all about it. Subscribe I agree to the privacy policy Sea Containers London 20 Upper Ground, South Bank, London SE1 9PD",
+            "Explore Rooms Our 354 guest rooms bring together bold design, comfort and character in the cultural heart of London."
+          ]
         }
       ],
       "used_in": {
@@ -1586,12 +1623,16 @@
       "id": "gb.london.nye.one-aldwych-package",
       "topic": "hotel",
       "claim": "One Aldwych's New Year's Eve package (valid for stays on and across 31 December 2026, subject to availability) covers an overnight stay for two, a New Year's Eve experience in the Lobby Bar, late check-out guaranteed until 1pm and breakfast; cancellation is fully flexible up to 24 hours before arrival, with the first night charged for late cancellation or non-arrival; rates include VAT.",
-      "checked": "2026-10-28",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.onealdwych.com/offer/new-years-eve",
           "kind": "official",
-          "title": "One Aldwych: Ring in the New Year"
+          "title": "One Aldwych: Ring in the New Year",
+          "evidence": [
+            "check-out on the day of departure is guaranteed until 1pm Fully flexible cancellation up to 24 hours prior to arrival,",
+            "(0)20 7300 0500 or email us Reserve Online DETAILS Valid for stays on and across 31st December 2026, subject to availability"
+          ]
         }
       ],
       "used_in": {

@@ -2304,17 +2304,25 @@
       "id": "fr.nice-carnival.dates-2027",
       "topic": "place",
       "claim": "The official Nice Carnival site (nicecarnaval.com) titles the 2027 edition 'Long Live Love!' and gives the dates as 9 to 28 February 2027; the programme is marked 'subject to change'. Explore Nice Côte d'Azur's listing gives the same dates, the theme 'Vive l'Amour' and Place Masséna as the location.",
-      "checked": "2026-11-01",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.nicecarnaval.com/en/2027-edition/official-programme/",
           "kind": "official",
-          "title": "Nice Carnival: official programme 2027"
+          "title": "Nice Carnival: official programme 2027",
+          "evidence": [
+            "Official programme Official Programme of the Nice Carnival 2027 – Long Live Love! February 9–28, 2027. Home 2027 Edition",
+            "principale Menu 2027 Edition Official programme What’s New About History of the carnival The origins Posters and themes"
+          ]
         },
         {
           "url": "https://www.explorenicecotedazur.com/fiche/carnaval-de-nice-2027-vive-lamour/",
           "kind": "official",
-          "title": "Explore Nice Côte d'Azur: Carnaval de Nice 2027 'Vive l'Amour'"
+          "title": "Explore Nice Côte d'Azur: Carnaval de Nice 2027 'Vive l'Amour'",
+          "evidence": [
+            "« Vive l’Amour » 09 février 28 février 2027 Carnaval de Nice 2027 \"Vive l'Amour\" Carnaval Le mardi 09 février Place Masséna",
+            "du Grand Livre du Carnaval ! Toutes les dates et horaires Horaires d'ouverture du 09 février au 28 février 2027 Lundi"
+          ]
         }
       ],
       "used_in": {
@@ -2332,42 +2340,70 @@
       "id": "fr.nice-carnival.programme-2027",
       "topic": "place",
       "claim": "The 2027 official programme lists, all in the Masséna enclosure around the Albert I garden (Place Masséna, 06000 Nice) except La Carnavalina: Sat 13 Feb La Carnavalina (free) and Opening Parade of Lights (21:00, no end time given); Tue 16 Feb Carnival Parade of Lights 20:30-22:00; Wed 17 Feb flower parade 14:30-16:00; Sat 20 Feb flower parade 14:30-16:00 and Carnival Parade of Lights 20:30-22:00; Sun 21 Feb Carnival Parade 'd'aqui' 14:30-16:00 (daytime, local folk groups, 'the best option for families and small children'); Tue 23 Feb Carnival Parade of Lights 20:30-22:00; Wed 24 Feb flower parade 14:30-16:00; Sat 27 Feb flower parade 14:30-16:00 and Closing Carnival Parade of Lights 20:30-22:00. That is ten parades on eight days. The 13 Feb Carnavalina page reads 'From 14:00 to 18:00, City center | Starting at 1 PM - Free'.",
-      "checked": "2026-11-01",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.nicecarnaval.com/en/2027-edition/official-programme/",
           "kind": "official",
-          "title": "Nice Carnival: official programme 2027"
+          "title": "Nice Carnival: official programme 2027",
+          "evidence": [
+            "Free 16:00 Carnival House Read more La Carnavalina Saturday 13 February Gratuit Read more Opening Parade of Lights Saturday",
+            "February Free 20:00 Masséna Read more Flower parade Saturday 27 February Masséna Read more Closing Carnival Parade of Lights"
+          ]
         },
         {
           "url": "https://www.nicecarnaval.com/en/events/opening-parade/",
           "kind": "official",
-          "title": "Opening Parade of Lights"
+          "title": "Opening Parade of Lights",
+          "evidence": [
+            "Parade of Lights Official programme Home Events Opening Parade of Lights Saturday 13 February 2027 At 21:00 Around our",
+            "of the DNA of the Nice Carnival. place: Masséna Event Enclosure - around Albert I garden Place Masséna 06000 Nice"
+          ]
         },
         {
           "url": "https://www.nicecarnaval.com/en/events/carnival-parade-of-lights/",
           "kind": "official",
-          "title": "Carnival Parade of Lights"
+          "title": "Carnival Parade of Lights",
+          "evidence": [
+            "Parade of Lights Official programme Home Events Carnival Parade of Lights Tuesday 16 February 2027 From 20:30 to 22:00",
+            "February 2027 From 20:30 to 22:00 Tuesday 23 February 2027 From 20:30 to 22:00 \" title=\"Reserve your tickets in a new"
+          ]
         },
         {
           "url": "https://www.nicecarnaval.com/en/events/flower-parade/",
           "kind": "official",
-          "title": "Flower parade"
+          "title": "Flower parade",
+          "evidence": [
+            "parade Official programme Home Events Flower parade Wednesday 17 February 2027 From 14:30 to 16:00 Saturday 20 February",
+            "14:30 to 16:00 Wednesday 24 February 2027 From 14:30 to 16:00 Saturday 27 February 2027 From 14:30 to 16:00 Floats decorated"
+          ]
         },
         {
           "url": "https://www.nicecarnaval.com/en/events/carnival-parade-daqui/",
           "kind": "official",
-          "title": "Carnival Parade d'aqui"
+          "title": "Carnival Parade d'aqui",
+          "evidence": [
+            "Sunday 21 February 2027 From 14:30 to 16:00 Daytime carnival parade with local folk groups The best option for families and",
+            "of the Ymagiers and Carnival creators. place: Masséna Event Enclosure - around Albert I garden Place Masséna 06000 Nice"
+          ]
         },
         {
           "url": "https://www.nicecarnaval.com/en/events/closing-carnival-parade-of-lights/",
           "kind": "official",
-          "title": "Closing Carnival Parade of Lights"
+          "title": "Closing Carnival Parade of Lights",
+          "evidence": [
+            "Lights Official programme Home Events Closing Carnival Parade of Lights Saturday 27 February 2027 From 20:30 to 22:00 In the",
+            "route to life offer a real sound and light show. place: Masséna Event Enclosure - around Albert I garden Place Masséna 06000"
+          ]
         },
         {
           "url": "https://www.nicecarnaval.com/en/events/la-carnavalina/",
           "kind": "official",
-          "title": "La Carnavalina"
+          "title": "La Carnavalina",
+          "evidence": [
+            "Official programme Home Events La Carnavalina Saturday 13 February 2027 From 14:00 to 18:00 City center | Starting at 1 PM –",
+            "La Carnavalina – Nice Carnival Ticket sales for the stands and standing areas will open starting early January 2027. Aller"
+          ]
         }
       ],
       "used_in": {
@@ -2409,17 +2445,25 @@
       "id": "fr.nice-carnival.tickets-2027",
       "topic": "price",
       "claim": "The organisers' 'Prices and point of sale' page says its public prices 'are currently being updated and will be available very soon' (checked 1 Nov 2026); it lists a main ticket office on the Promenade du Paillon, ticketing during events on the south side of the Promenade des Anglais opposite No. 5, online booking with a 2-show package, and automatic kiosks for promenade-only tickets at Nicetoile, the Carrefour Lingostière gallery and the Metropolitan Tourist Office (5 Promenade des Anglais). Children of all ages need a ticket in the pedestrian zone or stands; under-6 free but ticketed; in the stands 3-5 year-olds need a seat and 0-2 sit on a lap with a ticket requested by email. The online ticket shop (indiv.themisweb.fr) redirected to a maintenance page on 1 Nov 2026.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.nicecarnaval.com/en/useful-info/ticket-sales/prices-and-point-of-sale/",
           "kind": "official",
-          "title": "Nice Carnival: prices and points of sale"
+          "title": "Nice Carnival: prices and points of sale",
+          "evidence": [
+            "Ticketing during events South side of the Promenade des Anglais (seafront) opposite No. 5 06000 Nice Online Book tickets",
+            "Metropolitan Tourist Office – 5 Promenade des Anglais, 06000 Nice Public prices Our prices are currently being updated and"
+          ]
         },
         {
           "url": "https://www.nicecarnaval.com/en/useful-info/faq/",
           "kind": "official",
-          "title": "Nice Carnival: FAQ"
+          "title": "Nice Carnival: FAQ",
+          "evidence": [
+            ". How to buy tickets ? For individuals : you can buy your tickets our online ticketing service . Ticket offices",
+            "entering the Carnival area must have a ticket, even if it is free for children under 6 years old. In the stands,"
+          ]
         }
       ],
       "used_in": {
@@ -2466,12 +2510,16 @@
       "id": "fr.nice-carnival.transport-page",
       "topic": "transport",
       "claim": "The organisers' transport page (no edition named; site footer 2026) says Nice-ville station is 15 minutes on foot; a ZOU! train runs every 15 minutes between Cannes and Menton throughout the carnival, with extra trains after 11 p.m. for the night parades; tram line 1 runs as carousel services with Masséna station closed (Henri Sappia to Jean Médecin) and Opéra-Vieille Ville and Cathédrale-Vieille Ville stations closed (Hôpital Pasteur to Garibaldi); tram line 2 normal traffic.",
-      "checked": "2026-11-01",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.nicecarnaval.com/en/useful-info/prepare-your-visit/transport/",
           "kind": "official",
-          "title": "Nice Carnival: transport"
+          "title": "Nice Carnival: transport",
+          "evidence": [
+            "Carnival, a ZOU! train runs every 15 minutes between Cannes and Menton, and additional trains are scheduled after 11 p.m. to",
+            "Ville station closed Tramway line 2 Normal traffic. Connections for lines 1 and 2 are at the Jean Médecin and Garibaldi"
+          ]
         }
       ],
       "used_in": {
@@ -2508,12 +2556,16 @@
       "id": "fr.nice-carnival.menton-dates-2027",
       "topic": "place",
       "claim": "The Fête du Citron site (fete-du-citron.com) is headed 'Fête du Citron 2027 à Menton, du 13 au 28 février' and its corso pages carry the '93ème' edition label; the home page names no theme.",
-      "checked": "2026-11-01",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.fete-du-citron.com/",
           "kind": "official",
-          "title": "Fête du Citron, Menton: official site"
+          "title": "Fête du Citron, Menton: official site",
+          "evidence": [
+            "Fête du Citron® 2027 à Menton – du 13 au 28 février Aller au contenu Programme Les temps forts Corsos des fruits d’or Corsos",
+            "Labels Plus Riverains Emploi Presse Boutique fr Français English Italiano Réserver Fête du Citron® 13 → 28 février 2027 01"
+          ]
         }
       ],
       "used_in": {
@@ -2528,17 +2580,25 @@
       "id": "fr.nice-carnival.menton-corsos",
       "topic": "price",
       "claim": "Menton 2027: corsos des fruits d'or on Sundays 14, 21 and 28 February at 14:30 on the Promenade du Soleil; corsos nocturnes on Thursdays 18 and 25 February at 21:00 on the Promenade du Soleil, closing with fireworks at 22:30; stands adult EUR 30 (group 25, reduced 15), standing adult EUR 16 (group 15, reduced 8); stands full on 21 and 28 February with standing places remaining (page as of 1 Nov 2026).",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.fete-du-citron.com/corsos-des-fruits-dor.html",
           "kind": "official",
-          "title": "Fête du Citron: corsos des fruits d'or"
+          "title": "Fête du Citron: corsos des fruits d'or",
+          "evidence": [
+            "2027 Du 13 au 28 février Lun Mar Mer Jeu Ven Sam Dim 8 9 10 11 12 13 14 15 16 17 18",
+            "❚❚ Menton · Côte d'Azur 93 ème Fête du Citron ® Corsos des fruits d'or 14 21 28 février 2027 14h30 - Promenade du"
+          ]
         },
         {
           "url": "https://www.fete-du-citron.com/Corsos-nocturnes.html",
           "kind": "official",
-          "title": "Fête du Citron: corsos nocturnes"
+          "title": "Fête du Citron: corsos nocturnes",
+          "evidence": [
+            "Février 2027 Du 13 au 28 février Lun Mar Mer Jeu Ven Sam Dim 8 9 10 11 12 13 14 15 16 17",
+            "Carte Plus ❚❚ Menton · Côte d'Azur 93 ème Fête du Citron ® Corsos nocturnes 18 25 février 2027 21h - Promenade du Soleil"
+          ]
         }
       ],
       "used_in": {

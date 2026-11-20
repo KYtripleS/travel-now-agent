@@ -550,12 +550,16 @@
       "id": "hk.cny2027.fireworks-date",
       "topic": "place",
       "claim": "The Leisure and Cultural Services Department's notice of 7 September 2026 says the 2027 Chinese New Year Fireworks Display will be held on 7 February 2027 (Sunday); no start time or programme was published.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.info.gov.hk/gia/general/202609/07/P2026090700274.htm",
           "kind": "official",
-          "title": "LCSD: sponsors sought for 2027 Chinese New Year Fireworks Display"
+          "title": "LCSD: sponsors sought for 2027 Chinese New Year Fireworks Display",
+          "evidence": [
+            "to submit applications on or before September 28 (Monday). The fireworks display will be held on February 7, 2027",
+            "The Leisure and Cultural Services Department is inviting organisations that wish to sponsor the 2027 Chinese"
+          ]
         }
       ],
       "used_in": {
@@ -645,17 +649,25 @@
       "id": "hk.cny2027.fairs",
       "topic": "place",
       "claim": "The Food and Environmental Hygiene Department's 2027 Chinese New Year Fairs run for seven days from 31 January to 6 February 2027 (to the early morning of Lunar New Year's Day), with Victoria Park, Causeway Bay among the venues; in 2026 the busiest day drew more than 210,000 visitors to Victoria Park.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.fehd.gov.hk/english/events/cnyf2027/index.html",
           "kind": "official",
-          "title": "FEHD: 2027 Chinese New Year Fairs"
+          "title": "FEHD: 2027 Chinese New Year Fairs",
+          "evidence": [
+            "Chinese New Year Fairs will be held for seven days from 31 January 2027 to 6 February 2027 to the early morning of the",
+            "6 February 2027) at the following locations (collectively, “Fairs” and the locations are collectively known as “Fair"
+          ]
         },
         {
           "url": "https://www.info.gov.hk/gia/general/202602/17/P2026021700553.htm",
           "kind": "official",
-          "title": "FEHD: fairs concluded, 17 February 2026"
+          "title": "FEHD: fairs concluded, 17 February 2026",
+          "evidence": [
+            "The 2026 Lunar New Year (LNY) fairs concluded successfully at 7am today (February 17).",
+            "210 000 visitors in the LNY Fair at Victoria Park on a single day. A spokesman for the Food and Environmental Hygiene"
+          ]
         }
       ],
       "used_in": {
@@ -716,22 +728,34 @@
       "id": "hk.cny2026.mtr",
       "topic": "transport",
       "claim": "On Lunar New Year's Eve 2026 MTR lines other than the Airport Express and Disneyland Resort Line ran more often from 3pm, most local lines ran overnight (including seven Light Rail routes), Airport Express hours were extended and the Central to Mid-Levels Escalator ran until 3am; after the parade and fireworks services were strengthened subject to demand and the Escalator ran until 2am on the fireworks night. No 2027 notice had been posted.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.info.gov.hk/gia/general/202602/12/P2026021200704.htm",
           "kind": "official",
-          "title": "Transport Department: Chinese New Year's Eve arrangements, 12 February 2026"
+          "title": "Transport Department: Chinese New Year's Eve arrangements, 12 February 2026",
+          "evidence": [
+            "Airport Express and Disneyland Resort Line) will be enhanced in phases from 3pm on February 16, and the services in other",
+            "services; and The operating hours of the Airport Express and MTR Bus route Nos. 506, K51 and K54A will be extended. 3."
+          ]
         },
         {
           "url": "https://www.info.gov.hk/gia/general/202602/13/P2026021200671.htm",
           "kind": "official",
-          "title": "Interdepartmental working group, 13 February 2026"
+          "title": "Interdepartmental working group, 13 February 2026",
+          "evidence": [
+            "the Airport Express and the Disneyland Resort Line. Services on the relevant railway lines will be strengthened after",
+            "times during the above period. Most local railway lines will operate overnight on February 16 (Monday, Lunar New"
+          ]
         },
         {
           "url": "https://www.info.gov.hk/gia/general/202602/12/P2026021200243.htm",
           "kind": "official",
-          "title": "Transport Department, 12 February 2026"
+          "title": "Transport Department, 12 February 2026",
+          "evidence": [
+            "Central to Mid-Levels Escalator and Walkway System on the second day of Chinese New Year will be extended to 2am on the",
+            "Services on MTR lines, including Island Line, East Rail Line and Tuen Ma Line, will be strengthened subject to"
+          ]
         }
       ],
       "used_in": {
@@ -747,12 +771,16 @@
       "id": "hk.cny2026.golden-week",
       "topic": "transport",
       "claim": "Ahead of the mainland's Chinese New Year Golden Week (15 to 23 February 2026) the Government warned of heavy cross-boundary traffic and asked travellers to plan early and book coaches; no 2027 notice was found.",
-      "checked": "2026-11-03",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.info.gov.hk/gia/general/202602/13/P2026021200671.htm",
           "kind": "official",
-          "title": "Interdepartmental working group, 13 February 2026"
+          "title": "Interdepartmental working group, 13 February 2026",
+          "evidence": [
+            "and public transport arrangements during the Chinese New Year Golden Week of the Mainland (February 15 to 23): During the",
+            "appeals to public and visitors to plan cross-boundary trips early during Chinese New Year Golden Week of Mainland Go to main"
+          ]
         }
       ],
       "used_in": {

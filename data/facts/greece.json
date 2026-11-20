@@ -1117,7 +1117,7 @@
       "id": "gr.mykonos.airport-runway",
       "topic": "transport",
       "claim": "Mykonos Airport's own site says its runway will be reconstructed for 24 hours every Thursday from November 19, 2026 to March 18, 2027, suspending all flights on those days. Fraport Greece's notice exempts 23, 24 and 31 December 2026 and 6 and 7 January 2027.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.jmk-airport.gr/en",
@@ -1142,7 +1142,8 @@
           "Fraport Greece's notice makes exceptions for 23, 24 and 31 December 2026"
         ]
       },
-      "recheck_days": 30
+      "recheck_days": 30,
+      "checked_by": "script"
     },
     {
       "id": "gr.mykonos.hotel.belvedere",

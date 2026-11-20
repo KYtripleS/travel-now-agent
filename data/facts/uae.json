@@ -678,7 +678,7 @@
       "id": "ae.dubai.nye.2025-plan",
       "topic": "transport",
       "claim": "The Dubai Media Office's 26 December 2025 release on the Event Security Committee's plan for the night of 31 December 2025 (branded New Year 2026) gave 48 fireworks shows at 40 locations, including Burj Khalifa, Global Village, Atlantis The Royal, Expo City Dubai and, for the first time, Dubai Frame; Dubai Metro Red and Green Lines from 5am on 31 December 2025 to 11.59pm on 1 January 2026 (43 hours) and the Tram from 6am on 31 December to 1am on 2 January; more than 14,000 taxis, over 18,000 limousine and luxury vehicles and more than 1,300 buses.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.mediaoffice.ae/en/news/2025/december/26-12/dubais-event-security-committee-announces-full-readiness-for-new-year",
@@ -707,7 +707,7 @@
       "id": "ae.dubai.nye.2025-closures",
       "topic": "transport",
       "claim": "For the night of 31 December 2025 the Dubai Media Office said road closures around event areas would begin at 4pm and gradually expand until 11pm, covering Al Asayel Street, Mohammed bin Rashid Boulevard, Burj Khalifa Street, the Lower and Upper Financial Centre Roads, Al Mustaqbal Street, Al Sukook Street and Sheikh Zayed Road.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.mediaoffice.ae/en/news/2025/december/26-12/dubais-event-security-committee-announces-full-readiness-for-new-year",
@@ -757,7 +757,7 @@
       "id": "ae.dubai.nye.burj-park-2025",
       "topic": "price",
       "claim": "Emaar's ticketed Burj Park viewing for 31 December 2025 cost AED 997.5 including VAT for adults and AED 577.5 including VAT for children aged 5 to 12, with doors open at 12:00 PM; tickets were non-refundable and non-transferable and could not be resold for commercial gain; the 2026 terms had not been published.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://mydubainewyear.emaar.com/en/burj-park/",
@@ -784,7 +784,7 @@
       "id": "ae.dubai.nye.emaar-faq-2025",
       "topic": "transport",
       "claim": "Emaar's FAQ for the 2025 event said a hotel guest's badge is valid only for their own hotel and that the Metro to Dubai Mall would be operational but may close depending on crowd conditions.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://mydubainewyear.emaar.com/en/faq/",
@@ -809,16 +809,15 @@
       "id": "ae.dubai.nye.emaar-programme-2025",
       "topic": "place",
       "claim": "Emaar's press release of 24 November 2025 announced a Downtown Dubai celebration running from 31 December to 7 January, said Burj Park tickets were on sale, and said tickets could be bought through the event's official website.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.emaar.com/en/press-release-listing/emaars-nye-celebration-to-run",
           "kind": "operator",
           "title": "Emaar: Emaar's NYE celebration to run from 31 December to 7 January (24 November 2025)",
           "evidence": [
-            "continuing from December 31 through January 7",
-            "Burj Park tickets are now on sale",
-            "be purchased through the event's official website"
+            "PJSC Home / About Emaar / Latest Press Releases / Emaar’s NYE Celebration to Run from 31 December to 7 January on a",
+            "Before Emaar’s NYE Celebration to Run from 31 December to 7 January on a Stage Like Never Before A Larger-Than-Life"
           ]
         }
       ],
@@ -835,7 +834,7 @@
       "id": "ae.dubai.nye.rta-ridership-2025",
       "topic": "transport",
       "claim": "The RTA reported more than 2,836,859 public transport passengers on New Year's Eve for the 2026 celebrations (the night of 31 December 2025), 13% up on the year before, including 1,249,636 on the Metro Red and Green Lines.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.mediaoffice.ae/en/news/2026/january/01-01/rta-new-year-passengers",
@@ -888,7 +887,7 @@
       "id": "ae.dubai.nye.address-2026",
       "topic": "hotel",
       "claim": "Address Hotels + Resorts' festive season 2026 page says that in Dubai the Burj Khalifa fireworks bring midnight to life as 2027 begins; it states no Address Downtown New Year's Eve price or minimum stay.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.addresshotels.com/en/festive-season-celebrations-at-address/",
@@ -911,7 +910,7 @@
       "id": "ae.dubai.nye.vida-festive-2026",
       "topic": "hotel",
       "claim": "Vida Hotels and Resorts' festive page for the end of 2026 lists a New Year's Eve fireworks gala dinner but does not say which Vida hotel hosts it.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://www.vidahotels.com/en/festive-season-celebrations-at-vida/",
@@ -935,7 +934,7 @@
       "id": "ae.dubai.armani-closure-2026",
       "topic": "hotel",
       "claim": "Gulf News reported on 14 September 2026 that Armani Hotel Dubai, inside the Burj Khalifa, closed on 1 April 2026 for a full-scale refurbishment and will fully reopen to guests in March 2027.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "sources": [
         {
           "url": "https://gulfnews.com/business/armani-hotel-dubai-to-reopen-on-this-date-after-landmark-transformation-inside-burj-khalifa-1.500673880",

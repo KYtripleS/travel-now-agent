@@ -1127,12 +1127,20 @@
         {
           "url": "https://carnevale.venezia.it/en/",
           "kind": "official",
-          "title": "Carnevale di Venezia 2027: official site"
+          "title": "Carnevale di Venezia 2027: official site",
+          "evidence": [
+            "↗ (opens in a new tab) Partner Carnevale di Venezia 2026 - Sito Ufficiale Venice Carnival January 23 February 9, 2027 Find",
+            "Venice Carnival Returns from January 23rd to February 2027 Experience the magic of the Venice Carnival : a timeless journey"
+          ]
         },
         {
           "url": "https://carnevale.venezia.it/en/carnival-official-dinner-show/",
           "kind": "official",
-          "title": "Carnival Official Dinner Show"
+          "title": "Carnival Official Dinner Show",
+          "evidence": [
+            "January 30th, Sunday, January 31st, and then from Fat Thursday, February 4th, until February 9th, 2027, Fat Tuesday. The",
+            "an unforgettable experience during the magical nights of the Venice Carnival. Saturday, 30th January 2027 – from 9:00 pm"
+          ]
         }
       ],
       "used_in": {
@@ -1143,7 +1151,7 @@
       },
       "recheck_days": 14,
       "note": "Recheck for the 2027 programme, theme and opening-weekend events.",
-      "checked": "2026-11-03"
+      "checked": "2026-11-20"
     },
     {
       "id": "it.venice-carnival.street-show-dates",
@@ -1153,7 +1161,11 @@
         {
           "url": "https://carnevale.venezia.it/en/news/2026/carnevale-di-venezia-2027-aperte-le-candidature-per-artisti-e-performer/",
           "kind": "official",
-          "title": "Venice Carnival 2027: applications open for artists and performers"
+          "title": "Venice Carnival 2027: applications open for artists and performers",
+          "evidence": [
+            "The performances will take place on the following dates: January 23–24, 2027 January 30–31, 2027 February 4–9, 2027 You",
+            "Cloud 2026 ↗ (opens in a new tab) Partner 19 October 2026 Venice Carnival 2027: applications open for artists and"
+          ]
         }
       ],
       "used_in": {
@@ -1163,7 +1175,7 @@
         ]
       },
       "recheck_days": 14,
-      "checked": "2026-11-03"
+      "checked": "2026-11-20"
     },
     {
       "id": "it.venice-carnival.dinner-show",
@@ -1173,7 +1185,11 @@
         {
           "url": "https://carnevale.venezia.it/en/carnival-official-dinner-show/",
           "kind": "official",
-          "title": "Carnival Official Dinner Show"
+          "title": "Carnival Official Dinner Show",
+          "evidence": [
+            "Saturday, January 30th, Sunday, January 31st, and then from Fat Thursday, February 4th, until February 9th, 2027, Fat",
+            "Venice Carnival. Saturday, 30th January 2027 – from 9:00 pm Sunday, 31st January 2027 – from 9:00 pm Fat Thursday, 4th"
+          ]
         }
       ],
       "used_in": {
@@ -1184,7 +1200,7 @@
         ]
       },
       "recheck_days": 14,
-      "checked": "2026-11-03"
+      "checked": "2026-11-20"
     },
     {
       "id": "it.venice-carnival.unpublished-2027",
@@ -1194,12 +1210,20 @@
         {
           "url": "https://carnevale.venezia.it/en/the-venice-carnival/festa-delle-marie/",
           "kind": "official",
-          "title": "Festa delle Marie"
+          "title": "Festa delle Marie",
+          "evidence": [
+            "Media Cloud 2026 ↗ (opens in a new tab) Partner English Italiano Carnival Official Dinner Show Traditions Festa delle Marie",
+            "Festa delle Marie | Carnevale di Venezia 2027 - Official site --> Vai al contenuto principale en it Venezia Unica en it"
+          ]
         },
         {
           "url": "https://carnevale.venezia.it/en/venice-carnival-street-show/",
           "kind": "official",
-          "title": "Venice Carnival Street Show"
+          "title": "Venice Carnival Street Show",
+          "evidence": [
+            "Cloud 2026 ↗ (opens in a new tab) Partner English Italiano Carnival Official Dinner Show Traditions Festa delle Marie Masks",
+            "Media Cloud 2026 ↗ (opens in a new tab) Partner Spettacoli di arte diffusa Venice Carnival Street Show A new edition of the"
+          ]
         }
       ],
       "used_in": {
@@ -1210,7 +1234,7 @@
       },
       "recheck_days": 14,
       "note": "Recheck in mid-December and January for the official 2027 programme.",
-      "checked": "2026-11-03"
+      "checked": "2026-11-20"
     },
     {
       "id": "it.venice-carnival.pattern-2026",
@@ -1267,12 +1291,20 @@
         {
           "url": "https://carnevale.venezia.it/news/2022/corteo-delle-marie/",
           "kind": "official",
-          "title": "Corteo delle Marie (2022)"
+          "title": "Corteo delle Marie (2022)",
+          "evidence": [
+            "Edizioni precedenti Edizione 2026 Edizione 2025 Edizione 2024 Edizione 2023 Edizione 2022 Edizione 2021 Edizione 2020",
+            "Corteo delle Marie | Carnevale di Venezia 2027 - Official site --> Vai al contenuto principale it Venezia Unica it Carnival"
+          ]
         },
         {
           "url": "https://carnevale.venezia.it/en/news/2020/marie-venicecarnival/",
           "kind": "official",
-          "title": "Marie (2020)"
+          "title": "Marie (2020)",
+          "evidence": [
+            "policy Previous editions Edizione 2026 Edizione 2025 Edizione 2024 Edizione 2023 Edizione 2022 Edizione 2021 Edizione 2020",
+            "2027 - Official site --> Vai al contenuto principale en Venezia Unica en Carnival Official Dinner Show Traditions Festa"
+          ]
         }
       ],
       "used_in": {
@@ -1282,7 +1314,7 @@
         ]
       },
       "recheck_days": 14,
-      "checked": "2026-11-03"
+      "checked": "2026-11-20"
     },
     {
       "id": "it.venice-carnival.square-rules",
@@ -1382,7 +1414,11 @@
         {
           "url": "https://www.lavocedivenezia.it/venezia-ecco-il-calendario-2027-del-contributo-di-accesso-72-giornate-invece-delle-60-scorse/",
           "kind": "news",
-          "title": "La Voce di Venezia: calendario 2027, 72 giornate"
+          "title": "La Voce di Venezia: calendario 2027, 72 giornate",
+          "evidence": [
+            "il calendario 2027 del Contributo di accesso: 72 giornate dal 26 marzo al 15 agosto, orario 8.30-16.30, max 10€ a cura di:",
+            "La Giunta comunale di Venezia ha stabilito il calendario 2027 per l’applicazione del Contributo di accesso: saranno 72 le"
+          ]
         }
       ],
       "used_in": {
@@ -1393,7 +1429,7 @@
       },
       "recheck_days": 14,
       "note": "The Comune's own pages (cda.ve.it, live.comune.venezia.it) are behind bot protection and could not be opened by script; the claim was taken from the Comune's release as shown in search extracts and confirmed in La Voce di Venezia, Nordest24 and QdP. Editor: open cda.ve.it in a browser and confirm before publishing.",
-      "checked": "2026-11-03"
+      "checked": "2026-11-20"
     },
     {
       "id": "it.venice-carnival.access-fee-2026",
@@ -4341,8 +4377,8 @@
     {
       "id": "it.cinque-terre.trail-status-2026-11-03",
       "topic": "transport",
-      "claim": "On the park's trail page (message of 3 November 2026, 10:09, no weather alert) section 592-1 Riomaggiore-Manarola (Via dell'Amore) was listed Turistico, 592-2 Manarola-Corniglia Chiuso, and 592-3 Corniglia-Vernazza and 592-4 Vernazza-Monterosso Esperto.",
-      "checked": "2026-11-04",
+      "claim": "On the park's trail page (message of 19 November 2026, 11:48, no weather alert) section 592-1 Riomaggiore-Manarola (Via dell'Amore) was listed Turistico, 592-2 Manarola-Corniglia Escursionistico (it was Chiuso on 3 November), and 592-3 Corniglia-Vernazza and 592-4 Vernazza-Monterosso Esperto.",
+      "checked": "2026-11-20",
       "recheck_days": 14,
       "sources": [
         {
@@ -4350,17 +4386,17 @@
           "kind": "official",
           "title": "Parco Nazionale delle Cinque Terre: Sentieri e outdoor",
           "evidence": [
-            "Messaggio del 03-11-2026 delle ore 10:09",
-            "Chiuso 592-2 (SVA2) Manarola - Corniglia",
+            "Messaggio del 19-11-2026 delle ore 11:48",
+            "Escursionistico 592-2 (SVA2) Manarola - Corniglia",
             "Esperto 592-3 (SVA2) Corniglia - Vernazza"
           ]
         }
       ],
       "used_in": {
         "articles/where-to-stay-in-cinque-terre.html": [
-          "the Manarola to Corniglia section as closed",
+          "the Manarola to Corniglia section as a hiking-grade path",
           "as a tourist-grade path",
-          "The path to Corniglia was listed as closed on 3 November 2026"
+          "was open again as a hiking-grade path on 19 November"
         ]
       }
     },
@@ -4368,7 +4404,7 @@
       "id": "it.cinque-terre.path-587-closure",
       "topic": "transport",
       "claim": "Path 587 between Corniglia and Case Pianca is closed from 16 November 2026 for about three months under Vernazza ordinance 19 of 2 November 2026.",
-      "checked": "2026-11-04",
+      "checked": "2026-11-20",
       "recheck_days": 14,
       "sources": [
         {

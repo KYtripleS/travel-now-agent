@@ -5563,3 +5563,6 @@ body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame
 /* Reader discount line under a verdict button (data/reader_codes.json, 2026-11-20) */
 .gy-verdict .gy-verdict-code { font-family: var(--sans); font-size: .9rem; margin: .5rem 0 0; }
 .gy-verdict .gy-verdict-code strong { letter-spacing: .04em; }
+
+/* the corrections link beside the promise (2026-11-20) */
+.article .gy-promise a + a { margin-left: .7em; }
