@@ -59,7 +59,7 @@
   try{
     if(sessionStorage.getItem('rsp_purchase_logged')==='1') return;
     var params=new URLSearchParams(location.search);
-    var val=parseFloat(params.get('price'))||12;
+    var val=parseFloat(params.get('price'))||9;
     var tid=params.get('sale_id')||('rsp-'+Date.now()+'-'+Math.floor(Math.random()*1e6));
     gtag('event','purchase',{
       transaction_id:tid, value:val, currency:'USD',

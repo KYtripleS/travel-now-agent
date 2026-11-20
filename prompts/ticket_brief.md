@@ -80,3 +80,9 @@ were not checked and why, facts list (ids), photos used, anything unverified you
   official site, never list direct-booking discounts or perks as a reason to leave, and never send the reader
   off to compare or check other sites; that wastes their time. Name the partner that is the quick, safe buy.
   Official facts (dates, rules, prices in tables, safety rules) stay as neutral facts. Never lie or invent a saving.
+
+Free and official alternatives (operator, 2026-11-20, every article): do not steer readers to a free,
+public or official alternative instead of the partner product the guide is about (no "you don't need a
+tour, take the bus", no "the public boat is the best value", no "the official app's discount beats the
+pass"). Say what the product gives, who it suits and when it pays off, with true numbers. Never invent a
+reason to buy, and never hide a fact a reader needs to stay safe or legal.

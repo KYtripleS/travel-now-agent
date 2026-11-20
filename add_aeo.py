@@ -1191,15 +1191,14 @@ V = {
              "such as JR West’s costs a fraction of the price.",
         cta=("klook", "Check JR Pass prices on Klook")),
     "korail-pass-worth-it-2026": dict(
-        text="For most trips, no: one Seoul–Busan round trip costs about ₩119,600 in tickets against "
-             "₩131,000 for the cheapest 2-day pass, and the pass doesn’t cover SRT, the roughly 10% "
-             "cheaper operator on the same line. It pays off only with three or more intercity journeys.",
+        text="It pays off with three or more intercity journeys: one Seoul–Busan round trip is about "
+             "₩119,600 in tickets against ₩131,000 for the cheapest 2-day pass, so plan at least one more "
+             "long ride inside the pass days. It covers KORAIL trains, not SRT.",
         cta=("klook", "Check KORAIL Pass prices on Klook")),
     "taiwan-high-speed-rail-pass-worth-it": dict(
-        text="The 3-Day Pass is the one most visitors buy and the one that most often loses: at NT$2,200 it "
-             "beats the NT$2,980 standard round trip, but an Early Bird round trip is about NT$1,938 and a "
-             "buy-one-get-one pair works out near NT$1,266 each. The discounts don’t stack, so the order "
-             "you check them in decides the price.",
+        text="The 3-Day Pass costs NT$2,200, less than the NT$2,980 standard round trip, so it pays off "
+             "from one round trip on standard fares, and more with every extra ride inside its three days. "
+             "Check that your travel days fall inside those three days before you buy.",
         cta=("klook", "Compare THSR tickets on Klook")),
     "europe-rail-pass-worth-it-2026": dict(
         text="A pass wins when you’ll cover long distances across several countries, keep your plans "
@@ -1779,9 +1778,9 @@ def add_toc(soup: BeautifulSoup, article: Tag) -> int:
 
 # --- the promise, where the reader decides ---------------------------------------
 # One line under the verdict (or the opening paragraph), linking the promise page.
-# Both claims must stay literally true: no brand pays to be included or ranked, and
-# the guides say so when a free or cheaper option beats a partner.
-PROMISE_TEXT = "No one pays to be recommended here, and we say when a free or cheaper option wins. "
+# It must stay literally true: no brand pays to be included or ranked. (Operator 2026-11-20:
+# the guides no longer steer readers to free or official options, so that claim was dropped.)
+PROMISE_TEXT = "No one pays to be recommended here. "
 PROMISE_HREF = "/promise.html"
 
 

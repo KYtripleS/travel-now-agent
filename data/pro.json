@@ -1,0 +1,7 @@
+{
+  "_doc": "Ready Score Pro checkout. Set checkout_url to the Gumroad (or other) product link once the product is live, and price to the price set there; then run ops/build_pro_page.py (the pipeline does). While checkout_url is null the page collects a waitlist. Refund promise: refund_days.",
+  "checkout_url": null,
+  "price_usd": 9,
+  "refund_days": 14,
+  "waitlist_url": "https://tally.so/r/2EoDRA"
+}

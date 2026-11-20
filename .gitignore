@@ -37,3 +37,6 @@ ops/state/
 # CRO research: internal (revenue figures, affiliate strategy) — never commit
 research/
 .public-site/
+
+# Paid product files (Ready Score Pro): sold, never published
+products/
