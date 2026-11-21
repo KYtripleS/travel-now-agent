@@ -53,6 +53,7 @@ COLUMNS = [
         ("editors.html", "Editors"),
         ("editorial.html", "Editorial guidelines"),
         ("methodology.html", "How we verify"),
+        ("open-data.html", "Open data"),
         ("privacy.html", "Privacy"),
     ]),
 ]

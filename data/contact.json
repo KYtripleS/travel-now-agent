@@ -1,4 +1,6 @@
 {
   "_doc": "Contact channels shown on contact.html (ops/build_contact.py). Add an email only after the operator has set it up and a test message arrived.",
-  "email": null
+  "email": null,
+  "trustpilot_url": null,
+  "_doc_trustpilot": "Public review profile, shown on contact.html once the operator has made it. Trustpilot rules: invite every reader the same way, never only happy ones, never pay or reward for a review."
 }

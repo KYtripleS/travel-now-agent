@@ -30,6 +30,11 @@ def channels() -> str:
                     f'partnership enquiries and requests about your data.</li>')
     rows.append('<li><strong>X:</strong> <a href="https://x.com/GentlyYonder" rel="noopener" target="_blank">'
                 '@GentlyYonder</a>. Send a direct message or mention us.</li>')
+    if CONF.get("trustpilot_url"):
+        t = html.escape(CONF["trustpilot_url"])
+        rows.append(f'<li><strong>Reviews:</strong> <a href="{t}" rel="noopener" target="_blank">Gently Yonder on '
+                    f'Trustpilot</a>. If a guide helped you or let you down, say so there, where other travellers '
+                    f'can read it.</li>')
     return "\n".join(rows)
 
 
@@ -37,7 +42,7 @@ def render() -> str:
     ld = json.dumps({"@context": "https://schema.org", "@type": "ContactPage", "url": URL,
                      "name": "Contact Gently Yonder",
                      "about": {"@type": "Organization", "name": "Gently Yonder", "url": "https://gentlyyonder.com/",
-                               "sameAs": ["https://x.com/GentlyYonder"],
+                               "sameAs": ["https://x.com/GentlyYonder"] + ([CONF["trustpilot_url"]] if CONF.get("trustpilot_url") else []),
                                **({"email": CONF["email"]} if CONF.get("email") else {})}})
     return f"""<!DOCTYPE html>
 <html lang="en">
