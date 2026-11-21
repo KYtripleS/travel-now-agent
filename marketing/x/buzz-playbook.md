@@ -25,6 +25,16 @@ site is ranked on its weakest signal. A post that is useful by itself on X is ra
 4. **Quote, don't just repost.** When a big travel account posts news we have data on, quote it with our figure.
 5. Check views in X's own analytics once a week. Tell Claude which posts did best, and the next batch follows them.
 
+## Replies by Claude (operator, 2026-11-21: "君は勝手に返信していいよ")
+Claude may reply from @GentlyYonder without asking first, inside these limits:
+- **Only to people who came to us:** replies under our posts, mentions, and quotes of our posts. X's automation
+  rules forbid automated replies chosen by keyword search, so cold replies to strangers (step 2 above) stay manual.
+- Before any reply, check that the signed-in account is @GentlyYonder. If it is any other account, stop.
+- Answer the question in the reply, with a figure from the fact ledger and its checked date where it helps.
+  Link only when they ask or when the answer needs the page. No sales push, no emojis, no banned phrases.
+- No reply to spam, abuse, politics, or anything about the operator. No DMs, no follows, no likes in bulk.
+- Log every reply in `marketing/x/replies-log.md`: date, post, their question, our reply.
+
 ## Not doing
 Buying followers or engagement, follow/unfollow loops, automated replies or DMs, engagement-bait giveaways,
 fake urgency, or posts about anything we have not checked.
