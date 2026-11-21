@@ -1,9 +1,9 @@
 {
  "name": "Gently Yonder travel fact ledger",
- "version": "2026-11-21",
+ "version": "2026-11-22",
  "license": "CC BY 4.0",
  "cite": "https://gentlyyonder.com/open-data.html",
- "count": 3299,
+ "count": 3353,
  "facts": [
   {
    "id": "au.gst.accommodation",
@@ -13308,6 +13308,266 @@
    ]
   },
   {
+   "id": "fr.paris.seine.bp.official-1hr",
+   "place": "France",
+   "topic": "price",
+   "claim": "Bateaux Parisiens' sightseeing page lists a one-hour cruise with an audio guide at an online price of EUR 18 for an adult and EUR 9 for a child.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.bateauxparisiens.com/en/cruise-tours/guided-tour.html",
+     "title": "Sightseeing Cruises - Bateaux Parisiens",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.bp.official-seasonal",
+   "place": "France",
+   "topic": "place",
+   "claim": "Bateaux Parisiens' home page lists a Christmas cruise on 24 and 25 December and a New Year's Eve dinner cruise on 31 December.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.bateauxparisiens.com/en/",
+     "title": "Bateaux Parisiens home page",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.tiqets.bp",
+   "place": "France",
+   "topic": "place",
+   "claim": "Tiqets' Bateaux Parisiens listing: boards at pontoon 3, Port de la Bourdonnais, no timeslot, cancellation and rescheduling until 11:59 pm the day before, departures every 30 minutes, first departure 13:00 from 3 September 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/",
+     "title": "Seine River: Cruise by Bateaux Parisiens - Tiqets",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.tiqets.bm",
+   "place": "France",
+   "topic": "place",
+   "claim": "Tiqets' Bateaux Mouches listing: 1 hour 10 minutes, boards near the Pont de l'Alma, winter departures every 45 minutes until 16:00 then every 30 minutes until 21:30, free cancellation until 11:59 pm the day before.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823/",
+     "title": "Seine River: Cruise by BATEAUX-MOUCHES - Tiqets",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.tiqets.dinner",
+   "place": "France",
+   "topic": "price",
+   "claim": "Tiqets' Bateaux Parisiens dinner cruise: 3-course dinner with drinks (1h15) at $108.63 and 4-course dinner with live music (2h30, from 20:30) at $126.19 for 12 December 2026, with wine or soft drinks, water and coffee included.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/checkout/seine-river-dinner-cruise-by-bateaux-parisiens-g1134410/?selected_date=2026-12-12",
+     "title": "Seine River: Dinner Cruise by Bateaux Parisiens - Tiqets",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.gyg.bp",
+   "place": "France",
+   "topic": "place",
+   "claim": "GetYourGuide's Bateaux Parisiens listing: free cancellation up to 24 hours, reserve now and pay later, ticket valid 30 days after the booked date, winter departures every hour 10:30-21:30, oversize luggage not allowed.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/paris-l16/paris-1-hour-seine-cruise-departing-from-the-eiffel-tower-t193940/",
+     "title": "1-Hour Seine Cruise from the Eiffel Tower - GetYourGuide",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.gyg.bm",
+   "place": "France",
+   "topic": "place",
+   "claim": "GetYourGuide's Bateaux Mouches listing: one hour from the Alma bridge, valid 365 days, free cancellation, $18.65 on 12 December 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/paris-l16/paris-seine-river-sightseeing-cruise-by-bateaux-mouches-t735394/",
+     "title": "Bateaux Mouches Sightseeing Cruise - GetYourGuide",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.gyg.vdpn",
+   "place": "France",
+   "topic": "place",
+   "claim": "GetYourGuide's Vedettes du Pont Neuf listing: one hour from Pont Neuf, live guide in English and French, tours depart approximately every hour; eight departure times for 12 December.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/paris-l16/seine-river-sightseeing-guided-cruise-vedettes-du-pont-neuf-t1349437/",
+     "title": "Vedettes du Pont Neuf - GetYourGuide",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.gyg.dinner",
+   "place": "France",
+   "topic": "price",
+   "claim": "GetYourGuide's Extime Travel dinner cruise: 6:45 pm sailing $95.44 (about 1h15, drinks excluded, coffee or tea after the meal) and 9:15 pm sailing $115.18 (two hours) on 12 December 2026; beef main +EUR 10; boards by the Musee d'Orsay.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/paris-l16/paris-3-course-dinner-cruise-on-the-river-seine-t53306/",
+     "title": "3-Course Gourmet Dinner Cruise - GetYourGuide",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.viator.dinner",
+   "place": "France",
+   "topic": "price",
+   "claim": "Viator's Bateaux Parisiens dinner cruise for 12 December 2026: 8:30 pm Service Etoile $139.37 (check-in 7:45 pm, back at quay 11 pm), Window Service Premier $296.84, Privilege and Premier sold out; free cancellation before 8:30 pm on 11 December; smart casual; arrive 15 minutes early.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Paris/Seine-River-Cruise-Bateaux-Parisiens-Sightseeing-Cruise-with-Dinner-and-Live-Music/d479-5836DINNERCRUISE",
+     "title": "Bateaux Parisiens Seine River Gourmet Dinner & Sightseeing Cruise - Viator",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.viator.vdp",
+   "place": "France",
+   "topic": "place",
+   "claim": "Viator's Vedettes de Paris listing: 100% electric boat, one hour, live guide in English and French, meeting point Port de Suffren; Guided Cruise $20.12, champagne option $31.29, gourmet $25.70 on 12 December 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Paris/Seine-River-Cruise-Sightseeing-with-Optional-Aperitif-or-Snack/d479-5636CRUISE",
+     "title": "Seine River Guided Cruise by Vedettes de Paris - Viator",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.kkday.bp",
+   "place": "France",
+   "topic": "place",
+   "claim": "KKday's Bateaux Parisiens listing: free cancellation up to 2 days in advance, no timeslot reservation, audio guide device behind seats inside, roof deck via boat Wi-Fi, $19.75 on 12 December 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/3323-paris-seine-river-bateaux-parisiens-cruise-france",
+     "title": "Seine River Bateaux Parisiens Cruise - KKday",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
+   "id": "fr.paris.seine.kkday.dinner",
+   "place": "France",
+   "topic": "place",
+   "claim": "KKday's Bateaux Parisiens lunch or dinner product: lunch 12:45 pm or dinner 6:15 pm or 8:30 pm, formal dress at night, boarding closes 15 minutes before departure, cancellation up to 2 days; from $85.62 on search results.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/121735-paris-seine-river-cruise-with-lunch-or-dinner-france",
+     "title": "Bateaux Parisiens Seine River Lunch or Dinner Cruise - KKday",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-seine-river-cruise.html"
+   ]
+  },
+  {
    "id": "de.berlin.city-tax.rate",
    "place": "Germany",
    "topic": "tax",
@@ -21403,6 +21663,206 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/car-rental-iceland.html"
+   ]
+  },
+  {
+   "id": "is.golden-circle.safetravel-winter",
+   "place": "Iceland",
+   "topic": "place",
+   "claim": "Safe Travel Iceland's winter page says to expect limited daylight and that road conditions may change rapidly.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://safetravel.is/winter",
+     "title": "Winter - Safe Travel Iceland",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-golden-circle-tour.html"
+   ]
+  },
+  {
+   "id": "is.golden-circle.gyg-t67012",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "GetYourGuide t67012 BusTravel Iceland, 12 Dec 2026 (USD): morning bus stop 08:00 $99.82, morning pickup $112.99, afternoon bus stop 12:00 $91.05; free cancel until Dec 11; no Kerid stop for departures 12:00 and later.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/reykjavik-l30/grand-golden-circle-tour-t67012/",
+     "title": "GetYourGuide: Reykjavik: Golden Circle Full-Day Tour with Kerid Crater",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-golden-circle-tour.html"
+   ]
+  },
+  {
+   "id": "is.golden-circle.gyg-t72105",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "GetYourGuide t72105 Gray Line Express, 12 Dec 2026 (USD): $76.79 without transfer, $88.85 with transfer, 10:00; 6.5 hours; free cancel until Dec 11.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/reykjavik-l30/golden-circle-express-t72105/",
+     "title": "GetYourGuide: From Reykjavik: Golden Circle Full-Day Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-golden-circle-tour.html"
+   ]
+  },
+  {
+   "id": "is.golden-circle.gyg-t73333",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "GetYourGuide t73333 Arctic Adventures Golden Circle + Secret Lagoon, 12 Dec 2026 (USD) $150.29 at 09:00; includes Secret Lagoon and Kerid admission and pickup; min age 5.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/reykjavik-l30/from-reykjavik-golden-circle-and-secret-lagoon-small-group-t73333/",
+     "title": "GetYourGuide: From Reykjavik: Golden Circle & Secret Lagoon Day Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-golden-circle-tour.html"
+   ]
+  },
+  {
+   "id": "is.golden-circle.viator-2970AH12",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "Viator 2970AH12 Golden Circle Classic, 12 Dec 2026 (USD): 10:00 pickup $100.58 each, no pickup $89.41, Friðheimar $105.05; free cancellation before 10:00 on 11 Dec; max 100 travellers.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Reykjavik/Golden-Circle-Classic-Day-Trip-from-Reykjavik/d905-2970AH12",
+     "title": "Viator: Golden Circle Classic Day Tour from Reykjavik",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-golden-circle-tour.html"
+   ]
+  },
+  {
+   "id": "is.golden-circle.viator-7205P1",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "Viator 7205P1 Golden Circle & Secret Lagoon small group, 12 Dec 2026 (USD) $168 per adult at 10:00; max 17 travellers; free cancellation before 10:00 on 11 Dec.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Reykjavik/Small-Group-Golden-Circle-Tour-and-Secret-Lagoon-Visit-from-Reykjavik/d905-7205P1",
+     "title": "Viator: Golden Circle & Secret Lagoon Small-Group Tour from Reykjavik",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-golden-circle-tour.html"
+   ]
+  },
+  {
+   "id": "is.golden-circle.kkday-610352",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "KKday 610352 Golden Circle full-day tour with Kerid, 12 Dec 2026 (USD): 08:00 session US$96.56; free cancellation up to 2 days; children under 2 not permitted.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/610352",
+     "title": "KKday: Golden Circle full-day tour from Reykjavik",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-golden-circle-tour.html"
+   ]
+  },
+  {
+   "id": "is.golden-circle.kkday-601983",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "KKday 601983 Golden Circle and Secret Lagoon day tour, 12 Dec 2026 (USD) US$129.48 at 08:00; free cancellation up to 2 days; bring swimming suit.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/601983",
+     "title": "KKday: Golden Circle and Secret Lagoon day tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-golden-circle-tour.html"
+   ]
+  },
+  {
+   "id": "is.golden-circle.tiqets-p1042455",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "Tiqets p1042455 Golden Circle & Kerið Grand Tour (Bus Travel Iceland), 12 Dec 2026 about $95 (rounded USD); Kerið entrance included; free cancel until 24 h; wheelchair accessible.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/reykjavik-attractions-c22/tickets-for-grand-golden-circle-and-kerid-volcanic-crater-tour-p1042455/",
+     "title": "Tiqets: Golden Circle & Kerið Crater: Grand Tour from Reykjavik",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-golden-circle-tour.html"
+   ]
+  },
+  {
+   "id": "is.golden-circle.tiqets-p1029870",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "Tiqets p1029870 Golden Circle & Secret Lagoon small group (Arctic Adventures), 12 Dec 2026 about $151 (rounded USD); max group 19; Secret Lagoon entrance and pickup included.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/reykjavik-attractions-c22/tickets-for-golden-circle-tour-secret-lagoon-adventure-from-reykjavik-p1029870/",
+     "title": "Tiqets: Golden Circle & Secret Lagoon: Small-Group Tour from Reykjavik",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-golden-circle-tour.html"
    ]
   },
   {
@@ -36076,6 +36536,171 @@
    ]
   },
   {
+   "id": "jp.tokyo.shibuya-sky.adult-price",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "Shibuya Sky adult (12+) web ticket is ¥2,700 for entry up to 14:59 and ¥3,400 from 15:00.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.shibuya-scramble-square.com/sky/ticket/",
+     "title": "SHIBUYA SKY ticket purchase",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-shibuya-sky-tickets.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.shibuya-sky.counter-price",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "At the counter an adult ticket is ¥3,000 up to 15:00 and ¥3,700 from 15:00; child tickets (11 and under) are ¥1,200, sold at the counter only.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.shibuya-scramble-square.com/sky/ticket/",
+     "title": "SHIBUYA SKY ticket purchase",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-shibuya-sky-tickets.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.shibuya-sky.release-window",
+   "place": "Japan",
+   "topic": "entry",
+   "claim": "Shibuya Sky tickets go on sale at 00:00 Japan time, 14 days before the visit date.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.shibuya-scramble-square.com/sky/faq/",
+     "title": "SHIBUYA SKY FAQ",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.kkday.com/en/product/133300-shibuya-sky-observatory-e-ticket-tokyo",
+     "title": "KKday Shibuya Sky listing",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-shibuya-sky-tickets.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.shibuya-sky.authorised-resellers",
+   "place": "Japan",
+   "topic": "entry",
+   "claim": "The venue names Klook, KKday and Trip.com as authorised resellers and says tickets bought from other sellers cannot be used for entry.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.shibuya-scramble-square.com/sky/faq/",
+     "title": "SHIBUYA SKY FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-shibuya-sky-tickets.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.shibuya-sky.cancellation",
+   "place": "Japan",
+   "topic": "entry",
+   "claim": "Eligible web tickets can be cancelled free until the day before the visit; if the roof is closed at the entry time, free cancellation is allowed that day only; counter tickets cannot be cancelled.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.shibuya-scramble-square.com/sky/faq/",
+     "title": "SHIBUYA SKY FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-shibuya-sky-tickets.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.shibuya-sky.passport",
+   "place": "Japan",
+   "topic": "entry",
+   "claim": "Tickets from the official overseas ticket site, Klook, KKday or Trip.com require each entrant's passport; QR codes are not accepted and passport details must match the booking.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.shibuya-scramble-square.com/sky/faq/",
+     "title": "SHIBUYA SKY FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-shibuya-sky-tickets.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.shibuya-sky.roof-closure",
+   "place": "Japan",
+   "topic": "place",
+   "claim": "The roof can close in strong wind, rain, snow, approaching thunderclouds, smog or extreme heat; bags, backpacks, tripods, hats, food and drink cannot go on the roof.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.shibuya-scramble-square.com/sky/ticket/",
+     "title": "SHIBUYA SKY ticket purchase",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-shibuya-sky-tickets.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.shibuya-sky.kkday-terms",
+   "place": "Japan",
+   "topic": "entry",
+   "claim": "KKday's Shibuya Sky listing allows cancellation up to 1 day before the visit and requires a roof-closure refund request by 11:59 PM Japan time on the day.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/133300-shibuya-sky-observatory-e-ticket-tokyo",
+     "title": "KKday Shibuya Sky listing",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-shibuya-sky-tickets.html"
+   ]
+  },
+  {
    "id": "kr.keta.exemption-2026",
    "place": "South Korea",
    "topic": "entry",
@@ -37552,6 +38177,66 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-buy-lotte-world-tickets.html"
+   ]
+  },
+  {
+   "id": "kr.nami.fee",
+   "place": "South Korea",
+   "topic": "price",
+   "claim": "Nami Island regular adult admission is 19,000 won with the round-trip ferry fare included; discount rate 16,000 won (students, 70+); special rate 13,000 won for children 36 months to elementary age; motor boat in and ferry out 29,000 won regular.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://namisum-en.imweb.me/163",
+     "title": "Nami Island admission fees",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-nami-island-tour.html"
+   ]
+  },
+  {
+   "id": "kr.nami.free-and-evening",
+   "place": "South Korea",
+   "topic": "entry",
+   "claim": "Children aged 36 months and under and tour guides enter free; the special 13,000 won rate also applies to early-bird tickets before the 08:00 ferry and, December to March, to tickets bought after 18:01.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://namisum-en.imweb.me/35/?bmode=view&idx=7167956",
+     "title": "Nami Island FAQ: admission prices",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-nami-island-tour.html"
+   ]
+  },
+  {
+   "id": "kr.nami.open-year-round",
+   "place": "South Korea",
+   "topic": "place",
+   "claim": "Nami Island states it is open throughout the year.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://namisum-en.imweb.me/163",
+     "title": "Nami Island admission fees",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-nami-island-tour.html"
    ]
   },
   {
@@ -45513,6 +46198,141 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-buy-universal-studios-singapore-tickets.html"
+   ]
+  },
+  {
+   "id": "sg.gbtb.reseller-no-slot",
+   "place": "Singapore",
+   "topic": "entry",
+   "claim": "Tickets bought from resellers such as Klook or travel agencies need no time-slot booking; present the original ticket at the attraction.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.gardensbythebay.com.sg/en/frequently-asked-questions/general.html",
+     "title": "FAQ - General",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-gardens-by-the-bay-tickets.html"
+   ]
+  },
+  {
+   "id": "sg.gbtb.official-prices",
+   "place": "Singapore",
+   "topic": "price",
+   "claim": "Non-resident prices: Flower Dome + Cloud Forest SGD 46 adult / 32 child (3-12); Flower Dome + Jurassic World at Cloud Forest + Floral Fantasy + shuttle SGD 73 / 51; prices in SGD incl. GST.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/flower-dome.html",
+     "title": "Flower Dome",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.gardensbythebay.com.sg/en/frequently-asked-questions/general.html",
+     "title": "FAQ - General",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-gardens-by-the-bay-tickets.html"
+   ]
+  },
+  {
+   "id": "sg.gbtb.resident-proof",
+   "place": "Singapore",
+   "topic": "entry",
+   "claim": "Singapore Resident rates apply to citizens, PRs and people living in Singapore; proof of residency may be required at purchase or admission.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/flower-dome.html",
+     "title": "Flower Dome",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-gardens-by-the-bay-tickets.html"
+   ]
+  },
+  {
+   "id": "sg.gbtb.flower-dome-closure",
+   "place": "Singapore",
+   "topic": "place",
+   "claim": "Flower Dome closes on maintenance days; the next closure is 12 Jan 2027.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/flower-dome.html",
+     "title": "Flower Dome",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-gardens-by-the-bay-tickets.html"
+   ]
+  },
+  {
+   "id": "sg.gbtb.hours",
+   "place": "Singapore",
+   "topic": "place",
+   "claim": "Flower Dome opens daily 9.00am-9.00pm, last admission 8.30pm.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/flower-dome.html",
+     "title": "Flower Dome",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-gardens-by-the-bay-tickets.html"
+   ]
+  },
+  {
+   "id": "sg.gbtb.reseller-price-1215",
+   "place": "Singapore",
+   "topic": "price",
+   "claim": "For 15 Dec 2026 (read 22 Nov) the Flower Dome + Cloud Forest adult ticket was SGD 45.99 on Tiqets, S$46.00 on GetYourGuide and SGD 46.00 on Viator; Supertree version SGD 54 Viator, S$60.00 GetYourGuide.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/singapore-attractions-c78125/tickets-for-gardens-by-the-bay-flower-dome-cloud-forest-p975673/",
+     "title": "Tiqets Flower Dome & Cloud Forest",
+     "kind": "secondary"
+    },
+    {
+     "url": "https://www.getyourguide.com/singapore-l170/singapore-gardens-by-the-bay-admission-e-ticket-t289680/",
+     "title": "GetYourGuide Admission E-Ticket",
+     "kind": "secondary"
+    },
+    {
+     "url": "https://www.viator.com/tours/Singapore/Garden-By-The-Bay-Ticket/d60449-40856P20",
+     "title": "Viator Gardens By The Bay E Tickets",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-gardens-by-the-bay-tickets.html"
    ]
   },
   {
@@ -59017,6 +59837,136 @@
    ]
   },
   {
+   "id": "uk.lon.eye.non-transferable",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "London Eye tickets are non-transferable, not for resale and become void on any transfer; the terms name no authorised resellers.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.londoneye.com/security-privacy/terms-conditions/",
+     "title": "The London Eye Terms and conditions (General)",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-london-eye-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.lon.eye.valid-date",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "Tickets are only valid on the date printed on the ticket.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.londoneye.com/security-privacy/terms-conditions/",
+     "title": "The London Eye Terms and conditions (General)",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-london-eye-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.lon.eye.refunds",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "Payments for all ticket types are non-refundable; exchange or refund is at the operator's discretion; the booking page says a ticket can be rescheduled for free.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.londoneye.com/security-privacy/terms-conditions/",
+     "title": "The London Eye Terms and conditions (General)",
+     "kind": "official"
+    },
+    {
+     "url": "https://ticketing.londoneye.com/en/tickets/standard-london-eye-fast-track-tickets",
+     "title": "London Eye: General Admission Tickets",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-london-eye-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.lon.eye.price-2026-12-12",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "On 22 Nov 2026 the booking calendar showed 12 December 2026 at the 10:00 slot: Standard adult GBP 29.00 and Fast Track adult GBP 44.00; the ticket page lists Flexi Fast Track from GBP 49.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://ticketing.londoneye.com/en/tickets/standard-london-eye-fast-track-tickets",
+     "title": "London Eye: General Admission Tickets",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.londoneye.com/tickets-and-prices/",
+     "title": "Official Tickets, Passes & Prices | The London Eye",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-london-eye-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.lon.eye.children-luggage",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "Children aged 15 and under must be accompanied by an adult aged 18+; children under 2 need a free ticket; suitcases and large hand luggage are not permitted.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://ticketing.londoneye.com/en/tickets/standard-london-eye-fast-track-tickets",
+     "title": "London Eye: General Admission Tickets",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-london-eye-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.lon.eye.ride",
+   "place": "United Kingdom",
+   "topic": "place",
+   "claim": "The London Eye rises 135 metres above the Thames and a ride is a 30-minute rotation.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://ticketing.londoneye.com/en/tickets/standard-london-eye-fast-track-tickets",
+     "title": "London Eye: General Admission Tickets",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-london-eye-tickets.html"
+   ]
+  },
+  {
    "id": "us.nyc.hotel-tax",
    "place": "United States",
    "topic": "tax",
@@ -70816,6 +71766,171 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-buy-universal-studios-hollywood-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.totr.refund-reschedule",
+   "place": "United States",
+   "topic": "place",
+   "claim": "Top of the Rock sales are final and non-refundable; tickets may be rescheduled up to 24 hours before the visit, subject to availability, and price differences may apply.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+     "title": "Top of the Rock tickets and FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-top-of-the-rock-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.totr.children-ages",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "Children aged 5 and under receive free admission; age bands are adult 13-61, child 6-12, senior 62+.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+     "title": "Top of the Rock tickets and FAQ",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.rockefellercenter.com/buy-tickets/timed-admission/",
+     "title": "Timed admission checkout",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-top-of-the-rock-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.totr.slot-prices-9dec",
+   "place": "United States",
+   "topic": "price",
+   "claim": "On 22 Nov 2026 the timed admission page showed adult prices for 9 Dec 2026 of $56 for 9:00 am-1:50 pm and 7:00-9:50 pm, $68 for 2:00-2:50 pm and 5:20-6:50 pm, $71-$83 around 3:00-4:20 pm, $53 at 10 pm and $49 at 11 pm; 3:20-4:00 pm sold out.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockefellercenter.com/buy-tickets/timed-admission/",
+     "title": "Timed admission date and time page",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-top-of-the-rock-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.totr.price-from",
+   "place": "United States",
+   "topic": "price",
+   "claim": "On 22 Nov 2026 the ticket page listed Timed Admission from $42, All-Inclusive Pass from $82 and VIP Pass from $185; the pass checkout said from $77.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+     "title": "Top of the Rock tickets and FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-top-of-the-rock-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.totr.hours",
+   "place": "United States",
+   "topic": "place",
+   "claim": "Top of the Rock is open daily 8 AM to 12 AM with last entry at 11:10 PM.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+     "title": "Top of the Rock tickets and FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-top-of-the-rock-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.totr.security",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "There is a security checkpoint for all visitors; outside food and beverages, weapons and tripods are not permitted.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+     "title": "Top of the Rock tickets and FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-top-of-the-rock-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.totr.floors-height",
+   "place": "United States",
+   "topic": "place",
+   "claim": "The observation experience spans the 67th, 69th and 70th floors; the deck is 850 feet above Midtown and SKYLIFT raises visitors 30 feet above the 70th floor.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+     "title": "Top of the Rock tickets and FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-top-of-the-rock-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.totr.christmas-tree",
+   "place": "United States",
+   "topic": "place",
+   "claim": "The Christmas Tree and The Rink are not visible from the observation decks; the VIP pass lists a Christmas Tree Experience 12/3-1/3.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+     "title": "Top of the Rock tickets and FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-top-of-the-rock-tickets.html"
    ]
   },
   {

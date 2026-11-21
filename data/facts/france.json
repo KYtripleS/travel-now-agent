@@ -4151,6 +4151,317 @@
           "new 2027 fares apply for visits from that date"
         ]
       }
+    },
+    {
+      "id": "fr.paris.seine.bp.official-1hr",
+      "topic": "price",
+      "claim": "Bateaux Parisiens' sightseeing page lists a one-hour cruise with an audio guide at an online price of EUR 18 for an adult and EUR 9 for a child.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.bateauxparisiens.com/en/cruise-tours/guided-tour.html",
+          "kind": "official",
+          "title": "Sightseeing Cruises - Bateaux Parisiens",
+          "evidence": [
+            "Duration: 1 hour",
+            "Included: Audio guides",
+            "€ 18 20 €",
+            "€ 9 10 €"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "online adult price was €18 with a child price of €9"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.bp.official-seasonal",
+      "topic": "place",
+      "claim": "Bateaux Parisiens' home page lists a Christmas cruise on 24 and 25 December and a New Year's Eve dinner cruise on 31 December.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.bateauxparisiens.com/en/",
+          "kind": "official",
+          "title": "Bateaux Parisiens home page",
+          "evidence": [
+            "Christmas Cruise: discover Paris illuminated and decorated for the festive season on December 24 and 25.",
+            "New Year’s Eve Dinner Cruise: celebrate New Year’s Eve on December 31"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "dinner and seasonal cruises on 24 and 25 December and on 31 December"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.tiqets.bp",
+      "topic": "place",
+      "claim": "Tiqets' Bateaux Parisiens listing: boards at pontoon 3, Port de la Bourdonnais, no timeslot, cancellation and rescheduling until 11:59 pm the day before, departures every 30 minutes, first departure 13:00 from 3 September 2026.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/",
+          "kind": "operator",
+          "title": "Seine River: Cruise by Bateaux Parisiens - Tiqets",
+          "evidence": [
+            "Go straight to pontoon n°3 and show your smartphone ticket",
+            "Cancellation is possible until 11:59 PM on the day before your visit",
+            "Boats depart every 30 minutes.",
+            "From September 3, 2026, the first departure for the sightseeing cruise will be at 13:00 instead of 10:00",
+            "No timeslot selection needed"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "boarding at Port de la Bourdonnais at pontoon 3 by showing a smartphone ticket",
+          "the first departure is at 13:00 instead of 10:00"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.tiqets.bm",
+      "topic": "place",
+      "claim": "Tiqets' Bateaux Mouches listing: 1 hour 10 minutes, boards near the Pont de l'Alma, winter departures every 45 minutes until 16:00 then every 30 minutes until 21:30, free cancellation until 11:59 pm the day before.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823/",
+          "kind": "operator",
+          "title": "Seine River: Cruise by BATEAUX-MOUCHES - Tiqets",
+          "evidence": [
+            "Show your smartphone ticket at the BATEAUX-MOUCHES® pier, near the Pont de l'Alma.",
+            "Times and durations from October to March: Departures every 45 minutes between 10:00 and 16:00 and every 30 minutes between 16:00 and 21:30.",
+            "Cancellation is possible until 11:59 PM on the day before your visit"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "Departures from October to March are every 45 minutes between 10:00 and 16:00 and every 30 minutes between 16:00 and 21:30"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.tiqets.dinner",
+      "topic": "price",
+      "claim": "Tiqets' Bateaux Parisiens dinner cruise: 3-course dinner with drinks (1h15) at $108.63 and 4-course dinner with live music (2h30, from 20:30) at $126.19 for 12 December 2026, with wine or soft drinks, water and coffee included.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/checkout/seine-river-dinner-cruise-by-bateaux-parisiens-g1134410/?selected_date=2026-12-12",
+          "kind": "operator",
+          "title": "Seine River: Dinner Cruise by Bateaux Parisiens - Tiqets",
+          "evidence": [
+            "Seine River: 4-Course Dinner Cruise with Live Music by Bateaux Parisiens",
+            "Starting from 20h30 with Late Evening Live music",
+            "Seine River: 3-Course Dinner Cruise with Drinks by Bateaux Parisiens",
+            "Wines (one bottle between 4 people) or soft drinks, mineral water, and coffee"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "wine (one bottle between four people) or soft drinks, mineral water and coffee",
+          "starting from 20:30"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.gyg.bp",
+      "topic": "place",
+      "claim": "GetYourGuide's Bateaux Parisiens listing: free cancellation up to 24 hours, reserve now and pay later, ticket valid 30 days after the booked date, winter departures every hour 10:30-21:30, oversize luggage not allowed.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/paris-l16/paris-1-hour-seine-cruise-departing-from-the-eiffel-tower-t193940/",
+          "kind": "operator",
+          "title": "1-Hour Seine Cruise from the Eiffel Tower - GetYourGuide",
+          "evidence": [
+            "Cancel up to 24 hours in advance for a full refund",
+            "Ticket valid for 30 days after the booked date",
+            "Departures are between 10:30 and 21:30 (one departure every hour) from October to March",
+            "Luggage or large bags"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "a ticket valid for any departure within 30 days of the booked date",
+          "Large bags and luggage are not allowed"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.gyg.bm",
+      "topic": "place",
+      "claim": "GetYourGuide's Bateaux Mouches listing: one hour from the Alma bridge, valid 365 days, free cancellation, $18.65 on 12 December 2026.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/paris-l16/paris-seine-river-sightseeing-cruise-by-bateaux-mouches-t735394/",
+          "kind": "operator",
+          "title": "Bateaux Mouches Sightseeing Cruise - GetYourGuide",
+          "evidence": [
+            "Valid 365 days",
+            "Cancel up to 24 hours in advance for a full refund",
+            "1-hour cruise departing from Alma bridge"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "valid 365 days, free cancellation until 11 December"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.gyg.vdpn",
+      "topic": "place",
+      "claim": "GetYourGuide's Vedettes du Pont Neuf listing: one hour from Pont Neuf, live guide in English and French, tours depart approximately every hour; eight departure times for 12 December.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/paris-l16/seine-river-sightseeing-guided-cruise-vedettes-du-pont-neuf-t1349437/",
+          "kind": "operator",
+          "title": "Vedettes du Pont Neuf - GetYourGuide",
+          "evidence": [
+            "Tours depart approximately every hour",
+            "A live tour guide shares fascinating stories and insights in English and French"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "The listing says tours depart approximately every hour"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.gyg.dinner",
+      "topic": "price",
+      "claim": "GetYourGuide's Extime Travel dinner cruise: 6:45 pm sailing $95.44 (about 1h15, drinks excluded, coffee or tea after the meal) and 9:15 pm sailing $115.18 (two hours) on 12 December 2026; beef main +EUR 10; boards by the Musee d'Orsay.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/paris-l16/paris-3-course-dinner-cruise-on-the-river-seine-t53306/",
+          "kind": "operator",
+          "title": "3-Course Gourmet Dinner Cruise - GetYourGuide",
+          "evidence": [
+            "This 1.25-hour option excludes drinks, with coffee and tea served after the meal.",
+            "Board your cruise by the Musée d'Orsay Museum",
+            "Grilled beef cut, shiitake mushrooms, parsnip purée, small oven-roasted potatoes, morel sauce (+€10)",
+            "Cheese and \"a la carte\" drinks are available to purchase onboard"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "drinks excluded, coffee or tea after the meal",
+          "The listing prices a grilled beef main with a €10 supplement"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.viator.dinner",
+      "topic": "price",
+      "claim": "Viator's Bateaux Parisiens dinner cruise for 12 December 2026: 8:30 pm Service Etoile $139.37 (check-in 7:45 pm, back at quay 11 pm), Window Service Premier $296.84, Privilege and Premier sold out; free cancellation before 8:30 pm on 11 December; smart casual; arrive 15 minutes early.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Paris/Seine-River-Cruise-Bateaux-Parisiens-Sightseeing-Cruise-with-Dinner-and-Live-Music/d479-5836DINNERCRUISE",
+          "kind": "operator",
+          "title": "Bateaux Parisiens Seine River Gourmet Dinner & Sightseeing Cruise - Viator",
+          "evidence": [
+            "Duration: 3 hours: check in at 7.45 pm departure at 8.30 pm return to quayside at 11 pm",
+            "Free cancellationbefore 8:30 PM on Dec 11 (local time)",
+            "Dress code is smart casual",
+            "Please arrive at least 15 minutes before the start time",
+            "Sold out"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "check-in at 7:45 pm, departure at 8:30 pm, back at the quay at 11 pm",
+          "The dress code is smart casual, boarding is at pontoon 5 or 7"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.viator.vdp",
+      "topic": "place",
+      "claim": "Viator's Vedettes de Paris listing: 100% electric boat, one hour, live guide in English and French, meeting point Port de Suffren; Guided Cruise $20.12, champagne option $31.29, gourmet $25.70 on 12 December 2026.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Paris/Seine-River-Cruise-Sightseeing-with-Optional-Aperitif-or-Snack/d479-5636CRUISE",
+          "kind": "operator",
+          "title": "Seine River Guided Cruise by Vedettes de Paris - Viator",
+          "evidence": [
+            "1 hour Seine River cruise with 100% electric boat",
+            "Live guide in English and French",
+            "2 Port de Suffren, 75007 Paris, France"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "A 100% electric boat, one hour, live guide in English and French, meeting point at Port de Suffren"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.kkday.bp",
+      "topic": "place",
+      "claim": "KKday's Bateaux Parisiens listing: free cancellation up to 2 days in advance, no timeslot reservation, audio guide device behind seats inside, roof deck via boat Wi-Fi, $19.75 on 12 December 2026.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/3323-paris-seine-river-bateaux-parisiens-cruise-france",
+          "kind": "operator",
+          "title": "Seine River Bateaux Parisiens Cruise - KKday",
+          "evidence": [
+            "Free cancellation up to 2 day(s) in advance",
+            "No time slot reservation needed.",
+            "connect your mobile phone to the ship's Wi-Fi network"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "instant confirmation, one hour, free cancellation up to two days in advance"
+        ]
+      }
+    },
+    {
+      "id": "fr.paris.seine.kkday.dinner",
+      "topic": "place",
+      "claim": "KKday's Bateaux Parisiens lunch or dinner product: lunch 12:45 pm or dinner 6:15 pm or 8:30 pm, formal dress at night, boarding closes 15 minutes before departure, cancellation up to 2 days; from $85.62 on search results.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/121735-paris-seine-river-cruise-with-lunch-or-dinner-france",
+          "kind": "operator",
+          "title": "Bateaux Parisiens Seine River Lunch or Dinner Cruise - KKday",
+          "evidence": [
+            "Choose a lunch cruise at 12:45 PM or a dinner cruise at 6:15 PM or 8:30 PM",
+            "Guests on the Nighttime Seine River Cruise are required to dress formally.",
+            "The boarding gate closes 15 minutes before departure."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-seine-river-cruise.html": [
+          "dinner at 6:15 pm or 8:30 pm",
+          "boarding closes 15 minutes before departure"
+        ]
+      }
     }
   ]
 }

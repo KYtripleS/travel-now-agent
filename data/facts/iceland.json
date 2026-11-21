@@ -1591,6 +1591,261 @@
           "54,754 ISK, about $440 total"
         ]
       }
+    },
+    {
+      "id": "is.golden-circle.safetravel-winter",
+      "topic": "place",
+      "claim": "Safe Travel Iceland's winter page says to expect limited daylight and that road conditions may change rapidly.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://safetravel.is/winter",
+          "kind": "official",
+          "title": "Winter - Safe Travel Iceland",
+          "evidence": [
+            "Expect limited daylight which might make it difficult to drive in various conditions.",
+            "Conditions on the roads may change rapidly so it’s smart to keep travel conditions map on hand."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-golden-circle-tour.html": [
+          "Expect limited daylight which might make it difficult to drive in various conditions.",
+          "Conditions on the roads may change rapidly"
+        ]
+      }
+    },
+    {
+      "id": "is.golden-circle.gyg-t67012",
+      "topic": "price",
+      "claim": "GetYourGuide t67012 BusTravel Iceland, 12 Dec 2026 (USD): morning bus stop 08:00 $99.82, morning pickup $112.99, afternoon bus stop 12:00 $91.05; free cancel until Dec 11; no Kerid stop for departures 12:00 and later.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/reykjavik-l30/grand-golden-circle-tour-t67012/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Reykjavik: Golden Circle Full-Day Tour with Kerid Crater",
+          "evidence": [
+            "Cancel up to 24 hours in advance for a full refund",
+            "We won’t be stopping at the Kerid volcanic crater lake for any departures at 12:00 pm and later",
+            "$99.82",
+            "$112.99",
+            "Likely to sell out"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-golden-circle-tour.html": [
+          "a morning tour from Bus Stop 12 at 8:00 for $99.82",
+          "Cancel up to 24 hours in advance for a full refund",
+          "departures at 12:00 pm and later"
+        ]
+      }
+    },
+    {
+      "id": "is.golden-circle.gyg-t72105",
+      "topic": "price",
+      "claim": "GetYourGuide t72105 Gray Line Express, 12 Dec 2026 (USD): $76.79 without transfer, $88.85 with transfer, 10:00; 6.5 hours; free cancel until Dec 11.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/reykjavik-l30/golden-circle-express-t72105/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From Reykjavik: Golden Circle Full-Day Tour",
+          "evidence": [
+            "$76.79",
+            "$88.85",
+            "Cancel for free until Dec 11",
+            "Duration 6.5 hours"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-golden-circle-tour.html": [
+          "$76.79 for the 10:00 departure without hotel transfer",
+          "$88.85 with transfer"
+        ]
+      }
+    },
+    {
+      "id": "is.golden-circle.gyg-t73333",
+      "topic": "price",
+      "claim": "GetYourGuide t73333 Arctic Adventures Golden Circle + Secret Lagoon, 12 Dec 2026 (USD) $150.29 at 09:00; includes Secret Lagoon and Kerid admission and pickup; min age 5.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/reykjavik-l30/from-reykjavik-golden-circle-and-secret-lagoon-small-group-t73333/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From Reykjavik: Golden Circle & Secret Lagoon Day Tour",
+          "evidence": [
+            "$150.29",
+            "Admission to the Secret Lagoon",
+            "Admission to Kerid Crater",
+            "The minimum age for this tour is 5 years old",
+            "Food and drinks"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-golden-circle-tour.html": [
+          "$150.29 for the 09:00 departure",
+          "admission to the Secret Lagoon and to Kerið crater",
+          "The minimum age is 5"
+        ]
+      }
+    },
+    {
+      "id": "is.golden-circle.viator-2970AH12",
+      "topic": "price",
+      "claim": "Viator 2970AH12 Golden Circle Classic, 12 Dec 2026 (USD): 10:00 pickup $100.58 each, no pickup $89.41, Friðheimar $105.05; free cancellation before 10:00 on 11 Dec; max 100 travellers.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Reykjavik/Golden-Circle-Classic-Day-Trip-from-Reykjavik/d905-2970AH12",
+          "kind": "secondary",
+          "title": "Viator: Golden Circle Classic Day Tour from Reykjavik",
+          "evidence": [
+            "10:00 Tour (pick-up 09:30)",
+            "Tour with No pick up",
+            "Free cancellation before 10:00 AM on Dec 11 (local time)",
+            "This tour/activity will have a maximum of 100 travelers"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-golden-circle-tour.html": [
+          "$100.58 each",
+          "a tour with no pickup $89.41",
+          "Free cancellation before 10:00 AM on Dec 11 (local time)"
+        ]
+      }
+    },
+    {
+      "id": "is.golden-circle.viator-7205P1",
+      "topic": "price",
+      "claim": "Viator 7205P1 Golden Circle & Secret Lagoon small group, 12 Dec 2026 (USD) $168 per adult at 10:00; max 17 travellers; free cancellation before 10:00 on 11 Dec.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Reykjavik/Small-Group-Golden-Circle-Tour-and-Secret-Lagoon-Visit-from-Reykjavik/d905-7205P1",
+          "kind": "secondary",
+          "title": "Viator: Golden Circle & Secret Lagoon Small-Group Tour from Reykjavik",
+          "evidence": [
+            "From $168.00",
+            "This tour/activity will have a maximum of 17 travelers",
+            "Free cancellation before 10:00 AM on Dec 11 (local time)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-golden-circle-tour.html": [
+          "$168 per adult for the 10:00 start",
+          "a maximum of 17 travelers"
+        ]
+      }
+    },
+    {
+      "id": "is.golden-circle.kkday-610352",
+      "topic": "price",
+      "claim": "KKday 610352 Golden Circle full-day tour with Kerid, 12 Dec 2026 (USD): 08:00 session US$96.56; free cancellation up to 2 days; children under 2 not permitted.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/610352",
+          "kind": "secondary",
+          "title": "KKday: Golden Circle full-day tour from Reykjavik",
+          "evidence": [
+            "US$96.56/Traveler",
+            "Free cancellation up to 2 day(s) in advance",
+            "Children under the age of 2 or under 15 kg are not permitted",
+            "the tour includes a visit to the volcanic crater lake Kerið"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-golden-circle-tour.html": [
+          "$96.56 for the 08:00 session on 12 December",
+          "Free cancellation up to 2 days in advance"
+        ]
+      }
+    },
+    {
+      "id": "is.golden-circle.kkday-601983",
+      "topic": "price",
+      "claim": "KKday 601983 Golden Circle and Secret Lagoon day tour, 12 Dec 2026 (USD) US$129.48 at 08:00; free cancellation up to 2 days; bring swimming suit.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/601983",
+          "kind": "secondary",
+          "title": "KKday: Golden Circle and Secret Lagoon day tour",
+          "evidence": [
+            "US$129.48/Traveler",
+            "Free cancellation up to 2 day(s) in advance",
+            "Swimming suit",
+            "Start the day with a warm bath in the Secret Lagoon"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-golden-circle-tour.html": [
+          "$129.48 on 12 December",
+          "Free cancellation up to 2 days ahead"
+        ]
+      }
+    },
+    {
+      "id": "is.golden-circle.tiqets-p1042455",
+      "topic": "price",
+      "claim": "Tiqets p1042455 Golden Circle & Kerið Grand Tour (Bus Travel Iceland), 12 Dec 2026 about $95 (rounded USD); Kerið entrance included; free cancel until 24 h; wheelchair accessible.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/reykjavik-attractions-c22/tickets-for-grand-golden-circle-and-kerid-volcanic-crater-tour-p1042455/",
+          "kind": "secondary",
+          "title": "Tiqets: Golden Circle & Kerið Crater: Grand Tour from Reykjavik",
+          "evidence": [
+            "Entrance fee to Kerið",
+            "Cancel for free until 24 hours before your visit date and get a full refund",
+            "Wheelchair accessible",
+            "Pickup (this can added for a fee)",
+            "Provider: Bus Travel Iceland"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-golden-circle-tour.html": [
+          "Kerið entrance fee and Wi-Fi included",
+          "Cancel free until 24 hours before",
+          "Listed as wheelchair accessible"
+        ]
+      }
+    },
+    {
+      "id": "is.golden-circle.tiqets-p1029870",
+      "topic": "price",
+      "claim": "Tiqets p1029870 Golden Circle & Secret Lagoon small group (Arctic Adventures), 12 Dec 2026 about $151 (rounded USD); max group 19; Secret Lagoon entrance and pickup included.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/reykjavik-attractions-c22/tickets-for-golden-circle-tour-secret-lagoon-adventure-from-reykjavik-p1029870/",
+          "kind": "secondary",
+          "title": "Tiqets: Golden Circle & Secret Lagoon: Small-Group Tour from Reykjavik",
+          "evidence": [
+            "Max group size",
+            "19",
+            "Entrance to the Secret Lagoon",
+            "Pick-up and drop off from Reykjavík",
+            "Cancel for free until 24 hours before your visit date and get a full refund"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-golden-circle-tour.html": [
+          "\"Max group size 19\"",
+          "entrance to the Secret Lagoon, pickup and drop-off from Reykjavik, Wi-Fi"
+        ]
+      }
     }
   ]
 }

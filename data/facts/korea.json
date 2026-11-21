@@ -1474,6 +1474,80 @@
           "your admission pass must be redeemed by 5.30 pm, except if you choose the direct entry option"
         ]
       }
+    },
+    {
+      "id": "kr.nami.fee",
+      "topic": "price",
+      "claim": "Nami Island regular adult admission is 19,000 won with the round-trip ferry fare included; discount rate 16,000 won (students, 70+); special rate 13,000 won for children 36 months to elementary age; motor boat in and ferry out 29,000 won regular.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://namisum-en.imweb.me/163",
+          "kind": "official",
+          "title": "Nami Island admission fees",
+          "evidence": [
+            "Naminara Republic Visa Fees (Round-trip Ferry Fare Included)",
+            "￦19,000",
+            "Seniors (70+ yrs.)",
+            "Children (36months ~ Elementary School Age)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-nami-island-tour.html": [
+          "₩19,000, round-trip ferry included",
+          "The regular adult fee is ₩19,000 with the round-trip ferry fare included",
+          "₩16,000 for middle and high school students and for ages 70 and over",
+          "₩13,000 for children from 36 months to elementary school age"
+        ]
+      }
+    },
+    {
+      "id": "kr.nami.free-and-evening",
+      "topic": "entry",
+      "claim": "Children aged 36 months and under and tour guides enter free; the special 13,000 won rate also applies to early-bird tickets before the 08:00 ferry and, December to March, to tickets bought after 18:01.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://namisum-en.imweb.me/35/?bmode=view&idx=7167956",
+          "kind": "official",
+          "title": "Nami Island FAQ: admission prices",
+          "evidence": [
+            "Early Bird: 08:00 Ferry (tickets purchased before 08:00)",
+            "Dec.-Mar.: tickets purchased after 18:01",
+            "Free Entrance: Tour guide / Child aged 36 months under"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-nami-island-tour.html": [
+          "Children aged 36 months and under, and tour guides, enter free",
+          "tickets bought after 18:01",
+          "early-bird tickets bought and boarded before the 08:00 ferry"
+        ]
+      }
+    },
+    {
+      "id": "kr.nami.open-year-round",
+      "topic": "place",
+      "claim": "Nami Island states it is open throughout the year.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://namisum-en.imweb.me/163",
+          "kind": "official",
+          "title": "Nami Island admission fees",
+          "evidence": [
+            "It is open throughout the year."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-nami-island-tour.html": [
+          "open throughout the year",
+          "Nami Island says it is open throughout the year"
+        ]
+      }
     }
   ]
 }

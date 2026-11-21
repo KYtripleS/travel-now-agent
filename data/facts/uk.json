@@ -5100,6 +5100,159 @@
           "13 November 2027 to 16 January 2028"
         ]
       }
+    },
+    {
+      "id": "uk.lon.eye.non-transferable",
+      "topic": "entry",
+      "claim": "London Eye tickets are non-transferable, not for resale and become void on any transfer; the terms name no authorised resellers.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.londoneye.com/security-privacy/terms-conditions/",
+          "kind": "official",
+          "title": "The London Eye Terms and conditions (General)",
+          "evidence": [
+            "All tickets are non-transferable, not for resale and will become automatically void on any transfer"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-london-eye-tickets.html": [
+          "tickets are non-transferable, not for resale, and void on transfer"
+        ]
+      }
+    },
+    {
+      "id": "uk.lon.eye.valid-date",
+      "topic": "entry",
+      "claim": "Tickets are only valid on the date printed on the ticket.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.londoneye.com/security-privacy/terms-conditions/",
+          "kind": "official",
+          "title": "The London Eye Terms and conditions (General)",
+          "evidence": [
+            "Tickets purchased are only valid on the date printed on the ticket."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-london-eye-tickets.html": [
+          "Tickets are valid only on the date printed on the ticket."
+        ]
+      }
+    },
+    {
+      "id": "uk.lon.eye.refunds",
+      "topic": "entry",
+      "claim": "Payments for all ticket types are non-refundable; exchange or refund is at the operator's discretion; the booking page says a ticket can be rescheduled for free.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.londoneye.com/security-privacy/terms-conditions/",
+          "kind": "official",
+          "title": "The London Eye Terms and conditions (General)",
+          "evidence": [
+            "Payments for all ticket types and bookings for Private Pods are non-refundable.",
+            "Tickets will only be exchanged or refunded if Merlin, in its absolute discretion, chooses to do so."
+          ]
+        },
+        {
+          "url": "https://ticketing.londoneye.com/en/tickets/standard-london-eye-fast-track-tickets",
+          "kind": "official",
+          "title": "London Eye: General Admission Tickets",
+          "evidence": [
+            "You can reschedule your ticket for free if your plans change"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-london-eye-tickets.html": [
+          "Payments for all ticket types and bookings for Private Pods are non-refundable",
+          "you can reschedule your ticket for free if your plans change"
+        ]
+      }
+    },
+    {
+      "id": "uk.lon.eye.price-2026-12-12",
+      "topic": "price",
+      "claim": "On 22 Nov 2026 the booking calendar showed 12 December 2026 at the 10:00 slot: Standard adult GBP 29.00 and Fast Track adult GBP 44.00; the ticket page lists Flexi Fast Track from GBP 49.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://ticketing.londoneye.com/en/tickets/standard-london-eye-fast-track-tickets",
+          "kind": "official",
+          "title": "London Eye: General Admission Tickets",
+          "evidence": [
+            "Fast Track: Adult (16+)",
+            "£44.00",
+            "£29.00"
+          ]
+        },
+        {
+          "url": "https://www.londoneye.com/tickets-and-prices/",
+          "kind": "official",
+          "title": "Official Tickets, Passes & Prices | The London Eye",
+          "evidence": [
+            "Flexi Fast Track Ticket",
+            "Online from",
+            "£49"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-london-eye-tickets.html": [
+          "£29.00 (10:00)",
+          "£44.00 (10:00)",
+          "from £49 (listing price, not read for the date)"
+        ]
+      }
+    },
+    {
+      "id": "uk.lon.eye.children-luggage",
+      "topic": "entry",
+      "claim": "Children aged 15 and under must be accompanied by an adult aged 18+; children under 2 need a free ticket; suitcases and large hand luggage are not permitted.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://ticketing.londoneye.com/en/tickets/standard-london-eye-fast-track-tickets",
+          "kind": "official",
+          "title": "London Eye: General Admission Tickets",
+          "evidence": [
+            "children aged 15 and under must be accompanied by an adult aged 18+. All children under 2 require a ticket (free of charge)",
+            "Suitcases or large items of hand luggage are not permitted for security reasons"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-london-eye-tickets.html": [
+          "children aged 15 and under must be accompanied by an adult aged 18 or over",
+          "suitcases and large items of hand luggage are not permitted for security reasons"
+        ]
+      }
+    },
+    {
+      "id": "uk.lon.eye.ride",
+      "topic": "place",
+      "claim": "The London Eye rises 135 metres above the Thames and a ride is a 30-minute rotation.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://ticketing.londoneye.com/en/tickets/standard-london-eye-fast-track-tickets",
+          "kind": "official",
+          "title": "London Eye: General Admission Tickets",
+          "evidence": [
+            "Rising 135 metres above the River Thames",
+            "Duration: 30-minute rotation"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-london-eye-tickets.html": [
+          "a ride is a 30-minute rotation"
+        ]
+      }
     }
   ]
 }

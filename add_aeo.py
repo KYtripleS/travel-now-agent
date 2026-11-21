@@ -464,6 +464,31 @@ V = {
              "non-resident price, and the one listing we read with free cancellation up to 24 hours before. Viator "
              "was also lowest for the version with the Supertree Observatory, at SGD 54.",
         cta=("href", "Check Gardens by the Bay tickets on Viator", "https://viator.tpx.lu/xckcQbR4")),
+    "where-to-buy-london-eye-tickets": dict(
+        text="Buy on GetYourGuide: £29 for the standard ticket and £44 for Fast Track on 12 December, the London "
+             "Eye’s own prices, on a listing marked “Official ticket” and free to cancel until the day before. "
+             "Tickets are dated and cannot be passed on, so book for the day you will ride.",
+        cta=("href", "Check London Eye tickets on GetYourGuide", "https://getyourguide.tpx.lu/IRFCKzS6")),
+    "where-to-book-golden-circle-tour": dict(
+        text="Pick the tour by its stops: Tiqets’ Grand Golden Circle, about $95 for 12 December, is the cheapest "
+             "listing we read that includes the Kerið crater fee, free to cancel up to 24 hours ahead. With hotel "
+             "pickup, Viator’s classic day trip was lowest at $100.58.",
+        cta=("href", "Check the Golden Circle tour on Tiqets", "https://tiqets.tpx.lu/cLymQrX6")),
+    "where-to-book-nami-island-tour": dict(
+        text="Book GetYourGuide’s Nami Island and Petite France day: $35 for 12 December, the lowest we read, with "
+             "pickups in Hongdae, Myeongdong and Dongdaemun and free cancellation until the day before. For the "
+             "Garden of Morning Calm light festival, its Nami and Garden day was $54.08.",
+        cta=("href", "Check the Nami Island tour on GetYourGuide", "https://getyourguide.tpx.lu/0mslX6BL")),
+    "where-to-buy-top-of-the-rock-tickets": dict(
+        text="Buy on Tiqets: $53.35 for the 11:00 pm slot on 9 December, the lowest any partner showed, free to "
+             "cancel until 7 December, and it lists every slot’s price in one column so you see what your exact "
+             "time costs. GetYourGuide matched $53.35 for the same slot.",
+        cta=("href", "Check Top of the Rock tickets on Tiqets", "https://tiqets.tpx.lu/8RGYDhdA")),
+    "where-to-book-seine-river-cruise": dict(
+        text="For the one-hour cruise from the foot of the Eiffel Tower, book Bateaux Parisiens on Tiqets: $19.75 "
+             "for 12 December, free to cancel or reschedule until the day before. For dinner on the river, Tiqets’ "
+             "three-course Bateaux Parisiens cruise with drinks was $108.63.",
+        cta=("href", "Check the Seine cruise on Tiqets", "https://tiqets.tpx.lu/c8X2glOI")),
     "where-to-book-snow-monkey-tour": dict(
         text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
              "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
@@ -3625,7 +3650,9 @@ STAY_POINTERS = {
         'Christmas</a> matches hotels to Tivoli (13 November to 3 January) and the city’s Christmas markets.'),
     "where-to-stay-in-berlin": ("intro",
         'Here for 31 December? <a href="where-to-stay-in-berlin-new-years-eve.html">Where to stay in Berlin for New Year’s '
-        'Eve</a> matches hotels to the Brandenburg Gate party, the fireworks-ban zones and the night trains.'),
+        'Eve</a> matches hotels to the Brandenburg Gate party, the fireworks-ban zones and the night trains. '
+        'Here for the Christmas markets? <a href="where-to-stay-in-nuremberg-christmas-market.html">Nuremberg’s '
+        'Christkindlesmarkt (27 November to 24 December 2026)</a> is about 2 hours 45 minutes from Berlin by ICE.'),
     "where-to-stay-in-dubai": ("intro",
         'Here for 31 December? <a href="where-to-stay-in-dubai-new-years-eve.html">Where to stay in Dubai for New Year’s '
         'Eve</a> matches hotels to the Burj Khalifa fireworks, the road closures and the Palm. Going up the tower? '
@@ -3737,7 +3764,8 @@ STAY_POINTERS = {
         'and Busan Station, and names nine hotels. Coming in April? <a href="where-to-stay-in-seoul-cherry-blossom.html">'
         'Seoul hotels for cherry blossom season</a> matches the areas to Yeouido and Seokchon Lake. Spending a day at '
         'Lotte World? <a href="where-to-buy-lotte-world-tickets.html">Lotte World tickets compared</a> sets KKday and '
-        'GetYourGuide beside the park’s own price for the same day.'),
+        'GetYourGuide beside the park’s own price for the same day. Going to Nami Island? '
+        '<a href="where-to-book-nami-island-tour.html">Nami Island tours compared</a> sets the day trips from Seoul side by side for one December Saturday.'),
     "where-to-stay-in-japan": [
         ("When to book",
         f'Booking Fukuoka for a stay by 15 December? <a href="{_FK}#the-kyushu-recovery-discount-to-15-december-2026">'
@@ -3980,7 +4008,8 @@ STAY_POINTERS = {
         'Christmas</a> matches hotels to the Rockefeller Center tree (lit on 2 December), Bryant Park and Radio City. '
         'Staying for 31 December? <a href="where-to-stay-in-new-york-new-years-eve.html">Where to stay in New York '
         'for New Year’s Eve</a> covers the Times Square ball drop and the closures.'
-        ' Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'),
+        ' Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'
+        ' Or Top of the Rock? <a href="where-to-buy-top-of-the-rock-tickets.html">Top of the Rock tickets compared</a> prices each time slot on one December day.'),
     "where-to-stay-in-okinawa": ("intro",
         'Heading north to the aquarium or the beaches? <a href="car-rental-okinawa.html">Renting a car in Okinawa</a> '
         'compares DiscoverCars with Toyota Rent a Car and covers the International Driving Permit rule.'),
@@ -3995,6 +4024,9 @@ STAY_POINTERS = {
         'Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'),
     "where-to-stay-in-tromso-northern-lights": ("intro",
         'Booking an aurora evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side for one December date, with the cancellation terms.'),
+    "where-to-stay-in-reykjavik-northern-lights": ("intro",
+        'Doing the Golden Circle? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> '
+        'sets the bus, hotel-pickup and Secret Lagoon versions side by side for one December Saturday.'),
     "where-to-stay-in-hakuba": ("intro",
         'Seeing the snow monkeys? <a href="where-to-book-snow-monkey-tour.html">Snow monkey day tours compared</a> sets the Tokyo and Nagano departures side by side for one December date.'),
     "where-to-stay-in-london": ("intro",
@@ -4006,7 +4038,8 @@ STAY_POINTERS = {
         'for the London Marathon 2027</a> covers the two race days, 24 and 25 April, from the Greenwich start to The Mall. '
         'Here for the tennis? <a href="where-to-stay-for-wimbledon.html">Where to stay for Wimbledon 2027</a> '
         '(28 June to 11 July) compares the Village, Richmond and the District line into town.'
-        ' Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'),
+        ' Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'
+        ' Riding the London Eye? <a href="where-to-buy-london-eye-tickets.html">London Eye tickets compared</a> shows the standard and Fast Track prices for one December day.'),
     "where-to-stay-in-boston": ("intro",
         'Running or watching in April? <a href="where-to-stay-for-boston-marathon.html">Where to stay for the Boston '
         'Marathon 2027</a> (Monday 19 April) weighs Back Bay by the finish against Cambridge and the start towns.'),
@@ -4058,13 +4091,11 @@ STAY_POINTERS = {
         'prices beside Tiqets and GetYourGuide for the same date. '
         'Staying for 31 December? <a href="where-to-stay-in-paris-new-years-eve.html">Where to stay in Paris for '
         'New Year’s Eve</a> covers the Champs-Élysées celebration, last year’s station closures and the city tax.'
-        ' Going up the tower? <a href="where-to-buy-eiffel-tower-tickets.html">Eiffel Tower tickets compared</a> sets the guided and summit bundles on Tiqets, GetYourGuide and Viator side by side for one December date.'),
+        ' Going up the tower? <a href="where-to-buy-eiffel-tower-tickets.html">Eiffel Tower tickets compared</a> sets the guided and summit bundles on Tiqets, GetYourGuide and Viator side by side for one December date.'
+        ' On the river? <a href="where-to-book-seine-river-cruise.html">Seine cruises compared</a> sets the one-hour and dinner cruises side by side for one December Saturday.'),
     "where-to-stay-in-strasbourg-christmas-market": ("intro",
         'Weighing Germany’s best-known market instead? <a href="where-to-stay-in-nuremberg-christmas-market.html">'
         'Where to stay for the Nuremberg Christmas market</a> runs on the same dates, 27 November to 24 December.'),
-    "where-to-stay-in-berlin": ("intro",
-        'Here for the Christmas markets? <a href="where-to-stay-in-nuremberg-christmas-market.html">Nuremberg’s '
-        'Christkindlesmarkt (27 November to 24 December 2026)</a> is about 2 hours 45 minutes from Berlin by ICE.'),
     "where-to-stay-in-los-angeles": ("intro",
         'Here for the Super Bowl? <a href="where-to-stay-in-los-angeles-super-bowl.html">Where to stay for '
         'Super Bowl LXI</a> at SoFi Stadium compares Inglewood, LAX, El Segundo and Culver City by route and '
@@ -4132,7 +4163,9 @@ STAY_POINTERS = {
          'Here for 31 December? <a href="where-to-stay-in-reykjavik-new-years-eve.html">Where to stay for New Year’s '
          'Eve</a> covers the bonfires, the fireworks and the holiday buses. Driving beyond the city? '
          '<a href="car-rental-iceland.html">Renting a car in Iceland</a> sets DiscoverCars beside Blue Car Rental '
-         'for the same dates and explains the excess, gravel cover and the winter F-road closures.'),
+         'for the same dates and explains the excess, gravel cover and the winter F-road closures. Doing the Golden '
+         'Circle? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> sets the bus, '
+         'hotel-pickup and Secret Lagoon versions side by side for one December Saturday.'),
         ("The short answer",
          'Weighing Norway for the aurora? <a href="where-to-stay-in-tromso-northern-lights.html">Tromsø for the '
          'northern lights (2026/27)</a> covers the polar night, the airport bus and the 3% visitor fee planned '

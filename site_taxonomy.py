@@ -271,6 +271,11 @@ BY_SLUG = {
     "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
     "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Food",
     # 2026-10-31 ticket comparisons
+    "where-to-book-seine-river-cruise": "Booking & tours",
+    "where-to-buy-top-of-the-rock-tickets": "Booking & tours",
+    "where-to-book-nami-island-tour": "Booking & tours",
+    "where-to-book-golden-circle-tour": "Booking & tours",
+    "where-to-buy-london-eye-tickets": "Booking & tours",
     "where-to-buy-gardens-by-the-bay-tickets": "Booking & tours",
     "where-to-buy-shibuya-sky-tickets": "Booking & tours",
     "where-to-buy-universal-studios-hollywood-tickets": "Booking & tours",

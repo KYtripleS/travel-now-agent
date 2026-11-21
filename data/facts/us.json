@@ -12245,6 +12245,198 @@
           "$389.95 on the park's calendar"
         ]
       }
+    },
+    {
+      "id": "us.nyc.totr.refund-reschedule",
+      "topic": "place",
+      "claim": "Top of the Rock sales are final and non-refundable; tickets may be rescheduled up to 24 hours before the visit, subject to availability, and price differences may apply.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+          "kind": "official",
+          "title": "Top of the Rock tickets and FAQ",
+          "evidence": [
+            "All sales are final and non-refundable. Tickets may be rescheduled up to 24 hours before your visit, subject to availability. Price differences may apply."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-top-of-the-rock-tickets.html": [
+          "All sales are final and non-refundable.",
+          "Price differences may apply"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.totr.children-ages",
+      "topic": "entry",
+      "claim": "Children aged 5 and under receive free admission; age bands are adult 13-61, child 6-12, senior 62+.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+          "kind": "official",
+          "title": "Top of the Rock tickets and FAQ",
+          "evidence": [
+            "Yes, children ages 5 and under receive free admission."
+          ]
+        },
+        {
+          "url": "https://www.rockefellercenter.com/buy-tickets/timed-admission/",
+          "kind": "official",
+          "title": "Timed admission checkout",
+          "evidence": [
+            "Adult: 13 - 61 Years",
+            "Child: 6 - 12 Years",
+            "Senior: 62+ Years"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-top-of-the-rock-tickets.html": [
+          "Children aged 5 and under receive free admission",
+          "adult 13 to 61, child 6 to 12 and senior 62 and over"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.totr.slot-prices-9dec",
+      "topic": "price",
+      "claim": "On 22 Nov 2026 the timed admission page showed adult prices for 9 Dec 2026 of $56 for 9:00 am-1:50 pm and 7:00-9:50 pm, $68 for 2:00-2:50 pm and 5:20-6:50 pm, $71-$83 around 3:00-4:20 pm, $53 at 10 pm and $49 at 11 pm; 3:20-4:00 pm sold out.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.rockefellercenter.com/buy-tickets/timed-admission/",
+          "kind": "official",
+          "title": "Timed admission date and time page",
+          "evidence": [
+            "09:00 am $56",
+            "02:00 pm $68",
+            "03:10 pm $83",
+            "11:00 pm $49",
+            "03:20 pm Sold Out"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-top-of-the-rock-tickets.html": [
+          "$56",
+          "$49 at 11:00 pm to $83 at 3:10 pm"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.totr.price-from",
+      "topic": "price",
+      "claim": "On 22 Nov 2026 the ticket page listed Timed Admission from $42, All-Inclusive Pass from $82 and VIP Pass from $185; the pass checkout said from $77.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+          "kind": "official",
+          "title": "Top of the Rock tickets and FAQ",
+          "evidence": [
+            "From $42",
+            "From $82",
+            "From $185"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-top-of-the-rock-tickets.html": [
+          "from $185"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.totr.hours",
+      "topic": "place",
+      "claim": "Top of the Rock is open daily 8 AM to 12 AM with last entry at 11:10 PM.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+          "kind": "official",
+          "title": "Top of the Rock tickets and FAQ",
+          "evidence": [
+            "Daily from 8 AM - 12 AM",
+            "Last entry is at 11:10 PM"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-top-of-the-rock-tickets.html": [
+          "Open daily from 8 AM to 12 AM, with last entry at 11:10 PM"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.totr.security",
+      "topic": "entry",
+      "claim": "There is a security checkpoint for all visitors; outside food and beverages, weapons and tripods are not permitted.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+          "kind": "official",
+          "title": "Top of the Rock tickets and FAQ",
+          "evidence": [
+            "There is a security checkpoint for all visitors.",
+            "Outside food and beverages are not permitted.",
+            "Tripods are also not allowed."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-top-of-the-rock-tickets.html": [
+          "There is a security checkpoint for all visitors."
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.totr.floors-height",
+      "topic": "place",
+      "claim": "The observation experience spans the 67th, 69th and 70th floors; the deck is 850 feet above Midtown and SKYLIFT raises visitors 30 feet above the 70th floor.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+          "kind": "official",
+          "title": "Top of the Rock tickets and FAQ",
+          "evidence": [
+            "Top of the Rock sits 850 feet (259 meters) above Midtown Manhattan, on the 70th floor of 30 Rockefeller Plaza. The full observation experience spans three floors: the 67th, 69th, and 70th.",
+            "SKYLIFT, the rotating glass platform on the rooftop, raises visitors 30 feet above the 70th floor"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-top-of-the-rock-tickets.html": [
+          "The deck is 850 feet above Midtown, on the 70th floor, and SKYLIFT raises visitors 30 feet above it."
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.totr.christmas-tree",
+      "topic": "place",
+      "claim": "The Christmas Tree and The Rink are not visible from the observation decks; the VIP pass lists a Christmas Tree Experience 12/3-1/3.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.rockefellercenter.com/tickets/top-of-the-rock-observation-deck/",
+          "kind": "official",
+          "title": "Top of the Rock tickets and FAQ",
+          "evidence": [
+            "No. The Christmas Tree and The Rink are not visible from the observation decks. Both are easily accessible at ground level after your visit.",
+            "Christmas Tree Experience 12/3 - 1/3"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-top-of-the-rock-tickets.html": [
+          "the Christmas Tree and The Rink are not visible from the observation decks"
+        ]
+      }
     }
   ]
 }
