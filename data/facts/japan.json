@@ -8758,6 +8758,194 @@
           "pay the adult fare"
         ]
       }
+    },
+    {
+      "id": "jp.tokyo.shibuya-sky.adult-price",
+      "topic": "price",
+      "claim": "Shibuya Sky adult (12+) web ticket is ¥2,700 for entry up to 14:59 and ¥3,400 from 15:00.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.shibuya-scramble-square.com/sky/ticket/",
+          "kind": "official",
+          "title": "SHIBUYA SKY ticket purchase",
+          "evidence": [
+            "14:59までの入場",
+            "15:00以降の入場",
+            "3,400円"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shibuya-sky-tickets.html": [
+          "Entry up to 14:59 is ¥2,700 and entry from 15:00 is ¥3,400 for adults"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.shibuya-sky.counter-price",
+      "topic": "price",
+      "claim": "At the counter an adult ticket is ¥3,000 up to 15:00 and ¥3,700 from 15:00; child tickets (11 and under) are ¥1,200, sold at the counter only.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.shibuya-scramble-square.com/sky/ticket/",
+          "kind": "official",
+          "title": "SHIBUYA SKY ticket purchase",
+          "evidence": [
+            "15:00までの入場 3,000円 / 15:00以降の入場 3,700円",
+            "当日窓口のみ（1,200円）"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shibuya-sky-tickets.html": [
+          "an adult ticket is ¥3,000 up to 15:00 and ¥3,700 from 15:00",
+          "¥1,200, ticket counter only"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.shibuya-sky.release-window",
+      "topic": "entry",
+      "claim": "Shibuya Sky tickets go on sale at 00:00 Japan time, 14 days before the visit date.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.shibuya-scramble-square.com/sky/faq/",
+          "kind": "official",
+          "title": "SHIBUYA SKY FAQ",
+          "evidence": [
+            "SHIBUYA SKYの入場チケットは入場日の2週間前の日本時間午前0時から販売されます。"
+          ]
+        },
+        {
+          "url": "https://www.kkday.com/en/product/133300-shibuya-sky-observatory-e-ticket-tokyo",
+          "kind": "operator",
+          "title": "KKday Shibuya Sky listing",
+          "evidence": [
+            "Tickets go on sale at 0:00 (GMT+9), 14 days before the date of use."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shibuya-sky-tickets.html": [
+          "Tickets go on sale at 00:00 Japan time, 14 days before the visit date."
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.shibuya-sky.authorised-resellers",
+      "topic": "entry",
+      "claim": "The venue names Klook, KKday and Trip.com as authorised resellers and says tickets bought from other sellers cannot be used for entry.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.shibuya-scramble-square.com/sky/faq/",
+          "kind": "official",
+          "title": "SHIBUYA SKY FAQ",
+          "evidence": [
+            "公式チケット販売サイトまたは正規販売代理店以外で購入されたチケットではご入場いただけません",
+            "正規販売代理店のKlook、KKday、Trip.com"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shibuya-sky-tickets.html": [
+          "cannot be used for entry"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.shibuya-sky.cancellation",
+      "topic": "entry",
+      "claim": "Eligible web tickets can be cancelled free until the day before the visit; if the roof is closed at the entry time, free cancellation is allowed that day only; counter tickets cannot be cancelled.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.shibuya-scramble-square.com/sky/faq/",
+          "kind": "official",
+          "title": "SHIBUYA SKY FAQ",
+          "evidence": [
+            "キャンセルサービス対象のWEBチケットに限り、ご来場日の前日まで無料でキャンセルできます。",
+            "窓口でご購入いただいたチケットは、キャンセルできません。"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shibuya-sky-tickets.html": [
+          "Web tickets that are eligible can be cancelled free until the day before the visit",
+          "Counter tickets cannot be cancelled."
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.shibuya-sky.passport",
+      "topic": "entry",
+      "claim": "Tickets from the official overseas ticket site, Klook, KKday or Trip.com require each entrant's passport; QR codes are not accepted and passport details must match the booking.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.shibuya-scramble-square.com/sky/faq/",
+          "kind": "official",
+          "title": "SHIBUYA SKY FAQ",
+          "evidence": [
+            "※対象となるチケットは、QRコードではご入場いただけません。",
+            "※購入時に登録したパスポート情報と、ご入場時にご提示いただくパスポート情報が異なる場合は、ご入場いただけません。"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shibuya-sky-tickets.html": [
+          "every person entering must carry their own passport",
+          "QR codes will not be accepted for these tickets"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.shibuya-sky.roof-closure",
+      "topic": "place",
+      "claim": "The roof can close in strong wind, rain, snow, approaching thunderclouds, smog or extreme heat; bags, backpacks, tripods, hats, food and drink cannot go on the roof.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.shibuya-scramble-square.com/sky/ticket/",
+          "kind": "official",
+          "title": "SHIBUYA SKY ticket purchase",
+          "evidence": [
+            "強風、降雨、積雪、雷雲接近、光化学スモッグ・異常高温等の気象条件の際は、屋上を閉鎖する場合がございます。",
+            "三脚・一脚・自撮り棒"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shibuya-sky-tickets.html": [
+          "The roof can close for strong wind, rain, snow, approaching thunderclouds, photochemical smog and abnormal heat."
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.shibuya-sky.kkday-terms",
+      "topic": "entry",
+      "claim": "KKday's Shibuya Sky listing allows cancellation up to 1 day before the visit and requires a roof-closure refund request by 11:59 PM Japan time on the day.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/133300-shibuya-sky-observatory-e-ticket-tokyo",
+          "kind": "operator",
+          "title": "KKday Shibuya Sky listing",
+          "evidence": [
+            "Cancellations 1 day(s) (inclusive) before the selected date are allowed.",
+            "Travelers must submit their cancellation requests to KKday by 11:59 PM Japan Standard Time"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-shibuya-sky-tickets.html": [
+          "Cancellations 1 day(s) (inclusive) before the selected date are allowed",
+          "by 11:59 PM Japan time on the day of your visit"
+        ]
+      }
     }
   ]
 }

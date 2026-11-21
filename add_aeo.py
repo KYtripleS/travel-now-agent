@@ -454,6 +454,16 @@ V = {
              "12 December with thermal suits and photos included, free to cancel up to 2 days ahead and confirmed "
              "instantly. Viator’s minibus chase, from €162.60, caps the group at 15 and adds a hot meal.",
         cta=("href", "Check the Tromsø tour on KKday", "https://kkday.tpx.lu/e1r4iW5h")),
+    "where-to-buy-shibuya-sky-tickets": dict(
+        text="Buy a dated ticket on KKday, one of the three resellers Shibuya Sky names as authorised: ¥2,700 "
+             "for an 11:00 entry and ¥3,400 for 18:00 on 5 December, the venue’s own two prices, with instant "
+             "confirmation and free cancellation to the day before. Dates open 14 days ahead; bring your passport.",
+        cta=("href", "Check Shibuya Sky tickets on KKday", "https://kkday.tpx.lu/QqldSFC9")),
+    "where-to-buy-gardens-by-the-bay-tickets": dict(
+        text="Buy the Flower Dome and Cloud Forest ticket on Viator: SGD 46 for 15 December, the gardens’ own "
+             "non-resident price, and the one listing we read with free cancellation up to 24 hours before. Viator "
+             "was also lowest for the version with the Supertree Observatory, at SGD 54.",
+        cta=("href", "Check Gardens by the Bay tickets on Viator", "https://viator.tpx.lu/xckcQbR4")),
     "where-to-book-snow-monkey-tour": dict(
         text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
              "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
@@ -3541,16 +3551,7 @@ def add_city_rates(soup: BeautifulSoup, slug: str, article: Tag) -> int:
 # clicks). One line under the verdict sends each to the page for their own trip.
 # slug -> (label, lead, [(link text, href)])
 PICKERS = {
-    "klook-vs-viator-vs-getyourguide": ("For your trip", "Booking one tour? We compared the platforms for each:", [
-        ("Tokyo food tours", "where-to-book-tokyo-food-tour.html"),
-        ("Mount Fuji day tours", "where-to-book-mount-fuji-day-tour.html"),
-        ("Seoul DMZ tours", "where-to-book-seoul-dmz-tour.html"),
-        ("Jeju bus tours", "where-to-book-jeju-bus-tour.html"),
-        ("Taipei day tours", "where-to-book-taipei-day-tour.html"),
-        ("Bangkok dinner cruises", "where-to-book-bangkok-dinner-cruise.html"),
-        ("Halong Bay cruises", "where-to-book-halong-bay-cruise.html"),
-        ("Sydney harbour cruises", "where-to-book-sydney-harbour-cruise.html"),
-    ]),
+    # klook-vs-viator-vs-getyourguide: replaced 2026-11-22 by ops/add_finder.py, which lists every tour and ticket page
     "best-travel-esim-2026": ("For your trip", "Going to one country? Our pick for each:", [
         ("Japan", "best-esim-japan-2026.html"),
         ("South Korea", "best-esim-south-korea-2026.html"),
@@ -3764,7 +3765,8 @@ STAY_POINTERS = {
         '<a href="where-to-stay-for-tokyo-disney-resort.html">Where to stay for Tokyo Disneyland</a> weighs the '
         'Disney Hotels, Shin-Urayasu and a Tokyo base. Booking teamLab? <a href="where-to-buy-teamlab-planets-tickets.html">'
         'teamLab Planets tickets compared</a> shows which sellers teamLab names and how date changes work.'
-        ' Seeing the snow monkeys? <a href="where-to-book-snow-monkey-tour.html">Snow monkey day tours compared</a> sets the Tokyo and Nagano departures side by side for one December date.'),
+        ' Seeing the snow monkeys? <a href="where-to-book-snow-monkey-tour.html">Snow monkey day tours compared</a> sets the Tokyo and Nagano departures side by side for one December date.'
+        ' Going up Shibuya Sky? <a href="where-to-buy-shibuya-sky-tickets.html">Shibuya Sky tickets compared</a> shows which sellers the venue accepts and when each date goes on sale.'),
     "where-to-stay-in-kyoto": ("intro",
         f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
         'give each city, and how to move your bags between them. Here for the autumn leaves? <a '
@@ -3904,7 +3906,8 @@ STAY_POINTERS = {
         'Here for 31 December? <a href="where-to-stay-in-singapore-new-years-eve.html">Where to stay for New Year’s Eve</a> '
         'covers the Marina Bay countdown and the late trains. Going to Sentosa? '
         '<a href="where-to-buy-universal-studios-singapore-tickets.html">Universal Studios Singapore tickets compared</a> '
-        'sets GetYourGuide, KKday and Tiqets beside the park’s own price for the same day.'),
+        'sets GetYourGuide, KKday and Tiqets beside the park’s own price for the same day. Visiting the domes? '
+        '<a href="where-to-buy-gardens-by-the-bay-tickets.html">Gardens by the Bay tickets compared</a> shows which sellers let you cancel.'),
     "where-to-stay-in-hong-kong-chinese-new-year": ("intro",
         'Weighing Singapore instead? <a href="where-to-stay-in-singapore-chinese-new-year.html">Where to stay in Singapore for Chinese New Year '
         '2027</a> covers 6 and 7 February there, Chinatown and the river.'),

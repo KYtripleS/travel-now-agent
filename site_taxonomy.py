@@ -271,6 +271,8 @@ BY_SLUG = {
     "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
     "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Food",
     # 2026-10-31 ticket comparisons
+    "where-to-buy-gardens-by-the-bay-tickets": "Booking & tours",
+    "where-to-buy-shibuya-sky-tickets": "Booking & tours",
     "where-to-buy-universal-studios-hollywood-tickets": "Booking & tours",
     "where-to-book-dubai-desert-safari": "Booking & tours",
     "where-to-buy-empire-state-building-tickets": "Booking & tours",

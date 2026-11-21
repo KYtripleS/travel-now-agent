@@ -4,7 +4,8 @@ ops/epc.py (90 days): the two most-read pages, klook-vs-viator-vs-getyourguide (
 hotel-booking-sites-comparison (270), earned nothing. Their partner links go to a platform's front page,
 where a reader has nothing to book yet. Every booking we have came from a page about one product in one
 city (Disneyland Paris tickets, a Florence stay map, a Seoul DMZ tour). So these pages now hand the reader
-straight to our dated, product-level guides, under the partner box and before the first chapter.
+straight to our dated, product-level guides, right under the verdict (most readers leave within seconds).
+On klook-vs-viator-vs-getyourguide it replaces add_aeo's shorter "For your trip" picker.
 
 Every link points to a page the site has; a missing page stops the script. Pages are grouped by region,
 one left edge, ruled (style-v2.css section 20).
@@ -25,6 +26,7 @@ TOURS = ("Booking a ticket or tour in one city? We priced each one on every part
     ("Japan", [("where-to-buy-tokyo-disney-resort-tickets", "Tokyo Disney Resort"),
                ("where-to-buy-universal-studios-japan-tickets", "Universal Studios Japan"),
                ("where-to-buy-teamlab-planets-tickets", "teamLab Planets"),
+               ("where-to-buy-shibuya-sky-tickets", "Shibuya Sky"),
                ("where-to-book-mount-fuji-day-tour", "Mount Fuji day tours"),
                ("where-to-book-tokyo-food-tour", "Tokyo food tours"),
                ("where-to-book-snow-monkey-tour", "Snow monkey tours")]),
@@ -35,6 +37,7 @@ TOURS = ("Booking a ticket or tour in one city? We priced each one on every part
                            ("where-to-book-jeju-bus-tour", "Jeju bus tours"),
                            ("where-to-book-taipei-day-tour", "Taipei day tours"),
                            ("where-to-buy-universal-studios-singapore-tickets", "Universal Studios Singapore"),
+                           ("where-to-buy-gardens-by-the-bay-tickets", "Gardens by the Bay"),
                            ("where-to-book-bangkok-dinner-cruise", "Bangkok dinner cruises"),
                            ("where-to-book-halong-bay-cruise", "Ha Long Bay cruises"),
                            ("where-to-buy-burj-khalifa-tickets", "Burj Khalifa"),
@@ -95,14 +98,18 @@ def main() -> None:
             p = root / "articles" / f"{name}.html"
             s = p.read_text(encoding="utf-8")
             new = block(spec, prefix, root)
-            if BEGIN in s:
-                s2 = re.sub(re.escape(BEGIN) + r".*?" + re.escape(END), lambda _: new, s, flags=re.S)
-            else:
-                main_at = s.index("<main")
-                m = re.compile(r"<!-- END tp-inject -->\n").search(s, main_at) or re.compile(r"<h2[ >]").search(s, main_at)
-                assert m, f"no anchor in {p}"
-                at = m.end() if m.group(0).startswith("<!--") else m.start()
-                s2 = s[:at] + new + "\n" + s[at:]
+            # remove the old block piece by piece: add_aeo re-inserts the verdict at the top of the article,
+            # which can land between our BEGIN comment and the nav
+            s2 = re.sub(r'\n?<nav class="gy-finder".*?</nav>', "", s, flags=re.S)
+            s2 = s2.replace(BEGIN + "\n", "").replace(BEGIN, "").replace(END + "\n", "").replace(END, "")
+            # straight under the verdict and its promise line: GA4 shows most readers leave within seconds
+            m = None
+            for pat in (r'<p class="gy-picker".*?</p>', r'<p class="gy-promise".*?</p>', r'<aside class="gy-verdict".*?</aside>'):
+                m = re.search(pat, s2, flags=re.S)
+                if m:
+                    break
+            assert m, f"no verdict in {p}"
+            s2 = s2[:m.end()] + "\n" + new + s2[m.end():]
             if s2 != s:
                 p.write_text(s2, encoding="utf-8")
                 print("finder:", p.relative_to(REPO))

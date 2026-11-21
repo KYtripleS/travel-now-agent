@@ -1421,6 +1421,169 @@
           "S$84.99"
         ]
       }
+    },
+    {
+      "id": "sg.gbtb.reseller-no-slot",
+      "topic": "entry",
+      "claim": "Tickets bought from resellers such as Klook or travel agencies need no time-slot booking; present the original ticket at the attraction.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.gardensbythebay.com.sg/en/frequently-asked-questions/general.html",
+          "kind": "official",
+          "title": "FAQ - General",
+          "evidence": [
+            "My tickets were bought from Klook / Travel Agencies / given by my company / corporate clients.",
+            "Booking of time slot is no longer required for those who have already purchased their tickets.",
+            "Please present the original ticket to our admission staff to gain entry to the attraction."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-gardens-by-the-bay-tickets.html": [
+          "Booking of time slot is no longer required for those who have already purchased their tickets."
+        ]
+      }
+    },
+    {
+      "id": "sg.gbtb.official-prices",
+      "topic": "price",
+      "claim": "Non-resident prices: Flower Dome + Cloud Forest SGD 46 adult / 32 child (3-12); Flower Dome + Jurassic World at Cloud Forest + Floral Fantasy + shuttle SGD 73 / 51; prices in SGD incl. GST.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/flower-dome.html",
+          "kind": "official",
+          "title": "Flower Dome",
+          "evidence": [
+            "FLOWER DOME & CLOUD FOREST (FEATURING JURASSIC WORLD: THE EXPERIENCE)",
+            "All stated prices are in Singapore dollars (SGD) and inclusive of GST.",
+            "FLOWER DOME + JURASSIC WORLD AT CLOUD FOREST + DISNEY GARDEN OF WONDER AT FLORAL FANTASY + SHUTTLE SERVICE"
+          ]
+        },
+        {
+          "url": "https://www.gardensbythebay.com.sg/en/frequently-asked-questions/general.html",
+          "kind": "official",
+          "title": "FAQ - General",
+          "evidence": [
+            "Flower Dome & Cloud Forest (featuring Jurassic World: The Experience)\t$46\t$32"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-gardens-by-the-bay-tickets.html": [
+          "SGD 46 for a non-resident adult and SGD 32 for a child",
+          "SGD 73 and SGD 51",
+          "Prices are in Singapore dollars and include GST."
+        ]
+      }
+    },
+    {
+      "id": "sg.gbtb.resident-proof",
+      "topic": "entry",
+      "claim": "Singapore Resident rates apply to citizens, PRs and people living in Singapore; proof of residency may be required at purchase or admission.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/flower-dome.html",
+          "kind": "official",
+          "title": "Flower Dome",
+          "evidence": [
+            "Singapore Resident rates apply to Singapore Citizens, Permanent Residents, as well as those living in Singapore, including Employment Pass, Work Permit and Dependent Pass holders.",
+            "Proof of residency may be required at the point of ticket purchase and / or admission."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-gardens-by-the-bay-tickets.html": [
+          "Proof of residency may be required"
+        ]
+      }
+    },
+    {
+      "id": "sg.gbtb.flower-dome-closure",
+      "topic": "place",
+      "claim": "Flower Dome closes on maintenance days; the next closure is 12 Jan 2027.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/flower-dome.html",
+          "kind": "official",
+          "title": "Flower Dome",
+          "evidence": [
+            "Flower Dome will be closed on maintenance days. The next closure will be on 12 Jan 2027."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-gardens-by-the-bay-tickets.html": [
+          "with the next closure on 12 January 2027"
+        ]
+      }
+    },
+    {
+      "id": "sg.gbtb.hours",
+      "topic": "place",
+      "claim": "Flower Dome opens daily 9.00am-9.00pm, last admission 8.30pm.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/flower-dome.html",
+          "kind": "official",
+          "title": "Flower Dome",
+          "evidence": [
+            "Daily: 9.00am – 9.00pm",
+            "(Last admission at 8.30pm)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-gardens-by-the-bay-tickets.html": [
+          "9:00 am to 9:00 pm daily, last admission 8:30 pm"
+        ]
+      }
+    },
+    {
+      "id": "sg.gbtb.reseller-price-1215",
+      "topic": "price",
+      "claim": "For 15 Dec 2026 (read 22 Nov) the Flower Dome + Cloud Forest adult ticket was SGD 45.99 on Tiqets, S$46.00 on GetYourGuide and SGD 46.00 on Viator; Supertree version SGD 54 Viator, S$60.00 GetYourGuide.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/singapore-attractions-c78125/tickets-for-gardens-by-the-bay-flower-dome-cloud-forest-p975673/",
+          "kind": "secondary",
+          "title": "Tiqets Flower Dome & Cloud Forest",
+          "evidence": [
+            "SGD 45.99",
+            "This ticket is nonrefundable"
+          ]
+        },
+        {
+          "url": "https://www.getyourguide.com/singapore-l170/singapore-gardens-by-the-bay-admission-e-ticket-t289680/",
+          "kind": "secondary",
+          "title": "GetYourGuide Admission E-Ticket",
+          "evidence": [
+            "S$46.00",
+            "S$60.00",
+            "This activity is non-refundable"
+          ]
+        },
+        {
+          "url": "https://www.viator.com/tours/Singapore/Garden-By-The-Bay-Ticket/d60449-40856P20",
+          "kind": "secondary",
+          "title": "Viator Gardens By The Bay E Tickets",
+          "evidence": [
+            "2 Adults x SGD 46.00",
+            "2 Adults x SGD 54.00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-gardens-by-the-bay-tickets.html": [
+          "SGD 45.99, SGD 46.00 and SGD 46.00",
+          "SGD 54 against SGD 60 on GetYourGuide"
+        ]
+      }
     }
   ]
 }
