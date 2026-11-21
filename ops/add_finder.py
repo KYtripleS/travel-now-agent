@@ -86,10 +86,10 @@ def block(spec, prefix: str, root: Path) -> str:
             if not (root / "articles" / page).exists():
                 sys.exit(f"finder: missing page articles/{page}")
             links.append(f'<a href="{page}">{escape(label)}</a>')
-        rows.append(f'<p class="gy-finder-row"><span class="gy-finder-region">{escape(region)}</span> '
-                    + '<span class="gy-finder-sep">·</span> '.join(links) + "</p>")
-    return (f'{BEGIN}\n<nav class="gy-finder" aria-label="Guides by city">\n'
-            f'<p class="gy-finder-h">{escape(lead)}</p>\n' + "\n".join(rows) + f"\n</nav>\n{END}")
+        rows.append(f'<p class="gy-cityfind-row"><span class="gy-cityfind-region">{escape(region)}</span> '
+                    + '<span class="gy-cityfind-sep">·</span> '.join(links) + "</p>")
+    return (f'{BEGIN}\n<nav class="gy-cityfind" aria-label="Guides by city">\n'
+            f'<p class="gy-cityfind-h">{escape(lead)}</p>\n' + "\n".join(rows) + f"\n</nav>\n{END}")
 
 
 def main() -> None:
@@ -100,7 +100,7 @@ def main() -> None:
             new = block(spec, prefix, root)
             # remove the old block piece by piece: add_aeo re-inserts the verdict at the top of the article,
             # which can land between our BEGIN comment and the nav
-            s2 = re.sub(r'\n?<nav class="gy-finder".*?</nav>', "", s, flags=re.S)
+            s2 = re.sub(r'\n?<nav(?=[^>]*aria-label="Guides by city")[^>]*>.*?</nav>', "", s, flags=re.S)
             s2 = s2.replace(BEGIN + "\n", "").replace(BEGIN, "").replace(END + "\n", "").replace(END, "")
             # straight under the verdict and its promise line: GA4 shows most readers leave within seconds
             m = None

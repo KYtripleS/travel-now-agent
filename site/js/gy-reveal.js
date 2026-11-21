@@ -191,8 +191,8 @@ window.gySaveTrip = function (box, dep) {
     var sp = e.target.closest('.gy-stay-pointer a');
     if (sp && window.gtag) gtag('event', 'stay_pointer_click', { page: location.pathname, target: sp.getAttribute('href') });
     /* a broad comparison sending its reader to the page for their own trip
-       (add_aeo.PICKERS, and the city list's "our area guide" links) */
-    var pk = e.target.closest('.gy-picker a, .gy-city-rates-list a[href$=".html"]');
+       (add_aeo.PICKERS, ops/add_finder.py, and the city list's "our area guide" links) */
+    var pk = e.target.closest('.gy-picker a, .gy-cityfind a, .gy-city-rates-list a[href$=".html"]');
     if (pk && window.gtag) gtag('event', 'picker_click', { page: location.pathname, target: pk.getAttribute('href') });
     /* since 2026-11-19 a hotel's name opens its checked Booking.com page (affiliate_click,
        placement 'hotelname'); "Hotel's own site", or a name with no Booking.com page, still
