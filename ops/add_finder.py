@@ -69,10 +69,11 @@ STAYS = ("Choosing where to stay in one city? Each guide maps the best area for 
                                 ("melbourne", "Melbourne")]),
 ])
 
+# hotel-booking-sites-comparison already has its own city list ("Looking for a hotel now?", add_aeo),
+# so STAYS is kept for a page without one.
 PAGES = {
     "klook-vs-viator-vs-getyourguide": (TOURS, ""),
     "klook-vs-kkday": (TOURS, ""),
-    "hotel-booking-sites-comparison": (STAYS, "where-to-stay-in-"),
 }
 
 
