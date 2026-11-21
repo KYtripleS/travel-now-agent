@@ -86,3 +86,14 @@ public or official alternative instead of the partner product the guide is about
 tour, take the bus", no "the public boat is the best value", no "the official app's discount beats the
 pass"). Say what the product gives, who it suits and when it pays off, with true numbers. Never invent a
 reason to buy, and never hide a fact a reader needs to stay safe or legal.
+
+## Lessons from 21 November 2026 (read before writing)
+- Run as a general-purpose agent: the article-writer agent has no browser tools. Load the browser with
+  ToolSearch "select:mcp__Claude_Browser__tabs_create,mcp__Claude_Browser__navigate,mcp__Claude_Browser__get_page_text,mcp__Claude_Browser__find,mcp__Claude_Browser__computer,mcp__Claude_Browser__tabs_close".
+  Call tabs_create first, pass its tabId on every call, and close the tab at the end. Never inject scripts into pages.
+- Mention the official site's prices only in the table's official column, and in the one "own pages" paragraph as rules.
+  Never write prose about the official site's own cheaper packages, guided tours or transfer deals.
+- No section or FAQ on getting there without the product ("how do I get there without a coach package",
+  "take the train instead"). Transport facts appear only as part of what a listing includes.
+- No short-answer row or bullet for a seller you could not read. Just mark it "not checked" in the table.
+- Partner links may be Markdown links or <a href>. Use the raw listing URL; the editor converts it.

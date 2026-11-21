@@ -455,6 +455,274 @@
           "reception, breakfast and restaurant services are 600 m away at Santa's Hotel Santa Claus"
         ]
       }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.season",
+      "topic": "place",
+      "claim": "Visit Rovaniemi says the Aurora Borealis is visible in Rovaniemi from late August until mid April and that you never know when it will appear.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.visitrovaniemi.fi/see-do/activities/northern-lights-tours/",
+          "kind": "official",
+          "title": "Northern Lights Tours - Visit Rovaniemi",
+          "evidence": [
+            "You never know when the Northern Lights will appear",
+            "The Aurora Borealis are visible in Rovaniemi from late August until mid April."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "visible in Rovaniemi from late August until mid April",
+          "you never know when the Northern Lights will appear"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.fmi-thresholds",
+      "topic": "place",
+      "claim": "FMI: when the upper geomagnetic threshold is exceeded it is very likely auroras can be seen; when only the lower is crossed auroras are possible but usually dim.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://en.ilmatieteenlaitos.fi/auroras-and-space-weather",
+          "kind": "official",
+          "title": "Auroras and space weather - FMI",
+          "evidence": [
+            "When the lower but not the upper threshold is crossed, auroras are possible, but they are usually dim.",
+            "When the upper threshold is exceeded, it is very likely that one can see auroras."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "it is very likely one can see auroras"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.viator-arcticgm-signature",
+      "topic": "price",
+      "claim": "Viator Arctic GM Signature Small Group (max 8), 12 Dec 2026, EUR 199 per adult (EUR 398 for two), 19:00; free cancellation before 19:00 on 11 Dec; pickup and winter overalls included.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Northern-Lights-Tour-Guaranteed-Viewing-and-Unlimited-Mileage/d22130-424075P1",
+          "kind": "secondary",
+          "title": "Viator: Rovaniemi Northern Lights Tour - 100% Guarantee & Photos",
+          "evidence": [
+            "Signature Small Group - Max 8",
+            "2 Adults x €199.00",
+            "Free cancellation before 19:00 on 11 Dec (local time)",
+            "accommodation pickup/drop-off in Rovaniemi and winter overalls included"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "at €199 a head",
+          "free cancellation until 19:00 the day before",
+          "max 8 guests"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.viator-arcticgm-coach",
+      "topic": "price",
+      "claim": "Viator Arctic GM Coach Bus Tour, 12 Dec 2026, EUR 139 per adult; no pickup; thermal winter overalls not included.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Northern-Lights-Tour-Guaranteed-Viewing-and-Unlimited-Mileage/d22130-424075P1",
+          "kind": "secondary",
+          "title": "Viator: Rovaniemi Northern Lights Tour",
+          "evidence": [
+            "Coach Bus Tour - Large Group",
+            "2 Adults x €139.00",
+            "Coach Bus Tour option: Thermal winter overalls are not included"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "a Coach Bus Tour at €139 a head",
+          "the coach leaves from a city-centre office and does not include pickup or thermal overalls"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.viator-arcticgm-refund",
+      "topic": "place",
+      "claim": "Viator Arctic GM: full refund if the operator cancels for unfavourable conditions; full refund if no aurora is captured on camera, faint or stationary auroras count.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Northern-Lights-Tour-Guaranteed-Viewing-and-Unlimited-Mileage/d22130-424075P1",
+          "kind": "secondary",
+          "title": "Viator: Rovaniemi Northern Lights Tour",
+          "evidence": [
+            "If we cancel before departure due to unfavorable conditions, you will receive a full refund",
+            "100% money-back guarantee: if no aurora is captured on camera during the tour, you will receive a full refund",
+            "Any aurora captured on camera counts as a successful sighting, including faint or stationary auroras not clearly visible to the naked eye"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "if the operator cancels before departure for unfavourable conditions you receive a full refund",
+          "including faint or stationary ones not clearly visible to the naked eye"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.viator-snowmobile",
+      "topic": "price",
+      "claim": "Viator snowmobile aurora safari, 12 Dec 2026, EUR 278 for two adults sharing one snowmobile (EUR 139 each); licence required; single driving EUR 50 extra; free cancellation before 19:00 on 11 Dec; children and non-licence adults ride the sledge.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Rovaniemi/NORTHERN-LIGHTS-SAFARI-BY-SNOWMOBILE-and-BBQ/d22130-193692P10",
+          "kind": "secondary",
+          "title": "Viator: Northern lights safari by snowmobile",
+          "evidence": [
+            "€278.00",
+            "Free cancellationbefore 19:00 on 11 Dec (local time)",
+            "2 adults share 1 snowmobile, single driving is available on site for 50€",
+            "Children and adults without a drivers’ license can join the safari by sitting on the sledge"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "the total for two adults was €278",
+          "single driving costs €50 extra on site",
+          "Children and adults without a licence can sit in the sledge"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.viator-snowmobile-park-nonrefundable",
+      "topic": "place",
+      "claim": "Viator \"Rovaniemi: Northern Lights Tour\" (Arctic Circle Snowmobile Park): operator will not cancel for weather; non-refundable.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Rovaniemi/Special-Northern-Lights-Hunting-Tour-by-car/d22130-193692P1",
+          "kind": "secondary",
+          "title": "Viator: Rovaniemi: Northern Lights Tour",
+          "evidence": [
+            "Tour operator won't cancel the activity according to the weather conditions.",
+            "This experience is non-refundable and cannot be changed for any reason."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "the operator will not cancel for weather and that the booking is non-refundable and cannot be changed"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.kkday-851517",
+      "topic": "price",
+      "claim": "KKday 851517 small-group aurora tour, 12 Dec 2026, EUR 85.44; 2-8 travellers; free cancellation up to 2 days; adults only, not suitable under 14; bring warm clothing; sightings cannot be guaranteed.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/851517",
+          "kind": "secondary",
+          "title": "KKday: Rovaniemi Northern Lights Adventure",
+          "evidence": [
+            "EUR85.44",
+            "Free cancellation up to 2 day(s) in advance",
+            "Not Suitable For: Children under 14 years",
+            "What To Bring: Warm clothing",
+            "The Northern Lights are a natural phenomenon and sightings cannot be guaranteed"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "€85.44 for 12 December",
+          "Free cancellation up to 2 days in advance",
+          "not suitable for children under 14"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.tiqets-bbq",
+      "topic": "price",
+      "claim": "Tiqets Lapland Northern Lights Tour with Lappish Barbecue, 12 Dec 2026, EUR 79; 3 h; overalls and boots included; non-refundable, no rescheduling.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/rovaniemi-attractions-c66502/tickets-for-hunting-northern-lights-with-lappish-barbecue-p1044952/",
+          "kind": "secondary",
+          "title": "Tiqets: Lapland Northern Lights Tour with Lappish Barbecue",
+          "evidence": [
+            "Winter clothes: overalls and boots",
+            "This ticket is nonrefundable",
+            "Rescheduling is not possible for this ticket"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "€79 on 12 December",
+          "The ticket is non-refundable and cannot be rescheduled"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.tiqets-sleigh",
+      "topic": "price",
+      "claim": "Tiqets Northern Lights Sleigh Ride, 12 Dec 2026, EUR 79; 2h30; sleigh pulled by snowmobile; overalls, boots, helmets, gloves included; viewing not guaranteed; non-refundable.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/rovaniemi-attractions-c66502/tickets-for-northern-lights-sleigh-ride-p1046990/",
+          "kind": "secondary",
+          "title": "Tiqets: Northern Lights Sleigh Ride",
+          "evidence": [
+            "Winter clothes (overall, boots, helmets, and gloves)",
+            "Sleigh Ride pulled by snowmobiles (driven by our tour guides) in front",
+            "a viewing is not guaranteed",
+            "This ticket is nonrefundable"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "€79 on 12 December, 2.5 hours",
+          "The listing says a viewing is not guaranteed"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.aurora.tiqets-special-hunt",
+      "topic": "price",
+      "claim": "Tiqets Special Aurora Borealis Hunt, 12 Dec 2026, EUR 180; 8 h; max group 8; cancellation and rescheduling until 11:59 PM the day before; thermal overalls and snowboots available at the agency meeting point.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/rovaniemi-attractions-c66502/tickets-for-special-aurora-borealis-hunt-p1083405/",
+          "kind": "secondary",
+          "title": "Tiqets: Special Aurora Borealis Hunt",
+          "evidence": [
+            "€180",
+            "Max group size",
+            "Cancellation is possible until 11:59 PM on the day before your visit",
+            "Thermal overalls and snowboots (available if you pick them up at the agency meeting point)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-northern-lights-tour.html": [
+          "€180 on 12 December, eight hours, max 8",
+          "Cancellation and rescheduling are possible until 11:59 pm the day before"
+        ]
+      }
     }
   ]
 }

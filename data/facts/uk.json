@@ -4872,6 +4872,234 @@
         ]
       },
       "checked": "2026-11-19"
+    },
+    {
+      "id": "uk.london.wbstudio.price-standard",
+      "topic": "price",
+      "claim": "The studio's own 2026 standard ticket was listed at £58.50 for an adult (16+), £47 for a child (5-15) and £188 for a family, and £61, £48 and £192 for 2027, on its tickets page on 2026-11-21.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.wbstudiotour.co.uk/tickets/",
+          "kind": "official",
+          "title": "Tickets | Warner Bros. Studio Tour London",
+          "evidence": [
+            "Adult (16+) £58.50 £61.00",
+            "Child (5-15) £47.00 £48.00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-harry-potter-studio-tour-tickets.html": [
+          "£58.50 for an adult in 2026 and £61 in 2027",
+          "a family ticket at £188 in 2026 and £192 in 2027"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.wbstudio.packages-only",
+      "topic": "place",
+      "claim": "The studio says its tickets must be sold as part of a package and cannot be re-sold directly on a standalone basis, and lists approved ticket distributors including Klook, Golden Tours, Evan Evans Tours and Axis & Globe Travel.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.wbstudiotour.co.uk/tickets/travel-partners/",
+          "kind": "official",
+          "title": "Travel Partners",
+          "evidence": [
+            "tickets must be sold as part of a package and cannot be re-sold directly on a standalone basis",
+            "Evan Evans Tours",
+            "Golden Tours",
+            "Klook"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-harry-potter-studio-tour-tickets.html": [
+          "must be sold as part of a package and cannot be re-sold directly on a standalone basis",
+          "Klook, Golden Tours, Evan Evans Tours and Axis & Globe"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.wbstudio.authorised-only",
+      "topic": "place",
+      "claim": "The studio's terms say only tickets bought directly from it or an authorised distributor are valid for admission.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.wbstudiotour.co.uk/terms-and-conditions/",
+          "kind": "official",
+          "title": "Terms and Conditions",
+          "evidence": [
+            "Only Tickets purchased directly from us or one of our authorised distributors are valid for admission."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-harry-potter-studio-tour-tickets.html": [
+          "Only Tickets purchased directly from us or one of our authorised distributors are valid for admission."
+        ]
+      }
+    },
+    {
+      "id": "uk.london.wbstudio.no-door-sales",
+      "topic": "place",
+      "claim": "All visitors must pre-book a date and time, and the studio does not hold back tickets for sale by phone or on the day.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.wbstudiotour.co.uk/faqs/ticket-information-faqs/",
+          "kind": "official",
+          "title": "Ticket Information FAQs",
+          "evidence": [
+            "We do not hold back additional tickets for sale over the phone or on the day.",
+            "you will need to book into a time slot ahead of your visit"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-harry-potter-studio-tour-tickets.html": [
+          "We do not hold back additional tickets for sale over the phone or on the day.",
+          "pre-book the time and date"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.wbstudio.sold-out-slots",
+      "topic": "place",
+      "claim": "Once a time slot is sold out the studio cannot add visitors, and tickets are on sale until 31 December 2027.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.wbstudiotour.co.uk/faqs/ticket-information-faqs/",
+          "kind": "official",
+          "title": "Ticket Information FAQs",
+          "evidence": [
+            "once a time slot is sold out, we cannot add any additional visitors"
+          ]
+        },
+        {
+          "url": "https://www.wbstudiotour.co.uk/faqs/top-frequently-asked-questions/",
+          "kind": "official",
+          "title": "Top Frequently Asked Questions",
+          "evidence": [
+            "Tickets are currently available until 31st December 2027."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-harry-potter-studio-tour-tickets.html": [
+          "once a time slot is sold out, we cannot add any additional visitors.",
+          "tickets are available until 31 December 2027"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.wbstudio.timeslot-late",
+      "topic": "place",
+      "claim": "Visitors can enter at any time in their 30-minute slot; the terms ask arrival no later than 20 minutes before the allocated entry time.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.wbstudiotour.co.uk/faqs/ticket-information-faqs/",
+          "kind": "official",
+          "title": "Ticket Information FAQs",
+          "evidence": [
+            "Visitors will be able to enter the Studio Tour at any time during their 30-minute timeslot."
+          ]
+        },
+        {
+          "url": "https://www.wbstudiotour.co.uk/terms-and-conditions/",
+          "kind": "official",
+          "title": "Terms and Conditions",
+          "evidence": [
+            "no later than 20 minutes before your Allocated Entry Time"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-harry-potter-studio-tour-tickets.html": [
+          "at any time during their 30-minute timeslot",
+          "no later than 20 minutes before your allocated entry time"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.wbstudio.refund-change",
+      "topic": "place",
+      "claim": "Studio tickets are non-refundable; the date can be changed for a £10 administration fee.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.wbstudiotour.co.uk/faqs/ticket-information-faqs/",
+          "kind": "official",
+          "title": "Ticket Information FAQs",
+          "evidence": [
+            "Our tickets are non-refundable",
+            "for a £10 administration fee"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-harry-potter-studio-tour-tickets.html": [
+          "non-refundable, and date changes cost £10"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.wbstudio.ages",
+      "topic": "place",
+      "claim": "Adult is 16 or older, child is 5 to 15 inclusive, children aged 4 and under are free but need a ticket; a family ticket covers two adults and two children or one adult and three children.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.wbstudiotour.co.uk/terms-and-conditions/",
+          "kind": "official",
+          "title": "Terms and Conditions",
+          "evidence": [
+            "A person of 16 years or older is classed as an Adult",
+            "between 5 and 15 years (inclusive) is classed as a Child"
+          ]
+        },
+        {
+          "url": "https://www.wbstudiotour.co.uk/faqs/ticket-information-faqs/",
+          "kind": "official",
+          "title": "Ticket Information FAQs",
+          "evidence": [
+            "A family ticket permits entry for two adults and two children, or one adult and three children."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-harry-potter-studio-tour-tickets.html": [
+          "5 to 15 inclusive is a child",
+          "one adult and three children"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.wbstudio.snow-season",
+      "topic": "place",
+      "claim": "Hogwarts in the Snow runs 14 November 2026 to 17 January 2027; tickets for 13 November 2027 to 16 January 2028 are on sale.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.wbstudiotour.co.uk/the-experience/whats-on/hogwarts-in-the-snow/",
+          "kind": "official",
+          "title": "Hogwarts in the Snow",
+          "evidence": [
+            "14th November 2026 – 17th January 2027",
+            "13th November 2027 – 16th January 2028"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-harry-potter-studio-tour-tickets.html": [
+          "Hogwarts in the Snow from 14 November 2026 to 17 January 2027",
+          "13 November 2027 to 16 January 2028"
+        ]
+      }
     }
   ]
 }

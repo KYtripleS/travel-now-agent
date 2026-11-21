@@ -433,6 +433,22 @@ V = {
              "— then KKday for the cheapest entry points (from about ฿880) or Klook for the headline "
              "boats and clearer pier details.",
         cta=("kkday", "Check Chao Phraya cruises on KKday")),
+    "where-to-book-rovaniemi-northern-lights-tour": dict(
+        text="No tour can promise the aurora, so pay for the terms: Viator’s Arctic GM Signature tour (max 8, "
+             "pickup and winter overalls included) was €199 for 12 December, free to cancel until 19:00 the day "
+             "before, and refunds in full if no aurora shows on camera. On a budget, KKday’s small-group tour "
+             "was €85.44 with free cancellation up to 2 days ahead.",
+        cta=("href", "Check the Arctic GM tour on Viator", "https://viator.tpx.lu/kJUNb6YX")),
+    "where-to-buy-harry-potter-studio-tour-tickets": dict(
+        text="Buy the studio ticket with return coach from Viator: £135 for 14 December, free to cancel until "
+             "11 December, and supplied by Evan Evans Tours, which is on the studio’s approved distributor list. "
+             "The studio sells no tickets at the door, so book before you travel.",
+        cta=("href", "Check the studio tour on Viator", "https://viator.tpx.lu/hGx8Q4oT")),
+    "where-to-buy-eiffel-tower-tickets": dict(
+        text="For a guide all the way to the summit, book the small-group tour on Tiqets: €139.90 for "
+             "16 December, free to cancel up to 24 hours before, groups of up to 10. Resellers may sell the tower "
+             "only with a service such as a guide, so each listing is a bundle; we say what each one includes.",
+        cta=("href", "Check the summit tour on Tiqets", "https://tiqets.tpx.lu/WawnaoFh")),
     "where-to-book-seoul-dmz-tour": dict(
         text="The JSA has been closed to civilian tours since July 2023, so book a DMZ tour, not a “DMZ & "
              "JSA” promise. KKday has the sharpest verified price, Klook lists tours with a North Korean "
@@ -3923,10 +3939,12 @@ STAY_POINTERS = {
         'and Canmore, with the park pass every visitor needs.'),
     "where-to-stay-in-paris-christmas": ("intro",
         'Adding a day at the parks? <a href="where-to-buy-disneyland-paris-tickets.html">Disneyland Paris tickets '
-        'compared</a> sets Disney’s own prices beside Tiqets and GetYourGuide for the same date.'),
+        'compared</a> sets Disney’s own prices beside Tiqets and GetYourGuide for the same date.'
+        ' Going up the tower? <a href="where-to-buy-eiffel-tower-tickets.html">Eiffel Tower tickets compared</a> sets the guided and summit bundles on Tiqets, GetYourGuide and Viator side by side for one December date.'),
     "where-to-stay-in-paris-new-years-eve": ("intro",
         'Adding a day at the parks? <a href="where-to-buy-disneyland-paris-tickets.html">Disneyland Paris tickets '
-        'compared</a> sets Disney’s own prices beside Tiqets and GetYourGuide for the same date.'),
+        'compared</a> sets Disney’s own prices beside Tiqets and GetYourGuide for the same date.'
+        ' Going up the tower? <a href="where-to-buy-eiffel-tower-tickets.html">Eiffel Tower tickets compared</a> sets the guided and summit bundles on Tiqets, GetYourGuide and Viator side by side for one December date.'),
     "where-to-stay-in-new-york": ("intro",
         'Here in December? <a href="where-to-stay-in-new-york-christmas.html">Where to stay in New York for '
         'Christmas</a> matches hotels to the Rockefeller Center tree (lit on 2 December), Bryant Park and Radio City. '
@@ -3938,6 +3956,10 @@ STAY_POINTERS = {
     "where-to-stay-in-queenstown": ("intro",
         'Driving to Milford Sound or Wanaka? <a href="car-rental-new-zealand-south-island.html">Renting a car on '
         'New Zealand’s South Island</a> compares DiscoverCars, Apex and GO Rentals for the same dates, with the excess on each.'),
+    "where-to-stay-in-london-christmas": ("intro",
+        'Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'),
+    "where-to-stay-in-london-new-years-eve": ("intro",
+        'Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'),
     "where-to-stay-in-london": ("intro",
         'Here for Christmas? <a href="where-to-stay-in-london-christmas.html">Where to stay in London for Christmas</a> '
         'explains why your hotel matters on 25 December, when the Tube and almost every train stop. '
@@ -3946,7 +3968,8 @@ STAY_POINTERS = {
         'the bridges that close. Running in April? <a href="where-to-stay-for-london-marathon.html">Where to stay '
         'for the London Marathon 2027</a> covers the two race days, 24 and 25 April, from the Greenwich start to The Mall. '
         'Here for the tennis? <a href="where-to-stay-for-wimbledon.html">Where to stay for Wimbledon 2027</a> '
-        '(28 June to 11 July) compares the Village, Richmond and the District line into town.'),
+        '(28 June to 11 July) compares the Village, Richmond and the District line into town.'
+        ' Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'),
     "where-to-stay-in-boston": ("intro",
         'Running or watching in April? <a href="where-to-stay-for-boston-marathon.html">Where to stay for the Boston '
         'Marathon 2027</a> (Monday 19 April) weighs Back Bay by the finish against Cambridge and the start towns.'),
@@ -3997,7 +4020,8 @@ STAY_POINTERS = {
         '<a href="where-to-buy-disneyland-paris-tickets.html">Disneyland Paris tickets compared</a> sets Disney’s own '
         'prices beside Tiqets and GetYourGuide for the same date. '
         'Staying for 31 December? <a href="where-to-stay-in-paris-new-years-eve.html">Where to stay in Paris for '
-        'New Year’s Eve</a> covers the Champs-Élysées celebration, last year’s station closures and the city tax.'),
+        'New Year’s Eve</a> covers the Champs-Élysées celebration, last year’s station closures and the city tax.'
+        ' Going up the tower? <a href="where-to-buy-eiffel-tower-tickets.html">Eiffel Tower tickets compared</a> sets the guided and summit bundles on Tiqets, GetYourGuide and Viator side by side for one December date.'),
     "where-to-stay-in-strasbourg-christmas-market": ("intro",
         'Weighing Germany’s best-known market instead? <a href="where-to-stay-in-nuremberg-christmas-market.html">'
         'Where to stay for the Nuremberg Christmas market</a> runs on the same dates, 27 November to 24 December.'),
@@ -4058,9 +4082,11 @@ STAY_POINTERS = {
         'Rathausplatz market</a> 13 November to 26 December. <a href="where-to-stay-in-cologne-christmas-market.html">'
         'Cologne’s cathedral market</a> runs 16 November to 23 December.'),
     "where-to-stay-in-rovaniemi-christmas": ("intro",
-        'Chasing the northern lights too? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in '
-        'Tromsø for the northern lights</a> compares the harbour, the centre and two out-of-town lodges, with the '
-        'polar night dates.'),
+        'Booking an aurora evening? <a href="where-to-book-rovaniemi-northern-lights-tour.html">Rovaniemi northern '
+        'lights tours compared</a> sets Viator, KKday and Tiqets side by side for one December date, with who '
+        'refunds a cloudy night. Chasing the lights further north? <a href="where-to-stay-in-tromso-northern-lights.html">'
+        'Where to stay in Tromsø for the northern lights</a> compares the harbour, the centre and two out-of-town '
+        'lodges, with the polar night dates.'),
     "where-to-stay-in-reykjavik": [
         ("intro",
          'Coming for the aurora? <a href="where-to-stay-in-reykjavik-northern-lights.html">Where to stay in Reykjavik '

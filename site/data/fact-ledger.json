@@ -1,9 +1,9 @@
 {
  "name": "Gently Yonder travel fact ledger",
- "version": "2026-11-20",
+ "version": "2026-11-21",
  "license": "CC BY 4.0",
  "cite": "https://gentlyyonder.com/open-data.html",
- "count": 3236,
+ "count": 3262,
  "facts": [
   {
    "id": "au.gst.accommodation",
@@ -9168,6 +9168,226 @@
    ]
   },
   {
+   "id": "fi.rovaniemi.aurora.season",
+   "place": "Finland",
+   "topic": "place",
+   "claim": "Visit Rovaniemi says the Aurora Borealis is visible in Rovaniemi from late August until mid April and that you never know when it will appear.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.visitrovaniemi.fi/see-do/activities/northern-lights-tours/",
+     "title": "Northern Lights Tours - Visit Rovaniemi",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.aurora.fmi-thresholds",
+   "place": "Finland",
+   "topic": "place",
+   "claim": "FMI: when the upper geomagnetic threshold is exceeded it is very likely auroras can be seen; when only the lower is crossed auroras are possible but usually dim.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://en.ilmatieteenlaitos.fi/auroras-and-space-weather",
+     "title": "Auroras and space weather - FMI",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.aurora.viator-arcticgm-signature",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "Viator Arctic GM Signature Small Group (max 8), 12 Dec 2026, EUR 199 per adult (EUR 398 for two), 19:00; free cancellation before 19:00 on 11 Dec; pickup and winter overalls included.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Northern-Lights-Tour-Guaranteed-Viewing-and-Unlimited-Mileage/d22130-424075P1",
+     "title": "Viator: Rovaniemi Northern Lights Tour - 100% Guarantee & Photos",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.aurora.viator-arcticgm-coach",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "Viator Arctic GM Coach Bus Tour, 12 Dec 2026, EUR 139 per adult; no pickup; thermal winter overalls not included.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Northern-Lights-Tour-Guaranteed-Viewing-and-Unlimited-Mileage/d22130-424075P1",
+     "title": "Viator: Rovaniemi Northern Lights Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.aurora.viator-arcticgm-refund",
+   "place": "Finland",
+   "topic": "policy",
+   "claim": "Viator Arctic GM: full refund if the operator cancels for unfavourable conditions; full refund if no aurora is captured on camera, faint or stationary auroras count.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Northern-Lights-Tour-Guaranteed-Viewing-and-Unlimited-Mileage/d22130-424075P1",
+     "title": "Viator: Rovaniemi Northern Lights Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.aurora.viator-snowmobile",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "Viator snowmobile aurora safari, 12 Dec 2026, EUR 278 for two adults sharing one snowmobile (EUR 139 each); licence required; single driving EUR 50 extra; free cancellation before 19:00 on 11 Dec; children and non-licence adults ride the sledge.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/en-GB/tours/Rovaniemi/NORTHERN-LIGHTS-SAFARI-BY-SNOWMOBILE-and-BBQ/d22130-193692P10",
+     "title": "Viator: Northern lights safari by snowmobile",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.aurora.viator-snowmobile-park-nonrefundable",
+   "place": "Finland",
+   "topic": "policy",
+   "claim": "Viator \"Rovaniemi: Northern Lights Tour\" (Arctic Circle Snowmobile Park): operator will not cancel for weather; non-refundable.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Rovaniemi/Special-Northern-Lights-Hunting-Tour-by-car/d22130-193692P1",
+     "title": "Viator: Rovaniemi: Northern Lights Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.aurora.kkday-851517",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "KKday 851517 small-group aurora tour, 12 Dec 2026, EUR 85.44; 2-8 travellers; free cancellation up to 2 days; adults only, not suitable under 14; bring warm clothing; sightings cannot be guaranteed.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/851517",
+     "title": "KKday: Rovaniemi Northern Lights Adventure",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.aurora.tiqets-bbq",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "Tiqets Lapland Northern Lights Tour with Lappish Barbecue, 12 Dec 2026, EUR 79; 3 h; overalls and boots included; non-refundable, no rescheduling.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/rovaniemi-attractions-c66502/tickets-for-hunting-northern-lights-with-lappish-barbecue-p1044952/",
+     "title": "Tiqets: Lapland Northern Lights Tour with Lappish Barbecue",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.aurora.tiqets-sleigh",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "Tiqets Northern Lights Sleigh Ride, 12 Dec 2026, EUR 79; 2h30; sleigh pulled by snowmobile; overalls, boots, helmets, gloves included; viewing not guaranteed; non-refundable.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/rovaniemi-attractions-c66502/tickets-for-northern-lights-sleigh-ride-p1046990/",
+     "title": "Tiqets: Northern Lights Sleigh Ride",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.aurora.tiqets-special-hunt",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "Tiqets Special Aurora Borealis Hunt, 12 Dec 2026, EUR 180; 8 h; max group 8; cancellation and rescheduling until 11:59 PM the day before; thermal overalls and snowboots available at the agency meeting point.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/rovaniemi-attractions-c66502/tickets-for-special-aurora-borealis-hunt-p1083405/",
+     "title": "Tiqets: Special Aurora Borealis Hunt",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
    "id": "fr.paris.tourist-tax-2026",
    "place": "France",
    "topic": "tax",
@@ -12940,6 +13160,151 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-stay-in-paris-christmas.html"
+   ]
+  },
+  {
+   "id": "fr.paris.eiffel.reseller-bundles-only",
+   "place": "France",
+   "topic": "place",
+   "claim": "The Eiffel Tower operator says its resellers may sell the ascent only combined with an additional service such as a guided tour, and that only its own ticket site (ticket.toureiffel.paris) is authorised to sell lift-only tickets; reseller prices are the public rate plus the service.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.toureiffel.paris/en/news/visit/all-our-tips-buying-ticket-visit-eiffel-tower",
+     "title": "Tips for buying an Eiffel Tower ticket - OFFICIAL",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.toureiffel.paris/en/news/visit/eiffel-tower-tickets-online-beware-scams",
+     "title": "Eiffel Tower tickets online: beware of scams",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-eiffel-tower-tickets.html"
+   ]
+  },
+  {
+   "id": "fr.paris.eiffel.reserved-access-wording",
+   "place": "France",
+   "topic": "place",
+   "claim": "The tower says it operates no skip-the-line system and that resellers may use only the term 'reserved access'.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.toureiffel.paris/en/news/visit/eiffel-tower-tickets-online-beware-scams",
+     "title": "Eiffel Tower tickets online: beware of scams",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-eiffel-tower-tickets.html"
+   ]
+  },
+  {
+   "id": "fr.paris.eiffel.release-window",
+   "place": "France",
+   "topic": "place",
+   "claim": "Elevator tickets (summit and second floor) are sold online 90 days ahead; stairs tickets 60 days ahead (stairs-plus-lift summit ticket only in low season); Christmas-holiday summit tickets sell out very quickly and are released again at intervals.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.toureiffel.paris/en/news/visit/all-our-tips-buying-ticket-visit-eiffel-tower",
+     "title": "Tips for buying an Eiffel Tower ticket - OFFICIAL",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.toureiffel.paris/en/news/visit/eiffel-tower-tickets-online-beware-scams",
+     "title": "Eiffel Tower tickets online: beware of scams",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-eiffel-tower-tickets.html"
+   ]
+  },
+  {
+   "id": "fr.paris.eiffel.timed-entry-security",
+   "place": "France",
+   "topic": "place",
+   "claim": "E-tickets are personal and need valid ID for each group member including children; the time shown is when you must be under the tower; allow 15 to 20 minutes for security.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.toureiffel.paris/en/planning-smooth-visit",
+     "title": "Tips & Preparation of your visit | Eiffel Tower official website",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.toureiffel.paris/en/news/visit/all-our-tips-buying-ticket-visit-eiffel-tower",
+     "title": "Tips for buying an Eiffel Tower ticket - OFFICIAL",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-eiffel-tower-tickets.html"
+   ]
+  },
+  {
+   "id": "fr.paris.eiffel.summit-closure",
+   "place": "France",
+   "topic": "place",
+   "claim": "Summit access may be restricted in severe weather, and summit tickets can be unavailable at busy times due to crowd limits; the top and stairs are not accessible to people with reduced mobility or on crutches.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.toureiffel.paris/en/rates-opening-times",
+     "title": "Ticket rates and opening times - OFFICIAL Eiffel Tower website",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.toureiffel.paris/en/news/visit/all-our-tips-buying-ticket-visit-eiffel-tower",
+     "title": "Tips for buying an Eiffel Tower ticket - OFFICIAL",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.toureiffel.paris/en/planning-smooth-visit",
+     "title": "Tips & Preparation of your visit | Eiffel Tower official website",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-eiffel-tower-tickets.html"
+   ]
+  },
+  {
+   "id": "fr.paris.eiffel.official-fares-2026",
+   "place": "France",
+   "topic": "price",
+   "claim": "Official adult fares in 2026: summit by lift EUR 36.70; second floor by lift 23.50; second floor by stairs 14.80; summit by stairs plus lift 28.00; guided tour to the top 71.70; guided tour up to the second floor with access to the top 66.70; guided tour to the second floor 53.50. Under-4s free, 4-11 child rate, 12-24 youth rate. New 2027 fares apply from 11 January 2027.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.toureiffel.paris/en/rates-opening-times",
+     "title": "Ticket rates and opening times - OFFICIAL Eiffel Tower website",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-eiffel-tower-tickets.html"
    ]
   },
   {
@@ -58014,6 +58379,201 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-stay-in-london-christmas.html"
+   ]
+  },
+  {
+   "id": "uk.london.wbstudio.price-standard",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "The studio's own 2026 standard ticket was listed at £58.50 for an adult (16+), £47 for a child (5-15) and £188 for a family, and £61, £48 and £192 for 2027, on its tickets page on 2026-11-21.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.wbstudiotour.co.uk/tickets/",
+     "title": "Tickets | Warner Bros. Studio Tour London",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-harry-potter-studio-tour-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.london.wbstudio.packages-only",
+   "place": "United Kingdom",
+   "topic": "policy",
+   "claim": "The studio says its tickets must be sold as part of a package and cannot be re-sold directly on a standalone basis, and lists approved ticket distributors including Klook, Golden Tours, Evan Evans Tours and Axis & Globe Travel.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.wbstudiotour.co.uk/tickets/travel-partners/",
+     "title": "Travel Partners",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-harry-potter-studio-tour-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.london.wbstudio.authorised-only",
+   "place": "United Kingdom",
+   "topic": "policy",
+   "claim": "The studio's terms say only tickets bought directly from it or an authorised distributor are valid for admission.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.wbstudiotour.co.uk/terms-and-conditions/",
+     "title": "Terms and Conditions",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-harry-potter-studio-tour-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.london.wbstudio.no-door-sales",
+   "place": "United Kingdom",
+   "topic": "policy",
+   "claim": "All visitors must pre-book a date and time, and the studio does not hold back tickets for sale by phone or on the day.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.wbstudiotour.co.uk/faqs/ticket-information-faqs/",
+     "title": "Ticket Information FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-harry-potter-studio-tour-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.london.wbstudio.sold-out-slots",
+   "place": "United Kingdom",
+   "topic": "policy",
+   "claim": "Once a time slot is sold out the studio cannot add visitors, and tickets are on sale until 31 December 2027.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.wbstudiotour.co.uk/faqs/ticket-information-faqs/",
+     "title": "Ticket Information FAQs",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.wbstudiotour.co.uk/faqs/top-frequently-asked-questions/",
+     "title": "Top Frequently Asked Questions",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-harry-potter-studio-tour-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.london.wbstudio.timeslot-late",
+   "place": "United Kingdom",
+   "topic": "policy",
+   "claim": "Visitors can enter at any time in their 30-minute slot; the terms ask arrival no later than 20 minutes before the allocated entry time.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.wbstudiotour.co.uk/faqs/ticket-information-faqs/",
+     "title": "Ticket Information FAQs",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.wbstudiotour.co.uk/terms-and-conditions/",
+     "title": "Terms and Conditions",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-harry-potter-studio-tour-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.london.wbstudio.refund-change",
+   "place": "United Kingdom",
+   "topic": "policy",
+   "claim": "Studio tickets are non-refundable; the date can be changed for a £10 administration fee.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.wbstudiotour.co.uk/faqs/ticket-information-faqs/",
+     "title": "Ticket Information FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-harry-potter-studio-tour-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.london.wbstudio.ages",
+   "place": "United Kingdom",
+   "topic": "policy",
+   "claim": "Adult is 16 or older, child is 5 to 15 inclusive, children aged 4 and under are free but need a ticket; a family ticket covers two adults and two children or one adult and three children.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.wbstudiotour.co.uk/terms-and-conditions/",
+     "title": "Terms and Conditions",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.wbstudiotour.co.uk/faqs/ticket-information-faqs/",
+     "title": "Ticket Information FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-harry-potter-studio-tour-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.london.wbstudio.snow-season",
+   "place": "United Kingdom",
+   "topic": "place",
+   "claim": "Hogwarts in the Snow runs 14 November 2026 to 17 January 2027; tickets for 13 November 2027 to 16 January 2028 are on sale.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.wbstudiotour.co.uk/the-experience/whats-on/hogwarts-in-the-snow/",
+     "title": "Hogwarts in the Snow",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-harry-potter-studio-tour-tickets.html"
    ]
   },
   {

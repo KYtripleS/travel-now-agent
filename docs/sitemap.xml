@@ -2106,4 +2106,19 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gentlyyonder.com/articles/where-to-buy-harry-potter-studio-tour-tickets.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gentlyyonder.com/articles/where-to-buy-eiffel-tower-tickets.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
