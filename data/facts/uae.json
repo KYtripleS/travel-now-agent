@@ -1465,6 +1465,168 @@
           "Free cancellation up to 2 day(s) in advance"
         ]
       }
+    },
+    {
+      "id": "uae.dubai.safari.tiqets.premium-ramadan",
+      "topic": "place",
+      "claim": "Tiqets' Al Khayma premium safari listing says no live entertainment or alcohol is available during Ramadan and religious holidays, and that it is not recommended for pregnant women or those with back pain.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/dubai-attractions-c60005/tickets-for-premium-desert-safari-with-bbq-falconry-camel-ride-sandboarding-p974715/",
+          "kind": "operator",
+          "title": "Premium Desert Safari at Al Khayma Camp - Tiqets",
+          "evidence": [
+            "no live entertainment or alcoholic beverages are available during Ramadan and religious holidays",
+            "Not recommended for pregnant women or those with back pain"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-dubai-desert-safari.html": [
+          "no live entertainment or alcoholic drinks are available during Ramadan and religious holidays",
+          "not recommended for pregnant women or those with back pain"
+        ]
+      }
+    },
+    {
+      "id": "uae.dubai.safari.kkday.ramadan",
+      "topic": "place",
+      "claim": "KKday's evening safari says the belly dancing show, music and alcohol are unavailable in Ramadan; not recommended for pregnant women or people with back problems; pickup in Deira, Bur Dubai, Sheikh Zayed and Marina.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/604994",
+          "kind": "operator",
+          "title": "Dubai Desert Safari Tour with BBQ Dinner - KKday",
+          "evidence": [
+            "During the month of Ramadan, the belly dancing show, music, and alcoholic beverages will not be available",
+            "not recommended for pregnant women or those with back problems",
+            "Pickup from hotels in Deira, Bur Dubai, Sheikh Zayed, and Marina areas"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-dubai-desert-safari.html": [
+          "during Ramadan the belly dancing show, music and alcoholic drinks are not available",
+          "Deira, Bur Dubai, Sheikh Zayed and Marina"
+        ]
+      }
+    },
+    {
+      "id": "uae.dubai.safari.gyg.suitability",
+      "topic": "place",
+      "claim": "GetYourGuide's Red Dune Safari lists children under 3, pregnant women, people with back problems, mobility impairments and heart problems as not suitable.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/dubai-l173/dubai-red-dune-safari-quad-bike-camel-ride-bbq-dinner-t74550/",
+          "kind": "operator",
+          "title": "Red Dune Safari - GetYourGuide",
+          "evidence": [
+            "Children under 3 years",
+            "Pregnant women",
+            "People with back problems",
+            "People with heart problems"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-dubai-desert-safari.html": [
+          "not suitable for children under 3, pregnant women, people with back problems, mobility impairments or heart problems"
+        ]
+      }
+    },
+    {
+      "id": "uae.dubai.safari.viator.evening-terms",
+      "topic": "place",
+      "claim": "Viator's evening safari (Saifco): not recommended for pregnant travellers, dune bashing can be skipped, alcohol and shisha are paid extras, free pickup within Dubai city limits, free cancellation 24 hours ahead.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Dubai/Dubai-Desert-Safari-with-BBQ-Dinner/d828-31687P1",
+          "kind": "operator",
+          "title": "Dubai Desert Safari - Viator",
+          "evidence": [
+            "Not recommended for pregnant travelers",
+            "Free pickup and drop-off from all hotels and residences within Dubai city limits",
+            "You can cancel up to 24 hours in advance of the experience for a full refund"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-dubai-desert-safari.html": [
+          "not recommended for pregnant travellers",
+          "Free pickup from hotels and residences within Dubai city limits"
+        ]
+      }
+    },
+    {
+      "id": "uae.dubai.safari.viator.heritage",
+      "topic": "place",
+      "claim": "Viator's heritage Land Rover safari in the Dubai Desert Conservation Reserve is not recommended for pregnant women in their third trimester; shared and private cars are priced separately.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Dubai/Luxury-Desert-Experience-Dinner-and-Emirati-Activities-with-Vintage-Land-Rover-Transport-from-Dubai/d828-6183DINNERSAF",
+          "kind": "operator",
+          "title": "Heritage Desert Safari in Vintage Land Rover with Dinner - Viator",
+          "evidence": [
+            "Not recommended for pregnant women in their third trimester"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-dubai-desert-safari.html": [
+          "not recommended in the third trimester"
+        ]
+      }
+    },
+    {
+      "id": "uae.dubai.safari.tiqets.evening-ramadan",
+      "topic": "place",
+      "claim": "Tiqets' Red Dunes evening listing marks its belly dance show as not available in Ramadan days; free cancellation and rescheduling until 24 hours before.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/dubai-attractions-c60005/tickets-for-dubai-desert-safari-red-dunes-sandboarding-live-shows-and-dinner-p1087151/",
+          "kind": "operator",
+          "title": "Dubai Desert Safari: Red Dunes - Tiqets",
+          "evidence": [
+            "Belly dance show (not available in Ramadan days)",
+            "Cancel for free until 24 hours before your visit date and get a full refund"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-dubai-desert-safari.html": [
+          "marked not available in Ramadan days",
+          "Free cancellation and rescheduling until 24 hours before"
+        ]
+      }
+    },
+    {
+      "id": "uae.dubai.safari.gyg.overnight",
+      "topic": "price",
+      "claim": "GetYourGuide overnight Al Khayma safari: limited to 15 participants, 17 hours, $189 with private tent for 12 Dec 2026.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/dubai-l173/from-dubai-red-dunes-and-camel-safari-with-overnight-camp-t176457/",
+          "kind": "operator",
+          "title": "Overnight Safari - GetYourGuide",
+          "evidence": [
+            "Limited to 15 participants",
+            "Cancel up to 24 hours in advance for a full refund"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-dubai-desert-safari.html": [
+          "limited to 15 participants",
+          "$189 a head in a private air-conditioned tent"
+        ]
+      }
     }
   ]
 }

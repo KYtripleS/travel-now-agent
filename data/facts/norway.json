@@ -367,6 +367,129 @@
           "minimal light pollution"
         ]
       }
+    },
+    {
+      "id": "no.tromso.aurora.season",
+      "topic": "place",
+      "claim": "Visit Tromsø says northern lights may be visible from late August to early April, but clear skies and darkness are essential.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.visittromso.no/northern-lights",
+          "kind": "official",
+          "title": "Northern lights - Visit Tromsø",
+          "evidence": [
+            "They may be visible from late August to early April, but clear skies and darkness are essential."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-northern-lights-tour.html": [
+          "from late August to early April, but that clear skies and darkness are essential"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.aurora.kkday-849074",
+      "topic": "price",
+      "claim": "KKday 849074, 12 Dec 2026, EUR 102.89 per person, 19:00; free cancellation up to 2 days; instant confirmation; warm suits, photos; Radisson Blu pickup; no 100% guarantee.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/849074",
+          "kind": "secondary",
+          "title": "KKday: Northernlights Tour all inclusive Photo, Suits, Local Guide",
+          "evidence": [
+            "Free cancellation up to 2 day(s) in advance",
+            "Instant confirmation",
+            "Pickup at the Radisson Blu Hotel and drop-off at your Airbnb or hotel within the city",
+            "there is no 100% guarantee you will see the Northern Lights on the tour"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-northern-lights-tour.html": [
+          "€102.89 for 12 December",
+          "Free cancellation up to 2 days in advance",
+          "there is no 100% guarantee you will see the Northern Lights"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.aurora.kkday-848961",
+      "topic": "price",
+      "claim": "KKday 848961 bus tour, 12 Dec 2026, EUR 114.32 per person, 18:00; free cancellation up to 2 days; in-bus toilet; thermal suits; sightings not guaranteed.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/848961",
+          "kind": "secondary",
+          "title": "KKday: Tromsø Northern Lights Bus Tour with Snacks and Photos",
+          "evidence": [
+            "Free cancellation up to 2 day(s) in advance",
+            "in-bus toilet",
+            "Thermal suits will be provided",
+            "sightings are not guaranteed"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-northern-lights-tour.html": [
+          "€114.32 for 12 December",
+          "an in-bus toilet"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.aurora.viator-89661",
+      "topic": "price",
+      "claim": "Viator 89661P1 Arctic Explorers minibus chase, 12 Dec 2026 selected, from EUR 162.60 per person; max 15 travellers; free cancellation up to 24 hours; suit, boots, meal included.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Tromso/Northern-Lights-Trip/d4362-89661P1",
+          "kind": "secondary",
+          "title": "Viator: Tromso Northern Lights Minibus Chase Small Group Tour with Photos",
+          "evidence": [
+            "From €162.60",
+            "This tour/activity will have a maximum of 15 travelers",
+            "You can cancel up to 24 hours in advance of the experience for a full refund.",
+            "Children must be accompanied by an adult"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-northern-lights-tour.html": [
+          "From €162.60 a head with 12 December selected",
+          "a maximum of 15 travellers",
+          "children must be accompanied by an adult"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.aurora.gyg-arcticbreeze",
+      "topic": "price",
+      "claim": "GetYourGuide Arctic Breeze minibus chase, 12 Dec 2026, EUR 167 (struck EUR 176); free cancellation up to 24 hours; hotel drop-off; not suitable under 8.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/tromso-l32375/tromso-aurora-borealis-small-group-tour-t323058/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Tromsø: Northern Lights Minibus Chase, Free Photos, Drop-off",
+          "evidence": [
+            "Cancel up to 24 hours in advance for a full refund",
+            "Children under 8 years",
+            "Our tour will take place even in bad weather conditions.",
+            "€167"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-northern-lights-tour.html": [
+          "€167 for 12 December",
+          "not suitable for children under 8"
+        ]
+      }
     }
   ]
 }

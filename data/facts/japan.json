@@ -8522,6 +8522,242 @@
           "about five minutes from the airport by free shuttle"
         ]
       }
+    },
+    {
+      "id": "jp.snowmonkey.hours",
+      "topic": "place",
+      "claim": "Jigokudani Yaen-koen winter season (Nov-Mar) hours are 9:00-16:00, open year-round, arrive 30 minutes before closing, may shorten hours or close without notice.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://en.jigokudani-yaenkoen.co.jp/guide/",
+          "kind": "official",
+          "title": "Jigokudani Yaen-koen guide",
+          "evidence": [
+            "Winter Season (Nov.–Mar.)",
+            "9:00 a.m.–4:00 p.m.",
+            "Please arrive at the park 30 minutes before closing time."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-snow-monkey-tour.html": [
+          "9:00 a.m. to 4:00 p.m.",
+          "arrive 30 minutes before closing",
+          "shorten hours or close without notice"
+        ]
+      }
+    },
+    {
+      "id": "jp.snowmonkey.monkeys-wild",
+      "topic": "place",
+      "claim": "The park says the monkeys may not show up at all on certain days and do not bathe at all hours or all year.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://en.jigokudani-yaenkoen.co.jp/guide/",
+          "kind": "official",
+          "title": "Jigokudani Yaen-koen guide",
+          "evidence": [
+            "the monkeys may not show up at all on certain days",
+            "They do not make use of the baths at all hours of day"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-snow-monkey-tour.html": [
+          "may not show up at all on certain days",
+          "do not bathe at all hours or all year"
+        ]
+      }
+    },
+    {
+      "id": "jp.snowmonkey.fee",
+      "topic": "price",
+      "claim": "Park entry listed at 800 yen adult, 400 yen child 6-17, under 6 free; fees revised from 1 December 2026 (new amounts not readable on the notice page).",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://en.jigokudani-yaenkoen.co.jp/guide/",
+          "kind": "official",
+          "title": "Jigokudani Yaen-koen guide",
+          "evidence": [
+            "Admission fees will be revised effective December 1, 2026.",
+            "Child aged below 5 years old",
+            "Charge-free"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-snow-monkey-tour.html": [
+          "¥800 for adults and ¥400 for children aged 6 to 17",
+          "revised from 1 December 2026"
+        ]
+      }
+    },
+    {
+      "id": "jp.snowmonkey.online-priority",
+      "topic": "place",
+      "claim": "Park homepage: December to April, priority for entry is given to those who purchased tickets online.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://en.jigokudani-yaenkoen.co.jp/",
+          "kind": "official",
+          "title": "Jigokudani Yaen-koen home",
+          "evidence": [
+            "During the winter season (December through April), priority for entry to the garden is given to those who have purchased tickets online."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-snow-monkey-tour.html": [
+          "priority for entry to the garden is given to those who bought tickets online"
+        ]
+      }
+    },
+    {
+      "id": "jp.snowmonkey.trail",
+      "topic": "transport",
+      "claim": "Yumichi Natural Trail from Kanbayashi Hot Springs is about 2 km, about 30 minutes, mostly flat; no wheelchairs or carts.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://en.jigokudani-yaenkoen.co.jp/access/",
+          "kind": "official",
+          "title": "Jigokudani Yaen-koen access",
+          "evidence": [
+            "Yumichi Natural Trail",
+            "No wheelchairs and carts are accessible"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-snow-monkey-tour.html": [
+          "about 2 km and about 30 minutes",
+          "no wheelchairs or carts"
+        ]
+      }
+    },
+    {
+      "id": "jp.snowmonkey.winter-gear",
+      "topic": "place",
+      "claim": "Park recommends rubber or snow boots in winter and buying simple crampons; drones, selfie sticks and cameras in the bath prohibited.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://en.jigokudani-yaenkoen.co.jp/caution/",
+          "kind": "official",
+          "title": "Jigokudani Yaen-koen caution",
+          "evidence": [
+            "rubber or snow boots in the winter",
+            "Buy simple crampons in advance"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-snow-monkey-tour.html": [
+          "rubber or snow boots in winter",
+          "simple crampons in advance"
+        ]
+      }
+    },
+    {
+      "id": "jp.snowmonkey.gyg-his",
+      "topic": "price",
+      "claim": "GetYourGuide H.I.S. Tokyo snow monkey day, 12 Dec 2026, $108 per adult; free cancellation up to 24 hours; park entry and lunch included; 30+ minute walk from parking; sightings not guaranteed.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/yamanochi-l142916/from-tokyoday-trip-to-snow-monkey-with-beef-sukiyaki-lunch-t441933/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From Tokyo: Snow Monkey 1-Day Tour with Beef Sukiyaki Lunch",
+          "evidence": [
+            "Cancel up to 24 hours in advance for a full refund",
+            "Jigokudani Monkey Park entry fee",
+            "it takes more than 30 minutes to walk from the parking area",
+            "Sightings of the monkeys in the springs are not guaranteed"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-snow-monkey-tour.html": [
+          "$108",
+          "not guaranteed"
+        ]
+      }
+    },
+    {
+      "id": "jp.snowmonkey.viator-his",
+      "topic": "price",
+      "claim": "Viator H.I.S. Tokyo snow monkey day, 12 Dec 2026, $118.40 per person; 13 hours; free cancellation up to 24 hours; park admission included.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Tokyo/Seasonal-Snow-Monkey-Day-Trip-including-Shabu-Shabu-or-Sukiyaki-Lunch/d334-43454P3",
+          "kind": "secondary",
+          "title": "Viator: Nagano Snow Monkey 1 Day Tour with Beef Sukiyaki Lunch from Tokyo",
+          "evidence": [
+            "You can cancel up to 24 hours in advance of the experience for a full refund.",
+            "13 hours (approx.)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-snow-monkey-tour.html": [
+          "$118.40",
+          "meeting at the Shinjuku LOVE object by 7:45am"
+        ]
+      }
+    },
+    {
+      "id": "jp.snowmonkey.viator-nagano",
+      "topic": "price",
+      "claim": "Viator Nagano-start Zenkoji, snow monkey and sake day, 12 Dec 2026, $140.28 per adult; 8 hours; free cancellation before 9:35 on 11 Dec; child 6-12 33% off, 0-5 free; winter Hakuba shuttle.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Nagano/Zenkoji-Temple-and-Snow-Monkey-Day-Tour-in-Nagano/d23523-9582P2",
+          "kind": "secondary",
+          "title": "Viator: 1-Day Snow Monkeys, Zenko-ji Temple & Sake in Nagano",
+          "evidence": [
+            "Free cancellation before 9:35 on Dec 11",
+            "Infant (Age 0-5)",
+            "Winter only* Guests in Hakuba can join this tour using our shuttle service"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-snow-monkey-tour.html": [
+          "$140.28",
+          "Children aged 6 to 12 are listed at 33% off"
+        ]
+      }
+    },
+    {
+      "id": "jp.snowmonkey.kkday-zenkoji",
+      "topic": "price",
+      "claim": "KKday Tokyo/Shinjuku Zenkoji and snow monkey coach day, 12 Dec 2026, JPY 27,000; 13 hours; park ticket included, meals not; free cancellation up to 4 days; minimum 7 travellers; children 3+ pay adult fare.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/712666",
+          "kind": "secondary",
+          "title": "KKday: Nagano Snow Monkey & Zenko-ji Temple Day Tour",
+          "evidence": [
+            "Free cancellation up to 4 day(s) in advance",
+            "A minimum of 7 traveler(s) are required for the tour to depart",
+            "children aged 3 and above will be charged the same fee as adults"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-snow-monkey-tour.html": [
+          "¥27,000",
+          "At least 7 travellers are needed",
+          "pay the adult fare"
+        ]
+      }
     }
   ]
 }

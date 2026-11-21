@@ -271,6 +271,11 @@ BY_SLUG = {
     "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
     "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Food",
     # 2026-10-31 ticket comparisons
+    "where-to-buy-universal-studios-hollywood-tickets": "Booking & tours",
+    "where-to-book-dubai-desert-safari": "Booking & tours",
+    "where-to-buy-empire-state-building-tickets": "Booking & tours",
+    "where-to-book-snow-monkey-tour": "Booking & tours",
+    "where-to-book-tromso-northern-lights-tour": "Booking & tours",
     "where-to-buy-eiffel-tower-tickets": "Booking & tours",
     "where-to-buy-harry-potter-studio-tour-tickets": "Booking & tours",
     "where-to-book-rovaniemi-northern-lights-tour": "Booking & tours",

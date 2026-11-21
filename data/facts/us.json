@@ -11875,6 +11875,376 @@
           "At 570 Tenth Avenue"
         ]
       }
+    },
+    {
+      "id": "us.nyc.esb.non-refundable",
+      "topic": "place",
+      "claim": "Empire State Building tickets bought on its own site are non-refundable, but the reservation can be changed through Manage My Booking.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.esbnyc.com/ticket-policies",
+          "kind": "official",
+          "title": "ESB Ticket & Purchasing Information",
+          "evidence": [
+            "Tickets purchased via the Website are non-refundable."
+          ]
+        },
+        {
+          "url": "https://www.esbnyc.com/visit/faq",
+          "kind": "official",
+          "title": "Empire State Building FAQs",
+          "evidence": [
+            "Empire State Building tickets are non-refundable, but you can change your reservation."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-empire-state-building-tickets.html": [
+          "Tickets purchased via the Website are non-refundable.",
+          "you can change your reservation"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.esb.floors",
+      "topic": "place",
+      "claim": "The 102nd floor deck is enclosed (1,250 ft); the 86th floor deck is open-air (1,050 ft); the 102nd is reached by glass elevator from the 86th.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.esbnyc.com/visit/faq",
+          "kind": "official",
+          "title": "Empire State Building FAQs",
+          "evidence": [
+            "The Empire State Building's 102nd Floor Observation Deck is enclosed and the 86th Floor Observation Deck is open to the air.",
+            "Guests reach the 102nd Floor Observation Deck through a glass elevator from the open-air 86th Floor Observation Deck."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-empire-state-building-tickets.html": [
+          "The Empire State Building's 102nd Floor Observation Deck is enclosed and the 86th Floor Observation Deck is open to the air."
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.esb.timed-reservation",
+      "topic": "place",
+      "claim": "All visits require a timed reservation; a Flex ticket lets you choose a date and arrive any time that day.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.esbnyc.com/visit/faq",
+          "kind": "official",
+          "title": "Empire State Building FAQs",
+          "evidence": [
+            "All visits require a timed reservation to help create a smooth and enjoyable experience.",
+            "the Flex Ticket, which allows you to choose the date of your visit and arrive at any time during operating hours"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-empire-state-building-tickets.html": [
+          "All visits require a timed reservation"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.esb.express",
+      "topic": "place",
+      "claim": "The Express Pass skips the second-floor exhibits and elevator lines; guests may still visit the exhibits.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.esbnyc.com/visit/faq",
+          "kind": "official",
+          "title": "Empire State Building FAQs",
+          "evidence": [
+            "The Express Pass skips the second floor exhibits for faster entry, but guests may still choose to visit them during their experience."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-empire-state-building-tickets.html": [
+          "The express pass skips the exhibits and the elevator lines"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.esb.children",
+      "topic": "place",
+      "claim": "Children aged 5 or younger are free with an adult; discounts for children 6 to 12 and seniors 62+; active military in uniform free.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.esbnyc.com/ticket-policies",
+          "kind": "official",
+          "title": "ESB Ticket & Purchasing Information",
+          "evidence": [
+            "Toddlers (5 or younger) are admitted free when accompanied by an adult ticket holder."
+          ]
+        },
+        {
+          "url": "https://www.esbnyc.com/visit/faq",
+          "kind": "official",
+          "title": "Empire State Building FAQs",
+          "evidence": [
+            "Discounted tickets are available for children aged 6–12.",
+            "Active military in uniform receive free admission."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-empire-state-building-tickets.html": [
+          "Toddlers (5 or younger) are admitted free when accompanied by an adult ticket holder"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.esb.price-from",
+      "topic": "place",
+      "claim": "On 21 Nov 2026 the ticket page listed 86th floor from $46, 86th+102nd from $81, 86th Express from $87, 102nd Express from $122, Sunrise from $135, AM/PM from $67.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.esbnyc.com/buy-tickets",
+          "kind": "official",
+          "title": "Empire State Building Observation Deck Tickets",
+          "evidence": [
+            "BUY TICKETS FROM $81",
+            "BUY EXPRESS PASS FROM $87",
+            "BUY EXPRESS PASS FROM $122",
+            "BUY TICKETS FROM $135",
+            "BUY TICKETS FROM $67"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-empire-state-building-tickets.html": [
+          "from $81",
+          "from $87",
+          "express 102nd floor from $122",
+          "from $135, listed as seasonal",
+          "from $67"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.esb.am-pm",
+      "topic": "place",
+      "claim": "The building lists an AM/PM Experience: two visits in one day for day and night views.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.esbnyc.com/buy-tickets",
+          "kind": "official",
+          "title": "Empire State Building Observation Deck Tickets",
+          "evidence": [
+            "Two Visits in One Day",
+            "Day + Night Views"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-empire-state-building-tickets.html": [
+          "Two Visits in One Day"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.esb.id-security",
+      "topic": "place",
+      "claim": "The building may ask for proof of identity (passport, driver's licence or credit card) and bans large bags and tripods; there are no lockers.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.esbnyc.com/ticket-policies",
+          "kind": "official",
+          "title": "ESB Ticket & Purchasing Information",
+          "evidence": [
+            "you may be asked to provide additional proof of identity"
+          ]
+        },
+        {
+          "url": "https://www.esbnyc.com/visit/faq",
+          "kind": "official",
+          "title": "Empire State Building FAQs",
+          "evidence": [
+            "There are no locker or storage facilities available on-site for personal belongings."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-empire-state-building-tickets.html": [
+          "you may be asked for proof of identity",
+          "there are no lockers"
+        ]
+      }
+    },
+    {
+      "id": "us.ush.express-definition",
+      "topic": "price",
+      "claim": "A standard Universal Express ticket includes 1-Day General Admission and one-time per-day express access to each ride, attraction and seated show; Universal Express Unlimited gives unlimited per-day express access.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.universalstudioshollywood.com/web/en/us/faqs/tickets",
+          "kind": "official",
+          "title": "Tickets FAQs | Universal Studios Hollywood",
+          "evidence": [
+            "includes 1-Day General Admission and one-time (per day) express access",
+            "includes 1-Day General Admission and unlimited (per-day) express access"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-hollywood-tickets.html": [
+          "includes 1-Day General Admission and one-time (per day) express access",
+          "The park's own wording"
+        ]
+      }
+    },
+    {
+      "id": "us.ush.hollywood-drift-express",
+      "topic": "place",
+      "claim": "Express access to Fast & Furious: Hollywood Drift is not included in Universal Express, Universal Express Unlimited or the Express Add-On; VIP Experience, R.I.P. Tour and Guided Theme Park Tour Add-On products are exceptions; Express tickets bought before 31 August 2026 are unaffected.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.universalstudioshollywood.com/web/en/us/faqs/tickets",
+          "kind": "official",
+          "title": "Tickets FAQs | Universal Studios Hollywood",
+          "evidence": [
+            "express access to the ride will not be included in ticket and pass products offering Universal Express benefits",
+            "Express tickets purchased prior to August 31, 2026 are not affected by this change"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-hollywood-tickets.html": [
+          "express access to it is not in Universal Express, Universal Express Unlimited or the Express Add-On",
+          "Express tickets bought before 31 August 2026 are unaffected"
+        ]
+      }
+    },
+    {
+      "id": "us.ush.third-party-sellers",
+      "topic": "place",
+      "claim": "The park strongly recommends buying from itself or authorised ticketing partners, says it cannot verify tickets bought through other channels, and refuses invalid, duplicate or counterfeit tickets without compensation; the page does not name authorised sellers.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.universalstudioshollywood.com/web/en/us/faqs/tickets",
+          "kind": "official",
+          "title": "Tickets FAQs | Universal Studios Hollywood",
+          "evidence": [
+            "We strongly recommend that you purchase tickets directly through us or our authorized ticketing partners",
+            "entry will be denied without compensation"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-hollywood-tickets.html": [
+          "strongly",
+          "unable to verify or guarantee the validity or authenticity of tickets not purchased directly through an authorized sales channel",
+          "refused at entry without compensation"
+        ]
+      }
+    },
+    {
+      "id": "us.ush.age-rules",
+      "topic": "place",
+      "claim": "Online tickets are priced by age: ages 3 to 9 get the child price and ages 2 and under enter free; at the front gate the discount is by height, under 48 inches (122 cm).",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.universalstudioshollywood.com/web/en/us/faqs/tickets",
+          "kind": "official",
+          "title": "Tickets FAQs | Universal Studios Hollywood",
+          "evidence": [
+            "guests ages 3-9 qualify for our discounted admission price",
+            "All guests 2 and under enter for free.",
+            "guests under 48 inches (122 cm) tall of any age qualify"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-hollywood-tickets.html": [
+          "children aged 2 and under enter free with no ticket",
+          "under 48 inches, or 122 cm"
+        ]
+      }
+    },
+    {
+      "id": "us.ush.sold-out-check",
+      "topic": "place",
+      "claim": "The park advises checking its ticket store for a Sold Out date before leaving and says tickets may be unavailable at the booths when the park reaches capacity.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.universalstudioshollywood.com/web/en/us/faqs/tickets",
+          "kind": "official",
+          "title": "Tickets FAQs | Universal Studios Hollywood",
+          "evidence": [
+            "we do advise visiting our online ticket store before leaving for the park to check if the visit date is shown as “Sold Out.”",
+            "there may be times when the Park reaches capacity and tickets will be unavailable for purchase at the ticket booths"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-hollywood-tickets.html": [
+          "checking its ticket store for a \"Sold Out\" date"
+        ]
+      }
+    },
+    {
+      "id": "us.ush.vip-rules",
+      "topic": "place",
+      "claim": "The VIP Experience tour lasts a minimum of 5 hours, takes up to 13 guests per guide, requires children to be at least 5 (17 to attend without an adult), and includes unlimited express access all day, a gourmet meal and valet parking.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://www.universalstudioshollywood.com/web/en/us/vip-experience",
+          "kind": "official",
+          "title": "VIP Experience at Universal Studios Hollywood",
+          "evidence": [
+            "The tour lasts a minimum of 5 hours.",
+            "limited capacity of up to 13 guests per tour guide",
+            "Children must be at least 5 years old to attend and at least 17 years old to attend without an accompanying adult."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-hollywood-tickets.html": [
+          "a tour of at least 5 hours",
+          "Groups are capped at 13 guests per guide",
+          "Children must be at least 5 to attend, and at least 17 to attend without an accompanying adult"
+        ]
+      }
+    },
+    {
+      "id": "us.ush.price-2026-12-09",
+      "topic": "price",
+      "claim": "On the park's own price calendar for Wednesday 9 December 2026 an adult ticket was $99.95 (General Admission), $219.95 (Universal Express), $269.95 (Universal Express Unlimited) and $389.95 (VIP Experience), read 21 November 2026.",
+      "checked": "2026-11-21",
+      "sources": [
+        {
+          "url": "https://store.universalstudioshollywood.com/en/us/store/c/uh_ice_default_pb_tickets",
+          "kind": "official",
+          "title": "Universal Studios Hollywood Tickets and Passes Store",
+          "evidence": [
+            "Online ticket prices vary by day and season."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-universal-studios-hollywood-tickets.html": [
+          "$99.95 and $219.95",
+          "$269.95 on the park's calendar",
+          "$389.95 on the park's calendar"
+        ]
+      }
     }
   ]
 }

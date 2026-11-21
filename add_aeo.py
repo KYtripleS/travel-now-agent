@@ -449,6 +449,31 @@ V = {
              "16 December, free to cancel up to 24 hours before, groups of up to 10. Resellers may sell the tower "
              "only with a service such as a guide, so each listing is a bundle; we say what each one includes.",
         cta=("href", "Check the summit tour on Tiqets", "https://tiqets.tpx.lu/WawnaoFh")),
+    "where-to-book-tromso-northern-lights-tour": dict(
+        text="No tour can promise the aurora, so pay for the terms: KKday’s small-group chase was €102.89 for "
+             "12 December with thermal suits and photos included, free to cancel up to 2 days ahead and confirmed "
+             "instantly. Viator’s minibus chase, from €162.60, caps the group at 15 and adds a hot meal.",
+        cta=("href", "Check the Tromsø tour on KKday", "https://kkday.tpx.lu/e1r4iW5h")),
+    "where-to-book-snow-monkey-tour": dict(
+        text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
+             "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
+             "day; a free-cancellation ticket keeps your options open.",
+        cta=("href", "Check the snow monkey tour on GetYourGuide", "https://getyourguide.tpx.lu/1yU7lmh9")),
+    "where-to-buy-empire-state-building-tickets": dict(
+        text="Buy the 86th-floor ticket on GetYourGuide: $54.44 for 9 December, the same as Tiqets, free to cancel "
+             "until 8 December and payable later. Add the 102nd floor only if you want the top deck; it is a "
+             "separate ticket type.",
+        cta=("href", "Check Empire State tickets on GetYourGuide", "https://getyourguide.tpx.lu/JFt5hBFQ")),
+    "where-to-book-dubai-desert-safari": dict(
+        text="For the classic evening, book Tiqets’ Red Dunes safari: $26.72 for 12 December with 4x4 pickup, "
+             "a live show and dinner, free to cancel or move until 24 hours before. Check the health and age rules "
+             "before you book dune bashing.",
+        cta=("href", "Check the desert safari on Tiqets", "https://tiqets.tpx.lu/5rng0RPM")),
+    "where-to-buy-universal-studios-hollywood-tickets": dict(
+        text="For a fixed date, buy from Tiqets: General Admission was $98 for 9 December, the lowest we could read, "
+             "but non-refundable. If your plans may change, Viator’s Universal Express ticket was free to cancel "
+             "until 8 December.",
+        cta=("href", "Check Universal Hollywood on Tiqets", "https://tiqets.tpx.lu/wsCkl6ye")),
     "where-to-book-seoul-dmz-tour": dict(
         text="The JSA has been closed to civilian tours since July 2023, so book a DMZ tour, not a “DMZ & "
              "JSA” promise. KKday has the sharpest verified price, Klook lists tours with a North Korean "
@@ -3604,7 +3629,8 @@ STAY_POINTERS = {
         'Here for 31 December? <a href="where-to-stay-in-dubai-new-years-eve.html">Where to stay in Dubai for New Year’s '
         'Eve</a> matches hotels to the Burj Khalifa fireworks, the road closures and the Palm. Going up the tower? '
         '<a href="where-to-buy-burj-khalifa-tickets.html">Burj Khalifa tickets compared</a> sets the official '
-        'slot prices beside the resellers, with the sunset timing and the refund terms.'),
+        'slot prices beside the resellers, with the sunset timing and the refund terms.'
+        ' Heading into the desert? <a href="where-to-book-dubai-desert-safari.html">Dubai desert safaris compared</a> sets the evening, morning, private and overnight trips side by side for one date.'),
     "where-to-stay-in-budapest": ("intro",
         'Coming in December? <a href="where-to-stay-in-budapest-christmas-market.html">Where to stay in Budapest for '
         'the Christmas markets</a> matches hotels to Vörösmarty Square and the Basilica, open from 13 November.'),
@@ -3737,7 +3763,8 @@ STAY_POINTERS = {
         'hotels to the Shinjuku start, the Tokyo Station finish and bib pick-up in Ariake. Going to the parks? '
         '<a href="where-to-stay-for-tokyo-disney-resort.html">Where to stay for Tokyo Disneyland</a> weighs the '
         'Disney Hotels, Shin-Urayasu and a Tokyo base. Booking teamLab? <a href="where-to-buy-teamlab-planets-tickets.html">'
-        'teamLab Planets tickets compared</a> shows which sellers teamLab names and how date changes work.'),
+        'teamLab Planets tickets compared</a> shows which sellers teamLab names and how date changes work.'
+        ' Seeing the snow monkeys? <a href="where-to-book-snow-monkey-tour.html">Snow monkey day tours compared</a> sets the Tokyo and Nagano departures side by side for one December date.'),
     "where-to-stay-in-kyoto": ("intro",
         f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
         'give each city, and how to move your bags between them. Here for the autumn leaves? <a '
@@ -3949,7 +3976,8 @@ STAY_POINTERS = {
         'Here in December? <a href="where-to-stay-in-new-york-christmas.html">Where to stay in New York for '
         'Christmas</a> matches hotels to the Rockefeller Center tree (lit on 2 December), Bryant Park and Radio City. '
         'Staying for 31 December? <a href="where-to-stay-in-new-york-new-years-eve.html">Where to stay in New York '
-        'for New Year’s Eve</a> covers the Times Square ball drop and the closures.'),
+        'for New Year’s Eve</a> covers the Times Square ball drop and the closures.'
+        ' Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'),
     "where-to-stay-in-okinawa": ("intro",
         'Heading north to the aquarium or the beaches? <a href="car-rental-okinawa.html">Renting a car in Okinawa</a> '
         'compares DiscoverCars with Toyota Rent a Car and covers the International Driving Permit rule.'),
@@ -3960,6 +3988,12 @@ STAY_POINTERS = {
         'Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'),
     "where-to-stay-in-london-new-years-eve": ("intro",
         'Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'),
+    "where-to-stay-in-new-york-christmas": ("intro",
+        'Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'),
+    "where-to-stay-in-tromso-northern-lights": ("intro",
+        'Booking an aurora evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side for one December date, with the cancellation terms.'),
+    "where-to-stay-in-hakuba": ("intro",
+        'Seeing the snow monkeys? <a href="where-to-book-snow-monkey-tour.html">Snow monkey day tours compared</a> sets the Tokyo and Nagano departures side by side for one December date.'),
     "where-to-stay-in-london": ("intro",
         'Here for Christmas? <a href="where-to-stay-in-london-christmas.html">Where to stay in London for Christmas</a> '
         'explains why your hotel matters on 25 December, when the Tube and almost every train stop. '
@@ -4032,7 +4066,8 @@ STAY_POINTERS = {
         'Here for the Super Bowl? <a href="where-to-stay-in-los-angeles-super-bowl.html">Where to stay for '
         'Super Bowl LXI</a> at SoFi Stadium compares Inglewood, LAX, El Segundo and Culver City by route and '
         'hotel tax. Going to Coachella? <a href="where-to-stay-for-coachella.html">Where to stay for Coachella '
-        '2027</a> (9 to 11 and 16 to 18 April) compares Indio, La Quinta, Palm Desert and Palm Springs.'),
+        '2027</a> (9 to 11 and 16 to 18 April) compares Indio, La Quinta, Palm Desert and Palm Springs.'
+        ' Spending a day at Universal? <a href="where-to-buy-universal-studios-hollywood-tickets.html">Universal Studios Hollywood tickets compared</a> sets Tiqets and Viator beside the park for one December date.'),
     "where-to-stay-in-amsterdam": ("intro",
         'Here for the tulips? <a href="where-to-stay-for-keukenhof.html">Where to stay for Keukenhof</a> '
         '(18 March to 9 May 2027) compares Amsterdam, Haarlem, Leiden and Lisse by bus to the gardens. '
@@ -4128,7 +4163,8 @@ STAY_POINTERS = {
         'Eve</a> matches hotels to the Copacabana fireworks and the road closures.'),
     "where-to-stay-in-new-york-new-years-eve": ("intro",
         'Weighing London instead? <a href="where-to-stay-in-london-new-years-eve.html">London on New Year’s Eve</a> '
-        'covers the ticketed Thames fireworks, the areas within walking distance and the UK’s £20 ETA.'),
+        'covers the ticketed Thames fireworks, the areas within walking distance and the UK’s £20 ETA.'
+        ' Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'),
     # both
     "best-time-to-visit-australia": ("The south: Sydney",
         f'Once you have dates: <a href="{_S}">where to stay in Sydney</a> and <a href="{_M}">in Melbourne</a>, '

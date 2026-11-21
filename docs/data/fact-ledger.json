@@ -3,7 +3,7 @@
  "version": "2026-11-21",
  "license": "CC BY 4.0",
  "cite": "https://gentlyyonder.com/open-data.html",
- "count": 3262,
+ "count": 3299,
  "facts": [
   {
    "id": "au.gst.accommodation",
@@ -9250,7 +9250,7 @@
   {
    "id": "fi.rovaniemi.aurora.viator-arcticgm-refund",
    "place": "Finland",
-   "topic": "policy",
+   "topic": "place",
    "claim": "Viator Arctic GM: full refund if the operator cancels for unfavourable conditions; full refund if no aurora is captured on camera, faint or stationary auroras count.",
    "value": null,
    "sources": [
@@ -9290,7 +9290,7 @@
   {
    "id": "fi.rovaniemi.aurora.viator-snowmobile-park-nonrefundable",
    "place": "Finland",
-   "topic": "policy",
+   "topic": "place",
    "claim": "Viator \"Rovaniemi: Northern Lights Tour\" (Arctic Circle Snowmobile Park): operator will not cancel for weather; non-refundable.",
    "value": null,
    "sources": [
@@ -35876,6 +35876,206 @@
    ]
   },
   {
+   "id": "jp.snowmonkey.hours",
+   "place": "Japan",
+   "topic": "place",
+   "claim": "Jigokudani Yaen-koen winter season (Nov-Mar) hours are 9:00-16:00, open year-round, arrive 30 minutes before closing, may shorten hours or close without notice.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://en.jigokudani-yaenkoen.co.jp/guide/",
+     "title": "Jigokudani Yaen-koen guide",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-snow-monkey-tour.html"
+   ]
+  },
+  {
+   "id": "jp.snowmonkey.monkeys-wild",
+   "place": "Japan",
+   "topic": "place",
+   "claim": "The park says the monkeys may not show up at all on certain days and do not bathe at all hours or all year.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://en.jigokudani-yaenkoen.co.jp/guide/",
+     "title": "Jigokudani Yaen-koen guide",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-snow-monkey-tour.html"
+   ]
+  },
+  {
+   "id": "jp.snowmonkey.fee",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "Park entry listed at 800 yen adult, 400 yen child 6-17, under 6 free; fees revised from 1 December 2026 (new amounts not readable on the notice page).",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://en.jigokudani-yaenkoen.co.jp/guide/",
+     "title": "Jigokudani Yaen-koen guide",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-snow-monkey-tour.html"
+   ]
+  },
+  {
+   "id": "jp.snowmonkey.online-priority",
+   "place": "Japan",
+   "topic": "place",
+   "claim": "Park homepage: December to April, priority for entry is given to those who purchased tickets online.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://en.jigokudani-yaenkoen.co.jp/",
+     "title": "Jigokudani Yaen-koen home",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-snow-monkey-tour.html"
+   ]
+  },
+  {
+   "id": "jp.snowmonkey.trail",
+   "place": "Japan",
+   "topic": "transport",
+   "claim": "Yumichi Natural Trail from Kanbayashi Hot Springs is about 2 km, about 30 minutes, mostly flat; no wheelchairs or carts.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://en.jigokudani-yaenkoen.co.jp/access/",
+     "title": "Jigokudani Yaen-koen access",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-snow-monkey-tour.html"
+   ]
+  },
+  {
+   "id": "jp.snowmonkey.winter-gear",
+   "place": "Japan",
+   "topic": "place",
+   "claim": "Park recommends rubber or snow boots in winter and buying simple crampons; drones, selfie sticks and cameras in the bath prohibited.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://en.jigokudani-yaenkoen.co.jp/caution/",
+     "title": "Jigokudani Yaen-koen caution",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-snow-monkey-tour.html"
+   ]
+  },
+  {
+   "id": "jp.snowmonkey.gyg-his",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "GetYourGuide H.I.S. Tokyo snow monkey day, 12 Dec 2026, $108 per adult; free cancellation up to 24 hours; park entry and lunch included; 30+ minute walk from parking; sightings not guaranteed.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/yamanochi-l142916/from-tokyoday-trip-to-snow-monkey-with-beef-sukiyaki-lunch-t441933/",
+     "title": "GetYourGuide: From Tokyo: Snow Monkey 1-Day Tour with Beef Sukiyaki Lunch",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-snow-monkey-tour.html"
+   ]
+  },
+  {
+   "id": "jp.snowmonkey.viator-his",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "Viator H.I.S. Tokyo snow monkey day, 12 Dec 2026, $118.40 per person; 13 hours; free cancellation up to 24 hours; park admission included.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Tokyo/Seasonal-Snow-Monkey-Day-Trip-including-Shabu-Shabu-or-Sukiyaki-Lunch/d334-43454P3",
+     "title": "Viator: Nagano Snow Monkey 1 Day Tour with Beef Sukiyaki Lunch from Tokyo",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-snow-monkey-tour.html"
+   ]
+  },
+  {
+   "id": "jp.snowmonkey.viator-nagano",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "Viator Nagano-start Zenkoji, snow monkey and sake day, 12 Dec 2026, $140.28 per adult; 8 hours; free cancellation before 9:35 on 11 Dec; child 6-12 33% off, 0-5 free; winter Hakuba shuttle.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Nagano/Zenkoji-Temple-and-Snow-Monkey-Day-Tour-in-Nagano/d23523-9582P2",
+     "title": "Viator: 1-Day Snow Monkeys, Zenko-ji Temple & Sake in Nagano",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-snow-monkey-tour.html"
+   ]
+  },
+  {
+   "id": "jp.snowmonkey.kkday-zenkoji",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "KKday Tokyo/Shinjuku Zenkoji and snow monkey coach day, 12 Dec 2026, JPY 27,000; 13 hours; park ticket included, meals not; free cancellation up to 4 days; minimum 7 travellers; children 3+ pay adult fare.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/712666",
+     "title": "KKday: Nagano Snow Monkey & Zenko-ji Temple Day Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-snow-monkey-tour.html"
+   ]
+  },
+  {
    "id": "kr.keta.exemption-2026",
    "place": "South Korea",
    "topic": "entry",
@@ -42926,6 +43126,106 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-stay-in-tromso-northern-lights.html"
+   ]
+  },
+  {
+   "id": "no.tromso.aurora.season",
+   "place": "Norway",
+   "topic": "place",
+   "claim": "Visit Tromsø says northern lights may be visible from late August to early April, but clear skies and darkness are essential.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.visittromso.no/northern-lights",
+     "title": "Northern lights - Visit Tromsø",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-tromso-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "no.tromso.aurora.kkday-849074",
+   "place": "Norway",
+   "topic": "price",
+   "claim": "KKday 849074, 12 Dec 2026, EUR 102.89 per person, 19:00; free cancellation up to 2 days; instant confirmation; warm suits, photos; Radisson Blu pickup; no 100% guarantee.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/849074",
+     "title": "KKday: Northernlights Tour all inclusive Photo, Suits, Local Guide",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-tromso-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "no.tromso.aurora.kkday-848961",
+   "place": "Norway",
+   "topic": "price",
+   "claim": "KKday 848961 bus tour, 12 Dec 2026, EUR 114.32 per person, 18:00; free cancellation up to 2 days; in-bus toilet; thermal suits; sightings not guaranteed.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/848961",
+     "title": "KKday: Tromsø Northern Lights Bus Tour with Snacks and Photos",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-tromso-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "no.tromso.aurora.viator-89661",
+   "place": "Norway",
+   "topic": "price",
+   "claim": "Viator 89661P1 Arctic Explorers minibus chase, 12 Dec 2026 selected, from EUR 162.60 per person; max 15 travellers; free cancellation up to 24 hours; suit, boots, meal included.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Tromso/Northern-Lights-Trip/d4362-89661P1",
+     "title": "Viator: Tromso Northern Lights Minibus Chase Small Group Tour with Photos",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-tromso-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "no.tromso.aurora.gyg-arcticbreeze",
+   "place": "Norway",
+   "topic": "price",
+   "claim": "GetYourGuide Arctic Breeze minibus chase, 12 Dec 2026, EUR 167 (struck EUR 176); free cancellation up to 24 hours; hotel drop-off; not suitable under 8.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/tromso-l32375/tromso-aurora-borealis-small-group-tour-t323058/",
+     "title": "GetYourGuide: Tromsø: Northern Lights Minibus Chase, Free Photos, Drop-off",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-tromso-northern-lights-tour.html"
    ]
   },
   {
@@ -54044,6 +54344,146 @@
    ]
   },
   {
+   "id": "uae.dubai.safari.tiqets.premium-ramadan",
+   "place": "United Arab Emirates",
+   "topic": "place",
+   "claim": "Tiqets' Al Khayma premium safari listing says no live entertainment or alcohol is available during Ramadan and religious holidays, and that it is not recommended for pregnant women or those with back pain.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/dubai-attractions-c60005/tickets-for-premium-desert-safari-with-bbq-falconry-camel-ride-sandboarding-p974715/",
+     "title": "Premium Desert Safari at Al Khayma Camp - Tiqets",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-dubai-desert-safari.html"
+   ]
+  },
+  {
+   "id": "uae.dubai.safari.kkday.ramadan",
+   "place": "United Arab Emirates",
+   "topic": "place",
+   "claim": "KKday's evening safari says the belly dancing show, music and alcohol are unavailable in Ramadan; not recommended for pregnant women or people with back problems; pickup in Deira, Bur Dubai, Sheikh Zayed and Marina.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/604994",
+     "title": "Dubai Desert Safari Tour with BBQ Dinner - KKday",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-dubai-desert-safari.html"
+   ]
+  },
+  {
+   "id": "uae.dubai.safari.gyg.suitability",
+   "place": "United Arab Emirates",
+   "topic": "place",
+   "claim": "GetYourGuide's Red Dune Safari lists children under 3, pregnant women, people with back problems, mobility impairments and heart problems as not suitable.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-red-dune-safari-quad-bike-camel-ride-bbq-dinner-t74550/",
+     "title": "Red Dune Safari - GetYourGuide",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-dubai-desert-safari.html"
+   ]
+  },
+  {
+   "id": "uae.dubai.safari.viator.evening-terms",
+   "place": "United Arab Emirates",
+   "topic": "place",
+   "claim": "Viator's evening safari (Saifco): not recommended for pregnant travellers, dune bashing can be skipped, alcohol and shisha are paid extras, free pickup within Dubai city limits, free cancellation 24 hours ahead.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Dubai/Dubai-Desert-Safari-with-BBQ-Dinner/d828-31687P1",
+     "title": "Dubai Desert Safari - Viator",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-dubai-desert-safari.html"
+   ]
+  },
+  {
+   "id": "uae.dubai.safari.viator.heritage",
+   "place": "United Arab Emirates",
+   "topic": "place",
+   "claim": "Viator's heritage Land Rover safari in the Dubai Desert Conservation Reserve is not recommended for pregnant women in their third trimester; shared and private cars are priced separately.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Dubai/Luxury-Desert-Experience-Dinner-and-Emirati-Activities-with-Vintage-Land-Rover-Transport-from-Dubai/d828-6183DINNERSAF",
+     "title": "Heritage Desert Safari in Vintage Land Rover with Dinner - Viator",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-dubai-desert-safari.html"
+   ]
+  },
+  {
+   "id": "uae.dubai.safari.tiqets.evening-ramadan",
+   "place": "United Arab Emirates",
+   "topic": "place",
+   "claim": "Tiqets' Red Dunes evening listing marks its belly dance show as not available in Ramadan days; free cancellation and rescheduling until 24 hours before.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/dubai-attractions-c60005/tickets-for-dubai-desert-safari-red-dunes-sandboarding-live-shows-and-dinner-p1087151/",
+     "title": "Dubai Desert Safari: Red Dunes - Tiqets",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-dubai-desert-safari.html"
+   ]
+  },
+  {
+   "id": "uae.dubai.safari.gyg.overnight",
+   "place": "United Arab Emirates",
+   "topic": "price",
+   "claim": "GetYourGuide overnight Al Khayma safari: limited to 15 participants, 17 hours, $189 with private tent for 12 Dec 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/dubai-l173/from-dubai-red-dunes-and-camel-safari-with-overnight-camp-t176457/",
+     "title": "Overnight Safari - GetYourGuide",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-dubai-desert-safari.html"
+   ]
+  },
+  {
    "id": "gb.vat.hotel-rooms",
    "place": "United Kingdom",
    "topic": "tax",
@@ -58404,7 +58844,7 @@
   {
    "id": "uk.london.wbstudio.packages-only",
    "place": "United Kingdom",
-   "topic": "policy",
+   "topic": "place",
    "claim": "The studio says its tickets must be sold as part of a package and cannot be re-sold directly on a standalone basis, and lists approved ticket distributors including Klook, Golden Tours, Evan Evans Tours and Axis & Globe Travel.",
    "value": null,
    "sources": [
@@ -58424,7 +58864,7 @@
   {
    "id": "uk.london.wbstudio.authorised-only",
    "place": "United Kingdom",
-   "topic": "policy",
+   "topic": "place",
    "claim": "The studio's terms say only tickets bought directly from it or an authorised distributor are valid for admission.",
    "value": null,
    "sources": [
@@ -58444,7 +58884,7 @@
   {
    "id": "uk.london.wbstudio.no-door-sales",
    "place": "United Kingdom",
-   "topic": "policy",
+   "topic": "place",
    "claim": "All visitors must pre-book a date and time, and the studio does not hold back tickets for sale by phone or on the day.",
    "value": null,
    "sources": [
@@ -58464,7 +58904,7 @@
   {
    "id": "uk.london.wbstudio.sold-out-slots",
    "place": "United Kingdom",
-   "topic": "policy",
+   "topic": "place",
    "claim": "Once a time slot is sold out the studio cannot add visitors, and tickets are on sale until 31 December 2027.",
    "value": null,
    "sources": [
@@ -58489,7 +58929,7 @@
   {
    "id": "uk.london.wbstudio.timeslot-late",
    "place": "United Kingdom",
-   "topic": "policy",
+   "topic": "place",
    "claim": "Visitors can enter at any time in their 30-minute slot; the terms ask arrival no later than 20 minutes before the allocated entry time.",
    "value": null,
    "sources": [
@@ -58514,7 +58954,7 @@
   {
    "id": "uk.london.wbstudio.refund-change",
    "place": "United Kingdom",
-   "topic": "policy",
+   "topic": "place",
    "claim": "Studio tickets are non-refundable; the date can be changed for a £10 administration fee.",
    "value": null,
    "sources": [
@@ -58534,7 +58974,7 @@
   {
    "id": "uk.london.wbstudio.ages",
    "place": "United Kingdom",
-   "topic": "policy",
+   "topic": "place",
    "claim": "Adult is 16 or older, child is 5 to 15 inclusive, children aged 4 and under are free but need a ticket; a family ticket covers two adults and two children or one adult and three children.",
    "value": null,
    "sources": [
@@ -70061,6 +70501,321 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-stay-in-new-york-christmas.html"
+   ]
+  },
+  {
+   "id": "us.nyc.esb.non-refundable",
+   "place": "United States",
+   "topic": "place",
+   "claim": "Empire State Building tickets bought on its own site are non-refundable, but the reservation can be changed through Manage My Booking.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.esbnyc.com/ticket-policies",
+     "title": "ESB Ticket & Purchasing Information",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.esbnyc.com/visit/faq",
+     "title": "Empire State Building FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-empire-state-building-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.esb.floors",
+   "place": "United States",
+   "topic": "place",
+   "claim": "The 102nd floor deck is enclosed (1,250 ft); the 86th floor deck is open-air (1,050 ft); the 102nd is reached by glass elevator from the 86th.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.esbnyc.com/visit/faq",
+     "title": "Empire State Building FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-empire-state-building-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.esb.timed-reservation",
+   "place": "United States",
+   "topic": "place",
+   "claim": "All visits require a timed reservation; a Flex ticket lets you choose a date and arrive any time that day.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.esbnyc.com/visit/faq",
+     "title": "Empire State Building FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-empire-state-building-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.esb.express",
+   "place": "United States",
+   "topic": "place",
+   "claim": "The Express Pass skips the second-floor exhibits and elevator lines; guests may still visit the exhibits.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.esbnyc.com/visit/faq",
+     "title": "Empire State Building FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-empire-state-building-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.esb.children",
+   "place": "United States",
+   "topic": "place",
+   "claim": "Children aged 5 or younger are free with an adult; discounts for children 6 to 12 and seniors 62+; active military in uniform free.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.esbnyc.com/ticket-policies",
+     "title": "ESB Ticket & Purchasing Information",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.esbnyc.com/visit/faq",
+     "title": "Empire State Building FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-empire-state-building-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.esb.price-from",
+   "place": "United States",
+   "topic": "place",
+   "claim": "On 21 Nov 2026 the ticket page listed 86th floor from $46, 86th+102nd from $81, 86th Express from $87, 102nd Express from $122, Sunrise from $135, AM/PM from $67.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.esbnyc.com/buy-tickets",
+     "title": "Empire State Building Observation Deck Tickets",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-empire-state-building-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.esb.am-pm",
+   "place": "United States",
+   "topic": "place",
+   "claim": "The building lists an AM/PM Experience: two visits in one day for day and night views.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.esbnyc.com/buy-tickets",
+     "title": "Empire State Building Observation Deck Tickets",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-empire-state-building-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.esb.id-security",
+   "place": "United States",
+   "topic": "place",
+   "claim": "The building may ask for proof of identity (passport, driver's licence or credit card) and bans large bags and tripods; there are no lockers.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.esbnyc.com/ticket-policies",
+     "title": "ESB Ticket & Purchasing Information",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.esbnyc.com/visit/faq",
+     "title": "Empire State Building FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-empire-state-building-tickets.html"
+   ]
+  },
+  {
+   "id": "us.ush.express-definition",
+   "place": "United States",
+   "topic": "price",
+   "claim": "A standard Universal Express ticket includes 1-Day General Admission and one-time per-day express access to each ride, attraction and seated show; Universal Express Unlimited gives unlimited per-day express access.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.universalstudioshollywood.com/web/en/us/faqs/tickets",
+     "title": "Tickets FAQs | Universal Studios Hollywood",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-universal-studios-hollywood-tickets.html"
+   ]
+  },
+  {
+   "id": "us.ush.hollywood-drift-express",
+   "place": "United States",
+   "topic": "place",
+   "claim": "Express access to Fast & Furious: Hollywood Drift is not included in Universal Express, Universal Express Unlimited or the Express Add-On; VIP Experience, R.I.P. Tour and Guided Theme Park Tour Add-On products are exceptions; Express tickets bought before 31 August 2026 are unaffected.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.universalstudioshollywood.com/web/en/us/faqs/tickets",
+     "title": "Tickets FAQs | Universal Studios Hollywood",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-universal-studios-hollywood-tickets.html"
+   ]
+  },
+  {
+   "id": "us.ush.third-party-sellers",
+   "place": "United States",
+   "topic": "place",
+   "claim": "The park strongly recommends buying from itself or authorised ticketing partners, says it cannot verify tickets bought through other channels, and refuses invalid, duplicate or counterfeit tickets without compensation; the page does not name authorised sellers.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.universalstudioshollywood.com/web/en/us/faqs/tickets",
+     "title": "Tickets FAQs | Universal Studios Hollywood",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-universal-studios-hollywood-tickets.html"
+   ]
+  },
+  {
+   "id": "us.ush.age-rules",
+   "place": "United States",
+   "topic": "place",
+   "claim": "Online tickets are priced by age: ages 3 to 9 get the child price and ages 2 and under enter free; at the front gate the discount is by height, under 48 inches (122 cm).",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.universalstudioshollywood.com/web/en/us/faqs/tickets",
+     "title": "Tickets FAQs | Universal Studios Hollywood",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-universal-studios-hollywood-tickets.html"
+   ]
+  },
+  {
+   "id": "us.ush.sold-out-check",
+   "place": "United States",
+   "topic": "place",
+   "claim": "The park advises checking its ticket store for a Sold Out date before leaving and says tickets may be unavailable at the booths when the park reaches capacity.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.universalstudioshollywood.com/web/en/us/faqs/tickets",
+     "title": "Tickets FAQs | Universal Studios Hollywood",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-universal-studios-hollywood-tickets.html"
+   ]
+  },
+  {
+   "id": "us.ush.vip-rules",
+   "place": "United States",
+   "topic": "place",
+   "claim": "The VIP Experience tour lasts a minimum of 5 hours, takes up to 13 guests per guide, requires children to be at least 5 (17 to attend without an adult), and includes unlimited express access all day, a gourmet meal and valet parking.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.universalstudioshollywood.com/web/en/us/vip-experience",
+     "title": "VIP Experience at Universal Studios Hollywood",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-universal-studios-hollywood-tickets.html"
+   ]
+  },
+  {
+   "id": "us.ush.price-2026-12-09",
+   "place": "United States",
+   "topic": "price",
+   "claim": "On the park's own price calendar for Wednesday 9 December 2026 an adult ticket was $99.95 (General Admission), $219.95 (Universal Express), $269.95 (Universal Express Unlimited) and $389.95 (VIP Experience), read 21 November 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://store.universalstudioshollywood.com/en/us/store/c/uh_ice_default_pb_tickets",
+     "title": "Universal Studios Hollywood Tickets and Passes Store",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-21",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-universal-studios-hollywood-tickets.html"
    ]
   },
   {
