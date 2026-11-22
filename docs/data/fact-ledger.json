@@ -1,9 +1,9 @@
 {
  "name": "Gently Yonder travel fact ledger",
- "version": "2026-11-22",
+ "version": "2026-11-23",
  "license": "CC BY 4.0",
  "cite": "https://gentlyyonder.com/open-data.html",
- "count": 3358,
+ "count": 3362,
  "facts": [
   {
    "id": "au.gst.accommodation",
@@ -36798,6 +36798,86 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-buy-shibuya-sky-tickets.html"
+   ]
+  },
+  {
+   "id": "japan.hakone.gyg-his",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "GetYourGuide H.I.S. Mt Fuji and Hakone tour, 12 Dec 2026: USD 113.53 drop-off at Odawara/Hakone-Yumoto, USD 143.17 with Shinkansen, USD 153.26 with lunch; free cancellation until 11 Dec; hotel pickup and drinks not included.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/tokyo-l193/from-tokyo-mt-fuji-hakone-tour-w-return-by-bullet-train-t442195/",
+     "title": "GetYourGuide: From Tokyo: Mt. Fuji & Hakone Tour w/ Return by Bullet Train",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-23",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-hakone-day-tour.html"
+   ]
+  },
+  {
+   "id": "japan.hakone.viator-his",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "Viator H.I.S. Mt Fuji and Hakone tour, 12 Dec 2026: JPY 18,500 Odawara drop-off, 22,500 return train, 20,000/24,000 with lunch; free cancellation before 8:30 AM 11 Dec; highest accessible station if 5th Station closed.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Tokyo/Amazing-Mt-Fuji-and-Hakone-Tour/d334-43454P72",
+     "title": "Viator: Mt. Fuji and Hakone Day Trip From Tokyo with Bullet Train Option",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-23",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-hakone-day-tour.html"
+   ]
+  },
+  {
+   "id": "japan.hakone.tiqets-fuji-hakone",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "Tiqets Fuji-Hakone day tour with Shinkansen return, 12 Dec 2026: JPY 27,000, 08:10 start, max group 40, free cancellation until 24 hours before.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/tokyo-attractions-c72181/tickets-for-fuji-hakone-day-tour-from-tokyo-return-by-shinkansen-optional-lunch-p1112933/",
+     "title": "Tiqets: Fuji-Hakone: Day Tour from Tokyo + Return by Shinkansen + Optional Lunch",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-23",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-hakone-day-tour.html"
+   ]
+  },
+  {
+   "id": "japan.hakone.kkday-150923",
+   "place": "Japan",
+   "topic": "price",
+   "claim": "KKday Fuji lakes and Hakone day tour, 12 Dec 2026: JPY 7,800, free cancellation up to 2 days, cruise optional, marathon on 12 Dec 2026 may change itinerary order.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/150923-mount-fuji-hakone-day-tour-lake-kawaguchi-tokyo",
+     "title": "KKday: Mt. Fuji & Hakone Day Tour: Lake Ashi, Owakudani & Oshino Hakkai",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-23",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-hakone-day-tour.html"
    ]
   },
   {

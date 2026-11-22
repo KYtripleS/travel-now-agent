@@ -494,6 +494,11 @@ V = {
              "free to cancel up to 24 hours ahead, pay later, with pickup and winter clothing included. If you "
              "would rather be driven, Viator’s 1 km farm ride was €89 a head but needs two paying adults.",
         cta=("href", "Check the husky safari on GetYourGuide", "https://getyourguide.tpx.lu/DldsFg1E")),
+    "where-to-book-hakone-day-tour": dict(
+        text="Book the H.I.S. Mt Fuji and Hakone tour on GetYourGuide: $113.53 for 12 December ending at Odawara "
+             "or Hakone-Yumoto, or $143.17 with a Shinkansen ticket back to Tokyo, free to cancel until 11 December "
+             "with 1,824 reviews. KKday’s Fuji-lakes and Hakone route was ¥7,800, without the 5th Station or meals.",
+        cta=("href", "Check the Hakone tour on GetYourGuide", "https://getyourguide.tpx.lu/cE6Fwr7N")),
     "where-to-book-snow-monkey-tour": dict(
         text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
              "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
@@ -3797,7 +3802,8 @@ STAY_POINTERS = {
         'hotels to the Shinjuku start, the Tokyo Station finish and bib pick-up in Ariake. Going to the parks? '
         '<a href="where-to-stay-for-tokyo-disney-resort.html">Where to stay for Tokyo Disneyland</a> weighs the '
         'Disney Hotels, Shin-Urayasu and a Tokyo base. Booking teamLab? <a href="where-to-buy-teamlab-planets-tickets.html">'
-        'teamLab Planets tickets compared</a> shows which sellers teamLab names and how date changes work.'
+        'teamLab Planets tickets compared</a> shows which sellers teamLab names and how date changes work. Going to Hakone for the day? '
+        '<a href="where-to-book-hakone-day-tour.html">Hakone day tours compared</a> prices the Tokyo departures on four sellers for one December date.'
         ' Seeing the snow monkeys? <a href="where-to-book-snow-monkey-tour.html">Snow monkey day tours compared</a> sets the Tokyo and Nagano departures side by side for one December date.'
         ' Going up Shibuya Sky? <a href="where-to-buy-shibuya-sky-tickets.html">Shibuya Sky tickets compared</a> shows which sellers the venue accepts and when each date goes on sale.'),
     "where-to-stay-in-kyoto": ("intro",
@@ -4208,6 +4214,9 @@ STAY_POINTERS = {
         'Weighing London instead? <a href="where-to-stay-in-london-new-years-eve.html">London on New Year’s Eve</a> '
         'covers the ticketed Thames fireworks, the areas within walking distance and the UK’s £20 ETA.'
         ' Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'),
+    "where-to-stay-in-hakone": ("intro",
+        'Coming for the day from Tokyo instead? <a href="where-to-book-hakone-day-tour.html">Hakone day tours compared</a> '
+        'prices the Tokyo departures on GetYourGuide, Viator, Tiqets and KKday for one December date.'),
     # both
     "best-time-to-visit-australia": ("The south: Sydney",
         f'Once you have dates: <a href="{_S}">where to stay in Sydney</a> and <a href="{_M}">in Melbourne</a>, '
