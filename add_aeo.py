@@ -489,6 +489,11 @@ V = {
              "for 12 December, free to cancel or reschedule until the day before. For dinner on the river, Tiqets’ "
              "three-course Bateaux Parisiens cruise with drinks was $108.63.",
         cta=("href", "Check the Seine cruise on Tiqets", "https://tiqets.tpx.lu/c8X2glOI")),
+    "where-to-book-rovaniemi-husky-safari": dict(
+        text="Book GetYourGuide’s 5 km self-driven safari run by Safartica: €189 for one adult on 12 December, "
+             "free to cancel up to 24 hours ahead, pay later, with pickup and winter clothing included. If you "
+             "would rather be driven, Viator’s 1 km farm ride was €89 a head but needs two paying adults.",
+        cta=("href", "Check the husky safari on GetYourGuide", "https://getyourguide.tpx.lu/DldsFg1E")),
     "where-to-book-snow-monkey-tour": dict(
         text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
              "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
@@ -4155,7 +4160,9 @@ STAY_POINTERS = {
         'lights tours compared</a> sets Viator, KKday and Tiqets side by side for one December date, with who '
         'refunds a cloudy night. Chasing the lights further north? <a href="where-to-stay-in-tromso-northern-lights.html">'
         'Where to stay in Tromsø for the northern lights</a> compares the harbour, the centre and two out-of-town '
-        'lodges, with the polar night dates.'),
+        'lodges, with the polar night dates. Going out with the dogs? <a href="where-to-book-rovaniemi-husky-safari.html">'
+        'Rovaniemi husky safaris compared</a> prices GetYourGuide, Viator and KKday for one December date, '
+        'from a 1 km ride to a 10 km self-drive.'),
     "where-to-stay-in-reykjavik": [
         ("intro",
          'Coming for the aurora? <a href="where-to-stay-in-reykjavik-northern-lights.html">Where to stay in Reykjavik '

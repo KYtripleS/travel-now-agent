@@ -3,7 +3,7 @@
  "version": "2026-11-22",
  "license": "CC BY 4.0",
  "cite": "https://gentlyyonder.com/open-data.html",
- "count": 3353,
+ "count": 3358,
  "facts": [
   {
    "id": "au.gst.accommodation",
@@ -9385,6 +9385,106 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-book-rovaniemi-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.husky.gyg-5km",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "GetYourGuide Rovaniemi Daytime Husky Safari 5 km self-driven (Safartica), 12 Dec 2026, EUR 189 for 1 adult, 9:00/11:00/13:00/15:00; free cancellation up to 24 hours ahead; winter clothing and transfers included.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/rovaniemi-l2653/rovaniemi-daytime-husky-safari-t437502/",
+     "title": "GetYourGuide: Rovaniemi: Daytime Husky Safari - 5 km self-driven",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-husky-safari.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.husky.viator-sunny",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "Viator Husky Farm Visit & Sled Ride Experience (Sunny Safari), 12 Dec 2026, EUR 89 per adult (2 adults EUR 178); 1 km ride, musher drives; free cancellation before 09:40 on 11 Dec; min 2 full-paying adults.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/en-GB/tours/Rovaniemi/WINTER-Husky-Kennel-Visit-and-Husky-2km-Sledding/d22130-182465P18",
+     "title": "Viator: Husky Farm Visit & Sled Ride Experience",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-husky-safari.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.husky.viator-apukka",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "Viator 6km Apukka Husky Adventure, 12 Dec 2026, EUR 219 for 1 adult at 13:00; self-driven 6 km; free cancellation before 13:00 on 11 Dec; reserve now pay nothing until 10 Dec.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Apukka-Husky-Adventure/d22130-103592P16",
+     "title": "Viator: 6km Apukka Husky Adventure in Rovaniemi",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-husky-safari.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.husky.kkday-184903",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "KKday 1-Hour Husky Safari with Farm Visit (Rovaniemi), 12 Dec 2026, EUR 214 adult, EUR 160.5 child 4-12; 7-10 km, 45-60 min, two persons per team; sessions 09:30 and 14:00; free cancellation up to 2 days; booking confirmed 1 day after ordering.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/184903",
+     "title": "KKday: 1-Hour Husky Safari with Farm Visit from Rovaniemi",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-husky-safari.html"
+   ]
+  },
+  {
+   "id": "fi.rovaniemi.husky.kkday-124645",
+   "place": "Finland",
+   "topic": "price",
+   "claim": "KKday Rovaniemi Half-Day Tour, Husky Farm and Husky Sled, 12 Dec 2026, EUR 119 adult; min 2 travellers; no pickup; passengers cannot steer; cancellation free up to 31 days, 10% fee 8-30 days, 50% 3-7 days, none 0-2 days.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/124645-rovaniemi-tour-husky-farm-husky-sled",
+     "title": "KKday: Rovaniemi Half-Day Tour | Husky Farm and Husky Sled",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-22",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-rovaniemi-husky-safari.html"
    ]
   },
   {

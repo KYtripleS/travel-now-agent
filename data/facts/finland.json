@@ -723,6 +723,132 @@
           "Cancellation and rescheduling are possible until 11:59 pm the day before"
         ]
       }
+    },
+    {
+      "id": "fi.rovaniemi.husky.gyg-5km",
+      "topic": "price",
+      "claim": "GetYourGuide Rovaniemi Daytime Husky Safari 5 km self-driven (Safartica), 12 Dec 2026, EUR 189 for 1 adult, 9:00/11:00/13:00/15:00; free cancellation up to 24 hours ahead; winter clothing and transfers included.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/rovaniemi-l2653/rovaniemi-daytime-husky-safari-t437502/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Rovaniemi: Daytime Husky Safari - 5 km self-driven",
+          "evidence": [
+            "Cancel up to 24 hours in advance for a full refund",
+            "Cancel for free until Dec 11",
+            "Winter clothing",
+            "5-km self-drive husky ride (about 20-30 min); 2 adults per team, children in sleigh"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-husky-safari.html": [
+          "€189 for one adult on 12 December",
+          "Free cancellation up to 24 hours ahead for a full refund",
+          "about 20 to 30 minutes"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.husky.viator-sunny",
+      "topic": "price",
+      "claim": "Viator Husky Farm Visit & Sled Ride Experience (Sunny Safari), 12 Dec 2026, EUR 89 per adult (2 adults EUR 178); 1 km ride, musher drives; free cancellation before 09:40 on 11 Dec; min 2 full-paying adults.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Rovaniemi/WINTER-Husky-Kennel-Visit-and-Husky-2km-Sledding/d22130-182465P18",
+          "kind": "secondary",
+          "title": "Viator: Husky Farm Visit & Sled Ride Experience",
+          "evidence": [
+            "2 Adults x €89.00",
+            "1km husky sled ride experience",
+            "Musher driving, guests sit in sled",
+            "A minimum of 2 full-paying adults is required for the tour to operate."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-husky-safari.html": [
+          "€89 per adult with two adults selected (€178 in total)",
+          "Free cancellation before 09:40 on 11 December",
+          "at least two full-paying adults are required for the tour to operate"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.husky.viator-apukka",
+      "topic": "price",
+      "claim": "Viator 6km Apukka Husky Adventure, 12 Dec 2026, EUR 219 for 1 adult at 13:00; self-driven 6 km; free cancellation before 13:00 on 11 Dec; reserve now pay nothing until 10 Dec.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Apukka-Husky-Adventure/d22130-103592P16",
+          "kind": "secondary",
+          "title": "Viator: 6km Apukka Husky Adventure in Rovaniemi",
+          "evidence": [
+            "6 km husky ride, self-driven",
+            "You can cancel up to 24 hours in advance of the experience for a full refund."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-husky-safari.html": [
+          "€219 for one adult at 13:00 on 12 December",
+          "Free cancellation before 13:00 on 11 December"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.husky.kkday-184903",
+      "topic": "price",
+      "claim": "KKday 1-Hour Husky Safari with Farm Visit (Rovaniemi), 12 Dec 2026, EUR 214 adult, EUR 160.5 child 4-12; 7-10 km, 45-60 min, two persons per team; sessions 09:30 and 14:00; free cancellation up to 2 days; booking confirmed 1 day after ordering.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/184903",
+          "kind": "secondary",
+          "title": "KKday: 1-Hour Husky Safari with Farm Visit from Rovaniemi",
+          "evidence": [
+            "Free cancellation up to 2 day(s) in advance",
+            "45-60 min Husky Safari of 7-10 km (2 persons per team); children in sleigh",
+            "Booking confirmed 1 day(s) after ordering",
+            "Cancellation is not allowed between 0–1 days from the selected date."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-husky-safari.html": [
+          "€214 per adult on 12 December",
+          "The ride is 7 to 10 km and 45 to 60 minutes",
+          "The booking is confirmed within a day of ordering, not instantly"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.husky.kkday-124645",
+      "topic": "price",
+      "claim": "KKday Rovaniemi Half-Day Tour, Husky Farm and Husky Sled, 12 Dec 2026, EUR 119 adult; min 2 travellers; no pickup; passengers cannot steer; cancellation free up to 31 days, 10% fee 8-30 days, 50% 3-7 days, none 0-2 days.",
+      "checked": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/124645-rovaniemi-tour-husky-farm-husky-sled",
+          "kind": "secondary",
+          "title": "KKday: Rovaniemi Half-Day Tour | Husky Farm and Husky Sled",
+          "evidence": [
+            "For cancellations made 8 to 30 days prior to selected date, a cancellation fee of 10% will apply",
+            "This tour requires a minimum of 2 travelers.",
+            "We do not provide pick up and drop off for this tour",
+            "Please be aware that passengers on husky sleds can't steer; it's a ride-only experience"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-husky-safari.html": [
+          "€119 per adult on 12 December",
+          "a 10% fee from 8 to 30 days ahead, 50% from 3 to 7 days ahead"
+        ]
+      }
     }
   ]
 }
