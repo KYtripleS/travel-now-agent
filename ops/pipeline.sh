@@ -15,4 +15,5 @@ for f in where-to-stay-in-lisbon; do
   git checkout HEAD -- site/articles/$f.html docs/articles/$f.html
 done
 $PY bust_assets.py >/dev/null
+$PY ops/sitemap_lastmod.py >/dev/null
 echo pipeline ok

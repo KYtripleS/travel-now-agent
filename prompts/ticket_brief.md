@@ -60,6 +60,12 @@ sites show a bot check. Read listings and calendars in your own built-in browser
 work since 2026-11-16; rules as in stay_brief.md). Call tabs_create FIRST and pass its tabId on every
 call: a navigate without your own tab acts on the operator's tab and is refused. A page that still blocks
 the tab is "not checked".
+Lessons from the daily runs (weekly PDCA 2026-11-23):
+- Klook blocked the built-in browser tab too in 2 of 2 runs (22 and 23 Nov). Try it once; if it blocks,
+  write "Klook: not checked (blocks automated reading)" and move on. Do not retry or look for a way round.
+- Read every seller in the same currency. If one seller shows another currency (GetYourGuide stayed in
+  USD on 23 Nov while the others showed JPY), switch that site's currency selector first. If it will not
+  switch, give the table one note on it and do not bold a "cheapest" across currencies.
 
 Before you start pricing, read the official site's terms on resellers. If it refuses tickets bought from
 resellers (as Sagrada Família's does), stop and report: that page is not a comparison.
