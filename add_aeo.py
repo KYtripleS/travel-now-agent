@@ -499,6 +499,11 @@ V = {
              "or Hakone-Yumoto, or $143.17 with a Shinkansen ticket back to Tokyo, free to cancel until 11 December "
              "with 1,824 reviews. KKday’s Fuji-lakes and Hakone route was ¥7,800, without the 5th Station or meals.",
         cta=("href", "Check the Hakone tour on GetYourGuide", "https://getyourguide.tpx.lu/cE6Fwr7N")),
+    "where-to-buy-ocean-park-hong-kong-tickets": dict(
+        text="Book KKday’s admission ticket: HK$494 for an adult and HK$247 for a child on 12 December (the park’s "
+             "own page lists HK$538 and HK$269), an e-ticket you scan at the entrance and can use within 180 days of "
+             "buying. It cannot be cancelled; from 27 November KKday lists a free-cancellation version at the same HK$494.",
+        cta=("href", "Check the Ocean Park ticket on KKday", "https://kkday.tpx.lu/vP2NMHzT")),
     "where-to-book-snow-monkey-tour": dict(
         text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
              "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
@@ -3981,7 +3986,9 @@ STAY_POINTERS = {
         'Victoria Park fair. Here for 31 December? '
         '<a href="where-to-stay-in-hong-kong-new-years-eve.html">Where to stay for New Year’s Eve</a> explains last year’s move to Central. '
         'Going to the park? <a href="where-to-buy-hong-kong-disneyland-tickets.html">Hong Kong Disneyland tickets compared</a> '
-        'sets KKday and GetYourGuide beside the park’s own price for the same day.'),
+        'sets KKday and GetYourGuide beside the park’s own price for the same day. Going to Ocean Park? '
+        '<a href="where-to-buy-ocean-park-hong-kong-tickets.html">Ocean Park tickets compared</a> '
+        'puts KKday, GetYourGuide and Tiqets side by side for a December Saturday.'),
     "where-to-stay-in-shanghai": ("intro",
         'Going to the park? <a href="where-to-buy-shanghai-disneyland-tickets.html">Shanghai Disneyland tickets compared</a> '
         'sets KKday, GetYourGuide and Viator beside the park’s own price, with the real-name ID rules.'),

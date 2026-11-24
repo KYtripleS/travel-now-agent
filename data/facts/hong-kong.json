@@ -1658,6 +1658,216 @@
           "Free cancellation before 10:30 on Dec 15 (local time)"
         ]
       }
+    },
+    {
+      "id": "hk.oceanpark.general-admission",
+      "topic": "price",
+      "claim": "General admission: adult (12+) HK$538, child (3-11) HK$269, JoyYou Card holders (60-64) HK$100; children under 3 free.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.oceanpark.com.hk/en/ticket-offer/admission-ticket-special-offers",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, Admission Ticket & Special Offers",
+          "evidence": [
+            "Adult(aged 12 or above) HK$ 538",
+            "Child(aged 3-11) HK$ 269",
+            "Free admission is granted to children under 3 years old."
+          ]
+        },
+        {
+          "url": "https://www.oceanpark.com.hk/en/faq",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, FAQ",
+          "evidence": [
+            "Adult (aged 12 or above): HK$538",
+            "Child (aged 3-11): HK$269"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-ocean-park-hong-kong-tickets.html": [
+          "adult (aged 12 or above) at HK$538",
+          "child (aged 3-11) at HK$269",
+          "Children under 3 are admitted free"
+        ]
+      }
+    },
+    {
+      "id": "hk.oceanpark.validity",
+      "topic": "entry",
+      "claim": "General admission ticket is valid 180 days from the date of purchase (open date, not dated to one day).",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.oceanpark.com.hk/en/ticket-offer/admission-ticket-special-offers",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, Admission Ticket & Special Offers",
+          "evidence": [
+            "Ticket validity is 180 days from the date of purchase."
+          ]
+        },
+        {
+          "url": "https://www.oceanpark.com.hk/en/faq",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, FAQ",
+          "evidence": [
+            "Valid for 180 days from the date of purchase."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-ocean-park-hong-kong-tickets.html": [
+          "ticket validity is 180 days from the date of purchase",
+          "valid for 180 days from the day you buy it"
+        ]
+      }
+    },
+    {
+      "id": "hk.oceanpark.no-reservation",
+      "topic": "entry",
+      "claim": "Since 27 July 2023 visitors need no online reservation to enter, except those redeeming the free birthday ticket for Hong Kong residents.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.oceanpark.com.hk/en/faq",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, FAQ",
+          "evidence": [
+            "are not required to make online reservations prior to their visits"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-ocean-park-hong-kong-tickets.html": [
+          "visitors are not required to make online reservations before they visit"
+        ]
+      }
+    },
+    {
+      "id": "hk.oceanpark.child-accompany",
+      "topic": "entry",
+      "claim": "Any child aged 11 or below must be accompanied by an adult aged 15 or above.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.oceanpark.com.hk/en/ticket-offer/admission-ticket-special-offers",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, Admission Ticket & Special Offers",
+          "evidence": [
+            "Any child (aged 11 or below) must be accompanied by an adult (aged 15 or above)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-ocean-park-hong-kong-tickets.html": [
+          "any child aged 11 or below must be accompanied by an adult aged 15 or above"
+        ]
+      }
+    },
+    {
+      "id": "hk.oceanpark.id-check",
+      "topic": "entry",
+      "claim": "The park may verify age, identity or ticket eligibility and may refuse admission to anyone who cannot show valid identification.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.oceanpark.com.hk/en/ticket-offer/admission-ticket-special-offers",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, Admission Ticket & Special Offers",
+          "evidence": [
+            "Admission may be refused to any person who fails to present valid identification upon request."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-ocean-park-hong-kong-tickets.html": [
+          "admission may be refused to anyone who cannot show valid identification"
+        ]
+      }
+    },
+    {
+      "id": "hk.oceanpark.refunds",
+      "topic": "entry",
+      "claim": "The park will not consider refunds because of ride suspension or closure; no refunds or rain checks for inclement weather.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.oceanpark.com.hk/en/ticket-offer/admission-ticket-special-offers",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, Admission Ticket & Special Offers",
+          "evidence": [
+            "any request for a refund, whether partial or in full"
+          ]
+        },
+        {
+          "url": "https://www.oceanpark.com.hk/en/park-rules-and-regulations",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, Park Rules and Regulations",
+          "evidence": [
+            "No refunds or rain checks for inclement weather."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-ocean-park-hong-kong-tickets.html": [
+          "it will not consider a refund request, partial or full",
+          "no refunds or rain checks for inclement weather"
+        ]
+      }
+    },
+    {
+      "id": "hk.oceanpark.reentry-bags",
+      "topic": "entry",
+      "claim": "Re-entry on the same day uses a turnstile wristband plus the ticket; bags over 56cm x 36cm x 23cm are not allowed.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.oceanpark.com.hk/en/faq",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, FAQ",
+          "evidence": [
+            "you will be given a wristband"
+          ]
+        },
+        {
+          "url": "https://www.oceanpark.com.hk/en/park-rules-and-regulations",
+          "kind": "official",
+          "title": "Ocean Park Hong Kong, Park Rules and Regulations",
+          "evidence": [
+            "over the size of 56cm x 36cm x 23cm are not allowed"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-ocean-park-hong-kong-tickets.html": [
+          "ask staff at the turnstile for a wristband",
+          "over 56cm x 36cm x 23cm are not allowed in"
+        ]
+      }
+    },
+    {
+      "id": "hk.oceanpark.kkday-cancellation",
+      "topic": "price",
+      "claim": "KKday's Admission Ticket (HK$494 adult, HK$247 child) cannot be cancelled once completed; its Free Cancellation version is HK$494, cancellable up to 3 days ahead, booking starts 27 Nov 2026.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en-hk/product/2306-ocean-park-hong-kong-ticket",
+          "kind": "operator",
+          "title": "KKday, Ocean Park Hong Kong Tickets & Ocean FasTrack",
+          "evidence": [
+            "Once the order has been completed, it cannot be canceled, modified, or refunded",
+            "Free cancellation up to 3 day(s) in advance"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-ocean-park-hong-kong-tickets.html": [
+          "cannot be cancelled, modified or refunded",
+          "Free cancellation up to 3 day(s) in advance"
+        ]
+      }
     }
   ]
 }

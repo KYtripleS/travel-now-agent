@@ -271,6 +271,7 @@ BY_SLUG = {
     "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
     "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Food",
     # 2026-10-31 ticket comparisons
+    "where-to-buy-ocean-park-hong-kong-tickets": "Booking & tours",
     "where-to-book-hakone-day-tour": "Booking & tours",
     "where-to-book-rovaniemi-husky-safari": "Booking & tours",
     "where-to-book-seine-river-cruise": "Booking & tours",

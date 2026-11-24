@@ -1,9 +1,9 @@
 {
  "name": "Gently Yonder travel fact ledger",
- "version": "2026-11-23",
+ "version": "2026-11-25",
  "license": "CC BY 4.0",
  "cite": "https://gentlyyonder.com/open-data.html",
- "count": 3362,
+ "count": 3370,
  "facts": [
   {
    "id": "au.gst.accommodation",
@@ -19142,6 +19142,186 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-buy-hong-kong-disneyland-tickets.html"
+   ]
+  },
+  {
+   "id": "hk.oceanpark.general-admission",
+   "place": "Hong Kong",
+   "topic": "price",
+   "claim": "General admission: adult (12+) HK$538, child (3-11) HK$269, JoyYou Card holders (60-64) HK$100; children under 3 free.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.oceanpark.com.hk/en/ticket-offer/admission-ticket-special-offers",
+     "title": "Ocean Park Hong Kong, Admission Ticket & Special Offers",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.oceanpark.com.hk/en/faq",
+     "title": "Ocean Park Hong Kong, FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-ocean-park-hong-kong-tickets.html"
+   ]
+  },
+  {
+   "id": "hk.oceanpark.validity",
+   "place": "Hong Kong",
+   "topic": "entry",
+   "claim": "General admission ticket is valid 180 days from the date of purchase (open date, not dated to one day).",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.oceanpark.com.hk/en/ticket-offer/admission-ticket-special-offers",
+     "title": "Ocean Park Hong Kong, Admission Ticket & Special Offers",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.oceanpark.com.hk/en/faq",
+     "title": "Ocean Park Hong Kong, FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-ocean-park-hong-kong-tickets.html"
+   ]
+  },
+  {
+   "id": "hk.oceanpark.no-reservation",
+   "place": "Hong Kong",
+   "topic": "entry",
+   "claim": "Since 27 July 2023 visitors need no online reservation to enter, except those redeeming the free birthday ticket for Hong Kong residents.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.oceanpark.com.hk/en/faq",
+     "title": "Ocean Park Hong Kong, FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-ocean-park-hong-kong-tickets.html"
+   ]
+  },
+  {
+   "id": "hk.oceanpark.child-accompany",
+   "place": "Hong Kong",
+   "topic": "entry",
+   "claim": "Any child aged 11 or below must be accompanied by an adult aged 15 or above.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.oceanpark.com.hk/en/ticket-offer/admission-ticket-special-offers",
+     "title": "Ocean Park Hong Kong, Admission Ticket & Special Offers",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-ocean-park-hong-kong-tickets.html"
+   ]
+  },
+  {
+   "id": "hk.oceanpark.id-check",
+   "place": "Hong Kong",
+   "topic": "entry",
+   "claim": "The park may verify age, identity or ticket eligibility and may refuse admission to anyone who cannot show valid identification.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.oceanpark.com.hk/en/ticket-offer/admission-ticket-special-offers",
+     "title": "Ocean Park Hong Kong, Admission Ticket & Special Offers",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-ocean-park-hong-kong-tickets.html"
+   ]
+  },
+  {
+   "id": "hk.oceanpark.refunds",
+   "place": "Hong Kong",
+   "topic": "entry",
+   "claim": "The park will not consider refunds because of ride suspension or closure; no refunds or rain checks for inclement weather.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.oceanpark.com.hk/en/ticket-offer/admission-ticket-special-offers",
+     "title": "Ocean Park Hong Kong, Admission Ticket & Special Offers",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.oceanpark.com.hk/en/park-rules-and-regulations",
+     "title": "Ocean Park Hong Kong, Park Rules and Regulations",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-ocean-park-hong-kong-tickets.html"
+   ]
+  },
+  {
+   "id": "hk.oceanpark.reentry-bags",
+   "place": "Hong Kong",
+   "topic": "entry",
+   "claim": "Re-entry on the same day uses a turnstile wristband plus the ticket; bags over 56cm x 36cm x 23cm are not allowed.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.oceanpark.com.hk/en/faq",
+     "title": "Ocean Park Hong Kong, FAQ",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.oceanpark.com.hk/en/park-rules-and-regulations",
+     "title": "Ocean Park Hong Kong, Park Rules and Regulations",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-ocean-park-hong-kong-tickets.html"
+   ]
+  },
+  {
+   "id": "hk.oceanpark.kkday-cancellation",
+   "place": "Hong Kong",
+   "topic": "price",
+   "claim": "KKday's Admission Ticket (HK$494 adult, HK$247 child) cannot be cancelled once completed; its Free Cancellation version is HK$494, cancellable up to 3 days ahead, booking starts 27 Nov 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en-hk/product/2306-ocean-park-hong-kong-ticket",
+     "title": "KKday, Ocean Park Hong Kong Tickets & Ocean FasTrack",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-ocean-park-hong-kong-tickets.html"
    ]
   },
   {

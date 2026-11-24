@@ -28,6 +28,11 @@
   }
  },
  "pages": {
+  "where-to-buy-ocean-park-hong-kong-tickets": {
+   "text": "The ticket is good for 180 days from purchase, and KKday says the date you pick is for system reference only, so a changed visit day does not need a new ticket.",
+   "until": "2027-05-24",
+   "source": "KKday listing and oceanpark.com.hk admission page, checked 25 November 2026, quoted in the guide"
+  },
   "where-to-buy-universal-studios-japan-tickets": {
    "text": "The park now re-prices each day by demand and advises buying as early as possible; if your date’s price rises after you buy, you pay nothing more.",
    "until": "2027-08-31",

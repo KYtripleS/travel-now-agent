@@ -32,6 +32,7 @@ TOURS = ("Booking a ticket or tour in one city? We priced each one on every part
                ("where-to-book-snow-monkey-tour", "Snow monkey tours"),
                ("where-to-book-hakone-day-tour", "Hakone day tours")]),
     ("Asia and the Gulf", [("where-to-buy-hong-kong-disneyland-tickets", "Hong Kong Disneyland"),
+                           ("where-to-buy-ocean-park-hong-kong-tickets", "Ocean Park, Hong Kong"),
                            ("where-to-buy-shanghai-disneyland-tickets", "Shanghai Disneyland"),
                            ("where-to-buy-lotte-world-tickets", "Lotte World, Seoul"),
                            ("where-to-book-seoul-dmz-tour", "Seoul DMZ tours"),
