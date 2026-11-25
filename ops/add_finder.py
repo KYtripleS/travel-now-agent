@@ -57,6 +57,7 @@ TOURS = ("Booking a ticket or tour in one city? We priced each one on every part
                 ("where-to-buy-van-gogh-museum-tickets", "Van Gogh Museum"),
                 ("where-to-book-rovaniemi-northern-lights-tour", "Rovaniemi aurora tours"),
                 ("where-to-book-rovaniemi-husky-safari", "Rovaniemi husky safaris"),
+                ("where-to-book-tromso-husky-safari", "Tromsø husky safaris"),
                 ("where-to-book-tromso-northern-lights-tour", "Tromsø aurora tours"),
                 ("where-to-book-golden-circle-tour", "Golden Circle tours, Iceland")]),
     ("Americas and Australia", [("where-to-buy-empire-state-building-tickets", "Empire State Building"),

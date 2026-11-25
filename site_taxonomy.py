@@ -271,6 +271,7 @@ BY_SLUG = {
     "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
     "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Food",
     # 2026-10-31 ticket comparisons
+    "where-to-book-tromso-husky-safari": "Booking & tours",
     "where-to-buy-windsor-castle-tickets": "Booking & tours",
     "where-to-buy-radio-city-christmas-spectacular-tickets": "Booking & tours",
     "where-to-buy-tower-of-london-tickets": "Booking & tours",

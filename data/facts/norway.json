@@ -490,6 +490,228 @@
           "not suitable for children under 8"
         ]
       }
+    },
+    {
+      "id": "no.tromso.husky.gyg-villmarkssenter-selfdrive",
+      "topic": "price",
+      "claim": "GetYourGuide Tromsø: Husky Sled Self-Drive with Traditional Lunch (Tromsø Villmarkssenter), 24 Dec 2026, EUR 315.62 for 1 adult, 07:30, about 45 min self-drive, minimum age 16, free cancellation until 23 Dec.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/tromso-l32375/tromso-half-day-drive-a-husky-sledge-t77107/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Tromsø: Husky Sled Self-Drive with Traditional Lunch",
+          "evidence": [
+            "Approx. 45 min self-drive dogsledding in a shared sled",
+            "This is a self-driven tour with minimum age 16",
+            "Transportation (25 min each way)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-husky-safari.html": [
+          "€315.62 for one adult on 24 December",
+          "self-drive dog sledding in a shared sled",
+          "Minimum age 16"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.husky.gyg-aat-selfdrive",
+      "topic": "price",
+      "claim": "GetYourGuide Tromsø: Self-Drive Husky Dog Sledding Adventure (Arctic Adventure Tours AS): 24 Dec 2026 not on sale; 23 Dec EUR 325.86 for 1 adult at 15:00; 70-80 min sledding; children under 7 not suitable; free cancellation until 22 Dec.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/tromso-l32375/tromso-self-driven-husky-dog-sled-daytime-adventure-t193904/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Tromsø: Self-Drive Husky Dog Sledding Adventure",
+          "evidence": [
+            "Activity provider: Arctic Adventure Tours AS",
+            "After your 70-80 minute sledding adventure",
+            "Children under 7 years",
+            "Cancel up to 24 hours in advance for a full refund"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-husky-safari.html": [
+          "€325.86 for one adult, one start time at 15:00",
+          "70 to 80 minute sledding adventure",
+          "limit of 170 kg per sled per two people"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.husky.gyg-bestarctic-easy",
+      "topic": "price",
+      "claim": "GetYourGuide Tromsø: Easy Dog Sledding Tour & Kennel Visit (Best Arctic AS), 24 Dec 2026, EUR 259.76 for 1 adult, 10:15 and 12:15, 20-30 min ride, minimum age 6, free cancellation until 23 Dec.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/tromso-l32375/tromso-easy-dog-sledding-tour-kennel-visit-t1461148/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Tromsø: Easy Dog Sledding Tour & Kennel Visit",
+          "evidence": [
+            "Activity provider: Best Arctic AS",
+            "Minimum age is 6 years old",
+            "Enjoy a 20-30 minute ride through the stunning Arctic landscape"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-husky-safari.html": [
+          "€259.76 for one adult on 24 December",
+          "start times 10:15 and 12:15",
+          "Minimum age 6"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.husky.gyg-villmarkssenter-passenger",
+      "topic": "price",
+      "claim": "GetYourGuide Tromsø: Guided Husky Sledding with Traditional Lunch (Tromsø Villmarkssenter): 24 Dec 2026 not on sale; 23 Dec EUR 315.62 for 1 adult at 09:30; musher drives; about 45 min ride; suitable for all ages; minimum 2 persons to run.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/tromso-l32375/tromso-half-day-guided-husky-sled-ride-tour-t77020/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Tromsø: Guided Husky Sledding with Traditional Lunch",
+          "evidence": [
+            "Approx. 45-minute sled ride in a shared sled driven by a guide",
+            "Minimum to run the tour is 2 persons",
+            "Suitable for all ages and all levels of physical fitness"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-husky-safari.html": [
+          "€315.62 for one adult, one start time at 09:30",
+          "suitable for all ages",
+          "needs at least two people to run"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.husky.viator-aat-selfdrive",
+      "topic": "price",
+      "claim": "Viator Tromso Self-Drive Husky Dog Sledding (Arctic Adventure Tours AS): 24 Dec 2026 not available (next date 3 Jan 2027); 23 Dec EUR 334.27 for 1 traveller at 15:00; 70-80 min sledding; minimum age 7.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Tromso/Husky-Dog-Sledding-Daytime-Adventure/d4362-55004P6",
+          "kind": "secondary",
+          "title": "Viator: Tromso Self-Drive Husky Dog Sledding",
+          "evidence": [
+            "70-80 minutes of dog sledding in the Arctic wilderness",
+            "Please note the lower age limit is 7 years old",
+            "You can cancel up to 24 hours in advance of the experience for a full refund."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-husky-safari.html": [
+          "On 23 December, one traveller: €334.27, 15:00",
+          "70 to 80 minutes of dog sledding",
+          "Minimum age 7"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.husky.viator-bestarctic-easy",
+      "topic": "price",
+      "claim": "Viator Easy Dog Sledding Tour and Kennel Visit from Tromsø (Best Arctic AS), 24 Dec 2026, EUR 266.46 for 1 adult at 10:15; free cancellation before 10:15 on 23 Dec; maximum 48 travellers.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Tromso/Easy-Dog-Sledding-Tour-and-Kennel-Visit-from-Tromso/d4362-6723P23",
+          "kind": "secondary",
+          "title": "Viator: Easy Dog Sledding Tour and Kennel Visit from Tromsø",
+          "evidence": [
+            "This tour/activity will have a maximum of 48 travelers",
+            "1,350 Operator reviews on Tripadvisor"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-husky-safari.html": [
+          "€266.46 for one adult on 24 December at 10:15",
+          "maximum of 48 travellers"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.husky.kkday-bestarctic-soup",
+      "topic": "price",
+      "claim": "KKday Tromsø: Husky Sledding Adventure with Soup & Transfers (Best Arctic), 24 Dec 2026, EUR 305.96 for 1 adult, 11:45 session (08:45 unavailable), 45-60 min self-drive, not suitable for children under 12, free cancellation up to 2 days ahead.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/849040",
+          "kind": "secondary",
+          "title": "KKday: Tromsø: Husky Sledding Adventure with Soup & Transfers",
+          "evidence": [
+            "Not Suitable For: Children under 12 years",
+            "Free cancellation up to 2 day(s) in advance",
+            "Meet up at the check-in of 'Best Arctic' on the top floor of the Bus Terminal Prostneset in Tromsø."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-husky-safari.html": [
+          "€305.96 for one adult on 24 December",
+          "11:45 session only",
+          "Not suitable for children under 12"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.husky.kkday-destination-short",
+      "topic": "price",
+      "claim": "KKday From Tromsø: Husky Experience with Self-Drive Dog Sled Ride (Destination Tromsø): 24 Dec 2026 not on sale; calendar showed 6, 13, 14, 15 Dec at EUR 204.37; sled ride total max 30 min; not suitable for children under 4.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/848900",
+          "kind": "secondary",
+          "title": "KKday: From Tromsø: Husky Experience with Self-Drive Dog Sled Ride",
+          "evidence": [
+            "This activity is operated by Destination Tromsø.",
+            "Duration of the sled ride is a total of max. 30 minutes",
+            "Not Suitable For: Children under 4 years"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-husky-safari.html": [
+          "a total of 30 minutes at most",
+          "Not suitable for children under 4",
+          "only 6, 13, 14 and 15 December, at €204.37"
+        ]
+      }
+    },
+    {
+      "id": "no.tromso.husky.terms-aat",
+      "topic": "entry",
+      "claim": "Arctic Adventure Tours AS terms (21.09.2026) apply to bookings through sales partners; guests must arrive 10 minutes before departure; missed departures non-refundable. No clause refusing reseller bookings found.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://arcticadventuretours.no/terms-conditions/",
+          "kind": "operator",
+          "title": "Terms & Conditions - Arctic Adventure Tours",
+          "evidence": [
+            "These Terms & Conditions apply to bookings made with Arctic Adventure Tours AS through our website, booking systems, sales partners or directly with our team.",
+            "Missed departures and associated costs are non-refundable."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-tromso-husky-safari.html": [
+          "through our website, booking systems, sales partners or directly with our team",
+          "missed departures are non-refundable"
+        ]
+      }
     }
   ]
 }

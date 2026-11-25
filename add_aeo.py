@@ -543,6 +543,12 @@ V = {
              "all three entries was £155.70, 4.6 from 5,998 reviews.",
         cta=("href", "Check Windsor Castle on GetYourGuide", "https://getyourguide.tpx.lu/3K6fkYyu"),
         cta2=("Check the day trip on Viator", "https://viator.tpx.lu/EmuQ5jtk")),
+    "where-to-book-tromso-husky-safari": dict(
+        text="For 24 December, book GetYourGuide’s Easy Dog Sledding Tour: €259.76, 11 places left on 26 November, a "
+             "20 to 30 minute self-drive, ages 6 and up, free to cancel until the day before. For a 70 to 80 minute "
+             "drive and 4,420 reviews at 4.9, take the Self-Drive Adventure on another date: €325.86 on 23 December.",
+        cta=("href", "Check Easy Dog Sledding on GetYourGuide", "https://getyourguide.tpx.lu/KsZNBadL"),
+        cta2=("Check the Self-Drive Adventure on GetYourGuide", "https://getyourguide.tpx.lu/VTZPPjIL")),
     "where-to-book-snow-monkey-tour": dict(
         text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
              "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
@@ -4222,7 +4228,12 @@ STAY_POINTERS = {
         ' Or SUMMIT One Vanderbilt? <a href="where-to-buy-summit-one-vanderbilt-tickets.html">SUMMIT tickets compared</a> covers the glass lift, the timed slots and the child price.'
         ' Seeing the Rockettes? <a href="where-to-buy-radio-city-christmas-spectacular-tickets.html">Radio City Christmas Spectacular tickets compared</a> prices the shows and seats for one December day.'),
     "where-to-stay-in-tromso-northern-lights": ("intro",
-        'Booking an aurora evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side for one December date, with the cancellation terms.'),
+        'Booking an aurora evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side for one December date, with the cancellation terms.'
+        ' Going out with the dogs? <a href="where-to-book-tromso-husky-safari.html">Tromsø husky safaris compared</a> prices self-drive and musher-driven rides for Christmas Eve, with the minimum ages.'),
+    "where-to-book-tromso-northern-lights-tour": ("intro",
+        'Going out with the dogs by day? <a href="where-to-book-tromso-husky-safari.html">Tromsø husky safaris compared</a> prices self-drive and musher-driven rides for Christmas Eve, with the minimum ages.'),
+    "where-to-book-tromso-husky-safari": ("intro",
+        'Free in the evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side. Need a bed? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in Tromsø</a> compares the harbour, the centre and two out-of-town lodges.'),
     "where-to-stay-in-reykjavik-northern-lights": ("intro",
         'Doing the Golden Circle? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> '
         'sets the bus, hotel-pickup and Secret Lagoon versions side by side for one December Saturday.'),
