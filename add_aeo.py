@@ -513,6 +513,36 @@ V = {
              "own page lists HK$538 and HK$269), an e-ticket you scan at the entrance and can use within 180 days of "
              "buying. It cannot be cancelled; from 27 November KKday lists a free-cancellation version at the same HK$494.",
         cta=("href", "Check the Ocean Park ticket on KKday", "https://kkday.tpx.lu/vP2NMHzT")),
+    "where-to-buy-summit-one-vanderbilt-tickets": dict(
+        text="Buy a dated ticket on GetYourGuide: $59.88 for 8:00 am on 12 December, 4.7 from 62,681 reviews, free to "
+             "cancel until 11 December and pay later. With a child aged 6 to 12? KKday’s listing states the child "
+             "price, from $47.91.",
+        cta=("href", "Check SUMMIT tickets on GetYourGuide", "https://getyourguide.tpx.lu/YpfeJ7js"),
+        cta2=("Check child prices on KKday", "https://kkday.tpx.lu/CWDtj0UD")),
+    "where-to-buy-van-gogh-museum-tickets": dict(
+        text="Pick your time on Tiqets: $29 for 12 December with 15 timeslots, free to cancel until 24 hours before. "
+             "The museum names both Tiqets and GetYourGuide as official resellers. To pay later, or add an audio "
+             "guide, book GetYourGuide: $29.61, or $33.72 with the guide.",
+        cta=("href", "Check times on Tiqets", "https://tiqets.tpx.lu/2Gw41z8L"),
+        cta2=("Check the ticket on GetYourGuide", "https://getyourguide.tpx.lu/o5XoVjgY")),
+    "where-to-buy-tower-of-london-tickets": dict(
+        text="Book on GetYourGuide: £38 for 12 December, 4.6 from 33,624 reviews, free to cancel until 11 December "
+             "and pay later. Bringing children aged 5 to 15? Tiqets shows their £19 price on the page, free to cancel "
+             "until 24 hours before.",
+        cta=("href", "Check Tower tickets on GetYourGuide", "https://getyourguide.tpx.lu/YQiPRHac"),
+        cta2=("Check family prices on Tiqets", "https://tiqets.tpx.lu/eqh5eexC")),
+    "where-to-buy-radio-city-christmas-spectacular-tickets": dict(
+        text="Book on GetYourGuide: $104 for the Third Mezzanine at 11:00 am on 15 December, 4.8 from 1,058 reviews, "
+             "with Madison Square Garden Entertainment as the provider. Want to pick your category on a seat map? "
+             "Tiqets priced every show that day, from $104. All tickets are final sale, so fix your date first.",
+        cta=("href", "Check show times on GetYourGuide", "https://getyourguide.tpx.lu/mt9iU184"),
+        cta2=("See the seat map on Tiqets", "https://tiqets.tpx.lu/a6NyKQSy")),
+    "where-to-buy-windsor-castle-tickets": dict(
+        text="For the castle alone, book GetYourGuide: £32 for 10:00 on 12 December, 4.7 from 8,336 reviews, free to "
+             "cancel until 11 December. Adding Stonehenge and Bath in one day from London? Viator’s coach trip with "
+             "all three entries was £155.70, 4.6 from 5,998 reviews.",
+        cta=("href", "Check Windsor Castle on GetYourGuide", "https://getyourguide.tpx.lu/3K6fkYyu"),
+        cta2=("Check the day trip on Viator", "https://viator.tpx.lu/EmuQ5jtk")),
     "where-to-book-snow-monkey-tour": dict(
         text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
              "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
@@ -4160,7 +4190,19 @@ STAY_POINTERS = {
         'Staying for 31 December? <a href="where-to-stay-in-new-york-new-years-eve.html">Where to stay in New York '
         'for New Year’s Eve</a> covers the Times Square ball drop and the closures.'
         ' Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'
-        ' Or Top of the Rock? <a href="where-to-buy-top-of-the-rock-tickets.html">Top of the Rock tickets compared</a> prices each time slot on one December day.'),
+        ' Or Top of the Rock? <a href="where-to-buy-top-of-the-rock-tickets.html">Top of the Rock tickets compared</a> prices each time slot on one December day.'
+        ' Or SUMMIT One Vanderbilt? <a href="where-to-buy-summit-one-vanderbilt-tickets.html">SUMMIT tickets compared</a> covers the glass lift, the timed slots and the child price.'
+        ' Seeing the Rockettes? <a href="where-to-buy-radio-city-christmas-spectacular-tickets.html">Radio City Christmas Spectacular tickets compared</a> prices the shows and seats for one December day.'),
+    "where-to-stay-in-amsterdam-new-years-eve": ("intro",
+        'Booking the Van Gogh Museum? <a href="where-to-buy-van-gogh-museum-tickets.html">Van Gogh Museum tickets compared</a> shows the timeslots and cancellation on the resellers the museum names.'),
+    "where-to-buy-top-of-the-rock-tickets": ("intro",
+        'Choosing between the decks? <a href="where-to-buy-summit-one-vanderbilt-tickets.html">SUMMIT One Vanderbilt tickets compared</a> covers the timed slots and the glass lift. In town before January? <a href="where-to-buy-radio-city-christmas-spectacular-tickets.html">Radio City Christmas Spectacular tickets compared</a> covers the holiday show at Radio City.'),
+    "where-to-buy-empire-state-building-tickets": ("intro",
+        'Choosing between the decks? <a href="where-to-buy-summit-one-vanderbilt-tickets.html">SUMMIT One Vanderbilt tickets compared</a> covers the timed slots and the glass lift.'),
+    "where-to-buy-london-eye-tickets": ("intro",
+        'More of London to book? <a href="where-to-buy-tower-of-london-tickets.html">Tower of London tickets compared</a> and <a href="where-to-buy-windsor-castle-tickets.html">Windsor Castle tickets compared</a> price the same December day.'),
+    "where-to-buy-harry-potter-studio-tour-tickets": ("intro",
+        'More of London to book? <a href="where-to-buy-tower-of-london-tickets.html">Tower of London tickets compared</a> and <a href="where-to-buy-windsor-castle-tickets.html">Windsor Castle tickets compared</a> cover two more December days out.'),
     "where-to-stay-in-okinawa": ("intro",
         'Heading north to the aquarium or the beaches? <a href="car-rental-okinawa.html">Renting a car in Okinawa</a> '
         'compares DiscoverCars with Toyota Rent a Car and covers the International Driving Permit rule.'),
@@ -4168,11 +4210,17 @@ STAY_POINTERS = {
         'Driving to Milford Sound or Wanaka? <a href="car-rental-new-zealand-south-island.html">Renting a car on '
         'New Zealand’s South Island</a> compares DiscoverCars, Apex and GO Rentals for the same dates, with the excess on each.'),
     "where-to-stay-in-london-christmas": ("intro",
-        'Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'),
+        'Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'
+        ' Visiting the Tower? <a href="where-to-buy-tower-of-london-tickets.html">Tower of London tickets compared</a> sets out three sellers’ prices and cancellation for one December day.'
+        ' Day out to Windsor? <a href="where-to-buy-windsor-castle-tickets.html">Windsor Castle tickets compared</a> prices the castle alone and the coach trips with Stonehenge and Bath.'),
     "where-to-stay-in-london-new-years-eve": ("intro",
-        'Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'),
+        'Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'
+        ' Visiting the Tower? <a href="where-to-buy-tower-of-london-tickets.html">Tower of London tickets compared</a> sets out three sellers’ prices and cancellation for one December day.'
+        ' Day out to Windsor? <a href="where-to-buy-windsor-castle-tickets.html">Windsor Castle tickets compared</a> prices the castle alone and the coach trips with Stonehenge and Bath.'),
     "where-to-stay-in-new-york-christmas": ("intro",
-        'Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'),
+        'Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'
+        ' Or SUMMIT One Vanderbilt? <a href="where-to-buy-summit-one-vanderbilt-tickets.html">SUMMIT tickets compared</a> covers the glass lift, the timed slots and the child price.'
+        ' Seeing the Rockettes? <a href="where-to-buy-radio-city-christmas-spectacular-tickets.html">Radio City Christmas Spectacular tickets compared</a> prices the shows and seats for one December day.'),
     "where-to-stay-in-tromso-northern-lights": ("intro",
         'Booking an aurora evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side for one December date, with the cancellation terms.'),
     "where-to-stay-in-reykjavik-northern-lights": ("intro",
@@ -4190,7 +4238,9 @@ STAY_POINTERS = {
         'Here for the tennis? <a href="where-to-stay-for-wimbledon.html">Where to stay for Wimbledon 2027</a> '
         '(28 June to 11 July) compares the Village, Richmond and the District line into town.'
         ' Visiting the Harry Potter studio? <a href="where-to-buy-harry-potter-studio-tour-tickets.html">Studio Tour tickets compared</a> sets the ticket-and-coach packages on Viator, GetYourGuide and KKday side by side; the studio sells nothing at the door.'
-        ' Riding the London Eye? <a href="where-to-buy-london-eye-tickets.html">London Eye tickets compared</a> shows the standard and Fast Track prices for one December day.'),
+        ' Riding the London Eye? <a href="where-to-buy-london-eye-tickets.html">London Eye tickets compared</a> shows the standard and Fast Track prices for one December day.'
+        ' Visiting the Tower? <a href="where-to-buy-tower-of-london-tickets.html">Tower of London tickets compared</a> sets out three sellers’ prices and cancellation for one December day.'
+        ' Day out to Windsor? <a href="where-to-buy-windsor-castle-tickets.html">Windsor Castle tickets compared</a> prices the castle alone and the coach trips with Stonehenge and Bath.'),
     "where-to-stay-in-boston": ("intro",
         'Running or watching in April? <a href="where-to-stay-for-boston-marathon.html">Where to stay for the Boston '
         'Marathon 2027</a> (Monday 19 April) weighs Back Bay by the finish against Cambridge and the start towns.'),
@@ -4259,7 +4309,8 @@ STAY_POINTERS = {
         'Here on 27 April? <a href="where-to-stay-in-amsterdam-kings-day.html">Where to stay in Amsterdam for '
         'King’s Day 2027</a> sorts the city by how loud each area gets, with the tram and metro changes. Here for '
         '31 December? <a href="where-to-stay-in-amsterdam-new-years-eve.html">Where to stay for New Year’s Eve</a> '
-        'covers the city’s fireworks shows and the new national ban.'),
+        'covers the city’s fireworks shows and the new national ban.'
+        ' Booking the Van Gogh Museum? <a href="where-to-buy-van-gogh-museum-tickets.html">Van Gogh Museum tickets compared</a> shows the timeslots and cancellation on the resellers the museum names.'),
     "where-to-stay-in-bangkok": ("intro",
         'Coming for Songkran? <a href="where-to-stay-in-bangkok-songkran.html">Where to stay in Bangkok for '
         'Songkran</a> (13 to 15 April 2027) weighs Silom and Siam, where the water fights are, against quieter bases.'),
@@ -4353,7 +4404,9 @@ STAY_POINTERS = {
     "where-to-stay-in-new-york-new-years-eve": ("intro",
         'Weighing London instead? <a href="where-to-stay-in-london-new-years-eve.html">London on New Year’s Eve</a> '
         'covers the ticketed Thames fireworks, the areas within walking distance and the UK’s £20 ETA.'
-        ' Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'),
+        ' Going up the Empire State Building? <a href="where-to-buy-empire-state-building-tickets.html">Empire State Building tickets compared</a> sets Tiqets, GetYourGuide, Viator and KKday side by side for one December date.'
+        ' Or SUMMIT One Vanderbilt? <a href="where-to-buy-summit-one-vanderbilt-tickets.html">SUMMIT tickets compared</a> covers the glass lift, the timed slots and the child price.'
+        ' Seeing the Rockettes? <a href="where-to-buy-radio-city-christmas-spectacular-tickets.html">Radio City Christmas Spectacular tickets compared</a> prices the shows and seats for one December day.'),
     "where-to-stay-in-hakone": ("intro",
         'Coming for the day from Tokyo instead? <a href="where-to-book-hakone-day-tour.html">Hakone day tours compared</a> '
         'prices the Tokyo departures on GetYourGuide, Viator, Tiqets and KKday for one December date.'),

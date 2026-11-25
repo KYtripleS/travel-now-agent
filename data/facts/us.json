@@ -12437,6 +12437,379 @@
           "the Christmas Tree and The Rink are not visible from the observation decks"
         ]
       }
+    },
+    {
+      "id": "us.nyc.summit.refund-validity",
+      "topic": "place",
+      "claim": "SUMMIT ticket sales are final with no refunds for weather or waiting times; tickets are valid only for the date and/or time on the ticket.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://summitov.com/ticketterms/",
+          "kind": "official",
+          "title": "SUMMIT ticket terms and conditions",
+          "evidence": [
+            "all ticket sales are final and there will be no refunds provided to guests for any reason, including due to weather conditions or waiting times",
+            "Tickets are only valid for the date and/or time specified on ticket."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-summit-one-vanderbilt-tickets.html": [
+          "all ticket sales are final and there will be no refunds provided to guests for any reason, including due to weather conditions or waiting times",
+          "only valid for the date and/or time specified on ticket"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.summit.late-entry",
+      "topic": "entry",
+      "claim": "Admission is not guaranteed for guests running late.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://summitov.com/ticketterms/",
+          "kind": "official",
+          "title": "SUMMIT ticket terms and conditions",
+          "evidence": [
+            "Admission is not guaranteed and is subject to availability for guests running late."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-summit-one-vanderbilt-tickets.html": [
+          "is not guaranteed and is subject to availability for guests running late"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.summit.children",
+      "topic": "entry",
+      "claim": "Children 5 and under need no ticket when with an adult ticket holder; children under 16 must be accompanied by an adult at all times.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://summitov.com/ticketterms/",
+          "kind": "official",
+          "title": "SUMMIT ticket terms and conditions",
+          "evidence": [
+            "Children 5 years old or younger do not need a ticket and will be able to visit the SUMMIT One Vanderbilt Experience when accompanied by an adult ticket holder.",
+            "Children under the age of 16 must be accompanied by an adult at all times during their visit to the SUMMIT One Vanderbilt Experience."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-summit-one-vanderbilt-tickets.html": [
+          "Children aged 5 and under do not need a ticket when accompanied by an adult ticket holder",
+          "Children under 16 must be accompanied by an adult at all times"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.summit.hours",
+      "topic": "place",
+      "claim": "SUMMIT is open daily 8:00 AM to 12:00 AM with last entry at 10:30 PM; entrance at 45 E 42nd St on the Main Concourse of Grand Central Terminal.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://info.summitov.com/faq/general-ticketing/",
+          "kind": "official",
+          "title": "SUMMIT FAQ page footer",
+          "evidence": [
+            "Last entry at 10:30PM",
+            "8:00 AM — 12:00 AM",
+            "45 E 42nd St, New York, NY 10017 Entrance located on the Main Concourse of Grand Central Terminal"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-summit-one-vanderbilt-tickets.html": [
+          "Open daily from 8:00 am to 12:00 am, with last entry at 10:30 pm",
+          "45 E 42nd St, on the Main Concourse of Grand Central Terminal"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.summit.bags-id",
+      "topic": "entry",
+      "claim": "Suitcases, carry-on and wheeled bags and anything larger than a standard backpack, purse or messenger bag are prohibited; guests may be asked for ID for website orders.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://summitov.com/ticketterms/",
+          "kind": "official",
+          "title": "SUMMIT ticket terms and conditions",
+          "evidence": [
+            "All suitcases, trunks, wheeled duffel bags, carry-on bags, packages, are prohibited.",
+            "you may be asked to provide additional proof of identity regarding any order placed via the website, including a passport, driver’s license, or credit card"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-summit-one-vanderbilt-tickets.html": [
+          "Suitcases, carry-on bags and wheeled bags are prohibited",
+          "proof of identity such as a passport, driver's licence or credit card"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.summit.price-from",
+      "topic": "price",
+      "claim": "On 25 Nov 2026 the ticket page listed SUMMIT Experience starting at 44 (resident 39), SUMMIT Ascent starting at 68 (63) and Premium Experience 149 USD, with a $3 online processing fee per order; not a price for 12 Dec.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://summitov.com/tickets/",
+          "kind": "official",
+          "title": "SUMMIT tickets page",
+          "evidence": [
+            "SUMMIT Experience",
+            "STARTING AT 44 39",
+            "SUMMIT Premium Experience",
+            "149",
+            "$3 ONLINE PROCESSING FEE ADDED TO EACH ORDER"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-summit-one-vanderbilt-tickets.html": [
+          "from $44",
+          "from $68",
+          "$149",
+          "$3 online processing fee"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.rcxs.refund",
+      "topic": "entry",
+      "claim": "All Christmas Spectacular ticket sales are final, with no refunds or exchanges.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rockettes.com/christmas/faq/",
+          "kind": "official",
+          "title": "Christmas Spectacular FAQ",
+          "evidence": [
+            "All ticket sales are final – no refunds or exchanges."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-radio-city-christmas-spectacular-tickets.html": [
+          "All ticket sales are final – no refunds or exchanges."
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.rcxs.children-under-2",
+      "topic": "entry",
+      "claim": "Children under 2 need no ticket but must sit on a parent or guardian's lap.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rockettes.com/christmas/faq/",
+          "kind": "official",
+          "title": "Christmas Spectacular FAQ",
+          "evidence": [
+            "Children under 2 years old do not need their own ticket, but they must sit on a parent or guardian’s lap and cannot occupy their own seat."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-radio-city-christmas-spectacular-tickets.html": [
+          "Children under 2 years old do not need their own ticket"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.rcxs.show-length",
+      "topic": "stat",
+      "claim": "The show runs 90 minutes with no intermission.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rockettes.com/christmas/faq/",
+          "kind": "official",
+          "title": "Christmas Spectacular FAQ",
+          "evidence": [
+            "The Christmas Spectacular runs for 90 minutes, with no intermission."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-radio-city-christmas-spectacular-tickets.html": [
+          "90-minute show at Radio City Music Hall with no intermission"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.rcxs.ticketing-partner",
+      "topic": "entry",
+      "claim": "The show's FAQ refers ticketing questions to Ticketmaster.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rockettes.com/christmas/faq/",
+          "kind": "official",
+          "title": "Christmas Spectacular FAQ",
+          "evidence": [
+            "For ticketing questions, please reach out to Ticketmaster at help.ticketmaster.com or 1-800-653-8000."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-radio-city-christmas-spectacular-tickets.html": [
+          "The FAQ sends ticketing questions to Ticketmaster."
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.rcxs.ticket-limit",
+      "topic": "entry",
+      "claim": "MSG limits any single customer to 14 tickets across a Christmas Spectacular season.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rockettes.com/madison-square-garden-entertainment-ticket-policy/",
+          "kind": "official",
+          "title": "MSG Entertainment ticket policy",
+          "evidence": [
+            "to limit to fourteen (14) the number of tickets any single customer may purchase, control, coordinate, manage or direct in connection with any seasonal run of the Christmas Spectacular"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-radio-city-christmas-spectacular-tickets.html": [
+          "limits any single customer to 14 tickets across a season"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.rcxs.price-15dec-tiqets",
+      "topic": "price",
+      "claim": "Tiqets showed $104 for Third Mezzanine at 11:00 am on 15 Dec 2026 and $129 from for the 2:00, 5:00 and 8:00 pm shows; the 11:00 am categories ran $104 to $214.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/new-york-attractions-c260932/tickets-for-new-york-city-christmas-spectacular-starring-the-radio-city-rockettes-p986321/",
+          "kind": "secondary",
+          "title": "Tiqets booking calendar, read 25 Nov 2026",
+          "evidence": [
+            "Tuesday, December 15, 2026",
+            "11:00 AM $104",
+            "2:00 PM $129",
+            "5:00 PM $129",
+            "8:00 PM $129",
+            "Third Mezzanine Level Seating 3RD MEZ $104.00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-radio-city-christmas-spectacular-tickets.html": [
+          "Third Mezzanine $104, First Mezzanine $116, Orchestra Rear $122 and $135, and Orchestra Mid $129 and $214"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.rcxs.price-15dec-gyg",
+      "topic": "price",
+      "claim": "GetYourGuide showed $104 for 1 adult, Third Mezzanine, 11:00 am on 15 Dec 2026, taxes and fees included, best available seats in the section assigned after booking, 11 seating categories.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/new-york-city-l59/nyc-radio-city-christmas-spectacular-tickets-t541851/",
+          "kind": "secondary",
+          "title": "GetYourGuide listing, read 25 Nov 2026",
+          "evidence": [
+            "Choose from 11 seating categories",
+            "The best available seats in this section will be assigned after you book.",
+            "1 Adult × $104.00",
+            "All taxes and fees included"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-radio-city-christmas-spectacular-tickets.html": [
+          "The best available seats in this section will be assigned after you book",
+          "All taxes and fees included"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.rcxs.gyg-reviews-cancel",
+      "topic": "entry",
+      "claim": "GetYourGuide shows 4.8 from 1,058 reviews, names MSG Entertainment as provider, issues tickets via Ticketmaster and says all sales are final.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/new-york-city-l59/nyc-radio-city-christmas-spectacular-tickets-t541851/",
+          "kind": "secondary",
+          "title": "GetYourGuide listing, read 25 Nov 2026",
+          "evidence": [
+            "4.8 1,058 reviews",
+            "Activity provider: Madison Square Garden Entertainment",
+            "Ticketmaster via GetYourGuide",
+            "All ticket sales ARE FINAL – no refunds or exchanges."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-radio-city-christmas-spectacular-tickets.html": [
+          "4.8 from 1,058 reviews",
+          "Ticketmaster via GetYourGuide"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.rcxs.tiqets-terms",
+      "topic": "entry",
+      "claim": "Tiqets shows 4.5 from 21 reviews, provider MSG National Properties LLC, non-refundable, no rescheduling, separate email link for show tickets.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/new-york-attractions-c260932/tickets-for-new-york-city-christmas-spectacular-starring-the-radio-city-rockettes-p986321/",
+          "kind": "secondary",
+          "title": "Tiqets listing, read 25 Nov 2026",
+          "evidence": [
+            "4.5 21 REVIEWS",
+            "Provider: MSG National Properties LLC",
+            "This ticket is nonrefundable",
+            "Rescheduling is not possible for this ticket",
+            "Your voucher is not the entry ticket for the show."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-radio-city-christmas-spectacular-tickets.html": [
+          "4.5 from 21 reviews",
+          "Rescheduling is not possible for this ticket."
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.rcxs.kkday-soldout",
+      "topic": "entry",
+      "claim": "KKday's admission listing was marked sold out and 'No cancellation' on 25 Nov 2026.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en-us/product/133284",
+          "kind": "secondary",
+          "title": "KKday listing, read 25 Nov 2026",
+          "evidence": [
+            "0 results available for booking",
+            "SOLD OUT",
+            "No cancellation"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-radio-city-christmas-spectacular-tickets.html": [
+          "\"No cancellation\"",
+          "\"SOLD OUT\""
+        ]
+      }
     }
   ]
 }

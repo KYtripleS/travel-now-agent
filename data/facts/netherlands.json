@@ -2461,6 +2461,159 @@
           "check-out is by 10am"
         ]
       }
+    },
+    {
+      "id": "nl.amsterdam.vangogh.adult-price",
+      "topic": "price",
+      "claim": "The Van Gogh Museum adult ticket is 25 euros, rising to 26 euros from 1 January 2027; visitors under 18 are free.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices",
+          "kind": "official",
+          "title": "Tickets and Ticket Prices - Van Gogh Museum",
+          "evidence": [
+            "Adults: € 25. From 1 January 2027: € 26.",
+            "Visitors under 18: free."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-van-gogh-museum-tickets.html": [
+          "€25, rising to €26 from 1 January 2027",
+          "Visitors under 18: free."
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.vangogh.official-resellers",
+      "topic": "entry",
+      "claim": "The museum names Tours&Tickets, GetYourGuide, Tiqets, Musement and Klook as its official resellers.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices",
+          "kind": "official",
+          "title": "Tickets and Ticket Prices - Van Gogh Museum",
+          "evidence": [
+            "through our official resellers Tours&Tickets, GetYourGuide, Tiqets, Musement, or Klook"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-van-gogh-museum-tickets.html": [
+          "Tours&Tickets, GetYourGuide, Tiqets, Musement, or Klook",
+          "Other platforms may offer fraudulent tickets."
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.vangogh.timed-entry",
+      "topic": "entry",
+      "claim": "Every visitor to the Van Gogh Museum needs a ticket with a start time, and tickets are online only.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices",
+          "kind": "official",
+          "title": "Tickets and Ticket Prices - Van Gogh Museum",
+          "evidence": [
+            "All visitors need a ticket with a start time to have access to the museum.",
+            "Tickets are available online only."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-van-gogh-museum-tickets.html": [
+          "All visitors need a ticket with a start time to have access to the museum",
+          "tickets are sold online only"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.vangogh.student-price",
+      "topic": "price",
+      "claim": "Students pay 16 euros until 31 December 2026 on proof of enrolment.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices",
+          "kind": "official",
+          "title": "Tickets and Ticket Prices - Van Gogh Museum",
+          "evidence": [
+            "Students: € 16. Valid until 31 December 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-van-gogh-museum-tickets.html": [
+          "Students pay €16 until 31 December 2026"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.vangogh.iacc",
+      "topic": "entry",
+      "claim": "The museum has not been affiliated with the I amsterdam City Card since 1 June 2022.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices",
+          "kind": "official",
+          "title": "Tickets and Ticket Prices - Van Gogh Museum",
+          "evidence": [
+            "As of 1 June 2022, the Van Gogh Museum is no longer affiliated with the I amsterdam City Card."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-van-gogh-museum-tickets.html": [
+          "Since 1 June 2022 the museum is no longer affiliated with it"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.vangogh.official-non-refundable",
+      "topic": "entry",
+      "claim": "Tickets bought on the museum's own ticket site are non-refundable and valid only on the selected date and time.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://tickets.vangoghmuseum.com/en/tickets",
+          "kind": "official",
+          "title": "Van Gogh Museum - Online tickets",
+          "evidence": [
+            "Purchased tickets are non-refundable.",
+            "Tickets are only valid on the selected date and at the selected time."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-van-gogh-museum-tickets.html": [
+          "\"non-refundable\" and valid only on the selected date and time"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.vangogh.audio-guide-price",
+      "topic": "price",
+      "claim": "The museum's audio guide costs from 3.75 euros for adults.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://tickets.vangoghmuseum.com/en/tickets",
+          "kind": "official",
+          "title": "Van Gogh Museum - Online tickets",
+          "evidence": [
+            "Audiotour Adults\tFrom €3.75"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-van-gogh-museum-tickets.html": [
+          "the museum sells it at €3.75"
+        ]
+      }
     }
   ]
 }

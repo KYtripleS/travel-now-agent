@@ -5253,6 +5253,358 @@
           "a ride is a 30-minute rotation"
         ]
       }
+    },
+    {
+      "id": "uk.lon.tower.resale",
+      "topic": "entry",
+      "claim": "Tower of London tickets must not be offered for resale via a third party (doing so invalidates the ticket); tickets bought through a third party cannot be amended by the venue; no authorised sellers are named.",
+      "sources": [
+        {
+          "url": "https://www.hrp.org.uk/terms-of-use/",
+          "kind": "official",
+          "title": "Terms of use | Historic Royal Palaces",
+          "evidence": [
+            "Tickets must not be offered for re-sale via a third party. To do so will invalidate the ticket.",
+            "Tickets purchased through a third-party cannot be amended, please contact the company used for booking."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tower-of-london-tickets.html": [
+          "Tickets must not be offered for re-sale via a third party. To do so will invalidate the ticket."
+        ]
+      },
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "uk.lon.tower.price",
+      "topic": "price",
+      "claim": "Venue prices read 25 Nov 2026: adult GBP 38.00 (41.80 with donation); child 5-15 and young person 16-17 GBP 19.00 (21.00 with donation); 0-4 free; senior and student GBP 30.30.",
+      "sources": [
+        {
+          "url": "https://www.hrp.org.uk/tower-of-london/visit/tickets-and-prices/",
+          "kind": "official",
+          "title": "Tickets and prices | Tower of London",
+          "evidence": [
+            "Adult",
+            "£38.00",
+            "£41.80",
+            "Child age 5-15",
+            "£19.00",
+            "Child age 0-4",
+            "£0",
+            "Senior",
+            "£30.30"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tower-of-london-tickets.html": [
+          "£38.00 (£41.80 with the optional donation)",
+          "£19.00 (£21.00 with the optional donation)"
+        ]
+      },
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "uk.lon.tower.includes",
+      "topic": "entry",
+      "claim": "A ticket covers all open public areas including the Crown Jewels and White Tower, plus the Yeoman Warder Tour subject to availability.",
+      "sources": [
+        {
+          "url": "https://www.hrp.org.uk/tower-of-london/visit/tickets-and-prices/",
+          "kind": "official",
+          "title": "Tickets and prices | Tower of London",
+          "evidence": [
+            "All open public areas of the Tower including: The Crown Jewels, The White Tower, Battlements, Bloody Tower, Torture at the Tower exhibition, Fusiliers Museum, and Royal Mint exhibition.",
+            "The Yeoman Warder Tour (subject to availability)."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tower-of-london-tickets.html": [
+          "All open public areas of the Tower",
+          "plus the Yeoman Warder Tour (subject to availability)"
+        ]
+      },
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "uk.lon.tower.children-bags",
+      "topic": "entry",
+      "claim": "Children under 16 must be accompanied by an adult at all times; back packs, large bags and suitcases are not permitted inside buildings.",
+      "sources": [
+        {
+          "url": "https://www.hrp.org.uk/terms-of-use/",
+          "kind": "official",
+          "title": "Terms of use | Historic Royal Palaces",
+          "evidence": [
+            "Children under the age of 16 must be accompanied by an adult at all times.",
+            "Back packs and large bags/suitcases are not permitted to be carried within any of our buildings."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tower-of-london-tickets.html": [
+          "Children under 16 must be accompanied by an adult at all times.",
+          "Back packs, large bags and suitcases are not permitted inside the buildings"
+        ]
+      },
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "uk.lon.tower.fast-track",
+      "topic": "entry",
+      "claim": "The venue FAQ says there is no fast-track entry option at the Tower.",
+      "sources": [
+        {
+          "url": "https://www.hrp.org.uk/tower-of-london/visit/faqs/",
+          "kind": "official",
+          "title": "Frequently Asked Questions | Tower of London",
+          "evidence": [
+            "The Tower of London is a fortress, and has limited entry points. There is no fast track entry option"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tower-of-london-tickets.html": [
+          "there is no fast-track entry option at the Tower"
+        ]
+      },
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "uk.lon.tower.release",
+      "topic": "entry",
+      "claim": "Admission tickets are released a few months in advance.",
+      "sources": [
+        {
+          "url": "https://www.hrp.org.uk/tower-of-london/visit/faqs/",
+          "kind": "official",
+          "title": "Frequently Asked Questions | Tower of London",
+          "evidence": [
+            "We release admission tickets a few months in advance"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-tower-of-london-tickets.html": [
+          "admission tickets are released a few months in advance"
+        ]
+      },
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "uk.win.castle.third-party-entry",
+      "topic": "entry",
+      "claim": "Royal Collection Trust says tickets bought from a third party guarantee entry if the voucher states a date and time of arrival; it cannot guarantee entry for other arrival times; changes go to the third party; third-party tickets are not valid for the 1-Year Pass.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://rct.uk/about-royal-collection-trust/ticket-bookings-and-enquiries",
+          "kind": "official",
+          "title": "Ticket bookings and enquiries | Royal Collection Trust",
+          "evidence": [
+            "If you have purchased tickets through a third party, you are guaranteed entry if your voucher states a date and time of arrival.",
+            "We cannot guarantee entry if you do not arrive at this time.",
+            "please contact the third party directly",
+            "Tickets purchased via third parties are not valid for the 1-Year Pass."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-windsor-castle-tickets.html": [
+          "you are guaranteed entry if your voucher states a date and time of arrival",
+          "tickets bought through third parties are not valid for the 1-Year Pass"
+        ]
+      }
+    },
+    {
+      "id": "uk.win.castle.refund-third-party",
+      "topic": "entry",
+      "claim": "RCT's ticketholder notice tells people who bought through a third party to contact the agent or tour operator about a refund.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rct.uk/information-for-ticketholders",
+          "kind": "official",
+          "title": "Information for ticketholders | Royal Collection Trust",
+          "evidence": [
+            "If you purchased your ticket(s) through a third party you should contact the agent or tour operator to enquire about a refund."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-windsor-castle-tickets.html": [
+          "contact the agent or tour operator"
+        ]
+      }
+    },
+    {
+      "id": "uk.win.castle.resale",
+      "topic": "entry",
+      "claim": "RCT's conditions say an admission is personal, may not be resold or exchanged, and a resold admission is void; an admission can be cancelled by RCT or by the travel agents or tour operators it was obtained from.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rct.uk/about/policies/terms-and-conditions",
+          "kind": "official",
+          "title": "Terms and Conditions | Royal Collection Trust",
+          "evidence": [
+            "The Admission is personal to you and may not be assigned, transferred or resold in any manner whatsoever other than in accordance with the Conditions.",
+            "Any resale or exchange of an Admission with a third party automatically renders it void",
+            "An Admission may be rendered invalid by cancellation either by The Royal Collection Trust",
+            "or by group organisers, travel agents or tour operators from whom the Admission has been obtained"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-windsor-castle-tickets.html": [
+          "may not be resold or exchanged, and that a resold admission is void",
+          "travel agents or tour operators it was obtained from"
+        ]
+      }
+    },
+    {
+      "id": "uk.win.castle.late-arrival",
+      "topic": "entry",
+      "claim": "Where a time of visit is stated on the admission, a late arrival is not admitted unless a later time is available that day at RCT's discretion; no refund; early arrivals wait until the stated time.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rct.uk/about/policies/terms-and-conditions",
+          "kind": "official",
+          "title": "Terms and Conditions | Royal Collection Trust",
+          "evidence": [
+            "Where a time of visit is stated on the Admission, you will not be admitted if you arrive late unless a later admission time becomes available on that day, and then only at our absolute discretion.",
+            "No refund will be made should you arrive late, on the wrong day or after opening hours and not be admitted."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-windsor-castle-tickets.html": [
+          "you will not be admitted if you arrive late unless a later time becomes available that day, and that no refund is made"
+        ]
+      }
+    },
+    {
+      "id": "uk.win.castle.short-notice-closure",
+      "topic": "entry",
+      "claim": "As working royal palaces, opening arrangements can change at short notice; RCT may cancel and refund or offer an alternative date.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rct.uk/about/policies/terms-and-conditions",
+          "kind": "official",
+          "title": "Terms and Conditions | Royal Collection Trust",
+          "evidence": [
+            "the opening arrangements for the Official Residences may change at short notice",
+            "we reserve the right to cancel and refund your Admission, or, where possible, offer an alternative visit date"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-windsor-castle-tickets.html": [
+          "opening arrangements at short notice"
+        ]
+      }
+    },
+    {
+      "id": "uk.win.castle.children-rule",
+      "topic": "entry",
+      "claim": "Children under 12 must be accompanied by an adult over 17 who also has an admission; children under 5 are admitted free.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rct.uk/about/policies/terms-and-conditions",
+          "kind": "official",
+          "title": "Terms and Conditions | Royal Collection Trust",
+          "evidence": [
+            "Children under the age of 12 years must be accompanied by an adult over the age of 17 (who must also have an Admission)",
+            "Children under the age of 5 are admitted free of charge."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-windsor-castle-tickets.html": [
+          "children under 12 must be accompanied by an adult over 17, who also needs an admission"
+        ]
+      }
+    },
+    {
+      "id": "uk.win.castle.bags-food",
+      "topic": "entry",
+      "claim": "RCT may require visitors to deposit baggage, umbrellas, pushchairs and other items in the security cloakroom; food and drink are not allowed in the interior except in designated cafe areas.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rct.uk/about/policies/terms-and-conditions",
+          "kind": "official",
+          "title": "Terms and Conditions | Royal Collection Trust",
+          "evidence": [
+            "we may require you to deposit all baggage (including hand baggage) and (at our discretion) any other items including, but not limited to, umbrellas",
+            "pushchairs",
+            "The consumption of food and drink (i) in the interior parts of the Residences, other than in designated café areas"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-windsor-castle-tickets.html": [
+          "you may be asked to leave bags, umbrellas, pushchairs and other items in the security cloakroom"
+        ]
+      }
+    },
+    {
+      "id": "uk.win.castle.price-2026",
+      "topic": "price",
+      "claim": "RCT's 2026 Windsor Castle standard admission prices: adult 32.00 advance and 36.00 on the day, young person 18-24 21.00 and 24.00, child 5-17 16.00 and 18.00, under 5 free; 2027 adult advance 33.00.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rct.uk/visit/windsor-castle",
+          "kind": "official",
+          "title": "Windsor Castle | Royal Collection Trust",
+          "evidence": [
+            "Adult £32.00 £36.00",
+            "Young Person (18-24) £21.00 £24.00",
+            "Child (5-17) £16.00 £18.00",
+            "Under 5 Free Free",
+            "Adult £33.00 £37.00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-windsor-castle-tickets.html": [
+          "adult £32.00 in advance and £36.00 on the day, child (5-17) £16.00 and £18.00, young person (18-24) £21.00 and £24.00, and under 5 free",
+          "£33.00 for adults from 1 January 2027"
+        ]
+      }
+    },
+    {
+      "id": "uk.win.castle.festive-12-dec",
+      "topic": "entry",
+      "claim": "RCT lists a Windsor Castle Festive Weekend activity with next event 12 Dec 2026, included with standard admission; the Windsor Castle and Great Kitchen Tour package runs from 27 Dec 2026.",
+      "checked": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://www.rct.uk/visit/windsor-castle",
+          "kind": "official",
+          "title": "Windsor Castle | Royal Collection Trust",
+          "evidence": [
+            "Windsor Castle Festive Weekend",
+            "Next event: 12 Dec 2026",
+            "Included with standard admission or 1-Year Pass.",
+            "Windsor Castle and Great Kitchen Tour",
+            "Next event: 27 Dec 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-windsor-castle-tickets.html": [
+          "a Windsor Castle Festive Weekend activity starting on 12 December, included with standard admission",
+          "The Great Kitchen Tour package runs from 27 December"
+        ]
+      }
     }
   ]
 }

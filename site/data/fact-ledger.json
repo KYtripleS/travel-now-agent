@@ -3,7 +3,7 @@
  "version": "2026-11-25",
  "license": "CC BY 4.0",
  "cite": "https://gentlyyonder.com/open-data.html",
- "count": 3370,
+ "count": 3408,
  "facts": [
   {
    "id": "au.gst.accommodation",
@@ -43354,6 +43354,146 @@
    ]
   },
   {
+   "id": "nl.amsterdam.vangogh.adult-price",
+   "place": "Netherlands",
+   "topic": "price",
+   "claim": "The Van Gogh Museum adult ticket is 25 euros, rising to 26 euros from 1 January 2027; visitors under 18 are free.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices",
+     "title": "Tickets and Ticket Prices - Van Gogh Museum",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-van-gogh-museum-tickets.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.vangogh.official-resellers",
+   "place": "Netherlands",
+   "topic": "entry",
+   "claim": "The museum names Tours&Tickets, GetYourGuide, Tiqets, Musement and Klook as its official resellers.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices",
+     "title": "Tickets and Ticket Prices - Van Gogh Museum",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-van-gogh-museum-tickets.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.vangogh.timed-entry",
+   "place": "Netherlands",
+   "topic": "entry",
+   "claim": "Every visitor to the Van Gogh Museum needs a ticket with a start time, and tickets are online only.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices",
+     "title": "Tickets and Ticket Prices - Van Gogh Museum",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-van-gogh-museum-tickets.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.vangogh.student-price",
+   "place": "Netherlands",
+   "topic": "price",
+   "claim": "Students pay 16 euros until 31 December 2026 on proof of enrolment.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices",
+     "title": "Tickets and Ticket Prices - Van Gogh Museum",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-van-gogh-museum-tickets.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.vangogh.iacc",
+   "place": "Netherlands",
+   "topic": "entry",
+   "claim": "The museum has not been affiliated with the I amsterdam City Card since 1 June 2022.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.vangoghmuseum.nl/en/visit/tickets-and-ticket-prices",
+     "title": "Tickets and Ticket Prices - Van Gogh Museum",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-van-gogh-museum-tickets.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.vangogh.official-non-refundable",
+   "place": "Netherlands",
+   "topic": "entry",
+   "claim": "Tickets bought on the museum's own ticket site are non-refundable and valid only on the selected date and time.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://tickets.vangoghmuseum.com/en/tickets",
+     "title": "Van Gogh Museum - Online tickets",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-van-gogh-museum-tickets.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.vangogh.audio-guide-price",
+   "place": "Netherlands",
+   "topic": "price",
+   "claim": "The museum's audio guide costs from 3.75 euros for adults.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://tickets.vangoghmuseum.com/en/tickets",
+     "title": "Van Gogh Museum - Online tickets",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-van-gogh-museum-tickets.html"
+   ]
+  },
+  {
    "id": "nz.gst.rate",
    "place": "New Zealand",
    "topic": "tax",
@@ -60327,6 +60467,306 @@
    ]
   },
   {
+   "id": "uk.lon.tower.resale",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "Tower of London tickets must not be offered for resale via a third party (doing so invalidates the ticket); tickets bought through a third party cannot be amended by the venue; no authorised sellers are named.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.hrp.org.uk/terms-of-use/",
+     "title": "Terms of use | Historic Royal Palaces",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-tower-of-london-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.lon.tower.price",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "Venue prices read 25 Nov 2026: adult GBP 38.00 (41.80 with donation); child 5-15 and young person 16-17 GBP 19.00 (21.00 with donation); 0-4 free; senior and student GBP 30.30.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.hrp.org.uk/tower-of-london/visit/tickets-and-prices/",
+     "title": "Tickets and prices | Tower of London",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-tower-of-london-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.lon.tower.includes",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "A ticket covers all open public areas including the Crown Jewels and White Tower, plus the Yeoman Warder Tour subject to availability.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.hrp.org.uk/tower-of-london/visit/tickets-and-prices/",
+     "title": "Tickets and prices | Tower of London",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-tower-of-london-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.lon.tower.children-bags",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "Children under 16 must be accompanied by an adult at all times; back packs, large bags and suitcases are not permitted inside buildings.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.hrp.org.uk/terms-of-use/",
+     "title": "Terms of use | Historic Royal Palaces",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-tower-of-london-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.lon.tower.fast-track",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "The venue FAQ says there is no fast-track entry option at the Tower.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.hrp.org.uk/tower-of-london/visit/faqs/",
+     "title": "Frequently Asked Questions | Tower of London",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-tower-of-london-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.lon.tower.release",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "Admission tickets are released a few months in advance.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.hrp.org.uk/tower-of-london/visit/faqs/",
+     "title": "Frequently Asked Questions | Tower of London",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-tower-of-london-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.win.castle.third-party-entry",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "Royal Collection Trust says tickets bought from a third party guarantee entry if the voucher states a date and time of arrival; it cannot guarantee entry for other arrival times; changes go to the third party; third-party tickets are not valid for the 1-Year Pass.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://rct.uk/about-royal-collection-trust/ticket-bookings-and-enquiries",
+     "title": "Ticket bookings and enquiries | Royal Collection Trust",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-windsor-castle-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.win.castle.refund-third-party",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "RCT's ticketholder notice tells people who bought through a third party to contact the agent or tour operator about a refund.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rct.uk/information-for-ticketholders",
+     "title": "Information for ticketholders | Royal Collection Trust",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-windsor-castle-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.win.castle.resale",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "RCT's conditions say an admission is personal, may not be resold or exchanged, and a resold admission is void; an admission can be cancelled by RCT or by the travel agents or tour operators it was obtained from.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rct.uk/about/policies/terms-and-conditions",
+     "title": "Terms and Conditions | Royal Collection Trust",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-windsor-castle-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.win.castle.late-arrival",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "Where a time of visit is stated on the admission, a late arrival is not admitted unless a later time is available that day at RCT's discretion; no refund; early arrivals wait until the stated time.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rct.uk/about/policies/terms-and-conditions",
+     "title": "Terms and Conditions | Royal Collection Trust",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-windsor-castle-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.win.castle.short-notice-closure",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "As working royal palaces, opening arrangements can change at short notice; RCT may cancel and refund or offer an alternative date.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rct.uk/about/policies/terms-and-conditions",
+     "title": "Terms and Conditions | Royal Collection Trust",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-windsor-castle-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.win.castle.children-rule",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "Children under 12 must be accompanied by an adult over 17 who also has an admission; children under 5 are admitted free.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rct.uk/about/policies/terms-and-conditions",
+     "title": "Terms and Conditions | Royal Collection Trust",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-windsor-castle-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.win.castle.bags-food",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "RCT may require visitors to deposit baggage, umbrellas, pushchairs and other items in the security cloakroom; food and drink are not allowed in the interior except in designated cafe areas.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rct.uk/about/policies/terms-and-conditions",
+     "title": "Terms and Conditions | Royal Collection Trust",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-windsor-castle-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.win.castle.price-2026",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "RCT's 2026 Windsor Castle standard admission prices: adult 32.00 advance and 36.00 on the day, young person 18-24 21.00 and 24.00, child 5-17 16.00 and 18.00, under 5 free; 2027 adult advance 33.00.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rct.uk/visit/windsor-castle",
+     "title": "Windsor Castle | Royal Collection Trust",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-windsor-castle-tickets.html"
+   ]
+  },
+  {
+   "id": "uk.win.castle.festive-12-dec",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "RCT lists a Windsor Castle Festive Weekend activity with next event 12 Dec 2026, included with standard admission; the Windsor Castle and Great Kitchen Tour package runs from 27 Dec 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rct.uk/visit/windsor-castle",
+     "title": "Windsor Castle | Royal Collection Trust",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-windsor-castle-tickets.html"
+   ]
+  },
+  {
    "id": "us.nyc.hotel-tax",
    "place": "United States",
    "topic": "tax",
@@ -72291,6 +72731,326 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-buy-top-of-the-rock-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.summit.refund-validity",
+   "place": "United States",
+   "topic": "place",
+   "claim": "SUMMIT ticket sales are final with no refunds for weather or waiting times; tickets are valid only for the date and/or time on the ticket.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://summitov.com/ticketterms/",
+     "title": "SUMMIT ticket terms and conditions",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-summit-one-vanderbilt-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.summit.late-entry",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "Admission is not guaranteed for guests running late.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://summitov.com/ticketterms/",
+     "title": "SUMMIT ticket terms and conditions",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-summit-one-vanderbilt-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.summit.children",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "Children 5 and under need no ticket when with an adult ticket holder; children under 16 must be accompanied by an adult at all times.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://summitov.com/ticketterms/",
+     "title": "SUMMIT ticket terms and conditions",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-summit-one-vanderbilt-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.summit.hours",
+   "place": "United States",
+   "topic": "place",
+   "claim": "SUMMIT is open daily 8:00 AM to 12:00 AM with last entry at 10:30 PM; entrance at 45 E 42nd St on the Main Concourse of Grand Central Terminal.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://info.summitov.com/faq/general-ticketing/",
+     "title": "SUMMIT FAQ page footer",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-summit-one-vanderbilt-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.summit.bags-id",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "Suitcases, carry-on and wheeled bags and anything larger than a standard backpack, purse or messenger bag are prohibited; guests may be asked for ID for website orders.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://summitov.com/ticketterms/",
+     "title": "SUMMIT ticket terms and conditions",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-summit-one-vanderbilt-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.summit.price-from",
+   "place": "United States",
+   "topic": "price",
+   "claim": "On 25 Nov 2026 the ticket page listed SUMMIT Experience starting at 44 (resident 39), SUMMIT Ascent starting at 68 (63) and Premium Experience 149 USD, with a $3 online processing fee per order; not a price for 12 Dec.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://summitov.com/tickets/",
+     "title": "SUMMIT tickets page",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-summit-one-vanderbilt-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.rcxs.refund",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "All Christmas Spectacular ticket sales are final, with no refunds or exchanges.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockettes.com/christmas/faq/",
+     "title": "Christmas Spectacular FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.rcxs.children-under-2",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "Children under 2 need no ticket but must sit on a parent or guardian's lap.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockettes.com/christmas/faq/",
+     "title": "Christmas Spectacular FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.rcxs.show-length",
+   "place": "United States",
+   "topic": "stat",
+   "claim": "The show runs 90 minutes with no intermission.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockettes.com/christmas/faq/",
+     "title": "Christmas Spectacular FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.rcxs.ticketing-partner",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "The show's FAQ refers ticketing questions to Ticketmaster.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockettes.com/christmas/faq/",
+     "title": "Christmas Spectacular FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.rcxs.ticket-limit",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "MSG limits any single customer to 14 tickets across a Christmas Spectacular season.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rockettes.com/madison-square-garden-entertainment-ticket-policy/",
+     "title": "MSG Entertainment ticket policy",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.rcxs.price-15dec-tiqets",
+   "place": "United States",
+   "topic": "price",
+   "claim": "Tiqets showed $104 for Third Mezzanine at 11:00 am on 15 Dec 2026 and $129 from for the 2:00, 5:00 and 8:00 pm shows; the 11:00 am categories ran $104 to $214.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/new-york-attractions-c260932/tickets-for-new-york-city-christmas-spectacular-starring-the-radio-city-rockettes-p986321/",
+     "title": "Tiqets booking calendar, read 25 Nov 2026",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.rcxs.price-15dec-gyg",
+   "place": "United States",
+   "topic": "price",
+   "claim": "GetYourGuide showed $104 for 1 adult, Third Mezzanine, 11:00 am on 15 Dec 2026, taxes and fees included, best available seats in the section assigned after booking, 11 seating categories.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/new-york-city-l59/nyc-radio-city-christmas-spectacular-tickets-t541851/",
+     "title": "GetYourGuide listing, read 25 Nov 2026",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.rcxs.gyg-reviews-cancel",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "GetYourGuide shows 4.8 from 1,058 reviews, names MSG Entertainment as provider, issues tickets via Ticketmaster and says all sales are final.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/new-york-city-l59/nyc-radio-city-christmas-spectacular-tickets-t541851/",
+     "title": "GetYourGuide listing, read 25 Nov 2026",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.rcxs.tiqets-terms",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "Tiqets shows 4.5 from 21 reviews, provider MSG National Properties LLC, non-refundable, no rescheduling, separate email link for show tickets.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/new-york-attractions-c260932/tickets-for-new-york-city-christmas-spectacular-starring-the-radio-city-rockettes-p986321/",
+     "title": "Tiqets listing, read 25 Nov 2026",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.rcxs.kkday-soldout",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "KKday's admission listing was marked sold out and 'No cancellation' on 25 Nov 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en-us/product/133284",
+     "title": "KKday listing, read 25 Nov 2026",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-25",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
    ]
   },
   {
