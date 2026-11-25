@@ -31,7 +31,9 @@ Spawn ONE background agent: subagent_type "general-purpose", model "sonnet". Its
   'not checked'. If every partner is refused, stop and report.";
 - "Do not publish, commit or edit outside content_drafts/. Reply in under 250 words."
 Wait for its report. If it stopped (reseller ban, nothing readable), mark the row "dropped <date> <reason>",
-add the reason to "Ruled out", and take the next row (at most 2 tries per run).
+add the reason to "Ruled out", and take the next row. A stop at the reseller terms, before any pricing, is cheap:
+take up to 4 rows, and after two ticket stops take the next operator-run tour (husky, boat, day trip), which has no
+venue to refuse resellers. A stop after pricing: at most 2 tries per run. A run should end with a page.
 
 ## 3. Edit (lead editor, before publishing)
 Read the draft's opening, short-answer table, every figcaption and every FAQ. Fix, don't just note:
@@ -57,6 +59,14 @@ Read the draft's opening, short-answer table, every figcaption and every FAQ. Fi
 7. `.venv/bin/python ops/register_ticket.py <slug> <facts-file>`. The facts file is the country file in
    data/facts, for example japan, uk, us, france, korea or singapore.
 8. `zsh ops/pipeline.sh` in the background (about 10 minutes). It must print "pipeline ok".
+
+   add_aeo.py links each "Book" cell of the short answer, the seller names in the tables and the section lines to
+   the listing the page compared, and gives every partner link its rel. So: write the short-answer cell as
+   "GetYourGuide: <the listing's own name>", link each listing by its name once in the sellers section, and keep
+   the id of that first heading "The short answer". Two good picks for different readers (cheapest, most reviewed,
+   takes children)? Add `cta2=("Check X on Y", "<short link>")` after `cta` and name that pick in the text.
+   Neighbours (before the pipeline): for a city with other activity pages, add a STAY_POINTERS sentence both ways (a trip there is
+   often several activities).
 
 ## 5. Check (all must pass before commit)
 - `.venv/bin/python audit_site.py` → "No failures"

@@ -81,11 +81,13 @@ def earnings(days: int) -> tuple[dict[str, float], dict[str, int], list[str]]:
     since = (date.today() - timedelta(days=days)).isoformat()
     try:
         import tp_sales
+        attr = tp_sales.attribution()
         for x in tp_sales.actions(since):
-            got = float(x.get("paid_profit_usd") or 0)
+            got = tp_sales.commission(x)
             if not (x.get("state") or float(x.get("price_usd") or 0) > 0) or x.get("state") == "cancelled":
                 continue
-            k = strip_placement(x["sub_id"]) if x.get("sub_id") else "(no sub id)"
+            k = strip_placement(x["sub_id"]) if x.get("sub_id") \
+                else attr.get(x["action_id"], "(no sub id)")
             usd[k] += got
             n[k] += 1
     except Exception as e:  # a source that fails is reported, never guessed

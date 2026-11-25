@@ -43,6 +43,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import functools
 import json
 import re
 import sys
@@ -245,6 +246,11 @@ def why_now(soup: BeautifulSoup, slug: str | None, href: str) -> Tag | None:
     """The 'why now' line for a verdict, or None when nothing true and useful applies."""
     today = date.today()
     kind = _now_kind(href)
+    # "booking now costs you nothing if plans change" is only true of a cancellable ticket: on a
+    # one-product page the verdict must itself say the pick can be cancelled free.
+    if kind in ("kkday", "klook") and is_money_page(slug) and not re.search(
+            r"free (?:to cancel|cancellation)|cancel(?:s|led|lation)? free|free up to", V.get(slug, {}).get("text", ""), re.I):
+        kind = None
     page = WHY_NOW["pages"].get(slug or "")
     if page and page["until"] < today.isoformat():
         page = None
@@ -442,18 +448,21 @@ V = {
     "where-to-buy-harry-potter-studio-tour-tickets": dict(
         text="Buy the studio ticket with return coach from Viator: £135 for 14 December, free to cancel until "
              "11 December, and supplied by Evan Evans Tours, which is on the studio’s approved distributor list. "
-             "The studio sells no tickets at the door, so book before you travel.",
-        cta=("href", "Check the studio tour on Viator", "https://viator.tpx.lu/hGx8Q4oT")),
+             "The studio sells no tickets at the door, so book before you travel. Leaving from Victoria? "
+             "GetYourGuide’s coach and ticket was £140, also free to cancel until 11 December.",
+        cta=("href", "Check the studio tour on Viator", "https://viator.tpx.lu/hGx8Q4oT"),
+        cta2=("Check the Victoria coach on GetYourGuide", "https://getyourguide.tpx.lu/1og8CgQp")),
     "where-to-buy-eiffel-tower-tickets": dict(
         text="For a guide all the way to the summit, book the small-group tour on Tiqets: €139.90 for "
              "16 December, free to cancel up to 24 hours before, groups of up to 10. Resellers may sell the tower "
              "only with a service such as a guide, so each listing is a bundle; we say what each one includes.",
         cta=("href", "Check the summit tour on Tiqets", "https://tiqets.tpx.lu/WawnaoFh")),
     "where-to-book-tromso-northern-lights-tour": dict(
-        text="No tour can promise the aurora, so pay for the terms: KKday’s small-group chase was €102.89 for "
-             "12 December with thermal suits and photos included, free to cancel up to 2 days ahead and confirmed "
-             "instantly. Viator’s minibus chase, from €162.60, caps the group at 15 and adds a hot meal.",
-        cta=("href", "Check the Tromsø tour on KKday", "https://kkday.tpx.lu/e1r4iW5h")),
+        text="No tour can promise the aurora, so pay for the terms. Cheapest: KKday’s chase, €102.89 for 12 December "
+             "with suits and photos, free to cancel up to 2 days ahead. Most reviewed: GetYourGuide’s minibus chase, "
+             "€167, 4.8 from 7,268 reviews, free to cancel up to 24 hours ahead, ages 8 and up.",
+        cta=("href", "Check the Tromsø tour on KKday", "https://kkday.tpx.lu/e1r4iW5h"),
+        cta2=("Check the minibus chase on GetYourGuide", "https://getyourguide.tpx.lu/VlLZNJUm")),
     "where-to-buy-shibuya-sky-tickets": dict(
         text="Buy a dated ticket on KKday, one of the three resellers Shibuya Sky names as authorised: ¥2,700 "
              "for an 11:00 entry and ¥3,400 for 18:00 on 5 December, the venue’s own two prices, with instant "
@@ -1582,7 +1591,72 @@ def apply_dates(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -
 
 
 # --- links --------------------------------------------------------------------
+# On a one-product page ("where to book/buy X") a partner's name opens the listing the page
+# compared, not the partner's home page (2026-11-25: from a generic link the
+# reader has to find the product again).
+LISTING_HOST = {"getyourguide": "getyourguide.tpx.lu", "viator": "viator.tpx.lu", "tiqets": "tiqets.tpx.lu",
+                "kkday": "kkday.tpx.lu", "klook": "klook.tpx.lu"}
+LISTING_URL = {"getyourguide": r"-t\d+", "viator": r"/tours/|/d\d+-\w+", "tiqets": r"-p\d+", "kkday": r"/product/",
+               "klook": r"/activity/"}
+PARTNER_HREF = re.compile(r"//(?:[a-z]+\.)?(?:tpx\.lu|tp\.st|tp\.media)/|stay22\.com/allez/|\.sjv\.io/|awin1\.com/")
+
+
+def is_money_page(slug: str | None) -> bool:
+    return bool(slug) and slug.startswith(("where-to-book-", "where-to-buy-"))
+
+
+@functools.lru_cache(maxsize=1)
+def _short_to_url() -> dict[str, str]:
+    f = _DATA / "tp_deeplinks.json"
+    return {v: k for k, v in json.loads(f.read_text()).items() if isinstance(v, str)} if f.exists() else {}
+
+
+def _listings(soup: BeautifulSoup, key: str, slug: str | None) -> list[Tag]:
+    """The page's own links (not ones this script placed) to one product at this partner."""
+    if not is_money_page(slug) or key not in LISTING_HOST:
+        return []
+    out = []
+    for a in soup.select("section.article a[href]"):
+        if a.has_attr("data-aeo") or a.find_parent(attrs={"data-aeo": True}):
+            continue
+        href = a["href"].split("?")[0]
+        if urllib.parse.urlparse(href).netloc != LISTING_HOST[key]:
+            continue
+        url = _short_to_url().get(href, "")
+        if re.search(LISTING_URL[key], urllib.parse.urlparse(url).path):
+            out.append(a)
+    return out
+
+
+_WORD = re.compile(r"[a-z0-9]{3,}")
+_COMMON = {"tour", "tours", "ticket", "tickets", "from", "with", "and", "the", "for", "price", "prices", "check"}
+
+
+def _words(t: str) -> set[str]:
+    return set(_WORD.findall(t.lower())) - _COMMON
+
+
+def _listing_for(soup: BeautifulSoup, key: str, slug: str | None, name: str) -> str | None:
+    """The listing a cell names ("GetYourGuide: Small-group chase"), or None when it is not certain."""
+    links = _listings(soup, key, slug)
+    hrefs = list(dict.fromkeys(a["href"] for a in links))
+    if len(hrefs) == 1:
+        return hrefs[0]
+    want, scores = _words(name), {}
+    for a in links:
+        have = _words(a.get_text(" ", strip=True))
+        if len(have) >= 2 and want:
+            scores[a["href"]] = max(scores.get(a["href"], 0), len(want & have) / len(want))
+    best = sorted(scores.items(), key=lambda t: -t[1])
+    if best and best[0][1] >= 0.6 and (len(best) == 1 or best[0][1] - best[1][1] >= 0.2):
+        return best[0][0]
+    return None
+
+
 def _page_href(soup: BeautifulSoup, key: str, slug: str | None = None) -> str:
+    own = _listings(soup, key, slug)
+    if own:
+        return own[0]["href"]
     if slug and key in PAGE_HREF.get(slug, {}):
         return PAGE_HREF[slug][key]
     pat = re.compile(HREF_MATCH[key])
@@ -1625,8 +1699,8 @@ def _stop_heading(article: Tag) -> Tag | None:
     return None
 
 
-def _brand_of(text: str) -> str | None:
-    return BRANDS.get(text.strip().rstrip("*").strip())
+def _brand_of(text: str, brands: dict[str, str] | None = None) -> str | None:
+    return (brands or BRANDS).get(text.strip().rstrip("*").strip())
 
 
 def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
@@ -1638,6 +1712,54 @@ def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
     stop = _stop_heading(article)
     after_stop = {id(stop)} | {id(x) for x in stop.find_all_next()} if stop else set()
     added = 0
+    brands = dict(BRANDS)
+    if _listings(soup, "viator", slug):         # no general Viator link, only this page's listing
+        brands["Viator"] = "viator"
+
+    # 0. one-product pages: the "Book" column of the short answer ("KKday: small-group chase",
+    #    "Tiqets or GetYourGuide"). The reader's decision is made there, so each name is a link.
+    if is_money_page(slug):
+        names = "|".join(re.escape(b) for b in sorted(brands, key=len, reverse=True) if brands[b] in LISTING_HOST)
+        one = re.compile(rf"^({names})(?:\s*[:,]\s*(.+))?$", re.S)
+        many = re.compile(rf"^(?:{names})(?:(?:, | or | and )(?:{names}))+$")
+        head = article.find(id="the-short-answer")
+        table = head.find_next("table") if head else None
+        for tr in table.select("tbody tr") if table is not None else []:
+            cells = tr.find_all("td", recursive=False)
+            if len(cells) < 2 or cells[1].find("a"):
+                continue
+            cell = cells[1]
+            text = " ".join(cell.get_text(" ", strip=True).split())
+            m = None if many.match(text) else one.match(text)
+            if m:
+                key, href = brands[m.group(1)], None
+                if m.group(2):
+                    href = _listing_for(soup, key, slug, m.group(2))
+                elif _listings(soup, key, slug):
+                    href = _listing_for(soup, key, slug, cells[0].get_text(" ") + " " + (
+                        cells[2].get_text(" ") if len(cells) > 2 else "")) or _page_href(soup, key, slug)
+                if href:
+                    a = _anchor(soup, href)
+                    for c in list(cell.contents):
+                        a.append(c.extract())
+                    cell.append(a)
+                    added += 1
+            elif many.match(text):
+                for node in [n for n in cell.find_all(string=True) if n.strip()]:
+                    parts, pos, s = [], 0, str(node)
+                    for mm in re.finditer(names, s):
+                        key = brands[mm.group(0)]
+                        if not _listings(soup, key, slug):
+                            continue
+                        a = _anchor(soup, _page_href(soup, key, slug))
+                        a.string = mm.group(0)
+                        parts += [NavigableString(s[pos:mm.start()]), a]
+                        pos = mm.end()
+                        added += 1
+                    if parts:
+                        for x in parts + [NavigableString(s[pos:])]:
+                            node.insert_before(x)
+                        node.extract()
 
     # 1. comparison tables: first mention of each partner per table
     for table in article.find_all("table"):
@@ -1650,9 +1772,9 @@ def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
             if first is None or cell.find("a"):
                 continue
             if isinstance(first, Tag) and first.name == "strong":
-                key, target = _brand_of(first.get_text()), first
+                key, target = _brand_of(first.get_text(), brands), first
             elif isinstance(first, NavigableString) and len(list(cell.children)) == 1:
-                key, target = _brand_of(str(first)), first
+                key, target = _brand_of(str(first), brands), first
             else:
                 continue
             if not key or key in done:
@@ -1674,7 +1796,7 @@ def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
                           if not (isinstance(c, NavigableString) and not c.strip())), None)
             if not (isinstance(first, Tag) and first.name == "strong") or first.find("a"):
                 continue
-            key = _brand_of(first.get_text())
+            key = _brand_of(first.get_text(), brands)
             if not key or key in done:
                 continue
             first.wrap(_anchor(soup, _page_href(soup, key, slug)))
@@ -1691,7 +1813,7 @@ def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
                       if not (isinstance(c, NavigableString) and not c.strip())), None)
         if not (isinstance(first, Tag) and first.name == "strong"):
             continue
-        key = _brand_of(first.get_text())
+        key = _brand_of(first.get_text(), brands)
         if not key or key in seen:
             continue
         first.wrap(_anchor(soup, _page_href(soup, key, slug)))
@@ -1699,7 +1821,7 @@ def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
         added += 1
 
     # 4. headings that name exactly one partner ("1. Airalo — Best Overall …")
-    head_re = re.compile(r"^\s*(?:\d+(?:\s*&\s*\d+)?\.\s*)?(" + "|".join(map(re.escape, BRANDS)) +
+    head_re = re.compile(r"^\s*(?:\d+(?:\s*&\s*\d+)?\.\s*)?(" + "|".join(map(re.escape, brands)) +
                          r")\s*(?:[—–:\-]|$)")
     for h in article.find_all(["h2", "h3"]):
         if not _eligible(h, after_stop) or h is stop:
@@ -1708,13 +1830,18 @@ def link_brands(soup: BeautifulSoup, slug: str | None = None) -> int:
         m = head_re.match(text)
         if not m:
             continue
-        others = [b for b in BRANDS if b != m.group(1) and b in text]
+        others = [b for b in brands if b != m.group(1) and b in text]
         if others:
             continue
-        key = BRANDS[m.group(1)]
+        key = brands[m.group(1)]
         p = soup.new_tag("p", attrs={"class": "gy-section-link", "data-aeo": "1"})
-        a = _anchor(soup, _page_href(soup, key, slug), managed=False)
-        a.string = f"{SECTION_LABEL[key]} →"
+        # this section's own listing first, else the page's, else the partner's home page
+        stop_at = h.find_next(["h2", "h3"])
+        mine = [x for x in _listings(soup, key, slug) if x in set(h.find_all_next("a"))
+                and (stop_at is None or x not in set(stop_at.find_all_next("a")))]
+        own = mine or _listings(soup, key, slug)
+        a = _anchor(soup, own[0]["href"] if own else _page_href(soup, key, slug), managed=False)
+        a.string = f"Check this on {m.group(1)} →" if own else f"{SECTION_LABEL[key]} →"
         p.append(a)
         note = reader_code_note(key)
         if note:
@@ -1786,6 +1913,12 @@ def render_verdict(soup: BeautifulSoup, spec: dict, slug: str | None = None) -> 
         a["class"] = "gy-verdict-btn"            # styled as the page's main button
         a.string = f"{text} →"
         c.append(a)
+        if spec.get("cta2"):                     # (label, href): the other pick the text names
+            c.append(" ")
+            a2 = _anchor(soup, spec["cta2"][1], managed=False)
+            a2["class"] = "gy-verdict-btn2"
+            a2.string = f"{spec['cta2'][0]} →"
+            c.append(a2)
         box.append(c)
         note = reader_code_note(cta[0] if cta and cta[0] not in ("amazon", "href") else None)
         if note:
@@ -4332,8 +4465,26 @@ def apply(soup: BeautifulSoup, rel: str, *, modified: str | None = None) -> dict
             out["pointer"] = add_stay_pointer(soup, slug, article)
         out["photo_buttons"] = add_photo_buttons(soup, rel, slug, article)
         out["tp_widgets"] = add_tp_widgets(soup, slug, article)   # after: keeps every photo button where it was
+    fix_partner_rel(soup)
     add_social_meta.apply(soup)
     return out
+
+
+def fix_partner_rel(soup: BeautifulSoup) -> int:
+    """Every partner link says it is one (rel) and opens in a new tab. gy-reveal.js tags and counts
+    only rel~="sponsored" links, so a Markdown link in a draft arrived untracked (11 pages until 2026-11-25)."""
+    n = 0
+    for a in soup.select("a[href]"):
+        if not PARTNER_HREF.search(a["href"]):
+            continue
+        rel = a.get("rel") or []
+        rel = rel.split() if isinstance(rel, str) else list(rel)
+        if "sponsored" in rel and "nofollow" in rel:
+            continue
+        a["rel"] = REL
+        a["target"] = "_blank"
+        n += 1
+    return n
 
 
 def main() -> None:

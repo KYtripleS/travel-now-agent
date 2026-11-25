@@ -71,6 +71,19 @@ def test_live_data():
                 assert h["rates"] is None or "aid=gentlyyonder" in h["rates"] or ".tpx.lu/" in h["rates"], h["name"]
 
 
+def test_partner_links_carry_rel():
+    """A partner link without rel="sponsored" is neither disclosed to search engines nor tagged with a
+    sub id by gy-reveal.js, so its bookings arrive without a page (2026-11-25)."""
+    import re
+    host = re.compile(r"//(?:[a-z]+\.)?tpx\.lu/|stay22\.com/allez/|\.sjv\.io/|awin1\.com/")
+    bad = []
+    for f in (REPO / "site").rglob("*.html"):
+        for tag in re.findall(r"<a\b[^>]*>", f.read_text(encoding="utf-8")):
+            if host.search(tag) and not ("sponsored" in tag and "nofollow" in tag):
+                bad.append((f.name, tag[:100]))
+    assert not bad, (len(bad), bad[:3])
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):

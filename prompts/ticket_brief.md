@@ -103,3 +103,11 @@ reason to buy, and never hide a fact a reader needs to stay safe or legal.
   "take the train instead"). Transport facts appear only as part of what a listing includes.
 - No short-answer row or bullet for a seller you could not read. Just mark it "not checked" in the table.
 - Partner links may be Markdown links or <a href>. Use the raw listing URL; the editor converts it.
+
+## Lessons from 25 November 2026
+- Say the minimum age, pickup point, duration, group size and cancellation of every listing, or "not stated":
+  listings for the same outing differ (one aurora chase takes no under-8s).
+- The short answer's "Book" cell is "Seller: the listing's own name", and the sellers section links that same name,
+  so the build can link the cell to exactly that listing.
+- Give a second pick when it suits a different reader (most reviewed, takes children, leaves from another place).
+  Say the review score and count when the listing shows them.

@@ -125,7 +125,8 @@ window.gySaveTrip = function (box, dep) {
   function onClick(e) {
     if (!e.target.closest) return;
     if (e.type === 'auxclick' && e.button !== 1) return;   /* middle click opens a tab too */
-    var a = e.target.closest('a[rel~="sponsored"]');
+    /* by rel, or by partner host: a partner link whose rel was forgotten must still be tagged and counted */
+    var a = e.target.closest('a[rel~="sponsored"], a[href*="tpx.lu/"], a[href*="stay22.com/allez/"], a[href*=".sjv.io/"]');
     if (a) {
       var partner = '';
       try { partner = new URL(a.href).hostname.replace(/^www\./, ''); } catch (err) {}

@@ -5574,3 +5574,9 @@ body:has(:is(.article-hero, .gy-arch-head)) section.article :is(.gy-widget-frame
 .article .gy-cityfind-row { font-family: var(--sans); font-size: .95rem; line-height: 1.75; margin: 0 0 10px; }
 .article .gy-cityfind-region { display: block; font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
 .article .gy-cityfind-sep { color: var(--line-dark); margin: 0 .45em; }
+
+/* 22. A verdict's second pick (2026-11-25, add_aeo cta2): outlined, beside the filled main button */
+.article .gy-verdict-cta a.gy-verdict-btn2 { background: transparent; color: var(--cta); box-shadow: inset 0 0 0 2px var(--cta); margin-left: 8px; }
+.article .gy-verdict-cta a.gy-verdict-btn2:hover { background: var(--cta-tint); color: var(--cta-hover); box-shadow: inset 0 0 0 2px var(--cta-hover); }
+@media (min-width: 641px) { .article .gy-verdict:has(> .gy-verdict-now):has(.gy-verdict-btn2) > .gy-verdict-cta { flex: 1 1 100%; max-width: 100%; } }
+@media (max-width: 640px) { .article .gy-verdict-cta a.gy-verdict-btn2 { margin: 10px 0 0; } }
