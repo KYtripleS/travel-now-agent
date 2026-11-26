@@ -579,6 +579,13 @@ V = {
              "free to cancel up to 24 hours ahead. Want hotel pickup in a minibus? GetYourGuide’s premium tour is $116.34.",
         cta=("href", "Check the northern lights bus tour on GetYourGuide", "https://getyourguide.tpx.lu/F5WtXiUR"),
         cta2=("Check the premium minibus tour on GetYourGuide", "https://getyourguide.tpx.lu/ZLQPbhAN")),
+    "where-to-book-iceland-ice-cave-tour": dict(
+        text="For a first blue ice cave, book GetYourGuide’s Crystal Blue Ice Cave Super Jeep Tour from Jökulsárlón: "
+             "$164.63 on 12 December 2026, 4.4 from 642 reviews, free to cancel up to 24 hours ahead, and a reschedule "
+             "or full refund if the operator cancels for safety. Starting from Vík? Viator’s Katla Super Jeep tour is "
+             "€239.00, rated 4.7 from 1,215 reviews.",
+        cta=("href", "Check the Jökulsárlón ice cave tour on GetYourGuide", "https://getyourguide.tpx.lu/7FBtHKWC"),
+        cta2=("Check the Katla ice cave tour on Viator", "https://viator.tpx.lu/bh6cDGrs")),
     "where-to-book-snow-monkey-tour": dict(
         text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
              "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
@@ -3865,7 +3872,11 @@ STAY_POINTERS = {
     "where-to-book-rovaniemi-northern-lights-tour": ("intro",
         'Going out with the dogs? <a href="where-to-book-rovaniemi-husky-safari.html">Rovaniemi husky safaris compared</a> prices rides from 1 km to a 10 km self-drive. Taking children to meet Santa? <a href="where-to-book-rovaniemi-santa-village-tour.html">Santa Claus Village tours compared</a> prices family days with reindeer and husky rides for Christmas Eve. Driving a snowmobile? <a href="where-to-book-rovaniemi-snowmobile-safari.html">Rovaniemi snowmobile safaris compared</a> sets the licence rules, damage caps and Christmas Eve prices side by side.'),
     "where-to-book-reykjavik-northern-lights-tour": ("intro",
-        'Doing the Golden Circle by day? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> sets the bus, hotel-pickup and Secret Lagoon versions side by side. Need a bed? <a href="where-to-stay-in-reykjavik-northern-lights.html">Where to stay in Reykjavik for the northern lights</a> compares city bases with countryside hotels.'),
+        'Doing the Golden Circle by day? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> sets the bus, hotel-pickup and Secret Lagoon versions side by side. Need a bed? <a href="where-to-stay-in-reykjavik-northern-lights.html">Where to stay in Reykjavik for the northern lights</a> compares city bases with countryside hotels. Going into an ice cave? <a href="where-to-book-iceland-ice-cave-tour.html">Iceland ice cave tours compared</a> prices Jökulsárlón, Katla from Vík and a Reykjavik day trip for one December Saturday.'),
+    "where-to-book-golden-circle-tour": ("intro",
+        'Going into an ice cave? <a href="where-to-book-iceland-ice-cave-tour.html">Iceland ice cave tours compared</a> prices Jökulsárlón, Katla from Vík and a Reykjavik day trip for one December Saturday. Free in the evening? <a href="where-to-book-reykjavik-northern-lights-tour.html">Reykjavik northern lights tours compared</a> sets the bus, minibus and boat tours side by side with their retry terms.'),
+    "where-to-book-iceland-ice-cave-tour": ("intro",
+        'Free in the evening? <a href="where-to-book-reykjavik-northern-lights-tour.html">Reykjavik northern lights tours compared</a> sets the bus, minibus and boat tours side by side with their retry terms. Doing the Golden Circle too? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> sets the bus, hotel-pickup and Secret Lagoon versions side by side. Need a bed? <a href="where-to-stay-in-reykjavik-northern-lights.html">Where to stay in Reykjavik for the northern lights</a> compares city bases with countryside hotels.'),
     # event guides for spring 2027, from their city guides (2026-11-02)
     "where-to-stay-in-dublin": ("intro",
         'Coming for St Patrick’s Day? <a href="where-to-stay-in-dublin-st-patricks-day.html">Where to stay in Dublin '
@@ -4425,7 +4436,8 @@ STAY_POINTERS = {
          'for the same dates and explains the excess, gravel cover and the winter F-road closures. Doing the Golden '
          'Circle? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> sets the bus, '
          'hotel-pickup and Secret Lagoon versions side by side for one December Saturday. Booking an aurora night? '
-         '<a href="where-to-book-reykjavik-northern-lights-tour.html">Reykjavik northern lights tours compared</a> sets the bus, minibus and boat tours side by side with their retry terms.'),
+         '<a href="where-to-book-reykjavik-northern-lights-tour.html">Reykjavik northern lights tours compared</a> sets the bus, minibus and boat tours side by side with their retry terms. Going into an ice cave? '
+         '<a href="where-to-book-iceland-ice-cave-tour.html">Iceland ice cave tours compared</a> prices Jökulsárlón, Skaftafell, Katla from Vík and a Reykjavik day trip for 12 December.'),
         ("The short answer",
          'Weighing Norway for the aurora? <a href="where-to-stay-in-tromso-northern-lights.html">Tromsø for the '
          'northern lights (2026/27)</a> covers the polar night, the airport bus and the 3% visitor fee planned '

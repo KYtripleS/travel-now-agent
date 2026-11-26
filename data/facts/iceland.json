@@ -2011,6 +2011,283 @@
           "If you do not see any lights on the tour, you may participate again on another date."
         ]
       }
+    },
+    {
+      "id": "is.icecave.season",
+      "topic": "place",
+      "claim": "Visit Iceland says the ice cave season typically extends from November until May and to always go with professional glacier guides.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.visiticeland.com/article/ice-cave-exploration/",
+          "kind": "official",
+          "title": "Ice-Cave Exploration | Visit Iceland",
+          "evidence": [
+            "typically extends from November until May",
+            "always go with professional glacier guides and the right equipment."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "typically extends from November until May",
+          "always go with professional glacier guides and the right equipment"
+        ]
+      }
+    },
+    {
+      "id": "is.icecave.gyg-182408",
+      "topic": "price",
+      "claim": "GetYourGuide 182408 Jokulsarlon crystal blue ice cave, 12 Dec 2026: USD 164.63 (9:30, 13:00); 4.4 from 642 reviews; free cancellation 24 h; under 6 not suitable.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/north-iceland-l32553/from-jokulsarlon-crystal-blue-ice-cave-t182408/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From Jökulsárlón: Crystal Blue Ice Cave Super Jeep Tour",
+          "evidence": [
+            "1 Adult × $164.63",
+            "Cancel up to 24 hours in advance for a full refund",
+            "642 reviews",
+            "Children under 6 years",
+            "we will assist you with rescheduling the tour to another date or issuing a full refund"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "$164.63",
+          "4.4 from 642 reviews",
+          "we will assist you with rescheduling the tour to another date or issuing a full refund"
+        ]
+      }
+    },
+    {
+      "id": "is.icecave.gyg-88568",
+      "topic": "price",
+      "claim": "GetYourGuide 88568 Skaftafell blue ice cave and glacier hike, 12 Dec 2026: EUR 161.45 (9:00); 4.6 from 1,000 reviews; max 12 per guide; minimum age 8.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/vatnajoekull-national-park-l2246/vatnajokull-glacier-ice-caving-and-glacier-hiking-t88568/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Skaftafell: Blue Ice Cave & Glacier Hike on Vatnajökull",
+          "evidence": [
+            "1 Adult × €161.45",
+            "1,000 reviews",
+            "Limited to 12 participants",
+            "The minimum age is 8 years old",
+            "we will send out a cancellation e-mail"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "€161.45",
+          "4.6 from 1,000 reviews",
+          "The minimum age is 8"
+        ]
+      }
+    },
+    {
+      "id": "is.icecave.gyg-603350",
+      "topic": "price",
+      "claim": "GetYourGuide 603350 Katla from Vik small group (Gravel Travel), 12 Dec 2026: USD 138.73 (10:30/14:00) and 169.46 (9:30); 4.4 from 1,462 reviews; not under 8.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/vik-l32622/from-vik-katla-ice-cave-tour-t603350/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From Vik: Katla Ice Cave Small-Group Tour",
+          "evidence": [
+            "$138.73",
+            "$169.46",
+            "1,462 reviews",
+            "Children under 8 years",
+            "Cancel for free until Dec 11"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "$138.73",
+          "$169.46",
+          "4.4 from 1,462 reviews"
+        ]
+      }
+    },
+    {
+      "id": "is.icecave.gyg-440186",
+      "topic": "price",
+      "claim": "GetYourGuide 440186 Katla from Vik, 12 Dec 2026: USD 271.00 (10:00); 4.6 from 254 reviews; minimum age 6.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/vik-l32622/3h-katla-ice-cave-from-vik-t440186/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From Vik: Myrdalsjokull glacier and Katla Ice Cave Tour",
+          "evidence": [
+            "$271.00",
+            "254 reviews",
+            "Minimum age: 6 years"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "$271.00",
+          "4.6 from 254 reviews"
+        ]
+      }
+    },
+    {
+      "id": "is.icecave.gyg-617259",
+      "topic": "price",
+      "claim": "GetYourGuide 617259 Reykjavik Katla and South Coast day tour, 12 Dec 2026: EUR 254.00 (8:00), 12 h, pickup Reykjavik; 4.9 from 230 reviews; under 8 not suitable.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/vik-l32622/from-reykjavik-south-coast-and-katla-ice-cave-tour-t617259/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From Reykjavik: Katla Ice Cave and South Coast Day Tour",
+          "evidence": [
+            "€254.00",
+            "230 reviews",
+            "Pickup and drop-off at Reykjavik",
+            "Children under 8 years"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "€254.00",
+          "4.9 from 230 reviews"
+        ]
+      }
+    },
+    {
+      "id": "is.icecave.viator-50287P26",
+      "topic": "price",
+      "claim": "Viator 50287P26 Jokulsarlon crystal blue ice cave, 12 Dec 2026: EUR 150.00 (9:30); 4.3 from 182 reviews; max 14; free cancellation before 9:30 on 11 Dec.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Skaftafell/Crystal-Blue-Ice-Cave-From-Jokulsarlon-Glacier-Lagoon/d25390-50287P26",
+          "kind": "secondary",
+          "title": "Viator: Crystal Blue Ice Cave - Super Jeep From Jökulsárlón Glacier Lagoon",
+          "evidence": [
+            "€150.00",
+            "182 reviews",
+            "This tour/activity will have a maximum of 14 travelers",
+            "Operates in all weather conditions, please dress appropriately"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "€150.00",
+          "4.3 from 182 reviews",
+          "a maximum of 14 travellers"
+        ]
+      }
+    },
+    {
+      "id": "is.icecave.viator-50287P20",
+      "topic": "price",
+      "claim": "Viator 50287P20 Ice Cave by Katla from Vik (Troll Expeditions), 12 Dec 2026: EUR 239.00 (9:30, 14:00); 4.7 from 1,215 reviews; max 13; minimum age 8.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Vik/Ice-Cave-underneath-the-Volcano/d25269-50287P20",
+          "kind": "secondary",
+          "title": "Viator: Ice Cave by Katla Volcano Super Jeep Tour from Vik",
+          "evidence": [
+            "€239.00",
+            "1,215 Reviews",
+            "This tour/activity will have a maximum of 13 travelers",
+            "Minimum age is 8 years"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "€239.00",
+          "4.7 from 1,215 reviews"
+        ]
+      }
+    },
+    {
+      "id": "is.icecave.viator-44046P51",
+      "topic": "price",
+      "claim": "Viator 44046P51 Katla ice cave meet in Vik (Southcoast Adventure), 12 Dec 2026: EUR 225.00 (10:00); 4.1 from 28 reviews; max 14.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Vik/Katla-Ice-Cave/d25269-44046P51",
+          "kind": "secondary",
+          "title": "Viator: 3 Hours Katla Ice Cave Tour/Meet in Vík",
+          "evidence": [
+            "€225.00",
+            "based on 28 reviews",
+            "This tour/activity will have a maximum of 14 travelers",
+            "If you miss the tour due to late arrival, no refund applies"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "€225.00",
+          "4.1 from 28 reviews"
+        ]
+      }
+    },
+    {
+      "id": "is.icecave.kkday-845016",
+      "topic": "price",
+      "claim": "KKday 845016 Jokulsarlon crystal blue ice cave, 12 Dec 2026: EUR 149.97 (09:30, 13:00); free cancellation up to 2 days; under 6 not suitable.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/845016",
+          "kind": "secondary",
+          "title": "KKday: From Jökulsárlón: Crystal Blue Ice Cave Super Jeep Tour｜Iceland",
+          "evidence": [
+            "149.97",
+            "Free cancellation up to 2 day(s) in advance",
+            "Not Suitable For: Children under 6 years",
+            "Instant confirmation"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "€149.97",
+          "Free cancellation up to 2 days in advance"
+        ]
+      }
+    },
+    {
+      "id": "is.icecave.kkday-845045",
+      "topic": "price",
+      "claim": "KKday 845045 Katla and South Coast day tour from Reykjavik, 12 Dec 2026: EUR 253.96 (08:00); free cancellation up to 2 days.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/845045",
+          "kind": "secondary",
+          "title": "KKday: From Reykjavik: Katla Ice Cave and South Coast Day Tour｜Iceland",
+          "evidence": [
+            "253.96",
+            "Free cancellation up to 2 day(s) in advance",
+            "Not Suitable For: Children under 8 years"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-iceland-ice-cave-tour.html": [
+          "€253.96"
+        ]
+      }
     }
   ]
 }

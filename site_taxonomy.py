@@ -271,6 +271,7 @@ BY_SLUG = {
     "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
     "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Food",
     # 2026-10-31 ticket comparisons
+    "where-to-book-iceland-ice-cave-tour": "Booking & tours",
     "where-to-book-reykjavik-northern-lights-tour": "Booking & tours",
     "where-to-book-rovaniemi-snowmobile-safari": "Booking & tours",
     "where-to-book-rovaniemi-santa-village-tour": "Booking & tours",

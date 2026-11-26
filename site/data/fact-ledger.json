@@ -1,9 +1,9 @@
 {
  "name": "Gently Yonder travel fact ledger",
- "version": "2026-11-26",
+ "version": "2026-11-27",
  "license": "CC BY 4.0",
  "cite": "https://gentlyyonder.com/open-data.html",
- "count": 3451,
+ "count": 3462,
  "facts": [
   {
    "id": "au.gst.accommodation",
@@ -22524,6 +22524,226 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-book-reykjavik-northern-lights-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.season",
+   "place": "Iceland",
+   "topic": "place",
+   "claim": "Visit Iceland says the ice cave season typically extends from November until May and to always go with professional glacier guides.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.visiticeland.com/article/ice-cave-exploration/",
+     "title": "Ice-Cave Exploration | Visit Iceland",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.gyg-182408",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "GetYourGuide 182408 Jokulsarlon crystal blue ice cave, 12 Dec 2026: USD 164.63 (9:30, 13:00); 4.4 from 642 reviews; free cancellation 24 h; under 6 not suitable.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/north-iceland-l32553/from-jokulsarlon-crystal-blue-ice-cave-t182408/",
+     "title": "GetYourGuide: From Jökulsárlón: Crystal Blue Ice Cave Super Jeep Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.gyg-88568",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "GetYourGuide 88568 Skaftafell blue ice cave and glacier hike, 12 Dec 2026: EUR 161.45 (9:00); 4.6 from 1,000 reviews; max 12 per guide; minimum age 8.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/vatnajoekull-national-park-l2246/vatnajokull-glacier-ice-caving-and-glacier-hiking-t88568/",
+     "title": "GetYourGuide: Skaftafell: Blue Ice Cave & Glacier Hike on Vatnajökull",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.gyg-603350",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "GetYourGuide 603350 Katla from Vik small group (Gravel Travel), 12 Dec 2026: USD 138.73 (10:30/14:00) and 169.46 (9:30); 4.4 from 1,462 reviews; not under 8.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/vik-l32622/from-vik-katla-ice-cave-tour-t603350/",
+     "title": "GetYourGuide: From Vik: Katla Ice Cave Small-Group Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.gyg-440186",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "GetYourGuide 440186 Katla from Vik, 12 Dec 2026: USD 271.00 (10:00); 4.6 from 254 reviews; minimum age 6.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/vik-l32622/3h-katla-ice-cave-from-vik-t440186/",
+     "title": "GetYourGuide: From Vik: Myrdalsjokull glacier and Katla Ice Cave Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.gyg-617259",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "GetYourGuide 617259 Reykjavik Katla and South Coast day tour, 12 Dec 2026: EUR 254.00 (8:00), 12 h, pickup Reykjavik; 4.9 from 230 reviews; under 8 not suitable.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/vik-l32622/from-reykjavik-south-coast-and-katla-ice-cave-tour-t617259/",
+     "title": "GetYourGuide: From Reykjavik: Katla Ice Cave and South Coast Day Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.viator-50287P26",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "Viator 50287P26 Jokulsarlon crystal blue ice cave, 12 Dec 2026: EUR 150.00 (9:30); 4.3 from 182 reviews; max 14; free cancellation before 9:30 on 11 Dec.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Skaftafell/Crystal-Blue-Ice-Cave-From-Jokulsarlon-Glacier-Lagoon/d25390-50287P26",
+     "title": "Viator: Crystal Blue Ice Cave - Super Jeep From Jökulsárlón Glacier Lagoon",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.viator-50287P20",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "Viator 50287P20 Ice Cave by Katla from Vik (Troll Expeditions), 12 Dec 2026: EUR 239.00 (9:30, 14:00); 4.7 from 1,215 reviews; max 13; minimum age 8.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Vik/Ice-Cave-underneath-the-Volcano/d25269-50287P20",
+     "title": "Viator: Ice Cave by Katla Volcano Super Jeep Tour from Vik",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.viator-44046P51",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "Viator 44046P51 Katla ice cave meet in Vik (Southcoast Adventure), 12 Dec 2026: EUR 225.00 (10:00); 4.1 from 28 reviews; max 14.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Vik/Katla-Ice-Cave/d25269-44046P51",
+     "title": "Viator: 3 Hours Katla Ice Cave Tour/Meet in Vík",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.kkday-845016",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "KKday 845016 Jokulsarlon crystal blue ice cave, 12 Dec 2026: EUR 149.97 (09:30, 13:00); free cancellation up to 2 days; under 6 not suitable.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/845016",
+     "title": "KKday: From Jökulsárlón: Crystal Blue Ice Cave Super Jeep Tour｜Iceland",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
+   ]
+  },
+  {
+   "id": "is.icecave.kkday-845045",
+   "place": "Iceland",
+   "topic": "price",
+   "claim": "KKday 845045 Katla and South Coast day tour from Reykjavik, 12 Dec 2026: EUR 253.96 (08:00); free cancellation up to 2 days.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/845045",
+     "title": "KKday: From Reykjavik: Katla Ice Cave and South Coast Day Tour｜Iceland",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-iceland-ice-cave-tour.html"
    ]
   },
   {
