@@ -849,6 +849,332 @@
           "a 10% fee from 8 to 30 days ahead, 50% from 3 to 7 days ahead"
         ]
       }
+    },
+    {
+      "id": "fi.rovaniemi.svt.kkday-851464",
+      "topic": "price",
+      "claim": "KKday 851464, 24 Dec 2026 08:45, EUR 187.96 adult / EUR 108.98 child (4-13); free cancellation up to 2 days; instant confirmation; winter clothing, salmon soup lunch, 500 m reindeer and 500 m husky rides; transport from city centre.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/851464",
+          "kind": "secondary",
+          "title": "KKday: Rovaniemi: Reindeer, Huskies & Santa Claus Village",
+          "evidence": [
+            "Free cancellation up to 2 day(s) in advance",
+            "Instant confirmation",
+            "Transportation from the city center of Rovaniemi",
+            "500-meter reindeer sleigh ride",
+            "Winter clothing",
+            "Child (Ages 4-13)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-santa-village-tour.html": [
+          "€187.96 an adult and €108.98 a child",
+          "Free cancellation up to 2 days in advance, instant confirmation"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.svt.gyg-301148",
+      "topic": "price",
+      "claim": "GetYourGuide t301148, 24 Dec 2026 08:45, USD 206.33 adult / USD 119.63 child (4-13); free cancellation until 23 Dec; 4.6 from 2,424 reviews; 6 hours; hotel pickup and drop-off not included.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/rovaniemi-l2653/rovaniemi-reindeer-huskies-santa-claus-village-t301148/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Rovaniemi: Reindeer, Huskies & Santa Claus Village",
+          "evidence": [
+            "Cancel for free until Dec 23",
+            "1 Adult × $206.33",
+            "1 Child × $119.63",
+            "Hotel pickup and drop-off",
+            "Duration 6 hours"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-santa-village-tour.html": [
+          "$206.33 an adult and $119.63 a child",
+          "free cancellation until 23 December (24 hours ahead)"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.svt.gyg-788095",
+      "topic": "price",
+      "claim": "GetYourGuide t788095 (AMG Travel), 24 Dec 2026, USD 384.13 adult / USD 378.64 child (4-12); 4 hours; hotel pickup and drop-off; free cancellation until 23 Dec; lead-in price from USD 219.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/rovaniemi-l2653/santa-claus-village-husky-reindeer-sled-ride-t788095/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Rovaniemi: Santa Claus Village + Husky & Reindeer Sled Ride",
+          "evidence": [
+            "1 Adult × $384.13",
+            "1 Child × $378.64",
+            "Cancel for free until Dec 23",
+            "Hotel pickup and drop-off",
+            "Duration: 4 hours"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-santa-village-tour.html": [
+          "$384.13 an adult and $378.64 a child on 24 December",
+          "\"from $219\" in its heading and $384.13 for our date"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.svt.kkday-851295",
+      "topic": "price",
+      "claim": "KKday 851295, 24 Dec 2026 calendar price EUR 199.83; no session price loaded; free cancellation up to 2 days; lunch shown as not included.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/851295",
+          "kind": "secondary",
+          "title": "KKday: Rovaniemi: Santa Claus Village + Husky & Reindeer Sled Ride",
+          "evidence": [
+            "Free cancellation up to 2 day(s) in advance",
+            "Hotel pickup and drop-off",
+            "Lunch"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-santa-village-tour.html": [
+          "a calendar price of €199.83 for 24 December"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.svt.viator-235369",
+      "topic": "price",
+      "claim": "Viator 235369P11 combo safari, 24 Dec 2026 09:30, EUR 210 adult / EUR 185 child (3-12); max 16 travellers; meet at Scandic Rovaniemi City; winter overalls not included; free cancellation up to 24 hours; 3.7 from 50 reviews.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Santa-Claus-Village-Husky-and-reindeers-combo-safari/d22130-235369P11",
+          "kind": "secondary",
+          "title": "Viator: Santa Claus Village, Husky and Reindeers Combo Safari",
+          "evidence": [
+            "1 Adult x €210.00",
+            "1 Child x €185.00",
+            "This tour/activity will have a maximum of 16 travelers",
+            "Scandic Rovaniemi City",
+            "Winter overalls, not included",
+            "You can cancel up to 24 hours in advance of the experience for a full refund."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-santa-village-tour.html": [
+          "€210 an adult and €185 a child",
+          "a maximum of 16 travellers",
+          "Winter overalls are listed as not included"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.svt.viator-5570592",
+      "topic": "price",
+      "claim": "Viator 5570592P13: no availability for 24 Dec 2026, next date 27 Dec; from EUR 199; 5.0 from 27 reviews.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Meet-Santa-Claus-Experience-His-Magical-World/d22130-5570592P13",
+          "kind": "secondary",
+          "title": "Viator: Santa Claus Village with Reindeer & Husky Ride",
+          "evidence": [
+            "No availability for that date",
+            "The next available date is 27 Dec 2026"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-santa-village-tour.html": [
+          "no availability and offered 27 December as the next date"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.snowmobile.gyg-lapland-royal",
+      "topic": "price",
+      "claim": "GetYourGuide Rovaniemi: Arctic Snowmobiling Ride with Local Guide (Lapland Royal Adventures), 24 Dec 2026, 1 adult: EUR 89 at 17:00/17:30, EUR 99 at 08:30, EUR 119 Arctic Aurora Chase at 20:00; cancel free until 23 Dec.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/rovaniemi-l2653/rovaniemi-arctic-snowmobiling-ride-with-local-guide-t998344/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Rovaniemi: Arctic Snowmobiling Ride with Local Guide",
+          "evidence": [
+            "Cancel for free until Dec 23",
+            "Arctic Aurora Chase by Snowmobile",
+            "Reserve now & pay later"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-snowmobile-safari.html": [
+          "€89 at 17:00 or €99 at 08:30",
+          "free cancellation until 23 December",
+          "€119 at 20:00"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.snowmobile.gyg-lapland-royal-rules",
+      "topic": "entry",
+      "claim": "Lapland Royal Adventures listing on GetYourGuide: drivers 18+ with valid driver's licence in Finland; max personal liability EUR 1,000, reducible to EUR 300 for a EUR 20 supplement; solo riding EUR 50 extra.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/rovaniemi-l2653/rovaniemi-arctic-snowmobiling-ride-with-local-guide-t998344/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Rovaniemi: Arctic Snowmobiling Ride with Local Guide",
+          "evidence": [
+            "Drivers must be at least 18 years old and hold a valid driver’s license in Finland.",
+            "All drivers have a maximum personal liability of €1,000 for damage to the snowmobile.",
+            "Solo riding is available for an additional fee of €50 per person."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-snowmobile-safari.html": [
+          "a maximum personal liability of €1,000 for damage",
+          "can be cut to €300 by paying a €20 supplement at the office",
+          "Solo riding is an extra €50 per person"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.snowmobile.gyg-arctic-gm",
+      "topic": "price",
+      "claim": "GetYourGuide Rovaniemi: Drive 2025 Snowmobiles on Arctic Safari (Arctic GM), 24 Dec 2026, EUR 119 for 1 adult, starts 9:00-17:00; free cancellation until 23 Dec.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/rovaniemi-l2653/rovaniemi-drive-new-2025-snowmobiles-on-arctic-safari-bbq-t699161/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Rovaniemi: Drive 2025 Snowmobiles on Arctic Safari",
+          "evidence": [
+            "Cancel up to 24 hours in advance for a full refund",
+            "Cancel for free until Dec 23",
+            "Check availability to see starting times"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-snowmobile-safari.html": [
+          "€119 for one adult on 24 December",
+          "starts at 09:00, 11:00, 13:00, 15:00 and 17:00"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.snowmobile.gyg-arctic-gm-rules",
+      "topic": "entry",
+      "claim": "Arctic GM listing: driver 18+ with valid Class B licence; children under 6 cannot join, under 15 ride in a sled, 15+ and 140 cm can be passengers; driver liability up to EUR 950 per person per snowmobile; no hotel pickup.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/rovaniemi-l2653/rovaniemi-drive-new-2025-snowmobiles-on-arctic-safari-bbq-t699161/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Rovaniemi: Drive 2025 Snowmobiles on Arctic Safari",
+          "evidence": [
+            "Driver: Must be 18+ with a valid Class B car driving license.",
+            "Children under 6 cannot join.",
+            "The driver is responsible for damages up to €950 per person per snowmobile",
+            "Pickup service is not included"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-snowmobile-safari.html": [
+          "valid Class B car driving licence",
+          "damage up to €950 per person per snowmobile",
+          "hotel pickup is not included"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.snowmobile.viator-arctic-gm",
+      "topic": "price",
+      "claim": "Viator Rovaniemi: Drive New Snowmobiles on Private Trails - Small Group (Arctic GM), 24 Dec 2026, EUR 119 for 1 adult, free cancellation before 09:00 on 23 Dec; min age 6; sole use needs two tickets.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Rovaniemi-Guided-Wilderness-Snowmobile-Safari-and-Barbeque/d22130-424075P38",
+          "kind": "secondary",
+          "title": "Viator: Rovaniemi: Drive New Snowmobiles on Private Trails - Small Group",
+          "evidence": [
+            "You can cancel up to 24 hours in advance of the experience for a full refund.",
+            "The minimum participation age is 6.",
+            "Sole use of a snowmobile requires purchasing two tickets."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-snowmobile-safari.html": [
+          "free cancellation before 09:00 on 23 December",
+          "The minimum age is 6",
+          "Sole use of a snowmobile needs two tickets"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.snowmobile.viator-lapland-welcome",
+      "topic": "price",
+      "claim": "Viator Hunting Northern Lights by Snowmobile (Lapland Welcome), from EUR 179; Twin Driving and Solo Driving sold out on 24 Dec 2026; adults 15-99, children 4-14 in booking form.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.viator.com/en-GB/tours/Rovaniemi/Northern-Lights-Snowmobile-Driving-Safari/d22130-57914P24",
+          "kind": "secondary",
+          "title": "Viator: Hunting Northern Lights by Snowmobile - Rovaniemi",
+          "evidence": [
+            "The Northern Lights are a natural phenomenon, and sightings cannot be guaranteed.",
+            "You can cancel up to 24 hours in advance of the experience for a full refund.",
+            "Lapland Welcome Rovaniemi Safari Office (Rovakatu 26, 2nd floor, 96200 Rovaniemi)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-snowmobile-safari.html": [
+          "both showed as sold out",
+          "adults aged 15 to 99"
+        ]
+      }
+    },
+    {
+      "id": "fi.rovaniemi.snowmobile.kkday-easy",
+      "topic": "entry",
+      "claim": "KKday Rovaniemi: Easy Snowmobile Safari: no departure selectable on Thursday 24 Dec 2026; driver 18+ with B-category licence valid in Finland; not suitable for children 3 or under; free cancellation up to 2 days ahead.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/851173",
+          "kind": "secondary",
+          "title": "KKday: Rovaniemi: Easy Snowmobile Safari",
+          "evidence": [
+            "Free cancellation up to 2 day(s) in advance",
+            "The driver of the snowmobile must be at least 18 years old and present a driver's license (B category) that is valid in Finland.",
+            "This tour is not suitable for children 3 years old or younger"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-rovaniemi-snowmobile-safari.html": [
+          "carry a B-category licence that is valid in Finland",
+          "aged 3 or under",
+          "€98.91"
+        ]
+      }
     }
   ]
 }

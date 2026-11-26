@@ -452,6 +452,10 @@
           "puts the season at September to April",
           "the lights are most active around the equinoxes",
           "there are no guarantees"
+        ],
+        "articles/where-to-book-reykjavik-northern-lights-tour.html": [
+          "there are no guarantees you will see the Northern Lights during your stay",
+          "the main season runs from September through April"
         ]
       }
     },
@@ -1844,6 +1848,167 @@
         "articles/where-to-book-golden-circle-tour.html": [
           "\"Max group size 19\"",
           "entrance to the Secret Lagoon, pickup and drop-off from Reykjavik, Wi-Fi"
+        ]
+      }
+    },
+    {
+      "id": "is.aurora.gyg-67019",
+      "topic": "price",
+      "claim": "GetYourGuide 67019 bus tour, 26 Dec 2026: USD 83.41 (bus stop) / 96.58 (pickup); 4.2 from 15,654 reviews; free cancellation 24 h; free retry bus tour; not under 6.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/reykjavik-l30/iceland-northern-lights-bus-tour-from-reykjavik-w-hot-cocoa-t67019/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From Reykjavik: Northern Lights Bus Tour with Hot Cocoa",
+          "evidence": [
+            "Cancel up to 24 hours in advance for a full refund",
+            "Children under 6 years",
+            "they offer you the chance to reschedule for one free retry northern lights bus tour",
+            "1 Adult × $83.41",
+            "15,654 reviews"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-reykjavik-northern-lights-tour.html": [
+          "$83.41",
+          "4.2 from 15,654 reviews",
+          "Not suitable for children under 6",
+          "one free retry northern lights bus tour"
+        ]
+      }
+    },
+    {
+      "id": "is.aurora.gyg-93690",
+      "topic": "price",
+      "claim": "GetYourGuide 93690 premium minibus, 26 Dec 2026: USD 116.34; 4.4 from 3,305 reviews; pickup included; no under 8; free retry on the bus tour, valid 3 years.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/reykjavik-l30/from-reykjavik-premium-northern-lights-tour-by-minibus-t93690/",
+          "kind": "secondary",
+          "title": "GetYourGuide: Small-Group Premium Northern Lights Tour from Reykjavik",
+          "evidence": [
+            "1 Adult × $116.34",
+            "no children under the age of 8 years old will be allowed on this tour",
+            "you are entitled to a free retry tour on our northern lights bus tour. Offer valid for 3 years",
+            "3,305 reviews"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-reykjavik-northern-lights-tour.html": [
+          "$116.34",
+          "4.4 from 3,305 reviews",
+          "No children under 8",
+          "you are entitled to a free retry tour on our northern lights bus tour"
+        ]
+      }
+    },
+    {
+      "id": "is.aurora.viator-107666",
+      "topic": "price",
+      "claim": "Viator 107666P1 Midnight Adventure, 26 Dec 2026: EUR 123.71 (1 adult); 21:00; max 18; free retry; operated tours not refundable; free cancellation 24 h.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Reykjavik/Midnight-Adventure/d905-107666P1",
+          "kind": "secondary",
+          "title": "Viator: Northern Lights Midnight Adventure Small-Group from Reykjavík",
+          "evidence": [
+            "This tour/activity will have a maximum of 18 travelers",
+            "Free retry if Northern Lights are not seen on the tour",
+            "Operated tours are not refundable",
+            "You can cancel up to 24 hours in advance of the experience for a full refund."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-reykjavik-northern-lights-tour.html": [
+          "€123.71 with one adult",
+          "a maximum of 18 travellers",
+          "Free retry if Northern Lights are not seen on the tour",
+          "Operated tours are not refundable"
+        ]
+      }
+    },
+    {
+      "id": "is.aurora.viator-423175",
+      "topic": "price",
+      "claim": "Viator 423175P21 Local Hunters small group, 26 Dec 2026: EUR 213.62 for two adults (106.81 each); max 16; free re-trial; free cancellation 24 h.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Reykjavik/Reykjavik-Small-Group-Northern-Lights-Tour-with-Surprise-Gift/d905-423175P21",
+          "kind": "secondary",
+          "title": "Viator: Reykjavik: Northern Lights Small Group with Local Hunters",
+          "evidence": [
+            "This tour/activity will have a maximum of 16 travelers",
+            "If you don't see the lights, take another tour for free",
+            "Free re-trial if no Northern Lights are seen",
+            "You can cancel up to 24 hours in advance of the experience for a full refund."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-reykjavik-northern-lights-tour.html": [
+          "€213.62 for two adults",
+          "maximum of 16 travellers",
+          "Free re-trial if no Northern Lights are seen"
+        ]
+      }
+    },
+    {
+      "id": "is.aurora.viator-7090",
+      "topic": "price",
+      "claim": "Viator 7090P10 Northern Lights Cruise, 26 Dec 2026: EUR 97.52 (1 adult), 21:00, ~2 h, max 150; rebook for free; infants 0-5 free; Elding office Ægisgarður 5c.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Reykjavik/Northern-Lights-Cruise-from-Downtown-Reykjavk/d905-7090P10",
+          "kind": "secondary",
+          "title": "Viator: Northern Lights Cruise from Downtown Reykjavik",
+          "evidence": [
+            "Rebook for free if you don’t see the northern lights on your cruise",
+            "Sighting guarantee - or try again for FREE!",
+            "This tour/activity will have a maximum of 150 travelers",
+            "Warm floatable overalls"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-reykjavik-northern-lights-tour.html": [
+          "€97.52 for one adult",
+          "up to 150 travellers",
+          "Rebook for free if you don't see the northern lights on your cruise"
+        ]
+      }
+    },
+    {
+      "id": "is.aurora.kkday-13343",
+      "topic": "price",
+      "claim": "KKday 13343 coach tour, 26 Dec 2026: EUR 72.98 adult, 36.49 child (6-15); 2.3 from 8 reviews; min 4 travellers; min age 6; free cancellation 1 day; rebook allowed, non-refundable once joined.",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/13343",
+          "kind": "secondary",
+          "title": "KKday: Northern Lights Tour from Reykjavik | Iceland",
+          "evidence": [
+            "Free cancellation up to 1 day(s) in advance",
+            "A minimum of 4 traveler(s) are required for the tour to depart",
+            "Minimum participant age: 6 years old",
+            "you may participate again on another date",
+            "Once you have joined a departure, the tour is non-refundable regardless of whether the Northern Lights are visible"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-reykjavik-northern-lights-tour.html": [
+          "€72.98 per adult and €36.49 per child",
+          "The minimum age is 6",
+          "If you do not see any lights on the tour, you may participate again on another date."
         ]
       }
     }

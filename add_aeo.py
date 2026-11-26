@@ -549,6 +549,36 @@ V = {
              "drive and 4,420 reviews at 4.9, take the Self-Drive Adventure on another date: €325.86 on 23 December.",
         cta=("href", "Check Easy Dog Sledding on GetYourGuide", "https://getyourguide.tpx.lu/KsZNBadL"),
         cta2=("Check the Self-Drive Adventure on GetYourGuide", "https://getyourguide.tpx.lu/VTZPPjIL")),
+    "where-to-book-tromso-reindeer-tour": dict(
+        text="For 24 December, book GetYourGuide’s Reindeer Sledding, Feeding & Sami Culture Experience: €139.50 for the "
+             "feeding option (no sled ride is sold that day), 09:00, hot drinks, free to cancel until 23 December. Want a "
+             "meal in the tent? KKday’s Sami reindeer camp is €165.00 with a traditional meal, 10:00 or 13:00.",
+        cta=("href", "Check the reindeer experience on GetYourGuide", "https://getyourguide.tpx.lu/GvIJPWYt"),
+        cta2=("Check the reindeer camp with a meal on KKday", "https://kkday.tpx.lu/cUvEAV7C")),
+    "where-to-book-rovaniemi-santa-village-tour": dict(
+        text="For a family on 24 December, book KKday’s Reindeer, Huskies & Santa Claus Village day: €187.96 an adult and "
+             "€108.98 a child (4 to 13), winter clothing, a salmon soup lunch and 500 m reindeer and husky rides, free "
+             "cancellation up to 2 days ahead. The same day on GetYourGuide has 2,424 reviews at 4.6: $206.33 an adult.",
+        cta=("href", "Check the Santa Claus Village day on KKday", "https://kkday.tpx.lu/SGr6vQH4"),
+        cta2=("Check the same day on GetYourGuide", "https://getyourguide.tpx.lu/GtUInzKN")),
+    "where-to-book-rovaniemi-snowmobile-safari": dict(
+        text="For 24 December, book GetYourGuide’s Arctic Snowmobiling Ride with Local Guide: €89 at 17:00 or €99 at "
+             "08:30 a person on a shared snowmobile, thermal clothing included, free to cancel until 23 December. For "
+             "the most reviewed ride (4.7 from 2,290) with at most 5 snowmobiles per guide, the Arctic GM safari is €119.",
+        cta=("href", "Check the snowmobile ride on GetYourGuide", "https://getyourguide.tpx.lu/6WlUsfaN"),
+        cta2=("Check the Arctic GM safari on GetYourGuide", "https://getyourguide.tpx.lu/IqRf50Tq")),
+    "where-to-book-tromso-fjord-whale-tour": dict(
+        text="For 24 December, book MS Gabriele on KKday: €158.64 for the 09:00 sailing GetYourGuide lists at €204.61, "
+             "6 to 8 hours on a heated catamaran, a free later ticket if no whales are seen, free cancellation up to 2 "
+             "days ahead. For the most reviews (3,858 at 4.6), Rødne’s catamaran on GetYourGuide is €220.42 at 08:30.",
+        cta=("href", "Check MS Gabriele on KKday", "https://kkday.tpx.lu/D3SXabd3"),
+        cta2=("Check Rødne’s whale tour on GetYourGuide", "https://getyourguide.tpx.lu/I96Ac29s")),
+    "where-to-book-reykjavik-northern-lights-tour": dict(
+        text="Several tours do not run on 24 December, so we priced 26 December. Book GetYourGuide’s Northern Lights Bus "
+             "Tour with Hot Cocoa: $83.41 from the bus stop, 4.2 from 15,654 reviews, a free retry if no lights are seen, "
+             "free to cancel up to 24 hours ahead. Want hotel pickup in a minibus? GetYourGuide’s premium tour is $116.34.",
+        cta=("href", "Check the northern lights bus tour on GetYourGuide", "https://getyourguide.tpx.lu/F5WtXiUR"),
+        cta2=("Check the premium minibus tour on GetYourGuide", "https://getyourguide.tpx.lu/ZLQPbhAN")),
     "where-to-book-snow-monkey-tour": dict(
         text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
              "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
@@ -3822,6 +3852,20 @@ _HB = "where-to-stay-in-hakuba.html"
 _PA = "where-to-stay-in-paris.html"
 _NYC = "where-to-stay-in-new-york.html"
 STAY_POINTERS = {
+    "where-to-book-tromso-reindeer-tour": ("intro",
+        'Free in the evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side. Going out with the dogs? <a href="where-to-book-tromso-husky-safari.html">Tromsø husky safaris compared</a> prices self-drive and musher-driven rides for Christmas Eve. Going out to sea? <a href="where-to-book-tromso-fjord-whale-tour.html">Tromsø whale tours compared</a> sets the catamarans and the Skjervøy RIB side by side for 24 December. Need a bed? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in Tromsø</a> compares the harbour, the centre and two out-of-town lodges.'),
+    "where-to-book-tromso-fjord-whale-tour": ("intro",
+        'Free in the evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side. Going out with the dogs? <a href="where-to-book-tromso-husky-safari.html">Tromsø husky safaris compared</a> prices self-drive and musher-driven rides for Christmas Eve. Meeting the herd? <a href="where-to-book-tromso-reindeer-tour.html">Tromsø reindeer tours compared</a> prices feeding, sledding and a meal in a Sami tent for Christmas Eve. Need a bed? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in Tromsø</a> compares the harbour, the centre and two out-of-town lodges.'),
+    "where-to-book-rovaniemi-santa-village-tour": ("intro",
+        'Going out with the dogs? <a href="where-to-book-rovaniemi-husky-safari.html">Rovaniemi husky safaris compared</a> prices rides from 1 km to a 10 km self-drive. Driving a snowmobile? <a href="where-to-book-rovaniemi-snowmobile-safari.html">Rovaniemi snowmobile safaris compared</a> sets the licence rules, damage caps and Christmas Eve prices side by side. Free in the evening? <a href="where-to-book-rovaniemi-northern-lights-tour.html">Rovaniemi northern lights tours compared</a> sets the cloudy-night refunds side by side. Need a bed? <a href="where-to-stay-in-rovaniemi-christmas.html">Where to stay in Rovaniemi at Christmas</a> compares the centre, the village and the glass igloos.'),
+    "where-to-book-rovaniemi-snowmobile-safari": ("intro",
+        'Going out with the dogs? <a href="where-to-book-rovaniemi-husky-safari.html">Rovaniemi husky safaris compared</a> prices rides from 1 km to a 10 km self-drive. Taking children to meet Santa? <a href="where-to-book-rovaniemi-santa-village-tour.html">Santa Claus Village tours compared</a> prices family days with reindeer and husky rides for Christmas Eve. Free in the evening? <a href="where-to-book-rovaniemi-northern-lights-tour.html">Rovaniemi northern lights tours compared</a> sets the cloudy-night refunds side by side. Need a bed? <a href="where-to-stay-in-rovaniemi-christmas.html">Where to stay in Rovaniemi at Christmas</a> compares the centre, the village and the glass igloos.'),
+    "where-to-book-rovaniemi-husky-safari": ("intro",
+        'Taking children to meet Santa? <a href="where-to-book-rovaniemi-santa-village-tour.html">Santa Claus Village tours compared</a> prices family days with reindeer and husky rides for Christmas Eve. Driving a snowmobile? <a href="where-to-book-rovaniemi-snowmobile-safari.html">Rovaniemi snowmobile safaris compared</a> sets the licence rules, damage caps and Christmas Eve prices side by side.'),
+    "where-to-book-rovaniemi-northern-lights-tour": ("intro",
+        'Going out with the dogs? <a href="where-to-book-rovaniemi-husky-safari.html">Rovaniemi husky safaris compared</a> prices rides from 1 km to a 10 km self-drive. Taking children to meet Santa? <a href="where-to-book-rovaniemi-santa-village-tour.html">Santa Claus Village tours compared</a> prices family days with reindeer and husky rides for Christmas Eve. Driving a snowmobile? <a href="where-to-book-rovaniemi-snowmobile-safari.html">Rovaniemi snowmobile safaris compared</a> sets the licence rules, damage caps and Christmas Eve prices side by side.'),
+    "where-to-book-reykjavik-northern-lights-tour": ("intro",
+        'Doing the Golden Circle by day? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> sets the bus, hotel-pickup and Secret Lagoon versions side by side. Need a bed? <a href="where-to-stay-in-reykjavik-northern-lights.html">Where to stay in Reykjavik for the northern lights</a> compares city bases with countryside hotels.'),
     # event guides for spring 2027, from their city guides (2026-11-02)
     "where-to-stay-in-dublin": ("intro",
         'Coming for St Patrick’s Day? <a href="where-to-stay-in-dublin-st-patricks-day.html">Where to stay in Dublin '
@@ -4229,14 +4273,14 @@ STAY_POINTERS = {
         ' Seeing the Rockettes? <a href="where-to-buy-radio-city-christmas-spectacular-tickets.html">Radio City Christmas Spectacular tickets compared</a> prices the shows and seats for one December day.'),
     "where-to-stay-in-tromso-northern-lights": ("intro",
         'Booking an aurora evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side for one December date, with the cancellation terms.'
-        ' Going out with the dogs? <a href="where-to-book-tromso-husky-safari.html">Tromsø husky safaris compared</a> prices self-drive and musher-driven rides for Christmas Eve, with the minimum ages.'),
+        ' Going out with the dogs? <a href="where-to-book-tromso-husky-safari.html">Tromsø husky safaris compared</a> prices self-drive and musher-driven rides for Christmas Eve, with the minimum ages. Meeting the herd? <a href="where-to-book-tromso-reindeer-tour.html">Tromsø reindeer tours compared</a> prices feeding, sledding and a meal in a Sami tent for Christmas Eve. Going out to sea? <a href="where-to-book-tromso-fjord-whale-tour.html">Tromsø whale tours compared</a> sets the catamarans and the Skjervøy RIB side by side for 24 December.'),
     "where-to-book-tromso-northern-lights-tour": ("intro",
-        'Going out with the dogs by day? <a href="where-to-book-tromso-husky-safari.html">Tromsø husky safaris compared</a> prices self-drive and musher-driven rides for Christmas Eve, with the minimum ages.'),
+        'Going out with the dogs by day? <a href="where-to-book-tromso-husky-safari.html">Tromsø husky safaris compared</a> prices self-drive and musher-driven rides for Christmas Eve, with the minimum ages. Meeting the herd? <a href="where-to-book-tromso-reindeer-tour.html">Tromsø reindeer tours compared</a> prices feeding, sledding and a meal in a Sami tent for Christmas Eve. Going out to sea? <a href="where-to-book-tromso-fjord-whale-tour.html">Tromsø whale tours compared</a> sets the catamarans and the Skjervøy RIB side by side for 24 December.'),
     "where-to-book-tromso-husky-safari": ("intro",
-        'Free in the evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side. Need a bed? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in Tromsø</a> compares the harbour, the centre and two out-of-town lodges.'),
+        'Free in the evening? <a href="where-to-book-tromso-northern-lights-tour.html">Tromsø northern lights tours compared</a> sets KKday, Viator and GetYourGuide side by side. Need a bed? <a href="where-to-stay-in-tromso-northern-lights.html">Where to stay in Tromsø</a> compares the harbour, the centre and two out-of-town lodges. Meeting the herd? <a href="where-to-book-tromso-reindeer-tour.html">Tromsø reindeer tours compared</a> prices feeding, sledding and a meal in a Sami tent for Christmas Eve. Going out to sea? <a href="where-to-book-tromso-fjord-whale-tour.html">Tromsø whale tours compared</a> sets the catamarans and the Skjervøy RIB side by side for 24 December.'),
     "where-to-stay-in-reykjavik-northern-lights": ("intro",
         'Doing the Golden Circle? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> '
-        'sets the bus, hotel-pickup and Secret Lagoon versions side by side for one December Saturday.'),
+        'sets the bus, hotel-pickup and Secret Lagoon versions side by side for one December Saturday. Booking the night out? <a href="where-to-book-reykjavik-northern-lights-tour.html">Reykjavik northern lights tours compared</a> sets the bus, minibus and boat tours side by side with each one’s retry terms.'),
     "where-to-stay-in-hakuba": ("intro",
         'Seeing the snow monkeys? <a href="where-to-book-snow-monkey-tour.html">Snow monkey day tours compared</a> sets the Tokyo and Nagano departures side by side for one December date.'),
     "where-to-stay-in-london": ("intro",
@@ -4370,7 +4414,7 @@ STAY_POINTERS = {
         'Where to stay in Tromsø for the northern lights</a> compares the harbour, the centre and two out-of-town '
         'lodges, with the polar night dates. Going out with the dogs? <a href="where-to-book-rovaniemi-husky-safari.html">'
         'Rovaniemi husky safaris compared</a> prices GetYourGuide, Viator and KKday for one December date, '
-        'from a 1 km ride to a 10 km self-drive.'),
+        'from a 1 km ride to a 10 km self-drive. Taking children to meet Santa? <a href="where-to-book-rovaniemi-santa-village-tour.html">Santa Claus Village tours compared</a> prices family days with reindeer and husky rides for Christmas Eve. Driving a snowmobile? <a href="where-to-book-rovaniemi-snowmobile-safari.html">Rovaniemi snowmobile safaris compared</a> sets the licence rules, damage caps and Christmas Eve prices side by side.'),
     "where-to-stay-in-reykjavik": [
         ("intro",
          'Coming for the aurora? <a href="where-to-stay-in-reykjavik-northern-lights.html">Where to stay in Reykjavik '
@@ -4380,7 +4424,8 @@ STAY_POINTERS = {
          '<a href="car-rental-iceland.html">Renting a car in Iceland</a> sets DiscoverCars beside Blue Car Rental '
          'for the same dates and explains the excess, gravel cover and the winter F-road closures. Doing the Golden '
          'Circle? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> sets the bus, '
-         'hotel-pickup and Secret Lagoon versions side by side for one December Saturday.'),
+         'hotel-pickup and Secret Lagoon versions side by side for one December Saturday. Booking an aurora night? '
+         '<a href="where-to-book-reykjavik-northern-lights-tour.html">Reykjavik northern lights tours compared</a> sets the bus, minibus and boat tours side by side with their retry terms.'),
         ("The short answer",
          'Weighing Norway for the aurora? <a href="where-to-stay-in-tromso-northern-lights.html">Tromsø for the '
          'northern lights (2026/27)</a> covers the polar night, the airport bus and the 3% visitor fee planned '

@@ -271,6 +271,11 @@ BY_SLUG = {
     "smart-luggage-tracking-airtags-vs-tile-vs-smart-bag-rules": "Gear",
     "how-to-order-food-abroad-with-dietary-restrictions-allergies": "Food",
     # 2026-10-31 ticket comparisons
+    "where-to-book-reykjavik-northern-lights-tour": "Booking & tours",
+    "where-to-book-rovaniemi-snowmobile-safari": "Booking & tours",
+    "where-to-book-rovaniemi-santa-village-tour": "Booking & tours",
+    "where-to-book-tromso-fjord-whale-tour": "Booking & tours",
+    "where-to-book-tromso-reindeer-tour": "Booking & tours",
     "where-to-book-tromso-husky-safari": "Booking & tours",
     "where-to-buy-windsor-castle-tickets": "Booking & tours",
     "where-to-buy-radio-city-christmas-spectacular-tickets": "Booking & tours",
