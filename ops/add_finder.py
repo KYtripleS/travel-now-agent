@@ -35,6 +35,7 @@ TOURS = ("Booking a ticket or tour in one city? We priced each one on every part
                            ("where-to-buy-ocean-park-hong-kong-tickets", "Ocean Park, Hong Kong"),
                            ("where-to-buy-shanghai-disneyland-tickets", "Shanghai Disneyland"),
                            ("where-to-buy-lotte-world-tickets", "Lotte World, Seoul"),
+                           ("where-to-buy-everland-tickets", "Everland, Seoul area"),
                            ("where-to-book-seoul-dmz-tour", "Seoul DMZ tours"),
                            ("where-to-book-nami-island-tour", "Nami Island tours"),
                            ("where-to-book-jeju-bus-tour", "Jeju bus tours"),

@@ -611,6 +611,12 @@ V = {
              "To add Bath, the Stonehenge and Bath Day Trip with Entry Ticket is £85, Roman Baths ticket included.",
         cta=("href", "Check the Stonehenge morning trip on GetYourGuide", "https://getyourguide.tpx.lu/qM7O97CV"),
         cta2=("Check Stonehenge and Bath on GetYourGuide", "https://getyourguide.tpx.lu/23WDZNAz")),
+    "where-to-buy-everland-tickets": dict(
+        text="Buy from KKday: ₩39,520 for an adult on 12 December, against Everland’s December price of ₩55,000, "
+             "with a direct-entry QR code and free cancellation up to the day before on the 1-Day Pass package. "
+             "Going as two? KKday’s 1+1 set admits both for ₩40,000 but cannot be cancelled. Both are for "
+             "foreign passport holders only.",
+        cta=("href", "Check Everland tickets on KKday", "https://kkday.tpx.lu/ih489hAk")),
     "where-to-book-snow-monkey-tour": dict(
         text="Book GetYourGuide’s day tour from Tokyo: $108 for 12 December with a sukiyaki lunch, run by H.I.S., "
              "and free to cancel up to 24 hours before. The monkeys are wild, so the park cannot promise them on any "
@@ -4029,7 +4035,11 @@ STAY_POINTERS = {
         'Seoul hotels for cherry blossom season</a> matches the areas to Yeouido and Seokchon Lake. Spending a day at '
         'Lotte World? <a href="where-to-buy-lotte-world-tickets.html">Lotte World tickets compared</a> sets KKday and '
         'GetYourGuide beside the park’s own price for the same day. Going to Nami Island? '
-        '<a href="where-to-book-nami-island-tour.html">Nami Island tours compared</a> sets the day trips from Seoul side by side for one December Saturday.'),
+        '<a href="where-to-book-nami-island-tour.html">Nami Island tours compared</a> sets the day trips from Seoul side by side for one December Saturday. Going to Everland? '
+        '<a href="where-to-buy-everland-tickets.html">Everland tickets compared</a> sets KKday and GetYourGuide beside the park’s December price, with the 1+1 pass.'),
+    "where-to-buy-lotte-world-tickets": ("intro",
+        'Also going to Everland? <a href="where-to-buy-everland-tickets.html">Everland tickets compared</a> does the same for '
+        'the park in Yongin, with the December 1+1 pass.'),
     "where-to-stay-in-japan": [
         ("When to book",
         f'Booking Fukuoka for a stay by 15 December? <a href="{_FK}#the-kyushu-recovery-discount-to-15-december-2026">'

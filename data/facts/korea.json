@@ -1548,6 +1548,162 @@
           "Nami Island says it is open throughout the year"
         ]
       }
+    },
+    {
+      "id": "kr.yongin.everland.december-price",
+      "topic": "price",
+      "claim": "Everland's published all-day pass price in December 2026 is 55,000 won for adults and teenagers and 45,000 won for children and seniors.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.everland.com/everland/promotion/usage-fee",
+          "kind": "official",
+          "title": "Everland ticket price",
+          "evidence": [
+            "December55,000won45,000won",
+            "Infants under 36 months are admitted free."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-everland-tickets.html": [
+          "In December an adult or teenager pays ₩55,000 and a child or senior pays ₩45,000"
+        ]
+      }
+    },
+    {
+      "id": "kr.yongin.everland.ages",
+      "topic": "entry",
+      "claim": "Everland defines a child as 36 months to 12 years, a youth as 13 to 18 and a senior as 65 and over; infants under 36 months are free.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.everland.com/everland/promotion/usage-fee",
+          "kind": "official",
+          "title": "Everland ticket price",
+          "evidence": [
+            "Child: 36 months to 12 years / Youth: 13 to 18 years / Senior: 65 years~"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-everland-tickets.html": [
+          "a child as 36 months to 12 years, a youth as 13 to 18 and a senior as 65 and over"
+        ]
+      }
+    },
+    {
+      "id": "kr.yongin.everland.promo-no-combine",
+      "topic": "price",
+      "claim": "Everland's listed prices cannot be combined with other promotions or discounts, and seasons can change without notice.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.everland.com/everland/promotion/usage-fee",
+          "kind": "official",
+          "title": "Everland ticket price",
+          "evidence": [
+            "These prices cannot be combined with other promotions or discounts.",
+            "Seasons are subject to change without prior notice"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-everland-tickets.html": [
+          "these prices cannot be combined with other promotions or discounts"
+        ]
+      }
+    },
+    {
+      "id": "kr.yongin.everland.1plus1",
+      "topic": "price",
+      "claim": "Everland's homepage advertises an all-day pass 1+1 special from 10 November to 31 December 2026.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.everland.com/everland/home/main",
+          "kind": "official",
+          "title": "Everland homepage",
+          "evidence": [
+            "1+1 Special",
+            "2026.11.10~2026.12.31"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-everland-tickets.html": [
+          "dated 10 November to 31 December 2026"
+        ]
+      },
+      "note": "banner is an image; text evidence may not be re-fetchable"
+    },
+    {
+      "id": "kr.yongin.everland.kkday-1day",
+      "topic": "price",
+      "claim": "KKday showed 39,520 won for the Everland 1-Day Pass on 12 December 2026, with free cancellation up to one day before.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/2914-everland-theme-park-admission-ticket-korea",
+          "kind": "operator",
+          "title": "KKday Everland E-Ticket",
+          "evidence": [
+            "Free cancellation up to 1 day(s) in advance",
+            "This ticket is for foreigners only"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-everland-tickets.html": [
+          "₩39,520",
+          "free cancellation up to 1 day in advance"
+        ]
+      }
+    },
+    {
+      "id": "kr.yongin.everland.kkday-1plus1",
+      "topic": "price",
+      "claim": "KKday sold a Buy 1 Get 1 Free 1-Day Pass set at 40,000 won for 12 December 2026, usable by 2 people and not cancellable.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/2914-everland-theme-park-admission-ticket-korea",
+          "kind": "operator",
+          "title": "KKday Everland E-Ticket",
+          "evidence": [
+            "This package is for 1 set, which can be used by 2 people."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-everland-tickets.html": [
+          "for 1 set, which can be used by 2 people",
+          "it cannot be canceled, modified, or refunded"
+        ]
+      }
+    },
+    {
+      "id": "kr.yongin.everland.gyg",
+      "topic": "price",
+      "claim": "GetYourGuide showed 47,850 won for the Everland 1-Day Pass and 47,500 won for a 1+1 option on 12 December 2026; the activity is non-refundable.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/yongin-si-l105118/seoul-everland-theme-park-entry-ticket-t1095866/",
+          "kind": "operator",
+          "title": "GetYourGuide Everland Theme Park Entry Ticket",
+          "evidence": [
+            "This activity is non-refundable",
+            "Buy 2 person ticket at 1 person price."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-everland-tickets.html": [
+          "This activity is non-refundable.",
+          "Buy 2 person ticket at 1 person price"
+        ]
+      }
     }
   ]
 }
