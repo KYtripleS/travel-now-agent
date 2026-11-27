@@ -2614,6 +2614,254 @@
           "the museum sells it at €3.75"
         ]
       }
+    },
+    {
+      "id": "nl.amsterdam.alf.dates",
+      "topic": "place",
+      "claim": "Amsterdam Light Festival Edition 15 runs 26 November 2026 to 17 January 2027; lights on daily 4:30 pm to 11:00 pm and off at 9:00 pm on 31 December; Light Nights on 26 November, 12 December and 19 December.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://amsterdamlightfestival.com/en/dates-hours",
+          "kind": "official",
+          "title": "Dates & Hours - Amsterdam Light Festival",
+          "evidence": [
+            "Edition 15 takes place from Thursday 26 November 2026 until Sunday 17 January 2027.",
+            "On 26 November, 12 December and 19 December the Light Nights will take place.",
+            "The lights are on everday from 4:30 pm until 11:00 pm. On 31 December the lights go off at 9:00 PM."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-amsterdam-canal-cruise.html": [
+          "Edition 15 runs 26 November 2026 to 17 January 2027",
+          "Lights are on daily from 4:30 pm to 11:00 pm, and off at 9:00 pm on 31 December"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.alf.partners",
+      "topic": "place",
+      "claim": "The festival's official cruise partner list includes Blue Boat Company and Stromma among about 45 boat companies; official partners carry an Official Partner logo, festival flags on jetties and stickers on most boats.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://amsterdamlightfestival.com/en/official-partners-edition-15",
+          "kind": "official",
+          "title": "Official Partners - Amsterdam Light Festival",
+          "evidence": [
+            "Below you can find an overview of all official cruise partners of Amsterdam Light Festival.",
+            "BLUE BOAT COMPANY",
+            "STROMMA"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-amsterdam-canal-cruise.html": [
+          "includes Blue Boat Company and Stromma, among about 45 boat companies"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.alf.cruiserules",
+      "topic": "entry",
+      "claim": "Festival cruise FAQ: departures every 30 minutes 4:30-9:30 pm, about 60-75 minutes, be present 15 minutes before, ticket is for a specific date and time with changes up to 24 hours before, route of 19 artworks, no hopping off, no own food or drink, most canal boats have toilets, Blue Boat has some wheelchair-accessible boats.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://amsterdamlightfestival.com/en/faq-cruise",
+          "kind": "official",
+          "title": "FAQ: Cruise - Amsterdam Light Festival",
+          "evidence": [
+            "Cruises depart every 30 minutes, between 4.30 and 9.30 p.m.",
+            "Cruises take about 60-75 minutes",
+            "You're expected to be present at the departure location 15 minutes in advance.",
+            "You can make changes up to 24 hours before departure.",
+            "The route consists of 19 artworks",
+            "No, this is not possible. The route is set",
+            "This is unfortunately not allowed on board any boat.",
+            "Most canal boats have toilets on board",
+            "Blue Boat Company has some wheelchair accessible boats"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-amsterdam-canal-cruise.html": [
+          "Cruises depart every 30 minutes between 4:30 and 9:30 pm",
+          "changes are allowed up to 24 hours before departure",
+          "The festival says 19 artworks",
+          "Own food and drink are not allowed",
+          "Be at the departure point 15 minutes ahead"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.viator.alf",
+      "topic": "price",
+      "claim": "Viator Official Amsterdam Light Festival Cruise with Live Guide, 12 Dec 2026, one adult, 5:00 PM: EUR 23.80 (was EUR 29.75, ends 25 December), only 1 spot left, free cancellation before 5:00 PM on 11 Dec, about 1 h 30 min, 3.5 stars from 37 reviews.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Amsterdam/Amsterdam-Light-Festival-Cruise/d525-7441P12",
+          "kind": "operator",
+          "title": "Viator - Official Amsterdam Light Festival Cruise with Live Guide",
+          "evidence": [
+            "-20% €23.80 Was €29.75",
+            "Ends December 25",
+            "5:00 PM Only 1 spot left",
+            "Free cancellation before 5:00 PM on Dec 11 (local time)",
+            "1 hour 30 minutes (approx.)",
+            "Relax in a spacious restroom-equipped boat",
+            "Listen to narration along the way from your audio guide, with headphones provided."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-amsterdam-canal-cruise.html": [
+          "the 5:00 pm sailing was €23.80, shown as 20% off €29.75",
+          "\"a spacious restroom-equipped boat\"",
+          "Free cancellation before 5:00 pm on 11 December; reserve now and pay nothing until 10 December"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.tiqets.alf",
+      "topic": "entry",
+      "claim": "Tiqets Light Festival Canal Cruise from Leidseplein: from USD 27.43 (calendar USD 27 for 12 Dec), 1 h 30, live guide English and Dutch, heated boat with toilet, provider Blue Boat Company, free cancellation and rescheduling until 24 hours before, route of 20 artworks.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/amsterdam-attractions-c75061/tickets-for-amsterdam-light-festival-covered-boat-cruise-p1087693/",
+          "kind": "operator",
+          "title": "Tiqets - Amsterdam Light Festival: Canal Cruise from Leidseplein",
+          "evidence": [
+            "From $27.43",
+            "Duration 1h 30mins",
+            "Live guide English, Dutch",
+            "The boat is equipped with a toilet",
+            "Provider: Blue Boat Company",
+            "Cancel for free until 24 hours before your visit date and get a full refund",
+            "featuring 20 light artworks"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-amsterdam-canal-cruise.html": [
+          "From $27.43; the calendar showed $27 for 12 December",
+          "live guide in English and Dutch",
+          "The provider is Blue Boat Company (4.3 from 188 provider reviews)"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.gyg.alf",
+      "topic": "price",
+      "claim": "GetYourGuide Light Festival Cruise + Drinks & Snack option (Jack Tours BV), 12 Dec 2026: USD 25.70 no drinks, USD 35.20 with unlimited drinks and a bite, only 8 spots left, 75 minutes, free cancellation up to 24 hours before, 3.7 from 1,581 reviews; listing says Flagship Amsterdam is an official partner of Amsterdam Light Festival 2026/2027.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/amsterdam-l36/amsterdam-light-festival-heated-cruise-hot-drinks-snack-t503164/",
+          "kind": "operator",
+          "title": "GetYourGuide - Amsterdam: Light Festival Cruise + Drinks & Snack option",
+          "evidence": [
+            "$25.70 $37.24 -31%",
+            "$35.20 $51.01 -31%",
+            "Only 8 spots left",
+            "Duration 75 minutes",
+            "Cancel up to 24 hours in advance for a full refund",
+            "Flagship Amsterdam is an official partner of Amsterdam Light Festival 2026/2027.",
+            "Oosterdokskade 8",
+            "Please do not arrive earlier than 10 minutes before boarding time"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-amsterdam-canal-cruise.html": [
+          "Flagship Amsterdam is an official partner of Amsterdam Light Festival 2026/2027",
+          "Oosterdokskade 8",
+          "$35.20 with unlimited beer"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.tiqets.day",
+      "topic": "price",
+      "claim": "Tiqets Blue Boat Canal Cruise from Hard Rock Cafe: USD 14 on 12 Dec 2026 (rounded), 1 h 15, audio guide English and 18 other languages with headphones, gratuity not included, wheelchair accessible, free cancellation and rescheduling until 24 hours before, 4.4 from 87 reviews.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/amsterdam-attractions-c75061/tickets-for-amsterdam-canal-cruise-including-snackbox-hard-rock-cafe-p1055296/",
+          "kind": "operator",
+          "title": "Tiqets - Amsterdam: Blue Boat Canal Cruise from Hard Rock Cafe",
+          "evidence": [
+            "Duration 1h 15mins",
+            "Audio guide English and 18 other languages",
+            "Gratuity",
+            "Wheelchair accessible",
+            "Cancel for free until 24 hours before your visit date and get a full refund",
+            "Stadhouderskade 501, 1071 ZD, Amsterdam"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-amsterdam-canal-cruise.html": [
+          "Duration 1 hour 15 minutes, audio guide in English and 18 other languages with headphones",
+          "Gratuity and food and drinks are not included"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.gyg.day",
+      "topic": "price",
+      "claim": "GetYourGuide 75-Min Canal Cruise with Panoramic Views (Blue Boat): city canal cruise only from Hard Rock Cafe dock USD 14.71 (was 20.29) on 12 Dec 2026, 10:00 slot, free cancel until 11 Dec; 4.4 from 21,033 reviews; audio in 20+ languages optional; kids story and activity pack.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/amsterdam-l36/amsterdam-75-minute-city-canal-cruise-with-audio-guide-t8271/",
+          "kind": "operator",
+          "title": "GetYourGuide - Amsterdam: 75-Min Canal Cruise with Panoramic Views",
+          "evidence": [
+            "City Canal Cruise only - departure at dock Hard Rock Cafe",
+            "$14.71 $20.29 -27%",
+            "Cancel for free until Dec 11",
+            "4.4 21,033 reviews",
+            "Wheelchair-accessible boats available with advance reservation"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-amsterdam-canal-cruise.html": [
+          "$14.71 (struck through from $20.29)",
+          "21,033 reviews"
+        ]
+      }
+    },
+    {
+      "id": "nl.amsterdam.viator.day",
+      "topic": "price",
+      "claim": "Viator Amsterdam 75-Min Canal Cruise with Audio Guide & Snackbox Option: EUR 13.50 for one adult on 12 Dec 2026, half-hourly slots 10:00-18:00 from Hard Rock Cafe dock, audio guide 20+ languages included, 4.0 from 749 reviews, operator Blue Boat Company - Gray Line Amsterdam, free cancellation up to 24 hours before.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/Amsterdam/Amsterdam-City-Canal-Cruise/d525-7441P1",
+          "kind": "operator",
+          "title": "Viator - Amsterdam 75-Min Canal Cruise with Audio Guide & Snackbox Option",
+          "evidence": [
+            "€13.50 1 Adult x €13.50",
+            "Dock Hard Rock Cafe",
+            "10:00 AM 10:30 AM 11:00 AM",
+            "6:00 PM",
+            "Audio guide available in 20+ languages, included",
+            "Blue Boat Company - Gray Line Amsterdam",
+            "749 Reviews"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-amsterdam-canal-cruise.html": [
+          "€13.50 for one adult on 12 December, 4.0 from 749 reviews"
+        ]
+      }
     }
   ]
 }

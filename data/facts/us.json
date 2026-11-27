@@ -12810,6 +12810,168 @@
           "\"SOLD OUT\""
         ]
       }
+    },
+    {
+      "id": "us.nyc.edge.child-age",
+      "topic": "entry",
+      "claim": "Edge requires a ticket for visitors aged 6 and over; children aged 5 and under do not need one.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.edgenyc.com/faqs/",
+          "kind": "official",
+          "title": "Edge NYC FAQs",
+          "evidence": [
+            "tickets are required for all visitors to Edge NYC ages 6 and over"
+          ]
+        },
+        {
+          "url": "https://www.edgenyc.com/terms-conditions/",
+          "kind": "official",
+          "title": "Edge Terms & Conditions",
+          "evidence": [
+            "Children 5 years old or younger do not need a ticket."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-edge-nyc-tickets.html": [
+          "Tickets are required for all visitors to Edge NYC ages 6 and over.",
+          "Children aged 5 and under do not need a ticket."
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.edge.timed-entry-grace",
+      "topic": "entry",
+      "claim": "A timed Edge ticket stays valid for up to 30 minutes after the scheduled time; later arrivals are placed in the next slot only if capacity allows.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.edgenyc.com/faqs/",
+          "kind": "official",
+          "title": "Edge NYC FAQs",
+          "evidence": [
+            "Your ticket remains valid for entry for up to 30 minutes after your scheduled time."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-edge-nyc-tickets.html": [
+          "for up to 30 minutes after your scheduled time",
+          "A timed ticket stays valid"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.edge.reseller-bookings",
+      "topic": "entry",
+      "claim": "Edge says tickets bought through a reseller are changed or refunded by that vendor, and third-party tickets may be excluded from its weather rebooking offer.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.edgenyc.com/faqs/",
+          "kind": "official",
+          "title": "Edge NYC FAQs",
+          "evidence": [
+            "please contact that vendor directly for any changes, cancellations, or refund requests."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-edge-nyc-tickets.html": [
+          "please contact that vendor directly for any changes, cancellations, or refund requests."
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.edge.non-refundable",
+      "topic": "entry",
+      "claim": "Standard Edge tickets bought on its own website are non-refundable.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.edgenyc.com/terms-conditions/",
+          "kind": "official",
+          "title": "Edge Terms & Conditions",
+          "evidence": [
+            "Tickets purchased via the Website are non-refundable."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-edge-nyc-tickets.html": [
+          "Standard tickets bought on its own site are non-refundable."
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.edge.weather-closure",
+      "topic": "entry",
+      "claim": "The outdoor sky deck may close temporarily in extreme or severe weather at Edge's discretion; indoor areas stay open.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.edgenyc.com/faqs/",
+          "kind": "official",
+          "title": "Edge NYC FAQs",
+          "evidence": [
+            "The outdoor sky deck may close temporarily during extreme or severe weather at our discretion."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-edge-nyc-tickets.html": [
+          "during extreme or severe weather at our discretion"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.edge.slot-prices-30dec",
+      "topic": "price",
+      "claim": "On 27 November 2026 Tiqets priced a general Edge ticket for 30 December 2026 at $47.91 at 7:00 am, $59.88 from 9:00 am, $69.68 at 4:30 pm and $60.97 from 5:15 pm.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/new-york-attractions-c260932/tickets-for-edge-nyc-entry-p993713/",
+          "kind": "operator",
+          "title": "Tiqets, Edge NYC: Entry Ticket",
+          "evidence": [
+            "7:00 AM ($47.91)",
+            "4:30 PM ($69.68)",
+            "5:15 PM ($60.97)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-edge-nyc-tickets.html": [
+          "$47.91 at 7:00 am",
+          "$69.68 at 4:30 pm"
+        ]
+      }
+    },
+    {
+      "id": "us.nyc.edge.tiqets-cancel",
+      "topic": "entry",
+      "claim": "Tiqets lets you cancel an Edge ticket up to the selected timeslot and reschedule any time before the visit.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.tiqets.com/en/new-york-attractions-c260932/tickets-for-edge-nyc-entry-p993713/",
+          "kind": "operator",
+          "title": "Tiqets, Edge NYC: Entry Ticket",
+          "evidence": [
+            "Cancellation is possible up until your selected timeslot",
+            "Rescheduling is possible anytime before your visit"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-buy-edge-nyc-tickets.html": [
+          "Cancellation is possible up until your selected timeslot",
+          "Rescheduling is possible anytime before your visit"
+        ]
+      }
     }
   ]
 }

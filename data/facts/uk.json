@@ -5605,6 +5605,359 @@
           "The Great Kitchen Tour package runs from 27 December"
         ]
       }
+    },
+    {
+      "id": "uk.london.nye-cruise.gyg-masked-ball",
+      "topic": "price",
+      "claim": "GetYourGuide 1521257 Masked Ball boat party, 31 Dec 2026, from USD 273 per adult; free cancellation up to 24 hours; reserve now pay later; 18+; Greenwich to Blackfriars.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/london-l57/london-nye-masked-ball-boat-party-with-fireworks-t1521257/",
+          "kind": "secondary",
+          "title": "GetYourGuide: London: NYE Masked Ball Boat Party with Fireworks",
+          "evidence": [
+            "Cancel up to 24 hours in advance for a full refund",
+            "This is an adults-only cruise for guests aged 18 and over",
+            "We board at Greenwich Pier and finish at Blackfriars Pier."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-london-new-years-eve-thames-cruise.html": [
+          "From $273",
+          "free cancellation up to 24 hours before",
+          "boards at Greenwich and finishes at Blackfriars"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.nye-cruise.gyg-tea-on-thames",
+      "topic": "price",
+      "claim": "GetYourGuide 1534058 Tea on the Thames NYE fireworks cruise, 31 Dec 2026, from USD 523; free cancellation up to 14 days; adults only; fireworks view from open top deck.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/london-l57/london-new-year-s-eve-fireworks-cruise-with-champagne-dj-t1534058/",
+          "kind": "secondary",
+          "title": "GetYourGuide: London: New Year's Eve Fireworks Cruise with Champagne & DJ",
+          "evidence": [
+            "Cancel up to 14 days in advance for a full refund",
+            "The fireworks view is from the open top deck",
+            "Final boarding time is strict; latecomers cannot be accommodated once the vessel departs"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-london-new-years-eve-thames-cruise.html": [
+          "Free cancellation up to 14 days in advance",
+          "the fireworks view is from the open top deck",
+          "final boarding time is strict"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.nye-cruise.viator-3542p30",
+      "topic": "price",
+      "claim": "Viator 3542P30 City Cruises NYE dinner cruise, 31 Dec 2026, USD 665.43 (EUR 606.56) per person; non-refundable; four-course dinner; Tower Millennium Pier.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/London/NYE-River-Thames-Dinner-Cruise/d737-3542P30",
+          "kind": "secondary",
+          "title": "Viator: London New Year's Eve Dinner Cruise",
+          "evidence": [
+            "Non-refundable-You will not receive a refund if you cancel.",
+            "At midnight, get unobstructed views of the fireworks over Big Ben and the London Eye.",
+            "Not recommended for children aged five and under"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-london-new-years-eve-thames-cruise.html": [
+          "non-refundable and cannot be changed",
+          "unobstructed views of the fireworks over Big Ben and the London Eye",
+          "not recommended for children aged five and under"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.nye-cruise.gyg-city-cruises",
+      "topic": "price",
+      "claim": "GetYourGuide 48371 City Cruises NYE 4-course dinner cruise, 31 Dec 2026, USD 706.45; non-refundable; festive dress code; Tower Pier.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/london-l57/festive-london-new-year-s-eve-4-course-dinner-cruise-t48371/",
+          "kind": "secondary",
+          "title": "GetYourGuide: London: Festive New Year's Eve 4-Course Dinner Cruise",
+          "evidence": [
+            "This activity is non-refundable",
+            "Get a grandstand view of the midnight fireworks",
+            "Please note that this tour enforces a festive dress code (no jeans, no sneakers)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-london-new-years-eve-thames-cruise.html": [
+          "$706.45 for 31 December",
+          "no jeans, no sneakers",
+          "grandstand view"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.nye-cruise.gyg-london-rose",
+      "topic": "price",
+      "claim": "GetYourGuide 876627 London Rose NYE cruise, 31 Dec 2026, from USD 484; non-refundable; under 18s not permitted; Westminster Millennium Pier.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/london-l57/london-london-rose-new-year-s-eve-cruise-with-drinks-t876627/",
+          "kind": "secondary",
+          "title": "GetYourGuide: London: London Rose New Year's Eve Cruise with Drinks",
+          "evidence": [
+            "This activity is non-refundable",
+            "Under 18s are not permitted on this cruise.",
+            "No refunds for those who miss the boat"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-london-new-years-eve-thames-cruise.html": [
+          "From $484",
+          "Under 18s are not permitted",
+          "no refunds for those who miss the boat"
+        ]
+      }
+    },
+    {
+      "id": "uk.london.nye-cruise.kkday-529252",
+      "topic": "entry",
+      "claim": "KKday 529252 London NYE Thames fireworks cruise shows SOLD OUT (from EUR 297.5) on 27 Nov 2026; free cancellation up to 30 days before departure.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.kkday.com/en/product/529252",
+          "kind": "secondary",
+          "title": "KKday: 2026 New Year's Eve Thames Cruise with Fireworks | London",
+          "evidence": [
+            "Free cancellation up to 30 days before the departure date."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-london-new-years-eve-thames-cruise.html": [
+          "free cancellation up to 30 days before departure",
+          "SOLD OUT"
+        ]
+      }
+    },
+    {
+      "id": "gb.stonehenge.reseller-terms",
+      "topic": "entry",
+      "claim": "English Heritage terms: entry may be refused for tickets resold without its written consent; no authorised reseller named.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/prices-and-opening-times/stonehenge-online-booking-terms-and-conditions/",
+          "kind": "official",
+          "title": "Stonehenge online booking terms and conditions - English Heritage",
+          "evidence": [
+            "If any person attempts to enter Stonehenge with a ticket that has been resold without English Heritage's written consent",
+            "English Heritage may refuse entry"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-stonehenge-tour.html": [
+          "resold without English Heritage's written consent",
+          "it may refuse entry and pay no compensation"
+        ]
+      }
+    },
+    {
+      "id": "gb.stonehenge.hours-christmas",
+      "topic": "entry",
+      "claim": "English Heritage calendar: 24 Dec 2026 open 09:30-17:00, 25 Dec closed; weeks shown 09:30-17:00; 22 Dec solstice hours subject to change; last admission 2 hours before closing; 30 Dec not yet selectable on 2026-11-27.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/prices-and-opening-times/",
+          "kind": "official",
+          "title": "Prices and Opening Times for Stonehenge - English Heritage",
+          "evidence": [
+            "Friday (Christmas Day)\tCLOSED",
+            "Thursday (Christmas Eve)\t09:30 - 17:00",
+            "Last admission time is 2 hours before the advertised closing time."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-stonehenge-tour.html": [
+          "Friday 25 December as closed",
+          "last admission is 2 hours before the advertised closing time"
+        ]
+      }
+    },
+    {
+      "id": "gb.stonehenge.eh-price",
+      "topic": "price",
+      "claim": "English Heritage Stonehenge adult: advance online £27.20 with donation / £24.65 without; on the day £32.00 / £29.00.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/prices-and-opening-times/",
+          "kind": "official",
+          "title": "Prices and Opening Times for Stonehenge - English Heritage",
+          "evidence": [
+            "Adult\t£27.20\t£24.65",
+            "Adult\t£32.00\t£29.00"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-stonehenge-tour.html": [
+          "£27.20 advance online with donation, £24.65 without"
+        ]
+      }
+    },
+    {
+      "id": "gb.stonehenge.tickets-nontransferable",
+      "topic": "entry",
+      "claim": "English Heritage terms: tickets non-transferable and non-refundable except where it cannot provide entry; booking reference needed at tills.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/prices-and-opening-times/stonehenge-online-booking-terms-and-conditions/",
+          "kind": "official",
+          "title": "Stonehenge online booking terms and conditions - English Heritage",
+          "evidence": [
+            "Tickets are non-transferable.",
+            "all tickets are non-refundable."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-stonehenge-tour.html": [
+          "tickets are non-transferable and non-refundable"
+        ]
+      }
+    },
+    {
+      "id": "gb.stonehenge.gyg-t219849",
+      "topic": "price",
+      "claim": "GetYourGuide t219849 Day Tours London, 30 Dec 2026, GBP 66.00 for 1 adult at 07:30; admission included; free cancellation 24h.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/london-l57/from-london-half-day-stonehenge-tour-with-admission-ticket-t219849/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From London: Stonehenge Morning Half-Day Trip with Admission",
+          "evidence": [
+            "Your priority group admission ticket is included, allowing access to the monument, exhibition and site shuttle bus.",
+            "Cancel up to 24 hours in advance for a full refund"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-stonehenge-tour.html": [
+          "£66.00 for one adult",
+          "free cancellation up to 24 hours ahead"
+        ]
+      }
+    },
+    {
+      "id": "gb.stonehenge.gyg-t61147",
+      "topic": "price",
+      "claim": "GetYourGuide t61147 Stonehenge and Bath, Day Tours London, 30 Dec 2026 selected, from GBP 85; express entry ticket and Roman Baths entry included; 11 hours.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/london-l57/stonehenge-bath-and-west-country-day-trip-from-london-t61147/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From London: Stonehenge and Bath Day Trip with Entry Ticket",
+          "evidence": [
+            "Express entry ticket to Stonehenge",
+            "Entry ticket to the Roman Baths",
+            "Tour departs at 7am"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-stonehenge-tour.html": [
+          "£85 with 30 December selected",
+          "an express entry ticket to Stonehenge"
+        ]
+      }
+    },
+    {
+      "id": "gb.stonehenge.gyg-t619",
+      "topic": "price",
+      "claim": "GetYourGuide t619 Evan Evans half-day, 30 Dec 2026 selected, from EUR 78; entrance fee included; 7 hours.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/london-l57/stonehenge-express-sightseeing-tour-t619/",
+          "kind": "secondary",
+          "title": "GetYourGuide: From London: Stonehenge Half-Day Tour",
+          "evidence": [
+            "Entrance fee to Stonehenge",
+            "Upon arrival at the coach station please head inside to gate one and check in with the Evan Evans staff."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-stonehenge-tour.html": [
+          "€78 with 30 December selected",
+          "the entrance fee to Stonehenge"
+        ]
+      }
+    },
+    {
+      "id": "gb.stonehenge.viator-5461P20",
+      "topic": "price",
+      "claim": "Viator 5461P20 Golden Tours Gray Line London half-day, 30 Dec 2026, EUR 75.06 Morning Tour 08:30; admission included; free cancellation until 8.30am 29 Dec.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.viator.com/tours/London/Unescorted-Stonehenge-Tour-from-London/d737-5461P20",
+          "kind": "secondary",
+          "title": "Viator: Stonehenge Half-Day Tour from London with Admission",
+          "evidence": [
+            "Admission to Stonehenge, included",
+            "You can cancel up to 24 hours in advance of the experience for a full refund."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-stonehenge-tour.html": [
+          "€75.06 for the Morning Tour option on 30 December",
+          "admission to Stonehenge and air-conditioned coach transport are included"
+        ]
+      }
+    },
+    {
+      "id": "gb.stonehenge.windsor-wednesday",
+      "topic": "place",
+      "claim": "GetYourGuide t7319 (Evan Evans) says Windsor Castle is closed Tuesdays and Wednesdays; 30 Dec 2026 is a Wednesday; entry options only. Not checked at the Royal Collection.",
+      "checked": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://www.getyourguide.com/london-l57/windsor-castle-stonehenge-bath-day-tour-from-london-t7319/",
+          "kind": "secondary",
+          "title": "GetYourGuide: London: Windsor Castle, Stonehenge & Bath Full-Day Tour",
+          "evidence": [
+            "Windsor Castle is closed on Tuesdays and Wednesdays",
+            "Entry to Stonehenge (if option selected)"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-book-stonehenge-tour.html": [
+          "Windsor Castle is closed on Tuesdays and Wednesdays"
+        ]
+      }
     }
   ]
 }

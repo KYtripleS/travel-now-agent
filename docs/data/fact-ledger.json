@@ -3,7 +3,7 @@
  "version": "2026-11-27",
  "license": "CC BY 4.0",
  "cite": "https://gentlyyonder.com/open-data.html",
- "count": 3462,
+ "count": 3493,
  "facts": [
   {
    "id": "au.gst.accommodation",
@@ -44095,6 +44095,186 @@
    ]
   },
   {
+   "id": "nl.amsterdam.alf.dates",
+   "place": "Netherlands",
+   "topic": "place",
+   "claim": "Amsterdam Light Festival Edition 15 runs 26 November 2026 to 17 January 2027; lights on daily 4:30 pm to 11:00 pm and off at 9:00 pm on 31 December; Light Nights on 26 November, 12 December and 19 December.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://amsterdamlightfestival.com/en/dates-hours",
+     "title": "Dates & Hours - Amsterdam Light Festival",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-amsterdam-canal-cruise.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.alf.partners",
+   "place": "Netherlands",
+   "topic": "place",
+   "claim": "The festival's official cruise partner list includes Blue Boat Company and Stromma among about 45 boat companies; official partners carry an Official Partner logo, festival flags on jetties and stickers on most boats.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://amsterdamlightfestival.com/en/official-partners-edition-15",
+     "title": "Official Partners - Amsterdam Light Festival",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-amsterdam-canal-cruise.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.alf.cruiserules",
+   "place": "Netherlands",
+   "topic": "entry",
+   "claim": "Festival cruise FAQ: departures every 30 minutes 4:30-9:30 pm, about 60-75 minutes, be present 15 minutes before, ticket is for a specific date and time with changes up to 24 hours before, route of 19 artworks, no hopping off, no own food or drink, most canal boats have toilets, Blue Boat has some wheelchair-accessible boats.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://amsterdamlightfestival.com/en/faq-cruise",
+     "title": "FAQ: Cruise - Amsterdam Light Festival",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-amsterdam-canal-cruise.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.viator.alf",
+   "place": "Netherlands",
+   "topic": "price",
+   "claim": "Viator Official Amsterdam Light Festival Cruise with Live Guide, 12 Dec 2026, one adult, 5:00 PM: EUR 23.80 (was EUR 29.75, ends 25 December), only 1 spot left, free cancellation before 5:00 PM on 11 Dec, about 1 h 30 min, 3.5 stars from 37 reviews.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Amsterdam/Amsterdam-Light-Festival-Cruise/d525-7441P12",
+     "title": "Viator - Official Amsterdam Light Festival Cruise with Live Guide",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-amsterdam-canal-cruise.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.tiqets.alf",
+   "place": "Netherlands",
+   "topic": "entry",
+   "claim": "Tiqets Light Festival Canal Cruise from Leidseplein: from USD 27.43 (calendar USD 27 for 12 Dec), 1 h 30, live guide English and Dutch, heated boat with toilet, provider Blue Boat Company, free cancellation and rescheduling until 24 hours before, route of 20 artworks.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/amsterdam-attractions-c75061/tickets-for-amsterdam-light-festival-covered-boat-cruise-p1087693/",
+     "title": "Tiqets - Amsterdam Light Festival: Canal Cruise from Leidseplein",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-amsterdam-canal-cruise.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.gyg.alf",
+   "place": "Netherlands",
+   "topic": "price",
+   "claim": "GetYourGuide Light Festival Cruise + Drinks & Snack option (Jack Tours BV), 12 Dec 2026: USD 25.70 no drinks, USD 35.20 with unlimited drinks and a bite, only 8 spots left, 75 minutes, free cancellation up to 24 hours before, 3.7 from 1,581 reviews; listing says Flagship Amsterdam is an official partner of Amsterdam Light Festival 2026/2027.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/amsterdam-l36/amsterdam-light-festival-heated-cruise-hot-drinks-snack-t503164/",
+     "title": "GetYourGuide - Amsterdam: Light Festival Cruise + Drinks & Snack option",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-amsterdam-canal-cruise.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.tiqets.day",
+   "place": "Netherlands",
+   "topic": "price",
+   "claim": "Tiqets Blue Boat Canal Cruise from Hard Rock Cafe: USD 14 on 12 Dec 2026 (rounded), 1 h 15, audio guide English and 18 other languages with headphones, gratuity not included, wheelchair accessible, free cancellation and rescheduling until 24 hours before, 4.4 from 87 reviews.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/amsterdam-attractions-c75061/tickets-for-amsterdam-canal-cruise-including-snackbox-hard-rock-cafe-p1055296/",
+     "title": "Tiqets - Amsterdam: Blue Boat Canal Cruise from Hard Rock Cafe",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-amsterdam-canal-cruise.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.gyg.day",
+   "place": "Netherlands",
+   "topic": "price",
+   "claim": "GetYourGuide 75-Min Canal Cruise with Panoramic Views (Blue Boat): city canal cruise only from Hard Rock Cafe dock USD 14.71 (was 20.29) on 12 Dec 2026, 10:00 slot, free cancel until 11 Dec; 4.4 from 21,033 reviews; audio in 20+ languages optional; kids story and activity pack.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/amsterdam-l36/amsterdam-75-minute-city-canal-cruise-with-audio-guide-t8271/",
+     "title": "GetYourGuide - Amsterdam: 75-Min Canal Cruise with Panoramic Views",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-amsterdam-canal-cruise.html"
+   ]
+  },
+  {
+   "id": "nl.amsterdam.viator.day",
+   "place": "Netherlands",
+   "topic": "price",
+   "claim": "Viator Amsterdam 75-Min Canal Cruise with Audio Guide & Snackbox Option: EUR 13.50 for one adult on 12 Dec 2026, half-hourly slots 10:00-18:00 from Hard Rock Cafe dock, audio guide 20+ languages included, 4.0 from 749 reviews, operator Blue Boat Company - Gray Line Amsterdam, free cancellation up to 24 hours before.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/Amsterdam/Amsterdam-City-Canal-Cruise/d525-7441P1",
+     "title": "Viator - Amsterdam 75-Min Canal Cruise with Audio Guide & Snackbox Option",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-amsterdam-canal-cruise.html"
+   ]
+  },
+  {
    "id": "nz.gst.rate",
    "place": "New Zealand",
    "topic": "tax",
@@ -61853,6 +62033,306 @@
    ]
   },
   {
+   "id": "uk.london.nye-cruise.gyg-masked-ball",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "GetYourGuide 1521257 Masked Ball boat party, 31 Dec 2026, from USD 273 per adult; free cancellation up to 24 hours; reserve now pay later; 18+; Greenwich to Blackfriars.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/london-l57/london-nye-masked-ball-boat-party-with-fireworks-t1521257/",
+     "title": "GetYourGuide: London: NYE Masked Ball Boat Party with Fireworks",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-london-new-years-eve-thames-cruise.html"
+   ]
+  },
+  {
+   "id": "uk.london.nye-cruise.gyg-tea-on-thames",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "GetYourGuide 1534058 Tea on the Thames NYE fireworks cruise, 31 Dec 2026, from USD 523; free cancellation up to 14 days; adults only; fireworks view from open top deck.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/london-l57/london-new-year-s-eve-fireworks-cruise-with-champagne-dj-t1534058/",
+     "title": "GetYourGuide: London: New Year's Eve Fireworks Cruise with Champagne & DJ",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-london-new-years-eve-thames-cruise.html"
+   ]
+  },
+  {
+   "id": "uk.london.nye-cruise.viator-3542p30",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "Viator 3542P30 City Cruises NYE dinner cruise, 31 Dec 2026, USD 665.43 (EUR 606.56) per person; non-refundable; four-course dinner; Tower Millennium Pier.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/London/NYE-River-Thames-Dinner-Cruise/d737-3542P30",
+     "title": "Viator: London New Year's Eve Dinner Cruise",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-london-new-years-eve-thames-cruise.html"
+   ]
+  },
+  {
+   "id": "uk.london.nye-cruise.gyg-city-cruises",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "GetYourGuide 48371 City Cruises NYE 4-course dinner cruise, 31 Dec 2026, USD 706.45; non-refundable; festive dress code; Tower Pier.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/london-l57/festive-london-new-year-s-eve-4-course-dinner-cruise-t48371/",
+     "title": "GetYourGuide: London: Festive New Year's Eve 4-Course Dinner Cruise",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-london-new-years-eve-thames-cruise.html"
+   ]
+  },
+  {
+   "id": "uk.london.nye-cruise.gyg-london-rose",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "GetYourGuide 876627 London Rose NYE cruise, 31 Dec 2026, from USD 484; non-refundable; under 18s not permitted; Westminster Millennium Pier.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/london-l57/london-london-rose-new-year-s-eve-cruise-with-drinks-t876627/",
+     "title": "GetYourGuide: London: London Rose New Year's Eve Cruise with Drinks",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-london-new-years-eve-thames-cruise.html"
+   ]
+  },
+  {
+   "id": "uk.london.nye-cruise.kkday-529252",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "KKday 529252 London NYE Thames fireworks cruise shows SOLD OUT (from EUR 297.5) on 27 Nov 2026; free cancellation up to 30 days before departure.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kkday.com/en/product/529252",
+     "title": "KKday: 2026 New Year's Eve Thames Cruise with Fireworks | London",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-london-new-years-eve-thames-cruise.html"
+   ]
+  },
+  {
+   "id": "gb.stonehenge.reseller-terms",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "English Heritage terms: entry may be refused for tickets resold without its written consent; no authorised reseller named.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/prices-and-opening-times/stonehenge-online-booking-terms-and-conditions/",
+     "title": "Stonehenge online booking terms and conditions - English Heritage",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-stonehenge-tour.html"
+   ]
+  },
+  {
+   "id": "gb.stonehenge.hours-christmas",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "English Heritage calendar: 24 Dec 2026 open 09:30-17:00, 25 Dec closed; weeks shown 09:30-17:00; 22 Dec solstice hours subject to change; last admission 2 hours before closing; 30 Dec not yet selectable on 2026-11-27.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/prices-and-opening-times/",
+     "title": "Prices and Opening Times for Stonehenge - English Heritage",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-stonehenge-tour.html"
+   ]
+  },
+  {
+   "id": "gb.stonehenge.eh-price",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "English Heritage Stonehenge adult: advance online £27.20 with donation / £24.65 without; on the day £32.00 / £29.00.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/prices-and-opening-times/",
+     "title": "Prices and Opening Times for Stonehenge - English Heritage",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-stonehenge-tour.html"
+   ]
+  },
+  {
+   "id": "gb.stonehenge.tickets-nontransferable",
+   "place": "United Kingdom",
+   "topic": "entry",
+   "claim": "English Heritage terms: tickets non-transferable and non-refundable except where it cannot provide entry; booking reference needed at tills.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/prices-and-opening-times/stonehenge-online-booking-terms-and-conditions/",
+     "title": "Stonehenge online booking terms and conditions - English Heritage",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-stonehenge-tour.html"
+   ]
+  },
+  {
+   "id": "gb.stonehenge.gyg-t219849",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "GetYourGuide t219849 Day Tours London, 30 Dec 2026, GBP 66.00 for 1 adult at 07:30; admission included; free cancellation 24h.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/london-l57/from-london-half-day-stonehenge-tour-with-admission-ticket-t219849/",
+     "title": "GetYourGuide: From London: Stonehenge Morning Half-Day Trip with Admission",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-stonehenge-tour.html"
+   ]
+  },
+  {
+   "id": "gb.stonehenge.gyg-t61147",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "GetYourGuide t61147 Stonehenge and Bath, Day Tours London, 30 Dec 2026 selected, from GBP 85; express entry ticket and Roman Baths entry included; 11 hours.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/london-l57/stonehenge-bath-and-west-country-day-trip-from-london-t61147/",
+     "title": "GetYourGuide: From London: Stonehenge and Bath Day Trip with Entry Ticket",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-stonehenge-tour.html"
+   ]
+  },
+  {
+   "id": "gb.stonehenge.gyg-t619",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "GetYourGuide t619 Evan Evans half-day, 30 Dec 2026 selected, from EUR 78; entrance fee included; 7 hours.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/london-l57/stonehenge-express-sightseeing-tour-t619/",
+     "title": "GetYourGuide: From London: Stonehenge Half-Day Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-stonehenge-tour.html"
+   ]
+  },
+  {
+   "id": "gb.stonehenge.viator-5461P20",
+   "place": "United Kingdom",
+   "topic": "price",
+   "claim": "Viator 5461P20 Golden Tours Gray Line London half-day, 30 Dec 2026, EUR 75.06 Morning Tour 08:30; admission included; free cancellation until 8.30am 29 Dec.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.viator.com/tours/London/Unescorted-Stonehenge-Tour-from-London/d737-5461P20",
+     "title": "Viator: Stonehenge Half-Day Tour from London with Admission",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-stonehenge-tour.html"
+   ]
+  },
+  {
+   "id": "gb.stonehenge.windsor-wednesday",
+   "place": "United Kingdom",
+   "topic": "place",
+   "claim": "GetYourGuide t7319 (Evan Evans) says Windsor Castle is closed Tuesdays and Wednesdays; 30 Dec 2026 is a Wednesday; entry options only. Not checked at the Royal Collection.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.getyourguide.com/london-l57/windsor-castle-stonehenge-bath-day-tour-from-london-t7319/",
+     "title": "GetYourGuide: London: Windsor Castle, Stonehenge & Bath Full-Day Tour",
+     "kind": "secondary"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-book-stonehenge-tour.html"
+   ]
+  },
+  {
    "id": "us.nyc.hotel-tax",
    "place": "United States",
    "topic": "tax",
@@ -74137,6 +74617,151 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-buy-radio-city-christmas-spectacular-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.edge.child-age",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "Edge requires a ticket for visitors aged 6 and over; children aged 5 and under do not need one.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.edgenyc.com/faqs/",
+     "title": "Edge NYC FAQs",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.edgenyc.com/terms-conditions/",
+     "title": "Edge Terms & Conditions",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-edge-nyc-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.edge.timed-entry-grace",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "A timed Edge ticket stays valid for up to 30 minutes after the scheduled time; later arrivals are placed in the next slot only if capacity allows.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.edgenyc.com/faqs/",
+     "title": "Edge NYC FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-edge-nyc-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.edge.reseller-bookings",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "Edge says tickets bought through a reseller are changed or refunded by that vendor, and third-party tickets may be excluded from its weather rebooking offer.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.edgenyc.com/faqs/",
+     "title": "Edge NYC FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-edge-nyc-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.edge.non-refundable",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "Standard Edge tickets bought on its own website are non-refundable.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.edgenyc.com/terms-conditions/",
+     "title": "Edge Terms & Conditions",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-edge-nyc-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.edge.weather-closure",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "The outdoor sky deck may close temporarily in extreme or severe weather at Edge's discretion; indoor areas stay open.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.edgenyc.com/faqs/",
+     "title": "Edge NYC FAQs",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-edge-nyc-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.edge.slot-prices-30dec",
+   "place": "United States",
+   "topic": "price",
+   "claim": "On 27 November 2026 Tiqets priced a general Edge ticket for 30 December 2026 at $47.91 at 7:00 am, $59.88 from 9:00 am, $69.68 at 4:30 pm and $60.97 from 5:15 pm.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/new-york-attractions-c260932/tickets-for-edge-nyc-entry-p993713/",
+     "title": "Tiqets, Edge NYC: Entry Ticket",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-edge-nyc-tickets.html"
+   ]
+  },
+  {
+   "id": "us.nyc.edge.tiqets-cancel",
+   "place": "United States",
+   "topic": "entry",
+   "claim": "Tiqets lets you cancel an Edge ticket up to the selected timeslot and reschedule any time before the visit.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tiqets.com/en/new-york-attractions-c260932/tickets-for-edge-nyc-entry-p993713/",
+     "title": "Tiqets, Edge NYC: Entry Ticket",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-27",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-buy-edge-nyc-tickets.html"
    ]
   },
   {
