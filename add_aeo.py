@@ -828,6 +828,26 @@ V = {
              "a night.",
         link_text="Midtown near Times Square",
         cta=_stay_cta("where-to-stay-in-new-york", "See hotels around Times Square")),
+    "where-to-stay-in-bali-private-pool-villa": dict(
+        text="For a first private pool, stay in Seminyak: The Layar's one-bedroom villas have a private 45 sqm pool close to the restaurants. Choose Hanging Gardens of Bali for a jungle-valley pool, The edge Bali for a cliff villa. Count the 10% Badung tax and the IDR 150,000 levy.",
+        link_text="Seminyak",
+        cta=_stay_cta("where-to-stay-in-bali-private-pool-villa", "See villas around Seminyak")),
+    "where-to-stay-in-kawaguchiko-fuji-view": dict(
+        text="For a first Fuji-view night, stay on the south shore near Kawaguchiko Station: Konansou has ten Fuji-side rooms with a private open-air bath, Fufu suits a splurge, Ooike a Fuji-view bath for less. Bathing tax is ¥150 each a night; lodging tax starts April 2027.",
+        link_text="south shore",
+        cta=_stay_cta("where-to-stay-in-kawaguchiko-fuji-view", "See hotels around Lake Kawaguchiko")),
+    "where-to-stay-in-tokyo-luxury": dict(
+        text="For a first luxury night, stay in Marunouchi: Palace Hotel Tokyo faces the palace gardens, near the Shinkansen and Narita Express. Choose The Prince Park Tower Tokyo for Tokyo Tower and a hot spring, Hotel Chinzanso for a garden. Tax is ¥200 per person per night now, 3% from April 2027.",
+        link_text="Marunouchi",
+        cta=_stay_cta("where-to-stay-in-tokyo-luxury", "See luxury hotels around Marunouchi")),
+    "where-to-stay-in-hakone-ryokan-private-onsen": dict(
+        text="For a private open-air bath in every room, stay in Gora or Sengokuhara: choose Hakone Kowakien Ten-yu for scale, Kinnotake Sengokuhara for a quiet stay for two, Hotel Indigo Hakone Gora for a hotel format. The bathing tax is ¥150 per adult per night.",
+        link_text="Gora",
+        cta=_stay_cta("where-to-stay-in-hakone-ryokan-private-onsen", "See hotels around Gora")),
+    "where-to-stay-in-kyoto-luxury": dict(
+        text="For a first luxury trip, stay on the Kamo River: The Ritz-Carlton Kyoto has the river and the old streets near. Choose Four Seasons for a garden in Higashiyama, Hotel Okura for a classic grand hotel. The tax is up to ¥10,000 per person per night.",
+        link_text="Kamo River",
+        cta=_stay_cta("where-to-stay-in-kyoto-luxury", "See hotels along the Kamo River")),
     "where-to-stay-in-paris-christmas": dict(
         text="For Christmas, stay in Tuileries and the Louvre: the Tuileries market runs 14 November to 3 January and the Regina Louvre overlooks the garden. Choose Hôtel Etats-Unis Opéra for the windows, Hôtel Chopin for a budget room. The tax is up to €15.93 per adult a night.",
         link_text="Tuileries and the Louvre",
@@ -2485,6 +2505,11 @@ QUICK_PICKS = {
     "where-to-stay-in-paris": ["Hôtel National des Arts et Métiers", "Hôtel des Grands Hommes",
                                "Pullman Paris Tour Eiffel"],
     "where-to-stay-in-new-york": ["Arlo Midtown", "Washington Square Hotel", "Ace Hotel Brooklyn"],
+    "where-to-stay-in-bali-private-pool-villa": ["The Layar - Designer Villas and Spa", "Hanging Gardens of Bali", "The edge Bali"],
+    "where-to-stay-in-kawaguchiko-fuji-view": ["Fujikawaguchiko Onsen Konansou", "Fufu Kawaguchiko", "Ooike Hotel"],
+    "where-to-stay-in-tokyo-luxury": ["Palace Hotel Tokyo", "The Prince Park Tower Tokyo", "Hotel Chinzanso Tokyo"],
+    "where-to-stay-in-hakone-ryokan-private-onsen": ["Hakone Kowakien Ten-yu", "Kinnotake Sengokuhara", "Hotel Indigo Hakone Gora"],
+    "where-to-stay-in-kyoto-luxury": ["The Ritz-Carlton Kyoto", "Four Seasons Hotel Kyoto", "Hotel Okura Kyoto"],
     "where-to-stay-in-paris-christmas": ["Hôtel Regina Louvre", "Hôtel Etats-Unis Opéra", "Hôtel Chopin"],
     "where-to-stay-in-new-york-christmas": ["The Peninsula New York", "The Warwick New York", "Arlo Midtown"],
     "where-to-stay-in-london-christmas": ["The Savoy", "Strand Palace Hotel", "hub by Premier Inn London Covent Garden"],
@@ -3688,6 +3713,11 @@ CITY_RATES = {
         ("Hakone", "where-to-stay-in-hakone", None, None),
         ("Fukuoka", "where-to-stay-in-fukuoka", None, None),
         ("Busan", "where-to-stay-in-busan", None, None),
+        ("Bali", "where-to-stay-in-bali-private-pool-villa", None, None),
+        ("Lake Kawaguchiko", "where-to-stay-in-kawaguchiko-fuji-view", None, None),
+        ("Tokyo", "where-to-stay-in-tokyo-luxury", None, None),
+        ("Hakone", "where-to-stay-in-hakone-ryokan-private-onsen", None, None),
+        ("Kyoto", "where-to-stay-in-kyoto-luxury", None, None),
         ("Paris", "where-to-stay-in-paris-christmas", None, None),
         ("New York", "where-to-stay-in-new-york-christmas", None, None),
         ("London", "where-to-stay-in-london-christmas", None, None),
@@ -4056,7 +4086,7 @@ STAY_POINTERS = {
         f'14 hotels and ryokan. Going to Sapporo? <a href="{_SP}">Our Snow Festival guide</a> covers its new tax.'),
     # the three Japan city guides, back to the trip-level question
     "where-to-stay-in-tokyo": ("intro",
-        f'Splitting the trip between cities? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers '
+        f'Spending more for one or two nights? <a href="where-to-stay-in-tokyo-luxury.html">Luxury hotels in Tokyo</a> sorts ten top hotels by view, bath and area. Splitting the trip between cities? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers '
         'how many nights to give Tokyo, Kyoto and Osaka, and moving day in between. Coming for the cherry '
         f'blossom? <a href="{_TS}">Tokyo hotels near the cherry blossoms</a> has the dates and the tax change on 1 April 2027; '
         f'for late November, <a href="{_TA}">our autumn-leaves guide</a> has the 2026 garden openings; for '
@@ -4071,7 +4101,7 @@ STAY_POINTERS = {
         ' Seeing the snow monkeys? <a href="where-to-book-snow-monkey-tour.html">Snow monkey day tours compared</a> sets the Tokyo and Nagano departures side by side for one December date.'
         ' Going up Shibuya Sky? <a href="where-to-buy-shibuya-sky-tickets.html">Shibuya Sky tickets compared</a> shows which sellers the venue accepts and when each date goes on sale.'),
     "where-to-stay-in-kyoto": ("intro",
-        f'Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
+        f'Planning a special night? <a href="where-to-stay-in-kyoto-luxury.html">Luxury hotels and ryokan in Kyoto</a> covers nine top stays and the 2026 lodging tax of up to ¥10,000 per person a night. Coming from Tokyo? <a href="{_JP}">Where to stay in Japan on a first trip</a> covers how many nights to '
         'give each city, and how to move your bags between them. Here for the autumn leaves? <a '
         f'href="{_KA}">Our autumn-leaves guide</a> has the 2026 temple openings and the weeks to aim for; for '
         'spring, <a href="where-to-stay-in-kyoto-cherry-blossom.html">Kyoto hotels for cherry blossom season</a> '
@@ -4329,6 +4359,8 @@ STAY_POINTERS = {
     "where-to-stay-in-reykjavik-northern-lights": ("intro",
         'Doing the Golden Circle? <a href="where-to-book-golden-circle-tour.html">Golden Circle tours compared</a> '
         'sets the bus, hotel-pickup and Secret Lagoon versions side by side for one December Saturday. Booking the night out? <a href="where-to-book-reykjavik-northern-lights-tour.html">Reykjavik northern lights tours compared</a> sets the bus, minibus and boat tours side by side with each one’s retry terms.'),
+    "where-to-stay-in-bali": ("intro",
+        'Want a pool of your own? <a href="where-to-stay-in-bali-private-pool-villa.html">Bali villas with a private pool</a> sorts ten luxury villa stays from Ubud to Uluwatu, with the IDR 150,000 levy and the hotel tax.'),
     "where-to-stay-in-hakuba": ("intro",
         'Seeing the snow monkeys? <a href="where-to-book-snow-monkey-tour.html">Snow monkey day tours compared</a> sets the Tokyo and Nagano departures side by side for one December date.'),
     "where-to-stay-in-london": ("intro",
@@ -4514,7 +4546,7 @@ STAY_POINTERS = {
         ' Or SUMMIT One Vanderbilt? <a href="where-to-buy-summit-one-vanderbilt-tickets.html">SUMMIT tickets compared</a> covers the glass lift, the timed slots and the child price.'
         ' Seeing the Rockettes? <a href="where-to-buy-radio-city-christmas-spectacular-tickets.html">Radio City Christmas Spectacular tickets compared</a> prices the shows and seats for one December day.'),
     "where-to-stay-in-hakone": ("intro",
-        'Coming for the day from Tokyo instead? <a href="where-to-book-hakone-day-tour.html">Hakone day tours compared</a> '
+        'Want a bath of your own? <a href="where-to-stay-in-hakone-ryokan-private-onsen.html">Hakone ryokan with a private onsen</a> sorts ten luxury stays by bath type: in-room open-air, reservable or shared. Staying by Fuji instead? <a href="where-to-stay-in-kawaguchiko-fuji-view.html">Lake Kawaguchiko’s Fuji-view ryokan</a> lists the rooms that face the mountain. Coming for the day from Tokyo instead? <a href="where-to-book-hakone-day-tour.html">Hakone day tours compared</a> '
         'prices the Tokyo departures on GetYourGuide, Viator, Tiqets and KKday for one December date.'),
     # both
     "best-time-to-visit-australia": ("The south: Sydney",

@@ -3,7 +3,7 @@
  "version": "2026-11-28",
  "license": "CC BY 4.0",
  "cite": "https://gentlyyonder.com/open-data.html",
- "count": 3500,
+ "count": 3554,
  "facts": [
   {
    "id": "au.gst.accommodation",
@@ -22768,6 +22768,7 @@
    "recheck_days": null,
    "note": "",
    "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html",
     "https://gentlyyonder.com/articles/where-to-stay-in-bali.html"
    ]
   },
@@ -22948,6 +22949,7 @@
    "recheck_days": null,
    "note": "",
    "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html",
     "https://gentlyyonder.com/articles/where-to-stay-in-bali.html"
    ]
   },
@@ -23274,6 +23276,246 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-stay-in-bali.html"
+   ]
+  },
+  {
+   "id": "id.evoa.fee",
+   "place": "Indonesia",
+   "topic": "tax",
+   "claim": "The Indonesian visitor visa (e-VOA) costs IDR 500,000, for a 30-day stay, with card fees extra.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://evisa.imigrasi.go.id/front/info/evoa",
+     "title": "e-Visa: visitor visa info",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.dps.taxi",
+   "place": "Indonesia",
+   "topic": "transport",
+   "claim": "Taxis serve the arrivals area at Ngurah Rai airport, on a metered fare or fixed rates per provider.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://ngurahrai.injourneyairports.id/information/transportation-parking",
+     "title": "Ngurah Rai airport: transportation (Taxi tab)",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.hanging-gardens.pool",
+   "place": "Indonesia",
+   "topic": "hotel",
+   "claim": "Hanging Gardens of Bali: Signature Pool Villa 160 sqm with a private infinity pool; booking widget shows Adults 18 years and above / Children under 18, no other age rule.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://hanginggardensofbali.com/suites-villas/signature-pool-villa",
+     "title": "Hanging Gardens of Bali: Signature Pool Villa",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.mandapa.villas",
+   "place": "Indonesia",
+   "topic": "hotel",
+   "claim": "Mandapa: 35 suites and 25 private pool villas; minimum age to check in 21.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.ritzcarlton.com/en/hotels/dpsub-mandapa-a-ritz-carlton-reserve/overview/",
+     "title": "Mandapa overview",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.komaneka-bisma.pool",
+   "place": "Indonesia",
+   "topic": "hotel",
+   "claim": "Komaneka at Bisma: One Bedroom Pool Villa in a 210 sqm area with a 30 sqm swimming pool and private swimming pool.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.komaneka.com/rooms/one-bedroom-pool-villa/",
+     "title": "Komaneka at Bisma: One Bedroom Pool Villa",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.sanctoo.pool",
+   "place": "Indonesia",
+   "topic": "hotel",
+   "claim": "Sanctoo: One Bedroom Riverside Pool Villa 300 m2 with its own garden and private pool.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://sanctoo.com/villas/one-bedroom-riverside-pool-villa/",
+     "title": "Sanctoo: Riverside Pool Villa",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.layar.pool",
+   "place": "Indonesia",
+   "topic": "hotel",
+   "claim": "The Layar: one-bedroom villas have a private 45 sqm pool with a shallow lounging area.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://thelayar.com/one-bedroom-villas/",
+     "title": "The Layar: one-bedroom villas",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.oberoi-bali.villas",
+   "place": "Indonesia",
+   "topic": "hotel",
+   "claim": "The Oberoi, Bali: four villa categories sold 'with Pool'; grounds of 16 acres.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.oberoihotels.com/hotels-in-bali/",
+     "title": "The Oberoi, Bali",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.edge-bali.villas",
+   "place": "Indonesia",
+   "topic": "hotel",
+   "claim": "The edge Bali lists eight villa types; The villa is 65 m2 interior and 260 m2 exterior; private pools and ocean views are named as a feature.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.theedgebali.com",
+     "title": "The edge Bali",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.karma-kandara.kids",
+   "place": "Indonesia",
+   "topic": "hotel",
+   "claim": "Karma Kandara in Ungasan has pool villas of one to four bedrooms and a Kids Club for ages 4 to 12; larger Ocean View villas say private infinity pool.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.karmagroup.com/karma-kandara",
+     "title": "Karma Kandara",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.kayumanis-jimbaran.villas",
+   "place": "Indonesia",
+   "topic": "hotel",
+   "claim": "Kayumanis Jimbaran: one-bedroom 500 sqm and two-bedroom 600 sqm Private Pool Villas with a free return airport transfer.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kayumanisjimbaran.com/",
+     "title": "Kayumanis Jimbaran",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
+   ]
+  },
+  {
+   "id": "id.kayumanis-nusadua.villas",
+   "place": "Indonesia",
+   "topic": "hotel",
+   "claim": "Kayumanis Nusa Dua: one-bedroom 300 sqm to three-bedroom 700 sqm; the Two-Bedroom Residence Pool Villa has its own swimming pool and sun deck.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kayumanisnusadua.com/villas",
+     "title": "Kayumanis Nusa Dua: villas",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-bali-private-pool-villa.html"
    ]
   },
   {
@@ -29558,6 +29800,7 @@
     "https://gentlyyonder.com/articles/where-to-stay-in-japan.html",
     "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-autumn-leaves.html",
     "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-cherry-blossom.html",
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html",
     "https://gentlyyonder.com/articles/where-to-stay-in-tokyo.html"
    ]
   },
@@ -33705,6 +33948,7 @@
    "recheck_days": null,
    "note": "",
    "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html",
     "https://gentlyyonder.com/articles/where-to-stay-in-hakone.html"
    ]
   },
@@ -37659,6 +37903,881 @@
    "note": "",
    "pages": [
     "https://gentlyyonder.com/articles/where-to-book-hakone-day-tour.html"
+   ]
+  },
+  {
+   "id": "jp.kyoto.accommodation-tax-2026",
+   "place": "Japan",
+   "topic": "tax",
+   "claim": "From 1 March 2026 Kyoto's accommodation tax is 200/400/1,000/4,000/10,000 yen per person per night for fees under 6,000 / 6,000-19,999 / 20,000-49,999 / 50,000-99,999 / 100,000+ yen.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://kyoto.travel/en/news/tax-change/",
+     "title": "Kyoto City Official Travel Guide: accommodation tax change",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kyoto-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.kyoto.ritz.tax-included",
+   "place": "Japan",
+   "topic": "tax",
+   "claim": "The Ritz-Carlton Kyoto states the city tax is included in the room rate (134 rooms and suites on the Kamogawa).",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.ritzcarlton.com/en/hotels/ukyrz-the-ritz-carlton-kyoto/overview/",
+     "title": "The Ritz-Carlton, Kyoto overview",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kyoto-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.kyoto.okura.tax-separate",
+   "place": "Japan",
+   "topic": "tax",
+   "claim": "Hotel Okura Kyoto (320 rooms) states the tax is not included and is paid separately; about 2h20 from Tokyo Station by bullet train; 15 minutes from JR Kyoto Station by car.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://okura.com/japan/kyoto/hotel-okura-kyoto/",
+     "title": "Hotel Okura Kyoto",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kyoto-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.kix.haruka-fare",
+   "place": "Japan",
+   "topic": "fare",
+   "claim": "JR West one-way Haruka ticket Kansai Airport to Kyoto is 2,700 yen for adults on tickets sold from 1 November 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/oneway/haruka/",
+     "title": "JR West HARUKA one-way ticket",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kyoto-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.kix.haruka-time",
+   "place": "Japan",
+   "topic": "transport",
+   "claim": "JR Haruka Kansai Airport to Kyoto takes about 75 minutes.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kansai-airport.or.jp/en/access/from-airport/train",
+     "title": "Kansai Airport: train access",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kyoto-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.kyoto.four-seasons.garden",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Four Seasons Hotel Kyoto is centred on Shakusui-en, an 800-year-old heritage pond garden in Higashiyama.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.fourseasons.com/kyoto/",
+     "title": "Four Seasons Hotel Kyoto",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kyoto-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.kyoto.roku.official",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "ROKU KYOTO's own site lists Forbes five stars for 2026, a Michelin Key and a notice on the Kyoto tax revision; thermal pool needs advance booking in some periods from July 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.rokukyoto.com/",
+     "title": "ROKU KYOTO official site",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kyoto-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.kyoto.sowaka.official",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "SOWAKA: Small Luxury Hotels of the World member since April 2020, Forbes four stars from Feb 2025; address Kiyoi-cho 480, Higashiyama.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://sowaka.com/",
+     "title": "SOWAKA official site",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kyoto-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.kyoto.nazuna-nijo.breakfast",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Nazuna Kyoto Nijo-jo's page: irori-lounge breakfast 07:30-09:30, charcoal cooking paused, vegetables steamed.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.nazuna.co/property/nazuna-kyoto-nijojo-2/",
+     "title": "Nazuna Kyoto Nijo-jo",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kyoto-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.kyoto.yachiyo.baths",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Nanzenji Ryokan Yachiyo: Honkan rooms have their own hinoki bath, several with a garden open-air bath; Nanzen and Eikan baths reservable privately 45 min, 17:00-22:00; Nanzen bath closed 12 Jan-19 Mar 2027.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.kyoto-ryokan.co.jp/",
+     "title": "Kyoto Nanzenji Garden Ryokan Yachiyo | Official Site",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kyoto-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.hakone.lodging-tax-2028",
+   "place": "Japan",
+   "topic": "tax",
+   "claim": "Hakone Town is aiming to introduce a lodging tax from April 2028; the ordinance is still a draft outline.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.town.hakone.kanagawa.jp/www/contents/1763510585116/index.html",
+     "title": "Hakone Town: lodging tax survey and briefing",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html"
+   ]
+  },
+  {
+   "id": "jp.hakone.romancecar",
+   "place": "Japan",
+   "topic": "transport",
+   "claim": "Romancecar Shinjuku to Hakone-Yumoto takes about 80 minutes; limited-express fee ¥1,200 adult one way; seats reservable from 10 a.m. one month ahead.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://odakyu-global.com/passes/romancecar/",
+     "title": "Odakyu: Romancecar",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html"
+   ]
+  },
+  {
+   "id": "jp.hakone.freepass",
+   "place": "Japan",
+   "topic": "fare",
+   "claim": "Hakone Freepass from Shinjuku ¥7,100 (2 days) / ¥7,500 (3 days); from Odawara ¥6,000 / ¥6,400.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://odakyu-global.com/passes/hakone-freepass/",
+     "title": "Odakyu: Hakone Freepass",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html"
+   ]
+  },
+  {
+   "id": "jp.hakone.kinnotake-sengokuhara",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Kinnotake Sengokuhara: 9 room types, open-air onsen in every room, guests aged 12 and over.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://kinnotake-resorts.com/kinnotake-sengokuhara/en/",
+     "title": "Kinnotake Sengokuhara",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html"
+   ]
+  },
+  {
+   "id": "jp.hakone.ten-yu",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Hakone Kowakien Ten-yu: all rooms have a private open-air bath; about 90 minutes from Shinjuku.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.ten-yu.com/en/",
+     "title": "Hakone Kowakien Ten-yu",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html"
+   ]
+  },
+  {
+   "id": "jp.hakone.suishoen",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Hakone Suishoen: 23 rooms, all with open-air baths.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.hakonesuishoen.jp/en/",
+     "title": "Hakone Suishoen",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html"
+   ]
+  },
+  {
+   "id": "jp.hakone.tensui-saryo",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Tensui Saryo: open-air bath on each room's terrace; reservable semi-open-air private bath; equipment work 19 Oct to 30 Nov 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.tensui-saryo.com/spring/",
+     "title": "Tensui Saryo: baths",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html"
+   ]
+  },
+  {
+   "id": "jp.hakone.indigo",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Hotel Indigo Hakone Gora: 94 rooms and 6 suites, all with private onsen; closure for a period in January 2027.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://hakonegora.hotelindigo.com/en",
+     "title": "Hotel Indigo Hakone Gora",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html"
+   ]
+  },
+  {
+   "id": "jp.hakone.fukuzumiro",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Fukuzumiro: founded 1890, 17 rooms, registered cultural property; private baths by arrival order from 15:00; no particular tattoo restrictions.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.fukuzumi-ro.com/en/top-en/",
+     "title": "Fukuzumiro",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.fukuzumi-ro.com/en/about-en/faq-en/",
+     "title": "Fukuzumiro FAQ",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html"
+   ]
+  },
+  {
+   "id": "jp.hakone.hanaori-closure",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Hakone Ashinoko Hanaori: closed after check-out on 12 Jan 2027, reopening for check-in on 22 Jan 2027; two semi-open-air private baths for overnight guests.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://ashinoko-hanaori.orixhotelsandresorts.com/news/10947/",
+     "title": "Hanaori closure notice",
+     "kind": "official"
+    },
+    {
+     "url": "https://ashinoko-hanaori.orixhotelsandresorts.com/",
+     "title": "Hakone Ashinoko Hanaori",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-hakone-ryokan-private-onsen.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.nex-skyliner-monorail-fares",
+   "place": "Japan",
+   "topic": "fare",
+   "claim": "Narita Express Narita to Tokyo ¥3,140 ordinary (53 minutes fastest), ¥3,330 to Shinagawa/Shibuya/Shinjuku; Skyliner to Keisei-Ueno ¥1,280 plus ¥1,300 (about 40 minutes); Monorail Haneda T3 to Hamamatsucho ¥520, trains about every five minutes.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.jreast.co.jp/en/multi/nex/tickets/",
+     "title": "JR East: N'EX tickets",
+     "kind": "operator"
+    },
+    {
+     "url": "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/skyliner/purchase.php",
+     "title": "Keisei Skyliner purchase",
+     "kind": "operator"
+    },
+    {
+     "url": "https://www.tokyo-monorail.co.jp/english/haneda-tokyo-access/index.html",
+     "title": "Tokyo Monorail access",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.hoshinoya.onsen",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "HOSHINOYA Tokyo lists 84 rooms, one onsen and one public bath, a hot spring from 1,500 m below ground, check-in 3:00 PM and check-out 12:00 PM; it does not state tattoo policy, minimum age or meal plan on the pages read.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://hoshinoresorts.com/en/hotels/hoshinoyatokyo/sp/onsen/",
+     "title": "HOSHINOYA Tokyo hot spring and spa",
+     "kind": "official"
+    },
+    {
+     "url": "https://hoshinoresorts.com/en/hotels/hoshinoyatokyo/",
+     "title": "HOSHINOYA Tokyo",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.prince-park-tower.onsen",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "The Prince Park Tower Tokyo lists a natural hot spring in its spa for guests aged 20 or over, says guests with tattoos may not be permitted in certain facilities, and advertises 263 Tower View Rooms.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.princehotels.com/en/parktower/facilities/spa-fitness/",
+     "title": "Prince Park Tower spa and fitness",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.princehotels.com/en/parktower/",
+     "title": "The Prince Park Tower Tokyo",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.ritz-carlton.fuji",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "The Ritz-Carlton, Tokyo occupies the top nine floors of Midtown Tower, lists 245 guest rooms with views including Mt. Fuji, and requires guests to be at least 18 to check in.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/",
+     "title": "The Ritz-Carlton, Tokyo overview",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.imperial.kids",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Imperial Hotel Tokyo's Kids Friendly page lists complimentary children's amenities, cot and bed-rail rentals and a paid Baby Room for ages 1 month to 8 years.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.imperialhotel.co.jp/en/tokyo/special/kids-friendly",
+     "title": "Imperial Hotel Tokyo: kids friendly",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.bvlgari.size",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Bvlgari Hotel Tokyo has 98 rooms and suites on the 40th to 45th floors of Tokyo Midtown Yaesu, with a 25-metre indoor pool and a spa on the 40th floor.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.bulgarihotels.com/en_US/tokyo",
+     "title": "Bvlgari Hotel Tokyo",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.mandarin.size",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Mandarin Oriental, Tokyo has 157 rooms and 22 suites, an indoor vitality pool and a connecting and family rooms page.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.mandarinoriental.com/en/tokyo/nihonbashi/stay",
+     "title": "Mandarin Oriental, Tokyo: stay",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.palace.size",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Palace Hotel Tokyo has 266 rooms and 18 suites in a moat-side setting opposite the Imperial Palace gardens, with heated baths, a marble sauna and a cold plunge pool in the spa.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://en.palacehoteltokyo.com/",
+     "title": "Palace Hotel Tokyo",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.shangri-la.station",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Shangri-La Tokyo lists 200 rooms and about a one-minute walk from Tokyo Station.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.shangri-la.com/en/tokyo/shangrila/",
+     "title": "Shangri-La Tokyo",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.chinzanso.rooms",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Hotel Chinzanso Tokyo lists a Prime Superior Room with a cypress bath, a Japanese Suite and a Prime Deluxe Garden Suite with bunk beds for four, and is about 10 minutes on foot from Edogawabashi Station.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.hotel-chinzanso-tokyo.com/",
+     "title": "Hotel Chinzanso Tokyo",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.tokyo.okura.rooms",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "The Okura Tokyo lists a 41-floor Prestige Tower, a Heritage Wing with traditional Japanese design and a 25-metre pool.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://theokuratokyo.jp/en/",
+     "title": "The Okura Tokyo",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-tokyo-luxury.html"
+   ]
+  },
+  {
+   "id": "jp.fujikawaguchiko.lodging-tax",
+   "place": "Japan",
+   "topic": "tax",
+   "claim": "Fujikawaguchiko town's lodging tax is planned from 1 April 2027 at ¥200 per person per night; none is charged in 2026.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.town.fujikawaguchiko.lg.jp/ka/list.php?ka_id=11",
+     "title": "Fujikawaguchiko town: tax office",
+     "kind": "official"
+    },
+    {
+     "url": "https://www.soumu.go.jp/main_content/001080176.pdf",
+     "title": "MIC: new lodging tax, Fujikawaguchiko",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
+   ]
+  },
+  {
+   "id": "jp.fujikawaguchiko.bathing-tax",
+   "place": "Japan",
+   "topic": "tax",
+   "claim": "Fujikawaguchiko's bathing tax is ¥150 per person per day, with no separate overnight rate; under-12s are exempt.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.town.fujikawaguchiko.lg.jp/upload/file/kanko/syukuhakuzei/251110_4.pdf",
+     "title": "Lodging tax committee report (draft)",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
+   ]
+  },
+  {
+   "id": "jp.kawaguchiko.fuji-kaiyu",
+   "place": "Japan",
+   "topic": "fare",
+   "claim": "Fuji Kaiyu limited express Shinjuku to Kawaguchiko: ¥4,200 (¥2,580 + ¥1,620), fastest 1h53, four round trips daily.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.fujikyu-railway.jp/en/fujikaiyuu/",
+     "title": "Fujikyu Railway: Fuji Kaiyu",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
+   ]
+  },
+  {
+   "id": "jp.kawaguchiko.highway-bus",
+   "place": "Japan",
+   "topic": "transport",
+   "claim": "Highway bus Shinjuku to Kawaguchiko takes about two hours; fares from ¥1,500 to ¥2,000.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://kosokubus.com/en/special/tokyo_kawaguchiko.html",
+     "title": "Highway bus portal",
+     "kind": "operator"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
+   ]
+  },
+  {
+   "id": "jp.kawaguchiko.konansou-baths",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Konansou lists ten Mt. Fuji-side rooms each with a private open-air bath, and forty lake-side rooms.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.konansou.com/en/",
+     "title": "Konansou",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
+   ]
+  },
+  {
+   "id": "jp.kawaguchiko.fufu-rooms",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Fufu Kawaguchiko: all rooms are suites with a Mount Fuji view; rooms have open-air hot-spring baths.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.fufukawaguchiko.jp/en/",
+     "title": "FUFU Kawaguchiko",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
+   ]
+  },
+  {
+   "id": "jp.kawaguchiko.asafuji-rooms",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Asafuji: every room has a Fuji and lake view; only the Superior room is listed with a private bathroom.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://en.asafuji.jp/",
+     "title": "Asafuji",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
+   ]
+  },
+  {
+   "id": "jp.kawaguchiko.ooike-baths",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Ooike Hotel lists eight rooms with a Fuji-view bath (one suite, seven deluxe).",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.ooike-hotel.co.jp/room",
+     "title": "Ooike Hotel rooms",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
+   ]
+  },
+  {
+   "id": "jp.kawaguchiko.fujilake-baths",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Fuji Lake Hotel offers one view per room and a paid private bath with a Fuji view reserved at check-in.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.fujilake.co.jp/english/",
+     "title": "Fuji Lake Hotel",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
+   ]
+  },
+  {
+   "id": "jp.kawaguchiko.hoshinoya",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Hoshinoya Fuji: 40 rooms, check-in 15:00, check-out 12:00.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://hoshinoresorts.com/en/hotels/hoshinoyafuji/",
+     "title": "Hoshinoya Fuji",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
+   ]
+  },
+  {
+   "id": "jp.yamanakako.mtfuji-rooms",
+   "place": "Japan",
+   "topic": "hotel",
+   "claim": "Hotel Mt. Fuji (Yamanakako): six of ten room types describe a Fuji view; no room open-air bath on its page.",
+   "value": null,
+   "sources": [
+    {
+     "url": "https://www.mtfuji-hotel.com/rooms/",
+     "title": "Hotel Mt. Fuji rooms",
+     "kind": "official"
+    }
+   ],
+   "checked": "2026-11-28",
+   "recheck_days": null,
+   "note": "",
+   "pages": [
+    "https://gentlyyonder.com/articles/where-to-stay-in-kawaguchiko-fuji-view.html"
    ]
   },
   {

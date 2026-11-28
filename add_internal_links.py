@@ -591,6 +591,26 @@ ARTICLES: dict[str, tuple[str, str]] = {
         "Where to Stay in New York",
         "Six areas from Midtown to Brooklyn, 12 hotels, the 14.75% hotel tax and the free bus from LaGuardia.",
     ),
+    "articles/where-to-stay-in-bali-private-pool-villa.html": (
+        "Where to Stay in Bali",
+        "10 Bali villas that name a private pool, by area, with the IDR 150,000 levy and the 10% tax.",
+    ),
+    "articles/where-to-stay-in-kawaguchiko-fuji-view.html": (
+        "Where to Stay in Lake Kawaguchiko",
+        "Ten Fuji-view ryokan and hotels at Lake Kawaguchiko, which have an open-air bath, and the tax.",
+    ),
+    "articles/where-to-stay-in-tokyo-luxury.html": (
+        "Where to Stay in Tokyo",
+        "Ten top Tokyo stays by view, area and bath, plus how the accommodation tax changes in April 2027.",
+    ),
+    "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": (
+        "Where to Stay in Hakone",
+        "Ten Hakone stays with a private onsen, the three kinds of private bath and the ¥150 bathing tax.",
+    ),
+    "articles/where-to-stay-in-kyoto-luxury.html": (
+        "Where to Stay in Kyoto",
+        "Nine luxury hotels and ryokan in Kyoto, and the new tax of up to ¥10,000 per person a night.",
+    ),
     "articles/where-to-stay-in-paris-christmas.html": (
         "Where to Stay in Paris",
         "Markets to 3 January, museums shut on 25 December, 12 hotels and the 2026 tourist tax.",
@@ -2429,6 +2449,39 @@ LINKS: dict[str, list[str]] = {
         "articles/travel-insurance-compared.html",
         "articles/airalo-vs-holafly-vs-saily.html",
         "articles/where-to-stay-in-paris.html",
+    ],
+    "articles/where-to-stay-in-bali-private-pool-villa.html": [
+        "articles/where-to-stay-in-bali.html",
+        "articles/things-to-do-in-bali.html",
+        "articles/bali-first-timers-guide.html",
+        "articles/bali-7-day-itinerary.html",
+    ],
+    "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+        "articles/where-to-stay-in-hakone.html",
+        "articles/where-to-stay-in-japan.html",
+        "articles/where-to-book-mount-fuji-day-tour.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/travel-insurance-japan.html",
+    ],
+    "articles/where-to-stay-in-tokyo-luxury.html": [
+        "articles/where-to-stay-in-tokyo.html",
+        "articles/first-day-in-tokyo-arrival-plan.html",
+        "articles/narita-haneda-to-central-tokyo.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/travel-insurance-japan.html",
+    ],
+    "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+        "articles/where-to-stay-in-hakone.html",
+        "articles/where-to-stay-in-japan.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/hotel-booking-sites-comparison.html",
+    ],
+    "articles/where-to-stay-in-kyoto-luxury.html": [
+        "articles/where-to-stay-in-kyoto.html",
+        "articles/gion-kyoto-neighbourhood-guide.html",
+        "articles/things-to-do-in-kyoto.html",
+        "articles/best-esim-japan-2026.html",
+        "articles/travel-insurance-japan.html",
     ],
     "articles/where-to-stay-in-paris-christmas.html": [
         "articles/where-to-stay-in-paris.html",

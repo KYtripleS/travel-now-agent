@@ -561,6 +561,11 @@
           "none under ¥10,000; ¥100 from ¥10,000 to ¥14,999; ¥200 from ¥15,000",
           "From 1 April 2027: 3% of the rate per person per night; none under ¥13,000",
           "Tokyo says the tax may be collected at the front desk, apart from the room rate"
+        ],
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "Until 31 March 2027 it is a flat ¥100 or ¥200 depending on the rate",
+          "3% of the accommodation charge per person per night",
+          "3% of ¥40,000, which is ¥1,200 per person per night"
         ]
       },
       "watch": "Tokyo[^.]{0,80}(accommodation|lodging) tax[^.]{0,80}¥"
@@ -4831,6 +4836,10 @@
       "used_in": {
         "articles/where-to-stay-in-hakone.html": [
           "bathing tax of ¥150 per person per night"
+        ],
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "¥150 per person per night",
+          "2 × 2 × ¥150 = ¥600"
         ]
       }
     },
@@ -9046,6 +9055,996 @@
           "¥7,800 for 12 December",
           "Free cancellation up to 2 days ahead",
           "a marathon is held and the order of stops may change"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.accommodation-tax-2026",
+      "topic": "tax",
+      "claim": "From 1 March 2026 Kyoto's accommodation tax is 200/400/1,000/4,000/10,000 yen per person per night for fees under 6,000 / 6,000-19,999 / 20,000-49,999 / 50,000-99,999 / 100,000+ yen.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://kyoto.travel/en/news/tax-change/",
+          "kind": "official",
+          "title": "Kyoto City Official Travel Guide: accommodation tax change",
+          "evidence": [
+            "The accommodation tax rates will change as follows on March 1, 2026.",
+            "100,000 yen or more"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-luxury.html": [
+          "Since 1 March 2026",
+          "¥10,000 per person from ¥100,000"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.ritz.tax-included",
+      "topic": "tax",
+      "claim": "The Ritz-Carlton Kyoto states the city tax is included in the room rate (134 rooms and suites on the Kamogawa).",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.ritzcarlton.com/en/hotels/ukyrz-the-ritz-carlton-kyoto/overview/",
+          "kind": "official",
+          "title": "The Ritz-Carlton, Kyoto overview",
+          "evidence": [
+            "This tax is included in the room rate.",
+            "134 guest rooms and suites"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-luxury.html": [
+          "states that the tax is included in the room rate",
+          "134 rooms and suites on the Kamogawa bank"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.okura.tax-separate",
+      "topic": "tax",
+      "claim": "Hotel Okura Kyoto (320 rooms) states the tax is not included and is paid separately; about 2h20 from Tokyo Station by bullet train; 15 minutes from JR Kyoto Station by car.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://okura.com/japan/kyoto/hotel-okura-kyoto/",
+          "kind": "official",
+          "title": "Hotel Okura Kyoto",
+          "evidence": [
+            "The accommodation tax is not included in the room rate and must be paid separately at the hotel.",
+            "Two hours and 20 minutes from Tokyo station by bullet train",
+            "Number of Guest rooms : 320"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-luxury.html": [
+          "states that it is not included and is paid separately at the hotel",
+          "about two hours twenty minutes",
+          "about 15 minutes from JR Kyoto Station by car"
+        ]
+      }
+    },
+    {
+      "id": "jp.kix.haruka-fare",
+      "topic": "fare",
+      "claim": "JR West one-way Haruka ticket Kansai Airport to Kyoto is 2,700 yen for adults on tickets sold from 1 November 2026.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.westjr.co.jp/travel-information/en/tickets-passes/oneway/haruka/",
+          "kind": "operator",
+          "title": "JR West HARUKA one-way ticket",
+          "evidence": [
+            "Please note that the price has changed for tickets sold on or after November 1, 2026.",
+            "2,700"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-luxury.html": [
+          "¥2,700 for adults on tickets sold from 1 November 2026"
+        ]
+      }
+    },
+    {
+      "id": "jp.kix.haruka-time",
+      "topic": "transport",
+      "claim": "JR Haruka Kansai Airport to Kyoto takes about 75 minutes.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.kansai-airport.or.jp/en/access/from-airport/train",
+          "kind": "official",
+          "title": "Kansai Airport: train access",
+          "evidence": [
+            "75 min"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-luxury.html": [
+          "takes about 75 minutes"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.four-seasons.garden",
+      "topic": "hotel",
+      "claim": "Four Seasons Hotel Kyoto is centred on Shakusui-en, an 800-year-old heritage pond garden in Higashiyama.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.fourseasons.com/kyoto/",
+          "kind": "official",
+          "title": "Four Seasons Hotel Kyoto",
+          "evidence": [
+            "800-year-old heritage pond garden"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-luxury.html": [
+          "a pond garden its site calls 800 years old"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.roku.official",
+      "topic": "hotel",
+      "claim": "ROKU KYOTO's own site lists Forbes five stars for 2026, a Michelin Key and a notice on the Kyoto tax revision; thermal pool needs advance booking in some periods from July 2026.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.rokukyoto.com/",
+          "kind": "official",
+          "title": "ROKU KYOTO official site",
+          "evidence": [
+            "京都市宿泊税改正のお知らせ（2026年3月1日宿泊分から）",
+            "サーマルプール事前予約制の期間のお知らせ（2026年7月〜）"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-luxury.html": [
+          "holds Forbes five stars for 2026 and a Michelin Key",
+          "needs advance reservation in some periods from July 2026"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.sowaka.official",
+      "topic": "hotel",
+      "claim": "SOWAKA: Small Luxury Hotels of the World member since April 2020, Forbes four stars from Feb 2025; address Kiyoi-cho 480, Higashiyama.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://sowaka.com/",
+          "kind": "official",
+          "title": "SOWAKA official site",
+          "evidence": [
+            "2020年4月より、",
+            "Forbes Travel Guideにて",
+            "清井町480"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-luxury.html": [
+          "a member of Small Luxury Hotels of the World since April 2020",
+          "rated four stars by Forbes Travel Guide in 2025"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.nazuna-nijo.breakfast",
+      "topic": "hotel",
+      "claim": "Nazuna Kyoto Nijo-jo's page: irori-lounge breakfast 07:30-09:30, charcoal cooking paused, vegetables steamed.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.nazuna.co/property/nazuna-kyoto-nijojo-2/",
+          "kind": "official",
+          "title": "Nazuna Kyoto Nijo-jo",
+          "evidence": [
+            "ご朝食時間：7時30分～9時30分",
+            "せいろ蒸し"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-luxury.html": [
+          "from 07:30 to 09:30"
+        ]
+      }
+    },
+    {
+      "id": "jp.kyoto.yachiyo.baths",
+      "topic": "hotel",
+      "claim": "Nanzenji Ryokan Yachiyo: Honkan rooms have their own hinoki bath, several with a garden open-air bath; Nanzen and Eikan baths reservable privately 45 min, 17:00-22:00; Nanzen bath closed 12 Jan-19 Mar 2027.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.kyoto-ryokan.co.jp/",
+          "kind": "official",
+          "title": "Kyoto Nanzenji Garden Ryokan Yachiyo | Official Site",
+          "evidence": [
+            "the Nanzen bath is closed for renovation"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kyoto-luxury.html": [
+          "can be reserved privately for 45 minutes between 17:00 and 22:00",
+          "closed for renovation from 12 January to 19 March 2027"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.lodging-tax-2028",
+      "topic": "tax",
+      "claim": "Hakone Town is aiming to introduce a lodging tax from April 2028; the ordinance is still a draft outline.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.town.hakone.kanagawa.jp/www/contents/1763510585116/index.html",
+          "kind": "official",
+          "title": "Hakone Town: lodging tax survey and briefing",
+          "evidence": [
+            "令和10年４月から宿泊税を導入することを目指し"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "aiming to start in April 2028"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.romancecar",
+      "topic": "transport",
+      "claim": "Romancecar Shinjuku to Hakone-Yumoto takes about 80 minutes; limited-express fee ¥1,200 adult one way; seats reservable from 10 a.m. one month ahead.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://odakyu-global.com/passes/romancecar/",
+          "kind": "operator",
+          "title": "Odakyu: Romancecar",
+          "evidence": [
+            "Limited express tickets can be reserved or purchased starting at 10 a.m. (JST) one month before the departure date."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "about 80 minutes",
+          "¥1,200 one way for adults"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.freepass",
+      "topic": "fare",
+      "claim": "Hakone Freepass from Shinjuku ¥7,100 (2 days) / ¥7,500 (3 days); from Odawara ¥6,000 / ¥6,400.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://odakyu-global.com/passes/hakone-freepass/",
+          "kind": "operator",
+          "title": "Odakyu: Hakone Freepass",
+          "evidence": [
+            "Valid for 2days from Shinjuku"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "¥7,100 for two days or ¥7,500 for three",
+          "¥6,000 or ¥6,400"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.kinnotake-sengokuhara",
+      "topic": "hotel",
+      "claim": "Kinnotake Sengokuhara: 9 room types, open-air onsen in every room, guests aged 12 and over.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://kinnotake-resorts.com/kinnotake-sengokuhara/en/",
+          "kind": "official",
+          "title": "Kinnotake Sengokuhara",
+          "evidence": [
+            "Luxuriate in the open-air onsen, a feature available in every room.",
+            "designed for guests aged 12 and above"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "Nine uniquely designed room types",
+          "aged 12 and over"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.ten-yu",
+      "topic": "hotel",
+      "claim": "Hakone Kowakien Ten-yu: all rooms have a private open-air bath; about 90 minutes from Shinjuku.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.ten-yu.com/en/",
+          "kind": "official",
+          "title": "Hakone Kowakien Ten-yu",
+          "evidence": [
+            "all rooms come with its own private open-air bath",
+            "Approx.90 min from Shinjuku Tokyo."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "every room carrying a private open-air hot-spring bath",
+          "about 90 minutes from Shinjuku"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.suishoen",
+      "topic": "hotel",
+      "claim": "Hakone Suishoen: 23 rooms, all with open-air baths.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.hakonesuishoen.jp/en/",
+          "kind": "official",
+          "title": "Hakone Suishoen",
+          "evidence": [
+            "Each of the 23 rooms is uniquely designed",
+            "All rooms feature open-air baths with free-flowing natural hot spring water."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "23 individually designed rooms"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.tensui-saryo",
+      "topic": "hotel",
+      "claim": "Tensui Saryo: open-air bath on each room's terrace; reservable semi-open-air private bath; equipment work 19 Oct to 30 Nov 2026.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.tensui-saryo.com/spring/",
+          "kind": "official",
+          "title": "Tensui Saryo: baths",
+          "evidence": [
+            "客室のテラスにご用意しております",
+            "貸切露天風呂「明神の湯」"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "an open-air bath on its terrace",
+          "Equipment work until 30 November 2026"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.indigo",
+      "topic": "hotel",
+      "claim": "Hotel Indigo Hakone Gora: 94 rooms and 6 suites, all with private onsen; closure for a period in January 2027.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://hakonegora.hotelindigo.com/en",
+          "kind": "official",
+          "title": "Hotel Indigo Hakone Gora",
+          "evidence": [
+            "ALL ROOMS WITH PRIVATE ONSEN",
+            "Notice of closure for a certain period in January 2027"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "94 rooms and 6 suites"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.fukuzumiro",
+      "topic": "hotel",
+      "claim": "Fukuzumiro: founded 1890, 17 rooms, registered cultural property; private baths by arrival order from 15:00; no particular tattoo restrictions.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.fukuzumi-ro.com/en/top-en/",
+          "kind": "official",
+          "title": "Fukuzumiro",
+          "evidence": [
+            "There are 17 guest rooms.",
+            "The building of FUKUZUMIRO is registered as the cultural property of Japan."
+          ]
+        },
+        {
+          "url": "https://www.fukuzumi-ro.com/en/about-en/faq-en/",
+          "kind": "official",
+          "title": "Fukuzumiro FAQ",
+          "evidence": [
+            "There are no particular restrictions on tattoos at the hotel."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "17 rooms and kaiseki served in the room",
+          "no particular restrictions on tattoos"
+        ]
+      }
+    },
+    {
+      "id": "jp.hakone.hanaori-closure",
+      "topic": "hotel",
+      "claim": "Hakone Ashinoko Hanaori: closed after check-out on 12 Jan 2027, reopening for check-in on 22 Jan 2027; two semi-open-air private baths for overnight guests.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://ashinoko-hanaori.orixhotelsandresorts.com/news/10947/",
+          "kind": "official",
+          "title": "Hanaori closure notice",
+          "evidence": [
+            "2027年1月22日（金）チェックイン（15:00）より"
+          ]
+        },
+        {
+          "url": "https://ashinoko-hanaori.orixhotelsandresorts.com/",
+          "kind": "official",
+          "title": "Hakone Ashinoko Hanaori",
+          "evidence": [
+            "2つの半露天の貸切風呂をご用意しました。"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-hakone-ryokan-private-onsen.html": [
+          "closes entirely after check-out on 12 January 2027",
+          "two semi-open-air private baths for overnight guests"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.nex-skyliner-monorail-fares",
+      "topic": "fare",
+      "claim": "Narita Express Narita to Tokyo ¥3,140 ordinary (53 minutes fastest), ¥3,330 to Shinagawa/Shibuya/Shinjuku; Skyliner to Keisei-Ueno ¥1,280 plus ¥1,300 (about 40 minutes); Monorail Haneda T3 to Hamamatsucho ¥520, trains about every five minutes.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.jreast.co.jp/en/multi/nex/tickets/",
+          "kind": "operator",
+          "title": "JR East: N'EX tickets",
+          "evidence": []
+        },
+        {
+          "url": "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/skyliner/purchase.php",
+          "kind": "operator",
+          "title": "Keisei Skyliner purchase",
+          "evidence": [
+            "Skyliner fare Adult ¥1,300"
+          ]
+        },
+        {
+          "url": "https://www.tokyo-monorail.co.jp/english/haneda-tokyo-access/index.html",
+          "kind": "operator",
+          "title": "Tokyo Monorail access",
+          "evidence": [
+            "The monorail runs on an average of every five minutes from Haneda Airport to Hamamatsucho Station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "the Narita Express to Tokyo Station is ¥3,140 in an ordinary car",
+          "¥1,280 base fare plus a ¥1,300 Skyliner fee",
+          "from Terminal 3 to Hamamatsucho is ¥520"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.hoshinoya.onsen",
+      "topic": "hotel",
+      "claim": "HOSHINOYA Tokyo lists 84 rooms, one onsen and one public bath, a hot spring from 1,500 m below ground, check-in 3:00 PM and check-out 12:00 PM; it does not state tattoo policy, minimum age or meal plan on the pages read.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://hoshinoresorts.com/en/hotels/hoshinoyatokyo/sp/onsen/",
+          "kind": "official",
+          "title": "HOSHINOYA Tokyo hot spring and spa",
+          "evidence": [
+            "A Natural Hot Spring Gushing from 1,500m Below Ground"
+          ]
+        },
+        {
+          "url": "https://hoshinoresorts.com/en/hotels/hoshinoyatokyo/",
+          "kind": "official",
+          "title": "HOSHINOYA Tokyo",
+          "evidence": [
+            "Check-in / Check-out 3:00 PM / 12:00 PM"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "84 rooms in a ryokan tower in Otemachi",
+          "a natural hot spring from 1,500 metres underground",
+          "Check-in is 3:00 pm and check-out 12:00 pm"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.prince-park-tower.onsen",
+      "topic": "hotel",
+      "claim": "The Prince Park Tower Tokyo lists a natural hot spring in its spa for guests aged 20 or over, says guests with tattoos may not be permitted in certain facilities, and advertises 263 Tower View Rooms.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.princehotels.com/en/parktower/facilities/spa-fitness/",
+          "kind": "official",
+          "title": "Prince Park Tower spa and fitness",
+          "evidence": [
+            "These facilities may only be used by guests of age 20 or over.",
+            "guests with tattoos may not be permitted to use certain facilities"
+          ]
+        },
+        {
+          "url": "https://www.princehotels.com/en/parktower/",
+          "kind": "official",
+          "title": "The Prince Park Tower Tokyo",
+          "evidence": [
+            "263 Tower View Rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "263 Tower View Rooms",
+          "the spa is for guests aged 20 or over",
+          "guests with tattoos may not be allowed in certain facilities"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.ritz-carlton.fuji",
+      "topic": "hotel",
+      "claim": "The Ritz-Carlton, Tokyo occupies the top nine floors of Midtown Tower, lists 245 guest rooms with views including Mt. Fuji, and requires guests to be at least 18 to check in.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.ritzcarlton.com/en/hotels/tyorz-the-ritz-carlton-tokyo/overview/",
+          "kind": "official",
+          "title": "The Ritz-Carlton, Tokyo overview",
+          "evidence": [
+            "Mt. Fuji"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "245 rooms in the top nine floors of the 53-storey Midtown Tower",
+          "guests must be at least 18 to check in"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.imperial.kids",
+      "topic": "hotel",
+      "claim": "Imperial Hotel Tokyo's Kids Friendly page lists complimentary children's amenities, cot and bed-rail rentals and a paid Baby Room for ages 1 month to 8 years.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.imperialhotel.co.jp/en/tokyo/special/kids-friendly",
+          "kind": "official",
+          "title": "Imperial Hotel Tokyo: kids friendly",
+          "evidence": [
+            "Available for children aged 1 month to 8 years old (up to 2nd grade)."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "a paid Baby Room for ages 1 month to 8 years",
+          "the Baby Room is hourly and charged"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.bvlgari.size",
+      "topic": "hotel",
+      "claim": "Bvlgari Hotel Tokyo has 98 rooms and suites on the 40th to 45th floors of Tokyo Midtown Yaesu, with a 25-metre indoor pool and a spa on the 40th floor.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.bulgarihotels.com/en_US/tokyo",
+          "kind": "official",
+          "title": "Bvlgari Hotel Tokyo",
+          "evidence": [
+            "Occupying the 40th to 45th floors of the Tokyo Midtown Yaesu skyscraper",
+            "98 Rooms and Suites"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "98 rooms and suites on the 40th to 45th floors of Tokyo Midtown Yaesu",
+          "Only 98 rooms"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.mandarin.size",
+      "topic": "hotel",
+      "claim": "Mandarin Oriental, Tokyo has 157 rooms and 22 suites, an indoor vitality pool and a connecting and family rooms page.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.mandarinoriental.com/en/tokyo/nihonbashi/stay",
+          "kind": "official",
+          "title": "Mandarin Oriental, Tokyo: stay",
+          "evidence": [
+            "our 157 rooms and 22 suites"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "157 rooms and 22 suites in Nihonbashi"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.palace.size",
+      "topic": "hotel",
+      "claim": "Palace Hotel Tokyo has 266 rooms and 18 suites in a moat-side setting opposite the Imperial Palace gardens, with heated baths, a marble sauna and a cold plunge pool in the spa.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://en.palacehoteltokyo.com/",
+          "kind": "official",
+          "title": "Palace Hotel Tokyo",
+          "evidence": [
+            "moat-side setting just opposite the Imperial Palace gardens"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "266 rooms and 18 suites in a moat-side setting",
+          "heated baths, marble sauna and cold plunge pool"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.shangri-la.station",
+      "topic": "hotel",
+      "claim": "Shangri-La Tokyo lists 200 rooms and about a one-minute walk from Tokyo Station.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.shangri-la.com/en/tokyo/shangrila/",
+          "kind": "official",
+          "title": "Shangri-La Tokyo",
+          "evidence": [
+            "About 1 minute walk from Tokyo station",
+            "200 rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "200 rooms, about a one-minute walk from Tokyo Station"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.chinzanso.rooms",
+      "topic": "hotel",
+      "claim": "Hotel Chinzanso Tokyo lists a Prime Superior Room with a cypress bath, a Japanese Suite and a Prime Deluxe Garden Suite with bunk beds for four, and is about 10 minutes on foot from Edogawabashi Station.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.hotel-chinzanso-tokyo.com/",
+          "kind": "official",
+          "title": "Hotel Chinzanso Tokyo",
+          "evidence": [
+            "Prime Superior Room（with cypress bath）",
+            "Approximately 10 minutes by foot from Edogawabashi Station"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "about ten minutes on foot from Edogawabashi Station",
+          "a Prime Deluxe Garden Suite with bunk beds for four"
+        ]
+      }
+    },
+    {
+      "id": "jp.tokyo.okura.rooms",
+      "topic": "hotel",
+      "claim": "The Okura Tokyo lists a 41-floor Prestige Tower, a Heritage Wing with traditional Japanese design and a 25-metre pool.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://theokuratokyo.jp/en/",
+          "kind": "official",
+          "title": "The Okura Tokyo",
+          "evidence": [
+            "25-meter pool"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-tokyo-luxury.html": [
+          "A 41-floor Prestige Tower in Toranomon",
+          "a 25-metre pool in its fitness and spa"
+        ]
+      }
+    },
+    {
+      "id": "jp.fujikawaguchiko.lodging-tax",
+      "topic": "tax",
+      "claim": "Fujikawaguchiko town's lodging tax is planned from 1 April 2027 at ¥200 per person per night; none is charged in 2026.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.town.fujikawaguchiko.lg.jp/ka/list.php?ka_id=11",
+          "kind": "official",
+          "title": "Fujikawaguchiko town: tax office",
+          "evidence": [
+            "令和9年4月1日～導入予定"
+          ]
+        },
+        {
+          "url": "https://www.soumu.go.jp/main_content/001080176.pdf",
+          "kind": "official",
+          "title": "MIC: new lodging tax, Fujikawaguchiko",
+          "evidence": [
+            "200円"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "planned from 1 April 2027",
+          "¥200 per person per night"
+        ]
+      }
+    },
+    {
+      "id": "jp.fujikawaguchiko.bathing-tax",
+      "topic": "tax",
+      "claim": "Fujikawaguchiko's bathing tax is ¥150 per person per day, with no separate overnight rate; under-12s are exempt.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.town.fujikawaguchiko.lg.jp/upload/file/kanko/syukuhakuzei/251110_4.pdf",
+          "kind": "official",
+          "title": "Lodging tax committee report (draft)",
+          "evidence": [
+            "一律150円"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "¥150 per person per day",
+          "2 × 2 × ¥150 = ¥600"
+        ]
+      }
+    },
+    {
+      "id": "jp.kawaguchiko.fuji-kaiyu",
+      "topic": "fare",
+      "claim": "Fuji Kaiyu limited express Shinjuku to Kawaguchiko: ¥4,200 (¥2,580 + ¥1,620), fastest 1h53, four round trips daily.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.fujikyu-railway.jp/en/fujikaiyuu/",
+          "kind": "operator",
+          "title": "Fujikyu Railway: Fuji Kaiyu",
+          "evidence": [
+            "Shinjuku Station to Kawaguchiko Station　¥4,200",
+            "will operate four round trips daily"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "The fare from Shinjuku is ¥4,200",
+          "four round trips a day"
+        ]
+      }
+    },
+    {
+      "id": "jp.kawaguchiko.highway-bus",
+      "topic": "transport",
+      "claim": "Highway bus Shinjuku to Kawaguchiko takes about two hours; fares from ¥1,500 to ¥2,000.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://kosokubus.com/en/special/tokyo_kawaguchiko.html",
+          "kind": "operator",
+          "title": "Highway bus portal",
+          "evidence": [
+            "about 2 hours"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "about two hours",
+          "from ¥1,500"
+        ]
+      }
+    },
+    {
+      "id": "jp.kawaguchiko.konansou-baths",
+      "topic": "hotel",
+      "claim": "Konansou lists ten Mt. Fuji-side rooms each with a private open-air bath, and forty lake-side rooms.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.konansou.com/en/",
+          "kind": "official",
+          "title": "Konansou",
+          "evidence": [
+            "all featuring a private open-air bath"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "ten Mt. Fuji-side rooms",
+          "check in by 18:00"
+        ]
+      }
+    },
+    {
+      "id": "jp.kawaguchiko.fufu-rooms",
+      "topic": "hotel",
+      "claim": "Fufu Kawaguchiko: all rooms are suites with a Mount Fuji view; rooms have open-air hot-spring baths.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.fufukawaguchiko.jp/en/",
+          "kind": "official",
+          "title": "FUFU Kawaguchiko",
+          "evidence": [
+            "All rooms are suites with a view of Mount Fuji."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "All rooms are suites with a view of Mount Fuji",
+          "open-air natural hot-spring baths in the rooms"
+        ]
+      }
+    },
+    {
+      "id": "jp.kawaguchiko.asafuji-rooms",
+      "topic": "hotel",
+      "claim": "Asafuji: every room has a Fuji and lake view; only the Superior room is listed with a private bathroom.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://en.asafuji.jp/",
+          "kind": "official",
+          "title": "Asafuji",
+          "evidence": [
+            "Every room provides a breathtaking view of Mt. Fuji and Lake Kawaguchiko."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "every room has a view of Mt Fuji and Lake Kawaguchiko",
+          "about six minutes by car"
+        ]
+      }
+    },
+    {
+      "id": "jp.kawaguchiko.ooike-baths",
+      "topic": "hotel",
+      "claim": "Ooike Hotel lists eight rooms with a Fuji-view bath (one suite, seven deluxe).",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.ooike-hotel.co.jp/room",
+          "kind": "official",
+          "title": "Ooike Hotel rooms",
+          "evidence": [
+            "富士山展望風呂"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "eight rooms with a bath that looks at Fuji"
+        ]
+      }
+    },
+    {
+      "id": "jp.kawaguchiko.fujilake-baths",
+      "topic": "hotel",
+      "claim": "Fuji Lake Hotel offers one view per room and a paid private bath with a Fuji view reserved at check-in.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.fujilake.co.jp/english/",
+          "kind": "official",
+          "title": "Fuji Lake Hotel",
+          "evidence": [
+            "Only one view is available per room."
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "only one view is available per room",
+          "reserved at check-in on the day"
+        ]
+      }
+    },
+    {
+      "id": "jp.kawaguchiko.hoshinoya",
+      "topic": "hotel",
+      "claim": "Hoshinoya Fuji: 40 rooms, check-in 15:00, check-out 12:00.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://hoshinoresorts.com/en/hotels/hoshinoyafuji/",
+          "kind": "official",
+          "title": "Hoshinoya Fuji",
+          "evidence": [
+            "40 Rooms"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "40 rooms, check-in at 15:00 and check-out at 12:00"
+        ]
+      }
+    },
+    {
+      "id": "jp.yamanakako.mtfuji-rooms",
+      "topic": "hotel",
+      "claim": "Hotel Mt. Fuji (Yamanakako): six of ten room types describe a Fuji view; no room open-air bath on its page.",
+      "checked": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://www.mtfuji-hotel.com/rooms/",
+          "kind": "official",
+          "title": "Hotel Mt. Fuji rooms",
+          "evidence": [
+            "富士山を望めます"
+          ]
+        }
+      ],
+      "used_in": {
+        "articles/where-to-stay-in-kawaguchiko-fuji-view.html": [
+          "six of its ten room types"
         ]
       }
     }
